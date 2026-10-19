@@ -1,0 +1,963 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:08Z",
+ "course_slug": "ial-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/flashcards/exponentials-and-logarithms/laws-of-logarithms/",
+  "section_slug": "exponentials-and-logarithms",
+  "section_name": "Exponentials & Logarithms",
+  "topic_slug": "laws-of-logarithms",
+  "title": "Laws of Logarithms",
+  "order": 0
+ },
+ "card_count": 29,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 16,
+  "fill_in_the_blanks": 5,
+  "true_or_false": 5
+ },
+ "spec_link_cards": 29,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_VhNn2hTPzxgc2Gwb",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_BcPx7bMs7BwHqd5Q",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **exponential function**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A function of the form $y = a^{x}$, where the variable sits in the **power** and $a > 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the variable's position that makes it exponential, not the size of the base."
+    }
+   ],
+   "front_md": "Define **exponential function**.\n",
+   "back_md": "A function of the form $y = a^{x}$, where the variable sits in the **power** and $a > 0$.\n\nIt is the variable's position that makes it exponential, not the size of the base.\n",
+   "spec_links": [
+    "spcpt_9hj7RrpSwthZMfPM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Dzqm6b52WwnpHFcJ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_BcPx7bMs7BwHqd5Q",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do all graphs of the form $y = a^{x}$ have in common?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They all pass through `\\left(0 , 1\\right)`, because $a^{0} = 1$ whatever $a$ is."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $x$-axis is an asymptote, so the curve approaches it without ever reaching it."
+    }
+   ],
+   "front_md": "What do all graphs of the form $y = a^{x}$ have in common?\n",
+   "back_md": "They all pass through `\\left(0 , 1\\right)`, because $a^{0} = 1$ whatever $a$ is.\n\nThe $x$-axis is an asymptote, so the curve approaches it without ever reaching it.\n",
+   "spec_links": [
+    "spcpt_9hj7RrpSwthZMfPM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QWZMFKYhHHygdk6c",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_BcPx7bMs7BwHqd5Q",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$y = a^{x}$ shows exponential **growth** when `a \\_\\_\\_\\_\\_\\_`, and exponential **decay** when `\\_\\_\\_\\_\\_\\_ < a < \\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It shows growth when $a > 1$, and decay when $0 < a < 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A base bigger than $1$ multiplies up at every step, while a base between $0$ and $1$ multiplies down."
+    }
+   ],
+   "front_md": "$y = a^{x}$ shows exponential **growth** when `a \\_\\_\\_\\_\\_\\_`, and exponential **decay** when `\\_\\_\\_\\_\\_\\_ < a < \\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "It shows growth when $a > 1$, and decay when $0 < a < 1$.\n\nA base bigger than $1$ multiplies up at every step, while a base between $0$ and $1$ multiplies down.\n",
+   "spec_links": [
+    "spcpt_9hj7RrpSwthZMfPM"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_TnN2ZsZw7dsSTMCS",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_BcPx7bMs7BwHqd5Q",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$y = 1^{x}$ is an exponential function."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$1^{x} = 1$ for every value of $x$, so the graph is just the horizontal line $y = 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is precisely why $a = 1$ is excluded: nothing grows and nothing decays."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$y = 1^{x}$ is an exponential function.\n",
+   "back_md": "**False.**\n\n$1^{x} = 1$ for every value of $x$, so the graph is just the horizontal line $y = 1$.\n\nThat is precisely why $a = 1$ is excluded: nothing grows and nothing decays.\n",
+   "spec_links": [
+    "spcpt_9hj7RrpSwthZMfPM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yR6ZzdSv2M5wWTtX",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_BcPx7bMs7BwHqd5Q",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For $x > 0$, is $3^{x}$ above or below $2^{x}$, and what happens for $x < 0$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Above for $x > 0$, and **below** for $x < 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two curves meet at `\\left(0 , 1\\right)`, which every exponential graph passes through, so that is where the ordering swaps."
+    }
+   ],
+   "front_md": "For $x > 0$, is $3^{x}$ above or below $2^{x}$, and what happens for $x < 0$?\n",
+   "back_md": "Above for $x > 0$, and **below** for $x < 0$.\n\nThe two curves meet at `\\left(0 , 1\\right)`, which every exponential graph passes through, so that is where the ordering swaps.\n",
+   "spec_links": [
+    "spcpt_9hj7RrpSwthZMfPM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dCjkdDX2fWvT33B5",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_BcPx7bMs7BwHqd5Q",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must the base of an exponential function be positive?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a negative base gives no real value for fractional powers."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(- 4\\right)^{\\frac{1}{2}}` does not exist as a real number, so the graph would have gaps instead of being a smooth curve."
+    }
+   ],
+   "front_md": "Why must the base of an exponential function be positive?\n",
+   "back_md": "Because a negative base gives no real value for fractional powers.\n\n`\\left(- 4\\right)^{\\frac{1}{2}}` does not exist as a real number, so the graph would have gaps instead of being a smooth curve.\n",
+   "spec_links": [
+    "spcpt_9hj7RrpSwthZMfPM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XjTqQXPmDrKvfJq3",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **logarithm**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **logarithm** answers the question *what power do you raise the base to?*: $\\mathrm{log}_{b} a = x$ means exactly the same as $a = b^{x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The number $b$ is called the **base**."
+    }
+   ],
+   "front_md": "Define **logarithm**.\n",
+   "back_md": "A **logarithm** answers the question *what power do you raise the base to?*: $\\mathrm{log}_{b} a = x$ means exactly the same as $a = b^{x}$.\n\nThe number $b$ is called the **base**.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jvbd556z7M7DGzxP",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How should you read the statement $\\mathrm{log}_{p} q = r$ in words?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "\"The power you raise $p$ to, to get $q$, is $r$.\""
+    },
+    {
+     "type": "paragraph",
+     "md": "Saying it that way every time turns the notation into a question that usually answers itself."
+    }
+   ],
+   "front_md": "How should you read the statement $\\mathrm{log}_{p} q = r$ in words?\n",
+   "back_md": "\"The power you raise $p$ to, to get $q$, is $r$.\"\n\nSaying it that way every time turns the notation into a question that usually answers itself.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nYsGvfBCPyhd3X5J",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(\\log x\\right)^{2}` and $\\mathrm{log} x^{2}$ mean the same thing."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(\\log x\\right)^{2}` squares the answer, while $\\mathrm{log} x^{2}$ squares $x$ before the logarithm is taken."
+    },
+    {
+     "type": "paragraph",
+     "md": "For $x = 10$ the first gives $1$ and the second gives $2$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\left(\\log x\\right)^{2}` and $\\mathrm{log} x^{2}$ mean the same thing.\n",
+   "back_md": "**False.**\n\n`\\left(\\log x\\right)^{2}` squares the answer, while $\\mathrm{log} x^{2}$ squares $x$ before the logarithm is taken.\n\nFor $x = 10$ the first gives $1$ and the second gives $2$.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HvjBrff7YVZqw9Fx",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete these two results:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} a^{x} = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`a^{\\log_{a} x} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} a^{x} = x$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$a^{\\mathrm{log}_{a}x} = x$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking a logarithm and raising to a power are **inverse** operations, so doing both in either order leaves you where you started."
+    }
+   ],
+   "front_md": "Complete these two results:\n\n`\\log_{a} a^{x} = \\_\\_\\_\\_\\_\\_`\n\n`a^{\\log_{a} x} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n$\\mathrm{log}_{a} a^{x} = x$\n\n$a^{\\mathrm{log}_{a}x} = x$\n\nTaking a logarithm and raising to a power are **inverse** operations, so doing both in either order leaves you where you started.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zJVPQKgyXVdSQrr8",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you evaluate $\\mathrm{log}_{2} 32$ without a calculator?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Ask what power of $2$ gives $32$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since $2^{5} = 32$, the answer is $5$."
+    }
+   ],
+   "front_md": "How do you evaluate $\\mathrm{log}_{2} 32$ without a calculator?\n",
+   "back_md": "Ask what power of $2$ gives $32$.\n\nSince $2^{5} = 32$, the answer is $5$.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zN5PpqgsmDHN2BCH",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can you not take the logarithm of a negative number?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because no power of a positive base ever produces a negative result."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{b} a = x$ requires $b^{x} = a$, and $b^{x}$ is positive for every value of $x$ when $b$ is positive."
+    }
+   ],
+   "front_md": "Why can you not take the logarithm of a negative number?\n",
+   "back_md": "Because no power of a positive base ever produces a negative result.\n\n$\\mathrm{log}_{b} a = x$ requires $b^{x} = a$, and $b^{x}$ is positive for every value of $x$ when $b$ is positive.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HYyzDFssJ5Wxw4Yz",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_Ksnyhv65ftsW9vsY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $\\mathrm{log} x$ mean when no base is written?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Base $10$, so $\\mathrm{log} x$ is short for $\\mathrm{log}_{10} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is sometimes written $\\mathrm{lg} x$ instead, since $10$ is a common enough base that it is usually left off altogether."
+    }
+   ],
+   "front_md": "What does $\\mathrm{log} x$ mean when no base is written?\n",
+   "back_md": "Base $10$, so $\\mathrm{log} x$ is short for $\\mathrm{log}_{10} x$.\n\nIt is sometimes written $\\mathrm{lg} x$ instead, since $10$ is a common enough base that it is usually left off altogether.\n",
+   "spec_links": [
+    "spcpt_CbPh4WmwTnQkjr3P"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BhvcsqjtrvDRFjcZ",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the three laws of logarithms:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} x y = \\log_{a} x + \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} \\left(\\frac{x}{y}\\right) = \\log_{a} x - \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} x^{k} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed laws are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} x y = \\mathrm{log}_{a} x + \\mathrm{log}_{a} y$"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} \\left(\\frac{x}{y}\\right) = \\log_{a} x - \\log_{a} y`"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} x^{k} = k \\mathrm{log}_{a} x$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying becomes adding, dividing becomes subtracting, and a power becomes a multiplier."
+    }
+   ],
+   "front_md": "Complete the three laws of logarithms:\n\n`\\log_{a} x y = \\log_{a} x + \\_\\_\\_\\_\\_\\_`\n\n`\\log_{a} \\left(\\frac{x}{y}\\right) = \\log_{a} x - \\_\\_\\_\\_\\_\\_`\n\n`\\log_{a} x^{k} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed laws are:\n\n$\\mathrm{log}_{a} x y = \\mathrm{log}_{a} x + \\mathrm{log}_{a} y$\n\n`\\log_{a} \\left(\\frac{x}{y}\\right) = \\log_{a} x - \\log_{a} y`\n\n$\\mathrm{log}_{a} x^{k} = k \\mathrm{log}_{a} x$\n\nMultiplying becomes adding, dividing becomes subtracting, and a power becomes a multiplier.\n",
+   "spec_links": [
+    "spcpt_cnypQhcg6z86WTSY"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_nt6bDbQ7MSQmpYDy",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log \\left(x + y\\right) = \\log x + \\log y`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no law that breaks up the logarithm of a **sum**: the laws apply to products, quotients and powers only."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $x = y = 10$ the left-hand side is $\\mathrm{log} 20$, roughly $1 . 3$, while the right-hand side is $2$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\log \\left(x + y\\right) = \\log x + \\log y`\n",
+   "back_md": "**False.**\n\nThere is no law that breaks up the logarithm of a **sum**: the laws apply to products, quotients and powers only.\n\nWith $x = y = 10$ the left-hand side is $\\mathrm{log} 20$, roughly $1 . 3$, while the right-hand side is $2$.\n",
+   "spec_links": [
+    "spcpt_cnypQhcg6z86WTSY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mxzz3PHrcBw9PMKw",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are $\\mathrm{log}_{a} a$ and $\\mathrm{log}_{a} 1$ equal to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} a = 1$ and $\\mathrm{log}_{a} 1 = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both follow straight from what a logarithm means, since $a^{1} = a$ and $a^{0} = 1$."
+    }
+   ],
+   "front_md": "What are $\\mathrm{log}_{a} a$ and $\\mathrm{log}_{a} 1$ equal to?\n",
+   "back_md": "$\\mathrm{log}_{a} a = 1$ and $\\mathrm{log}_{a} 1 = 0$.\n\nBoth follow straight from what a logarithm means, since $a^{1} = a$ and $a^{0} = 1$.\n",
+   "spec_links": [
+    "spcpt_cnypQhcg6z86WTSY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZppDTKFkdzrFRsG6",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does `\\log_{a} \\left(\\frac{1}{x}\\right)` come out as $- \\mathrm{log}_{a} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $\\frac{1}{x} = x^{-1}$, and the power law brings that $- 1$ out to the front."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a reciprocal inside a logarithm always turns into a minus sign outside it."
+    }
+   ],
+   "front_md": "Why does `\\log_{a} \\left(\\frac{1}{x}\\right)` come out as $- \\mathrm{log}_{a} x$?\n",
+   "back_md": "Because $\\frac{1}{x} = x^{-1}$, and the power law brings that $- 1$ out to the front.\n\nSo a reciprocal inside a logarithm always turns into a minus sign outside it.\n",
+   "spec_links": [
+    "spcpt_cnypQhcg6z86WTSY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XM2NQ4y39z3bJRcR",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You solve a logarithmic equation and get two values of $x$. What must you do before giving both of them as answers?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute each one back and **reject** any that makes the inside of a logarithm zero or negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "In `\\log \\left(x + 2\\right)`, for instance, any value at or below $x = - 2$ has to go."
+    }
+   ],
+   "front_md": "You solve a logarithmic equation and get two values of $x$. What must you do before giving both of them as answers?\n",
+   "back_md": "Substitute each one back and **reject** any that makes the inside of a logarithm zero or negative.\n\nIn `\\log \\left(x + 2\\right)`, for instance, any value at or below $x = - 2$ has to go.\n",
+   "spec_links": [
+    "spcpt_cnypQhcg6z86WTSY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JYZxzgShTsGZg3NS",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the change of base formula, which is given in the formulae booklet:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} x = \\frac{\\log_{b} x}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} x = \\frac{\\mathrm{log}_{b}x}{\\mathrm{log}_{b}a}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The original base $a$ drops into the denominator, and the new base $b$ is written the same way in both places."
+    }
+   ],
+   "front_md": "Complete the change of base formula, which is given in the formulae booklet:\n\n`\\log_{a} x = \\frac{\\log_{b} x}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n$\\mathrm{log}_{a} x = \\frac{\\mathrm{log}_{b}x}{\\mathrm{log}_{b}a}$\n\nThe original base $a$ drops into the denominator, and the new base $b$ is written the same way in both places.\n",
+   "spec_links": [
+    "spcpt_gDJSsXQN4sTWgFxJ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_vyRBVVrY2Jr4Xr2W",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When changing the base of a logarithm, you may use any positive base you like."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula holds for any positive new base, so you pick whichever makes the arithmetic easiest."
+    },
+    {
+     "type": "paragraph",
+     "md": "The answer comes out the same whichever you choose, since the original logarithm has one fixed value."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen changing the base of a logarithm, you may use any positive base you like.\n",
+   "back_md": "**True.**\n\nThe formula holds for any positive new base, so you pick whichever makes the arithmetic easiest.\n\nThe answer comes out the same whichever you choose, since the original logarithm has one fixed value.\n",
+   "spec_links": [
+    "spcpt_gDJSsXQN4sTWgFxJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dYy4vVJQBXHBrHSj",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is the change of base formula actually worth using?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When two logarithms in the same problem have **different bases**, so one has to be rewritten to match the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "It also helps where the two numbers are powers of a common number, as in $\\mathrm{log}_{4} 8 = \\frac{\\mathrm{log}_{2}8}{\\mathrm{log}_{2}4} = \\frac{3}{2}$."
+    }
+   ],
+   "front_md": "When is the change of base formula actually worth using?\n",
+   "back_md": "When two logarithms in the same problem have **different bases**, so one has to be rewritten to match the other.\n\nIt also helps where the two numbers are powers of a common number, as in $\\mathrm{log}_{4} 8 = \\frac{\\mathrm{log}_{2}8}{\\mathrm{log}_{2}4} = \\frac{3}{2}$.\n",
+   "spec_links": [
+    "spcpt_gDJSsXQN4sTWgFxJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r6jtmBgjF9pJnwmV",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_8S8W6v87Bg3RrPQZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the change of base formula give when the new base is $x$ itself?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} x = \\frac{1}{\\mathrm{log}_{x}a}$, which swaps the two numbers round."
+    },
+    {
+     "type": "paragraph",
+     "md": "The numerator becomes $\\mathrm{log}_{x} x$, and that is $1$."
+    }
+   ],
+   "front_md": "What does the change of base formula give when the new base is $x$ itself?\n",
+   "back_md": "$\\mathrm{log}_{a} x = \\frac{1}{\\mathrm{log}_{x}a}$, which swaps the two numbers round.\n\nThe numerator becomes $\\mathrm{log}_{x} x$, and that is $1$.\n",
+   "spec_links": [
+    "spcpt_gDJSsXQN4sTWgFxJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RS7bThnZ9qk3yWcK",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **exponential equation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **exponential equation** is one in which the unknown appears as a **power**."
+    },
+    {
+     "type": "paragraph",
+     "md": "$2^{x} = 8$ and $5^{2x-1} = 7$ are both exponential equations."
+    }
+   ],
+   "front_md": "Define **exponential equation**.\n",
+   "back_md": "An **exponential equation** is one in which the unknown appears as a **power**.\n\n$2^{x} = 8$ and $5^{2x-1} = 7$ are both exponential equations.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rm57Jj2vRpZhyFP9",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve `a^{\\text{f} \\left(x\\right)} = b` when $b$ can be written as a power of $a$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write $b$ as $a^{k}$ so that both sides share a base, then equate the powers and solve `\\text{f} \\left(x\\right) = k`."
+    },
+    {
+     "type": "paragraph",
+     "md": "No logarithms are needed at all once the bases match."
+    }
+   ],
+   "front_md": "How do you solve `a^{\\text{f} \\left(x\\right)} = b` when $b$ can be written as a power of $a$?\n",
+   "back_md": "Write $b$ as $a^{k}$ so that both sides share a base, then equate the powers and solve `\\text{f} \\left(x\\right) = k`.\n\nNo logarithms are needed at all once the bases match.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CwQ5xfWxcK25Th62",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve `a^{\\text{f} \\left(x\\right)} = b` when $b$ is **not** a power of $a$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take logarithms of both sides, which gives `\\text{f} \\left(x\\right) = \\log_{a} b` if you work in base $a$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any base will do, because the power law brings the exponent down to the front whichever one you pick."
+    }
+   ],
+   "front_md": "How do you solve `a^{\\text{f} \\left(x\\right)} = b` when $b$ is **not** a power of $a$?\n",
+   "back_md": "Take logarithms of both sides, which gives `\\text{f} \\left(x\\right) = \\log_{a} b` if you work in base $a$.\n\nAny base will do, because the power law brings the exponent down to the front whichever one you pick.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FXzS3zjGXRn9p8wx",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$3 \\times 2^{x}$ can be rewritten as $6^{x}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The multiplier sits **outside** the power, so it cannot be absorbed into the base: $6^{x}$ would mean $3^{x} \\times 2^{x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "At $x = 2$ the first expression is $12$ and the second is $36$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$3 \\times 2^{x}$ can be rewritten as $6^{x}$.\n",
+   "back_md": "**False.**\n\nThe multiplier sits **outside** the power, so it cannot be absorbed into the base: $6^{x}$ would mean $3^{x} \\times 2^{x}$.\n\nAt $x = 2$ the first expression is $12$ and the second is $36$.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jCmswk5TRMQ564x7",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the split, using the index law in reverse:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`2^{x + 3} = 2^{x} \\times \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed split is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$2^{x+3} = 2^{x} \\times 2^{3} = 8 \\times 2^{x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Splitting a power like this is what turns a three-term exponential equation into a quadratic in $2^{x}$."
+    }
+   ],
+   "front_md": "Complete the split, using the index law in reverse:\n\n`2^{x + 3} = 2^{x} \\times \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed split is:\n\n$2^{x+3} = 2^{x} \\times 2^{3} = 8 \\times 2^{x}$\n\nSplitting a power like this is what turns a three-term exponential equation into a quadratic in $2^{x}$.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_YcgM4whjvWBp7dFF",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An equation contains `p \\times a^{\\text{f} \\left(x\\right)}`, where $p$ is a constant. How do logarithms deal with the $p$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Taking logarithms turns the product into a sum: `\\log \\left(p \\times a^{\\text{f} \\left(x\\right)}\\right) = \\log p + \\text{f} \\left(x\\right) \\log a`."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log} p$ is just a number, so what is left rearranges like any other equation."
+    }
+   ],
+   "front_md": "An equation contains `p \\times a^{\\text{f} \\left(x\\right)}`, where $p$ is a constant. How do logarithms deal with the $p$?\n",
+   "back_md": "Taking logarithms turns the product into a sum: `\\log \\left(p \\times a^{\\text{f} \\left(x\\right)}\\right) = \\log p + \\text{f} \\left(x\\right) \\log a`.\n\n$\\mathrm{log} p$ is just a number, so what is left rearranges like any other equation.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qXzjGdBCKqNkFZ7z",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_MPptT272k6HHP5SW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve `a^{\\text{f} \\left(x\\right)} = b^{\\text{g} \\left(x\\right)}` when neither base is a power of the other?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take logarithms of both sides to the same base, then bring both exponents down to give `\\text{f} \\left(x\\right) \\log a = \\text{g} \\left(x\\right) \\log b`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both logarithms are constants, so the equation left behind is a straightforward one to rearrange for $x$."
+    }
+   ],
+   "front_md": "How do you solve `a^{\\text{f} \\left(x\\right)} = b^{\\text{g} \\left(x\\right)}` when neither base is a power of the other?\n",
+   "back_md": "Take logarithms of both sides to the same base, then bring both exponents down to give `\\text{f} \\left(x\\right) \\log a = \\text{g} \\left(x\\right) \\log b`.\n\nBoth logarithms are constants, so the equation left behind is a straightforward one to rearrange for $x$.\n",
+   "spec_links": [
+    "spcpt_9kbfchzHcdwh6WZN"
+   ],
+   "flags": []
+  }
+ ]
+}

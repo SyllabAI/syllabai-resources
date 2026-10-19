@@ -1,0 +1,6561 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:32Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/19-computational-thinking-and-problem-solving-/algorithms/",
+  "section_slug": "19-computational-thinking-and-problem-solving-",
+  "section_name": "19. Computational thinking & Problem-solving",
+  "topic_slug": "algorithms",
+  "title": "Algorithms",
+  "order": 0
+ },
+ "card_count": 258,
+ "card_types": {
+  "keyword_definition": 26,
+  "fill_in_the_blanks": 22,
+  "question_and_answer": 188,
+  "true_or_false": 22
+ },
+ "spec_link_cards": 258,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_VptQjj2285kgRrdH",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **linear search**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A standard algorithm used to find elements in an **unordered list**, searching **sequentially and systematically from the start to the end**, one element at a time."
+    }
+   ],
+   "front_md": "Define **linear search**.\n",
+   "back_md": "A standard algorithm used to find elements in an **unordered list**, searching **sequentially and systematically from the start to the end**, one element at a time.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Yxjbg7dFxGvSb9Tk",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a linear search the list is searched <u>**                        **</u> and systematically from the start to the end."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a linear search the list is searched **sequentially** and systematically from the start to the end."
+    }
+   ],
+   "front_md": "In a linear search the list is searched <u>**                        **</u> and systematically from the start to the end.\n",
+   "back_md": "In a linear search the list is searched **sequentially** and systematically from the start to the end.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_wwkw2BhvkCsM9n69",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Does a linear search need a sorted list?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No.** It works on an **unordered list**."
+    }
+   ],
+   "front_md": "Does a linear search need a sorted list?\n",
+   "back_md": "**No.** It works on an **unordered list**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GWv856vfKHSytcmC",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A linear search requires the list to be sorted."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A linear search works on an **unordered list**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA linear search requires the list to be sorted.\n",
+   "back_md": "**False.**\n\nA linear search works on an **unordered list**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bKfdtHgVnrDs4csF",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a linear search do with each element?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **compares each element** to the value being searched for."
+    }
+   ],
+   "front_md": "What does a linear search do with each element?\n",
+   "back_md": "It **compares each element** to the value being searched for.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vwjbgKnZgDKTVF55",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the value is found?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The algorithm **outputs where it was found in the list**."
+    }
+   ],
+   "front_md": "What happens if the value is found?\n",
+   "back_md": "The algorithm **outputs where it was found in the list**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tcqWXGxk8Wd75bFX",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the value is not found?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **outputs a message stating that the value is not in the list**."
+    }
+   ],
+   "front_md": "What happens if the value is not found?\n",
+   "back_md": "It **outputs a message stating that the value is not in the list**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SKszYbwKFwtgq5JM",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give an example use of a linear search."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Looking for a **specific student name in a list**, or searching for an item in a shopping list."
+    }
+   ],
+   "front_md": "Give an example use of a linear search.\n",
+   "back_md": "Looking for a **specific student name in a list**, or searching for an item in a shopping list.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_942Xx9rnStKQfBp2",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the worst case time complexity of a linear search?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n)**"
+    }
+   ],
+   "front_md": "What is the worst case time complexity of a linear search?\n",
+   "back_md": "**O(n)**\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Ss5nXspPNp3PgpMn",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the best case time complexity of a linear search, and when does it occur?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(1)**, when the item is found on the **first comparison**."
+    }
+   ],
+   "front_md": "What is the best case time complexity of a linear search, and when does it occur?\n",
+   "back_md": "**O(1)**, when the item is found on the **first comparison**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SrzYxSgtJ26zfBt6",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The best case for a linear search is O(n)."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **best case is O(1)**, where the item is found on the first comparison. **O(n) is the worst case**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe best case for a linear search is O(n).\n",
+   "back_md": "**False.**\n\nThe **best case is O(1)**, where the item is found on the first comparison. **O(n) is the worst case**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z5jRksb5VmPxS7qP",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the average case time complexity of a linear search?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n/2)**, which after removing coefficients is still **O(n)**."
+    }
+   ],
+   "front_md": "What is the average case time complexity of a linear search?\n",
+   "back_md": "**O(n/2)**, which after removing coefficients is still **O(n)**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JmmpFMRxwrStYY6K",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the linear term dominate the constant term in Big-O?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Linear time dominates constant time.** The constant term and coefficients contribute significantly less as the input size n grows larger."
+    }
+   ],
+   "front_md": "Why does the linear term dominate the constant term in Big-O?\n",
+   "back_md": "**Linear time dominates constant time.** The constant term and coefficients contribute significantly less as the input size n grows larger.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BHwtCtWXbBspPkVN",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the `linearSearch` function return?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **index** of the item if it is found, or **-1** if it is not."
+    }
+   ],
+   "front_md": "What does the `linearSearch` function return?\n",
+   "back_md": "The **index** of the item if it is found, or **-1** if it is not.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GKnxcxQDYwBgKs49",
+   "card_type": "fill_in_the_blanks",
+   "order": 14,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If the item is not found, the linear search returns <u>**        **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If the item is not found, the linear search returns **-1**."
+    }
+   ],
+   "front_md": "If the item is not found, the linear search returns <u>**        **</u>.\n",
+   "back_md": "If the item is not found, the linear search returns **-1**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_4Z2D9mpDn4tVfXsd",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the linear search pseudocode, which three variables are initialised, and to what?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`index` to **-1**, `i` to **0**, and `found` to **FALSE**."
+    }
+   ],
+   "front_md": "In the linear search pseudocode, which three variables are initialised, and to what?\n",
+   "back_md": "`index` to **-1**, `i` to **0**, and `found` to **FALSE**.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nhqWRCdR4rK2ySCt",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the loop condition used in the linear search."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`WHILE i < LENGTH(list) AND found = FALSE`"
+    }
+   ],
+   "front_md": "Write the loop condition used in the linear search.\n",
+   "back_md": "`WHILE i < LENGTH(list) AND found = FALSE`\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mtWkbrZXP4Vf5sYs",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when a match is found?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`index ← i` saves the current index, and `found ← TRUE` stops the search."
+    }
+   ],
+   "front_md": "What happens when a match is found?\n",
+   "back_md": "`index ← i` saves the current index, and `found ← TRUE` stops the search.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XqdtnvdPTJkG9KBV",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_Zs42pw8B4Vm7mZtJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the `found` flag used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **stop the search** once the item has been found, rather than checking the rest of the list."
+    }
+   ],
+   "front_md": "Why is the `found` flag used?\n",
+   "back_md": "To **stop the search** once the item has been found, rather than checking the rest of the list.\n",
+   "spec_links": [
+    "spcpt_Dmcr2fSnqYKTJzgH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wj63RpNXVC5Z9y2Y",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **binary search**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary search **compares the middle item to the target item**, halving the search space with each step. It is more efficient than a linear search."
+    }
+   ],
+   "front_md": "Define **binary search**.\n",
+   "back_md": "A binary search **compares the middle item to the target item**, halving the search space with each step. It is more efficient than a linear search.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qQjGHdWwjbYZYxYN",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must be true of the list for a binary search to work?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **list must be sorted**."
+    }
+   ],
+   "front_md": "What must be true of the list for a binary search to work?\n",
+   "back_md": "The **list must be sorted**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vnHJcpw7R6yfDhXF",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A binary search works on an unsorted list."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **list must be sorted** for a binary search to work correctly."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA binary search works on an unsorted list.\n",
+   "back_md": "**False.**\n\nThe **list must be sorted** for a binary search to work correctly.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gf4dxnTGjpwVvWqd",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the middle value matches the target?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **index is returned**."
+    }
+   ],
+   "front_md": "What happens if the middle value matches the target?\n",
+   "back_md": "The **index is returned**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dvdRKBksx9yDvXd2",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the target is less than the middle value?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **top half is ignored**."
+    }
+   ],
+   "front_md": "What happens if the target is less than the middle value?\n",
+   "back_md": "The **top half is ignored**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yGwCSrRxF7S628zC",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the target is larger than the middle value?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **bottom half is ignored**."
+    }
+   ],
+   "front_md": "What happens if the target is larger than the middle value?\n",
+   "back_md": "The **bottom half is ignored**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jrgC55zTZTNVFTkp",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A binary search deletes the half of the list it discards."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It **does not discard, delete or remove** parts of the list. It only **adjusts the start, end and mid pointers**, which gives the appearance that items have been removed."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA binary search deletes the half of the list it discards.\n",
+   "back_md": "**False.**\n\nIt **does not discard, delete or remove** parts of the list. It only **adjusts the start, end and mid pointers**, which gives the appearance that items have been removed.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7J3fd9PyrHQBcJyp",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary search only adjusts the start, end and <u>**        **</u> pointers."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary search only adjusts the start, end and **mid** pointers."
+    }
+   ],
+   "front_md": "A binary search only adjusts the start, end and <u>**        **</u> pointers.\n",
+   "back_md": "A binary search only adjusts the start, end and **mid** pointers.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_YVwzVGCVdCHsZZz3",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When does the binary search stop searching?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the **item is found**, or when the item is shown **not to be in the list**."
+    }
+   ],
+   "front_md": "When does the binary search stop searching?\n",
+   "back_md": "When the **item is found**, or when the item is shown **not to be in the list**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5F8DH3d6VPSprkyg",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the time complexity of a binary search?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(log n)**, because it **halves the search space** with each iteration of the loop."
+    }
+   ],
+   "front_md": "What is the time complexity of a binary search?\n",
+   "back_md": "**O(log n)**, because it **halves the search space** with each iteration of the loop.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cDkvGbfqb59JfKct",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary search is an example of <u>**                      **</u> time complexity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary search is an example of **logarithmic** time complexity."
+    }
+   ],
+   "front_md": "A binary search is an example of <u>**                      **</u> time complexity.\n",
+   "back_md": "A binary search is an example of **logarithmic** time complexity.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_F2Kw5X57qTMPdy7V",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **divide and conquer**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An approach where a problem is **progressively reduced in size**, so that when each problem is at its smallest it is easiest to solve."
+    }
+   ],
+   "front_md": "Define **divide and conquer**.\n",
+   "back_md": "An approach where a problem is **progressively reduced in size**, so that when each problem is at its smallest it is easiest to solve.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n7TTzJTmsSG3Wq6Z",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many items remain after i iterations of a binary search?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**n divided by 2 to the power i**. The algorithm starts with n items, then n/2, then n/4, then n/8, and so on."
+    }
+   ],
+   "front_md": "How many items remain after i iterations of a binary search?\n",
+   "back_md": "**n divided by 2 to the power i**. The algorithm starts with n items, then n/2, then n/4, then n/8, and so on.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gmc9cvY9PRgSgjbh",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the best case time complexity of a binary search, and when?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(1)**, where the item is found on the **first comparison**."
+    }
+   ],
+   "front_md": "What is the best case time complexity of a binary search, and when?\n",
+   "back_md": "**O(1)**, where the item is found on the **first comparison**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HPcTK6XzG4YmxzNG",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the average case time complexity of a binary search?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(log n / 2)**, which after removing coefficients is still **O(log n)**."
+    }
+   ],
+   "front_md": "What is the average case time complexity of a binary search?\n",
+   "back_md": "**O(log n / 2)**, which after removing coefficients is still **O(log n)**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cxtz2rBWSQR5YHgS",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the rounding of the midpoint flexible?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Rounding up or down are both valid**, provided the **same rounding is used consistently** throughout the algorithm."
+    }
+   ],
+   "front_md": "Why is the rounding of the midpoint flexible?\n",
+   "back_md": "**Rounding up or down are both valid**, provided the **same rounding is used consistently** throughout the algorithm.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Pxp8V3n2Gb5SKY9T",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the `binarySearch` function return?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **index** of the item if it is found, or **-1** if it is not found."
+    }
+   ],
+   "front_md": "What does the `binarySearch` function return?\n",
+   "back_md": "The **index** of the item if it is found, or **-1** if it is not found.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mRWRtsYrkRssrmXC",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the binary search pseudocode, what are `start` and `end` initialised to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`start` to **0**, and `end` to `**LENGTH(list) - 1**`."
+    }
+   ],
+   "front_md": "In the binary search pseudocode, what are `start` and `end` initialised to?\n",
+   "back_md": "`start` to **0**, and `end` to `**LENGTH(list) - 1**`.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gk8z5P353tPd8BP3",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the loop condition used in the binary search."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`WHILE start <= end AND found = FALSE`"
+    }
+   ],
+   "front_md": "Write the loop condition used in the binary search.\n",
+   "back_md": "`WHILE start <= end AND found = FALSE`\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZcBW4VvGDgpH7CcY",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the middle index calculated in the binary search pseudocode?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`mid ← (start + end) DIV 2`"
+    }
+   ],
+   "front_md": "How is the middle index calculated in the binary search pseudocode?\n",
+   "back_md": "`mid ← (start + end) DIV 2`\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WrrpCmqSCzKfyj6N",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if `list[mid]` is less than the item?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`start ← mid + 1`, which searches the **right half**."
+    }
+   ],
+   "front_md": "What happens if `list[mid]` is less than the item?\n",
+   "back_md": "`start ← mid + 1`, which searches the **right half**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KsRyrpZ7hNqFr8P6",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if `list[mid]` is greater than the item?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`end ← mid - 1`, which searches the **left half**."
+    }
+   ],
+   "front_md": "What happens if `list[mid]` is greater than the item?\n",
+   "back_md": "`end ← mid - 1`, which searches the **left half**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5dhv7DxyKCGtkYjc",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_Zty4PRp4rYk3jRX4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When does the binary search loop end?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the item is **found**, or when the **search range becomes invalid**."
+    }
+   ],
+   "front_md": "When does the binary search loop end?\n",
+   "back_md": "When the item is **found**, or when the **search range becomes invalid**.\n",
+   "spec_links": [
+    "spcpt_k4NdKwZVJ4bP3VDK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CV4TTmjNphNrzXwj",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **bubble sort**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort puts items into order **smallest to largest**, by **comparing pairs of elements and swapping them if they are out of order**."
+    }
+   ],
+   "front_md": "Define **bubble sort**.\n",
+   "back_md": "A bubble sort puts items into order **smallest to largest**, by **comparing pairs of elements and swapping them if they are out of order**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qBNnsDXFd8WdKQ6f",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which pairs are compared during a pass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first to the second, the second to the third, and so on, until the **second to last is compared to the last**."
+    }
+   ],
+   "front_md": "Which pairs are compared during a pass?\n",
+   "back_md": "The first to the second, the second to the third, and so on, until the **second to last is compared to the last**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vWsGBXkjFn9j7SwK",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **pass** in a bubble sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A pass is one complete run of comparisons **through the list**."
+    }
+   ],
+   "front_md": "Define **pass** in a bubble sort.\n",
+   "back_md": "A pass is one complete run of comparisons **through the list**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ks7N8ZpR2GkwQRPw",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is true at the end of a pass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **value at the top of the list is now in order**, and the sort **resets back to the start of the list** to sort the next largest value."
+    }
+   ],
+   "front_md": "What is true at the end of a pass?\n",
+   "back_md": "The **value at the top of the list is now in order**, and the sort **resets back to the start of the list** to sort the next largest value.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VG6NC6pqWfzxxS3n",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does each pass get shorter?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because after each pass the **previously sorted final value is in order** and does not need to be rechecked."
+    }
+   ],
+   "front_md": "Why does each pass get shorter?\n",
+   "back_md": "Because after each pass the **previously sorted final value is in order** and does not need to be rechecked.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6sBKtwy7k8SbTbRD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a bubble sort know it has finished?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **final pass checks all elements**, and if **no swaps are made** the sort is complete."
+    }
+   ],
+   "front_md": "How does a bubble sort know it has finished?\n",
+   "back_md": "A **final pass checks all elements**, and if **no swaps are made** the sort is complete.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7yWffSvWBqXZVXkC",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort is complete when a final pass makes <u>**        **</u> swaps."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort is complete when a final pass makes **no** swaps."
+    }
+   ],
+   "front_md": "A bubble sort is complete when a final pass makes <u>**        **</u> swaps.\n",
+   "back_md": "A bubble sort is complete when a final pass makes **no** swaps.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_CgxJkDmW6MqHqZMX",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give an example use of a bubble sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sorting an array of **names into alphabetical order**, or sorting an array of **student marks** from a test."
+    }
+   ],
+   "front_md": "Give an example use of a bubble sort.\n",
+   "back_md": "Sorting an array of **names into alphabetical order**, or sorting an array of **student marks** from a test.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NWpHcqwRGhw9WX6S",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the worst case time complexity of a bubble sort?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n squared)**"
+    }
+   ],
+   "front_md": "What is the worst case time complexity of a bubble sort?\n",
+   "back_md": "**O(n squared)**\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YXyXvnHNMpDVQCPc",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the best case for a bubble sort, and when does it occur?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n)**, for an **already sorted list**, since each item must still be compared to check it is in order."
+    }
+   ],
+   "front_md": "What is the best case for a bubble sort, and when does it occur?\n",
+   "back_md": "**O(n)**, for an **already sorted list**, since each item must still be compared to check it is in order.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B5GXvVmmhmYp9gj5",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The best case for a bubble sort is O(n squared)."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **best case is O(n)** for an already sorted list. **O(n squared) is the worst case**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe best case for a bubble sort is O(n squared).\n",
+   "back_md": "**False.**\n\nThe **best case is O(n)** for an already sorted list. **O(n squared) is the worst case**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tb5NK7fr445t92Ph",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the average case for a bubble sort?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n squared / 2)** for an almost sorted list, which after removing coefficients is still **O(n squared)**."
+    }
+   ],
+   "front_md": "What is the average case for a bubble sort?\n",
+   "back_md": "**O(n squared / 2)** for an almost sorted list, which after removing coefficients is still **O(n squared)**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m6ct5zT8xTpwbJ7d",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the space complexity of a bubble sort, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(1)**, because it operates **in-place**, requiring only a fixed amount of memory for loop counters and a temporary swap variable."
+    }
+   ],
+   "front_md": "What is the space complexity of a bubble sort, and why?\n",
+   "back_md": "**O(1)**, because it operates **in-place**, requiring only a fixed amount of memory for loop counters and a temporary swap variable.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7F79CGQvTv53VFsc",
+   "card_type": "fill_in_the_blanks",
+   "order": 13,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort operates <u>**                **</u>, requiring only a fixed amount of memory."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort operates **in-place**, requiring only a fixed amount of memory."
+    }
+   ],
+   "front_md": "A bubble sort operates <u>**                **</u>, requiring only a fixed amount of memory.\n",
+   "back_md": "A bubble sort operates **in-place**, requiring only a fixed amount of memory.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_xZjH3ZyXJzyfNGFx",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A bubble sort needs extra memory proportional to the size of the list."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It has space complexity **O(1)**, because it sorts **in-place**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA bubble sort needs extra memory proportional to the size of the list.\n",
+   "back_md": "**False.**\n\nIt has space complexity **O(1)**, because it sorts **in-place**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VJdyChKPHS5M7q9W",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the bubble sort pseudocode, what does `last` store?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **length of the list**."
+    }
+   ],
+   "front_md": "In the bubble sort pseudocode, what does `last` store?\n",
+   "back_md": "The **length of the list**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qmQRCWm39bMwdJkM",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the bubble sort pseudocode, what does `i` track?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **number of completed passes**."
+    }
+   ],
+   "front_md": "In the bubble sort pseudocode, what does `i` track?\n",
+   "back_md": "The **number of completed passes**.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5zByFRCzkcwyW42D",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the `swap` variable used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is a **boolean flag** used to check whether any swaps occurred during a pass."
+    }
+   ],
+   "front_md": "What is the `swap` variable used for?\n",
+   "back_md": "It is a **boolean flag** used to check whether any swaps occurred during a pass.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FyxRmfYYGRFnRsmz",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is `swap` set to TRUE before the main loop begins?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **assume a swap will happen**, so that the loop is entered at least once."
+    }
+   ],
+   "front_md": "Why is `swap` set to TRUE before the main loop begins?\n",
+   "back_md": "To **assume a swap will happen**, so that the loop is entered at least once.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dKGSDxB7pmSFmSNM",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the main WHILE condition of the bubble sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`WHILE i < (last - 1) AND swap = TRUE`"
+    }
+   ],
+   "front_md": "Write the main WHILE condition of the bubble sort.\n",
+   "back_md": "`WHILE i < (last - 1) AND swap = TRUE`\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6ds4vFvkkcCVSQ47",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `swap` set to at the start of each pass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**FALSE**"
+    }
+   ],
+   "front_md": "What is `swap` set to at the start of each pass?\n",
+   "back_md": "**FALSE**\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CPT8FZz2txTHTh5y",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What range does the inner FOR loop cover?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "From index **0 to **`**last - i - 2**`, which is the unsorted part of the list."
+    }
+   ],
+   "front_md": "What range does the inner FOR loop cover?\n",
+   "back_md": "From index **0 to **`**last - i - 2**`, which is the unsorted part of the list.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V8SPbghkpDVjWkHQ",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the three lines that perform the swap in a bubble sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`temp ← list[j]`, then `list[j] ← list[j + 1]`, then `list[j + 1] ← temp`"
+    }
+   ],
+   "front_md": "Write the three lines that perform the swap in a bubble sort.\n",
+   "back_md": "`temp ← list[j]`, then `list[j] ← list[j + 1]`, then `list[j + 1] ← temp`\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PG5tVdvyq5KXpgCj",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens after the inner loop completes?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`i` is **incremented**, which shortens the range checked on the next pass."
+    }
+   ],
+   "front_md": "What happens after the inner loop completes?\n",
+   "back_md": "`i` is **incremented**, which shortens the range checked on the next pass.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3YHYb7NBQ39Cbydf",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_dYTyGjsX6jsZjSfc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an efficient bubble sort, what does reducing the Boundary each pass achieve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **shortens the range checked** on each subsequent pass, because the end of the list is already sorted."
+    }
+   ],
+   "front_md": "In an efficient bubble sort, what does reducing the Boundary each pass achieve?\n",
+   "back_md": "It **shortens the range checked** on each subsequent pass, because the end of the list is already sorted.\n",
+   "spec_links": [
+    "spcpt_GKFVVHVJpwRgY6XY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hq75crzj2mS4bnGN",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **insertion sort**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An insertion sort **sorts one item at a time** by **placing it in the correct position** of an unsorted list, repeating until all items are in the correct position."
+    }
+   ],
+   "front_md": "Define **insertion sort**.\n",
+   "back_md": "An insertion sort **sorts one item at a time** by **placing it in the correct position** of an unsorted list, repeating until all items are in the correct position.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Yrykr3pjx95Fw9NB",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The insertion sort places each item in the correct position of an <u>**                **</u> list."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The insertion sort places each item in the correct position of an **unsorted** list."
+    }
+   ],
+   "front_md": "The insertion sort places each item in the correct position of an <u>**                **</u> list.\n",
+   "back_md": "The insertion sort places each item in the correct position of an **unsorted** list.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GZvnRwZNVNCNcktn",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the current item compared to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Each previous item** in the list."
+    }
+   ],
+   "front_md": "What is the current item compared to?\n",
+   "back_md": "**Each previous item** in the list.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9WTXRFJbstP586d6",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the current item is smaller than the previous item?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **previous item is moved to the right** and the **current item takes its place**."
+    }
+   ],
+   "front_md": "What happens if the current item is smaller than the previous item?\n",
+   "back_md": "The **previous item is moved to the right** and the **current item takes its place**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fWyc8k3H3fMN4DVn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the current item is larger than the previous item?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is already in the **correct position**, and the next item is then sorted."
+    }
+   ],
+   "front_md": "What happens if the current item is larger than the previous item?\n",
+   "back_md": "It is already in the **correct position**, and the next item is then sorted.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sr9C9R7KgXGm6XHy",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When does the insertion sort process stop?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When **all items are in the correct position**."
+    }
+   ],
+   "front_md": "When does the insertion sort process stop?\n",
+   "back_md": "When **all items are in the correct position**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DVzkvZvR4FX9FhM2",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the worst case time complexity of an insertion sort?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n squared)**"
+    }
+   ],
+   "front_md": "What is the worst case time complexity of an insertion sort?\n",
+   "back_md": "**O(n squared)**\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G6yvYzhsYNDPyNTd",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the best case for an insertion sort, and when?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n)**, for an **already sorted list**, where each item is checked one at a time."
+    }
+   ],
+   "front_md": "What is the best case for an insertion sort, and when?\n",
+   "back_md": "**O(n)**, for an **already sorted list**, where each item is checked one at a time.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MHqP47q7rj9xkvTY",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the average case for an insertion sort?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n squared / 2)** for a half sorted list, which after removing coefficients is still **O(n squared)**."
+    }
+   ],
+   "front_md": "What is the average case for an insertion sort?\n",
+   "back_md": "**O(n squared / 2)** for a half sorted list, which after removing coefficients is still **O(n squared)**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qPV3GVpXybhtqvzT",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the space complexity of an insertion sort, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(1)**, because the insertion sort **requires no additional space**."
+    }
+   ],
+   "front_md": "What is the space complexity of an insertion sort, and why?\n",
+   "back_md": "**O(1)**, because the insertion sort **requires no additional space**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6qjqtsyKp55D8mkb",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An insertion sort needs a second array to hold the sorted items."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It **requires no additional space**, so its space complexity is **O(1)**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn insertion sort needs a second array to hold the sorted items.\n",
+   "back_md": "**False.**\n\nIt **requires no additional space**, so its space complexity is **O(1)**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZmXTqX74RdfPtCqD",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At which index does an insertion sort start, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Index **1**, not 0, because the **first item is considered already sorted**."
+    }
+   ],
+   "front_md": "At which index does an insertion sort start, and why?\n",
+   "back_md": "Index **1**, not 0, because the **first item is considered already sorted**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9FXmJ8qhtPPxBN5b",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An insertion sort starts at index 0."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It starts at index **1**, because the item at index 0 is considered already sorted."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn insertion sort starts at index 0.\n",
+   "back_md": "**False.**\n\nIt starts at index **1**, because the item at index 0 is considered already sorted.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XY9xf63kZ3W8Tz7D",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the insertion sort pseudocode, what does `item` store?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **current value to be positioned**."
+    }
+   ],
+   "front_md": "In the insertion sort pseudocode, what does `item` store?\n",
+   "back_md": "The **current value to be positioned**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VwkZWJCT4ctVcB5H",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the insertion sort pseudocode, what does `position` track?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Where **`**item**`** should go** in the sorted portion of the list."
+    }
+   ],
+   "front_md": "In the insertion sort pseudocode, what does `position` track?\n",
+   "back_md": "**Where **`**item**`** should go** in the sorted portion of the list.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cSTsQ9QRkCcrwnsT",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the outer FOR loop of the insertion sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`FOR i ← 1 TO n - 1`"
+    }
+   ],
+   "front_md": "Write the outer FOR loop of the insertion sort.\n",
+   "back_md": "`FOR i ← 1 TO n - 1`\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Syy6WnkM5mvD7m3D",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the inner WHILE condition of the insertion sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`WHILE position > 0 AND list[position - 1] > item`"
+    }
+   ],
+   "front_md": "Write the inner WHILE condition of the insertion sort.\n",
+   "back_md": "`WHILE position > 0 AND list[position - 1] > item`\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8nxmq8649CGXf5BZ",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the inner WHILE loop do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **shifts elements in the sorted portion to the right** while they are greater than `item`."
+    }
+   ],
+   "front_md": "What does the inner WHILE loop do?\n",
+   "back_md": "It **shifts elements in the sorted portion to the right** while they are greater than `item`.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bjtdWwbvmz2G2WzX",
+   "card_type": "fill_in_the_blanks",
+   "order": 18,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an insertion sort, elements greater than the item are <u>**              **</u> to the right."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an insertion sort, elements greater than the item are **shifted** to the right."
+    }
+   ],
+   "front_md": "In an insertion sort, elements greater than the item are <u>**              **</u> to the right.\n",
+   "back_md": "In an insertion sort, elements greater than the item are **shifted** to the right.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Cj3NvDTZ6G69PPK4",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the two conditions that stop the inner loop."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **start of the list is reached** (`position = 0`), or the **correct spot is found** (`list[position - 1] <= item`)."
+    }
+   ],
+   "front_md": "Name the two conditions that stop the inner loop.\n",
+   "back_md": "The **start of the list is reached** (`position = 0`), or the **correct spot is found** (`list[position - 1] <= item`).\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gks2Mwjv4vjnxVvq",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens after the inner loop finishes?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`list[position] ← item` **inserts the value in its correct position**."
+    }
+   ],
+   "front_md": "What happens after the inner loop finishes?\n",
+   "back_md": "`list[position] ← item` **inserts the value in its correct position**.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ck7HPrC2Bpsrrd4p",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_5pQjZBRQYgwjzF5z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An insertion sort runs on [5, 9, 4, 2, ...]."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the list after the pass at i = 2?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**[4, 5, 9, 2, ...]**. The value 4 is shifted in front of both 9 and 5."
+    }
+   ],
+   "front_md": "An insertion sort runs on [5, 9, 4, 2, ...].\n\nWhat is the list after the pass at i = 2?\n",
+   "back_md": "**[4, 5, 9, 2, ...]**. The value 4 is shifted in front of both 9 and 5.\n",
+   "spec_links": [
+    "spcpt_wMSzdkRTKsHsZcZ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r77B3kVxbDRD3k6W",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the six main stack operations."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`isEmpty()`, `isFull()`, `push(value)`, `pop()`, `peek()` and `size()`."
+    }
+   ],
+   "front_md": "Name the six main stack operations.\n",
+   "back_md": "`isEmpty()`, `isFull()`, `push(value)`, `pop()`, `peek()` and `size()`.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7SJdGRrPMsqTKJyP",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three fields does a record-based stack have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`items`, `top` and `capacity`."
+    }
+   ],
+   "front_md": "What three fields does a record-based stack have?\n",
+   "back_md": "`items`, `top` and `capacity`.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3HVbQhTKCVRVywVv",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In pseudocode, a stack is assumed to be <u>**            **</u>-based, with items, top and capacity fields."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In pseudocode, a stack is assumed to be **record**-based, with items, top and capacity fields."
+    }
+   ],
+   "front_md": "In pseudocode, a stack is assumed to be <u>**            **</u>-based, with items, top and capacity fields.\n",
+   "back_md": "In pseudocode, a stack is assumed to be **record**-based, with items, top and capacity fields.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_cNzzknSs6Sm8vRkB",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `top` set to for an empty stack?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**-1**"
+    }
+   ],
+   "front_md": "What is `top` set to for an empty stack?\n",
+   "back_md": "**-1**\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SjBrr2xx847jtGDP",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A stack's top pointer is 0 when the stack is empty."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is **-1** when empty, which is why `size` is calculated as `top + 1`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA stack's top pointer is 0 when the stack is empty.\n",
+   "back_md": "**False.**\n\nIt is **-1** when empty, which is why `size` is calculated as `top + 1`.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_47Ftxsdm2Zzfjxms",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the body of the `isEmpty` function for a stack."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`RETURN s.top = -1`"
+    }
+   ],
+   "front_md": "Write the body of the `isEmpty` function for a stack.\n",
+   "back_md": "`RETURN s.top = -1`\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_P38m8JxBpg6FjJ7X",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the body of the `isFull` function for a stack."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`RETURN s.top = s.capacity - 1`"
+    }
+   ],
+   "front_md": "Write the body of the `isFull` function for a stack.\n",
+   "back_md": "`RETURN s.top = s.capacity - 1`\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wJ6gQQJ4QH2NKhBJ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two steps of a push?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Increment **`**top**`, then **assign the value** to `s.items[s.top]`."
+    }
+   ],
+   "front_md": "What are the two steps of a push?\n",
+   "back_md": "**Increment **`**top**`, then **assign the value** to `s.items[s.top]`.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wbyBTrPp9ksvXDfQ",
+   "card_type": "fill_in_the_blanks",
+   "order": 8,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A push must check the stack is not <u>**        **</u> before adding a value."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A push must check the stack is not **full** before adding a value."
+    }
+   ],
+   "front_md": "A push must check the stack is not <u>**        **</u> before adding a value.\n",
+   "back_md": "A push must check the stack is not **full** before adding a value.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_znJRJWmwGZwpMT3p",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if you push onto a full stack?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It outputs **\"Stack is full\"**."
+    }
+   ],
+   "front_md": "What happens if you push onto a full stack?\n",
+   "back_md": "It outputs **\"Stack is full\"**.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yZcGK56xd7X6yscb",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the steps of a pop?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Read **`**s.items[s.top]**` into a value, then **decrement **`**top**`, then **return the value**."
+    }
+   ],
+   "front_md": "What are the steps of a pop?\n",
+   "back_md": "**Read **`**s.items[s.top]**` into a value, then **decrement **`**top**`, then **return the value**.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pQfmbqFPj7frkhFf",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `pop()` return if the stack is empty?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**-1**"
+    }
+   ],
+   "front_md": "What does `pop()` return if the stack is empty?\n",
+   "back_md": "**-1**\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kkpDDDQCtCW2f5Zc",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `peek()` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **returns **`**s.items[s.top]**`** without removing it**, provided the stack is not empty."
+    }
+   ],
+   "front_md": "What does `peek()` do?\n",
+   "back_md": "It **returns **`**s.items[s.top]**`** without removing it**, provided the stack is not empty.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FdXgKvWtsgPbCQrh",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`peek()` removes the top value from the stack."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`peek()` **returns the top value without removing it**. It is `pop()` that removes."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`peek()` removes the top value from the stack.\n",
+   "back_md": "**False.**\n\n`peek()` **returns the top value without removing it**. It is `pop()` that removes.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GsKmM2v56r7drxWp",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the size of a stack calculated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`RETURN s.top + 1`"
+    }
+   ],
+   "front_md": "How is the size of a stack calculated?\n",
+   "back_md": "`RETURN s.top + 1`\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RYzth2ggyBGTQZhQ",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the size `top + 1`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because `top` is a **zero-based index**, and it is **-1** when the stack is empty."
+    }
+   ],
+   "front_md": "Why is the size `top + 1`?\n",
+   "back_md": "Because `top` is a **zero-based index**, and it is **-1** when the stack is empty.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HkGVDzR86pQTQbbV",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "10, 20 and 30 are pushed onto an empty stack."
+    },
+    {
+     "type": "paragraph",
+     "md": "What does `peek()` return?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**30**, the value at the top of the stack."
+    }
+   ],
+   "front_md": "10, 20 and 30 are pushed onto an empty stack.\n\nWhat does `peek()` return?\n",
+   "back_md": "**30**, the value at the top of the stack.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hYSG6vVhpZvsHcBt",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "10, 20 and 30 are pushed, then two values are popped."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the size of the stack?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1**. The pops return 30 then 20, leaving only 10."
+    }
+   ],
+   "front_md": "10, 20 and 30 are pushed, then two values are popped.\n\nWhat is the size of the stack?\n",
+   "back_md": "**1**. The pops return 30 then 20, leaving only 10.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gz9zQWWC4Rk8YhQm",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the `PushAnimal()` example, what is checked first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whether the stack is **full**, using `IF AnimalTopPointer = 20`."
+    }
+   ],
+   "front_md": "In the `PushAnimal()` example, what is checked first?\n",
+   "back_md": "Whether the stack is **full**, using `IF AnimalTopPointer = 20`.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mgj7GtrXW8WnfhqF",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `PushAnimal()` return if the stack is full?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**FALSE**"
+    }
+   ],
+   "front_md": "What does `PushAnimal()` return if the stack is full?\n",
+   "back_md": "**FALSE**\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WqmPpFsqc3tDwPjZ",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_pN9C5WGN8fPxbPrs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three things does `PushAnimal()` do if there is room?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Inserts the value** at `Animal[AnimalTopPointer]`, **increments the pointer**, and **returns TRUE**."
+    }
+   ],
+   "front_md": "What three things does `PushAnimal()` do if there is room?\n",
+   "back_md": "**Inserts the value** at `Animal[AnimalTopPointer]`, **increments the pointer**, and **returns TRUE**.\n",
+   "spec_links": [
+    "spcpt_v76wFF6YjGffmg7S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TJByXCj9y9vrdhkd",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **queue** as an ADT."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A queue is a **linear ADT** that follows the **First In, First Out (FIFO)** principle."
+    }
+   ],
+   "front_md": "Define **queue** as an ADT.\n",
+   "back_md": "A queue is a **linear ADT** that follows the **First In, First Out (FIFO)** principle.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z7hVZN45fHczJSc4",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A queue is a <u>**            **</u> ADT that follows the First In, First Out principle."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A queue is a **linear** ADT that follows the First In, First Out principle."
+    }
+   ],
+   "front_md": "A queue is a <u>**            **</u> ADT that follows the First In, First Out principle.\n",
+   "back_md": "A queue is a **linear** ADT that follows the First In, First Out principle.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_4K7mkFgpXvW7cBbn",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A queue follows the Last In, First Out principle."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A queue is **First In, First Out (FIFO)**. It is a **stack** that is Last In, First Out."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA queue follows the Last In, First Out principle.\n",
+   "back_md": "**False.**\n\nA queue is **First In, First Out (FIFO)**. It is a **stack** that is Last In, First Out.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9KB9RCJ22W3CG487",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five main queue operations."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Enqueue**, **dequeue**, **peek or front**, **isEmpty** and **isFull**."
+    }
+   ],
+   "front_md": "Name the five main queue operations.\n",
+   "back_md": "**Enqueue**, **dequeue**, **peek or front**, **isEmpty** and **isFull**.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RmfN5qdWj66fXvsn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does enqueue do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Adds an item to the back** of the queue."
+    }
+   ],
+   "front_md": "What does enqueue do?\n",
+   "back_md": "**Adds an item to the back** of the queue.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PPs8CqgZ5q75995f",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does dequeue do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Removes an item from the front** of the queue."
+    }
+   ],
+   "front_md": "What does dequeue do?\n",
+   "back_md": "**Removes an item from the front** of the queue.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hdvSSJrwqzcZ5QfX",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does peek do on a queue?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Looks at the front item without removing it**."
+    }
+   ],
+   "front_md": "What does peek do on a queue?\n",
+   "back_md": "**Looks at the front item without removing it**.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JQS7G7GGnK9nnKn7",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which fields does the circular queue record use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`items`, `front`, `rear`, `size` and `capacity`."
+    }
+   ],
+   "front_md": "Which fields does the circular queue record use?\n",
+   "back_md": "`items`, `front`, `rear`, `size` and `capacity`.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XjNNnhWwRCsv8VKX",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the line that advances the rear pointer on enqueue."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`q.rear ← (q.rear + 1) MOD q.capacity`"
+    }
+   ],
+   "front_md": "Write the line that advances the rear pointer on enqueue.\n",
+   "back_md": "`q.rear ← (q.rear + 1) MOD q.capacity`\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8Y7h6Pw4Qk275VVw",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is MOD used on the queue pointers?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "So the pointer **wraps around** to the start of the array, which is what makes the queue circular."
+    }
+   ],
+   "front_md": "Why is MOD used on the queue pointers?\n",
+   "back_md": "So the pointer **wraps around** to the start of the array, which is what makes the queue circular.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nX8nynVxyk6DKjqn",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The MOD operator makes the pointer <u>**        **</u> around to the start of the array."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The MOD operator makes the pointer **wrap** around to the start of the array."
+    }
+   ],
+   "front_md": "The MOD operator makes the pointer <u>**        **</u> around to the start of the array.\n",
+   "back_md": "The MOD operator makes the pointer **wrap** around to the start of the array.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_WFvpyGrPf5zFWnpy",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three things does enqueue do when the queue is not full?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Advances **`**rear**`, **stores the item** at `q.items[q.rear]`, and **increments **`**size**`."
+    }
+   ],
+   "front_md": "What three things does enqueue do when the queue is not full?\n",
+   "back_md": "**Advances **`**rear**`, **stores the item** at `q.items[q.rear]`, and **increments **`**size**`.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KMsRxchHDywJzfGB",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does enqueue output if the queue is full?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**\"Queue is full\"**"
+    }
+   ],
+   "front_md": "What does enqueue output if the queue is full?\n",
+   "back_md": "**\"Queue is full\"**\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GggW7z6XVmh2y5RS",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does dequeue do when the queue is not empty?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Reads `q.items[q.front]` into a value, **advances **`**front**` using MOD, **decrements **`**size**`, and **returns the value**."
+    }
+   ],
+   "front_md": "What does dequeue do when the queue is not empty?\n",
+   "back_md": "Reads `q.items[q.front]` into a value, **advances **`**front**` using MOD, **decrements **`**size**`, and **returns the value**.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Jn4NQcmW4GfrQQFM",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a circular queue, dequeue physically shifts every remaining item forward."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It only **advances the front pointer**, using MOD to wrap around the array."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a circular queue, dequeue physically shifts every remaining item forward.\n",
+   "back_md": "**False.**\n\nIt only **advances the front pointer**, using MOD to wrap around the array.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Nj75Z6Bt88jwHk6Z",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does dequeue return if the queue is empty?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**\"Queue is empty\"**"
+    }
+   ],
+   "front_md": "What does dequeue return if the queue is empty?\n",
+   "back_md": "**\"Queue is empty\"**\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KGDBytqgcZZ46fpb",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the body of the `isEmpty` function for a queue."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`RETURN q.size = 0`"
+    }
+   ],
+   "front_md": "Write the body of the `isEmpty` function for a queue.\n",
+   "back_md": "`RETURN q.size = 0`\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bwyYQrdF8dpFwr4M",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the body of the `isFull` function for a queue."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`RETURN q.size = q.capacity`"
+    }
+   ],
+   "front_md": "Write the body of the `isFull` function for a queue.\n",
+   "back_md": "`RETURN q.size = q.capacity`\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NZzGwFTyYwdvCj3h",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the find function search a circular queue?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It performs a **linear search**, starting at `q.front` and stepping forward with `pos ← (pos + 1) MOD q.capacity` for `q.size` items."
+    }
+   ],
+   "front_md": "How does the find function search a circular queue?\n",
+   "back_md": "It performs a **linear search**, starting at `q.front` and stepping forward with `pos ← (pos + 1) MOD q.capacity` for `q.size` items.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q3FhM9PdKDPnwJMc",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the find function return?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**TRUE** if the target is found, otherwise **FALSE**."
+    }
+   ],
+   "front_md": "What does the find function return?\n",
+   "back_md": "**TRUE** if the target is found, otherwise **FALSE**.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cfYBn7RSBc5XWh8v",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_9rB463RHy5MrGDj7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does find loop only `q.size` times rather than `q.capacity`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because only `**size**`** items are actually in the queue**, even though the array has `capacity` slots."
+    }
+   ],
+   "front_md": "Why does find loop only `q.size` times rather than `q.capacity`?\n",
+   "back_md": "Because only `**size**`** items are actually in the queue**, even though the array has `capacity` slots.\n",
+   "spec_links": [
+    "spcpt_qK9fpwfrvpwWk2r8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Kx44C7MDpCgBY6gK",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the four operations you must be able to program on a linked list."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Create** a linked list, **traverse** it, **add data** to it, and **remove data** from it."
+    }
+   ],
+   "front_md": "Name the four operations you must be able to program on a linked list.\n",
+   "back_md": "**Create** a linked list, **traverse** it, **add data** to it, and **remove data** from it.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h2z3bNzTMrQ8JQVp",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two fields does a linked list Node class have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **data field**, for example `fruit`, and a `**next**`** field** storing a reference to the next node in the list."
+    }
+   ],
+   "front_md": "What two fields does a linked list Node class have?\n",
+   "back_md": "A **data field**, for example `fruit`, and a `**next**`** field** storing a reference to the next node in the list.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MQwnG8GZxFNRDqdM",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a linked list, the `next` field stores a <u>**                  **</u> to the next node."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a linked list, the `next` field stores a **reference** to the next node."
+    }
+   ],
+   "front_md": "In a linked list, the `next` field stores a <u>**                  **</u> to the next node.\n",
+   "back_md": "In a linked list, the `next` field stores a **reference** to the next node.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_rZRs2Wy2DgxR29Ss",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a connection between nodes established?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By setting the `**next**`** field of each node to the appropriate next node**."
+    }
+   ],
+   "front_md": "How is a connection between nodes established?\n",
+   "back_md": "By setting the `**next**`** field of each node to the appropriate next node**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2qvCfGW89tbppwf2",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the `next` field of the last node set to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**NULL**"
+    }
+   ],
+   "front_md": "What is the `next` field of the last node set to?\n",
+   "back_md": "**NULL**\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vV5km27n28Ym3STD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you traverse a linked list?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Start at the **head**, **output the current node's value**, then **set **`**current**`** to **`**current.next**`, repeating until `current` is NULL."
+    }
+   ],
+   "front_md": "How do you traverse a linked list?\n",
+   "back_md": "Start at the **head**, **output the current node's value**, then **set **`**current**`** to **`**current.next**`, repeating until `current` is NULL.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2VB3BgkfKfRGPKZJ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the traversal loop condition for a linked list."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`WHILE current != NULL`"
+    }
+   ],
+   "front_md": "Write the traversal loop condition for a linked list.\n",
+   "back_md": "`WHILE current != NULL`\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tpBzhRkYzHRh8Zj9",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Traversal of a linked list stops when `current` becomes <u>**        **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Traversal of a linked list stops when `current` becomes **NULL**."
+    }
+   ],
+   "front_md": "Traversal of a linked list stops when `current` becomes <u>**        **</u>.\n",
+   "back_md": "Traversal of a linked list stops when `current` becomes **NULL**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Qx9whck25vZ8qJjy",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first step in adding a node to the end of a linked list?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Create a new node** with the new data, and set its `next` field to NULL."
+    }
+   ],
+   "front_md": "What is the first step in adding a node to the end of a linked list?\n",
+   "back_md": "**Create a new node** with the new data, and set its `next` field to NULL.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kCc8rXTSkbKCdg5x",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is checked before appending a node?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whether the **list is empty**, that is `IF node1 = NULL`."
+    }
+   ],
+   "front_md": "What is checked before appending a node?\n",
+   "back_md": "Whether the **list is empty**, that is `IF node1 = NULL`.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H8csxnfcb5sqzCGS",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens if the list is empty when adding a node?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **new node becomes the head** of the list."
+    }
+   ],
+   "front_md": "What happens if the list is empty when adding a node?\n",
+   "back_md": "The **new node becomes the head** of the list.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QV9msRMqmDgGwRwn",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the end of a linked list?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Traverse with `WHILE current.next != NULL`, then set `current.next` to the new node."
+    }
+   ],
+   "front_md": "How do you find the end of a linked list?\n",
+   "back_md": "Traverse with `WHILE current.next != NULL`, then set `current.next` to the new node.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JygWCJYYnPjVKjjv",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which two pointers does the removal algorithm track?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`current` and `previous`."
+    }
+   ],
+   "front_md": "Which two pointers does the removal algorithm track?\n",
+   "back_md": "`current` and `previous`.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qcHVt2n8rKNjjZnK",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when the node to remove is at the head?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`previous` is NULL, so the **head is updated** to `current.next`."
+    }
+   ],
+   "front_md": "What happens when the node to remove is at the head?\n",
+   "back_md": "`previous` is NULL, so the **head is updated** to `current.next`.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Whv82P7CzVc8MJVF",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The head of a linked list never changes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the node being removed is **at the head**, the head is updated to `current.next`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe head of a linked list never changes.\n",
+   "back_md": "**False.**\n\nIf the node being removed is **at the head**, the head is updated to `current.next`.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WTm43vmbbvCyRC6c",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when the node to remove is not at the head?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`previous.next` is set to `current.next`, which **bypasses the node**."
+    }
+   ],
+   "front_md": "What happens when the node to remove is not at the head?\n",
+   "back_md": "`previous.next` is set to `current.next`, which **bypasses the node**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BWX4RHc4VwZPFr7w",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Removing a node from a linked list requires shifting the remaining nodes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It only **updates the previous node's pointer to bypass** the removed node."
+    }
+   ],
+   "front_md": "**True or False?**\n\nRemoving a node from a linked list requires shifting the remaining nodes.\n",
+   "back_md": "**False.**\n\nIt only **updates the previous node's pointer to bypass** the removed node.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FNhyFGKdrNWTYtkN",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens immediately after a node is removed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The loop **breaks**, so no further nodes are checked."
+    }
+   ],
+   "front_md": "What happens immediately after a node is removed?\n",
+   "back_md": "The loop **breaks**, so no further nodes are checked.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p8HRPqbsgyWDMZvv",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do the pointers advance if no match is found?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`previous ← current`, then `current ← current.next`."
+    }
+   ],
+   "front_md": "How do the pointers advance if no match is found?\n",
+   "back_md": "`previous ← current`, then `current ← current.next`.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dtXps4k3yK4CF2Bb",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A node containing B is inserted into a linked list in alphabetic order."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the first step?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Check for a free node**."
+    }
+   ],
+   "front_md": "A node containing B is inserted into a linked list in alphabetic order.\n\nWhat is the first step?\n",
+   "back_md": "**Check for a free node**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_F2h2YFQjJffFcgkV",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A node containing B is inserted in alphabetic order."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the second step?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Search for the correct insertion point**."
+    }
+   ],
+   "front_md": "A node containing B is inserted in alphabetic order.\n\nWhat is the second step?\n",
+   "back_md": "**Search for the correct insertion point**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cvmhnF2m7BXxBsGD",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When inserting a new value, where is the data value assigned?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To the **first node in the free list**, that is the node pointed to by the free list's start pointer."
+    }
+   ],
+   "front_md": "When inserting a new value, where is the data value assigned?\n",
+   "back_md": "To the **first node in the free list**, that is the node pointed to by the free list's start pointer.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6N8jJwCYQT7Vbfp4",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "B is inserted between A and C."
+    },
+    {
+     "type": "paragraph",
+     "md": "Which two pointers change?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The pointer from **A is changed to point to B** instead of C, and the pointer from **B points to C**."
+    }
+   ],
+   "front_md": "B is inserted between A and C.\n\nWhich two pointers change?\n",
+   "back_md": "The pointer from **A is changed to point to B** instead of C, and the pointer from **B points to C**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RXPQ49WGtdDdN7dV",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_hfCJXH9SWy5wqzJH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens to the free list after an insertion?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its **start pointer moves to point to the next free node**."
+    }
+   ],
+   "front_md": "What happens to the free list after an insertion?\n",
+   "back_md": "Its **start pointer moves to point to the next free node**.\n",
+   "spec_links": [
+    "spcpt_HvnjNStCybDJDHFz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k9JFjwvWdc7vKSJ4",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **binary tree**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary tree is a **rooted tree** where every node has a **maximum of 2 nodes**."
+    }
+   ],
+   "front_md": "Define **binary tree**.\n",
+   "back_md": "A binary tree is a **rooted tree** where every node has a **maximum of 2 nodes**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HdrJp3PWCcCndb3C",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A node in a binary tree can have three children."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every node in a binary tree has a **maximum of 2**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA node in a binary tree can have three children.\n",
+   "back_md": "**False.**\n\nEvery node in a binary tree has a **maximum of 2**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JXtcCGPzgmScnVzH",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a binary tree essentially?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **graph**, and it can therefore be implemented in the same way."
+    }
+   ],
+   "front_md": "What is a binary tree essentially?\n",
+   "back_md": "A **graph**, and it can therefore be implemented in the same way.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K6v4TGrGBhNgVgSr",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the most common way to represent a binary tree?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By storing each node with a **left and right pointer**."
+    }
+   ],
+   "front_md": "What is the most common way to represent a binary tree?\n",
+   "back_md": "By storing each node with a **left and right pointer**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Y4rMWHYQKWbbqnZJ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three things you must be able to do with a tree."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Traverse** the tree data structure, **add new data** to a tree, and **remove data** from a tree."
+    }
+   ],
+   "front_md": "Name the three things you must be able to do with a tree.\n",
+   "back_md": "**Traverse** the tree data structure, **add new data** to a tree, and **remove data** from a tree.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zBp8RvvbdWJPdV84",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **node**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **item in a tree**."
+    }
+   ],
+   "front_md": "Define **node**.\n",
+   "back_md": "An **item in a tree**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NbqNRcCQ43qQBFP9",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **edge**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An edge **connects two nodes together**, and is also known as a branch or pointer."
+    }
+   ],
+   "front_md": "Define **edge**.\n",
+   "back_md": "An edge **connects two nodes together**, and is also known as a branch or pointer.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pMqFfbzfYZDrFqcw",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **root**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **single node which does not have any incoming nodes**."
+    }
+   ],
+   "front_md": "Define **root**.\n",
+   "back_md": "A **single node which does not have any incoming nodes**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6FWYFZBsNQGg6Xjj",
+   "card_type": "fill_in_the_blanks",
+   "order": 8,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A root is a single node which does not have any <u>**                **</u> nodes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A root is a single node which does not have any **incoming** nodes."
+    }
+   ],
+   "front_md": "A root is a single node which does not have any <u>**                **</u> nodes.\n",
+   "back_md": "A root is a single node which does not have any **incoming** nodes.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_87K2nD8hGD425n2r",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **child**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A node **with incoming edges**."
+    }
+   ],
+   "front_md": "Define **child**.\n",
+   "back_md": "A node **with incoming edges**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GzxB2z6yTGtSYJzn",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **parent**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A node **with outgoing edges**."
+    }
+   ],
+   "front_md": "Define **parent**.\n",
+   "back_md": "A node **with outgoing edges**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hBzgqN7whydtrw8Y",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a parent and a child, in terms of edges?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **parent has outgoing edges**. A **child has incoming edges**."
+    }
+   ],
+   "front_md": "What is the difference between a parent and a child, in terms of edges?\n",
+   "back_md": "A **parent has outgoing edges**. A **child has incoming edges**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hTDy24kzYKqYDSWM",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **leaf**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A node **with no children**."
+    }
+   ],
+   "front_md": "Define **leaf**.\n",
+   "back_md": "A node **with no children**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dxPPJfNMMSBVqHRh",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A leaf node has outgoing edges."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A leaf is a node **with no children**, so it has no outgoing edges."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA leaf node has outgoing edges.\n",
+   "back_md": "**False.**\n\nA leaf is a node **with no children**, so it has no outgoing edges.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tGVbk4X3Vtc7jJDX",
+   "card_type": "keyword_definition",
+   "order": 14,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **subtree**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **subsection of a tree**, consisting of a parent and all the children of that parent."
+    }
+   ],
+   "front_md": "Define **subtree**.\n",
+   "back_md": "A **subsection of a tree**, consisting of a parent and all the children of that parent.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xZxf6hdyC8gGk9Z3",
+   "card_type": "keyword_definition",
+   "order": 15,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **traversing**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The process of **visiting each node in a tree data structure, exactly once**."
+    }
+   ],
+   "front_md": "Define **traversing**.\n",
+   "back_md": "The process of **visiting each node in a tree data structure, exactly once**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7j8SNKnJMGFrFz5M",
+   "card_type": "fill_in_the_blanks",
+   "order": 16,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Traversing is the process of visiting each node in a tree <u>**              **</u> once."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Traversing is the process of visiting each node in a tree **exactly** once."
+    }
+   ],
+   "front_md": "Traversing is the process of visiting each node in a tree <u>**              **</u> once.\n",
+   "back_md": "Traversing is the process of visiting each node in a tree **exactly** once.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_cBwTMSgdtZhXS3gJ",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a pre-order traversal output first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **value of the current node**, before visiting any of its children."
+    }
+   ],
+   "front_md": "What does a pre-order traversal output first?\n",
+   "back_md": "The **value of the current node**, before visiting any of its children.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZcCTpMnTTTHM7nZQ",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the base case of a recursive tree traversal?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`IF node = NULL THEN RETURN`"
+    }
+   ],
+   "front_md": "What is the base case of a recursive tree traversal?\n",
+   "back_md": "`IF node = NULL THEN RETURN`\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5mZQ85PmKnzTbVwj",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When removing a child by value, what does the procedure do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **searches the parent's children for a matching value**, **removes the first match**, and then returns."
+    }
+   ],
+   "front_md": "When removing a child by value, what does the procedure do?\n",
+   "back_md": "It **searches the parent's children for a matching value**, **removes the first match**, and then returns.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2NDh6b2QyGSgdkwV",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_BG7XTXtccfXwbrKd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the limitation of that removal procedure?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **only removes the first matching child** from the **direct children** of a node. Removing nodes anywhere in the tree would need a **recursive version**."
+    }
+   ],
+   "front_md": "What is the limitation of that removal procedure?\n",
+   "back_md": "It **only removes the first matching child** from the **direct children** of a node. Removing nodes anywhere in the tree would need a **recursive version**.\n",
+   "spec_links": [
+    "spcpt_hRhHmbZxSpFB7chR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FKVtR4mqsv5CCGsZ",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does 'ADT from ADT' mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Being able to **explain or demonstrate how one abstract data type can be built on top of another**."
+    }
+   ],
+   "front_md": "What does 'ADT from ADT' mean?\n",
+   "back_md": "Being able to **explain or demonstrate how one abstract data type can be built on top of another**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hzq3JNKrf7snpmz5",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give three examples of an ADT built from another ADT."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **stack from a linked list**, a **queue from two stacks**, and a **dictionary from a binary search tree**."
+    }
+   ],
+   "front_md": "Give three examples of an ADT built from another ADT.\n",
+   "back_md": "A **stack from a linked list**, a **queue from two stacks**, and a **dictionary from a binary search tree**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FBmdzPQTqRN962pJ",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An ADT can only be implemented using built-in types."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You are **not limited to built-in types**. ADTs can be **composed out of each other**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn ADT can only be implemented using built-in types.\n",
+   "back_md": "**False.**\n\nYou are **not limited to built-in types**. ADTs can be **composed out of each other**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mC5y9gC6yBdC4RVP",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which built-in type implements a stack?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **list or array**, using push and pop operations."
+    }
+   ],
+   "front_md": "Which built-in type implements a stack?\n",
+   "back_md": "A **list or array**, using push and pop operations.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mFrxQGbzmzgsJchv",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which built-in types implement a queue?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **list or array**, or a **circular buffer**."
+    }
+   ],
+   "front_md": "Which built-in types implement a queue?\n",
+   "back_md": "A **list or array**, or a **circular buffer**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6rfPFRY4bzpHtQrt",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a linked list implemented from built-in types?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As a **class with **`**next**`** fields**, implementing the nodes manually."
+    }
+   ],
+   "front_md": "How is a linked list implemented from built-in types?\n",
+   "back_md": "As a **class with **`**next**`** fields**, implementing the nodes manually.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VrCfj5Z8F72VxHX9",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which built-in type implements a dictionary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **hash table**, giving key-value mapping."
+    }
+   ],
+   "front_md": "Which built-in type implements a dictionary?\n",
+   "back_md": "A **hash table**, giving key-value mapping.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Djknw9yXnSh4fzWp",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a binary tree implemented from built-in types?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As a **class with **`**left**`** and **`**right**`** fields**, where each node links to its children."
+    }
+   ],
+   "front_md": "How is a binary tree implemented from built-in types?\n",
+   "back_md": "As a **class with **`**left**`** and **`**right**`** fields**, where each node links to its children.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xf3bK6crhsDrQdhr",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a stack be built from a linked list?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Push and pop from the head of the list**."
+    }
+   ],
+   "front_md": "How can a stack be built from a linked list?\n",
+   "back_md": "**Push and pop from the head of the list**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_465F7vr7tjXzm5Zf",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a dictionary be built from a binary search tree?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Store the keys and values in the BST**, which gives ordered lookup."
+    }
+   ],
+   "front_md": "How can a dictionary be built from a binary search tree?\n",
+   "back_md": "**Store the keys and values in the BST**, which gives ordered lookup.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7T5mr7Bd3Tn5rXPt",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a binary tree be built from another ADT?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "From a **linked list or array**, where the nodes link to each other like a graph."
+    }
+   ],
+   "front_md": "How can a binary tree be built from another ADT?\n",
+   "back_md": "From a **linked list or array**, where the nodes link to each other like a graph.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PRRT3HYCVvGyd5bR",
+   "card_type": "fill_in_the_blanks",
+   "order": 11,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A queue can be implemented using two <u>**            **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A queue can be implemented using two **stacks**."
+    }
+   ],
+   "front_md": "A queue can be implemented using two <u>**            **</u>.\n",
+   "back_md": "A queue can be implemented using two **stacks**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_BvRcGfJYsTt4WdCY",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two stacks called in a two-stack queue?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`inStack` and `outStack`."
+    }
+   ],
+   "front_md": "What are the two stacks called in a two-stack queue?\n",
+   "back_md": "`inStack` and `outStack`.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9grQw5VJjfhdfcBn",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does enqueue work in a two-stack queue?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Push the item onto **`**inStack**`."
+    }
+   ],
+   "front_md": "How does enqueue work in a two-stack queue?\n",
+   "back_md": "**Push the item onto **`**inStack**`.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YFH2P4RhhZmvtdy5",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does dequeue work in a two-stack queue?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If `outStack` is empty, **pop all items from **`**inStack**`** and push them onto **`**outStack**`, then **pop from **`**outStack**`."
+    }
+   ],
+   "front_md": "How does dequeue work in a two-stack queue?\n",
+   "back_md": "If `outStack` is empty, **pop all items from **`**inStack**`** and push them onto **`**outStack**`, then **pop from **`**outStack**`.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WzVGC2Zb5v6wxwd4",
+   "card_type": "true_or_false",
+   "order": 15,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a two-stack queue, dequeue always pops directly from `inStack`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If `outStack` is empty, all items are **first moved from **`**inStack**`** to **`**outStack**`, and the pop then happens from `outStack`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a two-stack queue, dequeue always pops directly from `inStack`.\n",
+   "back_md": "**False.**\n\nIf `outStack` is empty, all items are **first moved from **`**inStack**`** to **`**outStack**`, and the pop then happens from `outStack`.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gJZzgZQ7pPXQsCRb",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the two-stack queue demonstrate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That you can **simulate FIFO behaviour using LIFO operations**."
+    }
+   ],
+   "front_md": "What does the two-stack queue demonstrate?\n",
+   "back_md": "That you can **simulate FIFO behaviour using LIFO operations**.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cFPB9KczdYd7z2Vh",
+   "card_type": "fill_in_the_blanks",
+   "order": 17,
+   "set_id": "flst_2ZPMhfdyzKzNHJss",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two stacks can simulate <u>**        **</u> behaviour using LIFO operations."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two stacks can simulate **FIFO** behaviour using LIFO operations."
+    }
+   ],
+   "front_md": "Two stacks can simulate <u>**        **</u> behaviour using LIFO operations.\n",
+   "back_md": "Two stacks can simulate **FIFO** behaviour using LIFO operations.\n",
+   "spec_links": [
+    "spcpt_vct4zxppSDRnwt9H"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_wmmKk7dJvt6bmWsJ",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must algorithms be compared?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **determine how suitable they are for solving a specific problem** or working with a particular set of data."
+    }
+   ],
+   "front_md": "Why must algorithms be compared?\n",
+   "back_md": "To **determine how suitable they are for solving a specific problem** or working with a particular set of data.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ntCcCvXGncjxmTvc",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the two key factors in comparing algorithms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Time complexity** and **space complexity**."
+    }
+   ],
+   "front_md": "Name the two key factors in comparing algorithms.\n",
+   "back_md": "**Time complexity** and **space complexity**.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZcrbqMD9hjsKHmQp",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What makes an algorithm most suitable?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It solves the problem in the **shortest time** and using the **least memory**."
+    }
+   ],
+   "front_md": "What makes an algorithm most suitable?\n",
+   "back_md": "It solves the problem in the **shortest time** and using the **least memory**.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C8hSs4Fj4CNr82pw",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **time complexity**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **number of operations or steps** an algorithm takes to complete, **not the actual time in seconds or minutes**."
+    }
+   ],
+   "front_md": "Define **time complexity**.\n",
+   "back_md": "The **number of operations or steps** an algorithm takes to complete, **not the actual time in seconds or minutes**.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VzmMMXS5rgCzThjS",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Time complexity measures the time in seconds that an algorithm takes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It measures the **number of operations or steps**, not the actual time."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTime complexity measures the time in seconds that an algorithm takes.\n",
+   "back_md": "**False.**\n\nIt measures the **number of operations or steps**, not the actual time.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MTwh44d3TmNMVBXJ",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is time complexity independent of hardware?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **faster CPU executes instructions more quickly**, but the **number of instructions the algorithm performs stays the same**."
+    }
+   ],
+   "front_md": "Why is time complexity independent of hardware?\n",
+   "back_md": "A **faster CPU executes instructions more quickly**, but the **number of instructions the algorithm performs stays the same**.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H8Wp75Rb4V2fwqn6",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the marathon analogy explain time complexity?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **marathon distance is the algorithm** and the **runners are different CPUs**. Each runner finishes at a different time, but the **distance is the same**."
+    }
+   ],
+   "front_md": "How does the marathon analogy explain time complexity?\n",
+   "back_md": "The **marathon distance is the algorithm** and the **runners are different CPUs**. Each runner finishes at a different time, but the **distance is the same**.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cvzwWZswNTR4DxBX",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **space complexity**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **amount of memory** an algorithm needs to complete its task."
+    }
+   ],
+   "front_md": "Define **space complexity**.\n",
+   "back_md": "The **amount of memory** an algorithm needs to complete its task.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gczmkj7pnjYjkk4y",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three things that memory usage includes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Space for **input data**, **temporary variables**, and any **additional data structures** such as arrays, stacks or queues."
+    }
+   ],
+   "front_md": "Name three things that memory usage includes.\n",
+   "back_md": "Space for **input data**, **temporary variables**, and any **additional data structures** such as arrays, stacks or queues.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wDxWpkHTc8tt5hdk",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might a recursive algorithm use more memory?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because of the **call stack**."
+    }
+   ],
+   "front_md": "Why might a recursive algorithm use more memory?\n",
+   "back_md": "Because of the **call stack**.\n",
+   "spec_links": [
+    "spcpt_3zm2hqrBFtvw4ZXm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_45rZZVqWgjByFvNS",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Big O Notation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **mathematical way to describe the time and space complexity** of an algorithm, showing how well it scales as the size of the input increases."
+    }
+   ],
+   "front_md": "Define **Big O Notation**.\n",
+   "back_md": "A **mathematical way to describe the time and space complexity** of an algorithm, showing how well it scales as the size of the input increases.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JvxfntH6TrVhrjkG",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does Big O describe?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **order of growth**, or efficiency, of an algorithm."
+    }
+   ],
+   "front_md": "What does Big O describe?\n",
+   "back_md": "The **order of growth**, or efficiency, of an algorithm.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s2mW76NFVhx7p7k6",
+   "card_type": "fill_in_the_blanks",
+   "order": 12,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Big O is <u>**                **</u>-independent, measuring steps rather than seconds."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Big O is **hardware**-independent, measuring steps rather than seconds."
+    }
+   ],
+   "front_md": "Big O is <u>**                **</u>-independent, measuring steps rather than seconds.\n",
+   "back_md": "Big O is **hardware**-independent, measuring steps rather than seconds.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zzb3vjRYknnZ8rjH",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A faster CPU improves an algorithm's Big O complexity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Big O is **hardware-independent**. It measures steps or operations, not seconds."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA faster CPU improves an algorithm's Big O complexity.\n",
+   "back_md": "**False.**\n\nBig O is **hardware-independent**. It measures steps or operations, not seconds.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RKzxtWrgDfJn5Sw6",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State the two Big O rules."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Keep only the dominant term**, and **ignore constants**."
+    }
+   ],
+   "front_md": "State the two Big O rules.\n",
+   "back_md": "**Keep only the dominant term**, and **ignore constants**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MmH7Vy7JJZV7f3WQ",
+   "card_type": "fill_in_the_blanks",
+   "order": 15,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only the <u>**                **</u> factor is used when determining an algorithm's Big O."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only the **dominant** factor is used when determining an algorithm's Big O."
+    }
+   ],
+   "front_md": "Only the <u>**                **</u> factor is used when determining an algorithm's Big O.\n",
+   "back_md": "Only the **dominant** factor is used when determining an algorithm's Big O.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GhNmnFFNZ93JByqQ",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are constants ignored in Big O?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They **become insignificant as the input size grows**."
+    }
+   ],
+   "front_md": "Why are constants ignored in Big O?\n",
+   "back_md": "They **become insignificant as the input size grows**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8d8632d44QQZFHcb",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is O(1)?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Constant time.** The algorithm always takes the same number of steps, regardless of input size."
+    }
+   ],
+   "front_md": "What is O(1)?\n",
+   "back_md": "**Constant time.** The algorithm always takes the same number of steps, regardless of input size.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vCmzgD7fTPTwN2GD",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is O(n)?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Linear time.** The number of steps **increases proportionally with the input size**."
+    }
+   ],
+   "front_md": "What is O(n)?\n",
+   "back_md": "**Linear time.** The number of steps **increases proportionally with the input size**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HTXZsVk5vpZj9SBZ",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is O(n squared)?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Polynomial time.** Performance is **proportional to the square of the input size**, caused by **nested loops**."
+    }
+   ],
+   "front_md": "What is O(n squared)?\n",
+   "back_md": "**Polynomial time.** Performance is **proportional to the square of the input size**, caused by **nested loops**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WnbDm9c6SdDq4JPJ",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is O(log n)?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Logarithmic time.** The number of steps **grows slowly even as the input size grows rapidly**. Common in binary search."
+    }
+   ],
+   "front_md": "What is O(log n)?\n",
+   "back_md": "**Logarithmic time.** The number of steps **grows slowly even as the input size grows rapidly**. Common in binary search.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mBMDfVskYSw5vD93",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is O(2 to the power n)?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Exponential time.** The number of steps **doubles for every additional input value**, so it grows extremely fast."
+    }
+   ],
+   "front_md": "What is O(2 to the power n)?\n",
+   "back_md": "**Exponential time.** The number of steps **doubles for every additional input value**, so it grows extremely fast.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4FwKHn26XKWRYvjp",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is O(n log n)?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Linear logarithmic time**, for algorithms that **divide data and process each part**. Merge sort is an example."
+    }
+   ],
+   "front_md": "What is O(n log n)?\n",
+   "back_md": "**Linear logarithmic time**, for algorithms that **divide data and process each part**. Merge sort is an example.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YJZWKFGZyjhmP32W",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Order the complexities from most to least inefficient."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Exponential**, then **polynomial**, then **linear**, then **logarithmic**, then **constant**."
+    }
+   ],
+   "front_md": "Order the complexities from most to least inefficient.\n",
+   "back_md": "**Exponential**, then **polynomial**, then **linear**, then **logarithmic**, then **constant**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Syknz5kqh2ndXQyc",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where does factorial time sit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It performs **worse than exponential time**."
+    }
+   ],
+   "front_md": "Where does factorial time sit?\n",
+   "back_md": "It performs **worse than exponential time**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qnh4RNBKrzQxdz2j",
+   "card_type": "question_and_answer",
+   "order": 25,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where does linear-logarithmic time sit?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Between polynomial and linear time**."
+    }
+   ],
+   "front_md": "Where does linear-logarithmic time sit?\n",
+   "back_md": "**Between polynomial and linear time**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QyWKm8KBYtZgghgQ",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Simplify 3n squared + 4n + 5 to Big O."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**O(n squared)**, because n squared is the dominant factor and coefficients are removed."
+    }
+   ],
+   "front_md": "Simplify 3n squared + 4n + 5 to Big O.\n",
+   "back_md": "**O(n squared)**, because n squared is the dominant factor and coefficients are removed.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xMcKjVHDVgpXjQgz",
+   "card_type": "question_and_answer",
+   "order": 27,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the coefficient 3 dropped from 3x squared?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As the input grows arbitrarily large, **multiplying by 3 contributes very little** to the overall time complexity."
+    }
+   ],
+   "front_md": "Why is the coefficient 3 dropped from 3x squared?\n",
+   "back_md": "As the input grows arbitrarily large, **multiplying by 3 contributes very little** to the overall time complexity.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_htjtzpfFmbvBD6yx",
+   "card_type": "question_and_answer",
+   "order": 28,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you derive Big O by counting loops?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1 loop is O(n)**, **2 nested loops are O(n squared)**, and **no loops is O(1)**."
+    }
+   ],
+   "front_md": "How do you derive Big O by counting loops?\n",
+   "back_md": "**1 loop is O(n)**, **2 nested loops are O(n squared)**, and **no loops is O(1)**.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mzVPtpzKbWXQgb2Y",
+   "card_type": "question_and_answer",
+   "order": 29,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is log base 2 of 1,024?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**10**, because 2 to the power 10 is 1,024."
+    }
+   ],
+   "front_md": "What is log base 2 of 1,024?\n",
+   "back_md": "**10**, because 2 to the power 10 is 1,024.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p4F84xx7wbG3tmtm",
+   "card_type": "question_and_answer",
+   "order": 30,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which case does Big O usually describe, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **worst case**, in order to **guarantee a minimum standard** of performance."
+    }
+   ],
+   "front_md": "Which case does Big O usually describe, and why?\n",
+   "back_md": "The **worst case**, in order to **guarantee a minimum standard** of performance.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mD3wqMKqghznP7Gk",
+   "card_type": "question_and_answer",
+   "order": 31,
+   "set_id": "flst_j6g8Nm2Dfff55SB4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a linear search, what are the best, average and worst cases?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Best O(1)** when the item is first, **average O(n)** when it is in the middle, and **worst O(n)** when it is not found."
+    }
+   ],
+   "front_md": "For a linear search, what are the best, average and worst cases?\n",
+   "back_md": "**Best O(1)** when the item is first, **average O(n)** when it is in the middle, and **worst O(n)** when it is not found.\n",
+   "spec_links": [
+    "spcpt_35Sp4YK9qjgFjdPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HJjNCZKMHsc4pCFX",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **binary tree**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary tree is a **rooted data structure** where each node can have a **maximum of two child nodes**, one on the left and one on the right."
+    }
+   ],
+   "front_md": "Define **binary tree**.\n",
+   "back_md": "A binary tree is a **rooted data structure** where each node can have a **maximum of two child nodes**, one on the left and one on the right.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_97Qh9szd9zDQch3W",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each node in a binary tree can have a maximum of <u>**        **</u> child nodes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each node in a binary tree can have a maximum of **two** child nodes."
+    }
+   ],
+   "front_md": "Each node in a binary tree can have a maximum of <u>**        **</u> child nodes.\n",
+   "back_md": "Each node in a binary tree can have a maximum of **two** child nodes.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6WsMnFJFVXfj3JPh",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are binary trees used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Storing data in a way that allows fast **searching, insertion and deletion**."
+    }
+   ],
+   "front_md": "What are binary trees used for?\n",
+   "back_md": "Storing data in a way that allows fast **searching, insertion and deletion**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RMwq8jj2W7GgWRDs",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How are the nodes of a binary tree linked?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using **pointers** that reference the **left and right child nodes**."
+    }
+   ],
+   "front_md": "How are the nodes of a binary tree linked?\n",
+   "back_md": "Using **pointers** that reference the **left and right child nodes**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MKzf5GqtjsBMHRn2",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a binary tree node contain?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **data value**, plus **Left and Right pointers**, which may be `NULL` if no child exists."
+    }
+   ],
+   "front_md": "What does a binary tree node contain?\n",
+   "back_md": "A **data value**, plus **Left and Right pointers**, which may be `NULL` if no child exists.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kGSdgT3C3xXW5VBx",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **root**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **topmost node**, which has no parent."
+    }
+   ],
+   "front_md": "Define **root**.\n",
+   "back_md": "The **topmost node**, which has no parent.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dJnqvrwwhzrX297V",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **leaf**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A node with **no children**."
+    }
+   ],
+   "front_md": "Define **leaf**.\n",
+   "back_md": "A node with **no children**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DG3cKq63b8XY45sM",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **edge** in a tree."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **connection between two nodes**, also called a branch or pointer."
+    }
+   ],
+   "front_md": "Define **edge** in a tree.\n",
+   "back_md": "A **connection between two nodes**, also called a branch or pointer.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CqMbbVSmNHV8tf93",
+   "card_type": "keyword_definition",
+   "order": 8,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **subtree**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **smaller tree that is part of a larger one**."
+    }
+   ],
+   "front_md": "Define **subtree**.\n",
+   "back_md": "A **smaller tree that is part of a larger one**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gm9ZfY8bwby2krWY",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **traversal**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The process of **visiting every node exactly once**."
+    }
+   ],
+   "front_md": "Define **traversal**.\n",
+   "back_md": "The process of **visiting every node exactly once**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K9Pdf7wSGCRKKcwF",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a parent and a child?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **parent links to one or more children**. A **child is a node linked from a parent**."
+    }
+   ],
+   "front_md": "What is the difference between a parent and a child?\n",
+   "back_md": "A **parent links to one or more children**. A **child is a node linked from a parent**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nB45RrYt3PQvdXfc",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **binary search tree (BST)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A type of binary tree that stores data in **sorted order**."
+    }
+   ],
+   "front_md": "Define **binary search tree (BST)**.\n",
+   "back_md": "A type of binary tree that stores data in **sorted order**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GfvtfZcjfgFs3BdH",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State the two rules of a binary search tree."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "All values in the **left subtree are less than** the node's value. All values in the **right subtree are greater than or equal to** the node's value."
+    }
+   ],
+   "front_md": "State the two rules of a binary search tree.\n",
+   "back_md": "All values in the **left subtree are less than** the node's value. All values in the **right subtree are greater than or equal to** the node's value.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h6cwDGHNYZvJyp7d",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a BST, values equal to the node go in the left subtree."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Values **greater than or equal to** the node go in the **right** subtree."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a BST, values equal to the node go in the left subtree.\n",
+   "back_md": "**False.**\n\nValues **greater than or equal to** the node go in the **right** subtree.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RzTpqf6Q9CmFnhvv",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are binary search trees efficient?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They use **comparison to decide which branch to follow**, which makes searching and insertion efficient."
+    }
+   ],
+   "front_md": "Why are binary search trees efficient?\n",
+   "back_md": "They use **comparison to decide which branch to follow**, which makes searching and insertion efficient.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RwcpG5MyRZY6hGj2",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What three fields does a `TreeNode` class have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **Value**, a **Left** pointer and a **Right** pointer."
+    }
+   ],
+   "front_md": "What three fields does a `TreeNode` class have?\n",
+   "back_md": "A **Value**, a **Left** pointer and a **Right** pointer.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hRdzX287G5fgSqxx",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `createNode` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It creates a new node, sets its **Value** to the data passed in, and sets both **Left and Right to NULL**."
+    }
+   ],
+   "front_md": "What does `createNode` do?\n",
+   "back_md": "It creates a new node, sets its **Value** to the data passed in, and sets both **Left and Right to NULL**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TjNFzsxFTrZVh4z3",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you insert a value into a binary search tree?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Compare it with the current node. If **smaller, move left**; if **greater or equal, move right**. Insert the new node when an **empty pointer is found**."
+    }
+   ],
+   "front_md": "How do you insert a value into a binary search tree?\n",
+   "back_md": "Compare it with the current node. If **smaller, move left**; if **greater or equal, move right**. Insert the new node when an **empty pointer is found**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JdrhnGrbgGgCvj88",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three traversal methods."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Pre-order**, **in-order** and **post-order**."
+    }
+   ],
+   "front_md": "Name the three traversal methods.\n",
+   "back_md": "**Pre-order**, **in-order** and **post-order**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f5zrZHNGvDQvr22f",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the pre-order sequence?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Visit the **current node**, then **left**, then **right**."
+    }
+   ],
+   "front_md": "What is the pre-order sequence?\n",
+   "back_md": "Visit the **current node**, then **left**, then **right**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J8ST7sfC3CNymMqP",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the in-order sequence?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Visit **left**, then the **current node**, then **right**."
+    }
+   ],
+   "front_md": "What is the in-order sequence?\n",
+   "back_md": "Visit **left**, then the **current node**, then **right**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_khtDJkkt3nrhPDst",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the post-order sequence?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Visit **left**, then **right**, then the **current node**."
+    }
+   ],
+   "front_md": "What is the post-order sequence?\n",
+   "back_md": "Visit **left**, then **right**, then the **current node**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kN5m7RYWS363vHF8",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A tree has root 10, children 5 and 15, and 15 has children 12 and 20."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the pre-order output?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**10 5 15 12 20**"
+    }
+   ],
+   "front_md": "A tree has root 10, children 5 and 15, and 15 has children 12 and 20.\n\nWhat is the pre-order output?\n",
+   "back_md": "**10 5 15 12 20**\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3NMwNhXrjzhZNNxm",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A tree has root 10, children 5 and 15, and 15 has children 12 and 20."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the in-order output?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**5 10 12 15 20**"
+    }
+   ],
+   "front_md": "A tree has root 10, children 5 and 15, and 15 has children 12 and 20.\n\nWhat is the in-order output?\n",
+   "back_md": "**5 10 12 15 20**\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6VcxznCGNKxk8Mmf",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A tree has root 10, children 5 and 15, and 15 has children 12 and 20."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the post-order output?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**5 12 20 15 10**"
+    }
+   ],
+   "front_md": "A tree has root 10, children 5 and 15, and 15 has children 12 and 20.\n\nWhat is the post-order output?\n",
+   "back_md": "**5 12 20 15 10**\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hPm8T6MyX6hhCQHB",
+   "card_type": "true_or_false",
+   "order": 25,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The base case of a recursive traversal is reaching a leaf node."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The base case is `IF Node = NULL THEN RETURN`, that is reaching a **NULL pointer**, not a leaf."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe base case of a recursive traversal is reaching a leaf node.\n",
+   "back_md": "**False.**\n\nThe base case is `IF Node = NULL THEN RETURN`, that is reaching a **NULL pointer**, not a leaf.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sSvjSKY2Gt6trWGk",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three cases for deleting a node from a BST."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The node has **no children**, **one child**, or **two children**."
+    }
+   ],
+   "front_md": "Name the three cases for deleting a node from a BST.\n",
+   "back_md": "The node has **no children**, **one child**, or **two children**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RTVzf7wYpfcBzCr3",
+   "card_type": "question_and_answer",
+   "order": 27,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you delete a node with no children?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Simply remove the node**."
+    }
+   ],
+   "front_md": "How do you delete a node with no children?\n",
+   "back_md": "**Simply remove the node**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CKz3sTmd2ywrqgdc",
+   "card_type": "question_and_answer",
+   "order": 28,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you delete a node with one child?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Replace the node with its single child**."
+    }
+   ],
+   "front_md": "How do you delete a node with one child?\n",
+   "back_md": "**Replace the node with its single child**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HDCFp56DvdCMFS44",
+   "card_type": "question_and_answer",
+   "order": 29,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you delete a node with two children?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Replace the node's value with its **in-order successor**, the **smallest value in the right subtree**, then delete that successor node."
+    }
+   ],
+   "front_md": "How do you delete a node with two children?\n",
+   "back_md": "Replace the node's value with its **in-order successor**, the **smallest value in the right subtree**, then delete that successor node.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Cd6GK63DmHb6PgjG",
+   "card_type": "fill_in_the_blanks",
+   "order": 30,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To delete a node with two children, replace it with its in-order <u>**                  **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To delete a node with two children, replace it with its in-order **successor**."
+    }
+   ],
+   "front_md": "To delete a node with two children, replace it with its in-order <u>**                  **</u>.\n",
+   "back_md": "To delete a node with two children, replace it with its in-order **successor**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_5vjV25bQrxtKs372",
+   "card_type": "question_and_answer",
+   "order": 31,
+   "set_id": "flst_Bs5ndR842nW8Y9rV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the `findMin` helper function do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **walks left** from a node until `Left` is NULL, returning the **smallest value in that subtree**."
+    }
+   ],
+   "front_md": "What does the `findMin` helper function do?\n",
+   "back_md": "It **walks left** from a node until `Left` is NULL, returning the **smallest value in that subtree**.\n",
+   "spec_links": [
+    "spcpt_YXcz52qmXcBBFJVr"
+   ],
+   "flags": []
+  }
+ ]
+}

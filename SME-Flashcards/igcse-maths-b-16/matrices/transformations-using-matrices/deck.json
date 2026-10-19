@@ -1,0 +1,1011 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-19T18:49:52Z",
+ "course_slug": "igcse-maths-b-16",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/flashcards/matrices/transformations-using-matrices/",
+  "section_slug": "matrices",
+  "section_name": "Matrices",
+  "topic_slug": "transformations-using-matrices",
+  "title": "Transformations using Matrices",
+  "order": 1
+ },
+ "card_count": 31,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 19,
+  "true_or_false": 6,
+  "fill_in_the_blanks": 5
+ },
+ "spec_link_cards": 31,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_wMFKtsMnzKVxYN7B",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_2g89HxwCcHXWxw6s",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the **object** and the **image** in a matrix transformation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **object** is the original point `\\left(x , y\\right)` and the **image** is where that point ends up, written `\\left(x ' , y '\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The dash notation is what keeps the two apart in working and on a diagram."
+    }
+   ],
+   "front_md": "What are the **object** and the **image** in a matrix transformation?\n",
+   "back_md": "The **object** is the original point `\\left(x , y\\right)` and the **image** is where that point ends up, written `\\left(x ' , y '\\right)`.\n\nThe dash notation is what keeps the two apart in working and on a diagram.\n",
+   "spec_links": [
+    "spcpt_cfsNsZkBNfQ2hWbY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k4NH2RHj6bbRm8Pr",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_2g89HxwCcHXWxw6s",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the image of the point `\\left(x , y\\right)` under a matrix?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the point as a **column vector** and multiply the transformation matrix by it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The result is a column vector holding the coordinates of the image point."
+    }
+   ],
+   "front_md": "How do you find the image of the point `\\left(x , y\\right)` under a matrix?\n",
+   "back_md": "Write the point as a **column vector** and multiply the transformation matrix by it.\n\nThe result is a column vector holding the coordinates of the image point.\n",
+   "spec_links": [
+    "spcpt_cfsNsZkBNfQ2hWbY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RFZrDyqnCNHqkK5K",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_2g89HxwCcHXWxw6s",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the image of `\\left(2 , 3\\right)` under `\\begin{pmatrix} 4 & 5 \\\\ 1 & - 2 \\end{pmatrix}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiplying gives `\\begin{pmatrix} 4 \\times 2 + 5 \\times 3 \\\\ 1 \\times 2 + \\left(- 2\\right) \\times 3 \\end{pmatrix} = \\begin{pmatrix} 23 \\\\ - 4 \\end{pmatrix}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Written back as coordinates, the image is `\\left(23 , - 4\\right)`."
+    }
+   ],
+   "front_md": "What is the image of `\\left(2 , 3\\right)` under `\\begin{pmatrix} 4 & 5 \\\\ 1 & - 2 \\end{pmatrix}`?\n",
+   "back_md": "Multiplying gives `\\begin{pmatrix} 4 \\times 2 + 5 \\times 3 \\\\ 1 \\times 2 + \\left(- 2\\right) \\times 3 \\end{pmatrix} = \\begin{pmatrix} 23 \\\\ - 4 \\end{pmatrix}`.\n\nWritten back as coordinates, the image is `\\left(23 , - 4\\right)`.\n",
+   "spec_links": [
+    "spcpt_cfsNsZkBNfQ2hWbY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wjYvtGHb9vRQpWgW",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_2g89HxwCcHXWxw6s",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The transformation matrix is written to the left of the point's column vector."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The matrix goes **first** and the column vector second, as `\\mathbf{M} \\begin{pmatrix} x \\\\ y \\end{pmatrix}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The other order is not even possible, since a $2 \\times 1$ matrix cannot multiply a $2 \\times 2$ one."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe transformation matrix is written to the left of the point's column vector.\n",
+   "back_md": "**True.**\n\nThe matrix goes **first** and the column vector second, as `\\mathbf{M} \\begin{pmatrix} x \\\\ y \\end{pmatrix}`.\n\nThe other order is not even possible, since a $2 \\times 1$ matrix cannot multiply a $2 \\times 2$ one.\n",
+   "spec_links": [
+    "spcpt_cfsNsZkBNfQ2hWbY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TXMj4xQYSsv8XPhB",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_2g89HxwCcHXWxw6s",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The image of $P$ under `\\begin{pmatrix} 4 & 5 \\\\ 1 & - 2 \\end{pmatrix}` is `\\left(11 , 6\\right)`. How can you find $P$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Call $P$ the point `\\left(x , y\\right)`, multiply out, then equate the two entries to get $4 x + 5 y = 11$ and $x - 2 y = 6$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving those **simultaneous equations** gives `P = \\left(4 , - 1\\right)`."
+    }
+   ],
+   "front_md": "The image of $P$ under `\\begin{pmatrix} 4 & 5 \\\\ 1 & - 2 \\end{pmatrix}` is `\\left(11 , 6\\right)`. How can you find $P$?\n",
+   "back_md": "Call $P$ the point `\\left(x , y\\right)`, multiply out, then equate the two entries to get $4 x + 5 y = 11$ and $x - 2 y = 6$.\n\nSolving those **simultaneous equations** gives `P = \\left(4 , - 1\\right)`.\n",
+   "spec_links": [
+    "spcpt_cfsNsZkBNfQ2hWbY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6gVb3SWr9r2QwkMg",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_2g89HxwCcHXWxw6s",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can the inverse matrix be used to undo a transformation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply the image's column vector by $M^{-1}$, since $M^{-1} M$ is the identity matrix."
+    },
+    {
+     "type": "paragraph",
+     "md": "So if `\\mathbf{M} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} x ' \\\\ y ' \\end{pmatrix}` then `\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\mathbf{M}^{- 1} \\begin{pmatrix} x ' \\\\ y ' \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "How can the inverse matrix be used to undo a transformation?\n",
+   "back_md": "Multiply the image's column vector by $M^{-1}$, since $M^{-1} M$ is the identity matrix.\n\nSo if `\\mathbf{M} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} x ' \\\\ y ' \\end{pmatrix}` then `\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\mathbf{M}^{- 1} \\begin{pmatrix} x ' \\\\ y ' \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_cfsNsZkBNfQ2hWbY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nCSkgxDxfdzXW2wq",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_HDDsGF5fnjPHWHrm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you build the matrix for a transformation from the unit square?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find where the two points `\\left(1 , 0\\right)` and `\\left(0 , 1\\right)` move to."
+    },
+    {
+     "type": "paragraph",
+     "md": "Their images become the **first and second columns** of the matrix, in that order."
+    }
+   ],
+   "front_md": "How do you build the matrix for a transformation from the unit square?\n",
+   "back_md": "Find where the two points `\\left(1 , 0\\right)` and `\\left(0 , 1\\right)` move to.\n\nTheir images become the **first and second columns** of the matrix, in that order.\n",
+   "spec_links": [
+    "spcpt_GG7jc43bG3xTkft4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pwqrT3XsVbKcpZyK",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_HDDsGF5fnjPHWHrm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Under a reflection in the $x$-axis, `\\left(1 , 0\\right)` stays where it is and `\\left(0 , 1\\right)` moves to `\\left(0 , - 1\\right)`. Fill in the two missing entries."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} \\_\\_\\_\\_\\_\\_ & 0 \\\\ 0 & \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed matrix is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The first column is the image of `\\left(1 , 0\\right)` and the second column is the image of `\\left(0 , 1\\right)`."
+    }
+   ],
+   "front_md": "Under a reflection in the $x$-axis, `\\left(1 , 0\\right)` stays where it is and `\\left(0 , 1\\right)` moves to `\\left(0 , - 1\\right)`. Fill in the two missing entries.\n\n`\\begin{pmatrix} \\_\\_\\_\\_\\_\\_ & 0 \\\\ 0 & \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`\n",
+   "back_md": "The completed matrix is:\n\n`\\begin{pmatrix} 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`\n\nThe first column is the image of `\\left(1 , 0\\right)` and the second column is the image of `\\left(0 , 1\\right)`.\n",
+   "spec_links": [
+    "spcpt_GG7jc43bG3xTkft4"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_w2cGG6mQM2KJv7GM",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_HDDsGF5fnjPHWHrm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A reflection in the $y$-axis leaves the point `\\left(1 , 0\\right)` where it is."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "That point moves to `\\left(- 1 , 0\\right)`, because reflecting in the $y$-axis changes the sign of the $x$-coordinate."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is `\\left(0 , 1\\right)` that stays put, which is why the matrix is `\\begin{pmatrix} - 1 & 0 \\\\ 0 & 1 \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA reflection in the $y$-axis leaves the point `\\left(1 , 0\\right)` where it is.\n",
+   "back_md": "**False.**\n\nThat point moves to `\\left(- 1 , 0\\right)`, because reflecting in the $y$-axis changes the sign of the $x$-coordinate.\n\nIt is `\\left(0 , 1\\right)` that stays put, which is why the matrix is `\\begin{pmatrix} - 1 & 0 \\\\ 0 & 1 \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_GG7jc43bG3xTkft4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q8kN9Kcw55kG6XrN",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_HDDsGF5fnjPHWHrm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What matrices represent reflections in $y = x$ and in $y = - x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Reflection in $y = x$ is `\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}` and reflection in $y = - x$ is `\\begin{pmatrix} 0 & - 1 \\\\ - 1 & 0 \\end{pmatrix}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both have zeros on the leading diagonal, so it is the **signs** of the other two entries that tell them apart."
+    }
+   ],
+   "front_md": "What matrices represent reflections in $y = x$ and in $y = - x$?\n",
+   "back_md": "Reflection in $y = x$ is `\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}` and reflection in $y = - x$ is `\\begin{pmatrix} 0 & - 1 \\\\ - 1 & 0 \\end{pmatrix}`.\n\nBoth have zeros on the leading diagonal, so it is the **signs** of the other two entries that tell them apart.\n",
+   "spec_links": [
+    "spcpt_GG7jc43bG3xTkft4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nx8rVtvPNHJbm9Nz",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_HDDsGF5fnjPHWHrm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the matrix for a reflection in $y = x$ differ from the identity matrix?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its 1s sit on the **other** diagonal, running from bottom left to top right."
+    },
+    {
+     "type": "paragraph",
+     "md": "The identity matrix leaves every point exactly where it is, while this one swaps each point's two coordinates over."
+    }
+   ],
+   "front_md": "How does the matrix for a reflection in $y = x$ differ from the identity matrix?\n",
+   "back_md": "Its 1s sit on the **other** diagonal, running from bottom left to top right.\n\nThe identity matrix leaves every point exactly where it is, while this one swaps each point's two coordinates over.\n",
+   "spec_links": [
+    "spcpt_GG7jc43bG3xTkft4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g56vK6tDqNrFWCgr",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_zkRhNKK9J6cmhTjF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What matrix represents a rotation of 90° anticlockwise about the origin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\begin{pmatrix} 0 & - 1 \\\\ 1 & 0 \\end{pmatrix}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The point `\\left(1 , 0\\right)` turns to `\\left(0 , 1\\right)` and `\\left(0 , 1\\right)` turns to `\\left(- 1 , 0\\right)`, and those two images become the columns."
+    }
+   ],
+   "front_md": "What matrix represents a rotation of 90° anticlockwise about the origin?\n",
+   "back_md": "It is `\\begin{pmatrix} 0 & - 1 \\\\ 1 & 0 \\end{pmatrix}`.\n\nThe point `\\left(1 , 0\\right)` turns to `\\left(0 , 1\\right)` and `\\left(0 , 1\\right)` turns to `\\left(- 1 , 0\\right)`, and those two images become the columns.\n",
+   "spec_links": [
+    "spcpt_gkqmXrkrWnQC27tP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wTF3F6tvhvZmwrJd",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_zkRhNKK9J6cmhTjF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing entries of the matrix for a rotation of 180° about the origin."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} \\_\\_\\_\\_\\_\\_ & 0 \\\\ 0 & \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed matrix is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} - 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "A half turn sends every point to the opposite side of the origin, so both coordinates change sign."
+    }
+   ],
+   "front_md": "Fill in the two missing entries of the matrix for a rotation of 180° about the origin.\n\n`\\begin{pmatrix} \\_\\_\\_\\_\\_\\_ & 0 \\\\ 0 & \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`\n",
+   "back_md": "The completed matrix is:\n\n`\\begin{pmatrix} - 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`\n\nA half turn sends every point to the opposite side of the origin, so both coordinates change sign.\n",
+   "spec_links": [
+    "spcpt_gkqmXrkrWnQC27tP"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_5XRVXSd9g4grVdHD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_zkRhNKK9J6cmhTjF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What matrix represents a rotation of 270° anticlockwise about the origin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\begin{pmatrix} 0 & 1 \\\\ - 1 & 0 \\end{pmatrix}`, since a turn of 270° anticlockwise is the same as **90° clockwise**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The point `\\left(1 , 0\\right)` moves to `\\left(0 , - 1\\right)` and `\\left(0 , 1\\right)` moves to `\\left(1 , 0\\right)`."
+    }
+   ],
+   "front_md": "What matrix represents a rotation of 270° anticlockwise about the origin?\n",
+   "back_md": "It is `\\begin{pmatrix} 0 & 1 \\\\ - 1 & 0 \\end{pmatrix}`, since a turn of 270° anticlockwise is the same as **90° clockwise**.\n\nThe point `\\left(1 , 0\\right)` moves to `\\left(0 , - 1\\right)` and `\\left(0 , 1\\right)` moves to `\\left(1 , 0\\right)`.\n",
+   "spec_links": [
+    "spcpt_gkqmXrkrWnQC27tP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j3DkkkWVCFbyNK2N",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_zkRhNKK9J6cmhTjF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do rotation questions always state a direction as well as an angle?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a turn of the same size clockwise and anticlockwise gives **different** matrices."
+    },
+    {
+     "type": "paragraph",
+     "md": "The one exception is 180°, which lands in the same place whichever way you turn."
+    }
+   ],
+   "front_md": "Why do rotation questions always state a direction as well as an angle?\n",
+   "back_md": "Because a turn of the same size clockwise and anticlockwise gives **different** matrices.\n\nThe one exception is 180°, which lands in the same place whichever way you turn.\n",
+   "spec_links": [
+    "spcpt_gkqmXrkrWnQC27tP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DR67ZNBJrQqQwrcx",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_zkRhNKK9J6cmhTjF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A rotation of 180° about the origin has the same matrix as an enlargement of scale factor $- 1$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both send every point `\\left(x , y\\right)` to `\\left(- x , - y\\right)`, so both are the matrix $- I$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two transformations are described in quite different words but have exactly the same effect."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA rotation of 180° about the origin has the same matrix as an enlargement of scale factor $- 1$.\n",
+   "back_md": "**True.**\n\nBoth send every point `\\left(x , y\\right)` to `\\left(- x , - y\\right)`, so both are the matrix $- I$.\n\nThe two transformations are described in quite different words but have exactly the same effect.\n",
+   "spec_links": [
+    "spcpt_gkqmXrkrWnQC27tP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KpY2qBPhfsQn3HJm",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_6SnMFGJmYcNfjJkD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What matrix represents an enlargement of scale factor $k$ centred on the origin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\begin{pmatrix} k & 0 \\\\ 0 & k \\end{pmatrix}`, which is the same as $k I$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The point `\\left(1 , 0\\right)` moves to `\\left(k , 0\\right)` and `\\left(0 , 1\\right)` to `\\left(0 , k\\right)`, each sliding along its own axis."
+    }
+   ],
+   "front_md": "What matrix represents an enlargement of scale factor $k$ centred on the origin?\n",
+   "back_md": "It is `\\begin{pmatrix} k & 0 \\\\ 0 & k \\end{pmatrix}`, which is the same as $k I$.\n\nThe point `\\left(1 , 0\\right)` moves to `\\left(k , 0\\right)` and `\\left(0 , 1\\right)` to `\\left(0 , k\\right)`, each sliding along its own axis.\n",
+   "spec_links": [
+    "spcpt_H5Sb2tfDwbqy6x2t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2TDtS3kqP6rNQfw2",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_6SnMFGJmYcNfjJkD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The matrix `\\begin{pmatrix} \\frac{1}{4} & 0 \\\\ 0 & \\frac{1}{4} \\end{pmatrix}` represents a transformation. Fill in the two missing words."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is an `\\_\\_\\_\\_\\_\\_` of scale factor `\\_\\_\\_\\_\\_\\_` with centre at the origin."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed description is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is an **enlargement** of scale factor **one quarter** with centre at the origin."
+    },
+    {
+     "type": "paragraph",
+     "md": "The matrix is $\\frac{1}{4} I$, and any multiple of the identity matrix is an enlargement about the origin."
+    }
+   ],
+   "front_md": "The matrix `\\begin{pmatrix} \\frac{1}{4} & 0 \\\\ 0 & \\frac{1}{4} \\end{pmatrix}` represents a transformation. Fill in the two missing words.\n\nIt is an `\\_\\_\\_\\_\\_\\_` of scale factor `\\_\\_\\_\\_\\_\\_` with centre at the origin.\n",
+   "back_md": "The completed description is:\n\nIt is an **enlargement** of scale factor **one quarter** with centre at the origin.\n\nThe matrix is $\\frac{1}{4} I$, and any multiple of the identity matrix is an enlargement about the origin.\n",
+   "spec_links": [
+    "spcpt_H5Sb2tfDwbqy6x2t"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ctYmqMkQYVn4JXB8",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_6SnMFGJmYcNfjJkD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An enlargement matrix can have negative entries."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Negative scale factors are allowed, so `\\begin{pmatrix} - \\frac{1}{2} & 0 \\\\ 0 & - \\frac{1}{2} \\end{pmatrix}` is an enlargement of scale factor $- \\frac{1}{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A negative scale factor turns the shape through 180° about the origin as well as changing its size."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn enlargement matrix can have negative entries.\n",
+   "back_md": "**True.**\n\nNegative scale factors are allowed, so `\\begin{pmatrix} - \\frac{1}{2} & 0 \\\\ 0 & - \\frac{1}{2} \\end{pmatrix}` is an enlargement of scale factor $- \\frac{1}{2}$.\n\nA negative scale factor turns the shape through 180° about the origin as well as changing its size.\n",
+   "spec_links": [
+    "spcpt_H5Sb2tfDwbqy6x2t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_83bFkgB8ns236Hcr",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_6SnMFGJmYcNfjJkD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are the other two entries of an enlargement matrix always zero?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because an enlargement about the origin moves `\\left(1 , 0\\right)` straight along the $x$-axis and `\\left(0 , 1\\right)` straight along the $y$-axis."
+    },
+    {
+     "type": "paragraph",
+     "md": "Neither image picks up any component in the other direction, so those two positions stay empty."
+    }
+   ],
+   "front_md": "Why are the other two entries of an enlargement matrix always zero?\n",
+   "back_md": "Because an enlargement about the origin moves `\\left(1 , 0\\right)` straight along the $x$-axis and `\\left(0 , 1\\right)` straight along the $y$-axis.\n\nNeither image picks up any component in the other direction, so those two positions stay empty.\n",
+   "spec_links": [
+    "spcpt_H5Sb2tfDwbqy6x2t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wTvkwWpvBTrPxxnJ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_6SnMFGJmYcNfjJkD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a matrix enlargement always centred on the origin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiplying any matrix by the column vector for the origin gives the origin straight back again."
+    },
+    {
+     "type": "paragraph",
+     "md": "The origin therefore can never move, so it has to be the centre of any enlargement a matrix is able to represent."
+    }
+   ],
+   "front_md": "Why is a matrix enlargement always centred on the origin?\n",
+   "back_md": "Multiplying any matrix by the column vector for the origin gives the origin straight back again.\n\nThe origin therefore can never move, so it has to be the centre of any enlargement a matrix is able to represent.\n",
+   "spec_links": [
+    "spcpt_H5Sb2tfDwbqy6x2t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6kGV6mWSvtdgzVdD",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_FsgsyYnPrm49mnG9",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the determinant of a transformation matrix tell you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its **size** is the area scale factor, so the image's area is the object's area multiplied by it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Ignore any minus sign when scaling an area, because an area can never come out negative."
+    }
+   ],
+   "front_md": "What does the determinant of a transformation matrix tell you?\n",
+   "back_md": "Its **size** is the area scale factor, so the image's area is the object's area multiplied by it.\n\nIgnore any minus sign when scaling an area, because an area can never come out negative.\n",
+   "spec_links": [
+    "spcpt_5SJ9rhJbhSwKtDbv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HfFzw9Rms5MswF9t",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_FsgsyYnPrm49mnG9",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A triangle of area 12 is transformed by a matrix whose determinant is 4. Fill in the missing value."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{image area} = 12 \\times \\_\\_\\_\\_\\_\\_ = 48`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed calculation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{image area} = 12 \\times 4 = 48$"
+    },
+    {
+     "type": "paragraph",
+     "md": "This is far quicker than working out the coordinates of the image triangle and finding its area from those."
+    }
+   ],
+   "front_md": "A triangle of area 12 is transformed by a matrix whose determinant is 4. Fill in the missing value.\n\n`\\text{image area} = 12 \\times \\_\\_\\_\\_\\_\\_ = 48`\n",
+   "back_md": "The completed calculation is:\n\n$\\text{image area} = 12 \\times 4 = 48$\n\nThis is far quicker than working out the coordinates of the image triangle and finding its area from those.\n",
+   "spec_links": [
+    "spcpt_5SJ9rhJbhSwKtDbv"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_N7nvHxny2TMJjZVn",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_FsgsyYnPrm49mnG9",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every reflection matrix has determinant $- 1$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A reflection does not change the area of a shape, so the size of its determinant is 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "The minus sign records that the shape has been **flipped over**, which is exactly what a reflection does to it."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery reflection matrix has determinant $- 1$.\n",
+   "back_md": "**True.**\n\nA reflection does not change the area of a shape, so the size of its determinant is 1.\n\nThe minus sign records that the shape has been **flipped over**, which is exactly what a reflection does to it.\n",
+   "spec_links": [
+    "spcpt_5SJ9rhJbhSwKtDbv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qzYyrfqkrt7JQv6T",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_FsgsyYnPrm49mnG9",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a whole triangle be transformed in a single multiplication?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write its three vertices as the three **columns** of a $2 \\times 3$ matrix, then multiply the transformation matrix by that."
+    },
+    {
+     "type": "paragraph",
+     "md": "The three columns of the answer are the vertices of the image triangle."
+    }
+   ],
+   "front_md": "How can a whole triangle be transformed in a single multiplication?\n",
+   "back_md": "Write its three vertices as the three **columns** of a $2 \\times 3$ matrix, then multiply the transformation matrix by that.\n\nThe three columns of the answer are the vertices of the image triangle.\n",
+   "spec_links": [
+    "spcpt_5SJ9rhJbhSwKtDbv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V3QbdbFgyGwTNqh4",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_FsgsyYnPrm49mnG9",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A transformation has determinant 1. What does that tell you about areas?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Areas are left **unchanged** by the transformation, because the area scale factor is 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rotations are the usual example, since turning a shape does not alter its size at all."
+    }
+   ],
+   "front_md": "A transformation has determinant 1. What does that tell you about areas?\n",
+   "back_md": "Areas are left **unchanged** by the transformation, because the area scale factor is 1.\n\nRotations are the usual example, since turning a shape does not alter its size at all.\n",
+   "spec_links": [
+    "spcpt_5SJ9rhJbhSwKtDbv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SHwGb6fcg3rzQP8K",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_s8TCpZTw6WRdC3gN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A point is transformed first by $P$ and then by $Q$. Fill in the missing matrix."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{M} = \\_\\_\\_\\_\\_\\_ \\mathbf{P}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed result is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$M = \\mathrm{QP}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The order in the multiplication runs **backwards** from the order in which the transformations actually happen."
+    }
+   ],
+   "front_md": "A point is transformed first by $P$ and then by $Q$. Fill in the missing matrix.\n\n`\\mathbf{M} = \\_\\_\\_\\_\\_\\_ \\mathbf{P}`\n",
+   "back_md": "The completed result is:\n\n$M = \\mathrm{QP}$\n\nThe order in the multiplication runs **backwards** from the order in which the transformations actually happen.\n",
+   "spec_links": [
+    "spcpt_5snY7JPdgrqvFRhY"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_TMg7pQwHhbq4txV6",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_s8TCpZTw6WRdC3gN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{PQ}$ represents transformation $P$ followed by transformation $Q$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{PQ}$ represents $Q$ **first**, followed by $P$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The matrix nearest the point's column vector is the one that acts on it first, which is why the written order runs backwards."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\mathrm{PQ}$ represents transformation $P$ followed by transformation $Q$.\n",
+   "back_md": "**False.**\n\n$\\mathrm{PQ}$ represents $Q$ **first**, followed by $P$.\n\nThe matrix nearest the point's column vector is the one that acts on it first, which is why the written order runs backwards.\n",
+   "spec_links": [
+    "spcpt_5snY7JPdgrqvFRhY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rysDkSWvSFkzFk63",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_s8TCpZTw6WRdC3gN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you prove a combined transformation result using matrix multiplication?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write each transformation as its own matrix, then multiply them together in the correct order."
+    },
+    {
+     "type": "paragraph",
+     "md": "If that product equals the matrix of the single transformation being claimed, the result is proved."
+    }
+   ],
+   "front_md": "How do you prove a combined transformation result using matrix multiplication?\n",
+   "back_md": "Write each transformation as its own matrix, then multiply them together in the correct order.\n\nIf that product equals the matrix of the single transformation being claimed, the result is proved.\n",
+   "spec_links": [
+    "spcpt_5snY7JPdgrqvFRhY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Pg799TZ9QTWrbtqm",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_s8TCpZTw6WRdC3gN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Reflection in the $y$-axis has matrix `\\begin{pmatrix} - 1 & 0 \\\\ 0 & 1 \\end{pmatrix}` and reflection in the $x$-axis has matrix `\\begin{pmatrix} 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`. What single matrix is the first followed by the second?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply them as `\\begin{pmatrix} 1 & 0 \\\\ 0 & - 1 \\end{pmatrix} \\begin{pmatrix} - 1 & 0 \\\\ 0 & 1 \\end{pmatrix}`, putting the **second** transformation on the left."
+    },
+    {
+     "type": "paragraph",
+     "md": "The product is `\\begin{pmatrix} - 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`, which is a rotation of 180° about the origin."
+    }
+   ],
+   "front_md": "Reflection in the $y$-axis has matrix `\\begin{pmatrix} - 1 & 0 \\\\ 0 & 1 \\end{pmatrix}` and reflection in the $x$-axis has matrix `\\begin{pmatrix} 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`. What single matrix is the first followed by the second?\n",
+   "back_md": "Multiply them as `\\begin{pmatrix} 1 & 0 \\\\ 0 & - 1 \\end{pmatrix} \\begin{pmatrix} - 1 & 0 \\\\ 0 & 1 \\end{pmatrix}`, putting the **second** transformation on the left.\n\nThe product is `\\begin{pmatrix} - 1 & 0 \\\\ 0 & - 1 \\end{pmatrix}`, which is a rotation of 180° about the origin.\n",
+   "spec_links": [
+    "spcpt_5snY7JPdgrqvFRhY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n4bfJ6ZCZ9DVZSRT",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_s8TCpZTw6WRdC3gN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Once you have the combined matrix, how do you find a point's final image?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply that combined matrix by the point's column vector, just once."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no need to apply the two transformations separately, and avoiding that is the whole advantage of combining them."
+    }
+   ],
+   "front_md": "Once you have the combined matrix, how do you find a point's final image?\n",
+   "back_md": "Multiply that combined matrix by the point's column vector, just once.\n\nThere is no need to apply the two transformations separately, and avoiding that is the whole advantage of combining them.\n",
+   "spec_links": [
+    "spcpt_5snY7JPdgrqvFRhY"
+   ],
+   "flags": []
+  }
+ ]
+}

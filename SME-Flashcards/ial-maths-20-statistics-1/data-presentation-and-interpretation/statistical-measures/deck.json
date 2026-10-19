@@ -1,0 +1,1216 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:48Z",
+ "course_slug": "ial-maths-20-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/flashcards/data-presentation-and-interpretation/statistical-measures/",
+  "section_slug": "data-presentation-and-interpretation",
+  "section_name": "Data Presentation & Interpretation",
+  "topic_slug": "statistical-measures",
+  "title": "Statistical Measures",
+  "order": 0
+ },
+ "card_count": 34,
+ "card_types": {
+  "keyword_definition": 4,
+  "question_and_answer": 21,
+  "fill_in_the_blanks": 5,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 34,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_XSJJx8zjyY9RZ37n",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **measure of location**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A measure of location gives information about **where** data sits in the number system."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean, median and mode are measures of **central tendency**, a particular kind of location measure describing where the centre of the data is."
+    },
+    {
+     "type": "paragraph",
+     "md": "The quartiles and percentiles are measures of location too, but they describe other positions in the data rather than the centre."
+    }
+   ],
+   "front_md": "Define a **measure of location**.\n",
+   "back_md": "A measure of location gives information about **where** data sits in the number system.\n\nThe mean, median and mode are measures of **central tendency**, a particular kind of location measure describing where the centre of the data is.\n\nThe quartiles and percentiles are measures of location too, but they describe other positions in the data rather than the centre.\n",
+   "spec_links": [
+    "spcpt_yf3cdB89PqqgRTVn",
+    "spcpt_bJ2N3km7G9FFwTBY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vP7YhvQzwCVXb6qV",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must a data set be put in order of size before you can find its median, but not before you can find its mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the median is defined by its **position**: it is the middle value once the data is in order, so putting the data in order is what identifies it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean is a **total** divided by how many values there are, and that total comes out the same whatever order the values are added in."
+    },
+    {
+     "type": "paragraph",
+     "md": "With an even number of values there is no single middle one, so the median is the **midpoint** of the two middle values."
+    }
+   ],
+   "front_md": "Why must a data set be put in order of size before you can find its median, but not before you can find its mean?\n",
+   "back_md": "Because the median is defined by its **position**: it is the middle value once the data is in order, so putting the data in order is what identifies it.\n\nThe mean is a **total** divided by how many values there are, and that total comes out the same whatever order the values are added in.\n\nWith an even number of values there is no single middle one, so the median is the **midpoint** of the two middle values.\n",
+   "spec_links": [
+    "spcpt_yf3cdB89PqqgRTVn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DDYdwNKQV3RD8vVf",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In summary-statistic notation, what do $Σ x$ and $\\overline{x}$ each stand for, and how is each read aloud?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$Σ x$ is the **sum** of all the data values, $x_{1} + x_{2} + \\dots + x_{n}$, and is read as **sigma x**."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overline{x}$ is the **mean**, $\\frac{Σx}{n}$, and is read as **x bar**."
+    }
+   ],
+   "front_md": "In summary-statistic notation, what do $Σ x$ and $\\overline{x}$ each stand for, and how is each read aloud?\n",
+   "back_md": "$Σ x$ is the **sum** of all the data values, $x_{1} + x_{2} + \\dots + x_{n}$, and is read as **sigma x**.\n\n$\\overline{x}$ is the **mean**, $\\frac{Σx}{n}$, and is read as **x bar**.\n",
+   "spec_links": [
+    "spcpt_yf3cdB89PqqgRTVn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BDxFqMqc72dvc5K6",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A data set contains one or two extreme values. Which average is affected most, and which average would you report instead?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **mean** is affected most, because it is worked out from every value in the set, so one extreme value drags the whole total with it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Report the **median** instead: it depends only on which value sits in the middle position, so an extreme value at one end shifts it by at most one place."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mode is not affected either, but it can sit nowhere near the centre of the data, and a set can have several modes or none at all."
+    }
+   ],
+   "front_md": "A data set contains one or two extreme values. Which average is affected most, and which average would you report instead?\n",
+   "back_md": "The **mean** is affected most, because it is worked out from every value in the set, so one extreme value drags the whole total with it.\n\nReport the **median** instead: it depends only on which value sits in the middle position, so an extreme value at one end shifts it by at most one place.\n\nThe mode is not affected either, but it can sit nowhere near the centre of the data, and a set can have several modes or none at all.\n",
+   "spec_links": [
+    "spcpt_yf3cdB89PqqgRTVn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rzzBRCMvkbTFdd94",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The 70th **percentile** of a data set is 42. What does that tell you about the data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**70% of the data lies below 42**, and the remaining 30% lies above it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Percentiles divide the data into 100 parts, in the same way that the quartiles divide it into four: $Q_{1}$ is the 25th percentile, the median is the 50th and $Q_{3}$ is the 75th."
+    }
+   ],
+   "front_md": "The 70th **percentile** of a data set is 42. What does that tell you about the data?\n",
+   "back_md": "**70% of the data lies below 42**, and the remaining 30% lies above it.\n\nPercentiles divide the data into 100 parts, in the same way that the quartiles divide it into four: $Q_{1}$ is the 25th percentile, the median is the 50th and $Q_{3}$ is the 75th.\n",
+   "spec_links": [
+    "spcpt_bJ2N3km7G9FFwTBY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3vrVBMryGPNq3wKv",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a list of $n$ raw data values written in order, $\\frac{n}{4}$ is worked out in order to locate the lower quartile. Why does what you do next depend on whether $\\frac{n}{4}$ is a whole number?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $\\frac{n}{4}$ is **not** a whole number, round it **up**, and $Q_{1}$ is the value in that position."
+    },
+    {
+     "type": "paragraph",
+     "md": "If $\\frac{n}{4}$ **is** a whole number, the quarter-way point falls exactly between two data values, so $Q_{1}$ is the **midpoint** of that value and the one above it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The upper quartile is found the same way, using $\\frac{3n}{4}$."
+    }
+   ],
+   "front_md": "For a list of $n$ raw data values written in order, $\\frac{n}{4}$ is worked out in order to locate the lower quartile. Why does what you do next depend on whether $\\frac{n}{4}$ is a whole number?\n",
+   "back_md": "If $\\frac{n}{4}$ is **not** a whole number, round it **up**, and $Q_{1}$ is the value in that position.\n\nIf $\\frac{n}{4}$ **is** a whole number, the quarter-way point falls exactly between two data values, so $Q_{1}$ is the **midpoint** of that value and the one above it.\n\nThe upper quartile is found the same way, using $\\frac{3n}{4}$.\n",
+   "spec_links": [
+    "spcpt_bJ2N3km7G9FFwTBY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3BMzJDwgm8TyktZY",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the interquartile range by filling in the two missing **subscripts**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{IQR} = Q_{\\_\\_\\_\\_\\_\\_} - Q_{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{IQR} = Q_{3} - Q_{1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "It measures the width of the stretch of the number line covered by the central half of the data, so it is a measure of **spread** rather than of location."
+    },
+    {
+     "type": "paragraph",
+     "md": "Like the **range**, the largest value minus the smallest, it carries the same units as the original data."
+    }
+   ],
+   "front_md": "Complete the formula for the interquartile range by filling in the two missing **subscripts**:\n\n`\\text{IQR} = Q_{\\_\\_\\_\\_\\_\\_} - Q_{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n$\\text{IQR} = Q_{3} - Q_{1}$\n\nIt measures the width of the stretch of the number line covered by the central half of the data, so it is a measure of **spread** rather than of location.\n\nLike the **range**, the largest value minus the smallest, it carries the same units as the original data.\n",
+   "spec_links": [
+    "spcpt_bJ2N3km7G9FFwTBY"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_pSvzd6YWCsRy9sq6",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_rMxW3nqM2mrKCcfC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The 25th to 75th interpercentile range is the same thing as the interquartile range."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The 25th percentile is $Q_{1}$ and the 75th percentile is $Q_{3}$, so that particular interpercentile range is $Q_{3} - Q_{1}$, which is exactly the interquartile range."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any other pair of percentiles gives something different, which is why you must always say **which** two you mean, as in the 10th to 90th interpercentile range."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe 25th to 75th interpercentile range is the same thing as the interquartile range.\n",
+   "back_md": "**True.**\n\nThe 25th percentile is $Q_{1}$ and the 75th percentile is $Q_{3}$, so that particular interpercentile range is $Q_{3} - Q_{1}$, which is exactly the interquartile range.\n\nAny other pair of percentiles gives something different, which is why you must always say **which** two you mean, as in the 10th to 90th interpercentile range.\n",
+   "spec_links": [
+    "spcpt_bJ2N3km7G9FFwTBY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fz4NH2fSPGVWmDNW",
+   "card_type": "true_or_false",
+   "order": 0,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Putting data into a frequency table loses the individual data values."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An **ungrouped** frequency table keeps every value: it records how many times each individual value occurred, so exact averages, ranges and summary statistics can still be calculated from it."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is **grouping** the data that loses the values. Once a table records only that eight items fell between 240 and 260, those eight values are gone, and every statistic calculated from it is an **estimate**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nPutting data into a frequency table loses the individual data values.\n",
+   "back_md": "**False.**\n\nAn **ungrouped** frequency table keeps every value: it records how many times each individual value occurred, so exact averages, ranges and summary statistics can still be calculated from it.\n\nIt is **grouping** the data that loses the values. Once a table records only that eight items fell between 240 and 260, those eight values are gone, and every statistic calculated from it is an **estimate**.\n",
+   "spec_links": [
+    "spcpt_R5p8k22QDnP2cnM3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QjV4s3d4Y2SRgFXH",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For **discrete data in an ungrouped frequency table**, which position gives the median, and how do you find the value there?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The median is the $\\frac{n+1}{2}$ th value, where $n$ is the total frequency."
+    },
+    {
+     "type": "paragraph",
+     "md": "Add the frequencies up in order until the running total first reaches that position, and the median is the data value you are on when it does."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, with $n = 60$ the median is the 30.5th value, meaning halfway between the 30th and the 31st; **grouped** data uses a different position, because the individual values are no longer known."
+    }
+   ],
+   "front_md": "For **discrete data in an ungrouped frequency table**, which position gives the median, and how do you find the value there?\n",
+   "back_md": "The median is the $\\frac{n+1}{2}$ th value, where $n$ is the total frequency.\n\nAdd the frequencies up in order until the running total first reaches that position, and the median is the data value you are on when it does.\n\nSo, **for example**, with $n = 60$ the median is the 30.5th value, meaning halfway between the 30th and the 31st; **grouped** data uses a different position, because the individual values are no longer known.\n",
+   "spec_links": [
+    "spcpt_R5p8k22QDnP2cnM3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ThBycjfhJrhtNtZV",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the mean of data given in a frequency table, where $x$ is a data value and $f$ is its frequency:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\bar{x} = \\frac{\\Sigma \\_\\_\\_\\_\\_\\_}{\\Sigma \\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overline{x} = \\frac{Σxf}{Σf}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiply each value by its frequency and add the results, then divide by the total frequency."
+    },
+    {
+     "type": "paragraph",
+     "md": "$Σ x f$ is the sum of all the data values, exactly as $Σ x$ would be if they were listed out one by one, and $Σ f$ is how many values there are."
+    }
+   ],
+   "front_md": "Complete the formula for the mean of data given in a frequency table, where $x$ is a data value and $f$ is its frequency:\n\n`\\bar{x} = \\frac{\\Sigma \\_\\_\\_\\_\\_\\_}{\\Sigma \\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n$\\overline{x} = \\frac{Σxf}{Σf}$\n\nMultiply each value by its frequency and add the results, then divide by the total frequency.\n\n$Σ x f$ is the sum of all the data values, exactly as $Σ x$ would be if they were listed out one by one, and $Σ f$ is how many values there are.\n",
+   "spec_links": [
+    "spcpt_R5p8k22QDnP2cnM3"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_F987fKKqG2hYm7Kx",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A grouped frequency table for continuous data has the classes $10 \\leq x \\leq 19$ and $20 \\leq x \\leq 29$. What is wrong with them, and what do you do about it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There is a **gap**: nothing between 19 and 20 has a class to go in, and a continuous quantity can take those values."
+    },
+    {
+     "type": "paragraph",
+     "md": "Close the gap before doing any calculation: for data that has been **rounded**, the boundaries become"
+    },
+    {
+     "type": "paragraph",
+     "md": "$9 . 5 \\leq x < 19 . 5  \\text{and}  19 . 5 \\leq x < 29 . 5$"
+    },
+    {
+     "type": "paragraph",
+     "md": "For data that has been **truncated**, such as an age counted in whole years, they become $10 \\leq x < 20$ and $20 \\leq x < 30$ instead, since someone is 19 right up until their 20th birthday."
+    }
+   ],
+   "front_md": "A grouped frequency table for continuous data has the classes $10 \\leq x \\leq 19$ and $20 \\leq x \\leq 29$. What is wrong with them, and what do you do about it?\n",
+   "back_md": "There is a **gap**: nothing between 19 and 20 has a class to go in, and a continuous quantity can take those values.\n\nClose the gap before doing any calculation: for data that has been **rounded**, the boundaries become\n\n$9 . 5 \\leq x < 19 . 5  \\text{and}  19 . 5 \\leq x < 29 . 5$\n\nFor data that has been **truncated**, such as an age counted in whole years, they become $10 \\leq x < 20$ and $20 \\leq x < 30$ instead, since someone is 19 right up until their 20th birthday.\n",
+   "spec_links": [
+    "spcpt_Dnt3T3BYzbvRC4dh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fTC7v2Nsy83GKNff",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For grouped data you give the modal **class** rather than the mode. Why can you not give a mode?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Grouping the data throws away the individual values, so there is no longer any way to tell which single value occurred most often."
+    },
+    {
+     "type": "paragraph",
+     "md": "What survives is which **class** the data is most concentrated in, so that is what you report."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same limitation applies to the mean and the median from a grouped table: everything you can calculate is an estimate."
+    }
+   ],
+   "front_md": "For grouped data you give the modal **class** rather than the mode. Why can you not give a mode?\n",
+   "back_md": "Grouping the data throws away the individual values, so there is no longer any way to tell which single value occurred most often.\n\nWhat survives is which **class** the data is most concentrated in, so that is what you report.\n\nThe same limitation applies to the mean and the median from a grouped table: everything you can calculate is an estimate.\n",
+   "spec_links": [
+    "spcpt_Dnt3T3BYzbvRC4dh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J8xR8H6m2NcFsrMK",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do you use in place of the actual data values when estimating the mean from a grouped frequency table?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **midpoint** of each class, which stands in for every value in that class; the midpoint is the mean of the class's lower and upper boundaries, so $150 \\leq h < 155$ has midpoint 152.5."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is why the answer is only an **estimate**: it assumes the values in each class average out at its midpoint, which they will not do exactly."
+    },
+    {
+     "type": "paragraph",
+     "md": "Watch for a class of a different width from the others, since its midpoint still has to be worked out from its own boundaries."
+    }
+   ],
+   "front_md": "What do you use in place of the actual data values when estimating the mean from a grouped frequency table?\n",
+   "back_md": "The **midpoint** of each class, which stands in for every value in that class; the midpoint is the mean of the class's lower and upper boundaries, so $150 \\leq h < 155$ has midpoint 152.5.\n\nThis is why the answer is only an **estimate**: it assumes the values in each class average out at its midpoint, which they will not do exactly.\n\nWatch for a class of a different width from the others, since its midpoint still has to be worked out from its own boundaries.\n",
+   "spec_links": [
+    "spcpt_Dnt3T3BYzbvRC4dh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gGwSMp8vVsy8NcMr",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the assumption that linear interpolation makes about grouped data:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The data values are assumed to be `\\_\\_\\_\\_\\_\\_` spread throughout each class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed assumption is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The data values are assumed to be **evenly** spread throughout each class."
+    },
+    {
+     "type": "paragraph",
+     "md": "That assumption is what makes the method work. If the values are evenly spread, then a position one third of the way through a class's frequency corresponds to a data value one third of the way through that class's range, so proportion can be used."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is also why an interpolated median or quartile is an **estimate**: real data is rarely spread evenly."
+    }
+   ],
+   "front_md": "Complete the assumption that linear interpolation makes about grouped data:\n\nThe data values are assumed to be `\\_\\_\\_\\_\\_\\_` spread throughout each class.\n",
+   "back_md": "The completed assumption is:\n\nThe data values are assumed to be **evenly** spread throughout each class.\n\nThat assumption is what makes the method work. If the values are evenly spread, then a position one third of the way through a class's frequency corresponds to a data value one third of the way through that class's range, so proportion can be used.\n\nIt is also why an interpolated median or quartile is an **estimate**: real data is rarely spread evenly.\n",
+   "spec_links": [
+    "spcpt_Dnt3T3BYzbvRC4dh"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_PTw2x8sDXvqXWK3g",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_Mhc38NJkyQGGRFpb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$Q_{1}$ is the 6.25th value, and it lies in the class $155 \\leq h < 160$, which runs from a cumulative frequency of 3 to a cumulative frequency of 8. How does linear interpolation give $Q_{1}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set the fraction of the way through the **cumulative frequency** equal to the fraction of the way through the **class boundaries**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{6.25-3}{8-3} = \\frac{Q_{1}-155}{160-155}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{3.25}{5} = \\frac{Q_{1}-155}{5}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "so $Q_{1} = 155 + 3 . 25 = 158 . 25$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The part that is easiest to forget is adding the **lower class boundary** back on at the end. The proportion gives you how far into the class the value sits, not the value itself."
+    }
+   ],
+   "front_md": "$Q_{1}$ is the 6.25th value, and it lies in the class $155 \\leq h < 160$, which runs from a cumulative frequency of 3 to a cumulative frequency of 8. How does linear interpolation give $Q_{1}$?\n",
+   "back_md": "Set the fraction of the way through the **cumulative frequency** equal to the fraction of the way through the **class boundaries**:\n\n$\\frac{6.25-3}{8-3} = \\frac{Q_{1}-155}{160-155}$\n\n$\\frac{3.25}{5} = \\frac{Q_{1}-155}{5}$\n\nso $Q_{1} = 155 + 3 . 25 = 158 . 25$.\n\nThe part that is easiest to forget is adding the **lower class boundary** back on at the end. The proportion gives you how far into the class the value sits, not the value itself.\n",
+   "spec_links": [
+    "spcpt_Dnt3T3BYzbvRC4dh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2ZGS9XDGG3yV9V7W",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_GYWhdRy3JW8mDqpd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **variance** of a set of data."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The variance measures how **spread out** a set of data is: it is the mean of the squared deviations from the mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "Widely spread data has a large variance; data clustered close together has a small one."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **standard deviation** is the square root of the variance and is written $σ$, which is why the variance itself is written $σ^{2}$."
+    }
+   ],
+   "front_md": "Define the **variance** of a set of data.\n",
+   "back_md": "The variance measures how **spread out** a set of data is: it is the mean of the squared deviations from the mean.\n\nWidely spread data has a large variance; data clustered close together has a small one.\n\nThe **standard deviation** is the square root of the variance and is written $σ$, which is why the variance itself is written $σ^{2}$.\n",
+   "spec_links": [
+    "spcpt_73stmsk3vHbph42y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ThRWrkRDqsSghzk6",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_GYWhdRy3JW8mDqpd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the version of the variance formula that is usually quickest to use:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sigma^{2} = \\frac{\\Sigma \\_\\_\\_\\_\\_\\_}{n} - \\left(\\_\\_\\_\\_\\_\\_\\right)^{2}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sigma^{2} = \\frac{\\Sigma x^{2}}{n} - \\left(\\bar{x}\\right)^{2}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "In words, it is the mean of the squares minus the square of the mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "It needs only $Σ x^{2}$, $Σ x$ and $n$, which is why it is quicker than working out every deviation $x - \\overline{x}$ one at a time."
+    }
+   ],
+   "front_md": "Complete the version of the variance formula that is usually quickest to use:\n\n`\\sigma^{2} = \\frac{\\Sigma \\_\\_\\_\\_\\_\\_}{n} - \\left(\\_\\_\\_\\_\\_\\_\\right)^{2}`\n",
+   "back_md": "The completed formula is:\n\n`\\sigma^{2} = \\frac{\\Sigma x^{2}}{n} - \\left(\\bar{x}\\right)^{2}`\n\nIn words, it is the mean of the squares minus the square of the mean.\n\nIt needs only $Σ x^{2}$, $Σ x$ and $n$, which is why it is quicker than working out every deviation $x - \\overline{x}$ one at a time.\n",
+   "spec_links": [
+    "spcpt_73stmsk3vHbph42y"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_nK45NdfdJHjVGzMT",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_GYWhdRy3JW8mDqpd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The summary statistic `S_{x x} = \\Sigma \\left(x - \\bar{x}\\right)^{2}` is given in the formula booklet. How do you get the variance from it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide it by $n$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$σ^{2} = \\frac{S_{xx}}{n}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{xx}$ is the **total** of the squared deviations, so dividing by how many values there are turns that total into their mean, which is what the variance is."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formulae for the variance and the standard deviation are **not** in the booklet, so those two you have to know."
+    }
+   ],
+   "front_md": "The summary statistic `S_{x x} = \\Sigma \\left(x - \\bar{x}\\right)^{2}` is given in the formula booklet. How do you get the variance from it?\n",
+   "back_md": "Divide it by $n$:\n\n$σ^{2} = \\frac{S_{xx}}{n}$\n\n$S_{xx}$ is the **total** of the squared deviations, so dividing by how many values there are turns that total into their mean, which is what the variance is.\n\nThe formulae for the variance and the standard deviation are **not** in the booklet, so those two you have to know.\n",
+   "spec_links": [
+    "spcpt_73stmsk3vHbph42y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BMPmk5qyJKhhtgTm",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_GYWhdRy3JW8mDqpd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A set of data can have a variance of zero."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The variance is zero exactly when every deviation $x - \\overline{x}$ is zero, which happens when **every value in the set is the same**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It can never be negative, because it is built out of squares, so zero is the smallest value a variance can take."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA set of data can have a variance of zero.\n",
+   "back_md": "**True.**\n\nThe variance is zero exactly when every deviation $x - \\overline{x}$ is zero, which happens when **every value in the set is the same**.\n\nIt can never be negative, because it is built out of squares, so zero is the smallest value a variance can take.\n",
+   "spec_links": [
+    "spcpt_73stmsk3vHbph42y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r85Z7hsYsdbKxWJY",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_GYWhdRy3JW8mDqpd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The times in a data set are measured in minutes. What are the units of the variance, and what are the units of the standard deviation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The variance is in **minutes squared**, because it is built out of **squared** deviations from the mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "The standard deviation is in **minutes**, the same units as the data itself, because taking the square root undoes that squaring."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what makes the standard deviation the more natural of the two to quote when describing a set of data."
+    }
+   ],
+   "front_md": "The times in a data set are measured in minutes. What are the units of the variance, and what are the units of the standard deviation?\n",
+   "back_md": "The variance is in **minutes squared**, because it is built out of **squared** deviations from the mean.\n\nThe standard deviation is in **minutes**, the same units as the data itself, because taking the square root undoes that squaring.\n\nThat is what makes the standard deviation the more natural of the two to quote when describing a set of data.\n",
+   "spec_links": [
+    "spcpt_73stmsk3vHbph42y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bSJwRn64Mr5dgR4Y",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_GYWhdRy3JW8mDqpd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the variance formula change when the data is given in a **grouped** frequency table?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Every value is weighted by its frequency, and the class **midpoints** are used in place of the data values $x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sigma^{2} = \\frac{\\Sigma f x^{2}}{\\Sigma f} - \\left(\\frac{\\Sigma f x}{\\Sigma f}\\right)^{2}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The total frequency $Σ f$ replaces $n$, because that is how many values there are."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since the midpoints only stand in for the real values, the answer is an **estimate**."
+    }
+   ],
+   "front_md": "How does the variance formula change when the data is given in a **grouped** frequency table?\n",
+   "back_md": "Every value is weighted by its frequency, and the class **midpoints** are used in place of the data values $x$:\n\n`\\sigma^{2} = \\frac{\\Sigma f x^{2}}{\\Sigma f} - \\left(\\frac{\\Sigma f x}{\\Sigma f}\\right)^{2}`\n\nThe total frequency $Σ f$ replaces $n$, because that is how many values there are.\n\nSince the midpoints only stand in for the real values, the answer is an **estimate**.\n",
+   "spec_links": [
+    "spcpt_73stmsk3vHbph42y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GxGpPFcn2VPDyVvT",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_kPWvs5b84pKm6pWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **coding** a set of data."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Coding is applying the **same formula to every value** in a data set, to simplify the numbers you have to work with."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is most useful when the data consists of very large or very small numbers, so coding such as $x = \\frac{h-250}{20}$ turns awkward values into small, convenient ones."
+    },
+    {
+     "type": "paragraph",
+     "md": "The coding must be applied to **every** value, or the coded data no longer represents the original."
+    }
+   ],
+   "front_md": "Define **coding** a set of data.\n",
+   "back_md": "Coding is applying the **same formula to every value** in a data set, to simplify the numbers you have to work with.\n\nIt is most useful when the data consists of very large or very small numbers, so coding such as $x = \\frac{h-250}{20}$ turns awkward values into small, convenient ones.\n\nThe coding must be applied to **every** value, or the coded data no longer represents the original.\n",
+   "spec_links": [
+    "spcpt_VdkHR5vRgMfZtKyd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C7hqxHPQhSMcfdkY",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_kPWvs5b84pKm6pWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Data $x$ is coded using $y = a x + b$. What happens to the **mean**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The mean is coded in exactly the same way as the data:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overline{y} = a \\overline{x} + b$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The reason is that the mean is a measure of **location**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Changing every value changes where the data sits, and the mean follows it: multiply everything by $a$ and the centre is multiplied by $a$; add $b$ to everything and the centre moves up by $b$."
+    }
+   ],
+   "front_md": "Data $x$ is coded using $y = a x + b$. What happens to the **mean**?\n",
+   "back_md": "The mean is coded in exactly the same way as the data:\n\n$\\overline{y} = a \\overline{x} + b$\n\nThe reason is that the mean is a measure of **location**.\n\nChanging every value changes where the data sits, and the mean follows it: multiply everything by $a$ and the centre is multiplied by $a$; add $b$ to everything and the centre moves up by $b$.\n",
+   "spec_links": [
+    "spcpt_VdkHR5vRgMfZtKyd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HqQGSSQwRjMmFR7c",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_kPWvs5b84pKm6pWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Data $x$ is coded using $y = a x + b$. What happens to the **standard deviation**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only the multiplier affects it:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sigma_{y} = \\left|a\\right| \\sigma_{x}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Adding or subtracting $b$ makes **no difference at all**, because the standard deviation is a measure of **spread**: sliding every value along by the same amount leaves every gap between values exactly as it was."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying by $a$ does stretch those gaps, so it stretches the standard deviation with them."
+    }
+   ],
+   "front_md": "Data $x$ is coded using $y = a x + b$. What happens to the **standard deviation**?\n",
+   "back_md": "Only the multiplier affects it:\n\n`\\sigma_{y} = \\left|a\\right| \\sigma_{x}`\n\nAdding or subtracting $b$ makes **no difference at all**, because the standard deviation is a measure of **spread**: sliding every value along by the same amount leaves every gap between values exactly as it was.\n\nMultiplying by $a$ does stretch those gaps, so it stretches the standard deviation with them.\n",
+   "spec_links": [
+    "spcpt_VdkHR5vRgMfZtKyd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vdm7qZvtbsJ2QJhm",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_kPWvs5b84pKm6pWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Data $x$ was coded using $y = a x + b$, and the mean of the coded data is $\\overline{y}$. Complete the way the original mean is recovered:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\bar{x} = \\frac{\\bar{y} - \\_\\_\\_\\_\\_\\_}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overline{x} = \\frac{\\overline{y}-b}{a}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "This is just $\\overline{y} = a \\overline{x} + b$ rearranged, which is worth doing rather than memorising: whatever the coding formula was, write it down with the means in it and solve for the one you want."
+    },
+    {
+     "type": "paragraph",
+     "md": "Undo the operations in reverse order, so subtract before dividing."
+    }
+   ],
+   "front_md": "Data $x$ was coded using $y = a x + b$, and the mean of the coded data is $\\overline{y}$. Complete the way the original mean is recovered:\n\n`\\bar{x} = \\frac{\\bar{y} - \\_\\_\\_\\_\\_\\_}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n$\\overline{x} = \\frac{\\overline{y}-b}{a}$\n\nThis is just $\\overline{y} = a \\overline{x} + b$ rearranged, which is worth doing rather than memorising: whatever the coding formula was, write it down with the means in it and solve for the one you want.\n\nUndo the operations in reverse order, so subtract before dividing.\n",
+   "spec_links": [
+    "spcpt_VdkHR5vRgMfZtKyd"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_H2gb8hxWdjq3Qv4s",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_kPWvs5b84pKm6pWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In `\\sigma_{y} = \\left|a\\right| \\sigma_{x}`, why is the modulus of $a$ taken?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a standard deviation can **never be negative**: it measures how spread out data is, and a spread of less than nothing means nothing."
+    },
+    {
+     "type": "paragraph",
+     "md": "Coding with a negative multiplier, such as $y = - 3 x$, reflects the data as well as stretching it, but reflecting does not change how spread out it is."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the standard deviation is multiplied by the **positive** value 3, not by $- 3$."
+    }
+   ],
+   "front_md": "In `\\sigma_{y} = \\left|a\\right| \\sigma_{x}`, why is the modulus of $a$ taken?\n",
+   "back_md": "Because a standard deviation can **never be negative**: it measures how spread out data is, and a spread of less than nothing means nothing.\n\nCoding with a negative multiplier, such as $y = - 3 x$, reflects the data as well as stretching it, but reflecting does not change how spread out it is.\n\nSo the standard deviation is multiplied by the **positive** value 3, not by $- 3$.\n",
+   "spec_links": [
+    "spcpt_VdkHR5vRgMfZtKyd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WRrYNG3hPMMGFXVK",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_kPWvs5b84pKm6pWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Heights $h$, in cm, are coded using $x = \\frac{h-250}{20}$, and the coded data has standard deviation 1.3102. What is the standard deviation of the heights?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only the **division by 20** has to be reversed:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$σ_{h} = 20 \\times 1 . 3102 = 26 . 2 \\text{cm}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting 250 slid every height down the scale without changing how spread out they were, so it has no part in the calculation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Note that the answer carries the units of the original data, cm, not of the coded values, which have no units at all."
+    }
+   ],
+   "front_md": "Heights $h$, in cm, are coded using $x = \\frac{h-250}{20}$, and the coded data has standard deviation 1.3102. What is the standard deviation of the heights?\n",
+   "back_md": "Only the **division by 20** has to be reversed:\n\n$σ_{h} = 20 \\times 1 . 3102 = 26 . 2 \\text{cm}$\n\nSubtracting 250 slid every height down the scale without changing how spread out they were, so it has no part in the calculation.\n\nNote that the answer carries the units of the original data, cm, not of the coded values, which have no units at all.\n",
+   "spec_links": [
+    "spcpt_VdkHR5vRgMfZtKyd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yyy4S9RFC9rXcMtb",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_CThmzYvCPdVJWdwT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **statistical model**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A statistical model uses mathematics to represent a **real-life situation**, such as the temperature in a city across a month or the sleeping times of a baby."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is a deliberately simplified version of that situation rather than the situation itself, which is what makes it something you can calculate with."
+    }
+   ],
+   "front_md": "Define a **statistical model**.\n",
+   "back_md": "A statistical model uses mathematics to represent a **real-life situation**, such as the temperature in a city across a month or the sleeping times of a baby.\n\nIt is a deliberately simplified version of that situation rather than the situation itself, which is what makes it something you can calculate with.\n",
+   "spec_links": [
+    "spcpt_RZjNYNs49V6yD3rG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s7SDgcrRfPzrTk4b",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_CThmzYvCPdVJWdwT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two advantages of using a statistical model rather than working with the real-life situation directly."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **simplifies** a complicated situation down to something that can be handled mathematically, and it can be built **quickly and easily** compared with observing the real situation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Once it exists it can also be used to make **predictions**, which is usually the reason for building one in the first place."
+    }
+   ],
+   "front_md": "Give two advantages of using a statistical model rather than working with the real-life situation directly.\n",
+   "back_md": "It **simplifies** a complicated situation down to something that can be handled mathematically, and it can be built **quickly and easily** compared with observing the real situation.\n\nOnce it exists it can also be used to make **predictions**, which is usually the reason for building one in the first place.\n",
+   "spec_links": [
+    "spcpt_RZjNYNs49V6yD3rG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bp4kHp7th2wBGh9W",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_CThmzYvCPdVJWdwT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A good statistical model is one that includes as many features of the real situation as possible."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Simplifying is the whole point: leaving features out is what turns an unmanageable situation into something that can be built quickly and calculated with."
+    },
+    {
+     "type": "paragraph",
+     "md": "A model is judged on whether its predictions match what is actually observed closely enough to be useful, not on how much of the real situation it contains."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA good statistical model is one that includes as many features of the real situation as possible.\n",
+   "back_md": "**False.**\n\nSimplifying is the whole point: leaving features out is what turns an unmanageable situation into something that can be built quickly and calculated with.\n\nA model is judged on whether its predictions match what is actually observed closely enough to be useful, not on how much of the real situation it contains.\n",
+   "spec_links": [
+    "spcpt_RZjNYNs49V6yD3rG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pBVhxHQ3XSktvscs",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_CThmzYvCPdVJWdwT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A model of a shop's daily sales was built using data collected in December. Why might it predict badly in June?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A statistical model is often only applicable to the **particular circumstances** it was built for, because it carries the pattern of the data it was built from."
+    },
+    {
+     "type": "paragraph",
+     "md": "December sales follow the run-up to Christmas, so a model fitted to them describes that period rather than a quiet summer month."
+    },
+    {
+     "type": "paragraph",
+     "md": "Using a model outside the situation it was designed for is one of the main reasons predictions stop being accurate."
+    }
+   ],
+   "front_md": "A model of a shop's daily sales was built using data collected in December. Why might it predict badly in June?\n",
+   "back_md": "A statistical model is often only applicable to the **particular circumstances** it was built for, because it carries the pattern of the data it was built from.\n\nDecember sales follow the run-up to Christmas, so a model fitted to them describes that period rather than a quiet summer month.\n\nUsing a model outside the situation it was designed for is one of the main reasons predictions stop being accurate.\n",
+   "spec_links": [
+    "spcpt_RZjNYNs49V6yD3rG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bbmG27q7sh6FS62W",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_CThmzYvCPdVJWdwT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must real-life data be collected **after** a statistical model has been used to make its predictions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the model is judged by **comparing** the values it predicted with the values actually observed, and that comparison only means anything if the predictions came first."
+    },
+    {
+     "type": "paragraph",
+     "md": "Predictions made after seeing the data could simply be fitted to it, and would say nothing about whether the model works."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is that comparison which decides whether the model is accepted or has to be improved."
+    }
+   ],
+   "front_md": "Why must real-life data be collected **after** a statistical model has been used to make its predictions?\n",
+   "back_md": "Because the model is judged by **comparing** the values it predicted with the values actually observed, and that comparison only means anything if the predictions came first.\n\nPredictions made after seeing the data could simply be fitted to it, and would say nothing about whether the model works.\n\nIt is that comparison which decides whether the model is accepted or has to be improved.\n",
+   "spec_links": [
+    "spcpt_RZjNYNs49V6yD3rG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WbHssH24W5JHNsnp",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_CThmzYvCPdVJWdwT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The values a statistical model predicts turn out not to match the data that is then collected. What happens to the model?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **adjusted and improved**, then used again, rather than thrown away."
+    },
+    {
+     "type": "paragraph",
+     "md": "The way the data was selected and collected is examined as well, since a mismatch can say as much about the data as about the model."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what makes statistical modelling a **cycle**: predict, collect, compare, refine, and round again."
+    }
+   ],
+   "front_md": "The values a statistical model predicts turn out not to match the data that is then collected. What happens to the model?\n",
+   "back_md": "It is **adjusted and improved**, then used again, rather than thrown away.\n\nThe way the data was selected and collected is examined as well, since a mismatch can say as much about the data as about the model.\n\nThat is what makes statistical modelling a **cycle**: predict, collect, compare, refine, and round again.\n",
+   "spec_links": [
+    "spcpt_RZjNYNs49V6yD3rG"
+   ],
+   "flags": []
+  }
+ ]
+}

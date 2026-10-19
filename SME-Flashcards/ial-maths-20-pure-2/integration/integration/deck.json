@@ -1,0 +1,997 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:11Z",
+ "course_slug": "ial-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/flashcards/integration/integration/",
+  "section_slug": "integration",
+  "section_name": "Integration",
+  "topic_slug": "integration",
+  "title": "Integration",
+  "order": 0
+ },
+ "card_count": 31,
+ "card_types": {
+  "keyword_definition": 3,
+  "fill_in_the_blanks": 2,
+  "question_and_answer": 20,
+  "true_or_false": 6
+ },
+ "spec_link_cards": 31,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_QQVWFHZzjWJDKwWs",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **limits** of a definite integral."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **limits** are the two values written on the integral sign: the one at the bottom is the **lower** limit and the one at the top is the **upper** limit."
+    },
+    {
+     "type": "paragraph",
+     "md": "They are the values of $x$ between which the integration is carried out."
+    }
+   ],
+   "front_md": "Define the **limits** of a definite integral.\n",
+   "back_md": "The **limits** are the two values written on the integral sign: the one at the bottom is the **lower** limit and the one at the top is the **upper** limit.\n\nThey are the values of $x$ between which the integration is carried out.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vMjnHBYKtWCdcbtg",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the result that evaluates a definite integral:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{a}^{b} \\text{f} ' \\left(x\\right) \\text{d} x = \\_\\_\\_\\_\\_\\_ - \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed result is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{a}^{b} \\text{f} ' \\left(x\\right) \\text{d} x = \\text{f} \\left(b\\right) - \\text{f} \\left(a\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Getting the subtraction the wrong way round flips the sign of the answer."
+    }
+   ],
+   "front_md": "Complete the result that evaluates a definite integral:\n\n`\\int_{a}^{b} \\text{f} ' \\left(x\\right) \\text{d} x = \\_\\_\\_\\_\\_\\_ - \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed result is:\n\n`\\int_{a}^{b} \\text{f} ' \\left(x\\right) \\text{d} x = \\text{f} \\left(b\\right) - \\text{f} \\left(a\\right)`\n\nGetting the subtraction the wrong way round flips the sign of the answer.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_fkPHnhrVdHr9cXrH",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is there no constant of integration in a definite integral?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it **cancels**: a $+ c$ appears in the value at each limit, and one is then subtracted from the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing the subtraction as `\\left(\\ldots + c\\right) - \\left(\\ldots + c\\right)` shows that the two constants destroy each other whatever $c$ happens to be."
+    }
+   ],
+   "front_md": "Why is there no constant of integration in a definite integral?\n",
+   "back_md": "Because it **cancels**: a $+ c$ appears in the value at each limit, and one is then subtracted from the other.\n\nWriting the subtraction as `\\left(\\ldots + c\\right) - \\left(\\ldots + c\\right)` shows that the two constants destroy each other whatever $c$ happens to be.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jgv7Wfbp4dGXMZBj",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The value of a definite integral is a number, not an expression in $x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Once both limits have been substituted, every $x$ has been replaced by a number."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what separates it from an indefinite integral, which returns a function."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe value of a definite integral is a number, not an expression in $x$.\n",
+   "back_md": "**True.**\n\nOnce both limits have been substituted, every $x$ has been replaced by a number.\n\nThat is what separates it from an indefinite integral, which returns a function.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_t5h72qKYTGWh4Kyb",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a definite integral written down before the limits are substituted?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With the integrated function inside **square brackets**, and the limits placed just after the closing bracket."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `\\left[\\frac{3}{4} x^{4} - 3 x^{2}\\right]_{2}^{4}`, with the lower limit below and the upper limit above."
+    }
+   ],
+   "front_md": "How is a definite integral written down before the limits are substituted?\n",
+   "back_md": "With the integrated function inside **square brackets**, and the limits placed just after the closing bracket.\n\nFor example `\\left[\\frac{3}{4} x^{4} - 3 x^{2}\\right]_{2}^{4}`, with the lower limit below and the upper limit above.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9FjtdMxH3QN33SBJ",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are asked for `\\int_{2}^{4} 3 x \\left(x^{2} - 2\\right) \\text{d} x`. What has to happen before this can be integrated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The brackets have to be **expanded**, giving `\\int_{2}^{4} \\left(3 x^{3} - 6 x\\right) \\text{d} x`."
+    },
+    {
+     "type": "paragraph",
+     "md": "A product like that cannot be integrated term by term as it stands, so it must first be written as a sum of powers of $x$."
+    }
+   ],
+   "front_md": "You are asked for `\\int_{2}^{4} 3 x \\left(x^{2} - 2\\right) \\text{d} x`. What has to happen before this can be integrated?\n",
+   "back_md": "The brackets have to be **expanded**, giving `\\int_{2}^{4} \\left(3 x^{3} - 6 x\\right) \\text{d} x`.\n\nA product like that cannot be integrated term by term as it stands, so it must first be written as a sum of powers of $x$.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kKSZfNVMSWKzxRpP",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_b9PQYpD4fZGh6rsm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why work out a definite integral by hand when a calculator can do it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a calculator returns a **decimal**, not the exact value."
+    },
+    {
+     "type": "paragraph",
+     "md": "An integral worth $\\frac{1256}{3}$ comes back as $418 . 666 \\dots$, which is no use when an exact answer is asked for."
+    }
+   ],
+   "front_md": "Why work out a definite integral by hand when a calculator can do it?\n",
+   "back_md": "Because a calculator returns a **decimal**, not the exact value.\n\nAn integral worth $\\frac{1256}{3}$ comes back as $418 . 666 \\dots$, which is no use when an exact answer is asked for.\n",
+   "spec_links": [
+    "spcpt_9Cpr29P5QKVBBZY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3qynTcbGCZbDCMwK",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_NTs5H6D9PcGJ3R4G",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **area under a curve** $y = \\text{f} ( x )$ between $x = a$ and $x = b$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The area of the region bounded by four things:"
+    },
+    {
+     "type": "bullets",
+     "md": "- the curve $y = \\text{f} ( x )$\n- the $x$-axis\n- the vertical line $x = a$\n- the vertical line $x = b$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $x$-axis is the boundary that is easiest to forget: \"under the curve\" means between the curve and the $x$-axis, not simply below the curve."
+    }
+   ],
+   "front_md": "Define the **area under a curve** $y = \\text{f} ( x )$ between $x = a$ and $x = b$.\n",
+   "back_md": "The area of the region bounded by four things:\n\n- the curve $y = \\text{f} ( x )$\n- the $x$-axis\n- the vertical line $x = a$\n- the vertical line $x = b$\n\nThe $x$-axis is the boundary that is easiest to forget: \"under the curve\" means between the curve and the $x$-axis, not simply below the curve.\n",
+   "spec_links": [
+    "spcpt_CQhzHWwghqFHzphh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Mmd4BQgmrmzmkjy2",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_NTs5H6D9PcGJ3R4G",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What has to be true about a curve between $x = a$ and $x = b$ for the area under it to be given by `\\int_{a}^{b} \\text{f} \\left(x\\right) \\text{d} x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The curve must lie on or above the $x$-axis across the whole of that interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where it dips below, the integral counts that part as **negative**, so the value it returns is no longer the area."
+    }
+   ],
+   "front_md": "What has to be true about a curve between $x = a$ and $x = b$ for the area under it to be given by `\\int_{a}^{b} \\text{f} \\left(x\\right) \\text{d} x`?\n",
+   "back_md": "The curve must lie on or above the $x$-axis across the whole of that interval.\n\nWhere it dips below, the integral counts that part as **negative**, so the value it returns is no longer the area.\n",
+   "spec_links": [
+    "spcpt_CQhzHWwghqFHzphh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DQq4WGyFyGhvqJZG",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_NTs5H6D9PcGJ3R4G",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A question asks for the area between a curve and the $x$-axis but gives no limits. Where do the limits come from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "From the curve's $x$-axis intercepts, which are the natural edges of the region."
+    },
+    {
+     "type": "paragraph",
+     "md": "Set $y = 0$ and solve. For example, `y = x\\left(5 - x\\right)` gives $x = 0$ and $x = 5$, so the area is `\\int_{0}^{5} \\left(5x - x^{2}\\right)\\text{d}x`."
+    }
+   ],
+   "front_md": "A question asks for the area between a curve and the $x$-axis but gives no limits. Where do the limits come from?\n",
+   "back_md": "From the curve's $x$-axis intercepts, which are the natural edges of the region.\n\nSet $y = 0$ and solve. For example, `y = x\\left(5 - x\\right)` gives $x = 0$ and $x = 5$, so the area is `\\int_{0}^{5} \\left(5x - x^{2}\\right)\\text{d}x`.\n",
+   "spec_links": [
+    "spcpt_CQhzHWwghqFHzphh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dp5dCyDrnwtXykN5",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_NTs5H6D9PcGJ3R4G",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If a definite integral gives a negative value, you have made a mistake."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A region lying below the $x$-axis gives a negative integral. That is the integral behaving correctly, not an error."
+    },
+    {
+     "type": "paragraph",
+     "md": "An area cannot be negative, so take the **modulus**: an integral of $- \\frac{22}{3}$, for example, means an area of $\\frac{22}{3}$ square units."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf a definite integral gives a negative value, you have made a mistake.\n",
+   "back_md": "**False.**\n\nA region lying below the $x$-axis gives a negative integral. That is the integral behaving correctly, not an error.\n\nAn area cannot be negative, so take the **modulus**: an integral of $- \\frac{22}{3}$, for example, means an area of $\\frac{22}{3}$ square units.\n",
+   "spec_links": [
+    "spcpt_CQhzHWwghqFHzphh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gb4JKWkT94HtVBvN",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_NTs5H6D9PcGJ3R4G",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Before integrating to find the total area between a curve and the $x$-axis, what must you check?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whether the curve crosses the $x$-axis anywhere inside the interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solve `\\text{f} \\left(x\\right) = 0` to find out; each crossing splits the region into a separate piece, and each piece needs its own integral."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, $y = x^{3} - 12 x^{2} + 35 x$ crosses at $x = 0$, $x = 5$ and $x = 7$."
+    }
+   ],
+   "front_md": "Before integrating to find the total area between a curve and the $x$-axis, what must you check?\n",
+   "back_md": "Whether the curve crosses the $x$-axis anywhere inside the interval.\n\nSolve `\\text{f} \\left(x\\right) = 0` to find out; each crossing splits the region into a separate piece, and each piece needs its own integral.\n\nFor example, $y = x^{3} - 12 x^{2} + 35 x$ crosses at $x = 0$, $x = 5$ and $x = 7$.\n",
+   "spec_links": [
+    "spcpt_CQhzHWwghqFHzphh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jYD7Zv5Z3nXMz3xD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_NTs5H6D9PcGJ3R4G",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A region between a curve and the $x$-axis lies partly above and partly below the axis. Why does a single definite integral across the whole interval not give its total area?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The part below the axis contributes a **negative** value, so it cancels part of the positive contribution from the part above. The result is smaller than the true area, and can even be zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrate each piece separately, take the **modulus** of each, then add; for example, two pieces giving $\\frac{375}{4}$ and $- 8$ have a total area of $\\frac{375}{4} + 8 = \\frac{407}{4}$ square units."
+    }
+   ],
+   "front_md": "A region between a curve and the $x$-axis lies partly above and partly below the axis. Why does a single definite integral across the whole interval not give its total area?\n",
+   "back_md": "The part below the axis contributes a **negative** value, so it cancels part of the positive contribution from the part above. The result is smaller than the true area, and can even be zero.\n\nIntegrate each piece separately, take the **modulus** of each, then add; for example, two pieces giving $\\frac{375}{4}$ and $- 8$ have a total area of $\\frac{375}{4} + 8 = \\frac{407}{4}$ square units.\n",
+   "spec_links": [
+    "spcpt_CQhzHWwghqFHzphh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZhTnKxzFjM5Z6cR9",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_mKk7xHHcVt6prKc5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do you need to solve the equations of a curve and a line simultaneously before finding the area enclosed between them?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Their points of intersection are the **limits of integration**: the enclosed region only exists between them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Set the two expressions for $y$ equal and solve. For example, for $y = 5 + 4 x - x^{2}$ and $y = 10 - 2 x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$10 - 2 x = 5 + 4 x - x^{2} \\Rightarrow x^{2} - 6 x + 5 = 0$"
+    },
+    {
+     "type": "paragraph",
+     "md": "so the limits are $x = 1$ and $x = 5$."
+    }
+   ],
+   "front_md": "Why do you need to solve the equations of a curve and a line simultaneously before finding the area enclosed between them?\n",
+   "back_md": "Their points of intersection are the **limits of integration**: the enclosed region only exists between them.\n\nSet the two expressions for $y$ equal and solve. For example, for $y = 5 + 4 x - x^{2}$ and $y = 10 - 2 x$:\n\n$10 - 2 x = 5 + 4 x - x^{2} \\Rightarrow x^{2} - 6 x + 5 = 0$\n\nso the limits are $x = 1$ and $x = 5$.\n",
+   "spec_links": [
+    "spcpt_8YwGfFZ89FzYxVj9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gxWX4BRnb6fHjWBn",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_mKk7xHHcVt6prKc5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The region enclosed between a curve and a line runs from $x = a$ to $x = b$, with the curve above the line. How do you find its area by working out two separate areas?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the area under the curve and the area under the line over the same interval, then **subtract** the smaller from the larger:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`R = \\int_{a}^{b}\\text{f}(x)\\,\\text{d}x - \\int_{a}^{b}\\text{g}(x)\\,\\text{d}x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Whichever graph is on top has the larger area underneath it, so with the curve on top it is the area under the line that is subtracted."
+    }
+   ],
+   "front_md": "The region enclosed between a curve and a line runs from $x = a$ to $x = b$, with the curve above the line. How do you find its area by working out two separate areas?\n",
+   "back_md": "Find the area under the curve and the area under the line over the same interval, then **subtract** the smaller from the larger:\n\n`R = \\int_{a}^{b}\\text{f}(x)\\,\\text{d}x - \\int_{a}^{b}\\text{g}(x)\\,\\text{d}x`\n\nWhichever graph is on top has the larger area underneath it, so with the curve on top it is the area under the line that is subtracted.\n",
+   "spec_links": [
+    "spcpt_8YwGfFZ89FzYxVj9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Wzm7PRgMMDySXs3J",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_mKk7xHHcVt6prKc5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To find the area under a straight line between two $x$-values, you have to use definite integration."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The region under a straight line is a **rectangle, triangle or trapezium**, so a basic area formula is usually quicker and less error-prone."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, the area under $y = 10 - 2 x$ from $x = 1$ to $x = 5$ is a triangle of base 4 and height 8, giving $\\frac{1}{2} \\times 4 \\times 8 = 16$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo find the area under a straight line between two $x$-values, you have to use definite integration.\n",
+   "back_md": "**False.**\n\nThe region under a straight line is a **rectangle, triangle or trapezium**, so a basic area formula is usually quicker and less error-prone.\n\nFor example, the area under $y = 10 - 2 x$ from $x = 1$ to $x = 5$ is a triangle of base 4 and height 8, giving $\\frac{1}{2} \\times 4 \\times 8 = 16$.\n",
+   "spec_links": [
+    "spcpt_8YwGfFZ89FzYxVj9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6hCS6ywKnbZSnFKp",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_mKk7xHHcVt6prKc5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you find the area enclosed between a curve and a line using only one integral?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Subtract the two functions **before** integrating, taking the lower graph away from the upper one, then integrate the result between the intersections."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, with the curve $y = 5 + 4 x - x^{2}$ above the line $y = 10 - 2 x$ between $x = 1$ and $x = 5$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`R = \\int_{1}^{5}\\left[\\left(5 + 4x - x^{2}\\right) - \\left(10 - 2x\\right)\\right]\\text{d}x = \\int_{1}^{5}\\left(-x^{2} + 6x - 5\\right)\\text{d}x`"
+    }
+   ],
+   "front_md": "How can you find the area enclosed between a curve and a line using only one integral?\n",
+   "back_md": "Subtract the two functions **before** integrating, taking the lower graph away from the upper one, then integrate the result between the intersections.\n\nFor example, with the curve $y = 5 + 4 x - x^{2}$ above the line $y = 10 - 2 x$ between $x = 1$ and $x = 5$:\n\n`R = \\int_{1}^{5}\\left[\\left(5 + 4x - x^{2}\\right) - \\left(10 - 2x\\right)\\right]\\text{d}x = \\int_{1}^{5}\\left(-x^{2} + 6x - 5\\right)\\text{d}x`\n",
+   "spec_links": [
+    "spcpt_8YwGfFZ89FzYxVj9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mBRR3n4JdXrg6qTW",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_mKk7xHHcVt6prKc5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When you subtract one function from the other to find the area enclosed between a curve and a line, it does not matter which way round you subtract, because an area cannot be negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting the wrong way round gives the **negative** of the area, and it will not be corrected for you."
+    },
+    {
+     "type": "paragraph",
+     "md": "Always take the **lower** graph away from the **upper** one over the interval concerned, which means deciding from a sketch which of the two is on top."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen you subtract one function from the other to find the area enclosed between a curve and a line, it does not matter which way round you subtract, because an area cannot be negative.\n",
+   "back_md": "**False.**\n\nSubtracting the wrong way round gives the **negative** of the area, and it will not be corrected for you.\n\nAlways take the **lower** graph away from the **upper** one over the interval concerned, which means deciding from a sketch which of the two is on top.\n",
+   "spec_links": [
+    "spcpt_8YwGfFZ89FzYxVj9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YNBHmJt9GSHVhD7G",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_mKk7xHHcVt6prKc5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must the whole of a line's equation be put in brackets when it is subtracted from a curve's equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because **every** term of the line is being subtracted, not just the first one. For example:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(5 + 4x - x^{2}\\right) - \\left(10 - 2x\\right) = -x^{2} + 6x - 5`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Without the brackets the $- 2 x$ would keep its own sign, giving $- x^{2} + 2 x - 5$ and an answer that is wrong from that line onwards."
+    }
+   ],
+   "front_md": "Why must the whole of a line's equation be put in brackets when it is subtracted from a curve's equation?\n",
+   "back_md": "Because **every** term of the line is being subtracted, not just the first one. For example:\n\n`\\left(5 + 4x - x^{2}\\right) - \\left(10 - 2x\\right) = -x^{2} + 6x - 5`\n\nWithout the brackets the $- 2 x$ would keep its own sign, giving $- x^{2} + 2 x - 5$ and an answer that is wrong from that line onwards.\n",
+   "spec_links": [
+    "spcpt_8YwGfFZ89FzYxVj9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q2MvK4wrnBcVftmY",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_tjfGYCXpCk9pwBG7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What changes when both boundaries of a region are curves?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Nothing about the method: it is still the integral of **upper minus lower**, taken between the intersections."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is lost is the shortcut of using a triangle or trapezium formula for one boundary, since neither of them is a straight line any more."
+    }
+   ],
+   "front_md": "What changes when both boundaries of a region are curves?\n",
+   "back_md": "Nothing about the method: it is still the integral of **upper minus lower**, taken between the intersections.\n\nWhat is lost is the shortcut of using a triangle or trapezium formula for one boundary, since neither of them is a straight line any more.\n",
+   "spec_links": [
+    "spcpt_FfdPp8vTNhhpwWJ7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7GvFnZWR7Zc48vDr",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_tjfGYCXpCk9pwBG7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two curves meet at three points. How many integrals does the enclosed area need?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Two**, one for each enclosed region: from the first intersection to the second, and from the second to the third."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each region is bounded separately, so each needs its own integral with its own pair of limits."
+    }
+   ],
+   "front_md": "Two curves meet at three points. How many integrals does the enclosed area need?\n",
+   "back_md": "**Two**, one for each enclosed region: from the first intersection to the second, and from the second to the third.\n\nEach region is bounded separately, so each needs its own integral with its own pair of limits.\n",
+   "spec_links": [
+    "spcpt_FfdPp8vTNhhpwWJ7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fQF7dHGwBPXBBCxh",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_tjfGYCXpCk9pwBG7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must you check which curve is on top for **each** region separately?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the two curves swap over at every point where they cross."
+    },
+    {
+     "type": "paragraph",
+     "md": "A curve that was above before an intersection is below after it, so \"upper minus lower\" means a different subtraction in each region."
+    }
+   ],
+   "front_md": "Why must you check which curve is on top for **each** region separately?\n",
+   "back_md": "Because the two curves swap over at every point where they cross.\n\nA curve that was above before an intersection is below after it, so \"upper minus lower\" means a different subtraction in each region.\n",
+   "spec_links": [
+    "spcpt_FfdPp8vTNhhpwWJ7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sVFrWkthTfyqcykB",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_tjfGYCXpCk9pwBG7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a sketch essential here?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it is the only reliable way to see how many separate regions there are, and which curve is on top in each of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The algebra gives you the intersections; only the picture tells you what to do with them."
+    }
+   ],
+   "front_md": "Why is a sketch essential here?\n",
+   "back_md": "Because it is the only reliable way to see how many separate regions there are, and which curve is on top in each of them.\n\nThe algebra gives you the intersections; only the picture tells you what to do with them.\n",
+   "spec_links": [
+    "spcpt_FfdPp8vTNhhpwWJ7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w9fwYjcKsZKPGB6s",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_tjfGYCXpCk9pwBG7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The total area between two curves is the integral of their difference across the whole interval."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Wherever the curves swap over, the difference changes sign, so one region subtracts from another and the total comes out too small."
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrate each region separately, take each as a positive area, and then add them."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe total area between two curves is the integral of their difference across the whole interval.\n",
+   "back_md": "**False.**\n\nWherever the curves swap over, the difference changes sign, so one region subtracts from another and the total comes out too small.\n\nIntegrate each region separately, take each as a positive area, and then add them.\n",
+   "spec_links": [
+    "spcpt_FfdPp8vTNhhpwWJ7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bqc2yTHNQPptFPGM",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **trapezium rule**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **trapezium rule** is a numerical method that **approximates** a definite integral by adding up the areas of trapezium-shaped strips beneath the curve."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is used where the function cannot be integrated by algebraic methods at all."
+    }
+   ],
+   "front_md": "Define the **trapezium rule**.\n",
+   "back_md": "The **trapezium rule** is a numerical method that **approximates** a definite integral by adding up the areas of trapezium-shaped strips beneath the curve.\n\nIt is used where the function cannot be integrated by algebraic methods at all.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cVm5863vWDsnczkp",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the strip width used by the trapezium rule with $n$ strips between $x = a$ and $x = b$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`h = \\frac{\\_\\_\\_\\_\\_\\_}{n}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$h = \\frac{b-a}{n}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The width of the whole interval is simply shared equally between the strips."
+    }
+   ],
+   "front_md": "Complete the strip width used by the trapezium rule with $n$ strips between $x = a$ and $x = b$:\n\n`h = \\frac{\\_\\_\\_\\_\\_\\_}{n}`\n",
+   "back_md": "The completed formula is:\n\n$h = \\frac{b-a}{n}$\n\nThe width of the whole interval is simply shared equally between the strips.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_TY3JfJgMJhcyfQtn",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many $y$-values do you need for a trapezium rule with $n$ strips?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$n + 1$ of them, running from $y_{0}$ to $y_{n}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each strip needs a height at both of its edges, and neighbouring strips share an edge, so there is always one more value than there are strips."
+    }
+   ],
+   "front_md": "How many $y$-values do you need for a trapezium rule with $n$ strips?\n",
+   "back_md": "$n + 1$ of them, running from $y_{0}$ to $y_{n}$.\n\nEach strip needs a height at both of its edges, and neighbouring strips share an edge, so there is always one more value than there are strips.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nKxdDHK8FvYPNprg",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The trapezium rule always gives an underestimate of the true area."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It depends on which way the curve bends: a curve bending **downwards** leaves the trapezia below it, giving an underestimate."
+    },
+    {
+     "type": "paragraph",
+     "md": "A curve bending **upwards** has the trapezia sitting above it instead, giving an overestimate."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe trapezium rule always gives an underestimate of the true area.\n",
+   "back_md": "**False.**\n\nIt depends on which way the curve bends: a curve bending **downwards** leaves the trapezia below it, giving an underestimate.\n\nA curve bending **upwards** has the trapezia sitting above it instead, giving an overestimate.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G4HRjYT4ghCKSwzk",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the trapezium rule formula, which $y$-values are doubled?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "All the **inner** ones, $y_{1}$ through to $y_{n-1}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two **outer** values $y_{0}$ and $y_{n}$ are counted once each, because each of them is an edge of only one strip."
+    }
+   ],
+   "front_md": "In the trapezium rule formula, which $y$-values are doubled?\n",
+   "back_md": "All the **inner** ones, $y_{1}$ through to $y_{n-1}$.\n\nThe two **outer** values $y_{0}$ and $y_{n}$ are counted once each, because each of them is an edge of only one strip.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_txdxJSZ58MKhNdVM",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you make a trapezium rule estimate more accurate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use **more strips**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Narrower strips have tops that hug the curve more closely, so less area is missed or double-counted at each one."
+    }
+   ],
+   "front_md": "How do you make a trapezium rule estimate more accurate?\n",
+   "back_md": "Use **more strips**.\n\nNarrower strips have tops that hug the curve more closely, so less area is missed or double-counted at each one.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dfcKrNNfhqC5nJw3",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_SKNKKSfbr23NFFWg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you measure how accurate a trapezium rule estimate was?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By working out the **percentage error** against the true value."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is only possible where the exact value can be found some other way."
+    }
+   ],
+   "front_md": "How can you measure how accurate a trapezium rule estimate was?\n",
+   "back_md": "By working out the **percentage error** against the true value.\n\nThat is only possible where the exact value can be found some other way.\n",
+   "spec_links": [
+    "spcpt_RVNjC2y684mYfGyD"
+   ],
+   "flags": []
+  }
+ ]
+}

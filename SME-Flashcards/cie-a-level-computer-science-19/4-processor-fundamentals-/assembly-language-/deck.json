@@ -1,0 +1,1377 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:36Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/4-processor-fundamentals-/assembly-language-/",
+  "section_slug": "4-processor-fundamentals-",
+  "section_name": "4. Processor Fundamentals",
+  "topic_slug": "assembly-language-",
+  "title": "Assembly Language",
+  "order": 1
+ },
+ "card_count": 54,
+ "card_types": {
+  "keyword_definition": 6,
+  "question_and_answer": 40,
+  "fill_in_the_blanks": 4,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 54,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_ypKy8qvD4fFyq6vk",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **machine code**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Machine code is a **first-generation language**, written in **binary code**, whose instructions are **directly executable by the processor**."
+    }
+   ],
+   "front_md": "Define **machine code**.\n",
+   "back_md": "Machine code is a **first-generation language**, written in **binary code**, whose instructions are **directly executable by the processor**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3QckDMkbzB4CYB93",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **assembly code**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Assembly code is a **second-generation language** written using **mnemonics**, abbreviated text commands that let programmers write **human-readable programs corresponding almost exactly to machine code**."
+    }
+   ],
+   "front_md": "Define **assembly code**.\n",
+   "back_md": "Assembly code is a **second-generation language** written using **mnemonics**, abbreviated text commands that let programmers write **human-readable programs corresponding almost exactly to machine code**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gwWZdfGVS2qST6Rh",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many machine code instructions does one assembly instruction translate to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**One** — one assembly language instruction translates to **one machine code instruction**."
+    }
+   ],
+   "front_md": "How many machine code instructions does one assembly instruction translate to?\n",
+   "back_md": "**One** — one assembly language instruction translates to **one machine code instruction**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JhM4PKFJtPn4DW5r",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **instruction set**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An instruction set is a list of **all the commands that can be processed by a CPU**, each with a **binary code** which is the machine code."
+    }
+   ],
+   "front_md": "Define **instruction set**.\n",
+   "back_md": "An instruction set is a list of **all the commands that can be processed by a CPU**, each with a **binary code** which is the machine code.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2t5HN4rsm66rdPR4",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the opcode?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **part of an instruction that tells the CPU what operation to perform** — short for **operation code**."
+    }
+   ],
+   "front_md": "What is the opcode?\n",
+   "back_md": "The **part of an instruction that tells the CPU what operation to perform** — short for **operation code**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4cfZHgBdfDjRRBMf",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the operand?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **data or memory address the opcode will work with**, giving the extra detail the CPU needs — often a memory address, a value or a label."
+    }
+   ],
+   "front_md": "What is the operand?\n",
+   "back_md": "The **data or memory address the opcode will work with**, giving the extra detail the CPU needs — often a memory address, a value or a label.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9xw8PYkwgTNjcxbc",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does LDM #n do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Immediate addressing** — it **loads the number n into the accumulator**."
+    }
+   ],
+   "front_md": "What does LDM #n do?\n",
+   "back_md": "**Immediate addressing** — it **loads the number n into the accumulator**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4szCGtTxnFr27SHj",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does LDD <address> do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Direct addressing** — it **loads the contents of the location at the given address into the ACC**."
+    }
+   ],
+   "front_md": "What does LDD <address> do?\n",
+   "back_md": "**Direct addressing** — it **loads the contents of the location at the given address into the ACC**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D27YQvxwd7zfrdRK",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does LDI <address> do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Indirect addressing** — it **uses the value at the given address as a new address**, and loads the contents of that into the ACC."
+    }
+   ],
+   "front_md": "What does LDI <address> do?\n",
+   "back_md": "**Indirect addressing** — it **uses the value at the given address as a new address**, and loads the contents of that into the ACC.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VtNgxC9tyQcZ8N2b",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does LDX <address> do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Indexed addressing** — it uses **address plus the index register** to get the final address, and loads the contents into the ACC."
+    }
+   ],
+   "front_md": "What does LDX <address> do?\n",
+   "back_md": "**Indexed addressing** — it uses **address plus the index register** to get the final address, and loads the contents into the ACC.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tHCpyFMDzM2TRXc8",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between LDM #n and LDR #n?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**LDM** loads the number n into the **accumulator**, while **LDR** loads it into the **index register (IX)**."
+    }
+   ],
+   "front_md": "What is the difference between LDM #n and LDR #n?\n",
+   "back_md": "**LDM** loads the number n into the **accumulator**, while **LDR** loads it into the **index register (IX)**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gGqV55hQHt7q4hC9",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between JPE and JPN?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**JPE** jumps to the address if the previous compare result was **true (equal)**; **JPN** jumps if it was **false (not equal)**."
+    }
+   ],
+   "front_md": "What is the difference between JPE and JPN?\n",
+   "back_md": "**JPE** jumps to the address if the previous compare result was **true (equal)**; **JPN** jumps if it was **false (not equal)**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H4XqRS2mpSBkY2bV",
+   "card_type": "fill_in_the_blanks",
+   "order": 12,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the 9618 instruction set, <u>**      **</u> denotes a denary number, B denotes binary and & denotes hexadecimal."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the 9618 instruction set, **#** denotes a denary number, B denotes binary and & denotes hexadecimal."
+    }
+   ],
+   "front_md": "In the 9618 instruction set, <u>**      **</u> denotes a denary number, B denotes binary and & denotes hexadecimal.\n",
+   "back_md": "In the 9618 instruction set, **#** denotes a denary number, B denotes binary and & denotes hexadecimal.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_r2sBb3jnBKy7bdtn",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do IN and OUT do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**IN** takes input from the keyboard and stores its **ASCII value in the ACC**; **OUT** outputs to the screen the **character stored in the ACC**."
+    }
+   ],
+   "front_md": "What do IN and OUT do?\n",
+   "back_md": "**IN** takes input from the keyboard and stores its **ASCII value in the ACC**; **OUT** outputs to the screen the **character stored in the ACC**.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9rPY7JTPQ8dmqWBP",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_GzHpBBG4j7Bmn68K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Assembly code can be executed directly by the processor."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Assembly **needs to be translated into machine code** before the computer can execute it; only **machine code** is directly executable."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAssembly code can be executed directly by the processor.\n",
+   "back_md": "**False.**\n\nAssembly **needs to be translated into machine code** before the computer can execute it; only **machine code** is directly executable.\n",
+   "spec_links": [
+    "spcpt_PfZ6VmBkxyXVhWZd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vPhFVJgm82DSryKD",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **two-pass assembler**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A two-pass assembler **translates assembly language into machine code in two stages**, scanning the source code **twice**."
+    }
+   ],
+   "front_md": "Define **two-pass assembler**.\n",
+   "back_md": "A two-pass assembler **translates assembly language into machine code in two stages**, scanning the source code **twice**.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Jy9DmBR6gJzFyhZh",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens in the first pass of a two-pass assembler?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **identifies all labels and records their memory addresses**, building a **symbol table**, but does **not translate the instructions yet**."
+    }
+   ],
+   "front_md": "What happens in the first pass of a two-pass assembler?\n",
+   "back_md": "It **identifies all labels and records their memory addresses**, building a **symbol table**, but does **not translate the instructions yet**.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mKfz3QRBfrXRCNkT",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens in the second pass of a two-pass assembler?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **replaces the labels with the correct memory addresses** in the machine code, ensuring the final machine code is accurate and ready to execute."
+    }
+   ],
+   "front_md": "What happens in the second pass of a two-pass assembler?\n",
+   "back_md": "It **replaces the labels with the correct memory addresses** in the machine code, ensuring the final machine code is accurate and ready to execute.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6TBRyXdBhMmVkSpP",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a two-pass assembler produce, and what is needed to run it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It produces an **object program** that can be stored, loaded and run later; another utility called a **loader** is needed to execute it."
+    }
+   ],
+   "front_md": "What does a two-pass assembler produce, and what is needed to run it?\n",
+   "back_md": "It produces an **object program** that can be stored, loaded and run later; another utility called a **loader** is needed to execute it.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4bxZmHCn599hXQPS",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first pass of a two-pass assembler builds a <u>**                    **</u> table of labels and their addresses."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first pass of a two-pass assembler builds a **symbol** table of labels and their addresses."
+    }
+   ],
+   "front_md": "The first pass of a two-pass assembler builds a <u>**                    **</u> table of labels and their addresses.\n",
+   "back_md": "The first pass of a two-pass assembler builds a **symbol** table of labels and their addresses.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_9cFNGBgYXmT8VsJf",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a second pass needed at all?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a label may be **used before it is defined**, so the assembler must first record **every label's address** before it can substitute the correct addresses."
+    }
+   ],
+   "front_md": "Why is a second pass needed at all?\n",
+   "back_md": "Because a label may be **used before it is defined**, so the assembler must first record **every label's address** before it can substitute the correct addresses.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5JCgPYd3mVRPt9Rk",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **trace table**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A trace table is a table used to **manually track the values of variables as a program runs**, following the flow of the program **line by line**."
+    }
+   ],
+   "front_md": "Define **trace table**.\n",
+   "back_md": "A trace table is a table used to **manually track the values of variables as a program runs**, following the flow of the program **line by line**.\n",
+   "spec_links": [
+    "spcpt_Sw7xjscGJpcy44GB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dxYnw9XsP8wpvvF9",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name four uses of a trace table."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **understand how a program works**, to **debug errors in the logic**, to **predict outputs** before running the program, and to **check variable values at each step**."
+    }
+   ],
+   "front_md": "Name four uses of a trace table.\n",
+   "back_md": "To **understand how a program works**, to **debug errors in the logic**, to **predict outputs** before running the program, and to **check variable values at each step**.\n",
+   "spec_links": [
+    "spcpt_Sw7xjscGJpcy44GB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_T3n7v7h6wrFpQWdG",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a trace, what does LOAD X do to the accumulator?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sets **ACC = memory[X]**."
+    }
+   ],
+   "front_md": "In a trace, what does LOAD X do to the accumulator?\n",
+   "back_md": "It sets **ACC = memory[X]**.\n",
+   "spec_links": [
+    "spcpt_Sw7xjscGJpcy44GB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tnXg6R2rZQJgM9N3",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a trace, what does ADD X do to the accumulator?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sets **ACC = ACC + memory[X]**."
+    }
+   ],
+   "front_md": "In a trace, what does ADD X do to the accumulator?\n",
+   "back_md": "It sets **ACC = ACC + memory[X]**.\n",
+   "spec_links": [
+    "spcpt_Sw7xjscGJpcy44GB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XDyfXbdYWmvRbBHk",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a trace, what does STORE X do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sets **memory[X] = ACC**."
+    }
+   ],
+   "front_md": "In a trace, what does STORE X do?\n",
+   "back_md": "It sets **memory[X] = ACC**.\n",
+   "spec_links": [
+    "spcpt_Sw7xjscGJpcy44GB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tZkMH4VBp3kfmzcx",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Trace LOAD A, ADD B, STORE C, HALT where A = 4 and B = 2. What are ACC and C at the end?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**ACC = 6 and C = 6** — LOAD A puts 4 in the ACC, ADD B makes it 6, and STORE C writes 6 into C."
+    }
+   ],
+   "front_md": "Trace LOAD A, ADD B, STORE C, HALT where A = 4 and B = 2. What are ACC and C at the end?\n",
+   "back_md": "**ACC = 6 and C = 6** — LOAD A puts 4 in the ACC, ADD B makes it 6, and STORE C writes 6 into C.\n",
+   "spec_links": [
+    "spcpt_Sw7xjscGJpcy44GB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YWgyCSH4HwYWPqqZ",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a program's object code, in the context of assembly?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **machine code output** by the assembler, which can be **stored, loaded and run later**."
+    }
+   ],
+   "front_md": "What is a program's object code, in the context of assembly?\n",
+   "back_md": "The **machine code output** by the assembler, which can be **stored, loaded and run later**.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GhQQn465tHG26m3d",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_gjhRBFCGBrKKy88D",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A two-pass assembler translates each instruction into machine code during the first pass."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The first pass only **assigns memory addresses to labels**; translation into machine code happens in the **second pass**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA two-pass assembler translates each instruction into machine code during the first pass.\n",
+   "back_md": "**False.**\n\nThe first pass only **assigns memory addresses to labels**; translation into machine code happens in the **second pass**.\n",
+   "spec_links": [
+    "spcpt_znNKGg967WWw9MNQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jfg6JMJvDj3cyRGc",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five categories of assembly language instruction."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Data movement**, **input and output of data**, **arithmetic operations**, **unconditional and conditional instructions**, and **compare instructions**."
+    }
+   ],
+   "front_md": "Name the five categories of assembly language instruction.\n",
+   "back_md": "**Data movement**, **input and output of data**, **arithmetic operations**, **unconditional and conditional instructions**, and **compare instructions**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cbPd3cxvSwn74T7m",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between LOAD A and STORE B?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**LOAD A** loads the value stored at memory location A **into the accumulator**; **STORE B** stores the value **from the accumulator into memory location B**."
+    }
+   ],
+   "front_md": "What is the difference between LOAD A and STORE B?\n",
+   "back_md": "**LOAD A** loads the value stored at memory location A **into the accumulator**; **STORE B** stores the value **from the accumulator into memory location B**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QpmpzR9TDxsJzzT9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does MOV A, B do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **copies the value from register or memory A to register or memory B**."
+    }
+   ],
+   "front_md": "What does MOV A, B do?\n",
+   "back_md": "It **copies the value from register or memory A to register or memory B**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yVKdmTqcw8PctFnf",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do CLEAR ACC and DATA do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**CLEAR ACC** clears the accumulator, setting it to 0; **DATA** declares a **constant or data value**."
+    }
+   ],
+   "front_md": "What do CLEAR ACC and DATA do?\n",
+   "back_md": "**CLEAR ACC** clears the accumulator, setting it to 0; **DATA** declares a **constant or data value**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7ZPqZJZt9z5Jfst6",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do IN and OUT do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**IN** takes input from a user or input device and **stores it in the accumulator**; **OUT** outputs the **value in the accumulator** to a screen or output device."
+    }
+   ],
+   "front_md": "What do IN and OUT do?\n",
+   "back_md": "**IN** takes input from a user or input device and **stores it in the accumulator**; **OUT** outputs the **value in the accumulator** to a screen or output device.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9vQkx9mGnMHC8yb4",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do ADD A and SUB B do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**ADD A** adds the value at memory location A **to the accumulator**; **SUB B** subtracts the value at memory location B **from the accumulator**."
+    }
+   ],
+   "front_md": "What do ADD A and SUB B do?\n",
+   "back_md": "**ADD A** adds the value at memory location A **to the accumulator**; **SUB B** subtracts the value at memory location B **from the accumulator**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4zG4XBnjKQ2mN3bN",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do INC and DEC do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**INC increments the accumulator by 1** and **DEC decrements the accumulator by 1**."
+    }
+   ],
+   "front_md": "What do INC and DEC do?\n",
+   "back_md": "**INC increments the accumulator by 1** and **DEC decrements the accumulator by 1**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nHMFV4gMx3spBDg6",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "<u>**        **</u> jumps to a label **unconditionally**, without testing anything first."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**JMP** jumps to a label **unconditionally**, without testing anything first."
+    }
+   ],
+   "front_md": "<u>**        **</u> jumps to a label **unconditionally**, without testing anything first.\n",
+   "back_md": "**JMP** jumps to a label **unconditionally**, without testing anything first.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_cBc6HgxyQdVcjZVz",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between JZ and JNZ?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**JZ** jumps to the label if the accumulator **is zero**; **JNZ** jumps if the accumulator is **not zero**."
+    }
+   ],
+   "front_md": "What is the difference between JZ and JNZ?\n",
+   "back_md": "**JZ** jumps to the label if the accumulator **is zero**; **JNZ** jumps if the accumulator is **not zero**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9hvdWtn6pwxpfyrw",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does JC do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **jumps to the label if the carry flag is set**."
+    }
+   ],
+   "front_md": "What does JC do?\n",
+   "back_md": "It **jumps to the label if the carry flag is set**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q6hbcFRJpCcvqQJS",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does HLT do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **stops the program**, halting execution."
+    }
+   ],
+   "front_md": "What does HLT do?\n",
+   "back_md": "It **stops the program**, halting execution.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Zgd9D2WzSw7Hknb7",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between CMP A and TEST A?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**CMP A compares the accumulator with the value at memory location A**, while **TEST A performs a logical AND** between the accumulator and A, **setting flags with no output**."
+    }
+   ],
+   "front_md": "What is the difference between CMP A and TEST A?\n",
+   "back_md": "**CMP A compares the accumulator with the value at memory location A**, while **TEST A performs a logical AND** between the accumulator and A, **setting flags with no output**.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r7DpcMN86mzHyVhS",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_tVB4tr9pF5dKmBcN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The TEST instruction produces an output value like ADD does."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "TEST performs a logical AND and **sets flags, with no output** — it is used to check a condition, not to produce a result."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe TEST instruction produces an output value like ADD does.\n",
+   "back_md": "**False.**\n\nTEST performs a logical AND and **sets flags, with no output** — it is used to check a condition, not to produce a result.\n",
+   "spec_links": [
+    "spcpt_Yr56xgwmtZfJRwFS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K5T22dq7fjQJGjH7",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **addressing method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An addressing method is a way in which an **instruction in assembly language or machine code can access data stored in memory**."
+    }
+   ],
+   "front_md": "Define **addressing method**.\n",
+   "back_md": "An addressing method is a way in which an **instruction in assembly language or machine code can access data stored in memory**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qrh6frR8HbpFzxgD",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five main addressing methods."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Immediate**, **direct**, **indirect**, **indexed** and **relative**."
+    }
+   ],
+   "front_md": "Name the five main addressing methods.\n",
+   "back_md": "**Immediate**, **direct**, **indirect**, **indexed** and **relative**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DqBK5jSCbrMP3bmZ",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is immediate addressing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **operand is a constant value included directly in the instruction**."
+    }
+   ],
+   "front_md": "What is immediate addressing?\n",
+   "back_md": "The **operand is a constant value included directly in the instruction**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_swXzD9phpK4RJxqY",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is direct addressing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **exact memory address of the operand is given in the instruction**."
+    }
+   ],
+   "front_md": "What is direct addressing?\n",
+   "back_md": "The **exact memory address of the operand is given in the instruction**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FFRnrtzmy8HWmwGF",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is indirect addressing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **register contains the memory address of the operand**."
+    }
+   ],
+   "front_md": "What is indirect addressing?\n",
+   "back_md": "A **register contains the memory address of the operand**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sJDCkDTfNkChNSgD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is indexed addressing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It uses a **base register and an index to calculate the memory address**."
+    }
+   ],
+   "front_md": "What is indexed addressing?\n",
+   "back_md": "It uses a **base register and an index to calculate the memory address**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KTgnGp4tvWzNkFVr",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is relative addressing, and what is it used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The operand is an **offset relative to the current instruction address**, and it is used in **branching**."
+    }
+   ],
+   "front_md": "What is relative addressing, and what is it used for?\n",
+   "back_md": "The operand is an **offset relative to the current instruction address**, and it is used in **branching**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DKxZPX6DfPs2Dt9k",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In indexed addressing, if the base register holds 0050h and the index holds 1000h, which address is used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1050h**, because the base and the index are **added together** to give the effective address."
+    }
+   ],
+   "front_md": "In indexed addressing, if the base register holds 0050h and the index holds 1000h, which address is used?\n",
+   "back_md": "**1050h**, because the base and the index are **added together** to give the effective address.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W25P35JQfT6CStb3",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the key difference between direct and indirect addressing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **direct** addressing the instruction gives the **address of the operand itself**; in **indirect** addressing a **register holds that address**, so there is an extra step to reach the data."
+    }
+   ],
+   "front_md": "What is the key difference between direct and indirect addressing?\n",
+   "back_md": "In **direct** addressing the instruction gives the **address of the operand itself**; in **indirect** addressing a **register holds that address**, so there is an extra step to reach the data.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XSfrhNqFbwKHKFRV",
+   "card_type": "fill_in_the_blanks",
+   "order": 9,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In <u>**                    **</u> addressing the operand is a constant value written into the instruction itself."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **immediate** addressing the operand is a constant value written into the instruction itself."
+    }
+   ],
+   "front_md": "In <u>**                    **</u> addressing the operand is a constant value written into the instruction itself.\n",
+   "back_md": "In **immediate** addressing the operand is a constant value written into the instruction itself.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_dG948RbZFxZyxd8S",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does an instruction like JMP +5 do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It tells the program to **jump forward 5 instructions from the current line**, using **relative addressing**."
+    }
+   ],
+   "front_md": "What does an instruction like JMP +5 do?\n",
+   "back_md": "It tells the program to **jump forward 5 instructions from the current line**, using **relative addressing**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Db2tbz5QMDnJ3bqy",
+   "card_type": "true_or_false",
+   "order": 11,
+   "set_id": "flst_N8cGgy7J4893BbRm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In immediate addressing the value in the instruction is treated as a memory address."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In immediate addressing the operand **is the constant value itself**; it is **direct** addressing where the value given is a **memory address**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn immediate addressing the value in the instruction is treated as a memory address.\n",
+   "back_md": "**False.**\n\nIn immediate addressing the operand **is the constant value itself**; it is **direct** addressing where the value given is a **memory address**.\n",
+   "spec_links": [
+    "spcpt_9s6ft5c2ryVvfNMH"
+   ],
+   "flags": []
+  }
+ ]
+}

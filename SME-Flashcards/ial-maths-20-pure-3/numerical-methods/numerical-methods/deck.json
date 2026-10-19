@@ -1,0 +1,510 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:20Z",
+ "course_slug": "ial-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/flashcards/numerical-methods/numerical-methods/",
+  "section_slug": "numerical-methods",
+  "section_name": "Numerical Methods",
+  "topic_slug": "numerical-methods",
+  "title": "Numerical Methods",
+  "order": 0
+ },
+ "card_count": 16,
+ "card_types": {
+  "question_and_answer": 12,
+  "true_or_false": 3,
+  "fill_in_the_blanks": 1
+ },
+ "spec_link_cards": 16,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_pjTkH2HhmRkNTK4C",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_vYF8Y734vgBzZKff",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a change of sign between `\\text{f} \\left(a\\right)` and `\\text{f} \\left(b\\right)` tell you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That a **root** lies somewhere between $a$ and $b$."
+    },
+    {
+     "type": "paragraph",
+     "md": "To get from a positive value to a negative one the curve has to cross the $x$-axis, and crossing the axis is exactly what a root is."
+    }
+   ],
+   "front_md": "What does a change of sign between `\\text{f} \\left(a\\right)` and `\\text{f} \\left(b\\right)` tell you?\n",
+   "back_md": "That a **root** lies somewhere between $a$ and $b$.\n\nTo get from a positive value to a negative one the curve has to cross the $x$-axis, and crossing the axis is exactly what a root is.\n",
+   "spec_links": [
+    "spcpt_tnGXWDF39HwFf7Pk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JXTVjyxN6zSFnv4Y",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_vYF8Y734vgBzZKff",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A sign change guarantees a root only if the function is continuous across the interval."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Continuity is part of the condition, not an optional extra."
+    },
+    {
+     "type": "paragraph",
+     "md": "Without it a sign change is equally consistent with a jump across an **asymptote**, where nothing has been crossed and there is no root."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA sign change guarantees a root only if the function is continuous across the interval.\n",
+   "back_md": "**True.**\n\nContinuity is part of the condition, not an optional extra.\n\nWithout it a sign change is equally consistent with a jump across an **asymptote**, where nothing has been crossed and there is no root.\n",
+   "spec_links": [
+    "spcpt_tnGXWDF39HwFf7Pk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j9zykrv5CpMNKCPB",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_vYF8Y734vgBzZKff",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you show that a root is $2 . 35$ correct to 2 decimal places?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Test the two **bounds** of the values that round to it, by evaluating `\\text{f} \\left(2 . 345\\right)` and `\\text{f} \\left(2 . 355\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "A sign change between them puts the root inside the interval that rounds to $2 . 35$."
+    }
+   ],
+   "front_md": "How do you show that a root is $2 . 35$ correct to 2 decimal places?\n",
+   "back_md": "Test the two **bounds** of the values that round to it, by evaluating `\\text{f} \\left(2 . 345\\right)` and `\\text{f} \\left(2 . 355\\right)`.\n\nA sign change between them puts the root inside the interval that rounds to $2 . 35$.\n",
+   "spec_links": [
+    "spcpt_tnGXWDF39HwFf7Pk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FHvm2WP7nD7zsQDZ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_vYF8Y734vgBzZKff",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must you state when concluding a change of sign argument?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That the function is **continuous** on the interval, that there is a **sign change**, and therefore that a root lies within it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The conclusion is not valid on the sign change alone, since the continuity condition is what rules out a jump."
+    }
+   ],
+   "front_md": "What must you state when concluding a change of sign argument?\n",
+   "back_md": "That the function is **continuous** on the interval, that there is a **sign change**, and therefore that a root lies within it.\n\nThe conclusion is not valid on the sign change alone, since the continuity condition is what rules out a jump.\n",
+   "spec_links": [
+    "spcpt_tnGXWDF39HwFf7Pk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7NzGhCmM2RZHqqRm",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_vYF8Y734vgBzZKff",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find an interval to test in the first place?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sketch the function, or evaluate it at a few whole-number values until the sign flips."
+    },
+    {
+     "type": "paragraph",
+     "md": "Even a rough sketch shows roughly where the curve crosses, which narrows the search down to one or two integers."
+    }
+   ],
+   "front_md": "How do you find an interval to test in the first place?\n",
+   "back_md": "Sketch the function, or evaluate it at a few whole-number values until the sign flips.\n\nEven a rough sketch shows roughly where the curve crosses, which narrows the search down to one or two integers.\n",
+   "spec_links": [
+    "spcpt_tnGXWDF39HwFf7Pk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PFcCzGWStZBY7FWR",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_nbXbRNVxMN47SFmn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can the change of sign method miss roots entirely?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If the interval contains an **even** number of roots, the signs at the two ends match and no change is detected."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two roots inside an interval look exactly the same from the endpoints as no roots at all."
+    }
+   ],
+   "front_md": "How can the change of sign method miss roots entirely?\n",
+   "back_md": "If the interval contains an **even** number of roots, the signs at the two ends match and no change is detected.\n\nTwo roots inside an interval look exactly the same from the endpoints as no roots at all.\n",
+   "spec_links": [
+    "spcpt_jWc24T7YJ3vg83h5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z6hDYVKPyRWHFJyt",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_nbXbRNVxMN47SFmn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There is a sign change. Why might there still be more roots than the one you have found?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because any **odd** number of roots produces a single sign change, so three roots look like one."
+    },
+    {
+     "type": "paragraph",
+     "md": "The method reports whether the number of crossings is odd or even, and nothing more than that."
+    }
+   ],
+   "front_md": "There is a sign change. Why might there still be more roots than the one you have found?\n",
+   "back_md": "Because any **odd** number of roots produces a single sign change, so three roots look like one.\n\nThe method reports whether the number of crossings is odd or even, and nothing more than that.\n",
+   "spec_links": [
+    "spcpt_jWc24T7YJ3vg83h5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fz4QXdQR92s9W96k",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_nbXbRNVxMN47SFmn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does a repeated root defeat the method?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the curve **touches** the $x$-axis without passing through it, so the function never changes sign."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is a genuine root present and no sign change anywhere near it."
+    }
+   ],
+   "front_md": "Why does a repeated root defeat the method?\n",
+   "back_md": "Because the curve **touches** the $x$-axis without passing through it, so the function never changes sign.\n\nThere is a genuine root present and no sign change anywhere near it.\n",
+   "spec_links": [
+    "spcpt_jWc24T7YJ3vg83h5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_34tG9NGZwFmP5zwH",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_nbXbRNVxMN47SFmn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a sign change appear where there is no root?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At a **discontinuity**, most often an asymptote, where the function jumps from large positive values to large negative ones."
+    },
+    {
+     "type": "paragraph",
+     "md": "Nothing has been crossed, so the sign change is real but the root is not."
+    }
+   ],
+   "front_md": "How can a sign change appear where there is no root?\n",
+   "back_md": "At a **discontinuity**, most often an asymptote, where the function jumps from large positive values to large negative ones.\n\nNothing has been crossed, so the sign change is real but the root is not.\n",
+   "spec_links": [
+    "spcpt_jWc24T7YJ3vg83h5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JW89RRqpqtNsTCF5",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_nbXbRNVxMN47SFmn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Making the interval smaller removes every one of these failures."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It does deal with the failures caused by **several roots** sitting in the interval at once, since a small enough interval will hold only one."
+    },
+    {
+     "type": "paragraph",
+     "md": "It does nothing at all about a curve that merely touches the axis, which produces no sign change at any interval size."
+    }
+   ],
+   "front_md": "**True or False?**\n\nMaking the interval smaller removes every one of these failures.\n",
+   "back_md": "**False.**\n\nIt does deal with the failures caused by **several roots** sitting in the interval at once, since a small enough interval will hold only one.\n\nIt does nothing at all about a curve that merely touches the axis, which produces no sign change at any interval size.\n",
+   "spec_links": [
+    "spcpt_jWc24T7YJ3vg83h5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QrFmXfqZzVCcyb5c",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_m2CtR7qshNNg4qwJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the notation for an iterative formula:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x_{n + 1} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed notation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x_{n + 1} = \\text{g} \\left(x_{n}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each answer becomes the input for the next step, which makes an iterative formula a **recurrence relation**."
+    }
+   ],
+   "front_md": "Complete the notation for an iterative formula:\n\n`x_{n + 1} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed notation is:\n\n`x_{n + 1} = \\text{g} \\left(x_{n}\\right)`\n\nEach answer becomes the input for the next step, which makes an iterative formula a **recurrence relation**.\n",
+   "spec_links": [
+    "spcpt_BfHcWctk2Fw8QtZj"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_8TkqkSyKrhCNFM4r",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_m2CtR7qshNNg4qwJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What has to be done to an equation before it can be iterated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange it into the form `x = \\text{g} \\left(x\\right)`, with a single $x$ on its own on the left."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same equation can usually be rearranged in several different ways, and they do not all behave alike."
+    }
+   ],
+   "front_md": "What has to be done to an equation before it can be iterated?\n",
+   "back_md": "Rearrange it into the form `x = \\text{g} \\left(x\\right)`, with a single $x$ on its own on the left.\n\nThe same equation can usually be rearranged in several different ways, and they do not all behave alike.\n",
+   "spec_links": [
+    "spcpt_BfHcWctk2Fw8QtZj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WPVWJH3TvCTztzS8",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_m2CtR7qshNNg4qwJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you use an iterative formula?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Start from the given value $x_{0}$, substitute it to get $x_{1}$, then feed each answer straight back in."
+    },
+    {
+     "type": "paragraph",
+     "md": "Stop once successive values agree to the accuracy the question has asked for."
+    }
+   ],
+   "front_md": "How do you use an iterative formula?\n",
+   "back_md": "Start from the given value $x_{0}$, substitute it to get $x_{1}$, then feed each answer straight back in.\n\nStop once successive values agree to the accuracy the question has asked for.\n",
+   "spec_links": [
+    "spcpt_BfHcWctk2Fw8QtZj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SCnbh4R3bgBqkvqC",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_m2CtR7qshNNg4qwJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are staircase and cobweb diagrams?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Pictures of an iteration, drawn by plotting $y = x$ against `y = \\text{g} \\left(x\\right)` and stepping between the two."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **staircase** closes in from one side, while a **cobweb** spirals in from alternate sides."
+    }
+   ],
+   "front_md": "What are staircase and cobweb diagrams?\n",
+   "back_md": "Pictures of an iteration, drawn by plotting $y = x$ against `y = \\text{g} \\left(x\\right)` and stepping between the two.\n\nA **staircase** closes in from one side, while a **cobweb** spirals in from alternate sides.\n",
+   "spec_links": [
+    "spcpt_BfHcWctk2Fw8QtZj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bmcbQzDKKHj53CRJ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_m2CtR7qshNNg4qwJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is the root on such a diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At the point where $y = x$ and `y = \\text{g} \\left(x\\right)` **cross**."
+    },
+    {
+     "type": "paragraph",
+     "md": "There the equation `x = \\text{g} \\left(x\\right)` is satisfied exactly, which is what being a root of the rearranged equation means."
+    }
+   ],
+   "front_md": "Where is the root on such a diagram?\n",
+   "back_md": "At the point where $y = x$ and `y = \\text{g} \\left(x\\right)` **cross**.\n\nThere the equation `x = \\text{g} \\left(x\\right)` is satisfied exactly, which is what being a root of the rearranged equation means.\n",
+   "spec_links": [
+    "spcpt_BfHcWctk2Fw8QtZj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8gydGvFVKqHcXxG4",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_m2CtR7qshNNg4qwJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every rearrangement into `x = \\text{g} \\left(x\\right)` converges to the root."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Some rearrangements **diverge**, moving further from the root at every step."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why a question tells you which iterative formula to use rather than leaving the rearrangement to you."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery rearrangement into `x = \\text{g} \\left(x\\right)` converges to the root.\n",
+   "back_md": "**False.**\n\nSome rearrangements **diverge**, moving further from the root at every step.\n\nThat is why a question tells you which iterative formula to use rather than leaving the rearrangement to you.\n",
+   "spec_links": [
+    "spcpt_BfHcWctk2Fw8QtZj"
+   ],
+   "flags": []
+  }
+ ]
+}

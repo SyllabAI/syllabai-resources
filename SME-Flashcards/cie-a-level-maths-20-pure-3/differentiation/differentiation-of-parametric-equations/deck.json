@@ -1,0 +1,825 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:08Z",
+ "course_slug": "cie-a-level-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-3/flashcards/differentiation/differentiation-of-parametric-equations/",
+  "section_slug": "differentiation",
+  "section_name": "Differentiation",
+  "topic_slug": "differentiation-of-parametric-equations",
+  "title": "Differentiation of Parametric Equations",
+  "order": 2
+ },
+ "card_count": 24,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 12,
+  "fill_in_the_blanks": 4,
+  "true_or_false": 6
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_XC7sqMSWWnx79shz",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Zrqr2SJM4PHpyYGc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **parametric equations**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A pair of equations giving $x$ and $y$ **separately**, each in terms of a third variable called the **parameter**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So instead of one equation linking $x$ and $y$, there are two: `x = \\text{f} \\left(t\\right)` and `y = \\text{g} \\left(t\\right)`."
+    }
+   ],
+   "front_md": "Define **parametric equations**.\n",
+   "back_md": "A pair of equations giving $x$ and $y$ **separately**, each in terms of a third variable called the **parameter**.\n\nSo instead of one equation linking $x$ and $y$, there are two: `x = \\text{f} \\left(t\\right)` and `y = \\text{g} \\left(t\\right)`.\n",
+   "spec_links": [
+    "spcpt_nw4nFYpnWpHmvY84"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7t4WtHTFMxSQTRQH",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Zrqr2SJM4PHpyYGc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do $x$, $y$ and $t$ often represent in a parametric model of motion?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$x$ is the horizontal position of the object, $y$ is its vertical position, and $t$ is the time."
+    },
+    {
+     "type": "paragraph",
+     "md": "The curve traced out is then the **path** the object follows, with the parameter recording when it reaches each point."
+    }
+   ],
+   "front_md": "What do $x$, $y$ and $t$ often represent in a parametric model of motion?\n",
+   "back_md": "$x$ is the horizontal position of the object, $y$ is its vertical position, and $t$ is the time.\n\nThe curve traced out is then the **path** the object follows, with the parameter recording when it reaches each point.\n",
+   "spec_links": [
+    "spcpt_nw4nFYpnWpHmvY84"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9H9Sjn6NywjcT6wc",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_Zrqr2SJM4PHpyYGc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the parametric equations of a circle of radius $r$ with centre `\\left(a , b\\right)`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`y = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed equations are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$x = r \\mathrm{cos} θ + a$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$y = r \\mathrm{sin} θ + b$"
+    },
+    {
+     "type": "paragraph",
+     "md": "With centre `\\left(0 , 0\\right)` the two constants vanish, leaving $x = r \\mathrm{cos} θ$ and $y = r \\mathrm{sin} θ$."
+    }
+   ],
+   "front_md": "Complete the parametric equations of a circle of radius $r$ with centre `\\left(a , b\\right)`:\n\n`x = \\_\\_\\_\\_\\_\\_`\n\n`y = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed equations are:\n\n$x = r \\mathrm{cos} θ + a$\n\n$y = r \\mathrm{sin} θ + b$\n\nWith centre `\\left(0 , 0\\right)` the two constants vanish, leaving $x = r \\mathrm{cos} θ$ and $y = r \\mathrm{sin} θ$.\n",
+   "spec_links": [
+    "spcpt_nw4nFYpnWpHmvY84"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_RjRTCRdMKrVKTfRC",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_Zrqr2SJM4PHpyYGc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A circle can be given by parametric equations even though it cannot be written as `y = \\text{f} \\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A circle fails the test for a function of $x$, since most vertical lines cut it twice, so no single `y = \\text{f} \\left(x\\right)` describes the whole of it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Giving $x$ and $y$ separately sidesteps the problem completely, and that freedom is much of the reason parametric equations are worth having."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA circle can be given by parametric equations even though it cannot be written as `y = \\text{f} \\left(x\\right)`.\n",
+   "back_md": "**True.**\n\nA circle fails the test for a function of $x$, since most vertical lines cut it twice, so no single `y = \\text{f} \\left(x\\right)` describes the whole of it.\n\nGiving $x$ and $y$ separately sidesteps the problem completely, and that freedom is much of the reason parametric equations are worth having.\n",
+   "spec_links": [
+    "spcpt_nw4nFYpnWpHmvY84"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RFj83nxQ8tJz53hg",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Zrqr2SJM4PHpyYGc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the centre and radius of the circle $x = 3 \\mathrm{cos} θ$, $y = 3 \\mathrm{sin} θ - 4$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The centre is `\\left(0 , - 4\\right)` and the radius is $3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both can be read straight off by comparing with the standard parametric form, and the Cartesian equation `x^{2} + \\left(y + 4\\right)^{2} = 9` confirms them."
+    }
+   ],
+   "front_md": "What are the centre and radius of the circle $x = 3 \\mathrm{cos} θ$, $y = 3 \\mathrm{sin} θ - 4$?\n",
+   "back_md": "The centre is `\\left(0 , - 4\\right)` and the radius is $3$.\n\nBoth can be read straight off by comparing with the standard parametric form, and the Cartesian equation `x^{2} + \\left(y + 4\\right)^{2} = 9` confirms them.\n",
+   "spec_links": [
+    "spcpt_nw4nFYpnWpHmvY84"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RZ2vmZf9FYPGMj3C",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_Zrqr2SJM4PHpyYGc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The equations $x = 2 \\mathrm{cos} θ$ and $y = 2 \\mathrm{sin} θ$ involve two parameters."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is only one parameter, $θ$. The $2$ is a fixed constant, the radius, and it does not vary along the curve."
+    },
+    {
+     "type": "paragraph",
+     "md": "A parameter is something each point of the curve has its own value of, which is true of $θ$ and false of the $2$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe equations $x = 2 \\mathrm{cos} θ$ and $y = 2 \\mathrm{sin} θ$ involve two parameters.\n",
+   "back_md": "**False.**\n\nThere is only one parameter, $θ$. The $2$ is a fixed constant, the radius, and it does not vary along the curve.\n\nA parameter is something each point of the curve has its own value of, which is true of $θ$ and false of the $2$.\n",
+   "spec_links": [
+    "spcpt_nw4nFYpnWpHmvY84"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CdfyGRHRYJwPcFWV",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_qPnHDCQJ9J4kqtH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **Cartesian equation** of a curve."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An equation connecting $x$ and $y$ directly, with no parameter left in it."
+    },
+    {
+     "type": "paragraph",
+     "md": "A curve given parametrically as `x = \\text{f} \\left(t\\right)` and `y = \\text{g} \\left(t\\right)` still has one, because $x$ and $y$ are linked through $t$."
+    }
+   ],
+   "front_md": "Define the **Cartesian equation** of a curve.\n",
+   "back_md": "An equation connecting $x$ and $y$ directly, with no parameter left in it.\n\nA curve given parametrically as `x = \\text{f} \\left(t\\right)` and `y = \\text{g} \\left(t\\right)` still has one, because $x$ and $y$ are linked through $t$.\n",
+   "spec_links": [
+    "spcpt_pQyRTSWg3RWsPB7W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Y5dwhXHwQ5nZNfNc",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_qPnHDCQJ9J4kqtH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When eliminating the parameter from a pair of parametric equations, which of the two should you rearrange?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange whichever one is easier to make $t$ the subject of."
+    },
+    {
+     "type": "paragraph",
+     "md": "A linear equation such as $x = 2 t + 3$ is much easier than a quadratic, and a single exponential is also straightforward, since $x = \\text{e}^{t}$ gives $t = \\mathrm{ln} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then substitute that expression for $t$ into the other equation."
+    }
+   ],
+   "front_md": "When eliminating the parameter from a pair of parametric equations, which of the two should you rearrange?\n",
+   "back_md": "Rearrange whichever one is easier to make $t$ the subject of.\n\nA linear equation such as $x = 2 t + 3$ is much easier than a quadratic, and a single exponential is also straightforward, since $x = \\text{e}^{t}$ gives $t = \\mathrm{ln} x$.\n\nThen substitute that expression for $t$ into the other equation.\n",
+   "spec_links": [
+    "spcpt_pQyRTSWg3RWsPB7W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZhHmNMvvppmCW8bS",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_qPnHDCQJ9J4kqtH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you eliminate $t$ when $x$ and $y$ are given in terms of $\\mathrm{cos} t$ and $\\mathrm{sin} t$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange each equation into the form $\\mathrm{cos} t = \\dots$ and $\\mathrm{sin} t = \\dots$, then square both and add them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The identity $\\mathrm{sin}^{2} t + \\mathrm{cos}^{2} t \\equiv 1$ removes $t$ in one step."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranging for $t$ itself would bring in an inverse trigonometric function, which is far harder to work with."
+    }
+   ],
+   "front_md": "How do you eliminate $t$ when $x$ and $y$ are given in terms of $\\mathrm{cos} t$ and $\\mathrm{sin} t$?\n",
+   "back_md": "Rearrange each equation into the form $\\mathrm{cos} t = \\dots$ and $\\mathrm{sin} t = \\dots$, then square both and add them.\n\nThe identity $\\mathrm{sin}^{2} t + \\mathrm{cos}^{2} t \\equiv 1$ removes $t$ in one step.\n\nRearranging for $t$ itself would bring in an inverse trigonometric function, which is far harder to work with.\n",
+   "spec_links": [
+    "spcpt_pQyRTSWg3RWsPB7W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jWyYqFWvZgtZjPYt",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_qPnHDCQJ9J4kqtH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A curve has parametric equations $x = 3 + \\mathrm{cos} t$ and $y = 2 - \\mathrm{sin} t$. Complete the elimination:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(x - 3\\right)^{2} + \\left(2 - y\\right)^{2} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed equation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(x - 3\\right)^{2} + \\left(2 - y\\right)^{2} = 1`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Squaring $\\mathrm{cos} t = x - 3$ and $\\mathrm{sin} t = 2 - y$ and adding them gives $\\mathrm{cos}^{2} t + \\mathrm{sin}^{2} t$ on the left, which is $1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The curve is therefore a circle of radius $1$ centred on `\\left(3 , 2\\right)`."
+    }
+   ],
+   "front_md": "A curve has parametric equations $x = 3 + \\mathrm{cos} t$ and $y = 2 - \\mathrm{sin} t$. Complete the elimination:\n\n`\\left(x - 3\\right)^{2} + \\left(2 - y\\right)^{2} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed equation is:\n\n`\\left(x - 3\\right)^{2} + \\left(2 - y\\right)^{2} = 1`\n\nSquaring $\\mathrm{cos} t = x - 3$ and $\\mathrm{sin} t = 2 - y$ and adding them gives $\\mathrm{cos}^{2} t + \\mathrm{sin}^{2} t$ on the left, which is $1$.\n\nThe curve is therefore a circle of radius $1$ centred on `\\left(3 , 2\\right)`.\n",
+   "spec_links": [
+    "spcpt_pQyRTSWg3RWsPB7W"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tqnRsTJvGPHtBKBt",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_qPnHDCQJ9J4kqtH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Eliminating the parameter always produces an equation of the form `y = \\text{f} \\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The Cartesian equation can be a relation that is not a function, such as the circle `\\left(x - 3\\right)^{2} + \\left(y - 2\\right)^{2} = 1`."
+    },
+    {
+     "type": "paragraph",
+     "md": "A vertical line meets that curve twice, so it cannot be written as a single `y = \\text{f} \\left(x\\right)`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEliminating the parameter always produces an equation of the form `y = \\text{f} \\left(x\\right)`.\n",
+   "back_md": "**False.**\n\nThe Cartesian equation can be a relation that is not a function, such as the circle `\\left(x - 3\\right)^{2} + \\left(y - 2\\right)^{2} = 1`.\n\nA vertical line meets that curve twice, so it cannot be written as a single `y = \\text{f} \\left(x\\right)`.\n",
+   "spec_links": [
+    "spcpt_pQyRTSWg3RWsPB7W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_njgCrh3JFpn6BDSq",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_qPnHDCQJ9J4kqtH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is it worth converting parametric equations to Cartesian form before differentiating?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the parameter comes out easily **and** the resulting Cartesian equation is simple to differentiate."
+    },
+    {
+     "type": "paragraph",
+     "md": "For $x = \\mathrm{tan} t$, $y = \\mathrm{cos}^{2} t$ the conversion gives $y = \\frac{1}{1+x^{2}}$, and mark schemes can award full marks for that route."
+    },
+    {
+     "type": "paragraph",
+     "md": "For most pairs neither condition holds, so differentiating with respect to $t$ is the better route."
+    }
+   ],
+   "front_md": "When is it worth converting parametric equations to Cartesian form before differentiating?\n",
+   "back_md": "When the parameter comes out easily **and** the resulting Cartesian equation is simple to differentiate.\n\nFor $x = \\mathrm{tan} t$, $y = \\mathrm{cos}^{2} t$ the conversion gives $y = \\frac{1}{1+x^{2}}$, and mark schemes can award full marks for that route.\n\nFor most pairs neither condition holds, so differentiating with respect to $t$ is the better route.\n",
+   "spec_links": [
+    "spcpt_pQyRTSWg3RWsPB7W"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Mt7X9YvBgqm7dHhV",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_WK3QQphFrTGgPqcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which features should you find before sketching a curve given parametrically?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where the curve crosses each axis, any **asymptotes**, and the location of any **stationary points**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Mark those on the axes and join them up in a way that fits the shape of the curve."
+    }
+   ],
+   "front_md": "Which features should you find before sketching a curve given parametrically?\n",
+   "back_md": "Where the curve crosses each axis, any **asymptotes**, and the location of any **stationary points**.\n\nMark those on the axes and join them up in a way that fits the shape of the curve.\n",
+   "spec_links": [
+    "spcpt_WTvZHvT7cMnVH3pg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TYhCJjJ4gDThBtQX",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_WK3QQphFrTGgPqcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the method for finding where a parametric curve crosses the $x$-axis:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Set the equation for `\\_\\_\\_\\_\\_\\_` equal to zero, solve it for the parameter, then substitute the value(s) into the equation for `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed method is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Set the equation for $y$ equal to zero, solve it for the parameter, then substitute the value(s) into the equation for $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "For the $y$-axis it is the other way round: set the equation for $x$ to zero, then substitute into the equation for $y$."
+    }
+   ],
+   "front_md": "Complete the method for finding where a parametric curve crosses the $x$-axis:\n\nSet the equation for `\\_\\_\\_\\_\\_\\_` equal to zero, solve it for the parameter, then substitute the value(s) into the equation for `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed method is:\n\nSet the equation for $y$ equal to zero, solve it for the parameter, then substitute the value(s) into the equation for $x$.\n\nFor the $y$-axis it is the other way round: set the equation for $x$ to zero, then substitute into the equation for $y$.\n",
+   "spec_links": [
+    "spcpt_WTvZHvT7cMnVH3pg"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_WRzWdHRzWNdvMZZg",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_WK3QQphFrTGgPqcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every curve given by parametric equations crosses the $y$-axis somewhere."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is a crossing only if the equation for $x$ can actually equal zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, $x = \\text{e}^{t}$ is positive for every value of $t$, so $\\text{e}^{t} = 0$ has no solutions: the curve never reaches the $y$-axis, and the $y$-axis is an **asymptote**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery curve given by parametric equations crosses the $y$-axis somewhere.\n",
+   "back_md": "**False.**\n\nThere is a crossing only if the equation for $x$ can actually equal zero.\n\nSo, **for example**, $x = \\text{e}^{t}$ is positive for every value of $t$, so $\\text{e}^{t} = 0$ has no solutions: the curve never reaches the $y$-axis, and the $y$-axis is an **asymptote**.\n",
+   "spec_links": [
+    "spcpt_WTvZHvT7cMnVH3pg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_93RqGBtpVyC46JpP",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_WK3QQphFrTGgPqcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might a value of the parameter found when looking for an axis intercept have to be rejected?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it may lie outside the values the parameter is allowed to take, in which case it gives no point on the curve."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, $x = \\mathrm{ln} t^{3}$ is only defined for $t > 0$, so a solution of $t = - \\frac{3}{2}$ has to be discarded and only the positive root used."
+    }
+   ],
+   "front_md": "Why might a value of the parameter found when looking for an axis intercept have to be rejected?\n",
+   "back_md": "Because it may lie outside the values the parameter is allowed to take, in which case it gives no point on the curve.\n\nSo, **for example**, $x = \\mathrm{ln} t^{3}$ is only defined for $t > 0$, so a solution of $t = - \\frac{3}{2}$ has to be discarded and only the positive root used.\n",
+   "spec_links": [
+    "spcpt_WTvZHvT7cMnVH3pg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dMpjKMRYyCCqKsRw",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_WK3QQphFrTGgPqcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A sketch of a parametric curve should be built from an accurate table of values."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **sketch** shows the key features and the general shape: the axis intercepts, any asymptotes and any turning points."
+    },
+    {
+     "type": "paragraph",
+     "md": "Working out a few extra points can help when the shape is unfamiliar, but that is a check, not the method."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA sketch of a parametric curve should be built from an accurate table of values.\n",
+   "back_md": "**False.**\n\nA **sketch** shows the key features and the general shape: the axis intercepts, any asymptotes and any turning points.\n\nWorking out a few extra points can help when the shape is unfamiliar, but that is a check, not the method.\n",
+   "spec_links": [
+    "spcpt_WTvZHvT7cMnVH3pg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kPDKVyT55BcRB95T",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_WK3QQphFrTGgPqcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is it worth finding the Cartesian equation before sketching a parametric curve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the parametric form leaves the shape unclear and you cannot make progress otherwise. Recognising the Cartesian equation tells you the shape at once."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, $x = \\mathrm{ln} t^{3}$ and $y = 4 t^{2} - 9$ become $y = 4 \\text{e}^{\\frac{2}{3}x} - 9$, an exponential curve with an asymptote at $y = - 9$."
+    }
+   ],
+   "front_md": "When is it worth finding the Cartesian equation before sketching a parametric curve?\n",
+   "back_md": "When the parametric form leaves the shape unclear and you cannot make progress otherwise. Recognising the Cartesian equation tells you the shape at once.\n\nSo, **for example**, $x = \\mathrm{ln} t^{3}$ and $y = 4 t^{2} - 9$ become $y = 4 \\text{e}^{\\frac{2}{3}x} - 9$, an exponential curve with an asymptote at $y = - 9$.\n",
+   "spec_links": [
+    "spcpt_WTvZHvT7cMnVH3pg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H9kmhK4w4vfmtVyH",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for differentiating parametric equations:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{d} y}{\\text{d} t} \\div \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\div \\frac{\\text{d}x}{\\text{d}t}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "It follows from the chain rule with the reciprocal property, since $\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\times \\frac{\\text{d}t}{\\text{d}x}$."
+    }
+   ],
+   "front_md": "Complete the rule for differentiating parametric equations:\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{d} y}{\\text{d} t} \\div \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\div \\frac{\\text{d}x}{\\text{d}t}$\n\nIt follows from the chain rule with the reciprocal property, since $\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\times \\frac{\\text{d}t}{\\text{d}x}$.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Xc2nSVGw4HDKmrNq",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it acceptable for $\\frac{\\text{d}y}{\\text{d}x}$ to come out in terms of $t$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because every point on the curve is identified by its parameter value rather than by its $x$ coordinate."
+    },
+    {
+     "type": "paragraph",
+     "md": "To get a numerical gradient you find the value of $t$ at the point you want and substitute that, which is one step earlier than in ordinary differentiation."
+    }
+   ],
+   "front_md": "Why is it acceptable for $\\frac{\\text{d}y}{\\text{d}x}$ to come out in terms of $t$?\n",
+   "back_md": "Because every point on the curve is identified by its parameter value rather than by its $x$ coordinate.\n\nTo get a numerical gradient you find the value of $t$ at the point you want and substitute that, which is one step earlier than in ordinary differentiation.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dVNb7dJHRtcxkwBN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the gradient of a parametric curve at a given point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate both equations to get $\\frac{\\text{d}y}{\\text{d}t}$ and $\\frac{\\text{d}x}{\\text{d}t}$, then divide to get $\\frac{\\text{d}y}{\\text{d}x}$ in terms of $t$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Find the value of $t$ at that point and substitute it in."
+    }
+   ],
+   "front_md": "How do you find the gradient of a parametric curve at a given point?\n",
+   "back_md": "Differentiate both equations to get $\\frac{\\text{d}y}{\\text{d}t}$ and $\\frac{\\text{d}x}{\\text{d}t}$, then divide to get $\\frac{\\text{d}y}{\\text{d}x}$ in terms of $t$.\n\nFind the value of $t$ at that point and substitute it in.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r7zqqdYy9sjrcmcg",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What condition gives a stationary point on a parametric curve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = 0$, which happens exactly when $\\frac{\\text{d}y}{\\text{d}t} = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the numerator of the quotient that has to vanish, so it is the $y$ equation you differentiate and set to zero."
+    }
+   ],
+   "front_md": "What condition gives a stationary point on a parametric curve?\n",
+   "back_md": "$\\frac{\\text{d}y}{\\text{d}x} = 0$, which happens exactly when $\\frac{\\text{d}y}{\\text{d}t} = 0$.\n\nIt is the numerator of the quotient that has to vanish, so it is the $y$ equation you differentiate and set to zero.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qdX5B6mBMkq5t9qs",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens where $\\frac{\\text{d}x}{\\text{d}t} = 0$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The gradient $\\frac{\\text{d}y}{\\text{d}x}$ is **undefined**, since the quotient would be dividing by zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "Geometrically the tangent there is **vertical**, which is something an ordinary `y = \\text{f} \\left(x\\right)` curve can never show."
+    }
+   ],
+   "front_md": "What happens where $\\frac{\\text{d}x}{\\text{d}t} = 0$?\n",
+   "back_md": "The gradient $\\frac{\\text{d}y}{\\text{d}x}$ is **undefined**, since the quotient would be dividing by zero.\n\nGeometrically the tangent there is **vertical**, which is something an ordinary `y = \\text{f} \\left(x\\right)` curve can never show.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BChSN5mBJGzsWfs3",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To find $\\frac{\\text{d}y}{\\text{d}x}$ you must first eliminate the parameter."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating each equation with respect to $t$ and dividing is quicker, and it still works when the parameter cannot be eliminated neatly."
+    },
+    {
+     "type": "paragraph",
+     "md": "Eliminating first is extra work that usually makes the differentiation harder rather than easier."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo find $\\frac{\\text{d}y}{\\text{d}x}$ you must first eliminate the parameter.\n",
+   "back_md": "**False.**\n\nDifferentiating each equation with respect to $t$ and dividing is quicker, and it still works when the parameter cannot be eliminated neatly.\n\nEliminating first is extra work that usually makes the differentiation harder rather than easier.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  }
+ ]
+}

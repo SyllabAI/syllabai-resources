@@ -1,0 +1,1055 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-19T18:50:08Z",
+ "course_slug": "igcse-maths-b-16",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/flashcards/vectors-and-transformation-geometry/vectors/",
+  "section_slug": "vectors-and-transformation-geometry",
+  "section_name": "Vectors & Transformation Geometry",
+  "topic_slug": "vectors",
+  "title": "Vectors",
+  "order": 0
+ },
+ "card_count": 33,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 18,
+  "fill_in_the_blanks": 4,
+  "true_or_false": 8
+ },
+ "spec_link_cards": 26,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_rc9YyMy78FKpCVkk",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Np7XYBxkjMFxBvXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the column vector `\\begin{pmatrix} 6 \\\\ 3 \\end{pmatrix}` mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It describes a movement of **6 units to the right** and **3 units up**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A column vector used this way is also called a **translation vector**, because it says how to get from one point to another."
+    }
+   ],
+   "front_md": "What does the column vector `\\begin{pmatrix} 6 \\\\ 3 \\end{pmatrix}` mean?\n",
+   "back_md": "It describes a movement of **6 units to the right** and **3 units up**.\n\nA column vector used this way is also called a **translation vector**, because it says how to get from one point to another.\n",
+   "spec_links": [
+    "spcpt_K6S4SN5GRRrC4hTj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Fm86z6K6fjNbcd2C",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Np7XYBxkjMFxBvXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you add or subtract two column vectors?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work on the **top numbers** and the **bottom numbers** separately, keeping the two apart throughout."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} + \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix} = \\begin{pmatrix} 8 \\\\ 1 \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "How do you add or subtract two column vectors?\n",
+   "back_md": "Work on the **top numbers** and the **bottom numbers** separately, keeping the two apart throughout.\n\nSo `\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} + \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix} = \\begin{pmatrix} 8 \\\\ 1 \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_K6S4SN5GRRrC4hTj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z6sZqr7sQW3TwZNZ",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_Np7XYBxkjMFxBvXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing numbers."
+    },
+    {
+     "type": "paragraph",
+     "md": "`3 \\begin{pmatrix} 2 \\\\ - 1 \\end{pmatrix} = \\begin{pmatrix} \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed calculation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`3 \\begin{pmatrix} 2 \\\\ - 1 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ - 3 \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **scalar** is an ordinary number with no direction attached, and it multiplies **both** components."
+    }
+   ],
+   "front_md": "Fill in the two missing numbers.\n\n`3 \\begin{pmatrix} 2 \\\\ - 1 \\end{pmatrix} = \\begin{pmatrix} \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`\n",
+   "back_md": "The completed calculation is:\n\n`3 \\begin{pmatrix} 2 \\\\ - 1 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ - 3 \\end{pmatrix}`\n\nA **scalar** is an ordinary number with no direction attached, and it multiplies **both** components.\n",
+   "spec_links": [
+    "spcpt_K6S4SN5GRRrC4hTj"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_3FbYT6BFstDmkDQD",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Np7XYBxkjMFxBvXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you write `2 \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} + 5 \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}` as a single column vector?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply each vector by the scalar in front of it **first**, which gives `\\begin{pmatrix} 10 \\\\ 4 \\end{pmatrix} + \\begin{pmatrix} 15 \\\\ - 5 \\end{pmatrix}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then add those results component by component to get `\\begin{pmatrix} 25 \\\\ - 1 \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "How do you write `2 \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} + 5 \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}` as a single column vector?\n",
+   "back_md": "Multiply each vector by the scalar in front of it **first**, which gives `\\begin{pmatrix} 10 \\\\ 4 \\end{pmatrix} + \\begin{pmatrix} 15 \\\\ - 5 \\end{pmatrix}`.\n\nThen add those results component by component to get `\\begin{pmatrix} 25 \\\\ - 1 \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_K6S4SN5GRRrC4hTj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_33FmGncCt28n9mF7",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Np7XYBxkjMFxBvXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Given that `\\begin{pmatrix} 2 p - 6 \\\\ 9 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ q \\end{pmatrix}`, how do you find $p$ and $q$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two column vectors are equal only when **both** components match, so each pair can be equated separately."
+    },
+    {
+     "type": "paragraph",
+     "md": "The top components give $2 p - 6 = 4$ and so $p = 5$, while the bottom components give $q = 9$ straight away."
+    }
+   ],
+   "front_md": "Given that `\\begin{pmatrix} 2 p - 6 \\\\ 9 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ q \\end{pmatrix}`, how do you find $p$ and $q$?\n",
+   "back_md": "Two column vectors are equal only when **both** components match, so each pair can be equated separately.\n\nThe top components give $2 p - 6 = 4$ and so $p = 5$, while the bottom components give $q = 9$ straight away.\n",
+   "spec_links": [
+    "spcpt_K6S4SN5GRRrC4hTj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nRXkKfbj7rFqrxGX",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_Np7XYBxkjMFxBvXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A column vector can be treated as a $2 \\times 1$ matrix."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A column vector has 2 rows and 1 column, which is exactly what a $2 \\times 1$ matrix is."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why a $2 \\times 2$ matrix can be multiplied by one, and it is what makes matrix transformations possible."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA column vector can be treated as a $2 \\times 1$ matrix.\n",
+   "back_md": "**True.**\n\nA column vector has 2 rows and 1 column, which is exactly what a $2 \\times 1$ matrix is.\n\nThat is why a $2 \\times 2$ matrix can be multiplied by one, and it is what makes matrix transformations possible.\n",
+   "spec_links": [
+    "spcpt_K6S4SN5GRRrC4hTj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_df4f5VFS8fTcvvyY",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two things must a drawing of a vector show?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its **size**, shown by the length of the line, and its **direction**, shown by an arrow on that line."
+    },
+    {
+     "type": "paragraph",
+     "md": "A vector has both of these, which is what distinguishes it from a scalar."
+    }
+   ],
+   "front_md": "What two things must a drawing of a vector show?\n",
+   "back_md": "Its **size**, shown by the length of the line, and its **direction**, shown by an arrow on that line.\n\nA vector has both of these, which is what distinguishes it from a scalar.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b7mZmWB59XJjFKFk",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing words about writing vectors."
+    },
+    {
+     "type": "paragraph",
+     "md": "A vector is written in `\\_\\_\\_\\_\\_\\_` when it is typed, and is `\\_\\_\\_\\_\\_\\_` when it is written by hand."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A vector is written in **bold** when it is typed, and is **underlined** when it is written by hand."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two conventions mean the same thing, and handwriting uses the underline simply because you cannot write in bold with a pen."
+    }
+   ],
+   "front_md": "Fill in the two missing words about writing vectors.\n\nA vector is written in `\\_\\_\\_\\_\\_\\_` when it is typed, and is `\\_\\_\\_\\_\\_\\_` when it is written by hand.\n",
+   "back_md": "The completed sentence is:\n\nA vector is written in **bold** when it is typed, and is **underlined** when it is written by hand.\n\nThe two conventions mean the same thing, and handwriting uses the underline simply because you cannot write in bold with a pen.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_VtqYm5qfgcvNQgHT",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between $\\overset{\\rightarrow}{AB}$ and $\\overset{\\rightarrow}{BA}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They have the **same length** but point in **opposite directions**."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overset{\\rightarrow}{AB}$ starts at $A$ and points towards $B$, while $\\overset{\\rightarrow}{BA}$ starts at $B$ and points towards $A$."
+    }
+   ],
+   "front_md": "What is the difference between $\\overset{\\rightarrow}{AB}$ and $\\overset{\\rightarrow}{BA}$?\n",
+   "back_md": "They have the **same length** but point in **opposite directions**.\n\n$\\overset{\\rightarrow}{AB}$ starts at $A$ and points towards $B$, while $\\overset{\\rightarrow}{BA}$ starts at $B$ and points towards $A$.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vJnPNhCFmKWhRbcJ",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A vector must be drawn starting from one particular point on the grid."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A vector can be drawn **anywhere** on the grid, provided it has the right length and the right direction."
+    },
+    {
+     "type": "paragraph",
+     "md": "It describes a movement rather than a position, so where you start drawing it does not change which vector it is."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA vector must be drawn starting from one particular point on the grid.\n",
+   "back_md": "**False.**\n\nA vector can be drawn **anywhere** on the grid, provided it has the right length and the right direction.\n\nIt describes a movement rather than a position, so where you start drawing it does not change which vector it is.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qRxB5zWchKZv9NN2",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does multiplying a vector by $- 2$ do to its arrow?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **reverses** the direction and makes the arrow **twice** as long."
+    },
+    {
+     "type": "paragraph",
+     "md": "A negative scalar always reverses the direction, and it is the number after the minus sign that gives the change in length."
+    }
+   ],
+   "front_md": "What does multiplying a vector by $- 2$ do to its arrow?\n",
+   "back_md": "It **reverses** the direction and makes the arrow **twice** as long.\n\nA negative scalar always reverses the direction, and it is the number after the minus sign that gives the change in length.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XkGqDG2fW92gFKhs",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you draw the vector $a + b$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Draw $a$, then draw $b$ starting from the point where $a$ ends."
+    },
+    {
+     "type": "paragraph",
+     "md": "The sum is the line from the start of $a$ to the end of $b$, and for $a - b$ you draw $- b$ second instead."
+    }
+   ],
+   "front_md": "How do you draw the vector $a + b$?\n",
+   "back_md": "Draw $a$, then draw $b$ starting from the point where $a$ ends.\n\nThe sum is the line from the start of $a$ to the end of $b$, and for $a - b$ you draw $- b$ second instead.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M4KSvF52HC4Z83sv",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_bwvBQS842JzgFs5N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is $\\overset{\\rightarrow}{AB} + \\overset{\\rightarrow}{BC} + \\overset{\\rightarrow}{CA}$ the zero vector?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because following those three vectors in turn takes you from $A$ all the way back to $A$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A journey that returns to where it started has no overall movement, so the result is `\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "Why is $\\overset{\\rightarrow}{AB} + \\overset{\\rightarrow}{BC} + \\overset{\\rightarrow}{CA}$ the zero vector?\n",
+   "back_md": "Because following those three vectors in turn takes you from $A$ all the way back to $A$.\n\nA journey that returns to where it started has no overall movement, so the result is `\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_zJxJnm5kJPsMM2vF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tqj5HD75SwdQB5gw",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_BpRnrryR5RDMq9tX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **modulus** of a vector."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The modulus of a vector is its **length**, also called its **magnitude**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is always **positive**, and the vector's direction plays no part in it."
+    }
+   ],
+   "front_md": "Define the **modulus** of a vector.\n",
+   "back_md": "The modulus of a vector is its **length**, also called its **magnitude**.\n\nIt is always **positive**, and the vector's direction plays no part in it.\n",
+   "spec_links": [
+    "spcpt_cSMqGjbV8QXt5mzv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZrBtD9BTccgbRFrM",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_BpRnrryR5RDMq9tX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the modulus of a vector with components $x$ and $y$."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left|\\mathbf{a}\\right| = \\sqrt{x^{2} + \\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left|\\mathbf{a}\\right| = \\sqrt{x^{2} + y^{2}}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "This is **Pythagoras' theorem**: the two components are the shorter sides of a right-angled triangle and the vector itself is the hypotenuse."
+    }
+   ],
+   "front_md": "Complete the formula for the modulus of a vector with components $x$ and $y$.\n\n`\\left|\\mathbf{a}\\right| = \\sqrt{x^{2} + \\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n`\\left|\\mathbf{a}\\right| = \\sqrt{x^{2} + y^{2}}`\n\nThis is **Pythagoras' theorem**: the two components are the shorter sides of a right-angled triangle and the vector itself is the hypotenuse.\n",
+   "spec_links": [
+    "spcpt_cSMqGjbV8QXt5mzv"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6FnQRfjqR3QbVxk9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_BpRnrryR5RDMq9tX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Points `A \\left(- 3 , 5\\right)` and `B \\left(7 , 1\\right)` are given. What is `\\left|\\overrightarrow{AB}\\right|`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "First `\\overrightarrow{AB} = \\begin{pmatrix} 10 \\\\ - 4 \\end{pmatrix}`, found by subtracting the coordinates of $A$ from those of $B$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then `\\left|\\overrightarrow{AB}\\right| = \\sqrt{10^{2} + \\left(- 4\\right)^{2}} = \\sqrt{116} = 2 \\sqrt{29}`."
+    }
+   ],
+   "front_md": "Points `A \\left(- 3 , 5\\right)` and `B \\left(7 , 1\\right)` are given. What is `\\left|\\overrightarrow{AB}\\right|`?\n",
+   "back_md": "First `\\overrightarrow{AB} = \\begin{pmatrix} 10 \\\\ - 4 \\end{pmatrix}`, found by subtracting the coordinates of $A$ from those of $B$.\n\nThen `\\left|\\overrightarrow{AB}\\right| = \\sqrt{10^{2} + \\left(- 4\\right)^{2}} = \\sqrt{116} = 2 \\sqrt{29}`.\n",
+   "spec_links": [
+    "spcpt_cSMqGjbV8QXt5mzv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PMJXDdZggD4dMvtQ",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_BpRnrryR5RDMq9tX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left|\\overrightarrow{BA}\\right|` and `\\left|\\overrightarrow{AB}\\right|` are equal."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both vectors have the **same length**, and the modulus ignores direction entirely."
+    },
+    {
+     "type": "paragraph",
+     "md": "Reversing a vector changes the signs of its components, but squaring them in the formula removes those signs again."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\left|\\overrightarrow{BA}\\right|` and `\\left|\\overrightarrow{AB}\\right|` are equal.\n",
+   "back_md": "**True.**\n\nBoth vectors have the **same length**, and the modulus ignores direction entirely.\n\nReversing a vector changes the signs of its components, but squaring them in the formula removes those signs again.\n",
+   "spec_links": [
+    "spcpt_cSMqGjbV8QXt5mzv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dpr8yW7DwnpTjgWj",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_BpRnrryR5RDMq9tX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the modulus of a velocity vector represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It represents the **speed**, which is the size of the velocity with its direction stripped away."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a force vector the modulus is instead the **strength** of the force, measured in newtons."
+    }
+   ],
+   "front_md": "What does the modulus of a velocity vector represent?\n",
+   "back_md": "It represents the **speed**, which is the size of the velocity with its direction stripped away.\n\nFor a force vector the modulus is instead the **strength** of the force, measured in newtons.\n",
+   "spec_links": [
+    "spcpt_cSMqGjbV8QXt5mzv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Jc5PsM755B2HPVXD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_BpRnrryR5RDMq9tX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A vector $\\overset{\\rightarrow}{CD}$ has three times the modulus of `\\overrightarrow{AB} = \\begin{pmatrix} 10 \\\\ - 4 \\end{pmatrix}`. Give one possible $\\overset{\\rightarrow}{CD}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiplying both components by 3 gives `\\begin{pmatrix} 30 \\\\ - 12 \\end{pmatrix}`, which is three times as long."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying by $- 3$ gives `\\begin{pmatrix} - 30 \\\\ 12 \\end{pmatrix}`, which is also three times as long but points the opposite way, so it works just as well."
+    }
+   ],
+   "front_md": "A vector $\\overset{\\rightarrow}{CD}$ has three times the modulus of `\\overrightarrow{AB} = \\begin{pmatrix} 10 \\\\ - 4 \\end{pmatrix}`. Give one possible $\\overset{\\rightarrow}{CD}$.\n",
+   "back_md": "Multiplying both components by 3 gives `\\begin{pmatrix} 30 \\\\ - 12 \\end{pmatrix}`, which is three times as long.\n\nMultiplying by $- 3$ gives `\\begin{pmatrix} - 30 \\\\ 12 \\end{pmatrix}`, which is also three times as long but points the opposite way, so it works just as well.\n",
+   "spec_links": [
+    "spcpt_cSMqGjbV8QXt5mzv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WWRc8mBcJdNqHv6T",
+   "card_type": "true_or_false",
+   "order": 0,
+   "set_id": "flst_65Qhg3tcb2NhBjxH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overset{\\rightarrow}{AB}=\\overset{\\rightarrow}{OA}-\\overset{\\rightarrow}{OB}$"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overset{\\rightarrow}{AB}\\neq\\overset{\\rightarrow}{OA}-\\overset{\\rightarrow}{OB}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **correct **equation is $\\overset{\\rightarrow}{AB}=\\overset{\\rightarrow}{OB}-\\overset{\\rightarrow}{OA}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\overset{\\rightarrow}{AB}=\\overset{\\rightarrow}{OA}-\\overset{\\rightarrow}{OB}$\n",
+   "back_md": "**False.**\n\n$\\overset{\\rightarrow}{AB}\\neq\\overset{\\rightarrow}{OA}-\\overset{\\rightarrow}{OB}$\n\nThe **correct **equation is $\\overset{\\rightarrow}{AB}=\\overset{\\rightarrow}{OB}-\\overset{\\rightarrow}{OA}$.\n",
+   "spec_links": [],
+   "flags": []
+  },
+  {
+   "id": "fl_4yf45M8KjTFGRVs8",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you show that `\\begin{pmatrix} 9 \\\\ - 3 \\end{pmatrix}` and `\\begin{pmatrix} - 6 \\\\ 2 \\end{pmatrix}` are parallel?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Factorise** each of them: `\\begin{pmatrix} 9 \\\\ - 3 \\end{pmatrix} = 3 \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}` and `\\begin{pmatrix} - 6 \\\\ 2 \\end{pmatrix} = - 2 \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both turn out to be multiples of the same vector, and that is what shows they are parallel."
+    }
+   ],
+   "front_md": "How do you show that `\\begin{pmatrix} 9 \\\\ - 3 \\end{pmatrix}` and `\\begin{pmatrix} - 6 \\\\ 2 \\end{pmatrix}` are parallel?\n",
+   "back_md": "**Factorise** each of them: `\\begin{pmatrix} 9 \\\\ - 3 \\end{pmatrix} = 3 \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}` and `\\begin{pmatrix} - 6 \\\\ 2 \\end{pmatrix} = - 2 \\begin{pmatrix} 3 \\\\ - 1 \\end{pmatrix}`.\n\nBoth turn out to be multiples of the same vector, and that is what shows they are parallel.\n",
+   "spec_links": [
+    "spcpt_9Y69tw58MFQvdBvT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jgSjrgfdTH2jNvpq",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $a$ and $b$ are parallel, what equation can you write down?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Introduce a scalar $k$ and write $a = k b$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That turns a statement about direction into an equation you can actually solve for unknown components."
+    }
+   ],
+   "front_md": "If $a$ and $b$ are parallel, what equation can you write down?\n",
+   "back_md": "Introduce a scalar $k$ and write $a = k b$.\n\nThat turns a statement about direction into an equation you can actually solve for unknown components.\n",
+   "spec_links": [
+    "spcpt_9Y69tw58MFQvdBvT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BjGRFgz6JWKQ8TvS",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two vectors pointing in exactly opposite directions are still parallel."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "One of them is a **negative** scalar multiple of the other, and that still counts as parallel."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `\\begin{pmatrix} 2 \\\\ - 4 \\end{pmatrix}` and `\\begin{pmatrix} - 3 \\\\ 6 \\end{pmatrix}` are parallel, because the second is $- 1 . 5$ times the first."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo vectors pointing in exactly opposite directions are still parallel.\n",
+   "back_md": "**True.**\n\nOne of them is a **negative** scalar multiple of the other, and that still counts as parallel.\n\nFor example `\\begin{pmatrix} 2 \\\\ - 4 \\end{pmatrix}` and `\\begin{pmatrix} - 3 \\\\ 6 \\end{pmatrix}` are parallel, because the second is $- 1 . 5$ times the first.\n",
+   "spec_links": [
+    "spcpt_9Y69tw58MFQvdBvT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tKjFpFyPmjgpHs5n",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **unit vector**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A unit vector is a vector whose **modulus is 1**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It carries a direction but no size beyond that, so it is the natural way to describe a direction on its own."
+    }
+   ],
+   "front_md": "Define a **unit vector**.\n",
+   "back_md": "A unit vector is a vector whose **modulus is 1**.\n\nIt carries a direction but no size beyond that, so it is the natural way to describe a direction on its own.\n",
+   "spec_links": [
+    "spcpt_tmkXtCpJ4srbmNZM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XJhTryqP7bZWS7jp",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for a unit vector in the direction of $a$."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\mathbf{a}}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\mathbf{a}}{\\left|\\mathbf{a}\\right|}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing a vector by its own modulus scales its length to exactly 1 while leaving its direction untouched."
+    }
+   ],
+   "front_md": "Complete the rule for a unit vector in the direction of $a$.\n\n`\\frac{\\mathbf{a}}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed rule is:\n\n`\\frac{\\mathbf{a}}{\\left|\\mathbf{a}\\right|}`\n\nDividing a vector by its own modulus scales its length to exactly 1 while leaving its direction untouched.\n",
+   "spec_links": [
+    "spcpt_tmkXtCpJ4srbmNZM"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2sJCKXKJWMfgmV98",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the unit vector in the direction of `\\begin{pmatrix} 3 \\\\ - 4 \\end{pmatrix}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its modulus is `\\sqrt{3^{2} + \\left(- 4\\right)^{2}} = 5`, so divide each component by 5."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `\\begin{pmatrix} \\frac{3}{5} \\\\ - \\frac{4}{5} \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "What is the unit vector in the direction of `\\begin{pmatrix} 3 \\\\ - 4 \\end{pmatrix}`?\n",
+   "back_md": "Its modulus is `\\sqrt{3^{2} + \\left(- 4\\right)^{2}} = 5`, so divide each component by 5.\n\nThat gives `\\begin{pmatrix} \\frac{3}{5} \\\\ - \\frac{4}{5} \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_tmkXtCpJ4srbmNZM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GTRVKYFSdXF2Nnt4",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_ZZpyZqXKPYbmtY7T",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can a unit vector have surds in its components?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the modulus you divide by is often not a whole number, and dividing by a surd leaves one behind."
+    },
+    {
+     "type": "paragraph",
+     "md": "The unit vector in the direction of `\\begin{pmatrix} - 2 \\\\ 5 \\end{pmatrix}` is `\\begin{pmatrix} - \\frac{2}{\\sqrt{29}} \\\\ \\frac{5}{\\sqrt{29}} \\end{pmatrix}`, and that is an exact answer rather than an unfinished one."
+    }
+   ],
+   "front_md": "Why can a unit vector have surds in its components?\n",
+   "back_md": "Because the modulus you divide by is often not a whole number, and dividing by a surd leaves one behind.\n\nThe unit vector in the direction of `\\begin{pmatrix} - 2 \\\\ 5 \\end{pmatrix}` is `\\begin{pmatrix} - \\frac{2}{\\sqrt{29}} \\\\ \\frac{5}{\\sqrt{29}} \\end{pmatrix}`, and that is an exact answer rather than an unfinished one.\n",
+   "spec_links": [
+    "spcpt_tmkXtCpJ4srbmNZM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dmWgGTNKKX9QpVvY",
+   "card_type": "true_or_false",
+   "order": 0,
+   "set_id": "flst_xPbTrDvWnScKBGpJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overset{\\rightarrow}{AB}+\\overset{\\rightarrow}{BC}=\\overset{\\rightarrow}{AC}$"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overset{\\rightarrow}{AB}+\\overset{\\rightarrow}{BC}=\\overset{\\rightarrow}{AC}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "This means if you start at A then go to B and then go to C, this is the **same vector** as starting at A and going to C."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\overset{\\rightarrow}{AB}+\\overset{\\rightarrow}{BC}=\\overset{\\rightarrow}{AC}$\n",
+   "back_md": "**True.**\n\n$\\overset{\\rightarrow}{AB}+\\overset{\\rightarrow}{BC}=\\overset{\\rightarrow}{AC}$\n\nThis means if you start at A then go to B and then go to C, this is the **same vector** as starting at A and going to C.\n",
+   "spec_links": [],
+   "flags": []
+  },
+  {
+   "id": "fl_fV8bNcHP8bPj7CQC",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_xPbTrDvWnScKBGpJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How else could you write the vector $-\\overset{\\rightarrow}{AB}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The vector $-\\overset{\\rightarrow}{AB}$ can also be written as $\\overset{\\rightarrow}{BA}$."
+    }
+   ],
+   "front_md": "How else could you write the vector $-\\overset{\\rightarrow}{AB}$?\n",
+   "back_md": "The vector $-\\overset{\\rightarrow}{AB}$ can also be written as $\\overset{\\rightarrow}{BA}$.\n",
+   "spec_links": [],
+   "flags": []
+  },
+  {
+   "id": "fl_f2N65SKZhxDDP3Qt",
+   "card_type": "true_or_false",
+   "order": 0,
+   "set_id": "flst_C95pHsdFDzm2237P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If two vectors are **parallel**, then they are **scalar multiples**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If two vectors are **parallel**, then they are **scalar multiples**."
+    },
+    {
+     "type": "paragraph",
+     "md": "E.g. the vectors $3a$ and $12a$ are parallel."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf two vectors are **parallel**, then they are **scalar multiples**.\n",
+   "back_md": "**True.**\n\nIf two vectors are **parallel**, then they are **scalar multiples**.\n\nE.g. the vectors $3a$ and $12a$ are parallel.\n",
+   "spec_links": [],
+   "flags": []
+  },
+  {
+   "id": "fl_BhZ7fPM5J2V4MM9B",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_C95pHsdFDzm2237P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the point P **divides **the line AB in the ratio 1 : 3, then $\\overset{\\rightarrow}{AP}=\\frac{1}{3}\\overset{\\rightarrow}{AB}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the point P **divides **the line AB in the ratio 1 : 3, then $\\overset{\\rightarrow}{AP}\\neq\\frac{1}{3}\\overset{\\rightarrow}{AB}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "P divides the line into 4 equal parts, with 1 part on one side, and 3 parts on the other side."
+    },
+    {
+     "type": "paragraph",
+     "md": "The correct equation is $\\overset{\\rightarrow}{AP}=\\frac{1}{4}\\overset{\\rightarrow}{AB}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf the point P **divides **the line AB in the ratio 1 : 3, then $\\overset{\\rightarrow}{AP}=\\frac{1}{3}\\overset{\\rightarrow}{AB}$.\n",
+   "back_md": "**False.**\n\nIf the point P **divides **the line AB in the ratio 1 : 3, then $\\overset{\\rightarrow}{AP}\\neq\\frac{1}{3}\\overset{\\rightarrow}{AB}$.\n\nP divides the line into 4 equal parts, with 1 part on one side, and 3 parts on the other side.\n\nThe correct equation is $\\overset{\\rightarrow}{AP}=\\frac{1}{4}\\overset{\\rightarrow}{AB}$.\n",
+   "spec_links": [],
+   "flags": []
+  },
+  {
+   "id": "fl_bvrgQcnTkJC2trGN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_C95pHsdFDzm2237P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If the vectors $\\overset{\\rightarrow}{AB}$ and $\\overset{\\rightarrow}{AC}$ are **parallel**, what does this tell you about the **three points**, $A$, $B$ and $C$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If the vectors $\\overset{\\rightarrow}{AB}$ and $\\overset{\\rightarrow}{AC}$ are **parallel**, then the **three points** $A$, $B$ and $C$ all lie on the **same straight line**."
+    }
+   ],
+   "front_md": "If the vectors $\\overset{\\rightarrow}{AB}$ and $\\overset{\\rightarrow}{AC}$ are **parallel**, what does this tell you about the **three points**, $A$, $B$ and $C$?\n",
+   "back_md": "If the vectors $\\overset{\\rightarrow}{AB}$ and $\\overset{\\rightarrow}{AC}$ are **parallel**, then the **three points** $A$, $B$ and $C$ all lie on the **same straight line**.\n",
+   "spec_links": [],
+   "flags": []
+  },
+  {
+   "id": "fl_TF7QdfvkV4pPVWPq",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_C95pHsdFDzm2237P",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Points *A* and *B* have position vectors $a$ and $b$, respectively."
+    },
+    {
+     "type": "paragraph",
+     "md": "Write a **formula **for the **position vector** of the **midpoint **of *A* and *B* in terms of  $a$ and $b$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Points *A* and *B* have position vectors $a$ and $b$, respectively."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **formula **for the **position vector** of the **midpoint **of *A* and *B* is `1 half open parentheses bold a plus bold b close parentheses`."
+    }
+   ],
+   "front_md": "Points *A* and *B* have position vectors $a$ and $b$, respectively.\n\nWrite a **formula **for the **position vector** of the **midpoint **of *A* and *B* in terms of  $a$ and $b$.\n",
+   "back_md": "Points *A* and *B* have position vectors $a$ and $b$, respectively.\n\nA **formula **for the **position vector** of the **midpoint **of *A* and *B* is `1 half open parentheses bold a plus bold b close parentheses`.\n",
+   "spec_links": [],
+   "flags": []
+  }
+ ]
+}

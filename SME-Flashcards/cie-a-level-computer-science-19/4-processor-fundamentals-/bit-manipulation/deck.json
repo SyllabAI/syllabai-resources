@@ -1,0 +1,471 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:36Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/4-processor-fundamentals-/bit-manipulation/",
+  "section_slug": "4-processor-fundamentals-",
+  "section_name": "4. Processor Fundamentals",
+  "topic_slug": "bit-manipulation",
+  "title": "Bit Manipulation",
+  "order": 2
+ },
+ "card_count": 18,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 14,
+  "fill_in_the_blanks": 1,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 18,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_3FNjz8JM2rBNkpQc",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **binary shift**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary shift is an operation that **moves all the bits in a binary number left or right** by a certain number of positions."
+    }
+   ],
+   "front_md": "Define **binary shift**.\n",
+   "back_md": "A binary shift is an operation that **moves all the bits in a binary number left or right** by a certain number of positions.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2bjrHZhZWK8ZvXdn",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are binary shifts often used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Fast multiplication or division by powers of 2**, or for **manipulating individual bits**."
+    }
+   ],
+   "front_md": "What are binary shifts often used for?\n",
+   "back_md": "**Fast multiplication or division by powers of 2**, or for **manipulating individual bits**.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VGZVfBSNKcr25xsD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three main types of binary shift."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Logical**, **arithmetic** and **cyclic**."
+    }
+   ],
+   "front_md": "Name the three main types of binary shift.\n",
+   "back_md": "**Logical**, **arithmetic** and **cyclic**.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kNmpv8w9fk9cC79d",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a logical shift fill the gap with, and what is it used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It fills the gap with **0s**, and is used for **unsigned binary numbers** or raw bit manipulation."
+    }
+   ],
+   "front_md": "What does a logical shift fill the gap with, and what is it used for?\n",
+   "back_md": "It fills the gap with **0s**, and is used for **unsigned binary numbers** or raw bit manipulation.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8W2qg2xsn3XRkrMT",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is 0000 1110 after a logical left shift of 2, in binary and denary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**0011 1000**, which is **56** — the original 0000 1110 is 14, and each left shift doubles it."
+    }
+   ],
+   "front_md": "What is 0000 1110 after a logical left shift of 2, in binary and denary?\n",
+   "back_md": "**0011 1000**, which is **56** — the original 0000 1110 is 14, and each left shift doubles it.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M9ZGJp2FJ6mhKHj7",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is 1100 1000 after a logical right shift of 3, in binary and denary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**0001 1001**, which is **25** — the original 1100 1000 is 200, and each right shift halves it."
+    }
+   ],
+   "front_md": "What is 1100 1000 after a logical right shift of 3, in binary and denary?\n",
+   "back_md": "**0001 1001**, which is **25** — the original 1100 1000 is 200, and each right shift halves it.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZB4wbCTMf3xKHZDq",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does an arithmetic right shift preserve, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **copies the sign bit (MSB) into the new leftmost bit**, so that **signed numbers in two's complement keep their sign**."
+    }
+   ],
+   "front_md": "What does an arithmetic right shift preserve, and why?\n",
+   "back_md": "It **copies the sign bit (MSB) into the new leftmost bit**, so that **signed numbers in two's complement keep their sign**.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9M7mHhnm59dkBwyp",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is 1110 1000 after an arithmetic right shift of 3, in binary and denary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1111 1101**, which is **−3** — the original 1110 1000 is −24, and each arithmetic right shift divides by 2."
+    }
+   ],
+   "front_md": "What is 1110 1000 after an arithmetic right shift of 3, in binary and denary?\n",
+   "back_md": "**1111 1101**, which is **−3** — the original 1110 1000 is −24, and each arithmetic right shift divides by 2.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zrR7R2cGrDW8tPdS",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does an arithmetic left shift differ from a logical left shift?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It does **not differ** — an arithmetic left shift is the **same as a logical left shift**, shifting left with a 0 coming in."
+    }
+   ],
+   "front_md": "How does an arithmetic left shift differ from a logical left shift?\n",
+   "back_md": "It does **not differ** — an arithmetic left shift is the **same as a logical left shift**, shifting left with a 0 coming in.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cw3Ss9fn2tPQCYHs",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens to the bits in a cyclic shift?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The bits are **rotated around** — **nothing is lost and no 0s are added** — because the bit that falls off one end is **reused at the other end**."
+    }
+   ],
+   "front_md": "What happens to the bits in a cyclic shift?\n",
+   "back_md": "The bits are **rotated around** — **nothing is lost and no 0s are added** — because the bit that falls off one end is **reused at the other end**.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2WRXCSRysPKM6Dg9",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is 1011 0001 after a cyclic left shift of 3, in binary and denary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1000 1101**, which is **141** — the three leftmost bits 101 wrap around to the right side."
+    }
+   ],
+   "front_md": "What is 1011 0001 after a cyclic left shift of 3, in binary and denary?\n",
+   "back_md": "**1000 1101**, which is **141** — the three leftmost bits 101 wrap around to the right side.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fkMQrMQHdQdj89zy",
+   "card_type": "fill_in_the_blanks",
+   "order": 11,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Cyclic shifts do <u>**            **</u> preserve the sign bit, and are not equivalent to multiplying or dividing by powers of two."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Cyclic shifts do **not** preserve the sign bit, and are not equivalent to multiplying or dividing by powers of two."
+    }
+   ],
+   "front_md": "Cyclic shifts do <u>**            **</u> preserve the sign bit, and are not equivalent to multiplying or dividing by powers of two.\n",
+   "back_md": "Cyclic shifts do **not** preserve the sign bit, and are not equivalent to multiplying or dividing by powers of two.\n",
+   "spec_links": [
+    "spcpt_PwG2t8r8YrZZ4Hbd"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_X4QvPmvVxRtXyk3J",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **bit masking**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Bit masking uses **binary patterns (masks)** to **test, set, clear or toggle specific bits without affecting the others**."
+    }
+   ],
+   "front_md": "Define **bit masking**.\n",
+   "back_md": "Bit masking uses **binary patterns (masks)** to **test, set, clear or toggle specific bits without affecting the others**.\n",
+   "spec_links": [
+    "spcpt_524dyCyXXWhkGfNr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dVsmH2GXKSG2ggNQ",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is bitwise AND used for in device control?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **test whether a specific bit is set to 1**, since it only returns 1 when **both the value and the mask have 1 in the same position** — useful for checking a device's status."
+    }
+   ],
+   "front_md": "What is bitwise AND used for in device control?\n",
+   "back_md": "To **test whether a specific bit is set to 1**, since it only returns 1 when **both the value and the mask have 1 in the same position** — useful for checking a device's status.\n",
+   "spec_links": [
+    "spcpt_524dyCyXXWhkGfNr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n2zb4DW95gGGfmJn",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is bitwise OR used for in device control?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **set specific bits to 1**, since it returns 1 if **either the value or the mask has 1** — useful for **turning a device on** without changing the others."
+    }
+   ],
+   "front_md": "What is bitwise OR used for in device control?\n",
+   "back_md": "To **set specific bits to 1**, since it returns 1 if **either the value or the mask has 1** — useful for **turning a device on** without changing the others.\n",
+   "spec_links": [
+    "spcpt_524dyCyXXWhkGfNr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4JJmJr4FDrYWv4f3",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is bitwise XOR used for in device control?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **toggle or flip specific bits**, since it returns 1 if the bits are **different** — useful for switching a device from ON to OFF or back."
+    }
+   ],
+   "front_md": "What is bitwise XOR used for in device control?\n",
+   "back_md": "To **toggle or flip specific bits**, since it returns 1 if the bits are **different** — useful for switching a device from ON to OFF or back.\n",
+   "spec_links": [
+    "spcpt_524dyCyXXWhkGfNr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HgSQ8dQV53wSCmfQ",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can a single byte represent the state of several devices?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Each bit** in the byte can represent the **state of a device or feature**, such as a light being on, a sensor being active, or an error being flagged."
+    }
+   ],
+   "front_md": "How can a single byte represent the state of several devices?\n",
+   "back_md": "**Each bit** in the byte can represent the **state of a device or feature**, such as a light being on, a sensor being active, or an error being flagged.\n",
+   "spec_links": [
+    "spcpt_524dyCyXXWhkGfNr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WdK7gHTs2xRVXK5D",
+   "card_type": "true_or_false",
+   "order": 17,
+   "set_id": "flst_3BmjqsrJvGrF9rfx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Applying a mask with bitwise AND changes the bits that the mask has 0s in."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Masking tests, sets or toggles the targeted bits **without affecting the others** — an AND with a 0 in the mask simply returns 0 for that position, leaving the value untested there rather than altering the original."
+    }
+   ],
+   "front_md": "**True or False?**\n\nApplying a mask with bitwise AND changes the bits that the mask has 0s in.\n",
+   "back_md": "**False.**\n\nMasking tests, sets or toggles the targeted bits **without affecting the others** — an AND with a 0 in the mask simply returns 0 for that position, leaving the value untested there rather than altering the original.\n",
+   "spec_links": [
+    "spcpt_524dyCyXXWhkGfNr"
+   ],
+   "flags": []
+  }
+ ]
+}

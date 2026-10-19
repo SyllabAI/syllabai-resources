@@ -1,0 +1,215 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:25Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/differentiation/further-applications-of-differentiation/",
+  "section_slug": "differentiation",
+  "section_name": "Differentiation",
+  "topic_slug": "further-applications-of-differentiation",
+  "title": "Further Applications of Differentiation",
+  "order": 0
+ },
+ "card_count": 6,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 1,
+  "question_and_answer": 3,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 6,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_48MVk6PJxM5RvTwS",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_W3Y6shyZHDg68ZGS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **connected rates of change**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A situation involving more than two variables, where the **chain rule** links several rates of change into a single equation."
+    },
+    {
+     "type": "paragraph",
+     "md": "The rate you actually want is usually built out of rates you can find, rather than being available directly."
+    }
+   ],
+   "front_md": "Define **connected rates of change**.\n",
+   "back_md": "A situation involving more than two variables, where the **chain rule** links several rates of change into a single equation.\n\nThe rate you actually want is usually built out of rates you can find, rather than being available directly.\n",
+   "spec_links": [
+    "spcpt_C6Fzf2sj3cytTWq5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bdSCMBgCXnwyD6HT",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_W3Y6shyZHDg68ZGS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the chain rule linking three rates of change:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} V}{\\text{d} t} = \\frac{\\text{d} V}{\\text{d} r} \\times \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed chain is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}V}{\\text{d}t} = \\frac{\\text{d}V}{\\text{d}r} \\times \\frac{\\text{d}r}{\\text{d}t}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two inner letters cancel in the way they would in ordinary fractions, which is a quick check that the right rates have been chained together."
+    }
+   ],
+   "front_md": "Complete the chain rule linking three rates of change:\n\n`\\frac{\\text{d} V}{\\text{d} t} = \\frac{\\text{d} V}{\\text{d} r} \\times \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed chain is:\n\n$\\frac{\\text{d}V}{\\text{d}t} = \\frac{\\text{d}V}{\\text{d}r} \\times \\frac{\\text{d}r}{\\text{d}t}$\n\nThe two inner letters cancel in the way they would in ordinary fractions, which is a quick check that the right rates have been chained together.\n",
+   "spec_links": [
+    "spcpt_C6Fzf2sj3cytTWq5"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_3rr3jpV8tmmMDhJm",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_W3Y6shyZHDg68ZGS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where does the middle rate of change in a chain usually come from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Differentiating a formula**, either one the question supplies or one you are expected to know."
+    },
+    {
+     "type": "paragraph",
+     "md": "A sphere's $V = \\frac{4}{3} π r^{3}$, for instance, differentiates to give $\\frac{\\text{d}V}{\\text{d}r}$."
+    }
+   ],
+   "front_md": "Where does the middle rate of change in a chain usually come from?\n",
+   "back_md": "**Differentiating a formula**, either one the question supplies or one you are expected to know.\n\nA sphere's $V = \\frac{4}{3} π r^{3}$, for instance, differentiates to give $\\frac{\\text{d}V}{\\text{d}r}$.\n",
+   "spec_links": [
+    "spcpt_C6Fzf2sj3cytTWq5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M9QjKPrbbfVVJfSH",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_W3Y6shyZHDg68ZGS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must you be clear which letters are variables and which are constants?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the two behave completely differently under differentiation: a constant disappears, while a variable does not."
+    },
+    {
+     "type": "paragraph",
+     "md": "Treating a fixed radius as a variable, or the other way round, changes the derivative entirely."
+    }
+   ],
+   "front_md": "Why must you be clear which letters are variables and which are constants?\n",
+   "back_md": "Because the two behave completely differently under differentiation: a constant disappears, while a variable does not.\n\nTreating a fixed radius as a variable, or the other way round, changes the derivative entirely.\n",
+   "spec_links": [
+    "spcpt_C6Fzf2sj3cytTWq5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7pyBNVGvCZBs29Yj",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_W3Y6shyZHDg68ZGS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the role of connected rates of change in a differential equation problem?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are how the equation gets **set up** from the information given."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving it afterwards is a separate matter of integration, and assembling the right chain of rates is often the harder half."
+    }
+   ],
+   "front_md": "What is the role of connected rates of change in a differential equation problem?\n",
+   "back_md": "They are how the equation gets **set up** from the information given.\n\nSolving it afterwards is a separate matter of integration, and assembling the right chain of rates is often the harder half.\n",
+   "spec_links": [
+    "spcpt_C6Fzf2sj3cytTWq5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4m4tYqkD3SsGVTRX",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_W3Y6shyZHDg68ZGS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A rate of change is always a rate with respect to time."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A rate of change is with respect to whatever variable sits underneath, so $\\frac{\\text{d}V}{\\text{d}r}$ is a rate with respect to **radius**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rates with respect to time are simply the commonest kind in these particular problems."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA rate of change is always a rate with respect to time.\n",
+   "back_md": "**False.**\n\nA rate of change is with respect to whatever variable sits underneath, so $\\frac{\\text{d}V}{\\text{d}r}$ is a rate with respect to **radius**.\n\nRates with respect to time are simply the commonest kind in these particular problems.\n",
+   "spec_links": [
+    "spcpt_C6Fzf2sj3cytTWq5"
+   ],
+   "flags": []
+  }
+ ]
+}

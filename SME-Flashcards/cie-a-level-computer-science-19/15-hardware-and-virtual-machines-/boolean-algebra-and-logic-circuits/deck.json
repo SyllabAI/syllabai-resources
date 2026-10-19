@@ -1,0 +1,2325 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:29Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/15-hardware-and-virtual-machines-/boolean-algebra-and-logic-circuits/",
+  "section_slug": "15-hardware-and-virtual-machines-",
+  "section_name": "15. Hardware & Virtual Machines",
+  "topic_slug": "boolean-algebra-and-logic-circuits",
+  "title": "Boolean Algebra & Logic Circuits",
+  "order": 1
+ },
+ "card_count": 91,
+ "card_types": {
+  "keyword_definition": 5,
+  "question_and_answer": 70,
+  "fill_in_the_blanks": 8,
+  "true_or_false": 8
+ },
+ "spec_link_cards": 91,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_YYFJSmCqMxmhpDyT",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **half adder**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A half adder is a **basic digital circuit** that performs the **addition of two single bit numbers**."
+    }
+   ],
+   "front_md": "Define **half adder**.\n",
+   "back_md": "A half adder is a **basic digital circuit** that performs the **addition of two single bit numbers**.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mXk5HbGytTVHXptC",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the inputs and outputs of a half adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two inputs, **A** and **B**, and two outputs, **Carry out (Cout)** and **Sum (S)**."
+    }
+   ],
+   "front_md": "What are the inputs and outputs of a half adder?\n",
+   "back_md": "Two inputs, **A** and **B**, and two outputs, **Carry out (Cout)** and **Sum (S)**.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6BKr9hmskH6P9wMQ",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which gate produces the Sum in a half adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **XOR** gate, so `S = A XOR B`."
+    }
+   ],
+   "front_md": "Which gate produces the Sum in a half adder?\n",
+   "back_md": "An **XOR** gate, so `S = A XOR B`.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xj85GMWjNS6JYYZQ",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a half adder, the Sum output is A <u>**        **</u> B."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a half adder, the Sum output is A **XOR** B."
+    }
+   ],
+   "front_md": "In a half adder, the Sum output is A <u>**        **</u> B.\n",
+   "back_md": "In a half adder, the Sum output is A **XOR** B.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_m9kmMWGSWSGfTks9",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which gate produces the Carry in a half adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **AND** gate, so `Cout = A AND B`."
+    }
+   ],
+   "front_md": "Which gate produces the Carry in a half adder?\n",
+   "back_md": "An **AND** gate, so `Cout = A AND B`.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RZCdRn7ffrgByXhS",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a half adder, what are Cout and S when A = 0 and B = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`0 + 1 = 1`, which is `01` in two bits, so **Cout = 0 and S = 1**."
+    }
+   ],
+   "front_md": "In a half adder, what are Cout and S when A = 0 and B = 1?\n",
+   "back_md": "`0 + 1 = 1`, which is `01` in two bits, so **Cout = 0 and S = 1**.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BddFzmm25X4WjY8K",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a half adder, what are Cout and S when A = 1 and B = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`1 + 1 = 2`, which is `10` in two bits, so **Cout = 1 and S = 0**."
+    }
+   ],
+   "front_md": "In a half adder, what are Cout and S when A = 1 and B = 1?\n",
+   "back_md": "`1 + 1 = 2`, which is `10` in two bits, so **Cout = 1 and S = 0**.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xSKfr6Zxn5rPs3b6",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the quick way to build the half adder truth table?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For each row, **add A and B together** and write the answer as a **2-bit binary number** in the Cout and S columns."
+    }
+   ],
+   "front_md": "What is the quick way to build the half adder truth table?\n",
+   "back_md": "For each row, **add A and B together** and write the answer as a **2-bit binary number** in the Cout and S columns.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9tVX2HqY9RpfWDYf",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A half adder can add three bits."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A half adder adds **two single-bit numbers**. It is a **full adder** that handles three bits."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA half adder can add three bits.\n",
+   "back_md": "**False.**\n\nA half adder adds **two single-bit numbers**. It is a **full adder** that handles three bits.\n",
+   "spec_links": [
+    "spcpt_YPzqqCF8T2nQfgs7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PrWS5vtCWP3jZ2bx",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **full adder**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A full adder **extends the half adder to handle the addition of three bits**."
+    }
+   ],
+   "front_md": "Define **full adder**.\n",
+   "back_md": "A full adder **extends the half adder to handle the addition of three bits**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dgcBzdssVBbfdpV9",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the inputs and outputs of a full adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Three inputs, **A**, **B** and **carry in (Cin)**, and two outputs, **carry out (Cout)** and **sum (S)**."
+    }
+   ],
+   "front_md": "What are the inputs and outputs of a full adder?\n",
+   "back_md": "Three inputs, **A**, **B** and **carry in (Cin)**, and two outputs, **carry out (Cout)** and **sum (S)**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SHVfRpgvRwRt7FwF",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the Sum output of a full adder provide?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **XOR of the inputs A, B and Cin**."
+    }
+   ],
+   "front_md": "What does the Sum output of a full adder provide?\n",
+   "back_md": "The **XOR of the inputs A, B and Cin**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3zz6qm7tjsYgD8yD",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is the Carry output of a full adder TRUE?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When **at least two of the inputs** A, B and Cin are TRUE."
+    }
+   ],
+   "front_md": "When is the Carry output of a full adder TRUE?\n",
+   "back_md": "When **at least two of the inputs** A, B and Cin are TRUE.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X8QJcBBBydJBvyR9",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a full adder, Cout is 1 only when all three inputs are 1."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Cout is TRUE when **at least two** of the three inputs are TRUE."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a full adder, Cout is 1 only when all three inputs are 1.\n",
+   "back_md": "**False.**\n\nCout is TRUE when **at least two** of the three inputs are TRUE.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rpqBQNCGx7JX7SRF",
+   "card_type": "fill_in_the_blanks",
+   "order": 14,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a full adder the three inputs are added, so the answer can be 0, 1, 2 or <u>**        **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a full adder the three inputs are added, so the answer can be 0, 1, 2 or **3**."
+    }
+   ],
+   "front_md": "In a full adder the three inputs are added, so the answer can be 0, 1, 2 or <u>**        **</u>.\n",
+   "back_md": "In a full adder the three inputs are added, so the answer can be 0, 1, 2 or **3**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_bKTmG6tB44D85Kkn",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a full adder, what are Cout and S when A = 0, B = 1 and Cin = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`0 + 1 + 1 = 2`, which is `10` in binary, so **Cout = 1 and S = 0**."
+    }
+   ],
+   "front_md": "In a full adder, what are Cout and S when A = 0, B = 1 and Cin = 1?\n",
+   "back_md": "`0 + 1 + 1 = 2`, which is `10` in binary, so **Cout = 1 and S = 0**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z7Mdf9k2qQYcj5sV",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a full adder, what are Cout and S when A = 1, B = 1 and Cin = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`1 + 1 + 1 = 3`, which is `11` in binary, so **Cout = 1 and S = 1**."
+    }
+   ],
+   "front_md": "In a full adder, what are Cout and S when A = 1, B = 1 and Cin = 1?\n",
+   "back_md": "`1 + 1 + 1 = 3`, which is `11` in binary, so **Cout = 1 and S = 1**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nMznBywjWV8GF9c9",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What can a full adder be built from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Two half adders** and an **OR gate**."
+    }
+   ],
+   "front_md": "What can a full adder be built from?\n",
+   "back_md": "**Two half adders** and an **OR gate**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jPdRj6gH7TdW9PFT",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the inputs to the first half adder in a full adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**A** and **B**."
+    }
+   ],
+   "front_md": "What are the inputs to the first half adder in a full adder?\n",
+   "back_md": "**A** and **B**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r9y4mVtyPrt7JXSm",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the inputs to the second half adder in a full adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Sum1**, the output of the first half adder's XOR gate, and **Cin**."
+    }
+   ],
+   "front_md": "What are the inputs to the second half adder in a full adder?\n",
+   "back_md": "**Sum1**, the output of the first half adder's XOR gate, and **Cin**.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kWrGm92j7h5qT8hW",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_2TGk79t8VWWnpytv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the final Cout produced in a full adder?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Carry1** and **Carry2** are connected to the inputs of an **OR gate**, and the output of that gate is the final Cout."
+    }
+   ],
+   "front_md": "How is the final Cout produced in a full adder?\n",
+   "back_md": "**Carry1** and **Carry2** are connected to the inputs of an **OR gate**, and the output of that gate is the final Cout.\n",
+   "spec_links": [
+    "spcpt_kp7Pr7pTdrdvZrP9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YZTwFCS26D7kZpzP",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are SR and JK flip flops used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **digital memory components used in sequential circuits**, storing **1 bit of data**."
+    }
+   ],
+   "front_md": "What are SR and JK flip flops used for?\n",
+   "back_md": "They are **digital memory components used in sequential circuits**, storing **1 bit of data**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZVBmyW5D8c9MchTw",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A flip flop stores <u>**        **</u> bit of data."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A flip flop stores **1** bit of data."
+    }
+   ],
+   "front_md": "A flip flop stores <u>**        **</u> bit of data.\n",
+   "back_md": "A flip flop stores **1** bit of data.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_cZcgyMtxK7qxFSBS",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three uses of flip flops."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Counters**, **control systems** and **synchronous logic**."
+    }
+   ],
+   "front_md": "Name three uses of flip flops.\n",
+   "back_md": "**Counters**, **control systems** and **synchronous logic**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qgmdHY9z6tWf5FNv",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **bistable circuit**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bistable circuit has **two stable states**. It responds to clock signals and is often edge-triggered."
+    }
+   ],
+   "front_md": "Define **bistable circuit**.\n",
+   "back_md": "A bistable circuit has **two stable states**. It responds to clock signals and is often edge-triggered.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JDMCRhwDKCQtDWkr",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On which clock edge are flip flops typically triggered?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **rising edge**."
+    }
+   ],
+   "front_md": "On which clock edge are flip flops typically triggered?\n",
+   "back_md": "The **rising edge**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kyTW7dVdSJhJ53yD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does SR stand for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Set** and **Reset**."
+    }
+   ],
+   "front_md": "What does SR stand for?\n",
+   "back_md": "**Set** and **Reset**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PFwrKFd8YjvttzPd",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which gates is an SR flip flop commonly built from in exams?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**NOR** gates."
+    }
+   ],
+   "front_md": "Which gates is an SR flip flop commonly built from in exams?\n",
+   "back_md": "**NOR** gates.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5DfWXNTFZ5XwMNmG",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the inputs and outputs of an SR flip flop."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Inputs are **S (Set)**, **R (Reset)** and **CLK (Clock)** when edge-triggered. Outputs are **Q**, the current stored value, and **NOT(Q)**, its inverse."
+    }
+   ],
+   "front_md": "Name the inputs and outputs of an SR flip flop.\n",
+   "back_md": "Inputs are **S (Set)**, **R (Reset)** and **CLK (Clock)** when edge-triggered. Outputs are **Q**, the current stored value, and **NOT(Q)**, its inverse.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RP9PdBcwjczRCbT3",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a NOR-based SR flip flop, what happens when S = 0 and R = 0?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No change.** The flip flop holds its current value, which is memory mode."
+    }
+   ],
+   "front_md": "In a NOR-based SR flip flop, what happens when S = 0 and R = 0?\n",
+   "back_md": "**No change.** The flip flop holds its current value, which is memory mode.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HnQ66B4KkbwsCX8n",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an SR flip flop, what happens when S = 0 and R = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Reset.** Q becomes **0**."
+    }
+   ],
+   "front_md": "In an SR flip flop, what happens when S = 0 and R = 1?\n",
+   "back_md": "**Reset.** Q becomes **0**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4nnG6d2qWqSMKr9D",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an SR flip flop, what happens when S = 1 and R = 0?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Set.** Q becomes **1**."
+    }
+   ],
+   "front_md": "In an SR flip flop, what happens when S = 1 and R = 0?\n",
+   "back_md": "**Set.** Q becomes **1**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YwDcj42FNChq3F3Z",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a NOR-based SR flip flop, what happens when S = 1 and R = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **forces Q = 0**. Both Q and NOT(Q) are driven to 0."
+    }
+   ],
+   "front_md": "In a NOR-based SR flip flop, what happens when S = 1 and R = 1?\n",
+   "back_md": "It **forces Q = 0**. Both Q and NOT(Q) are driven to 0.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2NKXwDxywvvVbhzc",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a NOR-based SR flip flop, S = 1 and R = 1 is an invalid state."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In **NOR-based** designs it forces **Q = 0**. It is in **NAND-based** designs that this state is undefined."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a NOR-based SR flip flop, S = 1 and R = 1 is an invalid state.\n",
+   "back_md": "**False.**\n\nIn **NOR-based** designs it forces **Q = 0**. It is in **NAND-based** designs that this state is undefined.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HnBxhVXth5BP2Qdx",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An SR flip flop has S = 1, R = 0 and Q = 1. S then changes to 0."
+    },
+    {
+     "type": "paragraph",
+     "md": "What happens to Q?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The flip flop enters **memory mode**, so **Q stays at 1**."
+    }
+   ],
+   "front_md": "An SR flip flop has S = 1, R = 0 and Q = 1. S then changes to 0.\n\nWhat happens to Q?\n",
+   "back_md": "The flip flop enters **memory mode**, so **Q stays at 1**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4C7WG6x7phgxpRY3",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the JK flip flop more versatile than the SR flip flop?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **solves the problem of the SR's illegal state** by using that condition to toggle, and it uses a **clock** to control the exact timing of changes."
+    }
+   ],
+   "front_md": "Why is the JK flip flop more versatile than the SR flip flop?\n",
+   "back_md": "It **solves the problem of the SR's illegal state** by using that condition to toggle, and it uses a **clock** to control the exact timing of changes.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JQCfQtGZHqzXqPkT",
+   "card_type": "fill_in_the_blanks",
+   "order": 15,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The JK flip flop uses a <u>**          **</u> to control the exact timing of changes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The JK flip flop uses a **clock** to control the exact timing of changes."
+    }
+   ],
+   "front_md": "The JK flip flop uses a <u>**          **</u> to control the exact timing of changes.\n",
+   "back_md": "The JK flip flop uses a **clock** to control the exact timing of changes.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_N59cSVgHqFfyYFJv",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a JK flip flop, what happens when J = 0 and K = 0?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No change.** This is memory or hold mode."
+    }
+   ],
+   "front_md": "In a JK flip flop, what happens when J = 0 and K = 0?\n",
+   "back_md": "**No change.** This is memory or hold mode.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x4DDRf4C6KY7PdT7",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a JK flip flop, what happens when J = 0 and K = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Reset.** Q becomes **0**."
+    }
+   ],
+   "front_md": "In a JK flip flop, what happens when J = 0 and K = 1?\n",
+   "back_md": "**Reset.** Q becomes **0**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NKNVmydVmyB4Vnwd",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a JK flip flop, what happens when J = 1 and K = 0?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Set.** Q becomes **1**."
+    }
+   ],
+   "front_md": "In a JK flip flop, what happens when J = 1 and K = 0?\n",
+   "back_md": "**Set.** Q becomes **1**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NcN2brSNPF7zqbQ5",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a JK flip flop, what happens when J = 1 and K = 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **toggles** the output, so Q becomes **NOT(Q)**."
+    }
+   ],
+   "front_md": "In a JK flip flop, what happens when J = 1 and K = 1?\n",
+   "back_md": "It **toggles** the output, so Q becomes **NOT(Q)**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VdCJwRMF9K8k4HfS",
+   "card_type": "true_or_false",
+   "order": 20,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "J = 1 and K = 1 resets the JK flip flop."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It **toggles** the output, so Q becomes NOT(Q)."
+    }
+   ],
+   "front_md": "**True or False?**\n\nJ = 1 and K = 1 resets the JK flip flop.\n",
+   "back_md": "**False.**\n\nIt **toggles** the output, so Q becomes NOT(Q).\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zq5WC5qr6KfZCfwk",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is an SR flip flop typically used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Simple memory** and **control circuits**."
+    }
+   ],
+   "front_md": "What is an SR flip flop typically used for?\n",
+   "back_md": "**Simple memory** and **control circuits**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qh6FdvxK3QFd6gbf",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_HJw9STGbC9Y73Xxg",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a JK flip flop typically used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Toggles**, **counters** and **frequency dividers**."
+    }
+   ],
+   "front_md": "What is a JK flip flop typically used for?\n",
+   "back_md": "**Toggles**, **counters** and **frequency dividers**.\n",
+   "spec_links": [
+    "spcpt_whKGvzDcpchQ4bgY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6NFNwzFbdd9bkWhf",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Boolean algebra**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Boolean algebra is a **mathematical system used to manipulate Boolean values**, allowing complex expressions to be made simpler."
+    }
+   ],
+   "front_md": "Define **Boolean algebra**.\n",
+   "back_md": "Boolean algebra is a **mathematical system used to manipulate Boolean values**, allowing complex expressions to be made simpler.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DjZZMRZrZDDggRGY",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does Boolean algebra compare with Karnaugh maps?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is a **more powerful simplification method**, and can simplify expressions that Karnaugh maps cannot."
+    }
+   ],
+   "front_md": "How does Boolean algebra compare with Karnaugh maps?\n",
+   "back_md": "It is a **more powerful simplification method**, and can simplify expressions that Karnaugh maps cannot.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GBDg52dgZ3btcsSb",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `X AND 0`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**0**. An AND only outputs 1 when **both** inputs are 1, so anything ANDed with 0 is 0 whatever X is."
+    }
+   ],
+   "front_md": "What is `X AND 0`?\n",
+   "back_md": "**0**. An AND only outputs 1 when **both** inputs are 1, so anything ANDed with 0 is 0 whatever X is.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MGNWb4799SZXTVSF",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `X AND 1`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**X**. The output is whatever the value of X is."
+    }
+   ],
+   "front_md": "What is `X AND 1`?\n",
+   "back_md": "**X**. The output is whatever the value of X is.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fPjtYzkj5ZQG6QRQ",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`X AND 1` evaluates to 1."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`X AND 1 = X`, so the output is **whatever the value of X is**."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`X AND 1` evaluates to 1.\n",
+   "back_md": "**False.**\n\n`X AND 1 = X`, so the output is **whatever the value of X is**.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7SxCGKd7WZkcjH9c",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `NOT X AND X`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**0**. X and NOT X always hold **opposite values**, so one input is always 0, and an AND with a 0 input gives 0."
+    }
+   ],
+   "front_md": "What is `NOT X AND X`?\n",
+   "back_md": "**0**. X and NOT X always hold **opposite values**, so one input is always 0, and an AND with a 0 input gives 0.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Pwt5Mhmq2CZjmM4P",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `X OR 0`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**X**. An OR outputs 1 if **either** input is 1, so ORing with 0 leaves the output as whatever X is."
+    }
+   ],
+   "front_md": "What is `X OR 0`?\n",
+   "back_md": "**X**. An OR outputs 1 if **either** input is 1, so ORing with 0 leaves the output as whatever X is.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YV39332RkvcnmGg8",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `X OR 1`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1**. An OR outputs 1 if **either** input is 1, so a 1 input forces the output to 1 whatever X is."
+    }
+   ],
+   "front_md": "What is `X OR 1`?\n",
+   "back_md": "**1**. An OR outputs 1 if **either** input is 1, so a 1 input forces the output to 1 whatever X is.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FhZHSyRx2Rz8p4WC",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `NOT X OR X`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**1**. X and NOT X always hold **opposite values**, so one input is always 1, and an OR with a 1 input gives 1."
+    }
+   ],
+   "front_md": "What is `NOT X OR X`?\n",
+   "back_md": "**1**. X and NOT X always hold **opposite values**, so one input is always 1, and an OR with a 1 input gives 1.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yvK66Y7qn5ZQjNnB",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which symbols represent AND in Boolean notation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`A · B`, or simply `AB`."
+    }
+   ],
+   "front_md": "Which symbols represent AND in Boolean notation?\n",
+   "back_md": "`A · B`, or simply `AB`.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vcZpfZVTzZ8hMDgv",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Boolean notation the dot for AND is often <u>**              **</u>, so `AB` means A AND B."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Boolean notation the dot for AND is often **omitted**, so `AB` means A AND B."
+    }
+   ],
+   "front_md": "In Boolean notation the dot for AND is often <u>**              **</u>, so `AB` means A AND B.\n",
+   "back_md": "In Boolean notation the dot for AND is often **omitted**, so `AB` means A AND B.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_8TjpT4gb6yTZqfFy",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which symbol represents OR in Boolean notation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`A + B`. The plus sign means OR, so `A + B` reads as A OR B."
+    }
+   ],
+   "front_md": "Which symbol represents OR in Boolean notation?\n",
+   "back_md": "`A + B`. The plus sign means OR, so `A + B` reads as A OR B.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SpBDkYMqjrqQ2xmj",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is NOT written in Boolean notation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As `¬A`, as `A'`, or as a **line drawn above** the variable."
+    }
+   ],
+   "front_md": "How is NOT written in Boolean notation?\n",
+   "back_md": "As `¬A`, as `A'`, or as a **line drawn above** the variable.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jHg7y5mg3Sq8KrrS",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a line drawn above a variable or expression mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The value is **inverted or negated**. It is the **NOT** of that value."
+    }
+   ],
+   "front_md": "What does a line drawn above a variable or expression mean?\n",
+   "back_md": "The value is **inverted or negated**. It is the **NOT** of that value.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WFc663NV5TVCjvJm",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `(A + B)·C` mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Do **A OR B first**, then AND the result with C."
+    }
+   ],
+   "front_md": "What does `(A + B)·C` mean?\n",
+   "back_md": "Do **A OR B first**, then AND the result with C.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JH2zWkHGgnKM3j99",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `A · B̅` mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**A AND (NOT B)**. B is negated before the AND operation."
+    }
+   ],
+   "front_md": "What does `A · B̅` mean?\n",
+   "back_md": "**A AND (NOT B)**. B is negated before the AND operation.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VjxNtJdsrs9k53SR",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When an expression has multiple horizontal lines, what is negated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **whole expression**, not just one part of it."
+    }
+   ],
+   "front_md": "When an expression has multiple horizontal lines, what is negated?\n",
+   "back_md": "The **whole expression**, not just one part of it.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_86XDjtKcbk9sYbns",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which line do you apply De Morgan's Law to first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **outermost** line."
+    }
+   ],
+   "front_md": "Which line do you apply De Morgan's Law to first?\n",
+   "back_md": "The **outermost** line.\n",
+   "spec_links": [
+    "spcpt_qB5xbpNWQFbdXBMW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R4w2bzNPzZrjxq7T",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State De Morgan's first law."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**NOT (A AND B)** is equivalent to **(NOT A) OR (NOT B)**."
+    }
+   ],
+   "front_md": "State De Morgan's first law.\n",
+   "back_md": "**NOT (A AND B)** is equivalent to **(NOT A) OR (NOT B)**.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HhH7ngtHJF6c5vSB",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State De Morgan's second law."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**NOT (A OR B)** is equivalent to **(NOT A) AND (NOT B)**."
+    }
+   ],
+   "front_md": "State De Morgan's second law.\n",
+   "back_md": "**NOT (A OR B)** is equivalent to **(NOT A) AND (NOT B)**.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fdgxw6NgM4wQyZPf",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When applying De Morgan's Law, what happens to the operator?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **changes**: AND becomes OR, and OR becomes AND. Both terms are then **negated**."
+    }
+   ],
+   "front_md": "When applying De Morgan's Law, what happens to the operator?\n",
+   "back_md": "It **changes**: AND becomes OR, and OR becomes AND. Both terms are then **negated**.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Ps4YPCxXKnyqT8gY",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Simplify `NOT(A AND B)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**(NOT A) OR (NOT B)**"
+    }
+   ],
+   "front_md": "Simplify `NOT(A AND B)`.\n",
+   "back_md": "**(NOT A) OR (NOT B)**\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VnQ7ZrW8N2ws3H6z",
+   "card_type": "true_or_false",
+   "order": 22,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Applying De Morgan's Law to NOT(A OR B) gives (NOT A) OR (NOT B)."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It gives **(NOT A) AND (NOT B)**. The operator changes when the law is applied."
+    }
+   ],
+   "front_md": "**True or False?**\n\nApplying De Morgan's Law to NOT(A OR B) gives (NOT A) OR (NOT B).\n",
+   "back_md": "**False.**\n\nIt gives **(NOT A) AND (NOT B)**. The operator changes when the law is applied.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rrdQ8NS7bZs83kkF",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are De Morgan's Laws particularly useful for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Rewriting logic circuits using only NAND or NOR gates**."
+    }
+   ],
+   "front_md": "What are De Morgan's Laws particularly useful for?\n",
+   "back_md": "**Rewriting logic circuits using only NAND or NOR gates**.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PpcCy9TCC6P2QFJJ",
+   "card_type": "fill_in_the_blanks",
+   "order": 24,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "De Morgan's Laws allow a circuit to be implemented using only NAND or <u>**        **</u> gates."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "De Morgan's Laws allow a circuit to be implemented using only NAND or **NOR** gates."
+    }
+   ],
+   "front_md": "De Morgan's Laws allow a circuit to be implemented using only NAND or <u>**        **</u> gates.\n",
+   "back_md": "De Morgan's Laws allow a circuit to be implemented using only NAND or **NOR** gates.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GcMCXgVdQybyRkGh",
+   "card_type": "question_and_answer",
+   "order": 25,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two reasons to use De Morgan's Laws."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They make **circuit design more efficient and cost-effective**, and they are essential where **NAND or NOR logic is cheaper or faster** to implement."
+    }
+   ],
+   "front_md": "Give two reasons to use De Morgan's Laws.\n",
+   "back_md": "They make **circuit design more efficient and cost-effective**, and they are essential where **NAND or NOR logic is cheaper or faster** to implement.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K3hVyCPb4DcXxnBf",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_ntDzgYZZPdYrdKs8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where are De Morgan's Laws commonly used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **microprocessor** and **memory device** design, for example flash drives."
+    }
+   ],
+   "front_md": "Where are De Morgan's Laws commonly used?\n",
+   "back_md": "In **microprocessor** and **memory device** design, for example flash drives.\n",
+   "spec_links": [
+    "spcpt_tg2CcHpVKFFNPG6V"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q7BmKmKgr4gvsY8y",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Karnaugh map**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A Karnaugh map is a tool used for **simplifying Boolean algebra expressions**, offering a **visual method of grouping together expressions with common factors**."
+    }
+   ],
+   "front_md": "Define **Karnaugh map**.\n",
+   "back_md": "A Karnaugh map is a tool used for **simplifying Boolean algebra expressions**, offering a **visual method of grouping together expressions with common factors**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KTG3rc7SQxdjJjYT",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What makes a Karnaugh map useful?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The format of the map makes it **easy to identify and eliminate redundant terms**."
+    }
+   ],
+   "front_md": "What makes a Karnaugh map useful?\n",
+   "back_md": "The format of the map makes it **easy to identify and eliminate redundant terms**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qJVQkbnksgPf7bst",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where are Karnaugh maps used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **digital logic design**, such as simplifying the logic of digital circuits."
+    }
+   ],
+   "front_md": "Where are Karnaugh maps used?\n",
+   "back_md": "In **digital logic design**, such as simplifying the logic of digital circuits.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tH5ZYgJ3tvHnpp6d",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the four steps of using a Karnaugh map?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Create the map**, **group the 1s**, **simplify each group**, then **combine the group expressions with OR** to get the final simplified expression."
+    }
+   ],
+   "front_md": "What are the four steps of using a Karnaugh map?\n",
+   "back_md": "**Create the map**, **group the 1s**, **simplify each group**, then **combine the group expressions with OR** to get the final simplified expression.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bVfFnTNv692ntwDT",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does each cell in a Karnaugh map correspond to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **term in the Boolean expression**. Cells are filled with 1s and 0s corresponding to the **output of that term**."
+    }
+   ],
+   "front_md": "What does each cell in a Karnaugh map correspond to?\n",
+   "back_md": "A **term in the Boolean expression**. Cells are filled with 1s and 0s corresponding to the **output of that term**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2wXkbxM7xf5RbX6W",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you fill in a Karnaugh map from an expression?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split the expression at each **OR** into subterms, then put a **1 in every cell where that subterm would be TRUE**."
+    }
+   ],
+   "front_md": "How do you fill in a Karnaugh map from an expression?\n",
+   "back_md": "Split the expression at each **OR** into subterms, then put a **1 in every cell where that subterm would be TRUE**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BP5gQ7Dns22kntmS",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When mapping `A OR B` on a two-variable Karnaugh map, which cells get a 1?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Every cell where **A is 1**, and every cell where **B is 1**."
+    }
+   ],
+   "front_md": "When mapping `A OR B` on a two-variable Karnaugh map, which cells get a 1?\n",
+   "back_md": "Every cell where **A is 1**, and every cell where **B is 1**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_svYfs3KC4pxZNZRM",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What shape must each group on a Karnaugh map be?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **rectangle**."
+    }
+   ],
+   "front_md": "What shape must each group on a Karnaugh map be?\n",
+   "back_md": "A **rectangle**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s8WGDYm6s4GNs6pn",
+   "card_type": "fill_in_the_blanks",
+   "order": 8,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Groups on a Karnaugh map must be <u>**                      **</u> in shape."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Groups on a Karnaugh map must be **rectangular** in shape."
+    }
+   ],
+   "front_md": "Groups on a Karnaugh map must be <u>**                      **</u> in shape.\n",
+   "back_md": "Groups on a Karnaugh map must be **rectangular** in shape.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NnBph2KypX8jm5Rs",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What sizes can a Karnaugh map group be?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The size must be a **power of 2**, so a group contains **8, 4, 2 or 1** ones."
+    }
+   ],
+   "front_md": "What sizes can a Karnaugh map group be?\n",
+   "back_md": "The size must be a **power of 2**, so a group contains **8, 4, 2 or 1** ones.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZcxCFbHHvsFPCPDV",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Karnaugh map groups must have exactly 4 cells."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A group's size must be a **power of 2**, so it can contain **8, 4, 2 or 1** ones."
+    }
+   ],
+   "front_md": "**True or False?**\n\nKarnaugh map groups must have exactly 4 cells.\n",
+   "back_md": "**False.**\n\nA group's size must be a **power of 2**, so it can contain **8, 4, 2 or 1** ones.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rgQPvWWzJStVBpmZ",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How large should Karnaugh map groups be?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**As large as possible**."
+    }
+   ],
+   "front_md": "How large should Karnaugh map groups be?\n",
+   "back_md": "**As large as possible**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XKk9pHCFwPdxTrVm",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A cell on a Karnaugh map can only belong to one group."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "**Groups can overlap**, so a cell can be part of multiple groups."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA cell on a Karnaugh map can only belong to one group.\n",
+   "back_md": "**False.**\n\n**Groups can overlap**, so a cell can be part of multiple groups.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wd4pYnFbvD6nWb9g",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens at the edges of a Karnaugh map?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The grid **wraps round in all directions**, so groups can wrap round."
+    }
+   ],
+   "front_md": "What happens at the edges of a Karnaugh map?\n",
+   "back_md": "The grid **wraps round in all directions**, so groups can wrap round.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gwnfZYfMZsDhxnQQ",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you write the simplified expression for a group?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It consists of the **variables that remain constant** in all the terms in that group."
+    }
+   ],
+   "front_md": "How do you write the simplified expression for a group?\n",
+   "back_md": "It consists of the **variables that remain constant** in all the terms in that group.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vvYpKqTmzhk9HPQV",
+   "card_type": "fill_in_the_blanks",
+   "order": 15,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The simplified expression for a group consists of the variables that remain <u>**                **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The simplified expression for a group consists of the variables that remain **constant**."
+    }
+   ],
+   "front_md": "The simplified expression for a group consists of the variables that remain <u>**                **</u>.\n",
+   "back_md": "The simplified expression for a group consists of the variables that remain **constant**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_CmdYYSJvPS72cMxb",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If a variable changes within a group, what happens to it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **eliminated** from that group's term, because only the variables that stay constant are kept."
+    }
+   ],
+   "front_md": "If a variable changes within a group, what happens to it?\n",
+   "back_md": "It is **eliminated** from that group's term, because only the variables that stay constant are kept.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PQ9JKmYGgZvPtRMY",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a group where A is 1 in every cell, and B and C both change, what does the group represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**A**"
+    }
+   ],
+   "front_md": "In a group where A is 1 in every cell, and B and C both change, what does the group represent?\n",
+   "back_md": "**A**\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PNhWG5hQhBrFqKSW",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a group where B is 0 in every cell, and A and C both change, what does the group represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**NOT B**"
+    }
+   ],
+   "front_md": "In a group where B is 0 in every cell, and A and C both change, what does the group represent?\n",
+   "back_md": "**NOT B**\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gHzq45XRGb7rxhvZ",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_y72MqST7ts265NRf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you build the final simplified expression?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Combine the simplified expressions from each group using OR operations**."
+    }
+   ],
+   "front_md": "How do you build the final simplified expression?\n",
+   "back_md": "**Combine the simplified expressions from each group using OR operations**.\n",
+   "spec_links": [
+    "spcpt_v5FF96rrRjkm65jk"
+   ],
+   "flags": []
+  }
+ ]
+}

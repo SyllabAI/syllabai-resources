@@ -1,0 +1,1479 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:42Z",
+ "course_slug": "ial-maths-20-mechanics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-2/flashcards/centres-of-mass/centres-of-mass/",
+  "section_slug": "centres-of-mass",
+  "section_name": "Centres of Mass",
+  "topic_slug": "centres-of-mass",
+  "title": "Centres of Mass",
+  "order": 0
+ },
+ "card_count": 47,
+ "card_types": {
+  "keyword_definition": 6,
+  "fill_in_the_blanks": 4,
+  "question_and_answer": 32,
+  "true_or_false": 5
+ },
+ "spec_link_cards": 47,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_9346DdJQH35H2Y7z",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **centre of mass** of a system of bodies."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **centre of mass** is the single point at which the total mass of the system can be taken to act as one."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is therefore the point through which the whole weight, $W = m g$, of the system acts."
+    }
+   ],
+   "front_md": "Define the **centre of mass** of a system of bodies.\n",
+   "back_md": "The **centre of mass** is the single point at which the total mass of the system can be taken to act as one.\n\nIt is therefore the point through which the whole weight, $W = m g$, of the system acts.\n",
+   "spec_links": [
+    "spcpt_SbpcKYdQR7mqWw3f",
+    "spcpt_KWhgsKdbVnrJwpt7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mwcgt6mQPSvgWXYT",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Particles of masses $m_{i}$ lie along the $x$-axis at the points `\\left( x_{i}, 0 \\right)`. Fill in the blanks to complete the equation for their centre of mass:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sum m_{i}x_{i} = \\_\\_\\_\\_\\_\\_ \\sum \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed equation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\sum m_{i} x_{i} = \\overline{x} \\sum m_{i}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The left-hand side adds up each mass multiplied by its position, and the right-hand side is the total mass placed at the centre of mass."
+    }
+   ],
+   "front_md": "Particles of masses $m_{i}$ lie along the $x$-axis at the points `\\left( x_{i}, 0 \\right)`. Fill in the blanks to complete the equation for their centre of mass:\n\n`\\sum m_{i}x_{i} = \\_\\_\\_\\_\\_\\_ \\sum \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed equation is:\n\n$\\sum m_{i} x_{i} = \\overline{x} \\sum m_{i}$\n\nThe left-hand side adds up each mass multiplied by its position, and the right-hand side is the total mass placed at the centre of mass.\n",
+   "spec_links": [
+    "spcpt_KWhgsKdbVnrJwpt7"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_gs6s5j2Hsqqfs9Bb",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Particles lie in a two-dimensional plane rather than along a line. What are the two equivalent ways of finding their centre of mass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use **position vectors**: with $r_{i} = x_{i} i + y_{i} j$, solve $\\sum m_{i} r_{i} = \\overline{r} \\sum m_{i}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Or treat the two dimensions **separately**, as two straight-line problems, one giving $\\overline{x}$ and the other $\\overline{y}$."
+    }
+   ],
+   "front_md": "Particles lie in a two-dimensional plane rather than along a line. What are the two equivalent ways of finding their centre of mass?\n",
+   "back_md": "Use **position vectors**: with $r_{i} = x_{i} i + y_{i} j$, solve $\\sum m_{i} r_{i} = \\overline{r} \\sum m_{i}$.\n\nOr treat the two dimensions **separately**, as two straight-line problems, one giving $\\overline{x}$ and the other $\\overline{y}$.\n",
+   "spec_links": [
+    "spcpt_SbpcKYdQR7mqWw3f"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B9dsGBz7MQ9HXpX5",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Tins of paint are placed at points along a plank of wood. When can the plank itself be left out of the calculation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only when the plank is modelled as **light**, so that it has no mass to contribute."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any object connecting the particles has its own mass and its own centre of mass, so unless it is light it shifts the answer and must be included."
+    }
+   ],
+   "front_md": "Tins of paint are placed at points along a plank of wood. When can the plank itself be left out of the calculation?\n",
+   "back_md": "Only when the plank is modelled as **light**, so that it has no mass to contribute.\n\nAny object connecting the particles has its own mass and its own centre of mass, so unless it is light it shifts the answer and must be included.\n",
+   "spec_links": [
+    "spcpt_KWhgsKdbVnrJwpt7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4bfsc3xKsxcYJdvS",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A question gives no axes or origin. What must you do, and what does that mean for your answer?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Create your own axes and origin, and make clear on the diagram where the origin is."
+    },
+    {
+     "type": "paragraph",
+     "md": "The coordinates of the centre of mass are measured **from that origin**, so a bare pair of numbers means nothing until the origin is stated: the answer is normally given as a distance from a named point."
+    }
+   ],
+   "front_md": "A question gives no axes or origin. What must you do, and what does that mean for your answer?\n",
+   "back_md": "Create your own axes and origin, and make clear on the diagram where the origin is.\n\nThe coordinates of the centre of mass are measured **from that origin**, so a bare pair of numbers means nothing until the origin is stated: the answer is normally given as a distance from a named point.\n",
+   "spec_links": [
+    "spcpt_SbpcKYdQR7mqWw3f",
+    "spcpt_KWhgsKdbVnrJwpt7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hMCyQbRfmJDpJNzs",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Three lights of masses 5 kg, 7 kg and 8 kg hang from a light rod at 15 cm, 35 cm and 55 cm from one end. How far from that end is their centre of mass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply each mass by its position, add, and divide by the total mass:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{5\\times15+7\\times35+8\\times55}{5+7+8} = \\frac{760}{20} = 38 \\text{cm}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The rod is light, so it contributes nothing, and 38 cm sits sensibly between the lights and nearer the heavy end."
+    }
+   ],
+   "front_md": "Three lights of masses 5 kg, 7 kg and 8 kg hang from a light rod at 15 cm, 35 cm and 55 cm from one end. How far from that end is their centre of mass?\n",
+   "back_md": "Multiply each mass by its position, add, and divide by the total mass:\n\n$\\frac{5\\times15+7\\times35+8\\times55}{5+7+8} = \\frac{760}{20} = 38 \\text{cm}$\n\nThe rod is light, so it contributes nothing, and 38 cm sits sensibly between the lights and nearer the heavy end.\n",
+   "spec_links": [
+    "spcpt_KWhgsKdbVnrJwpt7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Wcqb8WwYKBKf763B",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A 2.4 kg particle is at $( - 3 , - 2 )$ and a 7.6 kg particle is at $( p , q )$. Given that the centre of mass is at $( 0 . 04 , 3 . 32 )$, find $p$ and $q$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write one equation for each coordinate, using the total mass of 10 kg:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`2.4 \\times \\left( -3 \\right) + 7.6p = 10 \\times 0.04`"
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives $7 . 6 p = 7 . 6$, so $p = 1$; the same working vertically gives $7 . 6 q = 38$, so $q = 5$."
+    }
+   ],
+   "front_md": "A 2.4 kg particle is at $( - 3 , - 2 )$ and a 7.6 kg particle is at $( p , q )$. Given that the centre of mass is at $( 0 . 04 , 3 . 32 )$, find $p$ and $q$.\n",
+   "back_md": "Write one equation for each coordinate, using the total mass of 10 kg:\n\n`2.4 \\times \\left( -3 \\right) + 7.6p = 10 \\times 0.04`\n\nThat gives $7 . 6 p = 7 . 6$, so $p = 1$; the same working vertically gives $7 . 6 q = 38$, so $q = 5$.\n",
+   "spec_links": [
+    "spcpt_SbpcKYdQR7mqWw3f"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VGN9wgY3RJCSyVYf",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_g4j6qpwcWyFSwzcT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The centre of mass of a system of particles always lies between the outermost particles."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The centre of mass is a **weighted average** of the particles' positions, and an average can never fall outside the range of the values it averages."
+    },
+    {
+     "type": "paragraph",
+     "md": "That makes it a useful check: an answer beyond the outermost particle is certainly wrong."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe centre of mass of a system of particles always lies between the outermost particles.\n",
+   "back_md": "**True.**\n\nThe centre of mass is a **weighted average** of the particles' positions, and an average can never fall outside the range of the values it averages.\n\nThat makes it a useful check: an answer beyond the outermost particle is certainly wrong.\n",
+   "spec_links": [
+    "spcpt_KWhgsKdbVnrJwpt7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B3rQp84dvmv2C769",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **lamina**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **lamina** is a body with one dimension very small compared with the other two, so that the third dimension is negligible."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is therefore modelled as a flat, two-dimensional plane: a sheet of card, a sheet of metal or a wall."
+    }
+   ],
+   "front_md": "Define a **lamina**.\n",
+   "back_md": "A **lamina** is a body with one dimension very small compared with the other two, so that the third dimension is negligible.\n\nIt is therefore modelled as a flat, two-dimensional plane: a sheet of card, a sheet of metal or a wall.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b7M47JgcHPPQPpvS",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does it mean for a lamina to be **uniform**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Uniform** means the mass per unit area is the same at every point of the lamina."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its mass is therefore proportional to its area, which is what allows areas to be used in place of masses."
+    }
+   ],
+   "front_md": "What does it mean for a lamina to be **uniform**?\n",
+   "back_md": "**Uniform** means the mass per unit area is the same at every point of the lamina.\n\nIts mass is therefore proportional to its area, which is what allows areas to be used in place of masses.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_djmXmntnyBrCC9PW",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A uniform lamina has one or more axes of symmetry. What does that tell you about its centre of mass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The centre of mass must lie **on** an axis of symmetry."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the shape has more than one axis of symmetry, the centre of mass is at the **point where they intersect**, which locates it completely with no calculation at all."
+    }
+   ],
+   "front_md": "A uniform lamina has one or more axes of symmetry. What does that tell you about its centre of mass?\n",
+   "back_md": "The centre of mass must lie **on** an axis of symmetry.\n\nIf the shape has more than one axis of symmetry, the centre of mass is at the **point where they intersect**, which locates it completely with no calculation at all.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C3rgbkMfZCfr7vHY",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a **median** of a triangle, and where along it is the centre of mass of a uniform triangular lamina?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **median** joins a vertex to the **midpoint of the opposite side**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The centre of mass lies $\\frac{2}{3}$ of the way along a median, measured **from the vertex**, and equivalently at the point where the three medians meet."
+    }
+   ],
+   "front_md": "What is a **median** of a triangle, and where along it is the centre of mass of a uniform triangular lamina?\n",
+   "back_md": "A **median** joins a vertex to the **midpoint of the opposite side**.\n\nThe centre of mass lies $\\frac{2}{3}$ of the way along a median, measured **from the vertex**, and equivalently at the point where the three medians meet.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_68GX7rcnHb6CccBY",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The three vertices of a uniform triangular lamina are known. What is the quickest route to its centre of mass, and does it work for other polygons?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take the **mean of the coordinates of the three vertices**, averaging the $x$ values and the $y$ values separately."
+    },
+    {
+     "type": "paragraph",
+     "md": "It works only for **triangles**, and is not true for polygons in general."
+    }
+   ],
+   "front_md": "The three vertices of a uniform triangular lamina are known. What is the quickest route to its centre of mass, and does it work for other polygons?\n",
+   "back_md": "Take the **mean of the coordinates of the three vertices**, averaging the $x$ values and the $y$ values separately.\n\nIt works only for **triangles**, and is not true for polygons in general.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yfZFK5StFHzqD5kH",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In an isosceles triangular lamina, why do you only need one of the three medians?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because in an isosceles triangle one of the medians is also an **axis of symmetry**, and the centre of mass has to lie on it."
+    },
+    {
+     "type": "paragraph",
+     "md": "In an equilateral triangle all three medians are axes of symmetry, so any one of them will do."
+    },
+    {
+     "type": "paragraph",
+     "md": "An axis of symmetry is perpendicular to the side it bisects, so missing lengths along it can be found by Pythagoras' theorem."
+    }
+   ],
+   "front_md": "In an isosceles triangular lamina, why do you only need one of the three medians?\n",
+   "back_md": "Because in an isosceles triangle one of the medians is also an **axis of symmetry**, and the centre of mass has to lie on it.\n\nIn an equilateral triangle all three medians are axes of symmetry, so any one of them will do.\n\nAn axis of symmetry is perpendicular to the side it bisects, so missing lengths along it can be found by Pythagoras' theorem.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8R79CWmhcXkXR6yh",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_NKcrctWTH9mHdTb3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A semicircle is a sector of a circle."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A semicircle is the special case of a sector in which the angle at the centre is $π$ radians."
+    },
+    {
+     "type": "paragraph",
+     "md": "So any result stated for a sector can be applied to a semicircle, with $π$ as the angle at the centre."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA semicircle is a sector of a circle.\n",
+   "back_md": "**True.**\n\nA semicircle is the special case of a sector in which the angle at the centre is $π$ radians.\n\nSo any result stated for a sector can be applied to a semicircle, with $π$ as the angle at the centre.\n",
+   "spec_links": [
+    "spcpt_xNNchMvqZTcKMfhC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BtH8qf6x2qygwpcR",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **composite lamina**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **composite lamina** is a lamina of non-standard shape that can be constructed from two or more **standard** uniform laminas."
+    },
+    {
+     "type": "paragraph",
+     "md": "An L-shaped shelf made from two rectangles is a typical example."
+    }
+   ],
+   "front_md": "Define a **composite lamina**.\n",
+   "back_md": "A **composite lamina** is a lamina of non-standard shape that can be constructed from two or more **standard** uniform laminas.\n\nAn L-shaped shelf made from two rectangles is a typical example.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bPtDKQsWNgDg4ybR",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the centre of mass of a composite lamina made from a single uniform material?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split it into standard laminas and find the **area** and the **centre of mass** of each one."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then treat each part as a **particle whose mass is its area**, placed at that part's centre of mass, and use the centre-of-mass equation on those particles."
+    }
+   ],
+   "front_md": "How do you find the centre of mass of a composite lamina made from a single uniform material?\n",
+   "back_md": "Split it into standard laminas and find the **area** and the **centre of mass** of each one.\n\nThen treat each part as a **particle whose mass is its area**, placed at that part's centre of mass, and use the centre-of-mass equation on those particles.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Ch6nt7WtPmJ3sqSN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why may areas be used in place of masses when every part is cut from the same uniform material?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the mass of each part is its area multiplied by the mass per unit area, and that constant is the **same for every part**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It therefore appears in every term on both sides of the equation and **cancels**, leaving only the areas."
+    }
+   ],
+   "front_md": "Why may areas be used in place of masses when every part is cut from the same uniform material?\n",
+   "back_md": "Because the mass of each part is its area multiplied by the mass per unit area, and that constant is the **same for every part**.\n\nIt therefore appears in every term on both sides of the equation and **cancels**, leaving only the areas.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6Mzkrz8twMxWdccP",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A circle is cut out of a triangular lamina. How is the removed part handled?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give it a **negative area**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It then subtracts in the numerator and in the total, exactly as removing it from the shape subtracts from both the moment and the mass."
+    }
+   ],
+   "front_md": "A circle is cut out of a triangular lamina. How is the removed part handled?\n",
+   "back_md": "Give it a **negative area**.\n\nIt then subtracts in the numerator and in the total, exactly as removing it from the shape subtracts from both the moment and the mass.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JYXtgnxD2DfgTKGH",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A triangular lamina of area 28 with centre of mass `\\left( \\frac{11}{3}, 5 \\right)` has a circle of area $π$ and centre $( 3 , 5 )$ removed. Find the centre of mass of what remains."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both centres lie on $y = 5$, which is an axis of symmetry of the result, so $\\overline{y} = 5$ can be written down."
+    },
+    {
+     "type": "paragraph",
+     "md": "For the other coordinate, take the circle's area as negative:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\overline{x} = \\frac{28\\times\\frac{11}{3}-3π}{28-π} = 3 . 75$"
+    },
+    {
+     "type": "paragraph",
+     "md": "So the centre of mass is at $( 3 . 75 , 5 )$ to 3 significant figures."
+    }
+   ],
+   "front_md": "A triangular lamina of area 28 with centre of mass `\\left( \\frac{11}{3}, 5 \\right)` has a circle of area $π$ and centre $( 3 , 5 )$ removed. Find the centre of mass of what remains.\n",
+   "back_md": "Both centres lie on $y = 5$, which is an axis of symmetry of the result, so $\\overline{y} = 5$ can be written down.\n\nFor the other coordinate, take the circle's area as negative:\n\n$\\overline{x} = \\frac{28\\times\\frac{11}{3}-3π}{28-π} = 3 . 75$\n\nSo the centre of mass is at $( 3 . 75 , 5 )$ to 3 significant figures.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CRTk5xcDZ3h3WMm2",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The material joining the parts of a composite lamina is ignored when finding its centre of mass."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Any material used to join the laminas together is modelled as having **negligible** mass, so it contributes nothing."
+    },
+    {
+     "type": "paragraph",
+     "md": "The composite is also modelled as flat, since its third dimension is small compared with the other two."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe material joining the parts of a composite lamina is ignored when finding its centre of mass.\n",
+   "back_md": "**True.**\n\nAny material used to join the laminas together is modelled as having **negligible** mass, so it contributes nothing.\n\nThe composite is also modelled as flat, since its third dimension is small compared with the other two.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k8ybyNnxyV7bMSY3",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_mgH7GfYfjYbR9TGt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which four standard uniform laminas is a composite lamina built from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Rectangles** (including squares), **triangles**, **circles** and **sectors** (including semicircles)."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each of these has a centre of mass that can be written down or looked up, which is exactly why the shape is split into them."
+    }
+   ],
+   "front_md": "Which four standard uniform laminas is a composite lamina built from?\n",
+   "back_md": "**Rectangles** (including squares), **triangles**, **circles** and **sectors** (including semicircles).\n\nEach of these has a centre of mass that can be written down or looked up, which is exactly why the shape is split into them.\n",
+   "spec_links": [
+    "spcpt_BmcFcHKtKXtfzjCH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zX2RNb2QZ7gf95qJ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **framework**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **framework** is a flat shape created by joining thin, linear bodies together."
+    },
+    {
+     "type": "paragraph",
+     "md": "Those bodies are modelled as **rods** or **wires**: the supporting structure of a roof, or four rope lights joined into a rectangle."
+    }
+   ],
+   "front_md": "Define a **framework**.\n",
+   "back_md": "A **framework** is a flat shape created by joining thin, linear bodies together.\n\nThose bodies are modelled as **rods** or **wires**: the supporting structure of a roof, or four rope lights joined into a rectangle.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fM7Nt4JypWVstDt2",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does finding the centre of mass of a framework differ from doing it for a composite lamina?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A framework has no area to divide up, so you work with its **perimeter** instead."
+    },
+    {
+     "type": "paragraph",
+     "md": "Identify the individual rods, and treat each one as a particle whose mass is its **length**, rather than splitting a region into standard shapes with areas."
+    }
+   ],
+   "front_md": "How does finding the centre of mass of a framework differ from doing it for a composite lamina?\n",
+   "back_md": "A framework has no area to divide up, so you work with its **perimeter** instead.\n\nIdentify the individual rods, and treat each one as a particle whose mass is its **length**, rather than splitting a region into standard shapes with areas.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cpQJcRXqp2tzm76v",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A framework includes a curved rod. What shape will it be, and what is its length?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At this level a curved rod is always a **circular arc**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its length is $l = r θ$, where $r$ is the radius and $θ$ is the angle at the centre, measured in **radians**."
+    }
+   ],
+   "front_md": "A framework includes a curved rod. What shape will it be, and what is its length?\n",
+   "back_md": "At this level a curved rod is always a **circular arc**.\n\nIts length is $l = r θ$, where $r$ is the radius and $θ$ is the angle at the centre, measured in **radians**.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b66Yjmp9Vth3r4Yc",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The formula booklet gives one centre-of-mass result for a circular **arc** and another for a **sector**. Which object does each describe?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **arc** result, $\\frac{r\\mathrm{sin}α}{α}$ from the centre, is for a wire bent into an arc, so it belongs to a **framework**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **sector** result, $\\frac{2r\\mathrm{sin}α}{3α}$ from the centre, is for the solid **lamina**, the arc together with the two radii and the region between them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The booklet lists the lamina and framework results together, so the two lines are easy to confuse."
+    }
+   ],
+   "front_md": "The formula booklet gives one centre-of-mass result for a circular **arc** and another for a **sector**. Which object does each describe?\n",
+   "back_md": "The **arc** result, $\\frac{r\\mathrm{sin}α}{α}$ from the centre, is for a wire bent into an arc, so it belongs to a **framework**.\n\nThe **sector** result, $\\frac{2r\\mathrm{sin}α}{3α}$ from the centre, is for the solid **lamina**, the arc together with the two radii and the region between them.\n\nThe booklet lists the lamina and framework results together, so the two lines are easy to confuse.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SgdfRnXTYj4CZNY8",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The formula booklet gives the centre of mass of a circular arc of radius $r$ as $\\frac{r\\mathrm{sin}α}{α}$ from the centre. Fill in the blanks:"
+    },
+    {
+     "type": "paragraph",
+     "md": "the angle at the centre of the arc is `\\_\\_\\_\\_\\_\\_`, and $α$ is measured in `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statement is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "the angle at the centre of the arc is $2 α$, and $α$ is measured in **radians**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $α$ is **half** the angle at the centre, not the whole of it: a semicircular wire has $2 α = π$ and therefore $α = \\frac{π}{2}$."
+    }
+   ],
+   "front_md": "The formula booklet gives the centre of mass of a circular arc of radius $r$ as $\\frac{r\\mathrm{sin}α}{α}$ from the centre. Fill in the blanks:\n\nthe angle at the centre of the arc is `\\_\\_\\_\\_\\_\\_`, and $α$ is measured in `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed statement is:\n\nthe angle at the centre of the arc is $2 α$, and $α$ is measured in **radians**.\n\nSo $α$ is **half** the angle at the centre, not the whole of it: a semicircular wire has $2 α = π$ and therefore $α = \\frac{π}{2}$.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NtsRqHZPZ3kF4s4m",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A sector-shaped wire sign has two straight wires of length 60 cm and an arc, with an angle of $\\frac{π}{3}$ at the centre. What three lengths go into the calculation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The two straight wires, 60 cm each, and the arc."
+    },
+    {
+     "type": "paragraph",
+     "md": "The arc's length is $l = r θ = 60 \\times \\frac{π}{3} = 20 π \\approx 62 . 8 \\text{cm}$, using the full angle at the centre."
+    }
+   ],
+   "front_md": "A sector-shaped wire sign has two straight wires of length 60 cm and an arc, with an angle of $\\frac{π}{3}$ at the centre. What three lengths go into the calculation?\n",
+   "back_md": "The two straight wires, 60 cm each, and the arc.\n\nThe arc's length is $l = r θ = 60 \\times \\frac{π}{3} = 20 π \\approx 62 . 8 \\text{cm}$, using the full angle at the centre.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rh5QV6vRFWQvTzKQ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_MnyDjCpjGPq7d8Kp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where is a straight rod's own centre of mass taken to be, and how do you find the length of a sloping one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At the **midpoint** of the rod, so its coordinates are the mean of the coordinates of the rod's two ends."
+    },
+    {
+     "type": "paragraph",
+     "md": "A sloping rod's length comes from **Pythagoras' theorem** on its horizontal and vertical extents, for example $\\sqrt{8^{2}+6^{2}} = 10$."
+    }
+   ],
+   "front_md": "Where is a straight rod's own centre of mass taken to be, and how do you find the length of a sloping one?\n",
+   "back_md": "At the **midpoint** of the rod, so its coordinates are the mean of the coordinates of the rod's two ends.\n\nA sloping rod's length comes from **Pythagoras' theorem** on its horizontal and vertical extents, for example $\\sqrt{8^{2}+6^{2}} = 10$.\n",
+   "spec_links": [
+    "spcpt_my56RTTfbKXhBwDD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cY3mzFRRHZVZcTZh",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_nXDPVw3kd75gxKVF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A lamina hangs freely in equilibrium from a fixed point. Which two forces act on it, and where does each one act?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **tension** in the string, acting at the fixed point of suspension."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **weight**, acting at the lamina's **centre of mass**."
+    }
+   ],
+   "front_md": "A lamina hangs freely in equilibrium from a fixed point. Which two forces act on it, and where does each one act?\n",
+   "back_md": "The **tension** in the string, acting at the fixed point of suspension.\n\nThe **weight**, acting at the lamina's **centre of mass**.\n",
+   "spec_links": [
+    "spcpt_wr7k8jFjbRRkM7F3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hwB9TrmvQhMdFg9G",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_nXDPVw3kd75gxKVF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the key geometric fact about a freely suspended object at rest?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **point of suspension** and the **centre of mass** lie on the same **vertical** line."
+    },
+    {
+     "type": "paragraph",
+     "md": "The only two forces acting are the tension and the weight, and two forces can balance only if they act along one line, so that line must be the vertical through both points."
+    }
+   ],
+   "front_md": "What is the key geometric fact about a freely suspended object at rest?\n",
+   "back_md": "The **point of suspension** and the **centre of mass** lie on the same **vertical** line.\n\nThe only two forces acting are the tension and the weight, and two forces can balance only if they act along one line, so that line must be the vertical through both points.\n",
+   "spec_links": [
+    "spcpt_wr7k8jFjbRRkM7F3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xpSVtCkp4WFPNFfb",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_nXDPVw3kd75gxKVF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the angle between the string and a named edge of a suspended lamina?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Mark the centre of mass and draw the vertical line joining it to the point of suspension, then identify the angle the question asks for."
+    },
+    {
+     "type": "paragraph",
+     "md": "It comes out of **trigonometry** on the right-angled triangle whose two shorter sides are the horizontal and vertical distances between those two points."
+    }
+   ],
+   "front_md": "How do you find the angle between the string and a named edge of a suspended lamina?\n",
+   "back_md": "Mark the centre of mass and draw the vertical line joining it to the point of suspension, then identify the angle the question asks for.\n\nIt comes out of **trigonometry** on the right-angled triangle whose two shorter sides are the horizontal and vertical distances between those two points.\n",
+   "spec_links": [
+    "spcpt_wr7k8jFjbRRkM7F3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JYNfmyWj3xVN8Hm8",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_nXDPVw3kd75gxKVF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A lamina is free to rotate about a pivot on its surface instead of hanging from a string. What changes, and what does not?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The tension is replaced by a **reaction force** acting at the pivot."
+    },
+    {
+     "type": "paragraph",
+     "md": "The geometry is unchanged: the pivot and the centre of mass still end up on the same vertical line, and the trigonometry that follows is identical."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the wording of the question really differs."
+    }
+   ],
+   "front_md": "A lamina is free to rotate about a pivot on its surface instead of hanging from a string. What changes, and what does not?\n",
+   "back_md": "The tension is replaced by a **reaction force** acting at the pivot.\n\nThe geometry is unchanged: the pivot and the centre of mass still end up on the same vertical line, and the trigonometry that follows is identical.\n\nOnly the wording of the question really differs.\n",
+   "spec_links": [
+    "spcpt_wr7k8jFjbRRkM7F3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DcbHRkfV7QdGg2Kf",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_nXDPVw3kd75gxKVF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the blanks to complete what equilibrium means for a suspended object:"
+    },
+    {
+     "type": "paragraph",
+     "md": "there is zero resultant `\\_\\_\\_\\_\\_\\_` acting on it, and zero resultant `\\_\\_\\_\\_\\_\\_` about the point of suspension."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statement is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "there is zero resultant **force** acting on it, and zero resultant **moment** about the point of suspension."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the second condition that fixes the object's orientation, rather than merely holding it up."
+    }
+   ],
+   "front_md": "Fill in the blanks to complete what equilibrium means for a suspended object:\n\nthere is zero resultant `\\_\\_\\_\\_\\_\\_` acting on it, and zero resultant `\\_\\_\\_\\_\\_\\_` about the point of suspension.\n",
+   "back_md": "The completed statement is:\n\nthere is zero resultant **force** acting on it, and zero resultant **moment** about the point of suspension.\n\nIt is the second condition that fixes the object's orientation, rather than merely holding it up.\n",
+   "spec_links": [
+    "spcpt_wr7k8jFjbRRkM7F3"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_S8f3425SxSJrRfg9",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_nXDPVw3kd75gxKVF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Before finding the angle, what must you already have, and why must you settle whether the object is a lamina or a framework?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You must already have the position of the **centre of mass**, since the whole construction hangs off it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The method for finding it is not the same for the two kinds of object, so getting the type wrong gives the wrong centre of mass and therefore the wrong angle."
+    }
+   ],
+   "front_md": "Before finding the angle, what must you already have, and why must you settle whether the object is a lamina or a framework?\n",
+   "back_md": "You must already have the position of the **centre of mass**, since the whole construction hangs off it.\n\nThe method for finding it is not the same for the two kinds of object, so getting the type wrong gives the wrong centre of mass and therefore the wrong angle.\n",
+   "spec_links": [
+    "spcpt_wr7k8jFjbRRkM7F3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mwhqkKV9Z2TT98T3",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_nhGWP96xsHwSYqf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where does the vertical line through the centre of mass fall when a lamina on a slope is stable, on the point of tipping, or toppling?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Stable:** the line passes through the edge that is **in contact** with the plane, and the lamina rests in equilibrium."
+    },
+    {
+     "type": "paragraph",
+     "md": "**On the point of tipping:** it passes exactly through the **vertex** of that edge closest to where the plane meets the horizontal."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Toppling:** it falls **outside** that edge, passing through an edge not in contact with the plane."
+    }
+   ],
+   "front_md": "Where does the vertical line through the centre of mass fall when a lamina on a slope is stable, on the point of tipping, or toppling?\n",
+   "back_md": "**Stable:** the line passes through the edge that is **in contact** with the plane, and the lamina rests in equilibrium.\n\n**On the point of tipping:** it passes exactly through the **vertex** of that edge closest to where the plane meets the horizontal.\n\n**Toppling:** it falls **outside** that edge, passing through an edge not in contact with the plane.\n",
+   "spec_links": [
+    "spcpt_mfJv7BXtG6CH8CYD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Tcpy5ZrrBHG6Q2rX",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_nhGWP96xsHwSYqf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What axes suit a tipping problem, and where does the origin go?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The $x$-axis runs **parallel** to the inclined plane and the $y$-axis **perpendicular** to it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The origin goes at the vertex of the lamina that is in contact with the plane and closest to where the plane meets the horizontal, the \"bottom left\" corner."
+    }
+   ],
+   "front_md": "What axes suit a tipping problem, and where does the origin go?\n",
+   "back_md": "The $x$-axis runs **parallel** to the inclined plane and the $y$-axis **perpendicular** to it.\n\nThe origin goes at the vertex of the lamina that is in contact with the plane and closest to where the plane meets the horizontal, the \"bottom left\" corner.\n",
+   "spec_links": [
+    "spcpt_mfJv7BXtG6CH8CYD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JDzMbzwwYvZH8mTZ",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_nhGWP96xsHwSYqf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A lamina rests on a rough inclined plane. What is the main modelling assumption in a tipping problem?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That the **friction** between the lamina and the plane is great enough to stop it **sliding**, however steep the plane is made."
+    },
+    {
+     "type": "paragraph",
+     "md": "Toppling is then the only thing that can happen, so the question becomes purely one about where the centre of mass sits."
+    }
+   ],
+   "front_md": "A lamina rests on a rough inclined plane. What is the main modelling assumption in a tipping problem?\n",
+   "back_md": "That the **friction** between the lamina and the plane is great enough to stop it **sliding**, however steep the plane is made.\n\nToppling is then the only thing that can happen, so the question becomes purely one about where the centre of mass sits.\n",
+   "spec_links": [
+    "spcpt_mfJv7BXtG6CH8CYD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HWY9FKytv9K9DMGd",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_nhGWP96xsHwSYqf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A lamina on a slope has its centre of mass at `\\left( \\overline{x}, \\overline{y} \\right)`, measured parallel and perpendicular to the plane from the lower vertex. Fill in the blanks to complete the tipping condition:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\tan\\theta = \\frac{\\_\\_\\_\\_\\_\\_}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed condition is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{tan} θ = \\frac{\\overline{x}}{\\overline{y}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two coordinates are the shorter sides of a right-angled triangle whose hypotenuse joins the lower vertex to the centre of mass, and at the moment of tipping that hypotenuse is vertical."
+    }
+   ],
+   "front_md": "A lamina on a slope has its centre of mass at `\\left( \\overline{x}, \\overline{y} \\right)`, measured parallel and perpendicular to the plane from the lower vertex. Fill in the blanks to complete the tipping condition:\n\n`\\tan\\theta = \\frac{\\_\\_\\_\\_\\_\\_}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed condition is:\n\n$\\mathrm{tan} θ = \\frac{\\overline{x}}{\\overline{y}}$\n\nThe two coordinates are the shorter sides of a right-angled triangle whose hypotenuse joins the lower vertex to the centre of mass, and at the moment of tipping that hypotenuse is vertical.\n",
+   "spec_links": [
+    "spcpt_mfJv7BXtG6CH8CYD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_MZ7dcrcKkFHpBBwD",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_nhGWP96xsHwSYqf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A symmetrical T-shaped lamina has its centre of mass at $( 6 , 6 )$, measured from the lower vertex. At what angle of slope does it topple?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute into the tipping condition:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{tan} θ = \\frac{6}{6} = 1$"
+    },
+    {
+     "type": "paragraph",
+     "md": "So $θ = 45 ^{\\circ}$, and the plane can be raised to $45 ^{\\circ}$ before the lamina topples."
+    }
+   ],
+   "front_md": "A symmetrical T-shaped lamina has its centre of mass at $( 6 , 6 )$, measured from the lower vertex. At what angle of slope does it topple?\n",
+   "back_md": "Substitute into the tipping condition:\n\n$\\mathrm{tan} θ = \\frac{6}{6} = 1$\n\nSo $θ = 45 ^{\\circ}$, and the plane can be raised to $45 ^{\\circ}$ before the lamina topples.\n",
+   "spec_links": [
+    "spcpt_mfJv7BXtG6CH8CYD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MPBB6Rsqd9xpFt79",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_nhGWP96xsHwSYqf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A carefully drawn diagram will tell you whether a lamina on a slope topples."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A diagram cannot be relied on to show whether the vertical through the centre of mass falls inside or outside the edge in contact with the plane, because the two cases can look almost identical."
+    },
+    {
+     "type": "paragraph",
+     "md": "The diagram is there to set the problem up; the verdict has to come from trigonometry."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA carefully drawn diagram will tell you whether a lamina on a slope topples.\n",
+   "back_md": "**False.**\n\nA diagram cannot be relied on to show whether the vertical through the centre of mass falls inside or outside the edge in contact with the plane, because the two cases can look almost identical.\n\nThe diagram is there to set the problem up; the verdict has to come from trigonometry.\n",
+   "spec_links": [
+    "spcpt_mfJv7BXtG6CH8CYD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V39q8MpYQNfDvsrx",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_K47XNQchgS53pmkH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **non-uniform**, as the term is used for laminas and frameworks here."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It means that the separate parts may have **different densities** from one another, while **each individual part is still uniform** in itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "It does not mean that the density varies from point to point within a single lamina or a single rod."
+    }
+   ],
+   "front_md": "Define **non-uniform**, as the term is used for laminas and frameworks here.\n",
+   "back_md": "It means that the separate parts may have **different densities** from one another, while **each individual part is still uniform** in itself.\n\nIt does not mean that the density varies from point to point within a single lamina or a single rod.\n",
+   "spec_links": [
+    "spcpt_tfkRwhFnDhW2V73x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pfMk9n9SgFRrMZ4W",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_K47XNQchgS53pmkH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Part of a uniform lamina is folded back on itself. Why does that make it non-uniform, and how is the folded part handled?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The folded region is now **two layers thick**, so it has twice the density of the rest and the lamina is no longer uniform."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use **double the area** for that region, and treat the result as an ordinary composite lamina."
+    }
+   ],
+   "front_md": "Part of a uniform lamina is folded back on itself. Why does that make it non-uniform, and how is the folded part handled?\n",
+   "back_md": "The folded region is now **two layers thick**, so it has twice the density of the rest and the lamina is no longer uniform.\n\nUse **double the area** for that region, and treat the result as an ordinary composite lamina.\n",
+   "spec_links": [
+    "spcpt_tfkRwhFnDhW2V73x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rQZ3tF5fBQCFmdT3",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_K47XNQchgS53pmkH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A framework is made from rods of different thicknesses. How is that given to you, and what do you do with it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The question states the **relationship** between them, for instance that one cable is twice as thick as the others."
+    },
+    {
+     "type": "paragraph",
+     "md": "Scale the **lengths** in the same ratio, so a rod of double thickness counts as double its length."
+    }
+   ],
+   "front_md": "A framework is made from rods of different thicknesses. How is that given to you, and what do you do with it?\n",
+   "back_md": "The question states the **relationship** between them, for instance that one cable is twice as thick as the others.\n\nScale the **lengths** in the same ratio, so a rod of double thickness counts as double its length.\n",
+   "spec_links": [
+    "spcpt_tfkRwhFnDhW2V73x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MV6bKfMN6N3dnGsx",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_K47XNQchgS53pmkH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Spotlights are attached to a framework of metal rods. How do they enter the calculation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each one enters as an extra **particle**, placed at its point of attachment and carrying its own mass."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is added alongside the rods in the centre-of-mass equation, and it moves the centre of mass towards itself."
+    }
+   ],
+   "front_md": "Spotlights are attached to a framework of metal rods. How do they enter the calculation?\n",
+   "back_md": "Each one enters as an extra **particle**, placed at its point of attachment and carrying its own mass.\n\nIt is added alongside the rods in the centre-of-mass equation, and it moves the centre of mass towards itself.\n",
+   "spec_links": [
+    "spcpt_tfkRwhFnDhW2V73x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jjTxFk46ZqGTvKgQ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_K47XNQchgS53pmkH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A sign hangs horizontally in equilibrium from two strings. What decides the tensions in them?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **position of the centre of mass**, since that is where the whole weight acts."
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking moments about one attachment point gives the tension at the other, and resolving vertically then gives the first."
+    },
+    {
+     "type": "paragraph",
+     "md": "The string nearer the centre of mass carries the greater tension."
+    }
+   ],
+   "front_md": "A sign hangs horizontally in equilibrium from two strings. What decides the tensions in them?\n",
+   "back_md": "The **position of the centre of mass**, since that is where the whole weight acts.\n\nTaking moments about one attachment point gives the tension at the other, and resolving vertically then gives the first.\n\nThe string nearer the centre of mass carries the greater tension.\n",
+   "spec_links": [
+    "spcpt_tfkRwhFnDhW2V73x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J2cDBtbBdmgw2khf",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_K47XNQchgS53pmkH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To handle a non-uniform object you need the actual density of each part."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the **ratio** between the densities is needed, which is why a question gives you a relationship such as \"twice as thick\" rather than any numbers."
+    },
+    {
+     "type": "paragraph",
+     "md": "The constant of proportionality appears in every term on both sides of the centre-of-mass equation and cancels, so the answer depends on the relative weighting alone."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo handle a non-uniform object you need the actual density of each part.\n",
+   "back_md": "**False.**\n\nOnly the **ratio** between the densities is needed, which is why a question gives you a relationship such as \"twice as thick\" rather than any numbers.\n\nThe constant of proportionality appears in every term on both sides of the centre-of-mass equation and cancels, so the answer depends on the relative weighting alone.\n",
+   "spec_links": [
+    "spcpt_tfkRwhFnDhW2V73x"
+   ],
+   "flags": []
+  }
+ ]
+}

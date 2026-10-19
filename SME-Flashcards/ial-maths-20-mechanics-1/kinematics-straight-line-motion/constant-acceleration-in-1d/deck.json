@@ -1,0 +1,743 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:36Z",
+ "course_slug": "ial-maths-20-mechanics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-1/flashcards/kinematics-straight-line-motion/constant-acceleration-in-1d/",
+  "section_slug": "kinematics-straight-line-motion",
+  "section_name": "Kinematics (Straight Line Motion)",
+  "topic_slug": "constant-acceleration-in-1d",
+  "title": "Constant Acceleration in 1D",
+  "order": 1
+ },
+ "card_count": 21,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 14,
+  "fill_in_the_blanks": 3,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 21,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_ZX2KJFq58d7StKGv",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **suvat**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**suvat** is the acronym for the five quantities used to model motion in a straight line with **constant acceleration**."
+    },
+    {
+     "type": "paragraph",
+     "md": "They are displacement $s$ from the starting point, initial velocity $u$, final velocity $v$, acceleration $a$ and time $t$."
+    }
+   ],
+   "front_md": "Define **suvat**.\n",
+   "back_md": "**suvat** is the acronym for the five quantities used to model motion in a straight line with **constant acceleration**.\n\nThey are displacement $s$ from the starting point, initial velocity $u$, final velocity $v$, acceleration $a$ and time $t$.\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_98h8FcVr9jR42N95",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a velocity-time graph for constant acceleration, how does the gradient give $v = u + a t$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The gradient of a velocity-time graph is the acceleration, and the line climbs from $u$ to $v$ over a time $t$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{v-u}{t} = a$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying through by $t$ gives $v - u = a t$, and adding $u$ to both sides gives $v = u + a t$."
+    }
+   ],
+   "front_md": "On a velocity-time graph for constant acceleration, how does the gradient give $v = u + a t$?\n",
+   "back_md": "The gradient of a velocity-time graph is the acceleration, and the line climbs from $u$ to $v$ over a time $t$:\n\n$\\frac{v-u}{t} = a$\n\nMultiplying through by $t$ gives $v - u = a t$, and adding $u$ to both sides gives $v = u + a t$.\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k7wDrNGbzmSzm7n6",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the suvat equations, which of the five quantities are vectors and which is the scalar?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$s$, $u$, $v$ and $a$ are all **vectors**, so any of them can be negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "$t$ is the only **scalar**, so four of the five quantities carry a sign that records a direction and one does not."
+    }
+   ],
+   "front_md": "In the suvat equations, which of the five quantities are vectors and which is the scalar?\n",
+   "back_md": "$s$, $u$, $v$ and $a$ are all **vectors**, so any of them can be negative.\n\n$t$ is the only **scalar**, so four of the five quantities carry a sign that records a direction and one does not.\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6YWzknyVsGbSjsJW",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The region under a velocity-time graph for constant acceleration is taken as a **trapezium**. Which suvat formula does its area give?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The area under a velocity-time graph is the displacement, and the trapezium has parallel sides $u$ and $v$ with width $t$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`s = \\frac{1}{2}\\left( u + v \\right) t`"
+    },
+    {
+     "type": "paragraph",
+     "md": "If $u$ or $v$ happens to be zero the region is a triangle instead, which is this trapezium with one parallel side of length zero, so the formula still holds."
+    }
+   ],
+   "front_md": "The region under a velocity-time graph for constant acceleration is taken as a **trapezium**. Which suvat formula does its area give?\n",
+   "back_md": "The area under a velocity-time graph is the displacement, and the trapezium has parallel sides $u$ and $v$ with width $t$:\n\n`s = \\frac{1}{2}\\left( u + v \\right) t`\n\nIf $u$ or $v$ happens to be zero the region is a triangle instead, which is this trapezium with one parallel side of length zero, so the formula still holds.\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J3t9FZw4NbcqfKfq",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the blanks to complete the last step in deriving $v^{2} = u^{2} + 2 a s$, once $t$ has been eliminated and both sides have been multiplied by $2 a$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`2as = \\left( u + v \\right)\\left( \\_\\_\\_\\_\\_\\_ \\right) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed step is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`2as = \\left( u + v \\right)\\left( v - u \\right) = v^{2} - u^{2}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two brackets are a **difference of two squares**, which is what collapses the product into $v^{2} - u^{2}$. Adding $u^{2}$ to both sides then gives $v^{2} = u^{2} + 2 a s$."
+    }
+   ],
+   "front_md": "Fill in the blanks to complete the last step in deriving $v^{2} = u^{2} + 2 a s$, once $t$ has been eliminated and both sides have been multiplied by $2 a$:\n\n`2as = \\left( u + v \\right)\\left( \\_\\_\\_\\_\\_\\_ \\right) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed step is:\n\n`2as = \\left( u + v \\right)\\left( v - u \\right) = v^{2} - u^{2}`\n\nThe two brackets are a **difference of two squares**, which is what collapses the product into $v^{2} - u^{2}$. Adding $u^{2}$ to both sides then gives $v^{2} = u^{2} + 2 a s$.\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_VDpCN7VckVrBJVzr",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The region under a velocity-time graph for constant acceleration is split into a **rectangle** and a **triangle**. Which suvat formula does that give?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The rectangle is $u$ high and $t$ wide, and the triangle sitting on top of it has base $t$ and height $v - u$, so `s = ut + \\frac{1}{2}\\left( v - u \\right)t`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substituting $v - u = a t$ turns that into:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$s = u t + \\frac{1}{2} a t^{2}$"
+    }
+   ],
+   "front_md": "The region under a velocity-time graph for constant acceleration is split into a **rectangle** and a **triangle**. Which suvat formula does that give?\n",
+   "back_md": "The rectangle is $u$ high and $t$ wide, and the triangle sitting on top of it has base $t$ and height $v - u$, so `s = ut + \\frac{1}{2}\\left( v - u \\right)t`.\n\nSubstituting $v - u = a t$ turns that into:\n\n$s = u t + \\frac{1}{2} a t^{2}$\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mhxY5M8DWNCcYNw2",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The region under a velocity-time graph for constant acceleration is taken as a **rectangle minus a triangle**. Which suvat formula does that give?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The rectangle is $v$ high and $t$ wide, and the triangle cut off the top of it has base $t$ and height $v - u$, so `s = vt - \\frac{1}{2}\\left( v - u \\right)t`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substituting $v - u = a t$ turns that into:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$s = v t - \\frac{1}{2} a t^{2}$"
+    }
+   ],
+   "front_md": "The region under a velocity-time graph for constant acceleration is taken as a **rectangle minus a triangle**. Which suvat formula does that give?\n",
+   "back_md": "The rectangle is $v$ high and $t$ wide, and the triangle cut off the top of it has base $t$ and height $v - u$, so `s = vt - \\frac{1}{2}\\left( v - u \\right)t`.\n\nSubstituting $v - u = a t$ turns that into:\n\n$s = v t - \\frac{1}{2} a t^{2}$\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QJ4mMn9SZhpSNMJY",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_C8VbTqQZQwvCSRV5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "All five suvat formulae can be read off a velocity-time graph."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The four formulae containing $t$ come from the graph, since its gradient supplies $v = u + a t$ and the area beneath it supplies the three displacement formulae."
+    },
+    {
+     "type": "paragraph",
+     "md": "The fifth, $v^{2} = u^{2} + 2 a s$, contains no $t$ at all, and is found instead by making $t$ the subject of one formula and substituting it into another."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAll five suvat formulae can be read off a velocity-time graph.\n",
+   "back_md": "**False.**\n\nThe four formulae containing $t$ come from the graph, since its gradient supplies $v = u + a t$ and the area beneath it supplies the three displacement formulae.\n\nThe fifth, $v^{2} = u^{2} + 2 a s$, contains no $t$ at all, and is found instead by making $t$ the subject of one formula and substituting it into another.\n",
+   "spec_links": [
+    "spcpt_GT4R8B9y9q4RTZHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kKRNf6Nfw3TDT3sr",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_ZXQFtm4Y5z6dqWZM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a constant-acceleration problem you know three of the five suvat quantities and want a fourth. How do you choose which of the five formulae to use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each of the five formulae contains **four** of the five quantities, so exactly one of them leaves out the quantity you neither know nor want."
+    },
+    {
+     "type": "paragraph",
+     "md": "Choose that one: the formula containing your three known values and the one you are looking for."
+    },
+    {
+     "type": "paragraph",
+     "md": "So with $u$, $a$ and $t$ known and $s$ wanted, the quantity left out is $v$, which points to $s = u t + \\frac{1}{2} a t^{2}$."
+    }
+   ],
+   "front_md": "In a constant-acceleration problem you know three of the five suvat quantities and want a fourth. How do you choose which of the five formulae to use?\n",
+   "back_md": "Each of the five formulae contains **four** of the five quantities, so exactly one of them leaves out the quantity you neither know nor want.\n\nChoose that one: the formula containing your three known values and the one you are looking for.\n\nSo with $u$, $a$ and $t$ known and $s$ wanted, the quantity left out is $v$, which points to $s = u t + \\frac{1}{2} a t^{2}$.\n",
+   "spec_links": [
+    "spcpt_f2XM2XNHqVGhXsnk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rF3jFzkyZzzfHcdj",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_ZXQFtm4Y5z6dqWZM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Constant-acceleration problems describe the values you need in words. Fill in the blanks with the suvat letter that each phrase pins down:"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"… returns to its starting position …\" means `\\_\\_\\_\\_\\_\\_ = 0`"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"… initially at rest …\" means `\\_\\_\\_\\_\\_\\_ = 0`"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"… comes to rest …\" means `\\_\\_\\_\\_\\_\\_ = 0`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed translations are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "\"… returns to its starting position …\" means $s = 0$, because $s$ is measured from the starting position."
+    },
+    {
+     "type": "paragraph",
+     "md": "\"… initially at rest …\" means $u = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "\"… comes to rest …\" means $v = 0$."
+    }
+   ],
+   "front_md": "Constant-acceleration problems describe the values you need in words. Fill in the blanks with the suvat letter that each phrase pins down:\n\n\"… returns to its starting position …\" means `\\_\\_\\_\\_\\_\\_ = 0`\n\n\"… initially at rest …\" means `\\_\\_\\_\\_\\_\\_ = 0`\n\n\"… comes to rest …\" means `\\_\\_\\_\\_\\_\\_ = 0`\n",
+   "back_md": "The completed translations are:\n\n\"… returns to its starting position …\" means $s = 0$, because $s$ is measured from the starting position.\n\n\"… initially at rest …\" means $u = 0$.\n\n\"… comes to rest …\" means $v = 0$.\n",
+   "spec_links": [
+    "spcpt_f2XM2XNHqVGhXsnk"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Jpc9TsyZ8JMpH99K",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_ZXQFtm4Y5z6dqWZM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Before using the suvat formulae on a problem, why must you decide which direction counts as positive, and does it matter which direction you choose?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Until a positive direction is fixed, a value such as $u = - 6 \\text{m s}^{-1}$ has no meaning: the minus sign is what records the direction."
+    },
+    {
+     "type": "paragraph",
+     "md": "It does not matter which direction you choose, provided every quantity in the problem is measured against the same one. Choosing the direction the object starts out in, or the direction of the acceleration, usually leaves fewer negative values to handle."
+    }
+   ],
+   "front_md": "Before using the suvat formulae on a problem, why must you decide which direction counts as positive, and does it matter which direction you choose?\n",
+   "back_md": "Until a positive direction is fixed, a value such as $u = - 6 \\text{m s}^{-1}$ has no meaning: the minus sign is what records the direction.\n\nIt does not matter which direction you choose, provided every quantity in the problem is measured against the same one. Choosing the direction the object starts out in, or the direction of the acceleration, usually leaves fewer negative values to handle.\n",
+   "spec_links": [
+    "spcpt_f2XM2XNHqVGhXsnk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VVQRkpj7vkSbYW3j",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_ZXQFtm4Y5z6dqWZM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A journey in which a car accelerates uniformly and then brakes to a stop can be handled by applying a single suvat formula to the journey as a whole."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The suvat formulae require the acceleration to be **constant**, and this journey has two different constant accelerations, so the formulae must be applied to each stage **separately**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two stages are linked by the velocity between them: the **final** velocity of the accelerating stage is the **initial** velocity of the braking stage."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA journey in which a car accelerates uniformly and then brakes to a stop can be handled by applying a single suvat formula to the journey as a whole.\n",
+   "back_md": "**False.**\n\nThe suvat formulae require the acceleration to be **constant**, and this journey has two different constant accelerations, so the formulae must be applied to each stage **separately**.\n\nThe two stages are linked by the velocity between them: the **final** velocity of the accelerating stage is the **initial** velocity of the braking stage.\n",
+   "spec_links": [
+    "spcpt_f2XM2XNHqVGhXsnk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yqrcJ8yj2GKXCqxD",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_ZXQFtm4Y5z6dqWZM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A constant-acceleration problem gives you only two of the five suvat quantities, so no single formula can be substituted into. What can you do instead?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write down two of the suvat formulae and solve them as a pair of **simultaneous equations**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The five formulae are five different relations between the same five quantities, so any two of them containing your unknowns give two independent equations in those unknowns."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two unknowns need two equations, and a single formula can only ever supply one."
+    }
+   ],
+   "front_md": "A constant-acceleration problem gives you only two of the five suvat quantities, so no single formula can be substituted into. What can you do instead?\n",
+   "back_md": "Write down two of the suvat formulae and solve them as a pair of **simultaneous equations**.\n\nThe five formulae are five different relations between the same five quantities, so any two of them containing your unknowns give two independent equations in those unknowns.\n\nTwo unknowns need two equations, and a single formula can only ever supply one.\n",
+   "spec_links": [
+    "spcpt_f2XM2XNHqVGhXsnk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XCDPPy9mgz7Tgj3p",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_ZXQFtm4Y5z6dqWZM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A car speeding up along a straight road gives $v^{2} = 729$ from $v^{2} = u^{2} + 2 a s$, so $v = \\pm 27$. How do you decide which sign to take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take the sign from the **direction of travel**, read against whichever direction was chosen as positive."
+    },
+    {
+     "type": "paragraph",
+     "md": "The car is speeding up in the direction it was already moving, so its final velocity has the same sign as its initial velocity, and taking that direction as positive gives $v = 27  \\text{m s}^{-1}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Squaring has lost the direction, and only the situation being modelled can put it back: the negative root would describe an object moving the other way."
+    }
+   ],
+   "front_md": "A car speeding up along a straight road gives $v^{2} = 729$ from $v^{2} = u^{2} + 2 a s$, so $v = \\pm 27$. How do you decide which sign to take?\n",
+   "back_md": "Take the sign from the **direction of travel**, read against whichever direction was chosen as positive.\n\nThe car is speeding up in the direction it was already moving, so its final velocity has the same sign as its initial velocity, and taking that direction as positive gives $v = 27  \\text{m s}^{-1}$.\n\nSquaring has lost the direction, and only the situation being modelled can put it back: the negative root would describe an object moving the other way.\n",
+   "spec_links": [
+    "spcpt_f2XM2XNHqVGhXsnk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9jMPZ9RKKtSrxZch",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What value should you take for the acceleration due to gravity, and why might a question give you a different one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take $g = 9 . 8 \\text{m s}^{-2}$ unless a question specifies otherwise."
+    },
+    {
+     "type": "paragraph",
+     "md": "$g$ is **not** a universal constant: it depends on location, so it is not the same everywhere. A question is therefore free to specify a different value, $g = 10 \\text{m s}^{-2}$ being a common one, and a value given in the question always takes precedence."
+    }
+   ],
+   "front_md": "What value should you take for the acceleration due to gravity, and why might a question give you a different one?\n",
+   "back_md": "Take $g = 9 . 8 \\text{m s}^{-2}$ unless a question specifies otherwise.\n\n$g$ is **not** a universal constant: it depends on location, so it is not the same everywhere. A question is therefore free to specify a different value, $g = 10 \\text{m s}^{-2}$ being a common one, and a value given in the question always takes precedence.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FX4P9nXgv6pCyQRq",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A particle is moving vertically under gravity. Fill in the blanks with the acceleration in each case:"
+    },
+    {
+     "type": "paragraph",
+     "md": "If you take **upwards** as the positive direction, `a = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "If you take **downwards** as the positive direction, `a = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statements are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "If you take **upwards** as the positive direction, $a = - g$"
+    },
+    {
+     "type": "paragraph",
+     "md": "If you take **downwards** as the positive direction, $a = g$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Gravity always acts **downwards**, so the sign is decided by the direction you chose as positive, not by the way the particle happens to be moving. A ball on its way up still has $a = - g$ when upwards is positive."
+    }
+   ],
+   "front_md": "A particle is moving vertically under gravity. Fill in the blanks with the acceleration in each case:\n\nIf you take **upwards** as the positive direction, `a = \\_\\_\\_\\_\\_\\_`\n\nIf you take **downwards** as the positive direction, `a = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed statements are:\n\nIf you take **upwards** as the positive direction, $a = - g$\n\nIf you take **downwards** as the positive direction, $a = g$\n\nGravity always acts **downwards**, so the sign is decided by the direction you chose as positive, not by the way the particle happens to be moving. A ball on its way up still has $a = - g$ when upwards is positive.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_vYSv7KBWM3bbxKRh",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A stone is **dropped** from the top of a cliff. What does that single word tell you about two of the suvat quantities?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Dropped means released from **rest**, so the initial velocity is $u = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It also means the stone falls freely under gravity alone, so the acceleration is $g$ downwards, which is $a = 9 . 8  \\text{m s}^{-2}$ taking downwards as positive."
+    },
+    {
+     "type": "paragraph",
+     "md": "*Thrown*, *projected* and *falling freely* also signal that the acceleration is $g$, but only *dropped* and *released from rest* give $u = 0$ as well."
+    }
+   ],
+   "front_md": "A stone is **dropped** from the top of a cliff. What does that single word tell you about two of the suvat quantities?\n",
+   "back_md": "Dropped means released from **rest**, so the initial velocity is $u = 0$.\n\nIt also means the stone falls freely under gravity alone, so the acceleration is $g$ downwards, which is $a = 9 . 8  \\text{m s}^{-2}$ taking downwards as positive.\n\n*Thrown*, *projected* and *falling freely* also signal that the acceleration is $g$, but only *dropped* and *released from rest* give $u = 0$ as well.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dqR4rrpwKcSFpGdJ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A ball is thrown vertically upwards. What do you know about its velocity, and about its acceleration, at its highest point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At the highest point the ball's velocity is **instantaneously zero**, which gives you $v = 0$ to use in the suvat formulae."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its acceleration is unchanged: still $g$ downwards, as it is throughout the flight of a ball moving freely under gravity."
+    },
+    {
+     "type": "paragraph",
+     "md": "The ball does not stay at rest: its velocity is zero for that instant only, and the acceleration, which never stops acting, immediately starts it moving downwards."
+    }
+   ],
+   "front_md": "A ball is thrown vertically upwards. What do you know about its velocity, and about its acceleration, at its highest point?\n",
+   "back_md": "At the highest point the ball's velocity is **instantaneously zero**, which gives you $v = 0$ to use in the suvat formulae.\n\nIts acceleration is unchanged: still $g$ downwards, as it is throughout the flight of a ball moving freely under gravity.\n\nThe ball does not stay at rest: its velocity is zero for that instant only, and the acceleration, which never stops acting, immediately starts it moving downwards.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X8kxYM5rW2wCgRXD",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A ball thrown vertically upwards has zero speed at the moment it reaches the ground again."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The ball is still moving when it reaches the ground, and it is the **impact** that brings it to a stop, not the flight."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a ball moving freely under gravity, the only moment its speed is zero is at its **highest point**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA ball thrown vertically upwards has zero speed at the moment it reaches the ground again.\n",
+   "back_md": "**False.**\n\nThe ball is still moving when it reaches the ground, and it is the **impact** that brings it to a stop, not the flight.\n\nFor a ball moving freely under gravity, the only moment its speed is zero is at its **highest point**.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n7KgYHqCpkszX6bC",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A ball is thrown vertically upwards from a window $h$ metres above the ground, and you want the time until it hits the ground. Taking upwards as positive, what value of $s$ do you use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The displacement to use is $s = - h$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Displacement is measured from the **starting position**, which here is the window rather than the ground, and the ground is $h$ metres below it in the negative direction."
+    },
+    {
+     "type": "paragraph",
+     "md": "Had the ball been thrown from ground level and returned to the ground, the same reasoning would give $s = 0$."
+    }
+   ],
+   "front_md": "A ball is thrown vertically upwards from a window $h$ metres above the ground, and you want the time until it hits the ground. Taking upwards as positive, what value of $s$ do you use?\n",
+   "back_md": "The displacement to use is $s = - h$.\n\nDisplacement is measured from the **starting position**, which here is the window rather than the ground, and the ground is $h$ metres below it in the negative direction.\n\nHad the ball been thrown from ground level and returned to the ground, the same reasoning would give $s = 0$.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s7rpdqfm9dQXTdc2",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_P2cNyBtsnwQHrbGf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a vertical-motion problem, what is gained by keeping $g$ as a symbol through the working instead of substituting $9 . 8$ at the start?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Keeping $g$ as a symbol often lets it **cancel**, so it never has to be evaluated at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where it does not cancel, substituting only at the end keeps the working **exact**, so no accuracy is lost to rounding part-way through."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, for example, a maximum height of $\\frac{324}{2g}$ metres is exact, and becomes $16 . 5$ metres, to 3 significant figures, only when $9 . 8$ is put in at the last step."
+    }
+   ],
+   "front_md": "In a vertical-motion problem, what is gained by keeping $g$ as a symbol through the working instead of substituting $9 . 8$ at the start?\n",
+   "back_md": "Keeping $g$ as a symbol often lets it **cancel**, so it never has to be evaluated at all.\n\nWhere it does not cancel, substituting only at the end keeps the working **exact**, so no accuracy is lost to rounding part-way through.\n\nSo, for example, a maximum height of $\\frac{324}{2g}$ metres is exact, and becomes $16 . 5$ metres, to 3 significant figures, only when $9 . 8$ is put in at the last step.\n",
+   "spec_links": [
+    "spcpt_dqwxZZzNwVSbvb6S"
+   ],
+   "flags": []
+  }
+ ]
+}

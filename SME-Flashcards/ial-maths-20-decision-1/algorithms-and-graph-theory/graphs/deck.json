@@ -1,0 +1,918 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:22:01Z",
+ "course_slug": "ial-maths-20-decision-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/flashcards/algorithms-and-graph-theory/graphs/",
+  "section_slug": "algorithms-and-graph-theory",
+  "section_name": "Algorithms & Graph Theory",
+  "topic_slug": "graphs",
+  "title": "Graphs",
+  "order": 1
+ },
+ "card_count": 30,
+ "card_types": {
+  "keyword_definition": 9,
+  "question_and_answer": 16,
+  "true_or_false": 3,
+  "fill_in_the_blanks": 2
+ },
+ "spec_link_cards": 30,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_ty2pB6D5Tg7RWWKY",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **graph** in graph theory."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A graph consists of points, called **vertices** or **nodes**, which are connected by lines, called **edges** or **arcs**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is a way of representing a set of objects together with the connections between them, such as places and the routes joining them."
+    }
+   ],
+   "front_md": "Define a **graph** in graph theory.\n",
+   "back_md": "A graph consists of points, called **vertices** or **nodes**, which are connected by lines, called **edges** or **arcs**.\n\nIt is a way of representing a set of objects together with the connections between them, such as places and the routes joining them.\n",
+   "spec_links": [
+    "spcpt_Sh2bfsQFf7sDZ44z",
+    "spcpt_hrmHmYZTVfcdzcJc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9TqdHbKVxGhs4WjZ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a graph, what does it mean for two vertices to be adjacent, and for two edges to be adjacent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two **vertices** are adjacent when an edge joins them directly."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two **edges** are adjacent when they share a common vertex."
+    }
+   ],
+   "front_md": "In a graph, what does it mean for two vertices to be adjacent, and for two edges to be adjacent?\n",
+   "back_md": "Two **vertices** are adjacent when an edge joins them directly.\n\nTwo **edges** are adjacent when they share a common vertex.\n",
+   "spec_links": [
+    "spcpt_Sh2bfsQFf7sDZ44z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PXm3Bp5Q5MsvC4BK",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a loop, and what are multiple edges?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **loop** is an edge that starts and finishes at the same vertex."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Multiple edges** are two or more edges joining the same pair of vertices, and a graph is allowed to contain either."
+    }
+   ],
+   "front_md": "What is a loop, and what are multiple edges?\n",
+   "back_md": "A **loop** is an edge that starts and finishes at the same vertex.\n\n**Multiple edges** are two or more edges joining the same pair of vertices, and a graph is allowed to contain either.\n",
+   "spec_links": [
+    "spcpt_Sh2bfsQFf7sDZ44z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q8wF78K6vJMXDJHn",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If two edges of a graph are drawn crossing each other, the point where they cross is a vertex."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Edges are joined to one another only at **vertices**, so a crossing point with no vertex marked on it is just an artefact of the drawing."
+    },
+    {
+     "type": "paragraph",
+     "md": "Graphs are usually drawn so that edges do not overlap, for exactly this reason."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf two edges of a graph are drawn crossing each other, the point where they cross is a vertex.\n",
+   "back_md": "**False.**\n\nEdges are joined to one another only at **vertices**, so a crossing point with no vertex marked on it is just an artefact of the drawing.\n\nGraphs are usually drawn so that edges do not overlap, for exactly this reason.\n",
+   "spec_links": [
+    "spcpt_Sh2bfsQFf7sDZ44z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KWhnP3dDbz8fPfrZ",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **weight** of an edge."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The weight of an edge is a number attached to it, most often a distance, a time or a cost."
+    },
+    {
+     "type": "paragraph",
+     "md": "The weight of a **walk** is found by adding together the weights of all the edges it uses."
+    }
+   ],
+   "front_md": "Define the **weight** of an edge.\n",
+   "back_md": "The weight of an edge is a number attached to it, most often a distance, a time or a cost.\n\nThe weight of a **walk** is found by adding together the weights of all the edges it uses.\n",
+   "spec_links": [
+    "spcpt_g4WGr939XD6DZyBD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZPxvfYY6rWwBF5fm",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the three terms for moving through a graph:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **walk** is a sequence of edges running from vertex to vertex. A `\\_\\_\\_\\_\\_\\_` is a walk in which no vertex is repeated, and a `\\_\\_\\_\\_\\_\\_` is a walk in which no edge is repeated."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **walk** is a sequence of edges running from vertex to vertex. A **path** is a walk in which no vertex is repeated, and a **trail** is a walk in which no edge is repeated."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every path is therefore also a trail, but a trail need not be a path."
+    }
+   ],
+   "front_md": "Complete the three terms for moving through a graph:\n\nA **walk** is a sequence of edges running from vertex to vertex. A `\\_\\_\\_\\_\\_\\_` is a walk in which no vertex is repeated, and a `\\_\\_\\_\\_\\_\\_` is a walk in which no edge is repeated.\n",
+   "back_md": "The completed sentence is:\n\nA **walk** is a sequence of edges running from vertex to vertex. A **path** is a walk in which no vertex is repeated, and a **trail** is a walk in which no edge is repeated.\n\nEvery path is therefore also a trail, but a trail need not be a path.\n",
+   "spec_links": [
+    "spcpt_g4WGr939XD6DZyBD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NWmp4nCZgRT9ZxBY",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a cycle, and what is a tour?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **cycle**, also called a circuit, is a path that starts and finishes at the same vertex, so it is a closed path."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **tour** is a walk that visits every vertex and then returns to its starting vertex."
+    }
+   ],
+   "front_md": "What is a cycle, and what is a tour?\n",
+   "back_md": "A **cycle**, also called a circuit, is a path that starts and finishes at the same vertex, so it is a closed path.\n\nA **tour** is a walk that visits every vertex and then returns to its starting vertex.\n",
+   "spec_links": [
+    "spcpt_g4WGr939XD6DZyBD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QHTnfW4zGj8vwGxm",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **connected graph**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A connected graph is one in which every vertex is connected to every other vertex."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two vertices count as connected whenever there is a **path** between them, which does not require an edge joining them directly."
+    }
+   ],
+   "front_md": "Define a **connected graph**.\n",
+   "back_md": "A connected graph is one in which every vertex is connected to every other vertex.\n\nTwo vertices count as connected whenever there is a **path** between them, which does not require an edge joining them directly.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WsXdk6JxqVBSsk23",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a complete graph, and how is one labelled?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A complete graph is a graph in which every vertex is joined by an edge to each of the other vertices."
+    },
+    {
+     "type": "paragraph",
+     "md": "A complete graph with $n$ vertices is written $K_{n}$."
+    }
+   ],
+   "front_md": "What is a complete graph, and how is one labelled?\n",
+   "back_md": "A complete graph is a graph in which every vertex is joined by an edge to each of the other vertices.\n\nA complete graph with $n$ vertices is written $K_{n}$.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bpdVSRKjx83vj7tn",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **network**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A network is a **weighted graph**, meaning a graph whose edges have each been given a numerical value."
+    },
+    {
+     "type": "paragraph",
+     "md": "Networks are not usually drawn to scale, so the length of an edge on the page tells you nothing about its weight."
+    }
+   ],
+   "front_md": "Define a **network**.\n",
+   "back_md": "A network is a **weighted graph**, meaning a graph whose edges have each been given a numerical value.\n\nNetworks are not usually drawn to scale, so the length of an edge on the page tells you nothing about its weight.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YQ8SNynwJzvMMQbQ",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **digraph**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A digraph is a graph whose edges have been given a **direction**, making them directed edges."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each directed edge may only be travelled along in the direction its arrow indicates."
+    }
+   ],
+   "front_md": "Define a **digraph**.\n",
+   "back_md": "A digraph is a graph whose edges have been given a **direction**, making them directed edges.\n\nEach directed edge may only be travelled along in the direction its arrow indicates.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JdmmrpWyfrnt5cfY",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What four conditions make a graph a simple graph?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A simple graph contains no **loops** and no **multiple edges**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is therefore the plainest kind of graph, with at most one edge between any pair of distinct vertices."
+    }
+   ],
+   "front_md": "What four conditions make a graph a simple graph?\n",
+   "back_md": "A simple graph contains no **loops** and no **multiple edges**.\n\nIt is therefore the plainest kind of graph, with at most one edge between any pair of distinct vertices.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PBdwXPG9Mn6rQ5PD",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a subgraph, and what is a tree?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **subgraph** of a graph is a graph whose vertices and edges all belong to the original graph."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **tree** is a connected graph that contains no cycles at all."
+    }
+   ],
+   "front_md": "What is a subgraph, and what is a tree?\n",
+   "back_md": "A **subgraph** of a graph is a graph whose vertices and edges all belong to the original graph.\n\nA **tree** is a connected graph that contains no cycles at all.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sNhfS23yV4xFgBhG",
+   "card_type": "keyword_definition",
+   "order": 13,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **spanning tree** of a graph."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A spanning tree is a subgraph that is itself a **tree** and that includes **every vertex** of the original graph."
+    },
+    {
+     "type": "paragraph",
+     "md": "Being a tree, it is connected and contains no cycles."
+    }
+   ],
+   "front_md": "Define a **spanning tree** of a graph.\n",
+   "back_md": "A spanning tree is a subgraph that is itself a **tree** and that includes **every vertex** of the original graph.\n\nBeing a tree, it is connected and contains no cycles.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yrCFGNDntq7CTNjH",
+   "card_type": "keyword_definition",
+   "order": 14,
+   "set_id": "flst_TF459NSxbcBBzQJr",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **isomorphic graphs**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Isomorphic graphs are graphs that show the **same information** but are drawn in different ways."
+    },
+    {
+     "type": "paragraph",
+     "md": "They have the same number of vertices, and the number of edges meeting each vertex matches up between them."
+    }
+   ],
+   "front_md": "Define **isomorphic graphs**.\n",
+   "back_md": "Isomorphic graphs are graphs that show the **same information** but are drawn in different ways.\n\nThey have the same number of vertices, and the number of edges meeting each vertex matches up between them.\n",
+   "spec_links": [
+    "spcpt_h3Gvrwv3BRwysKYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WN7qZWq4kbPk6Ptb",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **degree** (or valency) of a vertex."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The degree of a vertex is the number of edges **incident** to it, meaning the number of edges that meet it."
+    },
+    {
+     "type": "paragraph",
+     "md": "A vertex is described as **odd** or **even** according to whether that number is odd or even."
+    }
+   ],
+   "front_md": "Define the **degree** (or valency) of a vertex.\n",
+   "back_md": "The degree of a vertex is the number of edges **incident** to it, meaning the number of edges that meet it.\n\nA vertex is described as **odd** or **even** according to whether that number is odd or even.\n",
+   "spec_links": [
+    "spcpt_g6QKkK28sx7kfVZp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BMm3k6PrrVhSTBQz",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By how much does a loop increase the degree of a vertex?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By **two**, rather than by one."
+    },
+    {
+     "type": "paragraph",
+     "md": "A loop starts and finishes at the same vertex, so **both** of its ends are incident to that vertex and each end is counted separately."
+    }
+   ],
+   "front_md": "By how much does a loop increase the degree of a vertex?\n",
+   "back_md": "By **two**, rather than by one.\n\nA loop starts and finishes at the same vertex, so **both** of its ends are incident to that vertex and each end is counted separately.\n",
+   "spec_links": [
+    "spcpt_g6QKkK28sx7kfVZp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_86f8TVZjBrYQVTt5",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete Euler's handshaking lemma, which holds for any undirected graph:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{sum of the degrees of the vertices} = \\_\\_\\_\\_\\_\\_ \\times \\text{the number of edges}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed lemma is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{sum of the degrees of the vertices} = 2 \\times \\text{the number of edges}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every edge has two ends, and each end adds one to the degree of the vertex it meets."
+    }
+   ],
+   "front_md": "Complete Euler's handshaking lemma, which holds for any undirected graph:\n\n`\\text{sum of the degrees of the vertices} = \\_\\_\\_\\_\\_\\_ \\times \\text{the number of edges}`\n",
+   "back_md": "The completed lemma is:\n\n$\\text{sum of the degrees of the vertices} = 2 \\times \\text{the number of edges}$\n\nEvery edge has two ends, and each end adds one to the degree of the vertex it meets.\n",
+   "spec_links": [
+    "spcpt_g6QKkK28sx7kfVZp"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2GnkmrTPmv9g9swS",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the handshaking lemma tell you about the number of odd vertices?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The number of odd vertices in a graph is always **even**, and it may be zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since all the degrees add up to an even total, the odd degrees among them have to pair up."
+    }
+   ],
+   "front_md": "What does the handshaking lemma tell you about the number of odd vertices?\n",
+   "back_md": "The number of odd vertices in a graph is always **even**, and it may be zero.\n\nSince all the degrees add up to an even total, the odd degrees among them have to pair up.\n",
+   "spec_links": [
+    "spcpt_g6QKkK28sx7kfVZp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_spRnntYCpN2d8t35",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between an Eulerian cycle and an Eulerian trail?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both use **every edge of the graph exactly once**."
+    },
+    {
+     "type": "paragraph",
+     "md": "An Eulerian **cycle** returns to the vertex it set out from, while an Eulerian **trail** finishes at a different vertex from the one it began at."
+    }
+   ],
+   "front_md": "What is the difference between an Eulerian cycle and an Eulerian trail?\n",
+   "back_md": "Both use **every edge of the graph exactly once**.\n\nAn Eulerian **cycle** returns to the vertex it set out from, while an Eulerian **trail** finishes at a different vertex from the one it began at.\n",
+   "spec_links": [
+    "spcpt_Mzny5k3hmzPrjX2J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R35NR2S6VY6DpxBx",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An Eulerian cycle may pass through the same vertex more than once."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The condition is on the **edges** rather than the vertices: every edge is used exactly once, and nothing prevents the route arriving at a vertex again along a different edge."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why an Eulerian cycle is not a cycle in the ordinary sense of the word."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn Eulerian cycle may pass through the same vertex more than once.\n",
+   "back_md": "**True.**\n\nThe condition is on the **edges** rather than the vertices: every edge is used exactly once, and nothing prevents the route arriving at a vertex again along a different edge.\n\nThat is why an Eulerian cycle is not a cycle in the ordinary sense of the word.\n",
+   "spec_links": [
+    "spcpt_Mzny5k3hmzPrjX2J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Dbk3P36KHZ8dzhcs",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What condition makes a graph Eulerian, and what makes it semi-Eulerian?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A graph is **Eulerian** when every one of its vertices has **even** degree, and it then contains an Eulerian cycle."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is **semi-Eulerian** when exactly **two** vertices have odd degree, and those two are where an Eulerian trail has to start and finish."
+    }
+   ],
+   "front_md": "What condition makes a graph Eulerian, and what makes it semi-Eulerian?\n",
+   "back_md": "A graph is **Eulerian** when every one of its vertices has **even** degree, and it then contains an Eulerian cycle.\n\nIt is **semi-Eulerian** when exactly **two** vertices have odd degree, and those two are where an Eulerian trail has to start and finish.\n",
+   "spec_links": [
+    "spcpt_Mzny5k3hmzPrjX2J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cBB3cWzB6Cqc365G",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you tell quickly whether a graph is Eulerian or semi-Eulerian?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Ask whether the graph can be drawn without lifting your pen from the paper and without going over any edge twice."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it can, the graph is Eulerian or semi-Eulerian, because tracing it that way is exactly what using every edge once means."
+    }
+   ],
+   "front_md": "How can you tell quickly whether a graph is Eulerian or semi-Eulerian?\n",
+   "back_md": "Ask whether the graph can be drawn without lifting your pen from the paper and without going over any edge twice.\n\nIf it can, the graph is Eulerian or semi-Eulerian, because tracing it that way is exactly what using every edge once means.\n",
+   "spec_links": [
+    "spcpt_Mzny5k3hmzPrjX2J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xt4Nxt4CKN2JmHXf",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_dQ2RXx7Ms9bQtKMv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A graph has vertices of degree $2$, $4$, $3$, $3$ and $4$. Is it Eulerian, semi-Eulerian, or neither?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **semi-Eulerian**, because exactly two of its vertices have odd degree, namely the two of degree $3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "An Eulerian trail therefore exists, and it must begin at one of those two vertices and end at the other."
+    }
+   ],
+   "front_md": "A graph has vertices of degree $2$, $4$, $3$, $3$ and $4$. Is it Eulerian, semi-Eulerian, or neither?\n",
+   "back_md": "It is **semi-Eulerian**, because exactly two of its vertices have odd degree, namely the two of degree $3$.\n\nAn Eulerian trail therefore exists, and it must begin at one of those two vertices and end at the other.\n",
+   "spec_links": [
+    "spcpt_Mzny5k3hmzPrjX2J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Zh2QdMDxHgMdTgWN",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_gxGbxXDfs8QgDwDV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **Hamiltonian cycle**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A Hamiltonian cycle is a cycle that visits **every vertex** of the graph exactly once and returns to the vertex it started from."
+    },
+    {
+     "type": "paragraph",
+     "md": "A graph that contains one is called a **Hamiltonian graph**."
+    }
+   ],
+   "front_md": "Define a **Hamiltonian cycle**.\n",
+   "back_md": "A Hamiltonian cycle is a cycle that visits **every vertex** of the graph exactly once and returns to the vertex it started from.\n\nA graph that contains one is called a **Hamiltonian graph**.\n",
+   "spec_links": [
+    "spcpt_Y6ZGFfHSfjhqhh5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rjPWRt4pgWsPZFkj",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_gxGbxXDfs8QgDwDV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a Hamiltonian path differ from a Hamiltonian cycle?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A Hamiltonian **path** visits every vertex exactly once but does not have to come back to where it began."
+    },
+    {
+     "type": "paragraph",
+     "md": "A Hamiltonian **cycle** does the same and then returns to its starting vertex."
+    }
+   ],
+   "front_md": "How does a Hamiltonian path differ from a Hamiltonian cycle?\n",
+   "back_md": "A Hamiltonian **path** visits every vertex exactly once but does not have to come back to where it began.\n\nA Hamiltonian **cycle** does the same and then returns to its starting vertex.\n",
+   "spec_links": [
+    "spcpt_Y6ZGFfHSfjhqhh5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6zzhWcWf8P6GgVT4",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_gxGbxXDfs8QgDwDV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What makes a graph semi-Hamiltonian?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A graph is semi-Hamiltonian when it contains a Hamiltonian **path** but no Hamiltonian **cycle**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every vertex can be visited once in a single journey, but there is no way of closing that journey back to its starting point."
+    }
+   ],
+   "front_md": "What makes a graph semi-Hamiltonian?\n",
+   "back_md": "A graph is semi-Hamiltonian when it contains a Hamiltonian **path** but no Hamiltonian **cycle**.\n\nEvery vertex can be visited once in a single journey, but there is no way of closing that journey back to its starting point.\n",
+   "spec_links": [
+    "spcpt_Y6ZGFfHSfjhqhh5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s8gNQzvCrmkWnCr4",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_gxGbxXDfs8QgDwDV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A Hamiltonian cycle must use every edge of the graph."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A Hamiltonian cycle places its condition on the **vertices**: each one has to be visited exactly once."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any edges that are not needed in order to make that journey are simply left unused."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA Hamiltonian cycle must use every edge of the graph.\n",
+   "back_md": "**False.**\n\nA Hamiltonian cycle places its condition on the **vertices**: each one has to be visited exactly once.\n\nAny edges that are not needed in order to make that journey are simply left unused.\n",
+   "spec_links": [
+    "spcpt_Y6ZGFfHSfjhqhh5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r82bPJdm9twPQX8D",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_gxGbxXDfs8QgDwDV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are asked to show that a graph is Hamiltonian. What is the only way to do it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Identify an actual Hamiltonian cycle** and write it out, for example as the sequence of vertices $A B C F D E A$."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no test on the degrees of the vertices that settles the question, so the cycle itself has to serve as the evidence."
+    }
+   ],
+   "front_md": "You are asked to show that a graph is Hamiltonian. What is the only way to do it?\n",
+   "back_md": "**Identify an actual Hamiltonian cycle** and write it out, for example as the sequence of vertices $A B C F D E A$.\n\nThere is no test on the degrees of the vertices that settles the question, so the cycle itself has to serve as the evidence.\n",
+   "spec_links": [
+    "spcpt_Y6ZGFfHSfjhqhh5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xt6VyjYX4vCNj26H",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_gxGbxXDfs8QgDwDV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A graph has been shown to be Hamiltonian by writing down one Hamiltonian cycle. Could a different answer also be correct?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A graph can contain **several** different Hamiltonian cycles, so another student's answer may be just as correct."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any one of them is enough to establish that the graph is Hamiltonian."
+    }
+   ],
+   "front_md": "A graph has been shown to be Hamiltonian by writing down one Hamiltonian cycle. Could a different answer also be correct?\n",
+   "back_md": "A graph can contain **several** different Hamiltonian cycles, so another student's answer may be just as correct.\n\nAny one of them is enough to establish that the graph is Hamiltonian.\n",
+   "spec_links": [
+    "spcpt_Y6ZGFfHSfjhqhh5t"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:56Z",
+ "course_slug": "ial-maths-20-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/flashcards/hypothesis-testing/hypothesis-testing-binomial-and-poisson-distributions/",
+  "section_slug": "hypothesis-testing",
+  "section_name": "Hypothesis Testing",
+  "topic_slug": "hypothesis-testing-binomial-and-poisson-distributions",
+  "title": "Hypothesis Testing (Binomial & Poisson Distributions)",
+  "order": 1
+ },
+ "card_count": 14,
+ "card_types": {
+  "question_and_answer": 11,
+  "fill_in_the_blanks": 1,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 14,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_9FnQfvCFgRK3pffn",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a binomial hypothesis test, what is the population parameter being tested and what is the test statistic?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The parameter is $p$, the probability of success, and the test statistic is the **number of successes** in a fixed number of trials $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the hypotheses are written in terms of $p$, as $\\text{H}_{0} : p = \\dots$, and under $\\text{H}_{0}$ the test statistic follows `X \\sim \\text{B} \\left(n , p\\right)` with the assumed value of $p$ substituted in."
+    },
+    {
+     "type": "paragraph",
+     "md": "Say in words what $p$ is the probability **of** before writing anything down, since the hypotheses mean nothing without it."
+    }
+   ],
+   "front_md": "In a binomial hypothesis test, what is the population parameter being tested and what is the test statistic?\n",
+   "back_md": "The parameter is $p$, the probability of success, and the test statistic is the **number of successes** in a fixed number of trials $n$.\n\nSo the hypotheses are written in terms of $p$, as $\\text{H}_{0} : p = \\dots$, and under $\\text{H}_{0}$ the test statistic follows `X \\sim \\text{B} \\left(n , p\\right)` with the assumed value of $p$ substituted in.\n\nSay in words what $p$ is the probability **of** before writing anything down, since the hypotheses mean nothing without it.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z2VS9s37nwwBZVXH",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two conditions that make $c$ the critical value in a one-tailed binomial test at the `\\alpha \\%` level."
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing for a decrease:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\le c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\le \\_\\_\\_\\_\\_\\_\\right) > \\alpha \\%`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Testing for an increase:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\ge c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\ge \\_\\_\\_\\_\\_\\_\\right) > \\alpha \\%`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed conditions are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\le c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\le c + 1\\right) > \\alpha \\%`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\ge c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\ge c - 1\\right) > \\alpha \\%`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The second condition in each pair is the check that you have not gone one value too far into the tail."
+    },
+    {
+     "type": "paragraph",
+     "md": "The offsets run opposite ways because the next value the region would swallow is $c + 1$ in a lower tail and $c - 1$ in an upper one."
+    }
+   ],
+   "front_md": "Complete the two conditions that make $c$ the critical value in a one-tailed binomial test at the `\\alpha \\%` level.\n\nTesting for a decrease:\n\n`\\text{P} \\left(X \\le c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\le \\_\\_\\_\\_\\_\\_\\right) > \\alpha \\%`\n\nTesting for an increase:\n\n`\\text{P} \\left(X \\ge c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\ge \\_\\_\\_\\_\\_\\_\\right) > \\alpha \\%`\n",
+   "back_md": "The completed conditions are:\n\n`\\text{P} \\left(X \\le c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\le c + 1\\right) > \\alpha \\%`\n\n`\\text{P} \\left(X \\ge c\\right) \\le \\alpha \\% \\text{, and } \\text{P} \\left(X \\ge c - 1\\right) > \\alpha \\%`\n\nThe second condition in each pair is the check that you have not gone one value too far into the tail.\n\nThe offsets run opposite ways because the next value the region would swallow is $c + 1$ in a lower tail and $c - 1$ in an upper one.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_P3QGcwQgHmX4SRcN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When finding a binomial critical value, why is it not enough to find some value $c$ with `\\text{P} \\left(X \\le c\\right) \\le \\alpha \\%`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because plenty of values satisfy that on their own, and what you need is the **largest** of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The critical value is the least extreme value that still rejects $\\text{H}_{0}$, so the region has to be as big as the significance level allows and no bigger, which is exactly what the second condition confirms."
+    },
+    {
+     "type": "paragraph",
+     "md": "Stopping at the first value that happens to work gives a critical region that is too small, and an actual significance level well below the one the question asked for."
+    }
+   ],
+   "front_md": "When finding a binomial critical value, why is it not enough to find some value $c$ with `\\text{P} \\left(X \\le c\\right) \\le \\alpha \\%`?\n",
+   "back_md": "Because plenty of values satisfy that on their own, and what you need is the **largest** of them.\n\nThe critical value is the least extreme value that still rejects $\\text{H}_{0}$, so the region has to be as big as the significance level allows and no bigger, which is exactly what the second condition confirms.\n\nStopping at the first value that happens to work gives a critical region that is too small, and an actual significance level well below the one the question asked for.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ymMZDFK742FbKc93",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the critical regions for a **two-tailed** binomial test?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Halve the significance level and search each tail separately, using `\\frac{\\alpha}{2} \\%` as the ceiling in the lower tail and again in the upper one."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives two critical values, one at each end, and $\\text{H}_{0}$ is rejected if the observed value falls in either region."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two regions usually come out **different sizes**, because a binomial distribution is only symmetrical when $p = 0 . 5$."
+    }
+   ],
+   "front_md": "How do you find the critical regions for a **two-tailed** binomial test?\n",
+   "back_md": "Halve the significance level and search each tail separately, using `\\frac{\\alpha}{2} \\%` as the ceiling in the lower tail and again in the upper one.\n\nThat gives two critical values, one at each end, and $\\text{H}_{0}$ is rejected if the observed value falls in either region.\n\nThe two regions usually come out **different sizes**, because a binomial distribution is only symmetrical when $p = 0 . 5$.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4WVdsRmT2GW5Bh2v",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a two-tailed binomial test at the 5% level, each critical region carries a probability of exactly 2.5%."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "2.5% is the **ceiling** for each tail rather than the probability achieved: the distribution is discrete, so each region ends up at or below 2.5%."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two are usually different from one another as well, and adding them gives the **actual significance level**, which comes out below 5%."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a two-tailed binomial test at the 5% level, each critical region carries a probability of exactly 2.5%.\n",
+   "back_md": "**False.**\n\n2.5% is the **ceiling** for each tail rather than the probability achieved: the distribution is discrete, so each region ends up at or below 2.5%.\n\nThe two are usually different from one another as well, and adding them gives the **actual significance level**, which comes out below 5%.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bw7pwSD7Ggrtvh3G",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Your values of $n$ and $p$ are not in the cumulative binomial table. How can the test still be carried out?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work the probabilities out from the binomial formula instead, or use a **normal approximation** where $n$ is large and $p$ is close to 0.5."
+    },
+    {
+     "type": "paragraph",
+     "md": "The approximation route needs a continuity correction, since it puts a continuous distribution in place of a discrete one."
+    },
+    {
+     "type": "paragraph",
+     "md": "Which route is open to you is decided by the values of $n$ and $p$ rather than by preference."
+    }
+   ],
+   "front_md": "Your values of $n$ and $p$ are not in the cumulative binomial table. How can the test still be carried out?\n",
+   "back_md": "Work the probabilities out from the binomial formula instead, or use a **normal approximation** where $n$ is large and $p$ is close to 0.5.\n\nThe approximation route needs a continuity correction, since it puts a continuous distribution in place of a discrete one.\n\nWhich route is open to you is decided by the values of $n$ and $p$ rather than by preference.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4hTTg2YGyJ58jzJ8",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_cxxK8SWHjCf4pmsy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Jacques claims fewer than 40% of shoppers buy his bread. Of a random sample of 12, two do. Test his claim at the 10% level."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With $p$ the proportion of shoppers who buy his bread, $\\text{H}_{0} : p = 0 . 4$ and $\\text{H}_{1} : p < 0 . 4$, and under $\\text{H}_{0}$ the count follows `X \\sim \\text{B} \\left(12 , 0 . 4\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The cumulative table gives `\\text{P} \\left(X \\le 2\\right) = 0 . 0834`, which is less than 0.10."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $\\text{H}_{0}$ is rejected: there is sufficient evidence at the 10% level to support Jacques' claim that fewer than 40% of shoppers buy his bread."
+    }
+   ],
+   "front_md": "Jacques claims fewer than 40% of shoppers buy his bread. Of a random sample of 12, two do. Test his claim at the 10% level.\n",
+   "back_md": "With $p$ the proportion of shoppers who buy his bread, $\\text{H}_{0} : p = 0 . 4$ and $\\text{H}_{1} : p < 0 . 4$, and under $\\text{H}_{0}$ the count follows `X \\sim \\text{B} \\left(12 , 0 . 4\\right)`.\n\nThe cumulative table gives `\\text{P} \\left(X \\le 2\\right) = 0 . 0834`, which is less than 0.10.\n\nSo $\\text{H}_{0}$ is rejected: there is sufficient evidence at the 10% level to support Jacques' claim that fewer than 40% of shoppers buy his bread.\n",
+   "spec_links": [
+    "spcpt_FgTdMGnP4jYnHk7C"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p3ZMcSNjS4XYtns9",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a Poisson hypothesis test, what is the population parameter being tested and what is the random variable?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The parameter is $λ$, the mean number of occurrences in the stated interval, sometimes written $μ$ because it is a population mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "The random variable counts the occurrences in that interval, so under $\\text{H}_{0}$ it follows `X \\sim \\text{Po} \\left(\\lambda\\right)` with the assumed value of $λ$ put in."
+    },
+    {
+     "type": "paragraph",
+     "md": "Define $λ$ in words, naming the interval it refers to, before writing $\\text{H}_{0} : λ = \\dots$."
+    }
+   ],
+   "front_md": "In a Poisson hypothesis test, what is the population parameter being tested and what is the random variable?\n",
+   "back_md": "The parameter is $λ$, the mean number of occurrences in the stated interval, sometimes written $μ$ because it is a population mean.\n\nThe random variable counts the occurrences in that interval, so under $\\text{H}_{0}$ it follows `X \\sim \\text{Po} \\left(\\lambda\\right)` with the assumed value of $λ$ put in.\n\nDefine $λ$ in words, naming the interval it refers to, before writing $\\text{H}_{0} : λ = \\dots$.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MDjh5HqhbQggs5Vt",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A blog averages 8 likes per 24 hours, and the test uses a randomly chosen 12-hour period. What value of $λ$ do you test with?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$λ = 4$, because $λ$ has to match the interval the observation actually covers and 12 hours is half of 24."
+    },
+    {
+     "type": "paragraph",
+     "md": "The claimed rate of 8 belongs to a 24-hour interval, so it must be rescaled before a single probability is worked out."
+    },
+    {
+     "type": "paragraph",
+     "md": "Getting this wrong changes every probability in the test, and it is the step most easily missed because the rate and the interval are usually stated in different sentences."
+    }
+   ],
+   "front_md": "A blog averages 8 likes per 24 hours, and the test uses a randomly chosen 12-hour period. What value of $λ$ do you test with?\n",
+   "back_md": "$λ = 4$, because $λ$ has to match the interval the observation actually covers and 12 hours is half of 24.\n\nThe claimed rate of 8 belongs to a 24-hour interval, so it must be rescaled before a single probability is worked out.\n\nGetting this wrong changes every probability in the test, and it is the step most easily missed because the rate and the interval are usually stated in different sentences.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n4bCJy5KfztPPWNv",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is searching the **upper** tail for a Poisson critical value different from searching the lower tail?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a Poisson variable has no largest value, so the upper region can never be listed out and totalled directly."
+    },
+    {
+     "type": "paragraph",
+     "md": "You work with `\\text{P} \\left(X \\ge c\\right) = 1 - \\text{P} \\left(X \\le c - 1\\right)` instead, taking a cumulative entry from the table and subtracting it from 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "The lower tail needs none of that, since `\\text{P} \\left(X \\le c\\right)` is read straight off the table."
+    }
+   ],
+   "front_md": "Why is searching the **upper** tail for a Poisson critical value different from searching the lower tail?\n",
+   "back_md": "Because a Poisson variable has no largest value, so the upper region can never be listed out and totalled directly.\n\nYou work with `\\text{P} \\left(X \\ge c\\right) = 1 - \\text{P} \\left(X \\le c - 1\\right)` instead, taking a cumulative entry from the table and subtracting it from 1.\n\nThe lower tail needs none of that, since `\\text{P} \\left(X \\le c\\right)` is read straight off the table.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZkxDMrd9mGDQXxJw",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a **Type I error**, and which quantity measures its probability?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **Type I error** is rejecting the null hypothesis when it was in fact true."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its probability is the **actual significance level** of the test, which for a discrete distribution such as the Poisson comes out at or below the level the question stated."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the unavoidable price of the method: a result inside the critical region is unlikely when $\\text{H}_{0}$ holds, but unlikely is not impossible."
+    }
+   ],
+   "front_md": "What is a **Type I error**, and which quantity measures its probability?\n",
+   "back_md": "A **Type I error** is rejecting the null hypothesis when it was in fact true.\n\nIts probability is the **actual significance level** of the test, which for a discrete distribution such as the Poisson comes out at or below the level the question stated.\n\nIt is the unavoidable price of the method: a result inside the critical region is unlikely when $\\text{H}_{0}$ holds, but unlikely is not impossible.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DBPx3KkqPHVR96wg",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`X \\sim \\text{Po} \\left(4\\right)` and a two-tailed test is run at the 5% level. Find the critical regions."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each tail takes 2.5%, so in the lower tail `\\text{P} \\left(X \\le 0\\right) = 0 . 0183` is under it while `\\text{P} \\left(X \\le 1\\right) = 0 . 0916` is over, giving the region $X \\leq 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "In the upper tail `\\text{P} \\left(X \\ge 9\\right) = 1 - 0 . 9786 = 0 . 0214` is under 0.025 while `\\text{P} \\left(X \\ge 8\\right) = 1 - 0 . 9489 = 0 . 0511` is over, giving the region $X \\geq 9$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two regions come out very different in size, which is what a small value of $λ$ does to a Poisson distribution."
+    }
+   ],
+   "front_md": "`X \\sim \\text{Po} \\left(4\\right)` and a two-tailed test is run at the 5% level. Find the critical regions.\n",
+   "back_md": "Each tail takes 2.5%, so in the lower tail `\\text{P} \\left(X \\le 0\\right) = 0 . 0183` is under it while `\\text{P} \\left(X \\le 1\\right) = 0 . 0916` is over, giving the region $X \\leq 0$.\n\nIn the upper tail `\\text{P} \\left(X \\ge 9\\right) = 1 - 0 . 9786 = 0 . 0214` is under 0.025 while `\\text{P} \\left(X \\ge 8\\right) = 1 - 0 . 9489 = 0 . 0511` is over, giving the region $X \\geq 9$.\n\nThe two regions come out very different in size, which is what a small value of $λ$ does to a Poisson distribution.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HWzrrPTwb2PSfPYV",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A two-tailed Poisson test has critical regions $X \\leq 0$ and $X \\geq 9$, with tail probabilities $0 . 0183$ and $0 . 0214$. Find the actual significance level."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Add the two tail probabilities: $0 . 0183 + 0 . 0214 = 0 . 0397$, so the actual significance level is `3 . 97 \\%`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It falls short of the 5% asked for because a discrete distribution cannot place its critical values so as to use the whole allowance."
+    },
+    {
+     "type": "paragraph",
+     "md": "An observed value of 7 lies in neither region, so $\\text{H}_{0}$ would not be rejected and there is insufficient evidence of a change."
+    }
+   ],
+   "front_md": "A two-tailed Poisson test has critical regions $X \\leq 0$ and $X \\geq 9$, with tail probabilities $0 . 0183$ and $0 . 0214$. Find the actual significance level.\n",
+   "back_md": "Add the two tail probabilities: $0 . 0183 + 0 . 0214 = 0 . 0397$, so the actual significance level is `3 . 97 \\%`.\n\nIt falls short of the 5% asked for because a discrete distribution cannot place its critical values so as to use the whole allowance.\n\nAn observed value of 7 lies in neither region, so $\\text{H}_{0}$ would not be rejected and there is insufficient evidence of a change.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vqjfvFCNp9r2c3m3",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_PmN2Cs75WPqY4cnG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A two-tailed Poisson test can have no lower critical region at all."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If $λ$ is small enough that even `\\text{P} \\left(X = 0\\right)` exceeds half the significance level, then no value is extreme enough to reject $\\text{H}_{0}$ in the lower tail."
+    },
+    {
+     "type": "paragraph",
+     "md": "For `\\text{Po} \\left(1\\right)` at the 5% level `\\text{P} \\left(X = 0\\right) = 0 . 368` against a ceiling of 0.025, so the lower tail is empty and only large values can produce a rejection."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA two-tailed Poisson test can have no lower critical region at all.\n",
+   "back_md": "**True.**\n\nIf $λ$ is small enough that even `\\text{P} \\left(X = 0\\right)` exceeds half the significance level, then no value is extreme enough to reject $\\text{H}_{0}$ in the lower tail.\n\nFor `\\text{Po} \\left(1\\right)` at the 5% level `\\text{P} \\left(X = 0\\right) = 0 . 368` against a ceiling of 0.025, so the lower tail is empty and only large values can produce a rejection.\n",
+   "spec_links": [
+    "spcpt_2cYxMfGpbS5NYNxv"
+   ],
+   "flags": []
+  }
+ ]
+}

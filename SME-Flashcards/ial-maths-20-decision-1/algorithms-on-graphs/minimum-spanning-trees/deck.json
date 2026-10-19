@@ -1,0 +1,883 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:22:02Z",
+ "course_slug": "ial-maths-20-decision-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/flashcards/algorithms-on-graphs/minimum-spanning-trees/",
+  "section_slug": "algorithms-on-graphs",
+  "section_name": "Algorithms on Graphs",
+  "topic_slug": "minimum-spanning-trees",
+  "title": "Minimum Spanning Trees",
+  "order": 0
+ },
+ "card_count": 28,
+ "card_types": {
+  "question_and_answer": 18,
+  "keyword_definition": 3,
+  "fill_in_the_blanks": 3,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 28,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_pTzzG84wwSNYVNB2",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a matrix representing a graph, what do the rows and columns stand for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **rows** are labelled with the 'from' vertices and the **columns** with the 'to' vertices."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each entry therefore describes the connection running from its row's vertex to its column's vertex."
+    }
+   ],
+   "front_md": "In a matrix representing a graph, what do the rows and columns stand for?\n",
+   "back_md": "The **rows** are labelled with the 'from' vertices and the **columns** with the 'to' vertices.\n\nEach entry therefore describes the connection running from its row's vertex to its column's vertex.\n",
+   "spec_links": [
+    "spcpt_mpPyxNyDHWtynYG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x2NB2kg7k2n5mZdk",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define an **adjacency matrix**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An adjacency matrix is a **square** matrix whose rows and columns are both headed by all the vertices of the graph."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each entry records the **number of direct connections** between that pair of vertices, rather than how long or how costly those connections are."
+    }
+   ],
+   "front_md": "Define an **adjacency matrix**.\n",
+   "back_md": "An adjacency matrix is a **square** matrix whose rows and columns are both headed by all the vertices of the graph.\n\nEach entry records the **number of direct connections** between that pair of vertices, rather than how long or how costly those connections are.\n",
+   "spec_links": [
+    "spcpt_c4x6xkBRwStbd9wY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k3KTM8MSX8THDCPm",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **distance matrix**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A distance matrix records the **weight** of the edge joining each pair of vertices, where the weight may be a cost, a distance or a time."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is not the same thing as an adjacency matrix, which counts connections rather than measuring them."
+    }
+   ],
+   "front_md": "Define a **distance matrix**.\n",
+   "back_md": "A distance matrix records the **weight** of the edge joining each pair of vertices, where the weight may be a cost, a distance or a time.\n\nIt is not the same thing as an adjacency matrix, which counts connections rather than measuring them.\n",
+   "spec_links": [
+    "spcpt_c4x6xkBRwStbd9wY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NRTnbfnT99NKzppJ",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the contrast between the two kinds of matrix:"
+    },
+    {
+     "type": "paragraph",
+     "md": "In an adjacency matrix, no connection between a pair of vertices is shown by an entry of `\\_\\_\\_\\_\\_\\_` in the cell, whereas in a distance matrix it is shown by leaving the cell `\\_\\_\\_\\_\\_\\_` instead."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed contrast is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "In an adjacency matrix, no connection between a pair of vertices is shown by an entry of **0** in the cell, whereas in a distance matrix it is shown by leaving the cell **empty** instead."
+    },
+    {
+     "type": "paragraph",
+     "md": "A distance matrix cannot use zero for this, because zero would be a perfectly good weight."
+    }
+   ],
+   "front_md": "Complete the contrast between the two kinds of matrix:\n\nIn an adjacency matrix, no connection between a pair of vertices is shown by an entry of `\\_\\_\\_\\_\\_\\_` in the cell, whereas in a distance matrix it is shown by leaving the cell `\\_\\_\\_\\_\\_\\_` instead.\n",
+   "back_md": "The completed contrast is:\n\nIn an adjacency matrix, no connection between a pair of vertices is shown by an entry of **0** in the cell, whereas in a distance matrix it is shown by leaving the cell **empty** instead.\n\nA distance matrix cannot use zero for this, because zero would be a perfectly good weight.\n",
+   "spec_links": [
+    "spcpt_c4x6xkBRwStbd9wY"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_5MYH6JHngCP9Thjr",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a loop show up in an adjacency matrix, and what value does it take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A loop appears as a value on the **leading diagonal**, the line of cells running from the top left to the bottom right."
+    },
+    {
+     "type": "paragraph",
+     "md": "In an undirected graph that value is **2**, because the loop can be travelled in either direction, while a directed loop gives **1**."
+    }
+   ],
+   "front_md": "How does a loop show up in an adjacency matrix, and what value does it take?\n",
+   "back_md": "A loop appears as a value on the **leading diagonal**, the line of cells running from the top left to the bottom right.\n\nIn an undirected graph that value is **2**, because the loop can be travelled in either direction, while a directed loop gives **1**.\n",
+   "spec_links": [
+    "spcpt_c4x6xkBRwStbd9wY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bn9rKBrhFzywTvkd",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A matrix representing an undirected graph is symmetrical about its leading diagonal."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In an undirected graph the connection from $A$ to $B$ is the very same connection as the one from $B$ to $A$, so the two cells must agree."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **directed** graph is not symmetrical, because the two directions can carry different values or exist only one way."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA matrix representing an undirected graph is symmetrical about its leading diagonal.\n",
+   "back_md": "**True.**\n\nIn an undirected graph the connection from $A$ to $B$ is the very same connection as the one from $B$ to $A$, so the two cells must agree.\n\nA **directed** graph is not symmetrical, because the two directions can carry different values or exist only one way.\n",
+   "spec_links": [
+    "spcpt_c4x6xkBRwStbd9wY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FsNTr8bBTYRK62FD",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are drawing a network from a distance matrix, and two cells between a pair of vertices hold different values. What does that tell you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The graph is **directed**, so those two vertices must be joined by **two separate edges**, each labelled with its own weight and its own direction."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where the two cells agree, a single undirected edge carrying that weight is all that is needed."
+    }
+   ],
+   "front_md": "You are drawing a network from a distance matrix, and two cells between a pair of vertices hold different values. What does that tell you?\n",
+   "back_md": "The graph is **directed**, so those two vertices must be joined by **two separate edges**, each labelled with its own weight and its own direction.\n\nWhere the two cells agree, a single undirected edge carrying that weight is all that is needed.\n",
+   "spec_links": [
+    "spcpt_c4x6xkBRwStbd9wY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tDgr5DmKm36NVnjw",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_FvFjf76WQ54CfQ9B",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a matrix a useful way to present a network?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It holds every connection and its weight as a table, so a network can be given in full without any drawing at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "The weight of a **walk** through the network can then be worked out simply by reading off and adding the relevant entries."
+    }
+   ],
+   "front_md": "Why is a matrix a useful way to present a network?\n",
+   "back_md": "It holds every connection and its weight as a table, so a network can be given in full without any drawing at all.\n\nThe weight of a **walk** through the network can then be worked out simply by reading off and adding the relevant entries.\n",
+   "spec_links": [
+    "spcpt_mpPyxNyDHWtynYG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_krGHn6qKgGvhnTMD",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **minimum spanning tree**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A minimum spanning tree is a spanning tree whose total edge weight is as **small as possible**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is sometimes called a **minimum connector**, since it joins every vertex of the network together in the most economical way."
+    }
+   ],
+   "front_md": "Define a **minimum spanning tree**.\n",
+   "back_md": "A minimum spanning tree is a spanning tree whose total edge weight is as **small as possible**.\n\nIt is sometimes called a **minimum connector**, since it joins every vertex of the network together in the most economical way.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hxM5xtJvnmWYGMZz",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the fact about the size of a minimum spanning tree:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A minimum spanning tree of a network with $n$ vertices contains exactly `\\_\\_\\_\\_\\_\\_` edges."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed fact is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A minimum spanning tree of a network with $n$ vertices contains exactly $n - 1$ edges."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any more would close a **cycle**, which a tree can never contain, and any fewer would leave some vertex unconnected."
+    }
+   ],
+   "front_md": "Complete the fact about the size of a minimum spanning tree:\n\nA minimum spanning tree of a network with $n$ vertices contains exactly `\\_\\_\\_\\_\\_\\_` edges.\n",
+   "back_md": "The completed fact is:\n\nA minimum spanning tree of a network with $n$ vertices contains exactly $n - 1$ edges.\n\nAny more would close a **cycle**, which a tree can never contain, and any fewer would leave some vertex unconnected.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_bv9Y7vPN6QQRc4kx",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must you do before Kruskal's algorithm can begin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sort **every edge of the network into increasing order of weight**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The algorithm then works its way down that list, so the ordering has to be complete before the first edge is chosen."
+    }
+   ],
+   "front_md": "What must you do before Kruskal's algorithm can begin?\n",
+   "back_md": "Sort **every edge of the network into increasing order of weight**.\n\nThe algorithm then works its way down that list, so the ordering has to be complete before the first edge is chosen.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pYT7Gs4NDSfCMcsv",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Kruskal's algorithm begins by choosing a starting vertex."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Kruskal's algorithm begins with the **edge of least weight** in the whole network, wherever in the network that edge happens to lie."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the edges that are ranked, not the vertices, so no starting vertex is ever chosen."
+    }
+   ],
+   "front_md": "**True or False?**\n\nKruskal's algorithm begins by choosing a starting vertex.\n",
+   "back_md": "**False.**\n\nKruskal's algorithm begins with the **edge of least weight** in the whole network, wherever in the network that edge happens to lie.\n\nIt is the edges that are ranked, not the vertices, so no starting vertex is ever chosen.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Wr5vDYVJMYQzhc98",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Kruskal's algorithm you come to the next edge on the sorted list. When should you reject it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Reject it whenever adding it would form a **cycle** with the edges already chosen."
+    },
+    {
+     "type": "paragraph",
+     "md": "Otherwise add it to the tree and carry on down the list, and where two edges have equal weight either one may be taken."
+    }
+   ],
+   "front_md": "In Kruskal's algorithm you come to the next edge on the sorted list. When should you reject it?\n",
+   "back_md": "Reject it whenever adding it would form a **cycle** with the edges already chosen.\n\nOtherwise add it to the tree and carry on down the list, and where two edges have equal weight either one may be taken.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GgZWZXn9FYjz3fQN",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you know when Kruskal's algorithm has finished?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is finished once **every vertex of the network has been connected** into the tree."
+    },
+    {
+     "type": "paragraph",
+     "md": "At that point no further edge could be added without closing a cycle."
+    }
+   ],
+   "front_md": "How do you know when Kruskal's algorithm has finished?\n",
+   "back_md": "It is finished once **every vertex of the network has been connected** into the tree.\n\nAt that point no further edge could be added without closing a cycle.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7fjpPY5qNqMpGxkr",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_FpgmrBzTdNV4jPw2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Kruskal's algorithm selects edges of weight $1$, $2$, $4$, $5$, $5$, $6$ and $7$. What is the total weight of the minimum spanning tree?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The total weight is $30$, found by adding the weights of the selected edges: $1 + 2 + 4 + 5 + 5 + 6 + 7 = 30$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Edges that were rejected along the way are never counted, since they form no part of the tree."
+    }
+   ],
+   "front_md": "Kruskal's algorithm selects edges of weight $1$, $2$, $4$, $5$, $5$, $6$ and $7$. What is the total weight of the minimum spanning tree?\n",
+   "back_md": "The total weight is $30$, found by adding the weights of the selected edges: $1 + 2 + 4 + 5 + 5 + 6 + 7 = 30$.\n\nEdges that were rejected along the way are never counted, since they form no part of the tree.\n",
+   "spec_links": [
+    "spcpt_jsvMbYSNrrYY9h3d"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cqHq5Ms2Rzmf4N2W",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does Prim's algorithm find, and what forms of information can it use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Prim's algorithm finds a **minimum spanning tree** for a network."
+    },
+    {
+     "type": "paragraph",
+     "md": "It can be applied whether the network is presented as a **graph** or as a **matrix**, which is not true of every method."
+    }
+   ],
+   "front_md": "What does Prim's algorithm find, and what forms of information can it use?\n",
+   "back_md": "Prim's algorithm finds a **minimum spanning tree** for a network.\n\nIt can be applied whether the network is presented as a **graph** or as a **matrix**, which is not true of every method.\n",
+   "spec_links": [
+    "spcpt_dm8d8NdqXZ86qCtJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K7h5gyvxbGmb3Tpn",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does Prim's algorithm begin?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Start at **any vertex** you like, and add the edge of least weight that is connected to it."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no rule about which vertex to pick, so any of them will serve."
+    }
+   ],
+   "front_md": "How does Prim's algorithm begin?\n",
+   "back_md": "Start at **any vertex** you like, and add the edge of least weight that is connected to it.\n\nThere is no rule about which vertex to pick, so any of them will serve.\n",
+   "spec_links": [
+    "spcpt_6MrxckS4B59GZns8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CQgFwM6KrQhcXVs9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At each stage of Prim's algorithm, which edge do you add next?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The edge of **least weight** that joins a vertex already in the tree to a vertex **not yet in it**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where two such edges have equal weight, either one may be taken."
+    }
+   ],
+   "front_md": "At each stage of Prim's algorithm, which edge do you add next?\n",
+   "back_md": "The edge of **least weight** that joins a vertex already in the tree to a vertex **not yet in it**.\n\nWhere two such edges have equal weight, either one may be taken.\n",
+   "spec_links": [
+    "spcpt_6MrxckS4B59GZns8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Cf4K9P4NM7PvKpxS",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does Prim's algorithm never need to check whether an edge forms a cycle?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because every edge it adds reaches a vertex that is **not yet in the tree**, and an edge to a brand-new vertex cannot close a loop."
+    },
+    {
+     "type": "paragraph",
+     "md": "Cycles are ruled out by the rule for choosing edges, rather than by testing for them after the event."
+    }
+   ],
+   "front_md": "Why does Prim's algorithm never need to check whether an edge forms a cycle?\n",
+   "back_md": "Because every edge it adds reaches a vertex that is **not yet in the tree**, and an edge to a brand-new vertex cannot close a loop.\n\nCycles are ruled out by the rule for choosing edges, rather than by testing for them after the event.\n",
+   "spec_links": [
+    "spcpt_6MrxckS4B59GZns8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2JcXYj84vjv5YXpy",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Starting Prim's algorithm at a different vertex can change the total weight of the minimum spanning tree it produces."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The total weight of a minimum spanning tree is a property of the **network** itself, not of where you happened to start."
+    },
+    {
+     "type": "paragraph",
+     "md": "A different starting vertex may build the tree up in a different order, but the weight it ends at is the same."
+    }
+   ],
+   "front_md": "**True or False?**\n\nStarting Prim's algorithm at a different vertex can change the total weight of the minimum spanning tree it produces.\n",
+   "back_md": "**False.**\n\nThe total weight of a minimum spanning tree is a property of the **network** itself, not of where you happened to start.\n\nA different starting vertex may build the tree up in a different order, but the weight it ends at is the same.\n",
+   "spec_links": [
+    "spcpt_6MrxckS4B59GZns8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yNG3NzKR9pKrmF59",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are running Prim's algorithm on a distance matrix. What do you do with the starting vertex's row and column?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Label its row** with a $1$, and **cross out its column** entirely."
+    },
+    {
+     "type": "paragraph",
+     "md": "Deleting the column stops that vertex from being chosen again, since a vertex already in the tree must never be entered a second time."
+    }
+   ],
+   "front_md": "You are running Prim's algorithm on a distance matrix. What do you do with the starting vertex's row and column?\n",
+   "back_md": "**Label its row** with a $1$, and **cross out its column** entirely.\n\nDeleting the column stops that vertex from being chosen again, since a vertex already in the tree must never be entered a second time.\n",
+   "spec_links": [
+    "spcpt_NrWwXjJZ9DMCbpZn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4SmWdM4xS23MqrKB",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the selection rule for Prim's algorithm carried out on a distance matrix:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Circle the `\\_\\_\\_\\_\\_\\_` value appearing anywhere in the rows labelled so far, then cross out the rest of that value's `\\_\\_\\_\\_\\_\\_` in the table."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Circle the **smallest** value appearing anywhere in the rows labelled so far, then cross out the rest of that value's **column** in the table."
+    },
+    {
+     "type": "paragraph",
+     "md": "The vertex heading that column then has its own row labelled with the next number."
+    }
+   ],
+   "front_md": "Complete the selection rule for Prim's algorithm carried out on a distance matrix:\n\nCircle the `\\_\\_\\_\\_\\_\\_` value appearing anywhere in the rows labelled so far, then cross out the rest of that value's `\\_\\_\\_\\_\\_\\_` in the table.\n",
+   "back_md": "The completed rule is:\n\nCircle the **smallest** value appearing anywhere in the rows labelled so far, then cross out the rest of that value's **column** in the table.\n\nThe vertex heading that column then has its own row labelled with the next number.\n",
+   "spec_links": [
+    "spcpt_NrWwXjJZ9DMCbpZn"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_gNrcNyRYrbCjh3GS",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_2tWXh7JfRWX2DxTw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Running Prim's on a matrix, what does crossing out a column correspond to in the graph version of the algorithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It corresponds to that vertex being **already in the tree**, so that no further edge is allowed to lead into it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two versions are one algorithm: labelled rows are the vertices in the tree, and crossed-out columns are the vertices no longer available."
+    }
+   ],
+   "front_md": "Running Prim's on a matrix, what does crossing out a column correspond to in the graph version of the algorithm?\n",
+   "back_md": "It corresponds to that vertex being **already in the tree**, so that no further edge is allowed to lead into it.\n\nThe two versions are one algorithm: labelled rows are the vertices in the tree, and crossed-out columns are the vertices no longer available.\n",
+   "spec_links": [
+    "spcpt_NrWwXjJZ9DMCbpZn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w6T75N5WjmMsp496",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_mfJbTs6GfFjmDknK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Kruskal's and Prim's algorithms give different trees for the same network. Has one of them gone wrong?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Neither has gone wrong."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both algorithms always produce a **minimum** spanning tree, and a network can have more than one different tree sharing that same minimal total weight."
+    }
+   ],
+   "front_md": "Kruskal's and Prim's algorithms give different trees for the same network. Has one of them gone wrong?\n",
+   "back_md": "Neither has gone wrong.\n\nBoth algorithms always produce a **minimum** spanning tree, and a network can have more than one different tree sharing that same minimal total weight.\n",
+   "spec_links": [
+    "spcpt_wdmRbpKyGXsKZdMF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jTyCWKs6QFQ7tJJX",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_mfJbTs6GfFjmDknK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Kruskal's algorithm can be applied directly to a network given as a table of distances."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Kruskal's works from a list of edges ranked by weight, so a table has to be turned into a graph, or at least into a list of edges, before it can begin."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Prim's** algorithm is the one that runs directly on a table."
+    }
+   ],
+   "front_md": "**True or False?**\n\nKruskal's algorithm can be applied directly to a network given as a table of distances.\n",
+   "back_md": "**False.**\n\nKruskal's works from a list of edges ranked by weight, so a table has to be turned into a graph, or at least into a list of edges, before it can begin.\n\n**Prim's** algorithm is the one that runs directly on a table.\n",
+   "spec_links": [
+    "spcpt_wdmRbpKyGXsKZdMF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KDShDDtn7Qzry969",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_mfJbTs6GfFjmDknK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Part-way through its working, one of the two minimum spanning tree algorithms can have several disconnected pieces. Which one, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Kruskal's**, because it takes edges purely in order of weight and those edges may lie in quite separate parts of the network."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Prim's** cannot do this, since every edge it adds has to touch the tree it has already built."
+    }
+   ],
+   "front_md": "Part-way through its working, one of the two minimum spanning tree algorithms can have several disconnected pieces. Which one, and why?\n",
+   "back_md": "**Kruskal's**, because it takes edges purely in order of weight and those edges may lie in quite separate parts of the network.\n\n**Prim's** cannot do this, since every edge it adds has to touch the tree it has already built.\n",
+   "spec_links": [
+    "spcpt_wdmRbpKyGXsKZdMF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m9M9mJKSct2hbQtn",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_mfJbTs6GfFjmDknK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is Prim's algorithm sometimes considered more efficient than Kruskal's?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it does not require every edge in the network to be **sorted into order of weight** before it starts."
+    },
+    {
+     "type": "paragraph",
+     "md": "On a large network that initial sort can be a considerable piece of work in its own right."
+    }
+   ],
+   "front_md": "Why is Prim's algorithm sometimes considered more efficient than Kruskal's?\n",
+   "back_md": "Because it does not require every edge in the network to be **sorted into order of weight** before it starts.\n\nOn a large network that initial sort can be a considerable piece of work in its own right.\n",
+   "spec_links": [
+    "spcpt_wdmRbpKyGXsKZdMF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jpP9r57RN9KWBM6N",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_mfJbTs6GfFjmDknK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Certain named edges must be included in a spanning tree. How do you build the rest of it, and what is true of the result?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Draw in the edges you are required to use first, then complete the tree using **Kruskal's algorithm**, rejecting any edge that would close a cycle."
+    },
+    {
+     "type": "paragraph",
+     "md": "The result satisfies the requirement but is **not necessarily a minimum** spanning tree, because the forced edges may not be the ones a free choice would have taken."
+    }
+   ],
+   "front_md": "Certain named edges must be included in a spanning tree. How do you build the rest of it, and what is true of the result?\n",
+   "back_md": "Draw in the edges you are required to use first, then complete the tree using **Kruskal's algorithm**, rejecting any edge that would close a cycle.\n\nThe result satisfies the requirement but is **not necessarily a minimum** spanning tree, because the forced edges may not be the ones a free choice would have taken.\n",
+   "spec_links": [
+    "spcpt_wdmRbpKyGXsKZdMF"
+   ],
+   "flags": []
+  }
+ ]
+}

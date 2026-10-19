@@ -1,0 +1,369 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:12Z",
+ "course_slug": "ial-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/flashcards/sequences-and-series/geometric-sequences-and-series/",
+  "section_slug": "sequences-and-series",
+  "section_name": "Sequences & Series",
+  "topic_slug": "geometric-sequences-and-series",
+  "title": "Geometric Sequences & Series",
+  "order": 2
+ },
+ "card_count": 11,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 2,
+  "question_and_answer": 6,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 11,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_5qBs3y5gdtmCT6dD",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_d34xZWs9cs2Ff2YN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **common ratio**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **common ratio** $r$ is the fixed number each term of a geometric sequence is multiplied by to get the next one."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is found by dividing any term by the term before it."
+    }
+   ],
+   "front_md": "Define **common ratio**.\n",
+   "back_md": "The **common ratio** $r$ is the fixed number each term of a geometric sequence is multiplied by to get the next one.\n\nIt is found by dividing any term by the term before it.\n",
+   "spec_links": [
+    "spcpt_nrj5pMPm4p7BYjGD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GcqpHbqVCMD7sxxS",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_d34xZWs9cs2Ff2YN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The $n$th term of a geometric sequence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`u_{n} = a r^{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$u_{n} = a r^{n-1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The power is $n - 1$ rather than $n$ because the first term has been multiplied by $r$ **no** times yet."
+    }
+   ],
+   "front_md": "The $n$th term of a geometric sequence is:\n\n`u_{n} = a r^{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "$u_{n} = a r^{n-1}$\n\nThe power is $n - 1$ rather than $n$ because the first term has been multiplied by $r$ **no** times yet.\n",
+   "spec_links": [
+    "spcpt_nrj5pMPm4p7BYjGD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zjvp8r6bnP8vsFbD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_d34xZWs9cs2Ff2YN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You know the 3rd and 7th terms of a geometric sequence. How do you find $a$ and $r$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write both using $u_{n} = a r^{n-1}$, then **divide** one equation by the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $a$ cancels, leaving a single equation in $r$; substituting back then gives $a$."
+    }
+   ],
+   "front_md": "You know the 3rd and 7th terms of a geometric sequence. How do you find $a$ and $r$?\n",
+   "back_md": "Write both using $u_{n} = a r^{n-1}$, then **divide** one equation by the other.\n\nThe $a$ cancels, leaving a single equation in $r$; substituting back then gives $a$.\n",
+   "spec_links": [
+    "spcpt_nrj5pMPm4p7BYjGD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yDwNbrZ58ksH4SHX",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_d34xZWs9cs2Ff2YN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The terms of a geometric sequence always get bigger."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If `\\left|r\\right| < 1` the terms shrink towards zero, and a **negative** $r$ makes them alternate in sign."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only $r > 1$ gives a sequence that grows steadily."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe terms of a geometric sequence always get bigger.\n",
+   "back_md": "**False.**\n\nIf `\\left|r\\right| < 1` the terms shrink towards zero, and a **negative** $r$ makes them alternate in sign.\n\nOnly $r > 1$ gives a sequence that grows steadily.\n",
+   "spec_links": [
+    "spcpt_nrj5pMPm4p7BYjGD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jMTnP7fkGDs7CfBW",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_d34xZWs9cs2Ff2YN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you check whether a sequence is geometric?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide each term by the one before it and see whether you always get the **same** number."
+    },
+    {
+     "type": "paragraph",
+     "md": "If that ratio changes anywhere, the sequence is not geometric."
+    }
+   ],
+   "front_md": "How do you check whether a sequence is geometric?\n",
+   "back_md": "Divide each term by the one before it and see whether you always get the **same** number.\n\nIf that ratio changes anywhere, the sequence is not geometric.\n",
+   "spec_links": [
+    "spcpt_nrj5pMPm4p7BYjGD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RtZzk64DGffFymNp",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_s6679sCxyGcWQ6qy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The sum of the first $n$ terms of a geometric series is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{a \\left(1 - r^{n}\\right)}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{a \\left(1 - r^{n}\\right)}{1 - r}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The equivalent form `\\frac{a \\left(r^{n} - 1\\right)}{r - 1}` is more convenient when $r > 1$, because it keeps everything positive."
+    }
+   ],
+   "front_md": "The sum of the first $n$ terms of a geometric series is:\n\n`S_{n} = \\frac{a \\left(1 - r^{n}\\right)}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "`S_{n} = \\frac{a \\left(1 - r^{n}\\right)}{1 - r}`\n\nThe equivalent form `\\frac{a \\left(r^{n} - 1\\right)}{r - 1}` is more convenient when $r > 1$, because it keeps everything positive.\n",
+   "spec_links": [
+    "spcpt_26BM3X6TYPVynqSD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6qMcWsgvy77Bj3f9",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_s6679sCxyGcWQ6qy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the formula for a geometric series proved?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the sum out, write $r$ times the sum underneath it, and **subtract**."
+    },
+    {
+     "type": "paragraph",
+     "md": "All but two terms cancel, leaving $S_{n} - r S_{n} = a - a r^{n}$, which factorises and rearranges into the formula."
+    }
+   ],
+   "front_md": "How is the formula for a geometric series proved?\n",
+   "back_md": "Write the sum out, write $r$ times the sum underneath it, and **subtract**.\n\nAll but two terms cancel, leaving $S_{n} - r S_{n} = a - a r^{n}$, which factorises and rearranges into the formula.\n",
+   "spec_links": [
+    "spcpt_26BM3X6TYPVynqSD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SgPZPHTZMdq35Nkm",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_s6679sCxyGcWQ6qy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the proof of the geometric series formula, why do you multiply by $r$ before subtracting?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because multiplying by $r$ shifts every term along by one place, so nearly all of them line up with a copy of themselves."
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting then wipes out everything except the first term and the last new one."
+    }
+   ],
+   "front_md": "In the proof of the geometric series formula, why do you multiply by $r$ before subtracting?\n",
+   "back_md": "Because multiplying by $r$ shifts every term along by one place, so nearly all of them line up with a copy of themselves.\n\nSubtracting then wipes out everything except the first term and the last new one.\n",
+   "spec_links": [
+    "spcpt_26BM3X6TYPVynqSD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Mj6PfHDyxx65wfRs",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_s6679sCxyGcWQ6qy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the sum to infinity of a geometric series, and when does it exist?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$S_{\\infty} = \\frac{a}{1-r}$, and it exists **only** when `\\left|r\\right| < 1`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Otherwise the series is **divergent** and has no sum to infinity at all."
+    }
+   ],
+   "front_md": "What is the sum to infinity of a geometric series, and when does it exist?\n",
+   "back_md": "$S_{\\infty} = \\frac{a}{1-r}$, and it exists **only** when `\\left|r\\right| < 1`.\n\nOtherwise the series is **divergent** and has no sum to infinity at all.\n",
+   "spec_links": [
+    "spcpt_26BM3X6TYPVynqSD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JZZGXcyfGcCwpRcy",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_s6679sCxyGcWQ6qy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A geometric series with $r = - 0 . 5$ has a sum to infinity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The condition is on the **modulus** of $r$, and `\\left|- 0 . 5\\right| = 0 . 5`, which is less than $1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The terms alternate in sign but still shrink towards zero, so the total settles on a finite value."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA geometric series with $r = - 0 . 5$ has a sum to infinity.\n",
+   "back_md": "**True.**\n\nThe condition is on the **modulus** of $r$, and `\\left|- 0 . 5\\right| = 0 . 5`, which is less than $1$.\n\nThe terms alternate in sign but still shrink towards zero, so the total settles on a finite value.\n",
+   "spec_links": [
+    "spcpt_26BM3X6TYPVynqSD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7R42pDWbhVw8TVk8",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_s6679sCxyGcWQ6qy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might logarithms be needed in a geometric series question?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $n$ appears as a **power**, in $r^{n}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Asking how many terms are needed to reach a given total therefore means solving an exponential equation."
+    }
+   ],
+   "front_md": "Why might logarithms be needed in a geometric series question?\n",
+   "back_md": "Because $n$ appears as a **power**, in $r^{n}$.\n\nAsking how many terms are needed to reach a given total therefore means solving an exponential equation.\n",
+   "spec_links": [
+    "spcpt_26BM3X6TYPVynqSD"
+   ],
+   "flags": []
+  }
+ ]
+}

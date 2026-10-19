@@ -1,0 +1,1489 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:27Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/13-data-representation-/file-organisation-and-access-/",
+  "section_slug": "13-data-representation-",
+  "section_name": "13. Data Representation",
+  "topic_slug": "file-organisation-and-access-",
+  "title": "File Organisation & Access",
+  "order": 1
+ },
+ "card_count": 57,
+ "card_types": {
+  "keyword_definition": 13,
+  "question_and_answer": 32,
+  "true_or_false": 6,
+  "fill_in_the_blanks": 6
+ },
+ "spec_link_cards": 57,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_ZY2nZzBNtRjXGHvZ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **file organisation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "File organisation is the way **records are arranged within a file**."
+    }
+   ],
+   "front_md": "Define **file organisation**.\n",
+   "back_md": "File organisation is the way **records are arranged within a file**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2jz9Sf348wT3DJBc",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a file store, and how?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It stores data **permanently on secondary storage** as a **collection of records**, where each record represents one item such as a customer, transaction or product."
+    }
+   ],
+   "front_md": "What does a file store, and how?\n",
+   "back_md": "It stores data **permanently on secondary storage** as a **collection of records**, where each record represents one item such as a customer, transaction or product.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kt5JF8cP7DxyRkTR",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the choice of file organisation matter?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It affects how quickly records can be **searched, added, updated and deleted**, so it is chosen to suit the task."
+    }
+   ],
+   "front_md": "Why does the choice of file organisation matter?\n",
+   "back_md": "It affects how quickly records can be **searched, added, updated and deleted**, so it is chosen to suit the task.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Dnf5ZV4Ch7b4Vh7Y",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "File organisation and file access mean the same thing."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "**Organisation** is how records are **arranged** in the file. **Access** is how records are **read** from it."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFile organisation and file access mean the same thing.\n",
+   "back_md": "**False.**\n\n**Organisation** is how records are **arranged** in the file. **Access** is how records are **read** from it.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_47RVY3ddNcDvc6HF",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three file organisation methods."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Serial**, **sequential** and **random**."
+    }
+   ],
+   "front_md": "Name the three file organisation methods.\n",
+   "back_md": "**Serial**, **sequential** and **random**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FRzRmTRhXZ5xKSmN",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **serial file organisation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Records are stored **one after the other in the order they arrive**, in chronological order with no sorting."
+    }
+   ],
+   "front_md": "Define **serial file organisation**.\n",
+   "back_md": "Records are stored **one after the other in the order they arrive**, in chronological order with no sorting.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cVkyXGrGG3CRbDc5",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a serial file, records are stored in <u>**                          **</u> order."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a serial file, records are stored in **chronological** order."
+    }
+   ],
+   "front_md": "In a serial file, records are stored in <u>**                          **</u> order.\n",
+   "back_md": "In a serial file, records are stored in **chronological** order.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_sVnPpcRX7tp6HgJZ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where are new records added in a serial file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **appended to the end of the file**."
+    }
+   ],
+   "front_md": "Where are new records added in a serial file?\n",
+   "back_md": "They are **appended to the end of the file**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qZDn9H7VzMSXstkZ",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give one drawback of serial file organisation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **slow to search**, because there is **no order to exploit**."
+    }
+   ],
+   "front_md": "Give one drawback of serial file organisation.\n",
+   "back_md": "It is **slow to search**, because there is **no order to exploit**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6mkJWFqYfs3KqdpT",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is serial organisation best for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Unsorted or temporary transaction files** and **data logging files**, for example logging sensor readings as they arrive."
+    }
+   ],
+   "front_md": "What is serial organisation best for?\n",
+   "back_md": "**Unsorted or temporary transaction files** and **data logging files**, for example logging sensor readings as they arrive.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZxMPpx6GQbShJG3Y",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **sequential file organisation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Records are stored in **sorted order, based on a key field**."
+    }
+   ],
+   "front_md": "Define **sequential file organisation**.\n",
+   "back_md": "Records are stored in **sorted order, based on a key field**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_786h7qkmVQ5HRK8k",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a sequential file updated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **new version of the file has to be created**, because records cannot easily be inserted in place."
+    }
+   ],
+   "front_md": "How is a sequential file updated?\n",
+   "back_md": "A **new version of the file has to be created**, because records cannot easily be inserted in place.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6f4n33BcWWcX4ZRX",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A sequential file can be updated in place without rewriting it."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **new version of the file** must be created. It is a **random** file that can be updated directly."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA sequential file can be updated in place without rewriting it.\n",
+   "back_md": "**False.**\n\nA **new version of the file** must be created. It is a **random** file that can be updated directly.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CcTfGyvkg7dMH9PV",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a sequential file more efficient to search than a serial file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A search can **stop once the key is passed**."
+    }
+   ],
+   "front_md": "Why is a sequential file more efficient to search than a serial file?\n",
+   "back_md": "A search can **stop once the key is passed**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vmcNynyh9FkpBHm4",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is sequential organisation best for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Files that are **read often but rarely updated**, such as payroll files or exam results ordered by candidate number."
+    }
+   ],
+   "front_md": "What is sequential organisation best for?\n",
+   "back_md": "Files that are **read often but rarely updated**, such as payroll files or exam results ordered by candidate number.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kmvHm7Dy5vBkrJy6",
+   "card_type": "keyword_definition",
+   "order": 15,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **random file organisation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Records are stored in **no particular order**, with a **hashing algorithm applied to the key** to work out the address."
+    }
+   ],
+   "front_md": "Define **random file organisation**.\n",
+   "back_md": "Records are stored in **no particular order**, with a **hashing algorithm applied to the key** to work out the address.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7QJJSbrrMFPvHBCj",
+   "card_type": "fill_in_the_blanks",
+   "order": 16,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a random file there is a relationship between the record's key and its <u>**                **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a random file there is a relationship between the record's key and its **location**."
+    }
+   ],
+   "front_md": "In a random file there is a relationship between the record's key and its <u>**                **</u>.\n",
+   "back_md": "In a random file there is a relationship between the record's key and its **location**.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_H8yYBHp5DrjbvFfG",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How are random files updated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Directly**, without rewriting the file."
+    }
+   ],
+   "front_md": "How are random files updated?\n",
+   "back_md": "**Directly**, without rewriting the file.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NvWq46xCxQZMqwNn",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_rGFm83w2WHfnGYyG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is random organisation best for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Fast, real-time access to individual records**, such as bank account lookup or live stock updates."
+    }
+   ],
+   "front_md": "What is random organisation best for?\n",
+   "back_md": "**Fast, real-time access to individual records**, such as bank account lookup or live stock updates.\n",
+   "spec_links": [
+    "spcpt_t3kQPYdsm3nhhMHb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TNznFqMzJ4PZ5QbD",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **file access method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A file access method is **how records are read from or located in** a file, once the file has been organised."
+    }
+   ],
+   "front_md": "Define **file access method**.\n",
+   "back_md": "A file access method is **how records are read from or located in** a file, once the file has been organised.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9CwNrBDHZnZ97G7v",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What determines which access methods are available?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **file organisation** used."
+    }
+   ],
+   "front_md": "What determines which access methods are available?\n",
+   "back_md": "The **file organisation** used.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c6Q8GJzX6N6TRHfp",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which access methods work on a serial file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Sequential access only**. Direct access is not possible on a serial file."
+    }
+   ],
+   "front_md": "Which access methods work on a serial file?\n",
+   "back_md": "**Sequential access only**. Direct access is not possible on a serial file.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6VtbRDNXJXpvNbxr",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which access methods work on a sequential file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Both sequential access and direct access**, with direct access using an **index**."
+    }
+   ],
+   "front_md": "Which access methods work on a sequential file?\n",
+   "back_md": "**Both sequential access and direct access**, with direct access using an **index**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_N4ht6FMYW3CfnWmw",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which access methods work on a random file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Direct access only**, using **hashing**. Sequential access is not possible on a random file."
+    }
+   ],
+   "front_md": "Which access methods work on a random file?\n",
+   "back_md": "**Direct access only**, using **hashing**. Sequential access is not possible on a random file.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RjdBGvDHqfPQRK9H",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Direct access is possible on a serial file."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A serial file supports **sequential access only**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDirect access is possible on a serial file.\n",
+   "back_md": "**False.**\n\nA serial file supports **sequential access only**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xDrKmmhrwMXXv5db",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **sequential access**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sequential access reads records **one after the other**, starting at the **physical start of the file**, and continues until the record is found or the end of the file is reached."
+    }
+   ],
+   "front_md": "Define **sequential access**.\n",
+   "back_md": "Sequential access reads records **one after the other**, starting at the **physical start of the file**, and continues until the record is found or the end of the file is reached.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KRDVdbZHJMHN6cf9",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sequential access starts at the <u>**                **</u> start of the file."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sequential access starts at the **physical** start of the file."
+    }
+   ],
+   "front_md": "Sequential access starts at the <u>**                **</u> start of the file.\n",
+   "back_md": "Sequential access starts at the **physical** start of the file.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_VPMknrwTmZ4YcqQY",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does sequential access work on a serial file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Records are in **chronological order**, so **every record is checked** until the target is found or all records have been checked."
+    }
+   ],
+   "front_md": "How does sequential access work on a serial file?\n",
+   "back_md": "Records are in **chronological order**, so **every record is checked** until the target is found or all records have been checked.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_txJQYkq45wDwpj2t",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does sequential access work on a sequential file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Records are in order of a **key field or index**, and it is the **key field that is compared**."
+    }
+   ],
+   "front_md": "How does sequential access work on a sequential file?\n",
+   "back_md": "Records are in order of a **key field or index**, and it is the **key field that is compared**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vN7ZMVHzqfYzV7wP",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can sequential access stop early on a sequential file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As soon as the current record's key is **greater than the target key**, the target **cannot be present**."
+    }
+   ],
+   "front_md": "Why can sequential access stop early on a sequential file?\n",
+   "back_md": "As soon as the current record's key is **greater than the target key**, the target **cannot be present**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C69vXRPH3fhNWKhy",
+   "card_type": "true_or_false",
+   "order": 11,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Sequential access and sequential organisation are the same thing."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "They are different. **Serial files also use sequential access**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nSequential access and sequential organisation are the same thing.\n",
+   "back_md": "**False.**\n\nThey are different. **Serial files also use sequential access**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WmfsFQR5GmdycMps",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **direct access**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Direct access locates a **specific record without reading the records before it**, using the **key field** of the record."
+    }
+   ],
+   "front_md": "Define **direct access**.\n",
+   "back_md": "Direct access locates a **specific record without reading the records before it**, using the **key field** of the record.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f9Pb8XMpg49Pvvdq",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does direct access work on a random file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **hashing algorithm** is applied to the record's **key field** to **calculate the address** of the location where the record should be."
+    }
+   ],
+   "front_md": "How does direct access work on a random file?\n",
+   "back_md": "A **hashing algorithm** is applied to the record's **key field** to **calculate the address** of the location where the record should be.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8Q8Zh9PD4QpXX9sF",
+   "card_type": "fill_in_the_blanks",
+   "order": 14,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a random file, if the record is not at the hashed address then a <u>**                  **</u> has occurred."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a random file, if the record is not at the hashed address then a **collision** has occurred."
+    }
+   ],
+   "front_md": "On a random file, if the record is not at the hashed address then a <u>**                  **</u> has occurred.\n",
+   "back_md": "On a random file, if the record is not at the hashed address then a **collision** has occurred.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zRG3Nfj4fbCGkjJ3",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does direct access work on a sequential file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **index of all key fields** is kept. The **index is searched** for the address of the record, which is then read directly."
+    }
+   ],
+   "front_md": "How does direct access work on a sequential file?\n",
+   "back_md": "An **index of all key fields** is kept. The **index is searched** for the address of the record, which is then read directly.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MMbqD4pkSknvSfv9",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the key difference between direct access on a random file and on a sequential file?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **random** file uses a **hashing algorithm**. A **sequential** file uses an **index**."
+    }
+   ],
+   "front_md": "What is the key difference between direct access on a random file and on a sequential file?\n",
+   "back_md": "A **random** file uses a **hashing algorithm**. A **sequential** file uses an **index**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rsGT4SgK8r4pBCxh",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_T3gZcGN4jZTrxCSv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give an example of direct access in use."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Accessing a bank account record by account number**."
+    }
+   ],
+   "front_md": "Give an example of direct access in use.\n",
+   "back_md": "**Accessing a bank account record by account number**.\n",
+   "spec_links": [
+    "spcpt_Bd5rpm2XnqkVD5KP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4KZ5b9Cmxmd8Srqn",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **hashing algorithm**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A hashing algorithm is a **mathematical formula applied to the key field of a record**, whose result gives the **address** where that record should be stored or found."
+    }
+   ],
+   "front_md": "Define **hashing algorithm**.\n",
+   "back_md": "A hashing algorithm is a **mathematical formula applied to the key field of a record**, whose result gives the **address** where that record should be stored or found.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M9cWYjt3PXMPvRcx",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A hashing algorithm scrambles the data in a record."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A hashing algorithm is a **mathematical formula applied to the key field**, and its result is an **address**. It does not scramble the record's data."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA hashing algorithm scrambles the data in a record.\n",
+   "back_md": "**False.**\n\nA hashing algorithm is a **mathematical formula applied to the key field**, and its result is an **address**. It does not scramble the record's data.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B7HX9XvDMp5w3shG",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Hashing gives <u>**        **</u> access to a record without searching through the file one record at a time."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Hashing gives **fast** access to a record without searching through the file one record at a time."
+    }
+   ],
+   "front_md": "Hashing gives <u>**        **</u> access to a record without searching through the file one record at a time.\n",
+   "back_md": "Hashing gives **fast** access to a record without searching through the file one record at a time.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tdVK644MgrpmMpq4",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a record written using hashing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Calculate the address from the key**, then store the record at that address."
+    }
+   ],
+   "front_md": "How is a record written using hashing?\n",
+   "back_md": "**Calculate the address from the key**, then store the record at that address.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tjbDSmZzNdhHdt6W",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a record read using hashing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Calculate the address from the same key**, then read the record from that address."
+    }
+   ],
+   "front_md": "How is a record read using hashing?\n",
+   "back_md": "**Calculate the address from the same key**, then read the record from that address.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wT35z5Rtfw9mGTfY",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the two types of hashing algorithm."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Modulo division** and **folding**."
+    }
+   ],
+   "front_md": "Name the two types of hashing algorithm.\n",
+   "back_md": "**Modulo division** and **folding**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D88TgtJRrw2rZwH8",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **modulo division** hashing."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The address is calculated as `Key MOD TableSize`, which is the most common hashing method."
+    }
+   ],
+   "front_md": "Define **modulo division** hashing.\n",
+   "back_md": "The address is calculated as `Key MOD TableSize`, which is the most common hashing method.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sxYR6qyfsGFh9Drs",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In hashing, `MOD` gives the <u>**                    **</u> after division."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In hashing, `MOD` gives the **remainder** after division."
+    }
+   ],
+   "front_md": "In hashing, `MOD` gives the <u>**                    **</u> after division.\n",
+   "back_md": "In hashing, `MOD` gives the **remainder** after division.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Yfkb3DrpY86vVxGT",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does modulo division always give a valid address?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The remainder is always in the range **0 to TableSize minus 1**."
+    }
+   ],
+   "front_md": "Why does modulo division always give a valid address?\n",
+   "back_md": "The remainder is always in the range **0 to TableSize minus 1**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nSK2SykTQYJpXwpX",
+   "card_type": "keyword_definition",
+   "order": 9,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **folding**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The key is **split into equal parts**, the parts are **added together**, and usually `MOD TableSize` is applied to the total."
+    }
+   ],
+   "front_md": "Define **folding**.\n",
+   "back_md": "The key is **split into equal parts**, the parts are **added together**, and usually `MOD TableSize` is applied to the total.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ttz4GVJyv45G3GQp",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A random file has 100 locations, addressed 0 to 99."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where is the record with key 45217 stored under modulo division?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`45217 MOD 100 = 17`, so the record is stored at **address 17**."
+    }
+   ],
+   "front_md": "A random file has 100 locations, addressed 0 to 99.\n\nWhere is the record with key 45217 stored under modulo division?\n",
+   "back_md": "`45217 MOD 100 = 17`, so the record is stored at **address 17**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2T4hX9thJ33wMMdB",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A record with key 88317 is added to the same 100-location file."
+    },
+    {
+     "type": "paragraph",
+     "md": "What happens?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`88317 MOD 100 = 17`, which is the **same address** as key 45217, so a **collision** occurs."
+    }
+   ],
+   "front_md": "A record with key 88317 is added to the same 100-location file.\n\nWhat happens?\n",
+   "back_md": "`88317 MOD 100 = 17`, which is the **same address** as key 45217, so a **collision** occurs.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4btSc3C3twhfftXm",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **collision** in hashing."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A collision is when **two keys hash to the same address**."
+    }
+   ],
+   "front_md": "Define **collision** in hashing.\n",
+   "back_md": "A collision is when **two keys hash to the same address**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_88CQw88KVBHWt6z8",
+   "card_type": "true_or_false",
+   "order": 13,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When two keys hash to the same address, the second record is discarded."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **collision resolution** method is used, such as **linear probing**, an **overflow area**, or **chaining**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen two keys hash to the same address, the second record is discarded.\n",
+   "back_md": "**False.**\n\nA **collision resolution** method is used, such as **linear probing**, an **overflow area**, or **chaining**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TN5jtFYfR4dhVVB8",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three collision resolution methods."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Linear probing**, an **overflow area**, and **chaining**."
+    }
+   ],
+   "front_md": "Name the three collision resolution methods.\n",
+   "back_md": "**Linear probing**, an **overflow area**, and **chaining**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mH2XMHKb8fcgGx8W",
+   "card_type": "keyword_definition",
+   "order": 15,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **linear probing**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Start at the hashed address and move through the following locations **in a linear fashion**, storing the record in the **first free location**."
+    }
+   ],
+   "front_md": "Define **linear probing**.\n",
+   "back_md": "Start at the hashed address and move through the following locations **in a linear fashion**, storing the record in the **first free location**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qt3b5sMK3TrsMFbC",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Key 88317 collides at address 17."
+    },
+    {
+     "type": "paragraph",
+     "md": "Using linear probing, where is the record stored?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the **next free location, address 18**."
+    }
+   ],
+   "front_md": "Key 88317 collides at address 17.\n\nUsing linear probing, where is the record stored?\n",
+   "back_md": "In the **next free location, address 18**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RxjcDcj4rQCB9fRp",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does an overflow area resolve a collision?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **separate overflow area** is set up, and the record is stored in the **next free space there**."
+    }
+   ],
+   "front_md": "How does an overflow area resolve a collision?\n",
+   "back_md": "A **separate overflow area** is set up, and the record is stored in the **next free space there**.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3b7zrV5yyg5vSMmD",
+   "card_type": "keyword_definition",
+   "order": 18,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **chaining**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each location holds a reference to a **list, or chain, of records** that hashed to it, and the new record is added to that chain."
+    }
+   ],
+   "front_md": "Define **chaining**.\n",
+   "back_md": "Each location holds a reference to a **list, or chain, of records** that hashed to it, and the new record is added to that chain.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Mz6WbnK4VXmVWqfy",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_S8SCn8tR5xZpxYP7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it not enough to name a collision resolution method in an exam?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You must also **describe how it resolves the collision**, for example 'linear probing, store in the next free location'."
+    }
+   ],
+   "front_md": "Why is it not enough to name a collision resolution method in an exam?\n",
+   "back_md": "You must also **describe how it resolves the collision**, for example 'linear probing, store in the next free location'.\n",
+   "spec_links": [
+    "spcpt_XWPwvhWzsWwv4jKN"
+   ],
+   "flags": []
+  }
+ ]
+}

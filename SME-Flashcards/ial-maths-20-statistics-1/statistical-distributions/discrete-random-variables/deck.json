@@ -1,0 +1,927 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:51Z",
+ "course_slug": "ial-maths-20-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/flashcards/statistical-distributions/discrete-random-variables/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "discrete-random-variables",
+  "title": "Discrete Random Variables",
+  "order": 0
+ },
+ "card_count": 27,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 17,
+  "true_or_false": 4,
+  "fill_in_the_blanks": 3
+ },
+ "spec_link_cards": 27,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_JW39ffJ54fbwV8Sz",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **discrete random variable**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **random variable** is one whose value depends on the outcome of a random event, so it is not known until that event happens."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **discrete** random variable can take only certain separate values within a set, and it usually **counts** something, such as the number of heads in 20 coin flips."
+    },
+    {
+     "type": "paragraph",
+     "md": "Random variables are written with capital letters and their particular outcomes with lower-case ones."
+    }
+   ],
+   "front_md": "Define a **discrete random variable**.\n",
+   "back_md": "A **random variable** is one whose value depends on the outcome of a random event, so it is not known until that event happens.\n\nA **discrete** random variable can take only certain separate values within a set, and it usually **counts** something, such as the number of heads in 20 coin flips.\n\nRandom variables are written with capital letters and their particular outcomes with lower-case ones.\n",
+   "spec_links": [
+    "spcpt_hNzSdgbyZxJrpzwx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JGC8vsWP6dqR3Gr3",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In `\\text{P} \\left(X = x\\right)`, why is one letter a capital and the other lower case?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The capital $X$ is the **random variable** itself, the thing whose value is not yet known."
+    },
+    {
+     "type": "paragraph",
+     "md": "The lower-case $x$ is a **particular value** that it might take."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the whole expression reads as the probability that the random variable $X$ takes the value $x$, and the two letters are doing genuinely different jobs."
+    }
+   ],
+   "front_md": "In `\\text{P} \\left(X = x\\right)`, why is one letter a capital and the other lower case?\n",
+   "back_md": "The capital $X$ is the **random variable** itself, the thing whose value is not yet known.\n\nThe lower-case $x$ is a **particular value** that it might take.\n\nSo the whole expression reads as the probability that the random variable $X$ takes the value $x$, and the two letters are doing genuinely different jobs.\n",
+   "spec_links": [
+    "spcpt_hNzSdgbyZxJrpzwx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n4qQMRHVGcC5JrHj",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A discrete random variable can only take a finite number of values."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Discrete means the values are **separate** from one another, not that there are finitely many of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The number of times a dice is rolled until it lands on a six can be $1 , 2 , 3 , \\dots$ with no upper limit, and it is still discrete; what makes a variable continuous is being able to take **any** value in a range."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA discrete random variable can only take a finite number of values.\n",
+   "back_md": "**False.**\n\nDiscrete means the values are **separate** from one another, not that there are finitely many of them.\n\nThe number of times a dice is rolled until it lands on a six can be $1 , 2 , 3 , \\dots$ with no upper limit, and it is still discrete; what makes a variable continuous is being able to take **any** value in a range.\n",
+   "spec_links": [
+    "spcpt_hNzSdgbyZxJrpzwx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f4ZQYNYBQmtFTzgQ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must a discrete probability distribution tell you, and in which three ways can it be presented?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It must give **every** value the random variable can take, together with the probability of each one."
+    },
+    {
+     "type": "paragraph",
+     "md": "It can be presented as a **table**, as a **function** (a probability mass function), or as a **vertical line graph** with the values along the horizontal axis and the probabilities up the vertical one."
+    }
+   ],
+   "front_md": "What must a discrete probability distribution tell you, and in which three ways can it be presented?\n",
+   "back_md": "It must give **every** value the random variable can take, together with the probability of each one.\n\nIt can be presented as a **table**, as a **function** (a probability mass function), or as a **vertical line graph** with the values along the horizontal axis and the probabilities up the vertical one.\n",
+   "spec_links": [
+    "spcpt_qBdSyWddQNFVvkBj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h3Gj6TXDDXWHbV2G",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the property that every discrete probability distribution has:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\Sigma \\text{P} \\left(X = x\\right) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed property is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\Sigma \\text{P} \\left(X = x\\right) = 1`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The variable is certain to take one of its values, so the probabilities of all of them have to add up to 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is what turns an unknown probability into an equation, so a distribution written in terms of $k$ can be solved for $k$."
+    }
+   ],
+   "front_md": "Complete the property that every discrete probability distribution has:\n\n`\\Sigma \\text{P} \\left(X = x\\right) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed property is:\n\n`\\Sigma \\text{P} \\left(X = x\\right) = 1`\n\nThe variable is certain to take one of its values, so the probabilities of all of them have to add up to 1.\n\nThis is what turns an unknown probability into an equation, so a distribution written in terms of $k$ can be solved for $k$.\n",
+   "spec_links": [
+    "spcpt_qBdSyWddQNFVvkBj"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JhWMcKGbWD8WzrPf",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the cumulative distribution function `\\text{F} \\left(x\\right)` give you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(x\\right) = \\text{P} \\left(X \\le x\\right)`, the probability that the random variable takes a value **less than or equal to** $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "You find it by adding together the probabilities of every possible value that is less than or equal to $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This one is not in the formula booklet, so it is a formula to know."
+    }
+   ],
+   "front_md": "What does the cumulative distribution function `\\text{F} \\left(x\\right)` give you?\n",
+   "back_md": "`\\text{F} \\left(x\\right) = \\text{P} \\left(X \\le x\\right)`, the probability that the random variable takes a value **less than or equal to** $x$.\n\nYou find it by adding together the probabilities of every possible value that is less than or equal to $x$.\n\nThis one is not in the formula booklet, so it is a formula to know.\n",
+   "spec_links": [
+    "spcpt_zVjsVNNSk6nRc5FQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f5DYQW3Hd4m8n5rg",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$X$ can take only the values 1, 2 and 3. What is `\\text{P} \\left(X = 5\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Zero.** If a value is not one the random variable can take, the probability of it is 0."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth being deliberate about this, because it makes `\\text{P} \\left(X \\le 5\\right) = 1` here: every value the variable can take already lies below 5."
+    }
+   ],
+   "front_md": "$X$ can take only the values 1, 2 and 3. What is `\\text{P} \\left(X = 5\\right)`?\n",
+   "back_md": "**Zero.** If a value is not one the random variable can take, the probability of it is 0.\n\nIt is worth being deliberate about this, because it makes `\\text{P} \\left(X \\le 5\\right) = 1` here: every value the variable can take already lies below 5.\n",
+   "spec_links": [
+    "spcpt_zVjsVNNSk6nRc5FQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dzdDxRqPQrMrwdq3",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a discrete random variable, why must you distinguish carefully between `\\text{P} \\left(X < k\\right)` and `\\text{P} \\left(X \\le k\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $k$ may itself be one of the values the variable can take, and then `\\text{P} \\left(X = k\\right)` is not zero, so the two differ by exactly that amount."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why `\\text{P} \\left(X > k\\right) = 1 - \\text{P} \\left(X \\le k\\right)` while `\\text{P} \\left(X \\ge k\\right) = 1 - \\text{P} \\left(X < k\\right)`, and picking the wrong one loses a whole term."
+    },
+    {
+     "type": "paragraph",
+     "md": "The wording decides which you need: **at least** $k$ means $X \\geq k$, while **more than** $k$ means $X > k$."
+    }
+   ],
+   "front_md": "For a discrete random variable, why must you distinguish carefully between `\\text{P} \\left(X < k\\right)` and `\\text{P} \\left(X \\le k\\right)`?\n",
+   "back_md": "Because $k$ may itself be one of the values the variable can take, and then `\\text{P} \\left(X = k\\right)` is not zero, so the two differ by exactly that amount.\n\nThat is why `\\text{P} \\left(X > k\\right) = 1 - \\text{P} \\left(X \\le k\\right)` while `\\text{P} \\left(X \\ge k\\right) = 1 - \\text{P} \\left(X < k\\right)`, and picking the wrong one loses a whole term.\n\nThe wording decides which you need: **at least** $k$ means $X \\geq k$, while **more than** $k$ means $X > k$.\n",
+   "spec_links": [
+    "spcpt_zVjsVNNSk6nRc5FQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rB85TsmHjy36FQ3h",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_hXDTX4k6QCQyBhKf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$X$ can take the values $- 3 , - 1 , 2$ and $4$. How do you find `\\text{P} \\left(X^{2} < 5\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out which of the **values** satisfy the condition, then add up their probabilities."
+    },
+    {
+     "type": "paragraph",
+     "md": "Here `\\left(- 3\\right)^{2} = 9` and $4^{2} = 16$ are both too big, while `\\left(- 1\\right)^{2} = 1` and $2^{2} = 4$ are not, so"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X^{2} < 5\\right) = \\text{P} \\left(X = - 1\\right) + \\text{P} \\left(X = 2\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The negative value is the one that catches people out, because squaring it makes it positive."
+    }
+   ],
+   "front_md": "$X$ can take the values $- 3 , - 1 , 2$ and $4$. How do you find `\\text{P} \\left(X^{2} < 5\\right)`?\n",
+   "back_md": "Work out which of the **values** satisfy the condition, then add up their probabilities.\n\nHere `\\left(- 3\\right)^{2} = 9` and $4^{2} = 16$ are both too big, while `\\left(- 1\\right)^{2} = 1` and $2^{2} = 4$ are not, so\n\n`\\text{P} \\left(X^{2} < 5\\right) = \\text{P} \\left(X = - 1\\right) + \\text{P} \\left(X = 2\\right)`\n\nThe negative value is the one that catches people out, because squaring it makes it positive.\n",
+   "spec_links": [
+    "spcpt_zVjsVNNSk6nRc5FQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yQKcHYTYRDQqJyPY",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_MGjGjZDTyPb24PpB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **expected value** of a discrete random variable."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The expected value `\\text{E} \\left(X\\right)` is the **mean** of the random variable: what its value would average out to over very many repetitions."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is found by multiplying each value by its probability and adding the results, `\\Sigma x \\text{P} \\left(X = x\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "That formula is given in the formula booklet."
+    }
+   ],
+   "front_md": "Define the **expected value** of a discrete random variable.\n",
+   "back_md": "The expected value `\\text{E} \\left(X\\right)` is the **mean** of the random variable: what its value would average out to over very many repetitions.\n\nIt is found by multiplying each value by its probability and adding the results, `\\Sigma x \\text{P} \\left(X = x\\right)`.\n\nThat formula is given in the formula booklet.\n",
+   "spec_links": [
+    "spcpt_ZMNyvHd7JK6WfHTm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XXSw9bgJf8DCFv8b",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_MGjGjZDTyPb24PpB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$X$ takes the values 1, 5 and 9 with probabilities 0.3, 0.4 and 0.3. What is `\\text{E} \\left(X\\right)`, and how can you see it without calculating?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**5.** The values are spread symmetrically about 5 and their probabilities are symmetrical too, so the distribution balances there."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a symmetrical distribution the mean is equal to the median, so spotting the symmetry saves the whole calculation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying out gives $1 \\times 0 . 3 + 5 \\times 0 . 4 + 9 \\times 0 . 3 = 5$, which confirms it."
+    }
+   ],
+   "front_md": "$X$ takes the values 1, 5 and 9 with probabilities 0.3, 0.4 and 0.3. What is `\\text{E} \\left(X\\right)`, and how can you see it without calculating?\n",
+   "back_md": "**5.** The values are spread symmetrically about 5 and their probabilities are symmetrical too, so the distribution balances there.\n\nFor a symmetrical distribution the mean is equal to the median, so spotting the symmetry saves the whole calculation.\n\nMultiplying out gives $1 \\times 0 . 3 + 5 \\times 0 . 4 + 9 \\times 0 . 3 = 5$, which confirms it.\n",
+   "spec_links": [
+    "spcpt_ZMNyvHd7JK6WfHTm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rNqsQrmM9bqnJWff",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_MGjGjZDTyPb24PpB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X^{2}\\right)` is the same thing as `\\left(\\text{E} \\left(X\\right)\\right)^{2}`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X^{2}\\right)` is the **mean of the squares** while `\\left(\\text{E} \\left(X\\right)\\right)^{2}` is the **square of the mean**, and squaring before averaging is not the same as averaging before squaring."
+    },
+    {
+     "type": "paragraph",
+     "md": "Take $X$ equal to $1$ or $- 1$ with equal chance: the mean is 0 so the square of the mean is 0, but both squares are 1 so the mean of the squares is 1."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\text{E} \\left(X^{2}\\right)` is the same thing as `\\left(\\text{E} \\left(X\\right)\\right)^{2}`.\n",
+   "back_md": "**False.**\n\n`\\text{E} \\left(X^{2}\\right)` is the **mean of the squares** while `\\left(\\text{E} \\left(X\\right)\\right)^{2}` is the **square of the mean**, and squaring before averaging is not the same as averaging before squaring.\n\nTake $X$ equal to $1$ or $- 1$ with equal chance: the mean is 0 so the square of the mean is 0, but both squares are 1 so the mean of the squares is 1.\n",
+   "spec_links": [
+    "spcpt_ZMNyvHd7JK6WfHTm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7Nd7MwvtRNvgqn5y",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_MGjGjZDTyPb24PpB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you calculate `\\text{E} \\left(X^{2}\\right)`, and how would you calculate `\\text{E} \\left(\\frac{1}{X}\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Apply the function to each **value** of $X$ first, then multiply by the probabilities and add, giving `\\text{E} \\left(X^{2}\\right) = \\Sigma x^{2} \\text{P} \\left(X = x\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same recipe handles any function at all, so `\\text{E} \\left(\\frac{1}{X}\\right) = \\Sigma \\frac{1}{x} \\text{P} \\left(X = x\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probabilities are **never** touched by the function; only the values are."
+    }
+   ],
+   "front_md": "How do you calculate `\\text{E} \\left(X^{2}\\right)`, and how would you calculate `\\text{E} \\left(\\frac{1}{X}\\right)`?\n",
+   "back_md": "Apply the function to each **value** of $X$ first, then multiply by the probabilities and add, giving `\\text{E} \\left(X^{2}\\right) = \\Sigma x^{2} \\text{P} \\left(X = x\\right)`.\n\nThe same recipe handles any function at all, so `\\text{E} \\left(\\frac{1}{X}\\right) = \\Sigma \\frac{1}{x} \\text{P} \\left(X = x\\right)`.\n\nThe probabilities are **never** touched by the function; only the values are.\n",
+   "spec_links": [
+    "spcpt_ZMNyvHd7JK6WfHTm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gCqTTfw998hJD4FH",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_MGjGjZDTyPb24PpB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is `\\text{Var} \\left(X\\right)` calculated for a random variable, and what is its standard deviation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using `\\text{Var} \\left(X\\right) = \\text{E} \\left(X^{2}\\right) - \\left(\\text{E} \\left(X\\right)\\right)^{2}`, the mean of the squares minus the square of the mean, which is given in the formula booklet."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **standard deviation** is the square root of that."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth noticing that the variance of a set of data is built the same way round, as the mean of the squares minus the square of the mean."
+    }
+   ],
+   "front_md": "How is `\\text{Var} \\left(X\\right)` calculated for a random variable, and what is its standard deviation?\n",
+   "back_md": "Using `\\text{Var} \\left(X\\right) = \\text{E} \\left(X^{2}\\right) - \\left(\\text{E} \\left(X\\right)\\right)^{2}`, the mean of the squares minus the square of the mean, which is given in the formula booklet.\n\nThe **standard deviation** is the square root of that.\n\nIt is worth noticing that the variance of a set of data is built the same way round, as the mean of the squares minus the square of the mean.\n",
+   "spec_links": [
+    "spcpt_ZMNyvHd7JK6WfHTm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mXVfKrQyq7w6f568",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_MGjGjZDTyPb24PpB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$X$ takes values between 2 and 7, and your calculation gives `\\text{E} \\left(X\\right) = 9`. What has gone wrong?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Something in the calculation, because the mean of a random variable must lie **within the range of its values**."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X\\right)` is a weighted average of those values, so it can never come out larger than the largest of them or smaller than the smallest."
+    },
+    {
+     "type": "paragraph",
+     "md": "It could only equal one of those extremes if that value had probability 1, which would leave $X$ not really random at all."
+    }
+   ],
+   "front_md": "$X$ takes values between 2 and 7, and your calculation gives `\\text{E} \\left(X\\right) = 9`. What has gone wrong?\n",
+   "back_md": "Something in the calculation, because the mean of a random variable must lie **within the range of its values**.\n\n`\\text{E} \\left(X\\right)` is a weighted average of those values, so it can never come out larger than the largest of them or smaller than the smallest.\n\nIt could only equal one of those extremes if that value had probability 1, which would leave $X$ not really random at all.\n",
+   "spec_links": [
+    "spcpt_ZMNyvHd7JK6WfHTm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bv2wvdgQTHnX4zHC",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_nC5HW6S3GvpZqgS3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two results for a linear transformation of a random variable, where $a$ and $b$ are constants:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(a X + b\\right) = \\_\\_\\_\\_\\_\\_ \\text{E} \\left(X\\right) + \\_\\_\\_\\_\\_\\_ \\text{, } \\text{Var} \\left(a X + b\\right) = \\_\\_\\_\\_\\_\\_ \\text{Var} \\left(X\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(a X + b\\right) = a \\text{E} \\left(X\\right) + b \\text{, } \\text{Var} \\left(a X + b\\right) = a^{2} \\text{Var} \\left(X\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Neither of these is in the formula booklet, so both have to be known."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean is changed by the multiplication **and** by the addition, while the variance is changed by the multiplication only."
+    }
+   ],
+   "front_md": "Complete the two results for a linear transformation of a random variable, where $a$ and $b$ are constants:\n\n`\\text{E} \\left(a X + b\\right) = \\_\\_\\_\\_\\_\\_ \\text{E} \\left(X\\right) + \\_\\_\\_\\_\\_\\_ \\text{, } \\text{Var} \\left(a X + b\\right) = \\_\\_\\_\\_\\_\\_ \\text{Var} \\left(X\\right)`\n",
+   "back_md": "The completed results are:\n\n`\\text{E} \\left(a X + b\\right) = a \\text{E} \\left(X\\right) + b \\text{, } \\text{Var} \\left(a X + b\\right) = a^{2} \\text{Var} \\left(X\\right)`\n\nNeither of these is in the formula booklet, so both have to be known.\n\nThe mean is changed by the multiplication **and** by the addition, while the variance is changed by the multiplication only.\n",
+   "spec_links": [
+    "spcpt_z62kKf5gJXGW9M9q"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_8RKPtdDNTsWQ6D2z",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_nC5HW6S3GvpZqgS3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the $+ b$ disappear from `\\text{Var} \\left(a X + b\\right)` but not from `\\text{E} \\left(a X + b\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the variance measures **spread** while the mean measures **location**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Adding $b$ shifts every value along by the same amount, so the whole distribution slides without becoming any more or less spread out, and its centre slides with it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying by $a$ genuinely stretches the distribution, so that does change the spread."
+    }
+   ],
+   "front_md": "Why does the $+ b$ disappear from `\\text{Var} \\left(a X + b\\right)` but not from `\\text{E} \\left(a X + b\\right)`?\n",
+   "back_md": "Because the variance measures **spread** while the mean measures **location**.\n\nAdding $b$ shifts every value along by the same amount, so the whole distribution slides without becoming any more or less spread out, and its centre slides with it.\n\nMultiplying by $a$ genuinely stretches the distribution, so that does change the spread.\n",
+   "spec_links": [
+    "spcpt_z62kKf5gJXGW9M9q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TSkWJJBMYbpSS9sK",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_nC5HW6S3GvpZqgS3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the multiplier appear as $a^{2}$ in `\\text{Var} \\left(a X + b\\right)` rather than as $a$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the variance is built out of **squared** deviations, so any factor applied to the values gets squared along with them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying every value by $a$ multiplies every deviation from the mean by $a$, and squaring those deviations then multiplies each squared deviation by $a^{2}$."
+    }
+   ],
+   "front_md": "Why does the multiplier appear as $a^{2}$ in `\\text{Var} \\left(a X + b\\right)` rather than as $a$?\n",
+   "back_md": "Because the variance is built out of **squared** deviations, so any factor applied to the values gets squared along with them.\n\nMultiplying every value by $a$ multiplies every deviation from the mean by $a$, and squaring those deviations then multiplies each squared deviation by $a^{2}$.\n",
+   "spec_links": [
+    "spcpt_z62kKf5gJXGW9M9q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4pRhWgkyC4T74h4Z",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_nC5HW6S3GvpZqgS3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A random variable has `\\text{E} \\left(X\\right) = 5` and `\\text{Var} \\left(X\\right) = 4`. Find `\\text{E} \\left(3 X + 5\\right)` and `\\text{Var} \\left(3 X + 5\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(3 X + 5\\right) = 3 \\times 5 + 5 = 20`, and `\\text{Var} \\left(3 X + 5\\right) = 3^{2} \\times 4 = 36`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $+ 5$ contributes to the mean and contributes nothing at all to the variance, while the 3 goes in as 3 for the mean and as 9 for the variance."
+    }
+   ],
+   "front_md": "A random variable has `\\text{E} \\left(X\\right) = 5` and `\\text{Var} \\left(X\\right) = 4`. Find `\\text{E} \\left(3 X + 5\\right)` and `\\text{Var} \\left(3 X + 5\\right)`.\n",
+   "back_md": "`\\text{E} \\left(3 X + 5\\right) = 3 \\times 5 + 5 = 20`, and `\\text{Var} \\left(3 X + 5\\right) = 3^{2} \\times 4 = 36`.\n\nThe $+ 5$ contributes to the mean and contributes nothing at all to the variance, while the 3 goes in as 3 for the mean and as 9 for the variance.\n",
+   "spec_links": [
+    "spcpt_z62kKf5gJXGW9M9q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W4ppH9wvVrD98yHR",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_nC5HW6S3GvpZqgS3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{Var} \\left(\\frac{X}{4}\\right) = \\frac{1}{4} \\text{Var} \\left(X\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing by 4 is multiplying by $\\frac{1}{4}$, so $a = \\frac{1}{4}$ and the variance is multiplied by $a^{2} = \\frac{1}{16}$, giving `\\text{Var} \\left(\\frac{X}{4}\\right) = \\frac{1}{16} \\text{Var} \\left(X\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **mean** really is divided by 4, since `\\text{E} \\left(\\frac{X}{4}\\right) = \\frac{1}{4} \\text{E} \\left(X\\right)`, which is what makes the variance version look wrong."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\text{Var} \\left(\\frac{X}{4}\\right) = \\frac{1}{4} \\text{Var} \\left(X\\right)`\n",
+   "back_md": "**False.**\n\nDividing by 4 is multiplying by $\\frac{1}{4}$, so $a = \\frac{1}{4}$ and the variance is multiplied by $a^{2} = \\frac{1}{16}$, giving `\\text{Var} \\left(\\frac{X}{4}\\right) = \\frac{1}{16} \\text{Var} \\left(X\\right)`.\n\nThe **mean** really is divided by 4, since `\\text{E} \\left(\\frac{X}{4}\\right) = \\frac{1}{4} \\text{E} \\left(X\\right)`, which is what makes the variance version look wrong.\n",
+   "spec_links": [
+    "spcpt_z62kKf5gJXGW9M9q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zKmbjPrzHjbvK2gh",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_nC5HW6S3GvpZqgS3",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you apply the two results to `\\text{Var} \\left(2 - X\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite it as a multiplication plus an addition: `2 - X = \\left(- 1\\right) X + 2`, so $a = - 1$ and $b = 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then `\\text{Var} \\left(2 - X\\right) = \\left(- 1\\right)^{2} \\text{Var} \\left(X\\right) = \\text{Var} \\left(X\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Reversing the sign of a random variable leaves its variance completely unchanged, which is exactly what the squared multiplier guarantees."
+    }
+   ],
+   "front_md": "How do you apply the two results to `\\text{Var} \\left(2 - X\\right)`?\n",
+   "back_md": "Rewrite it as a multiplication plus an addition: `2 - X = \\left(- 1\\right) X + 2`, so $a = - 1$ and $b = 2$.\n\nThen `\\text{Var} \\left(2 - X\\right) = \\left(- 1\\right)^{2} \\text{Var} \\left(X\\right) = \\text{Var} \\left(X\\right)`.\n\nReversing the sign of a random variable leaves its variance completely unchanged, which is exactly what the squared multiplier guarantees.\n",
+   "spec_links": [
+    "spcpt_z62kKf5gJXGW9M9q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MpkPyMqkbvCFW4kV",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_bPw6yfSHs9mM8rSd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **discrete uniform distribution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A discrete random variable follows a discrete uniform distribution when there is a **finite number** of distinct outcomes and **every outcome is equally likely**."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $n$ outcomes, `\\text{P} \\left(X = x\\right) = \\frac{1}{n}` for each of them, and 0 for anything else."
+    },
+    {
+     "type": "paragraph",
+     "md": "Drawn as a vertical line graph, all of its lines have **equal height**."
+    }
+   ],
+   "front_md": "Define a **discrete uniform distribution**.\n",
+   "back_md": "A discrete random variable follows a discrete uniform distribution when there is a **finite number** of distinct outcomes and **every outcome is equally likely**.\n\nWith $n$ outcomes, `\\text{P} \\left(X = x\\right) = \\frac{1}{n}` for each of them, and 0 for anything else.\n\nDrawn as a vertical line graph, all of its lines have **equal height**.\n",
+   "spec_links": [
+    "spcpt_XNbkj4YzrTHZD8Wv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CCtsZQnXQ4ct84rS",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_bPw6yfSHs9mM8rSd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a discrete uniform distribution whose outcomes are the integers $1 , 2 , 3 , \\dots , n$, complete the mean and the variance:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X\\right) = \\frac{\\_\\_\\_\\_\\_\\_}{2} \\text{, } \\text{Var} \\left(X\\right) = \\frac{\\_\\_\\_\\_\\_\\_}{12}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formulae are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X\\right) = \\frac{n + 1}{2} \\text{, } \\text{Var} \\left(X\\right) = \\frac{n^{2} - 1}{12}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Neither of these is in the formula booklet, and neither is on the list of formulae you are told to know, so they have to be memorised or worked out from first principles."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean is simply the midpoint of $1$ and $n$, which is both a way of remembering it and a way of checking it."
+    }
+   ],
+   "front_md": "For a discrete uniform distribution whose outcomes are the integers $1 , 2 , 3 , \\dots , n$, complete the mean and the variance:\n\n`\\text{E} \\left(X\\right) = \\frac{\\_\\_\\_\\_\\_\\_}{2} \\text{, } \\text{Var} \\left(X\\right) = \\frac{\\_\\_\\_\\_\\_\\_}{12}`\n",
+   "back_md": "The completed formulae are:\n\n`\\text{E} \\left(X\\right) = \\frac{n + 1}{2} \\text{, } \\text{Var} \\left(X\\right) = \\frac{n^{2} - 1}{12}`\n\nNeither of these is in the formula booklet, and neither is on the list of formulae you are told to know, so they have to be memorised or worked out from first principles.\n\nThe mean is simply the midpoint of $1$ and $n$, which is both a way of remembering it and a way of checking it.\n",
+   "spec_links": [
+    "spcpt_XNbkj4YzrTHZD8Wv"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_WydfW6gNBJsKs3yP",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_bPw6yfSHs9mM8rSd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "One of the first five Fibonacci numbers, $1 , 1 , 2 , 3 , 5$, is chosen at random. Why is the number chosen **not** discrete uniform?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the outcomes are not **equally likely**: the value 1 appears twice among the five numbers, so it is twice as likely to be picked as any of the others."
+    },
+    {
+     "type": "paragraph",
+     "md": "The second digit produced by a random number generator **is** discrete uniform, because its ten outcomes $0$ to $9$ really are equally likely."
+    }
+   ],
+   "front_md": "One of the first five Fibonacci numbers, $1 , 1 , 2 , 3 , 5$, is chosen at random. Why is the number chosen **not** discrete uniform?\n",
+   "back_md": "Because the outcomes are not **equally likely**: the value 1 appears twice among the five numbers, so it is twice as likely to be picked as any of the others.\n\nThe second digit produced by a random number generator **is** discrete uniform, because its ten outcomes $0$ to $9$ really are equally likely.\n",
+   "spec_links": [
+    "spcpt_XNbkj4YzrTHZD8Wv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JVD2q9sWgV4SRKKz",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_bPw6yfSHs9mM8rSd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can a discrete uniform distribution not model the number you get when someone is asked to write down any integer they like?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because there are **infinitely many** possible outcomes, and a discrete uniform distribution needs a **finite** number of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $n$ outcomes each one has probability $\\frac{1}{n}$, and there is no number that can play the part of $\\frac{1}{n}$ when the outcomes never run out."
+    }
+   ],
+   "front_md": "Why can a discrete uniform distribution not model the number you get when someone is asked to write down any integer they like?\n",
+   "back_md": "Because there are **infinitely many** possible outcomes, and a discrete uniform distribution needs a **finite** number of them.\n\nWith $n$ outcomes each one has probability $\\frac{1}{n}$, and there is no number that can play the part of $\\frac{1}{n}$ when the outcomes never run out.\n",
+   "spec_links": [
+    "spcpt_XNbkj4YzrTHZD8Wv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mrsb66vPhgMQ4J7T",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_bPw6yfSHs9mM8rSd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A discrete uniform distribution has no mode."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The mode is the most likely outcome, and here every outcome is exactly as likely as every other, so no single one of them stands out."
+    },
+    {
+     "type": "paragraph",
+     "md": "The distribution is symmetrical, so the **median** does exist and is equal to the mean."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA discrete uniform distribution has no mode.\n",
+   "back_md": "**True.**\n\nThe mode is the most likely outcome, and here every outcome is exactly as likely as every other, so no single one of them stands out.\n\nThe distribution is symmetrical, so the **median** does exist and is equal to the mean.\n",
+   "spec_links": [
+    "spcpt_XNbkj4YzrTHZD8Wv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2qnfYHMXSjKKyCR6",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_bPw6yfSHs9mM8rSd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A discrete uniform variable has outcomes $2 , 5 , 8$ and $11$ rather than $1$ to $n$. How can the standard formulae still give its mean and variance?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Those formulae only apply to the integers $1$ to $n$, but these outcomes form an **arithmetic sequence**, so they can be written as $Y = 3 X - 1$ where $X$ takes the values $1 , 2 , 3 , 4$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Find `\\text{E} \\left(X\\right)` and `\\text{Var} \\left(X\\right)` from the standard formulae with $n = 4$, then feed them through `\\text{E} \\left(a X + b\\right)` and `\\text{Var} \\left(a X + b\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The outcomes never had to be $1$ to $n$ for the distribution to be uniform; they only had to be equally likely."
+    }
+   ],
+   "front_md": "A discrete uniform variable has outcomes $2 , 5 , 8$ and $11$ rather than $1$ to $n$. How can the standard formulae still give its mean and variance?\n",
+   "back_md": "Those formulae only apply to the integers $1$ to $n$, but these outcomes form an **arithmetic sequence**, so they can be written as $Y = 3 X - 1$ where $X$ takes the values $1 , 2 , 3 , 4$.\n\nFind `\\text{E} \\left(X\\right)` and `\\text{Var} \\left(X\\right)` from the standard formulae with $n = 4$, then feed them through `\\text{E} \\left(a X + b\\right)` and `\\text{Var} \\left(a X + b\\right)`.\n\nThe outcomes never had to be $1$ to $n$ for the distribution to be uniform; they only had to be equally likely.\n",
+   "spec_links": [
+    "spcpt_XNbkj4YzrTHZD8Wv"
+   ],
+   "flags": []
+  }
+ ]
+}

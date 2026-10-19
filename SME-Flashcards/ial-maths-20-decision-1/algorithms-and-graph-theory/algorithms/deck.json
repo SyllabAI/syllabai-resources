@@ -1,0 +1,1256 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:22:02Z",
+ "course_slug": "ial-maths-20-decision-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/flashcards/algorithms-and-graph-theory/algorithms/",
+  "section_slug": "algorithms-and-graph-theory",
+  "section_name": "Algorithms & Graph Theory",
+  "topic_slug": "algorithms",
+  "title": "Algorithms",
+  "order": 0
+ },
+ "card_count": 40,
+ "card_types": {
+  "keyword_definition": 4,
+  "question_and_answer": 26,
+  "fill_in_the_blanks": 5,
+  "true_or_false": 5
+ },
+ "spec_link_cards": 40,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_P3QG9VNbRwRXSXcX",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define an **algorithm**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An algorithm is a set of **precise** instructions which, if followed exactly, produces the solution to a problem."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because the instructions leave nothing to judgement, a computer or a person can carry them out without needing to understand the problem itself."
+    }
+   ],
+   "front_md": "Define an **algorithm**.\n",
+   "back_md": "An algorithm is a set of **precise** instructions which, if followed exactly, produces the solution to a problem.\n\nBecause the instructions leave nothing to judgement, a computer or a person can carry them out without needing to understand the problem itself.\n",
+   "spec_links": [
+    "spcpt_8gBcbKsMFqBsThd6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6cKgRqJmjcTczq5s",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In what two ways can an algorithm be presented?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As a **text-based algorithm**, which is a list of instructions written out in sentences and usually numbered, or as a **flow chart**, which sets the same instructions out diagrammatically."
+    },
+    {
+     "type": "paragraph",
+     "md": "A flow chart makes the order of the instructions visible, along with any part that has to be repeated."
+    }
+   ],
+   "front_md": "In what two ways can an algorithm be presented?\n",
+   "back_md": "As a **text-based algorithm**, which is a list of instructions written out in sentences and usually numbered, or as a **flow chart**, which sets the same instructions out diagrammatically.\n\nA flow chart makes the order of the instructions visible, along with any part that has to be repeated.\n",
+   "spec_links": [
+    "spcpt_zhGH23vdhhw5pDX2",
+    "spcpt_8gBcbKsMFqBsThd6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NPn27j4V6w7csJwz",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the meanings of the three box shapes used in a flow chart:"
+    },
+    {
+     "type": "paragraph",
+     "md": "An **oval** marks the `\\_\\_\\_\\_\\_\\_` or end of the algorithm, a **rectangle** holds an `\\_\\_\\_\\_\\_\\_` to carry out, and a **diamond** holds a `\\_\\_\\_\\_\\_\\_` to answer."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "An **oval** marks the **start** or end of the algorithm, a **rectangle** holds an **instruction** to carry out, and a **diamond** holds a **question** to answer."
+    },
+    {
+     "type": "paragraph",
+     "md": "The shape tells you what kind of command you are looking at before you have read a word of it."
+    }
+   ],
+   "front_md": "Complete the meanings of the three box shapes used in a flow chart:\n\nAn **oval** marks the `\\_\\_\\_\\_\\_\\_` or end of the algorithm, a **rectangle** holds an `\\_\\_\\_\\_\\_\\_` to carry out, and a **diamond** holds a `\\_\\_\\_\\_\\_\\_` to answer.\n",
+   "back_md": "The completed sentence is:\n\nAn **oval** marks the **start** or end of the algorithm, a **rectangle** holds an **instruction** to carry out, and a **diamond** holds a **question** to answer.\n\nThe shape tells you what kind of command you are looking at before you have read a word of it.\n",
+   "spec_links": [
+    "spcpt_gRHgyFgW2bf6vQrK"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_vjBRfrKjH3FHbdqZ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What kinds of instruction make a flow chart a better way to present an algorithm than a list of sentences?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Conditional** instructions, such as 'is $a > b$?', where a yes sends you to one instruction and a no sends you to a different one."
+    },
+    {
+     "type": "paragraph",
+     "md": "Also **repetitive** parts, since a flow chart can loop an arrow back to an earlier box instead of writing the same instructions out again."
+    }
+   ],
+   "front_md": "What kinds of instruction make a flow chart a better way to present an algorithm than a list of sentences?\n",
+   "back_md": "**Conditional** instructions, such as 'is $a > b$?', where a yes sends you to one instruction and a no sends you to a different one.\n\nAlso **repetitive** parts, since a flow chart can loop an arrow back to an earlier box instead of writing the same instructions out again.\n",
+   "spec_links": [
+    "spcpt_gRHgyFgW2bf6vQrK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K9wNRT2nCvY7cwRz",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An algorithm always produces the best possible solution to the problem it is applied to."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Many algorithms are built to give a solution that is good enough rather than the very best one, because a real problem can be far too complex to solve exactly."
+    },
+    {
+     "type": "paragraph",
+     "md": "A route-finding algorithm might return a route $200$ miles longer than the shortest, and on a very long journey finding it quickly can matter more than that inaccuracy."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn algorithm always produces the best possible solution to the problem it is applied to.\n",
+   "back_md": "**False.**\n\nMany algorithms are built to give a solution that is good enough rather than the very best one, because a real problem can be far too complex to solve exactly.\n\nA route-finding algorithm might return a route $200$ miles longer than the shortest, and on a very long journey finding it quickly can matter more than that inaccuracy.\n",
+   "spec_links": [
+    "spcpt_8gBcbKsMFqBsThd6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HPGCk4fR8V9bqMs7",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do the flow chart commands 'Input', 'Let' and 'Output' each tell you to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Input** supplies the algorithm with its starting data, **Let** assigns or updates the value of a variable, and **Output** (or Print) tells you to write the answer down."
+    },
+    {
+     "type": "paragraph",
+     "md": "The output has to be read off the instruction that names it, and is not simply whatever number happens to be last in your working."
+    }
+   ],
+   "front_md": "What do the flow chart commands 'Input', 'Let' and 'Output' each tell you to do?\n",
+   "back_md": "**Input** supplies the algorithm with its starting data, **Let** assigns or updates the value of a variable, and **Output** (or Print) tells you to write the answer down.\n\nThe output has to be read off the instruction that names it, and is not simply whatever number happens to be last in your working.\n",
+   "spec_links": [
+    "spcpt_gRHgyFgW2bf6vQrK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jb7YGNxWHTWMcvHQ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are asked to describe what an algorithm shown as a flow chart achieves. Where should you look first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Look at the **final instructions**, and particularly at whatever the chart outputs, since that is what the whole algorithm was built to produce."
+    },
+    {
+     "type": "paragraph",
+     "md": "Working backwards from the output usually makes the purpose of the loop above it clear."
+    }
+   ],
+   "front_md": "You are asked to describe what an algorithm shown as a flow chart achieves. Where should you look first?\n",
+   "back_md": "Look at the **final instructions**, and particularly at whatever the chart outputs, since that is what the whole algorithm was built to produce.\n\nWorking backwards from the output usually makes the purpose of the loop above it clear.\n",
+   "spec_links": [
+    "spcpt_gRHgyFgW2bf6vQrK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zJV4Kv3JdxHKWFKB",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_RvD5mq9BtSXPnhfz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When following a flow chart, why might a column of the table of values be left mostly empty?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a value only gets a new entry on a row when the algorithm actually **changes** it."
+    },
+    {
+     "type": "paragraph",
+     "md": "An input such as $n$ that is never updated appears once, in the first row, and every later row leaves that column blank."
+    }
+   ],
+   "front_md": "When following a flow chart, why might a column of the table of values be left mostly empty?\n",
+   "back_md": "Because a value only gets a new entry on a row when the algorithm actually **changes** it.\n\nAn input such as $n$ that is never updated appears once, in the first row, and every later row leaves that column blank.\n",
+   "spec_links": [
+    "spcpt_gRHgyFgW2bf6vQrK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RbY6jv49VsCPQFCF",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a sorting algorithm do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A sorting algorithm arranges a list of items into **ascending** or **descending** order."
+    },
+    {
+     "type": "paragraph",
+     "md": "The items are usually numbers, such as weights, lengths, scores or times, but they can equally be letters or words."
+    }
+   ],
+   "front_md": "What does a sorting algorithm do?\n",
+   "back_md": "A sorting algorithm arranges a list of items into **ascending** or **descending** order.\n\nThe items are usually numbers, such as weights, lengths, scores or times, but they can equally be letters or words.\n",
+   "spec_links": [
+    "spcpt_GhSjBXgQRgBb843c"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dXtqZcNx3P9rhgXm",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens during one pass of the bubble sort algorithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each pair of neighbouring items on the working list is compared in turn, working from **left to right**, and the two are swapped whenever they are out of order."
+    },
+    {
+     "type": "paragraph",
+     "md": "A pair of **equal** items is already in order, so it is not swapped and does not add to the swap count."
+    }
+   ],
+   "front_md": "What happens during one pass of the bubble sort algorithm?\n",
+   "back_md": "Each pair of neighbouring items on the working list is compared in turn, working from **left to right**, and the two are swapped whenever they are out of order.\n\nA pair of **equal** items is already in order, so it is not swapped and does not add to the swap count.\n",
+   "spec_links": [
+    "spcpt_Vcg4PHTNDThnKgZ2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8vJSC6rK97d8DqQH",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you know when the bubble sort algorithm is complete?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is complete as soon as a **pass produces no swaps**, because that means every neighbouring pair is already in the right order."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is also complete once only one item would be left on the working list, since a single item cannot be out of order."
+    }
+   ],
+   "front_md": "How do you know when the bubble sort algorithm is complete?\n",
+   "back_md": "It is complete as soon as a **pass produces no swaps**, because that means every neighbouring pair is already in the right order.\n\nIt is also complete once only one item would be left on the working list, since a single item cannot be out of order.\n",
+   "spec_links": [
+    "spcpt_Vcg4PHTNDThnKgZ2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RxnM7Rr6xCvxMH4V",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **working list** in a bubble sort."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The working list is the part of the list that the next pass is actually applied to, meaning the items not yet known to be in their final place."
+    },
+    {
+     "type": "paragraph",
+     "md": "It starts as the whole list and loses one item after every pass, because each pass carries the largest remaining item to the end, or the smallest if the sort is descending."
+    }
+   ],
+   "front_md": "Define the **working list** in a bubble sort.\n",
+   "back_md": "The working list is the part of the list that the next pass is actually applied to, meaning the items not yet known to be in their final place.\n\nIt starts as the whole list and loses one item after every pass, because each pass carries the largest remaining item to the end, or the smallest if the sort is descending.\n",
+   "spec_links": [
+    "spcpt_Vcg4PHTNDThnKgZ2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_htW5mG5pW7MF6Y7J",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort is applied to a list of $n$ items. Complete the two results:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The maximum number of passes needed is `\\_\\_\\_\\_\\_\\_` and the greatest number of swaps possible in a single pass equals the number of `\\_\\_\\_\\_\\_\\_` made in that pass."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The maximum number of passes needed is $n - 1$ and the greatest number of swaps possible in a single pass equals the number of **comparisons** made in that pass."
+    },
+    {
+     "type": "paragraph",
+     "md": "The whole algorithm needs the greatest number of swaps when the list starts in exactly reverse order."
+    }
+   ],
+   "front_md": "A bubble sort is applied to a list of $n$ items. Complete the two results:\n\nThe maximum number of passes needed is `\\_\\_\\_\\_\\_\\_` and the greatest number of swaps possible in a single pass equals the number of `\\_\\_\\_\\_\\_\\_` made in that pass.\n",
+   "back_md": "The completed results are:\n\nThe maximum number of passes needed is $n - 1$ and the greatest number of swaps possible in a single pass equals the number of **comparisons** made in that pass.\n\nThe whole algorithm needs the greatest number of swaps when the list starts in exactly reverse order.\n",
+   "spec_links": [
+    "spcpt_Vcg4PHTNDThnKgZ2"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_FBY5Dp56hXSN5gZx",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bubble sort is applied to a list of $n$ items. What is the greatest number of comparisons the whole algorithm can involve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The comparisons total `\\left(n - 1\\right) + \\left(n - 2\\right) + \\dots + 2 + 1`, which sums to `\\frac{1}{2} n \\left(n - 1\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each pass compares one fewer pair than the pass before, because the working list has just lost an item."
+    }
+   ],
+   "front_md": "A bubble sort is applied to a list of $n$ items. What is the greatest number of comparisons the whole algorithm can involve?\n",
+   "back_md": "The comparisons total `\\left(n - 1\\right) + \\left(n - 2\\right) + \\dots + 2 + 1`, which sums to `\\frac{1}{2} n \\left(n - 1\\right)`.\n\nEach pass compares one fewer pair than the pass before, because the working list has just lost an item.\n",
+   "spec_links": [
+    "spcpt_Vcg4PHTNDThnKgZ2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fCYBt96nbbSvYZHY",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A bubble sort can need the maximum possible number of passes even when only one item is out of place."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An item sitting at the very end of the list that belongs at the very start moves only **one place closer** with each pass."
+    },
+    {
+     "type": "paragraph",
+     "md": "The rest of the list already being in order does nothing to speed that item up, so the sort runs to the full number of passes."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA bubble sort can need the maximum possible number of passes even when only one item is out of place.\n",
+   "back_md": "**True.**\n\nAn item sitting at the very end of the list that belongs at the very start moves only **one place closer** with each pass.\n\nThe rest of the list already being in order does nothing to speed that item up, so the sort runs to the full number of passes.\n",
+   "spec_links": [
+    "spcpt_Vcg4PHTNDThnKgZ2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rspjbh8BxqCsd3nX",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens during one pass of the quick sort algorithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Every sub-list is split into two halves around a **pivot**, with the items smaller than the pivot on one side and the larger ones on the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "For an ascending sort the smaller items go before the pivot, and within each half the items keep the order they were already in."
+    }
+   ],
+   "front_md": "What happens during one pass of the quick sort algorithm?\n",
+   "back_md": "Every sub-list is split into two halves around a **pivot**, with the items smaller than the pivot on one side and the larger ones on the other.\n\nFor an ascending sort the smaller items go before the pivot, and within each half the items keep the order they were already in.\n",
+   "spec_links": [
+    "spcpt_4KvCvTtSnQnbmCpW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_63sP7b7rYXyvRyfx",
+   "card_type": "fill_in_the_blanks",
+   "order": 8,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for finding the pivot in a quick sort, for a sub-list of $n$ items:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{position of pivot} = \\frac{\\_\\_\\_\\_\\_\\_}{2} \\text{, rounded up}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{position of pivot} = \\frac{n+1}{2} \\text{, rounded up}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "So a sub-list of $8$ items takes its $5$th item as the pivot, since $\\frac{9}{2} = 4 . 5$ rounds up to $5$."
+    }
+   ],
+   "front_md": "Complete the rule for finding the pivot in a quick sort, for a sub-list of $n$ items:\n\n`\\text{position of pivot} = \\frac{\\_\\_\\_\\_\\_\\_}{2} \\text{, rounded up}`\n",
+   "back_md": "The completed rule is:\n\n$\\text{position of pivot} = \\frac{n+1}{2} \\text{, rounded up}$\n\nSo a sub-list of $8$ items takes its $5$th item as the pivot, since $\\frac{9}{2} = 4 . 5$ rounds up to $5$.\n",
+   "spec_links": [
+    "spcpt_4KvCvTtSnQnbmCpW"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_4tPjcCh3nJgbZffy",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a quick sort, the pivot is found by putting the sub-list into order and then taking the middle value."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The pivot is whichever item sits in the middle **position** of the sub-list as it currently stands, with no reordering at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "Sorting the sub-list first would defeat the purpose, since sorting it is exactly what the algorithm is trying to achieve."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a quick sort, the pivot is found by putting the sub-list into order and then taking the middle value.\n",
+   "back_md": "**False.**\n\nThe pivot is whichever item sits in the middle **position** of the sub-list as it currently stands, with no reordering at all.\n\nSorting the sub-list first would defeat the purpose, since sorting it is exactly what the algorithm is trying to achieve.\n",
+   "spec_links": [
+    "spcpt_4KvCvTtSnQnbmCpW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M6YWBZ4RDYhb6xnP",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a quick sort, where should an item equal to the pivot be placed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Either side is valid, but for **consistency** always put it in the half holding the items greater than or equal to the pivot."
+    },
+    {
+     "type": "paragraph",
+     "md": "Keeping to one convention means your sub-lists match the expected working at every later pass."
+    }
+   ],
+   "front_md": "In a quick sort, where should an item equal to the pivot be placed?\n",
+   "back_md": "Either side is valid, but for **consistency** always put it in the half holding the items greater than or equal to the pivot.\n\nKeeping to one convention means your sub-lists match the expected working at every later pass.\n",
+   "spec_links": [
+    "spcpt_4KvCvTtSnQnbmCpW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_58B7SHWHbt5MbS7q",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you know when the quick sort algorithm is complete?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is complete once **every item on the original list has been a pivot**, because an item that has served as a pivot is already in its final position."
+    },
+    {
+     "type": "paragraph",
+     "md": "At that point no sub-list has more than one item left in it."
+    }
+   ],
+   "front_md": "How do you know when the quick sort algorithm is complete?\n",
+   "back_md": "It is complete once **every item on the original list has been a pivot**, because an item that has served as a pivot is already in its final position.\n\nAt that point no sub-list has more than one item left in it.\n",
+   "spec_links": [
+    "spcpt_4KvCvTtSnQnbmCpW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cQtFSSMwW754MkP3",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_xbsMGhXx2CtzRKhb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A pivot turns out to be the lowest item in its sub-list. What happens on that side of the pivot?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "No new sub-list is created there, because there are no items smaller than the pivot to form one."
+    },
+    {
+     "type": "paragraph",
+     "md": "The next pass simply has one fewer sub-list to work on, which is why the number of pivots does not always double from one pass to the next."
+    }
+   ],
+   "front_md": "A pivot turns out to be the lowest item in its sub-list. What happens on that side of the pivot?\n",
+   "back_md": "No new sub-list is created there, because there are no items smaller than the pivot to form one.\n\nThe next pass simply has one fewer sub-list to work on, which is why the number of pivots does not always double from one pass to the next.\n",
+   "spec_links": [
+    "spcpt_4KvCvTtSnQnbmCpW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p4K8RvRXR59b9FVQ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **binary search algorithm**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The binary search algorithm inspects an **ordered** list to decide whether a specified item is in it, and if it is, to find where it is."
+    },
+    {
+     "type": "paragraph",
+     "md": "The list must already be sorted for the algorithm to be used at all."
+    }
+   ],
+   "front_md": "Define the **binary search algorithm**.\n",
+   "back_md": "The binary search algorithm inspects an **ordered** list to decide whether a specified item is in it, and if it is, to find where it is.\n\nThe list must already be sorted for the algorithm to be used at all.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6prMRVy4yYVNyGH3",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must a list be in order before a binary search can be run on it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the method works by comparing the target with a middle item and then **discarding one whole half** of the list."
+    },
+    {
+     "type": "paragraph",
+     "md": "That step is only valid if everything on one side of the middle item comes before it and everything on the other side comes after it, which is exactly what being ordered guarantees."
+    }
+   ],
+   "front_md": "Why must a list be in order before a binary search can be run on it?\n",
+   "back_md": "Because the method works by comparing the target with a middle item and then **discarding one whole half** of the list.\n\nThat step is only valid if everything on one side of the middle item comes before it and everything on the other side comes after it, which is exactly what being ordered guarantees.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8VpzFQxMzdRT29Mf",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a binary search, how do you find the position of the pivot in a sub-list?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Add the positions of the **first and last** items of the sub-list, divide by $2$, and round up if the answer is not a whole number."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a sub-list running from position $6$ to position $8$ the pivot is therefore the $7$th item."
+    }
+   ],
+   "front_md": "In a binary search, how do you find the position of the pivot in a sub-list?\n",
+   "back_md": "Add the positions of the **first and last** items of the sub-list, divide by $2$, and round up if the answer is not a whole number.\n\nFor a sub-list running from position $6$ to position $8$ the pivot is therefore the $7$th item.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HjxfDrk85rsHbPq4",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binary search begins on a list of $8$ items. Which item is compared with the target first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The $5$th item, since the pivot position works out as $\\frac{1+8}{2} = 4 . 5$, which rounds up to $5$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every binary search starts at the middle of the whole list rather than at either end of it."
+    }
+   ],
+   "front_md": "A binary search begins on a list of $8$ items. Which item is compared with the target first?\n",
+   "back_md": "The $5$th item, since the pivot position works out as $\\frac{1+8}{2} = 4 . 5$, which rounds up to $5$.\n\nEvery binary search starts at the middle of the whole list rather than at either end of it.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xGrTHD9RBJPgXDxn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The item being searched for comes before the pivot. What does a binary search do next?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It rejects the pivot and everything after it, and carries on searching only the **sub-list before** the pivot."
+    },
+    {
+     "type": "paragraph",
+     "md": "Had the item come after the pivot instead, the sub-list before it would have been the part rejected."
+    }
+   ],
+   "front_md": "The item being searched for comes before the pivot. What does a binary search do next?\n",
+   "back_md": "It rejects the pivot and everything after it, and carries on searching only the **sub-list before** the pivot.\n\nHad the item come after the pivot instead, the sub-list before it would have been the part rejected.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NC3R8vYrK4qjr4T7",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two ways a binary search can finish:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The search ends either when the item has been `\\_\\_\\_\\_\\_\\_` in the list, or when it has been shown that the item is `\\_\\_\\_\\_\\_\\_` there at all."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The search ends either when the item has been **found** in the list, or when it has been shown that the item is **not** there at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "The second case is reached once the sub-list has been cut down until there is nothing left that could hold the item."
+    }
+   ],
+   "front_md": "Complete the two ways a binary search can finish:\n\nThe search ends either when the item has been `\\_\\_\\_\\_\\_\\_` in the list, or when it has been shown that the item is `\\_\\_\\_\\_\\_\\_` there at all.\n",
+   "back_md": "The completed sentence is:\n\nThe search ends either when the item has been **found** in the list, or when it has been shown that the item is **not** there at all.\n\nThe second case is reached once the sub-list has been cut down until there is nothing left that could hold the item.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_qQ6Vtjq6NP3WPvZs",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_gJRHcTqPn3bqVPKP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A binary search can only report that an item is missing after it has compared the item with every entry in the list."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each comparison lets the search throw away roughly **half** of the items still in play, so only a handful of comparisons are needed even for a long list."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example, a list of eight names is settled in three comparisons."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA binary search can only report that an item is missing after it has compared the item with every entry in the list.\n",
+   "back_md": "**False.**\n\nEach comparison lets the search throw away roughly **half** of the items still in play, so only a handful of comparisons are needed even for a long list.\n\nFor example, a list of eight names is settled in three comparisons.\n",
+   "spec_links": [
+    "spcpt_Zmf4G8ptrjJTyQzz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sF4cpwY8z7NK5zSF",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **bin packing algorithm**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bin packing algorithm organises a collection of objects into as **few bins as possible**, where every bin is the same size."
+    },
+    {
+     "type": "paragraph",
+     "md": "'Size' can mean length, weight, volume or any other capacity, so the objects might be pallets loaded into lorries or lengths of cable cut from reels."
+    }
+   ],
+   "front_md": "Define a **bin packing algorithm**.\n",
+   "back_md": "A bin packing algorithm organises a collection of objects into as **few bins as possible**, where every bin is the same size.\n\n'Size' can mean length, weight, volume or any other capacity, so the objects might be pallets loaded into lorries or lengths of cable cut from reels.\n",
+   "spec_links": [
+    "spcpt_gm4qdfZbrNvkCS3S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DzkfSKD4zJFzgZJ7",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the names of the three bin packing algorithms:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The `\\_\\_\\_\\_\\_\\_` algorithm, the first-fit `\\_\\_\\_\\_\\_\\_` algorithm, and the `\\_\\_\\_\\_\\_\\_` packing algorithm."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed list is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **first-fit** algorithm, the first-fit **decreasing** algorithm, and the **full-bin** packing algorithm."
+    },
+    {
+     "type": "paragraph",
+     "md": "All three pack objects into bins that are every one of them the same size."
+    }
+   ],
+   "front_md": "Complete the names of the three bin packing algorithms:\n\nThe `\\_\\_\\_\\_\\_\\_` algorithm, the first-fit `\\_\\_\\_\\_\\_\\_` algorithm, and the `\\_\\_\\_\\_\\_\\_` packing algorithm.\n",
+   "back_md": "The completed list is:\n\nThe **first-fit** algorithm, the first-fit **decreasing** algorithm, and the **full-bin** packing algorithm.\n\nAll three pack objects into bins that are every one of them the same size.\n",
+   "spec_links": [
+    "spcpt_gm4qdfZbrNvkCS3S"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_dtJM4MK4J9HXKMYF",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the first-fit bin packing algorithm decide where each object goes?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Objects are taken in the **order they are presented**, and each one is put into the **first** bin that still has room for it."
+    },
+    {
+     "type": "paragraph",
+     "md": "A new bin is opened only when no existing bin has enough capacity left."
+    }
+   ],
+   "front_md": "How does the first-fit bin packing algorithm decide where each object goes?\n",
+   "back_md": "Objects are taken in the **order they are presented**, and each one is put into the **first** bin that still has room for it.\n\nA new bin is opened only when no existing bin has enough capacity left.\n",
+   "spec_links": [
+    "spcpt_jFw8QgmRgsYPg89c"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b7B538wm7KkZDBT8",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the main advantage of the first-fit bin packing algorithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Speed**, because the objects do not have to be sorted into any order before the packing begins."
+    },
+    {
+     "type": "paragraph",
+     "md": "For many business or practical purposes a quick workable answer is worth more than the very best one."
+    }
+   ],
+   "front_md": "What is the main advantage of the first-fit bin packing algorithm?\n",
+   "back_md": "**Speed**, because the objects do not have to be sorted into any order before the packing begins.\n\nFor many business or practical purposes a quick workable answer is worth more than the very best one.\n",
+   "spec_links": [
+    "spcpt_jFw8QgmRgsYPg89c"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x6XpQzGGCtwvxH5X",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find a lower bound for the number of bins needed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide the **total capacity of all the objects** by the **size of one bin**, then round the answer **up** to the next whole number."
+    },
+    {
+     "type": "paragraph",
+     "md": "A value of $4 . 85$ therefore gives a lower bound of $5$ bins, since four bins could not possibly hold everything."
+    }
+   ],
+   "front_md": "How do you find a lower bound for the number of bins needed?\n",
+   "back_md": "Divide the **total capacity of all the objects** by the **size of one bin**, then round the answer **up** to the next whole number.\n\nA value of $4 . 85$ therefore gives a lower bound of $5$ bins, since four bins could not possibly hold everything.\n",
+   "spec_links": [
+    "spcpt_jFw8QgmRgsYPg89c"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KKkKTRg2nZtBJt6v",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each of the three bin packing algorithms has its own lower bound for the number of bins."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is only one lower bound, and it depends on the objects and the bin size rather than on which method is used."
+    },
+    {
+     "type": "paragraph",
+     "md": "No algorithm can beat it, because the objects simply will not fit into fewer bins than that however cleverly they are arranged."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEach of the three bin packing algorithms has its own lower bound for the number of bins.\n",
+   "back_md": "**False.**\n\nThere is only one lower bound, and it depends on the objects and the bin size rather than on which method is used.\n\nNo algorithm can beat it, because the objects simply will not fit into fewer bins than that however cleverly they are arranged.\n",
+   "spec_links": [
+    "spcpt_gm4qdfZbrNvkCS3S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GgWdqwFvG2QTnTFg",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the first-fit decreasing algorithm differ from the ordinary first-fit algorithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The objects are first arranged into **decreasing order**, largest first, and only then packed by the first-fit rule."
+    },
+    {
+     "type": "paragraph",
+     "md": "Placing the awkward large objects while every bin is still empty usually gets much closer to the optimal number of bins."
+    }
+   ],
+   "front_md": "How does the first-fit decreasing algorithm differ from the ordinary first-fit algorithm?\n",
+   "back_md": "The objects are first arranged into **decreasing order**, largest first, and only then packed by the first-fit rule.\n\nPlacing the awkward large objects while every bin is still empty usually gets much closer to the optimal number of bins.\n",
+   "spec_links": [
+    "spcpt_sQPhN4n7HWK9DRry"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QvK7Rv2Mb6nt7vqJ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A bin packing algorithm has used $5$ bins, and the lower bound is also $5$. What can you conclude?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The solution is **optimal**, since no arrangement at all can manage fewer than $5$ bins and this one achieves exactly that."
+    },
+    {
+     "type": "paragraph",
+     "md": "Matching the lower bound is the only way to be certain an answer is the best possible."
+    }
+   ],
+   "front_md": "A bin packing algorithm has used $5$ bins, and the lower bound is also $5$. What can you conclude?\n",
+   "back_md": "The solution is **optimal**, since no arrangement at all can manage fewer than $5$ bins and this one achieves exactly that.\n\nMatching the lower bound is the only way to be certain an answer is the best possible.\n",
+   "spec_links": [
+    "spcpt_sQPhN4n7HWK9DRry"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g4GpWqmwMq8RzSJj",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "First-fit has used $6$ bins but the lower bound is $5$. Does that mean a mistake has been made?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "No mistake need have been made, and the packing can be entirely correct."
+    },
+    {
+     "type": "paragraph",
+     "md": "First-fit is not guaranteed to reach the fewest possible bins, so a gap between its answer and the lower bound is an ordinary outcome rather than a sign of an error."
+    }
+   ],
+   "front_md": "First-fit has used $6$ bins but the lower bound is $5$. Does that mean a mistake has been made?\n",
+   "back_md": "No mistake need have been made, and the packing can be entirely correct.\n\nFirst-fit is not guaranteed to reach the fewest possible bins, so a gap between its answer and the lower bound is an ordinary outcome rather than a sign of an error.\n",
+   "spec_links": [
+    "spcpt_jFw8QgmRgsYPg89c"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KYnp376YBWrNRR9Z",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the full-bin packing algorithm work?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Combinations of objects that **exactly fill** a bin are identified by inspection and placed together."
+    },
+    {
+     "type": "paragraph",
+     "md": "Whatever objects are left over are then packed using the **first-fit** algorithm."
+    }
+   ],
+   "front_md": "How does the full-bin packing algorithm work?\n",
+   "back_md": "Combinations of objects that **exactly fill** a bin are identified by inspection and placed together.\n\nWhatever objects are left over are then packed using the **first-fit** algorithm.\n",
+   "spec_links": [
+    "spcpt_c2bwJnJzvYhj22vC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BFn2wnB3cPXJGMCZ",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Full-bin packing often reaches the optimal answer. Why is it still not always the algorithm to choose?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the full-bin combinations have to be spotted by **inspection**, which becomes slow and easy to get wrong once there are many objects."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where speed matters more than using the fewest bins, first-fit is the better choice."
+    }
+   ],
+   "front_md": "Full-bin packing often reaches the optimal answer. Why is it still not always the algorithm to choose?\n",
+   "back_md": "Because the full-bin combinations have to be spotted by **inspection**, which becomes slow and easy to get wrong once there are many objects.\n\nWhere speed matters more than using the fewest bins, first-fit is the better choice.\n",
+   "spec_links": [
+    "spcpt_c2bwJnJzvYhj22vC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c82cSTQ9yZBVShGf",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_mk6m2XTw3x6FyKQc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two students apply the same bin packing algorithm and produce different arrangements, both using $5$ bins. Can both be right?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both arrangements can be correct."
+    },
+    {
+     "type": "paragraph",
+     "md": "These algorithms are **heuristic**, which means they guarantee a workable answer rather than a unique one, and the full-bin method in particular can yield several different valid sets of full bins."
+    }
+   ],
+   "front_md": "Two students apply the same bin packing algorithm and produce different arrangements, both using $5$ bins. Can both be right?\n",
+   "back_md": "Both arrangements can be correct.\n\nThese algorithms are **heuristic**, which means they guarantee a workable answer rather than a unique one, and the full-bin method in particular can yield several different valid sets of full bins.\n",
+   "spec_links": [
+    "spcpt_c2bwJnJzvYhj22vC"
+   ],
+   "flags": []
+  }
+ ]
+}

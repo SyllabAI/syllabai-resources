@@ -1,0 +1,743 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:19:15Z",
+ "course_slug": "cie-a-level-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-3/flashcards/vectors/vector-equations-of-lines-and-the-scalar-product/",
+  "section_slug": "vectors",
+  "section_name": "Vectors",
+  "topic_slug": "vector-equations-of-lines-and-the-scalar-product",
+  "title": "Vector Equations of Lines & The Scalar Product",
+  "order": 2
+ },
+ "card_count": 23,
+ "card_types": {
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 15,
+  "true_or_false": 4,
+  "keyword_definition": 1
+ },
+ "spec_link_cards": 23,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_8BsCwfjnqJc6Wx8W",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_BcvkTHynW6ry9hmw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the vector equation of a line through a point with position vector $a$ and direction vector $d$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{r} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed equation is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$r = a + t d$"
+    },
+    {
+     "type": "paragraph",
+     "md": "When you are given two points on the line instead, with position vectors $a$ and $b$, use `\\mathbf{r} = \\mathbf{a} + t \\left(\\mathbf{b} - \\mathbf{a}\\right)`, since $b - a$ is a direction vector."
+    }
+   ],
+   "front_md": "Complete the vector equation of a line through a point with position vector $a$ and direction vector $d$:\n\n`\\mathbf{r} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed equation is:\n\n$r = a + t d$\n\nWhen you are given two points on the line instead, with position vectors $a$ and $b$, use `\\mathbf{r} = \\mathbf{a} + t \\left(\\mathbf{b} - \\mathbf{a}\\right)`, since $b - a$ is a direction vector.\n",
+   "spec_links": [
+    "spcpt_hXC48dpxjzYC42CR"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_pjYGcZHPmzK82cCz",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_BcvkTHynW6ry9hmw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In $r = a + t d$, what do $a$ and $d$ represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$a$ is the position vector of one point on the line, and $d$ is a direction vector giving the way the line runs."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth comparing with $y = m x + c$: the direction vector plays the part of the gradient, and the point plays the part of the intercept."
+    }
+   ],
+   "front_md": "In $r = a + t d$, what do $a$ and $d$ represent?\n",
+   "back_md": "$a$ is the position vector of one point on the line, and $d$ is a direction vector giving the way the line runs.\n\nIt is worth comparing with $y = m x + c$: the direction vector plays the part of the gradient, and the point plays the part of the intercept.\n",
+   "spec_links": [
+    "spcpt_hXC48dpxjzYC42CR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bz8kmVDvGP5Hz5VD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_BcvkTHynW6ry9hmw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you test whether a point lies on a given line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute the point's coordinates into the equation and see whether a **single value of the parameter** produces all of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each point on the line corresponds to exactly one value of $t$, so a point that needs two different values is not on the line."
+    }
+   ],
+   "front_md": "How do you test whether a point lies on a given line?\n",
+   "back_md": "Substitute the point's coordinates into the equation and see whether a **single value of the parameter** produces all of them.\n\nEach point on the line corresponds to exactly one value of $t$, so a point that needs two different values is not on the line.\n",
+   "spec_links": [
+    "spcpt_hXC48dpxjzYC42CR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qJXydZDYswJ2vtZw",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_BcvkTHynW6ry9hmw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A given line has only one vector equation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There are infinitely many, because **any** point on the line can serve as $a$, and any non-zero multiple of the direction vector points the same way."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why we say *a* direction vector rather than *the* direction vector, and it means your answer can look quite different from a mark scheme's and still be right."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA given line has only one vector equation.\n",
+   "back_md": "**False.**\n\nThere are infinitely many, because **any** point on the line can serve as $a$, and any non-zero multiple of the direction vector points the same way.\n\nThat is why we say *a* direction vector rather than *the* direction vector, and it means your answer can look quite different from a mark scheme's and still be right.\n",
+   "spec_links": [
+    "spcpt_hXC48dpxjzYC42CR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zjCGTnn8KxBY3x7p",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_BcvkTHynW6ry9hmw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A point matches the first two components of a line's equation but not the third. Is it on the line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "No. Every component has to be produced by the **same** value of the parameter, so failing on one is enough to rule the point out."
+    },
+    {
+     "type": "paragraph",
+     "md": "For `\\mathbf{r} = 3 \\mathbf{i} + 2 \\mathbf{j} - \\mathbf{k} + t \\left(\\mathbf{i} + 2 \\mathbf{j}\\right)` the point `\\left(- 7 , 5 , 0\\right)` fails, because no value of $t$ can turn the $k$ component into $0$."
+    }
+   ],
+   "front_md": "A point matches the first two components of a line's equation but not the third. Is it on the line?\n",
+   "back_md": "No. Every component has to be produced by the **same** value of the parameter, so failing on one is enough to rule the point out.\n\nFor `\\mathbf{r} = 3 \\mathbf{i} + 2 \\mathbf{j} - \\mathbf{k} + t \\left(\\mathbf{i} + 2 \\mathbf{j}\\right)` the point `\\left(- 7 , 5 , 0\\right)` fails, because no value of $t$ can turn the $k$ component into $0$.\n",
+   "spec_links": [
+    "spcpt_hXC48dpxjzYC42CR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R8tNrw6FCFHr6hsX",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_CZvbRGrZMm3pCgW6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **skew lines**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two lines that are **not parallel** and which **do not intersect**."
+    },
+    {
+     "type": "paragraph",
+     "md": "This can only happen in three dimensions: in two dimensions, lines that are not parallel always cross. A ceiling edge and a floor edge running a different way are skew."
+    }
+   ],
+   "front_md": "Define **skew lines**.\n",
+   "back_md": "Two lines that are **not parallel** and which **do not intersect**.\n\nThis can only happen in three dimensions: in two dimensions, lines that are not parallel always cross. A ceiling edge and a floor edge running a different way are skew.\n",
+   "spec_links": [
+    "spcpt_k868kHQFjJdH2rtC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_47GXq6kHCXVgrPVh",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_CZvbRGrZMm3pCgW6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you tell whether two lines are parallel?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two lines are parallel exactly when their **direction vectors** are parallel, so one direction vector is a scalar multiple of the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "The points the lines pass through are irrelevant to this test."
+    }
+   ],
+   "front_md": "How can you tell whether two lines are parallel?\n",
+   "back_md": "Two lines are parallel exactly when their **direction vectors** are parallel, so one direction vector is a scalar multiple of the other.\n\nThe points the lines pass through are irrelevant to this test.\n",
+   "spec_links": [
+    "spcpt_k868kHQFjJdH2rtC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Xy5TQWZkvG4bbZFz",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_CZvbRGrZMm3pCgW6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two parallel lines have no points in common."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Parallel lines either have **no** points in common or **all** of them, because two parallel lines that share a single point must be the same line."
+    },
+    {
+     "type": "paragraph",
+     "md": "So showing that direction vectors are parallel is only half the job."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo parallel lines have no points in common.\n",
+   "back_md": "**False.**\n\nParallel lines either have **no** points in common or **all** of them, because two parallel lines that share a single point must be the same line.\n\nSo showing that direction vectors are parallel is only half the job.\n",
+   "spec_links": [
+    "spcpt_k868kHQFjJdH2rtC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tQYrd6RPMvJJhGFT",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_CZvbRGrZMm3pCgW6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two lines are known to be parallel. How do you tell whether they are identical?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take any point on one line and test whether it lies on the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it does, the lines are identical; if it does not, they never meet. One point settles it either way, because parallel lines sharing any point share every point."
+    }
+   ],
+   "front_md": "Two lines are known to be parallel. How do you tell whether they are identical?\n",
+   "back_md": "Take any point on one line and test whether it lies on the other.\n\nIf it does, the lines are identical; if it does not, they never meet. One point settles it either way, because parallel lines sharing any point share every point.\n",
+   "spec_links": [
+    "spcpt_k868kHQFjJdH2rtC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Tr4WXNsq56tkRJJ8",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_CZvbRGrZMm3pCgW6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you test whether two non-parallel lines intersect?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write a general point on each line, then equate them to get **three equations**, one per component."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solve any two of the three for the two parameters, then check the values in the third: if it holds the lines intersect, and if it fails they are skew."
+    }
+   ],
+   "front_md": "How do you test whether two non-parallel lines intersect?\n",
+   "back_md": "Write a general point on each line, then equate them to get **three equations**, one per component.\n\nSolve any two of the three for the two parameters, then check the values in the third: if it holds the lines intersect, and if it fails they are skew.\n",
+   "spec_links": [
+    "spcpt_k868kHQFjJdH2rtC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kp47xJMKSH3f56p4",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_CZvbRGrZMm3pCgW6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must the two lines use different letters for their parameters?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the lines will in general reach the meeting point at **different** parameter values."
+    },
+    {
+     "type": "paragraph",
+     "md": "Using one letter for both would force those values to be equal, which quietly rules out most of the intersections you are looking for."
+    }
+   ],
+   "front_md": "Why must the two lines use different letters for their parameters?\n",
+   "back_md": "Because the lines will in general reach the meeting point at **different** parameter values.\n\nUsing one letter for both would force those values to be equal, which quietly rules out most of the intersections you are looking for.\n",
+   "spec_links": [
+    "spcpt_k868kHQFjJdH2rtC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zcDmSHYnVSnXgWDN",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_qNtc4zdWKhjV3NqG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the scalar product, where $a$ has components $a_{1} , a_{2} , a_{3}$ and $b$ has components $b_{1} , b_{2} , b_{3}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{a} \\cdot \\mathbf{b} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{a} \\cdot \\mathbf{b} = a_{1} b_{1} + a_{2} b_{2} + a_{3} b_{3}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiply matching components together, then add. In two dimensions it is the same with one term fewer."
+    }
+   ],
+   "front_md": "Complete the scalar product, where $a$ has components $a_{1} , a_{2} , a_{3}$ and $b$ has components $b_{1} , b_{2} , b_{3}$.\n\n`\\mathbf{a} \\cdot \\mathbf{b} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n`\\mathbf{a} \\cdot \\mathbf{b} = a_{1} b_{1} + a_{2} b_{2} + a_{3} b_{3}`\n\nMultiply matching components together, then add. In two dimensions it is the same with one term fewer.\n",
+   "spec_links": [
+    "spcpt_GnvjF6Qpb6TTNvnd"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_TJ4M55G7W3PVQWCP",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_qNtc4zdWKhjV3NqG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What kind of quantity is the result of a scalar product?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **scalar**, meaning an ordinary real number rather than a vector."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is where the name comes from, and it is worth holding on to: two vectors go in, one number comes out."
+    }
+   ],
+   "front_md": "What kind of quantity is the result of a scalar product?\n",
+   "back_md": "A **scalar**, meaning an ordinary real number rather than a vector.\n\nThat is where the name comes from, and it is worth holding on to: two vectors go in, one number comes out.\n",
+   "spec_links": [
+    "spcpt_GnvjF6Qpb6TTNvnd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6NyM3tgnpZP2SNcd",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_qNtc4zdWKhjV3NqG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the other formula for `\\mathbf{a} \\cdot \\mathbf{b}`, and what is $θ$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\mathbf{a} \\cdot \\mathbf{b} = \\left|\\mathbf{a}\\right| \\left|\\mathbf{b}\\right| \\cos \\theta`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $θ$ is the angle between the two vectors placed **base to base**, that is, drawn so that they start from the same point."
+    }
+   ],
+   "front_md": "What is the other formula for `\\mathbf{a} \\cdot \\mathbf{b}`, and what is $θ$?\n",
+   "back_md": "It is `\\mathbf{a} \\cdot \\mathbf{b} = \\left|\\mathbf{a}\\right| \\left|\\mathbf{b}\\right| \\cos \\theta`.\n\nHere $θ$ is the angle between the two vectors placed **base to base**, that is, drawn so that they start from the same point.\n",
+   "spec_links": [
+    "spcpt_GnvjF6Qpb6TTNvnd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ppWmxtKXWf4v5Gtb",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_qNtc4zdWKhjV3NqG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Brackets containing scalar products can be multiplied out in the usual way."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The scalar product distributes over addition, so `\\mathbf{a} \\cdot \\left(\\mathbf{b} + \\mathbf{c}\\right) = \\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{a} \\cdot \\mathbf{c}`, and the order of the two vectors makes no difference either."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `\\left(\\mathbf{a} - \\mathbf{b}\\right) \\cdot \\left(\\mathbf{a} - \\mathbf{b}\\right)` expands to `\\mathbf{a} \\cdot \\mathbf{a} - 2 \\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{b} \\cdot \\mathbf{b}`, exactly as it would with numbers."
+    }
+   ],
+   "front_md": "**True or False?**\n\nBrackets containing scalar products can be multiplied out in the usual way.\n",
+   "back_md": "**True.**\n\nThe scalar product distributes over addition, so `\\mathbf{a} \\cdot \\left(\\mathbf{b} + \\mathbf{c}\\right) = \\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{a} \\cdot \\mathbf{c}`, and the order of the two vectors makes no difference either.\n\nSo `\\left(\\mathbf{a} - \\mathbf{b}\\right) \\cdot \\left(\\mathbf{a} - \\mathbf{b}\\right)` expands to `\\mathbf{a} \\cdot \\mathbf{a} - 2 \\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{b} \\cdot \\mathbf{b}`, exactly as it would with numbers.\n",
+   "spec_links": [
+    "spcpt_GnvjF6Qpb6TTNvnd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NyPtMc6gdWynZztc",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_qNtc4zdWKhjV3NqG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `\\mathbf{a} \\cdot \\mathbf{a}` equal?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It equals `\\left|\\mathbf{a}\\right|^{2}`, the square of the vector's magnitude."
+    },
+    {
+     "type": "paragraph",
+     "md": "Squaring each component and adding is exactly what the magnitude formula does under its square root, so the root and the square cancel."
+    }
+   ],
+   "front_md": "What does `\\mathbf{a} \\cdot \\mathbf{a}` equal?\n",
+   "back_md": "It equals `\\left|\\mathbf{a}\\right|^{2}`, the square of the vector's magnitude.\n\nSquaring each component and adding is exactly what the magnitude formula does under its square root, so the root and the square cancel.\n",
+   "spec_links": [
+    "spcpt_GnvjF6Qpb6TTNvnd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Wk6ZgjN2JMjh2Xjk",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_qNtc4zdWKhjV3NqG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which of the two scalar product formulae should you use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use the component one when you are given the vectors themselves, which is the usual case."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use the one involving the angle when a question gives you magnitudes and the angle between the vectors but no components to work with."
+    }
+   ],
+   "front_md": "Which of the two scalar product formulae should you use?\n",
+   "back_md": "Use the component one when you are given the vectors themselves, which is the usual case.\n\nUse the one involving the angle when a question gives you magnitudes and the angle between the vectors but no components to work with.\n",
+   "spec_links": [
+    "spcpt_GnvjF6Qpb6TTNvnd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JfP6pRBgKmZzgP9x",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_JRpVpFp4DzHWt45K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the angle between two vectors?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out their scalar product, then the magnitude of each vector, then divide the first by the product of the other two to get $\\mathrm{cos} θ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking the inverse cosine gives the angle, which is the one between the vectors placed base to base."
+    }
+   ],
+   "front_md": "How do you find the angle between two vectors?\n",
+   "back_md": "Work out their scalar product, then the magnitude of each vector, then divide the first by the product of the other two to get $\\mathrm{cos} θ$.\n\nTaking the inverse cosine gives the angle, which is the one between the vectors placed base to base.\n",
+   "spec_links": [
+    "spcpt_GjkGPBQxw5qX3wHd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7CFNNWrJQjDSTBv7",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_JRpVpFp4DzHWt45K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the test for two non-zero vectors being perpendicular:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{a} \\text{ and } \\mathbf{b} \\text{ are perpendicular} \\iff \\mathbf{a} \\cdot \\mathbf{b} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed test is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{a} \\text{ and } \\mathbf{b} \\text{ are perpendicular} \\iff \\mathbf{a} \\cdot \\mathbf{b} = 0`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The reason is that the angle is $90 ^{\\circ}$ exactly when its cosine is zero. Both vectors have to be non-zero for the test to mean anything."
+    }
+   ],
+   "front_md": "Complete the test for two non-zero vectors being perpendicular:\n\n`\\mathbf{a} \\text{ and } \\mathbf{b} \\text{ are perpendicular} \\iff \\mathbf{a} \\cdot \\mathbf{b} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed test is:\n\n`\\mathbf{a} \\text{ and } \\mathbf{b} \\text{ are perpendicular} \\iff \\mathbf{a} \\cdot \\mathbf{b} = 0`\n\nThe reason is that the angle is $90 ^{\\circ}$ exactly when its cosine is zero. Both vectors have to be non-zero for the test to mean anything.\n",
+   "spec_links": [
+    "spcpt_GjkGPBQxw5qX3wHd"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_MnVSks5WDnd9hBnC",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_JRpVpFp4DzHWt45K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the angle between two lines?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the angle between their **direction vectors**, ignoring the points the lines pass through."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because only directions matter, two lines have an angle between them even when they never meet."
+    }
+   ],
+   "front_md": "How do you find the angle between two lines?\n",
+   "back_md": "Find the angle between their **direction vectors**, ignoring the points the lines pass through.\n\nBecause only directions matter, two lines have an angle between them even when they never meet.\n",
+   "spec_links": [
+    "spcpt_GjkGPBQxw5qX3wHd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tzNZkqBqRcKcy2dh",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_JRpVpFp4DzHWt45K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The shortest distance from a point to a line is measured along a perpendicular."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The closest point on the line, sometimes called the **foot of the perpendicular**, is exactly the point at which the joining line meets the given line at right angles."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what makes the scalar product the right tool for the job."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe shortest distance from a point to a line is measured along a perpendicular.\n",
+   "back_md": "**True.**\n\nThe closest point on the line, sometimes called the **foot of the perpendicular**, is exactly the point at which the joining line meets the given line at right angles.\n\nThat is what makes the scalar product the right tool for the job.\n",
+   "spec_links": [
+    "spcpt_GjkGPBQxw5qX3wHd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Vd9qrSMH7HzBTzd4",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_JRpVpFp4DzHWt45K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the point on a line closest to a given point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the closest point in terms of the parameter, since it lies on the line, and form the vector joining it to the given point."
+    },
+    {
+     "type": "paragraph",
+     "md": "That joining vector is perpendicular to the line, so setting its scalar product with the direction vector equal to zero gives an equation for the parameter."
+    }
+   ],
+   "front_md": "How do you find the point on a line closest to a given point?\n",
+   "back_md": "Write the closest point in terms of the parameter, since it lies on the line, and form the vector joining it to the given point.\n\nThat joining vector is perpendicular to the line, so setting its scalar product with the direction vector equal to zero gives an equation for the parameter.\n",
+   "spec_links": [
+    "spcpt_GjkGPBQxw5qX3wHd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hBYPRbfzg9qyzSQs",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_JRpVpFp4DzHWt45K",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You have found the closest point on the line. How do you get the shortest distance itself?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the **magnitude** of the vector joining the given point to that closest point."
+    },
+    {
+     "type": "paragraph",
+     "md": "Stopping once the closest point is found is the usual slip: the point is not the distance, and the question almost always wants the distance."
+    }
+   ],
+   "front_md": "You have found the closest point on the line. How do you get the shortest distance itself?\n",
+   "back_md": "Find the **magnitude** of the vector joining the given point to that closest point.\n\nStopping once the closest point is found is the usual slip: the point is not the distance, and the question almost always wants the distance.\n",
+   "spec_links": [
+    "spcpt_GjkGPBQxw5qX3wHd"
+   ],
+   "flags": []
+  }
+ ]
+}

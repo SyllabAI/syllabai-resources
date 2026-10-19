@@ -1,0 +1,716 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:21:23Z",
+ "course_slug": "cie-igcse-computer-science-23",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/flashcards/7-algorithm-design-and-problem-solving/validation-and-verification/",
+  "section_slug": "7-algorithm-design-and-problem-solving",
+  "section_name": "7. Algorithm Design & Problem-Solving",
+  "topic_slug": "validation-and-verification",
+  "title": "Validation & Verification",
+  "order": 4
+ },
+ "card_count": 28,
+ "card_types": {
+  "keyword_definition": 11,
+  "question_and_answer": 15,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 28,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_mSRvrvgCGBqs2ZSr",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define \"**validation**\" in the context of data input."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Validation is a method used to **check that an input from a user is acceptable** and **matches the requirements** of the program."
+    }
+   ],
+   "front_md": "Define \"**validation**\" in the context of data input.\n",
+   "back_md": "Validation is a method used to **check that an input from a user is acceptable** and **matches the requirements** of the program.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gfZKNQ8XcKPb5NTG",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the **six categories** of validation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The six categories of validation are: **range **check, **length **check, **type **check, **presence **check, **format **check, and **check digit**."
+    }
+   ],
+   "front_md": "What are the **six categories** of validation?\n",
+   "back_md": "The six categories of validation are: **range **check, **length **check, **type **check, **presence **check, **format **check, and **check digit**.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YVXXSbbkPChtdSWn",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a **range check**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A range check **ensures the data entered** as a number **falls within a particular range**."
+    }
+   ],
+   "front_md": "What is a **range check**?\n",
+   "back_md": "A range check **ensures the data entered** as a number **falls within a particular range**.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jd7TQRQN5XYsrdKr",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define \"**length check**\""
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A length check **verifies that the length of a string meets specific criteria**, such as a minimum or maximum number of characters."
+    }
+   ],
+   "front_md": "Define \"**length check**\"\n",
+   "back_md": "A length check **verifies that the length of a string meets specific criteria**, such as a minimum or maximum number of characters.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sD685BMZB48yJyCr",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a** type check** do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A type check** verifies that the data entered matches the expected data type**, such as ensuring an age is entered as an integer."
+    }
+   ],
+   "front_md": "What does a** type check** do?\n",
+   "back_md": "A type check** verifies that the data entered matches the expected data type**, such as ensuring an age is entered as an integer.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SmT4t3txSPjhqBqS",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of a** presence check**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A presence check **looks to see if any data has been entered in a field**, ensuring that required fields** are not left blank**."
+    }
+   ],
+   "front_md": "What is the purpose of a** presence check**?\n",
+   "back_md": "A presence check **looks to see if any data has been entered in a field**, ensuring that required fields** are not left blank**.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SKBBHqB4p6VDtfPB",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define \"**format check**\""
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A format check **ensures that the data has been entered in the correct format**, often using pattern matching and string handling."
+    }
+   ],
+   "front_md": "Define \"**format check**\"\n",
+   "back_md": "A format check **ensures that the data has been entered in the correct format**, often using pattern matching and string handling.\n",
+   "spec_links": [
+    "spcpt_NNNzT3vsdXS97q4S"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9HCfg73J7PbHhXQp",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is **verification **in data entry?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Verification is the **act of checking that data is accurate when entered into a system**."
+    }
+   ],
+   "front_md": "What is **verification **in data entry?\n",
+   "back_md": "Verification is the **act of checking that data is accurate when entered into a system**.\n",
+   "spec_links": [
+    "spcpt_XNYvx8XttSPbzSFg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BwwjWPqcWCHZZzbd",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are **two methods** of verification?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two methods of verification are **double entry checking** and **visual checks**."
+    }
+   ],
+   "front_md": "What are **two methods** of verification?\n",
+   "back_md": "Two methods of verification are **double entry checking** and **visual checks**.\n",
+   "spec_links": [
+    "spcpt_XNYvx8XttSPbzSFg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xMhdt46rW2DHvFpd",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_MZjHcSNMxMZj3w9R",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of a **check digit**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A check digit is **a numerical value**, usually the final digit of a larger code, **calculated by applying an algorithm** to the code to** verify its accuracy**."
+    }
+   ],
+   "front_md": "What is the purpose of a **check digit**?\n",
+   "back_md": "A check digit is **a numerical value**, usually the final digit of a larger code, **calculated by applying an algorithm** to the code to** verify its accuracy**.\n",
+   "spec_links": [
+    "spcpt_XNYvx8XttSPbzSFg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kn2x8tQMBhpZZyR3",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define \"**suitable test data**\""
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Suitable test data is **specially chosen data** to **test the functionality of a program** or design."
+    }
+   ],
+   "front_md": "Define \"**suitable test data**\"\n",
+   "back_md": "Suitable test data is **specially chosen data** to **test the functionality of a program** or design.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_St7FjT4zRZWC2bBk",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the **four categories** of suitable test data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The four categories of suitable test data are: **normal**, **abnormal**, **extreme**, and **boundary**."
+    }
+   ],
+   "front_md": "What are the **four categories** of suitable test data?\n",
+   "back_md": "The four categories of suitable test data are: **normal**, **abnormal**, **extreme**, and **boundary**.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bc2TzK2GvBh8FyZQ",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is **normal** test data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Normal test data is **data that should be accepted** in the program."
+    }
+   ],
+   "front_md": "What is **normal** test data?\n",
+   "back_md": "Normal test data is **data that should be accepted** in the program.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dmVb79CvMSj2TdbM",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define \"**abnormal test data**\""
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Abnormal test data is **data that is the wrong data type for the input field**."
+    }
+   ],
+   "front_md": "Define \"**abnormal test data**\"\n",
+   "back_md": "Abnormal test data is **data that is the wrong data type for the input field**.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wgSj36d3YvwvKhVB",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is **extreme **test data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Extreme test data is **the maximum and minimum values of normal data** that **are accepted** by the system."
+    }
+   ],
+   "front_md": "What is **extreme **test data?\n",
+   "back_md": "Extreme test data is **the maximum and minimum values of normal data** that **are accepted** by the system.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GT5yNYs5xgwgFQ42",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does **boundary** test data differ from **extreme **test data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Boundary test data tests values **on either side of the maximum and minimum acceptable values**, including the largest and smallest **unacceptable values**."
+    }
+   ],
+   "front_md": "How does **boundary** test data differ from **extreme **test data?\n",
+   "back_md": "Boundary test data tests values **on either side of the maximum and minimum acceptable values**, including the largest and smallest **unacceptable values**.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fWNCCPRDtyy9K68b",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Suitable test data is only used to check if a program works correctly."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Suitable test data is used to test both **correct functionality** and **how the program handles incorrect inputs**."
+    }
+   ],
+   "front_md": "**True or False? **\n\nSuitable test data is only used to check if a program works correctly.\n",
+   "back_md": "**False. **\n\nSuitable test data is used to test both **correct functionality** and **how the program handles incorrect inputs**.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6VHmFXxDhKY73wsS",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **purpose **of using different categories of test data?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The purpose of using different categories of test data is to** thoroughly test various aspects of the program**, including **its ability to handle both valid and invalid inputs**."
+    }
+   ],
+   "front_md": "What is the **purpose **of using different categories of test data?\n",
+   "back_md": "The purpose of using different categories of test data is to** thoroughly test various aspects of the program**, including **its ability to handle both valid and invalid inputs**.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cCWsqxff6GgDgZCv",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A program to check age is** between 18 and 25**, what would be an example of **boundary test data**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Boundary test data would include ages:"
+    },
+    {
+     "type": "paragraph",
+     "md": "**18,25 **-smallest & largest **accepted **data \n**17 & 26** - data falling just **below **& **exceeding**"
+    }
+   ],
+   "front_md": "A program to check age is** between 18 and 25**, what would be an example of **boundary test data**?\n",
+   "back_md": "Boundary test data would include ages:\n\n**18,25 **-smallest & largest **accepted **data \n**17 & 26** - data falling just **below **& **exceeding**\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2MCNDjmc2d2h2ZFB",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_fFgtQQt52dYMhyBs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it **important **to test with **abnormal data**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It's important to test with abnormal data to **ensure the program can handle incorrect input types** and **doesn't crash or behave unexpectedly** when given invalid data."
+    }
+   ],
+   "front_md": "Why is it **important **to test with **abnormal data**?\n",
+   "back_md": "It's important to test with abnormal data to **ensure the program can handle incorrect input types** and **doesn't crash or behave unexpectedly** when given invalid data.\n",
+   "spec_links": [
+    "spcpt_YpvJsHgf4fknYnDy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6JXRX4R5JfWmnSgG",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define \"**trace table**\""
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A trace table is used to **test algorithms and programs for logic errors** that appear when an algorithm or program executes."
+    }
+   ],
+   "front_md": "Define \"**trace table**\"\n",
+   "back_md": "A trace table is used to **test algorithms and programs for logic errors** that appear when an algorithm or program executes.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DCGz4q2XprDnz73c",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Trace tables can be used with **flowcharts**, **pseudocode**, or?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Program code**."
+    }
+   ],
+   "front_md": "Trace tables can be used with **flowcharts**, **pseudocode**, or?\n",
+   "back_md": "**Program code**.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BJqt6DYbMpJ2SH8w",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are **two purposes** of using a trace table?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two purposes of using a trace table are: **discover the purpose of an algorithm** and **record the state of the algorithm at each step or iteration**."
+    }
+   ],
+   "front_md": "What are **two purposes** of using a trace table?\n",
+   "back_md": "Two purposes of using a trace table are: **discover the purpose of an algorithm** and **record the state of the algorithm at each step or iteration**.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3S7ZfH632Q7jTKZY",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a trace table **executed**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A trace table is executed by **following each stage of the algorithm step by step**."
+    }
+   ],
+   "front_md": "How is a trace table **executed**?\n",
+   "back_md": "A trace table is executed by **following each stage of the algorithm step by step**.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qJJhDKKmB8Nd3G5H",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Trace tables can **only **be used with program code."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "Trace tables can be used with flowcharts, pseudocode, or program code."
+    }
+   ],
+   "front_md": "**True or False? **\n\nTrace tables can **only **be used with program code.\n",
+   "back_md": "**False. **\n\nTrace tables can be used with flowcharts, pseudocode, or program code.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NbzcmQSwk5tW2f3s",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What can be **checked **using a trace table?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Inputs**, **outputs**, **variables**, and **processes **can be checked for the correct value at each completed stage using a trace table."
+    }
+   ],
+   "front_md": "What can be **checked **using a trace table?\n",
+   "back_md": "**Inputs**, **outputs**, **variables**, and **processes **can be checked for the correct value at each completed stage using a trace table.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TTxR9sKNYGvVTpNM",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a trace table, what does** each row **typically represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a trace table, each row typically represents **a single step or iteration** of the algorithm."
+    }
+   ],
+   "front_md": "In a trace table, what does** each row **typically represent?\n",
+   "back_md": "In a trace table, each row typically represents **a single step or iteration** of the algorithm.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4jj4zCvkR8Rzz24G",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_w65XTxNxcQPpJxSZ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What **type of errors** are trace tables particularly useful for identifying?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Trace tables are particularly useful for identifying **logic errors** that appear when an algorithm or program executes."
+    }
+   ],
+   "front_md": "What **type of errors** are trace tables particularly useful for identifying?\n",
+   "back_md": "Trace tables are particularly useful for identifying **logic errors** that appear when an algorithm or program executes.\n",
+   "spec_links": [
+    "spcpt_y9hvyjgdN6XfftMK"
+   ],
+   "flags": []
+  }
+ ]
+}

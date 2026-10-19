@@ -1,0 +1,753 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:27:18Z",
+ "course_slug": "igcse-further-maths-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/flashcards/calculus/applications-of-integration/",
+  "section_slug": "calculus",
+  "section_name": "Calculus",
+  "topic_slug": "applications-of-integration",
+  "title": "Applications of Integration",
+  "order": 3
+ },
+ "card_count": 24,
+ "card_types": {
+  "fill_in_the_blanks": 2,
+  "question_and_answer": 18,
+  "true_or_false": 3,
+  "keyword_definition": 1
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_25xfbsTDTVjgrYBW",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the definition of a definite integral:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{a}^{b} \\text{f}'\\left(x\\right) \\text{d}x = \\left[\\text{f}\\left(x\\right)\\right]_{a}^{b} = \\text{f}\\left(\\_\\_\\_\\_\\_\\_\\right) - \\text{f}\\left(\\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed definition is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{a}^{b} \\text{f}'\\left(x\\right) \\text{d}x = \\left[\\text{f}\\left(x\\right)\\right]_{a}^{b} = \\text{f}\\left(b\\right) - \\text{f}\\left(a\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrate as usual, then substitute both numbers in and subtract the lower from the upper."
+    }
+   ],
+   "front_md": "Complete the definition of a definite integral:\n\n`\\int_{a}^{b} \\text{f}'\\left(x\\right) \\text{d}x = \\left[\\text{f}\\left(x\\right)\\right]_{a}^{b} = \\text{f}\\left(\\_\\_\\_\\_\\_\\_\\right) - \\text{f}\\left(\\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed definition is:\n\n`\\int_{a}^{b} \\text{f}'\\left(x\\right) \\text{d}x = \\left[\\text{f}\\left(x\\right)\\right]_{a}^{b} = \\text{f}\\left(b\\right) - \\text{f}\\left(a\\right)`\n\nIntegrate as usual, then substitute both numbers in and subtract the lower from the upper.\n",
+   "spec_links": [
+    "spcpt_M2RHvyxt445bmXBD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ssRNsr7Kmv6SP2TQ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are $a$ and $b$ called in `\\int_{a}^{b} \\text{f}\\left(x\\right) \\text{d}x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are the **integration limits**, with $a$ the **lower** limit and $b$ the **upper** limit."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral is read as being 'from $a$ to $b$'."
+    }
+   ],
+   "front_md": "What are $a$ and $b$ called in `\\int_{a}^{b} \\text{f}\\left(x\\right) \\text{d}x`?\n",
+   "back_md": "They are the **integration limits**, with $a$ the **lower** limit and $b$ the **upper** limit.\n\nThe integral is read as being 'from $a$ to $b$'.\n",
+   "spec_links": [
+    "spcpt_M2RHvyxt445bmXBD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Jq9z7zVSnk6Mn49r",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is no constant of integration needed in a definite integral?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it would appear in both substitutions and then cancel."
+    },
+    {
+     "type": "paragraph",
+     "md": "Working out `\\left(\\text{f}\\left(b\\right) + c\\right) - \\left(\\text{f}\\left(a\\right) + c\\right)` leaves `\\text{f}\\left(b\\right) - \\text{f}\\left(a\\right)`, whatever $c$ happens to be."
+    }
+   ],
+   "front_md": "Why is no constant of integration needed in a definite integral?\n",
+   "back_md": "Because it would appear in both substitutions and then cancel.\n\nWorking out `\\left(\\text{f}\\left(b\\right) + c\\right) - \\left(\\text{f}\\left(a\\right) + c\\right)` leaves `\\text{f}\\left(b\\right) - \\text{f}\\left(a\\right)`, whatever $c$ happens to be.\n",
+   "spec_links": [
+    "spcpt_M2RHvyxt445bmXBD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Vdv2xpMGJBCWh4DP",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Show that `\\int_{2}^{4} 3 x\\left(x^{2} - 2\\right) \\text{d}x = 144`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Expand the brackets first, giving `\\int_{2}^{4} \\left(3 x^{3} - 6 x\\right) \\text{d}x = \\left[\\frac{3}{4} x^{4} - 3 x^{2}\\right]_{2}^{4}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substituting gives `\\left(192 - 48\\right) - \\left(12 - 12\\right) = 144`."
+    }
+   ],
+   "front_md": "Show that `\\int_{2}^{4} 3 x\\left(x^{2} - 2\\right) \\text{d}x = 144`.\n",
+   "back_md": "Expand the brackets first, giving `\\int_{2}^{4} \\left(3 x^{3} - 6 x\\right) \\text{d}x = \\left[\\frac{3}{4} x^{4} - 3 x^{2}\\right]_{2}^{4}`.\n\nSubstituting gives `\\left(192 - 48\\right) - \\left(12 - 12\\right) = 144`.\n",
+   "spec_links": [
+    "spcpt_M2RHvyxt445bmXBD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ctSMxkB2rZgJmGBR",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the area under a curve between $x = a$ and $x = b$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Evaluate `\\int_{a}^{b} \\text{f}\\left(x\\right) \\text{d}x`, which gives the exact area bounded by the curve, the $x$-axis and the two vertical lines."
+    },
+    {
+     "type": "paragraph",
+     "md": "The limits must be the right way round, with $a$ on the left and $b$ on the right."
+    }
+   ],
+   "front_md": "How do you find the area under a curve between $x = a$ and $x = b$?\n",
+   "back_md": "Evaluate `\\int_{a}^{b} \\text{f}\\left(x\\right) \\text{d}x`, which gives the exact area bounded by the curve, the $x$-axis and the two vertical lines.\n\nThe limits must be the right way round, with $a$ on the left and $b$ on the right.\n",
+   "spec_links": [
+    "spcpt_yJ97KHnfRVsN7qBW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PPNTSB3QTBPW4F2z",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do you do if a boundary of the region is not a vertical line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is usually the point where the curve crosses the $x$-axis, so solve `\\text{f}\\left(x\\right) = 0` to find it."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the $y$-axis is a boundary then that limit is simply $x = 0$."
+    }
+   ],
+   "front_md": "What do you do if a boundary of the region is not a vertical line?\n",
+   "back_md": "It is usually the point where the curve crosses the $x$-axis, so solve `\\text{f}\\left(x\\right) = 0` to find it.\n\nIf the $y$-axis is a boundary then that limit is simply $x = 0$.\n",
+   "spec_links": [
+    "spcpt_yJ97KHnfRVsN7qBW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D9CRX8xNNNsQT6FP",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the area bounded by $y = 3 + 2 x - x^{2}$ and the positive axes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Solving $3 + 2 x - x^{2} = 0$ gives $x = - 1$ or $x = 3$, so the limits are $0$ and $3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then `\\int_{0}^{3} \\left(3 + 2 x - x^{2}\\right) \\text{d}x = \\left[3 x + x^{2} - \\frac{1}{3} x^{3}\\right]_{0}^{3} = 9` square units."
+    }
+   ],
+   "front_md": "Find the area bounded by $y = 3 + 2 x - x^{2}$ and the positive axes.\n",
+   "back_md": "Solving $3 + 2 x - x^{2} = 0$ gives $x = - 1$ or $x = 3$, so the limits are $0$ and $3$.\n\nThen `\\int_{0}^{3} \\left(3 + 2 x - x^{2}\\right) \\text{d}x = \\left[3 x + x^{2} - \\frac{1}{3} x^{3}\\right]_{0}^{3} = 9` square units.\n",
+   "spec_links": [
+    "spcpt_yJ97KHnfRVsN7qBW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_284bnKgTfQwHVzkS",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when the region lies entirely below the $x$-axis?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The definite integral comes out **negative**, because the function takes negative values throughout."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its size is still right, so just drop the minus sign: an integral of $- 36$ means an area of $36$ square units."
+    }
+   ],
+   "front_md": "What happens when the region lies entirely below the $x$-axis?\n",
+   "back_md": "The definite integral comes out **negative**, because the function takes negative values throughout.\n\nIts size is still right, so just drop the minus sign: an integral of $- 36$ means an area of $36$ square units.\n",
+   "spec_links": [
+    "spcpt_pRZp7s55nRN7j4fz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bkwgJfp5D54nBypr",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the area of a region partly above and partly below the $x$-axis?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split it at the crossing points, found by solving `\\text{f}\\left(x\\right) = 0`, and integrate each part separately."
+    },
+    {
+     "type": "paragraph",
+     "md": "Make every negative value positive, then add them all together for the total area."
+    }
+   ],
+   "front_md": "How do you find the area of a region partly above and partly below the $x$-axis?\n",
+   "back_md": "Split it at the crossing points, found by solving `\\text{f}\\left(x\\right) = 0`, and integrate each part separately.\n\nMake every negative value positive, then add them all together for the total area.\n",
+   "spec_links": [
+    "spcpt_pRZp7s55nRN7j4fz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HHcrBvXBN5GzWsbR",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_yWrfzkrmdVGbPq24",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A definite integral that comes out positive must give the area of the region."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If part of the region is below the axis, its negative contribution has already been subtracted from the positive part."
+    },
+    {
+     "type": "paragraph",
+     "md": "The answer can still come out positive and yet be smaller than the true area, which is why the region has to be split first."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA definite integral that comes out positive must give the area of the region.\n",
+   "back_md": "**False.**\n\nIf part of the region is below the axis, its negative contribution has already been subtracted from the positive part.\n\nThe answer can still come out positive and yet be smaller than the true area, which is why the region has to be split first.\n",
+   "spec_links": [
+    "spcpt_pRZp7s55nRN7j4fz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7N8p9CvqqwtpCZS8",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the straight-line boundary not need an integral?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the region under a straight line is a **triangle** or a **trapezium**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $A = \\frac{1}{2} b h$ or `A = \\frac{1}{2}\\left(a + b\\right) h` gives it directly, though an integral would also work."
+    }
+   ],
+   "front_md": "Why does the straight-line boundary not need an integral?\n",
+   "back_md": "Because the region under a straight line is a **triangle** or a **trapezium**.\n\nSo $A = \\frac{1}{2} b h$ or `A = \\frac{1}{2}\\left(a + b\\right) h` gives it directly, though an integral would also work.\n",
+   "spec_links": [
+    "spcpt_t6x5YNTWFJs9Vbwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b53pbd34PzVTW4Fr",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the first two steps for the area between a curve and a line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sketch both on the same axes if a diagram is not given."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then set their equations equal and solve, since the intersections identify the region and supply the limits."
+    }
+   ],
+   "front_md": "What are the first two steps for the area between a curve and a line?\n",
+   "back_md": "Sketch both on the same axes if a diagram is not given.\n\nThen set their equations equal and solve, since the intersections identify the region and supply the limits.\n",
+   "spec_links": [
+    "spcpt_t6x5YNTWFJs9Vbwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JJMcKRvynmMy538D",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you decide whether to add or subtract the two areas?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "From the sketch, once the region is shaded in."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the region is what lies **between** the two graphs, subtract the smaller area from the larger; if it is built from a piece under the curve next to a piece under the line, add them."
+    }
+   ],
+   "front_md": "How do you decide whether to add or subtract the two areas?\n",
+   "back_md": "From the sketch, once the region is shaded in.\n\nIf the region is what lies **between** the two graphs, subtract the smaller area from the larger; if it is built from a piece under the curve next to a piece under the line, add them.\n",
+   "spec_links": [
+    "spcpt_t6x5YNTWFJs9Vbwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_959sXNHY4yg9bWFN",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the area of the region between $y = 10 x - x^{2} - 16$ and $y = 8 - x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They meet where $x^{2} - 11 x + 24 = 0$, so at $x = 3$ and $x = 8$, and the region is the difference of the two areas."
+    },
+    {
+     "type": "paragraph",
+     "md": "The curve gives `\\int_{3}^{8} \\left(10 x - x^{2} - 16\\right) \\text{d}x = \\frac{100}{3}`, and the line gives a triangle of area $\\frac{25}{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting leaves $\\frac{125}{6}$ square units."
+    }
+   ],
+   "front_md": "Find the area of the region between $y = 10 x - x^{2} - 16$ and $y = 8 - x$.\n",
+   "back_md": "They meet where $x^{2} - 11 x + 24 = 0$, so at $x = 3$ and $x = 8$, and the region is the difference of the two areas.\n\nThe curve gives `\\int_{3}^{8} \\left(10 x - x^{2} - 16\\right) \\text{d}x = \\frac{100}{3}`, and the line gives a triangle of area $\\frac{25}{2}$.\n\nSubtracting leaves $\\frac{125}{6}$ square units.\n",
+   "spec_links": [
+    "spcpt_t6x5YNTWFJs9Vbwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tqQbB9TGfryjGmHM",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the integral for the area between two curves?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\int_{a}^{b} \\left(y_{1} - y_{2}\\right) \\text{d}x`, where $y_{1}$ is the **upper** curve and $y_{2}$ the lower one."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no triangle shortcut here, since both boundaries are curves and both have to be integrated."
+    }
+   ],
+   "front_md": "What is the integral for the area between two curves?\n",
+   "back_md": "It is `\\int_{a}^{b} \\left(y_{1} - y_{2}\\right) \\text{d}x`, where $y_{1}$ is the **upper** curve and $y_{2}$ the lower one.\n\nThere is no triangle shortcut here, since both boundaries are curves and both have to be integrated.\n",
+   "spec_links": [
+    "spcpt_ZQ4j8c8Zt59FSkXq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s8Vm8vgCgp6PQBHv",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the upper-minus-lower form avoid negative areas?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $y_{1} - y_{2}$ is never negative while $y_{1}$ is genuinely on top, so the integral cannot come out negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "That holds even if the whole region sits below the $x$-axis, so no splitting or sign-changing is needed."
+    }
+   ],
+   "front_md": "Why does the upper-minus-lower form avoid negative areas?\n",
+   "back_md": "Because $y_{1} - y_{2}$ is never negative while $y_{1}$ is genuinely on top, so the integral cannot come out negative.\n\nThat holds even if the whole region sits below the $x$-axis, so no splitting or sign-changing is needed.\n",
+   "spec_links": [
+    "spcpt_ZQ4j8c8Zt59FSkXq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SKWQQrpcrprs9G8w",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What changes when two curves cross more than twice?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The upper and lower roles **swap** at each crossing."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each region then needs its own integral with the functions written the right way round, and the separate areas are added at the end."
+    }
+   ],
+   "front_md": "What changes when two curves cross more than twice?\n",
+   "back_md": "The upper and lower roles **swap** at each crossing.\n\nEach region then needs its own integral with the functions written the right way round, and the separate areas are added at the end.\n",
+   "spec_links": [
+    "spcpt_ZQ4j8c8Zt59FSkXq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TMzT92Nf99zjsV3w",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_Z6W2p5nkgXfQ5xyh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two curves that cross three times enclose one region."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Three crossings bound **two** separate regions, one on each side of the middle intersection."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where `\\text{f}\\left(x\\right) = \\left(x - 2\\right)\\left(x - 3\\right)^{2}` meets `\\text{g}\\left(x\\right) = x^{2} - 5 x + 6` at $x = 2 , 3$ and $4$, the two regions must be worked out separately and added."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo curves that cross three times enclose one region.\n",
+   "back_md": "**False.**\n\nThree crossings bound **two** separate regions, one on each side of the middle intersection.\n\nWhere `\\text{f}\\left(x\\right) = \\left(x - 2\\right)\\left(x - 3\\right)^{2}` meets `\\text{g}\\left(x\\right) = x^{2} - 5 x + 6` at $x = 2 , 3$ and $4$, the two regions must be worked out separately and added.\n",
+   "spec_links": [
+    "spcpt_ZQ4j8c8Zt59FSkXq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bSNTF8RmHrGX9WXk",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_69BTsMv9zghjtg6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **volume of revolution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the volume of the solid formed when a region is rotated $2 π$ radians, a complete turn, about an axis."
+    },
+    {
+     "type": "paragraph",
+     "md": "About the $x$-axis, that region is bounded by the curve `y = \\text{f}\\left(x\\right)`, the $x$-axis, and the lines $x = a$ and $x = b$."
+    }
+   ],
+   "front_md": "Define **volume of revolution**.\n",
+   "back_md": "It is the volume of the solid formed when a region is rotated $2 π$ radians, a complete turn, about an axis.\n\nAbout the $x$-axis, that region is bounded by the curve `y = \\text{f}\\left(x\\right)`, the $x$-axis, and the lines $x = a$ and $x = b$.\n",
+   "spec_links": [
+    "spcpt_ZJ82Gv6yR2XWKRT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X6VdDrk9z6GsMSmv",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_69BTsMv9zghjtg6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for a volume of revolution about the $x$-axis:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\_\\_\\_\\_\\_\\_ \\int_{a}^{b} \\_\\_\\_\\_\\_\\_ \\text{d}x`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{a}^{b} y^{2} \\text{d}x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is not on the exam formula sheet, and the $π$ outside the integral is the part most often forgotten."
+    }
+   ],
+   "front_md": "Complete the formula for a volume of revolution about the $x$-axis:\n\n`V = \\_\\_\\_\\_\\_\\_ \\int_{a}^{b} \\_\\_\\_\\_\\_\\_ \\text{d}x`\n",
+   "back_md": "The completed formula is:\n\n`V = \\pi \\int_{a}^{b} y^{2} \\text{d}x`\n\nIt is not on the exam formula sheet, and the $π$ outside the integral is the part most often forgotten.\n",
+   "spec_links": [
+    "spcpt_ZJ82Gv6yR2XWKRT4"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_T2jHTX797tqTwmRC",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_69BTsMv9zghjtg6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the volume formula contain $y^{2}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $π y^{2}$ is the area of the **circular cross-section** of the solid at each value of $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral adds up all those thin circular slices between $x = a$ and $x = b$."
+    }
+   ],
+   "front_md": "Why does the volume formula contain $y^{2}$?\n",
+   "back_md": "Because $π y^{2}$ is the area of the **circular cross-section** of the solid at each value of $x$.\n\nThe integral adds up all those thin circular slices between $x = a$ and $x = b$.\n",
+   "spec_links": [
+    "spcpt_ZJ82Gv6yR2XWKRT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b99MmPHyDmW2Nkdq",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_69BTsMv9zghjtg6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are the ends of a solid of revolution flat?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because they are made by rotating the **straight vertical lines** $x = a$ and $x = b$, which sweep out flat discs."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the curved surface comes from the curve itself, and three-dimensional sketches often make the ends look rounded."
+    }
+   ],
+   "front_md": "Why are the ends of a solid of revolution flat?\n",
+   "back_md": "Because they are made by rotating the **straight vertical lines** $x = a$ and $x = b$, which sweep out flat discs.\n\nOnly the curved surface comes from the curve itself, and three-dimensional sketches often make the ends look rounded.\n",
+   "spec_links": [
+    "spcpt_ZJ82Gv6yR2XWKRT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ntTp5c3wnb3ccH9W",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_69BTsMv9zghjtg6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the volume when the region under $y = \\sqrt{3x^{2}+2}$ from $x = 0$ to $x = 3$ is rotated about the $x$-axis."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Squaring first gives $y^{2} = 3 x^{2} + 2$, so `V = \\pi \\int_{0}^{3} \\left(3 x^{2} + 2\\right) \\text{d}x`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral is `\\left[x^{3} + 2 x\\right]_{0}^{3} = 33`, so the volume is $33 π$ cubic units."
+    }
+   ],
+   "front_md": "Find the volume when the region under $y = \\sqrt{3x^{2}+2}$ from $x = 0$ to $x = 3$ is rotated about the $x$-axis.\n",
+   "back_md": "Squaring first gives $y^{2} = 3 x^{2} + 2$, so `V = \\pi \\int_{0}^{3} \\left(3 x^{2} + 2\\right) \\text{d}x`.\n\nThe integral is `\\left[x^{3} + 2 x\\right]_{0}^{3} = 33`, so the volume is $33 π$ cubic units.\n",
+   "spec_links": [
+    "spcpt_ZJ82Gv6yR2XWKRT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Yy9yzgCDPgnKmx5b",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_69BTsMv9zghjtg6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A square root in $y$ disappears when you set up the volume integral."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula needs $y^{2}$, and squaring undoes the root."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $y = \\sqrt{4-x}$ becomes simply $y^{2} = 4 - x$, which is far easier to integrate than the original."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA square root in $y$ disappears when you set up the volume integral.\n",
+   "back_md": "**True.**\n\nThe formula needs $y^{2}$, and squaring undoes the root.\n\nSo $y = \\sqrt{4-x}$ becomes simply $y^{2} = 4 - x$, which is far easier to integrate than the original.\n",
+   "spec_links": [
+    "spcpt_ZJ82Gv6yR2XWKRT4"
+   ],
+   "flags": []
+  }
+ ]
+}

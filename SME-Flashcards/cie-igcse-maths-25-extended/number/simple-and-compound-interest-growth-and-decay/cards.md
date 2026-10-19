@@ -1,0 +1,283 @@
+# Simple & Compound Interest, Growth & Decay
+
+Course: cie-igcse-maths-25-extended · Section: Number
+
+Source: https://www.savemyexams.com/igcse/maths/cie/25/extended/flashcards/number/simple-and-compound-interest-growth-and-decay/
+
+
+## Card 1 — true_or_false (`fl_zvH5X249dkV6MPH3`)
+
+**FRONT**
+
+**True or False?**
+
+**Simple interest** is based on the **original amount** (rather than the current amount).
+
+
+**BACK**
+
+**True.**
+
+**Simple interest** is based on the **original amount** (rather than the current amount).
+
+E.g. If you are investing \$500 over a period of 3 years, simple interest would be calculated based only on the original \$500.
+
+
+
+## Card 2 — question_and_answer (`fl_5TbGB7Bf2CwGFwnn`)
+
+**FRONT**
+
+How do you calculate the **final balance** after **simple interest** has been earned?
+
+E.g. \$300 earning 4% simple interest per year for 6 years.
+
+
+**BACK**
+
+To calculate the **final balance** after **simple interest** has been earned, find a **percentage **(the percentage rate) of the starting amount using a multiplier.
+
+Multiply this by the **number of time periods** (years) it is applied for.
+
+**Add **this on to the starting amount.
+
+E.g. (300 × 0.04 × 6) + 300 = 372
+
+
+
+## Card 3 — question_and_answer (`fl_KPkGDpmN45QWqqrm`)
+
+**FRONT**
+
+Given an **original amount**, the **final amount** and the **rate of simple interest**, how can you calculate the **number of time periods** over which the interest is paid?
+
+E.g. Simple interest is added to an investment of \$600 at a rate of 3.5% per year leading to a final amount of \$684. For how many years was interest at this rate paid?
+
+
+**BACK**
+
+Given an original amount, the final amount and the rate of simple interest, you can calculate the number of time periods over which the interest is paid by **subtracting** **the original amount from the final amount** (finding the total interest) and **dividing** the result by the** original amount** and the **rate of simple interest**.
+
+E.g. `equation``fraction numerator 684 minus 600 over denominator 600 cross times open parentheses fraction numerator 3.5 over denominator 100 end fraction close parentheses space end fraction equals 4`
+
+
+
+## Card 4 — true_or_false (`fl_Cvv58vVQ5JB3KVbh`)
+
+**FRONT**
+
+**True or False?**
+
+**Compound interest** is where interest is calculated based on the **current amount** (rather than the original amount).
+
+
+**BACK**
+
+**True.**
+
+**Compound interest** is where interest is calculated based on the **current amount** (rather than the original amount).
+
+E.g. If you are investing \$500 over a period of 3 years, compound interest would be calculated on the amount in the account at the end of each time period (including any interest that has been added from previously). Simple interest would always be calculated on the original \$500.
+
+
+
+## Card 5 — keyword_definition (`fl_tYgZKMwsjsdyxZDz`)
+
+**FRONT**
+
+**Compound interest** is applied to the amount $P$ at a rate of $r$% each year. Write down the equation for the **amount **after $n$ years.
+
+
+**BACK**
+
+**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating `P open parentheses 1 plus r over 100 close parentheses to the power of n`.
+
+
+
+## Card 6 — true_or_false (`fl_gfcVyCyJXQXD8YxH`)
+
+**FRONT**
+
+**True or False?**
+
+**Compound interest** is the **same **as a **repeated percentage increase**.
+
+
+**BACK**
+
+**True.**
+
+**Compound interest** is the **same **as a **repeated percentage increase**.
+
+E.g. For an investment of £400 with an interest of 3% over a period of 5 years, the final amount can be calculated by finding a 3% increase, five times in a row ( 400 x 1.03<sup>5</sup>).
+
+
+
+## Card 7 — true_or_false (`fl_vhwsvG9BYQPX7JF5`)
+
+**FRONT**
+
+**True or False?**
+
+If **compound interest** is applied to an amount each year, then the amount **increases by the same value** each year.
+
+
+**BACK**
+
+**False.**
+
+If **compound interest** is applied to an amount each year, then the amount does **not increase by the same value** each year. The amount of interest increases each year.
+
+For example, compound interest on \$100 at 10% each year, increases by \$10 in the first year and then \$11 in the second year.
+
+
+
+## Card 8 — question_and_answer (`fl_nz2pFZvBSR2v8PvW`)
+
+**FRONT**
+
+How do you calculate the **original amount **if you are given the** final balance** **after **compound interest has been applied?
+
+E.g. Given that the final amount in a savings account after a period of 2 years at an interest rate of 5% is \$771.75, find the original investment.
+
+
+**BACK**
+
+For a **reverse** percentage problem, you can find the **original amount **by dividing the** final balance** by the **compounded interest rate**.
+
+E.g.
+
+`table row cell 771.75 end cell equals cell P cross times open parentheses 1 plus 5 over 100 close parentheses squared end cell row cell 771.75 end cell equals cell P cross times 1.05 squared end cell row cell fraction numerator 771.75 over denominator 1.05 squared end fraction end cell equals P row P equals cell $ 700 end cell end table`
+
+
+
+## Card 9 — keyword_definition (`fl_kw7twcgzRbmC2qFK`)
+
+**FRONT**
+
+Define the term **depreciation**.
+
+
+**BACK**
+
+**Depreciation **is where an item **loses value** over time.
+
+
+
+## Card 10 — keyword_definition (`fl_MRPFVBDJ3YXmVzC4`)
+
+**FRONT**
+
+An **item **that initially had a value of $P$ depreciates at a rate of $r$% each year. Write down the equation for the **value **of the item after $n$ years.
+
+
+**BACK**
+
+An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating `P open parentheses 1 minus r over 100 close parentheses to the power of n`.
+
+
+
+## Card 11 — true_or_false (`fl_8QvpwwmrDdqD6Mwq`)
+
+**FRONT**
+
+**True or False?**
+
+**Depreciation **is the **same **as a **repeated percentage decrease**.
+
+
+**BACK**
+
+**True.**
+
+**Depreciation **is the **same **as a **repeated percentage decrease**.
+
+E.g. For an item with an original value of £200 that depreciates in value by 4% each year over a period of 6 years, its value at the end of 6 years can be calculated by finding a 4% decrease, six times in a row ( 200 x 0.96<sup>6</sup>).
+
+
+
+## Card 12 — true_or_false (`fl_v4Bt4mMJftvVFF5V`)
+
+**FRONT**
+
+**True or False?**
+
+When a quantity **grows exponentially** it is **increasing** from an original amount by a percentage each year for $n$ years.
+
+
+**BACK**
+
+**True.**
+
+When a quantity **grows exponentially** it is **increasing** from an original amount by a percentage each year for $n$ years.
+
+Bacterial growth is an example of exponential growth.
+
+
+
+## Card 13 — keyword_definition (`fl_Brqx79prB8C4kxDY`)
+
+**FRONT**
+
+What is **exponential decay**?
+
+
+**BACK**
+
+When a quantity** exponentially decays** it is **decreasing **from an original amount by a percentage each year for $n$ years.
+
+The temperature of hot water cooling down is an example of exponential decay.
+
+
+
+## Card 14 — keyword_definition (`fl_mS2Bd59jghp8rHWS`)
+
+**FRONT**
+
+What is the** equation** used to model **exponential growth or decay**?
+
+
+**BACK**
+
+The equation used to model** exponential growth or decay** is:
+
+- $B=A\timesk^{n}$ where:
+
+  - $A$ is the starting (initial) amount
+  - $B$ is the new amount
+  - $k$ is the appropriate **multiplier** **or scale factor** for the growth or decay in the time period
+  - $n$ is the number of time periods
+
+
+
+## Card 15 — question_and_answer (`fl_TCgxWxsXx2nbwnkD`)
+
+**FRONT**
+
+When using the equation $B=A\timesk^{n}$ to model exponential change, what values of $k$ indicate **exponential growth**?
+
+
+**BACK**
+
+When using the equation $B=A\timesk^{n}$ to model exponential change, if $k>1$ then it is **exponential growth.**
+
+
+
+## Card 16 — true_or_false (`fl_4PqCHfssnfrfZQ8F`)
+
+**FRONT**
+
+**True or False?**
+
+When using the equation $B=A\timesk^{n}$ to model exponential change, a negative value of $k$ indicates **exponential decay**.
+
+
+**BACK**
+
+**False.**
+
+When using the equation $B=A\timesk^{n}$ to model exponential change, **exponential decay** is indicated by $k$ having a value of $0<k<1$.
+
+$k$ cannot have a negative value.
+
+

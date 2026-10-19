@@ -1,0 +1,551 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:20Z",
+ "course_slug": "ial-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/flashcards/exponentials-and-logarithms/modelling-with-exponentials-and-logarithms/",
+  "section_slug": "exponentials-and-logarithms",
+  "section_name": "Exponentials & Logarithms",
+  "topic_slug": "modelling-with-exponentials-and-logarithms",
+  "title": "Modelling with Exponentials & Logarithms",
+  "order": 1
+ },
+ "card_count": 17,
+ "card_types": {
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 10,
+  "true_or_false": 3,
+  "keyword_definition": 1
+ },
+ "spec_link_cards": 17,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_PzctBNpT9SMxQD26",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_SN6xktNnJ24cSvqh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Exponential **growth** is modelled by `y = A \\text{e}^{\\_\\_\\_\\_\\_\\_}` and exponential **decay** by `y = A \\text{e}^{\\_\\_\\_\\_\\_\\_}`, where $t$ is time and $k > 0$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Exponential **growth** is modelled by $y = A \\text{e}^{kt}$ and exponential **decay** by $y = A \\text{e}^{-kt}$, where $t$ is time and $k > 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because $k$ is taken positive, the sign in the power alone tells you which of the two it is."
+    }
+   ],
+   "front_md": "Exponential **growth** is modelled by `y = A \\text{e}^{\\_\\_\\_\\_\\_\\_}` and exponential **decay** by `y = A \\text{e}^{\\_\\_\\_\\_\\_\\_}`, where $t$ is time and $k > 0$.\n",
+   "back_md": "Exponential **growth** is modelled by $y = A \\text{e}^{kt}$ and exponential **decay** by $y = A \\text{e}^{-kt}$, where $t$ is time and $k > 0$.\n\nBecause $k$ is taken positive, the sign in the power alone tells you which of the two it is.\n",
+   "spec_links": [
+    "spcpt_jVPhCHgQ5XCm23Hg"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_TzbsPTKr6q2zCfZB",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_SN6xktNnJ24cSvqh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In $y = A \\text{e}^{kt}$, what does $A$ represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **initial value**, that is the value of $y$ when $t = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substituting $t = 0$ gives $\\text{e}^{0} = 1$, so $y = A$."
+    }
+   ],
+   "front_md": "In $y = A \\text{e}^{kt}$, what does $A$ represent?\n",
+   "back_md": "The **initial value**, that is the value of $y$ when $t = 0$.\n\nSubstituting $t = 0$ gives $\\text{e}^{0} = 1$, so $y = A$.\n",
+   "spec_links": [
+    "spcpt_jVPhCHgQ5XCm23Hg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pFvZC5D7DhVMXCcX",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_SN6xktNnJ24cSvqh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is $t$ used rather than $x$ in these models?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because most of the situations being modelled are **time-dependent**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mathematics is identical; only the label changes, to match what the variable actually stands for."
+    }
+   ],
+   "front_md": "Why is $t$ used rather than $x$ in these models?\n",
+   "back_md": "Because most of the situations being modelled are **time-dependent**.\n\nThe mathematics is identical; only the label changes, to match what the variable actually stands for.\n",
+   "spec_links": [
+    "spcpt_jVPhCHgQ5XCm23Hg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HzvS8PzMns5rn8T2",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_SN6xktNnJ24cSvqh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can any exponential $a^{x}$ be rewritten as $\\text{e}^{kx}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a suitable $k$ can always be found, namely $k = \\mathrm{ln} a$, since $a = \\text{e}^{\\mathrm{ln}a}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Working in base $\\text{e}$ throughout makes the calculus much simpler, which is why models are written that way."
+    }
+   ],
+   "front_md": "Why can any exponential $a^{x}$ be rewritten as $\\text{e}^{kx}$?\n",
+   "back_md": "Because a suitable $k$ can always be found, namely $k = \\mathrm{ln} a$, since $a = \\text{e}^{\\mathrm{ln}a}$.\n\nWorking in base $\\text{e}$ throughout makes the calculus much simpler, which is why models are written that way.\n",
+   "spec_links": [
+    "spcpt_jVPhCHgQ5XCm23Hg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fk7jyCNgyKkKDmyy",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_SN6xktNnJ24cSvqh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph of $y = \\mathrm{ln} x$ is the reflection of $y = \\text{e}^{x}$ in the line $y = x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "They are inverse functions, and the graph of any inverse is that reflection."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $y = \\mathrm{ln} x$ passes through `\\left(1 , 0\\right)` where $y = \\text{e}^{x}$ passes through `\\left(0 , 1\\right)`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe graph of $y = \\mathrm{ln} x$ is the reflection of $y = \\text{e}^{x}$ in the line $y = x$.\n",
+   "back_md": "**True.**\n\nThey are inverse functions, and the graph of any inverse is that reflection.\n\nSo $y = \\mathrm{ln} x$ passes through `\\left(1 , 0\\right)` where $y = \\text{e}^{x}$ passes through `\\left(0 , 1\\right)`.\n",
+   "spec_links": [
+    "spcpt_jVPhCHgQ5XCm23Hg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jmjnmQtrYb3yGqQY",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_SN6xktNnJ24cSvqh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $k$ control in $y = A \\text{e}^{kt}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **rate** of the growth or decay: a larger $k$ means a faster change."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $A$ fixes where the model starts and $k$ fixes how quickly it moves."
+    }
+   ],
+   "front_md": "What does $k$ control in $y = A \\text{e}^{kt}$?\n",
+   "back_md": "The **rate** of the growth or decay: a larger $k$ means a faster change.\n\nSo $A$ fixes where the model starts and $k$ fixes how quickly it moves.\n",
+   "spec_links": [
+    "spcpt_jVPhCHgQ5XCm23Hg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RzddrJyC8Q4Vmf2b",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_9sfJvKR4KWRN6nKY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What kinds of situation are modelled by exponential growth and decay?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Growth**: populations of animals or humans, and investments under compound interest."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Decay**: levels of radioactivity, the amount of a drug in the bloodstream, and depreciation in value."
+    }
+   ],
+   "front_md": "What kinds of situation are modelled by exponential growth and decay?\n",
+   "back_md": "**Growth**: populations of animals or humans, and investments under compound interest.\n\n**Decay**: levels of radioactivity, the amount of a drug in the bloodstream, and depreciation in value.\n",
+   "spec_links": [
+    "spcpt_bynSkFNmPxyyRkY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RgGvkVW8WbZMWJw5",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_9sfJvKR4KWRN6nKY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does an exponential model usually apply only for a limited time?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because unlimited growth or decay is not realistic: a population cannot increase for ever, and an old car does not become worth nothing at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "The model describes a phase of the situation rather than the whole of it."
+    }
+   ],
+   "front_md": "Why does an exponential model usually apply only for a limited time?\n",
+   "back_md": "Because unlimited growth or decay is not realistic: a population cannot increase for ever, and an old car does not become worth nothing at all.\n\nThe model describes a phase of the situation rather than the whole of it.\n",
+   "spec_links": [
+    "spcpt_bynSkFNmPxyyRkY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6NYtgVtT7Y585Py5",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_9sfJvKR4KWRN6nKY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $y = A \\text{e}^{kt}$ then:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} y}{\\text{d} t} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}t} = A k \\text{e}^{kt}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "That is $k$ times $y$ itself, so the rate of change is **proportional to the quantity**, which is the defining feature of exponential behaviour."
+    }
+   ],
+   "front_md": "If $y = A \\text{e}^{kt}$ then:\n\n`\\frac{\\text{d} y}{\\text{d} t} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "$\\frac{\\text{d}y}{\\text{d}t} = A k \\text{e}^{kt}$\n\nThat is $k$ times $y$ itself, so the rate of change is **proportional to the quantity**, which is the defining feature of exponential behaviour.\n",
+   "spec_links": [
+    "spcpt_bynSkFNmPxyyRkY6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_mkck9Rr3yD5XR4qc",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_9sfJvKR4KWRN6nKY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An exponential decay model eventually reaches zero."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The curve approaches zero but never gets there, because $\\text{e}^{-kt}$ stays positive for every $t$."
+    },
+    {
+     "type": "paragraph",
+     "md": "In a real context that is one of the places the model stops being realistic."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn exponential decay model eventually reaches zero.\n",
+   "back_md": "**False.**\n\nThe curve approaches zero but never gets there, because $\\text{e}^{-kt}$ stays positive for every $t$.\n\nIn a real context that is one of the places the model stops being realistic.\n",
+   "spec_links": [
+    "spcpt_bynSkFNmPxyyRkY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PqcpXsMRZtxP8Tht",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_9sfJvKR4KWRN6nKY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How would you find how long a sample takes to halve, given $N = 2000 \\text{e}^{-kt}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set $N = 1000$ and solve $1000 = 2000 \\text{e}^{-kt}$ for $t$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing gives $\\text{e}^{-kt} = 0 . 5$, and taking natural logarithms brings $t$ down out of the power."
+    }
+   ],
+   "front_md": "How would you find how long a sample takes to halve, given $N = 2000 \\text{e}^{-kt}$?\n",
+   "back_md": "Set $N = 1000$ and solve $1000 = 2000 \\text{e}^{-kt}$ for $t$.\n\nDividing gives $\\text{e}^{-kt} = 0 . 5$, and taking natural logarithms brings $t$ down out of the power.\n",
+   "spec_links": [
+    "spcpt_bynSkFNmPxyyRkY6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TgWJqpxScTcWC5fK",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_bGzJ2ggCY5JJqvCk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why plot $\\mathrm{ln} y$ against $t$ instead of $y$ against $t$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it turns an exponential curve into a **straight line**, which is far easier to fit and to read values from."
+    },
+    {
+     "type": "paragraph",
+     "md": "It also compresses a wide range of values onto a manageable scale."
+    }
+   ],
+   "front_md": "Why plot $\\mathrm{ln} y$ against $t$ instead of $y$ against $t$?\n",
+   "back_md": "Because it turns an exponential curve into a **straight line**, which is far easier to fit and to read values from.\n\nIt also compresses a wide range of values onto a manageable scale.\n",
+   "spec_links": [
+    "spcpt_SmtQ68v57r6fDHmN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9gJ84ZRm66ccKnKC",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_bGzJ2ggCY5JJqvCk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **logarithmic axis**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An axis on which the **logarithm** of a quantity is plotted, rather than the quantity itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "A graph with at least one such axis is called a log graph."
+    }
+   ],
+   "front_md": "Define **logarithmic axis**.\n",
+   "back_md": "An axis on which the **logarithm** of a quantity is plotted, rather than the quantity itself.\n\nA graph with at least one such axis is called a log graph.\n",
+   "spec_links": [
+    "spcpt_SmtQ68v57r6fDHmN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H5vZNHZ6BdjXx6Fk",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_bGzJ2ggCY5JJqvCk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Taking $\\mathrm{ln}$ of both sides of $y = A \\text{e}^{kt}$ gives:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\ln y = \\_\\_\\_\\_\\_\\_ + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} y = k t + \\mathrm{ln} A$"
+    },
+    {
+     "type": "paragraph",
+     "md": "That is $y = m x + c$ with $\\mathrm{ln} y$ as the vertical variable, so plotting it against $t$ gives a straight line."
+    }
+   ],
+   "front_md": "Taking $\\mathrm{ln}$ of both sides of $y = A \\text{e}^{kt}$ gives:\n\n`\\ln y = \\_\\_\\_\\_\\_\\_ + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "$\\mathrm{ln} y = k t + \\mathrm{ln} A$\n\nThat is $y = m x + c$ with $\\mathrm{ln} y$ as the vertical variable, so plotting it against $t$ gives a straight line.\n",
+   "spec_links": [
+    "spcpt_SmtQ68v57r6fDHmN"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zjZPc2RCRG2ByNct",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_bGzJ2ggCY5JJqvCk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a graph of $\\mathrm{ln} y$ against $t$ for $y = A \\text{e}^{kt}$, what do the gradient and intercept give you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The gradient is $k$, and the vertical intercept is $\\mathrm{ln} A$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $A$ is found by raising $\\text{e}$ to the power of that intercept, **not** by reading it off directly."
+    }
+   ],
+   "front_md": "On a graph of $\\mathrm{ln} y$ against $t$ for $y = A \\text{e}^{kt}$, what do the gradient and intercept give you?\n",
+   "back_md": "The gradient is $k$, and the vertical intercept is $\\mathrm{ln} A$.\n\nSo $A$ is found by raising $\\text{e}$ to the power of that intercept, **not** by reading it off directly.\n",
+   "spec_links": [
+    "spcpt_SmtQ68v57r6fDHmN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Zfm6BykbzkQ559cj",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_bGzJ2ggCY5JJqvCk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you straighten a model of the form $y = A b^{kx}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take logarithms of both sides, which brings the power down: $\\mathrm{ln} y = k x \\mathrm{ln} b + \\mathrm{ln} A$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Plotting $\\mathrm{ln} y$ against $x$ then gives a straight line, this time of gradient $k \\mathrm{ln} b$."
+    }
+   ],
+   "front_md": "How do you straighten a model of the form $y = A b^{kx}$?\n",
+   "back_md": "Take logarithms of both sides, which brings the power down: $\\mathrm{ln} y = k x \\mathrm{ln} b + \\mathrm{ln} A$.\n\nPlotting $\\mathrm{ln} y$ against $x$ then gives a straight line, this time of gradient $k \\mathrm{ln} b$.\n",
+   "spec_links": [
+    "spcpt_SmtQ68v57r6fDHmN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wWs4j27Qzbc76ZG2",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_bGzJ2ggCY5JJqvCk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Plotting $\\mathrm{ln} y$ against $\\mathrm{ln} t$ would also straighten $y = A \\text{e}^{kt}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An exponential model straightens when $\\mathrm{ln} y$ is plotted against $t$ itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "Plotting $\\mathrm{ln} y$ against $\\mathrm{ln} t$ straightens a different kind of model, one in which $t$ is raised to a power."
+    }
+   ],
+   "front_md": "**True or False?**\n\nPlotting $\\mathrm{ln} y$ against $\\mathrm{ln} t$ would also straighten $y = A \\text{e}^{kt}$.\n",
+   "back_md": "**False.**\n\nAn exponential model straightens when $\\mathrm{ln} y$ is plotted against $t$ itself.\n\nPlotting $\\mathrm{ln} y$ against $\\mathrm{ln} t$ straightens a different kind of model, one in which $t$ is raised to a power.\n",
+   "spec_links": [
+    "spcpt_SmtQ68v57r6fDHmN"
+   ],
+   "flags": []
+  }
+ ]
+}

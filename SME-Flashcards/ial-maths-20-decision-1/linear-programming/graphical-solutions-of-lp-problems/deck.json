@@ -1,0 +1,684 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:22:05Z",
+ "course_slug": "ial-maths-20-decision-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/flashcards/linear-programming/graphical-solutions-of-lp-problems/",
+  "section_slug": "linear-programming",
+  "section_name": "Linear Programming",
+  "topic_slug": "graphical-solutions-of-lp-problems",
+  "title": "Graphical Solutions of LP Problems",
+  "order": 1
+ },
+ "card_count": 21,
+ "card_types": {
+  "keyword_definition": 3,
+  "true_or_false": 3,
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 12
+ },
+ "spec_link_cards": 21,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_7TJsk7g5Vg42KyBk",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_6fMzKHFDWZsHDGwb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **feasible region** of a linear programming problem."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The feasible region is the set of all points that satisfy **every** constraint of the problem at the same time, including the non-negativity constraint."
+    },
+    {
+     "type": "paragraph",
+     "md": "On a graph it appears as an area, and it is usually labelled $R$."
+    }
+   ],
+   "front_md": "Define the **feasible region** of a linear programming problem.\n",
+   "back_md": "The feasible region is the set of all points that satisfy **every** constraint of the problem at the same time, including the non-negativity constraint.\n\nOn a graph it appears as an area, and it is usually labelled $R$.\n",
+   "spec_links": [
+    "spcpt_mdHSsJWn3V3wQv6v"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tt2gz5sFw2hqx95h",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_6fMzKHFDWZsHDGwb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "On a completed linear programming graph, the feasible region is the area left unshaded."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The convention is to shade the side of each line that **does not** satisfy its inequality, so the unwanted parts of the graph are covered over."
+    },
+    {
+     "type": "paragraph",
+     "md": "With several constraints this leaves the feasible region as the one area with no shading on it, which is far easier to pick out than an area shaded several times over."
+    }
+   ],
+   "front_md": "**True or False?**\n\nOn a completed linear programming graph, the feasible region is the area left unshaded.\n",
+   "back_md": "**True.**\n\nThe convention is to shade the side of each line that **does not** satisfy its inequality, so the unwanted parts of the graph are covered over.\n\nWith several constraints this leaves the feasible region as the one area with no shading on it, which is far easier to pick out than an area shaded several times over.\n",
+   "spec_links": [
+    "spcpt_mdHSsJWn3V3wQv6v"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gh7XZpFznqKV592W",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_6fMzKHFDWZsHDGwb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for the type of line used when a constraint is plotted:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A constraint written with $\\leq$ or $\\geq$ is drawn as a `\\_\\_\\_\\_\\_\\_` line, and one written with $<$ or $>$ is drawn as a `\\_\\_\\_\\_\\_\\_` line."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "A constraint written with $\\leq$ or $\\geq$ is drawn as a **solid** line, and one written with $<$ or $>$ is drawn as a **dotted** line."
+    },
+    {
+     "type": "paragraph",
+     "md": "A solid line shows that the points on the line itself satisfy the constraint, so they belong to the feasible region. Strict inequalities are rare in linear programming."
+    }
+   ],
+   "front_md": "Complete the rule for the type of line used when a constraint is plotted:\n\nA constraint written with $\\leq$ or $\\geq$ is drawn as a `\\_\\_\\_\\_\\_\\_` line, and one written with $<$ or $>$ is drawn as a `\\_\\_\\_\\_\\_\\_` line.\n",
+   "back_md": "The completed rule is:\n\nA constraint written with $\\leq$ or $\\geq$ is drawn as a **solid** line, and one written with $<$ or $>$ is drawn as a **dotted** line.\n\nA solid line shows that the points on the line itself satisfy the constraint, so they belong to the feasible region. Strict inequalities are rare in linear programming.\n",
+   "spec_links": [
+    "spcpt_mdHSsJWn3V3wQv6v"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_7WtgtSBr7JKKYZzj",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_6fMzKHFDWZsHDGwb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first thing you must do with a constraint such as $3 x + 2 y \\leq 24$ before it can be drawn?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Replace the inequality sign with an equals sign, so that the constraint becomes the straight line $3 x + 2 y = 24$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The easiest way to plot it is usually to find where it crosses the axes, at $( 0 , 12 )$ and $( 8 , 0 )$, and join those two points; rearranging into the form $y = m x + c$ is an alternative."
+    }
+   ],
+   "front_md": "What is the first thing you must do with a constraint such as $3 x + 2 y \\leq 24$ before it can be drawn?\n",
+   "back_md": "Replace the inequality sign with an equals sign, so that the constraint becomes the straight line $3 x + 2 y = 24$.\n\nThe easiest way to plot it is usually to find where it crosses the axes, at $( 0 , 12 )$ and $( 8 , 0 )$, and join those two points; rearranging into the form $y = m x + c$ is an alternative.\n",
+   "spec_links": [
+    "spcpt_mdHSsJWn3V3wQv6v"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9sqKHGdJs6nChx2X",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_6fMzKHFDWZsHDGwb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A problem has three decision variables $x$, $y$ and $z$, where $z = 2 y$. How can it still be solved graphically?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use $z = 2 y$ to replace $z$ everywhere, so that every constraint and the objective function are written in terms of $x$ and $y$ only."
+    },
+    {
+     "type": "paragraph",
+     "md": "A graphical solution needs exactly **two** variables, one for each axis, so a third is workable only when it is tied to the others by a relationship like this."
+    }
+   ],
+   "front_md": "A problem has three decision variables $x$, $y$ and $z$, where $z = 2 y$. How can it still be solved graphically?\n",
+   "back_md": "Use $z = 2 y$ to replace $z$ everywhere, so that every constraint and the objective function are written in terms of $x$ and $y$ only.\n\nA graphical solution needs exactly **two** variables, one for each axis, so a third is workable only when it is tied to the others by a relationship like this.\n",
+   "spec_links": [
+    "spcpt_PVmrngMBS34TZSnP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kq4zqjgYB5JfY27n",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_6fMzKHFDWZsHDGwb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A problem has constraints $x + y \\leq 10$, $3 x + 2 y \\leq 24$ and $x + 2 y \\leq 18$. Does the point $( 6 , 4 )$ lie in the feasible region?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The point $( 6 , 4 )$ does **not** lie in the feasible region."
+    },
+    {
+     "type": "paragraph",
+     "md": "It satisfies $x + y \\leq 10$ and $x + 2 y \\leq 18$, but `3 \\left(6\\right) + 2 \\left(4\\right) = 26`, which is greater than 24."
+    }
+   ],
+   "front_md": "A problem has constraints $x + y \\leq 10$, $3 x + 2 y \\leq 24$ and $x + 2 y \\leq 18$. Does the point $( 6 , 4 )$ lie in the feasible region?\n",
+   "back_md": "The point $( 6 , 4 )$ does **not** lie in the feasible region.\n\nIt satisfies $x + y \\leq 10$ and $x + 2 y \\leq 18$, but `3 \\left(6\\right) + 2 \\left(4\\right) = 26`, which is greater than 24.\n",
+   "spec_links": [
+    "spcpt_mdHSsJWn3V3wQv6v"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MfG5RYMMTV4QX4DF",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the fact that the objective line method and the vertex method both rely on:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The optimal solution of a linear programming problem always lies at a `\\_\\_\\_\\_\\_\\_` of the feasible region."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed fact is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The optimal solution of a linear programming problem always lies at a **vertex** (corner) of the feasible region."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because the objective function is linear, its value improves steadily in one direction across the region, so the best value is reached at a corner rather than at a point inside."
+    }
+   ],
+   "front_md": "Complete the fact that the objective line method and the vertex method both rely on:\n\nThe optimal solution of a linear programming problem always lies at a `\\_\\_\\_\\_\\_\\_` of the feasible region.\n",
+   "back_md": "The completed fact is:\n\nThe optimal solution of a linear programming problem always lies at a **vertex** (corner) of the feasible region.\n\nBecause the objective function is linear, its value improves steadily in one direction across the region, so the best value is reached at a corner rather than at a point inside.\n",
+   "spec_links": [
+    "spcpt_r9mzkqH5CfKCjppT",
+    "spcpt_QNpRGQHvyfTQgDXj"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2xtYWdCwdpP7TnF5",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **objective line** of a linear programming problem."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The objective line is the straight line obtained by fixing the objective function $P = a x + b y$ at one chosen value of $P$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranged, $P = a x + b y$ takes the form $y = m x + c$, so each value of $P$ gives one straight line that can be drawn on the graph."
+    }
+   ],
+   "front_md": "Define the **objective line** of a linear programming problem.\n",
+   "back_md": "The objective line is the straight line obtained by fixing the objective function $P = a x + b y$ at one chosen value of $P$.\n\nRearranged, $P = a x + b y$ takes the form $y = m x + c$, so each value of $P$ gives one straight line that can be drawn on the graph.\n",
+   "spec_links": [
+    "spcpt_r9mzkqH5CfKCjppT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WJCKpqfZPDDt8Hpk",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The objective function is $P = 30 x + 40 y$. What kind of value of $P$ should you pick in order to plot the first objective line easily?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Pick a value that is a **multiple of both 30 and 40**, such as $120$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The line $120 = 30 x + 40 y$ then passes through $( 0 , 3 )$ and $( 4 , 0 )$, two points with whole-number coordinates that can be plotted and joined straight away."
+    }
+   ],
+   "front_md": "The objective function is $P = 30 x + 40 y$. What kind of value of $P$ should you pick in order to plot the first objective line easily?\n",
+   "back_md": "Pick a value that is a **multiple of both 30 and 40**, such as $120$.\n\nThe line $120 = 30 x + 40 y$ then passes through $( 0 , 3 )$ and $( 4 , 0 )$, two points with whole-number coordinates that can be plotted and joined straight away.\n",
+   "spec_links": [
+    "spcpt_r9mzkqH5CfKCjppT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vJhVsQ3bXDHrF3rs",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a maximising problem, which way do you slide the ruler, and which vertex gives the optimal solution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Slide the ruler **away from the origin**, keeping it parallel to the objective line already drawn."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **last** vertex of the feasible region the ruler passes through is the optimal solution."
+    },
+    {
+     "type": "paragraph",
+     "md": "In a minimising problem you slide it **towards** the origin instead."
+    }
+   ],
+   "front_md": "In a maximising problem, which way do you slide the ruler, and which vertex gives the optimal solution?\n",
+   "back_md": "Slide the ruler **away from the origin**, keeping it parallel to the objective line already drawn.\n\nThe **last** vertex of the feasible region the ruler passes through is the optimal solution.\n\nIn a minimising problem you slide it **towards** the origin instead.\n",
+   "spec_links": [
+    "spcpt_r9mzkqH5CfKCjppT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5wk3YGXQsCpYP6cr",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Objective lines drawn for two different values of $P$ have different gradients."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranging $P = a x + b y$ gives $y = - \\frac{a}{b} x + \\frac{P}{b}$, so the value of $P$ affects only the **intercept**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every objective line for the same problem therefore has the same gradient, which is exactly why the ruler can be slid across the graph while being kept parallel."
+    }
+   ],
+   "front_md": "**True or False?**\n\nObjective lines drawn for two different values of $P$ have different gradients.\n",
+   "back_md": "**False.**\n\nRearranging $P = a x + b y$ gives $y = - \\frac{a}{b} x + \\frac{P}{b}$, so the value of $P$ affects only the **intercept**.\n\nEvery objective line for the same problem therefore has the same gradient, which is exactly why the ruler can be slid across the graph while being kept parallel.\n",
+   "spec_links": [
+    "spcpt_r9mzkqH5CfKCjppT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GXCKYzCtJXSXZgNf",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first thing the vertex method requires you to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the **coordinates of every vertex** of the feasible region."
+    },
+    {
+     "type": "paragraph",
+     "md": "Some can be read straight off an accurate graph, and obvious ones, such as the origin or a point sitting on an axis, can be written down directly."
+    }
+   ],
+   "front_md": "What is the first thing the vertex method requires you to do?\n",
+   "back_md": "Find the **coordinates of every vertex** of the feasible region.\n\nSome can be read straight off an accurate graph, and obvious ones, such as the origin or a point sitting on an axis, can be written down directly.\n",
+   "spec_links": [
+    "spcpt_QNpRGQHvyfTQgDXj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4pDnHR533KJN59Ck",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two constraints of a problem are $x + y \\leq 8$ and $x + 4 y \\leq 17$. How do you find the coordinates of the vertex where they meet?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Solve them as **simultaneous equations**, with each inequality sign replaced by an equals sign: $x + y = 8$ and $x + 4 y = 17$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This gives $x = 5$ and $y = 3$, so the vertex is at $( 5 , 3 )$."
+    }
+   ],
+   "front_md": "Two constraints of a problem are $x + y \\leq 8$ and $x + 4 y \\leq 17$. How do you find the coordinates of the vertex where they meet?\n",
+   "back_md": "Solve them as **simultaneous equations**, with each inequality sign replaced by an equals sign: $x + y = 8$ and $x + 4 y = 17$.\n\nThis gives $x = 5$ and $y = 3$, so the vertex is at $( 5 , 3 )$.\n",
+   "spec_links": [
+    "spcpt_QNpRGQHvyfTQgDXj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B839DQzcG3wrnBCg",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_nJ6j9cnChVwj3KB8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Once you have the coordinates of every vertex, how does the vertex method finish?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute each vertex's coordinates into the **objective function** and work out its value there."
+    },
+    {
+     "type": "paragraph",
+     "md": "The vertex giving the largest value is the optimal solution in a maximising problem, and the one giving the smallest value is the optimal solution in a minimising problem."
+    }
+   ],
+   "front_md": "Once you have the coordinates of every vertex, how does the vertex method finish?\n",
+   "back_md": "Substitute each vertex's coordinates into the **objective function** and work out its value there.\n\nThe vertex giving the largest value is the optimal solution in a maximising problem, and the one giving the smallest value is the optimal solution in a minimising problem.\n",
+   "spec_links": [
+    "spcpt_QNpRGQHvyfTQgDXj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4ZgFQj2vd5H3xm9R",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define what is meant by an **integer solution** to a linear programming problem."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An integer solution is one in which the decision variables all take **whole-number** values."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is needed when the variables count things that cannot exist in parts, so a manufacturer cannot act on an answer of $3 . 65$ chairs a day."
+    }
+   ],
+   "front_md": "Define what is meant by an **integer solution** to a linear programming problem.\n",
+   "back_md": "An integer solution is one in which the decision variables all take **whole-number** values.\n\nIt is needed when the variables count things that cannot exist in parts, so a manufacturer cannot act on an answer of $3 . 65$ chairs a day.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_57zsfHHGnwZzbb9J",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The optimal solution of a linear programming problem lies at a vertex of the feasible region. Why does that so often mean non-integer coordinates?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a vertex is the point where two constraint lines cross, and the crossing point of two lines with awkward coefficients rarely lands on whole-number coordinates."
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph can therefore give a perfectly correct answer that the context cannot use."
+    }
+   ],
+   "front_md": "The optimal solution of a linear programming problem lies at a vertex of the feasible region. Why does that so often mean non-integer coordinates?\n",
+   "back_md": "Because a vertex is the point where two constraint lines cross, and the crossing point of two lines with awkward coefficients rarely lands on whole-number coordinates.\n\nThe graph can therefore give a perfectly correct answer that the context cannot use.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mbQWX2FjW78H8k6w",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An integer solution can never give a better value of the objective function than the optimal solution read from the graph. Why not?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the optimal solution is the best value the objective function takes **anywhere** in the feasible region."
+    },
+    {
+     "type": "paragraph",
+     "md": "An integer point is simply another point of that region, so it can only match that value or fall short of it."
+    }
+   ],
+   "front_md": "An integer solution can never give a better value of the objective function than the optimal solution read from the graph. Why not?\n",
+   "back_md": "Because the optimal solution is the best value the objective function takes **anywhere** in the feasible region.\n\nAn integer point is simply another point of that region, so it can only match that value or fall short of it.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tRMS7tgkrsNvqZds",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The optimal solution of a problem is $x = 3 . 2$, $y = 4 . 7$, but only whole numbers are usable. Complete the four integer points that must be tested:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(3 , 4\\right) , \\left(3 , 5\\right) , \\left(\\_\\_\\_\\_\\_\\_ , 4\\right) , \\left(4 , \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed set of points is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(3 , 4\\right) , \\left(3 , 5\\right) , \\left(4 , 4\\right) , \\left(4 , 5\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "They are the **four** points found by rounding each coordinate both down and up, in every combination."
+    }
+   ],
+   "front_md": "The optimal solution of a problem is $x = 3 . 2$, $y = 4 . 7$, but only whole numbers are usable. Complete the four integer points that must be tested:\n\n`\\left(3 , 4\\right) , \\left(3 , 5\\right) , \\left(\\_\\_\\_\\_\\_\\_ , 4\\right) , \\left(4 , \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed set of points is:\n\n`\\left(3 , 4\\right) , \\left(3 , 5\\right) , \\left(4 , 4\\right) , \\left(4 , 5\\right)`\n\nThey are the **four** points found by rounding each coordinate both down and up, in every combination.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_vYsMT67BBhqgR38Y",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You have written down the four integer points around an optimal solution. What must you check before going any further?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Check that each point satisfies **every constraint**, since a point close to the optimal vertex can easily fall outside the feasible region."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any point that fails even one constraint is rejected straight away."
+    }
+   ],
+   "front_md": "You have written down the four integer points around an optimal solution. What must you check before going any further?\n",
+   "back_md": "Check that each point satisfies **every constraint**, since a point close to the optimal vertex can easily fall outside the feasible region.\n\nAny point that fails even one constraint is rejected straight away.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2JtmpBpQvfgnQMZP",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two integer points survive the constraint check, and $P = 5 x + 10 y$ is to be maximised. Which of $( 3 , 4 )$ and $( 4 , 4 )$ is the integer solution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The point $( 4 , 4 )$ is the integer solution, because `P = 5 \\left(4\\right) + 10 \\left(4\\right) = 60` there."
+    },
+    {
+     "type": "paragraph",
+     "md": "At $( 3 , 4 )$ the objective function gives only `5 \\left(3\\right) + 10 \\left(4\\right) = 55`."
+    }
+   ],
+   "front_md": "Two integer points survive the constraint check, and $P = 5 x + 10 y$ is to be maximised. Which of $( 3 , 4 )$ and $( 4 , 4 )$ is the integer solution?\n",
+   "back_md": "The point $( 4 , 4 )$ is the integer solution, because `P = 5 \\left(4\\right) + 10 \\left(4\\right) = 60` there.\n\nAt $( 3 , 4 )$ the objective function gives only `5 \\left(3\\right) + 10 \\left(4\\right) = 55`.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jNSyVRYq7KqGZS8q",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_h37dZf7cSV2QgwD6",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The integer solution found by testing the four points around the optimal solution is always the best possible integer solution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Depending on the gradient of the objective line, an integer point further away from the optimal vertex can give a better value of the objective function."
+    },
+    {
+     "type": "paragraph",
+     "md": "You are not expected to hunt for it, only to recognise that this method finds the integer point **closest to the optimal solution**, which is not necessarily the very best one."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe integer solution found by testing the four points around the optimal solution is always the best possible integer solution.\n",
+   "back_md": "**False.**\n\nDepending on the gradient of the objective line, an integer point further away from the optimal vertex can give a better value of the objective function.\n\nYou are not expected to hunt for it, only to recognise that this method finds the integer point **closest to the optimal solution**, which is not necessarily the very best one.\n",
+   "spec_links": [
+    "spcpt_jCNdmDdvzTfzSCF8"
+   ],
+   "flags": []
+  }
+ ]
+}

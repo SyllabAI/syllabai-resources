@@ -1,0 +1,708 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:08Z",
+ "course_slug": "ial-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/flashcards/algebra-and-functions/polynomials/",
+  "section_slug": "algebra-and-functions",
+  "section_name": "Algebra & Functions",
+  "topic_slug": "polynomials",
+  "title": "Polynomials",
+  "order": 0
+ },
+ "card_count": 22,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 13,
+  "true_or_false": 4,
+  "fill_in_the_blanks": 3
+ },
+ "spec_link_cards": 22,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_8pVzX4mnxrNFt9sc",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **polynomial**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **polynomial** is an algebraic expression made up of a finite number of terms, in which every index is a **non-negative integer**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $3 x + 5$ and $2 x^{2} y - 4 y + 6$ are polynomials, while $5 x^{-3}$ and $\\sqrt{x}$ are not."
+    }
+   ],
+   "front_md": "Define **polynomial**.\n",
+   "back_md": "A **polynomial** is an algebraic expression made up of a finite number of terms, in which every index is a **non-negative integer**.\n\nSo $3 x + 5$ and $2 x^{2} y - 4 y + 6$ are polynomials, while $5 x^{-3}$ and $\\sqrt{x}$ are not.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mcD8MCXJS2JWY6hW",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does polynomial division do to a polynomial?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It splits it into a **factor pair**, two expressions that multiply together to give it."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `x^{3} + x^{2} - x - 1 = \\left(x + 1\\right) \\left(x^{2} - 1\\right)`, where `\\left(x + 1\\right)` is the divisor and `\\left(x^{2} - 1\\right)` is the result."
+    }
+   ],
+   "front_md": "What does polynomial division do to a polynomial?\n",
+   "back_md": "It splits it into a **factor pair**, two expressions that multiply together to give it.\n\nFor example `x^{3} + x^{2} - x - 1 = \\left(x + 1\\right) \\left(x^{2} - 1\\right)`, where `\\left(x + 1\\right)` is the divisor and `\\left(x^{2} - 1\\right)` is the result.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2H4fbZhN4Kf3z6rK",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Polynomial division can only be carried out when the divisor is a factor of the polynomial."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The division works either way, and when the divisor is not a factor it simply finishes with a **remainder**, exactly as dividing $17$ by $5$ does."
+    }
+   ],
+   "front_md": "**True or False?**\n\nPolynomial division can only be carried out when the divisor is a factor of the polynomial.\n",
+   "back_md": "**False.**\n\nThe division works either way, and when the divisor is not a factor it simply finishes with a **remainder**, exactly as dividing $17$ by $5$ does.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K7NtTBGpXfSYP6yG",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When dividing a polynomial by `\\left(x - p\\right)`, how do you decide the first term of the answer?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Compare the **highest power term** of the polynomial with the highest power term of the divisor."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing $x^{3} + 6 x^{2} - 9 x - 14$ by `\\left(x - 2\\right)` starts with $x^{2}$, because $x^{2} \\times x = x^{3}$."
+    }
+   ],
+   "front_md": "When dividing a polynomial by `\\left(x - p\\right)`, how do you decide the first term of the answer?\n",
+   "back_md": "Compare the **highest power term** of the polynomial with the highest power term of the divisor.\n\nDividing $x^{3} + 6 x^{2} - 9 x - 14$ by `\\left(x - 2\\right)` starts with $x^{2}$, because $x^{2} \\times x = x^{3}$.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qmpbx3NW32RpMzrn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a polynomial division you have just written the next term of the answer above the line. What are the two things you do with it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Multiply** the whole divisor by it, then **subtract** that product from what is left of the polynomial."
+    },
+    {
+     "type": "paragraph",
+     "md": "Anything the subtraction has not touched is carried straight down, ready for the next term to be found."
+    }
+   ],
+   "front_md": "In a polynomial division you have just written the next term of the answer above the line. What are the two things you do with it?\n",
+   "back_md": "**Multiply** the whole divisor by it, then **subtract** that product from what is left of the polynomial.\n\nAnything the subtraction has not touched is carried straight down, ready for the next term to be found.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fvwdnFTddNVJkgSd",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$x^{3} + 6 x^{2} - 9 x - 14$ is divided by `\\left(x - 2\\right)`. Complete the result:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x^{3} + 6 x^{2} - 9 x - 14 = \\left(x - 2\\right) \\left(x^{2} + \\_\\_\\_\\_\\_\\_ x + \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed result is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x^{3} + 6 x^{2} - 9 x - 14 = \\left(x - 2\\right) \\left(x^{2} + 8 x + 7\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying the two brackets back out returns the original polynomial, which is how a division is checked."
+    }
+   ],
+   "front_md": "$x^{3} + 6 x^{2} - 9 x - 14$ is divided by `\\left(x - 2\\right)`. Complete the result:\n\n`x^{3} + 6 x^{2} - 9 x - 14 = \\left(x - 2\\right) \\left(x^{2} + \\_\\_\\_\\_\\_\\_ x + \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed result is:\n\n`x^{3} + 6 x^{2} - 9 x - 14 = \\left(x - 2\\right) \\left(x^{2} + 8 x + 7\\right)`\n\nMultiplying the two brackets back out returns the original polynomial, which is how a division is checked.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_x2z2VsCrt2NSbTgp",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_5JgYfB8HcPHF4JY2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Apart from factorising, what else is polynomial division used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Handling **improper** algebraic fractions, the top-heavy ones whose numerator has a degree at least as large as the denominator's."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same long-division method applies to them unchanged."
+    }
+   ],
+   "front_md": "Apart from factorising, what else is polynomial division used for?\n",
+   "back_md": "Handling **improper** algebraic fractions, the top-heavy ones whose numerator has a degree at least as large as the denominator's.\n\nThe same long-division method applies to them unchanged.\n",
+   "spec_links": [
+    "spcpt_fQZDB6JHQrnsnHQH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c2JkNwm4S3XVH3cT",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **factor theorem**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a polynomial `\\text{f} \\left(x\\right)`, if `\\text{f} \\left(p\\right) = 0` then `\\left(x - p\\right)` is a factor of `\\text{f} \\left(x\\right)`, and if `\\left(x - p\\right)` is a factor then `\\text{f} \\left(p\\right) = 0`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It works in **both directions**, so it can be used either to find a factor or to deduce a value from one you are given."
+    }
+   ],
+   "front_md": "Define the **factor theorem**.\n",
+   "back_md": "For a polynomial `\\text{f} \\left(x\\right)`, if `\\text{f} \\left(p\\right) = 0` then `\\left(x - p\\right)` is a factor of `\\text{f} \\left(x\\right)`, and if `\\left(x - p\\right)` is a factor then `\\text{f} \\left(p\\right) = 0`.\n\nIt works in **both directions**, so it can be used either to find a factor or to deduce a value from one you are given.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fNF8vdxrbGFBvY5Y",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If `\\left(x + 2\\right)` is a factor of `\\text{h} \\left(x\\right)`, then `\\text{h} \\left(2\\right) = 0`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The factor has to be read as `\\left(x - \\left(- 2\\right)\\right)`, so the value that matters is $- 2$ and it is `\\text{h} \\left(- 2\\right)` that is zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "A factor written as `\\left(x + p\\right)` always pairs with the value $- p$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf `\\left(x + 2\\right)` is a factor of `\\text{h} \\left(x\\right)`, then `\\text{h} \\left(2\\right) = 0`.\n",
+   "back_md": "**False.**\n\nThe factor has to be read as `\\left(x - \\left(- 2\\right)\\right)`, so the value that matters is $- 2$ and it is `\\text{h} \\left(- 2\\right)` that is zero.\n\nA factor written as `\\left(x + p\\right)` always pairs with the value $- p$.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mQVZ9TdPxPXVM8R3",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the **remainder theorem** tell you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That dividing a polynomial `\\text{f} \\left(x\\right)` by `\\left(x - a\\right)` leaves a remainder of `\\text{f} \\left(a\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Written formally, `\\text{f} \\left(x\\right) = \\left(x - a\\right) Q \\left(x\\right) + \\text{f} \\left(a\\right)`."
+    }
+   ],
+   "front_md": "What does the **remainder theorem** tell you?\n",
+   "back_md": "That dividing a polynomial `\\text{f} \\left(x\\right)` by `\\left(x - a\\right)` leaves a remainder of `\\text{f} \\left(a\\right)`.\n\nWritten formally, `\\text{f} \\left(x\\right) = \\left(x - a\\right) Q \\left(x\\right) + \\text{f} \\left(a\\right)`.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WJmbg3wxXmPQ92j7",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the three parts of a polynomial division, where `\\text{f} \\left(x\\right) = \\left(x - a\\right) Q \\left(x\\right) + R`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(x - a\\right)` is the `\\_\\_\\_\\_\\_\\_`, `Q \\left(x\\right)` is the `\\_\\_\\_\\_\\_\\_`, and $R$ is the `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sentence is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(x - a\\right)` is the **divisor**, `Q \\left(x\\right)` is the **quotient**, and $R$ is the **remainder**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The quotient is the expression built up on top of the division as it is carried out."
+    }
+   ],
+   "front_md": "Name the three parts of a polynomial division, where `\\text{f} \\left(x\\right) = \\left(x - a\\right) Q \\left(x\\right) + R`:\n\n`\\left(x - a\\right)` is the `\\_\\_\\_\\_\\_\\_`, `Q \\left(x\\right)` is the `\\_\\_\\_\\_\\_\\_`, and $R$ is the `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed sentence is:\n\n`\\left(x - a\\right)` is the **divisor**, `Q \\left(x\\right)` is the **quotient**, and $R$ is the **remainder**.\n\nThe quotient is the expression built up on top of the division as it is carried out.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_G7rFZYWHk6Zn4pPt",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the factor theorem a special case of the remainder theorem?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the case in which the remainder is **zero**, so the division comes out exactly."
+    },
+    {
+     "type": "paragraph",
+     "md": "Putting `\\text{f} \\left(a\\right) = 0` leaves `\\text{f} \\left(x\\right) = \\left(x - a\\right) Q \\left(x\\right)`, which says precisely that `\\left(x - a\\right)` is a factor."
+    }
+   ],
+   "front_md": "How is the factor theorem a special case of the remainder theorem?\n",
+   "back_md": "It is the case in which the remainder is **zero**, so the division comes out exactly.\n\nPutting `\\text{f} \\left(a\\right) = 0` leaves `\\text{f} \\left(x\\right) = \\left(x - a\\right) Q \\left(x\\right)`, which says precisely that `\\left(x - a\\right)` is a factor.\n",
+   "spec_links": [
+    "spcpt_KZmbYQ3Byg92VvrM",
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sZbVCKPGz7DHCCfk",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the remainder when $x^{2} - 2 x$ is divided by `\\left(x - 3\\right)`, and how do you get it without dividing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute $x = 3$ into the polynomial: $3^{2} - 2 \\times 3 = 3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Whenever the remainder is all that is wanted, this replaces the entire division with a single substitution."
+    }
+   ],
+   "front_md": "What is the remainder when $x^{2} - 2 x$ is divided by `\\left(x - 3\\right)`, and how do you get it without dividing?\n",
+   "back_md": "Substitute $x = 3$ into the polynomial: $3^{2} - 2 \\times 3 = 3$.\n\nWhenever the remainder is all that is wanted, this replaces the entire division with a single substitution.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kKrrJpRzjvsM4d5M",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When a polynomial is divided by `\\left(x - a\\right)`, the remainder is always a number rather than an expression in $x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The division is written with everything involving $x$ collected into the bracketed quotient, leaving a single value outside it."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `x^{3} + 2 x^{2} + 3 x + 4 = \\left(x - 1\\right) \\left(x^{2} + 3 x + 6\\right) + 10`, and the remainder is simply $10$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen a polynomial is divided by `\\left(x - a\\right)`, the remainder is always a number rather than an expression in $x$.\n",
+   "back_md": "**True.**\n\nThe division is written with everything involving $x$ collected into the bracketed quotient, leaving a single value outside it.\n\nSo `x^{3} + 2 x^{2} + 3 x + 4 = \\left(x - 1\\right) \\left(x^{2} + 3 x + 6\\right) + 10`, and the remainder is simply $10$.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ywJbXVtMsBWyX4K6",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The remainder when $x^{2} + p x$ is divided by `\\left(x - 2\\right)` is $8$. How do you find $p$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set the value of the polynomial at $x = 2$ equal to the remainder and solve: $2^{2} + 2 p = 8$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives $p = 2$, and where a question carries more than one unknown the same move produces simultaneous equations."
+    }
+   ],
+   "front_md": "The remainder when $x^{2} + p x$ is divided by `\\left(x - 2\\right)` is $8$. How do you find $p$?\n",
+   "back_md": "Set the value of the polynomial at $x = 2$ equal to the remainder and solve: $2^{2} + 2 p = 8$.\n\nThat gives $p = 2$, and where a question carries more than one unknown the same move produces simultaneous equations.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bB85TqBKsc8VF4vk",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_fHvX8xJ79tHb3snK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the remainder when `\\text{f} \\left(x\\right)` is divided by `\\left(a x - b\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{f} \\left(\\frac{b}{a}\\right)`, the value of the polynomial at the number that makes the divisor zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "The shortcut is unchanged, but that number is no longer necessarily a whole one."
+    }
+   ],
+   "front_md": "What is the remainder when `\\text{f} \\left(x\\right)` is divided by `\\left(a x - b\\right)`?\n",
+   "back_md": "`\\text{f} \\left(\\frac{b}{a}\\right)`, the value of the polynomial at the number that makes the divisor zero.\n\nThe shortcut is unchanged, but that number is no longer necessarily a whole one.\n",
+   "spec_links": [
+    "spcpt_5C5R39cdnm53Ktnh"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VQjX83Hd8CVmJ8nk",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which two techniques does factorising a cubic combine?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **factor theorem**, to find one linear factor, and **polynomial division**, to get the rest."
+    },
+    {
+     "type": "paragraph",
+     "md": "Neither is enough alone: the theorem gives a factor but not the quotient, and division needs a divisor before it can start."
+    }
+   ],
+   "front_md": "Which two techniques does factorising a cubic combine?\n",
+   "back_md": "The **factor theorem**, to find one linear factor, and **polynomial division**, to get the rest.\n\nNeither is enough alone: the theorem gives a factor but not the quotient, and division needs a divisor before it can start.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r5xX8FsmKKQvtTfT",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the goal when fully factorising a polynomial?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To write it as a **product of linear factors**, taken as far as it will go."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `x^{3} + 4 x^{2} - 11 x - 30 = \\left(x + 2\\right) \\left(x - 3\\right) \\left(x + 5\\right)`."
+    }
+   ],
+   "front_md": "What is the goal when fully factorising a polynomial?\n",
+   "back_md": "To write it as a **product of linear factors**, taken as far as it will go.\n\nFor example `x^{3} + 4 x^{2} - 11 x - 30 = \\left(x + 2\\right) \\left(x - 3\\right) \\left(x + 5\\right)`.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FxKMBFc7QtBfrwK8",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first move in factorising a cubic `\\text{f}\\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find a value $p$ for which `\\text{f}\\left(p\\right) = 0`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Until you have one factor there is nothing to divide by, so this has to come first."
+    }
+   ],
+   "front_md": "What is the first move in factorising a cubic `\\text{f}\\left(x\\right)`?\n",
+   "back_md": "Find a value $p$ for which `\\text{f}\\left(p\\right) = 0`.\n\nUntil you have one factor there is nothing to divide by, so this has to come first.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VR6vS3bcMjmbJGkN",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every cubic can be written as a product of three linear factors."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the quadratic left after dividing does not factorise, the answer stops at one linear factor times a quadratic."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `2 x^{3} + 3 x^{2} + 10 x - 6 = \\left(2 x - 1\\right) \\left(x^{2} + 2 x + 6\\right)`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery cubic can be written as a product of three linear factors.\n",
+   "back_md": "**False.**\n\nIf the quadratic left after dividing does not factorise, the answer stops at one linear factor times a quadratic.\n\nFor example `2 x^{3} + 3 x^{2} + 10 x - 6 = \\left(2 x - 1\\right) \\left(x^{2} + 2 x + 6\\right)`.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fgrDDPNxFjVdRvJc",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Factorising $x^{3} + 6 x^{2} - 9 x - 14$: since `\\text{f} \\left(- 1\\right) = 0`, dividing by `\\left(x + 1\\right)` leaves $x^{2} + 5 x - 14$, which factorises as:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(x + \\_\\_\\_\\_\\_\\_\\right) \\left(x - \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\left(x + 7\\right) \\left(x - 2\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "So the full factorisation is `x^{3} + 6 x^{2} - 9 x - 14 = \\left(x + 1\\right) \\left(x + 7\\right) \\left(x - 2\\right)`."
+    }
+   ],
+   "front_md": "Factorising $x^{3} + 6 x^{2} - 9 x - 14$: since `\\text{f} \\left(- 1\\right) = 0`, dividing by `\\left(x + 1\\right)` leaves $x^{2} + 5 x - 14$, which factorises as:\n\n`\\left(x + \\_\\_\\_\\_\\_\\_\\right) \\left(x - \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "`\\left(x + 7\\right) \\left(x - 2\\right)`\n\nSo the full factorisation is `x^{3} + 6 x^{2} - 9 x - 14 = \\left(x + 1\\right) \\left(x + 7\\right) \\left(x - 2\\right)`.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NmJxCtKB5P2rKH6t",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PrrQhgYVKNZFPHrh",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Can the same method be used on a polynomial of degree higher than three?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Yes, because each linear factor found reduces the degree by one."
+    },
+    {
+     "type": "paragraph",
+     "md": "A quartic simply needs the find-a-factor-then-divide cycle carried out twice before a quadratic is left."
+    }
+   ],
+   "front_md": "Can the same method be used on a polynomial of degree higher than three?\n",
+   "back_md": "Yes, because each linear factor found reduces the degree by one.\n\nA quartic simply needs the find-a-factor-then-divide cycle carried out twice before a quadratic is left.\n",
+   "spec_links": [
+    "spcpt_yp7GmRfk46xyDjVJ"
+   ],
+   "flags": []
+  }
+ ]
+}

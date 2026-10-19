@@ -1,0 +1,296 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:21:24Z",
+ "course_slug": "cie-igcse-computer-science-23",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/flashcards/8-programming/file-handling/",
+  "section_slug": "8-programming",
+  "section_name": "8. Programming",
+  "topic_slug": "file-handling",
+  "title": "File Handling",
+  "order": 2
+ },
+ "card_count": 10,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 5,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 10,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_YTznBHCDrJzQDr54",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is **file handling**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "File handling is the use of programming techniques to** work with information** **stored in text files.**"
+    }
+   ],
+   "front_md": "What is **file handling**?\n",
+   "back_md": "File handling is the use of programming techniques to** work with information** **stored in text files.**\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JjSVSYScKvXFGZdz",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "List **four examples** of file handling techniques."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "1. **Opening **text files"
+    },
+    {
+     "type": "paragraph",
+     "md": "2. **Reading **text files"
+    },
+    {
+     "type": "paragraph",
+     "md": "3. **Writing **text files"
+    },
+    {
+     "type": "paragraph",
+     "md": "4. **Closing **text files."
+    }
+   ],
+   "front_md": "List **four examples** of file handling techniques.\n",
+   "back_md": "1. **Opening **text files\n\n2. **Reading **text files\n\n3. **Writing **text files\n\n4. **Closing **text files.\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_585Vg54HPxgzPfCD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In **Python**, how do you **open a file **named \"**fruit.txt**\" in **read mode**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`file = open(\"fruit.txt\",\"r\")`"
+    }
+   ],
+   "front_md": "In **Python**, how do you **open a file **named \"**fruit.txt**\" in **read mode**?\n",
+   "back_md": "`file = open(\"fruit.txt\",\"r\")`\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KSg2rNqBssDVyfsh",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you **close a file** in **Python**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`file.close()`"
+    }
+   ],
+   "front_md": "How do you **close a file** in **Python**?\n",
+   "back_md": "`file.close()`\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3WkSm3b3SBK5T8JQ",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the **\"a\"** mode mean when opening a file in **Python**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **\"a\"** mode is for **writing to the end of an existing file only** (append)."
+    }
+   ],
+   "front_md": "What does the **\"a\"** mode mean when opening a file in **Python**?\n",
+   "back_md": "The **\"a\"** mode is for **writing to the end of an existing file only** (append).\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2dKWZVrYkZ9GzzmT",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "The \"w\" mode in Python will create a new file** if it doesn't exist.**"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The \"w\" mode in Python will create a new file if it doesn't exist."
+    }
+   ],
+   "front_md": "**True or False? **\n\nThe \"w\" mode in Python will create a new file** if it doesn't exist.**\n",
+   "back_md": "**True.**\n\nThe \"w\" mode in Python will create a new file if it doesn't exist.\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_B5ZHRCyZr3tzwQhk",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **purpose** of the `readline()` function in **Python**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `readline()` function is used to **read a single line** from a file."
+    }
+   ],
+   "front_md": "What is the **purpose** of the `readline()` function in **Python**?\n",
+   "back_md": "The `readline()` function is used to **read a single line** from a file.\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c2GPPV88QkF3k95R",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you write **a new line** to a file in **Python**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`file.write(\"New line content\\n\")`"
+    }
+   ],
+   "front_md": "How do you write **a new line** to a file in **Python**?\n",
+   "back_md": "`file.write(\"New line content\\n\")`\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QsS9hSdc3dFtBq4w",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the following **code **do:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`endOfFile = name == \"\"`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It checks if the **end of the file has been reached** by seeing if the 'name' **variable is empty.**"
+    }
+   ],
+   "front_md": "What does the following **code **do:\n\n`endOfFile = name == \"\"`\n",
+   "back_md": "It checks if the **end of the file has been reached** by seeing if the 'name' **variable is empty.**\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Kt3DQFP5Pzt9kWxZ",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_3CMT6CVkvrQJ5MHv",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False? **"
+    },
+    {
+     "type": "paragraph",
+     "md": "It's important to always make a backup of text files you are working with."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True. **"
+    },
+    {
+     "type": "paragraph",
+     "md": "It's important to always make a backup of text files you are working with, as one mistake can cause you to lose the contents."
+    }
+   ],
+   "front_md": "**True or False? **\n\nIt's important to always make a backup of text files you are working with.\n",
+   "back_md": "**True. **\n\nIt's important to always make a backup of text files you are working with, as one mistake can cause you to lose the contents.\n",
+   "spec_links": [
+    "spcpt_g6bDb6MVnB3Kz5vT"
+   ],
+   "flags": []
+  }
+ ]
+}

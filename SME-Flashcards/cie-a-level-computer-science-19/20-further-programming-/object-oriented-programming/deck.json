@@ -1,0 +1,2981 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:34Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/20-further-programming-/object-oriented-programming/",
+  "section_slug": "20-further-programming-",
+  "section_name": "20. Further Programming",
+  "topic_slug": "object-oriented-programming",
+  "title": "Object-Oriented Programming",
+  "order": 1
+ },
+ "card_count": 115,
+ "card_types": {
+  "keyword_definition": 21,
+  "fill_in_the_blanks": 14,
+  "question_and_answer": 66,
+  "true_or_false": 14
+ },
+ "spec_link_cards": 115,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_7wyQJ6P7ChBSDM8t",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **class**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A class is a **blueprint used to create objects**, defining a structure for attributes (data) and methods (behaviour)."
+    }
+   ],
+   "front_md": "Define **class**.\n",
+   "back_md": "A class is a **blueprint used to create objects**, defining a structure for attributes (data) and methods (behaviour).\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Zjr8Kp95yK6JS7gP",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **object**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An object is an **instance of a class** with its own state and behaviour."
+    }
+   ],
+   "front_md": "Define **object**.\n",
+   "back_md": "An object is an **instance of a class** with its own state and behaviour.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SZMW7KgvSwkTPRDD",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **attribute**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An attribute is a **variable defined in a class**, also called a class variable."
+    }
+   ],
+   "front_md": "Define **attribute**.\n",
+   "back_md": "An attribute is a **variable defined in a class**, also called a class variable.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZTGyvdNR9rv8tKJ7",
+   "card_type": "keyword_definition",
+   "order": 3,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **instance variable**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An instance variable is an attribute **stored inside an individual object**."
+    }
+   ],
+   "front_md": "Define **instance variable**.\n",
+   "back_md": "An instance variable is an attribute **stored inside an individual object**.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DW83kkg9bCzzDCPt",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A method is a **function defined within a class** that describes an object's behaviour."
+    }
+   ],
+   "front_md": "Define **method**.\n",
+   "back_md": "A method is a **function defined within a class** that describes an object's behaviour.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9tjnMhsykgFnkhxg",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **instantiation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Instantiation is the process of **creating an object from a class**."
+    }
+   ],
+   "front_md": "Define **instantiation**.\n",
+   "back_md": "Instantiation is the process of **creating an object from a class**.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7MhTcGCQWfJTkDc5",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **identifier**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An identifier is the **name used to refer to an object**."
+    }
+   ],
+   "front_md": "Define **identifier**.\n",
+   "back_md": "An identifier is the **name used to refer to an object**.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rgqvMrWdKnsB8Vph",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A class defines a structure for <u>**                **</u>, which hold the data, and methods, which define the behaviour."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A class defines a structure for **attributes**, which hold the data, and methods, which define the behaviour."
+    }
+   ],
+   "front_md": "A class defines a structure for <u>**                **</u>, which hold the data, and methods, which define the behaviour.\n",
+   "back_md": "A class defines a structure for **attributes**, which hold the data, and methods, which define the behaviour.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_dJrzfqdpjxJCktWW",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a prebuilt class and a custom class?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A prebuilt class is **provided by the language**, such as `String` or `Scanner` in Java, while a custom class is **defined by the programmer**, such as `Animal` or `Student`."
+    }
+   ],
+   "front_md": "What is the difference between a prebuilt class and a custom class?\n",
+   "back_md": "A prebuilt class is **provided by the language**, such as `String` or `Scanner` in Java, while a custom class is **defined by the programmer**, such as `Animal` or `Student`.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nCJGZXBDkJ52CnCF",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two examples of prebuilt Java classes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two prebuilt Java classes are `**String**` and `**Date**`, and `Random` and `Scanner` are also prebuilt."
+    }
+   ],
+   "front_md": "Give two examples of prebuilt Java classes.\n",
+   "back_md": "Two prebuilt Java classes are `**String**` and `**Date**`, and `Random` and `Scanner` are also prebuilt.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZWx66cFNdPTpSHZ4",
+   "card_type": "true_or_false",
+   "order": 10,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every object created from the same class must hold the same attribute values."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each object created from a class has **its own unique values** for the attributes, so two `Student` objects can hold different names and dates of birth."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery object created from the same class must hold the same attribute values.\n",
+   "back_md": "**False.**\n\nEach object created from a class has **its own unique values** for the attributes, so two `Student` objects can hold different names and dates of birth.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NMMyp5m3JRXJ8vMm",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State three attributes a `Student` class might contain."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Student` class might contain the attributes `**name**`, `**dateOfBirth**` and `**gender**`."
+    }
+   ],
+   "front_md": "State three attributes a `Student` class might contain.\n",
+   "back_md": "A `Student` class might contain the attributes `**name**`, `**dateOfBirth**` and `**gender**`.\n",
+   "spec_links": [
+    "spcpt_NRYKc3qkB8XSKVKf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gqmf92MwHd36nMvd",
+   "card_type": "keyword_definition",
+   "order": 12,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **constructor**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A constructor is the method **used to create the objects of a class**, setting the initial values of the attributes."
+    }
+   ],
+   "front_md": "Define **constructor**.\n",
+   "back_md": "A constructor is the method **used to create the objects of a class**, setting the initial values of the attributes.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JC4qFdnJv2MhDDqs",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Cars` class is written for a car sales program. State the five attributes it needs."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The five attributes are the **manufacturer**, **model**, **price**, **mileage** and **whether the car is preowned**."
+    }
+   ],
+   "front_md": "A `Cars` class is written for a car sales program. State the five attributes it needs.\n",
+   "back_md": "The five attributes are the **manufacturer**, **model**, **price**, **mileage** and **whether the car is preowned**.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yZHC94QfFrBRQS9d",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which data type would the `PreOwned` attribute of a `Cars` class use, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It would use a **Boolean**, because a car either is or is not preowned."
+    }
+   ],
+   "front_md": "Which data type would the `PreOwned` attribute of a `Cars` class use, and why?\n",
+   "back_md": "It would use a **Boolean**, because a car either is or is not preowned.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h4VB5StF4tvHyJkQ",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name two methods that would be useful for a car object."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`**Accelerate**`, to make the car go faster, and `**honkHorn**`, to sound the horn."
+    }
+   ],
+   "front_md": "Name two methods that would be useful for a car object.\n",
+   "back_md": "`**Accelerate**`, to make the car go faster, and `**honkHorn**`, to sound the horn.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PYnpDZPJS2P8R3TT",
+   "card_type": "fill_in_the_blanks",
+   "order": 16,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When a class is written so that its attributes cannot be accessed from outside it, those attributes are declared as <u>**                **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When a class is written so that its attributes cannot be accessed from outside it, those attributes are declared as **private**."
+    }
+   ],
+   "front_md": "When a class is written so that its attributes cannot be accessed from outside it, those attributes are declared as <u>**                **</u>.\n",
+   "back_md": "When a class is written so that its attributes cannot be accessed from outside it, those attributes are declared as **private**.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_XVySYm7zWCmKKkxG",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Vehicle` class has the attributes `ID`, `MaxSpeed`, `CurrentSpeed`, `IncreaseAmount` and `HorizontalPosition`. Which of these should the constructor set to 0 rather than take as a parameter?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`**CurrentSpeed**` and `**HorizontalPosition**` are set to 0, because a vehicle starts stationary at the origin, while `ID`, `MaxSpeed` and `IncreaseAmount` are passed in as parameters."
+    }
+   ],
+   "front_md": "A `Vehicle` class has the attributes `ID`, `MaxSpeed`, `CurrentSpeed`, `IncreaseAmount` and `HorizontalPosition`. Which of these should the constructor set to 0 rather than take as a parameter?\n",
+   "back_md": "`**CurrentSpeed**` and `**HorizontalPosition**` are set to 0, because a vehicle starts stationary at the origin, while `ID`, `MaxSpeed` and `IncreaseAmount` are passed in as parameters.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9yj52xRNhBDpMDD8",
+   "card_type": "true_or_false",
+   "order": 18,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In Python, attribute declarations for a class are written as comments when answering an exam question."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Python has no separate attribute declaration, so the exam requires the declarations to be **included as comments**, for example `#self.``<u>  </u>``MaxSpeed integer`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn Python, attribute declarations for a class are written as comments when answering an exam question.\n",
+   "back_md": "**True.**\n\nPython has no separate attribute declaration, so the exam requires the declarations to be **included as comments**, for example `#self.``<u>  </u>``MaxSpeed integer`.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cyNvcGzytxKgM5dp",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_T8zfVWjVDWZrH636",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the purpose of the `IncreaseAmount` attribute in the `Vehicle` class?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`IncreaseAmount` is the value **added to the current speed** each time the vehicle increases its speed."
+    }
+   ],
+   "front_md": "What is the purpose of the `IncreaseAmount` attribute in the `Vehicle` class?\n",
+   "back_md": "`IncreaseAmount` is the value **added to the current speed** each time the vehicle increases its speed.\n",
+   "spec_links": [
+    "spcpt_SKCx699zkYg5wKhS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KNYp9WbgXJt2jbh7",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **object**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An object is a **representation of a real-world entity**, such as a teacher, an aeroplane or a mobile phone."
+    }
+   ],
+   "front_md": "Define **object**.\n",
+   "back_md": "An object is a **representation of a real-world entity**, such as a teacher, an aeroplane or a mobile phone.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PMqGMyD6jsrkNVbk",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a class and an object?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A class is a **blueprint that describes the properties and behaviours** of objects, while an object is a **specific instance created from that blueprint**, with its own unique values for the properties."
+    }
+   ],
+   "front_md": "What is the difference between a class and an object?\n",
+   "back_md": "A class is a **blueprint that describes the properties and behaviours** of objects, while an object is a **specific instance created from that blueprint**, with its own unique values for the properties.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_spJ2MSChdynNfzpk",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **constructor**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A constructor is a **special method within a class that is automatically called when an object of that class is created**."
+    }
+   ],
+   "front_md": "Define **constructor**.\n",
+   "back_md": "A constructor is a **special method within a class that is automatically called when an object of that class is created**.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tbgpN3bGCkxg6CxK",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do constructors typically define?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Constructors typically define the **initial values of the instance variables**."
+    }
+   ],
+   "front_md": "What do constructors typically define?\n",
+   "back_md": "Constructors typically define the **initial values of the instance variables**.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CS6PsRJMpKZPm3kt",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As well as setting initial values, a constructor performs any necessary <u>**                **</u> to prepare the object for use."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As well as setting initial values, a constructor performs any necessary **setup** to prepare the object for use."
+    }
+   ],
+   "front_md": "As well as setting initial values, a constructor performs any necessary <u>**                **</u> to prepare the object for use.\n",
+   "back_md": "As well as setting initial values, a constructor performs any necessary **setup** to prepare the object for use.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GbsbYGgQ2XqrZrch",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give three examples of real-world entities that could be modelled as objects."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **teacher**, an **aeroplane** and a **mobile phone** could all be modelled as objects."
+    }
+   ],
+   "front_md": "Give three examples of real-world entities that could be modelled as objects.\n",
+   "back_md": "A **teacher**, an **aeroplane** and a **mobile phone** could all be modelled as objects.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3tSK7g4X4KcGn72q",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two objects created from the same class always share one set of property values."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each object is a separate instance with **its own unique values** for the properties."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo objects created from the same class always share one set of property values.\n",
+   "back_md": "**False.**\n\nEach object is a separate instance with **its own unique values** for the properties.\n",
+   "spec_links": [
+    "spcpt_vbxKPQbQygRpCNDr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tcCKXkj4CfMqjgDj",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the `Person` class example, name the four attributes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The four attributes are `**firstName**`, `**surname**`, `**dateOfBirth**` and `**hobbies**`."
+    }
+   ],
+   "front_md": "In the `Person` class example, name the four attributes.\n",
+   "back_md": "The four attributes are `**firstName**`, `**surname**`, `**dateOfBirth**` and `**hobbies**`.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TnZr74RtW6XHmV6K",
+   "card_type": "fill_in_the_blanks",
+   "order": 8,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Java, an object is created from a class using the <u>**                **</u> keyword."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Java, an object is created from a class using the **new** keyword."
+    }
+   ],
+   "front_md": "In Java, an object is created from a class using the <u>**                **</u> keyword.\n",
+   "back_md": "In Java, an object is created from a class using the **new** keyword.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2CQD65MrTPbG296s",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many objects are instantiated in the `Person` example, and what are their identifiers?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Two** objects are instantiated, with the identifiers `**person1**` and `**person2**`."
+    }
+   ],
+   "front_md": "How many objects are instantiated in the `Person` example, and what are their identifiers?\n",
+   "back_md": "**Two** objects are instantiated, with the identifiers `**person1**` and `**person2**`.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BJg9JQzphJRMfV9k",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What values are passed in when `person1` is created?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`person1` is created with **\"Bob\"**, **\"Jones\"**, **\"06/10/1981\"** and **\"E Sports\"**."
+    }
+   ],
+   "front_md": "What values are passed in when `person1` is created?\n",
+   "back_md": "`person1` is created with **\"Bob\"**, **\"Jones\"**, **\"06/10/1981\"** and **\"E Sports\"**.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QXcc5nZ62VcR5NRq",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, which method acts as the constructor for a class?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `<u>**  **</u>``**init**``<u>**  **</u>` method acts as the constructor in Python."
+    }
+   ],
+   "front_md": "In Python, which method acts as the constructor for a class?\n",
+   "back_md": "The `<u>**  **</u>``**init**``<u>**  **</u>` method acts as the constructor in Python.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MWPC3sjXJPVBT29Z",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In the Java `Person` example, all four attributes are declared as private."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each attribute is declared with the `**private**` access modifier, so it cannot be accessed directly from outside the class."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn the Java `Person` example, all four attributes are declared as private.\n",
+   "back_md": "**True.**\n\nEach attribute is declared with the `**private**` access modifier, so it cannot be accessed directly from outside the class.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cjGvVt2MHdBPQXNb",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_qRP7VX6nRCqDnwS2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, how does the constructor assign a parameter to an attribute of the object?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It uses the `**self**` keyword, for example `self.firstName = firstName`."
+    }
+   ],
+   "front_md": "In Python, how does the constructor assign a parameter to an attribute of the object?\n",
+   "back_md": "It uses the `**self**` keyword, for example `self.firstName = firstName`.\n",
+   "spec_links": [
+    "spcpt_PMGDvYWx2Pj6bswW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5w739dBN75rJKkhS",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A method is a **function associated with an object or class** that defines the behaviour and actions the object can perform."
+    }
+   ],
+   "front_md": "Define **method**.\n",
+   "back_md": "A method is a **function associated with an object or class** that defines the behaviour and actions the object can perform.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tr42cG6hqbrGn6ww",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two main types of method?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The two main types of method are a **function** and a **procedure**."
+    }
+   ],
+   "front_md": "What are the two main types of method?\n",
+   "back_md": "The two main types of method are a **function** and a **procedure**.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nBZ3bMgzcdsYcMw9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a function and a procedure?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A function performs a task and **returns a value**, while a procedure performs a task but **does not return a value**."
+    }
+   ],
+   "front_md": "What is the difference between a function and a procedure?\n",
+   "back_md": "A function performs a task and **returns a value**, while a procedure performs a task but **does not return a value**.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CNYTb7PRC6XvcQpB",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A procedure returns a value to the code that called it."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A procedure performs a task but **does not return a value**, which is what distinguishes it from a function."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA procedure returns a value to the code that called it.\n",
+   "back_md": "**False.**\n\nA procedure performs a task but **does not return a value**, which is what distinguishes it from a function.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k4xpsY9bSThVkFDV",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because they are associated with objects rather than the class itself, these methods are called <u>**                **</u> methods."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because they are associated with objects rather than the class itself, these methods are called **instance** methods."
+    }
+   ],
+   "front_md": "Because they are associated with objects rather than the class itself, these methods are called <u>**                **</u> methods.\n",
+   "back_md": "Because they are associated with objects rather than the class itself, these methods are called **instance** methods.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_3WQY2WNJR6JSCxNw",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What notation does an object use to call a method from its class?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It uses **dot notation**, in the form `Objectname.Methodname`."
+    }
+   ],
+   "front_md": "What notation does an object use to call a method from its class?\n",
+   "back_md": "It uses **dot notation**, in the form `Objectname.Methodname`.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2NRsRKQpvhPbR3Rb",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An object `jumboJet` has been created from the `aircraft` class. Write the statement that calls its take off method."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The statement is `**jumboJet.Takeoff()**`."
+    }
+   ],
+   "front_md": "An object `jumboJet` has been created from the `aircraft` class. Write the statement that calls its take off method.\n",
+   "back_md": "The statement is `**jumboJet.Takeoff()**`.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wtvfxKg2PPKdCrXW",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the four methods of the `aircraft` class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The four methods are **take off**, **land**, **bank left** and **bank right**."
+    }
+   ],
+   "front_md": "Name the four methods of the `aircraft` class.\n",
+   "back_md": "The four methods are **take off**, **land**, **bank left** and **bank right**.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sv6kMbrVYSCMrvK8",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the four attributes held by each object of the `aircraft` class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each object holds a **manufacturer**, a **model**, a **passenger capacity** and a **maximum speed**."
+    }
+   ],
+   "front_md": "Name the four attributes held by each object of the `aircraft` class.\n",
+   "back_md": "Each object holds a **manufacturer**, a **model**, a **passenger capacity** and a **maximum speed**.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jppSjCKcxWdBfQzB",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a class a good way to model aircraft, given that aircraft differ so much in design?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Although the designs differ, every aircraft **requires the same methods**, such as take off and landing, so one class can define that shared behaviour."
+    }
+   ],
+   "front_md": "Why is a class a good way to model aircraft, given that aircraft differ so much in design?\n",
+   "back_md": "Although the designs differ, every aircraft **requires the same methods**, such as take off and landing, so one class can define that shared behaviour.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tc6s8RVs39qbcGVC",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **public method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A public method is **accessible and can be invoked by any code within the same class or from any external class**."
+    }
+   ],
+   "front_md": "Define **public method**.\n",
+   "back_md": "A public method is **accessible and can be invoked by any code within the same class or from any external class**.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Ws3BH5zBTh7gqHQ2",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **private method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A private method is **only accessible within the same class** and cannot be invoked by external code or other classes."
+    }
+   ],
+   "front_md": "Define **private method**.\n",
+   "back_md": "A private method is **only accessible within the same class** and cannot be invoked by external code or other classes.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TyH6ScbmCm8gG4f4",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A private method can be invoked by code in a different class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A private method can only be called from **within its own class**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA private method can be invoked by code in a different class.\n",
+   "back_md": "**False.**\n\nA private method can only be called from **within its own class**.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_86yCBqQVZHSV4kBg",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must changes to public methods be made carefully?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Changes to public methods **may affect other parts of the codebase**, so they should be carefully designed, documented and kept backward compatible wherever possible."
+    }
+   ],
+   "front_md": "Why must changes to public methods be made carefully?\n",
+   "back_md": "Changes to public methods **may affect other parts of the codebase**, so they should be carefully designed, documented and kept backward compatible wherever possible.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4DrD54N6JCc2BHwf",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a private method easier to modify or refactor than a public one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A private method has a **localised impact**, because it is only used internally within its own class."
+    }
+   ],
+   "front_md": "Why is a private method easier to modify or refactor than a public one?\n",
+   "back_md": "A private method has a **localised impact**, because it is only used internally within its own class.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WVNgc8cfFwBz6Q33",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When would you make a method public?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When you want to **provide other parts of the program with access** to a particular functionality or behaviour of the object or class."
+    }
+   ],
+   "front_md": "When would you make a method public?\n",
+   "back_md": "When you want to **provide other parts of the program with access** to a particular functionality or behaviour of the object or class.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cqtVhSm4dGykncFS",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When would you make a method private?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When it holds **internal implementation details** that should not be accessed or used by external code."
+    }
+   ],
+   "front_md": "When would you make a method private?\n",
+   "back_md": "When it holds **internal implementation details** that should not be accessed or used by external code.\n",
+   "spec_links": [
+    "spcpt_nxt9SD2gf3Z5xGsn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PdMNmnbMk7tCNS2d",
+   "card_type": "fill_in_the_blanks",
+   "order": 17,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, a method whose name begins with a single leading <u>**                **</u> is treated as private by convention."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, a method whose name begins with a single leading **underscore** is treated as private by convention."
+    }
+   ],
+   "front_md": "In Python, a method whose name begins with a single leading <u>**                **</u> is treated as private by convention.\n",
+   "back_md": "In Python, a method whose name begins with a single leading **underscore** is treated as private by convention.\n",
+   "spec_links": [
+    "spcpt_Cv3J4Pp483HfxyS7"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_R8bQFzp3xzf6zMVv",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Does Python enforce private methods in the way Java does?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No.** Python has **no explicit access modifier**, so a method marked as private can still be accessed from outside the class, but other developers should treat it as private and avoid doing so."
+    }
+   ],
+   "front_md": "Does Python enforce private methods in the way Java does?\n",
+   "back_md": "**No.** Python has **no explicit access modifier**, so a method marked as private can still be accessed from outside the class, but other developers should treat it as private and avoid doing so.\n",
+   "spec_links": [
+    "spcpt_Cv3J4Pp483HfxyS7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bssVmKnqV5tRyKtc",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_XCYtcnn6GgnDrFb5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the statement `jumboJet = new aircraft(\"Boeing\", \"747\", 416, 547)` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **creates an object called **`**jumboJet**`** from the **`**aircraft**`** class**, giving it a manufacturer of Boeing, a model of 747, a capacity of 416 and a speed of 547."
+    }
+   ],
+   "front_md": "What does the statement `jumboJet = new aircraft(\"Boeing\", \"747\", 416, 547)` do?\n",
+   "back_md": "It **creates an object called **`**jumboJet**`** from the **`**aircraft**`** class**, giving it a manufacturer of Boeing, a model of 747, a capacity of 416 and a speed of 547.\n",
+   "spec_links": [
+    "spcpt_Cv3J4Pp483HfxyS7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9tVstZHy64yZ95z6",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **attribute**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An attribute is a **data member, or property, associated with an object or a class**."
+    }
+   ],
+   "front_md": "Define **attribute**.\n",
+   "back_md": "An attribute is a **data member, or property, associated with an object or a class**.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HCPjNpFhqYxGQFsV",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do the attributes of a class define?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The attributes define the **state of an object**."
+    }
+   ],
+   "front_md": "What do the attributes of a class define?\n",
+   "back_md": "The attributes define the **state of an object**.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_szXvn9c8d4gRfGrg",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every instance of a class must hold the same values for its attributes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Attributes can hold **different values for different instances** of the same class."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery instance of a class must hold the same values for its attributes.\n",
+   "back_md": "**False.**\n\nAttributes can hold **different values for different instances** of the same class.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mjbPsr6d5Wx64svR",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What data types can an attribute be?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An attribute can be any data type, including **integers**, **strings**, **Booleans** or even **other objects**."
+    }
+   ],
+   "front_md": "What data types can an attribute be?\n",
+   "back_md": "An attribute can be any data type, including **integers**, **strings**, **Booleans** or even **other objects**.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Jk34YSkKSR8D5YHk",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As well as a data type, attributes can be given different <u>**                **</u> rights."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As well as a data type, attributes can be given different **access** rights."
+    }
+   ],
+   "front_md": "As well as a data type, attributes can be given different <u>**                **</u> rights.\n",
+   "back_md": "As well as a data type, attributes can be given different **access** rights.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tGZKp5N53PHfQjVr",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Car` class has an attribute called `manufacturer` with private access and a String data type. What do those two things mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Private access means it **can only be accessed within the **`**Car**`** class**, and the String data type means the value it holds **must be text**."
+    }
+   ],
+   "front_md": "A `Car` class has an attribute called `manufacturer` with private access and a String data type. What do those two things mean?\n",
+   "back_md": "Private access means it **can only be accessed within the **`**Car**`** class**, and the String data type means the value it holds **must be text**.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Jsw2fkHBZwk5QjRQ",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An object of the `Car` class is instantiated with the value \"Ford\". Which attribute holds that value?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `**manufacturer**` attribute holds the value \"Ford\"."
+    }
+   ],
+   "front_md": "An object of the `Car` class is instantiated with the value \"Ford\". Which attribute holds that value?\n",
+   "back_md": "The `**manufacturer**` attribute holds the value \"Ford\".\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PWTgCFSKYCXT3VWh",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many attributes does a class usually have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In most cases a class has **many different attributes**, so a single-attribute class is unusual."
+    }
+   ],
+   "front_md": "How many attributes does a class usually have?\n",
+   "back_md": "In most cases a class has **many different attributes**, so a single-attribute class is unusual.\n",
+   "spec_links": [
+    "spcpt_QWTDqxYwBJvHtwdr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R5sbdzfrYJRMP43G",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the five attributes of the Java `Person` class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The five attributes are `**name**`, `**age**`, `**gender**`, `**occupation**` and `**isMarried**`."
+    }
+   ],
+   "front_md": "Name the five attributes of the Java `Person` class.\n",
+   "back_md": "The five attributes are `**name**`, `**age**`, `**gender**`, `**occupation**` and `**isMarried**`.\n",
+   "spec_links": [
+    "spcpt_9Mk8TpVF2qDYpJrn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4Knf99BKZkwjqsXj",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the Java `Person` class, which attribute is declared as a boolean, and which as an int?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`**isMarried**` is declared as a boolean and `**age**` is declared as an int."
+    }
+   ],
+   "front_md": "In the Java `Person` class, which attribute is declared as a boolean, and which as an int?\n",
+   "back_md": "`**isMarried**` is declared as a boolean and `**age**` is declared as an int.\n",
+   "spec_links": [
+    "spcpt_9Mk8TpVF2qDYpJrn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WNTbvhVFvfWTH887",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, attributes are defined using the <u>**                **</u> keyword, followed by the attribute name and its initial value."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, attributes are defined using the **self** keyword, followed by the attribute name and its initial value."
+    }
+   ],
+   "front_md": "In Python, attributes are defined using the <u>**                **</u> keyword, followed by the attribute name and its initial value.\n",
+   "back_md": "In Python, attributes are defined using the **self** keyword, followed by the attribute name and its initial value.\n",
+   "spec_links": [
+    "spcpt_9Mk8TpVF2qDYpJrn"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kpTR93BPDRMSX5Fw",
+   "card_type": "true_or_false",
+   "order": 11,
+   "set_id": "flst_PzTKh3D5wt8SJckW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In the Java `Person` class, the attributes are declared as private."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "All five attributes are declared with the `**private**` access modifier."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn the Java `Person` class, the attributes are declared as private.\n",
+   "back_md": "**True.**\n\nAll five attributes are declared with the `**private**` access modifier.\n",
+   "spec_links": [
+    "spcpt_9Mk8TpVF2qDYpJrn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4Yr7Nj3XfQsjPyxS",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **inheritance**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Inheritance allows a class to **inherit the properties and behaviours, that is the attributes and methods, of another class**."
+    }
+   ],
+   "front_md": "Define **inheritance**.\n",
+   "back_md": "Inheritance allows a class to **inherit the properties and behaviours, that is the attributes and methods, of another class**.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w7DscZZWMt8Pw2XY",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does inheritance promote code reuse?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A derived class can **inherit and use the existing code from the base class**, which avoids duplicating code and improves organisation and maintainability."
+    }
+   ],
+   "front_md": "How does inheritance promote code reuse?\n",
+   "back_md": "A derived class can **inherit and use the existing code from the base class**, which avoids duplicating code and improves organisation and maintainability.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TqG6bGwYZFbQZqZx",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Inheritance establishes an <u>**                **</u> relationship between the base class and the derived class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Inheritance establishes an **IS-A** relationship between the base class and the derived class."
+    }
+   ],
+   "front_md": "Inheritance establishes an <u>**                **</u> relationship between the base class and the derived class.\n",
+   "back_md": "Inheritance establishes an **IS-A** relationship between the base class and the derived class.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Z5wp7QtbzF5rcgSG",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Car` class is derived from a `Vehicle` class. State the IS-A relationship between them."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**A Car is a Vehicle**, so the `Car` class inherits the properties and behaviours associated with being a vehicle."
+    }
+   ],
+   "front_md": "A `Car` class is derived from a `Vehicle` class. State the IS-A relationship between them.\n",
+   "back_md": "**A Car is a Vehicle**, so the `Car` class inherits the properties and behaviours associated with being a vehicle.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wDGqqkgGhCHqVRcz",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two other names for the base class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The base class is also known as the **parent class** or the **superclass**."
+    }
+   ],
+   "front_md": "Give two other names for the base class.\n",
+   "back_md": "The base class is also known as the **parent class** or the **superclass**.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V8N28gknkMMqhssK",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two other names for the derived class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The derived class is also known as the **child class** or the **subclass**."
+    }
+   ],
+   "front_md": "Give two other names for the derived class.\n",
+   "back_md": "The derived class is also known as the **child class** or the **subclass**.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mTBWvf3JV2YZQR26",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the role of the base class in an inheritance hierarchy?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The base class is the **blueprint or template from which the derived class inherits**, defining the common properties and behaviours shared among multiple derived classes."
+    }
+   ],
+   "front_md": "What is the role of the base class in an inheritance hierarchy?\n",
+   "back_md": "The base class is the **blueprint or template from which the derived class inherits**, defining the common properties and behaviours shared among multiple derived classes.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XkS2TCJR8yhfRqrJ",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A derived class can only use what it inherits, and cannot add anything of its own."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A derived class inherits the attributes and methods of the base class, but it can also **add additional attributes and methods** of its own."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA derived class can only use what it inherits, and cannot add anything of its own.\n",
+   "back_md": "**False.**\n\nA derived class inherits the attributes and methods of the base class, but it can also **add additional attributes and methods** of its own.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_s9FBSWNj6CJkkRgZ",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Car` class inherits from `Vehicle`. Name two attributes the `Car` class adds for itself."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `Car` class adds `**IsInsured**`, which records whether the car is insured, and `**EngineCapacity**`, which records the size of the engine."
+    }
+   ],
+   "front_md": "A `Car` class inherits from `Vehicle`. Name two attributes the `Car` class adds for itself.\n",
+   "back_md": "The `Car` class adds `**IsInsured**`, which records whether the car is insured, and `**EngineCapacity**`, which records the size of the engine.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2JjB6fPfKKjjHrrQ",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name three methods a `Vehicle` base class might define."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`**TurnEngineOn()**`, `**TurnEngineOff()**` and `**SteerLeft()**` are all methods a `Vehicle` base class might define."
+    }
+   ],
+   "front_md": "Name three methods a `Vehicle` base class might define.\n",
+   "back_md": "`**TurnEngineOn()**`, `**TurnEngineOff()**` and `**SteerLeft()**` are all methods a `Vehicle` base class might define.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Z8k7rbWZCV83qq2t",
+   "card_type": "keyword_definition",
+   "order": 10,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **super keyword**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The super keyword is used within a subclass to **refer to the superclass and access its methods, attributes or constructors**."
+    }
+   ],
+   "front_md": "Define the **super keyword**.\n",
+   "back_md": "The super keyword is used within a subclass to **refer to the superclass and access its methods, attributes or constructors**.\n",
+   "spec_links": [
+    "spcpt_DZTVTnD8468FWpMj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vZYCSJvrwbGSWf9N",
+   "card_type": "fill_in_the_blanks",
+   "order": 11,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Java, a derived class inherits from a base class using the keyword <u>**                **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Java, a derived class inherits from a base class using the keyword **extends**."
+    }
+   ],
+   "front_md": "In Java, a derived class inherits from a base class using the keyword <u>**                **</u>.\n",
+   "back_md": "In Java, a derived class inherits from a base class using the keyword **extends**.\n",
+   "spec_links": [
+    "spcpt_XRj64GWyhZFKdc87"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_s9Dgrwkdchfnfx2T",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Python, how does a class show that it inherits from another class?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **parent class name is written in brackets after the child class name**, for example `class Car(Vehicle):`."
+    }
+   ],
+   "front_md": "In Python, how does a class show that it inherits from another class?\n",
+   "back_md": "The **parent class name is written in brackets after the child class name**, for example `class Car(Vehicle):`.\n",
+   "spec_links": [
+    "spcpt_XRj64GWyhZFKdc87"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tqy5WrtyJNMwMxFD",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the constructor of a derived class call the constructor of its base class?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "So that the **attributes belonging to the base class are initialised**, before the derived class sets its own additional attributes."
+    }
+   ],
+   "front_md": "Why does the constructor of a derived class call the constructor of its base class?\n",
+   "back_md": "So that the **attributes belonging to the base class are initialised**, before the derived class sets its own additional attributes.\n",
+   "spec_links": [
+    "spcpt_XRj64GWyhZFKdc87"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_T8JVZzH7nvsnbWPt",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Helicopter` class inherits from `Vehicle` and adds `VerticalPosition`, `VerticalChange` and `MaxHeight`. Which of these does the constructor set to 0?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`**VerticalPosition**` is initialised to 0, while `VerticalChange` and `MaxHeight` are set from the parameters passed in."
+    }
+   ],
+   "front_md": "A `Helicopter` class inherits from `Vehicle` and adds `VerticalPosition`, `VerticalChange` and `MaxHeight`. Which of these does the constructor set to 0?\n",
+   "back_md": "`**VerticalPosition**` is initialised to 0, while `VerticalChange` and `MaxHeight` are set from the parameters passed in.\n",
+   "spec_links": [
+    "spcpt_XRj64GWyhZFKdc87"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jvG4vXCWtB2qhBnX",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `Helicopter` constructor takes five parameters. Which three are passed straight up to the `Vehicle` constructor?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **ID**, the **maximum speed** and the **increase amount** are passed up to the `Vehicle` constructor, because they belong to the parent class."
+    }
+   ],
+   "front_md": "The `Helicopter` constructor takes five parameters. Which three are passed straight up to the `Vehicle` constructor?\n",
+   "back_md": "The **ID**, the **maximum speed** and the **increase amount** are passed up to the `Vehicle` constructor, because they belong to the parent class.\n",
+   "spec_links": [
+    "spcpt_XRj64GWyhZFKdc87"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_48qvQhQqMYd5Ch6J",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_xVtHCngqykpJ72gd",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The attributes a derived class declares for itself should be private."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The `Helicopter` class declares `VerticalPosition`, `VerticalChange` and `MaxHeight` as **private**, in the same way the parent class declares its own attributes."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe attributes a derived class declares for itself should be private.\n",
+   "back_md": "**True.**\n\nThe `Helicopter` class declares `VerticalPosition`, `VerticalChange` and `MaxHeight` as **private**, in the same way the parent class declares its own attributes.\n",
+   "spec_links": [
+    "spcpt_XRj64GWyhZFKdc87"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CRMsnY8wd2GR74tH",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **encapsulation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Encapsulation is the practice of **grouping data (attributes) and methods (functions) together within a class**."
+    }
+   ],
+   "front_md": "Define **encapsulation**.\n",
+   "back_md": "Encapsulation is the practice of **grouping data (attributes) and methods (functions) together within a class**.\n",
+   "spec_links": [
+    "spcpt_PZ6sxctzBrrGQRFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zv9kwmnDFfYPjNh9",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does encapsulation keep data secure?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **controls access to the data using access modifiers** such as public and private, so the data cannot be accidentally modified or misused."
+    }
+   ],
+   "front_md": "How does encapsulation keep data secure?\n",
+   "back_md": "It **controls access to the data using access modifiers** such as public and private, so the data cannot be accidentally modified or misused.\n",
+   "spec_links": [
+    "spcpt_PZ6sxctzBrrGQRFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HtcXbF823N6sXNmG",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State two benefits of encapsulation other than security."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **organises code by keeping related data and methods together**, and it **promotes code reusability**, so the same class can be used in different parts of a program without rewriting it."
+    }
+   ],
+   "front_md": "State two benefits of encapsulation other than security.\n",
+   "back_md": "It **organises code by keeping related data and methods together**, and it **promotes code reusability**, so the same class can be used in different parts of a program without rewriting it.\n",
+   "spec_links": [
+    "spcpt_PZ6sxctzBrrGQRFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Sn996Ybbm8Yvbm4p",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Encapsulation uses a concept called <u>**                **</u>, which reduces complexity by hiding the implementation details of the object."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Encapsulation uses a concept called **abstraction**, which reduces complexity by hiding the implementation details of the object."
+    }
+   ],
+   "front_md": "Encapsulation uses a concept called <u>**                **</u>, which reduces complexity by hiding the implementation details of the object.\n",
+   "back_md": "Encapsulation uses a concept called **abstraction**, which reduces complexity by hiding the implementation details of the object.\n",
+   "spec_links": [
+    "spcpt_PZ6sxctzBrrGQRFT"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_djB5F8zNKNcbxmk9",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does hiding the internal details of a class help other programmers?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They can **use the methods and classes without having to understand how they have been constructed internally**."
+    }
+   ],
+   "front_md": "Why does hiding the internal details of a class help other programmers?\n",
+   "back_md": "They can **use the methods and classes without having to understand how they have been constructed internally**.\n",
+   "spec_links": [
+    "spcpt_PZ6sxctzBrrGQRFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hxz9NX3HkTC9CXzx",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "External code can access a private variable of a class directly."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Private variables are **only accessible within the class itself**, and external code must interact with the class through its public methods."
+    }
+   ],
+   "front_md": "**True or False?**\n\nExternal code can access a private variable of a class directly.\n",
+   "back_md": "**False.**\n\nPrivate variables are **only accessible within the class itself**, and external code must interact with the class through its public methods.\n",
+   "spec_links": [
+    "spcpt_PZ6sxctzBrrGQRFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yNHnGH24fmm9pYGv",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **get method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A get method is used to **retrieve the value of an object's private attribute**, and is also known as a getter or accessor method."
+    }
+   ],
+   "front_md": "Define **get method**.\n",
+   "back_md": "A get method is used to **retrieve the value of an object's private attribute**, and is also known as a getter or accessor method.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R8256Vmf9W5f7vTq",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **set method**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A set method is used to **set the value of an object's private instance variable**, and is also known as a mutator method."
+    }
+   ],
+   "front_md": "Define **set method**.\n",
+   "back_md": "A set method is used to **set the value of an object's private instance variable**, and is also known as a mutator method.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bJvSGHV2jRb9r7DD",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the main purpose of a get method?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To provide **controlled access to the internal state of an object without allowing direct modification**."
+    }
+   ],
+   "front_md": "What is the main purpose of a get method?\n",
+   "back_md": "To provide **controlled access to the internal state of an object without allowing direct modification**.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BXjT22w55xB6RDMb",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is extra code often written inside a set method?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To **enforce conditions or validations** before the attribute is updated, so that access is controlled."
+    }
+   ],
+   "front_md": "Why is extra code often written inside a set method?\n",
+   "back_md": "To **enforce conditions or validations** before the attribute is updated, so that access is controlled.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6cZZTRZw3pb4JZdm",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `NumberUpdater` class has a private attribute `oldnumber` and a set method that rejects negative values. What happens if the method is passed -3?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`**oldnumber**`** is left unchanged**, because the method only updates the attribute when the new value is not less than zero."
+    }
+   ],
+   "front_md": "A `NumberUpdater` class has a private attribute `oldnumber` and a set method that rejects negative values. What happens if the method is passed -3?\n",
+   "back_md": "`**oldnumber**`** is left unchanged**, because the method only updates the attribute when the new value is not less than zero.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G4ZFbVGKNmSmTSdd",
+   "card_type": "fill_in_the_blanks",
+   "order": 11,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because attributes are declared private, external code must use the public <u>**                **</u> methods to read their values."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because attributes are declared private, external code must use the public **get** methods to read their values."
+    }
+   ],
+   "front_md": "Because attributes are declared private, external code must use the public <u>**                **</u> methods to read their values.\n",
+   "back_md": "Because attributes are declared private, external code must use the public **get** methods to read their values.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ZGWXmPQGZySmS6TS",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many parameters does a get method take, and what does it do with the attribute?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A get method takes **no parameters** and **returns the attribute without overwriting it**."
+    }
+   ],
+   "front_md": "How many parameters does a get method take, and what does it do with the attribute?\n",
+   "back_md": "A get method takes **no parameters** and **returns the attribute without overwriting it**.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6fMGkBKQfVcWFn5P",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `Vehicle` class stores `CurrentSpeed` privately. Write, in words, what `GetCurrentSpeed()` must do."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It must **return the value held in the **`**CurrentSpeed**`** attribute**, taking no parameters and making no change to it."
+    }
+   ],
+   "front_md": "The `Vehicle` class stores `CurrentSpeed` privately. Write, in words, what `GetCurrentSpeed()` must do.\n",
+   "back_md": "It must **return the value held in the **`**CurrentSpeed**`** attribute**, taking no parameters and making no change to it.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FRYP4x7TgQk7g8s3",
+   "card_type": "true_or_false",
+   "order": 14,
+   "set_id": "flst_B4QWRGYbRXXJ842N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A set method returns the value of the attribute to the code that called it."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A set method **updates** the attribute, while it is the get method that **returns** its value."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA set method returns the value of the attribute to the code that called it.\n",
+   "back_md": "**False.**\n\nA set method **updates** the attribute, while it is the get method that **returns** its value.\n",
+   "spec_links": [
+    "spcpt_7FZjfQ7P4Tn8D2dq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K56QTxfYZ6xbpSyF",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **polymorphism**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Polymorphism allows objects to **take on different forms or behaviours**, so different objects can share the same method name but work in different ways."
+    }
+   ],
+   "front_md": "Define **polymorphism**.\n",
+   "back_md": "Polymorphism allows objects to **take on different forms or behaviours**, so different objects can share the same method name but work in different ways.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_twW9rZJT96msbm4F",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "State two benefits of using polymorphism."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Polymorphism makes code more **flexible** and more **reusable**, which also makes it easier to maintain."
+    }
+   ],
+   "front_md": "State two benefits of using polymorphism.\n",
+   "back_md": "Polymorphism makes code more **flexible** and more **reusable**, which also makes it easier to maintain.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YSdh2fQwYnXfCzgG",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does polymorphism make a program more versatile?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Objects can be **treated as belonging to a common group even when they belong to different classes**, so the code adapts more easily to change."
+    }
+   ],
+   "front_md": "How does polymorphism make a program more versatile?\n",
+   "back_md": "Objects can be **treated as belonging to a common group even when they belong to different classes**, so the code adapts more easily to change.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VVPXJ3wdQRv4D3Kg",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The <u>**                **</u> keyword is used to provide a new implementation for a method that is already defined in the parent class."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **override** keyword is used to provide a new implementation for a method that is already defined in the parent class."
+    }
+   ],
+   "front_md": "The <u>**                **</u> keyword is used to provide a new implementation for a method that is already defined in the parent class.\n",
+   "back_md": "The **override** keyword is used to provide a new implementation for a method that is already defined in the parent class.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_HFDpBxHmdt3Jkvr2",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Motorcycle` class and a `Car` class both inherit from `Vehicle` and neither redefines `startEngines()`. What is output when either object calls it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both output **\"Engines Started!\"**, because they inherit the same method from the base class."
+    }
+   ],
+   "front_md": "A `Motorcycle` class and a `Car` class both inherit from `Vehicle` and neither redefines `startEngines()`. What is output when either object calls it?\n",
+   "back_md": "Both output **\"Engines Started!\"**, because they inherit the same method from the base class.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8nM4wwxMdxD6Svqp",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A `Motorcycle` object calls `displayInfo()`, which is defined in both `Vehicle` and `Motorcycle`. What is output, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**\"I am a Motorcycle!\"** is output, because the version in the object's own class **overrides** the `Vehicle` class method."
+    }
+   ],
+   "front_md": "A `Motorcycle` object calls `displayInfo()`, which is defined in both `Vehicle` and `Motorcycle`. What is output, and why?\n",
+   "back_md": "**\"I am a Motorcycle!\"** is output, because the version in the object's own class **overrides** the `Vehicle` class method.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M7HVmdBvJKYfdnw8",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the declaration `Vehicle vehicle1 = new Car()` allow a programmer to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It allows an **array of type **`**Vehicle**`** to store both **`**Car**`** and **`**Motorcycle**`** objects**, rather than keeping them in separate data structures."
+    }
+   ],
+   "front_md": "What does the declaration `Vehicle vehicle1 = new Car()` allow a programmer to do?\n",
+   "back_md": "It allows an **array of type **`**Vehicle**`** to store both **`**Car**`** and **`**Motorcycle**`** objects**, rather than keeping them in separate data structures.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YQ5kcgMwgdydpXTy",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`vehicle1` is declared as type `Vehicle` but created as a `Car`. What does `vehicle1.displayInfo()` output?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It still outputs **\"I am a Car!\"**, because the version that runs depends on the object actually created, not the declared type."
+    }
+   ],
+   "front_md": "`vehicle1` is declared as type `Vehicle` but created as a `Car`. What does `vehicle1.displayInfo()` output?\n",
+   "back_md": "It still outputs **\"I am a Car!\"**, because the version that runs depends on the object actually created, not the declared type.\n",
+   "spec_links": [
+    "spcpt_nb6Kj8kq5CKfyjHF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TbG9Gw399JkTwXZq",
+   "card_type": "keyword_definition",
+   "order": 8,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **run-time polymorphism**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Run-time polymorphism happens when a subclass **overrides a method defined in a superclass, and the correct version is chosen at run-time rather than compile-time**."
+    }
+   ],
+   "front_md": "Define **run-time polymorphism**.\n",
+   "back_md": "Run-time polymorphism happens when a subclass **overrides a method defined in a superclass, and the correct version is chosen at run-time rather than compile-time**.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vSQsjMKgmcPJMv8V",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the `Animal`, `Dog` and `Cat` example, what does the `speak()` method in the `Animal` superclass contain?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **empty**, acting only as a placeholder for the subclasses to override."
+    }
+   ],
+   "front_md": "In the `Animal`, `Dog` and `Cat` example, what does the `speak()` method in the `Animal` superclass contain?\n",
+   "back_md": "It is **empty**, acting only as a placeholder for the subclasses to override.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4dyFRXYfXvfCK2xr",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`myDog` and `myCat` are passed in turn to `make_sound()`. What is output each time?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`make_sound(myDog)` outputs **Woof** and `make_sound(myCat)` outputs **Meow**."
+    }
+   ],
+   "front_md": "`myDog` and `myCat` are passed in turn to `make_sound()`. What is output each time?\n",
+   "back_md": "`make_sound(myDog)` outputs **Woof** and `make_sound(myCat)` outputs **Meow**.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GXppH9bpgGgc4SDW",
+   "card_type": "true_or_false",
+   "order": 11,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A separate version of `make_sound()` has to be written for each type of animal."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "One `make_sound()` accepts an object of type `Animal` and **calls the correct version of **`**speak()**` for whichever subclass was passed to it."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA separate version of `make_sound()` has to be written for each type of animal.\n",
+   "back_md": "**False.**\n\nOne `make_sound()` accepts an object of type `Animal` and **calls the correct version of **`**speak()**` for whichever subclass was passed to it.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CWRy8Rj7KqdQzP6Y",
+   "card_type": "fill_in_the_blanks",
+   "order": 12,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In run-time polymorphism the method call is resolved based on the actual <u>**                **</u> of the object."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In run-time polymorphism the method call is resolved based on the actual **type** of the object."
+    }
+   ],
+   "front_md": "In run-time polymorphism the method call is resolved based on the actual <u>**                **</u> of the object.\n",
+   "back_md": "In run-time polymorphism the method call is resolved based on the actual **type** of the object.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_HrkH77Q3cWtZGRhb",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In Java, what marks a method as overriding one in its superclass?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `**@Override**` annotation is written above the method header."
+    }
+   ],
+   "front_md": "In Java, what marks a method as overriding one in its superclass?\n",
+   "back_md": "The `**@Override**` annotation is written above the method header.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Rx59qSnfJj5y3BpH",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The `Helicopter` class overrides `IncreaseSpeed()` from `Vehicle`. State the three things the overriding method must do."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **adds the vertical change to the vertical position**, **adds **`**IncreaseAmount**`** to the current speed**, and **adds the updated current speed to the horizontal position**."
+    }
+   ],
+   "front_md": "The `Helicopter` class overrides `IncreaseSpeed()` from `Vehicle`. State the three things the overriding method must do.\n",
+   "back_md": "It **adds the vertical change to the vertical position**, **adds **`**IncreaseAmount**`** to the current speed**, and **adds the updated current speed to the horizontal position**.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kydzhgJJwXZwKzhv",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two limits must the `Helicopter` version of `IncreaseSpeed()` enforce?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The vertical position **cannot exceed the maximum height**, and the current speed **cannot exceed the maximum speed**."
+    }
+   ],
+   "front_md": "What two limits must the `Helicopter` version of `IncreaseSpeed()` enforce?\n",
+   "back_md": "The vertical position **cannot exceed the maximum height**, and the current speed **cannot exceed the maximum speed**.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PV2NR3qrWHvtkd2J",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_HK4Z6tmTC8nt6Np7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The `Helicopter` version of `IncreaseSpeed()` takes no parameters."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An overriding method keeps the **same header as the method it overrides**, and `IncreaseSpeed()` has no parameters."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe `Helicopter` version of `IncreaseSpeed()` takes no parameters.\n",
+   "back_md": "**True.**\n\nAn overriding method keeps the **same header as the method it overrides**, and `IncreaseSpeed()` has no parameters.\n",
+   "spec_links": [
+    "spcpt_rk33CCQF8Gst9pyS"
+   ],
+   "flags": []
+  }
+ ]
+}

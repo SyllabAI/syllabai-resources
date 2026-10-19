@@ -1,0 +1,694 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:20Z",
+ "course_slug": "ial-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/flashcards/integration/further-integration/",
+  "section_slug": "integration",
+  "section_name": "Integration",
+  "topic_slug": "further-integration",
+  "title": "Further Integration",
+  "order": 0
+ },
+ "card_count": 21,
+ "card_types": {
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 14,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 21,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_bpRcK42xjts6GxnG",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_K7D92mjVHNBC5JZs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two standard trigonometric integrals:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin x \\text{d} x = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\cos x \\text{d} x = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed integrals are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin x \\text{d} x = - \\cos x + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\cos x \\text{d} x = \\sin x + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The minus sign attaches to the integral of $\\mathrm{sin}$, which is the opposite way round from differentiation, where it attaches to $\\mathrm{cos}$."
+    }
+   ],
+   "front_md": "Complete the two standard trigonometric integrals:\n\n`\\int \\sin x \\text{d} x = \\_\\_\\_\\_\\_\\_`\n\n`\\int \\cos x \\text{d} x = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed integrals are:\n\n`\\int \\sin x \\text{d} x = - \\cos x + c`\n\n`\\int \\cos x \\text{d} x = \\sin x + c`\n\nThe minus sign attaches to the integral of $\\mathrm{sin}$, which is the opposite way round from differentiation, where it attaches to $\\mathrm{cos}$.\n",
+   "spec_links": [
+    "spcpt_JSx6YPY39mt6vdzt"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_hsx87T7yGHbkR9wb",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_K7D92mjVHNBC5JZs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does an indefinite integral always end in $+ c$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a constant differentiates to **zero**, so infinitely many functions share the same derivative."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $+ c$ stands for all of them at once, and it is dropped only once limits are applied."
+    }
+   ],
+   "front_md": "Why does an indefinite integral always end in $+ c$?\n",
+   "back_md": "Because a constant differentiates to **zero**, so infinitely many functions share the same derivative.\n\nThe $+ c$ stands for all of them at once, and it is dropped only once limits are applied.\n",
+   "spec_links": [
+    "spcpt_JSx6YPY39mt6vdzt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q9yq5sz5w255sG7m",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_K7D92mjVHNBC5JZs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `\\int \\text{e}^{k x} \\text{d} x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{1}{k} \\text{e}^{kx} + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $\\text{e}^{kx}$ multiplies by $k$, so going the other way has to divide by it."
+    }
+   ],
+   "front_md": "What is `\\int \\text{e}^{k x} \\text{d} x`?\n",
+   "back_md": "$\\frac{1}{k} \\text{e}^{kx} + c$.\n\nDifferentiating $\\text{e}^{kx}$ multiplies by $k$, so going the other way has to divide by it.\n",
+   "spec_links": [
+    "spcpt_JSx6YPY39mt6vdzt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3HKyhWBGVT6ykJ7K",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_K7D92mjVHNBC5JZs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can the rule for integrating $x^{n}$ not be used on $\\frac{1}{x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $\\frac{1}{x} = x^{-1}$, and raising that index by $1$ would leave a denominator of zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral is `\\ln \\left| x \\right| + c` instead, which is why this one has to be learned separately."
+    }
+   ],
+   "front_md": "Why can the rule for integrating $x^{n}$ not be used on $\\frac{1}{x}$?\n",
+   "back_md": "Because $\\frac{1}{x} = x^{-1}$, and raising that index by $1$ would leave a denominator of zero.\n\nThe integral is `\\ln \\left| x \\right| + c` instead, which is why this one has to be learned separately.\n",
+   "spec_links": [
+    "spcpt_JSx6YPY39mt6vdzt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hshT9KNvTy8YswjT",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_K7D92mjVHNBC5JZs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Any of these standard integrals can be checked by differentiating the answer."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integration is the reverse of differentiation, so differentiating your answer has to return what you started with."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the quickest way to settle a sign you are unsure of."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAny of these standard integrals can be checked by differentiating the answer.\n",
+   "back_md": "**True.**\n\nIntegration is the reverse of differentiation, so differentiating your answer has to return what you started with.\n\nIt is the quickest way to settle a sign you are unsure of.\n",
+   "spec_links": [
+    "spcpt_JSx6YPY39mt6vdzt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Y66TCV7kjsT3pg8w",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_K7D92mjVHNBC5JZs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `\\int \\tan x \\text{d} x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\ln \\left| \\sec x \\right| + c`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The modulus is needed because $\\mathrm{sec} x$ takes negative values as well as positive ones, and a logarithm cannot accept those."
+    }
+   ],
+   "front_md": "What is `\\int \\tan x \\text{d} x`?\n",
+   "back_md": "`\\ln \\left| \\sec x \\right| + c`.\n\nThe modulus is needed because $\\mathrm{sec} x$ takes negative values as well as positive ones, and a logarithm cannot accept those.\n",
+   "spec_links": [
+    "spcpt_JSx6YPY39mt6vdzt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hMXnD9NDZbF6CyXf",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_4YR9M23QQ9GsVXPy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the reverse chain rule undo?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A differentiation that used the **chain rule**, so the integrand is a composite function multiplied by the derivative of its inside."
+    },
+    {
+     "type": "paragraph",
+     "md": "Recognising that shape is what lets you integrate by inspection, without setting up a formal substitution."
+    }
+   ],
+   "front_md": "What does the reverse chain rule undo?\n",
+   "back_md": "A differentiation that used the **chain rule**, so the integrand is a composite function multiplied by the derivative of its inside.\n\nRecognising that shape is what lets you integrate by inspection, without setting up a formal substitution.\n",
+   "spec_links": [
+    "spcpt_D4wJgrNQvPv7GK8x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MWFRGvKZDFJJyyhv",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_4YR9M23QQ9GsVXPy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the steps of the reverse chain rule?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Spot the **main** function, write down what would differentiate to give it, then **adjust and compensate** for any constant that the chain rule would have produced."
+    },
+    {
+     "type": "paragraph",
+     "md": "Simplify at the end."
+    }
+   ],
+   "front_md": "What are the steps of the reverse chain rule?\n",
+   "back_md": "Spot the **main** function, write down what would differentiate to give it, then **adjust and compensate** for any constant that the chain rule would have produced.\n\nSimplify at the end.\n",
+   "spec_links": [
+    "spcpt_D4wJgrNQvPv7GK8x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gqw5rvY78FTK5vH4",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_4YR9M23QQ9GsVXPy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does it mean to \"adjust and compensate\" when integrating?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Put in the constant your answer needs, then multiply by its reciprocal outside, so that nothing has actually been changed."
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating $\\text{e}^{5x}$ needs a $5$ from the chain rule, so you write $\\frac{1}{5} \\text{e}^{5x}$: the $\\frac{1}{5}$ compensates for the $5$ that differentiating would bring out."
+    }
+   ],
+   "front_md": "What does it mean to \"adjust and compensate\" when integrating?\n",
+   "back_md": "Put in the constant your answer needs, then multiply by its reciprocal outside, so that nothing has actually been changed.\n\nIntegrating $\\text{e}^{5x}$ needs a $5$ from the chain rule, so you write $\\frac{1}{5} \\text{e}^{5x}$: the $\\frac{1}{5}$ compensates for the $5$ that differentiating would bring out.\n",
+   "spec_links": [
+    "spcpt_D4wJgrNQvPv7GK8x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rWxQhnHjdV8ynr2j",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_4YR9M23QQ9GsVXPy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you check an integration answer?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Differentiate it.** You should get back exactly what you set out to integrate."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is worth doing whenever the integral was reached by inspection rather than by a formal method, because inspection is where a constant is most easily dropped."
+    }
+   ],
+   "front_md": "How can you check an integration answer?\n",
+   "back_md": "**Differentiate it.** You should get back exactly what you set out to integrate.\n\nThis is worth doing whenever the integral was reached by inspection rather than by a formal method, because inspection is where a constant is most easily dropped.\n",
+   "spec_links": [
+    "spcpt_D4wJgrNQvPv7GK8x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bngp9dh2CfyKFjXq",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_4YR9M23QQ9GsVXPy",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The reverse chain rule works whenever the integrand is a composite function."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative of the inside function has to be present as well, at least up to a constant multiple."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int 2 x \\text{e}^{x^{2}} \\text{d} x` works because the $2 x$ is the derivative of $x^{2}$, whereas `\\int \\text{e}^{x^{2}} \\text{d} x` cannot be done at all by elementary means."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe reverse chain rule works whenever the integrand is a composite function.\n",
+   "back_md": "**False.**\n\nThe derivative of the inside function has to be present as well, at least up to a constant multiple.\n\n`\\int 2 x \\text{e}^{x^{2}} \\text{d} x` works because the $2 x$ is the derivative of $x^{2}$, whereas `\\int \\text{e}^{x^{2}} \\text{d} x` cannot be done at all by elementary means.\n",
+   "spec_links": [
+    "spcpt_D4wJgrNQvPv7GK8x"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_t62bvYDztNSrRPbv",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_JrDcMGJd3QqnnB6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the standard result:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)} \\text{d} x = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed result is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)} \\text{d} x = \\ln \\left|\\text{f} \\left(x\\right)\\right| + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The modulus is there for the same reason as in `\\int \\frac{1}{x} \\text{d} x`: the logarithm needs a positive argument."
+    }
+   ],
+   "front_md": "Complete the standard result:\n\n`\\int \\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)} \\text{d} x = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed result is:\n\n`\\int \\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)} \\text{d} x = \\ln \\left|\\text{f} \\left(x\\right)\\right| + c`\n\nThe modulus is there for the same reason as in `\\int \\frac{1}{x} \\text{d} x`: the logarithm needs a positive argument.\n",
+   "spec_links": [
+    "spcpt_JwrdCCvhVRQqRksD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_wx4qmT7bM4DkhRRn",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_JrDcMGJd3QqnnB6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you test whether a fraction is of the form `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Differentiate the denominator** and compare the result with the numerator."
+    },
+    {
+     "type": "paragraph",
+     "md": "Ignore any coefficients while comparing: if the two match apart from a constant multiple, the form applies."
+    }
+   ],
+   "front_md": "How do you test whether a fraction is of the form `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}`?\n",
+   "back_md": "**Differentiate the denominator** and compare the result with the numerator.\n\nIgnore any coefficients while comparing: if the two match apart from a constant multiple, the form applies.\n",
+   "spec_links": [
+    "spcpt_JwrdCCvhVRQqRksD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4ffgNGk88VCrwB64",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_JrDcMGJd3QqnnB6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The numerator is a constant multiple of the derivative of the denominator, but not equal to it. What do you do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Adjust for that constant, exactly as in the reverse chain rule."
+    },
+    {
+     "type": "paragraph",
+     "md": "In `\\int \\frac{x}{x^{2} + 1} \\text{d} x` the denominator differentiates to $2 x$, so write it as `\\frac{1}{2} \\int \\frac{2 x}{x^{2} + 1} \\text{d} x`, giving `\\frac{1}{2} \\ln \\left|x^{2} + 1\\right| + c`."
+    }
+   ],
+   "front_md": "The numerator is a constant multiple of the derivative of the denominator, but not equal to it. What do you do?\n",
+   "back_md": "Adjust for that constant, exactly as in the reverse chain rule.\n\nIn `\\int \\frac{x}{x^{2} + 1} \\text{d} x` the denominator differentiates to $2 x$, so write it as `\\frac{1}{2} \\int \\frac{2 x}{x^{2} + 1} \\text{d} x`, giving `\\frac{1}{2} \\ln \\left|x^{2} + 1\\right| + c`.\n",
+   "spec_links": [
+    "spcpt_JwrdCCvhVRQqRksD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TBSGCt2rDZJrkXDM",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_JrDcMGJd3QqnnB6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{2 x + 1}{x^{2} + x} \\text{d} x = \\ln \\left|x^{2} + x\\right| + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $x^{2} + x$ gives exactly $2 x + 1$, which is the numerator, so there is no constant to adjust for."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is the cleanest form the pattern takes."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\int \\frac{2 x + 1}{x^{2} + x} \\text{d} x = \\ln \\left|x^{2} + x\\right| + c`\n",
+   "back_md": "**True.**\n\nDifferentiating $x^{2} + x$ gives exactly $2 x + 1$, which is the numerator, so there is no constant to adjust for.\n\nThis is the cleanest form the pattern takes.\n",
+   "spec_links": [
+    "spcpt_JwrdCCvhVRQqRksD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KRJPcCs7kYBvmmYC",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_JrDcMGJd3QqnnB6N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does this pattern integrate to a logarithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because differentiating `\\ln \\left(\\text{f} \\left(x\\right)\\right)` gives `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}`, by the chain rule."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral is that result read backwards, which is why no separate rule has to be learned for it."
+    }
+   ],
+   "front_md": "Why does this pattern integrate to a logarithm?\n",
+   "back_md": "Because differentiating `\\ln \\left(\\text{f} \\left(x\\right)\\right)` gives `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}`, by the chain rule.\n\nThe integral is that result read backwards, which is why no separate rule has to be learned for it.\n",
+   "spec_links": [
+    "spcpt_JwrdCCvhVRQqRksD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WpX5WkTYcSQxn69W",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_cfZ738TckNMnkc8N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do you sometimes need a trigonometric identity before integrating?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the expression as written is not one of the standard integrals, but an identity can turn it into one that is."
+    },
+    {
+     "type": "paragraph",
+     "md": "Most often it is a **squared** trigonometric term that has to be rewritten."
+    }
+   ],
+   "front_md": "Why do you sometimes need a trigonometric identity before integrating?\n",
+   "back_md": "Because the expression as written is not one of the standard integrals, but an identity can turn it into one that is.\n\nMost often it is a **squared** trigonometric term that has to be rewritten.\n",
+   "spec_links": [
+    "spcpt_phxNfbj7rSHTghdc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tFmpH6DCfXvbDg8H",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_cfZ738TckNMnkc8N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate $\\mathrm{sin}^{2} x$ or $\\mathrm{cos}^{2} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite them with the double angle identity for $\\mathrm{cos} 2 A$, which turns a square into a linear expression in $\\mathrm{cos} 2 x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "From $\\mathrm{cos} 2 x = 1 - 2 \\mathrm{sin}^{2} x$ you get `\\sin^{2} x = \\frac{1}{2} \\left(1 - \\cos 2 x\\right)`, which integrates term by term."
+    }
+   ],
+   "front_md": "How do you integrate $\\mathrm{sin}^{2} x$ or $\\mathrm{cos}^{2} x$?\n",
+   "back_md": "Rewrite them with the double angle identity for $\\mathrm{cos} 2 A$, which turns a square into a linear expression in $\\mathrm{cos} 2 x$.\n\nFrom $\\mathrm{cos} 2 x = 1 - 2 \\mathrm{sin}^{2} x$ you get `\\sin^{2} x = \\frac{1}{2} \\left(1 - \\cos 2 x\\right)`, which integrates term by term.\n",
+   "spec_links": [
+    "spcpt_phxNfbj7rSHTghdc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pycBdJN6Br5rZxFt",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_cfZ738TckNMnkc8N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate $\\mathrm{sin} 3 x \\mathrm{cos} 3 x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use $\\mathrm{sin} 2 A = 2 \\mathrm{sin} A \\mathrm{cos} A$ backwards, which gives $\\mathrm{sin} 3 x \\mathrm{cos} 3 x = \\frac{1}{2} \\mathrm{sin} 6 x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is a standard integral, so the answer is $- \\frac{1}{12} \\mathrm{cos} 6 x + c$."
+    }
+   ],
+   "front_md": "How do you integrate $\\mathrm{sin} 3 x \\mathrm{cos} 3 x$?\n",
+   "back_md": "Use $\\mathrm{sin} 2 A = 2 \\mathrm{sin} A \\mathrm{cos} A$ backwards, which gives $\\mathrm{sin} 3 x \\mathrm{cos} 3 x = \\frac{1}{2} \\mathrm{sin} 6 x$.\n\nThat is a standard integral, so the answer is $- \\frac{1}{12} \\mathrm{cos} 6 x + c$.\n",
+   "spec_links": [
+    "spcpt_phxNfbj7rSHTghdc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r9STxPp27dXPT3fw",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_cfZ738TckNMnkc8N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the identities used to integrate these squared functions:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\tan^{2} x = \\_\\_\\_\\_\\_\\_ - 1`\n`\\cot^{2} x = \\_\\_\\_\\_\\_\\_ - 1`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed identities are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{tan}^{2} x = \\mathrm{sec}^{2} x - 1$\n$\\mathrm{cot}^{2} x = \\text{cosec}^{2} x - 1$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each turns a square you cannot integrate directly into one you can, since $\\mathrm{sec}^{2} x$ and $\\text{cosec}^{2} x$ are both standard integrals."
+    }
+   ],
+   "front_md": "Complete the identities used to integrate these squared functions:\n\n`\\tan^{2} x = \\_\\_\\_\\_\\_\\_ - 1`\n`\\cot^{2} x = \\_\\_\\_\\_\\_\\_ - 1`\n",
+   "back_md": "The completed identities are:\n\n$\\mathrm{tan}^{2} x = \\mathrm{sec}^{2} x - 1$\n$\\mathrm{cot}^{2} x = \\text{cosec}^{2} x - 1$\n\nEach turns a square you cannot integrate directly into one you can, since $\\mathrm{sec}^{2} x$ and $\\text{cosec}^{2} x$ are both standard integrals.\n",
+   "spec_links": [
+    "spcpt_phxNfbj7rSHTghdc"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_fJbMSNzsMfP7trCG",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_cfZ738TckNMnkc8N",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin^{4} x \\cos x \\text{d} x` needs a trigonometric identity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It looks as though it should, but $\\mathrm{cos} x$ is the derivative of $\\mathrm{sin} x$, so this is a **reverse chain rule** integral and the answer is $\\frac{1}{5} \\mathrm{sin}^{5} x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Anything of the form $\\mathrm{sin}^{n} k x \\mathrm{cos} k x$ behaves the same way and needs no identity at all."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\int \\sin^{4} x \\cos x \\text{d} x` needs a trigonometric identity.\n",
+   "back_md": "**False.**\n\nIt looks as though it should, but $\\mathrm{cos} x$ is the derivative of $\\mathrm{sin} x$, so this is a **reverse chain rule** integral and the answer is $\\frac{1}{5} \\mathrm{sin}^{5} x + c$.\n\nAnything of the form $\\mathrm{sin}^{n} k x \\mathrm{cos} k x$ behaves the same way and needs no identity at all.\n",
+   "spec_links": [
+    "spcpt_phxNfbj7rSHTghdc"
+   ],
+   "flags": []
+  }
+ ]
+}

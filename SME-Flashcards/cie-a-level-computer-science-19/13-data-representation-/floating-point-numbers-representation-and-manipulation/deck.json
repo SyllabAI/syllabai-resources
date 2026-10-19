@@ -1,0 +1,1729 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:27Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/13-data-representation-/floating-point-numbers-representation-and-manipulation/",
+  "section_slug": "13-data-representation-",
+  "section_name": "13. Data Representation",
+  "topic_slug": "floating-point-numbers-representation-and-manipulation",
+  "title": "Floating-point Numbers, Representation & Manipulation",
+  "order": 2
+ },
+ "card_count": 67,
+ "card_types": {
+  "keyword_definition": 7,
+  "question_and_answer": 48,
+  "fill_in_the_blanks": 6,
+  "true_or_false": 6
+ },
+ "spec_link_cards": 67,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_K3Wg7bSpMtHYpVvw",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **floating-point binary**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Floating-point binary represents **real numbers in binary**: numbers with a fractional part, and numbers that are very large or very small."
+    }
+   ],
+   "front_md": "Define **floating-point binary**.\n",
+   "back_md": "Floating-point binary represents **real numbers in binary**: numbers with a fractional part, and numbers that are very large or very small.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SkF2s9qhBTv58kqQ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is floating-point binary equivalent to in denary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It works like **scientific notation, but in base 2**."
+    }
+   ],
+   "front_md": "What is floating-point binary equivalent to in denary?\n",
+   "back_md": "It works like **scientific notation, but in base 2**.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cBPFwG4DYMVqfgVF",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is a floating-point number written?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As a **mantissa multiplied by 2 to the power of an exponent**."
+    }
+   ],
+   "front_md": "How is a floating-point number written?\n",
+   "back_md": "As a **mantissa multiplied by 2 to the power of an exponent**.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BNhrYPNVwNGTb3qy",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In `3140 = 3.14 x 10^3`, which part is the mantissa and which is the exponent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**3.14** is the mantissa, the significant digits. **3** is the exponent, how far to move the decimal point."
+    }
+   ],
+   "front_md": "In `3140 = 3.14 x 10^3`, which part is the mantissa and which is the exponent?\n",
+   "back_md": "**3.14** is the mantissa, the significant digits. **3** is the exponent, how far to move the decimal point.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f8RJx25SVWGPM7wV",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give two reasons to use floating-point representation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It represents a **much wider range** of numbers than fixed-point using the same number of bits, and the binary point can **float**, giving good **precision** for fractional values."
+    }
+   ],
+   "front_md": "Give two reasons to use floating-point representation.\n",
+   "back_md": "It represents a **much wider range** of numbers than fixed-point using the same number of bits, and the binary point can **float**, giving good **precision** for fractional values.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6RtxpHjFJMSMGcYQ",
+   "card_type": "keyword_definition",
+   "order": 5,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **mantissa**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The mantissa holds the **significant bits** of the number. It is a **two's complement** number with the binary point **immediately after the leftmost bit**."
+    }
+   ],
+   "front_md": "Define **mantissa**.\n",
+   "back_md": "The mantissa holds the **significant bits** of the number. It is a **two's complement** number with the binary point **immediately after the leftmost bit**.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JvyG5CNnVk96Wnfd",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the mantissa, the binary point sits immediately after the <u>**                **</u> bit."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the mantissa, the binary point sits immediately after the **leftmost** bit."
+    }
+   ],
+   "front_md": "In the mantissa, the binary point sits immediately after the <u>**                **</u> bit.\n",
+   "back_md": "In the mantissa, the binary point sits immediately after the **leftmost** bit.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6vBvQP3yq2fRmwjj",
+   "card_type": "keyword_definition",
+   "order": 7,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **exponent**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The exponent is **how many places to move the binary point**, positive to move right and negative to move left. It is also stored in **two's complement**."
+    }
+   ],
+   "front_md": "Define **exponent**.\n",
+   "back_md": "The exponent is **how many places to move the binary point**, positive to move right and negative to move left. It is also stored in **two's complement**.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NW5zBRy2RHZbJnB5",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which parts of a floating-point number are stored in two's complement?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Both** the mantissa and the exponent."
+    }
+   ],
+   "front_md": "Which parts of a floating-point number are stored in two's complement?\n",
+   "back_md": "**Both** the mantissa and the exponent.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MhWr5rcfWs8VxhnY",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the leftmost bit of the mantissa act as?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **sign**: `0` means positive and `1` means negative."
+    }
+   ],
+   "front_md": "What does the leftmost bit of the mantissa act as?\n",
+   "back_md": "The **sign**: `0` means positive and `1` means negative.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sQMW4X8ftjqcYbdK",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Convert +6.25 to a 12-bit mantissa and a 4-bit exponent."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`6.25 = 110.01`, normalised to `0.11001 x 2^3`. Mantissa `**011001000000**`, exponent `**0011**`."
+    }
+   ],
+   "front_md": "Convert +6.25 to a 12-bit mantissa and a 4-bit exponent.\n",
+   "back_md": "`6.25 = 110.01`, normalised to `0.11001 x 2^3`. Mantissa `**011001000000**`, exponent `**0011**`.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8y5BQvBCtXG4VV7C",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the mantissa of a negative floating-point number?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out the **positive mantissa first**, then take its **two's complement** by flipping the bits and adding 1."
+    }
+   ],
+   "front_md": "How do you find the mantissa of a negative floating-point number?\n",
+   "back_md": "Work out the **positive mantissa first**, then take its **two's complement** by flipping the bits and adding 1.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6GSxzZQxRkxvK5nZ",
+   "card_type": "true_or_false",
+   "order": 12,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To make a floating-point number negative you just change the sign bit."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You must take the **two's complement of the whole positive mantissa**. Changing only the sign bit loses every mark on the conversion."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo make a floating-point number negative you just change the sign bit.\n",
+   "back_md": "**False.**\n\nYou must take the **two's complement of the whole positive mantissa**. Changing only the sign bit loses every mark on the conversion.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RrzSBHWnrBDWzV9M",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The 12-bit mantissa for +6.25 is `011001000000`."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the mantissa for -6.25?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Flip the bits to `100110111111`, then add 1, giving `**100111000000**`."
+    }
+   ],
+   "front_md": "The 12-bit mantissa for +6.25 is `011001000000`.\n\nWhat is the mantissa for -6.25?\n",
+   "back_md": "Flip the bits to `100110111111`, then add 1, giving `**100111000000**`.\n",
+   "spec_links": [
+    "spcpt_dMzQRprWM4d9tk5Z"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mjNPdPmXDNM7d76Y",
+   "card_type": "keyword_definition",
+   "order": 14,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **normalisation** of a floating-point number."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A floating-point number is normalised when the **first two bits of the mantissa are different**."
+    }
+   ],
+   "front_md": "Define **normalisation** of a floating-point number.\n",
+   "back_md": "A floating-point number is normalised when the **first two bits of the mantissa are different**.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_237hjGPTKNKQD7vp",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do the first two bits of a normalised number look like?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`01` for a **positive** number, and `10` for a **negative** number."
+    }
+   ],
+   "front_md": "What do the first two bits of a normalised number look like?\n",
+   "back_md": "`01` for a **positive** number, and `10` for a **negative** number.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vXYKJMMJfJgH4qGy",
+   "card_type": "true_or_false",
+   "order": 16,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A normalised negative number starts `11`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A normalised negative number starts `**10**`. If it starts `11` it is not normalised, or sign-and-magnitude has been used by mistake."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA normalised negative number starts `11`.\n",
+   "back_md": "**False.**\n\nA normalised negative number starts `**10**`. If it starts `11` it is not normalised, or sign-and-magnitude has been used by mistake.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_S2kxKwMB88nWshWM",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does normalising improve precision?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Removing **leading zeros** means the mantissa uses **all of its bits for significant figures**, giving the most accurate value possible for that number of bits."
+    }
+   ],
+   "front_md": "Why does normalising improve precision?\n",
+   "back_md": "Removing **leading zeros** means the mantissa uses **all of its bits for significant figures**, giving the most accurate value possible for that number of bits.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rJWGR3p6nyqTJJgJ",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does normalising give uniqueness?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each number has **exactly one normalised form**, which makes comparison and arithmetic simpler."
+    }
+   ],
+   "front_md": "Why does normalising give uniqueness?\n",
+   "back_md": "Each number has **exactly one normalised form**, which makes comparison and arithmetic simpler.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DZJRcmB9nd978PqH",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you adjust the exponent when normalising?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If the point moves **left**, **increase** the exponent. If the point moves **right**, **decrease** the exponent."
+    }
+   ],
+   "front_md": "How do you adjust the exponent when normalising?\n",
+   "back_md": "If the point moves **left**, **increase** the exponent. If the point moves **right**, **decrease** the exponent.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qd9dxNG4P4WcMR9b",
+   "card_type": "fill_in_the_blanks",
+   "order": 20,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When normalising, if the binary point moves left you <u>**                **</u> the exponent."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When normalising, if the binary point moves left you **increase** the exponent."
+    }
+   ],
+   "front_md": "When normalising, if the binary point moves left you <u>**                **</u> the exponent.\n",
+   "back_md": "When normalising, if the binary point moves left you **increase** the exponent.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_cCv4ttHsXFMznBzW",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Normalise the mantissa `0.0011` with exponent `+2`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Move the point **2 places right** so the mantissa becomes `0.1100`, and **decrease the exponent by 2** to `0`. The value is unchanged."
+    }
+   ],
+   "front_md": "Normalise the mantissa `0.0011` with exponent `+2`.\n",
+   "back_md": "Move the point **2 places right** so the mantissa becomes `0.1100`, and **decrease the exponent by 2** to `0`. The value is unchanged.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rkbc3SDGZXBv7Wh9",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_4DcXQgdcYVvg6Sgw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How should the normalised form be written for CIE?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As `0.xxxxx x 2^n`, **not** `1.xxxxx x 2^n`, which is the IEEE form."
+    }
+   ],
+   "front_md": "How should the normalised form be written for CIE?\n",
+   "back_md": "As `0.xxxxx x 2^n`, **not** `1.xxxxx x 2^n`, which is the IEEE form.\n",
+   "spec_links": [
+    "spcpt_VCDty8T35dnZj3yF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bmt87tsF5sP87yfJ",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first step in converting denary to floating-point binary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Convert the magnitude to binary**, both the integer part and the fractional part."
+    }
+   ],
+   "front_md": "What is the first step in converting denary to floating-point binary?\n",
+   "back_md": "**Convert the magnitude to binary**, both the integer part and the fractional part.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8GHyKqCkqH64cvQ3",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Convert 5.25 to binary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`5 = 101` and `0.25 = 0.01`, so `5.25 = 101.01`."
+    }
+   ],
+   "front_md": "Convert 5.25 to binary.\n",
+   "back_md": "`5 = 101` and `0.25 = 0.01`, so `5.25 = 101.01`.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R9jnf9rnYhd5H9WW",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the second step in converting denary to floating-point binary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Normalise** into the form `0.xxxxx x 2^n`, moving the binary point until the first two bits differ."
+    }
+   ],
+   "front_md": "What is the second step in converting denary to floating-point binary?\n",
+   "back_md": "**Normalise** into the form `0.xxxxx x 2^n`, moving the binary point until the first two bits differ.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VVYrPBgbGHmsvsZ9",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the number of places the binary point moves give you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **exponent**."
+    }
+   ],
+   "front_md": "What does the number of places the binary point moves give you?\n",
+   "back_md": "The **exponent**.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mJ65VXwszHhCXGhf",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Normalise `101.01`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`0.10101 x 2^3`"
+    }
+   ],
+   "front_md": "Normalise `101.01`.\n",
+   "back_md": "`0.10101 x 2^3`\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6n5xGYRRrykpVZHR",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you build the positive mantissa?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write `0`, then the **fraction bits**, then **pad with zeros on the right**."
+    }
+   ],
+   "front_md": "How do you build the positive mantissa?\n",
+   "back_md": "Write `0`, then the **fraction bits**, then **pad with zeros on the right**.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NJkXCWD4fC83JnnD",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give the 12-bit mantissa and 4-bit exponent for +5.25."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Mantissa `**010101000000**`, exponent `**0011**`."
+    }
+   ],
+   "front_md": "Give the 12-bit mantissa and 4-bit exponent for +5.25.\n",
+   "back_md": "Mantissa `**010101000000**`, exponent `**0011**`.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yGPYkcmkG8SyCzVf",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The exponent is converted to <u>**          **</u> complement in the required number of bits."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The exponent is converted to **two's** complement in the required number of bits."
+    }
+   ],
+   "front_md": "The exponent is converted to <u>**          **</u> complement in the required number of bits.\n",
+   "back_md": "The exponent is converted to **two's** complement in the required number of bits.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_74DV82ZvKj7PKs2K",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What extra step is needed if the number is negative?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take the **two's complement of the whole positive mantissa**, by flipping the bits and adding 1."
+    }
+   ],
+   "front_md": "What extra step is needed if the number is negative?\n",
+   "back_md": "Take the **two's complement of the whole positive mantissa**, by flipping the bits and adding 1.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fqHR2XNn48973NNT",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The 12-bit mantissa for +5.25 is `010101000000`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Give the mantissa for -5.25."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Flip the bits to `101010111111`, then add 1, giving `**101011000000**`."
+    }
+   ],
+   "front_md": "The 12-bit mantissa for +5.25 is `010101000000`.\n\nGive the mantissa for -5.25.\n",
+   "back_md": "Flip the bits to `101010111111`, then add 1, giving `**101011000000**`.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cTS9TPDxbVt6cRG7",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Does the exponent change when the number becomes negative?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**No.** The exponent is **unchanged**."
+    }
+   ],
+   "front_md": "Does the exponent change when the number becomes negative?\n",
+   "back_md": "**No.** The exponent is **unchanged**.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_72tkQYfCSfYjkJZk",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you check that a negative mantissa is normalised?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It should **begin **`**10**`."
+    }
+   ],
+   "front_md": "How can you check that a negative mantissa is normalised?\n",
+   "back_md": "It should **begin **`**10**`.\n",
+   "spec_links": [
+    "spcpt_NPkTzcxyQqKqymwn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gDVMkFzjNrxZBYMd",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first step in converting floating-point binary to denary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Read the exponent** and convert it from two's complement to denary."
+    }
+   ],
+   "front_md": "What is the first step in converting floating-point binary to denary?\n",
+   "back_md": "**Read the exponent** and convert it from two's complement to denary.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RfwkmMfRwwqvyhQz",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you tell the sign of a floating-point number?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Check the **first bit of the mantissa**: `0` means positive, `1` means negative."
+    }
+   ],
+   "front_md": "How do you tell the sign of a floating-point number?\n",
+   "back_md": "Check the **first bit of the mantissa**: `0` means positive, `1` means negative.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fqKn2pSg4rzk4t4T",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do you do if the mantissa is negative?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take its **two's complement** to find the **magnitude** of the fraction, then make the final answer negative."
+    }
+   ],
+   "front_md": "What do you do if the mantissa is negative?\n",
+   "back_md": "Take its **two's complement** to find the **magnitude** of the fraction, then make the final answer negative.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9jvFDTCzScJkS3gR",
+   "card_type": "fill_in_the_blanks",
+   "order": 15,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To convert a negative mantissa to its magnitude, flip the bits and add <u>**        **</u>."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To convert a negative mantissa to its magnitude, flip the bits and add **1**."
+    }
+   ],
+   "front_md": "To convert a negative mantissa to its magnitude, flip the bits and add <u>**        **</u>.\n",
+   "back_md": "To convert a negative mantissa to its magnitude, flip the bits and add **1**.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_9wVNf6N93yxCT8Gk",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you apply the exponent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Move the binary point**: right if the exponent is positive, left if it is negative."
+    }
+   ],
+   "front_md": "How do you apply the exponent?\n",
+   "back_md": "**Move the binary point**: right if the exponent is positive, left if it is negative.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G7TNGchrDRxyHYsb",
+   "card_type": "true_or_false",
+   "order": 17,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the mantissa is stored in two's complement."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "**Both** the mantissa and the exponent are stored in two's complement."
+    }
+   ],
+   "front_md": "**True or False?**\n\nOnly the mantissa is stored in two's complement.\n",
+   "back_md": "**False.**\n\n**Both** the mantissa and the exponent are stored in two's complement.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZhJ6VP2hNGHBw8NP",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Convert mantissa `010101000000`, exponent `0011` to denary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Exponent is `+3`. First bit is `0`, so positive. Fraction is `0.10101`, and `0.10101 x 2^3 = 101.01`, which is **+5.25**."
+    }
+   ],
+   "front_md": "Convert mantissa `010101000000`, exponent `0011` to denary.\n",
+   "back_md": "Exponent is `+3`. First bit is `0`, so positive. Fraction is `0.10101`, and `0.10101 x 2^3 = 101.01`, which is **+5.25**.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5kcjNp7pqBGFBPVy",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Convert mantissa `101011000000`, exponent `0011` to denary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "First bit is `1`, so negative. Two's complement gives `010101000000`, a fraction of `0.10101`. `0.10101 x 2^3 = 5.25`, so the answer is **-5.25**."
+    }
+   ],
+   "front_md": "Convert mantissa `101011000000`, exponent `0011` to denary.\n",
+   "back_md": "First bit is `1`, so negative. Two's complement gives `010101000000`, a fraction of `0.10101`. `0.10101 x 2^3 = 5.25`, so the answer is **-5.25**.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zR6z22Nx6PYhHvPm",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using the place-value check, what does the mantissa `1.01011` equal?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The leftmost bit carries a negative place value, so `-1 + 0.34375 = ``**-0.65625**`. With an exponent of 3 that gives `x 2^3 = -5.25`."
+    }
+   ],
+   "front_md": "Using the place-value check, what does the mantissa `1.01011` equal?\n",
+   "back_md": "The leftmost bit carries a negative place value, so `-1 + 0.34375 = ``**-0.65625**`. With an exponent of 3 that gives `x 2^3 = -5.25`.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q6ZWkq6yv4G2CBjr",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Convert 113.75 to binary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`1110001.11`"
+    }
+   ],
+   "front_md": "Convert 113.75 to binary.\n",
+   "back_md": "`1110001.11`\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xsg7dZYhczsxfBD4",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Normalise 113.75 and give the exponent."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`0.111000111 x 2^7`, so the binary point moves 7 places and the exponent is **7**."
+    }
+   ],
+   "front_md": "Normalise 113.75 and give the exponent.\n",
+   "back_md": "`0.111000111 x 2^7`, so the binary point moves 7 places and the exponent is **7**.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Tspfj8bRKhR6GxvH",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give 113.75 with a 10-bit mantissa and a 6-bit exponent."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Mantissa `**0111000111**`, exponent `**000111**`."
+    }
+   ],
+   "front_md": "Give 113.75 with a 10-bit mantissa and a 6-bit exponent.\n",
+   "back_md": "Mantissa `**0111000111**`, exponent `**000111**`.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_v59gjdMwrqxsFnJ3",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give 113.75 with an 8-bit mantissa and an 8-bit exponent."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Mantissa `**01110001**`, exponent `**00000111**`. The mantissa is **truncated** to 8 bits, losing precision."
+    }
+   ],
+   "front_md": "Give 113.75 with an 8-bit mantissa and an 8-bit exponent.\n",
+   "back_md": "Mantissa `**01110001**`, exponent `**00000111**`. The mantissa is **truncated** to 8 bits, losing precision.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XsXD7TWbxK24t5Vd",
+   "card_type": "true_or_false",
+   "order": 25,
+   "set_id": "flst_GTm6TdytsRh2dgFp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A shorter mantissa stores the same value just as accurately."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "With fewer bits the mantissa is **truncated**, which **loses precision**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA shorter mantissa stores the same value just as accurately.\n",
+   "back_md": "**False.**\n\nWith fewer bits the mantissa is **truncated**, which **loses precision**.\n",
+   "spec_links": [
+    "spcpt_VCY2SgXbSzFg7VCw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4fc3jVz6Nr2Xtm9x",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can real numbers not always be represented exactly in floating-point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Floating-point binary has a **limited number of bits** for the mantissa and exponent, so many numbers can only be **approximated**."
+    }
+   ],
+   "front_md": "Why can real numbers not always be represented exactly in floating-point?\n",
+   "back_md": "Floating-point binary has a **limited number of bits** for the mantissa and exponent, so many numbers can only be **approximated**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3v3kNtdczGX4WhfZ",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "All real numbers can be stored exactly in floating-point binary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Not all real numbers can be represented **exactly**, only **approximated**."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAll real numbers can be stored exactly in floating-point binary.\n",
+   "back_md": "**False.**\n\nNot all real numbers can be represented **exactly**, only **approximated**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KvKGHjPSgPcJD6fF",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Give an example of a decimal that cannot be represented precisely in binary."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**0.1**, which in binary is `0.000110011001100...` recurring."
+    }
+   ],
+   "front_md": "Give an example of a decimal that cannot be represented precisely in binary.\n",
+   "back_md": "**0.1**, which in binary is `0.000110011001100...` recurring.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g6M6nqH2ZQ8SWsJY",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens to a recurring binary value when memory is limited?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It must be **truncated or rounded**, which introduces **small errors**."
+    }
+   ],
+   "front_md": "What happens to a recurring binary value when memory is limited?\n",
+   "back_md": "It must be **truncated or rounded**, which introduces **small errors**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rFSZjHtwPtFbRVwJ",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **rounding error**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A rounding error is a **slight inaccuracy** caused when a real number **cannot be exactly represented in binary**."
+    }
+   ],
+   "front_md": "Define **rounding error**.\n",
+   "back_md": "A rounding error is a **slight inaccuracy** caused when a real number **cannot be exactly represented in binary**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2jHfD5QRgdNzNnzx",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the consequence of rounding errors in a long calculation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Calculations using approximated values may **accumulate errors**, so final results may be **slightly inaccurate**."
+    }
+   ],
+   "front_md": "What is the consequence of rounding errors in a long calculation?\n",
+   "back_md": "Calculations using approximated values may **accumulate errors**, so final results may be **slightly inaccurate**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_T8nzPxWgnnDDxfst",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **underflow**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Underflow occurs when a number is **too close to zero** to be stored in the available number of bits."
+    }
+   ],
+   "front_md": "Define **underflow**.\n",
+   "back_md": "Underflow occurs when a number is **too close to zero** to be stored in the available number of bits.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wWqpwWMqMbnsZXwv",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Underflow occurs when a number is too close to <u>**        **</u> to be stored."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Underflow occurs when a number is too close to **zero** to be stored."
+    }
+   ],
+   "front_md": "Underflow occurs when a number is too close to <u>**        **</u> to be stored.\n",
+   "back_md": "Underflow occurs when a number is too close to **zero** to be stored.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_sMTrfQ8frPt3MKxf",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What causes underflow, in terms of the exponent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **exponent is too negative** to be stored."
+    }
+   ],
+   "front_md": "What causes underflow, in terms of the exponent?\n",
+   "back_md": "The **exponent is too negative** to be stored.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ydNQpvmCyP8Z6V9R",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is a number stored as if underflow occurs?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is **stored as 0**, which is a loss of precision."
+    }
+   ],
+   "front_md": "What is a number stored as if underflow occurs?\n",
+   "back_md": "It is **stored as 0**, which is a loss of precision.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p8cDf3vjVvDwfKq4",
+   "card_type": "fill_in_the_blanks",
+   "order": 10,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A very small number such as 1.2 x 10^-40 causes <u>**                    **</u>, because its exponent is too negative to store."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A very small number such as 1.2 x 10^-40 causes **underflow**, because its exponent is too negative to store."
+    }
+   ],
+   "front_md": "A very small number such as 1.2 x 10^-40 causes <u>**                    **</u>, because its exponent is too negative to store.\n",
+   "back_md": "A very small number such as 1.2 x 10^-40 causes **underflow**, because its exponent is too negative to store.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_NCnNYkY8yTCFyRMJ",
+   "card_type": "keyword_definition",
+   "order": 11,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **overflow**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Overflow occurs when a number is **too large** to fit in the allocated bits for the exponent or mantissa."
+    }
+   ],
+   "front_md": "Define **overflow**.\n",
+   "back_md": "Overflow occurs when a number is **too large** to fit in the allocated bits for the exponent or mantissa.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ndp248FKtpPrqjRp",
+   "card_type": "question_and_answer",
+   "order": 12,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What causes overflow, in terms of the exponent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **exponent is too positive** to be stored."
+    }
+   ],
+   "front_md": "What causes overflow, in terms of the exponent?\n",
+   "back_md": "The **exponent is too positive** to be stored.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bZ29GjtPK84zSDyQ",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A calculation produces 1.2 x 10<sup>50, but the maximum representable number is 1.2 x 10</sup>38."
+    },
+    {
+     "type": "paragraph",
+     "md": "What has occurred?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Overflow**."
+    }
+   ],
+   "front_md": "A calculation produces 1.2 x 10<sup>50, but the maximum representable number is 1.2 x 10</sup>38.\n\nWhat has occurred?\n",
+   "back_md": "**Overflow**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JbQrJ4f9CgNQRBv6",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the consequences of overflow?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The program may **crash** or return an **infinity**, an **error**, or a **wraparound value**."
+    }
+   ],
+   "front_md": "What are the consequences of overflow?\n",
+   "back_md": "The program may **crash** or return an **infinity**, an **error**, or a **wraparound value**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KYfbfPffPzRZvMcn",
+   "card_type": "true_or_false",
+   "order": 15,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Underflow causes a program to crash."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Underflow stores the value as **0**, causing a **loss of precision**. It is **overflow** that may crash the program or return an error."
+    }
+   ],
+   "front_md": "**True or False?**\n\nUnderflow causes a program to crash.\n",
+   "back_md": "**False.**\n\nUnderflow stores the value as **0**, causing a **loss of precision**. It is **overflow** that may crash the program or return an error.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KM8SH4cvJBpjQpmD",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between underflow and overflow?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Underflow** is a number **too small to store**, which becomes **0**. **Overflow** is a number **too large to store**, giving an incorrect result or a program error."
+    }
+   ],
+   "front_md": "What is the difference between underflow and overflow?\n",
+   "back_md": "**Underflow** is a number **too small to store**, which becomes **0**. **Overflow** is a number **too large to store**, giving an incorrect result or a program error.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_csN84GkBtt38vJJW",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_ck9VX8r74qCtFjdV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where are underflow and overflow especially dangerous?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Underflow can affect accuracy in **scientific or financial calculations**. Overflow is especially dangerous in **loops or financial applications**."
+    }
+   ],
+   "front_md": "Where are underflow and overflow especially dangerous?\n",
+   "back_md": "Underflow can affect accuracy in **scientific or financial calculations**. Overflow is especially dangerous in **loops or financial applications**.\n",
+   "spec_links": [
+    "spcpt_CBTy9sh2hqRFjqVq"
+   ],
+   "flags": []
+  }
+ ]
+}

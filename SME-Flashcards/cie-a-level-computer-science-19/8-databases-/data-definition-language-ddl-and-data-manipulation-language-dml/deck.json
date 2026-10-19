@@ -1,0 +1,725 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-17T01:18:40Z",
+ "course_slug": "cie-a-level-computer-science-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/flashcards/8-databases-/data-definition-language-ddl-and-data-manipulation-language-dml/",
+  "section_slug": "8-databases-",
+  "section_name": "8. Databases",
+  "topic_slug": "data-definition-language-ddl-and-data-manipulation-language-dml",
+  "title": "Data Definition Language (DDL) & Data Manipulation Language (DML)",
+  "order": 2
+ },
+ "card_count": 28,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 22,
+  "true_or_false": 2,
+  "fill_in_the_blanks": 2
+ },
+ "spec_link_cards": 28,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_gJPvpSqh8BfKMrGm",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Data Definition Language (DDL)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "DDL is used to **build and manage the structure** of a relational database, by creating and modifying tables, fields, indexes and relationships."
+    }
+   ],
+   "front_md": "Define **Data Definition Language (DDL)**.\n",
+   "back_md": "DDL is used to **build and manage the structure** of a relational database, by creating and modifying tables, fields, indexes and relationships.\n",
+   "spec_links": [
+    "spcpt_4sNNXJzkJ6JY7QFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hwsWn4yY6PTxq2Wt",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **Data Manipulation Language (DML)**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "DML is used to **manage the data stored within** the database structures created by DDL, dealing with **adding, updating, deleting and retrieving** data."
+    }
+   ],
+   "front_md": "Define **Data Manipulation Language (DML)**.\n",
+   "back_md": "DML is used to **manage the data stored within** the database structures created by DDL, dealing with **adding, updating, deleting and retrieving** data.\n",
+   "spec_links": [
+    "spcpt_4sNNXJzkJ6JY7QFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tvcXXGbVqW34xmTS",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between DDL and DML?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**DDL structures** the database, whereas **DML maintains the contents** of the database."
+    }
+   ],
+   "front_md": "What is the difference between DDL and DML?\n",
+   "back_md": "**DDL structures** the database, whereas **DML maintains the contents** of the database.\n",
+   "spec_links": [
+    "spcpt_4sNNXJzkJ6JY7QFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9mVJ8Ht43brJ2TZK",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What syntax do both DDL and DML use?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both DDL and DML use **SQL syntax** to interact with the database."
+    }
+   ],
+   "front_md": "What syntax do both DDL and DML use?\n",
+   "back_md": "Both DDL and DML use **SQL syntax** to interact with the database.\n",
+   "spec_links": [
+    "spcpt_4sNNXJzkJ6JY7QFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kRjjKjCzghWfM2ZV",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A DBMS needs a different language for DDL and for DML."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Most modern DBMSs use **SQL** to support **both** DDL and DML operations."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA DBMS needs a different language for DDL and for DML.\n",
+   "back_md": "**False.**\n\nMost modern DBMSs use **SQL** to support **both** DDL and DML operations.\n",
+   "spec_links": [
+    "spcpt_4sNNXJzkJ6JY7QFT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TGwYrgbRxtm5swJc",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "DDL defines how data is <u>**            **</u> by creating and modifying tables, fields, indexes and relationships."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "DDL defines how data is **stored** by creating and modifying tables, fields, indexes and relationships."
+    }
+   ],
+   "front_md": "DDL defines how data is <u>**            **</u> by creating and modifying tables, fields, indexes and relationships.\n",
+   "back_md": "DDL defines how data is **stored** by creating and modifying tables, fields, indexes and relationships.\n",
+   "spec_links": [
+    "spcpt_4sNNXJzkJ6JY7QFT"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_8q2xdwNSmGNSrTVM",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `CREATE DATABASE` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`CREATE DATABASE` **creates a new database**."
+    }
+   ],
+   "front_md": "What does `CREATE DATABASE` do?\n",
+   "back_md": "`CREATE DATABASE` **creates a new database**.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7fwh8NWV3dJWvKBp",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `CREATE TABLE` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`CREATE TABLE` **creates a new table** with specified fields and data types."
+    }
+   ],
+   "front_md": "What does `CREATE TABLE` do?\n",
+   "back_md": "`CREATE TABLE` **creates a new table** with specified fields and data types.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BbKBNwNf2wKpPdJ9",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `ALTER TABLE` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`ALTER TABLE` **changes an existing table**, for example to add or remove fields."
+    }
+   ],
+   "front_md": "What does `ALTER TABLE` do?\n",
+   "back_md": "`ALTER TABLE` **changes an existing table**, for example to add or remove fields.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NPNSzdnT3jqD2mJw",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Name the seven data types available for attributes."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`CHARACTER`, `VARCHAR(n)`, `BOOLEAN`, `INTEGER`, `REAL`, `DATE` and `TIME`."
+    }
+   ],
+   "front_md": "Name the seven data types available for attributes.\n",
+   "back_md": "`CHARACTER`, `VARCHAR(n)`, `BOOLEAN`, `INTEGER`, `REAL`, `DATE` and `TIME`.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W9TwxtMwzXXrnKYc",
+   "card_type": "question_and_answer",
+   "order": 10,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between `CHARACTER` and `VARCHAR(n)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`CHARACTER` stores **fixed-length text**, whereas `VARCHAR(n)` stores **variable-length text** up to a maximum length of n."
+    }
+   ],
+   "front_md": "What is the difference between `CHARACTER` and `VARCHAR(n)`?\n",
+   "back_md": "`CHARACTER` stores **fixed-length text**, whereas `VARCHAR(n)` stores **variable-length text** up to a maximum length of n.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4XTCNX2QscPRQXY7",
+   "card_type": "question_and_answer",
+   "order": 11,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which data type stores whole numbers, and which stores decimal numbers?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`INTEGER` stores **whole numbers** and `REAL` stores **decimal numbers**."
+    }
+   ],
+   "front_md": "Which data type stores whole numbers, and which stores decimal numbers?\n",
+   "back_md": "`INTEGER` stores **whole numbers** and `REAL` stores **decimal numbers**.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w3jC6ZzdPFhpdQYj",
+   "card_type": "fill_in_the_blanks",
+   "order": 12,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The data type <u>**              **</u> stores a True or False value."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The data type **BOOLEAN** stores a True or False value."
+    }
+   ],
+   "front_md": "The data type <u>**              **</u> stores a True or False value.\n",
+   "back_md": "The data type **BOOLEAN** stores a True or False value.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": [
+    "blank_answer_mismatch"
+   ],
+   "blanks": {
+    "count": 1,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_xrvvZDmp7MJyGDrQ",
+   "card_type": "question_and_answer",
+   "order": 13,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `PRIMARY KEY (field)` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sets a field as the **primary key**, the unique identifier for records in that table."
+    }
+   ],
+   "front_md": "What does `PRIMARY KEY (field)` do?\n",
+   "back_md": "It sets a field as the **primary key**, the unique identifier for records in that table.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Vx36FJkg2KhQrqtY",
+   "card_type": "question_and_answer",
+   "order": 14,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which commands can a `PRIMARY KEY` clause be used inside?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It can be used inside a `CREATE TABLE` command or an `ALTER TABLE` command."
+    }
+   ],
+   "front_md": "Which commands can a `PRIMARY KEY` clause be used inside?\n",
+   "back_md": "It can be used inside a `CREATE TABLE` command or an `ALTER TABLE` command.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5Mk2VwPFvKyS4tT3",
+   "card_type": "question_and_answer",
+   "order": 15,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `FOREIGN KEY (field) REFERENCES Table(Field)` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It sets up a **foreign key relationship between two tables**."
+    }
+   ],
+   "front_md": "What does `FOREIGN KEY (field) REFERENCES Table(Field)` do?\n",
+   "back_md": "It sets up a **foreign key relationship between two tables**.\n",
+   "spec_links": [
+    "spcpt_YvhTymvGYBsBHZVH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VX3sCWhrfgYNS9NC",
+   "card_type": "question_and_answer",
+   "order": 16,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `SELECT ... FROM` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`SELECT ... FROM` **retrieves specific columns** from a table."
+    }
+   ],
+   "front_md": "What does `SELECT ... FROM` do?\n",
+   "back_md": "`SELECT ... FROM` **retrieves specific columns** from a table.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cNK5NWgYB9QDxXyP",
+   "card_type": "question_and_answer",
+   "order": 17,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `WHERE` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`WHERE` **filters the results based on a condition**."
+    }
+   ],
+   "front_md": "What does `WHERE` do?\n",
+   "back_md": "`WHERE` **filters the results based on a condition**.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BG8KHB5C8TdjmrbM",
+   "card_type": "question_and_answer",
+   "order": 18,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write an SQL statement that lists all students older than 16 from a `Students` table."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`SELECT * FROM Students WHERE Age > 16`"
+    }
+   ],
+   "front_md": "Write an SQL statement that lists all students older than 16 from a `Students` table.\n",
+   "back_md": "`SELECT * FROM Students WHERE Age > 16`\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JKWv7rCTS6KSntj3",
+   "card_type": "question_and_answer",
+   "order": 19,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `ORDER BY` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`ORDER BY` **sorts the results** into ascending or descending order."
+    }
+   ],
+   "front_md": "What does `ORDER BY` do?\n",
+   "back_md": "`ORDER BY` **sorts the results** into ascending or descending order.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sP2tqFV5fPg58KZ2",
+   "card_type": "question_and_answer",
+   "order": 20,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `GROUP BY` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`GROUP BY` **groups rows that have the same value** in specified columns."
+    }
+   ],
+   "front_md": "What does `GROUP BY` do?\n",
+   "back_md": "`GROUP BY` **groups rows that have the same value** in specified columns.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zNWRd8rF8Ztqj8WB",
+   "card_type": "question_and_answer",
+   "order": 21,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `INNER JOIN` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`INNER JOIN` **combines rows from two tables where there is a matching key**."
+    }
+   ],
+   "front_md": "What does `INNER JOIN` do?\n",
+   "back_md": "`INNER JOIN` **combines rows from two tables where there is a matching key**.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WnyV6sM8swxFVWPk",
+   "card_type": "question_and_answer",
+   "order": 22,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between `SUM()` and `COUNT()`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`SUM()` calculates the **total of a numeric column**, whereas `COUNT()` counts the **number of rows**, or the non-null entries in a column."
+    }
+   ],
+   "front_md": "What is the difference between `SUM()` and `COUNT()`?\n",
+   "back_md": "`SUM()` calculates the **total of a numeric column**, whereas `COUNT()` counts the **number of rows**, or the non-null entries in a column.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vFYYrh2Gdz4XP6Ch",
+   "card_type": "question_and_answer",
+   "order": 23,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `AVG()` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`AVG()` calculates the **average value of a numeric column**."
+    }
+   ],
+   "front_md": "What does `AVG()` do?\n",
+   "back_md": "`AVG()` calculates the **average value of a numeric column**.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8Qfxrh4GJkZX24bp",
+   "card_type": "question_and_answer",
+   "order": 24,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `INSERT INTO` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`INSERT INTO` **adds a new record** to a table."
+    }
+   ],
+   "front_md": "What does `INSERT INTO` do?\n",
+   "back_md": "`INSERT INTO` **adds a new record** to a table.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gpStnfWpThWNB2f9",
+   "card_type": "question_and_answer",
+   "order": 25,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `DELETE FROM` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`DELETE FROM` **removes records** from a table."
+    }
+   ],
+   "front_md": "What does `DELETE FROM` do?\n",
+   "back_md": "`DELETE FROM` **removes records** from a table.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2GXTmY5jbYyrDtjZ",
+   "card_type": "question_and_answer",
+   "order": 26,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `UPDATE` do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`UPDATE` **modifies existing data** in a table."
+    }
+   ],
+   "front_md": "What does `UPDATE` do?\n",
+   "back_md": "`UPDATE` **modifies existing data** in a table.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_txtmW5sp64xn9C3y",
+   "card_type": "true_or_false",
+   "order": 27,
+   "set_id": "flst_QXd5TfCm6bxr7XXz",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`UPDATE` is a DDL command."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`UPDATE` is a **DML** command, because it changes the **data** in a table rather than the structure of the table."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`UPDATE` is a DDL command.\n",
+   "back_md": "**False.**\n\n`UPDATE` is a **DML** command, because it changes the **data** in a table rather than the structure of the table.\n",
+   "spec_links": [
+    "spcpt_bsXwjxYjByd2Drmb"
+   ],
+   "flags": []
+  }
+ ]
+}

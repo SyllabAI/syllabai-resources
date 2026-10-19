@@ -1,0 +1,1349 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:28Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/integration/further-integration/",
+  "section_slug": "integration",
+  "section_name": "Integration",
+  "topic_slug": "further-integration",
+  "title": "Further Integration",
+  "order": 0
+ },
+ "card_count": 43,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 29,
+  "true_or_false": 8,
+  "fill_in_the_blanks": 4
+ },
+ "spec_link_cards": 43,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_GNpzPmdj4cJwBjJm",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_P2GZg3bhjkQdrGMc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **integration by substitution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Replacing part of an integral with a single new variable $u$, so that an awkward integral turns into one you can actually do."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the reverse chain rule made explicit, for cases where spotting it directly would be too hard."
+    }
+   ],
+   "front_md": "Define **integration by substitution**.\n",
+   "back_md": "Replacing part of an integral with a single new variable $u$, so that an awkward integral turns into one you can actually do.\n\nIt is the reverse chain rule made explicit, for cases where spotting it directly would be too hard.\n",
+   "spec_links": [
+    "spcpt_Mn93R9Cd6pxFDHgQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Sr2Hz968vCTX7TVh",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_P2GZg3bhjkQdrGMc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the substitution is not given, which part of the integral do you replace?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **'second' function**, the one tucked inside the main one, rather than the main function itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "In `\\int x \\left(x^{2} + 1\\right)^{5} \\text{d} x` that means taking $u = x^{2} + 1$, the expression sitting inside the power."
+    }
+   ],
+   "front_md": "When the substitution is not given, which part of the integral do you replace?\n",
+   "back_md": "The **'second' function**, the one tucked inside the main one, rather than the main function itself.\n\nIn `\\int x \\left(x^{2} + 1\\right)^{5} \\text{d} x` that means taking $u = x^{2} + 1$, the expression sitting inside the power.\n",
+   "spec_links": [
+    "spcpt_Mn93R9Cd6pxFDHgQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BcHrZfR3fWW939Jn",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_P2GZg3bhjkQdrGMc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a definite integral, the limits stay the same after a substitution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The limits are values of $x$, so once the integral is written in terms of $u$ they have to be converted using the substitution itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "Converting them saves having to turn the answer back into $x$ at the end."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a definite integral, the limits stay the same after a substitution.\n",
+   "back_md": "**False.**\n\nThe limits are values of $x$, so once the integral is written in terms of $u$ they have to be converted using the substitution itself.\n\nConverting them saves having to turn the answer back into $x$ at the end.\n",
+   "spec_links": [
+    "spcpt_Mn93R9Cd6pxFDHgQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pnQbgv6NF6nT6cgd",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_P2GZg3bhjkQdrGMc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You have chosen $u = x^{2} + 1$. How do you deal with the $\\text{d} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate the substitution to get $\\frac{\\text{d}u}{\\text{d}x} = 2 x$, then treat that like a fraction to give $\\text{d} u = 2 x \\text{d} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $\\text{d} x$ has to be replaced along with everything else, since nothing in $x$ may survive into the new integral."
+    }
+   ],
+   "front_md": "You have chosen $u = x^{2} + 1$. How do you deal with the $\\text{d} x$?\n",
+   "back_md": "Differentiate the substitution to get $\\frac{\\text{d}u}{\\text{d}x} = 2 x$, then treat that like a fraction to give $\\text{d} u = 2 x \\text{d} x$.\n\nThe $\\text{d} x$ has to be replaced along with everything else, since nothing in $x$ may survive into the new integral.\n",
+   "spec_links": [
+    "spcpt_Mn93R9Cd6pxFDHgQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CN2SfDp4x9bwY7jZ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_P2GZg3bhjkQdrGMc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you finish an **indefinite** integral done by substitution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Integrate in terms of $u$, then substitute $x$ back in so that the answer is a function of $x$ again."
+    },
+    {
+     "type": "paragraph",
+     "md": "The constant of integration is added as usual once that is done."
+    }
+   ],
+   "front_md": "How do you finish an **indefinite** integral done by substitution?\n",
+   "back_md": "Integrate in terms of $u$, then substitute $x$ back in so that the answer is a function of $x$ again.\n\nThe constant of integration is added as usual once that is done.\n",
+   "spec_links": [
+    "spcpt_Mn93R9Cd6pxFDHgQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NdnKC5kCP9hHkchc",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_P2GZg3bhjkQdrGMc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does integration by substitution work?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it undoes the **chain rule**, which is what produced the awkward integrand in the first place."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating a function of a function leaves the inner function's derivative multiplying the outside, and substitution strips that structure back off."
+    }
+   ],
+   "front_md": "Why does integration by substitution work?\n",
+   "back_md": "Because it undoes the **chain rule**, which is what produced the awkward integrand in the first place.\n\nDifferentiating a function of a function leaves the inner function's derivative multiplying the outside, and substitution strips that structure back off.\n",
+   "spec_links": [
+    "spcpt_Mn93R9Cd6pxFDHgQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NdSXvpqmXZqzftpH",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_xbTggYYdq3vWfMZV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is different about a harder substitution question?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The substitution is **given to you**, because it is not one you would be expected to spot."
+    },
+    {
+     "type": "paragraph",
+     "md": "The method that follows is exactly the same as before; it is the algebra in between that gets heavier."
+    }
+   ],
+   "front_md": "What is different about a harder substitution question?\n",
+   "back_md": "The substitution is **given to you**, because it is not one you would be expected to spot.\n\nThe method that follows is exactly the same as before; it is the algebra in between that gets heavier.\n",
+   "spec_links": [
+    "spcpt_XhXVThpfcZ9CPFM8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VjRg94mV9D5PzhKw",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_xbTggYYdq3vWfMZV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are given the substitution $u = \\sqrt{x+1}$. How do you get $\\text{d} x$ in terms of $\\text{d} u$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange the substitution first, then differentiate: squaring gives $x = u^{2} - 1$, so $\\frac{\\text{d}x}{\\text{d}u} = 2 u$ and $\\text{d} x = 2 u \\text{d} u$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranging before differentiating is usually easier than differentiating a root as it stands."
+    }
+   ],
+   "front_md": "You are given the substitution $u = \\sqrt{x+1}$. How do you get $\\text{d} x$ in terms of $\\text{d} u$?\n",
+   "back_md": "Rearrange the substitution first, then differentiate: squaring gives $x = u^{2} - 1$, so $\\frac{\\text{d}x}{\\text{d}u} = 2 u$ and $\\text{d} x = 2 u \\text{d} u$.\n\nRearranging before differentiating is usually easier than differentiating a root as it stands.\n",
+   "spec_links": [
+    "spcpt_XhXVThpfcZ9CPFM8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8x4k2Jr2qjzQr7B9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_xbTggYYdq3vWfMZV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it useful to rearrange a given substitution to make $x$ the subject?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the integrand usually contains $x$ terms that are not part of the obvious swap, and those have to be converted too."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $u = \\sqrt{x+1}$, rearranging to $x = u^{2} - 1$ gives a ready replacement for every one of them."
+    }
+   ],
+   "front_md": "Why is it useful to rearrange a given substitution to make $x$ the subject?\n",
+   "back_md": "Because the integrand usually contains $x$ terms that are not part of the obvious swap, and those have to be converted too.\n\nWith $u = \\sqrt{x+1}$, rearranging to $x = u^{2} - 1$ gives a ready replacement for every one of them.\n",
+   "spec_links": [
+    "spcpt_XhXVThpfcZ9CPFM8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7Y6tMd8Z3vzYV8Kg",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_xbTggYYdq3vWfMZV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Being given the substitution makes the question easier than having to find it yourself."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The substitution is given precisely because it is not one you would be expected to find, and the algebra that follows it is heavier than in a standard substitution question."
+    },
+    {
+     "type": "paragraph",
+     "md": "What you are handed removes one difficulty and signals another."
+    }
+   ],
+   "front_md": "**True or False?**\n\nBeing given the substitution makes the question easier than having to find it yourself.\n",
+   "back_md": "**False.**\n\nThe substitution is given precisely because it is not one you would be expected to find, and the algebra that follows it is heavier than in a standard substitution question.\n\nWhat you are handed removes one difficulty and signals another.\n",
+   "spec_links": [
+    "spcpt_XhXVThpfcZ9CPFM8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RcypWq3wvsKcc729",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_xbTggYYdq3vWfMZV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you know a harder substitution has been carried out correctly?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The integral should contain **only** $u$ and $\\text{d} u$, with no $x$ left anywhere, and it should be something you can actually integrate."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it is no simpler than what you started with, the substitution has been applied wrongly rather than chosen wrongly, since it was chosen for you."
+    }
+   ],
+   "front_md": "How do you know a harder substitution has been carried out correctly?\n",
+   "back_md": "The integral should contain **only** $u$ and $\\text{d} u$, with no $x$ left anywhere, and it should be something you can actually integrate.\n\nIf it is no simpler than what you started with, the substitution has been applied wrongly rather than chosen wrongly, since it was chosen for you.\n",
+   "spec_links": [
+    "spcpt_XhXVThpfcZ9CPFM8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yP8mf437dQmBhVS6",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_98xqKb4SpKHNFnTM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the integration by parts formula:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int u \\frac{\\text{d} v}{\\text{d} x} \\text{d} x = u v - \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int u \\frac{\\text{d} v}{\\text{d} x} \\text{d} x = u v - \\int v \\frac{\\text{d} u}{\\text{d} x} \\text{d} x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Note that the product being integrated is made from $u$ and $\\frac{\\text{d}v}{\\text{d}x}$, not from $u$ and $v$."
+    }
+   ],
+   "front_md": "Complete the integration by parts formula:\n\n`\\int u \\frac{\\text{d} v}{\\text{d} x} \\text{d} x = u v - \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n`\\int u \\frac{\\text{d} v}{\\text{d} x} \\text{d} x = u v - \\int v \\frac{\\text{d} u}{\\text{d} x} \\text{d} x`\n\nNote that the product being integrated is made from $u$ and $\\frac{\\text{d}v}{\\text{d}x}$, not from $u$ and $v$.\n",
+   "spec_links": [
+    "spcpt_ysNvB269Jc4fKjT3"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_3xBMxJthzs8cMN66",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_98xqKb4SpKHNFnTM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which differentiation rule does integration by parts reverse?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **product rule**, which is why it is the method for integrating a product of two functions."
+    },
+    {
+     "type": "paragraph",
+     "md": "That makes it the counterpart of the reverse chain rule, which undoes the chain rule instead."
+    }
+   ],
+   "front_md": "Which differentiation rule does integration by parts reverse?\n",
+   "back_md": "The **product rule**, which is why it is the method for integrating a product of two functions.\n\nThat makes it the counterpart of the reverse chain rule, which undoes the chain rule instead.\n",
+   "spec_links": [
+    "spcpt_ysNvB269Jc4fKjT3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qq5dVvdKHQBzdPtP",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_98xqKb4SpKHNFnTM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you choose $u$ and $\\frac{\\text{d}v}{\\text{d}x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take $u$ to be the part that becomes **simpler** when differentiated, and $\\frac{\\text{d}v}{\\text{d}x}$ to be a part you can integrate easily."
+    },
+    {
+     "type": "paragraph",
+     "md": "No rule always works, so if the second integral comes out harder than the first, swap the two choices over and start again."
+    }
+   ],
+   "front_md": "How do you choose $u$ and $\\frac{\\text{d}v}{\\text{d}x}$?\n",
+   "back_md": "Take $u$ to be the part that becomes **simpler** when differentiated, and $\\frac{\\text{d}v}{\\text{d}x}$ to be a part you can integrate easily.\n\nNo rule always works, so if the second integral comes out harder than the first, swap the two choices over and start again.\n",
+   "spec_links": [
+    "spcpt_ysNvB269Jc4fKjT3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WVhY2fbRvQfTPcgb",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_98xqKb4SpKHNFnTM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are $\\text{e}^{x}$ and $\\mathrm{sin} x$ awkward choices for $u$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because they **cycle**: differentiating them repeatedly never makes them any simpler."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{e}^{x}$ returns to itself every time, and $\\mathrm{sin} x$ runs through $\\mathrm{cos} x$, $- \\mathrm{sin} x$ and $- \\mathrm{cos} x$ before coming back."
+    }
+   ],
+   "front_md": "Why are $\\text{e}^{x}$ and $\\mathrm{sin} x$ awkward choices for $u$?\n",
+   "back_md": "Because they **cycle**: differentiating them repeatedly never makes them any simpler.\n\n$\\text{e}^{x}$ returns to itself every time, and $\\mathrm{sin} x$ runs through $\\mathrm{cos} x$, $- \\mathrm{sin} x$ and $- \\mathrm{cos} x$ before coming back.\n",
+   "spec_links": [
+    "spcpt_ysNvB269Jc4fKjT3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KcpjVyBTMNvRtdsH",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_98xqKb4SpKHNFnTM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate $\\mathrm{ln} x$, which is not a product at all?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write it as $1 \\times \\mathrm{ln} x$, then take $u = \\mathrm{ln} x$ and $\\frac{\\text{d}v}{\\text{d}x} = 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `x \\ln x - \\int x \\times \\frac{1}{x} \\text{d} x = x \\ln x - x + c`."
+    }
+   ],
+   "front_md": "How do you integrate $\\mathrm{ln} x$, which is not a product at all?\n",
+   "back_md": "Write it as $1 \\times \\mathrm{ln} x$, then take $u = \\mathrm{ln} x$ and $\\frac{\\text{d}v}{\\text{d}x} = 1$.\n\nThat gives `x \\ln x - \\int x \\times \\frac{1}{x} \\text{d} x = x \\ln x - x + c`.\n",
+   "spec_links": [
+    "spcpt_ysNvB269Jc4fKjT3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WkWp4GwJVbMgspqr",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_98xqKb4SpKHNFnTM",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integration by parts can be applied more than once in the same question."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the second integral is still a product, apply the formula to that as well."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is rare to need it more than twice, so a third application that still does not finish usually means something went wrong earlier."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIntegration by parts can be applied more than once in the same question.\n",
+   "back_md": "**True.**\n\nIf the second integral is still a product, apply the formula to that as well.\n\nIt is rare to need it more than twice, so a third application that still does not finish usually means something went wrong earlier.\n",
+   "spec_links": [
+    "spcpt_ysNvB269Jc4fKjT3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d34hqDBqVfKwNgF8",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_tJJ5kM68TSn4HqC4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When should you integrate using partial fractions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the integrand is a fraction whose denominator is degree 2 or more and **factorises** into linear factors."
+    },
+    {
+     "type": "paragraph",
+     "md": "Splitting it turns one integral you cannot do into two or three that you can."
+    }
+   ],
+   "front_md": "When should you integrate using partial fractions?\n",
+   "back_md": "When the integrand is a fraction whose denominator is degree 2 or more and **factorises** into linear factors.\n\nSplitting it turns one integral you cannot do into two or three that you can.\n",
+   "spec_links": [
+    "spcpt_ZFbY6XYPkJtMsk93"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m6Y7rcT5jTqJmcX3",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_tJJ5kM68TSn4HqC4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does integrating partial fractions usually give logarithms?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because each piece has a **linear** denominator, which puts it in the `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}` form up to a constant."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each one therefore integrates to $\\mathrm{ln}$ of its own denominator."
+    }
+   ],
+   "front_md": "Why does integrating partial fractions usually give logarithms?\n",
+   "back_md": "Because each piece has a **linear** denominator, which puts it in the `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}` form up to a constant.\n\nEach one therefore integrates to $\\mathrm{ln}$ of its own denominator.\n",
+   "spec_links": [
+    "spcpt_ZFbY6XYPkJtMsk93"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GZkzkNtnGYDtccRg",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_tJJ5kM68TSn4HqC4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Integrate `\\frac{5}{\\left(x - 3\\right) \\left(x + 2\\right)}`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split it into $\\frac{1}{x-3} - \\frac{1}{x+2}$, then integrate each piece separately."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `\\ln \\left|x - 3\\right| - \\ln \\left|x + 2\\right| + c`, which tidies to `\\ln \\left|\\frac{x - 3}{x + 2}\\right| + c`."
+    }
+   ],
+   "front_md": "Integrate `\\frac{5}{\\left(x - 3\\right) \\left(x + 2\\right)}`.\n",
+   "back_md": "Split it into $\\frac{1}{x-3} - \\frac{1}{x+2}$, then integrate each piece separately.\n\nThat gives `\\ln \\left|x - 3\\right| - \\ln \\left|x + 2\\right| + c`, which tidies to `\\ln \\left|\\frac{x - 3}{x + 2}\\right| + c`.\n",
+   "spec_links": [
+    "spcpt_ZFbY6XYPkJtMsk93"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_W5WxZ72t2nQRY4S6",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_tJJ5kM68TSn4HqC4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate a partial fraction such as $\\frac{3}{2x+1}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Adjust for the coefficient of $x$: the denominator differentiates to $2$, so the answer is `\\frac{3}{2} \\ln \\left|2 x + 1\\right| + c`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dropping that factor is the commonest slip once the splitting has been done correctly."
+    }
+   ],
+   "front_md": "How do you integrate a partial fraction such as $\\frac{3}{2x+1}$?\n",
+   "back_md": "Adjust for the coefficient of $x$: the denominator differentiates to $2$, so the answer is `\\frac{3}{2} \\ln \\left|2 x + 1\\right| + c`.\n\nDropping that factor is the commonest slip once the splitting has been done correctly.\n",
+   "spec_links": [
+    "spcpt_ZFbY6XYPkJtMsk93"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nbsjgX4sFvF7dysX",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_tJJ5kM68TSn4HqC4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Any fraction with a quadratic denominator can be integrated using partial fractions."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The denominator has to **factorise** into linear factors first."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{1}{x^{2}+1}$ does not split at all, and it integrates to an inverse trigonometric function instead, but that is a method beyond this course."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAny fraction with a quadratic denominator can be integrated using partial fractions.\n",
+   "back_md": "**False.**\n\nThe denominator has to **factorise** into linear factors first.\n\n$\\frac{1}{x^{2}+1}$ does not split at all, and it integrates to an inverse trigonometric function instead, but that is a method beyond this course.\n",
+   "spec_links": [
+    "spcpt_ZFbY6XYPkJtMsk93"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jjTrDdFgBMFqjtwp",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_DjdrwVNPZFJWFPcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **solid of revolution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The three-dimensional shape formed when an area bounded by a curve is rotated $360 ^{\\circ}$ about an axis."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its **volume of revolution** is simply the volume of that shape."
+    }
+   ],
+   "front_md": "Define **solid of revolution**.\n",
+   "back_md": "The three-dimensional shape formed when an area bounded by a curve is rotated $360 ^{\\circ}$ about an axis.\n\nIts **volume of revolution** is simply the volume of that shape.\n",
+   "spec_links": [
+    "spcpt_ds4XvRtRsX2jTn7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gxJMTXPkGpBtcF2f",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_DjdrwVNPZFJWFPcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for a volume of revolution about the $x$-axis:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{a}^{b} \\_\\_\\_\\_\\_\\_ \\text{d} x`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{a}^{b} y^{2} \\text{d} x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Remember that $y$ is a function of $x$, so once it is substituted in everything is in terms of $x$."
+    }
+   ],
+   "front_md": "Complete the formula for a volume of revolution about the $x$-axis:\n\n`V = \\pi \\int_{a}^{b} \\_\\_\\_\\_\\_\\_ \\text{d} x`\n",
+   "back_md": "The completed formula is:\n\n`V = \\pi \\int_{a}^{b} y^{2} \\text{d} x`\n\nRemember that $y$ is a function of $x$, so once it is substituted in everything is in terms of $x$.\n",
+   "spec_links": [
+    "spcpt_ds4XvRtRsX2jTn7N"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kfJYhyYPqfZS4csq",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_DjdrwVNPZFJWFPcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Volume is three-dimensional, so why does the formula only use $y^{2}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because rotating a single point about the axis gives a **circle** of radius $y$, whose area is $π y^{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integration then stacks up all those circular slices between $a$ and $b$, and that is what supplies the third dimension."
+    }
+   ],
+   "front_md": "Volume is three-dimensional, so why does the formula only use $y^{2}$?\n",
+   "back_md": "Because rotating a single point about the axis gives a **circle** of radius $y$, whose area is $π y^{2}$.\n\nThe integration then stacks up all those circular slices between $a$ and $b$, and that is what supplies the third dimension.\n",
+   "spec_links": [
+    "spcpt_ds4XvRtRsX2jTn7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bDDtJNdXfWTw8Jm4",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_DjdrwVNPZFJWFPcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Rotating an area about the $x$-axis and about the $y$-axis give the same volume."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two rotations sweep out completely different solids, so their volumes differ."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula in this subtopic is specifically for rotation about the $x$-axis, which is why its limits are values of $x$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nRotating an area about the $x$-axis and about the $y$-axis give the same volume.\n",
+   "back_md": "**False.**\n\nThe two rotations sweep out completely different solids, so their volumes differ.\n\nThe formula in this subtopic is specifically for rotation about the $x$-axis, which is why its limits are values of $x$.\n",
+   "spec_links": [
+    "spcpt_ds4XvRtRsX2jTn7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zZ6QsPdHpX3NrQgw",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_DjdrwVNPZFJWFPcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first thing to do when using the volume of revolution formula?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Square** $y$, before worrying about $π$, the limits or the integration."
+    },
+    {
+     "type": "paragraph",
+     "md": "Getting the squaring out of the way first keeps the algebra clean, particularly where $y$ is itself a sum or a product."
+    }
+   ],
+   "front_md": "What is the first thing to do when using the volume of revolution formula?\n",
+   "back_md": "**Square** $y$, before worrying about $π$, the limits or the integration.\n\nGetting the squaring out of the way first keeps the algebra clean, particularly where $y$ is itself a sum or a product.\n",
+   "spec_links": [
+    "spcpt_ds4XvRtRsX2jTn7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PFGjhBQp7CyNfcKv",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_DjdrwVNPZFJWFPcn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where do the limits $a$ and $b$ in a volume of revolution come from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are the $x$-values between which the area is being rotated."
+    },
+    {
+     "type": "paragraph",
+     "md": "They may be given directly, or they may have to be read off a graph, often as the points where the curve meets the $x$-axis."
+    }
+   ],
+   "front_md": "Where do the limits $a$ and $b$ in a volume of revolution come from?\n",
+   "back_md": "They are the $x$-values between which the area is being rotated.\n\nThey may be given directly, or they may have to be read off a graph, often as the points where the curve meets the $x$-axis.\n",
+   "spec_links": [
+    "spcpt_ds4XvRtRsX2jTn7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zpBhMJQjmP9P7vr7",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_VjPFp39j4j25hxjX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When does a volume of revolution need a subtraction?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the area being rotated does **not** have the axis of rotation as one of its boundaries."
+    },
+    {
+     "type": "paragraph",
+     "md": "The solid then has a hole running down its centre, and the volume of that hole has to be taken off."
+    }
+   ],
+   "front_md": "When does a volume of revolution need a subtraction?\n",
+   "back_md": "When the area being rotated does **not** have the axis of rotation as one of its boundaries.\n\nThe solid then has a hole running down its centre, and the volume of that hole has to be taken off.\n",
+   "spec_links": [
+    "spcpt_Gqg9pFnhtP3GjvBq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4X9H3SR6x4wXSRT8",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_VjPFp39j4j25hxjX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What shape do you get by rotating a rectangle that does not touch the $x$-axis?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A cylinder with a hole through it, much like a toilet roll."
+    },
+    {
+     "type": "paragraph",
+     "md": "A rectangle that **does** border the axis gives a solid cylinder instead, which is exactly why the gap matters."
+    }
+   ],
+   "front_md": "What shape do you get by rotating a rectangle that does not touch the $x$-axis?\n",
+   "back_md": "A cylinder with a hole through it, much like a toilet roll.\n\nA rectangle that **does** border the axis gives a solid cylinder instead, which is exactly why the gap matters.\n",
+   "spec_links": [
+    "spcpt_Gqg9pFnhtP3GjvBq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZDVxx59fvbtBz4Qv",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_VjPFp39j4j25hxjX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the single integral that replaces two subtracted volumes over the same limits:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{a}^{b} \\left(y_{1}\\right)^{2} \\text{d} x - \\pi \\int_{a}^{b} \\left(y_{2}\\right)^{2} \\text{d} x = \\pi \\int_{a}^{b} \\left(\\_\\_\\_\\_\\_\\_\\right) \\text{d} x`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed integral is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{a}^{b} \\left(\\left(y_{1}\\right)^{2} - \\left(y_{2}\\right)^{2}\\right) \\text{d} x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Note that this is `\\left(y_{1}\\right)^{2} - \\left(y_{2}\\right)^{2}` and **not** `\\left(y_{1} - y_{2}\\right)^{2}`, which is a different quantity altogether."
+    }
+   ],
+   "front_md": "Complete the single integral that replaces two subtracted volumes over the same limits:\n\n`V = \\pi \\int_{a}^{b} \\left(y_{1}\\right)^{2} \\text{d} x - \\pi \\int_{a}^{b} \\left(y_{2}\\right)^{2} \\text{d} x = \\pi \\int_{a}^{b} \\left(\\_\\_\\_\\_\\_\\_\\right) \\text{d} x`\n",
+   "back_md": "The completed integral is:\n\n`V = \\pi \\int_{a}^{b} \\left(\\left(y_{1}\\right)^{2} - \\left(y_{2}\\right)^{2}\\right) \\text{d} x`\n\nNote that this is `\\left(y_{1}\\right)^{2} - \\left(y_{2}\\right)^{2}` and **not** `\\left(y_{1} - y_{2}\\right)^{2}`, which is a different quantity altogether.\n",
+   "spec_links": [
+    "spcpt_Gqg9pFnhtP3GjvBq"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_DN43gcNrzjXHPxWh",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_VjPFp39j4j25hxjX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two volumes being **added** can be combined into a single integral in the same way."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Volumes being added almost always come from **different** limits, because they are different parts of the solid."
+    },
+    {
+     "type": "paragraph",
+     "md": "If their limits were the same you would be adding part of the same volume twice over."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo volumes being **added** can be combined into a single integral in the same way.\n",
+   "back_md": "**False.**\n\nVolumes being added almost always come from **different** limits, because they are different parts of the solid.\n\nIf their limits were the same you would be adding part of the same volume twice over.\n",
+   "spec_links": [
+    "spcpt_Gqg9pFnhtP3GjvBq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V2h2bjHJ3Cs4bcVd",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_VjPFp39j4j25hxjX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you decide whether to add or subtract volumes of revolution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Think in **two dimensions** first, about the area rather than about the solid."
+    },
+    {
+     "type": "paragraph",
+     "md": "\"Region under the curve minus region under the line\" then translates straight into the corresponding subtraction of volumes."
+    }
+   ],
+   "front_md": "How do you decide whether to add or subtract volumes of revolution?\n",
+   "back_md": "Think in **two dimensions** first, about the area rather than about the solid.\n\n\"Region under the curve minus region under the line\" then translates straight into the corresponding subtraction of volumes.\n",
+   "spec_links": [
+    "spcpt_Gqg9pFnhtP3GjvBq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bsCGrTY67Yh3ght6",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_jg8RMshmTjnyKjwS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is an upright object like a vase often modelled lying horizontally?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "So that its axis of symmetry lies along the $x$-axis, which is the axis the volume formula rotates about."
+    },
+    {
+     "type": "paragraph",
+     "md": "The object itself is unchanged; only its orientation on the diagram is chosen to suit the mathematics."
+    }
+   ],
+   "front_md": "Why is an upright object like a vase often modelled lying horizontally?\n",
+   "back_md": "So that its axis of symmetry lies along the $x$-axis, which is the axis the volume formula rotates about.\n\nThe object itself is unchanged; only its orientation on the diagram is chosen to suit the mathematics.\n",
+   "spec_links": [
+    "spcpt_vKYDHtGp9nMnQPyB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MnjDjZWpyn8ZwxFT",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_jg8RMshmTjnyKjwS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which parts of a real object are left out of a volume of revolution model?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Anything that is not part of the **main body**, such as a vase's handles or the lip round the top of a bucket."
+    },
+    {
+     "type": "paragraph",
+     "md": "A solid of revolution can only represent a shape with rotational symmetry, so features like those cannot be included."
+    }
+   ],
+   "front_md": "Which parts of a real object are left out of a volume of revolution model?\n",
+   "back_md": "Anything that is not part of the **main body**, such as a vase's handles or the lip round the top of a bucket.\n\nA solid of revolution can only represent a shape with rotational symmetry, so features like those cannot be included.\n",
+   "spec_links": [
+    "spcpt_vKYDHtGp9nMnQPyB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dhRDXmNtkTQXY5ZG",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_jg8RMshmTjnyKjwS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The thickness of a container's walls is normally ignored in these models."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The thickness is usually very small compared with the size of the object, so leaving it out changes the answer very little."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where it genuinely matters, the object has to be modelled as two solids of revolution with one subtracted from the other."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe thickness of a container's walls is normally ignored in these models.\n",
+   "back_md": "**True.**\n\nThe thickness is usually very small compared with the size of the object, so leaving it out changes the answer very little.\n\nWhere it genuinely matters, the object has to be modelled as two solids of revolution with one subtracted from the other.\n",
+   "spec_links": [
+    "spcpt_vKYDHtGp9nMnQPyB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GJnmwJS2rmC6yXGy",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_jg8RMshmTjnyKjwS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does it mean if a question refers to a container's **internal** dimensions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That the solid of revolution being found is the **inside** of the object, in other words the space it can hold."
+    },
+    {
+     "type": "paragraph",
+     "md": "That distinguishes the capacity of the container from the space the whole object takes up."
+    }
+   ],
+   "front_md": "What does it mean if a question refers to a container's **internal** dimensions?\n",
+   "back_md": "That the solid of revolution being found is the **inside** of the object, in other words the space it can hold.\n\nThat distinguishes the capacity of the container from the space the whole object takes up.\n",
+   "spec_links": [
+    "spcpt_vKYDHtGp9nMnQPyB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZJkH8N5TF3sPF7cP",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_jg8RMshmTjnyKjwS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the conversion needed when a capacity is asked for in litres:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\_\\_\\_\\_\\_\\_ \\text{ cm}^{3} = 1 \\text{ litre}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed conversion is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$1000 \\text{cm}^{3} = 1 \\text{litre}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "A volume of revolution comes out in cubic units, so a question asking for capacity in litres needs this conversion at the very end."
+    }
+   ],
+   "front_md": "Complete the conversion needed when a capacity is asked for in litres:\n\n`\\_\\_\\_\\_\\_\\_ \\text{ cm}^{3} = 1 \\text{ litre}`\n",
+   "back_md": "The completed conversion is:\n\n$1000 \\text{cm}^{3} = 1 \\text{litre}$\n\nA volume of revolution comes out in cubic units, so a question asking for capacity in litres needs this conversion at the very end.\n",
+   "spec_links": [
+    "spcpt_vKYDHtGp9nMnQPyB"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_9qQzRv6nPt2F33Xy",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_GZVKsHwRVypqTFYJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first thing to check when deciding how to integrate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whether it is already a **standard integral**, or can be turned into one just by rewriting."
+    },
+    {
+     "type": "paragraph",
+     "md": "Expanding brackets, splitting a fraction or simplifying a quotient often removes the need for any technique at all."
+    }
+   ],
+   "front_md": "What is the first thing to check when deciding how to integrate?\n",
+   "back_md": "Whether it is already a **standard integral**, or can be turned into one just by rewriting.\n\nExpanding brackets, splitting a fraction or simplifying a quotient often removes the need for any technique at all.\n",
+   "spec_links": [
+    "spcpt_SrFpVvthH46W55tj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2tXkJqvRTYq2QnSS",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_GZVKsHwRVypqTFYJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The integrand is a product of two functions. Which methods should you consider?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Reverse chain rule** first, if one factor is the derivative of something sitting inside the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it is not, then **integration by parts**, or a **substitution** where one factor suggests an obvious $u$."
+    }
+   ],
+   "front_md": "The integrand is a product of two functions. Which methods should you consider?\n",
+   "back_md": "**Reverse chain rule** first, if one factor is the derivative of something sitting inside the other.\n\nIf it is not, then **integration by parts**, or a **substitution** where one factor suggests an obvious $u$.\n",
+   "spec_links": [
+    "spcpt_SrFpVvthH46W55tj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZmzpFyY2JnSYhRXv",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_GZVKsHwRVypqTFYJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The integrand is a fraction. What does its denominator tell you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **linear** denominator points towards a logarithm, and one that **factorises** points towards partial fractions."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the numerator is close to the derivative of the denominator, it is the `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}` form."
+    }
+   ],
+   "front_md": "The integrand is a fraction. What does its denominator tell you?\n",
+   "back_md": "A **linear** denominator points towards a logarithm, and one that **factorises** points towards partial fractions.\n\nIf the numerator is close to the derivative of the denominator, it is the `\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}` form.\n",
+   "spec_links": [
+    "spcpt_SrFpVvthH46W55tj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RzzNx3XqQ3fKVB56",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_GZVKsHwRVypqTFYJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why look again for the reverse chain rule after using an identity?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because rewriting an expression changes its shape, and a reverse chain rule that was not available before may be available now."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is the easiest thing to miss, since applying the identity feels like the answer rather than a step towards it."
+    }
+   ],
+   "front_md": "Why look again for the reverse chain rule after using an identity?\n",
+   "back_md": "Because rewriting an expression changes its shape, and a reverse chain rule that was not available before may be available now.\n\nThis is the easiest thing to miss, since applying the identity feels like the answer rather than a step towards it.\n",
+   "spec_links": [
+    "spcpt_SrFpVvthH46W55tj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5qqJ5vCKwhXyKwb7",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_GZVKsHwRVypqTFYJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If a substitution does not work, the integral cannot be done by substitution at all."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A substitution failing almost always means the **wrong** $u$ was chosen, not that the method is unavailable."
+    },
+    {
+     "type": "paragraph",
+     "md": "The usual fix is to substitute a different part of the integrand and try again."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf a substitution does not work, the integral cannot be done by substitution at all.\n",
+   "back_md": "**False.**\n\nA substitution failing almost always means the **wrong** $u$ was chosen, not that the method is unavailable.\n\nThe usual fix is to substitute a different part of the integrand and try again.\n",
+   "spec_links": [
+    "spcpt_SrFpVvthH46W55tj"
+   ],
+   "flags": []
+  }
+ ]
+}
