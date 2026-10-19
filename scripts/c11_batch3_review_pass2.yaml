@@ -1,0 +1,130 @@
+# T-C11 §16 batch 3 — adversarial second-pass review verdicts (pass 2 of 2).
+# Independent re-review of every batch-3 node/edge/held under the attack
+# rubric (§12): (a) is the evidence load-bearing for THIS record? (b) does the
+# dependent note use-without-reteaching? (prerequisites) (c) is the relation
+# CLASS right, not just existence? (d) is the direction right? (e) is the
+# confidence honest? (f) would you hold it?
+# Verdicts: CONFIRM | CONFIRM_WITH_NOTE | HOLD | REJECT
+# Reviewer: GLM (Super Z agent, z.ai), pass c11-batch3-review-2 (separate
+# re-read of the 14 mapped notes + the 3 pinned Paper-2 mark schemes from the
+# pass-1 extraction). Agreement statistics computed by the renderer against
+# the pass-1 decisions; reported as RAW AGREEMENT, explicitly NOT Cohen's
+# kappa (one human rater only — the operator remains the sole validator).
+#
+# Pass-2 outcome summary: ZERO demotions — the abstention again landed at
+# authoring (14 held candidates BEFORE emission; no RR quarantined this
+# batch — every doubt was either resolved on explicit evidence or held).
+# The attacks below land as CONFIRM_WITH_NOTE flags for the operator gate
+# (the know/understand dual-attachment identity decisions, the
+# relation-class choices, the FIRST RELATED_TO deployment, the second CCW
+# deployment, the two-surface misconception family, the mark-scheme
+# line-wrap artifact), enumerated in `findings`.
+
+nodes:
+  4CH1-CON-ION: {verdict: CONFIRM}
+  4CH1-CON-ION-CHARGE-RULES: {verdict: CONFIRM_WITH_NOTE, note: 'Split candidate (FP-B1-1 class): the deduction rule (group -> charge) and the named-ion table (Ag+/Cu2+/Fe2+/Fe3+/Pb2+/Zn2+ + compound ions) could be two nodes, but the corpus teaches them as one block (the deduction rule introduces the tables; the examiner tip treats the tables as one memorization demand). Operator identity decision; keep is defensible.'}
+  4CH1-CON-IONIC-FORMULA: {verdict: CONFIRM}
+  4CH1-CON-DOT-CROSS-IONIC: {verdict: CONFIRM}
+  4CH1-CON-IONIC-BOND: {verdict: CONFIRM}
+  4CH1-CON-IONIC-LATTICE: {verdict: CONFIRM}
+  4CH1-CON-IONIC-CONDUCTION: {verdict: CONFIRM_WITH_NOTE, note: 'Know/understand dual attachment (1.43 know + 1.56C understand why) — the batch-local mirror of the 1.19/1.22 and 1.20/1.21 precedents. A split into know-node vs understand-node is an operator identity decision (B3-ID-01); keep is defensible (same learnable fact pair at two depths).'}
+  4CH1-CON-COVALENT-BOND: {verdict: CONFIRM_WITH_NOTE, note: 'Dual attachment 1.44 (know: sharing) + 1.45 (understand: electrostatic attraction) — definition vs mechanism of one term. Split is an operator identity decision (B3-ID-02); the batch-2 OD-1 ruling kept the yield triple split for definitional/assessment reasons, so the question is genuinely open.'}
+  4CH1-CON-DOT-CROSS-COVALENT: {verdict: CONFIRM}
+  4CH1-CON-SIMPLE-MOLECULAR: {verdict: CONFIRM_WITH_NOTE, note: 'Dual attachment 1.47+1.48 (the note teaches them as consecutive sections of one argument). Split candidate (B3-ID-03): a separate intermolecular-forces term node — the spec itself names the term ("the term intermolecular forces of attraction can be used to represent all forces between molecules"); the IMF concept is also the remediation content of MIS-COVALENT-BONDS-BROKEN. Operator identity decision; keep is defensible.'}
+  4CH1-CON-GIANT-COVALENT: {verdict: CONFIRM}
+  4CH1-CON-DIAMOND-GRAPHITE: {verdict: CONFIRM_WITH_NOTE, note: 'Three allotropes in one node (the spec lists them in one SP); carries the store''s FIRST RELATED_TO edge (to CON-SIMPLE-MOLECULAR for the C60 half). Split candidate (B3-ID-04): diamond/graphite/C60 term-level nodes — the corpus teaches them in two different notes. Operator identity decision; keep is defensible (one SP, one demand set).'}
+  4CH1-CON-COVALENT-CONDUCTION: {verdict: CONFIRM_WITH_NOTE, note: 'Know/understand dual attachment (1.51 + 1.55C) — the covalent mirror of CON-IONIC-CONDUCTION; same B3-ID-01 split question. The two notes (Simple Molecular / Electronic Conductivity) carry the two halves.'}
+  4CH1-CON-METALLIC-BOND: {verdict: CONFIRM_WITH_NOTE, note: 'Dual attachment 1.52C (represent the lattice) + 1.53C (understand the bonding) — representation vs mechanism; same B3-ID-01 class. Split is an operator identity decision; keep is defensible (the 2-D diagram IS the same lattice the attraction lives in).'}
+  4CH1-CON-METAL-PROPERTIES: {verdict: CONFIRM}
+  4CH1-CON-ANODE-CATHODE: {verdict: CONFIRM_WITH_NOTE, note: 'Term pair + migration rule in one node (the CON-SUBATOMIC-PARTICLES granularity precedent). The migration content is electrolysis-contextual; a terms-only vs terms+migration split is possible but the corpus teaches them together (the Cations and anions section).'}
+  4CH1-CON-ELECTROLYSIS: {verdict: CONFIRM}
+  4CH1-CON-AQUEOUS-DISCHARGE: {verdict: CONFIRM_WITH_NOTE, note: 'Second node attached to 1.58C (with CON-ELECTROLYSIS) — the dual node attachment mirrors the spec wording ("describe experiments... and to predict the products"). A single combined node is the alternative; the split keeps the discharge rules independently assessable. Operator identity decision (B3-ID-05 class); keep is defensible.'}
+  4CH1-CON-ELECTRODE-HALF-EQUATIONS: {verdict: CONFIRM}
+  4CH1-CON-REDOX-ELECTRONS: {verdict: CONFIRM, note: 'Searched the merged store for an earlier redox-definitions node (the 1.25 equation nodes carry balancing, not oxidation/reduction terms) — no duplicate mint; the term pair is genuinely new to the store.'}
+  4CH1-MIS-IONIC-CONDUCTION-ELECTRONS: {verdict: CONFIRM, note: 'The corpus documents the belief explicitly ("A common mistake students make in exams is to say...") — the pilot MIS-EQ-SUBSCRIPT evidence class (ERRONEOUS_BELIEF, examiner-tip documented, NOT a mark-scheme wrong answer). The 1.55C note''s metal-electrons/solution-ions contrast is the perfect remediation pairing.'}
+  4CH1-MIS-IONIC-BOND-ATOMS: {verdict: CONFIRM_WITH_NOTE, note: 'Layout-verified against the PDF (Q2(a)(iii) "If any reference to attraction between atoms/molecul es/electrons scores 0/3" — the pinned artifact''s line wrap preserved in the quote, noted in derivation_notes; Q1(a) REJECT column: intermolecular forces). Solid ASSESSMENT_DOCUMENTED evidence for the ionic side; the metallic-side variant was held (B3-H-12, shared REJECT rows not reconstructible).'}
+  4CH1-MIS-COVALENT-BONDS-BROKEN: {verdict: CONFIRM, note: 'Documented TWICE in the same pinned question (Q1(d): REJECT "Any reference to bonds between molecules" + cap "MAX 1 for any mention of covalent bonds are broken in Buckminster fullerene"); the remediation note states the distinction as a Remember tip. The classic; solid evidence.'}
+  4CH1-MIS-GRAPHITE-LAYER-BONDS: {verdict: CONFIRM_WITH_NOTE, note: 'Family overlap flag: same bonds-vs-forces confusion as MIS-COVALENT-BONDS-BROKEN but a different wrong-answer surface (graphite layers, Q1(b) REJECT "Any reference to bonds between layers / molecules") and a different target concept (1.50 vs 1.47). Minted separately for misconception-driven recommendation targeting; the operator may merge (B3-ID-06).'}
+
+edges:
+  '4CH1-CON-ION REQUIRES_PREREQUISITE 4CH1-CON-ATOM': {verdict: CONFIRM, note: 'Cross-boundary edge (batch-2 target, FN-B2-2 sanctioned); the definitional-operand pattern (charged atom/group of atoms).'}
+  '4CH1-CON-ION REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION': {verdict: CONFIRM, note: 'Cross-boundary edge (batch-2 target); the full-outer-shell motive is the operand of ion formation.'}
+  '4CH1-CON-ION-CHARGE-RULES REQUIRES_PREREQUISITE 4CH1-CON-ION': {verdict: CONFIRM}
+  '4CH1-CON-IONIC-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES': {verdict: CONFIRM}
+  '4CH1-CON-DOT-CROSS-IONIC REQUIRES_PREREQUISITE 4CH1-CON-ION': {verdict: CONFIRM}
+  '4CH1-CON-IONIC-BOND REQUIRES_PREREQUISITE 4CH1-CON-ION': {verdict: CONFIRM}
+  '4CH1-CON-IONIC-LATTICE REQUIRES_PREREQUISITE 4CH1-CON-IONIC-BOND': {verdict: CONFIRM}
+  '4CH1-CON-IONIC-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-ION': {verdict: CONFIRM}
+  '4CH1-CON-IONIC-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-IONIC-LATTICE': {verdict: CONFIRM}
+  '4CH1-CON-COVALENT-BOND REQUIRES_PREREQUISITE 4CH1-CON-ATOM': {verdict: CONFIRM, note: 'Cross-boundary edge (batch-2 target); the MOLECULE->ATOM pattern applied to the bond.'}
+  '4CH1-CON-COVALENT-BOND REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION': {verdict: CONFIRM, note: 'Cross-boundary edge (batch-2 target); the full-outer-shell motive mirrors the ION->CONFIG edge.'}
+  '4CH1-CON-DOT-CROSS-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND': {verdict: CONFIRM}
+  '4CH1-CON-DOT-CROSS-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-MOLECULE': {verdict: CONFIRM, note: 'Cross-boundary edge (batch-2 target); every caption in the note is "representation of a molecule of X" — the molecule is the diagram''s subject.'}
+  '4CH1-CON-SIMPLE-MOLECULAR REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND': {verdict: CONFIRM}
+  '4CH1-CON-SIMPLE-MOLECULAR REQUIRES_PREREQUISITE 4CH1-CON-MOLECULE': {verdict: CONFIRM_WITH_NOTE, note: 'Cross-boundary edge (batch-2 target) + density flag: the molecule operand is shared with DOT-CROSS-COVALENT->MOLECULE on the same target; not subsumed (different source, different claim — the structure class is defined over molecules). Operator may prune the class (the FP-B1-4 vocabulary-level family); flagged, not doubted.'}
+  '4CH1-CON-GIANT-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND': {verdict: CONFIRM}
+  '4CH1-CON-DIAMOND-GRAPHITE REQUIRES_PREREQUISITE 4CH1-CON-GIANT-COVALENT': {verdict: CONFIRM}
+  '4CH1-CON-DIAMOND-GRAPHITE RELATED_TO 4CH1-CON-SIMPLE-MOLECULAR': {verdict: CONFIRM_WITH_NOTE, note: 'FIRST RELATED_TO deployment in the store (FP-B3-3): the 1.50 allotrope set spans both structure classes (diamond/graphite giant; C60 simple molecular — the note states "C60 is a simple molecular structure"). relation_class_rationale recorded per G08; the alternative modeling (attach 1.50 to CON-SIMPLE-MOLECULAR directly instead of this edge) is an operator identity decision (B3-ID-07). CONFIRM on the class deployment.'}
+  '4CH1-CON-COVALENT-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-SIMPLE-MOLECULAR': {verdict: CONFIRM}
+  '4CH1-CON-METALLIC-BOND REQUIRES_PREREQUISITE 4CH1-CON-ION': {verdict: CONFIRM}
+  '4CH1-CON-METAL-PROPERTIES EXPLAINED_BY 4CH1-CON-METALLIC-BOND': {verdict: CONFIRM_WITH_NOTE, note: 'Relation-class flag (the B1-E-07 class): the note teaches each property with an explicit causal statement ("This is BECAUSE the atoms/ions are arranged in layers...") — EXPLAINED_BY is the stronger evidenced reading; a prereq reading (properties presuppose the bonding concept) is equally real but one relation per pair. The operator may rule differently (an OD-class decision).'}
+  '4CH1-CON-ANODE-CATHODE REQUIRES_PREREQUISITE 4CH1-CON-ION': {verdict: CONFIRM}
+  '4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-IONIC-BOND': {verdict: CONFIRM_WITH_NOTE, note: 'Density flag (FP-B2-2 class): transitively reachable via ELECTROLYSIS->IONIC-CONDUCTION->LATTICE->IONIC-BOND but carries different information (the COMPOSITION of what is electrolysed — binary ionic compounds) — the §19 MOLAR-MASS reachable-ne-redundant precedent. Operator may prune; flagged, not doubted.'}
+  '4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-IONIC-CONDUCTION': {verdict: CONFIRM}
+  '4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-ANODE-CATHODE': {verdict: CONFIRM}
+  '4CH1-CON-AQUEOUS-DISCHARGE REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS': {verdict: CONFIRM}
+  '4CH1-CON-ELECTRODE-HALF-EQUATIONS REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS': {verdict: CONFIRM}
+  '4CH1-CON-ELECTRODE-HALF-EQUATIONS REQUIRES_PREREQUISITE 4CH1-CON-REDOX-ELECTRONS': {verdict: CONFIRM}
+  '4CH1-PR-04 REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS': {verdict: CONFIRM, note: 'Cross-slice practical edge (the PR-02->CHROMATOGRAPHY pattern); the practical note''s Aim sentence names the process directly.'}
+  '4CH1-PR-04 REQUIRES_PREREQUISITE 4CH1-CON-AQUEOUS-DISCHARGE': {verdict: CONFIRM, note: 'The practical''s conclusions ARE the discharge-rule outcomes for the three named solutions (the PR-02->RF-VALUE pattern).'}
+  '4CH1-CON-IONIC-BOND COMMONLY_CONFUSED_WITH 4CH1-CON-COVALENT-BOND': {verdict: CONFIRM_WITH_NOTE, note: 'Second CCW edge in the store (FP-B3-4): the corpus documents the bond-type contrast explicitly ("A key difference between covalent bonds and ionic bonds is that... shared... not transferred") — the transfer-vs-sharing distinction is exactly the term-pair confusability class. One-directional storage (ionic -> covalent) per the batch-2 convention; the MS cross-REJECTs are assessment context only (G07 inadmissible as CCW evidence — recorded in derivation_notes). Operator confirms the deployment.'}
+  '4CH1-MIS-IONIC-CONDUCTION-ELECTRONS MISCONCEPTION_OF 4CH1-CON-IONIC-CONDUCTION': {verdict: CONFIRM}
+  '4CH1-MIS-IONIC-CONDUCTION-ELECTRONS REMEDIATED_BY 4CH1-CON-IONIC-CONDUCTION': {verdict: CONFIRM_WITH_NOTE, note: 'Remediation target = misconception target (the B1-E-25 pattern); the corrective content IS the ions-as-carriers statement. Alternative: CON-IONIC-CONDUCTION carries it via node content alone (drop the edge). Operator decision; kept for misconception-recommendation queries.'}
+  '4CH1-MIS-IONIC-BOND-ATOMS WRONG_ANSWER_PATTERN 4CH1-CON-IONIC-BOND': {verdict: CONFIRM}
+  '4CH1-MIS-IONIC-BOND-ATOMS REMEDIATED_BY 4CH1-CON-IONIC-BOND': {verdict: CONFIRM_WITH_NOTE, note: 'Same B1-E-25 pattern; the correct-definition remediation is the target concept itself. Operator decision on edge-vs-node-evidence.'}
+  '4CH1-MIS-COVALENT-BONDS-BROKEN WRONG_ANSWER_PATTERN 4CH1-CON-SIMPLE-MOLECULAR': {verdict: CONFIRM}
+  '4CH1-MIS-COVALENT-BONDS-BROKEN REMEDIATED_BY 4CH1-CON-SIMPLE-MOLECULAR': {verdict: CONFIRM_WITH_NOTE, note: 'Same B1-E-25 pattern; the IMF-vs-bonds distinction is the target node''s own content. Operator decision on edge-vs-node-evidence.'}
+  '4CH1-MIS-GRAPHITE-LAYER-BONDS WRONG_ANSWER_PATTERN 4CH1-CON-DIAMOND-GRAPHITE': {verdict: CONFIRM_WITH_NOTE, note: 'Family overlap with MIS-COVALENT-BONDS-BROKEN (B3-ID-06 merge question); the evidence is independently documented (Q1(b) REJECT) and the target is a different concept (1.50 graphite).'}
+  '4CH1-MIS-GRAPHITE-LAYER-BONDS REMEDIATED_BY 4CH1-CON-DIAMOND-GRAPHITE': {verdict: CONFIRM_WITH_NOTE, note: 'Same pattern; remediation = the layers-held-by-weak-forces statement (the target node''s own content). Operator decision on edge-vs-node-evidence and on the family merge.'}
+
+held_review:
+  B3-H-01: {verdict: AGREE_HOLD, note: 'Right call: subsumed via ION -> ELECTRONIC-CONFIGURATION -> SUBATOMIC-PARTICLES.'}
+  B3-H-02: {verdict: AGREE_HOLD, note: 'Right call: subsumed via DOT-CROSS-IONIC -> ION -> ELECTRONIC-CONFIGURATION.'}
+  B3-H-03: {verdict: AGREE_HOLD, note: 'Right call: the compound term is incidental vocabulary; the procedure ground is the charges (emitted).'}
+  B3-H-04: {verdict: AGREE_HOLD, note: 'Right call: OD-2 (ratified) — the group labels in the charge tables are table labels, not instructional evidence; exactly the B2-H-04 precedent.'}
+  B3-H-05: {verdict: AGREE_HOLD, note: 'Right call: subsumed via METALLIC-BOND -> ION -> ELECTRONIC-CONFIGURATION.'}
+  B3-H-06: {verdict: AGREE_HOLD, note: 'Right call: subsumed via COVALENT-CONDUCTION -> SIMPLE-MOLECULAR -> COVALENT-BOND.'}
+  B3-H-07: {verdict: AGREE_HOLD, note: 'Right call: the molecule operand is emitted; the note hedges ("tend to have"); the classification link is the target node''s own ground.'}
+  B3-H-08: {verdict: AGREE_HOLD, note: 'Right call: the electron term is shared vocabulary (the B2-H-01 class).'}
+  B3-H-09: {verdict: AGREE_HOLD, note: 'Right call: subsumed via the PR-04 -> AQUEOUS-DISCHARGE -> ELECTROLYSIS -> IONIC-CONDUCTION -> ION chain.'}
+  B3-H-10: {verdict: AGREE_HOLD, note: 'Right call: no half-equation content in the practical note — honest abstention.'}
+  B3-H-11: {verdict: AGREE_HOLD, note: 'Right call: no electrolysis MS exists in the corpus (PMT publishes none for this family — recorded in meta.ms_coverage_note); minting would assert an undocumented assessment pattern. Revisit only with new MS evidence.'}
+  B3-H-12: {verdict: AGREE_HOLD, note: 'Right call: the shared REJECT rows do not reconstruct the metallic-side wrong answer (the B2-H-10 terse-evidence precedent); the documented pattern lives on MIS-IONIC-BOND-ATOMS.'}
+  B3-H-13: {verdict: AGREE_HOLD, note: 'Right call: CCW requires an explicit confusability statement; the MS cross-REJECTs are G07-inadmissible for CCW. The contrast is carried by the nodes'' content.'}
+  B3-H-14: {verdict: AGREE_HOLD, note: 'Right call: the note flags a teaching surprise, not a wrong answer; no REJECT documents the wrong OH-/H2O selection.'}
+
+findings:
+- id: FP-B3-1
+  kind: split-artifact
+  detail: 'Know/understand dual attachments: CON-IONIC-CONDUCTION (1.43+1.56C), CON-COVALENT-CONDUCTION (1.51+1.55C), CON-COVALENT-BOND (1.44+1.45), CON-METALLIC-BOND (1.52C+1.53C); dual node attachments on 1.58C (CON-ELECTROLYSIS + CON-AQUEOUS-DISCHARGE) and 1.59C (equations + redox). All operator identity decisions (B3-ID-01..05); no defect — the mirrors of the ratified 1.19/1.20 precedents.'
+- id: FP-B3-2
+  kind: relation-class-choice
+  detail: 'CON-METAL-PROPERTIES EXPLAINED_BY CON-METALLIC-BOND (explicit causal sentences; the prereq reading equally real) and CON-ELECTROLYSIS REQUIRES_PREREQUISITE CON-IONIC-BOND (reachable-ne-redundant density flag) — one relation per pair forced the choices; OD-class decisions for the operator.'
+- id: FP-B3-3
+  kind: first-class-deployment
+  detail: 'The store''s FIRST RELATED_TO edge (DIAMOND-GRAPHITE -> SIMPLE-MOLECULAR, the C60 cross-class fact) on the note''s explicit "C60 is a simple molecular structure" statement; relation_class_rationale recorded per G08. The alternative (attaching 1.50 to CON-SIMPLE-MOLECULAR) is B3-ID-07. The earlier zero-RL state was honest abstention, not a rule.'
+- id: FP-B3-4
+  kind: second-class-deployment
+  detail: 'The SECOND COMMONLY_CONFUSED_WITH edge (IONIC-BOND -> COVALENT-BOND) on the corpus''s explicit share-vs-transfer difference tip; one-directional storage per the batch-2 convention; the MS cross-REJECTs are assessment context only (G07 inadmissible).'
+- id: FP-B3-5
+  kind: evidence-artifact
+  detail: 'One mark-scheme quote preserves the pinned artifact''s line wrap ("atoms/molecul es/electrons" — pdftotext wrapped "molecules" across lines; the byte-verification norm collapses newlines to single spaces, so the quote is verbatim against the pinned file). Layout-verified against the PDF with pdftotext -layout before pinning; the artifact is noted in the node''s derivation_notes. No action needed — recorded so the artifact is explicit, not silent.'
+- id: FN-B3-1
+  kind: false-negative-concern
+  detail: 'Mark-scheme mining: 3 Paper-2 pins (IONIC/COVALENT/CFEC — FN-B2-1 closed). Coverage fact: PMT Unit 1 publishes NO metallic-bonding or electrolysis MS, so 1.52C-1.60C misconception mining has note evidence only (B3-H-11/H-12 record the refused candidates). Deeper electrolysis MS mining would need the pastpapers corpus or PMT Unit-2+ sets — a future evidence pass, not this batch.'
+- id: FN-B3-2
+  kind: boundary
+  detail: 'S1 is now FULLY covered (pilot + batches 1-3: 60 SPs, all mapped). The next batch (S3 Physical, per the §16 phase order) will mint the first cross-section boundary edges; the consolidated cross-slice boundary-concept ruling is still pending before phase 2 (S3) — the §16 authorization''s standing condition.'
+- id: FN-B3-3
+  kind: vocabulary-coverage
+  detail: '"Electrolyte" and "inert electrode" are taught inline without dedicated concept nodes (CON-ELECTROLYSIS carries "electrolyte" as an alias; the inert-electrode fact is in the 1.58C evidence) — deliberate non-minting at pilot granularity; recorded so the gap is explicit, not silent (the FN-B2-3 style).'

@@ -1,0 +1,89 @@
+# T-C11 §16 expansion authorization — operator decision, session 46 (2026-09-12). OPERATOR-OWNED.
+# This is the durable record of the explicit §16 authorization the gate report was awaiting
+# (C11_S16_GATE_REPORT.md "What still blocks §16" item 4 — the sole remaining blocker, now settled;
+# C11_ARCHITECTURE.md §16). It grants the §16 expansion authority and NOTHING else: no promotion
+# without per-batch operator ratification, no DB writes, no scope beyond 4CH1. Validated fail-closed
+# by scripts/c11_s16_authorization_check.py. Revocation or modification requires an explicit dated
+# operator decision superseding this record — never a silent edit.
+meta:
+  task: T-C11
+  stage: s16-authorization
+  session: 46
+  file: OPERATOR-OWNED §16 authorization record — the expansion gate settled by explicit operator decision
+    (2026-09-12).
+  contract: graph/reports/C11_ARCHITECTURE.md §16 (expansion criteria) + graph/reports/C11_S16_GATE_REPORT.md
+    (readiness report; item 4 = the explicit authorization)
+  gate: scripts/c11_s16_authorization_check.py
+  instructions: 'Recorded by operator decision, session 46 (2026-09-12), answering the session-45 closing
+    question (tracker 8cdc2fe): "the operator''s §16 decision (explicit authorization, or commission the
+    scoped expansion plan)". The operator chose explicit authorization. This record unlocks the §16
+    expansion per the C11_S16_GATE_REPORT.md item-14 batching proposal; every batch still passes its own
+    operator gate before any promotion. The authorization is RECORDED here and in the dated session-46
+    notes on the gate report and architecture §16; it commands no generation by itself — batch execution
+    is separately commissioned and separately gated.'
+authorization:
+  decision: AUTHORIZED
+  authorized_by: operator
+  authorized_date: '2026-09-12'
+  operator_statement_verbatim: Okay, I authorize
+  statement_context: 'Answers the item-4 decision exactly as offered at the close of session 45
+    (C11_S16_GATE_REPORT.md "What still blocks §16" item 4: "Explicitly authorize §16 (or commission the
+    full scoped expansion plan from the proposal in item 14)"; tracker TODO T-C11 session-45 addendum:
+    "NEXT: the operator''s §16 decision (explicit authorization, or commission the scoped expansion
+    plan)"). The operator''s words are recorded verbatim; the chosen branch is explicit authorization,
+    adopting the item-14 proposal as the sanctioned execution shape.'
+  readiness_basis:
+    architecture_s16_criteria: all six met — every gate green incl. deterministic regeneration (item 1);
+      zero unevidenced edges, 100% provenance (items 2, 8); held traps present (items 3, 6); 4.15 zero
+      manufactured coverage (items 4, 11); operator review of the pilot recorded — verdicts, OD-1/OD-2,
+      alias policy, 28 §18 promotions (items 5, 10); scoped expansion plan (item 14, criterion 6)
+    gate_list: 14 of 14 operator gate-list conditions DONE (sessions 40–45)
+    blockers: 4 of 4 settled — items 1–3 sessions 44/45; item 4 = this record
+    readiness_verdict_note: the gate report header answer ("NO — §16 is NOT ready") is the session-41
+      snapshot listing exactly the operator review actions that are now all complete; the authorization
+      was given against the fully-green session-45 state
+  scope:
+    unlocked: 'the full 4CH1 T-C11 expansion: the remaining 170 of 182 spec points over the 4 sections,
+      in the C11_S16_GATE_REPORT.md item-14 batching shape — 14 batches across 4 phases (S1 remainder
+      first, then S3 Physical, S2 Inorganic, S4 Organic), ≈12 SPs per batch, each batch with its own
+      extraction_pass id + decision record + gated generation + pass-2 adversarial review + review sheet
+      + operator gate; one consolidated cross-slice boundary-concept ruling before phase 2; per-batch
+      mark-scheme mining; the PMT Markdown++ batch (operator push 766dd23) evaluated as candidate
+      additional corpus before S2–S4; node promotion (PART_OF authority) proceeds per-batch through node
+      review per §18 scope limits.'
+    not_authorized: 'DB writes / V2 SQL projection (stays deferred per §13); any promotion without that
+      batch''s recorded operator verdicts through the §18 pathway; any change to the frozen pilot
+      dispositions (the 3 operator HOLD edges E-08/E-26/E-29 stay SUGGESTED and not promotable; the RR
+      edge stays REVIEW_REQUIRED under its operator HOLD; the held appendix 13 stays preserved — 11 HOLD
+      + 2 REJECT); the 4CH1-4.15 negative control (stays zero manufactured coverage unless remediated by
+      an operator content decision); expansion beyond the 4CH1 spec (other subjects/qualifications are
+      separate authorizations); hand-edited graph/*.yaml (the deterministic generation contract §10
+      stands); AI attribution anywhere in validation state (the §18 anti-forgery closure stands).'
+  preconditions_snapshot:
+    resources_head: 08f5ec9
+    tracker_head: 8cdc2fe
+    pilot_live_state: 29 nodes (27 CONCEPT + 2 MISCONCEPTION) / 65 edges (33 PART_OF derived + 32 authored
+      semantic) / 28 HUMAN_VALIDATED (operator §18 promotions, 0 from generation) / 3 SUGGESTED (the
+      operator HOLDs E-08/E-26/E-29) / 1 REVIEW_REQUIRED (the RR edge, operator HOLD)
+    verdict_record: scripts/c11_review_verdicts.yaml (28 CONFIRM / 3 HOLD / 0 REJECT edges; 29 CONFIRM
+      nodes; OD-1 + OD-2 RATIFIED; alias policy RETRIEVAL_EXEMPT; 'maximum yield' KEEP
+      retrieval-only/unevidenced; held appendix acknowledged 13)
+    promotion_store: scripts/c11_promotions.yaml — 28 entries (operator, 2026-09-12, review_reference =
+      graph/reports/C11_DIFF_REVIEW_2026-09-12.md)
+    validation_suite: graph_check ALL PASS; c11_review_verdict_check ALL PASS; c11_negative_test 14/14;
+      c11_promote_test 27/27; c11_task4_variants 3/3; c11_diff_review_test ALL PASS; generator re-run
+      byte-identical on all 3 graph outputs
+  invariants:
+  - per-batch operator gate — no promotion without that batch's recorded per-row verdicts applied through
+    the §18 pathway; never by node, relation, confidence, or batch
+  - OD-1 (yield-triple operand rule) and OD-2 (incidental terminology is not instructional evidence)
+    applied as generation rules in every batch
+  - the §19 failure classes FC-1..FC-4 applied as first-class generation rules, not per-candidate judgment
+    calls
+  - FC-4 negative-control enforcement per SP class; 4CH1-4.15 stays the honest annotated zero-coverage
+    corpus gap unless remediated by an operator content decision
+  - PART_OF node promotion deferred to per-batch node review per §18 scope limits
+  - AI attribution forbidden — HUMAN_VALIDATED only via operator-side records (the §18 anti-forgery
+    closure, three layers)
+  - deterministic regeneration contract (§10) and all gates green at every batch boundary
+  - no DB writes; graph/*.yaml never hand-edited

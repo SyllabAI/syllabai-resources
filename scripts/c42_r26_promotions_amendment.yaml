@@ -1,0 +1,63 @@
+# T-C42 R26 promotions amendment — derived from the R26 verdict record
+# (the loop's FIRST promotions-affecting repair record: 3 code supersedes +
+# 1 exclusion; the R5 promotions file stays byte-untouched per the P5
+# convention). Written ONLY by scripts/c42_r26_override_projection.py;
+# hand-editing is forbidden.
+schema: c42-r28-promotions-amendment/1.0
+task: T-C42
+round: R26
+generated: '2026-10-04'
+source: scripts/c42_r26_repair_verdicts.yaml (promoted_surface_amendment)
+base_file: scripts/c42_r5_promotions.yaml
+base_file_sha256_16: 9bad739bd79e5899
+base_file_untouched: true
+contract: 'consumed fail-closed by the R28-shaped substrate re-build''s promotions re-application (the
+  c42_r24-shaped lane convention), AFTER the R5 file is loaded: every supersedes_code entry re-pins one
+  promoted row''s code (identity by mapping_id + note_path + chunk_ordinal, pinned_code verified against
+  the R5 file BEFORE the amendment applies — any drift fails the rebuild); the excluded entry removes
+  one row from the re-applied promotion set (the DEMOTE row lands unresolved-span via the c40 DEMOTE convention,
+  NOT re-promoted). The re-applied promotion count becomes 831 (832 - 1); the 3 superseded rows REMAIN
+  in the promoted set at their amended codes and re-key old->new at the rebuild (the R24 id_pairs convention).
+  The R5 file itself stays BYTE-UNTOUCHED (the P5 convention — landed records never edited); this amendment
+  is the dated record of the R26 operator-fired adjudication and remains reviewable and reversible by
+  the operator before the R28-shaped lane fires. Wiring this amendment into the rebuild tool is the rebuild
+  lane''s job (the R24 tool-bump precedent).'
+supersedes_code:
+- mapping_id: e6ed72481e8ffc2e
+  note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+  chunk_ordinal: 4
+  pinned_code: 4MA1-3.3F
+  amended_code: 4MA1-3.3H
+- mapping_id: 7fdded0b9245e1c3
+  note_path: notes/5-vectors-and-transformation-geometry/vectors/introduction-to-vectors.json
+  chunk_ordinal: 3
+  pinned_code: 4MA1-5.1D
+  amended_code: 4MA1-5.1C
+- mapping_id: 81c0b59852d5d4b6
+  note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+  chunk_ordinal: 1
+  pinned_code: 4MA1-1.1G
+  amended_code: 4MA1-1.1A
+excluded:
+- mapping_id: 70f0b027f3f1528f
+  note_path: notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json
+  chunk_ordinal: 2
+  pinned_code: 4MA1-2.2F
+  disposition: DEMOTE_TO_WORKLIST
+derived_census_projected:
+  re_applied_promotions: 831
+  covered_codes: 130 -> 132
+  coverage_gained:
+  - 4MA1-1.1A
+  - 4MA1-5.1C
+  coverage_lost: []
+  uncovered_sp: 58 -> 56
+  resolved_defer_rows:
+  - da25da48e0be5c64
+  - 2332964a4f1b02ca
+  anchored: 839 -> 838 (831 HUMAN_VALIDATED + 7 anchored SUGGESTED)
+  unresolved_span: 23 -> 24 (the DEMOTE row)
+  store_rows: 920 -> 918 (the 2 resolved DEFER rows vanish; the DEMOTE row re-keys into the worklist)
+caveat: PROJECTED from verified facts, ASSERTED NOWHERE — every count lands at the R28-shaped rebuild
+  lane (which computes its own delta proofs, the R24 R5-gate convention) and the re-gate lane after it;
+  the DC-R24-01 discipline (compute, never assert coverage) is in force

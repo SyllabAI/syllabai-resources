@@ -1,0 +1,160 @@
+{
+  "schema": "c39-k2c-apply-record/1.0",
+  "task": "T-C39",
+  "gate": "K2 Lane C §18 governed apply (B01..B06 consolidated)",
+  "generated_utc": "2026-10-02T07:05:59+00:00",
+  "store_generated_date": "2026-10-02",
+  "baseline": "16257a32f48c0706776e86e634047bf40cf94e31",
+  "verdict_record": "scripts/c39_maths_a_k2c_verdicts.yaml",
+  "verdict_check": "graph/reports/C39_K2C_VERDICT_CHECK.json (ALL PASS)",
+  "intake": "graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md",
+  "intake_sha256": "f33aa7b86ff6f6704e7f972fcfda922a56a0c335ec761f4ddfc21ab3a00200c5",
+  "decision_records": [
+    "c33_maths_a_batch01_decisions.yaml",
+    "c34_maths_a_batch02_decisions.yaml",
+    "c35_maths_a_batch03_decisions.yaml",
+    "c36_maths_a_batch04_decisions.yaml",
+    "c37_maths_a_batch05_decisions.yaml",
+    "c38_maths_a_batch06_decisions.yaml"
+  ],
+  "authorized_surface": {
+    "authority": "SUGGESTED (provenance tier AI_SUGGESTED; zero HUMAN_VALIDATED; zero §18 promotion entries)",
+    "nodes": 82,
+    "concepts": 71,
+    "misconceptions": 11,
+    "semantic_edges": 73,
+    "part_of_edges": 84,
+    "command_kinds": 72,
+    "held_preserved": 45
+  },
+  "emitted_stores": {
+    "assessment_objectives.yaml": {
+      "sha256_16": "8579017a208035a7",
+      "bytes": 6714
+    },
+    "command_words.yaml": {
+      "sha256_16": "610a29ded0017922",
+      "bytes": 2167
+    },
+    "concept_edges.yaml": {
+      "sha256_16": "9aeda071a95c27ce",
+      "bytes": 219223
+    },
+    "concepts.yaml": {
+      "sha256_16": "f4c02fd7d023090d",
+      "bytes": 176803
+    },
+    "practicals.yaml": {
+      "sha256_16": "57bc13d247e16966",
+      "bytes": 2173
+    },
+    "spec_command_kinds.yaml": {
+      "sha256_16": "d3af40ffa36a7db5",
+      "bytes": 26110
+    },
+    "specification_points.yaml": {
+      "sha256_16": "33d3e5313d37464a",
+      "bytes": 222975
+    },
+    "topics.yaml": {
+      "sha256_16": "9febc0f296343329",
+      "bytes": 37861
+    }
+  },
+  "registry_delta": {
+    "qual": "igcse-maths-a",
+    "added": [
+      "concepts",
+      "concept_edges",
+      "spec_command_kinds"
+    ],
+    "maths_a_store_count": 8,
+    "still_absent": [
+      "spec_chunk_mappings (K2-B pending)",
+      "relationships (ratified-hierarchy lane)"
+    ]
+  },
+  "dated_corrections": [
+    "DC-01 held 45 (review prose 47 corrected)",
+    "DC-02 PART_OF 84 (batch-record prose 77 corrected; machine artifacts govern)",
+    "DC-03 quote probes 490/490 + preverify 192/192 confirmed",
+    {
+      "id": "DC-04",
+      "subject": "cross-batch node-code collision: 4MA1-CON-INDEX-LAWS",
+      "finding": "B03 (1.4C) and B05 (2.1D) both minted 4MA1-CON-INDEX-LAWS — caught by the post-apply P3 uniqueness gate (review §9 'no duplicate concept IDs were minted'), invisible to the per-batch preverifies (single-batch scope) and to the consolidated review's per-batch surface",
+      "resolution": "namespace disambiguation at emission per the records' own identity assertions: B03's node (1.4C, the full Higher laws, two-note substrate) keeps 4MA1-CON-INDEX-LAWS; B05's node (2.1D, simple cases, spec-text-only) is emitted as 4MA1-CON-INDEX-LAWS-SIMPLE-CASES with its 3 B05-internal edge endpoints following; zero cross-batch references existed (census asserted fail-closed)",
+      "basis": "different CORE SPs/titles/substances in the decision records; B05 derivation_notes ('not citable here; authors from the ratified wording alone'); the B04/B05/B06-ID-01 mirror-pair convention (two nodes, distinct codes, per row split); no merge or split is performed and no decision record is edited",
+      "disposition": "records unedited (C31 §7); the emitted store carries both nodes under distinct codes; 82 nodes preserved"
+    }
+  ],
+  "boundary_resolution": {
+    "superseding_map": [
+      "4MA1-1.7C",
+      "4MA1-1.7D",
+      "4MA1-2.7B"
+    ],
+    "landing_chain": {
+      "B06-H-02": "B05-H-06",
+      "B06-H-03": "B04-H-06"
+    },
+    "cross_batch_holds": "all 45 held candidates stay quarantined in the decision records; none emitted"
+  },
+  "held_ids": [
+    "B01-H-01",
+    "B01-H-02",
+    "B01-H-03",
+    "B01-H-04",
+    "B01-H-05",
+    "B02-H-01",
+    "B02-H-02",
+    "B02-H-03",
+    "B02-H-04",
+    "B02-H-05",
+    "B02-H-06",
+    "B02-H-07",
+    "B02-H-08",
+    "B03-H-01",
+    "B03-H-02",
+    "B03-H-03",
+    "B03-H-04",
+    "B03-H-05",
+    "B03-H-06",
+    "B03-H-07",
+    "B03-H-08",
+    "B04-H-01",
+    "B04-H-02",
+    "B04-H-03",
+    "B04-H-04",
+    "B04-H-05",
+    "B04-H-06",
+    "B04-H-07",
+    "B04-H-08",
+    "B05-H-01",
+    "B05-H-02",
+    "B05-H-03",
+    "B05-H-04",
+    "B05-H-05",
+    "B05-H-06",
+    "B05-H-07",
+    "B05-H-08",
+    "B06-H-01",
+    "B06-H-02",
+    "B06-H-03",
+    "B06-H-04",
+    "B06-H-05",
+    "B06-H-06",
+    "B06-H-07",
+    "B06-H-08"
+  ],
+  "not_done": [
+    "no HUMAN_VALIDATED anywhere",
+    "no promotions-file entries",
+    "no held-candidate promotion",
+    "no new concept mints beyond the 82",
+    "no spec_chunk_mappings (K2-B pending)",
+    "no chemistry writes",
+    "no corpus writes",
+    "decision records unmutated"
+  ],
+  "post_apply_check": "scripts/c39_maths_a_k2c_apply_check.py"
+}

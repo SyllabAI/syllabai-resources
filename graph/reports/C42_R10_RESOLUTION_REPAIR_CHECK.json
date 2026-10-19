@@ -1,0 +1,57 @@
+{
+ "schema": "c42-r10-resolution-repair-check/1.0",
+ "task": "T-C42",
+ "round": "R10",
+ "generated_utc": "2026-10-02T18:51:40+00:00",
+ "pre_r10_baseline_commit": "a872cdd",
+ "baseline_blob_sha16": "466250eaa21fada2",
+ "checks": [
+  {
+   "check": "C1 verdicts<->file agreement",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C2 counts (222/214/8, zero cleared)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C3 zero-drift (219 non-surface rows)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C4 code domain (0 foreign)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C5 top-level R10 block + R1/R6 history + clause + convention refs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C6 idempotency (verify-only re-run)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C7 override projection + adjudication + convention + sme_spcpt_verify (BASE re-pointed)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C8 R10 round committed and git-clean",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "C9 round artifacts (proposals surfaces 3/7/13 + convention record)",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "all_pass": true,
+ "exit": 0
+}

@@ -1,0 +1,135 @@
+schema: c42-r3-section-overrides/1.0
+task: T-C42
+round: R1
+generated: '2026-10-02'
+source: scripts/c42_repair_verdicts.yaml (section_overrides)
+contract: 'consumed fail-closed by scripts/c40_maths_a_chunk_sp_substrate.py at R3:
+  an override naming a code outside the ratified 188 fails the build'
+overrides:
+- note_slug: algebraic-roots-and-indices
+  chunk_ordinal: 0
+  current_code: 4MA1-1.4C
+  action: RETAIN
+  override_code: null
+  evidence: heading-only section head (the C40 convention keeps heading-only chunks);
+    the heading names the note's 1.4C topic; the semantic gate cannot verify heading-only
+    chunks — a known R4 re-fill limitation to handle explicitly
+- note_slug: averages-from-tables
+  chunk_ordinal: 2
+  current_code: 4MA1-6.2B
+  action: RETAIN
+  override_code: null
+  evidence: the mode IS part of 6.2B Foundation wording ('calculate the mean, median,
+    mode and range for a discrete data set') — another wording-tier artifact, same
+    class as the id-level AFFIRM set; the fill's own note records the range section
+    of the same note as spread content and CONFIRMed — both tier wordings live in
+    one code
+- note_slug: basic-angle-properties
+  chunk_ordinal: 4
+  current_code: 4MA1-4.1B
+  action: REATTRIBUTE
+  override_code: 4MA1-4.2B
+  evidence: the section teaches the quadrilateral angle sum — 4.2B 'understand and
+    use the term quadrilateral and the angle sum property of quadrilaterals' is verbatim
+    (the fill's evidence names the 4.2B surface)
+- note_slug: basic-fractions
+  chunk_ordinal: 6
+  current_code: 4MA1-1.2I
+  action: REATTRIBUTE
+  override_code: 4MA1-1.2A
+  evidence: the section teaches simplifying fractions; 1.2A 'understand and use equivalent
+    fractions, simplifying a fraction by cancelling common factors' is verbatim; 1.2I
+    is multiply/divide fractions
+- note_slug: basic-percentages
+  chunk_ordinal: 2
+  current_code: 4MA1-1.6F
+  action: REATTRIBUTE
+  override_code: 4MA1-1.6E
+  evidence: the section teaches finding a percentage of an amount; 1.6E 'solve simple
+    percentage problems, including percentage increase and decrease' is the skill
+    row (1.6D multiplicative-operator concept recorded as sibling); 1.6F is reverse
+    percentages
+- note_slug: drawing-straight-line-graphs
+  chunk_ordinal: 1
+  current_code: 4MA1-3.3F
+  action: REATTRIBUTE
+  override_code: 4MA1-3.3I
+  evidence: the section teaches plotting points from a table — 3.3I Foundation wording
+    'recognise, generate points and plot graphs of linear and quadratic functions'
+    is verbatim (the fill's evidence names the 3.3I surface); the note-level join
+    to 3.3F stands for its gradient sections
+- note_slug: drawing-straight-line-graphs
+  chunk_ordinal: 3
+  current_code: 4MA1-3.3F
+  action: REATTRIBUTE
+  override_code: 4MA1-3.3H
+  evidence: the section teaches drawing USING a known gradient/intercept — 3.3H 'equations
+    of the form y = mx + c are straight line graphs with gradient m and intercept
+    on the y-axis' is the surface; it does not calculate a gradient from two points
+    (3.3F's demand)
+- note_slug: quadratic-graphs
+  chunk_ordinal: 4
+  current_code: 4MA1-3.3I
+  action: REATTRIBUTE
+  override_code: 4MA1-2.2D
+  evidence: the section's mechanic is completing the square (2.2D 'complete the square
+    for a given quadratic expression'); the fill's 2.7B hint was solving-flavoured
+    and is refined here — finding a turning point is not equation-solving
+- note_slug: quadratic-graphs
+  chunk_ordinal: 5
+  current_code: 4MA1-3.3I
+  action: REATTRIBUTE
+  override_code: 4MA1-3.4C
+  evidence: the section teaches differentiation applied to quadratics — 3.4C 'determine
+    gradients, rates of change, stationary points, turning points ... by differentiation'
+    is verbatim (the fill's own evidence names the 3.4C surface)
+- note_slug: right-angled-trigonometry
+  chunk_ordinal: 6
+  current_code: 4MA1-4.8B
+  action: REATTRIBUTE
+  override_code: 4MA1-4.8C
+  evidence: the section teaches perpendicular/shortest distance from a point to a
+    line via trig — 4.8C Foundation wording 'apply trigonometrical methods to solve
+    problems in two dimensions' is the surface; 4.8B is angles of elevation and depression
+- note_slug: solving-linear-inequalities
+  chunk_ordinal: 3
+  current_code: 4MA1-2.8D
+  action: REATTRIBUTE
+  override_code: 4MA1-2.8C
+  evidence: the section represents inequalities on a NUMBER LINE; 2.8C 'solve simple
+    linear inequalities in one variable and represent the solution set on a number
+    line' is verbatim; 2.8D demands Cartesian-graph representation
+- note_slug: surface-area
+  chunk_ordinal: 0
+  current_code: 4MA1-4.10D
+  action: RETAIN
+  override_code: null
+  evidence: heading-only section head; the semantic gate cannot verify heading-only
+    chunks — the same known R4 limitation
+- note_slug: surface-area
+  chunk_ordinal: 1
+  current_code: 4MA1-4.10D
+  action: RETAIN
+  override_code: null
+  evidence: generic note-intro section ('What is surface area?'); the C40 convention
+    anchors intro sections at the note's SP; not a different-SP teaching surface
+- note_slug: surface-area
+  chunk_ordinal: 2
+  current_code: 4MA1-4.10D
+  action: REATTRIBUTE
+  override_code: 4MA1-4.10C
+  evidence: cube/cuboid/prism surface area is 4.10C 'find the surface area of simple
+    shapes using the area formulae for triangles and rectangles'; 4.10D is the cylinder
+- note_slug: surface-area
+  chunk_ordinal: 4
+  current_code: 4MA1-4.10D
+  action: REATTRIBUTE
+  override_code: 4MA1-4.10A
+  evidence: cone surface area is 4.10A Higher wording 'find the surface area and volume
+    of a sphere and a right circular cone'; 4.10D is the cylinder
+- note_slug: surface-area
+  chunk_ordinal: 5
+  current_code: 4MA1-4.10D
+  action: REATTRIBUTE
+  override_code: 4MA1-4.10A
+  evidence: sphere surface area is 4.10A Higher wording (as above); 4.10D is the cylinder

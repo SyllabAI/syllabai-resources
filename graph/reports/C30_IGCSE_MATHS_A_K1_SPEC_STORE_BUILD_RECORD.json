@@ -1,0 +1,83 @@
+{
+ "schema": "syllabai.c30-k1-build-record/1.0",
+ "task": "T-C30",
+ "phase": "K1",
+ "qual": "igcse-maths-a",
+ "course": "igcse-maths-a-18-higher",
+ "subject_code": "4MA1",
+ "tier_program": "Higher",
+ "date": "2026-10-01",
+ "operator_directive": "the natural follow-on is firing K1 (c23-pattern emitter -> 5 spec-text stores + registry entry)",
+ "operator_directive_channel": "zai-web, inline, 2026-10-01",
+ "baseline": {"resources_head": "8430547", "note": "the T-C29 K0 landing"},
+ "predecessors": ["graph/reports/C29_IGCSE_MATHS_A_K0_COMMISSIONING_RECORD.md",
+   "graph/reports/C23_DEFINITIVE_SWAP_RECORD.md",
+   "graph/reports/C26_SIBLING_STORE_REFRESH_RECORD.md",
+   "graph/reports/C28_MULTI_SUBJECT_EXPANSION_SPEC.md"],
+ "emitter": {"path": "scripts/c30_emit_maths_a_spec_stores.py",
+   "sha256_16": "390c5ee8151cfe9c",
+   "properties": ["zero-LLM", "deterministic (byte-identical re-run verified)",
+     "registry-resolved paths", "fail-closed pre/post conditions",
+     "explicit per-row lineage (no dict(old_meta) inheritance)"]},
+ "stores": {
+  "specification_points": {"path": "graph/igcse-maths-a/specification_points.yaml",
+    "sha256_16": "33d3e5313d37464a", "rows": 188,
+    "row_code_scheme": "4MA1-<official_code> (e.g. 4MA1-1.1A)",
+    "section_scheme": "4MA1-S1..S6", "subsection_scheme": "4MA1-S<n>-<sub> (e.g. 4MA1-S1-1.1)",
+    "ordering": "canonical walk ordinal verbatim; global_order 1..188 derived",
+    "flagged_preserved": ["4.5D", "3.1A", "3.2B", "3.2D", "3.3A", "3.3B", "3.3E", "4.6C"],
+    "flag_value": "math-fragment-assembly"},
+  "topics": {"path": "graph/igcse-maths-a/topics.yaml", "sha256_16": "9febc0f296343329",
+    "topics": 6, "subtopics": 39,
+    "titles": "Higher-walk titles (section 4 = 'Geometry and trigonometry'; Foundation variant in ledger)",
+    "subtopic_titles": "null — the spec numbers content subsections without titles (recorded, not invented)"},
+  "practicals": {"path": "graph/igcse-maths-a/practicals.yaml", "sha256_16": "57bc13d247e16966",
+    "rows": 0, "note": "empty by parse; canonical note verbatim"},
+  "assessment_objectives": {"path": "graph/igcse-maths-a/assessment_objectives.yaml",
+    "sha256_16": "8579017a208035a7", "statements": 3, "unit_weightings": 3,
+    "weights": {"AO1": "57-63%", "AO2": "22-28%", "AO3": "12-18%"}},
+  "command_words": {"path": "graph/igcse-maths-a/command_words.yaml",
+    "sha256_16": "610a29ded0017922", "rows": 0,
+    "note": "no command-word taxonomy table in source specification (canonical note verbatim)"}
+ },
+ "tier_dedupe": {
+  "rule": "higher-preferred — where an official_code appears in both tier walks the Higher-tier statement is the operative wording for the commissioned Higher program; Foundation-only statements carried verbatim (assumed knowledge per the spec's own applicability rule)",
+  "ledger": "graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json",
+  "ledger_sha256_16": "7f9322a8a05d3767",
+  "census": {"parsed_rows": 242, "unique_codes": 188, "dup_codes": 54,
+    "reworded": 53, "same_text": 1, "higher_only": 26, "foundation_only": 108},
+  "example": "1.3A Foundation 'use decimal notation' vs Higher 'convert recurring decimals into fractions'",
+  "title_variants": [{"section": 4, "higher": "Geometry and trigonometry", "foundation": "Geometry"}]
+ },
+ "registry": {
+  "change": "quals.igcse-maths-a added with the 5 store templates (P3: stores earned by the program; no legacy_map entries — no root-form paths ever existed for this qual)",
+  "no_hardcode_extension": "check_no_hardcode.registry_consistency now validates every registered qual (15 stores across 2 quals; legacy_map == derived 10)"
+ },
+ "known_cross_layer_divergence": {
+  "fact": "the s105 curriculum draft (layer-3, 4ad1673) deduped first-wins, so 53 of its draft spec-point titles carry the Foundation wording",
+  "status": "recorded, not repaired — the draft is SUGGESTED/provisional scaffolding; the K1 store is definitive; hub/core title refresh is core-lane work outside this repo's scope guards"
+ },
+ "verification": {
+  "checker": "scripts/c30_k1_check.py",
+  "checker_sha256_16": "b0ffbaff67f1b707",
+  "report": "graph/reports/C30_K1_CHECK.json",
+  "report_sha256_16": "d4e80ad7d0d0f362",
+  "gates": ["G1_canonical_equality_1to1", "G2_topics_subtopics_closure",
+    "G3_counts_match_parse_report", "G4_schema_provenance_namespace",
+    "G5_tier_dedupe_integrity", "G6_damage_scan_zero",
+    "G7_empty_by_parse_stores", "G8_assessment_objectives_verbatim",
+    "G9_chemistry_graph_check_green", "G10_no_hardcode_registry_green"],
+  "result": "ALL PASS, exit 0 (run at baseline 8430547)"
+ },
+ "not_derived": ["draft_skill_tags (no canonical source in maths parse)",
+   "spec_issue (no issue string asserted; syllabus_version 2016 per hub registry + s105)",
+   "official_bullets (canonical sub_items empty on all 242 rows)",
+   "subtopic titles (spec numbers content subsections without titles)",
+   "derived-plane re-pointing (K3 work per spec)"],
+ "footprint": "5 stores + tier ledger + emitter + checker + check report + registry entry + no-hardcode extension + this record; zero bytes in graph/igcse-chemistry/, parsed/** canonical JSON, SME corpora, or the derived plane",
+ "next_gates": {
+  "k2": "operator-gated per batch (chemistry sequence replayed); first prerequisite = notes->SP name-bridging join (recorded at K0)",
+  "k3": "projection re-pointing + explorer blob per C28 §4/§5 machinery",
+  "k4": "extended battery (S1/S5/S8 across N quals) before the qual is declared served"
+ }
+}

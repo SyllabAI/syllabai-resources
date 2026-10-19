@@ -1,0 +1,118 @@
+{
+  "schema": "c42-r27-join-record/1.0",
+  "task": "T-C42 R27 (join re-run lane)",
+  "generated_utc": "2026-10-04T09:20:00+00:00",
+  "directive": {
+    "text": "R27 join re-run + R28 rebuild consuming both carriers",
+    "date": "2026-10-04",
+    "channel": "zai-web",
+    "gateway_trace": "1a106d1aa121ab59",
+    "names": "the R26 record's next-decision menu option (a) verbatim: R27 join re-run + R28 substrate re-build consuming the R26 map AND amendment"
+  },
+  "baseline": "a8803c56 (the R26 post-commit audit commit; local == remote at round start)",
+  "kind": "agent-deterministic join re-run under a dated generator amendment (P5); every gate fail-closed; zero store bytes move — the R27 lane writes the derived notes-join artifact ONLY",
+  "generator": {
+    "path": "scripts/c32_notes_maths_a_join.py",
+    "amendment": "T-C42 R27 AMENDMENT (2026-10-04, dated per P5)",
+    "output": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "artifact_delta_fields": [
+      "task",
+      "validation_tier",
+      "generated_utc"
+    ],
+    "joins_content_identical": true
+  },
+  "census": {
+    "notes_pages": 191,
+    "anchors_total": 203,
+    "anchors_distinct": 203,
+    "joined": 198,
+    "unresolved_recorded": 5,
+    "ids_absent_from_resolution": 0,
+    "distinct_official_codes": 120,
+    "coverage_of_188": "120/188",
+    "coverage_by_applicability_tier": {
+      "Foundation": 61,
+      "Higher": 59
+    },
+    "anchors_by_applicability_tier": {
+      "Foundation": 81,
+      "Higher": 117
+    },
+    "foreign_codes": 0,
+    "wording_check_census": {
+      "EXACT": 173,
+      "LEDGER_EXPLAINABLE": 25
+    }
+  },
+  "unresolved_ids": [
+    "spcpt_3fMGfNtg3hXMg6gC",
+    "spcpt_8Wtthy9gt8B5xsVW",
+    "spcpt_QWXhzVp2S3VYZdZc",
+    "spcpt_hK2H8q4Y8NYv833v",
+    "spcpt_mVXT4jbXQPrzhHvz"
+  ],
+  "resolution_substrate": {
+    "path": "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
+    "head_blob_16": "93419a291b9b87ff",
+    "byte_untouched": true,
+    "counts": [222, 214, 8],
+    "last_writer": "R14"
+  },
+  "r26_standing_pins": {
+    "shape": "list (the R23 precedent)",
+    "pins": [
+      {"note_slug": "types-of-number", "joined_code": "4MA1-1.1G", "anchor_id": "spcpt_J55PhZ2cbPsYvpt8"},
+      {"note_slug": "factorising-by-grouping", "joined_code": "4MA1-2.2F", "anchor_id": "spcpt_vMSNnYkKPf62MRH9"},
+      {"note_slug": "drawing-straight-line-graphs", "joined_code": "4MA1-3.3F", "anchor_id": "spcpt_h8QyRmzX5mCJb3X9"},
+      {"note_slug": "introduction-to-vectors", "joined_code": "4MA1-5.1D", "anchor_id": "spcpt_v6tP4DSVShVJMJhk"}
+    ],
+    "verified_against": "the R26 map's own note_level_adjudications, in-generator fail-closed + J5"
+  },
+  "carried_pins": {
+    "verbatim_codes": 13,
+    "note": "R14 re-point (composite-functions -> 3.2D) + the R10 CORRECT pair (2.2A/2.2C) + the R10 STANDING pin (related-calculations -> 1.8D) + the two R18 STANDING pins (1.2G/4.1B) + the three R22 STANDING pins (4.8D/2.2F/2.6B) — all re-verified"
+  },
+  "r26_promotions_interaction": {
+    "novelty": "the R5 promotions file (832 rows) intersects the R26 map's 4 rows in EXACTLY those 4 rows BY mapping_id AND by note+ordinal — the R22/R23-era intersection was NOTHING; the R26 rows are the loop's FIRST promoted-surface inventory",
+    "r5_pinned_codes_equal_map_current_codes": true,
+    "amendment_agreement": {
+      "path": "scripts/c42_r26_promotions_amendment.yaml",
+      "schema": "c42-r28-promotions-amendment/1.0",
+      "base_file_sha256_16": "9bad739bd79e5899",
+      "base_file_untouched": true,
+      "supersedes": 3,
+      "excluded": 1,
+      "amended_code_equals_override_code": true,
+      "pinned_code_equals_r5_code": true
+    },
+    "verified_not_assumed": true
+  },
+  "input_pins_unchanged": {
+    "notes_manifest": "cc470d40873f51a4",
+    "resolution": "b4539ab904c9a319",
+    "spec_points_store": "33d3e5313d37464a",
+    "tier_dedupe_ledger": "7f9322a8a05d3767"
+  },
+  "store_untouched": {
+    "sha256_16": "ac37a91b9b657ef6",
+    "note": "the R25/R26-era store pin re-verified at HEAD; zero store bytes move in the join lane"
+  },
+  "environment": "sparse-checkout workspace (graph/ + scripts/ + the maths-a notes corpus + the notes-join artifact); the resolution substrate read through the generator's git-fallback and pinned by blob sha; core.fileMode false remains a sandbox setting only",
+  "verification": "scripts/c42_r27_join_check.py -> graph/reports/C42_R27_JOIN_CHECK.json (J1-J9 ALL PASS, exit 0; deterministic re-run content-identical modulo generated_utc)",
+  "not_fired": [
+    "R29 re-gate (explicit operator instruction only — the loop never self-fires)",
+    "the 4 H3 HOLD per-row sign-offs (1.7B / 6.3J / 3.3F / 2.2C) — still owed",
+    "the ord-3 promoted-surface extension candidate (3d-pythagoras SOHCAHTOA-3D) — untouched",
+    "the promoted-surface same-class candidates + the rational/irrational corpus gap — operator census remarks"
+  ],
+  "next_lane": "R28 substrate re-build consuming the R26 override map AND the R26 promotions amendment (fired by the SAME directive; runs after this round closes; the R27-refreshed join is the R28 build's join input)",
+  "footprint": [
+    "scripts/c32_notes_maths_a_join.py",
+    "scripts/c42_r27_join_check.py",
+    "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "graph/reports/C42_R27_JOIN_RECORD.md",
+    "graph/reports/C42_R27_JOIN_RECORD.json",
+    "graph/reports/C42_R27_JOIN_CHECK.json"
+  ]
+}

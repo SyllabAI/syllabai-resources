@@ -1,0 +1,85 @@
+{
+ "lane": "T-SPECS-CIE-VERDICT-1",
+ "generated_utc": "2026-10-18T22:46:00Z",
+ "base_commit": "fea58c8a",
+ "checks": [
+  {
+   "id": "V1",
+   "name": "25 verdict lanes well-formed (ACCEPTED + additive verdict blocks)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V2",
+   "name": "verdict bijection (resolved == sheet == by_tier, per lane)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V3",
+   "name": "zero dangling verdict targets (id + code in registry)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V4",
+   "name": "verdict + join vocabularies both conform",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V5a",
+   "name": "normalization SPEC equivalence self-test (5 probes)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V5",
+   "name": "independent re-derivation of every resolve (613)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V6",
+   "name": "cascade integrity + fresh universe recount (25 lanes)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V7",
+   "name": "manifest verdict rows + pre-existing rows + cie_verdict block",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V8a",
+   "name": "non-verdict CIE lanes + Edexcel spec-links byte-identical vs HEAD",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V8b",
+   "name": "join payload preserved verbatim; pending delta == verdict removals",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V9",
+   "name": "footprint guard (git status within declared set)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "id": "V10",
+   "name": "fixed-stamp re-evaluation of 2 sample lanes == sheet",
+   "ok": true,
+   "detail": "[]"
+  }
+ ],
+ "summary": {
+  "total": 12,
+  "passed": 12,
+  "all_pass": true,
+  "resolved_ids_total": 613
+ }
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "c39-post-apply-check/1.0",
+  "task": "T-C39",
+  "gate": "K2 Lane C post-apply verification (§9 checklist)",
+  "baseline": "16257a32f48c0706776e86e634047bf40cf94e31",
+  "result": "ALL PASS",
+  "gates": [
+    {
+      "gate": "P1",
+      "name": "counts_equal_authorized_surface",
+      "status": "PASS",
+      "detail": "82 = 71 CONCEPT + 11 MISCONCEPTION nodes; 157 = 84 PART_OF + 51 RP + 11 WAP + 11 REM edges; 72 kinds = 56 APPLY + 15 UNDERSTAND + 1 KNOW_TERM; meta.counts agree"
+    },
+    {
+      "gate": "P2",
+      "name": "authority_suggested_everywhere",
+      "status": "PASS",
+      "detail": "zero HUMAN_VALIDATED; every node/edge SUGGESTED at tier AI_SUGGESTED; no validated_by/validated_date fields (no promotion entries)"
+    },
+    {
+      "gate": "P3",
+      "name": "no_duplicate_ids_namespace",
+      "status": "PASS",
+      "detail": "82 unique node codes, all 4MA1-*; 72 unique command-kind codes"
+    },
+    {
+      "gate": "P4",
+      "name": "endpoints_resolve_canonical",
+      "status": "PASS",
+      "detail": "all 73 semantic edges resolve to declared nodes (no cross-batch dangling: the 45 cross-batch candidates were held, none authored); all 84 PART_OF targets are ratified 4MA1 SP codes"
+    },
+    {
+      "gate": "P5",
+      "name": "part_of_equals_attachments",
+      "status": "PASS",
+      "detail": "84 PART_OF rows == the declared node attachments exactly (bijection, derived at generation per C11_ARCHITECTURE.md §18 scope limits)"
+    },
+    {
+      "gate": "P6",
+      "name": "no_held_promoted",
+      "status": "PASS",
+      "detail": "45 held candidates preserved in the decision records and emitted nowhere; 15 of them are edge-shaped and none of those triples appears in the store (NO-GO #3 enforced: no held candidate converted because a later batch contains a related concept); 128 held-id references live in derivation_notes prose only — the records' own documentation of why each edge was held"
+    },
+    {
+      "gate": "P7",
+      "name": "misconception_integrity",
+      "status": "PASS",
+      "detail": "11/11 misconception nodes: WRONG_ANSWER_PATTERN class, mark-scheme evidence, ASSESSMENT_DOCUMENTED provenance, home-SP attachment, and the WAP + REMEDIATED_BY pairing with remediation target == WAP target"
+    },
+    {
+      "gate": "P8",
+      "name": "anchors_byte_verified_negative_control",
+      "status": "PASS",
+      "detail": "775 store anchors checked under the T-C10 norm (SPEC == ratified wording; NOTE join-carried + pair-backed; MS in the EQ tree); read channels {'disk': 1, 'git-batch': 87}; the unjoined-corpus negative control holds on the STORE surface"
+    },
+    {
+      "gate": "P9",
+      "name": "registry_and_standing_checkers",
+      "status": "PASS",
+      "detail": "maths-a registry 8 stores (K2 target 9: spec_chunk_mappings arrives with K2-B); graph_check rc=0 (chemistry default, untouched); check_no_hardcode rc=0; the 5 K1 maths-a stores byte-untouched"
+    },
+    {
+      "gate": "P10",
+      "name": "deterministic_regeneration",
+      "status": "PASS",
+      "detail": "generator re-run reproduces all three stores byte-for-byte; the apply-record pins match the final bytes"
+    },
+    {
+      "gate": "P11",
+      "name": "decision_records_unmutated",
+      "status": "PASS",
+      "detail": "the six decision records (incl. their held: lists) byte-untouched vs git HEAD; the verdict record and review copy are new untracked files as expected"
+    }
+  ],
+  "anchors_checked": 775,
+  "read_channels": {
+    "disk": 1,
+    "git-batch": 87
+  }
+}

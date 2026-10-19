@@ -1,0 +1,136 @@
+{
+  "schema": "syllabai.c34-k2c2-batch02-record/1.0",
+  "task": "T-C34",
+  "gate": "K2-C-2",
+  "batch": "B02",
+  "version": "1.0 — batch B02 authored to the verdict gate; nothing promoted; no maths-a K2 store created at this gate",
+  "date": "2026-10-01",
+  "operator_directive": "K2-C-2 (2026-10-01, zai-web, inline)",
+  "baseline": "f0f4c2d5929a2e06c92e9f740984e8d68325027a",
+  "predecessors": [
+    "C33_IGCSE_MATHS_A_K2C1_BATCH01",
+    "C31_IGCSE_MATHS_A_K2_SCOPE",
+    "C32_IGCSE_MATHS_A_K2A_LANE_A",
+    "C11 §16 chemistry batch machinery (incl. the batch-10/11 misconception shapes)"
+  ],
+  "slice": {
+    "spec_points": [
+      "4MA1-1.2E",
+      "4MA1-1.2F",
+      "4MA1-1.2G",
+      "4MA1-1.2H",
+      "4MA1-1.2I",
+      "4MA1-1.3A",
+      "4MA1-1.3B",
+      "4MA1-1.3C",
+      "4MA1-1.3D",
+      "4MA1-1.3E",
+      "4MA1-1.4A",
+      "4MA1-1.4B"
+    ],
+    "global_order": "13-24",
+    "applicability": "mixed-tier — 9 Foundation rows + the first 3 Higher rows (4MA1-1.3A, 4MA1-1.4A, 4MA1-1.4B); spans the 1.2 tail, 1.3 complete and the 1.4 head"
+  },
+  "authored": {
+    "concept_nodes": 12,
+    "misconception_nodes": 2,
+    "authored_edges": 10,
+    "edge_mix": {
+      "REQUIRES_PREREQUISITE": 6,
+      "WRONG_ANSWER_PATTERN": 2,
+      "REMEDIATED_BY": 2
+    },
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": [
+      "B02-ID-01",
+      "B02-ID-02",
+      "B02-ID-03"
+    ],
+    "evidence_anchors": 61,
+    "anchor_mix": {
+      "NOTE": 26,
+      "SPEC": 21,
+      "MARK_SCHEME": 14
+    },
+    "node_attachments": 14,
+    "derived_partof_at_apply": 14,
+    "misconceptions": 2,
+    "misconception_note": "the FIRST maths-a mints — 4MA1-MIS-SURD-FACTOR-SWAP and 4MA1-MIS-CONJUGATE-EXPANSION-SIGN on the surds topic MS Q12 20(a)/(b) documentation; the mint-vs-exam-trivia question is operator-reserved (B02-ID-03, the chemistry B10-ID-05 precedent)"
+  },
+  "coverage_profile": {
+    "notes_joined_sps": [
+      "4MA1-1.2F",
+      "4MA1-1.2G",
+      "4MA1-1.2I",
+      "4MA1-1.3A",
+      "4MA1-1.3C",
+      "4MA1-1.4A",
+      "4MA1-1.4B"
+    ],
+    "spec_text_only_sps": [
+      "4MA1-1.2E",
+      "4MA1-1.2H",
+      "4MA1-1.3B",
+      "4MA1-1.3D",
+      "4MA1-1.3E"
+    ],
+    "ms_evidence_sps": [
+      "4MA1-1.2F",
+      "4MA1-1.3A",
+      "4MA1-1.3C",
+      "4MA1-1.4B"
+    ],
+    "unjoined_corpus_negative_control": "second-batch strength — every NOTE citation is one of the 11 join-carried notes and pair-backed (node attachments at their SP; edge evidence at an endpoint SP, a strengthening over B01); the corpus's nearby unjoined pages are cited NOWHERE; the 2 join-carried-but-uncited pages (negative-numbers -> 1.4A, algebraic-notation -> 1.3A) are recorded in the census with dispositions, not padded citations"
+  },
+  "pass2_agreement": {
+    "nodes": "14/14 CONFIRM (12 concept + 2 misconception)",
+    "edges": "10 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "8/8 AGREE",
+    "re_authoring_cases": 0
+  },
+  "inherited_from_b01": {
+    "boundary_map_reclassification": "4MA1-1.2F, 4MA1-1.2I, 4MA1-1.3B now IN-SLICE; 4MA1-1.4D, 4MA1-1.4E, 4MA1-1.7A still future",
+    "held_quarantine": "B01-H-01..05 preserved untouched; rules alongside B02-H-01..08 at the verdict session"
+  },
+  "future_batch_boundary_map": [
+    "4MA1-1.4D",
+    "4MA1-1.4E",
+    "4MA1-1.7A",
+    "4MA1-1.8B"
+  ],
+  "artifacts": {
+    "authorization": {
+      "path": "scripts/c34_maths_a_batch02_authorization.yaml",
+      "sha256_16": "8bed477924bf458c"
+    },
+    "decisions": {
+      "path": "scripts/c34_maths_a_batch02_decisions.yaml",
+      "sha256_16": "5c548f576ba141f0"
+    },
+    "pass2": {
+      "path": "scripts/c34_maths_a_batch02_review_pass2.yaml",
+      "sha256_16": "e361a7e6ca523cfe"
+    },
+    "review_sheet": {
+      "path": "graph/reports/C34_BATCH02_REVIEW_SHEET.md",
+      "sha256_16": "de5f1a9de0a567aa"
+    },
+    "review_json": {
+      "path": "graph/reports/C34_BATCH02_REVIEW.json",
+      "sha256_16": "83a4ceea08a97780"
+    },
+    "check_report": {
+      "path": "graph/reports/C34_BATCH02_CHECK.json"
+    },
+    "battery": {
+      "path": "scripts/c34_maths_a_batch02_check.py"
+    },
+    "record_md": {
+      "path": "graph/reports/C34_IGCSE_MATHS_A_K2C2_BATCH02_RECORD.md"
+    }
+  },
+  "verification": "scripts/c34_maths_a_batch02_check.py G1-G7 all PASS, exit 0 (preverify 32/32; quote probe 61/61 verbatim; review sheet byte-reproducible; freeze integrity at f0f4c2d5; standing checkers green)",
+  "stores_grown": 0,
+  "promotions": 0
+}

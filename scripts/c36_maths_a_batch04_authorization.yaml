@@ -1,0 +1,92 @@
+# T-C36 K2-C-4 batch commissioning — igcse-maths-a (4MA1 Higher) §16 replay, batch B04.
+# OPERATOR-OWNED commissioning record. This file authorizes ONE batch (B04) and NOTHING
+# else: no promotion without the batch's recorded operator verdicts, no store writes from
+# this commissioning itself, no scope beyond the B04 slice, no corpus writes. It replays
+# the c35_maths_a_batch03_authorization.yaml shape (which replayed the c34 batch-02
+# authorization, which replayed the c33 batch-01 authorization, which replayed the
+# chemistry c11_s16_authorization.yaml) at batch granularity per the C31 scope record §5
+# ("one c11_s16_authorization.yaml-equivalent per batch commissioning, stored under
+# scripts/"). Revocation or modification requires an explicit dated operator decision
+# superseding this record — never a silent edit.
+meta:
+  task: T-C36
+  stage: k2-c-batch-04-authorization
+  file: OPERATOR-OWNED K2-C-4 batch commissioning record — the operator directive that
+    fires the fourth Lane C batch of the C31 K2 scope (2026-10-02).
+  contract: 'graph/reports/C31_IGCSE_MATHS_A_K2_SCOPE.md §5 (batch plan) + §8 (the K2-C-1..16
+    gate row — commission → author → review → verdict) + §7 (scope guards)'
+  authorization_chain: C28 spec §6-K2 (the playbook lane) → C31 scope record (K2 scoped,
+    gates named) → this record (gate K2-C-4 fired for batch B04)
+authorization:
+  decision: AUTHORIZED
+  authorized_by: operator
+  authorized_date: '2026-10-02'
+  operator_statement_verbatim: K2-C-4
+  statement_context: 'The operator directive "K2-C-4" (2026-10-02, zai-web) fires gate
+    K2-C-4 of the C31 §8 sequence — batch B04 of the 16-batch Lane C plan — commissioning
+    commission → author → review for the slice below and reserving the verdict step to the
+    operator. The directive was given with K2-B (chunk substrate) not yet run and with the
+    B01, B02 and B03 verdicts not yet recorded; all legitimate per the C31 §6 parallel
+    provision and the established authored-to-gate packet shape (B02 and B03 proceeded on
+    exactly the same basis, and the T-C35 record anticipated this commissioning: the B04
+    packet inherits the B03 audit''s 4-code boundary map and all three held quarantines).
+    B04 proceeds on the notes-join + spec-text substrate alone at the unchanged first-apply
+    store state (the maths-a graph dir still carries exactly the 5 K1 stores). This record
+    commands no generation by itself beyond the commissioned batch; every other batch
+    (B05..B16) remains separately commissioned and separately gated.'
+  scope:
+    unlocked: 'Lane C batch B04 ONLY: the 12 specification points 4MA1-1.6E..4MA1-1.8D
+      (global_order 37–48 of the ratified K1 store), authored to the operator verdict gate —
+      batch decisions record (nodes / edges / held / command kinds / identity decisions),
+      machine pre-verification, quote probe, term audit, review sheet + pass-2. The verdict
+      step itself is RESERVED to the operator; nothing promotes and no graph/igcse-maths-a
+      store grows from this commissioning.'
+    not_authorized: 'any store write or promotion before the operator''s recorded per-row
+      verdicts through the §18 pathway; any batch other than B04 (B05..B16 each need their
+      own commissioning; B01''s, B02''s and B03''s promotions likewise wait on their own
+      verdict sessions); any Lane B (chunk substrate), Lane D or K3/K4 work; any write into
+      SME-RevisionNotes/**, SME-ExamQuestion/** or parsed/** canonical JSON; any edit to
+      the ratified K1 stores; any change to the chemistry program (the parallel C11
+      machinery and its stores are untouchable); AI attribution anywhere in validation
+      state.'
+  invariants:
+  - zero silent promotion — every node/edge in the batch record carries validation_status
+    SUGGESTED; HUMAN_VALIDATED is reachable only via the operator's verdicts through the §18
+    pathway after this gate
+  - every evidence quote byte-verified against its cited file (the G03/c11.4 normalization
+    convention); no fabricated anchors anywhere in the record
+  - every NOTE-kind evidence file must be one of the 14 join-carried notes of the slice (the
+    operator-worked C32 substrate); every NOTE citation must be pair-backed (the note is
+    joined to the SP it attaches to, or for an edge to one of the edge's endpoint SPs — the
+    B02 pair-back strength, carried forward by B03 and inherited here); the corpus's
+    unjoined pages are NOT citable evidence — candidates that would need them are HELD,
+    never authored
+  - every mapped SP code is in the B04 slice; no node or edge references a non-slice SP;
+    foreign-code and non-slice leakage are hard-fail classes
+  - cross-batch boundary discipline — candidate edges whose natural target is a node
+    authored in another batch (B01/B02/B03) or a future batch's SP family are RECORDED as
+    held candidates with failure classes, never force-authored and never silently dropped;
+    no registry exists to resolve them (the maths-a concepts store still does not exist),
+    and the chemistry cross-slice ruling class stays defined against a promoted registry
+  - held candidates are RECORDED with failure classes, never silently dropped and never
+    forced into authorship; the B01 quarantine (B01-H-01..05), the B02 quarantine
+    (B02-H-01..08) and the B03 quarantine (B03-H-01..08) are inherited and preserved
+    forward untouched alongside the batch's own B04-H-* rows
+  - >-
+    zero misconceptions UNLESS a mark-scheme row documents the wrong-answer class (the
+    chemistry contract); the B04-topic mark-scheme files (percentages,
+    compound-interest-and-depreciation, ratio-toolkit, ratio-problem-solving,
+    direct-and-inverse-proportion, rounding-estimation-and-bounds) document exactly two
+    wrong-answer classes — the percentages MS Q10/Q11 inverted-quotient rows (ALREADY
+    minted by B03 as 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION; B04 does not re-mint the
+    class, it inherits the home-row question through B03-ID-02) and the ratio-toolkit MS
+    part-order row (a student writing "32 : 27" where 27 : 32 is meant) — at most the ONE
+    un-minted documented class may be minted here, with the documenting row as its
+    evidence; the mint-vs-exam-trivia question and the inversion-class home row are
+    operator-reserved identity decisions (the chemistry B10-ID-05 / B02-ID-03 / B03-ID-03
+    precedent)
+  - no hand-edited graph/*.yaml ever; the deterministic regeneration contract stands
+  - the C27 damage scan and provenance namespaces apply to every authored row; the 8
+    damage-flagged store rows (math-fragment-assembly) are outside this slice and untouched
+  - the corpus and the ratified stores are read-only at this gate (freeze integrity asserted
+    by the battery)

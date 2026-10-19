@@ -1,0 +1,83 @@
+{
+  "schema": "c42-r4-regate-fill-record/1.0",
+  "task": "T-C42",
+  "stage": "r4-regate-fill",
+  "generated_utc": "2026-10-02T13:11:24+00:00",
+  "baseline": "caaff09c09f03dfba913cd3a233f56aaefe4c339",
+  "reviewer": "Super Z (GLM agent), acting as operator-delegate under the operator's R4 re-gate directive (2026-10-02, zai-web); the human operator retains final sign-off; per the anti-forgery rule nothing here flips the store (the §18 apply is R5, operator gate 3)",
+  "sheet": "graph/reports/C42_R4_MATHS_A_REGATE_REVIEW_SHEET.md",
+  "verdicts_record": "scripts/c42_r4_review_verdicts.yaml",
+  "sampling": {
+    "seed": "9487e29faa934177",
+    "strata": {
+      "exact": 484,
+      "none": 132,
+      "partial": 238
+    },
+    "sampled": {
+      "exact": 97,
+      "none": 132,
+      "partial": 238
+    }
+  },
+  "part_a": {
+    "total": {
+      "rows": 467,
+      "confirm": 447,
+      "reject": 19,
+      "hold": 1,
+      "precision": 0.9572
+    },
+    "by_stratum": {
+      "exact": {
+        "rows": 97,
+        "confirm": 78,
+        "reject": 19,
+        "hold": 0,
+        "precision": 0.8041
+      },
+      "partial": {
+        "rows": 238,
+        "confirm": 237,
+        "reject": 0,
+        "hold": 1,
+        "precision": 0.9958
+      },
+      "none": {
+        "rows": 132,
+        "confirm": 132,
+        "reject": 0,
+        "hold": 0,
+        "precision": 1.0
+      }
+    },
+    "verdict_sources": {
+      "r4-fresh": 68,
+      "r1-id-verdict": 82,
+      "c40-carried": 307,
+      "r1-section-override": 10
+    }
+  },
+  "part_b": {
+    "rows": 74,
+    "defer": 74,
+    "surfaces": {
+      "C42 R1 surface-1 cleared span": 6,
+      "C32 §3 residual (R1 KEPT UNRESOLVED)": 2,
+      "uncovered-SP corpus gap (122-code bound)": 66
+    }
+  },
+  "both_tier_wording": {
+    "standing_instruction": "the re-fill consults BOTH tier wordings (store Higher-operative + C30 ledger foundation.text) per the R1 key finding",
+    "signatures": {
+      "STORE_HIGHER": 423,
+      "LEDGER_FOUNDATION": 44
+    }
+  },
+  "gate": {
+    "rule": "Part A precision >= 90% per class AND every Part B row decided AND mechanical layer clean",
+    "outcome": "FAIL"
+  },
+  "disposition": "promotion NOT authorized; the defect inventory is recorded",
+  "mechanical_layer": "467/467 PASS"
+}

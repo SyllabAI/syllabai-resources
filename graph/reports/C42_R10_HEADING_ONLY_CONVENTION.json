@@ -1,0 +1,120 @@
+{
+ "schema": "syllabai.c42-heading-only-convention/1.0",
+ "task": "T-C42 R10",
+ "decision_id": "c42-heading-only-convention-1",
+ "date": "2026-10-03",
+ "directive": "an R1-shaped round over the R9 inventory (then R7/R8/R9 again), the heading-only-chunk convention decision (2026-10-03, zai-web)",
+ "mode": "operator-delegate (C12/C13); the human operator retains final sign-off; reviewable and reversible before R5; zero promotion",
+ "record_md": "graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md",
+ "definition": "a chunk is heading-only iff norm(chunk text) == norm(chunk heading) under the shared norm() of the pinned c40 chunker, computed from a fresh re-chunking at every fill",
+ "ground_truth_census": {
+  "anchored_rows": 862,
+  "heading_only_rows": 204,
+  "share": "23.7%",
+  "exact_stratum_members": 110
+ },
+ "ruling": "a heading-only chunk is a structural slice of the corpus's own spec_point span; its chunk->SP row carries the SPAN's standing via the fail-closed evidence ladder",
+ "ladder": {
+  "H1_verdict_standing": "span anchor carries an operator id-verdict (R1 AFFIRM/CORRECT, R6/R10 CORRECT) or an R10 note-level 'join stands' adjudication -> CONFIRM (provenance names round + anchor + ruling)",
+  "H2_content_standing": "the note carries >=1 CONFIRM at R4/R9 on the same spec_code whose own chunk is NOT heading-only -> CONFIRM (provenance names the confirming row(s))",
+  "H3_fail_closed": "otherwise HOLD - explicit, recorded, never silently confirmed or re-rejected; un-holds automatically when H1/H2 becomes true"
+ },
+ "exclusions": [
+  "a heading-only row's own prior CONFIRM (incl. C40-era carried confirms) does NOT satisfy H2 - only content-row confirms count",
+  "a REJECT-free history alone is not evidence - no clean-history branch",
+  "chunk identity, the chunker and chunk bytes are untouched (W3 invariant unaffected)",
+  "nothing promotes: the store stays SUGGESTED until R5 (operator gate 3)"
+ ],
+ "r5_eligibility": "H1/H2 rows are ordinary CONFIRM rows for the §18 apply; H3 rows ride R5 only with explicit operator sign-off plus a per-row listing, or stay SUGGESTED",
+ "application_to_the_r9_sheet_13_rows": {
+  "H1": [
+   {
+    "code": "4MA1-1.2A",
+    "note_slug": "algebraic-fractions",
+    "ordinal": 0,
+    "via": "R10 CORRECT spcpt_pqWsmktWyMCRfTk6 (1.2A -> 2.2C)"
+   },
+   {
+    "code": "4MA1-1.8D",
+    "note_slug": "related-calculations",
+    "ordinal": 0,
+    "via": "R10 note-level adjudication: the 1.8D join STANDS (ord-3 estimation-to-check surface)"
+   }
+  ],
+  "H2": [
+   {
+    "code": "4MA1-1.4C",
+    "note_slug": "algebraic-roots-and-indices",
+    "ordinal": 0,
+    "content_confirms": 2
+   },
+   {
+    "code": "4MA1-1.7E",
+    "note_slug": "sharing-in-a-ratio",
+    "ordinal": 0,
+    "content_confirms": 2
+   },
+   {
+    "code": "4MA1-1.9A",
+    "note_slug": "operations-with-standard-form",
+    "ordinal": 2,
+    "content_confirms": 1,
+    "via": "ord 4 'Division' R9 fresh CONFIRM"
+   },
+   {
+    "code": "4MA1-4.6C",
+    "note_slug": "the-alternate-segment-theorem",
+    "ordinal": 0,
+    "content_confirms": 1
+   },
+   {
+    "code": "4MA1-4.9C",
+    "note_slug": "adding-and-subtracting-areas",
+    "ordinal": 0,
+    "content_confirms": 2
+   },
+   {
+    "code": "4MA1-4.10D",
+    "note_slug": "surface-area",
+    "ordinal": 0,
+    "content_confirms": 4
+   },
+   {
+    "code": "4MA1-5.1D",
+    "note_slug": "introduction-to-vectors",
+    "ordinal": 0,
+    "content_confirms": 2
+   },
+   {
+    "code": "4MA1-6.2B",
+    "note_slug": "averages-from-tables",
+    "ordinal": 0,
+    "content_confirms": 5
+   },
+   {
+    "code": "4MA1-6.3G",
+    "note_slug": "relative-and-expected-frequency",
+    "ordinal": 0,
+    "content_confirms": 1
+   }
+  ],
+  "H3_hold": [
+   {
+    "code": "4MA1-3.3I",
+    "note_slug": "drawing-graphs-from-tables",
+    "ordinal": 0,
+    "why": "no anchor verdict; zero content-row confirms of the note"
+   },
+   {
+    "code": "4MA1-5.1G",
+    "note_slug": "vector-proof",
+    "ordinal": 0,
+    "why": "no anchor verdict; zero content-row confirms of the note"
+   }
+  ]
+ },
+ "enforcement": {
+  "fill": "scripts/c42_r13_regate_fill.py",
+  "check": "scripts/c42_r13_regate_check.py"
+ }
+}

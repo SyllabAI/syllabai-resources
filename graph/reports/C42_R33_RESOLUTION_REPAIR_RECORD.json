@@ -1,0 +1,127 @@
+{
+  "schema": "c42-r33-resolution-repair-record/1.0",
+  "task": "T-C42",
+  "stage": "r33-operator-delegate-dispositions-over-the-r32-defect-inventory",
+  "round": "R33",
+  "review_date": "2026-10-12",
+  "operator_directive": "Start repair (2026-10-12, zai-web, gateway trace 1a1311195c15d3cd)",
+  "fired_by": {
+    "inventory": "the R32 validation re-gate's defect inventory (its own return, recorded in scripts/c42_r32_fresh_verdicts.yaml): 1 fresh REJECT + the sibling exposure its root disclosed",
+    "reject_row": "7169cc1735d43642 (rounding-and-estimation::8, the estimate-evaluation surface joined at 4MA1-1.8B; canonical target 4MA1-1.8D)",
+    "sibling_exposure": "ords 5/6/7 of the same note, promoted rows on the same estimation surface via the same anchor (the R32 root's census remark)",
+    "menu_recorded_by_r32": "the R1 surface-1 clear / REATTRIBUTE / re-anchor / DEMOTE menu (the R30 shape: a future REATTRIBUTE 1.8B -> 1.8D batch or an operator re-anchor)"
+  },
+  "baseline": {
+    "head": "d8853ec",
+    "store_sha256_16": "4aeb73e1575f9586",
+    "store_rows": 917,
+    "composition": "831 HUMAN_VALIDATED + 4 anchored SUGGESTED + 82 worklist (27 unresolved-span + 55 uncovered-SP)",
+    "covered": "133/188",
+    "r5_promotions_sha256_16": "9bad739bd79e5899"
+  },
+  "round_contract": {
+    "lane": "the NINTH R1-shaped repair round, the THIRD over the promoted surface",
+    "store_movement": "ZERO store bytes move THIS round — the dispositions land as the R33 carriers (map + amendment); the store moves ONLY at the R34-shaped rebuild consuming them",
+    "join_layer": "NO resolution-file amendment: the note's own 1.8B anchor (spcpt_p8zkdCF8QVvDZyVX) and the related-calculations 1.8D anchor (spcpt_crKbmb6wVjM4yPJh, the R10 STANDING join) remain STANDING at the untouched join layer (counts 222/214/8)",
+    "re_gate": "the directive names neither a re-build nor a re-gate — both stay the operator's call (explicit instruction only)"
+  },
+  "section_overrides": [
+    {
+      "note_slug": "rounding-and-estimation",
+      "chunk_ordinal": 8,
+      "mapping_id": "7169cc1735d43642",
+      "heading": "How do I know if I have underestimated or overestimated?",
+      "current_code": "4MA1-1.8B",
+      "action": "REATTRIBUTE",
+      "target": "4MA1-1.8D",
+      "status": "HUMAN_VALIDATED",
+      "projected_new_id": "68c165d51b56047a",
+      "basis": "THE FIRED DEFECT — the R32 fresh REJECT, verdicted. The chunk teaches estimate-evaluation verbatim: the over/underestimate discrimination tables (addition/multiplication vs subtraction/division, the 'Not easy to tell' rows) and the worked example 'Calculate an estimate for (17.3 x 3.81) / 11.5 ... whether the estimate is an overestimate or an underestimate' -> 'This is an overestimate as the numerator was rounded up and the denominator was rounded down'. 1.8D 'use estimation to evaluate approximations to numerical calculations' VERBATIM; no to-a-given-degree rounding taught (presupposed). NOT a tier artifact (1.8B absent from the C30 ledger). 1.8D already covered via the R10 join — a scope correction, not a coverage gain."
+    },
+    {
+      "note_slug": "rounding-and-estimation",
+      "chunk_ordinal": 6,
+      "mapping_id": "a7c0585948a3e06e",
+      "heading": "Why do I need to estimate?",
+      "current_code": "4MA1-1.8B",
+      "action": "REATTRIBUTE",
+      "target": "4MA1-1.8D",
+      "status": "HUMAN_VALIDATED",
+      "projected_new_id": "8f22e1623c025e18",
+      "basis": "The sibling exposure, adjudicated on its OWN chunk: 'Estimation can be used to find approximations for difficult calculations'; 'You can estimate a calculation to check your answers'; 'You can identify if there is a mistake in your working out if your answer is much bigger or smaller than your estimated value' — the PURPOSE of estimation verbatim, 1.8D on its purpose/why surface. No rounding mechanics taught."
+    },
+    {
+      "note_slug": "rounding-and-estimation",
+      "chunk_ordinal": 7,
+      "mapping_id": "b5c13a3e2908b8d1",
+      "heading": "How do I estimate?",
+      "current_code": "4MA1-1.8B",
+      "action": "REATTRIBUTE",
+      "target": "4MA1-1.8D",
+      "status": "HUMAN_VALIDATED",
+      "projected_new_id": "bb44385407a47188",
+      "basis": "The sibling exposure, adjudicated on its OWN chunk: 'Round each number in the question to a sensible degree, then perform the calculation'; 'The general rule is to round numbers to 1 significant figure'; 'Avoid rounding values to zero' — the estimation METHOD itself, 1.8D on its method/how surface (the R25 6.3G method-surface precedent). The 1-s.f. default is the estimation heuristic, NOT 1.8B's to-a-GIVEN-degree surface: the chunk explicitly defers the given degree to the exam question."
+    }
+  ],
+  "retain_rulings": [
+    {
+      "note_slug": "rounding-and-estimation",
+      "chunk_ordinal": 5,
+      "mapping_id": "38ca995fa13cd5bb",
+      "code": "4MA1-1.8B",
+      "ruling": "RETAIN",
+      "basis": "The fired sibling adjudicated — the HONEST-SPLIT ruling: the chunk's taught content is the ROUNDING half. Its worked example IS 'Round the following numbers to 3 significant figures' verbatim (345 256 -> 345 000; 0.002 956 314 -> 0.002 96; 3.997 -> 4.00), the Exam Hint reinforces s.f. rounding ('Round 2 530 457 to 3 significant figures ... very different sizes!'), and the up/down bullets teach rounding DIRECTION under real-life constraints ('you would round up, to 4 adults'; 'you would round down, to 4 crates'). NO estimate-vs-calculation evaluation anywhere — 1.8D's demand is NOT exercised (that is ord 8's surface). A 1.8D re-home would re-create the scope-difference class the loop rejects (the R18 labeling-primer precedent: judge the CHUNK, not the heading). ZERO MOVEMENT."
+    },
+    {
+      "note_slug": "rounding-and-estimation",
+      "chunk_ordinal": 0,
+      "mapping_id": "8051d57122e682f7",
+      "code": "4MA1-1.8B",
+      "ruling": "RETAIN",
+      "basis": "The heading-only structural slice ('Rounding & estimation', 21 chars) — NOT in the R32 fired inventory (the sibling exposure named ords 5/6/7 only; the anti-forgery rule, the R30 mixed-surface 4.8D ord-5 precedent). Rides the note's SP family: after the verdicts the family center is the rounding half (ords 0-5, 6 rows at 1.8B) and the heading-only row rides it honestly. ZERO MOVEMENT."
+    }
+  ],
+  "note_level_scoping": [
+    {
+      "note_slug": "rounding-and-estimation",
+      "joined_code": "4MA1-1.8B",
+      "ruling": "STANDING (scoping note updated)",
+      "basis": "The corpus's own spec_point anchor (spcpt_p8zkdCF8QVvDZyVX, rn_hvTnjCMrpm7D2Vsf, P2_page_context_join) STANDS at 1.8B — the join layer untouched, the resolution byte-untouched. The honest scoping note: after the verdicts the note SPLITS — ords 0-5 stay 1.8B (6 rows), ords 6-8 re-home to 1.8D (3 rows, the estimation half: purpose/method/evaluation) — the loop's FIRST split-note ruling (the R30 ruling moved a whole note as ONE family; this note's halves are genuinely dual-surface and split row-level, the store rows move via the override map while the joins stand). The sibling anchor spcpt_crKbmb6wVjM4yPJh (related-calculations -> 1.8D) also stands: 1.8D's anchored census deepens 3 -> 6; no coverage change either side (computed at the R34 rebuild, never asserted here)."
+    }
+  ],
+  "census_remarks": [
+    "THE PROMOTED-SURFACE INTERACTION: this round moves the promoted surface ONE way — 3 supersedes (promoted rows REMAIN promoted at their amended codes, re-keyed old->new at the R34 rebuild); ZERO exclusions and ZERO additions — the R30 additions mechanism NOT exercised (no sign-offs owed: the R30 round discharged all 4 H3 holds of record). PROJECTED, ASSERTED NOWHERE (the DC-R24-01 discipline): promoted 831 -> 831; anchored 835 -> 835 (831 HV + 4 anchored SUGGESTED); unresolved-span 27 -> 27; uncovered-SP 55 -> 55; store rows 917 -> 917; covered 133 -> 133 (1.8B keeps ords 0-5, 1.8D already covered via the R10 join — no gain, no loss; per-code 1.8B anchored 9 -> 6, 1.8D anchored 3 -> 6, verified row-by-row this round). Every count lands at the R34-shaped rebuild lane, which computes its own delta proofs.",
+    "THE POST-MOVE CENSUSES (recorded so the reading is on the record before the next draw samples them): 1.8B keeps 6 promoted rows (the heading-only ord 0; place-value ord 1; decimal-place ord 2; significant-figure ord 3; the degree-of-accuracy ord 4 the R29 re-gate CONFIRMed; the direction-in-context ord 5 this round's ruling keeps — its worked example IS 3-s.f. rounding verbatim). 1.8D carries 6 promoted rows (the related-calculations family ords 0/1/3 — the R10 STANDING join — plus the re-homed trio: ord 6 the estimation-purpose surface, ord 7 the estimation-method surface, ord 8 the estimate-evaluation surface). The note-level split mirrors the R30 whole-note ruling's granularity honestly: where equations-and-problem-solving moved as ONE family to 2.7C, this note's halves are genuinely dual-surface (the corpus itself anchors the note at 1.8B) and the split lands row-level with both codes covered throughout."
+  ],
+  "carriers": {
+    "verdicts": "scripts/c42_r33_repair_verdicts.yaml (schema c42-r33-repair-verdicts/1.0)",
+    "override_map": "scripts/c42_section_overrides_r33.yaml (schema c42-r28-section-overrides/1.0, 3 verdicted entries) — written ONLY by scripts/c42_r33_override_projection.py",
+    "promotions_amendment": "scripts/c42_r33_promotions_amendment.yaml (schema c42-r31-promotions-amendment/1.0, 3 supersedes + 0 excluded + 0 added, base pin 9bad739bd79e5899, prior_amendments R26+R30) — written ONLY by the projection tool"
+  },
+  "check": {
+    "tool": "scripts/c42_r33_repair_check.py",
+    "report": "graph/reports/C42_R33_REPAIR_CHECK.json",
+    "battery": "A1-A9",
+    "result": "ALL PASS (asserted by the report file, never by this record)"
+  },
+  "footprint": [
+    "scripts/c42_r33_repair_verdicts.yaml",
+    "scripts/c42_r33_override_projection.py",
+    "scripts/c42_r33_repair_check.py",
+    "scripts/c42_section_overrides_r33.yaml",
+    "scripts/c42_r33_promotions_amendment.yaml",
+    "graph/reports/C42_R33_RESOLUTION_REPAIR_RECORD.md",
+    "graph/reports/C42_R33_RESOLUTION_REPAIR_RECORD.json",
+    "graph/reports/C42_R33_REPAIR_CHECK.json"
+  ],
+  "scope_guards": [
+    "chemistry", "parsed canonical bundles", "the Lane C stores", "spec-links/**",
+    "the C25-C41 records", "the C42 scope/R0-R32 records", "the C30 ledger",
+    "the resolution (byte-untouched since R14)", "the R1-R30 maps + verdicts + amendments",
+    "the R5 promotions file", "the store itself — all byte-untouched by this round"
+  ],
+  "next_lanes": [
+    "R34 — the substrate re-build consuming the R33 map AND amendment (the c40-shaped tool at TOOL_VERSION 2.7.0; the supersedes-only promotions re-application — 3 re-pins, zero exclusions, zero additions; the delta proofs; the B-series battery). The store moves THERE, not here.",
+    "R35 — the validation re-gate (operator gate 2 re-run): each the operator's call, explicit instruction only (the R32 sheet's own NEXT sentence governs; the 'Start repair' directive names neither lane)."
+  ]
+}

@@ -1,0 +1,587 @@
+schema: c42-r9-fresh-verdicts/1.0
+task: T-C42
+stage: r9-regate-fill
+contract: consumed by scripts/c42_r9_regate_fill.py (FRESH verdict source); judgment input = the fresh-row
+  dossier (chunk text + both tier wordings per row)
+verdicts:
+  998c7d61c8cfb1a8:
+    dossier_index: 0
+    verdict: REJECT
+    root: note-level-class
+    note: the section teaches expanding the product of THREE linear expressions (grid method, worked examples)
+      — the 2.2A Higher surface verbatim ('expand the product of two or more linear expressions'); 2.2E's
+      operative Higher wording is 'use algebra to support and construct proofs' and its Foundation wording
+      ('expand the product of two simple linear expressions') covers two brackets, not three; the note-level
+      join is a T-SPEC resolution error the C40/R4 samples never drew — recorded for the operator, never
+      self-repaired
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/expanding-brackets/expanding-triple-brackets.json
+    chunk_ordinal: 1
+    chunk_heading: How do I expand three brackets?
+    tier_signature: STORE_HIGHER
+  37ecfe057deea7c7:
+    dossier_index: 1
+    verdict: CONFIRM
+    root: null
+    note: the section teaches functions represented on x/y axes with x-axis values as inputs and y-axis
+      values as outputs — the input/output apparatus of the 3.2C demand ('understand the terms domain
+      and range and which values may need to be excluded from a domain'); the domain/range terms are the
+      note's subject
+    spec_code: 4MA1-3.2C
+    note_path: notes/3-sequences-functions-and-graphs/functions/domain-and-range.json
+    chunk_ordinal: 1
+    chunk_heading: How are functions related to graphs?
+    tier_signature: STORE_HIGHER
+  41dcd33bd8bca1d9:
+    dossier_index: 2
+    verdict: REJECT
+    root: section-level
+    note: the section defines square numbers (repeated multiplication, the first 15, powers of 2) — the
+      Foundation wording of 1.4B per the C30 ledger ('calculate squares, square roots, cubes and cube
+      roots'); 1.1G is the odd/even/prime/factors/multiples terminology — the same scope-difference class
+      as the R4 ord-9 square-ROOTS finding (the R6 override moved that one section; ords 7-8 were unsampled)
+      — recorded for the operator, never self-repaired
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 7
+    chunk_heading: What are square numbers?
+    tier_signature: STORE_HIGHER
+  c91dbe42a7e8a935:
+    dossier_index: 3
+    verdict: HOLD
+    root: heading-only chunk
+    note: the chunk is the note-title head with no teachable content beyond the heading; per the C40 verdict
+      standard (HOLD = evidence insufficient to decide) the semantic layer cannot confirm topical fidelity
+      from a heading alone — the same structural class the operator RETAIN-ruled at R1 and the R4 fill
+      HOLDed
+    spec_code: 4MA1-1.2A
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/algebraic-fractions.json
+    chunk_ordinal: 0
+    chunk_heading: Simplifying algebraic fractions
+    tier_signature: STORE_HIGHER
+  8500dae61eb1f79a:
+    dossier_index: 4
+    verdict: CONFIRM
+    root: null
+    note: circumference of a circle — 4.9E verbatim ('find circumferences and areas of circles using relevant
+      formulae')
+    spec_code: 4MA1-4.9E
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/area-and-circumference-of-circles.json
+    chunk_ordinal: 3
+    chunk_heading: How do I find the circumference of a circle?
+    tier_signature: STORE_HIGHER
+  c59ffa613fb38c52:
+    dossier_index: 5
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/the-alternate-segment-theorem.json
+    chunk_ordinal: 0
+    chunk_heading: Alternate segment theorem
+    tier_signature: STORE_HIGHER
+  9ae9976901a946fe:
+    dossier_index: 6
+    verdict: REJECT
+    root: section-level
+    note: the section teaches harder ratio questions COMBINED with fractions and percentages (finding
+      fractions/percentages of ratio quantities) — word-problem solving about ratio and proportion, the
+      1.7E surface; 1.7B's demand is 'divide a quantity in a given ratio or ratios' — recorded for the
+      operator, never self-repaired
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-problem-solving/ratios-and-fdp.json
+    chunk_ordinal: 2
+    chunk_heading: How do I answer questions involving ratios along with fractions and/or percentages?
+    tier_signature: STORE_HIGHER
+  66c8c42079d354c0:
+    dossier_index: 7
+    verdict: HOLD
+    root: heading-only chunk
+    note: the chunk is the section heading verbatim (71 chars, no rendered content beyond it); evidence
+      insufficient for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-1.9A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/operations-with-standard-form.json
+    chunk_ordinal: 2
+    chunk_heading: How do I multiply and divide numbers in standard form using index laws?
+    tier_signature: STORE_HIGHER
+  3361a1556b40beff:
+    dossier_index: 8
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/drawing-graphs-from-tables.json
+    chunk_ordinal: 0
+    chunk_heading: Drawing graphs using a table
+    tier_signature: STORE_HIGHER
+  988bcf024c79e126:
+    dossier_index: 9
+    verdict: REJECT
+    root: unresolved-class section
+    note: the section defines inverse operations and related-fact derivation (3x5=15 -> 15/3=5, sqrt(9)=3)
+      — 1.8D's demand is 'use estimation to evaluate approximations to numerical calculations' and the
+      section is not estimation; no canonical 188 row teaches inverse-operation related-calculations per
+      se — the note-level join 1.8D looks like a T-SPEC-era name-fragment approximation; recorded for
+      the operator, never forced
+    spec_code: 4MA1-1.8D
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/related-calculations.json
+    chunk_ordinal: 2
+    chunk_heading: What are inverse operations?
+    tier_signature: STORE_HIGHER
+  7010085a6b20bbb1:
+    dossier_index: 10
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-1.7E
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json
+    chunk_ordinal: 0
+    chunk_heading: Working with ratios
+    tier_signature: STORE_HIGHER
+  f1554b9deaf2cfd9:
+    dossier_index: 11
+    verdict: CONFIRM
+    root: null
+    note: division in standard form with index laws — within 1.9A ('solve problems involving standard
+      form') verbatim apparatus
+    spec_code: 4MA1-1.9A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/operations-with-standard-form.json
+    chunk_ordinal: 4
+    chunk_heading: Division
+    tier_signature: STORE_HIGHER
+  26b042684607e045:
+    dossier_index: 12
+    verdict: REJECT
+    root: section-level
+    note: the section procedurally FINDS quartiles (lower/upper, L+H/n methods on discrete data) — the
+      6.2C surface ('find the interquartile range from a discrete data set'); 6.2B's Higher demand is
+      the CONCEPT of a measure of spread and its Foundation wording names mean/median/mode/range, not
+      quartiles — recorded for the operator, never self-repaired
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/range-and-quartiles.json
+    chunk_ordinal: 4
+    chunk_heading: How do I find the quartiles?
+    tier_signature: STORE_HIGHER
+  93be9be299ee3183:
+    dossier_index: 13
+    verdict: CONFIRM
+    root: null
+    note: the section teaches y = mx + c as the equation of a straight line with gradient m and y-intercept
+      c — 3.3H verbatim
+    spec_code: 4MA1-3.3H
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/straight-line-graphs-y-equals-mx-plus-c.json
+    chunk_ordinal: 1
+    chunk_heading: What is the equation of a straight line?
+    tier_signature: STORE_HIGHER
+  d1e196fe9e3fc9b4:
+    dossier_index: 14
+    verdict: CONFIRM
+    root: null
+    note: the BIDMAS/BODMAS hierarchy of operations — 1.1F verbatim ('use brackets and the hierarchy of
+      operations')
+    spec_code: 4MA1-1.1F
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/order-of-operations-bidmas-bodmas.json
+    chunk_ordinal: 1
+    chunk_heading: What is the order of operations (BIDMAS/BODMAS)?
+    tier_signature: STORE_HIGHER
+  1de0776da9426cc6:
+    dossier_index: 15
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk (13 chars) — no teachable content beyond the heading; evidence
+      insufficient for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-5.1D
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/introduction-to-vectors.json
+    chunk_ordinal: 0
+    chunk_heading: Basic vectors
+    tier_signature: STORE_HIGHER
+  af87adf10392a618:
+    dossier_index: 16
+    verdict: CONFIRM
+    root: null
+    note: the section explains a function as a mapping from inputs to outputs — 3.2A's concept demand
+      ('a function is a mapping between elements of two sets'), the note-level join's own surface family;
+      3.2C's domain/range demand is served by the note's other sections
+    spec_code: 4MA1-3.2A
+    note_path: notes/3-sequences-functions-and-graphs/functions/functions-toolkit.json
+    chunk_ordinal: 3
+    chunk_heading: How does a function work?
+    tier_signature: STORE_HIGHER
+  5e5480062dabf7b8:
+    dossier_index: 17
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-6.3G
+    note_path: notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json
+    chunk_ordinal: 0
+    chunk_heading: Relative frequency
+    tier_signature: STORE_HIGHER
+  387d1bb742cd75ab:
+    dossier_index: 18
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-4.9C
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/adding-and-subtracting-areas.json
+    chunk_ordinal: 0
+    chunk_heading: Adding & subtracting areas
+    tier_signature: STORE_HIGHER
+  39bd312c56be2591:
+    dossier_index: 19
+    verdict: CONFIRM
+    root: null
+    note: using graphs to solve equations (intersection as the common solution) — 2.6B verbatim ('interpret
+      the equations as lines and the common solution as the point of intersection')
+    spec_code: 4MA1-2.6B
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/graphical-solutions.json
+    chunk_ordinal: 3
+    chunk_heading: How do I use graphs to solve equations?
+    tier_signature: STORE_HIGHER
+  41d99b2ef72f31db:
+    dossier_index: 20
+    verdict: CONFIRM
+    root: null
+    note: finding the other quantity given one part of a ratio — proportional reasoning within 1.7E ('solve
+      word problems about ratio and proportion'), the note's own join surface
+    spec_code: 4MA1-1.7E
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json
+    chunk_ordinal: 4
+    chunk_heading: Given one quantity of a ratio, how can I find the other quantity?
+    tier_signature: STORE_HIGHER
+  e5cc19a09e59b33d:
+    dossier_index: 21
+    verdict: CONFIRM
+    root: null
+    note: the note-intro lists the terminology the SP demands (odd/even via integers, multiples, factors,
+      prime numbers) — 1.1G verbatim apparatus; the generic-intro C40 convention also anchors intros at
+      the note's SP
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 0
+    chunk_heading: Types of number
+    tier_signature: STORE_HIGHER
+  46984d789a02a7a6:
+    dossier_index: 22
+    verdict: CONFIRM
+    root: null
+    note: triangle constructions with ruler/protractor/compasses — 4.5B verbatim
+    spec_code: 4MA1-4.5B
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/constructing-triangles.json
+    chunk_ordinal: 1
+    chunk_heading: What are triangle constructions?
+    tier_signature: STORE_HIGHER
+  f43a9250198afcca:
+    dossier_index: 23
+    verdict: CONFIRM
+    root: null
+    note: finding the equation when the y-intercept is not shown — the y = mx + c apparatus of 3.3H verbatim
+    spec_code: 4MA1-3.3H
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/straight-line-graphs-y-equals-mx-plus-c.json
+    chunk_ordinal: 3
+    chunk_heading: What if no y-intercept is shown?
+    tier_signature: STORE_HIGHER
+  9c8b7caf914c7548:
+    dossier_index: 24
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-tables.json
+    chunk_ordinal: 0
+    chunk_heading: Averages from tables & charts
+    tier_signature: STORE_HIGHER
+  a37004be54955077:
+    dossier_index: 25
+    verdict: CONFIRM
+    root: null
+    note: probabilities of all outcomes sum to 1 and the complement rule P(not A) = 1 - P(A) — the language-of-probability
+      apparatus of the 6.3A Foundation wording per the C30 ledger ('understand the language of probability'),
+      adjudicated on BOTH tier wordings per the standing instruction (the Higher operative wording is
+      tree diagrams)
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/probability-toolkit/basic-probability.json
+    chunk_ordinal: 4
+    chunk_heading: How do I find missing probabilities?
+    tier_signature: STORE_HIGHER
+  e670dd6845bd62b9:
+    dossier_index: 26
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk (12 chars) — no teachable content beyond the heading; evidence
+      insufficient for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-5.1G
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/vector-proof.json
+    chunk_ordinal: 0
+    chunk_heading: Vector proof
+    tier_signature: STORE_HIGHER
+  0a3e320953bc64c4:
+    dossier_index: 27
+    verdict: CONFIRM
+    root: null
+    note: types of ratio problems (part:part, part:whole) — 1.7E word-problem apparatus, the note's own
+      join surface
+    spec_code: 4MA1-1.7E
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json
+    chunk_ordinal: 2
+    chunk_heading: What type of ratio problems could I be asked to solve?
+    tier_signature: STORE_HIGHER
+  28572319a8d1f35f:
+    dossier_index: 28
+    verdict: CONFIRM
+    root: null
+    note: finding the mean from a frequency table — the 6.2B Foundation wording per the C30 ledger ('calculate
+      the mean, median, mode and range for a discrete data set'), the same LEDGER_FOUNDATION class the
+      operator RETAIN-ruled at R1 for this note's mode section
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-tables.json
+    chunk_ordinal: 4
+    chunk_heading: How do I find the mean from a frequency table?
+    tier_signature: STORE_HIGHER
+  2eda8a36597b4cc4:
+    dossier_index: 29
+    verdict: HOLD
+    root: heading-only chunk
+    note: heading-only note-title chunk — no teachable content beyond the heading; evidence insufficient
+      for a semantic confirm (the known re-fill limitation)
+    spec_code: 4MA1-1.8D
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/related-calculations.json
+    chunk_ordinal: 0
+    chunk_heading: Related calculations
+    tier_signature: STORE_HIGHER
+  0df9dfd058a1ec92:
+    dossier_index: 30
+    verdict: REJECT
+    root: section-level
+    note: the section defines cube numbers — the Foundation wording of 1.4B per the C30 ledger ('calculate
+      squares, square roots, cubes and cube roots'); 1.1G is the odd/even/prime/factors/multiples terminology
+      — the same scope-difference class as the R4 ord-9 finding — recorded for the operator, never self-repaired
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 8
+    chunk_heading: What are cube numbers?
+    tier_signature: STORE_HIGHER
+  9f3c00eb41a74a4e:
+    dossier_index: 31
+    verdict: CONFIRM
+    root: null
+    note: percentage change (increase/decrease) — 1.6E verbatim ('solve simple percentage problems, including
+      percentage increase and decrease')
+    spec_code: 4MA1-1.6E
+    note_path: notes/1-numbers-and-the-number-system/percentages/percentage-increases-and-decreases.json
+    chunk_ordinal: 4
+    chunk_heading: How do I find a percentage change?
+    tier_signature: STORE_HIGHER
+  6ab17e03c20b4d95:
+    dossier_index: 32
+    verdict: REJECT
+    root: note-level-class
+    note: the section teaches simplifying ALGEBRAIC fractions (factorise fully, cancel common factors
+      incl. common brackets) — 2.2C verbatim ('manipulate algebraic fractions where the numerator and/or
+      the denominator can be numeric, linear or quadratic'); 1.2A is numerical-fraction equivalence/simplifying
+      ('understand and use equivalent fractions, simplifying a fraction by cancelling common factors')
+      and the R6 repair of basic-fractions (numerical) does not extend to this note — the note-level join
+      is a T-SPEC resolution error, new catch — recorded for the operator, never self-repaired
+    spec_code: 4MA1-1.2A
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/algebraic-fractions.json
+    chunk_ordinal: 2
+    chunk_heading: How do you simplify an algebraic fraction?
+    tier_signature: STORE_HIGHER
+  385f90e10d6bdb4a:
+    dossier_index: 33
+    verdict: CONFIRM
+    root: null
+    note: the difference of two squares as factorising a quadratic (x^2 - a^2 = (x+a)(x-a), the b=0 case)
+      — within 2.2F ('understand the concept of a quadratic expression and be able to factorise such expressions
+      (limited to x^2 + bx + c)')
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/difference-of-two-squares.json
+    chunk_ordinal: 1
+    chunk_heading: What is the difference of two squares?
+    tier_signature: STORE_HIGHER
+  fb5930050add9438:
+    dossier_index: 34
+    verdict: CONFIRM
+    root: null
+    note: increasing by a percentage — 1.6E verbatim
+    spec_code: 4MA1-1.6E
+    note_path: notes/1-numbers-and-the-number-system/percentages/percentage-increases-and-decreases.json
+    chunk_ordinal: 1
+    chunk_heading: How do I increase by a percentage?
+    tier_signature: STORE_HIGHER
+  8b1c1c639cb3402a:
+    dossier_index: 35
+    verdict: CONFIRM
+    root: null
+    note: the section defines quartiles as spread descriptors — the concept apparatus of 6.2B Higher ('understand
+      the concept of a measure of spread'); the PROCEDURAL find-the-quartiles surface is 6.2C and is rejected
+      separately at ord 4
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/range-and-quartiles.json
+    chunk_ordinal: 3
+    chunk_heading: What are quartiles?
+    tier_signature: STORE_HIGHER
+  dee430141d417bf0:
+    dossier_index: 36
+    verdict: CONFIRM
+    root: null
+    note: the section defines prime numbers — 1.1G names 'prime numbers' among its terms verbatim
+    spec_code: 4MA1-1.1G
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json
+    chunk_ordinal: 6
+    chunk_heading: What are prime numbers?
+    tier_signature: STORE_HIGHER
+  313f1375dac93b28:
+    dossier_index: 37
+    verdict: CONFIRM
+    root: null
+    note: angle at the centre = twice the angle at the circumference, taught with proofs — 4.6C clause
+      (i) verbatim
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/angles-at-centre-and-semicircles.json
+    chunk_ordinal: 2
+    chunk_heading: 'Circle Theorem: The angle at the centre is twice the angle at the circumference'
+    tier_signature: STORE_HIGHER
+  6f59d0b5932909a2:
+    dossier_index: 38
+    verdict: CONFIRM
+    root: null
+    note: decreasing by a percentage — 1.6E verbatim
+    spec_code: 4MA1-1.6E
+    note_path: notes/1-numbers-and-the-number-system/percentages/percentage-increases-and-decreases.json
+    chunk_ordinal: 2
+    chunk_heading: How do I decrease by a percentage?
+    tier_signature: STORE_HIGHER
+  d437d30f579f84d7:
+    dossier_index: 39
+    verdict: CONFIRM
+    root: null
+    note: mutually exclusive events and P(A or B) = P(A) + P(B) with a probability-table worked example
+      — the language-of-probability apparatus of the 6.3A Foundation wording per the C30 ledger, adjudicated
+      on BOTH tier wordings per the standing instruction
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/probability-toolkit/basic-probability.json
+    chunk_ordinal: 5
+    chunk_heading: What are mutually exclusive events?
+    tier_signature: STORE_HIGHER
+  fad11b36b0c9eb9d:
+    dossier_index: 40
+    verdict: CONFIRM
+    root: null
+    note: properties of rectangles and squares — 4.2C verbatim ('understand and use the properties of
+      the parallelogram, rectangle, square, rhombus, trapezium and kite')
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 4
+    chunk_heading: What are the properties of rectangles and squares?
+    tier_signature: STORE_HIGHER
+  eef0377ae1ebc959:
+    dossier_index: 41
+    verdict: CONFIRM
+    root: null
+    note: the index laws (a^0=1, a^m x a^n = a^(m+n), etc.) over numbers and algebra — 1.4C verbatim ('use
+      index laws to simplify and evaluate numerical expressions involving integer, fractional and negative
+      powers')
+    spec_code: 4MA1-1.4C
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.json
+    chunk_ordinal: 1
+    chunk_heading: What are the laws of indices?
+    tier_signature: STORE_HIGHER
+  46db75de8d3f81ce:
+    dossier_index: 42
+    verdict: CONFIRM
+    root: null
+    note: properties of parallelograms and rhombuses — 4.2C verbatim
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 5
+    chunk_heading: What are the properties of parallelograms and rhombuses?
+    tier_signature: STORE_HIGHER
+  8b50f10c3880f23c:
+    dossier_index: 43
+    verdict: CONFIRM
+    root: null
+    note: the alternate segment theorem taught and applied — 4.6C's circle-theorem clause list includes
+      it verbatim (the same clause family the R1 verdicts used for cyclic quadrilaterals/same segment)
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/the-alternate-segment-theorem.json
+    chunk_ordinal: 1
+    chunk_heading: 'Circle theorem: The alternate segment theorem'
+    tier_signature: STORE_HIGHER
+  32f957a6c33aaef2:
+    dossier_index: 44
+    verdict: CONFIRM
+    root: null
+    note: relative frequency defined and computed from collected data — 6.3G verbatim ('estimate probabilities
+      from previously collected data')
+    spec_code: 4MA1-6.3G
+    note_path: notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json
+    chunk_ordinal: 1
+    chunk_heading: What is relative frequency?
+    tier_signature: STORE_HIGHER
+  bcba14c9e69b6c10:
+    dossier_index: 45
+    verdict: REJECT
+    root: section-level
+    note: the section defines what a percentage IS (parts per hundred, percent symbols, conversions preview)
+      — the Foundation wording of 1.6A per the C30 ledger ('understand that percentage means number of
+      parts per 100'); 1.6F is reverse percentages and the note-level join stands via its reverse-percentage
+      sections — the same class as the R1 ord-2 override on this note (percentage-of-an-amount -> 1.6E)
+      — recorded for the operator, never self-repaired
+    spec_code: 4MA1-1.6F
+    note_path: notes/1-numbers-and-the-number-system/percentages/basic-percentages.json
+    chunk_ordinal: 1
+    chunk_heading: What is a percentage?
+    tier_signature: STORE_HIGHER
+  db3eb3cb32adf399:
+    dossier_index: 46
+    verdict: REJECT
+    root: section-level
+    note: the section classifies turning points USING GRAPH SHAPES (positive/negative parabolas, cubics)
+      — 3.4D verbatim ('distinguish between maxima and minima by considering the general shape of the
+      graph only'), the same class as the operator's own R6 ord-3 ruling on problem-solving-with-differentiation;
+      3.4C demands determination BY DIFFERENTIATION — recorded for the operator, never self-repaired
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/classifying-stationary-points.json
+    chunk_ordinal: 2
+    chunk_heading: How do I classify turning points using graphs?
+    tier_signature: STORE_HIGHER
+  e54fc84c271915b3:
+    dossier_index: 47
+    verdict: REJECT
+    root: section-level
+    note: the section teaches percentage -> decimal (divide by 100) — 1.6C verbatim ('express a percentage
+      as a fraction and as a decimal'); 1.2G's demand is the fraction->decimal/percentage direction —
+      recorded for the operator, never self-repaired
+    spec_code: 4MA1-1.2G
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.json
+    chunk_ordinal: 1
+    chunk_heading: How do I convert from a percentage to a decimal?
+    tier_signature: STORE_HIGHER
+  82fbb0193dfc5a24:
+    dossier_index: 48
+    verdict: CONFIRM
+    root: null
+    note: the circle-formulae summary (pi, circumference, area) — 4.9E verbatim apparatus
+    spec_code: 4MA1-4.9E
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/area-and-circumference-of-circles.json
+    chunk_ordinal: 2
+    chunk_heading: What circle formulae do I need to know?
+    tier_signature: STORE_HIGHER
+  fcc45b6a30b9f9f7:
+    dossier_index: 49
+    verdict: CONFIRM
+    root: null
+    note: comparing deals as everyday number application — 1.10A verbatim ('use and apply number in everyday
+      personal, domestic or community life')
+    spec_code: 4MA1-1.10A
+    note_path: notes/1-numbers-and-the-number-system/exchange-rates-and-best-buys/best-buys.json
+    chunk_ordinal: 1
+    chunk_heading: If there is more than one deal on offer, how do I work out which deal is best?
+    tier_signature: STORE_HIGHER

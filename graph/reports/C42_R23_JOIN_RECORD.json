@@ -1,0 +1,141 @@
+{
+  "schema": "c42-r23-join-record/1.0",
+  "task": "T-C42 R23 (join re-run lane)",
+  "generated_utc": "2026-10-04T06:37:19+00:00",
+  "directive": {
+    "text": "R23",
+    "date": "2026-10-04",
+    "channel": "discord",
+    "gateway_trace": "772bb1c553acf115d53f83d9cf6afa81",
+    "names": "the R22 record's next-decision gate: R23 (join re-run)"
+  },
+  "baseline": "ce7c5c8c (the R22 post-commit audit commit)",
+  "kind": "agent-deterministic join re-run under a dated generator amendment (P5); every gate fail-closed; zero store bytes move",
+  "generator": {
+    "path": "scripts/c32_notes_maths_a_join.py",
+    "amendment": "T-C42 R23 AMENDMENT (2026-10-04, dated per P5)",
+    "output": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "artifact_delta_fields": [
+      "task",
+      "validation_tier",
+      "generated_utc"
+    ],
+    "joins_content_identical": true
+  },
+  "census": {
+    "notes_pages": 191,
+    "anchors_total": 203,
+    "anchors_distinct": 203,
+    "joined": 198,
+    "unresolved_recorded": 5,
+    "ids_absent_from_resolution": 0,
+    "distinct_official_codes": 120,
+    "coverage_of_188": "120/188",
+    "coverage_by_applicability_tier": {
+      "Foundation": 61,
+      "Higher": 59
+    },
+    "anchors_by_applicability_tier": {
+      "Foundation": 81,
+      "Higher": 117
+    },
+    "foreign_codes": 0,
+    "wording_check_census": {
+      "EXACT": 173,
+      "LEDGER_EXPLAINABLE": 25
+    }
+  },
+  "unresolved_ids": [
+    "spcpt_3fMGfNtg3hXMg6gC",
+    "spcpt_8Wtthy9gt8B5xsVW",
+    "spcpt_QWXhzVp2S3VYZdZc",
+    "spcpt_hK2H8q4Y8NYv833v",
+    "spcpt_mVXT4jbXQPrzhHvz"
+  ],
+  "resolution_substrate": {
+    "path": "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
+    "head_blob_16": "93419a291b9b87ff",
+    "byte_untouched": true,
+    "counts": [
+      222,
+      214,
+      8
+    ],
+    "last_writer": "R14"
+  },
+  "new_pins_r22": [
+    {
+      "note_slug": "3d-pythagoras-and-trigonometry",
+      "joined_code": "4MA1-4.8D",
+      "anchor_id": "spcpt_kX4655D8M3Q3TRzW",
+      "ruling": "STANDING"
+    },
+    {
+      "note_slug": "difference-of-two-squares",
+      "joined_code": "4MA1-2.2F",
+      "anchor_id": "spcpt_RJbgRvXq2VrGpP5g",
+      "ruling": "STANDING"
+    },
+    {
+      "note_slug": "graphical-solutions",
+      "joined_code": "4MA1-2.6B",
+      "anchor_id": "spcpt_sHCB9WZbDMyTFqCP",
+      "ruling": "STANDING"
+    }
+  ],
+  "carried_pins": {
+    "verbatim_total": 9,
+    "r14_repoint": "composite-functions -> 4MA1-3.2D",
+    "r10": [
+      "expanding-triple-brackets -> 4MA1-2.2A",
+      "algebraic-fractions -> 4MA1-2.2C",
+      "related-calculations -> 4MA1-1.8D (STANDING)"
+    ],
+    "r18_standing": [
+      "converting-between-fdp -> 4MA1-1.2G",
+      "basic-angle-properties -> 4MA1-4.1B"
+    ]
+  },
+  "promotions_interaction": {
+    "promotions_file": "scripts/c42_r5_promotions.yaml",
+    "rows": 832,
+    "intersection_with_r22_override_rows": {
+      "by_mapping_id": 0,
+      "by_note_plus_ordinal": 0
+    },
+    "promoted_set_stable": true,
+    "verified_not_assumed": true
+  },
+  "verification": {
+    "battery": "scripts/c42_r23_join_check.py",
+    "gates": [
+      "J1_join_refresh",
+      "J2_verbatim_pins",
+      "J3_r18_map_pins",
+      "J4_r22_map_pins",
+      "J5_resolution_substrate",
+      "J6_determinism",
+      "J7_protected_surfaces",
+      "J8_commit_state"
+    ],
+    "all_pass": true,
+    "gates_pass": "8/8"
+  },
+  "not_fired": [
+    "R24 (substrate re-build consuming the R22 map + the R5 promotions-file re-application)",
+    "R25 (re-gate, operator gate 2 re-run, re-seeded)"
+  ],
+  "open_operator_decisions": [
+    "4 H3 HOLD rows (1.7B / 6.3J / 3.3F / 2.2C)",
+    "ord-3 promoted-surface extension candidate (3d-pythagoras SOHCAHTOA-in-3D, 75244f93401689fe)"
+  ],
+  "footprint": [
+    "scripts/c32_notes_maths_a_join.py",
+    "scripts/c42_r23_join_check.py",
+    "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "graph/reports/C42_R23_JOIN_RECORD.md",
+    "graph/reports/C42_R23_JOIN_RECORD.json",
+    "graph/reports/C42_R23_JOIN_CHECK.json"
+  ],
+  "head_at_record": "ce7c5c8cc64f268bdfa0de444ec7b63cf69b3b20 T-C42 R22: post-commit audit re-run (A1-A10 ALL PASS 9/9 at the round commit 4adfffa — the committed-clean form: A10 asserts the empty working-tree delta and the round HEAD; the delta vs the apply-run report is exactly the check JSON's own regeneration with the audited HEAD now at the round commit; the R5-promoted store surface, the resolution file and every standing record byte-unchanged)."
+}

@@ -1,0 +1,6736 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-business-23",
+ "qual": "cie-igcse-business-2023-2025",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "directive": "Re-join against the index",
+   "gateway_trace": "1a15370131f93699",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "base_commit": "c9fc6dfb",
+   "method": "cie_index_rejoin",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool (fired only where the verdict lane's name rules did not already evaluate the pair)",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text (same scoping as J3)"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the pending anchors; SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the gate's ACCEPTED payload and the verdict lane's authoritative entries are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-business-2023-2025",
+  "family": "nmk_outcomes",
+  "official_points": 63
+ },
+ "totals": {
+  "items": 575,
+  "items_with_codes": 123,
+  "by_kind": {
+   "notes": 99,
+   "question_parts": 476,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 34,
+   "question_parts": 89,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 216,
+  "parts": 577,
+  "universe_ids": 216,
+  "universe_resolved": 25,
+  "pending_refs": 669,
+  "flashcards_discovered_uncoded": 0,
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-1",
+   "applied_utc": "2026-10-19T11:00:00Z",
+   "resolved_pairs": 9,
+   "resolved_refs": 28,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 9
+   },
+   "ambiguous_pairs": 0,
+   "pending_refs": 669,
+   "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  }
+ },
+ "items": {
+  "rn_ddQ54fSmCJShQ36d": {
+   "kind": "note",
+   "label": "Business activity - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_wvG3S6r7SmnYXhQ4",
+    "spcpt_cKqFJYx6k9hXK6DZ",
+    "spcpt_x5RPSW5TcR5kTs7v"
+   ]
+  },
+  "rn_DQCzR3dCHXzgv5KM": {
+   "kind": "note",
+   "label": "Added value - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "rn_mXbxF7M6cZgB7ZJc": {
+   "kind": "note",
+   "label": "Classification Using the Economic Sector | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT",
+    "spcpt_WyhmJJYNCrXpprMB"
+   ]
+  },
+  "rn_Zdys2Kcf4GJ5fdKX": {
+   "kind": "note",
+   "label": "Private and public sectors  - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_9mBDvT7jsN84Qgwg",
+    "spcpt_bJQPh4XHgZQQ3jTx"
+   ]
+  },
+  "rn_Jm8Xcr8V8gvkkypR": {
+   "kind": "note",
+   "label": "Business Plans & Government Support | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_KHh9f2YcRQqwKC3V",
+    "spcpt_Z4XKvDRGMhjhdKDQ",
+    "spcpt_V9fqFVty4n3c7rT8"
+   ]
+  },
+  "rn_NmcQNJVbT48TcsM3": {
+   "kind": "note",
+   "label": "Characteristics of Successful Entrepreneurs | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_psCs2zp22jFmvwkX"
+   ]
+  },
+  "rn_Gcvbyc4snMrk72C6": {
+   "kind": "note",
+   "label": "Measuring Business Size | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.2",
+     "official_code": "1.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_Qk8GFWqNwg7HrK8T"
+   ]
+  },
+  "rn_PYdcwbHqCQVdtFSZ": {
+   "kind": "note",
+   "label": "Overcoming Business Growth Issues | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_XZWFsfqcRQqRWnnP"
+   ]
+  },
+  "rn_hPv6f3Prx7STZhyW": {
+   "kind": "note",
+   "label": "Reasons for Businesses to Remain Small | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_JSxd2nQdHygrNRrt"
+   ]
+  },
+  "rn_CQb35Q98WGhy5ZMF": {
+   "kind": "note",
+   "label": "Types of growth - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_hjT8qsHhPvt6QhdR"
+   ]
+  },
+  "rn_JzD7Xb3Gk7hWXj9j": {
+   "kind": "note",
+   "label": "Why businesses fail - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "rn_rRPGRYK2hVZPNjFK": {
+   "kind": "note",
+   "label": "Unincorporated - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_sZ3Z2255Kgpr7SkZ",
+    "spcpt_SWCxFYJDtt9p2fH3"
+   ]
+  },
+  "rn_WPmGzDrqHg6nY8CV": {
+   "kind": "note",
+   "label": "Public sector - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_hQt5RFvHByR9xVd3"
+   ]
+  },
+  "rn_vYHKM9MdBkwzmrs7": {
+   "kind": "note",
+   "label": "Types of ownership - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_Y6pvJxd3MZCVMFmm",
+    "spcpt_H97q7SJJ7BVQ9w48",
+    "spcpt_tD86dcqrk8Y2gRcN"
+   ]
+  },
+  "rn_5wHXtxKCShBM7mHN": {
+   "kind": "note",
+   "label": "Business objectives - IGCSE Business Revision Notes",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8",
+    "spcpt_Dy4vCsRcY6MQ97wQ",
+    "spcpt_ZbSzTFXD5ZsHj33C"
+   ]
+  },
+  "rn_MDwkTP3H5ffHKb9j": {
+   "kind": "note",
+   "label": "Stakeholder Objectives | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_kGGdpz5skkh7rxtB",
+    "spcpt_KHb3BMDjmx69bsXZ",
+    "spcpt_pKYjb7MPw3pPhNvb"
+   ]
+  },
+  "rn_Hs3yqGknBvwjvKvB": {
+   "kind": "note",
+   "label": "Financial Methods of Motivation | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_47pdymbdMKWtcN3P"
+   ]
+  },
+  "rn_rpSrbh4gZjjC8WYv": {
+   "kind": "note",
+   "label": "Motivational Theories | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rY6mScYmh9jzq4WW",
+    "spcpt_s2nBkzJqbRHb2VH7",
+    "spcpt_kbs6hT2v7xX6Srxw",
+    "spcpt_8m7tXN2rcBrz8jCF"
+   ]
+  },
+  "rn_rxBgmxzyB4Nj6xm6": {
+   "kind": "note",
+   "label": "Non financial motivation - IGCSE Business Revision Notes",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67",
+    "spcpt_TPS7QqXZSfZVN6C6"
+   ]
+  },
+  "rn_X73KXSQYprByt4Nk": {
+   "kind": "note",
+   "label": "The Benefits of Motivated Employees | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_R5tpY4pp3mVpwpFS",
+    "spcpt_Ng2RhvmYqJqDRbYC"
+   ]
+  },
+  "rn_kTWj9H8vt977J2Fg": {
+   "kind": "note",
+   "label": "Leadership styles - IGCSE Business Revision Notes",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_29jrC48VrMSqP5Xq",
+    "spcpt_bC4ZDH7zxGRC79yv"
+   ]
+  },
+  "rn_C5Pw8Nvqn45PJgJn": {
+   "kind": "note",
+   "label": "Chain of command - IGCSE Business Revision Notes",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_KWSZxmjf7y4GrhZ7",
+    "spcpt_VYwfJd5vgP5n9hvM"
+   ]
+  },
+  "rn_3yHTTnm6bgXQw2Ph": {
+   "kind": "note",
+   "label": "The Role of Management | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_5QX75jFSCt6VqrWb",
+    "spcpt_qqb2pVqPpfYbJHq8",
+    "spcpt_2MvY8V6QhvwZDh8r"
+   ]
+  },
+  "rn_p6RXpZFF8TQwFHrz": {
+   "kind": "note",
+   "label": "Trade Unions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_Why7ZjspK4DM7nFM"
+   ]
+  },
+  "rn_3yyyZ3c5hXBJZMNp": {
+   "kind": "note",
+   "label": "Choosing the Right Employee | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_vYV5SGDSttqyvRtt",
+    "spcpt_MMpFz9NSQTPQGDnr",
+    "spcpt_hWHPq34ZSqGcYgWk"
+   ]
+  },
+  "rn_HHxZgnBj3pynvzgQ": {
+   "kind": "note",
+   "label": "Downsizing the Workforce | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_mCb9PNwj6T9PTPbd"
+   ]
+  },
+  "rn_YhdmQFnBt5ZQFNZD": {
+   "kind": "note",
+   "label": "Part-Time Versus Full-Time | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_6yP4PtWyg4kJKc93"
+   ]
+  },
+  "rn_phpdQSZW9HDxRfNS": {
+   "kind": "note",
+   "label": "Recruitment Methods | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_qgpBDsPwvtcYwTB5"
+   ]
+  },
+  "rn_9W9mfcDXtg3zhWH6": {
+   "kind": "note",
+   "label": "The Impact of Legislation on Employment | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.4",
+     "official_code": "2.3.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_Mg6qxNVdYCB4sbm9",
+    "spcpt_5XWk757XHhzDrbSW",
+    "spcpt_43dHCzYSdjtXNBpg",
+    "spcpt_nb6TZc2zytmFKKNY",
+    "spcpt_bm9Ct3m5M5TDmtDs"
+   ]
+  },
+  "rn_X9TgWc3QjCXF8922": {
+   "kind": "note",
+   "label": "Types of training - IGCSE Business Revision Notes",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_Wq38vZD7pP9TVfH3"
+   ]
+  },
+  "rn_7Ymh3Nq9mKKgcBKN": {
+   "kind": "note",
+   "label": "Communication Barriers | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_FSP2hcctXP22mgpx"
+   ]
+  },
+  "rn_2TjRrqRbTwpjsqz2": {
+   "kind": "note",
+   "label": "Communication methods - IGCSE Business Revision Notes",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.4.1",
+     "official_code": "2.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_5vCfcjddZwzrnBPX",
+    "spcpt_bRcFyhmZ7qTw69CH"
+   ]
+  },
+  "rn_b2MvrRQDKDzxBd34": {
+   "kind": "note",
+   "label": "Mass and niche markets - IGCSE Business Revision Notes",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "rn_9xy2YZfnyBRb2yzH": {
+   "kind": "note",
+   "label": "The Dynamic Nature of Markets | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_yf3gbNH2Jj5XnqNv",
+    "spcpt_MBFwfn9YDRrCmFVQ"
+   ]
+  },
+  "rn_sZ9RZ2vWc4Td5wXq": {
+   "kind": "note",
+   "label": "The Process of Market Segmentation | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_8nsy6hT3mjv4FDHm",
+    "spcpt_x7J5mG2f87TYPKVV"
+   ]
+  },
+  "rn_ggX3cBPhjCN8Y9xM": {
+   "kind": "note",
+   "label": "The Role of Marketing | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_NDM4n5tt8F5cVGCP",
+    "spcpt_K2bzkVBSz4vy5F9C"
+   ]
+  },
+  "rn_NYFBcXmyzQ7gjwPj": {
+   "kind": "note",
+   "label": "Presenting and Using Market Research Data | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_pbPfGBXZ82M8PFdv",
+    "spcpt_9fs3jrFxwYd3KpTM"
+   ]
+  },
+  "rn_7ggcx5Kv7fQKs93Q": {
+   "kind": "note",
+   "label": "Primary market research - IGCSE Business Revision Notes",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S",
+    "spcpt_nMkVxxhBPQhb4W9V"
+   ]
+  },
+  "rn_pxfgHCppV5KdmPxr": {
+   "kind": "note",
+   "label": "Secondary research - IGCSE Business Revision Notes",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_5qz8H8n4zbsthfKm",
+    "spcpt_qt8FQBn24znh6Stb"
+   ]
+  },
+  "rn_DNfMNChswb7KbFWq": {
+   "kind": "note",
+   "label": "The Role of Market Research | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_KqBMHJZtjzhVKP2t"
+   ]
+  },
+  "rn_FHzzdYZMcKSyqpnB": {
+   "kind": "note",
+   "label": "Distribution channels - IGCSE Business Revision Notes",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5",
+    "spcpt_TBr5SQzgcgqd3rHV"
+   ]
+  },
+  "rn_bHNNr4GSNdSGYbqN": {
+   "kind": "note",
+   "label": "Price elasticity of demand - IGCSE Business Revision Notes",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_Wmc96HtbpStzxDNV",
+    "spcpt_ycHR2g8ykNDsCm4F",
+    "spcpt_npdx5yYjTNyXvRmr"
+   ]
+  },
+  "rn_c7Rw3tDBBKj45mGP": {
+   "kind": "note",
+   "label": "Price: Types of Pricing Methods | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_vmYyqB44F3DKDq5q",
+    "spcpt_4GrqMXc4wDbxfjqs"
+   ]
+  },
+  "rn_ST6GFcH6kB2Z94j9": {
+   "kind": "note",
+   "label": "Product: Products and Brand Image | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_Qhj2txCMs5cSqpzH",
+    "spcpt_BxBF7PbFPz46Gjjz",
+    "spcpt_2SDFpCWfmQxcQF6F"
+   ]
+  },
+  "rn_DbK5TJY7Hg3Qb5KS": {
+   "kind": "note",
+   "label": "Product life cycle - IGCSE Business Revision Notes",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_hbw7HSD3wHkFjbHB",
+    "spcpt_zHxgJs4yphcV89Ch"
+   ]
+  },
+  "rn_MHpfcKBFDVHnRvw2": {
+   "kind": "note",
+   "label": "Promotion | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_9fBSbMM6fgR4k7rr",
+    "spcpt_zYKR2d2S6sZDsjkN"
+   ]
+  },
+  "rn_ThRW8MgtwYPk6v7r": {
+   "kind": "note",
+   "label": "Technology and the Marketing Mix | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.5",
+     "official_code": "3.3.5",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_j57HmFqVTN68cDyc",
+    "spcpt_kNwSBvN86BRhpvWM"
+   ]
+  },
+  "rn_gBdNv52QsCbc7S4F": {
+   "kind": "note",
+   "label": "Developing Appropriate Marketing Strategies | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_yhghh5CSftmvfVzf",
+    "spcpt_tKC9TYVZs2kdf7wd"
+   ]
+  },
+  "rn_B86KtZGhmQypxpqY": {
+   "kind": "note",
+   "label": "Entering Foreign Markets | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_cBZWhCgbD98Rjdpy",
+    "spcpt_hWq7zTjgkH36Jq9G"
+   ]
+  },
+  "rn_x6DzfY7xJfS7PMsw": {
+   "kind": "note",
+   "label": "Joint Ventures and Licensing | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_TvHq3rWg2m825nFV"
+   ]
+  },
+  "rn_FmWWZTgGz5MKw7rM": {
+   "kind": "note",
+   "label": "The Impact of Legislation on Marketing | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_J4SQPCD394bJsjH6"
+   ]
+  },
+  "rn_yhhbN3Js5y5XWykj": {
+   "kind": "note",
+   "label": "Lean production - IGCSE Business Revision Notes",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_zZYtgwJ7jBNPBTjk",
+    "spcpt_msv5gbNdw4dyWzBB"
+   ]
+  },
+  "rn_tY6vJ3sk7vNqdRkK": {
+   "kind": "note",
+   "label": "The Impact of Technology on Production | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_f4ckMqnf4WDwF2kC"
+   ]
+  },
+  "rn_yRC5FZdGTczFvdYv": {
+   "kind": "note",
+   "label": "The Main Production Methods | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_twJWG4fBWhQ2b3kY"
+   ]
+  },
+  "rn_3q468gBFGrzJhJmP": {
+   "kind": "note",
+   "label": "Production - IGCSE Business Revision Notes",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_wBMgbHQNSfmKpDWT",
+    "spcpt_snMwTNPjWqjqX4qY",
+    "spcpt_678gfYxX4HBNnYzW",
+    "spcpt_jP7zfnd5mPJwHvKJ"
+   ]
+  },
+  "rn_tsxHxtpqCGxPBSs9": {
+   "kind": "note",
+   "label": "Break even - IGCSE Business Revision Notes",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_SSYW8MYpNGKYpH7Q",
+    "spcpt_DH6kwnNGVGXCJvgK",
+    "spcpt_CMXp8fcXrcdXrbJ8"
+   ]
+  },
+  "rn_3hHQwrzZPhg4CJZ2": {
+   "kind": "note",
+   "label": "Break even chart - IGCSE Business Revision Notes",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_rYqW8Vf2Yh7NNH4n",
+    "spcpt_PnKMg4NhtRGHGWx3"
+   ]
+  },
+  "rn_ZDns3xWqcmHJzYpm": {
+   "kind": "note",
+   "label": "Types of costs - IGCSE Business Revision Notes",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_BXJjv4cyqHWhqJc8",
+    "spcpt_QnMVjB9WHxpTs63K"
+   ]
+  },
+  "rn_pYTPvVHwtPqRz42j": {
+   "kind": "note",
+   "label": "Diseconomies of Scale | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_jHHRbvZfN8tpxHkk": {
+   "kind": "note",
+   "label": "Economies of Scale | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_4cFKFSqwf5z7s4hQ": {
+   "kind": "note",
+   "label": "The Limitations of Break-Even Analysis | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_FzfZJm2kqcJn5SGn"
+   ]
+  },
+  "rn_jXzWZ4mrdK8bgf2f": {
+   "kind": "note",
+   "label": "Quality - IGCSE Business Revision Notes",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_g9BG2X9kvFpprR4v",
+    "spcpt_K9PQ42ZyGQ5Z9jdq"
+   ]
+  },
+  "rn_hktZYTgsWkF5xQ4B": {
+   "kind": "note",
+   "label": "Different Location Needs for Manufacturing and Service Businesses | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.4.1",
+     "official_code": "4.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_JWsmJWrKTcD9MPHY",
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "rn_hYwGdpt7YvrQ6qw9": {
+   "kind": "note",
+   "label": "Influences on the Choice of Production Location | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.4.1",
+     "official_code": "4.4.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_gh4GrJTdPbK5Jvbv"
+   ]
+  },
+  "rn_VN5TgrFnzDTvddSr": {
+   "kind": "note",
+   "label": "Choosing the Best Type of Finance | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_ft4MywFcbBHWcJGz",
+    "spcpt_4BQGTc5xn7RNh39H"
+   ]
+  },
+  "rn_4zP5255RMN5FrfhG": {
+   "kind": "note",
+   "label": "Sources of finance - IGCSE Business Revision Notes",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xZftDGfY9VKrd9rN",
+    "spcpt_9hz8Zn9hCC4hVZFR",
+    "spcpt_Rk473HKDP9853MNT"
+   ]
+  },
+  "rn_M3fPMj58pvxBc5bC": {
+   "kind": "note",
+   "label": "Short-Term and Long-Term Sources of Finance | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xwFTHd9wyHMWvt4P",
+    "spcpt_58G2YnrTbRN47x7N"
+   ]
+  },
+  "rn_wN3bwQM6CVsQWBh7": {
+   "kind": "note",
+   "label": "The Need for Business Finance | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_pXBw79cGrM4nCxXm",
+    "spcpt_6MM7sx6w6txNVxBt"
+   ]
+  },
+  "rn_Cjf8WXvHyHKSgvF9": {
+   "kind": "note",
+   "label": "Solving Short-Term Cash-Flow Problems | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_Yt4FMccnbyX2qxvn"
+   ]
+  },
+  "rn_HvVVK7ZxJ2sHWjBV": {
+   "kind": "note",
+   "label": "Working capital - IGCSE Business Revision Notes",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_nxssdY2T6XSnrDMQ",
+    "spcpt_cP75ftr4yD6Xnrgj"
+   ]
+  },
+  "rn_58mGKp8nnxB5vCjV": {
+   "kind": "note",
+   "label": "Using Cash-Flow Forecasts | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_JhPNrbN78BJqqyvH",
+    "spcpt_GZCBVtQf7WSZGcr3"
+   ]
+  },
+  "rn_gR7t94m5Z4rD7Qvt": {
+   "kind": "note",
+   "label": "Importance of profit - IGCSE Business Revision Notes",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_dc4hDzXmDmJzQDMr",
+    "spcpt_8ChrS5QJmTsRpg24",
+    "spcpt_bdwCrcVYmg23gzpQ"
+   ]
+  },
+  "rn_NRHP866QJfjDbBdC": {
+   "kind": "note",
+   "label": "The Main Features of an Income Statement | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "rn_8F9QwQbxnmxzcK9Z": {
+   "kind": "note",
+   "label": "Using Income Statements to Make Decisions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z"
+   ]
+  },
+  "rn_4qMv7R2FpHjDDk6B": {
+   "kind": "note",
+   "label": "The Main Features of a Statement of Financial Position | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.4.1",
+     "official_code": "5.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_xn6hC8wK5jJbZr8w",
+    "spcpt_b4Zp6H87cCKQNFfv"
+   ]
+  },
+  "rn_wTfzrtpy6xYfybbN": {
+   "kind": "note",
+   "label": "Using the Statement of Financial Position To Make Decisions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_tsq9ZbqqzvqHYV7w"
+   ]
+  },
+  "rn_pHr5D4VmGPgtPG36": {
+   "kind": "note",
+   "label": "How Stakeholders Use the Accounts | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "rn_3NTfqzXFRXwq8XPJ": {
+   "kind": "note",
+   "label": "Profitability & Liquidity | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_s2hZsnxbKP58txs5"
+   ]
+  },
+  "rn_PKzZpQbYCzrrxDGD": {
+   "kind": "note",
+   "label": "Current ratio and acid test - IGCSE Business Revision Notes",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_73bpWRnQr45ZcT5X",
+    "spcpt_zwq9gThxhhGM9Q3n"
+   ]
+  },
+  "rn_9JcTBKKhYHZYdBCd": {
+   "kind": "note",
+   "label": "Using Profitability Ratios To Analyse Performance | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_6KQbfxfQ4qkNNryX",
+    "spcpt_748nsvnWW99Nzc4M",
+    "spcpt_RKjy4KQfpX6XMVsR"
+   ]
+  },
+  "rn_KXRjC5jTBYjwh5zJ": {
+   "kind": "note",
+   "label": "Government Impact on Business: Economic Objectives | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "rn_BTPsWHvSgnRRxvj7": {
+   "kind": "note",
+   "label": "Government Impact on Business: Taxes, Spending & Interest Rates | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_SYS8jCHnN53R42Q3",
+    "spcpt_skrH8prCBRP6hMzG",
+    "spcpt_2rq66JhXJd4jjgsg"
+   ]
+  },
+  "rn_wqXd9WfGfmvKQGHM": {
+   "kind": "note",
+   "label": "Business cycle - IGCSE Business Revision Notes",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_jnwXhvZHnc7CSqjn",
+    "spcpt_JpRgw5w8cHZFJsqg",
+    "spcpt_sgZryzz2DsbNWkqt"
+   ]
+  },
+  "rn_97zSWX2yxcKwrf4s": {
+   "kind": "note",
+   "label": "Environmental issues - IGCSE Business Revision Notes",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_ZJWv4nJ4XqqpDGq2",
+    "spcpt_pTXkQ794c2Jbbtf5",
+    "spcpt_Fwq6k3WZdzV9yfrt",
+    "spcpt_7wYWYKf9YJNxh8RZ",
+    "spcpt_gz8nvYcBgCQkj58f"
+   ]
+  },
+  "rn_FnwTTyPwxSRyNYC4": {
+   "kind": "note",
+   "label": "Pressure groups - IGCSE Business Revision Notes",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_bZcV7BBXbpC9c6VB",
+    "spcpt_HDdx6rmKCjvmGMby",
+    "spcpt_WMRZzS328KbH7g9R"
+   ]
+  },
+  "rn_GNm8tdM4QvDxDHP7": {
+   "kind": "note",
+   "label": "Ethical Issues To Consider | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_NdxBwpdn8zGQtjBR",
+    "spcpt_kDM964dJYj3b9Rb9"
+   ]
+  },
+  "rn_k2HjTqQ5fqHxbs27": {
+   "kind": "note",
+   "label": "Benefits & Drawbacks To Countries of Hosting MNCs | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Dk6DG57gpp8qs6dp",
+    "spcpt_9CWrRzmsF8kyRxnx"
+   ]
+  },
+  "rn_J6tmD2YGrH2szg5g": {
+   "kind": "note",
+   "label": "Tariffs & Quotas | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_GHxpyGKWXztMVBpV"
+   ]
+  },
+  "rn_9w8JY845jxft76ky": {
+   "kind": "note",
+   "label": "The effect of exchange rates - IGCSE Business Revision Notes",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.3.3",
+     "official_code": "6.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_xJzmgw86DcmfFscP",
+    "spcpt_3y3Nfxxc4tHxHn3P"
+   ]
+  },
+  "rn_T4DsJZmP9jp7jNSc": {
+   "kind": "note",
+   "label": "The Importance of Globalisation | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_4WvHkpnGfZQKrpWH",
+    "spcpt_NbwYwWbkRk3ZmK2B"
+   ]
+  },
+  "rn_q4Rm3zM3CrrVJg9k": {
+   "kind": "note",
+   "label": "Multinational business - IGCSE Business Revision Notes",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_skBDySrrR8YmFDvC",
+    "spcpt_NTjT29th2tc4D6Sv",
+    "spcpt_2vPqDTkvKVCWqWTj"
+   ]
+  },
+  "rn_4vZXBN3NQxYxbMH7": {
+   "kind": "note",
+   "label": "Paper 1: Short Answer & Data Response | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-1-the-exam-papers",
+   "codes": [],
+   "pending": [
+    "spcpt_FdknbzwCYTJqTPMY"
+   ]
+  },
+  "rn_sKzZ3wWrgTk7Cq6R": {
+   "kind": "note",
+   "label": "Paper 2: Case Study | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-1-the-exam-papers",
+   "codes": [],
+   "pending": [
+    "spcpt_fMRyXFvWxJkDv7bj"
+   ]
+  },
+  "rn_xGchsvH6bNkYWhDb": {
+   "kind": "note",
+   "label": "Skills You Need To Demonstrate | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-2-business-exam-skills",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_ZMGjxsc4572T7YRv",
+    "spcpt_P4zbRh29ZhG9RMzS",
+    "spcpt_MSTchjfQKXKms8VS",
+    "spcpt_5GRJ74nYMr383w3y"
+   ]
+  },
+  "rn_SbnSKDNhfKgKQwG3": {
+   "kind": "note",
+   "label": "Answering 12-Mark Questions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-3-structuring-your-responses",
+   "codes": [],
+   "pending": [
+    "spcpt_6367GKCZM3nSRbcB"
+   ]
+  },
+  "rn_WbsQ9bPjFzqNHRMt": {
+   "kind": "note",
+   "label": "Answering 2-Mark Questions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-3-structuring-your-responses",
+   "codes": [],
+   "pending": [
+    "spcpt_cHFvnSh6XmktVCTT"
+   ]
+  },
+  "rn_QDYb2vH3S47TwdS2": {
+   "kind": "note",
+   "label": "Answering 4-Mark Questions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-3-structuring-your-responses",
+   "codes": [],
+   "pending": [
+    "spcpt_qQgFfCG2HnbfWdd3"
+   ]
+  },
+  "rn_mgY9tYh5jFJZyQHf": {
+   "kind": "note",
+   "label": "Answering 6-Mark Questions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-3-structuring-your-responses",
+   "codes": [],
+   "pending": [
+    "spcpt_Yqjf6fqd63gKbgpj",
+    "spcpt_hmKKYZ9NZWjDQyy4"
+   ]
+  },
+  "rn_jWDt3Tk3pxZBpgpd": {
+   "kind": "note",
+   "label": "Answering 8-Mark Questions | Cambridge (CIE) IGCSE Business Revision Notes 2018",
+   "section": "7-exam-technique",
+   "topic": "7-3-structuring-your-responses",
+   "codes": [],
+   "pending": [
+    "spcpt_Srm8nw8vpNnjq8G7"
+   ]
+  },
+  "qstnprt_SmbGfCGcFHG9mkmj": {
+   "kind": "question_part",
+   "label": "qstn_7dm7RDbnJSFpKPTx / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "qstnprt_pPmzw2ZZVXXyshz2": {
+   "kind": "question_part",
+   "label": "qstn_Qc4Gjnz7nd469NnF / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "qstnprt_sbgk4pyZB9qgq9rt": {
+   "kind": "question_part",
+   "label": "qstn_VB4FGWHM6pWcYVvB / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "qstnprt_XHjgyx4tXWkGYbVS": {
+   "kind": "question_part",
+   "label": "qstn_FcX6ZmKYmWnKqWsD / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_x5RPSW5TcR5kTs7v"
+   ]
+  },
+  "qstnprt_FkwPtQfb9Z9pBZw9": {
+   "kind": "question_part",
+   "label": "qstn_hsfSVjJHSJFMrKfv / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_wvG3S6r7SmnYXhQ4"
+   ]
+  },
+  "qstnprt_xGbVj7nCYmhyr28M": {
+   "kind": "question_part",
+   "label": "qstn_z4xQqWHFZzBnspJb / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_cKqFJYx6k9hXK6DZ"
+   ]
+  },
+  "qstnprt_qhqsYKXy2b2JfXK5": {
+   "kind": "question_part",
+   "label": "qstn_mPmDgmRqM6kg8G9X / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_wvG3S6r7SmnYXhQ4"
+   ]
+  },
+  "qstnprt_gd9knF52Dw2Msc7t": {
+   "kind": "question_part",
+   "label": "qstn_zHCWSMkT2nHzmVjK / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_cKqFJYx6k9hXK6DZ"
+   ]
+  },
+  "qstnprt_g5dtzT99hTxP6Wzh": {
+   "kind": "question_part",
+   "label": "qstn_MNxTrpRs6NdCt9Td / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "qstnprt_8zvKM5PTvQDQRDH4": {
+   "kind": "question_part",
+   "label": "qstn_W2ZTYdmHjSzmwj4F / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_wvG3S6r7SmnYXhQ4"
+   ]
+  },
+  "qstnprt_5gq3ZchQFrydbzTV": {
+   "kind": "question_part",
+   "label": "qstn_q6RcnDSHZWMFFFz2 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "qstnprt_fWQKpwhxdkqw7vjS": {
+   "kind": "question_part",
+   "label": "qstn_B3V234TH8bV44fTV / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_ZFJYBr4Znrmn6S4P"
+   ]
+  },
+  "qstnprt_jrKWsQHTmxTBMmVt": {
+   "kind": "question_part",
+   "label": "qstn_y3CNZStNBKQDx3VB / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-1-business-activity",
+   "codes": [],
+   "pending": [
+    "spcpt_wvG3S6r7SmnYXhQ4"
+   ]
+  },
+  "qstnprt_vQvv8hqpHg76T4Ps": {
+   "kind": "question_part",
+   "label": "qstn_JwRnzZmxwHPppc3n / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_9mBDvT7jsN84Qgwg"
+   ]
+  },
+  "qstnprt_gSXffbbcWHJGSWDW": {
+   "kind": "question_part",
+   "label": "qstn_cB8SjtDY3pSTR54H / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_DWWZRygFPf3GZG3n": {
+   "kind": "question_part",
+   "label": "qstn_xbwzyJ3bD6Skjyj8 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_ZbSzTFXD5ZsHj33C",
+    "spcpt_hQt5RFvHByR9xVd3",
+    "spcpt_bJQPh4XHgZQQ3jTx"
+   ]
+  },
+  "qstnprt_h7DP92CdwSbsTBHt": {
+   "kind": "question_part",
+   "label": "qstn_vKGWbMzNk8GDGcJp / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_9mBDvT7jsN84Qgwg"
+   ]
+  },
+  "qstnprt_ZSCBHkY9dRVvRZSz": {
+   "kind": "question_part",
+   "label": "qstn_b33rfccpzPjxhjDS / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.2",
+     "official_code": "1.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_xtQ4G2qp7TKQ3pWz": {
+   "kind": "question_part",
+   "label": "qstn_FJdGz6SxfrSYKQKP / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT",
+    "spcpt_9mBDvT7jsN84Qgwg"
+   ]
+  },
+  "qstnprt_VpzMhHwM7PjKFhp4": {
+   "kind": "question_part",
+   "label": "qstn_qhBgfgyjRq77MxhP / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_XTQ2XzdHm2n4YCnS": {
+   "kind": "question_part",
+   "label": "qstn_fDxQdhCkzB8FJxDM / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_yz6DtzXxGSSQK7QT": {
+   "kind": "question_part",
+   "label": "qstn_39ym5xBRsw5VSfvD / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_WDq6gF5yZJBGKSk2": {
+   "kind": "question_part",
+   "label": "qstn_ZWFjvVhN9sZqTr2X / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_9mBDvT7jsN84Qgwg"
+   ]
+  },
+  "qstnprt_Vsn8CFfZysxWQ9gh": {
+   "kind": "question_part",
+   "label": "qstn_nJ9XwFvysrq8sRgt / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_zqdqwzRK8hX9Xt7m": {
+   "kind": "question_part",
+   "label": "qstn_mv5fwhG8Fw7bCChP / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-2-classification-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_pddNy9q39Jjb9PZT"
+   ]
+  },
+  "qstnprt_nxgNxCkrFgDHcGXW": {
+   "kind": "question_part",
+   "label": "qstn_hW4FHK6rnbscy9k4 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_psCs2zp22jFmvwkX"
+   ]
+  },
+  "qstnprt_YHPJfM7Vcvx5ZQbC": {
+   "kind": "question_part",
+   "label": "qstn_3cKYbt9m8dSxdgSJ / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hFVWrrvyXrnh5Mvf": {
+   "kind": "question_part",
+   "label": "qstn_RwWMqx36nzCQbsk3 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_Z4XKvDRGMhjhdKDQ",
+    "spcpt_KHh9f2YcRQqwKC3V"
+   ]
+  },
+  "qstnprt_fXpSQzSfV9sFwyxk": {
+   "kind": "question_part",
+   "label": "qstn_QK45CR9k2m99TxDF / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_hjT8qsHhPvt6QhdR"
+   ]
+  },
+  "qstnprt_cKb2SDfsjvqvqjNq": {
+   "kind": "question_part",
+   "label": "qstn_cQdD5gWXXV2MjP7t / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_XZWFsfqcRQqRWnnP"
+   ]
+  },
+  "qstnprt_9MckXtg4sMK94T2D": {
+   "kind": "question_part",
+   "label": "qstn_tfvzmkHdM9jHGqzG / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_2VmDXzGx4BWvYgfb": {
+   "kind": "question_part",
+   "label": "qstn_5P5GzPHHFWP4PXqP / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MnRN34NzqFZmQqxc": {
+   "kind": "question_part",
+   "label": "qstn_MwbtHP8C3N3BNWrf / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_V9fqFVty4n3c7rT8"
+   ]
+  },
+  "qstnprt_hgjbV7G4RsBnhzbX": {
+   "kind": "question_part",
+   "label": "qstn_GQsMwqqv9YtwzmGN / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.4",
+     "official_code": "1.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_FSjbsXyCt3gYyTfC": {
+   "kind": "question_part",
+   "label": "qstn_fyW2WW7q4BSsGMRF / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_JSxd2nQdHygrNRrt"
+   ]
+  },
+  "qstnprt_g7mRV7rT7pTFHvd4": {
+   "kind": "question_part",
+   "label": "qstn_K299ckQBD954KD7n / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_JSxd2nQdHygrNRrt"
+   ]
+  },
+  "qstnprt_sPFqY847vTsX8p84": {
+   "kind": "question_part",
+   "label": "qstn_gBMCsw4fxdKPjBbY / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dJKPmC36MTBKndvX": {
+   "kind": "question_part",
+   "label": "qstn_MdhxCxJSfr3W9pCW / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MnTnDnPzsqjZVfRH": {
+   "kind": "question_part",
+   "label": "qstn_53HKsZtCWDBqQwtC / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WWgHQzGxYZHTjNSB": {
+   "kind": "question_part",
+   "label": "qstn_GnYZv2Twh29jVS8T / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_V9fqFVty4n3c7rT8"
+   ]
+  },
+  "qstnprt_ytg6mS5859NScVkj": {
+   "kind": "question_part",
+   "label": "qstn_BqF5wW2N82zrH6rm / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_7jj337psMmYWyQJs": {
+   "kind": "question_part",
+   "label": "qstn_gkjXZPgbRgtqzfxK / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_T5rH89B3j9FG5VDF": {
+   "kind": "question_part",
+   "label": "qstn_dtC3VrKSJfyTmPxb / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_hjT8qsHhPvt6QhdR"
+   ]
+  },
+  "qstnprt_D5BF4SCDnnhSrww5": {
+   "kind": "question_part",
+   "label": "qstn_JGZY3rzGmRCf6F7z / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_hjT8qsHhPvt6QhdR"
+   ]
+  },
+  "qstnprt_9HBzQrcJ8Bpf35BN": {
+   "kind": "question_part",
+   "label": "qstn_gCfRN5rGds75KkDF / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.2",
+     "official_code": "1.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_Qk8GFWqNwg7HrK8T"
+   ]
+  },
+  "qstnprt_GDkCrn9nY9xJXr7s": {
+   "kind": "question_part",
+   "label": "qstn_Z4G4B4XHTXSGdgHv / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_JSxd2nQdHygrNRrt"
+   ]
+  },
+  "qstnprt_WydNvq6DtTybk524": {
+   "kind": "question_part",
+   "label": "qstn_Msp6czWbVPsK5Q6g / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_qSh6PzR8Th3xJQ9n": {
+   "kind": "question_part",
+   "label": "qstn_cnZgT2dXCwSjTWX9 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_XZWFsfqcRQqRWnnP",
+    "spcpt_kGGdpz5skkh7rxtB"
+   ]
+  },
+  "qstnprt_Bw9Q2CM8SDZpcMYS": {
+   "kind": "question_part",
+   "label": "qstn_482JGjzrHNPVw4qf / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_g3gJ82tZGCHpKNjf": {
+   "kind": "question_part",
+   "label": "qstn_ZVH8Thr2mQTYK8rV / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.3",
+     "official_code": "1.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_XZWFsfqcRQqRWnnP"
+   ]
+  },
+  "qstnprt_VK2mD6WGmD7bQGgX": {
+   "kind": "question_part",
+   "label": "qstn_zNNFQJPbbb8sKGhs / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_rhFNjBt2x4b2qq9V": {
+   "kind": "question_part",
+   "label": "qstn_TcTs8yJxJYD7ZnSD / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8"
+   ]
+  },
+  "qstnprt_QJnjbF9M6VGQp7fV": {
+   "kind": "question_part",
+   "label": "qstn_rDXtckcmYtbPXshc / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_sgZryzz2DsbNWkqt"
+   ]
+  },
+  "qstnprt_bk27xHYsCjrzDSJP": {
+   "kind": "question_part",
+   "label": "qstn_jKNSdzMnbMxD6sbz / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_psCs2zp22jFmvwkX"
+   ]
+  },
+  "qstnprt_CPdQ7ZDmC3dtkmxg": {
+   "kind": "question_part",
+   "label": "qstn_D8TC7fqBYCs9dt26 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.3.2",
+     "official_code": "1.3.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6BVtrjfngM2HnxKm": {
+   "kind": "question_part",
+   "label": "qstn_BKCCSyWpz2NxbwYt / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_Z4XKvDRGMhjhdKDQ",
+    "spcpt_Y6pvJxd3MZCVMFmm"
+   ]
+  },
+  "qstnprt_mcRmckhPQJhJ7cSq": {
+   "kind": "question_part",
+   "label": "qstn_8TJbnDpSFTMp93SD / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_V9fqFVty4n3c7rT8"
+   ]
+  },
+  "qstnprt_95hZ3N3hrQrD8cG6": {
+   "kind": "question_part",
+   "label": "qstn_4tvnX4KwSGxT2Hkw / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_Qk8GFWqNwg7HrK8T"
+   ]
+  },
+  "qstnprt_Qvq9xXhwYHqVF4CC": {
+   "kind": "question_part",
+   "label": "qstn_4cF7FSygs56N5mJ9 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-3-enterprise-and-business-growth",
+   "codes": [],
+   "pending": [
+    "spcpt_V9fqFVty4n3c7rT8"
+   ]
+  },
+  "qstnprt_r9b5w3pTxPZCsZ8x": {
+   "kind": "question_part",
+   "label": "qstn_5qGnqgtGYN6GnQk6 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_gC7ZZ9vpb5k5pkWZ": {
+   "kind": "question_part",
+   "label": "qstn_VvFKR7xCyR5NRzrK / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48",
+    "spcpt_sZ3Z2255Kgpr7SkZ"
+   ]
+  },
+  "qstnprt_rnjS4pP6vs2MqzNG": {
+   "kind": "question_part",
+   "label": "qstn_yrBCrRxqSgb7kNYS / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_SWCxFYJDtt9p2fH3",
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_NnG8rBtKp29DTzbN": {
+   "kind": "question_part",
+   "label": "qstn_W9GCc325mzr65YD2 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_tD86dcqrk8Y2gRcN"
+   ]
+  },
+  "qstnprt_X9mvQQQkq7WDwSQg": {
+   "kind": "question_part",
+   "label": "qstn_2Smh3y6mtwBMDMFS / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_qRy7D386Kh2Ctg6Z": {
+   "kind": "question_part",
+   "label": "qstn_Z4tQhQXNfh4JsspY / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_42CNNFKFX9shWfZ2": {
+   "kind": "question_part",
+   "label": "qstn_MC6TB9vxpsC9WF9Z / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_8s9nRn2FC7wqVB6T": {
+   "kind": "question_part",
+   "label": "qstn_myFsBPrC5rjrkwBr / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_bSC3MM2dBt2768dD": {
+   "kind": "question_part",
+   "label": "qstn_88FwRh84gSGDhHgY / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_54xdbzhS2gQPdZvr": {
+   "kind": "question_part",
+   "label": "qstn_d2rRRSWtFtrCcyMW / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_tD86dcqrk8Y2gRcN"
+   ]
+  },
+  "qstnprt_vS42jr8q8gtJ3bCj": {
+   "kind": "question_part",
+   "label": "qstn_WzdfRk2yJJD478H8 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_tD86dcqrk8Y2gRcN"
+   ]
+  },
+  "qstnprt_KDs4B8fKMzfb8Z2n": {
+   "kind": "question_part",
+   "label": "qstn_tyKXmXDvDMqtjXGf / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_SWCxFYJDtt9p2fH3",
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_6qbb2BP2HWRshS86": {
+   "kind": "question_part",
+   "label": "qstn_sK6nP93GQ4Nmzrm6 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_NKJQW9JsjqM6CphC": {
+   "kind": "question_part",
+   "label": "qstn_yB2zBfnFY6TFj36v / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_tD86dcqrk8Y2gRcN"
+   ]
+  },
+  "qstnprt_FGd95HRTjs5TV34r": {
+   "kind": "question_part",
+   "label": "qstn_3gCRWdZYX69zs4nW / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_B69cWwhzxCSWX9fB": {
+   "kind": "question_part",
+   "label": "qstn_rFMyqYbr2mX6wVrR / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_sZ3Z2255Kgpr7SkZ"
+   ]
+  },
+  "qstnprt_ZqWvWKRprzghqRSq": {
+   "kind": "question_part",
+   "label": "qstn_Bcm8rCShnVVnRtnx / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_sZ3Z2255Kgpr7SkZ",
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_wvVfXJKKJprkPxj3": {
+   "kind": "question_part",
+   "label": "qstn_637SBRTVdTdZcDK6 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_Y6pvJxd3MZCVMFmm"
+   ]
+  },
+  "qstnprt_btPvmYz7xks4j8zv": {
+   "kind": "question_part",
+   "label": "qstn_GWg9HkNqDSsSxdfr / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_fHnBdWVHxgsXVjm6": {
+   "kind": "question_part",
+   "label": "qstn_sXyMcwZcZ9mHXPbf / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_NcRk3VRBNW2ygzkY": {
+   "kind": "question_part",
+   "label": "qstn_9NpkQ4xhTtGMPcJ3 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_KbYYfG9Tm38DJGhH": {
+   "kind": "question_part",
+   "label": "qstn_VD6wKj846GSPJgpd / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_hQt5RFvHByR9xVd3"
+   ]
+  },
+  "qstnprt_DXFys8tFRd7dPnJV": {
+   "kind": "question_part",
+   "label": "qstn_rndf9gdgyX4cPySq / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-4-types-of-businesses",
+   "codes": [],
+   "pending": [
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_GHjDqFZsBJ3BHsdM": {
+   "kind": "question_part",
+   "label": "qstn_NbjnQHHsgwNnXRRn / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_KHb3BMDjmx69bsXZ",
+    "spcpt_kGGdpz5skkh7rxtB"
+   ]
+  },
+  "qstnprt_3PNwF7gQ3QkRVfk2": {
+   "kind": "question_part",
+   "label": "qstn_gWrtRFDWPTRHNBHB / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8"
+   ]
+  },
+  "qstnprt_vQzc7wFctFR64Kbw": {
+   "kind": "question_part",
+   "label": "qstn_XSM3g2jPGvRsbHzk / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8",
+    "spcpt_Dy4vCsRcY6MQ97wQ"
+   ]
+  },
+  "qstnprt_qCKqShm6XVGrFRP7": {
+   "kind": "question_part",
+   "label": "qstn_VWvhwWnTfSRyjhj2 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_XZWFsfqcRQqRWnnP",
+    "spcpt_KHb3BMDjmx69bsXZ"
+   ]
+  },
+  "qstnprt_kySPvWnZyVYFNh3t": {
+   "kind": "question_part",
+   "label": "qstn_YtcGJGb8bjdNhnyr / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8"
+   ]
+  },
+  "qstnprt_3qj7CzVFQ35pHwWj": {
+   "kind": "question_part",
+   "label": "qstn_prZPzZz2HrdHyrPG / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_kGGdpz5skkh7rxtB"
+   ]
+  },
+  "qstnprt_WvK9z3WYh8p9CTY5": {
+   "kind": "question_part",
+   "label": "qstn_9SbhR9JhBfBSdjhj / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_pKYjb7MPw3pPhNvb"
+   ]
+  },
+  "qstnprt_3PQXQR5x6MpBzKfC": {
+   "kind": "question_part",
+   "label": "qstn_vv7VQJxhrJm4mMkX / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_KHb3BMDjmx69bsXZ",
+    "spcpt_H97q7SJJ7BVQ9w48"
+   ]
+  },
+  "qstnprt_btrSShxncb9qT8tF": {
+   "kind": "question_part",
+   "label": "qstn_t4FsGMrfWbkVb337 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:1.5.3",
+     "official_code": "1.5.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_nkMyyRnsDQ9Srqfj": {
+   "kind": "question_part",
+   "label": "qstn_sm7yF5bsJCzCkdmK / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_ZbSzTFXD5ZsHj33C"
+   ]
+  },
+  "qstnprt_CtpmKrJz9B9fBnYn": {
+   "kind": "question_part",
+   "label": "qstn_sHkpKymsFzf8Hf88 / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_kGGdpz5skkh7rxtB"
+   ]
+  },
+  "qstnprt_Fb9tD9mPGG9y5qJv": {
+   "kind": "question_part",
+   "label": "qstn_j9MQHpKGhFZWTmnY / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_Dy4vCsRcY6MQ97wQ"
+   ]
+  },
+  "qstnprt_JRjZzmjmwmpHcjVy": {
+   "kind": "question_part",
+   "label": "qstn_xrjnNmsq7k7p67jS / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8"
+   ]
+  },
+  "qstnprt_ybWn2nHstjxyzY2f": {
+   "kind": "question_part",
+   "label": "qstn_zFQ7SqMHrSZSc4Zn / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8"
+   ]
+  },
+  "qstnprt_6b76WvG3bW6tvPJ6": {
+   "kind": "question_part",
+   "label": "qstn_xR28bf9tGkhJJ67m / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_kGGdpz5skkh7rxtB"
+   ]
+  },
+  "qstnprt_VgdDW4sgKnKhvP9p": {
+   "kind": "question_part",
+   "label": "qstn_TqPNQfn7zHvrjjQY / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_xn6hC8wK5jJbZr8w"
+   ]
+  },
+  "qstnprt_Mjj7c2pjfgcTxvXg": {
+   "kind": "question_part",
+   "label": "qstn_h3ZFwcTMZKpZYdTP / part 0",
+   "section": "1-understanding-business-activity",
+   "topic": "1-5-business-and-stakeholder-objectives",
+   "codes": [],
+   "pending": [
+    "spcpt_gB56Ps3zhmBHmTH8"
+   ]
+  },
+  "qstnprt_rcYTqGrh6NBWDHwN": {
+   "kind": "question_part",
+   "label": "qstn_mq9gM2Yjg9ChXx7K / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67",
+    "spcpt_47pdymbdMKWtcN3P"
+   ]
+  },
+  "qstnprt_GpNQfCksjGPbcxvQ": {
+   "kind": "question_part",
+   "label": "qstn_t8qr3nqXRqBFGncf / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67",
+    "spcpt_47pdymbdMKWtcN3P"
+   ]
+  },
+  "qstnprt_NZ7V9kbtqhGxdRmZ": {
+   "kind": "question_part",
+   "label": "qstn_GDkkvzjXbf4crPpK / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_Ng2RhvmYqJqDRbYC"
+   ]
+  },
+  "qstnprt_wzzpZZ8BKRQjWBjD": {
+   "kind": "question_part",
+   "label": "qstn_8JpbCyjpMKBPk7yP / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_47pdymbdMKWtcN3P"
+   ]
+  },
+  "qstnprt_TB66g5yft9rbg8Xx": {
+   "kind": "question_part",
+   "label": "qstn_psSVtbTQ7NpBQJmB / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_47pdymbdMKWtcN3P",
+    "spcpt_rVQw8wFSg5K4Nn67"
+   ]
+  },
+  "qstnprt_YjmRn4JTXXJCRG56": {
+   "kind": "question_part",
+   "label": "qstn_gCTD7dvXx9gJtVNm / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67",
+    "spcpt_47pdymbdMKWtcN3P"
+   ]
+  },
+  "qstnprt_vwzmgPSH5ggpghkH": {
+   "kind": "question_part",
+   "label": "qstn_NCbXqHcy2hjNnyvf / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67",
+    "spcpt_2MvY8V6QhvwZDh8r"
+   ]
+  },
+  "qstnprt_CFmHxK38hnsXt4Zy": {
+   "kind": "question_part",
+   "label": "qstn_BqXV8qpTTjRtYFy5 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67"
+   ]
+  },
+  "qstnprt_Gb2crxq9DFBNWKCd": {
+   "kind": "question_part",
+   "label": "qstn_HChtnSr8XFxRXSwT / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_8m7tXN2rcBrz8jCF"
+   ]
+  },
+  "qstnprt_Ffk3mWxbq3chs9PK": {
+   "kind": "question_part",
+   "label": "qstn_rT3wMwjpKsTh82kc / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_s2nBkzJqbRHb2VH7"
+   ]
+  },
+  "qstnprt_P5FfxB3k63pdVd8m": {
+   "kind": "question_part",
+   "label": "qstn_CB8tcG8Pg5zp7Npg / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_8m7tXN2rcBrz8jCF"
+   ]
+  },
+  "qstnprt_XJDGg5PxFfJrWMdm": {
+   "kind": "question_part",
+   "label": "qstn_7pRQ8cncxZTRfTPj / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67"
+   ]
+  },
+  "qstnprt_bQHcngxgC4wCrt6f": {
+   "kind": "question_part",
+   "label": "qstn_n5byHpnXr8JgPBMZ / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_s2nBkzJqbRHb2VH7"
+   ]
+  },
+  "qstnprt_fdkxPsScM8Ys75jv": {
+   "kind": "question_part",
+   "label": "qstn_c5hzc5xrnDZnzQ8k / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-1-motivating-employees",
+   "codes": [],
+   "pending": [
+    "spcpt_rVQw8wFSg5K4Nn67"
+   ]
+  },
+  "qstnprt_dgHTBFWhp7mHVxjq": {
+   "kind": "question_part",
+   "label": "qstn_nGgfcGCHzVSp6zDw / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_bC4ZDH7zxGRC79yv"
+   ]
+  },
+  "qstnprt_cKSjnR67kNjtZNRJ": {
+   "kind": "question_part",
+   "label": "qstn_srdwyq3Jj3QfJNqY / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_KWSZxmjf7y4GrhZ7"
+   ]
+  },
+  "qstnprt_ZPGC9ZHcF549tzvM": {
+   "kind": "question_part",
+   "label": "qstn_cm9qjx35VfbBqRfv / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_2MvY8V6QhvwZDh8r"
+   ]
+  },
+  "qstnprt_zs5Vzs6bKqVPFPzg": {
+   "kind": "question_part",
+   "label": "qstn_gXMC5tfbg7tNXXPg / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_qqb2pVqPpfYbJHq8"
+   ]
+  },
+  "qstnprt_S8NRXkq4sRrNhDYc": {
+   "kind": "question_part",
+   "label": "qstn_FTqRGmd6W6JStDZn / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZKgrhjDsbTSfwYpP": {
+   "kind": "question_part",
+   "label": "qstn_sYggxhfG9KGgbQpX / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_VYwfJd5vgP5n9hvM",
+    "spcpt_KWSZxmjf7y4GrhZ7"
+   ]
+  },
+  "qstnprt_FSJWtnvpdY9S859s": {
+   "kind": "question_part",
+   "label": "qstn_49dT2WXfpXBDgcHd / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_2MvY8V6QhvwZDh8r"
+   ]
+  },
+  "qstnprt_ZBhpvGKQwBpB6YRD": {
+   "kind": "question_part",
+   "label": "qstn_9nBtd2mSQQdmfXdv / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_qqb2pVqPpfYbJHq8"
+   ]
+  },
+  "qstnprt_CFdjWrmx6YK9BTCg": {
+   "kind": "question_part",
+   "label": "qstn_7YK37dwm6K649cqj / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_29jrC48VrMSqP5Xq"
+   ]
+  },
+  "qstnprt_N6PcNgfvPK3nndP6": {
+   "kind": "question_part",
+   "label": "qstn_9Z6cK3FkRFtBHGxV / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_29jrC48VrMSqP5Xq"
+   ]
+  },
+  "qstnprt_vhwTXBKQddWJYswD": {
+   "kind": "question_part",
+   "label": "qstn_ybxFc9NJkRkBpGhC / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_sjzNrq5mp9qyFYDJ": {
+   "kind": "question_part",
+   "label": "qstn_XCvHyCYWdKSNPnvK / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_29jrC48VrMSqP5Xq"
+   ]
+  },
+  "qstnprt_56pQWwpRWSP4GHYv": {
+   "kind": "question_part",
+   "label": "qstn_BkMcM59Gsq3YB8gW / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_29jrC48VrMSqP5Xq"
+   ]
+  },
+  "qstnprt_3JNQmvJWx5Ng4FYb": {
+   "kind": "question_part",
+   "label": "qstn_XCPzj376NXSrXqf8 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_2MvY8V6QhvwZDh8r"
+   ]
+  },
+  "qstnprt_RdXbwV2rCk4rt2S6": {
+   "kind": "question_part",
+   "label": "qstn_BXhp8pMQ3Vgp4zBr / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_qqb2pVqPpfYbJHq8"
+   ]
+  },
+  "qstnprt_vccwwN46kHQDQZpK": {
+   "kind": "question_part",
+   "label": "qstn_gN8SNdCfSBxHmyzB / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_qqb2pVqPpfYbJHq8"
+   ]
+  },
+  "qstnprt_cMXBrmQV262YRKCz": {
+   "kind": "question_part",
+   "label": "qstn_cFbYjCXhGQQCm2jK / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_2MvY8V6QhvwZDh8r"
+   ]
+  },
+  "qstnprt_375gDdmw2H8m7zyZ": {
+   "kind": "question_part",
+   "label": "qstn_ZVvMq53Rr7Qb8HFd / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_KWSZxmjf7y4GrhZ7"
+   ]
+  },
+  "qstnprt_wPpCjG7t9w5RrJhp": {
+   "kind": "question_part",
+   "label": "qstn_z4FZ7J9kg6yRKYNP / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_KWSZxmjf7y4GrhZ7"
+   ]
+  },
+  "qstnprt_qx74GjZDcy3fztMt": {
+   "kind": "question_part",
+   "label": "qstn_YQkF9xBtrMjHNrkN / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [],
+   "pending": [
+    "spcpt_VYwfJd5vgP5n9hvM",
+    "spcpt_KWSZxmjf7y4GrhZ7"
+   ]
+  },
+  "qstnprt_VwXnZjf8tQh9DHYg": {
+   "kind": "question_part",
+   "label": "qstn_z5gXVsY4Z7xgGZhj / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-2-organisation-and-management-of-people",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.2.4",
+     "official_code": "2.2.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_QP8689jT3jwZFzy3": {
+   "kind": "question_part",
+   "label": "qstn_rKvKK4vsbRPPnKVy / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_hWHPq34ZSqGcYgWk"
+   ]
+  },
+  "qstnprt_cVQB3hGwFJC77bjN": {
+   "kind": "question_part",
+   "label": "qstn_DKSWhYQfnytgyCpN / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_MMpFz9NSQTPQGDnr"
+   ]
+  },
+  "qstnprt_HH6cCmKHJYNGd9g4": {
+   "kind": "question_part",
+   "label": "qstn_bmR8Vm7xVhgfVqFX / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_Wq38vZD7pP9TVfH3"
+   ]
+  },
+  "qstnprt_Sm4NccMBtrK5C72h": {
+   "kind": "question_part",
+   "label": "qstn_SCQkKn25Bwbtx9dm / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_hWHPq34ZSqGcYgWk"
+   ]
+  },
+  "qstnprt_6qt7ZtcvqspWTdPV": {
+   "kind": "question_part",
+   "label": "qstn_r2vFRCqGNn6RXVh4 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_hWHPq34ZSqGcYgWk"
+   ]
+  },
+  "qstnprt_rhkX7mKmxjcn9PF2": {
+   "kind": "question_part",
+   "label": "qstn_Byn64m3xTzYf5ZJN / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_vYV5SGDSttqyvRtt"
+   ]
+  },
+  "qstnprt_WPTgGpckbJZzqrNK": {
+   "kind": "question_part",
+   "label": "qstn_Gd5n2y7rcxvJM9yr / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_mCb9PNwj6T9PTPbd"
+   ]
+  },
+  "qstnprt_c3KxS4BNrQfGjs8N": {
+   "kind": "question_part",
+   "label": "qstn_gvNyqgbQrzhxyPW7 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_qgpBDsPwvtcYwTB5"
+   ]
+  },
+  "qstnprt_GSmWjGTvnCgQqkyP": {
+   "kind": "question_part",
+   "label": "qstn_d4Y2bwDtPqYQV5jv / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DWB6jk7pgWd6Wbtp": {
+   "kind": "question_part",
+   "label": "qstn_bpCddHjjJBCtMbzC / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_Wq38vZD7pP9TVfH3"
+   ]
+  },
+  "qstnprt_fNDTDZtYqGVyxTzj": {
+   "kind": "question_part",
+   "label": "qstn_VPdFmtvtsx6rgnzk / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_mCb9PNwj6T9PTPbd"
+   ]
+  },
+  "qstnprt_2V86RjKrMH2ppGbv": {
+   "kind": "question_part",
+   "label": "qstn_TBs2Fpj6KRPzCgK3 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_6yP4PtWyg4kJKc93"
+   ]
+  },
+  "qstnprt_knBVhVgGkrCmPZnY": {
+   "kind": "question_part",
+   "label": "qstn_Jrk3P6w2tnWykVzT / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_6yP4PtWyg4kJKc93"
+   ]
+  },
+  "qstnprt_mWQX9GXJBX76twyq": {
+   "kind": "question_part",
+   "label": "qstn_fcDQYZkxx5FH4x7Q / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_qgpBDsPwvtcYwTB5"
+   ]
+  },
+  "qstnprt_4N5ncyG4yGdkqmXB": {
+   "kind": "question_part",
+   "label": "qstn_S6JjzRxWpYGqG4Xz / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gpPdKsbrQBJxXs5J": {
+   "kind": "question_part",
+   "label": "qstn_mVyW73HWw8FGWVKT / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_6yP4PtWyg4kJKc93"
+   ]
+  },
+  "qstnprt_NZhM8KsfxZX9cK5q": {
+   "kind": "question_part",
+   "label": "qstn_SJ9RQXqFQrbHdDHF / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_vYV5SGDSttqyvRtt"
+   ]
+  },
+  "qstnprt_Kw5bSZ7XD9ZcV9Ck": {
+   "kind": "question_part",
+   "label": "qstn_S56ZHqyhgyCSvHyP / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_68HjPF6QQvQWVjh2": {
+   "kind": "question_part",
+   "label": "qstn_Xp9cXkNrhWxJhFkd / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YJmg69gYdCcCHvPC": {
+   "kind": "question_part",
+   "label": "qstn_4RMqkcBcMKWBFTcD / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_Mg6qxNVdYCB4sbm9"
+   ]
+  },
+  "qstnprt_4dHk5fjw5QHrpNPG": {
+   "kind": "question_part",
+   "label": "qstn_dRgrWWVCn2nSgRQ7 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_vYV5SGDSttqyvRtt"
+   ]
+  },
+  "qstnprt_2F7VdRSQG4VVbD93": {
+   "kind": "question_part",
+   "label": "qstn_Xsrps8NGkvpxQtmT / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6YFHFSQvqrZCmTbZ": {
+   "kind": "question_part",
+   "label": "qstn_HHp7xGNYbpTVRFzm / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.3.3",
+     "official_code": "2.3.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RH2ptQNNXsgH3MMr": {
+   "kind": "question_part",
+   "label": "qstn_xjFj5vjMvxKT65y3 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_Wq38vZD7pP9TVfH3"
+   ]
+  },
+  "qstnprt_4p5pwf8WRhq77k8K": {
+   "kind": "question_part",
+   "label": "qstn_mPssvVzdXwd9h9jY / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_Wq38vZD7pP9TVfH3"
+   ]
+  },
+  "qstnprt_KFkSmRKNMRmknKpT": {
+   "kind": "question_part",
+   "label": "qstn_B9BQh6D4jdDfJsrB / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_vYV5SGDSttqyvRtt"
+   ]
+  },
+  "qstnprt_y8mCsrJ9TXfbN7cf": {
+   "kind": "question_part",
+   "label": "qstn_whj6YPNh2TxtHhHZ / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-3-recruitment-selection-and-training",
+   "codes": [],
+   "pending": [
+    "spcpt_Wq38vZD7pP9TVfH3"
+   ]
+  },
+  "qstnprt_fkxmwV6zcptjSmCR": {
+   "kind": "question_part",
+   "label": "qstn_6CzwTfbcSdbHYvHT / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_FSP2hcctXP22mgpx"
+   ]
+  },
+  "qstnprt_kW9dnqNwCdHNDG7X": {
+   "kind": "question_part",
+   "label": "qstn_NZkzBVnwKFBtNDgX / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bRcFyhmZ7qTw69CH",
+    "spcpt_5vCfcjddZwzrnBPX"
+   ]
+  },
+  "qstnprt_2Vh4n7nwkSnmPkJ7": {
+   "kind": "question_part",
+   "label": "qstn_VwBDkCxgS5mg6gKt / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_5vCfcjddZwzrnBPX"
+   ]
+  },
+  "qstnprt_F2ZRvFFPwrJH59mz": {
+   "kind": "question_part",
+   "label": "qstn_gxz9nxYQSj2bztz8 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_5vCfcjddZwzrnBPX"
+   ]
+  },
+  "qstnprt_B67KzqPTTd8fpSYf": {
+   "kind": "question_part",
+   "label": "qstn_yBTNGV63xtrtgFZZ / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_5vCfcjddZwzrnBPX"
+   ]
+  },
+  "qstnprt_QZDSZKb2kPvpxHq6": {
+   "kind": "question_part",
+   "label": "qstn_KFY4chKfvRHTPqk4 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_FSP2hcctXP22mgpx"
+   ]
+  },
+  "qstnprt_pjVjY6pKdcZKrnzB": {
+   "kind": "question_part",
+   "label": "qstn_xxY8RWZ4zPNrbVd2 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bRcFyhmZ7qTw69CH"
+   ]
+  },
+  "qstnprt_DBJxfqs8CgtPT7bS": {
+   "kind": "question_part",
+   "label": "qstn_3MX5HYVRHnB35sW7 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_5vCfcjddZwzrnBPX",
+    "spcpt_bRcFyhmZ7qTw69CH"
+   ]
+  },
+  "qstnprt_v3vgTCqZRFMGDprQ": {
+   "kind": "question_part",
+   "label": "qstn_nmkzyRFJgHFCCsws / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.4.1",
+     "official_code": "2.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NwY97PhfzQCrQcZj": {
+   "kind": "question_part",
+   "label": "qstn_BdZGKcJkDqHBPTtN / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bRcFyhmZ7qTw69CH"
+   ]
+  },
+  "qstnprt_5MPFNrgkjpCf6r8S": {
+   "kind": "question_part",
+   "label": "qstn_ggtk3szKMjtTJrGj / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_FSP2hcctXP22mgpx"
+   ]
+  },
+  "qstnprt_r9rgCMhNVdMBzYPZ": {
+   "kind": "question_part",
+   "label": "qstn_6MbvmKgTsf6KhpmY / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bRcFyhmZ7qTw69CH",
+    "spcpt_5vCfcjddZwzrnBPX"
+   ]
+  },
+  "qstnprt_W73GWpKzYh8hNfrQ": {
+   "kind": "question_part",
+   "label": "qstn_KfhW7cz6ZByCn4s6 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_FSP2hcctXP22mgpx"
+   ]
+  },
+  "qstnprt_GFSjpqXXYkfSN96w": {
+   "kind": "question_part",
+   "label": "qstn_F7RnzqtzPRSK5H73 / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.4.1",
+     "official_code": "2.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_qPSVwPKCkcFXrFSJ": {
+   "kind": "question_part",
+   "label": "qstn_QMmcW5jHYVmRyDTQ / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_FSP2hcctXP22mgpx"
+   ]
+  },
+  "qstnprt_pyZ2VXQfPwTG8Cfg": {
+   "kind": "question_part",
+   "label": "qstn_v3GBFG4tmF4M65Dp / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [],
+   "pending": [
+    "spcpt_5vCfcjddZwzrnBPX"
+   ]
+  },
+  "qstnprt_MTncBgHxzntM2VSp": {
+   "kind": "question_part",
+   "label": "qstn_QjbNy2xpD9gVD5xf / part 0",
+   "section": "2-people-in-business-hr",
+   "topic": "2-4-internal-and-external-communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:2.4.1",
+     "official_code": "2.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NYnzSwC6cW33ZjJC": {
+   "kind": "question_part",
+   "label": "qstn_p8tc5RSwYyQH2Q78 / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_yf3gbNH2Jj5XnqNv",
+    "spcpt_8nsy6hT3mjv4FDHm"
+   ]
+  },
+  "qstnprt_qdDWXkhNRvxvcHD4": {
+   "kind": "question_part",
+   "label": "qstn_6jgvwMMWbGTqbQmr / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_NDM4n5tt8F5cVGCP",
+    "spcpt_K2bzkVBSz4vy5F9C"
+   ]
+  },
+  "qstnprt_P39KRFRDxyM9RqVk": {
+   "kind": "question_part",
+   "label": "qstn_QBWvwZtk6PbGXNr4 / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_yf3gbNH2Jj5XnqNv"
+   ]
+  },
+  "qstnprt_8WnNCpvj2KSmndTB": {
+   "kind": "question_part",
+   "label": "qstn_NnyMP8xqbdH2cb9T / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_NDM4n5tt8F5cVGCP"
+   ]
+  },
+  "qstnprt_4M4nwRvhkZxKN5QC": {
+   "kind": "question_part",
+   "label": "qstn_xQDfwfMYV8MZx7q4 / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_MBFwfn9YDRrCmFVQ"
+   ]
+  },
+  "qstnprt_5yfkDbgGmvW8B4t4": {
+   "kind": "question_part",
+   "label": "qstn_xPkZ5nWCTH7fR57s / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_K2bzkVBSz4vy5F9C"
+   ]
+  },
+  "qstnprt_NyjskJVkH88VFdv4": {
+   "kind": "question_part",
+   "label": "qstn_cH5qgKNkMN4TJ2Dg / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_K2bzkVBSz4vy5F9C"
+   ]
+  },
+  "qstnprt_QPf9hC9ZHZTZctHK": {
+   "kind": "question_part",
+   "label": "qstn_PN8DjdfPdN8n3WdM / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cbsRDFFHG2dNYkd6": {
+   "kind": "question_part",
+   "label": "qstn_bD32WXp5CBSRRF47 / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_7dc5Wm3BSjx32jr3": {
+   "kind": "question_part",
+   "label": "qstn_5TQ3m8hRYdY5y8F7 / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DHNVt8q3QkzbPtcJ": {
+   "kind": "question_part",
+   "label": "qstn_52p6FM5zFsXzQWjC / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_MBFwfn9YDRrCmFVQ"
+   ]
+  },
+  "qstnprt_W5MCjvtwsjXZBTt7": {
+   "kind": "question_part",
+   "label": "qstn_nQDm88ZtCysyxmY9 / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bKxh6WJxRJbvMqsr": {
+   "kind": "question_part",
+   "label": "qstn_K8xGZnfwXfn5YsKB / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_K2bzkVBSz4vy5F9C"
+   ]
+  },
+  "qstnprt_YQSVk93dRfwGrqcM": {
+   "kind": "question_part",
+   "label": "qstn_cxkYZdm6VMSdSFGq / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_8nsy6hT3mjv4FDHm"
+   ]
+  },
+  "qstnprt_56xjPHFmXNTm8T9X": {
+   "kind": "question_part",
+   "label": "qstn_65Fq7MGCWNqG5dXJ / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_yf3gbNH2Jj5XnqNv"
+   ]
+  },
+  "qstnprt_HCk3HpYmwjw4GFtt": {
+   "kind": "question_part",
+   "label": "qstn_wj2vJ4SXSsMjQ2dx / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_8nsy6hT3mjv4FDHm"
+   ]
+  },
+  "qstnprt_ZFpqRmQGR5yHxryC": {
+   "kind": "question_part",
+   "label": "qstn_wxRCBcvpZkCw844F / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_K2bzkVBSz4vy5F9C"
+   ]
+  },
+  "qstnprt_gYmBrtBxnD5Nkkrj": {
+   "kind": "question_part",
+   "label": "qstn_YyJFbbM7vYVggppf / part 0",
+   "section": "3-marketing",
+   "topic": "3-1-customers-marketing-and-competition",
+   "codes": [],
+   "pending": [
+    "spcpt_NDM4n5tt8F5cVGCP"
+   ]
+  },
+  "qstnprt_gwKsHbRwqKPBNY7q": {
+   "kind": "question_part",
+   "label": "qstn_DwNwBx6sQrz8tBSh / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_qt8FQBn24znh6Stb"
+   ]
+  },
+  "qstnprt_PHg5VDmkPpGN54Px": {
+   "kind": "question_part",
+   "label": "qstn_Mbp5S3tWbgYM4vCZ / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_QZpxzYNW8qNH6zqh": {
+   "kind": "question_part",
+   "label": "qstn_zPjh6KsGqnp53hFC / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_nMkVxxhBPQhb4W9V"
+   ]
+  },
+  "qstnprt_WQwvVWZpFRdtH64P": {
+   "kind": "question_part",
+   "label": "qstn_KfVGwvg4kX4DWwz4 / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_KqBMHJZtjzhVKP2t"
+   ]
+  },
+  "qstnprt_MDV89hF2qNk2wnJM": {
+   "kind": "question_part",
+   "label": "qstn_dSGvK4rpBxcrzG92 / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_ghSScDFzbrrzNHsg": {
+   "kind": "question_part",
+   "label": "qstn_fmHGV4gvbTb74Vsq / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_x5Q4kpQnwHpcDN8B": {
+   "kind": "question_part",
+   "label": "qstn_bhY8rnPSb7qf2cBS / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_fjk7kbyryWFBWPN6": {
+   "kind": "question_part",
+   "label": "qstn_HkNSZbzdktsMNR76 / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_dr6QPsFysfdR57bG": {
+   "kind": "question_part",
+   "label": "qstn_M24ZTBZMsT3ZGczZ / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_5qz8H8n4zbsthfKm",
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_VsKttDcg3w4y7BnH": {
+   "kind": "question_part",
+   "label": "qstn_RDhVmHTdgpCCRXt6 / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NwQ7NNPJMcDbQsgw": {
+   "kind": "question_part",
+   "label": "qstn_tHR7KTkjFmW82DNV / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_8V2wHMH5kczpKJ83": {
+   "kind": "question_part",
+   "label": "qstn_BtvRy2jhQwwKzjqH / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_BxvRWvb9gq2yhF3S"
+   ]
+  },
+  "qstnprt_MbNTZFMCdB452ghZ": {
+   "kind": "question_part",
+   "label": "qstn_FqYR73rPYXFRJ9zK / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_9fs3jrFxwYd3KpTM"
+   ]
+  },
+  "qstnprt_Q25mGFG7JkSybcxd": {
+   "kind": "question_part",
+   "label": "qstn_kRkCBVJWHfXt9dF6 / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_9fs3jrFxwYd3KpTM"
+   ]
+  },
+  "qstnprt_mgqHmGh5N3vP9cMw": {
+   "kind": "question_part",
+   "label": "qstn_SmtzmQnQXDYX4rpp / part 0",
+   "section": "3-marketing",
+   "topic": "3-2-market-research",
+   "codes": [],
+   "pending": [
+    "spcpt_qt8FQBn24znh6Stb"
+   ]
+  },
+  "qstnprt_MdwdFWJf8Mj825fT": {
+   "kind": "question_part",
+   "label": "qstn_kBPqWJFcYKMhXBQd / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_2SDFpCWfmQxcQF6F"
+   ]
+  },
+  "qstnprt_zDw78mzSmC5RCBTp": {
+   "kind": "question_part",
+   "label": "qstn_BcR9KNm4mC9pnmDC / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_9fBSbMM6fgR4k7rr"
+   ]
+  },
+  "qstnprt_jb63NyBDy88SVKrn": {
+   "kind": "question_part",
+   "label": "qstn_Hkf9wxyKsNTST7DZ / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_vmYyqB44F3DKDq5q",
+    "spcpt_4GrqMXc4wDbxfjqs"
+   ]
+  },
+  "qstnprt_r5p4MQymyQpZDrJh": {
+   "kind": "question_part",
+   "label": "qstn_gM4fYCwN73CDC9z6 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_srZYwxT2XHMCqnxv": {
+   "kind": "question_part",
+   "label": "qstn_b9cWXZp8Tyj5dY2n / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_zYKR2d2S6sZDsjkN"
+   ]
+  },
+  "qstnprt_hzqpmBnVNKh4ndBQ": {
+   "kind": "question_part",
+   "label": "qstn_WJXGZXW2vVwDwywz / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_PCczrtxcZfjx2YSj": {
+   "kind": "question_part",
+   "label": "qstn_MgRtFBjWtPQrVzBm / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_yhghh5CSftmvfVzf",
+    "spcpt_tKC9TYVZs2kdf7wd"
+   ]
+  },
+  "qstnprt_6Bs8bchQpcFtYZ35": {
+   "kind": "question_part",
+   "label": "qstn_v293RbprgPkN59NW / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_j57HmFqVTN68cDyc",
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_xzfJzW2KMzdVrRmd": {
+   "kind": "question_part",
+   "label": "qstn_znPNKZfWw8dDt2wp / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_Qhj2txCMs5cSqpzH"
+   ]
+  },
+  "qstnprt_vqqBxnRMxTCB2QZ5": {
+   "kind": "question_part",
+   "label": "qstn_DX2tw2vQSrCrDRWq / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_hbw7HSD3wHkFjbHB",
+    "spcpt_9fs3jrFxwYd3KpTM"
+   ]
+  },
+  "qstnprt_37388RwsV4d38XBJ": {
+   "kind": "question_part",
+   "label": "qstn_yM6KdxRwTks4xD2r / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_j57HmFqVTN68cDyc"
+   ]
+  },
+  "qstnprt_dhJ7V5pyVc7KzFFN": {
+   "kind": "question_part",
+   "label": "qstn_3Y7jPthwB2F4fzqY / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_TBr5SQzgcgqd3rHV"
+   ]
+  },
+  "qstnprt_Mmtm27GqNJtxnQJr": {
+   "kind": "question_part",
+   "label": "qstn_XSRbpQ39bJTNh2p5 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_9fBSbMM6fgR4k7rr"
+   ]
+  },
+  "qstnprt_7K24BJ23H6kfhZKb": {
+   "kind": "question_part",
+   "label": "qstn_hFJj5pK2GKdSKMWs / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_tKC9TYVZs2kdf7wd"
+   ]
+  },
+  "qstnprt_7g3vCXP4MkcG5CWB": {
+   "kind": "question_part",
+   "label": "qstn_8btXf74QXmjzwkJQ / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_rQBTbZ5hbQKxWZQz": {
+   "kind": "question_part",
+   "label": "qstn_C7Kyxxv2j5KWNRTp / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_Qhj2txCMs5cSqpzH"
+   ]
+  },
+  "qstnprt_q4qqcqJKFJzNPxQR": {
+   "kind": "question_part",
+   "label": "qstn_jVKNCSWTw8ZT8qmt / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_kNwSBvN86BRhpvWM"
+   ]
+  },
+  "qstnprt_TpkbgQDhWbMszT9p": {
+   "kind": "question_part",
+   "label": "qstn_KXH9dKg78hf4CrY4 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_bHz8f5v9VNGhKVYC": {
+   "kind": "question_part",
+   "label": "qstn_YjXKxGZ4v6cwvBGh / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_hbw7HSD3wHkFjbHB"
+   ]
+  },
+  "qstnprt_gsJ99q8cwHZqd3DC": {
+   "kind": "question_part",
+   "label": "qstn_fjpyPwMTY6TnybnN / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_WJHx4MPPnhyjrW4T": {
+   "kind": "question_part",
+   "label": "qstn_r5WShBbz3JFcp3Xr / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_2SDFpCWfmQxcQF6F"
+   ]
+  },
+  "qstnprt_tBHXytsH2VKfHNx9": {
+   "kind": "question_part",
+   "label": "qstn_VzfFppfcwNsrbhhb / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_KrNBskJFxYxw3TXg"
+   ]
+  },
+  "qstnprt_Y93YbGyHfpRNZW8X": {
+   "kind": "question_part",
+   "label": "qstn_nyKJrBSn9Wf9pnbg / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_zHxgJs4yphcV89Ch",
+    "spcpt_hbw7HSD3wHkFjbHB"
+   ]
+  },
+  "qstnprt_8K8G8QwRmtPk6mZR": {
+   "kind": "question_part",
+   "label": "qstn_NZCQDKDKM422VHxJ / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_kNwSBvN86BRhpvWM",
+    "spcpt_9fBSbMM6fgR4k7rr"
+   ]
+  },
+  "qstnprt_X2bY8rRFx3kVRJVq": {
+   "kind": "question_part",
+   "label": "qstn_Hmp2M5t8Xk2xgTJy / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_hbw7HSD3wHkFjbHB"
+   ]
+  },
+  "qstnprt_Z5sTSSD9pPMJ5sBp": {
+   "kind": "question_part",
+   "label": "qstn_fRFkwjQYYnq5Fg4w / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_vmYyqB44F3DKDq5q",
+    "spcpt_TBr5SQzgcgqd3rHV"
+   ]
+  },
+  "qstnprt_5zn6DbKyT9jzQDgC": {
+   "kind": "question_part",
+   "label": "qstn_kVRMDFQSyHqSvg6M / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_TBr5SQzgcgqd3rHV",
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_xvyjHHvqPZfX2H6H": {
+   "kind": "question_part",
+   "label": "qstn_ZsDzKn7j7rJZ38yZ / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.4",
+     "official_code": "3.3.4",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_9fBSbMM6fgR4k7rr"
+   ]
+  },
+  "qstnprt_29mgpvjVY9zcqNBs": {
+   "kind": "question_part",
+   "label": "qstn_FYXp8yNbDmD4HSP4 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_vmYyqB44F3DKDq5q"
+   ]
+  },
+  "qstnprt_v9NRKN8Sm658zpFY": {
+   "kind": "question_part",
+   "label": "qstn_8JbtF2rxGR2bWbsh / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_Qhj2txCMs5cSqpzH"
+   ]
+  },
+  "qstnprt_QMSgNs62KWbWTBc9": {
+   "kind": "question_part",
+   "label": "qstn_wWRBj6JbCvwqgyNF / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_tVG4JJwtNFrBpVXK": {
+   "kind": "question_part",
+   "label": "qstn_fznWG5tsRK96MQGV / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_BxBF7PbFPz46Gjjz"
+   ]
+  },
+  "qstnprt_g7SS2KMx4YqVvb99": {
+   "kind": "question_part",
+   "label": "qstn_TQxf2mbyJRqtdMmG / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_BxBF7PbFPz46Gjjz"
+   ]
+  },
+  "qstnprt_T3DZ6bPNwHBFTmJh": {
+   "kind": "question_part",
+   "label": "qstn_hhJtnQzrqxR24Nv7 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_2SDFpCWfmQxcQF6F"
+   ]
+  },
+  "qstnprt_38ftpwP5X2ShDqZM": {
+   "kind": "question_part",
+   "label": "qstn_6mK2kTffHxsrJJNf / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_4YzKtw2kVxQkHb3n": {
+   "kind": "question_part",
+   "label": "qstn_8CRzcWxtNrqwgyH8 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_vmYyqB44F3DKDq5q"
+   ]
+  },
+  "qstnprt_PRH2sZg5NH8tN9Vr": {
+   "kind": "question_part",
+   "label": "qstn_NKqFrYrNDmCSrgRf / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_Qhj2txCMs5cSqpzH"
+   ]
+  },
+  "qstnprt_6SYVF3zt8ftbNMcZ": {
+   "kind": "question_part",
+   "label": "qstn_b78fYX9Gs84CK3K6 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_7hybJDkzkjSZQ6P5"
+   ]
+  },
+  "qstnprt_57xCs3rTPBJvpYd2": {
+   "kind": "question_part",
+   "label": "qstn_F8GhYCsbT68sbm9j / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_Qhj2txCMs5cSqpzH"
+   ]
+  },
+  "qstnprt_gVSttVz5nbvT58Qq": {
+   "kind": "question_part",
+   "label": "qstn_FnF9dMF4czGkvdz4 / part 0",
+   "section": "3-marketing",
+   "topic": "3-3-the-marketing-mix",
+   "codes": [],
+   "pending": [
+    "spcpt_vmYyqB44F3DKDq5q"
+   ]
+  },
+  "qstnprt_b26xvGCcmZqYX9FD": {
+   "kind": "question_part",
+   "label": "qstn_w234zSx45rnXFhzp / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_tKC9TYVZs2kdf7wd"
+   ]
+  },
+  "qstnprt_m8mxwbnv6V3RZDhJ": {
+   "kind": "question_part",
+   "label": "qstn_WTgSwtF6FxQ3Wzpx / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_tKC9TYVZs2kdf7wd",
+    "spcpt_678gfYxX4HBNnYzW"
+   ]
+  },
+  "qstnprt_VZc5WWZ9q4V7MPSV": {
+   "kind": "question_part",
+   "label": "qstn_MnGHrFcNKtMcyg4x / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_hWq7zTjgkH36Jq9G",
+    "spcpt_cBZWhCgbD98Rjdpy"
+   ]
+  },
+  "qstnprt_KdZMfB3G939KVYTm": {
+   "kind": "question_part",
+   "label": "qstn_FSWnN7znQ84Mf4Pf / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NGdf48bSYvZ3ZthS": {
+   "kind": "question_part",
+   "label": "qstn_gVrypp89RCS5PpQH / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_hWq7zTjgkH36Jq9G",
+    "spcpt_cBZWhCgbD98Rjdpy"
+   ]
+  },
+  "qstnprt_6bxPbYtV78Pjg7Qc": {
+   "kind": "question_part",
+   "label": "qstn_dfgYw69QpN62cyYB / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_tD86dcqrk8Y2gRcN"
+   ]
+  },
+  "qstnprt_SFSwfQKZY7BgXkD4": {
+   "kind": "question_part",
+   "label": "qstn_DPcx9rKS2rDtFp4d / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_cBZWhCgbD98Rjdpy"
+   ]
+  },
+  "qstnprt_4BcCQGwyhj7pvYRB": {
+   "kind": "question_part",
+   "label": "qstn_266PmRX39Zx9QJf3 / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KJfGrNzC5zZMgk9D": {
+   "kind": "question_part",
+   "label": "qstn_Zmq2WCYP83F8f8WB / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [],
+   "pending": [
+    "spcpt_J4SQPCD394bJsjH6"
+   ]
+  },
+  "qstnprt_4TSY5jG33JQy6J9R": {
+   "kind": "question_part",
+   "label": "qstn_y9FTnzPSz5vYzZfG / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_tKC9TYVZs2kdf7wd"
+   ]
+  },
+  "qstnprt_ghGrFc4sdrJxVrZV": {
+   "kind": "question_part",
+   "label": "qstn_G9cfTVZRGpmt678X / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_tN5fVDzwbQbBCHFs": {
+   "kind": "question_part",
+   "label": "qstn_JsJy3vZ7MdzctBqQ / part 0",
+   "section": "3-marketing",
+   "topic": "3-4-marketing-strategy",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:3.1.3",
+     "official_code": "3.1.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_CRNNhnhFv6vDwhw6": {
+   "kind": "question_part",
+   "label": "qstn_BmSdt65zwYvSrwpM / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_p4P43HJwHJTCtvYf": {
+   "kind": "question_part",
+   "label": "qstn_zXsBkHBQXGzDCJwf / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_wBMgbHQNSfmKpDWT"
+   ]
+  },
+  "qstnprt_sxTnRhhXsp67gzD3": {
+   "kind": "question_part",
+   "label": "qstn_8WmvNynYnzpbTXN4 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_msv5gbNdw4dyWzBB",
+    "spcpt_zZYtgwJ7jBNPBTjk"
+   ]
+  },
+  "qstnprt_cwTq79bqZxKkfJDB": {
+   "kind": "question_part",
+   "label": "qstn_XnnPMz7D4BKpd86T / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_twJWG4fBWhQ2b3kY"
+   ]
+  },
+  "qstnprt_f6h6MYDqqchFSwqC": {
+   "kind": "question_part",
+   "label": "qstn_jgy9hjYcCdtn3cpH / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_f4ckMqnf4WDwF2kC"
+   ]
+  },
+  "qstnprt_tTbh3kQqSz9YRmdW": {
+   "kind": "question_part",
+   "label": "qstn_DzGCTVPWNjfwpkgV / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_jP7zfnd5mPJwHvKJ"
+   ]
+  },
+  "qstnprt_P5nnXwVnb6QVpyPQ": {
+   "kind": "question_part",
+   "label": "qstn_RDcC6XVsDTNxnsfc / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_678gfYxX4HBNnYzW"
+   ]
+  },
+  "qstnprt_qZ57PRP7DmNkQ43H": {
+   "kind": "question_part",
+   "label": "qstn_xgNTjXvb5fXrVsCX / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_twJWG4fBWhQ2b3kY"
+   ]
+  },
+  "qstnprt_ZXJ9vCpyGCW2Q3RK": {
+   "kind": "question_part",
+   "label": "qstn_C8qhP9TdkCQhnphh / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_678gfYxX4HBNnYzW"
+   ]
+  },
+  "qstnprt_TW3XwhPSmqJsNB5k": {
+   "kind": "question_part",
+   "label": "qstn_pqy5FNj8YRhYPrh3 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_twJWG4fBWhQ2b3kY"
+   ]
+  },
+  "qstnprt_SbXNGzzff32F7tQy": {
+   "kind": "question_part",
+   "label": "qstn_ZCdnTWbnPmj45R8p / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_msv5gbNdw4dyWzBB"
+   ]
+  },
+  "qstnprt_DX8ZQxJjs3x7BS4k": {
+   "kind": "question_part",
+   "label": "qstn_KRGxSQfJDNDPRBDm / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_twJWG4fBWhQ2b3kY"
+   ]
+  },
+  "qstnprt_2tWhDPpMxrWbnjhN": {
+   "kind": "question_part",
+   "label": "qstn_5xWdKVXDBf825ygm / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_wBMgbHQNSfmKpDWT"
+   ]
+  },
+  "qstnprt_DqN69mVWSb58vQSR": {
+   "kind": "question_part",
+   "label": "qstn_JQYXQVhpd43tSjFq / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_f4ckMqnf4WDwF2kC"
+   ]
+  },
+  "qstnprt_5tGxwgQNhfKcZgdm": {
+   "kind": "question_part",
+   "label": "qstn_Dy8kQdwc8NRrpvt5 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_wBMgbHQNSfmKpDWT"
+   ]
+  },
+  "qstnprt_Sv6pmjQbHHnC3vYF": {
+   "kind": "question_part",
+   "label": "qstn_2fcjvmGYBxFqTVhz / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_38NtbQHD7FwtcwWr": {
+   "kind": "question_part",
+   "label": "qstn_fNJmFcrHQfkwcTW6 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8kgFX6DVBM3v6vyN": {
+   "kind": "question_part",
+   "label": "qstn_NbhVS7g5bVHpwTVs / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_wBMgbHQNSfmKpDWT"
+   ]
+  },
+  "qstnprt_K5xgXWYNwFJvhyDT": {
+   "kind": "question_part",
+   "label": "qstn_nRZSMTh26vTr7gzf / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_twJWG4fBWhQ2b3kY"
+   ]
+  },
+  "qstnprt_kj5T88MYpSnVxHWQ": {
+   "kind": "question_part",
+   "label": "qstn_CGzX6sHhFn6zSBmH / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_zZYtgwJ7jBNPBTjk",
+    "spcpt_msv5gbNdw4dyWzBB"
+   ]
+  },
+  "qstnprt_Ff5CCVP2kM2zwv5V": {
+   "kind": "question_part",
+   "label": "qstn_tnWj54JFctrD2Cpk / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_zZYtgwJ7jBNPBTjk",
+    "spcpt_msv5gbNdw4dyWzBB"
+   ]
+  },
+  "qstnprt_2fxGQWzMV7RKbHf4": {
+   "kind": "question_part",
+   "label": "qstn_M3T7B9tpy67F5wQF / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_zZYtgwJ7jBNPBTjk"
+   ]
+  },
+  "qstnprt_HVCBQqgtyHQZdKYb": {
+   "kind": "question_part",
+   "label": "qstn_YmrxtHj3JXrkJzv7 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_snMwTNPjWqjqX4qY"
+   ]
+  },
+  "qstnprt_W8JVQbrsdnspn9qM": {
+   "kind": "question_part",
+   "label": "qstn_GZ37HjXMBw2shNrr / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [],
+   "pending": [
+    "spcpt_jP7zfnd5mPJwHvKJ"
+   ]
+  },
+  "qstnprt_Rqbp8P3KNzfFRHNP": {
+   "kind": "question_part",
+   "label": "qstn_vYp2KsHqRNmP2JF2 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-1-production-of-goods-and-services",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_wBMgbHQNSfmKpDWT"
+   ]
+  },
+  "qstnprt_pSxsjNFM4p3Jbmgm": {
+   "kind": "question_part",
+   "label": "qstn_BKkm2T9bXHZPFdkK / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_FzfZJm2kqcJn5SGn",
+    "spcpt_CMXp8fcXrcdXrbJ8"
+   ]
+  },
+  "qstnprt_bwqdPk3H8DPtYkDY": {
+   "kind": "question_part",
+   "label": "qstn_2Fv7f9myKvYyXCR9 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_DH6kwnNGVGXCJvgK"
+   ]
+  },
+  "qstnprt_MXT8Mt4mQ5twTgGf": {
+   "kind": "question_part",
+   "label": "qstn_bnqY8P68PPbDCgnq / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_SSYW8MYpNGKYpH7Q"
+   ]
+  },
+  "qstnprt_QbgVqRdXB4XMDcHK": {
+   "kind": "question_part",
+   "label": "qstn_QBdyZ7yCm2WYYz7c / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_rYqW8Vf2Yh7NNH4n",
+    "spcpt_CMXp8fcXrcdXrbJ8"
+   ]
+  },
+  "qstnprt_mJXbG2rsq3xXrKq8": {
+   "kind": "question_part",
+   "label": "qstn_Fmz5T48hVJWSgh43 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_DH6kwnNGVGXCJvgK"
+   ]
+  },
+  "qstnprt_RGX7TRWH6WgjFD9d": {
+   "kind": "question_part",
+   "label": "qstn_CdMqtSCNbGMrCd5y / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_DH6kwnNGVGXCJvgK"
+   ]
+  },
+  "qstnprt_kG4GFC9Yp5FT94yt": {
+   "kind": "question_part",
+   "label": "qstn_XBb5FNyytgPD8hDb / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_QnMVjB9WHxpTs63K"
+   ]
+  },
+  "qstnprt_dfRJKVhr4GSDJvW9": {
+   "kind": "question_part",
+   "label": "qstn_mdKWnpxTTJdF3bFf / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_QnMVjB9WHxpTs63K"
+   ]
+  },
+  "qstnprt_hztHSPYDxVK4mRtM": {
+   "kind": "question_part",
+   "label": "qstn_GVTdrH9N2pJzTctM / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RyP8wKQ8zx9CyZVg": {
+   "kind": "question_part",
+   "label": "qstn_QPVJTWnfkb6dWbnn / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_QnMVjB9WHxpTs63K"
+   ]
+  },
+  "qstnprt_QYTZmxrgxVJDYsZV": {
+   "kind": "question_part",
+   "label": "qstn_ZRpPMyZK8z4TWpxH / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_CMXp8fcXrcdXrbJ8"
+   ]
+  },
+  "qstnprt_bJqfjnyx5R69xX5s": {
+   "kind": "question_part",
+   "label": "qstn_Hm4n8mB7PyNBp9dv / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_CMXp8fcXrcdXrbJ8"
+   ]
+  },
+  "qstnprt_b6x7hgFJd4tDPWtZ": {
+   "kind": "question_part",
+   "label": "qstn_h9bWShXprzTRrK8w / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_SSYW8MYpNGKYpH7Q"
+   ]
+  },
+  "qstnprt_ZNzskrFKpHBcYhrm": {
+   "kind": "question_part",
+   "label": "qstn_4knxGQnQ4yH2V4K2 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_PRxtjS7XznnX3Typ": {
+   "kind": "question_part",
+   "label": "qstn_Bc93H74sFVdky5PQ / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_GKQyfTVV5Xmt5szM": {
+   "kind": "question_part",
+   "label": "qstn_KrmmHNtWKFgNW52x / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_SSYW8MYpNGKYpH7Q"
+   ]
+  },
+  "qstnprt_ysgSWmFqmHrxcrzy": {
+   "kind": "question_part",
+   "label": "qstn_NkX5brhMtR3krSyB / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_SSYW8MYpNGKYpH7Q"
+   ]
+  },
+  "qstnprt_8vThsCJYVPrPdMSk": {
+   "kind": "question_part",
+   "label": "qstn_Qp7b95Q9tsRY7Bmj / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_BXJjv4cyqHWhqJc8"
+   ]
+  },
+  "qstnprt_2pz4vX7mg9tQMhdJ": {
+   "kind": "question_part",
+   "label": "qstn_C2nhWNCd6VhZ6M4y / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_K8KTj9bCTPh9xjJq": {
+   "kind": "question_part",
+   "label": "qstn_yVqrWbTRC7kTqRTY / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_BXJjv4cyqHWhqJc8"
+   ]
+  },
+  "qstnprt_SgzvYrz3VcV7HrMq": {
+   "kind": "question_part",
+   "label": "qstn_VgBjJJn7YYSnJVJg / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_DH6kwnNGVGXCJvgK"
+   ]
+  },
+  "qstnprt_9crt7Q6Qvt6SnsPF": {
+   "kind": "question_part",
+   "label": "qstn_GgDbXfnfV4wy4Kmg / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_SSYW8MYpNGKYpH7Q"
+   ]
+  },
+  "qstnprt_4b5fp5bRdTzS93Gz": {
+   "kind": "question_part",
+   "label": "qstn_5fzKmKcXK5PmG2SF / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_FzfZJm2kqcJn5SGn"
+   ]
+  },
+  "qstnprt_gNjMfVGnS298v3Hz": {
+   "kind": "question_part",
+   "label": "qstn_d9Gw7gxfCgNVWD3h / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_BXJjv4cyqHWhqJc8"
+   ]
+  },
+  "qstnprt_pbqbzs2jx3ykXsds": {
+   "kind": "question_part",
+   "label": "qstn_nbHPTwRH9SywzcBR / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_CMXp8fcXrcdXrbJ8"
+   ]
+  },
+  "qstnprt_4KJYdNNNZpx4ns6g": {
+   "kind": "question_part",
+   "label": "qstn_yNzynrsXnyqDDSjb / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_FzfZJm2kqcJn5SGn"
+   ]
+  },
+  "qstnprt_WFhzBTwykhw2zmNs": {
+   "kind": "question_part",
+   "label": "qstn_KK2wXRmvZj2ZfqVH / part 0",
+   "section": "4-operations-management",
+   "topic": "4-2-costs-break-even-and-production-scale",
+   "codes": [],
+   "pending": [
+    "spcpt_BXJjv4cyqHWhqJc8"
+   ]
+  },
+  "qstnprt_c5khP2FpF8DYbpbB": {
+   "kind": "question_part",
+   "label": "qstn_XDMHgQ3m8Ztzj9bH / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dM3QnFQdzN4c5VtT": {
+   "kind": "question_part",
+   "label": "qstn_kxbMhtYQfxVBD4YX / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_K9PQ42ZyGQ5Z9jdq"
+   ]
+  },
+  "qstnprt_wfWfZgtYKk6f975d": {
+   "kind": "question_part",
+   "label": "qstn_fs2XdW5SpJgt3SHj / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_K9PQ42ZyGQ5Z9jdq"
+   ]
+  },
+  "qstnprt_ZKwXm37Rq2N4wM5X": {
+   "kind": "question_part",
+   "label": "qstn_jjb7t3xR2xkknyHP / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Ff6wn28gRCsMtypD": {
+   "kind": "question_part",
+   "label": "qstn_SMFv8KGXTkWXBTzV / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_K9PQ42ZyGQ5Z9jdq",
+    "spcpt_g9BG2X9kvFpprR4v"
+   ]
+  },
+  "qstnprt_7VnfHsbcQtjRnpCB": {
+   "kind": "question_part",
+   "label": "qstn_4nZdBmtfzMFcNGbT / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_r3HHWDt62Kzw4TTX": {
+   "kind": "question_part",
+   "label": "qstn_tvdXrqM4kFNsJVfJ / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_K9PQ42ZyGQ5Z9jdq",
+    "spcpt_g9BG2X9kvFpprR4v"
+   ]
+  },
+  "qstnprt_hT3bpRgp6Jfbzf69": {
+   "kind": "question_part",
+   "label": "qstn_rcSMNj9mxhfYHYBY / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fJ9S85NfPX22JTYZ": {
+   "kind": "question_part",
+   "label": "qstn_dJjXjjP5sMBhPfQV / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_g9BG2X9kvFpprR4v"
+   ]
+  },
+  "qstnprt_jGJ8fBWJFmqTKwBf": {
+   "kind": "question_part",
+   "label": "qstn_rmZF5Y89cTnQ7SVN / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VJYS7YjTxWPmXPrS": {
+   "kind": "question_part",
+   "label": "qstn_6bwGNP8tbKZ47yMb / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_g9BG2X9kvFpprR4v"
+   ]
+  },
+  "qstnprt_rYCfhtWWnkrchrDv": {
+   "kind": "question_part",
+   "label": "qstn_pFjHZptcGppGwHcg / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_K9PQ42ZyGQ5Z9jdq"
+   ]
+  },
+  "qstnprt_mfSxVzvyv9GydzNN": {
+   "kind": "question_part",
+   "label": "qstn_pCvR5w6KTMYnfpB6 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_g9BG2X9kvFpprR4v"
+   ]
+  },
+  "qstnprt_Sgv5429r7mdtQqqt": {
+   "kind": "question_part",
+   "label": "qstn_ZrcqtHxFM2yFY5xW / part 0",
+   "section": "4-operations-management",
+   "topic": "4-3-quality-management",
+   "codes": [],
+   "pending": [
+    "spcpt_K9PQ42ZyGQ5Z9jdq"
+   ]
+  },
+  "qstnprt_h5FdXn2NGb5MH9tG": {
+   "kind": "question_part",
+   "label": "qstn_3gtNHC6cSg5zMF2Q / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.4.1",
+     "official_code": "4.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_FWQvfD6YSf46HJZt": {
+   "kind": "question_part",
+   "label": "qstn_6Fh8gcD3kG4HpFkm / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_gh4GrJTdPbK5Jvbv"
+   ]
+  },
+  "qstnprt_jkD22Y6x98rjq5Gx": {
+   "kind": "question_part",
+   "label": "qstn_kkbvSDFd87rZrW8D / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_skBDySrrR8YmFDvC"
+   ]
+  },
+  "qstnprt_fXVbkG9f9m9KcJJ4": {
+   "kind": "question_part",
+   "label": "qstn_4PKgjwpy39GZndnM / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.4.1",
+     "official_code": "4.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_J9h3X3y4kNs4RNKB": {
+   "kind": "question_part",
+   "label": "qstn_53p78QJdcJ8JBmKd / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.4.1",
+     "official_code": "4.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_xqJGvPZTZgMdf79N": {
+   "kind": "question_part",
+   "label": "qstn_QNzr5FsmW8fvnWW6 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_JWsmJWrKTcD9MPHY"
+   ]
+  },
+  "qstnprt_knczMtqy9n7QHN4v": {
+   "kind": "question_part",
+   "label": "qstn_BWNgnXDyVBGRhkDS / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_t4pcpPGJFnsZ3PDC": {
+   "kind": "question_part",
+   "label": "qstn_dy4X74ZYZhmKzbN7 / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_xxhS6972WSxkYjcb": {
+   "kind": "question_part",
+   "label": "qstn_HxPqRXnkFMHDDgmD / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_d9CfnpZMgwxnRcyg": {
+   "kind": "question_part",
+   "label": "qstn_bV2fb2QH3F9dvxDJ / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_Mg6qxNVdYCB4sbm9",
+    "spcpt_JWsmJWrKTcD9MPHY"
+   ]
+  },
+  "qstnprt_h4J7C9kKD6JhKgnB": {
+   "kind": "question_part",
+   "label": "qstn_JTW94dd8Bn43Xcvp / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_JWsmJWrKTcD9MPHY"
+   ]
+  },
+  "qstnprt_tYWm5B8ZrKJNnZkR": {
+   "kind": "question_part",
+   "label": "qstn_qt4xTXzzp8kwj6DY / part 0",
+   "section": "4-operations-management",
+   "topic": "4-4-location-decisions",
+   "codes": [],
+   "pending": [
+    "spcpt_qSpYYTWxk6rMTW7R"
+   ]
+  },
+  "qstnprt_qX79Q4rFsbXPQyZK": {
+   "kind": "question_part",
+   "label": "qstn_fpBnzYb9xQNc2nW5 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_kPp45RGR38Fdvpjb": {
+   "kind": "question_part",
+   "label": "qstn_jnYyJCr978MZXMPC / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_4xXqjccR8pt63j29": {
+   "kind": "question_part",
+   "label": "qstn_kvvBp2hFr8wBS2KN / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_4BQGTc5xn7RNh39H"
+   ]
+  },
+  "qstnprt_QcfKYJwSpTqpc9Z5": {
+   "kind": "question_part",
+   "label": "qstn_KsdtpYmBMzDz7S9z / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_9hz8Zn9hCC4hVZFR",
+    "spcpt_4BQGTc5xn7RNh39H"
+   ]
+  },
+  "qstnprt_BrNyg77d23FnQy29": {
+   "kind": "question_part",
+   "label": "qstn_RqS3TRrVDMX4qwH2 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_pXBw79cGrM4nCxXm"
+   ]
+  },
+  "qstnprt_BrhZhYkG7869DSDY": {
+   "kind": "question_part",
+   "label": "qstn_R2VvNKQ5J2kFY3HK / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_9hz8Zn9hCC4hVZFR"
+   ]
+  },
+  "qstnprt_XF9bQFk8DfnjQ6h8": {
+   "kind": "question_part",
+   "label": "qstn_X3vYRsMwcHpXrBSQ / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_ft4MywFcbBHWcJGz"
+   ]
+  },
+  "qstnprt_SK7M9k3D4jdRwXN7": {
+   "kind": "question_part",
+   "label": "qstn_CMrtKZz4dWkKhJQ6 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_bdwCrcVYmg23gzpQ",
+    "spcpt_8ChrS5QJmTsRpg24"
+   ]
+  },
+  "qstnprt_s9Wq63DVGhg5JWm4": {
+   "kind": "question_part",
+   "label": "qstn_6TMWPJnRQcpRc69S / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_ft4MywFcbBHWcJGz",
+    "spcpt_4BQGTc5xn7RNh39H"
+   ]
+  },
+  "qstnprt_KmKm2DjKtc6qndSK": {
+   "kind": "question_part",
+   "label": "qstn_5RzQTKD9r53TFrSn / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xwFTHd9wyHMWvt4P",
+    "spcpt_58G2YnrTbRN47x7N"
+   ]
+  },
+  "qstnprt_tMpMzPrS8cftvz89": {
+   "kind": "question_part",
+   "label": "qstn_7pmnq3pnf5rC2MSn / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_4BQGTc5xn7RNh39H"
+   ]
+  },
+  "qstnprt_Yxm2pNgYm3DBG7Yp": {
+   "kind": "question_part",
+   "label": "qstn_SpHJnDtm56BsDTs7 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_9hz8Zn9hCC4hVZFR"
+   ]
+  },
+  "qstnprt_cm6mkB5pnmzhcTFX": {
+   "kind": "question_part",
+   "label": "qstn_3vMPYht6xgrTCjgd / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xZftDGfY9VKrd9rN",
+    "spcpt_9hz8Zn9hCC4hVZFR"
+   ]
+  },
+  "qstnprt_fWkjb8gfXH6Xp6vw": {
+   "kind": "question_part",
+   "label": "qstn_MTjJY8v7DkPYK2Gc / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_9hz8Zn9hCC4hVZFR"
+   ]
+  },
+  "qstnprt_5K5vdrD45QhD3Xzg": {
+   "kind": "question_part",
+   "label": "qstn_wPKdVRCHB5MDD926 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_9hz8Zn9hCC4hVZFR"
+   ]
+  },
+  "qstnprt_jX99GdS949c7KyNX": {
+   "kind": "question_part",
+   "label": "qstn_DrXxGYrnkxBv5wHC / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_ft4MywFcbBHWcJGz"
+   ]
+  },
+  "qstnprt_3JqY9yPFTPs283wZ": {
+   "kind": "question_part",
+   "label": "qstn_Cpk4BXWncjJKxHYq / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_4BQGTc5xn7RNh39H"
+   ]
+  },
+  "qstnprt_X8S3RRnJjK3ZFrRk": {
+   "kind": "question_part",
+   "label": "qstn_kfqHQxdRmK3ShXhG / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_s2hZsnxbKP58txs5"
+   ]
+  },
+  "qstnprt_r9TjHHGf66Y5zgPH": {
+   "kind": "question_part",
+   "label": "qstn_sGFPQqVDM9fXRyR4 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_cprdGwTRFSgGvnbK": {
+   "kind": "question_part",
+   "label": "qstn_WzNt6mJZ4VPQ46f7 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_nxssdY2T6XSnrDMQ"
+   ]
+  },
+  "qstnprt_42JfstKTHqCTmqSc": {
+   "kind": "question_part",
+   "label": "qstn_CVyWvBv7qGqRh2GX / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_cP75ftr4yD6Xnrgj"
+   ]
+  },
+  "qstnprt_5CSFwH3SmGjHjBFX": {
+   "kind": "question_part",
+   "label": "qstn_9QybZxXVdcNc8Xsd / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_cP75ftr4yD6Xnrgj"
+   ]
+  },
+  "qstnprt_QCTWDZyqnWwm89q3": {
+   "kind": "question_part",
+   "label": "qstn_z5KwFWGJM4wvrhcZ / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xn6hC8wK5jJbZr8w"
+   ]
+  },
+  "qstnprt_53dXKVhYmS2VJk2g": {
+   "kind": "question_part",
+   "label": "qstn_Wpx6FG8f4CMGC92k / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_748nsvnWW99Nzc4M"
+   ]
+  },
+  "qstnprt_g7qWYvvXBCZp62jB": {
+   "kind": "question_part",
+   "label": "qstn_47H9kCcPTX932cJ7 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_73bpWRnQr45ZcT5X",
+    "spcpt_6KQbfxfQ4qkNNryX"
+   ]
+  },
+  "qstnprt_3pV6XpK6YyJWPf5T": {
+   "kind": "question_part",
+   "label": "qstn_5KsCnsVK7pt3jDbK / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_8ChrS5QJmTsRpg24"
+   ]
+  },
+  "qstnprt_gBxJzgs6QybNrbNw": {
+   "kind": "question_part",
+   "label": "qstn_SccsdgY8gkW3MbWc / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_nxssdY2T6XSnrDMQ"
+   ]
+  },
+  "qstnprt_Kttz47kQ2RDy3pFR": {
+   "kind": "question_part",
+   "label": "qstn_nXtVNzYJGHwQdGqp / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_6KQbfxfQ4qkNNryX"
+   ]
+  },
+  "qstnprt_QYzDFGgmSZby2S3v": {
+   "kind": "question_part",
+   "label": "qstn_9pCxMHtfQtBjDVMQ / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_dc4hDzXmDmJzQDMr"
+   ]
+  },
+  "qstnprt_DkBZTv5bFRT58pRk": {
+   "kind": "question_part",
+   "label": "qstn_ft2KCYXX4hFPCRWQ / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xZftDGfY9VKrd9rN"
+   ]
+  },
+  "qstnprt_DwN89BpmmGZH8PRP": {
+   "kind": "question_part",
+   "label": "qstn_2DvnRKRPtpBzGnq3 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-1-business-finance",
+   "codes": [],
+   "pending": [
+    "spcpt_xZftDGfY9VKrd9rN",
+    "spcpt_9hz8Zn9hCC4hVZFR"
+   ]
+  },
+  "qstnprt_Vh4mg7fFpjt2NgPJ": {
+   "kind": "question_part",
+   "label": "qstn_vDM9Gx9kfZHsyCS2 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_Yt4FMccnbyX2qxvn",
+    "spcpt_GZCBVtQf7WSZGcr3"
+   ]
+  },
+  "qstnprt_dtDzTPQFw5bfJ5sq": {
+   "kind": "question_part",
+   "label": "qstn_WGRJ7Rn8FHFz77CX / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_GZCBVtQf7WSZGcr3"
+   ]
+  },
+  "qstnprt_fVXghY7X3sxJMCDt": {
+   "kind": "question_part",
+   "label": "qstn_RnFh2tXgRcWhw4CW / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_JhPNrbN78BJqqyvH"
+   ]
+  },
+  "qstnprt_vqXJmT8pPf9M3qW7": {
+   "kind": "question_part",
+   "label": "qstn_KfTqGZzFZ9Fnsp4C / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_JhPNrbN78BJqqyvH"
+   ]
+  },
+  "qstnprt_DF4qN7yXfTP7gkTC": {
+   "kind": "question_part",
+   "label": "qstn_BDGNVFSdkPYNX4h4 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_JhPNrbN78BJqqyvH"
+   ]
+  },
+  "qstnprt_QkShkcbgMpv89fdm": {
+   "kind": "question_part",
+   "label": "qstn_WvjxytfYKj99NK3J / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_GZCBVtQf7WSZGcr3"
+   ]
+  },
+  "qstnprt_sCHjqgW44q5cKJZZ": {
+   "kind": "question_part",
+   "label": "qstn_Bck8tJmk75PFtk7D / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_JhPNrbN78BJqqyvH"
+   ]
+  },
+  "qstnprt_j2GmCYnXfBxnpq72": {
+   "kind": "question_part",
+   "label": "qstn_NV5XsdfkqsrJQPh2 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_Yt4FMccnbyX2qxvn"
+   ]
+  },
+  "qstnprt_bmfdpfr8t69KW8Tm": {
+   "kind": "question_part",
+   "label": "qstn_98s7nWBTQFPmqXjh / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_GZCBVtQf7WSZGcr3"
+   ]
+  },
+  "qstnprt_jsRmyDt86YqNH8CW": {
+   "kind": "question_part",
+   "label": "qstn_FQtWNmQh72WzZSFt / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_Yt4FMccnbyX2qxvn"
+   ]
+  },
+  "qstnprt_kb7NpVdrN9xWwBfn": {
+   "kind": "question_part",
+   "label": "qstn_hvVZtQKm7kW4kPGC / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_Yt4FMccnbyX2qxvn"
+   ]
+  },
+  "qstnprt_SCFYMBJsrP64KqC4": {
+   "kind": "question_part",
+   "label": "qstn_vFkw8KFWywMXXx9H / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_q3Zkx3gJDST7TNk3": {
+   "kind": "question_part",
+   "label": "qstn_pYr5wSK6cvxNwQPG / part 0",
+   "section": "5-financial-management",
+   "topic": "5-2-cash-flow-forecasts-and-working-capital",
+   "codes": [],
+   "pending": [
+    "spcpt_JhPNrbN78BJqqyvH"
+   ]
+  },
+  "qstnprt_SD7NvnjYSYhBnNSh": {
+   "kind": "question_part",
+   "label": "qstn_DqjJgjwDFmNb2DX5 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z"
+   ]
+  },
+  "qstnprt_XrPPGrp9YbW6fqxr": {
+   "kind": "question_part",
+   "label": "qstn_cysjGC3xC4W365NC / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z",
+    "spcpt_dc4hDzXmDmJzQDMr"
+   ]
+  },
+  "qstnprt_pZgcbmcKCTVgzty2": {
+   "kind": "question_part",
+   "label": "qstn_RN637FvpwBZb7bsr / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_bdwCrcVYmg23gzpQ"
+   ]
+  },
+  "qstnprt_HRjFfzmQyFphhYMb": {
+   "kind": "question_part",
+   "label": "qstn_8QBHRZfY5gprx74B / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_8ChrS5QJmTsRpg24"
+   ]
+  },
+  "qstnprt_S4S5XXmGbYzmdj5T": {
+   "kind": "question_part",
+   "label": "qstn_CQW2MNsCT9W3ppGh / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5",
+    "spcpt_bdwCrcVYmg23gzpQ"
+   ]
+  },
+  "qstnprt_CcMGJmXgQGDd6tYq": {
+   "kind": "question_part",
+   "label": "qstn_PpMwqpnGh5J7ZbfR / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_CShNbQ9Myzg99dTv": {
+   "kind": "question_part",
+   "label": "qstn_P5mgJWJYdTzd9TG4 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z"
+   ]
+  },
+  "qstnprt_q8mGJNJvpQqCXfCc": {
+   "kind": "question_part",
+   "label": "qstn_3bk8mKxwB9mhw5Vb / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_bKN6SncDnZXyZjWz": {
+   "kind": "question_part",
+   "label": "qstn_GhWB84gjzs6MzYf3 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_7WZ4qSCCCcbWCNzg": {
+   "kind": "question_part",
+   "label": "qstn_CYq4zqSs29J7fcTJ / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_zzgkMrdG6q6jZ4px": {
+   "kind": "question_part",
+   "label": "qstn_bG7sjd5fMxDcfs2q / part 0",
+   "section": "5-financial-management",
+   "topic": "5-3-income-statements",
+   "codes": [],
+   "pending": [
+    "spcpt_hcY8nwjW62fyvKG5"
+   ]
+  },
+  "qstnprt_YFPC2fj3ypV3GvDJ": {
+   "kind": "question_part",
+   "label": "qstn_MpMQpyZ3JPVtyGqV / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.4.1",
+     "official_code": "5.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_tsq9ZbqqzvqHYV7w"
+   ]
+  },
+  "qstnprt_8z65dvF45DJSJMY7": {
+   "kind": "question_part",
+   "label": "qstn_fNCGz5GR49ZBNbDh / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z",
+    "spcpt_tsq9ZbqqzvqHYV7w"
+   ]
+  },
+  "qstnprt_wQn3r8SwVG2hmQTn": {
+   "kind": "question_part",
+   "label": "qstn_PXcjBGCZx3RSQmPd / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z",
+    "spcpt_tsq9ZbqqzvqHYV7w"
+   ]
+  },
+  "qstnprt_v9XhJzrJs3vcDrSD": {
+   "kind": "question_part",
+   "label": "qstn_5rQgr879JvfnBVck / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_tsq9ZbqqzvqHYV7w"
+   ]
+  },
+  "qstnprt_6M9zmbb9g68V5KXs": {
+   "kind": "question_part",
+   "label": "qstn_zm3ZZw7Mh5KnDVRq / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_tsq9ZbqqzvqHYV7w"
+   ]
+  },
+  "qstnprt_xyRPTpHqyfyjyfCz": {
+   "kind": "question_part",
+   "label": "qstn_Mpn8jjB4zXB4SSch / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_xn6hC8wK5jJbZr8w",
+    "spcpt_b4Zp6H87cCKQNFfv"
+   ]
+  },
+  "qstnprt_6dFm6RXbzNzkFVNf": {
+   "kind": "question_part",
+   "label": "qstn_4ZVjzNkfxgJ24NdS / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_tsq9ZbqqzvqHYV7w",
+    "spcpt_hjT8qsHhPvt6QhdR"
+   ]
+  },
+  "qstnprt_N3ykkYYhV5ZPYyPh": {
+   "kind": "question_part",
+   "label": "qstn_qjVTTkp4dBSrzdW9 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_xn6hC8wK5jJbZr8w"
+   ]
+  },
+  "qstnprt_d9v7GtSpGxMB3sG5": {
+   "kind": "question_part",
+   "label": "qstn_ZHfjv9g686cybwVy / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.4.1",
+     "official_code": "5.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_mdkvqxHNnhJJrTwy": {
+   "kind": "question_part",
+   "label": "qstn_mDh5SHycZH9Mrv5C / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [],
+   "pending": [
+    "spcpt_b4Zp6H87cCKQNFfv"
+   ]
+  },
+  "qstnprt_MpKRbH2zTFhQjXkP": {
+   "kind": "question_part",
+   "label": "qstn_f9Qm4dKvsZ66PC5M / part 0",
+   "section": "5-financial-management",
+   "topic": "5-4-statement-of-financial-position",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.4.1",
+     "official_code": "5.4.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_trM7ShZgyc9D2HRq": {
+   "kind": "question_part",
+   "label": "qstn_wgPTRYs8mFcb4k92 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_748nsvnWW99Nzc4M",
+    "spcpt_6KQbfxfQ4qkNNryX"
+   ]
+  },
+  "qstnprt_2vCRn4cSXsWBJBH4": {
+   "kind": "question_part",
+   "label": "qstn_GYJTz6r2mGz2CfNd / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.1",
+     "official_code": "5.5.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.2",
+     "official_code": "5.5.2",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XTyyDY3Y2nKDK6YT": {
+   "kind": "question_part",
+   "label": "qstn_hxjnPstW7ShJwYTx / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_6KQbfxfQ4qkNNryX"
+   ]
+  },
+  "qstnprt_YTJdw62sSbcK8hZs": {
+   "kind": "question_part",
+   "label": "qstn_GF5WfTG8KjNchTdV / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZPwzFVFQjBdKHvpB": {
+   "kind": "question_part",
+   "label": "qstn_FdydRwtvMCWmWZw2 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_YYWjJf526WQQYR9Z"
+   ]
+  },
+  "qstnprt_n9ZngKnYtTySdbvC": {
+   "kind": "question_part",
+   "label": "qstn_6Xtt9QQr6BvJ83R3 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_KHb3BMDjmx69bsXZ"
+   ]
+  },
+  "qstnprt_TYxycJKF94Wn48Yz": {
+   "kind": "question_part",
+   "label": "qstn_86zRXRz9SDwWgsd9 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_748nsvnWW99Nzc4M",
+    "spcpt_73bpWRnQr45ZcT5X",
+    "spcpt_6KQbfxfQ4qkNNryX"
+   ]
+  },
+  "qstnprt_BFcvxPzPpv6H2c45": {
+   "kind": "question_part",
+   "label": "qstn_XRWJPYKvz2HrkMsR / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_yMq2H3gbcKVrZ6bd": {
+   "kind": "question_part",
+   "label": "qstn_tWH7fKw2ZmrFPDYK / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_748nsvnWW99Nzc4M",
+    "spcpt_6KQbfxfQ4qkNNryX"
+   ]
+  },
+  "qstnprt_xkxcVJKNcrr7tVVy": {
+   "kind": "question_part",
+   "label": "qstn_jDyxf338pC8HQJ2j / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_748nsvnWW99Nzc4M",
+    "spcpt_73bpWRnQr45ZcT5X"
+   ]
+  },
+  "qstnprt_VNdHpxBQp7jGqMQX": {
+   "kind": "question_part",
+   "label": "qstn_5SSPmqW9cSdjsXDy / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_R3Z5qpr97vYx9SKb": {
+   "kind": "question_part",
+   "label": "qstn_wkS4fzXB5wDmgR73 / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VSsGJjqCFj2XtpgS": {
+   "kind": "question_part",
+   "label": "qstn_H5NGwGdrVfR8MwKx / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:5.5.4",
+     "official_code": "5.5.4",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MwH2sTqVQJd9HGDb": {
+   "kind": "question_part",
+   "label": "qstn_fp5fBB9GNcrQcxyv / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_RKjy4KQfpX6XMVsR"
+   ]
+  },
+  "qstnprt_99BTN2dqzQ8rDmtK": {
+   "kind": "question_part",
+   "label": "qstn_QTQ5dSK5q2vZrgTg / part 0",
+   "section": "5-financial-management",
+   "topic": "5-5-analysing-the-accounts",
+   "codes": [],
+   "pending": [
+    "spcpt_s2hZsnxbKP58txs5"
+   ]
+  },
+  "qstnprt_kD2fYsHrbNzCQZz5": {
+   "kind": "question_part",
+   "label": "qstn_XTBXJN95MmwrBzDb / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_JpRgw5w8cHZFJsqg",
+    "spcpt_jnwXhvZHnc7CSqjn"
+   ]
+  },
+  "qstnprt_tdJYYvnGqMcbpQ7b": {
+   "kind": "question_part",
+   "label": "qstn_pNFNSpqG6s8XXwcB / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_skrH8prCBRP6hMzG",
+    "spcpt_JpRgw5w8cHZFJsqg"
+   ]
+  },
+  "qstnprt_DFmT7ytSqJNZYMkH": {
+   "kind": "question_part",
+   "label": "qstn_CfddbGsRYjnTH2Jc / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": [
+    "spcpt_Mg6qxNVdYCB4sbm9"
+   ]
+  },
+  "qstnprt_7JW8k95cVg6gWX6v": {
+   "kind": "question_part",
+   "label": "qstn_6XMwphS63z2yw9Z8 / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_SYS8jCHnN53R42Q3",
+    "spcpt_skrH8prCBRP6hMzG"
+   ]
+  },
+  "qstnprt_9H9mwBtHZnJc7qvC": {
+   "kind": "question_part",
+   "label": "qstn_tf4DfwNj99hJtJvj / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_JpRgw5w8cHZFJsqg"
+   ]
+  },
+  "qstnprt_TKwbSdxySN8XmH4f": {
+   "kind": "question_part",
+   "label": "qstn_7vyQp72zrVHZRM7w / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_SYS8jCHnN53R42Q3"
+   ]
+  },
+  "qstnprt_975vNXbW2wVq5PhS": {
+   "kind": "question_part",
+   "label": "qstn_vcY72jpQZQkkJJcJ / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_SYS8jCHnN53R42Q3"
+   ]
+  },
+  "qstnprt_RfFpJ9N5GjR4mBBv": {
+   "kind": "question_part",
+   "label": "qstn_MsV7KpgxzvFvMqxt / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_jnwXhvZHnc7CSqjn"
+   ]
+  },
+  "qstnprt_Bv3vH3rPNjyGgtvy": {
+   "kind": "question_part",
+   "label": "qstn_NtJrzfyq38VCp5Vf / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": [
+    "spcpt_sgZryzz2DsbNWkqt"
+   ]
+  },
+  "qstnprt_vvmKmrxxDx7YkN6g": {
+   "kind": "question_part",
+   "label": "qstn_mQ7wXyNSRv7cqKvh / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_xJzmgw86DcmfFscP",
+    "spcpt_SYS8jCHnN53R42Q3"
+   ]
+  },
+  "qstnprt_mnCPCFjrBSsY762Q": {
+   "kind": "question_part",
+   "label": "qstn_95qvfj3HNnyCR9cD / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_skrH8prCBRP6hMzG",
+    "spcpt_gz8nvYcBgCQkj58f"
+   ]
+  },
+  "qstnprt_dJTqk5nJF9kJn5Yc": {
+   "kind": "question_part",
+   "label": "qstn_TYVqTQPSPHqwkBfv / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_JpRgw5w8cHZFJsqg"
+   ]
+  },
+  "qstnprt_VMpx5tGRcwQvdN3n": {
+   "kind": "question_part",
+   "label": "qstn_K3SMyctJq864Gm6r / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_3y3Nfxxc4tHxHn3P"
+   ]
+  },
+  "qstnprt_CjPMs97Fcsnt45Tx": {
+   "kind": "question_part",
+   "label": "qstn_8JYc43dkQxk6f4hK / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_w9C6zVwC49rPPzr6": {
+   "kind": "question_part",
+   "label": "qstn_VzRhhGzdZDmRp7v7 / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vBgz8NKwzR5mjhQk": {
+   "kind": "question_part",
+   "label": "qstn_qD2jYDZnPKth4KXz / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_SYS8jCHnN53R42Q3"
+   ]
+  },
+  "qstnprt_PSbbrw6yf2mQgB5W": {
+   "kind": "question_part",
+   "label": "qstn_2XBhMYrYk2JspQyr / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_JpRgw5w8cHZFJsqg"
+   ]
+  },
+  "qstnprt_ZzB54xbspmqxBS4n": {
+   "kind": "question_part",
+   "label": "qstn_2K355BRghtRSWCrb / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Wzxk38k2wzyB7P5k": {
+   "kind": "question_part",
+   "label": "qstn_QJdvVB2G5DxmDspY / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_75VGYt7QBNhMdXjQ": {
+   "kind": "question_part",
+   "label": "qstn_rkZGHPsfWPwSz3Sj / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-1-economic-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "T1_verbatim",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_mwXrfG2ScRnzYB2y": {
+   "kind": "question_part",
+   "label": "qstn_GyM6W86xJ5wRqNZx / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_WMRZzS328KbH7g9R"
+   ]
+  },
+  "qstnprt_9gDpdSRxJpKDZ2XZ": {
+   "kind": "question_part",
+   "label": "qstn_7j5vmbZRDTDq6PWY / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_NdxBwpdn8zGQtjBR"
+   ]
+  },
+  "qstnprt_gM2RYpQDkgpKRT8S": {
+   "kind": "question_part",
+   "label": "qstn_39JxyMcHQkH34JMx / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_bZcV7BBXbpC9c6VB"
+   ]
+  },
+  "qstnprt_DYkSnhDmvv4K55tZ": {
+   "kind": "question_part",
+   "label": "qstn_sr2f7ffrcQWwH3MN / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_Mg6qxNVdYCB4sbm9",
+    "spcpt_gz8nvYcBgCQkj58f"
+   ]
+  },
+  "qstnprt_pGV9RVXqBSP8nb8V": {
+   "kind": "question_part",
+   "label": "qstn_3ZPrwwyFmrCFdGR3 / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_NdxBwpdn8zGQtjBR"
+   ]
+  },
+  "qstnprt_4ftwmPFD5WCzVyxB": {
+   "kind": "question_part",
+   "label": "qstn_NkYvckNHZYdFBmbF / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_kDM964dJYj3b9Rb9"
+   ]
+  },
+  "qstnprt_s4TjSWGtqvNTQwm2": {
+   "kind": "question_part",
+   "label": "qstn_7Q5d3d3rJnKDSQYb / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_bZcV7BBXbpC9c6VB"
+   ]
+  },
+  "qstnprt_wV6kQrbCMnJ8x2yn": {
+   "kind": "question_part",
+   "label": "qstn_d9YrSQccqVty67JM / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_NdxBwpdn8zGQtjBR"
+   ]
+  },
+  "qstnprt_HmTd8ddM24xYTvXQ": {
+   "kind": "question_part",
+   "label": "qstn_b42tTxhpnrPbT6RN / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_NdxBwpdn8zGQtjBR"
+   ]
+  },
+  "qstnprt_HtrjwnsPWBkkCPr9": {
+   "kind": "question_part",
+   "label": "qstn_jdBMGhsx8RrK5gD5 / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_HDdx6rmKCjvmGMby"
+   ]
+  },
+  "qstnprt_tdcg28DmRHCvwJDd": {
+   "kind": "question_part",
+   "label": "qstn_KFcKvzRkfc3n4ctT / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_HDdx6rmKCjvmGMby"
+   ]
+  },
+  "qstnprt_wjqTjr2jDCHpS8B5": {
+   "kind": "question_part",
+   "label": "qstn_gpqCTQkZgPXHJg8p / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_gz8nvYcBgCQkj58f"
+   ]
+  },
+  "qstnprt_wkrfktPXG8DTdKmj": {
+   "kind": "question_part",
+   "label": "qstn_qQyxns57MsNjrMYf / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_ZJWv4nJ4XqqpDGq2"
+   ]
+  },
+  "qstnprt_NPjxzPtvb9nPnmB9": {
+   "kind": "question_part",
+   "label": "qstn_Kj5zhD35DHNsJpzj / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_HDdx6rmKCjvmGMby"
+   ]
+  },
+  "qstnprt_ggbNGB3qwszKFTWS": {
+   "kind": "question_part",
+   "label": "qstn_4RHZpB9N9g9MDm9d / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_pTXkQ794c2Jbbtf5",
+    "spcpt_7wYWYKf9YJNxh8RZ"
+   ]
+  },
+  "qstnprt_8VKFdzSkZbgfvJGP": {
+   "kind": "question_part",
+   "label": "qstn_4Gfx6yd4RTmp2zcp / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-2-environmental-and-ethical-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_pTXkQ794c2Jbbtf5"
+   ]
+  },
+  "qstnprt_mzMHDmMFxxkDCVVv": {
+   "kind": "question_part",
+   "label": "qstn_vRbPY2qgYfp2qFbr / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_4WvHkpnGfZQKrpWH"
+   ]
+  },
+  "qstnprt_MYwJKHgv5X889cgY": {
+   "kind": "question_part",
+   "label": "qstn_YMNwmYxq24WqbV7w / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.3.3",
+     "official_code": "6.3.3",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DMq8K75rtsmHjJ2t": {
+   "kind": "question_part",
+   "label": "qstn_27TDRjYqRwCcNkyq / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Dk6DG57gpp8qs6dp"
+   ]
+  },
+  "qstnprt_q4yFkGfTH73Yt2yq": {
+   "kind": "question_part",
+   "label": "qstn_xwQ9wBrZF4MHMqwr / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_xJzmgw86DcmfFscP",
+    "spcpt_GHxpyGKWXztMVBpV"
+   ]
+  },
+  "qstnprt_JW9ZNg6KZVB6mHyd": {
+   "kind": "question_part",
+   "label": "qstn_b9ZF6zxXrSTrZ46Q / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_NTjT29th2tc4D6Sv"
+   ]
+  },
+  "qstnprt_WyKQ9X7VZ5Wqc5RX": {
+   "kind": "question_part",
+   "label": "qstn_bkrtZpMzT5wpzYzF / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_NbwYwWbkRk3ZmK2B"
+   ]
+  },
+  "qstnprt_FtSytgqsy99FwqNG": {
+   "kind": "question_part",
+   "label": "qstn_YBdmQ7B55Q7HxcGr / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Dk6DG57gpp8qs6dp",
+    "spcpt_9CWrRzmsF8kyRxnx"
+   ]
+  },
+  "qstnprt_VjXGjnK2FYpmFHkH": {
+   "kind": "question_part",
+   "label": "qstn_MJc8yQ5QJjmXNFXP / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_hWq7zTjgkH36Jq9G"
+   ]
+  },
+  "qstnprt_wVmcWjVwgDWnTVyM": {
+   "kind": "question_part",
+   "label": "qstn_y47vnXTdQnW5TjWF / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Dk6DG57gpp8qs6dp",
+    "spcpt_9CWrRzmsF8kyRxnx"
+   ]
+  },
+  "qstnprt_qSZyBtV95zvwGdFR": {
+   "kind": "question_part",
+   "label": "qstn_nz4PyZ7tvpGG99xV / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_NbwYwWbkRk3ZmK2B"
+   ]
+  },
+  "qstnprt_NhYxmyVMPMv5xsWY": {
+   "kind": "question_part",
+   "label": "qstn_2Xfjj8w5BJbpJgfr / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_GHxpyGKWXztMVBpV",
+    "spcpt_3y3Nfxxc4tHxHn3P"
+   ]
+  },
+  "qstnprt_QKpNRjZB3PwvHyrv": {
+   "kind": "question_part",
+   "label": "qstn_bm7nGbBpQHwCcXYD / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_Dk6DG57gpp8qs6dp",
+    "spcpt_9CWrRzmsF8kyRxnx"
+   ]
+  },
+  "qstnprt_kjszQHT3tf3Gd3qy": {
+   "kind": "question_part",
+   "label": "qstn_c98xGP72cKmNTMmC / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_hWq7zTjgkH36Jq9G"
+   ]
+  },
+  "qstnprt_v3PhJwn4Qxfwhf7V": {
+   "kind": "question_part",
+   "label": "qstn_5msTxqfYM6NgD8dj / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_GHxpyGKWXztMVBpV"
+   ]
+  },
+  "qstnprt_GQHBP752HyYvngfd": {
+   "kind": "question_part",
+   "label": "qstn_fk6fXpqvcggMGmPD / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_GHxpyGKWXztMVBpV"
+   ]
+  },
+  "qstnprt_hSB3ZXjMFZVt6nZc": {
+   "kind": "question_part",
+   "label": "qstn_ScQJb9H4rx6P93WV / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_skBDySrrR8YmFDvC"
+   ]
+  },
+  "qstnprt_PGJKBg2xsjZvgGd2": {
+   "kind": "question_part",
+   "label": "qstn_Qnc2PysQc9hNmYNs / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [],
+   "pending": [
+    "spcpt_GHxpyGKWXztMVBpV"
+   ]
+  },
+  "qstnprt_DFNpxkGhxp649wxS": {
+   "kind": "question_part",
+   "label": "qstn_qKjDGNGzG66hG82c / part 0",
+   "section": "6-external-influences-on-business-activity",
+   "topic": "6-3-business-and-globalisation",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BUSINESS_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "T2_near",
+     "method": "cie_definition_text_join"
+    }
+   ],
+   "pending": []
+  }
+ }
+}

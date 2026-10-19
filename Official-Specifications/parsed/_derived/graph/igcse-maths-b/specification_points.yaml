@@ -1,0 +1,2683 @@
+curriculum_code: 4MB1
+qualification: igcse-maths-b (Issue 1)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-in-mathematics-spec-b.pdf
+  role: official-pdf-direct-parse
+  sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-20'
+counts:
+  spec_points: 98
+  topics: 10
+  subsections: 0
+  practicals: 0
+specification_points:
+- code: IGCSE_MATHS_B:1A
+  official_code: 1A
+  official_wording: The ordinary processes of number manipulation
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 148.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1B
+  official_code: 1B
+  official_wording: Prime numbers, factors, multiples
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: prime
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 178.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1C
+  official_code: 1C
+  official_wording: Indices, powers and roots
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: indices,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 209.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1D
+  official_code: 1D
+  official_wording: Simple manipulation of surds
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: simple
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 252.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1E
+  official_code: 1E
+  official_wording: Rationalising the denominator
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: rationalising
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 412.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1F
+  official_code: 1F
+  official_wording: Natural numbers, integers and rational and irrational numbers
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: natural
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 451.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1G
+  official_code: 1G
+  official_wording: Weights, measures and money
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: weights,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 17
+    pdf_oy: 500.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1H
+  official_code: 1H
+  official_wording: Fractions, decimals, ratio, proportion and percentage
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: fractions,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 18
+    pdf_oy: 102.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1I
+  official_code: 1I
+  official_wording: Expressing numbers to a given degree of accuracy
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: expressing
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 18
+    pdf_oy: 262.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1J
+  official_code: 1J
+  official_wording: Solve problems using upper and lower bounds where values are given to a degree of
+    accuracy
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solve
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 18
+    pdf_oy: 309.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:1K
+  official_code: 1K
+  official_wording: Numbers in standard form
+  section: 4MB1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: numbers
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 18
+    pdf_oy: 352.3
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2A
+  official_code: 2A
+  official_wording: The idea of a set
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 149.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2B
+  official_code: 2B
+  official_wording: Set language and notation
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: set
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 168.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2C
+  official_code: 2C
+  official_wording: Union and intersection of sets
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 14
+  global_order: 14
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: union
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 211.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2D
+  official_code: 2D
+  official_wording: Number of elements in a set
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: number
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 242.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2E
+  official_code: 2E
+  official_wording: Complementary sets
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: complementary
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 262.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2F
+  official_code: 2F
+  official_wording: Subsets
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: subsets
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 282.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2G
+  official_code: 2G
+  official_wording: Universal set, null set
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: universal
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 301.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2H
+  official_code: 2H
+  official_wording: Venn diagrams and their use in simple logical problems
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: venn
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 321.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:2I
+  official_code: 2I
+  official_wording: Use of symbols to represent sets
+  section: 4MB1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 19
+    pdf_oy: 352.3
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3A
+  official_code: 3A
+  official_wording: The basic processes of algebra
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 149.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3B
+  official_code: 3B
+  official_wording: The construction, interpretation and use of formulae and their manipulation
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 192.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3C
+  official_code: 3C
+  official_wording: The factorisation of simple algebraic expressions
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 222.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3D
+  official_code: 3D
+  official_wording: Use of the factor theorem
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 253.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3E
+  official_code: 3E
+  official_wording: Algebraic division of a cubic by a linear factor
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: algebraic
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 286.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3F
+  official_code: 3F
+  official_wording: The manipulation of simple algebraic fractions, the denominators being numerical,
+    linear or quadratic
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 316.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3G
+  official_code: 3G
+  official_wording: Solution of equations of 1st, 2nd and 3rd degree containing one unknown quantity
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solution
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 359.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3H
+  official_code: 3H
+  official_wording: Solution of linear simultaneous equations in two unknowns
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solution
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 433.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3I
+  official_code: 3I
+  official_wording: Solve simultaneous equations in two unknowns, one equation being linear and the other
+    being quadratic
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solve
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 475.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3J
+  official_code: 3J
+  official_wording: Solution of linear inequalities, and the representations of solutions on the number
+    line and two-dimensional space
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solution
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 518.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3K
+  official_code: 3K
+  official_wording: Solve quadratic inequalities in one unknown and represent the solution set on a number
+    line
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solve
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 591.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:3L
+  official_code: 3L
+  official_wording: The idea of a sequence
+  section: 4MB1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 20
+    pdf_oy: 634.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4A
+  official_code: 4A
+  official_wording: The idea of a function of a variable
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 148.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4B
+  official_code: 4B
+  official_wording: Function as a mapping or as a correspondence between the elements of two sets
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: function
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 166.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4C
+  official_code: 4C
+  official_wording: Use functional notations of the form f(x) =… andf:x  …
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 209.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags:
+  - math-fragment-assembly
+- code: IGCSE_MATHS_B:4D
+  official_code: 4D
+  official_wording: Domain and range of a function
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: domain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 242.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4E
+  official_code: 4E
+  official_wording: Composite functions
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: composite
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 342.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4F
+  official_code: 4F
+  official_wording: Inverse functions
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: inverse
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 362.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4G
+  official_code: 4G
+  official_wording: Variation, direct and indirect proportion
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: variation,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 382.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4H
+  official_code: 4H
+  official_wording: Rectangular Cartesian co-ordinates
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: rectangular
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 541.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4I
+  official_code: 4I
+  official_wording: Recognise that equations of the form y = mx + c are straight–line graphs with gradientm
+    and intercept on they-axis at the point(0,c)
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: recognise
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 561.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4J
+  official_code: 4J
+  official_wording: 'Graphs and graphical treatment of the equation: 3 2 E F y = Ax + Bx + Cx + D + +
+    x x in which the constants are numerical and at least three of them are zero'
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: graphs
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 621.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags:
+  - math-fragment-assembly
+- code: IGCSE_MATHS_B:4K
+  official_code: 4K
+  official_wording: The gradients of graphs above by drawing
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 21
+    pdf_oy: 719.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4L
+  official_code: 4L
+  official_wording: Differentiation of integer powers ofx
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 44
+  global_order: 44
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: differentiation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 22
+    pdf_oy: 103.3
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4M
+  official_code: 4M
+  official_wording: Determination of gradients, rates of change, maxima and minima, stationary points
+    and turning points
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: determination
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 22
+    pdf_oy: 140.2
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:4N
+  official_code: 4N
+  official_wording: Applications to linear kinematics and to other simple practical problems
+  section: 4MB1-S4
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: applications
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 22
+    pdf_oy: 207.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5A
+  official_code: 5A
+  official_wording: Representation of data by a matrix
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: representation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 149.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5B
+  official_code: 5B
+  official_wording: Addition and multiplication of matrices
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: addition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 168.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5C
+  official_code: 5C
+  official_wording: Multiplication of a matrix by a scalar
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: multiplication
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 225.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5D
+  official_code: 5D
+  official_wording: Unit (identity) matrix and zero (null) matrix
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 50
+  global_order: 50
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: unit
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 245.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5E
+  official_code: 5E
+  official_wording: Determinants and inverses of non-singular 2 × 2 matrices
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: determinants
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 265.3
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5F
+  official_code: 5F
+  official_wording: Transformations of the plane associated with2 × 2 matrices
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: transformations
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 297.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:5G
+  official_code: 5G
+  official_wording: Combination of transformations
+  section: 4MB1-S5
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: combination
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 23
+    pdf_oy: 374.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6A
+  official_code: 6A
+  official_wording: Geometrical properties of Euclidean space, as listed below
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: geometrical
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 149.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6B
+  official_code: 6B
+  official_wording: Geometrical reasoning
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 55
+  global_order: 55
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: geometrical
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 289.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6C
+  official_code: 6C
+  official_wording: Angle properties of parallel lines, triangles and polygons, including regular polygons
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: angle
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 308.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6D
+  official_code: 6D
+  official_wording: Properties of the parallelogram, rectangle, square, rhombus, trapezium and kite
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: properties
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 369.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6E
+  official_code: 6E
+  official_wording: Symmetry about a point, line or plane
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: symmetry
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 400.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6F
+  official_code: 6F
+  official_wording: Use of Pythagoras’ theorem in 2D and 3D
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 461.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6G
+  official_code: 6G
+  official_wording: 'Similarity: areas and volumes of similar figures'
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 60
+  global_order: 60
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: 'similarity:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 535.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6H
+  official_code: 6H
+  official_wording: Prove the similarity of two triangles
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: prove
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 565.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6I
+  official_code: 6I
+  official_wording: Congruent shapes
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 62
+  global_order: 62
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: congruent
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 585.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6J
+  official_code: 6J
+  official_wording: Understand and use SSS, SAS, ASA and RHS conditions to prove the congruence of triangles
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 605.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6K
+  official_code: 6K
+  official_wording: Chord, angle and tangent properties of circles
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: chord,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 648.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6L
+  official_code: 6L
+  official_wording: Properties of a cyclic quadrilateral
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 65
+  global_order: 65
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: properties
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 703.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6M
+  official_code: 6M
+  official_wording: Loci in two dimensions
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 66
+  global_order: 66
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: loci
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 722.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:6N
+  official_code: 6N
+  official_wording: Constructions of bisector of an angle and of perpendicular bisector (mediator) of
+    a straight line
+  section: 4MB1-S6
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: constructions
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 24
+    pdf_oy: 753.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:7A
+  official_code: 7A
+  official_wording: Length, area, and volume
+  section: 4MB1-S7
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: length,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 25
+    pdf_oy: 149.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:7B
+  official_code: 7B
+  official_wording: Mensuration of two-dimensional shapes, rectangle, parallelogram, trapezium, triangle,
+    circle
+  section: 4MB1-S7
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: mensuration
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 25
+    pdf_oy: 168.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:7C
+  official_code: 7C
+  official_wording: Mensuration of three-dimensional shapes, right circular cylinder, right circular cone
+    and sphere, cuboid, pyramid, prism
+  section: 4MB1-S7
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: mensuration
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 25
+    pdf_oy: 248.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:7D
+  official_code: 7D
+  official_wording: Length of an arc, area of a sector of a circle
+  section: 4MB1-S7
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: length
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 25
+    pdf_oy: 327.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8A
+  official_code: 8A
+  official_wording: Scalar and vector quantities
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: scalar
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 151.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8B
+  official_code: 8B
+  official_wording: Understand and use vector notation
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 73
+  global_order: 73
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 171.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8C
+  official_code: 8C
+  official_wording: Representation of a vector by a directed line segment
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: representation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 206.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8D
+  official_code: 8D
+  official_wording: Parallel vectors, unit vectors and position vectors
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: parallel
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 237.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8E
+  official_code: 8E
+  official_wording: Sum and difference of two vectors
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: sum
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 268.3
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8F
+  official_code: 8F
+  official_wording: Modulus (magnitude) of a vector
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: modulus
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 288.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8G
+  official_code: 8G
+  official_wording: Multiplication of a vector by a scalar
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: multiplication
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 307.6
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8H
+  official_code: 8H
+  official_wording: Find the resultant of two or more vectors
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: find
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 327.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8I
+  official_code: 8I
+  official_wording: Apply vector methods to simple geometrical problems
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: apply
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 346.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8J
+  official_code: 8J
+  official_wording: Transformations of the plane
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: transformations
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 377.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8K
+  official_code: 8K
+  official_wording: Combination of transformations
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: combination
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 450.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:8L
+  official_code: 8L
+  official_wording: Multiplication of a vector by a matrix
+  section: 4MB1-S8
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: multiplication
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 26
+    pdf_oy: 470.3
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:9A
+  official_code: 9A
+  official_wording: Use of sine, cosine and tangent of angles up to 180°
+  section: 4MB1-S9
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 27
+    pdf_oy: 151.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:9B
+  official_code: 9B
+  official_wording: Solution of problems in two and three dimensions by calculation and by drawing
+  section: 4MB1-S9
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: solution
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 27
+    pdf_oy: 181.4
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:9C
+  official_code: 9C
+  official_wording: Angles of elevation and depression
+  section: 4MB1-S9
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: angles
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 27
+    pdf_oy: 304.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:9D
+  official_code: 9D
+  official_wording: Bearings
+  section: 4MB1-S9
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: bearings
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 27
+    pdf_oy: 333.5
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10A
+  official_code: 10A
+  official_wording: Graphical representation of numerical data
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: graphical
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 149.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10B
+  official_code: 10B
+  official_wording: Determination of the mean, median and mode for a discrete data set
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: determination
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 210.1
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10C
+  official_code: 10C
+  official_wording: Calculation of an estimate of the mean of a larger number of quantities given in grouped
+    frequencies
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 241.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10D
+  official_code: 10D
+  official_wording: Determination of a modal class and the class containing the median for grouped data
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: determination
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 283.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10E
+  official_code: 10E
+  official_wording: Understand the language and basic concepts of probability
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 326.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10F
+  official_code: 10F
+  official_wording: Use of addition rule for two or more mutually exclusive events
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 369.8
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10G
+  official_code: 10G
+  official_wording: Use of product rule for two or more independent events
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 422.2
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10H
+  official_code: 10H
+  official_wording: Determination of the probability of two or more independent events
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: determination
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 473.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10I
+  official_code: 10I
+  official_wording: Using simple conditional probability for combined events
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 96
+  global_order: 96
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: using
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 503.9
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10J
+  official_code: 10J
+  official_wording: Finding very simple conditional probability
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 97
+  global_order: 97
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: finding
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 534.7
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: IGCSE_MATHS_B:10K
+  official_code: 10K
+  official_wording: Understand and use the term ‘expected frequency’
+  section: 4MB1-S10
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 98
+  global_order: 98
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-mathematics-spec-b.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 28
+    pdf_oy: 555.0
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []

@@ -1,0 +1,171 @@
+# T-C42 R30 promotions amendment — derived from the R30 verdict record
+# (the loop's SECOND promotions-affecting repair record and the FIRST with
+# ADDITIONS: 5 code supersedes + 3 exclusions + 3 added sign-off promotions;
+# the R5 promotions file stays byte-untouched per the P5 convention). Written
+# ONLY by scripts/c42_r30_override_projection.py; hand-editing is forbidden.
+schema: c42-r31-promotions-amendment/1.0
+task: T-C42
+round: R30
+generated: '2026-10-12'
+source: scripts/c42_r30_repair_verdicts.yaml (section_overrides + h3_signoffs)
+base_file: scripts/c42_r5_promotions.yaml
+base_file_sha256_16: 9bad739bd79e5899
+base_file_untouched: true
+prior_amendments:
+- scripts/c42_r26_promotions_amendment.yaml
+contract: 'consumed fail-closed by the R31-shaped substrate re-build''s promotions re-application AFTER
+  the R5 file is loaded and AFTER the R26 amendment''s outstanding effects are carried (the R26 supersedes/exclusion
+  are already LANDED state in the R31 baseline store; the R30 amendment acts on the re-applied set): every
+  supersedes_code entry re-pins one promoted row''s code (identity by mapping_id + note_path + chunk_ordinal,
+  pinned_code verified against the R5 file BEFORE the amendment applies — any drift fails the rebuild);
+  every excluded entry removes one row from the re-applied promotion set (the DEMOTE batch lands unresolved-span
+  via the c40 DEMOTE convention, NOT re-promoted); every added entry PROMOTES one SUGGESTED row into the
+  re-applied set — the loop''s FIRST promotions additions, the R5 apply record''s own per-row H3 sign-off
+  mechanism (''Not auto-promoted at R5 without the operator''s explicit per-row sign-off'') completed
+  under the operator''s explicit delegation (directive trace 1a130272fc8acc11): each added row''s identity
+  is verified against the LIVE store (SUGGESTED at the pinned code) and each entry carries its sign-off
+  basis verbatim. The re-applied promotion count becomes 831 (832 - 1 R26 exclusion - 3 exclusions + 3
+  additions); the 5 superseded rows REMAIN in the promoted set at their amended codes and re-key old->new
+  at the rebuild (the R24 id_pairs convention). The R5 file itself stays BYTE-UNTOUCHED (the P5 convention
+  — landed records never edited); this amendment is the dated record of the R30 operator-fired adjudication
+  and remains reviewable and reversible by the operator before the R31-shaped lane fires.'
+supersedes_code:
+- mapping_id: 75244f93401689fe
+  note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+  chunk_ordinal: 3
+  pinned_code: 4MA1-4.8D
+  amended_code: 4MA1-4.8F
+- mapping_id: d58b7f9f0fa551d3
+  note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+  chunk_ordinal: 5
+  pinned_code: 4MA1-3.3F
+  amended_code: 4MA1-3.3I
+- mapping_id: 23098694b70397d8
+  note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/equations-and-problem-solving.json
+  chunk_ordinal: 0
+  pinned_code: 4MA1-4.11C
+  amended_code: 4MA1-2.7C
+- mapping_id: 9fb36c39006e0531
+  note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/equations-and-problem-solving.json
+  chunk_ordinal: 1
+  pinned_code: 4MA1-4.11C
+  amended_code: 4MA1-2.7C
+- mapping_id: d5d49762dd5a4eef
+  note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/equations-and-problem-solving.json
+  chunk_ordinal: 2
+  pinned_code: 4MA1-4.11C
+  amended_code: 4MA1-2.7C
+excluded:
+- mapping_id: 7f9612c10eaaaa2e
+  note_path: notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json
+  chunk_ordinal: 0
+  pinned_code: 4MA1-2.2F
+  disposition: DEMOTE_TO_WORKLIST
+- mapping_id: b7602c675bf3a406
+  note_path: notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json
+  chunk_ordinal: 1
+  pinned_code: 4MA1-2.2F
+  disposition: DEMOTE_TO_WORKLIST
+- mapping_id: 2ea85d1d97ebae38
+  note_path: notes/2-equations-formulae-and-identities/factorising/factorising-by-grouping.json
+  chunk_ordinal: 3
+  pinned_code: 4MA1-2.2F
+  disposition: DEMOTE_TO_WORKLIST
+added:
+- row:
+    mapping_id: 56905a113334dcd1
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/expanding-brackets/expanding-single-brackets.json
+    chunk_ordinal: 0
+    heading: Expanding one bracket
+    chunk_sha256_16: af8aa4ff98d62d15
+  verdict: SIGN_OFF
+  verdict_source: r30-operator-signoff
+  validated_by: operator
+  validated_date: '2026-10-12'
+  review_reference: graph/reports/C42_R30_RESOLUTION_REPAIR_RECORD.md
+  signoff_basis: 'The heading-only chunk ''Expanding one bracket'' (21 chars) rides the note whose content
+    row 14203482e0b046b0 (ord 1, ''How do I expand a bracket?'') teaches the C30 ledger''s FOUNDATION
+    wording of 2.2C VERBATIM — read from the corpus this round: ''''Expanding the brackets means multiplying
+    the outside term by each term on the inside ... 3x(x+2) expands to 3x x x + 3x x 2 which simplifies
+    to 3x^2 + 6x'''' — ''multiply a single term over a bracket'' is 2.2C''s Foundation-walk demand word
+    for word (C30 ledger row 2.2C: foundation.text ''multiply a single term over a bracket'', verified
+    this round). The store''s Higher-operative wording for 2.2C (''manipulate algebraic fractions ...'')
+    is a DIFFERENT surface — carried by the note family''s dedicated rows (algebraic-fractions, adding-and-subtracting-algebraic-fractions,
+    multiplying-and-dividing-algebraic-fractions, solving-algebraic-fractions — 10 further 2.2C rows verified
+    this round) — so this row is the R1 WORDING-TIER-ARTIFACT class: the join is correct at Foundation
+    tier, and the precedent is the R25 review''s 4.8B SOHCAHTOA ruling (''the join is correct at Foundation
+    tier'', CONFIRMed on both tier wordings). The sign-off accepts the join ON THAT RECORDED BASIS: the
+    chunk teaches the joined code''s Foundation-walk demand verbatim; the Higher-operative demand is not
+    displaced (the fraction rows carry it); no better Higher-operative code exists (2.2A''s ''expand the
+    product of two or more linear expressions'' does not name the single-bracket surface, and the official
+    spec''s own Foundation walk places this demand at 2.2C). The H3 hold existed for lack of sampling
+    evidence; the sign-off substitutes the round''s own verified both-tier reading (the R5 escape hatch),
+    with the tier-artifact caveat recorded here and in the promotion entry.'
+  tier_wording_source: ledger_foundation
+- row:
+    mapping_id: 1dfc65df88b35d69
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-problem-solving/multiple-ratios.json
+    chunk_ordinal: 0
+    heading: Multiple ratios
+    chunk_sha256_16: da21761d58fb609a
+  verdict: SIGN_OFF
+  verdict_source: r30-operator-signoff
+  validated_by: operator
+  validated_date: '2026-10-12'
+  review_reference: graph/reports/C42_R30_RESOLUTION_REPAIR_RECORD.md
+  signoff_basis: 'The heading-only chunk ''Multiple ratios'' (15 chars) rides the note whose content row
+    e1f6857029232571 (ord 1, ''How do I combine two ratios to make a three-part ratio?'') teaches 1.7B''s
+    demand verbatim — read from the corpus this round: the combine-two-ratios method lands ''We can now
+    use this to share the 85 animals in the ratio 4:6:7 — there are 17 parts in total (4 + 6 + 7 = 17),
+    each part is worth 5 animals (85 / 17 = 5), there are 20 cows (4 x 5), 30 sheep (6 x 5), and 35 pigs
+    (7 x 5)'' — DIVIDING A QUANTITY IN GIVEN RATIOS, which is 1.7B ''divide a quantity in a given ratio
+    or ratios'' verbatim (the note is NAMED multiple-ratios; the plural ''ratios'' of the wording is the
+    note''s whole point). The heading-only row is the note''s own structural slice on its own SP (the
+    note sits in ratio-problem-solving; the corpus''s own spec_point block anchors it). Not a tier artifact:
+    1.7B is absent from the C30 dedupe ledger (single-tier row; the store''s operative wording IS the
+    demand). The H3 hold existed for lack of sampling evidence (no content-row CONFIRM of note+1.7B ever
+    landed in a draw); this sign-off substitutes the round''s own verified reading for the absent draw
+    evidence — the R5 apply record''s named escape hatch.'
+  tier_wording_source: store
+- row:
+    mapping_id: 2d44bcf00f589c18
+    spec_code: 4MA1-6.3J
+    note_path: notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json
+    chunk_ordinal: 4
+    heading: Expected frequency
+    chunk_sha256_16: 4dceda88ddc48936
+  verdict: SIGN_OFF
+  verdict_source: r30-operator-signoff
+  validated_by: operator
+  validated_date: '2026-10-12'
+  review_reference: graph/reports/C42_R30_RESOLUTION_REPAIR_RECORD.md
+  signoff_basis: 'The heading-only chunk ''Expected frequency'' (18 chars) rides the note whose content
+    row b4aa201fc25dfe77 (ord 5, ''What is expected frequency?'') teaches 6.3J''s demand verbatim — read
+    from the corpus this round: ''''Expected frequency'' refers to the number of times you would expect
+    a particular outcome to occur — it is found by multiplying the probability by the number of trials
+    ... Sometimes you need to calculate the relative frequency first ... 0.25 x 100 = 25, you would expect
+    to get heads 25 times from 100 throws'' — UNDERSTANDING the term (the definition) AND USING it (the
+    calculations), which is 6.3J ''understand and use the term ''expected frequency'''' verbatim, both
+    halves. Not a tier artifact: 6.3J is absent from the C30 dedupe ledger (single-tier; the store''s
+    operative wording IS the demand). The H3 hold existed for lack of sampling evidence; this sign-off
+    substitutes the round''s own verified reading (the R5 escape hatch).'
+  tier_wording_source: store
+derived_census_projected:
+  re_applied_promotions: 831
+  re_applied_composition: 828 from the R5 chain [832 - 1 R26 exclusion - 3 exclusions] + 3 added sign-offs
+  covered_codes: 132 -> 133
+  coverage_gained:
+  - 4MA1-2.7C
+  coverage_lost: []
+  uncovered_sp: 56 -> 55
+  resolved_defer_rows:
+  - f081d3d51385cb8f
+  anchored: 838 -> 835 (831 HUMAN_VALIDATED + 4 anchored SUGGESTED)
+  unresolved_span: 24 -> 27 (the 3-row DEMOTE batch)
+  store_rows: 918 -> 917 (the 2.7C DEFER row the only vanishing row; the 3 DEMOTE rows re-key into the
+    worklist)
+caveat: PROJECTED from verified facts, ASSERTED NOWHERE — every count lands at the R31-shaped rebuild
+  lane (which computes its own delta proofs, the R24 R5-gate convention) and the re-gate lane after it;
+  the DC-R24-01 discipline (compute, never assert coverage) is in force

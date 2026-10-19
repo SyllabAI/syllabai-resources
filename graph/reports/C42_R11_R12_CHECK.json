@@ -1,0 +1,49 @@
+{
+ "schema": "syllabai.c42-r11-r12-check/1.0",
+ "task": "T-C42 R11+R12 (join re-run + substrate re-build over the C42-R10-amended resolution; the operator directive's 'then R7/R8/R9 again')",
+ "generated_utc": "2026-10-02T18:59:32+00:00",
+ "all_pass": true,
+ "gates": {
+  "W1_join_refresh": {
+   "pass": true,
+   "detail": "198/5/203 census UNCHANGED (0 anchors cleared at R10), 0 foreign; unresolved set == residual + 2 R1-cleared + 2 R6-cleared; resolution pin == amended disk file (247e02062f1d4ed9); 2/2 R10 CORRECT codes landed verbatim (H-2.2A / H-2.2C); related-calculations STANDING at 1.8D"
+  },
+  "W2_substrate_shape": {
+   "pass": true,
+   "detail": "923 rows = 841 anchored + 21 unresolved-span worklist (incl. the loop's first DEMOTE: related-calculations ord 2, chunk identity intact) + 61 uncovered-SP; covered codes 127; all SUGGESTED/RULE_DERIVED"
+  },
+  "W3_chunk_identity_invariant": {
+   "pass": true,
+   "detail": "862 chunk rows: (note_path, ordinal, heading, sha256_16) multiset IDENTICAL to pre-R12 blob 80c883dcde552485 — only code attribution moved; the DEMOTE kept its chunk block"
+  },
+  "W4_reattribution_audit": {
+   "pass": true,
+   "detail": "all 862 pre-R12 chunk rows replayed: 5 rows on the 2 R10 CORRECT anchors re-pointed, 24 REATTRIBUTE override rows (R1 10 + R6 7 + R10 7) + 4 RETAIN rows recorded with provenance.override, 2 R1 entries ride the join via the R6 subsumption registry, 1 DEMOTE row in the worklist class with its chunk identity, 18 rows of the 4 cleared spans worklist, 808 non-surface rows zero-drift (incl. the related-calculations STANDING rows)"
+  },
+  "W5_coverage_worklist": {
+   "pass": true,
+   "detail": "covered 125 -> 127 of 188; gained ['4MA1-1.6A', '4MA1-1.6C']; lost []; worklist complete; mapping_ids unique"
+  },
+  "W6_protected_surfaces": {
+   "pass": true,
+   "detail": "dirty set == the R11/R12 footprint exactly (6 paths); Lane C stores, chemistry substrate, the R10-amended resolution, the C42 scope/R0-R10 records byte-identical to HEAD a26f3aa"
+  },
+  "W7_determinism": {
+   "pass": true,
+   "detail": "substrate re-run byte-identical; join re-run content-identical modulo generated_utc"
+  }
+ },
+ "pins": {
+  "head": "a26f3aa",
+  "old_join_blob": "a999481621d3bb3a47d72b8294b3a03bfbe416a2",
+  "old_store_blob": "80c883dcde552485aa961d30585459dbc198c57f",
+  "amended_resolution_sha256_16": "247e02062f1d4ed9",
+  "join_198_5": true,
+  "store_rows": 923,
+  "anchored": 841,
+  "unresolved_span_worklist": 21,
+  "demoted_worklist": 1,
+  "unmapped_sps": 61,
+  "covered_codes": 127
+ }
+}

@@ -1,0 +1,693 @@
+{
+ "schema": "syllabai.c42-r6-repair-proposals/1.0",
+ "task": "T-C42 / R6 (the second R1-shaped verdict round, over the R4 defect inventory)",
+ "directive": "R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02, zai-web)",
+ "method": "0.5*difflib(name, wording) + 0.5*token-jaccard + 0.10 section-prior, scored against BOTH tier wordings (store operative + C30 ledger foundation.text, better-of-two recorded); name_text = note title + the note's own chunk headings (surface 1) or chunk heading + evidence note (surface 3); PROPOSAL-ONLY — binds nothing; top-1 candidates are deliberately published as noisy; PMT excluded as source; the operator verdict round decides",
+ "surface1_id_level": [
+  {
+   "anchor_id": "spcpt_2nCMJhvvGsW7vMcV",
+   "note_path": "notes/3-sequences-functions-and-graphs/real-life-graphs/speed-time-graphs.json",
+   "note_title": "Speed-Time Graphs",
+   "sme_name": "Speed-Time Graphs",
+   "wrong_code": "4MA1-2.8D",
+   "wrong_code_wording": "represent simple linear inequalities on rectangular Cartesian graphs",
+   "r4_reject_rows": 2,
+   "note_headings": [
+    "Speed-time graphs",
+    "How do I use a speed-time graph?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-4.4F",
+     "wording_store": "understand and use the relationship between average speed, distance and time",
+     "wording_ledger": null,
+     "score": 0.3081,
+     "score_store": 0.3081,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.4G",
+     "wording_store": "use compound measure such as speed, density and pressure",
+     "wording_ledger": null,
+     "score": 0.2385,
+     "score_store": 0.2385,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.4B",
+     "wording_store": "calculate time intervals in terms of the 24-hour and the 12-hour clock",
+     "wording_ledger": null,
+     "score": 0.2133,
+     "score_store": 0.2133,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_339DNssRW9x2NPKk",
+   "note_path": "notes/1-numbers-and-the-number-system/fractions/basic-fractions.json",
+   "note_title": "Basic Fractions",
+   "sme_name": "Basic Fractions",
+   "wrong_code": "4MA1-1.2I",
+   "wrong_code_wording": "multiply and divide fractions and mixed numbers",
+   "r4_reject_rows": 2,
+   "note_headings": [
+    "Basic fractions",
+    "What is a fraction?",
+    "How do I find a fraction of an amount?",
+    "What are equivalent fractions?",
+    "How do I find an equivalent fraction?",
+    "What is a simplified fraction?",
+    "How do I simplify fractions?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-1.2A",
+     "wording_store": "understand and use equivalent fractions, simplifying a fraction by cancelling common factors",
+     "wording_ledger": null,
+     "score": 0.3092,
+     "score_store": 0.3092,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-1.2D",
+     "wording_store": "order fractions and calculate a given fraction of a given quantity",
+     "wording_ledger": null,
+     "score": 0.245,
+     "score_store": 0.245,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-1.2H",
+     "wording_store": "understand and use unit fractions as multiplicative inverses",
+     "wording_ledger": null,
+     "score": 0.181,
+     "score_store": 0.181,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_4ZdHtGPdDjYdR6rK",
+   "note_path": "notes/4-geometry-and-trigonometry/standard-and-compound-units/compound-measures.json",
+   "note_title": "Compound Measures",
+   "sme_name": "Compound Measures",
+   "wrong_code": "4MA1-4.4C",
+   "wrong_code_wording": "make sensible estimates of a range of measures",
+   "r4_reject_rows": 2,
+   "note_headings": [
+    "Compound measures",
+    "What is a compound measure?",
+    "How do I find the units for a compound measure?",
+    "How do I find the formula for a compound measure?",
+    "What is a formula triangle?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-4.8E",
+     "wording_store": "understand and use the formula ab sin C for the area of a triangle",
+     "wording_ledger": null,
+     "score": 0.2864,
+     "score_store": 0.2864,
+     "score_ledger": null,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.4G",
+     "wording_store": "use compound measure such as speed, density and pressure",
+     "wording_ledger": null,
+     "score": 0.2284,
+     "score_store": 0.2284,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-1.6G",
+     "wording_store": "use compound interest and depreciation",
+     "wording_ledger": null,
+     "score": 0.2015,
+     "score_store": 0.2015,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_SYHWnwMWKxDNg9s8",
+   "note_path": "notes/2-equations-formulae-and-identities/linear-equations/solving-linear-equations.json",
+   "note_title": "Solving Linear Equations",
+   "sme_name": "Solving Linear Equations",
+   "wrong_code": "4MA1-2.4B",
+   "wrong_code_wording": "set up simple linear equations from given data",
+   "r4_reject_rows": 1,
+   "note_headings": [
+    "Solving linear equations",
+    "What are linear equations?",
+    "How do I solve linear equations?",
+    "Does the order of steps matter?",
+    "How do I solve linear equations with negative numbers?",
+    "How do I solve linear equations with brackets?",
+    "How do I solve linear equations with fractions?",
+    "What if the unknown is on the denominator?",
+    "How do I solve linear equations with x terms on both sides?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-2.4A",
+     "wording_store": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+     "wording_ledger": null,
+     "score": 0.2692,
+     "score_store": 0.2692,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-2.2C",
+     "wording_store": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+     "wording_ledger": "multiply a single term over a bracket",
+     "score": 0.1891,
+     "score_store": 0.1891,
+     "score_ledger": 0.0544,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-2.3C",
+     "wording_store": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+     "wording_ledger": null,
+     "score": 0.1744,
+     "score_store": 0.1744,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_X8CSxK2dhn5rX34f",
+   "note_path": "notes/2-equations-formulae-and-identities/solving-inequalities/solving-linear-inequalities.json",
+   "note_title": "Solving Linear Inequalities",
+   "sme_name": "Solving Linear Inequalities",
+   "wrong_code": "4MA1-2.8D",
+   "wrong_code_wording": "represent simple linear inequalities on rectangular Cartesian graphs",
+   "r4_reject_rows": 1,
+   "note_headings": [
+    "Solving linear inequalities",
+    "What is an inequality?",
+    "How do I find integers that satisfy inequalities?",
+    "How do I represent an inequality on a number line?",
+    "How do I solve linear inequalities?",
+    "How do I solve double inequalities?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-2.8A",
+     "wording_store": "solve quadratic inequalities in one unknown and represent the solution set on a number line",
+     "wording_ledger": "understand and use the symbols>,<, and ",
+     "score": 0.334,
+     "score_store": 0.334,
+     "score_ledger": 0.0285,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-2.8C",
+     "wording_store": "solve simple linear inequalities in one variable and represent the solution set on a number line",
+     "wording_ledger": null,
+     "score": 0.3051,
+     "score_store": 0.3051,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-2.3A",
+     "wording_store": "understand the process of manipulating formulae or equations to change the subject, to include cases where the subject may appear twice or a power of the subject occurs",
+     "wording_ledger": "understand that a letter may represent an unknown number or a variable",
+     "score": 0.2465,
+     "score_store": 0.1623,
+     "score_ledger": 0.2465,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_hK2H8q4Y8NYv833v",
+   "note_path": "notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/geometrical-proof.json",
+   "note_title": "Geometrical Proof",
+   "sme_name": "Geometrical Proof",
+   "wrong_code": "4MA1-5.1G",
+   "wrong_code_wording": "apply vector methods for simple geometrical proofs",
+   "r4_reject_rows": 1,
+   "note_headings": [
+    "Geometrical proof",
+    "What is a geometrical proof?",
+    "How do I write a geometrical proof?",
+    "What geometric notation should I use?",
+    "How can I prove that the exterior angle of a triangle is equal to the sum of the interior angles at the other two vertices?",
+    "Method 1 - Using angles in a triangle",
+    "Method 2 - Using parallel lines",
+    "What are common geometric reasons I can use?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-4.1C",
+     "wording_store": "understand the exterior angle of a triangle property and the angle sum of a triangle property",
+     "wording_ledger": null,
+     "score": 0.2244,
+     "score_store": 0.2244,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.1B",
+     "wording_store": "use angle properties of intersecting lines, parallel lines and angles on a straight line",
+     "wording_ledger": null,
+     "score": 0.2052,
+     "score_store": 0.2052,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.7A",
+     "wording_store": "provide reasons, using standard geometrical statements, to support numerical values for angles obtained in any geometrical context involving lines, polygons and circles",
+     "wording_ledger": "give informal reasons, where required, when arriving at numerical solutions to geometrical problems",
+     "score": 0.1816,
+     "score_store": 0.1816,
+     "score_ledger": 0.1129,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_hrv7F8zpDwRXmcNg",
+   "note_path": "notes/3-sequences-functions-and-graphs/graphs-of-functions/types-of-graphs.json",
+   "note_title": "Types of Graphs",
+   "sme_name": "Types of Graphs",
+   "wrong_code": "4MA1-3.3I",
+   "wrong_code_wording": "recognise, generate points and plot graphs of linear and quadratic functions",
+   "r4_reject_rows": 2,
+   "note_headings": [
+    "Types of graphs",
+    "What types of graphs do I need to know?",
+    "Where are the asymptotes on reciprocal graphs?",
+    "What does the graph of a cubic look like?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-3.3H",
+     "wording_store": "recognise that equations of the form y = mx + care straight line graphs with gradientmand intercept on the y-axis at the point(0,c)",
+     "wording_ledger": null,
+     "score": 0.2108,
+     "score_store": 0.2108,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-3.4D",
+     "wording_store": "distinguish between maxima and minima by considering the general shape of the graph only",
+     "wording_ledger": null,
+     "score": 0.187,
+     "score_store": 0.187,
+     "score_ledger": null,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-1.8C",
+     "wording_store": "identify upper and lower bounds where values are given to a degree of accuracy",
+     "wording_ledger": null,
+     "score": 0.1825,
+     "score_store": 0.1825,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_mVXT4jbXQPrzhHvz",
+   "note_path": "notes/4-geometry-and-trigonometry/volume-and-surface-area/problem-solving-with-volumes.json",
+   "note_title": "Problem Solving with Volumes",
+   "sme_name": "Problem Solving with Volumes",
+   "wrong_code": "4MA1-4.11C",
+   "wrong_code_wording": "use areas and volumes of similar figures in solving problems",
+   "r4_reject_rows": 1,
+   "note_headings": [
+    "Problem-solving with volumes",
+    "What is problem-solving?",
+    "What are common problems that involve volume?",
+    "How do I solve problems involving volume?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-1.9A",
+     "wording_store": "solve problems involving standard form",
+     "wording_ledger": "calculate with and interpret numbers in the forma × 10 wherenis an integer and1 a < 10",
+     "score": 0.2567,
+     "score_store": 0.2567,
+     "score_ledger": 0.1085,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.11B",
+     "wording_store": "understand that volumes of similar figures are in the ratio of the cube of corresponding sides",
+     "wording_ledger": "use and interpret maps and scale drawings",
+     "score": 0.2464,
+     "score_store": 0.2464,
+     "score_ledger": 0.0432,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.8C",
+     "wording_store": "understand and use the sine and cosine rules for any triangle",
+     "wording_ledger": "apply trigonometrical methods to solve problems in two dimensions",
+     "score": 0.2132,
+     "score_store": 0.0702,
+     "score_ledger": 0.2132,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_pSX9GyS8bW7N5CH7",
+   "note_path": "notes/4-geometry-and-trigonometry/area-and-perimeter/area.json",
+   "note_title": "Area",
+   "sme_name": "Area Formulas",
+   "wrong_code": "4MA1-4.8E",
+   "wrong_code_wording": "understand and use the formula ab sin C for the area of a triangle",
+   "r4_reject_rows": 2,
+   "note_headings": [
+    "Area formulas",
+    "What is area?",
+    "How do I find the area of a shape on a square grid?",
+    "Which area formulas do I need to know?",
+    "How do I find the area of a rectangle?",
+    "How do I find the area of a triangle?",
+    "How do I find the area of a trapezium?",
+    "How do I find the area of a parallelogram?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-4.2C",
+     "wording_store": "understand and use the properties of the parallelogram, rectangle, square, rhombus, trapezium and kite",
+     "wording_ledger": null,
+     "score": 0.2218,
+     "score_store": 0.2218,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.8E",
+     "wording_store": "understand and use the formula ab sin C for the area of a triangle",
+     "wording_ledger": null,
+     "score": 0.2016,
+     "score_store": 0.2016,
+     "score_ledger": null,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.9C",
+     "wording_store": "find the area of simple shapes using the formulae for the areas of triangles and rectangles",
+     "wording_ledger": null,
+     "score": 0.1972,
+     "score_store": 0.1972,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "anchor_id": "spcpt_zrrC3yxSp579jY7k",
+   "note_path": "notes/3-sequences-functions-and-graphs/estimating-gradients/finding-gradients-of-tangents.json",
+   "note_title": "Finding Gradients of Tangents",
+   "sme_name": "Finding Gradients of Tangents",
+   "wrong_code": "4MA1-3.4C",
+   "wrong_code_wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs",
+   "r4_reject_rows": 1,
+   "note_headings": [
+    "Finding gradients of tangents",
+    "How are the gradients of graphs and tangents related?",
+    "How do I estimate the gradient of a curve using a tangent?",
+    "What does the gradient represent?"
+   ],
+   "top_candidates": [
+    {
+     "code": "4MA1-3.3E",
+     "wording_store": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1",
+     "wording_ledger": "determine the coordinates of the midpoint of a line segment, given the coordinates of the two end points",
+     "score": 0.1946,
+     "score_store": 0.1946,
+     "score_ledger": 0.1601,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-3.3D",
+     "wording_store": "find the gradients of non-linear graphs",
+     "wording_ledger": "determine the coordinates of points identified by geometrical information",
+     "score": 0.1926,
+     "score_store": 0.1926,
+     "score_ledger": 0.1268,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.6B",
+     "wording_store": "recognise the term ‘cyclic quadrilateral’",
+     "wording_ledger": "understand chord and tangent properties of circles",
+     "score": 0.1899,
+     "score_store": 0.0744,
+     "score_ledger": 0.1899,
+     "tier": "Higher"
+    }
+   ]
+  }
+ ],
+ "surface3_section_level": [
+  {
+   "note_path": "notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/types-of-number.json",
+   "chunk_ordinal": 9,
+   "heading": "What are square roots?",
+   "current_code": "4MA1-1.1G",
+   "fill_note": "the section teaches square roots (definition, symbol, positive/negative roots) — the Foundation wording of 1.4B per the C30 ledger ('calculate squares, square roots, cubes and cube roots'); 1.1G is the odd/even/prime/factors/multiples terminology; the note-level join stands via its terminology sections (the factors section CONFIRMed separately).",
+   "extension": false,
+   "top_candidates": [
+    {
+     "code": "4MA1-1.4B",
+     "wording_store": "manipulate surds, including rationalising a denominator",
+     "wording_ledger": "calculate squares, square roots, cubes and cube roots",
+     "score": 0.2148,
+     "score_store": 0.0788,
+     "score_ledger": 0.2148,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-1.1G",
+     "wording_store": "use the terms ‘odd’, ‘even’, ’prime numbers’, ‘factors’ and ‘multiples’",
+     "wording_ledger": null,
+     "score": 0.1719,
+     "score_store": 0.1719,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-2.3C",
+     "wording_store": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+     "wording_ledger": null,
+     "score": 0.1633,
+     "score_store": 0.1633,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/3-sequences-functions-and-graphs/differentiation/problem-solving-with-differentiation.json",
+   "chunk_ordinal": 3,
+   "heading": "How do I know if I have found a maximum value or a minimum value?",
+   "current_code": "4MA1-3.4E",
+   "fill_note": "the section teaches classifying turning points as max/min (substitute back; 'using a sketch to see if its a max or min') — the 3.4D surface ('distinguish between maxima and minima by considering the general shape of the graph only'); 3.4E is applying calculus to kinematics and practical problems; the note-level join stands via its practical-application sections (ords 1-2, 4).",
+   "extension": false,
+   "top_candidates": [
+    {
+     "code": "4MA1-3.4D",
+     "wording_store": "distinguish between maxima and minima by considering the general shape of the graph only",
+     "wording_ledger": null,
+     "score": 0.2776,
+     "score_store": 0.2776,
+     "score_ledger": null,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-3.4C",
+     "wording_store": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs",
+     "wording_ledger": null,
+     "score": 0.1827,
+     "score_store": 0.1827,
+     "score_ledger": null,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-3.3E",
+     "wording_store": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1",
+     "wording_ledger": "determine the coordinates of the midpoint of a line segment, given the coordinates of the two end points",
+     "score": 0.1415,
+     "score_store": 0.1415,
+     "score_ledger": 0.1168,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json",
+   "chunk_ordinal": 2,
+   "heading": "How do I draw a straight line using y = mx + c?",
+   "current_code": "4MA1-3.3F",
+   "fill_note": "the section teaches drawing USING the equation y = mx + c (generate a table from the equation, plot) — the 3.3H surface, the same artifact class the operator REATTRIBUTE'd for this note's ord-3 section at R1; 3.3F is gradient from two coordinates; the note-level join stands per the R1 record (see the ord-0 observation).",
+   "extension": false,
+   "top_candidates": [
+    {
+     "code": "4MA1-3.3F",
+     "wording_store": "calculate the gradient of a straight line given the coordinates of two points",
+     "wording_ledger": "draw and interpret straight line conversion graphs",
+     "score": 0.1755,
+     "score_store": 0.1755,
+     "score_ledger": 0.1158,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-3.3H",
+     "wording_store": "recognise that equations of the form y = mx + care straight line graphs with gradientmand intercept on the y-axis at the point(0,c)",
+     "wording_ledger": null,
+     "score": 0.1717,
+     "score_store": 0.1717,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-3.3G",
+     "wording_store": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
+     "wording_ledger": "find the gradient of a straight line",
+     "score": 0.1706,
+     "score_store": 0.1706,
+     "score_ledger": 0.096,
+     "tier": "Higher"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/4-geometry-and-trigonometry/standard-and-compound-units/unit-conversions.json",
+   "chunk_ordinal": 1,
+   "heading": "How do I convert units of lengths?",
+   "current_code": "4MA1-4.10F",
+   "fill_note": "the section teaches LENGTH conversion (cm/mm/m/km, powers of 10) — the Foundation wording of 4.9A per the C30 ledger ('convert measurements within the metric system to include linear and area units'); 4.10F is VOLUME conversion; the note-level join stands via its volume/capacity section (ord 3).",
+   "extension": false,
+   "top_candidates": [
+    {
+     "code": "4MA1-4.9A",
+     "wording_store": "find perimeters and areas of sectors of circles",
+     "wording_ledger": "convert measurements within the metric system to include linear and area units",
+     "score": 0.3265,
+     "score_store": 0.0936,
+     "score_ledger": 0.3265,
+     "tier": "Higher"
+    },
+    {
+     "code": "4MA1-4.10F",
+     "wording_store": "convert between units of volume within the metric system",
+     "wording_ledger": null,
+     "score": 0.207,
+     "score_store": 0.207,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-1.10B",
+     "wording_store": "carry out calculations using standard units of mass, length, area, volume and capacity",
+     "wording_ledger": null,
+     "score": 0.1878,
+     "score_store": 0.1878,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/4-geometry-and-trigonometry/area-and-perimeter/area.json",
+   "chunk_ordinal": 6,
+   "heading": "How do I find the area of a trapezium?",
+   "current_code": "4MA1-4.8E",
+   "fill_note": "EXTENSION row: heading-verbatim 4.9D surface (trapezia), recorded alongside the R4-verdicted ord-7 parallelogram sibling",
+   "extension": true,
+   "top_candidates": [
+    {
+     "code": "4MA1-4.9D",
+     "wording_store": "find the area of parallelograms and trapezia",
+     "wording_ledger": null,
+     "score": 0.2204,
+     "score_store": 0.2204,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.2C",
+     "wording_store": "understand and use the properties of the parallelogram, rectangle, square, rhombus, trapezium and kite",
+     "wording_ledger": null,
+     "score": 0.2064,
+     "score_store": 0.2064,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.9C",
+     "wording_store": "find the area of simple shapes using the formulae for the areas of triangles and rectangles",
+     "wording_ledger": null,
+     "score": 0.1942,
+     "score_store": 0.1942,
+     "score_ledger": null,
+     "tier": "Foundation"
+    }
+   ]
+  },
+  {
+   "note_path": "notes/1-numbers-and-the-number-system/fractions/basic-fractions.json",
+   "chunk_ordinal": 2,
+   "heading": "How do I find a fraction of an amount?",
+   "current_code": "4MA1-1.2I",
+   "fill_note": "EXTENSION row: heading-verbatim 1.2D surface (fraction of a given quantity), recorded under the R6 note-level repair",
+   "extension": true,
+   "top_candidates": [
+    {
+     "code": "4MA1-1.2D",
+     "wording_store": "order fractions and calculate a given fraction of a given quantity",
+     "wording_ledger": null,
+     "score": 0.3012,
+     "score_store": 0.3012,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-4.10C",
+     "wording_store": "find the surface area of simple shapes using the area formulae for triangles and rectangles",
+     "wording_ledger": null,
+     "score": 0.2053,
+     "score_store": 0.2053,
+     "score_ledger": null,
+     "tier": "Foundation"
+    },
+    {
+     "code": "4MA1-2.2D",
+     "wording_store": "complete the square for a given quadratic expression",
+     "wording_ledger": "take out common factors",
+     "score": 0.1982,
+     "score_store": 0.1982,
+     "score_ledger": 0.0578,
+     "tier": "Higher"
+    }
+   ]
+  }
+ ],
+ "residual": {
+  "anchor_id": "spcpt_QWXhzVp2S3VYZdZc",
+  "disposition": "KEPT UNRESOLVED — continuity from the R1 adjudication; the PDF-verified reason stands; no new scoring"
+ }
+}

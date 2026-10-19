@@ -1,0 +1,173 @@
+{
+  "schema": "c42-r5-apply-record/1.0",
+  "task": "T-C42",
+  "stage": "r5-s18-substrate-apply",
+  "generated_utc": "2026-10-04T03:33:15+00:00",
+  "baseline": "0ce8610afeb73654dde797e206b3e4bd1656a63d",
+  "operator_directive": "Fire r5 — 2026-10-04, discord (gateway trace ea5e3ae2488d59498dcc801859715415)",
+  "gate": "C42 rework scope §4 R5 / §7 gate 3 — the §18 substrate apply (SUGGESTED -> HUMAN_VALIDATED, exact row identities, structural-diff zero on the non-validation delta, two-way audit)",
+  "gate2_evidence": {
+    "fill_record": "graph/reports/C42_R21_MATHS_A_REGATE_FILL_RECORD.md",
+    "fill_record_sha256_16": "aca00bb826c80407",
+    "regate_check": "graph/reports/C42_R21_REGATE_CHECK.json",
+    "regate_check_baseline": "9fae6defcb2afe02ea1377531a77dd5c2a463787",
+    "regate_check_head": "b17e37123de319c7d63f1722d613bc6063c3ecb8",
+    "verdicts": "scripts/c42_r21_review_verdicts.yaml",
+    "gate_outcome": "PASS (Part A 457/3/4, exact 92.5% / partial 100% / none 100% >= 90%; Part B 82/82 DEFER; mechanical 464/464)"
+  },
+  "promotion_record": {
+    "path": "scripts/c42_r5_promotions.yaml",
+    "sha256_16": "9bad739bd79e5899",
+    "tool": "scripts/c42_r5_promote.py",
+    "entries": 832,
+    "sampled_confirm": 457,
+    "gate_passed_unsampled": 375
+  },
+  "tool": "scripts/c42_r5_promotion_apply.py@1.0.0",
+  "round": {
+    "surface": "the R21-authorized anchored surface of the maths-a chunk substrate",
+    "store_rows": 921,
+    "anchored": 839,
+    "promoted": 832,
+    "reject_stay_suggested": [
+      "5fd48f084383be11",
+      "a8d23b11c343a3bd",
+      "eb26022693be3948"
+    ],
+    "hold_stay_suggested": [
+      "1dfc65df88b35d69",
+      "2d44bcf00f589c18",
+      "56905a113334dcd1",
+      "91a5080f8b390de6"
+    ],
+    "worklist_stay_suggested": 82,
+    "store_sha256_16_pre": "e2604d6fda06bef7",
+    "store_sha256_16_post": "1cbb9c87fc1be7bf"
+  },
+  "reproduction_proof": "c40 substrate tool re-run twice (G7 deterministic) and BYTE-IDENTICAL to the input store (header + canonical dump)",
+  "reverification": {
+    "rows_checked": 832,
+    "checks": "quote-in-chunk under the shared norm(), chunk sha256_16/heading/chars vs a fresh re-chunking, spec_code inside the ratified 188",
+    "result": "832/832 PASS"
+  },
+  "structural_diff": {
+    "rows": 921,
+    "rows_changed": 832,
+    "changed_fields": [
+      "validation_status",
+      "promotion (added block)"
+    ],
+    "unpromoted_rows_mutated": 0,
+    "meta_delta": [
+      "apply_record",
+      "promoted_rows",
+      "promotion_applied",
+      "promotion_apply",
+      "promotion_directive",
+      "promotion_gate",
+      "promotion_record",
+      "promotion_reverification"
+    ],
+    "header_delta": "status line re-dated (line 3), lines 1-2 verbatim"
+  },
+  "anti_forgery": {
+    "validated_by": "operator (the c11/C41 precedent; AI-name patterns fail closed in promote and apply)",
+    "non_validation_delta": "asserted zero (structural diff over all 921 rows)",
+    "provenance_tiers_untouched": true,
+    "worklist_never_promoted": true,
+    "reject_hold_never_promoted": true
+  },
+  "reject_inventory_returns_to_operator": [
+    {
+      "verdict": "REJECT",
+      "source": "r21-fresh",
+      "root": "recorded in note",
+      "note": "REJECT — adjacent-surface scope difference WITH a canonical target, the R17 fdp class in this note: the section's worked instance is a LINEAR + NON-LINEAR pair — plot y = x^2 + 3x + 1 and y = 2x + 1 on the same axes, they meet twice, coordinates (-1, -1) and (0, 1) — which is 3.3E's Higher demand VERBATIM ('find the intersection points of two graphs, one linear (y) and one non-linear (y), and recognise that the solutions correspond'), while the joined code 2.6B's demand is 'interpret the equations AS LINES and the common solution as the point of intersection' and the section's only example is not a pair of lines; not a tier artifact (2.6B and 3.3E are both absent from the C30 ledger — Higher-only — and 3.3E is a distinct ratified row, not a tier variant); the note-level join to 2.6B STANDS via the note's lines-based sections (ord 0 CONFIRMed at R13, ord 3 at R9, and ord 2 — sampled fresh this round — is the two-lines surface verbatim), so the reject is recorded with 3.3E as the canonical target for the operator's next repair round — recorded, never forced Both tier wordings consulted (STORE_HIGHER).",
+      "spec_code": "4MA1-2.6B",
+      "note_path": "notes/3-sequences-functions-and-graphs/graphs-of-functions/graphical-solutions.json",
+      "chunk_ordinal": 1,
+      "heading": "How do I find the coordinates of points of intersection?"
+    },
+    {
+      "verdict": "REJECT",
+      "source": "r21-fresh",
+      "root": "recorded in note",
+      "note": "REJECT — adjacent-surface scope difference WITH a canonical target, the R9/R10/R17 inverse-direction class in this note: the section teaches finding the ANGLE BETWEEN A LINE AND A PLANE (identify the plane, draw the line, form a right-angled triangle whose height is perpendicular to the plane, use SOHCAHTOA) — 4.8F's Higher demand 'apply trigonometrical methods to solve problems in three dimensions, including finding the angle between a line and a plane' VERBATIM (the including-clause names this exact task) — while the joined code 4.8D's demand is 'use Pythagoras' theorem in three dimensions' and the section teaches NO Pythagoras (no a^2 + b^2 = c^2 anywhere; the method is trigonometric end to end); not a tier artifact (4.8D is absent from the C30 ledger — Higher-only — and 4.8F is a distinct Higher-only row in the ratified 188, not a tier variant); the note-level join to 4.8D STANDS via the note's Pythagoras sections (ord 0 CONFIRMed at R4, ord 1 at R13 and R17, ord 5 at R13), so the honest disposition is a recorded reject with 4.8F as the canonical target for the operator's next repair round — never rationalized into the Pythagoras code Both tier wordings consulted (STORE_HIGHER).",
+      "spec_code": "4MA1-4.8D",
+      "note_path": "notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json",
+      "chunk_ordinal": 4,
+      "heading": "How do I find the angle between a line and a plane?"
+    },
+    {
+      "verdict": "REJECT",
+      "source": "r21-fresh",
+      "root": "recorded in note",
+      "note": "REJECT — limit-scope difference WITH a canonical target: the section teaches the difference of two squares made HARDER — squared variables 4m^2 - 9n^2, OTHER POWERS r^8 - t^6, repeated DOTS to fully factorise a^4 - b^4, common factor first 2x^2 - 18 — and r^8 - t^6 / a^4 - b^4 are NOT quadratic expressions, while 2.2F's demand is explicitly capped '(limited to x^2 + bx + c)'; the un-limited canonical surface EXISTS — 2.2B, whose C30 ledger Higher-operative wording is 'understand the concept of a quadratic expression and be able to factorise such expressions' without the cap — and the section teaches 2.2B's Higher surface, not 2.2F's; not a tier artifact (2.2F is absent from the ledger — Higher-only — and 2.2B is a distinct shared-tier row whose Higher wording carries the un-limited demand, not a tier variant of 2.2F); the note-level join to 2.2F STANDS via the note's within-limit basic DOTS sections (ord 1 'What is the difference of two squares?' CONFIRMed at R9 and R17), so the reject is recorded with 2.2B as the canonical target for the operator's next repair round — recorded, never forced Both tier wordings consulted (STORE_HIGHER).",
+      "spec_code": "4MA1-2.2F",
+      "note_path": "notes/2-equations-formulae-and-identities/factorising/difference-of-two-squares.json",
+      "chunk_ordinal": 3,
+      "heading": "How can the difference of two squares be made harder?"
+    }
+  ],
+  "hold_inventory_h3_fail_closed": [
+    {
+      "verdict": "HOLD",
+      "source": "heading-only-convention",
+      "convention_branch": "H3 (fail-closed HOLD)",
+      "note": "c42-heading-only-convention-1 branch H3 (fail-closed): the chunk is a heading-only structural slice with no operator verdict on its anchor and no content-row CONFIRM of 4MA1-1.7B at R4/R9/R13/R17 — the row stays HOLD, explicit and recorded; it un-holds automatically when H1/H2 becomes true. Not auto-promoted at R5 without the operator's explicit per-row sign-off.",
+      "spec_code": "4MA1-1.7B",
+      "note_path": "notes/1-numbers-and-the-number-system/ratio-problem-solving/multiple-ratios.json",
+      "chunk_ordinal": 0,
+      "heading": "Multiple ratios"
+    },
+    {
+      "verdict": "HOLD",
+      "source": "heading-only-convention",
+      "convention_branch": "H3 (fail-closed HOLD)",
+      "note": "c42-heading-only-convention-1 branch H3 (fail-closed): the chunk is a heading-only structural slice with no operator verdict on its anchor and no content-row CONFIRM of 4MA1-6.3J at R4/R9/R13/R17 — the row stays HOLD, explicit and recorded; it un-holds automatically when H1/H2 becomes true. Not auto-promoted at R5 without the operator's explicit per-row sign-off.",
+      "spec_code": "4MA1-6.3J",
+      "note_path": "notes/6-statistics-and-probability/probability-toolkit/relative-and-expected-frequency.json",
+      "chunk_ordinal": 4,
+      "heading": "Expected frequency"
+    },
+    {
+      "verdict": "HOLD",
+      "source": "heading-only-convention",
+      "convention_branch": "H3 (fail-closed HOLD)",
+      "note": "c42-heading-only-convention-1 branch H3 (fail-closed): the chunk is a heading-only structural slice with no operator verdict on its anchor and no content-row CONFIRM of 4MA1-2.2C at R4/R9/R13/R17 — the row stays HOLD, explicit and recorded; it un-holds automatically when H1/H2 becomes true. Not auto-promoted at R5 without the operator's explicit per-row sign-off.",
+      "spec_code": "4MA1-2.2C",
+      "note_path": "notes/2-equations-formulae-and-identities/expanding-brackets/expanding-single-brackets.json",
+      "chunk_ordinal": 0,
+      "heading": "Expanding one bracket"
+    },
+    {
+      "verdict": "HOLD",
+      "source": "heading-only-convention",
+      "convention_branch": "H3 (fail-closed HOLD)",
+      "note": "c42-heading-only-convention-1 branch H3 (fail-closed): the chunk is a heading-only structural slice with no operator verdict on its anchor and no content-row CONFIRM of 4MA1-3.3F at R4/R9/R13/R17 — the row stays HOLD, explicit and recorded; it un-holds automatically when H1/H2 becomes true. Not auto-promoted at R5 without the operator's explicit per-row sign-off.",
+      "spec_code": "4MA1-3.3F",
+      "note_path": "notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json",
+      "chunk_ordinal": 0,
+      "heading": "Drawing linear graphs"
+    }
+  ],
+  "post_check": "scripts/c42_r5_promotion_check.py",
+  "not_done": [
+    "no REJECT-row promotion (3 stay SUGGESTED — the fresh defect inventory returns to the operator, scope §7)",
+    "no HOLD-row promotion (4 H3 fail-closed rows ride only with explicit per-row operator sign-off, none given with the directive)",
+    "no worklist promotion (23 unresolved-span incl. the loop's 3 DEMOVEs + 59 uncovered-SP stay SUGGESTED, recorded never forced)",
+    "no provenance-tier or code-attribution change",
+    "no Lane C / chemistry / resolution / corpus writes"
+  ],
+  "store_pins_post": {
+    "assessment_objectives.yaml": "8579017a208035a7",
+    "command_words.yaml": "610a29ded0017922",
+    "concept_edges.yaml": "3cd7470a1c2307e8",
+    "concepts.yaml": "f4c02fd7d023090d",
+    "practicals.yaml": "57bc13d247e16966",
+    "spec_chunk_mappings.yaml": "1cbb9c87fc1be7bf",
+    "spec_command_kinds.yaml": "d3af40ffa36a7db5",
+    "specification_points.yaml": "33d3e5313d37464a",
+    "topics.yaml": "9febc0f296343329"
+  }
+}

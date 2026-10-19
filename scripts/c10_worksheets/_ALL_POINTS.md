@@ -1,0 +1,184 @@
+# Full 4CH1 spec-point registry (182) — cross-reference for mapping
+
+- **4CH1-1.1** (1.1) (4CH1-S1-a): understand the three states of matter in terms of the arrangement, movement and energy of the particles
+- **4CH1-1.2** (1.2) (4CH1-S1-a): understand the interconversions between the three states of matter in terms of: • the names of the interconversions • how they are achieved • the changes in arrangement, movement and energy of the particles.
+- **4CH1-1.3** (1.3) (4CH1-S1-a): understand how the results of experiments involving the dilution of coloured solutions and diffusion of gases can be explained
+- **4CH1-1.4** (1.4) (4CH1-S1-a): know what is meant by the terms: • solvent • solute • solution • saturated solution.
+- **4CH1-1.5C** (1.5C) [C] (4CH1-S1-a): know what is meant by the term solubility in the units g per 100 g of solvent
+- **4CH1-1.6C** (1.6C) [C] (4CH1-S1-a): understand how to plot and interpret solubility curves
+- **4CH1-1.7C** (1.7C) [C,PRACTICAL] (4CH1-S1-a): practical: investigate the solubility of a solid in water at a specific temperature
+- **4CH1-1.8** (1.8) (4CH1-S1-b): understand how to classify a substance as an element,compound or mixture
+- **4CH1-1.9** (1.9) (4CH1-S1-b): understand that a pure substance has a fixed melting and boiling point,but that a mixture may melt or boil over a range of temperatures
+- **4CH1-1.10** (1.10) (4CH1-S1-b): describe these experimental techniques for the separation of mixtures: 简单 distillation fractional distillation filtration crystallisation paper chromatography.
+- **4CH1-1.11** (1.11) (4CH1-S1-b): understand how a chromatogram provides information about the composition of a mixture
+- **4CH1-1.12** (1.12) (4CH1-S1-b): understand how to use the calculation of $ R_{f} $ values to identify the components of a mixture
+- **4CH1-1.13** (1.13) [PRACTICAL] (4CH1-S1-b): practical: investigate paper chromatography using inks/food colourings
+- **4CH1-1.14** (1.14) (4CH1-S1-c): know what is meant by the terms atom and molecule
+- **4CH1-1.15** (1.15) (4CH1-S1-c): know the structure of an atom in terms of the positions, relative masses and relative charges of sub-atomic particles
+- **4CH1-1.16** (1.16) (4CH1-S1-c): know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass $ A_{r} $
+- **4CH1-1.17** (1.17) (4CH1-S1-c): be able to calculate the relative atomic mass of an element $ A_{r} $ from isotopic abundances
+- **4CH1-1.18** (1.18) (4CH1-S1-d): understand how elements are arranged in the Periodic Table： •in order of atomic number •in groups and periods.
+- **4CH1-1.19** (1.19) (4CH1-S1-d): understand how to deduce the electronic configurations of the first 20 elements from their positions in the Periodic Table
+- **4CH1-1.20** (1.20) (4CH1-S1-d): understand how to use electrical conductivity and the acid-base character of oxides to classify elements as metals or non-metals
+- **4CH1-1.21** (1.21) (4CH1-S1-d): identify an element as a metal or a non-metal according to its position in the Periodic Table
+- **4CH1-1.22** (1.22) (4CH1-S1-d): understand how the electronic configuration of a main group element is related to its position in the Periodic Table
+- **4CH1-1.23** (1.23) (4CH1-S1-d): understand why elements in the same group of the Periodic Table have similar chemical properties
+- **4CH1-1.24** (1.24) (4CH1-S1-d): understand why the noble gases(Group0)do not readily react
+- **4CH1-1.25** (1.25) (4CH1-S1-e): write word equations and balanced chemical equations(including state symbols):for reactions studied in this specificationfor unfamiliar reactions where suitable information is provided.
+- **4CH1-1.26** (1.26) (4CH1-S1-e): calculate relative formula masses(including relative molecular masses) $ (M_{r}) $ from relative atomic masses $ (A_{r}) $
+- **4CH1-1.27** (1.27) (4CH1-S1-e): know that the mole(mol) is the unit for the amount of a substance
+- **4CH1-1.28** (1.28) (4CH1-S1-e): understand how to carry out calculations involving amount of substance, relative atomic mass $ (A_{r}) $ and relative formula mass $ (M_{r}) $
+- **4CH1-1.29** (1.29) (4CH1-S1-e): calculate reacting masses using experimental data and chemical equations
+- **4CH1-1.30** (1.30) (4CH1-S1-e): calculate percentage yield
+- **4CH1-1.31** (1.31) (4CH1-S1-e): understand how the formulae of simple compounds can be obtained experimentally, including metal oxides, water and salts containing water of crystallisation
+- **4CH1-1.32** (1.32) (4CH1-S1-e): know what is meant by the terms empirical formula and molecular formula
+- **4CH1-1.33** (1.33) (4CH1-S1-e): calculate empirical and molecular formulae from experimental data
+- **4CH1-1.34C** (1.34C) [C] (4CH1-S1-e): understand how to carry out calculations involving amount of substance, volume and concentration(in mol/dm3)of solution
+- **4CH1-1.35C** (1.35C) [C] (4CH1-S1-e): understand how to carry out calculations involving gas volumes and the molar volume of a gas(24dm3and24000cm3at room temperature and pressure(rtp))
+- **4CH1-1.36** (1.36) [PRACTICAL] (4CH1-S1-e): practical:know how to determine the formula of a metal oxide by combustion(e.g.magnesium oxide)or by reduction(e.g.copper(II)oxide)
+- **4CH1-1.37** (1.37) (4CH1-S1-f): understand how ions are formed by electron loss or gain
+- **4CH1-1.38** (1.38) (4CH1-S1-f): know the charges of these ions: •metals in Groups 1,2 and 3 •non-metals in Groups 5,6 and 7 •Ag+，Cu2+，Fe2+，Fe3+，Pb2+，Zn2+ •hydrogen（H+），hydroxide（OH-），ammonium（NH4+），carbonate（CO32-），nitrate（NO3-），sulfate（SO42-）
+- **4CH1-1.39** (1.39) (4CH1-S1-f): write formulae for compounds formed between the ions listed above
+- **4CH1-1.40** (1.40) (4CH1-S1-f): draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer，limited to combinations of elements from Groups1，2，3和5，6，7only outer electrons need be shown
+- **4CH1-1.41** (1.41) (4CH1-S1-f): understand ionic bonding in terms of electrostatic attractions
+- **4CH1-1.42** (1.42) (4CH1-S1-f): understand why compounds with giant ionic lattices have high melting and boiling points
+- **4CH1-1.43** (1.43) (4CH1-S1-f): know that ionic compounds do not conduct electricity when solid，but do conduct electricity when molten and in aqueous solution
+- **4CH1-1.44** (1.44) (4CH1-S1-g): know that a covalent bond is formed between atoms by the sharing of a pair of electrons
+- **4CH1-1.45** (1.45) (4CH1-S1-g): understand covalent bonds in terms of electrostatic attractions
+- **4CH1-1.46** (1.46) (4CH1-S1-g): understand how to use dot-and-cross diagrams to represent covalent bonds in: • diatomic molecules, including hydrogen, oxygen, nitrogen, halogens and hydrogen halides • inorganic molecules including water, ammonia and carbon dioxide • organic molecules containing up to two carbon atoms, including methane, ethane, ethene and those containing halogen atoms.
+- **4CH1-1.47** (1.47) (4CH1-S1-g): explain why substances with a simple molecular structures are gases or liquids, or solids with low melting and boiling points the term intermolecular forces of attraction can be used to represent all forces between molecules
+- **4CH1-1.48** (1.48) (4CH1-S1-g): explain why the melting and boiling points of substances with simple molecular structures increase, in general, with increasing relative molecular mass
+- **4CH1-1.49** (1.49) (4CH1-S1-g): explain why substances with giant covalent structures are solids with high melting and boiling points
+- **4CH1-1.50** (1.50) (4CH1-S1-g): explain how the structures of diamond, graphite and C60 fullerene influence their physical properties, including electrical conductivity and hardness
+- **4CH1-1.51** (1.51) (4CH1-S1-g): know that covalent compounds do not usually conduct electricity
+- **4CH1-1.52C** (1.52C) [C] (4CH1-S1-h): know how to represent a metallic lattice by a 2-D diagram
+- **4CH1-1.53C** (1.53C) [C] (4CH1-S1-h): understand metallic bonding in terms of electrostatic attractions
+- **4CH1-1.54C** (1.54C) [C] (4CH1-S1-h): explain typical physical properties of metals, including electrical conductivity and malleability
+- **4CH1-1.55C** (1.55C) [C] (4CH1-S1-i): understand why covalent compounds do not conduct electricity
+- **4CH1-1.56C** (1.56C) [C] (4CH1-S1-i): understand why ionic compounds conduct electricity only when molten or in aqueous solution
+- **4CH1-1.57C** (1.57C) [C] (4CH1-S1-i): know that anion and cation are terms used to refer to negative and positive ions respectively
+- **4CH1-1.58C** (1.58C) [C] (4CH1-S1-i): describe experiments to investigate electrolysis, using inert electrodes, of molten compounds (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric acid and copper(II) sulfate) and to predict the products
+- **4CH1-1.59C** (1.59C) [C] (4CH1-S1-i): write ionic half-equations representing the reactions at the electrodes during electrolysis and understand why these reactions are classified as oxidation or reduction
+- **4CH1-1.60C** (1.60C) [C,PRACTICAL] (4CH1-S1-i): practical: investigate the electrolysis of aqueous solutions
+- **4CH1-2.1** (2.1) (4CH1-S2-a): understand how the similarities in the reactions of these elements with water provide evidence for their recognition as a family of elements
+- **4CH1-2.2** (2.2) (4CH1-S2-a): understand how the differences between the reactions of these elements with air and water provide evidence for the trend in reactivity in Group1
+- **4CH1-2.3** (2.3) (4CH1-S2-a): use knowledge of trends in Group1 to predict the properties of other alkali metals
+- **4CH1-2.4C** (2.4C) [C] (4CH1-S2-a): explain the trend in reactivity in Group1 in terms of electronic configurations
+- **4CH1-2.5** (2.5) (4CH1-S2-b): know the colours,physical states(at room temperature)and trends in physical properties of these elements
+- **4CH1-2.6** (2.6) (4CH1-S2-b): use knowledge of trends in Group 7 to predict the properties of other halogens
+- **4CH1-2.7** (2.7) (4CH1-S2-b): understand how displacement reactions involving halogens and halides provide evidence for the trend in reactivity in Group 7
+- **4CH1-2.8C** (2.8C) [C] (4CH1-S2-b): explain the trend in reactivity in Group 7in terms of electronic configurations
+- **4CH1-2.9** (2.9) (4CH1-S2-c): know the approximate percentages by volume of the four most abundant gases in dry air
+- **4CH1-2.10** (2.10) (4CH1-S2-c): understand how to determine the percentage by volume of oxygen in air using experiments involving the reactions of metals(e.g. iron)and non-metals(e.g. phosphorus)with air
+- **4CH1-2.11** (2.11) (4CH1-S2-c): describe the combustion of elements in oxygen,including magnesium,hydrogen and sulfur
+- **4CH1-2.12** (2.12) (4CH1-S2-c): describe the formation of carbon dioxide from the thermal decomposition of metal carbonates,including copper(II) carbonate
+- **4CH1-2.13** (2.13) (4CH1-S2-c): know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change
+- **4CH1-2.14** (2.14) [PRACTICAL] (4CH1-S2-c): practical:determine the approximate percentage by volume of oxygen in air using a metal or a non-metal
+- **4CH1-2.15** (2.15) (4CH1-S2-d): understand how metals can be arranged in a reactivity series based on their reactions with: •water •dilute hydrochloric or sulfuric acid.
+- **4CH1-2.16** (2.16) (4CH1-S2-d): understand how metals can be arranged in a reactivity series based on their displacement reactions between: •metals and metal oxides •metals and aqueous solutions of metal salts.
+- **4CH1-2.17** (2.17) (4CH1-S2-d): know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium, aluminium, zinc, iron, copper, silver, gold
+- **4CH1-2.18** (2.18) (4CH1-S2-d): know the conditions under which iron rusts
+- **4CH1-2.19** (2.19) (4CH1-S2-d): understand how the rusting of iron may be prevented by: •barrier methods •galvanising •sacrificial protection.
+- **4CH1-2.20** (2.20) (4CH1-S2-d): understand the terms: •oxidation •reduction •redox •oxidising agent •reducing agent in terms of gain or loss of oxygen and loss or gain of electrons.
+- **4CH1-2.21** (2.21) [PRACTICAL] (4CH1-S2-d): practical: investigate reactions between dilute hydrochloric and sulfuric acids and metals(e.g. magnesium, zinc and iron)
+- **4CH1-2.22C** (2.22C) [C] (4CH1-S2-e): know that most metals are extracted from ores found in the Earth's crust and that unreactive metals are often found as the uncombined element
+- **4CH1-2.23C** (2.23C) [C] (4CH1-S2-e): explain how the method of extraction of a metal is related to its position in the reactivity series, illustrated by carbon extraction for iron and electrolysis for aluminium
+- **4CH1-2.24C** (2.24C) [C] (4CH1-S2-e): be able to comment on a metal extraction process, given appropriate information detailed knowledge of the processes used in the extraction of a specific metal is not required
+- **4CH1-2.25C** (2.25C) [C] (4CH1-S2-e): explain the uses of aluminium, copper, iron and steel in terms of their properties the types of steel will be limited to low-carbon (mild), high-carbon and stainless
+- **4CH1-2.26C** (2.26C) [C] (4CH1-S2-e): know that an alloy is a mixture of a metal and one or more elements, usually other metals or carbon
+- **4CH1-2.27C** (2.27C) [C] (4CH1-S2-e): explain why alloys are harder than pure metals
+- **4CH1-2.28** (2.28) (4CH1-S2-f): describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic and alkaline solutions
+- **4CH1-2.29** (2.29) (4CH1-S2-f): understand how to use the pH scale, from 0-14, can be used to classify solutions as strongly acidic(0-3), weakly acidic(4-6), neutral(7), weakly alkaline(8-10)和 strongly alkaline(11-14)
+- **4CH1-2.30** (2.30) (4CH1-S2-f): describe the use of universal indicator to measure the approximate pH value of an aqueous solution
+- **4CH1-2.31** (2.31) (4CH1-S2-f): know that acids in aqueous solution are a source of hydrogen ions and alkalis in aqueous solution are a source of hydroxide ions
+- **4CH1-2.32** (2.32) (4CH1-S2-f): know that alkalis can neutralise acids
+- **4CH1-2.33C** (2.33C) [C] (4CH1-S2-f): describe how to carry out an acid-alkali titration
+- **4CH1-2.34** (2.34) (4CH1-S2-g): know the general rules for predicting the solubility of ionic compounds in water: • common sodium, potassium and ammonium compounds are soluble • all nitrates are soluble • common chlorides are soluble, except those of silver and lead(II) • common sulfates are soluble, except for those of barium, calcium and lead(II) • common carbonates are insoluble, except for those of sodium, potassium and ammonium • common hydroxides are insoluble except for those of sodium, potassium and calcium(calcium hydroxide is slightly soluble).
+- **4CH1-2.35** (2.35) (4CH1-S2-g): understand acids and bases in terms of proton transfer
+- **4CH1-2.36** (2.36) (4CH1-S2-g): understand that an acid is a proton donor and a base is a proton acceptor
+- **4CH1-2.37** (2.37) (4CH1-S2-g): describe the reactions of hydrochloric acid, sulfuric acid and nitric acid with metals, bases and metal carbonates(excluding the reactions between nitric acid and metals) to form salts
+- **4CH1-2.38** (2.38) (4CH1-S2-g): know that metal oxides, metal hydroxides and ammonia can act as bases,and that alkalis are bases that are soluble in water
+- **4CH1-2.39** (2.39) (4CH1-S2-g): describe an experiment to prepare a pure,dry sample of a soluble salt,starting from an insoluble reactant
+- **4CH1-2.40C** (2.40C) [C] (4CH1-S2-g): describe an experiment to prepare a pure,dry sample of a soluble salt,starting from an acid and alkali
+- **4CH1-2.41C** (2.41C) [C] (4CH1-S2-g): describe an experiment to prepare a pure,dry sample of an insoluble salt,starting from two soluble reactants
+- **4CH1-2.42** (2.42) [PRACTICAL] (4CH1-S2-g): practical:prepare a sample of pure,dry hydrated copper(II)sulfate crystals starting from copper(II)oxide
+- **4CH1-2.43C** (2.43C) [C,PRACTICAL] (4CH1-S2-g): practical:prepare a sample of pure,dry lead(II)sulfate
+- **4CH1-2.44** (2.44) (4CH1-S2-h): describe tests for these gases: · hydrogen · oxygen · carbon dioxide · ammonia · chlorine.
+- **4CH1-2.45** (2.45) (4CH1-S2-h): describe how to carry out a flame test
+- **4CH1-2.46** (2.46) (4CH1-S2-h): know the colours formed in flame tests for these cations: · Li$^{+}$ is red · Na$^{+}$ is yellow · K$^{+}$ is lilac · Ca$^{2+}$ is orange-red · Cu$^{2+}$ is blue-green.
+- **4CH1-2.47** (2.47) (4CH1-S2-h): describe tests for these cations: · NH$_{4}^{+}$ using sodium hydroxide solution and identifying the gas evolved · Cu$^{2+}$, Fe$^{2+}$ and Fe$^{3+}$ using sodium hydroxide solution.
+- **4CH1-2.48** (2.48) (4CH1-S2-h): describe tests for these anions: · Cl$^{-}$, Br$^{-}$ and I$^{-}$ using acidified silver nitrate solution · SO$_{4}^{2-}$ using acidified barium chloride solution · CO$_{3}^{2-}$ using hydrochloric acid and identifying the gas evolved.
+- **4CH1-2.49** (2.49) (4CH1-S2-h): describe a test for the presence of water using anhydrous copper(II) sulfate
+- **4CH1-2.50** (2.50) (4CH1-S2-h): describe a physical test to show whether a sample of water is pure
+- **4CH1-3.1** (3.1) (4CH1-S3-a): know that chemical reactions in which heat energy is given out are described as exothermic, and those in which heat energy is taken in are described as endothermic
+- **4CH1-3.2** (3.2) (4CH1-S3-a): describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation
+- **4CH1-3.3** (3.3) (4CH1-S3-a): calculate the heat energy change from a measured temperature change using the expression $ Q=mc\Delta T $
+- **4CH1-3.4** (3.4) (4CH1-S3-a): calculate the molar enthalpy change ($\Delta H$) from the heat energy change, $ Q $
+- **4CH1-3.5C** (3.5C) [C] (4CH1-S3-a): draw and explain energy level diagrams to represent exothermic and endothermic reactions
+- **4CH1-3.6C** (3.6C) [C] (4CH1-S3-a): know that bond-breaking is an endothermic process and that bond-making is an exothermic process
+- **4CH1-3.7C** (3.7C) [C] (4CH1-S3-a): use bond energies to calculate the enthalpy change during a chemical reaction
+- **4CH1-3.8** (3.8) [PRACTICAL] (4CH1-S3-a): practical: investigate temperature changes accompanying some of the following types of change: • salts dissolving in water • neutralisation reactions • displacement reactions • combustion reactions.
+- **4CH1-3.9** (3.9) (4CH1-S3-b): describe experiments to investigate the effects of changes in surface area of a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction
+- **4CH1-3.10** (3.10) (4CH1-S3-b): describe the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas, temperature and the use of a catalyst on the rate of a reaction
+- **4CH1-3.11** (3.11) (4CH1-S3-b): explain the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory
+- **4CH1-3.12** (3.12) (4CH1-S3-b): know that a catalyst is a substance that increases the rate of a reaction, but is chemically unchanged at the end of the reaction
+- **4CH1-3.13** (3.13) (4CH1-S3-b): know that a catalyst works by providing an alternative pathway with lower activation energy
+- **4CH1-3.14C** (3.14C) [C] (4CH1-S3-b): draw and explain reaction profile diagrams showing $\Delta H$ and activation energy
+- **4CH1-3.15** (3.15) [PRACTICAL] (4CH1-S3-b): practical: investigate the effect of changing the surface area of marble chips and of changing the concentration of hydrochloric acid on the rate of reaction between marble chips and dilute hydrochloric acid
+- **4CH1-3.16** (3.16) [PRACTICAL] (4CH1-S3-b): practical: investigate the effect of different solids on the catalytic decomposition of hydrogen peroxide solution
+- **4CH1-3.17** (3.17) (4CH1-S3-c): know that some reactions are reversible and this is indicated by the symbol $\rightleftharpoons$ in equations
+- **4CH1-3.18** (3.18) (4CH1-S3-c): describe reversible reactions such as the dehydration of hydrated copper(II) sulfate and the effect of heat on ammonium chloride
+- **4CH1-3.19C** (3.19C) [C] (4CH1-S3-c): know that a reversible reaction can reach dynamic equilibrium in a sealed container
+- **4CH1-3.20C** (3.20C) [C] (4CH1-S3-c): know that the characteristics of a reaction at dynamic equilibrium are: • the forward and reverse reactions occur at the same rate • the concentrations of reactants and products remain constant.
+- **4CH1-3.21C** (3.21C) [C] (4CH1-S3-c): understand why a catalyst does not affect the position of equilibrium in a reversible reaction
+- **4CH1-3.22C** (3.22C) [C] (4CH1-S3-c): know the effect of changing either temperature or pressure on the position of equilibrium in a reversible reaction: • an increase (or decrease) in temperature shifts the position of equilibrium in the direction of the endothermic (or exothermic) reaction • an increase (or decrease) in pressure shifts the position of equilibrium in the direction that produces fewer (or more) moles of gas References to Le Chatelier's principle are not required
+- **4CH1-4.1** (4.1) (4CH1-S4-a): know that a hydrocarbon is a compound of hydrogen and carbon only
+- **4CH1-4.2** (4.2) (4CH1-S4-a): understand how to represent organic molecules using empirical formulae, molecular formulae, general formulae, structural formulae and displayed formulae
+- **4CH1-4.3** (4.3) (4CH1-S4-a): know what is meant by the terms homologous series, functional group and isomerism
+- **4CH1-4.4** (4.4) (4CH1-S4-a): understand how to name compounds relevant to this specification using the rules of International Union of Pure and Applied Chemistry (IUPAC) nomenclature students will be expected to name compounds containing up to six carbon atoms
+- **4CH1-4.5** (4.5) (4CH1-S4-a): understand how to write the possible structural and displayed formulae of an organic molecule given its molecular formula
+- **4CH1-4.6** (4.6) (4CH1-S4-a): understand how to classify reactions of organic compounds as substitution, addition and combustion knowledge of reaction mechanisms is not required
+- **4CH1-4.7** (4.7) (4CH1-S4-b): know that crude oil is a mixture of hydrocarbons
+- **4CH1-4.8** (4.8) (4CH1-S4-b): describe how the industrial process of fractional distillation separates crude oil into fractions
+- **4CH1-4.9** (4.9) (4CH1-S4-b): know the names and uses of the main fractions obtained from crude oil: refinery gases, gasoline, kerosene, diesel, fuel oil and bitumen
+- **4CH1-4.10** (4.10) (4CH1-S4-b): know the trend in colour, boiling point and viscosity of the main fractions
+- **4CH1-4.11** (4.11) (4CH1-S4-b): know that a fuel is a substance that, when burned, releases heat energy
+- **4CH1-4.12** (4.12) (4CH1-S4-b): know the possible products of complete and incomplete combustion of hydrocarbons with oxygen in the air
+- **4CH1-4.13** (4.13) (4CH1-S4-b): understand why carbon monoxide is poisonous, in terms of its effect on the capacity of blood to transport oxygen references to haemoglobin are not required
+- **4CH1-4.14** (4.14) (4CH1-S4-b): know that, in car engines, the temperature reached is high enough to allow nitrogen and oxygen from air to react, forming oxides of nitrogen
+- **4CH1-4.15** (4.15) (4CH1-S4-b): explain how the combustion of some impurities in hydrocarbon fuels results in the formation of sulfur dioxide
+- **4CH1-4.16** (4.16) (4CH1-S4-b): understand how sulfur dioxide and oxides of nitrogen contribute to acid rain
+- **4CH1-4.17** (4.17) (4CH1-S4-b): describe how long-chain alkanes are converted to alkenes and shorter-chain alkanes by catalytic cracking(using silica or alumina as the catalyst and a temperature in the range of 600-700℃)
+- **4CH1-4.18** (4.18) (4CH1-S4-b): explain why cracking is necessary, in terms of the balance between supply and demand for different fractions
+- **4CH1-4.19** (4.19) (4CH1-S4-c): know the general formula for alkanes
+- **4CH1-4.20** (4.20) (4CH1-S4-c): explain why alkanes are classified as saturated hydrocarbons
+- **4CH1-4.21** (4.21) (4CH1-S4-c): understand how to draw the structural and displayed formulae for alkanes with up to five carbon atoms in the molecule,and to name the unbranched-chain isomers
+- **4CH1-4.22** (4.22) (4CH1-S4-c): describe the reactions of alkanes with halogens in the presence of ultraviolet radiation,limited to mono-substitution knowledge of reaction mechanisms is not required
+- **4CH1-4.23** (4.23) (4CH1-S4-d): know that alkenes contain the functional group $>C=C<$
+- **4CH1-4.24** (4.24) (4CH1-S4-d): know the general formula for alkenes
+- **4CH1-4.25** (4.25) (4CH1-S4-d): explain why alkenes are classified as unsaturated hydrocarbons
+- **4CH1-4.26** (4.26) (4CH1-S4-d): understand how to draw the structural and displayed formulae for alkenes with up to four carbon atoms in the molecule,and name the unbranched-chain isomers knowledge of cis/trans or E/Z notation is not required
+- **4CH1-4.27** (4.27) (4CH1-S4-d): describe the reactions of alkenes with bromine to produce dibromoalkanes
+- **4CH1-4.28** (4.28) (4CH1-S4-d): describe how bromine water can be used to distinguish between an alkane and an alkene
+- **4CH1-4.29C** (4.29C) [C] (4CH1-S4-e): know that alcohols contain the functional group-OH
+- **4CH1-4.30C** (4.30C) [C] (4CH1-S4-e): understand how to draw structural and displayed formulae for methanol, ethanol, propanol(propan-1-ol only)and butanol(butan-1-ol only),and name each compoundthe names propanol and butanol are acceptable
+- **4CH1-4.31C** (4.31C) [C] (4CH1-S4-e): know that ethanol can be oxidised by: burning in air or oxygen(complete combustion) reaction with oxygen in the air to form ethanoic acid(microbial oxidation) heating with potassium dichromate(VI)in dilute sulfuric acid to form ethanoic acid
+- **4CH1-4.32C** (4.32C) [C] (4CH1-S4-e): know that ethanol can be manufactured by: reacting ethene with steam in the presence of a phosphoric acid catalyst at a temperature of about300℃and a pressure of about60-70atmthe fermentation of glucose,in the absence of air,at an optimum temperature of about30℃and using the enzymes in yeast
+- **4CH1-4.33C** (4.33C) [C] (4CH1-S4-e): understand the reasons for fermentation,in the absence of air,and at an optimum temperature
+- **4CH1-4.34C** (4.34C) [C] (4CH1-S4-f): know that carboxylic acids contain the functional group C=O -CH2OH
+- **4CH1-4.35C** (4.35C) [C] (4CH1-S4-f): understand how to draw structural and displayed formulae for unbranched-chain carboxylic acids with up to four carbon atoms in the molecule, and name each compound
+- **4CH1-4.36C** (4.36C) [C] (4CH1-S4-f): describe the reactions of aqueous solutions of carboxylic acids with metals and metal carbonates
+- **4CH1-4.37C** (4.37C) [C] (4CH1-S4-f): know that vinegar is an aqueous solution containing ethanoic acid
+- **4CH1-4.38C** (4.38C) [C] (4CH1-S4-g): know that esters contain the functional group C - C - O -
+- **4CH1-4.39C** (4.39C) [C] (4CH1-S4-g): know that ethyl ethanoate is the ester produced when ethanol and ethanoic acid react in the presence of an acid catalyst
+- **4CH1-4.40C** (4.40C) [C] (4CH1-S4-g): understand how to write the structural and displayed formulae of ethyl ethanoate
+- **4CH1-4.41C** (4.41C) [C] (4CH1-S4-g): understand how to write the structural and displayed formulae of an ester, given the name or formula of the alcohol and carboxylic acid from which it is formed and vice versa
+- **4CH1-4.42C** (4.42C) [C] (4CH1-S4-g): know that esters are volatile compounds with distinctive smells and are used as food flavourings and in perfumes
+- **4CH1-4.43C** (4.43C) [C,PRACTICAL] (4CH1-S4-g): practical: prepare a sample of an ester such as ethyl ethanoate
+- **4CH1-4.44** (4.44) (4CH1-S4-h): know that an addition polymer is formed by joining up many small molecules called monomers
+- **4CH1-4.45** (4.45) (4CH1-S4-h): understand how to draw the repeat unit of an addition polymer, including poly(ethene), poly(propene), poly(chloroethene) and (poly)tetrafluoroethene
+- **4CH1-4.46** (4.46) (4CH1-S4-h): understand how to deduce the structure of a monomer from the repeat unit of an addition polymer and vice versa
+- **4CH1-4.47** (4.47) (4CH1-S4-h): explain problems in the disposal of addition polymers, including: • their inertness and inability to biodegrade • the production of toxic gases when they are burned.
+- **4CH1-4.48C** (4.48C) [C] (4CH1-S4-h): know that condensation polymerisation, in which a dicarboxylic acid reacts with a diol, produces a polyester and water
+- **4CH1-4.49C** (4.49C) [C] (4CH1-S4-h): understand how to write the structural and displayed formula of a polyester, showing the repeat unit, given the formulae of the monomers from which it is formed including the reaction of ethanedioic acid and ethanediol:
+- **4CH1-4.50C** (4.50C) [C] (4CH1-S4-h): know that some polyesters, known as biopolyesters, are biodegradable

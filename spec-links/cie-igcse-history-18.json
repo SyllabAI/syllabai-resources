@@ -1,0 +1,5069 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-history-18",
+ "qual": "cie-igcse-history-2024-2026",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-history-2024-2026",
+  "family": "heading_bullets",
+  "official_points": 371
+ },
+ "totals": {
+  "items": 407,
+  "items_with_codes": 55,
+  "by_kind": {
+   "notes": 86,
+   "question_parts": 321,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 17,
+   "question_parts": 38,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 318,
+  "parts": 619,
+  "universe_ids": 318,
+  "universe_resolved": 24,
+  "pending_refs": 868,
+  "flashcards_discovered_uncoded": 1050,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 24,
+   "by_tier": {
+    "V1_name_text_identity": 10,
+    "V2_name_phrase_identity": 14,
+    "V3_subsection_head_identity": 0,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 294,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 0,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 2,
+    "no_unique_identity": 292
+   },
+   "dangling_eq_refs_pending": 2
+  }
+ },
+ "items": {
+  "rn_RMGhqM528P9TFfTz": {
+   "kind": "note",
+   "label": "How Did the Nazis Deal with Opposition? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_sHqvGR6sbhsYW37q",
+    "spcpt_jBPqRkfxrDY9Qrtw",
+    "spcpt_5zQ3f9zfpkXc66td",
+    "spcpt_bwxpb5MHKtq5Dqht",
+    "spcpt_XncDmc6T5ygqswZx",
+    "spcpt_GMgWyfXMWfVcY2Q9"
+   ]
+  },
+  "rn_TwPqm3X75r4MQqfb": {
+   "kind": "note",
+   "label": "Opposition in Nazi Germany - IGCSE History Revision Notes",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_xZjTyGsXdCMGBWfM",
+    "spcpt_b9MkXDhSDFMbsHHW",
+    "spcpt_ZVpfkKGmcG6MKgfG"
+   ]
+  },
+  "rn_NyTb3K9JQW2s9xnw": {
+   "kind": "note",
+   "label": "The Use of Culture and the Mass Media | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_z8zXQ2hF4RjH57cc",
+    "spcpt_mBMpRp72HnRYW4M7",
+    "spcpt_B3c8FFrfnksvzHkb",
+    "spcpt_9cBvtDQZCY5Ngyn8"
+   ]
+  },
+  "rn_VxFMVJ4syCkBz7qT": {
+   "kind": "note",
+   "label": "Was Nazi Germany a Totalitarian State? - IGCSE History Notes",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_PdX6GTV6nwqrdsQn",
+    "spcpt_hkjmnD7wD39TCxCc"
+   ]
+  },
+  "rn_QgB3Mw7KQD7qps7k": {
+   "kind": "note",
+   "label": "Why were Groups Persecuted in Nazi Germany? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_rntr3BfNnC3HHHCy",
+    "spcpt_dbSKYHrMc6STgjNg",
+    "spcpt_Fqc4dHnnfdjm36Zd",
+    "spcpt_PNXVfDnS9YMDFRMq"
+   ]
+  },
+  "rn_2jFm9vVTNFW7TNBb": {
+   "kind": "note",
+   "label": "Did the Republic Recover After 1923? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_cbHfm7Vnw65Zj66Y",
+    "spcpt_QR9jNYWScrtBbkQG"
+   ]
+  },
+  "rn_S9Nsb6yBgVkdJFSJ": {
+   "kind": "note",
+   "label": "Germany After World War One - IGCSE History Revision Notes",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.007",
+     "official_code": "S13.007",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_nv39qMmvWf8Nzt5Q",
+    "spcpt_3mKSKn97knkfzKdQ",
+    "spcpt_qb6PY5jwHsgQFdFt"
+   ]
+  },
+  "rn_xFr4Z8Br2FHHGDKS": {
+   "kind": "note",
+   "label": "The Impact of the Treaty of Versailles on the Republic | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_7HfJwYptjbD42Kpc",
+    "spcpt_B4YGYjXBk3MRQHFd",
+    "spcpt_J4zCxNFTJhxwdZcJ",
+    "spcpt_3XGz9sdPDkt7TJyn",
+    "spcpt_pBbkNbTYrmnx7xdn",
+    "spcpt_xQrZSGdFHxH4m48K"
+   ]
+  },
+  "rn_Q7NC3PCjR8B2sQBH": {
+   "kind": "note",
+   "label": "What were the Achievements of the Weimar Period? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_64mgW3RTHcZ95QjD",
+    "spcpt_87YKZfxpZhWczmFj"
+   ]
+  },
+  "rn_hQbmRZmqdK53ZzgF": {
+   "kind": "note",
+   "label": "Did the Second World War Change Life in Nazi Germany? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_KvBzZ6Gfvb8FQb9S",
+    "spcpt_HvdYHmBn2PXG8Cm5",
+    "spcpt_VfC4xWDMR264FgN3"
+   ]
+  },
+  "rn_2249NT5xgnxkBtm5": {
+   "kind": "note",
+   "label": "Youth Groups in Nazi Germany - IGCSE History Revision Notes",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_xFF4Qj2FmpWtkfHT",
+    "spcpt_JPHc4Rtf53vghDXf",
+    "spcpt_Htr5rm5zPCJbdyvt"
+   ]
+  },
+  "rn_XtH3mtckhVzKPpPk": {
+   "kind": "note",
+   "label": "Nazi Policies Towards Women - IGCSE History Revision Notes",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kTKMcPMpbKV8Hw4M",
+    "spcpt_F7rXRqXZ3kJfy8Hf"
+   ]
+  },
+  "rn_wPBNxvTD6wrVQrzp": {
+   "kind": "note",
+   "label": "Who Benefitted from Nazi Rule? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_QBJd4QVnqsn4hkmX",
+    "spcpt_4dX79xHF7gp9DQDg",
+    "spcpt_TmHnRsRVNHXMhS4D",
+    "spcpt_3QBQcthpzrctnzgy"
+   ]
+  },
+  "rn_4qn5ZWqTbdV9fPk8": {
+   "kind": "note",
+   "label": "How Did Hitler Become Chancellor? - IGCSE History Revision",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_mPxYwVrkwQFKkVqw",
+    "spcpt_SY6hXKrRx3M95nYg",
+    "spcpt_8fV47hZsHZ2h3zBP",
+    "spcpt_9nN7R26VKKY2N6mq",
+    "spcpt_C6GGpCfc8jFvRcxX",
+    "spcpt_db4r3d5rbvNHDH9s"
+   ]
+  },
+  "rn_m8RCKdMKkbTBr4Yw": {
+   "kind": "note",
+   "label": "Hitler's Consolidation of Power - IGCSE History Notes",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.026",
+     "official_code": "S13.026",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.028",
+     "official_code": "S13.028",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_r6bCTkjhDkdCh22N"
+   ]
+  },
+  "rn_NfZQFtQGQjgWPjD8": {
+   "kind": "note",
+   "label": "What Does the NSDAP Stand For - IGCSE History Revision Notes",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_wcvy7vtTpwDHykrs",
+    "spcpt_VtvsCw8f2qKWKSCW",
+    "spcpt_kGrvjrmXG8Y6Hyzd"
+   ]
+  },
+  "rn_5k7RDWn74TKQ8xrb": {
+   "kind": "note",
+   "label": "Why Did the Nazis have Little Success Before 1930? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_FSJX2T2JRd7Kppf7"
+   ]
+  },
+  "rn_266fVQVfK6X3PnT7": {
+   "kind": "note",
+   "label": "How Complete was Stalin’s Control by 1941? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_Y2rsdJJhZP9WtQGz",
+    "spcpt_9B4bvks86WGvhsfx"
+   ]
+  },
+  "rn_q7gVnsFfgZTCbJ3z": {
+   "kind": "note",
+   "label": "How Did Stalin Win The Power Struggle? - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_v3TJ4hbh6cHCJ258",
+    "spcpt_K3M4jFDCXmMHh8J5",
+    "spcpt_nNM2WwKQTv48wVgC",
+    "spcpt_FRGxBjvZkFJMWKRF"
+   ]
+  },
+  "rn_ksfyS5SVBQgDnBN9": {
+   "kind": "note",
+   "label": "How Did Stalin Control the Soviet Union? - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_xdCCp3CfNsKSJmPT",
+    "spcpt_xG8zqjhpQZQWJWhv",
+    "spcpt_fmj4k3bjjnR2RWDR",
+    "spcpt_6MbWWQyg9MhJYwtZ",
+    "spcpt_4y8Dv8scdqqtcfmT"
+   ]
+  },
+  "rn_3nf4cCVgvRtpDx6P": {
+   "kind": "note",
+   "label": "Why Did Stalin Launch The Great Terror? - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_dFMw8k43GC8y6mKH",
+    "spcpt_x8KTvx2Gssv5pKvQ",
+    "spcpt_vvn57MzyxPkCbzNz",
+    "spcpt_ymhyZ844hyFxghsw"
+   ]
+  },
+  "rn_F6PQzjvNm6b9MDTq": {
+   "kind": "note",
+   "label": "The Provisional Government, Russia - IGCSE History Notes",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_jBW8nwfnv5qgmWpC",
+    "spcpt_NjQvx7nfD8QSyrrM",
+    "spcpt_pc7G97yprghJMhHS",
+    "spcpt_KfNGrmvDyTpRCR23",
+    "spcpt_XBZVt9VgttkFsNsw"
+   ]
+  },
+  "rn_TB9GNTqXSJS5VMv8": {
+   "kind": "note",
+   "label": "What was the NEP? - IGCSE History Revision Notes",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_gX7h2Dzyf8XWw5sn",
+    "spcpt_YtMTGYMs8NX9D5VH",
+    "spcpt_wYXBDvGf9S8x2P5P",
+    "spcpt_WSvZ75v8Jf3wDcym",
+    "spcpt_bVZKJNWwPmpF6d8P"
+   ]
+  },
+  "rn_ykDshxyQk6p7krPc": {
+   "kind": "note",
+   "label": "Bolshevik Seizure of Power - IGCSE History Revision Notes",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_T6pJYmpGbpkm6qQS",
+    "spcpt_94bBGsQ3M29YkXKj",
+    "spcpt_w6gwNgp8tnd8g5jC",
+    "spcpt_wbjtBy94QfzgVHGh"
+   ]
+  },
+  "rn_BGrCrBc94s8JZcfb": {
+   "kind": "note",
+   "label": "Why Did the Bolsheviks Win the Civil War? - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_KFyZtdZFM5x95vJT",
+    "spcpt_Fn4NtkgxT3yBGYqd",
+    "spcpt_CVHzzMczg23dfPPM",
+    "spcpt_T6FjjtBKr3QR6GGF",
+    "spcpt_gnNJmGDByzSyVCRq"
+   ]
+  },
+  "rn_8z9GNSbwwsdkCxxM": {
+   "kind": "note",
+   "label": "How Did These Changes Affect the Soviet People? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_TcWr9ZxPQ966fw2y",
+    "spcpt_RXPmRj756TmxzBMn"
+   ]
+  },
+  "rn_HzjntGZYf3F3xjS6": {
+   "kind": "note",
+   "label": "Stalin's Economic Policies - IGCSE History Revision Notes",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_xvxf7fPXWcPBYc4G",
+    "spcpt_WvcgBGhcbnffTp6h"
+   ]
+  },
+  "rn_kDPkV3WFPg45PvRV": {
+   "kind": "note",
+   "label": "Why Did Stalin Introduce Collectivisation? - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM",
+    "spcpt_HZf6zKNCDfcyNbBX"
+   ]
+  },
+  "rn_p2V3NgthfY5Jb33K": {
+   "kind": "note",
+   "label": "Stalin's Five-Year Plans - IGCSE History Revision Notes",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_vmB9zR4yjB4SRbX7",
+    "spcpt_sj4vBThK3MH6PCV3"
+   ]
+  },
+  "rn_55s3DhxVpY7b8GgH": {
+   "kind": "note",
+   "label": "The Collapse Of The Tsarist Regime In 1917 - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_rT79dNCW84jK7nMr",
+    "spcpt_jhjSbWWN3jC4dC67",
+    "spcpt_zSKNp6grSJXnYYGy"
+   ]
+  },
+  "rn_tySGJw4rdw78fHF8": {
+   "kind": "note",
+   "label": "How Did the Tsar Survive the 1905 Revolution - IGCSE History",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_Qv4snqbDdZGW9XY5",
+    "spcpt_bpq5y6JsvYfVrR2F",
+    "spcpt_PzcHMVMhqT7c262Z",
+    "spcpt_8f2zJX8GjDJb2rfZ",
+    "spcpt_R49zg4V6ZPNSgsgT"
+   ]
+  },
+  "rn_WfW3DwmySvfsrQZZ": {
+   "kind": "note",
+   "label": "The Difficulties of Ruling Russia up to 1914 | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_nyD5vyGdHCbGG2V5",
+    "spcpt_94xKtXTBVyjZ9Bs7",
+    "spcpt_XQNkcQDf2hgYsFwt",
+    "spcpt_6Ktd9r3gYnMCygmV",
+    "spcpt_j5MY5WGCqGnKGqbs"
+   ]
+  },
+  "rn_PF4dCjXTsSpmCSmk": {
+   "kind": "note",
+   "label": "Tsarist Russia by 1905 | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_gPgktp29t3nr5NPQ",
+    "spcpt_sWzqBtVD7zvTcSfd",
+    "spcpt_xGVPgykfJgtCQcGs",
+    "spcpt_s2BycdtmtWhhxQBz"
+   ]
+  },
+  "rn_xQR7m2nJyPvyFtW3": {
+   "kind": "note",
+   "label": "The March 1917 Revolution - IGCSE History Revision Notes",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_bFRbFWVfB447HPyP",
+    "spcpt_VT8KK7b7rvzBfXD6",
+    "spcpt_w8fqzybmYDjV3FGd",
+    "spcpt_CdR7y2stJX9XZbCJ"
+   ]
+  },
+  "rn_bJqBdg4TfxNt94qS": {
+   "kind": "note",
+   "label": "US Involvement In The Vietnam War - IGCSE History Revision",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_zjQCmWfZ3FP9QTp6",
+    "spcpt_4XXRJmpYZPQTSXz4",
+    "spcpt_CZfQsM5fZbx82Y3Y",
+    "spcpt_kt7g3ZT85qbM7384",
+    "spcpt_FPzKXgKnB2QfcD7c",
+    "spcpt_t7NW8jzwqPzHTMd8",
+    "spcpt_WYbNxKRsVXzFrGvf"
+   ]
+  },
+  "rn_jMyJKY2HnKxHG7wf": {
+   "kind": "note",
+   "label": "Cuban Missile Crisis Notes - IGCSE History Revision",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_yJGKCh5gnRWmBnZp",
+    "spcpt_rMf9bWxTHXPhRrvP",
+    "spcpt_DHhKV4WpMTyKPhcC",
+    "spcpt_WcVVxMN77ZMvcSjB",
+    "spcpt_dtZtwmRWgRx2DRnK",
+    "spcpt_YfmG6DTDtDsg8Nfs"
+   ]
+  },
+  "rn_MkZdph56pWJGr4b7": {
+   "kind": "note",
+   "label": "The Korean War IGCSE - History Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_TZKqff8gCmfmyxzG",
+    "spcpt_kNZzGDQcN5Svkd8Q",
+    "spcpt_GJBct5dz4fpRxJGq",
+    "spcpt_dmCMKPzTHtyJdqsT",
+    "spcpt_swhs6T4ZSdhqCd49"
+   ]
+  },
+  "rn_pK3KZmPpst3STgqY": {
+   "kind": "note",
+   "label": "Why did the US Contain Communism? - IGCSE History Note",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_RcHKxHsXFnXgZMJ7"
+   ]
+  },
+  "rn_2PP55dFQy77JNpwn": {
+   "kind": "note",
+   "label": "The Collapse of the Soviet Union - IGCSE History Note",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_3dPCrNHdTcZy3jrc",
+    "spcpt_8tcGmDXVGm7gD7Yk",
+    "spcpt_dq5kd5QWkT9SZwdK",
+    "spcpt_7chZYrq2tjk23cTb",
+    "spcpt_rh6JYvhdqvq467VM",
+    "spcpt_Qbh27VkfdDPcgQMz"
+   ]
+  },
+  "rn_yWC3NVTVjKg8vs6r": {
+   "kind": "note",
+   "label": "Hungarian Uprising & Prague Spring - IGCSE History Note",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_X2xWR3NTgFZx79kq",
+    "spcpt_v8YF3vGDkKhJqcSP",
+    "spcpt_3Zn4CtnwCvnT4dPj",
+    "spcpt_dXYH9s3NKkQ6Yj4m",
+    "spcpt_RKgYbZQhmrZPcbf4"
+   ]
+  },
+  "rn_gW7HWJtfFnz3xs8Q": {
+   "kind": "note",
+   "label": "Solidarity in Poland - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_XTyPgFrV4j7gkbDJ",
+    "spcpt_bWGKnsmsft7Wwcm4",
+    "spcpt_3JS9pmYDXKSMXffs",
+    "spcpt_rvVw9N7RD4Qjx8hK",
+    "spcpt_Q7Nt338qT67QftkS"
+   ]
+  },
+  "rn_4nXF244dwyrM6pF2": {
+   "kind": "note",
+   "label": "Why Was The Berlin Wall Built?- IGCSE History Revision Note",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_VFFJzXkXcHrwdbZc",
+    "spcpt_rNK9cFpbyTzwv67p",
+    "spcpt_KjmvjQcpsSfw6TF7",
+    "spcpt_T7nNfgBW6vCt7BYD"
+   ]
+  },
+  "rn_xhWVqjWYrs98ndn2": {
+   "kind": "note",
+   "label": "The League of Nations' Humanitarian Work - IGCSE History",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_qVzMGVVhrXq5ZrVq",
+    "spcpt_bmCg9V7zGpNxqJF5",
+    "spcpt_TtVx6QrTkXgqf2sg",
+    "spcpt_chsDzSvnM29RK9Kc",
+    "spcpt_9CnT8fKmqZXPR823"
+   ]
+  },
+  "rn_YcMd9dzPsHtY8FVP": {
+   "kind": "note",
+   "label": "How did the Great Depression Affect the League of Nations",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.020",
+     "official_code": "S13.020",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_BSw48cZHvbM3KtZH",
+    "spcpt_J8jQn5pqnb64qNp5",
+    "spcpt_5Dt37wMMzSpqcSk8"
+   ]
+  },
+  "rn_mnypJZTyCmm3VtbF": {
+   "kind": "note",
+   "label": "The League of Nations & the Abyssinian Crisis | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_gTTqbqJhDwyTyY94",
+    "spcpt_9qpC6gtRDxqBT52m",
+    "spcpt_fMsNx3F92hNxwQcs",
+    "spcpt_F7khB9CF9W7NHssr"
+   ]
+  },
+  "rn_6q3r67pM5Bs8wv3r": {
+   "kind": "note",
+   "label": "Manchurian Crisis - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_8ZF6x5njgJ4w2S5z",
+    "spcpt_DgQPwrNdQZKcJBKv",
+    "spcpt_BNgvFgqdnSKpbbsH"
+   ]
+  },
+  "rn_Gt63Zj3zTvysTvDQ": {
+   "kind": "note",
+   "label": "The League of Nations Attempts at Peacekeeping in the 1920s | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.018",
+     "official_code": "S4.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.020",
+     "official_code": "S4.020",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.021",
+     "official_code": "S4.021",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_GkmdJhwMGhfWCkVs",
+    "spcpt_MNmfYFvQYQvNVg34",
+    "spcpt_YgFVtkHZx8Zt4qbq"
+   ]
+  },
+  "rn_nPC2NSr7hvW9X5pP": {
+   "kind": "note",
+   "label": "Weaknesses of the League of Nations | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_SyX5z8RCrWBQryzV",
+    "spcpt_yRv8pmrj6zNBZnFV",
+    "spcpt_C4qFW2jkr26vZWKx"
+   ]
+  },
+  "rn_qt6dwhd7BDp5HFhW": {
+   "kind": "note",
+   "label": "What was International Diplomacy Like in the 1920s? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_NSkmXTVKrGXcCWwP",
+    "spcpt_zNYH4KsGWTYwSGyB",
+    "spcpt_nRfPG5QV85Y6hv58",
+    "spcpt_Ggw6MszknDfwf7q2",
+    "spcpt_PkShHfj6mWjGhFqC"
+   ]
+  },
+  "rn_G4WTyJjHC6zmbPyy": {
+   "kind": "note",
+   "label": "League of Nations IGCSE - History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_wtqFKcT5BR34wn8Z"
+   ]
+  },
+  "rn_CrsZ9R6gxYFTB3CK": {
+   "kind": "note",
+   "label": "Consequences of the Failures of the League of Nations in the 1930s | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.039",
+     "official_code": "S4.039",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_SfZySNDWwRqRgxHV",
+    "spcpt_nn8pnSkQcpdYf4wk",
+    "spcpt_pjvR4W7yD7S6jxhF",
+    "spcpt_mjMvc7FK7YzYdZGr"
+   ]
+  },
+  "rn_HFgFjfynq5Y75DJm": {
+   "kind": "note",
+   "label": "Hitler's Foreign Policy IGCSE - History Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_7Y5w7YSVVQqH8cmF"
+   ]
+  },
+  "rn_NRKpG5yfNc7vnNnZ": {
+   "kind": "note",
+   "label": "How Did Appeasement Work in Practice? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_87gC9F5MG9KWS9wN",
+    "spcpt_JwWBTj5m2SfKXW3T",
+    "spcpt_gTzfz7mhbzW3hK75",
+    "spcpt_nJdRYVwTrxDwv9DJ"
+   ]
+  },
+  "rn_WXBfPps7Yp4rmHYq": {
+   "kind": "note",
+   "label": "Nazi-Soviet Pact - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_jmhDpwNqrxfRmjCs",
+    "spcpt_GFFQh7XdrNvvGfx8",
+    "spcpt_YB4n5fBNdZTgPMTx",
+    "spcpt_bCS3n2xgVJzVWGK8",
+    "spcpt_ThTNG5gk8XPqZyr8"
+   ]
+  },
+  "rn_W8pHy8MkdpPWBCF9": {
+   "kind": "note",
+   "label": "The Long-Term Consequences of the Treaty of Versailles | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_TypVVHCKdb2TB73v",
+    "spcpt_KC2CczprXzWjj2r6",
+    "spcpt_g2XZXNnMQ7tWJbdY",
+    "spcpt_8PPnHrm39MfchCYr"
+   ]
+  },
+  "rn_ryTSmKBQq4PddM8v": {
+   "kind": "note",
+   "label": "Was the Policy of Appeasement Justified? - IGCSE History",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_WZxMDYTrSQJK6Vk9",
+    "spcpt_GrnmgjR3RchxDDdQ"
+   ]
+  },
+  "rn_f6fg2YDkmsNrtcQ9": {
+   "kind": "note",
+   "label": "Why did Britain and France Declare War on Germany? - IGCSE",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.042",
+     "official_code": "S4.042",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kCz4KNkKnbHjtqwR",
+    "spcpt_Tgww3zN23WnXjjHd"
+   ]
+  },
+  "rn_VmPQHNjGBdsqNfvW": {
+   "kind": "note",
+   "label": "Who was More Satisfied with the Treaty of Versailles - IGCSE",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_T2CFKhhCwwZPzZYV",
+    "spcpt_6ZmWKpT3ZYgYFRDG",
+    "spcpt_z3K2C46kSX5N5rTs"
+   ]
+  },
+  "rn_2dMf3wz27JDmttFD": {
+   "kind": "note",
+   "label": "Was the Treaty of Versailles Fair? - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_34Z735Jpn55X7g6J",
+    "spcpt_jFG7mKNKKhmQmxRR"
+   ]
+  },
+  "rn_rbTt5JwppMtYCYcW": {
+   "kind": "note",
+   "label": "The Aims of the Big Three at Versailles - IGCSE History",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_fNS62zwT2KRw7sNt",
+    "spcpt_dHJgnj6xQkhq53TG",
+    "spcpt_H5TfZNnFtCbdvZB8"
+   ]
+  },
+  "rn_VfF7FzpbFzpVJP3f": {
+   "kind": "note",
+   "label": "What was the Impact of the Treaty of Versailles on Germany? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_sDWw85FgjXbXtjqK",
+    "spcpt_JhrTNbsVPKKH6kCV",
+    "spcpt_YDs7bjWpQxkMJsPm",
+    "spcpt_tW8m9SwYt27SVMV6"
+   ]
+  },
+  "rn_zc9YJKCgWgh9nMvp": {
+   "kind": "note",
+   "label": "Treaty of Versailles Summary - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_4b9C4P2Cf3sCTQJW"
+   ]
+  },
+  "rn_RWQ9bF2WdZs39wnn": {
+   "kind": "note",
+   "label": "Consequences of the Berlin Blockade - IGCSE History Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_9qTRK9rJDY5gF7Bv",
+    "spcpt_pkGPNBgFSGVz7Xtp",
+    "spcpt_gZ8nxmdyCFJSkyTR",
+    "spcpt_6RXmqRSgkDN73YDM",
+    "spcpt_JfGBNSRVkSwV8YGg"
+   ]
+  },
+  "rn_JNnRzHhVZzDmvHDv": {
+   "kind": "note",
+   "label": "Soviet Expansion by 1948 - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_c99vNSWsbhhY4PwR",
+    "spcpt_dMRRmdWftvKrYYTn",
+    "spcpt_x66wZF47TdhmJzdD",
+    "spcpt_p8ZcK2wgrgktbrsD",
+    "spcpt_cJ4ktgDnWXg9dqjH",
+    "spcpt_8mypvJpVmsSQdDmK",
+    "spcpt_4H9Dk9BGZwVnxtzs",
+    "spcpt_HRwrMXwM2WMYbGNM"
+   ]
+  },
+  "rn_6jpcSbhChq8w2Tdp": {
+   "kind": "note",
+   "label": "Why did the Grand Alliance Break Down? - IGCSE History Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S21.032",
+     "official_code": "S21.032",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_Zs5J8cKwhthtp73N",
+    "spcpt_hW8FFSzRXg8JgC93",
+    "spcpt_pQXFHjNJyYXQsrNP",
+    "spcpt_SstrvnkRFTPMgxbn"
+   ]
+  },
+  "rn_TcgTtbSCGDFPzJSd": {
+   "kind": "note",
+   "label": "Cold War IGCSE - History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_j7gB54cpfSXH5YRK"
+   ]
+  },
+  "rn_g52Bwt7kxcBCX95Z": {
+   "kind": "note",
+   "label": "The Truman Doctrine - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_zJtnzk6TZTgQSC9x",
+    "spcpt_FrkfYC4QmY9f9tNF"
+   ]
+  },
+  "rn_TjF96QKwJgzrvFkn": {
+   "kind": "note",
+   "label": "Who was to Blame for the Cold War? - IGCSE History Revision Notes",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_mm39MPfZBxTfbCfr",
+    "spcpt_mbNvDb6v6NsN4YW6"
+   ]
+  },
+  "rn_DSprvt8rhFhKBfWF": {
+   "kind": "note",
+   "label": "Did All Americans Benefit From the Boom? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nmFtWfTk2RdmSbMJ",
+    "spcpt_dKZnGbSpCXy364G6"
+   ]
+  },
+  "rn_nbkvzd6zzN9KSkQq": {
+   "kind": "note",
+   "label": "Issues With Agriculture in the Boom | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nBDT3fZ5TGg8vGcv",
+    "spcpt_MTQQ5K3v3xx5jYFh"
+   ]
+  },
+  "rn_y6psyfyzNpPNhN4Z": {
+   "kind": "note",
+   "label": "Reasons For the Economic Boom | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_F5HGx7X74B5HvP9J",
+    "spcpt_2GGy6WS4QVrVxVCW",
+    "spcpt_XyMyBsQ39XmFSHBT",
+    "spcpt_JC99BvCmcK9WVGd7",
+    "spcpt_WSB3CwSTjbWdg2SP"
+   ]
+  },
+  "rn_WH4fcPj9fxKvscHt": {
+   "kind": "note",
+   "label": "What was America Like in 1919? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_QhBncQ8r6SjdVQpW",
+    "spcpt_qTxxHSWPqRNYjDKW",
+    "spcpt_wJzBs2FzyPXxw66m"
+   ]
+  },
+  "rn_VxTcbdZqVhfdb3F2": {
+   "kind": "note",
+   "label": "Why Did Some Industries Prosper in the Boom? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_JGSqpyfcDNP57MDC",
+    "spcpt_crgGBM9Rzg9vRPgz"
+   ]
+  },
+  "rn_CQSpqpxC8zr6pCPJ": {
+   "kind": "note",
+   "label": "Changes to the Roles of Women During the 1920s | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_5NmXXYFvT79v7bPN",
+    "spcpt_MSc8xNtCbSQJ3R5D",
+    "spcpt_nS6n8G8Xcw2myVWx"
+   ]
+  },
+  "rn_jp3yZtHMwc2cwbJh": {
+   "kind": "note",
+   "label": "Intolerance in US Society | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_kMBxg8vnnRnNzfnY",
+    "spcpt_FGpqFjPBMy3ywDR3",
+    "spcpt_qwpV3YckKJvn5S6R"
+   ]
+  },
+  "rn_4YDkqqVKGChqCrTt": {
+   "kind": "note",
+   "label": "What were the ‘Roaring Twenties’? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_2YYPRsSQxMKYrYzT",
+    "spcpt_Rtw9RdwpdzTWmTc4",
+    "spcpt_gPDgQNJ6F8mGdVk3",
+    "spcpt_Prkf7wFHnZ9t755Q",
+    "spcpt_8wzvyGRd7WcgtcHx"
+   ]
+  },
+  "rn_Gmgr5VhVckw576Rk": {
+   "kind": "note",
+   "label": "Why was Prohibition Introduced & Repealed? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_CJKjGQ4GJvcC9Shv",
+    "spcpt_hGQvpKGQD9GB3MqT",
+    "spcpt_mPn96MN5psbyS9m4"
+   ]
+  },
+  "rn_72JkFJ7cpfg2XXX3": {
+   "kind": "note",
+   "label": "Changes to the New Deal After 1933 | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_HW3qbDkWFNZjCfGR",
+    "spcpt_h5qqJqzh8ytDJ5jm"
+   ]
+  },
+  "rn_sZr4SXHxn57PKbdC": {
+   "kind": "note",
+   "label": "Opposition to the New Deal | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_sfKD6GFyPkx72MPK",
+    "spcpt_X6FRf9ZzcKfVP3HH",
+    "spcpt_VWhWKkvsgkKS9d46",
+    "spcpt_N4ykQ8KcGMb3sqmt",
+    "spcpt_Vks4ZrSWGW4BzTDS"
+   ]
+  },
+  "rn_nhv6wYSwWghjwKsj": {
+   "kind": "note",
+   "label": "The New Deal, 1933 | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.024",
+     "official_code": "S19.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.025",
+     "official_code": "S19.025",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_WSJYt6Gskcm5V5qz": {
+   "kind": "note",
+   "label": "Was the New Deal a Failure? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_skqYj7mkMdzy5xsk",
+    "spcpt_xxJphWp99NsKK5P7"
+   ]
+  },
+  "rn_2229wc5qRZqf66rd": {
+   "kind": "note",
+   "label": "Why Did Unemployment Continue? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_KS2VWpGTY8XK5SMh",
+    "spcpt_6sQxH3yx58RbSCxJ"
+   ]
+  },
+  "rn_84VHXRbdcrzy2jxd": {
+   "kind": "note",
+   "label": "Speculation & the Wall Street Crash | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_4JXk5dHTHbjVyrrx",
+    "spcpt_jrrh53bBdp8Yrb2h",
+    "spcpt_9XSfWJnZNNKgN7WS"
+   ]
+  },
+  "rn_Ks49GM5bg2X7yRYS": {
+   "kind": "note",
+   "label": "What Impact Did the Crash Have on the Economy? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_rpN2PdCS6CmQBFm7",
+    "spcpt_s7Fvrj5XzmppKK73",
+    "spcpt_bs93P2NYsHrNSc2g",
+    "spcpt_283qHyxMhqbTt3bF"
+   ]
+  },
+  "rn_xcP3PGpnk9kKk8WK": {
+   "kind": "note",
+   "label": "What were the Social Consequences of the Crash? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_RyMb9vCPNKRdQnkw",
+    "spcpt_zTsTJDVs39G3YxhZ",
+    "spcpt_RTcpMZgQQHq7Yx85"
+   ]
+  },
+  "rn_3CpgQ8cmZ2kxFHfV": {
+   "kind": "note",
+   "label": "Why Did Roosevelt Win the Election of 1932? | Cambridge (CIE) IGCSE History Revision Notes 2018",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_MnQ79BkHBTFbFHpQ",
+    "spcpt_C9dVwBdJDSrb6p64",
+    "spcpt_6M4FmSx945NwKfXQ",
+    "spcpt_jVkFzhTwHyCnVr37"
+   ]
+  },
+  "qstnprt_97xNQC85b6JxGdp7": {
+   "kind": "question_part",
+   "label": "qstn_42hJMgfM2f6SxpKt / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_ZVpfkKGmcG6MKgfG",
+    "spcpt_xZjTyGsXdCMGBWfM",
+    "spcpt_b9MkXDhSDFMbsHHW"
+   ]
+  },
+  "qstnprt_bnkxxGZGmHf8XnGj": {
+   "kind": "question_part",
+   "label": "qstn_FCgcxKQzmtwFNYDQ / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_PdX6GTV6nwqrdsQn",
+    "spcpt_hkjmnD7wD39TCxCc"
+   ]
+  },
+  "qstnprt_jhZTrZZQv7nfRJxn": {
+   "kind": "question_part",
+   "label": "qstn_HP9PdWtDTfW7qYpY / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_ZVpfkKGmcG6MKgfG",
+    "spcpt_xZjTyGsXdCMGBWfM"
+   ]
+  },
+  "qstnprt_SJDdBqf5JDRpgZhN": {
+   "kind": "question_part",
+   "label": "qstn_rXGsXWqqY67Q7Wz8 / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_rntr3BfNnC3HHHCy",
+    "spcpt_PNXVfDnS9YMDFRMq",
+    "spcpt_dbSKYHrMc6STgjNg"
+   ]
+  },
+  "qstnprt_62HTX9wqtB9N25cc": {
+   "kind": "question_part",
+   "label": "qstn_qjjh32nVQzZmFQCf / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_sHqvGR6sbhsYW37q",
+    "spcpt_mBMpRp72HnRYW4M7",
+    "spcpt_5zQ3f9zfpkXc66td"
+   ]
+  },
+  "qstnprt_JyyD5JWDvvwvGTMv": {
+   "kind": "question_part",
+   "label": "qstn_Xj59hBtFn8zqKspX / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_mBMpRp72HnRYW4M7",
+    "spcpt_9cBvtDQZCY5Ngyn8"
+   ]
+  },
+  "qstnprt_8vqPG7qXD5C2hgqR": {
+   "kind": "question_part",
+   "label": "qstn_zY9d7659JgyhT9NK / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_xZjTyGsXdCMGBWfM",
+    "spcpt_PdX6GTV6nwqrdsQn",
+    "spcpt_hkjmnD7wD39TCxCc"
+   ]
+  },
+  "qstnprt_HcmrMQBV3Z4NqRk6": {
+   "kind": "question_part",
+   "label": "qstn_gK28684yJVwxTMdW / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_z8zXQ2hF4RjH57cc",
+    "spcpt_mBMpRp72HnRYW4M7"
+   ]
+  },
+  "qstnprt_qSsp5Jss3cr4pZKY": {
+   "kind": "question_part",
+   "label": "qstn_cSshYK8PjMCsh9cs / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_rntr3BfNnC3HHHCy",
+    "spcpt_dbSKYHrMc6STgjNg"
+   ]
+  },
+  "qstnprt_xQk8prRDmVQfBBV5": {
+   "kind": "question_part",
+   "label": "qstn_XSwWxrD6xhYWBfBG / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_xZjTyGsXdCMGBWfM",
+    "spcpt_b9MkXDhSDFMbsHHW"
+   ]
+  },
+  "qstnprt_pxBJtKVCY9csqvbS": {
+   "kind": "question_part",
+   "label": "qstn_yWF2S6RRCSNzsYJC / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_Fqc4dHnnfdjm36Zd"
+   ]
+  },
+  "qstnprt_PFBmz5nP4vJrFwQj": {
+   "kind": "question_part",
+   "label": "qstn_c2kHwSnvvR9SXC5c / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_B3c8FFrfnksvzHkb"
+   ]
+  },
+  "qstnprt_vmFQ3v4t88F7Ssgn": {
+   "kind": "question_part",
+   "label": "qstn_NptbrKjCqMS9fhT8 / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_5zQ3f9zfpkXc66td"
+   ]
+  },
+  "qstnprt_X9Hjs792s3chqR9r": {
+   "kind": "question_part",
+   "label": "qstn_qZC7GjvFrCMdXgSg / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_z8zXQ2hF4RjH57cc",
+    "spcpt_mBMpRp72HnRYW4M7",
+    "spcpt_B3c8FFrfnksvzHkb",
+    "spcpt_9cBvtDQZCY5Ngyn8"
+   ]
+  },
+  "qstnprt_qrsmnKfnfS8zsBFk": {
+   "kind": "question_part",
+   "label": "qstn_TDyJn9RVd9MrM56Y / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_GMgWyfXMWfVcY2Q9"
+   ]
+  },
+  "qstnprt_TfZckqfbrTpdmGsd": {
+   "kind": "question_part",
+   "label": "qstn_nFyVwJBHJYjxrXSd / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_PdX6GTV6nwqrdsQn",
+    "spcpt_5zQ3f9zfpkXc66td"
+   ]
+  },
+  "qstnprt_4JnhCcS3zmvJtQQ4": {
+   "kind": "question_part",
+   "label": "qstn_8fZsHntwDmPRhYgf / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_XncDmc6T5ygqswZx"
+   ]
+  },
+  "qstnprt_Rv5cZsPWWRxF5sdX": {
+   "kind": "question_part",
+   "label": "qstn_kNzsNcjVc6k6jgwm / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_jBPqRkfxrDY9Qrtw"
+   ]
+  },
+  "qstnprt_gVFYdV6JNDqT4tNr": {
+   "kind": "question_part",
+   "label": "qstn_GbFxxCVfY5XVz7c7 / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_sHqvGR6sbhsYW37q"
+   ]
+  },
+  "qstnprt_wgPMfV8ps4h8hzhd": {
+   "kind": "question_part",
+   "label": "qstn_X2z8vs2P6TgN7xjv / part 0",
+   "section": "germany-1918-45",
+   "topic": "how-effectively-did-the-nazis-control-germany-1933-45",
+   "codes": [],
+   "pending": [
+    "spcpt_sHqvGR6sbhsYW37q",
+    "spcpt_bwxpb5MHKtq5Dqht",
+    "spcpt_5zQ3f9zfpkXc66td"
+   ]
+  },
+  "qstnprt_VQd62Hx2YGhck7hX": {
+   "kind": "question_part",
+   "label": "qstn_qXt2hdjr9287q8zR / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_87YKZfxpZhWczmFj",
+    "spcpt_64mgW3RTHcZ95QjD"
+   ]
+  },
+  "qstnprt_KssFsRpvzSFC5yD6": {
+   "kind": "question_part",
+   "label": "qstn_SVPYVQvfW57rWjpt / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_QR9jNYWScrtBbkQG",
+    "spcpt_cbHfm7Vnw65Zj66Y"
+   ]
+  },
+  "qstnprt_Kcy7xN8HqrnnVXZb": {
+   "kind": "question_part",
+   "label": "qstn_wdcj5rkp3YzcDSBS / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_cbHfm7Vnw65Zj66Y"
+   ]
+  },
+  "qstnprt_StCjDkQ3YrgyBrBc": {
+   "kind": "question_part",
+   "label": "qstn_5RN4pggdJcHKKSHp / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_qb6PY5jwHsgQFdFt",
+    "spcpt_3mKSKn97knkfzKdQ"
+   ]
+  },
+  "qstnprt_hT3zvmgQxqnS2GRr": {
+   "kind": "question_part",
+   "label": "qstn_Bbcr5sV5FvhVFZPR / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_qb6PY5jwHsgQFdFt",
+    "spcpt_cbHfm7Vnw65Zj66Y",
+    "spcpt_64mgW3RTHcZ95QjD"
+   ]
+  },
+  "qstnprt_xnGhwHmNzXZbnWJb": {
+   "kind": "question_part",
+   "label": "qstn_cfQWSxcT6T9qF3Cc / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_pBbkNbTYrmnx7xdn",
+    "spcpt_3XGz9sdPDkt7TJyn"
+   ]
+  },
+  "qstnprt_2hQ3WD7KVMJFSWPS": {
+   "kind": "question_part",
+   "label": "qstn_NJzvXrGpmNG7smvy / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.007",
+     "official_code": "S13.007",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_qb6PY5jwHsgQFdFt"
+   ]
+  },
+  "qstnprt_Jp2PdsZrh4V8sfgS": {
+   "kind": "question_part",
+   "label": "qstn_Nj3SgPhTscTvCBkg / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_QR9jNYWScrtBbkQG"
+   ]
+  },
+  "qstnprt_9yq5Vn8sgxQSDq28": {
+   "kind": "question_part",
+   "label": "qstn_RZnpm9HCzXGh4nJd / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_B4YGYjXBk3MRQHFd"
+   ]
+  },
+  "qstnprt_rSXn5cNP9hmCNzwC": {
+   "kind": "question_part",
+   "label": "qstn_WvkCVCkFdJjRWCtr / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_3XGz9sdPDkt7TJyn"
+   ]
+  },
+  "qstnprt_cYMHHSgnbYGvxxCm": {
+   "kind": "question_part",
+   "label": "qstn_jGmFp3BSwfZ7PCVh / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_cbHfm7Vnw65Zj66Y"
+   ]
+  },
+  "qstnprt_RcrcXQXbDQYnZJcd": {
+   "kind": "question_part",
+   "label": "qstn_RWWt2rxtBSGDRYbT / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_3XGz9sdPDkt7TJyn"
+   ]
+  },
+  "qstnprt_NG8kpPc2z83MwH2K": {
+   "kind": "question_part",
+   "label": "qstn_tN47FTVG6cGz9hBc / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_nv39qMmvWf8Nzt5Q"
+   ]
+  },
+  "qstnprt_h8WRmd2wkj2WzYTd": {
+   "kind": "question_part",
+   "label": "qstn_58gj7gGb6RCHrjhp / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.007",
+     "official_code": "S13.007",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_qb6PY5jwHsgQFdFt"
+   ]
+  },
+  "qstnprt_wNNXgzFxTYf2pB3x": {
+   "kind": "question_part",
+   "label": "qstn_jKypXwCzY6gVPbQb / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_87YKZfxpZhWczmFj",
+    "spcpt_64mgW3RTHcZ95QjD"
+   ]
+  },
+  "qstnprt_BjGrF7trwQvBk4Gg": {
+   "kind": "question_part",
+   "label": "qstn_4PVFq5zfcJMjtTc3 / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_87YKZfxpZhWczmFj",
+    "spcpt_64mgW3RTHcZ95QjD"
+   ]
+  },
+  "qstnprt_rX67hPF8dcMSxqZx": {
+   "kind": "question_part",
+   "label": "qstn_rc6Qm57JG6gN8Jhy / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_87YKZfxpZhWczmFj",
+    "spcpt_64mgW3RTHcZ95QjD"
+   ]
+  },
+  "qstnprt_HwXzyV4zVpFFNzh4": {
+   "kind": "question_part",
+   "label": "qstn_PQwDNKKTBWpkNY6M / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_3mKSKn97knkfzKdQ"
+   ]
+  },
+  "qstnprt_ScYNqsMySJkhqkHD": {
+   "kind": "question_part",
+   "label": "qstn_VJF8Ht3cNT2sDtpr / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_xQrZSGdFHxH4m48K",
+    "spcpt_pBbkNbTYrmnx7xdn",
+    "spcpt_3XGz9sdPDkt7TJyn"
+   ]
+  },
+  "qstnprt_8SpWbNXrD74zGnrP": {
+   "kind": "question_part",
+   "label": "qstn_tJ37PTHwr8Mh2GJ8 / part 0",
+   "section": "germany-1918-45",
+   "topic": "was-the-weimar-republic-doomed-from-the-start",
+   "codes": [],
+   "pending": [
+    "spcpt_3XGz9sdPDkt7TJyn"
+   ]
+  },
+  "qstnprt_9JckD9XRrzsWX327": {
+   "kind": "question_part",
+   "label": "qstn_43t5ZtWrNVSKWKHN / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_TmHnRsRVNHXMhS4D",
+    "spcpt_QBJd4QVnqsn4hkmX"
+   ]
+  },
+  "qstnprt_TnzQ8wbQNP63ydPv": {
+   "kind": "question_part",
+   "label": "qstn_ZgNxdnG9ZSxSZxyp / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_KvBzZ6Gfvb8FQb9S",
+    "spcpt_HvdYHmBn2PXG8Cm5"
+   ]
+  },
+  "qstnprt_S3fBDSJG4NwzY5rX": {
+   "kind": "question_part",
+   "label": "qstn_63NZXYzgjksDWPwM / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_F7rXRqXZ3kJfy8Hf"
+   ]
+  },
+  "qstnprt_f6SNc7msGztqGwBq": {
+   "kind": "question_part",
+   "label": "qstn_zpkNzscqwtnBRXT6 / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_3QBQcthpzrctnzgy"
+   ]
+  },
+  "qstnprt_MWDSnXq2RCZqQbBP": {
+   "kind": "question_part",
+   "label": "qstn_zwVmbtxYj9Q9Pswq / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kTKMcPMpbKV8Hw4M"
+   ]
+  },
+  "qstnprt_kzChYSrJKm6VK2Xy": {
+   "kind": "question_part",
+   "label": "qstn_BF8hJQ7S7cqY36jz / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_xFF4Qj2FmpWtkfHT",
+    "spcpt_JPHc4Rtf53vghDXf"
+   ]
+  },
+  "qstnprt_Gqb2z3nk4tFMhk3X": {
+   "kind": "question_part",
+   "label": "qstn_n85QrwBTDdfkYgMk / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_VfC4xWDMR264FgN3",
+    "spcpt_KvBzZ6Gfvb8FQb9S"
+   ]
+  },
+  "qstnprt_gGNdb43CQ7PyGZNt": {
+   "kind": "question_part",
+   "label": "qstn_tZ9HXNxjgKK662dy / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_ZVpfkKGmcG6MKgfG",
+    "spcpt_xFF4Qj2FmpWtkfHT",
+    "spcpt_JPHc4Rtf53vghDXf",
+    "spcpt_Htr5rm5zPCJbdyvt"
+   ]
+  },
+  "qstnprt_vvnFDy7XSNJsSFWf": {
+   "kind": "question_part",
+   "label": "qstn_5r8ZtqskYpRFQVDb / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_HvdYHmBn2PXG8Cm5"
+   ]
+  },
+  "qstnprt_C5KDWXK6Zc2pMSCn": {
+   "kind": "question_part",
+   "label": "qstn_9b9m8SwNtwzGTKfH / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_xFF4Qj2FmpWtkfHT",
+    "spcpt_Htr5rm5zPCJbdyvt"
+   ]
+  },
+  "qstnprt_W6pwcGYgFXFcCJ8n": {
+   "kind": "question_part",
+   "label": "qstn_MZ6FsdvdwCYsnPGv / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_H8fPhD7QGzVzqptg": {
+   "kind": "question_part",
+   "label": "qstn_WTpRyrTyhjGvsgcX / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_JPHc4Rtf53vghDXf"
+   ]
+  },
+  "qstnprt_ty5zjV8NvJNQZB2c": {
+   "kind": "question_part",
+   "label": "qstn_qn9RSz38v2zJK6nf / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.002",
+     "official_code": "S13.002",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kTKMcPMpbKV8Hw4M"
+   ]
+  },
+  "qstnprt_9GxqfBtJ9QJYZP7V": {
+   "kind": "question_part",
+   "label": "qstn_2dWvcrjNr6CKMSJs / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_xFF4Qj2FmpWtkfHT",
+    "spcpt_JPHc4Rtf53vghDXf",
+    "spcpt_HvdYHmBn2PXG8Cm5"
+   ]
+  },
+  "qstnprt_FzQz2ynRBmMNQdBh": {
+   "kind": "question_part",
+   "label": "qstn_FjVtXtxvZbm23mxX / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_4dX79xHF7gp9DQDg",
+    "spcpt_3QBQcthpzrctnzgy"
+   ]
+  },
+  "qstnprt_f3PVW4WqVYWhRW67": {
+   "kind": "question_part",
+   "label": "qstn_SPNPTh5XX5dkmMXT / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_Htr5rm5zPCJbdyvt"
+   ]
+  },
+  "qstnprt_xHZm2BsYdWNc5Cqg": {
+   "kind": "question_part",
+   "label": "qstn_sBbPWMrF7byfj5Dx / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_TmHnRsRVNHXMhS4D",
+    "spcpt_QBJd4QVnqsn4hkmX"
+   ]
+  },
+  "qstnprt_w6khCrQ63vRmp4mT": {
+   "kind": "question_part",
+   "label": "qstn_PXMKW2MYWhVgt4G4 / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_3QBQcthpzrctnzgy"
+   ]
+  },
+  "qstnprt_KTPyjKsmbWPFHdyn": {
+   "kind": "question_part",
+   "label": "qstn_k5yrCwJtKGThH3GB / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_4dX79xHF7gp9DQDg"
+   ]
+  },
+  "qstnprt_4BrNkWjdY9R2Rhsv": {
+   "kind": "question_part",
+   "label": "qstn_VfkMzv7422KYSnbr / part 0",
+   "section": "germany-1918-45",
+   "topic": "what-was-it-like-to-live-in-nazi-germany",
+   "codes": [],
+   "pending": [
+    "spcpt_KvBzZ6Gfvb8FQb9S",
+    "spcpt_F7rXRqXZ3kJfy8Hf"
+   ]
+  },
+  "qstnprt_4SGxwBbGrQCrbz72": {
+   "kind": "question_part",
+   "label": "qstn_9S4FTDWXQg8BH4Xk / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kGrvjrmXG8Y6Hyzd"
+   ]
+  },
+  "qstnprt_SNXRPBRMPfhcDd3y": {
+   "kind": "question_part",
+   "label": "qstn_N4JcpVCQnC3y5jBj / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_mPxYwVrkwQFKkVqw",
+    "spcpt_FSJX2T2JRd7Kppf7",
+    "spcpt_db4r3d5rbvNHDH9s"
+   ]
+  },
+  "qstnprt_gT9kvNtxshRk9rXS": {
+   "kind": "question_part",
+   "label": "qstn_f6WtfWp2nvR4w48C / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_mPxYwVrkwQFKkVqw",
+    "spcpt_kGrvjrmXG8Y6Hyzd"
+   ]
+  },
+  "qstnprt_bD57cyMk9ZF4Z5Ks": {
+   "kind": "question_part",
+   "label": "qstn_kJyxRJjx4RM9Q6sJ / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_db4r3d5rbvNHDH9s",
+    "spcpt_C6GGpCfc8jFvRcxX",
+    "spcpt_8fV47hZsHZ2h3zBP"
+   ]
+  },
+  "qstnprt_8kQKGkHWpkHg8zCP": {
+   "kind": "question_part",
+   "label": "qstn_DJRhdCM26b7tNYSr / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_wcvy7vtTpwDHykrs",
+    "spcpt_VtvsCw8f2qKWKSCW",
+    "spcpt_kGrvjrmXG8Y6Hyzd"
+   ]
+  },
+  "qstnprt_8kr58GNXrx5hJ8QM": {
+   "kind": "question_part",
+   "label": "qstn_G5FsVwZHTqHzzYSD / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Gy3b3NVBkybwWWcf": {
+   "kind": "question_part",
+   "label": "qstn_BnWVt6CRcjbbZ2D7 / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.028",
+     "official_code": "S13.028",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_r6bCTkjhDkdCh22N"
+   ]
+  },
+  "qstnprt_sFtT6bQdFJqC9XF6": {
+   "kind": "question_part",
+   "label": "qstn_H3GDYqh6XpNMBRH9 / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_mPxYwVrkwQFKkVqw",
+    "spcpt_db4r3d5rbvNHDH9s",
+    "spcpt_9nN7R26VKKY2N6mq"
+   ]
+  },
+  "qstnprt_6VsgF2Ng6YY7BfwP": {
+   "kind": "question_part",
+   "label": "qstn_RcB9S362GKYtBvBV / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_FCKHGv6mCMMvkRtm": {
+   "kind": "question_part",
+   "label": "qstn_wRCYZVQTcGngdqRV / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8T5jVtK5FpZN5XSQ": {
+   "kind": "question_part",
+   "label": "qstn_mp3jYsbK6htCKrrW / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_kGrvjrmXG8Y6Hyzd"
+   ]
+  },
+  "qstnprt_DgZyK9MVdvmJzrZk": {
+   "kind": "question_part",
+   "label": "qstn_mQdBmtSnSSmYmjty / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_wcvy7vtTpwDHykrs",
+    "spcpt_VtvsCw8f2qKWKSCW"
+   ]
+  },
+  "qstnprt_sVSb7VMPz9JStskb": {
+   "kind": "question_part",
+   "label": "qstn_TVjQbVj6YsgkdG9R / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.026",
+     "official_code": "S13.026",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.024",
+     "official_code": "S13.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KcdJ6XC7ZfPGcyNV": {
+   "kind": "question_part",
+   "label": "qstn_pVqJhjNk55pBb37G / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_FSJX2T2JRd7Kppf7"
+   ]
+  },
+  "qstnprt_2ytnPr7tppjgbMkF": {
+   "kind": "question_part",
+   "label": "qstn_xnxnMqWVbGZJvD4R / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.026",
+     "official_code": "S13.026",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.028",
+     "official_code": "S13.028",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.027",
+     "official_code": "S13.027",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_QcfyVcbHySPtGbqz": {
+   "kind": "question_part",
+   "label": "qstn_VckxSChYs7jzsTKH / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_FSJX2T2JRd7Kppf7"
+   ]
+  },
+  "qstnprt_cyz4RbccRMJcWWqw": {
+   "kind": "question_part",
+   "label": "qstn_SGFqHr3Yz7sMhQHn / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_db4r3d5rbvNHDH9s",
+    "spcpt_C6GGpCfc8jFvRcxX",
+    "spcpt_8fV47hZsHZ2h3zBP"
+   ]
+  },
+  "qstnprt_phHCvTCmmH2b3TTd": {
+   "kind": "question_part",
+   "label": "qstn_pxN6gNJRM6Q73HYP / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_SY6hXKrRx3M95nYg",
+    "spcpt_mPxYwVrkwQFKkVqw"
+   ]
+  },
+  "qstnprt_fz3cn9yjhy29HNyr": {
+   "kind": "question_part",
+   "label": "qstn_dfgbtYBnxsDwxsXG / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_FSJX2T2JRd7Kppf7"
+   ]
+  },
+  "qstnprt_y2jdF8WQkwC2qgtx": {
+   "kind": "question_part",
+   "label": "qstn_H5yb36jPrjSMYM4T / part 0",
+   "section": "germany-1918-45",
+   "topic": "why-was-hitler-able-to-dominate-germany-by-1934",
+   "codes": [],
+   "pending": [
+    "spcpt_mPxYwVrkwQFKkVqw",
+    "spcpt_db4r3d5rbvNHDH9s",
+    "spcpt_C6GGpCfc8jFvRcxX",
+    "spcpt_9nN7R26VKKY2N6mq",
+    "spcpt_8fV47hZsHZ2h3zBP"
+   ]
+  },
+  "qstnprt_N9BvkDzmwqtmt5CY": {
+   "kind": "question_part",
+   "label": "qstn_8Xb769cJTgTqykxN / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_6MbWWQyg9MhJYwtZ",
+    "spcpt_4y8Dv8scdqqtcfmT"
+   ]
+  },
+  "qstnprt_s3XR9d5TbgSDnfMz": {
+   "kind": "question_part",
+   "label": "qstn_pjcgST3hm6cfQmMY / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_ymhyZ844hyFxghsw",
+    "spcpt_x8KTvx2Gssv5pKvQ",
+    "spcpt_vvn57MzyxPkCbzNz",
+    "spcpt_dFMw8k43GC8y6mKH"
+   ]
+  },
+  "qstnprt_MMQVJFwfwPzqb2p2": {
+   "kind": "question_part",
+   "label": "qstn_jmDZKQkQY4tBn26g / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_nNM2WwKQTv48wVgC",
+    "spcpt_K3M4jFDCXmMHh8J5",
+    "spcpt_FRGxBjvZkFJMWKRF"
+   ]
+  },
+  "qstnprt_qdjnd5mHHmh9H5M5": {
+   "kind": "question_part",
+   "label": "qstn_N24fwrYWkh6vxCdk / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_6MbWWQyg9MhJYwtZ",
+    "spcpt_4y8Dv8scdqqtcfmT"
+   ]
+  },
+  "qstnprt_8tgPKRTJ5ScgHB5Y": {
+   "kind": "question_part",
+   "label": "qstn_n7zG5cb9q7qv68yD / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_ymhyZ844hyFxghsw",
+    "spcpt_vvn57MzyxPkCbzNz",
+    "spcpt_fmj4k3bjjnR2RWDR"
+   ]
+  },
+  "qstnprt_hsG2qKNbC5mfBJyx": {
+   "kind": "question_part",
+   "label": "qstn_3rVWqVyw7FDXnk3S / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_v3TJ4hbh6cHCJ258",
+    "spcpt_nNM2WwKQTv48wVgC",
+    "spcpt_K3M4jFDCXmMHh8J5",
+    "spcpt_FRGxBjvZkFJMWKRF"
+   ]
+  },
+  "qstnprt_SRhqHB9Gc5qXdkh2": {
+   "kind": "question_part",
+   "label": "qstn_cNxSgWNXFq25VC4T / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_6MbWWQyg9MhJYwtZ",
+    "spcpt_4y8Dv8scdqqtcfmT"
+   ]
+  },
+  "qstnprt_BptzjHrxGxtY6fBj": {
+   "kind": "question_part",
+   "label": "qstn_QKYBxGZkDYft3bXP / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_x8KTvx2Gssv5pKvQ",
+    "spcpt_dFMw8k43GC8y6mKH"
+   ]
+  },
+  "qstnprt_Gwv4wztHtwhB33Gt": {
+   "kind": "question_part",
+   "label": "qstn_KCY7JWbQjB7PBj4Y / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_nNM2WwKQTv48wVgC",
+    "spcpt_FRGxBjvZkFJMWKRF"
+   ]
+  },
+  "qstnprt_V5Gnkr9dP67yMmTt": {
+   "kind": "question_part",
+   "label": "qstn_9PGxfB9P4gjwqSFc / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_ymhyZ844hyFxghsw",
+    "spcpt_vvn57MzyxPkCbzNz"
+   ]
+  },
+  "qstnprt_CmkkPCZDZc6jB2dB": {
+   "kind": "question_part",
+   "label": "qstn_d2BZpgVNKSgKmgCD / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_x8KTvx2Gssv5pKvQ",
+    "spcpt_dFMw8k43GC8y6mKH"
+   ]
+  },
+  "qstnprt_mWK5CQ7Cm9hfnJGN": {
+   "kind": "question_part",
+   "label": "qstn_yN4scHKRfbdnQpKz / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_nNM2WwKQTv48wVgC",
+    "spcpt_FRGxBjvZkFJMWKRF"
+   ]
+  },
+  "qstnprt_QvStq5yWb7bmwvb3": {
+   "kind": "question_part",
+   "label": "qstn_2H4jVypRm6PSFRVB / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_4y8Dv8scdqqtcfmT"
+   ]
+  },
+  "qstnprt_VSwBJMn6jTPj6wZp": {
+   "kind": "question_part",
+   "label": "qstn_gQczSmX2QKSJ8RZQ / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_vvn57MzyxPkCbzNz"
+   ]
+  },
+  "qstnprt_kgPJNHv2mQ8Dp5Rp": {
+   "kind": "question_part",
+   "label": "qstn_SNpQnMSxhHvHRrnb / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_nNM2WwKQTv48wVgC"
+   ]
+  },
+  "qstnprt_B9sZDzSgKfSXnHHV": {
+   "kind": "question_part",
+   "label": "qstn_mTMr4VtqKh8ZChyX / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_xG8zqjhpQZQWJWhv",
+    "spcpt_xdCCp3CfNsKSJmPT",
+    "spcpt_fmj4k3bjjnR2RWDR"
+   ]
+  },
+  "qstnprt_gxpnbPGNxHGSyxq8": {
+   "kind": "question_part",
+   "label": "qstn_Bk2QSWRbgvGX76jx / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_K3M4jFDCXmMHh8J5"
+   ]
+  },
+  "qstnprt_btyPtJTYP3J2BM3X": {
+   "kind": "question_part",
+   "label": "qstn_ShPVJMsmMJsfGBFR / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_6MbWWQyg9MhJYwtZ"
+   ]
+  },
+  "qstnprt_ZfD8cbqFd9DGptyD": {
+   "kind": "question_part",
+   "label": "qstn_k4SbV7Zjbsd7Hpdb / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_fmj4k3bjjnR2RWDR"
+   ]
+  },
+  "qstnprt_5FDPYsmh3Hpzz79P": {
+   "kind": "question_part",
+   "label": "qstn_SmPTSnvrGmGs4khW / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-stalin-gain-and-hold-on-to-power",
+   "codes": [],
+   "pending": [
+    "spcpt_Y2rsdJJhZP9WtQGz",
+    "spcpt_9B4bvks86WGvhsfx"
+   ]
+  },
+  "qstnprt_3BFPpDzBQxmSgN6X": {
+   "kind": "question_part",
+   "label": "qstn_GxW6cBhTskp6Yfcs / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_w6gwNgp8tnd8g5jC",
+    "spcpt_T6pJYmpGbpkm6qQS",
+    "spcpt_94bBGsQ3M29YkXKj"
+   ]
+  },
+  "qstnprt_cWrs6BT733BqBZYd": {
+   "kind": "question_part",
+   "label": "qstn_cXmhhXjJWNmq4f62 / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_XBZVt9VgttkFsNsw",
+    "spcpt_pc7G97yprghJMhHS",
+    "spcpt_NjQvx7nfD8QSyrrM",
+    "spcpt_KfNGrmvDyTpRCR23",
+    "spcpt_jBW8nwfnv5qgmWpC"
+   ]
+  },
+  "qstnprt_NRmkp52xmPDy6WYg": {
+   "kind": "question_part",
+   "label": "qstn_YJQ93dMSPjqsHjvZ / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_wbjtBy94QfzgVHGh",
+    "spcpt_w6gwNgp8tnd8g5jC",
+    "spcpt_T6pJYmpGbpkm6qQS",
+    "spcpt_94bBGsQ3M29YkXKj"
+   ]
+  },
+  "qstnprt_BnPG6gRvSjHkpvyT": {
+   "kind": "question_part",
+   "label": "qstn_GJkqcsy2y5MNxtrG / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_XBZVt9VgttkFsNsw",
+    "spcpt_pc7G97yprghJMhHS",
+    "spcpt_NjQvx7nfD8QSyrrM",
+    "spcpt_KfNGrmvDyTpRCR23",
+    "spcpt_jBW8nwfnv5qgmWpC"
+   ]
+  },
+  "qstnprt_8bYwrP7kxxmVPVJ4": {
+   "kind": "question_part",
+   "label": "qstn_3TRCWsRfWFRHGJMQ / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_wbjtBy94QfzgVHGh",
+    "spcpt_w6gwNgp8tnd8g5jC"
+   ]
+  },
+  "qstnprt_RNBy9xB7tqtjBr78": {
+   "kind": "question_part",
+   "label": "qstn_Cr7jcgQcwtQS9Kgs / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_NjQvx7nfD8QSyrrM",
+    "spcpt_KfNGrmvDyTpRCR23"
+   ]
+  },
+  "qstnprt_ZtZRWdbF5rz6g2Gj": {
+   "kind": "question_part",
+   "label": "qstn_KdWx83sXjgqkJQY5 / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_w6gwNgp8tnd8g5jC",
+    "spcpt_94bBGsQ3M29YkXKj"
+   ]
+  },
+  "qstnprt_jHgDrQTTZJVtkdyb": {
+   "kind": "question_part",
+   "label": "qstn_ZDjSrJsrKC8rysjW / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_NjQvx7nfD8QSyrrM",
+    "spcpt_jBW8nwfnv5qgmWpC"
+   ]
+  },
+  "qstnprt_JvbpHqjMK25Dcc6k": {
+   "kind": "question_part",
+   "label": "qstn_Mn8jw2HZQRVfY3Sp / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_T6pJYmpGbpkm6qQS"
+   ]
+  },
+  "qstnprt_ZkJwGQr3dy7n22qf": {
+   "kind": "question_part",
+   "label": "qstn_G8YHcmFCCxkSDscg / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_KfNGrmvDyTpRCR23"
+   ]
+  },
+  "qstnprt_CF59cWpRK6xqfj58": {
+   "kind": "question_part",
+   "label": "qstn_rdW7tvdnhtVmHGXK / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_bVZKJNWwPmpF6d8P"
+   ]
+  },
+  "qstnprt_Spzh6jr4gWGVJdkf": {
+   "kind": "question_part",
+   "label": "qstn_p9KyFNV5z88gXdgG / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_KFyZtdZFM5x95vJT"
+   ]
+  },
+  "qstnprt_SQqX4xQvsCwXXRz5": {
+   "kind": "question_part",
+   "label": "qstn_SCZY6nZSFgPFvwt6 / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_T6FjjtBKr3QR6GGF",
+    "spcpt_gnNJmGDByzSyVCRq",
+    "spcpt_Fn4NtkgxT3yBGYqd",
+    "spcpt_CVHzzMczg23dfPPM"
+   ]
+  },
+  "qstnprt_fgn59tpRhFGNq767": {
+   "kind": "question_part",
+   "label": "qstn_TW5NTCkXpDWwsdPq / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_wYXBDvGf9S8x2P5P"
+   ]
+  },
+  "qstnprt_T7hCfst7XJkn3bXW": {
+   "kind": "question_part",
+   "label": "qstn_wNJxFGtNbVYHVKd9 / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_KFyZtdZFM5x95vJT"
+   ]
+  },
+  "qstnprt_jHr7ttbZmrRdSPz5": {
+   "kind": "question_part",
+   "label": "qstn_cFRhbKF4Q6D9HwgT / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_T6FjjtBKr3QR6GGF",
+    "spcpt_Fn4NtkgxT3yBGYqd"
+   ]
+  },
+  "qstnprt_6zt75W9ZsrKT8rxr": {
+   "kind": "question_part",
+   "label": "qstn_S5FwZcSBbXMQqTd8 / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_YtMTGYMs8NX9D5VH",
+    "spcpt_wYXBDvGf9S8x2P5P"
+   ]
+  },
+  "qstnprt_pQ3yrPhrY8vWwmWp": {
+   "kind": "question_part",
+   "label": "qstn_KKfj3vfJBSTzdkSV / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_KFyZtdZFM5x95vJT"
+   ]
+  },
+  "qstnprt_nYkt8D23h3RvJdBf": {
+   "kind": "question_part",
+   "label": "qstn_WQ83QFyJV3SfYFfw / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_T6FjjtBKr3QR6GGF",
+    "spcpt_KFyZtdZFM5x95vJT",
+    "spcpt_gnNJmGDByzSyVCRq",
+    "spcpt_Fn4NtkgxT3yBGYqd",
+    "spcpt_CVHzzMczg23dfPPM"
+   ]
+  },
+  "qstnprt_n8SGG28tjHBMyGKc": {
+   "kind": "question_part",
+   "label": "qstn_xnwm5gncHHYKC6r7 / part 0",
+   "section": "russia-1905-41",
+   "topic": "how-did-the-bolsheviks-gain-and-consolidate-their-rule",
+   "codes": [],
+   "pending": [
+    "spcpt_wYXBDvGf9S8x2P5P"
+   ]
+  },
+  "qstnprt_y8yHtsnbCcYcHvJ5": {
+   "kind": "question_part",
+   "label": "qstn_7ztsJS58wxCjz2HD / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_xvxf7fPXWcPBYc4G",
+    "spcpt_WvcgBGhcbnffTp6h"
+   ]
+  },
+  "qstnprt_wG8TKC76NDZgNnpc": {
+   "kind": "question_part",
+   "label": "qstn_pFMwHnrqr8GFzSyr / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM"
+   ]
+  },
+  "qstnprt_srrGrmqGDjqNvmRq": {
+   "kind": "question_part",
+   "label": "qstn_kgGNvcYsxSzfbvBn / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_vmB9zR4yjB4SRbX7"
+   ]
+  },
+  "qstnprt_7ssNqKqCzxfrywCp": {
+   "kind": "question_part",
+   "label": "qstn_TrhNPHw8RKpYjcfW / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_sj4vBThK3MH6PCV3"
+   ]
+  },
+  "qstnprt_cTpkqtW24fgfmt3t": {
+   "kind": "question_part",
+   "label": "qstn_43dh9XdmDYQ2Gsz8 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM"
+   ]
+  },
+  "qstnprt_qFY45n3fDKnd2PvJ": {
+   "kind": "question_part",
+   "label": "qstn_dYGQ7N5Jc3rN7NXx / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_vmB9zR4yjB4SRbX7"
+   ]
+  },
+  "qstnprt_ZZZRhYTRzwbtC7rV": {
+   "kind": "question_part",
+   "label": "qstn_TrnmVwhPZXtSF6kH / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM"
+   ]
+  },
+  "qstnprt_2d9SR9cBTBXGHWnX": {
+   "kind": "question_part",
+   "label": "qstn_6BGjFQZFnscgrKq5 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_vmB9zR4yjB4SRbX7"
+   ]
+  },
+  "qstnprt_m7nsHV9SFn2VZNmq": {
+   "kind": "question_part",
+   "label": "qstn_CHKBpRhnYjjcFhJn / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM"
+   ]
+  },
+  "qstnprt_vZx6BGQjkv9BfTWm": {
+   "kind": "question_part",
+   "label": "qstn_cVMpn9pHY7WkGYnJ / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_vmB9zR4yjB4SRbX7"
+   ]
+  },
+  "qstnprt_HpvTxN6zY8bbXKKm": {
+   "kind": "question_part",
+   "label": "qstn_MV7y9bCpQ7nrZnb7 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM"
+   ]
+  },
+  "qstnprt_Cj6NJMR6v5xxbmYy": {
+   "kind": "question_part",
+   "label": "qstn_H7psKXqD9w6c8cJY / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_vmB9zR4yjB4SRbX7"
+   ]
+  },
+  "qstnprt_2Kx56P3pPzfSVYbf": {
+   "kind": "question_part",
+   "label": "qstn_VfC4VxXnWRKHKM57 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_TcWr9ZxPQ966fw2y",
+    "spcpt_RXPmRj756TmxzBMn"
+   ]
+  },
+  "qstnprt_z8d3Z4tRVrtrJRjd": {
+   "kind": "question_part",
+   "label": "qstn_Rqy7xGzJMBvCtysT / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_xvxf7fPXWcPBYc4G",
+    "spcpt_sj4vBThK3MH6PCV3"
+   ]
+  },
+  "qstnprt_ZrYkMvQRsRtpr2gd": {
+   "kind": "question_part",
+   "label": "qstn_J5XQDx8dfwzdSHW6 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_xvxf7fPXWcPBYc4G",
+    "spcpt_WvcgBGhcbnffTp6h",
+    "spcpt_vmB9zR4yjB4SRbX7"
+   ]
+  },
+  "qstnprt_jVsypYXKv5JJ5t6w": {
+   "kind": "question_part",
+   "label": "qstn_yKXsxJQbP97MTdJM / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_sj4vBThK3MH6PCV3"
+   ]
+  },
+  "qstnprt_8f6XngSqgN3PjThV": {
+   "kind": "question_part",
+   "label": "qstn_TC5ZkZcQ7H5XYDcz / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_WvcgBGhcbnffTp6h",
+    "spcpt_RXPmRj756TmxzBMn"
+   ]
+  },
+  "qstnprt_Rmgd8RMJzvMQsZxf": {
+   "kind": "question_part",
+   "label": "qstn_JtnzMf9vDcjZfgGr / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_T8n3QrcFFpjZzQwM",
+    "spcpt_HZf6zKNCDfcyNbBX"
+   ]
+  },
+  "qstnprt_5sSPG6zKY2tZcBjz": {
+   "kind": "question_part",
+   "label": "qstn_sZXsyhr3CNH4fmm7 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_HZf6zKNCDfcyNbBX"
+   ]
+  },
+  "qstnprt_bWx4Z4yGDF8nWJRc": {
+   "kind": "question_part",
+   "label": "qstn_3Yysfh3m7MTyn8T2 / part 0",
+   "section": "russia-1905-41",
+   "topic": "what-was-the-impact-of-stalins-economic-policies",
+   "codes": [],
+   "pending": [
+    "spcpt_HZf6zKNCDfcyNbBX"
+   ]
+  },
+  "qstnprt_9wBZbcsSWwbYTXJW": {
+   "kind": "question_part",
+   "label": "qstn_8Dz7H5NgP4Mt9sYT / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_w8fqzybmYDjV3FGd",
+    "spcpt_VT8KK7b7rvzBfXD6",
+    "spcpt_CdR7y2stJX9XZbCJ"
+   ]
+  },
+  "qstnprt_ftWFfHQs3zYfdsQd": {
+   "kind": "question_part",
+   "label": "qstn_9TyXZNVMJRRrWJzX / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_j5MY5WGCqGnKGqbs"
+   ]
+  },
+  "qstnprt_5cDPkwBrGpG443kX": {
+   "kind": "question_part",
+   "label": "qstn_cRCQJbSsHdrjXwfv / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_zSKNp6grSJXnYYGy",
+    "spcpt_rT79dNCW84jK7nMr",
+    "spcpt_jhjSbWWN3jC4dC67"
+   ]
+  },
+  "qstnprt_J6Jbch2YjBp3vQ4M": {
+   "kind": "question_part",
+   "label": "qstn_4r2s7YPcftF7DSym / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_R49zg4V6ZPNSgsgT"
+   ]
+  },
+  "qstnprt_YQb6Gf6HJMJQqQ98": {
+   "kind": "question_part",
+   "label": "qstn_w2rtX4SHGC8Nk2RC / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_zSKNp6grSJXnYYGy",
+    "spcpt_rT79dNCW84jK7nMr",
+    "spcpt_jhjSbWWN3jC4dC67"
+   ]
+  },
+  "qstnprt_v5mJy594CWwhnH4H": {
+   "kind": "question_part",
+   "label": "qstn_bxkkqVs4txb39PbC / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_xGVPgykfJgtCQcGs",
+    "spcpt_s2BycdtmtWhhxQBz"
+   ]
+  },
+  "qstnprt_hN7PdmVrjT6kQYkM": {
+   "kind": "question_part",
+   "label": "qstn_2ZxWt7KgD26Z5tTt / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_w8fqzybmYDjV3FGd",
+    "spcpt_bpq5y6JsvYfVrR2F",
+    "spcpt_bFRbFWVfB447HPyP"
+   ]
+  },
+  "qstnprt_qbcWR3b2f4XtwJct": {
+   "kind": "question_part",
+   "label": "qstn_NFrk9psj4f3NRKFb / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_PzcHMVMhqT7c262Z",
+    "spcpt_8f2zJX8GjDJb2rfZ"
+   ]
+  },
+  "qstnprt_WsszdS6N29TBvYnB": {
+   "kind": "question_part",
+   "label": "qstn_gcB9PxfzQhY8fMGX / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_Qv4snqbDdZGW9XY5"
+   ]
+  },
+  "qstnprt_kNKbtsMPh6zwXkxz": {
+   "kind": "question_part",
+   "label": "qstn_xSxNcF2K3mMDwgns / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_PzcHMVMhqT7c262Z",
+    "spcpt_bpq5y6JsvYfVrR2F"
+   ]
+  },
+  "qstnprt_9sd9nyjxw95STTwy": {
+   "kind": "question_part",
+   "label": "qstn_CSw4PTrGHrMrrPkQ / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_bFRbFWVfB447HPyP"
+   ]
+  },
+  "qstnprt_kHyKCnv8bzgP5PjF": {
+   "kind": "question_part",
+   "label": "qstn_SBK2YRSwk8RP3gN9 / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_R49zg4V6ZPNSgsgT"
+   ]
+  },
+  "qstnprt_xGVQBk5wg24krWT3": {
+   "kind": "question_part",
+   "label": "qstn_4z83TQdJ6wwcrTB2 / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_6Ktd9r3gYnMCygmV"
+   ]
+  },
+  "qstnprt_r2rdQWj5xdmMtTzR": {
+   "kind": "question_part",
+   "label": "qstn_jpCVD84mM5xzytHN / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_R49zg4V6ZPNSgsgT",
+    "spcpt_PzcHMVMhqT7c262Z",
+    "spcpt_8f2zJX8GjDJb2rfZ"
+   ]
+  },
+  "qstnprt_CPqF8r63StprFj49": {
+   "kind": "question_part",
+   "label": "qstn_srZ9mYcfWy2q2KgN / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_zSKNp6grSJXnYYGy"
+   ]
+  },
+  "qstnprt_NWNzNvYXCNGrxByX": {
+   "kind": "question_part",
+   "label": "qstn_Sg4yk6HZ7Dy3fm7F / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_rT79dNCW84jK7nMr",
+    "spcpt_Qv4snqbDdZGW9XY5",
+    "spcpt_jhjSbWWN3jC4dC67"
+   ]
+  },
+  "qstnprt_7bB8T2KZnnqwbKXb": {
+   "kind": "question_part",
+   "label": "qstn_BCn9zNfBWfmzvqBd / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_rT79dNCW84jK7nMr",
+    "spcpt_jhjSbWWN3jC4dC67"
+   ]
+  },
+  "qstnprt_HpjDKZ4W3986dGDw": {
+   "kind": "question_part",
+   "label": "qstn_WgHPyBRKSCDPcDbt / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_8f2zJX8GjDJb2rfZ"
+   ]
+  },
+  "qstnprt_zB8RrR3zd9QWkwdF": {
+   "kind": "question_part",
+   "label": "qstn_TZpwgxWJrgWb8Qd4 / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_rT79dNCW84jK7nMr"
+   ]
+  },
+  "qstnprt_ryFc4WZzyS4vMb3t": {
+   "kind": "question_part",
+   "label": "qstn_HNnm9rkbJFDQdRYH / part 0",
+   "section": "russia-1905-41",
+   "topic": "why-did-the-tsarist-regime-collapse-in-1917",
+   "codes": [],
+   "pending": [
+    "spcpt_w8fqzybmYDjV3FGd",
+    "spcpt_VT8KK7b7rvzBfXD6",
+    "spcpt_bFRbFWVfB447HPyP"
+   ]
+  },
+  "qstnprt_5ZBt5DByKvxp3MCh": {
+   "kind": "question_part",
+   "label": "qstn_y6kmTKdYT663FYsv / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_swhs6T4ZSdhqCd49",
+    "spcpt_GJBct5dz4fpRxJGq",
+    "spcpt_dmCMKPzTHtyJdqsT"
+   ]
+  },
+  "qstnprt_w5SkB42Y2zx3ww8s": {
+   "kind": "question_part",
+   "label": "qstn_v9ZQbV2ZBzW8xrbc / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_YfmG6DTDtDsg8Nfs",
+    "spcpt_WYbNxKRsVXzFrGvf",
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_H3PGj3NV4VqxkrZc": {
+   "kind": "question_part",
+   "label": "qstn_WV3X3r6qsNBjjwKC / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_WYbNxKRsVXzFrGvf",
+    "spcpt_swhs6T4ZSdhqCd49",
+    "spcpt_RcHKxHsXFnXgZMJ7"
+   ]
+  },
+  "qstnprt_v5XhVS4d78z3ZGGF": {
+   "kind": "question_part",
+   "label": "qstn_W2nDfg444JqkFjXZ / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_kt7g3ZT85qbM7384",
+    "spcpt_FPzKXgKnB2QfcD7c"
+   ]
+  },
+  "qstnprt_3qXkWv5BDbrpQfkC": {
+   "kind": "question_part",
+   "label": "qstn_W2QYhFtMzZMkVQnf / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_YcY66vvKnK2v7w4j": {
+   "kind": "question_part",
+   "label": "qstn_JSPW8Twscx4HJyxv / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_kNZzGDQcN5Svkd8Q"
+   ]
+  },
+  "qstnprt_ZBYy9sRVypBTwsHM": {
+   "kind": "question_part",
+   "label": "qstn_6452BgqnrdT9mzTP / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_WYbNxKRsVXzFrGvf"
+   ]
+  },
+  "qstnprt_FxqVtHtgdFr5FXVW": {
+   "kind": "question_part",
+   "label": "qstn_mjXTgPvBmwYbnfpX / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_WcVVxMN77ZMvcSjB",
+    "spcpt_dtZtwmRWgRx2DRnK"
+   ]
+  },
+  "qstnprt_3DgNM2rxrBmrSNZ6": {
+   "kind": "question_part",
+   "label": "qstn_M88Y5SxhHQz6KbQC / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_TZKqff8gCmfmyxzG"
+   ]
+  },
+  "qstnprt_4ZXtB8cxhPQrrPmp": {
+   "kind": "question_part",
+   "label": "qstn_MxB4BRpdyGFCyb37 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_v25YMkdfWZNZZq6h": {
+   "kind": "question_part",
+   "label": "qstn_K3G8fjbHVGmk3X3H / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_24fdp82TYv4ZJ55g": {
+   "kind": "question_part",
+   "label": "qstn_fr8QKJ9rJ9cMcFPM / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_hDKcGrnmHKwvVTCK": {
+   "kind": "question_part",
+   "label": "qstn_dJj3GvsPBdVwFKz7 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_7R9KSZBPqsPF66fC": {
+   "kind": "question_part",
+   "label": "qstn_m2qQXhmktDjDCc6q / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_yJGKCh5gnRWmBnZp",
+    "spcpt_rMf9bWxTHXPhRrvP",
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_Mrv3sXRxk6pdV4JC": {
+   "kind": "question_part",
+   "label": "qstn_y64ktPyvZCnCrk9Q / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_4XXRJmpYZPQTSXz4"
+   ]
+  },
+  "qstnprt_YpfHVMXnJzJfkwKZ": {
+   "kind": "question_part",
+   "label": "qstn_fkRTscPgj6JcTc8z / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_zjQCmWfZ3FP9QTp6",
+    "spcpt_RcHKxHsXFnXgZMJ7"
+   ]
+  },
+  "qstnprt_Q4srzMyB7K7D3rpm": {
+   "kind": "question_part",
+   "label": "qstn_cspQbk5MCSHbdDyN / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "did-the-united-states-contain-the-spread-of-communism",
+   "codes": [],
+   "pending": [
+    "spcpt_DHhKV4WpMTyKPhcC"
+   ]
+  },
+  "qstnprt_Hhzx5DKswrR4GqRK": {
+   "kind": "question_part",
+   "label": "qstn_5fRCHfWfZkkZVq32 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_rh6JYvhdqvq467VM",
+    "spcpt_Qbh27VkfdDPcgQMz",
+    "spcpt_8tcGmDXVGm7gD7Yk"
+   ]
+  },
+  "qstnprt_wrV6wvw8Q3BtVXhq": {
+   "kind": "question_part",
+   "label": "qstn_8cMhQhJbFDFKJTq9 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_r5XZWxsN7pFVVfCy",
+    "spcpt_9Yk49vsSsq9CvSfB"
+   ]
+  },
+  "qstnprt_rXCYVv9Bx29ts28N": {
+   "kind": "question_part",
+   "label": "qstn_pxfZRhggVtPCrR9h / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_8tcGmDXVGm7gD7Yk",
+    "spcpt_3dPCrNHdTcZy3jrc"
+   ]
+  },
+  "qstnprt_Y7RGxyqkqnZn3QY3": {
+   "kind": "question_part",
+   "label": "qstn_nVgmfqZWdKdcP3Q7 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_VFFJzXkXcHrwdbZc"
+   ]
+  },
+  "qstnprt_vDVzkWR5YsFY3Hwp": {
+   "kind": "question_part",
+   "label": "qstn_Wv25FpswJNPtT9pM / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_7chZYrq2tjk23cTb"
+   ]
+  },
+  "qstnprt_VJb3FBtXKHPGJt4c": {
+   "kind": "question_part",
+   "label": "qstn_6NhNMgkDqPh8mPVR / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_Q7Nt338qT67QftkS",
+    "spcpt_dq5kd5QWkT9SZwdK",
+    "spcpt_8tcGmDXVGm7gD7Yk"
+   ]
+  },
+  "qstnprt_6NnSrWbjXJ8xTxzT": {
+   "kind": "question_part",
+   "label": "qstn_NjqPmhZv32r8TFxv / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_v8YF3vGDkKhJqcSP"
+   ]
+  },
+  "qstnprt_5hGtx2HpnpW7rrp4": {
+   "kind": "question_part",
+   "label": "qstn_x7vwGjbm3j8FwhXP / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_v8YF3vGDkKhJqcSP",
+    "spcpt_rvVw9N7RD4Qjx8hK",
+    "spcpt_dXYH9s3NKkQ6Yj4m"
+   ]
+  },
+  "qstnprt_33bwMc2ZWgrcWDNs": {
+   "kind": "question_part",
+   "label": "qstn_8pV26GbbdRtqD9Pw / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_bWGKnsmsft7Wwcm4",
+    "spcpt_3JS9pmYDXKSMXffs"
+   ]
+  },
+  "qstnprt_JNyzhBPTwxMCzN2R": {
+   "kind": "question_part",
+   "label": "qstn_Fgh2SxcXWdqfmq7z / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_bWGKnsmsft7Wwcm4"
+   ]
+  },
+  "qstnprt_YWKJbtcNQ9m63dXh": {
+   "kind": "question_part",
+   "label": "qstn_JpkbjNXF6yShckWn / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "how-secure-was-the-ussrs-control-over-eastern-europe-1948-c-1989",
+   "codes": [],
+   "pending": [
+    "spcpt_3Zn4CtnwCvnT4dPj"
+   ]
+  },
+  "qstnprt_v5FMr7t59CB9PTK7": {
+   "kind": "question_part",
+   "label": "qstn_wjkGGFjFsVySGj7F / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.020",
+     "official_code": "S13.020",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_J8jQn5pqnb64qNp5",
+    "spcpt_C4qFW2jkr26vZWKx"
+   ]
+  },
+  "qstnprt_fF4PV2gwGhTHFSWf": {
+   "kind": "question_part",
+   "label": "qstn_BkHPXRXdvz8SRWYP / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_fMsNx3F92hNxwQcs",
+    "spcpt_F7khB9CF9W7NHssr"
+   ]
+  },
+  "qstnprt_wgpN8sZ2pHDJBHRj": {
+   "kind": "question_part",
+   "label": "qstn_3Rfw2XQC84YM8DWP / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.018",
+     "official_code": "S4.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_YgFVtkHZx8Zt4qbq",
+    "spcpt_GkmdJhwMGhfWCkVs"
+   ]
+  },
+  "qstnprt_bxH39XmjmcKjwQQ3": {
+   "kind": "question_part",
+   "label": "qstn_ysTqvf6sbs77j8XF / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_fMsNx3F92hNxwQcs"
+   ]
+  },
+  "qstnprt_24XrFtJDRTqB6GDH": {
+   "kind": "question_part",
+   "label": "qstn_R3ZxhkCsKGhctxfr / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S4.028",
+     "official_code": "S4.028",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fFzzBSRTYP6RgCx6": {
+   "kind": "question_part",
+   "label": "qstn_2mSkN7dFSRqySHXb / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_SyX5z8RCrWBQryzV"
+   ]
+  },
+  "qstnprt_scJJFsNRQcFHcTmY": {
+   "kind": "question_part",
+   "label": "qstn_7f2GGgf78PCzZdxX / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_BNgvFgqdnSKpbbsH"
+   ]
+  },
+  "qstnprt_PFGBnRh8tXfKCDMv": {
+   "kind": "question_part",
+   "label": "qstn_WcBWD6CKgRWD5ms2 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_bmCg9V7zGpNxqJF5"
+   ]
+  },
+  "qstnprt_kjRcCzd9hd477GVR": {
+   "kind": "question_part",
+   "label": "qstn_t25NGXYRS67tDKjm / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_wtqFKcT5BR34wn8Z"
+   ]
+  },
+  "qstnprt_Mdqcn5NXGxwJWB8t": {
+   "kind": "question_part",
+   "label": "qstn_tCDYt8nFKyGh9Bv8 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_zNYH4KsGWTYwSGyB",
+    "spcpt_NSkmXTVKrGXcCWwP",
+    "spcpt_nRfPG5QV85Y6hv58"
+   ]
+  },
+  "qstnprt_xR6Y9dFTCKncfsPf": {
+   "kind": "question_part",
+   "label": "qstn_B8vwBnWkTzvDf578 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_PkShHfj6mWjGhFqC",
+    "spcpt_Ggw6MszknDfwf7q2"
+   ]
+  },
+  "qstnprt_Rbp9VmPTFnyB8k7P": {
+   "kind": "question_part",
+   "label": "qstn_tmmPm8T5yMRpPsg2 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "to-what-extent-was-the-league-of-nations-a-success",
+   "codes": [],
+   "pending": [
+    "spcpt_nRfPG5QV85Y6hv58"
+   ]
+  },
+  "qstnprt_9X7TqMFbkyqNk7px": {
+   "kind": "question_part",
+   "label": "qstn_fNPwjCdmqDb7Dk23 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_WZxMDYTrSQJK6Vk9",
+    "spcpt_SfZySNDWwRqRgxHV",
+    "spcpt_gTzfz7mhbzW3hK75"
+   ]
+  },
+  "qstnprt_SWbMVgtDZjwy7R56": {
+   "kind": "question_part",
+   "label": "qstn_tcww7NJqpMyQsmqb / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_Tgww3zN23WnXjjHd",
+    "spcpt_g2XZXNnMQ7tWJbdY",
+    "spcpt_8PPnHrm39MfchCYr"
+   ]
+  },
+  "qstnprt_QCyMKwCvdFjhGkdM": {
+   "kind": "question_part",
+   "label": "qstn_hp7BVnnWRfhKBW9d / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_nJdRYVwTrxDwv9DJ"
+   ]
+  },
+  "qstnprt_C7rGFjX4RKcprG3w": {
+   "kind": "question_part",
+   "label": "qstn_zN3ksD9dpjG2nVrm / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_WZxMDYTrSQJK6Vk9",
+    "spcpt_GrnmgjR3RchxDDdQ"
+   ]
+  },
+  "qstnprt_nkxYrqy4vxjfWKRp": {
+   "kind": "question_part",
+   "label": "qstn_CrkzPT9H5pQq2XmV / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_JwWBTj5m2SfKXW3T"
+   ]
+  },
+  "qstnprt_6rPTjmsK4QGgbtNz": {
+   "kind": "question_part",
+   "label": "qstn_jgKSFkCXtcYxQHWF / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_mjMvc7FK7YzYdZGr"
+   ]
+  },
+  "qstnprt_HdxxrCHrJ6H4HPTR": {
+   "kind": "question_part",
+   "label": "qstn_ZwNM4rjybWKVY5dD / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_kCz4KNkKnbHjtqwR"
+   ]
+  },
+  "qstnprt_6BmtngZDSX7sfwn3": {
+   "kind": "question_part",
+   "label": "qstn_RZqbcPzqG5yJg9Bq / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_jmhDpwNqrxfRmjCs",
+    "spcpt_GFFQh7XdrNvvGfx8"
+   ]
+  },
+  "qstnprt_Gxygj73FqsNtBJss": {
+   "kind": "question_part",
+   "label": "qstn_x8WQRDShdnc7SQ3H / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_YB4n5fBNdZTgPMTx",
+    "spcpt_ThTNG5gk8XPqZyr8",
+    "spcpt_bCS3n2xgVJzVWGK8"
+   ]
+  },
+  "qstnprt_fjCdzXg53n3W2GcD": {
+   "kind": "question_part",
+   "label": "qstn_yGxyqSMfhRPmfbKf / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_gTzfz7mhbzW3hK75"
+   ]
+  },
+  "qstnprt_NHDcmXnD2H3WQgQ6": {
+   "kind": "question_part",
+   "label": "qstn_g5CfZTSbYyZFnw3Z / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_ThTNG5gk8XPqZyr8"
+   ]
+  },
+  "qstnprt_qgjPwR6J6Xc9pxDs": {
+   "kind": "question_part",
+   "label": "qstn_6JDb9ZKQsWpzZwhH / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-hitlers-foreign-policy-to-blame-for-the-second-world-war",
+   "codes": [],
+   "pending": [
+    "spcpt_pjvR4W7yD7S6jxhF"
+   ]
+  },
+  "qstnprt_frVQ4Vn8mfXcgdfj": {
+   "kind": "question_part",
+   "label": "qstn_8FxQKdzszbdxxD7N / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_H5TfZNnFtCbdvZB8",
+    "spcpt_dHJgnj6xQkhq53TG",
+    "spcpt_6ZmWKpT3ZYgYFRDG"
+   ]
+  },
+  "qstnprt_SW3PxZjDzcRq7FBw": {
+   "kind": "question_part",
+   "label": "qstn_XbXffCwZCjyRFbgh / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_T2CFKhhCwwZPzZYV",
+    "spcpt_sDWw85FgjXbXtjqK",
+    "spcpt_jFG7mKNKKhmQmxRR"
+   ]
+  },
+  "qstnprt_CWWzWHh6tSH89cWH": {
+   "kind": "question_part",
+   "label": "qstn_dk7Jsz8NZkmJFPK4 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_4b9C4P2Cf3sCTQJW"
+   ]
+  },
+  "qstnprt_KrdDDDQkWQqt7sk3": {
+   "kind": "question_part",
+   "label": "qstn_38RJ4z5h26XCbSwV / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_z3K2C46kSX5N5rTs",
+    "spcpt_dHJgnj6xQkhq53TG"
+   ]
+  },
+  "qstnprt_QDZKHkJkJrP5dsMr": {
+   "kind": "question_part",
+   "label": "qstn_wpQpQwffhdQ33vgF / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_fNS62zwT2KRw7sNt"
+   ]
+  },
+  "qstnprt_XX958P6KYBTYMTrX": {
+   "kind": "question_part",
+   "label": "qstn_RbFrGtPjr3ZyVR29 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_34Z735Jpn55X7g6J"
+   ]
+  },
+  "qstnprt_YShsXgY35kDnNPHT": {
+   "kind": "question_part",
+   "label": "qstn_9Scztm9b5qWXTQ6M / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_T2CFKhhCwwZPzZYV",
+    "spcpt_sDWw85FgjXbXtjqK",
+    "spcpt_jFG7mKNKKhmQmxRR",
+    "spcpt_34Z735Jpn55X7g6J"
+   ]
+  },
+  "qstnprt_S4JQsdNrG9wBftsg": {
+   "kind": "question_part",
+   "label": "qstn_QcxgcDg7m6nw4YYy / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_jFG7mKNKKhmQmxRR",
+    "spcpt_6ZmWKpT3ZYgYFRDG"
+   ]
+  },
+  "qstnprt_jmwZW6pR2NNwHxFd": {
+   "kind": "question_part",
+   "label": "qstn_YWkd44FxrK5dxn2m / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_sDWw85FgjXbXtjqK",
+    "spcpt_jFG7mKNKKhmQmxRR",
+    "spcpt_34Z735Jpn55X7g6J"
+   ]
+  },
+  "qstnprt_b4svdnPsMxRJCyJw": {
+   "kind": "question_part",
+   "label": "qstn_Dpfmxg3kG4tt2PPS / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_H5TfZNnFtCbdvZB8",
+    "spcpt_dHJgnj6xQkhq53TG"
+   ]
+  },
+  "qstnprt_fmhVw4zCjpkZf9XB": {
+   "kind": "question_part",
+   "label": "qstn_bjbsGZj3W9QTRkZS / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_sDWw85FgjXbXtjqK",
+    "spcpt_jFG7mKNKKhmQmxRR",
+    "spcpt_dHJgnj6xQkhq53TG"
+   ]
+  },
+  "qstnprt_3HXQxKJ4z7BfrZcC": {
+   "kind": "question_part",
+   "label": "qstn_575xMSMsZgn4sjCG / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_z3K2C46kSX5N5rTs",
+    "spcpt_dHJgnj6xQkhq53TG",
+    "spcpt_6ZmWKpT3ZYgYFRDG"
+   ]
+  },
+  "qstnprt_fVJrX78RPNGnbRP9": {
+   "kind": "question_part",
+   "label": "qstn_vBXMBjGmYp4bYvb6 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_YDs7bjWpQxkMJsPm",
+    "spcpt_sDWw85FgjXbXtjqK",
+    "spcpt_JhrTNbsVPKKH6kCV"
+   ]
+  },
+  "qstnprt_SvyZtvhZvdTWbpZV": {
+   "kind": "question_part",
+   "label": "qstn_wzNCNnJq2wywJkDr / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_T2CFKhhCwwZPzZYV"
+   ]
+  },
+  "qstnprt_YvPdKrsqsT9PhTNp": {
+   "kind": "question_part",
+   "label": "qstn_mPv2ZYyVv9cz9Qnk / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_z3K2C46kSX5N5rTs",
+    "spcpt_6ZmWKpT3ZYgYFRDG"
+   ]
+  },
+  "qstnprt_7sYgY77XMPZ8nvkr": {
+   "kind": "question_part",
+   "label": "qstn_jWcP2wJKb9WkvK49 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.018",
+     "official_code": "S13.018",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.011",
+     "official_code": "S13.011",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_tW8m9SwYt27SVMV6",
+    "spcpt_JhrTNbsVPKKH6kCV"
+   ]
+  },
+  "qstnprt_xBxy89wY5YGX5VSz": {
+   "kind": "question_part",
+   "label": "qstn_PC6yjyRf86xtZzdS / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "was-the-treaty-of-versailles-fair",
+   "codes": [],
+   "pending": [
+    "spcpt_T2CFKhhCwwZPzZYV"
+   ]
+  },
+  "qstnprt_86RZ4dry8VjnGKmX": {
+   "kind": "question_part",
+   "label": "qstn_PNBqtf69M9p9N8Cm / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_JfGBNSRVkSwV8YGg",
+    "spcpt_9qTRK9rJDY5gF7Bv",
+    "spcpt_6RXmqRSgkDN73YDM"
+   ]
+  },
+  "qstnprt_CdzhPzm2cypbgzMn": {
+   "kind": "question_part",
+   "label": "qstn_mXzBz8VHBGYg3KWg / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_mm39MPfZBxTfbCfr",
+    "spcpt_mbNvDb6v6NsN4YW6",
+    "spcpt_HRwrMXwM2WMYbGNM"
+   ]
+  },
+  "qstnprt_X2PMr8DZD46w4tZN": {
+   "kind": "question_part",
+   "label": "qstn_npW8sxjQ35ZfwYwD / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S21.032",
+     "official_code": "S21.032",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YPD2wDTpCc3TYj62": {
+   "kind": "question_part",
+   "label": "qstn_8zkQQG4fHzpFDbnQ / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_x66wZF47TdhmJzdD",
+    "spcpt_c99vNSWsbhhY4PwR"
+   ]
+  },
+  "qstnprt_pxY8fz8FQhRfshbZ": {
+   "kind": "question_part",
+   "label": "qstn_5fzpdSGg5WmZnrQq / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_6RXmqRSgkDN73YDM"
+   ]
+  },
+  "qstnprt_NNVqgnrtg7wYdryH": {
+   "kind": "question_part",
+   "label": "qstn_JY4ccz2ynWNDfjvk / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_hW8FFSzRXg8JgC93"
+   ]
+  },
+  "qstnprt_MPbrN95HHrrzjPyt": {
+   "kind": "question_part",
+   "label": "qstn_FSvby7PHhDGdYZ5k / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_zJtnzk6TZTgQSC9x",
+    "spcpt_FrkfYC4QmY9f9tNF"
+   ]
+  },
+  "qstnprt_PBmQHvMzX3VCqtpx": {
+   "kind": "question_part",
+   "label": "qstn_3sYNf9F5jmBNwZbh / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_9qTRK9rJDY5gF7Bv"
+   ]
+  },
+  "qstnprt_Wmdx5cv4fbkYW4YC": {
+   "kind": "question_part",
+   "label": "qstn_xMZqT23yzMSfY8tc / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S21.032",
+     "official_code": "S21.032",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_Zs5J8cKwhthtp73N",
+    "spcpt_SstrvnkRFTPMgxbn"
+   ]
+  },
+  "qstnprt_TcVf4SJj5sVmkM7n": {
+   "kind": "question_part",
+   "label": "qstn_Nwj7mkf94WN2Jnnd / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_SstrvnkRFTPMgxbn"
+   ]
+  },
+  "qstnprt_XHwxsXXvYzQGTW3G": {
+   "kind": "question_part",
+   "label": "qstn_bJWYQQZBt34vDNr5 / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_FrkfYC4QmY9f9tNF",
+    "spcpt_zJtnzk6TZTgQSC9x"
+   ]
+  },
+  "qstnprt_Yzp2ZNYBNNv99HfM": {
+   "kind": "question_part",
+   "label": "qstn_hKmRCjWwPTyJdpxX / part 0",
+   "section": "the-20th-century-international-relations-from-1919",
+   "topic": "who-was-to-blame-for-the-cold-war",
+   "codes": [],
+   "pending": [
+    "spcpt_zJtnzk6TZTgQSC9x"
+   ]
+  },
+  "qstnprt_Vz37K6RyB2RZd9MM": {
+   "kind": "question_part",
+   "label": "qstn_ydt7dtJFj8RFcTry / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nmFtWfTk2RdmSbMJ",
+    "spcpt_dKZnGbSpCXy364G6"
+   ]
+  },
+  "qstnprt_db9ZsR8C27brtKY3": {
+   "kind": "question_part",
+   "label": "qstn_2JYwzCrxdJKJRV4g / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_JGSqpyfcDNP57MDC",
+    "spcpt_crgGBM9Rzg9vRPgz"
+   ]
+  },
+  "qstnprt_J4N5qk5f5BH8wx4R": {
+   "kind": "question_part",
+   "label": "qstn_4HxCXnBT2XVdzzVw / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nmFtWfTk2RdmSbMJ",
+    "spcpt_dKZnGbSpCXy364G6"
+   ]
+  },
+  "qstnprt_Bzrm4csFGCpmNq43": {
+   "kind": "question_part",
+   "label": "qstn_4q7gWcMN89yxwvJm / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_XyMyBsQ39XmFSHBT",
+    "spcpt_WSB3CwSTjbWdg2SP",
+    "spcpt_JC99BvCmcK9WVGd7",
+    "spcpt_F5HGx7X74B5HvP9J",
+    "spcpt_2GGy6WS4QVrVxVCW"
+   ]
+  },
+  "qstnprt_NRdpBWmzbcRmc2dM": {
+   "kind": "question_part",
+   "label": "qstn_PxQNhB9ttYn5R9xB / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_JGSqpyfcDNP57MDC",
+    "spcpt_crgGBM9Rzg9vRPgz"
+   ]
+  },
+  "qstnprt_cPybnjtPcTKMqZ5C": {
+   "kind": "question_part",
+   "label": "qstn_t6RmJRVVMjFnxhCm / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nmFtWfTk2RdmSbMJ",
+    "spcpt_dKZnGbSpCXy364G6"
+   ]
+  },
+  "qstnprt_KbgHsH9Xm9GjHnhY": {
+   "kind": "question_part",
+   "label": "qstn_jY75hdY5xM59FGDW / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_JC99BvCmcK9WVGd7",
+    "spcpt_F5HGx7X74B5HvP9J"
+   ]
+  },
+  "qstnprt_mB8ZnT9QDCSjkFcC": {
+   "kind": "question_part",
+   "label": "qstn_JnXKKRpwqRgCfYD9 / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nmFtWfTk2RdmSbMJ",
+    "spcpt_dKZnGbSpCXy364G6"
+   ]
+  },
+  "qstnprt_rnZC8vwFrzDcjTvB": {
+   "kind": "question_part",
+   "label": "qstn_kWyT8qyxVnrs5CsN / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_JC99BvCmcK9WVGd7"
+   ]
+  },
+  "qstnprt_JvPFqX6t93yvn9Rs": {
+   "kind": "question_part",
+   "label": "qstn_55PD7J7bHgCGnRtW / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_F5HGx7X74B5HvP9J"
+   ]
+  },
+  "qstnprt_dt3t5FXTPDq58JRm": {
+   "kind": "question_part",
+   "label": "qstn_tqN6vcqQp2sFMb5s / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_crgGBM9Rzg9vRPgz"
+   ]
+  },
+  "qstnprt_66pJjVC5NDPBmrWZ": {
+   "kind": "question_part",
+   "label": "qstn_JcGKjJQ57sK7Bdsn / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_JC99BvCmcK9WVGd7"
+   ]
+  },
+  "qstnprt_H2JdmrY2Qqbztzzg": {
+   "kind": "question_part",
+   "label": "qstn_4mRc9SYFDyQXYNHR / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_F5HGx7X74B5HvP9J"
+   ]
+  },
+  "qstnprt_4HPK9scK6J4kqTfN": {
+   "kind": "question_part",
+   "label": "qstn_sgf6g9CyDYhst8gd / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_XyMyBsQ39XmFSHBT",
+    "spcpt_WSB3CwSTjbWdg2SP"
+   ]
+  },
+  "qstnprt_pSgw8pYVkwwj52RR": {
+   "kind": "question_part",
+   "label": "qstn_szbWvgjbxBTThx6V / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.008",
+     "official_code": "S19.008",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_JGSqpyfcDNP57MDC",
+    "spcpt_2GGy6WS4QVrVxVCW"
+   ]
+  },
+  "qstnprt_JVrKwGW7nTHDqwkY": {
+   "kind": "question_part",
+   "label": "qstn_s64QCN7CqnFczDtM / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_qTxxHSWPqRNYjDKW"
+   ]
+  },
+  "qstnprt_8KtKq6N7MqTNKDGV": {
+   "kind": "question_part",
+   "label": "qstn_psDdQmJbnmhZ4Bsp / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_wJzBs2FzyPXxw66m",
+    "spcpt_qTxxHSWPqRNYjDKW"
+   ]
+  },
+  "qstnprt_XN3xXk8kDYYHMRYC": {
+   "kind": "question_part",
+   "label": "qstn_h2vqSFjjKdBThyPc / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_wJzBs2FzyPXxw66m",
+    "spcpt_QhBncQ8r6SjdVQpW"
+   ]
+  },
+  "qstnprt_hSzpv8gFCmjGHYYK": {
+   "kind": "question_part",
+   "label": "qstn_3GTVDXxS2HmJt22N / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nBDT3fZ5TGg8vGcv"
+   ]
+  },
+  "qstnprt_S9DVw6J73MzTZ4dH": {
+   "kind": "question_part",
+   "label": "qstn_tZh8ZNz55MfzyHDM / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-the-us-economy-boom-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nBDT3fZ5TGg8vGcv",
+    "spcpt_MTQQ5K3v3xx5jYFh",
+    "spcpt_dKZnGbSpCXy364G6"
+   ]
+  },
+  "qstnprt_g4jntcKqXVQN3xgQ": {
+   "kind": "question_part",
+   "label": "qstn_ZngmsBKnzdwNtWsQ / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_qwpV3YckKJvn5S6R",
+    "spcpt_FGpqFjPBMy3ywDR3"
+   ]
+  },
+  "qstnprt_ZcTvwPKb46F3ssny": {
+   "kind": "question_part",
+   "label": "qstn_sKTxc24TS4VcddMM / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_Prkf7wFHnZ9t755Q"
+   ]
+  },
+  "qstnprt_55tYMBNVVr2TQNyg": {
+   "kind": "question_part",
+   "label": "qstn_bmkK5vnscdd54NdV / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_hGQvpKGQD9GB3MqT",
+    "spcpt_CJKjGQ4GJvcC9Shv"
+   ]
+  },
+  "qstnprt_X45xcvdqs89VrvPn": {
+   "kind": "question_part",
+   "label": "qstn_G6TKXf4GN4qv4Vyk / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_2YYPRsSQxMKYrYzT"
+   ]
+  },
+  "qstnprt_yckWFTdYnwq3Bh4D": {
+   "kind": "question_part",
+   "label": "qstn_GnhD24vB5pScXfyW / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_Prkf7wFHnZ9t755Q"
+   ]
+  },
+  "qstnprt_xS4yy7CkNTJfRnvs": {
+   "kind": "question_part",
+   "label": "qstn_hdHg9FxpF55fSS5T / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_mPn96MN5psbyS9m4",
+    "spcpt_hGQvpKGQD9GB3MqT",
+    "spcpt_CJKjGQ4GJvcC9Shv"
+   ]
+  },
+  "qstnprt_DGK4BmHZJKkpmVtk": {
+   "kind": "question_part",
+   "label": "qstn_kzjCzqBtrvZjQhS8 / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_Prkf7wFHnZ9t755Q",
+    "spcpt_8wzvyGRd7WcgtcHx"
+   ]
+  },
+  "qstnprt_B46hwS7MfZ53SZnN": {
+   "kind": "question_part",
+   "label": "qstn_BztcvZzT29CtC5vk / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_mPn96MN5psbyS9m4",
+    "spcpt_hGQvpKGQD9GB3MqT",
+    "spcpt_CJKjGQ4GJvcC9Shv"
+   ]
+  },
+  "qstnprt_qpNhSPyCRfjx4QNV": {
+   "kind": "question_part",
+   "label": "qstn_CXcNfHTcq36HcdCf / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_hGQvpKGQD9GB3MqT"
+   ]
+  },
+  "qstnprt_NsJpP2DwSVXgrCmD": {
+   "kind": "question_part",
+   "label": "qstn_VFkj22RwHNF6fZnY / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S18.003",
+     "official_code": "S18.003",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_QkvFdmDPCTy8WSCm": {
+   "kind": "question_part",
+   "label": "qstn_vhqwgPBGHSbHKz5G / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_mPn96MN5psbyS9m4"
+   ]
+  },
+  "qstnprt_fkqTGP8P85Yq4jvg": {
+   "kind": "question_part",
+   "label": "qstn_8bDzzdCskr8K8KJB / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_CJKjGQ4GJvcC9Shv"
+   ]
+  },
+  "qstnprt_wq4gYkZ7FndS9TKb": {
+   "kind": "question_part",
+   "label": "qstn_hKPw7Cg2HVtyRC58 / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_8wzvyGRd7WcgtcHx"
+   ]
+  },
+  "qstnprt_TdbHXghhq4Rv8dRq": {
+   "kind": "question_part",
+   "label": "qstn_fQRSqT4SB2h7xHSp / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_qwpV3YckKJvn5S6R",
+    "spcpt_hGQvpKGQD9GB3MqT",
+    "spcpt_FGpqFjPBMy3ywDR3"
+   ]
+  },
+  "qstnprt_VcJvhdNSRDX6ss6m": {
+   "kind": "question_part",
+   "label": "qstn_XtzdCMG8Z6NMvntP / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_Rtw9RdwpdzTWmTc4",
+    "spcpt_gPDgQNJ6F8mGdVk3",
+    "spcpt_8wzvyGRd7WcgtcHx"
+   ]
+  },
+  "qstnprt_gCTFJZ8PhnyzvXRx": {
+   "kind": "question_part",
+   "label": "qstn_9sZ3WmVXbBYXMV9f / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_nS6n8G8Xcw2myVWx",
+    "spcpt_MSc8xNtCbSQJ3R5D",
+    "spcpt_5NmXXYFvT79v7bPN"
+   ]
+  },
+  "qstnprt_XZFtshf27ypFdrQM": {
+   "kind": "question_part",
+   "label": "qstn_RwVH4rqrNQMqJ5pJ / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_qwpV3YckKJvn5S6R",
+    "spcpt_FGpqFjPBMy3ywDR3"
+   ]
+  },
+  "qstnprt_TY38HssBfh9rJ7bF": {
+   "kind": "question_part",
+   "label": "qstn_f68R29c6D33vBPrs / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_Rtw9RdwpdzTWmTc4",
+    "spcpt_gPDgQNJ6F8mGdVk3"
+   ]
+  },
+  "qstnprt_dqbDsbRXVfyt7bkd": {
+   "kind": "question_part",
+   "label": "qstn_45mRfR8FNMJhJhkB / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_FGpqFjPBMy3ywDR3"
+   ]
+  },
+  "qstnprt_5smjKKqhFhPrH9h7": {
+   "kind": "question_part",
+   "label": "qstn_87Gy9KdXWF5KKTYw / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-far-did-us-society-change-in-the-1920s",
+   "codes": [],
+   "pending": [
+    "spcpt_kMBxg8vnnRnNzfnY"
+   ]
+  },
+  "qstnprt_yZBnzh7g9MXJWHfg": {
+   "kind": "question_part",
+   "label": "qstn_4XPVn3Z8fD5ZtFCq / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_KS2VWpGTY8XK5SMh",
+    "spcpt_6sQxH3yx58RbSCxJ"
+   ]
+  },
+  "qstnprt_F2DyxPGhtk62dgpk": {
+   "kind": "question_part",
+   "label": "qstn_hykMjPqtbBn8DkRM / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_X6FRf9ZzcKfVP3HH",
+    "spcpt_VWhWKkvsgkKS9d46",
+    "spcpt_sfKD6GFyPkx72MPK",
+    "spcpt_N4ykQ8KcGMb3sqmt"
+   ]
+  },
+  "qstnprt_Y5YmGTTCYnyCXFXx": {
+   "kind": "question_part",
+   "label": "qstn_Tvb6VSMswRhcQC4z / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_X6FRf9ZzcKfVP3HH",
+    "spcpt_VWhWKkvsgkKS9d46",
+    "spcpt_sfKD6GFyPkx72MPK"
+   ]
+  },
+  "qstnprt_sTbJDsJVQgfJPZGn": {
+   "kind": "question_part",
+   "label": "qstn_scH8mtnn2VDNGY3c / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.024",
+     "official_code": "S19.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JVY6dZHMB9YPBjCD": {
+   "kind": "question_part",
+   "label": "qstn_qHw6v6QwBz29qJ8n / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_KS2VWpGTY8XK5SMh",
+    "spcpt_6sQxH3yx58RbSCxJ"
+   ]
+  },
+  "qstnprt_hGjS8vcByfy5Fygq": {
+   "kind": "question_part",
+   "label": "qstn_cw7tQB9HW5xtdkRR / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_sfKD6GFyPkx72MPK",
+    "spcpt_N4ykQ8KcGMb3sqmt"
+   ]
+  },
+  "qstnprt_wtDcyjVnz3Rfffjn": {
+   "kind": "question_part",
+   "label": "qstn_HDHFg4YDFyzQzSpD / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_X6FRf9ZzcKfVP3HH",
+    "spcpt_VWhWKkvsgkKS9d46"
+   ]
+  },
+  "qstnprt_fYZRBBXSFWm489bx": {
+   "kind": "question_part",
+   "label": "qstn_WzsVMKhz45SjKdJ5 / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_sfKD6GFyPkx72MPK"
+   ]
+  },
+  "qstnprt_F8NqHmyYpjSWbBNF": {
+   "kind": "question_part",
+   "label": "qstn_cdDjfcgD4w4njCzd / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_N4ykQ8KcGMb3sqmt"
+   ]
+  },
+  "qstnprt_cBqTP29XN9xxtqCj": {
+   "kind": "question_part",
+   "label": "qstn_GH3HXh53VQx369bV / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.024",
+     "official_code": "S19.024",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZhYxqcqhgbBdGShd": {
+   "kind": "question_part",
+   "label": "qstn_KK7fwRJyYHhygyyQ / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_Vks4ZrSWGW4BzTDS"
+   ]
+  },
+  "qstnprt_ghgKS9767YXSCzrs": {
+   "kind": "question_part",
+   "label": "qstn_DsnrnWSh37pqtjHQ / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_Vks4ZrSWGW4BzTDS",
+    "spcpt_HW3qbDkWFNZjCfGR"
+   ]
+  },
+  "qstnprt_vhrNYFBJPqGgmNWw": {
+   "kind": "question_part",
+   "label": "qstn_FWzXyNJMkkdGsyzt / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_xxJphWp99NsKK5P7",
+    "spcpt_KS2VWpGTY8XK5SMh"
+   ]
+  },
+  "qstnprt_R32qGXW8QxN3rzwj": {
+   "kind": "question_part",
+   "label": "qstn_S83kDVZCZ2PR8ydw / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_HW3qbDkWFNZjCfGR",
+    "spcpt_h5qqJqzh8ytDJ5jm"
+   ]
+  },
+  "qstnprt_Y6VHNfckCBvxRXv6": {
+   "kind": "question_part",
+   "label": "qstn_sF5cJnysVXm7nTPJ / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_Vks4ZrSWGW4BzTDS"
+   ]
+  },
+  "qstnprt_scxZZPrKjsfDp2gc": {
+   "kind": "question_part",
+   "label": "qstn_yHfMj3QT7Mq2zW6D / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_KS2VWpGTY8XK5SMh"
+   ]
+  },
+  "qstnprt_zqRGFmXKFNmDb6Zf": {
+   "kind": "question_part",
+   "label": "qstn_nKSpFMTzfpkKmVpx / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S13.038",
+     "official_code": "S13.038",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vpwTxSgMN7sjwVkT": {
+   "kind": "question_part",
+   "label": "qstn_Nkpg9GNb82SyD6Cb / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_xxJphWp99NsKK5P7",
+    "spcpt_skqYj7mkMdzy5xsk",
+    "spcpt_h5qqJqzh8ytDJ5jm"
+   ]
+  },
+  "qstnprt_VHGCkHbvJkqVFCrx": {
+   "kind": "question_part",
+   "label": "qstn_dPPhnRMNWhGXsvmt / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.025",
+     "official_code": "S19.025",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_QxyPZjkMBXYywQKn": {
+   "kind": "question_part",
+   "label": "qstn_Py8PTBswv9JcNnQd / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "how-successful-was-the-new-deal",
+   "codes": [],
+   "pending": [
+    "spcpt_Vks4ZrSWGW4BzTDS",
+    "spcpt_HW3qbDkWFNZjCfGR"
+   ]
+  },
+  "qstnprt_C6wn977mMKfStCg7": {
+   "kind": "question_part",
+   "label": "qstn_mbZtws6sJfK5WgTC / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_MnQ79BkHBTFbFHpQ",
+    "spcpt_jVkFzhTwHyCnVr37",
+    "spcpt_6M4FmSx945NwKfXQ"
+   ]
+  },
+  "qstnprt_xJZDfz2QxjNFYK3Q": {
+   "kind": "question_part",
+   "label": "qstn_yGjpb9r5vkzc7XHP / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_s7Fvrj5XzmppKK73",
+    "spcpt_rpN2PdCS6CmQBFm7",
+    "spcpt_bs93P2NYsHrNSc2g",
+    "spcpt_283qHyxMhqbTt3bF"
+   ]
+  },
+  "qstnprt_vxxnq4HnVzMmzZq6": {
+   "kind": "question_part",
+   "label": "qstn_tzPbrh36R9dk2gyN / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_jrrh53bBdp8Yrb2h",
+    "spcpt_4JXk5dHTHbjVyrrx"
+   ]
+  },
+  "qstnprt_JhDNzPTHWx84VsB9": {
+   "kind": "question_part",
+   "label": "qstn_s4V9dsTZY3c6rFxV / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_C9dVwBdJDSrb6p64",
+    "spcpt_MnQ79BkHBTFbFHpQ",
+    "spcpt_jVkFzhTwHyCnVr37",
+    "spcpt_6M4FmSx945NwKfXQ"
+   ]
+  },
+  "qstnprt_7MCKKKnYSWgHyRyV": {
+   "kind": "question_part",
+   "label": "qstn_CXYMhSPQJVsD9DSg / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_s7Fvrj5XzmppKK73",
+    "spcpt_rpN2PdCS6CmQBFm7",
+    "spcpt_bs93P2NYsHrNSc2g",
+    "spcpt_283qHyxMhqbTt3bF"
+   ]
+  },
+  "qstnprt_C38PnBtBVk4Bp9Cq": {
+   "kind": "question_part",
+   "label": "qstn_jbRyvyrqdm5YRRQB / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_jrrh53bBdp8Yrb2h",
+    "spcpt_9XSfWJnZNNKgN7WS",
+    "spcpt_4JXk5dHTHbjVyrrx"
+   ]
+  },
+  "qstnprt_t4Rd68prsV9Nq67M": {
+   "kind": "question_part",
+   "label": "qstn_whGNHBZHCQHGCPDf / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_jVkFzhTwHyCnVr37",
+    "spcpt_C9dVwBdJDSrb6p64",
+    "spcpt_MnQ79BkHBTFbFHpQ",
+    "spcpt_6M4FmSx945NwKfXQ"
+   ]
+  },
+  "qstnprt_c9S62pxzJwvZgZ8N": {
+   "kind": "question_part",
+   "label": "qstn_qqXqJG95MqZdc6sj / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_s7Fvrj5XzmppKK73",
+    "spcpt_283qHyxMhqbTt3bF"
+   ]
+  },
+  "qstnprt_tSv3yRBQPrYzW2nX": {
+   "kind": "question_part",
+   "label": "qstn_mQ7G4yBgzZfF39qh / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_jrrh53bBdp8Yrb2h",
+    "spcpt_4JXk5dHTHbjVyrrx"
+   ]
+  },
+  "qstnprt_4fDBCdHCs4Qxbwmx": {
+   "kind": "question_part",
+   "label": "qstn_pfCP8Xt9bwgXFzYd / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_MnQ79BkHBTFbFHpQ",
+    "spcpt_C9dVwBdJDSrb6p64",
+    "spcpt_jVkFzhTwHyCnVr37",
+    "spcpt_6M4FmSx945NwKfXQ"
+   ]
+  },
+  "qstnprt_pCp74Kq48bmPnrxY": {
+   "kind": "question_part",
+   "label": "qstn_Z2sTy2hFnqvnvb4m / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_rpN2PdCS6CmQBFm7"
+   ]
+  },
+  "qstnprt_3zTd5XZkGq2mWq6Z": {
+   "kind": "question_part",
+   "label": "qstn_zPJYmPRKCYNkwQ5B / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_jrrh53bBdp8Yrb2h"
+   ]
+  },
+  "qstnprt_GSjVPsG7b6vq6Y26": {
+   "kind": "question_part",
+   "label": "qstn_nQf6KD92fTft7Xvq / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_s7Fvrj5XzmppKK73"
+   ]
+  },
+  "qstnprt_DWjq6nVTTs8rPjHr": {
+   "kind": "question_part",
+   "label": "qstn_gS9yqNK33kwSDVDm / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_jrrh53bBdp8Yrb2h"
+   ]
+  },
+  "qstnprt_HTcVBwCysJNqccZV": {
+   "kind": "question_part",
+   "label": "qstn_gGPQNXtWkkpMjW9q / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_4JXk5dHTHbjVyrrx"
+   ]
+  },
+  "qstnprt_5d3Sz2S4s8FFDcrp": {
+   "kind": "question_part",
+   "label": "qstn_KQkqQ2tqt8wtvDqj / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_MnQ79BkHBTFbFHpQ",
+    "spcpt_C9dVwBdJDSrb6p64"
+   ]
+  },
+  "qstnprt_Zm9y63pM8rK9jT6G": {
+   "kind": "question_part",
+   "label": "qstn_fSfN8ZQHQt8cvxfp / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_C9dVwBdJDSrb6p64"
+   ]
+  },
+  "qstnprt_DthkrBRzfdZ8dZmv": {
+   "kind": "question_part",
+   "label": "qstn_zG77GXYpY3Yz2fCd / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_zTsTJDVs39G3YxhZ",
+    "spcpt_RyMb9vCPNKRdQnkw",
+    "spcpt_RTcpMZgQQHq7Yx85"
+   ]
+  },
+  "qstnprt_NWxz5jXjJph9gZwM": {
+   "kind": "question_part",
+   "label": "qstn_Y7QxnDzM7n7Y9PtY / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [],
+   "pending": [
+    "spcpt_RyMb9vCPNKRdQnkw"
+   ]
+  },
+  "qstnprt_75HPdb8CJVT9RHY6": {
+   "kind": "question_part",
+   "label": "qstn_fY6RDC8pxWzM4bWt / part 0",
+   "section": "the-united-states-1919-41",
+   "topic": "what-were-the-causes-and-consequences-of-the-wall-street-crash",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_HISTORY_2024_2026:S19.022",
+     "official_code": "S19.022",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  }
+ }
+}

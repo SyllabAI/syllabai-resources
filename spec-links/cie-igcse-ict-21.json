@@ -1,0 +1,6102 @@
+{
+ "schema": "syllabai.learner-spec-links/1.0",
+ "generated_utc": "2026-10-19T12:00:00Z",
+ "course": "cie-igcse-ict-21",
+ "qual": "cie-igcse-ict-2023-2025",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "ACCEPTED",
+  "lane": "T-SPECS-CIE-JOIN-1",
+  "gate": "T-SPECS-CIE-GATE-1",
+  "accepted_utc": "2026-10-18T21:58:34Z",
+  "accepted_by": "operator directive 'review/promotion gate proceed' (gateway trace 1a150fee04d54d6d, 2026-10-19, zai-web)",
+  "tier_policy": {
+   "T1_verbatim": "authoritative (gate-verified)",
+   "T2_near": "accepted-near; non-authoritative hint (lower-bound audited)"
+  },
+  "note": "promoted from SUGGESTED by T-SPECS-CIE-GATE-1 after V1 battery + independent V2/V3 re-verification with zero defects; items/codes/pending byte-identical to the join-lane output; unresolved anchors stay pending (AGENT.md rules 1-3)",
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "directive": "operator directive 'operator-verdict fill lane' (gateway trace 1a15123a0964b44d, 2026-10-19, zai-web)",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "base_commit": "fea58c8a",
+   "method": "operator_verdict",
+   "tiers": {
+    "V1_name_text_identity": "authoritative (name == official point text, unique)",
+    "V2_name_phrase_identity": "authoritative (name phrase-unique in official point text)",
+    "V3_subsection_head_identity": "authoritative (head == single-point subsection title)",
+    "V4_settext_title_identity": "authoritative (set-text title identity)",
+    "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
+   },
+   "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  }
+ },
+ "registry": {
+  "id": "cie-igcse-ict-2023-2025",
+  "family": "int_statements",
+  "official_points": 95
+ },
+ "totals": {
+  "items": 468,
+  "items_with_codes": 223,
+  "by_kind": {
+   "notes": 78,
+   "question_parts": 390,
+   "flashcards": 0
+  },
+  "coded_by_kind": {
+   "notes": 42,
+   "question_parts": 181,
+   "flashcards": 0
+  }
+ },
+ "anchors": {
+  "notes": 156,
+  "parts": 423,
+  "universe_ids": 156,
+  "universe_resolved": 51,
+  "pending_refs": 338,
+  "flashcards_discovered_uncoded": 963,
+  "verdict": {
+   "lane": "T-SPECS-CIE-VERDICT-1",
+   "applied_utc": "2026-10-18T22:46:00Z",
+   "resolved_ids": 51,
+   "by_tier": {
+    "V1_name_text_identity": 36,
+    "V2_name_phrase_identity": 14,
+    "V3_subsection_head_identity": 1,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_ids": 105,
+   "pending_reasons": {
+    "dangling_eq_reference": 0,
+    "finer_than_official_subsection": 34,
+    "name_eq_multi_text": 0,
+    "name_phrase_multi_text": 1,
+    "no_unique_identity": 70
+   },
+   "dangling_eq_refs_pending": 0
+  }
+ },
+ "items": {
+  "rn_Kf6kcXzsNJpJfGx6": {
+   "kind": "note",
+   "label": "What is Cpu in ICT - IGCSE Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_cvY4hQrzNdkKCCRY": {
+   "kind": "note",
+   "label": "Examples of Input Devices in ICT - IGCSE Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_J5T3h4Fm2ZJQgp77": {
+   "kind": "note",
+   "label": "Differences Between Ram and Rom - IGCSE ICT Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_dnrJ2cF3xRPCgRhQ",
+    "spcpt_2PQK9DMggsJj67Zk"
+   ]
+  },
+  "rn_BQbVqm32K54BF3QC": {
+   "kind": "note",
+   "label": "Output Devices | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_fWckPVdgYCb6TFV4": {
+   "kind": "note",
+   "label": "Storage Devices and Media IGCSE ICT - IGCSE Revision",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp",
+    "spcpt_PXj3PRdt9jhkKT39"
+   ]
+  },
+  "rn_PRVbnrKsCyfXCst7": {
+   "kind": "note",
+   "label": "What is Analogue Data - IGCSE ICT Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.3",
+     "official_code": "1.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_5pFwYyctStXZjJH3": {
+   "kind": "note",
+   "label": "What is Hardware in ICT - IGCSE Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_wSgwsH467Zzfvf6z": {
+   "kind": "note",
+   "label": "What is a Software in ICT - IGCSE Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_cCfQtsWgrJYdnTDg": {
+   "kind": "note",
+   "label": "Emerging Technologies in ICT - IGCSE Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_n6B7Q8kJVWx3wpQr",
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "rn_d928R6R9BdvYFyCj": {
+   "kind": "note",
+   "label": "Types of Computer ICT - IGCSE Revision Notes",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "rn_hdskWDRm6NZY6T27": {
+   "kind": "note",
+   "label": "What is a Form in a Database - IGCSE ICT Revision Notes",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:18.1.5",
+     "official_code": "18.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_3487S9YjFM5FPrvw": {
+   "kind": "note",
+   "label": "How to Perform Calculations in Excel - IGCSE ICT Revision",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:18.2.1",
+     "official_code": "18.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_DJYy5rhRwYbrYFpp": {
+   "kind": "note",
+   "label": "Primary Key and Foreign Key - IGCSE ICT Revision Notes",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_rSkJfVzQXSGMpFMV",
+    "spcpt_fpyb6tR3DDjvhSVW"
+   ]
+  },
+  "rn_hB2JnGTsHD93JQQd": {
+   "kind": "note",
+   "label": "Sorting Data in Excel ICT - IGCSE Revision Notes",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_kQrhGWGhV69CtyqT",
+    "spcpt_7Zq7vTrG3ZXzfGtR"
+   ]
+  },
+  "rn_rCCFzGbRgVT5jMQJ": {
+   "kind": "note",
+   "label": "What is a Database in ICT - IGCSE Revision Notes",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_Tq7PWWybMFmH5WqY",
+    "spcpt_wg5nw8GVNHqmbYPb",
+    "spcpt_QPrxg8h52VbB8cVt"
+   ]
+  },
+  "rn_DqjzY9PXhjjJQ8Km": {
+   "kind": "note",
+   "label": "What is Cell Referencing - IGCSE ICT Revision Notes",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [],
+   "pending": [
+    "spcpt_CcDDQ67qdqwpvVpW",
+    "spcpt_mG3CvrFX2DwjmnD5"
+   ]
+  },
+  "rn_M8pdcjpm6hVMsXhG": {
+   "kind": "note",
+   "label": "Create & Edit a Spreadsheet | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_7RDMpysNd4k7B8Bb": {
+   "kind": "note",
+   "label": "IGCSE ICT Excel Formulas - Revision Notes",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_GFFgBfqbR5vNVq9s": {
+   "kind": "note",
+   "label": "Order of Operations ICT - IGCSE Revision Notes",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.3",
+     "official_code": "20.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_TJykWrrXm9JmYzG9": {
+   "kind": "note",
+   "label": "Presenting Data in ICT - IGCSE Revision Notes",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.3.3",
+     "official_code": "20.3.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_6dFsRMw3XbXTz3yh"
+   ]
+  },
+  "rn_7xNnF9sHhqz9k7YW": {
+   "kind": "note",
+   "label": "Data Selection in Excel - IGCSE ICT Revision Notes",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [],
+   "pending": [
+    "spcpt_6cWYq7s8VbT8FZ3R",
+    "spcpt_j3qbn54SDBDZvwrd"
+   ]
+  },
+  "rn_KjChdSnSXGqsfFMq": {
+   "kind": "note",
+   "label": "What is Css in ICT - IGCSE Revision Notes",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_35wpGMsnXG2m7pWn",
+    "spcpt_NGPZx23qsM8Cr4xg",
+    "spcpt_mjyYsb4nDVGJZCJN"
+   ]
+  },
+  "rn_dxYy4nDpRcJVWr2D": {
+   "kind": "note",
+   "label": "Html Definition ICT - IGCSE Revision Notes",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_DN6PRWNZHfrVvXPb",
+    "spcpt_2GbppmDTwJTZV2pr",
+    "spcpt_8WJzDC7HXCVhFhbk",
+    "spcpt_zbDs9BJxCNNX6pK4"
+   ]
+  },
+  "rn_zWBhvw4BrFHjnfvG": {
+   "kind": "note",
+   "label": "3 Web Development Layers IGCSE - IGCSE ICT Revision Notes",
+   "section": "12-website-authoring",
+   "topic": "web-development-layers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:21.1.1",
+     "official_code": "21.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_pRzRGk4X5Z5MH8z8": {
+   "kind": "note",
+   "label": "Create a Presentation ICT - IGCSE Revision Notes",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_TwH5tzBr6bMxgkzX",
+    "spcpt_wt8Ghz9d75Dk8kjT"
+   ]
+  },
+  "rn_DxytGSbPpz5xM7PV": {
+   "kind": "note",
+   "label": "Edit a Presentation | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_XDdh42vPHmy9gF6D"
+   ]
+  },
+  "rn_qKyJHm6M643Dk3Dh": {
+   "kind": "note",
+   "label": "ICT Powerpoint Presentation - IGCSE Revision Notes",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_5msnjrCcs5VgCHbR"
+   ]
+  },
+  "rn_XwHfbg5tPfh8dRgw": {
+   "kind": "note",
+   "label": "Anti Malware Software Examples - IGCSE ICT Revision Notes",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_N97pQHbdntnSkjWD": {
+   "kind": "note",
+   "label": "Authentication in ICT - IGCSE Revision Notes",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_FjKkZsqYbZ2whjdM": {
+   "kind": "note",
+   "label": "Data Transfer and Passwords ICT - IGCSE Revision Notes",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.1",
+     "official_code": "4.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_Qc99bXwwsv8kvgRy": {
+   "kind": "note",
+   "label": "Electronic Conferencing - IGCSE ICT Revision Notes",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_68Zjxd88nfD553pZ",
+    "spcpt_mVRX3R3pHx9G6rxK",
+    "spcpt_kqRp5Jn5K7F6F8C9"
+   ]
+  },
+  "rn_9sbzcmn9G5JWQrPM": {
+   "kind": "note",
+   "label": "Cloud Computing ICT - IGCSE Revision Notes",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_v77NSQkzHD4zBgqW": {
+   "kind": "note",
+   "label": "What is Intranet in ICT - IGCSE Revision Notes",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_dz6pYTFHX4Tk8wc5",
+    "spcpt_H9WGfdx2Gm8rrSht",
+    "spcpt_GDhXntkmKzMSNNQJ"
+   ]
+  },
+  "rn_VKNx9PF88q3M5W3J": {
+   "kind": "note",
+   "label": "Network Hardware | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_MTCxRjxWFJmvHFzV",
+    "spcpt_gGDqYgMrhHt3rhFc",
+    "spcpt_sF8QsrT3WZrTGH99",
+    "spcpt_PWvqGrwx2ZyNFtFd"
+   ]
+  },
+  "rn_wF7KfXKzgCrPmrjG": {
+   "kind": "note",
+   "label": "Types of Networks in ICT - IGCSE Revision Notes",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_fxw79fYvZgpP7nTt",
+    "spcpt_NvG8mt6rwfvwjQQ6",
+    "spcpt_3vTgfYPxMg4YYvJt"
+   ]
+  },
+  "rn_B3Yg2hQRkdhHB2fX": {
+   "kind": "note",
+   "label": "Wifi ICT - IGCSE Revision Notes",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_SQYN94n3TJdRxSJf": {
+   "kind": "note",
+   "label": "Health Issues in ICT - IGCSE Revision Notes",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_8SNVTNdh8FpJ95gZ": {
+   "kind": "note",
+   "label": "Microprocessor Controlled Devices - IGCSE ICT Revision Notes",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4",
+    "spcpt_6qH5bZzjjT8xb4Sq"
+   ]
+  },
+  "rn_8SDvdC62zw58WtJw": {
+   "kind": "note",
+   "label": "Application of ICT in Banking - IGCSE Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_D43r7Kgw9Q3CSJMg",
+    "spcpt_nF3TZGjF4XCwwYrG",
+    "spcpt_sYdCBkbHGtVTx4FJ"
+   ]
+  },
+  "rn_kfBXMjcPC8Cn6pVQ": {
+   "kind": "note",
+   "label": "What is Communication in ICT - IGCSE Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_MVSkbRtQ4qdP4rMz": {
+   "kind": "note",
+   "label": "Computer Controlled Systems in ICT - IGCSE Revision",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_kYGs95wJf7dtS6Y3"
+   ]
+  },
+  "rn_jZjhhVS95VnwxQMb": {
+   "kind": "note",
+   "label": "What is Computer Modelling - IGCSE ICT Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_RrxgWCq6QT8hkxSt": {
+   "kind": "note",
+   "label": "Computers in Medicine - IGCSE ICT Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.7.1",
+     "official_code": "6.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.7.1",
+     "official_code": "6.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_g4vR7nQ75JNgSW5d": {
+   "kind": "note",
+   "label": "Computers in the Retail Industry - IGCSE ICT Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.9.2",
+     "official_code": "6.9.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_yFf5BxnGxkXJTvb4"
+   ]
+  },
+  "rn_GvKvjHcX5YCFpMbC": {
+   "kind": "note",
+   "label": "Expert Systems IGCSE - IGCSE ICT Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_HhWVRf5Z8GZc2zN4": {
+   "kind": "note",
+   "label": "Online Booking Definition - IGCSE ICT Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_Wng2FmhfkyB8nJp7": {
+   "kind": "note",
+   "label": "Recognition Systems ICT - IGCSE Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_FP85smjwWWt6kPPd",
+    "spcpt_gx874NhcWzvz49PW"
+   ]
+  },
+  "rn_zvfqyXW9VcQZwb6M": {
+   "kind": "note",
+   "label": "What is Gps ICT - IGCSE Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_bw9M74NZbVC6m84W",
+    "spcpt_6bYBJhW3mYVrD7jt",
+    "spcpt_7QSJ4dkKM8j4tF23"
+   ]
+  },
+  "rn_kpRvj44xx9Fpb5Ch": {
+   "kind": "note",
+   "label": "School Management Systems - IGCSE ICT Revision Notes",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.4.1",
+     "official_code": "6.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_pRQjGnqHXxxJby7g": {
+   "kind": "note",
+   "label": "System Life Cycle ICT - IGCSE Revision Notes",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_23frTWgPj9cgdGmk",
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "rn_kZGTq2pDN9Gw5ZR6": {
+   "kind": "note",
+   "label": "The Systems Life Cycle: Design | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_VTCrqx8wnRQMgcPZ",
+    "spcpt_NYyhPqF75BZ69rkd",
+    "spcpt_kq7tkfPzP8JC6qRm"
+   ]
+  },
+  "rn_QnSffGv7bwccQGXX": {
+   "kind": "note",
+   "label": "The Systems Life Cycle: Documentation | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_gjyWzQxwPmMrS8SM",
+    "spcpt_RjgxHPWngQzS4PJh"
+   ]
+  },
+  "rn_Gk8rgBPyWCPGzftV": {
+   "kind": "note",
+   "label": "The Systems Life Cycle: Evaluation | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_h94WxfZnyPxX9Rjb"
+   ]
+  },
+  "rn_SXF4VyBcQzRZdch6": {
+   "kind": "note",
+   "label": "The Systems Life Cycle: System Implementation | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_7gYhps9XjZHXrHbX": {
+   "kind": "note",
+   "label": "The Systems Life Cycle: Testing | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_5MrD3DMtXc7pZkZf",
+    "spcpt_kPr3d6DspMYB7hWt"
+   ]
+  },
+  "rn_yp2yGxcSmBQdQ5xZ": {
+   "kind": "note",
+   "label": "Data Protection in ICT - IGCSE Revision Notes",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.2.1",
+     "official_code": "8.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "rn_RsWPj6dp9ydyqg6n": {
+   "kind": "note",
+   "label": "Safety and Security in ICT - IGCSE Revision Notes",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_KvDq39Vdpb5wrDcx",
+    "spcpt_Jjpc5sWXWJNgs3Z8"
+   ]
+  },
+  "rn_xGYy6z5DQ7dKxVPW": {
+   "kind": "note",
+   "label": "Physical Safety in ICT - IGCSE Revision Notes",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_BSjTyY4C7C5PXfSB": {
+   "kind": "note",
+   "label": "Copyright in ICT - IGCSE Revision Notes",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_bksnygCyMWPRJqXB": {
+   "kind": "note",
+   "label": "Protection of Data in ICT - IGCSE Revision Notes",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.3.2",
+     "official_code": "8.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_w98bjGDpX6678ZpV",
+    "spcpt_zmMx98WxTTWfGyQc",
+    "spcpt_qM6DZ5KMmDWKNWyW",
+    "spcpt_rxvr358hd2WDFwTc",
+    "spcpt_HP7hTmYVNHnsp976",
+    "spcpt_Xg9jQSq2f43Xvdk3",
+    "spcpt_57ySpyqywDCJdFdX"
+   ]
+  },
+  "rn_KdrssNr5djH2YnHz": {
+   "kind": "note",
+   "label": "What is Phishing ICT - IGCSE Revision Notes",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_wTn7vDs2dgZSjyXC",
+    "spcpt_mrPqCfM7XMTRsjkf",
+    "spcpt_cNdywNQJJ2Vvz9ZF",
+    "spcpt_8GcxDjN9dVR4KrtS",
+    "spcpt_zB5xHvbm38YvbHMc",
+    "spcpt_JcttC45cS5ZgdYBH"
+   ]
+  },
+  "rn_Mpp6WFHcXwSTBPNw": {
+   "kind": "note",
+   "label": "Email Guidelines ICT - IGCSE Revision Notes",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_5Tk33KZMRXkMQnx7",
+    "spcpt_cZTjq5GMCtFshrhp",
+    "spcpt_FF22Xn9cRV3824v5"
+   ]
+  },
+  "rn_kZZ5DpjNXnMNQbWR": {
+   "kind": "note",
+   "label": "What is a Protocol in ICT - IGCSE Revision Notes",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_S9XZVFWdQHVR7JFt",
+    "spcpt_w6C9zcg5P5W5QXNv",
+    "spcpt_ytYtqHr5XbDWH2rr",
+    "spcpt_nFrcmF9bXMhZqvmb"
+   ]
+  },
+  "rn_pT6FqBpPFRgK7rcK": {
+   "kind": "note",
+   "label": "What is Internet in ICT - IGCSE Revision Notes",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.2.1",
+     "official_code": "10.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_HZVghWqYkyGwBjsq",
+    "spcpt_HcZ3pxJdhzvyGzVS",
+    "spcpt_3Yckw48Jy9ZhctYG",
+    "spcpt_bbKKXDPbqzYB3V7p"
+   ]
+  },
+  "rn_Wzdm87xtCcjcpfCD": {
+   "kind": "note",
+   "label": "Compression Techniques ICT - IGCSE Revision Notes",
+   "section": "8-managing-files-and-compression",
+   "topic": "compression",
+   "codes": [],
+   "pending": [
+    "spcpt_pqK32pYGgJsQRtbZ",
+    "spcpt_sYghjCFYNgDbfC7z",
+    "spcpt_XzbdwHzxKTNz2Xh7"
+   ]
+  },
+  "rn_Fhs8x7yHkDfzZHqj": {
+   "kind": "note",
+   "label": "What are File Formats - IGCSE ICT Revision Notes",
+   "section": "8-managing-files-and-compression",
+   "topic": "manage-files-effectively",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.1.2",
+     "official_code": "11.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_KSS8mSf7gjrwdVC7",
+    "spcpt_ybbqTP4GtZ7wMg4f"
+   ]
+  },
+  "rn_3t8Q24JVgpwhvPfM": {
+   "kind": "note",
+   "label": "Audience and Purpose in ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "audience-and-purpose",
+   "codes": [],
+   "pending": [
+    "spcpt_3N2qyHcyPy2DCctH"
+   ]
+  },
+  "rn_jY8yWDhyMsqpJ3fQ": {
+   "kind": "note",
+   "label": "What is Corporate House Style in ICT - IGCSE Revision",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_gkg9cxpCWNK7ymB9"
+   ]
+  },
+  "rn_mhNMGB35pdb4yHrF": {
+   "kind": "note",
+   "label": "Document Production ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_n2cct2brWZXb3RXx"
+   ]
+  },
+  "rn_pnnS8K4QhWnpCCq6": {
+   "kind": "note",
+   "label": "Formatting in ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_bHwRM2jQfM968rNc"
+   ]
+  },
+  "rn_z8MSmGV6c8GZbbb4": {
+   "kind": "note",
+   "label": "Purpose of Headers and Footers - IGCSE ICT Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:13.3.2",
+     "official_code": "13.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_f76x2BpmZprmttwr": {
+   "kind": "note",
+   "label": "ICT Layout - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_THTHds5gZcdV633y",
+    "spcpt_N2p2qfzzw4QVVh4K"
+   ]
+  },
+  "rn_yC3yWbTX4CRyGXQf": {
+   "kind": "note",
+   "label": "Navigation in ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_GnXcj8dvs4zmzvPz"
+   ]
+  },
+  "rn_yM2d3WKB2FnpV2Kh": {
+   "kind": "note",
+   "label": "What is a Table in ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:13.2.1",
+     "official_code": "13.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_TphQrxQWKNvQjqWJ": {
+   "kind": "note",
+   "label": "File Size Reduction - IGCSE ICT Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.2.2",
+     "official_code": "11.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_7hYsf5rRFMTv5n9T": {
+   "kind": "note",
+   "label": "What is Image Editing - IGCSE ICT Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [],
+   "pending": [
+    "spcpt_VKz7h7QjztBMXQfH"
+   ]
+  },
+  "rn_7jVJsPfHMrR2qk8B": {
+   "kind": "note",
+   "label": "Verification in ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "rn_8z7jW8TYB5yKBQyw": {
+   "kind": "note",
+   "label": "Validation Checks ICT - IGCSE Revision Notes",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.2",
+     "official_code": "15.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_mNQDktBGGWNTZ9Wz": {
+   "kind": "question_part",
+   "label": "qstn_XwmFbXhjtyC4FHwY / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_qJ5YvSBpPPZH6563": {
+   "kind": "question_part",
+   "label": "qstn_dPDX8CQBtFGMn7gH / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_VqpHfvmmwwDJh7Rg": {
+   "kind": "question_part",
+   "label": "qstn_7qywCRp4FF38YXPJ / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_smdTNTbnvMfhCB6V": {
+   "kind": "question_part",
+   "label": "qstn_W92KMzkH5sxXb294 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_77x4nx3w3mK5zX3W": {
+   "kind": "question_part",
+   "label": "qstn_BYpghfyWY6nCh8GJ / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_7mqJkmSwwKd2ttDC": {
+   "kind": "question_part",
+   "label": "qstn_kjnt886BHzGHzY8w / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_GnKhzXjhShPvV6bY": {
+   "kind": "question_part",
+   "label": "qstn_kjnt886BHzGHzY8w / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_yFmv3ThttgHxhRcY": {
+   "kind": "question_part",
+   "label": "qstn_kjnt886BHzGHzY8w / part 2",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WHqWbRYXXvXzYt2x": {
+   "kind": "question_part",
+   "label": "qstn_kjnt886BHzGHzY8w / part 3",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kdFCT3w4MBqPpjzt": {
+   "kind": "question_part",
+   "label": "qstn_nQNf3Hf4krYQ6fkd / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_dnrJ2cF3xRPCgRhQ"
+   ]
+  },
+  "qstnprt_ymcSP3tgMHTF9rCF": {
+   "kind": "question_part",
+   "label": "qstn_w9PXWvGr9N5TxrcK / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_PXj3PRdt9jhkKT39",
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_KdvKCMw8HHWrMn6y": {
+   "kind": "question_part",
+   "label": "qstn_sQcTd6z47wPwpykp / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_VMWwXsBGdBcbRrQr": {
+   "kind": "question_part",
+   "label": "qstn_DTQcth5dnJz5VGGQ / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp",
+    "spcpt_PXj3PRdt9jhkKT39"
+   ]
+  },
+  "qstnprt_3QcFfkyStkzrVXbS": {
+   "kind": "question_part",
+   "label": "qstn_FyttrWT4kTVfW7BW / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_PXj3PRdt9jhkKT39"
+   ]
+  },
+  "qstnprt_TM9y8259XPHFszZ9": {
+   "kind": "question_part",
+   "label": "qstn_6MZnp3xRBQqT3ssS / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_BDTR3rjXg6VgqvkC": {
+   "kind": "question_part",
+   "label": "qstn_PGRcZSmnwYZS8r4Q / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_K8BRtyHSnbj3ymfJ": {
+   "kind": "question_part",
+   "label": "qstn_Tq3p6GkcNTR67YDT / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DjtFjZpxNkZnbgtk": {
+   "kind": "question_part",
+   "label": "qstn_Tq3p6GkcNTR67YDT / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_CVQqq29SqF84VcYj": {
+   "kind": "question_part",
+   "label": "qstn_rhmbdzbkb9QcbQPv / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_4xHTshrZtkhzPnqH": {
+   "kind": "question_part",
+   "label": "qstn_GVD2dcndstxW5nXq / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_2yxKby6yfs764WnD": {
+   "kind": "question_part",
+   "label": "qstn_CgjDSVj3Jw7sBgm8 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_TQCVymYMsXycfVSs": {
+   "kind": "question_part",
+   "label": "qstn_fCM46PgrndyC6trN / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_z3zsBnnwZkMvKVtn": {
+   "kind": "question_part",
+   "label": "qstn_PJ3BPCfyJ9Gnsjdr / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_PXj3PRdt9jhkKT39",
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_75mVwkY97dTGSS32": {
+   "kind": "question_part",
+   "label": "qstn_ZDkZyF8GRnYhvVGK / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_y3tkDcHms3ZDcVzH": {
+   "kind": "question_part",
+   "label": "qstn_TrHz2FGgyQJnscGb / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_N4GM9gPJJRT4fDrT": {
+   "kind": "question_part",
+   "label": "qstn_FJQgRsHTCGfYfpVJ / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.3.1",
+     "official_code": "2.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_4ZTRkMKtrsW9rzFk": {
+   "kind": "question_part",
+   "label": "qstn_Ndb9fS6nnPGsgvTQ / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.1.1",
+     "official_code": "2.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YvjkXZWmMSbNwGVb": {
+   "kind": "question_part",
+   "label": "qstn_zSwwmyZ67xxCgKxQ / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_ndDtRZvVVfsTvMwY": {
+   "kind": "question_part",
+   "label": "qstn_Zpk5t5Q5pNTxDM4j / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dbNGcVrvmKsZWJFK": {
+   "kind": "question_part",
+   "label": "qstn_Zpk5t5Q5pNTxDM4j / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZBD6hZfPjFcdmTD2": {
+   "kind": "question_part",
+   "label": "qstn_Zpk5t5Q5pNTxDM4j / part 2",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:2.2.1",
+     "official_code": "2.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kxRDGfZCjVmWNb2T": {
+   "kind": "question_part",
+   "label": "qstn_ddVSk4tVS7njDxS6 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "components-of-computer-systems",
+   "codes": [],
+   "pending": [
+    "spcpt_dnrJ2cF3xRPCgRhQ"
+   ]
+  },
+  "qstnprt_58bwHSQnHDd4sGwH": {
+   "kind": "question_part",
+   "label": "qstn_wmbFGz7FzZmb2FY2 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WmwVHtrBYGC2fB9Y": {
+   "kind": "question_part",
+   "label": "qstn_wmbFGz7FzZmb2FY2 / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_S9stbHmXJvKVhVxr": {
+   "kind": "question_part",
+   "label": "qstn_7xy349HSHGcpz9cF / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_frTKSf3Y8rBpg7xr": {
+   "kind": "question_part",
+   "label": "qstn_7xy349HSHGcpz9cF / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VCTkhfW7P4JBkPzz": {
+   "kind": "question_part",
+   "label": "qstn_qxGQCx8h9wxFdGy3 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DH2bpnS8ncnXC3y5": {
+   "kind": "question_part",
+   "label": "qstn_qxGQCx8h9wxFdGy3 / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_TDSg9wRQg7hdwMrr": {
+   "kind": "question_part",
+   "label": "qstn_gcHW5mW9RNbK6NpN / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gq9kTwWNFYzjmQnH": {
+   "kind": "question_part",
+   "label": "qstn_DXfwFFHCCHh3zvkK / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_5tyg7bXrt9Kmy3Jb": {
+   "kind": "question_part",
+   "label": "qstn_rTWw3gPKw45swhtD / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.3.1",
+     "official_code": "1.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_yFRFbgQ8rG2JvvjG": {
+   "kind": "question_part",
+   "label": "qstn_MvWqs5NHmSkbRW6Q / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_HXrFMK2xCM2PJ7wb": {
+   "kind": "question_part",
+   "label": "qstn_qtMzRkVBwKDzHThP / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.3",
+     "official_code": "1.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JgbR7CP3VvsVCPkz": {
+   "kind": "question_part",
+   "label": "qstn_QypGD25wsZHMMxNx / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_9swQYpvWSvmbYgKD": {
+   "kind": "question_part",
+   "label": "qstn_7RdWnR4fBKyp9tnW / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_yNCXWZpVPdvzBhvH": {
+   "kind": "question_part",
+   "label": "qstn_7RdWnR4fBKyp9tnW / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_tWyDJqCD57K5CPQp": {
+   "kind": "question_part",
+   "label": "qstn_7RdWnR4fBKyp9tnW / part 2",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZRzVsGV46YppGfMT": {
+   "kind": "question_part",
+   "label": "qstn_7RdWnR4fBKyp9tnW / part 3",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fDz3D8cDQ4YgtQ3J": {
+   "kind": "question_part",
+   "label": "qstn_v84QBwVfTrN7DgCN / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kxy5dFWBnMM7f2MR": {
+   "kind": "question_part",
+   "label": "qstn_v84QBwVfTrN7DgCN / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_sbx7dfyFQNGMW8Kq": {
+   "kind": "question_part",
+   "label": "qstn_v84QBwVfTrN7DgCN / part 2",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.2",
+     "official_code": "1.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_zkR5mZ4Hy3cHSCNr": {
+   "kind": "question_part",
+   "label": "qstn_WzCcdkbDnpDhvckc / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_C3sjk99GYhMKbm2x": {
+   "kind": "question_part",
+   "label": "qstn_jB4NMN6jrV4JtzZB / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZPkd2H5NHx3dDJsr": {
+   "kind": "question_part",
+   "label": "qstn_jB4NMN6jrV4JtzZB / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "hardware-and-software",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:1.1.1",
+     "official_code": "1.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_pvFHwCps9yFs7j8h": {
+   "kind": "question_part",
+   "label": "qstn_J7dHCR7zvWxKW4n8 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_n6B7Q8kJVWx3wpQr"
+   ]
+  },
+  "qstnprt_jPByHQyY9qXkSVhv": {
+   "kind": "question_part",
+   "label": "qstn_8BQxhBMrcPY7pwf7 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_n6B7Q8kJVWx3wpQr"
+   ]
+  },
+  "qstnprt_XN8559fj2GDTPFN5": {
+   "kind": "question_part",
+   "label": "qstn_2f6CJVdnpgx3X33J / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "qstnprt_q7GqDZtrJKjq6kqz": {
+   "kind": "question_part",
+   "label": "qstn_PQTvhDvFdDzWwg6g / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "qstnprt_XG6HSwvW8RqzwWhh": {
+   "kind": "question_part",
+   "label": "qstn_vNqZgfrtPQHWKmsP / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "qstnprt_3ZMYfTCCMGfs3Q5r": {
+   "kind": "question_part",
+   "label": "qstn_TBgwJxZmdZbxJkn6 / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "qstnprt_MFx4DrNnvs26grzd": {
+   "kind": "question_part",
+   "label": "qstn_R4RFDVjjv6TF9cYF / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "qstnprt_h4XWBcZCtn8nWbPc": {
+   "kind": "question_part",
+   "label": "qstn_KQ3bkr4SCmSxgPZw / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "qstnprt_5mdW7ydgQbJ3XtzH": {
+   "kind": "question_part",
+   "label": "qstn_KQ3bkr4SCmSxgPZw / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "qstnprt_jJF7vwgtBHYvcZ8M": {
+   "kind": "question_part",
+   "label": "qstn_8G22mT6wppTKWkyv / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "qstnprt_wGZjmg5STdVzZxPr": {
+   "kind": "question_part",
+   "label": "qstn_vn8JR2DJPqCcH9VR / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "qstnprt_mnTFvVWm8qfZrT5n": {
+   "kind": "question_part",
+   "label": "qstn_vn8JR2DJPqCcH9VR / part 1",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_xtSyNhjf7wp8fWms"
+   ]
+  },
+  "qstnprt_p6f56XnXknZc3JQP": {
+   "kind": "question_part",
+   "label": "qstn_Z8tzCtHc5Xz7y4WY / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "qstnprt_tbd66xGtfdmJ3MTj": {
+   "kind": "question_part",
+   "label": "qstn_876c6Z8fqgQzGF8n / part 0",
+   "section": "1-types-and-components-of-computer-systems",
+   "topic": "types-of-computer-and-emerging-technologies",
+   "codes": [],
+   "pending": [
+    "spcpt_35NdFwTB4S2FGGbJ"
+   ]
+  },
+  "qstnprt_hy6d4RKp9Z5CrsKb": {
+   "kind": "question_part",
+   "label": "qstn_nhM3z5wNxn4jrqHH / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_fpyb6tR3DDjvhSVW"
+   ]
+  },
+  "qstnprt_Cj5WBxgmmvYc2yv2": {
+   "kind": "question_part",
+   "label": "qstn_GS827vccTg4Z5wVc / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:18.1.5",
+     "official_code": "18.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Z88ZSCjBHZcCBNrR": {
+   "kind": "question_part",
+   "label": "qstn_cVbYZGMMRgfPV3j3 / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_7Zq7vTrG3ZXzfGtR"
+   ]
+  },
+  "qstnprt_nxk6k7bvWbXVwYyD": {
+   "kind": "question_part",
+   "label": "qstn_s9255JZQjPpvgSzw / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_wg5nw8GVNHqmbYPb",
+    "spcpt_Tq7PWWybMFmH5WqY"
+   ]
+  },
+  "qstnprt_ZrWxrwXgvKSyDSHr": {
+   "kind": "question_part",
+   "label": "qstn_pV4JWz4bMkGQPFvK / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_rSkJfVzQXSGMpFMV"
+   ]
+  },
+  "qstnprt_7WwQ5K7vxd4zCpwf": {
+   "kind": "question_part",
+   "label": "qstn_pV4JWz4bMkGQPFvK / part 1",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_kQrhGWGhV69CtyqT"
+   ]
+  },
+  "qstnprt_nMMN9Z3Hfk7v3CnM": {
+   "kind": "question_part",
+   "label": "qstn_KKFGKVhjdfFmzP3P / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_wg5nw8GVNHqmbYPb"
+   ]
+  },
+  "qstnprt_wGzv3GypzS4FGry9": {
+   "kind": "question_part",
+   "label": "qstn_KKFGKVhjdfFmzP3P / part 1",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_fpyb6tR3DDjvhSVW"
+   ]
+  },
+  "qstnprt_FwkKg6KPJCsfZbGG": {
+   "kind": "question_part",
+   "label": "qstn_KKFGKVhjdfFmzP3P / part 2",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_Tq7PWWybMFmH5WqY"
+   ]
+  },
+  "qstnprt_wTMWBDfc3RW58dCp": {
+   "kind": "question_part",
+   "label": "qstn_Sw9cr4vKBvsGyHBb / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_Tq7PWWybMFmH5WqY"
+   ]
+  },
+  "qstnprt_Sv4tJtGyfBRjfZNx": {
+   "kind": "question_part",
+   "label": "qstn_HKMXV6twKvjzHxC7 / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_wg5nw8GVNHqmbYPb",
+    "spcpt_Tq7PWWybMFmH5WqY"
+   ]
+  },
+  "qstnprt_BsSxwCYb38H9TJHS": {
+   "kind": "question_part",
+   "label": "qstn_sbBsYc756gP2nhJB / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.1.2",
+     "official_code": "11.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vdtNrNCymj5PvW2T": {
+   "kind": "question_part",
+   "label": "qstn_sbBsYc756gP2nhJB / part 1",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_fpyb6tR3DDjvhSVW"
+   ]
+  },
+  "qstnprt_TmgMd6Y2mpjykWyB": {
+   "kind": "question_part",
+   "label": "qstn_gQsc7jnBkbsJkCWV / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_fpyb6tR3DDjvhSVW"
+   ]
+  },
+  "qstnprt_b4D8dMqnPH38Br7j": {
+   "kind": "question_part",
+   "label": "qstn_XQHfRxRgC2m25C5k / part 0",
+   "section": "10-databases",
+   "topic": "create-a-database-structure",
+   "codes": [],
+   "pending": [
+    "spcpt_rSkJfVzQXSGMpFMV"
+   ]
+  },
+  "qstnprt_2xcK9NWJtC6Y4f8s": {
+   "kind": "question_part",
+   "label": "qstn_8xgxFTX4zYWgc3Tj / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_grr9Xb4dNsKkYY44": {
+   "kind": "question_part",
+   "label": "qstn_f44HRZM4cTD7JFBR / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_rFrH57dGHX426YjF": {
+   "kind": "question_part",
+   "label": "qstn_kYsKpyX5Z7QJQZbB / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KdVRv3N76GP5Vdgn": {
+   "kind": "question_part",
+   "label": "qstn_GSYCf9JGWb6RMkRr / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_B9hBpRVZwNJVCKz3": {
+   "kind": "question_part",
+   "label": "qstn_3WFHPpNQq32BQF4q / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_pgP8K6MZHyWMFZwJ": {
+   "kind": "question_part",
+   "label": "qstn_nJPkDbVMjq3v2c8b / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [],
+   "pending": [
+    "spcpt_6dFsRMw3XbXTz3yh"
+   ]
+  },
+  "qstnprt_F8BtRmQ4j9nQcym2": {
+   "kind": "question_part",
+   "label": "qstn_nJPkDbVMjq3v2c8b / part 1",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_g3rqBGVyZwNNMbPc": {
+   "kind": "question_part",
+   "label": "qstn_nJPkDbVMjq3v2c8b / part 2",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_zQ7nQFYBxSn6WVQv": {
+   "kind": "question_part",
+   "label": "qstn_nJPkDbVMjq3v2c8b / part 3",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NfGfhhgWrS3nbZ26": {
+   "kind": "question_part",
+   "label": "qstn_YkJxY969Y4Mpxfmg / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_TwH5tzBr6bMxgkzX"
+   ]
+  },
+  "qstnprt_wnY4Z4Fn3tCtmpMF": {
+   "kind": "question_part",
+   "label": "qstn_YkJxY969Y4Mpxfmg / part 1",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_mN8V9G2Fc8bSfxxd": {
+   "kind": "question_part",
+   "label": "qstn_YkJxY969Y4Mpxfmg / part 2",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [],
+   "pending": [
+    "spcpt_j3qbn54SDBDZvwrd"
+   ]
+  },
+  "qstnprt_PbvHP4vcd7PckMN8": {
+   "kind": "question_part",
+   "label": "qstn_fVxgRTm2zBNXpdmy / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_4fXqXcKKhYhYypQS": {
+   "kind": "question_part",
+   "label": "qstn_fVxgRTm2zBNXpdmy / part 1",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gg5py3pTP7M54fVw": {
+   "kind": "question_part",
+   "label": "qstn_fVxgRTm2zBNXpdmy / part 2",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_pK5kf3dScsPDnwdF": {
+   "kind": "question_part",
+   "label": "qstn_rZ3bMT8Jnms2b2HM / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_2YdFxTVxPGdKgk6j": {
+   "kind": "question_part",
+   "label": "qstn_jQVZbmKYxP5J9Vq4 / part 0",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bX55FgfPT8Fbtx3K": {
+   "kind": "question_part",
+   "label": "qstn_jQVZbmKYxP5J9Vq4 / part 1",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:20.1.1",
+     "official_code": "20.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_w4QThsCPMyznFZXf": {
+   "kind": "question_part",
+   "label": "qstn_jQVZbmKYxP5J9Vq4 / part 2",
+   "section": "11-spreadsheets",
+   "topic": "create-a-data-model",
+   "codes": [],
+   "pending": [
+    "spcpt_6dFsRMw3XbXTz3yh"
+   ]
+  },
+  "qstnprt_gYdkN8yHrtHPsnpR": {
+   "kind": "question_part",
+   "label": "qstn_vRtvD8K7B7wDC8TM / part 0",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_NGPZx23qsM8Cr4xg"
+   ]
+  },
+  "qstnprt_y2yjFVd75MHVJnds": {
+   "kind": "question_part",
+   "label": "qstn_7GTh7t2Chg4rQ3PX / part 0",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_NGPZx23qsM8Cr4xg"
+   ]
+  },
+  "qstnprt_QmdmSzjgJZN5msWX": {
+   "kind": "question_part",
+   "label": "qstn_b5gzrNGZNVKS97BS / part 0",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_35wpGMsnXG2m7pWn"
+   ]
+  },
+  "qstnprt_xXcyyCFYf4kFYgPY": {
+   "kind": "question_part",
+   "label": "qstn_Fhzy3kw4TG27FFSQ / part 0",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_NGPZx23qsM8Cr4xg"
+   ]
+  },
+  "qstnprt_ZkBZPmFfTwTvMj6N": {
+   "kind": "question_part",
+   "label": "qstn_sHkYm5d6hpmYw42H / part 0",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_35wpGMsnXG2m7pWn"
+   ]
+  },
+  "qstnprt_nvhVCQHx7nwzkJYk": {
+   "kind": "question_part",
+   "label": "qstn_h78qSYH9Bs8vvTk3 / part 0",
+   "section": "12-website-authoring",
+   "topic": "css-in-the-presentation-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_NGPZx23qsM8Cr4xg",
+    "spcpt_mjyYsb4nDVGJZCJN"
+   ]
+  },
+  "qstnprt_DDnRsHy4QD2JrTzb": {
+   "kind": "question_part",
+   "label": "qstn_qQvgQ2Kg9SHsvR3R / part 0",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_2GbppmDTwJTZV2pr"
+   ]
+  },
+  "qstnprt_DzTnJfWx7whQmGPZ": {
+   "kind": "question_part",
+   "label": "qstn_qQvgQ2Kg9SHsvR3R / part 1",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_DN6PRWNZHfrVvXPb"
+   ]
+  },
+  "qstnprt_V7jVJHsPxFbqfNc9": {
+   "kind": "question_part",
+   "label": "qstn_phH4PsKXPQ7TnzWh / part 0",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_8WJzDC7HXCVhFhbk"
+   ]
+  },
+  "qstnprt_r3tKgJm9MC6qr6kV": {
+   "kind": "question_part",
+   "label": "qstn_8phJR8ztCnNkpkzv / part 0",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_DN6PRWNZHfrVvXPb",
+    "spcpt_2GbppmDTwJTZV2pr"
+   ]
+  },
+  "qstnprt_xp3JnXgyf3nN8gjZ": {
+   "kind": "question_part",
+   "label": "qstn_RPhfQQrw4hKH3Pfp / part 0",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_2GbppmDTwJTZV2pr"
+   ]
+  },
+  "qstnprt_9t5tjpjJBDbhHRRJ": {
+   "kind": "question_part",
+   "label": "qstn_8MmgBq2s77PdjjZs / part 0",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_DN6PRWNZHfrVvXPb"
+   ]
+  },
+  "qstnprt_XV67Fdz75Q4ZxjYk": {
+   "kind": "question_part",
+   "label": "qstn_zYt885xxKFpPZqwW / part 0",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_zbDs9BJxCNNX6pK4"
+   ]
+  },
+  "qstnprt_YbnhFRhgpzPnZGmm": {
+   "kind": "question_part",
+   "label": "qstn_zYt885xxKFpPZqwW / part 1",
+   "section": "12-website-authoring",
+   "topic": "html-in-the-content-layer",
+   "codes": [],
+   "pending": [
+    "spcpt_zbDs9BJxCNNX6pK4"
+   ]
+  },
+  "qstnprt_gJwqzYNNZRnmvwQb": {
+   "kind": "question_part",
+   "label": "qstn_MKMXDKVQcv6fycMy / part 0",
+   "section": "12-website-authoring",
+   "topic": "web-development-layers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:21.1.1",
+     "official_code": "21.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_p42xtXvkXks57Zp4": {
+   "kind": "question_part",
+   "label": "qstn_VtpF9QTY3j7sY7Cp / part 0",
+   "section": "12-website-authoring",
+   "topic": "web-development-layers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:21.1.1",
+     "official_code": "21.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_CkFfQdHKFWCBDXSn": {
+   "kind": "question_part",
+   "label": "qstn_sZ7cvyFQZFWRRrzs / part 0",
+   "section": "12-website-authoring",
+   "topic": "web-development-layers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:21.1.1",
+     "official_code": "21.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kry5bh28J4SHpqm6": {
+   "kind": "question_part",
+   "label": "qstn_xVxBfXj9Vfb4yF5S / part 0",
+   "section": "12-website-authoring",
+   "topic": "web-development-layers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:21.1.1",
+     "official_code": "21.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KphbStCz5BjmYRmD": {
+   "kind": "question_part",
+   "label": "qstn_ghk7KfmNvknnDkpC / part 0",
+   "section": "12-website-authoring",
+   "topic": "web-development-layers",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:21.1.1",
+     "official_code": "21.1.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DJsP4HrKv2kyNTgS": {
+   "kind": "question_part",
+   "label": "qstn_TW8VRn2TVn8Dms5S / part 0",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_5msnjrCcs5VgCHbR"
+   ]
+  },
+  "qstnprt_w86CJM4jKfThGtCJ": {
+   "kind": "question_part",
+   "label": "qstn_k4Dw6jBCS3DPfgMG / part 0",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_TwH5tzBr6bMxgkzX"
+   ]
+  },
+  "qstnprt_HY6BTsWnD4S8gHZ7": {
+   "kind": "question_part",
+   "label": "qstn_sMScJbrWtgNNTPwX / part 0",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_TwH5tzBr6bMxgkzX"
+   ]
+  },
+  "qstnprt_7GpMkNQXXbTFPT3X": {
+   "kind": "question_part",
+   "label": "qstn_VMkHMKHkNR4vcM79 / part 0",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_TwH5tzBr6bMxgkzX"
+   ]
+  },
+  "qstnprt_ZtfwzzCY2gcttTDF": {
+   "kind": "question_part",
+   "label": "qstn_md7DhwsjF7VpsN8y / part 0",
+   "section": "13-presentations",
+   "topic": "presentations",
+   "codes": [],
+   "pending": [
+    "spcpt_wt8Ghz9d75Dk8kjT"
+   ]
+  },
+  "qstnprt_CdBmsC7YcMXVgSfz": {
+   "kind": "question_part",
+   "label": "qstn_pxJwfgmF9Kdjvv7x / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_68Zjxd88nfD553pZ"
+   ]
+  },
+  "qstnprt_CFx76T2cDDVFQwrJ": {
+   "kind": "question_part",
+   "label": "qstn_pH6JCpdnzDr4zBfH / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.3",
+     "official_code": "4.2.3",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6PgrNvjhqm2qJhKW": {
+   "kind": "question_part",
+   "label": "qstn_jydRFXxJ3w9nXFST / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_mVRX3R3pHx9G6rxK"
+   ]
+  },
+  "qstnprt_z7BWWdXN22dStfYc": {
+   "kind": "question_part",
+   "label": "qstn_BKZYTGj4WVJbdrcQ / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.4",
+     "official_code": "4.2.4",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Q7dVvHtQvjwnhNW2": {
+   "kind": "question_part",
+   "label": "qstn_6gmXb6djTKztpGqf / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_kqRp5Jn5K7F6F8C9"
+   ]
+  },
+  "qstnprt_GkPJYS3KXpFqs3Zy": {
+   "kind": "question_part",
+   "label": "qstn_sgBnttX7bNpPjqvg / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_kqRp5Jn5K7F6F8C9"
+   ]
+  },
+  "qstnprt_Vzwr7BbxQfqspzsQ": {
+   "kind": "question_part",
+   "label": "qstn_Qs9X8rYbqFGK6hVr / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_mVRX3R3pHx9G6rxK"
+   ]
+  },
+  "qstnprt_dkGrDhpYshDGF5Bw": {
+   "kind": "question_part",
+   "label": "qstn_FWbsFrPW8T4YqcwG / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YGkgQygtk9FBwCcS": {
+   "kind": "question_part",
+   "label": "qstn_2JBGdMq5Dq53TVP8 / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_tV5qkjVxQZXMGk4h": {
+   "kind": "question_part",
+   "label": "qstn_TTprvNjtVNJg5Cpt / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_68Zjxd88nfD553pZ"
+   ]
+  },
+  "qstnprt_kmhrX8w4D3KYgFqR": {
+   "kind": "question_part",
+   "label": "qstn_gkZZ4Df8p4WjDWdz / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_qxS9vyBTN6N84C2s": {
+   "kind": "question_part",
+   "label": "qstn_CTfcmWTgtyCX5s3h / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_tBFCyhMJ7XmJ5QT9": {
+   "kind": "question_part",
+   "label": "qstn_58hH7zFW2qFHTV6m / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.2.2",
+     "official_code": "4.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_HgvXhbChhzy8RvBm": {
+   "kind": "question_part",
+   "label": "qstn_pnCRtgxZj6VqhzGK / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_68Zjxd88nfD553pZ"
+   ]
+  },
+  "qstnprt_zh4R8Pc6ryPjDVGm": {
+   "kind": "question_part",
+   "label": "qstn_VhDtC3Jrh6pkryDZ / part 0",
+   "section": "2-networks",
+   "topic": "network-issues",
+   "codes": [],
+   "pending": [
+    "spcpt_68Zjxd88nfD553pZ"
+   ]
+  },
+  "qstnprt_6nqFw5nQ5vm9wTyW": {
+   "kind": "question_part",
+   "label": "qstn_tHDjmZgcWVkNCVD9 / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bhsRMnSX9qDmPvSs": {
+   "kind": "question_part",
+   "label": "qstn_tHDjmZgcWVkNCVD9 / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RZP75pBtMD966D8Y": {
+   "kind": "question_part",
+   "label": "qstn_2NJqGvG2mB3w39hK / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_sF8QsrT3WZrTGH99",
+    "spcpt_gGDqYgMrhHt3rhFc"
+   ]
+  },
+  "qstnprt_Ffz72wNWjXR5G9gx": {
+   "kind": "question_part",
+   "label": "qstn_cG7HvPbSKKNfr77X / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.3.2",
+     "official_code": "8.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_4gmq2ngq3jQQbTyQ": {
+   "kind": "question_part",
+   "label": "qstn_S4PHvJP6qhvCYCHg / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_dz6pYTFHX4Tk8wc5"
+   ]
+  },
+  "qstnprt_bvT8fNmB3TG6XfYB": {
+   "kind": "question_part",
+   "label": "qstn_D3668RQMnTRv9Rj8 / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bsS9w9vvPHgxNbxN": {
+   "kind": "question_part",
+   "label": "qstn_9RKDtgDqkZt7zcqz / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_dz6pYTFHX4Tk8wc5"
+   ]
+  },
+  "qstnprt_tb5PnGDtzy7hcxvp": {
+   "kind": "question_part",
+   "label": "qstn_mQ7D835fJgKQGt7N / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Tk56tP5Q9SfxrK2J": {
+   "kind": "question_part",
+   "label": "qstn_mQ7D835fJgKQGt7N / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZY6j6kPfmz4Zm84b": {
+   "kind": "question_part",
+   "label": "qstn_v2z4wFMBZm36VrFW / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JPQRZGJKNJXm8QY7": {
+   "kind": "question_part",
+   "label": "qstn_v2z4wFMBZm36VrFW / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Dc44Z5vndwKFNQnV": {
+   "kind": "question_part",
+   "label": "qstn_DPPfNDCdRs3jYQ9d / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RPGNCRMM5WPTkhcd": {
+   "kind": "question_part",
+   "label": "qstn_DPPfNDCdRs3jYQ9d / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_sJhvVwxN3fCKSt5h": {
+   "kind": "question_part",
+   "label": "qstn_XbtkwsQXsXxJ2kvj / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DmN3Bwqf5zqJcnY6": {
+   "kind": "question_part",
+   "label": "qstn_BGgrkrsMkVzGkXnz / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_GDhXntkmKzMSNNQJ"
+   ]
+  },
+  "qstnprt_x5Qvz5xYJSPkjN6j": {
+   "kind": "question_part",
+   "label": "qstn_HGvB4th77T8J9cS5 / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_kxyZbHHqSV63rTVC": {
+   "kind": "question_part",
+   "label": "qstn_HGvB4th77T8J9cS5 / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_vbHtcNjxtnhbsGCp"
+   ]
+  },
+  "qstnprt_ykxm3Xfhj3F2rQ49": {
+   "kind": "question_part",
+   "label": "qstn_MZrmQrbgwM4nv8vg / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.3",
+     "official_code": "4.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YNBsvGw4jCqYQVB5": {
+   "kind": "question_part",
+   "label": "qstn_q7v9WBc7rMsQHxHx / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_H9WGfdx2Gm8rrSht",
+    "spcpt_GDhXntkmKzMSNNQJ"
+   ]
+  },
+  "qstnprt_JHTZztX92Q9bSd9g": {
+   "kind": "question_part",
+   "label": "qstn_MFkqX8nvXkCQrZpn / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_H9WGfdx2Gm8rrSht"
+   ]
+  },
+  "qstnprt_bWTzxC6tZN6s67Tc": {
+   "kind": "question_part",
+   "label": "qstn_MFkqX8nvXkCQrZpn / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_dz6pYTFHX4Tk8wc5"
+   ]
+  },
+  "qstnprt_n343J2k29Q3TKjDV": {
+   "kind": "question_part",
+   "label": "qstn_8RStWD585SRsH9FJ / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_sF8QsrT3WZrTGH99"
+   ]
+  },
+  "qstnprt_XQzYQWwzNnYv89wT": {
+   "kind": "question_part",
+   "label": "qstn_8RStWD585SRsH9FJ / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_gGDqYgMrhHt3rhFc"
+   ]
+  },
+  "qstnprt_YqQGT4zNxCHY4Jtn": {
+   "kind": "question_part",
+   "label": "qstn_8RStWD585SRsH9FJ / part 2",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fJCP6ztjK8MKYnt9": {
+   "kind": "question_part",
+   "label": "qstn_8RStWD585SRsH9FJ / part 3",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_PWvqGrwx2ZyNFtFd"
+   ]
+  },
+  "qstnprt_vX4vnh8bfngJD2s2": {
+   "kind": "question_part",
+   "label": "qstn_F73Xk3567NJ56znb / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_dz6pYTFHX4Tk8wc5"
+   ]
+  },
+  "qstnprt_rWSkNg3P76pWpQbY": {
+   "kind": "question_part",
+   "label": "qstn_F73Xk3567NJ56znb / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_H9WGfdx2Gm8rrSht"
+   ]
+  },
+  "qstnprt_nXYD9MGPMFH7FjJQ": {
+   "kind": "question_part",
+   "label": "qstn_5DX2DKmq6zKHMJcS / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:4.1.1",
+     "official_code": "4.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_3wpVMjJgqDKwb3bM": {
+   "kind": "question_part",
+   "label": "qstn_5DX2DKmq6zKHMJcS / part 1",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_sF8QsrT3WZrTGH99"
+   ]
+  },
+  "qstnprt_TCnJ7BFTDG6fDBvm": {
+   "kind": "question_part",
+   "label": "qstn_5DX2DKmq6zKHMJcS / part 2",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_MTCxRjxWFJmvHFzV"
+   ]
+  },
+  "qstnprt_6ZjTKHyBCqTCFkf4": {
+   "kind": "question_part",
+   "label": "qstn_nNw97chVtVG3g9fc / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_PWvqGrwx2ZyNFtFd"
+   ]
+  },
+  "qstnprt_zTJr9NCncK8BNtPm": {
+   "kind": "question_part",
+   "label": "qstn_KSmZgqYcDCk2KPb2 / part 0",
+   "section": "2-networks",
+   "topic": "networks",
+   "codes": [],
+   "pending": [
+    "spcpt_MTCxRjxWFJmvHFzV"
+   ]
+  },
+  "qstnprt_BKDDWxXZjYz7rvWr": {
+   "kind": "question_part",
+   "label": "qstn_D7PMMZP6f2Kmh7vN / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_2rk5BkvV62sPF5Mb": {
+   "kind": "question_part",
+   "label": "qstn_9pgXzXhVjkzsC9Fx / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_6qH5bZzjjT8xb4Sq"
+   ]
+  },
+  "qstnprt_qKf9Y4ShhrfMmgpR": {
+   "kind": "question_part",
+   "label": "qstn_YJKqQfVKy5n4s8Ry / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_6qH5bZzjjT8xb4Sq"
+   ]
+  },
+  "qstnprt_zkPz2pt4t3CDm8VN": {
+   "kind": "question_part",
+   "label": "qstn_sKbQPxtx7qDhQw8B / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gpcBSDyb3ck2Sp3g": {
+   "kind": "question_part",
+   "label": "qstn_sKbQPxtx7qDhQw8B / part 1",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fbdhG7nwk38Qhh59": {
+   "kind": "question_part",
+   "label": "qstn_sKbQPxtx7qDhQw8B / part 2",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KZhRVXrf53FCMw5J": {
+   "kind": "question_part",
+   "label": "qstn_sKbQPxtx7qDhQw8B / part 3",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_b8wRq43ttWMR54yQ": {
+   "kind": "question_part",
+   "label": "qstn_QjQRvn4JyJDyDn2W / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_5jbXrXxNJ8YCqZcH": {
+   "kind": "question_part",
+   "label": "qstn_5ywbmss3BhfgBmYZ / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_JnDGCrbwN7SpMywg": {
+   "kind": "question_part",
+   "label": "qstn_ymm5CZBqMyRhw874 / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_PyJrxhTTS6ZKbm7p": {
+   "kind": "question_part",
+   "label": "qstn_KhqZXdWRWJwQCVPP / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_59ghvK6dnF6CbNzw": {
+   "kind": "question_part",
+   "label": "qstn_rQppw3nQgFtmj2Xc / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cr4qjQ6M9mD2N8hp": {
+   "kind": "question_part",
+   "label": "qstn_kgbngBQHNtRmkMd8 / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_GyPWjDm2K2dTf5Rm": {
+   "kind": "question_part",
+   "label": "qstn_fTrmV7mdf7rQbsYW / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hzXGJ9rDkZ5G8Z6n": {
+   "kind": "question_part",
+   "label": "qstn_VnGdsQRHG5fcrVr3 / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_dmHvNkrRrG5kCYtK": {
+   "kind": "question_part",
+   "label": "qstn_mft2TDjFvG46vmsV / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_cZKgTnttgkVd7Tgf": {
+   "kind": "question_part",
+   "label": "qstn_SF6xZH5xpRTx9rtY / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hqzcFPST8CWv8fbc": {
+   "kind": "question_part",
+   "label": "qstn_HrZPmrM97tc9kN9g / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_PzswBrnmDR5Rg3XW": {
+   "kind": "question_part",
+   "label": "qstn_dxPs2GMqt634D38t / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_zzvCBRs4mMb7FgW4": {
+   "kind": "question_part",
+   "label": "qstn_wYfJxRTVwztDSBzc / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vhFd8CBwDX3SNXKQ": {
+   "kind": "question_part",
+   "label": "qstn_W66M8MfGPFYjyBJc / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_HMxsXYTPhPxWBgPG": {
+   "kind": "question_part",
+   "label": "qstn_Xvx4BH8NVvxHW8H7 / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WcSB66XTd4mnxRNp": {
+   "kind": "question_part",
+   "label": "qstn_5gzMcMJFcFGbJ3N7 / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_WF4dHrY7qGh7JtyY": {
+   "kind": "question_part",
+   "label": "qstn_RK5Dnyp3VTZnC2wc / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_yqXzvXWwXgddd5qT": {
+   "kind": "question_part",
+   "label": "qstn_RK5Dnyp3VTZnC2wc / part 1",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_tVYsH9gq7m5bvxgH": {
+   "kind": "question_part",
+   "label": "qstn_9g5yntsPwZ3GNQD7 / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_QHvQz3qWMy5c6fhr": {
+   "kind": "question_part",
+   "label": "qstn_f86wNbc52dX7ZpdG / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:5.2.1",
+     "official_code": "5.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vDM9S4jMVJ4y4NtZ": {
+   "kind": "question_part",
+   "label": "qstn_XYfmYJkQfnVdwFcw / part 0",
+   "section": "3-effects-of-using-it",
+   "topic": "effects-of-using-it",
+   "codes": [],
+   "pending": [
+    "spcpt_8Qnj3pNDkT9QsqZ4"
+   ]
+  },
+  "qstnprt_FvM3zRNG2JVRr5gF": {
+   "kind": "question_part",
+   "label": "qstn_8c5hd8JWPR287Nvh / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dsRtx22T7DNYvgVX": {
+   "kind": "question_part",
+   "label": "qstn_TtxhQv6THq6hm7Th / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_w98bjGDpX6678ZpV"
+   ]
+  },
+  "qstnprt_7sS4hKmK6tjkk6tM": {
+   "kind": "question_part",
+   "label": "qstn_C7sd4KTbZ5wK5nwh / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_wJjDbdjzWWtzwjzG": {
+   "kind": "question_part",
+   "label": "qstn_mq9gdFqmHsq4BngQ / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JJ8Gcs3jWkhRQfRn": {
+   "kind": "question_part",
+   "label": "qstn_wvXtv2yp59K4RJh4 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_zFhZx9fcfvHdgzYx": {
+   "kind": "question_part",
+   "label": "qstn_wvXtv2yp59K4RJh4 / part 1",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_V7HGThg5Q6DqjBkq": {
+   "kind": "question_part",
+   "label": "qstn_5pJsG7wcSfvqVXx6 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XdMhPJPXvRmtQWjx": {
+   "kind": "question_part",
+   "label": "qstn_5pJsG7wcSfvqVXx6 / part 1",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6ZP7VT7YCyMyGWxk": {
+   "kind": "question_part",
+   "label": "qstn_dptSZbvKgshxmfgR / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.7.1",
+     "official_code": "6.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ZGgVYNtPP5TGrVS8": {
+   "kind": "question_part",
+   "label": "qstn_6x4WhrQc7Br9vWy5 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_D43r7Kgw9Q3CSJMg"
+   ]
+  },
+  "qstnprt_NqCBKRC689FYTXDC": {
+   "kind": "question_part",
+   "label": "qstn_Rz3MkNf3fHtw7GpY / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_kYGs95wJf7dtS6Y3"
+   ]
+  },
+  "qstnprt_V4Nx4V9fMKbTQdTt": {
+   "kind": "question_part",
+   "label": "qstn_RcRY4RwhGNskdYvg / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_RtkXtff6JNCZs8qs": {
+   "kind": "question_part",
+   "label": "qstn_QFgvkr7bJ7jZsJPJ / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_gx874NhcWzvz49PW"
+   ]
+  },
+  "qstnprt_XKx34qkJNCV9HXbv": {
+   "kind": "question_part",
+   "label": "qstn_VQSDqsprsSVK4h7Z / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.9.2",
+     "official_code": "6.9.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_HvwVZdB2Z3t9rVZj": {
+   "kind": "question_part",
+   "label": "qstn_7R7p9NNhqhvGvzXy / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Nj7rHzQtVp8yTmJp": {
+   "kind": "question_part",
+   "label": "qstn_GZvKGrJsW9yycgRh / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_kYGs95wJf7dtS6Y3"
+   ]
+  },
+  "qstnprt_fmMDBYr64G7dsvSz": {
+   "kind": "question_part",
+   "label": "qstn_QQGVKv3sQrGTtyKX / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_GvB56p9thB2mNjr3": {
+   "kind": "question_part",
+   "label": "qstn_4f96rXGgG59BksZW / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_FP85smjwWWt6kPPd"
+   ]
+  },
+  "qstnprt_2hykWZ87TRkCxDnj": {
+   "kind": "question_part",
+   "label": "qstn_tsfrcvK6v6F8WPMf / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XRkqpd3YqzJddwfB": {
+   "kind": "question_part",
+   "label": "qstn_zdyp26fzDG2VXMdJ / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_sYdCBkbHGtVTx4FJ"
+   ]
+  },
+  "qstnprt_nW3wnmFr8XP7t5RB": {
+   "kind": "question_part",
+   "label": "qstn_cS6rSxvF8G2YZ359 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_sYdCBkbHGtVTx4FJ",
+    "spcpt_gx874NhcWzvz49PW"
+   ]
+  },
+  "qstnprt_T5sDBGvzTby4wjQk": {
+   "kind": "question_part",
+   "label": "qstn_cS6rSxvF8G2YZ359 / part 1",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_sYdCBkbHGtVTx4FJ"
+   ]
+  },
+  "qstnprt_gS7FXmsGFPtdq4fd": {
+   "kind": "question_part",
+   "label": "qstn_TzDhMgnvNVVGBJW6 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_rpxPcvF4C9FG5JHG": {
+   "kind": "question_part",
+   "label": "qstn_SxfMR7Pc5Fkh3cKS / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.9.2",
+     "official_code": "6.9.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_37XwxjMFW3jx5vvT": {
+   "kind": "question_part",
+   "label": "qstn_SxfMR7Pc5Fkh3cKS / part 1",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.9.2",
+     "official_code": "6.9.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dn5nf5jknx4Sn7Z9": {
+   "kind": "question_part",
+   "label": "qstn_VySGsPBDY9ScqP92 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_sYdCBkbHGtVTx4FJ"
+   ]
+  },
+  "qstnprt_ZpKYN35pHKJxtkzP": {
+   "kind": "question_part",
+   "label": "qstn_TJbP6c9GkCDZWCwJ / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_FP85smjwWWt6kPPd"
+   ]
+  },
+  "qstnprt_jFQDBRV5PcKYf3Yf": {
+   "kind": "question_part",
+   "label": "qstn_CRMG7RZ8p3nzGJKg / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_gx874NhcWzvz49PW"
+   ]
+  },
+  "qstnprt_fWzRhJ9kQ6ZTTnpD": {
+   "kind": "question_part",
+   "label": "qstn_yYpKFy5v4kcjzhzQ / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_sYdCBkbHGtVTx4FJ"
+   ]
+  },
+  "qstnprt_V6RKwW5vDfQgZtNf": {
+   "kind": "question_part",
+   "label": "qstn_yYpKFy5v4kcjzhzQ / part 1",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.5.1",
+     "official_code": "6.5.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8TNfC6WRb8gvDTFq": {
+   "kind": "question_part",
+   "label": "qstn_7cDRxhGzt9xS5K99 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_gx874NhcWzvz49PW"
+   ]
+  },
+  "qstnprt_BFxs72hqwXxDM7bG": {
+   "kind": "question_part",
+   "label": "qstn_SYmkHD5dPJYHSk78 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_sZ6Dt6qs2KsdVggk": {
+   "kind": "question_part",
+   "label": "qstn_c9HVMzySZqZTzHRd / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.9.2",
+     "official_code": "6.9.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_D9tH9JTRZ4v7HXgw": {
+   "kind": "question_part",
+   "label": "qstn_QwZycYpZP82nTX2q / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_KWFbYN65TTwM5H7P": {
+   "kind": "question_part",
+   "label": "qstn_ZCrxS7hfGRxHjYJN / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_bw9M74NZbVC6m84W"
+   ]
+  },
+  "qstnprt_hvBHNB85v65frYwr": {
+   "kind": "question_part",
+   "label": "qstn_tDQnk8dPwT9kdXVc / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_DBy5j86kGhg8kzYj": {
+   "kind": "question_part",
+   "label": "qstn_gfjmGMfQ4czvrrcX / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_7QSJ4dkKM8j4tF23"
+   ]
+  },
+  "qstnprt_X9FD4vrf697P4qvw": {
+   "kind": "question_part",
+   "label": "qstn_BbWXW27TVnCwbM2k / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_2zgmrDKVccK2npjf": {
+   "kind": "question_part",
+   "label": "qstn_YwQSXzKYp5MXskG4 / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.3.1",
+     "official_code": "6.3.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_XrQYr6HQNYH9SBNY": {
+   "kind": "question_part",
+   "label": "qstn_bPzQds52VWBMFC9M / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_K679fJRC2dPpDpp5": {
+   "kind": "question_part",
+   "label": "qstn_bPzQds52VWBMFC9M / part 1",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.8.1",
+     "official_code": "6.8.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_xjxTWnKXwSrVbW3r": {
+   "kind": "question_part",
+   "label": "qstn_zJ9M3DqTM99VW9qP / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_FP85smjwWWt6kPPd"
+   ]
+  },
+  "qstnprt_GWs7GPHXY6DpFmyF": {
+   "kind": "question_part",
+   "label": "qstn_fpncf2dyNSMdTCpV / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_kYGs95wJf7dtS6Y3"
+   ]
+  },
+  "qstnprt_jtvWkxQgqyVpRfVN": {
+   "kind": "question_part",
+   "label": "qstn_Rv9Z3CZGcyZDYJNf / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_w98bjGDpX6678ZpV"
+   ]
+  },
+  "qstnprt_bp7XgjHVk7WhyR4y": {
+   "kind": "question_part",
+   "label": "qstn_RNkZmwvRf3n9NkWR / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.7.1",
+     "official_code": "6.7.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Px5K7f2XhRGrWSZD": {
+   "kind": "question_part",
+   "label": "qstn_4nhJxww6mjbXG7QN / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_7QSJ4dkKM8j4tF23"
+   ]
+  },
+  "qstnprt_tGP5ZTXvZKbwxhg8": {
+   "kind": "question_part",
+   "label": "qstn_HtwKWGwNBtxHgZkr / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_FP85smjwWWt6kPPd"
+   ]
+  },
+  "qstnprt_v4SRjSw2NGzP5DRG": {
+   "kind": "question_part",
+   "label": "qstn_rxkFCHvzWkgBvWVP / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [],
+   "pending": [
+    "spcpt_w98bjGDpX6678ZpV"
+   ]
+  },
+  "qstnprt_ZzxsqP7XQHDZcYZH": {
+   "kind": "question_part",
+   "label": "qstn_8RCWX2DyXnWzBHym / part 0",
+   "section": "4-ict-applications",
+   "topic": "ict-applications",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bZQz4sWfpFR2bVJn": {
+   "kind": "question_part",
+   "label": "qstn_cdpFybXGWbTR6c2k / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_5MrD3DMtXc7pZkZf"
+   ]
+  },
+  "qstnprt_vNT9YMZDp8S2JJZk": {
+   "kind": "question_part",
+   "label": "qstn_G9Nf6fnYDPX2CyFy / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_vgPvGDGkw3MmYH8S": {
+   "kind": "question_part",
+   "label": "qstn_vzXrjjZ7V3rSFvby / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_pJbGNTQX5txccBCz": {
+   "kind": "question_part",
+   "label": "qstn_c5DDFGdTDcptHrFb / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WPSStT4bf552yHX6": {
+   "kind": "question_part",
+   "label": "qstn_68WSc5nXYq3ysnt5 / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_SHNkvW9Pj2ZtH84d": {
+   "kind": "question_part",
+   "label": "qstn_68WSc5nXYq3ysnt5 / part 1",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_gjyWzQxwPmMrS8SM"
+   ]
+  },
+  "qstnprt_wym596C4q5sC3gDx": {
+   "kind": "question_part",
+   "label": "qstn_M32cMZHX6hWkTnFz / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_8yrBGtCyj8txn72s": {
+   "kind": "question_part",
+   "label": "qstn_M32cMZHX6hWkTnFz / part 1",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_h94WxfZnyPxX9Rjb"
+   ]
+  },
+  "qstnprt_QmrTwHCwVp5kwyJ7": {
+   "kind": "question_part",
+   "label": "qstn_3b7WDTvZbfHFbsp8 / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_qkXzZPFKnJXMKxdZ": {
+   "kind": "question_part",
+   "label": "qstn_DX8T88CjCwvHdVmm / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_rSkJfVzQXSGMpFMV"
+   ]
+  },
+  "qstnprt_ws64qFVHFRCpcvrP": {
+   "kind": "question_part",
+   "label": "qstn_DX8T88CjCwvHdVmm / part 1",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_VTCrqx8wnRQMgcPZ"
+   ]
+  },
+  "qstnprt_d3xMSS9DB4CxC8Zm": {
+   "kind": "question_part",
+   "label": "qstn_NNgmzBqybwbVmrJq / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_23frTWgPj9cgdGmk"
+   ]
+  },
+  "qstnprt_BCH6dfkHMwNfPTvv": {
+   "kind": "question_part",
+   "label": "qstn_Vmb7rFhBnBpd8gpt / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_y8F82SWgPzdqNVmK": {
+   "kind": "question_part",
+   "label": "qstn_xtN7dCZGG4Vfcjj8 / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "qstnprt_vvqqG6gyZv2Z8mrg": {
+   "kind": "question_part",
+   "label": "qstn_CCwmB5BsHMkHzMrQ / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "qstnprt_Kpxg86xgDDCR7JGQ": {
+   "kind": "question_part",
+   "label": "qstn_gJdS4557JGcwPB58 / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "qstnprt_CTyQkHpTCJcjXdbB": {
+   "kind": "question_part",
+   "label": "qstn_VZjkkvKNsHdxYBfV / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_5MrD3DMtXc7pZkZf"
+   ]
+  },
+  "qstnprt_yRvrfFk4w5dfmw6z": {
+   "kind": "question_part",
+   "label": "qstn_5xNyKk4gbYNzwPpt / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "qstnprt_R5tpjDyFNrG3nb37": {
+   "kind": "question_part",
+   "label": "qstn_5xNyKk4gbYNzwPpt / part 1",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MD4zZvHDzmxr5R99": {
+   "kind": "question_part",
+   "label": "qstn_NkN4MDtfKfQ6JS4h / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:7.4.1",
+     "official_code": "7.4.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_jWRgVhjZTNrsbdTz": {
+   "kind": "question_part",
+   "label": "qstn_T9HH8gRQSmFSNc7s / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_5MrD3DMtXc7pZkZf"
+   ]
+  },
+  "qstnprt_q4QHcxCZdyC99BY8": {
+   "kind": "question_part",
+   "label": "qstn_xhxGPRJX2Jkqb66R / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_5MrD3DMtXc7pZkZf"
+   ]
+  },
+  "qstnprt_T3HmrGDWQdGBc4T9": {
+   "kind": "question_part",
+   "label": "qstn_P59Kk424mvN98GT5 / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_kPr3d6DspMYB7hWt"
+   ]
+  },
+  "qstnprt_7KJBwtHgSx56KCx7": {
+   "kind": "question_part",
+   "label": "qstn_HbgzMZqxxTcFjybb / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_kPr3d6DspMYB7hWt"
+   ]
+  },
+  "qstnprt_YT2Xgtg3C2Mq8pnH": {
+   "kind": "question_part",
+   "label": "qstn_754XXf6xtCZzWS7X / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_VTCrqx8wnRQMgcPZ"
+   ]
+  },
+  "qstnprt_qmYKgSx6ZgGpvpkC": {
+   "kind": "question_part",
+   "label": "qstn_SJq7SSmYtYrJr7Z9 / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_VTCrqx8wnRQMgcPZ"
+   ]
+  },
+  "qstnprt_f7mwn6RZJ4dXngtJ": {
+   "kind": "question_part",
+   "label": "qstn_VVHd52DYMdx2bTyX / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "qstnprt_xP5RS9vCyR4wc2nR": {
+   "kind": "question_part",
+   "label": "qstn_6hNBP6dzrGC7JjxJ / part 0",
+   "section": "5-the-systems-life-cycle",
+   "topic": "the-systems-life-cycle",
+   "codes": [],
+   "pending": [
+    "spcpt_bCXJ33tjxS9JRddS"
+   ]
+  },
+  "qstnprt_sPByk3SNtH6kmjKJ": {
+   "kind": "question_part",
+   "label": "qstn_M54ZQVq4kjfxb9Pt / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.2.1",
+     "official_code": "8.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vGBB7m6j3XhwgRfj": {
+   "kind": "question_part",
+   "label": "qstn_Tg7KTW5kKjv2CzSW / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.2.1",
+     "official_code": "8.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_72pghfMsKCBKnpBN": {
+   "kind": "question_part",
+   "label": "qstn_99NYcSFPZnZss5v8 / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_KvDq39Vdpb5wrDcx"
+   ]
+  },
+  "qstnprt_vmnvcts8BtMJYXD9": {
+   "kind": "question_part",
+   "label": "qstn_YXwCtg2YDvGNjvP9 / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_KvDq39Vdpb5wrDcx"
+   ]
+  },
+  "qstnprt_2FKq6XVqsC29Z5pq": {
+   "kind": "question_part",
+   "label": "qstn_pzS3qT2xkPp8JN3j / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_KvDq39Vdpb5wrDcx"
+   ]
+  },
+  "qstnprt_sJ26MkpsXX6mYDmR": {
+   "kind": "question_part",
+   "label": "qstn_FxxFhxW2mzHN4Zwb / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.3.2",
+     "official_code": "8.3.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_KvDq39Vdpb5wrDcx"
+   ]
+  },
+  "qstnprt_5jddTQvfqndgWkwF": {
+   "kind": "question_part",
+   "label": "qstn_gQ3NTjpF7rJ9BN7Y / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_f67QvQmQGXBS3FVD": {
+   "kind": "question_part",
+   "label": "qstn_pNsvS7B5mjbbCMhz / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "qstnprt_pJd7M4wnrWydcGvG": {
+   "kind": "question_part",
+   "label": "qstn_tCt3Q3CgvHwdh2Hv / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.2.1",
+     "official_code": "8.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hRwHBwQ68jbDtSdD": {
+   "kind": "question_part",
+   "label": "qstn_tCt3Q3CgvHwdh2Hv / part 1",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "qstnprt_vm82kKHrcbZBGtBd": {
+   "kind": "question_part",
+   "label": "qstn_tCt3Q3CgvHwdh2Hv / part 2",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "qstnprt_pM66CngzXRySQ4xH": {
+   "kind": "question_part",
+   "label": "qstn_mNdB9xVkb7WM7c8h / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_KvDq39Vdpb5wrDcx"
+   ]
+  },
+  "qstnprt_nBYZtDz5VHBGtnqF": {
+   "kind": "question_part",
+   "label": "qstn_PBWpKxPB3rcPXY5W / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "qstnprt_7VkJf7gmJTQNJ7y3": {
+   "kind": "question_part",
+   "label": "qstn_5YT2FHX3ZYTZJd73 / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "qstnprt_8WHTncKxZHv9pcDW": {
+   "kind": "question_part",
+   "label": "qstn_g3DTtgmvR9S8KQPG / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_Jjpc5sWXWJNgs3Z8"
+   ]
+  },
+  "qstnprt_8tTPzG7Tg4FMh42c": {
+   "kind": "question_part",
+   "label": "qstn_hNnN3zKDMtn2PJw6 / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_f7mPmTrY3763jY8H": {
+   "kind": "question_part",
+   "label": "qstn_hNnN3zKDMtn2PJw6 / part 1",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_HKv7KZ2k2rhRrfsy": {
+   "kind": "question_part",
+   "label": "qstn_wtg9VGtf2cKnY87V / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [],
+   "pending": [
+    "spcpt_9GTV33DWKhHM7Vmz"
+   ]
+  },
+  "qstnprt_vD6kTs8wwVpnBNYQ": {
+   "kind": "question_part",
+   "label": "qstn_v3QjkWtPy6HHrBvT / part 0",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_fJjrPZ5JV4nBHc33": {
+   "kind": "question_part",
+   "label": "qstn_v3QjkWtPy6HHrBvT / part 1",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ggsBDrFjtsG8VKWD": {
+   "kind": "question_part",
+   "label": "qstn_v3QjkWtPy6HHrBvT / part 2",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_5XzBQNRs6mdWqyHJ": {
+   "kind": "question_part",
+   "label": "qstn_v3QjkWtPy6HHrBvT / part 3",
+   "section": "6-safety-and-security",
+   "topic": "safety",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:8.1.1",
+     "official_code": "8.1.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_ypVYkwbNGyfJxrNn": {
+   "kind": "question_part",
+   "label": "qstn_2xdHSPBPwJxNmb2v / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_JcttC45cS5ZgdYBH"
+   ]
+  },
+  "qstnprt_WBC3HvZwzdzwknwf": {
+   "kind": "question_part",
+   "label": "qstn_2xdHSPBPwJxNmb2v / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_JcttC45cS5ZgdYBH"
+   ]
+  },
+  "qstnprt_dh7PQRcpFDxg5RjR": {
+   "kind": "question_part",
+   "label": "qstn_c5fxWhbnMFC3x526 / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kdm3B9fzKs5v4wYV": {
+   "kind": "question_part",
+   "label": "qstn_c5fxWhbnMFC3x526 / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_WwhhbqkSbJPddhWT": {
+   "kind": "question_part",
+   "label": "qstn_ZMzTgYkkY6XCNNtS / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_gngD687HN3nsckS6": {
+   "kind": "question_part",
+   "label": "qstn_VWFX4kc5rWwKxnwx / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_wTn7vDs2dgZSjyXC"
+   ]
+  },
+  "qstnprt_D7gm4Wxy2grprMXk": {
+   "kind": "question_part",
+   "label": "qstn_9zQMZ962rxf7CHng / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_Xg9jQSq2f43Xvdk3"
+   ]
+  },
+  "qstnprt_bpWXmMmtzmNTSRW3": {
+   "kind": "question_part",
+   "label": "qstn_9zQMZ962rxf7CHng / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_Xg9jQSq2f43Xvdk3"
+   ]
+  },
+  "qstnprt_f4WQg5cPFhQzh4Gm": {
+   "kind": "question_part",
+   "label": "qstn_FXFJdWjcJwMRFZQK / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_JcttC45cS5ZgdYBH"
+   ]
+  },
+  "qstnprt_76RhHkh4qb9NgSgr": {
+   "kind": "question_part",
+   "label": "qstn_M7QNPTbJcRMMrqsJ / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_JcttC45cS5ZgdYBH"
+   ]
+  },
+  "qstnprt_qRr922m5HTyMWp4R": {
+   "kind": "question_part",
+   "label": "qstn_M2nxhsHwQwrwF6SG / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_rxvr358hd2WDFwTc"
+   ]
+  },
+  "qstnprt_TgcxttvBS8n5QTqw": {
+   "kind": "question_part",
+   "label": "qstn_M2nxhsHwQwrwF6SG / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_wTn7vDs2dgZSjyXC"
+   ]
+  },
+  "qstnprt_dzb3QgdFm7pdWjZQ": {
+   "kind": "question_part",
+   "label": "qstn_dqPVDxmkhRvyJpSN / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_Xg9jQSq2f43Xvdk3",
+    "spcpt_57ySpyqywDCJdFdX"
+   ]
+  },
+  "qstnprt_gYywm29YT5Rh7Msh": {
+   "kind": "question_part",
+   "label": "qstn_bGKrMbHW46JthfFd / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_HP7hTmYVNHnsp976"
+   ]
+  },
+  "qstnprt_6RPpSFQkXmbtYBWX": {
+   "kind": "question_part",
+   "label": "qstn_vsfPTzbWMSrxSrhx / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_zmMx98WxTTWfGyQc"
+   ]
+  },
+  "qstnprt_MwhqTkwbK8hZzDW7": {
+   "kind": "question_part",
+   "label": "qstn_xFKgQF4g7g69FmyQ / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_wTn7vDs2dgZSjyXC"
+   ]
+  },
+  "qstnprt_Cm9J7ybdbNpxc3YQ": {
+   "kind": "question_part",
+   "label": "qstn_xFKgQF4g7g69FmyQ / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_Xg9jQSq2f43Xvdk3"
+   ]
+  },
+  "qstnprt_KgQdX5CtzXGSfd5y": {
+   "kind": "question_part",
+   "label": "qstn_W58Xqct45fVJzsMx / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_qM6DZ5KMmDWKNWyW"
+   ]
+  },
+  "qstnprt_T4z2zthHXPZhTTBt": {
+   "kind": "question_part",
+   "label": "qstn_8Pz2YDt74JbrMbNh / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_rxvr358hd2WDFwTc"
+   ]
+  },
+  "qstnprt_GWjkV3g2QtfwW8MX": {
+   "kind": "question_part",
+   "label": "qstn_GGvMxpTM3pFG8yzK / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_HP7hTmYVNHnsp976"
+   ]
+  },
+  "qstnprt_qmryVXVkTvFqwFr3": {
+   "kind": "question_part",
+   "label": "qstn_c73FRb6WHhTv3DSH / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_MW76hCytTkdCWtKw": {
+   "kind": "question_part",
+   "label": "qstn_c73FRb6WHhTv3DSH / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:9.2.1",
+     "official_code": "9.2.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_YzxcQzFTbmz2cNP9": {
+   "kind": "question_part",
+   "label": "qstn_dKJJGXb5ZZwGGPqs / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_wTn7vDs2dgZSjyXC"
+   ]
+  },
+  "qstnprt_TszJBfmGRsxVfqZx": {
+   "kind": "question_part",
+   "label": "qstn_dKJJGXb5ZZwGGPqs / part 1",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_zB5xHvbm38YvbHMc"
+   ]
+  },
+  "qstnprt_HVWCFxqg3BPzX8gJ": {
+   "kind": "question_part",
+   "label": "qstn_dKJJGXb5ZZwGGPqs / part 2",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_mrPqCfM7XMTRsjkf"
+   ]
+  },
+  "qstnprt_jhr9NXMKyCMTGdKB": {
+   "kind": "question_part",
+   "label": "qstn_Szfz3dtqSW8Mq7n3 / part 0",
+   "section": "6-safety-and-security",
+   "topic": "security",
+   "codes": [],
+   "pending": [
+    "spcpt_57ySpyqywDCJdFdX"
+   ]
+  },
+  "qstnprt_DqzDRBRb9N6z8vKz": {
+   "kind": "question_part",
+   "label": "qstn_Gpns79CbQvW5McPD / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_CrWPsH9ZCt5tNBjx": {
+   "kind": "question_part",
+   "label": "qstn_Gpns79CbQvW5McPD / part 1",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_VsWjwtFTbXq3QtVm": {
+   "kind": "question_part",
+   "label": "qstn_52WVzgCpyhjcjN4X / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_HcZ3pxJdhzvyGzVS"
+   ]
+  },
+  "qstnprt_xXR6N2J4W9BB9hYr": {
+   "kind": "question_part",
+   "label": "qstn_DtD7tbr34vgZ8y27 / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bbKKXDPbqzYB3V7p"
+   ]
+  },
+  "qstnprt_zthsRQrvdycvqxSS": {
+   "kind": "question_part",
+   "label": "qstn_htdchxC6fdtVS8tg / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bbKKXDPbqzYB3V7p"
+   ]
+  },
+  "qstnprt_bgkmrf2rXmZqtyyZ": {
+   "kind": "question_part",
+   "label": "qstn_jygVKR82WRdStkkt / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bbKKXDPbqzYB3V7p"
+   ]
+  },
+  "qstnprt_HCHtrpGmMTtDn5Bv": {
+   "kind": "question_part",
+   "label": "qstn_R3CW5zZ5sTtzySWd / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_3Yckw48Jy9ZhctYG",
+    "spcpt_w6C9zcg5P5W5QXNv"
+   ]
+  },
+  "qstnprt_pJ6mjYk7Z8SVRTZP": {
+   "kind": "question_part",
+   "label": "qstn_fqvj4VtR4tp5Vssm / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_ytYtqHr5XbDWH2rr"
+   ]
+  },
+  "qstnprt_NZmXgGbXC36Bp9BW": {
+   "kind": "question_part",
+   "label": "qstn_Tkx3YYwknjPtS4cJ / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_HZVghWqYkyGwBjsq"
+   ]
+  },
+  "qstnprt_JHv99CVJWSzkXCcw": {
+   "kind": "question_part",
+   "label": "qstn_Q6d6Sk2dv9DkCQT4 / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bbKKXDPbqzYB3V7p"
+   ]
+  },
+  "qstnprt_gYBBDZyXjmRRvYSy": {
+   "kind": "question_part",
+   "label": "qstn_ZwbFqqgMFSxZCpMK / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_HZVghWqYkyGwBjsq"
+   ]
+  },
+  "qstnprt_n8yw4zC4xGrr2Ys8": {
+   "kind": "question_part",
+   "label": "qstn_G25c2KDQ4kns7F8c / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_HcZ3pxJdhzvyGzVS"
+   ]
+  },
+  "qstnprt_t7cS65wQT5wjFcrk": {
+   "kind": "question_part",
+   "label": "qstn_vDGHPXFD4tHZXWSG / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vZ9MFpygHYHx2Ckv": {
+   "kind": "question_part",
+   "label": "qstn_FPHqKs5vfcHHBwFy / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_dF46p59jB6Dncdfy": {
+   "kind": "question_part",
+   "label": "qstn_82qncvVsQxmMtKJ5 / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_3Yckw48Jy9ZhctYG"
+   ]
+  },
+  "qstnprt_WJmRfgbkNmz4PBtW": {
+   "kind": "question_part",
+   "label": "qstn_SWZS76G9TtRxX3Nh / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_bbKKXDPbqzYB3V7p"
+   ]
+  },
+  "qstnprt_Gvgn6M5prNYcRXNB": {
+   "kind": "question_part",
+   "label": "qstn_Y4djvv9TPyZgMDYx / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_ytYtqHr5XbDWH2rr"
+   ]
+  },
+  "qstnprt_z24jCpQg496wmQGJ": {
+   "kind": "question_part",
+   "label": "qstn_5ZwPvNKPrPmTb5TD / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_HcZ3pxJdhzvyGzVS"
+   ]
+  },
+  "qstnprt_5rPz799pbHdkBSsj": {
+   "kind": "question_part",
+   "label": "qstn_3mbTmVhtGKvmHfJ8 / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_CB4tJfcgVKcVYhBJ": {
+   "kind": "question_part",
+   "label": "qstn_5P4gDJ6h6Bkxy8gS / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_3Yckw48Jy9ZhctYG"
+   ]
+  },
+  "qstnprt_BdNrDtXJFR7QBBbB": {
+   "kind": "question_part",
+   "label": "qstn_5P4gDJ6h6Bkxy8gS / part 1",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_3Yckw48Jy9ZhctYG"
+   ]
+  },
+  "qstnprt_4YnwrCKhmwsJGyH4": {
+   "kind": "question_part",
+   "label": "qstn_5P4gDJ6h6Bkxy8gS / part 2",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_3Yckw48Jy9ZhctYG"
+   ]
+  },
+  "qstnprt_jqhPfFSxhD8n5FRQ": {
+   "kind": "question_part",
+   "label": "qstn_5P4gDJ6h6Bkxy8gS / part 3",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [],
+   "pending": [
+    "spcpt_w6C9zcg5P5W5QXNv"
+   ]
+  },
+  "qstnprt_rxwZf6rSXnmmM6D6": {
+   "kind": "question_part",
+   "label": "qstn_q7Pc54VV8vkcxTZY / part 0",
+   "section": "7-communication",
+   "topic": "communication",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:10.1.1",
+     "official_code": "10.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Zk98nqvQ8VpCvxDD": {
+   "kind": "question_part",
+   "label": "qstn_H8SpXwWWYzmDdtBm / part 0",
+   "section": "8-managing-files-and-compression",
+   "topic": "compression",
+   "codes": [],
+   "pending": [
+    "spcpt_pqK32pYGgJsQRtbZ"
+   ]
+  },
+  "qstnprt_49ph5MSPBMy4vZtf": {
+   "kind": "question_part",
+   "label": "qstn_zmBMSMCPDYDvpjqX / part 0",
+   "section": "8-managing-files-and-compression",
+   "topic": "compression",
+   "codes": [],
+   "pending": [
+    "spcpt_pqK32pYGgJsQRtbZ"
+   ]
+  },
+  "qstnprt_zqW4NQpSGDGvhVhH": {
+   "kind": "question_part",
+   "label": "qstn_j4DZqxTZCMKdJFPP / part 0",
+   "section": "8-managing-files-and-compression",
+   "topic": "manage-files-effectively",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.1.2",
+     "official_code": "11.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hW7BwTJ8bxWKYkmC": {
+   "kind": "question_part",
+   "label": "qstn_vq353mRxtzrDdTKQ / part 0",
+   "section": "8-managing-files-and-compression",
+   "topic": "manage-files-effectively",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.1.2",
+     "official_code": "11.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_6zgKM7kfVGtV2NV5": {
+   "kind": "question_part",
+   "label": "qstn_BKQJkCyJw5RsWGcH / part 0",
+   "section": "8-managing-files-and-compression",
+   "topic": "manage-files-effectively",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.1.2",
+     "official_code": "11.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_rHFD36N5yY5m795S": {
+   "kind": "question_part",
+   "label": "qstn_MmPnvmHsxKTjWkjN / part 0",
+   "section": "9-working-with-documents",
+   "topic": "audience-and-purpose",
+   "codes": [],
+   "pending": [
+    "spcpt_3N2qyHcyPy2DCctH"
+   ]
+  },
+  "qstnprt_JrD9Ypm97r5BtPCp": {
+   "kind": "question_part",
+   "label": "qstn_Pcnj6WvgcmckB4xd / part 0",
+   "section": "9-working-with-documents",
+   "topic": "audience-and-purpose",
+   "codes": [],
+   "pending": [
+    "spcpt_3N2qyHcyPy2DCctH"
+   ]
+  },
+  "qstnprt_BGBjFyYVTWTC2PZ2": {
+   "kind": "question_part",
+   "label": "qstn_mZQ3ZwWTJXX6VjPx / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_bHwRM2jQfM968rNc"
+   ]
+  },
+  "qstnprt_mSmtgWTDzwZX5sZ9": {
+   "kind": "question_part",
+   "label": "qstn_BM2jKh8yXD5QmQCR / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_n2cct2brWZXb3RXx"
+   ]
+  },
+  "qstnprt_kNKhs7DPNGqVVZDg": {
+   "kind": "question_part",
+   "label": "qstn_C5K79JSzG7cDNQYT / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_n2cct2brWZXb3RXx"
+   ]
+  },
+  "qstnprt_sPqNb5NrnnQsCkbT": {
+   "kind": "question_part",
+   "label": "qstn_9J5rnGYHXMgNcxk2 / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_gkg9cxpCWNK7ymB9"
+   ]
+  },
+  "qstnprt_CmZrD9GtFRXyswry": {
+   "kind": "question_part",
+   "label": "qstn_McB4j6J3c7KSc3fB / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_n2cct2brWZXb3RXx"
+   ]
+  },
+  "qstnprt_TGmzjp6Cg3zmnkmy": {
+   "kind": "question_part",
+   "label": "qstn_G9ZCWM6JMKpgDrcV / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:13.2.1",
+     "official_code": "13.2.1",
+     "tier": "V2_name_phrase_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_vgrb8CXStbQ3FPD2": {
+   "kind": "question_part",
+   "label": "qstn_qDsTKZ63WjvWMkhc / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_n2cct2brWZXb3RXx"
+   ]
+  },
+  "qstnprt_9p37pgGDgHSRZJc9": {
+   "kind": "question_part",
+   "label": "qstn_cXgfTh6tPmJ89Dc5 / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_gkg9cxpCWNK7ymB9"
+   ]
+  },
+  "qstnprt_Y3J9wSsvG5NZNTZR": {
+   "kind": "question_part",
+   "label": "qstn_cXgfTh6tPmJ89Dc5 / part 1",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_gkg9cxpCWNK7ymB9"
+   ]
+  },
+  "qstnprt_7FBXb6Nh4DbT96cX": {
+   "kind": "question_part",
+   "label": "qstn_5fCX3tF8pJNpMPby / part 0",
+   "section": "9-working-with-documents",
+   "topic": "document-production",
+   "codes": [],
+   "pending": [
+    "spcpt_bHwRM2jQfM968rNc"
+   ]
+  },
+  "qstnprt_XV9chTBxPSZdKzZG": {
+   "kind": "question_part",
+   "label": "qstn_pXBV5h9k2Bd69MmS / part 0",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [],
+   "pending": [
+    "spcpt_VKz7h7QjztBMXQfH"
+   ]
+  },
+  "qstnprt_RBq6SS9hth8w6n87": {
+   "kind": "question_part",
+   "label": "qstn_BKxzGwKcRyVnFtw8 / part 0",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [],
+   "pending": [
+    "spcpt_VKz7h7QjztBMXQfH"
+   ]
+  },
+  "qstnprt_RBhvS2R5qcKZndZZ": {
+   "kind": "question_part",
+   "label": "qstn_PCZx8nGxPyB6JPCY / part 0",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [],
+   "pending": [
+    "spcpt_VKz7h7QjztBMXQfH"
+   ]
+  },
+  "qstnprt_vTzXHNvBSTnygC6Q": {
+   "kind": "question_part",
+   "label": "qstn_XqtN6mh8h7d3FPVK / part 0",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [],
+   "pending": [
+    "spcpt_VKz7h7QjztBMXQfH"
+   ]
+  },
+  "qstnprt_bJgbVkzsPcJKCy2j": {
+   "kind": "question_part",
+   "label": "qstn_rHrtMPwPRHHpKnXb / part 0",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [],
+   "pending": [
+    "spcpt_VKz7h7QjztBMXQfH"
+   ]
+  },
+  "qstnprt_PkH4cr4hZ7kbZGCG": {
+   "kind": "question_part",
+   "label": "qstn_wTY97hDKzyyKG7Gg / part 0",
+   "section": "9-working-with-documents",
+   "topic": "images",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:11.2.2",
+     "official_code": "11.2.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_3mB2P9GvhrFWPC55": {
+   "kind": "question_part",
+   "label": "qstn_Pvx5bxwssdmR55kV / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_GS4S7xR6pgzmBdJM": {
+   "kind": "question_part",
+   "label": "qstn_y9JhjysCxm8hkqH8 / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_bQKXjdSSGxbH2JTP": {
+   "kind": "question_part",
+   "label": "qstn_6n6qcR26MrqBZ25g / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_kYCxzJb6vBTfgxp8": {
+   "kind": "question_part",
+   "label": "qstn_6n6qcR26MrqBZ25g / part 1",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_NbMfmmk8BKpJsNKP": {
+   "kind": "question_part",
+   "label": "qstn_r8BvMqdwrpHS7Vnc / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_JBdPcHmCxzXBYTZR": {
+   "kind": "question_part",
+   "label": "qstn_r8BvMqdwrpHS7Vnc / part 1",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_hBF9P3JsgXpxCVfn": {
+   "kind": "question_part",
+   "label": "qstn_QcKtr6Dy6mRrBZGk / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_rrZKxYbYrpqqGgw6": {
+   "kind": "question_part",
+   "label": "qstn_4MM9nsHMwkq4SVd8 / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_Dn2d9dyq95qNZZDr": {
+   "kind": "question_part",
+   "label": "qstn_qRWJHb2yXpmTrh93 / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.2",
+     "official_code": "15.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_tQTX8nNCPHxWqG4z": {
+   "kind": "question_part",
+   "label": "qstn_qRWJHb2yXpmTrh93 / part 1",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.2",
+     "official_code": "15.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_HfYsmvHcPJKGryC3": {
+   "kind": "question_part",
+   "label": "qstn_MCZdgSxsFtgqVdRq / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_rsy6KDHrH2RWqF2h": {
+   "kind": "question_part",
+   "label": "qstn_MCZdgSxsFtgqVdRq / part 1",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_fyGRWgrmZpbt8j5m": {
+   "kind": "question_part",
+   "label": "qstn_MCZdgSxsFtgqVdRq / part 2",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_HSzWkTWHPFJyq8c9": {
+   "kind": "question_part",
+   "label": "qstn_MCZdgSxsFtgqVdRq / part 3",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_b7MqB3kBqz7st3p2": {
+   "kind": "question_part",
+   "label": "qstn_c3FH5yMCBn93XTWT / part 0",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  },
+  "qstnprt_B6HNDFD5FtMCQTcq": {
+   "kind": "question_part",
+   "label": "qstn_c3FH5yMCBn93XTWT / part 1",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": [
+    "spcpt_NYyhPqF75BZ69rkd"
+   ]
+  },
+  "qstnprt_tsyzHZ42mJ3NdBxH": {
+   "kind": "question_part",
+   "label": "qstn_c3FH5yMCBn93XTWT / part 2",
+   "section": "9-working-with-documents",
+   "topic": "proofing",
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.2.3",
+     "official_code": "15.2.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    },
+    {
+     "official_id": "CIE_IGCSE_ICT_2023_2025:15.1.3",
+     "official_code": "15.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "operator_verdict"
+    }
+   ],
+   "pending": []
+  }
+ }
+}

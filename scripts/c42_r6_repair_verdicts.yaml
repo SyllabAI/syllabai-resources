@@ -1,0 +1,319 @@
+schema: c42-r6-repair-verdicts/1.0
+task: T-C42
+stage: r6-r1-shaped-verdict-round-over-the-r4-defect-inventory
+contract: >-
+  graph/reports/C42_IGCSE_MATHS_A_K2B_REWORK_SCOPE.md §4 R1 mechanics + §7 loop
+  ("the rework lane repeats R1-shaped rounds only by explicit operator instruction")
+directive: >-
+  R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02,
+  zai-web) — fired over the R4 re-gate's defect inventory (19 reject rows in
+  scripts/c42_r4_fresh_verdicts.yaml; the R4 gate FAILED at exact-stratum 80.4% < 90%)
+review_date: '2026-10-02'
+reviewer: >-
+  Super Z (GLM agent), operator-delegate under the fired R6 directive; the human
+  operator retains final sign-off; per the anti-forgery rule nothing here promotes store
+  rows (the substrate stays SUGGESTED and the C41-promoted 73 edges are untouched)
+method: >-
+  per-row adjudication over the R4 fresh verdicts' root causes + canonical-surface
+  citations + the ratified 188-point store wordings + the C30 tier-dedupe ledger's
+  Foundation wordings + the notes' own chunk headings; the deterministic candidates of
+  scripts/c42_r6_repair_proposals.py were PROPOSAL-ONLY inputs and bound nothing (their
+  top-1s are deliberately noisy); PMT excluded as source
+key_finding: >-
+  the R4 rejects are a different defect class from R1's wording-tier artifacts —
+  they are UNSAMPLED-at-C40 T-SPEC resolution errors (name-fragment/page-context joins
+  that teach a different SP than their code — a 'measures' word-overlap, a kinematics
+  note on an inequality-regions code, a solving note on a set-up code, a
+  shape-recognition note on a plotting code, a tangent-estimation note on a
+  differentiation code, a basic-area note on ab-sin-C) plus two UNRESOLVED-class
+  generic-technique notes and two note-level defects of which R1's section overrides
+  were partial patches. 8 codes are CORRECTED into the ratified 188, 2 are cleared
+  UNRESOLVED (never forced), 4 section-level rows are REATTRIBUTE'd with 2
+  transparently-labeled extension rows, and 2 R1 override entries are subsumed by the
+  note-level repairs they anticipated.
+dispositions:
+  CORRECT: the code changes to the corrected_code (canonical 188 member)
+  UNRESOLVED: >-
+    no canonical row teaches the note's content — the wrong code is CLEARED
+    (resolved_code -> null), never forced
+surfaces:
+  id_level: { declared: 10, correct: 8, unresolved: 2 }
+  residual: { declared: 1, kept_unresolved: 1 }
+  section_level: { declared: 4, reattribute: 4, retain: 0, extension_rows: 3 }
+  subsumed_r1_entries: 2
+
+verdicts:
+  spcpt_4ZdHtGPdDjYdR6rK:
+    note_title: Compound Measures
+    prior_code: 4MA1-4.4C
+    disposition: CORRECT
+    corrected_code: 4MA1-4.4G
+    tier_wording_source: store
+    evidence: >-
+      4.4G 'use compound measure such as speed, density and pressure' is verbatim
+      the note's teaching (ords 0-4 — compound-measure definition, units, formula
+      construction, formula triangles; speed, flow rate, population density); 4.4C is
+      'make sensible estimates of a range of measures' — a 'measures' word-overlap
+      T-SPEC resolution error; the R4 re-gate rejected ords 0,1 on exactly this root
+      (fresh rows ffe958ec6aee28e1, 4d7bd96de4f0e4ac)
+  spcpt_2nCMJhvvGsW7vMcV:
+    note_title: Speed-Time Graphs
+    prior_code: 4MA1-2.8D
+    disposition: CORRECT
+    corrected_code: 4MA1-4.4F
+    tier_wording_source: store
+    evidence: >-
+      4.4F 'understand and use the relationship between average speed, distance
+      and time' is the note's taught surface (ord-1 dossier — speed read off the graph,
+      gradient = acceleration as rise/run, distance from the area under the graph);
+      2.8D is 'represent simple linear inequalities on rectangular Cartesian graphs' —
+      unrelated content, a T-SPEC resolution error the R4 re-gate caught on ords 0,1
+      (fe35e8b078cef149, 20c1cfc1d1aeb7ba). 3.4E ('apply calculus to linear kinematics')
+      is recorded as the calculus-demanding sibling and NOT chosen — the note carries no
+      differentiation content, its methods are graphical (gradient/area); same reasoning
+      shape as the R1 Distance-Time Graphs verdict (3.3F -> 4.4F with the sibling recorded)
+  spcpt_SYHWnwMWKxDNg9s8:
+    note_title: Solving Linear Equations
+    prior_code: 4MA1-2.4B
+    disposition: CORRECT
+    corrected_code: 4MA1-2.4A
+    tier_wording_source: store
+    evidence: >-
+      2.4A 'solve linear equations, with integer or fractional coefficients, in
+      one unknown in which the unknown appears on either side or both sides of the
+      equation' is verbatim the note (ords 0-8 — solving, order of steps, negatives,
+      brackets, fractions, unknown on the denominator, x-terms on both sides); 2.4B is
+      'set up simple linear equations from given data' — the corpus's Forming-Equations
+      notes carry that surface and CONFIRMed separately; R4 rejected ord 0 on this root
+      (5f0b8e8cfbec5c1c)
+  spcpt_hrv7F8zpDwRXmcNg:
+    note_title: Types of Graphs
+    prior_code: 4MA1-3.3I
+    disposition: CORRECT
+    corrected_code: 4MA1-3.3A
+    tier_wording_source: store
+    evidence: >-
+      3.3A 'recognise, plot and draw graphs with equation y = Ax^3 + Bx^2 + Cx + D
+      ...' is the note's taught surface (ords 0-3 — which graph types to know, reciprocal
+      asymptotes, cubic shapes — recognition of the polynomial/reciprocal family); 3.3I is
+      'recognise, generate points and plot graphs of linear and quadratic functions' and
+      the note carries no generate-points/plotting content; R4 rejected ords 2,3
+      (28fba9c4ee6160ee, 81fe06133dd1fa57); the same 3.3A wording family the R1 verdict
+      used to re-point Trigonometric Graphs (3.3F -> 3.3A)
+  spcpt_zrrC3yxSp579jY7k:
+    note_title: Finding Gradients of Tangents
+    prior_code: 4MA1-3.4C
+    disposition: CORRECT
+    corrected_code: 4MA1-3.4A
+    tier_wording_source: store
+    evidence: >-
+      3.4A 'understand the concept of a variable rate of change' (Higher) is the
+      note's pre-differentiation surface (ords 0-3 — how tangents relate to gradients,
+      estimating the gradient of a curve by drawing a tangent, what the gradient
+      represents as a rate); 3.4C demands gradients/stationary/turning points 'by
+      differentiation' and the note teaches estimation by tangents with no calculus —
+      the T-SPEC-era approximation the R4 re-gate caught (131a91060ab8d3d2)
+  spcpt_pSX9GyS8bW7N5CH7:
+    note_title: Area
+    prior_code: 4MA1-4.8E
+    disposition: CORRECT
+    corrected_code: 4MA1-4.9C
+    tier_wording_source: store
+    evidence: >-
+      4.9C 'find the area of simple shapes using the formulae for the areas of
+      triangles and rectangles' is the note's dominant surface (ords 1-5 — what area is,
+      square-grid counting, the formulas summary, rectangle, triangle); 4.8E is
+      'understand and use the formula ab sin C for the area of a triangle' and the note
+      carries NO ab-sin-C content anywhere; the parallelogram/trapezium sections are the
+      4.9D surface ('find the area of parallelograms and trapezia') and land as
+      section-level overrides (ords 6,7) in the same round; R4 rejected ords 4,7
+      (4f808fa71e4e6a76, c67208f06b9072e9)
+  spcpt_mVXT4jbXQPrzhHvz:
+    note_title: Problem Solving with Volumes
+    prior_code: 4MA1-4.11C
+    disposition: UNRESOLVED
+    corrected_code: null
+    evidence: >-
+      the note is generic real-world volume problem-solving (juice-carton and
+      cost contexts, ords 0-3); 4.11C demands areas AND volumes of SIMILAR figures in
+      problems and the note carries no similar-figures content — exactly the class of the
+      R1-cleared Problem Solving with Areas (generic-problem-solving note, specific-method
+      SP; no canonical 188 row teaches generic volume problem-solving); the wrong code is
+      CLEARED, never forced; R4 rejected ord 2 (8d0087ded2d69f0f)
+  spcpt_hK2H8q4Y8NYv833v:
+    note_title: Geometrical Proof
+    prior_code: 4MA1-5.1G
+    disposition: UNRESOLVED
+    corrected_code: null
+    evidence: >-
+      the note teaches generic geometric-proof apparatus (ords 0-7 — what a
+      geometrical proof is, writing one, notation, the exterior-angle theorem with two
+      methods, a common-reasons list — angle-fact rules and reasons, no vector-methods
+      content anywhere); 5.1G demands 'apply vector methods for simple geometrical proofs';
+      no canonical 188 row teaches angle-fact proof per se (2.2E is algebraic proof; the
+      angle-fact SPs are 4.1B/4.2B-class); UNRESOLVED-class, cleared, never forced;
+      R4 rejected ord 1 (f208762616304676)
+  spcpt_X8CSxK2dhn5rX34f:
+    note_title: Solving Linear Inequalities
+    prior_code: 4MA1-2.8D
+    disposition: CORRECT
+    corrected_code: 4MA1-2.8C
+    tier_wording_source: store
+    evidence: >-
+      2.8C 'solve simple linear inequalities in one variable and represent the
+      solution set on a number line' is the note's entire taught surface (ords 0-5 —
+      concept, integers satisfying, number-line representation, solving, double
+      inequalities) — no Cartesian-graph representation content anywhere, while 2.8D
+      demands 'represent simple linear inequalities on rectangular Cartesian graphs';
+      this is the note-level defect of which the operator's R1 ord-3 override
+      (number-line section -> 2.8C) was the section-level patch — that override is
+      SUBSUMED by this repair (its target now equals the join-derived code); R4
+      rejected ord 4 (253eb0f3dcae4112)
+  spcpt_339DNssRW9x2NPKk:
+    note_title: Basic Fractions
+    prior_code: 4MA1-1.2I
+    disposition: CORRECT
+    corrected_code: 4MA1-1.2A
+    tier_wording_source: store
+    evidence: >-
+      1.2A 'understand and use equivalent fractions, simplifying a fraction by
+      cancelling common factors' is the note's dominant surface (ords 3-6 — equivalent
+      fractions, finding one, simplified fractions, simplifying; ord 6 already carries the
+      operator's R1 override to 1.2A); the note carries NO multiply/divide-fractions
+      content anywhere (that surface lives in the corpus's Multiplying & Dividing
+      Fractions note, correctly joined and CONFIRMed separately), so 1.2I is wrong at
+      note level — the home question the R4 record left open is decided on this evidence;
+      R4 rejected ords 3,5 on exactly this note-level-class root (e5f5f97fe65f64a2,
+      f20e42613c249b72); the R1 ord-6 override is SUBSUMED by this repair; the
+      fraction-of-an-amount section (ord 2) is recorded as an extension override to
+      1.2D in the same round; ords 0-1 are the generic intro/concept sections per the
+      C40 convention
+
+residual:
+  anchor_id: spcpt_QWXhzVp2S3VYZdZc
+  disposition: KEEP_UNRESOLVED
+  evidence: >-
+    re-affirmed at R6 — the C32 §3 residual's PDF-verified reason stands (the 4MA1
+    print has no standalone discrete/continuous statement); unchanged from the R1
+    adjudication; the R4 Part B carried it DEFER and nothing in the R4 inventory
+    touches it
+
+section_overrides:
+  problem-solving-with-differentiation::3:
+    current_code: 4MA1-3.4E
+    disposition: REATTRIBUTE
+    override_code: 4MA1-3.4D
+    evidence: >-
+      the section classifies turning points as max/min (substitute back; 'using a
+      sketch to see if its a max or min') — 3.4D 'distinguish between maxima and minima
+      by considering the general shape of the graph only' is the surface; 3.4E is
+      applying calculus to kinematics/practical problems; the note-level join stands via
+      its practical-application sections (ords 1-2,4). R4 row f086a04bff035846
+  types-of-number::9:
+    current_code: 4MA1-1.1G
+    disposition: REATTRIBUTE
+    override_code: 4MA1-1.4B
+    evidence: >-
+      the section teaches square roots (definition, symbol, positive/negative
+      roots) — the Foundation wording of 1.4B per the C30 ledger ('calculate squares,
+      square roots, cubes and cube roots'; the store's operative 1.4B wording is the
+      Higher surds text); 1.1G is the odd/even/prime/factors/multiples terminology and
+      the note-level join stands via its terminology sections. R4 row 260c61bcfeb157da
+  drawing-straight-line-graphs::2:
+    current_code: 4MA1-3.3F
+    disposition: REATTRIBUTE
+    override_code: 4MA1-3.3H
+    evidence: >-
+      the section teaches drawing USING the equation y = mx + c (generate a table
+      from the equation, plot) — 3.3H 'recognise that equations of the form y = mx + c
+      are straight line graphs with gradient m and intercept on the y-axis' is the
+      surface, the same artifact class as the operator's own R1 ord-3 ruling for this
+      note; 3.3F is gradient from two coordinates; the note-level join stands per the R1
+      record (see the ord-0 observation). R4 row 5e6ed91f25d0fdb4
+  unit-conversions::1:
+    current_code: 4MA1-4.10F
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.9A
+    evidence: >-
+      the section teaches LENGTH conversion (cm/mm/m/km, powers of ten) — the
+      Foundation wording of 4.9A per the C30 ledger ('convert measurements within the
+      metric system to include linear and area units'); 4.10F is VOLUME conversion and
+      the note-level join stands via its volume/capacity section (ord 3). R4 row
+      a49f8beecaf05779
+
+extension_section_overrides:
+  contract: >-
+    recorded alongside the verdicted rows so the R8 build does not knowingly
+    re-create the same scope difference on sibling sections; rows OUTSIDE the 4
+    R4-section-level-root rows, each labeled with its sampling status;
+    transparently recorded, zero silent repair
+  area::7:
+    current_code: 4MA1-4.9C
+    current_code_note: post-R6 join-derived code (the note-level repair lands first)
+    sampled: R4-SAMPLED — inventory row c67208f06b9072e9 (classified there as
+      note-level-root evidence)
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.9D
+    evidence: >-
+      EXTENSION row, R4-SAMPLED (inventory row c67208f06b9072e9, root
+      note-level) — the R4 root's own words record the section surface ('the
+      parallelogram formula A = bh is the 4.9D surface'); the note-level repair
+      to 4.9C fixes the JOIN but leaves this section on a surface its own R4
+      root contradicts, so the section-level disposition is recorded in the
+      same round rather than knowingly re-created for the R9 re-gate to reject
+      again
+  area::6:
+    current_code: 4MA1-4.9C
+    current_code_note: post-R6 join-derived code (the note-level repair lands first)
+    sampled: false — not an R4-sampled row
+    disposition: REATTRIBUTE
+    override_code: 4MA1-4.9D
+    evidence: >-
+      EXTENSION row (not R4-sampled) — the section teaches the trapezium area
+      formula; 4.9D 'find the area of parallelograms and trapezia' names trapezia
+      verbatim; recorded alongside the R4-verdicted ord-7 parallelogram row
+      (c67208f06b9072e9, root note-level — 'the parallelogram formula A = bh is the
+      4.9D surface'); leaving it on 4.9C ('triangles and rectangles') would knowingly
+      re-create the defect class the round repairs
+  basic-fractions::2:
+    current_code: 4MA1-1.2A
+    current_code_note: post-R6 join-derived code (the note-level repair lands first)
+    sampled: false — not an R4-sampled row
+    disposition: REATTRIBUTE
+    override_code: 4MA1-1.2D
+    evidence: >-
+      EXTENSION row (not R4-sampled) — the section teaches finding a fraction of
+      an amount; 1.2D 'order fractions and calculate a given fraction of a given
+      quantity' names the skill verbatim; recorded under the R6 note-level repair so the
+      section does not ride to 1.2A against its own content
+
+subsumed_r1_entries:
+  contract: >-
+    R1 override-map entries whose correction now rides the R6 note-level repair
+    (override_code == the new join-derived code); the R8 build verifies each and records
+    provenance.override_subsumed instead of applying a no-op REATTRIBUTE
+  entries:
+    - note_slug: solving-linear-inequalities
+      chunk_ordinal: 3
+      r1_override_code: 4MA1-2.8C
+      subsumed_by: spcpt_X8CSxK2dhn5rX34f (R6 CORRECT 2.8D -> 2.8C)
+    - note_slug: basic-fractions
+      chunk_ordinal: 6
+      r1_override_code: 4MA1-1.2A
+      subsumed_by: spcpt_339DNssRW9x2NPKk (R6 CORRECT 1.2I -> 1.2A)
+
+observations:
+  contract: recorded for the operator, NOT verdicted, NOT overridden this round
+  items:
+    - id: drawing-straight-line-graphs-note-join
+      note: >-
+        carried from the R4 record verbatim — ord 0 CONFIRMs on the operator's R1
+        'stands for its gradient sections' record, but its 3.3F-joined sections (ords 4-5)
+        read as equation rearrangement + ax+by=c plotting; the note-join itself may warrant
+        operator review at a future round
+    - id: scorer-noise
+      note: >-
+        the R6 proposals packet's top-1 candidates are deliberately noisy and bound
+        nothing — e.g. Compound Measures -> 4.8E, Solving Linear Inequalities -> 2.8A,
+        Finding Gradients of Tangents -> 3.3E are scorer artifacts; the verdicts above
+        adjudicate on the R4 root evidence + the ratified wordings, not on the scorer

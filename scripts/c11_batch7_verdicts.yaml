@@ -1,0 +1,347 @@
+# T-C11 §16 batch 7 — OPERATOR verdict record (session-59 package), FILLED by operator decision session 60 (2026-09-23). OPERATOR-OWNED.
+# Operator verdict (addendum §6/§7, C11_BATCH7_REVIEW_SHEET_COMPLETED intake): all 15 node verdicts and all 19
+# edge verdicts accepted (the three CONFIRM_WITH_NOTE qualifications — node CON-NEUTRALISATION + edges B7-E-02/B7-E-10 —
+# recorded in notes per the vocabulary rule); the six identity decisions KEEP_AS_IS; the 9 held candidates acknowledged and
+# quarantined; zero RR; zero REJECT. Intake form: ADDENDUM (no §1-5) — verdict content reconciled 1:1 against the
+# gate sheet §2/§3 surfaces and the decision record (machine-checked; see meta.operator_ruling.delivery).
+# Vocabulary and pathway: see the meta.operator_ruling.mapping block. Verdicts are RECORDED; the application state lives in
+# scripts/c11_promotions.yaml (§18) — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-7-verdicts
+  batch: 7
+  session: 60
+  file: OPERATOR-OWNED verdict record for C11_BATCH7_REVIEW_SHEET (session-59 package) — verdicts recorded
+    by operator decision, session 60 (2026-09-23), from the operator verdict addendum §6/§7 (C11_BATCH7_REVIEW_SHEET_COMPLETED
+    intake).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-7 extraction_pass
+    is c11-s16-batch-7 (Section 2 Inorganic Chemistry THIRD slice, 16 SPs 4CH1-2.28-2.43C: f Acids, Alkalis
+    & Titrations + g Acids, Bases & Salt Preparations); its 9 held candidates are informational only (no
+    reopening, no promotion of held candidates — B7-H-04 records the insufficient-characterization refusal;
+    B7-H-06 holds the note-anchored ERRONEOUS_BELIEF lane for operator ruling). TWO edges are cross-section
+    boundary edges into the ruled targets (CON-REACT-ORDER — the batch-6 owner; CON-ION-CHARGE-RULES —
+    the batch-3 owner; sanctioned by the session-59 cross-slice ruling, no duplicate mint). The next session
+    applies verdicts via the §18 promotion pathway / §7 decision-record re-authoring; nothing here is
+    HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: 'Final operator gate: Nodes 15/15 confirmed; Authored semantic edges 19/19 confirmed; Semantic
+      guardrails 2 CONFIRM_WITH_NOTE; Identity decisions 6/6 KEEP_AS_IS; Held candidates 9/9 acknowledged
+      and quarantined; REVIEW_REQUIRED edges 0; Rejected authored edges 0; Batch-7 promotions 0; Authority
+      status SUGGESTED. Operator verdict: PASS WITH NOTES — proceed through the normal C11 pathway: c11_batch7_verdicts_template.yaml
+      -> c11_batch7_verdicts.yaml -> encode/reconcile -> c11_promote.py -> regenerate -> rerun the complete
+      gate suite. This operator verdict does not itself constitute HUMAN_VALIDATED promotion.'
+    session: 60
+    decided_by: operator
+    decided_date: '2026-09-23'
+    completed_sheet: 'Operator verdict addendum §6 (''Completed operator verdict'') + §7 (''Final operator
+      gate''), delivered in-chat 2026-09-23 and materialized by the verdict session as C11_BATCH7_REVIEW_SHEET_COMPLETED.md.
+      Delivery record: the web-lane upload of that filename did not reach the verdict workspace (upload/
+      held only the batch-5/6 completed sheets); the FileUpload-lane advance 8b03d1c (2026-09-23 00:36
+      +0600) carried the BLANK gate sheet C11_BATCH7_REVIEW_SHEET.md, byte-identical to the in-repo gate
+      sheet (diff -q clean — the batch-6 gate-sheet-upload precedent). The operator therefore delivered
+      the §6/§7 verdict content directly; the addendum is an ADDENDUM (no §1-5), so the batch-5/6 §1-5
+      byte-drift check does not apply — the verdict content is reconciled 1:1 against the in-repo gate
+      sheet §2/§3 surfaces and the batch-7 decision record instead (machine-checked).'
+    reported_state_caveat: 'Recorded verbatim from the operator''s §6 assessment: ''The reported 157-node
+      / 367-edge store and 95/0/0 gate battery are treated here as REPORTED by the submitted artifact;
+      the underlying Batch 7 decision/pass-2/boundary YAMLs were not independently accessible through
+      the GitHub connector. This does not change the operator verdict, but it limits independent verification
+      of the machine-state claims.'' The verdict session closed that gap on the operator''s behalf: the
+      machine state was verified directly at d6eba2d (the authoring head, local == origin/main, tree clean)
+      before encoding — 157 nodes / 367 edges / 156 PART_OF / 187 semantic HV / S4 pins; the decision,
+      pass-2 and boundary YAMLs reconciled 1:1.'
+    mapping: 'The operator reviewed the session-59 gate package and returned the verdict addendum §6/§7:
+      all 15 node verdicts accepted (13 CONCEPT + 2 MISCONCEPTION; CON-NEUTRALISATION as the retained
+      pass-2 CONFIRM_WITH_NOTE; ''Node authority remains SUGGESTED. No node is promoted by this review.'');
+      all 19 authored edges CONFIRM with TWO semantic guardrails — B7-E-02 (ACID-REACTIONS REQUIRES_PREREQUISITE
+      REACT-ORDER) CONFIRM_WITH_NOTE: ''Treat this as the acid+metal route dependency evidenced by the
+      sheet. Do not generalize it into a universal prerequisite for every acid reaction represented by
+      4CH1-CON-ACID-REACTIONS.''; B7-E-10 (SOLUBILITY-RULES REQUIRES_PREREQUISITE ION-CHARGE-RULES) CONFIRM_WITH_NOTE:
+      ''Preserve the sanctioned boundary ownership and do not mint a duplicate CON-ION-CHARGE-RULES concept
+      inside Batch 7.''; the two practical edges confirmed by triple (PR-07 -> CON-SALT-INSOLUBLE-REACTANT;
+      PR-08 -> CON-SALT-PRECIPITATION); the two sanctioned boundary edges ''remain owned as stated in
+      the review sheet'' (acid-metal placement -> batch-6 CON-REACT-ORDER; solubility -> batch-3 CON-ION-CHARGE-RULES;
+      ''No duplicate concept is to be minted''); the six identity decisions resolved KEEP_AS_IS each with
+      a recorded rationale; the 9 held candidates ''ACKNOWLEDGED / KEEP QUARANTINED'' with per-candidate
+      reasons — none reopened, promoted, or converted; zero RR rows; zero REJECTED authored edges; final
+      directive: ''Operator verdict: PASS WITH NOTES — proceed through the normal C11 pathway ... encode/reconcile
+      -> c11_promote.py -> regenerate -> rerun the complete gate suite.'' The operator verdict file itself
+      is the authorization (the session-54/56/58 precedent). ENCODING RULES: the verdict-record vocabulary
+      (CONFIRM|REJECT|HOLD|MERGE|SPLIT) has no WITH_NOTE value, so the operator''s three CONFIRM_WITH_NOTE
+      statuses (node CON-NEUTRALISATION + edges B7-E-02/B7-E-10) are recorded as CONFIRM with the qualification
+      carried verbatim in the row''s notes (the batch-1..6 precedent that qualifications ride in notes);
+      node verdicts are keyed by CODE and edge verdicts by TRIPLE — never by row id — because the sheet''s
+      §2 node numbering (table order = decision-record order: sheet B7-N-01 = CON-INDICATORS) differs
+      from the template''s alphabetical-by-code numbering (template B7-N-01 = CON-ACID-ALKALI-IONS), while
+      the edge ids coincide between the sheet §3 rows and the template (both orders agree row-for-row)
+      and the explicitly named B7-E-02/B7-E-10/PR-07/PR-08 triples are identical in both; each correspondence
+      was asserted against the gate sheet and the decision record before encoding; node authority is NOT
+      changed by these confirmations (nodes have no §18 pathway — node promotion remains a separate identity
+      decision, deferred); PART_OF is derived and outside §18; the application state lives in scripts/c11_promotions.yaml
+      (the §18 pathway is the only HUMAN_VALIDATED source) — this file never carries promotion payload
+      or promoted status. Changing a recorded verdict requires an explicit operator decision.'
+edge_verdicts:
+- id: B7-E-01
+  triple: 4CH1-CON-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-NEUTRALISATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — definitional dependency (''When an acid reacts with a base, a neutralisation
+    reaction occurs''); the base/carbonate rows of 2.37 are classified by the 2.32 concept.'
+- id: B7-E-02
+  triple: 4CH1-CON-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-REACT-ORDER
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 60): CONFIRM_WITH_NOTE retained — ''Treat this as the acid+metal route
+    dependency evidenced by the sheet. Do not generalize it into a universal prerequisite for every acid
+    reaction represented by 4CH1-CON-ACID-REACTIONS.'' Pass-2: sanctioned cross-section boundary edge
+    (session-59 ruling) into the batch-6 CON-REACT-ORDER owner — the 2.37 placement row is the above-hydrogen
+    reactivity fact applied, never re-defined.'
+- id: B7-E-03
+  triple: 4CH1-CON-BASES-ALKALIS REQUIRES_PREREQUISITE 4CH1-CON-NEUTRALISATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — definitional containment (''Bases are substances which can neutralise
+    an acid, forming a salt and water''); the neutralising function is the base definition applied.'
+- id: B7-E-04
+  triple: 4CH1-CON-NEUTRALISATION REQUIRES_PREREQUISITE 4CH1-CON-ACID-ALKALI-IONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the mechanism sentence is the definitional dependency verbatim (''A neutralisation
+    reaction occurs when an acid reacts with an alkali'').'
+- id: B7-E-05
+  triple: 4CH1-CON-PROTON-TRANSFER REQUIRES_PREREQUISITE 4CH1-CON-ACID-ALKALI-IONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — ''"extends the earlier definition" is the teach-sequence statement verbatim'';
+    the transfer framework presupposes the solution-ion picture (B7-ID-01 KEEP_AS_IS).'
+- id: B7-E-06
+  triple: 4CH1-CON-SALT-INSOLUBLE-REACTANT REQUIRES_PREREQUISITE 4CH1-CON-ACID-REACTIONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the excess-base route RUNS the acid reaction family (''A soluble salt
+    can be made from the reaction of an acid with an insoluble base''); route presupposes the reaction
+    class.'
+- id: B7-E-07
+  triple: 4CH1-CON-SALT-INSOLUBLE-REACTANT REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY-RULES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — method selection IS the solubility frame applied (''A knowledge of the
+    solubility of ionic compounds helps us to determine the most appropriate method''); load-bearing,
+    not framing.'
+- id: B7-E-08
+  triple: 4CH1-CON-SALT-PRECIPITATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY-RULES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the precipitation route presupposes the insolubility rule (''Insoluble
+    salts can be prepared using a precipitation reaction''; ''The solid salt obtained is the precipitate'').'
+- id: B7-E-09
+  triple: 4CH1-CON-SALT-TITRATION-ROUTE REQUIRES_PREREQUISITE 4CH1-CON-TITRATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the route names the technique (''A titration can be used for this'');
+    explicit teach-sequence.'
+- id: B7-E-10
+  triple: 4CH1-CON-SOLUBILITY-RULES REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 60): CONFIRM_WITH_NOTE retained — ''Preserve the sanctioned boundary ownership
+    and do not mint a duplicate CON-ION-CHARGE-RULES concept inside Batch 7.'' Pass-2: sanctioned cross-section
+    boundary edge (session-59 ruling) into the batch-3 CON-ION-CHARGE-RULES owner — the 2.34 ion-family
+    rules row applies the owner''s framework as given.'
+- id: B7-E-11
+  triple: 4CH1-CON-TITRATION REQUIRES_PREREQUISITE 4CH1-CON-INDICATORS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the sharp-change requirement makes indicator knowledge load-bearing for
+    the method (''Add a few drops of a suitable indicator''); the litmus-unsuitable teaching is the negative
+    case of the same dependency.'
+- id: B7-E-12
+  triple: 4CH1-CON-TITRATION REQUIRES_PREREQUISITE 4CH1-CON-NEUTRALISATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the purpose sentence defines the endpoint as the neutralisation point
+    (''exactly how much alkali is needed to neutralise a quantity of acid'') — load-bearing.'
+- id: B7-E-13
+  triple: 4CH1-CON-UNIVERSAL-INDICATOR REQUIRES_PREREQUISITE 4CH1-CON-PH-SCALE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — measuring presupposes the measured quantity (''the colour is matched
+    with a colour chart''); direction correct.'
+- id: B7-E-14
+  triple: 4CH1-MIS-ENDPOINT-PH-ABOVE-7 REMEDIATED_BY 4CH1-CON-NEUTRALISATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — remediation target = WAP target (the B1-E-25 pattern); the corrective
+    content is the concept''s own mechanism sentence (''A neutralisation reaction occurs when an acid
+    reacts with an alkali''); ruled WITH the concept row (B7-ID-05).'
+- id: B7-E-15
+  triple: 4CH1-MIS-ENDPOINT-PH-ABOVE-7 WRONG_ANSWER_PATTERN 4CH1-CON-NEUTRALISATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the pinned Titrations MS Q2a(iv) Reject column (''Reject changing to
+    any pH value > 7'') documents the wrong-answer class against the neutralisation-endpoint expected
+    answer; B7-ID-05 KEEP_AS_IS (single assessment-documented misconception surface).'
+- id: B7-E-16
+  triple: 4CH1-MIS-PRECIPITATE-IN-FILTRATE REMEDIATED_BY 4CH1-CON-SALT-PRECIPITATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — remediation target = WAP target; the corrective content is the route''s
+    own separation step (''The precipitate is recovered by filtration'').'
+- id: B7-E-17
+  triple: 4CH1-MIS-PRECIPITATE-IN-FILTRATE WRONG_ANSWER_PATTERN 4CH1-CON-SALT-PRECIPITATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — the pinned Salt-Prep MS Q2a(iii) class (''they would obtain sodium nitrate
+    instead'') documents the filtrate/residue confusion; B7-ID-06 KEEP_AS_IS (single assessment-documented
+    misconception surface).'
+- id: B7-E-18
+  triple: 4CH1-PR-07 REQUIRES_PREREQUISITE 4CH1-CON-SALT-INSOLUBLE-REACTANT
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — practical->conceptual (the PR-05/PR-06 shape): the 2.42 practical RUNS
+    the excess-base route its concept owns (''To prepare a pure, dry sample of hydrated copper(II) sulfate
+    crystals''); 2.42 attaches NO concept node (the 1.13/1.60C/2.14/2.21 precedent).'
+- id: B7-E-19
+  triple: 4CH1-PR-08 REQUIRES_PREREQUISITE 4CH1-CON-SALT-PRECIPITATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — practical->conceptual (the PR-05/PR-06 shape): the 2.43C practical RUNS
+    the precipitation route its concept owns; 2.43C attaches NO concept node. Pass-2 FP-B7-4: the edge
+    anchors sit on the aim + filtration sentences (the lead-sulfate source-note ''Wash filtrate'' conflict
+    with the pinned MS Q7a(iii) was re-authored BEFORE the gate and recorded as a finding for the corpus
+    owner).'
+node_verdicts:
+- id: B7-N-01
+  code: 4CH1-CON-ACID-ALKALI-IONS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-02
+  code: 4CH1-CON-ACID-REACTIONS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-03
+  code: 4CH1-CON-BASES-ALKALIS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-04
+  code: 4CH1-CON-INDICATORS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-05
+  code: 4CH1-CON-NEUTRALISATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2: the H+/OH- mechanism + the not-all-acid-reactions scope limit are both
+    carried; the node''s mechanism sentence is also the remediation surface for MIS-ENDPOINT-PH-ABOVE-7
+    — the operator ruled the misconception WITH the concept row (B7-ID-05 KEEP_AS_IS, the mint ratified).'
+- id: B7-N-06
+  code: 4CH1-CON-PH-SCALE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-07
+  code: 4CH1-CON-PROTON-TRANSFER
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-08
+  code: 4CH1-CON-SALT-INSOLUBLE-REACTANT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-09
+  code: 4CH1-CON-SALT-PRECIPITATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-10
+  code: 4CH1-CON-SALT-TITRATION-ROUTE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-11
+  code: 4CH1-CON-SOLUBILITY-RULES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-12
+  code: 4CH1-CON-TITRATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-N-13
+  code: 4CH1-CON-UNIVERSAL-INDICATOR
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B7-M-01
+  code: 4CH1-MIS-ENDPOINT-PH-ABOVE-7
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM (B7-ID-05 KEEP_AS_IS) — the pinned Titrations MS Q2a(iv) Reject column
+    is the narrow-but-exact documentation (the MIS-CUO-COLOUR/B6-ID-06 precedent).'
+- id: B7-M-02
+  code: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM (B7-ID-06 KEEP_AS_IS) — the pinned Salt-Prep MS Q2a(iii) class is the strongest
+    documented pattern of the batch.'
+identity_decisions:
+- id: B7-ID-01
+  question: keep the 2.35/2.36 proton-transfer framework as ONE family node (the note extends the earlier
+    definition; donor/acceptor IS the transfer account) vs splitting the donor/acceptor definitions from
+    the transfer framework
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.35/2.36 as one proton-transfer concept, matching the sheet''s
+    single-family treatment.'
+- id: B7-ID-02
+  question: keep the 2.34 qualitative solubility RULES distinct from the S3 quantitative owners (CON-SOLUBILITY
+    g-per-100g / CON-SOLUBILITY-CURVE) — distinct-demand mint, no merge
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the qualitative solubility-rule concept separate from quantitative/S3
+    calculation surfaces.'
+- id: B7-ID-03
+  question: keep the 2.31 solution-ionisation family self-contained (no boundary edge into the S1 CON-ION
+    electron-loss/gain owner — different mechanism and demand)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the 2.31 aqueous acid/alkali ion concept self-contained without
+    absorbing broader ion-rule ownership.'
+- id: B7-ID-04
+  question: keep the three salt-preparation routes as THREE nodes (2.39 insoluble-reactant / 2.40C titration
+    / 2.41C precipitation — distinct experiments, distinct starting materials; the B5-ID-03 trio precedent)
+    vs one salt-preparation node
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the three salt-preparation routes separate: insoluble reactant,
+    titration, and precipitation.'
+- id: B7-ID-05
+  question: mint the MIS-ENDPOINT-PH-ABOVE-7 misconception from the pinned Titrations MS Q2a(iv) Reject
+    column (narrow-but-exact; the MIS-CUO-COLOUR/B6-ID-06 precedent) — or rule it exam-trivia
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the endpoint/pH misconception as one assessment-documented misconception
+    surface.'
+- id: B7-ID-06
+  question: mint the MIS-PRECIPITATE-IN-FILTRATE misconception from the pinned Salt-Prep MS Q2a(iii) class
+    (the strongest documented pattern of the batch) — or rule it exam-trivia
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the precipitate/filtrate misconception as one assessment-documented
+    misconception surface.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator §6: all 9 held candidates (B7-H-01..09) are ACKNOWLEDGED / KEEP QUARANTINED — no held
+    candidate is reopened, promoted, or converted into a new authored edge/node; the abstention record
+    is preserved. The operator explicitly upholds: B7-H-01 (the proposed dependency is not load-bearing);
+    B7-H-02 (the pH-scale relation is incidental to the stated base/alkali demand); B7-H-03 (the practical
+    uses the water/crystal context as given rather than establishing a governed prerequisite); B7-H-04
+    (the reagent-selection wrong-answer surface is insufficiently characterized under the established
+    Step-3 rule); B7-H-05 (concentration/calculation is an S3-owner surface); B7-H-06 (the universal-indicator-for-titration
+    misconception is note-anchored rather than mark-scheme documented); B7-H-07 (adjacency does not establish
+    a prerequisite relation); B7-H-08 (the omitted-excess-base error is note-anchored and risks owner
+    duplication); B7-H-09 (concentration is context framing rather than demonstrated load-bearing prerequisite
+    evidence).'

@@ -1,0 +1,4953 @@
+schema: c40-k2b-review-verdicts/1.0
+task: T-C40
+stage: substrate-review-fill
+contract: graph/reports/C40_MATHS_A_CHUNK_SP_SUBSTRATE_REVIEW_SHEET.md (the C13 promotion-gate convention)
+reviewer: Super Z (GLM agent), acting as operator-delegate under the operator's lane directive (fire K2-B,
+  2026-10-02, zai-web); the human operator retains final sign-off; per the anti-forgery rule nothing here
+  flips the store
+review_date: '2026-10-02'
+method:
+  mechanical: quote-in-chunk + chunk-hash + store-presence + all-SUGGESTED re-verification, 468/468 PASS
+  semantic: per-row topical fidelity against the SP's official wording and the chunk content; root-caused
+    at note-join level (the T-SPEC resolution's note→SP pairs) with section-level overrides where the
+    note is right but the section is not
+gate:
+  rule: Part A precision >= 90% per class AND every Part B row decided
+  part_a:
+    total:
+      rows: 468
+      confirm: 351
+      reject: 117
+      hold: 0
+      precision: 0.75
+    by_stratum:
+      exact:
+        rows: 98
+        confirm: 53
+        reject: 45
+        hold: 0
+        precision: 0.5408
+      partial:
+        rows: 238
+        confirm: 177
+        reject: 61
+        hold: 0
+        precision: 0.7437
+      none:
+        rows: 132
+        confirm: 121
+        reject: 11
+        hold: 0
+        precision: 0.9167
+    classes_pass: false
+  part_b:
+    rows: 79
+    decided: true
+    defer: 79
+  outcome: FAIL
+  outcome_note: 'the promotion is NOT authorized by this fill: Part A precision is below the 90% class
+    gate on the exact and partial strata (the none stratum passes; the gate requires every class) — the
+    REJECT rows root-cause to 45 note-level joins + 16 section-level scope differences; the store stays
+    SUGGESTED and the rework path (a T-SPEC resolution-repair round, then join + substrate re-runs) is
+    the operator''s call'
+verdicts:
+  30c5127c7a16918f:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches plotting points from a table (the 3.3I plotting surface); the note-level
+      join to 3.3F stands via its gradient content, but this chunk does not teach gradient from two coordinates
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+    chunk_ordinal: 1
+    heading: How do I draw a straight line from a table of values?
+  ea1e00fd2aa484ad:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.8B
+    note_path: notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/rounding-and-estimation.json
+    chunk_ordinal: 1
+    heading: How do I round a number to a given place value?
+  ceefdb02bd3348b2:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches perpendicular/shortest distance via trig; 4.8B is angles of elevation and
+      depression
+    spec_code: 4MA1-4.8B
+    note_path: notes/4-geometry-and-trigonometry/right-angled-triangles---pythagoras-and-trigonometry/right-angled-trigonometry.json
+    chunk_ordinal: 6
+    heading: How do I find the shortest distance from a point to a line?
+  387d1bb742cd75ab:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.9C
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/adding-and-subtracting-areas.json
+    chunk_ordinal: 0
+    heading: Adding & subtracting areas
+  7ff1e6a3e15332da:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches calculator skills; 4.5C is 'solve problems using scale drawings'; T-SPEC resolution
+      error
+    spec_code: 4MA1-4.5C
+    note_path: notes/1-numbers-and-the-number-system/using-a-calculator/using-a-calculator.json
+    chunk_ordinal: 2
+    heading: How do I make sure that I have the correct settings on the calculator?
+  4c2271ae7c98aebf:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches finding PROBABILITIES from Venn diagrams (the 6.x probability surface); 1.5E
+      is 'use Venn diagrams to represent sets' (the set-notation-and-venn-diagrams note is correctly joined
+      and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-1.5E
+    note_path: notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/probability-and-venn-diagrams.json
+    chunk_ordinal: 0
+    heading: Probability & Venn diagrams
+  6f59d0b5932909a2:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.6E
+    note_path: notes/1-numbers-and-the-number-system/percentages/percentage-increases-and-decreases.json
+    chunk_ordinal: 2
+    heading: How do I decrease by a percentage?
+  4658406647dfde09:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/angle-in-a-semicircle.json
+    chunk_ordinal: 0
+    heading: Angle in a semicircle
+  d106b803b2fb03d5:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches speed from distance-time graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/distance-time-graphs.json
+    chunk_ordinal: 2
+    heading: How do I work out the overall average speed?
+  96a7428027da03a2:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 3
+    heading: Dividing fractions
+  0445e150020dec23:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.10B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/squared-and-cubic-units.json
+    chunk_ordinal: 1
+    heading: How do I convert between squared units (areas)?
+  8c356bfc4bbe901a:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note's sampled chunks carry no surds content (generic powers & roots / cube roots); 1.4A
+      is 'understand the meaning of surds' — the surds surface is the simplifying-surds note (correctly
+      joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/powers-and-roots.json
+    chunk_ordinal: 0
+    heading: Powers & roots
+  635e5da9e9a0c1b0:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches the cyclic-quadrilateral circle theorem; its home is 4.6B 'recognise the term
+      cyclic quadrilateral' / 4.6C(iv), not the basic quadrilateral angle-sum SP 4.2B; T-SPEC resolution
+      error
+    spec_code: 4MA1-4.2B
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/cyclic-quadrilaterals.json
+    chunk_ordinal: 0
+    heading: Cyclic quadrilaterals
+  510db67d86dba4d4:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches the same-segment angle theorem = 4.6C(iii); 4.6A is the intersecting-chord-properties
+      SP (the intersecting-chord-theorem note is correctly joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/segment-theorems.json
+    chunk_ordinal: 1
+    heading: 'Circle Theorem: Angles in the same segment are equal'
+  c59ffa613fb38c52:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/the-alternate-segment-theorem.json
+    chunk_ordinal: 0
+    heading: Alternate segment theorem
+  c17aa2a329bade44:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches bounds and accuracy; 1.10B is 'calculations using standard units of mass, length,
+      area, volume and capacity'; T-SPEC resolution error
+    spec_code: 4MA1-1.10B
+    note_path: notes/1-numbers-and-the-number-system/rounding-estimation-and-bounds/bounds.json
+    chunk_ordinal: 6
+    heading: How can bounds help with calculations?
+  224769681ff4ecca:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches chord/tangent properties (tangent definition); 4.6B is 'recognise the term
+      cyclic quadrilateral' — unrelated; T-SPEC resolution error
+    spec_code: 4MA1-4.6B
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/chords-and-tangents.json
+    chunk_ordinal: 4
+    heading: What is a tangent?
+  7ea21115b4acdda1:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches vector diagrams (magnitude/direction drawing); 6.1C is 'use cumulative frequency
+      diagrams' — vectors are section 5, not statistics; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/representing-vectors-as-diagrams.json
+    chunk_ordinal: 1
+    heading: How can I represent a vector visually?
+  5bdc1c0916296222:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches negative-number contexts (temperature, money/debt); the SP 'understand the
+      meaning of surds' is a different topic entirely — the surds surface is the simplifying-surds note
+      (correctly joined and CONFIRMed separately); T-SPEC resolution error
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/negative-numbers.json
+    chunk_ordinal: 2
+    heading: Where are negative numbers used in real-life?
+  829c162cdbf63740:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches similarity basics and triangle-similarity proofs; 4.11A is 'areas of similar
+      figures in the ratio of the square of corresponding sides'; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similarity.json
+    chunk_ordinal: 1
+    heading: What are similar shapes?
+  ef992db699b6e241:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches simplifying fractions; 1.2I is multiply and divide fractions and mixed numbers
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/basic-fractions.json
+    chunk_ordinal: 6
+    heading: How do I simplify fractions?
+  28c5075909f1f8e1:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.9A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/operations-with-standard-form.json
+    chunk_ordinal: 3
+    heading: Multiplication
+  0ade70fd2ec3f78b:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-3.2C
+    note_path: notes/3-sequences-functions-and-graphs/functions/domain-and-range.json
+    chunk_ordinal: 6
+    heading: How can I use graphs to find ranges?
+  8e6835878a938555:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.10A
+    note_path: notes/1-numbers-and-the-number-system/exchange-rates-and-best-buys/best-buys.json
+    chunk_ordinal: 0
+    heading: Best buys
+  e094afc1504c5a67:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.4C
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.json
+    chunk_ordinal: 2
+    heading: How do I deal with different bases?
+  309396c172c16661:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches algebra vocabulary (term/expression/coefficient); 2.1A is 'use index notation
+      involving fractional, negative and zero powers'; T-SPEC resolution error
+    spec_code: 4MA1-2.1A
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/algebraic-vocabulary.json
+    chunk_ordinal: 1
+    heading: What is a term?
+  c4e6812ae4aa6bc2:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches NUMBER-LINE representation; 2.8D demands representation on rectangular CARTESIAN
+      graphs
+    spec_code: 4MA1-2.8D
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-linear-inequalities.json
+    chunk_ordinal: 3
+    heading: How do I represent an inequality on a number line?
+  e0c561b624bcbd0f:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-5.1D
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/introduction-to-vectors.json
+    chunk_ordinal: 1
+    heading: What are column vectors?
+  e0d439fc29a14d58:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches changing the subject when it appears TWICE (factorise the subject); 2.3F is
+      the subject-appears-ONCE case; T-SPEC resolution error
+    spec_code: 4MA1-2.3F
+    note_path: notes/2-equations-formulae-and-identities/rearranging-formulae/formulas-where-subject-appears-twice.json
+    chunk_ordinal: 2
+    heading: How do I factorise powers of a subject?
+  cf6f81a731c656a3:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches trigonometric graphs (y = tan x shape); 3.3F is 'calculate the gradient of
+      a straight line given the coordinates of two points'; T-SPEC resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/trig-graphs.json
+    chunk_ordinal: 4
+    heading: What is the shape of the graph of y = tan x?
+  86fec3a4ff81201c:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 2
+    heading: How do I multiply two fractions if one is a mixed number?
+  3361a1556b40beff:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/drawing-graphs-from-tables.json
+    chunk_ordinal: 0
+    heading: Drawing graphs using a table
+  0a72f5f7be093007:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 0
+    heading: Multiplying fractions
+  d8b618a39ba9da38:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-2.4B
+    note_path: notes/2-equations-formulae-and-identities/forming-and-solving-equations/forming-equations-from-shapes.json
+    chunk_ordinal: 0
+    heading: Forming equations from shapes
+  9dfa496f920c24f7:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.8D
+    note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+    chunk_ordinal: 2
+    heading: Is there a 3D version of the Pythagoras' theorem formula?
+  49421c25fd2649a5:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches calculator skills; 4.5C is 'solve problems using scale drawings'; T-SPEC resolution
+      error
+    spec_code: 4MA1-4.5C
+    note_path: notes/1-numbers-and-the-number-system/using-a-calculator/using-a-calculator.json
+    chunk_ordinal: 6
+    heading: Which buttons are useful for standard form and calculations involving π?
+  39669231d7cb345c:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches generic real-life area problem-solving (carpet/painting); 4.11C is 'use areas
+      and volumes of SIMILAR figures in solving problems'; T-SPEC resolution error
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/problem-solving-with-areas.json
+    chunk_ordinal: 3
+    heading: How do I solve problems that involve area?
+  4d7ce99946619450:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.4D
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/prime-factor-decomposition.json
+    chunk_ordinal: 1
+    heading: What are prime factors?
+  c877bd3da404e162:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches finding a percentage of an amount; 1.6F is reverse percentages
+    spec_code: 4MA1-1.6F
+    note_path: notes/1-numbers-and-the-number-system/percentages/basic-percentages.json
+    chunk_ordinal: 2
+    heading: How do I find a percentage of an amount with a calculator?
+  f1554b9deaf2cfd9:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.9A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/operations-with-standard-form.json
+    chunk_ordinal: 4
+    heading: Division
+  39bd312c56be2591:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-2.6B
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/graphical-solutions.json
+    chunk_ordinal: 3
+    heading: How do I use graphs to solve equations?
+  9a595e73d8e1ba1c:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches algebraic notation (what is algebra); 1.3A is 'convert recurring decimals into
+      fractions'; T-SPEC resolution error
+    spec_code: 4MA1-1.3A
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/algebraic-notation.json
+    chunk_ordinal: 1
+    heading: What is algebra?
+  734603c6ddf10662:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2G
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.json
+    chunk_ordinal: 4
+    heading: How do I convert from a percentage to a fraction?
+  fb5930050add9438:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.6E
+    note_path: notes/1-numbers-and-the-number-system/percentages/percentage-increases-and-decreases.json
+    chunk_ordinal: 1
+    heading: How do I increase by a percentage?
+  3d1bb262a83fa525:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches algebra vocabulary (term/expression/coefficient); 2.1A is 'use index notation
+      involving fractional, negative and zero powers'; T-SPEC resolution error
+    spec_code: 4MA1-2.1A
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/algebraic-vocabulary.json
+    chunk_ordinal: 3
+    heading: What is an expression?
+  f0f55463cb67c258:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches pie charts; 6.1A is histograms — different diagrams; T-SPEC resolution error
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/pie-charts.json
+    chunk_ordinal: 1
+    heading: What is a pie chart?
+  1bb64a22741d7f2e:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: heading-only section head with no content
+    spec_code: 4MA1-1.4C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-roots-and-indices/algebraic-roots-and-indices.json
+    chunk_ordinal: 0
+    heading: Algebraic roots & indices
+  500b6738b201399a:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note's sampled chunks carry no surds content (generic powers & roots / cube roots); 1.4A
+      is 'understand the meaning of surds' — the surds surface is the simplifying-surds note (correctly
+      joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/powers-and-roots.json
+    chunk_ordinal: 3
+    heading: What are cube roots?
+  e5961cae2989195d:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches similarity basics and triangle-similarity proofs; 4.11A is 'areas of similar
+      figures in the ratio of the square of corresponding sides'; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similarity.json
+    chunk_ordinal: 2
+    heading: How do we prove that two triangles are similar?
+  4d8927e75b843227:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-quadratics.json
+    chunk_ordinal: 2
+    heading: How do I factorise quadratics by inspection?
+  0ca8fe9458148511:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches the quadrilateral angle sum (the 4.2B surface); 4.1B is intersecting/parallel/straight-line
+      angle properties
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/basic-angle-properties.json
+    chunk_ordinal: 4
+    heading: What are the angle properties of quadrilaterals?
+  ee4f2c4616e75cf1:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches averages from grouped data; 6.2C is 'find the interquartile range from a discrete
+      data set'; T-SPEC resolution error
+    spec_code: 4MA1-6.2C
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-grouped-data.json
+    chunk_ordinal: 0
+    heading: Averages from grouped data
+  09b148caf016bc5c:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches substitution; 2.2A is 'expand the product of two or more linear expressions';
+      T-SPEC resolution error
+    spec_code: 4MA1-2.2A
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/substitution.json
+    chunk_ordinal: 1
+    heading: What is substitution?
+  8500dae61eb1f79a:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.9E
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/area-and-circumference-of-circles.json
+    chunk_ordinal: 3
+    heading: How do I find the circumference of a circle?
+  76ebab65d94923ec:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.9A
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/operations-with-standard-form.json
+    chunk_ordinal: 0
+    heading: Operations with standard form
+  f433dee628129f3c:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.1F
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/order-of-operations-bidmas-bodmas.json
+    chunk_ordinal: 3
+    heading: How do I use a calculator for BIDMAS/BODMAS questions?
+  24e1e7fa58aa8f40:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.6E
+    note_path: notes/1-numbers-and-the-number-system/percentages/percentage-increases-and-decreases.json
+    chunk_ordinal: 0
+    heading: Percentage increases & decreases
+  1fc60c32162fba56:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches speed from distance-time graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/distance-time-graphs.json
+    chunk_ordinal: 0
+    heading: Distance-time graphs
+  70390bf2992d7dba:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note names common 3D shapes; 4.10A is the sphere/cone surface-area and volume formulas;
+      T-SPEC resolution error
+    spec_code: 4MA1-4.10A
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/properties-of-3d-shapes.json
+    chunk_ordinal: 1
+    heading: What common 3D shapes do I need to know about?
+  36f94b36f9a46cab:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-2.7A
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-quadratic-equations.json
+    chunk_ordinal: 2
+    heading: What if there are numbers in front of the x's in the brackets?
+  2048eb0e13ac5dc0:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 1
+    heading: What are the names of common 2D shapes?
+  0ef016505c1df678:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.5B
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/constructing-triangles.json
+    chunk_ordinal: 2
+    heading: How do I construct an SSS triangle?
+  f095ae589bfbb6c4:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2I
+    note_path: notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.json
+    chunk_ordinal: 5
+    heading: How do I divide two fractions when one of them is a mixed number?
+  527a3e22c0f9c3f1:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-5.1G
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/geometrical-proof.json
+    chunk_ordinal: 0
+    heading: Geometrical proof
+  36d77cbd9a4cf3ae:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches the distance/length formula between two points; 3.3G is parallel/perpendicular
+      line equations; T-SPEC resolution error
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/length-of-a-line.json
+    chunk_ordinal: 1
+    heading: How do I calculate the length of a line?
+  035b9277c2df00b8:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-3.2A
+    note_path: notes/3-sequences-functions-and-graphs/functions/functions-toolkit.json
+    chunk_ordinal: 4
+    heading: What is a mapping diagram?
+  c835dc91cf24bb39:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches speed from distance-time graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/distance-time-graphs.json
+    chunk_ordinal: 1
+    heading: How do I use a distance-time graph?
+  245dc02520e11f89:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.7C
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/working-with-proportion.json
+    chunk_ordinal: 1
+    heading: What is direct proportion?
+  e1f6857029232571:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-problem-solving/multiple-ratios.json
+    chunk_ordinal: 1
+    heading: How do I combine two ratios to make a three-part ratio?
+  10cd34fcc8abff31:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the section teaches drawing USING a known gradient/intercept, not calculating a gradient from
+      two points (the 3.3F demand)
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/drawing-straight-line-graphs.json
+    chunk_ordinal: 3
+    heading: How do I draw a straight line without using a table of values?
+  e45c1e570f22f1e9:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.7E
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/sharing-in-a-ratio.json
+    chunk_ordinal: 3
+    heading: How do I solve a ratio problem when given the difference between two parts?
+  eb26022693be3948:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/difference-of-two-squares.json
+    chunk_ordinal: 3
+    heading: How can the difference of two squares be made harder?
+  7256676a5b6a63aa:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.9E
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/area-and-circumference-of-circles.json
+    chunk_ordinal: 1
+    heading: What are the properties of a circle?
+  282c6f6325fa57dd:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note's sampled section teaches choosing completing-the-square (the 2.7B surface); 2.7D is
+      simultaneous linear/quadratic equations (the linear/quadratic notes are correctly joined and CONFIRMed);
+      T-SPEC resolution error
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-equation-methods.json
+    chunk_ordinal: 3
+    heading: When should I solve by completing the square?
+  721bbac10c09fa78:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches arithmetic symbols (+ - × ÷ = ≠ roots ± π); verified zero set-notation content
+      in the note body — 1.5C is 'use the notation n(A) for the number of elements in the set A'; T-SPEC
+      resolution error
+    spec_code: 4MA1-1.5C
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/mathematical-operations.json
+    chunk_ordinal: 0
+    heading: Mathematical symbols
+  38b7864eeed345c9:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-3.3H
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/straight-line-graphs-y-equals-mx-plus-c.json
+    chunk_ordinal: 2
+    heading: How do I find the equation of a straight line from a graph?
+  19ea4f42df29c317:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/basic-angle-properties.json
+    chunk_ordinal: 2
+    heading: What are the basic angle properties?
+  e54fc84c271915b3:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2G
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.json
+    chunk_ordinal: 1
+    heading: How do I convert from a percentage to a decimal?
+  58c131db5d09c786:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-tables.json
+    chunk_ordinal: 5
+    heading: How do I find the range from frequency tables?
+  ed14e2641a9f9c49:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches Pythagoras' theorem (Who is Pythagoras); 4.8A is 'sine, cosine and tangent
+      of obtuse angles'; T-SPEC resolution error
+    spec_code: 4MA1-4.8A
+    note_path: notes/4-geometry-and-trigonometry/right-angled-triangles---pythagoras-and-trigonometry/pythagoras-theorem.json
+    chunk_ordinal: 1
+    heading: Who is Pythagoras?
+  4a72de94b5c07115:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.1F
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/order-of-operations-bidmas-bodmas.json
+    chunk_ordinal: 2
+    heading: In what order should fractions and roots be dealt with?
+  8fee93a67d87bae5:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches inverse-function notation; 3.3I is 'recognise, generate points and plot graphs
+      of linear and quadratic functions'; T-SPEC resolution error
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/functions/inverse-functions.json
+    chunk_ordinal: 2
+    heading: What notation is used for inverse functions?
+  8638b91481a3daf9:
+    verdict: REJECT
+    root: section-level
+    stratum: exact
+    note: the mode is central tendency; 6.2B is the measure-of-spread concept (the range section of the
+      same note IS spread content and is CONFIRMed)
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/averages-from-tables.json
+    chunk_ordinal: 2
+    heading: How do I find the mode from a frequency table?
+  74bcd9171ee1210c:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches expanding double brackets; 2.2E is 'use algebra to support and construct proofs';
+      T-SPEC resolution error
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/expanding-brackets/expanding-double-brackets.json
+    chunk_ordinal: 1
+    heading: How do I expand two brackets?
+  46db75de8d3f81ce:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.2C
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/properties-of-2d-shapes.json
+    chunk_ordinal: 5
+    heading: What are the properties of parallelograms and rhombuses?
+  f909e25bf9f3ef0b:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches vector diagrams (magnitude/direction drawing); 6.1C is 'use cumulative frequency
+      diagrams' — vectors are section 5, not statistics; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/representing-vectors-as-diagrams.json
+    chunk_ordinal: 2
+    heading: What happens when a vector is multiplied by a scalar?
+  14f9913db35b9db1:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.8D
+    note_path: notes/4-geometry-and-trigonometry/3d-pythagoras-and-trigonometry/3d-pythagoras-and-trigonometry.json
+    chunk_ordinal: 5
+    heading: How do I apply 3D Pythagoras and trigonometry to more complicated problems?
+  06ca29acb0866a91:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/estimating-gradients/finding-gradients-of-tangents.json
+    chunk_ordinal: 1
+    heading: How are the gradients of graphs and tangents related?
+  26b534120ff9cf66:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.5D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/constructions.json
+    chunk_ordinal: 2
+    heading: How do I construct the perpendicular bisector of a line?
+  3193920fda941000:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.2G
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.json
+    chunk_ordinal: 6
+    heading: How do I convert from a fraction to a percentage?
+  a43f8a78489dc9be:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.5B
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/constructing-triangles.json
+    chunk_ordinal: 0
+    heading: Constructing triangles
+  46984d789a02a7a6:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.5B
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/constructing-triangles.json
+    chunk_ordinal: 1
+    heading: What are triangle constructions?
+  7a91b144960c2500:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches generic real-life area problem-solving (carpet/painting); 4.11C is 'use areas
+      and volumes of SIMILAR figures in solving problems'; T-SPEC resolution error
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/problem-solving-with-areas.json
+    chunk_ordinal: 0
+    heading: Problem-solving with areas
+  eef0377ae1ebc959:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-1.4C
+    note_path: notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.json
+    chunk_ordinal: 1
+    heading: What are the laws of indices?
+  4cf68a6ce9a13dab:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-2.2F
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-quadratics.json
+    chunk_ordinal: 3
+    heading: How do I factorise quadratics by grouping?
+  0bbbb064b3965035:
+    verdict: CONFIRM
+    root: null
+    stratum: exact
+    note: null
+    spec_code: 4MA1-4.6C
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/angles-at-centre-and-semicircles.json
+    chunk_ordinal: 0
+    heading: Angles at centre & circumference
+  80e3cf0a2d77ed6c:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches term-to-term sequence rules generally; 3.1A is 'understand and use common difference
+      (d) and first term (a) in an arithmetic sequence' (the arithmetic-sequences note is correctly joined
+      and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-3.1A
+    note_path: notes/3-sequences-functions-and-graphs/sequences/introduction-to-sequences.json
+    chunk_ordinal: 2
+    heading: How do I write out a sequence using a term-to-term rule?
+  ff610080a91b5cbb:
+    verdict: REJECT
+    root: note-level
+    stratum: exact
+    note: the note teaches currency conversion; 3.4C is differentiation (stationary points/turning points);
+      T-SPEC resolution error
+    spec_code: 4MA1-3.4C
+    note_path: notes/1-numbers-and-the-number-system/exchange-rates-and-best-buys/exchange-rates.json
+    chunk_ordinal: 1
+    heading: How do I convert between currencies?
+  8c09dc83f8e039d6:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 3
+    heading: 'Vertical stretches: y=af(x)'
+  40c24bc6a29ca254:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-probability.json
+    chunk_ordinal: 2
+    heading: What does independent mean?
+  759402f9bab6de88:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 3
+    heading: 'Vertical translations: y=f(x) + a'
+  b5d7487a8e2e95f2:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/compound-interest.json
+    chunk_ordinal: 2
+    heading: How do I calculate compound interest?
+  158348e5fb4b9327:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-sine-rule.json
+    chunk_ordinal: 1
+    heading: What is the sine rule?
+  f86768260bb76bb3:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/algebraic-proof/algebraic-proof.json
+    chunk_ordinal: 2
+    heading: How do I prove results about integers?
+  7e1d07daae1ae36b:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.9A
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/arcs-and-sectors.json
+    chunk_ordinal: 3
+    heading: What formulae do I need to know?
+  ca6f2a4b34021ec5:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-probability.json
+    chunk_ordinal: 0
+    heading: Combined probability
+  1deffed6c960f0e6:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 4
+    heading: 'Horizontal reflections: y=f(-x)'
+  56a62976ffb2a777:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3A
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.json
+    chunk_ordinal: 0
+    heading: Recurring decimals
+  afc81636f6633a6f:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 3
+    heading: What if the lengths are algebraic?
+  d6536d15d7f4abd9:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-sine-rule.json
+    chunk_ordinal: 3
+    heading: How do I use the sine rule to find missing angles?
+  e75b809c2adc56b5:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 6
+    heading: How does a translation affect the equation of the graph?
+  d266cbdaad1c3413:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches USING/interpreting CF diagrams (percentiles, quartiles) — the 6.1C surface;
+      6.1B is 'construct cumulative frequency diagrams from tabulated data' (the drawing note is correctly
+      joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/interpreting-cumulative-frequency-diagrams.json
+    chunk_ordinal: 1
+    heading: How do I use and interpret a cumulative frequency diagram?
+  e1d4ed2fb3e55f06:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-conditional-probabilities.json
+    chunk_ordinal: 2
+    heading: How do I calculate combined conditional probabilities?
+  58e3f9fd44473322:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/drawing-histograms.json
+    chunk_ordinal: 0
+    heading: Drawing histograms
+  758f36ce7cfdbd46:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-harder-quadratics.json
+    chunk_ordinal: 3
+    heading: 'Method 2: Factorising using a grid'
+  61a74744ace8d645:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4B
+    note_path: notes/1-numbers-and-the-number-system/surds/rationalising-denominators.json
+    chunk_ordinal: 3
+    heading: How do I rationalise harder denominators?
+  d363e97151a5549b:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-sine-rule.json
+    chunk_ordinal: 4
+    heading: What is the ambiguous case of the sine rule?
+  9f1c2ae2c6fefc5f:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4B
+    note_path: notes/1-numbers-and-the-number-system/surds/rationalising-denominators.json
+    chunk_ordinal: 1
+    heading: What does rationalising the denominator mean?
+  94144b0aeeb9ff31:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches conditional probability P(A|B); 6.3B is 'the probability that two or more independent
+      events will occur'; T-SPEC resolution error
+    spec_code: 4MA1-6.3B
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/conditional-probability.json
+    chunk_ordinal: 1
+    heading: What is a conditional probability?
+  201c2a9df20b85d1:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-distributions.json
+    chunk_ordinal: 0
+    heading: Comparing distributions
+  882b64f82f888243:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-distributions.json
+    chunk_ordinal: 3
+    heading: What restrictions are there when drawing conclusions?
+  c820146c11ad4571:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/surds/simplifying-surds.json
+    chunk_ordinal: 3
+    heading: Simplifying surds
+  25bfa4ebbe321acb:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-cosine-rule.json
+    chunk_ordinal: 2
+    heading: How do I use the cosine rule to find a missing length?
+  a843ad260e72c305:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/frequency-density.json
+    chunk_ordinal: 1
+    heading: What is frequency density?
+  bfa7848d69223bb5:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/frequency-density.json
+    chunk_ordinal: 0
+    heading: Frequency density
+  a6d4a69ec36ed1cd:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/drawing-cumulative-frequency-diagrams.json
+    chunk_ordinal: 1
+    heading: What is a cumulative frequency diagram?
+  3bc3485ebf7739f5:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/algebraic-proof/algebraic-proof.json
+    chunk_ordinal: 3
+    heading: How do I show that a result is odd or even?
+  0d559614803e0098:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/interpreting-histograms.json
+    chunk_ordinal: 0
+    heading: Interpreting histograms
+  b9e5673d1895dc16:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 1
+    heading: What is the intersecting chord theorem?
+  8950fe4096af45bc:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/cumulative-frequency-diagrams.json
+    chunk_ordinal: 0
+    heading: Cumulative frequency
+  44ee92e06fb02978:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.8A
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-quadratic-inequalities.json
+    chunk_ordinal: 4
+    heading: How can quadratic inequalities be made harder?
+  195a5145fba29b23:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 0
+    heading: Stretches of graphs
+  0d417a743225afd3:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-distributions.json
+    chunk_ordinal: 2
+    heading: How do I write a conclusion when comparing two data sets?
+  8fa698b9d953d927:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/algebraic-proof/algebraic-proof.json
+    chunk_ordinal: 1
+    heading: What is algebraic proof?
+  9b4042cc06354a25:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.9A
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/arcs-and-sectors.json
+    chunk_ordinal: 1
+    heading: What is an arc?
+  57aac15089b56448:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches USING/interpreting CF diagrams (percentiles, quartiles) — the 6.1C surface;
+      6.1B is 'construct cumulative frequency diagrams from tabulated data' (the drawing note is correctly
+      joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/interpreting-cumulative-frequency-diagrams.json
+    chunk_ordinal: 3
+    heading: How do I find a percentile from a cumulative frequency diagram?
+  30194af74cc472eb:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8B
+    note_path: notes/4-geometry-and-trigonometry/right-angled-triangles---pythagoras-and-trigonometry/angles-of-elevation-and-depression.json
+    chunk_ordinal: 1
+    heading: What are angles of elevation and depression?
+  900f53085ec44e14:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/cumulative-frequency-diagrams.json
+    chunk_ordinal: 1
+    heading: What is cumulative frequency?
+  f3a446fe5d79c2ed:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/surds/simplifying-surds.json
+    chunk_ordinal: 1
+    heading: What is a surd?
+  08f5a5d57422e518:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 7
+    heading: What if one of the lines is a tangent?
+  4c4f6d3aefd774b8:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/surds/simplifying-surds.json
+    chunk_ordinal: 0
+    heading: Surds & exact values
+  0c74e35bfa35dadd:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.8A
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-quadratic-inequalities.json
+    chunk_ordinal: 0
+    heading: Solving quadratic inequalities
+  295a0a8a7e93e547:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/surds/simplifying-surds.json
+    chunk_ordinal: 4
+    heading: How do I simplify surds?
+  afde545383fc2fc9:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 6
+    heading: How do I use the intersecting secant theorem to solve problems?
+  8fa41b23ee3fc5ce:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-conditional-probabilities.json
+    chunk_ordinal: 0
+    heading: Combined conditional probabilities
+  e255c4e2c93bcb61:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 7
+    heading: How do I apply a combined reflection?
+  2c9579ee88d51ddd:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-cosine-rule.json
+    chunk_ordinal: 0
+    heading: Cosine rule
+  4c20314b42b79349:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.8A
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-quadratic-inequalities.json
+    chunk_ordinal: 2
+    heading: How do I solve a quadratic inequality?
+  803db4c8c434631f:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches USING/interpreting CF diagrams (percentiles, quartiles) — the 6.1C surface;
+      6.1B is 'construct cumulative frequency diagrams from tabulated data' (the drawing note is correctly
+      joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/interpreting-cumulative-frequency-diagrams.json
+    chunk_ordinal: 2
+    heading: How do I find the median, lower quartile and upper quartile from a cumulative frequency diagram?
+  c417fb640f862e60:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/multiplying-and-dividing-algebraic-fractions.json
+    chunk_ordinal: 1
+    heading: How do I multiply algebraic fractions?
+  254bc0a493b32cfe:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-harder-quadratics.json
+    chunk_ordinal: 2
+    heading: 'Method 1: Factorising by grouping'
+  779b9a4f52bebb01:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 5
+    heading: What happens to asymptotes when a graph is translated?
+  dd5be3aacfaa0f61:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 5
+    heading: What is the external case of the intersecting chord theorem?
+  9fa1479eaba1089f:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 1
+    heading: What are stretches of graphs?
+  171e3430823020cf:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 1
+    heading: What are translations of graphs?
+  9a21391587b8c182:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/drawing-cumulative-frequency-diagrams.json
+    chunk_ordinal: 2
+    heading: How do I draw a cumulative frequency diagram?
+  083b022f29358c51:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-conditional-probabilities.json
+    chunk_ordinal: 3
+    heading: Can I draw a tree diagram for combined conditional probabilities?
+  e0ccbe4aecaa1c5b:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-cosine-rule.json
+    chunk_ordinal: 1
+    heading: What is the cosine rule?
+  cc4fb6b987ef465e:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 0
+    heading: Intersecting chord theorem
+  c21f8e05698d4d57:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches conditional probability P(A|B); 6.3B is 'the probability that two or more independent
+      events will occur'; T-SPEC resolution error
+    spec_code: 4MA1-6.3B
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/conditional-probability.json
+    chunk_ordinal: 2
+    heading: How do I calculate conditional probabilities?
+  3a01dea0606364f4:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches conditional probability P(A|B); 6.3B is 'the probability that two or more independent
+      events will occur'; T-SPEC resolution error
+    spec_code: 4MA1-6.3B
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/conditional-probability.json
+    chunk_ordinal: 0
+    heading: Conditional probability
+  0530e7cbc5823d1f:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/interpreting-histograms.json
+    chunk_ordinal: 1
+    heading: How do I interpret a histogram?
+  d6599b297a54df69:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3A
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.json
+    chunk_ordinal: 1
+    heading: What are recurring decimals?
+  fbb4474cbe21a4f2:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 7
+    heading: How do I apply a combined translation?
+  b865163247ede1f2:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/drawing-histograms.json
+    chunk_ordinal: 2
+    heading: How do I draw a histogram?
+  73579fae3e77bb0b:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 5
+    heading: What happens to asymptotes when a graph is reflected?
+  cafbec954c1cc739:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/algebraic-proof/algebraic-proof.json
+    chunk_ordinal: 0
+    heading: Algebraic proof
+  829ce41942e0a87f:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2E
+    note_path: notes/2-equations-formulae-and-identities/algebraic-proof/algebraic-proof.json
+    chunk_ordinal: 4
+    heading: How do I prove results with prime numbers?
+  6f0e32ca7c15b302:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 0
+    heading: Translations of graphs
+  bb9325fbf987841b:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/multiplying-and-dividing-algebraic-fractions.json
+    chunk_ordinal: 2
+    heading: How do I divide algebraic fractions?
+  f24a3b9ce023213c:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/compound-interest.json
+    chunk_ordinal: 1
+    heading: What is compound interest?
+  07790442c5308dc2:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches tree diagrams for probability (home = 6.3A 'draw and use tree diagrams'); 6.1C
+      is cumulative frequency; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/tree-diagrams.json
+    chunk_ordinal: 0
+    heading: Tree diagrams
+  da14c4a5b1400dff:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/solving-algebraic-fractions.json
+    chunk_ordinal: 0
+    heading: Solving algebraic fractions
+  282ed1399101c134:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-conditional-probabilities.json
+    chunk_ordinal: 1
+    heading: What is a combined conditional probability?
+  40aadba8b69d977a:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/sum-of-an-arithmetic-series.json
+    chunk_ordinal: 0
+    heading: Sum of an arithmetic series
+  a5c835aa75214106:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/drawing-histograms.json
+    chunk_ordinal: 1
+    heading: What is a histogram?
+  ddbfe3a4fe2391f6:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-cosine-rule.json
+    chunk_ordinal: 3
+    heading: How do I use the cosine rule to find a missing angle?
+  e5a7bc7769b08fbc:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/multiplying-and-dividing-algebraic-fractions.json
+    chunk_ordinal: 0
+    heading: Multiplying & dividing algebraic fractions
+  5a3ed3ebd7dccc9a:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-harder-quadratics.json
+    chunk_ordinal: 1
+    heading: How do I factorise a quadratic expression where  a ≠ 1  in ax<sup>2</sup> + bx + c?
+  ac8b6c827c60788d:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-sine-rule.json
+    chunk_ordinal: 0
+    heading: Sine rule
+  29c8e88b1d19960c:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/sum-of-an-arithmetic-series.json
+    chunk_ordinal: 2
+    heading: What is the formula for the sum of an arithmetic sequence?
+  20f2eb4fcd3d2788:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/histograms/frequency-density.json
+    chunk_ordinal: 2
+    heading: How do I calculate frequency density?
+  e8a1f9666de78569:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/drawing-cumulative-frequency-diagrams.json
+    chunk_ordinal: 0
+    heading: Drawing cumulative frequency diagrams
+  2e3cc8ca45f70d7d:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/adding-and-subtracting-algebraic-fractions.json
+    chunk_ordinal: 1
+    heading: How do I add (or subtract) two algebraic fractions?
+  71b3ca09edeea748:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.9A
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/arcs-and-sectors.json
+    chunk_ordinal: 4
+    heading: How do I find the length of an arc?
+  6c0fe638f49cc055:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches tree diagrams for probability (home = 6.3A 'draw and use tree diagrams'); 6.1C
+      is cumulative frequency; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/tree-diagrams.json
+    chunk_ordinal: 3
+    heading: How do I use tree diagrams with conditional probability?
+  a4387a7d46ae5755:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 4
+    heading: 'Horizontal translations: y=f(x + a)'
+  6e7615b3f1888e71:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 5
+    heading: What happens to asymptotes when a graph is stretched?
+  8b1205674e5e68a5:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-conditional-probabilities.json
+    chunk_ordinal: 4
+    heading: What if there are multiple possibilities within one question?
+  c3796828cd5884d3:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/factorising/factorising-harder-quadratics.json
+    chunk_ordinal: 0
+    heading: Factorising harder quadratics
+  151f5f87305fd718:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/translations-of-graphs.json
+    chunk_ordinal: 2
+    heading: How do I translate graphs?
+  e232b84dfc7c6b5c:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/adding-and-subtracting-algebraic-fractions.json
+    chunk_ordinal: 0
+    heading: Adding & subtracting algebraic fractions
+  64bcbadcb6792f1b:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 3
+    heading: 'Vertical reflections: y=-f(x)'
+  5604872755b28396:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4A
+    note_path: notes/1-numbers-and-the-number-system/surds/simplifying-surds.json
+    chunk_ordinal: 2
+    heading: How do I do calculations with surds?
+  ba76019777f6f7ec:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8C
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/the-sine-rule.json
+    chunk_ordinal: 2
+    heading: How do I use the sine rule to find missing lengths?
+  fd83659578d2b073:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/compound-interest.json
+    chunk_ordinal: 3
+    heading: Compound interest formula
+  6813fc9c3f037550:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/compound-interest.json
+    chunk_ordinal: 0
+    heading: Compound interest
+  65890251217db69e:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches tree diagrams for probability (home = 6.3A 'draw and use tree diagrams'); 6.1C
+      is cumulative frequency; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/tree-diagrams.json
+    chunk_ordinal: 2
+    heading: How do I find probabilities from tree diagrams?
+  70780a81f9b4ee12:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.8A
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-quadratic-inequalities.json
+    chunk_ordinal: 1
+    heading: What are quadratic inequalities?
+  ab6af67d1b6a7d07:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/sum-of-an-arithmetic-series.json
+    chunk_ordinal: 1
+    heading: What is the sum of an arithmetic sequence?
+  3b7f87fb3f619dae:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/sum-of-an-arithmetic-series.json
+    chunk_ordinal: 3
+    heading: How do I use the formula for the sum of an arithmetic sequence?
+  11d4a0e427bab2e8:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4B
+    note_path: notes/1-numbers-and-the-number-system/surds/rationalising-denominators.json
+    chunk_ordinal: 0
+    heading: Rationalising denominators
+  c6a650d2aaab9593:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.4B
+    note_path: notes/1-numbers-and-the-number-system/surds/rationalising-denominators.json
+    chunk_ordinal: 2
+    heading: How do I rationalise simple denominators?
+  0aaeb3087163a2e2:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.3A
+    note_path: notes/6-statistics-and-probability/combined-and-conditional-probability/combined-probability.json
+    chunk_ordinal: 1
+    heading: How do I calculate combined probabilities?
+  719db0743b9f7947:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.8A
+    note_path: notes/2-equations-formulae-and-identities/solving-inequalities/solving-quadratic-inequalities.json
+    chunk_ordinal: 3
+    heading: What do I do if the sign of the inequality changes?
+  5e0d7de427742b06:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3C
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/ordering-fdp.json
+    chunk_ordinal: 3
+    heading: Which symbols can I use?
+  b0c37393bbe7688e:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3C
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/ordering-fdp.json
+    chunk_ordinal: 1
+    heading: How do I put fractions in order of size?
+  eff1f516d327dbaf:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 6
+    heading: How does a reflection affect the equation of the graph?
+  ee8aba7ae5c964e1:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3C
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/ordering-fdp.json
+    chunk_ordinal: 2
+    heading: How do I put fractions, decimals and percentages in order of size?
+  2b08c74b4c567b42:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/compound-interest.json
+    chunk_ordinal: 4
+    heading: How do I solve reverse compound interest problems?
+  8805634e5d5f8299:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-distributions.json
+    chunk_ordinal: 4
+    heading: What else could I be asked?
+  84547f7f9d645519:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches tree diagrams for probability (home = 6.3A 'draw and use tree diagrams'); 6.1C
+      is cumulative frequency; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/tree-diagrams.json
+    chunk_ordinal: 1
+    heading: How do I draw a tree diagram?
+  eec8b95e4f7b999c:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3A
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.json
+    chunk_ordinal: 2
+    heading: How do I write recurring decimals as fractions?
+  fc2994ee52a2e3ff:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.9A
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/arcs-and-sectors.json
+    chunk_ordinal: 5
+    heading: How do I find the area of a sector?
+  995864de45008df4:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-2.2C
+    note_path: notes/2-equations-formulae-and-identities/algebraic-fractions/solving-algebraic-fractions.json
+    chunk_ordinal: 1
+    heading: How do I solve an equation that contains algebraic fractions?
+  b42bf16c29235803:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-1.3C
+    note_path: notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/ordering-fdp.json
+    chunk_ordinal: 0
+    heading: Ordering FDP
+  b9cdae3deb928662:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 0
+    heading: Reflections of graphs
+  d0e59322b8e62e66:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 2
+    heading: How do I reflect graphs?
+  4f062838bc4b0afd:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 4
+    heading: Intersecting Chord Theorem (External)
+  d810b0ee82d86e58:
+    verdict: REJECT
+    root: note-level
+    stratum: none
+    note: the note teaches USING/interpreting CF diagrams (percentiles, quartiles) — the 6.1C surface;
+      6.1B is 'construct cumulative frequency diagrams from tabulated data' (the drawing note is correctly
+      joined and CONFIRMed); T-SPEC resolution error
+    spec_code: 4MA1-6.1B
+    note_path: notes/6-statistics-and-probability/cumulative-frequency-diagrams/interpreting-cumulative-frequency-diagrams.json
+    chunk_ordinal: 0
+    heading: Interpreting cumulative frequency diagrams
+  7b8a5d82166400e3:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 4
+    heading: 'Horizontal stretches: y=f(ax)'
+  6c07c4274e0942d3:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.8B
+    note_path: notes/4-geometry-and-trigonometry/right-angled-triangles---pythagoras-and-trigonometry/angles-of-elevation-and-depression.json
+    chunk_ordinal: 0
+    heading: Elevation & depression
+  336327168b76dd2c:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 7
+    heading: How do I apply a combined stretch?
+  3725e5ddc56b1b48:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.9A
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/arcs-and-sectors.json
+    chunk_ordinal: 0
+    heading: Arc lengths & sector areas
+  49921fcdc928bb15:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 2
+    heading: How do I stretch graphs?
+  500aeabde0de68d0:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-distributions.json
+    chunk_ordinal: 1
+    heading: How do I compare two data sets?
+  d6e76b1dcc9f8641:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/reflections-of-graphs.json
+    chunk_ordinal: 1
+    heading: What are reflections of graphs?
+  ab4a6b46393d2dcc:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.9A
+    note_path: notes/4-geometry-and-trigonometry/circles-arcs-and-sectors/arcs-and-sectors.json
+    chunk_ordinal: 2
+    heading: What is a sector?
+  078b1919e17d7f27:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/transformations-of-graphs/stretches-of-graphs.json
+    chunk_ordinal: 6
+    heading: How does a stretch affect the equation of the graph?
+  014ec7c38812c84a:
+    verdict: CONFIRM
+    root: null
+    stratum: none
+    note: null
+    spec_code: 4MA1-4.6A
+    note_path: notes/4-geometry-and-trigonometry/circle-theorems/intersecting-chord-theorem.json
+    chunk_ordinal: 2
+    heading: How do I use the intersecting chord theorem to solve problems?
+  894fb793bca91a4c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.10C
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/money-calculations.json
+    chunk_ordinal: 4
+    heading: What should I do when money calculations involve more than two decimal places?
+  6b02bf760838140d:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 3
+    heading: How do I differentiate negative powers of x?
+  839b9402eb4b7aec:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 2
+    heading: What is a translation?
+  78bc7d5f45566107:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/linear.json
+    chunk_ordinal: 2
+    heading: How do I solve linear simultaneous equations by elimination?
+  8fb1642b923eeffd:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/depreciation.json
+    chunk_ordinal: 0
+    heading: Depreciation
+  ee049f22254149bf:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 5
+    heading: What is a simplified ratio?
+  153074ee1ba2b542:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-formula.json
+    chunk_ordinal: 0
+    heading: Quadratic formula
+  fe90100437f85527:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: the section teaches differentiation applied to quadratics (the 3.4C surface); 3.3I is generating
+      points and plotting
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 5
+    heading: How do I find the coordinates of the turning point using differentiation?
+  13513f494b730dfe:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.9B
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/perimeter.json
+    chunk_ordinal: 2
+    heading: How do I find the perimeter of a 2D shape?
+  1d76a3c7a43353dc:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note's map-scale span teaches map reading/actual lengths; 4.11B is 'volumes of similar figures
+      in the ratio of the cube of corresponding sides'; T-SPEC resolution error (the same note's drawing-span
+      join to 4.5C is correct and CONFIRMed)
+    spec_code: 4MA1-4.11B
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/scale.json
+    chunk_ordinal: 2
+    heading: Maps
+  bcb57cc870d229b6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 1
+    heading: What does kinematics mean?
+  26d68fb702696e73:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/quadratic.json
+    chunk_ordinal: 0
+    heading: Quadratic simultaneous equations
+  775c2e173b507864:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/completing-the-square/completing-the-square.json
+    chunk_ordinal: 0
+    heading: Completing the square
+  32b318a3b06ae8c2:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 0
+    heading: Quadratic graphs
+  f16589654184812e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 4
+    heading: How do I translate a shape?
+  a6f3786cae1b34ca:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/using conversion graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/conversion-graphs.json
+    chunk_ordinal: 3
+    heading: How do I use a conversion graph that does not start at the origin?
+  e123be6d0f56192d:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 8
+    heading: How can I use a Venn diagram to find the lowest common multiple (LCM) of two numbers?
+  939f8d470b4802a8:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.8E
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/area-of-a-triangle.json
+    chunk_ordinal: 0
+    heading: Area of a triangle
+  009dadc90fd682d1:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/linear.json
+    chunk_ordinal: 1
+    heading: What are linear simultaneous equations?
+  b8940b4807716afb:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 5
+    heading: What is the acceleration and how do I find it?
+  a076aa2fedbf7017:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches central tendency (mean/median/mode); 6.2B is 'the concept of a measure of spread';
+      T-SPEC resolution error
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/mean-median-and-mode.json
+    chunk_ordinal: 2
+    heading: What is the median?
+  31615936fd270940:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/quadratic.json
+    chunk_ordinal: 3
+    heading: How do I solve quadratic simultaneous equations using algebra?
+  3dc4be86afc650d6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 6
+    heading: How do I find a missing angle in a polygon?
+  f528d28dcc81d096:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2A
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/rotations.json
+    chunk_ordinal: 3
+    heading: How do I describe a rotation?
+  686df57632458de6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.9B
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/perimeter.json
+    chunk_ordinal: 3
+    heading: How do I find the perimeter of a compound shape?
+  2843779a6b87ad7b:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note's map-scale span teaches map reading/actual lengths; 4.11B is 'volumes of similar figures
+      in the ratio of the cube of corresponding sides'; T-SPEC resolution error (the same note's drawing-span
+      join to 4.5C is correct and CONFIRMed)
+    spec_code: 4MA1-4.11B
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/scale.json
+    chunk_ordinal: 3
+    heading: How can I use a scale to find the actual lengths from a map?
+  8122385cc1be5647:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/interpreting statistical diagrams generally; 6.1C is cumulative-frequency
+      use; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/working-with-statistical-diagrams.json
+    chunk_ordinal: 2
+    heading: How do I draw conclusions from diagrams?
+  f892c1ec54f53445:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.5A
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/inverse-proportion.json
+    chunk_ordinal: 1
+    heading: What is inverse proportion?
+  eebe12b344302954:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches LENGTH similarity (scale factors between lengths); 4.11A is the AREA square-ratio
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similar-lengths.json
+    chunk_ordinal: 2
+    heading: How do I find missing lengths on similar shapes?
+  f5ab8c1012ca20fa:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.3A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/symmetry.json
+    chunk_ordinal: 0
+    heading: Rotational symmetry
+  f621aed18d3e2a77:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 1
+    heading: What is a polygon?
+  f596b6e6e2e4ee33:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches coordinates/Cartesian plane; 3.3B is the y=f(x) graph-transformations SP; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/coordinates.json
+    chunk_ordinal: 2
+    heading: What are coordinates?
+  98fd5f05db0373dc:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 2
+    heading: How do I find the highest common factor (HCF) of two numbers?
+  004ab5a33c223957:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2K
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/enlargements.json
+    chunk_ordinal: 2
+    heading: How do I enlarge a shape?
+  2a9b63631232bcda:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-parallel-lines.json
+    chunk_ordinal: 1
+    heading: What are parallel lines?
+  a470fb52510e9409:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2K
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/enlargements.json
+    chunk_ordinal: 1
+    heading: What is an enlargement?
+  0604ebb5448cd4d6:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches LENGTH similarity (scale factors between lengths); 4.11A is the AREA square-ratio
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similar-lengths.json
+    chunk_ordinal: 4
+    heading: Method 2
+  d96e33196a4e0b15:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-by-completing-the-square.json
+    chunk_ordinal: 0
+    heading: Solving by completing the square
+  29b438c09e3e3a5b:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2D
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/reflections.json
+    chunk_ordinal: 4
+    heading: How do I describe a reflection?
+  86019feca764411a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-by-completing-the-square.json
+    chunk_ordinal: 3
+    heading: How does completing the square link to the quadratic formula?
+  69db88ae36942aea:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 4
+    heading: How do I differentiate sums and differences of terms?
+  426fcbd770e76952:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/area-and-volume-of-similar-shapes/similar-areas-and-volumes.json
+    chunk_ordinal: 0
+    heading: Similar areas & volumes
+  e4c05115c686df06:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note's sampled sections teach finding/using gradient — the 3.3F surface — and carry no parallel/perpendicular
+      equation content; 3.3G is 'equation of a line parallel/perpendicular to a given line'; T-SPEC resolution
+      error
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/gradient-of-a-line.json
+    chunk_ordinal: 3
+    heading: How do I draw a line with a given gradient?
+  f77738b39808ec49:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: sphere surface area is the 4.10A surface; 4.10D is the cylinder
+    spec_code: 4MA1-4.10D
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/surface-area.json
+    chunk_ordinal: 5
+    heading: How do I find the surface area of a sphere?
+  291b86cbc98c9e13:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2D
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/reflections.json
+    chunk_ordinal: 1
+    heading: What is a reflection?
+  fce3dfa5c1e87070:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/arithmetic-sequences.json
+    chunk_ordinal: 1
+    heading: What is an arithmetic sequence?
+  68d8f3fb9963eefd:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2F
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/congruence.json
+    chunk_ordinal: 0
+    heading: Congruence
+  4392e2afed105ebc:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 6
+    heading: How do I find the equation of a quadratic from its graph?
+  228a564f668606bb:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 1
+    heading: What are transformations in maths?
+  601f5d4cee11eeac:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: the section teaches the completing-the-square route to the turning point (the 2.7B surface);
+      3.3I is generating points and plotting
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 4
+    heading: How do I find the coordinates of the turning point by completing the square?
+  6d39d5947b1678be:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/bearings.json
+    chunk_ordinal: 0
+    heading: Bearings
+  dbdacc081a58f0bf:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 2
+    heading: What is differentiation and how does it work?
+  35cabedf6c09a801:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/arithmetic-sequences.json
+    chunk_ordinal: 0
+    heading: Arithmetic sequences
+  ab6581b8d1c47b5a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4G
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/speed-density-and-pressure.json
+    chunk_ordinal: 4
+    heading: What should I know about pressure, force and area?
+  c64d3718f95d0be8:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches collecting like terms; 2.2B is the quadratic-expression concept/factorisation
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/collecting-like-terms.json
+    chunk_ordinal: 0
+    heading: Collecting like terms
+  511f65c3d6a54e7f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 3
+    heading: How do I read the time from an analogue clock?
+  5a64d06fcb7ada37:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 4
+    heading: How do I find an equivalent ratio?
+  0df2b1a9089df24e:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 6
+    heading: How do I find the volume of a sphere?
+  09b9af5cb2800c60:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2F
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/congruence.json
+    chunk_ordinal: 1
+    heading: What is congruence?
+  c00a5e94e96f40ac:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches central tendency (mean/median/mode); 6.2B is 'the concept of a measure of spread';
+      T-SPEC resolution error
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/mean-median-and-mode.json
+    chunk_ordinal: 3
+    heading: What is the mean?
+  cf848175fe1f4974:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 3
+    heading: How do I find the volume of a prism?
+  140988614a63757b:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 0
+    heading: Differentiation
+  3f99c951888869f3:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches parallel-line EQUATIONS (y = mx + c family — the 3.3G surface); 4.1B is angle
+      properties of parallel lines (the angles-in-parallel-lines note is correctly joined and CONFIRMed);
+      T-SPEC resolution error
+    spec_code: 4MA1-4.1B
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/parallel-lines.json
+    chunk_ordinal: 1
+    heading: What are parallel lines?
+  26d4e1f84032ce7c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/bearings.json
+    chunk_ordinal: 2
+    heading: How do I find a bearing between two points?
+  a1493fa08417f1d6:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches the midpoint formula; 3.3E is linear/non-linear graph intersections; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3E
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/midpoint-of-a-line.json
+    chunk_ordinal: 0
+    heading: Midpoint of a line
+  6379bc433b03d95e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.10C
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/money-calculations.json
+    chunk_ordinal: 1
+    heading: What currencies can be used?
+  f581371fd0524930:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6F
+    note_path: notes/1-numbers-and-the-number-system/percentages/reverse-percentages.json
+    chunk_ordinal: 2
+    heading: How do I solve reverse percentage questions?
+  f54af1fb50e23acd:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note's sampled sections teach finding/using gradient — the 3.3F surface — and carry no parallel/perpendicular
+      equation content; 3.3G is 'equation of a line parallel/perpendicular to a given line'; T-SPEC resolution
+      error
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/gradient-of-a-line.json
+    chunk_ordinal: 1
+    heading: What is the gradient of a line?
+  0c80c2ea66059a2b:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches bar charts and pictograms; 6.1A is 'construct and interpret histograms' (frequency
+      density) — different diagrams; T-SPEC resolution error
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/bar-charts-and-pictograms.json
+    chunk_ordinal: 1
+    heading: What is a bar chart?
+  8c94679654b2bfc8:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.5A
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/inverse-proportion.json
+    chunk_ordinal: 2
+    heading: How do I use inverse proportion with powers and roots?
+  97b504dae51e5d6f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-formula.json
+    chunk_ordinal: 1
+    heading: What is the quadratic formula?
+  d042dbc9dad22fb9:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2D
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/reflections.json
+    chunk_ordinal: 2
+    heading: How do I reflect a shape?
+  d38bea1662b9cf04:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 5
+    heading: How do I find the volume of a cone?
+  f76255d3e0199bb0:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 0
+    heading: Time
+  ae2cb23d36666551:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 6
+    heading: How do I simplify a ratio?
+  7253172c4c321c10:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/applications-of-differentiation.json
+    chunk_ordinal: 0
+    heading: Finding stationary points & turning points
+  23d46a69b7dc2c9c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 3
+    heading: What is the sum of the interior angles in a polygon?
+  b50465d5a341e0d6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6F
+    note_path: notes/1-numbers-and-the-number-system/percentages/reverse-percentages.json
+    chunk_ordinal: 1
+    heading: What is a reverse percentage?
+  da97182c3a3f1217:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches coordinates/Cartesian plane; 3.3B is the y=f(x) graph-transformations SP; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/coordinates.json
+    chunk_ordinal: 0
+    heading: 2D coordinates
+  b78e88c4c2fdb717:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.1A
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/magnitude-of-a-vector.json
+    chunk_ordinal: 0
+    heading: Magnitude of a vector
+  75df9b0ba04c5e0f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2F
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/congruence.json
+    chunk_ordinal: 2
+    heading: How do we prove that two shapes are congruent?
+  0ed0d4f10e5c82ba:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4G
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/speed-density-and-pressure.json
+    chunk_ordinal: 3
+    heading: What should I know about density, mass and volume?
+  491a5ddf21b7b5ed:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note's sampled sections teach finding/using gradient — the 3.3F surface — and carry no parallel/perpendicular
+      equation content; 3.3G is 'equation of a line parallel/perpendicular to a given line'; T-SPEC resolution
+      error
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/gradient-of-a-line.json
+    chunk_ordinal: 2
+    heading: How do I find the gradient of a line?
+  58be8a0d8dcc183c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 2
+    heading: What does a quadratic graph look like?
+  6b2427b6440acf98:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-parallel-lines.json
+    chunk_ordinal: 2
+    heading: What are corresponding angles in parallel lines?
+  9f0909dc788a9f87:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-parallel-lines.json
+    chunk_ordinal: 3
+    heading: What are alternate angles in parallel lines?
+  793ffda0817bdcd6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 3
+    heading: What is a translation vector?
+  b735e4704ad732dd:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 6
+    heading: How do I find the acceleration from the displacement?
+  228c567db0bed7a0:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 2
+    heading: What do ratios look like?
+  ba04de1b73ddc408:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches comparing statistical diagrams generally; 6.1C is cumulative-frequency use;
+      T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-statistical-diagrams.json
+    chunk_ordinal: 0
+    heading: Comparing statistical diagrams
+  c284a36f45a242df:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-parallel-lines.json
+    chunk_ordinal: 0
+    heading: Angles in parallel lines
+  5d34f44c8cf16a46:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.10C
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/money-calculations.json
+    chunk_ordinal: 3
+    heading: How should I round values in a money calculation?
+  9827788a272b80fd:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.2B
+    note_path: notes/1-numbers-and-the-number-system/fractions/mixed-numbers-and-improper-fractions.json
+    chunk_ordinal: 3
+    heading: How do I convert an improper fraction into a mixed number?
+  11f6c4d81cdfc401:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/using conversion graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/conversion-graphs.json
+    chunk_ordinal: 0
+    heading: Conversion graphs
+  7d2ab7ee11d39de6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.5C
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/scale.json
+    chunk_ordinal: 5
+    heading: How can I use a scale to find lengths for an accurate drawing?
+  70f24d477ffb8273:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.5A
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/inverse-proportion.json
+    chunk_ordinal: 0
+    heading: Inverse proportion
+  f0f882911131b132:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note's sampled sections teach finding/using gradient — the 3.3F surface — and carry no parallel/perpendicular
+      equation content; 3.3G is 'equation of a line parallel/perpendicular to a given line'; T-SPEC resolution
+      error
+    spec_code: 4MA1-3.3G
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/gradient-of-a-line.json
+    chunk_ordinal: 0
+    heading: Gradient of a line
+  0712e32bdab4b9c2:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6F
+    note_path: notes/1-numbers-and-the-number-system/percentages/reverse-percentages.json
+    chunk_ordinal: 0
+    heading: Reverse percentages
+  d4b4fae39915e66b:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.5C
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/scale.json
+    chunk_ordinal: 4
+    heading: Scale drawings
+  6a480c3034b707a6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-by-completing-the-square.json
+    chunk_ordinal: 1
+    heading: How do I solve a quadratic equation by completing the square?
+  cc8911255a7a9c23:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/bearings.json
+    chunk_ordinal: 3
+    heading: How do I draw a point on a bearing?
+  4b6ec8520494f0c9:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.10C
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/money-calculations.json
+    chunk_ordinal: 0
+    heading: Money calculations
+  576884ea20f06214:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches collecting like terms; 2.2B is the quadratic-expression concept/factorisation
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/collecting-like-terms.json
+    chunk_ordinal: 1
+    heading: What happens if there is more than one term?
+  2a874f72a07b71b3:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2K
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/enlargements.json
+    chunk_ordinal: 0
+    heading: Enlargements
+  20ab1946e1a1f36d:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches collecting like terms; 2.2B is the quadratic-expression concept/factorisation
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/collecting-like-terms.json
+    chunk_ordinal: 3
+    heading: How do I collect like terms?
+  b233daa600e13d04:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 2
+    heading: How do I find the volume of a cube or a cuboid?
+  a2a44bfe98fd765c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/arithmetic-sequences.json
+    chunk_ordinal: 2
+    heading: What is the formula for the nth term of an arithmetic sequence?
+  a2b78d9d840a5d62:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: heading-only section head with no cylinder content
+    spec_code: 4MA1-4.10D
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/surface-area.json
+    chunk_ordinal: 0
+    heading: Surface area
+  c1af3fbfa5fc335f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/quadratic.json
+    chunk_ordinal: 2
+    heading: How do I use a graph to solve quadratic simultaneous equations?
+  29817fced9e7c2aa:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/completing-the-square/completing-the-square.json
+    chunk_ordinal: 1
+    heading: How can I rewrite the first two terms of a quadratic expression as the difference of two
+      squares?
+  afb040611fe0c489:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/using conversion graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/conversion-graphs.json
+    chunk_ordinal: 2
+    heading: How do I use a conversion graph?
+  ea1c2729e2e3b664:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 1
+    heading: What is volume?
+  6fc5c8668be891d3:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 4
+    heading: How do I find the volume of a cylinder?
+  f172c27d53507f17:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.7D
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/direct-proportion.json
+    chunk_ordinal: 2
+    heading: How do I use direct proportion with powers and roots?
+  ecf531d6db12a1da:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.10C
+    note_path: notes/1-numbers-and-the-number-system/number-toolkit/money-calculations.json
+    chunk_ordinal: 2
+    heading: What might I be asked to do in money calculations?
+  f42263ccb95290d8:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 5
+    heading: Lowest common multiple (LCM)
+  32fcc1f67707ee62:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches central tendency (mean/median/mode); 6.2B is 'the concept of a measure of spread';
+      T-SPEC resolution error
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/mean-median-and-mode.json
+    chunk_ordinal: 1
+    heading: What is the mode?
+  09dd700ffe16ef8f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-formula.json
+    chunk_ordinal: 4
+    heading: What is the discriminant?
+  bdebc8bfd79c9c47:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 0
+    heading: Angles in polygons
+  1ceb926395104229:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 3
+    heading: How do I sketch a quadratic graph?
+  bedf6bb7395f718e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.json
+    chunk_ordinal: 1
+    heading: What does a Venn diagram with three sets look like?
+  c5fd87388d4fdfb7:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 6
+    heading: What is the lowest common multiple (LCM) of two numbers?
+  d718434c3e5f9771:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches comparing statistical diagrams generally; 6.1C is cumulative-frequency use;
+      T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/comparing-statistical-diagrams.json
+    chunk_ordinal: 1
+    heading: How do I compare statistical diagrams?
+  abee135f3fdeb838:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches collecting like terms; 2.2B is the quadratic-expression concept/factorisation
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-2.2B
+    note_path: notes/2-equations-formulae-and-identities/algebra-toolkit/collecting-like-terms.json
+    chunk_ordinal: 2
+    heading: What is a like term?
+  d7f1b4f920da6c43:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches parallel-line EQUATIONS (y = mx + c family — the 3.3G surface); 4.1B is angle
+      properties of parallel lines (the angles-in-parallel-lines note is correctly joined and CONFIRMed);
+      T-SPEC resolution error
+    spec_code: 4MA1-4.1B
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/parallel-lines.json
+    chunk_ordinal: 0
+    heading: Parallel lines
+  b629f19e410ee18c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5B
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.json
+    chunk_ordinal: 0
+    heading: Set notation
+  b93f8d1aa20201c2:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/completing-the-square/completing-the-square.json
+    chunk_ordinal: 3
+    heading: How do I complete the square when there is a coefficient in front of the x<sup>2</sup> term?
+  3e56c60ee1c5f4f3:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 3
+    heading: What is a displacement function?
+  ad3d8ac4ea959775:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: prism surface area is not the cylinder SP 4.10D
+    spec_code: 4MA1-4.10D
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/surface-area.json
+    chunk_ordinal: 2
+    heading: How do I find the surface area of cubes, cuboids, and prisms?
+  15d1618d28b40525:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/area-and-volume-of-similar-shapes/similar-areas-and-volumes.json
+    chunk_ordinal: 3
+    heading: How do I find missing lengths, areas and volumes for similar shapes?
+  5d0d1724c0cdb62a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.1A
+    note_path: notes/5-vectors-and-transformation-geometry/vectors/magnitude-of-a-vector.json
+    chunk_ordinal: 1
+    heading: How do I find the magnitude of a vector?
+  17c02cfb3a7286ef:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/depreciation.json
+    chunk_ordinal: 1
+    heading: What does depreciation mean?
+  2dcf9bc4d46464ed:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5B
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.json
+    chunk_ordinal: 1
+    heading: What is a set?
+  3a7c5c8e36e6ed55:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches coordinates/Cartesian plane; 3.3B is the y=f(x) graph-transformations SP; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3B
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/coordinates.json
+    chunk_ordinal: 1
+    heading: What is the Cartesian plane?
+  ba1e94af04f3beec:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/quadratic.json
+    chunk_ordinal: 1
+    heading: What are quadratic simultaneous equations?
+  f644ee8bc21532dd:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.json
+    chunk_ordinal: 2
+    heading: How do I find the number of elements in a subset?
+  f63f98428e0adbf7:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 1
+    heading: How do I convert between different units of time?
+  3f3bb625b69f57bc:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/applications-of-differentiation.json
+    chunk_ordinal: 2
+    heading: How do I find the coordinates of a turning point?
+  de8f9de094683246:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches central tendency (mean/median/mode); 6.2B is 'the concept of a measure of spread';
+      T-SPEC resolution error
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/mean-median-and-mode.json
+    chunk_ordinal: 0
+    heading: Mean, median & mode
+  d976bb810a63a033:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.json
+    chunk_ordinal: 3
+    heading: Sets & Venn diagrams
+  ab7ade81fa1299fa:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 6
+    heading: How is the gradient function related to drawing tangents?
+  e89e78a994c7a066:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/interpreting statistical diagrams generally; 6.1C is cumulative-frequency
+      use; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/working-with-statistical-diagrams.json
+    chunk_ordinal: 0
+    heading: Reading & interpreting statistical diagrams
+  5782abae380c5e50:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 7
+    heading: How do I find the lowest common multiple (LCM) of two numbers?
+  a4b935271a64a678:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 4
+    heading: How can I use the powers of prime factors to find the highest common factor (HCF) of two
+      numbers?
+  7982e337a2de612d:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/completing-the-square/completing-the-square.json
+    chunk_ordinal: 4
+    heading: How do I find the turning point by completing the square?
+  b00d0e7bf7e40b57:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2A
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/rotations.json
+    chunk_ordinal: 0
+    heading: Rotations
+  50e9bb79e42d366e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.json
+    chunk_ordinal: 3
+    heading: How do I fill in a Venn diagram with three sets?
+  e513de6ba8b4dde0:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-formula.json
+    chunk_ordinal: 5
+    heading: Can I use my calculator to solve quadratic equations?
+  05f1403d304fa980:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4G
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/speed-density-and-pressure.json
+    chunk_ordinal: 1
+    heading: What are speed, density and pressure?
+  42a946ba0e2e9b92:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches LENGTH similarity (scale factors between lengths); 4.11A is the AREA square-ratio
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similar-lengths.json
+    chunk_ordinal: 0
+    heading: Similar lengths
+  9244cd92a194872a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.7D
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/direct-proportion.json
+    chunk_ordinal: 3
+    heading: How do I find the equation between two directly proportional variables?
+  c4318d3963997485:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 2
+    heading: What is the difference between a 12-hour clock and a 24-hour clock?
+  d7f38281fee6e410:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.json
+    chunk_ordinal: 5
+    heading: What do the different regions mean on a Venn diagram?
+  571821dfc02ea021:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 3
+    heading: What is an equivalent ratio?
+  c0fb58a5eaa4a096:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 4
+    heading: How do I read the time from a digital clock?
+  819442892a825ab9:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/bearings.json
+    chunk_ordinal: 5
+    heading: How do I answer trickier questions involving bearings?
+  9685e1046a6ea869:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.2B
+    note_path: notes/1-numbers-and-the-number-system/fractions/mixed-numbers-and-improper-fractions.json
+    chunk_ordinal: 0
+    heading: Mixed numbers & improper fractions
+  56c3753969aa5a62:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/linear.json
+    chunk_ordinal: 0
+    heading: Linear simultaneous equations
+  7e21c689aae1cc94:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 4
+    heading: What is the sum of the exterior angles in a polygon?
+  7ba7ef44efd25708:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 0
+    heading: Highest common factor (HCF)
+  4bec91634498fb9e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.3I
+    note_path: notes/3-sequences-functions-and-graphs/graphs-of-functions/quadratic-graphs.json
+    chunk_ordinal: 1
+    heading: What is a quadratic graph?
+  5c9ab4a3742096be:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.9B
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/perimeter.json
+    chunk_ordinal: 0
+    heading: Perimeter
+  1b8def8c66013d10:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/interpreting statistical diagrams generally; 6.1C is cumulative-frequency
+      use; T-SPEC resolution error
+    spec_code: 4MA1-6.1C
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/working-with-statistical-diagrams.json
+    chunk_ordinal: 1
+    heading: How do I interpret statistical diagrams?
+  4b32a5f0e939f194:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/completing-the-square/completing-the-square.json
+    chunk_ordinal: 2
+    heading: How do I complete the square?
+  1ed85c0d82fdb609:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/applications-of-differentiation.json
+    chunk_ordinal: 1
+    heading: What is a stationary point?
+  da7640b3586f4a76:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches calculating volumes (prism/cylinder/cone/sphere); 4.10F is 'convert between
+      units of volume within the metric system'; T-SPEC resolution error
+    spec_code: 4MA1-4.10F
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/volume.json
+    chunk_ordinal: 0
+    heading: Volume
+  9e32d9e2019786ac:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 0
+    heading: Kinematics
+  7d32fd478ec7d28d:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches bar charts and pictograms; 6.1A is 'construct and interpret histograms' (frequency
+      density) — different diagrams; T-SPEC resolution error
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/bar-charts-and-pictograms.json
+    chunk_ordinal: 0
+    heading: Bar charts & pictograms
+  604b94147c235c83:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches bar charts and pictograms; 6.1A is 'construct and interpret histograms' (frequency
+      density) — different diagrams; T-SPEC resolution error
+    spec_code: 4MA1-6.1A
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/bar-charts-and-pictograms.json
+    chunk_ordinal: 2
+    heading: What is a pictogram?
+  104a99a46fb2e729:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.5C
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/scale.json
+    chunk_ordinal: 0
+    heading: Scale
+  4ee0427e92bcf910:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/depreciation.json
+    chunk_ordinal: 2
+    heading: How do I calculate depreciation?
+  dd2aaba961c588a6:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2D
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/reflections.json
+    chunk_ordinal: 5
+    heading: How do I reverse a reflection?
+  390405765ff24e79:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5B
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.json
+    chunk_ordinal: 2
+    heading: What do I need to know about set notation?
+  557e49dea8139777:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: cone surface area is the 4.10A surface; 4.10D is the cylinder
+    spec_code: 4MA1-4.10D
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/surface-area.json
+    chunk_ordinal: 4
+    heading: How do I find the surface area of a cone?
+  a59625358146452a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 5
+    heading: How do I calculate with time using the 12-hour clock?
+  ef076131bf5a9bfc:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/quadratic.json
+    chunk_ordinal: 5
+    heading: What if I can't substitute one equation into the other straight away?
+  465725dc6789d518:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.5C
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/scale.json
+    chunk_ordinal: 1
+    heading: What is a scale?
+  151ea05a096f6ba0:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2D
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/reflections.json
+    chunk_ordinal: 3
+    heading: How do I reflect a shape when the line of reflection goes through the shape?
+  b2b81aec751560f6:
+    verdict: REJECT
+    root: section-level
+    stratum: partial
+    note: generic surface-area intro, not the cylinder SP's content
+    spec_code: 4MA1-4.10D
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/surface-area.json
+    chunk_ordinal: 1
+    heading: What is surface area?
+  cff091494dd0d4f4:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.2B
+    note_path: notes/1-numbers-and-the-number-system/fractions/mixed-numbers-and-improper-fractions.json
+    chunk_ordinal: 2
+    heading: How do I convert a mixed number into an improper fraction?
+  18c8fdf98cdb214a:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches reading/using conversion graphs; 3.3F is gradient from two coordinates; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3F
+    note_path: notes/3-sequences-functions-and-graphs/real-life-graphs/conversion-graphs.json
+    chunk_ordinal: 1
+    heading: What is a conversion graph?
+  87063d49d8a50159:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.3A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/symmetry.json
+    chunk_ordinal: 1
+    heading: What is the order of rotational symmetry?
+  b0b5c2dbbd41a7dc:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches LENGTH similarity (scale factors between lengths); 4.11A is the AREA square-ratio
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similar-lengths.json
+    chunk_ordinal: 3
+    heading: Method 1
+  c4f896db681a62c7:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.7D
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/direct-proportion.json
+    chunk_ordinal: 0
+    heading: Direct proportion
+  ef2dcd5bd4a63f09:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches central tendency (mean/median/mode); 6.2B is 'the concept of a measure of spread';
+      T-SPEC resolution error
+    spec_code: 4MA1-6.2B
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/mean-median-and-mode.json
+    chunk_ordinal: 4
+    heading: How do I know when to use the mode, median or mean?
+  54afebcd657117f9:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-parallel-lines.json
+    chunk_ordinal: 4
+    heading: What are allied angles in parallel lines?
+  f4a726c959edc06e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2A
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/rotations.json
+    chunk_ordinal: 2
+    heading: How do I rotate a shape?
+  b207aa29518f13c2:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches parallel-line EQUATIONS (y = mx + c family — the 3.3G surface); 4.1B is angle
+      properties of parallel lines (the angles-in-parallel-lines note is correctly joined and CONFIRMed);
+      T-SPEC resolution error
+    spec_code: 4MA1-4.1B
+    note_path: notes/3-sequences-functions-and-graphs/linear-graphs-y-equals-mx-plus-c/parallel-lines.json
+    chunk_ordinal: 2
+    heading: How do I find the equation of a parallel line?
+  f94f7d58845765fd:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches LENGTH similarity (scale factors between lengths); 4.11A is the AREA square-ratio
+      SP; T-SPEC resolution error
+    spec_code: 4MA1-4.11A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/similar-lengths.json
+    chunk_ordinal: 1
+    heading: How do I find the scale factor between lengths on similar shapes?
+  2154d4635107716e:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 1
+    heading: What is a ratio?
+  0cba2f331ae50b99:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches the midpoint formula; 3.3E is linear/non-linear graph intersections; T-SPEC
+      resolution error
+    spec_code: 4MA1-3.3E
+    note_path: notes/3-sequences-functions-and-graphs/coordinate-geometry/midpoint-of-a-line.json
+    chunk_ordinal: 1
+    heading: How do I find the midpoint of a line?
+  cbafd988b4332969:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 9
+    heading: How can I use the powers of prime factors to find the lowest common multiple (LCM) of two
+      numbers?
+  a9b4d72238ed5547:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.json
+    chunk_ordinal: 0
+    heading: Venn diagrams with three sets
+  27f86eab7d4e1b0c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.8E
+    note_path: notes/4-geometry-and-trigonometry/sine-cosine-rule-and-area-of-triangles/area-of-a-triangle.json
+    chunk_ordinal: 1
+    heading: How do I find the area of a non-right-angled triangle?
+  c4f797fd568df926:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2A
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/rotations.json
+    chunk_ordinal: 4
+    heading: How do I reverse a rotation?
+  b8184708f86923a7:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 7
+    heading: How do I find the number of sides in a regular polygon?
+  86cb028506a726ba:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-formula.json
+    chunk_ordinal: 3
+    heading: How do I write the solutions in an exact (surd) form?
+  0190d9a32c852333:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 5
+    heading: How do I find the gradient of a curve using the gradient function?
+  6b39d9cf5de401d3:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 4
+    heading: What is the velocity and how do I find it?
+  0d456a1756c3830d:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.1C
+    note_path: notes/3-sequences-functions-and-graphs/sequences/arithmetic-sequences.json
+    chunk_ordinal: 3
+    heading: How do I use the formula for the nth term of an arithmetic sequence?
+  37cea9e250cae4fd:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.5A
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/inverse-proportion.json
+    chunk_ordinal: 3
+    heading: How do I find the equation between two inversely proportional variables?
+  e24f6b7d887231fa:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.6G
+    note_path: notes/1-numbers-and-the-number-system/compound-interest-and-depreciation/depreciation.json
+    chunk_ordinal: 3
+    heading: Depreciation formula
+  b51279ae7abb3a66:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 0
+    heading: Translations
+  bd40a244e592afaa:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4G
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/speed-density-and-pressure.json
+    chunk_ordinal: 0
+    heading: Speed, density & pressure
+  e2f73245847566df:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 6
+    heading: How do I reverse a translation?
+  8a0e3da3a331793b:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.3A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/lines-of-symmetry.json
+    chunk_ordinal: 1
+    heading: What is line symmetry?
+  3ec3f72be752e572:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.7D
+    note_path: notes/1-numbers-and-the-number-system/direct-and-inverse-proportion/direct-proportion.json
+    chunk_ordinal: 1
+    heading: What is direct proportion?
+  bf75b564f7d6ad89:
+    verdict: REJECT
+    root: note-level
+    stratum: partial
+    note: the note teaches ratio basics (simplify/equivalent ratios); 1.7B is 'divide a quantity in a
+      given ratio'; T-SPEC resolution error
+    spec_code: 4MA1-1.7B
+    note_path: notes/1-numbers-and-the-number-system/ratio-toolkit/simple-ratio.json
+    chunk_ordinal: 0
+    heading: Ratios
+  8b9b520808f627ef:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/quadratic-formula.json
+    chunk_ordinal: 2
+    heading: How do I use the quadratic formula to solve a quadratic equation?
+  cc6286073205851f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4C
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/differentiation.json
+    chunk_ordinal: 1
+    heading: What is a gradient function?
+  fd7b7e673a3056f1:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/quadratic.json
+    chunk_ordinal: 4
+    heading: What if the quadratic has repeated roots or no roots?
+  302eba244e4b0a21:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 3
+    heading: How can I use a Venn diagram to find the highest common factor (HCF) of two numbers?
+  ae405c50b3fc283a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/linear.json
+    chunk_ordinal: 3
+    heading: How do I solve linear simultaneous equations by substitution?
+  a7d35d1feac74405:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 2
+    heading: What are the interior angles and the exterior angles of a polygon?
+  1d0bd25a68f4cd99:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.1B
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-parallel-lines.json
+    chunk_ordinal: 5
+    heading: How do I find missing angles in parallel lines?
+  ce1c8eb1e47dd649:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.4E
+    note_path: notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.json
+    chunk_ordinal: 1
+    heading: What is the highest common factor (HCF) of two numbers?
+  e79cd4f4e7f0ee46:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 7
+    heading: How do I convert time between time zones?
+  198d2507f903606e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4G
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/speed-density-and-pressure.json
+    chunk_ordinal: 2
+    heading: What should I know about speed, distance and time?
+  a148ba12f3569214:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2A
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/rotations.json
+    chunk_ordinal: 1
+    heading: What is a rotation?
+  5575fdde37f959f0:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2K
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/enlargements.json
+    chunk_ordinal: 4
+    heading: How do I reverse an enlargement?
+  fc38ff2fe769377a:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4B
+    note_path: notes/4-geometry-and-trigonometry/standard-and-compound-units/time.json
+    chunk_ordinal: 6
+    heading: How do I use bus and train timetables?
+  f04e9d2a46a746f8:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.3A
+    note_path: notes/4-geometry-and-trigonometry/congruence-similarity-and-geometrical-proof/lines-of-symmetry.json
+    chunk_ordinal: 0
+    heading: Lines of symmetry
+  23e6731c7b55a3b1:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/linear.json
+    chunk_ordinal: 4
+    heading: How do I solve linear simultaneous equations graphically?
+  104f9f9b6a38d500:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/area-and-volume-of-similar-shapes/similar-areas-and-volumes.json
+    chunk_ordinal: 2
+    heading: What is the connection between the scale factors for lengths, areas and volumes of similar
+      shapes?
+  5f8be276b1e82f68:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2K
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/enlargements.json
+    chunk_ordinal: 3
+    heading: How do I describe an enlargement?
+  9a5efdde59c62a71:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-3.4E
+    note_path: notes/3-sequences-functions-and-graphs/differentiation/kinematics.json
+    chunk_ordinal: 2
+    heading: What is displacement?
+  eddb63e0b5ceb3ee:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.9B
+    note_path: notes/4-geometry-and-trigonometry/area-and-perimeter/perimeter.json
+    chunk_ordinal: 1
+    heading: What is perimeter?
+  1487838981d3b0de:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7B
+    note_path: notes/2-equations-formulae-and-identities/solving-quadratic-equations/solving-by-completing-the-square.json
+    chunk_ordinal: 2
+    heading: How do I solve by completing the square when there is a coefficient in front of the x<sup>2</sup>
+      term?
+  e4b71cc850a3371f:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2D
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/reflections.json
+    chunk_ordinal: 0
+    heading: Reflections
+  5a3c22e0d5f273c2:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.10D
+    note_path: notes/4-geometry-and-trigonometry/volume-and-surface-area/surface-area.json
+    chunk_ordinal: 3
+    heading: How do I find the surface area of a cylinder?
+  11b90e7796702b77:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.5E
+    note_path: notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.json
+    chunk_ordinal: 4
+    heading: What is a Venn diagram?
+  db48267c752fcc0b:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-1.2B
+    note_path: notes/1-numbers-and-the-number-system/fractions/mixed-numbers-and-improper-fractions.json
+    chunk_ordinal: 1
+    heading: What are mixed numbers & improper fractions?
+  e9a7e10400b9656c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-5.2H
+    note_path: notes/5-vectors-and-transformation-geometry/transformations/translations.json
+    chunk_ordinal: 5
+    heading: How do I describe a translation?
+  6dea451ec9e28699:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.2D
+    note_path: notes/4-geometry-and-trigonometry/angles-in-polygons-and-parallel-lines/angles-in-polygons.json
+    chunk_ordinal: 5
+    heading: How do I find the size of an interior or exterior angle in a regular polygon?
+  013b97d4070d1edf:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/bearings.json
+    chunk_ordinal: 1
+    heading: What are bearings?
+  f0020fbee6b6814c:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-2.7D
+    note_path: notes/2-equations-formulae-and-identities/simultaneous-equations/linear.json
+    chunk_ordinal: 5
+    heading: How do I form simultaneous equations?
+  02b77b3022988111:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.4D
+    note_path: notes/4-geometry-and-trigonometry/bearings-scale-drawing-and-constructions/bearings.json
+    chunk_ordinal: 4
+    heading: How do I find the bearing of B from A if I know the bearing of A from B?
+  3405e765c9af419e:
+    verdict: CONFIRM
+    root: null
+    stratum: partial
+    note: null
+    spec_code: 4MA1-4.11C
+    note_path: notes/4-geometry-and-trigonometry/area-and-volume-of-similar-shapes/similar-areas-and-volumes.json
+    chunk_ordinal: 1
+    heading: How do I find the length, area or volume scale factors of similar shapes?
+part_b_verdicts:
+  237e36c3ea1eb6b1:
+    verdict: DEFER
+    spec_code: null
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/discrete-and-continuous-data.json
+    why: the span anchor is the T-C32 join's single unresolved anchor (operator adjudication pending,
+      PROPOSAL-ONLY per C32 §3/G4); no chunk-level row can exist until the anchor is adjudicated — deferring
+      is the honest disposition, never an invented code
+  c8e65ec96d6ff827:
+    verdict: DEFER
+    spec_code: null
+    note_path: notes/6-statistics-and-probability/statistics-toolkit/discrete-and-continuous-data.json
+    why: the span anchor is the T-C32 join's single unresolved anchor (operator adjudication pending,
+      PROPOSAL-ONLY per C32 §3/G4); no chunk-level row can exist until the anchor is adjudicated — deferring
+      is the honest disposition, never an invented code
+  e7d25a1dc0e4c02a:
+    verdict: DEFER
+    spec_code: 4MA1-1.11A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  da25da48e0be5c64:
+    verdict: DEFER
+    spec_code: 4MA1-1.1A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  f5feba08ca6bc251:
+    verdict: DEFER
+    spec_code: 4MA1-1.1B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  09c1493c0fae44d2:
+    verdict: DEFER
+    spec_code: 4MA1-1.1C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  1720371fa3fd3b3d:
+    verdict: DEFER
+    spec_code: 4MA1-1.1D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  f60fc0706267e6b1:
+    verdict: DEFER
+    spec_code: 4MA1-1.1E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  cbd6fe342fb7ebc9:
+    verdict: DEFER
+    spec_code: 4MA1-1.1H
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  9f5963dbc2901905:
+    verdict: DEFER
+    spec_code: 4MA1-1.2C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  019ab19dc5089f5b:
+    verdict: DEFER
+    spec_code: 4MA1-1.2D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  41a995a01ddf041c:
+    verdict: DEFER
+    spec_code: 4MA1-1.2E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  36897739e6cca531:
+    verdict: DEFER
+    spec_code: 4MA1-1.2H
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  29da438d069e9276:
+    verdict: DEFER
+    spec_code: 4MA1-1.3B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b22a3fb284c8bf54:
+    verdict: DEFER
+    spec_code: 4MA1-1.3D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  9e3059744f845abd:
+    verdict: DEFER
+    spec_code: 4MA1-1.3E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b2f8b400e9260912:
+    verdict: DEFER
+    spec_code: 4MA1-1.5A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  f5d985c1b877c880:
+    verdict: DEFER
+    spec_code: 4MA1-1.5D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  9bcaf0025eb0f42e:
+    verdict: DEFER
+    spec_code: 4MA1-1.6A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  963db785b53465c6:
+    verdict: DEFER
+    spec_code: 4MA1-1.6B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  c86d80c52a08e61a:
+    verdict: DEFER
+    spec_code: 4MA1-1.6C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  53a9ad8c7f18a3a1:
+    verdict: DEFER
+    spec_code: 4MA1-1.6D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  70779d9c69b15cd1:
+    verdict: DEFER
+    spec_code: 4MA1-1.7A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  8027c03015dbcb97:
+    verdict: DEFER
+    spec_code: 4MA1-1.8A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  dd98555cb26242fa:
+    verdict: DEFER
+    spec_code: 4MA1-2.1B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  548abdf143f588b6:
+    verdict: DEFER
+    spec_code: 4MA1-2.1C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  6470b3edb7b476fd:
+    verdict: DEFER
+    spec_code: 4MA1-2.1D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  8095e869113d03a9:
+    verdict: DEFER
+    spec_code: 4MA1-2.3A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  06f5248d3d10c6a9:
+    verdict: DEFER
+    spec_code: 4MA1-2.3B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  af523bf5bba4e18f:
+    verdict: DEFER
+    spec_code: 4MA1-2.3C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  556a39d9fe344a32:
+    verdict: DEFER
+    spec_code: 4MA1-2.3D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  c95aaddd62ff9d4e:
+    verdict: DEFER
+    spec_code: 4MA1-2.3E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  54c234e03be79d93:
+    verdict: DEFER
+    spec_code: 4MA1-2.4A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  a91c7a66992d9130:
+    verdict: DEFER
+    spec_code: 4MA1-2.6A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  f081d3d51385cb8f:
+    verdict: DEFER
+    spec_code: 4MA1-2.7C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  fa29a6a0d644f89a:
+    verdict: DEFER
+    spec_code: 4MA1-2.8B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  dac25d5f06ea4960:
+    verdict: DEFER
+    spec_code: 4MA1-2.8C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  a079a6024fe2b3ff:
+    verdict: DEFER
+    spec_code: 4MA1-3.1B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  cccb6a66d9a0630d:
+    verdict: DEFER
+    spec_code: 4MA1-3.2B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  c6235cd55e0e8fe9:
+    verdict: DEFER
+    spec_code: 4MA1-3.2D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b6e31265812ff024:
+    verdict: DEFER
+    spec_code: 4MA1-3.3A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b86a33f6f0d8f0f8:
+    verdict: DEFER
+    spec_code: 4MA1-3.3C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  4b517014de148ed4:
+    verdict: DEFER
+    spec_code: 4MA1-3.3D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  c920054360138514:
+    verdict: DEFER
+    spec_code: 4MA1-3.4A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  a5f12408ec20a2d0:
+    verdict: DEFER
+    spec_code: 4MA1-3.4B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  314755f9befa6317:
+    verdict: DEFER
+    spec_code: 4MA1-3.4D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  11ea41ebbd3495eb:
+    verdict: DEFER
+    spec_code: 4MA1-4.10B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b94ee29183fec1e3:
+    verdict: DEFER
+    spec_code: 4MA1-4.10C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  0a73a5eaa4826c43:
+    verdict: DEFER
+    spec_code: 4MA1-4.10E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  a5a72ef96eaf19ee:
+    verdict: DEFER
+    spec_code: 4MA1-4.1A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  253605d5df8e5343:
+    verdict: DEFER
+    spec_code: 4MA1-4.1C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  c9acdc1de0ba83fb:
+    verdict: DEFER
+    spec_code: 4MA1-4.1D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  a61e0bbda4b79122:
+    verdict: DEFER
+    spec_code: 4MA1-4.2A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  d6490783a17672cf:
+    verdict: DEFER
+    spec_code: 4MA1-4.2E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  759c65ad86b2b14a:
+    verdict: DEFER
+    spec_code: 4MA1-4.2G
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b1fed5e5f2748a0b:
+    verdict: DEFER
+    spec_code: 4MA1-4.4A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  eeaf2c3d227b0ad8:
+    verdict: DEFER
+    spec_code: 4MA1-4.4E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  584e64b9c5bd91b4:
+    verdict: DEFER
+    spec_code: 4MA1-4.4F
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  ac8f58373821bd99:
+    verdict: DEFER
+    spec_code: 4MA1-4.5A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  8207dce166ae51b6:
+    verdict: DEFER
+    spec_code: 4MA1-4.7A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  6bfbed5be39416ac:
+    verdict: DEFER
+    spec_code: 4MA1-4.8F
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  f73bcce6560d911b:
+    verdict: DEFER
+    spec_code: 4MA1-4.9D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  2332964a4f1b02ca:
+    verdict: DEFER
+    spec_code: 4MA1-5.1C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  0effe366960db717:
+    verdict: DEFER
+    spec_code: 4MA1-5.1E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  18aad99ec00ca5e9:
+    verdict: DEFER
+    spec_code: 4MA1-5.2B
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  9171486d585f852b:
+    verdict: DEFER
+    spec_code: 4MA1-5.2C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  fadaf0bb2520f4a3:
+    verdict: DEFER
+    spec_code: 4MA1-5.2E
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  d9cc57dc269bc9a0:
+    verdict: DEFER
+    spec_code: 4MA1-5.2F
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  9b9c154c6140dfbd:
+    verdict: DEFER
+    spec_code: 4MA1-5.2G
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  13050b1a7bbb2444:
+    verdict: DEFER
+    spec_code: 4MA1-5.2I
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  b2be8d4a9fdeea86:
+    verdict: DEFER
+    spec_code: 4MA1-5.2J
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  cf7d89fe92a89285:
+    verdict: DEFER
+    spec_code: 4MA1-5.2L
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  3ba796aa0408e39b:
+    verdict: DEFER
+    spec_code: 4MA1-5.2M
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  3db418b556cf8b0e:
+    verdict: DEFER
+    spec_code: 4MA1-6.2A
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  feb8693fa2adc2bc:
+    verdict: DEFER
+    spec_code: 4MA1-6.2D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  6ca834bc95cfc393:
+    verdict: DEFER
+    spec_code: 4MA1-6.3C
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  4683347ebf220547:
+    verdict: DEFER
+    spec_code: 4MA1-6.3D
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  4a206b0e7a871be3:
+    verdict: DEFER
+    spec_code: 4MA1-6.3H
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)
+  7ddb1060acf98fd2:
+    verdict: DEFER
+    spec_code: 4MA1-6.3I
+    note_path: null
+    why: registered corpus gap — no notes-corpus anchor resolves to this SP in the T-C32 join (the 111-code
+      notes coverage bound); closing it needs new SME content acquisition or an operator-authored anchor,
+      not re-anchoring — deferring to the content-acquisition worklist (the chemistry 4.15 precedent)

@@ -1,0 +1,66 @@
+{
+  "schema": "c42-r31-rebuild-check/1.0",
+  "task": "T-C42",
+  "stage": "r31-substrate-rebuild-check",
+  "round": "R31",
+  "round_start": "f16daa2658a1791b04f345e61734cc901d17c8e9",
+  "audited_head": "1da138c42b86e9f968e6eb397103a1e0356781b3",
+  "baseline_store_sha256_16": "1b667c0107dfc85c",
+  "store_sha256_16": "4aeb73e1575f9586",
+  "record_sha256_16": "a56b86b6c74c0698",
+  "checks": [
+    {
+      "check": "B1_census_meta",
+      "pass": true,
+      "detail": "917 rows = 835 anchored (831 HUMAN_VALIDATED + 4 SUGGESTED) + 27 unresolved-span + 55 uncovered-SP; covered 133/188 (gained 4MA1-2.7C, the R30 projections landing); meta KEY SETS identical with the delta by VALUE == exactly the 8 census keys + the 4 reapplied fields re-dated (promoted_rows stays 831 — the set re-composed 828 + 3); the 7 other R5 promotion fields byte-equal; tool 2.7.0"
+    },
+    {
+      "check": "B2_reattributions_demote",
+      "pass": true,
+      "detail": "9/9 map rows landed verbatim: 4MA1-4.8D->4MA1-4.8F, 4MA1-3.3F->4MA1-3.3I, 4MA1-3.3F->4MA1-3.3I, 4MA1-4.11C->4MA1-2.7C, 4MA1-4.11C->4MA1-2.7C, 4MA1-4.11C->4MA1-2.7C + the 3 DEMOTEs (2.2F -> unresolved-span); old ids == the R30 map's rows; provenance.override == the map blocks (map sha 410a03d2920a24c6); the 5 promoted REATTRIBUTE rows HUMAN_VALIDATED at the amended codes with byte-stable blocks; the re-homed hold SUGGESTED unpromoted; the DEMOTE rows SUGGESTED, no promotion blocks"
+    },
+    {
+      "check": "B3_promotions_two_way",
+      "pass": true,
+      "detail": "store <-> files+amendments 831 == 831 exact identities (825 direct + 3 R26-chain re-keyed + 5 R30 superseded re-keyed at the AMENDED codes + 3 ADDED sign-off promotions); the 3 excluded DEMOTE rows NOT promoted (unresolved-span worklist); validated_by operator everywhere; sampled 457 == the R21 CONFIRM set; every applied block == the R5 tool's block shape; the SUGGESTED anchored residue == 3 R22 REJECTs + 1 re-homed hold; promotions file sha 9bad739bd79e5899 == the R5 record's pin == the R30 amendment's base pin"
+    },
+    {
+      "check": "B4_structural_reproof",
+      "pass": true,
+      "detail": "vs baseline blob f16daa2658a1: chunk-identity set identical (862); the re-applied non-moved promoted rows differ ONLY in provenance.tool (@2.6.0 -> @2.7.0) with byte-equal promotion blocks; the 6 re-attributed + 3 DEMOTED rows carry exactly the enumerated fields (the 6 status changes enumerated: 3 DEMOTEs HV->SUGGESTED + 3 sign-offs SUGGESTED->HV); the 2.7C DEFER row the only vanishing row (918 -> 917)"
+    },
+    {
+      "check": "B5_protected_surfaces",
+      "pass": true,
+      "detail": "78 protected paths byte-identical baseline blob -> HEAD blob (the resolution substrate incl. the R14-era pin, the R27 join artifact, the promotions file, the R26+R30 amendments, the 8 maps, the R5/R21/R22/R23/R24/R25/R26/R27/R29/R30 records + tools, the Lane C stores, the chemistry substrate, the corpus manifest, the ratified registry)"
+    },
+    {
+      "check": "B6_determinism",
+      "pass": true,
+      "detail": "G7 two constructions byte-identical; store sha 4aeb73e1575f9586 == the record's post pin; the record's pre pin == the baseline blob sha"
+    },
+    {
+      "check": "B7_standing_pins",
+      "pass": true,
+      "detail": "the FOUR R26 STANDING joins verified against the R26 map's own list-shaped adjudications + the carried pins (the 4.11C anchor, the 1.7B anchor, the 3.3F anchor) — the join layer untouched"
+    },
+    {
+      "check": "B8_commit_state",
+      "pass": true,
+      "detail": "committed-clean: HEAD 1da138c42b86; tree clean; the committed delta vs HEAD~1 inside the R31 footprint"
+    },
+    {
+      "check": "B9_anti_forgery",
+      "pass": true,
+      "detail": "831 HUMAN_VALIDATED rows carry operator-attributed promotion blocks; provenance tiers RULE_DERIVED everywhere; the re-homed hold + the 3 R22 REJECT rows stay SUGGESTED unpromoted; the 3 DEMOTE rows carry NO promotion block"
+    },
+    {
+      "check": "B10_ci_parity",
+      "pass": true,
+      "detail": "kg_export --verify-golden exit 0 (golden gate GREEN); graph_check failure census 12 lines (the pre-existing sparse-checkout environmental set), zero failures naming the chunk store"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "result": "ALL PASS"
+}
