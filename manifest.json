@@ -1,0 +1,1064 @@
+{
+  "schema": "book-slices-manifest-v1",
+  "book": {
+    "documentId": "e6c0db50-0f84-55de-b50c-e4d49285cd6d",
+    "docVersion": 1,
+    "courseSlug": "igcse-chemistry-19",
+    "specKey": "pearson-edexcel/international-gcse/chemistry/4ch1",
+    "title": "Edexcel International GCSE (9-1) Chemistry Student Book",
+    "source": {
+      "archivePath": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+      "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+      "pages": 383
+    }
+  },
+  "derivation": {
+    "laws": {
+      "split": "L1 heading-anchored",
+      "fallback": "L2 whole-range",
+      "unitExam": "L3 registry-gap",
+      "deferred": "L4"
+    },
+    "sources": [
+      "book_chapters registry of record (29 ranges, live api + Neon)",
+      "document_chunks of record (823 chunks, element_ids group grammar + heading anchors)"
+    ],
+    "workbook": "api-stage-133e/coords-chemistry.json (trace 1a1539a3e3730c15)",
+    "backMatterStart": 330,
+    "boundaryProof": "ocr_pages artifacts of record: p121 CHAPTER QUESTIONS (c10 tail), p123/p208/p322 UNIT QUESTIONS, p329 APPENDIX A PERIODIC TABLE, p330 APPENDIX B \u2014 all probed 200",
+    "chunkSpanVsGapLaw": "unit spans are REGISTRY-GAP based (L3): u1 122-131, u2 208-215 (incl. chemistry-only skills pages 211-214), u3 257-263, u4 322-329; chunk spans are narrower (unchunked opener/trailing pages ride inside)"
+  },
+  "slices": [
+    {
+      "file": "chapters/u1_c1.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c1",
+      "title": "States of matter",
+      "pdfRange": [
+        12,
+        20
+      ],
+      "slicePages": 9,
+      "bytes": 1442811,
+      "sha256": "fec4cf21341b4c4670e4880f8171d2ab5adc45b2ac34ccab617223b4371fe048",
+      "questionAnchor": {
+        "page": 21,
+        "chunkIndex": 22
+      }
+    },
+    {
+      "file": "chapters/u1_c1_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c1",
+      "title": "States of matter",
+      "pdfRange": [
+        21,
+        22
+      ],
+      "slicePages": 2,
+      "bytes": 247446,
+      "sha256": "600c640559a01b387a430a6ffac5d8b9fb628f0d0f3d0411815d04e71b2107a4",
+      "questionAnchor": {
+        "page": 21,
+        "chunkIndex": 22
+      }
+    },
+    {
+      "file": "chapters/u1_c2.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c2",
+      "title": "Elements, compounds and mixtures",
+      "pdfRange": [
+        23,
+        30
+      ],
+      "slicePages": 8,
+      "bytes": 1138340,
+      "sha256": "3a09e0191d18a1ac53d64b77bbec6ba18b0188210dc6d2980a08555a6ec04a5e",
+      "questionAnchor": {
+        "page": 31,
+        "chunkIndex": 43
+      }
+    },
+    {
+      "file": "chapters/u1_c2_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c2",
+      "title": "Elements, compounds and mixtures",
+      "pdfRange": [
+        31,
+        32
+      ],
+      "slicePages": 2,
+      "bytes": 195104,
+      "sha256": "99a1294017ac41393a6fb316c710d2c26669218d21a4fe6b112801edebd6b985",
+      "questionAnchor": {
+        "page": 31,
+        "chunkIndex": 43
+      }
+    },
+    {
+      "file": "chapters/u1_c3.pdf",
+      "role": "whole",
+      "chapterKey": "u1:c3",
+      "title": "Atomic structure",
+      "pdfRange": [
+        33,
+        38
+      ],
+      "slicePages": 6,
+      "bytes": 822179,
+      "sha256": "c3d66f87a0dbac14a38db7a701844f0a3295c05b887e2a7d2bde12774112e3b2",
+      "note": "no CHAPTER QUESTIONS heading anchor in parse of record \u2014 whole-range slice (L2)"
+    },
+    {
+      "file": "chapters/u1_c4.pdf",
+      "role": "whole",
+      "chapterKey": "u1:c4",
+      "title": "The periodic table",
+      "pdfRange": [
+        39,
+        45
+      ],
+      "slicePages": 7,
+      "bytes": 1091910,
+      "sha256": "58e64319e1e8fa3fc53c018d8ae2bfe4f746f4a5bdab348384518a7f05844a8e",
+      "note": "no CHAPTER QUESTIONS heading anchor in parse of record \u2014 whole-range slice (L2)"
+    },
+    {
+      "file": "chapters/u1_c5.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c5",
+      "title": "Chemical formulae, equations and calculations - part 1 (chemistry only)",
+      "pdfRange": [
+        47,
+        68
+      ],
+      "slicePages": 22,
+      "bytes": 3236426,
+      "sha256": "d07536a3533a7bab64d9052c383be15932bf01e379e4c89d86cd0051bd0ded92",
+      "questionAnchor": {
+        "page": 69,
+        "chunkIndex": 139
+      }
+    },
+    {
+      "file": "chapters/u1_c5_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c5",
+      "title": "Chemical formulae, equations and calculations - part 1 (chemistry only)",
+      "pdfRange": [
+        69,
+        72
+      ],
+      "slicePages": 4,
+      "bytes": 449212,
+      "sha256": "ca18e5235eb4edaf27f646f406a188442651b6273a81b10322b395d11043e5cc",
+      "questionAnchor": {
+        "page": 69,
+        "chunkIndex": 139
+      }
+    },
+    {
+      "file": "chapters/u1_c6.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c6",
+      "title": "Chemical formulae, equations and calculations - part 2",
+      "pdfRange": [
+        73,
+        80
+      ],
+      "slicePages": 8,
+      "bytes": 1129134,
+      "sha256": "899dd8c11663be7bda5420a27005bc5bf2293b9ed45d5eca20306a59c17be141",
+      "questionAnchor": {
+        "page": 81,
+        "chunkIndex": 161
+      }
+    },
+    {
+      "file": "chapters/u1_c6_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c6",
+      "title": "Chemical formulae, equations and calculations - part 2",
+      "pdfRange": [
+        81,
+        83
+      ],
+      "slicePages": 3,
+      "bytes": 395639,
+      "sha256": "6e3f78aa31ed46d95c3900bae576543cc8d8609e1e60cc7f1096a4940278eaab",
+      "questionAnchor": {
+        "page": 81,
+        "chunkIndex": 161
+      }
+    },
+    {
+      "file": "chapters/u1_c7.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c7",
+      "title": "Ionic bonding",
+      "pdfRange": [
+        84,
+        91
+      ],
+      "slicePages": 8,
+      "bytes": 1125685,
+      "sha256": "d92f022acee89a50f0c73121e57a1af2a6941afe87cbb1b6fe48ff8d51514ad3",
+      "questionAnchor": {
+        "page": 92,
+        "chunkIndex": 185
+      }
+    },
+    {
+      "file": "chapters/u1_c7_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c7",
+      "title": "Ionic bonding",
+      "pdfRange": [
+        92,
+        92
+      ],
+      "slicePages": 1,
+      "bytes": 156949,
+      "sha256": "a413eb08f3f7b565bb73cb79fb640c40f0917fd97111f5d63924ffdf70ace788",
+      "questionAnchor": {
+        "page": 92,
+        "chunkIndex": 185
+      }
+    },
+    {
+      "file": "chapters/u1_c8.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c8",
+      "title": "Covalent bonding",
+      "pdfRange": [
+        94,
+        104
+      ],
+      "slicePages": 11,
+      "bytes": 1781610,
+      "sha256": "0f6ff249b79df0a370aaded45b00adc27e33538f672bcfd149829146f1d8cecf",
+      "questionAnchor": {
+        "page": 105,
+        "chunkIndex": 218
+      }
+    },
+    {
+      "file": "chapters/u1_c8_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c8",
+      "title": "Covalent bonding",
+      "pdfRange": [
+        105,
+        106
+      ],
+      "slicePages": 2,
+      "bytes": 194111,
+      "sha256": "f50c16ebc1230f4a3443ee5a1de3f220bdeb015cc6cb2ceb3d8a7f46522c674a",
+      "questionAnchor": {
+        "page": 105,
+        "chunkIndex": 218
+      }
+    },
+    {
+      "file": "chapters/u1_c9.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c9",
+      "title": "Metallic bonding (chemistry only)",
+      "pdfRange": [
+        107,
+        108
+      ],
+      "slicePages": 2,
+      "bytes": 323831,
+      "sha256": "b5a8fdddc13395f4145fbf607527ce5b166159ee16327d3aee91d04347286ef4",
+      "questionAnchor": {
+        "page": 109,
+        "chunkIndex": 227
+      }
+    },
+    {
+      "file": "chapters/u1_c9_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c9",
+      "title": "Metallic bonding (chemistry only)",
+      "pdfRange": [
+        109,
+        109
+      ],
+      "slicePages": 1,
+      "bytes": 136388,
+      "sha256": "405956976af47d2bf1c1df6988881e4377c2c2f938dac0fc0fba96e1cf34643a",
+      "questionAnchor": {
+        "page": 109,
+        "chunkIndex": 227
+      }
+    },
+    {
+      "file": "chapters/u1_c10.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c10",
+      "title": "Electrolysis (chemistry only)",
+      "pdfRange": [
+        110,
+        120
+      ],
+      "slicePages": 11,
+      "bytes": 1682417,
+      "sha256": "2114c04d3d45a8c2a8b7a8996b9b9ad7880baf7cad01040dd81f6a513cfee803",
+      "questionAnchor": {
+        "page": 121,
+        "chunkIndex": 257
+      }
+    },
+    {
+      "file": "chapters/u1_c10_q.pdf",
+      "role": "questions",
+      "chapterKey": "u1:c10",
+      "title": "Electrolysis (chemistry only)",
+      "pdfRange": [
+        121,
+        121
+      ],
+      "slicePages": 1,
+      "bytes": 115023,
+      "sha256": "2ced23426b26d3c5ae67a11685f955104890512bf8a54ba8ad736961f973ffec",
+      "questionAnchor": {
+        "page": 121,
+        "chunkIndex": 257
+      }
+    },
+    {
+      "file": "chapters/u2_c11.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c11",
+      "title": "The alkali metals",
+      "pdfRange": [
+        132,
+        137
+      ],
+      "slicePages": 6,
+      "bytes": 861691,
+      "sha256": "ac984123775dd3fec07cb8b69796bb3a6169c36025df8431e6da57333c18c682",
+      "questionAnchor": {
+        "page": 138,
+        "chunkIndex": 282
+      }
+    },
+    {
+      "file": "chapters/u2_c11_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c11",
+      "title": "The alkali metals",
+      "pdfRange": [
+        138,
+        138
+      ],
+      "slicePages": 1,
+      "bytes": 130084,
+      "sha256": "527fe74f03f390a92f0a64aa52f7c1f73b3e46f219d3a1b8cced12fdc1398136",
+      "questionAnchor": {
+        "page": 138,
+        "chunkIndex": 282
+      }
+    },
+    {
+      "file": "chapters/u2_c12.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c12",
+      "title": "The halogens",
+      "pdfRange": [
+        139,
+        142
+      ],
+      "slicePages": 4,
+      "bytes": 560307,
+      "sha256": "8cff75ed8171202294181d108df29b242ff3d88526d0f8d9423be7484f03dacf",
+      "questionAnchor": {
+        "page": 143,
+        "chunkIndex": 297
+      }
+    },
+    {
+      "file": "chapters/u2_c12_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c12",
+      "title": "The halogens",
+      "pdfRange": [
+        143,
+        144
+      ],
+      "slicePages": 2,
+      "bytes": 278546,
+      "sha256": "9b6b8f4a12e1fd42106a7f4a521b884ebc2300b383abbc4b6320b1999756d572",
+      "questionAnchor": {
+        "page": 143,
+        "chunkIndex": 297
+      }
+    },
+    {
+      "file": "chapters/u2_c13.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c13",
+      "title": "Gases in the atmosphere",
+      "pdfRange": [
+        146,
+        152
+      ],
+      "slicePages": 7,
+      "bytes": 1025265,
+      "sha256": "9b3af55cc2d82aa51819ea3a7ebb7be0cac265261ee919c01f1ce789d5842480",
+      "questionAnchor": {
+        "page": 153,
+        "chunkIndex": 317
+      }
+    },
+    {
+      "file": "chapters/u2_c13_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c13",
+      "title": "Gases in the atmosphere",
+      "pdfRange": [
+        153,
+        153
+      ],
+      "slicePages": 1,
+      "bytes": 135285,
+      "sha256": "1e2dca3bc7c6087145c43338d99ba2e42f2617a61df06f744e84ef0d6b01fe74",
+      "questionAnchor": {
+        "page": 153,
+        "chunkIndex": 317
+      }
+    },
+    {
+      "file": "chapters/u2_c14.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c14",
+      "title": "Reactivity series",
+      "pdfRange": [
+        154,
+        165
+      ],
+      "slicePages": 12,
+      "bytes": 1751256,
+      "sha256": "5ce301cc6531dd1d158698932f5f93081cf4268cddd9643f74824d5bc1597587",
+      "questionAnchor": {
+        "page": 166,
+        "chunkIndex": 350
+      }
+    },
+    {
+      "file": "chapters/u2_c14_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c14",
+      "title": "Reactivity series",
+      "pdfRange": [
+        166,
+        168
+      ],
+      "slicePages": 3,
+      "bytes": 449665,
+      "sha256": "c536f4988e725a2d3539254613d3688a268df75da6433549f9106ba00ab200ab",
+      "questionAnchor": {
+        "page": 166,
+        "chunkIndex": 350
+      }
+    },
+    {
+      "file": "chapters/u2_c15.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c15",
+      "title": "Extraction and uses of metals (chemistry only)",
+      "pdfRange": [
+        169,
+        173
+      ],
+      "slicePages": 5,
+      "bytes": 677320,
+      "sha256": "f228cf395bc5191cf953c3a794e939f688d9badb5125151fb99abd8cb5c5f9e5",
+      "questionAnchor": {
+        "page": 174,
+        "chunkIndex": 365
+      }
+    },
+    {
+      "file": "chapters/u2_c15_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c15",
+      "title": "Extraction and uses of metals (chemistry only)",
+      "pdfRange": [
+        174,
+        175
+      ],
+      "slicePages": 2,
+      "bytes": 278253,
+      "sha256": "f1771d3e8e6440de3b03a3ce88d5343e7876de7ad3a74c3723f2d0abee80cec9",
+      "questionAnchor": {
+        "page": 174,
+        "chunkIndex": 365
+      }
+    },
+    {
+      "file": "chapters/u2_c16.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c16",
+      "title": "Acids, alkalis and titrations",
+      "pdfRange": [
+        176,
+        178
+      ],
+      "slicePages": 3,
+      "bytes": 410129,
+      "sha256": "c5e58407bbc1cf58b1fa2619a1abff87ef56ebc277c78817cdd02f83269cd164",
+      "questionAnchor": {
+        "page": 179,
+        "chunkIndex": 378
+      }
+    },
+    {
+      "file": "chapters/u2_c16_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c16",
+      "title": "Acids, alkalis and titrations",
+      "pdfRange": [
+        179,
+        181
+      ],
+      "slicePages": 3,
+      "bytes": 404101,
+      "sha256": "d0c2a7ba62295c3c79eb98f36172583599286efed20d18489742611aee5cef24",
+      "questionAnchor": {
+        "page": 179,
+        "chunkIndex": 378
+      }
+    },
+    {
+      "file": "chapters/u2_c17.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c17",
+      "title": "Acids, bases and salt preparations",
+      "pdfRange": [
+        182,
+        194
+      ],
+      "slicePages": 13,
+      "bytes": 1763928,
+      "sha256": "04731ba6235b7f11bd010149892ad549f7a207802518a0b36105c81449d515fa",
+      "questionAnchor": {
+        "page": 195,
+        "chunkIndex": 410
+      }
+    },
+    {
+      "file": "chapters/u2_c17_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c17",
+      "title": "Acids, bases and salt preparations",
+      "pdfRange": [
+        195,
+        198
+      ],
+      "slicePages": 4,
+      "bytes": 540413,
+      "sha256": "19d4b54c5db9417790579925b37e5c636331558c20f2fab3600148d3bf667f88",
+      "questionAnchor": {
+        "page": 195,
+        "chunkIndex": 410
+      }
+    },
+    {
+      "file": "chapters/u2_c18.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c18",
+      "title": "Chemical tests",
+      "pdfRange": [
+        199,
+        203
+      ],
+      "slicePages": 5,
+      "bytes": 672533,
+      "sha256": "f5fb217f4ec5970cce913d331e2732f905ac75b90fd815fb308785c7da20ff51",
+      "questionAnchor": {
+        "page": 204,
+        "chunkIndex": 430
+      }
+    },
+    {
+      "file": "chapters/u2_c18_q.pdf",
+      "role": "questions",
+      "chapterKey": "u2:c18",
+      "title": "Chemical tests",
+      "pdfRange": [
+        204,
+        207
+      ],
+      "slicePages": 4,
+      "bytes": 532970,
+      "sha256": "f7478d13d31d58c00711e2f21489f2da87e971e26f0a21fcb01180166d07bdc7",
+      "questionAnchor": {
+        "page": 204,
+        "chunkIndex": 430
+      }
+    },
+    {
+      "file": "chapters/u3_c19.pdf",
+      "role": "lesson",
+      "chapterKey": "u3:c19",
+      "title": "Energetics",
+      "pdfRange": [
+        216,
+        231
+      ],
+      "slicePages": 16,
+      "bytes": 2340282,
+      "sha256": "d587d5dccf051b8f973ef0fe5dde2ae9a23f93d411956196c6364ec46585a8f0",
+      "questionAnchor": {
+        "page": 232,
+        "chunkIndex": 494
+      }
+    },
+    {
+      "file": "chapters/u3_c19_q.pdf",
+      "role": "questions",
+      "chapterKey": "u3:c19",
+      "title": "Energetics",
+      "pdfRange": [
+        232,
+        234
+      ],
+      "slicePages": 3,
+      "bytes": 371759,
+      "sha256": "611b46ccbdc1cbe779bd485949b0436cb2fcf313161aee733a1e188a6ef79344",
+      "questionAnchor": {
+        "page": 232,
+        "chunkIndex": 494
+      }
+    },
+    {
+      "file": "chapters/u3_c20.pdf",
+      "role": "lesson",
+      "chapterKey": "u3:c20",
+      "title": "Rates of reaction",
+      "pdfRange": [
+        236,
+        245
+      ],
+      "slicePages": 10,
+      "bytes": 1516683,
+      "sha256": "bfdc4ce25fb68ef0c983ea5803a00a9a55fe6677d9bc31cfe193cdd5a19ff3a5",
+      "questionAnchor": {
+        "page": 246,
+        "chunkIndex": 524
+      }
+    },
+    {
+      "file": "chapters/u3_c20_q.pdf",
+      "role": "questions",
+      "chapterKey": "u3:c20",
+      "title": "Rates of reaction",
+      "pdfRange": [
+        246,
+        248
+      ],
+      "slicePages": 3,
+      "bytes": 395619,
+      "sha256": "562bada7951fbe37ba87ee0aff81d957b2dffe5b332c898a3992acc3e9d688f4",
+      "questionAnchor": {
+        "page": 246,
+        "chunkIndex": 524
+      }
+    },
+    {
+      "file": "chapters/u3_c21.pdf",
+      "role": "whole",
+      "chapterKey": "u3:c21",
+      "title": "Reversible reactions and equilibria",
+      "pdfRange": [
+        249,
+        256
+      ],
+      "slicePages": 8,
+      "bytes": 1220022,
+      "sha256": "ecc7e7e2f1790ecb5026407a705d1cc37e57f152307bc1988dbca7407e17ef78",
+      "note": "no CHAPTER QUESTIONS heading anchor in parse of record \u2014 whole-range slice (L2)"
+    },
+    {
+      "file": "chapters/u4_c22.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c22",
+      "title": "Introduction to organic chemistry",
+      "pdfRange": [
+        264,
+        272
+      ],
+      "slicePages": 9,
+      "bytes": 1342968,
+      "sha256": "df95792e434d30d90b54cd08939540387464fc28172aab13ca7a4929b0444474",
+      "questionAnchor": {
+        "page": 273,
+        "chunkIndex": 580
+      }
+    },
+    {
+      "file": "chapters/u4_c22_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c22",
+      "title": "Introduction to organic chemistry",
+      "pdfRange": [
+        273,
+        276
+      ],
+      "slicePages": 4,
+      "bytes": 378617,
+      "sha256": "faf971523cad6fe6a6310191211f64eb9f96c49d5a14b91eec4e331344b3a06c",
+      "questionAnchor": {
+        "page": 273,
+        "chunkIndex": 580
+      }
+    },
+    {
+      "file": "chapters/u4_c23.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c23",
+      "title": "Crude oil",
+      "pdfRange": [
+        277,
+        283
+      ],
+      "slicePages": 7,
+      "bytes": 1044304,
+      "sha256": "1980376765101be551b624028d2d45c34dfae66502150bbf35d626074819a30a",
+      "questionAnchor": {
+        "page": 284,
+        "chunkIndex": 600
+      }
+    },
+    {
+      "file": "chapters/u4_c23_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c23",
+      "title": "Crude oil",
+      "pdfRange": [
+        284,
+        285
+      ],
+      "slicePages": 2,
+      "bytes": 253934,
+      "sha256": "bdc980abb375196dff282db510e6fb6c0fb17c8fb41445a70acec6e996741ef5",
+      "questionAnchor": {
+        "page": 284,
+        "chunkIndex": 600
+      }
+    },
+    {
+      "file": "chapters/u4_c24.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c24",
+      "title": "Alkanes",
+      "pdfRange": [
+        286,
+        289
+      ],
+      "slicePages": 4,
+      "bytes": 551849,
+      "sha256": "504988a6bffec8d57fd76481b4313448fcd9d1ded14d5ed13017024138026825",
+      "questionAnchor": {
+        "page": 290,
+        "chunkIndex": 614
+      }
+    },
+    {
+      "file": "chapters/u4_c24_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c24",
+      "title": "Alkanes",
+      "pdfRange": [
+        290,
+        290
+      ],
+      "slicePages": 1,
+      "bytes": 103195,
+      "sha256": "cee45173ae745feacef0f1725fc5e5e404f915ace383a34b989a00a08f863bc6",
+      "questionAnchor": {
+        "page": 290,
+        "chunkIndex": 614
+      }
+    },
+    {
+      "file": "chapters/u4_c25.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c25",
+      "title": "Alkenes",
+      "pdfRange": [
+        291,
+        293
+      ],
+      "slicePages": 3,
+      "bytes": 406528,
+      "sha256": "16ac0a9d058ac65894514e83535ac6ae374a74a15f5d3bdeefb01274fa7ac7a5",
+      "questionAnchor": {
+        "page": 294,
+        "chunkIndex": 622
+      }
+    },
+    {
+      "file": "chapters/u4_c25_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c25",
+      "title": "Alkenes",
+      "pdfRange": [
+        294,
+        295
+      ],
+      "slicePages": 2,
+      "bytes": 257351,
+      "sha256": "0592970eb600125531c3092eb23ac4576b900ff243421746591f5f83f143586e",
+      "questionAnchor": {
+        "page": 294,
+        "chunkIndex": 622
+      }
+    },
+    {
+      "file": "chapters/u4_c26.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c26",
+      "title": "Alcohols (chemistry only)",
+      "pdfRange": [
+        296,
+        300
+      ],
+      "slicePages": 5,
+      "bytes": 692950,
+      "sha256": "2241b513fc76a23024942aea6f3081f352dd73e857362bc90a7338aa29c29439",
+      "questionAnchor": {
+        "page": 301,
+        "chunkIndex": 640
+      }
+    },
+    {
+      "file": "chapters/u4_c26_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c26",
+      "title": "Alcohols (chemistry only)",
+      "pdfRange": [
+        301,
+        301
+      ],
+      "slicePages": 1,
+      "bytes": 122174,
+      "sha256": "115a71c9d3bd3d0bcacc1593c859992f845858ce221ab64dfec4c17f098d0741",
+      "questionAnchor": {
+        "page": 301,
+        "chunkIndex": 640
+      }
+    },
+    {
+      "file": "chapters/u4_c27.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c27",
+      "title": "Carboxylic acids (chemistry only)",
+      "pdfRange": [
+        302,
+        303
+      ],
+      "slicePages": 2,
+      "bytes": 256268,
+      "sha256": "85a4eb6308192d41facbaaa74656feb3badd338bc07eaabacb9312698da08157",
+      "questionAnchor": {
+        "page": 304,
+        "chunkIndex": 646
+      }
+    },
+    {
+      "file": "chapters/u4_c27_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c27",
+      "title": "Carboxylic acids (chemistry only)",
+      "pdfRange": [
+        304,
+        305
+      ],
+      "slicePages": 2,
+      "bytes": 234584,
+      "sha256": "a96f957d5dd048ab4332916b934ea810ad1cdbba212e9376745adfd4999bde9c",
+      "questionAnchor": {
+        "page": 304,
+        "chunkIndex": 646
+      }
+    },
+    {
+      "file": "chapters/u4_c28.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c28",
+      "title": "Esters (chemistry only)",
+      "pdfRange": [
+        306,
+        309
+      ],
+      "slicePages": 4,
+      "bytes": 562160,
+      "sha256": "b5202d6fd7179ed273b5fc35cd0b6ac610c47cb9359350dd6ec8acfc944036bf",
+      "questionAnchor": {
+        "page": 310,
+        "chunkIndex": 658
+      }
+    },
+    {
+      "file": "chapters/u4_c28_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c28",
+      "title": "Esters (chemistry only)",
+      "pdfRange": [
+        310,
+        310
+      ],
+      "slicePages": 1,
+      "bytes": 122026,
+      "sha256": "cb494b72705722d55818d1b883645806c7240bbf6fa48a6e786b68a5a958d3e5",
+      "questionAnchor": {
+        "page": 310,
+        "chunkIndex": 658
+      }
+    },
+    {
+      "file": "chapters/u4_c29.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c29",
+      "title": "Synthetic polymers",
+      "pdfRange": [
+        311,
+        319
+      ],
+      "slicePages": 9,
+      "bytes": 1187084,
+      "sha256": "6caf3bac39d175a785f1d923ee8f31e023741159966cce05983b176eea4dffe4",
+      "questionAnchor": {
+        "page": 320,
+        "chunkIndex": 678
+      }
+    },
+    {
+      "file": "chapters/u4_c29_q.pdf",
+      "role": "questions",
+      "chapterKey": "u4:c29",
+      "title": "Synthetic polymers",
+      "pdfRange": [
+        320,
+        321
+      ],
+      "slicePages": 2,
+      "bytes": 237462,
+      "sha256": "302f5543ee1d8a7f25c491b1c4dac5616eda74701073cea7d799ea40c895260d",
+      "questionAnchor": {
+        "page": 320,
+        "chunkIndex": 678
+      }
+    },
+    {
+      "file": "units/u1_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u1:xexam-practice",
+      "title": "Unit 1 exam practice",
+      "pdfRange": [
+        122,
+        131
+      ],
+      "slicePages": 10,
+      "bytes": 1115796,
+      "sha256": "dd7c6a82571f2a9cdfee45af10d915581c42334ea9bfbac60d5d30951c2c71c2",
+      "groupSlugs": [
+        "unit-1-end-of-unit-questions"
+      ]
+    },
+    {
+      "file": "units/u2_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u2:xexam-practice",
+      "title": "Unit 2 exam practice",
+      "pdfRange": [
+        208,
+        215
+      ],
+      "slicePages": 8,
+      "bytes": 937836,
+      "sha256": "e4499100472d021f49b95e64421bf829f277773f065365b6026b722ccb62d58f",
+      "groupSlugs": [
+        "unit-2-chemistry-only-skills-pages",
+        "unit-2-end-of-unit-questions"
+      ]
+    },
+    {
+      "file": "units/u3_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u3:xexam-practice",
+      "title": "Unit 3 exam practice",
+      "pdfRange": [
+        257,
+        263
+      ],
+      "slicePages": 7,
+      "bytes": 880947,
+      "sha256": "1fd32c3d01915adf07ee1785f08978bff75465bbb3954ffae5193983c82aec06",
+      "groupSlugs": [
+        "unit-3-end-of-unit-questions"
+      ]
+    },
+    {
+      "file": "units/u4_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u4:xexam-practice",
+      "title": "Unit 4 exam practice",
+      "pdfRange": [
+        322,
+        329
+      ],
+      "slicePages": 8,
+      "bytes": 793880,
+      "sha256": "8e1eb49ef4e7f9ed0f95ca4b7f1ebb1032262badbdd8f0dc4541cfc96dabe459",
+      "groupSlugs": [
+        "unit-4-end-of-unit-questions"
+      ],
+      "note": "span includes pdf 329 = the Periodic Table appendix page (book p.320), referenced by the unit questions themselves ('Periodic Table on page 320'); confirmed by ocr_pages/page_329.txt of record"
+    }
+  ],
+  "byRole": {
+    "lesson": {
+      "count": 26,
+      "pages": 203,
+      "bytes": 29483759
+    },
+    "questions": {
+      "count": 26,
+      "pages": 57,
+      "bytes": 7115910
+    },
+    "whole": {
+      "count": 3,
+      "pages": 21,
+      "bytes": 3134111
+    },
+    "unit_exam": {
+      "count": 4,
+      "pages": 33,
+      "bytes": 3728459
+    }
+  },
+  "deferred": {
+    "runs": [
+      "1-11",
+      "46",
+      "93",
+      "145",
+      "235",
+      "330-383"
+    ],
+    "law": "raw whole-book + ?page=N containment (L4)"
+  },
+  "totals": {
+    "slices": 59,
+    "bytes": 43462239,
+    "biggestSliceBytes": 3236426
+  },
+  "generatedWith": "pikepdf 10.17.0"
+}
