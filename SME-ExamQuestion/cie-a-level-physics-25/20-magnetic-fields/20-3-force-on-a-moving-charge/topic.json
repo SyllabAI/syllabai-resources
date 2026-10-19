@@ -1,0 +1,726 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:23:36Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "20-magnetic-fields",
+  "name": "20. Magnetic Fields"
+ },
+ "topic": {
+  "id": "top_9Jg4KCkHvfnqBw8P",
+  "slug": "20-3-force-on-a-moving-charge",
+  "name": "Force on a Moving Charge",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "using-a-hall-probe",
+   "name": "Using a Hall Probe",
+   "revision_note_id": "rn_fnkv7YcR2vwhbmgt"
+  },
+  {
+   "slug": "motion-of-a-charged-particle-in-a-magnetic-field",
+   "name": "Motion of a Charged Particle in a Magnetic Field",
+   "revision_note_id": "rn_2SqVrNb8HPXvzPrX"
+  },
+  {
+   "slug": "velocity-selection",
+   "name": "Velocity Selection",
+   "revision_note_id": "rn_4JyFCFvyv55y8gfW"
+  },
+  {
+   "slug": "hall-voltage",
+   "name": "Hall Voltage",
+   "revision_note_id": "rn_W7drwcb7M5WDFCmd"
+  },
+  {
+   "slug": "force-on-a-moving-charge",
+   "name": "Force on a Moving Charge",
+   "revision_note_id": "rn_Yy54ByzkfHNMwQTz"
+  },
+  {
+   "slug": "flemings-left-hand-rule",
+   "name": "Fleming's Left-Hand Rule",
+   "revision_note_id": "rn_YCNvTRkX2K5tq6kR"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_2HVjHdhWbTSWtrmR",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/20-magnetic-fields/20-3-force-on-a-moving-charge/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 5,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/04/q1_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium.png": "001-q1-magnetic-effects-of-electric-currents-ib-sl-p.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/mac1b_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium.png": "002-mac1b-magnetic-effects-of-electric-currents-ib-s.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/q3a_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium.png": "003-q3a-magnetic-effects-of-electric-currents-ib-sl-.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/q3b_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium.png": "004-q3b-magnetic-effects-of-electric-currents-ib-sl-.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/q3b-magnetic-effects-of-electric-ma.png": "005-q3b-magnetic-effects-of-electric-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q6-paper-4-specimen-2022-cie-ial-physics.png": "006-q6-paper-4-specimen-2022-cie-ial-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/file-000-50.png": "007-file-000-50.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/20-1-3b-e-20-1-e-rectangular-loop-in-b-field-cie-ial-sq-correct.png": "008-20-1-3b-e-20-1-e-rectangular-loop-in-b-field-cie.png",
+   "https://cdn.savemyexams.com/uploads/2023/08/20-1-3b-e-20-1-e-rectangular-loop-ma.png": "009-20-1-3b-e-20-1-e-rectangular-loop-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q2a-figure-1.png": "010-q2a-figure-1.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q2b-figure-2.png": "011-q2b-figure-2.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q4b-figure-1.png": "012-q4b-figure-1.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4b-mark-scheme.png": "013-4b-mark-scheme.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4d-mark-scheme.png": "014-4d-mark-scheme.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_yK9HpxbwyRfDRXY7",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_8m7DrS6FZ6G7S8gS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6S34CPt4BgzfXDh"
+     ],
+     "part_tier": null,
+     "problem_md": "A proton of mass *m* and electric charge *q* enters a region of magnetic field at point P and exits at point Q, as shown in Fig. 1.1.\n\nThe speed of the proton at P is *v. *The path followed by the proton is a quarter of a circle.\n\n![q1_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium](assets/001-q1-magnetic-effects-of-electric-currents-ib-sl-p.png)\n\n**Fig. 1.1**\n\nState whether the speed *v* is the same, more than, or less than, the speed of the proton at Q. Explain your answer.",
+     "solution_md": "The speed of the proton is:\n\n- The <u>same</u> (at P and Q); **[1 mark]**\n\nThis is because:\n\n- The magnetic force is always at right angles / perpendicular to the velocity; **[1 mark]**\n\n**EITHER**\n\n- The velocity (of the proton) changes only in direction; **[1 mark]**\n- The speed / magnitude of the velocity (of the proton) does not change; **[1 mark]**\n\n**OR**\n\n- Work done = force × displacement in the direction of the force (i.e. the radius of the circular path);\n- The radius does not change, so, no work is done (by the magnetic force on the charge); **[1 mark]**\n- Therefore, the kinetic energy, and hence speed (of the proton) does not change; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *To get full marks in this question you must either consider one of two explanations 1. vectors, or 2. energy*\n\n> *Explanation 1 (vectors) is arguably the easier route as you only need to consider the difference between velocity and speed in circular motion*\n\n> *Explanation 2 (energy) is a little more involved, but thinking in terms of energy might suit the way your brain works better, so go for this one if it makes more sense to you. Here we need to consider the work done on the charge while it is in the magnetic field. We're only interested in the displacement in the **direction** of the force. Since the path of the proton is circular, the force is directed towards the centre of the circle, so a change in displacement would be equivalent to a change in **radius**. Always link this back to the kinetic energy, since the work done is simply equal to the **change** in kinetic energy. If no work is done, then there is no change in kinetic energy i.e. it remains constant.*"
+    },
+    {
+     "id": "qstnprt_s3rMG75jQFwXdsmS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6S34CPt4BgzfXDh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA proton of mass *m* and electric charge *q* enters a region of magnetic field at point P and exits at point Q, as shown in Fig. 1.1. The speed of the proton at P is *v.* The path followed by the proton is a quarter of a circle.\n\nExplain why the path of the proton is circular.",
+     "solution_md": "The path is circular because:\n\n- It experiences a (magnetic) force when it moves in the magnetic field; **[1 mark]**\n- The (magnetic) force is always at right angles / perpendicular to the velocity of the proton; **[1 mark]**** **\n\n**[Total: 2 marks]**** **\n\n> *A charged particle in a magnetic field always moves perpendicular to the direction of the field and the velocity of the charge in circular motion.*\n\n![mac1b_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium](assets/002-mac1b-magnetic-effects-of-electric-currents-ib-s.png)"
+    },
+    {
+     "id": "qstnprt_JwZthqWj2swR6tY9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sX6gTXtQcCt5dWvm",
+      "spcpt_GYXV7cTNpCQYPJWy"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA proton of mass *m* and electric charge *q* enters a region of magnetic field at point P and exits at point Q, as shown in Fig. 1.1. The speed of the proton at P is *v.* The path followed by the proton is a quarter of a circle.\n\nShow that the radius of the circular path is given by\n\n$R=\\frac{mv}{qB}$\n\nwhere *B* is the magnetic flux density.",
+     "solution_md": "State the equations for centripetal force and the magnetic force on a moving charge:\n\n- Centripetal force: * *$F=\\frac{mv^{2}}{r}$\n- Force on a moving charge:  $F=qvB\\mathrm{sin}θ$\n\nDetermine the value of sin *θ*:\n\n- The proton is moving at right angles to the direction of the magnetic field, so *θ* = 90⁰\n- So, sin 90° = 1, hence $F=qvB$ **[1 mark]**\n\nEquate the magnetic and centripetal forces:\n\n- Since the magnetic force is the force that keeps the proton moving in a circle, this is equal to its centripetal force\n- $F=\\frac{mv^{2}}{R}=qvB$ **[1 mark]**\n\nRearrange to make radius *R* the subject and simplify:\n\n- $mv^{2}=RqvB$\n- $\\frac{mv^{2}}{qvB}=R$\n- `fraction numerator m v to the power of up diagonal strike 2 end exponent over denominator q up diagonal strike v B end fraction space equals space R`\n- $R=\\frac{mv}{qB}$* ***[1 mark]**** **\n\n**[Total: 3 marks]**\n\n> *This is a very common derivation that you will be expected to know. *",
+     "equations": [
+      {
+       "latex": "R=\\frac{mv}{qB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>v</mi></mrow><mrow><mi>q</mi><mi>B</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space fraction numerator m v over denominator q B end fraction"
+      },
+      {
+       "latex": "F=\\frac{mv^{2}}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>r</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator m v squared over denominator r end fraction"
+      },
+      {
+       "latex": "F=qvB\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mi>q</mi><mi>v</mi><mi>B</mi><mo> </mo><mi>sin</mi><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space q v B space sin space theta"
+      },
+      {
+       "latex": "F=qvB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mi>q</mi><mi>v</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space q v B"
+      },
+      {
+       "latex": "F=\\frac{mv^{2}}{R}=qvB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>R</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><mi>q</mi><mi>v</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator m v squared over denominator R end fraction space equals space q v B"
+      },
+      {
+       "latex": "mv^{2}=RqvB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup><mo> </mo><mo>=</mo><mo> </mo><mi>R</mi><mi>q</mi><mi>v</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m v squared space equals space R q v B"
+      },
+      {
+       "latex": "\\frac{mv^{2}}{qvB}=R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mrow><mi>q</mi><mi>v</mi><mi>B</mi></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator m v squared over denominator q v B end fraction space equals space R"
+      },
+      {
+       "latex": "R=\\frac{mv}{qB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>m</mi><mi>v</mi></mrow><mrow><mi>q</mi><mi>B</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space fraction numerator m v over denominator q B end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MrF7WtznVJmMhqb5",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sX6gTXtQcCt5dWvm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nShow that the radius of the circular path is given by R = mv/(qB) where B is the magnetic flux density.\n\nThe speed of the proton at P is *v* = 3.2 × 10<sup>6</sup> m s<sup>–1</sup> and the magnetic flux density is 0.21 T.\n\nShow that the radius of the path is 16 cm.",
+     "solution_md": "Show that the radius of the path is 16 cm:\n\nList the known quantities:\n\n- Speed of the proton at P, *v* = 3.2 × 10<sup>6</sup> m s<sup>–1</sup>\n- Magnetic flux density, *B* = 0.21 T\n\nFrom the data page:\n\n- Rest mass of proton, *m*<sub>*p*</sub> = 1.67 × 10<sup>–27</sup> kg\n- Elementary charge, *e = q* = 1.60 × 10<sup>–19</sup> C\n\nSubstitute and calculate the value of *R*:\n\n- Radius: * *$R=\\frac{mv}{qB}$ (from part c)\n- $R=\\frac{(1.67\\times10^{-27})\\times(3.2\\times10^{6})}{(1.6\\times10^{-19})\\times0.21}$ **[1 mark]**\n- So, *R *= 0.159 m = 0.16 m = 16 cm **[1 mark]**** **\n\n**[Total: 2 marks]**\n\n> *This is a simple substitution question, but you must make sure you use the correct values for proton mass and charge from the data page and write the answer in the correct form. If you are stuck on where to start, have a look at the previous subparts. These are more often than not linked and guiding you through the question!*",
+     "equations": [
+      {
+       "latex": "R=\\frac{mv}{qB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>v</mi></mrow><mrow><mi>q</mi><mi>B</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space fraction numerator m v over denominator q B end fraction"
+      },
+      {
+       "latex": "R=\\frac{(1.67\\times10^{-27})\\times(3.2\\times10^{6})}{(1.6\\times10^{-19})\\times0.21}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>67</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>27</mn></mrow></msup><mo>)</mo><mo>&#215;</mo><mo>(</mo><mn>3</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo></mrow><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup><mo>)</mo><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>21</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space fraction numerator left parenthesis 1.67 cross times 10 to the power of negative 27 end exponent right parenthesis cross times left parenthesis 3.2 cross times 10 to the power of 6 right parenthesis over denominator left parenthesis 1.6 cross times 10 to the power of negative 19 end exponent right parenthesis cross times 0.21 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_y7Q9pfzF88Ysj7BT",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_qBtYBVVzCXH4V3MY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6S34CPt4BgzfXDh"
+     ],
+     "part_tier": null,
+     "problem_md": "Positive charges are seen passing through different magnetic fields.\n\nDetermine the direction of the missing quantity between *B*, *v* and *F* for each:\n\n![q3a_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium](assets/003-q3a-magnetic-effects-of-electric-currents-ib-sl-.png)",
+     "solution_md": "The direction of the missing quantities are:\n\n(i) Force = 0 / no direction; **[1 mark]**\n\n(ii) Force = 0 / no direction; **[1 mark]**\n\n(iii) Magnetic field lines / * B *is into the page; **[1 mark]**\n\n(iv) Magnetic field lines /  *B* is out of the page; **[1 mark]**\n\n(v) Force, *F* is into the page; **[1 mark]**** **\n\n**[Total: 5 marks]**\n\n> *You must remember that there is only a force on a charge in a magnetic field if the current is at **right angles** to the magnetic field. You will need Fleming's left-hand rule for this question!*"
+    },
+    {
+     "id": "qstnprt_mX2Zr7hNRY6QKdZF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sX6gTXtQcCt5dWvm",
+      "spcpt_G53DGdgSRnbKbtrh"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows two parallel plates. The magnitude of the electric field between the plates is 2.6 × 10<sup>3</sup> N C<sup>–1</sup> and is directed from the top plate to the bottom plate.\n\nThe shaded region represents a region of magnetic field that is perpendicular to the page.\n\n![q3b_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium](assets/004-q3b-magnetic-effects-of-electric-currents-ib-sl-.png)\n\n**Fig. 1.1**\n\nAn electron enters the region between the plates with a speed of 3.0 × 10<sup>5</sup> m s<sup>–1 </sup>and experiences zero net force as it travels through to the other side.\n\n(i) State the direction of the magnetic field\n\n[1]\n\n(ii) Determine the magnitude of the magnetic field.\n\n[4]",
+     "solution_md": "(i) State the direction of the magnetic field:\n\n![q3b-magnetic-effects-of-electric-ma](assets/005-q3b-magnetic-effects-of-electric-ma.png)\n\n- For the net force to be zero, the magnetic force F<sub>B</sub> must act in the opposite direction to the electric force F<sub>E</sub>\n- The negatively charged electron will be attracted to the positively charged (top) plate\n- Therefore, the magnetic force will be directed downwards / towards the negative (bottom) plate; **[1 mark]**\n\n(ii) Determine the magnitude of the magnetic field:\n\nList the known quantities:\n\n- Electric field strength, *E* = 2.6 × 10<sup>3</sup> N C<sup>–1</sup>\n- Speed of electron, *v *= 3.0 × 10<sup>5</sup> m s<sup>–1</sup>\n\nRecall the equation for the force on a charge in an electric field:\n\n- Electric force: * *$E=\\frac{F_{E}}{q}\\RightarrowF_{E}=Eq$ **[1 mark]**\n\nCalculate the electric force on the electron:\n\n- *F*<sub>E</sub>* *= (2.6 × 10<sup>3</sup>) × (1.6 × 10<sup>–19</sup>)\n- *F*<sub>E</sub>* *= 4.16 × 10<sup>–16</sup> N **[1 mark]**\n- The magnitude of the magnetic and electric forces are the same, i.e. *F*<sub>B</sub> = *F*<sub>E</sub>\n\nRecall the equation for the force on a moving charge in a magnetic field:\n\n- Magnetic force:  $F_{B}=qvB\\mathrm{sin}θ$\n- The motion of the electron and the magnetic field are perpendicular, so sin 90° = 1\n- Therefore, $F_{B}=qvB$* ***[1 mark]**\n\nRearrange the equation and calculate magnetic flux density, *B*:\n\n- $F_{B}=qvB\\RightarrowB=\\frac{F_{B}}{qv}$\n- $B=\\frac{4.16\\times10^{-16}}{(1.6\\times10^{-19})\\times(3.0\\times10^{5})}=8.7\\times10^{-3}T$ **[1 mark]**\n\n**[Total: 5 marks]*** *\n\n> *The tricky part of this question is realising that the quantity given 2.6 × 10*<sup>*3*</sup>* N C*<sup>*–1*</sup>* is the equivalent to *$\\frac{F}{q}$* for the electric field. Look first at the units N C*<sup>*–1*</sup>*, so it must be *$\\frac{\\mathrm{Force}}{\\mathrm{Charge}}$*.*",
+     "equations": [
+      {
+       "latex": "E=\\frac{F_{E}}{q}\\RightarrowF_{E}=Eq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msub><mi>F</mi><mi>E</mi></msub><mi>q</mi></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><msub><mi>F</mi><mi>E</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>E</mi><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E space equals space F subscript E over q space space space rightwards double arrow space space space F subscript E space equals space E q"
+      },
+      {
+       "latex": "F_{B}=qvB\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>B</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>q</mi><mi>v</mi><mi>B</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript B space equals space q v B space sin space theta"
+      },
+      {
+       "latex": "F_{B}=qvB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>B</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>q</mi><mi>v</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript B space equals space q v B"
+      },
+      {
+       "latex": "F_{B}=qvB\\RightarrowB=\\frac{F_{B}}{qv}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>B</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>q</mi><mi>v</mi><mi>B</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>B</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msub><mi>F</mi><mi>B</mi></msub><mrow><mi>q</mi><mi>v</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript B space equals space q v B space space space rightwards double arrow space space space B space equals space fraction numerator F subscript B over denominator q v end fraction"
+      },
+      {
+       "latex": "B=\\frac{4.16\\times10^{-16}}{(1.6\\times10^{-19})\\times(3.0\\times10^{5})}=8.7\\times10^{-3}T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>16</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>16</mn></mrow></msup></mrow><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup><mo>)</mo><mo>&#215;</mo><mo>(</mo><mn>3</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>)</mo></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>8</mn><mo>.</mo><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B space equals space fraction numerator 4.16 cross times 10 to the power of negative 16 end exponent over denominator left parenthesis 1.6 cross times 10 to the power of negative 19 end exponent right parenthesis cross times left parenthesis 3.0 cross times 10 to the power of 5 right parenthesis end fraction space equals space 8.7 cross times 10 to the power of negative 3 end exponent space straight T"
+      },
+      {
+       "latex": "\\frac{F}{q}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>F</mi><mi>q</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F over q"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Force}}{\\mathrm{Charge}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>Force</mi><mi>Charge</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Force over Charge"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rVQJjnYbCGYJNRtd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sX6gTXtQcCt5dWvm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows two parallel plates. The magnitude of the electric field between the plates is 2.6 × 10^3 N C^–1 and is directed from the top plate to the bottom plate. The shaded region represents a region of magnetic field that is perpendicular to the page. An electron enters the region between the plates with a speed of 3.0 × 10^5 m s^–1 and experiences zero net force as it travels through to the other side.\n\nSuggest whether a proton moving with the same speed through the plates experiences zero net force. Explain your answer.",
+     "solution_md": "A proton moving with the same speed through the plates would experience:\n\n- The same / zero net force; **[1 mark]**\n\nThis is because:\n\n- The <u>magnitude</u> of the charge of the proton is the same (as the electron); **AND**\n- The magnetic field strength and velocity are unchanged (hence, there would be no change in force); **[1 mark]**\n\n**[Total: 2 marks]*** *\n\n> *Looking at the variables in the equation** F** = **qvB, **it is possible to see that there would also be a zero net force on the proton, as the magnitudes of **q**, **v** and **B** are all unchanged.*"
+    },
+    {
+     "id": "qstnprt_2tvK4dQ6FfBxHqPV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sX6gTXtQcCt5dWvm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows two parallel plates. The magnitude of the electric field between the plates is 2.6 × 10^3 N C^–1 and is directed from the top plate to the bottom plate. The shaded region represents a region of magnetic field that is perpendicular to the page. An electron enters the region between the plates with a speed of 3.0 × 10^5 m s^–1 and experiences zero net force as it travels through to the other side.\n\nAnother electron enters the region between the plates at half the speed of the electron in (b).\n\nSuggest whether the motion of the electron would be different to the motion of the electron in (b). Explain your answer.",
+     "solution_md": "The motion of the electron would be:\n\n- Different / deflected (compared to (b)); **[1 mark]**\n\nThis is because:\n\n- From $F_{B}=qvB$, magnetic force is directly proportional to speed `open parentheses F subscript B space proportional to space v close parentheses`\n- (Since *B *and *q *are unchanged) magnetic force $F_{B}$ will half; **[1 mark]**\n- Hence, the magnetic and electric forces will not be balanced, so, the electron will deflect (upwards); **[1 mark]**** **\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "F_{B}=qvB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>B</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>q</mi><mi>v</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript B space equals space q v B"
+      },
+      {
+       "latex": "F_{B}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>F</mi><mi>B</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wqCKRvS6Rgz74dty",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_ZXFNTWXhV6XHTCvz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 4",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_G6S34CPt4BgzfXDh"
+     ],
+     "part_tier": null,
+     "problem_md": "A thin slice of conducting material has its faces PQRS and VWXY normal to a uniform magnetic field of flux density *B*, as shown in Fig. 6.1.\n\n![q6-paper-4-specimen-2022-cie-ial-physics](assets/006-q6-paper-4-specimen-2022-cie-ial-physics.png)\n\n**Fig. 6.1**\n\nElectrons enter the slice at right angles to face SRXY.\n\nA potential difference, the Hall voltage *V*<sub>H</sub>, is produced between two faces of the slice.\n\n(i) Use letters from Fig. 6.1 to identify the two faces between which the Hall voltage is produced.\n\n.......................................... and .......................................... [1]\n\n(ii) State and explain which of the two faces named in** (a)(i)** is the more positive.\n\n[2]",
+     "solution_md": "(i) Consider the position of the magnetic field in relation to the current:\n\n- The hall voltage states that the magnetic field is applied perpendicular to the current\n\nTherefore the two faces between which the Hall voltage is produced are:\n\n- PSVY <u>and</u> QRWX; **[1 mark]**\n\n![file-000-50](assets/007-file-000-50.png)\n\n(ii) Consider the deflection of an electron in the field:\n\n- An electron moving in the magnetic field will be deflected towards face QRXW; **[1 mark]**\n- Hence, the negative electrons will build up and create an overall surplus negative charge\n- (On the other face PSVY, there will be a surplus of positive charge) so PSVY is more positive; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *In part (i) **draw** lines on the **diagram **to identify the faces perpendicular to the current and parallel to the magnetic field*\n\n  - *Don't be fooled by** PQRS** this face is **parallel **to the current*\n\n- *In part (ii) consider Fleming's Left-Hand Rule:*\n\n  - *The magnetic field is represented by the first finger and acts down the page*\n  - *The current is represented by the second finger and acts across the page to the right in the opposite direction to the electron flow*\n  - *The thumb represents the subsequent motion of the electrons which will move into the page and toward face QRWX*"
+    },
+    {
+     "id": "qstnprt_7brW4cvxFvQPzXXR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 4",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_R4SCGvcM5FP7F9p2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA thin slice of conducting material has its faces PQRS and VWXY normal to a uniform magnetic field of flux density *B*, as shown in Fig. 6.1. Electrons enter the slice at right angles to face SRXY. A potential difference, the Hall voltage *V*~H~, is produced between two faces of the slice.\n\nThe Hall voltage $V_{H}$ is given by the expression\n\n$V_{H}=\\frac{BI}{ntq}$\n\n(i) Use the letters in Fig. 6.1 to identify the distance *t*.\n\n[1]\n\n(ii) The negative charge carriers (electrons) are replaced by positive charge carriers moving in the same direction towards the slice.\n\nState and explain the effect, if any, of this change on the polarity of the Hall voltage.\n\n[2]",
+     "solution_md": "(i) Thickness *t* is equal to:\n\n- PV **or** SY **or** RX **or** QW; **[1 mark]**\n\n(ii) State and explain the effect, if any, of this change on the polarity of the Hall voltage:\n\n- The negative and positive charges would deflect in opposite directions; **[1 mark]**\n- So there is no change in the polarity (of the Hall voltage); **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Part (i) requires you to consider the length through which the Hall voltage acts:*\n\n  - *t** stands for the **thickness** of the **conductor*\n  - *The **Hall voltage** acts between PSYV and QRXW, so the distance PQ is the **length** of the block*\n  - *So, the thickness of the conductor is as **thick** as the block:*\n  \n    - *PV / SY / RX / QW*\n\n- *Part (ii) is a little difficult to understand:*\n\n  - *Using the same convention as part a, ii, under the influence of the **same magnetic field*\n  - *The **positive charge** carriers would move in the **opposite direction** to that of the electrons*\n  - *So the positive and negative charges will still **build up on the same sides**, as with the electrons*\n  - *So, the** electric field** remains in the **same direction*",
+     "equations": [
+      {
+       "latex": "V_{H}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>V</mi><mi>H</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V subscript H"
+      },
+      {
+       "latex": "V_{H}=\\frac{BI}{ntq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mi>H</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>B</mi><mi>I</mi></mrow><mrow><mi>n</mi><mi>t</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V subscript H space equals space fraction numerator B I over denominator n t q end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BqNbSbbt9zDBGpjb",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_S4PWfc7YXymtsv4Y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6zdT7rBqG7Wj8mbP"
+     ],
+     "part_tier": null,
+     "problem_md": "Positive charges are seen passing through different magnetic fields.\n\nIn Table 1.1, state the direction of the missing quantity between *B*, *v* and *F* in each scenario\n\n**Table 1.1**\n\n![q3a_magnetic-effects-of-electric-currents_ib-sl-physics-sq-medium](assets/003-q3a-magnetic-effects-of-electric-currents-ib-sl-.png)",
+     "solution_md": "(i) When the field and motion are parallel:\n\n- Force = 0 / no direction; **[1 mark]**\n\n(ii) When the field and motion are opposed:\n\n- Force = 0 / no direction; **[1 mark]**\n\n(iii) When the force is to the left and the motion is down:\n\n- Magnetic field / *B *is into the page; **[1 mark]**\n\n(iv) When the force is up and the motion is to the right:\n\n- Magnetic field / *B* is out of the page; **[1 mark]**\n\n(v) When the motion is to the left and the field is down:\n\n- Force / *F* is into the page; **[1 mark]**** **\n\n**[Total: 5 marks]**\n\n> *You must remember that there is only a force on a charge in a magnetic field if the current is at **right angles** to the magnetic field. You will need Fleming's left-hand rule for this question!*"
+    },
+    {
+     "id": "qstnprt_TXwCTB8CFc3fDBbs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6zdT7rBqG7Wj8mbP"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows a rectangular wire loop ABCD with width 6.0 cm and length 9.0 cm in a uniform magnetic field of strength 0.75 T.\n\nThe current in the loop is 3.5 A.\n\n![20-1-3b-e-20-1-e-rectangular-loop-in-b-field-cie-ial-sq-correct](assets/008-20-1-3b-e-20-1-e-rectangular-loop-in-b-field-cie.png)\n\n**Fig. 1.1**\n\nDraw arrows on Fig. 1.1 to show the direction of the force on\n\n(i) side AB\n\n[1]\n\n(ii) side CD\n\n[1]",
+     "solution_md": "The direction of the force on each side is...\n\n![20-1-3b-e-20-1-e-rectangular-loop-ma](assets/009-20-1-3b-e-20-1-e-rectangular-loop-ma.png)\n\n(i) Side AB\n\n- Arrow pointing down; **[1 mark]**\n\n(ii) Side CD\n\n- Arrow pointing up; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_b2h44RGSBZRfFKVc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_893zyS5yCdTvfZ6Q"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows a rectangular wire loop ABCD with width 6.0 cm and length 9.0 cm in a uniform magnetic field of strength 0.75 T. The current in the loop is 3.5 A.\n\nCalculate the magnitude of the force acting on\n\n(i) side AB\n\n[2]\n\n(ii) side BC\n\n[1]",
+     "solution_md": "(i) Calculate the force on side AB:\n\nList the known quantities:\n\n- Length, *L* = 9.0 cm = 0.09\n- Magnetic field strength, *B* = 0.75 T\n- Current, *I* = 3.5 A\n- Angle between wire and field, *θ* = 90°\n\nUse the equation for force on a current-carrying conductor:\n\n- Magnetic force:  $F=BIL\\mathrm{sin}θ\\RightarrowF=BIL$ (sin 90° = 1)\n- $F=0.75\\times3.5\\times0.09$ **[1 mark]**\n- $F$ = 0.236 = 0.24 N **[1 mark]**\n\n(ii) Calculate the force on side BC:\n\n- Magnetic force:  $F=BIL\\mathrm{sin}θ\\RightarrowF=0$ (sin 0° = 0)\n- $F$ = 0 N **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "F=BIL\\mathrm{sin}θ\\RightarrowF=BIL",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>I</mi><mi>L</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>I</mi><mi>L</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B I L space sin space theta space space space space space rightwards double arrow space space space space space F space equals space B I L"
+      },
+      {
+       "latex": "F=0.75\\times3.5\\times0.09",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>09</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space equals space 0.75 space cross times space 3.5 space cross times space 0.09"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "F=BIL\\mathrm{sin}θ\\RightarrowF=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>I</mi><mi>L</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B I L space sin space theta space space space space space rightwards double arrow space space space space space F space equals space 0"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gN2SdhqVkY3ZSFSc",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QQy7zzGmRXM7JY5W"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows a rectangular wire loop ABCD with width 6.0 cm and length 9.0 cm in a uniform magnetic field of strength 0.75 T. The current in the loop is 3.5 A.\nCalculate the force on side AB: Length, L = 9.0 cm = 0.09; Magnetic field strength, B = 0.75 T; Current, I = 3.5 A; Angle between wire and field, θ = 90°. F = B I L = 0.75 × 3.5 × 0.09; F = 0.236 = 0.24 N\n\n(i) When the current is switched off the loop does not move.\n\nDescribe the motion of the loop once the current is switched on.\n\n[1]\n\n(ii) Determine the effect on the magnitude of the magnetic force on side CD if\n\n**1.**  the magnetic flux density is halved\n\n**2.**  the length of the wire is increased by a factor of 4\n\n**3.**  the current is reduced by 20%\n\n[3]",
+     "solution_md": "(i) When the current is switched on:\n\n- The loop rotates in an anti-clockwise direction; **[1 mark]**\n\n(ii) The effect on the magnetic force when...\n\n**1.  **the magnetic flux density is halved\n\n- $F=BIL\\RightarrowF\\proptoB$\n- The force will halve\n**OR**\n- $F=\\frac{1}{2}\\times0.24=0.12N$ **[1 mark]**\n\n**2. ** the length of the wire is increased by a factor of 4\n\n- $F=BIL\\RightarrowF\\proptoL$\n- The force will increase by a factor of 4\n**OR**\n- $F=4\\times0.24=0.96N$ **[1 mark]**\n\n**3. ** the current is reduced by 20%\n\n- $F=BIL\\RightarrowF\\proptoI$\n- The force will reduce by 20%\n**OR**\n- $F=0.8\\times0.24=0.19N$ **[1 mark]**\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "F=BIL\\RightarrowF\\proptoB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>I</mi><mi>L</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>F</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B I L space space space space space rightwards double arrow space space space space space space F space proportional to space B"
+      },
+      {
+       "latex": "F=\\frac{1}{2}\\times0.24=0.12N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>24</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>12</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space equals space 1 half cross times 0.24 space equals space 0.12 space straight N"
+      },
+      {
+       "latex": "F=BIL\\RightarrowF\\proptoL",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>I</mi><mi>L</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>F</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>L</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B I L space space space space space rightwards double arrow space space space space space space F space proportional to space L"
+      },
+      {
+       "latex": "F=4\\times0.24=0.96N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>24</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>96</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space equals space 4 cross times 0.24 space equals space 0.96 space straight N"
+      },
+      {
+       "latex": "F=BIL\\RightarrowF\\proptoI",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>I</mi><mi>L</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>F</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B I L space space space space space rightwards double arrow space space space space space space F space proportional to space I"
+      },
+      {
+       "latex": "F=0.8\\times0.24=0.19N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>24</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>19</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space equals space 0.8 cross times 0.24 space equals space 0.19 space straight N"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3V6qF5VvJhDyrDV3",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_wWByg6g8ZSC8hd29",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6zdT7rBqG7Wj8mbP"
+     ],
+     "part_tier": null,
+     "problem_md": "When the force, the magnetic field and the current are all mutually perpendicular to each other, the directions of each can be represented by Fleming’s left–hand rule, as shown in Fig. 1.1.\n\n![q2a-figure-1](assets/010-q2a-figure-1.png)\n\n**Fig. 1.1**\n\nState what is represented by the direction of\n\n(i) the thumb\n\n[1]\n\n(ii) the first finger\n\n[1]\n\n(iii) the second finger\n\n[1]",
+     "solution_md": "(i) The thumb represents the:\n\n- Motion / Force; **[1 mark]**\n\n(ii) The first finger represents the:\n\n- Magnetic field; **[1 mark]**\n\n(iii) The second finger represents the:\n\n- Current; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *It is important not to get mixed up with what each finger represents. An easy way to remember this is:*\n\n- *Thu**M**b = **M**otion / force*\n- *F**irst finger = (magnetic) **F**ield*\n- *Se**C**ond finger = **C**urrent*"
+    },
+    {
+     "id": "qstnprt_mZvmNGrxhsJxKzY7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6S34CPt4BgzfXDh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen the force, the magnetic field and the current are all mutually perpendicular to each other, the directions of each can be represented by Fleming's left–hand rule, as shown in Fig. 1.1.\n\nThe thumb represents Motion / Force; the first finger represents the Magnetic field; the second finger represents the Current.\n\nFig. 1.2 shows a magnetic field.\n\n![q2b-figure-2](assets/011-q2b-figure-2.png)\n\n**Fig. 1.2**\n\n(i) State whether the magnetic field is acting into or out of the page.\n\n[1]\n\n(ii) An electron enters the magnetic field at point A, as shown in Fig. 1.3.\n\nOn Fig. 1.3, draw\n\n**1.**  an arrow on the electron to show the direction of the force\n\n**2.**  the path of the electron through the magnetic field\n\n![q4b-figure-1](assets/012-q4b-figure-1.png)\n\n**Fig. 1.3**\n\n[4]",
+     "solution_md": "(i) The magnetic field is acting:\n\n- Into the page; **[1 mark]**\n\n(ii) The force and motion of the electron are as follows:\n\n**1.** The force on the electron\n\n![4b-mark-scheme](assets/013-4b-mark-scheme.png)\n\n- Arrow perpendicular to electron beam; **[1 mark]**\n- Pointing downwards; **[1 mark]**\n\n**2.** The motion of the electron\n\n![4d-mark-scheme](assets/014-4d-mark-scheme.png)\n\n- Moves in a circular arc; **[1 mark]**\n- Leaves the field pointing downwards; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *We can use Fleming’s left–hand rule to determine the direction of the force acting on the electron, however, as we have an isolated charge the second finger gives the direction of the **velocity** of a **positive** charge.*\n\n> *As we have a **negatively-charged** electron we reverse the direction of the velocity*\n\n- *The second finger (motion) will point to the left (since the electron, or negative charge, is moving to the right)*\n- *The first finger (field) points into the page*\n- *Hence the thumb (force) will point downwards*\n\n> *When the electron is in the magnetic field the force acting on it will be perpendicular to the direction in which it is moving. This causes the electron to move in a **circular path**.*\n\n> *The force exerted on the electron from the magnetic field will point towards the centre of the circular path, hence in this example, the circular arc is directed downwards*"
+    },
+    {
+     "id": "qstnprt_2vB2XwrKdDGnzpKp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GYXV7cTNpCQYPJWy",
+      "spcpt_893zyS5yCdTvfZ6Q"
+     ],
+     "part_tier": null,
+     "problem_md": "When a moving charge enters a magnetic field the magnetic field produces a force on the charge, which can be calculated using\n\n$F=Bqv$\n\n(i) State the meaning of the quantities *B*, *q* and *v*.\n\n[3]\n\n(ii) When in the field, the charge begins to move in a circular orbit.\n\nState the name and equation of the force that causes the charge to move in a circular orbit.\n\n[3]",
+     "solution_md": "(i) The symbols represent the following quantities:\n\n- *B* = magnetic flux density of the field; **[1 mark]**\n- *q* = charge of the particle; **[1 mark]**\n- *v *= velocity of the particle; **[1 mark]**\n\n(ii) The force that causes the charge to move in a circular orbit is the:\n\n- Centripetal force; **[1 mark]**\n\nThe equation to calculate the centripetal force is:\n\n- $F=\\frac{mv^{2}}{r}$ **[1 mark]**\n- Where *m* = mass of the charge, *v* = velocity, and *r* = radius of the orbit; **[1 mark]**\n\n**[Total: 6 marks]**",
+     "equations": [
+      {
+       "latex": "F=Bqv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>q</mi><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B q v"
+      },
+      {
+       "latex": "F=\\frac{mv^{2}}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>r</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator m v squared over denominator r end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4Txsc72mwjhkwszN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6S34CPt4BgzfXDh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen a moving charge enters a magnetic field the magnetic field produces a force on the charge, which can be calculated using F = B q v\n\nMagnetic force on a charge: F = B q v\nCentripetal force: F = mv²/r\n\nWhen the electron enters the magnetic field, its speed is 3.0 × 10<sup>6</sup> m s<sup>–1</sup>. The magnetic field has a magnetic flux density of 3.2 × 10<sup>–3</sup> T.\n\n(i) Using the equations in **(c)**, show that the radius of the circular orbit of the charged object inside the magnetic field is equal to\n\n$r=\\frac{mv}{Bq}$\n\n[3]\n\n(ii) Calculate the radius of the circular orbit of the electron\n\nMass of an electron = 9.11 × 10<sup>–31</sup> kg\n\nCharge of an electron = 1.60 × 10<sup>–19</sup> C\n\n[2]",
+     "solution_md": "(i) Use the equations from **(c)** to derive the equation for radius:\n\n- Magnetic force on a charge:  $F=Bqv$\n- Centripetal force:  $F=\\frac{mv^{2}}{r}$\n\nEquate the two expressions of force:\n\n- Equate:  $Bqv=\\frac{mv^{2}}{r}$ **[1 mark]**\n- Rearrange:  $r=\\frac{mv^{2}}{Bqv}$ **[1 mark]**\n- Simplify:  $r=\\frac{mv}{Bq}$ **[1 mark]**\n\n(ii) Calculate the radius of the circular orbit of the electron:\n\nList the known quantities:\n\n- Mass of an electron, *m* = 9.11 × 10<sup>–31</sup> kg\n- Charge of an electron, *q* = 1.60 × 10<sup>–19</sup> C\n- Magnetic flux density, *B* = 3.2 × 10<sup>–3</sup> T\n- Speed of the electron, *v* = 3.0 × 10<sup>6</sup> m s<sup>–1</sup>\n\nUse the equation from part (i):\n\n- $r=\\frac{mv}{Bq}$\n- `r space equals space fraction numerator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 3.0 cross times 10 to the power of 6 close parentheses over denominator open parentheses 3.2 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses end fraction` **[1 mark]**\n- $r$ = 5.3 × 10<sup>–3</sup> m **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "r=\\frac{mv}{Bq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>v</mi></mrow><mrow><mi>B</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r space equals space fraction numerator m v over denominator B q end fraction"
+      },
+      {
+       "latex": "F=Bqv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>q</mi><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space B q v"
+      },
+      {
+       "latex": "F=\\frac{mv^{2}}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>r</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator m v squared over denominator r end fraction"
+      },
+      {
+       "latex": "Bqv=\\frac{mv^{2}}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mi>q</mi><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>r</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B q v space equals space fraction numerator m v squared over denominator r end fraction"
+      },
+      {
+       "latex": "r=\\frac{mv^{2}}{Bqv}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mrow><mi>B</mi><mi>q</mi><mi>v</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r space equals space fraction numerator m v squared over denominator B q v end fraction"
+      },
+      {
+       "latex": "r=\\frac{mv}{Bq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>v</mi></mrow><mrow><mi>B</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r space equals space fraction numerator m v over denominator B q end fraction"
+      },
+      {
+       "latex": "r=\\frac{mv}{Bq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>v</mi></mrow><mrow><mi>B</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r space equals space fraction numerator m v over denominator B q end fraction"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

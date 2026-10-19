@@ -1,0 +1,1033 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:29:14Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "7-waves",
+  "name": "7. Waves"
+ },
+ "topic": {
+  "id": "top_FjfhwYFH6HCpYPkg",
+  "slug": "7-5-polarisation",
+  "name": "Polarisation",
+  "order": 4
+ },
+ "subtopics": [
+  {
+   "slug": "polarisation",
+   "name": "Polarisation",
+   "revision_note_id": "rn_jQDhy3Q4n5QR8sZp"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_hkbQqVdRbPSsfr8H",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 14,
+   "questions_embedded": 14,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/7-waves/7-5-polarisation/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 14,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images343png.png": "001-cie-ial-images343png.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images351png.png": "002-cie-ial-images351png.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-physics-mcq-7-2-q23.png": "003-cie-ial-physics-mcq-7-2-q23.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images348png.png": "004-cie-ial-images348png.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images349png.png": "005-cie-ial-images349png.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_ZSTKQ3PJzXx6YZm3",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hfzMrq26bBRmhnM7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TPFGCdQXyf7xG2QV"
+     ],
+     "part_tier": null,
+     "problem_md": "Unpolarised light of intensity 8.0 W m<sup>-2</sup> is incident upon a polariser. The light is then transmitted to a second polariser at an angle of 25° to that of the first polariser.\n\nWhat is the intensity of the light beam emerging from the second polariser?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- The known quantities are\n\n  - Initial intensity, *I*<sub>0</sub> = 8.0 W m<sup>-2</sup>\n  - Angle between the first and second polariser, *θ* = 25°\n- When unpolarised light is incident on the first polariser, the intensity is reduced by half\n\n  - $I_{1}=\\frac{1}{2}I_{0}$\n  - $I_{1}=\\frac{1}{2}\\times8.0=4.0$W m<sup>-2</sup>\n- There is a 25° angle between the first and second polariser so Malus’s Law should be used\n\n  - `I space equals space I subscript 0 space cos squared space open parentheses theta close parentheses`\n- As the light incident on the second polariser comes from the first, *I*<sub>0</sub> will be replaced with *I*<sub>1</sub>\n\n  - `I space equals space I subscript 1 space cos squared space open parentheses theta close parentheses`\n  - `I space equals space 4.0 space cross times cos squared space open parentheses 25 close parentheses space equals space 3.3` W m<sup>-2 </sup>(2 s.f)\n- This is option **B**\n\n- You can’t write `cos squared space open parentheses theta close parentheses` on your calculator\n- In order to  do Malus’s Law calculations, you can write instead `cos squared space open parentheses theta close parentheses` of the following\n\n  - `open parentheses cos open parentheses theta close parentheses close parentheses squared`\n  - `cos space open parentheses theta close parentheses space cross times space cos open parentheses theta close parentheses`",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1.6 W m<sup>-2</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "3.3 W m<sup>-2</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "3.6 W m<sup>-2</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "6.6 W m<sup>-2</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I_{1}=\\frac{1}{2}I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 1 space equals space 1 half I subscript 0"
+      },
+      {
+       "latex": "I_{1}=\\frac{1}{2}\\times8.0=4.0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mn>8</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I subscript 1 space equals space 1 half cross times 8.0 space equals space 4.0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yzgB9nPX6fFVbB9q",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WMtSw82RGYTRvSF4",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TPFGCdQXyf7xG2QV"
+     ],
+     "part_tier": null,
+     "problem_md": "A polarised light beam emerges from a polariser. It is then transmitted onto an analyser, which is at angle $θ$ to the polariser.\n\nWhat does the value of the angle $θ$ need to be, so that the light emerging from the analyser is at maximum intensity?",
+     "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- An angle of 180° means that the analyser is parallel to the light transmitted from the polariser\n- All of the light incident upon the analyser will emerge from the analyser\n\n  - Therefore the light will be at its maximum intensity\n\nOption **B** and **D** are incorrect because\n\n- Angles of 90° and 270° means that the analyser is perpendicular to the light transmitted from the polariser\n- No light will emerge from the analyser at these angles\n\nOption **A** is incorrect because\n\n- An angle of 45° will mean that some light will emerge from the analyser but it will not be at maximum intensity\n- In an exam if you can’t remember which angles result in maximum intensity use Malus’s Law\n\n  - $I=I_{0}cos^{2}(θ)$\n- When *θ* is 90° or 270°\n\n  - $I=I_{0}\\times0$ = 0\n- When is 0° or 180°\n\n  - $I=I_{0}\\times1=I_{0}$\n- When is 45°\n\n  - $I=I_{0}\\times\\frac{1}{2}=\\frac{I_{0}}{2}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "45°"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "90°"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "180°"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "270°"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "I=I_{0}cos^{2}(θ)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><mi>c</mi><mi>o</mi><msup><mi>s</mi><mn>2</mn></msup><mo>(</mo><mi>&#952;</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I equals I subscript 0 space c o s squared left parenthesis theta right parenthesis"
+      },
+      {
+       "latex": "I=I_{0}\\times0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#215;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I equals I subscript 0 cross times 0"
+      },
+      {
+       "latex": "I=I_{0}\\times1=I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#215;</mo><mn>1</mn><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I equals I subscript 0 cross times 1 equals I subscript 0"
+      },
+      {
+       "latex": "I=I_{0}\\times\\frac{1}{2}=\\frac{I_{0}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#215;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I equals space I subscript 0 cross times 1 half equals fraction numerator space I subscript 0 over denominator 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Xj3f4H9NvzKf5mr9",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MgxZ5Nhj3h26tMrW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "The following are statements about waves. Which statement below describes a situation in which polarisation would not happen?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Polarisation is the process by which oscillations of transverse waves are made to occur in one plane only\n- Transverse waves can be polarised as they can oscillate in many planes\n- Sound, however, is a longitudinal wave\n- Longitudinal waves cannot be polarised as they oscillate parallel to the direction of travel\n- Therefore, sound waves would not be polarised by a metal grid\n\n![cie-ial-images343png](assets/001-cie-ial-images343png.png)\n\n**A **is incorrect because microwaves are **transverse** waves so can be polarised, this can be done by passing the waves through a grid so that only the waves that fit through the slits can continue\n\n**C **is incorrect because if light strikes a surface so that there is a 90<sup>o</sup> angle between the **reflected** and refracted rays, the **reflected** light will be linearly **polarised**\n\n**D **is incorrect because the scattering of light off air molecules produces linearly polarised light in the plane perpendicular to the incident light",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "microwaves pass through a metal grid"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "sound waves pass through a metal grid"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "light waves are reflected"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "light waves are scattered"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wcZckxMN4QTyr3CX",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_yVFk6g2DzmH6CgNT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "A linearly polarised electromagnetic beam has an intensity of 16 W m<sup>–2</sup> with an angle of incidence of 45° to the vertical.\n\nWhat is the intensity of the transmitted beam?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Malus’s law allows the calculation of the intensity of the beam of plane polarised light, it is given by\n\n  - $I=I_{0}cos^{2}θ$\n- The initial intensity is equal to *I­*<sub>*0*</sub> = 16 W m<sup>−2</sup>\n- The angle of incidence is *θ* = 45°\n\n  - $I=16\\times\\mathrm{cos}^{2}45=8.0Wm^{-2}$\n- Therefore, the intensity of the transmitted beam is 8 W m<sup>–2</sup>",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "20 W m<sup>–2</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "12 W m<sup>–2</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "16 W m<sup>–2</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "8 W m<sup>–2</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I=I_{0}cos^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mo> </mo><mi>c</mi><mi>o</mi><msup><mi>s</mi><mn>2</mn></msup><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I equals I subscript 0 space c o s squared space theta"
+      },
+      {
+       "latex": "I=16\\times\\mathrm{cos}^{2}45=8.0Wm^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mn>16</mn><mo>&#215;</mo><msup><mi>cos</mi><mrow><mn>2</mn><mo>&#160;</mo></mrow></msup><mn>45</mn><mo>=</mo><mn>8</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I equals 16 cross times cos to the power of 2 space end exponent 45 equals 8.0 space straight W space straight m to the power of negative 2 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wcDNBgG5mcpGysQK",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7Cjvj827CZQgffPW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following waves can be polarised?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Polarisation is the process by which oscillations of transverse waves are made to occur in one plane only\n- Transverse waves can be polarised as they can oscillate in many planes\n- Light is an example of a transverse wave, and polarisation is a property which is unique to transverse waves only\n\n**B** is incorrect because a progressive wave is simply a wave that transfers energy through a medium or space; it can be transverse or longitudinal, so “progressive” by itself does not tell you whether it can be polarised\n\n**C** is incorrect because stationary waves can be either transverse (can be polarised) or longitudinal (cannot be polarised), therefore, 'stationary' is not the property that guarantees polarisation.\n\n**D** is incorrect because longitudinal waves have oscillations parallel to the direction of energy transfer, so they **cannot** be plane-polarised",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "transverse"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "progressive"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "stationary"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "longitudinal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rSRw5whfqXSnf8SG",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WMksVZrkMdKXFypP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "Unpolarised light of intensity *I*<sub>*0*</sub> is incident on a polariser that has a vertical transmission axis, as shown in the diagram below.\n\n![cie-ial-images351png](assets/002-cie-ial-images351png.png)\n\nWhich graph shows the intensity of the transmitted light ?\n\n![cie-ial-physics-mcq-7-2-q23](assets/003-cie-ial-physics-mcq-7-2-q23.png)",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Polarisation is the process by which the oscillations are made to occur in one plane only\n- As the light passes through the first polariser half of the intensity `open parentheses I subscript 0 over 2 close parentheses` of the ray is lost\n\n  - This is known as the half rule\n\nThe other graphs do not recognise that the incoming light is unpolarised, so the other graphs are incorrect",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qQy4xnDpS6MrJChk",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gSzPpTzDBRnDvXF9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TPFGCdQXyf7xG2QV",
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "Unpolarised light of intensity *I*<sub>*0*</sub>* *is incident on the first of two polarising sheets. Initially the planes of polarisation of the sheets are perpendicular.\n\n** **Which sheet must be rotated and by what angle *θ*, so that light intensity  $\\frac{I_{0}}{4}$   can emerge from the second sheet ?\n\n| ** ** | **Rotated sheet** | **Angle θ of rotation** |\n|---|---|---|\n| **A** | 1 or 2 | $\\mathrm{cos}^{-1}\\frac{1}{2}$ |\n| **B** | 1 or 2 | $\\mathrm{cos}^{-1}\\frac{\\sqrt{2}}{2}$ |\n| **C** | 2 only | $\\mathrm{cos}^{-1}\\frac{1}{2}$ |\n| **D** | 1 only | $\\mathrm{cos}^{-1}\\frac{\\sqrt{2}}{2}$ |",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- The two polarisers begin perpendicular, so no light is transmitted\n- Rotating either sheet changes only the **relative** angle between their axes, which determines the transmitted intensity via Malus’s law:\n\n$I_{2}=\\frac{I_{0}}{2}\\mathrm{cos}^{2}θ$\n\n- As the light passes through the first sheet half of the intensity of the ray is lost, this is known as the half rule\n- The second filter will need to reduce the intensity by another half in order for the emerging light to be $\\frac{I_{0}}{4}$\n\n  - So $\\mathrm{cos}^{2}θ=\\frac{1}{2}$\n- Rearrange to obtain a value for *θ*\n\n  - $\\mathrm{cos}θ=\\sqrt{\\frac{1}{2}}$\n  - $θ=\\mathrm{cos}^{-1}\\sqrt{\\frac{1}{2}}=\\mathrm{cos}^{-1}\\frac{\\sqrt{2}}{2}$\n- Either sheet may be rotated, because only the **relative angle** matters\n\n**A **is incorrect because $\\mathrm{cos}^{-1}\\frac{1}{2}$  would give an angle of 60˚. This would reduce the intensity of the light greater than 50%\n\n**C **& **D **are incorrect because either filter could be rotated",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{I_{0}}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mn>0</mn></msub><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 over 4"
+      },
+      {
+       "latex": "\\mathrm{cos}^{-1}\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cos to the power of negative 1 end exponent 1 half"
+      },
+      {
+       "latex": "\\mathrm{cos}^{-1}\\frac{\\sqrt{2}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cos to the power of negative 1 end exponent fraction numerator square root of 2 over denominator 2 end fraction"
+      },
+      {
+       "latex": "\\mathrm{cos}^{-1}\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cos to the power of negative 1 end exponent space 1 half"
+      },
+      {
+       "latex": "\\mathrm{cos}^{-1}\\frac{\\sqrt{2}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cos to the power of negative 1 end exponent fraction numerator square root of 2 over denominator 2 end fraction"
+      },
+      {
+       "latex": "I_{2}=\\frac{I_{0}}{2}\\mathrm{cos}^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>2</mn></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><mn>2</mn></mfrac><mo>&#160;</mo><msup><mi>cos</mi><mn>2</mn></msup><mo>&#160;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I subscript 2 space equals fraction numerator space I subscript 0 over denominator 2 end fraction space cos squared space theta"
+      },
+      {
+       "latex": "\\frac{I_{0}}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mn>0</mn></msub><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 over 4"
+      },
+      {
+       "latex": "\\mathrm{cos}^{2}θ=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>θ</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cos squared theta space equals space 1 half"
+      },
+      {
+       "latex": "\\mathrm{cos}θ=\\sqrt{\\frac{1}{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>cos</mi><mi>θ</mi><mo> </mo><mo>=</mo><mo> </mo><msqrt><mfrac><mn>1</mn><mn>2</mn></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "cos theta space equals space square root of 1 half end root"
+      },
+      {
+       "latex": "θ=\\mathrm{cos}^{-1}\\sqrt{\\frac{1}{2}}=\\mathrm{cos}^{-1}\\frac{\\sqrt{2}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>θ</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msqrt><mfrac><mn>1</mn><mn>2</mn></mfrac></msqrt><mo> </mo><mo>=</mo><mo> </mo><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta space equals space cos to the power of negative 1 end exponent square root of 1 half end root space equals space cos to the power of negative 1 end exponent fraction numerator square root of 2 over denominator 2 end fraction"
+      },
+      {
+       "latex": "\\mathrm{cos}^{-1}\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn><mo>&#160;</mo></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cos to the power of negative 1 space end exponent 1 half"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PYbT6bR3DtmMMkxy",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_FnXMpmC3n8Tf5k5D",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "Unpolarised light of intensity $I$* *is incident upon a polariser. The light is then transmitted to a second polariser and then a third. The polarisers have the same orientation.\n\nWhich statement is true?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- When unpolarised light is incident on the first polariser, the intensity is reduced by half\n\n  - $I_{1}=\\frac{1}{2}I$\n- When the second and third polarisers have the same transmission axis as the first, the angle between their axes is $0^{\\circ}$\n- By Malus’s law,$I=I_{0}\\mathrm{cos}^{2}0=I_{0}$, so no additional reduction occurs after the first polariser\n- Therefore, the intensity of the third polariser is\n\n  - $I_{3}=\\frac{1}{2}I$\n- This is option **D**\n\nOptions **A** and **B** are incorrect because\n\n- The intensity of the second polariser is also the same as the first polariser\n\n  - $I_{2}=\\frac{1}{2}I$\n- When the polarisers are not of the same orientation, Malus’s Law should be used\n\n  - `I space equals space I subscript 0 space c o s squared space open parentheses theta close parentheses`",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The intensity of the light emerging from the second polariser is $\\frac{1}{4}I$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The intensity of the light emerging from the second polariser is $2I$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The intensity of the light emerging from the third polariser is $\\frac{1}{8}I$"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The intensity of the light emerging from the third polariser is $\\frac{1}{2}I$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I"
+      },
+      {
+       "latex": "I_{1}=\\frac{1}{2}I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 1 space equals space 1 half I"
+      },
+      {
+       "latex": "0^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>&#176;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0 degree"
+      },
+      {
+       "latex": "I=I_{0}\\mathrm{cos}^{2}0=I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><msup><mi>cos</mi><mn>2</mn></msup><mo>&#160;</mo><mn>0</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 cos squared space 0 space equals space I subscript 0"
+      },
+      {
+       "latex": "I_{3}=\\frac{1}{2}I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>3</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 3 space equals space 1 half I"
+      },
+      {
+       "latex": "I_{2}=\\frac{1}{2}I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>2</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 2 space equals space 1 half I"
+      },
+      {
+       "latex": "\\frac{1}{4}I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 fourth I"
+      },
+      {
+       "latex": "2I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 I"
+      },
+      {
+       "latex": "\\frac{1}{8}I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 over 8 I"
+      },
+      {
+       "latex": "\\frac{1}{2}I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half I"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mdXvTJSmnQZDX5JM",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HF2YMJ4Kprz7CBjk",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TPFGCdQXyf7xG2QV"
+     ],
+     "part_tier": null,
+     "problem_md": "Unpolarised light is incident on a polariser. The light transmitted by the first polariser is then incident on a second polariser. The polarising axis of the second sheet is 60˚ to that of the first.\n\nThe intensity emerging from the second polariser is *I*<sub>*2*</sub>.\n\nWhich of the following gives the intensity incident on the first polariser?",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Polarisation is the process by which the oscillations are made to occur in one plane only\n- As the light passes through the first polariser half of the intensity `open parentheses I subscript 0 over 2 close parentheses`  of the ray is lost\n\n  - This is known as the half rule\n  - Therefore, the light incident on the second polariser is:\n\n$I_{1}=\\frac{I_{0}}{2}$\n\n- Malus’s law allows us to calculate the intensity of a beam of plane polarised light, it is given by\n\n$I=I_{0}\\mathrm{cos}^{2}θ$\n\n- The intensity of light emerging from the second polariser is equal to\n\n$I_{2}=I_{1}\\mathrm{cos}^{2}60=\\frac{I_{0}}{2}\\times\\frac{1}{4}=\\frac{I_{0}}{8}$\n\n- Therefore, the initial intensity incident on the first polariser is  $I_{0}=8I_{2}$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$\\frac{I_{2}}{4}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$\\frac{I_{2}}{8}$"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "$8I_{2}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$4I_{2}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I_{1}=\\frac{I_{0}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I subscript 1 space equals fraction numerator space I subscript 0 over denominator 2 end fraction"
+      },
+      {
+       "latex": "I=I_{0}\\mathrm{cos}^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><msup><mi>cos</mi><mn>2</mn></msup><mo>&#160;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 space cos squared space theta"
+      },
+      {
+       "latex": "I_{2}=I_{1}\\mathrm{cos}^{2}60=\\frac{I_{0}}{2}\\times\\frac{1}{4}=\\frac{I_{0}}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>2</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mrow><mn>1</mn><mo>&#160;</mo></mrow></msub><msup><mi>cos</mi><mn>2</mn></msup><mo>&#160;</mo><mn>60</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msub><mi>I</mi><mn>0</mn></msub><mn>2</mn></mfrac><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><mn>8</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I subscript 2 space equals space I subscript 1 space end subscript cos squared space 60 space equals space I subscript 0 over 2 space cross times space 1 fourth space equals fraction numerator space I subscript 0 over denominator 8 end fraction"
+      },
+      {
+       "latex": "I_{0}=8I_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>8</mn><msub><mi>I</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I subscript 0 space equals space 8 I subscript 2"
+      },
+      {
+       "latex": "\\frac{I_{2}}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mn>2</mn></msub><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 2 over 4"
+      },
+      {
+       "latex": "\\frac{I_{2}}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mn>2</mn></msub><mn>8</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 2 over 8"
+      },
+      {
+       "latex": "8I_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><msub><mi>I</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 I subscript 2"
+      },
+      {
+       "latex": "4I_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msub><mi>I</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 I subscript 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HzpM9f3VfkkcQzZQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_22JHbXckqpG4JdnS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "The quality of the sound produced by a portable radio can be improved by changing the orientation of the aerial.\n\nWhich statement will correctly describe the explanation of this improvement?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Polarisation is the process by which the oscillations are made to occur in one plane only\n- Radio waves emitted by an antenna are usually transmitted with a specific polarisation, and therefore, receiving aerials will generally only receive radio waves of this polarisation\n- If the aerial is moved and this improves the signal then this proves the radio waves must be polarised\n\n**A **is incorrect because the waves will not become polarised as a result of adjusting the aerial. The source of the waves will determine whether they are polarised or not.\n\n**B **is incorrect because the waves will not become unpolarised as a result of adjusting the aerial\n\n**C **is incorrect because if the waves from the transmitter where unpolarised then an adjustment on the aerial would not make a difference as waves would be travelling in all directions",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the radio waves become polarised as a result of adjusting the aerial"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the radio waves become unpolarised as a result of adjusting the aerial"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the radio waves from the transmitter are unpolarised"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "the radio waves from the transmitter are polarised"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hmf43gPqgxTjdvG9",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_rwjpSxFzj9hTp5RT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "A beam of unpolarised light is incident on the first of two parallel polarisers. The transmission axis of the two polarisers are initially parallel.\n\nThe first polariser is now rotated about the direction of the incident beam by an angle smaller than 90°.\n\nWhich row in the table describes the changes to the intensity and polarisation of the light transmitted through the polarisers?\n\n| ** ** | **Intensity** | **Polarisation** |\n|---|---|---|\n| **A**<br><br>**B**<br><br>**C**<br><br>**D** | no change<br><br>no change<br><br>different<br><br>different | no change<br><br>different<br><br>different<br><br>no change |",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Rotating the first polariser by an angle *θ*  sets the plane of polarisation of the light emerging from it to the same angle *θ*\n- The second polariser has a fixed axis\n- When the axes are no longer parallel, the transmitted intensity decreases according to Malus’s law\n\n$I=I_{0}\\mathrm{cos}^{2}θ$\n\n- The light emerging from the second polariser is always polarised **along the axis of the second polariser**, so its polarisation direction does not change as the first sheet is rotated\n- Therefore:\n\n  - intensity decreases\n  - polarisation (after the second polariser) does not change\n- This is answer **D**\n\n![cie-ial-images348png](assets/004-cie-ial-images348png.png)\n\n![cie-ial-images349png](assets/005-cie-ial-images349png.png)\n\nPolarisation is the process by which the oscillations are made to occur in one plane only. The first polariser causes the polarisation of the light to be orientated by angle *θ.*\n\nIf the second polariser was aligned at 90° to the first, it would block the light completely. However, since the second polariser is aligned at an angle smaller than 90° to the first, it will allow some light of polarisation with angle *θ * through and hence reduce the intensity of the light.\n\nA polariser can only transmit the component of the electric field aligned with its transmission axis.  If the incident beam is already polarised, a misaligned analyser reduces its amplitude, but the emerging beam is still plane-polarised.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I=I_{0}\\mathrm{cos}^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><msup><mi>cos</mi><mn>2</mn></msup><mo>&#160;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 space cos squared space theta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_G3g6BZ8DW8Vzh83f",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NcMstnF7JRnf4Bh4",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "A student looked at the liquid crystal display on their calculator with a polarising film. They observed that as they rotated the film, the display changed.\n\nWhich property of the radiation from the calculator display is described correctly?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Polarisation is the process by which oscillations of transverse waves are made to occur in one plane only\n- Transverse waves can be polarised as they can oscillate in many planes\n- The radiation emitted from the calculator’s display is visible light\n- Visible light is part of the electromagnetic spectrum, which is an example of a transverse wave\n\n**B **is incorrect because a wave with a 3 cm wavelength would be a **microwave**\n\n**C i**s incorrect because as the display is changed as the film rotated this is evidence that the light emitted from the calculator is polarised\n\n**D** is incorrect because a longitudinal wave can’t be polarised as it oscillates parallel to the direction of travel",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "the emitted radiation is a transverse wave"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the emitted radiation is a wave with 3 cm wavelength"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the emitted radiation is unpolarised"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the emitted radiation is a longitudinal wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FfF6dRTdpBxDFw6C",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jDBFSQN3WKz4QH4W",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TPFGCdQXyf7xG2QV"
+     ],
+     "part_tier": null,
+     "problem_md": "Malus’s law shows the intensity of polarised light as it emerges through an analyser. Which is the correct equation to calculate the intensity?",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Polarisation is the process by which the oscillations are made to occur in one plane only\n- Malus’s law states that the transmitted intensity of the plane polarised light passing through a rotatable polariser is directly proportional to the square of the cosine of the angle through which the polariser is rotated from the position which gives the maximum intensity.\n- Malus’s law allows us to calculate the intensity of a beam of plane polarised light, it is given by\n\n  - $I=I_{0}cos^{2}θ$",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$I_{0}\\mathrm{sin}^{2}θ$"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "$I_{0}\\mathrm{cos}^{2}θ$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$I_{0}\\mathrm{cos}θ$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$\\frac{I_{0}}{2}\\mathrm{cos}^{2}θ$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "I=I_{0}cos^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mo> </mo><mi>c</mi><mi>o</mi><msup><mi>s</mi><mn>2</mn></msup><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I equals I subscript 0 space c o s squared space theta"
+      },
+      {
+       "latex": "I_{0}\\mathrm{sin}^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>0</mn></msub><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 sin squared theta"
+      },
+      {
+       "latex": "I_{0}\\mathrm{cos}^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>0</mn></msub><mo> </mo><msup><mi>cos</mi><mn>2</mn></msup><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 space cos squared space theta"
+      },
+      {
+       "latex": "I_{0}\\mathrm{cos}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>0</mn></msub><mi>cos</mi><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 cos space theta"
+      },
+      {
+       "latex": "\\frac{I_{0}}{2}\\mathrm{cos}^{2}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>I</mi><mn>0</mn></msub><mn>2</mn></mfrac><mo> </mo><msup><mi>cos</mi><mn>2</mn></msup><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 over 2 space cos squared space theta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7pQZgfVzTzpNwz6G",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dYNXh39HXkCtx8b9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNzpTbgtKjTqJhWc"
+     ],
+     "part_tier": null,
+     "problem_md": "Unpolarised light of intensity *I*<sub>*0*</sub> is incident on a polariser with a vertical transmission axis. The transmitted light is incident on a sheet of material X. After transmission through X the intensity of light is $\\frac{I_{0}}{2}$.\n\nIt is suggested that X could be\n\n| **1** | a polariser with a vertical transmission axis |\n|---|---|\n| **2** | a polariser with a horizontal transmission axis |\n| **3** | non-polarising glass |",
+     "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Polarisation is the process by which oscillations are made to occur in one plane only\n- Unpolarised light incident on the first polariser is reduced to half its initial intensity\n- If the first polarising sheet is on a vertical plane, then material X could be either another vertical plane or a non-polarising glass, because neither option will change the polarisation or affect the intensity of the transmitted light\n\n**A & B **are incorrect because if X was a polariser with a horizontal transmission axis, then the intensity of the transmitted light would be zero. Any analyser at 90° to the polarised light extinguishes the beam\n\n**D **is incorrect because since the light will be polarised vertically after passing through the first filter, options 1 and 3 are both valid\n\nA non-polarising glass sheet does not alter the plane of polarisation.\nIn the context of this question, it is assumed to transmit the beam without further intensity reduction.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1 & 2"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "2 & 3"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "1 & 3"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3 only"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{I_{0}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mn>0</mn></msub><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 over 2"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1208 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:25:26Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/extended",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "algebra-and-sequences",
+  "name": "Algebra & Sequences"
+ },
+ "topic": {
+  "id": "top_D7znKmXXPqFVTNVF",
+  "slug": "algebraic-fractions",
+  "name": "Algebraic Fractions",
+  "order": 7
+ },
+ "subtopics": [
+  {
+   "slug": "simplifying-algebraic-fractions",
+   "name": "Simplifying Algebraic Fractions",
+   "revision_note_id": "rn_68hn2Vq6zJCFPGyX"
+  },
+  {
+   "slug": "adding-and-subtracting-algebraic-fractions",
+   "name": "Adding & Subtracting Algebraic Fractions",
+   "revision_note_id": "rn_XDKBYvZP5QNfgHTx"
+  },
+  {
+   "slug": "multiplying-and-dividing-algebraic-fractions",
+   "name": "Multiplying & Dividing Algebraic Fractions",
+   "revision_note_id": "rn_FMWJxhQjP8dFBh5T"
+  },
+  {
+   "slug": "solving-equations-with-algebraic-fractions",
+   "name": "Solving Equations with Algebraic Fractions",
+   "revision_note_id": "rn_283Sr4VvpJ7B7Z9V"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_8TfCMYyjvz9fzdxM",
+   "slug": "calculator-questions",
+   "name": "Calculator Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 19,
+   "questions_embedded": 19,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/extended/topic-questions/algebra-and-sequences/algebraic-fractions/calculator-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 19,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "calculator-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_qcy4yqn8q87ppmVn",
+   "set_slug": "calculator-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6Gzr48ScgPSW5Cs3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{x^{2}-9}{x^{2}-2x-3}$",
+     "solution_md": "> *Factorise the numerator using the difference of two squares*\n\n`fraction numerator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses over denominator x squared minus 2 x minus 3 end fraction`\n\n> *Factorise the denominator*\n\n`fraction numerator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 1 close parentheses end fraction`\n\n**[M1]**\n\n> *Simplify*\n\n`fraction numerator up diagonal strike open parentheses x minus 3 close parentheses end strike open parentheses x plus 3 close parentheses over denominator up diagonal strike open parentheses x minus 3 close parentheses end strike open parentheses x plus 1 close parentheses end fraction`\n\n$\\frac{x+3}{x+1}$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "\\frac{x^{2}-9}{x^{2}-2x-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator x squared minus 9 over denominator x squared minus 2 x minus 3 end fraction"
+      },
+      {
+       "latex": "\\frac{x+3}{x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator x plus 3 over denominator x plus 1 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zZZvQkF4csPhnSCQ",
+   "set_slug": "calculator-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_MCDcvx9zN4qY8S2x",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2018\tFeb/Mar",
+      "number": "0580/42",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify $\\frac{x^{2}-25}{x^{2}-2x-35}$.",
+     "solution_md": "> *We can factorise the numerator using the difference between two squares, *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`\n\n`fraction numerator open parentheses x plus 5 close parentheses open parentheses x minus 5 close parentheses over denominator x squared minus 2 x minus 35 end fraction`\n\n> *We need to factorise the denominator too.*\n\n> *We can factorise the quadratic *$x^{2}-2x-35$* to *`open parentheses x plus-or-minus box enclose space space space end enclose space close parentheses open parentheses x plus-or-minus box enclose space space space end enclose space close parentheses`* using the acronym TEAM: times for the end, add for the middle. We are looking for two numbers that times to −35 and add to −2. If in doubt, write out the factor pairs of 35:*\n\n*1 and 35: cannot be added to make 2                     *\n\n*5 and 7: can be added to make 2 as \"−7 +5 = −2\"*\n\n> *So the factorisation is*\n\n`x squared minus 2 x minus 35 equals open parentheses x minus 7 close parentheses open parentheses x plus 5 close parentheses`\n\n**[2]**\n\n**1 mark for two numbers in the brackets that multiply to −35 ****or**** add to −2**\n\n> *Now we can write the expression as*\n\n`fraction numerator open parentheses x plus 5 close parentheses open parentheses x minus 5 close parentheses over denominator open parentheses x minus 7 close parentheses open parentheses x plus 5 close parentheses end fraction`\n\n`open parentheses x plus 5 close parentheses`** ***is a common factor to the numerator and denominator, so cancels.*\n\n`fraction numerator up diagonal strike open parentheses x plus 5 close parentheses end strike open parentheses x minus 5 close parentheses over denominator open parentheses x minus 7 close parentheses up diagonal strike open parentheses x plus 5 close parentheses end strike end fraction equals fraction numerator x minus 5 over denominator x minus 7 end fraction`\n\n$\\frac{x-5}{x-7}$ **[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{x^{2}-25}{x^{2}-2x-35}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>35</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space fraction numerator x squared minus 25 over denominator x squared minus 2 x minus 35 end fraction"
+      },
+      {
+       "latex": "x^{2}-2x-35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 2 x minus 35"
+      },
+      {
+       "latex": "\\frac{x-5}{x-7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn></mrow><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">7</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold italic x bold minus bold 5 over denominator bold italic x bold minus bold 7 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WfSCscqMDhn8CkfB",
+   "set_slug": "calculator-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_b3KTdsPvQPwCwcpR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "2019\tOct/Nov",
+      "number": "0580/43",
+      "question_number": 10,
+      "question_part": "-"
+     },
+     "spec_point_ids": [
+      "spcpt_xwx7PVk7fQ5QpdMk",
+      "spcpt_4WgMZ8mF9QJrhzjS"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Solve.\n\n$\\frac{1}{x}-\\frac{2}{x+1}=3$\n\nShow all your working and give your answers correct to 2 decimal places.\n\n$x$ = .......................... or $x$ = ..........................",
+     "solution_md": "> *Add the fractions on the left hand side. When adding/subtracting fractions they must have a common denominator.*\n\n> *Multiply the numerator and denominator of the first fraction by *`open parentheses x plus 1 close parentheses`* and the numerator and denominator of the second fraction by *$x$*.*\n\n`1 over x cross times fraction numerator open parentheses x plus 1 close parentheses over denominator open parentheses x plus 1 close parentheses end fraction minus fraction numerator 2 over denominator x plus 1 end fraction cross times x over x equals 3`\n\n`fraction numerator x plus 1 over denominator x open parentheses x plus 1 close parentheses end fraction minus fraction numerator 2 x over denominator x open parentheses x plus 1 close parentheses end fraction equals 3`\n\n**Common denominator [1]**\n\n> *Subtract the second fraction's numerator from the first and keep over the same denominator.*\n\n`fraction numerator x plus 1 minus 2 x over denominator x open parentheses x plus 1 close parentheses end fraction equals 3`\n\n> *Simplify the numerator on the left hand side by collecting like terms.*\n\n`fraction numerator 1 minus x over denominator x open parentheses x plus 1 close parentheses end fraction equals 3`\n\n> *Multiply both sides by *`x open parentheses x plus 1 close parentheses`*.*\n\n`1 minus x equals 3 x open parentheses x plus 1 close parentheses`\n\n**[1]**\n\n> *Expand the brackets on the right hand side.*\n\n$1-x=3x^{2}+3x$\n\n> *Add *$x$* to both sides.*\n\n$1=3x^{2}+4x$\n\n> *Subtract 1 from both sides.*\n\n$0=3x^{2}+4x-1$\n\n**[1]**\n\n> *Use the quadratic formula to solve for *$x$*, where *$x=\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}$* given an equation of the form *$ax^{2}+bx+c=0$*.*\n\n$x=\\frac{-4\\pm\\sqrt{4^{2}-4\\times3\\times-1}}{2\\times3}$\n\n**Correct substitution into the discriminant (the section in the square root) [1]  **\n**Correct substitution into the rest of the quadratic formula [1]**\n\n$x=\\frac{-4\\pm\\sqrt{28}}{6}$\n\n$x=0.21525...$*  or ** *$x=-1.54858...$\n\n**Final answer:** $x=0.22$**   ****or****   **$x=-1.55$\n\n**0.22 [1] **\n** -1.55 [1]**",
+     "equations": [
+      {
+       "latex": "\\frac{1}{x}-\\frac{2}{x+1}=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>-</mo><mfrac><mn>2</mn><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 over x minus fraction numerator 2 over denominator x plus 1 end fraction equals 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "1-x=3x^{2}+3x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>-</mo><mi>x</mi><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 minus x equals 3 x squared plus 3 x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "1=3x^{2}+4x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 equals 3 x squared plus 4 x"
+      },
+      {
+       "latex": "0=3x^{2}+4x-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0 equals 3 x squared plus 4 x minus 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x=\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals fraction numerator negative b plus-or-minus square root of b squared minus 4 a c end root over denominator 2 a end fraction"
+      },
+      {
+       "latex": "ax^{2}+bx+c=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a x squared plus b x plus c equals 0"
+      },
+      {
+       "latex": "x=\\frac{-4\\pm\\sqrt{4^{2}-4\\times3\\times-1}}{2\\times3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>4</mn><mo>±</mo><msqrt><msup><mn>4</mn><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>×</mo><mn>3</mn><mo>×</mo><mo>-</mo><mn>1</mn></msqrt></mrow><mrow><mn>2</mn><mo>×</mo><mn>3</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals fraction numerator negative 4 plus-or-minus square root of 4 squared minus 4 cross times 3 cross times negative 1 end root over denominator 2 cross times 3 end fraction"
+      },
+      {
+       "latex": "x=\\frac{-4\\pm\\sqrt{28}}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>4</mn><mo>±</mo><msqrt><mn>28</mn></msqrt></mrow><mn>6</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals fraction numerator negative 4 plus-or-minus square root of 28 over denominator 6 end fraction"
+      },
+      {
+       "latex": "x=0.21525...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>21525</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 0.21525..."
+      },
+      {
+       "latex": "x=-1.54858...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>.</mo><mn>54858</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals negative 1.54858..."
+      },
+      {
+       "latex": "x=0.22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">22</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold 0 bold. bold 22"
+      },
+      {
+       "latex": "x=-1.55",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">55</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x bold equals bold minus bold 1 bold. bold 55"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vJbtxhZWmyPYS9ZV",
+   "set_slug": "calculator-questions",
+   "order": 15,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_wHDcvTNR8zMkWSGf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "prove",
+     "source_paper": {
+      "date": "2020 Specimen",
+      "number": "0580/04",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "A car completes a 200 km journey at an average speed of $x$ km/h. \nThe car completes **the return journey** of 200 km at an average speed of $(x+10)$ km/h.\n\ni) Show that the difference between the time taken for each of the two journeys is  $\\frac{2000}{x(x+10)}$ hours.\n\n[3]\n\nii) Find the difference between the time taken for each of the two journeys when $x=80$. Give your answer in **minutes **and **seconds**.\n\n................... min .................. s  [3]",
+     "solution_md": "i) *Use the information given to form an equation for the both parts of the journey.*\n\n> *The formula for speed is *$s=\\frac{d}{t}$*. *\n\n> *For the first part of the journey, distance = 200 km, speed = *$x$*, let time = *$t.$*   *\n\n`table row cell x space end cell equals cell 200 over t space space space space space space open parentheses 1 close parentheses end cell end table`**      **\n\n> *For the second part of the journey, distance = 200 km, speed = *$x+10$* , let time = *$T.$*    *\n\n> `table row cell x space plus space 10 space end cell equals cell 200 over T space space space space space space open parentheses 2 close parentheses end cell end table`*     *\n\n> *Rearrange both equations to make the time the subject.   *\n\n`open parentheses 1 close parentheses space space space space space space space t space equals fraction numerator space 200 over denominator x end fraction space\nopen parentheses 2 close parentheses space space space space space space T space equals fraction numerator space 200 space over denominator x space plus space 10 end fraction`\n\n** ****Either correct**** [1]*** *\n\n> *Find the difference between the times by subtracting the time for the second journey from the first.  *\n\n> *  *$t-T=\\frac{200}{x}-\\frac{200}{x+10}$\n\n**[1]***  *\n\n> *Find the common denominator by multiplying them together and change the numerators by multiplying each numerator by the other denominator.   *\n\n`fraction numerator space 200 space open parentheses x space plus space 10 close parentheses over denominator x open parentheses x space plus space 10 close parentheses end fraction space minus space fraction numerator space 200 space x over denominator x open parentheses x space plus 10 close parentheses end fraction`** ***  *\n\n*Find the difference by subtracting only the numerators.***   **\n\n`fraction numerator space 200 space open parentheses x space plus space 10 close parentheses space minus space 200 x over denominator x open parentheses x space plus space 10 close parentheses end fraction`**   **\n\n> *Expand the brackets and simplify the numerator.  *\n\n$\\frac{200x+2000-200x}{x(x+10)}=\\frac{2000}{x(x+10)}$** ****[1] **\n\nii) *Substitute *$x=80$* into the expression found in part (i).  *\n\n`table row blank blank cell T space minus space t space equals space fraction numerator space 2000 over denominator 80 stretchy left parenthesis 80 space plus space 10 stretchy right parenthesis end fraction end cell end table`\n\n**[1]*** ***      **\n\n> *Use your calculator to find the value of *$T-t$*.   *\n\n> `table row cell T space minus space t space end cell equals cell 5 over 18 space hours end cell end table`* *\n\n**[1]***  *\n\n> *Convert *`begin mathsize 16px style table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 5 over 18 end cell end table end style`* hours into minutes by multiplying by 60.   *\n\n`table row cell 5 over 18 space cross times space 60 space end cell equals cell 50 over 3 space minutes space end cell row blank equals cell space 16.66666... space minutes end cell row blank equals cell space 16 space minutes space and space 0.6666... space minutes end cell end table`\n\n> *Convert 0.666666... minutes into seconds by multiplying by 60. *\n\n*  *$0.66666...\\times60=40\\mathrm{seconds}$    *  *\n\n$16\\mathrm{min}40s$* ***[1]*** *",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "(x+10)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "left parenthesis x space plus space 10 right parenthesis"
+      },
+      {
+       "latex": "\\frac{2000}{x(x+10)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>2000</mn><mrow><mi>x</mi><mo>(</mo><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn><mo>)</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2000 over denominator x left parenthesis x space plus space 10 right parenthesis end fraction"
+      },
+      {
+       "latex": "x=80",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>=</mo><mo> </mo><mn>80</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space 80"
+      },
+      {
+       "latex": "s=\\frac{d}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>s</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>d</mi></mrow><mi>t</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s space equals fraction numerator space d over denominator t end fraction"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathsize=\"16px\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "size 16px x"
+      },
+      {
+       "latex": "t.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">t</mi><mo mathsize=\"16px\">.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t."
+      },
+      {
+       "latex": "x+10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">+</mo><mo mathsize=\"16px\"> </mo><mn mathsize=\"16px\">10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space plus space 10"
+      },
+      {
+       "latex": "T.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T."
+      },
+      {
+       "latex": "t-T=\\frac{200}{x}-\\frac{200}{x+10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle indentalign=\"left\"><mi>t</mi><mo> </mo><mo>-</mo><mo> </mo><mi>T</mi></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mo>=</mo></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mfrac><mrow><mo> </mo><mn>200</mn></mrow><mi>x</mi></mfrac></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mo>-</mo></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mfrac><mrow><mo> </mo><mn>200</mn><mo> </mo></mrow><mrow><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn></mrow></mfrac></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t space minus space T space equals space fraction numerator space 200 over denominator x end fraction space minus space fraction numerator space 200 space over denominator x space plus space 10 end fraction"
+      },
+      {
+       "latex": "\\frac{200x+2000-200x}{x(x+10)}=\\frac{2000}{x(x+10)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle indentalign=\"left\"><mfrac><mrow><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">200</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2000</mn><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">200</mn><mi mathvariant=\"bold-italic\">x</mi></mrow><mrow><mi mathvariant=\"bold-italic\">x</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow></mfrac></mstyle><mo mathvariant=\"bold\">=</mo><mfrac><mrow><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2000</mn></mrow><mrow><mi mathvariant=\"bold-italic\">x</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "x=80",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo> </mo><mo>=</mo><mo> </mo><mn>80</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x space equals space 80"
+      },
+      {
+       "latex": "T-t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo> </mo><mo>-</mo><mo> </mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T thin space minus space t"
+      },
+      {
+       "latex": "0.66666...\\times60=40\\mathrm{seconds}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle indentalign=\"left\"><mn>0</mn></mstyle><mstyle indentalign=\"left\"><mo>.</mo></mstyle><mstyle indentalign=\"left\"><mn>66666</mn></mstyle><mstyle indentalign=\"left\"><mo>.</mo></mstyle><mstyle indentalign=\"left\"><mo>.</mo></mstyle><mstyle indentalign=\"left\"><mo>.</mo></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mo>×</mo></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mn>60</mn></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mo>=</mo></mstyle><mstyle indentalign=\"left\"><mo> </mo></mstyle><mstyle indentalign=\"left\"><mn>40</mn></mstyle><mo> </mo><mi>seconds</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.66666... space cross times space 60 space equals space 40 space seconds space"
+      },
+      {
+       "latex": "16\\mathrm{min}40s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">16</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">min</mi><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">40</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 16 bold space bold min bold space bold 40 bold space bold s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SYDWbDCNxJZcYpxS",
+   "set_slug": "calculator-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_7mtBkRJzYRx399GF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2018\tFeb/Mar",
+      "number": "0580/42",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6545srrpNRw7V8z"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Write $\\frac{x-8}{x}+\\frac{3x}{x+1}$ as a single fraction in its simplest form.",
+     "solution_md": "*We need to add the fractions by finding the lowest common denominator, as we would with numeric fractions.* \n*The lowest common denominator is *`x open parentheses x plus 1 close parentheses`*. So the numerator and denominator of the left fraction needs to be multiplied by *`fraction numerator open parentheses x plus 1 close parentheses over denominator open parentheses x plus 1 close parentheses end fraction`* and the right fraction by *$\\frac{x}{x}$*.*\n\n`table row cell fraction numerator x minus 8 over denominator x end fraction plus fraction numerator 3 x over denominator x plus 1 end fraction end cell equals cell fraction numerator x minus 8 over denominator x end fraction cross times fraction numerator x plus 1 over denominator x plus 1 end fraction plus fraction numerator 3 x over denominator x plus 1 end fraction cross times x over x end cell row blank blank blank row blank equals cell fraction numerator open parentheses x minus 8 close parentheses open parentheses x plus 1 close parentheses over denominator x open parentheses x plus 1 close parentheses end fraction plus fraction numerator open parentheses 3 x close parentheses open parentheses x close parentheses over denominator x open parentheses x plus 1 close parentheses end fraction end cell end table`\n\n**common denominator \" **`table row blank blank cell x open parentheses x plus 1 close parentheses end cell end table`**\" ****[1]**\n\n> *Now we have two fractions with the same denominator, so we can combine them into one fraction.*\n\n`table row blank equals cell fraction numerator open parentheses x minus 8 close parentheses open parentheses x plus 1 close parentheses plus open parentheses 3 x close parentheses open parentheses x close parentheses over denominator x open parentheses x plus 1 close parentheses end fraction end cell end table`\n\n** ****fractions combined with correct numerator ****[1]**\n\n> *Expand the brackets and collect like terms in the numerator.*\n\n`table row blank equals cell fraction numerator x squared minus 7 x minus 8 plus 3 x squared over denominator x open parentheses x plus 1 close parentheses end fraction end cell row blank blank blank row blank equals cell fraction numerator 4 x squared minus 7 x minus 8 over denominator x open parentheses x plus 1 close parentheses end fraction end cell end table`\n\n`equation`** [1]**",
+     "equations": [
+      {
+       "latex": "\\frac{x-8}{x}+\\frac{3x}{x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mfrac><mrow><mi>x</mi><mo>-</mo><mn>8</mn></mrow><mi>x</mi></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space fraction numerator x minus 8 over denominator x end fraction plus fraction numerator 3 x over denominator x plus 1 end fraction space"
+      },
+      {
+       "latex": "\\frac{x}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>x</mi><mi>x</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x over x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SPQgpNWrb6dbWthG",
+   "set_slug": "calculator-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_7qnW3hgTcpQSxZ7J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020\tMay/June",
+      "number": "0580/41",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6",
+      "spcpt_j2YgCQ3HvtrTXdG4"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{5}{3x}\\times\\frac{9x}{20}$",
+     "solution_md": "*Look to cancel factors on the numerator and denominator before multiplying.* \n*Starting with the numbers, we can see that 3 is a multiple of 9 and 3, and that 5 is a multiple of 5 and 20.* \n*Looking at letters, we can see there is an *$x$* on the numerator that will cancel with the *$x$* on the denominator.*\n\n`fraction numerator table row 1 row cell up diagonal strike 5 end cell end table over denominator table row cell up diagonal strike 3 up diagonal strike x end cell row 1 end table end fraction cross times fraction numerator table row 3 row cell up diagonal strike 9 up diagonal strike x end cell end table over denominator table row cell up diagonal strike 20 end cell row 4 end table end fraction equals fraction numerator 1 cross times 3 over denominator 1 cross times 4 end fraction equals 3 over 4`\n\n$\\frac{3}{4}$** **\n**Equivalent fraction ****[1]**\n* ***Fully simplified ****[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{5}{3x}\\times\\frac{9x}{20}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>5</mn><mrow><mn>3</mn><mi>x</mi></mrow></mfrac><mo>×</mo><mfrac><mrow><mn>9</mn><mi>x</mi></mrow><mn>20</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 5 over denominator 3 x end fraction cross times fraction numerator 9 x over denominator 20 end fraction"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 3 over bold 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QgzvPSP5n6nDrRzR",
+   "set_slug": "calculator-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_nrdzrCfg67vCFw5f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2020 May/June",
+      "number": "0580/43",
+      "question_number": 11,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`straight f open parentheses x close parentheses equals 7 x minus 4`  and  `straight g open parentheses x close parentheses equals fraction numerator 2 x over denominator x minus 3 end fraction comma space x not equal to 3`\n\nFind `space fraction numerator straight f open parentheses x close parentheses space over denominator 2 end fraction plus straight g open parentheses x close parentheses`. \nGive your answer as a single fraction, in terms of $x$, in its simplest form.",
+     "solution_md": "> *Substitute in the expression for the two functions.*\n\n$\\frac{7x-4}{2}+\\frac{2x}{x-3}$\n\n> *A common denominator for both fractions is *`2 open parentheses x minus 3 close parentheses`*. Convert the denominators  into *`2 open parentheses x minus 3 close parentheses`* by multiplying the numerator and denominator of the first fraction by *$x-3$* and of the second fraction by 2.*\n\n`fraction numerator left parenthesis 7 x minus 4 right parenthesis left parenthesis x minus 3 right parenthesis over denominator 2 left parenthesis x minus 3 right parenthesis end fraction plus fraction numerator open parentheses 2 x close parentheses open parentheses 2 close parentheses over denominator 2 left parenthesis x minus 3 right parenthesis end fraction`\n\n**[1]**\n\n> *As the denominators are the same you can write as one fraction.*\n\n`fraction numerator left parenthesis 7 x minus 4 right parenthesis left parenthesis x minus 3 right parenthesis plus open parentheses 2 x close parentheses open parentheses 2 close parentheses over denominator 2 open parentheses x minus 3 close parentheses end fraction`\n\n**[1]**\n\n> *Expand the numerator. Leave the denominator factorised as this will help to spot any common factors.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell fraction numerator 7 x squared minus 21 x minus 4 x plus 12 plus 4 x over denominator 2 open parentheses x minus 3 close parentheses end fraction end cell end table`\n\n> *Simplify the numerator.*\n\n`equation` **[1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{7x-4}{2}+\\frac{2x}{x-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>7</mn><mi>x</mi><mo>-</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 7 x minus 4 over denominator 2 end fraction plus fraction numerator 2 x over denominator x minus 3 end fraction"
+      },
+      {
+       "latex": "x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NqKHgnrxdbmbSgtQ",
+   "set_slug": "calculator-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_KFnwZWVQvGSNFFzt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2019\tOct/Nov",
+      "number": "0580/21",
+      "question_number": 18,
+      "question_part": "-"
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Write  $\\frac{x}{2}-\\frac{2x+4}{x+1}$  as a single fraction, in its simplest form.",
+     "solution_md": "> *Multiply the numerator and denominator of the first fraction by *$(x+1)$*.*\n\n$\\frac{x}{2}\\times\\frac{(x+1)}{(x+1)}=\\frac{x(x+1)}{2(x+1)}=\\frac{x^{2}+x}{2x+2}$\n\n> *Multiply the numerator and denominator of the second fraction by 2.*\n\n$\\frac{2x+4}{x+1}\\times\\frac{2}{2}=\\frac{2(2x+4)}{2(x+1)}=\\frac{4x+8}{2x+2}$\n\n**  [1]**\n\n> *The fractions now share a common denominator.*\n\n> *Add the two fractions together.*\n\n`table row cell fraction numerator x squared plus x over denominator 2 x plus 2 end fraction minus fraction numerator 4 x plus 8 over denominator 2 x plus 2 end fraction end cell equals cell fraction numerator open parentheses x squared plus x close parentheses minus open parentheses 4 x plus 8 close parentheses over denominator 2 x plus 2 end fraction end cell end table`\n\n**[1]**\n\n> *          *`table row blank equals cell fraction numerator x squared plus x minus 4 x minus 8 over denominator 2 x plus 2 end fraction end cell end table`\n\n$\\frac{x^{2}-3x-8}{2x+2}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{x}{2}-\\frac{2x+4}{x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "x over 2 minus fraction numerator 2 x plus 4 over denominator x plus 1 end fraction"
+      },
+      {
+       "latex": "(x+1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "left parenthesis x plus 1 right parenthesis"
+      },
+      {
+       "latex": "\\frac{x}{2}\\times\\frac{(x+1)}{(x+1)}=\\frac{x(x+1)}{2(x+1)}=\\frac{x^{2}+x}{2x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x over 2 cross times fraction numerator left parenthesis x plus 1 right parenthesis over denominator left parenthesis x plus 1 right parenthesis end fraction equals fraction numerator x left parenthesis x plus 1 right parenthesis over denominator 2 left parenthesis x plus 1 right parenthesis end fraction equals fraction numerator x squared plus x over denominator 2 x plus 2 end fraction"
+      },
+      {
+       "latex": "\\frac{2x+4}{x+1}\\times\\frac{2}{2}=\\frac{2(2x+4)}{2(x+1)}=\\frac{4x+8}{2x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>&#215;</mo><mfrac><mn>2</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 x plus 4 over denominator x plus 1 end fraction cross times 2 over 2 equals fraction numerator 2 left parenthesis 2 x plus 4 right parenthesis over denominator 2 left parenthesis x plus 1 right parenthesis end fraction equals fraction numerator 4 x plus 8 over denominator 2 x plus 2 end fraction"
+      },
+      {
+       "latex": "\\frac{x^{2}-3x-8}{2x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">8</mn></mrow><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">2</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold italic x to the power of bold 2 bold minus bold 3 bold italic x bold minus bold 8 over denominator bold 2 bold italic x bold plus bold 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MVRwNGbrnMm5bdnc",
+   "set_slug": "calculator-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vgcx8JfH6XYJ7X8y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/21",
+      "question_number": 15,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Write as a single fraction in its simplest form.\n\n$\\frac{x-5}{3}+\\frac{6}{x+2}$",
+     "solution_md": "*Two separate fractions become a single fraction when written over the same lowest common denominator* \n*Find the lowest common denominator of *$3$*and *`open parentheses x plus 2 close parentheses`*(by multiplying these together)*\n\n$3\\times(x+2)=3(x+2)$\n\n**[1]**\n\n> *Multiply top and bottom of each fraction by the missing terms needed to create the lowest common denominator*\n\n`table row blank blank cell fraction numerator left parenthesis x minus 5 right parenthesis left parenthesis x plus 2 right parenthesis over denominator 3 left parenthesis x plus 2 right parenthesis end fraction plus fraction numerator 6 cross times 3 over denominator 3 left parenthesis x plus 2 right parenthesis end fraction end cell row blank blank cell fraction numerator left parenthesis x minus 5 right parenthesis left parenthesis x plus 2 right parenthesis over denominator 3 left parenthesis x plus 2 right parenthesis end fraction plus fraction numerator 18 over denominator 3 left parenthesis x plus 2 right parenthesis end fraction end cell end table`\n\n> *Add the fractions (by adding numerators and placing over one single denominator)*\n\n`table row blank blank cell fraction numerator left parenthesis x minus 5 right parenthesis left parenthesis x plus 2 right parenthesis plus 18 over denominator 3 left parenthesis x plus 2 right parenthesis end fraction end cell end table`\n\n**Correct numerator**** [1]**\n\n> *Simplify the numerator (by expanding and collecting)*\n\n$x^{2}-5x+2x-10+18\\,x^{2}-3x+8$\n\n> *Write out the final fraction*\n\n$\\frac{x^{2}-3x+8}{3(x+2)}$\n\n> *Check if the numerator can be factorised into the form *`open parentheses x plus 2 close parentheses open parentheses... close parentheses`* *\n*No, so the fraction is fully simplified*\n\n$\\frac{x^{2}-3x+8}{3(x+2)}$ **[1]**\n\n**The denominator can also be left expanded as **$3x+6$",
+     "equations": [
+      {
+       "latex": "\\frac{x-5}{3}+\\frac{6}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>x</mi><mo>-</mo><mn>5</mn></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>6</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator x minus 5 over denominator 3 end fraction plus fraction numerator 6 over denominator x plus 2 end fraction"
+      },
+      {
+       "latex": "3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>3</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3"
+      },
+      {
+       "latex": "3\\times(x+2)=3(x+2)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>×</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 cross times left parenthesis x plus 2 right parenthesis equals 3 left parenthesis x plus 2 right parenthesis"
+      },
+      {
+       "latex": "x^{2}-5x+2x-10+18\\,x^{2}-3x+8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle indentalign=\"center\"><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>10</mn><mo>+</mo><mn>18</mn><mspace linebreak=\"newline\"/><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 5 x plus 2 x minus 10 plus 18\nx squared minus 3 x plus 8"
+      },
+      {
+       "latex": "\\frac{x^{2}-3x+8}{3(x+2)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow><mrow><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator x squared minus 3 x plus 8 over denominator 3 left parenthesis x plus 2 right parenthesis end fraction"
+      },
+      {
+       "latex": "\\frac{x^{2}-3x+8}{3(x+2)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">8</mn></mrow><mrow><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">)</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator bold italic x to the power of bold 2 bold minus bold 3 bold italic x bold plus bold 8 over denominator bold 3 bold left parenthesis bold italic x bold plus bold 2 bold right parenthesis end fraction"
+      },
+      {
+       "latex": "3x+6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x plus 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mBMQvthBwQ7bJrdz",
+   "set_slug": "calculator-questions",
+   "order": 16,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_gvyjRS5hngHwpbK3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2018\tMay/June",
+      "number": "0580/42",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "`straight f open parentheses x close parentheses equals 8 minus 3 x`  and  $g(x)=\\frac{10}{x+1},x\\neq-1$.\n\nWrite $f(x)+g(x)$ as a single fraction in its simplest form.",
+     "solution_md": "*We need to write *`straight f open parentheses x close parentheses`* as a fraction with the same denominator as *`straight g open parentheses x close parentheses`*.* \n*We can do this by multiplying it by *$\\frac{x+1}{x+1}$*, which is 1 (so it does not change the value of *`straight f open parentheses x close parentheses`*).*\n\n`8 minus 3 x equals fraction numerator open parentheses 8 minus 3 x close parentheses open parentheses x plus 1 close parentheses over denominator x plus 1 end fraction`\n\n> *Now we can add the fractions.*\n\n`fraction numerator open parentheses 8 minus 3 x close parentheses open parentheses x plus 1 close parentheses over denominator x plus 1 end fraction plus fraction numerator 10 over denominator x plus 1 end fraction equals fraction numerator open parentheses 8 minus 3 x close parentheses open parentheses x plus 1 close parentheses plus 10 over denominator x plus 1 end fraction`\n\n**[1]**\n\n> *Expand the brackets in the numerator.*\n\n$=\\frac{8x+8-3x^{2}-3x+10}{x+1}$\n\n**[1]**\n\n> *Collect like terms in the numerator.*\n\n**Answer**$=\\frac{-3x^{2}+5x+18}{x+1}$** [1]**",
+     "equations": [
+      {
+       "latex": "g(x)=\\frac{10}{x+1},x\\neq-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>10</mn><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>,</mo><mo> </mo><mi>x</mi><mo>≠</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight g left parenthesis x right parenthesis equals fraction numerator 10 over denominator x plus 1 end fraction comma space x not equal to negative 1"
+      },
+      {
+       "latex": "f(x)+g(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis plus straight g left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "\\frac{x+1}{x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator x plus 1 over denominator x plus 1 end fraction"
+      },
+      {
+       "latex": "=\\frac{8x+8-3x^{2}-3x+10}{x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mrow><mn>8</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals fraction numerator 8 x plus 8 minus 3 x squared minus 3 x plus 10 over denominator x plus 1 end fraction"
+      },
+      {
+       "latex": "=\\frac{-3x^{2}+5x+18}{x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">=</mo><mfrac><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">18</mn></mrow><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold equals fraction numerator bold minus bold 3 bold italic x to the power of bold 2 bold plus bold 5 bold italic x bold plus bold 18 over denominator bold italic x bold plus bold 1 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_k3yFknZXPb93FnZM",
+   "set_slug": "calculator-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BTvTB362t5yVcsT8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2019 March",
+      "number": "0580/42",
+      "question_number": 8,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "$f(x)=\\frac{3}{x+2},x\\neq-2$  and  `straight g open parentheses x close parentheses equals 8 x minus 5`.\n\nWrite  $g(x)-f(x)$ as a single fraction in its simplest form.",
+     "solution_md": "> *Substitute in the expression for the two functions.*\n\n$8x-5-\\frac{3}{x+2}$\n\n> *Write the first function as a fraction with 1 as the denominator.*\n\n$\\frac{8x-5}{1}-\\frac{3}{x+2}$\n\n> *A common denominator for both fractions is *$x+2$*. Convert the denominator of the first fraction into *$x+2$* by multiplying the numerator and denominator by *$x+2.$\n\n$\\frac{(8x-5)(x+2)}{(x+2)}-\\frac{3}{x+2}$\n\n**[1]**\n\n> *As the denominators are the same you can write as one fraction.*\n\n$\\frac{(8x-5)(x+2)-3}{x+2}$\n\n**[1]**\n\n> *Expand and simplify the numerator.*\n\n$\\frac{8x^{2}+16x-5x-10-3}{x+2}$\n\n$\\frac{8x^{2}+11x-13}{x+2}$ **[1]**",
+     "equations": [
+      {
+       "latex": "f(x)=\\frac{3}{x+2},x\\neq-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo>,</mo><mo> </mo><mi>x</mi><mo>≠</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals fraction numerator 3 over denominator x plus 2 end fraction comma space x not equal to negative 2"
+      },
+      {
+       "latex": "g(x)-f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "straight g left parenthesis x right parenthesis minus straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "8x-5-\\frac{3}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>-</mo><mfrac><mn>3</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "8 x minus 5 minus fraction numerator 3 over denominator x plus 2 end fraction"
+      },
+      {
+       "latex": "\\frac{8x-5}{1}-\\frac{3}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>8</mn><mi>x</mi><mo>-</mo><mn>5</mn></mrow><mn>1</mn></mfrac><mo>-</mo><mfrac><mn>3</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 8 x minus 5 over denominator 1 end fraction minus fraction numerator 3 over denominator x plus 2 end fraction"
+      },
+      {
+       "latex": "x+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "x plus 2"
+      },
+      {
+       "latex": "x+2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "x plus 2"
+      },
+      {
+       "latex": "x+2.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "x plus 2."
+      },
+      {
+       "latex": "\\frac{(8x-5)(x+2)}{(x+2)}-\\frac{3}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>(</mo><mn>8</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>-</mo><mfrac><mn>3</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 8 x minus 5 right parenthesis left parenthesis x plus 2 right parenthesis over denominator left parenthesis x plus 2 right parenthesis end fraction minus fraction numerator 3 over denominator x plus 2 end fraction"
+      },
+      {
+       "latex": "\\frac{(8x-5)(x+2)-3}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>(</mo><mn>8</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>-</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 8 x minus 5 right parenthesis left parenthesis x plus 2 right parenthesis minus 3 over denominator x plus 2 end fraction"
+      },
+      {
+       "latex": "\\frac{8x^{2}+16x-5x-10-3}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>16</mn><mi>x</mi><mo>-</mo><mn>5</mn><mi>x</mi><mo>-</mo><mn>10</mn><mo>-</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 8 x squared plus 16 x minus 5 x minus 10 minus 3 over denominator x plus 2 end fraction"
+      },
+      {
+       "latex": "\\frac{8x^{2}+11x-13}{x+2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn mathvariant=\"bold\">8</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">11</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">13</mn></mrow><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">2</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator bold 8 bold italic x to the power of bold 2 bold plus bold 11 bold italic x bold minus bold 13 over denominator bold italic x bold plus bold 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jsssJXS7NGZy43Jw",
+   "set_slug": "calculator-questions",
+   "order": 17,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Cf7z4N4pGtmTV36b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2017\tJune",
+      "number": "1MA1/2H",
+      "question_number": 19,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "$2-\\frac{x+2}{x-3}-\\frac{x-6}{x+3}$ can be written as a single fraction in the form  $\\frac{ax+b}{x^{2}-9}$ where* a* and *b* are integers.\n\nWork out the value of* a* and the value of *b*.",
+     "solution_md": "*Think of 2 as the fraction *$\\frac{2}{1}$\n\n$\\frac{2}{1}-\\frac{x+2}{x-3}-\\frac{x-6}{x+3}$\n\n*Find the lowest common denominator of 1, (**x** - 3) and (**x** + 3) by multiplying them together* * *\n\n*lowest common denominator is *`open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses`\n\n**[1]**\n\n*Multiply top-and-bottom of each fraction by the brackets needed to form this denominator* * *\n\n`fraction numerator 2 open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction minus fraction numerator open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction minus fraction numerator open parentheses x minus 3 close parentheses open parentheses x minus 6 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction` * *\n\n*Write as one single fraction over the common denominator Subtract the numerators* * *\n\n`fraction numerator 2 open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses minus open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses minus open parentheses x minus 3 close parentheses open parentheses x minus 6 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction`\n\n**[1]**\n\n*Expand the brackets in the numerator (keeping their results in brackets)* * *\n\n`fraction numerator 2 open parentheses x squared minus 9 close parentheses minus open parentheses x squared plus 5 x plus 6 close parentheses minus open parentheses x squared minus 9 x plus 18 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction`\n\n> * *\n\n*Expand the next layer of brackets (being careful to multiply all terms by -1 in the second and third brackets)* * *\n\n`fraction numerator 2 x squared minus 18 minus x squared minus 5 x minus 6 minus x squared plus 9 x minus 18 over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction` * *\n\n> *Collect \"like\" terms in the numerator  *\n\n`fraction numerator 4 x minus 42 over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction`\n\n**[1]**\n\n> *This is not yet in the form *$\\frac{ax+b}{x^{2}-9}$*  *\n*Expand the brackets in the denominator   *\n\n> $\\frac{4x-42}{x^{2}-9}$*  *\n\n> *This is now in the form *$\\frac{ax+b}{x^{2}-9}$* where **a **and **b** are integers (whole numbers)  *\n\n**a*** = 4 and ***b*** = - 42*\n\n$\\frac{4x-42}{x^{2}-9}$** ****where ****a**** = 4 and ****b**** = - 42 ****[1]**",
+     "equations": [
+      {
+       "latex": "2-\\frac{x+2}{x-3}-\\frac{x-6}{x+3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>-</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mn>6</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 minus fraction numerator x plus 2 over denominator x minus 3 end fraction minus fraction numerator x minus 6 over denominator x plus 3 end fraction"
+      },
+      {
+       "latex": "\\frac{ax+b}{x^{2}-9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a x plus b over denominator x squared minus 9 end fraction"
+      },
+      {
+       "latex": "\\frac{2}{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>2</mn><mn>1</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 1"
+      },
+      {
+       "latex": "\\frac{2}{1}-\\frac{x+2}{x-3}-\\frac{x-6}{x+3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>2</mn><mn>1</mn></mfrac><mo>-</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mn>6</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 1 minus fraction numerator x plus 2 over denominator x minus 3 end fraction minus fraction numerator x minus 6 over denominator x plus 3 end fraction"
+      },
+      {
+       "latex": "\\frac{ax+b}{x^{2}-9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a x plus b over denominator x squared minus 9 end fraction"
+      },
+      {
+       "latex": "\\frac{4x-42}{x^{2}-9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>4</mn><mi>x</mi><mo>-</mo><mn>42</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 4 x minus 42 over denominator x squared minus 9 end fraction"
+      },
+      {
+       "latex": "\\frac{ax+b}{x^{2}-9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a x plus b over denominator x squared minus 9 end fraction"
+      },
+      {
+       "latex": "\\frac{4x-42}{x^{2}-9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn mathvariant=\"bold\">4</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">42</mn></mrow><mrow><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">9</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold 4 bold italic x bold minus bold 42 over denominator bold italic x to the power of bold 2 bold minus bold 9 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JKyNBN6Ss5GrJVtY",
+   "set_slug": "calculator-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hpWvHMSSfrCkMkF7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/23",
+      "question_number": 24,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify $\\frac{x^{2}-25}{x^{2}-17x+60}$.",
+     "solution_md": "> *Algebraic fractions can be simplified by factorising the expressions on both the numerator and the denominator and then looking for common factors which can be cancelled out.*\n\n> *The numerator is an example of a difference of two squares and can be factorised using the formula *$a^{2}-b^{2}=(a+b)(a-b).$\n\n`x to the power of 2 space end exponent minus space 25 space equals space open parentheses x space plus space 5 close parentheses open parentheses x space minus space 5 close parentheses`\n\n**[1]**\n\n> *The denominator can be factorised by finding two numbers that have a product of +60 and a sum of -17.*\n\n`open parentheses negative 12 close parentheses cross times open parentheses negative 5 close parentheses space equals space 60\nopen parentheses negative 12 close parentheses space plus space open parentheses negative 5 close parentheses space equals space minus 17`\n\n> *Therefore*\n\n`x to the power of 2 space end exponent minus space 17 x space plus space 60 space equals space open parentheses x minus 12 close parentheses open parentheses x minus 5 close parentheses`\n\n** 1 mark for each correct bracket**** [2]**\n\n> *Cancel out the common factor of *$(x-5)$* from the numerator and denominator of the fraction.*\n\n`fraction numerator open parentheses x space plus space 5 close parentheses up diagonal strike left parenthesis x space minus space 5 right parenthesis end strike over denominator open parentheses x space minus space 12 close parentheses up diagonal strike open parentheses x space minus space 5 close parentheses end strike end fraction`\n\n$\\frac{x+5}{x-12}$ **[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{x^{2}-25}{x^{2}-17x+60}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>17</mn><mi>x</mi><mo>+</mo><mn>60</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator x squared minus 25 over denominator x squared minus 17 x plus 60 end fraction"
+      },
+      {
+       "latex": "a^{2}-b^{2}=(a+b)(a-b).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a squared minus b squared equals left parenthesis a plus b right parenthesis left parenthesis a minus b right parenthesis."
+      },
+      {
+       "latex": "(x-5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis x space minus space 5 right parenthesis"
+      },
+      {
+       "latex": "\\frac{x+5}{x-12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">5</mn></mrow><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">12</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold italic x bold space bold plus bold space bold 5 over denominator bold italic x bold space bold minus bold space bold 12 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GcSskh575dDNb8YZ",
+   "set_slug": "calculator-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6d2pvgxnGw4MYnjD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2019\tOct/Nov",
+      "number": "0580/43",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{x^{2}+5x}{x^{2}-25}$",
+     "solution_md": "*Factorise the numerator by taking the common factor outside the brackets.* \n*Factorise the denominator by finding the difference of two squares.*\n\n`fraction numerator x open parentheses x plus 5 close parentheses over denominator open parentheses x minus 5 close parentheses open parentheses x plus 5 close parentheses end fraction`\n\n**Correct numerator [1] **\n**Correct denominator [1]**\n\n> *Cancel out the common factor of *`open parentheses x plus 5 close parentheses`* from both the numerator and the denominator.*\n\n$\\frac{x}{x-5}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{x^{2}+5x}{x^{2}-25}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator x squared plus 5 x over denominator x squared minus 25 end fraction"
+      },
+      {
+       "latex": "\\frac{x}{x-5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"bold-italic\">x</mi><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold italic x over denominator bold italic x bold minus bold 5 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_g8sj7gQ9mtZXFd5S",
+   "set_slug": "calculator-questions",
+   "order": 14,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_xVKKwYvdDPsRMNmR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020 May/June",
+      "number": "0580/22",
+      "question_number": 25,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vMSNnYkKPf62MRH9",
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify $\\frac{2x^{2}+x-15}{ax+3a-2bx-6b}$.",
+     "solution_md": "> *To simplify a fraction you would cancel out common factors. Therefore you need to factorise the numerator and denominator.*\n\n> *Starting with the denominator, factorise the first two terms and the last two terms. **a** is the highest common factor of the first two terms and -2**b** is the highest common factor of the last two terms.*\n\n`a x plus 3 a minus 2 b x minus 6 b equals a open parentheses x plus 3 close parentheses minus 2 b open parentheses x plus 3 close parentheses`\n\n**[1]**\n\n> *Factorise out *`open parentheses x plus 3 close parentheses`* from the new expression.*\n\n`a open parentheses x plus 3 close parentheses minus 2 b open parentheses x plus 3 close parentheses equals open parentheses x plus 3 close parentheses open parentheses a minus 2 b close parentheses`\n\n**[1]**\n\n> *Now factorise the numerator. The trick is to check whether either factor of the denominator is a factor of the numerator.*\n\n`open parentheses x plus 3 close parentheses open parentheses 2 x minus 5 close parentheses equals 2 x squared minus 5 x plus 6 x minus 15 equals 2 x squared plus x minus 15`\n\n**[2]**\n\n> *Write the numerator and denominators in their factorised forms and cancel out the common factor.*\n\n`fraction numerator up diagonal strike open parentheses x plus 3 close parentheses end strike open parentheses 2 x minus 5 close parentheses over denominator up diagonal strike open parentheses x plus 3 close parentheses end strike open parentheses a minus 2 b close parentheses end fraction`\n\n$\\frac{2x-5}{a-2b}$** ****[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{2x^{2}+x-15}{ax+3a-2bx-6b}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>-</mo><mn>15</mn></mrow><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>-</mo><mn>2</mn><mi>b</mi><mi>x</mi><mo>-</mo><mn>6</mn><mi>b</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 x squared plus x minus 15 over denominator a x plus 3 a minus 2 b x minus 6 b end fraction"
+      },
+      {
+       "latex": "\\frac{2x-5}{a-2b}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn></mrow><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">b</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold 2 bold italic x bold minus bold 5 over denominator bold italic a bold minus bold 2 bold italic b end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FYN4yrMQzTB7yVDV",
+   "set_slug": "calculator-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_SzGyTpTrS7GGNMXt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/43",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_wF3J5MKvx273VH3h"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{3}{x-1}-\\frac{2}{2x+1}$",
+     "solution_md": "> *Find a common denominator for the two fractions by multiplying their denominators together.*\n\n*Common denominator = *`open parentheses x space minus space 1 close parentheses open parentheses 2 x space plus space 1 close parentheses`\n\n**[1]**\n\n> *Convert the denominators into *`open parentheses x space minus space 1 close parentheses open parentheses 2 x space plus space 1 close parentheses`* by multiplying the numerator and denominator of the first fraction by *$2x+1$* and of the second fraction by *`open parentheses x minus 1 close parentheses`*.  *\n\n`fraction numerator open parentheses 3 close parentheses left parenthesis 2 x space plus space 1 right parenthesis over denominator left parenthesis x space minus space 1 right parenthesis open parentheses 2 x space plus space 1 close parentheses end fraction minus space fraction numerator open parentheses 2 close parentheses open parentheses x space minus space 1 close parentheses over denominator left parenthesis x space minus space 1 right parenthesis open parentheses 2 x space plus space 1 close parentheses end fraction`\n\n> *As the denominators are the same you can write as one fraction.*\n\n`fraction numerator 3 open parentheses 2 x space plus space 1 close parentheses space minus space 2 open parentheses x space minus space 1 close parentheses over denominator left parenthesis x space minus space 1 right parenthesis open parentheses 2 x space plus space 1 close parentheses end fraction`\n\n**[1]**\n\n> *Expand the numerator. *\n*Leave the denominator factorised as this will help to spot any common factors.*\n\n`table row blank blank cell fraction numerator 6 x space plus space 3 space minus space 2 x space plus space 2 over denominator left parenthesis x space minus space 1 right parenthesis open parentheses 2 x space plus space 1 close parentheses end fraction end cell end table`\n\n> *Simplify the numerator.*\n\n`equation` **[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{3}{x-1}-\\frac{2}{2x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>3</mn><mrow><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn></mrow></mfrac><mo>-</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 3 over denominator x space minus space 1 end fraction minus fraction numerator 2 over denominator 2 x space plus space 1 end fraction"
+      },
+      {
+       "latex": "2x+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x space plus space 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cHv7btGSGcxx7MBB",
+   "set_slug": "calculator-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_NYxQ7KhZqdS363Vz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0580/04",
+      "question_number": 21,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_RJbgRvXq2VrGpP5g",
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{5p^{2}-20p}{2p^{2}-32}$",
+     "solution_md": "> *Factorising the numerator gives*\n\n`equals fraction numerator 5 p open parentheses p minus 4 close parentheses over denominator 2 p squared space minus space 32 end fraction`\n\n**numerator factorised ****[1]**\n\n> *Factorising the '2' in the denominator gives*\n\n`equals fraction numerator 5 p open parentheses p minus 4 close parentheses over denominator 2 open parentheses p squared space minus space 16 close parentheses end fraction`\n\n> *And we should recognise this as the difference of two squares (*`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`*) giving*\n\n`equals fraction numerator 5 p open parentheses p minus 4 close parentheses over denominator 2 open parentheses p plus 4 close parentheses open parentheses p minus 4 close parentheses end fraction`\n\n**denominator fully factorised ****[1]**\n\n> *The '*$p-4$*'s cancel*\n\n`equals fraction numerator 5 p up diagonal strike open parentheses p minus 4 close parentheses end strike over denominator 2 open parentheses p plus 4 close parentheses up diagonal strike open parentheses p minus 4 close parentheses end strike end fraction`\n\n> *Write the final answer*\n\n$\\frac{5p}{2(p+4)}\\mathrm{or}\\frac{5p}{2p+8}$**[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{5p^{2}-20p}{2p^{2}-32}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>5</mn><msup><mi>p</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>20</mn><mi>p</mi></mrow><mrow><mn>2</mn><msup><mi>p</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>32</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 5 p squared space minus space 20 p over denominator 2 p squared space minus space 32 end fraction"
+      },
+      {
+       "latex": "p-4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>-</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p minus 4"
+      },
+      {
+       "latex": "\\frac{5p}{2(p+4)}\\mathrm{or}\\frac{5p}{2p+8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">p</mi></mrow><mrow><mn mathvariant=\"bold\">2</mn><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><mo> </mo><mo> </mo><mi>or</mi><mo> </mo><mo> </mo><mfrac><mrow><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">p</mi></mrow><mrow><mn mathvariant=\"bold\">2</mn><mrow><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">8</mn></mrow></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bhSZQDDMC57HpSQQ",
+   "set_slug": "calculator-questions",
+   "order": 18,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_XGKdWtqjRzFdS2Kk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prove",
+     "source_paper": {
+      "date": "2015\tSample",
+      "number": "1MA1/2H",
+      "question_number": 16,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6",
+      "spcpt_j2YgCQ3HvtrTXdG4"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Show that  $\\frac{1}{6x^{2}+7x-5}\\div\\frac{1}{4x^{2}-1}$  simplifies to  $\\frac{ax+b}{cx+d}$ where *a, b, c* and *d* are integers.",
+     "solution_md": "*Dividing by *$\\frac{a}{b}$* is the same as multiplying by *$\\frac{b}{a}$ \n*Flip the second fraction and change ÷ into ×* * *\n\n$\\frac{1}{6x^{2}+7x-5}\\times\\frac{4x^{2}-1}{1}$ * *\n\n*\"Simplify\" for algebraic fractions means factorise and cancel* *Factorise the numerator of the second fraction using the \"difference of two squares\" **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* = (**a **+ **b**)(**a **- **b**)   *\n\n`table row cell 4 x squared minus 1 end cell equals cell open parentheses 2 x close parentheses squared minus 1 squared end cell row blank equals cell open parentheses 2 x plus 1 close parentheses open parentheses 2 x minus 1 close parentheses end cell end table`\n\n**[1]*** *\n\n*The calculation is now*\n\n`fraction numerator 1 over denominator 6 x squared plus 7 x minus 5 end fraction cross times fraction numerator open parentheses 2 x plus 1 close parentheses open parentheses 2 x minus 1 close parentheses over denominator 1 end fraction`\n\n*The harder quadratic on the denominator is likely to have (2**x** + 1) or (2**x** - 1) as a factor* \n*Try factorising with (2**x** + 1)* * *\n\n`6 x squared plus 7 x minus 5 equals open parentheses 3 x plus-or-minus... close parentheses open parentheses 2 x plus 1 close parentheses ?` * *\n\n*The whole number -5 in the first bracket would multiply by +1 in the second bracket to give -5 on the left *\n*But expanding this attempt gives an incorrect middle term* * *\n\n> `open parentheses 3 x minus 5 close parentheses open parentheses 2 x plus 1 close parentheses equals 6 x squared bottom enclose negative 7 x end enclose minus 5`*  *\n\n*Try factorising with (2**x** - 1)* * *\n\n`6 x squared plus 7 x minus 5 equals open parentheses 3 x plus-or-minus... close parentheses open parentheses 2 x minus 1 close parentheses ?` * *\n\n*The whole number +5 in the first bracket would multiply by -1 in the second bracket to give -5 on the left *\n*Expanding this attempt shows it is correct* * *\n\n`open parentheses 3 x plus 5 close parentheses open parentheses 2 x minus 1 close parentheses equals 6 x squared plus 7 x minus 5`\n\n**[1]**\n\n*Cancel common brackets from top-and-bottom (this is possible across the × sign)* * *\n\n> `fraction numerator 1 over denominator open parentheses 3 x plus 5 close parentheses up diagonal strike open parentheses 2 x minus 1 close parentheses end strike end fraction cross times fraction numerator open parentheses 2 x plus 1 close parentheses up diagonal strike open parentheses 2 x minus 1 close parentheses end strike over denominator 1 end fraction`*  *\n\n> *Combine into one single fraction by multiplying the numerators together and multiplying the denominators together *\n*This is now in the form *$\\frac{ax+b}{cx+d}$* where **a**, **b**, **c** and **d** are integers (whole numbers)*\n\n$\\frac{2x+1}{3x+5}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "\\frac{1}{6x^{2}+7x-5}\\div\\frac{1}{4x^{2}-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>-</mo><mn>5</mn></mrow></mfrac><mo>÷</mo><mfrac><mn>1</mn><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 over denominator 6 x squared plus 7 x minus 5 end fraction divided by fraction numerator 1 over denominator 4 x squared minus 1 end fraction"
+      },
+      {
+       "latex": "\\frac{ax+b}{cx+d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a x plus b over denominator c x plus d end fraction"
+      },
+      {
+       "latex": "\\frac{a}{b}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>a</mi><mi>b</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a over b"
+      },
+      {
+       "latex": "\\frac{b}{a}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>b</mi><mi>a</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b over a"
+      },
+      {
+       "latex": "\\frac{1}{6x^{2}+7x-5}\\times\\frac{4x^{2}-1}{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>-</mo><mn>5</mn></mrow></mfrac><mo>×</mo><mfrac><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow><mn>1</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 over denominator 6 x squared plus 7 x minus 5 end fraction cross times fraction numerator 4 x squared minus 1 over denominator 1 end fraction"
+      },
+      {
+       "latex": "\\frac{ax+b}{cx+d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator a x plus b over denominator c x plus d end fraction"
+      },
+      {
+       "latex": "\\frac{2x+1}{3x+5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1</mn></mrow><mrow><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">5</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold 2 bold italic x bold plus bold 1 over denominator bold 3 bold italic x bold plus bold 5 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6NhH2c8XF68J24S5",
+   "set_slug": "calculator-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_GX6SBqBf85ztQZhw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/23",
+      "question_number": 22,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{2x^{2}-x-1}{2x^{2}+x}$",
+     "solution_md": "*\"Simplify\" means factorise first then cancel* \n*Factorise the numerator by finding brackets in the form  *`open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus-or-minus... close parentheses`* that expand to give *$2x^{2}-x-1$ * *\n\n`2 x squared minus x minus 1 equals open parentheses 2 x plus 1 close parentheses open parentheses x minus 1 close parentheses`\n\n**[2]**\n\n*Factorise the denominator (by taking out an *$x$*)* * *\n\n`2 x squared plus x equals x open parentheses 2 x plus 1 close parentheses`\n\n**[1]**\n\n*Cancel any common brackets from top-and-bottom * * *\n\n`fraction numerator up diagonal strike open parentheses 2 x plus 1 close parentheses end strike open parentheses x minus 1 close parentheses over denominator x up diagonal strike open parentheses 2 x plus 1 close parentheses end strike end fraction equals fraction numerator x minus 1 over denominator x end fraction`\n\n$\\frac{x-1}{x}$* ***[1]**\n $1-\\frac{1}{x}$** is also accepted**",
+     "equations": [
+      {
+       "latex": "\\frac{2x^{2}-x-1}{2x^{2}+x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mi>x</mi><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 x squared minus x minus 1 over denominator 2 x squared plus x end fraction"
+      },
+      {
+       "latex": "2x^{2}-x-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mi>x</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x squared minus x minus 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{x-1}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow><mi mathvariant=\"bold-italic\">x</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator bold italic x bold minus bold 1 over denominator bold italic x end fraction"
+      },
+      {
+       "latex": "1-\\frac{1}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 minus 1 over x"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

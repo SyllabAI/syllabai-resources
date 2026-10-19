@@ -1,0 +1,951 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:26:14Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "25-astronomy-and-cosmology",
+  "name": "25. Astronomy & Cosmology"
+ },
+ "topic": {
+  "id": "top_9FTqn9fXKgkFX82t",
+  "slug": "25-1-standard-candles",
+  "name": "Standard Candles",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "luminosity-and-radiant-flux",
+   "name": "Luminosity & Radiant Flux",
+   "revision_note_id": "rn_BxtSC5qYNB4yvTQs"
+  },
+  {
+   "slug": "standard-candles-and-stellar-distances",
+   "name": "Standard Candles & Stellar Distances",
+   "revision_note_id": "rn_5CfW63WPr6FmQq3r"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_ZWxrsRg9PFtYDh3s",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/25-astronomy-and-cosmology/25-1-standard-candles/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/01/25-1-easy-cosmic-distance-ladder.png": "001-25-1-easy-cosmic-distance-ladder.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/25-1-e-q1d-sq-cie-ial-physics.png": "002-25-1-e-q1d-sq-cie-ial-physics.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/25-1-m-q1b-sq-cie-ial-physics.png": "003-25-1-m-q1b-sq-cie-ial-physics.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/25-1-m-q1bans-sq-cie-ial-physics.png": "004-25-1-m-q1bans-sq-cie-ial-physics.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/25-1-m-q1c-sq-cie-ial-physics.png": "005-25-1-m-q1c-sq-cie-ial-physics.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/25-1-m-q1cans-sq-cie-ial-physics.png": "006-25-1-m-q1cans-sq-cie-ial-physics.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_QjJqKJFTc3456489",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_NjBfnbmmpdvKgNhR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "Vega is the brightest star in the Lyra constellation with a luminosity 40 times that of the Sun and a radiant flux intensity at Earth of 21.3 nW m<sup>−2</sup>.\n\nCalculate the distance of Vega from the Earth in m.\n\nLuminosity of the Sun = 3.85 × 10<sup>26</sup> W",
+     "solution_md": "Calculate the distance of Vega from the Earth:\n\nList the known quantities:\n\n- Luminosity of Vega = 40 *L*<sub>Sun</sub>\n- Luminosity of the Sun, *L*<sub>Sun</sub> = 3.85 × 10<sup>26</sup> W\n- Radiant flux intensity on Earth, *F* = 21.3 nW m<sup>−2</sup> = 2.13 × 10<sup>−8</sup> W m<sup>−2</sup>\n\nCalculate the luminosity of Vega in W:\n\n- *L *= 40 × (3.85 × 10<sup>26</sup>) = 1.54 × 10<sup>28</sup> W **[1 mark]**\n\nRearrange the inverse square law of flux equation for the distance, *d*:\n\n- Inverse square law of flux:  $F=\\frac{L}{4πd^{2}}$ **[1 mark]**\n- Rearrange:  $d=\\sqrt{\\frac{L}{4πF}}$\n- Substitute:  `d space equals space square root of fraction numerator 1.54 space cross times space 10 to the power of 28 over denominator 4 pi space cross times space open parentheses 2.13 space cross times space 10 to the power of negative 8 end exponent close parentheses end fraction end root` **[1 mark]**\n- Distance to Vega:  $d=2.40\\times10^{17}m$ **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Make sure you find the actual luminosity of Vega in W first and don't just use the relative luminosity compared to the Sun. *",
+     "equations": [
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>L</mi></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals fraction numerator space L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "d=\\sqrt{\\frac{L}{4πF}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msqrt><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>F</mi></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space square root of fraction numerator L over denominator 4 straight pi F end fraction end root"
+      },
+      {
+       "latex": "d=2.40\\times10^{17}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>40</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>17</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 2.40 space cross times space 10 to the power of 17 space straight m"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NYvY48ssNXvsQk5P",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nVega is the brightest star in the Lyra constellation with a luminosity 40 times that of the Sun and a radiant flux intensity at Earth of 21.3 nW m^−2^. Calculate the distance of Vega from the Earth in m. Distance to Vega: d = 2.40 × 10^17 m\n\nFig. 1.1 shows a chart known as the cosmic distance ladder. It details different methods of measuring astronomical distances according to the distance they can measure from Earth.\n\n![25-1-easy-cosmic-distance-ladder](assets/001-25-1-easy-cosmic-distance-ladder.png)\n\n**Fig. 1.1**\n\nUsing Fig. 1.1, determine the best method to use to measure the distance to Vega.\n\n1 light year = 9.46 × 10<sup>15</sup> m",
+     "solution_md": "Determine the best method to use to measure the distance to Vega:\n\nList the known quantities:\n\n- 1 light year = 9.46 × 10<sup>15</sup> m\n- Distance of Vega from the Earth, *d *= 2.40 × 10<sup>17</sup> m\n\nConvert the distance to ly:\n\n- Distance:  $d=\\frac{2.40\\times10^{17}}{9.46\\times10^{15}}$ = 25.4 ly **[1 mark]**\n- Distance: * d *= 2.54 × 10<sup>1</sup> ly (in standard form)\n\nFrom the cosmic distance ladder, the best method to measure distance is:\n\n- Parallax;** [1 mark]**\n\nThis is because:\n\n- Vega is too far away (from Earth) to use radar (ranging) **OR** too close to Earth to use the H-R diagram method; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Don't get confused when converting from m to ly. Divide the distance in m to get a smaller value in ly. Converting the distance into ly makes it easier to identify the location of an object on the cosmic distance ladder. *",
+     "equations": [
+      {
+       "latex": "d=\\frac{2.40\\times10^{17}}{9.46\\times10^{15}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>40</mn><mo>&#215;</mo><msup><mn>10</mn><mn>17</mn></msup></mrow><mrow><mn>9</mn><mo>.</mo><mn>46</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 2.40 cross times 10 to the power of 17 over denominator 9.46 cross times 10 to the power of 15 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NRWqVqWQ9Zz89BkS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows a chart known as the cosmic distance ladder. It details different methods of measuring astronomical distances according to the distance they can measure from Earth.\n\nThe Andromeda galaxy is known to be the closest galaxy to our galaxy, the Milky Way.\n\nSuggest which method could be used by an astronomer to prove that Andromeda is a separate galaxy outside of the Milky Way. Explain your choice.",
+     "solution_md": "The best method to use to prove that Andromeda is a separate galaxy outside of the Milky Way is:\n\n- Cepheid variables / period-luminosity relation; **[1 mark]**\n\nThis is because:\n\n**Final answer:** **Any ****three**** from:**\n\n- Distances to nearby stars (in the Milky Way) are less than 10<sup>5</sup> light-years away; **[1 mark]**\n- Distances to galaxies are more than 10<sup>5</sup> light-years away; **[1 mark]**\n- (Andromeda) is too close to Earth to use Hubble's law method; **[1 mark]**\n- (Andromeda) is too far from Earth to use the H-R diagram / parallax method; **[1 mark]**\n- Type 1a supernovae are rare events / cannot be reliably predicted; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Whilst you are not explicitly required to know exact astronomical distances, having a rough idea about the scale of distances in our galaxy, and the rest of the Universe, will deepen your understanding of astronomy. For example,*\n\n- *The distance to our **closest star** (Alpha Centauri) ≈ 4 light-years (4 × 10*<sup>*0*</sup>* ly)*\n- *The size of the **Milky Way **≈ 100 000 light-years (1 × 10*<sup>*5*</sup>* ly)*\n- *The distance to our **closest galaxy** (Andromeda) ≈ 2.5 million light-years (2.5 × 10*<sup>*6*</sup>* ly)*\n- *The size of our **local group** (or 'neighbourhood') of galaxies ≈ 10 million light-years (1 × 10*<sup>*7*</sup>* ly)*\n- *The distance to our **closest cluster** of galaxies (Virgo cluster) ≈ 65 million light-years (6.5 × 10*<sup>*7*</sup>* ly)*\n- *The **furthest **known galaxy (HD1) ≈ 13.5 billion light-years (1.35 × 10*<sup>*10*</sup>* ly)*\n- *The size of the **observable Universe** ≈ 93 billion light-years (9.3 × 10*<sup>*10*</sup>* ly)*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PWVNFwhnSCHH4NXH",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_jn5QYsj9Hs923NZz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two** factors that affect radiant flux intensity from a star.",
+     "solution_md": "The factors that affect radiant flux intensity from a star are:\n\n- The luminosity of the star; **[1 mark]**\n- The distance (from the centre) of the star (to the observer / Earth); **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_T3yZD3WKtC88Hz75",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BhZGFTbw6Pv5bCsr"
+     ],
+     "part_tier": null,
+     "problem_md": "Cepheids variable stars and type 1a supernovae are types of standard candle.\n\nState the common feature that makes Cepheid variables and type 1a supernovae suitable for measuring distances.",
+     "solution_md": "The common feature of Cepheid variables and type 1a supernovae is\n\n- They are objects of known luminosity; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_Qz5SGVdV2bFxyQZ9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "The Cepheid variable star Eta Aquilae is 1.3 × 10<sup>19 </sup>m away from the Earth. Its radiant flux intensity on Earth is measured to be 4.7 × 10<sup>−10</sup> W m<sup>−2</sup>.\n\nDetermine the luminosity of Eta Aquilae.",
+     "solution_md": "Determine the luminosity of Eta Aquilae:\n\nList the known quantities:\n\n- Distance to Eta Aquilae, *d* = 1.3 × 10<sup>19</sup> m\n- Radiant flux intensity, *F* = 4.7 × 10<sup>−10</sup> W m<sup>−2</sup>\n\nCalculate the luminosity using the inverse square law:\n\n- Inverse square law of flux:  $F=\\frac{L}{4πd^{2}}$ **[1 mark]**\n- Rearrange:  $L=4πd^{2}F$\n- `L space equals space 4 straight pi open parentheses 1.3 cross times 10 to the power of 19 close parentheses squared cross times open parentheses 4.7 cross times 10 to the power of negative 10 end exponent close parentheses` **[1 mark]**\n- $L=1.0\\times10^{30}W$ **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "L=4πd^{2}F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup><mi>F</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L space equals space 4 straight pi d squared F"
+      },
+      {
+       "latex": "L=1.0\\times10^{30}W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>30</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L space equals space 1.0 cross times 10 to the power of 30 space straight W"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tkNRqgCkk6Fw933Z",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y9PMcXG4Cx5jv2Vd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe Cepheid variable star Eta Aquilae is 1.3 × 10^19 m away from the Earth. Its radiant flux intensity on Earth is measured to be 4.7 × 10^−10 W m^−2. Determine the luminosity of Eta Aquilae. [Answer: L = 1.0 × 10^30 W]\n\nThe luminosity of the Sun is 3.8 × 10<sup>26</sup> W.\n\nDetermine how much greater the power output of Eta Aquilae is than the power output of the Sun.",
+     "solution_md": "Determine how much greater the power output of Eta Aquilae is than the power output of the Sun:\n\nList the known quantities:\n\n- Luminosity of Eta Aquilae, $L_{Eta}$ = 1.0 × 10<sup>30</sup> W (from part c)\n- Luminosity of the Sun, $L_{Sun}$ = 3.8 × 10<sup>26</sup> W\n\nCalculate the ratio of the luminosities:\n\n- $\\frac{L_{Eta}}{L_{Sun}}=\\frac{1.0\\times10^{30}}{3.8\\times10^{26}}$\n- $\\frac{L_{Eta}}{L_{Sun}}=2632=2600$ (2 s.f.)\n- $L_{Eta}=2600\\timesL_{Sun}$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "L_{Eta}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mrow><mi>E</mi><mi>t</mi><mi>a</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript E t a end subscript"
+      },
+      {
+       "latex": "L_{Sun}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mrow><mi>S</mi><mi>u</mi><mi>n</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript S u n end subscript"
+      },
+      {
+       "latex": "\\frac{L_{Eta}}{L_{Sun}}=\\frac{1.0\\times10^{30}}{3.8\\times10^{26}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>L</mi><mrow><mi>E</mi><mi>t</mi><mi>a</mi></mrow></msub><msub><mi>L</mi><mrow><mi>S</mi><mi>u</mi><mi>n</mi></mrow></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>1</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><mrow><mn>3</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mn>26</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript E t a end subscript over L subscript S u n end subscript space equals space fraction numerator 1.0 cross times 10 to the power of 30 over denominator 3.8 cross times 10 to the power of 26 end fraction"
+      },
+      {
+       "latex": "\\frac{L_{Eta}}{L_{Sun}}=2632=2600",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>L</mi><mrow><mi>E</mi><mi>t</mi><mi>a</mi></mrow></msub><msub><mi>L</mi><mrow><mi>S</mi><mi>u</mi><mi>n</mi></mrow></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2632</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2600</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript E t a end subscript over L subscript S u n end subscript space equals space 2632 space equals space 2600"
+      },
+      {
+       "latex": "L_{Eta}=2600\\timesL_{Sun}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>L</mi><mrow><mi>E</mi><mi>t</mi><mi>a</mi></mrow></msub><mo>=</mo><mo>&#160;</mo><mn>2600</mn><mo>&#215;</mo><msub><mi>L</mi><mrow><mi>S</mi><mi>u</mi><mi>n</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript E t a end subscript equals space 2600 cross times L subscript S u n end subscript"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PQyHhsKHTh7KSy2P",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HDF43mQBxXwYf7Yb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BhZGFTbw6Pv5bCsr"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by a standard candle.",
+     "solution_md": "A standard candle is:\n\n- A (stellar) object of known luminosity; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_69DXdfnWkmCK2sXf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA standard candle is a (stellar) object of known luminosity.\n\nExplain how a standard candle can be used to measure astronomical distances.",
+     "solution_md": "A standard candle can be used to measure astronomical distances by:\n\n**EITHER**\n\n- Measuring the standard candle's flux / brightness / intensity on Earth; **[1 mark]**\n- Using the inverse square law (of flux) to calculate distance; **[1 mark]**\n\n**OR**\n\n- Using $F=\\frac{L}{4πd^{2}}$; **[1 mark]**\n- Where *F* = flux / brightness / intensity (of standard candle), *L* = luminosity, *d* = distance (to standard candle); **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_st3zFfDG68mBN4sh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "A standard candle in a distant galaxy is found to have a luminosity of 2.0 × 10<sup>36</sup> W and a radiant flux intensity on Earth of 2.59 × 10<sup>–15</sup> W m<sup>–2</sup>.\n\nShow that the distance of the galaxy from the Earth is about 8 × 10<sup>24</sup> m.",
+     "solution_md": "Show that the distance of the galaxy from the Earth is about 8 × 10<sup>24</sup> m:\n\nList the known quantities:\n\n- Radiant flux on Earth, *F* = 2.59 × 10<sup>–15</sup> W m<sup>–2</sup>\n- Luminosity, *L* = 2.0 × 10<sup>36</sup> W\n\nCalculate the distance to the galaxy using the inverse square law:\n\n- Inverse square law of flux:  $F=\\frac{L}{4πd^{2}}$ **[1 mark]**\n- $d=\\sqrt{\\frac{L}{4πF}}$\n- `d equals square root of fraction numerator 2.0 cross times 10 to the power of 36 over denominator 4 straight pi cross times open parentheses 2.59 cross times 10 to the power of negative 15 end exponent close parentheses end fraction end root equals 7.84 cross times 10 to the power of 24 space straight m` **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>=</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F equals fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "d=\\sqrt{\\frac{L}{4πF}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><msqrt><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>F</mi></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d equals square root of fraction numerator L over denominator 4 straight pi F end fraction end root"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RCDSxRshqMz6zjPm",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA standard candle in a distant galaxy is found to have a luminosity of 2.0 × 10^36 W and a radiant flux intensity on Earth of 2.59 × 10^–15 W m^–2. Show that the distance of the galaxy from the Earth is about 8 × 10^24 m. d = 7.84 × 10^24 m\n\nThe cosmic distance ladder is a way of categorising the different methods of measuring astronomical distances, as shown in Fig. 1.1.\n\n![25-1-e-q1d-sq-cie-ial-physics](assets/002-25-1-e-q1d-sq-cie-ial-physics.png)\n\n**Fig. 1.1**\n\n(i) Determine the distance, in light years, to the standard candle.\n\n1 light year = 9.46 × 10<sup>15</sup> m\n\n[2]\n\n(ii) Using Fig. 1.1, state the type of standard candle that the object must be.\n\n[1]",
+     "solution_md": "(i) Determine the distance to the standard candle in light years:\n\nList the known quantities:\n\n- Distance to standard candle, *d* = 7.84 × 10<sup>24</sup> m (from part c)\n- 1 light year = 9.46 × 10<sup>15</sup> m\n\nConvert the distance to ly:\n\n- $d=\\frac{7.84\\times10^{24}}{9.46\\times10^{15}}$ **[1 mark]**\n- *d *= 8.3 × 10<sup>8</sup> ly **[1 mark]**\n\n(ii) The object is a:\n\n- Type 1a supernovae;** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *You do not need to learn the distances and methods in each section of the cosmic distance ladder, but you could be expected to interpret it.*\n\n> *Try not to get confused when converting from m to ly. Divide the distance in m to get a smaller value in ly. *",
+     "equations": [
+      {
+       "latex": "d=\\frac{7.84\\times10^{24}}{9.46\\times10^{15}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>7</mn><mo>.</mo><mn>84</mn><mo>&#215;</mo><msup><mn>10</mn><mn>24</mn></msup></mrow><mrow><mn>9</mn><mo>.</mo><mn>46</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 7.84 cross times 10 to the power of 24 over denominator 9.46 cross times 10 to the power of 15 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mkN4WWbHp8bzDsSQ",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_W2xbJQJJd3jVmRbC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y9PMcXG4Cx5jv2Vd"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by the luminosity of a star.",
+     "solution_md": "The luminosity of a star is:\n\n- The total power of radiation emitted (by the star); **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_9276jGg6Dp22Wvzk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "Type 1a supernovae are a type of standard candle. They are all known to explode with a peak luminosity of 1.6 × 10<sup>36</sup> W.\n\nSuggest a reason why type 1a supernovae are used to measure distances to the most distant galaxies.",
+     "solution_md": "Type 1a supernovae are used to measure distances to the most distant galaxies because:\n\n- Their high luminosities (10<sup>36</sup> W) mean they are extremely bright; **[1 mark]**\n- The radiant flux intensity (on Earth) will be detectable / bright enough to measure (even at very large distances); **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_t46XKd4vc9wnZ9mr",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nType 1a supernovae are a type of standard candle. They are all known to explode with a peak luminosity of 1.6 × 10^36 W.\n\nA type 1a supernova is observed in a distant galaxy with a peak radiant flux intensity of 9.0 × 10<sup>−18</sup> W m<sup>−2</sup>.\n\nEstimate the distance of the galaxy from the Earth.",
+     "solution_md": "Estimate the distance of the galaxy from the Earth:\n\nList the known quantities:\n\n- Radiant flux intensity, F = 9.0 × 10<sup>−18</sup> W m<sup>−2</sup>\n- Luminosity, L = 1.6 × 10<sup>36</sup> W\n\nCalculate the distance to the galaxy using the inverse square law:\n\n- Inverse square law of flux:  $F=\\frac{L}{4πd^{2}}$ **[1 mark]**\n- Rearrange:  $d=\\sqrt{\\frac{L}{4πF}}$\n- `d space equals space square root of fraction numerator 1.6 cross times 10 to the power of 36 over denominator 4 straight pi cross times open parentheses 9.0 cross times 10 to the power of negative 18 end exponent close parentheses end fraction end root` **[1 mark]**\n- $d=1.19\\times10^{26}m$ **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "d=\\sqrt{\\frac{L}{4πF}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msqrt><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>F</mi></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space square root of fraction numerator L over denominator 4 straight pi F end fraction end root"
+      },
+      {
+       "latex": "d=1.19\\times10^{26}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>19</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>26</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 1.19 space cross times space 10 to the power of 26 space straight m"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mNTCwXCxNkm8ghqt",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA type 1a supernova is observed in a distant galaxy with a peak radiant flux intensity of 9.0 × 10^−18 W m^−2. Estimate the distance of the galaxy from the Earth. Answer: d = 1.19 × 10^26 m\n\nEstimate how long ago, in years, the type 1a supernova exploded.\n\n1 light year = 9.46 × 10<sup>15</sup> m",
+     "solution_md": "Estimate how long ago, in years, the type 1a supernova exploded:\n\nList the known quantities:\n\n- Distance to supernova, *d* = 1.19 × 10<sup>26</sup> m\n- Distance travelled by light per year = 9.46 × 10<sup>15</sup> m\n\nDetermine the time of the explosion:\n\n- When the supernova exploded, photons began to travel to Earth at a rate of 9.46 × 10<sup>15</sup> m per year\n- Therefore, time since explosion = $\\frac{totaldistancetravelledbylight}{distancetravelledbylightperyear}$\n- Time since explosion = $\\frac{1.19\\times10^{26}}{9.46\\times10^{15}}$ **[1 mark]**\n- Time since explosion = 1.26 × 10<sup>10</sup> years (12.6 billion years) **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{totaldistancetravelledbylight}{distancetravelledbylightperyear}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo>&#160;</mo><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi><mo>&#160;</mo><mi>t</mi><mi>r</mi><mi>a</mi><mi>v</mi><mi>e</mi><mi>l</mi><mi>l</mi><mi>e</mi><mi>d</mi><mo>&#160;</mo><mi>b</mi><mi>y</mi><mo>&#160;</mo><mi>l</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi><mo>&#160;</mo><mi>t</mi><mi>r</mi><mi>a</mi><mi>v</mi><mi>e</mi><mi>l</mi><mi>l</mi><mi>e</mi><mi>d</mi><mo>&#160;</mo><mi>b</mi><mi>y</mi><mo>&#160;</mo><mi>l</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi><mo>&#160;</mo><mi>p</mi><mi>e</mi><mi>r</mi><mo>&#160;</mo><mi>y</mi><mi>e</mi><mi>a</mi><mi>r</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator t o t a l space d i s t a n c e space t r a v e l l e d space b y space l i g h t over denominator d i s t a n c e space t r a v e l l e d space b y space l i g h t space p e r space y e a r end fraction"
+      },
+      {
+       "latex": "\\frac{1.19\\times10^{26}}{9.46\\times10^{15}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>.</mo><mn>19</mn><mo>&#215;</mo><msup><mn>10</mn><mn>26</mn></msup></mrow><mrow><mn>9</mn><mo>.</mo><mn>46</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1.19 cross times 10 to the power of 26 over denominator 9.46 cross times 10 to the power of 15 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GgfXzGtB5pKDngwN",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Bh7PzPQVnBMDtcB2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "Recently, astronomers have observed a type 1a supernova called Encore in a distant galaxy. Measurements of the light from Encore revealed that the galaxy is 10 billion light-years away.\n\nState the property of a type 1a supernova that makes it suitable for measuring distances.",
+     "solution_md": "A type 1a supernova is a type of standard candle, which means:\n\n- It is an (astronomical) object of <u>known luminosity</u>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Make sure to use the correct terminology, in this case, only \"luminosity\" is accepted, terms such as \"brightness\" would not be given the mark*"
+    },
+    {
+     "id": "qstnprt_9yz8X3rXYDsF7HDN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w392W8FRPQqd4h9p",
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nRecently, astronomers have observed a type 1a supernova called Encore in a distant galaxy. Measurements of the light from Encore revealed that the galaxy is 10 billion light-years away.\n\nLight from supernova Encore is collected using the James Webb Space Telescope (JWST).\n\nThe JWST detects a peak power reading of 5.3 × 10<sup>−16</sup> W. Theory predicts that this reading corresponds to Encore's peak luminosity of 2.4 × 10<sup>36</sup> W.\n\n1 ly = 9.46 × 10<sup>15</sup> m\n\n(i) Calculate the peak radiant flux intensity at the JWST.\n\n[3]\n\n(ii) Show that the collecting area of the JWST is 25 m<sup>2</sup>.\n\n[2]",
+     "solution_md": "List the known quantities:\n\n- Distance from Earth, $d$ = 10 billion light-years = 10 × 10<sup>9</sup> ly\n- Peak luminosity of supernova, $L$ = 2.4 × 10<sup>36</sup> W\n- Peak power (measured by JWST), $P$ = 5.3 × 10<sup>−16</sup> W\n- 1 ly = 9.46 × 10<sup>15</sup> m\n\n(i) Calculate the peak radiant flux intensity at the JWST:\n\nConvert the distance from light-years to metres:\n\n- Distance:  $d$ = (10 × 10<sup>9</sup>) × (9.46 × 10<sup>15</sup>) = 9.46 × 10<sup>25</sup> m **[1 mark]**\n\nUse the inverse square law of flux to calculate the peak intensity:\n\n- Inverse square law of flux:  $F=\\frac{L}{4πd^{2}}$ **[1 mark]**\n- Substitute:  `F space equals space fraction numerator 2.4 cross times 10 to the power of 36 over denominator 4 straight pi open parentheses 9.46 cross times 10 to the power of 25 close parentheses squared end fraction`\n- Peak radiant flux intensity:  $F$ = 2.13 × 10<sup>−17</sup> W m<sup>−2</sup> **[1 mark]**\n\n(ii) Show that the collecting area of the JWST is 25 m<sup>2</sup>:\n\n- Intensity equation:  $F=\\frac{P}{A}\\RightarrowA=\\frac{P}{F}$\n- Substitute:  $A=\\frac{5.3\\times10^{-16}}{2.13\\times10^{-17}}$ **[1 mark]**\n- Collecting area: $A$ = 24.9 = 25 m<sup>2</sup> **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Think carefully about the units you need to use with each equation. Remember to convert the distance from light-years to metres before substituting into the inverse square law. *",
+     "equations": [
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "F=\\frac{P}{A}\\RightarrowA=\\frac{P}{F}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>P</mi><mi>A</mi></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>A</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>P</mi><mi>F</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space P over A space space space rightwards double arrow space space space A space equals space P over F"
+      },
+      {
+       "latex": "A=\\frac{5.3\\times10^{-16}}{2.13\\times10^{-17}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>5</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>16</mn></mrow></msup></mrow><mrow><mn>2</mn><mo>.</mo><mn>13</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>17</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A space equals space fraction numerator 5.3 cross times 10 to the power of negative 16 end exponent over denominator 2.13 cross times 10 to the power of negative 17 end exponent end fraction"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_2q9sPYDFYkX2Dvc8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "After the initial explosion, the light emitted by supernova Encore was collected for around 100 days. The total energy released during this time is estimated to be 10<sup>44</sup> J.\n\nCalculate the average power output of supernova Encore.",
+     "solution_md": "Calculate the average power output of supernova Encore:\n\nList the known quantities:\n\n- Total energy released by supernova, $E$ = 10<sup>44</sup> J\n- Time interval, $t$ = 100 days = (100 × 24 × 3600) = 8.64 × 10<sup>6</sup> s\n\nDetermine the average power output of the explosion:\n\n- Power equation:  $P=\\frac{E}{t}$\n- Substitute:   $P=\\frac{10^{44}}{8.64\\times10^{6}}$ **[1 mark]**\n- Average power output:  $P=1.16\\times10^{37}W$** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *Remember that power = *$\\frac{energy}{time}$* and W = J s*<sup>*−1*</sup>*. So you need to convert the time into seconds.*\n\n> *Remember each stage:*\n\n- *24 hours in 1 day*\n- *60 minutes in 1 hour*\n- *60 seconds in 1 minute*",
+     "equations": [
+      {
+       "latex": "E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>E</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "P=\\frac{E}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>E</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space E over t"
+      },
+      {
+       "latex": "P=\\frac{10^{44}}{8.64\\times10^{6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msup><mn>10</mn><mn>44</mn></msup><mrow><mn>8</mn><mo>.</mo><mn>64</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></mfrac><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space fraction numerator 10 to the power of 44 over denominator 8.64 cross times 10 to the power of 6 end fraction space"
+      },
+      {
+       "latex": "P=1.16\\times10^{37}W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>16</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>37</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space 1.16 space cross times space 10 to the power of 37 space straight W"
+      },
+      {
+       "latex": "\\frac{energy}{time}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"italic\">e</mi><mi mathvariant=\"italic\">n</mi><mi mathvariant=\"italic\">e</mi><mi mathvariant=\"italic\">r</mi><mi mathvariant=\"italic\">g</mi><mi mathvariant=\"italic\">y</mi></mrow><mrow><mi mathvariant=\"italic\">t</mi><mi mathvariant=\"italic\">i</mi><mi mathvariant=\"italic\">m</mi><mi mathvariant=\"italic\">e</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator e n e r g y over denominator t i m e end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_G4nQkVYh2hVNqqDX",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_PgYHFwz33fxDjmnd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "assess",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS",
+      "spcpt_62gJHmjtHV4Y3hQS"
+     ],
+     "part_tier": null,
+     "problem_md": "Solar panels consisting of combinations of photovoltaic cells use energy in the radiation received from the Sun to generate electricity.\n\nAn advertisement for solar panels claims that the intensity of radiation from the Sun incident at the top of the Earth’s atmosphere is more than 2 kW m<sup>−2</sup>.\n\nAssess the validity of this claim.\n\nUse the following data:\n\n- radius of Sun = 6.96 × 10<sup>8</sup> m\n- surface temperature of Sun = 5790 K\n- distance from Sun to Earth = 1.50 × 10<sup>11</sup> m",
+     "solution_md": "Determine the radiant flux intensity at the top of the Earth's atmosphere:\n\nList the known quantities:\n\n- Radius of Sun, *r* = 6.96 × 10<sup>8</sup> m\n- Surface temperature of Sun, *T *= 5790 K\n- Distance from Sun to Earth, *d *= 1.50 × 10<sup>11</sup> m\n- Stefan-Boltzmann constant, σ = 5.67 × 10<sup>−8 </sup>W m<sup>−2</sup> K<sup>−4</sup>\n\nCalculate the luminosity of the Sun:\n\n- Stefan-Boltzmann law:  $L=4πr^{2}σT^{4}$\n- `L space equals space open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space 4 pi space cross times space open parentheses 6.96 space cross times space 10 to the power of 8 close parentheses squared space cross times space open parentheses 5790 close parentheses to the power of 4`\n- $L=3.879\\times10^{26}W$ **[1 mark]**\n\nCalculate the radiant flux intensity:\n\n- Flux intensity:  $F=\\frac{L}{4πd^{2}}$\n- `F space equals space fraction numerator 3.879 space cross times space 10 to the power of 26 space over denominator 4 pi space cross times space open parentheses 1.50 space cross times space 10 to the power of 11 close parentheses squared end fraction space equals space 1371.92 space straight W space straight m to the power of negative 2 end exponent` **[1 mark]**\n- $F=1.37\\mathrm{kW}m^{-2}$ **[1 mark]**\n\nConclusion:\n\n- 1.37 kW m<sup>–2</sup> < 2 kW m<sup>–2</sup> so the claim is false; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *'Assess the validity of this claim' normally means 'check this claim is correct'*\n\n> *You can do this by calculating the value for the intensity, and then seeing how that value compares with the value they have mentioned*\n\n> *You must **always** write a conclusion statement stating whether the claim is valid or not **and why*\n\n> *This is best done quantitatively i.e. using numbers (X < Y so Y is not valid)*",
+     "equations": [
+      {
+       "latex": "L=4πr^{2}σT^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn>2</mn></msup><mi>&#963;</mi><mi>T</mi><msup><mo>&#8202;</mo><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L space equals space 4 straight pi r squared sigma T   to the power of 4"
+      },
+      {
+       "latex": "L=3.879\\times10^{26}W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>879</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>26</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L space equals space 3.879 space cross times space 10 to the power of 26 space straight W"
+      },
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>L</mi><mo>&#160;</mo></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals fraction numerator space L space over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "F=1.37\\mathrm{kW}m^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>37</mn><mo>&#160;</mo><mi>kW</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space 1.37 space kW space straight m to the power of negative 2 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RfSQJ5Sb5sKgrSVj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w392W8FRPQqd4h9p",
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn advertisement for solar panels claims that the intensity of radiation from the Sun incident at the top of the Earth's atmosphere... Use the following data: radius of Sun = 6.96 × 10^8 m; surface temperature of Sun = 5790 K; distance from Sun to Earth = 1.50 × 10^11 m.\nCalculate the radiant flux intensity: F = L / (4 π d^2) = 1371.92 W m^-2 = 1.37 kW m^-2\n\nA space probe is sent on a mission from Earth to Mars.\n\nPower for the space probe is provided by solar panels that collect radiant energy from the Sun. The solar panels have a total area of 31 m<sup>2</sup> and are directly facing the Sun throughout the journey. The efficiency of the solar panels is 30%.\n\nThe mean orbital radius of Mars about the Sun is 2.3 × 10<sup>11</sup> m.\n\nCompare the power available to the probe when it leaves Earth's atmosphere to the power available on its arrival at Mars.",
+     "solution_md": "Determine the power available to the probe at Earth and Mars and compare:\n\nList the known quantities:\n\n- Radiant flux intensity at Earth, $F$ = 1370 W m<sup>−2</sup> (from **(a)**)\n- Surface area of solar panels, *A* = 31 m<sup>2</sup>\n- Efficiency of solar panels = 30% = 0.3\n- Distance from Sun to Earth, $d_{E}$ = 1.5 × 10<sup>11</sup> m\n- Distance from Sun to Mars, $d_{M}$ = 2.3 × 10<sup>11</sup> m\n\nDetermine the power available to the probe at Earth:\n\n- Power:  $P=FA$\n- The panels have an efficiency of 30%, so\n- Total power available (at Earth):  $P_{E}$ = 0.3 × 1370 × 31 = 12 740 W **[1 mark]**\n\nDetermine the power available to the probe at Mars:\n\n- Radiant flux intensity:  $F=\\frac{L}{4πd^{2}}$\n- Since $F\\propto\\frac{1}{d^{2}}$ and $P\\proptoF\\RightarrowP\\propto\\frac{1}{d^{2}}$\n- Ratio:  `P subscript M over P subscript E space equals space open parentheses d subscript E over d subscript M close parentheses squared space space space space space rightwards double arrow space space space space P subscript M space equals space P subscript E space cross times space open parentheses d subscript E over d subscript M close parentheses squared`\n- Total power available (at Mars):  `P subscript M space equals space 12 space 740 space cross times space open parentheses fraction numerator 1.5 cross times 10 to the power of 11 over denominator 2.3 cross times 10 to the power of 11 end fraction close parentheses squared` **[1 mark]**\n- Total power available (at Mars):  $P_{M}$ = 5420 W **[1 mark]**\n\nConclusion:\n\n- The power available to the probe at Mars is 5420 W compared to 12 740 W at Earth, this is a decrease of 42.5%; **[1 mark]**\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "d_{E}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>d</mi><mi>E</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d subscript E"
+      },
+      {
+       "latex": "d_{M}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>d</mi><mi>M</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d subscript M"
+      },
+      {
+       "latex": "P=FA",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>F</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space F A"
+      },
+      {
+       "latex": "P_{E}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>P</mi><mi>E</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P subscript E"
+      },
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "F\\propto\\frac{1}{d^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mfrac><mn>1</mn><msup><mi>d</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space proportional to space 1 over d squared"
+      },
+      {
+       "latex": "P\\proptoF\\RightarrowP\\propto\\frac{1}{d^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>F</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>P</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mfrac><mn>1</mn><msup><mi>d</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space proportional to space F space space space space space rightwards double arrow space space space space space P space proportional to space 1 over d squared"
+      },
+      {
+       "latex": "P_{M}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>P</mi><mi>M</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P subscript M"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XHw3ZbC7HC7c9D5b",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w392W8FRPQqd4h9p",
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSolar panels consisting of combinations of photovoltaic cells use energy in the radiation received from the Sun to generate electricity. An advertisement for solar panels claims that the intensity of radiation from the Sun incident at the top of the Earth's atmosphere is more than 2 kW m^−2^. [Mark scheme result: Radiant flux intensity at Earth, F = 1370 W m^−2]\n\nA space probe is sent on a mission from Earth to Mars. Power for the space probe is provided by solar panels that collect radiant energy from the Sun. The solar panels have a total area of 31 m^2 and are directly facing the Sun throughout the journey. The efficiency of the solar panels is 30%. The mean orbital radius of Mars about the Sun is 2.3 × 10^11 m. [Mark scheme result: Total power available at Mars, P_M = 5420 W]\n\nNeptune is the farthest known planet from the Sun in the Solar System. Its distance from the Sun is 30 times greater than the distance of the Earth from the Sun.\n\nA similar space probe to the one in **(b)** is sent on a mission to Neptune.\n\n(i) Calculate the area of solar panels that would be required to achieve the same availability of power at Neptune as the space probe in **(b)** when it was at Mars.\n\n[3]\n\n(ii) The International Space Station (ISS) currently holds the record for the largest array of solar panels in space, spanning a total area of 3244 m<sup>2</sup> to supply all of its power.\n\nUsing this information, and your answer to **(c)(i)**, comment on the current viability of the mission to Neptune.\n\n[2]",
+     "solution_md": "(i) Calculate the area of solar panels required to reach Neptune:\n\nList the known quantities:\n\n- Radiant flux intensity at Earth, $F_{E}$ = 1370 W m<sup>−2</sup> (from **(a)**)\n- Distance from Sun to Earth = $d_{E}$\n- Distance from Sun to Neptune, $d_{M}=30d_{E}$\n- Required power at Neptune, $P$ = 5420 W (from **(b)**)\n\nDetermine the radiant flux intensity at Neptune:\n\n- Radiant flux intensity:  $F=\\frac{L}{4πd^{2}}$\n- Ratio:  `F subscript N over F subscript E space equals space open parentheses d subscript E over d subscript N close parentheses squared space space space space space space rightwards double arrow space space space space space F subscript N space equals space F subscript E space cross times space open parentheses d subscript E over d subscript N close parentheses squared`\n- Radiant flux intensity at Neptune:  `F subscript N space equals space 1370 space cross times space open parentheses fraction numerator d subscript E over denominator 30 d subscript E end fraction close parentheses squared space equals space 1370 cross times open parentheses 1 over 30 close parentheses squared` **[1 mark]**\n- Radiant flux intensity at Neptune:  $F_{N}=1.52Wm^{-2}$ **[1 mark]**\n\nDetermine the required area of the panels:\n\n- Power:  $P=FA\\RightarrowA=\\frac{P}{F}$\n- Area of panels required:  $A=\\frac{5420}{1.52}=3570m^{2}$ **[1 mark]**\n\n(ii) Comment on the viability of the mission:\n\n- Since 3570 m<sup>2</sup> > 3244 m<sup>2</sup>, this is <u>not</u> (currently) a viable mission; **[1 mark]**\n\n**Final answer:** **Any ****one**** from:**\n\n- The ISS stays at a constant distance from the Sun whereas the probe will be moving away (from the Sun); **[1 mark]**\n- The mass of the solar panels would make the launch (from Earth) difficult; **[1 mark]**\n- A different energy source (e.g. nuclear power) would be more efficient / compact; **[1 mark]**\n- The energy needs of the ISS and space probe are different; **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "F_{E}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>F</mi><mi>E</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript E"
+      },
+      {
+       "latex": "d_{E}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>d</mi><mi>E</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d subscript E"
+      },
+      {
+       "latex": "d_{M}=30d_{E}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>d</mi><mi>M</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>30</mn><msub><mi>d</mi><mi>E</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d subscript M space equals space 30 d subscript E"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "F_{N}=1.52Wm^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>N</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>52</mn><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi><mo>&#8201;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F subscript N space equals space 1.52 space straight W thin space straight m to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "P=FA\\RightarrowA=\\frac{P}{F}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>F</mi><mi>A</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>A</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>P</mi><mi>F</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space F A space space space space space rightwards double arrow space space space space space A space equals space P over F"
+      },
+      {
+       "latex": "A=\\frac{5420}{1.52}=3570m^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>5420</mn><mrow><mn>1</mn><mo>.</mo><mn>52</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3570</mn><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A space equals space fraction numerator 5420 over denominator 1.52 end fraction space equals space 3570 space straight m squared"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bt8gsQJqhgV4HfMz",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_TQqPXtdkpX6FbRRC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "Cepheids are a type of standard candle.\n\nDescribe how standard candles can be used to determine distances to stars.",
+     "solution_md": "Standard candles can be used to determine distances to stars by:\n\n- Measuring the intensity of the radiation from the candle; **[1 mark]**\n- Knowing the luminosity of the standard candle; **[1 mark]**\n- Using the inverse square law (of flux) to determine the distance to the star; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_5VN5czbMv3ndpXZr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9fCqBXrtwsqDJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows the light curve of a Cepheid variable star which has a radiant flux intensity on Earth of 500 nW m<sup>−2</sup>.\n\n![25-1-m-q1b-sq-cie-ial-physics](assets/003-25-1-m-q1b-sq-cie-ial-physics.png)\n\n**Fig. 1.1**\n\nUse Fig. 1.1 to estimate the period of the Cepheid.",
+     "solution_md": "Estimate the period of the Cepheid:\n\n![25-1-m-q1bans-sq-cie-ial-physics](assets/004-25-1-m-q1bans-sq-cie-ial-physics.png)\n\n- From Fig. 1.1:  period = 5.5 days; **[1 mark]** *Acceptable range for period = 5.4 to 5.7 days*\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_cS7SX4gHKDPwKxV8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QFVt366tdYxp46tS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows the light curve of a Cepheid variable star which has a radiant flux intensity on Earth of 500 nW m^−2^. Use Fig. 1.1 to estimate the period of the Cepheid.\nFrom Fig. 1.1: period = 5.5 days\n\nFig. 1.2 shows the relationship between luminosity and period for a group of Cepheid variables.\n\n![25-1-m-q1c-sq-cie-ial-physics](assets/005-25-1-m-q1c-sq-cie-ial-physics.png)\n\n**Fig. 1.2**\n\nUse Fig. 1.2 and your answer from (b) to calculate the distance of the Cepheid from the Earth.\n\nLuminosity of the Sun = 3.8 × 10<sup>26</sup> W",
+     "solution_md": "Calculate the distance of the Cepheid from the Earth:\n\nList the known quantities:\n\n- Period of the Cepheid = 5.5 days (from part b)\n- Luminosity of the Sun, $L_{Sun}$ = 3.8 × 10<sup>26</sup> W\n- Radiant flux intensity, $F$ = 500 nW m<sup>−2</sup> = 500 × 10<sup>−9</sup> W m<sup>−2</sup>\n\nDetermine the luminosity from the graph:\n\n![25-1-m-q1cans-sq-cie-ial-physics](assets/006-25-1-m-q1cans-sq-cie-ial-physics.png)\n\n- From Fig. 1.2:  luminosity = 2000 $L_{Sun}$ **[1 mark]**\n\nUse the inverse square law of flux to calculate the distance:\n\n- Inverse square law:  $F=\\frac{L}{4πd^{2}}$ **[1 mark]**\n- Rearrange:  $d=\\sqrt{\\frac{L}{4πF}}$\n- Substitute:  `d space equals space square root of fraction numerator 2000 cross times open parentheses 3.8 cross times 10 to the power of 26 close parentheses over denominator 4 straight pi cross times open parentheses 500 cross times 10 to the power of negative 9 end exponent close parentheses end fraction end root` **[1 mark]**\n- Distance to Cepheid:  $d$ = 3.5 × 10<sup>17</sup> m **[1 mark]**\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "L_{Sun}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mrow><mi>S</mi><mi>u</mi><mi>n</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript S u n end subscript"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "L_{Sun}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mrow><mi>S</mi><mi>u</mi><mi>n</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript S u n end subscript"
+      },
+      {
+       "latex": "F=\\frac{L}{4πd^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "F space equals space fraction numerator L over denominator 4 straight pi d squared end fraction"
+      },
+      {
+       "latex": "d=\\sqrt{\\frac{L}{4πF}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msqrt><mfrac><mi>L</mi><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>F</mi></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space square root of fraction numerator L over denominator 4 straight pi F end fraction end root"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

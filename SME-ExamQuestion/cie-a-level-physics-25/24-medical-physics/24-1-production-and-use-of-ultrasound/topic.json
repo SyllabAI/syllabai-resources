@@ -1,0 +1,990 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:25:58Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "24-medical-physics",
+  "name": "24. Medical Physics"
+ },
+ "topic": {
+  "id": "top_ZmczCsbH6NfX2d4W",
+  "slug": "24-1-production-and-use-of-ultrasound",
+  "name": "Production & Use of Ultrasound",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "intensity-reflection-coefficient",
+   "name": "Intensity Reflection Coefficient",
+   "revision_note_id": "rn_khzrcdBNJkFqtnHg"
+  },
+  {
+   "slug": "generating-and-using-ultrasound",
+   "name": "Generating & Using Ultrasound",
+   "revision_note_id": "rn_gFTHrY8QgvZRSBCV"
+  },
+  {
+   "slug": "the-piezoelectric-transducer",
+   "name": "The Piezoelectric Transducer",
+   "revision_note_id": "rn_gmY6mxbMxsWQWZRb"
+  },
+  {
+   "slug": "attenuation-of-ultrasound-in-matter",
+   "name": "Attenuation of Ultrasound in Matter",
+   "revision_note_id": "rn_JSdmCgsrN3PGRmd3"
+  },
+  {
+   "slug": "specific-acoustic-impedance",
+   "name": "Specific Acoustic Impedance",
+   "revision_note_id": "rn_RBHht3FTdp76SnHf"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_j94xV3X4286cCNbk",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/24-medical-physics/24-1-production-and-use-of-ultrasound/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-2a-e-structure-of-a-piezoelectric-transducer-cie-ial-sq-a.png": "001-24-1-2a-e-structure-of-a-piezoelectric-transduce.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-2a-e-structure-of-a-piezoelectric-transducer-cie-ial-sq-b.png": "002-24-1-2a-e-structure-of-a-piezoelectric-transduce.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-3b-h-24-1-h-x-ray-intensity-cyst-cie-ial-sq.png": "003-24-1-3b-h-24-1-h-x-ray-intensity-cyst-cie-ial-sq.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-1a-h-24-1-h-piezoelectric-crystal-applied-p-d--cie-ial-sq.png": "004-24-1-1a-h-24-1-h-piezoelectric-crystal-applied-p.png",
+   "https://cdn.savemyexams.com/uploads/2023/08/24-1-1a-h-24-1-h-piezoelectric-ma.png": "005-24-1-1a-h-24-1-h-piezoelectric-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/08/24-1-1a-h-24-1-h-piezoelectric-ma1.png": "006-24-1-1a-h-24-1-h-piezoelectric-ma1.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-1b-h-24-1-h-ultrasound-eye-a-scan-cie-ial-sq.png": "007-24-1-1b-h-24-1-h-ultrasound-eye-a-scan-cie-ial-s.png",
+   "https://cdn.savemyexams.com/uploads/2023/11/24-1-1b-h-24-1-h-ultrasound-eye-ma.png": "008-24-1-1b-h-24-1-h-ultrasound-eye-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/24-1-1c-h-24-1-h-ultrasound-pulse-oscilloscope-cie-ial-sq.png": "009-24-1-1c-h-24-1-h-ultrasound-pulse-oscilloscope-c.png",
+   "https://cdn.savemyexams.com/uploads/2023/11/24-1-1c-h-24-1-h-ultrasound-puls-ma.png": "010-24-1-1c-h-24-1-h-ultrasound-puls-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-1d-h-24-1-h-attenuation-of-ultrasound-graph-3-mhz-cie-ial-sq.png": "011-24-1-1d-h-24-1-h-attenuation-of-ultrasound-graph.png",
+   "https://cdn.savemyexams.com/uploads/2023/11/NWtsA8zL_24-1-1d-h-24-1-h-attenuation-of-ma.png": "012-nwtsa8zl-24-1-1d-h-24-1-h-attenuation-of-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/24-1-3a-m-24-1-ultrasound-piezoelectric-transducer-cie-ial-sq.png": "013-24-1-3a-m-ultrasound-piezoelectric-transducer-ci.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_VkcN6Hp7Z7wxXTCP",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_y6srVz4pMWQdQKWG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_233K2JrxmqtKBSRg"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows an incomplete diagram of a piezoelectric transducer.\n\n![24-1-2a-e-structure-of-a-piezoelectric-transducer-cie-ial-sq-a](assets/001-24-1-2a-e-structure-of-a-piezoelectric-transduce.png)\n\n**Fig. 1.1**\n\nComplete the three missing labels on the diagram in Fig. 1.1.",
+     "solution_md": "The correct labels are as follows:\n\n![24-1-2a-e-structure-of-a-piezoelectric-transducer-cie-ial-sq-b](assets/002-24-1-2a-e-structure-of-a-piezoelectric-transduce.png)\n\nFrom top left to bottom right:\n\n- Damping / backing material; **[1 mark]**\n- Electrodes; **[1 mark]**\n- Piezoelectric crystal; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_gKWbgYmwZnG3Wntz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qrvQfxjsTMZFd2VS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows an incomplete diagram of a piezoelectric transducer. Complete the three missing labels on the diagram in Fig. 1.1. The correct labels are: Damping / backing material; Electrodes; Piezoelectric crystal.\n\nState the purpose of the components in **(a)** in relation to the generation of ultrasound waves.",
+     "solution_md": "The purpose of the piezoelectric crystal is:\n\n- To produce ultrasound waves from vibrations / resonance when an alternating p.d. is applied across it; **[1 mark]**\n\nThe purpose of the electrodes are:\n\n- To apply an alternating p.d. across the (piezoelectric) crystal; **[1 mark]**\n\nThe purpose of the damping material is:\n\n- To damp the oscillations **OR** to stop the crystal from vibrating too much; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_TjtNhvDWpNmBvZym",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "State\n\n(i) **two** main pieces of information about internal body structures that ultrasound can provide.\n\n[2]\n\n(ii) the properties of the ultrasound signal that provide these pieces of information.\n\n[2]",
+     "solution_md": "(i) Ultrasound can provide information about the:\n\n- Depth of a boundary; **[1 mark]**\n- Nature of a boundary; **[1 mark]**\n\n(ii) The properties of the ultrasound signal are:\n\n- The <u>time</u> delay / time between transmission and receipt (of the pulse) gives information about the depth (of the boundary); **[1 mark]**\n- The <u>intensity</u> of the reflection gives information about the nature (of the boundary); **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_M29z4NVhpxFVB9xx",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_233K2JrxmqtKBSRg"
+     ],
+     "part_tier": null,
+     "problem_md": "Piezoelectric crystals have many applications other than in ultrasound scanners.\n\nDescribe the piezoelectric effect in terms of the energy transfers taking place when:\n\n(i) a gas lighter ignites a flame using a small spark,\n\n[1]\n\n(ii) a motion sensor uses ultrasound waves to signal an automatic door to open,\n\n[1]\n\n(iii) an inkjet printer ejects ink from nozzles onto a sheet of paper,\n\n[1]\n\n(iv) a hearing aid receives and amplifies sound into a person's ear.\n\n[2]",
+     "solution_md": "(i) When a gas lighter ignites a flame using a small spark:\n\n- Vibrational energy is transferred to electrical energy (to ignite the spark); **[1 mark]**\n\n(ii) When a motion sensor uses ultrasound waves to signal an automatic door to open:\n\n- Electrical energy transfers to vibrational energy (to generate ultrasound waves in a piezoelectric crystal); **[1 mark]**\n\n(iii) When an inkjet printer ejects ink from nozzles onto a sheet of paper\n\n- Electrical energy transfers to vibrational energy (to deform a piezoelectric crystal to eject ink); **[1 mark]**\n\n(iv) When a hearing aid receives sound:\n\n- Vibrational energy (from sound waves) is transferred to electrical energy (in a microphone); **[1 mark]**\n- (And then) the signal is amplified by transferring electrical energy to vibrational energy (in a speaker); **[1 mark]**\n\n**[Total: 5 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TBsQvGZ33YXB2tZv",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_tCjkRYN6w9JYkBF3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K8NQGqcVPZW9Kjny",
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "Quartz crystals are commonly used in ultrasound transducers.\n\nThe speed of sound in quartz is 5700 m s<sup>−1</sup>.\n\nCalculate the wavelength of ultrasound waves of frequency 7 MHz in a quartz crystal.",
+     "solution_md": "Calculate the wavelength of ultrasound waves of frequency 7 MHz in a quartz crystal:\n\nList the known quantities:\n\n- Speed of sound in quartz, *v* = 5700 m s<sup>−1</sup>\n- Frequency of ultrasound, *f* = 7 MHz = 7 × 10<sup>6</sup> Hz\n\nRearrange the wave speed equation for wavelength\n\n- Wave equation:  $v=fλ\\Rightarrowλ=\\frac{v}{f}$\n- $λ=\\frac{5700}{7\\times10^{6}}$ **[1 mark]**\n- $λ$ = 8.1 × 10<sup>−4</sup> m = 0.81 mm **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "v=fλ\\Rightarrowλ=\\frac{v}{f}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>v</mi><mi>f</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda space space space rightwards double arrow space space space lambda space equals space v over f"
+      },
+      {
+       "latex": "λ=\\frac{5700}{7\\times10^{6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>5700</mn><mrow><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda space equals space fraction numerator 5700 over denominator 7 cross times 10 to the power of 6 end fraction"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zVz3qBz48Vy6Qsfv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_233K2JrxmqtKBSRg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe speed of sound in quartz is 5700 m s^−1^. Calculate the wavelength of ultrasound waves of frequency 7 MHz in a quartz crystal. λ = 5700/(7 × 10^6) = 8.1 × 10^−4 m = 0.81 mm\n\nTo use a quartz crystal in an ultrasound transducer, its thickness must be at least half the wavelength of the incoming waves.\n\nCalculate the thickness of the transducer.",
+     "solution_md": "Calculate the thickness of the transducer:\n\nList the known quantities:\n\n- Wavelength = 0.81 mm (from part a)\n\nCalculate the thickness:\n\n- Thickness = $\\frac{0.81}{2}$ = 0.4 mm **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "\\frac{0.81}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>81</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.81 over denominator 2 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pK3N9zjytkFM8fb3",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "In medical ultrasound scanning, a transducer generates high-frequency ultrasound waves and directs them into the body.\n\nThe transducer doubles as a detector as different percentages of ultrasound are reflected by the boundaries of internal tissues and return to the transducer. This enables an image of internal structures to be built up.\n\n(i) State the wave effect that limits the resolution of an ultrasound image.\n\n[1]\n\n(ii) Explain why high-frequency ultrasound waves must be used in medical scanning.\n\n[2]",
+     "solution_md": "(i) The wave effect that limits the resolution of an ultrasound image is:\n\n- Diffraction; **[1 mark]**\n\n(ii) High-frequency ultrasound waves must be used in medical scanning:\n\n- To <u>resolve</u> fine details (of internal structures); **[1 mark]**\n- Shorter wavelength reduces (the unwanted effects of) diffraction; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_shYvFs6Z9zPTSzZC",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "estimate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "The approximate speed of sound in human tissue is about 1540 m s<sup>−1</sup>.\n\nUltrasound waves of frequency 7 MHz are used in an abdominal scan.\n\nEstimate the smallest size of the tissue that would be observable on the ultrasound image.",
+     "solution_md": "Estimate the smallest size of the tissue that would be observable:\n\nList the known quantities:\n\n- Speed of sound in tissue, *v* = 1540 m s<sup>−1</sup>\n- Frequency of ultrasound, *f* = 7 MHz = 7 × 10<sup>6</sup> Hz\n\nRearrange the wave speed equation for wavelength\n\n- Wave equation:  $v=fλ\\Rightarrowλ=\\frac{v}{f}$\n- $λ=\\frac{1540}{7\\times10^{6}}$ **[1 mark]**\n- $λ$ = 2.2 × 10<sup>−4</sup> m = 0.22 mm **[1 mark]**\n- Therefore, the smallest size of tissue that could be resolved is 0.22 mm\n\n**[Total: 2 marks]**\n\n> *The smallest detail that can be resolved is known as the **resolution **of the sensor.*",
+     "equations": [
+      {
+       "latex": "v=fλ\\Rightarrowλ=\\frac{v}{f}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>v</mi><mi>f</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda space space space rightwards double arrow space space space lambda space equals space v over f"
+      },
+      {
+       "latex": "λ=\\frac{1540}{7\\times10^{6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1540</mn><mrow><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda space equals space fraction numerator 1540 over denominator 7 cross times 10 to the power of 6 end fraction"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_t86ShNjmtJk6Dw7j",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_W2yVZg3bhkZzwNpZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 4",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Explain how ultrasound pulses are used to obtain diagnostic information about internal body structures in medical diagnosis.\n\n[3]\n\n(ii) Define specific acoustic impedance.\n\n[2]\n\n(iii) Two media have specific acoustic impedances *Z*<sub>1</sub> and *Z*<sub>2</sub>.\n\nState the approximate value of the intensity reflection coefficient at the boundary between the two media when:\n\n•    *Z*<sub>1</sub> is almost equal to *Z*<sub>2</sub>\n\nintensity reflection coefficient = ................................\n\n•    *Z*<sub>1</sub> is very different from *Z*<sub>2</sub>.\n\nintensity reflection coefficient = ................................\n\n[2]",
+     "solution_md": "(i) How ultrasound pulses are used to obtain diagnostic information:\n\n- Ultrasound pulses are reflected (from boundaries between different densities of medium); **[1 mark]**\n- The time between the transmission and detection (of the reflected pulse) indicates the <u>depth</u> (of the boundary); **[1 mark]**\n- The intensity (of the reflected pulse) indicates the <u>nature</u> of the boundary; **[1 mark]**\n\n(ii) Specific acoustic impedance is defined as:\n\n- The product of the density (of the medium) and the speed; **[1 mark]**\n- Of sound in the medium; **[1 mark]**\n\n(iii) State the approximate value of the intensity reflection coefficient at the boundary between the two media when:\n\n*Z*<sub>1</sub> is almost equal to *Z*<sub>2</sub>:\n\n- α ≈ 0; **[1 mark]**\n\n*Z*<sub>1</sub> is very different from *Z*<sub>2</sub>:\n\n- α ≈ 1; **[1 mark]**\n\n**[Total: 7 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ms3CFxsnZ6JZGVwW",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_vr9jB9Vg98K6bxPT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nY7wjsTq6vGyGnnN",
+      "spcpt_kbQN6wkHqfK9stqc"
+     ],
+     "part_tier": null,
+     "problem_md": "An ultrasound investigation was used to identify a small volume of an unknown substance in a patient. It is suspected that this substance is either a cyst or a tumour.\n\nDuring the ultrasound investigation, an ultrasound pulse of frequency 5 MHz is passed through soft tissue and then into the small volume of the unknown substance.\n\nThe ratio of the reflected intensity to the incident intensity for the ultrasound pulse reflected at the boundary was found to be 7.54 × 10<sup>−5</sup>.\n\nTable 1.1 shows some information about the density and speed of ultrasound in soft tissue, cysts and tumours.\n\n**Table 1.1**\n\n| **material** | **density / kg m**<sup>**−3**</sup> | **ultrasound velocity / m s**<sup>**−1**</sup> |\n|---|---|---|\n| soft tissue | 1065 | 1530 |\n| cyst | 1020 | 1570 |\n| tumour | 990 | 1565 |\n\n(i) Use the information in Table 1.1 to show that the unknown medium is a cyst.\n\n[4]\n\n(ii) A pulse of ultrasound reflected from the front surface of the cyst was detected 27.5 µs later and a pulse from the rear surface was detected 43.2 µs later.\n\nDetermine the length of the cyst, in cm, to two significant figures.\n\n[2]",
+     "solution_md": "(i) Calculate the percentage of energy from the ultrasonic transducer that is reflected:\n\n- Acoustic impedance:  $Z=ρc$\n- Acoustic impedance of soft tissue:  $Z_{st}=1065\\times1530=1.629\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}$\n- Acoustic impedance of cyst:  $Z_{c}=1020\\times1570=1.601\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}$\n- Acoustic impedance of tumour:  $Z_{t}=990\\times1565=1.549\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}$ **1 mark for all Z values correct**\n\nUse the intensity reflection coefficient equation:\n\n- Intensity reflection coefficient:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`\n- Cyst:  `I subscript R over I subscript 0 space equals space open parentheses 1.629 cross times 10 to the power of 6 space minus space 1.601 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.629 cross times 10 to the power of 6 space plus space 1.601 cross times 10 to the power of 6 close parentheses squared space equals space 7.5 cross times 10 to the power of negative 5 end exponent` **[1 mark]**\n- Tumour:  `I subscript R over I subscript 0 space equals space open parentheses 1.629 cross times 10 to the power of 6 space minus space 1.549 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.629 cross times 10 to the power of 6 space plus space 1.549 cross times 10 to the power of 6 close parentheses squared space equals space 6.3 cross times 10 to the power of negative 4 end exponent` **[1 mark]**\n\nCompare the ratios to the ratio given in the question to identify the medium:\n\n- The intensity reflection coefficient given, $7.54\\times10^{-5}$, is closer to the value for a cyst than a tumour **[1 mark]**\n- Therefore, the unknown medium is a cyst\n\n(ii) Determine the length of the cyst:\n\nList the known quantities:\n\n- Time detected from front of cyst = 27.5 µs\n- Time detected from rear of cyst = 43.2 µs\n- Speed of ultrasound in cyst, *c* = 1570 m s<sup>−1</sup>\n\nCalculate the length of the cyst:\n\n- The difference in times is due to the longer signal passing through the cyst, then reflecting\n- Length of cyst:  $d=\\frac{1}{2}c\\Deltat$\n- `d space equals space 1 half cross times 1570 cross times open parentheses 43.2 minus 27.5 close parentheses cross times 10 to the power of negative 6 end exponent` **[1 mark]**\n- $d=0.01232m=1.2\\mathrm{cm}$ **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *The time difference accounts for the time spent while the pulse travels through the cyst, and then back through it as it is reflected. Therefore, during half of this time, the pulse travels the length of the cyst, so we can simply find this length using the speed of the pulse and the time taken.*",
+     "equations": [
+      {
+       "latex": "Z=ρc",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#961;</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z space equals space rho c"
+      },
+      {
+       "latex": "Z_{st}=1065\\times1530=1.629\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>s</mi><mi>t</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1065</mn><mo>&#215;</mo><mn>1530</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>629</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript s t end subscript space equals space 1065 cross times 1530 space equals space 1.629 cross times 10 to the power of 6 space kg space straight m to the power of negative 2 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "Z_{c}=1020\\times1570=1.601\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mi>c</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1020</mn><mo>&#215;</mo><mn>1570</mn><mo>&#160;</mo><mo>&#160;</mo><mo>=</mo><mn>1</mn><mo>.</mo><mn>601</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript c space equals space 1020 cross times 1570 space space equals 1.601 cross times 10 to the power of 6 space kg space straight m to the power of negative 2 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "Z_{t}=990\\times1565=1.549\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mi>t</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>990</mn><mo>&#215;</mo><mn>1565</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>549</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript t space equals space 990 cross times 1565 space equals space 1.549 cross times 10 to the power of 6 space kg space straight m to the power of negative 2 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "7.54\\times10^{-5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>.</mo><mn>54</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7.54 space cross times space 10 to the power of negative 5 end exponent"
+      },
+      {
+       "latex": "d=\\frac{1}{2}c\\Deltat",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>c</mi><mo>&#8710;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 1 half c increment t"
+      },
+      {
+       "latex": "d=0.01232m=1.2\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>01232</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>2</mn><mo>&#160;</mo><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 0.01232 space straight m space equals space 1.2 space cm"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Ct2MZ98zhQHGX7Qh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nbftvYdVbW9jS2Sq",
+      "spcpt_fPvD3TNRRrtVc666"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n(ii) A pulse of ultrasound reflected from the front surface of the cyst was detected 27.5 µs later and a pulse from the rear surface was detected 43.2 µs later. Determine the length of the cyst, in cm, to two significant figures. [Answer: Speed of ultrasound in cyst, c = 1570 m s^−1; Length of cyst: d = ½ c Δt = ½ × 1570 × (43.2 − 27.5) × 10^−6 = 0.01232 m = 1.2 cm]\n\nFig. 1.1 shows a beam of X-rays of energy 20 keV incident normally on some soft tissue which contains the cyst.\n\nThe cyst is located 2.1 cm from the surface of the soft tissue.\n\n![24-1-3b-h-24-1-h-x-ray-intensity-cyst-cie-ial-sq](assets/003-24-1-3b-h-24-1-h-x-ray-intensity-cyst-cie-ial-sq.png)\n\n**Fig. 1.1 **(not to scale)\n\nThe attenuation constant of the soft tissue is 0.85 cm<sup>–1</sup> for X-rays. The incident intensity of the beam is 4.6 × 10<sup>3</sup> W m<sup>–2</sup>.\n\nYou may assume that the attenuating behaviour of X-rays in matter is the same as that of ultrasound in matter.\n\nThe X-ray beam is switched on for a time *t*.\n\nDetermine the energy of the X-ray beam incident on the front surface of the cyst each second. State any assumptions you make.",
+     "solution_md": "Calculate the X-ray energy incident on the cyst each second:\n\nList the known quantities:\n\n- Attenuation constant of soft tissue, $μ$* *= 0.85 cm<sup>–1</sup>\n- Initial intensity of the beam, $I_{0}$ = 4.6 × 10<sup>3</sup> W m<sup>–2</sup>\n- Length of the cyst, $d$ = 0.012 m = 1.2 cm (from **(a)**)\n- Distance travelled through the tissue, $x$ = 2.1 cm\n\nCalculate the intensity of the X-ray beam at the cyst:\n\n- Intensity of a beam in tissue:  $I=I_{0}e^{-μx}$\n- `I space equals space open parentheses 4.6 space cross times space 10 cubed close parentheses e to the power of negative open parentheses 0.85 space cross times space 2.1 close parentheses end exponent space equals space 771.9 space straight W space straight m to the power of negative 2 end exponent` **[1 mark]**\n\nDetermine the cross-sectional area of the front surface of the cyst:\n\n- Cross-sectional area of the cyst:  `A space equals space straight pi r squared space equals space straight pi cross times open parentheses fraction numerator 0.012 over denominator 2 end fraction close parentheses squared` = 1.13 × 10<sup>–4</sup> m<sup>2</sup> **AND**\n- Assumption: the front surface is circular; **[1 mark]**\n\nCalculate the power and energy incident on the cyst:\n\n- Intensity of a wave:  $I=\\frac{P}{A}\\RightarrowP=IA$\n- Incident power:  `P space equals space 771.9 space cross times space open parentheses 1.13 space cross times space 10 to the power of negative 4 end exponent close parentheses space equals space 0.087 space straight W`\n- Energy transferred each second:  $E=Pt=0.087J$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You are not explicitly told the shape of the cyst. With the information, you must **assume** that its width is the same as its length. The fact that the question asks for assumptions is a big hint for this.*",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "I=I_{0}e^{-μx}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>I</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>-</mo><mi>μ</mi><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 e to the power of negative mu x end exponent"
+      },
+      {
+       "latex": "I=\\frac{P}{A}\\RightarrowP=IA",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo> </mo><mi>P</mi></mrow><mi>A</mi></mfrac><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo>⇒</mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mi>I</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space fraction numerator space P over denominator A end fraction space space space space rightwards double arrow space space space space space P space equals space I A"
+      },
+      {
+       "latex": "E=Pt=0.087J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mi>P</mi><mi>t</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>087</mn><mo> </mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E space equals space P t space equals space 0.087 space straight J"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3Ry5TDQ3tPYmKnbx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nbftvYdVbW9jS2Sq"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n(a)(ii) A pulse of ultrasound reflected from the front surface of the cyst was detected 27.5 µs later and a pulse from the rear surface was detected 43.2 µs later. Determine the length of the cyst, in cm. Length of cyst: d = 0.01232 m = 1.2 cm.\n\n(b) Fig. 1.1 shows a beam of X-rays of energy 20 keV incident normally on some soft tissue which contains the cyst. The cyst is located 2.1 cm from the surface of the soft tissue. The attenuation constant of the soft tissue is 0.85 cm^–1 for X-rays. The incident intensity of the beam is 4.6 × 10^3 W m^–2. You may assume that the attenuating behaviour of X-rays in matter is the same as that of ultrasound in matter.\n\nThe ratio of the intensities of the emergent X-ray beams X and Y is determined to be\n\n$\\frac{I_{Y}}{I_{X}}=0.94$\n\n(i) Determine the attenuation coefficient of the cyst.\n\n[3]\n\n(ii) Describe the quality of the images that would be obtained from the ultrasound and the X-ray scans of the cyst, explaining your answers.\n\n[2]",
+     "solution_md": "(i) Determine the attenuation coefficient of the cyst:\n\nList the known quantities:\n\n- Attenuation coefficient of soft tissue, $μ$* *= 0.85 cm<sup>–1</sup>\n- Initial intensity of the beam, $I_{0}$ = 4.6 × 10<sup>3</sup> W m<sup>–2</sup>\n- Length of the cyst, $d$ = 0.012 m = 1.2 cm (from **(a)**)\n- Distance between the tissue and cyst = 2.1 cm\n- Total distance = 4.8 cm\n\nUse the attenuation equation:\n\n- X-ray attenuation:  $I=I_{0}e^{-μx}$\n- Final intensity of beam X:  `I subscript straight X space equals space open parentheses 4.6 cross times 10 cubed close parentheses space e to the power of negative 0.85 cross times 4.8 end exponent`\n- Final intensity of beam Y:  `I subscript straight Y space equals space open parentheses 4.6 cross times 10 cubed close parentheses space open square brackets open parentheses e to the power of negative 0.85 cross times 2.1 end exponent close parentheses open parentheses e to the power of negative 1.2 mu end exponent close parentheses open parentheses e to the power of negative 0.85 cross times open parentheses 4.8 minus 1.2 minus 2.1 close parentheses end exponent close parentheses close square brackets` **[1 mark]**\n\nSubstitute into the ratio given in the question:\n\n- Ratio of the emergent intensities:  $\\frac{I_{Y}}{I_{X}}=0.94$\n- Substitute:  `fraction numerator open parentheses 4.6 cross times 10 cubed close parentheses space open square brackets open parentheses e to the power of negative 0.85 cross times 2.1 end exponent close parentheses open parentheses e to the power of negative 1.2 mu end exponent close parentheses open parentheses e to the power of negative 0.85 cross times open parentheses 4.8 minus 1.2 minus 2.1 close parentheses end exponent close parentheses close square brackets over denominator open parentheses 4.6 cross times 10 cubed close parentheses space e to the power of negative 0.85 cross times 4.8 end exponent end fraction space equals space 0.94` **[1 mark]**\n- Simplify:  `e to the power of 0.85 open parentheses 4.8 minus 2.1 minus 1.5 close parentheses minus 1.2 mu end exponent space equals space 0.94 space space space space space rightwards double arrow space space space space space e to the power of 1.02 minus 1.2 mu end exponent space equals space 0.94`\n- Take natural logs:  $1.02-1.2μ=\\mathrm{ln}0.94\\Rightarrowμ=\\frac{1.02-\\mathrm{ln}0.94}{1.2}$\n- Attenuation coefficient of cyst:  $μ$ = 0.90 cm<sup>–1</sup> **[1 mark]**\n\n(ii) Describe and explain the quality of the images from the two scans:\n\nFor the X-ray image...\n\n- The <u>attenuation coefficients</u> (of the cyst and the surrounding tissue) are too similar / have approximately the same value **AND**\n- (Hence) no / poor contrast would be obtained between the cyst and surrounding tissue / cyst would not be distinguishable from the surrounding tissue; **[1 mark]**\n\nFor the ultrasound image...\n\n- The <u>acoustic impedances</u> (of the cyst and the surrounding tissue) are similar / have approximately the same value **AND**\n- (Hence) there will be little reflection so the cyst (boundary) would be poorly imaged; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *The expression for the attenuation of beam Y may look intimidating, but all it is saying is that the beam is attenuated by 2.1 cm of tissue, 1.2 cm of cyst and 1.5 cm (4.8 cm − 1.2 cm − 2.1 cm) of more tissue.*\n\n> *We can combine as many attenuations as we like simply by multiplying by another exponential factor. Just make sure to use the appropriate coefficient for each difference material.*",
+     "equations": [
+      {
+       "latex": "\\frac{I_{Y}}{I_{X}}=0.94",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>I</mi><mi>Y</mi></msub><msub><mi>I</mi><mi>X</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>94</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript Y over I subscript X space equals space 0.94"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "I=I_{0}e^{-μx}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>&#956;</mi><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 space e to the power of negative mu x end exponent"
+      },
+      {
+       "latex": "\\frac{I_{Y}}{I_{X}}=0.94",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>I</mi><mi>Y</mi></msub><msub><mi>I</mi><mi>X</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>94</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript Y over I subscript X space equals space 0.94"
+      },
+      {
+       "latex": "1.02-1.2μ=\\mathrm{ln}0.94\\Rightarrowμ=\\frac{1.02-\\mathrm{ln}0.94}{1.2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>02</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>2</mn><mi>&#956;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>ln</mi><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>94</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>&#956;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>1</mn><mo>.</mo><mn>02</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mi>ln</mi><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>94</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1.02 space minus space 1.2 mu space equals space ln space 0.94 space space space space space rightwards double arrow space space space space space mu space equals space fraction numerator 1.02 space minus space ln space 0.94 over denominator 1.2 end fraction"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mm3Dp5N6DTNqCg73",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 20,
+   "parts": [
+    {
+     "id": "qstnprt_k5B5NtyqNdJsDhT4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_233K2JrxmqtKBSRg"
+     ],
+     "part_tier": null,
+     "problem_md": "Most modern ultrasound transducers are made from the piezoelectric material lead zirconate titanate (PZT).\n\nFig. 1.1 shows the effect on the structure of a crystal of PZT when an alternating potential difference is applied across it.\n\n![24-1-1a-h-24-1-h-piezoelectric-crystal-applied-p-d--cie-ial-sq](assets/004-24-1-1a-h-24-1-h-piezoelectric-crystal-applied-p.png)\n\n**Fig. 1.1**\n\n(i) Describe what happens at a molecular level when an alternating potential difference is applied across a PZT transducer to generate ultrasound.\n\nYou may draw on Fig. 1.1 to help with your answer.\n\n[4]\n\n(ii) Describe the conditions that will enable maximum energy conversion into ultrasound to occur.\n\n[2]",
+     "solution_md": "(i) When an alternating potential difference (p.d.) is applied to a PZT transducer:\n\n**Final answer:** **Any ****four**** from:**\n\n- The positive / negative charges are attracted to the negative / positive terminal **OR** charges in the lattice (of the PZT crystal) separate; **[1 mark]**\n- The movement of the central positive charge (along the central axis) causes the PZT crystal to deform / change shape / expand and contract; **[1 mark]**\n- When the p.d. changes direction, the central positive charge moves in the opposite direction, causing the crystal to deform (in the opposite direction); **[1 mark]**\n- The repeated crystal deformations lead to oscillations **OR** demonstrate on diagram e.g. `open parentheses 1 close parentheses space space stack rightwards arrow space with e x p a n d i n g on top space open parentheses 2 close parentheses space space stack rightwards arrow space with c o n t r a c t i n g on top space open parentheses 1 close parentheses space space stack rightwards arrow space with e x p a n d i n g on top space open parentheses 3 close parentheses space space stack rightwards arrow space with c o n t r a c t i n g on top space open parentheses 1 close parentheses` **[1 mark]**\n- The alternating p.d. causes the crystal to oscillate at the same frequency (as the applied field); **[1 mark]**\n- The oscillations are transferred to the surrounding air molecules to produce ultrasound (if frequency >20 000 Hz); **[1 mark]** ![24-1-1a-h-24-1-h-piezoelectric-ma](assets/005-24-1-1a-h-24-1-h-piezoelectric-ma.png)\n\n(ii) Maximum energy transfer occurs when:\n\n- The frequency of the applied (alternating) p.d. is equal to the <u>natural frequency</u> of the PZT crystal / transducer; **[1 mark]**\n- This causes resonance to occur; **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *The diagram might look daunting at first, but the key part to notice is the **movement of the central ion** which has a net charge of +4e*\n\n> *A simplified view is shown below:*\n\n![24-1-1a-h-24-1-h-piezoelectric-ma1](assets/006-24-1-1a-h-24-1-h-piezoelectric-ma1.png)"
+    },
+    {
+     "id": "qstnprt_wBSGr2bPdZNkK63n",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "An eye can be imaged using either an A-scan or a B-scan ultrasound. Fig. 1.2 shows the position of a piezoelectric transducer being used during an A-scan of an eye.\n\n![24-1-1b-h-24-1-h-ultrasound-eye-a-scan-cie-ial-sq](assets/007-24-1-1b-h-24-1-h-ultrasound-eye-a-scan-cie-ial-s.png)\n\n**Fig. 1.2**\n\n(i) Explain how an A-scan could be used to measure the thickness of a patient’s eye lens. You may draw on Fig. 1.2 to help with your answer.\n\n[3]\n\n(ii) Explain why a B-scan would be better than an A-scan for imaging damaged tissue that surrounds the eye.\n\n[2]",
+     "solution_md": "(i) An A-scan can be used to measure the thickness of a patient's eye lens by:\n\n- Pulses of ultrasound are sent into the eye; **[1 mark]**\n- The front and back of the lens reflect the pulses (which are displayed on an oscilloscope); **[1 mark]**\n- The thickness of the lens is determined from the speed of ultrasound (in the medium) and the time; **[1 mark]**\n\n(ii) A B-scan is better for imaging damaged tissue that surrounds the eye because:\n\n- A-scans are one-directional, they can only be used to take measurements of the eye; **[1 mark]**\n- B-scans produce 2 or 3-dimensional images, so they can be used to investigate the structures in / around the eye; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *The paths of the ultrasound pulses are as follows:*\n\n![24-1-1b-h-24-1-h-ultrasound-eye-ma](assets/008-24-1-1b-h-24-1-h-ultrasound-eye-ma.png)"
+    },
+    {
+     "id": "qstnprt_P9XRsqRSbm5pQnYB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fPvD3TNRRrtVc666"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.3 shows an ultrasound A-scan trace from the scan of an eye.\n\n![24-1-1c-h-24-1-h-ultrasound-pulse-oscilloscope-cie-ial-sq](assets/009-24-1-1c-h-24-1-h-ultrasound-pulse-oscilloscope-c.png)\n\n**Fig. 1.3**\n\nThe speed of ultrasound in the eye is 1520 m s<sup>–1</sup> and the speed of ultrasound in the lens is 1670 m s<sup>–1</sup>.\n\nUse Fig. 1.3 to calculate the thickness of\n\n(i) the lens, in mm,\n\n[2]\n\n(ii) the eye, in cm.\n\n[3]",
+     "solution_md": "Calculate the thickness of the eye lens:\n\nList the known quantities:\n\n- Speed of ultrasound in the eye, $c_{eye}$ = 1520 m s<sup>–1</sup>\n- Speed of ultrasound in the lens, $c_{lens}$ = 1670 m s<sup>–1</sup>\n\n(i) Calculate the thickness of the lens:\n\n![24-1-1c-h-24-1-h-ultrasound-puls-ma](assets/010-24-1-1c-h-24-1-h-ultrasound-puls-ma.png)\n\n- (From Fig. 1.3) the wave enters the lens at **L**<sub>**1**</sub> when *t* = 8.5 μs\n- (From Fig. 1.3) the wave leaves the lens at  **L**<sub>**2**</sub> when *t* = 14 μs\n- Time taken:  Δ*t *= 14 – 8.5 = 5.5 μs\n\nCalculate the thickness of the lens:\n\n- Lens thickness = $\\frac{1}{2}c_{lens}\\Deltat$ **[1 mark]**\n- Lens thickness = `1 half cross times 1670 cross times open parentheses 5.5 cross times 10 to the power of negative 6 end exponent close parentheses`\n- Lens thickness = 4.59 × 10<sup>–3</sup> m = 4.6 mm **[1 mark]**\n\n(ii) Calculate the thickness of the eye :\n\n- (From Fig. 1.3) the wave enters the eye at A when *t* = 5.5 μs\n- (From Fig. 1.3) the wave meets the back of the eye at B when *t* = 31.5 μs\n- Time taken from **A** to **L**<sub>**1**</sub>:  Δ*t*<sub>A</sub>* *= 8.5 – 5.5 = 3.0 μs\n- Time taken from **L**<sub>**2**</sub> to **B**:  Δ*t*<sub>B</sub>* *= 31.5 – 14 = 17.5 μs\n\nCalculate the distances before and after the lens:\n\n- Distance **A** → **L**<sub>**1**</sub> = $\\frac{1}{2}c_{eye}\\Deltat_{A}$\n- Distance **A** → **L**<sub>**1**</sub> = `1 half cross times 1520 cross times open parentheses 3.0 cross times 10 to the power of negative 6 end exponent close parentheses space equals space 2.28 cross times 10 to the power of negative 3 end exponent space straight m` **[1 mark]**\n- Distance **L**<sub>**2**</sub> → **B** = $\\frac{1}{2}c_{eye}\\Deltat_{B}$\n- Distance **L**<sub>**2**</sub> → **B** = `1 half cross times 1520 cross times open parentheses 17.5 cross times 10 to the power of negative 6 end exponent close parentheses space equals space 1.33 cross times 10 to the power of negative 2 end exponent space straight m` **[1 mark]**\n\nCalculate the thickness of the eye:\n\n- Eye thickness = distance (**A** → **L**<sub>**1**</sub>) + lens thickness + distance (**L**<sub>**2**</sub> → **B**)\n- Eye thickness = 0.23 + 0.46 + 1.33 = 2.02 cm **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Take some time to decipher the graph to make sure you understand it before diving into the calculations*\n\n> *At each boundary between media, some of the energy of the ultrasound pulse is **reflected** back to the transducer and the rest is **transmitted. **The reflected pulses are what give rise to the spikes we see on the graph*\n\n- *The first spike represents the ultrasound entering the cornea at boundary **A*\n- *The next two spikes represent the boundaries **L*<sub>*1*</sub>* and **L*<sub>*2*</sub>*, which are the front and rear surfaces of the eye lens*\n- *The final spike is where contact is made with the retina at boundary **B**, i.e. the back of the eye*",
+     "equations": [
+      {
+       "latex": "c_{eye}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>c</mi><mrow><mi>e</mi><mi>y</mi><mi>e</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c subscript e y e end subscript"
+      },
+      {
+       "latex": "c_{lens}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>c</mi><mrow><mi>l</mi><mi>e</mi><mi>n</mi><mi>s</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c subscript l e n s end subscript"
+      },
+      {
+       "latex": "\\frac{1}{2}c_{lens}\\Deltat",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>c</mi><mrow><mi>l</mi><mi>e</mi><mi>n</mi><mi>s</mi></mrow></msub><mo>&#8710;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half c subscript l e n s end subscript increment t"
+      },
+      {
+       "latex": "\\frac{1}{2}c_{eye}\\Deltat_{A}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>c</mi><mrow><mi>e</mi><mi>y</mi><mi>e</mi></mrow></msub><mo>&#8710;</mo><msub><mi>t</mi><mi>A</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half c subscript e y e end subscript increment t subscript A"
+      },
+      {
+       "latex": "\\frac{1}{2}c_{eye}\\Deltat_{B}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>c</mi><mrow><mi>e</mi><mi>y</mi><mi>e</mi></mrow></msub><mo>&#8710;</mo><msub><mi>t</mi><mi>B</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half c subscript e y e end subscript increment t subscript B"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Bh6r9BC9KDqpWJmP",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kbQN6wkHqfK9stqc",
+      "spcpt_fPvD3TNRRrtVc666"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.3 shows an ultrasound A-scan trace from the scan of an eye. The speed of ultrasound in the eye is 1520 m s^–1^ and the speed of ultrasound in the lens is 1670 m s^–1^.\n\nCalculate the thickness of the eye: Eye thickness = distance (A → L1) + lens thickness + distance (L2 → B) = 0.23 + 0.46 + 1.33 = 2.02 cm\n\nThe first spike represents the ultrasound entering the cornea at boundary A. The final spike is where contact is made with the retina at boundary B, i.e. the back of the eye.\n\nThe graph in Fig. 1.4 shows the attenuation of the intensity of ultrasound at a frequency of 3 MHz with depth.\n\n![24-1-1d-h-24-1-h-attenuation-of-ultrasound-graph-3-mhz-cie-ial-sq](assets/011-24-1-1d-h-24-1-h-attenuation-of-ultrasound-graph.png)\n\n**Fig. 1.4**\n\nWhen carrying out the scan, a gel is applied between the transducer and eye to enable 100% transmission of the ultrasound into the eye.\n\nUse the information in Table 1.1 and the graph in Fig. 1.4 to calculate the ratio of the intensity of the reflections from A and B, by the time the pulses come back to the receiver.\n\n**Table 1.1**\n\n|   | **acoustic impedance / kg m**<sup>**–2**</sup>** s**<sup>**–1**</sup> |\n|---|---|\n| eye | 1.52 × 10<sup>6</sup> |\n| eye lens | 1.84 × 10<sup>6</sup> |\n| surrounding tissue | 1.69 × 10<sup>6</sup> |",
+     "solution_md": "Calculate the ratio of the intensity of the reflections from A and B:\n\nList the known quantities:\n\n- Acoustic impedance of the eye, $Z_{e}$ = 1.52 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n- Acoustic impedance of the lens, $Z_{l}$ = 1.84 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n- Acoustic impedance of the surrounding tissue, $Z_{t}$ = 1.69 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n\nCalculate the intensity reflection coefficient at each boundary:\n\n- Intensity reflection coefficient:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`\n- Eye-lens boundary:  `I subscript R over I subscript 0 space equals space open parentheses 1.84 cross times 10 to the power of 6 space minus space 1.52 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.84 cross times 10 to the power of 6 space plus space 1.52 cross times 10 to the power of 6 close parentheses squared space equals space 9.1 cross times 10 to the power of negative 3 end exponent` **[1 mark]**\n- Eye-tissue boundary:  `I subscript R over I subscript 0 space equals space open parentheses 1.69 cross times 10 to the power of 6 space minus space 1.52 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.69 cross times 10 to the power of 6 space plus space 1.52 cross times 10 to the power of 6 close parentheses squared space equals space 2.8 cross times 10 to the power of negative 3 end exponent` **[1 mark]**\n\nDetermine the total energy lost by reflection between A and B:\n\n- At each boundary, only a small fraction of energy is reflected\n- Hence, transmitted energy at B = (0.9909 × 0.9909 × 0.9972) = 0.9791, so 0.021 of that is reflected\n- It is reasonable to make the approximation 0.9791 ≈ 1.0\n- So the same amount of energy is reflected at both A and B; **[1 mark]**\n\nDetermine the energy lost by attenuation:\n\n- The decrease in intensity must be due to the attenuation of the signal only\n- Total distance travelled = 2 × eye thickness = 4 cm\n\n![NWtsA8zL_24-1-1d-h-24-1-h-attenuation-of-ma](assets/012-nwtsa8zl-24-1-1d-h-24-1-h-attenuation-of-ma.png)\n\n- (From the graph) when depth = 4 cm, the intensity is reduced from 8 to 2, or $I_{0}\\rightarrow\\frac{I_{0}}{4}$\n- Therefore, $\\frac{I_{A}}{I_{B}}=4$ **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *At first, this question looks more complicated than it really is. When you realise that all the energy loss results from attenuation, rather than reflection, it simplifies the question greatly*\n\n> *Remember that attenuation happens in both directions. It is reasonable to assume that attenuation occurs at the same rate in all tissues, so you don't need to determine attenuation in the lens and eye separately*",
+     "equations": [
+      {
+       "latex": "Z_{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>e</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript e"
+      },
+      {
+       "latex": "Z_{l}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>l</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript l"
+      },
+      {
+       "latex": "Z_{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript t"
+      },
+      {
+       "latex": "I_{0}\\rightarrow\\frac{I_{0}}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mfrac><msub><mi>I</mi><mn>0</mn></msub><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0 space rightwards arrow space I subscript 0 over 4"
+      },
+      {
+       "latex": "\\frac{I_{A}}{I_{B}}=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>I</mi><mi>A</mi></msub><msub><mi>I</mi><mi>B</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript A over I subscript B space equals space 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KvW4JpMMDrBCh7g8",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_pT5jM3vFSnbFbPQV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qrvQfxjsTMZFd2VS",
+      "spcpt_JBVNMgYsD25PTPsX"
+     ],
+     "part_tier": null,
+     "problem_md": "Ultrasound is thought to be more suitable than X-rays for scanning an unborn foetus.\n\n(i) Describe how ultrasound imaging can be used to produce an image of an unborn foetus.\n\n[4]\n\n(ii) When obtaining the ultrasound image of an unborn foetus, a coupling gel is used.\n\nExplain why a coupling gel is needed and state the property of the gel that ensures a good quality image.\n\n[2]",
+     "solution_md": "(i) Ultrasound can produce an image of an unborn foetus by:\n\n**Final answer:** **Any ****four ****from:**\n\n- Moving a transducer across the surface of the skin; **[1 mark]**\n- While the transducer emits (short) pulses of ultrasound waves; **[1 mark]**\n- (Ultrasound) waves are reflected at boundaries where acoustic impedance changes; **[1 mark]**\n- The time (delay) for the pulse to return is measured; **[1 mark]**\n- Time delay gives information about the depth / position of the boundary; **[1 mark]**\n- The intensity of the reflection gives information about the nature of the boundary; **[1 mark]**\n\n(ii) A coupling gel is needed because:\n\n**Final answer:** **Any ****two**** from:**\n\n- The acoustic impedance of air is very different to skin **OR** gel is used between the probe and the skin to exclude air; **[1 mark]**\n- Gel has an acoustic impedance equal / similar to the skin / soft tissue; **[1 mark]**\n- This enables maximum transmission / greatly increases transmission into the body **OR** this minimises reflection / greatly reduces reflection at the body boundary; **[1 mark]**\n\n**[Total: 6 marks]**"
+    },
+    {
+     "id": "qstnprt_VbnRcKYsDtfDKDHB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fPvD3TNRRrtVc666"
+     ],
+     "part_tier": null,
+     "problem_md": "Some values of linear attenuation coefficient of different media are shown in Table 1.1\n\n**Table 1.1**\n\n| **medium** | **attenuation coefficient / cm**<sup>**−1**</sup> |\n|---|---|\n| soft tissue | 0.23 |\n| blood | 0.03 |\n| fat | 0.48 |\n\n(i) State what is meant by the attenuation of an ultrasound wave.\n\n[1]\n\n(ii) A parallel beam of ultrasound passes through a medium.\n\nThe incident intensity $I_{0}$ is reduced to 0.75 $I_{0}$ on passing through a thickness of 0.094 m of the medium.\n\nUse Table 1.1 to determine the medium that the ultrasound passed through.\n\n[4]",
+     "solution_md": "(i) Attenuation of an ultrasound wave is:\n\n- The loss of intensity / amplitude / power (of the wave); **[1 mark]**\n\n(ii) Determine the medium that the ultrasound passed through:\n\nList the known quantities:\n\n- Intensity, $I=0.75I_{0}$\n- Medium thickness, $x$ = 0.094 m = 9.4 cm\n\nDetermine the linear attenuation coefficient:\n\n- Attenuation of ultrasound:  $I=I_{0}e^{-μx}$ **[1 mark]**\n- $0.75I_{0}=I_{0}e^{-9.4μ}\\Rightarrow0.75=e^{-9.4μ}$ **[1 mark]**\n- `ln space open parentheses 0.75 close parentheses space equals space minus 9.4 mu space space space space space rightwards double arrow space space space space space mu space equals space minus fraction numerator ln space open parentheses 0.75 close parentheses over denominator 9.4 end fraction`\n- μ = 0.0306 = 0.03 cm<sup>–1</sup> **[1 mark]**\n\nConclusion:\n\n- The medium is <u>blood</u>; **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0"
+      },
+      {
+       "latex": "I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript 0"
+      },
+      {
+       "latex": "I=0.75I_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space 0.75 space I subscript 0"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "I=I_{0}e^{-μx}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>&#956;</mi><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space I subscript 0 space e to the power of negative mu x end exponent"
+      },
+      {
+       "latex": "0.75I_{0}=I_{0}e^{-9.4μ}\\Rightarrow0.75=e^{-9.4μ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>75</mn><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>&#160;</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>9</mn><mo>.</mo><mn>4</mn><mi>&#956;</mi></mrow></msup><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>9</mn><mo>.</mo><mn>4</mn><mi>&#956;</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0.75 I subscript 0 space equals space I subscript 0 space e to the power of negative 9.4 mu end exponent space space space space space rightwards double arrow space space space space space 0.75 space equals space e to the power of negative 9.4 mu end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_DXzXYMYdYT7XNpht",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_kqXFkphcHdckh975",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nY7wjsTq6vGyGnnN"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by the specific acoustic impedance of a medium.",
+     "solution_md": "Specific acoustic impedance is defined as:\n\n**EITHER**\n\n- The product of the density (of medium) and speed (of ultrasound); **[1 mark]**\n- In the medium; **[1 mark]**\n\n**OR**\n\n- $Z=ρc$* ***[1 mark]**\n- Where *ρ* is the density (of the medium) and *c* is the speed (of the ultrasound) in the medium; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *If you're stating an equation for a definition, make sure you state what **each** **variable** means to get full marks.*",
+     "equations": [
+      {
+       "latex": "Z=ρc",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#961;</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z space equals space rho c"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rWnfrrqqCcxXYvCm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nY7wjsTq6vGyGnnN"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 1.1 shows the density and speed of ultrasound in soft tissue, air and bone.\n\n**Table 1.1**\n\n|   | **density / kg m**<sup>**−3**</sup> | **speed of ultrasound / m s**<sup>**−1**</sup> |\n|---|---|---|\n| air | 1.29 | 330 |\n| soft tissue | 1060 | 1540 |\n| bone | 1600 | 4000 |\n\nUsing the data in Table 1.1, calculate the acoustic impedance of\n\n(i) air\n\n[1]\n\n(ii) soft tissue\n\n[1]\n\n(iii) bone.\n\n[1]",
+     "solution_md": "Calculate the acoustic impedance of:\n\n(i) Air:\n\n- $Z=ρc$\n- $Z_{air}=1.29\\times330$\n- $Z_{air}=426\\mathrm{kg}m^{-2}s^{-1}$ **[1 mark]**\n\n(ii) Soft tissue:\n\n- $Z=ρc$\n- $Z_{tissue}=1060\\times1540$\n- $Z_{tissue}=1.63\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}$ **[1 mark]**\n\n(iii) Bone:\n\n- $Z=ρc$\n- $Z_{bone}=1600\\times4000$\n- $Z_{bone}=6.4\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Always state the appropriate unit for your final answer if the question does include it already. *\n\n> *Here, the units are [kg] [m*<sup>*–3*</sup>*] × [m] [s*<sup>*–1*</sup>*] = [kg] [m*<sup>*–2*</sup>*] [s*<sup>*–1*</sup>*]. You **must** be familiar with the law of indices in A-level physics.*",
+     "equations": [
+      {
+       "latex": "Z=ρc",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#961;</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z space equals space rho c"
+      },
+      {
+       "latex": "Z_{air}=1.29\\times330",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>a</mi><mi>i</mi><mi>r</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>29</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>330</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript a i r end subscript space equals space 1.29 space cross times space 330"
+      },
+      {
+       "latex": "Z_{air}=426\\mathrm{kg}m^{-2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>a</mi><mi>i</mi><mi>r</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>426</mn><mo>&#160;</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript a i r end subscript space equals space 426 space kg space straight m to the power of negative 2 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "Z=ρc",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#961;</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z space equals space rho c"
+      },
+      {
+       "latex": "Z_{tissue}=1060\\times1540",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>t</mi><mi>i</mi><mi>s</mi><mi>s</mi><mi>u</mi><mi>e</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1060</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>1540</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript t i s s u e end subscript space equals space 1060 space cross times space 1540"
+      },
+      {
+       "latex": "Z_{tissue}=1.63\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>t</mi><mi>i</mi><mi>s</mi><mi>s</mi><mi>u</mi><mi>e</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>63</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript t i s s u e end subscript space equals space 1.63 space cross times space 10 to the power of 6 space kg space straight m to the power of negative 2 end exponent space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "Z=ρc",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#961;</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z space equals space rho c"
+      },
+      {
+       "latex": "Z_{bone}=1600\\times4000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>b</mi><mi>o</mi><mi>n</mi><mi>e</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1600</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>4000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript b o n e end subscript space equals space 1600 space cross times space 4000"
+      },
+      {
+       "latex": "Z_{bone}=6.4\\times10^{6}\\mathrm{kg}m^{-2}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mrow><mi>b</mi><mi>o</mi><mi>n</mi><mi>e</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn><mo>.</mo><mn>4</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mi>kg</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript b o n e end subscript space equals space 6.4 space cross times space 10 to the power of 6 space kg space straight m to the power of negative 2 end exponent space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Ccmbs2TXMCtQMcjF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kbQN6wkHqfK9stqc"
+     ],
+     "part_tier": null,
+     "problem_md": "The intensity reflection coefficient $α$ for two media is given by\n\n`alpha space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`\n\nWhere $Z_{1}$ and $Z_{2}$ are the specific acoustic impedances of the two media.\n\nExplain how this equation can be used to predict the amount of reflection or transmission of ultrasound waves at the boundary between two materials.",
+     "solution_md": "The equation can be used to predict the reflection or transmission of ultrasound by:\n\n- Calculating the difference between the values of Z / acoustic impedance (of the two materials); **[1 mark]**\n- If the values of Z are similar, then $α\\approx0$, which corresponds to complete transmission **OR** little / no reflection; **[1 mark]**\n- If the values of Z are very different, then $α\\approx1$, which corresponds to little / no transmission **OR** large / complete reflection; **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "Z_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "Z subscript 1"
+      },
+      {
+       "latex": "Z_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "Z subscript 2"
+      },
+      {
+       "latex": "α\\approx0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#945;</mi><mo>&#160;</mo><mo>&#8776;</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha space almost equal to space 0"
+      },
+      {
+       "latex": "α\\approx1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#945;</mi><mo>&#160;</mo><mo>&#8776;</mo><mo>&#160;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha space almost equal to space 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Bn9MYv7mPK2DCKCz",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kbQN6wkHqfK9stqc"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by **impedance matching** and explain how it may be achieved.",
+     "solution_md": "Impedance matching is:\n\n- When a coupling gel is used that has the same / matching acoustic impedance as the skin / body; **[1 mark]**\n- Which reduces / removes reflection at the skin; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7WcH79wXcJ7d4s3s",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_GZVT6kD8MP36NsSs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_233K2JrxmqtKBSRg"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows a diagram of a piezoelectric transducer.\n\n![24-1-3a-m-ultrasound-piezoelectric-transducer-cie-ial-sq](assets/013-24-1-3a-m-ultrasound-piezoelectric-transducer-ci.png)\n\n**Fig. 1.1**\n\nWith reference to Fig. 1.1:\n\n(i) Describe the process by which the transducer produces a pulse of ultrasound.\n\n[4]\n\n(ii) Explain how short pulses of ultrasound are produced and state why they are essential.\n\n[2]\n\n(iii) Explain how the received signals are detected.\n\n[2]",
+     "solution_md": "(i) The transducer produces a short pulse of ultrasound by:\n\n**Final answer:** **Any ****four**** from:**\n\n- Connecting the <u>electrodes</u> to an alternating / high frequency emf / voltage / p.d.; **[1 mark]**\n- The frequency of the alternating p.d. is equal to the resonant frequency of the crystal (which is above 20 kHz); **[1 mark]**\n- (Hence) the <u>crystal</u> expands and contracts / vibrates at the same frequency as the alternating p.d.; **[1 mark]**\n- The vibration produces ultrasound / pressure waves in the crystal / plastic membrane; **[1 mark]**\n- The <u>backing material</u> damps the oscillations of the crystal / stops the vibration of crystal; **[1 mark]**\n\n(ii) Short pulses of ultrasound are produced by:\n\n- Short applications of <u>alternating</u> p.d. (which stop the crystal oscillating); **[1 mark]**\n\nShort pulses are essential because:\n\n- The transmission must stop so that the reflected pulse can be received **OR** to ensure the transmitted and reflected pulses do not interfere; **[1 mark]**\n\n(iii) Received signals are detected by:\n\n- The probe acts as a receiver and a transmitter, so the received signal causes the crystal to <u>vibrate</u>; **[1 mark]**\n- The vibration of the crystal induces an alternating p.d. (which is detected); **[1 mark]**\n\n**[Total: 8 marks]**"
+    },
+    {
+     "id": "qstnprt_c7psv9nhX7rrxTMX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nY7wjsTq6vGyGnnN"
+     ],
+     "part_tier": null,
+     "problem_md": "Ultrasound is incident on a boundary between two materials. Some of the ultrasound is reflected at the boundary and the rest is transmitted across the boundary.\n\nThe acoustic impedance of air is 4.29 × 10<sup>2</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n\nThe acoustic impedance of coupling gel is 1.48 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n\nThe acoustic impedance of skin is 1.65 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n\nCalculate the percentage of the ultrasound which would be transmitted into the skin when incident on\n\n(i) an air−skin boundary,\n\n[2]\n\n(ii) a gel−skin boundary.\n\n[2]",
+     "solution_md": "List the known quantities:\n\n- Acoustic impedance of air, $Z_{a}$ = 4.29 × 10<sup>2</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n- Acoustic impedance of coupling gel, $Z_{g}$ = 1.48 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n- Acoustic impedance of skin, $Z_{s}$ = 1.65 × 10<sup>6</sup> kg m<sup>–2</sup> s<sup>–1</sup>\n\n(i) Calculate the % transmitted into the skin for the air−skin boundary:\n\n- Intensity reflection equation:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`\n- `I subscript R over I subscript 0 space equals space open parentheses Z subscript s space minus space Z subscript a close parentheses squared over open parentheses Z subscript s space plus space Z subscript a close parentheses squared space equals space open parentheses 1.65 cross times 10 to the power of 6 space minus space 4.29 cross times 10 squared close parentheses squared over open parentheses 1.65 cross times 10 to the power of 6 space plus space 4.29 cross times 10 squared close parentheses squared`\n- Fraction reflected:  $\\frac{I_{R}}{I_{0}}$ = 0.99896 **[1 mark]**\n- % transmitted = (1 − 0.99896) × 100% = 0.1% **[1 mark]**\n\n(ii) Calculate the % transmitted into the skin for the gel−skin boundary:\n\n- `I subscript R over I subscript 0 space equals space open parentheses Z subscript s space minus space Z subscript g close parentheses squared over open parentheses Z subscript s space plus space Z subscript g close parentheses squared space equals space open parentheses 1.65 cross times 10 to the power of 6 space minus space 1.48 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.65 cross times 10 to the power of 6 space plus space 1.48 cross times 10 to the power of 6 close parentheses squared`\n- Fraction reflected:  $\\frac{I_{R}}{I_{0}}$ = 2.9499 × 10<sup>–3</sup> **[1 mark]**\n- % transmitted = (1 − 2.9499 × 10<sup>–3</sup>) × 100% = 99.7% **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Since the equation has the difference in acoustic impedance **squared**, it doesn't actually matter which boundary you use as **Z*<sub>*1*</sub>* and **Z*<sub>*2*</sub>* , as *`open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared`*. Therefore, focus on making sure you've put in the correct numbers into your calculator and **squared** them too, as this is easy to forget!*",
+     "equations": [
+      {
+       "latex": "Z_{a}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>a</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript a"
+      },
+      {
+       "latex": "Z_{g}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>g</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript g"
+      },
+      {
+       "latex": "Z_{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>s</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z subscript s"
+      },
+      {
+       "latex": "\\frac{I_{R}}{I_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mi>R</mi></msub><msub><mi>I</mi><mn>0</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript R over I subscript 0"
+      },
+      {
+       "latex": "\\frac{I_{R}}{I_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>I</mi><mi>R</mi></msub><msub><mi>I</mi><mn>0</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I subscript R over I subscript 0"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

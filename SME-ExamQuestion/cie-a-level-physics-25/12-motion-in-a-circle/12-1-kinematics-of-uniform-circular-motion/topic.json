@@ -1,0 +1,735 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T02:18:46Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "physics",
+  "exam_code": "9702",
+  "sme_course_id": "crs_9WhCKp9R3HgRTxs6",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Physics"
+ },
+ "section": {
+  "slug": "12-motion-in-a-circle",
+  "name": "12. Motion in a Circle"
+ },
+ "topic": {
+  "id": "top_kZGBq4MV4wNrFkCX",
+  "slug": "12-1-kinematics-of-uniform-circular-motion",
+  "name": "Kinematics of Uniform Circular Motion",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "angular-speed",
+   "name": "Angular Speed",
+   "revision_note_id": "rn_36zTS5C6vdH6ygCc"
+  },
+  {
+   "slug": "radians-and-angular-displacement",
+   "name": "Radians & Angular Displacement",
+   "revision_note_id": "rn_gDPKXDwW5wq53dcC"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_MjGcyPskVrTpDdV6",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/12-motion-in-a-circle/12-1-kinematics-of-uniform-circular-motion/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 5,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/06/6-1-s-q--q5a-easy-aqa-a-level-physics.png": "001-6-1-s-q-q5a-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/6-1-s-q--q5b-easy-aqa-a-level-physics.png": "002-6-1-s-q-q5b-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/6-1-s-q--q2a-easy-aqa-a-level-physics.png": "003-6-1-s-q-q2a-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/6-1-s-q--q2d-ma-easy-aqa-a-level-physics.png": "004-6-1-s-q-q2d-ma-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/12-1-3a-m-circular-motion-a-and-b.png": "005-12-1-3a-m-circular-motion-a-and-b.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/12-1-3d-m-circular-motion-a-and-b-2.png": "006-12-1-3d-m-circular-motion-a-and-b-2.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/img-b688930a1bc2-1.jpeg": "007-img-b688930a1bc2-1.jpeg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_M8RHPY9MqbKntHZv",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_nKfYmwZNw6nSdsDw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why one complete revolution is equivalent to an angular displacement of 2π rad.",
+     "solution_md": "One complete revolution is equivalent to an angular displacement of 2π rad because:\n\n- Arc length is* rθ *so for one complete revolution arc = 2π*r* **AND **so $θ=\\frac{2πr}{r}=2π$* ***[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "θ=\\frac{2πr}{r}=2π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi><mi>r</mi></mrow><mi>r</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mi>&#960;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta space equals fraction numerator 2 pi r over denominator r end fraction space equals space 2 pi"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_SMXGT4W4VqQPTGZ9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "express",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle following a circular path is observed to have an angular displacement of 0.22 rad.\n\nExpress this angle in degrees (°). Show your working and give your answer to an appropriate number of significant figures.",
+     "solution_md": "Express this angle in degrees (°):\n\nList the known quantities:\n\n- Angular displacement = 0.22 rad\n\nState the equation converting from radians into degrees:\n\n- `space theta open parentheses r a d close parentheses space equals space theta open parentheses degrees close parentheses space cross times space open parentheses pi over 180 close parentheses space space space space rightwards double arrow space space space space theta open parentheses degrees close parentheses space equals space theta open parentheses rad close parentheses space cross times space open parentheses 180 over straight pi close parentheses`\n\nSubstitute in the values:\n\n- `theta to the power of ring operator space equals space 0.22 space cross times space open parentheses 180 over straight pi close parentheses space equals space 12.605 to the power of ring operator` **[1 mark]**\n\nState your final answer to the appropriate number of significant figures:\n\n- $θ=13^{\\circ}$ (2 s.f) **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The appropriate number of significant figures is always the lowest number of the numbers used in the calculation. In this case, 0.22 rad is used, which is to 2 s.f, so the final answer almost must be to 2 s.f.*",
+     "equations": [
+      {
+       "latex": "θ=13^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msup><mn>13</mn><mo>&#8728;</mo></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta space equals space 13 to the power of ring operator"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qhY8cH3mynxkCw7N",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA particle following a circular path is observed to have an angular displacement of 0.22 rad. Express this angle in degrees (°). θ(degrees) = θ(rad) × (180/π); θ° = 0.22 × (180/π) = 12.605°\n\nCalculate the percentage error that is made when the angle 0.22 rad, as measured in degrees (*θ°*<u>)</u>, is assumed to be equal to tan(*θ*°) to four significant figures. Give your final answer to two significant figures.",
+     "solution_md": "Calculate the percentage error that is made when the angle 0.22 rad:\n\nList the known quantities:\n\n- Angle 0.22 rads in degrees, *θ*° = 12.605° (from part b)\n\nCalculate the value of tan(*θ*°):\n\n- tan(12.605) = 0.2236 (4 s.f.)\n\nCalculate the percentage error:\n\n- `percent sign space e r r o r space equals space fraction numerator d i f f e r e n c e space i n space v a l u e s space over denominator o r i g i n a l space v a l u e end fraction space cross times space 100 percent sign`\n- `percent sign space e r r o r space equals space fraction numerator 0.2236 space minus space 0.22 space over denominator 0.22 end fraction space cross times space 100 percent sign` ** [1 mark]**\n- `percent sign space e r r o r space equals space 1.636 space equals space 1.6 space percent sign` (2 s.f.)** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *When calculating % differences, it is better to use the **unrounded** values from previous subparts, because the differences are often very small. The number of significant figures for the final answer asked for in the question is vital for the final mark. *\n\n> *Since 12.605 is the angle in **degrees** ensure your calculator is in **degrees **mode when using any trigonometric functions.*"
+    },
+    {
+     "id": "qstnprt_YjbwcmPbb3sBWS6N",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hYfnxNjDxXkVbBGg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA particle following a circular path is observed to have an angular displacement of 0.22 rad.\n\nThe particle travels the angle in part **(b)** in 60 ms.\n\nCalculate the frequency of the particle.",
+     "solution_md": "Calculate the frequency of the particle:\n\nList the known quantities:\n\n- Time, *t* = 60 ms = 60 × 10<sup>–3</sup> s\n\nCalculate the angular velocity of the particle:\n\n- $ω=\\frac{Δθ}{Δt}=\\frac{0.22}{60\\times10^{-3}}$ **[1 mark]**\n- $ω=3.667\\mathrm{rad}s^{-1}$ **[1 mark]**\n\nCalculate the frequency:\n\n- $ω=2πf\\Rightarrowf=\\frac{ω}{2π}$\n- $f=\\frac{3.667}{2π}=0.58\\mathrm{Hz}$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The angle** θ **in all equations in the circular motion topic **must** be in radians. Make sure not to incorrectly use your angle in degrees found in part (b) for this question.*",
+     "equations": [
+      {
+       "latex": "ω=\\frac{Δθ}{Δt}=\\frac{0.22}{60\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>&#952;</mi><mo>&#160;</mo></mrow><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>t</mi></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>22</mn><mo>&#160;</mo></mrow><mrow><mn>60</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals space fraction numerator straight capital delta theta space over denominator straight capital delta t end fraction space equals space fraction numerator 0.22 space over denominator 60 space cross times space 10 to the power of negative 3 end exponent end fraction"
+      },
+      {
+       "latex": "ω=3.667\\mathrm{rad}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>667</mn><mo>&#160;</mo><mi>rad</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals space 3.667 space rad space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ω=2πf\\Rightarrowf=\\frac{ω}{2π}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mi>&#960;</mi><mi>f</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mo>&#160;</mo><mo>=</mo><mfrac><mi>&#969;</mi><mrow><mn>2</mn><mi>&#960;</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals space 2 pi f space space space rightwards double arrow space space space f space equals fraction numerator omega over denominator 2 pi end fraction"
+      },
+      {
+       "latex": "f=\\frac{3.667}{2π}=0.58\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>667</mn><mo>&#160;</mo></mrow><mrow><mn>2</mn><mi>&#960;</mi></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>58</mn><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f space equals space fraction numerator 3.667 space over denominator 2 pi end fraction space equals space 0.58 space Hz"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HhkTHnR8TTsrfG5Z",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_5Zpkpm9QwBFNWkFY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvgcdtvT5Bq4HwGw"
+     ],
+     "part_tier": null,
+     "problem_md": "State the difference between *angular velocity* and *linear velocity*.",
+     "solution_md": "The difference between angular velocity and linear velocity is:\n\n- Angular velocity is the rate of change of <u>angular</u> displacement swept out by a <u>radius</u>; **[1 mark]**\n- Whilst linear velocity is the rate of change (linear) displacement with respect to time when the object moves / for motion in a <u>straight</u> path; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_TSNVZg9cXCVJHz98",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hYfnxNjDxXkVbBGg"
+     ],
+     "part_tier": null,
+     "problem_md": "A moon is in a circular orbit *r* about a planet. The angular speed of the moon in its orbit is *ω.* The planet and its moon may be considered to be point masses that are isolated in space.\n\n*r* and *ω *are related by the expression\n\n*      r*<sup>3</sup>*ω*<sup>2</sup> = constant\n\nIo and Europa are moons that are in circular orbits around the planet Jupiter.\n\nData for Io and Europa are shown in Fig 1.1.\n\n| moon | radius of orbit / km | period of rotation around Jupiter / hours |\n|---|---|---|\n| Io | 422 000 | 42.5 |\n| Europa | 670 900 |   |\n\n**Fig 1.1**\n\nUse the data from Fig 1.1. to determine the angular speed of Europa in its orbit around Jupiter.",
+     "solution_md": "Use the data from Fig 1.1. the angular velocity of Europa in its orbit around Jupiter\n\nList the known quantities:\n\n- Radius of Io's orbit, *r*<sub>i</sub> = 422 000 km = 422 000 × 10<sup>3</sup> m\n- Radius of Europe's orbit, *r*<sub>e</sub> = 670 900 km = 670 900 × 10<sup>3</sup> m\n- Time period of Io's orbit, *T*<sub>i</sub> = 42.5 hours\n\nCalculate the angular speed of Io, *ω*<sub>i</sub>:\n\n- $ω=\\frac{2π}{T}=\\frac{2π}{42.5\\times3600}=4.1\\times10^{-5}\\mathrm{rad}s^{-1}$ **[1 mark]**\n\nDetermine the equation for the angular speed of Europa, *ω*<sub>*e*</sub>:\n\n- If *r*<sup>3</sup>*ω*<sup>2</sup>* *= constant then *r*<sub>i</sub> <sup>*3*</sup>*ω*<sub>i</sub> <sup>2</sup>* *= *r*<sub>*e*</sub>* *<sup>3</sup>*ω*<sub>*e*</sub>* *<sup>2</sup>\n- $ω_{e}=\\sqrt{\\frac{r_{i}^{3}ω_{i}^{2}}{r_{e}^{3}}}$\n\nSubstitute the values and calculate the angular speed, *ω*<sub>*e*</sub>:\n\n- `omega subscript e space equals space square root of fraction numerator open parentheses 422 space 000 space cross times space 10 cubed close parentheses cubed space cross times open parentheses 4.1 space cross times space 10 to the power of negative 5 end exponent close parentheses squared over denominator open parentheses 670 space 900 space cross times space 10 cubed close parentheses cubed end fraction end root` **[1 mark]**\n- $ω_{e}=2.0\\times10^{-5}\\mathrm{rad}s^{-1}$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Unless otherwise specified in the question, the angular speed is measured in rad s*<sup>*–1*</sup>*. This means the time period T must be in seconds (not hours, minutes or years).*",
+     "equations": [
+      {
+       "latex": "ω=\\frac{2π}{T}=\\frac{2π}{42.5\\times3600}=4.1\\times10^{-5}\\mathrm{rad}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi></mrow><mi>T</mi></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi></mrow><mrow><mn>42</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>3600</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>1</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup><mo>&#160;</mo><mi>rad</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals space fraction numerator 2 pi over denominator T end fraction space equals fraction numerator 2 pi over denominator 42.5 space cross times space 3600 end fraction space equals space 4.1 space cross times space 10 to the power of negative 5 end exponent space rad space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ω_{e}=\\sqrt{\\frac{r_{i}^{3}ω_{i}^{2}}{r_{e}^{3}}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#969;</mi><mi>e</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msqrt><mfrac><mrow><msup><msub><mi>r</mi><mi>i</mi></msub><mn>3</mn></msup><msup><msub><mi>&#969;</mi><mi>i</mi></msub><mn>2</mn></msup></mrow><msup><msub><mi>r</mi><mi>e</mi></msub><mn>3</mn></msup></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega subscript e space equals space square root of fraction numerator r subscript i cubed omega subscript i squared over denominator r subscript e cubed end fraction end root"
+      },
+      {
+       "latex": "ω_{e}=2.0\\times10^{-5}\\mathrm{rad}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#969;</mi><mi>e</mi></msub><mo>&#160;</mo><mo>=</mo><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup><mo>&#160;</mo><mi>rad</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega subscript e space equals 2.0 space cross times space 10 to the power of negative 5 end exponent space rad space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fVPytqJwBd79jR2r",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hYfnxNjDxXkVbBGg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUse the data from Fig 1.1. to determine the angular speed of Europa in its orbit around Jupiter. The angular speed of Europa, ω = 2.0 × 10^–5 rad s^–1.\n\nCalculate the time period of Europa.\n\n*T* = ................................ years",
+     "solution_md": "Calculate the time period of Europa\n\nList the known quantities:\n\n- The angular speed of Europa, *ω* = 2.0 × 10<sup>–5</sup> rad s<sup>–1</sup>\n\nCalculate the time period in seconds:\n\n- $ω=\\frac{2π}{T}\\RightarrowT=\\frac{2π}{ω}$\n- $T=\\frac{2π}{2.0\\times10^{-5}}=314.159\\times10^{3}s$ **[1 mark]**\n\nConvert the time period into years:\n\n- $T=\\frac{314.159\\times10^{3}}{365\\times24\\times60\\times60}=9.96\\times10^{-3}\\mathrm{years}$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "ω=\\frac{2π}{T}\\RightarrowT=\\frac{2π}{ω}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo></mrow><mi>T</mi></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo></mrow><mi>&#969;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals fraction numerator 2 straight pi space over denominator T end fraction space space space space rightwards double arrow space space space space T space equals space fraction numerator 2 straight pi space over denominator omega end fraction"
+      },
+      {
+       "latex": "T=\\frac{2π}{2.0\\times10^{-5}}=314.159\\times10^{3}s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo></mrow><mrow><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>314</mn><mo>.</mo><mn>159</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T space equals space fraction numerator 2 straight pi space over denominator 2.0 space cross times space 10 to the power of negative 5 end exponent end fraction space equals space 314.159 space cross times space 10 cubed space straight s"
+      },
+      {
+       "latex": "T=\\frac{314.159\\times10^{3}}{365\\times24\\times60\\times60}=9.96\\times10^{-3}\\mathrm{years}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>314</mn><mo>.</mo><mn>159</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow><mrow><mn>365</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>24</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>60</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>60</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>96</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi>years</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T space equals space fraction numerator 314.159 space cross times space 10 cubed over denominator 365 space cross times space 24 space cross times space 60 space cross times space 60 end fraction space equals space 9.96 space cross times space 10 to the power of negative 3 end exponent space years"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NrGhFSjxk9zbfQKZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hYfnxNjDxXkVbBGg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIo and Europa are moons that are in circular orbits around the planet Jupiter. Data for Io and Europa are shown in Fig 1.1.\n\nmoon | radius of orbit / km | period of rotation around Jupiter / hours\nIo | 422 000 | 42.5\nEuropa | 670 900 | (blank)\n\nFig 1.1\n\nDetermine the radius of the orbit of a moon that had double the linear speed of Io but a third of its time period.",
+     "solution_md": "The radius of orbit of a moon that had double the linear speed of Io but a third of the time period is:\n\nList the known quantities:\n\n- Radius of Io's orbit, *r*<sub>i</sub> = 422 000 km\n\nDetermine the change in radius:\n\n- $v=rω=\\frac{2πr}{T}$\n- $r=\\frac{vT}{2π}$\n- $r_{moon}=\\frac{2v\\times\\frac{1}{3}T}{2π}=\\frac{2}{3}\\times\\frac{vT}{2π}=\\frac{2}{3}r_{i}$ **[1 mark]**\n\nCalculate the radius of the moon, *r*<sub>moon</sub>:\n\n- `r subscript m o o n end subscript space equals 2 over 3 space cross times space open parentheses 422 space 000 close parentheses space equals space 281 space 333 space equals space 280 space 000 space km space`**[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The final answer in metres will also be accepted.*\n\n> *Questions like this are also very common in multiple-choice questions. You must first find the equation that links all the variables you are looking for (in this case, orbital radius, linear speed and time period) and compare them from there.*\n\n> *If the linear speed was doubled and the time period was **halved** instead, you can see that 2 × *$\\frac{1}{2}$* will cancel out and actually the orbital radius would be the same. Watch out for this as well.*",
+     "equations": [
+      {
+       "latex": "v=rω=\\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>r</mi><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi><mi>r</mi><mo>&#160;</mo></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space r omega space equals space fraction numerator 2 pi r space over denominator T end fraction"
+      },
+      {
+       "latex": "r=\\frac{vT}{2π}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>v</mi><mi>T</mi><mo>&#160;</mo></mrow><mrow><mn>2</mn><mi>&#960;</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r space equals space fraction numerator v T space over denominator 2 pi end fraction"
+      },
+      {
+       "latex": "r_{moon}=\\frac{2v\\times\\frac{1}{3}T}{2π}=\\frac{2}{3}\\times\\frac{vT}{2π}=\\frac{2}{3}r_{i}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>r</mi><mrow><mi>m</mi><mi>o</mi><mi>o</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi>v</mi><mo>&#160;</mo><mo>&#215;</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo></mrow><mn>3</mn></mfrac></mstyle><mi>T</mi></mrow><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mi>v</mi><mi>T</mi></mrow><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msub><mi>r</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r subscript m o o n end subscript space equals space fraction numerator 2 v space cross times fraction numerator space 1 space over denominator 3 end fraction T over denominator 2 straight pi end fraction space equals 2 over 3 cross times fraction numerator v T over denominator 2 straight pi end fraction space equals 2 over 3 r subscript i"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9z3HDKvCRhsxCQZt",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_YQBzMghyRh6dZjhg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvgcdtvT5Bq4HwGw"
+     ],
+     "part_tier": null,
+     "problem_md": "The London Eye shown in Fig. 1.1 has a radius of approximately 68 m and the passengers in the capsules travel at an angular speed of 3.5 × 10<sup>–3</sup> rad s<sup>–1</sup>.\n\n![6-1-s-q--q5a-easy-aqa-a-level-physics](assets/001-6-1-s-q-q5a-easy-aqa-a-level-physics.png)\n\n**Fig. 1.1**\n\nCalculate the speed of each passenger in the capsules.",
+     "solution_md": "To calculate the speed of each passenger in the capsules:\n\nList the known quantities:\n\n- Radius of rotation, *r* = 68 m\n- Angular speed, *ω *= 3.5 × 10<sup>–3</sup> rad s<sup>–1</sup>\n\nRecall and rearrange the angular speed equation for linear velocity, *v*:\n\n- Magnitude of angular speed, *ω* =$\\frac{v}{r}$\n- *v* = *rω ***[1 mark]**\n\nSubstitute in the values:\n\n- *v* = 68 × (3.5 × 10<sup>–3</sup>) **[1 mark]**\n- *v* = 0.238 = 0.24 m s<sup>–1 </sup>**[1 mark]**** **\n\n**[Total: 3 marks]**** **",
+     "equations": [
+      {
+       "latex": "\\frac{v}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>v</mi><mi>r</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v over r"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fYzF4Dd4cf6KKZ2x",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvgcdtvT5Bq4HwGw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe London Eye shown in Fig. 1.1 has a radius of approximately 68 m and the passengers in the capsules travel at an angular speed of 3.5 × 10^–3^ rad s^–1^.\n\n![6-1-s-q--q5a-easy-aqa-a-level-physics](https://cdn.savemyexams.com/uploads/2023/06/6-1-s-q--q5a-easy-aqa-a-level-physics.png)\n\n{align=center} **Fig. 1.1**\n\nSketch on any capsule in Fig. 1.1:\n\n(i) The direction of the centripetal force. Label this F.\n\n[1]\n\n(ii) The direction of the linear speed. Label this v.\n\nAssume the London Eye is rotating clockwise.\n\n[1]",
+     "solution_md": "A diagram that would score 2 marks:\n\n![6-1-s-q--q5b-easy-aqa-a-level-physics](assets/002-6-1-s-q-q5b-easy-aqa-a-level-physics.png)\n\n(i) The direction of the centripetal force\n\n- Arrow towards the centre of the London Eye, labelled F; **[1 mark]**\n\n(ii) The direction of the linear speed\n\n- Arrow perpendicular to the centripetal force in the clockwise direction, labelled v; **[1 mark]**** **\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_nKM2fWrwbn2DgK5Q",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe London Eye shown in Fig. 1.1 has a radius of approximately 68 m and the passengers in the capsules travel at an angular speed of 3.5 × 10^–3^ rad s^–1^.\n\nDan has travelled to London to watch an exciting Physics show. Being an eager tourist, he arrives early and plans to ride the London Eye. When he gets to the front of the queue however, he realises he only had 40 minutes before he needs to leave for the show.\n\nState, with a calculation, whether Dan is still able to ride the London Eye and leave to see the show on time.",
+     "solution_md": "List the known quantities:\n\n- Angular speed, *ω *= 3.5 × 10<sup>–3</sup> rad s<sup>–1</sup> (From part (a))\n\nRearrange the angular speed equation to make time period, *T, *the subject:\n\n- *ω*  = 2π*f  *=$\\frac{2π}{T}$\n- *T* = $\\frac{2π}{ω}$ **[1 mark]**\n\nSubstitute in the values to calculate the time period, *T*:\n\n- *T* = $\\frac{2π}{3.5\\times10^{-3}}$**[1 mark]**\n- *T *= 1795.196 s **[1 mark]**\n\nConvert *T* from seconds into minutes:\n\n- *T* = $\\frac{1795.196}{60}$= 29.92 = 30 minutes **[1 mark]**\n\nConclusion:\n\n- Yes, Dan has enough time because 30 minutes < 40 minutes; **[1 mark]**** **\n\n**[Total: 5 marks]**\n\n> *Remember to always write a conclusion for questions like this and give an adequate explanation (preferably with numbers) as to why you have reached that conclusion. Just a ‘Yes’ or ‘No’ will not be enough for some examiners to award you the final mark. *\n\n> *This question can also be answered by using the linear velocity **v** calculated from part (a) and using **ω** = *$\\frac{2π}{T}$* = *$\\frac{v}{r}$*  therefore **v** = *$\\frac{2\\mathrm{πr}}{T}$* instead. This will still get you full marks.*",
+     "equations": [
+      {
+       "latex": "\\frac{2π}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mi>T</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 straight pi over denominator T end fraction"
+      },
+      {
+       "latex": "\\frac{2π}{ω}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mi>&#969;</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 16px style fraction numerator 2 straight pi over denominator omega end fraction end style"
+      },
+      {
+       "latex": "\\frac{2π}{3.5\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mrow><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 straight pi over denominator 3.5 cross times 10 to the power of negative 3 end exponent end fraction"
+      },
+      {
+       "latex": "\\frac{1795.196}{60}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>1795</mn><mo>.</mo><mn>196</mn></mrow><mn>60</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1795.196 over denominator 60 end fraction"
+      },
+      {
+       "latex": "\\frac{2π}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mi>T</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 straight pi over denominator T end fraction"
+      },
+      {
+       "latex": "\\frac{v}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>v</mi><mi>r</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v over r"
+      },
+      {
+       "latex": "\\frac{2\\mathrm{πr}}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>2</mn><mi>&#960;r</mi></mrow><mi>T</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 straight pi straight r over denominator T end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8QttQ7RbVTV6nKFH",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_k8sQ7N7x6RCJdkCj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvgcdtvT5Bq4HwGw"
+     ],
+     "part_tier": null,
+     "problem_md": "Melody is playing a game of swing ball. The game consists of a ball attached by a short rope to the top of a pole to rotate around it. The ball is kept it motion in a circular path after being hit by a bat, as shown in Fig. 1.1.\n\n![6-1-s-q--q2a-easy-aqa-a-level-physics](assets/003-6-1-s-q-q2a-easy-aqa-a-level-physics.png)\n\n**Fig. 1.1**\n\nState the equation linking the angular velocity of the ball* ω, *rotation angle, *θ  *and time, *t*.",
+     "solution_md": "The equation linking *ω*, *θ* and *t* is:\n\n- (Angular speed)* ω* = $\\frac{\\Deltaθ}{\\Deltat}$ **[1 mark]**** **\n\n**[Total: 1 mark]**** **\n\n> *Remember that angular speed, *$ω=\\frac{\\Deltaθ}{\\Deltat}=\\frac{2π}{T}=2πf$",
+     "equations": [
+      {
+       "latex": "\\frac{\\Deltaθ}{\\Deltat}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mo>&#8710;</mo><mi>&#952;</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 16px style fraction numerator increment theta over denominator increment t end fraction end style"
+      },
+      {
+       "latex": "ω=\\frac{\\Deltaθ}{\\Deltat}=\\frac{2π}{T}=2πf",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>&#952;</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mi>T</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mi>f</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals space fraction numerator increment theta over denominator increment t end fraction space equals space fraction numerator 2 straight pi over denominator T end fraction space equals space 2 straight pi f"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xt3z9py7pFNMR4jw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The ball rotates by 30º in 0.7 s.\n\nState the value for 30º in radians, in terms of π.",
+     "solution_md": "State the value for 30º in radians, in terms of π:\n\nConvert *θ*  into radians:\n\n- *θº* × $\\frac{π}{180}$= *θ *rad\n- *θ* = 30º × $\\frac{π}{180}$ **[1 mark]**\n- *θ *=$\\frac{π}{6}$ rad **[1 mark]**** **\n\n**[Total: 2 marks]**** **\n\n> *It’s very useful to remember that 180º is equal to π rad – from here you can easily figure out radian conversions which are multiples of 30º *\n\n> *The conversions are:*\n\n- *degrees to radians: **θº** × *$\\frac{π}{180}$* = **θ **rad*\n- *radians to degrees: **θ **rad × *$\\frac{180}{π}$* = **θº** *",
+     "equations": [
+      {
+       "latex": "\\frac{π}{180}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>180</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight pi over 180"
+      },
+      {
+       "latex": "\\frac{π}{180}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>180</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight pi over 180"
+      },
+      {
+       "latex": "\\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>6</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight pi over 6"
+      },
+      {
+       "latex": "\\frac{π}{180}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>180</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight pi over 180"
+      },
+      {
+       "latex": "\\frac{180}{π}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>180</mn><mi mathvariant=\"normal\">&#960;</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "180 over straight pi"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VnSKwTBVJZX7BfWr",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nState the equation linking the angular velocity of the ball ω, rotation angle, θ and time, t. Answer: (Angular speed) ω = Δθ/Δt\n\nThe ball rotates by 30º in 0.7 s. State the value for 30º in radians, in terms of π. Answer: θ = π/6 rad\n\nCalculate *ω*  and state an appropriate unit.",
+     "solution_md": "To calculate *ω*  and state an appropriate unit:\n\nList the known quantities:\n\n- Rotation angle, *θ  *= $\\frac{π}{6}$ rad (from part (b))\n- Time, *t* = 0.7 s\n- Angular velocity, *ω*  = $\\frac{\\Deltaθ}{\\Deltat}$  (from part (a))\n\nSubstitute values into angular velocity equation:\n\n- *ω*  = $\\frac{π}{6}\\div0.7$ **[1 mark]**\n- *ω  *= 0.748 = 0.75 **[1 mark]**\n\nState the correct unit:\n\n- rad s<sup>–1 </sup>**[1 mark]**** **\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>6</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight pi over 6"
+      },
+      {
+       "latex": "\\frac{\\Deltaθ}{\\Deltat}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mo>&#8710;</mo><mi>&#952;</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator increment theta over denominator increment t end fraction"
+      },
+      {
+       "latex": "\\frac{π}{6}\\div0.7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>6</mn></mfrac><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>7</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight pi over 6 space divided by space 0.7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sfm3t5k8Dq6Gj6xB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hYfnxNjDxXkVbBGg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n*ω*  = \\$\\$\\frac{\\pi}{6} \\div 0 . 7\\$\\$; *ω  *= 0.748 = 0.75 rad s^–1\n\nThe rope is 80 cm long.\n\nCalculate the initial velocity of the ball if it was to suddenly separate from the rope.",
+     "solution_md": "Calculate the initial velocity of the ball if it was to suddenly separate from the rope:\n\nList the known quantities:\n\n- Length of rope (radius of the circle), *r* = 80 cm = 0.8 m\n- Angular velocity, *ω *= 0.748 rad s<sup>–1</sup> (from part (c))\n\nRecall and rearrange the angular speed equation to make linear velocity, *v,* the subject:\n\n- Angular speed, *ω* = $\\frac{v}{r}$\n- *v* = *rω ***[1 mark]**\n\nSubstitute values into the equation:\n\n- *v *= 0.8 × 0.748 **[1 mark]**\n- *v *= 0.5984 = 0.60 m s<sup>–1 </sup>**[1 mark]**** **\n\n**[Total: 3 marks]**** **\n\n> *When an object is no longer in circular motion, it will exit the circle in a straight line from the point it left the circle, or in other words, at a **tangent **to the circle. Since the linear velocity is the velocity in the direction of travel, the ball would therefore travel at its linear velocity when the rope breaks. *\n\n> *This can be seen from a bird’s eye view of the swing ball set up:*\n\n![6-1-s-q--q2d-ma-easy-aqa-a-level-physics](assets/004-6-1-s-q-q2d-ma-easy-aqa-a-level-physics.png)",
+     "equations": [
+      {
+       "latex": "\\frac{v}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>v</mi><mi>r</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v over r"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3VwmbzK2bwKvB3bV",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_DBWzkSwQMSmYGDnh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Two children A and B hold both sides of a rope 70 cm long. Child B swings around child A in a circular path, as shown Fig 1.1.\n\n![12-1-3a-m-circular-motion-a-and-b](assets/005-12-1-3a-m-circular-motion-a-and-b.png)\n\n**Fig 1.1**\n\nChild B travels a full rotation in 1.5 s.\n\nCalculate the time taken for child B to travel a distance of 0.45 m.",
+     "solution_md": "Calculate the time taken for child B to travel a distance of 0.45 m\n\nList the known quantities:\n\n- Distance, Δ*s* = 0.45 m\n- Time period, *T* = 1.5 s\n- Radius, *r* = 70 cm = 0.70 m\n\nCalculate the angular velocity, *ω*:\n\n- $ω=\\frac{2π}{T}=\\frac{2π}{1.5}=4.189\\mathrm{rad}s^{-1}$ ** [1 mark]**\n\nCalculate the time taken:\n\n- $\\Deltaθ=ω\\Deltat=\\frac{\\Deltas}{r}$\n- $\\Deltat=\\frac{\\Deltas}{rω}=\\frac{0.45}{0.70\\times4.189}$ ** [1 mark]**\n- $\\Deltat=0.1535=0.15s$** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *None of the circular motion equations will be given on your data sheet, so make sure you remember these, and be confident in rearranging them.*",
+     "equations": [
+      {
+       "latex": "ω=\\frac{2π}{T}=\\frac{2π}{1.5}=4.189\\mathrm{rad}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo></mrow><mi>T</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo></mrow><mrow><mn>1</mn><mo>.</mo><mn>5</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>189</mn><mo>&#160;</mo><mi>rad</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "omega space equals space fraction numerator 2 straight pi space over denominator T end fraction space equals space fraction numerator 2 straight pi space over denominator 1.5 end fraction space equals space 4.189 space rad space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\Deltaθ=ω\\Deltat=\\frac{\\Deltas}{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#969;</mi><mo>&#8710;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>s</mi><mo>&#160;</mo></mrow><mi>r</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment theta space equals space omega increment t space equals space fraction numerator increment s space over denominator r end fraction"
+      },
+      {
+       "latex": "\\Deltat=\\frac{\\Deltas}{rω}=\\frac{0.45}{0.70\\times4.189}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>s</mi><mo>&#160;</mo></mrow><mrow><mi>r</mi><mi>&#969;</mi></mrow></mfrac><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>45</mn><mo>&#160;</mo></mrow><mrow><mn>0</mn><mo>.</mo><mn>70</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>189</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment t space equals space fraction numerator increment s space over denominator r omega end fraction equals space fraction numerator 0.45 space over denominator 0.70 space cross times space 4.189 end fraction"
+      },
+      {
+       "latex": "\\Deltat=0.1535=0.15s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>1535</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>15</mn><mo>&#160;</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment t space equals space 0.1535 space equals space 0.15 space straight s"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_n22m6TJMb3mntFWc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pDJzyPGWz2DfWTqZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTwo children A and B hold both sides of a rope 70 cm long. Child B swings around child A in a circular path, as shown Fig 1.1. Child B travels a full rotation in 1.5 s. Calculate the time taken for child B to travel a distance of 0.45 m.\n\nDistance, Δs = 0.45 m; Time period, T = 1.5 s; Radius, r = 70 cm = 0.70 m. Angular velocity, ω = 2π/T = 2π/1.5 = 4.189 rad s^-1. Δt = Δs/(rω) = 0.45/(0.70 × 4.189) = 0.1535 = 0.15 s.\n\nShow that the angular displacement, Δ*θ *in this time is 37°.",
+     "solution_md": "Show that the angular displacement, Δ*θ *in this time is 37°\n\nList the known quantities:\n\n- Angular velocity, *ω* = 4.189 rad s<sup>–1</sup>\n- Time, Δ*t* = 0.1535 s\n\nCalculate the angular displacement, Δ*θ*:\n\n- $ω=\\frac{\\Deltaθ}{\\Deltat}\\Rightarrow\\Deltaθ=ω\\Deltat$ **[1 mark]**\n- $\\Deltaθ=4.189\\times0.1535=0.643\\mathrm{rad}$ **[1 mark]**\n\nConvert Δ*θ *from radians to degrees:\n\n- `theta open parentheses degree close parentheses equals theta open parentheses rad close parentheses cross times open parentheses 180 over straight pi close parentheses equals 0.643 cross times open parentheses 180 over straight pi close parentheses` = 36.8° = 37° **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "ω=\\frac{\\Deltaθ}{\\Deltat}\\Rightarrow\\Deltaθ=ω\\Deltat",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>=</mo><mfrac><mrow><mo>&#8710;</mo><mi>&#952;</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac><mo>&#8658;</mo><mo>&#8710;</mo><mi>&#952;</mi><mo>=</mo><mi>&#969;</mi><mo>&#8710;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "omega equals fraction numerator increment theta over denominator increment t end fraction rightwards double arrow increment theta equals omega increment t"
+      },
+      {
+       "latex": "\\Deltaθ=4.189\\times0.1535=0.643\\mathrm{rad}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>=</mo><mn>4</mn><mo>.</mo><mn>189</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>1535</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>643</mn><mo>&#160;</mo><mi>rad</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment theta equals 4.189 cross times 0.1535 equals 0.643 space rad"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MJsHyNG66fVFC6VT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hYfnxNjDxXkVbBGg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTwo children A and B hold both sides of a rope 70 cm long. Child B swings around child A in a circular path, as shown Fig 1.1.\n\nChild A now swings child B round till they are making 5 revolutions every 2 seconds.\n\nCalculate the linear speed of child B.",
+     "solution_md": "Calculate the linear speed of child B\n\nList the known quantities:\n\n- Radius, *r* = 70 cm = 0.70 m\n\nCalculate the frequency, *f*:\n\n- Frequency is the number of revolutions in 1 second\n- 5 revolutions in 2 seconds so *f* is $\\frac{5}{2}=2.5$revolutions per second (2.5 s<sup>–1</sup>) **[1 mark]**\n\nCalculate the linear speed, *v*:\n\n- `v space equals space omega r space equals space open parentheses 2 straight pi f close parentheses r`\n- $v=2π\\times2.5\\times0.70$ **[1 mark]**\n- $v=10.996=11ms^{-1}$ **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{5}{2}=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 over 2 space equals space 2.5 space"
+      },
+      {
+       "latex": "v=2π\\times2.5\\times0.70",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>70</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space 2 straight pi space cross times space 2.5 space cross times space 0.70"
+      },
+      {
+       "latex": "v=10.996=11ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>10</mn><mo>.</mo><mn>996</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space 10.996 space equals space 11 space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NkmFxkBrc5X3kFZN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTwo children A and B hold both sides of a rope 70 cm long. Child B swings around child A in a circular path, as shown Fig 1.1.\n\nAs the children are spinning anti-clockwise, the rope suddenly snaps at the position of child A and B shown in Fig 1.2.\n\n![12-1-3d-m-circular-motion-a-and-b-2](assets/006-12-1-3d-m-circular-motion-a-and-b-2.png)\n\n**Fig 1.2**\n\nDraw the direction child B will continue to travel in the instance the rope is snapped.",
+     "solution_md": "Sketch on the diagram the direction child B will continue to travel in the instance the rope is snapped.\n\nA sketch that would score 1 mark should look like:\n\n![img-b688930a1bc2-1](assets/007-img-b688930a1bc2-1.jpeg)\n\n- Arrow tangent to be pointed anti-clockwise; **[1 mark] **\n\n**[Total: 1 mark]**"
+    }
+   ]
+  }
+ ]
+}

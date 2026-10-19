@@ -1,0 +1,1351 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:07:16Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/25/extended/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0580 & 0980",
+  "sme_course_id": "crs_xkcWDHFHdkKcxGnN",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25/extended",
+  "course_name": "Cambridge (CIE) IGCSE Maths"
+ },
+ "section": {
+  "slug": "algebra-and-sequences",
+  "name": "Algebra & Sequences"
+ },
+ "topic": {
+  "id": "top_GFb8DYsb3BQqPcGc",
+  "slug": "expanding-and-factorising-brackets",
+  "name": "Expanding & Factorising Brackets",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "expanding-and-simplifying-single-brackets",
+   "name": "Expanding & Simplifying Single Brackets",
+   "revision_note_id": "rn_75kF7pHkDPyxHjXV"
+  },
+  {
+   "slug": "factorising",
+   "name": "Factorising Out Terms",
+   "revision_note_id": "rn_sKM27qbzgvsvWm9D"
+  },
+  {
+   "slug": "factorising-quadratics",
+   "name": "Factorising Simple Quadratics",
+   "revision_note_id": "rn_6JnXFS2Dxgs42PMt"
+  },
+  {
+   "slug": "factorising-harder-quadratics",
+   "name": "Factorising Harder Quadratics",
+   "revision_note_id": "rn_2Qsr5V86p43ZqqVf"
+  },
+  {
+   "slug": "difference-of-two-squares",
+   "name": "Difference of Two Squares",
+   "revision_note_id": "rn_4Xxq65hgJNzRDyKZ"
+  },
+  {
+   "slug": "deciding-the-factorisation-method",
+   "name": "Deciding the Factorisation Method",
+   "revision_note_id": "rn_9tQ4MNr7n9wNrQpc"
+  },
+  {
+   "slug": "expanding-double-brackets",
+   "name": "Expanding Double Brackets",
+   "revision_note_id": "rn_bXDcxbGRV24wKjhf"
+  },
+  {
+   "slug": "expanding-triple-brackets",
+   "name": "Expanding Triple Brackets",
+   "revision_note_id": "rn_j6TQB7KjnGQgHy5b"
+  },
+  {
+   "slug": "factorising-by-grouping",
+   "name": "Factorising by Grouping",
+   "revision_note_id": "rn_5Z34GC7pgwPnq7XZ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_rWczFNWGPkCnV3vr",
+   "slug": "calculator-questions",
+   "name": "Calculator Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 21,
+   "questions_embedded": 21,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/25/extended/topic-questions/algebra-and-sequences/expanding-and-factorising-brackets/calculator-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 21,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "calculator-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_bPJsZW3mBBwnFV9X",
+   "set_slug": "calculator-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_6fCWy7sPDVVWCygj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_RJbgRvXq2VrGpP5g",
+      "spcpt_pqWsmktWyMCRfTk6"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Simplify.\n\n$\\frac{3y^{2}+18y}{4y^{2}-144}$",
+     "solution_md": "Start by factorising the numerator and denominator\n\nIn the numerator, both terms have $3y$ as a factor\n\n`3 y squared plus 18 y equals 3 y open parentheses y plus 6 close parentheses`\n\n**[B1]**\n\nIn the denominator, both terms have 4 as a factor\n\n`4 y squared minus 144 equals 4 open parentheses y squared minus 36 close parentheses`\n\n- $y^{2}-36=y^{2}-6^{2}$ is a difference of two squares\n\n  - so you can factorise it using `space a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`\n\n`4 y squared minus 144 equals 4 open parentheses y plus 6 close parentheses open parentheses y minus 6 close parentheses`\n\n**[B1]**\n\nSubstitute the factorised expressions back into the original fraction\n\n`fraction numerator 3 y squared plus 18 y over denominator 4 y squared minus 144 end fraction equals fraction numerator 3 y open parentheses y plus 6 close parentheses over denominator 4 open parentheses y plus 6 close parentheses open parentheses y minus 6 close parentheses end fraction`\n\n- and cancel the common factor\n\n`equals fraction numerator 3 y up diagonal strike open parentheses y plus 6 close parentheses end strike over denominator 4 up diagonal strike open parentheses y plus 6 close parentheses end strike open parentheses y minus 6 close parentheses end fraction`\n\n`fraction numerator 3 y over denominator 4 open parentheses y minus 6 close parentheses end fraction`\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: For `3 y open parentheses y plus 6 close parentheses`.\n> \n> **B1**: For `4 open parentheses y plus 6 close parentheses open parentheses y minus 6 close parentheses`.\n> \n> **B1**: For `fraction numerator 3 y over denominator 4 open parentheses y minus 6 close parentheses end fraction` or $\\frac{3y}{4y-24}$ as final answer.",
+     "equations": [
+      {
+       "latex": "\\frac{3y^{2}+18y}{4y^{2}-144}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>18</mn><mi>y</mi></mrow><mrow><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>144</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3 y squared plus 18 y over denominator 4 y squared minus 144 end fraction"
+      },
+      {
+       "latex": "3y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 y"
+      },
+      {
+       "latex": "y^{2}-36=y^{2}-6^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>36</mn><mo>=</mo><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><msup><mn>6</mn><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y squared minus 36 equals y squared minus 6 squared"
+      },
+      {
+       "latex": "\\frac{3y}{4y-24}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3</mn><mi>y</mi></mrow><mrow><mn>4</mn><mpadded lspace=\"+2px\"><mi>y</mi></mpadded><mo>-</mo><mn>24</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3 y over denominator 4 y minus 24 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_w8wwX5VTFjVMsSpJ",
+   "set_slug": "calculator-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_wBMPZ6Nv8ySx9R24",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/43",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_RJbgRvXq2VrGpP5g",
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise completely.\n\ni) $6y^{2}-15xy$\n\n[2]\n\nii) $y^{2}-9x^{2}$\n\n[2]",
+     "solution_md": "i) *Find the highest common factor of the two terms by finding the factors of each part within the terms.*\n\n> *The highest common factor of 6 and 15 is 3. *\n\n> *The highest common factor of *$y^{2}$* and *$xy$* is *$y$*.*\n\n> * Therefore the highest common factor of the two terms is *$3y$\n\n**Correct factorisation, but not using highest common factor**** [1]**\n** **$3y(2y-5x)$ **[1]** \n**It is worth expanding your answer to check.**\n\nii) *This is an example of the \"difference of two squares\" as it is in the form of *$a^{2}-b^{2}$*.*\n\n> *The formula for difference of two squares is *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`*.*\n\n> *Rewrite as *$a^{2}-b^{2}$*.*\n\n`y squared space minus space 9 x squared space equals space open parentheses y close parentheses squared minus open parentheses 3 x close parentheses squared`\n\n> *Use the pattern of difference of two squares.*\n\n$(y+3x)(y-3x)$** **\n**1 mark for using difference of two squares formula**** [1]**\n** ****1 mark for correct answer**** [1]**",
+     "equations": [
+      {
+       "latex": "6y^{2}-15xy",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><msup><mi>y</mi><mn>2</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>15</mn><mi>x</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 y squared space minus space 15 x y"
+      },
+      {
+       "latex": "y^{2}-9x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>y</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>-</mo><mo> </mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y to the power of 2 space end exponent minus space 9 x squared"
+      },
+      {
+       "latex": "y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>y</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y squared"
+      },
+      {
+       "latex": "xy",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "3y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 y"
+      },
+      {
+       "latex": "3y(2y-5x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">y</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "a^{2}-b^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a squared minus b squared"
+      },
+      {
+       "latex": "a^{2}-b^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a squared minus b squared"
+      },
+      {
+       "latex": "(y+3x)(y-3x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_w4mVVQsGYGx6Wf4b",
+   "set_slug": "calculator-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_JTVqRJqxvtQpHGZ6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/42",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise  $12ab^{3}+18a^{3}b^{2}$.",
+     "solution_md": "*\"Factorise\" means to put into brackets by taking out common numbers and letters*\n\n*Find the biggest number that goes into both 12 and 18* * *\n\n*biggest number is 6* * *\n\n*Find the biggest power of *$a$* that goes into both *$a$* and *$a^{3}$ * *\n\n*biggest power is *$a$ * *\n\n*Find the biggest power of *$b$* that goes into both *$b^{3}$* and *$b^{2}$ * *\n\n*biggest power is *$b^{2}$\n\n*Multiply these together to get the biggest factor that can be taken out * * *\n\n* *$6\\timesa\\timesb^{2}=6ab^{2}$ * *\n\n*Write *$6ab^{2}$* outside brackets and write two terms inside the brackets that, if expanded, give *$12ab^{3}+18a^{3}b^{2}$\n\n`6 a b squared open parentheses 2 b plus 3 a squared close parentheses`\n\n**Any correct partial factorisation**** [1]**\n $6ab^{2}(2b+3a^{2})$** ****[1]**",
+     "equations": [
+      {
+       "latex": "12ab^{3}+18a^{3}b^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><mi>a</mi><msup><mi>b</mi><mn>3</mn></msup><mo>+</mo><mn>18</mn><msup><mi>a</mi><mn>3</mn></msup><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "12 a b cubed plus 18 a cubed b squared"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>a</mi><mn>3</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a cubed"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>b</mi><mn>3</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b cubed"
+      },
+      {
+       "latex": "b^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>b</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b squared"
+      },
+      {
+       "latex": "b^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>b</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b to the power of 2 space end exponent"
+      },
+      {
+       "latex": "6\\timesa\\timesb^{2}=6ab^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>×</mo><mi>a</mi><mo>×</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mi>a</mi><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 cross times a cross times b squared equals 6 a b squared"
+      },
+      {
+       "latex": "6ab^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>a</mi><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 a b squared"
+      },
+      {
+       "latex": "12ab^{3}+18a^{3}b^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><mi>a</mi><msup><mi>b</mi><mn>3</mn></msup><mo>+</mo><mn>18</mn><msup><mi>a</mi><mn>3</mn></msup><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "12 a b cubed plus 18 a cubed b squared"
+      },
+      {
+       "latex": "6ab^{2}(2b+3a^{2})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">6</mn><mi mathvariant=\"bold-italic\">a</mi><msup><mi mathvariant=\"bold-italic\">b</mi><mn mathvariant=\"bold\">2</mn></msup><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">b</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn><msup><mi mathvariant=\"bold-italic\">a</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vMjxY5nQWNX5t87s",
+   "set_slug": "calculator-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dHp7cSFQBzRKVYQh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/22",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": null,
+     "problem_md": "Factorise completely.\n\n$4-8x$",
+     "solution_md": "> *Look for the the highest common factor in the expression and take it out in front of the brackets.*\n\n> *The highest common factor of *$4$* and *$-8x$* is *$4$*.*\n\n`table row cell 4 space divided by space 4 space end cell equals cell space 1 end cell row cell negative 8 x space divided by space 4 space end cell equals cell space minus 2 x end cell end table`\n\n$4(1-2x)$** ****[1]**",
+     "equations": [
+      {
+       "latex": "4-8x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo> </mo><mo>-</mo><mo> </mo><mn>8</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 space minus space 8 x"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>4</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4"
+      },
+      {
+       "latex": "-8x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>8</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 8 x"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>4</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4"
+      },
+      {
+       "latex": "4(1-2x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">4</mn><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TGMXThTD7ggHzymH",
+   "set_slug": "calculator-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_VZGRDmQwBywM6Hz8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/41",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": null,
+     "problem_md": "Factorise completely.\n\n$3a^{2}b-ab^{2}$",
+     "solution_md": "> *Look for the common factors in both terms.*\n\n> *There are no numerical common factors (3 and 1 are both prime numbers).*\n\n> * *$a$* and *$b$* go into both terms, so *$ab$* is a common factor.*\n\n`fraction numerator 3 a squared b over denominator a b end fraction space equals space fraction numerator 3 space cross times space up diagonal strike a space cross times space a space cross times space up diagonal strike b over denominator up diagonal strike a space cross times space up diagonal strike b end fraction space equals space 3 a`\n\n`fraction numerator a b squared over denominator a b end fraction space equals space fraction numerator space up diagonal strike a space cross times space b space cross times space up diagonal strike b over denominator up diagonal strike a space cross times space up diagonal strike b end fraction space equals space b`\n\n$ab(3a-b)$* *** **\n**At least one factor taken out correctly ****[1] **** **\n**Both factors and bracket correct ****[1]**",
+     "equations": [
+      {
+       "latex": "3a^{2}b-ab^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mi>b</mi><mo> </mo><mo>-</mo><mo> </mo><mi>a</mi><msup><mi>b</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 a squared b space minus space a b squared"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "ab",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a b"
+      },
+      {
+       "latex": "ab(3a-b)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">b</mi><mrow><mo stretchy=\"true\" mathvariant=\"bold\">(</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold\">a</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">b</mi><mo stretchy=\"true\" mathvariant=\"bold\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tCNg4vfnfmjgZWNN",
+   "set_slug": "calculator-questions",
+   "order": 15,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Yny6gwVTsdrBNccs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/41",
+      "question_number": 8,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_GVgyB5BVfNDYGf8M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Expand and simplify.\n\n`open parentheses x minus 2 close parentheses open parentheses x plus 5 close parentheses open parentheses 2 x minus 1 close parentheses`",
+     "solution_md": "> *Expand the first two brackets by multiplying everything in the first bracket by everything in the second bracket.*\n\n`table row blank blank cell open parentheses x space minus space 2 close parentheses open parentheses x space plus space 5 close parentheses end cell row blank equals cell space x open parentheses x space plus space 5 close parentheses space minus 2 open parentheses x space plus space 5 close parentheses end cell row blank equals cell space x squared space plus space 5 x space minus space 2 x space minus space 10 end cell end table`\n\n**[1]**\n\n> *Simplify this. *\n\n`table row cell x squared space plus space 5 x space minus 2 x space minus space 10 space end cell equals cell space x squared space plus space 3 x space minus space 10 end cell end table`\n\n> *Write the expanded expression out next to the third bracket. *\n\n`table row blank blank cell open parentheses x squared space plus space 3 x space minus space 10 close parentheses open parentheses 2 x space minus space 1 close parentheses space end cell end table`\n\n> *Multiply each part of the first bracket by *`open parentheses 2 x space minus space 1 close parentheses`*. *\n\n`table row blank blank cell x squared open parentheses 2 x space minus space 1 close parentheses space space plus space 3 x open parentheses 2 x space minus space 1 close parentheses space space minus space 10 open parentheses 2 x space minus space 1 close parentheses space end cell end table`\n\n> *Expand the brackets. *\n\n`table row cell 2 x cubed space minus space x squared space space plus space 6 x squared space minus space 3 x space space minus space 20 x space minus space open parentheses negative 10 close parentheses space end cell end table`\n\n**[1]**\n\n> *Simplify. *\n\n`table row cell bold 2 bold italic x to the power of bold 3 bold space bold plus bold space bold 5 bold italic x to the power of bold 2 bold space bold minus bold space bold 23 bold italic x bold space bold plus bold space bold 10 end cell end table`**[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rhh6Q5RmvMj8nzx9",
+   "set_slug": "calculator-questions",
+   "order": 20,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_TqTK8RM9WfwMP2jz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/23",
+      "question_number": 25,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_RJbgRvXq2VrGpP5g",
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise completely.\n\n$2t^{2}-98m^{2}$",
+     "solution_md": "*\"Factorise\" means write as brackets to be expanded* *Take out a common factor of 2* * *\n\n`2 t squared minus 98 m squared equals 2 open parentheses t squared minus 49 m squared close parentheses`\n\n**[1]**\n\n*The \"difference of two squares\" says  *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`\n\n*Use the difference of two squares to factorise *$t^{2}-49m^{2}$* (using *$a=t$* and *$b=7m$*)* * *\n\n`t squared minus 49 m squared equals open parentheses t plus 7 m close parentheses open parentheses t minus 7 m close parentheses`\n\n**[1]**\n\n*Write the final answer out* * *\n\n`2 t squared minus 98 m squared equals 2 open parentheses t plus 7 m close parentheses open parentheses t minus 7 m close parentheses`\n\n$2(t+7m)(t-7m)$* ***[1]** \n**Final answers such as **`open parentheses 2 t plus 14 m close parentheses open parentheses t minus 7 m close parentheses`** are not factorised completely**",
+     "equations": [
+      {
+       "latex": "2t^{2}-98m^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>98</mn><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "2 t squared minus 98 m squared"
+      },
+      {
+       "latex": "t^{2}-49m^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>49</mn><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t squared minus 49 m squared"
+      },
+      {
+       "latex": "a=t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals t"
+      },
+      {
+       "latex": "b=7m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mn>7</mn><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals 7 m"
+      },
+      {
+       "latex": "2(t+7m)(t-7m)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">7</mn><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">7</mn><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Error converting from MathML to accessible text."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qSH9Gy424T26CpMD",
+   "set_slug": "calculator-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_zpCczKx364CN9qrM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2012\tJune",
+      "number": "1MA0/2H",
+      "question_number": 14,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_S2dfVTzRhCh7pRzW"
+     ],
+     "part_tier": null,
+     "problem_md": "Expand and simplify  `open parentheses p plus 9 close parentheses open parentheses p minus 4 close parentheses`",
+     "solution_md": "*Multiply all terms in the first bracket by all terms in the second bracket* * *\n\n`p cross times p plus p cross times open parentheses negative 4 close parentheses plus 9 cross times p plus 9 cross times open parentheses negative 4 close parentheses` * *\n\n*Simplify the terms (by multiplying their parts together)* * *\n\n$p^{2}-4p+9p-36$\n\n**3 out of 4 terms correct**** [1]**\n\n*Collect the \"like\" **p** terms* * *\n\n$-4p+9p=5p$ * *\n\n> *Write out the final answer *\n\n$p^{2}+5p-36$ **[1]**",
+     "equations": [
+      {
+       "latex": "p^{2}-4p+9p-36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>p</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>p</mi><mo>+</mo><mn>9</mn><mi>p</mi><mo>-</mo><mn>36</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p squared minus 4 p plus 9 p minus 36"
+      },
+      {
+       "latex": "-4p+9p=5p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>4</mn><mi>p</mi><mo>+</mo><mn>9</mn><mi>p</mi><mo>=</mo><mn>5</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 4 p plus 9 p equals 5 p"
+      },
+      {
+       "latex": "p^{2}+5p-36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold-italic\">p</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">36</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic p to the power of bold 2 bold plus bold 5 bold italic p bold minus bold 36"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qK9mJgsfWNHJk2Jb",
+   "set_slug": "calculator-questions",
+   "order": 17,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vYGkZYJ7HCMjp4hp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020 March",
+      "number": "0580/42",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_GVgyB5BVfNDYGf8M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Expand and simplify.\n\n$(y+3)(y-4)(2y-1)$",
+     "solution_md": "> *First expand the first pair of brackets.*\n\n`open parentheses y plus 3 close parentheses open parentheses y minus 4 close parentheses open parentheses 2 y minus 1 close parentheses equals open parentheses y squared minus y minus 12 close parentheses open parentheses 2 y minus 1 close parentheses`\n\n**[1]**\n\n> *Carefully expand, using separate lines to make sure all terms are included and lining like terms up so simplifying is easy.*\n\n`table row cell open parentheses y squared minus y minus 12 close parentheses open parentheses 2 y minus 1 close parentheses end cell equals cell 2 y cubed minus y squared end cell row blank blank cell space space space space space space space minus 2 y squared plus y end cell row blank blank cell space space space space space space space space space space space space space space space space space space minus 24 y plus 12 end cell end table`\n\n**[1]**\n\n> *Simplify.*\n\n$2y^{3}-y^{2}-2y^{2}+y-24y+12=2y^{3}-3y^{2}-23y+12$\n\n$2y^{3}-3y^{2}-23y+12$** ****[1]**",
+     "equations": [
+      {
+       "latex": "(y+3)(y-4)(2y-1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>y</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>y</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "left parenthesis y plus 3 right parenthesis left parenthesis y minus 4 right parenthesis left parenthesis 2 y minus 1 right parenthesis"
+      },
+      {
+       "latex": "2y^{3}-y^{2}-2y^{2}+y-24y+12=2y^{3}-3y^{2}-23y+12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>y</mi><mn>3</mn></msup><mo>-</mo><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>y</mi><mo>-</mo><mn>24</mn><mi>y</mi><mo>+</mo><mn>12</mn><mo>=</mo><mn>2</mn><msup><mi>y</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>23</mn><mi>y</mi><mo>+</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 y cubed minus y squared minus 2 y squared plus y minus 24 y plus 12 equals 2 y cubed minus 3 y squared minus 23 y plus 12"
+      },
+      {
+       "latex": "2y^{3}-3y^{2}-23y+12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><msup><mi mathvariant=\"bold-italic\">y</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><msup><mi mathvariant=\"bold-italic\">y</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">23</mn><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 bold italic y to the power of bold 3 bold minus bold 3 bold italic y to the power of bold 2 bold minus bold 23 bold italic y bold plus bold 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_M9ZNDdsMK3YH2xW5",
+   "set_slug": "calculator-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_p3tjQx3Tt5zmd7HY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/43",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Ck5vpzYGNJy5qdNM"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise  $24+5x-x^{2}$.",
+     "solution_md": "*\"Factorise\" means to write as brackets to be expanded.* *Rearrange the quadratic such that it is in the form. *\n\n> $-x^{2}+5x+24$* *\n\n> *Multiply the first and the last terms (-1 and 24).*\n\n$-1\\times24=-24$\n\n> *Look for two values that both multiply to make -24 and add to make the middle term, +5.*\n\n$-3\\times8=-24\\,-3+8=5$\n\n*Use these factors to split the middle term, *$5x$ *into the sum of *$8x$* **and *$-3x$*.*\n\n$-x^{2}+8x-3x+24$\n\n> *Factorise the first two terms by taking the common factor of *$x$* outside of the brackets.*\n\n`x open parentheses negative x space plus space 8 close parentheses space minus 3 x space plus space 24`\n\n> *Factorise the last two terms by taking the common factor of 3 outside of the brackets.*\n\n`x open parentheses negative x space plus space 8 close parentheses plus space 3 open parentheses negative x space plus space 8 close parentheses`\n\n**[1]**\n\n> *Both the *$x$* and the +3 are multiplied by *`open parentheses negative x space plus space 8 close parentheses`*. *\n\n> *Factorise the whole *`open parentheses negative x space plus space 8 close parentheses`* bracket out, leaving *$x$* and +3 together in their own bracket*\n\n$(x+3)(-x+8)$ **[1]**\n** (8 - x)(3 + x) also correct**",
+     "equations": [
+      {
+       "latex": "24+5x-x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>24</mn><mo> </mo><mo>+</mo><mo> </mo><mn>5</mn><mi>x</mi><mo> </mo><mo>-</mo><mo> </mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "24 space plus space 5 x space minus space x squared"
+      },
+      {
+       "latex": "-x^{2}+5x+24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mn>5</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative x squared space plus space 5 x space plus space 24"
+      },
+      {
+       "latex": "-1\\times24=-24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo> </mo><mo>×</mo><mo> </mo><mn>24</mn><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 space cross times space 24 space equals space minus 24"
+      },
+      {
+       "latex": "-3\\times8=-24\\,-3+8=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mo> </mo><mo>×</mo><mo> </mo><mn>8</mn><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>24</mn><mspace linebreak=\"newline\"/><mo>-</mo><mn>3</mn><mo> </mo><mo>+</mo><mo> </mo><mn>8</mn><mo> </mo><mo>=</mo><mo> </mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3 space cross times space 8 space equals space minus 24\nminus 3 space plus space 8 space equals space 5"
+      },
+      {
+       "latex": "5x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 x"
+      },
+      {
+       "latex": "8x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 x"
+      },
+      {
+       "latex": "-3x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 3 x"
+      },
+      {
+       "latex": "-x^{2}+8x-3x+24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mn>8</mn><mi>x</mi><mo> </mo><mo>-</mo><mn>3</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative x squared space plus space 8 x space minus 3 x space plus space 24"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "(x+3)(-x+8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">8</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jVWGJ459kQcrsYX7",
+   "set_slug": "calculator-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_8Wxv2gQkyFRmVy3R",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2018\tFeb/Mar",
+      "number": "0580/42",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_RJbgRvXq2VrGpP5g"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise $x^{2}-25$.",
+     "solution_md": "*We need to recognise \"*$x^{2}-25$*\" as the difference of two squares: *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`*.*\n\n> *The square root of *$x^{2}$* is *$x$* and the square root of *$25$* is *$5$* so *\n\n`x squared minus 25 equals open parentheses x plus 5 close parentheses open parentheses x minus 5 close parentheses`\n\n$(x+5)(x-5)$ **[1]**",
+     "equations": [
+      {
+       "latex": "x^{2}-25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x squared minus 25"
+      },
+      {
+       "latex": "x^{2}-25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 25"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>25</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "25"
+      },
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>5</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5"
+      },
+      {
+       "latex": "(x+5)(x-5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hd69JWtHrmYBmJCq",
+   "set_slug": "calculator-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_WVjBBdgmRHZpTCy3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2018\tOct/Nov",
+      "number": "0580/41",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_RJbgRvXq2VrGpP5g",
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise  $5m^{2}-20p^{4}$.",
+     "solution_md": "*\"Factorise\" means put into brackets*\n\n*Take out a common factor of 5* * *\n\n`5 m squared minus 20 p to the power of 4 equals 5 open parentheses m squared minus 4 p to the power of 4 close parentheses`\n\n**[1]**\n\n*The \"difference of two squares\" is *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`\n\n*Use the difference of two squares to factorise *$m^{2}-4p^{4}$* (*$a=m$* and *$b=2p^{2}$*)* * *\n\n`m squared minus 4 p to the power of 4 equals open parentheses m plus 2 p squared close parentheses open parentheses m minus 2 p squared close parentheses`\n\n**[1]**\n\n*Put this back into the question* * *\n\n`5 m squared minus 20 p to the power of 4 equals 5 open parentheses m plus 2 p squared close parentheses open parentheses m minus 2 p squared close parentheses`\n\n$5(m+2p^{2})(m-2p^{2})$** ****[1]**",
+     "equations": [
+      {
+       "latex": "5m^{2}-20p^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><msup><mi>m</mi><mn>2</mn></msup><mo>-</mo><mn>20</mn><msup><mi>p</mi><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "5 m squared minus 20 p to the power of 4"
+      },
+      {
+       "latex": "m^{2}-4p^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>m</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><msup><mi>p</mi><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m squared minus 4 p to the power of 4"
+      },
+      {
+       "latex": "a=m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a equals m"
+      },
+      {
+       "latex": "b=2p^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mn>2</mn><msup><mi>p</mi><mrow><mn>2</mn><mo> </mo></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b equals 2 p to the power of 2 space end exponent"
+      },
+      {
+       "latex": "5(m+2p^{2})(m-2p^{2})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">5</mn><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">2</mn><msup><mi mathvariant=\"bold-italic\">p</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><msup><mi mathvariant=\"bold-italic\">p</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cNPpzPJ2tCF25GN4",
+   "set_slug": "calculator-questions",
+   "order": 16,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dN598Qgrb2byr46s",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2020 Oct/Nov",
+      "number": "0580/43",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_GVgyB5BVfNDYGf8M"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Write `open parentheses x space plus space 1 close parentheses open parentheses x space minus space 3 close parentheses squared` in the form $ax^{3}+bx^{2}+cx+d$.",
+     "solution_md": "> *Rewrite the equation with the squared brackets as two separate brackets.*\n\n> `open parentheses x space plus space 1 close parentheses open parentheses x space minus space 3 close parentheses open parentheses x space minus space 3 close parentheses`*  *\n\n> *Expand the first two brackets by multiplying everything in the first bracket by everything in the second bracket.*\n\n`table row blank blank cell open parentheses x space plus space 1 close parentheses open parentheses x space minus space 3 close parentheses end cell row blank equals cell space x open parentheses x space minus space 3 close parentheses space plus space 1 open parentheses x space space minus space 3 close parentheses end cell row blank equals cell space x squared space minus space 3 x space plus space 1 x space minus space 3 end cell end table`\n\n**[1]**\n\n> *Simplify this. *\n\n`table row cell x squared space minus 3 x space plus space 1 x space minus space 3 space end cell equals cell space x squared space minus space 2 x space minus space 3 end cell end table`\n\n> *Write the expanded expression out next to the third bracket. *\n\n`table row blank blank cell open parentheses table row blank blank cell space x squared space minus space 2 x space minus space 3 end cell end table close parentheses open parentheses x space minus space 3 close parentheses space end cell end table`\n\n> *Multiply each part of the first bracket by *`open parentheses x space minus space 3 close parentheses`*. *\n\n`table row blank blank cell x squared open parentheses x space minus space 3 close parentheses space space minus space 2 x open parentheses x space minus space 3 close parentheses space space minus space 3 open parentheses x space minus space 3 close parentheses space end cell end table`\n\n> *Expand the brackets, taking extra care with the negatives. *\n\n`table row cell x cubed space minus space 3 x squared space space minus space 2 x squared space plus space 6 x space space minus space 3 x space minus space open parentheses negative 9 close parentheses space end cell end table`\n\n**[1]**\n\n> *Simplify, taking extra care with the negatives. *\n\n`table row cell bold italic x to the power of bold 3 bold space bold minus bold space bold 5 bold italic x to the power of bold 2 bold space bold plus bold space bold 3 bold italic x bold space bold plus bold space bold 9 end cell end table`**[1] **\n**This could be done by expanding (****x**** -3)**<sup>**2 **</sup>**first.**",
+     "equations": [
+      {
+       "latex": "ax^{3}+bx^{2}+cx+d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msup><mi>x</mi><mrow><mn>3</mn><mo> </mo></mrow></msup><mo>+</mo><mo> </mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mi>c</mi><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a x to the power of 3 space end exponent plus space b x squared space plus space c x space plus space d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Cgf6yWC9B2HrPR7Q",
+   "set_slug": "calculator-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_xs3yPk964RTjG4R4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "Specimen 2025",
+      "number": "0580/04",
+      "question_number": 10,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vMSNnYkKPf62MRH9"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise\n\n$2x+6--3xy--9y$",
+     "solution_md": "> *Factorise by \"grouping\" the first two terms and the last two terms*\n\n`table row cell 2 x plus 6 – 3 x y – 9 y end cell equals cell 2 x plus 6 space left enclose negative 3 x y minus 9 y end enclose end cell row blank equals cell 2 open parentheses x plus 3 close parentheses space left enclose negative 3 y open parentheses x plus 3 close parentheses end enclose end cell end table`\n\n**or**** '**`x open parentheses 2 y minus 3 close parentheses plus 3 open parentheses 2 y minus 3 close parentheses`**' [1]**\n\n> *Now factorise out the '*`open parentheses x plus 3 close parentheses`*'*\n\n`equation`** [1]**",
+     "equations": [
+      {
+       "latex": "2x+6--3xy--9y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>6</mn><mo> </mo><mo>–</mo><mo> </mo><mn>3</mn><mi>x</mi><mi>y</mi><mo> </mo><mo>–</mo><mo> </mo><mn>9</mn><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 x space plus space 6 space – space 3 x y space – space 9 y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BB6wFHmgJpXcdvgP",
+   "set_slug": "calculator-questions",
+   "order": 18,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_VyYvDXn8hSq8H77c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2019\tMay/June",
+      "number": "0580/42",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vMSNnYkKPf62MRH9",
+      "spcpt_RJbgRvXq2VrGpP5g"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise completely.\n\ni) $15p^{2}q^{2}-25q^{3}$\n\n[2]\n\nii) $4fg+6gh+10fk+15hk$\n\n[2]\n\niii) $81k^{2}-m^{2}$\n\n[2]",
+     "solution_md": "> *Factorise **completely **means we must factorise using the highest common factor, e.g. *$5x^{3}+10x^{2}$* would factorise to *`5 x squared open parentheses x plus 2 close parentheses`* rather than just *`x open parentheses 5 x squared plus 10 x close parentheses`\n\ni) *The highest common factor of these two terms is *$5q^{2}$\n\n**Correct factorisation, but not using highest common factor**** [1]**\n\n$5q^{2}(3p^{2}-5q)$ **[1]** \n**It is worth expanding your answer to check**\n\nii) *The first two terms have a highest common factor of *$2g$*, so this can be factored out*\n\n`2 g open parentheses 2 f plus 3 h close parentheses space plus space 10 f k space plus space 15 h k`\n\n> *The second two terms have a highest common factor of *$5k$*, so this can be factored out*\n\n`2 g open parentheses 2 f plus 3 h close parentheses space plus space 5 k open parentheses 2 f plus 3 h close parentheses`\n\n**[1]**\n\n> *These two terms have a common factor of *`open parentheses 2 f plus 3 h close parentheses`* so this can be factored out*\n\n$(2f+3h)(2g+5k)$ **[1] **\n**It is worth expanding your answer to check**\n\niii) *This is a \"difference of two squares pattern\" as it is in the form of \"something squared\" subtract \"something else squared\" *\n\n> *e.g. *`x squared minus 9 equals open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses`* or *`open parentheses a squared minus b squared close parentheses equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`\n\n> *Rewrite as *`open parentheses a squared minus b squared close parentheses`\n\n`open parentheses 81 k squared minus m squared close parentheses space equals space open parentheses open parentheses 9 k close parentheses squared minus open parentheses m close parentheses squared close parentheses`\n\n> *Use the pattern of difference of two squares*\n\n$(9k+m)(9k-m)$ **[2] **\n**It is worth expanding your answer to check**",
+     "equations": [
+      {
+       "latex": "15p^{2}q^{2}-25q^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><msup><mi>p</mi><mn>2</mn></msup><msup><mi>q</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn><msup><mi>q</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "15 p squared q squared minus 25 q cubed"
+      },
+      {
+       "latex": "4fg+6gh+10fk+15hk",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>f</mi><mi>g</mi><mo>+</mo><mn>6</mn><mi>g</mi><mi>h</mi><mo>+</mo><mn>10</mn><mi>f</mi><mi>k</mi><mo>+</mo><mn>15</mn><mi>h</mi><mi>k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "4 f g plus 6 g h plus 10 f k plus 15 h k"
+      },
+      {
+       "latex": "81k^{2}-m^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>81</mn><msup><mi>k</mi><mn>2</mn></msup><mo>-</mo><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "81 k squared minus m squared"
+      },
+      {
+       "latex": "5x^{3}+10x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>10</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 x cubed plus 10 x squared"
+      },
+      {
+       "latex": "5q^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><msup><mi>q</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 q squared"
+      },
+      {
+       "latex": "5q^{2}(3p^{2}-5q)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">5</mn><msup><mi mathvariant=\"bold-italic\">q</mi><mn mathvariant=\"bold\">2</mn></msup><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><msup><mi mathvariant=\"bold-italic\">p</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">q</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "2g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 g"
+      },
+      {
+       "latex": "5k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 k"
+      },
+      {
+       "latex": "(2f+3h)(2g+5k)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">f</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">h</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">g</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      },
+      {
+       "latex": "(9k+m)(9k-m)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">9</mn><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">9</mn><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9CjMQXb94X6sQzHG",
+   "set_slug": "calculator-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_FvdhVtGpr3zRrzwj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2018\tMay/June",
+      "number": "0580/41",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vMSNnYkKPf62MRH9",
+      "spcpt_RJbgRvXq2VrGpP5g"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise.\n\ni) $2mn+m^{2}-6n-3m$\n\n[2]\n\nii) $4y^{2}-81$\n\n[1]\n\niii) $t^{2}-6t+8$\n\n[2]",
+     "solution_md": "i) *The two terms on the left have a common factor of *$m$*, so factorise *$m$* out*\n\n$m(2n+m)-6n-3m$\n\n> *The two terms on the right have a common factor of 3. Notice that both these two terms are negative so the common factor is actually \"-3\"*\n\n$m(2n+m)-3(2n+m)$\n\n**[1]**\n\n> *Now we can see that *$(2n+m)$* occurs twice. We can use the distributive rule to factorise the entire expression to its final form*\n\n$(m-3)(2n+m)$**  ****[1]**\n\nii) *Both terms are square, so we need to recognise that this is an example the difference of two squares. *\n\n> *General rule: *$a^{2}-b^{2}=(a+b)(a-b)$* *\n\n> *Find the square root of *$4y^{2}$* and the square root of 81. Hence*\n\n$4y^{2}-81=(2y+9)(2y-9)$\n\n$(2y+9)(2y-9)$ **[1]**\n\niii) *When factorising quadratics like this, it's helpful to remember \"TEAM\": **T**imes for the **E**nd, **A**dd for the **M**iddle. *\n\n> *So we're looking for two integers that will times to +8 and add to -6, to go into the blank spaces below*\n\n`t squared minus 6 t plus 8 equals left parenthesis t plus box enclose blank end enclose right parenthesis left parenthesis t plus box enclose blank end enclose right parenthesis`\n\n> *Factors of 8 are;         1 and 8      can't sum to -6*\n\n> *                  2 and 4      can sum to -6 if  -2 and -4*\n\n> *So the numbers in the blank spaces are -2 and -4*\n\n`t squared minus 6 t plus 8 equals left parenthesis t plus box enclose negative 2 end enclose right parenthesis left parenthesis t plus box enclose negative 4 end enclose right parenthesis`\n\n$(t-2)(t-4)$\n\n**two numbers in the brackets that multiply to -6 [****1]**\n\n**two numbers in the brackets that sum to 8**** ****[****1]**",
+     "equations": [
+      {
+       "latex": "2mn+m^{2}-6n-3m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>m</mi><mi>n</mi><mo>+</mo><msup><mi>m</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>n</mi><mo>-</mo><mn>3</mn><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "2 m n plus m squared minus 6 n minus 3 m"
+      },
+      {
+       "latex": "4y^{2}-81",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>81</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "4 y squared minus 81"
+      },
+      {
+       "latex": "t^{2}-6t+8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>t</mi><mo>+</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "t squared minus 6 t plus 8"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "m(2n+m)-6n-3m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mi>m</mi><mo>)</mo><mo>-</mo><mn>6</mn><mi>n</mi><mo>-</mo><mn>3</mn><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m left parenthesis 2 n plus m right parenthesis minus 6 n minus 3 m"
+      },
+      {
+       "latex": "m(2n+m)-3(2n+m)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mi>m</mi><mo>)</mo><mo>-</mo><mn>3</mn><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mi>m</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "m left parenthesis 2 n plus m right parenthesis minus 3 left parenthesis 2 n plus m right parenthesis"
+      },
+      {
+       "latex": "(2n+m)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mi>m</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "left parenthesis 2 n plus m right parenthesis"
+      },
+      {
+       "latex": "(m-3)(2n+m)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">m</mi><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "bold left parenthesis bold italic m bold minus bold 3 bold right parenthesis bold left parenthesis bold 2 bold italic n bold plus bold italic m bold right parenthesis"
+      },
+      {
+       "latex": "a^{2}-b^{2}=(a+b)(a-b)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "a squared minus b squared equals left parenthesis a plus b right parenthesis left parenthesis a minus b right parenthesis"
+      },
+      {
+       "latex": "4y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "4 y squared"
+      },
+      {
+       "latex": "4y^{2}-81=(2y+9)(2y-9)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>81</mn><mo>=</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>9</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>9</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "4 y squared minus 81 equals left parenthesis 2 y plus 9 right parenthesis left parenthesis 2 y minus 9 right parenthesis"
+      },
+      {
+       "latex": "(2y+9)(2y-9)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">9</mn><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">(</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">9</mn><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "bold left parenthesis bold 2 bold italic y bold plus bold 9 bold right parenthesis bold left parenthesis bold 2 bold italic y bold minus bold 9 bold right parenthesis"
+      },
+      {
+       "latex": "(t-2)(t-4)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold left parenthesis bold italic t bold space bold minus bold space bold 2 bold right parenthesis bold left parenthesis bold italic t bold space bold minus bold space bold 4 bold right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_99ZdDwYjCzxVzZtN",
+   "set_slug": "calculator-questions",
+   "order": 19,
+   "difficulty": "very_hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_mF2cKZPJYSw67z5x",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "8300/2H",
+      "question_number": 25,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rt6wRVmbK5ZVkF3d"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Factorise  $3x^{2}+11x--20$",
+     "solution_md": "*Multiply 3 by -20 (the first and last numbers)*\n\n*3 × -20 = -60*\n\n*Find two numbers that multiply to give -60 and add to give 11 (the middle number)*\n\n*15 and -4*\n\n*Split the middle term into 15**x** and -4**x*\n\n$3x^{2}+15x-4x-20$\n\n*Factorise fully the first pair of terms and the second pair of terms *\n\n`3 x open parentheses x plus 5 close parentheses minus 4 open parentheses x plus 5 close parentheses`\n\n**or x(3x - 4) + 5(3x - 4) if terms written other way round**** [1] **\n\n*Factorise out the whole (x + 5) bracket as if it were one term, leaving 3**x** and -4 in their own bracket*\n\n`open parentheses x plus 5 close parentheses open parentheses 3 x minus 4 close parentheses`\n\n$(x+5)(3x-4)$ **[1]**",
+     "equations": [
+      {
+       "latex": "3x^{2}+11x--20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mo>+</mo><mo> </mo><mn>11</mn><mi>x</mi><mo> </mo><mo>–</mo><mo> </mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x to the power of 2 space end exponent plus space 11 x space – space 20"
+      },
+      {
+       "latex": "3x^{2}+15x-4x-20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>15</mn><mi>x</mi><mo>-</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x squared plus 15 x minus 4 x minus 20"
+      },
+      {
+       "latex": "(x+5)(3x-4)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">4</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8rzGxJGmf4RmV2Bf",
+   "set_slug": "calculator-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_j76xVwWwJGYz7txT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2020\tMay/June",
+      "number": "0580/41",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_S2dfVTzRhCh7pRzW"
+     ],
+     "part_tier": null,
+     "problem_md": "Expand and simplify  `open parentheses 3 x minus 5 y close parentheses open parentheses 2 x plus y close parentheses.`",
+     "solution_md": "> *Expanding (multiplying out the brackets) means every term in the first set of brackets will be multiplied by every term in the second set of brackets.*\n\n`table row cell open parentheses 3 x minus 5 y close parentheses open parentheses 2 x plus y close parentheses end cell equals cell 3 x cross times 2 x plus 3 x cross times y plus open parentheses negative 5 y close parentheses cross times 2 x plus open parentheses negative 5 y close parentheses cross times y end cell row blank equals cell 6 x squared plus 3 x y minus 10 x y minus 5 y squared end cell end table`\n\n**3 correct terms**** [1]**\n\n> *Now simplify by collecting like terms; *$3xy$* and *$-10xy$* are like terms.*\n\n`open parentheses 2 x minus 5 y close parentheses open parentheses 2 x plus y close parentheses equals 6 x squared minus 7 x y minus 5 y squared`\n\n$6x^{2}-7xy-5y^{2}$* ***[1]**",
+     "equations": [
+      {
+       "latex": "3xy",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x y"
+      },
+      {
+       "latex": "-10xy",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>10</mn><mi>x</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 10 x y"
+      },
+      {
+       "latex": "6x^{2}-7xy-5y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">7</mn><mi mathvariant=\"bold-italic\">x</mi><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn><msup><mi mathvariant=\"bold-italic\">y</mi><mn mathvariant=\"bold\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 6 bold italic x to the power of bold 2 bold minus bold 7 bold italic x bold italic y bold minus bold 5 bold italic y to the power of bold 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6KyhCHmQdWYZMdc2",
+   "set_slug": "calculator-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_hVSjPg29s7DjzBww",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "factorise",
+     "source_paper": {
+      "date": "2020 March",
+      "number": "0580/22",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qX5rMkysQfN7SK2M"
+     ],
+     "part_tier": null,
+     "problem_md": "Factorise completely\n\n$3x^{2}-12xy$",
+     "solution_md": "> *First look for a number that divides into both terms - i.e. a factor of both 3 and 12. *\n\n> *Then look for any letters that are factors of both terms - i.e. letter(s) appearing in both *$3x^{2}$* and *$-12xy$*. *\n\n> *These factors go outside the brackets and whatever is left goes inside the brackets.*\n\n`3 x squared minus 12 x y equals 3 x open parentheses x minus 4 y close parentheses`\n\n$3x(x-4y)$\n\n**Factorising 3 or **$x$** ****[1]**\n** ****Fully factorised ****[1]**",
+     "equations": [
+      {
+       "latex": "3x^{2}-12xy",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>12</mn><mi>x</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 x squared minus 12 x y"
+      },
+      {
+       "latex": "3x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 x squared"
+      },
+      {
+       "latex": "-12xy",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>12</mn><mi>x</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 12 x y"
+      },
+      {
+       "latex": "3x(x-4y)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mi>x</mi><mo>-</mo><mn>4</mn><mi>y</mi></mrow><mo stretchy=\"true\">)</mo></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 3 bold italic x stretchy left parenthesis x minus 4 y stretchy right parenthesis"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5Xd98D76SbSMH3TZ",
+   "set_slug": "calculator-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_xPV3ktYcxkrwwdbg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2018\tJune",
+      "number": "1MA1/3H",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W5bHgsHCyJ4jpkYz",
+      "spcpt_PzyS22R9jMg3y3sZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Expand and simplify `5 open parentheses p plus 3 close parentheses minus 2 open parentheses 1 minus 2 p close parentheses`",
+     "solution_md": "*Multiply the terms inside the first bracket by 5 and the second bracket by -2*\n\n`5 cross times p plus 5 cross times 3 minus 2 cross times 1 minus 2 cross times open parentheses negative 2 p close parentheses`\n\n*Simplify the terms (by multiplying their parts together and being careful with signs)*\n\n$5p+15-2+4p$\n\n**first or second pair of terms correct** **[1]**\n\n*Collect the **p** terms*\n\n$5p+4p=9p$\n\n*Collect the numbers* * *\n\n$15-2=13$\n\n> *Write down the final answer*\n\n$9p+13$ **[1]**",
+     "equations": [
+      {
+       "latex": "5p+15-2+4p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>p</mi><mo>+</mo><mn>15</mn><mo>-</mo><mn>2</mn><mo>+</mo><mn>4</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 p plus 15 minus 2 plus 4 p"
+      },
+      {
+       "latex": "5p+4p=9p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>p</mi><mo>+</mo><mn>4</mn><mi>p</mi><mo>=</mo><mn>9</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 p plus 4 p equals 9 p"
+      },
+      {
+       "latex": "15-2=13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>-</mo><mn>2</mn><mo>=</mo><mn>13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 minus 2 equals 13"
+      },
+      {
+       "latex": "9p+13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">9</mn><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 9 bold italic p bold plus bold 13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4NtptR4SPH5ddhZ2",
+   "set_slug": "calculator-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_3dgxtb82yrbddJ2T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "simplify",
+     "source_paper": {
+      "date": "2019\tMay/June",
+      "number": "0580/42",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_S2dfVTzRhCh7pRzW"
+     ],
+     "part_tier": null,
+     "problem_md": "Expand and simplify $(x+7)(x-3).$",
+     "solution_md": "> *Multiply *$x$* by *`open parentheses x minus 3 close parentheses`* and then multiply *$7$* by *`open parentheses x minus 3 close parentheses`\n\n$x^{2}-3x+7x-21$\n\n**At least 3 correct terms**** [1]**\n\n> *Simplify*\n\n$x^{2}+4x-21$ **[1]**",
+     "equations": [
+      {
+       "latex": "(x+7)(x-3).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo> </mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "left parenthesis x plus 7 right parenthesis left parenthesis x minus 3 right parenthesis space."
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>7</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7"
+      },
+      {
+       "latex": "x^{2}-3x+7x-21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mi>x</mi><mo>-</mo><mn>21</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x squared minus 3 x plus 7 x minus 21"
+      },
+      {
+       "latex": "x^{2}+4x-21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">21</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x to the power of bold 2 bold plus bold 4 bold italic x bold minus bold 21"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
