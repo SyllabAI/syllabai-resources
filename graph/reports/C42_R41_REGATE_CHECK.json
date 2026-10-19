@@ -1,0 +1,64 @@
+{
+  "schema": "c42-r41-regate-check/1.0",
+  "task": "T-C42",
+  "stage": "r41-regate-check",
+  "round": "R41",
+  "round_start": "6af7ee483531889a550c6d0de4096b233919c1af",
+  "audited_head": "6af7ee483531889a550c6d0de4096b233919c1af",
+  "store_sha256_16": "14d04dfebb71b849",
+  "checks": [
+    {
+      "check": "X1_input_pins",
+      "ok": true,
+      "detail": "store sha16 14d04dfebb71b849 == the R40 landing; census 917 = 832 anchored (828 HV) + 85 worklist; covered 133; the R36 amendment 0+1+0 (the FIRST exclusion-ONLY) + the R39 amendment 0+2+0 (the SECOND — the R38 defect inventory's 2-row DEMOTE batch) + the R33 amendment 3+0+0 + the R30 amendment 5+3+3; fresh 4; promotions sha 9bad739bd79e5899 == the R5 record's pin"
+    },
+    {
+      "check": "X2_anti_forgery",
+      "ok": true,
+      "detail": "the 828-row HV set == the R5 file AMENDED by the R26+R30+R33 amendments + the R36 exclusion (the FIRST exclusion-ONLY — the DEMOTE row excluded into the worklist at the projected re-key 8254a7fc75ad2946, SUGGESTED, no promotion) + the R39 exclusion (the SECOND — the R38 defect inventory's 2-row batch at the projected re-keys 09f012e4cabef0cc / 80d783fb13def4e2) + the 3 ADDED sign-offs, by chunk identity; the 3 R33 movers re-pinned at 1.8D; provenance tiers RULE_DERIVED everywhere"
+    },
+    {
+      "check": "X3_sampling_agreement",
+      "ok": true,
+      "detail": "seed a9101480f756bd75 re-derives (re-keyed vs the R38 draw by the R39 DEMOTE pair's exit from the anchored set); strata {'exact': 462, 'partial': 238, 'none': 132}; sample 463 = ceil(20%) exact + 100% low-assurance (the C40 convention)"
+    },
+    {
+      "check": "X4_verdict_record_agreement",
+      "ok": true,
+      "detail": "the emitted record == the fill record's totals (463 rows; exact/partial/none 93/238/132); both-tier signatures present on every row; the 4 fresh rows match the fresh yaml verbatim (4 CONFIRM + 0 REJECT)"
+    },
+    {
+      "check": "X5_mechanical_replay",
+      "ok": true,
+      "detail": "all 463 sampled rows re-verified against a fresh re-chunking (quote-in-chunk + sha/heading/identity); 0 fails"
+    },
+    {
+      "check": "X6_source_chain_integrity",
+      "ok": true,
+      "detail": "every r38-carried row triple-identical in the R38 record (the most-recent-record rule head); every r35-carried row triple-identical in the R35 record; every r32-carried row triple-identical in the R32 record; the r33-section-override rows verified against the R33 map; the r30-section-override rows verified against the R30 map; the r30-signoff rows verified against the amendment's added block"
+    },
+    {
+      "check": "X7_both_tier_discipline",
+      "ok": true,
+      "detail": "DIVERGENT 0 across 463 sampled rows ({'STORE_HIGHER': 415, 'LEDGER_FOUNDATION': 48}); every LEDGER_FOUNDATION row sits on a code present in the C30 ledger"
+    },
+    {
+      "check": "X8_part_b_surfaces",
+      "ok": true,
+      "detail": "the worklist census == 85 decisions (10 demote-landed + 18 cleared + 57 residual + 0 uncovered-SP, the R29 decisions carried); the 10 DEMOTE rows (R10 + R14 + R18 + R26 + the R30 batch of 3 + the R36 single-row at the projected re-key 8254a7fc75ad2946 + the R39 pair at the projected re-keys 09f012e4cabef0cc / 80d783fb13def4e2) verified SUGGESTED, no promotion blocks"
+    },
+    {
+      "check": "X9_gate_arithmetic_zero_movement",
+      "ok": true,
+      "detail": "per-class precisions recompute == recorded (exact 97.8% / partial 100.0% / none 100.0%); the 90% gate holds; the store bytes UNCHANGED from the R40 landing (zero movement — the re-gate lane is store-free)"
+    },
+    {
+      "check": "X10_protected_commit_state",
+      "ok": true,
+      "detail": "86 protected paths byte-identical 6af7ee48 -> HEAD (the R40 store + the R30/R31/R32/R33/R34/R35/R36/R37/R38/R39/R40 carriers + records + the prior verdict records + the resolution + the registry + the ledger); pre-commit: delta vs 6af7ee48 inside the declared 8-file R41 footprint"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "result": "ALL PASS"
+}
