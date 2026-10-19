@@ -1,0 +1,67 @@
+---
+created: 2026-09-10T17:10:08 (UTC +06:00)
+tags: []
+source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-3-gases-in-the-atmosphere/2-3-3-combustion/
+author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-3-gases-in-the-atmosphere
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.11
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: You need to be able to describe the combustion reactions of magnesium, hydrogen and sulfur
+      rationale: Exactly the three named elements with observations, symbol equations and oxidation classification.
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+---
+
+# Combustion | Edexcel IGCSE Chemistry Revision Notes 2017
+
+> ## Excerpt
+> Revision notes on Combustion for the Edexcel IGCSE Chemistry syllabus, written by the Chemistry experts at Save My Exams.
+
+---
+## Combustion
+
+### What is combustion?
+
+-   **Combustion** is the scientific word for burning
+    
+-   All combustion reactions involve a chemical change in which oxygen reacts with elements or compounds to produce **oxides**
+    
+-   Combustion reactions give out heat, so they will always be **exothermic** reactions
+    
+-   You need to be able to describe the combustion reactions of magnesium, hydrogen and sulfur
+    
+
+#### The combustion reactions of Mg, H<sub>2 </sub> & S
+
+| **Element** | **Observation during combustion** | **Symbol equation** |
+|-----------|--------------------------------------------------------------|-----------------------------|
+| Magnesium | Intense white flame
+
+White powder produced (magnesium oxide) | 2Mg (s) + O2 (g) → 2MgO (s) |
+| Hydrogen | Exothermic
+
+Water is produced | 2H2 (g) + O2 (g) → 2H2O (g) |
+| Sulfur | Blue flame
+
+Colourless, poisonous gas produced | S (s) + O2 (g) → SO2 (g) |
+
+#### Examiner Tips and Tricks
+
+Combustion reactions can also be classified as oxidation reactions.
+
+Was this revision note helpful?

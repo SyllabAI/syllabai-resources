@@ -1,0 +1,123 @@
+---
+created: 2026-09-10T17:05:32 (UTC +06:00)
+tags: []
+source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-9-electrolysis/1-9-1-explaining-conductivity/
+author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-i
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-9-electrolysis
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.55C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Most covalent compounds do not conduct electricity as they have no freely moving charged
+        particles to carry the current
+      rationale: Covalent compounds as insulators (solid/liquid/gas) — the 1.55C content.
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+  - code: 4CH1-1.56C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ionic compounds can conduct electricity in the molten state or in solution
+      rationale: Ionic conductivity limited to molten/aqueous states with the ion-mobility explanation.
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+  - code: 4CH1-1.57C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Anions are negatively charged ions
+      rationale: 'Cations and anions section defines both terms (quoted: anions row).'
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+---
+
+# Electronic conductivity - IGCSE Chemistry Revision Notes
+
+> ## Excerpt
+> These notes explain electronic conductivity in ionic compounds, focussing on how ions conduct electricity in molten and aqueous states for IGCSE Chemistry.
+
+---
+## Conductivity of covalent compounds
+
+-   Electric current is the flow of **charged particles**
+    
+-   This usually refers to electrons, but it could also mean the flow of ions
+    
+-   Most covalent compounds do not conduct electricity as they have no freely moving charged particles to carry the current
+    
+-   They act as **insulators** and have many applications which rely on that property
+    
+-   Covalent substances are used as electrical insulators in solid, liquid and gaseous form
+    
+    -   For example, sulfur hexafluoride is a dense gas used to insulate electrical transformers
+        
+    -   Silicone oils and liquid hydrocarbons are also used in electrical equipment
+        
+-   Common insulators include the plastic coating around household electrical wiring:
+    
+
+#### Covalent compounds are used as insulating materials
+
+![Diagram of an insulated electrical wire](../../assets/Electrical-Wire-Insulated.png)
+
+_**Covalent compounds are unable to conduct due to having no freely moving charged particles**_
+
+## Conductivity of ionic compounds
+
+-   Ionic compounds can conduct electricity in the **molten** state or in **solution**
+    
+-   This is because they have ions that can move and carry charge
+    
+-   They cannot conduct electricity in the solid state as the ions are in fixed positions within the lattice and are unable to move
+    
+    ![Molten ionic substances conduct electricity, IGCSE & GCSE Chemistry revision notes](../../assets/Molten-ionic-substances-conduct-electricity-1.png)
+    
+
+_**Molten or aqueous particles move and conduct electricity but cannot in solid form**_
+
+## Cations and anions
+
+-   **Anions** are negatively charged ions 
+    
+    -   E.g. Cl<sup>-</sup>, O<sup>2-</sup>, SO<sub>4</sub><sup>2-</sup>
+        
+-   **Cations** are positively charged ions
+    
+    -   E.g. K<sup>+</sup>, Mg<sup>2+</sup>, H<sup>+</sup>
+        
+
+-   During electrolysis the electrons move from the anode towards the cathode
+    
+-   Cations within the electrolyte migrate towards the negatively charged electrode which is the cathode
+    
+-   Anions within the electrolyte migrate towards the positively charged electrode which is the anode
+    
+
+#### Diagram showing the direction of movement of electrons and ions in the electrolysis of NaCl
+
+![Electrolysis apparatus set up ](../../assets/Transfer-of-Charge.png)
+
+_**Cations are attracted to the cathode and anions to the anode due to their opposite charges**_
+
+#### Examiner Tips and Tricks
+
+When a metal conducts it is the **electrons** that are moving through the metal. When a salt solution conducts it is the **ions** in the solution that move towards the electrodes while carrying the electrons.
+
+Was this revision note helpful?
