@@ -82,7 +82,8 @@ def main() -> int:
         mod[p] = st.strip().split()[-1]
     expect = {f"spec-links/{l}.json": "M" for l in LANES}
     expect["spec-links/manifest.json"] = "M"
-    if not mod:
+    clean_form = not mod
+    if clean_form:
         clean_ok = all(
             (REPO / p).read_bytes() ==
             subprocess.run(["git", "-C", str(REPO), "show", f"HEAD:{p}"],
@@ -153,11 +154,16 @@ def main() -> int:
               and rjm["state"] == "ACCEPTED"
               and all(k in rjm for k in PAYLOAD_KEYS))
     keys = list(m_new.keys())
-    ok(man_ok and keys[-1] == "cie_rejoin_gate"
-       and keys[:-1] == list(m_old.keys()),
-       "RJG5 manifest: rows/legacy blocks deep-equal, cie_rejoin promoted, "
-       "cie_rejoin_gate appended LAST (append-only key order)",
-       f"keys={keys}")
+    if clean_form:
+        ok(m_new == m_old and keys[-1] == "cie_rejoin_gate",
+           "RJG5 committed-clean: manifest byte-identical to HEAD (audit "
+           "form), cie_rejoin_gate still LAST", f"keys={keys}")
+    else:
+        ok(man_ok and keys[-1] == "cie_rejoin_gate"
+           and keys[:-1] == list(m_old.keys()),
+           "RJG5 manifest: rows/legacy blocks deep-equal, cie_rejoin "
+           "promoted, cie_rejoin_gate appended LAST (append-only key "
+           "order)", f"keys={keys}")
 
     # ---- RJG6 verifier reproduction (fresh re-run, byte-identical VERIFY)
     v_before = sha(VERIFY_OUT.read_bytes())
