@@ -1,0 +1,158 @@
+---
+note_id: "rn_D75Bg6yqQcbCsy3M"
+title: "Energy Stores & Transfers"
+source: https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces-and-energy/1-7-energy-work-and-power/1-7-1-energy-stores-and-transfers
+path: 1-motion-forces-and-energy/1-7-energy-work-and-power/1-7-1-energy-stores-and-transfers
+updated_at: "2026-09-07T12:41:58.756Z"
+spec_point_ids: ["spcpt_jMTgFj29FmzNY4FQ", "spcpt_rtZN57rysfDX3Kxf"]
+spec_point_codes: []
+guided_study: true
+---
+
+# Energy Stores & Transfers
+
+## Energy stores
+
+> **Spec point** — `spcpt_jMTgFj29FmzNY4FQ` · State that energy may be stored as kinetic, gravitational potential, chemical, elastic (strain), nuclear, electrostatic and internal (thermal)
+
+## Energy stores
+
+- **Energy **is a property of an object that is **stored **or **transferred**
+- Energy must be transferred to an object to [perform work on](https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces-and-energy/1-7-energy-work-and-power/1-7-5-work-done/?_ai=internal-linking) or **heat** **up** that object
+- Energy is measured in units of **joules (J)**
+
+### Systems
+
+- Energy will often be described as part of an energy **system**
+- In physics, a system is defined as:
+
+**An object or group of objects**
+
+- In physics, defining the system is a way of **narrowing **the parameters to **focus** only on what is relevant to the situation being observed
+- A system could be as **large **as the whole Universe, or as **small **as an apple sitting on a table
+
+- When nothing is changing within a system, no energy is transferred
+- When there is a **change **to a system, energy is **transferred**
+
+- If an apple sits on a table and that table is suddenly removed, the apple will fall
+- As the apple falls, energy is transferred
+
+#### Example of a system
+
+![An apple resting on a table, and the same apple falling once the table is removed, showing energy transferred from its gravitational potential store to its kinetic store.](../../../assets/beaf216e9b0a-apple-table-system.png)
+
+*In physics, a system is an object or group of objects being observed or studied. Energy is transferred when a change happens within a system*
+
+### Types of energy store
+
+- Energy is stored in objects in different **energy stores**
+
+#### Table of energy stores
+
+| **Energy Store** | **Description** |
+|---|---|
+| Kinetic | Moving objects have energy in their kinetic store |
+| Gravitational potential | Objects gain energy in their [gravitational potential store](https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces-and-energy/1-7-energy-work-and-power/1-7-3-gravitational-potential-energy/?_ai=internal-linking) when they are lifted through a gravitational field |
+| Chemical | Chemical reactions transfer energy into or away from a substance's chemical store |
+| Elastic (strain) | Objects have energy in their elastic potential store if they are stretched, squashed or bent |
+| Nuclear | Atomic nuclei release energy from their nuclear store during nuclear reactions |
+| Electrostatic | Objects with charge (like electrons and protons) interacting with one another have energy in their electrostatic store |
+| Internal (thermal) | All objects have energy in their thermal stores; the hotter the object, the more energy it has in this store |
+
+> **Exam Hint**
+> These are the seven types of energy store you need to learn. There are **no** electrical, light or sound stores of energy; they are considered as transfer pathways.
+
+## Energy transfers
+
+> **Spec point** — `spcpt_rtZN57rysfDX3Kxf` · Describe how energy is transferred between stores during events and processes, including examples of transfer by forces (mechanical work done), electrical currents (electrical work done), heating, and by electromagnetic, sound and other waves.
+
+## Energy transfers
+
+- Energy is **transferred** between stores through different energy **transfer pathways**
+
+### Energy transfer pathways
+
+- The energy transfer pathways are:
+
+  - Mechanical work done
+  - Electrical work done
+  - Heating
+  - Electromagnetic, sound and other waves
+
+#### Table of energy transfer pathways
+
+| **Transfer Pathway** | **Description** |
+|---|---|
+| Mechanical work done | When a force acts on an object (e.g. pulling, pushing, stretching, squashing) |
+| Electrical work done | A charge moving through a potential difference (e.g. current) |
+| Heating (by particles) | Energy is transferred from a hotter object to a colder one (e.g. conduction) |
+| (Heating by) waves | Energy transferred by electromagnetic waves (e.g. visible light), sound and other waves |
+
+- An example of an energy transfer by heating is a hot coffee heating up cold hands
+
+#### Energy transfer by heating
+
+![A person holding a hot mug of coffee, with energy transferred by heating from the coffee to the mug and then to their cold hands.](../../../assets/b4384975fb40-1-thermal-energy-transfer-new.png)
+
+*Energy is transferred by heating from the hot coffee to the mug, to the cold hands*
+
+> **Worked Example**
+> Describe the energy transfers in the following scenarios:
+> 
+> a) A battery powering a torch [2]
+> 
+> b) A falling object [2]
+> 
+> **Answer:**
+> 
+> **Part a)**
+> 
+> **Step 1: Identify the store that energy is being transferred away from**
+> 
+> - For a battery powering a torch
+> - The system is defined as the battery and the torch
+> - Therefore, the energy began in the chemical store of the cells of the battery **[1 mark]**
+> 
+> **Step 2: Identify the store that energy is transferred to**
+> 
+> - When the circuit is closed, the bulb lights up
+> - Therefore, energy is transferred to the thermal store of the bulb
+> - Energy is then transferred usefully from the bulb to the surroundings by light and wastefully by heat, but this is not described in the parameters of the system
+> 
+> **Step 3: Identify the transfer pathway**
+> 
+> - Energy is transferred by the flow of charge around the circuit
+> - Therefore, the transfer pathway is electrical work done
+> 
+> **Step 4: State the energy transfer**
+> 
+> - Energy is transferred **electrically** from the **chemical store **of the battery to the** thermal store **of the bulb
+> - Energy is transferred usefully from the thermal store of the bulb to the surroundings by light and wastefully by heat **[1 mark]**
+> 
+> **Part b)**
+> 
+> **Step 1: Identify the store that energy is being transferred away from**
+> 
+> - For a falling object
+> - In order to fall, the object must have been raised to a height
+> - Therefore, it began with energy in its gravitational potential store **[1 mark]**
+> 
+> **Step 2: Identify the store that energy is transferred to**
+> 
+> - As the object falls, it is moving
+> - Therefore, energy is being transferred to its kinetic store
+> 
+> **Step 3: Identify the transfer pathway**
+> 
+> - For an object to fall, a resultant force must act on it,
+> - That force is its weight, and it acts over a distance (the height of the fall)
+> - Therefore, the transfer pathway is mechanical work done
+> 
+> **Step 4: State the energy transfer**
+> 
+> - Energy is transferred from the** gravitational potential store** to the **kinetic store** of the object via a **mechanical work done** transfer pathway **[1 mark]**
+
+> **Exam Hint**
+> Make sure to name both energy stores and the energy transfer pathway between them.
+> 
+> If you follow any process back far enough, you would get many energy transfers taking place. For example, an electric kettle heating water. The relevant energy transfer is from the thermal store of the kettle to the thermal store of the water, with some energy dissipated to the surroundings. But you could take it all the way back to how the electricity was generated in the first place. This is beyond the scope of the question. Defining the system gives you a starting point and a stopping point for the energy transfers you need to consider.

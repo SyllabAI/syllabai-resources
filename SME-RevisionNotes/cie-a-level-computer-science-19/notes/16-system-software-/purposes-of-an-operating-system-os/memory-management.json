@@ -1,0 +1,190 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Yj7mKGX6qwCg6Rws",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/16-system-software-/purposes-of-an-operating-system-os/memory-management",
+ "title": "Memory Management",
+ "page_title": "Memory Management | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "16-system-software-",
+   "purposes-of-an-operating-system-os",
+   "memory-management"
+  ],
+  "section": "16-system-software-",
+  "topic": "purposes-of-an-operating-system-os",
+  "leaf": "memory-management"
+ },
+ "titles": {
+  "section": "16. System Software",
+  "topic": "Purposes of an Operating System (OS)",
+  "subtopic": "Memory Management"
+ },
+ "updated_at": "2025-06-04T08:28:24.398Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_4BtYyv8hgvms2CFG",
+  "spcpt_75hmrd2yg9xz7V8W",
+  "spcpt_ztV4XcxXGcRJ9KRK",
+  "spcpt_y7VT64ymwJ6m4GnB"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 25,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_4BtYyv8hgvms2CFG",
+   "name": "Memory management",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Memory management"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is memory management?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Memory management is a **fundamental** role of the operating system, dealing with the **allocation** and **deallocation** of the computer's primary memory\n- When a user opens an application, its **data is loaded from storage** into active memory so that it can run **smoothly**\n- When a user opens a file from the file system, e.g. word document, the CPU loads this **file data,** as well as **application data, **into the primary memory\n- Primary memory is a **limited resource** in the system, so it needs **careful management**\n- **Benefits **of memory management are:\n\n  - Efficient allocation of memory **enables multitasking**, allowing multiple programs to run at once\n  - Memory management **maintains security**, it does not let programs access memory reserved for other programs\n- Memory management is made **more efficient** through 3 techniques:\n\n  - **Paging**\n  - **Segmentation**\n  - **Virtual memory**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/memory-management-alevel.png",
+   "file": "assets/bcbe150c6047-memory-management-alevel.png",
+   "alt": "Links between different types of memory and memory management",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Links between different types of memory***"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The main benefit of memory management is to make computer systems run smoothly. Most users don’t realise that as they effortlessly move between applications, it’s made possible because the OS is rapidly reallocating memory depending on the task that the user is completing.\n- Make sure you can name one benefit and one drawback for each memory management method in this revision note."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_75hmrd2yg9xz7V8W",
+   "name": "Paging",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Paging"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is paging?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In A Level Computer Science, paging is a method of **chunking** the primary memory **into equal-sized blocks**\n- Data stored in memory will lead to the smooth running of applications\n- When an application is launched, data will be moved from the hard disk into Pages for faster access\n- As users move between applications, memory is dynamically allocated\n- Pages will be taken away from applications not in active use and granted to applications that are in active use\n- Paging can lead to **internal fragmentation**\n- If a 200KB file is divided into four 64KB Pages, the last Page would have 56KB of unused space\n\n  - **First 64KB** → Full page (64KB used, 0KB unused)\n  - **Second 64KB** → Full page (64KB used, 0KB unused)\n  - **Third 64KB** → Full page (64KB used, 0KB unused)\n  - **Fourth 64KB **→ Partial page (**8KB** used, **56KB unused)**\n- Unused space in a Page is wasteful because other unrelated data cannot be stored in this Page\n- Over time, more pockets of wasted space will exist across the memory; this process is called **internal fragmentation**\n- The image below shows a single 64KB Page with 4KB of unoccupied space\n- The box below this shows many Pages, each with varying sizes of internal fragments"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/paging-internal-fragmentation-alevel.png",
+   "file": "assets/b478dcb7bb28-paging-internal-fragmentation-alevel.png",
+   "alt": "Internal fragmentation",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Internal fragmentation***"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ztV4XcxXGcRJ9KRK",
+   "name": "Segmentation",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Segmentation"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is segmentation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Segmentation is a method of **chunking** memory into **blocks that correspond to different types of data** needed by an application\n- A video editing application may have a Segment for video data, audio data and special effects\n- Segments are **not all the same size**; they are sized depending on their allocated data\n- Segmentation is space-efficient due to only allocating space depending on the amount an application needs\n- Segmentation can lead to **external fragmentation**\n- As Segments fill up the memory, physical gaps reduce the maximum size of new Segments that can be allocated\n- Below (left) shows different application data assigned to a Segment\n- The arrangement of data in the segment **becomes more fragmented over time** because as blocks are taken away it's not possible to guarantee a new block will occupy the same amount of space\n- Below (right) shows a defragmented version of the Segment to highlight the total unused space"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/segmentation-external-fragmentation-alevel.png",
+   "file": "assets/255554ca88cc-segmentation-external-fragmentation-alevel.png",
+   "alt": "segmentation-external-fragmentation-alevel",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***External fragmentation***"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_y7VT64ymwJ6m4GnB",
+   "name": "Virtual memory",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Virtual memory"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is virtual memory?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If a computer is **running low** on primary memory, it can make secondary storage act as an 'extension' of the main memory\n- The operating system can **offload data** from the primary memory into virtual memory\n- Virtual memory creates **an illusion of a larger memory** and enables applications to continue to multitask\n- However, accessing data in virtual memory is **considerably slower** compared to RAM\n- ***Solid-state drives*** are faster than traditional hard-disk drives, but **neither are as fast** as RAM\n- **Over-reliance** on virtual memory can lead to **performance issues**"
+  },
+  {
+   "type": "table",
+   "md": "| **Memory Management Technique** | **Description** | **Example** | **Benefits** | **Drawbacks** |\n|---|---|---|---|---|\n| **Paging** | Divides memory into fixed-sized blocks (pages) | A process needing 200KB of memory is divided into four 64KB pages, leaving 8KB unused in the last page | Facilitates efficient memory management and enables the use of virtual memory | This can lead to internal fragmentation |\n| **Segmentation** | Divides memory into variable-sized segments based on logical parts of a process | In a video editing application, different segments may be created for video data, audio data, effects, and UI elements | Allows for intuitive and efficient memory access | This can result in external fragmentation |\n| **Virtual Memory** | Uses hard drive space as an 'extension' of RAM | When memory-intensive applications exceed the available RAM, the OS moves less frequently accessed pages to the hard disk | Allows more extensive programs to be run and facilitates effective multitasking | Slower to access than physical memory, which degrades performance if overused |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Virtual memory, paging and segmentation are used in memory management.\n\n(a) Explain what is meant by virtual memory.**[3]**\n\n(b) State one difference between paging and segmentation in the way memory is divided.**[1]**\n\n**Final answer:** **Answers**\n\n**(a)**\n\n- Disk / secondary storage is used to extend the RAM / memory available **[1 mark]**\n- … so the CPU appears to be able to access more memory space than the available RAM **[1 mark]**\n- Only the data in use needs to be in main memory so data can be swapped between RAM and virtual memory as necessary **[1 mark]**\n- Virtual memory is created temporarily **[1 mark]**\n\n**(b)**\n\n- Paging allows the memory to be divided into fixed size blocks and Segmentation divides the memory into variable sized blocks  **[1 mark]**\n- The operating system divides the memory into pages, the compiler is responsible for calculating the segment size  **[1 mark]**\n- Access times for paging is faster than for segmentation **[1 mark]**"
+  }
+ ]
+}

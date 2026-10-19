@@ -1,0 +1,376 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_D55kxbpm9Gf64snz",
+ "course_slug": "cie-igcse-physics-23",
+ "url": "https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces-and-energy/1-2-motion/1-2-5-calculating-acceleration-from-speed-time-graphs",
+ "title": "Calculating Acceleration from Speed-Time Graphs",
+ "page_title": "Calculating acceleration from speed-time graphs - CIE IGCSE Physics Revision Notes",
+ "path": {
+  "segs": [
+   "1-motion-forces-and-energy",
+   "1-2-motion",
+   "1-2-5-calculating-acceleration-from-speed-time-graphs"
+  ],
+  "section": "1-motion-forces-and-energy",
+  "topic": "1-2-motion",
+  "leaf": "1-2-5-calculating-acceleration-from-speed-time-graphs"
+ },
+ "titles": {
+  "section": "1. Motion, Forces & Energy",
+  "topic": "Motion",
+  "subtopic": "Calculating Acceleration from Speed-Time Graphs"
+ },
+ "updated_at": "2026-09-07T12:18:22.375Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_CZGkW2hZTgWnyVBF",
+   "name": "Leander Oates",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_pWgzhpXnjyBMdShj",
+   "name": "Tim",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_bVk9vkW75FS464pD",
+   "rnl_gQKcV5DmDjwYkgrf",
+   "rnl_gDQKdPDBhXtcF9Dt"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_d25dVch4NmXGDHtg",
+  "spcpt_Rg74tCrrqgmHNTzF"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\mathrm{gradient}=\\frac{\\Deltay}{\\Deltax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>gradient</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>y</mi></mrow><mrow><mo>∆</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "gradient space equals space fraction numerator increment y over denominator increment x end fraction"
+  },
+  {
+   "latex": "\\Deltay",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "increment y"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "\\Deltax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "increment x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a=\\frac{\\Deltav}{\\Deltat}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>v</mi></mrow><mrow><mo>∆</mo><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space a space equals space fraction numerator increment v over denominator increment t end fraction"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "\\Deltav",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "increment v"
+  },
+  {
+   "latex": "\\Deltat",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "increment t"
+  },
+  {
+   "latex": "\\mathrm{gradient}=\\frac{\\Deltay}{\\Deltax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>gradient</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>y</mi></mrow><mrow><mo>∆</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "gradient space equals space fraction numerator increment y over denominator increment x end fraction"
+  },
+  {
+   "latex": "a=\\frac{\\Deltay}{\\Deltax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>y</mi></mrow><mrow><mo>∆</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a space equals space fraction numerator increment y over denominator increment x end fraction"
+  },
+  {
+   "latex": "a=\\frac{5}{5}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>5</mn><mn>5</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a space equals space 5 over 5"
+  },
+  {
+   "latex": "a=1m/s^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><msup><mi mathvariant=\"normal\">s</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a space equals space 1 space straight m divided by straight s squared"
+  },
+  {
+   "latex": "\\Deltay",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>y</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "increment y space"
+  },
+  {
+   "latex": "\\Deltax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>x</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "increment x space"
+  },
+  {
+   "latex": "a=\\frac{\\Deltay}{\\Deltax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>y</mi></mrow><mrow><mo>∆</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a space equals space fraction numerator increment y over denominator increment x end fraction"
+  },
+  {
+   "latex": "a=\\frac{58-20}{9.75-0.75}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>58</mn><mo> </mo><mo>-</mo><mo> </mo><mn>20</mn></mrow><mrow><mn>9</mn><mo>.</mo><mn>75</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>75</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a space equals space fraction numerator 58 space minus space 20 over denominator 9.75 space minus space 0.75 end fraction"
+  },
+  {
+   "latex": "a=\\frac{38}{9.0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>=</mo><mfrac><mn>38</mn><mrow><mn>9</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a space equals fraction numerator 38 over denominator 9.0 end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 44,
+  "figures": 6,
+  "worked_examples": 2,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 18
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_d25dVch4NmXGDHtg",
+   "name": "Interpreting speed-time graphs",
+   "definition": "Determine from given data or the shape of a speed–time graph when an object is moving with:\n   (a) constant acceleration\n   (b) changing acceleration"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Interpreting speed-time graphs"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Extended tier only**"
+  },
+  {
+   "type": "bullets",
+   "md": "- When interpreting speed-time graphs, the shape of the graph can show:\n\n  - constant acceleration\n  - changing acceleration"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **gradient **of a speed-time graph shows the **acceleration **of a moving object\n\n  - The gradient is **positive **if the object is accelerating (speed increases with time)\n  - The gradient is **negative **if the object is decelerating (speed decreases with time)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Interpreting constant positive acceleration on a speed-time graph"
+  },
+  {
+   "type": "bullets",
+   "md": "- When the acceleration is **constant **and **non-zero**:\n\n  - the graph is a **straight line**\n  - velocity is **increasing **at a **constant **rate, i.e. speed changes by the same amount in equal intervals of time"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Constant positive acceleration on a speed-time graph"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/10/cie-1-2-5-constant-acceleration-graph.png",
+   "file": "assets/8bdc0bbd57bd-cie-1-2-5-constant-acceleration-graph.png",
+   "alt": "Speed–time graph showing speed rising linearly from 0 to 30 m/s over 120 s, with 5 m/s increase every 20 s.",
+   "caption": "A speed-time graph for an object with constant positive acceleration. Its speed increases by 5 m/s every 20 s, showing that the rate at which the speed increases is constant."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Interpreting increasing positive acceleration on a speed-time graph"
+  },
+  {
+   "type": "bullets",
+   "md": "- When the acceleration is **increasing**:\n\n  - the graph is a **curve **\n  - velocity is **increasing **at an **increasing **rate, i.e. the speed changes by the same amount in increasingly shorter time intervals"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Increasing positive acceleration on a speed-time graph"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/10/cie-1-2-5-increasing-acceleration-graph.png",
+   "file": "assets/46cc9550556a-cie-1-2-5-increasing-acceleration-graph.png",
+   "alt": "Speed–time graph with a curved line showing increasing acceleration. Speed gains of 5 m/s occur in progressively shorter time intervals.",
+   "caption": "A speed-time graph for an object with changing positive acceleration. The time taken for the speed to increase by 5 m/s decreases over time, showing that acceleration is increasing."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Interpreting decreasing positive acceleration on a speed-time graph"
+  },
+  {
+   "type": "bullets",
+   "md": "- When the acceleration is **decreasing**:\n\n  - the graph is a **curve**\n  - velocity is **increasing **at a **decreasing **rate, i.e. the speed changes by the same amount in increasingly longer time intervals"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Decreasing positive acceleration on a speed-time graph"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/new-1-2-5-decreasing-acceleration.png",
+   "file": "assets/bd992525d077-new-1-2-5-decreasing-acceleration.png",
+   "alt": "Speed–time graph with a curved line showing decreasing acceleration before levelling off. Speed gains of 5 m/s occur in progressively longer times.",
+   "caption": "A speed-time graph for an object with changing positive acceleration. The time taken for the speed to increase by 5 m/s increases over time, showing that acceleration is decreasing."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Interpreting decreasing negative acceleration on a speed-time graph"
+  },
+  {
+   "type": "bullets",
+   "md": "- When the deceleration is **decreasing:**\n\n  - the graph is a **curve**\n  - the velocity is **decreasing **at a **decreasing **rate, i.e. the speed changes by the same amount in increasingly longer intervals of time"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Decreasing negative acceleration on a speed-time graph"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/05/new-1-2-5-decreasing-deceleration.png",
+   "file": "assets/212053930cf4-new-1-2-5-decreasing-deceleration.png",
+   "alt": "Speed–time graph with a curved line showing decreasing deceleration before levelling off. Speed losses of 5 m/s from 40 m/s to 5 m/s occur in progressively longer times.",
+   "caption": "A speed-time graph for an object with changing negative acceleration. The time taken for the speed to decrease by 5 m/s increases over time, showing that deceleration is decreasing."
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "In CIE IGCSE Physics, interpreting graphs is a **required **skill\n\n- For your exam, you are also expected to calculate the **gradient **of a graph and the area under a graph\n- Finding the **area under a graph** is covered in the revision note [Speed-time graphs](https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces--energy/1-2-motion/1-2-4-speed-time-graphs/)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Rg74tCrrqgmHNTzF",
+   "name": "Calculating acceleration",
+   "definition": "Calculate acceleration from the gradient of a speed–time graph"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating acceleration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Extended Tier Only"
+  },
+  {
+   "type": "bullets",
+   "md": "- The [acceleration of an object](https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces-and-energy/1-2-motion/1-2-2-acceleration/?_ai=internal-linking) can be calculated from the **gradient** of a speed-time graph"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Finding the gradient when acceleration is constant"
+  },
+  {
+   "type": "bullets",
+   "md": "- When acceleration is **constant**, the speed-time graph will be a **straight line**\n- The gradient of a straight line can be found using:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$\\mathrm{gradient}=\\frac{\\Deltay}{\\Deltax}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Where:\n\n  - $\\Deltay$ = change in $y$ (speed) values\n  - $\\Deltax$ = change in $x$ (time) values\n- Therefore, the gradient is equal to:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$a=\\frac{\\Deltav}{\\Deltat}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Where:\n\n  - $a$ = acceleration, measured in metres per second squared (m/s<sup>2</sup>)\n  - $\\Deltav$ = change in speed, measured in metres per second (m/s)\n  - $\\Deltat$ = change in time, measured in seconds (s)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/08/gradient-speed-time-graphs.png",
+   "file": "assets/a8785ff64983-gradient-speed-time-graphs.png",
+   "alt": "Speed–time graph with a straight sloped line; horizontal change Δx and vertical change Δy marked to show gradient equals Δy divided by Δx.",
+   "caption": "The gradient of a speed-time graph for constant acceleration can be found using Δy divided by Δx"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Finding the gradient when acceleration is changing"
+  },
+  {
+   "type": "bullets",
+   "md": "- When acceleration is **changing**, the speed-time graph will be a **curve**\n- The **gradient **of a point on a **curve** can be found by drawing a **tangent **to the curve\n\n  - A tangent to the curve is a **straight line** drawn to match the **gradient **of the curve at a **specific point**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "A tangent to the curve"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/06/2-3-properties-of-motion-graphs-tangent-to-a-curve_edexcel-al-physics-rn.png",
+   "file": "assets/e170c42fbb1a-2-3-properties-of-motion-graphs-tangent-to-a-cur.png",
+   "alt": "Graph showing a curve, a vertical line from the x‑axis meeting the curve, and a straight tangent at that point, labelled to illustrate gradient at that point.",
+   "caption": "The value of the gradient at a single point on a curve can be determined by finding the gradient of the tangent to that point "
+  },
+  {
+   "type": "bullets",
+   "md": "- The tangent provides a gradient that is representative of the gradient at a **specific point** on the curve\n- The gradient of the tangent can be found using:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$\\mathrm{gradient}=\\frac{\\Deltay}{\\Deltax}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- The value of the gradient at a specific point on the curve represents the acceleration of the object **at that moment**\n\n  - This is called **instantaneous acceleration**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A cyclist is training for a cycling tournament.\n\nThe speed-time graph below shows the cyclist's motion as they cycle along a flat, straight road.\n\n![Speed-time graph with speed in metres per second on the vertical axis and time in seconds on the horizontal axis, showing five lines. Line A shows the cyclist stationary for 5 seconds. Line B shows the cyclist constantly accelerating from 0 to 5 m/s between 5 s and 10 s. Line C shows the cyclist maintaining a constant 5 m/s speed between 10 s and 13 s. Line D shows the cyclist constantly accelerating from 5 m/s to 10 m/s between 13 s and 15 s. Line E shows the cyclist maintaining a constant 10 m/s speed between 15 s and 20 s.](assets/6d7dc6ecb771-speed-time-gradient-we1.png)\n\n(a) In which section (A, B, C, D, or E) of the speed-time graph is the cyclist's acceleration the largest? [1]\n\n(b) Calculate the cyclist's acceleration between 5 and 10 seconds. [3]\n\n**Answer:**\n\n**Part (a)**\n\n**Step 1:** **Recall that the slope of a speed-time graph represents the magnitude of acceleration**\n\n- The slope of a speed-time graph indicates the magnitude of acceleration\n- Therefore, the only sections of the graph where the cyclist is accelerating are sections B and D\n- Sections A, C and E are flat; in other words, the cyclist is moving at a constant speed (therefore, not accelerating)\n\n**Step 2: Identify the section with the steepest slope**\n\n- Section D of the graph has the steepest slope\n- Hence, the largest acceleration is shown in section D **[1 mark]**\n\n**Part (b)**\n\n**Step 1: Recall that the gradient of a speed-time graph gives the acceleration**\n\n- Calculating the gradient of a slope on a speed-time graph gives the acceleration for that time period **[1 mark]**\n\n**Step 2: Draw a large gradient triangle at the appropriate section of the graph**\n\n- A gradient triangle is drawn for the time period between 5 and 10 seconds **[1 mark]**\n\n![Speed-time graph with speed in metres per second on the vertical axis and time in seconds on the horizontal axis, showing five lines. Line B shows the cyclist constantly accelerating from 0 to 5 m/s between 5 s and 10 s. Red Δx and Δy arrows are illustrating the gradient of line B.](assets/895239a0cc1a-speed-time-gradient-we2.png)\n\n**Step 3: Calculate the size of the gradient and state this as the acceleration**\n\n- The acceleration is given by the gradient, which can be calculated using:\n\n$a=\\frac{\\Deltay}{\\Deltax}$\n\n$a=\\frac{5}{5}$\n\n$a=1m/s^{2}$\n\n- Therefore, the cyclist accelerated at 1 m/s<sup>2</sup> between 5 and 10 seconds **[1 mark]**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Use the **entire straight-line section**, where possible, to calculate the gradient. Examiners tend to award credit if they see a **large gradient triangle** used.\n\nRemember to actually draw the lines directly on the graph itself, particularly when the question asks you to **use the graph** to calculate the acceleration."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A skydiver jumps from a plane and reaches terminal velocity after 15 seconds. A  speed-time graph of their motion is shown below.\n\nUse the graph to find the acceleration at 5 seconds.\n\n![Speed–time graph of a car accelerating from 0 to 50 m/s over 10 s, where the curve rises steeply then flattens off.](assets/7c2146ea2c34-speed-time-curve-we.png)\n\n[3]\n\n**Answer:**\n\n**Step 1: Draw a tangent to the curve at the point where t = 5 s ****[1 mark]**\n\n![Speed–time graph with black curved line and green straight line, showing changing speed from 0–10 seconds, with labelled points at 5 s, 20 m/s and 60 m/s\nSpeed–time graph of a car accelerating from 0 to 50 m/s over 10 s, where the black curve rises steeply then flattens off. Green tangent to black curve is drawn at t = 5 s, which has end values of 9.75 s, 58 m/s and 0.75 s, 20 m/s.](assets/ee0216564348-speed-time-curve-we2.png)\n\n**Step 2: Calculate the gradient of the tangent**\n\n- Change in y (speed): $\\Deltay$\n- Change in x (time): $\\Deltax$\n\n$a=\\frac{\\Deltay}{\\Deltax}$\n\n$a=\\frac{58-20}{9.75-0.75}$ **[1 mark]**\n\n$a=\\frac{38}{9.0}$\n\n`a space equals space 4.2 space straight m divided by straight s squared space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "The CIE IGCSE Physics specification includes knowing how to calculate the gradient of a tangent to the curve in the maths skills section. This means that you could be asked to demonstrate this skill in any topic. The skills in this revision note are applicable to any type of graph. For more information on interpreting graphs in Physics, see the article [Graph skills in GCSE Physics](https://www.savemyexams.com/learning-hub/exam-guides/graph-skills-in-gcse-physics/)"
+  }
+ ]
+}

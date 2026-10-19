@@ -1,0 +1,136 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_vtwNnsdqt4F5JpK6",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/5-software-skills/database-management/database-structure",
+ "title": "Database Structure",
+ "page_title": "ICT Database Notes Pdf - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "5-software-skills",
+   "database-management",
+   "database-structure"
+  ],
+  "section": "5-software-skills",
+  "topic": "database-management",
+  "leaf": "database-structure"
+ },
+ "titles": {
+  "section": "5. Software Skills",
+  "topic": "Database Management",
+  "subtopic": "Database Structure"
+ },
+ "updated_at": "2024-06-24T15:13:18.627Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_kmBx9hjHVr8zqYyf"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 17,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_kmBx9hjHVr8zqYyf",
+   "name": "Database structure",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Database structure"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the structure of a database?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A** **database is an **organised collection of data**\n- A database is made up of either **one or multiple tables** which are made up of **fields **and **records **to organise how it stores data\n- It allows **easy storage, retrieval, and management** of information\n- A database is useful when working with **large amounts of data**\n- A database can be stored on remote servers so **multiple users** can **access it at the same time**, useful for online systems"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Fields, records and tables"
+  },
+  {
+   "type": "bullets",
+   "md": "- A field is a **single piece** of data in a table (**column**)"
+  },
+  {
+   "type": "table",
+   "md": "| **car_id** | **make** | **model** | **colour** | **price** |\n|---|---|---|---|---|\n| 1 | Peugeot | 2008 | Red | 24950 |\n| 2 | Mazda | MX5 | Blue | 17995 |\n| 3 | Citroen | DS4 | Black | 21450 |\n| 4 | Ford | Puma | White | 19500 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- An example of a field in the cars table is '**make**'\n- A record is **complete set of fields** on a single entity in a table (**row**)"
+  },
+  {
+   "type": "table",
+   "md": "| **car_id** | **make** | **model** | **colour** | **price** |\n|---|---|---|---|---|\n| 1 | Peugeot | 2008 | Red | 24950 |\n| 2 | Mazda | MX5 | Blue | 17995 |\n| 3 | Citroen | DS4 | Black | 21450 |\n| 4 | Ford | Puma | White | 19500 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- An example of a record in the cars table is '**2, Mazda, MX5, Blue, 17995**'\n- A table is **a complete set of records** about the same subject/topic in a database"
+  },
+  {
+   "type": "table",
+   "md": "| **car_id** | **make** | **model** | **colour** | **price** |\n|---|---|---|---|---|\n| 1 | Peugeot | 2008 | Red | 24950 |\n| 2 | Mazda | MX5 | Blue | 17995 |\n| 3 | Citroen | DS4 | Black | 21450 |\n| 4 | Ford | Puma | White | 19500 |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Relational databases"
+  },
+  {
+   "type": "bullets",
+   "md": "- A relational database is one that **organises data into multiple tables **\n- It uses **keys **to connect related data which:\n\n  - **reduces data redundancy**\n  - makes **efficient **use of storage\n  - is **easier **to maintain"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Primary & foreign keys"
+  },
+  {
+   "type": "bullets",
+   "md": "- A primary key is a **unique field** that can be used to **identify a record** in a **table**\n- order_id is the **primary key** for the orders **table**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/visualising-a-database.png",
+   "file": "assets/b68cac14ef1d-visualising-a-database.png",
+   "alt": "visualising-a-database",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- customer_id is the **primary key** for the customers **table**\n- A foreign key is a **field in a table** that refers to the **primary key in another table**.\n- A foreign key is used to **link tables** and **create relationships**\n- In the **orders **table customer_id is a **foreign key** - it links an order back to the customer that made the order in the **customer **table"
+  }
+ ]
+}

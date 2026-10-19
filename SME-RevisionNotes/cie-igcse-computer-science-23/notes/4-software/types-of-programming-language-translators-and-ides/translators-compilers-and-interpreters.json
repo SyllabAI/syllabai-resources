@@ -1,0 +1,110 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_tMWTqWNMZxb3kHdp",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/4-software/types-of-programming-language-translators-and-ides/translators-compilers-and-interpreters",
+ "title": "Translators, Compilers & Interpreters",
+ "page_title": "Translators in Computer Science - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "4-software",
+   "types-of-programming-language-translators-and-ides",
+   "translators-compilers-and-interpreters"
+  ],
+  "section": "4-software",
+  "topic": "types-of-programming-language-translators-and-ides",
+  "leaf": "translators-compilers-and-interpreters"
+ },
+ "titles": {
+  "section": "4. Software",
+  "topic": "Types of Programming Language, Translators & Integrated Development Environments (IDEs)",
+  "subtopic": "Translators, Compilers & Interpreters"
+ },
+ "updated_at": "2026-04-30T14:36:42.228Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ckpPNg4bVX7ntq5S"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 11,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ckpPNg4bVX7ntq5S",
+   "name": "Translators, Compilers & Interpreters",
+   "definition": "\"3 Describe the operation of a compiler and an\ninterpreter, including how high-level language is\ntranslated by each and how errors are reported\n4 Explain the advantages and disadvantages of a\ncompiler and an interpreter\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Translators, Compilers & Interpreters"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a translator?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A translator is a program that **translates **program **source code **into **machine code** so that it can be executed directly by a processor\n- **Low-level languages** such as** assembly code** are translated using an **assembler**\n- **High-level languages** such as **Python **are translated using a **compiler **or **interpreter**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a compiler?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A compiler translates high-level languages into machine code **all in one go**\n- Compilers are generally used when **a program is finished** and has been checked for syntax errors\n- Compiled code can be **distributed (creates an executable) **and run **without the need for translation software**\n- If compiled code contains any errors, after fixing, it **will need re-compiling**"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| Speed of execution | Can be memory intensive |\n| Optimises the code | Difficult to debug |\n| Original source code will not be seen | Changes mean it must be recompiled |\n|   | It is designed solely for one specific processor |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an interpreter?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An interpreter translates high-level languages into machine code **one line at a time**\n- Each line is executed after translation and if **any errors are found**, the **process stops**\n- Interpreters are generally used when a program** is being written** in the development stage\n- Interpreted code is more **difficult to distribute** as **translation software is needed for it to run**"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| Stops when it finds a specific **syntax error** in the code | Slower execution |\n| Easier to debug | Every time the program is run it has to be translated |\n| Require less RAM to process the code | Executed as is, no optimisation |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A computer program is written in a high-level programming language.\n\n(a) State why the computer needs to translate the code before it is executed.**[1]**\n\n(b) Either a compiler or an interpreter can translate the code. Describe two differences between how a compiler and an interpreter would translate the code.**[2]**\n\n**How to answer this question**\n\n- (a) what type of language does a computer understand?\n- (b) the keyword is 'how'\n\n**Answer**\n\n**(a)**\n\n- **To convert it to binary/machine code**\n- **The processor can only understand machine code**\n\n**(b)**\n\n- **Compiler translates all the code in one go...**\n- **...whereas an interpreter translates one line at a time**\n- **Compiler creates an executable...**\n- **...whereas an interpreter does not/executes one line at a time**\n- **Compiler reports an error at the end...**\n- **...whereas an interpreter stops when it finds an error**"
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_yzrnPJD7bsS8d54j",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/object-oriented-programming/methods-oop",
+ "title": "Methods (OOP)",
+ "page_title": "Methods (OOP) | Cambridge (CIE) A Level Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "object-oriented-programming",
+   "methods-oop"
+  ],
+  "section": "20-further-programming-",
+  "topic": "object-oriented-programming",
+  "leaf": "methods-oop"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Object-Oriented Programming",
+  "subtopic": "Methods (OOP)"
+ },
+ "updated_at": "2025-06-09T12:38:17.829Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_nxt9SD2gf3Z5xGsn",
+  "spcpt_Cv3J4Pp483HfxyS7"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 23,
+  "figures": 2,
+  "worked_examples": 0,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_nxt9SD2gf3Z5xGsn",
+   "name": "Methods (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Methods (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a method?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Methods** are fundamental in **object-oriented programming (OOP)** and are functions associated with ***objects*** or ***classes*** that define the behaviour and actions that objects can perform\n- There are two main types of methods:\n\n  - **A function**\n  \n    - A function performs a task and returns a value\n  - **A procedure**\n  \n    - A procedure performs a task buts does nor return a value\n- For example, there are many different types of aircraft which all differ in design, but all require a ‘take off’ and ‘landing’ method\n- An example of an aircraft **class** with both ***attributes*** and **methods** is shown below:"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/aircraftclass.png",
+   "file": "assets/b88e5cceb1e7-aircraftclass.png",
+   "alt": "Example class for \"aircraft\" containing several methods",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Example class for \"aircraft\" containing several methods***"
+  },
+  {
+   "type": "bullets",
+   "md": "- Each **object** that is created from the aircraft class will have:\n\n  - A manufacturer value to determine the company that created the aircraft\n  - A model name for the type of aircraft\n  - A value for passenger capacity to determine how many people it can carry\n  - A speed value to determine its maximum speed\n- Any** objects** that are created for the aircraft class also have access to the following Methods:\n\n  - A take off method to get the plane airborne\n  - A land method to land the plane safely\n  - A bank left method to allow the plane to turn to the left\n  - A bank right method to allow the plane to tur to the right\n- As you can imagine, for an aircraft there would be many more methods that could be implemented such emergency landing and altitude cruising actions\n- Once **objects** have been created, they can use the **methods** from within their** class** by using the dot (.) notation\n- As these methods are associated with objects, they are called instance methods\n- For example if an **object** has been created as below:\n\n  - jumboJet = new aircraft (“Boeing”, ”747”, 416, 547)\n- It can use methods by doing the following:\n\n  - Objectname.Methodname:\n  - For example:    jumboJet.Takeoff()"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- In some OOP languages there are both instance methods and static methods\n\n  - Instance methods\n  \n    - Instance methods are associated with individual instances (objects) of a class. They operate on the specific data and properties of an object (see above on the Jumbo Jet object example)\n  - Static methods\n  \n    - Static methods are associated with a class itself and can be called without creating an instance (object) of the class"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Public and private methods"
+  },
+  {
+   "type": "bullets",
+   "md": "- When declaring **methods**, it is important to determine how they can be accessed:"
+  },
+  {
+   "type": "table",
+   "md": "| **Public Methods** | **Private Methods** |\n|---|---|\n| Accessible and can be ***invoked*** by any code within the same class or from any external classes | Private methods are only accessible within the same class and cannot be** **invoked by external code or other classes |\n| Changes to public methods may have an impact on other parts of the codebase, so they should be carefully designed, documented, and backward compatible whenever possible | Changes to private methods have a localized impact since they are only used internally within the class, providing flexibility to modify or refactor them without affecting other parts of the program |\n| Public methods are used when you want to provide access to certain functionalities or behaviours of an object or class to other parts of your program | Private methods are used when you have internal implementation details that should not be accessed or used by external code. They are meant to be used only within the class itself for organizing and managing the code internally |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If a method does not specify the keyword public or private then its default value is set to public."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Cv3J4Pp483HfxyS7",
+   "name": "Programming methods (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Programming methods (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you program a method?"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Pseudocode"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/methods-pseudo.png",
+   "file": "assets/9be7dd1cac52-methods-pseudo.png",
+   "alt": "pseudocode for creating methods",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Pseudocode for creating methods***"
+  },
+  {
+   "type": "paragraph",
+   "md": "` `"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Java"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Python"
+  },
+  {
+   "type": "bullets",
+   "md": "- In Python, there is no explicit **access modifier** for methods like \"private\" in Java\n- By convention, methods with a single leading underscore _ are considered private and should not be accessed directly from outside the class"
+  },
+  {
+   "type": "bullets",
+   "md": "- It's important to note that even though the method is marked as private, it can still be accessed and **invoked** from outside the class\n- However, as a rule, other developers should treat it as private and avoid accessing it directly"
+  }
+ ]
+}

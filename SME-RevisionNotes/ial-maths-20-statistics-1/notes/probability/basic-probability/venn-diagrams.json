@@ -1,0 +1,225 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_qJZ9dbSYyKZK88Rq",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/probability/basic-probability/venn-diagrams",
+ "title": "Venn Diagrams",
+ "page_title": "Venn Diagrams | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "probability",
+   "basic-probability",
+   "venn-diagrams"
+  ],
+  "section": "probability",
+  "topic": "basic-probability",
+  "leaf": "venn-diagrams"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Basic Probability",
+  "subtopic": "Venn Diagrams"
+ },
+ "updated_at": "2026-07-02T08:19:38.250Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_dkWVxn4csQ5crksq",
+   "rnl_ZDbdMr5nY4kYGm4D",
+   "rnl_7TWNgvKyBcrdzP8Q",
+   "rnl_zCpd5hbNGWmkgtjK"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_YrhS9dcy42xvf5Qf"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "S",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>S</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S"
+  },
+  {
+   "latex": "S,U,ξ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>S</mi><mo>,</mo><mo> </mo><mi>U</mi><mo>,</mo><mo> </mo><mi>ξ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S comma space U comma space xi"
+  },
+  {
+   "latex": "E",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"script\">E</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "calligraphic E"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "B"
+  },
+  {
+   "latex": "P(\\mathrm{not}A)=1-P(A)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>not</mi><mo> </mo><mi>A</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo mathvariant=\"italic\">(</mo><mi>A</mi><mo mathvariant=\"italic\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis not space A right parenthesis equals 1 minus P italic left parenthesis A italic right parenthesis"
+  },
+  {
+   "latex": "P(A\\mathrm{and}B)=P(A)\\timesP(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo> </mo><mi>and</mi><mo> </mo><mi>B</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>×</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A space and space B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "P(A\\mathrm{or}B)=P(A)+P(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\"> </mo><mi mathsize=\"16px\">or</mi><mo mathsize=\"16px\"> </mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">+</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A space or space B right parenthesis equals straight P left parenthesis A right parenthesis plus straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "N",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "N"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "N",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "N"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "N",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "N"
+  }
+ ],
+ "stats": {
+  "blocks": 15,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 16
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_YrhS9dcy42xvf5Qf",
+   "name": "Venn Diagrams",
+   "definition": null,
+   "video_id": "833571234"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Venn diagrams"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a Venn diagram?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Venn diagram is a way to illustrate ***events*** from an ***experiment*** and are particularly useful when there is an overlap (or lack of) between possible ***outcomes***\n- A Venn diagram consists of\n\n  - a **rectangle** representing the **sample** **space**\n  - a **bubble** (usually drawn as a circle/ellipse/oval) for each **event**\n  \n    - Bubbles may or may not overlap depending on which **outcomes** are shared between **events**\n    - Bubble(s) is not a technical term but we like it!"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I interpret a Venn diagram?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The rectangle is usually labelled with an $S$ – as it represents the **sample** **space **(all possible **outcomes** from the **experiment)**\n\n  - It is often referred to as the Universal Set and is commonly labelled with $S,U,ξ$ (the Greek lower case letter Xi) or $E$(Kunstler script font) There is no standardised symbol used for this purpose\n- Bubbles are labelled with their event name (*A, B, etc)*\n- The numbers inside a Venn diagram (there should be one in each region) will represent either a **frequency** or a **probability**\n\n  - In the case of probabilities being shown, all values should total 1"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-2-fig1-basic-venn.png",
+   "file": "assets/c4230655980b-3-1-2-fig1-basic-venn.png",
+   "alt": "3-1-2-fig1-basic-venn",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What do the different regions mean on a Venn diagram?"
+  },
+  {
+   "type": "bullets",
+   "md": "- This will depend on how many events there are and how the outcomes overlap\n- Venn diagrams show ‘**AND’** and ‘**OR’** statements easily\n- Venn diagrams also instantly show *mutually exclusive* events\n\n  - ***Independence*** can be deduced from the probabilities involved"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-2-fig2-various-venns-part-1.png",
+   "file": "assets/e3f065e78f2f-3-1-2-fig2-various-venns-part-1.png",
+   "alt": "3-1-2-fig2-various-venns-part-1",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-2-fig2-various-venns-part-2.png",
+   "file": "assets/60d6392fa6cf-3-1-2-fig2-various-venns-part-2.png",
+   "alt": "3-1-2-fig2-various-venns-part-2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find probabilities from Venn diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Draw, or add to a given Venn diagram, filling in as many values as possible from the information provided in the question\n- It is usually helpful to work from the centre outwards\n\n  - i.e. fill in **intersections** (overlaps) first\n  - This is particularly crucial with Venn diagrams with three events\n  \n    - the **intersection** of events $A$ and $B$  will include the intersection of events *A*, *B*  and *C*\n    - a question would make it clear if a given frequency or probability is only for events *A* and *B* , and ***not ****C*\n- Any **frequencies** or **probabilities** **not** **given** may be able to be **calculated** from those that are\n\n  - Use the results from Basic Probability to deduce missing frequencies or probabilities and answer questions\n  \n    - $P(\\mathrm{not}A)=1-P(A)$\n    \n      - For **independent** events, $P(A\\mathrm{and}B)=P(A)\\timesP(B)$\n      - For **mutually** **exclusive** events, $P(A\\mathrm{or}B)=P(A)+P(B)$\n- Check a completed Venn diagram that the **frequencies** **sum** to the **total** involved or that **probabilities** **sum** to **1**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "40 people were surveyed regarding which games consoles they owned.\n\n8 people said they owned a Playstation 5 ($P$ ) and an Xbox Series X ($X$ ); 11 people said they owned a Playstation 5 ($P$) and a Nintendo Switch ($N$); 7 people said they owned an Xbox Series X ($X$) and a Nintendo Switch ($N$).\n\n4 people said they owned none of these consoles whilst 2 people said they owned all 3.\n\nOf those people that owned only one games console, twice as many owned a Nintendo Switch as a Playstation 5 and half as many owned an Xbox Series X as a Playstation 5.\n\n(a) Draw a complete Venn diagram to illustrate the information given above.\n\n(b) One of the 40 people is chosen at random. Find the probability that this person\n\n(i) owns all three consoles,\n\n(ii) owns exactly two consoles,\n\n(iii) doesn’t own a Playstation 5.\n\n(c) Determine if the events $X$ and $N$ are independent.\n\n**Answer:**\n\n![3-1-2-fig3-we-solution-part-1](assets/a22a09022cda-3-1-2-fig3-we-solution-part-1.png)\n\n![3-1-2-fig3-we-solution-part-2](assets/e8b131d1eb89-3-1-2-fig3-we-solution-part-2.png)\n\n![3-1-2-fig3-we-solution-part-3](assets/b13de1a672ec-3-1-2-fig3-we-solution-part-3.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Always draw the box in a Venn diagram; it represents all possible outcomes of the experiment so is a crucial part of the diagram, the bubbles merely represent the events we are particularly interested in\n- In complicated problems it can be helpful to draw a “mini-Venn” diagram for part of a question and shade/label the regions of the diagram that are relevant to that part"
+  }
+ ]
+}

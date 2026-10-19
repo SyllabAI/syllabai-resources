@@ -1,0 +1,155 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_mfDmX7BYbxc9wdSF",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/9-algorithm-design-and-problem-solving-/algorithms/algorithm-basics",
+ "title": "Algorithm Basics",
+ "page_title": "Algorithm Basics | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "9-algorithm-design-and-problem-solving-",
+   "algorithms",
+   "algorithm-basics"
+  ],
+  "section": "9-algorithm-design-and-problem-solving-",
+  "topic": "algorithms",
+  "leaf": "algorithm-basics"
+ },
+ "titles": {
+  "section": "9. Algorithm Design & Problem-solving",
+  "topic": "Algorithms",
+  "subtopic": "Algorithm Basics"
+ },
+ "updated_at": "2026-02-19T08:44:59.839Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_N8XKYrJwZSkNn4CF",
+  "spcpt_K5x493txHdkbQvJt"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_N8XKYrJwZSkNn4CF",
+   "name": "Definition of algorithm",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Definition of algorithm"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is an algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An algorithm is a **solution to a problem** expressed as a **sequence of defined steps**\n- Methods of writing an algorithm before attempting to program a solution include:\n\n  - **Structured English**\n  - **Pseudocode**\n  - **Flowcharts**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Structured English"
+  },
+  {
+   "type": "bullets",
+   "md": "- Structured English is a **human-readable method** for describing algorithms using a combination of **natural English language** and **programming logic**\n\n  - It uses clear English phrases to describe each step\n  - Logic structures like **IF...THEN**, **REPEAT**, and **WHILE** may appear, but without strict syntax rules\n  - Often used in the early planning stages before converting to pseudocode"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Pseudocode"
+  },
+  {
+   "type": "bullets",
+   "md": "- Pseudocode is a **precise, structured, and language-independent way** of describing an algorithm that resembles a programming language\n- It **follows specific exam-board-defined syntax**\n\n  - It includes formal elements like `IF`, `THEN`, `ELSE`, `WHILE`, `REPEAT`, `DECLARE`, and `←` for assignment\n  - Students must follow **CIE’s pseudocode format** in exams"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Flowcharts"
+  },
+  {
+   "type": "bullets",
+   "md": "- Flowcharts are a **visual tool** that uses **shapes to represent different functions** to **describe an algorithm**\n- Used to **visualise the flow of control** in a system\n- Standard symbols include:\n\n  - **Oval** for Start/End\n  - **Parallelogram** for Input/Output\n  - **Rectangle** for Processes\n  - **Diamond** for Decisions\n- Arrows show the **sequence of operations**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2026/02/2801-2026-02-19-0ek-kleki.png",
+   "file": "assets/4be5cc718133-2801-2026-02-19-0ek-kleki.png",
+   "alt": "Flowchart symbols: oval for start/stop, parallelogram for input/output, rectangle for processes, and diamond for decisions with yes/no branches.",
+   "caption": ""
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_K5x493txHdkbQvJt",
+   "name": "Identifier tables",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Identifier tables"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an identifier table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An identifier table is used when writing **pseudocode** to keep track of all the **identifier names** used in an algorithm\n- An **identifier** is the **name given to a variable, constant, array, procedure**, or any other named element in the pseudocode"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why use an identifier table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- It helps you stay **organised** when designing an algorithm\n- Ensures **consistent naming**\n- Makes it easier to understand what each identifier stores or does\n- Useful in **exam questions** when you are asked to declare variables clearly"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Identifier naming rules"
+  },
+  {
+   "type": "bullets",
+   "md": "- Must start with a **letter** (A–Z or a–z)\n- Can include **letters**, **digits (0–9)**, and **underscores (_)**\n- **Accented characters** and **symbols** are not allowed\n- Identifiers are **case sensitive** (e.g. `Total` and `total` are **NOT** treated the same)"
+  },
+  {
+   "type": "table",
+   "md": "| **Identifier** | **Description** |\n|---|---|\n| `StudentName` | Stores a student’s full name |\n| `TestScore` | Holds a test score value |\n| `MAX_SCORE` | Maximum score allowed |\n| `FormList` | Stores names in a form group |"
+  }
+ ]
+}

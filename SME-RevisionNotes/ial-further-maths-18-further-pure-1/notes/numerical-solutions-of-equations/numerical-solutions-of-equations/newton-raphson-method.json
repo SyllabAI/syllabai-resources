@@ -1,0 +1,282 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_R2xX85Wf2ywFM8hq",
+ "course_slug": "ial-further-maths-18-further-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/revision-notes/numerical-solutions-of-equations/numerical-solutions-of-equations/newton-raphson-method",
+ "title": "Newton-Raphson Method",
+ "page_title": "Newton-Raphson Method | Edexcel International A Level (IAL) Further Maths Revision Notes 2018",
+ "path": {
+  "segs": [
+   "numerical-solutions-of-equations",
+   "numerical-solutions-of-equations",
+   "newton-raphson-method"
+  ],
+  "section": "numerical-solutions-of-equations",
+  "topic": "numerical-solutions-of-equations",
+  "leaf": "newton-raphson-method"
+ },
+ "titles": {
+  "section": "Numerical Solutions of Equations",
+  "topic": "Numerical Solutions of Equations",
+  "subtopic": "Newton-Raphson Method"
+ },
+ "updated_at": "2024-04-08T07:46:27.518Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fm8GnX9jBsbsyZFJ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x=α",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi>&#945;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x equals alpha"
+  },
+  {
+   "latex": "x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0"
+  },
+  {
+   "latex": "x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1"
+  },
+  {
+   "latex": "x_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 2"
+  },
+  {
+   "latex": "x_{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 3"
+  },
+  {
+   "latex": "x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0"
+  },
+  {
+   "latex": "x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1"
+  },
+  {
+   "latex": "x_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 2"
+  },
+  {
+   "latex": "x=x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x equals x subscript 0"
+  },
+  {
+   "latex": "x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1"
+  },
+  {
+   "latex": "x=x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x equals x subscript 1"
+  },
+  {
+   "latex": "x_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 2"
+  },
+  {
+   "latex": "x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0"
+  },
+  {
+   "latex": "x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0"
+  },
+  {
+   "latex": "x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1"
+  },
+  {
+   "latex": "x_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 2"
+  },
+  {
+   "latex": "x_{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 3"
+  },
+  {
+   "latex": "x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0"
+  },
+  {
+   "latex": "2x^{4}-4x^{3}=-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>-</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "2 x to the power of 4 minus 4 x cubed equals negative 1"
+  },
+  {
+   "latex": "x_{0}=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0 equals 2"
+  },
+  {
+   "latex": "2x^{4}-4x^{3}+1=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>-</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "2 x to the power of 4 minus 4 x cubed plus 1 equals 0"
+  },
+  {
+   "latex": "-1+4x^{3}-2x^{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "negative 1 plus 4 x cubed minus 2 x to the power of 4"
+  },
+  {
+   "latex": "x_{0}=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0 equals 2"
+  },
+  {
+   "latex": "x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1"
+  },
+  {
+   "latex": "x_{1}=1.9375",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>9375</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1 equals 1.9375"
+  },
+  {
+   "latex": "\\frac{31}{16}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>31</mn><mn>16</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "31 over 16"
+  },
+  {
+   "latex": "x_{0}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0"
+  },
+  {
+   "latex": "x_{0}=\\frac{1+2}{2}=1.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 0 equals fraction numerator 1 plus 2 over denominator 2 end fraction equals 1.5"
+  },
+  {
+   "latex": "x=1.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x equals 1.5"
+  },
+  {
+   "latex": "x_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x subscript 1"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 30
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_fm8GnX9jBsbsyZFJ",
+   "name": "Newton-Raphson Method",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Newton-Raphson Method"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I apply the Newton-Raphson method?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **Newton-Raphson** **method **is a process for finding **roots **of equations\n\n  - Equations must be **rearranged **into the form `straight f open parentheses x close parentheses equals 0`\n- If $x=α$ is a** root** of the equation `straight f open parentheses x close parentheses equals 0`, then you need to** choose**  $x_{0}$, the **initial** (first) **approximation**\n\n  - This is usual **given **in the question (and is a value** near **to the root)\n- You can then find successive **approximations**  $x_{1}$, $x_{2}$, $x_{3}$, ...  using the **Newton-Raphson formula**:\n\n  - `x subscript n plus 1 end subscript equals x subscript n minus fraction numerator straight f open parentheses x subscript n close parentheses over denominator straight f apostrophe open parentheses x subscript n close parentheses end fraction`\n  - This is an *iterative formula*\n  - `straight f apostrophe open parentheses x close parentheses` is the derivative of `straight f open parentheses x close parentheses`\n  \n    - Work this out beforehand\n- **Increasing **the **number **of approximations improves the **accuracy**\n\n  - The Newton-Raphson method usually *converges* quickly to the root compared to other methods"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "The formula for the Newton-Raphson method is given in the Formulae Booklet."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I apply the Newton-Raphson method on my calculator?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If your calculator has a** recursion** function\n\n  - Input the **formula**, **start value** and **number of steps**\n  - The output is a **table** showing all the approximations\n- Alternatively:\n\n  - Type in the value of $x_{0}$ and press =\n  \n    - This **stores **it in the \"Ans\" (answer) button\n  - Type  `Ans minus fraction numerator straight f open parentheses Ans close parentheses over denominator straight f apostrophe open parentheses Ans close parentheses end fraction` into your calculator and press =\n  \n    - This finds $x_{1}$\n  - Without pressing any other button, press = again\n  \n    - This finds $x_{2}$\n  - Repeatedly pressing = gives further approximations\n  \n    - The more you press it, the closer to the root it becomes"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How does the Newton-Raphson method work geometrically?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The method works by drawing a **tangent** to the curve `y equals straight f open parentheses x close parentheses` at $x=x_{0}$\n\n  - then finding where the tangent **cuts the *****x*****-axis**\n  - This *x*-intercept is the **new **approximation, $x_{1}$\n- This process is then **repeated**\n\n  - Draw the tangent to `y equals straight f open parentheses x close parentheses` at $x=x_{1}$\n  - Find its  *x*-intercept and call it $x_{2}$\n- The approximations get closer and closer to the** root**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/10.1.4-Newton-Raphson-Diagram-1.png",
+   "file": "assets/600383a2cc9e-10-1-4-newton-raphson-diagram-1.png",
+   "alt": "A geometric explanation as to how the Newton Raphson Method works",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I know if the Newton-Raphson method will fail?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Newton-Raphson method** fails** if the **initial value**, $x_{0}$, satisfies `straight f apostrophe open parentheses x subscript 0 close parentheses equals 0`\n\n  - Algebraically, this is because the formula `x subscript n plus 1 end subscript equals x subscript n minus fraction numerator straight f open parentheses x subscript n close parentheses over denominator straight f apostrophe open parentheses x subscript n close parentheses end fraction` cannot **divide by zero**\n  - Geometrically, this is because $x_{0}$ is at a stationary point on the curve `y equals straight f open parentheses x close parentheses`\n  \n    - A** tangent** drawn at a **stationary point** is** horizontal **\n    - This will **never intersect** the *x*-axis\n- The Newton-Raphson method also fails if the sequence $x_{1}$, $x_{2}$, $x_{3}$, ... *diverges*\n\n  - This can happen if $x_{0}$ is chosen:\n  \n    - **too far away** from the root\n    - or at a point where the **gradient **is **very small**\n- The Newton-Raphson method is sometimes avoided when `straight f open parentheses x close parentheses` is too tricky to differentiate"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/10.1.4-Newton-Raphson-Diagram-3.png",
+   "file": "assets/4dd28edf8028-10-1-4-newton-raphson-diagram-3.png",
+   "alt": "A diagram showing cases when the Newton Rahpson method fails",
+   "caption": ""
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The equation $2x^{4}-4x^{3}=-1$ has a solution in the interval `open square brackets 1 comma space 2 close square brackets`.\n\n(a)  Using $x_{0}=2$ as the first approximation to the  solution, apply the Newton-Raphson method to find a second approximation.\n\n> *Rearrange the formula into the form *`straight f open parentheses x close parentheses equals 0`\n\n$2x^{4}-4x^{3}+1=0$*  so  *`straight f open parentheses x close parentheses equals 2 x to the power of 4 minus 4 x cubed plus 1`\n\n> *(You could also use *$-1+4x^{3}-2x^{4}$*)*\n*Find *`straight f apostrophe open parentheses x close parentheses`* using differentiation*\n\n`straight f apostrophe open parentheses x close parentheses equals 8 x cubed minus 12 x squared`\n\n> *Substitute *`straight f open parentheses x close parentheses`* and *`straight f apostrophe open parentheses x close parentheses`* into the Newton-Raphson formula *`x subscript n plus 1 end subscript equals x subscript n minus fraction numerator straight f open parentheses x subscript n close parentheses over denominator straight f apostrophe open parentheses x subscript n close parentheses end fraction`\n\n`x subscript n plus 1 end subscript equals x subscript n minus fraction numerator open parentheses 2 x subscript n to the power of 4 minus 4 x subscript n cubed plus 1 close parentheses over denominator open parentheses 8 x subscript n cubed minus 12 x subscript n squared close parentheses end fraction`\n\n> *Substitute *$x_{0}=2$* into the formula to get *$x_{1}$\n\n`x subscript 1 equals 2 minus fraction numerator open parentheses 2 cross times 2 to the power of 4 minus 4 cross times 2 cubed plus 1 close parentheses over denominator open parentheses 8 cross times 2 cubed minus 12 cross times 2 squared close parentheses end fraction\nequals 2 minus 1 over 16\nequals 1.9375`\n\n> *Check this solution lies in the interval *`open square brackets 1 comma space 2 close square brackets`\n\n$x_{1}=1.9375$\n\n$\\frac{31}{16}$** is also accepted**\n\n(b)  Explain why the midpoint of the interval `open parentheses 1 comma space 2 close parentheses` cannot be used as the first approximation when applying the Newton-Raphson method.\n\n> *The Newton-Raphson method fails if *$x_{0}$* satisfies *`straight f apostrophe open parentheses x subscript 0 close parentheses equals 0`\n*Find the midpoint of the interval*\n\n$x_{0}=\\frac{1+2}{2}=1.5$\n\n> *Check if *`straight f apostrophe open parentheses 1.5 close parentheses equals 0`\n\n`straight f apostrophe open parentheses 1.5 close parentheses equals 8 cross times 1.5 cubed minus 12 cross times 1.5 squared equals 0`\n\n> *Write a conclusion either about dividing by zero, or about having a horizontal tangent*\n\n**Final answer:** `straight f apostrophe open parentheses 1.5 close parentheses equals 0`**, but you cannot divide by zero in the formula **`x subscript n plus 1 end subscript equals x subscript n minus fraction numerator straight f open parentheses x subscript n close parentheses over denominator straight f apostrophe open parentheses x subscript n close parentheses end fraction`\n**So 1.5 cannot be used as the first approximation**\n\n**You could also say that **$x=1.5$** is at a stationary point where the tangent is horizontal, meaning it cannot intersect the ****x****-axis to make **$x_{1}$"
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jB7byhHQQZ27z58W",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/revision-notes/calculus/integration/reverse-chain-rule",
+ "title": "Reverse Chain Rule",
+ "page_title": "Reverse Chain Rule | Cambridge (CIE) IGCSE Additional Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "reverse-chain-rule"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "reverse-chain-rule"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": "Reverse Chain Rule"
+ },
+ "updated_at": "2026-07-02T08:19:38.536Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_r82JktHqvqwp3wHw",
+  "spcpt_Zndqd25fHNYPKVMZ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "(ax+b)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mo>(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space left parenthesis a x plus b right parenthesis"
+  },
+  {
+   "latex": "e^{x^{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><msup><mi>x</mi><mn>2</mn></msup></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight e to the power of x squared end exponent"
+  },
+  {
+   "latex": "2xe^{x^{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><msup><mi mathvariant=\"normal\">e</mi><msup><mi>x</mi><mn>2</mn></msup></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "2 x straight e to the power of x squared end exponent"
+  },
+  {
+   "latex": "\\frac{5}{2}e^{x^{2}}+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><msup><mi mathvariant=\"normal\">e</mi><msup><mi>x</mi><mn>2</mn></msup></msup><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "5 over 2 straight e to the power of x squared end exponent plus c"
+  },
+  {
+   "latex": "f'(x)=5x^{2}\\mathrm{sin}(2x^{3})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mi>sin</mi><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f apostrophe left parenthesis x right parenthesis equals 5 x squared sin left parenthesis 2 x cubed right parenthesis"
+  },
+  {
+   "latex": "(0,1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mo>(</mo><mn>0</mn><mo>,</mo><mo> </mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space left parenthesis 0 comma space 1 right parenthesis"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "f(x)=-\\frac{5}{6}\\mathrm{cos}(2x^{3})+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">f</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">6</mn></mfrac><mi mathvariant=\"bold\">cos</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">2</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "ax+b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold space bold italic a bold italic x bold plus bold italic b"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space c"
+  },
+  {
+   "latex": "I=-\\frac{9}{16}(7-2x)^{\\frac{8}{3}}+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">I</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">9</mn><mn mathvariant=\"bold\">16</mn></mfrac><msup><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">7</mn><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mfrac><mn mathvariant=\"bold\">8</mn><mn mathvariant=\"bold\">3</mn></mfrac></msup><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "I=\\frac{1}{6}\\mathrm{sin}(3x-2)+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">I</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">6</mn></mfrac><mi mathvariant=\"bold\">sin</mi><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": ""
+  }
+ ],
+ "stats": {
+  "blocks": 19,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 13
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_r82JktHqvqwp3wHw",
+   "name": "Reverse Chain Rule",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Reverse chain rule"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the reverse chain rule?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **Chain Rule** is a way of differentiating two (or more) functions\n- The **Reverse** **Chain** **Rule** (RCR) refers to **integrating** by **inspection**\n\n  - Spotting that chain rule would be used in the reverse (differentiating) process"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I know when to use the reverse chain rule?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **reverse** **chain** **rule** is used when we have the **product** of a **composite** **function** and the **derivative** of its **second** **function**\n- Integration is trickier than differentiation; many of the shortcuts do not work\n\n  - For example, in general `integral straight e to the power of straight f left parenthesis x right parenthesis end exponent space straight d x not equal to fraction numerator 1 over denominator straight f apostrophe left parenthesis x right parenthesis end fraction straight e to the power of straight f left parenthesis x right parenthesis end exponent`\n  - However, this result **is true** if$f(x)$ is linear$(ax+b)$\n- Formally, in **function** **notation**, the **reverse** **chain** **rule** is used for **integrands** of the form"
+  },
+  {
+   "type": "paragraph",
+   "md": "`I equals integral g to the power of apostrophe open parentheses x close parentheses f to the power of apostrophe open parentheses g open parentheses x close parentheses close parentheses space straight d x`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This does not have to be strictly true, but ‘*algebraically’* it should be\n- If the **coefficients** do not match ‘**adjust** and **compensate’** can be used\n\n  - For example, $e^{x^{2}}$ differentiates to $2xe^{x^{2}}$ with the  chain rule\n  \n    - so`integral 2 x straight e to the power of x squared end exponent space straight d x equals straight e to the power of x squared end exponent plus c` with the reverse chain rule\n  - But to do `integral 5 x straight e to the power of x squared end exponent straight d x`  we need to:\n  \n    - **Take out** the five: `5 integral x straight e to the power of x squared end exponent straight d x`\n    - Force a 2 inside (**adjust**) and divide the outside by a 2 (**compensate**): `5 over 2 integral 2 x straight e to the power of x squared end exponent space straight d x`\n    - The bit inside the integral is now a reverse chain rule\n    - The answer is $\\frac{5}{2}e^{x^{2}}+c$\n- A particularly useful instance of the reverse chain rule to recognise is"
+  },
+  {
+   "type": "paragraph",
+   "md": "`I equals integral fraction numerator f apostrophe left parenthesis x right parenthesis over denominator f left parenthesis x right parenthesis end fraction space straight d x equals ln space vertical line f left parenthesis x right parenthesis vertical line plus c`"
+  },
+  {
+   "type": "bullets",
+   "md": "- i.e.  the **numerator** is (almost) the **derivative** of the **denominator**\n\n  - '**adjust** and **compensate**' may need to be used to deal with any coefficients\n  \n    - e.g.  `I equals integral fraction numerator x squared plus 1 over denominator x cubed plus 3 x end fraction space space straight d x equals 1 third integral 3 fraction numerator x squared plus 1 over denominator x cubed plus 3 x end fraction space space straight d x equals 1 third integral fraction numerator 3 x squared plus 3 over denominator x cubed plus 3 x end fraction space space straight d x equals 1 third ln space vertical line x cubed plus 3 x vertical line plus c`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- You can always check your work by differentiating, if you have time"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A curve has the gradient function$f'(x)=5x^{2}\\mathrm{sin}(2x^{3})$.\n\nGiven that the curve passes through the point$(0,1)$, find an expression for$f(x)$.\n\n> *Write f(**x**)** **as an integral.*\n\n`straight f open parentheses x close parentheses space equals space integral 5 x squared space sin space open parentheses 2 x cubed close parentheses space straight d x space`\n\n> *Take 5 out of the integral as a factor. *\n\n`straight f open parentheses x close parentheses space equals space 5 integral x squared space sin space open parentheses 2 x cubed close parentheses space straight d x space`\n\n> *The main function is sin(...), which would have come from -cos(...). *\n\n> *Adjust and compensate the coefficients. 2**x*<sup>*3*</sup><sup>* *</sup>*would differentiate to 6**x*<sup>*2 *</sup>*so -cos(2**x*<sup>*3*</sup>*) would differentiate to (6**x*<sup>*2*</sup>*)sin(2x*<sup>*3*</sup>*)*\n\n`straight f open parentheses x close parentheses space equals space 5 space cross times open parentheses 1 over 6 close parentheses cross times integral open parentheses 6 x squared close parentheses sin space open parentheses 2 x cubed close parentheses space straight d x space`\n\n> *Integrate.*\n\n`straight f open parentheses x close parentheses space equals space open parentheses 5 over 6 close parentheses cross times negative cos open parentheses 2 x cubed close parentheses space plus space c`\n\n$f(x)=-\\frac{5}{6}\\mathrm{cos}(2x^{3})+c$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Zndqd25fHNYPKVMZ",
+   "name": "Integrating Composite Functions (ax+b)",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating composite functions (ax+b)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a composite function?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **composite** **function** involves one function being applied after another\n- A composite function may be described as a “function of a function”\n- This Revision Note focuses on one of the functions being **linear** – i.e. of the form$ax+b$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate linear (ax+b) functions?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The reverse chain rule can be used for integrating functions in the form y = (*ax* + *b*)<sup>n</sup>\n\n  - Make sure you are confident using **the chain rule** to **differentiate **functions in the form y = (*ax* + *b*)<sup>n</sup>\n  - The reverse chain rule works backwards\n- For *n = 2* you will most likely **expand the brackets** and **integrate each term separately**\n- If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely\n- To use the **reverse chain rule** `integral left parenthesis a x plus b right parenthesis to the power of n d x`(provided *n* is not -1)\n\n  - **Raise** the **power of *****n***** by 1**\n  - **Divide** by this **new power**\n  - **Divide** this whole function by the **coefficient of *****x***\n  \n    - `integral left parenthesis a x blank plus blank b right parenthesis to the power of n blank straight d x equals fraction numerator open parentheses a x plus b close parentheses to the power of n plus 1 end exponent over denominator n plus 1 end fraction cross times 1 over a plus c`\n- You can **check your answer by differentiating it**\n\n  - You should get the original function when you differentiate your answer\n- Note that this method **only works** when the function in the brackets is **linear (*****ax***** + *****b*****)**\n- The special cases for **trigonometric** **functions** and **exponential** and **logarithmic** **functions** are\n\n  - ** **`space integral sin left parenthesis a x plus b right parenthesis space straight d x equals negative 1 over a cos left parenthesis a x plus b right parenthesis plus c`\n  - ** **`space integral cos left parenthesis a x plus b right parenthesis space straight d x equals 1 over a sin left parenthesis a x plus b right parenthesis plus c`\n  - `space integral straight e to the power of a x plus b end exponent space straight d x equals 1 over a straight e to the power of a x plus b end exponent plus c`\n  - `space integral fraction numerator 1 over denominator a x plus b end fraction space straight d x equals 1 over a ln open vertical bar a x plus b close vertical bar plus c`\n- $c$, in all cases, is the **constant** of **integration**\n- All the above can be deduced using **reverse** **chain** **rule**\n\n  - However, spotting them can make solutions more efficient"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Find the following integrals\n\na)      `space integral 3 left parenthesis 7 minus 2 x right parenthesis to the power of 5 over 3 end exponent space straight d x`\n\n> *Name the integral.*\n\n`I italic space equals integral 3 open parentheses 7 minus 2 x close parentheses to the power of 5 over 3 end exponent straight d x space equals space 3 integral open parentheses 7 minus 2 x close parentheses to the power of 5 over 3 end exponent straight d x space`\n\n> *Using the rule 'raise the power by one, divide by the new power and then multiply by the reciprocal of the derivative' integrate the expression.*\n\n`I italic space equals space 3 open square brackets fraction numerator 1 over denominator 8 over 3 end fraction open parentheses 7 minus 2 x close parentheses to the power of 8 over 3 end exponent space cross times fraction numerator 1 over denominator negative 2 end fraction close square brackets space plus c`\n\n> *Simplify. *\n\n`I italic space equals space 3 open square brackets negative fraction numerator 3 over denominator 16 end fraction open parentheses 7 minus 2 x close parentheses to the power of 8 over 3 end exponent space close square brackets space plus c`\n\n$I=-\\frac{9}{16}(7-2x)^{\\frac{8}{3}}+c$\n\nb)      `space integral 1 half cos left parenthesis 3 x minus 2 right parenthesis space straight d x`\n\n> *Name the integral.*\n\n`I italic space equals integral 1 half cos open parentheses 3 x minus 2 close parentheses straight d x space equals space 1 half integral cos open parentheses 3 x minus 2 close parentheses straight d x space space`\n\n> *Using the rule *`space integral cos left parenthesis a x plus b right parenthesis space straight d x equals 1 over a sin left parenthesis a x plus b right parenthesis plus c`*, integrate the expression. *\n\n`I italic space equals space 1 half open square brackets 1 third sin open parentheses 3 x minus 2 close parentheses close square brackets space plus c`\n\n> *Simplify. *\n\n$I=\\frac{1}{6}\\mathrm{sin}(3x-2)+c$"
+  }
+ ]
+}

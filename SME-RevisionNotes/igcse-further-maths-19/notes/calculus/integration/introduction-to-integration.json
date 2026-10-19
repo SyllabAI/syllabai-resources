@@ -1,0 +1,131 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_ZqT8kNt8P7DbMs9F",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/integration/introduction-to-integration",
+ "title": "Introduction to Integration",
+ "page_title": "Introduction to Integration | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "introduction-to-integration"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "introduction-to-integration"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": "Introduction to Integration"
+ },
+ "updated_at": "2024-10-20T15:35:26.167Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_3j8Wx3b65DYtPnyQ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "plus c"
+  },
+  {
+   "latex": "x^{3}+\\frac{1}{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x cubed plus 1 over x"
+  },
+  {
+   "latex": "3x^{2}-\\frac{1}{x^{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "3 x squared minus 1 over x squared"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{1}{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mi>x</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "1 over x"
+  },
+  {
+   "latex": "+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "plus c"
+  }
+ ],
+ "stats": {
+  "blocks": 6,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 8
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_3j8Wx3b65DYtPnyQ",
+   "name": "Introduction to Integration",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Integration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is integration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Integration** is the **inverse** operation to **differentiation**\n\n  - So if you **differentiate **a function to find its** derivative**\n  - and then **integrate** that derivative\n  - you should end up back at the **original function**\n- This can be written as  `integral straight f to the power of apostrophe open parentheses x close parentheses space straight d x equals straight f open parentheses x close parentheses plus c`\n\n  - `integral... space straight d x`  is the **integral with respect to **$x$** **of \"...\"\n  - $c$ is the **constant of integration**\n  \n    - A derivative gives the** rate of change** of a function\n    \n      - but it doesn't give the starting point for any change\n    - The constant of integration represents this 'starting point'\n    - See the '**Constants of Integration**' revision note for more info\n- This type of integral is known as an **indefinite integral**\n\n  - The answer to an indefinite integral is **another function**\n  \n    - There are also **definite integrals **\n    \n      - The answer to a definite integral is a number\n    - See the '**Calculating Areas**' revision note for more info on definite integrals\n- Usually you will integrate using **standard formulae**\n\n  - See the '**Integrating Basic Functions**' revision note for these formulae"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember that integration and differentiation are inverse operations\n\n  - So if you differentiate your answer to an indefinite integral\n  \n    - you should end up back at the function you were integrating\n  - Use this to check your answers on the exam!\n- Don't forget the constant of integration ($+c$) when finding an indefinite integral\n\n  - Leaving it out can lose marks"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(a) Show that the derivative of  $x^{3}+\\frac{1}{x}$  is  $3x^{2}-\\frac{1}{x^{2}}$.\n\n> *This is a standard 'powers of *$x$*'derivative*\n*Just remember to rewrite *$\\frac{1}{x}$* as a power using laws of indices*\n\n`straight f open parentheses x close parentheses equals x cubed plus x to the power of negative 1 end exponent`\n\n`table row cell straight f to the power of apostrophe open parentheses x close parentheses end cell equals cell 3 x to the power of 3 minus 1 end exponent plus open parentheses open parentheses negative 1 close parentheses x to the power of negative 1 minus 1 end exponent close parentheses end cell row blank equals cell 3 x squared minus x to the power of negative 2 end exponent end cell end table`\n\n> *Now just use laws of indices again to write the answer in the requested form*\n\n`table row cell bold f to the power of bold apostrophe stretchy left parenthesis x stretchy right parenthesis end cell bold equals cell bold 3 bold italic x to the power of bold 2 bold minus bold 1 over bold x to the power of bold 2 end cell end table`\n\n(b) Hence write down the answer to the indefinite integral  `integral open parentheses 3 x squared minus 1 over x squared close parentheses space straight d x`.\n\n> *We can use  *`integral straight f to the power of apostrophe open parentheses x close parentheses space d x equals straight f open parentheses x close parentheses plus c`* to write down the answer*\n\n> *This is because integration and differentiation are inverse operations*\n\n> *Just don't forget the constant of integration  *$+c$\n\n`bold integral stretchy left parenthesis 3 x squared minus 1 over x squared stretchy right parenthesis bold space bold d bold italic x bold equals bold italic x to the power of bold 3 bold plus bold 1 over bold x bold plus bold italic c`"
+  }
+ ]
+}

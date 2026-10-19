@@ -1,0 +1,160 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_JsyCQ72Nk8TMfM3R",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/poisson-distribution/the-poisson-distribution",
+ "title": "The Poisson Distribution",
+ "page_title": "The Poisson Distribution | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "poisson-distribution",
+   "the-poisson-distribution"
+  ],
+  "section": "statistical-distributions",
+  "topic": "poisson-distribution",
+  "leaf": "the-poisson-distribution"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Poisson Distribution",
+  "subtopic": "The Poisson Distribution"
+ },
+ "updated_at": "2026-07-02T08:19:38.655Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_gQsJPB7Szy6ZvMBZ",
+  "spcpt_GPmq8k46YXs6B3kX"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "P(X=r)=e^{-λ}\\times\\frac{λ^{r}}{r!}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mo>)</mo><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>×</mo><mfrac><msup><mi>λ</mi><mi>r</mi></msup><mrow><mi>r</mi><mo>!</mo></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X equals r right parenthesis equals e to the power of negative lambda end exponent cross times fraction numerator lambda to the power of r over denominator r factorial end fraction"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  }
+ ],
+ "stats": {
+  "blocks": 16,
+  "figures": 1,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 3
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_gQsJPB7Szy6ZvMBZ",
+   "name": "Properties of Poisson Distribution",
+   "definition": "",
+   "video_id": "896129118"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Properties of Poisson Distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Poisson distribution is a **discrete probability distribution**\n- The **discrete random variable** *X* follows a **Poisson distribution** if it **counts the number of events that occur at random in a given time or space**\n- For a Poisson distribution to be valid it** must **satisfy the following properties:\n\n  - Events occur **singly **and at **random** in a **given interval** of time or space\n  - The **mean number of occurrences in the given interval(λ) ** is known and finite\n  \n    - λ has to be positive but does not have to be an integer\n  - Each occurrence is **independent **of the other occurrences\n- If *X* follows a Poisson distribution then it is denoted `X tilde Po left parenthesis lambda right parenthesis`\n\n  - **λ **is the mean number of occurrences of the event\n- The formula for the probability of r occurrences in a given interval is:\n\n  - $P(X=r)=e^{-λ}\\times\\frac{λ^{r}}{r!}$ for r=0, 1, 2, ...,*n*\n  - *e* is the constant 2.718…\n  - `r factorial equals r open parentheses r minus 1 close parentheses open parentheses r minus 2 close parentheses....2 cross times 1`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the important properties of a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **mean **and **variance** of a Poisson distribution are roughly **equal**\n- The distribution can be represented visually using a vertical line graph\n\n  - If λ is **close to 0** then the graph has a **tail to the right** (positive skew)\n  - If λ is **at least 5** then the graph is **roughly symmetrical**\n- The Poisson distribution becomes more symmetrical as the value of the mean (*λ*) increases"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-1-1-poisson-distribution-diagram-1.png",
+   "file": "assets/fcf2e242c17b-2-1-1-poisson-distribution-diagram-1.png",
+   "alt": "2-1-1-poisson-distribution-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "$X$ is the random variable ‘The number of cars that pass a traffic camera per day’. State the conditions that would need to be met for $X$ to follow a Poisson distribution.\n\n**Answer:**\n\n![2-1-1-the-poisson-distribution-we-solution-1](assets/106071c4552f-image.bin)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_GPmq8k46YXs6B3kX",
+   "name": "Modelling with Poisson Distribution",
+   "definition": "",
+   "video_id": "896188000"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Modelling with Poisson Distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I set up a Poisson model?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Find the** mean **and** variance **and check that they are** roughly equal**\n\n  - You may have to** change the mean **depending on the given time/space interval\n- Make sure you **clearly state** what your **random variable** is\n\n  - For example, let *X* be the number of typing errors per page in an academic article\n- **Identify** what **probability **you are looking for"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What can be modelled using a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Anything that occurs **singly** and **randomly **in a given interval of time or space and satisfies the conditions\n- For example, let *X*  be the random variable 'the number of emails that arrive into your inbox per day'\n\n  - There is a given interval of a day, this is an example of an interval of time\n  - We can assume the emails arrive into your inbox at random\n  - We can assume each email is independent of the other emails\n  \n    - This is something that you would have to consider before using the Poisson distribution as a model\n  - If you know the mean number of emails per day a Poisson distribution can be used\n- Sometimes the given interval will be for space\n\n  - For example, the number of daisies that exist on a square metre of grass\n  - look carefully at the units given as you may have to change them when calculating probabilities"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "State, with reasons, whether the following can be modelled using a Poisson distribution and if so write the distribution.\n\n(i) Faults occur in a length of cloth at a mean rate of 2 per metre.\n\n(ii) On average 4% of a certain population has green eyes.\n\n(iii) An emergency service company receives, on average, 15 calls per hour.\n\n**Answer:**\n\n![2-1-1-modelling-with-a-poisson-we-solution-2](assets/a227e6bb10e3-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If you are asked to criticise a Poisson model always consider whether the trials are independent, this is usually the one that stops a variable from following a Poisson distribution!"
+  }
+ ]
+}

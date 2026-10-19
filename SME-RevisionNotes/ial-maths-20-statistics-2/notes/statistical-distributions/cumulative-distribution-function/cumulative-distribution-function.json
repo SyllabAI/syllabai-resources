@@ -1,0 +1,290 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_MVmdjj8cvSzN5HQW",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/cumulative-distribution-function/cumulative-distribution-function",
+ "title": "Cumulative Distribution Function",
+ "page_title": "Cumulative Distribution Function | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "cumulative-distribution-function",
+   "cumulative-distribution-function"
+  ],
+  "section": "statistical-distributions",
+  "topic": "cumulative-distribution-function",
+  "leaf": "cumulative-distribution-function"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Cumulative Distribution Function",
+  "subtopic": "Cumulative Distribution Function"
+ },
+ "updated_at": "2026-07-02T08:19:38.659Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_QTHzFn6gZrVKcRdG"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "F(x_{0})=P(X\\leqx_{0})=",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">F</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">0</mn></msub><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><msub><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">0</mn></msub><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight F left parenthesis x subscript 0 right parenthesis equals P left parenthesis X less or equal than x subscript 0 right parenthesis equals"
+  },
+  {
+   "latex": "\\underset{x\\leqx_{0}}{\\sum}P(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><munder><mo>∑</mo><mrow><mi>x</mi><mo>≤</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sum for x less or equal than x subscript 0 of straight P left parenthesis X equals x right parenthesis"
+  },
+  {
+   "latex": "\\text{F}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mtext>F</mtext><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "text F end text"
+  },
+  {
+   "latex": "\\text{f}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mtext>f</mtext><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "text f end text"
+  },
+  {
+   "latex": "x\\inℝ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo>∈</mo><mi mathvariant=\"normal\">ℝ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x element of straight real numbers"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)=F(b)-F(a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">F</mi><mo>(</mo><mi>b</mi><mo>)</mo><mo>-</mo><mi mathvariant=\"normal\">F</mi><mo>(</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis a less or equal than X less or equal than b right parenthesis equals straight F left parenthesis b right parenthesis minus straight F left parenthesis a right parenthesis"
+  },
+  {
+   "latex": "P(X=k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals k right parenthesis"
+  },
+  {
+   "latex": "x\\inℝ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo>∈</mo><mi mathvariant=\"normal\">ℝ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x element of straight real numbers"
+  },
+  {
+   "latex": "x\\leqa",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo>≤</mo><mi>a</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x less or equal than a"
+  },
+  {
+   "latex": "x>a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo>&gt;</mo><mi>a</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x greater than a"
+  },
+  {
+   "latex": "x>a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo>&gt;</mo><mi>a</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x greater than a"
+  },
+  {
+   "latex": "f(x)=\\frac{d}{dx}F(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mi mathvariant=\"normal\">F</mi><mo>(</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis equals fraction numerator d over denominator d x end fraction straight F left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "m"
+  },
+  {
+   "latex": "F(p)=\\frac{n}{100}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">F</mi><mo>(</mo><mi>p</mi><mo>)</mo><mo>=</mo><mfrac><mi>n</mi><mn>100</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight F left parenthesis p right parenthesis equals n over 100"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "P(X>1.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than 1.5 right parenthesis"
+  },
+  {
+   "latex": "P(0.5\\leqX\\leq1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>≤</mo><mi>X</mi><mo>≤</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 0.5 less or equal than X less or equal than 1 right parenthesis"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "F(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">F</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight F left parenthesis x right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 29,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 20
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_QTHzFn6gZrVKcRdG",
+   "name": "Cumulative Distribution Function",
+   "definition": "",
+   "video_id": "900334970"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Cumulative Distribution Function"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is the cumulative distribution function (c.d.f.)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For a **continuous** **random** **variable**,*X* , with **probability** **density** **function f(x)** the **cumulative** **distribution** **function** (c.d.f.) is defined as"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold F bold left parenthesis bold italic x subscript bold 0 bold right parenthesis bold equals bold italic P bold left parenthesis bold italic X bold less or equal than bold italic x subscript bold 0 bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold x subscript bold 0 end superscript bold f bold left parenthesis bold italic t bold right parenthesis bold space bold d bold italic t`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Compare this to the cumulative distribution function for a **discrete random variable**"
+  },
+  {
+   "type": "paragraph",
+   "md": "$F(x_{0})=P(X\\leqx_{0})=$$\\underset{x\\leqx_{0}}{\\sum}P(X=x)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- F(x<sub>0</sub>) is the probability that *X* is a value less than or equal to x<sub>0</sub>\n- Notice the use of **uppercase **$\\text{F}$ for the **c.d.f.** but **lowercase** $\\text{f}$  for the **p.d.f.**\n- On the graph of the p.d.f. y= f(x)  this would be the area under the graph up to the (vertical) line x=x<sub>0</sub>\n- F(x) should be defined for all values of $x\\inℝ$\n- The graph of the c.d.f. y = F(x) will\n\n  - start on the x-axis (i.e. start at a probability of 0)\n  - end at x = 1  (i.e. finish at a probability of 1)\n  - will be **continuous** function, even when defined ***piecewise***"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g."
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight F left parenthesis x right parenthesis equals open curly brackets table row 0 cell x less than 0 end cell row cell 0.5 x squared end cell cell 0 less or equal than x less or equal than 1 end cell row cell 0.5 end cell cell 1 less or equal than x less or equal than 1.5 end cell row cell x minus 1 end cell cell 1.5 less or equal than x less or equal than 2 end cell row 1 cell x greater than 2 end cell end table close`"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/BSM6-gbH_1-4-1-ial-fig1-cdf-graph.png",
+   "file": "assets/fd8fa9752435-bsm6-gbh-1-4-1-ial-fig1-cdf-graph.png",
+   "alt": "BSM6-gbH_1-4-1-ial-fig1-cdf-graph",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The horizontal lines at F(x) = 0 and F(x) = 1 may not always be shown"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find probabilities using the cumulative frequency distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $P(a\\leqX\\leqb)=F(b)-F(a)$\n- Although $P(X=k)$, for all values of k , F(k) is not necessarily zero"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the cumulative frequency distribution (c.d.f.) from the probability density function (p.d.f.) and vice versa?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find the c.d.f.,F(x)  , from the p.d.f.,f(x), **integrate**"
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight F left parenthesis x right parenthesis equals integral subscript negative infinity end subscript superscript x straight f left parenthesis t right parenthesis space d t`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Ensure you define F(x) fully for$x\\inℝ$  so include values of x for which F(x) = 0  and values of x for which F(x) = 1\n- For piecewise functions as well as integrating you will need to add on the value of the c.d.f. at the end of the previous part\n\n  - Suppose there are two sections to a p.d.f. $x\\leqa$ and $x>a$\n  - For $x>a$:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight F left parenthesis x right parenthesis equals integral subscript negative infinity end subscript superscript x straight f left parenthesis t right parenthesis space straight d t space equals integral subscript negative infinity end subscript superscript a straight f left parenthesis t right parenthesis space straight d t space plus integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t space equals space straight F left parenthesis a right parenthesis plus integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Therefore the c.d.f can be calculated for the interval *a < x < b*  by using"
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight F left parenthesis x right parenthesis space equals space straight F left parenthesis a right parenthesis space plus space integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t`"
+  },
+  {
+   "type": "bullets",
+   "md": "- See part (b) in the Worked Example below"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find the p.d.f from the c.d.f., **differentiate**"
+  },
+  {
+   "type": "paragraph",
+   "md": "$f(x)=\\frac{d}{dx}F(x)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Any part of a c.d.f that is constant corresponds to the p.d.f. for that part being zero (the derivative of a constant is zero)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the median, quartiles and percentiles using the cumulative frequency distribution (c.d.f.)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For piecewise functions, first identify the section the required value lies in\n\n  - To do this find the upper limit of each section of the c.d.f.\n- To find the **median**, $m$, solve the equation F(m) = 0.5\n\n  - The median is sometimes referred to as the second quartile, Q<sub>2</sub>\n- To find the **lower quartile**, Q<sub>1</sub>, solve the equation F(Q<sub>1</sub>) = 0.25\n- To find the **upper quartile**,Q<sub>3</sub>  , solve the equation F(Q<sub>3</sub> ) = 0.75\n- To find the **n**<sup>**th**</sup>** percentile**, solve the equation ** **$F(p)=\\frac{n}{100}$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "a) The continuous random variable, $X$ , has cumulative distribution function\n\n`straight F left parenthesis x right parenthesis equals open curly brackets table row cell space space space space space space space 0 end cell cell x less than 0 end cell row cell 1 fourth x open parentheses 4 minus x close parentheses end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space 1 end cell cell x greater than 2 end cell end table close`\n\nFind\n\n(i) $P(X>1.5)$\n\n(ii) $P(0.5\\leqX\\leq1)$\n\n(iii) The lower quartile of $X$.\n\n(b) The continuous random variable, $X$, has probability density function\n\n`f left parenthesis x right parenthesis equals open curly brackets table row cell 0.5 x end cell cell 0 less or equal than x less or equal than 1 end cell row cell 0.5 end cell cell 1 less or equal than x less or equal than 2.5 end cell row 0 otherwise end table close\n`\n\nFind the cumulative frequency distribution, $F(x)$ .\n\n**Answer:**\n\n![1-4-1-ial-fig2-we-solution-part-1](assets/3c9f2d6d5fc6-image.bin)\n\n![1-4-1-ial-fig2-we-solution-part-2](assets/ad80c247277a-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember that P(X=k) = 0  , for any value of k, is zero\n\n  - This can be easily missed when working with c.d.f. rather than a p.d.f.\n- A quick check you can do is verify that your c.d.f. is continuous\n\n  - The value of the c.d.f. at the upper limit of one section should equal the value of the c.d.f at the lower limit of the next section"
+  }
+ ]
+}

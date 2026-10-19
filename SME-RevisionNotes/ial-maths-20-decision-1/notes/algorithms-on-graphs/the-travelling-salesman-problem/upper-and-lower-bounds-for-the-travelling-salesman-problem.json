@@ -1,0 +1,196 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Y5GQSK9GNvgTMqrh",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/the-travelling-salesman-problem/upper-and-lower-bounds-for-the-travelling-salesman-problem",
+ "title": "Upper & Lower Bounds for the Travelling Salesman Problem",
+ "page_title": "Upper & Lower Bounds for the Travelling Salesman Problem | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "the-travelling-salesman-problem",
+   "upper-and-lower-bounds-for-the-travelling-salesman-problem"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "the-travelling-salesman-problem",
+  "leaf": "upper-and-lower-bounds-for-the-travelling-salesman-problem"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "The Travelling Salesman Problem",
+  "subtopic": "Upper & Lower Bounds for the Travelling Salesman Problem"
+ },
+ "updated_at": "2026-07-02T08:19:38.618Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_CDrxV4K9j3rBppb6",
+  "spcpt_9YmCJGKWp5cKsBqG",
+  "spcpt_h68Jt9Vr3bmcy6FN"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\leq",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8804;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "less or equal than"
+  },
+  {
+   "latex": "\\leq",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8804;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "less or equal than"
+  },
+  {
+   "latex": "\\leq",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8804;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "less or equal than"
+  },
+  {
+   "latex": "\\leq",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8804;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "less or equal than"
+  }
+ ],
+ "stats": {
+  "blocks": 23,
+  "figures": 0,
+  "worked_examples": 3,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 4
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_CDrxV4K9j3rBppb6",
+   "name": "Finding an Upper Bound using a Minimum Connector",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Finding an Upper Bound using a Minimum Connector"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why do I need to find an upper bound?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There is **no efficient algorithm** to find the optimal solution for the** travelling salesman problem**\n\n  - An **upper and lower bound** for the solution to the problem can be found\n  - The **optimal solution** (the shortest route)** **will lie **within **these bounds\n  \n    - Lower bound$\\leq$ **optimal solution **$\\leq$ upper bound\n- The aim is to find a **minimum value for the upper bound**\n\n  - This will reduce the size of the interval between the upper and lower bounds"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the upper bound?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Use a** minimum spanning tree** to find an **upper bound **for a network\n- **STEP 1**\nFind a **minimum spanning tree** for the network using either **Prim's** or **Kruskal's **algorithm\n\n  - If you have the **table of distances**, use Prim's algorithm\n  - If you have the **graph** only, use Prim's or Kruskal's algorithm\n- **STEP 2**\n**Double the weight** of the minimum spanning tree to find an **initial **upper bound\n\n  - Each vertex can therefore definitely be visited and the starting vertex returned to\n- **STEP 3**\n**Improve** the upper bound by finding shortcuts\n\n  - Use some of the **edges** **not included** in the minimum spanning tree to **reduce the weight**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The network below contains six vertices representing villages and the edges (roads) that connect them. The weighting of the edges represents the time, in minutes, that it takes to walk along a particular road between two villages.\n\n![3-10-6-ib-ai-hl-bounds-for-travelling-salesman-problem-we-1](assets/b45f53a83550-3-10-6-ib-ai-hl-bounds-for-travelling-salesman-p.png)\n\na) Find an initial upper bound for the travelling salesman problem.\n\n**Answer:**\n\n- *STEP 1*\n*The question contains the graph but you have not been asked to find the table of least distances*\n*Apply Kruskal's algorithm to find a minimum spanning tree of the network*\n*List the edges in order of increasing weight*\n\n*CD (5)*\n*CE (6)*\n*AC (7)*\n*EF (8)*\n*BF (9)*\n*DE (10)*\n*AD (11)*\n*BC (13)*\n*BE (13)*\n*AB (14)*\n*DF (20)*\n*  *\n\n> *Add the edge of least weight (CD), then the next edge of least weight (CE)*\n*Repeat adding the next edge of least weight each time provided it does not create a cycle until all vertices are connected*\n* *\n\n*Edges added in the order: CD (5), CE (6), AC (7), EF (8), BF (9) *\n*  *\n\n![WdntKlV2_mst](assets/b18cf9798ec1-wdntklv2-mst.png)\n\n- *STEP 2*\n*Find the weight of the minimum spanning tree*\n\n*5 + 6 + 7 + 8 + 9 = 35*\n\n> *Double the weight of the minimum spanning tree to find the initial upper bound of the solution*\n\n*35 x 2 = 70*\n\n**Initial upper bound = 70 minutes**\n** **\n\nb) Show that the initial upper bound can be reduced to 54 by finding one shortcut.\n\n**Answer:**\n\n- *STEP 3*\n*Identify which edges could be used to replace repeated edges in the minimum spanning tree*\n\n*Single edge: AB (14)*\n\n*Repeated pathway: AC + CE + EF + FB (30)*\n\n> *Subtract the weight of the single edge from the repeated pathway to calculate the weight saved by using the short cut*\n\n*30 - 14 = 16*\n\n> *Subtract the weight saving from the initial upper bound*\n\n*70 - 16 = 54*\n\n**Final answer:** **Improved upper bound = 54 minutes**\n\n> *This can also be seen as 70 - 30 + 14 = 54*\n*Subtract the 'repeated pathway' then add the 'shortcut'*"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_9YmCJGKWp5cKsBqG",
+   "name": "Finding a Lower Bound using a Minimum Connector",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Finding a Lower Bound using a Minimum Connector"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why do I need to find the lower bound?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There is **no efficient algorithm** to find the **optimal** solution for the travelling salesman problem\n\n  - An **upper and lower bound** for the solution to the problem can be found\n  - The **optimal solution** (the shortest route)** **will lie **within **these bounds\n  \n    - Lower bound $\\leq$ **optimal solution **$\\leq$** **upper bound\n- The aim is to find a **maximum value **for the** lower bound**\n\n  - This will reduce the size of the interval between the upper and lower bounds\n- An **optimal solution** is found if\n\n  - The **lower bound** gives a **Hamiltonian cycle**\n  \n    - This is only true if the MST is created from a** table of least distances**\n  - The** lower bound **has the** same value **as the **upper bound**\n- If the lower bound is **not **a Hamiltonian cycle then** **\n\n  - lower bound < optimal solution"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the lower bound?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Use a **minimum spanning tree** to find a **lower bound** for a network\n\n  - Apply the steps of the algorithm below to a **table of least distances**\n  ** **\n- **STEP 1**\nRemove a** vertex** and all of its **associated edge**s from the network\n- **STEP 2**\nFind a **minimum spanning tree **for the remaining **network **and write down its** total weight**\n\n  - This spanning tree is known as the **residual minimum spanning tree** (RMST)\n- **STEP 3**\nIdentify the** two shortest individual edges **that can **connect** the **missing vertex **to the **RMST**\nFind the** sum **of the** total weight **of the** RMST **and the** two connecting edges**\n** **\n- **STEP 4**\nRepeat Steps 1 to 3 for **each vertex** in the network\n- **STEP 5**\nWhen the network has been tested for **each missing vertex**, identify the** maximum value**\n\n  - This maximum value is the **greatest possible lower bound**"
+  },
+  {
+   "type": "bullets",
+   "md": "- In many problems Steps 4 and 5 will not be required\n\n  - An exam question will often dictate which vertex to delete\n  - There will be no need to repeat for each vertex\n- This method may be referred to as the **deleted vertex method**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The table below contains six vertices representing villages and the roads that connect them. The weighting of the edges represents the time in minutes that it takes to walk along a particular road between two villages.\n\n|   | A | B | C | D | E | F |\n|---|---|---|---|---|---|---|\n| A | - | 14 | 7 | 11 | 13 | 21 |\n| B | 14 | - | 13 | 18 | 13 | 9 |\n| C | 7 | 13 | - | 5 | 6 | 14 |\n| D | 11 | 18 | 5 | - | 10 | 18 |\n| E | 13 | 13 | 6 | 10 | - | 8 |\n| F | 21 | 9 | 14 | 18 | 8 | - |\n\na) By deleting vertex A and using Prim’s algorithm, find a lower bound for the time taken to start at village A, visit each of the other villages and return to village A\n\n**Answer:**\n\n- *STEP 1*\n*Delete vertex A in the table*\n- *STEP 2*\n*Perform Prim's algorithm on the remaining vertices in the table*\n\n![table-1](assets/eb6c44a1c13f-table-1.png)\n\n*Edges added in the order: BF (9), EF (8), CE (6), CD (5)*\n\n*Total weight of the residual minimum spanning tree = 9 + 8 + 6 + 5 = 28*\n*  *\n\n- *STEP 3*\n*Identify the two shortest edges that connect A to the minimum spanning tree*\n\n*AC (7), AD (11)*\n\n> *Add together the total weight of the minimum spanning tree and the weights of the two shortest lengths connecting it to A*\n\n*28 + 7 + 11 = 46*\n\n**Final answer:** **Lower bound = 46 minutes**\n\nb) Show that by deleting vertex E instead, a higher lower bound can be found.\n\n**Answer:**\n\n- *STEP 1*\n*Delete vertex A in the table*\n- *STEP 2*\n*Perform Prim's algorithm on the remaining vertices in the table*\n\n![delete-vertex-e](assets/10a70e31f499-delete-vertex-e.png)\n\n* *\n*Edges added in the order: AC (7), CD (5), BD/DF (18), BF (9) *\n\n*Total weight of the residual minimum spanning tree = 7 + 5 + 18 + 9 = 39*\n*  *\n\n- *STEP 3*\n*Identify the two shortest edges that connect E to the minimum spanning tree*\n\n*CE (6), EF (8)*\n\n> *Add together the total weight of the minimum spanning tree and the weights of the two shortest lengths connecting it to E*\n\n*39 + 6 + 8 = 53*\n\n**Final answer:** **Lower bound = 53 minutes**\n**This is a higher lower bound than found when vertex A was deleted (46 minutes)**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_h68Jt9Vr3bmcy6FN",
+   "name": "Nearest Neighbour Algorithm",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Nearest Neighbour Algorithm"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the nearest neighbour algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **nearest neighbour algorithm** is another method to find an **upper bound**\n- The algorithm can be performed on a **complete** network with** at least 3 vertices**\n\n  - It will generate a **low** **weight **Hamiltonian cycle\n  \n    - This low weight cycle will not necessarily be the least weight cycle\n  - The weight of the cycle can be considered an **upper bound**\n- The **best upper bound** is the upper bound with the **smallest value**\n- The nearest neighbour algorithm can only be used on certain types of graph\n\n  - The graph must be **complete** and satisfy the **triangle inequality**\n- If needs be, the **table of least distances **should be found first"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps of the nearest neighbour algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nChoose a **starting vertex**\n** **\n- **STEP 2**\nSelect the **edge of least weigh**t from the **current vertex** to an **adjacent unvisited vertex**\n\n  - If there is more than one edge of least weight pick one at random\n  - Move to this vertex (column in matrix form)\n  - If this is the **final vertex** to be visited go to STEP 3\n  - Otherwise disregard (cross out in matrix form) any edges that go to vertices already visited and repeat STEP 2\n- **STEP 3**\nAdd a final edge to return to the **starting vertex**\n** **\n- **STEP 4**\nFind the **weight** of the resulting Hamiltonian cycle\nThis is an upper bound for the travelling salesman problem\n- **STEP 5**\nRepeat STEP 1 to STEP 4 starting with a different **vertex** in the network\nWhen the network has been tested for **each vertex** as the starting vertex, identify the** minimum value**\nThis minimum value is the **least possible upper bound **that can be found by the nearest neighbour algorithm\n- In many problems STEP 5 will not be required\n\n  - An exam question will dictate which vertex to start at\n  - There will be no requirement to repeat with all vertices as the starting vertex"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Be careful not to confuse the **nearest neighbour algorithm** with **Prim's algorithm**\n\n  - This is a common mistake because they are both performed on tables!\n- Questions may ask you to explain the difference between the two algorithms\n\n  - The nearest neighbour algorithm selects the nearest vertex adjacent to the **current** vertex\n  - Prim's algorithm selects the nearest vertex adjacent to **any** vertex already visited"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The table below contains six vertices representing villages and the roads that connect them. The weighting of the edges represents the time in minutes that it takes to walk along a particular road between two villages.\n\n|   | A | B | C | D | E | F |\n|---|---|---|---|---|---|---|\n| A | - | 14 | 7 | 11 | 13 | 21 |\n| B | 14 | - | 13 | 18 | 13 | 9 |\n| C | 7 | 13 | - | 5 | 6 | 14 |\n| D | 11 | 18 | 5 | - | 10 | 18 |\n| E | 13 | 13 | 6 | 10 | - | 8 |\n| F | 21 | 9 | 14 | 18 | 8 | - |\n\nStarting at village A, use the nearest neighbour algorithm to find an upper bound for the time it would take to visit each village and return to village A.\n\n**Answer:**\n\n- *STEP 1*\n*Start at vertex A (column A)*\n- *STEP 2*\n*Select the edge of least weight in column A (AC) and write it down*\n\n![~8028F-4_table-1](assets/806b103021c6-8028f-4-table-1.png)\n\n*AC (7)*\n\n> *Move to vertex/column C*\n*C is not the final vertex to be visited*\n*Disregard (cross out) the edge (value) in column C that would connect C to A as vertex A has already been visited*\n*Repeat Step 2*\n\n- *STEP 2*\n*Select the edge of least weight (from those remaining) in column C (CD) and write it down*\n\n![0IaJRg_O_table-2](assets/a0476b30eb46-0iajrg-o-table-2.png)\n\n*AC (7), CD (5)*\n\n> *Move to column D*\n*D is not the final vertex*\n*Cross out the values for the vertices already visited (A and C)*\n*Repeat Step 2*\n\n- *STEP 2*\n*Select the edge of least weight (from the remaining) in column D (DE) and write it down*\n\n![table-3](assets/d1a4e72f7b64-table-3.png)\n\n* **AC (7), CD (5), DE (10)*\n\n> *Move to column E*\n*E is not the final vertex*\n*Cross out the values for the vertices already visited (A, C and D)*\n*Repeat Step 2*\n\n- *STEP 2*\n*Select the edge of least weight (from the remaining values) in column E (EF) and write it down*\n\n![table-4](assets/d2e823f9207f-table-4.png)\n\n*AC (7), CD (5), DE (10), EF (8)*\n\n> *Move to vertex F*\n*F is not the final vertex*\n*Cross out the values for the vertices already visited (A, C, D and E)*\n*Repeat Step 2*\n\n- *STEP 2*\n*Select the edge of least weight (from the remaining values) in column F (BF) and write it down*\n\n![table-5](assets/abd06c95fd2e-table-5.png)\n\n*AC (7), CD (5), DE (10), EF (8), BF (9)*\n\n> *Move to vertex B*\n*B is the final vertex to be visited*\n*Go to Step 3*\n\n- *STEP 3*\n*Choose the final edge (value) to get back from the last vertex (B) to the starting vertex (A)*\n\n![table-6](assets/1096a36046b7-table-6.png)\n\n*AC (7), CD (5), DE (10), EF (8), BF (9), AB (14)*\n\n*Hamiltonian cycle: ACDEFBA*\n\n- *STEP 4*\n*Find the weight of the Hamiltonian cycle by adding together the weights of the edges forming it *\n\n*Total weight = 7 + 5 + 10 + 8 + 9 + 14 = 53*\n\n> *This is an upper bound for the travelling salesman problem*\n\n**Final answer:** **Upper bound = 53 minutes**"
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_6b66HvWZZKJMnMZJ",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/14-communication-and-internet-technologies-/circuit-switching-packet-switching/switching-methods",
+ "title": "Switching Methods",
+ "page_title": "Switching Methods | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "14-communication-and-internet-technologies-",
+   "circuit-switching-packet-switching",
+   "switching-methods"
+  ],
+  "section": "14-communication-and-internet-technologies-",
+  "topic": "circuit-switching-packet-switching",
+  "leaf": "switching-methods"
+ },
+ "titles": {
+  "section": "14. Communication & internet technologies",
+  "topic": "Circuit Switching, Packet Switching",
+  "subtopic": "Switching Methods"
+ },
+ "updated_at": "2026-10-01T13:10:00.138Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_pSnZ8RGQhrg33tZQ",
+  "spcpt_wbXgB3cVXN6Y87Ts"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 25,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_pSnZ8RGQhrg33tZQ",
+   "name": "Packetising",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Packetising"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is packetising?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Packetising is the process of **dividing a large message into smaller**, manageable units called **packets**\n- Each packet can be** transmitted individually** across a network"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Structure of a packet"
+  },
+  {
+   "type": "bullets",
+   "md": "- Each packet contains:\n\n  - A **packet header**, which contains key information such as:\n  - **Source IP address**: who sent the packet\n  - **Destination IP address**: where it is going\n  - **Sequence number (packet number)**: used to reassemble packets in the correct order\n  - **Checksum**: used for error checking\n  - **The data**: the part of the message being sent in this packet"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Packet transmission & reassembly"
+  },
+  {
+   "type": "bullets",
+   "md": "- Once packetised and encapsulated with headers, **packets are transmitted independently**\n- They may travel along **different routes** through the network\n- At the destination, packets are **reassembled** into the original message using sequence numbers"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_wbXgB3cVXN6Y87Ts",
+   "name": "Circuit & packet switching",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Circuit & packet switching"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is packet switching?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Packet switching is a communication method where **data is broken into packets **and sent across a shared network\n- Each packet may** take a different path to the destination** and is reassembled on arrival"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Benefits:"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Efficient **use of network **bandwidth**\n- More **reliable **– only lost or corrupted packets need to be resent\n- **Lower cost** – network resources are shared"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Drawbacks:"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Not ideal** for** real-time applications** like VoIP or video calls\n- Packets can** arrive out of order** and require reassembly\n- Network congestion may lead to** packet delay or loss**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is circuit switching?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Circuit switching sets up a **dedicated communication path** between two devices for the duration of a session (like a traditional phone call)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Benefits:"
+  },
+  {
+   "type": "bullets",
+   "md": "- Ideal for **real-time communication** – steady and continuous data flow\n- **No delays** once the circuit is established\n- Data arrives **in order**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Drawbacks:"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Less efficient** – resources remain reserved even when not in use\n- **Higher cost** due to dedicated lines\n- **Less scalable** and flexible for large networks"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Packet switching vs circuit switching"
+  },
+  {
+   "type": "table",
+   "md": "| **Feature** | **Packet switching** | **Circuit switching** |\n|---|---|---|\n| **Definition** | Data is split into packets and sent independently over shared routes | A dedicated path is set up for the duration of the communication |\n| **Transmission** | Data is sent in individual packets | Data is sent in a continuous stream |\n| **Efficiency** | High – uses bandwidth as needed, paths shared among many users | Low – resources are tied up for each communication, even when idle |\n| **Reliability** | Robust – packets can be rerouted if a failure occurs | Less robust – if the path fails, the call is dropped and must be re-established |\n| **Scalability** | Highly scalable – handles large volumes of data and users | Less scalable – more users require more physical paths |\n| **Use Cases** | Best for emails, web pages, file downloads | Best for real-time communication (voice calls, video conferencing) |\n| **Data Order** | May arrive out of order – requires reassembly | Always arrives in order |\n| **Cost** | Lower – due to shared infrastructure | Higher – due to reserved bandwidth and infrastructure |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Speed can earn a mark when it is stated precisely and tied to the right method. Mark schemes have accepted \"fast data transfer rate\" as a benefit of circuit switching and \"high data transmission rate is possible\" as a benefit of packet switching. Back it up with the reason: circuit switching has the whole bandwidth of the channel available, while packet switching lets packets share bandwidth and take the best route depending on congestion."
+  }
+ ]
+}

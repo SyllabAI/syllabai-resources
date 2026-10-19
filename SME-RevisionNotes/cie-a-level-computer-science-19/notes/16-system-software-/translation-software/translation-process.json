@@ -1,0 +1,209 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RNvrRqy3tNptcVy3",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/16-system-software-/translation-software/translation-process",
+ "title": "Translation Process",
+ "page_title": "Translation Process | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "16-system-software-",
+   "translation-software",
+   "translation-process"
+  ],
+  "section": "16-system-software-",
+  "topic": "translation-software",
+  "leaf": "translation-process"
+ },
+ "titles": {
+  "section": "16. System Software",
+  "topic": "Translation Software",
+  "subtopic": "Translation Process"
+ },
+ "updated_at": "2025-05-19T10:00:57.016Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_8VQwpnTM66wPN9h8",
+  "spcpt_3vWyRRTy5kDyk84q"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 33,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_8VQwpnTM66wPN9h8",
+   "name": "Interpreter execution",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Interpreter execution"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an interpreter?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An interpreter is a type of translator that **executes high-level code line by line**\n- It **does not** convert the entire program into a separate machine code file"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How does it work?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The source code is **read, analysed, and executed** **one line at a time**\n- No complete machine code file is produced, only **immediate execution** happens\n- If there is an error in a line**, execution stops**, and the **error is reported immediately**"
+  },
+  {
+   "type": "table",
+   "md": "| **Feature** | **Explanation** |\n|---|---|\n| No output file | It does **not generate** a standalone `.exe` or machine code file |\n| Immediate execution | Runs the code **as it is interpreted** |\n| Slower execution | Each line is **translated every time** the program runs |\n| Useful for development | Good for testing and debugging during coding |\n| Stops on first error | Detects and reports errors **as they occur** |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Example use cases"
+  },
+  {
+   "type": "bullets",
+   "md": "- Used in **educational tools**, like Python shells or BASIC interpreters\n- Helpful for **rapid prototyping** or when frequent changes are made"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_3vWyRRTy5kDyk84q",
+   "name": "Compilation stages",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Compilation stages"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is compilation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Compilation is a **process **that** translates a program** written in a high-level programming language into machine code\n- **Only machine code** can be executed by a computer\n- There are four stages involved in this process:\n\n  - **Lexical Analysis**\n  - **Syntax Analysis**\n  - **Code Generation**\n  - **Optimisation**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Lexical analysis"
+  },
+  {
+   "type": "bullets",
+   "md": "- In A Level Computer Science, lexical analysis means studying the **words or vocabulary** of a language\n- This stage involves **identifying lexical 'tokens'** in the code\n- Tokens represent small meaningful units in the programming language, such as:\n\n  - **Keywords**\n  \n    - var, const, function, for, while, if\n  - **Identifiers**\n  \n    - Variable names, function names\n  - **Operators**\n  \n    - '+', '++', '-', '*'\n  - **Separators**\n  \n    - ',' ';', '{', '}', '(', ')'"
+  },
+  {
+   "type": "bullets",
+   "md": "- During this stage, unnecessary elements like comments and whitespace are ignored\n- For example, if the following code is being compiled:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`var x = function(x,y) {`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`if(x>2) {`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`return x*y;`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`}`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`return x+y;`\n`}`"
+  },
+  {
+   "type": "bullets",
+   "md": "- The result of lexical analysis is a **token table**"
+  },
+  {
+   "type": "table",
+   "md": "| ** ** | **Token** | **Type** |\n|---|---|---|\n| 1 | var | Keyword |\n| 2 | x | Identifier |\n| 3 | = | Operator |\n| 4 | function | Keyword |\n| 5 | ( | Separator |\n| 6 | x | Identifier |\n| 7 | , | Separators |\n| 8 | y | Identifier |\n| 9 | ) | Separator |\n| 10 | { | Separator |\n| 11 | return | Keyword |\n| 12 | x | Identifier |\n| 13 | * | Operator |\n| 14 | y | Identifier |\n| 15 | ; | Separator |\n| 16 | } | Separator |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Syntax analysis"
+  },
+  {
+   "type": "bullets",
+   "md": "- Now that tokens have been identified, syntax analysis makes sure they all **adhere to the syntax rules** of the programming language\n- A symbol, e.g. '\\$' could be a valid token but not a valid character according to particular programming languages\n- The dollar symbol would be flagged as breaking the syntax rules\n- Other syntax errors programmers commonly make include **mismatched parentheses** or **missing semicolons**\n- If the code passes the syntax analysis, the compiler can create an **Abstract Syntax Tree** (AST)\n- An AST is a graph-based representation of the code being compiled\n- An AST is an efficient way to represent the code for the next step"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Example abstract syntax tree"
+  },
+  {
+   "type": "bullets",
+   "md": "- For the same code as above, the following abstract syntax tree can be created"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/abstract-syntax-tree-2.png",
+   "file": "assets/ec0cf21dde08-abstract-syntax-tree-2.png",
+   "alt": "Abstract syntax tree",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Abstract syntax tree***"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Code generation"
+  },
+  {
+   "type": "bullets",
+   "md": "- This step takes the AST and traverses it to generate ***object code*** that can be executed by the computer"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Optimisation"
+  },
+  {
+   "type": "bullets",
+   "md": "- This step **modifies the code** to make it **more efficient** without changing its functionality\n- This is important to attempt because it** reduces the memory required** to run the code, which leads to faster execution\n- A common optimisation action is** removing duplicate code**\n- If an 'add' function is written twice in the source code, a sophisticated compiler will notice this and include it only once in the object code"
+  }
+ ]
+}

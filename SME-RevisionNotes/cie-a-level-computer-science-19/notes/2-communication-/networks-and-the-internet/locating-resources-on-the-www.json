@@ -1,0 +1,125 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_KM3bdwBxpyvK3pXT",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/2-communication-/networks-and-the-internet/locating-resources-on-the-www",
+ "title": "Locating Resources on the World Wide Web",
+ "page_title": "Locating Resources on the WWW |  A Level Computer Science ",
+ "path": {
+  "segs": [
+   "2-communication-",
+   "networks-and-the-internet",
+   "locating-resources-on-the-www"
+  ],
+  "section": "2-communication-",
+  "topic": "networks-and-the-internet",
+  "leaf": "locating-resources-on-the-www"
+ },
+ "titles": {
+  "section": "2. Communication",
+  "topic": "Networks & the Internet",
+  "subtopic": "Locating Resources on the World Wide Web"
+ },
+ "updated_at": "2025-04-08T10:11:55.727Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fPYbQTsWnWcx9zDT",
+  "spcpt_KW6fV56YSTHZdjss"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 13,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_fPYbQTsWnWcx9zDT",
+   "name": "URL",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "URL"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a URL?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **Uniform Resource Locator** (URL) is a** unique identifier** for a web page, known as the **website address**\n- It is **text-based** to make it easier to remember\n- A user **enters a URL** into a web browser to view a web page\n- An example of a URL is:\n\n  - [https://www.savemyexams.com/a-level/computer-science/](https://www.savemyexams.com/a-level/computer-science/)\n- A URL can typically be split into three parts:\n\n  - **Protocol**\n  - **Domain name**\n  - **Web page/file name**\n- Using the example about the URL would be split as follows:"
+  },
+  {
+   "type": "table",
+   "md": "| **Protocol** | https | Communication method to transfer data between client and server |\n|---|---|---|\n| **Domain name** | [www.savemyexams.com](http://www.savemyexams.com) | Name of the server where the resource is located |\n| **Web page/file name** | /a-level/computer-science/ | Location of the file or resources on the server |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_KW6fV56YSTHZdjss",
+   "name": "DNS",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "DNS"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the Domain Name System (DNS)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **DNS** is like the **Internet’s phone book**\n- It **translates domain names** (like `www.google.com`) into **IP addresses** (like `142.250.180.68`)\n- Computers use IP addresses to **find and connect to servers**\n- When you type a URL into your **browser**:\n\n  - DNS** finds the matching **IP address\n  - Your device **connects to that server** to load the website\n- Without DNS, users would have to **remember the IP address** of every website they visit\n- When a **domain is registered** or its server **IP address changes**, the DNS must be updated\n\n  - This update is called **DNS propagation**, and it may take some time to spread across the internet"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What happens when you type a URL into a web browser?"
+  },
+  {
+   "type": "ordered",
+   "md": "1. The user enters a **URL** into the address bar of the **web browser**\n2. The browser checks its **cache** to see if it already knows the IP address for the website\n3. If not found, it sends the domain name to a **DNS** server, which stores an **index** of domain names and their matching IP addresses\n4. If the DNS server finds the IP address, it sends it back to the **web browser**\n5. If it does not find the IP address, it passes the request on to a **higher-level DNS server**\n6. This may involve contacting:\n\n  - A **root server**, which points to the correct **Top-Level Domain (TLD) server** (e.g. .com, .org),\n  - The **TLD server**, which points to the **authoritative DNS server** for the domain\n7. The **authoritative DNS server** responds with the correct IP address\n8. The web browser then sends a **request** to the web server at that IP address\n9. The **web server** processes the request and sends back the website’s data (such as HTML, images, CSS, and JavaScript)\n10. Finally, the **web browser renders** the content and displays the website to the user"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/04/44828_dns.png",
+   "file": "assets/1d2a26c3e4a7-44828-dns.png",
+   "alt": "Flowchart depicting DNS resolution process: computer connects to DNS resolver, root, TLD, authoritative DNS servers, accesses web server.",
+   "caption": ""
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Complete the following paragraph that describes the sequence of events when a user requests a page from a website.\n\n1. The user enters the Uniform Resource Locator (URL) into the address bar of the ......................................... .\n2. The domain name is taken from the URL and sent to a Domain Name Service (DNS). This stores .................................................. of domain names and their matching IP addresses.\n3. If it finds the domain name, it sends the IP address to the .................................................. .\n4. If it does not find the domain name, it sends the request to ..................................................\n\n**Final answer:** **Answer**\n\n1. Web browser ** [1 mark]**\n2. An index/a list/a table ** [1 mark]**\n3. Web browser ** [1 mark]**\n4. A higher-level DNS ** [1 mark]**"
+  }
+ ]
+}

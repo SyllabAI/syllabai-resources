@@ -1,0 +1,123 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_f3ytqgPWPsBdfsh5",
+ "course_slug": "cie-a-level-physics-25",
+ "url": "https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/10-d-c-circuits/10-3-potential-dividers/potential-dividers",
+ "title": "Potential Dividers",
+ "page_title": "Potential Dividers - CIE A Level Physics Revision Notes",
+ "path": {
+  "segs": [
+   "10-d-c-circuits",
+   "10-3-potential-dividers",
+   "potential-dividers"
+  ],
+  "section": "10-d-c-circuits",
+  "topic": "10-3-potential-dividers",
+  "leaf": "potential-dividers"
+ },
+ "titles": {
+  "section": "10. D.C. Circuits",
+  "topic": "Potential Dividers",
+  "subtopic": "Potential Dividers"
+ },
+ "updated_at": "2026-07-02T08:19:40.408Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_QJZkcR3ytmbpGFPq",
+   "name": "Ashika",
+   "role": "Physics Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_PXpScD7ncs34zBm9",
+   "name": "Caroline Carroll",
+   "role": "Head of Content Delivery"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_QYvc2qtrmWXJn3Xm",
+   "rnl_sKMx8f6V3yP7XvYT",
+   "rnl_sdpGZ3NXcbpBY2rM"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_dDmr9tnpch9tKKF7"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "V_{out}=\\frac{R_{2}}{R_{1}+R_{2}}V_{in}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><msub><mi>R</mi><mn>2</mn></msub><mo>&#160;</mo></mrow><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "V subscript o u t end subscript space equals space fraction numerator R subscript 2 space over denominator R subscript 1 space plus thin space R subscript 2 end fraction V subscript i n end subscript"
+  }
+ ],
+ "stats": {
+  "blocks": 11,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 1
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_dDmr9tnpch9tKKF7",
+   "name": "Potential Divider Circuit",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Potential divider circuit"
+  },
+  {
+   "type": "bullets",
+   "md": "- When two resistors are connected in series, through Kirchhoff’s Second Law, the potential difference across the power source is divided between them\n- Potential dividers are circuits which produce an output voltage as a **fraction** of its input voltage\n- Potential dividers have three main purposes:\n\n  - To provide a variable potential difference\n  - To enable a specific potential difference to be chosen\n  - To split the potential difference of a power source between two or more components\n- Potential dividers are used widely in volume controls and sensory circuits using LDRs and thermistors\n- Potential divider circuits are based on the ratio of voltage between components. This is equal to the ratio of the resistances of the resistors in the diagram below, giving the following equation:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$V_{out}=\\frac{R_{2}}{R_{1}+R_{2}}V_{in}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- The resistance *R*<sub>2</sub> on the numerator of the fraction is always the resistance of the component that *V*<sub>out </sub>is connected to"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Potential divider circuit diagram"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/10-2-1-potential-divider-diagram-and-equation.png",
+   "file": "assets/caa38997590e-10-2-1-potential-divider-diagram-and-equation.png",
+   "alt": "10-2-1-potential-divider-diagram-and-equation",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***A potential divider circuit is a combination of resistors, voltage in from a source and voltage out***"
+  },
+  {
+   "type": "bullets",
+   "md": "- The input voltage V<sub>in</sub> is applied to the top and bottom of the series resistors\n- The output voltage V<sub>out</sub> is measured from the centre to the bottom of resistor *R*<sub>2</sub>\n- The potential difference *V* across each resistor depends upon its resistance *R*:\n\n  - The resistor with the** largest resistance** will have a **greater potential difference** than the other one from *V* = *IR*\n  - If the resistance of one of the resistors is increased, it will get a greater share of the potential difference, whilst the other resistor will get a smaller share\n- In potential divider circuits, the p.d across a component is proportional to its resistance from *V* = *IR*"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The circuit is designed to light up a lamp when the input voltage exceed a preset value.\n\nIt does this by comparing V<sub>out</sub> with a fixed reference voltage of 5.3 V.\n\n![WE - potential divider question image, downloadable AS & A Level Physics revision notes](assets/477adfd889ee-we-potential-divider-question-image.png)\n\nV<sub>out</sub> is equal to 5.3\n\nCalculate the input voltage V<sub>in</sub>.\n\n**Answer:**\n\n**Step 1: List the known quantities**\n\n- Resistance of first resistor, *R*<sub>1</sub> = 20 kΩ\n- Resistance of the second resistor, *R*<sub>2</sub> = 12 kΩ\n- *V*<sub>out </sub>= 5.3 V\n\n**Step 2: State the potential divider equation**\n\n- The *R*<sub>1</sub> is on the numerator as this is the resistor that *V*<sub>out</sub> is from\n\n`V subscript o u t end subscript space equals space open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus thin space R subscript 2 end fraction close parentheses V subscript i n end subscript`\n\n**Step 3: Rearrange for the input voltage, *****V***<sub>**in**</sub>\n\n`V subscript i n end subscript space equals space fraction numerator V subscript o u t end subscript space over denominator open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus thin space R subscript 2 end fraction close parentheses end fraction space equals space open parentheses fraction numerator R subscript 1 space plus thin space R subscript 2 over denominator R subscript 1 end fraction close parentheses V subscript o u t end subscript`\n\n**Step 4: Substitute in values**\n\n`V subscript i n end subscript space equals space open parentheses fraction numerator 12 space plus thin space 20 over denominator 20 end fraction close parentheses space cross times space 5.3 space equals space 8.5 space straight V space open parentheses 2 space straight s. straight f. close parentheses`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Always make sure the correct resistance is in the numerator of the potential divider equation. This will be the resistance of the component you want to find the output voltage of."
+  }
+ ]
+}

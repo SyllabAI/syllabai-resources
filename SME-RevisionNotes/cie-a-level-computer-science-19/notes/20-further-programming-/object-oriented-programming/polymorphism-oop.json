@@ -1,0 +1,195 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_3S8HHY9t6vMfwQKm",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/object-oriented-programming/polymorphism-oop",
+ "title": "Polymorphism (OOP)",
+ "page_title": "Polymorphism (OOP) | CIE A Level Computer Science Revision Notes ",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "object-oriented-programming",
+   "polymorphism-oop"
+  ],
+  "section": "20-further-programming-",
+  "topic": "object-oriented-programming",
+  "leaf": "polymorphism-oop"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Object-Oriented Programming",
+  "subtopic": "Polymorphism (OOP)"
+ },
+ "updated_at": "2025-06-03T10:16:38.020Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_nb6Kj8kq5CKfyjHF",
+  "spcpt_rk33CCQF8Gst9pyS"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 28,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_nb6Kj8kq5CKfyjHF",
+   "name": "Polymorphism (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Polymorphism (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is polymorphism?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In A Level Computer Science**, **polymorphism is a **concept in programming** that allows ***objects*** to take on **different forms or behaviours**\n- Different **objects** can share the same name or behaviour but can work in different ways\n- It helps make code more **flexible**, **reusable**, and **easier **to maintain\n- It allows **flexibility **and **reusability **in programming, making it easier to write and manage code\n- **Objects** can be treated as belonging to a common group, even if they belong to different ***classes***, making your code more versatile and adaptable to changes"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example 1 – method overloading"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/method-overloading.png",
+   "file": "assets/b6da0c9063d1-method-overloading.png",
+   "alt": "Method Overloading Example 1",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Method Overloading Example 1***"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the example above, all three **classes** all have a **method** named `move()`. **Polymorphism** allows methods to be declared with the same name but execute different code (in this case printing different messages)\n- The ***override*** keyword Is used to provide a new **implementation** for a method that is already defined in the parent class (***base class***)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example 2 - method overloading"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/method-overloading2.png",
+   "file": "assets/bbc1cc021504-method-overloading2.png",
+   "alt": "Method Overloading Example 2",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Method Overloading Example 2***"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the above example both the Motorcycle class and the Car class both **inherit** from the base class 'Cars'\n- **Objects **from the Motorcycle Class and the Car class can call the `startEngines()` **method** which will output `\"Engines Started!\"`\n- If either of the object types call the `displayInfo()` method, the program will execute the method from the objects class as it **overrides** the Vehicle class method\n- For example\n\n  - If a motorcycle object calls the `displayInfo() `method,` \"I am a Motorcycle!\"` will be output\n  - If a Car object calls the `displayInfo()` method, `\"I am a Car!\"` will be output"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Treating objects as common groups"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Polymorphism** also allows objects of different classes to be treated as objects of a common **superclass** or **base class**\n- For example:\n\n  - `Vehicle vehicle1 = new Car()`\n  - `Vehicle vehicle2 = new Motorcycle()`\n- This allows an array of type Vehicle to store both Motorcycle and Car objects rather than in separate data structures\n\n  - If the `vehicle1.displayInfo()` method is called, it will still output \"I am a Car!\"\n  - If the `vehicle2.displayInfo()` method is called, it will still output \"I am a Motorcycle!\"\n- This flexibility provided by **polymorphism** are essential for creating more maintainable and modular code"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_rk33CCQF8Gst9pyS",
+   "name": "Programming polymorphism (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Programming polymorphism (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you program polymorphism?"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Run-time polymorphism"
+  },
+  {
+   "type": "bullets",
+   "md": "- This happens when a **subclass overrides a method** defined in a **superclass**, and the correct version is chosen at **run-time**, not compile-time"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Example scenario: Animal, dog, and cat"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step-by-step logic (pseudocode)"
+  },
+  {
+   "type": "ordered",
+   "md": "1. **Define a superclass** called `Animal` with a method `speak()` that does nothing\n2. **Create subclasses** called `Dog` and `Cat` that inherit from `Animal`\n3. In each subclass, **override** the `speak()` method to provide a specific output\n4. Write a function `make_sound(animal)` that **accepts an object** of type `Animal` and calls its `speak()` method\n5. Create instances of `Dog` and `Cat`, and pass them to `make_sound()`"
+  },
+  {
+   "type": "bullets",
+   "md": "- `Animal` is a **base class** with a `speak()` method\n- `Dog` and `Cat` are **subclasses** that override the `speak()` method\n- `make_sound()` takes an `Animal` object but **calls the correct version** of `speak()` depending on whether it’s a `Dog` or a `Cat`\n- This demonstrates **run-time polymorphism** – the method call is resolved based on the actual type of the object"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Python"
+  },
+  {
+   "type": "bullets",
+   "md": "- This shows **method overriding**\n- The `make_sound()` function relies on **dynamic method binding**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Java"
+  },
+  {
+   "type": "bullets",
+   "md": "- Recognise use of a **superclass reference** (`Animal animal`) pointing to a **subclass object**\n- Polymorphism occurs when `animal.speak()` dynamically calls the correct overridden method"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The child class `Helicopter` inherits from the parent class `Vehicle`. A helicopter also has a vertical position and changes the vertical position when it increases speed.\n\n![Diagram of a Helicopter class with attributes VerticalPosition, VerticalChange, MaxHeight, and methods Constructor, GetVerticalPosition, IncreaseSpeed.](assets/526bf98512b5-12657-2025-06-03-0ia-kleki.png)\n\nThe `Helicopter` method `IncreaseSpeed()` overrides the method from the parent\n\nclass and:\n\n- adds the amount of vertical change to the vertical position\n- adds `IncreaseAmount` to the current speed\n- adds the updated current speed to the horizontal position.\n\nThe vertical position of a helicopter cannot exceed its maximum height.\n\nThe current speed of a helicopter cannot exceed its maximum speed.\n\nWrite program code for the method `IncreaseSpeed() `**[4]**\n\n**Final answer:** **Answer**\n\n- Method header (overriding where required) with no parameter **[1 mark]**\n- Adding vertical change to vertical position … **[1 mark]**\n- …limiting to maximum height **[1 mark]**\n- Repeating/calling/using the code from original for horizontal increase (in every case) **[1 mark]**\n\nExample program code:\n\n**VB.NET**\n\n**Java**\n\n**Python**"
+  }
+ ]
+}

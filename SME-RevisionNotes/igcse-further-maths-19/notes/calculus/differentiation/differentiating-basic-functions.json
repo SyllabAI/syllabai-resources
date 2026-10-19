@@ -1,0 +1,575 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_zYGSdvYtzd5NYsMB",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/differentiation/differentiating-basic-functions",
+ "title": " Differentiating Basic Functions",
+ "page_title": " Differentiating Basic Functions | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "differentiation",
+   "differentiating-basic-functions"
+  ],
+  "section": "calculus",
+  "topic": "differentiation",
+  "leaf": "differentiating-basic-functions"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Differentiation",
+  "subtopic": " Differentiating Basic Functions"
+ },
+ "updated_at": "2024-10-20T15:15:35.583Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_WF2fQCGtJgftqVQg",
+  "spcpt_BGg7StnV5sBwkBDx",
+  "spcpt_5gZxgh7z7kWnnc2Y"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "f(x)=x^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals x to the power of n"
+  },
+  {
+   "latex": "f'(x)=nx^{n-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>n</mi><msup><mi>x</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f apostrophe left parenthesis x right parenthesis equals n x to the power of n minus 1 end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "f(x)=ax^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals a x to the power of n"
+  },
+  {
+   "latex": "f^{'}(x)=anx^{n-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>n</mi><msup><mi>x</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight f to the power of apostrophe left parenthesis x right parenthesis equals a n x to the power of n minus 1 end exponent"
+  },
+  {
+   "latex": "f^{'}(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f to the power of apostrophe left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction"
+  },
+  {
+   "latex": "y=ax^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>a</mi><msup><mi>x</mi><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals a x to the power of n"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=anx^{n-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>a</mi><mi>n</mi><msup><mi>x</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals a n x to the power of n minus 1 end exponent"
+  },
+  {
+   "latex": "f(x)=ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals a x"
+  },
+  {
+   "latex": "f^{'}(x)=a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f to the power of apostrophe left parenthesis x right parenthesis equals a"
+  },
+  {
+   "latex": "y=6x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>6</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals 6 x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 6"
+  },
+  {
+   "latex": "f(x)=a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals a"
+  },
+  {
+   "latex": "f^{'}(x)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f to the power of apostrophe left parenthesis x right parenthesis equals 0"
+  },
+  {
+   "latex": "y=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals 5"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 0"
+  },
+  {
+   "latex": "f(x)=2\\sqrt{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis equals 2 square root of x"
+  },
+  {
+   "latex": "f(x)=2x^{\\frac{1}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals 2 x to the power of 1 half end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "f(x)=\\frac{4}{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>4</mn><mi>x</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis equals 4 over x"
+  },
+  {
+   "latex": "f(x)=4x^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>4</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals 4 x to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "f(x)=5x^{4}-3x^{\\frac{2}{3}}+4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>5</mn><msup><mi>x</mi><mn>4</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>+</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals 5 x to the power of 4 minus 3 x to the power of 2 over 3 end exponent plus 4"
+  },
+  {
+   "latex": "f(x)=(2x-3)(x^{2}-4)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis equals left parenthesis 2 x minus 3 right parenthesis left parenthesis x squared minus 4 right parenthesis"
+  },
+  {
+   "latex": "f(x)=2x^{3}-3x^{2}-8x+12",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals 2 x cubed minus 3 x squared minus 8 x plus 12"
+  },
+  {
+   "latex": "2x-3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "2 x minus 3"
+  },
+  {
+   "latex": "x^{2}-4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x squared minus 4"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "f(x)=2x^{3}+\\frac{4}{\\sqrt{x}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>4</mn><msqrt><mi>x</mi></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f left parenthesis x right parenthesis equals 2 x cubed plus fraction numerator 4 over denominator square root of x end fraction"
+  },
+  {
+   "latex": "x>0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>></mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x greater than 0"
+  },
+  {
+   "latex": "\\frac{4}{\\sqrt{x}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>4</mn><msqrt><mi>x</mi></msqrt></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator 4 over denominator square root of x end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{1}{\\sqrt{x}}=x^{-\\frac{1}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>=</mo><msup><mi>x</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator 1 over denominator square root of x end fraction equals x to the power of negative 1 half end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "f^{'}(x)=6x^{2}-2x^{-\\frac{3}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">f</mi><mo mathvariant=\"bold\">'</mo></msup><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mrow><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold f to the power of bold apostrophe stretchy left parenthesis x stretchy right parenthesis bold equals bold 6 bold italic x to the power of bold 2 bold minus bold 2 bold italic x to the power of bold minus bold 3 over bold 2 end exponent"
+  },
+  {
+   "latex": "y=\\mathrm{sin}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">sin</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold sin bold italic x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=\\mathrm{cos}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">cos</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction bold equals bold cos bold italic x"
+  },
+  {
+   "latex": "y=\\mathrm{cos}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">cos</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold cos bold italic x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=-\\mathrm{sin}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold\">sin</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction bold equals bold minus bold sin bold italic x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "y=\\mathrm{sin}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">sin</mi><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold sin bold italic a bold italic x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=a\\mathrm{cos}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold\">cos</mi><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction bold equals bold italic a bold cos bold italic a bold italic x"
+  },
+  {
+   "latex": "y=\\mathrm{cos}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">cos</mi><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold cos bold italic a bold italic x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=-a\\mathrm{sin}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold\">sin</mi><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction bold equals bold minus bold italic a bold sin bold italic a bold italic x"
+  },
+  {
+   "latex": "f^{'}(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space straight f to the power of apostrophe left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "y=\\mathrm{cos}ax\\Rightarrow\\frac{dy}{dx}=-a\\mathrm{sin}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>cos</mi><mi>a</mi><mi>x</mi><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mi>a</mi><mi>sin</mi><mi>a</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals cos a x space rightwards double arrow space fraction numerator straight d y over denominator straight d x end fraction equals negative a sin a x"
+  },
+  {
+   "latex": "a=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 5"
+  },
+  {
+   "latex": "f^{'}(x)=-5\\mathrm{sin}5x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">f</mi><mo mathvariant=\"bold\">'</mo></msup><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold\">sin</mi><mn mathvariant=\"bold\">5</mn><mi mathvariant=\"bold-italic\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold f to the power of bold apostrophe begin bold style stretchy left parenthesis x stretchy right parenthesis end style bold equals bold minus bold 5 bold sin bold 5 bold italic x"
+  },
+  {
+   "latex": "y=3\\mathrm{sin}\\frac{x}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mi>sin</mi><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals 3 sin x over 2"
+  },
+  {
+   "latex": "x=\\frac{π}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals pi over 3"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "y=\\mathrm{sin}ax\\Rightarrow\\frac{dy}{dx}=a\\mathrm{cos}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>sin</mi><mi>a</mi><mi>x</mi><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>a</mi><mi>cos</mi><mi>a</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals sin a x space rightwards double arrow space fraction numerator straight d y over denominator straight d x end fraction equals a cos a x"
+  },
+  {
+   "latex": "a=\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 1 half"
+  },
+  {
+   "latex": "x=\\frac{π}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals pi over 3"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "\\frac{3\\sqrt{3}}{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn mathvariant=\"bold\">3</mn><msqrt><mn mathvariant=\"bold\">3</mn></msqrt></mrow><mn mathvariant=\"bold\">4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold 3 square root of bold 3 over denominator bold 4 end fraction"
+  },
+  {
+   "latex": "y=e^{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><msup><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold-italic\">x</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold e to the power of bold italic x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=e^{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><msup><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold-italic\">x</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction bold equals bold e to the power of bold italic x"
+  },
+  {
+   "latex": "e^{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><mi>x</mi></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight e to the power of x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "y=e^{ax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><msup><mi mathvariant=\"bold\">e</mi><mrow><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold e to the power of bold italic a bold italic x end exponent"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=ae^{ax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">y</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">a</mi><msup><mi mathvariant=\"bold\">e</mi><mrow><mi mathvariant=\"bold-italic\">a</mi><mi mathvariant=\"bold-italic\">x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold italic y over denominator bold d bold italic x end fraction bold equals bold italic a bold e to the power of bold italic a bold italic x end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "e^{kx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>k</mi><mi>x</mi></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "straight e to the power of k x end exponent"
+  },
+  {
+   "latex": "ke^{kx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>k</mi><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "k straight e to the power of k x end exponent"
+  },
+  {
+   "latex": "kxe^{kx-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mi>x</mi><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>k</mi><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "k x straight e to the power of k x minus 1 end exponent"
+  },
+  {
+   "latex": "y=2e^{-3x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathsize=\"16px\">&#160;</mo><mi mathsize=\"16px\">y</mi><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">2</mn><msup><mi mathvariant=\"normal\" mathsize=\"16px\">e</mi><mrow><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">3</mn><mi mathsize=\"16px\">x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space y equals 2 straight e to the power of negative 3 x end exponent"
+  },
+  {
+   "latex": "x=\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space x equals 1 half"
+  },
+  {
+   "latex": "y=e^{ax}\\Rightarrow\\frac{dy}{dx}=ae^{ax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>a</mi><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals straight e to the power of a x end exponent space rightwards double arrow space fraction numerator straight d y over denominator straight d x end fraction equals a straight e to the power of a x end exponent"
+  },
+  {
+   "latex": "x=\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 1 half"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "-6e^{-\\frac{3}{2}}=-\\frac{6}{e\\sqrt{e}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>6</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mo>=</mo><mo>-</mo><mfrac><mn>6</mn><mrow><mi mathvariant=\"normal\">e</mi><msqrt><mi mathvariant=\"normal\">e</mi></msqrt></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "negative 6 straight e to the power of negative 3 over 2 end exponent equals negative fraction numerator 6 over denominator straight e square root of straight e end fraction"
+  },
+  {
+   "latex": "-6e^{-\\frac{3}{2}}=-1.338780...",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>6</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mo>=</mo><mo>-</mo><mn>1</mn><mo>.</mo><mn>338780</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "negative 6 straight e to the power of negative 3 over 2 end exponent equals negative 1.338780..."
+  },
+  {
+   "latex": "-1.34(3s.f.)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">34</mn><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mn>3</mn><mo>&#160;</mo><mi>s</mi><mo>.</mo><mi>f</mi><mo>.</mo></mrow><mo stretchy=\"true\">)</mo></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold minus bold 1 bold. bold 34 bold space bold space begin bold style stretchy left parenthesis 3 space s. f. stretchy right parenthesis end style"
+  }
+ ],
+ "stats": {
+  "blocks": 22,
+  "figures": 0,
+  "worked_examples": 3,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 80
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_WF2fQCGtJgftqVQg",
+   "name": "Differentiating Powers of x",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Differentiating Powers of x"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is differentiation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Differentiation** is the process of finding the **derivative** (**gradient** **function**) of a function"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I differentiate powers of x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Powers of **$x$ are **differentiated** according to the following formula:\n\n  - If$f(x)=x^{n}$ then$f'(x)=nx^{n-1}$\n  \n    - Bring the power down in front as a **multiplier**\n    - Then** subtract 1** from the power\n  - This formula is **not** on the exam formula sheet, so you need to remember it\n- If the power of $x$ term is **multiplied** **by a** **constant **$a$\n\n  - then the derivative is **also** multiplied by that constant\n  \n    - If $f(x)=ax^{n}$  then $f^{'}(x)=anx^{n-1}$\n- The **alternative notation** (to$f^{'}(x)$) is to use $\\frac{dy}{dx}$\n\n  - If $y=ax^{n}$ then $\\frac{dy}{dx}=anx^{n-1}$\n- Don't forget these **two** **special cases**:\n\n  - If$f(x)=ax$ then$f^{'}(x)=a$\n  \n    - e.g.  If $y=6x$ then $\\frac{dy}{dx}=6$\n  - If$f(x)=a$ then$f^{'}(x)=0$\n  \n    - e.g.  If $y=5$  (or if $y$ equals any constant) then $\\frac{dy}{dx}=0$\n- Functions involving **roots** will need to be rewritten as **fractional powers**\n\n  - e.g.  $f(x)=2\\sqrt{x}$\n  \n    - rewrite as$f(x)=2x^{\\frac{1}{2}}$\n    - then differentiate\n- Functions involving **fractions** with $x$ in the **denominator** will need to be rewritten as **negative powers**\n\n  - e.g.  $f(x)=\\frac{4}{x}$\n  \n    - rewrite as$f(x)=4x^{-1}$\n    - then differentiate"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I differentiate sums and differences of powers of x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The formulae can be used to differentiate **sums** or **differences** of **powers** of $x$\n\n  - Just differentiate term by term\n  \n    - e.g. $f(x)=5x^{4}-3x^{\\frac{2}{3}}+4$\n    - `table row cell straight f apostrophe left parenthesis x right parenthesis end cell equals cell 5 cross times 4 x to the power of 4 minus 1 end exponent minus 3 cross times 2 over 3 x to the power of 2 over 3 minus 1 end exponent plus 0 end cell end table`\n    - `table row cell straight f apostrophe left parenthesis x right parenthesis end cell equals cell 20 x cubed minus 2 x to the power of negative 1 third end exponent end cell end table`\n- **Products** and **quotients cannot** be differentiated in this way\n\n  - These need to be **expanded/simplifying** first\n  \n    - e.g.  $f(x)=(2x-3)(x^{2}-4)$\n    - Expand to$f(x)=2x^{3}-3x^{2}-8x+12$\n    - Then differentiate term by term\n    - You **can't** just multiply the derivatives of $2x-3$ and $x^{2}-4$ together!\n  - These can also be differentiated using the **product rule** or **quotient rule**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Be careful with negative and fractional powers\n- It's easy to make a mistake when subtracting 1 from these"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The function$f(x)$ is given by\n\n$f(x)=2x^{3}+\\frac{4}{\\sqrt{x}}$,  where $x>0$\n\nFind the derivative of `straight f open parentheses x close parentheses`.\n\n> *Start by rewriting the *$\\frac{4}{\\sqrt{x}}$* term as a power of *$x$\n\n> *By laws of indices, *$\\frac{1}{\\sqrt{x}}=x^{-\\frac{1}{2}}$\n\n`straight f open parentheses x close parentheses equals 2 x cubed plus 4 x to the power of negative 1 half end exponent`\n\n> *Now differentiate as powers of *$x$\n\n`table row cell straight f to the power of apostrophe open parentheses x close parentheses end cell equals cell 2 open parentheses 3 x to the power of 3 minus 1 end exponent close parentheses plus 4 open parentheses negative 1 half x to the power of negative 1 half minus 1 end exponent close parentheses end cell row blank equals cell 2 open parentheses 3 x squared close parentheses plus 4 open parentheses negative 1 half x to the power of negative 3 over 2 end exponent close parentheses end cell row blank equals cell 6 x squared minus 2 x to the power of negative 3 over 2 end exponent end cell end table`\n\n$f^{'}(x)=6x^{2}-2x^{-\\frac{3}{2}}$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_BGg7StnV5sBwkBDx",
+   "name": "Differentiating Trig Functions",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Differentiating Trig Functions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I differentiate sin and cos?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The derivative of  $y=\\mathrm{sin}x$  is  $\\frac{dy}{dx}=\\mathrm{cos}x$ ** **\n- The derivative of is  $y=\\mathrm{cos}x$  is  $\\frac{dy}{dx}=-\\mathrm{sin}x$\n- If $x$ is **multiplied by a constant** $a$ then\n\n  - the derivative of  $y=\\mathrm{sin}ax$  is  $\\frac{dy}{dx}=a\\mathrm{cos}ax$\n  - the derivative of  $y=\\mathrm{cos}ax$  is  $\\frac{dy}{dx}=-a\\mathrm{sin}ax$\n  \n    - These can be derived by using the **chain rule**\n    - but it's easier (and quicker) just to **remember** them\n- **None of these formulae** are on the exam formula sheet, so you need to remember them\n- For calculus with trigonometric functions angles **must** be measured in **radians**\n\n  - Make sure you know how to change the angle mode on your **calculator**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- As soon as you see a question involving differentiation and trigonometry\n\n  - put your calculator into radians mode"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(a) Given the function `straight f open parentheses x close parentheses equals cos 5 x`, find $f^{'}(x)$.\n\n> *Use  *$y=\\mathrm{cos}ax\\Rightarrow\\frac{dy}{dx}=-a\\mathrm{sin}ax$*  with  *$a=5$\n\n$f^{'}(x)=-5\\mathrm{sin}5x$\n\n(b) A curve has the equation $y=3\\mathrm{sin}\\frac{x}{2}$.\nFind the gradient of the curve at the point where  $x=\\frac{π}{3}$, giving your answer as an exact value.\n\n> *Start by finding *$\\frac{dy}{dx}$\n\n> *Use  *$y=\\mathrm{sin}ax\\Rightarrow\\frac{dy}{dx}=a\\mathrm{cos}ax$*  with  *$a=\\frac{1}{2}$\n\n`fraction numerator straight d y over denominator straight d x end fraction equals 3 open parentheses 1 half cos x over 2 close parentheses equals 3 over 2 cos x over 2`\n\n> *Substitute *$x=\\frac{π}{3}$* into *$\\frac{dy}{dx}$* to find the gradient*\n\n`gradient equals 3 over 2 cos open parentheses fraction numerator open parentheses pi over 3 close parentheses over denominator 2 end fraction close parentheses equals 3 over 2 cos pi over 6 equals 3 over 2 open parentheses fraction numerator square root of 3 over denominator 2 end fraction close parentheses equals fraction numerator 3 square root of 3 over denominator 4 end fraction`\n\n$\\frac{3\\sqrt{3}}{4}$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_5gZxgh7z7kWnnc2Y",
+   "name": "Differentiating e^x",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Differentiating e^x"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I differentiate exponentials?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The derivative of  $y=e^{x}$  is  $\\frac{dy}{dx}=e^{x}$\n\n  - Note that $e^{x}$ is its own derivative!\n- If $x$ is **multiplied by a constant** $a$ then\n\n  - the derivative of  $y=e^{ax}$  is  $\\frac{dy}{dx}=ae^{ax}$\n  \n    - This can be derived by using the **chain rule**\n    - but it's easier (and quicker) just to **remember** it"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember this is not a 'powers of $x$' differentiation\n\n  - the derivative of $e^{kx}$ is $ke^{kx}$, NOT $kxe^{kx-1}$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A curve has the equation$y=2e^{-3x}$.\n\nFind the gradient of the curve at the point where$x=\\frac{1}{2}$, giving your answer correct to 3 significant figures.\n\n> *Differentiate using *$y=e^{ax}\\Rightarrow\\frac{dy}{dx}=ae^{ax}$\n\n`fraction numerator straight d y over denominator straight d x end fraction equals 2 open parentheses negative 3 straight e to the power of negative 3 x end exponent close parentheses equals negative 6 straight e to the power of negative 3 x end exponent`\n\n> *Substitute *$x=\\frac{1}{2}$* into *$\\frac{dy}{dx}$* to find the gradient*\n\n`gradient equals negative 6 straight e to the power of negative 3 open parentheses 1 half close parentheses end exponent equals negative 6 straight e to the power of negative 3 over 2 end exponent`\n\n> *Note that  *$-6e^{-\\frac{3}{2}}=-\\frac{6}{e\\sqrt{e}}$*  is the exact value answer*\n\n> *Use a calculator to find the decimal version*\n\n$-6e^{-\\frac{3}{2}}=-1.338780...$\n\n$-1.34(3s.f.)$"
+  }
+ ]
+}

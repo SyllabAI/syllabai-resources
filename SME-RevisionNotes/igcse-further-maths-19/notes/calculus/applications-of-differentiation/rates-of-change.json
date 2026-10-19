@@ -1,0 +1,584 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_tzms3MNjz7zvPSRK",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/applications-of-differentiation/rates-of-change",
+ "title": "Rates of Change",
+ "page_title": "Rates of Change | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "applications-of-differentiation",
+   "rates-of-change"
+  ],
+  "section": "calculus",
+  "topic": "applications-of-differentiation",
+  "leaf": "rates-of-change"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Applications of Differentiation",
+  "subtopic": "Rates of Change"
+ },
+ "updated_at": "2024-10-20T15:31:52.246Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ZZrY5rw5sBbWbbZy",
+  "spcpt_8jcwyqx46F7WVjRS"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "y=x^{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals x cubed"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=3x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 3 x squared"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "dy\\approx\\frac{dy}{dx}dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi><mo>&#8776;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d y almost equal to fraction numerator straight d y over denominator straight d x end fraction straight d x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d x"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "dy",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d y"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "V=\\frac{4}{3}πr^{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>&#960;</mi><msup><mi>r</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "V equals 4 over 3 pi r cubed"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "\\frac{dV}{dr}=4πr^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow></mfrac><mo>=</mo><mn>4</mn><mi>&#960;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d V over denominator straight d r end fraction equals 4 pi r squared"
+  },
+  {
+   "latex": "\\frac{dr}{dV}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d r over denominator straight d V end fraction"
+  },
+  {
+   "latex": "dy\\approx\\frac{dy}{dx}dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi><mo>&#8776;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "straight d y almost equal to fraction numerator straight d y over denominator straight d x end fraction straight d x"
+  },
+  {
+   "latex": "dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "straight d x"
+  },
+  {
+   "latex": "5\\mathrm{cm}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#160;</mo><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "5 space cm"
+  },
+  {
+   "latex": "15\\mathrm{cm}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>&#160;</mo><msup><mi>cm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "15 space cm squared"
+  },
+  {
+   "latex": "\\mathrm{cm}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>cm</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "cm"
+  },
+  {
+   "latex": "dy\\approx\\frac{dy}{dx}dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi><mo>&#8776;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d y almost equal to fraction numerator straight d y over denominator straight d x end fraction straight d x"
+  },
+  {
+   "latex": "dA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d A"
+  },
+  {
+   "latex": "dr",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d r"
+  },
+  {
+   "latex": "dr\\approx\\frac{dr}{dA}dA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi><mo>&#8776;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow></mfrac><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d r almost equal to fraction numerator straight d r over denominator straight d A end fraction straight d A"
+  },
+  {
+   "latex": "A=4πr^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mn>4</mn><mi>&#960;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "A equals 4 pi r squared"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "\\frac{dA}{dr}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d A over denominator straight d r end fraction"
+  },
+  {
+   "latex": "\\frac{dA}{dr}=8πr",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow></mfrac><mo>=</mo><mn>8</mn><mi>&#960;</mi><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d A over denominator straight d r end fraction equals 8 pi r"
+  },
+  {
+   "latex": "\\frac{dr}{dA}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d r over denominator straight d A end fraction"
+  },
+  {
+   "latex": "dr\\approx\\frac{1}{8πr}dA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi><mo>&#8776;</mo><mfrac><mn>1</mn><mrow><mn>8</mn><mi>&#960;</mi><mi>r</mi></mrow></mfrac><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d r almost equal to fraction numerator 1 over denominator 8 pi r end fraction straight d A"
+  },
+  {
+   "latex": "r=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 5"
+  },
+  {
+   "latex": "dA=15",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi><mo>=</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d A equals 15"
+  },
+  {
+   "latex": "dA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight d A"
+  },
+  {
+   "latex": "100π=314.15...\\mathrm{cm}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>100</mn><mi>&#960;</mi><mo>=</mo><mn>314</mn><mo>.</mo><mn>15</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo><msup><mi>cm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "100 pi equals 314.15... space cm squared"
+  },
+  {
+   "latex": "r=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 5"
+  },
+  {
+   "latex": "0.12\\mathrm{cm}(2s.f.)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">12</mn><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">cm</mi><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mn>2</mn><mo>&#160;</mo><mi>s</mi><mo>.</mo><mi>f</mi><mo>.</mo></mrow><mo stretchy=\"true\">)</mo></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold 0 bold. bold 12 bold space bold cm bold space bold space begin bold style stretchy left parenthesis 2 space s. f. stretchy right parenthesis end style"
+  },
+  {
+   "latex": "\\frac{dV}{dr}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space fraction numerator straight d V over denominator straight d r end fraction"
+  },
+  {
+   "latex": "V",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "V"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space t"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>u</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>u</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator straight d y over denominator straight d u end fraction cross times fraction numerator straight d u over denominator straight d x end fraction"
+  },
+  {
+   "latex": "V",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "V"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "A"
+  },
+  {
+   "latex": "h",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "h"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "\\frac{dy}{dt}=\\frac{dy}{du}\\times\\frac{du}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">y</mi></mrow><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">t</mi></mrow></mfrac><mo mathsize=\"16px\">=</mo><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">y</mi></mrow><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">u</mi></mrow></mfrac><mo mathsize=\"16px\">&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">u</mi></mrow><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d t end fraction equals fraction numerator straight d y over denominator straight d u end fraction cross times fraction numerator straight d u over denominator straight d t end fraction"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "u",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>u</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dy}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d y end fraction"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dv}\\times\\frac{dv}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>u</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>u</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator straight d y over denominator straight d u end fraction cross times fraction numerator straight d u over denominator straight d v end fraction cross times fraction numerator straight d v over denominator straight d x end fraction"
+  },
+  {
+   "latex": "m/s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight m divided by straight s"
+  },
+  {
+   "latex": "\\mathrm{ms}^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>ms</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "ms to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\frac{dV}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>d</mo><mi>V</mi></mrow><mrow><mo>d</mo><mi>t</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "fraction numerator d V over denominator d t end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "\\frac{dV}{dt}=20\\mathrm{cm}^{3}/s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>20</mn><mo>&#160;</mo><msup><mi>cm</mi><mn>3</mn></msup><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d V over denominator straight d t end fraction equals 20 space cm cubed divided by straight s"
+  },
+  {
+   "latex": "\\mathrm{What} \\mathrm{is}\\frac{dx}{dt}\\mathrm{when}x=3\\mathrm{cm}?",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>What</mi><mo>&#160;</mo><mi>is</mi><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>&#160;</mo><mi>when</mi><mo>&#160;</mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>&#160;</mo><mi>cm</mi><mo>?</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "What space is space fraction numerator straight d x over denominator straight d t end fraction space when space x equals 3 space cm ?"
+  },
+  {
+   "latex": "\\frac{dV}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d V over denominator straight d t end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d t end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dt}=\\frac{d?}{d?}\\times\\frac{dV}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mo>?</mo></mrow><mrow><mi mathvariant=\"normal\">d</mi><mo>?</mo></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d t end fraction equals fraction numerator straight d ? over denominator straight d ? end fraction cross times fraction numerator straight d V over denominator straight d t end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dV}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d V end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dt}=\\frac{dx}{dV}\\times\\frac{dV}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d t end fraction equals fraction numerator straight d x over denominator straight d V end fraction cross times fraction numerator straight d V over denominator straight d t end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dV}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d V end fraction"
+  },
+  {
+   "latex": "V=\\mathrm{height}\\times\\mathrm{length}\\times\\mathrm{width}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>=</mo><mi>height</mi><mo>&#215;</mo><mi>length</mi><mo>&#215;</mo><mi>width</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "V equals height cross times length cross times width"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "V",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "V"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{dV}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d V over denominator straight d x end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{dV}{dx}=10x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>10</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d V over denominator straight d x end fraction equals 10 x"
+  },
+  {
+   "latex": "\\frac{dx}{dV}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d V end fraction"
+  },
+  {
+   "latex": "\\frac{dx}{dt}=\\frac{1}{10x}\\times\\frac{dV}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>10</mn><mi>x</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d t end fraction equals fraction numerator 1 over denominator 10 x end fraction cross times fraction numerator straight d V over denominator straight d t end fraction"
+  },
+  {
+   "latex": "\\frac{dV}{dt}=20",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d V over denominator straight d t end fraction equals 20"
+  },
+  {
+   "latex": "\\frac{dx}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d x over denominator straight d t end fraction"
+  },
+  {
+   "latex": "x=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3"
+  },
+  {
+   "latex": "\\mathrm{When}x=3,",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>When</mi><mo>&#160;</mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "When space x equals 3 comma"
+  },
+  {
+   "latex": "\\frac{dx}{dt}=\\frac{2}{3}\\mathrm{cm}/s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold\">x</mi></mrow><mrow><mi mathvariant=\"bold\">d</mi><mi mathvariant=\"bold\">t</mi></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">3</mn></mfrac><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">cm</mi><mo mathvariant=\"bold\">/</mo><mi mathvariant=\"bold\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator bold d bold x over denominator bold d bold t end fraction bold equals bold 2 over bold 3 bold space bold cm bold divided by bold s"
+  }
+ ],
+ "stats": {
+  "blocks": 20,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 85
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZZrY5rw5sBbWbbZy",
+   "name": "Approximations Using Rates of Change",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Approximations Using Rates of Change"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How can I use rates of change to approximate changes in value?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Remember that a **derivative** in maths represents a **rate of change**\n- e.g. if  $y=x^{3}$  then  $\\frac{dy}{dx}=3x^{2}$\n\n  - When  $x=2$,  `fraction numerator straight d y over denominator straight d x end fraction equals 3 open parentheses 2 close parentheses squared equals 12`\n  \n    - That's the **rate of change **of $y$ with respect to $x$ when $x=2$\n  - As soon as $x$ **changes** away from 2, $\\frac{dy}{dx}$ is no longer equal to 12\n  \n    - But it will still be **close to** 12 so long as $x$ is still close to 2\n- We can use this to **approximate** the change in one variable based on a change in the other variable:\n\n  - $dy\\approx\\frac{dy}{dx}dx$\n  - That is, when $x$ changes by a **small amount** $dx$\n  \n    - the **change** in the value of $y$,  $dy$,\n    - will be **approximately** equal to $\\frac{dy}{dx}$ times $dx$\n- This approximation is only **valid** when the change in $x$ is **small**\n\n  - The **smaller** the change in $x$ is,\n  \n    - the **more accurate** the approximation will be\n- You may need to **derive** rates of change starting from standard **geometric formulae**\n\n  - e.g.  the volume of a sphere is  $V=\\frac{4}{3}πr^{3}$\n  - Take the **derivative** with respect to $r$,  $\\frac{dV}{dr}=4πr^{2}$\n  \n    - That's the **rate of change **of volume with respect to radius\n- You may also need to use the relation  `fraction numerator straight d x over denominator straight d y end fraction equals 1 divided by fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d y over denominator straight d x end fraction close parentheses end fraction`\n\n  - e.g. you may need $\\frac{dr}{dV}$ to answer a question\n  \n    - Then  `fraction numerator straight d r over denominator straight d V end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d V over denominator straight d r end fraction close parentheses end fraction equals fraction numerator 1 over denominator 4 pi r squared end fraction`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Look out for calculus questions asking you to 'estimate' or 'approximate' the change in a quantity\n\n  - The  $dy\\approx\\frac{dy}{dx}dx$ approximation is likely to be required\n  - Remember that's only valid when $dx$ is small"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A sphere has a radius of $5\\mathrm{cm}$.\n\nThe surface area of the sphere is increased by $15\\mathrm{cm}^{2}$.\n\nUsing calculus, find an estimate for the increase in the radius of the sphere.  Give your answer in $\\mathrm{cm}$, correct to 2 significant figures.\n\n> *'Using calculus' and 'find an estimate for the increase' are hints that we should use  *$dy\\approx\\frac{dy}{dx}dx$\n\n> *Here we know the change in the surface area, *$dA$\n\n> *We want to estimate the change in the radius, *$dr$\n\n$dr\\approx\\frac{dr}{dA}dA$\n\n> *Write down the formula for the surface area of a sphere from the exam formula sheet*\n\n$A=4πr^{2}$\n\n> *Differentiate that with respect to *$r$* to find *$\\frac{dA}{dr}$* *\n\n$\\frac{dA}{dr}=8πr$\n\n> *But we need *$\\frac{dr}{dA}$* for our approximation formula, so use  *`fraction numerator straight d x over denominator straight d y end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d y over denominator straight d x end fraction close parentheses end fraction`\n\n`fraction numerator straight d r over denominator straight d A end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d A over denominator straight d r end fraction close parentheses end fraction equals fraction numerator 1 over denominator 8 pi r end fraction`\n\n> *Substitute that into the approximation formula*\n\n$dr\\approx\\frac{1}{8πr}dA$\n\n> *We want to know the value of that when *$r=5$* and *$dA=15$\n\n> *(Note that that is a 'small' change, *$dA$*, compared to the total surface area of *$100π=314.15...\\mathrm{cm}^{2}$* when *$r=5$*) *\n\n`straight d r almost equal to fraction numerator 1 over denominator 8 pi open parentheses 5 close parentheses end fraction open parentheses 15 close parentheses equals fraction numerator 3 over denominator 8 pi end fraction equals 0.119366...`\n\n> *Round to 2 significant figures, as required*\n\n$0.12\\mathrm{cm}(2s.f.)$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_8jcwyqx46F7WVjRS",
+   "name": "Connected Rates of Change",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Connected Rates of Change"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is meant by rates of change?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **rate** **of** **change** is a measure of\n\n  - how a quantity is changing\n  - with respect to another quantity\n- Mathematically rates of change are **derivatives**\n\n  - $\\frac{dV}{dr}$ could be\n  \n    - the rate at which the **volume** $V$ of a sphere changes\n    - with respect to how its **radius **$r$ is changing\n- **Context** is important when interpreting positive and negative rates of change\n\n  - A **positive** rate of change indicates an increase\n  \n    - e.g. the change in volume of water as a bathtub fills\n  - A **negative** rate of change indicates a decrease\n  \n    - e.g. the change in volume of water in a leaking bucket\n  - If a question talks about **rate of** **increase** or **decrease**\n  \n    - make sure you use the appropriate sign (+/-)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is meant by connected rates of change?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Connected** **rates** **of** **change** are **connected** by a linking variable or parameter\n\n  - They are also called '**related rates of change**'\n  - Often the linking parameter is **time**, represented by$t$\n  \n    - **seconds** is the standard unit for time\n    - but a question may use other units\n- e.g.  Water running into a large bowl\n\n  - both the **height** and **volume** of water in the bowl change with time\n  - **time** is the linking parameter"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the key ideas involved with connected rates of change?"
+  },
+  {
+   "type": "bullets",
+   "md": "- These questions usually involve the **chain rule **\n\n  - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Different letters** may be used relative to the context\n\n  - e.g. $V$ for **volume, **$A$ for **area, **$h$ for **height, **$r$ for **radius**\n  - For **time** problems you will often use the form  $\\frac{dy}{dt}=\\frac{dy}{du}\\times\\frac{du}{dt}$\n  \n    - where $y$ and $u$ represent other quantities in the question\n- Note that  `fraction numerator straight d x over denominator straight d y end fraction equals 1 divided by fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d y over denominator straight d x end fraction close parentheses end fraction`\n\n  - Use this if you **know** a derivative $\\frac{dy}{dx}$\n  \n    - but you **need to know** the derivative $\\frac{dx}{dy}$ instead\n- Also note that the chain rule can be **extended** to more than two terms on the right-hand side\n\n  - e.g.  $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dv}\\times\\frac{dv}{dx}$\n  - This lets you **connect more variables** using the chain rule\n- Remember, a **derivative** is **not** a **fraction**\n\n  - But if you treat the derivatives on the **right-hand side** of the chain rule as fractions\n  \n    - then their common terms should '**cancel out**'\n    - to give you the derivative on the **left-hand side**\n  - This is a way to **check** a chain rule formula\n  \n    - It can also help you **write** the formula in the first place"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I solve problems involving connected rates of change?"
+  },
+  {
+   "type": "paragraph",
+   "md": "Most **connected rates of change** questions will involve the following steps"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nWrite down the rate of change **given** and the rate of change **required**\n\n  - Write these down as **derivatives**\n  - If **unsure** of the rates of change involved, use the **units** given as a clue\n  \n    - e.g.  $m/s$ (or $\\mathrm{ms}^{-1}$, metres per second)\n    - This would be the rate of change of length with respect to time\n    - The precise 'length of what' would depend on the question\n- **STEP 2**\nUse **chain rule** to form an **equation** connecting these rates of change with a third rate\n\n  - The third rate of change will come from a **related** quantity\n  \n    - e.g. volume, surface area, perimeter\n  - More complicated questions may involve **more than three** rates of change\n  \n    - But those will still be able to be **connected** by the chain rule\n- **STEP 3**\nWrite down the **formula** for a related quantity (volume, etc)\n\n  - This can then be **differentiated**\n  \n    - which will provide a **formula** for one or more of your rates of change\n- **STEP 4**\n**Substitute** all the known values into the chain rule equation\n\n  - Then **solve** for the value you need to know"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- To determine which rate of change to use, look at the units for help\n\n  - e.g.  A rate of 5 **cm**<sup>**3**</sup> *per* **second** implies **volume** *per* **time**\n  - so the rate would likely be $\\frac{dV}{dt}$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A cuboid has a fixed height of 5 cm, and a square cross-section with side length of$x$ cm in the other two dimensions.\n\nThe volume of the cuboid is increasing at a fixed rate of 20 cm<sup>3</sup> per second.\n\nFind the rate at which the side length is increasing at the time when the side length is 3 cm.\n\n> *Write down what is given, and what we need to know*\n\n$\\frac{dV}{dt}=20\\mathrm{cm}^{3}/s$\n\n$\\mathrm{What} \\mathrm{is}\\frac{dx}{dt}\\mathrm{when}x=3\\mathrm{cm}?$\n\n> *Note that length and volume are both given in terms of centimetres, so we won't need to convert any units*\n\n*Write down a chain rule equation connecting *$\\frac{dV}{dt}$* and *$\\frac{dx}{dt}$\n\n$\\frac{dx}{dt}=\\frac{d?}{d?}\\times\\frac{dV}{dt}$\n\n> *The right-hand side should 'cancel out' to be equal with the left-hand side*\n*This means the missing derivative must be *$\\frac{dx}{dV}$\n\n$\\frac{dx}{dt}=\\frac{dx}{dV}\\times\\frac{dV}{dt}$\n\n> *Now we need to find *$\\frac{dx}{dV}$\n\n> *Write down the volume of a cuboid formula, *$V=\\mathrm{height}\\times\\mathrm{length}\\times\\mathrm{width}$\n\n> *Here the height is 5, and the length and width are both *$x$\n\n> *This gives a formula connecting *$V$* and *$x$\n\n`table row V equals cell 5 cross times x cross times x end cell row blank equals cell 5 x squared end cell end table`\n\n> *Now differentiate that with respect to *$x$\n\n> *That will give a formula for *$\\frac{dV}{dx}$* in terms of *$x$\n\n$\\frac{dV}{dx}=10x$\n\n> *But our chain rule formula needs  *$\\frac{dx}{dV}$\n\n> *We can find this using  *`fraction numerator straight d x over denominator straight d y end fraction equals fraction numerator 1 over denominator open parentheses begin display style fraction numerator straight d y over denominator straight d x end fraction end style close parentheses end fraction`\n\n`fraction numerator straight d x over denominator straight d V end fraction equals fraction numerator 1 over denominator open parentheses begin display style fraction numerator straight d V over denominator straight d x end fraction end style close parentheses end fraction equals fraction numerator 1 over denominator 10 x end fraction`\n\n> *Substitute that into the chain rule formula*\n\n$\\frac{dx}{dt}=\\frac{1}{10x}\\times\\frac{dV}{dt}$\n\n> *We know *$\\frac{dV}{dt}=20$*, and we want to know *$\\frac{dx}{dt}$* when *$x=3$\n\n> *Substitute those values into the chain rule formula*\n\n$\\mathrm{When}x=3,$\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator straight d x over denominator straight d t end fraction end cell equals cell fraction numerator 1 over denominator 10 open parentheses 3 close parentheses end fraction cross times 20 end cell row blank equals cell 20 over 30 end cell row blank equals cell 2 over 3 end cell end table`\n\n> *Don't forget the units when giving your final answer!*\n\n$\\frac{dx}{dt}=\\frac{2}{3}\\mathrm{cm}/s$"
+  }
+ ]
+}

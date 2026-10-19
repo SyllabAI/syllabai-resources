@@ -1,0 +1,134 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_DzpCkyt68fDhrKHh",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/2-communication-/networks-and-the-internet/bit-streaming",
+ "title": "Bit Streaming",
+ "page_title": "Bit Streaming | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "2-communication-",
+   "networks-and-the-internet",
+   "bit-streaming"
+  ],
+  "section": "2-communication-",
+  "topic": "networks-and-the-internet",
+  "leaf": "bit-streaming"
+ },
+ "titles": {
+  "section": "2. Communication",
+  "topic": "Networks & the Internet",
+  "subtopic": "Bit Streaming"
+ },
+ "updated_at": "2025-07-17T08:14:56.761Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ccrHb7KW3B3n5tJw",
+  "spcpt_3b5r4Z2m8RkvYPfP"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 16,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Bit streaming"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is bit streaming?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Bit streaming is the **continuous flow of data (bits)** sent over the internet or a network\n- Commonly used for **real-time services** like **video, audio, or live broadcasts**\n- Data is sent in **small chunks** so it can be **played back immediately**\n- Reduces the need to **download the entire file before use**\n- Bit streaming can be categorised into two types**:**\n\n  - **Real-time**\n  - **On-demand**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ccrHb7KW3B3n5tJw",
+   "name": "Real-time vs on-demand",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Real-time vs on-demand"
+  },
+  {
+   "type": "table",
+   "md": "| **Feature** | **Real-time streaming** | **On-demand streaming** |\n|---|---|---|\n| **What is it?** | Watching something **live as it happens** | Watching something **whenever you choose** |\n| **Examples** | Live sports, live news, online gaming, video calls | Netflix, YouTube, Amazon Prime |\n| **Timing** | **Streamed and watched at the same time** | **You choose when to watch** |\n| **Delays (latency)** | Needs **low delay** to feel live | Can handle **small delays** thanks to buffering |\n| **Internet needed** | Needs a **strong and steady connection** | Can adjust quality based on your connection (adaptive bitrate) |\n| **Playback controls** | Usually **no pause or rewind** during live events | You can **pause, rewind, or skip** as needed |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_3b5r4Z2m8RkvYPfP",
+   "name": "Factors affecting bit streaming",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Factors affecting bit streaming"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What factors can affect bit streaming?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There are **two **main factors to consider when using bit streaming, they are:\n\n  - **Bit rate**\n  - **Broadband speeds**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Bit rate"
+  },
+  {
+   "type": "bullets",
+   "md": "- Bit rate is the **amount of data able to be transmitted in a specified unit of time** (usually seconds)\n- Streaming platforms will **adjust bit rates** based on network performance"
+  },
+  {
+   "type": "table",
+   "md": "| Feature | Higher bit rate | Lower bit rate |\n|---|---|---|\n| **Quality** | Allows for **higher quality **content (HD / 4K) | **Lower quality **– more pixelation or blurriness |\n| **Visual & audio clarity** | **Sharper and clearer **images and sound | May look **blurry**, especially during fast movement |\n| **Bandwidth usage** | Uses **more network bandwidth** | Uses **less bandwidth** |\n| ***Buffering*** | May require a** larger buffer** to maintain quality | **Smaller buffer** can be enough, but more frequent buffering likely on poor connections |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Broadband speeds"
+  },
+  {
+   "type": "bullets",
+   "md": "- Broadband speeds affects **how well data can be streamed**\n- Faster speeds = **better quality** and **smoother playback**"
+  },
+  {
+   "type": "table",
+   "md": "| **Aspect** | **High-speed broadband** | **Slow/restricted broadband** |\n|---|---|---|\n| **Network capacity** | Handles **higher bit rates** | Can’t support **high bit rates** |\n|   | Allows **multiple devices** to stream smoothly | **Limited bandwidth** affects overall network performance |\n|   | Supports **HD/4K quality** | May force streams to use **lower resolution** |\n| **User experience** | **Smoother streaming** with minimal buffering | **Frequent buffering** and interruptions |\n|   | **Clear visuals and audio** | **Pixelation and lower sound quality** |\n|   | Ideal for **real-time content** (e.g. gaming, video calls) | Struggles with **live or interactive services** |"
+  }
+ ]
+}

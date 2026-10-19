@@ -1,0 +1,394 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_CsZKPc9xv4ZdybMg",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/series/binomial-series/binomial-expansion",
+ "title": "Binomial Expansion",
+ "page_title": "Binomial Expansion | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "series",
+   "binomial-series",
+   "binomial-expansion"
+  ],
+  "section": "series",
+  "topic": "binomial-series",
+  "leaf": "binomial-expansion"
+ },
+ "titles": {
+  "section": "Series",
+  "topic": "Binomial Series",
+  "subtopic": "Binomial Expansion"
+ },
+ "updated_at": "2024-10-20T08:04:32.843Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_3hw656HdGSpfGzT2"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "b"
+  },
+  {
+   "latex": "n!",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>!</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n factorial"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "n!=1\\times2\\times3\\times...\\timesn",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>!</mo><mo>=</mo><mn>1</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#215;</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n factorial equals 1 cross times 2 cross times 3 cross times... cross times n"
+  },
+  {
+   "latex": "r=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 0"
+  },
+  {
+   "latex": "r=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 1"
+  },
+  {
+   "latex": "r=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 2"
+  },
+  {
+   "latex": "r=n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals n"
+  },
+  {
+   "latex": "n+1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic n bold plus bold 1"
+  },
+  {
+   "latex": "p^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>p</mi><mi>n</mi></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "p to the power of n"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "b"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "n=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 0"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "r=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 0"
+  },
+  {
+   "latex": "r=n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals n"
+  },
+  {
+   "latex": "n=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 5"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "(p+qx)^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mrow><mo>(</mo><mi>p</mi><mo>+</mo><mi>q</mi><mi>x</mi><mo>)</mo></mrow><mi>n</mi></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "left parenthesis p plus q x right parenthesis to the power of n"
+  },
+  {
+   "latex": "x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x squared"
+  },
+  {
+   "latex": "a=p,b=qx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>p</mi><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mi>b</mi><mo>=</mo><mi>q</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals p comma space space b equals q x"
+  },
+  {
+   "latex": "r=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 2"
+  },
+  {
+   "latex": "(p+qx^{2})^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mrow><mo>(</mo><mi>p</mi><mo>+</mo><mi>q</mi><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo></mrow><mpadded voffset=\"-2px\"><mi>n</mi></mpadded></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "left parenthesis p plus q x squared right parenthesis to the power of n"
+  },
+  {
+   "latex": "x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x squared"
+  },
+  {
+   "latex": "a=p,b=qx^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>p</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>=</mo><mi>q</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals p comma space b equals q x squared"
+  },
+  {
+   "latex": "r=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 1"
+  },
+  {
+   "latex": "x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x squared"
+  },
+  {
+   "latex": "a=px,b=\\frac{q}{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>p</mi><mi>x</mi><mo>&#160;</mo><mo>,</mo><mi>b</mi><mo>=</mo><mfrac><mi>q</mi><mrow><mi>x</mi><mo>&#160;</mo><mo>&#160;</mo></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a equals p x space comma b equals fraction numerator q over denominator x space space end fraction"
+  },
+  {
+   "latex": "r=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "r equals 2"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "a=x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals x"
+  },
+  {
+   "latex": "b=y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "b equals y"
+  },
+  {
+   "latex": "n=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 4"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "(x+y)^{4}=x^{4}+4x^{3}y+6x^{2}y^{2}+4xy^{3}+y^{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy=\"true\">)</mo></mstyle><mn mathvariant=\"bold\">4</mn></msup><mo mathvariant=\"bold\">=</mo><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">4</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">3</mn></msup><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><msup><mi mathvariant=\"bold-italic\">y</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">4</mn><mi mathvariant=\"bold-italic\">x</mi><msup><mi mathvariant=\"bold-italic\">y</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\">+</mo><msup><mi mathvariant=\"bold-italic\">y</mi><mn mathvariant=\"bold\">4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "stretchy left parenthesis x plus y stretchy right parenthesis to the power of bold 4 bold equals bold italic x to the power of bold 4 bold plus bold 4 bold italic x to the power of bold 3 bold italic y bold plus bold 6 bold italic x to the power of bold 2 bold italic y to the power of bold 2 bold plus bold 4 bold italic x bold italic y to the power of bold 3 bold plus bold italic y to the power of bold 4"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "(3-2x)^{5}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>3</mn><mo>-</mo><mn>2</mn><mi>x</mi><msup><mo>)</mo><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "left parenthesis 3 minus 2 x right parenthesis to the power of 5"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 3"
+  },
+  {
+   "latex": "b=-2x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi><mo>=</mo><mo>-</mo><mn>2</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "b equals negative 2 x"
+  },
+  {
+   "latex": "n=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 5"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x squared"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "(3-2x)^{5}=243-810x+1080x^{2}+...",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mrow><mn>3</mn><mo>-</mo><mn>2</mn><mi>x</mi></mrow><mo stretchy=\"true\">)</mo></mstyle><mn mathvariant=\"bold\">5</mn></msup><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">243</mn><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">810</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">1080</mn><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mo mathvariant=\"bold\">.</mo><mo mathvariant=\"bold\">.</mo><mo mathvariant=\"bold\">.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "stretchy left parenthesis 3 minus 2 x stretchy right parenthesis to the power of bold 5 bold equals bold 243 bold minus bold 810 bold italic x bold plus bold 1080 bold italic x to the power of bold 2 bold plus bold. bold. bold."
+  }
+ ],
+ "stats": {
+  "blocks": 15,
+  "figures": 1,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 52
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_3hw656HdGSpfGzT2",
+   "name": "Binomial Expansion",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binomial Expansion"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the Binomial Expansion?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **binomial expansion **gives a method for expanding a **two-term** expression in a bracket raised to a power\n\n  - For example  `open parentheses a plus b close parentheses to the power of n`\n  - You may also see it referred to as the binomial theorem\n  - In this note $n$ will be a **positive integer**\n  \n    - See the 'General Binomial Expansion' revision note for the general case\n- To **expand** a bracket with a two-term expression in it:\n\n  - Determine what $a$* *and $b$ are for your example\n  - Then use the **formula** **for the binomial expansion**\n  \n    - `open parentheses a plus b close parentheses to the power of n space equals space a to the power of n space plus space open parentheses table row n row 1 end table close parentheses space a to the power of n minus 1 space end exponent b space plus space horizontal ellipsis space plus space open parentheses table row n row r end table close parentheses space a to the power of n minus r end exponent b to the power of r space plus space horizontal ellipsis space plus space b to the power of n`\n  - `open parentheses table row n row r end table close parentheses`  in the formula is known as the **binomial coefficient**\n  \n    - `open parentheses table row n row r end table close parentheses space equals space fraction numerator n factorial over denominator r factorial open parentheses n minus r close parentheses factorial end fraction space equals space fraction numerator n open parentheses n minus 1 close parentheses... open parentheses n minus r plus 1 close parentheses over denominator r factorial end fraction`\n    - $n!$ (\"$n$ factorial\") is defined by $n!=1\\times2\\times3\\times...\\timesn$\n    - You may also see `open parentheses table row n row r end table close parentheses`  written as `scriptbase straight C subscript r end scriptbase presubscript blank presuperscript n`\n    - Your **calculator** should be able to calculate `open parentheses table row n row r end table close parentheses` for you\n    - Or you can use **Pascal's triangle** (see the next section)\n- To get **all the terms**\n\n  - **Start** with $r=0$\n  - Then use  $r=1$, $r=2$,...  **until **you get up to** **$r=n$\n  - So there will always be $n+1$ **terms** in the full expansion\n- This version of the binomial expansion formula is **not** on the exam **formula sheet**\n\n  - But it is a special case of the Binomial Series formula for `open parentheses 1 plus x close parentheses to the power of n` which is on the formula sheet\n  - See the 'General Binomial Expansion' revision note\n- When expanding something like `open parentheses p plus q x close parentheses to the power of n` you may only be asked to find the **first few terms** of an expansion\n\n  - Check whether the question wants **ascending** or **descending **powers of *x*\n  \n    - For **ascending **powers start with the constant term, $p^{n}$\n    - For **descending **powers start with the term with $x$*, *`open parentheses q x close parentheses to the power of n`\n    - Choosing $a$ and $b$ appropriately will make it easier to follow the formula above\n- If you are **not writing the full expansion** you can either\n\n  - show that the series continues by putting an **ellipsis** (…) after your final term\n  - or show that the terms you have found are an **approximation** of the full series by using the 'approximately equals' sign (≈)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Finding binomial coefficients using Pascal's triangle"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Pascal’s triangle** is a way of arranging (and finding!) the binomial coefficients\n\n  - The **first row** has just the number 1\n  - Each row **begins and ends** **with a 1**\n  - Starting in the **third row**\n  \n    - Each other terms is the **sum** of the two terms immediately above it"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/4.1.1-Binomial-Expansion-Notes-Diagram-3-1024x868-1.png",
+   "file": "assets/c1d5880eaf55-4-1-1-binomial-expansion-notes-diagram-3-1024x86.png",
+   "alt": "Pascal's Triangle",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Pascal’s triangle is an alternative way of finding the **binomial coefficients** `open parentheses table row n row r end table close parentheses`  (also written `scriptbase straight C subscript r end scriptbase presubscript blank presuperscript n` )\n\n  - It can be useful for finding the values of the coefficients without a calculator\n  \n    - Most useful for smaller values of $n$\n    - For larger values of $n$ it is slow and prone to arithmetic errors"
+  },
+  {
+   "type": "bullets",
+   "md": "- Taking the first row as corresponding to $n=0$,\n\n  - each row gives the binomial coefficient values for the corresponding value of $n$\n  - within a row the values run from $r=0$ to $r=n$\n  - e.g. from the 6<sup>th</sup> row of the table ($n=5$):\n  \n    - `open parentheses a plus b close parentheses to the power of 5 equals a to the power of 5 plus bold 5 a to the power of 4 b plus bold 10 a cubed b squared plus bold 10 a squared b cubed plus bold 5 a b to the power of 4 plus b to the power of 5`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the coefficient of a single term?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You may just be asked to find the **coefficient of a single term**, rather than the whole expansion\n- Use the formula for the **general term**\n\n  - `open parentheses table row n row r end table close parentheses space a to the power of n minus r end exponent space b to the power of r`"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find a **particular power of **$x$** term** in an expansion\n\n  - Choose which **value of **$r$* * you will need to use in the formula\n  - The **laws of indices** can help you decide which value of $r$*  *to use:\n  \n    - For $(p+qx)^{n}$,*  *to find the coefficient of $x^{2}$* *let  $a=p,b=qx$ and use $r=2$\n    - For $(p+qx^{2})^{n}$,  to find the coefficient of $x^{2}$* *let  $a=p,b=qx^{2}$ and use $r=1$\n    - For something like `open parentheses p x plus q over x close parentheses to the power of n`, you need to consider how the powers will cancel each other\n    \n      - `equation`E.g. for `open parentheses p x plus q over x close parentheses to the power of 6` , to find the coefficient of $x^{2}$ let $a=px,b=\\frac{q}{x}$ and user $r=2$\n      - Because then `x to the power of n minus r end exponent space open parentheses 1 over x close parentheses to the power of r equals x to the power of 6 minus 2 space end exponent open parentheses 1 over x close parentheses to the power of 2 space end exponent equals x to the power of 4 open parentheses 1 over x squared close parentheses equals x squared\n      space space`\n    - There are a lot of variations, so **practice** is better than trying to memorise formulae for $r$!\n- If you know the **coefficient** of a particular term, you can use it to find an **unknown** in the brackets\n\n  - Use the **laws of indices** to choose the correct term\n  - Then use the **general term** formula to form and solve an equation"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Binomial expansion questions can get messy\n\n  - Use separate lines to keep your working clear\n  - And always put terms in brackets"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Using the binomial expansion, find the complete expansion of  `open parentheses x plus y close parentheses to the power of 4`.\n\n> *Use the formula with *$a=x$*, *$b=y$* and *$n=4$\n$r$* will run from 0 to 4, so there will be 5 terms*\n\n`open parentheses x plus y close parentheses to the power of 4 equals open parentheses table row 4 row 0 end table close parentheses x to the power of 4 plus open parentheses table row 4 row 1 end table close parentheses x cubed y plus open parentheses table row 4 row 2 end table close parentheses x squared y squared plus open parentheses table row 4 row 3 end table close parentheses x y cubed plus open parentheses table row 4 row 4 end table close parentheses y to the power of 4`\n\n> *Now just work out the values of the binomial coefficients*\n*You can use the formula, your calculator or Pascal's triangle*\n\n> *Note that  *`open parentheses table row 4 row 0 end table close parentheses equals open parentheses table row 4 row 4 end table close parentheses equals 1`\n*That's why we usually don't bother writing the binomial coefficients for the first and last terms of an expansion!*\n\n> $(x+y)^{4}=x^{4}+4x^{3}y+6x^{2}y^{2}+4xy^{3}+y^{4}$* *"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Find the first three terms, in ascending powers of $x$, in the expansion of $(3-2x)^{5}$.\n\n> *For ascending powers of *$x$* we want to start with the constant term*\n\n> *So we want to use the formula with *$a=3$*, *$b=-2x$*, and *$n=5$\n\n> *For the first three terms (constant term, *$x$* term  and *$x^{2}$* term) we want *$r$* from 0 to 2*\n\n> *Substitute those values into the formula*\n\n`open parentheses 3 minus 2 x close parentheses to the power of 5 equals open parentheses 3 close parentheses to the power of 5 plus open parentheses table row 5 row 1 end table close parentheses open parentheses 3 close parentheses to the power of 4 open parentheses negative 2 x close parentheses plus open parentheses table row 5 row 2 end table close parentheses open parentheses 3 close parentheses cubed open parentheses negative 2 x close parentheses squared plus...`\n\n> *Find the value of the binomial coefficients and bring the powers inside the brackets*\n*Be careful with the minus signs!*\n\n> * *`open parentheses 3 minus 2 x close parentheses to the power of 5 equals 243 plus open parentheses 5 close parentheses open parentheses 81 close parentheses open parentheses negative 2 x close parentheses plus open parentheses 10 close parentheses open parentheses 27 close parentheses open parentheses 4 x squared close parentheses plus...`\n\n> *Expand the remaining brackets and write down the final answer*\n\n$(3-2x)^{5}=243-810x+1080x^{2}+...$"
+  }
+ ]
+}

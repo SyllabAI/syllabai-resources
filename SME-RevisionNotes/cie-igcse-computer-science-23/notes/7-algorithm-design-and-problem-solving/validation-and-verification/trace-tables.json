@@ -1,0 +1,104 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_h8jVTryX6X9yht98",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/7-algorithm-design-and-problem-solving/validation-and-verification/trace-tables",
+ "title": "Trace Tables",
+ "page_title": "Trace Table in Computer Science - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "7-algorithm-design-and-problem-solving",
+   "validation-and-verification",
+   "trace-tables"
+  ],
+  "section": "7-algorithm-design-and-problem-solving",
+  "topic": "validation-and-verification",
+  "leaf": "trace-tables"
+ },
+ "titles": {
+  "section": "7. Algorithm Design & Problem-Solving",
+  "topic": "Validation & Verification",
+  "subtopic": "Trace Tables"
+ },
+ "updated_at": "2024-04-17T12:10:09.491Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_y9hvyjgdN6XfftMK"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 9,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_y9hvyjgdN6XfftMK",
+   "name": "Trace Tables",
+   "definition": "\"7 Complete a trace table to document a dry-run of\nan algorithm\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Trace Tables"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a trace table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A trace table is **used to test algorithms and programs for logic errors** that appear when an algorithm or program executes\n- Trace tables can be used with **flowcharts, pseudocode **or **program code**\n- A trace table can be used to:\n\n  - **Discover the purpose of an algorithm **by showing output data and intermediary steps\n  - **Record the state of the algorithm **at each step or iteration\n- Each** stage of the algorithm is executed step by step**.\n- Inputs, outputs, variables and processes can be **checked for the correct value **when the stage is completed"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Trace table walkthrough"
+  },
+  {
+   "type": "bullets",
+   "md": "- Below is a flowchart to determine the **highest number of ten user-entered numbers**\n- The algorithm prompts the user to enter the first number which automatically becomes the highest number entered\n- The user is then prompted to enter nine more numbers.\n\n  - If a new number is higher than an older number then it is replaced\n- Once all ten numbers are entered, the algorithm outputs which number was the highest\n- Example test data to be used is: **4, 3, 7, 1, 8, 3, 6, 9, 12, 10**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/05/unnamed-8.png",
+   "file": "assets/e2a880c7919d-unnamed-8.png",
+   "alt": "flowchart question",
+   "caption": null
+  },
+  {
+   "type": "table",
+   "md": "| **Trace table: Highest number** |   |   |   |\n|---|---|---|---|\n| **Count** | **Highest** | **Number** | **Output** |\n| 1 |   |   | Enter ten numbers |\n|   | 4 |   | Enter your first number |\n| 2 |   | 3 | Enter your next number |\n| 3 | 7 | 7 |   |\n| 4 |   | 1 |   |\n| 5 | 8 | 8 |   |\n| 6 |   | 3 |   |\n| 7 |   | 6 |   |\n| 8 | 9 | 9 |   |\n| 9 | 12 | 12 |   |\n| 10 |   | 10 | 12 is your highest number |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The flowchart represents an algorithm. The algorithm will terminate if –1 is entered.\n\n![unnamed-9](assets/69078d9c93cb-unnamed-9.png)\n\nComplete the trace table for the input data: 50, 75, 99, 28, 82, 150, –1, 672, 80\n\n**[4]**\n\n| Value | Diff1 | Diff2 | Output |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n\n**Answer**\n\n**Final answer:** **[1] for each correct column**\n\n| Value | Diff1 | Diff2 | Output |\n|---|---|---|---|\n| 50 | 50 | 0 | Accept: Extreme |\n| 75 | 25 | 25 | Accept: Normal |\n| 99 | 1 | 49 | Accept: Normal |\n| 28 |   |   | Reject: Abnormal |\n| 82 | 18 | 32 | Accept: Normal |\n| 150 |   |   | Reject: Abnormal |\n| -1 |   |   |   |"
+  }
+ ]
+}

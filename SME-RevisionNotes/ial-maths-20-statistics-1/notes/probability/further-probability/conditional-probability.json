@@ -1,0 +1,480 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_28zyCcjZYNrHbbX8",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/probability/further-probability/conditional-probability",
+ "title": "Conditional Probability",
+ "page_title": "Conditional Probability | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "probability",
+   "further-probability",
+   "conditional-probability"
+  ],
+  "section": "probability",
+  "topic": "further-probability",
+  "leaf": "conditional-probability"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Further Probability",
+  "subtopic": "Conditional Probability"
+ },
+ "updated_at": "2026-07-02T08:19:38.303Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_Sq8mj7zjNqNT3zbP",
+   "rnl_cWg4PkGV2PWM9gVK",
+   "rnl_J8G6jkfZDttXffdD",
+   "rnl_5zgsCmKMQmpY5rSS",
+   "rnl_X8T84fMh5hjxZ854"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Gt3d7rKV2X8h4pwd",
+  "spcpt_mpb85fVZSQGr3tkK",
+  "spcpt_JT3NWnKdmfk6J6mh"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "ℕ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">ℕ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight natural numbers"
+  },
+  {
+   "latex": "ℝ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">ℝ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight real numbers"
+  },
+  {
+   "latex": "ξ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>ξ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "xi"
+  },
+  {
+   "latex": "E",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"script\">E</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "calligraphic E"
+  },
+  {
+   "latex": "notA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>A</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n o t space A"
+  },
+  {
+   "latex": "notB",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>B</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n o t space B"
+  },
+  {
+   "latex": "notC",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>C</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style n o t space C end style"
+  },
+  {
+   "latex": "A',B',C'",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>A</mi><mo>'</mo><mo>,</mo><mo> </mo><mi>B</mi><mo>'</mo><mo>,</mo><mo> </mo><mi>C</mi><mo>'</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style A apostrophe comma space B apostrophe comma space C apostrophe end style"
+  },
+  {
+   "latex": "A'",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>A</mi><mo>'</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style A apostrophe end style"
+  },
+  {
+   "latex": "A\\capB",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>A</mi><mo>∩</mo><mi>B</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A intersection B"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "B"
+  },
+  {
+   "latex": "P(A\\capB)=P(A)\\timesP(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>×</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "union"
+  },
+  {
+   "latex": "A\\cupB",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">∪</mo><mi mathsize=\"16px\">B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A union B"
+  },
+  {
+   "latex": "P(A\\cupB)=P(A)+P(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">∪</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">+</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A union B right parenthesis equals straight P left parenthesis A right parenthesis plus straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "\\emptyset",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∅</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "empty set"
+  },
+  {
+   "latex": "\\emptyset",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo mathsize=\"16px\">∅</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "empty set"
+  },
+  {
+   "latex": "P(A')=1-P(A)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>'</mo><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A apostrophe right parenthesis equals 1 minus straight P left parenthesis A right parenthesis"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style intersection end style"
+  },
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "union"
+  },
+  {
+   "latex": "(A\\cupB)'=A'\\capB'",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>'</mo><mo>=</mo><mi>A</mi><mo>'</mo><mo>∩</mo><mi>B</mi><mo>'</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "left parenthesis A union B right parenthesis apostrophe equals A apostrophe intersection B apostrophe"
+  },
+  {
+   "latex": "(A\\capB)'=A'\\cupB'",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">∩</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">'</mo><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">'</mo><mo mathsize=\"16px\">∪</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">'</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "left parenthesis A intersection B right parenthesis apostrophe equals A apostrophe union B apostrophe"
+  },
+  {
+   "latex": "S",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>S</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S"
+  },
+  {
+   "latex": "D",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "D"
+  },
+  {
+   "latex": "P(S)=2P(D),P(S\\cupD)=0.9",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>D</mi><mo>)</mo><mo>,</mo><mo> </mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>∪</mo><mi>D</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S right parenthesis equals 2 straight P left parenthesis D right parenthesis comma space straight P left parenthesis S union D right parenthesis space equals space 0.9 space"
+  },
+  {
+   "latex": "P(S\\capD)=0.3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>∩</mo><mi>D</mi><mo>)</mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S intersection D right parenthesis equals space 0.3"
+  },
+  {
+   "latex": "P(S')",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>'</mo><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S apostrophe right parenthesis"
+  },
+  {
+   "latex": "P(S'\\capD)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>'</mo><mo>∩</mo><mi>D</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S apostrophe intersection D right parenthesis"
+  },
+  {
+   "latex": "P(S\\cupD')",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>∪</mo><mi>D</mi><mo>'</mo><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S union D apostrophe right parenthesis"
+  },
+  {
+   "latex": "P((S\\cupD)')",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>(</mo><mi>S</mi><mo>∪</mo><mi>D</mi><mo>)</mo><mo>'</mo><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis left parenthesis S union D right parenthesis apostrophe right parenthesis"
+  },
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style union end style"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style intersection end style"
+  },
+  {
+   "latex": "\\frac{5}{8}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>5</mn><mn>8</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style 5 over 8 end style"
+  },
+  {
+   "latex": "P(A\\capB)=P(A)\\timesP(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">∩</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">×</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "A,B\\mathrm{and}C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>,</mo><mo> </mo><mi>B</mi><mo> </mo><mi>and</mi><mo> </mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A comma space B space and space C"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "B"
+  },
+  {
+   "latex": "C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "C"
+  },
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style union end style"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style intersection end style"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "intersection"
+  },
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "union"
+  },
+  {
+   "latex": "P\\capQ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>∩</mo><mi>Q</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P intersection Q"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Q"
+  },
+  {
+   "latex": "P\\cupQ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">∪</mo><mi mathsize=\"16px\">Q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P union Q"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Q"
+  }
+ ],
+ "stats": {
+  "blocks": 35,
+  "figures": 3,
+  "worked_examples": 3,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 47
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Gt3d7rKV2X8h4pwd",
+   "name": "Set Notation",
+   "definition": "",
+   "video_id": "845886684"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Set notation"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is set notation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Set** **notation** is a formal way of writing groups of numbers (or other mathematical entities such as shapes) that share a common feature – each number in a set is called an **element** of the set\n\n  - You should have come across common sets of numbers such as the **natural** **numbers**, denoted by $ℕ$ , or the set of **real** **numbers**, denoted by $ℝ$\n- In **probability**, set notation allows us to talk about the **sample** **space** and ***events***** **within in it\n\n  - S, U, $ξ$ , $E$ are common symbols used for the Universal set In probability this is the entire sample space, or the rectangle in a **Venn diagram**\n  - **Events** are denoted by capital letters, *A, B, C *etc\n  - The **events **“$notA$ ”, “$notB$”, “$notC$” are denoted by $A',B',C'$ etc (Strictly pronounced “*A*  prime” but often called “*A*  dash”)  $A'$is called the **complement** of *A*\n- In probability we are often looking at combined events\n\n  - The event *A* and *B* is called the **intersection** of events *A* and *B* , and the symbol ∩  is used i.e.  *A* and *B*  is written as $A\\capB$\n  \n    - On a **Venn** **diagram** this would be the **overlap** between the bubble for event *A *and the bubble for event $B$\n    - From **Basic** **Probability**, for ***independent*** events"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(A\\capB)=P(A)\\timesP(B)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- The event *A *or *B* is called the **union** of events *A* and *B* , and the symbol $\\cup$ is used i.e.  *A *or *B*  is written as $A\\cupB$\n\n  - On a **Venn** **diagram** this would be **both** the bubbles for event A and event B including their **overlap** (**intersection**)\n  - From **Basic** **Probability**, for ***mutually**** ****exclusive*** events"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(A\\cupB)=P(A)+P(B)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- The other set you may come across in probability is the **empty** **set** The **empty** **set** has no **elements** and is denoted by $\\emptyset$\n- The **intersection** of **mutually** **exclusive** events is the empty set, $\\emptyset$"
+  },
+  {
+   "type": "bullets",
+   "md": "- And finally,  $P(A')=1-P(A)$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-2-1-fig1-venn-and-set-notation.png",
+   "file": "assets/54247d4f0b5c-3-2-1-fig1-venn-and-set-notation.png",
+   "alt": "3-2-1-fig1-venn-and-set-notation",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find probabilities from sets?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Recognise the notation and symbols used and then interpret them in terms of **AND** ($\\cap$), **OR** ($\\cup$) and/or **NOT** (‘) statements\n- Venn diagrams lend themselves particularly well to deducing which sets or parts of sets are involved- draw mini-Venn diagrams and shade them\n- Practice shading various parts of Venn diagrams and then writing what you have shaded in set notation\n- With combinations of **union**, **intersection** and **complement** there may be more than one way to write the set required\n\n  - e.g.   $(A\\cupB)'=A'\\capB'$          $(A\\capB)'=A'\\cupB'$           Not convinced?  Sketch a Venn diagram and shade it in!\n  - In such questions it can be the **unshaded** part that represents the solution"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The members of a local tennis club can decide whether to play in a singles competition, a doubles competition, both or neither.\n\nOnce all members have made their choice the chairman of the club selects, at random, one member to interview about their decision.\n\n$S$ is the event a member selected the singles competition.\n\n$D$ is the event a member selected the doubles competition.\n\nGiven that $P(S)=2P(D),P(S\\cupD)=0.9$and $P(S\\capD)=0.3$ , find\n\n(i)   $P(S')$\n\n(ii)         $P(S'\\capD)$\n\n(iii)        $P(S\\cupD')$\n\n(iv)        $P((S\\cupD)')$\n\n**Answer:**\n\n![3-2-1-fig2-we-solution-part-1](assets/9a8021d2b748-3-2-1-fig2-we-solution-part-1.png)\n\n![3-2-1-fig2-we-solution-part-2](assets/c2f27bb04b52-image.bin)\n\n![3-2-1-fig2-we-solution-part-3](assets/7da82335a7dd-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Do not try to do everything using a single diagram – whether given one in the question or using your own; use mini-Venn diagrams and shading for each part of a question\n- Do double check whether you are dealing with **union** ($\\cup$) or **intersection** ($\\cap$) (or both) – when these symbols are used several times near each other in a question, it is easy to get them muddled up or misread them"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_mpb85fVZSQGr3tkK",
+   "name": "Conditional Probability",
+   "definition": null,
+   "video_id": "845897390"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Conditional probability"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is conditional probability?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Conditional** **probability** is where the probability of an **event** happening can vary depending on the outcome of a prior event"
+  },
+  {
+   "type": "bullets",
+   "md": "- You have already been using **conditional** **probability** e.g.  drawing more than one counter/bead/etc from a bag **without** replacement\n\n  - Note that, mathematically, that drawing one, not replacing then drawing another is the same as drawing two at the same time.\n- Consider the following example\n\n  - e.g.        Bag with 6 white and 3 red buttons. One is drawn at random and not  replaced.  A second button is drawn. The probability that the second button is white **given** **that** the first button is white is $\\frac{5}{8}$."
+  },
+  {
+   "type": "bullets",
+   "md": "- The key phrase here is “**given** **that**” – it essentially means something has already happened.\n\n  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right enclose 2 to the power of nd space is space white end enclose space 1 to the power of st space is space white right parenthesis equals 5 over 8`\n  - There are other phrases that imply or mean the same things as “given that”\n- Venn diagrams are helpful again but beware – the denominator of fractional probabilities will no longer be the total of all the frequencies or probabilities shown\n\n  - “**given** **that**” questions usually reduce the sample space as an event (a subset of the outcomes of the first event) has already occurred"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/--tR8mHB_3-2-1-fig3-cp-venn.png",
+   "file": "assets/7e43b668eaee-tr8mhb-3-2-1-fig3-cp-venn.png",
+   "alt": "--tR8mHB_3-2-1-fig3-cp-venn",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The diagrams above also show two more **conditional** **probability** results\n\n  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis`\n  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis B right parenthesis cross times straight P left parenthesis A vertical line B right parenthesis`\n  - These are essentially the same as letters are interchangeable"
+  },
+  {
+   "type": "bullets",
+   "md": "- For **independent** **events** we know $P(A\\capB)=P(A)\\timesP(B)$ so\n\n  - `straight P left parenthesis B vertical line A right parenthesis equals fraction numerator horizontal strike straight P left parenthesis A right parenthesis end strike cross times straight P left parenthesis B right parenthesis over denominator horizontal strike straight P left parenthesis A right parenthesis end strike end fraction equals text P end text left parenthesis B right parenthesis`\n- and similarly `straight P left parenthesis A vertical line B right parenthesis equals straight P left parenthesis A right parenthesis`\n- The independent result should make sense logically – if events *A* and *B*   are independent then the fact that event *B*  has already occurred has no effect on the probability of event *A* happening"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The Venn diagram below illustrates the probabilities of three events, $A,B\\mathrm{and}C$.\n\n![3-2-1-fig4-we2-diagram](assets/e8f9e4d6ab3c-3-2-1-fig4-we2-diagram.png)\n\n(a) Find\n\n(i) `straight P left parenthesis A vertical line B right parenthesis`\n\n(ii) `straight P left parenthesis B vertical line A apostrophe right parenthesis`\n\n(iii) `straight P left parenthesis C apostrophe vertical line A apostrophe right parenthesis`\n\n(b) Show, in two different ways, that the events $B$and $C$ are independent.\n\n**Answer:**\n\n![3-2-1-fig4-we2-solution-part-1](assets/eb28b55cc5b1-3-2-1-fig4-we2-solution-part-1.png)\n\n![3-2-1-fig4-we2-solution-part-2](assets/f82987a882f8-3-2-1-fig4-we2-solution-part-2.png)\n\n![3-2-1-fig4-we2-solution-part-3](assets/ffd99fddfec4-3-2-1-fig4-we2-solution-part-3.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- There are now several symbols used from set notation in probability – make sure you are familiar with them\n\n  - **union** ($\\cup$)\n  - **intersection** ($\\cap$ )\n  - **not **(‘)\n  - **given that **( | )\n- If given a Venn diagram with all the separate probabilities you may find it easier to work out P(A), P(B) etc first"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_JT3NWnKdmfk6J6mh",
+   "name": "Two-Way Tables",
+   "definition": null,
+   "video_id": "845930143"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Two-way tables"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are two-way tables?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In **probability**, **two**-**way** **tables** list the frequencies for the outcomes of two events – one event along the top (columns), one event down the side (rows)\n- The frequencies, along with a “Total” row and “Total” column instantly show the values involved in finding probabilities"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-2-1-fig5-two-way-and-notation.png",
+   "file": "assets/b0cb89f7f8e4-3-2-1-fig5-two-way-and-notation.png",
+   "alt": "3-2-1-fig5-two-way-and-notation",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find probabilities from two-way tables?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Questions will usually be wordy – and may not even mention two-way tables\n\n  - Questions will need to be interpreted in terms of **AND** ($\\cap$ , **intersection**), **OR** ($\\cup$, **union**), **NOT** (‘) and **GIVEN** **THAT** ( | )\n- Complete as much of the table as possible from the information given in the question\n\n  - If any empty cells remain, see if they can be calculated by looking for a row or column with just one missing value\n- Each cell in the table is **similar** to a region in a Venn diagram\n\n  - With event *A* outcomes on columns and event *B* outcomes on rows\n  \n    - $P\\capQ$ (**intersection, AND**) will be the cell where outcome $P$  meets outcome $Q$\n    - $P\\cupQ$ (**union**, **OR**) will be all the cells for outcomes $P$ and $Q$ including the cell for both\n  - Beware! As **union** includes the cell for **both** outcomes, avoid counting this cell **twice** when calculating **frequencies** or **probabilities**\n  - (see Worked Example Q(b)(ii))"
+  },
+  {
+   "type": "bullets",
+   "md": "- You may need to use the results\n\n  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis`\n  - `straight P left parenthesis A vertical line B right parenthesis equals straight P left parenthesis A right parenthesis` (for independent events)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The incomplete two-way table below shows the type of main meal provided by 80 owners to their cat(s) or dog(s).\n\n|   | Dry Food | Wet Food | Raw Food | **Total** |\n|---|---|---|---|---|\n| Dog | 11 |   | 8 |   |\n| Cat |   | 19 |   | 33 |\n| **Total** | 21 |   |   |   |\n\n(a) Complete the two-way table\n\n(b) One of the 80 owners is selected at random. Find the probability\n\n(i) the selected owner has a cat and feeds it raw food for its main meal.\n\n(ii) the selected owner has a dog or feeds it wet food for its main meal.\n\n(iii) the owner feeds raw food to its pet, given it is a dog.\n\n(iv) the owner has a cat, given that they feed it dry food.\n\n**Answer:**\n\n![3-2-1-fig6-we3-solution](assets/c719e6ce4d27-3-2-1-fig6-we3-solution.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Ensure any table – given or drawn - has a “Total” row and a “Total” column\n- Do not confuse a two-way table with a **sample** **space** diagram – a two-way table does not necessarily display **all** **outcomes** from an **experiment**, just those (**events**) we are interested in"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_BBNhRdcC63S6DB6K",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/the-route-inspection-algorithm/route-inspection",
+ "title": "Route Inspection",
+ "page_title": "Route Inspection | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "the-route-inspection-algorithm",
+   "route-inspection"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "the-route-inspection-algorithm",
+  "leaf": "route-inspection"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "The Route Inspection Algorithm",
+  "subtopic": "Route Inspection"
+ },
+ "updated_at": "2026-07-02T08:19:38.659Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_zRs4Yh5KvWq3WyKS",
+  "spcpt_SWNq6cfM2PcV7PNX"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_zRs4Yh5KvWq3WyKS",
+   "name": "The Chinese Postman Problem",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "The Chinese Postman Problem"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the Chinese postman problem?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **route inspection problem **is also known as the **Chinese postman problem**\n- You are required to find the **route of least weight **that traverses **every edge** in a graph\n\n  - The **route** must **start** and **finish** at the **same** vertex\n- Some **edges** may need to be traversed more than once\n\n  - The challenge is to **minimise** the total weight of these **repeated edges**\n- **Variations** to the route inspection problem could involve\n\n  - The start and finish vertices being different\n  - Certain edges being disregarded\n  \n    - E.g. a road closure\n  - Repetition being required on the route\n  \n    - E.g. a road sweeper covering both sides of the road"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_SWNq6cfM2PcV7PNX",
+   "name": "Networks with 0 or 2 Odd Vertices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Networks with 0 or 2 Odd Vertices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I solve the Chinese postman problem in networks with 0 or 2 Odd Vertices?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If the graph is **Eulerian**\n\n  - **All** of the vertices in the graph are **even**\n  \n    - I.e. there are 0 odd nodes\n  - It will be possible to find an **Eulerian circuit**\n  \n    - I.e. a route that traverses each edge exactly once, starting and finishing at the same vertex\n  - No route or edges will need repetition** **\n  - The shortest route will be the **sum of the weights** of the **edges **in the network\n- If the graph is **semi-Eulerian**\n\n  - There will be **one pair** of **odd** vertices\n  \n    - I.e. there will be 2 odd nodes\n  - If the route has to start and end at the **same vertex**\n  \n    - The **shortest** **path **between the two odd nodes will need to be found\n    - The **edges** making that shortest path will need to be** repeated**\n    - The shortest route** **will be the **sum of the weights** of the** edges **in the network** plus the weight of the repeated edges**\n  - If the route** starts **at one of the **odd vertices **and **ends** at the other\n  \n    - No path/edges will need repetition\n    - The shortest route will be the sum of the weights of the edges in the network"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps of the Chinese postman algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nInspect the degree of all of the vertices and identify any **odd nodes**\n- **STEP 2**\nIf all of the vertices are even go to STEP 3\nIf there is **one pair of odd nodes**, find the **shortest path between them**\nThe edges making this path will need to be repeated so add them to the graph\n(Once they are added to the graph every node will be even, so an Eulerian circuit will exist)\n- **STEP 3**\nWrite down an **Eulerian circuit** of the adjusted graph to find a possible route\n\n  - Find the sum of the edges traversed to find the total weight"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Look carefully for the shortest path when connecting two odd vertices\n\n  - A path made up of several edges will sometimes be a shorter distance than a more direct route"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The network shown below displays the distance, in metres, of the cables in a network between different connection points A, B, C, D, E and F.\n\nEach length of cable must be inspected.\n\n![jv2R5V-u_chinese-postman](assets/5f5d6e69d8c7-jv2r5v-u-chinese-postman.png)\n\na) Find the shortest route that allows all the cables to be inspected, and that starts and finishes at connection point E.\n\n**Answer:**\n\n- *STEP 1*\n*Inspect the order of the nodes*\n* *\n\n*A: 5 (odd)*\n*B: 2 (even)*\n*C: 3 (odd)*\n*D: 2 (even)*\n*E: 4 (even)*\n*F: 2 (even)*\n\n- *STEP 2*\n*There is exactly one pair of odd vertices, A and C*\n*The shortest path between A and C is ABC so the **edges** AB and BC need to be repeated*\n*An Eulerian circuit, starting and ending at connection point E, is now possible* ![chinese-postman-2](assets/0f3e799b6d95-chinese-postman-2.png)\n- *STEP 3*\n*Find an Eulerian circuit, starting and ending at connection point E*\n\n**Final answer:** **Shortest route: EFAEDABACBCE**\n\nb) State the total length of the shortest route.\n\n**Answer:**\n\n> *Add together the lengths of the edges in the original graph*\n\n*3 + 4 + 4 + 5 + 8 + 9 + 11 + 13 + 16 = 73*\n\n> *Add the result to the lengths of the repeated edges*\n\n*73 + 5 + 9 = 87*\n\n**Final answer:** **Shortest route = 87 m**"
+  }
+ ]
+}

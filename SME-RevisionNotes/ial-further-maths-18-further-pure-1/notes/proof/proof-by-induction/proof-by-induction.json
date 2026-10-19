@@ -1,0 +1,161 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_m9N8zpSqc7gFZcR3",
+ "course_slug": "ial-further-maths-18-further-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/revision-notes/proof/proof-by-induction/proof-by-induction",
+ "title": "Proof by Induction",
+ "page_title": "Proof by Induction | Edexcel International A Level (IAL) Further Maths Revision Notes 2018",
+ "path": {
+  "segs": [
+   "proof",
+   "proof-by-induction",
+   "proof-by-induction"
+  ],
+  "section": "proof",
+  "topic": "proof-by-induction",
+  "leaf": "proof-by-induction"
+ },
+ "titles": {
+  "section": "Proof",
+  "topic": "Proof by Induction",
+  "subtopic": "Proof by Induction"
+ },
+ "updated_at": "2024-04-02T10:05:35.079Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_SMzk6CSSYWkfQPd8"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "n=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold equals bold 1"
+  },
+  {
+   "latex": "n=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold equals bold 0"
+  },
+  {
+   "latex": "n=k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold equals bold italic k"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "n=k+1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n equals k plus 1"
+  },
+  {
+   "latex": "n=k+1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n equals k plus 1"
+  },
+  {
+   "latex": "n=k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mi>k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n equals k"
+  },
+  {
+   "latex": "n=k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mi>k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n equals k"
+  },
+  {
+   "latex": "n=k+1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n equals k plus 1"
+  },
+  {
+   "latex": "n=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold equals bold 1"
+  },
+  {
+   "latex": "n\\inℤ^{+}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#8712;</mo><msup><mi mathvariant=\"normal\">&#8484;</mi><mo>+</mo></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n element of straight integer numbers to the power of plus"
+  }
+ ],
+ "stats": {
+  "blocks": 10,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 11
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_SMzk6CSSYWkfQPd8",
+   "name": "Introduction to Proof by Induction",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Proof by Induction"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is proof by induction?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Proof by induction** is a way of proving a **result is true for a set of integers** by showing that if it is **true for one integer then it is true for the next integer**\n- It can be thought of as falling dominoes:\n\n  - Assume one domino falls\n  \n    - The **assumption** step\n  - Show that if this domino falls, the next domino falls\n  \n    - The** inductive** step\n- If you want all dominoes to fall (from the beginning) then\n\n  - Show also that the** first** domino falls\n  \n    - The** basic** step"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps for proof by induction?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1** **The basic step: **Show the result is **true** for the **base case**\n\n  - This is normally** **$n=1$** or **$n=0$"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 2**\n**The assumption step: Assume** the result is true for $n=k$ where $k$* *is some integer\n\n  - There is nothing to do for this step apart from writing down the assumption"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 3**\n**The inductive step: **Use the** assumption **to show the result is true for $n=k+1$\n\n  - This involves investigating* *$n=k+1$ and bringing in the $n=k$ assumption"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 4**\n**The conclusion step: **Explain in** words** how the above steps make the result** true** for **all** integers, using the following **two **sentences:\n\n  - \"**If** it is true for $n=k$,* ***then** it is true for $n=k+1$.\"\n  - \"**As** it is true for $n=1$, the** **statement** **is true **for all** $n\\inℤ^{+}$.\""
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Learn the exact wording from the conclusion above! You can lose the final mark  if your conclusion does not make sense."
+  }
+ ]
+}

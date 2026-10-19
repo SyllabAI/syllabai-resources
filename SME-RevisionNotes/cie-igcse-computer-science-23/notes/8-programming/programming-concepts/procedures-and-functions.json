@@ -1,0 +1,178 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_kqRBGvjZfcfxbn7b",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/8-programming/programming-concepts/procedures-and-functions",
+ "title": "Procedures & Functions",
+ "page_title": "Functions - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "8-programming",
+   "programming-concepts",
+   "procedures-and-functions"
+  ],
+  "section": "8-programming",
+  "topic": "programming-concepts",
+  "leaf": "procedures-and-functions"
+ },
+ "titles": {
+  "section": "8. Programming",
+  "topic": "Programming Concepts",
+  "subtopic": "Procedures & Functions"
+ },
+ "updated_at": "2025-05-07T14:00:49.935Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_W2bPZGY9qsbfKMPD",
+   "rnl_wxVRbWbkpTcPwGD4",
+   "rnl_byJ72P6bBFjqpVYF",
+   "rnl_VHJXKk8stsB8GTgx"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_q8mspQC3BH7dbMCc",
+  "spcpt_XzGmRvsfmkYJB6MF"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 24,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What are functions and procedures?"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*IGCSE 0478 Paper 2 assesses your ability to define, use, and explain ****functions****, ****procedures****, and ****parameters**** using both ****pseudocode and Python****. This page shows only examinable structures, phrasing, and examples—no fluff.*"
+  },
+  {
+   "type": "bullets",
+   "md": "- Functions and procedures** **are a type of **sub program**, a **sequence of instructions** that** perform a specific task** or **set of tasks**\n- Procedures and functions are **defined at the start of the code**\n- Sub programs are often used to **simplify **a program by** breaking it into smaller, more manageable parts**\n- Sub programs can be used to:\n\n  - **Avoid duplicating code** and can be reused throughout a program\n  - **Improve **the **readability **and **maintainability** of code\n  - Perform **calculations**, to **retrieve data**, or to **make decisions** based on input\n- **Parameters **are **values** that are **passed into a sub program**\n\n  - Parameters can be variables or values and they are located **in brackets** after the name of the sub program\n  - Example: `FUNCTION TaxCalculator(pay,taxcode)` **OR  **`PROCEDURE TaxCalculator(pay,taxcode)`\n- Sub programs **can have multiple parameters**\n- To use a sub program you '**call**' it from the main program"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What's the difference between a function and procedure?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **Function returns a value** whereas a procedure does not"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_q8mspQC3BH7dbMCc",
+   "name": "Procedures",
+   "definition": "\"6 (a) Understand what is meant by procedures,\nfunctions and parameters\n(b) Define and use procedures and functions,\nwith or without parameters\"\n\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Procedures"
+  },
+  {
+   "type": "bullets",
+   "md": "- Procedures are defined using the **PROCEDURE **keyword in pseudocode or **def **keyword in Python\n- A procedure can be written as: **PROCEDURE <identifier>**\n**    <statements>**\n**ENDPROCEDURE**\n- Or if parameters are being used:\n\n**PROCEDURE <identifier>(<param1>:<data type>, <param2>:<data type>...)**\n**    <statements>**\n**ENDPROCEDURE**"
+  },
+  {
+   "type": "table",
+   "md": "| **Creating a procedure** |\n|---|\n| **Pseudocode** |\n|   |\n| **Python** |\n|   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- To call a procedure, it can be written as: **CALL <identifier>**\n**CALL <identifier>(Value1,Value2...)**"
+  },
+  {
+   "type": "table",
+   "md": "| **Calling a procedure** |\n|---|\n| **Pseudocode** |\n|   |\n| **Python** |\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Examples"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Python program using procedures to **display a menu** and **navigate **between them\n- **Procedures **are **defined at the start of the program** and the main program calls the first procedure to start\n- In this example, no parameters are needed"
+  },
+  {
+   "type": "table",
+   "md": "| Procedures |\n|---|\n|   |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_XzGmRvsfmkYJB6MF",
+   "name": "Functions",
+   "definition": "\"6 (a) Understand what is meant by procedures,\nfunctions and parameters\n(b) Define and use procedures and functions,\nwith or without parameters\"\n\n\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Functions"
+  },
+  {
+   "type": "bullets",
+   "md": "- Functions are defined using the **FUNCTION **keyword in pseudocode or **def **keyword in Python\n- Functions **always return a value** so they do not use the CALL function, instead they are called **within an expression**\n- A function can be written as: **FUNCTION <identifier> RETURNS <data type>**\n**    <statements>**\n**ENDFUNCTION**\n- Or if parameters are being used:\n\n**FUNCTION <identifier>(<param1>:<data type>, <param2>:<data type>...) RETURNS <data type>**\n**    <statements>**\n**ENDFUNCTION**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*In pseudocode, never write *`CALL calculate_area()`* for a function.*\n*Functions are ****called in expressions**** like:*\n`OUTPUT calculate_area(5,3)`\n*Use *`CALL`* only with ****procedures**** that do not return a value.*"
+  },
+  {
+   "type": "table",
+   "md": "| **Creating and using a function** |\n|---|\n| **Pseudocode** |\n|   |\n| **Python** |\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Examples"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Python program using a **function to calculate area** and return the result\n- Two options for main program are shown, one which **outputs the result** (# 1) and one which **stores the result** so that it can be used at a later time (# 2)"
+  },
+  {
+   "type": "table",
+   "md": "| Functions |\n|---|\n|   |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "An economy-class airline ticket costs £199. A first-class airline ticket costs £595.\n\n(**A**) Create a function,` flightCost(),` that takes the number of passengers and the type of ticket as parameters, calculates and returns the price to pay.\n\nYou do **not **have to validate these parameters\n\nYou must use :\n\n- a high-level programming language that you have studied **[4]**\n\n(**B**) Write program code, that uses `flightCost()`, to output the price of 3 passengers flying economy.\n\nYou must use :\n\n- a high-level programming language that you have studied **[3]**\n\n**How do I answer this question?**\n\n(**A**)\n\n- Define the function, what parameters are needed? where do they go?\n- How do you calculate the price?\n- Return the result\n\n(**B**)\n\n- How do you call a function?\n- What parameters does the function need to return the result?\n\n**Answers**\n\n| **Part** | **Python** |\n|---|---|\n| **A** |   |\n| **B** | `print(flightCost(\"economy\", 3)`<br><br>**OR**<br><br>`x = flightCost(\"economy\", 3)`<br><br>`print(x)` |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*in pseudocode, you can get marks just for using the correct structure:*\n\n- *Starts with *`FUNCTION`* or *`PROCEDURE`* ***[1 mark]**\n- *Correct use of parameters and *`RETURN`* (functions) or *`OUTPUT`* (procedures) ***[1 mark]**\n- *Called correctly from main program ***[1 mark]**"
+  }
+ ]
+}

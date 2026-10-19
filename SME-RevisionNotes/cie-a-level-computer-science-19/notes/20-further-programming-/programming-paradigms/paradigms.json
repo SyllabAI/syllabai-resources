@@ -1,0 +1,96 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_vGWvBDgqbMhNZqq2",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/programming-paradigms/paradigms",
+ "title": "Paradigms",
+ "page_title": "Paradigms | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "programming-paradigms",
+   "paradigms"
+  ],
+  "section": "20-further-programming-",
+  "topic": "programming-paradigms",
+  "leaf": "paradigms"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Programming Paradigms",
+  "subtopic": "Paradigms"
+ },
+ "updated_at": "2025-05-20T13:13:25.435Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_xDRJZxQGXXFrXwB3"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 8,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_xDRJZxQGXXFrXwB3",
+   "name": "Paradigms",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Paradigms"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a programming paradigm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A programming paradigm is a **style or approach to programming** that influences:\n\n  - How programs are **written**\n  - How problems are** broken down**\n  - How solutions are **structured**\n- **Different **paradigms are suited to **different **types of problems and systems"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Programming paradigms comparison table"
+  },
+  {
+   "type": "table",
+   "md": "| **Paradigm** | **Description** | **Key characteristics** | **Examples** |\n|---|---|---|---|\n| **Low-level** | Closest to machine code, using **mnemonics **to directly control hardware | - Direct memory access<br>- Register manipulation<br>- Hardware-specific instructions | x86 Assembly, ARM Assembly |\n| **Imperative (Procedural)** | Tells the computer **how** to perform tasks using sequences of commands | - Step-by-step instructions<br>- Use of loops, conditions<br>-Procedures/functions | C, Pascal, Python (procedural) |\n| **Object-Oriented** | Models real-world entities using **objects** that combine data and behaviour | - Classes and objects<br>- Encapsulation, inheritance, polymorphism<br>- Modularity | Java, C++, Python (OOP) |\n| **Declarative** | Describes **what** should be done, not how to do it | - Rule-based or logic-based<br>- No explicit control flow<br>- Focus on outcomes/results | SQL, Prolog, Haskell |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Strengths and weaknesses of programming paradigms"
+  },
+  {
+   "type": "table",
+   "md": "| **Paradigm** | **Strengths** | **Weaknesses** |\n|---|---|---|\n| **Procedural** | - Clear flow of control (top to bottom)<br>- Efficient for simple tasks<br>- Easy to implement algorithms<br>- Strong step-by-step logic | - Becomes hard to manage in large programs<br>- Poor modularity can lead to redundancy<br>- Not ideal for complex state-based systems |\n| **Object-Oriented** | - Enhances modularity with encapsulation<br>- Real-world modelling via objects<br>- Code reuse through inheritance<br>- Polymorphism for flexible interfaces | - Can become overly complex<br>- Slower due to object overhead<br>- Misuse leads to bloated hierarchies<br>- Not ideal for every problem |\n| **Low-Level (Assembly)** | - Complete control over hardware<br>- Highly optimised for performance<br>- Transparent view of machine operations | - Steep learning curve<br>- Hardware-specific, not portable<br>- Manual memory management is error-prone<br>- Difficult to debug/scale |\n| **Declarative** | - Focuses on the result rather than the process<br>- Concise and expressive<br>- Suitable for complex logic or rule-based problems (e.g. AI, SQL queries) | - Harder to learn for beginners<br>- Less control over program flow<br>- Not suited for all types of problems<br>- Debugging can be challenging due to abstraction |"
+  }
+ ]
+}

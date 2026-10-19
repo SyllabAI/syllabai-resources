@@ -1,0 +1,82 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wSWQ5Mp2HBSwb9tZ",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/4-processor-fundamentals-/assembly-language-/instruction-groups",
+ "title": "Instruction Groups",
+ "page_title": "Instruction Groups | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "4-processor-fundamentals-",
+   "assembly-language-",
+   "instruction-groups"
+  ],
+  "section": "4-processor-fundamentals-",
+  "topic": "assembly-language-",
+  "leaf": "instruction-groups"
+ },
+ "titles": {
+  "section": "4. Processor Fundamentals",
+  "topic": "Assembly Language",
+  "subtopic": "Instruction Groups"
+ },
+ "updated_at": "2025-04-08T10:54:54.088Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Yr56xgwmtZfJRwFS"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 5,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Yr56xgwmtZfJRwFS",
+   "name": "Categories of instructions",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Categories of instructions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the categories of instructions?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Assembly language instructions can be grouped into:\n\n  - **Data movement**\n  - **Input and output of data**\n  - **Arithmetic operations**\n  - **Unconditional and conditional instructions**\n  - **Compare instructions**\n- For each category, a table containing the instruction (Opcode and Operand), and an explanation is given"
+  },
+  {
+   "type": "table",
+   "md": "| **Category** | **Opcode** | **Operand** | **Explanation** |\n|---|---|---|---|\n| **Data Movement** | `LOAD` | `A` | Loads the value stored at memory location `A` into the accumulator. |\n|   | `STORE` | `B` | Stores the value from the accumulator into memory location `B`. |\n|   | `MOV` | `A, B` | Copies the value from register/memory `A` to register/memory `B`. |\n|   | `CLEAR` | `ACC` | Clears the accumulator (sets it to 0). |\n|   | `DATA` | `5` | Declares a constant or data value (e.g. `DATA 5` stores the value 5). |\n| **Input and Output of Data** | `IN` |   | Takes input from a user or input device and stores it in the accumulator. |\n|   | `OUT` |   | Outputs the value in the accumulator to a screen or output device. |\n| **Arithmetic Operations** | `ADD` | `A` | Adds the value at memory location `A` to the accumulator. |\n|   | `SUB` | `B` | Subtracts the value at memory location `B` from the accumulator. |\n|   | `INC` |   | Increments the accumulator by 1. |\n|   | `DEC` |   | Decrements the accumulator by 1. |\n| **Unconditional and Conditional** | `JMP` | `LABEL` | Unconditionally jumps to the instruction at `LABEL`. |\n|   | `JZ` | `LABEL` | Jumps to `LABEL` if the accumulator is zero. |\n|   | `JNZ` | `LABEL` | Jumps to `LABEL` if the accumulator is **not** zero. |\n|   | `JC` | `LABEL` | Jumps to `LABEL` if the carry flag is set. |\n|   | `HLT` |   | Stops the program (halts execution). |\n| **Compare Instructions** | `CMP` | `A` | Compares the accumulator with the value at memory location `A`. |\n|   | `TEST` | `A` | Performs a logical AND between accumulator and `A`; sets flags, no output. |"
+  }
+ ]
+}

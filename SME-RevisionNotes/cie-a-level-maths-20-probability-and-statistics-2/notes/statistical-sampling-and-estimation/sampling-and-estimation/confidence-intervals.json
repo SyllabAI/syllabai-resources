@@ -1,0 +1,305 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_JZ6kt64ZjGmvrX7V",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-2",
+ "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/revision-notes/statistical-sampling-and-estimation/sampling-and-estimation/confidence-intervals",
+ "title": "Confidence Intervals",
+ "page_title": "Confidence Intervals - A Level Maths Revision Notes",
+ "path": {
+  "segs": [
+   "statistical-sampling-and-estimation",
+   "sampling-and-estimation",
+   "confidence-intervals"
+  ],
+  "section": "statistical-sampling-and-estimation",
+  "topic": "sampling-and-estimation",
+  "leaf": "confidence-intervals"
+ },
+ "titles": {
+  "section": "Statistical Sampling & Estimation",
+  "topic": "Sampling & Estimation",
+  "subtopic": "Confidence Intervals"
+ },
+ "updated_at": "2026-07-02T08:19:38.306Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_ytCZ6pJ3ScjcJT9j",
+   "rnl_rQMM4dk7wPKbFsPy",
+   "rnl_C8SZ3C4RPWt7FG4r"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_4rg88C35yg494Krw",
+  "spcpt_WrdZ9XXxJsS2Jrd3"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\overline{x}-z\\times\\frac{σ}{\\sqrt{n}}<μ<\\overline{x}+z\\times\\frac{σ}{\\sqrt{n}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mover><mi>x</mi><mo>¯</mo></mover><mo>-</mo><mi>z</mi><mo>×</mo><mfrac><mi>σ</mi><msqrt><mi>n</mi></msqrt></mfrac><mo>&lt;</mo><mi>μ</mi><mo>&lt;</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>+</mo><mi>z</mi><mo>×</mo><mfrac><mi>σ</mi><msqrt><mi>n</mi></msqrt></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x with bar on top minus z cross times fraction numerator sigma over denominator square root of n end fraction less than mu less than x with bar on top plus z cross times fraction numerator sigma over denominator square root of n end fraction"
+  },
+  {
+   "latex": "\\overline{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mover><mi>x</mi><mo>¯</mo></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x with bar on top"
+  },
+  {
+   "latex": "z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>z</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z"
+  },
+  {
+   "latex": "2\\timesz\\times\\frac{σ}{\\sqrt{n}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mn>2</mn><mo>×</mo><mi>z</mi><mo>×</mo><mfrac><mi>σ</mi><msqrt><mi>n</mi></msqrt></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 cross times z cross times fraction numerator sigma over denominator square root of n end fraction"
+  },
+  {
+   "latex": "P(-z<Z<z)=α",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>=</mo></mrow><mi>α</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha"
+  },
+  {
+   "latex": "P(Z<z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis Z less than z right parenthesis"
+  },
+  {
+   "latex": "P(Z<z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z less than z right parenthesis"
+  },
+  {
+   "latex": "P(Z<z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z less than z right parenthesis"
+  },
+  {
+   "latex": "P(Z<z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z less than z right parenthesis"
+  },
+  {
+   "latex": "L",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "L"
+  },
+  {
+   "latex": "μ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "mu"
+  },
+  {
+   "latex": "α",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "alpha"
+  }
+ ],
+ "stats": {
+  "blocks": 38,
+  "figures": 2,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 12
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_4rg88C35yg494Krw",
+   "name": "Confidence Interval for μ",
+   "definition": "",
+   "video_id": "893766414"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Confidence Interval for μ"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a confidence interval?"
+  },
+  {
+   "type": "bullets",
+   "md": "- It is **impossible** to find the **exact value** of a population parameter when taking a sample\n- The best we can do is find an **interval** for which the exact value is likely to lie within\n\n  - This is called a **confidence interval**\n- The **confidence level** of a confidence interval is the **probability** that the **interval contains** the **population parameter**\n\n  - Be careful with wording – the population parameter is a fixed value so it does not make sense to talk about the probability that it lies within an interval\n  \n    - Instead we talk about the probability an interval contains the parameter\n  - Suppose samples were collected and a 95% confidence interval for a population parameter was constructed for each sample, then for every 100 intervals we would **expect on average 95** of them to contain the parameter\n  \n    - 95 out of 100 is **not guaranteed** – it is possible all of them could contain the parameter\n    - It is possible (though **very** **unlikely**) that none of them contains the parameter"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What affects the width of a confidence interval?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **width** of a confidence interval is the **range of the values** in the interval\n- The **confidence level **affects the width\n\n  - Increasing the confidence level will increase the width\n  - Decreasing the confidence level will decrease the width\n- The **size of the sample** affects the width\n\n  - Increasing the sample size will decrease the width\n  - Decreasing the sample size will increase the width"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate a confidence interval for the population mean (μ)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For this course we only construct **symmetrical confidence intervals** for the mean of a population when:\n\n  - The **variance of the population** is **known**\n  - The population follows a **normal distribution**\n  - The population does not follow a normal distribution but the **sample size is big** enough to use the **Central Limit Theorem**\n- The confidence interval can be found using the **formula**"
+  },
+  {
+   "type": "paragraph",
+   "md": "$\\overline{x}-z\\times\\frac{σ}{\\sqrt{n}}<μ<\\overline{x}+z\\times\\frac{σ}{\\sqrt{n}}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- *n* is the size of the sample\n- σ is the standard deviation of the population\n- $\\overline{x}$ is the mean of the sample\n- $z$ is the value such that `straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha percent sign` where *α* is the confidence level"
+  },
+  {
+   "type": "bullets",
+   "md": "- The width of the confidence interval is"
+  },
+  {
+   "type": "paragraph",
+   "md": "$2\\timesz\\times\\frac{σ}{\\sqrt{n}}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Note that the sample mean is the **midpoint** of the confidence interval and does not affect the width"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the z-value for a confidence interval?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You use the standard normal distribution `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`\n- If the confidence level is % we find such that $P(-z<Z<z)=α$%\n- To do this find $P(Z<z)$- it can be shown that this is `open parentheses fraction numerator alpha plus 100 over denominator 2 end fraction close parentheses`%"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/1-2-2-confidence-intervals-diagram-1-1.png",
+   "file": "assets/5a506f9c71af-1-2-2-confidence-intervals-diagram-1-1.png",
+   "alt": "1-2-2-confidence-intervals-diagram-1-1",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The z-values for common confidence levels are:\n\n  - For 90%: $P(Z<z)$ = 0.95  so z = 1.645\n  - For 95%: $P(Z<z)$ = 0.975 so z = 1.960\n  - For 99%: $P(Z<z)$ = 0.995 so z = 2.576\n  \n    - z-values for most confidence intervals you will need to work with will be given in the table of critical values"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How can I interpret a confidence interval?"
+  },
+  {
+   "type": "bullets",
+   "md": "- After you have calculated a confidence interval for *μ* you might be expected to comment on the possibility of *μ* being a specific value\n- If the value which is claimed to be *μ* is **within** the confidence interval then there is **evidence** to **support the claim**\n- If the value is **outside** the interval then there is **not enough evidence** to support the claim"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The battery life of a certain brand of phone, $L$ hours, is known to follow a normal distribution with mean $μ$ and variance 16. Jonny takes a random sample of 20 phones and calculates the mean battery life to be 20.3 hours.\n\nCalculate a 95% confidence interval for μ.\n\n**Answer:**\n\n![1-2-3-confidence-interval-for-mu-we-solution](assets/a21a1d57c2f6-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Always check whether the population follows a normal distribution, if it does not then you will have to state that the Central Limit Theorem is being used (as the sample size should be big enough). Take care with the fiddly bits:\n\n  - You need to square-root the sample size\n  - You need to use the standard deviation so you might also need to square-root the variance"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_WrdZ9XXxJsS2Jrd3",
+   "name": "Confidence Interval for p",
+   "definition": "",
+   "video_id": "896504159"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Confidence Interval for p"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate a confidence interval for the proportion (p) of a population?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If we want to find estimate the **proportion of a population** that fulfil a certain criteria we can construct a **confidence interval** based on the proportion of a sample who fulfil that criteria\n\n  - The proportion is between 0 and 1\n- For this course we only construct **symmetrical confidence intervals** for the proportion of a population provided that the **sample size is large** enough to use the **Central Limit Theorem**\n- The confidence interval can be found using the formula"
+  },
+  {
+   "type": "paragraph",
+   "md": "`p with hat on top minus z cross times square root of fraction numerator p with hat on top open parentheses 1 minus p with hat on top close parentheses over denominator n end fraction end root less than p less than p with hat on top plus z cross times square root of fraction numerator p with hat on top left parenthesis 1 minus p with hat on top right parenthesis over denominator n end fraction end root`"
+  },
+  {
+   "type": "bullets",
+   "md": "- *n* is the size of the sample\n- `p with hat on top` (or p<sub>s</sub>) is the proportion of the sample\n- z is the value such that `straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha percent sign` where $α$ is the confidence level"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the **formula booklet** you are given the **distribution of the sample proportion** which might help you remember the formula for the confidence interval"
+  },
+  {
+   "type": "paragraph",
+   "md": "`N open parentheses p comma fraction numerator p left parenthesis 1 minus p right parenthesis over denominator n end fraction close parentheses`"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **width** of the confidence interval is"
+  },
+  {
+   "type": "paragraph",
+   "md": "`2 cross times z cross times square root of fraction numerator p with hat on top left parenthesis 1 minus p with hat on top right parenthesis over denominator n end fraction end root`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Note that the sample proportion is the midpoint of the confidence interval but it **also affects** the width"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How can I interpret a confidence interval?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Interpreting a confidence interval for p works in the same way as a confidence interval for *μ*\n- The only additional part is that you might get asked to see whether an experiment is fair\n\n  - Find the probability of the outcome as though it were fair\n  \n    - For example – a fair coin will have a 0.5 chance of landing on each side\n  - Use a sample to calculate a confidence interval\n  - See if the probability is in the confidence interval\n  \n    - If it is not then there is sufficient evidence to suggest that the experiment is not fair"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Misty selects 50 fish at random from a lake. 17 of the 50 fish are trout.\n\nCalculate a 90% confidence interval for the proportion of the fish in the lake that are trout."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Answer:**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/1-2-3-confidence-interval-for-p-we-solution.png",
+   "file": "assets/9238e7493ff6-1-2-3-confidence-interval-for-p-we-solution.png",
+   "alt": "1-2-3-confidence-interval-for-p-we-solution",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember that the confidence interval is not guaranteed to contain the true population proportion. When interpreting your answers use phrases like “there is evidence to support...”."
+  }
+ ]
+}

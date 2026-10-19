@@ -1,0 +1,164 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_9FDb37nSVHprWVZ3",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/revision-notes/calculus/integration/definite-integrals",
+ "title": "Definite Integrals",
+ "page_title": "Definite Integrals | Cambridge (CIE) IGCSE Additional Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "definite-integrals"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "definite-integrals"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": "Definite Integrals"
+ },
+ "updated_at": "2026-07-02T08:19:38.534Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_D8yXJgjNvHXZ9KQk"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>k</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space k"
+  },
+  {
+   "latex": "a\\leqc\\leqb",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>a</mi><mo>≤</mo><mi>c</mi><mo>≤</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space a less or equal than c less or equal than b"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  }
+ ],
+ "stats": {
+  "blocks": 16,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 4
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_D8yXJgjNvHXZ9KQk",
+   "name": "Definite Integrals",
+   "definition": null,
+   "video_id": "814224201"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Definite integration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is definite integration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Definite** **Integration** occurs in an alternative version of the Fundamental Theorem of Calculus\n- This version of the Theorem is the one referred to by most textbooks/websites"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.3-Notes-fig1.png",
+   "file": "assets/c6af3891d5d1-8-1-3-notes-fig1.png",
+   "alt": "Fundamental Theorem of Calculus using definite integration",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- **a** and **b** are called limits\n\n  - **a** is the lower limit\n  - **b** is the upper limit\n- **f’(x)** is the **derivative** of **f(x)**\n- The value can be **positive, zero** or **negative**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why do I not need to include a constant of integration for definite integration?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.3-Notes-fig2.png",
+   "file": "assets/04e6ace23b39-8-1-3-notes-fig2.png",
+   "alt": "Example of the constant of integration cancelling out",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- “**+c**” would appear in both **f(a)** and **f(b)**\n\n  - Since we then calculate **f(b)** – **f(a)** they cancel each other out\n  - So “**+c**” is not included with definite integration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find a definite integral?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\n\n  - Give the integral a name (if it does not already have one)\n  \n    - This saves you having to rewrite the whole integral every time!\n- **STEP 2**\n\n  - If necessary rewrite the integral into a more easily *integrable* form\n  \n    - Not all functions can be integrated directly\n- **STEP 3**\n\n  - Integrate without applying the limits\n  \n    - Notation: use square brackets [ ] with limits placed after the end bracket\n- **STEP 4**\n\n  - Substitute the limits into the function and calculate the answer\n  \n    - Substitute the top limit first\n    - Then substitute the bottom limit\n    - Subtract the second value from the first"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.1.3-Notes-fig3.png",
+   "file": "assets/8355b475572a-8-1-3-notes-fig3.png",
+   "alt": "Example of definite integration",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the special properties of definite integrals?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Some of these have been encountered already and some may seem obvious …\n\n  - taking **constant** factors outside the integral\n  \n    - `integral subscript a superscript b k straight f left parenthesis x right parenthesis space straight d x equals k integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x` where$k$ is a constant\n    - useful when fractional and/or negative values involved\n  - integrating term by term\n  \n    - `space integral subscript a superscript b left square bracket straight f left parenthesis x right parenthesis plus straight g left parenthesis x right parenthesis right square bracket space straight d x equals integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x plus integral subscript a superscript b straight g left parenthesis x right parenthesis space straight d x`\n    - the above works for subtraction of terms/functions too\n  - equal upper and lower limits\n  \n    - `integral subscript a superscript a straight f left parenthesis x right parenthesis space d x equals 0`\n    - on evaluating, this would be a value subtracted from itself!\n  - swapping limits gives the same, but negative, result\n  \n    - `integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x equals negative integral subscript b superscript a straight f left parenthesis x right parenthesis space straight d x`\n    - compare 8 subtract 5 say, with 5 subtract 8 …\n  - splitting the interval\n  \n    - `space integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x equals integral subscript a superscript c straight f left parenthesis x right parenthesis space straight d x plus integral subscript c superscript b straight f left parenthesis x right parenthesis space straight d x` where$a\\leqc\\leqb$\n    - this is particularly useful for areas under multiple curves or areas under the$x$-axis"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Look out for questions that ask you to find an **indefinite** integral in one part (so “**+c**” needed), then in a later part use the same integral as a **definite** integral (where “**+c**” is not needed)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Find the value of\n\n`integral subscript 2 superscript 4 3 x left parenthesis x squared minus 2 right parenthesis space straight d x`\n\n**Answer:**\n\n> *Start by expanding the brackets inside the integral*\n\n`integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x`\n\n> *Integrate as usual (here it's a 'powers of *$x$*' integration)*\n\n> *Write the answer in square brackets with the integration limits outside*\n\n`table row cell integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x end cell equals cell open square brackets 3 open parentheses fraction numerator x to the power of 3 plus 1 end exponent over denominator 3 plus 1 end fraction close parentheses minus 6 open parentheses fraction numerator x to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses close square brackets subscript 2 superscript 4 end cell row blank equals cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell end table`\n\n> *Now substitute 4 into that function *\n*And subtract from it the function with 2 substituted in*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell equals cell open parentheses 3 over 4 open parentheses 4 close parentheses to the power of 4 minus 3 open parentheses 4 close parentheses squared close parentheses minus open parentheses 3 over 4 open parentheses 2 close parentheses to the power of 4 minus 3 open parentheses 2 squared close parentheses close parentheses end cell row blank equals cell open parentheses 192 minus 48 close parentheses minus open parentheses 12 minus 12 close parentheses end cell row blank equals cell 144 minus 0 end cell row blank equals 144 end table`\n\n`Error converting from MathML to accessible text.`"
+  }
+ ]
+}

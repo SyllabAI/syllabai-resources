@@ -1,0 +1,382 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_HW2dRZJwkrMp9kKR",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/series/arithmetic-and-geometric-series/arithmetic-sequences-and-series",
+ "title": "Arithmetic Sequences & Series",
+ "page_title": "Arithmetic Sequences & Series | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "series",
+   "arithmetic-and-geometric-series",
+   "arithmetic-sequences-and-series"
+  ],
+  "section": "series",
+  "topic": "arithmetic-and-geometric-series",
+  "leaf": "arithmetic-sequences-and-series"
+ },
+ "titles": {
+  "section": "Series",
+  "topic": "Arithmetic & Geometric Series",
+  "subtopic": "Arithmetic Sequences & Series"
+ },
+ "updated_at": "2024-10-20T07:57:37.747Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_b5Wd4YNZ9jMd7HH3",
+  "spcpt_85Xgrrh56QfsH6Qp"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic d"
+  },
+  {
+   "latex": "u",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>u</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u"
+  },
+  {
+   "latex": "u_{1}=a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>=</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 1 equals a"
+  },
+  {
+   "latex": "u_{9}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mn>9</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 9"
+  },
+  {
+   "latex": "u_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mi>n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "u_{n}=a+(n-1)d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><mo>+</mo><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n equals a plus left parenthesis n minus 1 right parenthesis d"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "u_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mi>n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n"
+  },
+  {
+   "latex": "u_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi mathvariant=\"bold-italic\">u</mi><mi mathvariant=\"bold\">n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic u subscript bold n"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic d"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic d"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic d"
+  },
+  {
+   "latex": "u_{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mn>4</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 4"
+  },
+  {
+   "latex": "u_{9}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mn>9</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 9"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "u_{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mn>4</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 4"
+  },
+  {
+   "latex": "u_{9}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mn>9</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 9"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "a=1,d=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">,</mo><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold-italic\">d</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a bold equals bold 1 bold comma bold space bold space bold space bold italic d bold equals bold 3"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "n=10",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 10"
+  },
+  {
+   "latex": "S_{10}=630",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mn>10</mn></msub><mo>=</mo><mn>630</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript 10 equals 630"
+  },
+  {
+   "latex": "a=18",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 18"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "d=10",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">d</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic d bold equals bold 10"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "n=10",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 10"
+  },
+  {
+   "latex": "S_{10}=630",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mn>10</mn></msub><mo>=</mo><mn>630</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript 10 equals 630"
+  },
+  {
+   "latex": "d=11",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mn>11</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "d equals 11"
+  },
+  {
+   "latex": "a=13.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">13</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a bold equals bold 13 bold. bold 5"
+  }
+ ],
+ "stats": {
+  "blocks": 19,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 46
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_b5Wd4YNZ9jMd7HH3",
+   "name": "Arithmetic Sequences",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Arithmetic Sequences"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an arithmetic sequence?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In an **arithmetic** **sequence,** the difference between consecutive terms in the sequence is constant\n\n  - This means a **common difference** is **added** to each term to get the **next term**\n- The **first term** of the sequence is denoted by $a$\n- The **common difference** is denoted by $d$\n\n  - For example, 1, 4, 7, 10, … is an arithmetic sequence with the rule *‘start at one and add three to each number’*\n  \n    - The **first term, **$a$***,***** **is 1\n    - The **common difference, **$d$**, **is 3\n- An arithmetic sequence can be\n\n  - **increasing **(positive common difference), or\n  - **decreasing **(negative common difference)\n- **Terms** in an arithmetic sequence can be referred to\n\n  - by the letter $u$ with\n  - a subscript corresponding to its place in the sequence\n  \n    - e.g.  $u_{1}=a$ is the first term, $u_{9}$ is the ninth term, $u_{n}$ is the $n$<sup>th</sup> term, etc."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_85Xgrrh56QfsH6Qp",
+   "name": "Arithmetic Series",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Arithmetic Series"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an arithmetic series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When the terms of an **arithmetic sequence** are added together, that is known as an **arithmetic series**\n\n  - The **terms** (1st term, 2nd term, 3rd term, etc.) are **exactly the same** in the sequence and series\n  - But with series we're most interested in what happens when the terms are **added together**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find a term in an arithmetic series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The ***n***<sup>***th ***</sup>**term formula** for an arithmetic sequence is"
+  },
+  {
+   "type": "paragraph",
+   "md": "$u_{n}=a+(n-1)d$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Where $a$* *is the **first term**, and $d$ is the **common difference**\n- This is **not **given on the exam **formula sheet**, so make sure you know it\n- The formula allows you to find **any term** in the arithmetic series\n\n  - **Enter** the values of $a$, $r$ and $n$ and calculate the value of $u_{n}$\n- Sometimes you will be **given a term (**$u_{n}$**)** and asked to **find **$a$** or **$d$\n\n  - **Substitute** the information you have into the formula and solve the equation\n- Sometimes you will be **given two terms** and asked to **find both **$a$** and **$d$\n\n  - **Substitute** the information into the formula and set up a pair of **simultaneous equations**\n  \n    - Then solve the simultaneous equations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the sum of an arithmetic series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An **arithmetic series** is the sum of the terms in an **arithmetic sequence**\n\n  - For the arithmetic sequence 1, 4, 7, 10, … the arithmetic series is 1 + 4 + 7 + 10 + …\n- Use the following formula to find the sum of the first $n$ terms of an arithmetic series:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`S subscript n equals n over 2 open square brackets 2 a plus space left parenthesis n minus 1 right parenthesis d close square brackets`*   *"
+  },
+  {
+   "type": "bullets",
+   "md": "- $a$<sub>* *</sub>is the **first term**\n- $d$ is the **common difference**\n- The formula is given on the exam **formula sheet**\n\n  - So you don't need to remember it\n  - But you do need to know how to use it!\n- A question will often **give** you the **sum of a certain number of terms** and ask you to **find the value of **$a$** or **$d$\n\n  - Substitute the information you have into the formula and solve the equation"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The formula for the **sum** of an arithmetic series is on the exam formula sheet\n\n  - But the *n*<sup>th</sup> term formula is **not** on the formula sheet\n- Simultaneous equations are often needed within arithmetic series questions\n\n  - Make sure you are confident solving them!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The fourth term of an arithmetic series is 10 and the ninth term is 25.  Find the first term and the common difference of the series.\n\n> *Put the information for the fourth and ninth terms into the **n*<sup>*th*</sup>* term formula  *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`\n\n> *For *$u_{4}$\n\n`table row cell a plus open parentheses 4 minus 1 close parentheses d end cell equals 10 row cell a plus 3 d end cell equals 10 end table`\n\n> *For *$u_{9}$\n\n`table row cell a plus open parentheses 9 minus 1 close parentheses d end cell equals 25 row cell a plus 8 d end cell equals 25 end table`\n\n> *That gives us two simultaneous equations in *$a$* and *$d$\n*Subtract the *$u_{4}$* equation from the *$u_{9}$* equation to eliminate *$a$\n\n> `table attributes columnalign right center left columnspacing 0px end attributes row cell 5 d end cell equals 15 row d equals 3 end table`\n\n*Substitute that value into the first equation to find *$a$\n\n> `table row cell a plus 3 open parentheses 3 close parentheses end cell equals 10 row cell a plus 9 end cell equals 10 row a equals 1 end table`\n\n*That is all the information we need to answer the question*\n\n$a=1,d=3$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The sum of the first 10 terms of an arithmetic series is 630.\n\nThe first term is 18.\n\na) Find the common difference, $d$, of the series.\n\n> *Use the arithmetic series formula  *`S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`\n\n> *Here  *$n=10$*,  *$S_{10}=630$*  and  *$a=18$\n\n> *Substitute in and solve for *$d$\n\n`table row 630 equals cell 10 over 2 open square brackets 2 open parentheses 18 close parentheses plus open parentheses 10 minus 1 close parentheses d close square brackets end cell row 630 equals cell 5 open square brackets 36 plus 9 d close square brackets end cell row 630 equals cell 180 plus 45 d end cell row 450 equals cell 45 d end cell row d equals cell 450 divided by 45 end cell end table`\n\n$d=10$\n\nThe sum of the first 10 terms of another arithmetic series is also 630.\n\nThe common difference is 11.\n\nb) Find the first term, $a$, of the series.\n\n> *Here  *$n=10$*,  *$S_{10}=630$*  and  *$d=11$\n\n`table row 630 equals cell 10 over 2 open square brackets 2 a plus open parentheses 10 minus 1 close parentheses 11 close square brackets end cell row 630 equals cell 5 open square brackets 2 a plus 99 close square brackets end cell row 630 equals cell 10 a plus 495 end cell row 135 equals cell 10 a end cell row a equals cell 135 divided by 10 end cell end table`\n\n$a=13.5$"
+  }
+ ]
+}

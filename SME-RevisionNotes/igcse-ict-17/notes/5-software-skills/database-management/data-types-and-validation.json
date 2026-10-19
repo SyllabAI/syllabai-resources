@@ -1,0 +1,150 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_pRHhV4zjjYKjfgvz",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/5-software-skills/database-management/data-types-and-validation",
+ "title": "Data Types & Validation",
+ "page_title": "Data Type ICT - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "5-software-skills",
+   "database-management",
+   "data-types-and-validation"
+  ],
+  "section": "5-software-skills",
+  "topic": "database-management",
+  "leaf": "data-types-and-validation"
+ },
+ "titles": {
+  "section": "5. Software Skills",
+  "topic": "Database Management",
+  "subtopic": "Data Types & Validation"
+ },
+ "updated_at": "2024-06-26T13:00:15.878Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fdBhGYmZnmY6QFy9",
+  "spcpt_kKZM3Wwk6F3mVf2t"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 19,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_fdBhGYmZnmY6QFy9",
+   "name": "Data types",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Data types"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a data type?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A data type is the **type of data** that can be held **in a field** and is defined when designing a table in a database\n- Examples of common datatypes are:\n\n  - **Numerical/number** - whole/decimal numbers\n  - **Alphanumerical **- contains letters & numbers\n  - **Date/Time **\n  - **Boolean **- true or false values\n  - **Currency**\n- In the car table below, the following datatypes would be used:\n\n  - **car_id**: numerical\n  - **make**: alphanumerical\n  - **model**: alphanumerical\n  - **colour**: alphanumerical\n  - **price**: currency"
+  },
+  {
+   "type": "paragraph",
+   "md": "***cars***"
+  },
+  {
+   "type": "table",
+   "md": "| **car_id** | **make** | **model** | **colour** | **price** |\n|---|---|---|---|---|\n| 1 | Peugeot | 2008 | Red | 24950 |\n| 2 | Mazda | MX5 | Blue | 17995 |\n| 3 | Citroen | DS4 | Black | 21450 |\n| 4 | Ford | Puma | White | 19500 |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kKZM3Wwk6F3mVf2t",
+   "name": "Validation",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Validation"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is validation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Validation is used to **check** that an **input** from a user is **acceptable** and that it matches the requirements of the database\n- There are **5 main categories of validation** which can be carried out on **fields** and **data types, **these are:\n\n  - **Length check**\n  - **Type check**\n  - **Range check**\n  - **Presence check**\n- There can be occasions where** more than one type of validation** will be used on a field\n- An example of this could be a password field which could have a length, presence and type check on it"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/input-validation.png",
+   "file": "assets/b2181ebc9b26-input-validation.png",
+   "alt": "input-validation",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Length check"
+  },
+  {
+   "type": "bullets",
+   "md": "- Checks the **length of an input**\n- An example is ensuring that a password is **8 or more characters** in length"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Type check"
+  },
+  {
+   "type": "bullets",
+   "md": "- Check the **data type** of a field\n- An example is checking a user's **age** has been entered as an **integer**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Range check"
+  },
+  {
+   "type": "bullets",
+   "md": "- Ensures the data entered as a number **falls within a particular range**\n- An example is checking a user's age has been entered and falls between the digits of **0-100**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Presence check"
+  },
+  {
+   "type": "bullets",
+   "md": "- Looks to see if **any data has been entered** in a field\n- An example is checking that a user has entered a name when registering for a website"
+  }
+ ]
+}

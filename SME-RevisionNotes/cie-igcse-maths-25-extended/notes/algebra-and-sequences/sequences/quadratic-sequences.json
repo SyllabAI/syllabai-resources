@@ -1,0 +1,134 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_VV29xBKfZfsmGccF",
+ "course_slug": "cie-igcse-maths-25-extended",
+ "url": "https://www.savemyexams.com/igcse/maths/cie/25/extended/revision-notes/algebra-and-sequences/sequences/quadratic-sequences",
+ "title": "Quadratic Sequences",
+ "page_title": "Quadratic Sequences | Cambridge (CIE) IGCSE Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "algebra-and-sequences",
+   "sequences",
+   "quadratic-sequences"
+  ],
+  "section": "algebra-and-sequences",
+  "topic": "sequences",
+  "leaf": "quadratic-sequences"
+ },
+ "titles": {
+  "section": "Algebra & Sequences",
+  "topic": "Sequences",
+  "subtopic": "Quadratic Sequences"
+ },
+ "updated_at": "2026-01-20T17:19:13.491Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_D7WCGhm9p2M8rt9T",
+   "rnl_X98G4wWPC96SJ7yW",
+   "rnl_jHTqj3MwCFXVJPgg"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_6T579sqnsCTJJQVG"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 15,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_6T579sqnsCTJJQVG",
+   "name": "Quadratic Sequences",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Quadratic Sequences"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a quadratic sequence?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **quadratic **sequence has an ***n *****th term formula** that involves ***n***<sup>**2**</sup>\n- The **second differences** are **constant **(the same)\n\n  - These are the differences between the first differences\n  - For example,   3, 9, 19, 33, 51, …\n  1st Differences: 6, 10, 14, 18, ... 2nd Differences:  4,   4,   4, ..."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the n<sup>th</sup> term formula for a simple quadratic sequence?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The sequence with the *n*th term formula** *****n***<sup>**2**</sup> are the **square numbers **\n\n  - 1, 4, 9, 16, 25, 36, 49, ...\n  \n    - From 1<sup>2</sup>, 2<sup>2</sup>, 3<sup>2</sup>, 4<sup>2</sup>, ...\n- Some sequences are just the square numbers but with a **different starting number**\n\n  - 16, 25, 36, 49, ... has the formula (*n* + 3)<sup>2</sup>\n  \n    - Substitute in *n* = 1, *n* = 2, *n* = 3 to see why\n  - 0, 1, 4, 9, ... has the formula (*n* - 1)<sup>2</sup>\n- Finding the ***n*****th term formula** comes from **comparing** sequences to the square numbers\n\n  - 2, 5, 10, 17, 26, 37, 50, ... has the formula *n*<sup>2 </sup>+ 1\n  \n    - Each term is 1 more than the square numbers\n  - 2, 8, 18, 32, 50, 72, 98, ... has the formula 2*n*<sup>2</sup>\n  \n    - Each term is double a square number\n- It may be a simple **combination** of the above\n\n  - For example, doubling then adding 1\n  \n    - 3, 9, 19, 33, 51, 73, 99, ... has the formula 2*n*<sup>2</sup> + 1\n  - For example, subtracting 2 from square numbers starting with 4\n  \n    - 2, 7, 14, 23, ... has the formula (*n* + 1)<sup>2</sup> - 2"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the n<sup>th</sup> term formula for any quadratic sequence?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nWork out the **sequences **of **first **and **second differences**\n\n  - e.g. for the sequence 1, 10, 23, 40, 61"
+  },
+  {
+   "type": "table",
+   "md": "| sequence | 1 | 10 | 23 | 40 | 61 |\n|---|---|---|---|---|---|\n| first difference |   | +9 | +13 | +17 | +21 |\n| second difference |   |   | +4 | +4 | +4 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 2**\n**Divide **the **second difference by 2** to find the coefficient of *n*<sup>2</sup>\n\n  - e.g.  *a* = 4 ÷ 2 = 2\n- **STEP 3**\nWrite out the **first three** or **four **terms of *an*<sup>2</sup> and **subtract **the terms from the **corresponding terms **of the given sequence\n\n  - e.g. for the sequence 1, 10, 23, 40, 61"
+  },
+  {
+   "type": "table",
+   "md": "| sequence | 1 | 10 | 23 | 40 |\n|---|---|---|---|---|\n| 2*n*<sup>2</sup> | 2 | 8 | 18 | 32 |\n| difference | -1 | 2 | 5 | 8 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 4**\nWork out the ***n*****th term** of these **differences **to find the *bn* + *c *part of the formula\n\n  - e.g. the *n*th term of -1, 2, 5, 8, ... is  *bn* + *c *= 3*n* − 4\n- **STEP 5**\nFind *an*<sup>*2*</sup>* *+* bn *+* c *by adding together this linear *n*th term to *an*<sup>2</sup> term\n\n  - e.g.  *an*<sup>*2*</sup>* *+* bn *+* c *= 2*n*<sup>2</sup> + 3*n* − 4"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "You must learn the square numbers from 1<sup>2</sup> to 15<sup>2</sup> ."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "For the sequence 6, 9, 14, 21, 30, ....\n\n(a) Find a formula for the *n*<sup>th </sup>term.\n\n**Answer:**\n\n> *Find the first and second differences*\n\n*Sequence:   6,   9,   14,   21,   30*\n*     First differences:   3,    5,     7,     9, ...           *\n*    Second differences:   2,    2,     2, ...   *\n\n> *Halve the second difference, this is the value of **a** *\n*Write down the sequence **an*<sup>*2*</sup>\n*Compare this to the original sequence*\n\n* Sequence:  6,   9,   14,   21,   30, ..*.     \n**           1n***<sup>2 </sup>**:  1,   4,   9,   16,   25,  ... * \n*Differences: 5, 5, 5, 5, 5, ...*\n\n> *Each term is 5 more than the terms in **n*<sup>*2*</sup>*, so add 5 to **n*<sup>*2*</sup>\n\n**Final answer:** **n**<sup>**th**</sup>** term =**** n**<sup>**2**</sup>** + 5**\n\n(b) Hence, find the 20<sup>th</sup> term of the sequence.\n\n**Answer:**\n\n> *Substitute **n** = 20 into **n*<sup>*2*</sup>* + 5*\n\n*(20)**<sup>2</sup>** + 5 = 400 + 5*\n\n**Final answer:** **The 20**<sup>**th**</sup>** term is 405**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "For the sequence 5, 7, 11, 17, 25, ....\n\n(a) Find a formula for the *n*<sup>th </sup>term.\n\n**Answer:**\n*Start by finding the first and second differences*\n\n*Sequence:   5,   7,   11,   17,   25*\n\n*First differences:      2,    4,     6,      8, ...           *\n\n*Second difference:     2,    2,     2, ...               *\n\n> *Hence *\n\n**a*** = 2 ÷ 2 = 1*\n\n> *Now write down **an*<sup>*2*</sup>* (just **n*<sup>*2*</sup>* in this case as **a** = 1) and subtract the terms from the original sequence*\n\n*sequence:   5,  7, 11, 17, ...*\n\n**          an***<sup>2. </sup>**:  1,  4,  9,   16, ...*\n\n* difference:  4,  3,  2,  1, ...   *\n\n> *Work out the **n**th term of these differences to give you **bn** + **c*\n\n**bn*** + ***c*** = −n + 5*\n\n> *Add **an*<sup>*2*</sup>* and **bn** + **c **together to give you the **n*<sup>*th*</sup>* term of the sequence*\n\n**Final answer:** **n**<sup>**th**</sup>** term =**** n**<sup>**2**</sup>** − ****n**** + 5**\n\n(b) Hence find the 20<sup>th</sup> term of the sequence.\n\n**Answer:**\n\n*Substitute **n** = 20 into **n*<sup>*2*</sup>* − **n** + 5*\n\n*(20)**<sup>2</sup>** − 20 + 5 = 400 − 15 *\n\n**Final answer:** **20**<sup>**th**</sup>** term = 385**"
+  }
+ ]
+}

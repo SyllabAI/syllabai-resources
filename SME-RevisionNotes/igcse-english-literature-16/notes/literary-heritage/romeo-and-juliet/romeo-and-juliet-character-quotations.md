@@ -1,0 +1,160 @@
+---
+note_id: "rn_gwcRmmKYjYppTpYr"
+title: "Romeo & Juliet: Character Quotations"
+source: https://www.savemyexams.com/igcse/english-literature/edexcel/16/revision-notes/literary-heritage/romeo-and-juliet/romeo-and-juliet-character-quotations
+path: literary-heritage/romeo-and-juliet/romeo-and-juliet-character-quotations
+updated_at: "2026-08-05T09:06:23.467Z"
+spec_point_ids: ["spcpt_2KzsnjxQ8FS2nwyp", "spcpt_tQKqJRr27CYXvNfG", "spcpt_JjnW24DwfvP8JjQ4", "spcpt_kptFV4tddkfVYyCS", "spcpt_PyPQJQt4NRf6Qq2S"]
+spec_point_codes: []
+guided_study: true
+---
+
+# Romeo & Juliet: Character Quotations
+
+## Romeo and Juliet: Character Quotations
+
+> **Spec point** — `spcpt_2KzsnjxQ8FS2nwyp`
+
+## Romeo and Juliet: Character Quotations
+
+GCSE English Literature exam questions usually focus on a theme, a character or a relationship between two or more characters. Examiners reward responses that track the development of characters or themes through the play.
+
+When revising, try to consider quotes in terms of their narrative effects — how characters are presented, what attitudes or relationships are presented and why these ideas have been shown to the reader.
+
+- **Romeo quotes**
+- **Juliet quotes**
+- **Tybalt quotes**
+- **Mercutio quotes**
+
+> **Exam Hint**
+> One thing you can do to improve the quality of your response is to focus closely on the dramatic aspects of the scene in the extract, such as its setting. Examiners have commented on the quality of essays that discuss, for example, the significance of the balcony in the Capulet orchard and that it takes place at night. Another example would be the staging of the shared [sonnet](https://www.savemyexams.com/glossary/gcse/english-language/sonnet/) in the midst of the ball. Once you consider where the dialogue takes place you will be able to link your analysis to how this presents the character, and what broader issues are being conveyed.
+> 
+> Examiners like you to use references or quotes as support for your ideas. That’s why we’ve included a “key word or phrase” from every one of our longer quotations to help you memorise only the most important parts of each quotation.
+
+## Romeo and Juliet: Character Quotations: Romeo
+
+> **Spec point** — `spcpt_tQKqJRr27CYXvNfG`
+
+## Romeo
+
+> **blockquote**
+> **“He that hath the steerage of my course**
+> 
+> **Direct my sail!” **– Romeo, Act 1, Scene 4
+
+| ![Illustration of a person in profile, with blond hair and blue and gold clothing, drawn within a circle against a white background.](assets/b5250536e1dc-41397-httpscdn-savemyexams-comuploads202305romeo.png)<br><br>*Romeo* | **Key word or phrase to memorise: **“steerage of my course” and “Direct my sail!” | **What the quotation means: **As Romeo enters the Capulet ball he has a vision about his early death, but he dismisses it, telling whoever controls his future that he is willing to go wherever “He” takes him | **Theme: **Fate and Religion |
+|---|---|---|---|
+| - Shakespeare raises questions about fate and free will through his tragic hero:<br><br>  - Romeo’s fatal flaw is his reckless dismissal of danger<br>  - Here, his <u>[metaphor](https://www.savemyexams.com/glossary/gcse/english-language/metaphor-definition/)</u> implies he is a passenger on a ship into the future<br>  - <u>[Personification](https://www.savemyexams.com/glossary/gcse/english-language/personification-definition/)</u>** **of fate (“He”) implies an *omnipotent* presence<br>  - He willingly submits, asking ‘him’ to  “direct” his future<br>- Tension is built as Romeo disregards a premonition, heightened by <u>[dramatic irony](https://www.savemyexams.com/glossary/gcse/english-literature/dramatic-irony-definition/)</u>** **(the Prologue warns of his doomed love)<br>- In Act 3, Scene 1, Romeo’s attitude towards fate changes significantly:<br><br>  - After killing Tybalt, Romeo calls himself “fortune’s fool”<br>  - He believes that fate has turned against him, and he is upset by the direction it has taken him |   |   |   |
+
+> **blockquote**
+> **“With love’s light wings did I o’erperch these walls,**
+> 
+> **For stony limits cannot hold love out”** – Romeo, Act 2, Scene 2
+
+| ![Illustration of a person with wavy blond hair in profile, wearing a blue and gold garment with a white collar, inside a circular frame.](assets/5fd9d1fb70e5-16215-httpscdn-savemyexams-comuploads202305romeo.png)<br><br>*Romeo* | **Key word or phrase to memorise: **“love’s light wings” and “stony limits”** ** | **What the quotation means: **Romeo tells Juliet that he was able to climb over the wall into the Capulet garden because he ‘flew’ with love’s wings, and adds that walls or barriers are not able to stop love | **Theme: **Love and Gender |
+|---|---|---|---|
+| - Shakespeare illustrates the Romeo’s belief in the power of love:<br><br>  - Here, the <u>[pun](https://www.savemyexams.com/glossary/gcse/english-literature/pun-definition/)</u>** **of “stony limits” implies his disregard for the conflict between his and Juliet’s families<br>  - He likens climbing the Capulet wall to overcoming the feud keeping him from Juliet<br>- The <u>[alliterative](https://www.savemyexams.com/glossary/gcse/english-language/alliteration-definition/)</u> “love’s light wings” is typical of Romeo’s <u>[hyperbolic](https://www.savemyexams.com/glossary/gcse/english-language/hyperbole-definition/)</u><u> imagery</u> about love:<br><br>  - The metaphor** **implies Romeo’s desire to elude all barriers<br>  - Shakespeare presents his impulsive naivety as his [hamartia](https://www.savemyexams.com/glossary/gcse/english-language/hamartia/) |   |   |   |
+
+> **blockquote**
+> **“Hence banished is banished from the world,**
+> 
+> **And world’s exile is death. Then ‘banishèd’**
+> 
+> **Is death mistermed”** – Romeo, Act 3, Scene 3
+
+| ![Illustration of a person in profile within a circle, wearing a blue and gold uniform with a white collar, having wavy blond hair.](assets/4970de1d16b0-38578-httpscdn-savemyexams-comuploads202305romeo.png)<br><br>*Romeo* | **Key word or phrase to memorise: **“world’s exile is death” | **What the quotation means: **A distressed Romeo says that the Friar does not understand that for a young boy in love, exile should be renamed “death”, and that banishment from Verona equates to death | **Theme: **Conflict and Violence |
+|---|---|---|---|
+| - Shakespeare raises questions about the damaging consequences of conflict:<br><br>  - Romeo’s distress is conveyed in his rambling and panicked dialogue<br>  - The [repetition](https://www.savemyexams.com/glossary/gcse/english-language/repetition-definition/) of “banished” and “death” suggests Romeo’s frustration at his powerlessness<br>- Shakespeare <u>[foreshadows](https://www.savemyexams.com/glossary/gcse/english-language/foreshadowing-definition/)</u> the [tragedy](https://www.savemyexams.com/glossary/gcse/english-language/tragedy/) that results from Romeo’s exile:<br><br>  - Romeo hints that being isolated from the “world” will lead to his death |   |   |   |
+
+## Romeo and Juliet: Character Quotations: Juliet
+
+> **Spec point** — `spcpt_JjnW24DwfvP8JjQ4`
+
+## Juliet
+
+> **blockquote**
+> **“Prodigious birth of love it is to me**
+> 
+> **That I must love a loathed enemy”** – Juliet, Act 1, Scene 5
+
+| ![Illustration of a person with long wavy blonde hair, blue eyes, and neutral expression, wearing a beige and brown outfit inside a circular frame with a white background.](assets/420f0c6ec677-juliet.png)<br><br>*Juliet* | **Key word or phrase to memorise: **“love a loathed enemy” | **What the quotation means: **At the Capulet Ball, after she and Romeo share a kiss, Juliet learns that he is a Montague and, in an aside, she says that her first love is unnatural and ominous (“prodigious”) as she loves a hated enemy | **Theme: **Fate and Religion |
+|---|---|---|---|
+| - Shakespeare’s Juliet often refers to ominous warnings about the future:<br><br>  - When she meets Romeo she is more aware of the danger than Romeo is<br>  - Here she suggests she is fated to have a terrible, unnatural love<br>  - The modal verb “must” implies that her love for is destined, and she has no say in the matter<br>- The connection between love and hate is conveyed in Juliet’s <u>alliterative </u><u>[oxymoron](https://www.savemyexams.com/glossary/gcse/english-language/oxymoron-definition/)</u><u>**:**</u><br><br>  - It is because the lovers are “loathed” enemies that they are doomed<br>  - “Love” and “loathed” mean opposite things but sound very similar — a quality that implies that Juliet is already beginning to forget that she must loathe Romeo |   |   |   |
+
+> **blockquote**
+> **“Proud can I never be of what I hate,**
+> 
+> **But thankful even for hate that is meant love” **– Juliet, Act 3, Scene 5
+
+| ![Illustration of a woman with long blonde hair and a neutral expression, wearing a beige top, encircled within a simple outline.](assets/59d052a592b7-35231-httpscdn-savemyexams-comuploads202305julie.png)<br><br>*Juliet* | **Key word or phrase to memorise: **“Proud can I never be of what I hate” | **What the quotation means: **Juliet tries to be respectful in her challenge to her father, saying that she can never feel pride for marrying someone that she hates, but that she is “thankful” for “hate” as it comes from “love” | **Theme: **Honour and Family |
+|---|---|---|---|
+| - Shakespeare presents Juliet as an intelligent, free-thinking young girl:<br><br>  - In this dramatic scene, her refusal to carry out her duties meets with opposition from her parents<br>  - Her unchanging stance despite her father’s fury shows her strong will<br>- Juliet’s dialogue often refers to themes about conflict related to family honour:<br><br>  - The emotive “Proud”, “hate” and “love” conveys the close connection between the three ideas<br>  - She is portrayed, however, as respectful, despite her defiance<br>  - Although she is respectful, Shakespeare’s audience would have seen her refusal to obey her father as an unusual act of female rebellion |   |   |   |
+
+> **blockquote**
+> **“God joined my heart and Romeo’s, thou our hands”** – Juliet, Act 4, Scene 1
+
+| ![Illustrated portrait of a woman with long blonde hair in a bun, wearing a beige top. She is looking to the right, framed within a circular border.](assets/e0f250ed0ecf-57293-httpscdn-savemyexams-comuploads202305julie.png)<br><br>*Juliet* | **Key word or phrase to memorise: **“God joined my heart and Romeo’s” | **What the quotation means: **In his cell Juliet tells Friar Laurence that her love for Romeo is holy, and that as he married them (by joining their hands) he must help her escape marriage to Paris | **Theme: **Love and Gender |
+|---|---|---|---|
+| - Juliet’s loyalty to Romeo is illustrated in the tense scene when she seeks the Friar’s help:<br><br>  - [Alliteration](https://www.savemyexams.com/glossary/gcse/english-language/alliteration-definition/) of the physical words (“heart” and “hands”) emphasises their bond, and his involvement<br>- Shakespeare presents the love between Romeo and Juliet as pure and sacrificial:<br><br>  - Juliet [alludes](https://www.savemyexams.com/glossary/gcse/english-language/allusion-definition/) to their love as blessed by God<br>  - In the final scene, their deaths bring peace to Verona, and their father’s take one another’s hands as a sign of forgiveness |   |   |   |
+
+## Romeo and Juliet: Character Quotations: Tybalt
+
+> **Spec point** — `spcpt_kptFV4tddkfVYyCS`
+
+## Tybalt
+
+> **blockquote**
+> **“What, art thou drawn among these heartless hinds? Turn thee, Benvolio. Look upon thy death”** –** **Tybalt, Act 1, Scene 1
+
+| ![Illustration of a man with long dark hair and a goatee, wearing a purple coat with a white collar. The image has a circular border.](assets/efffa0fd3291-12982-httpscdn-savemyexams-comuploads202305tybal.png)<br><br>*Tybalt* | **Key word or phrase to memorise: **“heartless hinds” and “death” | **What the quotation means: **Tybalt asks the Capulet servants why they have drawn their swords on the cowardly (“heartless”) Montague peasants (“hinds”), and then immediately invites Benvolio to fight** ** | **Theme: **Conflict and Violence |
+|---|---|---|---|
+| - Shakespeare presents Tybalt as a fiercely loyal and aggressive Capulet:<br><br>  - He is the** **[antagonist](https://www.savemyexams.com/glossary/gcse/english-language/antagonist-definition/)** **of the play and a *foil* to Romeo (who prefers peace)<br>  - His sophisticated language presents him as a worthy opponent to Romeo<br>- Tybalt’s sudden, meaningless aggression portrays him as hateful:<br><br>  - In the opening scene, he insults “all” Montagues and unjustifiably threatens to kill the peaceful Benvolio<br>  - The [alliteration](https://www.savemyexams.com/glossary/gcse/english-language/alliteration-definition/) of “heartless hinds” sounds especially aggressive, with the repeated “h” sound giving the impression that these words are shouted |   |   |   |
+
+> **blockquote**
+> **“A villain that is hither come in spite **
+> 
+> **To scorn at our solemnity this night” **– Tybalt, Act 1, Scene 5
+
+| ![Illustration of a historical figure with long dark hair and a small goatee, wearing a purple coat and white cravat, within a circular frame.](assets/f0f75c973e80-3963-httpscdn-savemyexams-comuploads202305tybalt.png)<br><br>*Tybalt* | **Key word or phrase to memorise: **“villain” and “scorn” | **What the quotation means: **When Tybalt hears Romeo at the ball he tells Lord Capulet that their enemy (a “villain”) has come to their house with intent to mock and disrespect the family (to “scorn” in “spite”) | **Theme:  **Honour and Family |
+|---|---|---|---|
+| - Through Tybalt, Shakespeare implies connections between honour and prejudice:<br><br>  - Tybalt’s hatred is conveyed in the term he uses for Romeo: “villain”<br>  - Tybalt’s sensitive pride is implied by his repeated use of “scorn”<br>- Shakespeare [foreshadows](https://www.savemyexams.com/glossary/gcse/english-language/foreshadowing-definition/) conflict between Romeo and Tybalt in this scene:<br><br>  - Tybalt’s seething, bitter indignation is conveyed in the <u>[sibilance](https://www.savemyexams.com/glossary/gcse/english-language/sibilance/)</u> of “spite”, “scorn” and “solemnity” |   |   |   |
+
+> **blockquote**
+> **“Well, peace be with you, sir. Here comes my man” **– Tybalt, Act 3, Scene 1
+
+| ![Illustration of a man with long black hair, wearing a purple historical outfit with a white ruffled collar, set in a circular frame.](assets/c3e5c7aa71a4-52071-httpscdn-savemyexams-comuploads202305tybal.png)<br><br>*Tybalt* | **Key word or phrase to memorise: **“Here comes my man” | **What the quotation means: **In the [climax](https://www.savemyexams.com/glossary/gcse/english-language/climax-definition/) of the play, Tybalt’s singular hatred for Romeo becomes evident when he dismisses Mercutio’s taunts in favour of confronting Romeo, who he sees approaching | **Theme: **Conflict and Violence |
+|---|---|---|---|
+| - Shakespeare illustrates the significance of Tybalt’s need to avenge his family:<br><br>  - Despite Mercutio’s invitation to fight and his friendship with Romeo, Tybalt wishes him “peace” (although he may be being disingenuous here!)<br>  - The short, emphatic phrase, “Here comes my man” implies Tybalt’s focus on Romeo<br>- Tybalt’s calm demeanour hides his repressed anger, which builds tension:<br><br>  - The scene builds to a dramatic climax as Tybalt and Romeo fight |   |   |   |
+
+## Romeo and Juliet: Character Quotations: Mercutio
+
+> **Spec point** — `spcpt_PyPQJQt4NRf6Qq2S`
+
+## Mercutio
+
+> **blockquote**
+> **“You are a lover; borrow Cupid’s wings,**
+> 
+> **And soar with them above a common bound” **– Mercutio, Act 1, Scene 4
+
+| ![Illustrated profile of a person with short brown hair wearing a brown jacket and white shirt, enclosed in a circular frame on a white background.](assets/6ce9b41c9c1c-33025-httpscdn-savemyexams-comuploads202305mercu.png)<br><br>*Mercutio* | **Key word or phrase to memorise: **“Cupid’s wings” and “soar with them” | **What the quotation means: ** Mercutio jokes with Romeo, telling him that if he is feeling heavily burdened by love he should use his “Cupid’s wings” to allow him to fly high and cross any boundary | **Theme: **Love and Gender |
+|---|---|---|---|
+| - Romeo and Juliet explores aspects of masculinity and male friendship:<br><br>  - Mercutio often teases Romeo about his obsession with love and his time away from his friends<br>  - Here, his [metaphor](https://www.savemyexams.com/glossary/gcse/english-language/metaphor-definition/) is sarcastic and  mocks Romeo for being a “lover”<br>- Shakespeare presents the close relationship between Romeo and Mercutio:<br><br>  - They share sophisticated wit<br>  - This metaphor, said in jest, is mirrored by Romeo in the orchard |   |   |   |
+
+> **blockquote**
+> **“Alas, poor Romeo, he is already dead — stabbed with a white wench’s black eye, run through the ear with a love song”**–** **Mercutio, Act 2, Scene 4
+
+| ![Profile illustration of a man with brown hair, wearing a brown shirt, in a white circular frame, facing right against a plain background.](assets/576f8b6fcec8-17044-httpscdn-savemyexams-comuploads202305mercu.png)<br><br>*Mercutio* | **Key word or phrase to memorise: **“already dead” and “run through the ear with a love song” | **What the quotation means: ** Mercutio tells Benvolio his concerns about Romeo’s ability to stand up against Tybalt, but suggests that he is as good as dead anyway, having been “stabbed” and “run through” by love | **Theme: **Love and Gender |
+|---|---|---|---|
+| - Shakespeare highlights Romeo and Mercutio’s contrasting attitudes to love:<br><br>  - Romeo is affected deeply by love in contrast to the flippant Mercutio<br>  - Mercutio’s metaphorical language implies that love is violent<br>  - He *cynically* implies that Romeo has been swayed by words of love<br>- Shakespeare builds tension with Mercutio’s dark and <u>[oxymoronic](https://www.savemyexams.com/glossary/gcse/english-language/oxymoron-definition/)</u> imagery:<br><br>  - Mercutio’s joke, that Romeo is already dead, reminds audiences of Romeo’s doomed fate |   |   |   |
+
+> **blockquote**
+> **“No, ’tis not so deep as a well, nor so wide as a church door, but ’tis enough. ’Twill serve” **– Mercutio, Act 3, Scene 1
+
+| ![Illustration of a man in profile with brown hair and a brown jacket against a white background enclosed in a circle.](assets/f30d6a8297ef-64118-httpscdn-savemyexams-comuploads202305mercu.png)<br><br>*Mercutio* | **Key word or phrase to memorise: **“’Twill serve” | **What the quotation means: ** Mercutio, having been stabbed by Tybalt, is dying in Romeo’s arms. Even as he dies, though, he still displays wit and bravado | **Theme: **Loyalty |
+|---|---|---|---|
+| - Mercutio’s character provides light relief to <u>[juxtapose](https://www.savemyexams.com/glossary/gcse/english-language/juxtaposition-definition/)</u>** **dark themes:<br><br>  - Even while dying he is glib, using <u>[similes](https://www.savemyexams.com/glossary/gcse/english-language/simile-definition/)</u> to describe his wound<br>  - The comparison between his wound and a “well” or “church door” builds sympathy for him, suggesting burial and a funeral<br>- Shakespeare uses Mercutio to create [pathos](https://www.savemyexams.com/glossary/gcse/english-literature/pathos-definition/) in a dramatic climax:<br><br>  - His comment “’Twill serve” ominously implies the significance of his death<br>  - His death signals a turning point and is a catalyst for Romeo’s violence |   |   |   |
+
+#### Sources
+
+Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

@@ -1,0 +1,179 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_kZGTq2pDN9Gw5ZR6",
+ "course_slug": "cie-igcse-ict-21",
+ "url": "https://www.savemyexams.com/igcse/ict/cie/21/revision-notes/5-the-systems-life-cycle/the-systems-life-cycle/the-systems-life-cycle-design",
+ "title": "The Systems Life Cycle: Design",
+ "page_title": "The Systems Life Cycle: Design | Cambridge (CIE) IGCSE ICT Revision Notes 2021",
+ "path": {
+  "segs": [
+   "5-the-systems-life-cycle",
+   "the-systems-life-cycle",
+   "the-systems-life-cycle-design"
+  ],
+  "section": "5-the-systems-life-cycle",
+  "topic": "the-systems-life-cycle",
+  "leaf": "the-systems-life-cycle-design"
+ },
+ "titles": {
+  "section": "5. The Systems Life Cycle",
+  "topic": "The Systems Life Cycle",
+  "subtopic": "The Systems Life Cycle: Design"
+ },
+ "updated_at": "2024-10-10T09:44:18.905Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_VTCrqx8wnRQMgcPZ",
+  "spcpt_NYyhPqF75BZ69rkd",
+  "spcpt_kq7tkfPzP8JC6qRm"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 24,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 1,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the system life cycle?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The system life cycle** **is **a structured process** that guides the **planning**, **creation**, **testing**, and **deployment **of an information system\n- Ensures systems are** systematically developed**, meeting needs of stakeholders, **minimising **risks and **maximising **efficiency\n- The second stage is **design**, the purpose is to:\n\n  - **Develop **architectural **blueprints for the system**, including **database design**, **user interfaces**, and **system interfaces**."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_VTCrqx8wnRQMgcPZ",
+   "name": "File/Data Structures",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "File/Data Structures"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are file/data structures?"
+  },
+  {
+   "type": "bullets",
+   "md": "- File structures are considered during the design stage of the systems life cycle and consist of defining:\n\n  - **Field names**\n  - **Filed lengths**\n  - **Data types**\n  - **Primary keys**\n- A file **consists of records** and records are **made up of fields**\n- Each record is **identified by its unique primary key** field"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Data types"
+  },
+  {
+   "type": "table",
+   "md": "| Data type | Description | Examples |\n|---|---|---|\n| Alphanumeric | Stores a combination of characters (**letters or text**) and numeric data | Usernames, postcodes, product codes, phone numbers |\n| Character | A **single letter/symbol** | A, B ,C etc. |\n| Text | Stores a combination of characters (**letters, text, symbols, special characters etc**.) and numeric data | This_is_an_example |\n| Boolean | Stores data in a **Yes/No or True/False format** | Y or N |\n| Numeric | Stores numerical data:<br><br>- **Integers**<br>- **Decimals**<br>- **Currency**<br>- **Date/Time** | 100<br><br>1.50<br><br>£2.99<br><br>18/05/2024 or 14:58 |"
+  },
+  {
+   "type": "callout",
+   "variant": "case-study",
+   "label": "Case Study",
+   "md": "**A file structure for records containing information about cars**\n\n| Field name | Field length | Data type | Primary key? |\n|---|---|---|---|\n| Car_ID | 6 | Alphanumeric | Yes |\n| Year | 4 | Numeric: integer | No |\n| Make | 20 | Text | No |\n| Model | 20 | Text | No |\n| Cost | 6 | Numeric: currency | No |\n| Sold | 1 | Character | No |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_NYyhPqF75BZ69rkd",
+   "name": "Validation Routines",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Validation Routines"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are validation routines?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Validation routines are **checks placed on data being entered** to ensure it matches the design of the system\n- Validation routines **prevent errors** and **maintain data integrity**"
+  },
+  {
+   "type": "table",
+   "md": "| Validation routine | Description | Examples |\n|---|---|---|\n| Range check | Ensures the data entered as a number **falls within a particular range** | For children aged between 5 and 10, checks to make sure numbers <5 and >10 are not accepted |\n| Length check | Checks the **length of a string** | Password must be a minimum of 8 characters, checks to make sure the length is >=8 |\n| Type check | Check the **data type** of a field | Enter distance in whole miles, checks to make sure decimals are not accepted |\n| Format check | Ensures that the data has been entered in the **correct format** | Enter date of birth (DD/MM/YY), check to make sure the format is correct |\n| Presence check | Looks to see if **any data has been entered** in a field | Enter your username ,check to make sure the filed has not been left blank |\n| Check digit | Check digits are **numerical values** that are the **final digit of a larger code** | Barcodes |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kq7tkfPzP8JC6qRm",
+   "name": "Input & Output Formats",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Input & Output Formats"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are input and output formats?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Input and output formats are **design considerations** for **how data is captured** from (**input**) and displayed to (**output**) the users of a system"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Input formats"
+  },
+  {
+   "type": "bullets",
+   "md": "- A data capture form is** used to collect data from a user in a structured format**\n- Data capture forms should aid the collection of data by:\n\n  - **Having a user-friendly layout** - short, visually appealing, logical flow\n  - **Providing clear instructions** - concise instructions at the beginning\n  - **Using appropriate question types** - multiple choice, drop downs, checkboxes etc.\n  - **Using validation routines**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/a-data-capture-form.png",
+   "file": "assets/8eef280d1666-a-data-capture-form.png",
+   "alt": "a-data-capture-form",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Output formats"
+  },
+  {
+   "type": "bullets",
+   "md": "- Showing the results of processing either paper-based on on a screen should consider:\n\n  - **Screen layouts**: how information is presented to users on a screen\n  - **Report layouts**: how information is organised in a printed or digital report\n  - **Readability**, **visual appeal**, and **efficient use of space**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Carlos is designing a new computer system to replace an existing system.\n\nTick four items which will need to be designed.\n\n**[4]**\n\n|   | Tick |\n|---|---|\n| Inputs to the current system. |   |\n| Data capture forms. |   |\n| Report layouts. |   |\n| Limitations of the system. |   |\n| Observation methods. |   |\n| Improvements to the system. |   |\n| User and information requirements. |   |\n| Validation routines. |   |\n| Problems with the current system. |   |\n| File structure. |   |\n\n**Answers**\n\n|   | Tick |\n|---|---|\n| Inputs to the current system. |   |\n| Data capture forms. | **Final answer:** ** χ** |\n| Report layouts. | **Final answer:** ** χ** |\n| Limitations of the system. | **Final answer:** ** ** |\n| Observation methods. | **Final answer:** ** ** |\n| Improvements to the system. | **Final answer:** ** ** |\n| User and information requirements. | **Final answer:** ** ** |\n| Validation routines. | **Final answer:** ** χ** |\n| Problems with the current system. | **Final answer:** ** ** |\n| File structure. | **Final answer:** ** χ** |"
+  }
+ ]
+}

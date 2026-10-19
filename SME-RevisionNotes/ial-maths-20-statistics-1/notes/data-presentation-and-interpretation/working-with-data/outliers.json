@@ -1,0 +1,140 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_q44WmNMyCCZwDVY6",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/data-presentation-and-interpretation/working-with-data/outliers",
+ "title": "Outliers",
+ "page_title": "Outliers | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "data-presentation-and-interpretation",
+   "working-with-data",
+   "outliers"
+  ],
+  "section": "data-presentation-and-interpretation",
+  "topic": "working-with-data",
+  "leaf": "outliers"
+ },
+ "titles": {
+  "section": "Data Presentation & Interpretation",
+  "topic": "Working with Data",
+  "subtopic": "Outliers"
+ },
+ "updated_at": "2026-07-02T08:19:38.572Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_kRWfbgrptFzrJPnj"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "Q_{1}-k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>Q</mi><mn>1</mn></msub><mo>-</mo><mi>k</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style Q subscript 1 minus k end style"
+  },
+  {
+   "latex": "Q_{3}+k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>Q</mi><mn>3</mn></msub><mo>+</mo><mi>k</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style Q subscript 3 plus k end style"
+  },
+  {
+   "latex": "\\overline{x}-kσ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mover><mi>x</mi><mo>¯</mo></mover><mo>-</mo><mi>k</mi><mi>σ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style x with bar on top minus k sigma end style"
+  },
+  {
+   "latex": "\\overline{x}+kσ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">¯</mo></mover><mo>+</mo><mi mathsize=\"16px\">k</mi><mi mathsize=\"16px\">σ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "size 16px x with size 16px bar on top plus size 16px k size 16px sigma"
+  },
+  {
+   "latex": "k=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>k</mi><mo>=</mo><mn>2</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style k equals 2 end style"
+  },
+  {
+   "latex": "1.5\\times",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>×</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "1.5 space cross times"
+  }
+ ],
+ "stats": {
+  "blocks": 10,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 6
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_kRWfbgrptFzrJPnj",
+   "name": "Outliers",
+   "definition": "",
+   "video_id": "852865706"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Outliers"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are outliers?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Outliers are extreme data values that do not fit with the general pattern of the data\n- They can come from one or two extreme events or from mistakes in the data collection\n- Outliers will affect some statistics that are calculated from the data\n\n  - They can have a big effect on the mean, but not on the median or usually the mode\n  - The range will be completely changed by a single outlier, but the interquartile range will not be affected\n  - When calculating the mean or the range it is important to decide whether the outlier(s) should be included in the calculations\n  \n    - The question will tell you whether to include the outliers or not\n    - You may have to decide which value is the outlier to be removed\n    - In general outliers are included if they are a valid piece of data and excluded if it is likely that they are erroneous"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How are outliers calculated?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Most of the time within this syllabus the outliers will be a particular distance either side of the **interquartile range**\n\n  - The most common way to calculate an outlier will be using the formulae:\n  \n    - A value that is less than $Q_{1}-k$(interquartile range)\n    - A value that is greater than $Q_{3}+k$(interquartile range)\n    - *k* is a constant that will be given to you in the exam, commonly *k=*1.5\n- Outliers could also be situated a number of **standard deviations** away from the **mean**\n\n  - The most common way to calculate an outlier will be using the formulae\n  \n    - A value that is less than $\\overline{x}-kσ$\n    - A value that is greater than $\\overline{x}+kσ$\n    - *k* is a constant that will be given to you in the exam, commonly $k=2$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How are outliers represented on box plots?"
+  },
+  {
+   "type": "bullets",
+   "md": "- On a box plot an outlier is represented as a cross either side of the maximum or minimum value\n- If the maximum or minimum value is discovered to be an outlier, the **new **maximum or minimum value will need to be found for the box plot\n\n  - If the data value just above the minimum or just below the maximum is known, this will become the new value\n  - If the data value is not known, the new minimum or maximum will become the outlier boundary"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The ages, in years, of a number of children attending a birthday party are given below:\n\n2,   7,   5,  4,   8,   4,   6,   5,   5,   29,     2,   5,   13,\n\nAn outlier is defined as an observation that falls more than $1.5\\times$ the interquartile range above the upper quartile or below the lower quartile\n\n(i) Identify any outliers within the data set.\n\n(ii) Decide which values (if any) should be removed, justify your answer.\n\n**Answer:**\n\n![2-3-1-outliers-we-solution](assets/d1019f9b96b4-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Read the question carefully to determine which type of outlier you should be finding and to make sure you are using the correct method."
+  }
+ ]
+}

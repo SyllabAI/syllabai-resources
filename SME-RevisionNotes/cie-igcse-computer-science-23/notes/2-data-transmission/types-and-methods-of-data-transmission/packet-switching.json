@@ -1,0 +1,110 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_XqV4xDwMVG36HtB8",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/types-and-methods-of-data-transmission/packet-switching",
+ "title": "Packet Switching",
+ "page_title": "Packet Switching - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "2-data-transmission",
+   "types-and-methods-of-data-transmission",
+   "packet-switching"
+  ],
+  "section": "2-data-transmission",
+  "topic": "types-and-methods-of-data-transmission",
+  "leaf": "packet-switching"
+ },
+ "titles": {
+  "section": "2. Data Transmission",
+  "topic": "Types & Methods of Data Transmission",
+  "subtopic": "Packet Switching"
+ },
+ "updated_at": "2025-01-09T10:20:32.537Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_qvNBrYW4FTqwdvn8"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 10,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_qvNBrYW4FTqwdvn8",
+   "name": "Packet Switching",
+   "definition": "(c) Describe the process of packet switching\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Packet Switching"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is packet switching?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Packet switching is a **method of sending and receiving data** (packets) across a network\n- Packet switching can be broken down into** five stages**:"
+  },
+  {
+   "type": "table",
+   "md": "| **Stage** | **Overview** | **Detail** |\n|---|---|---|\n| 1 | Data is broken down into packets | - *Learn more by reading our *[data packets](https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/types-and-methods-of-data-transmission/data-packets/) revision note |\n| 2 | Packets are assigned a header |   |\n| 3 | Each packet makes its way to the destination | - Like normal car traffic, data traffic builds up on the internet<br>- Routers can see this and decide to send a packet down a different route that avoids traffic |\n| 4 | Routers control the routes taken for each packet | - Routers know which nearby router is closer to the destination device |\n| 5 | Packets arrive and are reordered correctly | - If a packet does not reach its destination the receiver can send a resend request to the sender to resend the packet |"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/05/2-1-types---methods-of-data-transmission--data-packets-2.png",
+   "file": "assets/3d24f1500e90-2-1-types-methods-of-data-transmission-data-pack.png",
+   "alt": "Diagram showing different routes packets can take to get from A to B",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the advantages of packet switching?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Interference **and **corruption **are minimal as individual packets can be resent if they are lost or damaged\n- The whole file doesn’t need to be resent if a corruption occurs, this **saves time** and **internet bandwidth**\n- Packet switching is **quicker **than sending a large packet as each packet finds the quickest way around the network\n- It's **harder to hack** an individual's data as each packet contains minimal data, and travels through the network separately"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A local market shop wishes to arrange a delivery of goods from a supplier. Anna, the shop owner, decides to send an email to request the delivery of the goods at a certain date and time.\n\nDescribe how packet switching is used to send this email and how it can be protected from corruption.\n\n**[8]**\n\n**Answer**\n\n- **The business email is first broken down into packets which are given a source address (where it's come from) and a destination address (where it's going to) ****[1]**\n- **Each packet receives a packet number so that the email can be reassembled when it reaches its destination  ****[1]**\n- **Each packet also receives an error check such as a parity bit. A parity bit checks whether any bits have been flipped due to corruption  ****[1]**\n- **Each packet is sent over the internet via routers. Routers contain routing tables that determine the next closest router to the destination  ****[1]**\n- **Packets may take different routes depending on internet traffic and arrive at their destination in any order  ****[1]**\n- **Packets are checked for errors using the error checks and missing packets can be requested to be resent ****[1]**\n- **Once all packets have been received then they can be put together in order using the packet numbers ****[1]**\n- **Once assembled the original email can be read by the other business ****[1]**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "For high marks make sure your answer is coherent, that is it follows logically from one point to the next.\n\nSome marks depend on previous points you have made.\n\nExplaining parity bits without mentioning error checking first may not gain you additional marks"
+  }
+ ]
+}

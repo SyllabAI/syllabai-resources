@@ -1,0 +1,195 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_mw6smcmBK3StMgDV",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/1-data-representation/number-systems/binary-addition",
+ "title": "Binary Addition",
+ "page_title": "Binary Addition - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "1-data-representation",
+   "number-systems",
+   "binary-addition"
+  ],
+  "section": "1-data-representation",
+  "topic": "number-systems",
+  "leaf": "binary-addition"
+ },
+ "titles": {
+  "section": "1. Data Representation",
+  "topic": "Number Systems",
+  "subtopic": "Binary Addition"
+ },
+ "updated_at": "2025-05-06T13:48:06.862Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_6DxWpcrHw9kFd3Hn",
+  "spcpt_z9jBrF6zHBtMZm3S"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 30,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_6DxWpcrHw9kFd3Hn",
+   "name": "Adding Positive 8-bit Binary Integers",
+   "definition": "4 (a) Add two positive 8-bit binary integers \n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Adding Positive 8-bit Binary Integers"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Cambridge IGCSE 0478 expects you to add 8-bit binary values using clear working, with carries shown. These examples match the style and format used in the real exam.*"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is binary addition?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Binary addition is the process of **adding together two binary integers** (up to and including 8 bits)\n- To be successful there are **5 golden rules** to apply:"
+  },
+  {
+   "type": "table",
+   "md": "| **Binary Addition** | **Binary Answer** | **Working** |\n|---|---|---|\n| 0 + 0 = | ***0*** | \\| **1s** \\| ** ** \\|<br>\\|---\\|---\\|<br>\\| ***0*** \\| **= 0** \\| |\n| 0 + 1 = | ***1*** | \\| **1s** \\| ** ** \\|<br>\\|---\\|---\\|<br>\\| ***1*** \\| **= 1** \\| |\n| 1 + 0 = | ***1*** | \\| **1s** \\| ** ** \\|<br>\\|---\\|---\\|<br>\\| ***1*** \\| **= 1** \\| |\n| 1 + 1 = | ***10*** | \\| **2s** \\| **1s** \\| ** ** \\|<br>\\|---\\|---\\|---\\|<br>\\| ***1*** \\| ***0*** \\| **= 2** \\| |\n| 1 + 1 + 1 = | ***11*** | \\| **2s** \\| **1s** \\| ** ** \\|<br>\\|---\\|---\\|---\\|<br>\\| ***1*** \\| ***1*** \\| **= 3** \\| |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Like denary addition, start from the rightmost digit and move left\n- Carrying over occurs when the **sum of a column is greater than 1**, passing the excess to the next left column"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example 1"
+  },
+  {
+   "type": "bullets",
+   "md": "- Add together the binary values ***1001 ***and ***0100***"
+  },
+  {
+   "type": "table",
+   "md": "| **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|\n| ***1*** | ***0*** | ***0*** | ***1*** |   |\n| ***0*** | ***1*** | ***0*** | ***0*** |   |\n|   |   |   |   | **C** |\n|   |   |   |   |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Starting from right to left, add the two binary values together **applying the 5 golden rules**\n- If your answer has **2 digits**, place the rightmost digit in the column and **carry the remaining digit** to the next column on the left\n- In this example, start with 1+0, 1+0 = 1, so place a 1 in the column"
+  },
+  {
+   "type": "table",
+   "md": "| **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|\n| ***1*** | ***0*** | ***0*** | ***1*** |   |\n| ***0*** | ***1*** | ***0*** | ***0*** |   |\n|   |   |   |   | **C** |\n|   |   |   | ***1*** |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Repeat until **all columns have a value**"
+  },
+  {
+   "type": "table",
+   "md": "| **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|\n| ***1*** | ***0*** | ***0*** | ***1*** |   |\n| ***0*** | ***1*** | ***0*** | ***0*** |   |\n|   |   |   |   | **C** |\n| ***1*** | ***1*** | ***0*** | ***1*** |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The sum of adding together binary ***1001 ***(9) and ***0100 ***(4) is ***1101 ***(13)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*You can earn marks ****just for showing carries correctly****, even if your final answer is wrong. Always show your carry bits clearly above or below your sum—examiner reports say it matters.*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example 2"
+  },
+  {
+   "type": "bullets",
+   "md": "- Add together the binary values ***00011001 ***and ***10001001***"
+  },
+  {
+   "type": "table",
+   "md": "| **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|---|---|---|---|\n| ***0*** | ***0*** | ***0*** | ***1*** | ***1*** | ***0*** | ***0*** | ***1*** |   |\n| ***1*** | ***0*** | ***0*** | ***0*** | ***1*** | ***0*** | ***0*** | ***1*** |   |\n|   |   |   |   |   |   |   |   | **C** |\n|   |   |   |   |   |   |   |   |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Starting from right to left, add the two binary values together **applying the 5 golden rules**\n- If your answer has **2 digits**, place the rightmost digit in the column and **carry the remaining digit** to the next column on the left\n- In this example, start with 1+1, 1+1 = 10, so place a 0 in the column and carry the 1 to the next column"
+  },
+  {
+   "type": "table",
+   "md": "| **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|---|---|---|---|\n| ***0*** | ***0*** | ***0*** | ***1*** | ***1*** | ***0*** | ***0*** | ***1*** |   |\n| ***1*** | ***0*** | ***0*** | ***0*** | ***1*** | ***0*** | ***0*** | ***1*** |   |\n|   |   |   |   |   |   | ***1*** | *** *** | **C** |\n|   |   |   |   |   |   | *** *** | ***0*** |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Repeat until **all columns have a value**"
+  },
+  {
+   "type": "table",
+   "md": "| **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|---|---|---|---|\n| ***0*** | ***0*** | ***0*** | ***1*** | ***1*** | ***0*** | ***0*** | ***1*** |   |\n| ***1*** | ***0*** | ***0*** | ***0*** | ***1*** | ***0*** | ***0*** | ***1*** |   |\n| *** *** | *** *** | ***1*** | ***1*** | *** *** | *** *** | ***1*** | *** *** | **C** |\n| ***1*** | ***0*** | ***1*** | ***0*** | ***0*** | ***0*** | ***1*** | ***0*** |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The sum of adding together binary ***00011001 ***(25) and ***10001001 ***(137) is ***10100010 ***(162)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_z9jBrF6zHBtMZm3S",
+   "name": "Overflow & Binary Addition",
+   "definition": "4 (b) Understand the concept of overflow and why it occurs in binary addition\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Overflow & Binary Addition"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an overflow error?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An overflow error occurs when the result of a binary addition** exceeds the available bits**\n- For example, if you took binary ***11111111 ***(255) and tried to add ***00000001 ***(1) this would cause an overflow error as the result would need a **9th** bit to represent the answer (256)"
+  },
+  {
+   "type": "table",
+   "md": "| **256** | **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** | **+** |\n|---|---|---|---|---|---|---|---|---|---|\n|   | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** |   |\n|   | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** | ***1*** |   |\n| ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | ***1*** | *** *** | **C** |\n| *** *** | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** | ***0*** |   |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*If the next question asks what error has occurred, it's probably testing ****overflow****. Look for sums that go over 255—Cambridge loves this trick.*"
+  }
+ ]
+}

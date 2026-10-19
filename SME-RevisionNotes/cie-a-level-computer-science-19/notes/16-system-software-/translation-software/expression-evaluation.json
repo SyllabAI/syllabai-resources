@@ -1,0 +1,181 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_ZWXcPSbh8YQbNs7r",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/16-system-software-/translation-software/expression-evaluation",
+ "title": "Expression Evaluation",
+ "page_title": "Expression Evaluation | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "16-system-software-",
+   "translation-software",
+   "expression-evaluation"
+  ],
+  "section": "16-system-software-",
+  "topic": "translation-software",
+  "leaf": "expression-evaluation"
+ },
+ "titles": {
+  "section": "16. System Software",
+  "topic": "Translation Software",
+  "subtopic": "Expression Evaluation"
+ },
+ "updated_at": "2025-05-23T11:23:16.072Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_52qhP4gsvByRBtJB"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 28,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_52qhP4gsvByRBtJB",
+   "name": "Reverse Polish Notation (RPN)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Reverse Polish Notation (RPN)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is RPN?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Reverse Polish Notation (RPN) is a method of writing **mathematical expressions** where the **operator comes after the operands**\n- This is also known as **postfix notation**\n\n  - *Infix*: `3 + 4`\n  - RPN: `3 4 +`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why use RPN?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **No need for brackets**: The order of operations is determined by position, not parentheses\n- **Easier for computers to evaluate** using a **stack**\n- Always **unambiguous**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How RPN works"
+  },
+  {
+   "type": "bullets",
+   "md": "- RPN uses a [stack](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/10-data-types-and-structures-/introduction-to-abstract-data-types-adt/adt-overview/) to evaluate expressions"
+  },
+  {
+   "type": "ordered",
+   "md": "1. **Read from left to right**\n2. **Push numbers onto the stack**\n3. When an **operator** is read:\n\n  - **Pop the top two values** from the stack\n  - **Apply the operator**\n  - **Push the result** back onto the stack\n4. When the expression ends, the final result is at the **top of the stack**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example: evaluate 3 4 + 2 ×"
+  },
+  {
+   "type": "table",
+   "md": "| Step | Action | Stack |\n|---|---|---|\n| Read `3` | Push to stack | `3` |\n| Read `4` | Push to stack | `3 4` |\n| Read `+` | Add 3 + 4 → 7 | `7` |\n| Read `2` | Push to stack | `7 2` |\n| Read `×` | Multiply 7 × 2 → 14 | `14` |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Final result: `14`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example: convert this infix expression to RPN"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Split the expression into parts:**\n- Left-hand side:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`(7 − 2 + 8)`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This becomes:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`( (7 − 2) + 8 )`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Which in RPN is:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`7 2 − 8 +`"
+  },
+  {
+   "type": "bullets",
+   "md": "- Right-hand side:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`(9 − 5)`"
+  },
+  {
+   "type": "bullets",
+   "md": "- In RPN:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`9 5 −`"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Combine with the division**\n- In RPN, that becomes:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`7 2 − 8 + 9 5 − ÷`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "RPN **follows the evaluation order naturally**, so there’s **no need for brackets** or precedence rules. Just:\n\n- Work from inside brackets out\n- Convert each sub-expression\n- Add the operator after its operands"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| **Concept** | **Description** |\n|---|---|\n| RPN (Postfix) | Operators follow operands |\n| Stack | Used to store and evaluate values |\n| Evaluation method | Push numbers, pop and evaluate on operator |\n| Benefits | No brackets, no ambiguity, easy to compute with stack |"
+  }
+ ]
+}

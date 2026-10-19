@@ -1,0 +1,773 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_WjxTSVwpz98rQBmD",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/revision-notes/calculus/differentiation/applications-of-differentiation",
+ "title": "Applications of Differentiation",
+ "page_title": "Applications of Differentiation | Cambridge (CIE) IGCSE Additional Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "calculus",
+   "differentiation",
+   "applications-of-differentiation"
+  ],
+  "section": "calculus",
+  "topic": "differentiation",
+  "leaf": "applications-of-differentiation"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Differentiation",
+  "subtopic": "Applications of Differentiation"
+ },
+ "updated_at": "2026-07-02T08:19:38.531Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_7sd9RjXKbFpCY5kB",
+  "spcpt_r46Wb9qP6W5PWX9W",
+  "spcpt_FScGqnRknDzxbdmN"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction"
+  },
+  {
+   "latex": "\\mathrm{gradient}=\\frac{\\mathrm{change} \\mathrm{in}y}{\\mathrm{change} \\mathrm{in}x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>gradient</mi><mo>=</mo><mfrac><mrow><mi>change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>y</mi></mrow><mrow><mi>change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "gradient equals fraction numerator change space in space y over denominator change space in space x end fraction"
+  },
+  {
+   "latex": "\\mathrm{change} \\mathrm{in}y=\\mathrm{gradient}\\times\\mathrm{change} \\mathrm{in}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>y</mi><mo>=</mo><mi>gradient</mi><mo> </mo><mo>×</mo><mo> </mo><mi>change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "change space in space y equals gradient space cross times space change space in space x"
+  },
+  {
+   "latex": "y=x-\\frac{1}{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals x minus 1 over x"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "\\frac{5}{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>5</mn><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "5 over 4"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>2</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "2"
+  },
+  {
+   "latex": "2+h",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>+</mo><mi>h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "2 plus h"
+  },
+  {
+   "latex": "h",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "h"
+  },
+  {
+   "latex": "\\mathrm{change} \\mathrm{in}y=\\mathrm{gradient}\\times\\mathrm{change} \\mathrm{in}x=\\frac{5}{4}h",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>y</mi><mo>=</mo><mi>gradient</mi><mo> </mo><mo>×</mo><mo> </mo><mi>change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "change space in space y equals gradient space cross times space change space in space x equals 5 over 4 h"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "y=\\frac{4}{3}x^{3}+3x-8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals 4 over 3 x cubed plus 3 x minus 8"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=4x^{2}+3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 4 x squared plus 3"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=4\\times2^{2}+3=19",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>4</mn><mo>×</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>=</mo><mn>19</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 4 cross times 2 squared plus 3 equals 19"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x bold equals bold 2"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "x=\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x bold equals bold 1 over bold 2"
+  },
+  {
+   "latex": "x=-\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x bold equals bold minus bold 1 over bold 2"
+  },
+  {
+   "latex": "\\frac{dy}{dx}>0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction greater than 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}<0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction less than 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "f'(x)>0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">f</mi><mo mathvariant=\"bold\">'</mo><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">&gt;</mo><mn mathvariant=\"bold\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold space bold italic f bold apostrophe bold left parenthesis bold italic x bold right parenthesis bold greater than bold 0"
+  },
+  {
+   "latex": "f'(x)<0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">f</mi><mo mathvariant=\"bold\">'</mo><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">&lt;</mo><mn mathvariant=\"bold\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold space bold italic f bold apostrophe bold left parenthesis bold italic x bold right parenthesis bold less than bold 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "f(x)=x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathsize=\"16px\">=</mo><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f begin mathsize 16px style stretchy left parenthesis x stretchy right parenthesis end style size 16px equals size 16px x to the power of size 16px 2"
+  },
+  {
+   "latex": "f^{'}(x)=2x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><msup><mi>f</mi><mi mathsize=\"16px\">'</mi></msup><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">2</mn><mi mathsize=\"16px\">x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f to the power of apostrophe stretchy left parenthesis x stretchy right parenthesis equals 2 x"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "x<0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x less than 0"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "x=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x equals 0"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "x>0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x greater than 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction"
+  },
+  {
+   "latex": "\\frac{dy}{dx}>0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction greater than 0"
+  },
+  {
+   "latex": "\\frac{dy}{dx}<0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction less than 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y=2x^{3}-3x^{2}+5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals 2 x cubed minus 3 x squared plus 5"
+  },
+  {
+   "latex": "\\frac{dy}{dx}<0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><mo> </mo><mo>&lt;</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction space less than space 0"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo mathsize=\"16px\">d</mo><mi mathsize=\"16px\">y</mi></mrow><mrow><mo mathsize=\"16px\">d</mo><mi mathsize=\"16px\">x</mi></mrow></mfrac><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">=</mo><mo mathsize=\"16px\"> </mo><mn mathsize=\"16px\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction space equals space 0"
+  },
+  {
+   "latex": "x=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">=</mo><mo mathsize=\"16px\"> </mo><mn mathsize=\"16px\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x space equals space 0"
+  },
+  {
+   "latex": "x=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x space equals space 1"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "0<x<1.",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">&lt;</mo><mo mathsize=\"16px\"> </mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">&lt;</mo><mo mathsize=\"16px\"> </mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "0 space less than space x space less than space 1."
+  },
+  {
+   "latex": "0<x<1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">&lt;</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">&lt;</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold 0 bold space bold less than bold space bold italic x bold space bold less than bold space bold 1"
+  },
+  {
+   "latex": "m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "m"
+  },
+  {
+   "latex": "(x_{1},y_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi></mrow><mn>1</mn></msub><mo mathsize=\"16px\">,</mo><mi mathsize=\"16px\"> </mi><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "left parenthesis x subscript 1 comma blank y subscript 1 right parenthesis"
+  },
+  {
+   "latex": "f'(x_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">f</mi><mo mathvariant=\"bold\">'</mo><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><msub><mi mathvariant=\"bold-italic\">x</mi><mn>1</mn></msub><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">y</mi><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">f</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "(x_{1},y_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi></mrow><mn>1</mn></msub><mo mathsize=\"16px\">,</mo><mi mathsize=\"16px\"> </mi><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "left parenthesis x subscript 1 comma blank y subscript 1 right parenthesis"
+  },
+  {
+   "latex": "(x_{1},y_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi></mrow><mn>1</mn></msub><mo mathsize=\"16px\">,</mo><mi mathsize=\"16px\"> </mi><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "left parenthesis x subscript 1 comma blank y subscript 1 right parenthesis"
+  },
+  {
+   "latex": "y-y_{1}=f^{'}(x_{1})(x-x_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">y</mi><mo mathsize=\"16px\">-</mo><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">=</mo><msup><mi mathvariant=\"normal\" mathsize=\"16px\">f</mi><mi mathvariant=\"normal\" mathsize=\"16px\">'</mi></msup><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\">)</mo></mstyle><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">-</mo><msub><mi mathsize=\"16px\">x</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "y=mx+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals m x plus c"
+  },
+  {
+   "latex": "m_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>m</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "m subscript 1"
+  },
+  {
+   "latex": "m_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>m</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "m subscript 2"
+  },
+  {
+   "latex": "m_{2}=\\frac{-1}{m_{1}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><msub><mi>m</mi><mn>1</mn></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "m subscript 2 equals fraction numerator negative 1 over denominator m subscript 1 end fraction"
+  },
+  {
+   "latex": "m_{1}\\timesm_{2}=-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>×</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "m subscript 1 cross times m subscript 2 equals negative 1"
+  },
+  {
+   "latex": "(x_{1},y_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi></mrow><mn>1</mn></msub><mo mathsize=\"16px\">,</mo><mi mathsize=\"16px\"> </mi><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "left parenthesis x subscript 1 comma blank y subscript 1 right parenthesis"
+  },
+  {
+   "latex": "\\frac{-1}{f'(x_{1})}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow><mrow><mi mathvariant=\"bold\">f</mi><mo mathvariant=\"bold\">'</mo><mrow><mo mathvariant=\"bold\" stretchy=\"true\">(</mo><msub><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">1</mn></msub><mo mathvariant=\"bold\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Error converting from MathML to accessible text."
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">y</mi><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">f</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "(x_{1},y_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi></mrow><mn>1</mn></msub><mo mathsize=\"16px\">,</mo><mi mathsize=\"16px\"> </mi><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "left parenthesis x subscript 1 comma blank y subscript 1 right parenthesis"
+  },
+  {
+   "latex": "y-y_{1}=\\frac{-1}{f^{'}(x_{1})}(x-x_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">y</mi><mo mathsize=\"16px\">-</mo><msub><mi mathsize=\"16px\">y</mi><mn>1</mn></msub><mo mathsize=\"16px\">=</mo><mfrac><mrow><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">1</mn></mrow><mrow><msup><mi mathvariant=\"normal\" mathsize=\"16px\">f</mi><mi mathvariant=\"normal\" mathsize=\"16px\">'</mi></msup><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\">)</mo></mstyle></mrow></mfrac><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">-</mo><msub><mi mathsize=\"16px\">x</mi><mn>1</mn></msub><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y minus y subscript 1 equals fraction numerator negative 1 over denominator straight f to the power of straight apostrophe stretchy left parenthesis x subscript 1 stretchy right parenthesis end fraction left parenthesis x minus x subscript 1 right parenthesis"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "f(x)=2x^{4}+\\frac{3}{x^{2}}x\\neq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">f</mi><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">2</mn><msup><mi mathsize=\"16px\">x</mi><mn>4</mn></msup><mo mathsize=\"16px\">+</mo><mfrac><mn mathsize=\"16px\">3</mn><msup><mi mathsize=\"16px\">x</mi><mn>2</mn></msup></mfrac><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\"> </mi><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">≠</mo><mn mathsize=\"16px\">0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight f stretchy left parenthesis x stretchy right parenthesis equals 2 x to the power of 4 plus 3 over x squared blank x not equal to 0"
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "x=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x equals 1"
+  },
+  {
+   "latex": "y=mx+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals m x plus c"
+  },
+  {
+   "latex": "x=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 1"
+  },
+  {
+   "latex": "x=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 1"
+  },
+  {
+   "latex": "y=mx+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals m x plus c"
+  },
+  {
+   "latex": "y=2x+3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold 2 bold italic x bold plus bold 3"
+  },
+  {
+   "latex": "x=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x equals 1"
+  },
+  {
+   "latex": "ax+by+d=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mi>y</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a x plus b y plus d equals 0"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "b"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "\\frac{-1}{m}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mi>m</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator negative 1 over denominator m end fraction"
+  },
+  {
+   "latex": "m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "m"
+  },
+  {
+   "latex": "\\frac{-1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator negative 1 over denominator 2 end fraction"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "b"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "d"
+  }
+ ],
+ "stats": {
+  "blocks": 41,
+  "figures": 4,
+  "worked_examples": 3,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 101
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_7sd9RjXKbFpCY5kB",
+   "name": "Finding Gradients",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Finding gradients"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I use the derivative to find the gradient of a curve?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **gradient of a curve** at a point is the **gradient of the tangent** to the curve at that point\n- To find the gradient of a curve, at any point on the curve\n\n  - **differentiate** to find $\\frac{dy}{dx}$ (unless $\\frac{dy}{dx}$is already known)\n  - substitute the ***x*****‑coordinate** of the point into the derivative $\\frac{dy}{dx}$** **and evaluate"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.1-Grad-Tang-Norm-Illustr-1.png",
+   "file": "assets/14d5046df61d-7-2-1-grad-tang-norm-illustr-1.png",
+   "alt": "Grad Tang Norm Illustr 1, A Level & AS Maths: Pure revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the approximate change in y as x increases?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $\\mathrm{gradient}=\\frac{\\mathrm{change} \\mathrm{in}y}{\\mathrm{change} \\mathrm{in}x}$so, for **small** changes you can write\n\n  - $\\mathrm{change} \\mathrm{in}y=\\mathrm{gradient}\\times\\mathrm{change} \\mathrm{in}x$\n- For example, if the gradient of $y=x-\\frac{1}{x}$ at $x=2$ is $\\frac{5}{4}$\n\n  - what is the approximate change in $y$ as $x$ increases from $2$ to $2+h$, where $h$ is small?\n  \n    - $\\mathrm{change} \\mathrm{in}y=\\mathrm{gradient}\\times\\mathrm{change} \\mathrm{in}x=\\frac{5}{4}h$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Read the question carefully; sometimes you are given $\\frac{dy}{dx}$ and so don't need to differentiate initially - don't just automatically differentiate the first thing you see!\n- The following mean the same thing:\n\n  - \"Find the gradient of the curve at $x=2$\"\n  - \"Find the gradient of the tangent at $x=2$\"\n  \n    - the tangent gradient = curve gradient at that point\n  - \"Find the **rate of change** of *y* with respect to *x* at $x=2$\""
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A curve has the equation $y=\\frac{4}{3}x^{3}+3x-8$.\n\n(a) Find the gradient of the curve when $x=2$.\n\n> $y$* is already in a form that can be differentiated*\n\n$\\frac{dy}{dx}=4x^{2}+3$\n\n> *Substitute *$x=2$* into *$\\frac{dy}{dx}$\n\n$\\frac{dy}{dx}=4\\times2^{2}+3=19$\n\n**Final answer:** **The gradient of the curve at **$x=2$** is 19**\n\n(b) Work out the possible values of $x$ for which the rate of change of $y$ with respect to $x$ is 4.\n\n> *\"Rate of change\" is another way of describing the derivative*\n\n`table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals 4 row cell 4 x squared plus 3 end cell equals 4 end table`\n\n*Solve this equation to find *$x$\n *Note that it is quadratic equation so it could have up to two solutions* \n*The question refers to 'values' implying there is (or could be) more than one value for *$x$\n\n`table row cell 4 x squared end cell equals 1 row cell x squared end cell equals cell 1 fourth end cell row x equals cell plus-or-minus square root of 1 fourth end root end cell row x equals cell plus-or-minus 1 half end cell end table`\n\n**Final answer:** **The possible values of **$x$**, that give a rate of change of 4, are **$x=\\frac{1}{2}$** and **$x=-\\frac{1}{2}$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_r46Wb9qP6W5PWX9W",
+   "name": "Increasing & Decreasing Functions",
+   "definition": null,
+   "video_id": "819084761"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Increasing & decreasing functions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are increasing and decreasing functions?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A function is **increasing** when $\\frac{dy}{dx}>0$** (the gradient is positive)**\n\n  - This means graph of a function goes **up** as $x$ increases\n- A function is **decreasing **when $\\frac{dy}{dx}<0$** (the gradient is negative)**\n\n  - This means graph of a function goes **down** as $x$ increases"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.2-Incr-Decr-Illustr-1.png",
+   "file": "assets/724b0a64d283-7-2-2-incr-decr-illustr-1.png",
+   "alt": "Incr Decr Illustr 1, A Level & AS Maths: Pure revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find where functions are increasing or decreasing?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To identify the **intervals** on which a function is increasing or decreasing"
+  },
+  {
+   "type": "paragraph",
+   "md": "**STEP 1**"
+  },
+  {
+   "type": "paragraph",
+   "md": "Find the derivative **f'(*****x*****)**"
+  },
+  {
+   "type": "paragraph",
+   "md": "**STEP 2**"
+  },
+  {
+   "type": "paragraph",
+   "md": "Solve the inequalities"
+  },
+  {
+   "type": "paragraph",
+   "md": "$f'(x)>0$ (for increasing intervals) and/or"
+  },
+  {
+   "type": "paragraph",
+   "md": "$f'(x)<0$ (for decreasing intervals)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Most functions are a combination of **increasing, decreasing** and **stationary**\n\n  - a range of values of$x$ (**interval**)** **is given where a function satisfies each condition\n  - e.g.  The function$f(x)=x^{2}$ has **derivative**$f^{'}(x)=2x$ so\n  \n    - $f(x)$ is **decreasing** for $x<0$\n    - $f(x)$ is **stationary** at $x=0$\n    - $f(x)$ is **increasing** for $x>0$"
+  },
+  {
+   "type": "bullets",
+   "md": "- To identify the intervals (the range of $x$ values) for which a curve is increasing or decreasing you need to:"
+  },
+  {
+   "type": "ordered",
+   "md": "1. Find the derivative $\\frac{dy}{dx}$\n2. Solve the inequalities $\\frac{dy}{dx}>0$ (for increasing intervals) or $\\frac{dy}{dx}<0$ (for decreasing intervals)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- In an exam, if you need to show a function is increasing or decreasing you can use either strict (<, >) or non-strict (≤, ≥) inequalities\n\n  - You will get the marks either way in this course"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "For what values of $x$ is $y=2x^{3}-3x^{2}+5$ a decreasing function?\n\n> *The function is decreasing when its gradient *`open parentheses fraction numerator d y over denominator d x end fraction close parentheses`* is less than 0.*\n\n> *Find the derivative of the function by differentiating.*\n\n> `table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space 6 x squared space minus space 6 x end cell end table`* *\n\n> *Solve the inequality *$\\frac{dy}{dx}<0$* to find the set of values where the gradient is negative.*\n\n`table row cell 6 x squared space minus space 6 x space end cell less than cell space 0 end cell end table`\n\n> *Factorise.*\n\n`table row cell 6 x open parentheses x space minus space 1 close parentheses space end cell less than cell space 0 end cell end table`\n\n> *The solutions to *$\\frac{dy}{dx}=0$* are *$x=0$* and  *$x=1$*. Find the correct way around for the inequalities by considering the graph of *$\\frac{dy}{dx}$*. The graph is a positive quadratic, so the function is negative between the values of 0 and 1 (where it is below the *$x$*-axis).*\n\n> *Considering a sketch of the graph of the gradient function may help you see this.*\n\n![3CqZzydq_aqa-fm-increasing-and-decreasing-functions-rn-diagram-we-1](assets/aa13fabfd646-3cqzzydq-aqa-fm-increasing-and-decreasing-functi.png)\n\n> * *\n\n> *You can check your answers by considering a sketch of the original function, it should be decreasing at the point where *$0<x<1.$\n\n![aqa-fm-increasing-and-decreasing-functions-rn-diagram-we-2](assets/21d2082619df-aqa-fm-increasing-and-decreasing-functions-rn-di.png)\n\n$0<x<1$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_FScGqnRknDzxbdmN",
+   "name": "Tangents & Normals",
+   "definition": null,
+   "video_id": "819071884"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Tangents & normals"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a tangent?"
+  },
+  {
+   "type": "bullets",
+   "md": "- At any point on the graph of a (non-linear) **function**, the **tangent** is the straight line that **touches** the graph at a point **without crossing** through it\n- Its **gradient** is given by the **derivative function**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.1-Grad-Tang-Norm-Illustr-2.png",
+   "file": "assets/e709449608bc-7-2-1-grad-tang-norm-illustr-2.png",
+   "alt": "Grad Tang Norm Illustr 2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the equation of a tangent?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find the **equation of a straight line**, a **point** and the **gradient** are needed\n- The **gradient**, $m$, of the **tangent** to the function `y equals straight f open parentheses x close parentheses` at $(x_{1},y_{1})$ is $f'(x_{1})$\n\n  - You can find this by differentiating the function, and then substituting the $x$-coordinate of the point into the derivative\n- Therefore find the **equation** of the **tangent** to the function $y=f(x)$ at the point $(x_{1},y_{1})$ by substituting the gradient, `straight f apostrophe open parentheses x subscript 1 close parentheses`, and point $(x_{1},y_{1})$ into `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`, giving:\n\n  - $y-y_{1}=f^{'}(x_{1})(x-x_{1})$\n- (You could also substitute into $y=mx+c$)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a normal?"
+  },
+  {
+   "type": "bullets",
+   "md": "- At any point on the graph of a (non-linear) function, the **normal** is the straight line that passes through that point and is **perpendicular** to the **tangent**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.1-Grad-Tang-Norm-Illustr-3.png",
+   "file": "assets/b9f8a429b5c9-7-2-1-grad-tang-norm-illustr-3.png",
+   "alt": "Grad Tang Norm Illustr 3",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the equation of a normal?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The gradients of two perpendicular lines are **negative reciprocals**\n\n  - This means that if** **$m_{1}$ is the gradient of the first line and $m_{2}$ is the gradient of a line perpendicular to the first line, then $m_{2}=\\frac{-1}{m_{1}}$\n  - Rearranging the formula above, $m_{1}\\timesm_{2}=-1$ is a useful way to test whether two lines are perpendicular\n- Therefore **gradient** of the **normal** to the function `y equals straight f open parentheses x close parentheses`at $(x_{1},y_{1})$ is $\\frac{-1}{f'(x_{1})}$\n- Find the **equation** of the **normal** to the function $y=f(x)$ at the point $(x_{1},y_{1})$ by using $y-y_{1}=\\frac{-1}{f^{'}(x_{1})}(x-x_{1})$\n\n  - (or `y equals fraction numerator negative 1 over denominator straight f to the power of apostrophe open parentheses x subscript 1 close parentheses end fraction x plus c`)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- To be successful in this topic, first make sure you are confident with finding the equation of a straight line!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The function $f(x)$ is defined by\n\n$f(x)=2x^{4}+\\frac{3}{x^{2}}x\\neq0$\n\na) Find an equation for the tangent to the curve $y=f(x)$ at the point where $x=1$, giving your answer in the form $y=mx+c$.\n\n> *First find the derivative *`straight f apostrophe open parentheses x close parentheses`* by differentiating*\n\n> *Start by rewriting *`straight f open parentheses x close parentheses`*as powers of **x*\n\n`straight f open parentheses x close parentheses equals 2 x to the power of 4 plus 3 x to the power of negative 2 end exponent`\n\n> *Now differentiate*\n\n`straight f apostrophe open parentheses x close parentheses equals 8 x cubed minus 6 x to the power of negative 3 end exponent`\n\n> *Now substitute *$x=1$* into *`straight f apostrophe open parentheses x close parentheses`* to find the gradient of the tangent*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f apostrophe open parentheses 1 close parentheses end cell equals cell 8 open parentheses 1 close parentheses cubed minus 6 open parentheses 1 close parentheses to the power of negative 3 end exponent end cell row blank equals cell 8 minus 6 end cell row blank equals 2 end table`\n\n> *We also need the **y**-coordinate, so substitute *$x=1$* into *`straight f open parentheses x close parentheses`* also*\n\n`table row cell straight f open parentheses 1 close parentheses end cell equals cell 2 open parentheses 1 close parentheses to the power of 4 plus 3 open parentheses 1 close parentheses to the power of negative 2 end exponent end cell row blank equals cell 2 plus 3 end cell row blank equals 5 end table`\n\n> *Now we can substitute the point (1, 5) and the gradient, 2, into *`y minus y subscript 1 equals m open parentheses x subscript 1 close parentheses open parentheses x minus x subscript 1 close parentheses`\n\n`table row cell y minus 5 end cell equals cell 2 stretchy left parenthesis x minus 1 stretchy right parenthesis end cell end table`\n\n> *Note that we are asked for the final answer in the form *$y=mx+c$*, so rearrange to this form*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell y minus 5 end cell equals cell 2 x minus 2 end cell end table`\n\n$y=2x+3$\n\nb) Find an equation for the normal at the point where $x=1$, giving your answer in the form $ax+by+d=0$, where $a$, $b$ and $d$ are integers.\n\n> *We already have the gradient of the tangent; the gradient of the normal is *$\\frac{-1}{m}$* where *$m$* is the gradient of the tangent*\n\n*gradient of normal = *$\\frac{-1}{2}$\n\n> *Substitute the point (1, 5) from part (a) and the gradient of the normal into *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`\n\n`table row cell y minus 5 end cell equals cell open parentheses fraction numerator negative 1 over denominator 2 end fraction close parentheses open parentheses x minus 1 close parentheses end cell end table`\n\n> *And rearrange into the form required*\n\n`table row cell y minus 5 end cell equals cell negative 1 half x plus 1 half end cell row cell 1 half x plus y minus 5 1 half end cell equals 0 end table`\n\n> *Note that *$a$*, *$b$* and *$d$* must be integers so multiply by 2 to clear the fractions*\n\n`table row cell bold italic x bold plus bold 2 bold italic y bold minus bold 11 end cell bold equals bold 0 end table`"
+  }
+ ]
+}

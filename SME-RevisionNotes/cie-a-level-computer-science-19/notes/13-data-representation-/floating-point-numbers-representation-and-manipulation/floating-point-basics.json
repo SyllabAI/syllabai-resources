@@ -1,0 +1,179 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_HVvRmykQp8vkfw2T",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/13-data-representation-/floating-point-numbers-representation-and-manipulation/floating-point-basics",
+ "title": "Floating-Point Basics",
+ "page_title": "Floating-Point Basics | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "13-data-representation-",
+   "floating-point-numbers-representation-and-manipulation",
+   "floating-point-basics"
+  ],
+  "section": "13-data-representation-",
+  "topic": "floating-point-numbers-representation-and-manipulation",
+  "leaf": "floating-point-basics"
+ },
+ "titles": {
+  "section": "13. Data Representation",
+  "topic": "Floating-point Numbers, Representation & Manipulation",
+  "subtopic": "Floating-Point Basics"
+ },
+ "updated_at": "2026-07-02T09:13:35.228Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_dMzQRprWM4d9tk5Z",
+  "spcpt_VCDty8T35dnZj3yF"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 26,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_dMzQRprWM4d9tk5Z",
+   "name": "Floating-point binary",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Floating-point binary"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is floating-point binary?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Floating-point binary represents **real numbers** in binary: numbers with a fractional part, and numbers that are very large or very small\n- It works like **scientific notation, but in base 2**\n- The number is written as a **mantissa** multiplied by **2 to the power of an exponent**\n- In denary, `3140 = 3.14 × 10³`\n\n  - Here `3.14` is the mantissa (the significant digits) and `3` is the exponent (how far to move the decimal point)\n- Floating-point binary does exactly this using powers of 2"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why use floating-point?"
+  },
+  {
+   "type": "bullets",
+   "md": "- It represents a **much wider range** of numbers than fixed-point using the same number of bits\n- The binary point can \"float\", giving good **precision** for fractional values"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "The two parts"
+  },
+  {
+   "type": "table",
+   "md": "| Component | Description |\n|---|---|\n| **Mantissa** | The significant bits of the number. It is a **two's complement** number with the binary point **immediately after the leftmost bit**, so that leftmost bit acts as the sign (`0` = positive, `1` = negative) |\n| **Exponent** | How many places to move the binary point (positive = right, negative = left). Also stored in **two's complement** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Both the mantissa and the exponent are stored in two's complement**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Positive numbers: example +6.25"
+  },
+  {
+   "type": "bullets",
+   "md": "- `6.25 = 110.01₂`\n- Normalise: `110.01 = 0.11001 × 2³`\n- Mantissa (12-bit) = `0` then fraction `11001`, padded = `011001000000`\n- Exponent (4-bit) = `+3 = 0011`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Negative numbers: example −6.25"
+  },
+  {
+   "type": "bullets",
+   "md": "- Work out the **positive mantissa first**, then take its **two's complement** (flip the bits and add 1)\n- Do **not** just change the sign bit"
+  },
+  {
+   "type": "table",
+   "md": "| Step | Bits |\n|---|---|\n| Positive mantissa for +6.25 | `011001000000` |\n| Flip the bits | `100110111111` |\n| Add 1 | `100111000000` |"
+  },
+  {
+   "type": "bullets",
+   "md": "- So **−6.25**: Mantissa = `100111000000`, Exponent = `0011`\n- The mantissa now begins `10`, which is the correct start for a normalised negative number"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_VCDty8T35dnZj3yF",
+   "name": "Normalising floating-point numbers",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Normalising floating-point numbers"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is normalisation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A floating-point number is **normalised** when the first two bits of the mantissa are **different**:\n\n  - `01…` for a positive number (the form `0.1xxxx`)\n  - `10…` for a negative number (the form `1.0xxxx`)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why normalise?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Precision**: removing leading zeros means the mantissa uses all of its bits for significant figures, giving the most accurate value possible for that number of bits\n- **Uniqueness**: each number has exactly one normalised form, which makes comparison and arithmetic simpler"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How to normalise"
+  },
+  {
+   "type": "ordered",
+   "md": "1. Shift the bits until the first two bits differ (`01` for positive, `10` for negative)\n2. Adjust the exponent by the number of places the binary point moved:\n\n  1. point moved **left** → **increase** the exponent\n  2. point moved **right** → **decrease** the exponent"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example (positive)**"
+  },
+  {
+   "type": "bullets",
+   "md": "- Before: mantissa `0.0011`, exponent `+2`\n- Move the binary point **2 places right** so the mantissa becomes `0.1100` (first two bits are now `01`)\n- **Decrease** the exponent by 2: `+2 → 0`\n- Normalised: mantissa `01100`, exponent `0000` (the value is unchanged: `0.0011 × 2² = 0.11 × 2⁰`)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The **whole mantissa is two's complement**. For a negative number, find the **positive** mantissa, then **flip the bits and add 1**. Changing only the sign bit is a common mistake that loses every mark on the conversion.\n- **Both** the mantissa and the exponent are in two's complement.\n- **Check your answer with the first two bits**: a normalised positive number starts `01`, a normalised negative number starts `10`. If a negative number starts `11`, it is not normalised (or you used sign-and-magnitude by mistake).\n- Write the normalised form as `0.xxxxx × 2ⁿ` (CIE), not `1.xxxxx × 2ⁿ` (that is IEEE)."
+  }
+ ]
+}

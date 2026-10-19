@@ -1,0 +1,118 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wGYJ4q2M4P9drmPR",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/programming-paradigms/declarative-programming",
+ "title": "Declarative Programming",
+ "page_title": "Declarative Programming | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "programming-paradigms",
+   "declarative-programming"
+  ],
+  "section": "20-further-programming-",
+  "topic": "programming-paradigms",
+  "leaf": "declarative-programming"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Programming Paradigms",
+  "subtopic": "Declarative Programming"
+ },
+ "updated_at": "2025-05-21T10:17:54.503Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_YZ8w2RRD5XPbkGKz"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 13,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_YZ8w2RRD5XPbkGKz",
+   "name": "Declarative programming",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Declarative programming"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I write declarative code?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Declarative programming is a paradigm where you describe **what** you want the program to accomplish, not **how** to do it\n- **SQL** is a common example of declarative programming\n- It allows you to **extract and manipulate data using queries**, without needing to specify the control flow\n- SQL was covered in more detail in [Section 8 – SQL](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/8-databases-/data-definition-language-ddl-and-data-manipulation-language-dml/sql/)\n- Declarative code is made up of:\n\n  - **Facts** – things that are known or assumed to be true\n  - **Rules** – logical relationships between facts\n- Unlike imperative programming, where order and control flow are essential, declarative code allows you to define **facts and rules in any order**, and then write a **query** that uses them"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the following examples, a logic-based declarative language (like **Prolog**) is used"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example: Facts about dog breeds"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Interpreting clauses"
+  },
+  {
+   "type": "bullets",
+   "md": "- Each fact uses the format:"
+  },
+  {
+   "type": "table",
+   "md": "| Clause | Meaning |\n|---|---|\n| `type(poodle, companion).` | A poodle is a companion dog |\n| `size(labrador, large).` | A Labrador is a large-sized dog |\n| `shedding(bulldog, low).` | A bulldog has low shedding |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Sample queries"
+  },
+  {
+   "type": "bullets",
+   "md": "- Use queries to retrieve information from the facts"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Key points"
+  },
+  {
+   "type": "table",
+   "md": "| Concept | Description |\n|---|---|\n| **Fact** | A statement like `type(beagle, hound).` that is always true |\n| **Rule** | A logical relationship built from facts (not shown here) |\n| **Query** | A question to the knowledge base, e.g. `size(X, medium).` |\n| **Any order** | Facts and rules can appear in **any order** |\n| **Result** | The interpreter **matches patterns** in queries against known facts |"
+  }
+ ]
+}

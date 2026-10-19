@@ -1,0 +1,179 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_nnBDSgNV7PRX4wQF",
+ "course_slug": "ial-further-maths-18-further-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/revision-notes/numerical-solutions-of-equations/numerical-solutions-of-equations/linear-interpolation",
+ "title": "Linear Interpolation",
+ "page_title": "Linear Interpolation | Edexcel International A Level (IAL) Further Maths Revision Notes 2018",
+ "path": {
+  "segs": [
+   "numerical-solutions-of-equations",
+   "numerical-solutions-of-equations",
+   "linear-interpolation"
+  ],
+  "section": "numerical-solutions-of-equations",
+  "topic": "numerical-solutions-of-equations",
+  "leaf": "linear-interpolation"
+ },
+ "titles": {
+  "section": "Numerical Solutions of Equations",
+  "topic": "Numerical Solutions of Equations",
+  "subtopic": "Linear Interpolation"
+ },
+ "updated_at": "2024-04-04T17:00:44.619Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_vywmYvX3FQXf7n75"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "a<x<b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#60;</mo><mi>x</mi><mo>&#60;</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a less than x less than b"
+  },
+  {
+   "latex": "\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "fraction numerator y subscript 2 minus y subscript 1 over denominator x subscript 2 minus x subscript 1 end fraction"
+  },
+  {
+   "latex": "\\frac{5}{x-1}=\\frac{10}{2-x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>5</mn><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>10</mn><mrow><mn>2</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "fraction numerator 5 over denominator x minus 1 end fraction equals fraction numerator 10 over denominator 2 minus x end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x=\\frac{4}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x equals 4 over 3"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "y equals 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "fraction numerator y subscript 2 minus y subscript 1 over denominator x subscript 2 minus x subscript 1 end fraction"
+  },
+  {
+   "latex": "\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "fraction numerator y subscript 2 minus y subscript 1 over denominator x subscript 2 minus x subscript 1 end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "1.475",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>475</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "1.475"
+  }
+ ],
+ "stats": {
+  "blocks": 10,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 14
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_vywmYvX3FQXf7n75",
+   "name": "Linear Interpolation",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Linear Interpolation"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is linear interpolation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Linear interpolation** draws a **straight line** between the points *A* and *B* with coordinates  `open parentheses a comma space straight f open parentheses a close parentheses close parentheses` and `open parentheses b comma space straight f open parentheses b close parentheses close parentheses`, where $a<x<b$ is an interval containing a root to the equation `straight f open parentheses x close parentheses equals 0`\n\n  - As `straight f open parentheses a close parentheses` and `straight f open parentheses b close parentheses` have **different signs**, *A *and *B* are on **either side **of the *x*-axis\n  - The **approximation** to the root is  where this straight line **cuts the *****x*****-axis**\n  \n    - This is at the point *X* with coordinates `open parentheses x comma space 0 close parentheses`\n    - Points *A, X *and *B* lie on the same straight line\n- It helps to use the **gradient formula**\n\n  - The gradient between `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` is $\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I apply linear interpolation using gradients?"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is best explained with an example\n- If the root of `straight f open parentheses x close parentheses equals 0` lies in the interval `open square brackets 1 comma space 2 close square brackets` and `straight f open parentheses 1 close parentheses equals negative 5` and `straight f open parentheses 2 close parentheses equals 10`, then:\n\n  - *A* is the point `open parentheses 1 comma space minus 5 close parentheses`\n  - *B* is the point `open parentheses 2 comma space 10 close parentheses`\n  - *X* is the point `open parentheses x comma space 0 close parentheses`\n  \n    - This is the *x*-intercept of the line *AB*\n    - *A, X *and *B* lie on the same **straight line**\n  - The **gradient **of ***AX*** equals the** gradient** of ***XB***\n  \n    - The** order** matters (not *BX*)\n  - Use the **gradient formula** to set these equal\n  \n    - `fraction numerator 0 minus open parentheses negative 5 close parentheses over denominator x minus 1 end fraction equals fraction numerator 10 minus 0 over denominator 2 minus x end fraction` giving $\\frac{5}{x-1}=\\frac{10}{2-x}$\n  - **Solve** the equation to find $x$\n  \n    - `5 open parentheses 2 minus x close parentheses equals 10 open parentheses x minus 1 close parentheses`\n    - expand and solve to get $x=\\frac{4}{3}$\n- This process can be **repeated **to get the next approximation\n- This gradient method does** not** require a** sketch**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What other methods can I use to do linear interpolation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can **sketch** the points *A*, *B* and *X* on a diagram and use **similar triangles** either side of the *x*-axis to find an **equation** in $x$\n\n  - This leads to the same equation as the gradients above\n- Or you can use **coordinate geometry** to find the **equation** of the **line *****AB***\n\n  - Use `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`\n  - Then find its ***x*****-intercept**\n  \n    - Substitute in $y=0$ and solve for $x$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "If the calculations involve lengthy decimals, you can use `straight f open parentheses a close parentheses` and `straight f open parentheses b close parentheses` to stand for their numbers  in your working!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The equation `straight f open parentheses x close parentheses equals 0` where `straight f open parentheses x close parentheses equals x cubed minus square root of x minus 2` has a root in the interval `open square brackets 1.4 comma space 1.5 close square brackets`.\n\nUse linear interpolation once to find an approximation to the root, giving your answer to 3 decimal places.\n\n> *Find *`straight f open parentheses 1.4 close parentheses`* and *`straight f open parentheses 1.5 close parentheses`\n\n`table row cell straight f open parentheses 1.4 close parentheses end cell equals cell 1.4 cubed minus square root of 1.4 end root minus 2 equals negative 0.439215... end cell row cell straight f open parentheses 1.5 close parentheses end cell equals cell 1.5 cubed minus square root of 1.5 end root minus 2 equals 0.150255... end cell end table`\n\n> *It is easier to write them as *`straight f open parentheses 1.4 close parentheses`* and *`straight f open parentheses 1.5 close parentheses`* for now*\n*Let **A**, **B** and **X** be the points *`open parentheses 1.4 comma space straight f open parentheses 1.4 close parentheses close parentheses`*, *`open parentheses 1.5 comma space straight f open parentheses 1.5 close parentheses close parentheses`* and *`open parentheses x comma space 0 close parentheses`\n*Use the gradient formula *$\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **AX*\n\n*gradient of ***AX ***is *`fraction numerator 0 minus straight f open parentheses 1.4 close parentheses over denominator x minus 1.4 end fraction`\n\n> *Use the gradient formula *$\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **XB*\n\n*gradient of ***XB ***is *`fraction numerator straight f open parentheses 1.5 close parentheses minus 0 over denominator 1.5 minus x end fraction`\n\n> *Set the two gradients equal to each other*\n\n`fraction numerator 0 minus straight f open parentheses 1.4 close parentheses over denominator x minus 1.4 end fraction equals fraction numerator straight f open parentheses 1.5 close parentheses minus 0 over denominator 1.5 minus x end fraction`\n\n> *Simplify and cross multiply*\n\n`table row cell fraction numerator negative straight f open parentheses 1.4 close parentheses over denominator x minus 1.4 end fraction end cell equals cell fraction numerator straight f open parentheses 1.5 close parentheses over denominator 1.5 minus x end fraction end cell row cell negative straight f open parentheses 1.4 close parentheses open parentheses 1.5 minus x close parentheses end cell equals cell straight f open parentheses 1.5 close parentheses open parentheses x minus 1.4 close parentheses end cell end table`\n\n> *Expand and collect the *$x$* terms on the right-hand side*\n\n`table row cell negative 1.5 straight f open parentheses 1.4 close parentheses plus straight f open parentheses 1.4 close parentheses x end cell equals cell straight f open parentheses 1.5 close parentheses x minus 1.4 straight f open parentheses 1.5 close parentheses end cell row cell 1.4 straight f open parentheses 1.5 close parentheses minus 1.5 straight f open parentheses 1.4 close parentheses end cell equals cell straight f open parentheses 1.5 close parentheses x minus straight f open parentheses 1.4 close parentheses x end cell end table`\n\n> *Factorise out the *$x$*, then make *$x$* the subject*\n\n`table row cell 1.4 straight f open parentheses 1.5 close parentheses minus 1.5 straight f open parentheses 1.4 close parentheses end cell equals cell x open square brackets straight f open parentheses 1.5 close parentheses minus straight f open parentheses 1.4 close parentheses close square brackets end cell row cell fraction numerator 1.4 straight f open parentheses 1.5 close parentheses minus 1.5 straight f open parentheses 1.4 close parentheses over denominator straight f open parentheses 1.5 close parentheses minus straight f open parentheses 1.4 close parentheses end fraction end cell equals x end table`\n\n> *Substitute in  *`straight f open parentheses 1.4 close parentheses`* and *`straight f open parentheses 1.5 close parentheses`* from above*\n\n`table row cell fraction numerator 1.4 cross times 0.150255... negative 1.5 cross times open parentheses negative 0.439215... close parentheses over denominator 0.150255... negative open parentheses negative 0.439215... close parentheses end fraction end cell equals x row cell 1.47451... end cell equals x end table`\n\n> *Give your final answer to 3 decimal places*\n\n**Final answer:** $1.475$** to 3 decimal places**\n\n**If you did the working without **`straight f open parentheses 1.4 close parentheses`** and **`straight f open parentheses 1.5 close parentheses`**, keep lots of decimal places**"
+  }
+ ]
+}

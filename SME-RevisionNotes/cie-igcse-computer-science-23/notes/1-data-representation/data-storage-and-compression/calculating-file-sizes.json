@@ -1,0 +1,113 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Jv4GfCgyDvx8ycVB",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/1-data-representation/data-storage-and-compression/calculating-file-sizes",
+ "title": "Calculating File Sizes",
+ "page_title": "Calculating Files - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "1-data-representation",
+   "data-storage-and-compression",
+   "calculating-file-sizes"
+  ],
+  "section": "1-data-representation",
+  "topic": "data-storage-and-compression",
+  "leaf": "calculating-file-sizes"
+ },
+ "titles": {
+  "section": "1. Data Representation",
+  "topic": "Data Storage & Compression",
+  "subtopic": "Calculating File Sizes"
+ },
+ "updated_at": "2024-05-13T08:56:04.391Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_9chWxVfYNtCVTVhy"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_9chWxVfYNtCVTVhy",
+   "name": "Calculating File Sizes",
+   "definition": "\"2 Calculate the file size of an image file and a\nsound file, using information given\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating File Sizes"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you calculate the size of a bitmap image?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Calculating the size of a bitmap image can be carried out with either of the following formulas:\n\n  - **Resolution x colour depth**\n  - **Image width x image height x colour depth**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "table",
+   "md": "| **Image Files** |\n|---|\n| (Resolution) **x** (Colour Depth) |\n| \\| **Size of bitmap image = ** \\|   \\|   \\|<br>\\|---\\|---\\|---\\|<br>\\| Resolution \\| **250,000** \\| Resolution = width x height \\|<br>\\| Colour Depth \\| **24 bits (3 bytes)** \\| 24 bits = 3 bytes \\|<br>\\| **250,000 x 24** \\| **=**<br><br>***(bit to bytes)  /8***<br><br>***(bytes to KiB) /1024*** \\| **6,000,000 bits**<br><br>**750,000 bytes**<br><br>**Final answer:** **732 KiB** \\|<br>\\| **250000  x 3** \\| =<br><br>***(bytes to KiB) /1024*** \\| **750,000 bytes**<br><br>**Final answer:** **732 KiB** \\| |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**OR**"
+  },
+  {
+   "type": "table",
+   "md": "| **Image Files** |\n|---|\n| (Image width) **x** (Image height) **x** (Colour Depth) |\n| \\| **Size of bitmap image = ** \\|   \\|   \\|<br>\\|---\\|---\\|---\\|<br>\\| Image width \\| **500** \\|   \\|<br>\\| Image height \\| **500** \\|   \\|<br>\\| Colour Depth \\| **24 bits** \\| 24 bits = 3 bytes \\|<br>\\| **(500 x 500 x 24)** \\| **=**<br><br>***(bit to bytes)  /8***<br><br>***(bytes to KiB) /1024*** \\| **6,000,000 bits**<br><br>**750,000 bytes**<br><br>**Final answer:** **732 KiB** \\|<br>\\| **(500 x 500 x 3)** \\| =<br><br>***(bytes to KiB) /1024*** \\| **750,000 bytes**<br><br>**Final answer:** **732 KiB** \\| |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you calculate the size of a sound file?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Calculating the size of a sound file is carried out with the following formula:\n\n  - **Sample rate x duration x sample resolution**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "table",
+   "md": "| **Sound Files** |\n|---|\n| (Sample Rate) **x** (Duration in seconds) **x **(Sample Resolution) |\n| \\| **Size of sound file = ** \\|   \\|   \\|<br>\\|---\\|---\\|---\\|<br>\\| Sample rate \\| **100** \\| Samples per second \\|<br>\\| Duration \\| **60** \\| Seconds \\|<br>\\| Sample resolution \\| **24** \\| Number of bits stored per sample \\|<br>\\| **100 x 60 x 24** \\| **=**<br><br>***(bit to bytes)  /8***<br><br>***(bytes to KiB) /1024*** \\| **144,000 bits**<br><br>**18,000 bytes**<br><br>**18 KiB** \\| |"
+  }
+ ]
+}

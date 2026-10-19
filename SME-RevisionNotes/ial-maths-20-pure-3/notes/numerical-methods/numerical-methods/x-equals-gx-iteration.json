@@ -1,0 +1,127 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_9xhxsqTBj7ng4D2D",
+ "course_slug": "ial-maths-20-pure-3",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/revision-notes/numerical-methods/numerical-methods/x-equals-gx-iteration",
+ "title": "x = g(x) Iteration",
+ "page_title": "x = g(x) Iteration | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "numerical-methods",
+   "numerical-methods",
+   "x-equals-gx-iteration"
+  ],
+  "section": "numerical-methods",
+  "topic": "numerical-methods",
+  "leaf": "x-equals-gx-iteration"
+ },
+ "titles": {
+  "section": "Numerical Methods",
+  "topic": "Numerical Methods",
+  "subtopic": "x = g(x) Iteration"
+ },
+ "updated_at": "2026-07-02T08:19:38.437Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_WbpnsJvJn3P7797R",
+   "rnl_2gMBw4WSXqq6mwb5",
+   "rnl_3hWfWjPnnRs3qBTp"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_BfHcWctk2Fw8QtZj"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 12,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_BfHcWctk2Fw8QtZj",
+   "name": "x = g(x) Iteration",
+   "definition": null,
+   "video_id": "827200097"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "x = g(x) iteration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is iteration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When an equation cannot be solved using the usual **analytical methods**, we can still find **approximate solutions** to a certain degree of accuracy\n- **Iteration** is one way to do this, by repeatedly using each answer as the new starting value for a function, we can achieve an ever more accurate answer"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What does x<sub>n + 1 </sub>= g(x<sub>n</sub>) mean?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Iterations are shown using the notation x<sub>n + 1 </sub>= g(x<sub>n</sub>)\n- This is a **recurrence relation** where, starting with a number (x<sub>n</sub>), we will get an answer x<sub>n + 1 </sub>which we can then reuse in the original function\n- Equations need to be rearranged into an **iterative formula** – ie. the form x = g(x)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/new-10-1-3-x-gx-diagram-1-new.png",
+   "file": "assets/69a6820d9294-new-10-1-3-x-gx-diagram-1-new.png",
+   "alt": "new-10-1-3-x-gx-diagram-1-new",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are staircase diagrams and cobweb diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Iterations can be shown on diagrams called **staircase** or **cobweb** diagrams\n- These can be drawn by **plotting the graphs** of **y = x** against **y = g(x)** from your iterative formula"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/10-1-3-x-gx-diagram-2.png",
+   "file": "assets/56dc4a0774e9-10-1-3-x-gx-diagram-2.png",
+   "alt": "10-1-3-x-gx-diagram-2",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- You must show all your steps when rearranging an equation into an iterative formula\n- Working backwards can often be helpful to figure out how an equation has been rearranged but you must write your answer as if you worked forwards\n- Use ANS button on your calculator to calculate repeated iterations\n- Keep track of your iterations using x<sub>2</sub>, x<sub>3</sub>… notation\n- Iteration may be part of bigger numerical methods questions"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![x = g(x) Example Solution, AS & A Level Maths revision notes](assets/1744b37c5ba3-10-1-3-x-gx-example-solution.png)"
+  }
+ ]
+}

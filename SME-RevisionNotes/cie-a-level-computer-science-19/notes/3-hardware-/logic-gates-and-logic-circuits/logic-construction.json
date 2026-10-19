@@ -1,0 +1,173 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_qzQPRzKNsbmCmVxV",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/3-hardware-/logic-gates-and-logic-circuits/logic-construction",
+ "title": "Logic Construction",
+ "page_title": "Logic Construction | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "3-hardware-",
+   "logic-gates-and-logic-circuits",
+   "logic-construction"
+  ],
+  "section": "3-hardware-",
+  "topic": "logic-gates-and-logic-circuits",
+  "leaf": "logic-construction"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Logic Gates & Logic Circuits",
+  "subtopic": "Logic Construction"
+ },
+ "updated_at": "2026-01-05T10:10:21.378Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_gr3kVz8hgYt7FzCt",
+  "spcpt_VcpvK83fpd9H7CyF",
+  "spcpt_YcKmJk8jHkbXrXGg",
+  "spcpt_YBstypxKj78qxn3V"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 23,
+  "figures": 0,
+  "worked_examples": 3,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_gr3kVz8hgYt7FzCt",
+   "name": "From problem statements",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "From problem statements"
+  },
+  {
+   "type": "bullets",
+   "md": "- A problem statement is typically a **written interpretation of a scenario** that requires a **specific logical outcome**\n- Logic circuits can be** constructed from problem statements**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A server room has an **automatic cooling fan (F)**\nThe fan turns on based on the following input parameters:\n\n| **Parameter** | **Description** | **Binary Value** | **Condition** |\n|---|---|---|---|\n| **T** | Temperature | 1 = Too high | 0 = Acceptable |\n| **H** | Humidity | 1 = Too high | 0 = Acceptable |\n| **M** | Maintenance mode | 1 = Active | 0 = Inactive |\n| **D** | Door sensor | 1 = Door open | 0 = Door closed |\n\nThe **fan (F = 1)** turns on if:\n\n- The **temperature is too high**\n- **AND** humidity is too high\n- **AND** the **door is closed**\n- **UNLESS** maintenance mode is active (if maintenance is active, the fan must stay off)\n\nDraw a logic circuit to represent how the **fan (F)** operates based on the input conditions. **[3]**\n\n**Final answer:** **Answer**\n\n![Logic circuit with three inputs: T and H to an AND gate, D and M to NOT gates, outputs combined through further AND gates, resulting in output F.](assets/406c939d0e72-48616-2025-04-03-0nl-kleki.png)\n\n- **NOT gates** on **D **and **M **inputs** [1 mark]**\n- AND gate combines **T AND H** or** NOT D AND NOT M** **[1 mark]**\n- Combines two previous AND outputs (e.g. (**T AND H) AND (NOT D AND NOT M)**) **[1 mark]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_VcpvK83fpd9H7CyF",
+   "name": "From logic expressions",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "From logic expressions"
+  },
+  {
+   "type": "bullets",
+   "md": "- A logic expression is a way of showing how a **logic circuit works using symbols** and **Boolean logic** (AND, OR, NOT)\n- It describes the conditions that must be met for the **output** to be **true (1)** or **false (0)**\n- From a logic expression, a **logic circuit and/or truth table can be constructed**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A logic expression is given:\n\n**S = (A AND B AND C) OR (B XOR C)**\n\n(a) Draw the logic circuit for the given expression **[4]**\n\n(b) Complete the truth table for the logic expression: **[2]**\n\n**S = (A AND B AND C) OR (B XOR C)**\n\n**Final answer:** **Answer**\n\n(a)\n\n![Logic circuit diagram with three inputs, A, B, and C, using two AND gates, two OR gates, and one NOT gate, producing output S.](assets/c6f40c887760-49529-2025-04-03-0nx-kleki.png)\n\n- Each correct gate **[1 mark]**\n\n(b)\n\n| A | B | C | S |\n|---|---|---|---|\n| 0 | 0 | 0 | **0** |\n| 0 | 0 | 1 | **1** |\n| 0 | 1 | 0 | **1** |\n| 0 | 1 | 1 | **0** |\n| 1 | 0 | 0 | **0** |\n| 1 | 0 | 1 | **1** |\n| 1 | 1 | 0 | **1** |\n| 1 | 1 | 1 | **1** |\n\n- Rows **1 to 4** correct **[1 mark]**\n- Rows** 5 to 8** correct** [1 mark]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_YcKmJk8jHkbXrXGg",
+   "name": "From truth tables",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "From truth tables"
+  },
+  {
+   "type": "bullets",
+   "md": "- To create a truth table for the expression **P = (A AND B) AND NOT C **\n\n  - Calculate the numbers of rows needed (**2**<sup>**number of inputs**</sup>)\n  - In this example there are 3 inputs (**A, B, C**) so a total of **8 rows** are needed (**2**<sup>**3**</sup>)\n  - To not miss any combination of inputs, start with **000 **and **count **up in** 3-bit binary (0-7)**"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** |\n|---|---|---|\n| **0** | **0** | **0** |\n| **0** | **0** | **1** |\n| **0** | **1** | **0** |\n| **0** | **1** | **1** |\n| **1** | **0** | **0** |\n| **1** | **0** | **1** |\n| **1** | **1** | **0** |\n| **1** | **1** | **1** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Add a new column to show the **results **of the brackets first (A AND B)"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** | **A AND B** |\n|---|---|---|---|\n| 0 | 0 | 0 | **0** |\n| 0 | 0 | 1 | **0** |\n| 0 | 1 | 0 | **0** |\n| 0 | 1 | 1 | **0** |\n| 1 | 0 | 0 | **0** |\n| 1 | 0 | 1 | **0** |\n| 1 | 1 | 0 | **1** |\n| 1 | 1 | 1 | **1** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Add a new column to show the **results **of NOT C"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** | **A AND B** | **NOT C** |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | **1** |\n| 0 | 0 | 1 | 0 | **0** |\n| 0 | 1 | 0 | 0 | **1** |\n| 0 | 1 | 1 | 0 | **0** |\n| 1 | 0 | 0 | 0 | **1** |\n| 1 | 0 | 1 | 0 | **0** |\n| 1 | 1 | 0 | 1 | **1** |\n| 1 | 1 | 1 | 1 | **0** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The last column shows the **result **of the Boolean expression (**P**) by comparing (A AND B) AND NOT C** **//"
+  },
+  {
+   "type": "table",
+   "md": "| **A** | **B** | **C** | **A AND B** | **NOT C** | **P** |\n|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 1 | **0** |\n| 0 | 0 | 1 | 0 | 0 | **0** |\n| 0 | 1 | 0 | 0 | 1 | **0** |\n| 0 | 1 | 1 | 0 | 0 | **0** |\n| 1 | 0 | 0 | 0 | 1 | **0** |\n| 1 | 0 | 1 | 0 | 0 | **0** |\n| 1 | 1 | 0 | 1 | 1 | **1** |\n| 1 | 1 | 1 | 1 | 0 | **0** |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "It is possible to create a truth table when combining expressions that show only the inputs and the final outputs.\n\nThe inclusion of the extra columns **supports the process** but can be skipped if you feel able to do those in your head as you go."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_YBstypxKj78qxn3V",
+   "name": "From logic circuits",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "From logic circuits"
+  },
+  {
+   "type": "bullets",
+   "md": "- From a logic circuit you can create the** logic expression and/or truth table**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Write the logic expression for the given logic circuit. **[3]**\n\n![Logic circuit diagram with inputs A, B, C; involving NOT, AND, and OR gates, outputting X.](assets/b5131aaa20c4-4655-2025-04-03-0o6-kleki.png)\n\n**Final answer:** **Answer**\n\n**(A NAND B) OR (B XOR C)**\n\n- A NAND B **[1 mark]**\n- B XOR C **[1 mark]**\n- OR **[1 mark]**"
+  }
+ ]
+}

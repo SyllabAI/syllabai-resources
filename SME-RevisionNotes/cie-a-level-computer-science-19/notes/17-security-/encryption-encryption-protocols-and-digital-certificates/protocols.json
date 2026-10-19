@@ -1,0 +1,111 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_sbjMVvQkqTS2g6xs",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/17-security-/encryption-encryption-protocols-and-digital-certificates/protocols",
+ "title": "Protocols",
+ "page_title": "Protocols | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "17-security-",
+   "encryption-encryption-protocols-and-digital-certificates",
+   "protocols"
+  ],
+  "section": "17-security-",
+  "topic": "encryption-encryption-protocols-and-digital-certificates",
+  "leaf": "protocols"
+ },
+ "titles": {
+  "section": "17. Security",
+  "topic": "Encryption, Encryption Protocols & Digital Certificates",
+  "subtopic": "Protocols"
+ },
+ "updated_at": "2025-06-01T18:42:38.443Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_jC32rTS6sZ6SmccB"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 11,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_jC32rTS6sZ6SmccB",
+   "name": "SSL/TLS",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "SSL/TLS"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is SSL?"
+  },
+  {
+   "type": "bullets",
+   "md": "- SSL (Secure Sockets Layer) is a **security protocol** used to **encrypt data sent over the internet**\n- Helps to prevent **eavesdropping**, **tampering**, or **man-in-the-middle attacks**\n- Commonly used for:\n\n  - **Protecting websites**\n  - **Online payments**\n  - **Login credentials**\n- Creates a **secure connection** between a web server and a browser"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is TLS?"
+  },
+  {
+   "type": "bullets",
+   "md": "- TLS (Transport Layer Security) is the **successor to SSL**\n- It performs the **same functions** but is **more secure and efficient**\n\n  - Modern websites use **TLS**, although people often still refer to it as “SSL”\n  - When you see **HTTPS** in the browser, it means **TLS/SSL encryption is active**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How SSL/TLS works with digital certificates"
+  },
+  {
+   "type": "ordered",
+   "md": "1. When you visit a secure website (e.g. `https://`), the server sends your browser its **digital certificate**\n2. The certificate contains:\n\n  - The server’s **public key**\n  - Information about the website and Certificate Authority (CA)\n  - A **digital signature** from the CA\n3. Your browser checks that the **certificate is valid and trusted** using the CA’s public key\n4. If trusted, a **secure connection is established**, often using a shared secret key (symmetric encryption) created during the handshake"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Summary: What a digital certificate does"
+  },
+  {
+   "type": "table",
+   "md": "| Component | Purpose |\n|---|---|\n| Public key | Used by your browser to create secure communication |\n| Website identity | Shows who owns the key |\n| Certificate Authority | Signs the certificate to confirm it's trustworthy |\n| Browser validation | Uses the CA’s public key to verify the certificate |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- TLS has replaced SSL — but both are encryption protocols used with digital certificates\n- Always mention digital certificates when explaining how websites create secure connections"
+  }
+ ]
+}

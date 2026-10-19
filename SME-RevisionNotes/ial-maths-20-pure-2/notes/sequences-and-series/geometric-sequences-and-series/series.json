@@ -1,0 +1,159 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_CCFfMKhFKSjm3CXq",
+ "course_slug": "ial-maths-20-pure-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/revision-notes/sequences-and-series/geometric-sequences-and-series/series",
+ "title": "Geometric Series",
+ "page_title": "Geometric Series | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "sequences-and-series",
+   "geometric-sequences-and-series",
+   "series"
+  ],
+  "section": "sequences-and-series",
+  "topic": "geometric-sequences-and-series",
+  "leaf": "series"
+ },
+ "titles": {
+  "section": "Sequences & Series",
+  "topic": "Geometric Sequences & Series",
+  "subtopic": "Geometric Series"
+ },
+ "updated_at": "2026-07-02T08:19:38.308Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_wDZkFdvpqg4nq9GC",
+   "rnl_kkmrMQv2nJNw4QZZ",
+   "rnl_8657HCX5MpYBYBvP"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_26BM3X6TYPVynqSD"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "S_{n}=\\frac{a(1-r^{n})}{1-r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"22px\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>r</mi><mi>n</mi></msup><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S subscript n equals fraction numerator a left parenthesis 1 minus r to the power of n right parenthesis over denominator 1 minus r end fraction"
+  },
+  {
+   "latex": "S_{n}=\\frac{a(r^{n}-1)}{r-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"22px\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><msup><mi>r</mi><mi>n</mi></msup><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S subscript n equals fraction numerator a left parenthesis r to the power of n minus 1 right parenthesis over denominator r minus 1 end fraction"
+  },
+  {
+   "latex": "S_{\\infty}=\\frac{a}{1-r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"22px\"><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 16,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 3
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_26BM3X6TYPVynqSD",
+   "name": "Geometric Series",
+   "definition": null,
+   "video_id": "864437234"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Geometric series"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the sum of a geometric series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **geometric series** is the sum of the terms of a **geometric sequence**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.5.2-Geom-Series-Illustr.png",
+   "file": "assets/2629cc767e36-4-5-2-geom-series-illustr.png",
+   "alt": "Geom Series Illustr, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The following formulae will let you find the sum of the first ***n*** terms of a geometric series: $S_{n}=\\frac{a(1-r^{n})}{1-r}$   or   $S_{n}=\\frac{a(r^{n}-1)}{r-1}$\n\n  - *a *is the first term\n  - *r *is the common ratio"
+  },
+  {
+   "type": "bullets",
+   "md": "- The one on the left is more convenient if ***r *****< 1**, the one on the right is more convenient if ***r *****> 1**\n- The ***a*** and the ***r*** in those formulae are exactly the same as the ones used with **geometric sequences**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I prove the geometric series formula?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Learn this proof of the geometric series formula – you can be asked to give it in the exam:\n\n  - Write out the sum once\n  - Write out the sum again but multiply each term by *r*\n  - Subtract the second sum from the first\n  \n    - All the terms except two should cancel out\n  - Factorise and rearrange to make *S *the subject"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.5.2-Geom-Series-Proof.png",
+   "file": "assets/97c3ed07312d-4-5-2-geom-series-proof.png",
+   "alt": "Geom Series Proof, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the sum to infinity of a geometric series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If (and only if!) **|*****r*****| < 1**, then the geometric series** *****converges*** to a finite value given by the formula"
+  },
+  {
+   "type": "paragraph",
+   "md": "$S_{\\infty}=\\frac{a}{1-r}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- ***S***<sub>**∞**</sub> is known as the **sum to infinity**\n- If **|*****r*****| ≥ 1** the geometric series is ***divergent*** and the sum to infinity does not exist"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The geometric series formulae are in the formulae booklet – you don't need to memorise them\n- You will sometimes need to use logarithms to answer geometric series questions (see **Exponential Equations**)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Geom Series Example, A Level & AS Level Pure Maths Revision Notes](assets/23b96cd44589-4-5-2-geom-series-example.png)"
+  }
+ ]
+}

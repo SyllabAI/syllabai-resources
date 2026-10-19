@@ -1,0 +1,232 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_SFrq6Z8mK5nX4jng",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/data-storage/secondary-storage",
+ "title": "Secondary Storage",
+ "page_title": "Secondary Storage - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "3-hardware",
+   "data-storage",
+   "secondary-storage"
+  ],
+  "section": "3-hardware",
+  "topic": "data-storage",
+  "leaf": "secondary-storage"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Data Storage",
+  "subtopic": "Secondary Storage"
+ },
+ "updated_at": "2026-09-19T14:26:52.757Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_4TzDSW7wjt83BXTF",
+  "spcpt_3WQhvNCVYsrXcHHx",
+  "spcpt_hP6YRH4KZnwmZwZJ",
+  "spcpt_crpB5X4RtvhkFdJv"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 34,
+  "figures": 4,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_4TzDSW7wjt83BXTF",
+   "name": "Secondary Storage",
+   "definition": "2 Understand what is meant by secondary storage \n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Secondary Storage"
+  },
+  {
+   "type": "bullets",
+   "md": "- Storage devices are **non-volatile secondary storage**, that retain digital data within a computer system\n- They provide a means of storing, accessing, and retrieving data, which can include software applications, documents, images, videos, and more\n- There are 3 types of storage:\n\n  - **Magnetic**\n  - **Solid-state (flash memory)**\n  - **Optical**\n- Computer systems need both primary and secondary storage to operate\n- Both types of storage play a crucial role in the operation of a computer system\n- A quick comparison of primary and secondary storage shows:"
+  },
+  {
+   "type": "table",
+   "md": "| **Primary** | **Secondary** |\n|---|---|\n| ***Volatile*** (with the exception of ROM) | ***Non-volatile*** |\n| Small capacity | Large capacity |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why do you need secondary storage?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A computer needs secondary storage for **long term storage** of programs and data that are **currently not in use **\n- Secondary storage is needed as ROM is read only and RAM is volatile\n- Secondary storage holds the **programs **and **data** whilst the computer is turned off (**non-volatile**)\n- Performance of secondary storage is **slower **than primary storage but **capacity **is much **higher **which makes it perfect for backup & archive of data files"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the characteristics of secondary storage?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Capacity **- What is the maximum amount of data that can be stored?\n- **Speed **- How fast can data be read from and written to? (R/W)\n- **Cost **- How much does it cost?\n- **Portability **- How easy is it to move around? What is the physical size? Weight?\n- **Durability **- How robust is the storage?\n- **Reliability **- What is the probability that the device will consistently perform its function?"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A games console has secondary storage.\n\nState, using an example, why the games console needs secondary storage **[2]**\n\n**How to answer this question**\n\n- They keyword is '**why**', why does a games console need secondary storage? Give an example, do not just describe what secondary storage is!\n\n**Answer**\n\n- To store data once the power is turned off / permanently // for non-volatile storage\n- Examples could include:\n\n  - Storing games\n  - Save games\n  - User data/profiles\n  - Downloaded content/applications/updates"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_3WQhvNCVYsrXcHHx",
+   "name": "Magnetic Storage",
+   "definition": "\"3 Describe the operation of magnetic, optical and\nsolid-state (flash memory) storage and give\nexamples of each \"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Magnetic Storage"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is magnetic storage?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Magnetic storage is a type of **non-volatile media **that uses **magnets** (polarity) to store binary 0s and 1s\n- A magnetic hard disk is made up of** several metal discs** coated with a magnetic material\n\n  - These are called **platters**\n  - Iron particles on each platter are **magnetised **to **represent a 0 or 1**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/04/3-3-data-storage-secondary-storage-1.png",
+   "file": "assets/7607bdfdde60-3-3-data-storage-secondary-storage-1.png",
+   "alt": "Diagram of a hard disk showing labeled components: read head, platter, track, and sector. The read head hovers above the platter and sectors are segments of the platter.",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- Each platter is divided by concentric circles creating several **tracks **and wedge shaped **sectors**\n- Where they intersect is a** track sector**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/04/3-3-data-storage-secondary-storage-2-1.png",
+   "file": "assets/955f524c5290-3-3-data-storage-secondary-storage-2-1.png",
+   "alt": "Diagram of a hard drive showing platters, tracks, sectors, and disk read-and-write heads. Labels explain components, including magnetic layers and their role in data storage.",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- The hard drive **spins the metal disk**(s) at a high speed (typically around 5400-7200 RPM) using a **motor**\n- A **read/write arm**, controlled by an actuator, **moves the head** over the surface of the disc to the location of the data\n- The data is read/written using **electromagnets**"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| **Capacity **- High storage | **Durability **- Moving parts can get damaged if dropped |\n| **Cost** - Low per gigabyte | **Portability **- Heavy & bulky making them less convenient for transport |\n| **Speed** - Moderate read/write access** ** | **Reliability** - Prone to mechanical failure |\n|   | **Noise **- Loud (spinning disks) |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_hP6YRH4KZnwmZwZJ",
+   "name": "Solid State Storage",
+   "definition": "\"3 Describe the operation of magnetic, optical and\nsolid-state (flash memory) storage and give\nexamples of each \"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Solid-state (Flash Memory)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is solid state (flash memory)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Solid-state (flash memory) storage is a type of** non-volatile media** that uses **electronic circuits** to store binary 0s and 1s\n- Examples of solid state storage devices include:\n\n  - **Solid state drives (SSD)** - replacing magnetic hard drives as a computers primary secondary storage device as capacity increases and cost decreases\n  - **USB flash memory **- most common form of portable storage device\n- It uses **NAND **and **NOR gates **in electrical circuits to ***persistently*** control the flow of electrons"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/09/63100_2024-09-02-0gu-kleki.png",
+   "file": "assets/618d176190a8-63100-2024-09-02-0gu-kleki.png",
+   "alt": "Diagram showing sections of a floating gate transistor: control gate (orange), oxide layers (gray) above and below floating gate (orange), and oxide layer with electrons (blue dots).",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- Solid-state (flash memory) is memory made up of **tiny cells** that can contain **one bit of data** (1 or 0)\n- Each cell **contains a *****transistor***** **that acts as a **switch **that can be **turned on or off**\n- The transistor contains **two **main parts:\n\n  - **Control gate** - top layer of transistor, connects to circuit and controls if current can flow through the transistor\n  - **Floating gate** - can hold a charge (like a tiny rechargeable battery) and is sandwiched between two layers of insulating material (Oxide)\n- To **store data** a charge is placed on the floating gate\n\n  - A** high voltage is applied** to the **control gate**, which allows electrons to be **pushed through the oxide layer** and onto the** floating gate**\n- To **remove data**, a high voltage charge is applied in the **opposite direction**, **pulling the electrons off the floating gate**"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| **Capacity **- Medium/high storage | **Cost** - Very high per gigabyte |\n| **Speed** - Very fast read/write access | **Reliability** - Limited read/write cycles |\n| **Durability **- No moving parts |   |\n| **Portability **- Small and no moving parts |   |\n| **Noise **- Silent |   |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_crpB5X4RtvhkFdJv",
+   "name": "Optical Storage",
+   "definition": "\"3 Describe the operation of magnetic, optical and\nsolid-state (flash memory) storage and give\nexamples of each \"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Optical Storage"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is optical storage?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Optical storage is a type of **non-volatile media **that uses **lasers **to burn the surface of a disk, creating pits and lands suitable for storing binary 0s and 1s\n- Examples of optical storage include:\n\n  - **Blu-rays** have the largest capacity\n  - **CDs** have the lowest capacity\n  - **CD-R** are read-only (you cannot save data on to them)\n  - **CD-RW** can be written to and read from\n  - **DVD-RW** can be written to and read from"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/04/3-3-data-storage-secondary-storage-3.png",
+   "file": "assets/a988faddd0a4-3-3-data-storage-secondary-storage-3.png",
+   "alt": "A rectangular waveform diagram with labeled sections 'LAND' and 'PIT'. Below the waveform is a binary sequence: 0001000000000010000100000000100000000001000.",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- All optical devices work by** shining a laser at the disk** and** processing the reflection**\n- An arm moves the laser **across the surface of the disk**\n- In **CD-Rs** a laser burns the data, **permanently** on to the disk, by creating pits and lands\n- The laser is also used to **read the data from the pits and lands**\n- When the laser light **hits the point where the pit changes into a land** or vice versa the **light scatters** and** is not reflected back as well**.\n- This is **captured by a sensor **and can be** interpreted as a change in the binary value**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Optical storage devices contain moving parts because the disk spins and the laser mechanism moves, but there is no physical contact with the disk surface"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| **Cost** - Very low per gigabyte | **Capacity **- Very low |\n| **Durability **- No physical contact between the laser and the disk surface | **Speed** - Very slow read/write access |\n| **Portability **- Small and lightweight | **Reliability** - Prone to scratches |\n| **Noise **- Silent |   |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Zarmeen has purchased a new tablet computer. The tablet has an internal secondary storage device.\n\nThe storage device is a solid state device.\n\n1. Give **three** benefits of the tablet having a solid state device instead of a magnetic device **[3]**\n2. Give **two** drawbacks of the tablet having a solid state device instead of a magnetic device** [2]**\n\n**Answers**\n\n- Benefits\n\n  - Faster access / read/write speeds\n  - Smaller in physical size\n  - More durable // no moving parts\n- Drawbacks\n\n  - More expensive (per gigabyte)\n  - Smaller capacity (usually)\n  - Limited number of read/write cycles\n\n**Guidance**\n\n- Portable is not enough on it's own\n- No moving parts is not enough on it's own"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_7xNnF9sHhqz9k7YW",
+ "course_slug": "cie-igcse-ict-21",
+ "url": "https://www.savemyexams.com/igcse/ict/cie/21/revision-notes/11-spreadsheets/create-a-data-model/search-and-select-data",
+ "title": "Search & Select Data",
+ "page_title": "Data Selection in Excel - IGCSE ICT Revision Notes",
+ "path": {
+  "segs": [
+   "11-spreadsheets",
+   "create-a-data-model",
+   "search-and-select-data"
+  ],
+  "section": "11-spreadsheets",
+  "topic": "create-a-data-model",
+  "leaf": "search-and-select-data"
+ },
+ "titles": {
+  "section": "11. Spreadsheets",
+  "topic": "Create a Data Model",
+  "subtopic": "Search & Select Data"
+ },
+ "updated_at": "2024-06-27T10:00:23.909Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_6cWYq7s8VbT8FZ3R",
+  "spcpt_j3qbn54SDBDZvwrd"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 26,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_6cWYq7s8VbT8FZ3R",
+   "name": "Search & Select Data in Spreadsheets",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Search & Select Data in Spreadsheets"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is data selection?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data selection allows you to focus on a **specific subset** of your data based on certain criteria\n- This is useful for analysing parts of a larger dataset\n- You can select data using a single criterion or multiple criteria"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Searching for data"
+  },
+  {
+   "type": "bullets",
+   "md": "- Specific data in spreadsheets can found by using various operators, these include:\n\n  - **AND**\n  - **OR**\n  - **NOT**\n  - Greater than **>**\n  - Less than **<**\n  - Equal to **=**\n  - Greater than or equal to **>=**\n  - Less than or equal to**<=**\n  - Not equal to **<>**\n- For example, you might search for all students who scored above 85 (**>**) **AND** are in Year 11"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Wildcards"
+  },
+  {
+   "type": "bullets",
+   "md": "- wildcards can be used when you're **unsure of the exact data** you're looking for\n- The most common wildcards are the asterisk (*****) and the question mark (**?**)\n- An asterisk represents any number of characters\n\n  - For example, \"A*\" would find \"Alex\", \"Aaron\", etc.\n- A question mark represents a single character\n\n  - For example, \"A?e\" would find \"Abe\", but not \"Alex\""
+  },
+  {
+   "type": "paragraph",
+   "md": "Consider the following example spreadsheet:"
+  },
+  {
+   "type": "table",
+   "md": "|   | **A** | **B** | **C** |\n|---|---|---|---|\n| **1** | Name | Mark | Year |\n| **2** | Alex | 85 | 11 |\n| **3** | Ben | 90 | 12 |\n| **4** | Chloe | 80 | 11 |\n| **5** | Dave | 88 | 12 |\n| **6** | Eve | 82 | 11 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- To select all students in Year 11, you could use the criterion \"Year = 11\"\n- To search for students who are in Year 11 AND scored above 85, you could use the criteria \"Year = 11\" AND \"Grade > 85\""
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Remember that you can use operators and wildcards in your searches to find data more efficiently. Wildcards are especially useful when you're unsure of the exact value you're looking for."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_j3qbn54SDBDZvwrd",
+   "name": "Sorting data in a spreadsheet",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Sorting data in a spreadsheet"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why do we need to sort data in a spreadsheet?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Sorting data is a powerful feature in spreadsheets\n- It **arranges your data** based on **specific criteria**\n- You can sort in **ascending **or **descending **order\n- You can sort data using a **single criterion**\n\n  - For example, you could sort a list of names alphabetically\n- In Excel, select the column you want to sort and then choose 'Sort A to Z' for ascending order or 'Sort Z to A' for descending order"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/12198_sorting-ezgif-com-video-to-webp-converter.webp",
+   "file": "assets/915cd00aee07-12198-sorting-ezgif-com-video-to-webp-converter.webp",
+   "alt": "Sorting data in a spreadsheet",
+   "caption": ""
+  },
+  {
+   "type": "paragraph",
+   "md": "You can also sort data using **multiple criteria**"
+  },
+  {
+   "type": "bullets",
+   "md": "- For example, you could sort a list of students first by grade, and then alphabetically by name within each grade\n- In Excel, select your data and then choose 'Sort'. Add levels for each of your criteria"
+  },
+  {
+   "type": "paragraph",
+   "md": "Consider the following example spreadsheet:"
+  },
+  {
+   "type": "table",
+   "md": "|   | **A** | **B** |\n|---|---|---|\n| **1** | Name | Age |\n| **2** | Alex | 15 |\n| **3** | Ben | 17 |\n| **4** | Alex | 16 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- If you sort by 'Name'  (A to Z), the spreadsheet might look like this:"
+  },
+  {
+   "type": "table",
+   "md": "|   | **A** | **B** |\n|---|---|---|\n| **1** | Name | Age |\n| **2** | Alex | 16 |\n| **3** | Alex | 15 |\n| **4** | Ben | 17 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- If you sort by 'Name' (A to Z) and then 'Age' (Smallest to Largest), the spreadsheet would look like this:"
+  },
+  {
+   "type": "table",
+   "md": "|   | **A** | **B** |\n|---|---|---|\n| **1** | Name | Age |\n| **2** | Alex | 15 |\n| **3** | Alex | 16 |\n| **4** | Ben | 17 |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Be sure to select all relevant columns before sorting, especially when dealing with multiple criteria. Failure to do so may result in misalignment of your data!"
+  }
+ ]
+}

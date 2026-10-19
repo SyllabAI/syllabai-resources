@@ -1,0 +1,436 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_TR5KM76JWzQ4PrSj",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/integration/integrating-basic-functions",
+ "title": " Integrating Basic Functions",
+ "page_title": " Integrating Basic Functions | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "integrating-basic-functions"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "integrating-basic-functions"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": " Integrating Basic Functions"
+ },
+ "updated_at": "2024-10-20T15:38:46.684Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fhGBfgdfw9WmZGPc",
+  "spcpt_3RJndX5xhQSKbn6K",
+  "spcpt_D2njzcMRRFh4dvQn"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space c"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "n=-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals negative 1"
+  },
+  {
+   "latex": "x^{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mi>n</mi></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x to the power of n"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "n=-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals negative 1"
+  },
+  {
+   "latex": "x^{\\frac{1}{3}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x to the power of 1 third end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{1}{x^{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "1 over x squared"
+  },
+  {
+   "latex": "x^{-2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x to the power of negative 2 end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "=\\frac{8x^{3+1}}{3+1}-\\frac{2x^{1+1}}{1+1}+4x+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathsize=\"16px\">=</mo><mfrac><mrow><mn mathsize=\"16px\">8</mn><msup><mi mathsize=\"16px\">x</mi><mrow><mn mathsize=\"16px\">3</mn><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">1</mn></mrow></msup></mrow><mrow><mn mathsize=\"16px\">3</mn><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">1</mn></mrow></mfrac><mo mathsize=\"16px\">-</mo><mfrac><mrow><mn mathsize=\"16px\">2</mn><msup><mi mathsize=\"16px\">x</mi><mrow><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">1</mn></mrow></msup></mrow><mrow><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">1</mn></mrow></mfrac><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">4</mn><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">+</mo><mi mathsize=\"16px\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "size 16px equals fraction numerator size 16px 8 size 16px x to the power of size 16px 3 size 16px plus size 16px 1 end exponent over denominator size 16px 3 size 16px plus size 16px 1 end fraction size 16px minus fraction numerator size 16px 2 size 16px x to the power of size 16px 1 size 16px plus size 16px 1 end exponent over denominator size 16px 1 size 16px plus size 16px 1 end fraction size 16px plus size 16px 4 size 16px x size 16px plus size 16px c"
+  },
+  {
+   "latex": "=2x^{4}-x^{2}+4x+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">2</mn><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">4</mn></msup><mo mathsize=\"16px\">-</mo><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">4</mn><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">+</mo><mi mathsize=\"16px\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "equals 2 x to the power of 4 minus x squared plus 4 x plus c"
+  },
+  {
+   "latex": "16x^{3}-24x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>24</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "16 x cubed minus 24 x squared"
+  },
+  {
+   "latex": "8x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "8 x squared"
+  },
+  {
+   "latex": "2x-3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "2 x minus 3"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space c"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=2x^{2}+3-\\frac{1}{\\sqrt{x}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">y</mi></mrow><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">d</mi><mi mathsize=\"16px\">x</mi></mrow></mfrac><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">2</mn><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">3</mn><mo mathsize=\"16px\">-</mo><mfrac><mn mathsize=\"16px\">1</mn><msqrt><mi mathsize=\"16px\">x</mi></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 2 x squared plus 3 minus fraction numerator 1 over denominator square root of x end fraction"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space y"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space x"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\frac{1}{\\sqrt{x}}=x^{-\\frac{1}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>=</mo><msup><mi>x</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator 1 over denominator square root of x end fraction equals x to the power of negative 1 half end exponent"
+  },
+  {
+   "latex": "\\frac{dy}{dx}=2x^{2}+3-x^{-\\frac{1}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>-</mo><msup><mi>x</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 2 x squared plus 3 minus x to the power of negative 1 half end exponent"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "x^{\\frac{1}{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x to the power of 1 half end exponent"
+  },
+  {
+   "latex": "\\sqrt{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msqrt><mi>x</mi></msqrt><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "square root of x"
+  },
+  {
+   "latex": "y=\\frac{2}{3}x^{3}+3x-2\\sqrt{x}+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">y</mi><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">3</mn></mfrac><msup><mi mathvariant=\"bold-italic\">x</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn><msqrt><mi mathvariant=\"bold\">x</mi></msqrt><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic y bold equals bold 2 over bold 3 bold italic x to the power of bold 3 bold plus bold 3 bold italic x bold minus bold 2 square root of bold x bold plus bold italic c"
+  },
+  {
+   "latex": "\\mathrm{sin}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "sin x"
+  },
+  {
+   "latex": "\\mathrm{cos}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>cos</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "cos x"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\mathrm{sin}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mi>a</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "sin a x"
+  },
+  {
+   "latex": "\\mathrm{cos}ax",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>cos</mi><mi>a</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "cos a x"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "f(x)=\\frac{4}{3}\\mathrm{sin}3x+\\frac{1}{4}\\mathrm{cos}2x+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">f</mi><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">4</mn><mn mathvariant=\"bold\">3</mn></mfrac><mi mathvariant=\"bold\">sin</mi><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">4</mn></mfrac><mi mathvariant=\"bold\">cos</mi><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold f stretchy left parenthesis x stretchy right parenthesis bold equals bold 4 over bold 3 bold sin bold 3 bold italic x bold plus bold 1 over bold 4 bold cos bold 2 bold italic x bold plus bold italic c"
+  },
+  {
+   "latex": "e^{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><mi>x</mi></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight e to the power of x"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "e^{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><mi>x</mi></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "straight e to the power of x"
+  },
+  {
+   "latex": "e^{ax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "straight e to the power of a x end exponent"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "e^{ax}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight e to the power of a x end exponent"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "f(x)=\\frac{1}{4}e^{2x}+\\frac{1}{6}e^{-3x}+c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">f</mi><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">4</mn></mfrac><msup><mi mathvariant=\"bold\">e</mi><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold\">x</mi></mrow></msup><mo mathvariant=\"bold\">+</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">6</mn></mfrac><msup><mi mathvariant=\"bold\">e</mi><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">3</mn><mi mathvariant=\"bold\">x</mi></mrow></msup><mo mathvariant=\"bold\">+</mo><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold f stretchy left parenthesis x stretchy right parenthesis bold equals bold 1 over bold 4 bold e to the power of bold 2 bold x end exponent bold plus bold 1 over bold 6 bold e to the power of bold minus bold 3 bold x end exponent bold plus bold italic c"
+  }
+ ],
+ "stats": {
+  "blocks": 26,
+  "figures": 0,
+  "worked_examples": 3,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 49
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_fhGBfgdfw9WmZGPc",
+   "name": "Integrating Powers of x",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating Powers of x"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate powers of x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Powers of$x$ are **integrated** according to the following **formula**:\n\n  - `space integral x to the power of n space straight d x equals fraction numerator x to the power of n plus 1 end exponent over denominator n plus 1 end fraction plus c`  (where$c$ is the **constant** of **integration**)\n  \n    - This is valid for any value of $n$ **except** $n=-1$\n    - So you cannot integrate  `integral x to the power of negative 1 end exponent space straight d x equals integral 1 over x space straight d x` this way"
+  },
+  {
+   "type": "bullets",
+   "md": "- If $x^{n}$ is **multiplied by a constant** $a$ then\n\n  - `space integral a x to the power of n space straight d x equals a integral x to the power of n space straight d x equals fraction numerator a x to the power of n plus 1 end exponent over denominator n plus 1 end fraction plus c`\n  \n    - This also is **not valid** for $n=-1$\n- These formulae are **not** on the exam formula sheet, so you need to remember them\n- Remember the **special case:**\n\n  - `space integral a space straight d x equals a x plus c`\n  \n    - e.g. `space integral 4 space straight d x equals 4 x plus c`\n  - This allows **constant** terms to be integrated\n- Functions involving **roots** will need to be rewritten as **fractional powers**\n\n  - e.g. `integral cube root of x space straight d x`\n  \n    - rewrite `cube root of x` as $x^{\\frac{1}{3}}$\n    - then integrate\n- **Fractions** with $x$ in the **denominator** will need to be rewritten as **negative powers**\n\n  - e.g. `integral 1 over x squared space straight d x`\n  \n    - rewrite $\\frac{1}{x^{2}}$ as $x^{-2}$\n    - then integrate"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate sums and differences of powers of x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The formulae can be used to integrate **sums or differences** of powers of$x$\n\n  - Just integrate **term by term**\n  \n    - e.g. `integral open parentheses 8 x cubed minus 2 x plus 4 close parentheses blank straight d x`\n    - $=\\frac{8x^{3+1}}{3+1}-\\frac{2x^{1+1}}{1+1}+4x+c$\n    - $=2x^{4}-x^{2}+4x+c$\n- **Products** and **quotients** cannot be integrated this way\n\n  - You need to **expand** and/or **simplify** first\n  \n    - e.g. `integral 8 x squared open parentheses 2 x minus 3 close parentheses space straight d x`\n    - expand `8 x squared open parentheses 2 x minus 3 close parentheses` as $16x^{3}-24x^{2}$\n    - then integrate term by term\n    - you **cannot** just multiply the integrals of $8x^{2}$ and $2x-3$ together"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What might I be asked to do once I’ve integrated?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You may be given the **derivative** of a function and asked to **find** the function\n\n  - Integration and differentiation are **inverse** operations so\n  \n    - `integral straight f to the power of apostrophe open parentheses x close parentheses space straight d x equals straight f open parentheses x close parentheses plus c`\n    - `integral fraction numerator straight d y over denominator straight d x end fraction space straight d x equals y plus c`\n- With more information the **constant** **of** **integration**,$c$, can be found\n- The **area** **under** **a** **curve** can also be found using integration"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember the basic pattern of integrating powers of *x*\n\n  - 'Raise the power by one and divide by the new power'\n  - Lots of practice will improve your speed and accuracy\n- It's easy to check your answer when integrating\n\n  - Just differentiate your answer\n  - It should turn back into the function you were integrating in the first place"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Given that  $\\frac{dy}{dx}=2x^{2}+3-\\frac{1}{\\sqrt{x}}$,  find an expression for$y$ in terms of$x$.\n\n> *Start by rewriting *$\\frac{dy}{dx}$*entirely in powers of *$x$\n\n> *By laws of indices  *$\\frac{1}{\\sqrt{x}}=x^{-\\frac{1}{2}}$\n\n$\\frac{dy}{dx}=2x^{2}+3-x^{-\\frac{1}{2}}$\n\n> *Remember  *`integral fraction numerator straight d y over denominator straight d x end fraction space straight d x equals y plus c`\n\n> *We can integrate term by term using  *`space integral a x to the power of n space straight d x equals fraction numerator a x to the power of n plus 1 end exponent over denominator n plus 1 end fraction plus c`\n\n`table row y equals cell integral open parentheses 2 x squared plus 3 minus x to the power of negative 1 half end exponent close parentheses space straight d x end cell row blank equals cell 2 open parentheses fraction numerator x to the power of 2 plus 1 end exponent over denominator 2 plus 1 end fraction close parentheses plus 3 x minus fraction numerator x to the power of negative 1 half plus 1 end exponent over denominator negative 1 half plus 1 end fraction plus c end cell row blank equals cell 2 open parentheses x cubed over 3 close parentheses plus 3 x minus fraction numerator x to the power of 1 half end exponent over denominator 1 half end fraction plus c end cell row blank equals cell 2 over 3 x cubed plus 3 x minus 2 x to the power of 1 half end exponent plus c end cell end table`\n\n> *We can't find the value of *$c$* without further info, so that's the answer to the question*\n\n> *It's 'nice' to turn *$x^{\\frac{1}{2}}$* back into*$\\sqrt{x}$* for the final answer, but you would also get the marks without doing that*\n\n$y=\\frac{2}{3}x^{3}+3x-2\\sqrt{x}+c$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_3RJndX5xhQSKbn6K",
+   "name": "Integrating Trig Functions",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating Trig Functions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate sin and cos?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can **integrate** $\\mathrm{sin}x$ and $\\mathrm{cos}x$ by using the formulae\n\n  - `bold integral bold sin bold space bold italic x bold space bold d bold italic x bold equals bold minus bold cos bold space bold italic x bold plus bold italic c`\n  - `bold integral bold cos bold space bold italic x bold space bold d bold italic x bold equals bold sin bold space bold italic x bold plus bold italic c`\n  \n    - $c$ is the **constant** **of** **integration**"
+  },
+  {
+   "type": "bullets",
+   "md": "- If $x$ is **multiplied by a constant** $a$ then\n\n  - `bold integral bold sin bold space bold italic a bold italic x bold space bold d bold italic x bold equals bold minus bold 1 over bold italic a bold cos bold space bold italic a bold italic x bold plus bold italic c`\n  - `bold integral bold cos bold space bold italic a bold italic x bold space bold d bold italic x bold equals bold 1 over bold italic a bold sin bold space bold italic a bold italic x bold plus bold italic c`"
+  },
+  {
+   "type": "bullets",
+   "md": "- **None of these formulae** are on the exam formula sheet, so you need to remember them\n- For calculus with trigonometric functions angles** must** be measured in **radians**\n\n  - Make sure you know how to change the angle mode on your **calculator**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember to include 'c', the constant of integration, for any indefinite integrals\n- As soon as you see a question involving integration and trigonometry\n\n  - put your calculator into radians mode"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Given that  `straight f to the power of apostrophe open parentheses x close parentheses equals 4 cos 3 x minus 1 half sin 2 x`, find an expression for `straight f open parentheses x close parentheses` in terms of $x$.\n\n> *Remember that  *`integral straight f to the power of apostrophe open parentheses x close parentheses space straight d x italic equals straight f stretchy left parenthesis x stretchy right parenthesis italic plus c`\n\n> *We can integrate term by term using the integration formulae for *$\\mathrm{sin}ax$* and *$\\mathrm{cos}ax$\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses x close parentheses end cell equals cell integral open parentheses 4 cos 3 x minus 1 half sin 2 x close parentheses space straight d x end cell row blank equals cell 4 open parentheses 1 third sin 3 x close parentheses minus 1 half open parentheses negative 1 half cos 2 x close parentheses plus c end cell row blank equals cell 4 over 3 sin 3 x plus 1 fourth cos 2 x plus c end cell end table`\n\n> *We can't find the value of *$c$* without further info, so that's the answer to the question*\n\n$f(x)=\\frac{4}{3}\\mathrm{sin}3x+\\frac{1}{4}\\mathrm{cos}2x+c$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_D2njzcMRRFh4dvQn",
+   "name": "Integrating e^x",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating e^x"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate exponentials?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $e^{x}$ can be integrated using the **formula**\n\n  - `bold integral bold space bold e to the power of bold italic x bold space bold d bold italic x bold equals bold space bold e to the power of bold italic x bold plus bold italic c`\n  \n    - $c$ is the **constant** **of** **integration**\n- If $x$ is **multiplied by a constant** $a$ then\n\n  - ** **`bold integral bold e to the power of bold italic a bold italic x end exponent bold space bold d bold italic x bold equals bold 1 over bold italic a bold e to the power of bold italic a bold italic x end exponent bold plus bold italic c`"
+  },
+  {
+   "type": "bullets",
+   "md": "- These formulae are **not** on the exam formula sheet, so you need to remember them"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Because '$e^{x}$ is its own integral' it is quite easy to integrate exponentials\n\n  - Just be careful dealing with the constant in $e^{ax}$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Given that  `straight f to the power of apostrophe open parentheses x close parentheses equals fraction numerator straight e to the power of 2 x end exponent minus straight e to the power of negative 3 x end exponent over denominator 2 end fraction`, find an expression for `straight f open parentheses x close parentheses` in terms of $x$.\n\n> *Remember that  *`integral straight f to the power of apostrophe open parentheses x close parentheses space straight d x italic equals straight f stretchy left parenthesis x stretchy right parenthesis italic plus c`\n\n> *We can integrate term by term using the integration formula for *$e^{ax}$\n\n> *You might find it easier to split the fraction into two separate fractions first*\n\n`table row cell straight f open parentheses x close parentheses end cell equals cell integral open parentheses 1 half straight e to the power of 2 x end exponent minus 1 half straight e to the power of negative 3 x end exponent close parentheses space straight d x end cell row blank equals cell 1 half open parentheses 1 half straight e to the power of 2 x end exponent close parentheses minus 1 half open parentheses fraction numerator 1 over denominator negative 3 end fraction straight e to the power of negative 3 x end exponent close parentheses plus c end cell row blank equals cell 1 fourth straight e to the power of 2 x end exponent plus 1 over 6 straight e to the power of negative 3 x end exponent plus c end cell end table`\n\n> *We can't find the value of *$c$* without further info, so that's the answer to the question*\n\n$f(x)=\\frac{1}{4}e^{2x}+\\frac{1}{6}e^{-3x}+c$"
+  }
+ ]
+}

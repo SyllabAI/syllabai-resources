@@ -1,0 +1,147 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_FHFw7hjDSyNydjwV",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/computer-architecture/the-fetch-decode-execute-cycle",
+ "title": "The Fetch-Decode-Execute Cycle",
+ "page_title": "Fetch Decode Execute Cycle - IGCSE Computer Science Revision",
+ "path": {
+  "segs": [
+   "3-hardware",
+   "computer-architecture",
+   "the-fetch-decode-execute-cycle"
+  ],
+  "section": "3-hardware",
+  "topic": "computer-architecture",
+  "leaf": "the-fetch-decode-execute-cycle"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Computer Architecture",
+  "subtopic": "The Fetch-Decode-Execute Cycle"
+ },
+ "updated_at": "2025-11-28T06:09:32.548Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_dP3gX38Yj4BfDGC5"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 18,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_dP3gX38Yj4BfDGC5",
+   "name": "Fetch-Decode-Execute Cycle (FDE)",
+   "definition": "\"(b) Describe the process of the\nfetch–decode–execute (FDE) cycle including\nthe role of each component in the process\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Fetch-Decode-Execute Cycle (FDE)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the purpose of the CPU?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The purpose of the Central Processing Unit (CPU) is to **fetch**, **decode** and **execute** instructions\n- The CPU is the brain of the computer and its job is to take an input, process data and produce an output"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the Fetch-Decode-Execute cycle?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **Fetch-Decode-Execute Cycle **is the cycle that the central processing unit (CPU) runs through billions of times per second to make a computer work\n- A computer takes an input, processes the input and then delivers an output for the user\n\n  - **Input:** Clicking a button on the gamepad\n  - **Process: **The CPU inside the console follows a set of instructions to carry out the task\n  - **Output:** The player moving on screen"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/the-cpu.png",
+   "file": "assets/200bb8693d52-the-cpu.png",
+   "alt": "the-cpu",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "The Fetch-Decode-Execute cycle stages"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Fetch stage"
+  },
+  {
+   "type": "bullets",
+   "md": "- During the fetch stage of the cycle, the **program counter** holds **the address of the next instruction** to be fetched from memory\n- **The address of the next instruction or data** to be fetched is **copied into **the memory address register **(MAR)**\n- The **address** of the instruction or data is then **sent along the address bus **and** awaits a signal **from the** control bus**\n- The signal sent along the control bus is **sent from the control unit (CU) **to the main memory\n- The data or instructions received from main memory is **fetched **to the memory data register** (MDR) **via the **data bus**\n- A **copy of the instruction or data is stored** in the current instruction register **(CIR)**\n- The program counter (PC)** increments by 1 **so it is pointing to the **next instruction to be executed**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Decode stage"
+  },
+  {
+   "type": "bullets",
+   "md": "- During the decode stage of the cycle, the CPU needs to** work out what is required from the instruction**\n- This is done as the instruction is split into two parts:\n\n  - Opcode - what the instruction is\n  - Operand - what to do it to\n  \n    - This could be either data or an address where the data is stored"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Execute stage"
+  },
+  {
+   "type": "bullets",
+   "md": "- During the execute stage of the cycle, the CPU will **carry out the instruction that was fetched**\n- Some examples that would take place at this stage are\n\n  - **Performing a calculation**\n  - **Storing a result or data back in main memory (RAM)**\n  - **Going to main memory to fetch data from a different location**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "The important things to remember are:"
+  },
+  {
+   "type": "bullets",
+   "md": "- An instruction or data is fetched from memory\n- The instruction is decoded\n- The instruction is executed\n- The cycle repeats billions of times per second"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Make sure you read the question carefully and look at the number of marks allocated to judge the level of detail required. Often questions on the fetch-decode-execute cycle only require you to describe the steps rather than explain how the registers and buses are used during each step"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Explain how an instruction is fetched using Von Neumann architecture** **\n\n**[6]**\n\n**Answer**\n\n- ** The Program Counter (PC) holds the  address/location of the next instruction to be fetched [1]**\n- **The address held in the PC is sent to the Memory Address Register (MAR) [1]**\n- **The memory address is sent using the address bus [1]**\n- **The Program Counter is incremented [1]**\n- **The instruction is sent from the address in memory to the Memory Data Register (MDR) [1]**\n- **The instruction is transferred using the data bus [1]**\n- **The instruction is sent to the Current Instruction Register (CIR) [1]**"
+  }
+ ]
+}

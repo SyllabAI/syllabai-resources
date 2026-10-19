@@ -1,0 +1,359 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_PCkPhjMdRP5h6WPs",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/critical-path-analysis/critical-path-analysis/critical-paths",
+ "title": "Critical Paths",
+ "page_title": "Critical Paths | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "critical-path-analysis",
+   "critical-path-analysis",
+   "critical-paths"
+  ],
+  "section": "critical-path-analysis",
+  "topic": "critical-path-analysis",
+  "leaf": "critical-paths"
+ },
+ "titles": {
+  "section": "Critical Path Analysis",
+  "topic": "Critical Path Analysis",
+  "subtopic": "Critical Paths"
+ },
+ "updated_at": "2026-07-02T08:19:38.467Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_HKKqTh4c83HbRhck",
+  "spcpt_dhRm2dQ87WyZp6J8",
+  "spcpt_Xhz9tPKq3b3J9HWM",
+  "spcpt_fN2rrfqvt7NDGwsB",
+  "spcpt_kdsfyGCHBSPwhMQK"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "0+5=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "0 plus 5 equals 5"
+  },
+  {
+   "latex": "5+7=12",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "5 plus 7 equals 12"
+  },
+  {
+   "latex": "23-5=18",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>23</mn><mo>-</mo><mn>5</mn><mo>=</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "23 minus 5 equals 18"
+  },
+  {
+   "latex": "18-4=14",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>18</mn><mo>-</mo><mn>4</mn><mo>=</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "18 minus 4 equals 14"
+  },
+  {
+   "latex": "e_{i}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>e</mi><mi>i</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "e subscript i"
+  },
+  {
+   "latex": "i",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>i</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "i"
+  },
+  {
+   "latex": "l_{j}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>l</mi><mi>j</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "l subscript j"
+  },
+  {
+   "latex": "j",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>j</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "j"
+  }
+ ],
+ "stats": {
+  "blocks": 49,
+  "figures": 7,
+  "worked_examples": 4,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 8
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_HKKqTh4c83HbRhck",
+   "name": "Introduction to Critical Path Analysis",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Critical Path Analysis"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is critical path analysis?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Critical path analysis** (CPA) is the use of an **activity network** for a **project** that determines\n\n  - The **minimum duration** of the entire project\n  - The **critical activities**\n  \n    - These are the activities that **must** start and finish at the **earliest** possible time so that the project can be completed in its **minimum duration**\n  - The **critical path**\n  \n    - The path from the **source** node to the **sink** node that encompasses all the **critical activities**\n    - In harder problems there may be more than one critical path\n  - Any possible delay to starting non-critical activities\n  \n    - The **total float** of an activity is the time it can be delayed by as to not affect the minimum project duration"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_dhRm2dQ87WyZp6J8",
+   "name": "Earliest Event Times",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Earliest Event Times"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are earliest (or early) event times?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **earliest event time** is the **earliest** time at which an activity can commence from its **starting event**\n\n  - This will determine the **minimum project duration**\n- On an **activity network,** each **event (node)** will have **two boxes** that require completing\n\n  - Sometimes the boxes will **replace** the circled event (node) number\n  - Sometimes the boxes will be drawn **next** to the circled event (node) number\n  - The top box will be the **earliest event time**\n  - The bottom box is for the latest event time (see the next section of this revision note)\n  \n    - The **earliest event times** must be completed **before** the latest event times"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/2_DzVcY4_early-event-3.png",
+   "file": "assets/8ec0ff67a781-2-dzvcy4-early-event-3.png",
+   "alt": "Early event time is the top box",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I work out early event times?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Starting at the **source node,** this will be 0\n\n  - This is the starting point of the project, i.e. time zero\n- **Working forwards** from the **source node**, look at each of the **activities** (arcs) leading **to** an **event **(node)\n\n  - For **each preceding activity **of an event (node)\n  \n    - Add the **early event time** from that activity's** start node** to its **duration**\n  - The **earliest event time** is then the **maximum** of these times\n  \n    - This is the **earliest time** an **event** can be moved on from"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/early-event-1.png",
+   "file": "assets/171afc65088a-early-event-1.png",
+   "alt": "Example of finding an early event time",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/c8n55TZn_early-event-2.png",
+   "file": "assets/6d56c511755d-c8n55tzn-early-event-2.png",
+   "alt": "c8n55TZn_early-event-2",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Completing the **earliest event times** is sometimes referred to as a **forwards pass** (through the activity network)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- An **'early** event time' is the **'latest** time' leading to a node !\n- Ensure you check all arcs leading to a node\n\n  - Be particularly careful with dummies (they still count) as these are unlabelled with a duration of 0"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Complete the early event times for the activity network given below.\n\n![lGnLwJMn_early-event-we-qu](assets/a985fc171b8c-lgnlwjmn-early-event-we-qu.png)\n\n**Answer:**\n\n> *Early event times go in the top box at each node*\n\n> *Three of the earliest times are completed, so we just need to work along the top of the diagram*\n\n> *Start at the source node with early event time 0*\n*Only activity A leads to the event (node) at the end of activity A*\n\n$0+5=5$\n\n> *Similarly for activity C*\n*(The earliest event time at the start of C is 5)*\n\n$5+7=12$\n\n> *A dummy activity has a duration of 0, so the early event time at the end of the after C will also be 12*\n\n> *Activities G and H lead to the same event*\n\n`table row cell 12 plus 6 end cell equals 18 row cell 12 plus 4 end cell equals 16 end table`\n\n`Maximum space open parentheses 18 comma space 16 close parentheses space equals space 18`\n\n> *Finally both activities I and J lead to the sink node*\n\n`table row cell 18 plus 5 end cell equals 23 row cell 14 plus 4 end cell equals 18 end table`\n\n`Maximum space open parentheses 23 comma space 18 close parentheses equals 23`\n\n> *Complete the early event times on the network*\n\n![tEqV_hoc_early-event-we-ans](assets/5c15b2c95006-teqv-hoc-early-event-we-ans.png)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Xhz9tPKq3b3J9HWM",
+   "name": "Latest Event Times",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Latest Event Times"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are latest (or late) event times?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **latest event time** is the **latest time** at which an activity can commence from its **starting event**\n\n  - without affecting the **minimum project duration**\n- On an **activity network,** each **event/node** will have **two boxes** that require completing\n\n  - Sometimes the boxes will **replace** the circled event/node number\n  - Sometimes the boxes will be drawn near to the circled event/node number\n  - The bottom box will be the **latest event time**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/late-event-3.png",
+   "file": "assets/f685db90b8ae-late-event-3.png",
+   "alt": "The late event time is the bottom box",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The top box is for the earliest event time (see the previous section of this revision note)\n\n  - The earliest event times must have been completed **before** the latest event times"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I work out late event times?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Starting at the **sink node,** this will be the same as the early event time\n\n  - This is the **minimum duration** of the **project**\n  \n    - I.e. The shortest time in which **all activities** can be completed\n- **Working backwards** from the **sink node,** look at each of the **activities** (arcs) leading* ***back** to an event (node)\n\n  - For **each activity after **an event (node)\n  \n    - **Subtract **that activity's** duration** from the latest event time at its **end node**\n  - The **latest event time** is then the **minimum** of these times\n  \n    - This is the **latest time** an **event** can be moved on from such that **all activities** can be completed in the **minimum duration** of the project"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/4jRVsx1T_late-event-1.png",
+   "file": "assets/c94e2632ae6c-4jrvsx1t-late-event-1.png",
+   "alt": "4jRVsx1T_late-event-1",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/11/late-event-2.png",
+   "file": "assets/a88536cdea67-late-event-2.png",
+   "alt": "Example of finding a late event time",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Completing the **latest event times** is sometimes referred to as a **backwards pass** (through the activity network)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Complete the late event times for the activity network given below.\n\n![late-event-we-qu](assets/842905a92b90-late-event-we-qu.png)\n\n**Answer:**\n\n> *Late event times go in the bottom box at each node*\n\n> *Three of the latest times are completed, so we just need to work along the top of the diagram*\n\n> *Start at the sink node*\n*Its latest time will be the same as its earliest time, 23*\n\n> *Only activity I leads back to the event/node at the start of activity I*\n\n$23-5=18$\n\n> *Similarly for activity H*\n*(The latest event time at the end of H is 18)*\n\n$18-4=14$\n\n> *Activities G and a dummy lead back to an event*\n\n`table row cell 18 minus 6 end cell equals 12 row cell 14 minus 0 end cell equals 14 end table`\n\n`Minimum space open parentheses 12 comma space 14 close parentheses space equals space 12`\n\n> *Activities C and a dummy lead back to an event*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 12 minus 7 end cell equals 5 row cell 12 minus 0 end cell equals 12 end table`\n\n`Minimum space open parentheses 5 comma space 12 close parentheses equals 5`\n\n> *Finally the source node*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 minus 5 end cell equals 0 row cell 9 minus 4 end cell equals 5 end table`\n\n`Minimum space open parentheses 0 comma space 5 close parentheses equals 0`\n\n> *Complete the late event times on the network*\n\n![lP~kulMC_late-event-we-ans](assets/8efb72ed5c4e-lp-kulmc-late-event-we-ans.png)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_fN2rrfqvt7NDGwsB",
+   "name": "Total Float of an Activity",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Total Float of an Activity"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the total float of an activity?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **total float** of an activity is the time the start of an activity can be delayed\n\n  - without **affecting** the **minimum project duration**\n- ***Critical activities*** will have zero float"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I work out the total float of an activity?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For **non-critical** activ**i**ties the total float can be calculated\n\n  - Consider the earliest time it can commence and the latest time it can finish\n- In words"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/4_DMrEQn_total-float.png",
+   "file": "assets/46c1dce8bf1b-4-dmreqn-total-float.png",
+   "alt": "Total float = Late end event time - Early start event time - Activity duration",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Formally, you may see this written as\n\n  - The total float, `F open parentheses i comma space j close parentheses`, of activity `open parentheses i comma space j close parentheses`, is defined to be `F open parentheses i comma space j close parentheses equals l subscript j minus e subscript i minus duration open parentheses i comma space j close parentheses`\n  \n    - where $e_{i}$ is the earliest time for event $i$ and $l_{j}$ is the latest time for event $j$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Do not be put off by the word **'total'**\n\n  - The **total float** of an activity is one value for one activity!"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- In many cases, the total float can just be 'seen' or thought about by considering the activity network\n\n  - Where things are complicated or busy, it is best to think about the formal way of calculating them"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The activity network below shows the duration of activities A-J and the early and late times at each event.\n\n![float-and-finding-cpa-we-qu](assets/763b62fdec30-float-and-finding-cpa-we-qu.png)\n\nFind the total float for activities B, D, E, F and J.\n\n**Answer:**\n\n> *For activity B, the late event time at its end node is 9, the early event time at its start node is 0, its duration is 4*\n\n*Total float of B = 9 - 0 - 4 = 5*\n\n> *Activity D has late event time 12 at its end node, early event time 4 at its start node and duration 3*\n\n*Total float of D = 12 - 4 - 3 = 5*\n\n> *Similarly for activities E, F and J*\n\n*Total float of E = 19 - 7 - 7 = 5*\n\n*Total float of F = 19 - 4 - 6 = 9*\n\n*Total float of J = 23 - 14 - 4 = 5*\n\n**Final answer:** **The total floats are B:5, D:5, E:5, F:9, J:5**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kdsfyGCHBSPwhMQK",
+   "name": "Critical Path & Critical Activities",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Critical Path & Critical Activities"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the critical activities?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Critical activities**\n\n  - have a **total float** of zero\n  - must commence at their **earliest event time** in order for the **minimum project duration** to be achieved\n- A **critical event** is an event where the **earliest start time is equal to the latest finish time**\n- To find the **critical activities** look for the **critical events**\n\n  - If an **activity is critical** then the start and finish events **must** be critical\n  - However the converse is **not true**\n  \n    - It is possible for a **non-critical activity** to be between **two critical events **\n- Critical activities should be stated as a list\n\n  - E.g.  the critical activities are A, C, D and G"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a critical path?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **critical path** through an activity network runs from the **source node** to the **sink node**\n\n  - The activities along the path have a **total float** of zero\n  - Each activity in a critical path will be **critical**\n- The critical path would be given in terms of the activities/arcs along the path\n\n  - E.g. a critical path encompassing activities A, C, E, F and G would be written A - C - E - F - G\n- It is possible that there is **more than one** critical path through an activity network\n\n  - E.g. A-C-D-G and A-C-E-F-G could both be critical paths\n  \n    - In this case the critical activities would be A, C, D, E, F, G"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the minimum project duration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **minimum project duration** is the **quickest** time in which **all** activities in a project can be **completed**\n- It is found by completing the **early event times** for each node in an activity network\n\n  - The early event time for the sink node is the **minimum project duration**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Be clear about the difference between **critical path** and **critical activities**\n\n  - Practically, these are found at the same time when analysing an activity network\n  - Make sure you write both as would be expected\n  \n    - The critical path is a **sequence** of activities (sometimes written with '-' in between each)\n    e.g.  A - B - D - F - G\n    - Critical activities would be a **list,** with a comma between each activity\n    E.g.  A, B, D, F, G\n- Some problems may state that all activities have the same duration (without specify how long)\n\n  - The critical path and critical activities can then be found by looking for the path from source node to sink node that has the fewest edges\n  - Alternatively, pick any number (>0) for the duration of every activity and proceed as usual\n  \n    - 1 is the most obvious choice of duration\n    - This method would take far longer"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The activity network below shows the duration (in days) of the activities needed to complete a project and the early and late times for each event.\n\n![float-and-finding-cpa-we-qu](assets/763b62fdec30-float-and-finding-cpa-we-qu.png)\n\nFind the critical path, the critical activities and state the minimum project duration.\n\n**Answer:**\n\n> *Start by looking at the nodes where the early and late event times are equal*\n\n*Possible critical activities are A, C, G, I*\n\n> *Determine whether these activities have a total float of zero*\n\n*Total float of A = 5 - 0 - 5 = 0*\n*Total float of C = 12 - 5 - 7 = 0*\n*Total float of G = 18 - 12 - 6 = 0*\n*Total float of I = 23 - 18 - 5 = 0*\n\n**Final answer:** **Critical path is A-C-G-I**\n\n> *The critical activities are those that have a float of zero and lie along the critical path*\n\n**Final answer:** **Critical activities are A, C, G and I**\n\n> *The minimum project duration is the early (and late) event time at the sink node*\n\n**Final answer:** **Minimum project duration is 23 days**"
+  }
+ ]
+}

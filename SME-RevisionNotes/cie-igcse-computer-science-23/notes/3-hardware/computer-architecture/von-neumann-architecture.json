@@ -1,0 +1,171 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_F2WzJFdxKvCD4YRm",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/computer-architecture/von-neumann-architecture",
+ "title": "Von Neumann Architecture",
+ "page_title": "Von Neumann - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "3-hardware",
+   "computer-architecture",
+   "von-neumann-architecture"
+  ],
+  "section": "3-hardware",
+  "topic": "computer-architecture",
+  "leaf": "von-neumann-architecture"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Computer Architecture",
+  "subtopic": "Von Neumann Architecture"
+ },
+ "updated_at": "2025-11-28T06:08:34.389Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_5M6QcjK4xvy9R62Y"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 22,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 4,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_5M6QcjK4xvy9R62Y",
+   "name": "Von Neumann Architecture",
+   "definition": "\"2 (a) Understand the purpose of the components\nin a CPU, in a computer that has a\nVon Neumann architecture\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Von Neumann Architecture"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the Von Neumann architecture?"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Cambridge IGCSE 0478 regularly tests your ability to describe the purpose of CPU components and registers in the Von Neumann architecture. Every explanation on this page is written in the format examiners expect—no waffle, no brand names, just mark-ready definitions."
+  },
+  {
+   "type": "bullets",
+   "md": "- The Von Neumann Architecture is a design of the CPU which was proposed by Mathematician John Von Neumann in the 1940s, which most general-purpose computers are built upon\n- The Von Neumann Architecture outlines how the computer memory, input/output devices and processor all work together"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/06/von-neumann-architecture.png",
+   "file": "assets/4636334e5658-von-neumann-architecture.png",
+   "alt": "The Von-Neumann-architecture",
+   "caption": "The Von-Neumann architecture"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Von Neumann architecture consists of:\n\n  - **Control unit (CU)**\n  - **Arithmetic logic unit (ALU)**\n  - **Registers**\n  - **Buses**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the function of each component?"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Arithmetic logic unit (ALU)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Performs ***arithmetic*** operations\n- Performs ***logical*** decisions\n\n  - IF X > 5 THEN\n        DO ………."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Control unit (CU)"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Coordinates how data moves around the CPU** by sending a signal to control the movement of the data\n- **Decodes the instructions** fetched from memory"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Registers"
+  },
+  {
+   "type": "bullets",
+   "md": "- Extremely **small**, extremely **fast memory **located **in the CPU**\n- Hold small amounts of data **needed as part of the fetch-execute cycle**\n- Each register has its own specific purpose\n- It consists of 5 main registers\n\n  - **The Program Counter (PC)**\n  - **The Memory Address Register (MAR)**\n  - **The Memory Data Register (MDR)**\n  - **The Accumulator (ACC)**\n  - **Current Instruction Register (CIR)**\n- For each of the registers you must know\n\n  - **The name of the register**\n  - **Its acronym**\n  - **The purpose of the register**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*When describing registers like the ****PC****, ****MAR****, or ****MDR****, don’t just name what they “store”, you must also explain ****why**** they store it and ****how it’s used in the fetch-execute cycle****. The how is where marks are gained or lost.*"
+  },
+  {
+   "type": "table",
+   "md": "| **Name** | Acronym | **Purpose** |\n|---|---|---|\n| **Program Counter ** | **PC** | - **Holds the** **memory address** of the **next instructions** to be executed<br>- **Increments** **by 1 **as the fetch-decode-execute cycle runs |\n| **Memory Address  Register** | **MAR** | - **Holds the memory address** of where data or instructions are **to be fetched from** **memory** |\n| **Memory Data Register** | **MDR** | - **Stores the data or instruction** which has been fetched from memory |\n| **Current Instruction Register** | **CIR** | - **Stores the instruction** the CPU is currently decoding or executing |\n| **Accumulator** | **ACC** | - **Stores the** **results** of any calculations that have taken place in the Arithmetic Logic Unit (ALU) |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*To earn both marks for a register question, use this structure:*\n\n*“[****Register****] holds [****what****], which is used to [****why/how it's used****].”*\n\n*Example: “The MAR holds the memory address of data to be fetched, which is sent via the address bus.”*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Buses"
+  },
+  {
+   "type": "bullets",
+   "md": "- Components within the CPU and wider computer system are connected by buses\n- A bus is **a set of parallel wires **through which **data/signals are transmitted** from one component to another\n- There are 3 types of bus:\n\n  - **Address **- ***unidirectional***, carries **location data** (addresses), data is written to/read from\n  - **Data **- ***bidirectional***, carries** data or instructions**\n  - **Control **- bidirectional, carries **commands **and **control signals** to tell components when they should be receiving reads or writes etc.**.**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/05/3-1-computer-architecture--von-neumann-architecture-1.png",
+   "file": "assets/e6607eb2bc67-3-1-computer-architecture-von-neumann-architectu.png",
+   "alt": "3-1-computer-architecture--von-neumann-architecture-1",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Students often confuse the ****data**** and ****address**** bus. Remember: the ****address bus**** only carries memory locations (it’s ****unidirectional****), while the ****data bus**** carries actual data or instructions (it’s ****bidirectional****).*"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Describe the role of the control unit, the control bus, the data bus and the address bus when fetching an instruction from memory **[4]**\n\n**Answer**\n\n- **The address of memory (holding instruction) is placed on the address bus ****(1)**\n- **The control unit sends a signal ****(1)**** on the control bus (to start a read operation)**** (1)**\n- **The instruction is/the contents of the memory are placed on the data bus ****(1)**"
+  }
+ ]
+}

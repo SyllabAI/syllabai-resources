@@ -1,0 +1,132 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_KvgDr7ZcS3T8MDBW",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/data-storage/virtual-memory",
+ "title": "Virtual Memory",
+ "page_title": "What is Virtual Memory - IGCSE Computer Science Revision",
+ "path": {
+  "segs": [
+   "3-hardware",
+   "data-storage",
+   "virtual-memory"
+  ],
+  "section": "3-hardware",
+  "topic": "data-storage",
+  "leaf": "virtual-memory"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Data Storage",
+  "subtopic": "Virtual Memory"
+ },
+ "updated_at": "2025-05-07T13:46:47.347Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_TtfQMfsCwkfdcYrC"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 13,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 2,
+  "case_studies": 1,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_TtfQMfsCwkfdcYrC",
+   "name": "Virtual Memory",
+   "definition": "\"4 Describe what is meant by virtual memory, how\nit is created and used and why it is necessary\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Virtual Memory"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is virtual memory?"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Cambridge IGCSE 0478 requires you to explain ****what virtual memory is****, ****when it is used****, and ****how it affects performance****. This page is written using the structure and phrasing examiners expect in 2–4 mark answers.*"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/09/39027_2024-09-05-0mu-kleki.png",
+   "file": "assets/2c58c3f40dd3-39027-2024-09-05-0mu-kleki.png",
+   "alt": "Diagram illustrating the transfer of pages between RAM and virtual memory within the secondary storage system.",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- Virtual memory is an **extension of primary storage** (RAM) located on **secondary storage**\n- In situations where RAM is close to being **full**, virtual memory can be used so that the computer **remains operational**\n- Programs and data **not currently** being **executed **are transferred to virtual memory\n- Programs and data are transferred back to RAM when they **are needed**\n- Programs are stored as **pages of data**\n- **Pages** of data are **transferred** between RAM and virtual memory when needed\n- Virtual memory is much **slower **than RAM and its use will impact negatively on system performance\n- To avoid the use of virtual memory, **increase** the size of the** RAM**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Virtual memory does ****not increase the actual size of RAM****. It creates ****temporary space**** on secondary storage. It makes the system usable, ****not faster****.*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/screenshot-2024-04-15-at-13-55-40.png",
+   "file": "assets/4d09ebad59c6-screenshot-2024-04-15-at-13-55-40.png",
+   "alt": "Comparison of RAM and Virtual Memory",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- In the example above, the computer is turned on and the elements of the operating system are loaded into RAM\n- The user opens some spreadsheet and video editing software but RAM is full\n- The program not currently being used (video editing) is transferred to virtual memory\n- When the user wants to use the video editing software again, it is transferred back from virtual memory to RAM"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/screenshot-2024-04-15-at-13-55-50.png",
+   "file": "assets/e049db3a6969-screenshot-2024-04-15-at-13-55-50.png",
+   "alt": "Comparison of Ram and Virtual Memory when swapping out software in RAM",
+   "caption": ""
+  },
+  {
+   "type": "callout",
+   "variant": "case-study",
+   "label": "Case Study",
+   "md": "A student uses software to create 3D models.\n\n- 3D modelling often means processing large amounts of data\n- This takes up a large amount of RAM\n- If there is not enough physical RAM, virtual memory is used to:\n\n  - Extend the RAMs capacity\n  - Ensure the software does not freeze/crash when RAM gets full"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A computer only has 4GB of RAM, Fynn says that virtual memory can be used instead of adding more RAM.\n\n1. Explain how virtual memory can compensate for the lack of RAM in Fynn's computer **[3]**\n2. Explain why it would be beneficial for Fynn to get more RAM instead of relying on virtual memory **[2]**\n\n**How to answer these questions**\n\n1. What is the definition of virtual memory? how does it work?\n2. What is the downside of using virtual memory? turn this into an advantage of adding more RAM\n\n**Answers**\n\n- How can Virtual Memory compensate\n\n  - Virtual Memory is used when RAM is full\n  - ...part of the secondary storage used as (temporary) RAM\n  - Data from RAM is moved to the secondary storage/Virtual Memory (to make space in RAM)\n  - RAM can then be filled with new data\n  - When data in Virtual Memory is needed it is moved back to RAM\n- Benefit of more RAM\n\n  - More RAM will improve the performance of the computer // More RAM will speed up the access to data\n  - Virtual Memory is slower to access than RAM direct (because it has to go back to RAM first)\n  - Moving data between RAM and VM takes processor time"
+  }
+ ]
+}

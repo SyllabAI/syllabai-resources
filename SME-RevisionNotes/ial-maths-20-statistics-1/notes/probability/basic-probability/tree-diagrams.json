@@ -1,0 +1,158 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_mt8kzQ7zG2wk5pNX",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/probability/basic-probability/tree-diagrams",
+ "title": "Tree Diagrams",
+ "page_title": "Tree Diagrams | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "probability",
+   "basic-probability",
+   "tree-diagrams"
+  ],
+  "section": "probability",
+  "topic": "basic-probability",
+  "leaf": "tree-diagrams"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Basic Probability",
+  "subtopic": "Tree Diagrams"
+ },
+ "updated_at": "2026-07-02T08:19:38.206Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_SRbWmwT46sTjKXNH",
+   "rnl_pVkkVgwX33THMSVY",
+   "rnl_w93RD8mHm5PkDxBQ"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Q9VkVVBtSYX8n8rN"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "notA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mi mathvariant=\"bold-italic\">o</mi><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold italic o bold italic t bold space bold italic A"
+  },
+  {
+   "latex": "1-P(A)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "1 minus straight P left parenthesis A right parenthesis"
+  },
+  {
+   "latex": "P(A\\mathrm{AND}B)=P(A)\\timesP(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo> </mo><mi mathvariant=\"bold\">AND</mi><mo mathvariant=\"bold\"> </mo><mi>B</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>×</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A space bold AND bold space B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "P(ABOR\"notA\"\"notB\")=P(AB)+P(\"notA\"\"notB\")",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mi>B</mi><mo> </mo><mi>O</mi><mi>R</mi><mo> </mo><mo>\"</mo><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>A</mi><mo>\"</mo><mo>\"</mo><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>B</mi><mo>\"</mo><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo><mo>+</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>\"</mo><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>A</mi><mo>\"</mo><mo>\"</mo><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>B</mi><mo>\"</mo><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A B space O R space \" n o t space A \" \" n o t space B \" right parenthesis equals straight P left parenthesis A B right parenthesis plus straight P left parenthesis \" n o t space A \" \" n o t space B \" right parenthesis"
+  },
+  {
+   "latex": "AB,\"notA\"\"notB\"",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">A</mi><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">,</mo><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">\"</mo><mi mathsize=\"16px\">n</mi><mi mathsize=\"16px\">o</mi><mi mathsize=\"16px\">t</mi><mo mathsize=\"16px\"> </mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">\"</mo><mo mathsize=\"16px\">\"</mo><mi mathsize=\"16px\">n</mi><mi mathsize=\"16px\">o</mi><mi mathsize=\"16px\">t</mi><mo mathsize=\"16px\"> </mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">\"</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A B comma space \" n o t space A \" \" n o t space B \""
+  },
+  {
+   "latex": "P(\\mathrm{not}A)=1-P(A)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>not</mi><mo> </mo><mi>A</mi><mo mathvariant=\"italic\">)</mo><mo mathvariant=\"italic\">=</mo><mn>1</mn><mo mathvariant=\"italic\">-</mo><mi>P</mi><mo mathvariant=\"italic\">(</mo><mi>A</mi><mo mathvariant=\"italic\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis not space A italic right parenthesis italic equals 1 italic minus P italic left parenthesis A italic right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 6
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Q9VkVVBtSYX8n8rN",
+   "name": "Tree Diagrams",
+   "definition": null,
+   "video_id": "833950919"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Tree diagrams"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a tree diagram?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **tree** **diagram** is used to\n\n  - show the (combined) ***outcomes***** **of more than one ***event***** **that happen one after the other\n  - help calculate probabilities when **AND** and/or **OR**’s are involved\n- **Tree** **diagrams** are mostly used when there are only two **mutually** **exclusive** **outcomes** of interest\n\n  - e.g. “*Rolling a 6 on a die*” and “*Not rolling a 6 on a die*”\n- More than three outcomes per event can be shown on a tree diagram but they soon become difficult to draw and so lose their effectiveness\n- **Tree** **diagrams** are very helpful when **probabilities** for a second event change **depending** on the first event"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I draw and label a tree diagram?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-3-fig1-tree-setup.png",
+   "file": "assets/4900e216dd4d-3-1-3-fig1-tree-setup.png",
+   "alt": "3-1-3-fig1-tree-setup",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In the second experiment, P(*B*)  may be different on the top set of branches than the bottom set\n\n  - this is because the top set of branches follow on from **event A** but the bottom set of branches follow on from **event “**$notA$ **”**\n  - e.g.     This is most commonly seen in drawing one item at random, not replacing it, then drawing another\n- Sometimes a second branch may not be needed following a first event\n\n  - e.g.     In aiming to pass a test (***experiment***) the event **fail **on the first attempt would require a second attempt but the event **pass** on the first attempt would not"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-3-fig2-pass-fail-tree.png",
+   "file": "assets/6206be59fe43-3-1-3-fig2-pass-fail-tree.png",
+   "alt": "3-1-3-fig2-pass-fail-tree",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find probabilities from tree diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Interpret questions in terms of **AND** and/or **OR** (See 1 Basic Probability)\n- Draw, or complete a given, tree diagram Determine any **missing** probabilities; often using $1-P(A)$ and considering if probabilities change depending on the outcome from the 1<sup>st</sup> experiment\n- Write down the (final) outcome of the combined events and work out their probabilities – these are **AND** statements $P(A\\mathrm{AND}B)=P(A)\\timesP(B)$                                *(“Multiply along branches”)*\n\n  - Do not simplify fractions yet – it’ll be easier to calculate with them later\n  \n    - you can of course use your calculator\n- If more than one (final) outcome is required to answer a question then add their probabilities – these are **OR** statements $P(ABOR\"notA\"\"notB\")=P(AB)+P(\"notA\"\"notB\")$    *(“Add outcomes”)*\n\n  - This applies since all the (final) outcomes are **mutually** **exclusive**\n  - Note that $AB,\"notA\"\"notB\"$ are implied **AND** statements (for example *AB* means  *A* and *B*)\n- When you are confident with tree diagrams you can just pull out the (final) outcome(s) you need to answer a question rather than routinely list all of them"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A contestant on a game show has three attempts to hit a target in a shooting game. They have a maximum of three attempts to hit the target in order to win the star prize – a speedboat.  If they do not hit the target within three attempts, they do not win anything.\n\nThe probability of them hitting the target first time is 0.2.  With each successive attempt the probability of them failing to hit the target is halved.\n\nFind the probability that a contestant wins the star prize of a speedboat.\n\n**Answer:**\n\n![3-1-3-fig3-we-solution](assets/79fe4964c2d0-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- It can be tricky to get a tree diagram looking neat and clear first attempt – it can be worth drawing a rough one first, especially if there are more than two outcomes or more than two events; do keep an eye on the exam clock though!\n- Always worth another mention – tree diagrams make particularly frequent use of the result $P(\\mathrm{not}A)=1-P(A)$\n- Tree diagrams have built-in checks\n\n  - the probabilities for each pair of branches should add up to 1\n  - the probabilities for each outcome of combined events should add up to 1"
+  }
+ ]
+}

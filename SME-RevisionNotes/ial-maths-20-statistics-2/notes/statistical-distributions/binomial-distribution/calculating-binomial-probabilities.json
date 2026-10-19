@@ -1,0 +1,306 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_yZfZgdKGYGCYJjjv",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/binomial-distribution/calculating-binomial-probabilities",
+ "title": "Calculating Binomial Probabilities",
+ "page_title": "Calculating Binomial Probabilities | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "binomial-distribution",
+   "calculating-binomial-probabilities"
+  ],
+  "section": "statistical-distributions",
+  "topic": "binomial-distribution",
+  "leaf": "calculating-binomial-probabilities"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Binomial Distribution",
+  "subtopic": "Calculating Binomial Probabilities"
+ },
+ "updated_at": "2026-07-02T08:19:38.617Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_946spf6kFdytWskY"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "p"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "p"
+  },
+  {
+   "latex": "X+Y=n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X plus Y equals n"
+  },
+  {
+   "latex": "P(X=k)=P(Y=n-k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Y</mi><mo>=</mo><mi>n</mi><mo>-</mo><mi>k</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X equals k right parenthesis equals straight P left parenthesis Y equals n minus k right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leqk)=P(Y\\geqn-k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Y</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">n</mi><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than k right parenthesis equals straight P left parenthesis Y greater or equal than n minus k right parenthesis"
+  },
+  {
+   "latex": "P(X\\geqk)=P(Y\\leqn-k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Y</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">n</mi><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater or equal than k right parenthesis equals straight P left parenthesis Y less or equal than n minus k right parenthesis"
+  },
+  {
+   "latex": "P(X=k)=P(X\\leqk)-P(X\\leqk-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">≤</mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">≤</mo><mi mathvariant=\"bold-italic\">k</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold P bold left parenthesis bold italic X bold equals bold italic k bold right parenthesis bold equals bold P bold left parenthesis bold italic X bold less or equal than bold italic k bold right parenthesis bold minus bold P bold left parenthesis bold italic X bold less or equal than bold italic k bold minus bold 1 bold right parenthesis"
+  },
+  {
+   "latex": "P(X\\leqx)=P(Y\\geqn-x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≥</mo><mi>n</mi><mo>-</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less or equal than x right parenthesis equals P left parenthesis Y greater or equal than n minus x right parenthesis"
+  },
+  {
+   "latex": "X\\geqx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>X</mi><mo>≥</mo><mi>x</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X greater or equal than x"
+  },
+  {
+   "latex": "P(X\\geqx)=1-P(X<x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater or equal than x right parenthesis equals 1 minus P left parenthesis X less than x right parenthesis"
+  },
+  {
+   "latex": "P(X<x)=P(X\\leqx-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less than x right parenthesis equals P left parenthesis X less or equal than x minus 1 right parenthesis"
+  },
+  {
+   "latex": "P(X\\geqx)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater or equal than x right parenthesis"
+  },
+  {
+   "latex": "P(X\\geqx)=1-P(X\\leqx-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">≥</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">≤</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold P bold left parenthesis bold italic X bold greater or equal than bold italic x bold right parenthesis bold equals bold 1 bold minus bold P bold left parenthesis bold italic X bold less or equal than bold italic x bold minus bold 1 bold right parenthesis"
+  },
+  {
+   "latex": "P(X\\geq10)=1-P(X\\leq9)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>9</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater or equal than 10 right parenthesis equals 1 minus P left parenthesis X less or equal than 9 right parenthesis"
+  },
+  {
+   "latex": "a\\leqX\\leqb",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a less or equal than X less or equal than b"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)=P(X\\leqb)-P(X<a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis a less or equal than X less or equal than b right parenthesis equals P left parenthesis X less or equal than b right parenthesis minus P left parenthesis X less than a right parenthesis"
+  },
+  {
+   "latex": "P(X<a)=P(X\\leqa-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">a</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">a</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less than a right parenthesis equals P left parenthesis X less or equal than a minus 1 right parenthesis"
+  },
+  {
+   "latex": "P(X=x)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X equals x right parenthesis equals 0"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis a less or equal than X less or equal than b right parenthesis"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)=P(X\\leqb)-P(X\\leqa-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\" mathsize=\"16px\">P</mi><mo mathvariant=\"bold\" mathsize=\"16px\">(</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">a</mi><mo mathvariant=\"bold\" mathsize=\"16px\">≤</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">X</mi><mo mathvariant=\"bold\" mathsize=\"16px\">≤</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">b</mi><mo mathvariant=\"bold\" mathsize=\"16px\">)</mo><mo mathvariant=\"bold\" mathsize=\"16px\">=</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">P</mi><mo mathvariant=\"bold\" mathsize=\"16px\">(</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">X</mi><mo mathvariant=\"bold\" mathsize=\"16px\">≤</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">b</mi><mo mathvariant=\"bold\" mathsize=\"16px\">)</mo><mo mathvariant=\"bold\" mathsize=\"16px\">-</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">P</mi><mo mathvariant=\"bold\" mathsize=\"16px\">(</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">X</mi><mo mathvariant=\"bold\" mathsize=\"16px\">≤</mo><mi mathvariant=\"bold-italic\" mathsize=\"16px\">a</mi><mo mathvariant=\"bold\" mathsize=\"16px\">-</mo><mn mathvariant=\"bold\" mathsize=\"16px\">1</mn><mo mathvariant=\"bold\" mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic P bold left parenthesis bold italic a bold less or equal than bold italic X bold less or equal than bold italic b bold right parenthesis bold equals bold italic P bold left parenthesis bold italic X bold less or equal than bold italic b bold right parenthesis bold minus bold italic P bold left parenthesis bold italic X bold less or equal than bold italic a bold minus bold 1 bold right parenthesis"
+  },
+  {
+   "latex": "P(4\\leqX\\leq9)=P(X\\leq9)-P(X\\leq3)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mn mathsize=\"16px\">4</mn><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mn mathsize=\"16px\">9</mn><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mn mathsize=\"16px\">9</mn><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mn mathsize=\"16px\">3</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis 4 less or equal than X less or equal than 9 right parenthesis equals P left parenthesis X less or equal than 9 right parenthesis minus P left parenthesis X less or equal than 3 right parenthesis"
+  },
+  {
+   "latex": "P(X<x)=P(X\\leqx-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">&lt;</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">≤</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold P bold left parenthesis bold italic X bold less than bold italic x bold right parenthesis bold equals bold P bold left parenthesis bold italic X bold less or equal than bold italic x bold minus bold 1 bold right parenthesis"
+  },
+  {
+   "latex": "P(X>x)=P(X\\geqx+1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\" mathsize=\"16px\">P</mi><mo mathvariant=\"bold\" mathsize=\"16px\">(</mo><mi mathvariant=\"bold\" mathsize=\"16px\">X</mi><mo mathvariant=\"bold\" mathsize=\"16px\">&gt;</mo><mi mathvariant=\"bold\" mathsize=\"16px\">x</mi><mo mathvariant=\"bold\" mathsize=\"16px\">)</mo><mo mathvariant=\"bold\" mathsize=\"16px\">=</mo><mi mathvariant=\"bold\" mathsize=\"16px\">P</mi><mo mathvariant=\"bold\" mathsize=\"16px\">(</mo><mi mathvariant=\"bold\" mathsize=\"16px\">X</mi><mo mathvariant=\"bold\" mathsize=\"16px\">≥</mo><mi mathvariant=\"bold\" mathsize=\"16px\">x</mi><mo mathvariant=\"bold\" mathsize=\"16px\">+</mo><mn mathvariant=\"bold\" mathsize=\"16px\">1</mn><mo mathvariant=\"bold\" mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold P bold left parenthesis bold X bold greater than bold x bold right parenthesis bold equals bold P bold left parenthesis bold X bold greater or equal than bold x bold plus bold 1 bold right parenthesis"
+  },
+  {
+   "latex": "P(X<5)=P(X\\leq4)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mn mathsize=\"16px\">4</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than 5 right parenthesis equals straight P left parenthesis X less or equal than 4 right parenthesis"
+  },
+  {
+   "latex": "P(X>5)=P(X\\geq6)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mn mathsize=\"16px\">6</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater than 5 right parenthesis equals P left parenthesis X greater or equal than 6 right parenthesis"
+  },
+  {
+   "latex": "P(4<X\\leq10)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>4</mn><mo>&lt;</mo><mi>X</mi><mo>≤</mo><mn>10</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 4 less than X less or equal than 10 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leq10)-P(X\\leq4)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>10</mn><mo>)</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>4</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less or equal than 10 right parenthesis minus P left parenthesis X less or equal than 4 right parenthesis"
+  },
+  {
+   "latex": "P(X=10)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>10</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals 10 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leq10)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>10</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than 10 right parenthesis"
+  },
+  {
+   "latex": "P(X\\geq10)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>10</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater or equal than 10 right parenthesis"
+  },
+  {
+   "latex": "P(8<X<10)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>8</mn><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mn>10</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 8 less than X less than 10 right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 17,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 33
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_946spf6kFdytWskY",
+   "name": "Calculating Binomial Probabilities",
+   "definition": "",
+   "video_id": "849018701"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Binomial Probabilities"
+  },
+  {
+   "type": "paragraph",
+   "md": "Throughout this section we will use the random variable `X tilde straight B left parenthesis n comma p right parenthesis`. For binomial, the probability of a *X*  taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the tables for the binomial cumulative distribution function?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In your **formulae booklet** you get **tables** which list the values of for different values of *x*, *p and* *n*\n\n  - $n$ can be **5, 6, 7, 8, 9 10, 12, 15, 20, 25, 30, 40, 50**\n  - $p$ can be **05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5**\n  - $x$ can be different values depending on *n*\n- The probabilities are rounded to **4 decimal places**\n- The values of $p$ **only go up to 0.5**\n\n  - You can instead count the number of failures `Y tilde B left parenthesis n comma 1 minus p right parenthesis` if the probability of success is bigger than 0.5\n  - Remember $X+Y=n$, which leads to identities:\n  \n    - $P(X=k)=P(Y=n-k)$\n    - $P(X\\leqk)=P(Y\\geqn-k)$\n    - $P(X\\geqk)=P(Y\\leqn-k)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate, P(X = x) the probability of a single value for a binomial distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can use the formula given in the formulae booklet\n\n  - `P left parenthesis X equals x right parenthesis equals open parentheses table row n row x end table close parentheses space p to the power of x open parentheses 1 minus p close parentheses to the power of n minus x end exponent`\n  \n    - The number of times this can happen is calculated by the **binomial coefficient **`open parentheses table row n row x end table close parentheses equals C presuperscript n subscript x equals fraction numerator n factorial over denominator x factorial left parenthesis n minus x right parenthesis factorial end fraction`\n- You can also use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet\n\n  - $P(X=k)=P(X\\leqk)-P(X\\leqk-1)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate, P(X ≤ x), the cumulative probabilities for a binomial distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If x is small, you could find the probability of each possible value of x and then add them together\n- Otherwise, you will have to use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet\n- If p is bigger than 0.5 then you will have to use the number of failures `Y tilde B left parenthesis n comma 1 minus p right parenthesis`\n\n  - $P(X\\leqx)=P(Y\\geqn-x)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find P(X ≥ x)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $X\\geqx$**: **This means all values of *X* which are **at least *****x***\n\n  - These are **all** values of ***X*** **except** the ones that are **less than *****x***\n- $P(X\\geqx)=1-P(X<x)$\n- As *x*  is an integer then $P(X<x)=P(X\\leqx-1)$ as the probability of *X* is zero for non-integer values for a binomial distribution\n- Therefore, to calculate $P(X\\geqx)$:\n\n  - $P(X\\geqx)=1-P(X\\leqx-1)$\n  - For example: $P(X\\geq10)=1-P(X\\leq9)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find  P(a ≤ X ≤ b)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $a\\leqX\\leqb$: This means all values of *X* which are **at** **least *****a***** and at most *****b***\n\n  - This is **all** the values of *X* which are **no greater than *****b*** **except** the ones which are **less than *****a***\n- $P(a\\leqX\\leqb)=P(X\\leqb)-P(X<a)$\n- As *X* is an integer then $P(X<a)=P(X\\leqa-1)$ as the $P(X=x)=0$  for non-integer value of x for a binomial distribution\n- Therefore to calculate $P(a\\leqX\\leqb)$:\n\n  - $P(a\\leqX\\leqb)=P(X\\leqb)-P(X\\leqa-1)$\n  - For example: $P(4\\leqX\\leq9)=P(X\\leq9)-P(X\\leq3)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What if an inequality does not have the equals sign (strict inequality)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For a binomial distribution (as it is discrete) you could rewrite all strict inequalities (< and >) as weak inequalities (≤ and ≥) by using the identities for a binomial distribution\n\n  - $P(X<x)=P(X\\leqx-1)$ and $P(X>x)=P(X\\geqx+1)$\n  - For example: $P(X<5)=P(X\\leq4)$ and $P(X>5)=P(X\\geq6)$\n  - Though it helps to understand how they work\n- It helps to think about the **range of integers** you want\n- Always find the **biggest integer** that you want to **include** and the **biggest integer** that you then want to **exclude**\n- For example, : $P(4<X\\leq10)$\n\n  - You want the integers 5 to 10\n  - You want the integers up to 10 excluding the integers up to 4\n  - $P(X\\leq10)-P(X\\leq4)$\n- For example, P(X > 6)  :\n\n  - You want the all the integers from 7 onwards\n  - You want to include all integers excluding the integers up to 6\n  - 1- P(*X ≤ 6)*\n- For example, P(X < 8)  :\n\n  - You want the integers 0 to 7\n  - P(X ≤ 7)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The random variable `X tilde straight B left parenthesis 40 comma 0.35 right parenthesis` . Find:\n\n(a) $P(X=10)$\n\n(b) $P(X\\leq10)$\n\n(c) $P(X\\geq10)$\n\n(d) $P(8<X<10)$\n\n**Answer:**\n\n![1-1-2-calculating-binomial-prob-we-solution-part-1](assets/0ac8b6e51aae-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-2](assets/5dafc51d0c19-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-3](assets/d0e1020358e9-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-4](assets/6b8a077071ed-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Some calculators will calculate probabilities for binomial distributions\n- These are great for checking your answers once you have answered your question showing the appropriate method"
+  }
+ ]
+}

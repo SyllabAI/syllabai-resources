@@ -1,0 +1,178 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RkQkq5VHytTm7D9C",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/continuous-random-variables/ex-and-varx-continuous",
+ "title": "E(X) & Var(X) (Continuous)",
+ "page_title": "E(X) & Var(X) (Continuous) | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "continuous-random-variables",
+   "ex-and-varx-continuous"
+  ],
+  "section": "statistical-distributions",
+  "topic": "continuous-random-variables",
+  "leaf": "ex-and-varx-continuous"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Continuous Random Variables",
+  "subtopic": "E(X) & Var(X) (Continuous)"
+ },
+ "updated_at": "2026-07-02T08:19:38.652Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_dH2h38ZK6svbtC8J"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "ΣxP(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">Σ</mi><mi>x</mi><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma x straight P left parenthesis X equals x right parenthesis"
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "Σx^{2}P(X=x)-μ^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Σ</mi><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">-</mo><msup><mstyle mathsize=\"16px\"><mi>μ</mi></mstyle><mn mathsize=\"16px\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma x squared straight P left parenthesis X equals x right parenthesis minus mu squared"
+  },
+  {
+   "latex": "E(X^{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>E</mi><mo>(</mo><msup><mi>X</mi><mn>2</mn></msup><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "E left parenthesis X squared right parenthesis"
+  },
+  {
+   "latex": "g(X)=aX+b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>X</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "g left parenthesis X right parenthesis equals a X plus b"
+  },
+  {
+   "latex": "E(X)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">E</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight E left parenthesis X right parenthesis"
+  },
+  {
+   "latex": "\\mathrm{Var}(X)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Var</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Var left parenthesis X right parenthesis"
+  },
+  {
+   "latex": "\\text{E}(X)=μ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>E</mtext><mo>(</mo><mi>X</mi><mo>)</mo><mo> </mo><mo>=</mo><mi>μ</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "text E end text left parenthesis X right parenthesis space equals mu space"
+  },
+  {
+   "latex": "Var(X)=σ^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mi>a</mi><mi>r</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo> </mo><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "V a r left parenthesis X right parenthesis space equals sigma squared space"
+  }
+ ],
+ "stats": {
+  "blocks": 16,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 9
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_dH2h38ZK6svbtC8J",
+   "name": "E(X) & Var(X) (Continuous)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "E(X) & Var(X) (Continuous)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are E(X) and Var(X)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- E(X)is the **expected** **value**, or **mean**, of a **random** **variable X**\n\n  - E(X) is the same as the population mean so can also be denoted by *µ*\n- **Var (X) **is the **variance** of the continuous random variable* X*\n\n  - **Standard** **deviation** is the **square** **root** of the **variance**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the mean and variance of a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **mean**, for a **continuous** **random** **variable *****X*** is given by"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold E bold left parenthesis bold italic X bold right parenthesis bold equals bold italic mu bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x bold f bold left parenthesis bold italic x bold right parenthesis bold space bold d bold italic x`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is equivalent to $ΣxP(X=x)$ for discrete random variables\n- If the graph of $y=f(x)$has **axis** of **symmetry,** x = a , then  E(X) = a"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **variance** is given by"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold Var bold left parenthesis bold italic X bold right parenthesis bold equals bold italic sigma to the power of bold 2 bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x to the power of bold 2 bold f bold left parenthesis bold italic x bold right parenthesis bold d bold italic x bold minus bold italic mu to the power of bold 2`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is equivalent to $Σx^{2}P(X=x)-μ^{2}$  for discrete random variables\n- Be careful about confusing $E(X^{2})$  and `begin mathsize 16px style open square brackets E open parentheses X close parentheses close square brackets squared end style`\n\n  - `E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`                “mean of the squares”\n  - `open square brackets E left parenthesis X right parenthesis close square brackets squared equals open square brackets integral subscript negative infinity end subscript superscript infinity x space straight f left parenthesis x right parenthesis space straight d x close square brackets squared`       “square of the mean”\n  - If you are happy with the difference between these and how to calculate them the variance formula becomes very straightforward"
+  },
+  {
+   "type": "paragraph",
+   "md": "`Var left parenthesis X right parenthesis equals straight E left parenthesis X squared right parenthesis minus open square brackets straight E left parenthesis X right parenthesis close square brackets squared`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate E(g(X))?"
+  },
+  {
+   "type": "bullets",
+   "md": "- `straight E open parentheses g open parentheses X close parentheses close parentheses equals integral subscript negative infinity end subscript superscript infinity g open parentheses x close parentheses straight f left parenthesis x right parenthesis space straight d x`\n- In particular:\n\n  - `straight E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`as seen above\n- If $g(X)=aX+b$(a linear function) then\n\n  - `straight E open parentheses g open parentheses X close parentheses close parentheses equals straight E open parentheses a X plus b close parentheses equals a straight E open parentheses X close parentheses plus b`\n  - `Var open parentheses g left parenthesis X right parenthesis close parentheses equals Var open parentheses a X plus b close parentheses equals a squared Var open parentheses X close parentheses`"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A continuous random variable, *X*, is modelled by the probability distribution function f(x), such that\n\n`straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1.5 x squared left parenthesis 1 minus 0.5 x right parenthesis end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space space 0 end cell otherwise end table close`\n\n(a) Find $E(X)$ .\n\n(b) Find $\\mathrm{Var}(X)$.\n\n**Answer:**\n\n![1-3-2-ial-fig1-we-solution-part-1](assets/eb8992a6148b-image.bin)\n\n![1-3-2-ial-fig1-we-solution-part-2](assets/abacdccb6a51-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- A **sketch** of the graph of y =  f(x) can highlight any **symmetrical** properties which can help reduce the work involved in finding the **mean** and **variance**\n- Take care with awkward **values** and **negatives** – use the **memory** features on your calculator and **avoid** **rounding** until your **final** answer (if rounding at all!)\n- The formulae for $\\text{E}(X)=μ$ and $Var(X)=σ^{2}$ are given in the formulae booklet"
+  }
+ ]
+}

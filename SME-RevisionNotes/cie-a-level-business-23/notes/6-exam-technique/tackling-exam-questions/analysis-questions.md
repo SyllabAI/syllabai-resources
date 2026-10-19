@@ -1,0 +1,49 @@
+---
+note_id: "rn_w6J44MY6wmcXzNk4"
+title: "Analysis Questions"
+source: https://www.savemyexams.com/a-level/business/cie/23/revision-notes/6-exam-technique/tackling-exam-questions/analysis-questions
+path: 6-exam-technique/tackling-exam-questions/analysis-questions
+updated_at: "2026-01-07T14:49:09.000Z"
+spec_point_ids: ["spcpt_B2q6fN9wHbxCg8X7", "spcpt_dcfk2kCrYKYs4pMB"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Analysis Questions
+
+## What is analysis?
+
+> **Spec point** — `spcpt_B2q6fN9wHbxCg8X7`
+
+## What is analysis?
+
+- Analysis involves developing **logical chains of reasoning**, showing **cause and effect**,** impacts and outcomes**
+- The best analysis considers **consequences and impacts** for **individuals and organisations** of **external and internal influences**
+
+### Marks for analysis in exam papers
+
+| Paper 1 | Paper 2 | Paper 3 | Paper 4 |
+|---|---|---|---|
+| 20% | 20% | 23% | 40% |
+
+- Overall, **25% of the total marks available **are awarded for analysis across all four exam papers
+
+## Analysis questions
+
+> **Spec point** — `spcpt_dcfk2kCrYKYs4pMB`
+
+## Analysis questions
+
+### Analyse questions
+
+- **Analyse **requires you to examine a concept in detail to show meaning, identify elements and the relationship between them
+
+  - You must ensure that your answer **include valid knowledge and understanding**, and is **applied to the business context**
+  - Analyse questions are awarded 8 marks
+- In this example, eight marks are awarded for **clear knowledge and understanding**, **valid use of the case study** and developed chains of reasoning
+
+#### Example
+
+| **BH is a fast food restaurant and takeaway business, which sells a range of burgers, kebabs, pizzas and side orders. BH also has a delivery service to the local area.**<br><br>**BH is owned by Amir, who mortgaged his home to finance the start-up of the business. Amir operates BH as a sole trader. His son also works within the business as a chef. Amir has been advised to change the legal structure of BH and to become a private limited company to protect the business and himself.**<br><br>**BH is located on a busy high street, surrounded by many other similar businesses. Amir knows that the continued success of the business requires him to identify a gap in the market and develop a unique selling point (USP).**<br><br>**BH's two main rivals are Wok’s and Chao’s. Both businesses specialise in Asian food, but neither has a delivery service. Amir would like to increase BH’s market share. He is considering starting to sell Asian food. None of his employees have any experience cooking or selling Asian food, but Amir believes that the possible increase in income would be worth any extra costs.**<br><br>Analyse one advantage and one disadvantage, to Amir, of BH becoming a private limited company.<br><br>[8] |
+|---|
+| ![Three colourful blobs with text: "Knowledge & Understanding" in yellow, "Application" in blue, and "Analysis" in red.](assets/d1cb604c2f06-47782-analyse-key.bin)<br><br>![Text discussing the advantages and disadvantages of a sole trader becoming a private limited company, featuring highlighted sections and annotations for reasoning.](assets/edcf8a9855de-60276-analyse-example.bin) |

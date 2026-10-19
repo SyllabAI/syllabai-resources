@@ -1,0 +1,339 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_M3qP2bRDTdBHGpbz",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/15-hardware-and-virtual-machines-/boolean-algebra-and-logic-circuits/karnaugh-maps",
+ "title": "Karnaugh Maps",
+ "page_title": "Karnaugh Maps | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "15-hardware-and-virtual-machines-",
+   "boolean-algebra-and-logic-circuits",
+   "karnaugh-maps"
+  ],
+  "section": "15-hardware-and-virtual-machines-",
+  "topic": "boolean-algebra-and-logic-circuits",
+  "leaf": "karnaugh-maps"
+ },
+ "titles": {
+  "section": "15. Hardware & Virtual Machines",
+  "topic": "Boolean Algebra & Logic Circuits",
+  "subtopic": "Karnaugh Maps"
+ },
+ "updated_at": "2026-10-01T13:26:14.106Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_v5FF96rrRjkm65jk"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\overline{A}.\\overline{B}.C+\\overline{A}.B.\\overline{C}+A.\\overline{B}.C+A.B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi><mo>+</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mi>B</mi><mo>.</mo><mover><mi>C</mi><mo>&#175;</mo></mover><mo>+</mo><mi>A</mi><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi><mo>+</mo><mi>A</mi><mo>.</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A with bar on top. B with bar on top. C plus A with bar on top. B. C with bar on top plus A. B with bar on top. C plus A. B"
+  },
+  {
+   "latex": "\\overline{A}.\\overline{B}.C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A with bar on top. B with bar on top. C"
+  },
+  {
+   "latex": "\\overline{A}.B.\\overline{C}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mi>B</mi><mo>.</mo><mover><mi>C</mi><mo>&#175;</mo></mover></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A with bar on top. B. C with bar on top"
+  },
+  {
+   "latex": "A.\\overline{B}.C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A. B with bar on top. C"
+  },
+  {
+   "latex": "A.B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>.</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A. B"
+  },
+  {
+   "latex": "\\overline{A}.\\overline{B}.C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A with bar on top. B with bar on top. C"
+  },
+  {
+   "latex": "\\overline{A}.B.\\overline{C}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mi>B</mi><mo>.</mo><mover><mi>C</mi><mo>&#175;</mo></mover></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A with bar on top. B. C with bar on top"
+  },
+  {
+   "latex": "A.\\overline{B}.C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A. B with bar on top. C"
+  },
+  {
+   "latex": "A.B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>.</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A. B"
+  },
+  {
+   "latex": "\\overline{B}.C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "B with bar on top. C"
+  },
+  {
+   "latex": "B.\\overline{C}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>.</mo><mover><mi>C</mi><mo>&#175;</mo></mover></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "B. C with bar on top"
+  },
+  {
+   "latex": "A.B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>.</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A. B"
+  },
+  {
+   "latex": "\\overline{B}.C+B.\\overline{C}+A.B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>C</mi><mo>+</mo><mi>B</mi><mo>.</mo><mover><mi>C</mi><mo>&#175;</mo></mover><mo>+</mo><mi>A</mi><mo>.</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "B with bar on top. C plus B. C with bar on top plus A. B"
+  }
+ ],
+ "stats": {
+  "blocks": 42,
+  "figures": 9,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 13
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_v5FF96rrRjkm65jk",
+   "name": "Karnaugh maps",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Karnaugh maps"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a Karnaugh map?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Karnaugh map (**KMap**) is a tool that is used for **simplifying Boolean algebra expressions**\n- It offers a **visual method** of **grouping together expressions** with **common factors**\n- The format of the map makes it **easy to identify** and **eliminate redundant terms**\n- They are used in **digital logic design**, such as simplifying the logic of digital circuits"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Steps:"
+  },
+  {
+   "type": "ordered",
+   "md": "1. **Create the Map**: Each cell in the grid corresponds to a term in the Boolean expression. Fill cells with 1s and 0s corresponding to the output of that term\n2. **Grouping**: Group the 1s in the grid. Each group must be a rectangle and the size of the group must be a power of 2. A cell can be part of multiple groups\n3. **Simplifying**: Write down a simplified Boolean expression for each group. The simplified expression for a group consists of the variables that remain constant in all terms in the group\n4. **Final Expression**: Combine the simplified expressions from each group using OR operations to get the final simplified Boolean expression"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Creating Karnaugh Maps"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Karnaugh Map (**KMap**) can be used to **simplify a Boolean expression** with 2 inputs\n- Here is an example for the expression** A + B** (**A OR B**)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 1"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Add each variable** starting with **A **at the top and **B **down the side\n- **Add each possible state** for **A **and **B**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/screenshot-2024-04-02-at-2-34-56-pm.png",
+   "file": "assets/e2dc29afa813-screenshot-2024-04-02-at-2-34-56-pm.png",
+   "alt": "step 1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 2"
+  },
+  {
+   "type": "bullets",
+   "md": "- Take each expression in turn **separated** by the **V **(**OR**)\n- First look at **A **on it's own\n- Find **all cells where A is 1**\n- **Add 1 to the cell**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/screenshot-2024-04-02-at-2-35-06-pm.png",
+   "file": "assets/146c5806fecb-screenshot-2024-04-02-at-2-35-06-pm.png",
+   "alt": "step 2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 3"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Repeat for B**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/screenshot-2024-04-02-at-2-35-17-pm.png",
+   "file": "assets/7e750164af96-screenshot-2024-04-02-at-2-35-17-pm.png",
+   "alt": "step 3",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 4"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is now a **completed KMap** for the expression **A +  B** (**A OR B**)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/screenshot-2024-04-02-at-2-35-31-pm.png",
+   "file": "assets/b06c1ea3030f-screenshot-2024-04-02-at-2-35-31-pm.png",
+   "alt": "step ",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Simplifying expressions using Karnaugh Maps"
+  },
+  {
+   "type": "bullets",
+   "md": "- Simplify** **$\\overline{A}.\\overline{B}.C+\\overline{A}.B.\\overline{C}+A.\\overline{B}.C+A.B$** **using a KMap\n- In this example there will be **3 variables** A,B and C so the empty KMap will look like this:"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/empty-k-map.png",
+   "file": "assets/be19f9292617-empty-k-map.png",
+   "alt": "empty-k-map",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 1:"
+  },
+  {
+   "type": "bullets",
+   "md": "- Split this long term at each **OR **giving 4 smaller expressions (subterms) to add to the table:\n\n  - $\\overline{A}.\\overline{B}.C$\n  - $\\overline{A}.B.\\overline{C}$\n  - $A.\\overline{B}.C$\n  - $A.B$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 2:"
+  },
+  {
+   "type": "bullets",
+   "md": "- Take the first subterm $\\overline{A}.\\overline{B}.C$\n- Put a **1** in the map for **every cell where this term would be TRUE (1)**\n- So if **A** and **B** were **0** and **C** was **1** this subterm would be **1**\n- So put a **1** in every cell in the KMap where **A is 0**, **B is 0** and **C is 1**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/k-map-2.png",
+   "file": "assets/d893d0efa024-k-map-2.png",
+   "alt": "k-map-2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 3:"
+  },
+  {
+   "type": "bullets",
+   "md": "- The next subterm is $\\overline{A}.B.\\overline{C}$\n- Put a **1** in the KMap where **A is 0**, **B is 1** and **C is 0**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/k-map-3.png",
+   "file": "assets/ca807769fbf1-k-map-3.png",
+   "alt": "k-map-3",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 4:"
+  },
+  {
+   "type": "bullets",
+   "md": "- The next subterm is** **$A.\\overline{B}.C$\n- Put a **1** in the KMap where **A is 1**, **B is 0** and **C is 1**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/k-map-4.png",
+   "file": "assets/887d9535685f-k-map-4.png",
+   "alt": "k-map-4",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Step 5:"
+  },
+  {
+   "type": "bullets",
+   "md": "- The final subterm is $A.B$\n- Put a **1** in the KMap where **A is 1** and **B is 1** (2 cells this time)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/k-map-5.png",
+   "file": "assets/be055ceaa734-k-map-5.png",
+   "alt": "k-map-5",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Making the groups"
+  },
+  {
+   "type": "bullets",
+   "md": "- Once you have written the 1s and 0s into your Karnaugh Map, you can then use this to **simplify the expression**\n- In order to do this, you need to **identify the groups**\n- This is the **key **to using the Karnaugh map to derive the simplified expression\n- The aim of making the groups is to\n\n  - **Make rectangular groups **\n  - **Make groups that are as large as possible**\n  - **Make groups that contain either 8,4,2 or 1 ones**\n  - **Groups can overlap** (i.e. some ones can be in multiple groups)\n  - **The Karnaugh map ‘grid’ wraps round in all directions so the groups can wrap round**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example grouping"
+  },
+  {
+   "type": "bullets",
+   "md": "- The completed map has 1s in five cells: AB = 00 with C = 1, AB = 01 with C = 0, AB = 11 with C = 0, AB = 11 with C = 1 and AB = 10 with C = 1\n- **Group 1:**\n\n  - The two 1s in the C = 1 row under AB = 00 and AB = 10 (note the wrapping around)\n  - A changes, B stays at 0 and C stays at 1, so this group represents $\\overline{B}.C$\n- **Group 2:**\n\n  - The two 1s in the C = 0 row under AB = 01 and AB = 11\n  - A changes, B stays at 1 and C stays at 0, so this group represents $B.\\overline{C}$\n- **Group 3:**\n\n  - The two 1s in the AB = 11 column (C = 0 and C = 1)\n  - C changes, A and B both stay at 1, so this group represents $A.B$\n- **Final simplified expression**\n\n  - OR the terms for the three groups together\n  - The simplified expression is $\\overline{B}.C+B.\\overline{C}+A.B$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "In questions where you have to use a Karnaugh Map always show the groups by drawing a box/circle round them."
+  }
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_FZpnT8cqx43f5NVT",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/series/arithmetic-and-geometric-series/geometric-sequences-and-series",
+ "title": "Geometric Sequences & Series",
+ "page_title": "Geometric Sequences & Series | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "series",
+   "arithmetic-and-geometric-series",
+   "geometric-sequences-and-series"
+  ],
+  "section": "series",
+  "topic": "arithmetic-and-geometric-series",
+  "leaf": "geometric-sequences-and-series"
+ },
+ "titles": {
+  "section": "Series",
+  "topic": "Arithmetic & Geometric Series",
+  "subtopic": "Geometric Sequences & Series"
+ },
+ "updated_at": "2024-10-20T08:03:27.513Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_b5KzyjnFxRygqtmk",
+  "spcpt_c8RQZfhSvPzK9dGS",
+  "spcpt_DqNff4JYrm6vQjyS"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "u",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>u</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u"
+  },
+  {
+   "latex": "u_{1}=a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>=</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 1 equals a"
+  },
+  {
+   "latex": "u_{9}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mn>9</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 9"
+  },
+  {
+   "latex": "u_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mi>n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "n^{th}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold-italic\">n</mi><mrow><mi mathvariant=\"bold\">t</mi><mi mathvariant=\"bold\">h</mi></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic n to the power of bold t bold h end exponent"
+  },
+  {
+   "latex": "u_{n}=ar^{n-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><mpadded lspace=\"+2px\"><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "u_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mi>n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "r=\\frac{u_{n+1}}{u_{n}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><msub><mi>u</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><msub><mi>u</mi><mi>n</mi></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals u subscript n plus 1 end subscript over u subscript n"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic n"
+  },
+  {
+   "latex": "S_{n}=\\frac{a(1-r^{n})}{1-r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>r</mi><mi>n</mi></msup><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript n equals fraction numerator a left parenthesis 1 minus r to the power of n right parenthesis over denominator 1 minus r end fraction"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "r>1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\">></mo><mn mathvariant=\"bold\">1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r bold greater than bold 1"
+  },
+  {
+   "latex": "S_{n}=\\frac{a(r^{n}-1)}{r-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><msup><mi>r</mi><mi>n</mi></msup><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript n equals fraction numerator a left parenthesis r to the power of n minus 1 right parenthesis over denominator r minus 1 end fraction"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic n"
+  },
+  {
+   "latex": "r=\\frac{7^{\\mathrm{th}}\\mathrm{term}}{6^{\\mathrm{th}}\\mathrm{term}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mrow><msup><mn>7</mn><mi>th</mi></msup><mo> </mo><mi>term</mi></mrow><mrow><msup><mn>6</mn><mi>th</mi></msup><mo> </mo><mi>term</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals fraction numerator 7 to the power of th space term over denominator 6 to the power of th space term end fraction"
+  },
+  {
+   "latex": "r=\\frac{1458}{486}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mn>1458</mn><mn>486</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 1458 over 486"
+  },
+  {
+   "latex": "r=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r bold equals bold 3"
+  },
+  {
+   "latex": "u_{n}=ar^{n-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><mpadded lspace=\"+2px\"><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+  },
+  {
+   "latex": "u_{6}=486",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>6</mn></msub><mo>=</mo><mn>486</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 6 equals 486"
+  },
+  {
+   "latex": "r=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 3"
+  },
+  {
+   "latex": "n=6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 6"
+  },
+  {
+   "latex": "a=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a bold equals bold 2"
+  },
+  {
+   "latex": "u_{n}=ar^{n-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><mpadded lspace=\"+2px\"><msup><mi>r</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript n equals a r to the power of n minus 1 end exponent"
+  },
+  {
+   "latex": "n=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n equals 5"
+  },
+  {
+   "latex": "a=25",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 25"
+  },
+  {
+   "latex": "r=0.8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 0.8"
+  },
+  {
+   "latex": "\\mathrm{fifth} \\mathrm{term}=10.24",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">fifth</mi><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">term</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold fifth bold space bold term bold equals bold 10 bold. bold 24"
+  },
+  {
+   "latex": "S_{n}=\\frac{a(1-r^{n})}{1-r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>r</mi><mi>n</mi></msup><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript n equals fraction numerator a left parenthesis 1 minus r to the power of n right parenthesis over denominator 1 minus r end fraction"
+  },
+  {
+   "latex": "a=25",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 25"
+  },
+  {
+   "latex": "r=0.8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 0.8"
+  },
+  {
+   "latex": "S_{5}=84.04",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mn mathvariant=\"bold\">5</mn></msub><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">84</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">04</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic S subscript bold 5 bold equals bold 84 bold. bold 04"
+  },
+  {
+   "latex": "u_{1}+u_{2}+u_{3}+...",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>+</mo><msub><mi>u</mi><mn>2</mn></msub><mo>+</mo><msub><mi>u</mi><mn>3</mn></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "u subscript 1 plus u subscript 2 plus u subscript 3 plus..."
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic n"
+  },
+  {
+   "latex": "r>1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>></mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r greater than 1"
+  },
+  {
+   "latex": "r<-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&lt;</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r less than negative 1"
+  },
+  {
+   "latex": "r=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 1"
+  },
+  {
+   "latex": "r=-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals negative 1"
+  },
+  {
+   "latex": "-1<r<1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo>&lt;</mo><mi>r</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "negative 1 less than r less than 1"
+  },
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "n"
+  },
+  {
+   "latex": "S_{\\infty}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>S</mi><mo>&#8734;</mo></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript infinity"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic r"
+  },
+  {
+   "latex": "-1<r<1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo>&lt;</mo><mi>r</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "negative 1 less than r less than 1"
+  },
+  {
+   "latex": "r\\leq-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#8804;</mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r less or equal than negative 1"
+  },
+  {
+   "latex": "r\\geq1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#8805;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r greater or equal than 1"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "6,2,\\frac{2}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo>&#160;</mo><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "6 space comma space space 2 space comma space space 2 over 3"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "r=\\frac{2}{6}=\\frac{1}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 2 over 6 equals 1 third"
+  },
+  {
+   "latex": "S_{\\infty}=\\frac{a}{1-r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mo>&#8734;</mo></msub><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction"
+  },
+  {
+   "latex": "a=6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals 6"
+  },
+  {
+   "latex": "r=\\frac{1}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "r equals 1 third"
+  },
+  {
+   "latex": "S_{\\infty}=9",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"bold-italic\">S</mi><mo mathvariant=\"bold\">&#8734;</mo></msub><mo mathvariant=\"bold\">=</mo><mpadded lspace=\"+2px\"><mn mathvariant=\"bold\">9</mn></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic S subscript bold infinity bold equals bold 9"
+  }
+ ],
+ "stats": {
+  "blocks": 32,
+  "figures": 0,
+  "worked_examples": 3,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 74
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_b5KzyjnFxRygqtmk",
+   "name": "Geometric Sequences",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Geometric Sequences"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a geometric sequence?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In a **geometric sequence**, there is a **common ratio **between consecutive terms in the sequence\n\n  - This means each term is **multiplied** by a common ratio to get the **next term**\n- The **first term** of the sequence is denoted by $a$\n- The common ratio is denoted by $r$\n\n  - For example, 2, 6, 18, 54, 162, … is a sequence with the rule *‘start at two and multiply each number by three’*\n  \n    - The **first term, **$a$***,***** **is 2\n    - The **common ratio, **$r$**, **is 3\n- A geometric sequence can be\n\n  - **increasing **(*r* > 1), or\n  - **decreasing **(0 < *r *< 1)\n- If the common ratio is a **negative number** the terms will alternate between positive and negative values\n\n  - For example, 1, -4, 16, -64, 256, … is a sequence with the rule *‘start at one and multiply each number by negative four’*\n  \n    - The **first term, **$a$***,***** **is 1\n    - The **common ratio, **$r$**, **is -4\n- **Terms** in a geometric sequence can be referred to\n\n  - by the letter $u$* *with\n  - a subscript corresponding to its place in the sequence\n  \n    - e.g.  $u_{1}=a$ is the first term, $u_{9}$ is the ninth term, $u_{n}$ is the $n$<sup>th</sup> term, etc."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_c8RQZfhSvPzK9dGS",
+   "name": "Geometric Series",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Geometric Series"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a geometric series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When the terms of a **geometric sequence** are added together, that is known as a **geometric series**\n\n  - The **terms** (1st term, 2nd term, 3rd term, etc.) are **exactly the same** in the sequence and series\n  - But with the series we're most interested in what happens when the terms are **added together**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find a term in a geometric series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The $n^{th}$<sup>*** ***</sup>**term formula** for a geometric series is"
+  },
+  {
+   "type": "paragraph",
+   "md": "$u_{n}=ar^{n-1}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Where $a$* *is the **first term**, and $r$ is the **common ratio**\n- This is **not **given on the exam **formula sheet**, so make sure you know it\n- The formula allows you to find **any term** in the geometric series\n\n  - **Enter** the values of $a$, $r$ and $n$ and calculate the value of $u_{n}$\n- Sometimes you will be **given a term** and asked to f**ind **$a$** or **$r$\n\n  - **Substitute** the information you have into the formula and solve the equation\n- Sometimes you will be **given two or more consecutive terms** and asked to **find both **$a$** and **$r$\n\n  - Find the **common ratio** by **dividing** a term by the one immediately before it\n  \n    - $r=\\frac{u_{n+1}}{u_{n}}$\n  - **Substitute** this and one of the terms into the formula to find the **first term**\n- Sometimes you may be **given a term along with **$a$** and **$r$ and asked to **find the value of **$n$\n\n  - You can solve this using **logarithms** on your calculator"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the sum of a geometric series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **geometric series** is the sum of the terms in a **geometric sequence**\n\n  - For the geometric sequence 2, 6, 18, 54, … the geometric series is 2 + 6 + 18 + 54 + …\n- Use the following **formula** to find the sum of the first *n* terms of a geometric series:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$S_{n}=\\frac{a(1-r^{n})}{1-r}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- $a$<sub>* *</sub>is the **first term**\n- $r$ is the **common ratio**\n- The formula is given on the exam **formula sheet**\n\n  - So you don't need to remember it\n  - But you do need to know how to use it!\n- If $r>1$ the following **rearrangement** of the formula might be more convenient:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$S_{n}=\\frac{a(r^{n}-1)}{r-1}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- This version is **not** on the formula sheet\n- The formula sheet version will always work as well\n- A question will often **give you the sum of a certain number of terms** and ask you to **find the values of **$a$**, **$r$** or **$n$\n\n  - **Substitute** the information you have into the formula and solve the equation"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The formula for the **sum** of a geometric series is on the exam formula sheet\n\n  - But the *n*<sup>th</sup> term formula is **not** on the formula sheet\n- You will sometimes need to use logarithms to answer geometric series questions\n\n  - Make sure you are confident doing this\n  - And know how your calculator handles logarithms"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The sixth term of a geometric series is 486 and the seventh term is 1458.\n\nFind\n\n(a) the common ratio of the series\n\n> *Find the common ratio by dividing a term by the term immediately before it*\n*Here *$r=\\frac{7^{\\mathrm{th}}\\mathrm{term}}{6^{\\mathrm{th}}\\mathrm{term}}$\n\n$r=\\frac{1458}{486}$\n\n$r=3$\n\n(b) the first term of the series.\n\n> *Use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$\n\n> *For the 6*<sup>*th*</sup>* term, we know  *$u_{6}=486$*,  *$r=3$*  and  *$n=6$\n\n`table row 486 equals cell a cross times 3 to the power of open parentheses 6 minus 1 close parentheses end exponent end cell row 486 equals cell a cross times 3 to the power of 5 end cell row 486 equals cell 243 a end cell row a equals cell 486 over 243 end cell end table`\n\n$a=2$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The first term of a geometric series is 25, and the common ratio is 0.8.\n\nFind the value of the fifth term, as well as the sum of the first 5 terms.\n\n> *To find the fifth term, use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$\n*Here  *$n=5$*,  *$a=25$*  and  *$r=0.8$* *\n\n`table row cell fifth space term end cell equals cell 25 cross times 0.8 to the power of open parentheses 5 minus 1 close parentheses end exponent end cell row blank equals cell 25 cross times 0.8 to the power of 4 end cell end table`\n\n> $\\mathrm{fifth} \\mathrm{term}=10.24$\n\n*To find the sum of the first 5 terms, use the sum of a geometric series formula  *$S_{n}=\\frac{a(1-r^{n})}{1-r}$\n*Again,  *$a=25$*  and  *$r=0.8$* *\n\n`S subscript 5 equals fraction numerator 25 open parentheses 1 minus 0.8 to the power of 5 close parentheses over denominator 1 minus 0.8 end fraction`\n\n> *Use your calculator to work this out  *\n\n$S_{5}=84.04$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_DqNff4JYrm6vQjyS",
+   "name": "Sum to Infinity",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Sum to Infinity"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the sum to infinity of a geometric series?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **sum to infinity** is the sum of **all the terms** in a geometric series\n\n  - $u_{1}+u_{2}+u_{3}+...$  'all the way to infinity'\n- **As **$n$** increases** the terms of a geometric series may\n\n  - move **further away** from zero\n  \n    - if  $r>1$  or  $r<-1$\n  - stay **the same distance away** from zero\n  \n    - if  $r=1$  or  $r=-1$\n  - get **closer and closer** to zero\n  \n    - if  $-1<r<1$\n- If the terms are **getting closer to zero** then the series is said to **converge**"
+  },
+  {
+   "type": "bullets",
+   "md": "- This means that the **sum of the series** will approach a finite 'limiting value'\n- As $n$ increases, the sum of the terms will get **closer and closer** to the limiting value\n- The limiting value is the **sum to infinity** of the series\n\n  - It is denoted by $S_{\\infty}$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I calculate the sum to infinity?"
+  },
+  {
+   "type": "bullets",
+   "md": "- First you need to consider the **value of **$r$\n\n  - If  `open vertical bar r close vertical bar less than space 1`  then the sequence **converges**\n  \n    - `open vertical bar r close vertical bar less than 1`**  **is the same as   $-1<r<1$\n    - In this case the sum to infinity can be calculated\n  - If  `open vertical bar r close vertical bar greater or equal than 1`  then the sequence **does not converge**\n  \n    - `open vertical bar r close vertical bar greater or equal than 1`  is the same as  $r\\leq-1$  or  $r\\geq1$\n    - In this case the sum to infinity cannot be calculated\n- If `vertical line r vertical line space less than space 1`, then the sum **converges** to a finite value given by the formula"
+  },
+  {
+   "type": "paragraph",
+   "md": "`S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction space comma space blank open vertical bar r close vertical bar less than 1`"
+  },
+  {
+   "type": "bullets",
+   "md": "- $a$ is the **first term**\n- $r$ is the **common ratio**\n- The formula is given on the exam **formula sheet**\n\n  - So you don't need to remember it\n  - But you do need to know how to use it!"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Always check the `open vertical bar r close vertical bar less than 1` condition before calculating a sum to infinity\n\n  - Marks may depend on showing this in your working"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The first three terms of a geometric sequence are  $6,2,\\frac{2}{3}$.  Show that the sum to infinity of the series exists, and then find the sum to infinity.\n\n> *To show the sum to infinity exists we need to know the value of the common ratio *$r$\n\n> *We can find this by dividing a term by the term immediately before it *\n\n$r=\\frac{2}{6}=\\frac{1}{3}$\n\n> *This satisfies *`open vertical bar r close vertical bar less than 1`*, so the series converges and the sum to infinity exists*\n\n`stretchy vertical line r stretchy vertical line bold less than bold 1`*, ***so the series converges**\n\n> *Now use the sum to infinity formula  *$S_{\\infty}=\\frac{a}{1-r}$\n\n> *Here  *$a=6$*  and  *$r=\\frac{1}{3}$\n\n`table row cell S subscript infinity end cell equals cell fraction numerator 6 over denominator 1 minus 1 third end fraction end cell row blank equals cell fraction numerator 6 over denominator open parentheses 2 over 3 close parentheses end fraction end cell row blank equals cell 6 cross times 3 over 2 end cell end table`\n\n$S_{\\infty}=9$"
+  }
+ ]
+}

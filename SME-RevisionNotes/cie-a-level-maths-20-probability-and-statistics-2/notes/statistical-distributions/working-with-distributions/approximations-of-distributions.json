@@ -1,0 +1,263 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_xQf6w9ZbKGRSJJDs",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-2",
+ "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-2/revision-notes/statistical-distributions/working-with-distributions/approximations-of-distributions",
+ "title": "Approximations of Distributions",
+ "page_title": "Normal Approximation of Poisson - A Level Maths Revision",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "working-with-distributions",
+   "approximations-of-distributions"
+  ],
+  "section": "statistical-distributions",
+  "topic": "working-with-distributions",
+  "leaf": "approximations-of-distributions"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Working with Distributions",
+  "subtopic": "Approximations of Distributions"
+ },
+ "updated_at": "2026-07-02T08:19:38.482Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_WfvFGx8ZrRS8w3Pk",
+   "rnl_87qWnNR5ss2WJsyt",
+   "rnl_xgCvB8FrtMnHr43w",
+   "rnl_Gxpzw7qPwcvZPqk4",
+   "rnl_FqJQBvwygSBwj3Pf"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_H5hw3Xwrd5q3tMVf",
+  "spcpt_z3bqrJJTTNNyrnj2",
+  "spcpt_yJjTB6XVN77V49nJ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>λ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "lambda"
+  },
+  {
+   "latex": "μ=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>μ</mi><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "mu equals lambda"
+  },
+  {
+   "latex": "σ^{2}=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sigma squared equals lambda"
+  },
+  {
+   "latex": "σ=\\sqrt{λ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>σ</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sigma equals square root of lambda"
+  },
+  {
+   "latex": "3.5\\leqX_{N}<4.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mn>3</mn><mo>.</mo><mn>5</mn><mo>≤</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style 3.5 less or equal than X subscript N less than 4.5 end style"
+  },
+  {
+   "latex": "P(3.5\\leqX_{N}<4.5)=P(3.5<X_{N}<4.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>≤</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis 3.5 less or equal than X subscript N less than 4.5 right parenthesis equals P left parenthesis 3.5 less than X subscript N less than 4.5 right parenthesis end style"
+  },
+  {
+   "latex": "P(X=k)\\approxP(k-0.5<X_{N}<k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>≈</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>k</mi><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mi>k</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X equals k right parenthesis almost equal to straight P left parenthesis k minus 0.5 less than X subscript N less than k plus 0.5 right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leqk)\\approxP(X_{N}<k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X<k)\\approxP(X_{N}<k-0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X\\geqk)\\approxP(X_{N}>k-0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X>k)\\approxP(X_{N}>k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "μ=σ^{2}=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>μ</mi><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style mu equals sigma squared equals lambda end style"
+  },
+  {
+   "latex": "λ=np",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>λ</mi><mo>=</mo><mi>n</mi><mi>p</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style lambda equals n p end style"
+  }
+ ],
+ "stats": {
+  "blocks": 25,
+  "figures": 2,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 13
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_H5hw3Xwrd5q3tMVf",
+   "name": "Normal Approximation of Poisson",
+   "definition": "",
+   "video_id": "882494889"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Normal Approximation of Poisson"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "When can I use a normal distribution to approximate a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Poisson distribution `X tilde P o left parenthesis lambda right parenthesis`  can be **approximated** by a normal distribution `X subscript N tilde N left parenthesis mu comma sigma squared right parenthesis`  provided\n\n  - $λ$** is sufficiently large **( > 15)\n- Remember that the mean and variance of a Poisson distribution are approximately equal, therefore the parameters of the approximating distribution will be:\n\n  - $μ=λ$\n  - $σ^{2}=λ$\n  - $σ=\\sqrt{λ}$\n- The greater the value of *λ* in a Poisson distribution, the more symmetrical the distribution becomes and the closer it resembles the bell-shaped curve of a normal distribution"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-4-2-approximations-of-distributions-diagram-1.png",
+   "file": "assets/c60e22bdc860-2-4-2-approximations-of-distributions-diagram-1.png",
+   "alt": "2-4-2-approximations-of-distributions-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **Poisson distribution is discrete** and the **normal distribution is continuous**\n- A **continuity correction** takes this into account when using a normal approximation\n- The probability being found will need to be changed from a discrete variable, X to a continuous variable, *X*<sub>*N*</sub>\n\n  - For example, *X* = 4 for Poisson can be thought of as $3.5\\leqX_{N}<4.5$  for normal as every number within this interval rounds to 4\n  - Remember that for a normal distribution the probability of a single value is zero so $P(3.5\\leqX_{N}<4.5)=P(3.5<X_{N}<4.5)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Do I need to use continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Yes!\n- As the Poisson distribution *X* is discrete and normal distribution X<sub>N</sub> is continuous you will need to use continuity corrections\n\n  - $P(X=k)\\approxP(k-0.5<X_{N}<k+0.5)$\n  - $P(X\\leqk)\\approxP(X_{N}<k+0.5)$\n  - $P(X<k)\\approxP(X_{N}<k-0.5)$\n  - $P(X\\geqk)\\approxP(X_{N}>k-0.5)$\n  - $P(X>k)\\approxP(X_{N}>k+0.5)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I approximate a probability?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**: Find the **mean** and **variance** of the approximating distribution\n\n  - $μ=σ^{2}=λ$\n- **STEP 2**: Apply **continuity corrections** to the inequality\n- **STEP 3**: Find the **probability** of the new corrected inequality\n\n  - Find the standard normal probability and use the **table of the normal distribution**\n- The probability will not be exact as it is an approximation but provided *λ* is large enough (approximately > 15) then it will be a close approximation"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The number of hits on a revision web page per hour can be modelled by the Poisson distribution with a mean of 40.  Find the probability that there are more than 50 hits on the webpage in a given hour.\n\n**Answer:**\n\n![2-4-2-approximations-of-distributions-we-solution-1](assets/1fe450ae913f-image.bin)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_z3bqrJJTTNNyrnj2",
+   "name": "Poisson Approximation of Binomial",
+   "definition": "",
+   "video_id": "884270959"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Poisson Approximation of Binomial"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "When can I use a Poisson distribution to approximate a binomial distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A binomial distribution B(*n,p*)can be **approximated** by a Poisson distribution provided\n\n  - ***n***** is large **( typically >  50 )\n  - ***p***** is small**\n  - ***np *****is approximately less than 5**\n- The mean of a binomial distribution can be calculated by:\n\n  - $λ=np$\n- The Poisson distribution is derived from the binomial distribution for conditions where *n* is becoming infinitely large and *p* is becoming infinitely small"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Do I need to use continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- No!\n- As both the binomial distribution and Poisson distribution are discrete there is no need for continuity corrections"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "It is known that one person in a thousand who checks a revision website will choose to subscribe. Given that the website received 3000 hits yesterday, find the probability that more than 5 people subscribed.\n\n**Answer:**\n\n![2-4-2-approximations-of-distributions-we-solution-2](assets/2857cac2fca8-image.bin)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_yJjTB6XVN77V49nJ",
+   "name": "Choosing the Approximation",
+   "definition": "",
+   "video_id": "884286883"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Choosing the Approximation"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How will I choose which approximation to use?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When deciding what approximating distribution to use first make sure you know the reason why you cannot find the probability using the original distribution\n\n  - Is the value of *n *or *λ *too large?\n  - Will it take too long to carry out the calculations?\n- Make sure you know what distribution you are approximating **from**\n\n  - If your distribution is a binomial distribution, you could either use a Poisson or a normal approximation\n  - If your distribution is a Poisson distribution, you will use a normal approximation\n- Use the conditions for approximations to decide which approximation is appropriate\n- Calculate the parameters for the approximating distribution"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-4-2-choosing-approximations-diagram-1.png",
+   "file": "assets/cc3c85964d51-2-4-2-choosing-approximations-diagram-1.png",
+   "alt": "2-4-2-choosing-approximations-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If you are unsure, use the normal distribution to approximate the Poisson and the Poisson distribution to approximate the binomial as these are the two you will be examined on in Statistics 2. However, you should make sure you know the conditions for the normal approximation to the binomial as this may be tested."
+  }
+ ]
+}

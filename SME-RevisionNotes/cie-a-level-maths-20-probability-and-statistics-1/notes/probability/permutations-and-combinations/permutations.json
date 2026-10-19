@@ -1,0 +1,196 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_t24MPRg5mF6ZvDyt",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/revision-notes/probability/permutations-and-combinations/permutations",
+ "title": "Permutations",
+ "page_title": "Permutation and Combination - A Level Maths Revision Notes",
+ "path": {
+  "segs": [
+   "probability",
+   "permutations-and-combinations",
+   "permutations"
+  ],
+  "section": "probability",
+  "topic": "permutations-and-combinations",
+  "leaf": "permutations"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Permutations & Combinations",
+  "subtopic": "Permutations"
+ },
+ "updated_at": "2026-07-02T08:19:38.489Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_x34V6H6ssC8pkpH3",
+   "rnl_VRd4vVR4mqySQMmc",
+   "rnl_hPJnBngR2f8mwqXd",
+   "rnl_fY5Ymx3jCytvGMSW",
+   "rnl_pvhppr85CnjJ4ZtB"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_89ps9KCVtj4YGq2C"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\frac{n!}{r!s!}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mi>r</mi><mo>!</mo><mi>s</mi><mo>!</mo></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style fraction numerator n factorial over denominator r factorial s factorial end fraction end style"
+  },
+  {
+   "latex": "\\frac{10!}{6!}=\\frac{10!}{(10-4)!}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>10</mn><mo>!</mo></mrow><mrow><mn>6</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn><mo>!</mo></mrow><mrow><mo>(</mo><mn>10</mn><mo>-</mo><mn>4</mn><mo>)</mo><mo>!</mo></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style fraction numerator 10 factorial over denominator 6 factorial end fraction equals fraction numerator 10 factorial over denominator left parenthesis 10 minus 4 right parenthesis factorial end fraction end style"
+  },
+  {
+   "latex": "\\frac{n!}{(n-r)!}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathsize=\"16px\">n</mi><mo mathsize=\"16px\">!</mo></mrow><mstyle mathsize=\"16px\"><mrow><mo stretchy=\"true\">(</mo><mi>n</mi><mo>-</mo><mi>r</mi><mo stretchy=\"true\">)</mo></mrow><mo>!</mo></mstyle></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator size 16px n size 16px factorial over denominator begin mathsize 16px style stretchy left parenthesis n minus r stretchy right parenthesis factorial end style end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 23,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 3
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_89ps9KCVtj4YGq2C",
+   "name": "Permutations",
+   "definition": "",
+   "video_id": "859267828"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Permutations"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Are permutations and arrangements the same thing?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Mathematically speaking yes, a **permutation** is the number of possible arrangements of a set of objects when the **order **of the arrangements matters\n- A permutation can either be finding the number of ways to arrange *n*  items or finding the number of ways to arrange *r*  out of *n* items\n- By the reasoning given in the 2.2.1 Arrangements revision note, the number of permutations of *n* **different **items is `begin mathsize 16px style n factorial equals n cross times open parentheses n minus 1 close parentheses cross times open parentheses n minus 2 close parentheses cross times... cross times 2 cross times 1 end style`\n\n  - For 5 **different **items there are 5! = 5 × 4 × 3 × 2 = 120 permutations\n  - For 6 **different **items there are 6! = 6 × 5 × 4 × 3 × 2 = 720  permutations\n  - It is easy to see how quickly the number of possible permutations of different items can increase\n  - For 10 different items there are 10! = 3 628 800 possible permutations"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do we handle permutations if there are repeated items?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Again, by the reasoning given in the 2.2.1 Arrangements revision note, the number of permutations of** *****n**** ***different **items, with **one** of the items repeated ***r**** *times, is"
+  },
+  {
+   "type": "paragraph",
+   "md": "`begin mathsize 16px style fraction numerator n factorial over denominator r factorial end fraction equals n cross times open parentheses n minus 1 right parenthesis close parentheses cross times... cross times open parentheses r plus 1 close parentheses end style`"
+  },
+  {
+   "type": "bullets",
+   "md": "- The number of permutations of ***n *****different **items, with **one** of the items repeated ***r**** *times and **another **repeated ***s ***times, is $\\frac{n!}{r!s!}$\n- This property will need to be applied to any permutation problem with one or more item(s) repeated a number of times"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do we find r  permutations of n items?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If we only want to find the number of ways to arrange a few out of *n*  different objects, we should consider how many of the objects can go in the first position, how many can go in the second and so on\n- If we wanted to arrange 3 out of 5 different objects, then we would have 3 positions to place the objects in, but we would have 5 options for the first position, 4 for the second and 3 for the third\n\n  - This would be 5 × 4 × 3 ways of permutating 3 out of 5 different objects\n  - This is equivalent to `begin mathsize 16px style fraction numerator 5 factorial over denominator 2 factorial end fraction equals fraction numerator 5 factorial over denominator open parentheses 5 minus 3 close parentheses factorial end fraction end style`\n- If we wanted to arrange 4 out of 10 different objects, then we would have 4 positions to place the objects in, but we would have 10 options for the first position, 9 for the second, 8 for the third and 7 for the fourth\n\n  - This would be 10 × 9 × 8 × 7 ways of permutating 4 out of 10 different objects\n  - This is equivalent to $\\frac{10!}{6!}=\\frac{10!}{(10-4)!}$\n- If we wanted to arrange *r* out of *n* different objects, then we would have *r* positions to place the objects in, but we would have *n* options for the first position, `begin mathsize 16px style open parentheses n minus 1 close parentheses end style` for the second, `begin mathsize 16px style open parentheses n minus 2 close parentheses end style` for the third and so on until we reach `begin mathsize 16px style open parentheses n minus open parentheses r minus 1 close parentheses close parentheses end style`\n\n  - This would be `begin mathsize 16px style n cross times open parentheses n minus 1 close parentheses cross times... cross times open parentheses n minus r plus 1 close parentheses end style` ways of permutating r out of n different objects\n  - This is equivalent to `begin mathsize 16px style fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial end fraction end style`\n- The function $\\frac{n!}{(n-r)!}$can be written as `begin mathsize 16px style straight P presuperscript n subscript r end style`\n\n  - Make sure you can find and use this button on your calculator\n- The same function works if we have *n *spaces into which we want to arrange *r *objects, consider\n\n  - for example arranging five people into a row of ten empty chairs"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Permutations when two or more items must be together"
+  },
+  {
+   "type": "bullets",
+   "md": "- If two or more items must stay together within an arrangement, it is easiest to think of these items as ‘stuck’ together\n- These items will become one within the arrangement\n- Arrange this ‘one’ item with the others as normal\n- Arrange the items within this ‘one’ item separately\n- Multiply these two arrangements together"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-2-2-diagram-1.png",
+   "file": "assets/76380fe37213-2-2-2-diagram-1.png",
+   "alt": "2-2-2-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Permutations when two or more items cannot be all together"
+  },
+  {
+   "type": "bullets",
+   "md": "- If **two** items must be **separated …**\n\n  - consider the number of ways these two items would be together\n  - subtract this from the total number of arrangements without restrictions\n- If **more than two** items must be separated…\n\n  - consider whether all of them must be **completely separate** (none can be next to each other) or whether they **cannot all be together** (but two could still be next to each other)\n  - If they **cannot all be together** then we can treat it the same way as separating two items and subtract the number of ways they would all be together from the total number of permutations of the items, the final answer will include all permutations where two items are still together"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-2-2-diagram-2.png",
+   "file": "assets/b3d7ee123291-2-2-2-diagram-2.png",
+   "alt": "2-2-2-diagram-2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Permutations when two or more items must be separated"
+  },
+  {
+   "type": "bullets",
+   "md": "- If the items must all be **completely separate** then\n\n  - lay out the rest of the items in a line with a space in between each of them where one of the items which cannot be together could go\n  - remember that this could also include the space before the first and after the last item\n  - You would then be able to fit the items which cannot be together into any of these spaces, using the *r *permutations of *n *items rule `left parenthesis scriptbase straight P subscript r end scriptbase presubscript blank presuperscript n right parenthesis`\n  - You do not need to fill every space"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-2-2-diagram-3.png",
+   "file": "assets/8442149069e3-2-2-2-diagram-3.png",
+   "alt": "2-2-2-diagram-3",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Permutations when two or more items must be in specific places"
+  },
+  {
+   "type": "bullets",
+   "md": "- Most commonly this would be arranging a word where specific letters would go in the first and last place\n- Or arranging objects where specific items have to be at the ends/in the middle\n\n  - Imagine these specific items are stuck in place, then you can find the number of ways to arrange the rest of the items around these ‘stuck’ items\n- Sometimes the items must be grouped\n\n  - For example all vowels must be before the consonants\n  - Or all the red objects must be on one side and the blue objects must be on the other\n  - Find the number of permutations within each group separately and multiply them together\n  - Be careful to check whether the groups could be in either place\n  \n    - e.g. the vowels on one side and consonants on the other\n    - or if they must be in specific places (the vowels **before** the consonants)\n  - If the groups could be in either place than your answer would be multiplied by two\n  - If there were *n* groups that could be in any order then you’re answer would be multiplied by *n*!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(a) How many ways are there to rearrange the letters in the word BANANAS if the B and the S must be at each end?\n\n(b) How many ways are there to rearrange the letters in the word ORANGES if\n\n(i) the three vowels (A, E and O) must be together?\n\n(ii) the three vowels must NOT all be together?\n\n(iii) the three vowels must all be separated?\n\n**Answer:**\n\n![2-2-2-we-solution-part-a](assets/de8d0ee442ca-image.bin)\n\n![2-2-2-we-solution-part-b](assets/e04d59fb9242-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The wording is very important in permutations questions, just one word can change how you answer the question.\n- Look out for specific details such as whether three items must all be separated or just cannot be all together (there is a difference).\n- Pay attention to whether items must be in alternating order (e.g. red and blue items must alternate, either RBRB… or BRBR…) or whether a particular item must come first (red **then **blue and so on).\n- If items should be at the ends, look out for whether they can be at either end or whether one must be at the beginning and the other at the end."
+  }
+ ]
+}

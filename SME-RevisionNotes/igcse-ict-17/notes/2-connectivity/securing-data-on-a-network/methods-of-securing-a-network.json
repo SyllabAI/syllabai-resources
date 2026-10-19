@@ -1,0 +1,258 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_MJVshRTptpphchc3",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/2-connectivity/securing-data-on-a-network/methods-of-securing-a-network",
+ "title": "Methods of Securing a Network",
+ "page_title": "What is Encryption in ICT - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "2-connectivity",
+   "securing-data-on-a-network",
+   "methods-of-securing-a-network"
+  ],
+  "section": "2-connectivity",
+  "topic": "securing-data-on-a-network",
+  "leaf": "methods-of-securing-a-network"
+ },
+ "titles": {
+  "section": "2. Connectivity",
+  "topic": "Securing Data on a Network",
+  "subtopic": "Methods of Securing a Network"
+ },
+ "updated_at": "2024-06-06T10:01:30.109Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_TPScn6pDNHsdH5Dr",
+  "spcpt_4qy7Mn5XyGxPKyjg",
+  "spcpt_kjQQg6Jznnzk6V43",
+  "spcpt_Yn9mhNZ8jSyR9fDG",
+  "spcpt_ddx3BWGYZdp5wXWV",
+  "spcpt_Yt7xJs4SJZHNqWDR",
+  "spcpt_JQ6KRbKBkpCYFrXx"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 38,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_TPScn6pDNHsdH5Dr",
+   "name": "Usernames & Passwords",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Usernames & Passwords"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How does a password help?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Passwords are a **digital lock** to prevent unauthorised access to an account\n- Passwords are used to ***authenticate***** **a user to the network\n- They are often stored as an **encrypted/ciphered** text entry in a database, ensuring that even with unauthorised access to a database, a hacker would not be able to gain access to the individual passwords of users\n- **Strong passwords **and** regular password changes **are important to maintain security"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/image-1-.png",
+   "file": "assets/e94d7475f65f-image-1.png",
+   "alt": "image-1-",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_4qy7Mn5XyGxPKyjg",
+   "name": "Firewalls",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Firewalls"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a firewall?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A firewall is a **barrier** between a network and the internet\n- A firewall prevents **unwanted traffic** from entering a network by filtering requests to ensure they are **legitimate**\n- It can be both **hardware** and **software** and they are often used together to provide stronger security to a network\n\n  - **Hardware firewalls** will protect the **whole network** and prevent unauthorised traffic\n  - **Software firewalls** will protect the** individual devices** on the network, monitoring the data going to and from each computer"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kjQQg6Jznnzk6V43",
+   "name": "Encryption",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Encryption"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is encryption?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Encryption is a method of **scrambling data **so that **unauthorised users cannot understand it **\n- Encryption methods use **'keys'**, which are specialised programs designed to **scramble** or **unscramble** data\n- Encryption uses **complex mathematical algorithms** to scramble the data\n- There are two common methods of encryption:\n\n  - **Symmetric**\n  - **Public key**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Symmetric encryption"
+  },
+  {
+   "type": "bullets",
+   "md": "- The sender uses a key to **encrypt** the data before transmission\n- The receiver **uses the same key** to **decrypt** the data\n- It's usually **faster**, making it ideal for encrypting **large amounts of data**\n- The significant downside is **the challenge of securely sharing this key** between the sender and receiver\n- If an** unauthorised user** captures the key, they can **decrypt all messages intercepted** in transmission"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/20583_utility-software-file-encryption-alevel.avif",
+   "file": "assets/6af35e18c0be-20583-utility-software-file-encryption-alevel.avif",
+   "alt": "Image showing the structure of symmetric encryption",
+   "caption": "Structure of Symmetric Encryption"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Public key encryption"
+  },
+  {
+   "type": "bullets",
+   "md": "- Public key encryption uses **two keys**:\n\n  - a **public key** for encryption\n  - and a **private key** for decryption\n- **Receivers** openly share** **their** public key**\n- **Senders** use this public key to **encrypt** the data\n- The **receiver's private key** is the **only key **that can decrypt the data and is kept locally on their side\n- The public and private keys are created at the same time and are **designed to work together** in this way\n- It is typically **slower than symmetric encryption**\n- It is generally used for **more secure and smaller **data transactions, e.g. **passwords**, **bank details**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/46907_asymmetric-encryption-public-key-private-key.avif",
+   "file": "assets/16f53a8cf94d-46907-asymmetric-encryption-public-key-private-k.avif",
+   "alt": "Image showing the structure of public key encryption ",
+   "caption": "Structure of Public Key Encryption"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Yn9mhNZ8jSyR9fDG",
+   "name": "WEP/WPA",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "WEP/WPA"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is WEP?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Wireless Encryption Protocol** (WEP) is a method of** encrypting data** being transmitted on a** wireless** network\n- Each device on the network **uses the same key** to encrypt and decrypt data\n- It is a **less secure** encryption method due to all devices on the network** sharing the same key**\n- **Eavesdropping software** (packet sniffers) can be used to **intercept data packets **and** identify the key**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is WPA?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Wi-fi Protected Access** (WPA) is a **more secure** method of **encrypting data** being transmitted on a **wireless **network\n- Each device connected to the network receives **a different key**\n- New keys are used for** every packet** transmitted on the network"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ddx3BWGYZdp5wXWV",
+   "name": "Virtual private networks (VPN)",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Virtual private networks (VPN)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a VPN?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A VPN allows users to **remotely** connect to **private **local area networks** (LANs)**\n- All **data sent and received** using a VPN is **encrypted**\n- Common uses of a VPN include:\n\n  - **Remotely accessing a companies network** (working from home)\n  - Making **secure payments**\n  - **Hiding web activities**\n  - **Bypassing** *geolocation rights management* or **online censorship**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Yt7xJs4SJZHNqWDR",
+   "name": "File access rights",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "File access rights"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are file access rights?"
+  },
+  {
+   "type": "bullets",
+   "md": "- File access rights can be set to determine** different levels of access **to specific files/folders\n- Examples of file permissions include:\n\n  - **Read **- can read the contents of a file only\n  - **Write **- can make changes to file contents and/or create new files\n  - **Delete **- can delete files\n  - **Execute **- can run applications/launch software"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_JQ6KRbKBkpCYFrXx",
+   "name": "Transaction logs & backups",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Transaction logs & backups"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a transaction log?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A transaction log is **a secure file** on a network that keeps **a record of every action **performed by devices on a network\n- Transactions logs include:\n\n  - **Device & data access**\n  - **Timestamps**\n  - **User IDs**\n  - **Successful/failed login attempts**\n- Transaction logs** don't directly protect a network**, they help administrators **monitor any identify** any unusual activity\n- **Backups **are another** indirect method of protecting a network**\n- Keeping **copies of data in a secure place** on the network in the event of a **data breach/loss**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Describe one method that could be used to secure payment data transferred between a server and other computers\n\n**[3]**\n\n**Answer**\n\n> *A description to include three linked points: *\n\n- Encryption **[1]** encodes/scrambles data / makes data unreadable **[1]** using a key **[1]**"
+  }
+ ]
+}

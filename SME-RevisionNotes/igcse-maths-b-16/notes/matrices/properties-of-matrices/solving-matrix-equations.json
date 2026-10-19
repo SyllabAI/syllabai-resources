@@ -1,0 +1,284 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_7HCGBNPXM8Mnj2t7",
+ "course_slug": "igcse-maths-b-16",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/properties-of-matrices/solving-matrix-equations",
+ "title": "Solving Matrix Equations",
+ "page_title": "Solving Matrix Equations | Edexcel IGCSE Maths B Revision Notes 2016",
+ "path": {
+  "segs": [
+   "matrices",
+   "properties-of-matrices",
+   "solving-matrix-equations"
+  ],
+  "section": "matrices",
+  "topic": "properties-of-matrices",
+  "leaf": "solving-matrix-equations"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Properties of Matrices",
+  "subtopic": "Solving Matrix Equations"
+ },
+ "updated_at": "2026-01-14T11:42:53.189Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8VvNPFT47Pbjp3Rq",
+   "name": "Jamie Wood",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_JGrDCdnmTzs2Z9Cb"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\mathrm{AA}^{-1}=A^{-1}A=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">AA</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">A</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AA to the power of negative 1 end exponent equals bold A to the power of negative 1 end exponent bold A equals bold I"
+  },
+  {
+   "latex": "\\mathrm{AI}=\\mathrm{IA}=A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">AI</mi><mo>=</mo><mi mathvariant=\"bold\">IA</mi><mo>=</mo><mi mathvariant=\"bold\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AI equals bold IA equals bold A"
+  },
+  {
+   "latex": "\\mathrm{AB}=C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">AB</mi><mo>=</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AB equals bold C"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "A^{-1}\\mathrm{AB}=A^{-1}C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">AB</mi><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent bold AB equals bold A to the power of negative 1 end exponent bold C"
+  },
+  {
+   "latex": "A^{-1}A=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">A</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent bold A equals bold I"
+  },
+  {
+   "latex": "\\mathrm{IB}=A^{-1}C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">IB</mi><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold IB equals bold A to the power of negative 1 end exponent bold C"
+  },
+  {
+   "latex": "\\mathrm{IB}=B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">IB</mi><mo>=</mo><mi mathvariant=\"bold\">B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold IB equals bold B"
+  },
+  {
+   "latex": "B=A^{-1}C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">B</mi><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B equals bold A to the power of negative 1 end exponent bold C"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "\\mathrm{BA}=C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">BA</mi><mo>=</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold BA equals bold C"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\mathrm{BA}=C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">BA</mi><mo>=</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold BA equals bold C"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "A^{-1}\\mathrm{BA}=A^{-1}C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">BA</mi><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent bold BA equals bold A to the power of negative 1 end exponent bold C"
+  },
+  {
+   "latex": "I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold I"
+  },
+  {
+   "latex": "A^{-1}\\mathrm{AB}=\\mathrm{IB}=B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">AB</mi><mo>=</mo><mi mathvariant=\"bold\">IB</mi><mo>=</mo><mi mathvariant=\"bold\">B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent bold AB equals bold IB equals bold B"
+  },
+  {
+   "latex": "\\mathrm{BAA}^{-1}=\\mathrm{BI}=B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">BAA</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi mathvariant=\"bold\">BI</mi><mo>=</mo><mi mathvariant=\"bold\">B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold BAA to the power of negative 1 end exponent equals bold BI equals bold B"
+  },
+  {
+   "latex": "A^{-1}\\mathrm{BA}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">BA</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent bold BA"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "2\\times2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 cross times 2"
+  },
+  {
+   "latex": "\\mathrm{PQ}=R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">PQ</mi><mo>=</mo><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold PQ equals bold R"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q"
+  },
+  {
+   "latex": "P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "P^{-1}\\mathrm{PQ}=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">P</mi><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow></msup><mi mathvariant=\"bold\">PQ</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of bold minus bold 1 end exponent bold PQ equals bold P to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "P^{-1}P=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">P</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent bold P equals bold I"
+  },
+  {
+   "latex": "\\mathrm{IQ}=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">IQ</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold IQ equals bold P to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "\\mathrm{IQ}=Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">IQ</mi><mo>=</mo><mi mathvariant=\"bold\">Q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold IQ equals bold Q"
+  },
+  {
+   "latex": "Q=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">Q</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q equals bold P to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q"
+  },
+  {
+   "latex": "P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold R"
+  },
+  {
+   "latex": "k=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "k equals 4"
+  }
+ ],
+ "stats": {
+  "blocks": 7,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 38
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_JGrDCdnmTzs2Z9Cb",
+   "name": "Solving matrix equations with inverses",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Solving matrix equations with inverses"
+  },
+  {
+   "type": "bullets",
+   "md": "- Inverses can be used to **rearrange** and **solve** equations with matrices\n- This relies on the essential properties of inverses and of the identity matrix:\n\n  - $\\mathrm{AA}^{-1}=A^{-1}A=I$\n  - $\\mathrm{AI}=\\mathrm{IA}=A$\n- For example, to solve the matrix equation $\\mathrm{AB}=C$** **for $B$\n\n  - First multiply both sides of the equation 'from the left' by $A^{-1}$\n  \n    - $A^{-1}\\mathrm{AB}=A^{-1}C$\n  - But $A^{-1}A=I$, so\n  \n    - $\\mathrm{IB}=A^{-1}C$\n  - And $\\mathrm{IB}=B$, so\n  \n    - $B=A^{-1}C$\n  - Then multiply together the two matrices on the right-hand side to find $B$ explicitly\n- Similarly, you can solve the matrix equation $\\mathrm{BA}=C$** **for $B$\n\n  - Though here you will need to multiply 'from the right' by $A^{-1}$"
+  },
+  {
+   "type": "paragraph",
+   "md": "`table row cell bold BAA to the power of negative 1 end exponent end cell equals cell bold CA to the power of negative 1 end exponent end cell row bold BI equals cell bold CA to the power of negative 1 end exponent end cell row bold B equals cell bold CA to the power of negative 1 end exponent end cell end table`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is similar to solving a regular equation by 'doing the same thing to both sides'\n\n  - Except that **order of multiplication** matters with matrices\n  \n    - Multiplying 'from the left' is **not** the same as multiplying 'from the right'\n  - For example, if you tried to solve $\\mathrm{BA}=C$** **for $B$ by multiplying 'from the left' by $A^{-1}$\n  \n    - you would get $A^{-1}\\mathrm{BA}=A^{-1}C$\n    - which does not simplify any further"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Remember that a matrix and its inverse only 'collapse' to the identity matrix $I$ when they are next to each other in a multiplication.\n\n- So $A^{-1}\\mathrm{AB}=\\mathrm{IB}=B$\n- and $\\mathrm{BAA}^{-1}=\\mathrm{BI}=B$\n- but $A^{-1}\\mathrm{BA}$ does not simplify any further"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "`bold P equals open parentheses table row 4 cell negative 2 end cell row cell negative 2 end cell 2 end table close parentheses space space space space space space space bold Q equals open parentheses table row k 1 row 3 0 end table close parentheses space space space space space space space bold R equals open parentheses table row 10 4 row cell negative 2 end cell cell negative 2 end cell end table close parentheses`\n\nwhere $k$ is a constant.\n\n(a) Find $P^{-1}$.\n\n**Answer:**\n\n> *Use the inverse formula for a *$2\\times2$* matrix*\n\n- *The inverse of *`space open parentheses table row a b row c d end table close parentheses space`* is *`space fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`\n\n`table row cell bold P to the power of bold minus bold 1 end exponent end cell equals cell fraction numerator 1 over denominator 4 cross times 2 minus open parentheses negative 2 close parentheses cross times open parentheses negative 2 close parentheses end fraction open parentheses table row 2 2 row 2 4 end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator 8 minus 4 end fraction open parentheses table row 2 2 row 2 4 end table close parentheses end cell row blank equals cell 1 fourth open parentheses table row 2 2 row 2 4 end table close parentheses end cell row blank equals cell open parentheses table row cell 1 fourth cross times 2 end cell cell 1 fourth cross times 2 end cell row cell 1 fourth cross times 2 end cell cell 1 fourth cross times 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 1 half end cell cell 1 half end cell row cell 1 half end cell 1 end table close parentheses end cell end table`\n\n`table row cell bold P to the power of bold minus bold 1 end exponent end cell equals cell open parentheses table row cell 1 half end cell cell 1 half end cell row cell 1 half end cell 1 end table close parentheses end cell end table`\n\n(b) Given that $\\mathrm{PQ}=R$ find the value of $k$.\n\n**Answer:**\n\n> *Use matrix algebra to solve the equation for *$Q$\n\n- *Multiply both sides of the equation 'from the left' by *$P^{-1}$\n\n$P^{-1}\\mathrm{PQ}=P^{-1}R$\n\n- *By the definition of the inverse, *$P^{-1}P=I$\n\n$\\mathrm{IQ}=P^{-1}R$\n\n- *By the properties of the identity matrix, *$\\mathrm{IQ}=Q$\n\n$Q=P^{-1}R$\n\n> *That gives you a matrix 'formula' for *$Q$\n\n- *Substitute in matrices *$P^{-1}$* and *$R$\n\n`bold Q equals open parentheses table row cell 1 half end cell cell 1 half end cell row cell 1 half end cell 1 end table close parentheses open parentheses table row 10 4 row cell negative 2 end cell cell negative 2 end cell end table close parentheses`\n\n- *Carry out the multiplication*\n\n`table row bold Q equals cell open parentheses table row cell 1 half cross times 10 plus 1 half cross times open parentheses negative 2 close parentheses end cell cell 1 half cross times 4 plus 1 half cross times open parentheses negative 2 close parentheses end cell row cell 1 half cross times 10 plus 1 cross times open parentheses negative 2 close parentheses end cell cell 1 half cross times 4 plus 1 cross times negative 2 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 5 minus 1 end cell cell 2 minus 1 end cell row cell 5 minus 2 end cell cell 2 minus 2 end cell end table close parentheses end cell row blank equals cell open parentheses table row 4 1 row 3 0 end table close parentheses end cell end table`\n\n$k=4$"
+  }
+ ]
+}

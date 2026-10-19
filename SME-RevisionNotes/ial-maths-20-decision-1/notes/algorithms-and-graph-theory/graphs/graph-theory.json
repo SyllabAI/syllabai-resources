@@ -1,0 +1,226 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wS2Yk5pvjXkcGhbC",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-and-graph-theory/graphs/graph-theory",
+ "title": "Graph Theory",
+ "page_title": "Graph Theory | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-and-graph-theory",
+   "graphs",
+   "graph-theory"
+  ],
+  "section": "algorithms-and-graph-theory",
+  "topic": "graphs",
+  "leaf": "graph-theory"
+ },
+ "titles": {
+  "section": "Algorithms & Graph Theory",
+  "topic": "Graphs",
+  "subtopic": "Graph Theory"
+ },
+ "updated_at": "2026-07-02T08:19:38.465Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_hrmHmYZTVfcdzcJc",
+  "spcpt_Sh2bfsQFf7sDZ44z",
+  "spcpt_g4WGr939XD6DZyBD",
+  "spcpt_h3Gvrwv3BRwysKYT"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 31,
+  "figures": 7,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_hrmHmYZTVfcdzcJc",
+   "name": "Introduction to Graph Theory",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Graph Theory"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is graph theory?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Graph theory** is the study of **graphs**, which are mathematical structures used to represent **objects** and the **connections** between them\n\n  - Graphs can be used in modelling many **real-life applications**, e.g. electrical circuits, flight paths, maps etc."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Sh2bfsQFf7sDZ44z",
+   "name": "Edges (Arcs) & Vertices (Nodes)",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Edges (Arcs) & Vertices (Nodes)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the different parts of a graph?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **graph** is made up of a number of points (**vertices **or **nodes**) that are connected by lines (**edges** or **arcs**)\n- A **vertex** (**node**) can represent an object, a place or a person\n\n  - **Adjacent** **vertices** are connected by an **edge**\n  - Vertices are usually labelled with a **letter**, e.g. *A, B, C*...\n  \n    - The list of vertices in a graph is sometimes called the **vertex set**\n- An **edge** (**arc**) forms a connection between **two vertices**\n\n  - Edges are described by the **nodes they connec**t, e.g. *AB, AC, BE...*\n  \n    - The list of edges in a graph is sometimes called the **edge set**\n  - **Adjacent edges** share a common vertex\n  - There may be **multiple edges** connecting two vertices\n  - An edge that starts and ends at the same vertex is called a **loop**\n- Typically a graph will be drawn such that **edges do not overlap**\n\n  - Note that if a graph is drawn with **overlapping edges**, the edges are** not connected **at points where they overlap\n  - Edges are only connected at **vertices**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/-blxnH4__labelled-graph.png",
+   "file": "assets/4211b53d529c-blxnh4-labelled-graph.png",
+   "alt": "-blxnH4__labelled-graph",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_g4WGr939XD6DZyBD",
+   "name": "Properties of Graphs",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Properties of Graphs"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the properties of graphs?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **edges** of a graph may be assigned a numerical value\n\n  - This value is called the **weight** (of an edge)\n  - Weight is often a measure such as distance, time or money"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **walk** is a **finite series of edges **in a graph that starts at one vertex and moves from vertex to vertex\n\n  - The (total) **weight** of a **walk** is the **sum of the weights** of the **edges** that it consists of\n- A **path** is a **walk** where no **vertex** is visited more than once\n- A **trail** is a **walk** where no **edge** is visited more than once\n\n  - Every path is also a trail but not every trail is a path\n- A **cycle** (or **circuit**) is a path that starts and finishes at the **same vertex**\n\n  - It is also known as a **closed path**\n- A** tour **is a **walk **that visits** every vertex **and **returns **to its** start vertex**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_h3Gvrwv3BRwysKYT",
+   "name": "Types of Graph",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Types of Graph"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the types of graph?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **connected graph** is a graph in which all of its vertices are connected to each other\n\n  - Two vertices are connected if there is a** path** between them\n  \n    - There does not need to be an edge connecting the pair of vertices"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/connected-graph.png",
+   "file": "assets/c3549f07adad-connected-graph.png",
+   "alt": "connected-graph",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- A **complete graph** is a graph in which each vertex is connected by an edge to each of the other vertices\n\n  - A complete graph with *n* vertices is labelled ***K***<sub>*n*</sub>"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/aMz_m~db_complete-graph.png",
+   "file": "assets/cfb53302c449-amz-m-db-complete-graph.png",
+   "alt": "aMz_m~db_complete-graph",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- If the edges of a graph have a **weight,** the graph is known as a **weighted graph** (or **network**)\n\n  - Networks are **not** usually **drawn to scale**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/JfxHzXhV_network.png",
+   "file": "assets/97c71e40102b-jfxhzxhv-network.png",
+   "alt": "JfxHzXhV_network",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- If the edges of a graph are assigned a direction, they are known as **directed edges** and the graph is known as a **digraph**\n\n  - Directed edges of a graph can only be **traversed in the direction indicated**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/9BBq8FNg_digraph.png",
+   "file": "assets/2430cdfff660-9bbq8fng-digraph.png",
+   "alt": "9BBq8FNg_digraph",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- A **simple graph** is **undirected** and** unweighted** and contains **no loops** or vertices connected by **multiple edges**\n- Given a graph *G*, a **subgraph** is a graph which contains only edges and vertices that appear in *G*\n- A **tree** is a connected graph that does not contain any cycles\n- A **spanning tree** is a subgraph (of a graph *G*) which is also a tree, and which contains all the vertices from *G*"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/72C7sUrZ_trees.png",
+   "file": "assets/f66cb6ad4476-72c7surz-trees.png",
+   "alt": "72C7sUrZ_trees",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- **Isomorphic graphs** are graphs which show the same information but which are drawn in different ways\n\n  - The number of vertices and the number of edges connected to each vertex are the same"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/cez4U8ia_isomorphic-graphs.png",
+   "file": "assets/7c5b7a1349ab-cez4u8ia-isomorphic-graphs.png",
+   "alt": "cez4U8ia_isomorphic-graphs",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- There are a lot of **specific terms** involved in graph theory\n\n  - You are often asked to describe these terms in an exam, so make sure you learn the definitions\n  - Note that in many cases there are **two terms** that describe the **same thing**!\n- Make sure that any graphs you draw are big and clear so they are easy for the examiner to read"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The graph *G* shown below is a connected, unweighted, directed graph with 5 vertices.\n\n![3-10-1-we](assets/d6ba5c041861-3-10-1-we.png)\n\na) Write down a cycle, starting at vertex A and visiting exactly 2 other vertices.\n\n**Answer:**\n\n> *A cycle starts and ends at the same vertex, with no other vertex visited more than once*\n*Two other vertices (from the 4 possibilities) need to be included*\n*The directed edges mean, in this case, there is only one such cycle*\n\n**Final answer:** ** ADCA**\n\nb) Write down a path, consisting of more than one edge, that starts at vertex A and ends at vertex B.\n\n**Answer:**\n\n> *A path is a walk that does not repeat any nodes*\n\n*You must only traverse edges in the directions indicated*** **\n\n**Final answer:** **ADCEB**\n\n> *A path does not have to visit every node (so ACEB or ABEB, for example, are also acceptable)*"
+  }
+ ]
+}

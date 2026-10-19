@@ -1,0 +1,128 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wbJRYPzKXpr4Jsqf",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/programming-paradigms/imperative-programming",
+ "title": "Imperative Programming",
+ "page_title": "Imperative Programming | CIE A Level Computer Science Revision",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "programming-paradigms",
+   "imperative-programming"
+  ],
+  "section": "20-further-programming-",
+  "topic": "programming-paradigms",
+  "leaf": "imperative-programming"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Programming Paradigms",
+  "subtopic": "Imperative Programming"
+ },
+ "updated_at": "2025-05-20T14:31:24.267Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Q68DDSHt6vwXm5TT"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 15,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Q68DDSHt6vwXm5TT",
+   "name": "Imperative programming (Procedural)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Imperative programming (Procedural)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I write imperative (procedural) code?"
+  },
+  {
+   "type": "bullets",
+   "md": "- High-level languages such as **Python, Java, and Visual Basic** support the imperative style\n- Imperative code can be made **more organised and readable** by using **structured programming principles**, such as dividing code into **functions and procedures**\n\n  - Before continuing, ensure you’re confident with the [basics of programming](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/11-programming-/programming-basics/pseudocode-basics/) logic and have a good understanding of [structured programming](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/11-programming-/structured-programming/procedures-and-functions/)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Imperative programming – pseudocode (no procedures or functions)"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Task**: Convert a temperature to:\n\n  - Fahrenheit from Celsius\n  - Celsius from Fahrenheit\n  - Kelvin from Celsius\n- **Rules**:\n\n  - No procedures or functions\n  - Use only **global variables**\n  - Use a top-down, sequential flow (basic imperative structure)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Imperative pseudocode"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Walkthrough – What’s happening?"
+  },
+  {
+   "type": "bullets",
+   "md": "- All variables are **declared globally**\n- The entire program is written as **one long block**\n- There is **no reusability** (e.g. if you want to convert again, you'd have to rerun the whole thing)\n- Changes to the program will likely lead to **code duplication** and harder maintenance"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Structured (procedural) programming – pseudocode"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Goal**: Rewrite the above code using **procedures or functions**, **local variables**, and **modular logic**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Walkthrough – what’s improved?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Logic is **divided into reusable blocks** (procedures)\n- Each procedure has **local variables**\n- The program is easier to **read**, **maintain**, and **extend**\n- Only one global variable (`choice`) is used for communication\n- Additional features (like repeating conversions or logging) can be added more easily"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Summary"
+  },
+  {
+   "type": "table",
+   "md": "| Feature | Imperative | Structured (Procedural) |\n|---|---|---|\n| Reusability | No reuse | Easy to reuse procedures |\n| Modularity | All logic in one block | Code divided into named units |\n| Readability | Can become unclear in longer code | Easier to understand each part |\n| Variables | All global | Mix of global and local |\n| Maintenance | Changes affect entire block | Easier to update specific parts |\n| Ideal for real-world apps? | Not ideal | Industry standard approach |"
+  }
+ ]
+}

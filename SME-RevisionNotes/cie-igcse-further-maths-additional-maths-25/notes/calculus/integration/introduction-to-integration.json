@@ -1,0 +1,162 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_MmrfspxFgG2T4NS7",
+ "course_slug": "cie-igcse-further-maths-additional-maths-25",
+ "url": "https://www.savemyexams.com/igcse/further-maths/cie/additional-maths/25/revision-notes/calculus/integration/introduction-to-integration",
+ "title": "Introduction to Integration",
+ "page_title": "Introduction to Integration | Cambridge (CIE) IGCSE Additional Maths Revision Notes 2023",
+ "path": {
+  "segs": [
+   "calculus",
+   "integration",
+   "introduction-to-integration"
+  ],
+  "section": "calculus",
+  "topic": "integration",
+  "leaf": "introduction-to-integration"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Integration",
+  "subtopic": "Introduction to Integration"
+ },
+ "updated_at": "2026-07-02T08:19:38.534Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_zHBZvh2CZth3D8dz"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\frac{dy}{dx}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 0"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "dx",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight d x"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space f left parenthesis x right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 16,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 4
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_zHBZvh2CZth3D8dz",
+   "name": "Introduction to Integration",
+   "definition": null,
+   "video_id": "814207078"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to integration"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is integration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Integration** is the opposite to **differentiation**\n- **Integration** is the process of finding the expression of a function from an expression of the **derivative **(**gradient** **function**)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the fundamental theorem of calculus?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.1-Notes-fig1.png",
+   "file": "assets/9b45bc4779ee-8-1-1-notes-fig1.png",
+   "alt": "Integration reverses differentiation",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The Fundamental Theorem of Calculus states that integration is the inverse process of differentiation\n\n  - This form of the Theorem relates to **Indefinite** **Integration**\n  - An alternative version of the Fundamental Theorem of Calculus involves **Definite Integration**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the constant of integration (+c)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When differentiating ***y***, constant terms ‘disappear’\n\n  - for constants ***y *****= *****c***, $\\frac{dy}{dx}=0$\n  - graphs of constants are horizontal lines and so have gradient** **of 0\n- Integrating $\\frac{dy}{dx}$, to get ***y***, cannot determine the constant\n\n  - To acknowledge this constant, “**+ *****c***” is used\n  - ***c*** is called the **constant** **of** **integration**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.1-Notes-fig2.png",
+   "file": "assets/21831a6b5f29-8-1-1-notes-fig2.png",
+   "alt": "Example of a family of functions that differentiate to the same function",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the notation for integration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An **integral** is normally written in the form"
+  },
+  {
+   "type": "paragraph",
+   "md": "`integral f left parenthesis x right parenthesis space straight d x`"
+  },
+  {
+   "type": "bullets",
+   "md": "- the large operator `integral` means “integrate”\n\n  - “$dx$” indicates which variable to integrate with respect to\n  - $f(x)$ is the function to be integrated\n- If it has more than one term the function to be integrated (called the **integrand**) should be in brackets\n\n  - “Integrate” -–  “**all** of (…)”  -–  “with respect to x”"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.1-Notes-fig3.png",
+   "file": "assets/755d0862334e-8-1-1-notes-fig3.png",
+   "alt": "Example of the notation for integration",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Example fig1, AS & A Level Maths revision notes](assets/72cc738e0799-8-1-1-example-fig1.png)"
+  }
+ ]
+}

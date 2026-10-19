@@ -1,0 +1,92 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_mYKc6qQTPxTCQ8t7",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/computer-architecture/cpu-instruction-sets",
+ "title": "CPU Instruction Sets",
+ "page_title": "Instruction Set (Opcode and Operand) IGCSE Computer Science",
+ "path": {
+  "segs": [
+   "3-hardware",
+   "computer-architecture",
+   "cpu-instruction-sets"
+  ],
+  "section": "3-hardware",
+  "topic": "computer-architecture",
+  "leaf": "cpu-instruction-sets"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Computer Architecture",
+  "subtopic": "CPU Instruction Sets"
+ },
+ "updated_at": "2026-01-05T13:05:10.616Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_CFyzx6dZ8HqXdGfY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 7,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_CFyzx6dZ8HqXdGfY",
+   "name": "CPU Instruction Sets",
+   "definition": "\"4 Understand the purpose and use of an instruction\nset for a CPU\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "CPU Instruction Sets"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an Instruction set?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An instruction set is a list of **all the commands** that can be **processed by a CPU**\n- Each command has a **binary code** which is called **machine code**\n- The table below shows an example instruction set\n- Each instruction has a **mnemonic** that indicates **what the instruction does** alongside an example binary code\n- After an instruction is decoded, the CPU** matches it to an instruction** in its instruction set\n- It then knows what operation to perform when executing the instruction"
+  },
+  {
+   "type": "table",
+   "md": "| Instruction | Mnemonic | Binary code | Command |\n|---|---|---|---|\n| **Add** | ADD | *10100001* | **Adds **a value to the value currently stored in the accumulator (ACC) |\n| **Subtract** | SUB | *00100010* | **Subtract **a value from the values stored in the accumulator |\n| **Load** | LDA | *10111111* | **Load **the value stored in a memory location into the accumulator |\n| **Store** | STA | *01100000* | **Store **the value in the accumulator in a specific location in memory |\n| **Stop** | HLT | *00000000* | **Stop **the program |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Instruction lists are **machine-specific**\n\n  - A program created using one computer’s instruction set would not run on a computer containing a processor made by a different manufacturer\n  - For example, a computer program created using Intel’s instruction set would not run on a device containing an ARM processor"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Using the instruction set in the table above, what operation would be performed if the instruction was *00100010 00000010*?\n\n**[1]**\n\n**Answer**\n\nEither of:\n\n- **The operation would be ****SUB**** ****[1]**\n- **This instruction subtracts a value from the value stored in the accumulator ****[1]**"
+  }
+ ]
+}

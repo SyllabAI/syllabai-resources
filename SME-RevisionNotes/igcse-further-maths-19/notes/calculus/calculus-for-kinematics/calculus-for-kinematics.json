@@ -1,0 +1,401 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_scDmfMTdqPpjQsW3",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/calculus-for-kinematics/calculus-for-kinematics",
+ "title": "Calculus for Kinematics",
+ "page_title": "Calculus for Kinematics | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "calculus-for-kinematics",
+   "calculus-for-kinematics"
+  ],
+  "section": "calculus",
+  "topic": "calculus-for-kinematics",
+  "leaf": "calculus-for-kinematics"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Calculus for Kinematics",
+  "subtopic": "Calculus for Kinematics"
+ },
+ "updated_at": "2024-10-20T15:52:44.111Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_VSCsG2N5Dv92vpKZ",
+  "spcpt_zXdKYDbwn48sk8Fm"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "v=\\frac{ds}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>s</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "v equals fraction numerator straight d s over denominator straight d t end fraction"
+  },
+  {
+   "latex": "a=\\frac{dv}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a equals fraction numerator straight d v over denominator straight d t end fraction"
+  },
+  {
+   "latex": "a=\\frac{d^{2}s}{dt^{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup><mi>s</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a equals fraction numerator straight d squared s over denominator straight d t squared end fraction"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "\\frac{dv}{dt}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d v over denominator straight d t end fraction equals 0"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "s(t)=2t^{3}-18t^{2}+48t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>t</mi><mn>3</mn></msup><mo>-</mo><mn>18</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>48</mn><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "s left parenthesis t right parenthesis equals 2 t cubed minus 18 t squared plus 48 t"
+  },
+  {
+   "latex": "t\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#8805;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t greater or equal than 0"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "v(t)=6t^{2}-36t+48",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">v</mi><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>t</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">t</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">36</mn><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">48</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic v stretchy left parenthesis t stretchy right parenthesis bold equals bold 6 bold italic t to the power of bold 2 bold minus bold 36 bold italic t bold plus bold 48"
+  },
+  {
+   "latex": "a(t)=12t-36",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">a</mi><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi>t</mi><mo stretchy=\"true\">)</mo></mstyle><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">12</mn><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">36</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic a begin bold style stretchy left parenthesis t stretchy right parenthesis end style bold equals bold 12 bold italic t bold minus bold 36"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t=2\\mathrm{or}t=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>2</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>or</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>t</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 2 space space space or space space space t equals 4"
+  },
+  {
+   "latex": "t=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic t bold equals bold 2"
+  },
+  {
+   "latex": "t=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic t bold equals bold 4"
+  },
+  {
+   "latex": "\\frac{dv}{dt}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d v over denominator straight d t end fraction equals 0"
+  },
+  {
+   "latex": "a=\\frac{dv}{dt}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals fraction numerator straight d v over denominator straight d t end fraction equals 0"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 3"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 3"
+  },
+  {
+   "latex": "=-6m/s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">6</mn><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\">/</mo><mi mathvariant=\"bold\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold equals bold minus bold 6 bold space bold m bold divided by bold s"
+  },
+  {
+   "latex": "v=\\frac{ds}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>s</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "v equals fraction numerator straight d s over denominator straight d t end fraction"
+  },
+  {
+   "latex": "a=\\frac{dv}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "a equals fraction numerator straight d v over denominator straight d t end fraction"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "v",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "v"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "v",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "v"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#8805;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t greater or equal than 0"
+  },
+  {
+   "latex": "vm/s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "v space straight m divided by straight s"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "-5m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>5</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "negative 5 space straight m"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "t=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 4"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "-5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "negative 5"
+  },
+  {
+   "latex": "c",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "c"
+  },
+  {
+   "latex": "t=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "t equals 4"
+  },
+  {
+   "latex": "=127m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">127</mn><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold equals bold 127 bold space bold m"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 54
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_VSCsG2N5Dv92vpKZ",
+   "name": "Differentiation for Kinematics",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Differentiation for Kinematics"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How is differentiation used in kinematics?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Displacement**, **velocity** and **acceleration** are related by calculus\n- In terms of differentiation and derivatives\n\n  - **velocity** is the **rate** of **change** of **displacement**\n  \n    - $v=\\frac{ds}{dt}$  (differentiate displacement to get velocity)\n  - **acceleration** is the **rate** of **change** of **velocity**\n  \n    - $a=\\frac{dv}{dt}$  (differentiate velocity to get acceleration)\n  - so **acceleration** is also the **second** **derivative** of **displacement**\n  \n    - $a=\\frac{d^{2}s}{dt^{2}}$  (differentiate displacement twice to get acceleration)\n- On a **graph** this means that\n\n  - **velocity** is the **gradient** on a **displacement-time** graph\n  - **acceleration** is the **gradient** on a **velocity-time)** graph\n- You can also use this to find **(local) minimum** **and maximum** values\n\n  - Exactly the **same** as using **calculus** to find other minimum and maximum values\n  - e.g. to find any local minimum or maximum values for **velocity**\n  \n    - look for times $t$ at which  $\\frac{dv}{dt}=0$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The displacement, $s$ metres, of a particle at time $t$ seconds, is modelled by  $s(t)=2t^{3}-18t^{2}+48t$,  $t\\geq0$.\n\n(a) Find expressions in terms of $t$ for the velocity and acceleration of the particle.\n\n> *Differentiate the displacement to find the velocity*\n\n> *Note that this 'powers of *$t$*' derivative works exactly the same way as a 'powers of *$x$*' derivative! *\n\n`table row v equals cell fraction numerator straight d s over denominator straight d t end fraction end cell row blank equals cell 2 open parentheses 3 t to the power of 3 minus 1 end exponent close parentheses minus 18 open parentheses 2 t to the power of 2 minus 1 end exponent close parentheses plus 48 end cell end table`\n\n$v(t)=6t^{2}-36t+48$\n\n> *Now differentiate the velocity to find the acceleration.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell fraction numerator straight d v over denominator straight d t end fraction end cell row blank equals cell 6 open parentheses 2 t to the power of 2 minus 1 end exponent close parentheses minus 36 end cell end table`\n\n$a(t)=12t-36$\n\n(b) Find the time(s) at which the particle is instantaneously at rest.\n\n> *'Instantaneously at rest' means that the velocity is zero*\n\n> *So solve *`v open parentheses t close parentheses equals 0`* for *$t$\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 t squared minus 36 t plus 48 end cell equals 0 row cell 6 open parentheses t squared minus 6 t plus 8 close parentheses end cell equals 0 row cell t squared minus 6 t plus 8 end cell equals 0 row cell open parentheses t minus 2 close parentheses open parentheses t minus 4 close parentheses end cell equals 0 end table`\n$t=2\\mathrm{or}t=4$\n\n**Final answer:** **The particle is at rest at **$t=2$** ****seconds and at **$t=4$** seconds**\n\n(c) Find the minimum velocity of the particle.\n\n> *First of all note that this is a different question from 'find the minimum **speed **of the particle'*\n*The answer to that would be zero, at the times found in part (b)!*\n\n> *The graph of  *`v open parentheses t close parentheses equals 6 t squared minus 36 t plus 48`*  is a 'u-shaped' parabola*\n\n> *So we know there is going to be a single minimum point*\n\n> *That minimum point will occur when *$\\frac{dv}{dt}=0$\n\n> *So start by solving  *$a=\\frac{dv}{dt}=0$*  for *$t$\n\n`table row cell 12 t minus 36 end cell equals 0 row cell 12 t end cell equals 36 row t equals 3 end table`\n\n> *So the minimum velocity occurs when *$t=3$\n\n> *(Note that, by the symmetry of quadratic graphs, that's halfway between the *$t$* values found in part (b)!)*\n\n> *Substitute *$t=3$* into *`v open parentheses t close parentheses`* to find the velocity at that time*\n\n> `table row cell v open parentheses 3 close parentheses end cell equals cell 6 open parentheses 3 close parentheses squared minus 36 open parentheses 3 close parentheses plus 48 end cell row blank equals cell 54 minus 108 plus 48 end cell row blank equals cell negative 6 end cell end table`* *\n\n**Final answer:** **Minimum velocity **$=-6m/s$** **"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_zXdKYDbwn48sk8Fm",
+   "name": "Integration for Kinematics",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integration for Kinematics"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How is integration used in kinematics?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Since **velocity** is the **derivative** of **displacement** ($v=\\frac{ds}{dt}$) it follows that\n\n  - `space s equals integral v space straight d t`\n  \n    - Integrate velocity to find displacement"
+  },
+  {
+   "type": "bullets",
+   "md": "- Similarly, since **acceleration** is the **derivative** of **velocity **($a=\\frac{dv}{dt}$)\n\n  - `space v equals integral a space straight d t`\n  \n    - Integrate acceleration to find velocity"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How can I find the constant of integration in kinematics problems?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Without further information **integration** can only find $s$ or $v$ 'up to a **constant of integration**'\n\n  - i.e.  `integral v open parentheses t close parentheses space straight d t equals s open parentheses t close parentheses plus c`\n  - and  `integral a open parentheses t close parentheses space straight d t equals v open parentheses t close parentheses plus c`\n- To find the value of $c$ we need **additional information**\n\n  - Usually this will be the **value** of $s$ or $v$ at a **particular time** $t$\n- Look out for the words **“initial”** or **“initially”**\n\n  - This refers to time  $t=0$\n- **Substitute** the known values into your integration answers for `s open parentheses t close parentheses` or `v open parentheses t close parentheses`\n\n  - and solve for $c$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Read the question closely to spot any given values at particular times\n\n  - These allow you to find the constant of integration\n  - Remember that 'initially' means $t=0$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A particle $P$ is moving along the $x$-axis.\n\nAt time $t$ seconds ($t\\geq0$) the velocity, $vm/s$, of $P$ is given by  `v open parentheses t close parentheses equals 6 t squared minus t plus 3`.\n\nWhen $t=0$, the displacement of $P$ from the origin is  $-5m$.\n\nFind the displacement of $P$ from the origin when  $t=4$.\n\n> *Start by integrating the velocity to find an expression for the displacement*\n\n> *Note that this 'powers of *$t$*' integral works exactly the same as a 'powers of *$x$*' integral*\n\n> *Don't forget the constant of integration!*\n\n`table row cell s open parentheses t close parentheses end cell equals cell integral open parentheses 6 t squared minus t plus 3 close parentheses space straight d t end cell row blank equals cell 6 open parentheses fraction numerator t to the power of 2 plus 1 end exponent over denominator 2 plus 1 end fraction close parentheses minus open parentheses fraction numerator t to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses plus 3 t plus c end cell row blank equals cell 2 t cubed minus 1 half t squared plus 3 t plus c end cell end table`\n\n> *We know that when *$t=0$*,  the displacement is  *$-5$\n\n> *Substitute these values in and solve for *$c$\n\n`table row cell s open parentheses 0 close parentheses end cell equals cell negative 5 end cell row cell 2 open parentheses 0 close parentheses cubed minus 1 half open parentheses 0 close parentheses squared plus 3 open parentheses 0 close parentheses plus c end cell equals cell negative 5 end cell row cell 0 plus c end cell equals cell negative 5 end cell row c equals cell negative 5 end cell end table`\n\n> *Now we have a precise expression for *`s open parentheses t close parentheses`\n\n`s open parentheses t close parentheses equals 2 t cubed minus 1 half t squared plus 3 t minus 5`\n\n> *Substitute in  *$t=4$*  to find the displacement at that time*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell s open parentheses 4 close parentheses end cell equals cell 2 open parentheses 4 close parentheses cubed minus 1 half open parentheses 4 close parentheses squared plus 3 open parentheses 4 close parentheses minus 5 end cell row blank equals cell 128 minus 8 plus 12 minus 5 end cell row blank equals 127 end table`\n\n**Final answer:** **Displacement **$=127m$"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_drjq6n3z58FR5Y3j",
+ "course_slug": "ial-maths-20-pure-4",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/revision-notes/binomial-expansion/general-binomial-expansion/approximating-values",
+ "title": "Approximating Values using the Binomial Expansion",
+ "page_title": "Approximating Values using the Binomial Expansion | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "binomial-expansion",
+   "general-binomial-expansion",
+   "approximating-values"
+  ],
+  "section": "binomial-expansion",
+  "topic": "general-binomial-expansion",
+  "leaf": "approximating-values"
+ },
+ "titles": {
+  "section": "Binomial Expansion",
+  "topic": "General Binomial Expansion",
+  "subtopic": "Approximating Values using the Binomial Expansion"
+ },
+ "updated_at": "2026-07-02T08:19:38.307Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_yBYp79bgMnQNPG7H",
+   "rnl_JqSWJMRM9wMtJmnc",
+   "rnl_rWpjsJrpMF8zRPWz"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_sgyKrvgcrwm34Pkz"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\sqrt{710}=10\\sqrt{7.1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msqrt><mn>710</mn></msqrt><mo>=</mo><mn>10</mn><msqrt><mn>7</mn><mo>.</mo><mn>1</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "square root of 710 equals 10 square root of 7.1 end root"
+  }
+ ],
+ "stats": {
+  "blocks": 13,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 1
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_sgyKrvgcrwm34Pkz",
+   "name": "Approximating Values",
+   "definition": "",
+   "video_id": "863891199"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Approximating values using the binomial expansion"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the general binomial expansion?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **general** **binomial** **expansion**, as given in the formula booklet, is"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.2.4-Approximating-values-Notes-Diagram-1.png",
+   "file": "assets/483fd0411b77-4-2-4-approximating-values-notes-diagram-1.png",
+   "alt": "Approximating values Notes Diagram 1, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- If **n ∈ ℕ** then the expansion is **finite** (see Binomial Expansion)\n- Otherwise the expansion is infinitely long\n\n  - It is only valid for **|x| < 1** (-1 < x < 1)\n  - Only the first few terms of an expansion are usually needed"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I use a binomial expansion to approximate a value?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.2.4-Approximating-values-Notes-Diagram-2.png",
+   "file": "assets/0299d3f789e2-4-2-4-approximating-values-notes-diagram-2.png",
+   "alt": "Approximating values Notes Diagram 2, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Ignoring higher powers of **x** leads to an approximation\n- The more terms the closer the approximation is to the true value\n- For most purposes, squared or cubed terms are accurate enough"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.2.4-Approximating-values-Notes-Diagram-3.png",
+   "file": "assets/c70ee9746da6-4-2-4-approximating-values-notes-diagram-3.png",
+   "alt": "Approximating values Notes Diagram 3, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "STEP 1  Compare the value you are approximating to (**a + bx**)<sup>**n**</sup>\nSTEP 2  Solve the appropriate equation to find the value of **x**\nSTEP 3  Substitute this value of **x** into the expansion to find the approximation"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- You can get a good idea if your approximation is correct by working out the “real” answer using your calculator.\n- Sometimes it helps to factorise out a number before approximating\n\n  - $\\sqrt{710}=10\\sqrt{7.1}$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Approximating values Example Diagram 1, A Level & AS Level Pure Maths Revision Notes](assets/50af12eddc70-4-2-4-approximating-values-example-diagram-1.png)\n\n![Approximating values Example Diagram 2, A Level & AS Level Pure Maths Revision Notes](assets/1328cb030996-4-2-4-approximating-values-example-diagram-2.png)\n\n![Approximating values Example Diagram 3, A Level & AS Level Pure Maths Revision Notes](assets/2c3546918c5f-4-2-4-approximating-values-example-diagram-3.png)"
+  }
+ ]
+}

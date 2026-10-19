@@ -1,0 +1,133 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jtqxrHmg2Kpv9FDK",
+ "course_slug": "ial-maths-20-mechanics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-2/revision-notes/kinematics-straight-line-motion/variable-acceleration-in-2d/using-calculus-in-2d",
+ "title": "Using Calculus in 2D",
+ "page_title": "Using Calculus in 2D | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "kinematics-straight-line-motion",
+   "variable-acceleration-in-2d",
+   "using-calculus-in-2d"
+  ],
+  "section": "kinematics-straight-line-motion",
+  "topic": "variable-acceleration-in-2d",
+  "leaf": "using-calculus-in-2d"
+ },
+ "titles": {
+  "section": "Kinematics (Straight Line Motion)",
+  "topic": "Variable Acceleration in 2D",
+  "subtopic": "Using Calculus in 2D"
+ },
+ "updated_at": "2026-07-02T08:19:38.264Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_mP6QWB7XtPc8czGq",
+   "rnl_vXZ4kwPmBZSjW7Pq",
+   "rnl_6XwmntBPPmgk3k6s"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_PpJkPWQ5HZHN3q3G"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>t</mi><mo>=</mo><mn>3</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style t equals 3 end style"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_PpJkPWQ5HZHN3q3G",
+   "name": "Using Calculus in 2D",
+   "definition": null,
+   "video_id": "893806806"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Using calculus in 2D"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Which quantities in kinematics are vectors?"
+  },
+  {
+   "type": "bullets",
+   "md": "- It is important you understand **Calculus in 1D** first\n- Also recall the differences between key **vector** and** scalar** quantities\n- ***Displacement***** **- from starting point\n- ***Distance***** **– from start/origin/another particle (all could be different)\n- ***Speed***** **and ***Velocity***\n- **acceleration **and **magnitude** of **acceleration**/**deceleration**\n- **time** is a scalar quantity"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I use calculus for 2D vectors?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To** differentiate** a vector:\n\n  - Differentiate both (**i** and **j**) components of the vector\n- **To integrate** a vector:\n\n  - Integrate both (**i** and **j**) components of the vector\n  - There will be a constant of integration, **c**, which will be a vector made up of two values (an **i**-component constant and a **j**-component constant)\n  - Find **c **by substituting in any known vectors, in the same way as you would if it were in 1D\n  \n    - Find the separate components of the vector **c** by equating the **i**-components and the **j**-components separately"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How is differentiation and integration related to displacement, velocity and acceleration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In 2D we normally use the vector **r **to represent displacement instead of s\n- Just like in 1D: ![2-4-1-using-calculus-in-2d-diagram-1](assets/dc1e52117b2c-2-4-1-using-calculus-in-2d-diagram-1.png)\n\n  - **Differentiate** displacement to get velocity and velocity to get acceleration\n  - **Integrate** acceleration to get velocity and velocity to get displacement"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How can 2D-vector questions be made harder?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Harder problems could involve:\n\n  - using Newton’s Second Law (N2L) **F = ***m***a**\n  - two vectors being equal requiring both **i** and **j** components to be equal\n  - exponentials, logarithms, trigonometric functions (not just polynomials)\n- suvat equations (in vector form) would only be involved if **acceleration is constant**\n- You may have to find the **magnitude** of the vectors\n\n  - The magnitude of the **velocity** is the **speed**\n  - The magnitude of the **displacement** is the **distance** from the **starting point**\n- The position vector of a particle is **r = r**<sub>**0**</sub>** + s**\n\n  - **r**<sub>**0**</sub> is the **initial position** of the particle\n  - **s **is the **displacement** of the particle from its initial position"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A ship moves with velocity,** v**  m s<sup>-1</sup>, where **v** = (2t)**i** + (e<sup>0.5t</sup>)**j**. Initially the ship has position vector (3**i **— 4**j**) m* *from a fixed origin* O*.\n\n(a)  Find an expression for the position vector of the ship after $t$ seconds.\n\n**Answer:**\n\n![2-4-1-using-calculus-in-2d-example-solution-a](assets/bcf3334d51d6-2-4-1-using-calculus-in-2d-example-solution-a.png)\n\n(b)  Find the magnitude of the acceleration when $t=3$ .\n\n**Answer:**\n\n![2-4-1-using-calculus-in-2d-example-solution-b](assets/e01404381868-2-4-1-using-calculus-in-2d-example-solution-b.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If the question refers to the direction that the particle is travelling, then you would use the velocity. If the **direction** **of** **motion** is asked for then it should be clear from the question whether they want an angle, bearing or vector which it is parallel to."
+  }
+ ]
+}

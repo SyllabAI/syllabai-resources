@@ -1,0 +1,90 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_68dk3QZ4ndYqsPhy",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/the-travelling-salesman-problem/solving-the-travelling-salesman-problem",
+ "title": "Solving the Travelling Salesman Problem",
+ "page_title": "Solving the Travelling Salesman Problem | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "the-travelling-salesman-problem",
+   "solving-the-travelling-salesman-problem"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "the-travelling-salesman-problem",
+  "leaf": "solving-the-travelling-salesman-problem"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "The Travelling Salesman Problem",
+  "subtopic": "Solving the Travelling Salesman Problem"
+ },
+ "updated_at": "2026-07-02T08:19:38.632Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_vM8dxJfRb45N35rV"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 6,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_vM8dxJfRb45N35rV",
+   "name": "Solving the Travelling Salesman Problem",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Solving the Travelling Salesman Problem"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I solve the travelling salesman problem?"
+  },
+  {
+   "type": "bullets",
+   "md": "- List **all** of the possible **Hamiltonian cycles** and find the cycle of **least weight**\n\n  - A complete graph with 3 vertices will have 2 possible Hamiltonian cycles\n  - A complete graph with 4 vertices will have 6 possible Hamiltonian cycles\n  - A complete graph with 5 vertices will have 24 possible Hamiltonian cycles\n  \n    - Although each of these values can be halved as each route will be the reverse of another route, e.g. DCBA is the reverse of the route ABCD\n- There is **no known algorithm** guaranteed to find the shortest Hamiltonian cycle in a graph\n\n  - This method is therefore only suitable for **small graphs**\n- A Hamiltonian cycle will only be the optimal solution if the graph is a **complete** graph\n\n  - So this solution method is only suitable for complete graphs\n- If you find a route where the **weight **is **equal **to the **lower bound** then this route is **optimal**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- You need to remember the difference between the** travelling salesman problem** and the **Chinese postman problem**\n\n  - The salesman is interested in selling at each destination (vertex)\n  - The postman wants to walk along every road (edge) in order to deliver the letters"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The network below contains six vertices representing villages and the edges (roads) that connect them. The weighting of the edges represents the time, in minutes, that it takes to walk along a particular road between two villages.\n\nThe dashed lines indicate the edges that are to be repeated to convert the network into a complete network.\n\n![complete-network](assets/b6b2a70b8711-complete-network.png)\n\nThe lower bound for the time taken to walk a route that visits every vertex and returns to the start vertex is 53 minutes.\n\nStarting from vertex A, find a route that shows that this is an optimal solution.\n\n**Answer:**\n\n> *Because the network has 6 vertices there will be 120 possible different Hamiltonian cycles*\n*This is too many to check!*\n\n> *You are told to start at vertex A and you are told to confirm that the route you have found is the optimal solution*\n*This means that it should have the same weight as the lower bound for the problem*\n*(An optimal solution can't be less than the lower bound, so if you find a solution that is equal to the lower bound it must be optimal)*\n\n> *Find a Hamiltonian cycle starting at vertex A*\n\n*AB (14)*\n*BF (9)*\n*EF (8)*\n*CE (6)*\n*CD (5)*\n*AD (11)*\n\n> *Calculate the total weight of the cycle*\n\n*14 + 9 + 8 + 6 + 5 + 11 = 53*\n\n**Final answer:** **The route ABFECDA has the same weight (53 minutes) as the lower bound of the problem,**\n**therefore it is an optimal solution**"
+  }
+ ]
+}

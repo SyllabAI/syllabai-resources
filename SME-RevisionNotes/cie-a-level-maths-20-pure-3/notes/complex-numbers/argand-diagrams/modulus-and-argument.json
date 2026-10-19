@@ -1,0 +1,532 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_2x9gDBS9kgChvkfV",
+ "course_slug": "cie-a-level-maths-20-pure-3",
+ "url": "https://www.savemyexams.com/a-level/maths/cie/20/pure-3/revision-notes/complex-numbers/argand-diagrams/modulus-and-argument",
+ "title": "Modulus & Argument",
+ "page_title": "Modulus-Argument Form - A Level Maths Revision Notes",
+ "path": {
+  "segs": [
+   "complex-numbers",
+   "argand-diagrams",
+   "modulus-and-argument"
+  ],
+  "section": "complex-numbers",
+  "topic": "argand-diagrams",
+  "leaf": "modulus-and-argument"
+ },
+ "titles": {
+  "section": "Complex Numbers",
+  "topic": "Argand Diagrams",
+  "subtopic": "Modulus & Argument"
+ },
+ "updated_at": "2026-07-02T08:19:38.129Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_zv93QdD93KmhHfnR",
+   "rnl_wp2QT2dWjDbzV7KM",
+   "rnl_QDr9ZffjVd9qQTTj",
+   "rnl_hjQbWsmr865PFGkR"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_CTzdQvyV74XgQhWs",
+  "spcpt_zp6rDS7x7nWFJG2K"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z"
+  },
+  {
+   "latex": "z=x+iy",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"normal\">i</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z equals x plus straight i y"
+  },
+  {
+   "latex": "z_{1}=3+4i",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn><mo>+</mo><mn>4</mn><mi mathvariant=\"normal\">i</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 equals 3 plus 4 straight i"
+  },
+  {
+   "latex": "z_{2}=-3+4i",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><mo>-</mo><mn>3</mn><mo>+</mo><mn>4</mn><mi mathvariant=\"normal\">i</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2 equals negative 3 plus 4 straight i"
+  },
+  {
+   "latex": "z_{1}+z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>+</mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 plus z subscript 2"
+  },
+  {
+   "latex": "8i",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi mathvariant=\"normal\">i</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "8 straight i"
+  },
+  {
+   "latex": "π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">π</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight pi"
+  },
+  {
+   "latex": "z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z"
+  },
+  {
+   "latex": "\\mathrm{arg}z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>arg</mi><mo> </mo><mi>z</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "arg space z"
+  },
+  {
+   "latex": "-π<\\mathrm{arg}z\\leqπ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>π</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>arg</mi><mo> </mo><mi>z</mi><mo> </mo><mo>≤</mo><mo> </mo><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative pi space less than space arg space z space less or equal than space pi"
+  },
+  {
+   "latex": "0\\leq\\mathrm{arg}z<2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>≤</mo><mi>arg</mi><mo> </mo><mi>z</mi><mo>&lt;</mo><mn>2</mn><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "0 space less or equal than arg space z less than 2 pi"
+  },
+  {
+   "latex": "\\mathrm{arg}0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>arg</mi><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "arg space 0"
+  },
+  {
+   "latex": "z=x+iy",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"normal\">i</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z equals x plus straight i y"
+  },
+  {
+   "latex": "z=x+iy",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"normal\">i</mi><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z equals x plus straight i y"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "θ=\\mathrm{arg}z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>θ</mi><mo>=</mo><mi>arg</mi><mo> </mo><mi>z</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta equals arg space z"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "θ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>θ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta"
+  },
+  {
+   "latex": "-π<θ\\leqπ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>π</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>≤</mo><mo> </mo><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative pi space less than space theta space less or equal than space pi"
+  },
+  {
+   "latex": "\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "1 half"
+  },
+  {
+   "latex": "0\\leqθ<2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>2</mn><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "0 space less or equal than space theta space less than space 2 pi"
+  },
+  {
+   "latex": "-θ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative theta"
+  },
+  {
+   "latex": "z_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1"
+  },
+  {
+   "latex": "z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2"
+  },
+  {
+   "latex": "z_{1}z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 z subscript 2"
+  },
+  {
+   "latex": "z_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1"
+  },
+  {
+   "latex": "z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2"
+  },
+  {
+   "latex": "\\frac{z_{1}}{z_{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 over z subscript 2"
+  },
+  {
+   "latex": "z_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1"
+  },
+  {
+   "latex": "z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2"
+  },
+  {
+   "latex": "z_{1}z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 z subscript 2"
+  },
+  {
+   "latex": "z_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1"
+  },
+  {
+   "latex": "z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2"
+  },
+  {
+   "latex": "\\frac{z_{1}}{z_{2}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 over z subscript 2"
+  },
+  {
+   "latex": "z_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1"
+  },
+  {
+   "latex": "z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2"
+  },
+  {
+   "latex": "\\mathrm{arg}(z_{1}z_{2})=\\mathrm{arg}z_{1}+\\mathrm{arg}z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>arg</mi><mo> </mo><mrow><mo>(</mo><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub><mo>)</mo></mrow><mo>=</mo><mi>arg</mi><mo> </mo><msub><mi>z</mi><mn>1</mn></msub><mo>+</mo><mi>arg</mi><mo> </mo><msub><mi>z</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "arg space left parenthesis z subscript 1 z subscript 2 right parenthesis equals arg space z subscript 1 plus arg space z subscript 2"
+  },
+  {
+   "latex": "z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><msub><mi>r</mi><mn>1</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 equals r subscript 1 left parenthesis cos space theta subscript 1 plus isin space theta subscript 1 right parenthesis"
+  },
+  {
+   "latex": "z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><msub><mi>r</mi><mn>2</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2 equals r subscript 2 left parenthesis cos space theta subscript 2 plus isin space theta subscript 2 right parenthesis"
+  },
+  {
+   "latex": "θ_{1}+θ_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta subscript 1 plus theta subscript 2"
+  },
+  {
+   "latex": "-π<θ\\leqπ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>π</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>≤</mo><mo> </mo><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative pi space less than space theta space less or equal than space pi"
+  },
+  {
+   "latex": "0\\leqθ<2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>2</mn><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "0 space less or equal than space theta space less than space 2 pi"
+  },
+  {
+   "latex": "2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 straight pi"
+  },
+  {
+   "latex": "θ_{1}=\\frac{2π}{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta subscript 1 equals fraction numerator 2 pi over denominator 3 end fraction"
+  },
+  {
+   "latex": "θ_{2}=\\frac{π}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta subscript 2 equals pi over 2"
+  },
+  {
+   "latex": "θ_{1}+θ_{2}=\\frac{7π}{6}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>2</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>7</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>6</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta subscript 1 plus theta subscript 2 space equals space fraction numerator 7 straight pi over denominator 6 end fraction"
+  },
+  {
+   "latex": "2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 straight pi"
+  },
+  {
+   "latex": "\\frac{7π}{6}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>7</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>6</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator 7 straight pi over denominator 6 end fraction"
+  },
+  {
+   "latex": "-\\frac{5π}{6}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mrow><mn>5</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>6</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative fraction numerator 5 straight pi over denominator 6 end fraction"
+  },
+  {
+   "latex": "z_{1}z_{2}z_{3}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub><msub><mi>z</mi><mn>3</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 z subscript 2 z subscript 3"
+  },
+  {
+   "latex": "z^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>z</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z squared"
+  },
+  {
+   "latex": "zz",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mi>z</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z z"
+  },
+  {
+   "latex": "z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><msub><mi>r</mi><mn>1</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 equals r subscript 1 left parenthesis cos space theta subscript 1 plus isin space theta subscript 1 right parenthesis"
+  },
+  {
+   "latex": "z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><msub><mi>r</mi><mn>2</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2 equals r subscript 2 left parenthesis cos space theta subscript 2 plus isin space theta subscript 2 right parenthesis"
+  },
+  {
+   "latex": "z_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1"
+  },
+  {
+   "latex": "z_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>z</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2"
+  },
+  {
+   "latex": "z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><msub><mi>r</mi><mn>1</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 equals r subscript 1 left parenthesis cos space theta subscript 1 plus isin space theta subscript 1 right parenthesis"
+  },
+  {
+   "latex": "z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><msub><mi>r</mi><mn>2</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2 equals r subscript 2 left parenthesis cos space theta subscript 2 plus isin space theta subscript 2 right parenthesis"
+  },
+  {
+   "latex": "θ_{1}-θ_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>-</mo><msub><mi>θ</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "theta subscript 1 minus theta subscript 2"
+  },
+  {
+   "latex": "-π<θ\\leqπ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>π</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>≤</mo><mo> </mo><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative pi space less than space theta space less or equal than space pi"
+  },
+  {
+   "latex": "0\\leqθ<2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>2</mn><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "0 space less or equal than space theta space less than space 2 pi"
+  },
+  {
+   "latex": "2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 straight pi"
+  },
+  {
+   "latex": "z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><msub><mi>r</mi><mn>1</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>1</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 1 equals r subscript 1 left parenthesis cos space theta subscript 1 plus isin space theta subscript 1 right parenthesis"
+  },
+  {
+   "latex": "z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><msub><mi>r</mi><mn>2</mn></msub><mo>(</mo><mi>cos</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>+</mo><mi>isin</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z subscript 2 equals r subscript 2 left parenthesis cos space theta subscript 2 plus isin space theta subscript 2 right parenthesis"
+  },
+  {
+   "latex": "2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "2 straight pi"
+  },
+  {
+   "latex": "-π<θ\\leqπ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>π</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>≤</mo><mo> </mo><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "negative pi space less than space theta space less or equal than space pi"
+  },
+  {
+   "latex": "0<θ\\leq2π",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>&lt;</mo><mo> </mo><mi>θ</mi><mo> </mo><mo>≤</mo><mo> </mo><mn>2</mn><mi>π</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "0 space less than space theta space less or equal than space 2 pi"
+  }
+ ],
+ "stats": {
+  "blocks": 24,
+  "figures": 3,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 68
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_CTzdQvyV74XgQhWs",
+   "name": "Modulus & Argument",
+   "definition": "",
+   "video_id": "894796919"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Modulus & argument"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the modulus of a complex number?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The modulus of a complex number is its **distance **from the origin when plotted on an Argand diagram\n- The modulus of $z$ is written `open vertical bar z close vertical bar`\n- If $z=x+iy$, then we can use **Pythagoras** to show…\n\n  - `open vertical bar z close vertical bar equals square root of x squared plus y squared end root`\n- A modulus is always **positive**\n- the modulus is related to the complex **conjugate** by…\n\n  - `z z to the power of asterisk times equals z to the power of asterisk times z equals open vertical bar z close vertical bar squared`\n  - This is because `z z to the power of asterisk times equals open parentheses x plus straight i y close parentheses open parentheses x minus straight i y close parentheses equals x squared plus y squared`\n- In general, `open vertical bar z subscript 1 plus z subscript 2 close vertical bar not equal to open vertical bar z subscript 1 close vertical bar plus vertical line z subscript 2 vertical line`\n\n  - e.g. both $z_{1}=3+4i$ and $z_{2}=-3+4i$ have a modulus of 5, but $z_{1}+z_{2}$ simplifies to $8i$ which has a modulus of 8"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/06/8-2-3_notes_fig1.png",
+   "file": "assets/aa88241b9f44-8-2-3-notes-fig1.png",
+   "alt": "8-2-3_notes_fig1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the argument of a complex number?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The argument of a complex number is the anti-clockwise **angle** that it makes when starting at the positive real axis on an Argand diagram\n- Arguments are measured in **radians**\n\n  - Sometimes these can be given exact in terms of $π$\n- The argument of $z$ is written $\\mathrm{arg}z$\n- Arguments can be calculated using right-angled **trigonometry**\n\n  - This involves using the tan ratio plus a sketch to decide whether it is positive/negative and acute/obtuse\n- Arguments are usually given in the range $-π<\\mathrm{arg}z\\leqπ$\n\n  - Negative arguments are for complex numbers in the third and fourth quadrants\n  - Occasionally you could be asked to give arguments in the range $0\\leq\\mathrm{arg}z<2π$\n- The argument of zero, $\\mathrm{arg}0$ is undefined (no angle can be drawn)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/06/8-2-3_notes_fig2.png",
+   "file": "assets/aeda3338f274-8-2-3-notes-fig2.png",
+   "alt": "8-2-3_notes_fig2",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![8-2-3_example_fig1-part-1](assets/7982bdddd1aa-8-2-3-example-fig1-part-1.png)\n\n![8-2-3_example_fig1-part-2](assets/4f189e455127-8-2-3-example-fig1-part-2.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Give non-exact arguments in radians to 3 significant figures."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_zp6rDS7x7nWFJG2K",
+   "name": "Modulus-Argument (Polar) Form",
+   "definition": "",
+   "video_id": "894796865"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Modulus-argument (polar) form"
+  },
+  {
+   "type": "paragraph",
+   "md": "The complex number $z=x+iy$ is said to be in Cartesian form. There are, however, other ways to write a complex number, such as in modulus-argument (polar) form."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I write a complex number in modulus-argument (polar) form?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **Cartesian form **of a complex number, $z=x+iy$, is written in terms of its real part, $x$, and its imaginary part, $y$\n- If we let `r equals vertical line z vertical line` and $θ=\\mathrm{arg}z$, then it is possible to write a complex number in terms of its modulus, $r$, and its argument, $θ$, called the **modulus-argument (polar) form**, given by...\n\n  - `z equals r open parentheses cos space theta plus isin space theta close parentheses`\n- It is usual to give arguments in the range $-π<θ\\leqπ$\n\n  - Negative arguments should be shown clearly, e.g. `z equals 2 open parentheses cos space open parentheses negative pi over 3 close parentheses plus isin space open parentheses negative pi over 3 close parentheses close parentheses`without simplifying `cos invisible function application left parenthesis negative pi over 3 right parenthesis`  to either `cos invisible function application open parentheses pi over 3 close parentheses` or $\\frac{1}{2}$\n  - Occasionally you could be asked to give arguments in the range $0\\leqθ<2π$\n- If a complex number is given in the form `z equals r open parentheses cos space theta minus isin space theta close parentheses`, then it is not currently in modulus-argument (polar) form due to the minus sign, but can be converted as follows…\n\n  - By considering transformations of trigonometric functions, we see that `negative sin invisible function application theta identical to sin invisible function application left parenthesis negative theta right parenthesis` and `cos invisible function application theta identical to cos invisible function application left parenthesis negative theta right parenthesis`\n  - Therefore `z equals r open parentheses cos invisible function application theta minus isin invisible function application theta close parentheses` can be written as `z equals r open parentheses cos invisible function application open parentheses negative theta close parentheses plus isin invisible function application open parentheses negative theta close parentheses close parentheses`, now in the correct form and indicating an argument of $-θ$\n- To convert from modulus-argument (polar) form back to Cartesian form, evaluate the real and imaginary parts\n\n  - E.g. `z equals 2 open parentheses cos invisible function application open parentheses negative pi over 3 close parentheses plus isin invisible function application open parentheses negative pi over 3 close parentheses close parentheses` becomes `z equals 2 open parentheses 1 half plus straight i open parentheses negative fraction numerator square root of 3 over denominator 2 end fraction close parentheses close parentheses equals 1 minus square root of 3 blank straight i`"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/06/8-2-3_notes_fig3.png",
+   "file": "assets/bcb7d3943b0c-8-2-3-notes-fig3.png",
+   "alt": "8-2-3_notes_fig3",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the rules for moduli and arguments under multiplication and division?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When two complex numbers, $z_{1}$ and $z_{2}$, are **multiplied** to give $z_{1}z_{2}$, their **moduli** are also **multiplied**\n\n  - `open vertical bar z subscript 1 z subscript 2 close vertical bar equals open vertical bar z subscript 1 close vertical bar vertical line z subscript 2 vertical line`\n- When two complex numbers, $z_{1}$ and $z_{2}$, are **divided** to give $\\frac{z_{1}}{z_{2}}$, their **moduli** are also **divided**\n\n  - `open vertical bar z subscript 1 over z subscript 2 close vertical bar equals fraction numerator open vertical bar z subscript 1 close vertical bar over denominator open vertical bar z subscript 2 close vertical bar end fraction`\n- When two complex numbers, $z_{1}$ and $z_{2}$, are **multiplied** to give $z_{1}z_{2}$, their **arguments** are **added**\n\n  - `arg space open parentheses z subscript 1 z subscript 2 close parentheses equals arg space z subscript 1 plus arg space z subscript 2`\n- When two complex numbers, $z_{1}$and $z_{2}$, are **divided** to give $\\frac{z_{1}}{z_{2}}$, their **arguments** are **subtracted**\n\n  - `arg space open parentheses z subscript 1 over z subscript 2 close parentheses equals arg space z subscript 1 minus arg space z subscript 2`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I multiply complex numbers in modulus-argument (polar) form?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The main benefit of writing complex numbers in modulus-argument (polar) form is that they multiply and divide very easily (often quicker than when in Cartesian form)\n- To **multiply** two complex numbers, $z_{1}$ and $z_{2}$, in modulus-argument (polar) form we use the rules from above to **multiply their moduli** and **add their arguments**\n\n  - `open vertical bar z subscript 1 z subscript 2 close vertical bar equals open vertical bar z subscript 1 close vertical bar open vertical bar z subscript 2 close vertical bar`\n  - $\\mathrm{arg}(z_{1}z_{2})=\\mathrm{arg}z_{1}+\\mathrm{arg}z_{2}$\n- So if $z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})$ and $z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})$ then the rules above give…\n\n  - `z subscript 1 z subscript 2 equals r subscript 1 r subscript 2 open parentheses cos space open parentheses theta subscript 1 plus theta subscript 2 close parentheses plus isin space open parentheses theta subscript 1 plus theta subscript 2 close parentheses close parentheses blank`\n- Sometimes the new argument, $θ_{1}+θ_{2}$, does not lie in the range $-π<θ\\leqπ$ (or  $0\\leqθ<2π$  if this is being used)\n\n  - An out-of-range argument can be adjusted by either **adding or subtracting **$2π$\n  - E.g. If $θ_{1}=\\frac{2π}{3}$ and $θ_{2}=\\frac{π}{2}$  then  $θ_{1}+θ_{2}=\\frac{7π}{6}$\n  \n    - This is currently not in the range , but by subtracting $2π$ from $\\frac{7π}{6}$ to give $-\\frac{5π}{6}$, a new argument is formed that lies in the correct range and represents the same angle on an Argand diagram\n- The rules of **multiplying the moduli** and **adding the arguments **can also be applied when…\n\n  - …multiplying three complex numbers together, $z_{1}z_{2}z_{3}$, or more\n  - …finding powers of a complex number (e.g. $z^{2}$ can be written as $zz$)\n- Whilst not examinable, the rules for multiplication can be proved algebraically by multiplying $z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})$ by $z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})$, expanding the brackets and using compound angle formulae"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I divide complex numbers in modulus-argument (polar) form?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To **divide** two complex numbers, $z_{1}$ and $z_{2}$ in modulus-argument (polar) form, we use the rules from above to **divide their moduli** and **subtract their arguments**\n\n  - `open vertical bar z subscript 1 over z subscript 2 close vertical bar blank equals fraction numerator open vertical bar z subscript 1 close vertical bar over denominator vertical line z subscript 2 vertical line end fraction`\n  - `arg space open parentheses z subscript 1 over z subscript 2 close parentheses equals arg space z subscript 1 minus arg space z subscript 2`\n- So if $z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})$ and $z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})$ then the rules above give…\n\n  - `z subscript 1 over z subscript 2 equals r subscript 1 over r subscript 2 open parentheses cos space open parentheses theta subscript 1 minus theta subscript 2 close parentheses plus isin space open parentheses theta subscript 1 minus theta subscript 2 close parentheses close parentheses blank`\n- As with multiplication, sometimes the new argument, $θ_{1}-θ_{2}$, can lie out of the range $-π<θ\\leqπ$ (or the range $0\\leqθ<2π$ if this is being used)\n\n  - You can **add or subtract **$2π$ to bring out-of-range arguments back in range\n- Whilst not examinable, the rules for division can be proved algebraically by dividing $z_{1}=r_{1}(\\mathrm{cos}θ_{1}+\\mathrm{isin}θ_{1})$ by $z_{2}=r_{2}(\\mathrm{cos}θ_{2}+\\mathrm{isin}θ_{2})$, using complex division and compound angle formulae"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![8-2-3_example_fig2-part-1](assets/244144250ac7-8-2-3-example-fig2-part-1.png)\n\n![8-2-3_example_fig2-part-2](assets/2456d29ddf87-8-2-3-example-fig2-part-2.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The rules for multiplying and dividing in modulus-argument (polar) form must be learnt (they are not given in the formula booklet).\n- Remember to add or subtract $2π$ to any out-of-range arguments to bring them back in range.\n- If a question does not give a clear range for arguments, then both $-π<θ\\leqπ$  or  $0<θ\\leq2π$  would be accepted."
+  }
+ ]
+}

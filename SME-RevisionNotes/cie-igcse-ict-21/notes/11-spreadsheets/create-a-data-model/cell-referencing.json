@@ -1,0 +1,149 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_DqjzY9PXhjjJQ8Km",
+ "course_slug": "cie-igcse-ict-21",
+ "url": "https://www.savemyexams.com/igcse/ict/cie/21/revision-notes/11-spreadsheets/create-a-data-model/cell-referencing",
+ "title": "Cell Referencing",
+ "page_title": "What is Cell Referencing - IGCSE ICT Revision Notes",
+ "path": {
+  "segs": [
+   "11-spreadsheets",
+   "create-a-data-model",
+   "cell-referencing"
+  ],
+  "section": "11-spreadsheets",
+  "topic": "create-a-data-model",
+  "leaf": "cell-referencing"
+ },
+ "titles": {
+  "section": "11. Spreadsheets",
+  "topic": "Create a Data Model",
+  "subtopic": "Cell Referencing"
+ },
+ "updated_at": "2024-05-16T14:08:29.060Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_CcDDQ67qdqwpvVpW",
+  "spcpt_mG3CvrFX2DwjmnD5"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_CcDDQ67qdqwpvVpW",
+   "name": "Relative",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Relative"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an relative cell reference?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A relative cell reference means that when a formula is copied** the cell reference can change**\n- The reference is** relative to the cell** containing the formula\n- It is the **default cell referencing** used in spreadsheets"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**"
+  },
+  {
+   "type": "bullets",
+   "md": "- Consider the following example spreadsheet:"
+  },
+  {
+   "type": "table",
+   "md": "|   | **A** | **B** | **C** |\n|---|---|---|---|\n| **1** | 10 | 20 |   |\n| **2** | 5 | 15 |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- When you copy a formula that includes a relative cell reference, spreadsheet software **adjusts the reference** relative to the new location\n- For example, if you copy the formula **\"=A1+B1**\" from cell **C1** to **C2**, the formula will adjust to \"**=A2+B2**\""
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the benefits of relative cell references?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Relative cell references** saves time** by automatically adjusting references when being copied, **improving efficiency**\n- Relative cell references are **flexible **and allow users to create formulas that can be **used on a range of data**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_mG3CvrFX2DwjmnD5",
+   "name": "Absolute",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Absolute"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an absolute cell reference?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An absolute cell reference means that when a formula is copied **the cell reference does not change**\n- Absolute cell references are fixed **using the \\$ symbol**"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example**"
+  },
+  {
+   "type": "bullets",
+   "md": "- Consider the following example spreadsheet:"
+  },
+  {
+   "type": "table",
+   "md": "|   | **A** | **B** | **C** |\n|---|---|---|---|\n| **1** | 10 | 20 |   |\n| **2** | 5 | 15 |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- If you input the formula \"**=A1+B1**\" in cell **C1** and drag the fill handle down to copy the formula to cell **C2**, the formula in **C2 **will change to \"**=A2+B2**\"\n- But if you input the formula \"**=\\$A\\$1+B1**\" in cell **C1** and drag the fill handle down, the formula in C2 will still refer to cell A1: \"**=\\$A\\$1+B2**\""
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the benefits of absolute cell references?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Absolute cell reference **provide consistency** in a spreadsheet, for example:\n\n  - **Calculations using a tax rate (fixed) that you want consistently applied across the spreadsheet**\n- Absolute cell references **provide clarity **in formulas, they become **easier to understand**"
+  }
+ ]
+}

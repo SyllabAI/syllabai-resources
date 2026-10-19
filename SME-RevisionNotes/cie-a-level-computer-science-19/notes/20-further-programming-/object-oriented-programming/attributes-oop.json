@@ -1,0 +1,165 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_TxWcNrKSmB2Vc4dS",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/object-oriented-programming/attributes-oop",
+ "title": "Attributes (OOP)",
+ "page_title": "Attributes (OOP) | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "20-further-programming-",
+   "object-oriented-programming",
+   "attributes-oop"
+  ],
+  "section": "20-further-programming-",
+  "topic": "object-oriented-programming",
+  "leaf": "attributes-oop"
+ },
+ "titles": {
+  "section": "20. Further Programming",
+  "topic": "Object-Oriented Programming",
+  "subtopic": "Attributes (OOP)"
+ },
+ "updated_at": "2025-05-21T08:04:18.177Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_QWTDqxYwBJvHtwdr",
+  "spcpt_9Mk8TpVF2qDYpJrn"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 21,
+  "figures": 3,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_QWTDqxYwBJvHtwdr",
+   "name": "Attributes (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Attributes (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an attribute?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In object-oriented programming (OOP), an attribute refers to **a data member or a property associated with** an ***object*** or a ***class***\n- They define the **state of an object** and can have different values for different instances of the same class\n- Attributes can be of** various data types**, such as integers, strings, Booleans, or even other objects\n- Attributes can have **different access rights**"
+  },
+  {
+   "type": "bullets",
+   "md": "- The example below shows a Car class object with an attribute called manufacturer\n- It has a private access meaning that it can be accessed only by instances of the Car class\n- The data that this attribute will hold must be of the String data type"
+  },
+  {
+   "type": "bullets",
+   "md": "- The image below gives a visual representation of an object of this class being instantiated with a data value of “Ford” :"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/objectford.png",
+   "file": "assets/bb33730b2107-objectford.png",
+   "alt": "An example instance of an object",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***An example instance of an object***"
+  },
+  {
+   "type": "bullets",
+   "md": "- In most cases each class has many different attributes\n- Below is an example of an object of class \"person\":"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/objectperson.png",
+   "file": "assets/7763ba763dd5-objectperson.png",
+   "alt": "Example of an object of class \"person\"",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Example of an object of class \"person\"***"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Attributes declared within methods (local variables) cannot have access modifiers because they are local to the method and have a limited scope\n- Local variables are only accessible within the block or method in which they are declared. They are not part of the class's state and cannot be accessed from other methods or classes"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_9Mk8TpVF2qDYpJrn",
+   "name": "Programming attributes (OOP)",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Programming attributes (OOP)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you program attributes?"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Pseudocode"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/09/attributes-psuedo.png",
+   "file": "assets/7a237d22e2d4-attributes-psuedo.png",
+   "alt": "Example of a created class, \"Person\", containing several attributes",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Example of a created class, \"Person\", containing several attributes***"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Java"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Python"
+  },
+  {
+   "type": "bullets",
+   "md": "- In Python attributes are defined using the `self` keyword followed by the attribute name and its initial value"
+  }
+ ]
+}

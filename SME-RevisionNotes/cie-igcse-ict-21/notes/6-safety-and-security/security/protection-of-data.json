@@ -1,0 +1,294 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_bksnygCyMWPRJqXB",
+ "course_slug": "cie-igcse-ict-21",
+ "url": "https://www.savemyexams.com/igcse/ict/cie/21/revision-notes/6-safety-and-security/security/protection-of-data",
+ "title": "Protection of Data",
+ "page_title": "Protection of Data in ICT - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "6-safety-and-security",
+   "security",
+   "protection-of-data"
+  ],
+  "section": "6-safety-and-security",
+  "topic": "security",
+  "leaf": "protection-of-data"
+ },
+ "titles": {
+  "section": "6. Safety & Security",
+  "topic": "Security",
+  "subtopic": "Protection of Data"
+ },
+ "updated_at": "2025-04-15T14:14:48.334Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_cYsfKzWgJcH44FWY",
+  "spcpt_w98bjGDpX6678ZpV",
+  "spcpt_zmMx98WxTTWfGyQc",
+  "spcpt_qM6DZ5KMmDWKNWyW",
+  "spcpt_rxvr358hd2WDFwTc",
+  "spcpt_HP7hTmYVNHnsp976",
+  "spcpt_Xg9jQSq2f43Xvdk3",
+  "spcpt_57ySpyqywDCJdFdX"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 47,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_cYsfKzWgJcH44FWY",
+   "name": "Protection of Data",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Protection of Data"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How can data be kept securely?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data can be held securely by storing it in an **encrypted format** and ensuring **authentication** is being used\n- This goes a long way to ensuring that **only trusted sources **can access the data\n- There are a number of ways to store data securely, these include:\n\n  - **Biometrics**\n  - **Digital certificate**\n  - **Secure socket layer (SSL)**\n  - **Encryption**\n  - **Firewall**\n  - **Two-factor authentication**\n  - **Usernames & passwords**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_w98bjGDpX6678ZpV",
+   "name": "Biometrics",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Biometrics"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are biometrics?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Biometrics are a way of authenticating a user by using their **unique human characteristics**\n- Some of the ways biometrics can be used are:\n\n  - **Fingerprint scans**\n  - **Retina scans**\n  - **Facial recognition**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the benefits of using biometrics?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Biometric data is unique to the person and can not be copied, meaning that the data is always with the person\n- Passwords can be easily copied, forgotten, guessed or cracked\n- It is difficult to copy or forge biometric data\n- Biometrics eliminates the possibility of attacks such as shoulder surfing and  key-logging software\n- Biometrics of a high degree of accuracy as there is no known way to copy a person's retina pattern for example"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the drawbacks of using biometrics?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Collecting biometric data can be intrusive, for example, scanning eyes\n- Scans be not be recognised, an example of could be fingerprint scans with dirty hands\n- Retina and iris recognition is very expensive to install\n- Low light can provide an issue for facial recognition as well as hats and glasses\n- people may be uncomfortable having their most unique characteristics being stored in a database"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_zmMx98WxTTWfGyQc",
+   "name": "Digital certificate",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Digital certificate"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a digital certificate?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A digital certificate is a digital file used to prove who stores the *public key*\n- The public key works alongside a private key to encrypt and decrypt the data so that all content is secure\n- Digital certificates are given by trusted companies to ensure they are real and safe"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is included in a digital certificate?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Digital certificates contain a lot of information, some of this includes:\n\n  - **Public key**: The key associated with the holder\n  - **Subject information**: Details about the holder\n  - **Issuer information**: This identifies the certificate authority (CA)\n  - **Validity period**: The start and end date for the certificate to remain valid\n  - **Serial number**: A unique number to identify the certificate\n  - **Signature algorithm**: The algorithm used by the CA to sign the certificate\n  - **Digital signature**: The CA's signature to prove the certificate was issued by them"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_qM6DZ5KMmDWKNWyW",
+   "name": "Secure Socket Layer (SSL)",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Secure Socket Layer (SSL)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is SSL?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Secure Socket Layer (**SSL**) is a** security protocol **which is used to **encrypt data** transmitted **over the internet**\n- This helps to prevent **eavesdropping **and other forms of **interception**\n- SSL is widely used to protect **online transactions**, such as those involving credit card information or other sensitive data\n- It works by sending a **digital certificate **to the user’s browser\n- This contains the **public key** which can be used for **authentication**\n- Once the certificate is authenticated, the transaction will begin"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(i) ) Identify a security solution that could be used to protect a computer from a computer virus, hacking and spyware.\n\nEach security solution must be different\n\n| Threat | Security solution |\n|---|---|\n| **Phishing** |   |\n| **DDoS attack** |   |\n| **Hacking** |   |\n\n**[3]**\n\n(ii) Describe how each security solution you identified in (i) will help protect the computer.\n\n**[6]**\n\n**Answers**\n\n(i)\n\n| Threat | Security solution |\n|---|---|\n| **Phishing** | **Final answer:** **Monitoring communication** |\n| **Brute force attack** | **Final answer:** **Authentication** |\n| **Hacking** | **Final answer:** **Firewall/Biometrics** |\n\n(ii) **Two **marks for each description\n\n- **Monitoring communication**\n\n  - **Checking for spelling & grammar errors**\n  - **Reading tone, is the user being rushed? // is the user made to panic?**\n- **Authentication**\n\n  - **Checks the user is they say they are**\n  - **Captcha proves they are not a bot**\n  - **Passwords lockout after a set number of attempts**\n- **Firewall**\n\n  - **Monitors traffic coming into and out of the computer system**\n  - **Checks that the traffic meets any criteria/rules set**\n  - **Blocks any traffic that does not meet the criteria/rules set // set blacklist/whitelist**\n- **Biometrics**\n\n  - **Data needed to enter is unique to individual**\n  - **… therefore it is very difficult to replicate**\n  - **Lock out after set number of attempts**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_rxvr358hd2WDFwTc",
+   "name": "Encryption",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Encryption"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is encryption?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Encryption is a method of converting plain text into **ciphered text** to be stored\n- Encryption uses complex mathematical algorithms to scramble the text\n- Asymmetric encryption, also known as private key, public key encryption is often used for web pages and other communication"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What form of attack would this prevent?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Encryption plays a role in all forms of attack on a network\n- It is important to note that it **does not prevent the attacks** from occurring but it does stop the attacker from gaining access to the information"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_HP7hTmYVNHnsp976",
+   "name": "Firewall",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Firewall"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a firewall?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A firewall is a **barrier** between a network and the internet\n- A firewall prevents **unwanted traffic** from entering a network by filtering requests to ensure they are **legitimate**\n- It can be both **hardware** and **software** and they are often used together to provide stronger security to a network\n\n  - Hardware firewalls will protect the whole network and prevent unauthorised traffic\n  - software firewalls will protect the individual devices on the network, monitoring the data going to and from each computer"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What form of attack would this prevent?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Hackers**\n- **Malware**\n- **Unauthorised Access to a Network**\n- **DOS/DDOS attacks**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Xg9jQSq2f43Xvdk3",
+   "name": "Two-factor authentication",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Two-factor authentication"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is two-factor authentication (2FA)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- 2FA is a security measure that **requires users to provide two separate forms** of **identification **to **verify their identity**\n- The purpose of 2FA is to **add an extra layer** of security beyond just a username and password\n- It usually involves a combination of something the** user knows (password), **something the** **user has such as a **smartphone **using** SMS **or an **authenticator application**\n- **The two stages of two-factor authentications are:**\n\n  1. the user enters a username and password / pin number\n  2. The user enters a 1 time unique pin number sent to their mobile device"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_57ySpyqywDCJdFdX",
+   "name": "Username & Password",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Username & Password"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are passwords?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Passwords are a **digital lock** to prevent unauthorised access to an account\n- They are often stored as an **encrypted/ciphered** text entry in a database, ensuring that even with unauthorised access to a database, a hacker would not be able to gain access to the individual passwords of users\n- **Strong passwords **and** regular password changes **are important to maintain security\n- To maintain a strong password, it is recommended to use a **combination of uppercase **and **lowercase letters**, **numbers**, and **special characters**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What form of attack would this prevent?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Data Interception and Theft**\n- **Physical Security Issues**\n- **SQL Injection**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the advantages and disadvantages of using passwords?"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| - Strong passwords are difficult to crack<br>- Regularly changing passwords increases the security<br>- Using a range of passwords over the system will prevent or slow unauthorised access to the full system | - Passwords that are too complex can be harder to remember<br>- Too many passwords are hard to remember<br>- It is harder to choose unique passwords if a user is forced to regularly update them<br>- Hackers can break most passwords using brute force attacks |"
+  }
+ ]
+}

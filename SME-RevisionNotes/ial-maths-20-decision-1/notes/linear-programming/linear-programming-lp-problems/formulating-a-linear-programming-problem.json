@@ -1,0 +1,262 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_cwNTzx84k6Dk6Wy8",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/linear-programming/linear-programming-lp-problems/formulating-a-linear-programming-problem",
+ "title": "Formulating a Linear Programming Problem",
+ "page_title": "Formulating a Linear Programming Problem | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "linear-programming",
+   "linear-programming-lp-problems",
+   "formulating-a-linear-programming-problem"
+  ],
+  "section": "linear-programming",
+  "topic": "linear-programming-lp-problems",
+  "leaf": "formulating-a-linear-programming-problem"
+ },
+ "titles": {
+  "section": "Linear Programming",
+  "topic": "Linear Programming (LP) Problems",
+  "subtopic": "Formulating a Linear Programming Problem"
+ },
+ "updated_at": "2026-07-02T08:19:38.468Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_54K9jGM5NpNxkjnW",
+  "spcpt_b3g5Xvr72HJrHwrr",
+  "spcpt_5M4cNk3PtSgwyT9F"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x,y,z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>,</mo><mo>&#160;</mo><mi>z</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x comma space y comma space z"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P"
+  },
+  {
+   "latex": "C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "C"
+  },
+  {
+   "latex": "C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "C"
+  },
+  {
+   "latex": "x,y\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>&#8805;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x comma space y greater or equal than 0"
+  },
+  {
+   "latex": "2x+4y\\leq8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>&#8804;</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "2 x plus 4 y less or equal than 8"
+  },
+  {
+   "latex": "x+2y\\leq4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>&#8804;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x plus 2 y less or equal than 4"
+  },
+  {
+   "latex": "x,y\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>&#8805;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x comma space y greater or equal than 0"
+  },
+  {
+   "latex": "x,y\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>&#8805;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "x comma space y greater or equal than 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "x+y\\leq10",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>&#8804;</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x plus y less or equal than 10"
+  },
+  {
+   "latex": "x+2y\\leq18",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>&#8804;</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x plus 2 y less or equal than 18"
+  },
+  {
+   "latex": "3x+2y\\leq24",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>&#8804;</mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "3 x plus 2 y less or equal than 24"
+  },
+  {
+   "latex": "P=30x+40y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>30</mn><mi>x</mi><mo>+</mo><mn>40</mn><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P equals 30 x plus 40 y"
+  },
+  {
+   "latex": "P=30x+40y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">P</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">30</mn><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">40</mn><mi mathvariant=\"bold-italic\">y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold italic P bold equals bold 30 bold italic x bold plus bold 40 bold italic y"
+  }
+ ],
+ "stats": {
+  "blocks": 22,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 19
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_54K9jGM5NpNxkjnW",
+   "name": "Introduction to Linear Programming",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Linear Programming"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is linear programming?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Linear programming,** often abbreviated to **LP,** is a means of solving problems that\n\n  - involve working with a set of **constraints**\n  - require a quantity to be **maximised** or **minimised**\n- Typical uses of linear programming problems including finance and manufacturing\n\n  - For example, a furniture manufacturer may make a mixture of chairs and tables\n  \n    - They would want to **minimise** their **costs** (of raw materials, manufacturing time)\n    - They would want to **maximise** their **profit** (chairs may make more profit than tables)\n    - They may have restrictions **(constraints)** such as build time and the amount of raw materials available"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_b3g5Xvr72HJrHwrr",
+   "name": "Decision Variables in Linear Programming",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Decision Variables in Linear Programming"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are decision variables?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In a linear programming problem, **decision variables** are the quantities that can be **varied**\n\n  - $x,y,z$ are usually used as the decision variables\n  - E.g. A furniture manufacturer could produce $x$ chairs and $y$ tables per week\n- Varying the **decision variables** will vary the quantity that is to be maximised or minimised\n\n  - E.g. 12 chairs and 3 tables may lead to a profit of £200\n  - or 3 chairs and 12 tables may lead to a profit of £160\n- The values that the **decision variable** may take will depend upon the **constraints**\n\n  - A furniture manufacturer can't make endless chairs and tables to gain unlimited profit!"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the objective function in a linear programming problem?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **objective function** is the quantity in a linear programming problem that requires **optimising**\n\n  - The objective of a furniture manufacturer may be to **maximise** its **profits**\n  - They may also wish to **minimise** their **costs**\n- The objective function is the **aim** of a linear programming problem\n\n  - It is a function of the **decision variables**\n  - $P$ is usually used for **maximising** problems ($P$, profit)\n  - $C$ is usually used for **minimising** problems ($C$, costs)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_5M4cNk3PtSgwyT9F",
+   "name": "Constraints & Inequalities in Linear Programming",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Constraints & Inequalities in Linear Programming"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are constraints in linear programming?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **constraints** in a linear programming problem are the **restrictions** the problem is contained within\n\n  - Mathematically, constraints are represented by **inequalities** involving the** decision variables**\n  - E.g. Constraints for a furniture manufacturer could include glue drying time or the amount of paint available\n- Decision variables are usually zero or positive as they represent a 'number of things'\n\n  - The constraint $x,y\\geq0$ is usually included\n  - This is called the **non-negativity** constraint"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I formulate a linear programming problem?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Formulating a linear programming problems involves\n\n  - Defining the **decision variables**\n  - Deducing the **constraints** as inequalities\n  - Determining the **objective function**\n  - Writing the problem out formally"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\n**Define** the **decision variables**\n\n  - Read the question carefully to gather what quantities can be varied\n  - Typically these will be a 'number of things'"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 2**\nWrite each **constraint** (given in words) as a mathematical **inequality**\n\n  - Where possible, inequalities should be simplified, e.g.  $2x+4y\\leq8$ simplifies to $x+2y\\leq4$\n  - Each inequality will be in terms of the decision variables"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 3**\nDetermine the **objective function**\n\n  - This will be the quantity that is required to be maximised or minimised\n  - Typically this would be maximising profit or minimising costs"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 4**\nFormulate the** linear programming problem** by writing it in a formal manner\n\n  - This is of the form\n  Maximise\n       <objective function>\n  subject to\n       <constraints>\n  - Include the non-negativity constraint, e.g.  $x,y\\geq0$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- When writing a formal linear programming problem\n\n  - whether specified or not, and where appropriate, always include the **non-negativity constraint**\n  - $x,y\\geq0$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A furniture manufacturer makes chairs and tables.\n\nDue to the availability of quality timber, on any particular day the manufacturer cannot make more than a total of 10 chairs and tables.\n\nA chair takes an hour to produce whilst a table takes 2 hours to produce.  The manufacturer's factory can produce items for a maximum of 18 hours per day.\n\nThe varnish on a chair takes 3 hours to dry whilst the varnish on a table takes 2 hours to dry.  There are four drying zones within the factory, each able to provide 6 hours of drying time per day.\n\nThe manufacturer makes £30 profit on each chair it produces in a day, and £40 profit on each table.  The manufacturer wants to maximise its daily profit.\n\nFormulate the above as a linear programming problem, defining the decision variables, stating the objective function and listing the constraints.\n\n**Answer:**\n\n- *STEP 1*\n*Define the decision variables*\n*The 'things' that can be varied here are the number of chairs and the number of tables that are made per day*\n\n*Let *$x$* be the number of chairs made by the furniture manufacturer per day*\n*Let *$y$* be the number of tables made by the furniture manufacturer per day*\n\n- *STEP 2*\n*Write each constraint (given in words) as an inequality*\n*The first constraint is the total amount of chairs and tables able to be made in a day*\n\n$x+y\\leq10$\n\n> *The second constraint is the production time*\n*Chairs take one hour, tables take two with a maximum of 18 hours available per day*\n\n$x+2y\\leq18$\n\n> *The third constraint is the varnish drying time*\n*This is 3 hours for a chair, 2 hours for a table*\n*The maximum drying time per day available is 4 x 6 = 24 hours*\n\n$3x+2y\\leq24$\n\n- *STEP 3*\n*Determine the objective function*\n*Profit is to be maximised*\n\n$P=30x+40y$\n\n- *STEP 4*\n*Formulate the linear programming problem by writing it in a formal manner, including the non-negativity constraint*\n\n**Final answer:** **Maximise                              **\n\n$P=30x+40y$\n\n**Final answer:** **subject to                              **\n\n`table row cell bold italic x bold plus bold italic y end cell bold less or equal than bold 10 row cell bold italic x bold plus bold 2 bold italic y end cell bold less or equal than bold 18 row cell bold 3 bold italic x bold plus bold 2 bold italic y end cell bold less or equal than bold 24 row cell bold italic x bold comma bold space bold italic y end cell bold greater or equal than bold 0 end table`"
+  }
+ ]
+}

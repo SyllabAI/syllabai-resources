@@ -1,0 +1,90 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RFWNMcqbKBrVssWg",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-and-graph-theory/graphs/hamiltonian-graphs",
+ "title": "Hamiltonian Graphs",
+ "page_title": "Hamiltonian Graphs | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-and-graph-theory",
+   "graphs",
+   "hamiltonian-graphs"
+  ],
+  "section": "algorithms-and-graph-theory",
+  "topic": "graphs",
+  "leaf": "hamiltonian-graphs"
+ },
+ "titles": {
+  "section": "Algorithms & Graph Theory",
+  "topic": "Graphs",
+  "subtopic": "Hamiltonian Graphs"
+ },
+ "updated_at": "2026-07-02T08:19:38.466Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Y6ZGFfHSfjhqhh5t"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 6,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Y6ZGFfHSfjhqhh5t",
+   "name": "Identifying a Hamiltonian Cycle",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Identifying a Hamiltonian Cycle"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are Hamiltonian paths and cycles?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **Hamiltonian path** is a path in which each **vertex** in a graph is visited **exactly once**\n- A **Hamiltonian cycle** is a cycle which visits each **vertex** in a graph **exactly once** and** **returns to its** start vertex**\n- If a graph contains a **Hamiltonian cycle** then it is known as a **Hamiltonian graph**\n- A graph is** semi-Hamiltonian **if it contains a** Hamiltonian path **but not a** Hamiltonian cycle**\n- The only way to show that a graph is** Hamiltonian **or **semi-Hamiltonian **is to identify a **Hamiltonian cycle **or** Hamiltonian path**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If you are given an adjacency matrix and are asked to find a Hamiltonian cycle, make sure that you sketch out the graph first"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Let *G* be the graph shown below.\n\n![3-10-5-ib-ai-hl-travelling-salesman-problem-we-1](assets/e322364e9103-3-10-5-ib-ai-hl-travelling-salesman-problem-we-1.png)\n\nShow that *G* is a Hamiltonian graph.\n\n**Answer:**\n\n> *To show that the graph is Hamiltonian, identify a Hamiltonian cycle*\n\n**Final answer:** **ABCFDEA is a Hamiltonian cycle, therefore ****G**** is a Hamiltonian graph**\n\n> *There is more than one possible correct Hamiltonian cycle in this graph*"
+  }
+ ]
+}

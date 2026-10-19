@@ -1,0 +1,209 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Qvg8vXCv28MMmp3k",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/types-and-methods-of-data-transmission/data-transmission",
+ "title": "Data Transmission",
+ "page_title": "Data Transmission - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "2-data-transmission",
+   "types-and-methods-of-data-transmission",
+   "data-transmission"
+  ],
+  "section": "2-data-transmission",
+  "topic": "types-and-methods-of-data-transmission",
+  "leaf": "data-transmission"
+ },
+ "titles": {
+  "section": "2. Data Transmission",
+  "topic": "Types & Methods of Data Transmission",
+  "subtopic": "Data Transmission"
+ },
+ "updated_at": "2025-11-28T05:57:29.987Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_jk5xWZ6FcD2GKHYK",
+  "spcpt_kSWh6RscsNv3C9kc"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 31,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is data transmission?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data transmission is the process of** transferring data from one device to another **using a **wired **or **wireless **connection\n- **Wired **data transmission can be completed in two ways:\n\n  - **Serial **\n  - **Parallel**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_jk5xWZ6FcD2GKHYK",
+   "name": "Serial & Parallel Transmission",
+   "definition": "\"2 (a) Describe how data is transmitted from one\ndevice to another using different methods of\ndata transmission\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Serial & Parallel Transmission"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is serial & parallel transmission?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Serial and parallel are **methods of transmitting data** (bits) from a **sender to a receiver**\n- Each method determines** how many bits **can be **transmitted at once**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Serial transmission"
+  },
+  {
+   "type": "bullets",
+   "md": "- A stream of bits is** sent in sequence**, one after the other, **along a single wire**\n- **USB **is an example of a wired serial connection"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/04/wired-connections---serial.png",
+   "file": "assets/0fa3d701d661-wired-connections-serial.png",
+   "alt": "Diagram showing serial transmission between sender and receiver ",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Parallel transmission"
+  },
+  {
+   "type": "bullets",
+   "md": "- Multiple bits are sent **simultaneously**, with each bit travelling on its** own separate wire**\n- Parallel transmission is** usually synchronous**, using a **clock signal to keep data aligned**\n- However, bits can arrive at slightly different times due to **skew** (**timing differences between wires**)\n- A traditional printer cable is an example of a wired parallel connection"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/04/a-sender-sends-a-stream-of-bits-in-sequence.png",
+   "file": "assets/db58732ef3a8-a-sender-sends-a-stream-of-bits-in-sequence.png",
+   "alt": "Diagram showing parallel transmission between sender and reciever",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Advantages and disadvantages of serial & parallel transmission"
+  },
+  {
+   "type": "table",
+   "md": "| **Transmission** | **Advantages** | **Disadvantages** |\n|---|---|---|\n| Serial | - Reliable over longer distance<br>- Cheaper to setup<br>- Low interference | - Slow transmission speed |\n| Parallel | - Very fast transmission speed | - Only used on short distances<br>- Prone to high interference |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kSWh6RscsNv3C9kc",
+   "name": "Simplex, Half-Duplex & Full-Duplex Transmission",
+   "definition": "\"(b) Explain the suitability of each method of data\ntransmission, for a given scenario\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Simplex, Half-Duplex & Full-Duplex Transmission"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is simplex, half-duplex & full-duplex transmission?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Simplex, half-duplex and full-duplex describe the **direction** in which data can be transmitted between a sender and receiver"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Simplex transmission"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data travels in** only one direction**\n- Sending data from a computer to a monitor is an example of simplex transmission"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Half-duplex transmission"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data can travel in **both directions**, but **only one direction at a time**\n- A printer cable which **waits for the data to be received** before sending back a ‘low ink’ message is an example of half-duplex transmission"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Full-duplex transmission"
+  },
+  {
+   "type": "bullets",
+   "md": "- Data can travel in **both directions at the same time**\n- Network cables can **send and receive data at the same time** and are examples of full-duplex data transmission\n- Full-duplex is used in local and wide area networks"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Advantages and disadvantages of simplex, half-duplex & full-duplex transmission"
+  },
+  {
+   "type": "table",
+   "md": "| **Transmission** | **Advantages** | **Disadvantages** |\n|---|---|---|\n| Simplex | - Simple and low-cost for one-way communication | - Cannot support two-way communication |\n| Half-duplex | - Cheaper than full-duplex for two-way communication | - Slower due to one-direction-at-a-time |\n| Full-duplex | - Fast, supports simultaneous two-way data transfer | - More expensive to implement |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Wires can be **combinations of** serial, parallel, simplex, half-duplex and full-duplex"
+  },
+  {
+   "type": "table",
+   "md": "|   | **Simplex** | **Half-duplex** | **Full-duplex** |\n|---|---|---|---|\n| **Serial** | Serial-Simplex | Serial-Half-duplex | Serial-Full-duplex |\n| **Parallel** | Parallel-Simplex | Parallel-Half-duplex | Parallel-Full-duplex |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Serial-Simplex**\n\n  - Data is transmitted **one bit at a time** in **one direction only** on a single wire\n- **Serial-Half-duplex**\n\n  - Data is transmitted **one bit at a time**, and can flow in **both directions**, but **not at the same time**\n  - This typically uses a **single shared wire**.\n- **Serial-Full-duplex**\n\n  - Data is transmitted **one bit at a time in both directions simultaneously**, but this requires **two wires**, one for each direction.\n- **Parallel-Simplex**\n\n  - Multiple bits are **transmitted simultaneously in one direction only**, using **multiple wires**\n- **Parallel-Half-duplex**\n\n  - **Multiple wires send multiple bits** of data in **both directions**, but only **one direction at a time**\n- **Parallel-Full-duplex**\n\n  - **Multiple wires send multiple bits **of data in** both directions simultaneously**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A company has a website that is stored on a web server\nThe company uses parallel half-duplex data transmission to transmit the data for the new videos to the web server. \n\n**Explain** why parallel half-duplex data transmission is the most appropriate method.\n\n**[6]**\n\n**Answer**\n\n- **Parallel would allow for the fastest transmission ****[1]**\n- **as large amounts of data ****[1]**\n- **can be uploaded and downloaded ****[1]**\n- **but this does not have to be at the same time ****[1]**\n- **Data is not required to travel a long distance ****[1]**\n- **Therefore, skewing is not a problem ****[1]**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Any four of these points qualifies as a full answer, however make sure your answer is cohesive.\n\nSaying “*Parallel would allow for the fastest transmission but this does not have to be at the same time*” would qualify as one mark as only the first part makes sense and follows logically"
+  }
+ ]
+}

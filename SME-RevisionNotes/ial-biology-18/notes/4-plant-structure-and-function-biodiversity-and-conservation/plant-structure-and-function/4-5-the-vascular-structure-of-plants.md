@@ -1,0 +1,138 @@
+---
+note_id: "rn_4rhdzzMbH4B2t9qc"
+title: "The Vascular Structure of Plants"
+source: https://www.savemyexams.com/international-a-level/biology/edexcel/18/revision-notes/4-plant-structure-and-function-biodiversity-and-conservation/plant-structure-and-function/4-5-the-vascular-structure-of-plants
+path: 4-plant-structure-and-function-biodiversity-and-conservation/plant-structure-and-function/4-5-the-vascular-structure-of-plants
+updated_at: "2026-07-02T08:19:35.548Z"
+spec_point_ids: ["spcpt_kb3d6CqKRKt3rkZx", "spcpt_hKS9X9Tw4zXfVwqf", "spcpt_Z52rdgmTT4Fn5WK9", "spcpt_hbRSb3kX6RkqwfJw"]
+spec_point_codes: []
+guided_study: false
+---
+
+# The Vascular Structure of Plants
+
+## The Vascular Structure of Plants
+
+> **Spec point** — `spcpt_kb3d6CqKRKt3rkZx`
+
+## The Vascular Structure of Plants
+
+- Plant stems have two main functions in a plant
+
+  - They provide **support**
+  - They **transport **various materials around the plant
+
+#### Support
+
+- **Leaves** are attached to stems and are responsible for carrying out **photosynthesis**
+- Stems ensure that leaves are **positioned **in order to receive **maximum** levels of **sunlight** to perform this task
+- It also **supports flowers** in a way that will attract the attention of **pollinators**
+- Plant stems need to be **strong**, but also **flexible**, in order to withstand the forces of nature (wind, rain etc.)
+
+#### Transport
+
+- Leaves **require water** and **mineral ions** in order to **photosynthesise** and carry out other important functions
+- The **transport tissue** in stems provide a route for these substances to travel from the roots to the leaves
+- The **products of photosynthesis** also need to be transported from the tissue where photosynthesis happens to where these substances are needed
+- Stems provide a **transport route** for this to occur
+
+#### Vascular structure of plants
+
+- Plant stems are made up of different types of plant tissue
+- The focus will be on the following tissue types:
+
+  - Xylem
+  - Phloem
+  - Sclerenchyma
+- **Xylem** and **phloem** are collectively known as ***vascular tissue***
+- They are responsible for **transporting** various substances around the plant
+- **Sclerenchyma** fibres are associated with the vascular bundles and provide additional **support** to a stem
+- Xylem and phloem are arranged in structures known as **vascular bundles**
+- The arrangement of xylem and phloem differs in the different plant organs
+- In a stem, the **xylem vessels** are always located towards the middle of the stem, while the **phloem** can be found closer towards the outside of the stem
+
+![Vascular tissue in a dicotyledonous plant](../../../assets/4ab44fcac3ad-vascular-tissue-in-a-dicotyledonous-plant.png)
+
+***The arrangement of vascular tissue (xylem and phloem) in roots, stems and leaves***
+
+## Sclerenchyma
+
+> **Spec point** — `spcpt_hKS9X9Tw4zXfVwqf`
+
+## Sclerenchyma
+
+- Sclerenchyma fibres are not involved in the transport of substances, they **provide support**
+- They consist of bundles of **dead cells **which form **long, hollow tubes**, but they do have **end walls** present
+- **Lignification** of cell walls occur, which provides **structural support** to allow the plant to bear the load of its own mass
+- They have **more cellulose** in their walls compared to other plant cells
+
+## Xylem
+
+> **Spec point** — `spcpt_Z52rdgmTT4Fn5WK9`
+
+## Xylem
+
+#### Xylem vessels
+
+- The functions of **xylem** tissue in a plant are:
+
+  - Vascular tissue that **transports** dissolved minerals and water around the plant
+  - Structural **support**
+- Their cell walls contain **lignin**, which enables the vessels to withstand the pressure created by the moving column of water
+- Xylem vessels form **long, hollow** straw-like structures that are formed by **dead cells** (due to lignification of cell walls)
+- This means that they **do not** contain any cytoplasm or organelles that could slow down the flow of water
+- There are small regions in the walls that are not lignified, known as **pits**, which allows for lateral movement of water and minerals between xylem vessels
+
+![Xylem vessel elements](../../../assets/323b21a27c2f-xylem-vessel-elements.png)
+
+***Images of xylem vessel elements: A = photomicrograph (drawing) in longitudinal section (lignin is stained red), B = scanning electron micrograph (drawing) in transverse section, C = microscope image (drawing) in transverse section (lignin is stained purple)***
+
+**Structure and Function of Xylem Vessels Table**
+
+![Relating structure & function in xylem vessel elements table](../../../assets/5b218fb29392-relating-structure-function-in-xylem-vessel-elem.png)
+
+## Phloem
+
+> **Spec point** — `spcpt_hbRSb3kX6RkqwfJw`
+
+## Phloem
+
+#### Phloem tissue
+
+- The functions of **phloem** tissue in a plant are:
+
+  - Transport **organic compounds **(*assimilates*), particularly sucrose, from sources (e.g. leaves) to sinks (e.g. roots). The transport of these compounds can occur **up** and **down** the plant
+  - This is known as **translocation**
+  - Phloem has no support function in a plant
+- The organic compounds are dissolved in water to form sap
+- Phloem is a complex tissue made up of various cell types; its bulk is made up of **sieve tube elements** which are the main conducting cells and **companion cells**
+- Other cell types of phloem tissue also include parenchyma for storage, and strengthening fibres
+- Mature phloem tissue contains living cells, unlike xylem tissue
+
+![Phloem sieve tubes elements and companion cells 1](../../../assets/bb4119ba2bc5-phloem-sieve-tubes-elements-and-companion-cells-.png)
+
+***Structure of phloem tissue: A = microscope slide image (and below drawing) of a sieve tube element and companion cell in transverse section, B = photomicrograph image (and below drawing) of a sieve tube element and companion cell in longitudinal section***
+
+![Phloem sieve tubes elements and companion cells 2](../../../assets/6aea95757331-phloem-sieve-tubes-elements-and-companion-cells-.png)
+
+***Structure of phloem tissue: C = transmission electron micrograph image (and drawing) of a sieve tube element and companion cell in transverse section***
+
+#### Sieve tube elements
+
+- Sieve tube elements line up end to end to form a **continuous tube**
+
+**Phloem Sieve Tube Elements Structure & Function Table**
+
+![Phloem sieve tube elements structure & function table](../../../assets/f808135ba5ad-phloem-sieve-tube-elements-structure-function-ta.png)
+
+#### Companion cells
+
+- Each sieve tube element has a companion cell associated with it as companion cells control the metabolism of their associated sieve tube member
+- They also play a role in** loading and unloading of sugars into the phloem sieve tube elements**
+
+**Phloem Companion Cells Structure & Function Table**
+
+![Phloem companion cells structure & function table](../../../assets/f59342a94776-phloem-companion-cells-structure-function-table.png)
+
+> **Exam Hint**
+> Understand the difference between sieve tube elements and companion cells, and how they are different to xylem tissue. Remember that mature xylem tissue is dead, so there is no evidence of organelles, and they have lignified cell walls, whereas sieve tube elements have no lignin, have sieve plates and companion cells that contain nuclei and cytoplasm.

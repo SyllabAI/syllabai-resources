@@ -1,0 +1,244 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_BvpnXnHrQQ76HpqF",
+ "course_slug": "cie-a-level-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/a-level/maths/cie/20/probability-and-statistics-1/revision-notes/statistical-distributions/working-with-distributions/normal-approximation-of-a-binomial-distribution",
+ "title": "Normal Approximation of a Binomial Distribution",
+ "page_title": "Normal Approximation of a Binomial Distribution | Cambridge (CIE) A Level Maths Revision Notes 2021",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "working-with-distributions",
+   "normal-approximation-of-a-binomial-distribution"
+  ],
+  "section": "statistical-distributions",
+  "topic": "working-with-distributions",
+  "leaf": "normal-approximation-of-a-binomial-distribution"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Working with Distributions",
+  "subtopic": "Normal Approximation of a Binomial Distribution"
+ },
+ "updated_at": "2026-07-02T08:19:38.482Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_hBnZWcFYynq2m574",
+   "rnl_PqFCkdFvsWgXHC4S",
+   "rnl_nJ37mRDrq3Bpz3FR"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_BxG2b7KqnDXhkGcJ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "np>5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mi mathvariant=\"bold-italic\">p</mi><mo mathvariant=\"bold\">&gt;</mo><mn mathvariant=\"bold\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold italic p bold greater than bold 5"
+  },
+  {
+   "latex": "nq>5whereq=1-p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">n</mi><mi mathvariant=\"bold-italic\">q</mi><mo mathvariant=\"bold\">&gt;</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">w</mi><mi mathvariant=\"bold-italic\">h</mi><mi mathvariant=\"bold-italic\">e</mi><mi mathvariant=\"bold-italic\">r</mi><mi mathvariant=\"bold-italic\">e</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">q</mi><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold-italic\">p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic n bold italic q bold greater than bold 5 bold space bold italic w bold italic h bold italic e bold italic r bold italic e bold space bold italic q bold equals bold 1 bold minus bold italic p"
+  },
+  {
+   "latex": "μ=np",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi><mo>=</mo><mi>n</mi><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "mu equals n p"
+  },
+  {
+   "latex": "σ^{2}=np(1-p)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mi>n</mi><mi>p</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sigma squared equals n p left parenthesis 1 minus p right parenthesis"
+  },
+  {
+   "latex": "3.5\\leqX_{N}<4.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mn>3</mn><mo>.</mo><mn>5</mn><mo>≤</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "3.5 less or equal than X subscript N less than 4.5"
+  },
+  {
+   "latex": "P(3.5\\leqX_{N}<4.5)=P(3.5<X_{N}<4.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>≤</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 3.5 less or equal than X subscript N less than 4.5 right parenthesis equals straight P left parenthesis 3.5 less than X subscript N less than 4.5 right parenthesis"
+  },
+  {
+   "latex": "P(X=k)\\approxP(k-0.5<X_{N}<k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>≈</mo><mi>P</mi><mo>(</mo><mi>k</mi><mo> </mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mi>k</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X equals k right parenthesis almost equal to P left parenthesis k space minus 0.5 less than X subscript N less than k plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leqk)\\approxP(X_{N}<k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less or equal than k right parenthesis almost equal to P left parenthesis X subscript N less than k plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X<k)\\approxP(X_{N}<k-0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less than k right parenthesis almost equal to P left parenthesis X subscript N less than k minus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X\\geqk)\\approxP(X_{N}>k-0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater or equal than k right parenthesis almost equal to P left parenthesis X subscript N greater than k minus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X>k)\\approxP(X_{N}>k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater than k right parenthesis almost equal to P left parenthesis X subscript N greater than k plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(a<X\\leqb)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>a</mi><mo>&lt;</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis a less than X less or equal than b right parenthesis"
+  },
+  {
+   "latex": "P(X>a)\\approxP(X_{N}>a+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo><mo>≈</mo><mi>P</mi><mo>(</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&gt;</mo><mi>a</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X greater than a right parenthesis almost equal to P left parenthesis X subscript N greater than a plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leqb)\\approxP(X_{N}<b+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">b</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">b</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less or equal than b right parenthesis almost equal to P left parenthesis X subscript N less than b plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(a+0.5<X_{N}<b+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mi>b</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis a plus 0.5 less than X subscript N less than b plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "μ=np",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi><mo>=</mo><mi>n</mi><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "mu equals n p"
+  },
+  {
+   "latex": "σ^{2}=np(1-p)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mi>n</mi><mi>p</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style sigma squared equals n p left parenthesis 1 minus p right parenthesis end style"
+  },
+  {
+   "latex": "np>5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>p</mi><mo>&gt;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n p greater than 5"
+  },
+  {
+   "latex": "np>5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>p</mi><mo>&gt;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n p greater than 5"
+  },
+  {
+   "latex": "q=1-p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mo>=</mo><mn>1</mn><mo>-</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "q equals 1 minus p"
+  },
+  {
+   "latex": "P(485\\leqX\\leq530)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>485</mn><mo>≤</mo><mo> </mo><mi>X</mi><mo> </mo><mo>≤</mo><mo> </mo><mn>530</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 485 less or equal than space X space less or equal than space 530 right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 15,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 21
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_BxG2b7KqnDXhkGcJ",
+   "name": "Normal Approximation of Binomial",
+   "definition": null,
+   "video_id": "876611839"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Normal Approximation of Binomial"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "When can I use a normal distribution to approximate a binomial distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A binomial distribution `begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style` can be **approximated** by a normal distribution `X subscript N tilde straight N left parenthesis mu comma sigma squared right parenthesis`  provided\n\n  - ***n***** is large**\n  - ***p***** is close to 0.5**\n  \n    - $np>5$\n    - $nq>5whereq=1-p$\n- The mean and variance of a binomial distribution can be calculated by:\n\n  - $μ=np$\n  - $σ^{2}=np(1-p)$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/4-4-2-normal-approximation-of-binomial-diagram-1.png",
+   "file": "assets/ee7af550d30b-4-4-2-normal-approximation-of-binomial-diagram-1.png",
+   "alt": "4-4-2-normal-approximation-of-binomial-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why do we use approximations?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If there are a large number of values for a binomial distribution there could be a lot of calculations involved and it is inefficient to work with the binomial distribution\n\n  - These days calculators can calculate binomial probabilities so approximations are no longer necessary\n  - However it is **easier** to work with a normal distribution\n  \n    - You can calculate the probability of a range of values quickly\n    - You can use the inverse normal distribution function (most calculators don't have an inverse binomial distribution function)\n- In your exam you must use the formula and not a calculator to find binomial probabilities so you are limited to small values of *n*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **binomial distribution is discrete** and the **normal distribution is continuous**\n- A **continuity correction** takes this into account when using a normal approximation\n- The probability being found will need to be changed from a discrete variable, *X*,   to a continuous variable, *X*<sub>*N*</sub>\n\n  - For example, *X* = 4 for binomial can be thought of as $3.5\\leqX_{N}<4.5$ for normal as every number within this interval rounds to 4\n  - Remember that for a normal distribution the probability of a single value is zero so $P(3.5\\leqX_{N}<4.5)=P(3.5<X_{N}<4.5)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I apply continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Think about what is **largest/smallest integer** that can be included in the inequality for the discrete distribution and then find its **upper/lower bound**\n- $P(X=k)\\approxP(k-0.5<X_{N}<k+0.5)$\n- $P(X\\leqk)\\approxP(X_{N}<k+0.5)$\n\n  - You add 0.5 as you want to include *k* in the inequality\n- $P(X<k)\\approxP(X_{N}<k-0.5)$\n\n  - You subtract 0.5 as you don't want to include *k* in the inequality\n- $P(X\\geqk)\\approxP(X_{N}>k-0.5)$\n\n  - You subtract 0.5 as you want to include *k* in the inequality\n- $P(X>k)\\approxP(X_{N}>k+0.5)$\n\n  - You add 0.5 as you don't want to include *k*  in the inequality\n- For a closed inequality such as $P(a<X\\leqb)$\n\n  - Think about each inequality separately and use above\n  - $P(X>a)\\approxP(X_{N}>a+0.5)$\n  - $P(X\\leqb)\\approxP(X_{N}<b+0.5)$\n  - Combine to give\n  - $P(a+0.5<X_{N}<b+0.5)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I approximate a probability?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**: Find the **mean** and **variance** of the approximating distribution\n\n  - $μ=np$\n  - $σ^{2}=np(1-p)$\n- **STEP 2**: Apply **continuity corrections** to the inequality\n- **STEP 3**: Find the **probability** of the new corrected inequality\n\n  - Find the standard normal probability and use the **table of the normal distribution**\n- The probability will not be exact as it is an approximate but provided n is large and p is close to 0.5 then it will be a close approximation\n\n  - To decide if** n is large enough **and if ***p***** is close enough to 0.5 **check that:\n  \n    - $np>5$\n    - $np>5$** where **$q=1-p$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The random variable `X tilde B left parenthesis 1250 comma space 0.4 right parenthesis.`\n\nUse a suitable approximating distribution to approximate $P(485\\leqX\\leq530)$.\n\n**Answer:**\n\n![Worked example using normal approximation to binomial: finds μ=500, σ²=300, applies continuity correction 484.5≤X≤530.5, standardises and evaluates P≈0.776](assets/0cd58ece1a6f-27595-image-3.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- In the exam, the question will often tell you to use a normal approximation but sometimes you will have to recognise that you should do so for yourself. Look for the conditions mentioned in this revision note, *n *is large, *p *is close to 0.5, *np > 5 *and *nq > 5.*"
+  }
+ ]
+}

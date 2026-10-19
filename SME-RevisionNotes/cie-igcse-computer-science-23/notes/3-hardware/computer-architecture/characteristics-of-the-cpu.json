@@ -1,0 +1,130 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_29dF8HMgSKvDTy5n",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/3-hardware/computer-architecture/characteristics-of-the-cpu",
+ "title": "Characteristics of the CPU",
+ "page_title": "What is Clock Speed - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "3-hardware",
+   "computer-architecture",
+   "characteristics-of-the-cpu"
+  ],
+  "section": "3-hardware",
+  "topic": "computer-architecture",
+  "leaf": "characteristics-of-the-cpu"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Computer Architecture",
+  "subtopic": "Characteristics of the CPU"
+ },
+ "updated_at": "2024-04-22T08:13:00.792Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_k6DNzFrypN8cpPgB"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 14,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_k6DNzFrypN8cpPgB",
+   "name": "Characteristics of the CPU",
+   "definition": "\"3 Understand what is meant by a core, cache and\nclock in a CPU and explain how they can affect\nthe performance of a CPU\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Characteristics of the CPU"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the common characteristics of the CPU?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There are 3 common characteristics\n\n  - **Clock Speed**\n  - **Cache Size**\n  - **Number of Cores**\n- Each of these characteristics has a significant impact on the **performance **of the CPU"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/image-1---the-cpu.png",
+   "file": "assets/7302d456e67a-image-1-the-cpu.png",
+   "alt": "Image of the CPU",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do the characteristics of the CPU affect performance?"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Clock speed"
+  },
+  {
+   "type": "bullets",
+   "md": "- The clock speed is** measured in Hertz** (Hz)\n- The clock speed measures the number of fetch-decode-execute cycles that can take place in 1 second\n- The faster the clock speed, the more instructions can be fetched and executed per second\n- Modern computers have a clock speed in Gigahertz (GHz), meaning billion\n- A clock speed of 3.5GHz can perform up to **3.5 billion** **instructions per second**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Cache size"
+  },
+  {
+   "type": "bullets",
+   "md": "- Cache is very small, **very fast memory** on or close to the CPU\n- Cache is used as temporary storage to provide quick access to **a copy of** frequently used instructions and data\n- The larger the cache size, the more frequently used instructions or data can be stored\n- This results in the CPU having to complete **fewer fetch cycles** from memory (RAM), speeding up the performance\n- Cache also has a significantly faster read/write speed than RAM, making it much quicker to retrieve instructions from there instead of from memory (RAM)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Number of cores"
+  },
+  {
+   "type": "bullets",
+   "md": "- A core **works like it is its own CPU**\n- Multiple core processors mean they have multiple separate processing units that can fetch, decode and execute instructions **at the same time**\n- For example, a dual-core processor would have 2 processing units, each with their own\n\n  - **Control Unit (CU)**\n  - **Arithmetic Logic Unit (ALU)**\n  - **Accumulator (ACC)**\n  - **Registers **\n- Multi-core processors can run more powerful programs with greater ease\n- Multiple cores increase the performance of the CPU by working with the clock speed\n\n  - Example: A quad-core CPU (4 cores), running at a clock speed of 3Ghz\n  \n    - **4** cores x **3**GHz\n    - 4 x 3 billion instructions\n    - 12 billion instructions per second"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/cpu-cores-.png",
+   "file": "assets/d4445ca8c4b4-cpu-cores.png",
+   "alt": "Image of multiple cores",
+   "caption": ""
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "One computer has a single core processor and the other has a dual core processor.\n\nExplain why having a dual core processor might improve the performance of the computer\n\n**[2]**\n\n**Answer**\n\nAny **2 **from:\n\n- **The computer with the dual core processor has**** two cores****/****double**** the amount of cores [1]**\n- **Parallel processing**** can take place [1]**\n- **Each core can execute a separate instruction ****at the same time**** [1]**\n- **Each core can process instructions ****independently ****of each other [1]**"
+  }
+ ]
+}

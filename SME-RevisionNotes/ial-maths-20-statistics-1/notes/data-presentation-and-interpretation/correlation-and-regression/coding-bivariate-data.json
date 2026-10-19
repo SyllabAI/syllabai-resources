@@ -1,0 +1,217 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_4R8sYbk6yXMQXpqz",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/data-presentation-and-interpretation/correlation-and-regression/coding-bivariate-data",
+ "title": "Coding Bivariate Data",
+ "page_title": "Coding Bivariate Data | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "data-presentation-and-interpretation",
+   "correlation-and-regression",
+   "coding-bivariate-data"
+  ],
+  "section": "data-presentation-and-interpretation",
+  "topic": "correlation-and-regression",
+  "leaf": "coding-bivariate-data"
+ },
+ "titles": {
+  "section": "Data Presentation & Interpretation",
+  "topic": "Correlation & Regression",
+  "subtopic": "Coding Bivariate Data"
+ },
+ "updated_at": "2026-07-02T08:19:38.614Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Ts2cmxwNWDPfMXhV",
+  "spcpt_v276T7HQgJMZgXj9"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "S_{xx},S_{yy}andS_{xy}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mo>,</mo><msub><mi>S</mi><mrow><mi>y</mi><mi>y</mi></mrow></msub><mo> </mo><mi>a</mi><mi>n</mi><mi>d</mi><mo> </mo><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style S subscript x x end subscript comma S subscript y y end subscript space a n d space S subscript x y end subscript end style"
+  },
+  {
+   "latex": "S_{XX}=p^{2}\\timesS_{xx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>S</mi><mrow><mi>X</mi><mi>X</mi></mrow></msub><mo>=</mo><msup><mi>p</mi><mn>2</mn></msup><mo>×</mo><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style S subscript X X end subscript equals p squared cross times S subscript x x end subscript end style"
+  },
+  {
+   "latex": "S_{YY}=m^{2}\\timesS_{yy}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathsize=\"16px\">S</mi><mrow><mi>Y</mi><mi>Y</mi></mrow></msub><mo mathsize=\"16px\">=</mo><msup><mi mathsize=\"16px\">m</mi><mn mathsize=\"16px\">2</mn></msup><mo mathsize=\"16px\">×</mo><msub><mi mathsize=\"16px\">S</mi><mrow><mi>y</mi><mi>y</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "size 16px S subscript Y Y end subscript size 16px equals size 16px m to the power of size 16px 2 size 16px cross times size 16px S subscript y y end subscript"
+  },
+  {
+   "latex": "S_{XY}=pm\\timesS_{xy}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>S</mi><mrow><mi>X</mi><mi>Y</mi></mrow></msub><mo>=</mo><mi>p</mi><mi>m</mi><mo>×</mo><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style S subscript X Y end subscript equals p m cross times S subscript x y end subscript end style"
+  },
+  {
+   "latex": "r_{XY}=r_{xy}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>r</mi><mrow><mi>X</mi><mi>Y</mi></mrow></msub><mo>=</mo><msub><mi>r</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style r subscript X Y end subscript equals r subscript x y end subscript end style"
+  },
+  {
+   "latex": "l",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>l</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "l"
+  },
+  {
+   "latex": "m=\\frac{s-30000}{12}\\mathrm{and}w=52l",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>=</mo><mfrac><mrow><mi>s</mi><mo>-</mo><mn>30000</mn></mrow><mn>12</mn></mfrac><mo> </mo><mi>and</mi><mo> </mo><mi>w</mi><mo>=</mo><mn>52</mn><mi>l</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "m equals fraction numerator s minus 30000 over denominator 12 end fraction space and space w equals 52 l"
+  },
+  {
+   "latex": "m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "m"
+  },
+  {
+   "latex": "w",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>w</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "w"
+  },
+  {
+   "latex": "m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "m"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "m=-83.1+3.65w",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>=</mo><mo>-</mo><mn>83</mn><mo>.</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>.</mo><mn>65</mn><mi>w</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "m equals negative 83.1 plus 3.65 w"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "l",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>l</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "l"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "l",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>l</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "l"
+  },
+  {
+   "latex": "s=a+bl",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>l</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "s equals a plus b l"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "b"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 19
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Ts2cmxwNWDPfMXhV",
+   "name": "Coding with PMCC",
+   "definition": "",
+   "video_id": "872503192"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Coding with PMCC"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Does coding affect the product moment correlation coefficient (PMCC)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- We can code data using **linear transformations**\n\n  - *X* = *px* + *q*\n  - *Y* = *my* + *n*\n  \n    - The new variables won't necessarily be the upper case versions of the old variables - they could be any letter\n- $S_{xx},S_{yy}andS_{xy}$ are related to **variances** so they are affected when the coding involves a multiplication\n\n  - $S_{XX}=p^{2}\\timesS_{xx}$\n  - $S_{YY}=m^{2}\\timesS_{yy}$\n  - $S_{XY}=pm\\timesS_{xy}$\n- Coding **does not affect** the product moment correlation coefficient\n\n  - The factors of *p* and *m* cancel out in the formula\n  - $r_{XY}=r_{xy}$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_v276T7HQgJMZgXj9",
+   "name": "Coding Linear Regression",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Coding Linear Regression"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Does coding affect the equation of the regression line of y on x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Coding **does affect** the equation of the regression line of *y* on *x*\n- Coding is used to make numbers simpler to work with\n- The equation of the regression line of *Y* on *X *can be calculated using the coded data\n- This equation can then be used to find the equation of the regression line of *y* on *x*"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I use coding to find the equation of the regression line of y on x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Given the variables *x* and *y* are coded using\n\n  - *X* = *px* + *q*\n  - *Y* = *my* + *n*\n- The equation of the regression line of *Y* on *X *can be calculated as *Y* = *A* + *BX*\n- To find the equation of the regression line of *y* on *x*\n\n  - Substitute the codes into the equation\n  \n    - *my* + *n *= *A* + *B(px* + *q)*\n  - Rearrange into the form *y* = *a* + *bx*"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Stewart collects data to compare the salaries, £*s* , and lengths of service, $l$ years, of employees in a business. Stewart codes the data using the formulae\n\n$m=\\frac{s-30000}{12}\\mathrm{and}w=52l$.\n\nStewart finds that:\n\n- the product moment correlation coefficient between $m$ and $w$ is 0.739,\n- the equation of the regression line of $m$on $y$ is $m=-83.1+3.65w$.\n\n(a) Write down the product moment correlation coefficient between $s$ and $l$.\n\n(b) The equation of the regression line of $s$ on $l$ can be written as $s=a+bl$. Find the      values of $a$ and $b$ to three significant figures.\n\n**Answer:**\n\n![1-3-3-coding-bivariate-data-we-solution-part-1](assets/ff3ac09d02d1-image.bin)\n\n![1-3-3-coding-bivariate-data-we-solution-part-2](assets/a847e7d2f625-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- When rearranging the equation of the regression it is important that you don’t round your coefficients until the very end. Use your ANS button on your calculator to keep the accuracy."
+  }
+ ]
+}

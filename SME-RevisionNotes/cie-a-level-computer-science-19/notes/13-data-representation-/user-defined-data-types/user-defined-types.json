@@ -1,0 +1,215 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_C9tHVM7pB7hZRM5H",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/13-data-representation-/user-defined-data-types/user-defined-types",
+ "title": "User-Defined Types",
+ "page_title": "User-Defined Types | CIE A Level Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "13-data-representation-",
+   "user-defined-data-types",
+   "user-defined-types"
+  ],
+  "section": "13-data-representation-",
+  "topic": "user-defined-data-types",
+  "leaf": "user-defined-types"
+ },
+ "titles": {
+  "section": "13. Data Representation",
+  "topic": "User-defined Data Types",
+  "subtopic": "User-Defined Types"
+ },
+ "updated_at": "2026-10-01T12:38:11.163Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fmFd4vgJtVWcghDF",
+  "spcpt_WsRKgbbSqqhzvS93"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 35,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What are user-defined data types?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A user-defined data type is a **custom data type** created by the programmer, built from existing types to match the specific needs of a program\n- It is built using [primitive data types](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/10-data-types-and-structures-/data-types-and-records/data-types/) such as `INTEGER`, `STRING`, `BOOLEAN`, etc"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why are user-defined types necessary?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Primitive types alone cannot model many **real-world entities** (e.g. a customer, a date, a linked list)\n- User-defined types let you:\n\n  - Group **related data** under a single identifier (record)\n  - Restrict a variable to a **fixed set of valid values** (enumerated)\n  - Build **dynamic data structures** such as linked lists (pointer)\n  - Make code more **readable**, **reusable** and **easier to validate**"
+  },
+  {
+   "type": "table",
+   "md": "| **Category** | **Definition** | **Examples** |\n|---|---|---|\n| **Non-composite** | A type defined **without referencing another data type** | Enumerated, pointer |\n| **Composite** | A type that references **other data types** in its definition, grouped under a single identifier | Record, set, class |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_fmFd4vgJtVWcghDF",
+   "name": "Non-composite",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Non-composite"
+  },
+  {
+   "type": "bullets",
+   "md": "- A non-composite data type is **defined without referencing any other data type**\n- It can be a **primitive type** available in the language, or a **user-defined type** (enumerated or pointer)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an enumerated data type?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An enumerated data type is a **non-composite, user-defined type** consisting of a list of **all possible values** the variable can take\n- The values are **ordered**: they have an implied sequence based on the order they are declared, so comparisons work (e.g. `Monday` comes before `Tuesday`)\n- Use an enumerated type to **restrict a variable to a known, fixed list**, improving readability and reducing invalid values"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |\n|---|\n| `TYPE <identifier> = (value1, value2, value3, … )` |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example code**"
+  },
+  {
+   "type": "bullets",
+   "md": "- `Today` can only hold one of the seven **ordered** values in `DayType`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a pointer data type?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A pointer is a non-composite, user-defined type that **stores a memory address only**, rather than the data itself\n- Its definition also **indicates the type of data** stored at that memory location\n- Pointers are used to build **dynamic data structures** such as linked lists"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |\n|---|\n| `TYPE <identifier> = ^<data type>` |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The `^` shows the type is a pointer\n- `<data type>` is the type of data stored at the address"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example code**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_WsRKgbbSqqhzvS93",
+   "name": "Composite",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Composite"
+  },
+  {
+   "type": "bullets",
+   "md": "- A composite data type is a **collection of data made up of multiple elements**, of the **same or different data types**, **grouped under a single identifier**\n- It **references other data types** in its definition (primitive or other user-defined types)\n- The three composite user-defined types you need are **record**, **set** and **class**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a record?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A record is a **composite type** that groups together a **fixed number of related items (fields)**, which may be of **different data types**, to form a single new type\n- Access a field using **dot notation**: `RecordName.FieldName`"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |\n|---|\n|   |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example code**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a set?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A set is a **composite type** holding a list of **unordered elements**\n- **All elements must be of the same data type**, and the set definition **includes the data type it uses**\n- **Set theory operations** such as **union** and **intersection** can be applied to the elements"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |\n|---|\n|   |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Example code**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a class?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A class is a **composite type** that groups together both **data (attributes)** and the **methods** that operate on that data, under a single identifier\n- It is used as a **template** to create objects in object-oriented programming\n- Full detail on defining and using classes is covered in [Object-Oriented Programming](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/20-further-programming-/object-oriented-programming/classes-oop/)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Choosing a user-defined data type"
+  },
+  {
+   "type": "bullets",
+   "md": "- Exam questions may ask you to **choose and design** an appropriate type for a problem\n- Match the type to what the data looks like:"
+  },
+  {
+   "type": "table",
+   "md": "| **If the data...** | **Use a...** |\n|---|---|\n| can only be one of a fixed, named list of values | Enumerated type |\n| needs to link to another item / build a dynamic structure | Pointer |\n| groups several related fields of different types | Record |\n| is an unordered collection with no duplicates | Set |\n| combines data with the operations that act on it | Class |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Composite vs non-composite\" is about **whether the type references other types**, not whether it holds one value or many. State this precisely\n- For enumerated types, remember to say the values are **ordered**, that is a mark point\n- For a \"describe the set/record data type\" question, include that it is **composite**, that it **references/uses other data types**, and the specific detail (set = unordered, same type, supports union/intersection; record = fixed number of related items)"
+  }
+ ]
+}

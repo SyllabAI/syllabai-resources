@@ -1,0 +1,100 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_fHbxyqMZGZckMDbD",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/7-algorithm-design-and-problem-solving/computer-sub-systems/problem-decomposition",
+ "title": "Problem Decomposition",
+ "page_title": "Decomposition in Computer Science - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "7-algorithm-design-and-problem-solving",
+   "computer-sub-systems",
+   "problem-decomposition"
+  ],
+  "section": "7-algorithm-design-and-problem-solving",
+  "topic": "computer-sub-systems",
+  "leaf": "problem-decomposition"
+ },
+ "titles": {
+  "section": "7. Algorithm Design & Problem-Solving",
+  "topic": "Computer Sub-Systems",
+  "subtopic": "Problem Decomposition"
+ },
+ "updated_at": "2024-09-10T07:40:51.718Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_qfS5gxZ4kdxyWPKY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 9,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_qfS5gxZ4kdxyWPKY",
+   "name": "Problem Decomposition",
+   "definition": "\"(b) Understand how a problem can be\ndecomposed into its component parts\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Problem Decomposition"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is decomposition?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Decomposition is the process of** breaking down a large problem** into **a set of smaller problems**\n- Benefits of decomposition are:\n\n  - **Smaller problems are easier to solve**\n  - **Each smaller problem can be solved independently of the others**\n  - **Smaller problems can be tested independently**\n  - **Smaller problems can be combined to produce a solution to the full problem**"
+  },
+  {
+   "type": "bullets",
+   "md": "- Modern computer games are  a good example of using decomposition to **break down the complexity** of the problem into more **manageable **'**chunks**'\n- Creating an entire game at once would be **challenging **and **inefficient**, so it could be decomposed into:\n\n  - **Levels **- Levels can be designed/created/tested/ independently of other levels\n  - **Characters **- The mechanics of characters in the game can be designed and created by a separate team\n  - **Landscape **- The art team can work on the visual aspects of the game without needing to understand how the game is programmed\n- Once all of the smaller problems are completed, joined together a complex game has been created"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Inputs, processes, outputs and storage"
+  },
+  {
+   "type": "bullets",
+   "md": "- Decomposing a problem requires developers to think about four component parts:\n\n  - **Inputs**: data entered into the system\n  - **Processes**: subroutines and algorithms that turn inputs and stored data into outputs\n  - **Outputs**: data that is produced by the system, such as information on a screen or printed information\n  - **Storage**: data that is stored on a physical device, such as on a hard drive or in memory whilst the program is running"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example - Area of a rectangle program"
+  },
+  {
+   "type": "table",
+   "md": "| Inputs | Width of the rectangle<br><br>Height of the rectangle |\n|---|---|\n| Processes | Width x height |\n| Outputs | Calculated area of the rectangle |\n| Storage | Memory: width, height and area stored temporarily |"
+  }
+ ]
+}

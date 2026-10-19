@@ -1,0 +1,189 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_S7RDWHNYxbpjsr8v",
+ "course_slug": "cie-igcse-computer-science-23",
+ "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/7-algorithm-design-and-problem-solving/identifying-errors/identifying-errors",
+ "title": "Identifying Errors",
+ "page_title": "Identifying Errors - IGCSE Computer Science Revision Notes",
+ "path": {
+  "segs": [
+   "7-algorithm-design-and-problem-solving",
+   "identifying-errors",
+   "identifying-errors"
+  ],
+  "section": "7-algorithm-design-and-problem-solving",
+  "topic": "identifying-errors",
+  "leaf": "identifying-errors"
+ },
+ "titles": {
+  "section": "7. Algorithm Design & Problem-Solving",
+  "topic": "Identifying Errors",
+  "subtopic": "Identifying Errors"
+ },
+ "updated_at": "2025-05-07T13:57:02.303Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_bbfHbx6fNFZfXFzy",
+  "spcpt_yt5Vwv5SW4wP7zvS",
+  "spcpt_bk4PrThHpWZnkVZY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 27,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 3,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Identifying errors"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Cambridge IGCSE 0478 regularly assesses your ability to identify, describe, and fix ****syntax****, ****logic****, and ****runtime errors****, especially using ****trace tables**** and ****dry runs****. This page mirrors the question style and mark scheme language of Paper 2.*"
+  },
+  {
+   "type": "bullets",
+   "md": "- Designing algorithms is a skill that must be developed and when designing algorithms, mistakes and issues will occur\n- Trace tables can also help to find any kind of error in a program or algorithm\n- There are three main categories of errors that when designing algorithms a programmer must be able to identify & fix, they are:\n\n  - **Syntax errors**\n  - **Logic errors**\n  - **Runtime errors**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*When describing an error:*\n\n- *Use “****prevents the program from running****” for syntax*\n- *Use “****produces incorrect output****” for logic*\n- *Use “****causes the program to crash****” for runtime*\n\n*These are the exact phrases that earn marks in the exam.*"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_bbfHbx6fNFZfXFzy",
+   "name": "Syntax Errors",
+   "definition": "\"8 Identify errors in given algorithms and suggest\nways of correcting these errors\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Syntax Errors"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a syntax error?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A syntax error is **an error that breaks the grammatical rules of a programming language** and **stops it from running**\n- Examples of syntax errors are:\n\n  - **Typos and spelling errors **\n  - **Missing or extra brackets or quotes**\n  - **Misplaced or missing semicolons**\n  - **Invalid variable or function names**\n  - **Incorrect use of operators**\n  - **Incorrectly nested loops & blocks of code**"
+  },
+  {
+   "type": "table",
+   "md": "| **Python code - with syntax errors** |\n|---|\n|   |\n| **Python code - without syntax errors** |\n|   |\n| Syntax errors |\n| 1. Missing semicolon `def generate_username(first_name, last_name)`<br>2. Incorrectly spelt function name `first_name = imput(\"Enter your first name: \")`<br>3. Typo in variable name `usdrname = generate_username(first_name, last_name)`<br>4. Missing parenthesis `main` |"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "*Examiners won’t give marks for vague phrases like “the program didn’t work.”*\n*You must ****name the error type****, ****locate it****, and ****explain the impact**** on the output or execution.*"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_yt5Vwv5SW4wP7zvS",
+   "name": "Logic Errors",
+   "definition": "\"8 Identify errors in given algorithms and suggest\nways of correcting these errors\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Logic Errors"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a logic error?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A logic error is where** incorrect code is used that causes the program to run**, but **produces an incorrect output or result**\n- Logic errors can be difficult to identify by the person who wrote the program, so one method of finding them is to use '**Trace Tables**'\n- Examples of logic errors are:\n\n  - **Incorrect use of operators  (< and >)**\n  - **Logical operator confusion (AND for OR)**\n  - **Looping one extra time**\n  - **Indexing arrays incorrectly (arrays indexing starts from 0)**\n  - **Using variables before they are assigned**\n  - **Infinite loops**"
+  },
+  {
+   "type": "table",
+   "md": "| **Python code** |\n|---|\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Logic errors"
+  },
+  {
+   "type": "table",
+   "md": "| Test number | **Test data** | **Expected outcome** | **Actual outcome** | **Changes needed? (Y/N)** |\n|---|---|---|---|---|\n| **1** | Length = 5<br><br>Width = 5 | \"The area of the rectangle is approximately 25 square units.\" | **Final answer:** **\"The area of the rectangle is approximately 25.00 square units.\"** | **N** |\n| **2** | Length = 10<br><br>Width = 0 | \"Length and width must be positive values.\" | *\"The area of the rectangle is approximately 0.00 square units.\"* | **Y **<br>**should not accept 0 input as not positive** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Logic error **located **on line `if length < 0 or width < 0:`\n- Logic error **identified **in expression` < 0`, should be` <= 0 `so that 0 is not accepted as valid input for length or width"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_bk4PrThHpWZnkVZY",
+   "name": "Runtime Errors",
+   "definition": "\"8 Identify errors in given algorithms and suggest\nways of correcting these errors\"\n"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Runtime Errors"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a runtime error?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A runtime error is where** an error causes a program to crash**\n- Examples of runtime errors are:\n\n  - **Dividing a number by 0**\n  - **Index out of the range of an array**\n  - **Unable to read or write a drive**"
+  },
+  {
+   "type": "table",
+   "md": "| **Python code** |\n|---|\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Runtime errors"
+  },
+  {
+   "type": "table",
+   "md": "| Test number | **Test data** | **Expected outcome** | **Actual outcome** | **Changes needed? (Y/N)** |\n|---|---|---|---|---|\n| **1** | Length = 10<br><br>Width = 10 | \"The area of the rectangle is approximately 100 square units.\" | **Final answer:** **\"The area of the rectangle is approximately 100.00 square units.\"** | **N** |\n| **2** | Length = \"abc\"<br><br>Width = 0 | \"Program could not convert string to float, try again\" | *Program crashed* | **Y **<br>**should give error message and ask user to enter again** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Runtime error **located **in"
+  },
+  {
+   "type": "bullets",
+   "md": "- Runtime error **identified **as **missing iteration**  (while loop) so program does not ask user to enter width and height again\n- Corrected code now includes a while loop"
+  }
+ ]
+}
