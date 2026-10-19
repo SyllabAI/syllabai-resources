@@ -199,29 +199,29 @@ Disclaimer neither Pearson, Edexcel nor the authors take responsibiity for the s
 | 28COSMOLOGY                                   | 271   |
 ABOUT THIS BOOK
 
-Thisbookiswritten for studentsfollowing thePearsonEdexcel International GCSE(9-1)Physicsspecification and theEdexcel International GCSE(9-1) Science Double Award specification.You will need to study allof youare taking theDouble Award specification.Thebookclearlyindicateswhich content isin thePhysics examination and not in theDoubleAward specification.To complete the DoubleAward courseyou willalso need to study the Biology and Chemistryparts of the course.
+This book is written for students following the Pearson Edexcel International GCSE (9-1) Physics specification and the Edexcel International GCSE (9-1) Science Double Award specification. You will need to study all of you are taking the Double Award specification. The book clearly indicates which content is in the Physics examination and not in the Double Award specification. To complete the Double Award course you will also need to study the Biology and Chemistry parts of the course.
 
-Ineach unit of thisbook,there are concise explanations and worked examples,plus numerous exercises that will helpyou build up confidence.Thebookalso describes themethods for carying out all of the required practicals.
+In each unit of this book, there are concise explanations and worked examples, plus numerous exercises that will help you build up confidence. The book also describes the methods for carrying out all of the required practicals.
 
-A list of command words,also at the backof the book,will helpyou to learn the language you will need in your examination.
+A list of command words, also at the back of the book, will help you to learn the language you will need in your examination.
 
-Youwill alsofind thatquestions in thisbookhaveProgression icons and Skillstags.TheProgression icons inyourlearning and will helpyou toseewhatyouneed to do toprogress to the nextlevel.Furthermore, Edexcel have developed aSkillsgridshowing the skillsyou will practise throughoutyour timeon the course.The skillsin the grid havebeen matched to questionsin this bookto helpyou see which skills youare developing.You canfind Pearson'sProgression scale and Edexcel'sSkills grid at www.pearsonschoolsandfecolleges.co.uk along with guidelines on how to use them.
+You will also find that questions in this book have Progression icons and Skills tags. The Progression icons in your learning and will help you to see what you need to do to progress to the next level. Furthermore, Edexcel have developed a Skills grid showing the skills you will practise throughout your time on the course. The skills in the grid have been matched to questions in this book to help you see which skills you are developing. You can find Pearson's Progression scale and Edexcel's Skills grid at www.pearsonschoolsandfecolleges.co.uk along with guidelines on how to use them.
 
-Hint boxes give you tips on importantpoints to remember in your examination.
+Hint boxes give you tips on important points to remember in your examination.
 
 Chapter Questions test your knowledge of the topic in that chapter.
 
 Skills tags tell you which skills you are practising in each question.
 
-Progression icons show the level of difficulity according to the Pearson International GCSE Science Progression Scale.
+Progression icons show the level of difficulty according to the Pearson International GCSE Science Progression Scale.
 
-Unit Questions test your knowledge of the whole unit and provide quick,effective feedback on your progress.
+Unit Questions test your knowledge of the whole unit and provide quick, effective feedback on your progress.
 
-ASSESSMENTOVERVIEW
+ASSESSMENT OVERVIEW
 
-The following tablesgive an overviewof theassessment forthiscourse.
+The following tables give an overview of the assessment for this course.
 
-Werecommend thatyou study this information closely tohelpensurethatyou are fullypreparedforthiscourseand knowexactlywhattoexpect in theassessment.
+We recommend that you study this information closely to help ensure that you are fully prepared for this course and know exactly what to expect in the assessment.
 
 #### ASSESSMENTOVERVIEW
 | PAPER1                                                                | SPECIFICATION        | PERCENTAGE   | MARK   | TIME        | AVAILABILITY                                                   |
@@ -239,33 +239,35 @@ Ifyou are studying Physics thenyou will take bothPapers1and 2.lf you are studyin
 | AO1                   | Knowledgeandunderstandingofphysics                                           | 38%-42%                 |
 | AO2                   | Application ofknowledge and understanding.analysis and evaluation of physics | 38%-42%                 |
 | AO3                   | Experimental skills,analysis and evaluation of data andmethods in physics    | 19%-21%                 |
-EXPERIMENTALSKILLS
 
-In the assessmentofexperimental skills,studentsmaybe tested on their ability to:
+#### EXPERIMENTALSKILLS
+EXPERIMENTAL SKILLS
 
-• solveproblemsset in apractical context
+In the assessment of experimental skills, students may be tested on their ability to:
 
-• apply scientificknowledge and understanding in questions with a practical context
+• solve problems set in a practical context
 
-• devise andplaninvestigations,using scientificknowledge and understanding when selecting appropriate techniques
+• apply scientific knowledge and understanding in questions with a practical context
+
+• devise and plan investigations, using scientific knowledge and understanding when selecting appropriate techniques
 
 • techniques
 
-• make observations and measurementswith appropriate precision,record thesemethodically andpresent them in appropriate ways
+• make observations and measurements with appropriate precision, record these methodically and present them in appropriate ways
 
-• identify independent,dependent and control variables
+• identify independent, dependent and control variables
 
-• use scientificknowledge and understanding to analyse and interpret data to drawconclusionsfrom experimental activities thatare consistentwith the evidence
+• use scientific knowledge and understanding to analyse and interpret data to draw conclusions from experimental activities that are consistent with the evidence
 
-• communicate the findings from experimental activities,using appropriate technical language,relevant calculations andgraphs
+• communicate the findings from experimental activities, using appropriate technical language, relevant calculations and graphs
 
 • assess the reliability of an experimental activity
 
-• evaluatedata and methodstaking into account factors thataffectaccuracy andvalidity.
+• evaluate data and methods taking into account factors that affect accuracy and validity.
 
 CALCULATORS
 
-Studentsarepermittedtotakeasuitablecalculatorinto theexaminations.Calculatorswith QWERTYkeyboardsorthat canretrieve textorformulaewillnotbepermitted.
+Students are permitted to take a suitable calculator into the examinations. Calculators with QWERTY keyboards or that can retrieve text or formulae will not be permitted.
 
 ## Unit 1: Forces and Motion
 
@@ -439,21 +441,21 @@ the equation for calculating speed, distance or time, always give the actual equ
 (such ass =v xf). You may not get the mark if you just draw the tnangle.
 SPEEDTRAP!
 
-• Figure 1.3 A stopwatch willmeasure the time taken for the vehicle to travel the distance.
+• Figure 1.3 A stopwatch will measure the time taken for the vehicle to travel the distance.
 
-Supposeyou want to find the speed of carsdriving downyourroad.You may have seen thepoliceusing a mobile speed camera to check that drivers are keeping to the speed limit.Speed guns use microprocessors(computers on a chip')toproduce aninstant reading of the speed ofa movingvehicle,butyou can conductavery simple experiment to measure car speed.
+Suppose you want to find the speed of cars driving down your road. You may have seen the police using a mobile speed camera to check that drivers are keeping to the speed limit. Speed guns use microprocessors ('computers on a chip') to produce an instant reading of the speed of a moving vehicle, but you can conduct a very simple experiment to measure car speed.
 
-Measure thedistancebetween twopointsalongastraightsection ofroadwith a tapemeasure or'click'wheel.Usea stopwatch tomeasure the time taken fora carto travel themeasured distance.Figure 1.4 showsyou how to operate your'speed trap'
+Measure the distance between two points along a straight section of road with a tape measure or 'click' wheel. Use a stopwatch to measure the time taken for a car to travel the measured distance. Figure 1.4 shows you how to operate your 'speed trap'
 
-• Measure50mfroma startpoint along the sideof theroad.
+• Measure 50m from a start point along the side of the road.
 
-• Startastopwatch whenyourpartnersignals that the carispassing the start point.
+• Start a stopwatch when your partner signals that the car is passing the start point.
 
-• 3Stop the stopwatch when thecarpassesyou at thefinishpoint.
+• 3 Stop the stopwatch when the car passes you at the finish point.
 
 • Figure 1.4 How to measure the speed of cars driving on the road
 
-No measurements should be taken on the publicroadorpavement butit ispossible to dosowithin the school boundary within sight of theroad.
+No measurements should be taken on the public road or pavement but it is possible to do so within the school boundary within sight of the road.
 KEY POINT
 
 You can convert a speed in m/s into a speed inkm/h.
@@ -507,20 +509,20 @@ THE DIFFERENCE BETWEEN SPEED AND VELOCITY
 
 Some displacement-time graphs look like the one shown in Figure 1.7e. It is a straight line, showing that the object is moving with constant speed, but the line is sloping down to the right rather than up to the right. The gradient of such a line is negative because the distance that the object is from the starting point is now decreasing - the object is going back on its path towards the start. Displacement means 'distance travelled in a particular direction' from a specified point. So if the object was originally travelling in a northerly direction, the negative gradient of the graph means that it is now travelling south.
 
-theheightundertestand hshouldbemeasuredwith a metrerulemaking sure that theruleisperpendicularto thebench surface.Make sure thatyou always measure to the samepoint or mark on the raised end of the track (a fiducial mark).
+the height under test and h should be measured with a metre rule making sure that the rule is perpendicular to the bench surface. Make sure that you always measure to the same point or mark on the raised end of the track (a fiducial mark).
 
-Tofind theaveragespeedyouwill usetheequation:
+To find the average speed you will use the equation:
 
-soyouwillneed tomeasurethedistanceABwithametreruleandmeasurethe timeittakesforthecartotravel thisdistance witha stop clock.When timing with a stop clock,human reaction time will introducemeasurement errors.Tomake these smallerthe time to travel distanceAB should,fora given valueofh,be measuredat least three timesandan averagevalue found.Alwaysstart the carfrom the samepoint,A.If onevalue isquite different from the othersit should be treated asanomalous(theresult isnot accurate)and ignored orrepeated.
+so you will need to measure the distance AB with a metre rule and measure the time it takes for the cart to travel this distance with a stop clock. When timing with a stop clock, human reaction time will introduce measurement errors. To make these smaller the time to travel distance AB should, for a given value of h, be measured at least three times and an average value found. Always start the car from the same point, A. If one value is quite different from the others it should be treated as anomalous (the result is not accurate) and ignored or repeated.
 
-Theresultsshouldbepresented ina tablelike the onebelow.
+The results should be presented in a table like the one below.
 
 Distance/m AB:
 
-You donot need to include these equations in your table headingsbutyou maybe asked to show howyou did the calculations.
+You do not need to include these equations in your table headings but you may be asked to show how you did the calculations.
 
 #### THE DIFFERENCE BETWEEN SPEED AND VELOCITY
-| Height,h/m   | Time,t/s - t1   | Time,t/s - t2   | Average time,t/s t=(f1+12+t3）÷3   | Average speed,v/m/s V=AB÷t   |
+| Height,h/m   | Time,t/s - t1   | Time,t/s - t2   | Average time,t/s t=(t1+t2+t3)÷3   | Average speed,v/m/s V=AB÷t   |
 |--------------|-----------------|-----------------|------------------------------------|------------------------------|
 
 #### THE DIFFERENCE BETWEEN SPEED AND VELOCITY
@@ -698,15 +700,17 @@ A
 A Figure 1.14 Vetocity-time graph for an experiment in which a ball is rolled down a slope. (Note
 that as we are plotting average velocity, the points are plotted in the middle of each successive
 0.5 5 time interval.)
-AMODERNVERSIONOFGALILEO'S EXPERIMENT
 
-A cylindervacuum cleaner (or similar) usedwith the air-trackshould be placed on the floorasit may falloff a bench or stool.Also,beware of any trailing leads.
+#### AMODERNVERSIONOFGALILEO'S EXPERIMENT
+A MODERN VERSION OF GALILEO'S EXPERIMENT
+
+A cylinder vacuum cleaner (or similar) used with the air-track should be placed on the floor as it may fall off a bench or stool. Also, beware of any trailing leads.
 
 light gates
 
-position3
+position 3
 
-position4
+position 4
 
 sloping
 
@@ -714,11 +718,11 @@ air-track
 
 • Figure 1.15 Measuring acceleration
 
-Todaywe can usedataloggers tomake accuratedirectmeasurements that are collectedand analysed bya computer.Aspreadsheetprogram canbeused to air-track.The air-trackreducesfriction because the gliderrideson a cushion ofair thatispushedcontinuously throughholes along the air-track.As theglider acceleratesdown the sloping track the card stuck onit breaks alightbeam,and thetime that the glider takes topass ismeasured electronically.lf thelength of the card is measured,and this is entered into the spreadsheet,thevelocityof the glidercanbecalculatedbythe spreadsheetprogramusingv： S
+Today we can use dataloggers to make accurate direct measurements that are collected and analysed by a computer. A spreadsheet program can be used to air-track. The air-track reduces friction because the glider rides on a cushion of air that is pushed continuously through holes along the air-track. As the glider accelerates down the sloping track the card stuck on it breaks a light beam, and the time that the glider takes to pass is measured electronically. If the length of the card is measured, and this is entered into the spreadsheet, the velocity of the glider can be calculated by the spreadsheet program using v = s
 
-Figure1.16showsvelocity-time graphsfortwoexperimentsdone using the air-trackapparatus.In eachexperiment the trackwasgivena different slope. The steeper the slope of the air-trackthe greater the glider's acceleration.This isclear from thegraphs:the greater theacceleration the steeper thegradlent of the graph.
+Figure 1.16 shows velocity-time graphs for two experiments done using the air-track apparatus. In each experiment the track was given a different slope. The steeper the slope of the air-track the greater the glider's acceleration. This is clear from the graphs: the greater the acceleration the steeper the gradient of the graph.
 
-Thegradient of avelocity-time graphgives the acceleration.
+The gradient of a velocity-time graph gives the acceleration.
 
 #### AMODERNVERSIONOFGALILEO'S EXPERIMENT
 |   Air-trackat 1.5 - Time/s |   Air-trackat 1.5 - AvVel. /cm/s |   Air-track at 3.0 - Time/s |   Air-track at 3.0 - Av Vel. /cm/s |
@@ -901,25 +905,25 @@ thereforev=√（4000 m²/s²)
 • =63.25m/s
 LOOKING AHEAD
 
-Theequationsyouhaveseenin thischapter arecalled the equations of uniformly accelerated motion.This means that theywill giveyou correctanswers when solving anyproblems that have objectsmoving withconstantacceleration.Inyourexamyouwillonly seeproblems where this is the case orverynearly so.Examples inwhich objects accelerate or decelerate（slow down)ata constantrate often have a constant acceleration due to the Earth's gravity(which we take as about 10m/s).
+The equations you have seen in this chapter are called the equations of uniformly accelerated motion. This means that they will give you correct answers when solving any problems that have objects moving with constant acceleration. In your exam you will only see problems where this is the case or very nearly so. Examples in which objects accelerate or decelerate (slow down) at a constant rate often have a constant acceleration due to the Earth's gravity (which we take as about 10 m/s²).
 
-Inreal life,problems may notbe quite so simple!Objects only fall with constant acceleration ifwe ignore airresistance and the distance that they fall is quite small.
+In real life, problems may not be quite so simple! Objects only fall with constant acceleration if we ignore air resistance and the distance that they fall is quite small.
 
-Theseequationsof uniformlyacceleratedmotion are often called the suvat'equations,because they show how the terms s(distance moved), u (velocity at the start),v(velocity at the finish）,a （acceleration) and t (time) are related.
+These equations of uniformly accelerated motion are often called the 'suvat' equations, because they show how the terms s (distance moved), u (velocity at the start), v (velocity at the finish), a (acceleration) and t (time) are related.
 
-More questionson speed andacceleration canbe found at the endof Unit 1 onpage55.
+More questions on speed and acceleration can be found at the end of Unit 1 on page 55.
 
-• 1Asprinterruns100metresin 12.5seconds.Calculate the speed inm/s.
+• 1 A sprinter runs 100 metres in 12.5 seconds. Calculate the speed in m/s.
 
-• 2Ajetcan travel at350 m/s.Calculate howfarit will travel at thisspeed in:
+• 2 A jet can travel at 350 m/s. Calculate how far it will travel at this speed in:
 
-• a30 seconds
+• a 30 seconds
 
-• b5minutes
+• b 5 minutes
 
-• chalf an hour.
+• c half an hour.
 
-• 3Asnail crawls ata speed of0.0004m/s.How long willit take to climb a gardenstick1.6mhigh?
+• 3 A snail crawls at a speed of 0.0004 m/s. How long will it take to climb a garden stick 1.6 m high?
 
 SKILLS
 
@@ -929,27 +933,27 @@ ANALYSIS
 
 INTERPRETATION
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 PROBLEM SOLVING
 
-• 12Aplane starting from rest accelerates at3m/s²for25s.Calculate the increase invelocity after:
+• 12 A plane starting from rest accelerates at 3 m/s² for 25 s. Calculate the increase in velocity after:
 
-• a1s
+• a 1 s
 
-• b5s
+• b 5 s
 
-• c25s.
+• c 25 s.
 
-• 13Look at the following sketches of velocity-time graphs of moving objects.
+• 13 Look at the following sketches of velocity-time graphs of moving objects.
 
 In which graph is the object:
 
-• anot accelerating
+• a not accelerating
 
-• baccelerating fromrest
+• b accelerating from rest
 
-• cdecelerating
+• c decelerating
 
 #### LOOKING AHEAD
 • daccelerating at the greatest rate?
@@ -1067,17 +1071,19 @@ Aforce of one newton will make amass of onekilogram accelerate at one metre pers
 This is explained more fully later(see Chapter3).Togive you anidea of the sizeof thenewton,the force of gravity on a kilogram bag of sugar(itsweight) is about 10 N;an average-sized apple weighs 1 N.
 
 Figure 2.4More forces!
-SOMEOTHEREXAMPLESOFFORCES
 
-It isnot always easy to spot forces acting on objects.The compass needle inFigure 2.4a,whichis a magnet,is affected by the magnetic forcebetween it and theother magnet.Magneticforcesareused to make electricmotors rotate,tohold fridge doors shut,and in many other situations.
+#### SOMEOTHEREXAMPLESOFFORCES
+SOME OTHER EXAMPLES OF FORCES
 
-Ifyou combyourhair,you sometimesfind thatsomeofyourhairsticksto the combas shown inFigure 2.4b.This happensbecause ofan electrostatic force Graaff generator,as shown inFigure9.6 on page 87.
+It is not always easy to spot forces acting on objects. The compass needle in Figure 2.4a, which is a magnet, is affected by the magnetic force between it and the other magnet. Magnetic forces are used to make electric motors rotate, to hold fridge doors shut, and in many other situations.
 
-Aparachute causes theparachutist to descend moreslowlybecause anupward force actson theparachute called airresistance or drag.Air resistance islike friction-it tries tooppose movement of objects through the air.Designers of cars,high-speed trains and other fast-moving objects try toreduce the effects of this force.Objectsmoving through liquids alsoexperiencea drag force-fast-moving animals that live in waterhave streamlined (smooth and efficient) shapes toreduce this force.
+If you comb your hair, you sometimes find that some of your hair sticks to the comb as shown in Figure 2.4b. This happens because of an electrostatic force Graaff generator, as shown in Figure 9.6 on page 87.
 
-Hotairballoons are carried upwardsin spite of thepull ofgravity on them because of a force called upthrust.Thisis theupward push of the surrounding airon theballoon.An upthrust force also acts on objects in liquids.
+A parachute causes the parachutist to descend more slowly because an upward force acts on the parachute called air resistance or drag. Air resistance is like friction - it tries to oppose movement of objects through the air. Designers of cars, high-speed trains and other fast-moving objects try to reduce the effects of this force. Objects moving through liquids also experience a drag force - fast-moving animals that live in water have streamlined (smooth and efficient) shapes to reduce this force.
 
-More typesof force,such aselectric and nuclearforces,arementioned in other chaptersof thisbook.Therest of thischapterwilllook at theeffects of forces.
+Hot air balloons are carried upwards in spite of the pull of gravity on them because of a force called upthrust. This is the upward push of the surrounding air on the balloon. An upthrust force also acts on objects in liquids.
+
+More types of force, such as electric and nuclear forces, are mentioned in other chapters of this book. The rest of this chapter will look at the effects of forces.
 MORETHAN ONE FORCE
 
 Aswesawearlier,inmost situations therewill bemore thanjustone force acting on anobject.Lookat the man trying topush the car,shown in Figure 2.5.The two forces act along the same line,butin opposite directions. Thismeans that one isnegative(because it acts in the opposite direction to the other)and,if they are equal in size,they add up tozero and the carwillnot move.
@@ -1097,34 +1103,40 @@ So,if the force from friction is300 N:
 unbalancedforce=300N+300N-300N
 
 =300N
-BALANCEDANDUNBALANCEDFORCES
 
-Figure2.7showstwo situationsin which forcesareacting onanobject.In thetugofwarcontestthetwoteamsarepullingontheropeinopposite directions.Formuchof the time theropedoesn'tmovebecause thetwo oppositedirectionsalong theline of therope.Thereisnounbalanced forcein onedirection or theother.When theforcesactingonsomething arebalanced, the object doesnot change the way it is moving.In this case if therope is stationary,itremainsstationary.Eventually,oneofthe teamswillbecome tired and itspull willbesmaller than that of the otherteam.When the forces acting on theropeareunbalanced theropewillstarttomovein thedirectionofthe greater force.There willbe an unbalanced force in that direction.Unbalanced forcesacting onan objectcauseit to change thewayit ismoving.Therope wasstationary and theunbalanced forcesactingon itcaused it toaccelerate.
+#### BALANCEDANDUNBALANCEDFORCES
+BALANCED AND UNBALANCED FORCES
 
-ThecarinFigure 2.7isdesigned tohave anenormous acceleration from rest. Assoon asitstarts tomove the forcesthat opposemotion-friction and drag -must be overcome.The thrust of the engine is,to start with,much greater than the frictionand drag forces.Thismeans that theforcesacting on the car in thehorizontal direction areunbalanced and theresult isa change in the way that the carismoving-it accelerates!Once the friction forcesbalance the thrust the carnolonger accelerates-itmovesat a steady speed.
-FRICTION
+Figure 2.7 shows two situations in which forces are acting on an object. In the tug of war contest the two teams are pulling on the rope in opposite directions. For much of the time the rope doesn't move because the two opposite directions along the line of the rope. There is no unbalanced force in one direction or the other. When the forces acting on something are balanced, the object does not change the way it is moving. In this case if the rope is stationary, it remains stationary. Eventually, one of the teams will become tired and its pull will be smaller than that of the other team. When the forces acting on the rope are unbalanced the rope will start to move in the direction of the greater force. There will be an unbalanced force in that direction. Unbalanced forces acting on an object cause it to change the way it is moving. The rope was stationary and the unbalanced forces acting on it caused it to accelerate.
 
-Frictionis the force thatcausesmoving objectstoslowdownand finallystop Thekineticenergy of themoving objectistransferred toheat asworkis doneby thefriction force.Forthe iceskaterinFigure2.8 the forceof friction is very small sosheisable toglideforlongdistanceswithout having todo any work.Itis also the force thatallowsacar'swheelstogriptheroad and make it accelerate-veryquicklyin the case of theracing cars inFigure2.8.
+The car in Figure 2.7 is designed to have an enormous acceleration from rest. As soon as it starts to move the forces that oppose motion - friction and drag - must be overcome. The thrust of the engine is, to start with, much greater than the friction and drag forces. This means that the forces acting on the car in the horizontal direction are unbalanced and the result is a change in the way that the car is moving - it accelerates! Once the friction forces balance the thrust the car no longer accelerates - it moves at a steady speed.
 
-Scientistshaveworkedhard formanyyearstodevelopsomematerialsthat reducefriction and others thatincreasefriction.Reducing frictionmeans that machinesworkmore efficiently(wastingless energy)and donotwearout so quickly.Increasingfriction canhelptomaketyresthatgrip theroadbetterand tomake moreeffectivebrakes.
-INVESTIGATINGFRICTION
+#### FRICTION
+Friction
+
+Friction is the force that causes moving objects to slow down and finally stop. The kinetic energy of the moving object is transferred to heat as work is done by the friction force. For the ice skater in Figure 2.8, the force of friction is very small so she is able to glide for long distances without having to do any work. It is also the force that allows a car's wheels to grip the road and make it accelerate - very quickly in the case of the racing cars in Figure 2.8.
+
+Scientists have worked hard for many years to develop some materials that reduce friction and others that increase friction. Reducing friction means that machines work more efficiently (wasting less energy) and do not wear out so quickly. Increasing friction can help to make tyres that grip the road better and to make more effective brakes.
+
+#### INVESTIGATINGFRICTION
+INVESTIGATING FRICTION
 
 • Figure 2.9 This apparatus can be used to investigate friction.
 
-A'catch box'filled with bubble wrap (or similar)under the suspended masseskeeps hands and feet out of the'drop zone'
+A 'catch box' filled with bubble wrap (or similar) under the suspended masses keeps hands and feet out of the 'drop zone'
 
-Figure 2.8 The ice skater can glide because friction is low.The cars need friction to grip the road.
+Figure 2.8 The ice skater can glide because friction is low. The cars need friction to grip the road.
 
-Frictionoccurswhen solid objectsrubagainstother solid objects and also when objects move through fluids(liquids and gases).Sprint cyclists and Olympicswimmersnowwearspecial materials toreduce the effectsof fluid friction so they can achieve faster timesin theirraces.Sometimesfluid friction isvery desirable-forexample,when someoneuses a parachute afterjumping from aplane!
+Friction occurs when solid objects rub against other solid objects and also when objects move through fluids (liquids and gases). Sprint cyclists and Olympic swimmers now wear special materials to reduce the effects of fluid friction so they can achieve faster times in their races. Sometimes fluid friction is very desirable - for example, when someone uses a parachute after jumping from a plane!
 
-The simple apparatus shown inFigure2.9 canbe used to discoversome basic factsabout friction.The weight force on the line running over the pulleypulls theblockhorizontally along the trackand friction actson theblockto oppose this force.The weight is increased until the block just starts to move;this happenswhen thepull of the weight forcejust overcomes the friction force. Thefriction forcebetween theblockand the trackhasmaximumvalue.
+The simple apparatus shown in Figure 2.9 can be used to discover some basic facts about friction. The weight force on the line running over the pulley pulls the block horizontally along the track and friction acts on the block to oppose this force. The weight is increased until the block just starts to move; this happens when the pull of the weight force just overcomes the friction force. The friction force between the block and the track has maximum value.
 
-The apparatus can beused to test different factors that may affect the size of the friction force,such asthe surfaces in contact-the bottom of the block and the surface of the track.lf the track surface is replaced with arough surface,like a sheet of sandpaper,the forcerequired to overcome friction will be greater.
+The apparatus can be used to test different factors that may affect the size of the friction force, such as the surfaces in contact - the bottom of the block and the surface of the track. If the track surface is replaced with a rough surface, like a sheet of sandpaper, the force required to overcome friction will be greater.
 
 #### INVESTIGATINGFRICTION
-Itisimportant torememberfrictionwhenyou areinvestigating forcesand motion. Friction affects almostevery form ofmotion on Earth.Howeverit ispossible to doexperimentsinthesciencelaboratory inwhich thefrictionforce onamoving objectisreduced to a very lowvalue.Such an objectcanbesetinmotion witha small push and it will continue tomove ata constant speed evenwhen the force is nolongeracting onit.An experimentlike thisis shown inFigure 2.10.
+It is important to remember friction when you are investigating forces and motion. Friction affects almost every form of motion on Earth. However it is possible to do experiments in the science laboratory in which the friction force on a moving object is reduced to a very low value. Such an object can be set in motion with a small push and it will continue to move at a constant speed even when the force is no longer acting on it. An experiment like this is shown in Figure 2.10.
 
-You may also have seenscientistsworkinginspacedemonstrating that objectskeepmovingin a straight line at constant speed,once setinmotion. Theydo thisinspacebecause theobjectsareweightless and the forceofair resistance acting on them isverysmall.
+You may also have seen scientists working in space demonstrating that objects keep moving in a straight line at constant speed, once set in motion. They do this in space because the objects are weightless and the force of air resistance acting on them is very small.
 EXTENSION WORK
 
 Objects in orbit,such as spacecraft,are described asweightless'because they do the spacecraft.You can think of a spacecraft in orbit asfalling around the Earth'As the objects insidethe spacecraft are also falling around the Earthat the samerate, they donotseem to fallinside thespacecraft.
@@ -1139,13 +1151,15 @@ CHANGINGSHAPES
 Wehave seen thatforcescan make thingsstart tomove,accelerate or decelerate.The examplesinFigure 2.11show anothereffect that forces can have-they can change the shapeofan object.
 
 Sometimes the change of shape is temporary,as in the suspension spring in the mountain bike（Figure2.11a).Sometimes the shapeof theobjectis permanently changed,like a crushed can ora car that has collidedwith a load.Next we willlook at temporary changes in the lengths of springs and elasticbands.
-TEMPORARY CHANGESOFSHAPE
 
-Ifyouapply a force toan elasticband,itsshape changes-theband stretches andgets longer.All materialswill stretch a littlewhenyouput themunder tension (that is,pull them)or shorten whenyou compress or squash them.You can stretch a rubberband quite easily,but a huge force isneeded to cause a noticeable extension in a pieceof steel of the same length.
+#### TEMPORARY CHANGESOFSHAPE
+TEMPORARY CHANGES OF SHAPE
 
-Some materials,like glass,donot change shape easily and arebrittle,breaking rather than stretchingnoticeably.Elasticmaterialsdonotbreakeasily and tend toretum totheiroriginalshapewhentheforcesactingon themareremoved. like the spring inFigure 2.11b.Othermaterials,likeputty and modelling clay arenotelastic butplastic,and they change shape when even quite small forcesare applied to them.
+If you apply a force to an elastic band, its shape changes - the band stretches and gets longer. All materials will stretch a little when you put them under tension (that is, pull them) or shorten when you compress or squash them. You can stretch a rubber band quite easily, but a huge force is needed to cause a noticeable extension in a piece of steel of the same length.
 
-We will lookatelasticmaterials,likerubber,metal wires and metals formed intosprings,in thenext part of this chapter.
+Some materials, like glass, do not change shape easily and are brittle, breaking rather than stretching noticeably. Elastic materials do not break easily and tend to return to their original shape when the forces acting on them are removed. like the spring in Figure 2.11b. Other materials, like putty and modelling clay are not elastic but plastic, and they change shape when even quite small forces are applied to them.
+
+We will look at elastic materials, like rubber, metal wires and metals formed into springs, in the next part of this chapter.
 SPRINGSANDWIRES
 
 Springs are coiled lengths of certain types of metal,which can be stretched situations.Sometimes they are used toabsorbraised bumps in the road as suspension springsin a carorbicycle.Inbeds and chairs theyareused to make sleeping and sittingmore comfortable.Theyare alsoused in doorlocks tohold them closed and to make doors close automatically.
@@ -1163,80 +1177,84 @@ Hooke measured the increasein length(extension)produced by different load forces
 Figure2.12Robert Hooke(1635-1703) was a contemporary of Sir lsaac Newton.This is a drawing of the apparatus Hooke used in his experimental work on the extension of a spring.
 
 Wear eyeprotectionifheavy loads are beingused and clamp stands securely to a bench or table.Keep hands and feetaway frombeneath the load.Do not use excessively large loads.
-PRACTICAL:INVESTIGATEHOWTHEEXTENSION OFA SPRINGCHANGESWITHLOAD
 
-Figure2.13a shows apparatus thatmaybeused to investigate the relationshipbetween the force applied to a spring anditsextension.
+#### PRACTICAL:INVESTIGATEHOWTHEEXTENSION OFA SPRINGCHANGESWITHLOAD
+PRACTICAL: INVESTIGATE HOW THE EXTENSION OF A SPRING CHANGES WITH LOAD
 
-The lengthof the unstretched spring ismeasuredwith ahalf-metre rule then the springisloaded with differentweights.The extension for each load ismeasured against a scaleusinga set square toimprove measurement accuracy.
+Figure 2.13a shows apparatus that may be used to investigate the relationship between the force applied to a spring and its extension.
 
-A tableof resultsisrecorded andagraphof load force against extension plotted asshown inFigure 2.13b.The extension measurements can be checked byunloading theweightsone ata time and remeasuring the extension foreach load.
+The length of the unstretched spring is measured with a half-metre rule then the spring is loaded with different weights. The extension for each load is measured against a scale using a set square to improve measurement accuracy.
 
-Figure 2.13 a Apparatus for the investigation b Graph showring expected result
+A table of results is recorded and a graph of load force against extension plotted as shown in Figure 2.13b. The extension measurements can be checked by unloading the weights one at a time and remeasuring the extension for each load.
 
-Here the result is a straight line graphpassing through the origin of the axes.The spring obeys Hooke'slaw.
+Figure 2.13 a Apparatus for the investigation b Graph showing expected result
 
-Hooke's law only applies if you donot stretch a spring too far.Figure 2.14 showswhat happensif you stretch a spring toofar.You can see that the line startsto curve atapointcalled thelimit ofproportionality.Thisis thepoint where the spring stopsobeying Hooke'slawand startstostretchmorefor each increase in theload force.lf the load isincreased more,a point called the elasticlimit isreached.Onceyou have stretched a springbeyond the elastic limit itwill notreturn toitsoriginal length asyou take theweightsoff the spring-
+Here the result is a straight line graph passing through the origin of the axes. The spring obeys Hooke's law.
 
-Wear eyeprotectionbecause if the elasticbandbreaksitcan flybackwith damage.
+Hooke's law only applies if you do not stretch a spring too far. Figure 2.14 shows what happens if you stretch a spring too far. You can see that the line starts to curve at a point called the limit of proportionality. This is the point where the spring stops obeying Hooke's law and starts to stretch more for each increase in the load force. If the load is increased more, a point called the elastic limit is reached. Once you have stretched a spring beyond the elastic limit it will not return to its original length as you take the weights off the spring-
+
+Wear eye protection because if the elastic band breaks it can fly back with damage.
 REMINDER
 
-A wire that stretches elastically will retumtoitsoriginal lengthonce the stretching force isremoved.Awire that stretchesplastically will not retum to itsoriginal length once the stretching force isremoved and may show signs ofnarrowing (necking).
+A wire that stretches elastically will return to its original length once the stretching force is removed. A wire that stretches plastically will not return to its original length once the stretching force is removed and may show signs of narrowing (necking).
 
-Hooke'slawalso applies towires.lfyou stretch a wire,you will find that the extensionisproportional to theloaduptoacertain load then itmaybehaveas the spring shown inFigure 2.14.Wiresmadeof differentmetalswill behave in differentways-some will obeyHooke'slawuntil thewire breaks;other types
-ELASTICBANDS
+Hooke's law also applies to wires. If you stretch a wire, you will find that the extension is proportional to the load up to a certain load then it may behave as the spring shown in Figure 2.14. Wires made of different metals will behave in different ways - some will obey Hooke's law until the wire breaks; other types
+
+#### ELASTICBANDS
+ELASTIC BANDS
 
 Figure 2.15 Stretching an elastic band
 
-Elasticbands areusuallymadeofrubber.You canuse the same apparatus shown inFigure 2.13atoinvestigatehow anelasticbandstretchesunderload. likethat shown inFigure 2.16.Thegraphisnot a straight line,showing that elasticbandsdonot obey Hooke'slaw.You may alsofind that the extension producedbyagiven loadforceisdifferentwhenyouareincreasing theload force towhenyou decrease the load force.
+Elastic bands are usually made of rubber. You can use the same apparatus shown in Figure 2.13 to investigate how an elastic band stretches under load, like that shown in Figure 2.16. The graph is not a straight line, showing that elastic bands do not obey Hooke's law. You may also find that the extension produced by a given load force is different when you are increasing the load force to when you decrease the load force.
 
-Figure 2.16 Rubber bands do not obey Hooke's law-the extension is not directly proportional to the force causingit.
+Figure 2.16 Rubber bands do not obey Hooke's law - the extension is not directly proportional to the force causing it.
 CHAPTER QUESTIONS
 
 CRITICAL THINKING
 
 PROBLEM SOLVING
 
-More questions on forces can be found at the endof Unit 1onpage55.
+More questions on forces can be found at the end of Unit 1 on page 55.
 
-• 1Name the force that:
+• 1 Name the force that:
 
 • causes objects to fall towards the Earth
 
 • makes a ball rolled across level ground eventually stop
 
-• cstops a car sinking into the road surface.
+• stops a car sinking into the road surface.
 
-• 2Name two types of force that oppose motion.
+• 2 Name two types of force that oppose motion.
 
-• 3The drawing shows two tug-of-war teams.Eachpersonin thered team is pullingwith a force of 250 N.Each person in theblue team ispulling with a force of200 N.
+• 3 The drawing shows two tug-of-war teams. Each person in the red team is pulling with a force of 250 N. Each person in the blue team is pulling with a force of 200 N.
 
-• aWhat is the total force exertedby theblue team?
+• a What is the total force exerted by the blue team?
 
-• bWhat is the total force exerted by thered team?
+• b What is the total force exerted by the red team?
 
-• cWhat is the resultant (unbalanced） force on the rope?
+• c What is the resultant (unbalanced) force on the rope?
 
-• dWhich team willwin?
+• d Which team will win?
 
-• The diagrambelow shows a blockofwood ona sloping surface.Copy the diagram and label all the forces thatacton theblockofwood.
+• The diagram below shows a block of wood on a sloping surface. Copy the diagram and label all the forces that act on the block of wood.
 
 block of wood on a slope
 
-• 5A caris travelling along a level road at constant velocity (that is,its speed and direction are not changing).Draw a labelled diagram to show the forces that act on the car.
+• 5 A car is travelling along a level road at constant velocity (that is, its speed and direction are not changing). Draw a labelled diagram to show the forces that act on the car.
 
-• Describe two things thatitwouldbeimpossible to dowithout friction.
+• Describe two things that it would be impossible to do without friction.
 
-• Copy the diagramsbelowand label the direction in which friction is acting on the objects.
+• Copy the diagrams below and label the direction in which friction is acting on the objects.
 
-• aa book ona sloping surface
+• a a book on a sloping surface
 
-• ba block of wood being pulled up a slope
+• b a block of wood being pulled up a slope
 
-• The drawing below shows a carpulling a caravan.They are travelling at constant velocity.
+• The drawing below shows a car pulling a caravan. They are travelling at constant velocity.
 
-• Copy the drawing.Label the forces that are acting on the caravan with arrows showing the direction that theyact in.
+• Copy the drawing. Label the forces that are acting on the caravan with arrows showing the direction that they act in.
 
-• bLabel the forces thatacton the car.
+• b Label the forces that act on the car.
 
 SKILLS
 
@@ -1245,15 +1263,15 @@ INTERPRETATION
 REASONING
 
 #### CHAPTER QUESTIONS
-• 9The information in thefollowing table wasobtained from anexperiment with a spring of original (unstretched) length5cm.
+• 9 The information in the following table was obtained from an experiment with a spring of original (unstretched) length 5 cm.
 
-• Copy and complete the table by calculating the extensionsproduced by eachload.
+• Copy and complete the table by calculating the extensions produced by each load.
 
-• Use your table toplot a graph of force (y-axis) against extension(x-axis).
+• Use your table to plot a graph of force (y-axis) against extension (x-axis).
 
-• Markonyour graph thepart thatshowsHooke'slaw.
+• Mark on your graph the part that shows Hooke's law.
 
-• Sketch the shapeof thegraphyou would expectif you carriedout the same experiment using anelasticband insteadof a spring.
+• Sketch the shape of the graph you would expect if you carried out the same experiment using an elastic band instead of a spring.
 
 #### CHAPTER QUESTIONS
 |   Load force on spring /newtons |   Length of spring /cm | Extension of spring /cm   |
@@ -1277,25 +1295,25 @@ The way an object moves depends upon its mass and the unbalanced force acting up
 Figure 3.1a This aircrafthas only a short distance to travel betore taking off and b a very short distance to land back on the aircralt carrier.
 LEARNING OBJECTIVES
 
-• Know and use therelationship between unbalanced force,mass and acceleration:
+• Know and use the relationship between unbalanced force, mass and acceleration:
 
-force=massxacceleration
+force = mass × acceleration
 
-F=mxa
+F = m × a
 
-• Know and use therelationshipbetween weight,mass and gravitational field strength:
+• Know and use the relationship between weight, mass and gravitational field strength:
 
-weight=massxgravitational field strength
+weight = mass × gravitational field strength
 
-W=mxg
+W = m × g
 
-• Know that the stopping distance ofavehicle is made upof the sumof the thinking distance and thebraking distance
+• Know that the stopping distance of a vehicle is made up of the sum of the thinking distance and the braking distance
 
-• Describe the factors affecting vehicle stopping distance,including speed,mass,road condition and reaction time
+• Describe the factors affecting vehicle stopping distance, including speed, mass, road condition and reaction time
 
-• Describe the forcesacting on fallingobjects(and explain why falling objectsreacha terminalvelocity)
+• Describe the forces acting on falling objects (and explain why falling objects reach a terminal velocity)
 
-Theaircraft inFigure3.1must accelerate toavery high speed ina very short timewhen taking offand deceleratequicklywhen landingbackon the aircraft carrier.Theunbalanced force on theplane causes the acceleration.The forces thatact horizontallyon theaircraft are the friction forcebetween thewheels and the flight deck（whereplaneslandon a ship),and airresistance,when the aircraft starts tomove.Atthe start,the forward thrustof the aircraftengines ismuchgreater than airresistanceand friction,so thereisa largeunbalanced force tocause the acceleration.When the aircraft landson theflight deckit must decelerate to stopin a short distance.Parachutes and drag wires are used toprovidealarge unbalanced forceacting in theopposite direction to the aircraft'smovement.An unbalanced force issometimesreferred toasa resultantforce.In thischapterwelookathowaccelerationisrelated tothe force acting on an object.
+The aircraft in Figure 3.1 must accelerate to a very high speed in a very short time when taking off and decelerate quickly when landing back on the aircraft carrier. The unbalanced force on the plane causes the acceleration. The forces that act horizontally on the aircraft are the friction force between the wheels and the flight deck (where planes land on a ship), and air resistance, when the aircraft starts to move. At the start, the forward thrust of the aircraft engines is much greater than air resistance and friction, so there is a large unbalanced force to cause the acceleration. When the aircraft lands on the flight deck it must decelerate to stop in a short distance. Parachutes and drag wires are used to provide a large unbalanced force acting in the opposite direction to the aircraft's movement. An unbalanced force is sometimes referred to as a resultant force. In this chapter we look at how acceleration is related to the force acting on an object.
 INVESTIGATINGFORCE,MASSAND ACCELERATION
 
 Heavy woodenrunwaysneed tobe stacked and moved carefully.They are bestused at low level rather thanbeing placed onbenches or tableswhere theymay fall off.If heavy trolleys are used as'vehicles'a'catchbox'filled withbubble wrapor similar material shouldbeplacedattheend of the runway.
@@ -1362,44 +1380,44 @@ Onenewton is theforceneeded tomake a massofonekilogram accelerateatonemetreperse
 • Figure 3.7 The equation can be rearranged using the triangle method.lf you need to find the acceleration that results when a known force acts on an object of known mass,cover up a;you F can see thata= m
 HINT
 
-If an examinationquestion asksyou towrite out the equation for calculating force, mass oracceleration,always give the actual equation (such as F=m xa).You may notget the mark ifyoujust draw the triangle.
+If an examination question asks you to write out the equation for calculating force, mass or acceleration, always give the actual equation (such as F=m x a). You may not get the mark if you just draw the triangle.
 
-Ifyou are designing a car forhigh acceleration,the equation F=ma tells you thatthe carshould havelowmass and theenginemustprovide ahigh accelerating force.Youmust also consider the force needed to stop the car.
+If you are designing a car for high acceleration, the equation F=ma tells you that the car should have low mass and the engine must provide a high accelerating force. You must also consider the force needed to stop the car.
 
-When a moving object is stopped,it decelerates.
+When a moving object is stopped, it decelerates.
 
-Anegative acceleration is a deceleration.
+A negative acceleration is a deceleration.
 
-Ifa largedecelerationisneeded then theforcecausing thedecelerationmust belarge,too.Usuallya carisstopped byusing thebrakesin a controlledway so that the deceleration isnot excessive (too much).In an accident the car may collide with another vehicle or obstacle,causing a very rapid deceleration.
+If a large deceleration is needed then the force causing the deceleration must be large, too. Usually a car is stopped by using the brakes in a controlled way so that the deceleration is not excessive (too much). In an accident the car may collide with another vehicle or obstacle, causing a very rapid deceleration.
 EXAMPLE1
 
-Acartravelling at20m/scollideswitha stationarylorryand stops completely injust 0.02s.Calculate the deceleration of the car.
+A car travelling at 20 m/s collides with a stationary lorry and stops completely in just 0.02 s. Calculate the deceleration of the car.
 
-=-1000m/s²
+=-1000 m/s²
 
-Aperson ofmass50kgin thecarexperiences thesame deceleration when shecomesinto contactwith a hard surfacein the car.Thiscould be the dashboard orthewindscreen.Calculate the force thattheperson experiences.
+A person of mass 50 kg in the car experiences the same deceleration when she comes into contact with a hard surface in the car. This could be the dashboard or the windscreen. Calculate the force that the person experiences.
 
 F=mxa
 
-=50kgx1000m/s²
+=50 kg×1000 m/s²
 
-• =50000N
+• =50000 N
 
-In Chapter4you will learn aboutways in which cars canbe designed to reduce the forcesonpassengersinan accident.
+In Chapter 4 you will learn about ways in which cars can be designed to reduce the forces on passengers in an accident.
 FRICTIONANDBRAKING
 
 • Figure3.8Motorcycle discbrakeswork using friction.Friction is necessary if we want things to stop.
 SAFESTOPPINGDISTANCE
 
-21metres The'tread'ofa tyreis the groovedpattern moulded into the rubbersurface. It isdesigned tokeep therubbersurface in contactwith theroad by throwing waterawayfrom the tyresurface.
+21 metres The 'tread' of a tyre is the grooved pattern moulded into the rubber surface. It is designed to keep the rubber surface in contact with the road by throwing water away from the tyre surface.
 
-Brakes on cars and bicyclesworkbyincreasing the frictionbetween the rotating wheels and the body of the vehicle,as shown in Figure3.8.
+Brakes on cars and bicycles work by increasing the friction between the rotating wheels and the body of the vehicle, as shown in Figure 3.8.
 
-The friction force between the tyresand theroad dependson the condition of the tyresand the surface of the road.lt alsodependson the weightof the vehicle.lf the tyreshave a good tread,areproperly inflated (filled with air)and theroad isdry,the friction forcebetween the road and the tyreswill beatits maximum.
+The friction force between the tyres and the road depends on the condition of the tyres and the surface of the road. It also depends on the weight of the vehicle. If the tyres have a good tread, are properly inflated (filled with air) and the road is dry, the friction force between the road and the tyres will be at its maximum.
 
-Unfortunately,we donot always travel inideal conditions.lf theroad iswet or the tyres are inbad condition the friction force will be smaller.lf the brakes are applied toohard,the tyreswill notgrip theroad surface and the carwill skid (slideoutofcontrol).Once thecarisskidding thedrivernolongerhascontrol andit will takelonger to stop.Skidding canbe avoided byapplying the brakes in the correctway,so that the wheelsdonot lock.Most modern carsarefitted with ABS（anti-lockbraking system) to reduce the chance of a skid occurring. ABSisa computer-controlled system that senseswhen the carisabout to skid andreleasesthebrakesforavery shorttime.
+Unfortunately, we do not always travel in ideal conditions. If the road is wet or the tyres are in bad condition the friction force will be smaller. If the brakes are applied too hard, the tyres will not grip the road surface and the car will skid (slide out of control). Once the car is skidding the driver no longer has control and it will take longer to stop. Skidding can be avoided by applying the brakes in the correct way, so that the wheels do not lock. Most modern cars are fitted with ABS (anti-lock braking system) to reduce the chance of a skid occurring. ABS is a computer-controlled system that senses when the car is about to skid and releases the brakes for a very short time.
 
-TheHighway Codeused in the UnitedKingdom givesstoppingdistances for cars travelling atvariousspeeds.The stopping distance is the sum of the thinking distanceand thebraking distance.The fasterthe car is travelling the greater the stopping distance will be.
+The Highway Code used in the United Kingdom gives stopping distances for cars travelling at various speeds. The stopping distance is the sum of the thinking distance and the braking distance. The faster the car is travelling the greater the stopping distance will be.
 THINKING DISTANCE
 
 When a driversuddenly sees an object blocking the way ahead,it takes time forhim orher to respond to the new situation before taking any action,such as braking.Thistime is calledreaction time andwill depend onthe person driving the car.ltwill alsodepend on a numberofotherfactors including whether the driveris tiredorundertheinfluenceofalcoholorotherdrugsthatslowreaction times.Poorvisibility (for example,fog）may also makeit difficult for a driver to identifya dangerand socausehim orherto takelonger torespond.Clearly， thelonger the driver takes toreact,thefurther the carwill travel before braking even starts-that is,thelonger the thinking distance willbe.Equally clearis the fact that the higher the car's speed,the further the carwill travel during this'thinking time'If the distancebetween two cars isnot atleast the thinking violent accidentis inevitable.
@@ -1409,38 +1427,38 @@ When a driversuddenly sees an object blocking the way ahead,it takes time forhim
 Figure 3.9 The stopping distance is the distance the car covers from the moment the driver is aware of the need to stop to the point atwhich thevehicle comes toa complete stop.
 BRAKING DISTANCE
 
-With ABS（anti-lockbraking system)braking,inan emergency you brake as hard asyou can.This means that the braking force will be a maximum and we canworkout the deceleration using the equationbelow.
+With ABS (anti-lock braking system) braking, in an emergency you brake as hard as you can. This means that the braking force will be a maximum and we can work out the deceleration using the equation below.
 
-F=mxa,rearranged togive:
+F = m × a, rearranged to give:
 
-• F (shown inFigure 3.7) B m
+• F (shown in Figure 3.7) ÷ m
 
-It isworthpointing outhere thatvehicleswith largemasses,likelorries willhave smallerrates of deceleration foragiven braking force-theywill, therefore,travel furtherwhilebraking.
+It is worth pointing out here that vehicles with large masses, like lorries will have smaller rates of deceleration for a given braking force - they will, therefore, travel further while braking.
 
-Chapter 1shows that the distance travelled bya moving object canbefound fromitsvelocity-time graph.The area underthe graphgives the distance travelled.Look at the velocity-time graphs in Figures3.10 and 3.11.
+Chapter 1 shows that the distance travelled by a moving object can be found from its velocity-time graph. The area under the graph gives the distance travelled. Look at the velocity-time graphs in Figures 3.10 and 3.11.
 
-• Figure 3.10 Velocity-time graphs for two cars braking at different rates from the same speedv to rest.
+• Figure 3.10 Velocity-time graphs for two cars braking at different rates from the same speed v to rest.
 
-Figure 3.10 shows two cars,Aand B,braking from the samevelocity.CarA isbraking harderthan carBand comestorestina shorter time.CarB travels Remember thatthemaximumrateofdeceleration dependsonhowhardyou canbrakewithout skidding-inpoor conditions thebraking forcewill belower.
+Figure 3.10 shows two cars, A and B, braking from the same velocity. Car A is braking harder than car B and comes to rest in a shorter time. Car B travels further whilst stopping. Remember that the maximum rate of deceleration depends on how hard you can brake without skidding - in poor conditions the braking force will be lower.
 
-• Figure 3.11 Velocitytime graphs for two cars braking at the same rate to rest, from different speeds,v,and
+• Figure 3.11 Velocity-time graphs for two cars braking at the same rate to rest, from different speeds, v and
 
-Figure3.11 shows two cars,C andD,braking at the same rate,asyou can see from the gradients.CarCisbraking from a highervelocity and so takeslonger furtherwhilststoppingthan carD.
+Figure 3.11 shows two cars, C and D, braking at the same rate, as you can see from the gradients. Car C is braking from a higher velocity and so takes longer to stop than car D.
 
-Vehiclescannot stop instantly!Rememberalso that the chart inFigure3.9 showsstopping distancesinideal conditions.lf the car tyresorbrakes are in poorcondition,orif theroad surface is wet,icy orslippery,then the carwill travel furtherbeforestopping.
+Vehicles cannot stop instantly! Remember also that the chart in Figure 3.9 shows stopping distances in ideal conditions. If the car tyres or brakes are in poor condition, or if the road surface is wet, icy or slippery, then the car will travel further before stopping.
 WEIGHT
 
-Theweightofan object is the force that actson it because of gravity.The gravitational field strength(g)is the force that acts on eachkilogram of mass.We can work out the weightofan object by using this equation:
+The weight of an object is the force that acts on it because of gravity. The gravitational field strength (g) is the force that acts on each kilogram of mass. We can work out the weight of an object by using this equation:
 
-weight,W(N)=mass,m (kg）xgravitational field strength,g (N/kg)
+weight, W (N) = mass, m (kg) × gravitational field strength, g (N/kg)
 
-W=mxg
+W = m × g
 
-You can use the trianglemethod torearrange thisequation.
+You can use the triangle method to rearrange this equation.
 
-• Figure3.12Rearranging W= mxgusing the triangle method
+• Figure 3.12 Rearranging W = m × g using the triangle method
 
-Near and on theEarth'ssurface thegravitational field strengthisapproximately 9.8N/kg,but we often use 10 N/kg to make calculations easier.The gravitational field strength on theMoon is about 1.6N/kg,soan object taken from theEarth to the Moon will havelessweight even though it has the same mass.
+Near and on the Earth's surface the gravitational field strength is approximately 9.8 N/kg, but we often use 10 N/kg to make calculations easier. The gravitational field strength on the Moon is about 1.6 N/kg, so an object taken from the Earth to the Moon will have less weight even though it has the same mass.
 
 • Figure 3.13 An astronaut jumping on the Moon enjoying the effect of low gravity
 EXAMPLE2
@@ -1462,17 +1480,19 @@ weightonMars=140kgx3.34N/kg
 =468N
 
 • Figure3.15The velocity-time graph for an object accelerating until it reaches terminal velocity
-AIRRESISTANCEANDTERMINALVELOCITY
 
-An object moving throughairexperiences a force thatopposes itsmovement. Thisforceis called airresistance ordrag.The size of the drag force acting onanobjectdependsonitsshapeand itsspeed.Carsare designed tohave alow drag coefficlent.The drag coeficient isa measure ofhoweasily an objectmoves through the air.High-speed trainshave an efficient streamlined shape so thatairflowsmore smoothly around them.Streamlined,smooth surfacesproduceless drag.
+#### AIRRESISTANCEANDTERMINALVELOCITY
+AIR RESISTANCE AND TERMINAL VELOCITY
 
-It isparticularlyimportant tomakefast-moving objects streamlinedbecause the drag force increaseswith the speed of the object.Thefact that drag increaseswith speed affects the way that dropped objects accelerate, because thefaster theymove thegreater the drag forceopposing theirmotion becomes.
+An object moving through air experiences a force that opposes its movement. This force is called air resistance or drag. The size of the drag force acting on an object depends on its shape and its speed. Cars are designed to have a low drag coefficient. The drag coefficient is a measure of how easily an object moves through the air. High-speed trains have an efficient streamlined shape so that air flows more smoothly around them. Streamlined, smooth surfaces produce less drag.
 
-Objectsfalling through the airexperiencetwosignificant forces:the weight force（that is,the pull of gravity on the object) and the opposing drag force.
+It is particularly important to make fast-moving objects streamlined because the drag force increases with the speed of the object. The fact that drag increases with speed affects the way that dropped objects accelerate, because the faster they move the greater the drag force opposing their motion becomes.
 
-Figure 3.14 How the forces acting on a object change asits velocity changes
+Objects falling through the air experience two significant forces: the weight force (that is, the pull of gravity on the object) and the opposing drag force.
 
-InFigure3.14a the object hasjustbeenreleased and hasa starting velocity of 0m/s.This means that there isno drag.（Remember that the drag forceacts on moving objects.)Theresulting downward-acting forceisjust theweight force. This force makes the objectaccelerate towards theEarth.
+Figure 3.14 How the forces acting on a object change as its velocity changes
+
+In Figure 3.14a the object has just been released and has a starting velocity of 0 m/s. This means that there is no drag. (Remember that the drag force acts on moving objects.) The resulting downward-acting force is just the weight force. This force makes the object accelerate towards the Earth.
 
 #### AIRRESISTANCEANDTERMINALVELOCITY
 Figure3.14b shows theobject nowmoving.Becauseit ismovingit hasadrag force,Fo,acting on it.The drag force acts upwards（up) against themovement. Thismeans that the resulting downward force(acting down) on the objectis (mg-Fo).You can see that the drag force has made theresulting downward force smaller,so the acceleration is smaller.Allthe time that the object is accelerating itisgettingfaster.The fasterthe objectmoves thebigger the drag force is.
@@ -1487,25 +1507,29 @@ When a skydiverjumpsfromaplane shewill accelerate fora time and eventuallyreach 
 Figure 3.17 Velocity-lime graph for a free-fallparachutist reaching terminal velocity,then opening theparachute
 
 #### MODELLINGTERMINALVELOCITY
-Objectshave to accelerate toquite high speeds in air toreach terminal velocity.Thismakes demonstrating the effect in a laboratory difficult.However, objectsfalling throughliquidsalso experience a drag force thatincreases with speed.The sizes of drag forcesin liquids are much higher than in gases. Thismeans thatobjectsfalling through liquids have amuchlower terminal velocitythanobjectsfalling through air,andcanbeused tomodel terminal velocity.You canuse a tallmeasuring cylinderfilled with waterand drop small-diameter(1-2mm)glassballs into it.Alternatively,use a much thicker liquid likeoiland use small-diameterballs.Aswell as demonstrating terminal velocity this presentsplenty ofopportunities forinvestigations.You could measure the terminalvelocityusing a lightgate and a datalogger.
-LOOKINGAHEAD-WEIGHTLESSNESS
+Objects have to accelerate to quite high speeds in air to reach terminal velocity. This makes demonstrating the effect in a laboratory difficult. However, objects falling through liquids also experience a drag force that increases with speed. The sizes of drag forces in liquids are much higher than in gases. This means that objects falling through liquids have a much lower terminal velocity than objects falling through air, and can be used to model terminal velocity. You can use a tall measuring cylinder filled with water and drop small-diameter (1-2mm) glass balls into it. Alternatively, use a much thicker liquid like oil and use small-diameter balls. As well as demonstrating terminal velocity this presents plenty of opportunities for investigations. You could measure the terminal velocity using a lightgate and a datalogger.
+
+#### LOOKINGAHEAD-WEIGHTLESSNESS
+LOOKING AHEAD - WEIGHTLESSNESS
 
 • Figure 3.19 Astronauts training for weightlessness in an aircraft
 
-Figures3.18and3.19show astronauts inweightless'conditionsin the Intemational Space Station and training forweightlessnessin an aircraft.In both casestheastronautsarestillbeingpulled towards theEarthbygravity They allexperience theforce we callweight,calculated using theequation mg thatwe met earlierin Chapter3,yet theyappear tofloat freely!
+Figures 3.18 and 3.19 show astronauts in weightless conditions in the International Space Station and training for weightlessness in an aircraft. In both cases the astronauts are still being pulled towards the Earth by gravity. They all experience the force we call weight, calculated using the equation mg that we met earlier in Chapter 3, yet they appear to float freely!
 
-They areina condition called free-fall.You may havenoticed feeling very slightlylighter'whenyou are in a lift asit accelerates downwards.This effect is morenoticeable if thelift accelerates at a greaterrate.Further study ofphysicswill explain all this.
-Exploring the SolarSystem
+They are in a condition called free-fall. You may have noticed feeling very slightly lighter when you are in a lift as it accelerates downwards. This effect is more noticeable if the lift accelerates at a greater rate. Further study of physics will explain all this.
 
-SirIsaacNewtonworkedouthislawsofmotionmorethan300years ago.AlthoughAlbert Einsteinexplained that theselawsdonotholdwhen objects are travelling at speedsclose to the speedof light(3x10m/s), Newton'slawsgive answers to calculations accurate enough for scientists toplan successful space missions like the Moonlanding in1969,the PhoenixlandertoMarsin2007and the incredibleachievementof landing the Philaelander(carried by the Rosetta spacecraft)ona comet in 2014.
+#### Exploring the SolarSystem
+Exploring the Solar System
 
-lIfyou lookatExample 1inChapter4(basedon theSaturnVrockets used in the Moonmissions)the answerobtained using equation
+Sir Isaac Newton worked out his laws of motion more than 300 years ago. Although Albert Einstein explained that these laws do not hold when objects are travelling at speeds close to the speed of light (3×10⁸ m/s), Newton's laws give answers to calculations accurate enough for scientists to plan successful space missions like the Moon landing in 1969, the Phoenix lander to Mars in 2007 and the incredible achievement of landing the Philae lander (carried by the Rosetta spacecraft) on a comet in 2014.
 
-force= time taken
+If you look at Example 1 in Chapter 4 (based on the Saturn V rockets used in the Moon missions) the answer obtained using equation
 
-ofreasons for this:one is to dowith airresistance,mentioned earlier in Chapter3;anotheristodowith what ishappening to the rocket asit uses upits fuel.
+force = time taken
 
-Understanding these allowsphysicists to apply the laws of motionmore accurately.
+of reasons for this: one is to do with air resistance, mentioned earlier in Chapter 3; another is to do with what is happening to the rocket as it uses up its fuel.
+
+Understanding these allows physicists to apply the laws of motion more accurately.
 CHAPTER QUESTIONS
 
 CRITICAL THINKING
@@ -1514,62 +1538,62 @@ REASONING
 
 PROBLEM SOLVING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
-Morequestionson force and accelerationcanbe found atthe endofUnit 1on page55.
+More questions on force and acceleration can be found at the end of Unit 1 on page 55.
 
-• Explain what is meant by an unbalanced force?llustrate your answer with anexample.
+• Explain what is meant by an unbalanced force? Illustrate your answer with an example.
 
-• Rocketsbum fuel to give them the thrust needed to accelerate.As the fuel bums the mass of therocketgetssmaller.Assuming that the rocket motors provide a constant thrustforce,explain whatwill happen to the acceleration of the rocket asit bums its fuel.
+• Rockets burn fuel to give them the thrust needed to accelerate. As the fuel burns the mass of the rocket gets smaller. Assuming that the rocket motors provide a constant thrust force, explain what will happen to the acceleration of the rocket as it burns its fuel.
 
-• 3aCalculate the force required to makean object of mass500g accelerate at4m/s².(Take care with the units!)
+• 3a Calculate the force required to make an object of mass 500g accelerate at 4m/s². (Take care with the units!)
 
-• bAn objectacceleratesat0.8 m/s²when a resultant force of200N acts upon it.Calculate the mass of the object.
+• b An object accelerates at 0.8 m/s² when a resultant force of 200N acts upon it. Calculate the mass of the object.
 
-• C cWhatacceleration isproduced bya force of 250 N acting on a mass of 25kg?
+• c What acceleration is produced by a force of 250 N acting on a mass of 25kg?
 
-• Explain themeaning of the following termsused to describe stopping vehiclesinan emergency:
+• Explain the meaning of the following terms used to describe stopping vehicles in an emergency:
 
 • a thinking distance
 
-• bbraking distance
+• b braking distance
 
-• coverall stopping distance.
+• c overall stopping distance.
 
-• 5What factors affect thebraking distance ofavehicle?
+• 5 What factors affect the braking distance of a vehicle?
 
-• Thediagrambelowshowsthevelocity-timegraphforacartravelling from themoment that the driver sees anobjectblocking theroad ahead.
+• The diagram below shows the velocity-time graph for a car travelling from the moment that the driver sees an object blocking the road ahead.
 
-Use thegraph tofind out:
+Use the graph to find out:
 
-• ahowlong the driver takes to react to seeing the obstacle(reaction time)
+• a how long the driver takes to react to seeing the obstacle (reaction time)
 
-• bhow farthecar travels in thisreaction time
+• b how far the car travels in this reaction time
 
-• chow long it takes tobring the car to a halt once the driver starts braking
+• c how long it takes to bring the car to a halt once the driver starts braking
 
-• dthe total distance the car travelsbefore stopping.
+• d the total distance the car travels before stopping.
 
-• Calculate the weight of an apple of mass100 grams:
+• Calculate the weight of an apple of mass 100 grams:
 
-• aon theEarth(g=10 N/kg）
+• a on the Earth (g=10 N/kg)
 
-• bon the Moon (g=1.6N/kg）
+• b on the Moon (g=1.6N/kg)
 
 SKILLS
 
-DECISIONMAKING
+DECISION MAKING
 
 SKILLS
 
 ANALYSIS
 
 #### CHAPTER QUESTIONS
-• Describe an experiment to demonstrate terminal velocity.Say what measurementsyouneed to takeinyourexperiment to show that afalling objecthasreached terminal speed.
+• Describe an experiment to demonstrate terminal velocity. Say what measurements you need to take in your experiment to show that a falling object has reached terminal speed.
 
-• 10Look at the velocity-time graph for a free-fall parachutist shown below.
+• 10 Look at the velocity-time graph for a free-fall parachutist shown below.
 
-State and explain the direction andrelative sizeof theunbalancedforce acting on theparachutist at each of thepointsA-Flabelled on thegraph.
+State and explain the direction and relative size of the unbalanced force acting on the parachutist at each of the points A-F labelled on the graph.
 
 ## Unit 1: Forces and Motion
 
@@ -1608,42 +1632,44 @@ time taken
 Newton'scradle is an entertaining toybutit also demonstratesaphysics conservation law.When oneof theballsisdrawn backa short way and released,it swings and collides with the remaining groupofballs.After the firstball wasdrawnbacktostartwith.Iftwoballsaredrawnbackandreleased then twoballswillmoveaway at the oppositeend asthecollision occurs. Themoving ball hasmomentum,and momentum is conserved in collisions. Thischapterisabout momentum andwhat ismeantby conservation of momentum.
 MOMENTUM
 
-We talk about objectsgaining momentum'in everyday speech.When we say thiswe are usually trying to getacross an idea of somethingbecoming more
+We talk about objects gaining momentum' in everyday speech. When we say this we are usually trying to get across an idea of something becoming more
 
-difficult tostop.Sometimesweuse theword inaway that isvery close to the wayit is defined inphysics-forexample,ifa carstartsrolling down a hill we might say that the caris'gainingmomentum'as it speedsup.
+difficult to stop. Sometimes we use the word in a way that is very close to the way it is defined in physics - for example, if a car starts rolling down a hill we might say that the car is 'gaining momentum' as it speeds up.
 
-In physics,momentum is a quantity possessed by masses in motion. Momentum is a measure of how difficult it is tostop something thatismoving. Wecalculate the momentum ofa moving objectusing the equation:
+In physics, momentum is a quantity possessed by masses in motion. Momentum is a measure of how difficult it is to stop something that is moving. We calculate the momentum of a moving object using the equation:
 
-momentum,p(kgm/s）=mass,m (kg)xvelocity,v(m/s)
+momentum, p (kgm/s) = mass, m (kg) × velocity, v (m/s)
 
-Momentumisavectorquantity and ismeasured inkilogrammetresper second (kgm/s)-provided that mass intheaboveequationismeasured inkg andvelocityinm/s.
+Momentum is a vector quantity and is measured in kilogram metres per second (kgm/s) - provided that mass in the above equation is measured in kg and velocity in m/s.
 
-You canseefrom the equation that themore massanobject has,the more momentum itwill havewhenmoving.Themomentum ofamovingobjectalso increases with its speed.
-MOMENTUMAND ACCELERATION
+You can see from the equation that the more mass an object has, the more momentum it will have when moving. The momentum of a moving object also increases with its speed.
 
-We have already discussed the relationship F=mxa (see page 30).This relationshipwasfirst discussedby SirlsaacNewton(1642-1727).Amore precisestatementofNewton's discoverywouldbe thatwhenanunbalanced forceactsonanobjectitcausesa changein themomentum of theobjectin the directionof theunbalanced force.Newtondiscovered thattherateofchange ofmomentum of anobjectisproportional to theforceapplied to thatobject. Thismeans thatifyou double theforceactingonanobjectitsmomentumwill change twice asquickly.Figure4.2shows the effect of the thrust force on the velocity of a space shuttleand,therefore,on itsmomentum.
+#### MOMENTUMAND ACCELERATION
+MOMENTUM AND ACCELERATION
 
-• Figure 4.2The thrust of the rocket motor makes the velocity and,therefore,the momentum of the shuttle increase.
+We have already discussed the relationship F=mxa (see page 30). This relationship was first discussed by Sir Isaac Newton (1642-1727). A more precise statement of Newton's discovery would be that when an unbalanced force acts on an object it causes a change in the momentum of the object in the direction of the unbalanced force. Newton discovered that the rate of change of momentum of an object is proportional to the force applied to that object. This means that if you double the force acting on an object its momentum will change twice as quickly. Figure 4.2 shows the effect of the thrust force on the velocity of a space shuttle and, therefore, on its momentum.
 
-initial momentum of object=mu
+• Figure 4.2 The thrust of the rocket motor makes the velocity and, therefore, the momentum of the shuttle increase.
 
-finalmomentum ofobject=mv
+initial momentum of object = mu
 
-therefore,increase inmomentum=mv-mu
+final momentum of object = mv
+
+therefore, increase in momentum = mv-mu
 
 (mv-mu)
-
-so,rate of increase ofmomentum：
-
+so, rate of increase of momentum：
 t
 
-Asstated above,Newton identified aproportionalrelationshipbetween the rateof increaseofmomentum and theforceapplied,butwith thesystem of units we use the relationship appears asshown:
+As stated above, Newton identified a proportional relationship between the rate of increase of momentum and the force applied, but with the system of units we use the relationship appears as shown:
 
 change in momentum (mv-mu)
+time
 
-Ifyou lookat thisequationyouwillnotice it canberearranged togive themore familiarequationF=ma:
+If you look at this equation you will notice it can be rearranged to give the more familiar equation F=ma:
 
-since
+since F = change in momentum
+time
 
 then F=ma
 
@@ -1651,29 +1677,29 @@ then F=ma
 The rearrangement ispossiblebecause we have assumed that themass of the objectinvolved isconstant.This will not alwaysbe the case inreal situationsforexample,when a space shuttle islaunched themass of therocket changes continuously asfuelisburmed and rocket stages arejettisoned.Rocket scientists alsohave to include airresistance in their calculations.However,you willnotmeetproblems like thisatInternational GCSElevel.
 EXAMPLE1
 
-The firststage of the type of rocketused inMoon missionsprovides an unbalancedupward （awayfrom theEarth)forceof30MNand burnsfor 2.5minutes.
+The first stage of the type of rocket used in Moon missions provides an unbalanced upward (away from the Earth) force of 30 MN and burns for 2.5 minutes.
 
-• Calculate the increase in therocket'smomentum thatresults.
+• Calculate the increase in the rocket's momentum that results.
 
-• If therockethasa massof3000 tonneswhatisthevelocityof the rocket after the first stagehas completed its'burn'?
+• If the rocket has a mass of 3000 tonnes what is the velocity of the rocket after the first stage has completed its'burn'?
 
-（Take care toconvert unitsinto N,kg and s.1 MN=10N;1tonne= 1000kg)
+（Take care to convert units into N,kg and s.1 MN=10⁶N;1tonne= 1000kg）
 
-• (mv-mu) The equation F= is another that canberearranged using the triangle. t
+• (mv-mu) The equation F= is another that can be rearranged using the triangle. t
 
-• Figure 4.3Rearranging the change in momentum=fxtequation using the trianglemethod
+• Figure 4.3 Rearranging the change in momentum=fxtequation using the triangle method
 
 We want the change in momentum (at the top of the triangle) so it is at the bottom of the triangle:
 
-F×t=（3x107N）×(2.5×60s）
+F×t=（3×10⁷N）×(2.5×60s）
 
-increase inmomentumis4.5x10kgm/s
+increase in momentum is 4.5×10⁹kgm/s
 
-• bThe rocket starts fromrest,u=O,therefore the initial momentum(mu) is 0.Thismeans that the increasein momentum ismv=4.5x10kgm/s. Dividethisbymass,m=3x10kg,togive:
+• bThe rocket starts from rest,u=0,therefore the initial momentum(mu) is 0.This means that the increase in momentum ismv=4.5×10⁹kgm/s. Divide this by mass,m=3×10⁶kg,to give:
 
-3×106kg =1.5×103m/s
+3×10⁶kg =1.5×10³m/s
 
-Aswe have seen above thishasbeen calculated with the massof therocket staying the same.Ina real launch fuel isused up so themass of the rocket will decreaseand the calculationwouldbeharder.
+As we have seen above this has been calculated with the mass of the rocket staying the same.In a real launch fuel is used up so the mass of the rocket will decrease and the calculation would be harder.
 KEY POINT
 
 The termimpulse is used for the product(force xtime).
@@ -1705,33 +1731,35 @@ The increase in momentumofball Bisexactlybalancedby thedecrease in momentum ofba
 EXTENSION WORK
 
 Inanysystem,momentum is always conserved provided no extemal forcesacton the system.This means that when two snookerballscollde the momentum of the ballsis conserved if no friction forces act on them.The presence offriction means that the balls will eventually slow down and stop,thus ending up with nomomentum. Although the ballshave'lost'momentum something else will,inevitably,have gainedan equal amountofmomentuml As theballsareslowed bythe friction of the snooker table they.in tum,cause a friction force to act on the table.The table gains some momentum.However,the large mass of the table means that the effect is unnoticeable.
-EXAMPLE2
 
-Arailwaytruckwithamassof5000kgrollingat3m/scollideswith a do theymove after the collision?
+#### EXAMPLE2
+EXAMPLE 2
 
-apply thelaw of conservation ofmomentum:
+A railway truck with a mass of 5000 kg rolling at 3 m/s collides with a do they move after the collision?
 
-momentumbefore the collision=momentum afterthe collision
+apply the law of conservation of momentum:
+
+momentum before the collision = momentum after the collision
 
 Figure 4.5 Railway trucks in collision
 
-so,momentum ofAbeforecollision+momentum ofBbeforecollision =momentum of A and B moving togetherafter collision
+so, momentum of A before collision + momentum of B before collision = momentum of A and B moving together after collision
 
-(m,xu）+（m2x0m/s）=（m，+m）xv
+(m₁×u）+（m₂×0 m/s）=（m₁+m₂）×v
 
-where m,is the mass of truckA,u is itsvelocity before the collision,mis the massof truck B(at restbefore the collision soitsvelocity isO m/s).and vis thevelocityof the two trucks after thecollision.
+where m₁ is the mass of truck A, u is its velocity before the collision, m₂ is the mass of truck B (at rest before the collision so its velocity is 0 m/s), and v is the velocity of the two trucks after the collision.
 
-Substituting these valuesgives:
+Substituting these values gives:
 
-（5000kg×3m/s）+（10000kgx0m/s）=（5000kg+10000kg）xv
+（5000 kg×3 m/s）+（10000 kg×0 m/s）=（5000 kg+10000 kg）×v
 
-After the collisionthe trucksmovewithavelocity of 1m/sin the same direction that the original truck was travelling.
+After the collision the trucks move with a velocity of 1 m/s in the same direction that the original truck was travelling.
 
-An explosion involves arelease ofenergy causing things to flyapart.The momentum before and afterthe explosion is unchanged,though there willbe a huge increase in movement energy.A simple demonstration ofa safeexplosion'is shown inFigure4.6.You might think that the rocket in thisphotoistaking offbecause therocketmotorispushing against the ground,butrockets workin space where there is nothing to push against.
+An explosion involves a release of energy causing things to fly apart. The momentum before and after the explosion is unchanged, though there will be a huge increase in movement energy. A simple demonstration of a safe 'explosion' is shown in Figure 4.6. You might think that the rocket in this photo is taking off because the rocket motor is pushing against the ground, but rockets work in space where there is nothing to push against.
 
-Rocketmotorsuse theprinciple ofconservation ofmomentum topropel spacecraft through space.They produce a continuous,controlled explosion buming)out of thebackof therocket.The spacecraft gains anequal amountofmomentum intheoppositedirectionto thatof themoving exhaustgases.
+Rocket motors use the principle of conservation of momentum to propel spacecraft through space. They produce a continuous, controlled explosion (burning) out of the back of the rocket. The spacecraft gains an equal amount of momentum in the opposite direction to that of the moving exhaust gases.
 
-Youcan see the same effect if you blow up aballoon andrelease itwithout tying up the end!
+You can see the same effect if you blow up a balloon and release it without tying up the end!
 CARSAFETY
 
 In Example 1onpage31you saw that the forceonaperson ina carcrashcan bevery large.In thatexample,theforcewasworked out from the deceleration in a crash.You can alsowork out the force ina crash using the equation for momentum.
@@ -1739,7 +1767,7 @@ In Example 1onpage31you saw that the forceonaperson ina carcrashcan bevery large
 Steeproads often have escape lanesfilled with deep,soft sand.The soft sand slowsheavylorries that are outofcontrol slowly-bymaking time,t,forthe lorryto stoplonger,the force,F,slowing the lorry is smallerand the driveris lesslikely tosufferseriousinjury,
 EXAMPLE3
 
-Acar travelling at20m/scollideswithastationary lorry and isbrought torest injust0.02s.Awoman in the carhasa massof50kg.She experiences the samedeceleration when she comes into contactwitha hard surface in the car(such as the dashboard or the windscreen).What forcedoesthepersonexperience?
+A car travelling at 20 m/s collides with a stationary lorry and is brought to rest in just 0.02 s. A woman in the car has a mass of 50 kg. She experiences the same deceleration when she comes into contact with a hard surface in the car (such as the dashboard or the windscreen). What force does the person experience?
 
 change in momentum
 
@@ -1747,72 +1775,72 @@ time
 
 force=
 
-(50kgx20m/s)-(50kgx0m/s)
+(50 kg × 20 m/s) - (50 kg × 0 m/s)
 
-0.02s
+0.02 s
 
-• =50000N
+• = 50000 N
 
-Figure 4.7 Parts of carsare designed to crumple.
+Figure 4.7 Parts of cars are designed to crumple.
 
-Carsarenowdesigned withvarioussafetyfeatures thatincrease the time over which the car'smomentum changes in an accident.Figure 4.7shows the safety featuresofa carbeing tested.The carhas a rigid passengercell or compartment with crumple zones in front and behind.The crumple zones,as which the caris decelerating.Forinstance,if the deceleration time in Example3above isincreased from0.02s to1s,then theimpact causes a much smallerforce of just 10ooN toact on thepassenger.greatly increasing their chances of survival.
+Cars are now designed with various safety features that increase the time over which the car's momentum changes in an accident. Figure 4.7 shows the safety features of a car being tested. The car has a rigid passenger cell or compartment with crumple zones in front and behind. The crumple zones, as which the car is decelerating. For instance, if the deceleration time in Example 3 above is increased from 0.02 s to 1 s, then the impact causes a much smaller force of just 1000 N to act on the passenger. greatly increasing their chances of survival.
 
-Crumplezones are just one of the safety featuresnow used in modern cars arewearingseatbeltsso that thereduced decelerationappliestotheirbodies too.Without seat belts,the passengers will continue moving forward until they come into contact with somepart of the carorwith apassengerin front.If theyhitsomething that doesnot crumple theywill bebroughttorest inavery short time,which,as wehave seenin Example3,means a large deceleration and,therefore,a large force acting on them.
+Crumple zones are just one of the safety features now used in modern cars are wearing seat belts so that the reduced deceleration applies to their bodies too. Without seat belts, the passengers will continue moving forward until they come into contact with some part of the car or with a passenger in front. If they hit something that does not crumple they will be brought to rest in a very short time, which, as we have seen in Example 3, means a large deceleration and, therefore, a large force acting on them.
 EXTENSION WORK
 
 Scientists use the word "law'very cautiously.Only when a hypothesis (idea) hasbeen tested many times independently by careful experiment is itraised to the status ofalaw'Einstein showed thatin special situations Newton's laws break down,but they are still accurate enough topredict the wayobjectsrespond to forceswitha high degree of accuracy.
 EXTENSION WORK
 
-SirIsaacNewton lived from 1642to1727.Hemade many famousdiscoveriesand someimportant observations about how forces affect the way objectsmove.The first observation,called Newton's first law,was:
+Sir Isaac Newton lived from 1642 to 1727. He made many famous discoveries and some important observations about how forces affect the way objects move. The first observation, called Newton's first law, was:
 
-Things don' speed up,slow down orchange direction unlessyou push (orpull) them.
+Things don't speed up, slow down or change direction unless you push (or pull) them.
 
-Newton didnt put it quite like that,of course!He said that a body would continue to move in a straight line at a steady speed unless a resultant（unbalanced)force was acting on the body.lf the forces acting on an object are balanced thena stationary object stays inone place,and a moving object continues to move in just the same way as it did before the forces were applied.You have already met this idea in Chapter3.
+Newton didn't put it quite like that, of course! He said that a body would continue to move in a straight line at a steady speed unless a resultant (unbalanced) force was acting on the body. If the forces acting on an object are balanced then a stationary object stays in one place, and a moving object continues to move in just the same way as it did before the forces were applied. You have already met this idea in Chapter 3.
 
-Newton then asked another obvious question:how does the acceleration of an object depend on the force thatyou apply to it?Again Newton's formal statement of quite simple:
+Newton then asked another obvious question: how does the acceleration of an object depend on the force that you apply to it? Again Newton's formal statement of quite simple:
 
 The bigger the force acting on an object, the faster the object will speed up.
 
-Objectswith greater massrequire bigger forces than those with smallermass to make them speed up(accelerate)at the same rate.
+Objects with greater mass require bigger forces than those with smaller mass to make them speed up (accelerate) at the same rate.
 
-The forcereferred tois the resultant force acting on the object.Thisidea is also covered in Chapter3.The relationship F=m xaisa consequence of Newton's second law.
+The force referred to is the resultant force acting on the object. This idea is also covered in Chapter 3. The relationship F=m x a is a consequence of Newton's second law.
 
-The only lawyou youneed tolearn by name is Newton's third law.
+The only law you need to learn by name is Newton's third law.
 
-In simple languageNewton's third lawmightbestated:
+In simple language Newton's third law might be stated:
 
-Whenyou push somethingitpushesyou backjustashard,butin the oppositedirection.
+When you push something it pushes you back just as hard, but in the opposite direction.
 
 It is usually stated as:
 
-Forevery action there isanequalandoppositereaction.
+For every action there is an equal and opposite reaction.
 
 #### EXTENSION WORK
-Whenyousit down,yourweightpushes down on the seat.The seat pushes backonyou with an equal,but upward,force.An experiment to giveyou the ideaofwhat thislawmeans isshown inFigure4.8.
+When you sit down, your weight pushes down on the seat. The seat pushes back on you with an equal, but upward, force. An experiment to give you the idea of what this law means is shown in Figure 4.8.
 
-InFigure 4.8,personXisclearly pushing personYbut itisnot obvious that YispushingXback.WhenbothXandYmoveitisclear thatXhasbeen affected by a forcepushinghim to the left.The force feltbyXis thereaction force.
+In Figure 4.8, person X is clearly pushing person Y but it is not obvious that Y is pushing X back. When both X and Y move it is clear that X has been affected by a force pushing him to the left. The force felt by X is the reaction force.
 
 Figure 4.8 For every action there is an equal and opposite reaction
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 REASONING
 
-Look back at Figure 2.3on page 19.Theweight of the caris pushing down on theground.Although the weight is shown coming from the centre ofgravity of the car,it acts through the wheelspressing down on the ground.The total reaction force from the ground actingupwardson the wheelsis the same as the weight of the car.lt is thisreaction force that stops the carsinking into the ground.
+Look back at Figure 2.3 on page 19. The weight of the car is pushing down on the ground. Although the weight is shown coming from the centre of gravity of the car, it acts through the wheels pressing down on the ground. The total reaction force from the ground acting upwards on the wheels is the same as the weight of the car. It is this reaction force that stops the car sinking into the ground.
 
-Itcansometimesbedifficult to sort outactionandreaction forcesfrom balanced forces.Balanced forces act in opposite directionson the same object.Action andreaction forcesalso act in opposite directions,but are alwaysacting on different objects.
+It can sometimes be difficult to sort out action and reaction forces from balanced forces. Balanced forces act in opposite directions on the same object. Action and reaction forces also act in opposite directions, but are always acting on different objects.
 
-Morequestionson momentum canbefound at theend ofUnit 1onpage55.
+More questions on momentum can be found at the end of Unit 1 on page 55.
 
-• Workout,givingyour answers inkgm/s,themomentumof the following moving objects:
+• Work out, giving your answers in kgm/s, the momentum of the following moving objects:
 
-• aabowlingball of mass 6kg travellingat8m/s
+• a bowling ball of mass 6 kg travelling at 8 m/s
 
-• ba ship ofmass50000kg travelling at3m/s
+• b a ship of mass 50000 kg travelling at 3 m/s
 
-• ca tennisballofmass60g travelling at180km/h.
+• c a tennis ball of mass 60 g travelling at 180 km/h.
 
-• 2Anairriflepelletofmass2g is fired intoablockof modelling claymounted 0.1kg.The truckmoves off after thepellet hits themodelling clay with an initial velocityof0.8m/s.
+• 2 An air rifle pellet of mass 2g is fired into a block of modelling clay mounted 0.1kg. The truck moves off after the pellet hits the modelling clay with an initial velocity of 0.8m/s.
 
 #### EXTENSION WORK
 • aCalculate the momentum of the modelling clayand truckjust after the collision.
@@ -1848,17 +1876,17 @@ Aforce can have a turning effect-it can make an object turn around a fixedpivot 
 Figure 5.1 Turning effects are used in many places, such asin a the see-saw,and b the cranes.
 LEARNING OBJECTIVES
 
-• Know and use therelationshipbetween the moment ofa force and itsperpendicular distance from thepivot:
+• Know and use the relationship between the moment of a force and its perpendicular distance from the pivot:
 
-• Use theprinciple of moments fora simple systemof parallel forcesacting inoneplane
+• Use the principle of moments for a simple system of parallel forces acting in one plane
 
-• moment=forcexperpendicular distance from thepivot
+• moment = force × perpendicular distance from the pivot
 
-• Know that the weight ofabody acts through itscentre of gravity
+• Know that the weight of a body acts through its centre of gravity
 
-• Understand how the upward forces ona light beam, supported atits ends,vary with the position ofa heavy objectplaced on thebeam
+• Understand how the upward forces on a light beam, supported at its ends, vary with the position of a heavy object placed on the beam
 
-Unbalanced forces acting on objects can make them accelerate or decelerate.In making the objects,like thesee-saw,tum around afixedpoint called apivot or fulcrum.The tuming effect incranesisexplained inFigure5.6onpage51.Weuse this turningeffectof forcesall the time.Inourbodiestheforcesofourmuscles makepartsofourbodiestum aroundjointslike ourelbowsorknees.Whenyou tum a doorhandle,opena doororremove thelidoff a tinofpaintwith aknifeyou are using the turning effect of forces.Understanding the tuming effect of forcesis important.Sometimeswewant thingstotumorrotate-thesee-sawwouldn'tbe much funif it didn't.However,sometimeswewant the tumingeffectstobalance sothat thingsdon't turn-itwouldbeterribleif thecrane didnotbalance!
+Unbalanced forces acting on objects can make them accelerate or decelerate. In making the objects, like the see-saw, turn around a fixed point called a pivot or fulcrum. The turning effect in cranes is explained in Figure 5.6 on page 51. We use this turning effect of forces all the time. In our bodies the forces of our muscles make parts of our bodies turn around joints like our elbows or knees. When you turn a door handle, open a door or remove the lid off a tin of paint with a knife you are using the turning effect of forces. Understanding the turning effect of forces is important. Sometimes we want things to turn or rotate - the see-saw wouldn't be much fun if it didn't. However, sometimes we want the turning effects to balance so that things don't turn - it would be terrible if the crane did not balance!
 OPENINGA DOOR
 
 Challenge apartner(perhapsonewho thinks that he or she is strongl) to try to apply apushing force butnofurther than 20cm from the hinge (the part of the on the handle.You will be able to open the door quite easily.
@@ -1890,54 +1918,58 @@ An object willbe in balance (that is,it will not try to tun about a pivot point)
 Forexample,Figure5.4 showstwochildren sittingon a see-saw.
 
 • Figure5.4The moment of the heavier child is reduced when she sits closer to the pivot,so thatit balancesthe momentof the lighter child.
-InFigure5.4a:
 
-theanticlockwisemoment=200Nx1.5m=300Nm
+#### InFigure5.4a:
+In Figure 5.4a:
 
-theclockwisemoment=300Nx1.5m=450Nm
+the anticlockwise moment = 200 N × 1.5 m = 300 Nm
 
-So the see-sawisnotbalanced and leansdown to theright asitrotates clockwiseaboutthe pivot.
+the clockwise moment = 300 N × 1.5 m = 450 Nm
 
-The calculationsforFigure5.4a are approximatebecause the forces arenot actingperpendicularly to thesee-saw.
+So the see-saw is not balanced and leans down to the right as it rotates clockwise about the pivot.
 
-InFigure 5.4b:
+The calculations for Figure 5.4a are approximate because the forces are not acting perpendicularly to the see-saw.
 
-the anticlockwisemoment=200Nx1.5m=300Nm
+In Figure 5.4b:
 
-theclockwisemoment=300Nx1.0m=300Nm
+the anticlockwise moment = 200 N × 1.5 m = 300 Nm
+
+the clockwise moment = 300 N × 1.0 m = 300 Nm
 
 So the see-saw is now balanced.
-EXANPLEI
 
-Lookagain atFigure5.2.Person Apushes the doorwith a force of200 N ata distance of20 cm from thehinge(the pivotin this example).Person B opens the doorbypulling the door handlewhich is 80 cm from thehinge.
+#### EXANPLEI
+EXAMPLE
 
-What is the minimum pulling force thatpersonBmustuse to open the door?
+Look again at Figure 5.2. Person A pushes the door with a force of 200 N at a distance of 20 cm from the hinge (the pivot in this example). Person B opens the door by pulling the door handle which is 80 cm from the hinge.
 
-Hereisa simplified sketch of theproblem:
+What is the minimum pulling force that person B must use to open the door?
 
-Figure5.5A labelled sketchof theproblem
+Here is a simplified sketch of the problem:
 
-Figure5.7 Can you find the point at which the ruler balances?
+Figure 5.5 A labelled sketch of the problem
 
-The door will be inbalance (on the point of opening)if:
+Figure 5.7 Can you find the point at which the ruler balances?
 
-sum of anticlockwise moments=sum of clockwisemoments
+The door will be in balance (on the point of opening) if:
 
-Fx80cm=200N×20cm
+sum of anticlockwise moments = sum of clockwise moments
 
-200Nx20cm
+F × 80 cm = 200 N × 20 cm
 
-F=
+200 N × 20 cm
 
-80cm
+F =
 
-=50N
+80 cm
 
-Butthismeansthe turning effectsarebalanced andwe wantperson B to applyabigenoughforce tomake the anticlockwisemoment biggerthan the clockwise moment.
+= 50 N
 
-The answeris that person B must applya force greater than50 N(F>50 N).
+But this means the turning effects are balanced and we want person B to apply a big enough force to make the anticlockwise moment bigger than the clockwise moment.
 
-Lookbackat Figure 5.1 and look atFigure5.6.The load arm islong so that the crane canreachacrossaconstructionsite and moveloadsbackwardsand forwardsalong thelengthof thearm.Theweightof thelongload arm and theload mustbecounterbalanced by thelargeconcreteblocks at theend of the shortarm that projects out behind the crane controller'scabin.The counterbalance weights mustbe large because they arepositioned closer to thepivot point,where the cranetowersupports the crosspieceof the crane.Withoutcareful balance the tuming forces on the support towercould causeit tobend and collapse
+The answer is that person B must apply a force greater than 50 N (F > 50 N).
+
+Look back at Figure 5.1 and look at Figure 5.6. The load arm is long so that the crane can reach across a construction site and move loads backwards and forwards along the length of the arm. The weight of the long load arm and the load must be counterbalanced by the large concrete blocks at the end of the short arm that projects out behind the crane controller's cabin. The counterbalance weights must be large because they are positioned closer to the pivot point, where the crane tower supports the crosspiece of the crane. Without careful balance the turning forces on the support tower could cause it to bend and collapse
 
 Figure 5.6 The clockwise and anticlockwise moments on the crane must be balanced.
 CENTREOFGRAVITY
@@ -1982,35 +2014,37 @@ Theposition of the centre of gravity of an object will affect itsstability.A sta
 Figure 5.12 Stable and unstable objects
 
 The shape inFigure 5.12a is typical fora ship's decanter(bottie).Bottles used on shipsneed tobe difficult toknock over forobviousreasons!lt is stable because, when knocked,its low centre of gravity and wide base result in a turming moment that tries to pull it back to its original position.The object in Figure 5.12b has a higher centre of gravity and smaller base,so it is much less stable.Onlya small displacement isneeded tomake it fall over.
-FORCESONABEAM
 
-Figure5.13a showsaboy standingonabeamacrossastream.Thebeam is notmoving,so theupward and downward forcesmustbe balanced.As the boyisstanding in themiddleof thebeam,the upward forceson the ends of thebeam are the same aseachother.The forcesare shown inFigure 5.13btokeep things simple,we are ignoring the weight of the beam.
+#### FORCESONABEAM
+FORCES ON A BEAM
 
-Ifhemoves tooneend ofthebeam,asshown in Figure5.13c,then the upward forcewill allbe at that end of thebeam.Ashemoves along thebeam, the upward forces at the ends of thebeam change.In Figure5.13d,heis onequarteralong thebeam.Theupward force onthe support nearest tohim is three-quarters of hisweight,and theupward force on the end furthest away from him is only one-quarterof hisweight.
+Figure 5.13a shows a boy standing on a beam across a stream. The beam is not moving, so the upward and downward forces must be balanced. As the boy is standing in the middle of the beam, the upward forces on the ends of the beam are the same as each other. The forces are shown in Figure 5.13b to keep things simple, we are ignoring the weight of the beam.
+
+If he moves to one end of the beam, as shown in Figure 5.13c, then the upward force will all be at that end of the beam. As he moves along the beam, the upward forces at the ends of the beam change. In Figure 5.13d, he is one quarter along the beam. The upward force on the support nearest to him is three-quarters of his weight, and the upward force on the end furthest away from him is only one-quarter of his weight.
 
 Figure 5.13 The forces at the ends of a beam depend on where the load is applied
 
-More questions on the turning effect of forces canbe found at the end of Unit 1onpage55.
+More questions on the turning effect of forces can be found at the end of Unit 1 on page 55.
 
-• 1Lookatthe diagrambelow.ltshowsvariousforcesactingonobjectsabout pivots.
+• 1 Look at the diagram below. It shows various forces acting on objects about pivots.
 
-Write down the letterof thediagram that:
+Write down the letter of the diagram that:
 
-• ashows the greatest turningmoment about thepivot
+• a shows the greatest turning moment about the pivot
 
-• bshows a turning moment ofzero.
+• b shows a turning moment of zero.
 
-• 2Look at the foursee-saw diagrams below.
+• 2 Look at the four see-saw diagrams below.
 
-Write down the letter(s)of the diagram(s)that agreewith thefollowing statements,orwrite'none'if no diagram agreeswith the statement.
+Write down the letter(s) of the diagram(s) that agree with the following statements, or write 'none' if no diagram agrees with the statement.
 
-• aThe see-sawisbalanced.
+• a The see-saw is balanced.
 
-• bThe see-saw will rotate clockwise(dip down to theright).
+• b The see-saw will rotate clockwise (dip down to the right).
 
-• cThe see-saw will rotate anti-clockwise (dip down to the left).
+• c The see-saw will rotate anti-clockwise (dip down to the left).
 
-• 3Abookshelf is2mlong,with supports at its ends（Pand Q）.Donot consider the weight of the bookshelf when you are answering these questions.
+• 3 A bookshelf is 2m long, with supports at its ends (P and Q). Do not consider the weight of the bookshelf when you are answering these questions.
 
 #### FORCESONABEAM
 • aDrawa sketch of the shelf,showing the supports.
@@ -2029,53 +2063,53 @@ UNIT QUESTIONS
 
 CRITICAL THINKING
 
-• aWhich of the following quantities isnot avectorquantity?
+• a Which of the following quantities is not a vector quantity?
 
-• Aforce
+• A force
 
-• Barea
+• B area
 
-• Cdisplacement
+• C displacement
 
-• Dvelocity
+• D velocity
 
-• bWhich of the followingquantities isnot a scalar quantity?
+• b Which of the following quantities is not a scalar quantity?
 
-• Aspeed
+• A speed
 
-• Byour age
+• B your age
 
-• Cvolume
+• C volume
 
-• Dacceleration
+• D acceleration
 
 (1)
 
-• cWhich of the following statements about the motion of an object on which unbalanced forces act isfalse?
+• c Which of the following statements about the motion of an object on which unbalanced forces act is false?
 
-• A The object could continue moving at constant speed ina straight line.
+• A The object could continue moving at constant speed in a straight line.
 
 • B The object could accelerate.
 
-• CThe object could slow down.
+• C The object could slow down.
 
-• DThe object could change the direction in which it ismoving.
-
-(1)
-
-• dA ball is thrown verticallyupwards in the air.Which of the following statements about themotion of theballis false?
-
-• A Theball will be travelling as fast asit waswhen it getsback to the ground asit waswhen first thrown upwards.
-
-• B The ball will be stationary for an instant at the highestpoint inits flight.
-
-• CThe direction of the force on the ball changesso theball fallsback to the ground.
-
-• DThe direction of the acceleration is alwaysdownwards.
+• D The object could change the direction in which it is moving.
 
 (1)
 
-(TotalforQuestion 1=4marks)
+• d A ball is thrown vertically upwards in the air. Which of the following statements about the motion of the ball is false?
+
+• A The ball will be travelling as fast as it was when it gets back to the ground as it was when first thrown upwards.
+
+• B The ball will be stationary for an instant at the highest point in its flight.
+
+• C The direction of the force on the ball changes so the ball falls back to the ground.
+
+• D The direction of the acceleration is always downwards.
+
+(1)
+
+(Total for Question 1 = 4 marks)
 
 SKILLS
 
@@ -2083,7 +2117,7 @@ ANALYSIS
 
 SKILLS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 INTERPRETATION
 
@@ -2091,41 +2125,41 @@ CRITICAL THINKING
 
 3
 
-A tennisball is droppedfroma heightof 3m andbouncesbacktoa height of 1mafterhitting the ground(s=O)
+A tennis ball is dropped from a height of 3m and bounces back to a height of 1m after hitting the ground (s=0)
 
-• aWhichof thefollowing distance-time graphs shows thismotion correctly?
+• a Which of the following distance-time graphs shows this motion correctly?
 
 (1)
 
-• 1Explain the differencebetween the terms distance and displacement.
+• i Explain the difference between the terms distance and displacement.
 
 (2)
 
+• ii What is the displacement of the tennis ball at the end of the described motion?
+
 (1)
+
+• iii Use the equation v²=u²+2as to calculate the velocity of the tennis ball when it hits the ground.
+
+(2)
 
 (4)
 
-(2)
-
-• iiWhat isthe displacement of the tennisballat the end of the described motion?
-
-• 1Use theequationv²=u²+2astocalculate thevelocityof the tennis ballwhen ithits theground.
-
 #### UNIT QUESTIONS
-• iiWhat is the average speed of the tennisball while it is falling to the punob
+• ii What is the average speed of the tennis ball while it is falling to the ground
 
-• ii Calculate how long it takes for the tennis ball toreach the ground.
+• ii Calculate how long it takes for the tennis ball to reach the ground.
 
 (2)
 
-• dHow can the distance travelled by the tennis ball be found froma velocity-timegraph ofitsmotion?
+• d How can the distance travelled by the tennis ball be found from a velocity-time graph of its motion?
 
 (1)
 
-• Sketch a velocity-time graph for the tennisball from the time that it is released to the time that it hasrebounded to 1m after thefirstbounce. Assume thatthe time thattheball isincontactwiththe groundisnegligible (tooshort to showonyourgraph).Include as much numerical detail asyou can without doing any further calculations. (6)
+• Sketch a velocity-time graph for the tennis ball from the time that it is released to the time that it has rebounded to 1m after the first bounce. Assume that the time that the ball is in contact with the ground is negligible (too short to show on your graph). Include as much numerical detail as you can without doing any further calculations. (6)
 (TotalforQuestion2=19marks)
 
-Astudentuses the followingpiece of apparatus to investigatehow the extension of a length ofwirevarieswith the force applied to it.
+A student uses the following piece of apparatus to investigate how the extension of a length of wire varies with the force applied to it.
 
 DECISION MAKING
 
@@ -2133,7 +2167,7 @@ EXECUTIVE
 
 FUNCTION
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 SKILLS
 
@@ -2143,7 +2177,7 @@ SKILLS
 
 INTERPRETATION
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 SKILLS
 
@@ -2205,33 +2239,35 @@ a
 (1)
 
 #### PHYSICS ONLY
-• ii Name the dependentvariable in this investigation. (1)
+• ii Name the dependent variable in this investigation. (1)
 
-• IlIName one control variable in thisinvestigation.
-
-(1)
-
-• How is the forcebeing applied to the wire calculated?
+• III Name one control variable in this investigation.
 
 (1)
 
-• cExplainhow thestudent shoulduse the apparatus todetermineif thewire obeysHooke's law. (5)
+• How is the force being applied to the wire calculated?
 
-• dThe studentalsowants toknowif the samplebehaveselastically.Explain howthe student canimprovethe investigation and discoverwhetheror not the wire behaves elastically.
+(1)
+
+• c Explain how the student should use the apparatus to determine if the wire obeys Hooke's law. (5)
+
+• d The student also wants to know if the sample behaves elastically. Explain how the student can improve the investigation and discover whether or not the wire behaves elastically.
 
 (3)
 
-(Total forQuestion3=12marks)
+(Total for Question 3 = 12 marks)
 
 ## Unit 2: Electricity
 
 ### Unit 2 divider and chapter map
 
-UNIT2 ELECTRICITY
 
-Itissometimesreallydifficult toimaginehowwecould livewithoutelectricity.Aswemovearound weuseelectricityfrombatteriesandcellsforourmobilephones,mp3playersandothermobile devices.lnourhomesand otherbuildingswe useelectricityfromthe mains forheating,lighting and providing theenergy forhousehold appliancessuch astelevisions,radios,computers and theirprinters.Understanding whatelectricityis,where it comesfrom and how we can control it is importantifwearetomakemaximumuseofthisimportantsourceofenergy.
+#### UNIT2 ELECTRICITY
+UNIT 2 ELECTRICITY
 
-ELECTRICALRESISTANCE75
+It is sometimes really difficult to imagine how we could live without electricity. As we move around we use electricity from batteries and cells for our mobile phones, mp3 players and other mobile devices. In our homes and other buildings we use electricity from the mains for heating, lighting and providing the energy for household appliances such as televisions, radios, computers and their printers. Understanding what electricity is, where it comes from and how we can control it is important if we are to make maximum use of this important source of energy.
+
+ELECTRICAL RESISTANCE 75
 
 ## Unit 2: Electricity
 
@@ -2261,27 +2297,27 @@ P=lxV
 andapplytherelationship to the selection of appropriate fuses
 UNITS
 
-In this unit,you will need to use ampere (A)as the unit of current,coulomb (C) as the unit of charge,joule(J）as the unit of energy,ohm (Q)as the unit of resistance,second (s)as the unit of time,volt (V) as the unit of voltage and watt (W) as the unit of power.
+In this unit, you will need to use ampere (A) as the unit of current, coulomb (C) as the unit of charge, joule (J) as the unit of energy, ohm (Ω) as the unit of resistance, second (s) as the unit of time, volt (V) as the unit of voltage and watt (W) as the unit of power.
 
-Whenyou tum onyourcomputer,television andmostotherappliances inyour home the electricityyou useis almostcertainlygoing tocome from the mains supply.This electrical energyusually enters ourhomes through anunderground cable.The cableis connected to an electricitymeter,which measures the amount ofelectricalenergy used.From here,the cableis connected to a consumerunit or a fusebox,which containsfuses or circuitbreakers for the various circuitsin your home.Fuses and circuit breakersare safety deviceswhich shutof the electricity in a circuit if the current in thembecomes too large (seepage 61).
+When you turn on your computer, television and most other appliances in your home the electricity you use is almost certainly going to come from the mains supply. This electrical energy usually enters our homes through an underground cable. The cable is connected to an electricity meter, which measures the amount of electrical energy used. From here, the cable is connected to a consumer unit or a fuse box, which contains fuses or circuit breakers for the various circuits in your home. Fuses and circuit breakers are safety devices which shut off the electricity in a circuit if the current in them becomes too large (see page 61).
 
-Most of the wires that leave the fuseboxare connected toringmain circuits that arehidden in the wallsorfloorsaround each room.Individualpiecesof electrical equipmentare connected to these circuitsusingplugs.
+Most of the wires that leave the fuse box are connected to ring main circuits that are hidden in the walls or floors around each room. Individual pieces of electrical equipment are connected to these circuits using plugs.
 
-• Use therelationship between energy transferred,
+• Use the relationship between energy transferred,
 
-• current,voltage and time:
+• current, voltage and time:
 
-energy transterred=currentxvoltagextime
+energy transferred = current × voltage × time
 
-E=/xVxt
+E = I × V × t
 
 Figure 6.2 Circuit breakers in a consumer unit
 
-Ring main circuits usually consist of three wires-the live wire,the neutral wire and theearthwire.
+Ring main circuits usually consist of three wires - the live wire, the neutral wire and the earth wire.
 
-The live wireprovides thepathalongwhich the electrical energyfrom the power station travels.The neutral wire completesthe circuit.
+The live wire provides the path along which the electrical energy from the power station travels. The neutral wire completes the circuit.
 
-Theearth wire usuallyhasno current in it.lt is there toprotectyou if an escape without passing through the user.
+The earth wire usually has no current in it. It is there to protect you if an escape without passing through the user.
 EXTENSION WORK
 
 Ring main circuits provide a way ofallowing several appliances in different parts of the same room to be connected to the mainsusing theminimum amount ofwiring. Imagine howmuch wire would beneeded if there wasjust one mains socket in each room.
@@ -2313,9 +2349,9 @@ There are several sizesof fuses.The most common for domestic appliances in theUK
 Modern safety devices,such as thoseyou mightfind inyour consumerunit, areoftenin theform of tripswitches or circuit breakers.lf toolarge a current flowsin a circuit a switch automatically opens making the circuit incomplete Once the fault in the circuit hasbeen corrected,the switch isreset,usually bypressing a reset button.There isnoneed for the switch orcircuit breaker tobereplaced,as thereiswhen fusesareused.The consumerunit shown in Figure 6.2uses circuit breakers.
 
 #### SAFETYDEVICES
-Many applianceshave ametal casing.Thisshouldbeconnected tothe earth wireso thatif thelivewirebecomesdamagedorbreaksand comesinto contactwith the casing theearthwireprovidesa low-resistancepath for the current.This currentislikely tobe large enough toblow the fuse and turn the circuitoff.Without the earthwire anyone touching thecasing of thefaulty appliance wouldreceiveasevere electricshockasthe currentpassed through them to earth (Figure 6.7).
+Many appliances have a metal casing. This should be connected to the earth wire so that if the live wire becomes damaged or breaks and comes into contact with the casing, the earth wire provides a low-resistance path for the current. This current is likely to be large enough to blow the fuse and turn the circuit off. Without the earth wire, anyone touching the casing of the faulty appliance would receive a severe electric shock as the current passed through them to earth (Figure 6.7).
 
-• Figure 6.8 This plastic kettle has double insulation which means that there isno need for an earth wire.
+• Figure 6.8 This plastic kettle has double insulation which means that there is no need for an earth wire.
 SWITCHES
 
 • Figure 6.7 The earth wire provides protection when electrical appliances develop a fault.
@@ -2426,19 +2462,19 @@ Look around the room you are in.lf you are at home,you will probably be able to 
 AFigure 7.1 The gasin this tube glows when there Isacurrent.
 LEARNING OBJECTIVES
 
-• Explain whyaseries orparallel circuit ismoreappropriate forparticular applications,including domesticlighting
+• Explain why a series or parallel circuit is more appropriate for particular applications, including domestic lighting
 
-• Know that lamps and LEDscan be used to indicate the presenceofa current in a circuit
+• Know that lamps and LEDs can be used to indicate the presence of a current in a circuit
 
-• Know thatelectric currentin solid metallicconductors isa flowofnegativelychargedelectrons
+• Know that electric current in solid metallic conductors is a flow of negatively charged electrons
 
-• Know that thevoltage across two components connected inparallelis the same
+• Know that the voltage across two components connected in parallel is the same
 
 • Know and use the relationship between voltage, current and resistance:
 
-• Know that voltage is the energy transferred per unit chargepassed
+• Know that voltage is the energy transferred per unit charge passed
 
-• voltage=currentxresistance
+• voltage = current × resistance
 V=1xR
 
 • Know that current is the rate of flow of charge
@@ -2461,27 +2497,29 @@ E=QxV
 EXTENSION WORK
 
 When scientists first experimented with chargesflowing throughwires, they assumed that it waspositive charges that were moving and that currenttravelsfromthepositive to the negative.We nowknow that this isincorrect and thatwhen anelectric currentpasses througha wireitisthe negative chargesor electrons that move.Neverthelesswhen dealing with topics such as circuits and motors, it is still considered that electrons flowfrom positive to negative.This is conventional current.
-CONDUCTORS,INSULATORSAND ELECTRICCURRENT
 
-An electric current isa flow of charge.In metal wires the charges are carried by very smallparticles called electrons.
+#### CONDUCTORS,INSULATORSAND ELECTRICCURRENT
+CONDUCTORS, INSULATORS AND ELECTRIC CURRENT
 
-Electronsfloweasily through all metals.We therefore describe metals asbeing good conductors ofelectricity.Electronsdonotfloweasily throughplasticsthey arepoor conductorsofelectricity.Averypoor conductor isknown as an insulator and isoften used insituationswherewewant toprevent theflowof charge-forexample,in the casing ofa plug-
+An electric current is a flow of charge. In metal wires the charges are carried by very small particles called electrons.
 
-Inmetals,someelectronsarefree tomove between theatoms.Undernormal circumstances thismovementisrandom-thatis,thenumberofelectrons flowinginany onedirectionisroughlyequal tothenumberflowinginthe opposite direction.There is thereforeno overall flow of charge.
+Electrons flow easily through all metals. We therefore describe metals as being good conductors of electricity. Electrons do not flow easily through plastics they are poor conductors of electricity. A very poor conductor is known as an insulator and is often used in situations where we want to prevent the flow of charge - for example, in the casing of a plug-
 
-• Figure7.2a With no voltage there is an equal flow of electrons in all directions.
+In metals, some electrons are free to move between the atoms. Under normal circumstances this movement is random - that is, the number of electrons flowing in any one direction is roughly equal to the number flowing in the opposite direction. There is therefore no overall flow of charge.
 
-If,however,a cellorbattery isconnected across the conductor,more of the electronsnow flowin the direction away from thenegative terminal and towards thepositive terminal than in the opposite direction.We say'there is now a net flow of charge.This flow of charge iswhat we call an electric current.
+• Figure 7.2a With no voltage there is an equal flow of electrons in all directions.
 
-• Figure7.2b When a voltage is applied more electrons will move towards the positive.
+If, however, a cell or battery is connected across the conductor, more of the electrons now flow in the direction away from the negative terminal and towards the positive terminal than in the opposite direction. We say there is now a net flow of charge. This flow of charge is what we call an electric current.
 
-Ininsulators,all the electronsareheld tightlyinposition and areunable tomove from atom to atom.Charges are therefore unable tomove throughinsulators.
+• Figure 7.2b When a voltage is applied more electrons will move towards the positive.
+
+In insulators, all the electrons are held tightly in position and are unable to move from atom to atom. Charges are therefore unable to move through insulators.
 
 MEASURING CURRENT
 
 has almost no effect on the current.
 
-ammeter connected in series with thebulb tomeasure the curent in it
+ammeter connected in series with the bulb to measure the current in it
 EXAMPLE3
 
 Ifan examination question asksyou to write out the equation forcalculating charge,current ortime,alwaysgive the actualequation such asQ=/xt.You may not get themark if youjust draw the triangle.
@@ -2499,35 +2537,35 @@ Ifan examination question asksyou to write out the equation forcalculating charg
 • How many electronsflow through thewirein this time? 1Cofcharge iscarriedby6x1018electrons 15Cofcharge requires15x6x1018electrons=90x1018electrons So90million,million,million electronswillflow along thewire in5s.
 VOLTAGE
 
-We oftenuse cellsorbatteries to move charges around circuits.We can imagine them asbeing'electron pumps'.They transferenergy to the charges.
+We often use cells or batteries to move charges around circuits. We can imagine them as being 'electron pumps'. They transfer energy to the charges.
 
-Ifwe connect a 1.5Vcell into a circuit (Figure 7.6)and current flows,1.5J of
+If we connect a 1.5V cell into a circuit (Figure 7.6) and current flows, 1.5J of
 
-If two 1.5Vcells areconnected inseries（Figure7.7)so that they arepumping (pushing)in the same direction,each coulomb of charge willreceive3 J of energy.
+If two 1.5V cells are connected in series (Figure 7.7) so that they are pumping (pushing) in the same direction, each coulomb of charge will receive 3 J of energy.
 
-Thevolt isajoulepercoulomb.
+The volt is a joule per coulomb.
 
-Wemeasure the size of the current ina circuitusing an ammeter.The ammeteris
+We measure the size of the current in a circuit using an ammeter. The ammeter is
 
-The size ofan electric current indicates the rate atwhich the charge flows.
+The size of an electric current indicates the rate at which the charge flows.
 
-Thecharge carriedbyone electron isvery small andwouldnotbe avery useful measureofchargeineveryday life.ltwouldbea littlelikeaskinghowfar away theMoonisfrom theEarth...andgetting the answerinmm!
+The charge carried by one electron is very small and would not be a very useful measure of charge in everyday life. It would be a little like asking how far away the Moon is from the Earth... and getting the answer in mm!
 
-To avoid thisproblem we measure electric charge(Q)in much bigger units called coulombs(C).One coulombofcharge isequal to the charge carried by approximately sixmillion,million,million(6x101）electrons.
+To avoid this problem we measure electric charge (Q) in much bigger units called coulombs (C). One coulomb of charge is equal to the charge carried by approximately six million, million, million (6×10¹⁸) electrons.
 
-Wemeasure electric current () in amperes or amps (A).lf there is a current of 1 Aina wireit means that 1 Cof charge ispassing along the wire each second.
+We measure electric current (I) in amperes or amps (A). If there is a current of 1 A in a wire it means that 1 C of charge is passing along the wire each second.
 
-1C/s=1A
+1C/s = 1A
 
 • Figure 7.4 One coulomb of charge flowing each second is one amp.
 
-We can calculate the total charge thatpassesalonga wire using the equation:
+We can calculate the total charge that passes along a wire using the equation:
 
-charge,Q（coulombs)=current,/（amps)xtime,t（seconds)
+charge, Q (coulombs) = current, I (amps) × time, t (seconds)
 
-Q=/xt
+Q = I × t
 
-• Figure 7.6 when one coulomb of charge passes through this cellit gains 1.5 J of
+• Figure 7.6 When one coulomb of charge passes through this cell it gains 1.5 J of
 KEY POINT
 
 When several cells are connected togetherit is called a battery.
@@ -2619,17 +2657,17 @@ In a series circuit containing bulbs:
 • Figure 7.16 There are different currents in the different parts of aparallel circuit.
 CHAPTER QUESTIONS
 
-Ina parallel circuit containing bulbs:
+In a parallel circuit containing bulbs:
 
-• Switchescanbeplaced in differentpartsof the circuit to switcheachbulb on and off individually,or all together.
+• Switches can be placed in different parts of the circuit to switch each bulb on and off individually, or all together.
 
-• If one bulbbreaks,only the bulbs on the samebranch of the circuit will be affected.
+• If one bulb breaks, only the bulbs on the same branch of the circuit will be affected.
 
-• Each branch of the circuitreceivesthe same voltage,soif more bulbs are s
+• Each branch of the circuit receives the same voltage, so if more bulbs are s
 
-Decorativelightsareoftenwired in series.Eachbulbonlyneedsa lowvoltage, soevenwhen thevoltage from themainssupplyis'shared'outbetween them eachbulb still gets enough energy toproduce light.Unfortunately,if the filamentinoneof thebulbsbreaksthenall theotherbulbswillgoout.
+Decorative lights are often wired in series. Each bulb only needs a low voltage, so even when the voltage from the mains supply is 'shared' out between them each bulb still gets enough energy to produce light. Unfortunately, if the filament in one of the bulbs breaks then all the other bulbs will go out.
 
-Thelightsinyourhome arewired inparallel.Weknow thisbecauselightscan beswitched on and off separately,and the brightness of each light doesnot changewhen otherlights are on oroff.Also,if a bulb breaksoris removed you can still use the other lights.
+The lights in your home are wired in parallel. We know this because lights can be switched on and off separately, and the brightness of each light does not change when other lights are on or off. Also, if a bulb breaks or is removed you can still use the other lights.
 CURRENTINA SERIES CIRCUIT
 
 In a series circuit the current is the same in allparts;current isnot used up.
@@ -2641,55 +2679,57 @@ a
 • Figure 7.15b The addition of a second cell doubles the voltage appllied to the circuit so the current will also double.
 
 Thesizeof the current ina seriescircuit dependson thevoltage supplied toit and thenumberand typeof the other componentsin thecircuit.lfasecond identical cellis added in series thevoltage will double and so the current will also double.
-CURRENTINAPARALLELCIRCUIT
 
-Inaparallel circuit the currentswillnotbe the same in differentparts of the circuit. The types of components in each of the different parts will affect the currents.
+#### CURRENTINAPARALLELCIRCUIT
+CURRENT IN A PARALLEL CIRCUIT
 
-Inaparallel circuit thenumberofelectronsthatflowinto ajunctioneach second mustbeequal to thenumber thatleaveeachsecond.Thismeans that thecurrents entering a junction mustalways beequal to those that leave.For example,inFigure7.16 the current that enters junctionPis0.6A.The current that leaves is0.4A+0.2A=0.6A.
+In a parallel circuit the currents will not be the same in different parts of the circuit. The types of components in each of the different parts will affect the currents.
 
-More questionsonelectrical circuits canbe found at the end of Unit 2onpage93.
+In a parallel circuit the number of electrons that flow into a junction each second must be equal to the number that leave each second. This means that the currents entering a junction must always be equal to those that leave. For example, in Figure 7.16 the current that enters junction P is 0.6A. The current that leaves is 0.4A + 0.2A = 0.6A.
 
-• 1Current is a flow of charge.
+More questions on electrical circuits can be found at the end of Unit 2 on page 93.
 
-• aWhatare thechargecarriers inmetals?
+• 1 Current is a flow of charge.
 
-• Explainwhy chargesare able toflow through metalsbutnot through a plastic.
+• a What are the charge carriers in metals?
+
+• Explain why charges are able to flow through metals but not through a plastic.
 
 b
 
 PROBLEM SOLVING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 SKILLS
 
 ANALYSIS
 
-• If the curent in a heateris3A,calculate the charge that flows through it in: I1s
+• If the current in a heater is 3A, calculate the charge that flows through it in: 1s
 
 10min
 
-• ihour.
+• 1 hour.
 
-• 2a Explain the differencesbetween:
+• 2 a Explain the differences between:
 
-• 1a complete circuit and an incomplete circuit
+• i a complete circuit and an incomplete circuit
 
-• iiaseries circuit and aparallel circuit.
+• ii a series circuit and a parallel circuit.
 
-• Look carefully at the circuits shownbelow.Assuming thatall switches are initiallyclosed,decidewhichof thebulbsgooutwheneachof the switchesis opened in turn.
+• Look carefully at the circuits shown below. Assuming that all switches are initially closed, decide which of the bulbs go out when each of the switches is opened in turn.
 
-• In circuit A,which bulb(s)glow the brightest when all the switches in the circuit are closed?
+• In circuit A, which bulb(s) glow the brightest when all the switches in the circuit are closed?
 
-• dExplain your answer topart c.
+• d Explain your answer to part c.
 
-• 3 Thevoltagebetween twopointsina circuit ismeasuredusing avoltmeter.
+• 3 The voltage between two points in a circuit is measured using a voltmeter.
 
-• a Drawacircuitdiagram toshowhowavoltmetershouldbeconnected to measure:
+• a Draw a circuit diagram to show how a voltmeter should be connected to measure:
 
-• 1thevoltageacrossabulb ithe voltage of a cell.
+• i the voltage across a bulb ii the voltage of a cell.
 
-• bExplain inyourown wordsthephrase'acell hasavoltageof1.5V
+• b Explain in your own words the phrase 'a cell has a voltage of 1.5V'
 
 #### CURRENTINAPARALLELCIRCUIT
 • The diagram below shows a circuit containing two2-way switches.
@@ -2845,38 +2885,38 @@ FIXEDRESISTORS
 • Figure 8.9 A selection of resistors
 USING RESISTANCE
 
-In many circuitsyou will find components similarto those shown inFigure8.9. They are called fixed resistors.They are included in circuitsin order tocontrol the sizes of currents and voltages.The resistor in the circuit in Figure 8.10 is included so thatboth the current in thebulb and the voltage applied across it are correct.Without the resistor thevoltage across thebulbmay cause too largea current and thebulbmayblow'orbreak.
+In many circuits you will find components similar to those shown in Figure 8.9. They are called fixed resistors. They are included in circuits in order to control the sizes of currents and voltages. The resistor in the circuit in Figure 8.10 is included so that both the current in the bulb and the voltage applied across it are correct. Without the resistor the voltage across the bulb may cause too large a current and the bulb may blow or break.
 
 • Figure 8.10 The resistor in the first circuit limits the size of the current. Without the resistor the current in the second circuit is too high and the bulb breaks.
 
-Figure8.11 shows examplesofa differentkind ofresistor.They are called variableresistorsasitispossible to altertheirresistance.lfyou alter the volume ofyourradio using aknobyou areusing avariable resistor to do this.
+Figure 8.11 shows examples of a different kind of resistor. They are called variable resistors as it is possible to alter their resistance. If you alter the volume of your radio using a knob you are using a variable resistor to do this.
 
-• Figure 8.11 Variableresistorsand their symbol
+• Figure 8.11 Variable resistors and their symbol
 
-In the circuit inFigure 8.12a variableresistor isbeing used tocontrol the size of the current in a bulb.lf theresistance is decreased therewill be a larger current and the bulb shines more brightly.lf theresistance isincreased the current will be smaller and the bulbwill glowlessbrightlyornot at all.The variableresistorisbehaving in this circuit as a dimmer switch.In circuits containing electricmotors,variableresistors canbeused to control the speed ofthe motor.
+In the circuit in Figure 8.12 a variable resistor is being used to control the size of the current in a bulb. If the resistance is decreased there will be a larger current and the bulb shines more brightly. If the resistance is increased the current will be smaller and the bulb will glow less brightly or not at all. The variable resistor is behaving in this circuit as a dimmer switch. In circuits containing electric motors, variable resistors can be used to control the speed of the motor.
 
 Figure 8.12 Circuit with a variable resistor being used as a dimmer switch
 KEY POINT
 
-Some thermistorsincrease their resistance when the temperature increases.However,foryour International GCSEPhysicsexamyou onlyneedtoknowabout thermistors whoseresistance decreases with increasingtemperature.
+Some thermistors increase their resistance when the temperature increases. However, for your International GCSE Physics exam you only need to know about thermistors whose resistance decreases with increasing temperature.
 LIGHT-DEPENDENT RESISTORS (LDRS)
 
-• Flgure 8.16Light-dependent resistor
+• Figure 8.16 Light-dependent resistor
 SPECIAL RESISTORS
 
-A thermistorisa resistorwhoseresistance changesquite alotevenwith small changesin temperature.
+A thermistor is a resistor whose resistance changes quite a lot even with small changes in temperature.
 
-• Figure 8.13A graph showing a thermistor's decreasing resistance with increasing temperature
+• Figure 8.13 A graph showing a thermistor's decreasing resistance with increasing temperature
 
-Thermistors are used in temperature-sensitive circuits in devicessuch as fire alarms.They are alsoused indeviceswhereitisimportant tomake sure there isno change in temperature,for example,infreezers and computers.
+Thermistors are used in temperature-sensitive circuits in devices such as fire alarms. They are also used in devices where it is important to make sure there is no change in temperature, for example, in freezers and computers.
 
-• Figure 8.14Two examplesof thermistors and their symbol-the resistance ofa thermistor changes a lot as the temperature changes.
+• Figure 8.14 Two examples of thermistors and their symbol - the resistance of a thermistor changes a lot as the temperature changes.
 
-A light-dependent resistor(LDR)has a resistance that changes when light is shone onit.In thedarkitsresistanceishighbutwhenlightisshone on it its resistance decreases.
+A light-dependent resistor (LDR) has a resistance that changes when light is shone on it. In the dark its resistance is high but when light is shone on it its resistance decreases.
 
-Figure 8.15 A graph showing anLDR’s decreasing resistance with increasinglight intensity
+Figure 8.15 A graph showing an LDR's decreasing resistance with increasing light intensity
 
-LDRs are often used in light-sensitive circuits in devices such asphotographicexposure equipment,automaticlighting controls andburglar alarms.
+LDRs are often used in light-sensitive circuits in devices such as photographic exposure equipment, automatic lighting controls and burglar alarms.
 KEY POINT
 
 You can imagine a diode asbehaving like a set ofaeroplane stepswhich the chargeshave to climb over. If the chargesare moving towards the correct side of the steps they can'flow through it'lf,however,they try tomove the opposite way there areno steps for them to climb so the flow in this direction is almost zero.
@@ -2886,25 +2926,27 @@ Diodes arevery special resistors that allow chargesto flow through themeasily bu
 Whena diode is connected asshown in circuit AinFigure 8.17,the diode offerslittleresistance to the chargesflowing through it.But if the diode is connected the opposite wayround,the diodehasavery high resistance and therate atwhich the chargescan flow through the diode ismuchlessthat is,the current isvery small.Diodes are often used in circuits where it is important that electrons flow only in one direction.For example,they areused inrectifier circuits thatconvert altemating currentinto direct current.Some diodesglowwhen chargesflow through them.Theyarecalled lightemitting diodes(LEDs).
 
 Figure 8.18 Diodes are like aeroplane steps -from the ground,you can only climb them in one direction.In a diode the charge can only flow inone direction.
-LOOKINGAHEAD-OHM'SLAWAND TEMPERATURE
 
-The relationshipbetween thevoltage acrossa component and its current isdescribed by Ohm's law,which states:
+#### LOOKINGAHEAD-OHM'SLAWAND TEMPERATURE
+LOOKING AHEAD - OHM'S LAW AND TEMPERATURE
 
-The current inaconductorisdirectlyproportional to thepotential difference acrossits ends,provided its temperature remains constant.
+The relationship between the voltage across a component and its current is described by Ohm's law, which states:
 
-So the resistance ofa wire can be found by measuring the voltage(V) acrossit and the current()in it when thisvoltage isapplied to the
+The current in a conductor is directly proportional to the potential difference across its ends, provided its temperature remains constant.
 
-wire and then calculatingavalue fortheratio V (seepage75).Butthe
+So the resistance of a wire can be found by measuring the voltage (V) across it and the current (I) in it when this voltage is applied to the
 
-law also states that the temperature of the wire mustbe constant.This isbecause if the temperature of the wire changes,itsresistance also changes.
+wire and then calculating a value for the ratio V/I (see page 75). But the
 
-Thishappensbecause at higher temperatures the atoms in the wire vibrate more vigorously,making it more difficult for theelectrons toflow.
+law also states that the temperature of the wire must be constant. This is because if the temperature of the wire changes, its resistance also changes.
 
-Figure 8.19 At higher temperatures the increased vibration of the atoms makes it more difficulit forchargesto flow.
+This happens because at higher temperatures the atoms in the wire vibrate more vigorously, making it more difficult for the electrons to flow.
 
-Ifawireorconductoris cooled thevibration ofitsatomsdecreases and soitsresistance decreases.Atvery low temperatures,close to absolutezero（-273°C),these vibrationsstop and the conductoroffers noresistance to the flow of charge.This event is called superconductivity and couldbeextremelyuseful.Forexample,when electricity flows using superconductivitywe could transmit electrical energyfrompower stationswithoutlosses.Scientistsaround the world are nowsearching formaterials that aresuperconductors at temperatureswell above absolute zero.
+Figure 8.19 At higher temperatures the increased vibration of the atoms makes it more difficult for charges to flow.
 
-Figure 8.20Maglev trainsuse superconducting magnets to help themhoverabove the tracks.
+If a wire or conductor is cooled the vibration of its atoms decreases and so its resistance decreases. At very low temperatures, close to absolute zero (-273°C), these vibrations stop and the conductor offers no resistance to the flow of charge. This event is called superconductivity and could be extremely useful. For example, when electricity flows using superconductivity we could transmit electrical energy from power stations without losses. Scientists around the world are now searching for materials that are superconductors at temperatures well above absolute zero.
+
+Figure 8.20 Maglev trains use superconducting magnets to help them hover above the tracks.
 CHAPTER QUESTIONS
 
 SKILLS
@@ -2923,41 +2965,41 @@ PROBLEM SOLVING
 
 INTERPRETATION
 
-CRITICALTHINKING
+CRITICAL THINKING
 
-More questions on electrical resistance can be found at the end of Unit2on page 93.
+More questions on electrical resistance can be found at the end of Unit 2 on page 93.
 
-• 1aDescribe how the currentin awire changes as thevoltage across the wire increases.
+• 1 a Describe how the current in a wire changes as the voltage across the wire increases.
 
-• Draw a diagram of the circuityou would use to confirmyour answer to parta.
+• Draw a diagram of the circuit you would use to confirm your answer to part a.
 
-• Describehowyou would use the apparatusandwhatreadingsyou would take.
+• Describe how you would use the apparatus and what readings you would take.
 
-• Drawan/-Vgraphfor
+• Draw an I-V graph for
 
-• iapieceofwire atroom temperature
+• i a piece of wire at room temperature
 
-• ia filament bulb
+• ii a filament bulb
 
-• illa diode.
+• iii a diode.
 
-Explain the main featuresof each of thesegraphs.
+Explain the main features of each of these graphs.
 
-• 2aThere isa currentof5Awhen avoltage of20V isapplied across a resistor.Calculate theresistance of the resistor.
+• 2 a There is a current of 5 A when a voltage of 20 V is applied across a resistor. Calculate the resistance of the resistor.
 
-• Calculate the currentwhenavoltage of 12Vis applied acrossapiece of wire ofresistance 50Ω.
+• Calculate the current when a voltage of 12 V is applied across a piece of wire of resistance 50 Ω.
 
-• Calculate thevoltage thatmustbe applied acrossa wire ofresistance 10Qif thecurrent is tobe3A.
+• Calculate the voltage that must be applied across a wire of resistance 10 Ω if the current is to be 3 A.
 
-• aDescribehow theresistanceof
+• 3 a Describe how the resistance of
 
-• ia thermistor changes asits temperature changes
+• i a thermistor changes as its temperature changes
 
-• lla light-dependentresistor changes as anincreasinglybright light is shone onit.
+• ii a light-dependent resistor changes as an increasingly bright light is shone on it.
 
-• iDrawgraphs toillustrate thesechanges.
+• i Draw graphs to illustrate these changes.
 
-• bName onepractical application for each of theseresistors.
+• b Name one practical application for each of these resistors.
 HINT
 
 Remember when doing calculations like these to show all your working out and include units with your answer.
@@ -2973,19 +3015,19 @@ Static electricity is the result of an imbalanceof charge.lt can be very usefulb
 Thephotograph below shows a spectacular event caused by the build up of static electricity.Flashes of fightning are seen when thunderclouds discharge their electricity.The discharging currents can be as large as20oooA and typically take place injust 0.1 s.Such large currents cause the air to heatup to temperatures of approximately 30 oooC.At such high temperatures,the airimmediatelyaround the flashof lightning expands atsupersonicspeeds(faster than thespeed of sound),causing thunder.Asthe sound waves travel outwards,they slow down and interactwith the air and ground along theirpaths.This causes the continuous low rumbling sounds we hearduring a thunderstorm.
 LEARNING OBJECTIVES
 
-• Identify common materials which are electrical conductors orinsulators,including metals and plastics
+• Identify common materials which are electrical conductors or insulators, including metals and plastics
 
-• Explain electrostaticphenoinena in terms of the movementofelectrons
+• Explain electrostatic phenomena in terms of the movement of electrons
 
-• Practical:investigate how insulating materials can be charged by friction
+• Practical: investigate how insulating materials can be charged by friction
 
-• Explain the potential dangers of electrostaticcharges, e.g.when fuelling aircraft and tankers
+• Explain the potential dangers of electrostatic charges, e.g. when fuelling aircraft and tankers
 
-• Explain howpositive and negative electrostatic charges areproduced on materials by the loss and gain ofelectrons
+• Explain how positive and negative electrostatic charges are produced on materials by the loss and gain of electrons
 
-• Know that there are forcesofattraction between unlike chargesand forcesof repulsionbetween like charges
+• Know that there are forces of attraction between unlike charges and forces of repulsion between like charges
 
-• Explain some uses ofelectrostatic charges,e.g.in photocopiersand inkjetprinters
+• Explain some uses of electrostatic charges, e.g. in photocopiers and inkjet printers
 KEY POINT
 
 Some materials(such asmetals)are good electrical conductors.Other materials that do not allow electricity to flow through them easily areknown as insulators.
@@ -3012,22 +3054,24 @@ Materials such asplastic,rubber,glass and wood donot allow electricity to flow t
 REMINDER
 
 It is important torememberthat the rubbingaction doesnotproduce or create charge.lt simply separates charge-that is,it transfers some electrons from one object toanother.
-PRACTICAL:INVESTIGATEHOWINSULATORSCANBECOME ELECTRICALLYCHARGEDBYFRICTION
 
-We canshowhowinsulatingmaterialscanbe chargedby friction using anunchargedplasticrod and anuncharged cloth.Firstwe have to check they arenotalreadycharged.We can do thisbyplacing therod and the cloth in tum,close tosomevery small piecesofpaper.lf the cloth or the rod ischarged,some of the paperwill be attracted.lf they are uncharged there willbenoattraction (see page 88).Now werub therod and the cloth togetherfora fewseconds and then retest them.Because they are made from different insulating materials theywill be charged.
+#### PRACTICAL:INVESTIGATEHOWINSULATORSCANBECOME ELECTRICALLYCHARGEDBYFRICTION
+PRACTICAL: INVESTIGATE HOW INSULATORS CAN BECOME ELECTRICALLY CHARGED BY FRICTION
 
-Ifwerepeat this experiment using objects that arenotinsulators,or are madefrom the same material,theywill not attract the smallpieces of paper.That is,theyremain uncharged.
+We can show how insulating materials can be charged by friction using an uncharged plastic rod and an uncharged cloth. First we have to check they are not already charged. We can do this by placing the rod and the cloth in turn, close to some very small pieces of paper. If the cloth or the rod is charged, some of the paper will be attracted. If they are uncharged there will be no attraction (see page 88). Now we rub the rod and the cloth together for a few seconds and then retest them. Because they are made from different insulating materials they will be charged.
+
+If we repeat this experiment using objects that are not insulators, or are made from the same material, they will not attract the small pieces of paper. That is, they remain uncharged.
 EXPLANATION
 
-When theunchargedplasticrodisrubbedwith anuncharged cloth, electrons from the atomsoftherodmoveonto thecloth.Thereisnowan unequalnumberofpositive andnegative charges on each.Therod has lostelectronsand soispositively charged.The clothhasgained electrons and so is negatively charged.
+When the uncharged plastic rod is rubbed with an uncharged cloth, electrons from the atoms of the rod move onto the cloth. There is now an unequal number of positive and negative charges on each. The rod has lost electrons and so is positively charged. The cloth has gained electrons and so is negatively charged.
 
-Figure 9.4 Rubbing an uncharged rod with an uncharged piece of cloth can result in them both becomingcharged.
+Figure 9.4 Rubbing an uncharged rod with an uncharged piece of cloth can result in them both becoming charged.
 
-FORCESBETWEEN CHARGES
+FORCES BETWEEN CHARGES
 
 Figure 9.5 Similar charges repel and opposite charges attract
 
-Charged objects can exert forces on other charged objectswithout being in contact with them.lf the charges are similar,the objects repel each other.f
+Charged objects can exert forces on other charged objects without being in contact with them. If the charges are similar, the objects repel each other. f
 EXTENSION WORK
 
 Staticelectricity is abuild upof charge thatdoes not move.The movement of charge is current electricity.
@@ -3070,35 +3114,39 @@ The metal plate at the top of theelectroscope is connected to ametal rod inside 
 B
 
 Figure 9.10 a lf there are no electrically charged objects held close to the plate the positive and negative charges are evenly spread throughout the electroscope and the gold leaf isnot deflected.blf a positively charged object is brought close it atracts negative charges upwards onto themetal plate.This leaves both charged objectis brought closeitrepels the negatively charged electrons on the plate pushing them down onto the gold leaf and the bottom of the rod. These like charges repel and the leaf again moves upwards.
-USES OFSTATICELECTRICITY
 
-Painting an awkwardly shaped object,such asa bicycle frame,with a spray can make theprocessmuchmoreefficient.
+#### USES OFSTATICELECTRICITY
+USES OF STATIC ELECTRICITY
 
-• Figure 9.11 The positive paint is attracted to allparts of the negatively charged object
+Painting an awkwardly shaped object, such as a bicycle frame, with a spray can make the process much more efficient.
 
-As the drops of paint emerge from the spray gun,they are charged.As the Themetal bicycleframehasawire attached to an electrical supplygiving the frame the opposite charge.Thepaint drops are therefore attracted to the surface of the frame.Thereis the added benefit thatpaintisattracted into places,such as corners,that would normallybehard to reach.
+• Figure 9.11 The positive paint is attracted to all parts of the negatively charged object
 
-• Figure 9.12An inkjet printer
+As the drops of paint emerge from the spray gun, they are charged. As the metal bicycle frame has a wire attached to an electrical supply giving the frame the opposite charge. The paint drops are therefore attracted to the surface of the frame. There is the added benefit that paint is attracted into places, such as corners, that would normally be hard to reach.
+
+• Figure 9.12 An inkjet printer
 
 Figure 9.13 The charged ink drops are deflected into the correct position on the paper.
 
-Many modern inkjet printers use inkjets to directa finejet(stream)ofink drops ontopaper.Theydo thisbyusing electrostaticforces.Each spot of inkisgiven a chargeso that asit fallsbetween a pair of deflectingplates, electrostaticforces direct it to the correctposition.The charges on the plates change hundredsof timeseachsecondso that each drop fallsin a different position,forming pictures and words on the paperasrequired
+Many modern inkjet printers use inkjets to direct a fine jet (stream) of ink drops on top paper. They do this by using electrostatic forces. Each spot of ink is given a charge so that as it falls between a pair of deflecting plates, electrostatic forces direct it to the correct position. The charges on the plates change hundreds of times each second so that each drop falls in a different position, forming pictures and words on the paper as required.
 PHOTOCOPIERS
 
 • Figure 9.15 A photocopier
 
-• Figure 9.14Static electricity is used inphotocopiers.
+• Figure 9.14 Static electricity is used in photocopiers.
 
-Positive charges are sprayed onto a turning drumwhose surface iscovered with ametal called selenium.Abright lightis shone onto the sheetofpaper to be copied.Thewhitepartsof thepaperreflect light onto the drum;the dark orprintedpartsdonot.In thoseplaceswhere light isreflected onto the drum theselenium losesitschargebutwhereno light isreflected onto the drum the charge remains.Anegatively charged carbonpowdercalled tonerisblown across the drum and sticks tojust thosepartsof the drum thatare charged. Asheetofpaperisnowpressed against the drum andpicksup thepatternof the carbonpowder.Thepowder is then fixed inplacebya heater.
-ELECTROSTATICPRECIPITATORS
+Positive charges are sprayed onto a turning drum whose surface is covered with a metal called selenium. A bright light is shone onto the sheet of paper to be copied. The white parts of the paper reflect light onto the drum; the dark or printed parts do not. In those places where light is reflected onto the drum the selenium loses its charge but where no light is reflected onto the drum the charge remains. A negatively charged carbon powder called toner is blown across the drum and sticks to just those parts of the drum that are charged. A sheet of paper is now pressed against the drum and picks up the pattern of the carbon powder. The powder is then fixed in place by a heater.
 
-Figure 9.17Earthing during refuelling
+#### ELECTROSTATICPRECIPITATORS
+ELECTROSTATIC PRECIPITATORS
 
-Many heavyindustrialplants,such as steel-making furnaces and coal-fired particles of ash and dust into the environment,causing health problems and to useelectrostaticprecipitators.
+Figure 9.17 Earthing during refuelling
 
-• Figure 9.16Electrostatic precipitators help to cut down the amount of pollurtion released into the atmosphere.
+Many heavy industrial plants, such as steel-making furnaces and coal-fired particles of ash and dust into the environment, causing health problems and to use electrostatic precipitators.
 
-As the smoke initiallyrisesup the chimney,it passes through a mesh of wiresthatarehighlycharged.(The wires are atavoltageofapproximately -50oo0 V.)As theypass through the mesh,the ash and dust particlesbecome negatively charged.Higherup the chimney,these chargedparticles are attracted by and stick to,large metal earthedplates.The cleaner smoke is then releasedinto the atmosphere.When the earthedplatesare completely covered with dust and ash,they are tapped hard.The dust and ash fallinto collection boxes,which are later emptied.
+• Figure 9.16 Electrostatic precipitators help to cut down the amount of pollution released into the atmosphere.
+
+As the smoke initially rises up the chimney, it passes through a mesh of wires that are highly charged. (The wires are at a voltage of approximately -50 000 V.) As they pass through the mesh, the ash and dust particles become negatively charged. Higher up the chimney, these charged particles are attracted by and stick to, large metal earthed plates. The cleaner smoke is then released into the atmosphere. When the earthed plates are completely covered with dust and ash, they are tapped hard. The dust and ash fall into collection boxes, which are later emptied.
 
 removed from the smoke each hour!
 PROBLEMSWITHSTATICELECTRICITY
@@ -3120,62 +3168,62 @@ REASONING
 
 HINT
 
-See section'Problems with static electricity'.
+See section 'Problems with static electricity'.
 
-Sometimesaftera long carjoumeyonadry daywe canbecomecharged withstaticelectricity and when we step from thecarwe mightreceive a small electric shock.
+Sometimes after a long car journey on a dry day we can become charged with static electricity and when we step from the car we might receive a small electric shock.
 
-Our clothing can become chargedwith static electricityunder certain circumstances.When weremove the clothes there is thepossibility of receiving a small electricshockas the chargesescape to earth.
+Our clothing can become charged with static electricity under certain circumstances. When we remove the clothes there is the possibility of receiving a small electric shock as the charges escape to earth.
 
-Morequestionson domesticelectricity can be found at the end of Unit2on page 93.
+More questions on domestic electricity can be found at the end of Unit 2 on page 93.
 
-1aWhat charge is carried by each of theseparticles?
+1a What charge is carried by each of these particles?
 
-• Iaproton
+• i a proton
 
-• ilan electron
+• ii an electron
 
-• ilaneutron
+• iii a neutron
 
-• Where inside an atom areeachof the threeparticlesmentioned inparta found?
+• Where inside an atom are each of the three particles mentioned in part a found?
 
-• How manyprotonsare there in a neutral atom compared to thenumber ofelectrons?
+• How many protons are there in a neutral atom compared to the number of electrons?
 
-• What dowe callanatom that hasbecomecharged bygaining or losing electrons?
+• What do we call an atom that has become charged by gaining or losing electrons?
 
-• Describewith diagramshow two objects can be chargedbyfriction (rubbing).
+• Describe with diagrams how two objects can be charged by friction (rubbing).
 
 • Explain the following.
 
-• aAcrackling sound can sometimesbeheardwhenremoving a shirt.
+• a A crackling sound can sometimes be heard when removing a shirt.
 
-• bSometimes afterajourneyin a caryou can get a small electric shock whenyou touch thehandleof the door.
+• b Sometimes after a journey in a car you can get a small electric shock when you touch the handle of the door.
 
-• Aplasticcombisable to attract smallpieces ofpaperimmediately afterit has been used.
+• A plastic comb is able to attract small pieces of paper immediately after it has been used.
 
-• dAfter landing,aircraft are always‘earthed'before being refuelled.
+• d After landing, aircraft are always 'earthed' before being refuelled.
 
-• Inaphotocopier,whydoestonerpowdersticktosomeplaceson the selenium-covered drum butnottoothers?
+• In a photocopier, why does toner powder stick to some places on the selenium-covered drum but not to others?
 
-• bExplain why ashand dustparticlesare attracted towardstheearthed metal plates ofan electrostaticprecipitatoraftertheyhavepassed through a highlynegatively charged mesh of wires.
+• b Explain why sand and dust particles are attracted towards the earthed metal plates of an electrostatic precipitator after they have passed through a highly negatively charged mesh of wires.
 
 #### CHAPTER QUESTIONS
 • Lightning is caused by clouds discharging their static electricity.
 
-• aFind out:
+• a Find out:
 
-• ihow the cloudsbecome charged
+• i how the clouds become charged
 
-• iihowa lightning conductorworks.
+• ii how a lightning conductor works.
 
-• bSuggest twoplaces which might be
+• b Suggest two places which might be
 
-• iunsafe during a thunderstorm
+• i unsafe during a thunderstorm
 
-• Isafe during a thunderstorm.
+• ii safe during a thunderstorm.
 
-• 5Computer chips canbedamagedbystaticelectricityifa sparkjumps between aworker and a computer.Suggest how workers whobuild and repair computers avoid this problem.
+• 5 Computer chips can be damaged by static electricity if a spark jumps between a worker and a computer. Suggest how workers who build and repair computers avoid this problem.
 
-END OFPHYSICSONLY
+END OF PHYSICS ONLY
 
 ## Unit 2: Electricity
 
@@ -3266,19 +3314,19 @@ Asma setup the circuit shownbelow toinvestigatehowtheresistanceofa bulb changes 
 • cWhat is the purpose of Xin this circuit?
 
 #### UNIT QUESTIONS
-Asma takesa series ofreadings.She measures the voltage across the bulb and the currentin it.She then plots the graph shown below.
+Asma takes a series of readings. She measures the voltage across the bulb and the current in it. She then plots the graph shown below.
 
-• dWhat isthe currentin thebulbwhen avoltage of 6Visapplied across it?
+• d What is the current in the bulb when a voltage of 6 V is applied across it?
 
 (2)
 
 (1)
 
-• What voltage is applied across the bulbwhen there isacurrentof 2A?
+• What voltage is applied across the bulb when there is a current of 2A?
 
 (1)
 
-• Calculate theresistance of the bulbwhen there isa currentof2A.
+• Calculate the resistance of the bulb when there is a current of 2A.
 
 REASONING
 
@@ -3288,11 +3336,11 @@ PROBLEM SOLVING
 
 (2)
 
-• gWhat happens to the resistance of the bulb as the current increases? (1)
+• g What happens to the resistance of the bulb as the current increases? (1)
 
-(Total forQuestion 3=9marks)
+(Total for Question 3 = 9 marks)
 
-Asimple seriescircuit containinga12Vbattery anda10Qresistorwas constructed as shown below.
+A simple series circuit containing a 12V battery and a 10Ω resistor was constructed as shown below.
 
 #### UNIT QUESTIONS
 | ELECTRICITY              |    | UNIT QUESTIONS                                                                                                                                                                        |                                                                           |                                                                           |
@@ -3411,51 +3459,57 @@ A longitudinal waveisone inwhich thevibrations,oroscillations,arealong thedirect
 KEY POINT
 
 Aisthe Greekletter lambda and isthe usual symbol forwavelength.
-DESCRIBINGWAVES
 
-When a wave moves through a substance,itsparticles will move from their equilibrium （resting position).The maximum movement ofparticles from their resting orequilibriumposition is called its amplitude(A).
+#### DESCRIBINGWAVES
+DESCRIBING WAVES
 
-• Figure10.6A wave has amplitude and wavelength.
+When a wave moves through a substance, its particles will move from their equilibrium (resting position). The maximum movement of particles from their resting or equilibrium position is called its amplitude (A).
 
-Thedistancebetweenaparticularpointonawave and thesamepointon the next wave (for example,from crest to crest)is called the wavelength ().
+• Figure 10.6 A wave has amplitude and wavelength.
 
-If thesource thatiscreating awavevibratesquicklyitwillproducea large numberofwaveseachsecond.lf itvibratesmore slowlyitwillproducefewer waveseach second.The numberofwavesproduced each second bya source,or the numberpassing aparticularpoint each second,is called the frequency of the wave (f).Frequency ismeasured in hertz(Hz).A wave source thatproducesfive complete waveseach second hasa frequencyof5Hz.
+The distance between a particular point on a wave and the same point on the next wave (for example, from crest to crest) is called the wavelength (λ).
 
-• Figure 10.7 The amplitude of a wave is as shown in a,and not as in b.
+If the source that is creating a wave vibrates quickly it will produce a large number of waves each second. If it vibrates more slowly it will produce fewer waves each second. The number of waves produced each second by a source, or the number passing a particular point each second, is called the frequency of the wave (f). Frequency is measured in hertz (Hz). A wave source that produces five complete waves each second has a frequency of 5 Hz.
 
-Figure 10.8 Thisgraph shows a wave with a frequency of 5 Hz
+• Figure 10.7 The amplitude of a wave is as shown in a, and not as in b.
 
-The time it takesforasource toproduceonewave iscalled the time period of thewave（7).it isrelated to the frequency(f)ofawaveby theequation:
+Figure 10.8 This graph shows a wave with a frequency of 5 Hz
 
-Thisequation can alsobewritten as
+The time it takes for a source to produce one wave is called the time period of the wave (T). It is related to the frequency (f) of a wave by the equation:
 
-• Figure 10.9 You can use the triangle method forrearranging equations likev=fx
+This equation can also be written as
+
+• Figure 10.9 You can use the triangle method for rearranging equations like v = f × λ
 HINT
 
 If an examination question asksyou to write out the equation for calculating wave speed,wavelength orfrequency. alwaysgive the actual equation such asv=fxYou maynot beawarded a mark ifyou just draw the triangle.
 EXAMPLE1
 
-Calculate theperiodofa wavewithafrequencyof200Hz.
+Calculate the period of a wave with a frequency of 200Hz.
 
 200Hz
 
-• =0.005or5ms（1000ms=1s)
-THEWAVEEQUATION
+• =0.005 or 5ms (1000ms=1s)
 
-There isarelationshipbetween the wavelength(A),the frequency (f)and the wave speed (v) that is true for all waves:
+#### THEWAVEEQUATION
+THE WAVE EQUATION
 
-wave speed,v（m/s)=frequency,f(Hz)xwavelength,A(m)
-v=fxA
+There is a relationship between the wavelength (λ), the frequency (f) and the wave speed (v) that is true for all waves:
+
+wave speed, v (m/s) = frequency, f (Hz) × wavelength, λ (m)
+
+#### v=fxA
+v=f×λ
 
 • Figure 10.10 A wave with a frequency of 4 Hz
 
-Imagine thatyou have createdwaterwaveswitha frequencyof4Hz.This means that fourwaveswillpassaparticularpointeach second.lf the wavelengthof thewaves is3m,then thewavestravel 12m eachsecond.The speed of the waves is therefore 12m/s.
+Imagine that you have created water waves with a frequency of 4 Hz. This means that four waves will pass a particular point each second. If the wavelength of the waves is 3 m, then the waves travel 12 m each second. The speed of the waves is therefore 12 m/s.
 
-V=fx入
+v=f×λ
 
-• =4Hzx3m
+• =4 Hz×3 m
 
-• =12m/s
+• =12 m/s
 EXAMPLE2
 
 Atuning fork creates sound waveswitha frequency of 170Hz.If the speed of sound in airis340m/s,calculate thewavelength of the sound waves.
@@ -3541,49 +3595,49 @@ If thecarismoving,the wavefronts areno longerevenly spaced.Ahead of the car thew
 These apparent changes in frequency.which occurwhena source of waves ismoving,is called the Doppler effect and is a propertyof all waves.
 CHAPTER QUESTIONS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 INTERPRETATION
 
 ANALYSIS,
 
-PRDBLEM SOLVING
+PROBLEM SOLVING
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 REASONING
 
-More questions on wave properties canbe found at the end of Unit 3on page130.
+More questions on wave properties can be found at the end of Unit 3 on page 130.
 
-• 1aExplain the difference betweena transverse wave and a longitudinal wave.
+• 1a Explain the difference between a transverse wave and a longitudinal wave.
 
-• Give one example ofeach.
+• Give one example of each.
 
-• Drawa diagram ofa transversewave.Onyour diagram,mark the wavelength and amplitude of the wave.
+• Draw a diagram of a transverse wave. On your diagram, mark the wavelength and amplitude of the wave.
 
-• The diagrambelowshows the displacementofwaterasa wave travels throughit.
+• The diagram below shows the displacement of water as a wave travels through it.
 
 From the diagram calculate:
 
-• atheperiod of the wave
+• a the period of the wave
 
-• bthe frequency of the wave.
+• b the frequency of the wave.
 
-• 3Thespeedofsound inwaterisapproximately 1500m/s.
+• 3 The speed of sound in water is approximately 1500 m/s.
 
-• aWhat is thefrequency of a soundwavewith awavelengthof1.5m?
+• a What is the frequency of a sound wave with a wavelength of 1.5 m?
 
-• Whatis the period of this wave?
+• What is the period of this wave?
 
-• Explainwhy the soundproduced bythehorn ofan approaching car seems tohave a higher frequency thanone that is stationary.
+• Explain why the sound produced by the horn of an approaching car seems to have a higher frequency than one that is stationary.
 
-• affect the frequency of the soundheard?
+• affect the frequency of the sound heard?
 
-• Describe thefrequency of thesound heard by the observerif the caris moving away athigh speed.
+• Describe the frequency of the sound heard by the observer if the car is moving away at high speed.
 
-• Explain why thishunter should not aim at thefish he can see.
+• Explain why this hunter should not aim at the fish he can see.
 
 ## Unit 3: Waves
 
@@ -3596,54 +3650,58 @@ The electromagnetic spectrum isa family of waves,varying
 in wavelength and frequency.Although it is continuous, it is helpful to consider smaller groups of waveswithin the spectrum. These groups have distinct properties. As we will see in this chapter,understanding the different properties allows us to use these waves inmany situations including cooking and communication.
 
 • Figure 11.1 When we shine white light through aprism it splits up forming a band of colours.This band is one small part ol the electromagnebic spectrum.
-LEARNING.OBJECTIVES
 
-• Know that light ispart ofa continuous electromagneticspectrum that includesradio, microwave,infrared,visible,ultraviolet,x-ray and gamma ray radiations and that all thesewaves travel at the same speed infree space
+#### LEARNING.OBJECTIVES
+LEARNING OBJECTIVES
 
-• Know the orderof the electromagnetic spectrum in termsof decreasing wavelength and increasing frequency.including the colours of the visible spectrum
+• Know that light is part of a continuous electromagnetic spectrum that includes radio, microwave, infrared, visible, ultraviolet, x-ray and gamma ray radiations and that all these waves travel at the same speed in free space
 
-• Explain some of the usesofelectromagnetic radiations,including:
+• Know the order of the electromagnetic spectrum in terms of decreasing wavelength and increasing frequency, including the colours of the visible spectrum
 
-• radio waves:broadcasting and communications
+• Explain some of the uses of electromagnetic radiations, including:
 
-• visible light:optical fibres andphotography
+• radio waves: broadcasting and communications
 
-• ultraviolet:fluorescent lamps
+• visible light: optical fibres and photography
 
-• x-rays:observing theinternal structure of objects and materials,including for medicalapplications
+• ultraviolet: fluorescent lamps
 
-• gamma rays:sterilising food and medical equipment
+• x-rays: observing the internal structure of objects and materials, including for medical applications
 
-• Explain the detrimental effects ofexcessive exposure of thehuman body to electromagnetic waves,including:
+• gamma rays: sterilising food and medical equipment
 
-• microwaves:internalheating ofbody tissue
+• Explain the detrimental effects of excessive exposure of the human body to electromagnetic waves, including:
 
-• infrared:skin burns
+• microwaves: internal heating of body tissue
 
-• ultraviolet:damage to surface cells and blindness
+• infrared: skin burns
 
-• microwaves:cooking and satellite transmissions
+• ultraviolet: damage to surface cells and blindness
 
-• gamma rays:cancer,mutation
+• microwaves: cooking and satellite transmissions
 
-• infrared:heatersand night vision equipment
+• gamma rays: cancer, mutation
 
-and describe simple protective measures against therisks
-THEELECTROMAGNETICSPECTRUM
+• infrared: heaters and night vision equipment
 
-Figure 11.2The complete electromagnetic spectrum
+and describe simple protective measures against the risks
 
-Theelectromagnetic spectrum (EM spectrum)isa continuous spectrum of waves,whichincludes thevisible spectrum.At one endof the spectrum the waveshavea very long wavelengthandlowfrequency.while at the otherend have the followingproperties:
+#### THEELECTROMAGNETICSPECTRUM
+THE ELECTROMAGNETIC SPECTRUM
 
-• 1They all transfer energy.
+Figure 11.2 The complete electromagnetic spectrum
 
-• 2They areall transversewaves.
+The electromagnetic spectrum (EM spectrum) is a continuous spectrum of waves, which includes the visible spectrum. At one end of the spectrum the waves have a very long wavelength and low frequency, while at the other end have the following properties:
 
-• 3Theyall travelat300000000 m/s,the speed of light ina vacuum (free space).
+• 1 They all transfer energy.
 
-• 4Theycan allbereflected andrefracted.
+• 2 They are all transverse waves.
 
-Remember that the wave equationswe met in the previous chapter can be applied to any member of the electromagneticspectrum.
+• 3 They all travel at 300000000 m/s, the speed of light in a vacuum (free space).
+
+• 4 They can all be reflected and refracted.
+
+Remember that the wave equations we met in the previous chapter can be applied to any member of the electromagnetic spectrum.
 EXAMPLE1
 
 Yellow light hasa wavelength of 5.7x10-7m.Whatis the frequency and periodof yellow lightwaves?
@@ -3665,127 +3723,129 @@ HINT
 To remember the orderof thewaves in the electromagnetic spectrum try using'Graham'sXylophone UsesVery Interesting Musical Rhythms'
 MICROWAVES
 
-Youdonotneed to remember the valuesof frequencyandwavelengthgiven in thetable butyou doneed toknow the orderof thegroups and which has thehighestfrequencyor longestwavelengths.Mostimportantly.youneed to realise thatit isthesedifferencesinwavelengthand frequency thatgive the groups their different properties-for example,gamma rayshave the shortest wavelengths and highest frequencies,and carry the most energy.
+You do not need to remember the values of frequency and wavelength given in the table but you do need to know the order of the groups and which has the highest frequency or longest wavelengths. Most importantly, you need to realise that it is these differences in wavelength and frequency that give the groups their different properties - for example, gamma rays have the shortest wavelengths and highest frequencies, and carry the most energy.
 
-Radiowaveshave the longest wavelengths in the electromagnetic spectrum. They are usedmainlyfor communication.
+Radio waves have the longest wavelengths in the electromagnetic spectrum. They are used mainly for communication.
 
 • Figure 11.3 Radio waves are emitted by a transmitter and detected by an aerial.
 
-Radio waves are given out(emitted)by a transmitter.As they arrive at an aerial FMradiosuseradiowaveswith the shorterwavelengthstocarry theirsignals.
+Radio waves are given out (emitted) by a transmitter. As they arrive at an aerial, FM radios use radio waves with the shorter wavelengths to carry their signals.
 
-Microwaves are used for communications,radar and cooking foods.Radar usesradiowavesto find thepositionof things.
+Microwaves are used for communications, radar and cooking foods. Radar uses radio waves to find the position of things.
 
 • Figure 11.4 Food cooks quickly in a microwave oven because water molecules in the food absorb the microwaves.
 
-Foodplaced in a microwave oven cooksmore quickly than ina normaloven. Thisisbecausewatermoleculesin thefoodabsorb themicrowavesand become very hot.The food therefore cooks throughoutrather thanjustfrom the outside.
+Food placed in a microwave oven cooks more quickly than in a normal oven. This is because water molecules in the food absorb the microwaves and become very hot. The food therefore cooks throughout rather than just from the outside.
 
-Microwave ovenshave metal screens thatreflect microwaves and keep them inside the oven.Thisis necessarybecause if microwaves can cook food,they
+Microwave ovens have metal screens that reflect microwaves and keep them inside the oven. This is necessary because if microwaves can cook food, they
 INFRARED
 
-Figure 11.6Signals are carried from this remotecontrol to a TVby infrared waves.
+Figure 11.6 Signals are carried from this remote control to a TV by infrared waves.
 
-canalsoheathumanbody tissue!Themicrowavesused bymobilephones transmit much lessenergy than those usedina microwave oven,so theydo notcookyourbrain when you use thephone.However evidenceis growing thatsupports theidea thatoveruseofmobilephonesmay eventuallyharm the brain.
+can also heat human body tissue! The microwaves used by mobile phones transmit much less energy than those used in a microwave oven, so they do not cook your brain when you use the phone. However evidence is growing that supports the idea that overuse of mobile phones may eventually harm the brain.
 
-Microwaves are used in communications.The wavespass easily through the Earth's atmosphere and soare used to carry signals toorbiting satellites. Fromhere,the signalsare passed on to theirdestination or to other orbiting satellites.Messages sentto and from mobilephones are also carried by microwaves.The fact thatweare able tousemobilephones almostanywhere in thehome and atworkconfirmsthat microwavescanpass throughglass brick and so on.
+Microwaves are used in communications. The waves pass easily through the Earth's atmosphere and so are used to carry signals to orbiting satellites. From here, the signals are passed on to their destination or to other orbiting satellites. Messages sent to and from mobile phones are also carried by microwaves. The fact that we are able to use mobile phones almost anywhere in the home and at work confirms that microwaves can pass through glass brick and so on.
 
-Allobjects,including yourbody,emit infrared (IR)radiation.Thehotter an objectis,themore energy itwillemit as infrared.Energyis transferred by infraredradiationtobreadina toasterorfoodunderagrill.Electricfires also transferheat energy byinfrared.
+All objects, including your body, emit infrared (IR) radiation. The hotter an object is, the more energy it will emit as infrared. Energy is transferred by infrared radiation to bread in a toaster or food under a grill. Electric fires also transfer heat energy by infrared.
 
-Special camerasdesigned to detect infraredwavescanbeused to create imagesevenwhen there isnovisiblelight.These camerashavemanyuses, criminalsand checkingforheat lossfrombuildings.
+Special cameras designed to detect infrared waves can be used to create images even when there is no visible light. These cameras have many uses, criminals and checking for heat loss from buildings.
 
-Figure 11.5 it isnot possible to see these people trapped at the bottom of a cliffusing normal visible light. By using infrared detectors they can be found easily and rescued.
+Figure 11.5 it is not possible to see these people trapped at the bottom of a cliff using normal visible light. By using infrared detectors they can be found easily and rescued.
 
 #### INFRARED
-Infraredradiationis also used inremote controlsfor televisions,DvDplayers and stereo systems.ltisvery convenient for thispurposebecause the waves arenotharmful.They have alowpenetrating powerandwilltherefore operate only over small distances,so they areunlikely tointerfere with other signalsorwaves.
+Infrared radiation is also used in remote controls for televisions, DVD players and stereo systems. It is very convenient for this purpose because the waves are not harmful. They have a low penetrating power and will therefore operate only over small distances, so they are unlikely to interfere with other signals or waves.
 
-The human bodycanbeharmedbytoo muchinfraredradiation,which can cause skin burns.
+The human body can be harmed by too much infrared radiation, which can cause skin burns.
 EXTENSION WORK
 
 When talking about light and colour, we often refer to the seven colours in thevisible spectrum.These colours are red,orange,yellow,green,blue,indigo andviolet;red light hasthe longest wavelength and lowest frequency.If you lookbackat Figure 11.1,you may onlybeable to make out sixcoloursmost people have difficulty separating indigo andviolet(two typesof purple).Sir Isaac Newton (1642-1727) discovered thatwhite'light canbe split up into different colours.Hebelieved thatthe number seven hadmagical significance,and sohe decided there were seven colours in the spectrum!
-ULTRAVIOLETLIGHT
 
-Figure 11.8 Uv light can cause sunbum so we need to protect our skin.
+#### ULTRAVIOLETLIGHT
+ULTRAVIOLET LIGHT
+
+Figure 11.8 UV light can cause sunburn so we need to protect our skin.
 
 Figure 11.7 Using visible light
 
-Thisisthepartof theelectromagneticspectrum that isvisible to thehuman eye.Weuse it to see.Visible light from lasers isused toread compact discs and barcodes.lt can alsobesent along optical fibres,soit can beused for communication orforlooking intohard-to-reachplacessuchasinside the body of a patient (seepage 121).Visiblelight canbe detectedby the sensors in digital cameras,and used to take still photographs orvideos.Information stored onDvDsisalsoreadusingvisible light.
+This is the part of the electromagnetic spectrum that is visible to the human eye. We use it to see. Visible light from lasers is used to read compact discs and barcodes. It can also be sent along optical fibres, so it can be used for communication or for looking into hard-to-reach places such as inside the body of a patient (see page 121). Visible light can be detected by the sensors in digital cameras, and used to take still photographs or videos. Information stored on DVDs is also read using visible light.
 
-Part of the lightemitted by theSun isultraviolet(Uv)light.UVradiationis harmful tohuman eyes and can damage the skin.
+Part of the light emitted by the Sun is ultraviolet (UV) light. UV radiation is harmful to human eyes and can damage the skin.
 
-UVlight causes the skin to tan,but overexposure (too much）will lead to sunbun andblistering.Ultraviolet radiation can also cause skin cancer and blindness.Protective goggles or glasses and skin creams can block the UV rays and will reduce the harmful effects of thisradiation.
+UV light causes the skin to tan, but overexposure (too much) will lead to sunburn and blistering. Ultraviolet radiation can also cause skin cancer and blindness. Protective goggles or glasses and skin creams can block the UV rays and will reduce the harmful effects of this radiation.
 
-Theozone layerin theEarth'satmosphere absorbslargequantitiesof the Sun'sUVradiation.Thereisreal concernatpresent that theamount ofozone in the atmosphere is decreasing due to pollution.This may lead to increased numbers of skin cancers in the future.
+The ozone layer in the Earth's atmosphere absorbs large quantities of the Sun's UV radiation. There is real concern at present that the amount of ozone in the atmosphere is decreasing due to pollution. This may lead to increased numbers of skin cancers in the future.
 
-Some chemicals glow (shine),orfluoresce,when underUVlight.This property of UVlight isused insecurity markerpens.The special inkisinvisible in normal light butbecomesvisible in UV light.
+Some chemicals glow (shine), or fluoresce, when under UV light. This property of UV light is used in security marker pens. The special ink is invisible in normal light but becomes visible in UV light.
 
-Figure 11.9 This red code is only visible under Uv light.
+Figure 11.9 This red code is only visible under UV light.
 
 X-RAYS
 
-• Figure11.12X-rays were used to see what was in this suitcase.
+• Figure 11.12 X-rays were used to see what was in this suitcase.
 GAMMA RAYS
 
 mercury vapour inside the tube gives off when the UV light strikes the fluorescent
 
 AFigure 11.10 Fluorescent tubes glow when UV light hits the fluorescent coating in the tube.
 
-Fluorescent tubes glow (shine)because theUV light theyproduce strikes a special coating (covering)on the inside of the tube,which then emitsvisible light.
+Fluorescent tubes glow (shine) because the UV light they produce strikes a special coating (covering) on the inside of the tube, which then emits visible light.
 
-X-rays pass easily through soft body tissue but cannot pass through bones.As aresult,radiographs orx-raypictures can be taken to check a patient'sbones.
+X-rays pass easily through soft body tissue but cannot pass through bones. As a result, radiographs or x-ray pictures can be taken to check a patient's bones.
 
-Figure 11.11 X-ray ofa broken leg
+Figure 11.11 X-ray of a broken leg
 
-Working with x-rays can cause cancer.Radiographers,who take x-rays,are at riskandhave tostand behind lead screens orwearprotective clothing.
+Working with x-rays can cause cancer. Radiographers, who take x-rays, are at risk and have to stand behind lead screens or wear protective clothing.
 
-X-rays are alsoused in industry to checkthe internal structuresofobjectsairportsaspart of the securitycheckingprocedure.
+X-rays are also used in industry to check the internal structures of objects airports as part of the security checking procedure.
 
-Gamma rays,like x-rays,are highly penetrating rays and can cause damage toliving cells.The damage can cause mutations (negative changes),which can lead to cancer.They are used to sterilise medical instruments,to kill microorganismsso thatfoodwill keepfor longer and totreatcancerusing radiotherapy.Gamma rays can both cause and cure cancer.Large doses of gamma rays targeted directly at the cancerous growth can be used tokill the cancer cells completely.
+Gamma rays, like x-rays, are highly penetrating rays and can cause damage to living cells. The damage can cause mutations (negative changes), which can lead to cancer. They are used to sterilise medical instruments, to kill microorganisms so that food will keep for longer and to treat cancer using radiotherapy. Gamma rays can both cause and cure cancer. Large doses of gamma rays targeted directly at the cancerous growth can be used to kill the cancer cells completely.
 
-Like x-rays the use of lead screens,boxes and aprons can prevent the damage causedbygammarays(overexposure).
+Like x-rays the use of lead screens, boxes and aprons can prevent the damage caused by gamma rays (overexposure).
 
-targeted cells -only here is the dose of gamma radiation high enough to damage orkill cells
+targeted cells - only here is the dose of gamma radiation high enough to damage or kill cells
 
 Figure 11.13 The gamma rays are aimed carefully so that they cross at the exact location of the cancerous cells.
 CHAPTER QUESTIONS
 
 SKILLS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 REASONING
 
 More questions on using waves can be found at the end of Unit 3 on page 130.
 
-• aNamefourwavepropertiesthatarecommon toallmembersof the electromagneticspectrum.
+• a Name four wave properties that are common to all members of the electromagnetic spectrum.
 
-• Name three types of wave that canbeused for communicating.
+• Name three types of wave that can be used for communicating.
 
-• Name two types of wave thatcan be used for cooking
+• Name two types of wave that can be used for cooking
 
 • Name one type of wave that is used to treat cancer.
 
-• Name one type of wave that mightbe used to‘see'people in the dark.
+• Name one type of wave that might be used to 'see' people in the dark.
 
 • Name one type of wave that is used for radar.
 
 • Explain why:
 
-• amicrowave ovenscookfoodmuchmorequicklythannormalovens
+• a microwave ovens cook food much more quickly than normal ovens
 
-• bx-rays areused to check forbroken bones
+• b x-rays are used to check for broken bones
 
-• cit isimportantnot todamage the ozone layer around theEarth
+• c it is important not to damage the ozone layer around the Earth
 
-• dfood staysfresherforlongerafterit hasbeen exposed togamma radiation.
+• d food stays fresher for longer after it has been exposed to gamma radiation.
 
 • 3a the following waves:
 
-• ix-rays
+• i x-rays
 
-• ilultraviolet waves.
+• ii ultraviolet waves.
 
-• Selectone of the above waves and then describe one consequence of overexposure.
+• Select one of the above waves and then describe one consequence of overexposure.
 
-• Copy and complete the table below for fourmore differentwave groups within theelectromagnetic spectrum.
+• Copy and complete the table below for four more different wave groups within the electromagnetic spectrum.
 
 ## Unit 3: Waves
 
@@ -3915,34 +3975,38 @@ You can investigate therefractive indexofglassusingaraybox and a rectangular gla
 KEY POINT
 
 Thesymbol 'r'isused forboth the angleofreflectionand the angleof refraction.
-TOTALINTERNALREFLECTION
 
-When aray of light witha smallangle of incidencepasses from glass into air, most ofthelightisrefracted away from thenormalbutifwelookcarefullywe can seethatthereisasmallamount thatisreflectedfromtheboundary.Totalintermal reflection onlyoccurswhenraysof light are travelling towardsa boundarywitha lessoptically dense medium (amedium with a lowerrefractive index).
+#### TOTALINTERNALREFLECTION
+TOTAL INTERNAL REFLECTION
+
+When a ray of light with a small angle of incidence passes from glass into air, most of the light is refracted away from the normal but if we look carefully we can see that there is a small amount that is reflected from the boundary. Total internal reflection only occurs when rays of light are travelling towards a boundary with a less optically dense medium (a medium with a lower refractive index).
 
 • Figure 12.10 A ray of light travelling from glass to air
 
-But as the angle of incidence in the glass increases,the angle of refraction also increasesuntil it reaches a special angle called the critical angle(c).The angle ofrefraction nowis90°.
+But as the angle of incidence in the glass increases, the angle of refraction also increases until it reaches a special angle called the critical angle (c). The angle of refraction now is 90°.
 
-The critical angle is the smallestpossible angleofincidence atwhich lightrays are totally internally reflected.
+The critical angle is the smallest possible angle of incidence at which light rays are totally internally reflected.
 
-• Figure 12.11a Ray of light strikes glass/air boundary at the criticalangle
+• Figure 12.11a Ray of light strikes glass/air boundary at the critical angle
 
-• Figure 12.11b When /is greater than c total internal reflection occurs.
+• Figure 12.11b When i is greater than c total internal reflection occurs.
 
-When/is greater than the critical angle,all the light isreflected at the boundary.Nolight isrefracted.Thelightis totally internallyreflected.
+When i is greater than the critical angle, all the light is reflected at the boundary. No light is refracted. The light is totally internally reflected.
 
-Rayboxlamps get hot enough tobum skin and charpaper.Glass blocks and prisms should be handled carefully andnotknocked together-theycan splinterorshatter.
-PRACTICAL:INVESTIGATETOTALINTERNALREFLECTION
+Raybox lamps get hot enough to burn skin and char paper. Glass blocks and prisms should be handled carefully and not knocked together - they can splinter or shatter.
 
-You can investigate total intermalreflection in the laboratoryusing a semicircularglassblockandaraybox.As shown inFigure 12.12a,a rayof light isdirectedat the centreof the straight sideof theblock through the curved side.(We do thisbecause the incident raywill then alwayshit the edge of the glass blockat90°,so there arenorefraction effects to take intoaccount asthelightgoesinto theblock.)
+#### PRACTICAL:INVESTIGATETOTALINTERNALREFLECTION
+PRACTICAL: INVESTIGATE TOTAL INTERNAL REFLECTION
 
-strikes the flat edge of the glassblock,we can discover the smallest angle atwhichmostof thelight isrefracted along theedge of the glass block（see Figure 12.12b).This angle is the critical angle.
+You can investigate total internal reflection in the laboratory using a semicircular glass block and a ray box. As shown in Figure 12.12a, a ray of light is directed at the centre of the straight side of the block through the curved side. (We do this because the incident ray will always hit the edge of the glass block at 90°, so there are no refraction effects to take into account as the light goes into the block.)
 
-• Figure 12.12a A semi-circular glassblock used to demonstrate total intermal reflection b Light striking the edge of the glass block at the critical angle
+strikes the flat edge of the glass block, we can discover the smallest angle at which most of the light is refracted along the edge of the glass block (see Figure 12.12b). This angle is the critical angle.
 
-Forlightpassing from glass to air,the critical angle is typically 42and the critical anglefor lightpassing from water toairis49°.
+• Figure 12.12a A semi-circular glass block used to demonstrate total internal reflection b Light striking the edge of the glass block at the critical angle
 
-The critical angle for aparticularmediumisrelated toitsrefractiveindexby this equation:
+For light passing from glass to air, the critical angle is typically 42° and the critical angle for light passing from water to air is 49°.
+
+The critical angle for a particular medium is related to its refractive index by this equation:
 EXAMPLE2
 
 The refractive index for a type of glass is 1.45.Calculate the critical angle.
@@ -3955,49 +4019,55 @@ PRACTICAL:INVESTIGATETOTALINTERNALREFLECTIONINPRISMS
 Ifyou shine aray of light into a prism asshown inFigure 12.13itwill strike the far surface at an angle of45°. The critical anglefor glass is about 42°sotheraywillbe totallyintemally reflected.You will see therefore that theray will bereflected through an angle of 90°.
 
 Ifyou shinearayinto theprism as shown inFigure 12.14theraywill be reflected through an angleof180° thatis,it willgo backin the direction from which it came.
-USING TOTALINTERNALREFLECTION
 
-The imagesproduced byprismsare oftenbrighterandclearer than those producedbymirrors.Aperiscope thatusesprisms toreflect the light iscalled aprismaticperiscope.Lightpasses through the surface AB of the firstprism at 90°and so does not change direction (it is undeviated).lt then strikes the surface ACof the prism atan angle of 45°.The criticalangle forglass is42 sotherayis totallyintermallyreflected and istumed through90°.Whenit leaves the firstprism thelight travels toa second prism.Thesecondprism is positioned so that the rayis again totallyinternallyreflected.The ray emerges parallel to thedirection inwhichitwasoriginally travelling.
+#### USING TOTALINTERNALREFLECTION
+USING TOTAL INTERNAL REFLECTION
+
+The images produced by prisms are often brighter and clearer than those produced by mirrors. A periscope that uses prisms to reflect the light is called a prismatic periscope. Light passes through the surface AB of the first prism at 90° and so does not change direction (it is undeviated). It then strikes the surface AC of the prism at an angle of 45°. The critical angle for glass is 42° so the ray is totally internally reflected and turned through 90°. When it leaves the first prism the light travels to a second prism. The second prism is positioned so that the ray is again totally internally reflected. The ray emerges parallel to the direction in which it was originally travelling.
 
 Figure 12.15 Total internal reflection in a prismatic periscope
 
-BICYCLEANDCARREFLECTORS
+BICYCLE AND CAR REFLECTORS
 
-• Figure 12.17 Reflectors like these can save lves.
-OPTICALFIBRES
+• Figure 12.17 Reflectors like these can save lives.
+
+#### OPTICALFIBRES
+OPTICAL FIBRES
 
 • Figure 12.16 Prisms can also be used as reflectors.
 
-Lightentering theprism inFigure 12.16is totally internallyreflected twice.lt emergesfrom theprism travellingbackinthedirectionfromwhichitoriginally came.This arrangementisused inbicycle or carreflectors.
+Light entering the prism in Figure 12.16 is totally internally reflected twice. It emerges from the prism travelling back in the direction from which it originally came. This arrangement is used in bicycle or car reflectors.
 
-• AFigure 12.18 Total internal reflection inside binoculars
+• A Figure 12.18 Total internal reflection inside binoculars
 
-Figure 12.19Prismatic binoculars
+Figure 12.19 Prismatic binoculars
 
-Binocularsalsomake use of total intemalreflectionwithinprisms.
+Binoculars also make use of total internal reflection within prisms.
 
-Eachside of apair ofbinocularscontainstwoprismsto totallyinternallyreflect the incoming light.Without theprisms,binocularswould have tobevery long toobtain largemagnifications andwould looklike apairof telescopes.
+Each side of a pair of binoculars contains two prisms to totally internally reflect the incoming light. Without the prisms, binoculars would have to be very long to obtain large magnifications and would look like a pair of telescopes.
 
-One of themost important applications fortotal internalreflection is the optical fibre.Thisisa very thinpieceof fibre composed of two different types of glass.The centre ismade ofa glass that has a high refractive index surroundedby a different type ofglass thathasa lowerrefractiveindex.
+One of the most important applications for total internal reflection is the optical fibre. This is a very thin piece of fibre composed of two different types of glass. The centre is made of a glass that has a high refractive index surrounded by a different type of glass that has a lower refractive index.
 
-Figure 12.20 In an optical fibre,light undergoes total intermal reflection.
+Figure 12.20 In an optical fibre, light undergoes total internal reflection.
 
-• Flgure 12.21 0ptical fibres
-OPTICALFIBRESIN TELECOMMUNICATIONS
+• Figure 12.21 Optical fibres
 
-As the fibres arevery narrow,light entering theinner core always strikes the No light escapes across this boundary.The fibre therefore acts as a'light pipe providingapath that the lightfollowsevenwhen the fibre is curved.
+#### OPTICALFIBRESIN TELECOMMUNICATIONS
+OPTICAL FIBRES IN TELECOMMUNICATIONS
 
-Large numbers of thesefibres fixed together form a bundle.Bundles can carry sufficient light forimagesofobjects tobe seen through them.lf the fibres are
+As the fibres are very narrow, light entering the inner core always strikes the No light escapes across this boundary. The fibre therefore acts as a 'light pipe providing a path that the light follows even when the fibre is curved.
 
-Figure12.22showsoptical fibresinan endoscope.The endoscopeisusedby doctorsto see the insidethebody-forexample,toexamine the inside of the stomach.Endoscopescan alsobe used by engineers to seehard-to-reach parts of machinery.
+Large numbers of these fibres fixed together form a bundle. Bundles can carry sufficient light for images of objects to be seen through them. If the fibres are
 
-Light travelsdown onebundleof fibres and shineson the object tobeviewed. Light reflected by the object travelsup a second bundle of fibres.An image of theobjectiscreated by the eyepiece.
+Figure 12.22 shows optical fibres in an endoscope. The endoscope is used by doctors to see the inside the body - for example, to examine the inside of the stomach. Endoscopes can also be used by engineers to see hard-to-reach parts of machinery.
 
-Byusing optical fibres tosee what they are doing,doctors can carry out operations through small holesmadein thebody,rather than through large cuts.Thisis called 'keyhole surgery.This is less stressful for patients and usually leadstoamorerapidrecovery.
+Light travels down one bundle of fibres and shines on the object to be viewed. Light reflected by the object travels up a second bundle of fibres. An image of the object is created by the eyepiece.
+
+By using optical fibres to see what they are doing, doctors can carry out operations through small holes made in the body, rather than through large cuts. This is called 'keyhole surgery'. This is less stressful for patients and usually leads to a more rapid recovery.
 
 Figure 12.22 Optical fibres are used in endoscopes to see inside the body.
 
-Modem telecommunications systemsuse optical fibresrather than copper wires to transmit messages asless energy islost.Electrical signalsfroma telephone are converted intolight energyproduced by tinylasers,which send pulses（small amounts)of light into the ends ofoptical fibres.Alight-sensitive detector at the otherend changes thepulsesbackinto electrical signals, which then flow into a telephone receiver(earpiece).
+Modern telecommunications systems use optical fibres rather than copper wires to transmit messages as less energy is lost. Electrical signals from a telephone are converted into light energy produced by tiny lasers, which send pulses (small amounts) of light into the ends of optical fibres. A light-sensitive detector at the other end changes the pulses back into electrical signals, which then flow into a telephone receiver (earpiece).
 
 #### OPTICALFIBRESIN TELECOMMUNICATIONS
 | CHAPTER QUESTIONS                      | Morequestions onrefraction can be foundat the end of Unit 3onpage 130. |
@@ -4093,7 +4163,7 @@ Thespeedof sound inairisapproximately340 m/s,although thisvalue does vary alittl
 • Figure 13.4Sound wavesare reflected in
 EXAMPLE1
 
-shehearsanechoofherclap.It takes11.7sforher tohear20echoes. Calculate thespeedofsound.
+she hears an echo of her clap. It takes 11.7s for her to hear 20 echoes. Calculate the speed of sound.
 
 S
 
@@ -4152,18 +4222,20 @@ Small objects,such as the strings of the violin in Figure 13.7,vibrate quickly a
 Larger objects,such as the strings of the cello,vibratemore slowly and producewaveswitha lower frequency.Thesesoundshave alowerpitch.
 
 The frequencyofa source is thenumberof completevibrationsit makes each second.We measure frequency in hertz(Hz).If a source hasa frequency of 50Hzthismeans thatitvibrates50 timeseachsecond and thereforeproduces 50waveseachsecond.
-PRACTICAL:INVESTIGATETHEFREQUENCYOFASOUND WAVEUSINGANOSCILLOSCOPE
 
-Although we cannot see an actual sound wave,we can see an image or representation ofitbyconnectingamicrophone toapieceofapparatus calledanoscilloscope.When the sound wave froma source suchas a tuning fork orvibrating string enters the microphone,the oscilloscope 'draws'the longitudinal soundwave asa transversewavewhichallowsus tosee featuressuchas the wave's amplitude and frequency moreeasily.
+#### PRACTICAL:INVESTIGATETHEFREQUENCYOFASOUND WAVEUSINGANOSCILLOSCOPE
+PRACTICAL: INVESTIGATE THE FREQUENCY OF A SOUND WAVE USING AN OSCILLOSCOPE
 
-Figure 13.8 An oscilloscope image ofa sound wave
+Although we cannot see an actual sound wave, we can see an image or representation of it by connecting a microphone to a piece of apparatus called an oscilloscope. When the sound wave from a source such as a tuning fork or vibrating string enters the microphone, the oscilloscope 'draws' the longitudinal sound wave as a transverse wave which allows us to see features such as the wave's amplitude and frequency more easily.
 
-• Figure 13.10The equation triangle forspeed, frequency and wavelength.
+Figure 13.8 An oscilloscope image of a sound wave
+
+• Figure 13.10 The equation triangle for speed, frequency and wavelength.
 EXAMPLE3
 
-Calculate thewavelengthofasoundwave that isproducedbyasource vibrating with a frequencyof85Hz.The speedofsound in airis340m/s.
+Calculate the wavelength of a sound wave that is produced by a source vibrating with a frequency of 85 Hz. The speed of sound in air is 340 m/s.
 
-Thewavelength is4m.
+The wavelength is 4 m.
 AUDIBLERANGE
 
 The averageperson can onlyhearsounds thathave a frequencyhigher than 20 Hzbut lower than20 000 Hz.This spread of frequenciesis called the audiblerange orhearingrange.The size of the audiblerange varies slightly fromperson toperson andusuallybecomesnarrower aswegetolder.You producesoundsatdifferent frequencies.
@@ -4173,15 +4245,15 @@ The averageperson can onlyhearsounds thathave a frequencyhigher than 20 Hzbut lo
 From the trace drawnon the screen we canmeasure the time forone completevibration or one complete wave.This iscalled the timeperiod of the wave (7).We can then find the frequency of the sound ()using the equation:
 EXAMPLE2
 
-Thepictureofa soundwaveseen on an oscilloscope hasa timeperiod of 0.0o5s.What isthe frequencyofthewave?
+The picture of a sound wave seen on an oscilloscope has a time period of 0.005s. What is the frequency of the wave?
 
-The relationshipbetween the frequency (f),wavelength(2) and speed ofa wave (v)isdescribedbythe equation:
+The relationship between the frequency (f), wavelength (λ) and speed of a wave (v) is described by the equation:
 
-speed,v（m/s)=frequency.f(Hz)xwavelength,A(m)
+speed, v (m/s) = frequency, f (Hz) × wavelength, λ (m)
 
-V=fxA
+V = f × λ
 
-• Figure 13.12 lfyou hit a drum hard,you geta louder sound than if you beat it gently.
+• Figure 13.12 If you hit a drum hard, you get a louder sound than if you beat it gently.
 EXTENSION WORK
 
 Youwill notbe tested on ultrasounds and infrasoundsbut it is interesting toknow what theyare.
@@ -4198,43 +4270,45 @@ large amplitude smallamplitude loud sound quiet sound
 Figure 13.13Loud sounds and quiet sounds on an oscilloscope
 
 Figure 13.14 A scientist measuring the sound level as a car passes him
-LOOKINGAHEAD-SOUNDWAVESIN DIFFERENTMATERIALS
 
-Soundwavescan travel through:
+#### LOOKINGAHEAD-SOUNDWAVESIN DIFFERENTMATERIALS
+LOOKING AHEAD - SOUND WAVES IN DIFFERENT MATERIALS
 
-• solids-this iswhyyou can hearsomeone talking in the next room, evenwhen thedoorisclosed
+Sound waves can travel through:
 
-• liquids-thisiswhywhalescancommunicatewith eachotherwhen they are under water
+• solids - this is why you can hear someone talking in the next room, even when the door is closed
 
-• gases-the sound waveswe create when we speak travel through gases (in the air). 6000
+• liquids - this is why whales can communicate with each other when they are under water
 
-Sound waves cannot travel throughavacuumbecause there arenoparticles to carry thevibrations.
+• gases - the sound waves we create when we speak travel through gases (in the air). 6000
+
+Sound waves cannot travel through a vacuum because there are no particles to carry the vibrations.
 
 • Figure 13.15 Graph of speeds of sounds (in m/s) for different materials
 
-More questions on sound and vibrations can be found at the end of Unit 3on page 130.
+More questions on sound and vibrations can be found at the end of Unit 3 on page 130.
 
-• 1aName a musical instrument that isused toproducehigh-pitched notes.
+• 1a Name a musical instrument that is used to produce high-pitched notes.
 
-• Explainwhy the musical instrumentyou have named inparta produces high-pitched notes.
+• Explain why the musical instrument you have named in part a produces high-pitched notes.
 
-• Explainhowyouwouldproduce loudsounds from thismusical instrument.
+• Explain how you would produce loud sounds from this musical instrument.
 
-• Draw the traceyoumight expect tosee on an oscilloscope when this instrument isproducing aloud,high-pitched note.
+• Draw the trace you might expect to see on an oscilloscope when this instrument is producing a loud, high-pitched note.
 
 • What is an echo?
 
-• Explainhowechoes areused by ships tofind the depthof theocean beneath them.
+• Explain how echoes are used by ships to find the depth of the ocean beneath them.
 
-• A shiphears the echo froma sound wave4safterithasbeenemitted. If the speedofsound inwateris1500m/s,calculate the depth of the waterbeneath the ship.
+• A ship hears the echo from a sound wave 4s after it has been emitted. If the speed of sound in water is 1500m/s, calculate the depth of the water beneath the ship.
 
-• 3aWhatis meant bythephrasea person's audiblerange is20Hzto20000Hz?
+• 3a What is meant by the phrase a person's audible range is 20Hz to 20000Hz?
 
-• Explain why thevibrating stringsofaviolinproduce sounds with a higher frequency than thoseproduced by the stringsofa cello.
+• Explain why the vibrating strings of a violin produce sounds with a higher frequency than those produced by the strings of a cello.
 
-• Calculate the wavelength ofsoundwaveswhose frequency is68000 Hz. Assume that thewaves are travelling through airataspeed of340m/s.
+• Calculate the wavelength of sound waves whose frequency is 68000 Hz. Assume that the waves are travelling through air at a speed of 340m/s.
 
-• aAn oscilloscope shows a wave whichhasa time period of 0.01s. Whatis the frequencyof thiswave?
+• a An oscilloscope shows a wave which has a time period of 0.01s. What is the frequency of this wave?
 
 #### LOOKINGAHEAD-SOUNDWAVESIN DIFFERENTMATERIALS
 • bIf the speed of this wave is340m/s,calculate its wavelength.
@@ -4253,7 +4327,7 @@ SKILLS
 
 INTERPRETATION
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
 SKILLS
 
@@ -4265,102 +4339,104 @@ ANALYSIS
 
 (Total for Question 1=3marks)
 
-• Thediagrambelow shows the cross-section of a water wave.
+• The diagram below shows the cross-section of a water wave.
 
 3
 
-• aCopy this diagram andmarkonit:
+• a Copy this diagram and mark on it:
 
-• ithewavelengthof thewave()
-
-(1)
-
-• ii the amplitude of the wave(A).
+• i the wavelength of the wave (λ)
 
 (1)
 
-• b1Awaterwave travelling at20m/shasawavelengthof2.5m.Calculate the frequency of the wave.
-
-• iliCalculate the timeperiod of the abovewave.
-
-(e)
+• ii the amplitude of the wave (A).
 
 (1)
 
-(TotalforQuestion2=6marks)
+• b A water wave travelling at 20 m/s has a wavelength of 2.5 m. Calculate the frequency of the wave.
 
-The diagrambelowshowsaray of light travelling down anoptical fibre.
+• ii Calculate the time period of the above wave.
+
+(c)
+
+(1)
+
+(Total for Question 2=6marks)
+
+The diagram below shows a ray of light travelling down an optical fibre.
 
 CRITICAL THINKING
 
-• aWhich of thefollowingdoesnot move asa transversewave?
+• a Which of the following does not move as a transverse wave?
 
-• Aultraviolet light
+• A ultraviolet light
 
 • B sound wave
 
-• Csurface water wave
+• C surface water wave
 
-• Dmicrowave
+• D microwave
 
 (1)
 
-• bWhich of these effects describes the change in pitch we hear when a fast moving motorbike goes past?
+• b Which of these effects describes the change in pitch we hear when a fast moving motorbike goes past?
 
-• A total intermalreflection
+• A total internal reflection
 
-• Brefraction
+• B refraction
 
-• Creflection
+• C reflection
 
-• DDoppler
+• D Doppler
 
-• Which of the following doesnotmakeuse of total internalreflection?
+• Which of the following does not make use of total internal reflection?
 
 • A oscilloscope
 
-• Bendoscope
+• B endoscope
 
-• Cprismaticperiscope
+• C prismatic periscope
 
-• Doptical fibres
+• D optical fibres
 
 SKILLS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 EXECUTIVE
 
 FUNCTION
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-• aWhat isA?
-
-(1)
-
-• bWhatis B?
+• a What is A?
 
 (1)
 
-• cWhyislightreflected from theboundary between A and B?
+• b What is B?
+
+(1)
+
+• c Why is light reflected from the boundary between A and B?
 
 (2)
 
-• dDescribe one medical use for optical fibres.
+• d Describe one medical use for optical fibres.
 
 (1)
-(Total forQuestion3=5marks)
 
-• aiExplain the differencebetweenalongitudinalwave and a transverse wave.
+#### (Total forQuestion3=5marks)
+(Total for Question 3 = 5 marks)
 
-• iliGive one exampleofeach typeofwave.
+• a i Explain the difference between a longitudinal wave and a transverse wave.
+
+• i i Give one example of each type of wave.
 
 (1)
 
 (2)
 
-Agirl stands500m from a tall building and bangstwopiecesofwood together. At thesame momenther friend starts a stopwatch.The sound waves created by the twopiecesof wood hit thebuilding and arereflected.When the two girls hear the echo they stop the stopwatch and note the time.Thegirlsrepeat the experiment four more times.Theresults are shown in the tablebelow.
+A girl stands 500 m from a tall building and bangs two pieces of wood together. At the same moment her friend starts a stopwatch. The sound waves created by the two pieces of wood hit the building and are reflected. When the two girls hear the echo they stop the stopwatch and note the time. The girls repeat the experiment four more times. The results are shown in the table below.
 
 #### (Total forQuestion3=5marks)
 | Experiment   |   Time (seconds) |
@@ -4372,21 +4448,21 @@ Agirl stands500m from a tall building and bangstwopiecesofwood together. At thes
 | 5            |             2.95 |
 
 #### (Total forQuestion3=5marks)
-• bWhydid the girlsrepeat the experiment five times?
+• b Why did the girls repeat the experiment five times?
 
-• cCalculate the speed of sound using the results.
+• c Calculate the speed of sound using the results.
 
 EXECUTIVE
 
 FUNCTION
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 4
 
 5
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
 6
 
@@ -4394,47 +4470,51 @@ PROBLEMSOLVING
 
 (6)
 
-• Oneof thegirls thought that their answermight be affected bywind. Was she correct?Explainyour answer.
+• One of the girls thought that their answer might be affected by wind. Was she correct? Explain your answer.
 
 (2)
-(Total forQuestion 4=12marks)
 
-The electromagnetic spectrum contains thefollowinggroupsofwaves:infrared, ultraviolet,x-rays,radio waves,microwaves,visible spectrum and gamma rays
+#### (Total forQuestion 4=12marks)
+(Total for Question 4 = 12 marks)
 
-• aPut thesegroups ofwavesin the order they appearin the electromagnetic spectrum startingwith the group thathas thelongest wavelength. (2)
+The electromagnetic spectrum contains the following groups of waves: infrared, ultraviolet, x-rays, radio waves, microwaves, visible spectrum and gamma rays
 
-• bWrite down fourproperties that allof thesewaveshave in common.
+• a Put these groups of waves in the order they appear in the electromagnetic spectrum starting with the group that has the longest wavelength. (2)
+
+• b Write down four properties that all of these waves have in common.
 
 (4)
 
-• cWritedown one use foreach groupofwaves.
+• c Write down one use for each group of waves.
 
 (7)
 
-• dWhich three groups of waves could cause cancer?
+• d Which three groups of waves could cause cancer?
 
 (3)
 
-• eWhich threegroups ofwavescan be used to communicate
+• e Which three groups of waves can be used to communicate
 
 (E)
-(TotalforQuestion 5=19marks)
 
-• aAray of light hits the outside surface ofaglassblockwith an angleof incidence of38°.Itsangleof refraction inside the blockis24°.
+#### (TotalforQuestion 5=19marks)
+(Total for Question 5=19marks)
 
-• iCalculate therefractive indexof the glass.
+• A ray of light hits the outside surface of a glass block with an angle of incidence of 38°. Its angle of refraction inside the block is 24°.
+
+• i Calculate the refractive index of the glass.
 
 (4)
 
-• IliCalculate the critical anglefor thisglass.
+• ii Calculate the critical angle for this glass.
 
 (2)
 
-• bCalculate therefractive indexfor apiece ofglasswhose critical angle is42°.
+• b Calculate the refractive index for a piece of glass whose critical angle is 42°.
 
 (3)
 
-(Total for Question6=9marks)
+(Total for Question 6=9marks)
 
 ## Unit 4: Energy Resources and Energy Transfer
 
@@ -4447,13 +4527,15 @@ THERMALENERGY139
 WORKANDPOWER150
 
 ENERGYRESOURCESANDELECTRICITYGENERATION158
-UNIT4 ENERGYRESOURCES ANDENERGYTRANSFER
 
-Energy,energyresourcesand the transferof energy!Theseare allvital tomodernlife.
+#### UNIT4 ENERGYRESOURCES ANDENERGYTRANSFER
+UNIT 4 ENERGY RESOURCES AND ENERGY TRANSFER
 
-Thephoto shows energyproducedfromawind farm.Wealsoobtainenergybyburning fossil fuels likecoalandoil,directlyfromtheSuninthe formofheat,fromhydroelectricpowerandnuclear
+Energy, energy resources and the transfer of energy! These are all vital to modern life.
 
-We need to understand how to transferenergy from onestore to another,touseitefficientlyand to conserveresourcesthatcannotbereplaced.Wealso needtobeawareof the advantagesand disadvantagesofdifferentenergyresources.
+The photo shows energy produced from a wind farm. We also obtain energy by burning fossil fuels like coal and oil, directly from the Sun in the form of heat, from hydroelectric power and nuclear
+
+We need to understand how to transfer energy from one store to another, to use it efficiently and to conserve resources that cannot be replaced. We also need to be aware of the advantages and disadvantages of different energy resources.
 
 Physics is about energy!
 
@@ -4510,15 +4592,17 @@ Sound energy can be used tobreak upsmallstonesthatcan form insidea person's body
 • Energy can alsobe stored in springs aselasticpotential energy.This type of stored energy isused in things like clocks and toys.
 
 Themainresource ofenergy forthe Earth is our Sun.Thisprovides uswith heat,light and other stores of energy.
-ENERGYTRANSFERS
 
-Forenergy tobeuseful,weneed tobeable to transferit from one store into whichever storewerequire.Unfortunately,when we try to do this there is unwanted storesas'wasted'energybecause it isnotbeingused fora useful purpose.
+#### ENERGYTRANSFERS
+ENERGY TRANSFERS
+
+For energy to be useful, we need to be able to transfer it from one store into whichever store we require. Unfortunately, when we try to do this there is unwanted stores as 'wasted' energy because it is not being used for a useful purpose.
 
 Here are some examples of wasted energy:
 
-• Anelectric heater may be used to heat waterin a house.The hotwater will maybewell insulated,some energy will be transferred from thewater and somewill be used to heatup thecopper that the tankismade from.Both toheatiswastedbecauseitisnotdoingwhatwewantit todo-it isnot making thewaterhot.
+• A electric heater may be used to heat water in a house. The hot water will maybe well insulated, some energy will be transferred from the water and some will be used to heat up the copper that the tank is made from. Both heat is wasted because it is not doing what we want it to do - it is not making the water hot.
 
-• When we fill a carwithpetrol,the main purpose is to transfer the chemical energy stored in thefuel to movement energy,with a small amount doing other thingslikeproviding electrical energyfor the lightsorradio.But the processof transferring the energy isnotperfectlyefficient,asnot allof the energyisused to dowhatwe want.(A formal definition ofefficiencyisgiven onpage 137.)Aconsiderable amount of the energy supplied by thefuel is transferred toheat,most ofwhich istransferred to the surroundings.Some of the energy is transferred to sound,which can beunpleasant forpeople bothinside and outside the car.A lotofenergy is transferred toovercome thevariousfriction forces thatoppose movement ofpartswithin the car and the car'smovement along the road.Friction causesenergy transfers to
+• When we fill a car with petrol, the main purpose is to transfer the chemical energy stored in the fuel to movement energy, with a small amount doing other things like providing electrical energy for the lights or radio. But the process of transferring the energy is not perfectly efficient, as not all of the energy is used to do what we want. (A formal definition of efficiency is given on page 137.) A considerable amount of the energy supplied by the fuel is transferred to heat, most of which is transferred to the surroundings. Some of the energy is transferred to sound, which can be unpleasant for people both inside and outside the car. A lot of energy is transferred to overcome the various friction forces that oppose movement of parts within the car and the car's movement along the road. Friction causes energy transfers to
 
 #### ENERGYTRANSFERS
 Unwanted energy transfersreduce efficiency.Thisproblem is the same whether thesystemisa smallone,like a car,ora large system,like the nationwide electricity generation and distributionindustry.Weneed tobe aware ofwhere our energy is transferring toifwe are to findwaysofusing it well.
@@ -4533,17 +4617,19 @@ InFigure 14.2,stored chemicalenergyin the foodisneeded tohelpour bodiesmake a ra
 The dynamo orgeneratorfitted to thebicycle'swheel transferssome of the movement energy of thewheel to electrical energy.Thelamp then transfers the electrical energy to light and heat.As the electronsflow in the dynamo-lamp circuit,heat will be produced in the conducting wires too.
 
 Examples of other energy transfers are given in the questions at the end of the chapter.
-CONSERVATIONOFENERGY
 
-Theprinciple of conservationof energy isavery importantrule.lt states that:
+#### CONSERVATIONOFENERGY
+CONSERVATION OF ENERGY
 
-Energyisnotcreated ordestroyed in anyprocess.
+The principle of conservation of energy is a very important rule. It states that:
 
-• (lt isjust transferred fromone store to another.)
+Energy is not created or destroyed in any process.
 
-We often hearabout the energycrisis:asourdemand formore energy increasesourreservesofenergyin the formof fuels likeoilandgas are rapidlybeing used up.The principle of conservation of energy makesit seem asif there isnoreal problem-thatenergy can neverrun out.Weneed to understand what theprinciplereallymeans.
+• (It is just transferred from one store to another.)
 
-Physicists believe that the amount ofenergy in the Universe is constantenergycanbe transferredfromonestore toanotherbut there isnever any more orany lessofit.Thismeanswe cannot use energy up.However,if we considerour little piece of theUniverse,the problem becomesmore obvious. As we make energy do useful things-for example,move a car-some of it will be transferred to heat.Some of thisheat energywill beradiated away from the Earth and transferred (not destroyed or used up) into space.Thismeans the
+We often hear about the energy crisis: as our demand for more energy increases our reserves of energy in the form of fuels like oil and gas are rapidly being used up. The principle of conservation of energy makes it seem as if there isn't a real problem - that energy can never run out. We need to understand what the principle really means.
+
+Physicists believe that the amount of energy in the Universe is constant energy can be transferred from one store to another but there is never any more or any less of it. This means we cannot use energy up. However, if we consider our little piece of the Universe, the problem becomes more obvious. As we make energy do useful things - for example, move a car - some of it will be transferred to heat. Some of this heat energy will be radiated away from the Earth and transferred (not destroyed or used up) into space. This means the
 EXTENSION WORK
 
 Even though the amount ofenergy in the Universe is constant,it is becomingmore spread out and so less available foruse.Some scientists think that all the energy in the Universe willeventuallybe transferred toheat and that everywherein the Universe willendup at thesamevery low temperature.Thispossibleend of the worldis sometimesreferred to by the dramaticname of heat death'If the Universe does end up this way,it is not expected todo soforsome timeyet, so carry on working for those exams!
@@ -4683,18 +4769,20 @@ Ifyouhave evercookedkebabsona barbecuewithmetal skewers,asshown inFigure 15.2,yo
 The metal rods will quicklyget hot enoughtobum the skin andwill remain hot long after the heat isremoved.
 EXTENSION WORK
 
-'Free electrons'are electrons that are notconnectedwithanyparticularatom in the structure ofasubstance.Metals usuallyhave huge numbersof free electrons perunit volume.Copper,for example,has about 102free electrons in each cubicmetre.Asthesefree electrons cary electric charge as well as energy.it isno coincidence that good thermal conductorsare usually good conductors of electricity too.
+'Free electrons' are electrons that are not connected with any particular atom in the structure of a substance. Metals usually have huge numbers of free electrons per unit volume. Copper, for example, has about 102 free electrons in each cubic metre. As these free electrons carry electric charge as well as energy, it is no coincidence that good thermal conductors are usually good conductors of electricity too.
 
-conductors.lfyouuseskewerswithwoodenhandlesyou canhold the wooden endsmuchmore comfortablybecause wood doesnot conduct thermal energy very well.Wood isan example of agood thermal insulator.
+Conductors. If you use skewers with wooden handles you can hold the wooden ends much more comfortably because wood does not conduct thermal energy very well. Wood is an example of a good thermal insulator.
 
-Theprocessofenergytransferbyconductionisexplained in terms of the behaviour of the tinyparticlesthat makeup all matter.Inahotpart of a substance,like the part of the skewer over thehot charcoal,theseparticles havemorekineticenergy.The more energeticparticlestransfersome of their energy toparticlesnear to them.These therefore gain energy and thenpass the substance.Thisprocess takesplace in all materials.
+The process of energy transfer by conduction is explained in terms of the behaviour of the tiny particles that make up all matter. In a hot part of a substance, like the part of the skewer over the hot charcoal, these particles have more kinetic energy. The more energetic particles transfer some of their energy to particles near to them. These therefore gain energy and then pass the substance. This process takes place in all materials.
 
-In metals,theprocess takesplace much morerapidly,becausemetalshave freeelectronsthat can move easilythrough the structureof themetal,making the transferofenergyhappen faster.
-PRACTICAL:INVESTIGATEHOWWELLDIFFERENTMETALS CONDUCTHEAT
+In metals, the process takes place much more rapidly, because metals have free electrons that can move easily through the structure of the metal, making the transfer of energy happen faster.
 
-• Figure15.3Experiment to show thermal conduction in different metals
+#### PRACTICAL:INVESTIGATEHOWWELLDIFFERENTMETALS CONDUCTHEAT
+PRACTICAL: INVESTIGATE HOW WELL DIFFERENT METALS CONDUCT HEAT
 
-Figure 15.3demonstrateshowheatistransferredalong themetalrodsfrom theheated ends towards the coolerendsawayfrom theheatsource.As theheatpassesalong therodsthepetroleumjellyholding thedrawingpins inplacemeltsand they dropoff insequence.Thisexperiment alsoshows thatcopperconductsheatbetter thansteelbecause thedrawingpins attached to thecopperrod dropoffsooner thanthoseattached to thesteel rod.Therodsshould bethe same diameterand the drawing pinsplaced at thesame distancesfrom the heat source forthis tobe a fairtest.
+• Figure 15.3 Experiment to show thermal conduction in different metals
+
+Figure 15.3 demonstrates how heat is transferred along the metal rods from the heated ends towards the cooler ends away from the heat source. As the heat passes along the rods the petroleum jelly holding the drawing pins in place melts and they drop off in sequence. This experiment also shows that copper conducts heat better than steel because the drawing pins attached to the copper rod drop off sooner than those attached to the steel rod. The rods should be the same diameter and the drawing pins placed at the same distances from the heat source for this to be a fair test.
 CONVECTION
 
 Convection is the transfer of heat through fluids(liquids and gases)by the upward movement ofwarmer,less denseregions of fluid.
@@ -4716,15 +4804,15 @@ Figure 15.6 A convector heater relies on the effects of convection.
 • Figure 15.7 A diver wearing a wetsuit to keep warm in cold water
 REMINDER
 
-Remember that we are talking about heat transfer-this is thermal radiation not nuclearradiation!
+Remember that we are talking about heat transfer - this is thermal radiation not nuclear radiation!
 
-Convection occurs in any fluid substance-thatis,in things that can flow, such asliquids and gases.Convectorheaters(Figure 15.6)heat air,which then floatsoutof the topof theheater tothe top oftheroom.Cold airis drawn in at the bottom and thisin turn isheated.In thisway.heat energy iseventually transferred toallpartsoftheroom.
+Convection occurs in any fluid substance - that is, in things that can flow, such as liquids and gases. Convector heaters (Figure 15.6) heat air, which then floats out of the top of the heater to the top of the room. Cold air is drawn in at the bottom and this in turn is heated. In this way, heat energy is eventually transferred to all parts of the room.
 
-In manycooking ovens,theheatingelement isplaced at thebottom of the oven.lt heats the air near to it,and this airrises by convection.The top of the ovenisgenerallywarmerthan thebottom,soyou cancookfoods atdifferent temperatures.Howevermany moden ovensare fan ovens,where hot air is blown into the oven andprovides aneven temperature throughout the oven.
+In many cooking ovens, the heating element is placed at the bottom of the oven. It heats the air near to it, and this air rises by convection. The top of the oven is generally warmer than the bottom, so you can cook foods at different temperatures. However many modern ovens are fan ovens, where hot air is blown into the oven and provides an even temperature throughout the oven.
 
-Airandwaterboth allow heat transfer to takeplaceby convection asthey are both fluids,but neither are good thermal conductors(they are insulators).This insulatingpropertyofbothwaterand airisput togood useinsituationswhere theyare not able to circulateeasily.Forexample,woollen clothingkeepsyou warmbecause airgets trapped in thefibres.The trapped airisheatedbyyour body and formsa warm insulating layer that helps tostopyou losingheat.In thesame way,a wetsuit keepsa diverwarmbecausea thin layerof wateris trappednextto thediver'sskin.(Figure 15.7)
+Air and water both allow heat transfer to take place by convection as they are both fluids, but neither are good thermal conductors (they are insulators). This insulating property of both water and air is put to good use in situations where they are not able to circulate easily. For example, woollen clothing keeps you warm because air gets trapped in the fibres. The trapped air is heated by your body and forms a warm insulating layer that helps to stop you losing heat. In the same way, a wetsuit keeps a diver warm because a thin layer of water is trapped next to the diver's skin. (Figure 15.7)
 
-Convection currents are responsible for many everyday events.One example is on-shore and off-shorebreezes,alsoknown assea breezes and land breezes.These are explained inFigure 15.8.
+Convection currents are responsible for many everyday events. One example is on-shore and off-shore breezes, also known as sea breezes and land breezes. These are explained in Figure 15.8.
 
 #### REMINDER
 • Figure 15.8 At night the airover the warmer sea floats up causing cooler air to flow towards sea. During the day the situation is reversed.In Unit 5 you willleam that some things heat up and cool downmore easily than others.
@@ -4759,19 +4847,21 @@ It isimportant thatheat can travel in thisway,without the need formatter, otherw
 IRwavescan alsobereflected and absorbedby different materials,just like visible light.Highlypolished,shiny surfaces aregood reflectors of thermal radiation.White surfaces alsoreflect alot of IR.Matt (not shiny)black and dark surfaces arepoorreflectors or,toput it more positively,are good absorbers of heatradiation.Figure 15.12 shows how this canbe useful in everyday life
 
 Thebulbwillquicklygethot enough to bum skin and ignitepaper.
-PRACTICAL:INVESTIGATEHOWWELLDIFFERENT SURFACESRADIATEHEAT
 
-Thisexperiment shows thatmattblacksurfacesradiateheatbetter than shiny white surfaces.
+#### PRACTICAL:INVESTIGATEHOWWELLDIFFERENT SURFACESRADIATEHEAT
+PRACTICAL: INVESTIGATE HOW WELL DIFFERENT SURFACES RADIATE HEAT
 
-Figure 15.11Demonstrating thalmattblack surfaces radiate heat better than shinywhite surfaces
+This experiment shows that matt black surfaces radiate heat better than shiny white surfaces.
 
-Figure 15.11 shows the experiment.Put twoidentical(same type) thermometers oneithersideofa filamentbulb thathasbeenpainted matt blackon one side and shinywhite on the other.
+Figure 15.11 Demonstrating that matt black surfaces radiate heat better than shiny white surfaces
 
-Whenyou turn on thebulbyouwill notice that the temperaturestartstorise more quickly on the thermometerfacing theblackside than on the other.
+Figure 15.11 shows the experiment. Put two identical (same type) thermometers one either side of a filament bulb that has been painted matt black on one side and shiny white on the other.
 
-It isimportant that the thermometersare fixed at thesameheightand distance from the filamentbulb.
+When you turn on the bulb you will notice that the temperature starts to rise more quickly on the thermometer facing the black side than on the other.
 
-• Figure15.12Shiny and white surfacesreflect thermal radiation,whilematt black surfaces,likein the solar heating panels,absorb it
+It is important that the thermometers are fixed at the same height and distance from the filament bulb.
+
+• Figure 15.12 Shiny and white surfaces reflect thermal radiation, while matt black surfaces, like in the solar heating panels, absorb it
 
 a
 
@@ -4782,11 +4872,11 @@ Figure 15.13 a A shiny kettle stays warmer longer. b The heat sink needs to be m
 Figure 15.14 A tungsten filament bulb
 
 #### PRACTICAL:INVESTIGATEHOWWELLDIFFERENT SURFACESRADIATEHEAT
-Ifasurfaceisagood reflector of IR thenit isapoorradiatorofIR.Thismeans thatahotobjectwitha shinysurfacewill emit lessheatenergyin theform of IRthan anotherobjectat the same temperature with amattblacksurface.The kettleinFigure15.13ahas a shiny surface toreduce therate ofheat loss.Heat sinks areused inelectronic equipment tostoppartsgetting too hot.Aheat sinkisshown inFigure15.13b.The transistorisfixed totheblackmetalheat sinkandheatistransferred from the transistorto theheatsinkby conduction. Themattblacksurfaceradiatesheatwell and the shapeof theheat sinkhelps convection air currents to transferheat awayfrom the heat sink.
+If a surface is a good reflector of IR then it is a poor radiator of IR. This means that a hot object with a shiny surface will emit less heat energy in the form of IR than another object at the same temperature with a matt black surface. The kettle in Figure 15.13a has a shiny surface to reduce the rate of heat loss. Heat sinks are used in electronic equipment to stop parts getting too hot. A heat sink is shown in Figure 15.13b. The transistor is fixed to the black metal heat sink and heat is transferred from the transistor to the heat sink by conduction. The matt black surface radiates heat well and the shape of the heat sink helps convection air currents to transfer heat away from the heat sink.
 
-The amount and type of the energyradiatedbya hotobject doesnot only depend on its surface texture(howit feels to the touch)andcolour-it also dependson howhotit is.Not onlydoes the amountofenergyradiatedper second increasesignificantlywith temperaturebut thenature of theEMwaves also changes.Ata low temperature mostof theradiated energy isin the form of infrared waves(invisible to thehuman eye).As the temperature ofa metal object increasesit starts toradiate in thevisible spectrumaswell.Things that donotburn will start toglowa dull red.As the temperature risesfurther the colourchanges through the visible spectrum,forexample,the tungsten filamentglowswhitehotwhen itreaches-3000°C.
+The amount and type of the energy radiated by a hot object does not only depend on its surface texture (how it feels to the touch) and colour - it also depends on how hot it is. Not only does the amount of energy radiated per second increase significantly with temperature but the nature of the EM waves also changes. At a low temperature most of the radiated energy is in the form of infrared waves (invisible to the human eye). As the temperature of a metal object increases it starts to radiate in the visible spectrum as well. Things that do not burn will start to glow a dull red. As the temperature rises further the colour changes through the visible spectrum, for example, the tungsten filament glows white hot when it reaches -3000°C.
 
-Youwill meet thiseffectagain in Unit 8Astrophysics.
+You will meet this effect again in Unit 8 Astrophysics.
 EXTENSION WORK
 
 In coolerclimatesit ismore appropriate to concentrate on keepingheat in, rather than thinkingabouthow tokeep itout.
@@ -4803,26 +4893,28 @@ Infrared waves from the Sun can pass through ordinary greenhouse glass.The IR wa
 EXTENSION WORK
 
 It isworthremembering that,in some countries,the problem is not keeping warm fans and other cooling devices.An energy-efficient house in a hot climate would stay cool byreducing therate at which heat entered the house.
-HOW HEATISLOST
-
-To insulate a house effectivelywemust lookat all theways in whichheat energy can escape.Conduction is the mainway heatistransferred between the inside ofa building and the outside.Nextweneed to consider the places where conduction occurs:the walls,the windows (and doors)and the roof.
-
-• reduce heat loss by conduction,convection and even radiation.
-
-Heat lossby conduction throughthewalls canbe reduced byusingbuilding materials that are good insulators.However,thematerialsused forbuilding mustalsohave othersuitablepropertieslikestrength,durabilityand availability ata sensible price.Forwalls,bricks are a common building material.
-
-Figure15.15 shows the typical constructionofamodern house in theUKbuilt to follow the current energy efficiencyregulations.
-
-Asyou can see,the wall ismade with layers of different materials.The outer layeris madewith bricks-thesehave quitegood insulating properties,are strong and will survive badweather conditions.Theinnerlayerisbuiltwith thermal brickswithvery good insulationproperties-they are also light, relativelycheapandquick toworkwith.The twolayersofbrickareseparated by an excellent thermal insulator in the form of an air cavity orgap.
 
 #### HOW HEATISLOST
-The walls also stopheatbeing lostby convection.Thecavityor gapbetween the twowallsiswide enoughfor convection currents tocirculate.Thismeans heat iscirculated from the warmersurface ofone wall to thecoldersurface of the other.To stop convection currents,the gap in modern houses is filled with insulatingpanels made ofglassfibre matting.This is a lightweight, poor conductor that trapslots ofair.Thepanels are usually surfaced with thin aluminium foil.Thishighly reflective surfacereflects heat in the form of infraredradiation.
+HOW HEAT IS LOST
+
+To insulate a house effectively we must look at all the ways in which heat energy can escape. Conduction is the main way heat is transferred between the inside of a building and the outside. Next we need to consider the places where conduction occurs: the walls, the windows (and doors) and the roof.
+
+• reduce heat loss by conduction, convection and even radiation.
+
+Heat loss by conduction through the walls can be reduced by using building materials that are good insulators. However, the materials used for building must also have other suitable properties like strength, durability and availability at a sensible price. For walls, bricks are a common building material.
+
+Figure 15.15 shows the typical construction of a modern house in the UK built to follow the current energy efficiency regulations.
+
+As you can see, the wall is made with layers of different materials. The outer layer is made with bricks - these have quite good insulating properties, are strong and will survive bad weather conditions. The inner layer is built with thermal bricks with very good insulation properties - they are also light, relatively cheap and quick to work with. The two layers of brick are separated by an excellent thermal insulator in the form of an air cavity or gap.
+
+#### HOW HEATISLOST
+The walls also stop heat being lost by convection. The cavity or gap between the two walls is wide enough for convection currents to circulate. This means heat is circulated from the warmer surface of one wall to the colder surface of the other. To stop convection currents, the gap in modern houses is filled with insulating panels made of glass fibre matting. This is a lightweight, poor conductor that traps lots of air. The panels are usually surfaced with thin aluminium foil. This highly reflective surface reflects heat in the form of infrared radiation.
 
 Figure 15.16 Double glazing helps to stop heat escaping from the home.
 
-• Figure 15.17Loft insulationmakesabig difference to heat loss through the roof.
+• Figure 15.17 Loft insulation makes a big difference to heat loss through the roof.
 
-Figure 15.16 showsa cross-sectionofatypical double-glazed window,as used in modern houses.Glass isapoorthermal conductorbutisused in thin layers.Toimprove the insulating properties,twolayers ofglass are used to trapa layerof air.The thicknessof thislayerisimportant.if it istoo thin then theinsulation effect isreduced,but if it is toothickthen convection currents willbe able tocirculate and carry heat from thehottersurface tothe colder one.Invery cold countries tripleglazing isused.Modem doubleglazing uses specialglass toincrease the greenhouseeffect(heatradiation from the Sun can get inbut radiation from inside thehouse ismainlyreflectedback again).
+Figure 15.16 shows a cross-section of a typical double-glazed window, as used in modern houses. Glass is a poor thermal conductor but is used in thin layers. To improve the insulating properties, two layers of glass are used to trap a layer of air. The thickness of this layer is important. If it is too thin then the insulation effect is reduced, but if it is too thick then convection currents will be able to circulate and carry heat from the hotter surface to the colder one. In very cold countries triple glazing is used. Modern double glazing uses special glass to increase the greenhouse effect (heat radiation from the Sun can get in but radiation from inside the house is mainly reflected back again).
 
 #### HOW HEATISLOST
 Roof insulation inmodern houses usessimilarpanels to those used in the wall cavities,trapping a thick layer ofair.This takes advantage of the poor conducting property of air,whilst alsopreventing convection currents circulating.Again,reflective foilisused toreduce radiation heat loss.Figure 15.17showshousesbuiltbeforeloft insulationwasa compulsorybuilding regulation.In some,the owners have installed loft insulation-you should be able toidentifywhich!
@@ -4832,39 +4924,41 @@ There are otherthings that can be done toimprove the energy efficiency of houses
 Withyourunderstanding of howheat travelsyou can saveyourfamily money. keepwarm andreduceglobal warming.
 
 • Figure 15.18 a How heat energy can be lost from the home;b Percentage of energy lost in different ways
-INSULATINGPEOPLEANDANIMALS
 
-Earlierin this chapterwe sawa picture ofa firefighterinprotective clothing designed toreduce the amountofheatgetting to theirbodies(Figure 15.12). Sometimeswehavetheoppositeproblemandwant tokeepwarm.The obviousmethodofcutting downheatlossfrom thebodyistowearclothes. Clothesthat trap airaround thebodyprovide insulationbecause trapped air cannot circulate and isaverypoor conductor.Alargeproportion ofbodyheat islostfrom thehead,sohats are the human equivalent of loft insulation.
+#### INSULATINGPEOPLEANDANIMALS
+INSULATING PEOPLE AND ANIMALS
 
-• Figure 15.19 Penguins stand close together forwarmth.
+Earlier in this chapter we saw a picture of a firefighter in protective clothing designed to reduce the amount of heat getting to their bodies (Figure 15.12). Sometimes we have the opposite problem and want to keep warm. The obvious method of cutting down heat loss from the body is to wear clothes. Clothes that trap air around the body provide insulation because trapped air cannot circulate and is a very poor conductor. A large proportion of body heat is lost from the head, so hats are the human equivalent of loft insulation.
+
+• Figure 15.19 Penguins stand close together for warmth.
 CHAPTER QUESTIONS
 
 CREATIVITY,
 
 REASONING
 
-Wind can causerapid heat loss from the body.lt does thisby forced convection-that is,making air circulate close to the body surface.lt may also cause sweat to evaporate from the skin more quickly,causing rapid cooling.(The purpose ofsweatis tohelp thebody tolose heat by evaporation but,ifit happensbecause of strong wind on a cold day,the effect can be life threatening.)These cooling effects of wind contribute to what iscalled the wind-chill factor.Toreduce the wind-chilleffect,apiece of wind-proof outer clothing shouldbeworn.
+Wind can cause rapid heat loss from the body. It does this by forced convection - that is, making air circulate close to the body surface. It may also cause sweat to evaporate from the skin more quickly, causing rapid cooling. (The purpose of sweat is to help the body to lose heat by evaporation but, if it happens because of strong wind on a cold day, the effect can be life threatening.) These cooling effects of wind contribute to what is called the wind-chill factor. To reduce the wind-chill effect, a piece of wind-proof outer clothing should be worn.
 
-When people dolose body heat at toogreat arate theymaybecome hypothermic,which means theirbody temperature starts tofall.lf the heat lossisnot significantlyreduced the conditionispotentially fatal.Whenpeople arerescuedfrommountains suffering from the effectsof cold theyareusually wrapped in thin,highlyreflective blankets.Theinteriorreflective surface reflectsheatbackto theirbodieswhile the outerreflectivesurfaceisapoor radiatorofheat.Marathonrunnersare often covered in theseblanketsat the endoftherace tokeep themwarmwhen theirenergyreservesarelow.
+When people do lose body heat at too great a rate they may become hypothermic, which means their body temperature starts to fall. If the heat loss is not significantly reduced the condition is potentially fatal. When people are rescued from mountains suffering from the effects of cold they are usually wrapped in thin, highly reflective blankets. The interior reflective surface reflects heat back to their bodies while the outer reflective surface is a poor radiator of heat. Marathon runners are often covered in these blankets at the end of the race to keep them warm when their energy reserves are low.
 
-Animalskeepwarm in different ways.Youmayhavenoticed birdsfluffing uptheir feathers on cold daysinwinter.This increases the thicknessof the trapped airlayer around their bodies,soreducing heat loss by conduction. Somebirds,likepenguins,willmove close together for warmth (Figure 15.19). Otheranimalswill curl intosmall balls.This cutsdownheatlossbymaking the surface area oftheirbodiesexposed to thecold assmallaspossible.
+Animals keep warm in different ways. You may have noticed birds fluffing up their feathers on cold days in winter. This increases the thickness of the trapped air layer around their bodies, so reducing heat loss by conduction. Some birds, like penguins, will move close together for warmth (Figure 15.19). Other animals will curl into small balls. This cuts down heat loss by making the surface area of their bodies exposed to the cold as small as possible.
 
 #### CHAPTER QUESTIONS
-More questions on thermal energy can be found at the end of Unit 4 onpage 168.
+More questions on thermal energy can be found at the end of Unit 4 on page 168.
 
-• Explain the following observations,referring to the appropriate process of heat transferin each case.
+• Explain the following observations, referring to the appropriate process of heat transfer in each case.
 
-• aTwo cupsof teaarepoured at the same time.They are left for ten minutes. One of the cupshas ametal teaspoon leftinit.The tea in this cup is cooler than thetea in theother cup at the end of the ten-minuteperiod.
+• a Two cups of tea are poured at the same time. They are left for ten minutes. One of the cups has a metal teaspoon left in it. The tea in this cup is cooler than the tea in the other cup at the end of the ten-minute period.
 
-• bTwo fresh cups of tea arepoured.(The others had gone cold!)A thin plasticlid isplaced on topofone of the cups.The tea in this cupkeeps hotforlonger.
+• b Two fresh cups of tea are poured. (The others had gone cold!) A thin plastic lid is placed on top of one of the cups. The tea in this cup keeps hot for longer.
 
-• 2a Kettles heated on stoves used to be made of copper.Was this a good choice?
+• 2a Kettles heated on stoves used to be made of copper. Was this a good choice?
 
-• Copperkettles were usually kept highly polished (shiny).lf it is not polished,copper tumsmatt and eventuallyblackens asit reactswith oxygen in the air.Apart from making thekettle looknice,whatisagood physicsreason forkeeping a copperkettle polished?
+• Copper kettles were usually kept highly polished (shiny). If it is not polished, copper turns matt and eventually blackens as it reacts with oxygen in the air. Apart from making the kettle look nice, what is a good physics reason for keeping a copper kettle polished?
 
-• 3The diagrams below show a physics demonstration about thermal conduction.
+• 3 The diagrams below show a physics demonstration about thermal conduction.
 
-A cylinderismade from apiece of brass fitted to apiece of wood.Apiece ofpaper is glued around the middle.Thepaperis then heated overa Bunsen bumer flame.Aftera while one end of thepaper isnoticeably more burnt than the other.Explainwhy thishappens.
+A cylinder is made from a piece of brass fitted to a piece of wood. A piece of paper is glued around the middle. The paper is then heated over a Bunsen burner flame. After a while one end of the paper is noticeably more burnt than the other. Explain why this happens.
 
 REASONING
 
@@ -4872,26 +4966,26 @@ CREATIVITY,
 
 REASONING
 
-• There are twobench seats inapark,one made of metal,the other made ofwood.Themetal seat feelsmuch colder tositon than thewooden one. Astudent says thatit isbecause the metal seatisatalower temperature than thewooden one.Explain why this explanation isincorrect,and give a one.
+• There are two bench seats in a park, one made of metal, the other made of wood. The metal seat feels much colder to sit on than the wooden one. A student says that it is because the metal seat is at a lower temperature than the wooden one. Explain why this explanation is incorrect, and give a one.
 
 #### CHAPTER QUESTIONS
-• 5aWhyis the heating element (part) in an electrickettle positioned very close to thebottom of thekettle?
+• 5a Why is the heating element (part) in an electric kettle positioned very close to the bottom of the kettle?
 
-• Where wouldyou expect the cooling element tobeplaced in a freezer? Give areason foryouranswer.
+• Where would you expect the cooling element to be placed in a freezer? Give a reason for your answer.
 
-• 6Onemodelofawell-knownbrand ofcomputerdoesnotuseafan tokeep the electronic circuits inside it cool,unlike otherPCs.A student noticed that the ventilation(air) slots onmost otherPCsarepositioned on the side, but the slots are on the top and bottom surfaces of this computer.The designerhas appliedphysicsto theproblem ofkeeping thecomputercool. Explain why the new computer doesnotneed a fan.
+• 6 One model of a well-known brand of computer does not use a fan to keep the electronic circuits inside it cool, unlike other PCs. A student noticed that the ventilation (air) slots on most other PCs are positioned on the side, but the slots are on the top and bottom surfaces of this computer. The designer has applied physics to the problem of keeping the computer cool. Explain why the new computer does not need a fan.
 
-• The diagrambelowshowshowRoman minesused tobeventilated.
+• The diagram below shows how Roman mines used to be ventilated.
 
-Themine system had a shaft with a fire lit at the bottom.Explain how this kept the airin the mine system fresh.
+The mine system had a shaft with a fire lit at the bottom. Explain how this kept the air in the mine system fresh.
 
-• 8 aDescribe an experiment to show thatmatt blacksurfacesabsorb thermal radiation better than shiny metallic surfaces.Your description should include detailsof the apparatus;youmay use a clearly labelled sketch diagram inyour answer.
+• 8 a Describe an experiment to show that matt black surfaces absorb thermal radiation better than shiny metallic surfaces. Your description should include details of the apparatus; you may use a clearly labelled sketch diagram in your answer.
 
-• bState whatmeasurementsyou would take.
+• b State what measurements you would take.
 
-• cExplain howyou would make sure your investigation is fair.
+• c Explain how you would make sure your investigation is fair.
 
-• dHowwould yourresults showthat theidea that amattblacksurface absorbs thermal radiationbetter than a shinymetallic surface is correct?
+• d How would your results show that the idea that a matt black surface absorbs thermal radiation better than a shiny metallic surface is correct?
 
 ## Unit 4: Energy Resources and Energy Transfer
 
@@ -4920,23 +5014,23 @@ LEARNING OBJECTIVES
 
 • Know and use the relationship between work done,force and distance moved in the direction of the force:
 
-work done=forcexdistance moved
+work done=force×distance moved
 
-W=Fxd
+W=F×d
 
-• Know and use the relationshipbetween gravitational height:
+• Know and use the relationship between gravitational height:
 
-gravitational potential energy= massxgravitational field strengthxheight
+gravitational potential energy= mass×gravitational field strength×height
 
-GPE=mxgxh
+GPE=m×g×h
 
 • Know and use the relationship:
 
-kineticenergy=xmassxspeed squared
+kinetic energy=×mass×speed squared
 
-KE=xmxv2
+KE=×m×v²
 
-The unit of energyis named afterJamesJoule.lt wasJoulewho realised that heat was a store ofenergy.He showed thatkinetic energy could be transferred toheat.At that time heat wasmeasured in calories.
+The unit of energy is named after James Joule. It was Joule who realised that heat was a store of energy. He showed that kinetic energy could be transferred to heat. At that time heat was measured in calories.
 ENERGYAND WORK
 
 Energy is the ability todowork.
@@ -4961,21 +5055,23 @@ Thiswork done on the weight hasincreased its energy.Thisisexplained in the secti
 • Figure 16.3 A car travelling at a constant speed doing work
 
 In the example shown inFigure 16.3 the force acting on the carisnot accelerating it-instead,it is being used tobalance the forcesopposing its movement.Theresultant force on the cariszero,soit keeps moving inastraight line at constant speed.Towork out thework done on the car in onesecond we substitute the forcerequired,400 N,and the distance through which it acts in one second,30m,in the equation:
-GRAVITATIONAL POTENTIALENERGY(GPE)
 
-Thegravitationalpotential energy of an object that hasbeen raised toaheight, h,above the ground is given by:
+#### GRAVITATIONAL POTENTIALENERGY(GPE)
+GRAVITATIONAL POTENTIAL ENERGY (GPE)
 
-gravitational potential energy,GPE(joules)= mass of object,m (kilograms)
+The gravitational potential energy of an object that has been raised to a height, h, above the ground is given by:
 
-GPE=mxgxh
+gravitational potential energy, GPE (joules) = mass of object, m (kilograms) × gravitational field strength, g (newtons per kilogram) × height, h (metres)
 
-The change in the GPEof an object willbeanincrease if weapplya force onit in the oppositedirection to thepull ofgravity-that is,if we lift it off the ground.When an object falls it loses GPE.Tokeep things simple,we usually assume that an object hasnoGPEbefore we doworkonit.
+GPE = m × g × h
 
-In theweight-lifting examplegiven onpage151,the weightlifterhasused some chemical energy to do thework.Weknow thatenergyisconserved sowhat hashappened to the chemical energy that theweightlifterused? Some hasbeen transferred toheat in theweightlifter'sbody.Theremainder hasbeen transferred to theweightbecause hehasincreased itsheight in the gravitational field of the Earth.The energy that the weight has gained is called gravitationalpotentialenergy or GPE
+The change in the GPE of an object will be an increase if we apply a force on it in the opposite direction to the pull of gravity - that is, if we lift it off the ground. When an object falls it loses GPE. To keep things simple, we usually assume that an object has no GPE before we do work on it.
+
+In the weight-lifting example given on page 151, the weightlifter has used some chemical energy to do the work. We know that energy is conserved so what has happened to the chemical energy that the weightlifter used? Some has been transferred to heat in the weightlifter's body. The remainder has been transferred to the weight because he has increased its height in the gravitational field of the Earth. The energy that the weight has gained is called gravitational potential energy or GPE.
 
 Figure 16.4 The work done to lift an object is equal to the GPE the object has at its new height.
 
-Figure 16.5 When a raised object falls, its gravitational potential energy is transterred first to kinetic energy and then to heat and sound.
+Figure 16.5 When a raised object falls, its gravitational potential energy is transferred first to kinetic energy and then to heat and sound.
 KEY POINT
 
 Kinetic energy (KE) is the energy stored bymoving objects.
@@ -4996,23 +5092,23 @@ The kinetic energy of a moving object is calculated using the equation:
 kinetic energy,KE(joules）=mass,m (kilograms)x speed squared,v (metres squaredper secondssquared)
 EXTENSION WORK
 
-In Chapter1we saw the equation of uniformly acceleratedmotion:
+In Chapter 1 we saw the equation of uniformly accelerated motion:
 
-Thisequation allows us to work out the final velocity.v.of an object that has a uniform acceleration,a,and that has accelerated througha distance,s,starting with an initial velocity of u.
+This equation allows us to work out the final velocity, v, of an object that has a uniform acceleration, a, and that has accelerated through a distance, s, starting with an initial velocity of u.
 
-If we drop an object from restitsinitial velocity,u=O,itsaccelerationisg m/s²and the distance that it fallsisusuallyrepresented byh,so the equation becomes
+If we drop an object from rest its initial velocity, u = 0, its acceleration is g m/s² and the distance that it falls is usually represented by h, so the equation becomes
 
-Multiplying both sides of the equationby m,themass of the object,gives:
+Multiplying both sides of the equation by m, the mass of the object, gives:
 
-mv=2mgh which can berearrangedasmv²=mgh
+mv² = 2mgh which can be rearranged as mv² = mgh
 
 showing that the gain in KE of the object is equal to its loss of GPE.
 
-Wesee that the amount of kineticenergypossessedbyamoving object dependsonitsspeed and itsmass.As the Earth travels throughspace, orbiting theSun,it runs theriskof colliding with chunks ofmatter that are drawn intothegravitational field of the SolarSystem.In fact,thisisvery common.lf you have everseen a shooting star-or,togiveit itspropername a meteor-youhaveseen the lineof lightproducedasa smallpieceofspace debris(waste)burns up on entering our atmosphere.Thisis an example of kinetic energybeing transferred toheatand light by the frictionproduced between the air and the objectpassing throughit.
+We see that the amount of kinetic energy possessed by a moving object depends on its speed and its mass. As the Earth travels through space, orbiting the Sun, it runs the risk of colliding with chunks of matter that are drawn into the gravitational field of the Solar System. In fact, this is very common. If you have ever seen a shooting star - or, to give it its proper name a meteor - you have seen the line of light produced as a small piece of space debris (waste) burns up on entering our atmosphere. This is an example of kinetic energy being transferred to heat and light by the friction produced between the air and the object passing through it.
 
 Figure 16.7 This crater was created when a meteorite collided with Earth in Arizona.
 
-Figure 16.8 GPE and KE of a falling object:a doing work to lift an object;b all GPE; c GPE transferring to KE during fall;d all KE at end of fall;e graph showing relationship between GPE andKE as the object falls
+Figure 16.8 GPE and KE of a falling object: a doing work to lift an object; b all GPE; c GPE transferring to KE during fall; d all KE at end of fall; e graph showing relationship between GPE and KE as the object falls
 
 #### EXTENSION WORK
 Work transfers energy to an object:W=Fd.An object of mass,m,weighs (mxg)newtons so the force,F,needed to lift it ismg (Figure 16.8). lf weraise the object through a distanceh,the work done on the object ismg xh.This is also the gain in GPE.
@@ -5049,15 +5145,17 @@ Poweris therate of transferof energy or therateof doing work.
 JamesWatt(Figure 16.10a)isremembered as theinventorof the steam engine and issaid tohavebeen inspiredbywatching thelid onakettlebeingforced upby the pressure of the steam forminginside.Neither story is accurate, butwhat is trueisthatWatt,working inpartnershipwithMatthewBoulton, developed improvements to the steam engine thatmadeita commercial
 
 TheSl unit of powerisnamed inhonour ofJamesWatt.The watt (W)is the rate of transfer or conversion of energy of onejoule per second (1 J/s).
-PRACTICAL:INVESTIGATEYOURPOWEROUTPUT
 
-Youmay have doneasimple experimentinvolvingrunning upstairstomeasureyour outputpower.You dowork asyouraiseyourGPE,and tofindyourpoweroutputin wattsyoudivide theworkdonebythe time taken.The experiment isshowninFigure 16.11.Notice that calculating theworkyou doagainstgravityusing forcexdistance
+#### PRACTICAL:INVESTIGATEYOURPOWEROUTPUT
+PRACTICAL: INVESTIGATE YOUR POWER OUTPUT
 
-Figure 16.11 Anexperiment to measure your output power
+You may have done a simple experiment involving running up stairs to measure your output power. You do work as you raise your GPE, and to find your power output in watts you divide the work done by the time taken. The experiment is shown in Figure 16.11. Notice that calculating the work you do against gravity using force × distance
 
-Wearsuitablefootwearand onlyallow oneperson at a time on the staircase. Ensure the stairs are dry,in good condition and free of any obstacles.
+Figure 16.11 An experiment to measure your output power
 
-Amore convenientwayof raisingyour GPEandgetting toahigherfloorina building is to take a lift.The lift will transfer its energyinput,usually electrical tokinetic energy and then,if you are goingup,to GPE.Asusual,unwanted energy transfersare inevitable-sound and heat will beproduced.lf weknow theweightof the lift and its contents and the height through which it moves, we cancalculate the workdone in the usual way.lf wemeasure the time that the liftjoumey takeswecan then calculate thepoweroutputof theliftmotor. (Strictly thiswillbe theusefulpoweroutput-itwill not takeaccount of the wastedpowerduetounwantedenergy transfers.)
+Wear suitable footwear and only allow one person at a time on the staircase. Ensure the stairs are dry, in good condition and free of any obstacles.
+
+A more convenient way of raising your GPE and getting to a higher floor in a building is to take a lift. The lift will transfer its energy input, usually electrical to kinetic energy and then, if you are going up, to GPE. As usual, unwanted energy transfers are inevitable - sound and heat will be produced. If we know the weight of the lift and its contents and the height through which it moves, we can calculate the work done in the usual way. If we measure the time that the lift journey takes we can then calculate the power output of the lift motor. (Strictly this will be the useful power output - it will not take account of the wasted power due to unwanted energy transfers.)
 EXAMPLES
 
 Ifa lift andpassengershave a combined weight of 4000Nand theliftmovesupwardswithanaverage speedof3m/s thenwhat istheusefulpoweroutput oftheliftmotor?
@@ -5073,66 +5171,66 @@ CHAPTER QUESTIONS
 
 PROBLEM SOLVING
 
-More questionson work,powerand efficiency can befound at the end of Unit 4on page 168.
+More questions on work, power and efficiency can be found at the end of Unit 4 on page 168.
 
-In the questions below,where necessary,take the strength of the Earth's gravity tobe10N/kg.
+In the questions below, where necessary, take the strength of the Earth's gravity to be 10N/kg.
 
-• JamesJoule showed that heat is a store of energy.He did this by showing that heat can be produced by using mechanical energy.
+• James Joule showed that heat is a store of energy. He did this by showing that heat can be produced by using mechanical energy.
 
-• aGive an example ofaprocessin whichkinetic energyis transferred to heat.
+• a Give an example of a process in which kinetic energy is transferred to heat.
 
-• bDescribe how heat energy canbe transferred to either kinetic energy or gravitational potential energy.
+• b Describe how heat energy can be transferred to either kinetic energy or gravitational potential energy.
 
-• 2aState theSl unit of work.
+• 2a State the SI unit of work.
 
-• Define the unit ofwork.
+• Define the unit of work.
 
-• cHowmuch workis done in each of the following situations?
+• c How much work is done in each of the following situations?
 
-• iiArocketwith a thrust of 100kN travels toa height of200 m.
+• ii A rocket with a thrust of 100kN travels to a height of 200 m.
 
-• ilAweightlifterraises a mass of 60kg through a height of2.8m.
+• ii A weightlifter raises a mass of 60kg through a height of 2.8m.
 
-• ivAliftofmass200kgliftsthreepeopleofmass50kgeach througha distance of45m.
+• iv A lift of mass 200kg lifts three people of mass 50kg each through a distance of 45m.
 
-• 3Waterfrom ahydroelectricpowerstationreservoiristakenfromareservoir (artificial lake) at a height of800 m above sea level to turbines(engines) in thepowerstationitself.Thepowerstationisatsealevel.Thereservoirholds 200million（2x109) litresofwater.Ifa litre ofwaterhasa massof1kg.how muchgravitational potential energy isstored in the waterin thereservoir?
+• 3 Water from a hydroelectric power station reservoir is taken from a reservoir (artificial lake) at a height of 800 m above sea level to turbines (engines) in the power station itself. The power station is at sea level. The reservoir holds 200 million (2x10⁹) litres of water. If a litre of water has a mass of 1kg, how much gravitational potential energy is stored in the water in the reservoir?
 
-• 4aStatehow tocalculate thekineticenergy stored bya moving object.
+• 4a State how to calculate the kinetic energy stored by a moving object.
 
-• bWorkout thekineticenergy of the following:
+• b Work out the kinetic energy of the following:
 
-• 1aman ofmass80kgrunning at9m/s
+• i a man of mass 80kg running at 9m/s
 
-• ilanairriflepelletofmass0.2g travelling at50m/s
+• ii an air rifle pellet of mass 0.2g travelling at 50m/s
 
-• llla ball of mass 60g travelling at 24m/s.
+• iii a ball of mass 60g travelling at 24m/s.
 
-• 5A catapult firesa stone of mass0.04kg verticallyupwards.lf the stone has aninitial kinetic energy of48J,how high will it travel beforeit starts to fall back to the ground?
+• 5 A catapult fires a stone of mass 0.04kg vertically upwards. If the stone has an initial kinetic energy of 48J, how high will it travel before it starts to fall back to the ground?
 
 #### CHAPTER QUESTIONS
-• 6Ifa coinis dropped fromaheightof80m,howfastwill itbe travelling when it hits the ground?State anyassumptionsyou may need tomake.
+• 6 If a coin is dropped from a height of 80 m, how fast will it be travelling when it hits the ground? State any assumptions you may need to make.
 
-• Definepower and state itsunit.
+• Define power and state its unit.
 
-• 8Apersonwitha massof40kgrunsupstairsin12s.The stairshave 20 steps and theheightofeach step is20 cm.
+• 8 A person with a mass of 40 kg runs upstairs in 12 s. The stairs have 20 steps and the height of each step is 20 cm.
 
-• aHow much does theperson weigh,in newtons?
+• a How much does the person weigh, in newtons?
 
-• bWhat is the totalheight that theperson has climbed?
+• b What is the total height that the person has climbed?
 
-• Calculatehowmuchworkisdonein climbing thestairs.
+• Calculate how much work is done in climbing the stairs.
 
-• Adragcar,of mass500kg.acceleratesfromrest toa speedof144km/h in5s.
+• A drag car, of mass 500 kg, accelerates from rest to a speed of 144 km/h in 5 s.
 
-• aWhatisitsfinal speed in:
+• a What is its final speed in:
 
-• im/h(metresperhour)
+• i m/h (metres per hour)
 
-• Ilm/s?
+• ii m/s?
 
-• bWhat is the increase inKEof the drag car?
+• b What is the increase in KE of the drag car?
 
-• cWhat is the averagepower developed by the dragcar's engine?
+• c What is the average power developed by the drag car's engine?
 
 ## Unit 4: Energy Resources and Energy Transfer
 
@@ -5143,68 +5241,72 @@ In the questions below,where necessary,take the strength of the Earth's gravity 
 In this chapter you will leam about different resources of energy that are available to us on Earth.You will leam that some resources arerenewable,while others cannot bereplaced once used.As the demand for energy increases with the human population,there isa danger that non-renewable resources will run out.We therefore need touse fuel efficiently and to exploit morerenewableresources.
 LEARNING OBJECTIVES
 
-Describe the energy transfersinvolvedingenerating electricity using:
+Describe the energy transfers involved in generating electricity using:
 
 • wind
 
-• solarcells
+• solar cells
 
 • water
 
 • fossil fuels
 
-• geothermalresources
+• geothermal resources
 
-• nuclearpower
+• nuclear power
 
-• solarheating systems
+• solar heating systems
 
-The demand for energyincreases all the time.The growth of the world populationmeansmorepeople need food and warmth.Morepeoplewant to be able to travel.Thefuels thatwe use toproduce energy arebeing used up tooquickly.Wemust use ourremaining fuel suppliesefficiently and lookfor newresources of energy.In Chapter 15,wesaw howwe can use energymore efficientlyinheating ourhomes.We can make the energy supplies we have availablelast longerbybeing energyefficient.
+The demand for energy increases all the time. The growth of the world population means more people need food and warmth. More people want to be able to travel. The fuels that we use to produce energy are being used up too quickly. We must use our remaining fuel supplies efficiently and look for new resources of energy. In Chapter 15, we saw how we can use energy more efficiently in heating our homes. We can make the energy supplies we have available last longer by being energy efficient.
 
-Wealsoneed tounderstandwhat energyresourceswe have availableon the Earth.In thischapterwe shall look at different types ofenergy resource and the advantages and disadvantages ofeachresource for generating electricity. Inparticularwe shalldistinguishbetweenrenewable and non-renewable energy resources.Newresources ofenergy arebeingresearched all the time tomeetourgrowing needs.We must also consider the effect that theuse of different energyresourceshas onour environment.Some types ofenergy resource can causelong-term damage to ourenvironment.
+We also need to understand what energy resources we have available on the Earth. In this chapter we shall look at different types of energy resource and the advantages and disadvantages of each resource for generating electricity. In particular we shall distinguish between renewable and non-renewable energy resources. New resources of energy are being researched all the time to meet our growing needs. We must also consider the effect that the use of different energy resources has on our environment. Some types of energy resource can cause long-term damage to our environment.
 
-Figure 17.1 Humans consume vast amounts of fuel for transport,as well as heating and cooking.
+Figure 17.1 Humans consume vast amounts of fuel for transport, as well as heating and cooking.
 
-Describe the advantages and disadvantages of methodsof large-scale electricityproductionfrom various renewable and non-renewableresources
+Describe the advantages and disadvantages of methods of large-scale electricity production from various renewable and non-renewable resources
 
-FOSSILFUELS
-NON-RENEWABLEENERGYRESOURCES
+FOSSIL FUELS
 
-Figure 17.2Fossil fuels include coal,oil and natural gas.
+#### NON-RENEWABLEENERGYRESOURCES
+NON-RENEWABLE ENERGY RESOURCES
 
-One of the main energyresources available on ourplanet isits supplyof fossil fuels.Coal,oil and natural gas are all fossil fuels.They have been formed in theground fromdeadvegetation or tiny creaturesbyaprocessthathastaken millionsofyears.Once wehave used them,it will take millionsofyearsfornew reserves of these fuels tobe formed.Fossilfuels are,therefore,examples of non-renewable energyresources.
+Figure 17.2 Fossil fuels include coal, oil and natural gas.
 
-Figure 17.3Polaricecapsmelting
+One of the main energy resources available on our planet is its supply of fossil fuels. Coal, oil and natural gas are all fossil fuels. They have been formed in the ground from dead vegetation or tiny creatures by a process that has taken millions of years. Once we have used them, it will take millions of years for new reserves of these fuels to be formed. Fossil fuels are, therefore, examples of non-renewable energy resources.
 
-Anon-renewable energy resource is one that effectively cannot be replaced once it hasbeen used.
+Figure 17.3 Polar ice caps melting
 
-Buming fossil fuels affects the environment,mainlybyreleasing carbon dioxideinto the atmosphere.Carbon dioxide isagreenhouse gas.Greenhouse gases trap theSun'sheat in theEarth'satmosphere and cause theaverage temperature of the atmosphere torise.This effect iscalled global warming and causes changes in theworid'sclimate and melting of thepolarice caps. Burning coal releasesmore carbon dioxideinto the atmosphere thanbuming oilor gas.Of the fossilfuels,natural gasproduces the least carbon dioxide for the same energy output.There isnopractical way of avoiding therelease of carbon dioxideinto the atmosphere when fossil fuels areburned,although underground.
+A non-renewable energy resource is one that effectively cannot be replaced once it has been used.
+
+Burning fossil fuels affects the environment, mainly by releasing carbon dioxide into the atmosphere. Carbon dioxide is a greenhouse gas. Greenhouse gases trap the Sun's heat in the Earth's atmosphere and cause the average temperature of the atmosphere to rise. This effect is called global warming and causes changes in the world's climate and melting of the polar ice caps. Burning coal releases more carbon dioxide into the atmosphere than burning oil or gas. Of the fossil fuels, natural gas produces the least carbon dioxide for the same energy output. There is no practical way of avoiding the release of carbon dioxide into the atmosphere when fossil fuels are burned, although underground.
 
 #### NON-RENEWABLEENERGYRESOURCES
 Most types of coal and oil contain some sulphur.When they areburned,this is converted to sulphur dioxide.Sulphur dioxide is thenreleased into the atmosphere where it combineswith water to formacid rain.Acidrain causes damage to people,plants and buildings.Itispossible to remove the sulphur from thesefuels but this increases the costof the energyproduced.It is also possibletoremove sulphurdioxide from thewastegaseswhen thefuel is burmed,but this also increases the cost.Intermationalagreements are forcing
 
 • Figure 17.4WilliamPerkin discovered the firstsynthetic dye in 1856using substances produced from coal tar.
-NUCLEARFUEL
 
-companiesthatemit large quantitiesof sulphurdioxide toclean up theirwaste gases,and acidrain isnowlessof aproblem in Europe thanit used tobe.Acid rainis stilla problem in manycountriesin the developing world.
+#### NUCLEARFUEL
+NUCLEAR FUEL
 
-Fossil fuelsalsoprovidevaluable chemicalsthatcanbeused in the manufacture ofawide range ofuseful products(Figure17.5).Once burned for
+companies that emit large quantities of sulphur dioxide to clean up their waste gases, and acid rain is now less of a problem in Europe than it used to be. Acid rain is still a problem in many countries in the developing world.
+
+Fossil fuels also provide valuable chemicals that can be used in the manufacture of a wide range of useful products (Figure 17.5). Once burned for
 
 • Figure 17.5 Many products are manufactured using extracts from oil and coal.
 
-Nuclearreactors use uranium toproduce energy.For the nuclearprocess,a particularform orisotope（see page 223)of uranium is needed.Although a Theuranium in the Earth was formed before the Solar System was formed,so once it has been used there will be no further supplies.It is,therefore,another example ofanon-renewableresource.
+Nuclear reactors use uranium to produce energy. For the nuclear process, a particular form or isotope (see page 223) of uranium is needed. Although a The uranium in the Earth was formed before the Solar System was formed, so once it has been used there will be no further supplies. It is, therefore, another example of a non-renewable resource.
 
-Power generated from nuclearprocesseshas the advantage ofbeing'clean'It is cleanbecause theprocess doesnotinvolve theproduction ofgreenhouseor stationsare expensive tobuild.The disadvantagesofnuclearpower are therisk ofaccidentsand theproblem ofdisposalofradioactive materialonceapower station isfinishedwith it.Accidentsthatrelease radioactive materials like uranium andplutonium into the atmosphere pose long-lastingrisks to living things.
+Power generated from nuclear processes has the advantage of being 'clean' It is clean because the process does not involve the production of greenhouse or stations are expensive to build. The disadvantages of nuclear power are the risk of accidents and the problem of disposal of radioactive material once a power station is finished with it. Accidents that release radioactive materials like uranium and plutonium into the atmosphere pose long-lasting risks to living things.
 EXTENSION WORK
 
 'Fastbreederreactors'are so called because they create more nuclearfuel than they consume,but they stillrequire uranlum for their operation.The fuel produced isplutonium.This is extremely dangerous to life and isalso amaterial used for the manufacture of nuclear weapons.
 ELECTRICITY
 
-Electricity isnot anenergyresource,because it hastobegeneratedusing otherresources of energy.Atpresent,most of the electricity used in the world isgenerated inpowerstationslike the one shown inFigure 17.6.
+Electricity is not an energy resource, because it has to be generated using other resources of energy. At present, most of the electricity used in the world is generated in power stations like the one shown in Figure 17.6.
 
-Heatfromnuclearfuel orfromburningfossil fuels isused toheatwater.This produceshigh-pressure steam thatmakes theblades ofa turbine spin.Aturbine islike a windmillora fan,butwithmanymore blades.The turbineisused to turn thegenerator,which generates the electricity(you will leam more about this in Chapter 21).The energy changes involved are shown in Figure 17.7.
+Heat from nuclear fuel or from burning fossil fuels is used to heat water. This produces high-pressure steam that makes the blades of a turbine spin. A turbine is like a windmill or a fan, but with many more blades. The turbine is used to turn the generator, which generates the electricity (you will learn more about this in Chapter 21). The energy changes involved are shown in Figure 17.7.
 
-Electricitycan alsobegeneratedusingrenewable energyresources.
+Electricity can also be generated using renewable energy resources.
 HYDROELECTRICPOWER
 
 • Figure 17.8Moving wateris a renewable energyresource.
@@ -5228,17 +5330,19 @@ heat water turbine
 used to drives spins generator
 
 • Figure 17.7 Several energy changes are involved in producing electricity.
-RENEWABLEENERGYRESOURCES
 
-Arenewable energyresource is one thatwill notrun out.
+#### RENEWABLEENERGYRESOURCES
+RENEWABLE ENERGY RESOURCES
 
-Wood isanexample ofa renewable energyresource.As wood is cut forfuel newfast-growing trees areplanted toreplace those cut down.With careful management the supply ofwood fuel canbemaintained indefinitely.However, buming woodproducespollution and greenhouse gases.Wood is also more valuable if it is notburned,because it can beused in building ormaking furniture.
+A renewable energy resource is one that will not run out.
 
-The demand forfuelandourworriesaboutglobal warming andpollution have madeus search for altemative energyresources.Weneed renewable energy resources that do not pollute the world or contribute to global warming.
+Wood is an example of a renewable energy resource. As wood is cut for fuel new fast-growing trees are planted to replace those cut down. With careful management the supply of wood fuel can be maintained indefinitely. However, burning wood produces pollution and greenhouse gases. Wood is also more valuable if it is not burned, because it can be used in building or making furniture.
 
-Thekineticenergy available inlarge quantitiesof movingwaterhasbeen hamessed(used) formanyhundredsof years.Water wheelshave been used to transfer the energy stored bywaterin rivers togrind(break down)com and power industrial machinery.A differentkind of waterwheel,calleda turbine,is used to turn the generatorsinahydroelectricpowerstation.Thesepower stationsuse the stored gravitational potential energy(GPE)of waterinhigh reservoirsbuilt in mountains.The GPEis transferred tokinetic energy(KE)as thewater flowsdown themountain to thepowerstation below.
+The demand for fuel and our worries about global warming and pollution have made us search for alternative energy resources. We need renewable energy resources that do not pollute the world or contribute to global warming.
 
-The energy transferred in this way isrenewable.The Sun causeswater to evaporate continuouslyand tobedrawn upinto the atmosphere.Thiswater then falls asrain tobe collected inreservoirs and used again.Moving water is arenewableresource.
+The kinetic energy available in large quantities of moving water has been harnessed (used) for many hundreds of years. Water wheels have been used to transfer the energy stored by water in rivers to grind (break down) corn and power industrial machinery. A different kind of waterwheel, called a turbine, is used to turn the generators in a hydroelectric power station. These power stations use the stored gravitational potential energy (GPE) of water in high reservoirs built in mountains. The GPE is transferred to kinetic energy (KE) as the water flows down the mountain to the power station below.
+
+The energy transferred in this way is renewable. The Sun causes water to evaporate continuously and to be drawn up into the atmosphere. This water then falls as rain to be collected in reservoirs and used again. Moving water is a renewable resource.
 
 #### RENEWABLEENERGYRESOURCES
 Although hydroelectricity isa very clean,renewable resource,building reservoirs and power stations can spoil the landscape.Thereservoir may also destroyor alterthe natural habitatforwildlife.
@@ -5246,44 +5350,48 @@ Although hydroelectricity isa very clean,renewable resource,building reservoirs 
 heat energy in high-pressure steam electrical ndinoAbuaue
 
 • Figure 17.10 The turbine hasangled blades. As wateris forced between the blades, they start to turn.Therotating turbine is connected to a generator to make it turn too.
-WAVEENERGY
 
-The tidesalsoinvolve the movement ofhuge amountsofwater.Tidal power generation schemes,like thatat La Rance in Brittany.generatepower by turning turbines asthe tide flowsinto a dammed(blocked)riverestuarywhere ariverjoins thesea.Asthetide fallsand thewaterflowsoutof the estuarythe turbines turn again.
+#### WAVEENERGY
+WAVE ENERGY
 
-Theenergyfor themovementofthe tidesisprovided by thegravitational pull of the Moon and Sun.This isrenewable energyusinga small fraction of the continuoussupplyofgravitational energy.
+The tides also involve the movement of huge amounts of water. Tidal power generation schemes, like that at La Rance in Brittany, generate power by turning turbines as the tide flows into a dammed (blocked) river estuary where a river joins the sea. As the tide falls and the water flows out of the estuary the turbines turn again.
 
-There are not manyplacesaround the world suitable forbuilding dams for tidal energy.lfa dam is built,it affects the rise and fall ofwaterin the estuary,and this islikely to damagehabitatsforwildlife.Some energy companiesare now developing'tidal stream turbines'which are like underwater wind turbines. These will be driven by tidal currents.
+The energy for the movement of the tides is provided by the gravitational pull of the Moon and Sun. This is renewable energy using a small fraction of the continuous supply of gravitational energy.
 
-Energy can alsobe extracted fromwaves.The continuousmovement of the surfaceof theseasandoceansistheresultofacombination oftidesand wind.Avarietyofmethodshavebeendeveloped tomakeuseoftherise and fallofwaterdue towaves.Figure 17.11showsasystem thathasbeen developed to use the energyof waves.Again,this energy isrenewable,as the movementenergyof the wavesiscontinuouslyavailable.
+There are not many places around the world suitable for building dams for tidal energy. If a dam is built, it affects the rise and fall of water in the estuary, and this is likely to damage habitats for wildlife. Some energy companies are now developing 'tidal stream turbines' which are like underwater wind turbines. These will be driven by tidal currents.
 
-Waterpoweris clean,producing nogreenhouse gases orunwanted waste products.
+Energy can also be extracted from waves. The continuous movement of the surface of the seas and oceans is the result of a combination of tides and wind. A variety of methods have been developed to make use of the rise and fall of water due to waves. Figure 17.11 shows a system that has been developed to use the energy of waves. Again, this energy is renewable, as the movement energy of the waves is continuously available.
+
+Water power is clean, producing no greenhouse gases or unwanted waste products.
 
 Figure 17.11 An oscillating water column system for using wave energy
 
-WINDPOWER
+WIND POWER
 
-Figure 17.12 0ld windmills were a way of using wind energy.
-SOLARPOWERPRODUCING HEAT
+Figure 17.12 Old windmills were a way of using wind energy.
+
+#### SOLARPOWERPRODUCING HEAT
+SOLAR POWER PRODUCING HEAT
 
 Figure 17.14 Solar heating panels used to heat water
 
-Winds arepowered bythe Sun'sheat energy.Wind isa renewable source togrind corn andpowermachinerylikepumps to drain（remove liquid from) lowland areas.Today,wind turbines drive generators toprovide electrical energy.
+Winds are powered by the Sun's heat energy. Wind is a renewable source to grind corn and power machinery like pumps to drain（remove liquid from) lowland areas. Today, wind turbines drive generators to provide electrical energy.
 
-The energyproduced isclean,butwind power can onlybe harvested in oftheyear.Wind farmscancauseenvironmental damage,astheychange the kill birds and bats.
+The energy produced is clean, but wind power can only be harvested in of the year. Wind farms can cause environmental damage, as they change the kill birds and bats.
 
-Photovoltaic（PV)cells are around 15%efficient.Thismeans that 15%of theSun'senergyis transferred touseful electricenergy.ImprovementsinPV efficiency and the fact that they arebecomingcheapertoproducemean that morePVenergy farms arebeing setup toprovidelarge amountsofelectrical energy.PVcells are also used toprovide small amounts ofelectricity forusein places that cannot easilybe connected to the electricitymains supply.
+Photovoltaic（PV) cells are around 15% efficient. This means that 15% of the Sun's energy is transferred to useful electric energy. Improvements in PV efficiency and the fact that they are becoming cheaper to produce mean that more PV energy farms are being set up to provide large amounts of electrical energy. PV cells are also used to provide small amounts of electricity for use in places that cannot easily be connected to the electricity mains supply.
 
-Figure17.13 showsPVcellsbeingused topower theHubble space telescope andaPVenergyfarm.
+Figure 17.13 shows PV cells being used to power the Hubble space telescope and a PV energy farm.
 
-Advantage:Theyprovidearenewable energyresource that doesnotproduce greenhouse gases.
+Advantage: They provide a renewable energy resource that does not produce greenhouse gases.
 
-Disadvantage:Somepeople think that thousands of square metres ofPVcells spoilthecountryside.Othersareworried thatgoodfarmingland islostwhen PVfarms arebuilt.
+Disadvantage: Some people think that thousands of square metres of PV cells spoil the countryside. Others are worried that good farming land is lost when PV farms are built.
 
 b
 
 Figure 17.13 Photovoltaic cells a on the Hubble space telescope, and b on an energy farm produce electricity when sunlight falls on them.
 
-Figure17.14 showspanels that use heat from theSun towarmwater.They provide small quantitiesofhotwaterandreduce the amount of energy that mightotherwise come from using non-renewable resources.
+Figure 17.14 shows panels that use heat from the Sun to warm water. They provide small quantities of hot water and reduce the amount of energy that might otherwise come from using non-renewable resources.
 
 #### SOLARPOWERPRODUCING HEAT
 transferdiscussed inChapter15.Solarpanelsareoften used in questions aboutheat transfer.
@@ -5292,38 +5400,42 @@ Solarheatingpanelsabsorbthermal radiation and useit toheatwater.The panelsarepla
 EXTENSION WORK
 
 Solar panels used to heat water (and thereforereduce energy used toheat water)are often used asan example ofhow aknowledge ofconduction, convection and radiation canhelp to make these panels as efficient as possible.The use togenerate electricity is described inthesolarpowerboiler shown inFigure 17.16.Other methods are used to concentrate theheating effect of the Sun rays too.
-GEOTHERMALENERGY
+
+#### GEOTHERMALENERGY
+GEOTHERMAL ENERGY
 
 glass to trap an air layer
 
-copper water pipes, with matt black surface, brazed to a sheet of copper with amatt black surface
+copper water pipes, with matt black surface, brazed to a sheet of copper with a matt black surface
 
-thermal insulation layerfaced with reflective foll onboth upper and lower surfaces
+thermal insulation layer faced with reflective foil on both upper and lower surfaces
 
-• Figure 17.15 Here is one type of solar heating panel.They are designed to transfer asmuch energy to the water passing through them as possible.
+• Figure 17.15 Here is one type of solar heating panel. They are designed to transfer as much energy to the water passing through them as possible.
 
-Waterispumped through copperpipesbrazed ontoa coppersheet.Copper isused becauseitisanexcellent thermal conductor.The surfacesof the sheet and thepipeshave a matt(not shiny)black finishas thisis thebest absorber ofheatradiation.Theglass traps a layerof air above thecoppertohelp insulate theunit andretain theheat.Thebacking isalso designed to stopheat escaping to the surroundings.Thiskind ofpanel isreasonablyefficientand the energyproduced ismore cost efficient than that fromphotovoltaiccells.Solar heatingpanels are used widely toprovide water heating.
+Water is pumped through copper pipes brazed onto a copper sheet. Copper is used because it is an excellent thermal conductor. The surfaces of the sheet and the pipes have a matt (not shiny) black finish as this is the best absorber of heat radiation. The glass traps a layer of air above the copper to help insulate the unit and retain the heat. The backing is also designed to stop heat escaping to the surroundings. This kind of panel is reasonably efficient and the energy produced is more cost efficient than that from photovoltaic cells. Solar heating panels are used widely to provide water heating.
 
-Figure 17.16 A large number of mirrors focus heat from the Sun on a boiler in the tower at the centre.The steam produced drives a turbine to generate electricity.
+Figure 17.16 A large number of mirrors focus heat from the Sun on a boiler in the tower at the centre. The steam produced drives a turbine to generate electricity.
 
-Electricity can alsobe generated using solarheating.Curved mirrors are used tofocus thermalradiation ontoaboilerorpipescontainingwatertoproduce steam.Themirrorsarecontrolled toreflect the Sun'sheatonto the central towerthroughout the day.The steam can be used to drive turbineswhich can be used todriveelectricitygenerators.
+Electricity can also be generated using solar heating. Curved mirrors are used to focus thermal radiation onto a boiler or pipes containing water to produce steam. The mirrors are controlled to reflect the Sun's heat onto the central tower throughout the day. The steam can be used to drive turbines which can be used to drive electricity generators.
 
 #### GEOTHERMALENERGY
-Geothermal energy is thermal energy stored deepinside theEarth.Theheat inregionsofvolcanicactivitywasproducedbythe decayof radioactive elements likeuranium.Volcanoesareevidence of the enormousheatand energybeneath theEarth's surfacebutdonot providea safe orreliable energy resource.However,heat from the ground canbe used safely.In some areas of theworld,like lceland (Figure 17.17),geothermallyheated waterisreadily available in springs andgeysers.Thisisused to drive the turbinesin electricity generation stations.Thehotwateris alsoused toprovide domesticheating by sending it directly to houses.Thisresource isrenewable,doesnot produce pollution and doesnot have a great impact on the environment.There are being used toprovide energy.
+Geothermal energy is thermal energy stored deep inside the Earth. The heat in regions of volcanic activity was produced by the decay of radioactive elements like uranium. Volcanoes are evidence of the enormous heat and energy beneath the Earth's surface but do not provide a safe or reliable energy resource. However, heat from the ground can be used safely. In some areas of the world, like Iceland (Figure 17.17), geothermally heated water is readily available in springs and geysers. This is used to drive the turbines in electricity generation stations. The hot water is also used to provide domestic heating by sending it directly to houses. This resource is renewable, does not produce pollution and does not have a great impact on the environment. There are being used to provide energy.
 
-Figure 17.17 A geothermal electricity generating station in Iceland,with a huge swimming lagoon heatedgeothermally
-SUPPLYANDDEMAND
-
-Many different energy resources can be used togenerate electricity,and they all have advantagesand disadvantages.Some of the environmental disadvantages have already been discussed,but supply and demand also need to be taken into account.Different types ofpower station differin the
-
-The demand for electricity variesfrom hour tohour,day to dayand season to season.Theway that the demandvariescanbepredicted tosome extent.For example,there isa rise in demand in the earlymoming aspeople wakeup,tum onlightsand heaters and start tomakebreakfast,and ofcoursein winter the demand forheatismuch greaterthan in summer.Some sudden rises in demand arelesspredictable.ApopularTVprogramme withan excitingepisodecankeep millionsofviewersinfront of their televisions-if theyalldecide tomakea cup of tea assoon as theadverts come on,electricityusage will suddenlyincrease (electrickettles use a lotof power).The companies that supply electricity must be able to copewith these changesindemand,otherwise theyare forced to cut offelectricity tosome consumers.Thisisnotgood for customerrelations and,of course,meansareduction in the amount of electricity sold.
-
-Nuclearpower stations cannotbe turned on instantly.Theprocess ofstarting thefissionreaction and heatingup the core of thenuclearreactorisa long one.Clearlynuclear power stations cannot meet suddenvariationsin demand.
+Figure 17.17 A geothermal electricity generating station in Iceland, with a huge swimming lagoon heated geothermally
 
 #### SUPPLYANDDEMAND
-Power stationsthatburn fossil fuels canbestarted more quicklybutcan still takemany hours to start producing electricity.Coal-fired stationstakelonger than oil-firedstationstodeveloptheheatrequired todrivesteam through the turbines.Gas-fired stationscan respond most quickly torisesin demand.
+SUPPLY AND DEMAND
 
-Hydroelectricpowerstationsprovidea veryreliable energyresourcewith the advantageofbeing able torespond veryquickly to changesin the national demand for electricity.Unlike other typesofpower station,they are able to operate inreverse.Thismeans that theycanuseextra electricityproduced by otherpower stations that cannotbe shut down quickly topump waterbackup into the highlevelreservoirs.This transfers the electrical energy backtogravitationalpotential energy,which can then bere-transferred when needed ata later time.Thisis the
+Many different energy resources can be used to generate electricity, and they all have advantages and disadvantages. Some of the environmental disadvantages have already been discussed, but supply and demand also need to be taken into account. Different types of power station differ in the
+
+The demand for electricity varies from hour to hour, day to day and season to season. The way that the demand varies can be predicted to some extent. For example, there is a rise in demand in the early morning as people wake up, turn on lights and heaters and start to make breakfast, and of course in winter the demand for heat is much greater than in summer. Some sudden rises in demand are less predictable. A popular TV programme with an exciting episode can keep millions of viewers in front of their televisions - if they all decide to make a cup of tea as soon as the adverts come on, electricity usage will suddenly increase (electric kettles use a lot of power). The companies that supply electricity must be able to cope with these changes in demand, otherwise they are forced to cut off electricity to some consumers. This is not good for customer relations and, of course, means a reduction in the amount of electricity sold.
+
+Nuclear power stations cannot be turned on instantly. The process of starting the fission reaction and heating up the core of the nuclear reactor is a long one. Clearly nuclear power stations cannot meet sudden variations in demand.
+
+#### SUPPLYANDDEMAND
+Power stations that burn fossil fuels can be started more quickly but can still take many hours to start producing electricity. Coal-fired stations take longer than oil-fired stations to develop the heat required to drive steam through the turbines. Gas-fired stations can respond most quickly to rises in demand.
+
+Hydroelectric power stations provide a very reliable energy resource with the advantage of being able to respond very quickly to changes in the national demand for electricity. Unlike other types of power station, they are able to operate in reverse. This means that they can use extra electricity produced by other power stations that cannot be shut down quickly to pump water back up into the high level reservoirs. This transfers the electrical energy back to gravitational potential energy, which can then be re-transferred when needed at a later time. This is the
 EXTENSION WORK
 
 The USDepartment of Energy has proposed the bullding ofanuclear waste storage facilitybeneath the Yucca Mountains.High-level nuclear waste will beplaced in concrete containersthataresupposed tohold thenuclearradiationsafelyfor300 to 1000 years.
@@ -5331,65 +5443,65 @@ The USDepartment of Energy has proposed the bullding ofanuclear waste storage fa
 Windpoweris dependent onthe strength,direction and frequency ofwind. Althoughwind farms arelocated in windy areas,they cannot bereliedupon not available continuously,but thetimesat which it will be available are predictable.
 COST
 
-Plannersmust also look at the financial costs ofelectricity generation.Nuclear poweruses a relativelycheap fuel.Uranium produceshuge amountsof energy,so the cost of energyperunit of fuel used is low.However,building plannersmustalso considerthe expense ofdecommissioning(closing down) anuclearpowerstation atthe end ofitsuseful workinglife.Forconventional powerstations,thisisaroutine demolitionjob,but fornuclearpowerstations the taskisnotasstraightforward.Radioactivematerialsmustbehandled with great care andstored in a way toensure that none escape.
+Planners must also look at the financial costs of electricity generation. Nuclear power uses a relatively cheap fuel. Uranium produces huge amounts of energy, so the cost of energy per unit of fuel used is low. However, building planners must also consider the expense of decommissioning (closing down) a nuclear power station at the end of its useful working life. For conventional power stations, this is a routine demolition job, but for nuclear power stations the task is not as straightforward. Radioactive materials must be handled with great care and stored in a way to ensure that none escape.
 
-Wesee that,although therunning costsofnuclearpower arerelativelylow, thepay-backtime isvery long.(Thepay-back time ishow long it takesfor the income fromselling electricitytocover thecostofbuilding thepowerstation.)
+We see that, although the running costs of nuclear power are relatively low, the pay-back time is very long. (The pay-back time is how long it takes for the income from selling electricity to cover the cost of building the power station.)
 
-The costof setting upawind farm ismuch lower than the costof building a nuclearpowerstation and there areno fuel costs.However,the amount of energyproduced bywind farmsiscomparatively low.Thepay-backtime for wind generators is thereforequitelong.
+The cost of setting up a wind farm is much lower than the cost of building a nuclear power station and there are no fuel costs. However, the amount of energy produced by wind farms is comparatively low. The pay-back time for wind generators is therefore quite long.
 LOOKING AHEAD
 
-Sometimesphysics is described as the studyof matterand energy.Aswe have stated in this unit,energy,workandpoweraffectusineveryday life We use energy to move things around,keepus warm and tomanufacture things.Asthepopulation of theworld increases the demand forenergy alsoincreases.Fossil fuels are a non-renewable resource and,although newreservesmaybediscovered and newmethodsofextracting these reserves found,theywill run out eventually.
+Sometimes physics is described as the study of matter and energy. As we have stated in this unit, energy, work and power affect us in everyday life. We use energy to move things around, keep us warm and to manufacture things. As the population of the world increases the demand for energy also increases. Fossil fuels are a non-renewable resource and, although new reserves may be discovered and new methods of extracting these reserves found, they will run out eventually.
 
-Energy isneeded tomove an object againsta force.You will learn more about the forcesthatgovern theway theUniverseworks:gravity, how tobreak the forces thathold theatom together,physicistshave madepowerfromnuclearfission.Understandinghowtoforceatoms close enough togetherforthem to form moremassive atomswillprovide uswithnuclearpowerfromfusionreactors.
+Energy is needed to move an object against a force. You will learn more about the forces that govern the way the Universe works: gravity, how to break the forces that hold the atom together, physicists have made power from nuclear fission. Understanding how to force atoms close enough together for them to form more massive atoms will provide us with nuclear power from fusion reactors.
 
-Building experimental fusion reactorsisahuge challenge for engineers and scientists.lf successful theymayprovidea long-termsolution to the fusionreactorcapableof delivering energyon thescale we need hasnot yet been built.
+Building experimental fusion reactors is a huge challenge for engineers and scientists. If successful they may provide a long-term solution to the fusion reactor capable of delivering energy on the scale we need has not yet been built.
 
-Scientists continue to searchfornew solutions toproducing energy and to improving the efficiencyof the deviceswe use to cut down onenergy waste.
+Scientists continue to search for new solutions to producing energy and to improving the efficiency of the devices we use to cut down on energy waste.
 CHAPTER QUESTIONS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 REASONING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
-More questions onenergyresources can befound at the end of Unit 4on page168.
+More questions on energy resources can be found at the end of Unit 4 on page 168.
 
-• Hereisa listofways ofways ofproducing electricity:
+• Here is a list of ways of ways of producing electricity:
 
-• Awind farms
+• A wind farms
 
-• E gas-firedpower stations
+• E gas-fired power stations
 
-• B coal-firedpower stations
+• B coal-fired power stations
 
 • F tidal power stations
 
-• Chydroelectricpower stations
+• C hydroelectric power stations
 
-• Gusing geothermal energy
+• G using geothermal energy
 
-• Dnuclearpowerstations
+• D nuclear power stations
 
-• State which of these produces‘clean'electricity.
+• State which of these produces 'clean' electricity.
 
-• State which of these uses‘fossil'fuels.
+• State which of these uses 'fossil' fuels.
 
-• State which of these usesarenewable energyresource.
+• State which of these uses are renewable energy resource.
 
-• Statewhich of theseproduceswaste thatremainsdangerous topeople and animalsforvery longperiodsof time.
+• State which of these produces waste that remains dangerous to people and animals for very long periods of time.
 
-• From thelistin Question1choose those methodsofproducingelectricity that are only suitablein certainplaces and state the type of location required foreachmethod.
+• From the list in Question 1 choose those methods of producing electricity that are only suitable in certain places and state the type of location required for each method.
 
-• significant advantage of nuclear power overpower stations that bun fossil fuels.
+• significant advantage of nuclear power over power stations that burn fossil fuels.
 
-• aDescribe twoother advantages ofusingnuclearpower.
+• a Describe two other advantages of using nuclear power.
 
-• bDescribe two disadvantages of usingnuclearpower.
+• b Describe two disadvantages of using nuclear power.
 
-• The demand forelectricityvarieson an hourly and a dailybasis.Sometimes twoexamplesofpredictablechangesin demand and two examples of changes in demand that are notpredictable.
+• The demand for electricity varies on an hourly and a daily basis. Sometimes two examples of predictable changes in demand and two examples of changes in demand that are not predictable.
 
-• Electricityisgenerated bya numberof different typesof power station.Give three examplesofdifferenttypesofpowerstation and comparehowwell they are able torespond to sudden changesin demand.
+• Electricity is generated by a number of different types of power station. Give three examples of different types of power station and compare how well they are able to respond to sudden changes in demand.
 
 ## Unit 4: Energy Resources and Energy Transfer
 
@@ -5496,92 +5608,94 @@ An electricmotorisused toraisea load thatweighs800Nthrough a distance of30m.
 (e)
 
 #### UNIT QUESTIONS
-• bCalculate thepower output of the motor if it takes16 s toraise the load.(2)
+• bCalculate the power output of the motor if it takes 16 s to raise the load.(2)
 
-• cThe motor is75%efficient.
+• cThe motor is 75% efficient.
 
 • iExplain what this means.
 
 (2)
 
-• iiCalculate theelectricalpowerthat mustbe supplied to the motor to raise thisload in the time stated.Giveyour answerinkW.
+• iiCalculate the electrical power that must be supplied to the motor to raise this load in the time stated. Give your answer in kW.
 
 (2)
 
-• dDrawa labelled Sankey diagram torepresent the energy transfersthat take place as themotorraises the load.
+• dDraw a labelled Sankey diagram to represent the energy transfers that take place as the motor raises the load.
 
 (3)
 
-(Total forQuestion2=12marks)
+(Total for Question 2 = 12 marks)
 
-The diagram shows a toyrocket launcherthatuses a spring in a tube.
+The diagram shows a toy rocket launcher that uses a spring in a tube.
 
-• aHere are statements that describe the events leading to the launch of the toyrocket:
+• aHere are statements that describe the events leading to the launch of the toy rocket:
 
 • 1spring released
 
-• 2rocket leaveslauncher
+• 2rocket leaves launcher
 
-• 3rocket gainskinetic energy
+• 3rocket gains kinetic energy
 
-• 4spring storeselasticpotential energy
+• 4spring stores elastic potential energy
 
-• 5child doesworksquashing the spring
+• 5child does work squashing the spring
 
-• 6 spring transfers stored energy torocket
+• 6spring transfers stored energy to rocket
 
-Choosefrom the followinglist theletter thatdescribes the events inthe order that they must happen.
+Choose from the following list the letter that describes the events in the order that they must happen.
 
-A156324 B541632 C154632D541623
+A 156324 B 541632 C 154632 D 541623
 
-• bDescribe the energy transfers that takeplace after the rocket leaves the launcher,up toand including whenithitsthe ground.
+• bDescribe the energy transfers that take place after the rocket leaves the launcher, up to and including when it hits the ground.
 
 (1)
 
 (4)
 
-(Total forQuestion3=5marks)
+(Total for Question 3 = 5 marks)
 
 SKILLS
 
-EXECUTIVERINCTION
+EXECUTIVE FUNCTION
 
 REASONING
 
-EXECUTIVEFUNCTION
+EXECUTIVE FUNCTION
 
 5
 
-Astudent wantsto show thatwaterisapoorconductorofheat.Thediagram below shows theinvestigation he sets up.
+A student wants to show that water is a poor conductor of heat. The diagram below shows the investigation he sets up.
 
-Thestudentmeasureshowlongit takesforeachpiece of ice in thewater tomelt.The resultswill helphim to show whether or notwateris a poor conductor.
+The student measures how long it takes for each piece of ice in the water to melt. The results will help him to show whether or not water is a poor conductor.
 
-• aState anything the student should do to make sure this isa fair test.
+• aState anything the student should do to make sure this is a fair test.
 
-• bAssuming that thisis a fair test,in which order doyou think theice will melt,starting with the slowest? Give an explanation foryouranswer.
+• bAssuming that this is a fair test, in which order do you think the ice will melt, starting with the slowest? Give an explanation for your answer.
 
 (e)
 
 (4)
 
-• iiHow can thisinvestigation show thatwaterisapoor conductor?
+• iiHow can this investigation show that water is a poor conductor?
 
 (e)
-(Total for Question4=10 marks)
 
-This question is about PV(photovoltaic)cells.A student wanted find the best angle tosetup aPVcell toget the maximum amountofenergy transferred from the Sun'srays to electrical energy.Here is the apparatusshe set up and the results she obtained.
+#### (Total for Question4=10 marks)
+(Total for Question 4 = 10 marks)
 
-ThePVcell was connected to a load and she measured the current,1 produced by the cell with the cell at different angles,0,to the horizontal.
+This question is about PV (photovoltaic) cells. A student wanted to find the best angle to setup a PV cell to get the maximum amount of energy transferred from the Sun's rays to electrical energy. Here is the apparatus she set up and the results she obtained.
+
+The PV cell was connected to a load and she measured the current, I produced by the cell with the cell at different angles, θ, to the horizontal.
 
 • a State:
 
-• Ithe dependentvariable
+• i the dependent variable
 
 (1)
 
-• ii the independentvariable
+• ii the independent variable
 
-• Illiacontrolvariable.
+• iii a control variable.
 
 (1)
 
@@ -5589,45 +5703,47 @@ SKILLS
 
 INTERPRETATION
 
-PRDBLEM SOLVING
+PROBLEM SOLVING
 
 EXECUTIVE FUNCTION
 
 INTERPRETATION
 
-• bOna graph grid,18cm by22cm,plot a graph of the current produced by thePVcell against the angle of the cell to the horizontal.
+• b On a graph grid, 18 cm by 22 cm, plot a graph of the current produced by the PV cell against the angle of the cell to the horizontal.
 
-• cUse the graph to find:
+• c Use the graph to find:
 
-• ianyanomalousresult
+• i any anomalous result
 
 (5)
 
 (1)
 
-• Ilthe angle toget the maximum output from thePV cellin the set-up shown.
+• ii the angle to get the maximum output from the PV cell in the set-up shown.
 
 (1)
 
-• dWhen installingPVpanelsit isimportant tohave thempointing towards the Sun asyou would expect.In the experimental set-up shown,the lamp ismodelling conditionsin the UKin early March atmidday(when theSun reachesitshighestposition in the sky).
+• d When installing PV panels it is important to have them pointing towards the Sun as you would expect. In the experimental set-up shown, the lamp is modelling conditions in the UK in early March at midday (when the Sun reaches its highest position in the sky).
 
-• 1Howcould the experimentbesetup tomodel differentpositionsof Sun?
+• i How could the experiment be setup to model different positions of Sun?
 
 (1)
 
-• iiThe experiment isrepeated by anotherstudent ata time andplacewhen the Sun is directly overhead atmidday.Sketch a line onyourgraph toshow how this student'sresultsmight appear.Label this line'Sun overhead'
+• ii The experiment is repeated by another student at a time and place when the Sun is directly overhead at midday. Sketch a line on your graph to show how this student's results might appear. Label this line 'Sun overhead'
 
 (3)
 
-(TotalforQuestion5=14marks)
+(Total for Question 5 = 14 marks)
 
 ## Unit 5: Solids, Liquids and Gases
 
 ### Unit 5 divider and chapter map
 
-UNIT5 SOLIDS, LIQUIDSAND GASES
 
-Matter can existin threebasic forms:asa solid,a liquid oragas.In thisphoto all threeare present,thoughwecanonly seethesolidiceberg andtheliquidocean.Fortunately theiceberg issurroundedbygas,themixtureofoxygenandnitrogenthatmakesupouratmosphere.Our atmosphere usuallycontainssomewaterin gas form,which wecannotsee.When gaseouswater in theatmospherecondensesinto tinywaterdropletswecanseetheseasclouds.
+#### UNIT5 SOLIDS, LIQUIDSAND GASES
+UNIT 5 SOLIDS, LIQUIDS AND GASES
+
+Matter can exist in three basic forms: as a solid, a liquid or a gas. In this photo all three are present, though we can only see the solid iceberg and the liquid ocean. Fortunately the iceberg is surrounded by gas, the mixture of oxygen and nitrogen that makes up our atmosphere. Our atmosphere usually contains some water in gas form, which we cannot see. When gaseous water in the atmosphere condenses into tiny water droplets we can see these as clouds.
 
 D
 
@@ -5707,35 +5823,35 @@ Usea half-metre rule to measure thelength,width and height of a regular solid.Wh
 You thenneed to measure the mass of the solid.Use weighing scales for this.
 HINT
 
-Check the units when you are working out density-don't mixupg and m²,for example.Also checkwhich units the question asksforin yourfinal answer.
+Check the units when you are working out density-don't mix up g and m³,for example.Also check which units the question asks for in your final answer.
 
 1kg=1000g
 
-50cm²=0.00005m²
+50cm³=0.00005m³
 
 0.046kg
 
-0.00005m3
+0.00005m³
 
-• =920kg/m3
+• =920kg/m³
 
-To convert kg to g,divide by 1000. 1m²=1000000cm²
+To convert kg to g,divide by 1000. 1m³=1000000cm³
 
-To convert cm tom²,divide by 1000000(or10）.
+To convert cm³ to m³,divide by 1000000(or10⁶).
 
-Altematively,work out the density in g/cm²,thenmultiply your answer by 1000.
+Alternatively,work out the density in g/cm³,then multiply your answer by 1000.
 
 REMINDER
 
-When answering questions,start with theequationyouneed touse in words orrecognised symbols.
+When answering questions,start with the equation you need to use in words or recognised symbols.
 
 46g
 
-50cm3
+50cm³
 
-• =0.92g/cm3
+• =0.92g/cm³
 
-• =920 kg/m3
+• =920 kg/m³
 PRESSUREUNDERA SOLID
 
 You can pusha drawing pinintoapiece of wood quite easily,butyou cannot makeahole in thewood withyourthumb,no matterhowhardyoupush!The small point of the drawingpin concentratesallyourpushingforce into a tiny area,so thepin goes into the wood easily.Similarly,it is easier to cut things with a sharpknife than a blunt one,becausewith a sharpknife all theforce is concentrated into a much smaller area.
@@ -5796,17 +5912,19 @@ Theybothexert anequalpressure.
 • Figure 18.5 a The caterpillar tracks on this vehicle spread its weight over alarge area. bCamels have large feet so they are less likely to sink into loose sand.
 
 Some machines,including cutting tools like scissors,bolt cutters and knives, need toexertahighpressure toworkwell.In otherapplications,a low pressure is important.Tractors and othervehicles designed tomove overmud have large tyres that spread thevehicle'sweight.Thepressure underthe tyres isrelativelylow,so thevehicleis lesslikely to sinkinto the mud.Caterpillar tracksused onbulldozers and otherearth-moving equipment serve a similar purpose.(ln Figure 18.5a the caterpillar tracks are very large.)
-PRESSUREINLIQUIDSANDGASES
 
-The submersible shown inFigure 18.1has avery strong hull towithstand the highpressure exerted onit byseawater.Pressure in liquids acts equallyin all directions,aslong as the liquid isnot moving.You can easily demonstrate this using a can with holespunched around the bottom,as shown inFigure 18.6. When the can isfilledwith water,the waterisforced outequally in all directions.
+#### PRESSUREINLIQUIDSANDGASES
+PRESSURE IN LIQUIDS AND GASES
 
-• Figure 18.8 a When the hemispheres are fullof air,the forces are the same inside and outside.bWhen the airistaken out, thereisonly a forceon the outsideof the hemispheres.
+The submersible shown in Figure 18.1 has a very strong hull to withstand the high pressure exerted on it by seawater. Pressure in liquids acts equally in all directions, as long as the liquid is not moving. You can easily demonstrate this using a can with holes punched around the bottom, as shown in Figure 18.6. When the can is filled with water, the water is forced out equally in all directions.
 
-Gases also exertpressureon things around them.Thepressure exertedby the atmosphereonyourbodyis about 100o00Pa(although thepressurevaries slightly from day to day).However,thepressure inside ourbodiesis similar,so we donotnotice thepressureof theair.
+• Figure 18.8 a When the hemispheres are full of air, the forces are the same inside and outside. b When the air is taken out, there is only a force on the outside of the hemispheres.
 
-• Figure 18.6 Pressure in liquids acts equally in all directions.A can of water with holes can be used to demonstrate this.
+Gases also exert pressure on things around them. The pressure exerted by the atmosphere on your body is about 100000 Pa (although the pressure varies slightly from day to day). However, the pressure inside our bodies is similar, so we do not notice the pressure of the air.
 
-One of thefirst demonstrationsof the effects of airpressurewascarried out byOttovan Guerickein 1654,inMagdeburg.Germany.VanGuerickehad two large metal bowls made,put them togetherand thenpumped the air out.The bowls could not bepulled apart,even when he attached two teams of horses tothebowls.
+• Figure 18.6 Pressure in liquids acts equally in all directions. A can of water with holes can be used to demonstrate this.
+
+One of the first demonstrations of the effects of air pressure was carried out by Otto von Guericke in 1654, in Magdeburg, Germany. Van Guericke had two large metal bowls made, put them together and then pumped the air out. The bowls could not be pulled apart, even when he attached two teams of horses to the bowls.
 
 • Figure 18.7 Van Guericke's experiment at Magdeburg
 
@@ -5863,25 +5981,27 @@ The densityof mercury is 13600kg/m3. Take the gravitational field strength as 10
 EXTENSION WORK
 
 The unit forpressure isnamed after Blaise Pascal(1623-1662).He was the first person to demonstrate that air pressure decreases with height.Hepersuaded his brother-in-law to take a mercury barometerup a mountain and measure the air pressure at different stagesin the climb.He also arranged for someone at the base of themountain to measure the airpressure at different times during the day.The measurements showed that the pressure of the air does decrease asyou climb.
-LOOKINGAHEAD-WEATHERANDPRESSURE
 
-• Figure 18.12 Weather maps show isobars (lines of equal air pressure).The centre of hurricaneKatrina is a very lowpressure region surrounded by isobars that are very close together.The result of the pressure difference is very strong winds.
+#### LOOKINGAHEAD-WEATHERANDPRESSURE
+LOOKING AHEAD - WEATHER AND PRESSURE
 
-• Figure 18.13 Tomados regularly cause huge amounts of damage inmany parts of the world.
+• Figure 18.12 Weather maps show isobars (lines of equal air pressure). The centre of hurricane Katrina is a very low pressure region surrounded by isobars that are very close together. The result of the pressure difference is very strong winds.
 
-Variationsin atmosphericpressure are partlyresponsiblefor the weather systems around theworld.Meteorologistsproducemaps showing how atmosphericpressurevaries fromplace toplace to help themmake predictions about future weather systems.Regions of low pressure produce windsas air flows from surrounding areas ofhigh pressure.
+• Figure 18.13 Tornadoes regularly cause huge amounts of damage in many parts of the world.
 
-Sometimes the wind speeds cause violent weathersystems with tomadoes and hurricanes causing extensive damage and loss of life.Physics providesimportant toolsto enablemeteorologists tomake moreaccurate predictionsaboutwhen and where these devastating eventswill occur.
+Variations in atmospheric pressure are partly responsible for the weather systems around the world. Meteorologists produce maps showing how atmospheric pressure varies from place to place to help them make predictions about future weather systems. Regions of low pressure produce winds as air flows from surrounding areas of high pressure.
 
-Morequestions on densityandpressure can be found at the end of Unit 5on page 193.
+Sometimes the wind speeds cause violent weather systems with tornadoes and hurricanes causing extensive damage and loss of life. Physics provides important tools to enable meteorologists to make more accurate predictions about when and where these devastating events will occur.
 
-• 1A Greekscientist called Archimedeswasasked to checkthepurity of the gold in a crown.He did thisby comparing the densityof the crown with the density of pure gold.
+More questions on density and pressure can be found at the end of Unit 5 on page 193.
 
-• Describe howhecould havemeasured the densityofan irregular-shaped objectsuchasacrown.
+• 1 A Greek scientist called Archimedes was asked to check the purity of the gold in a crown. He did this by comparing the density of the crown with the density of pure gold.
 
-• bPuregold hasa density of 19000kg/m.Suppose the crownhad a volume of0.0o01m.What mass should the crown beif it ismade of pjobeund
+• Describe how he could have measured the density of an irregular-shaped object such as a crown.
 
-• 2Peopleworking on theroofsofbuildingsoftenlayaladderorplankofwood on theroof.They walkon theladderrather than theroofitself.
+• b Pure gold has a density of 19000 kg/m³. Suppose the crown had a volume of 0.001 m³. What mass should the crown be if it is made of pure gold?
+
+• 2 People working on the roofs of buildings often lay a ladder or plank of wood on the roof. They walk on the ladder rather than the roof itself.
 
 #### LOOKINGAHEAD-WEATHERANDPRESSURE
 • aExplainwhyusingaladderorplankwill help topreventdamage to the roof.
@@ -5927,37 +6047,39 @@ PHYSICS ONLY
 capacityxchangein temperature
 Q=mXCx△T
 
-Practical:investigate the specificheat capacity of materials including water and some solids
+Practical: investigate the specific heat capacity of materials including water and some solids
 
-• Explain how molecules in a gas have randommotion and that they exert a force and hence a pressure on the walls ofa container
+• Explain how molecules in a gas have random motion and that they exert a force and hence a pressure on the walls of a container
 
-• Understand why there isan absolute zeroof temperature whichis-273°C
+• Understand why there is an absolute zero of temperature which is -273°C
 
-• Describe theKelvin scale of temperature and be ableto convert between theKelvin and Celsius scales
+• Describe the Kelvin scale of temperature and be able to convert between the Kelvin and Celsius scales
 
-• Understand why an increase in temperature results in an increase in the average speedofgasmolecules
+• Understand why an increase in temperature results in an increase in the average speed of gas molecules
 
-• Know that theKelvin temperatureofa gasisproportional to the averagekineticenergyof itsmolecules
+• Know that the Kelvin temperature of a gas is proportional to the average kinetic energy of its molecules
 
-• Explain,for afixed amount of gas,the qualitative relationship between:
+• Explain, for a fixed amount of gas, the qualitative relationship between:
 
 • pressure and volume at constant temperature
 
-• pressure andKelvin temperature at constant volume
+• pressure and Kelvin temperature at constant volume
 
-• Use the relationshipbetween thepressure and Kelvin temperature ofa fixed massof gasat constant volume:
+• Use the relationship between the pressure and Kelvin temperature of a fixed mass of gas at constant volume:
 
-• Use the relationship between the pressure andvolume of
+• Use the relationship between the pressure and volume of
 
 • a fixed mass of gas at constant temperature:
 PHYSICS ONLY
 
 We thinkthat all matterismadeupof tinyparticles thatare moving.Theway that theparticlesare arranged and theway that theymovedetermine the propertiesofamaterial,such asitsstate atroom temperatureorits density.
-THESTATESOFMATTER
 
-Some ofthepropertiesofasubstancedependon the chemicalsit ismade from.However,substances can exist in different states.The main states of matterare solid,liquid and gas.We are used to finding some substances in each stateineverydaylife-forexample,waterisfamiliarasice,aswaterand assteam.There are other substances thatweusually see in only one state -for example,we rarely see iron in any state otherthan solid,or experience oxygen inany stateotherthanasgas.
+#### THESTATESOFMATTER
+THE STATES OF MATTER
 
-boiling,freezing and condensing.
+Some of the properties of a substance depend on the chemical it is made from. However, substances can exist in different states. The main states of matter are solid, liquid and gas. We are used to finding some substances in each state in everyday life - for example, water is familiar as ice, as water and as steam. There are other substances that we usually see in only one state - for example, we rarely see iron in any state other than solid, or experience oxygen in any state other than as gas.
+
+boiling, freezing and condensing.
 
 Figure 19.2 Changes of state
 PROPERTIESOFTHEDIFFERENTSTATESOFMATTER
@@ -6041,73 +6163,77 @@ change in thermal energy,△Q (joules）=mass,m (kilograms)xspecific heat capaci
 △Q=mxCx△0
 EXAMPLE1
 
-Ifyou fillakettle with300g ofwaterat aninitial temperatureof15°C,how much energy isneeded to make the water heat up toboiling?The s.h.c.of water is 4200 J/kg°C.
+If you fill a kettle with 300g of water at an initial temperature of 15°C, how much energy is needed to make the water heat up to boiling? The s.h.c. of water is 4200 J/kg°C.
 
-Writedown whatyouknow:
+Write down what you know:
 
-m=0.3kg (you must workin consistent units)
+m=0.3kg (you must work in consistent units)
 
-C=4200J/kg°℃
+C=4200J/kg°C
 
-and,astheboilingpointofwateris100°C,△θ=85°C
+and, as the boiling point of water is 100°C, △θ=85°C
 
-Write down the equationyou are using(nomarksfor this asitisa given equation):
+Write down the equation you are using (no marks for this as it is a given equation):
 
-△Q=mxcx△θ
+△Q=m×c×△θ
 
-Substitute the correctvalues into the equation (this will normally attract a method mark).
+Substitute the correct values into the equation (this will normally attract a method mark).
 
-△Q=0.3kgx4200J/kg°Cx85°C
+△Q=0.3kg×4200J/kg°C×85°C
 
-Now complete the calculation and include the correctunit inyour answer.
+Now complete the calculation and include the correct unit in your answer.
 
 △Q=107100J
-PRACTICAL:INVESTIGATETHESPECIFICHEATCAPACITY OFASUBSTANCE
 
-Rearranging the equation above tomake cthe subject we get:
+#### PRACTICAL:INVESTIGATETHESPECIFICHEATCAPACITY OFASUBSTANCE
+PRACTICAL: INVESTIGATE THE SPECIFIC HEAT CAPACITY OF A SUBSTANCE
+
+Rearranging the equation above to make c the subject we get:
 
 So we must:
 
-• measure the mass,m,in kg of the substance under test using electronic scales
+• measure the mass, m, in kg of the substance under test using electronic scales
 
-• measure the initial temperature and the final temperature,using a thermometertofind△eC
+• measure the initial temperature and the final temperature, using a thermometer to find △t°C
 
-• determine the amount of thermalenergy supplied-thisis usually done withanelectricimmersionheaterasshown below.
+• determine the amount of thermal energy supplied - this is usually done with an electric immersion heater as shown below.
 
 Figure 19.4 Apparatus for measuring the specific heat capacity of a substance
 
-Figure 19.4 shows typicalapparatus forfinding the s.h.c.ofametal. Acylinderof themetal is drilled toallowan electricheaterand a thermometer tobeinsertedasshown.Useabalance to find the mass of the cylinderand a thermometer tomeasure its temperature.Turn the heater on and measure the voltage,V(volts),supplied to theheater,the current drawn,/(amps),and thelength of time,t(seconds),the heater is on.Makea note of the highest temperature reached and calculate△e,the rise in temperature.
+Figure 19.4 shows typical apparatus for finding the s.h.c. of a metal. A cylinder of the metal is drilled to allow an electric heater and a thermometer to be inserted as shown. Use a balance to find the mass of the cylinder and a thermometer to measure its temperature. Turn the heater on and measure the voltage, V (volts), supplied to the heater, the current drawn, I (amps), and the length of time, t (seconds), the heater is on. Make a note of the highest temperature reached and calculate △t, the rise in temperature.
 
-The thermal energy supplied by the heater is△Q=Vx/xt（page 65).
+The thermal energy supplied by the heater is △Q = V × I × t (page 65).
 
-Substitute the measuredvaluesform,△Qand△einto theequation shown above and calculate the s.h.c.
+Substitute the measured values for m, △Q and △t into the equation shown above and calculate the s.h.c.
 
-The insulationisused to cut down heat losses to the surroundings.
+The insulation is used to cut down heat losses to the surroundings.
 
-Thismethod can beused to measure the s.h.c.of water,with a weighed amount(m)ofwater inbeaker(with a lid and insulation).The water can beheatedwithanimmersionheaterandheatenergygiven to thewater calculated in the same way(△Q=Vit).The temperature increase is measuredwithathermometer.
-EXAMPLE2
+This method can be used to measure the s.h.c. of water, with a weighed amount (m) of water in beaker (with a lid and insulation). The water can be heated with an immersion heater and heat energy given to the water calculated in the same way (△Q = VIt). The temperature increase is measured with a thermometer.
 
-In an experiment to measure the specificheatcapacity ofaluminium,a thermal energy.At the end of thisheating the temperature had risen to 50°C.Calculate the s.h.c.ofaluminium.
+#### EXAMPLE2
+EXAMPLE 2
 
-Writedown whatyou know:
+In an experiment to measure the specific heat capacity of aluminium, a thermal energy. At the end of this heating the temperature had risen to 50°C. Calculate the s.h.c. of aluminium.
 
-m=0.5kg
+Write down what you know:
 
-Q=16500J
+m = 0.5 kg
 
-temperaturerisefrom20°Cto50°Cis△0=30°C
+Q = 16500 J
 
-Substitute thesevaluesinto the given equation:
+ temperature rise from 20°C to 50°C is △0 = 30°C
 
-16500J
+Substitute these values into the given equation:
 
-0.5kgx30°℃
+16500 J
 
-and calculate thevalue:
+0.5 kg x 30°℃
 
-c=1100J/kg°C
+and calculate the value:
 
-Asheat will still be lost and some of the heat energy suppliedheats the immersionheaterand the thermometer,then thisanswerislarger than the expectedvalueof900J/kg°C
+c = 1100 J/kg°C
+
+As heat will still be lost and some of the heat energy supplied heats the immersion heater and the thermometer, then this answer is larger than the expected value of 900 J/kg°C
 EXAMPLE3
 
 To determine the specificheat capacity of water,1 litre of water(mass, m,=1kg)ata starting temperature of20°Cispoured intoanelectric kettlewith apowerof2.4kW.The water in thekettle justreachesboiling point after 2yminutes.Use this information to calculate the s.h.c.of water.
@@ -6134,9 +6260,11 @@ Substitute these values into the given equation:
 and calculate thevalue:
 
 The answer will be higher than the accepted value because of heat losses to the surroundings and the energy that isused to heat thekettle itself.
-THEENERGYINVOLVEDIN CHANGEOFSTATE
 
-riseand thisisgenerally true.
+#### THEENERGYINVOLVEDIN CHANGEOFSTATE
+THE ENERGY INVOLVED IN CHANGE OF STATE
+
+rise and this is generally true.
 PRACTICAL:INVESTIGATETEMPERATUREDURINGA CHANGEOFSTATE
 
 The following two experimentsshow situationswhere this isnot the case.
@@ -6144,24 +6272,26 @@ The following two experimentsshow situationswhere this isnot the case.
 Figure 19.5 a Heating water; b Heating solid naphthalene
 DOMLE'SUAY
 
-Figure 19.6 Robert Boyle (1627-1691) was an Anglo-lrish chemist and philosopher. As well as discovering the law that bears his name,he worked with Robert Hooke at Oxford developing the air pump.
+Figure 19.6 Robert Boyle (1627-1691) was an Anglo-Irish chemist and philosopher. As well as discovering the law that bears his name, he worked with Robert Hooke at Oxford developing the air pump.
 
-Figure 19.5shows two experimentsinvolvinga change of state.In Figure 19.5awaterisbeing heated continuously.Thewater temperature rises until thewater starts toboiland thenremains constant until all the waterhasbeen turned from liquid togas.The energy supplied is doingworkseparating thewatermolecules.InFigure 19.5bnaphthalene (used to make moth balls),whichhasa melting point of 80°C,isbeing heated continuouslyin abeakerofwater.The temperature of the solid naphthalene rises until it starts tomelt.Until all the naphthalene has melted,its temperature remainsconstant.The temperature will start to rise againwhen all the naphthalene is in the liquid state.
+Figure 19.5 shows two experiments involving a change of state. In Figure 19.5a water is being heated continuously. The water temperature rises until the water starts to boil and then remains constant until all the water has been turned from liquid to gas. The energy supplied is doing work separating the water molecules. In Figure 19.5b naphthalene (used to make moth balls), which has a melting point of 80°C, is being heated continuously in a beaker of water. The temperature of the solid naphthalene rises until it starts to melt. Until all the naphthalene has melted, its temperature remains constant. The temperature will start to rise again when all the naphthalene is in the liquid state.
 
-Thethermalenergy supplied isused toovercome the forcesbetween the moleculesoftheliquid inthecaseofwater andbetween themoleculesofthe solid in the case ofnaphthalene.lf we allow the naphthalene tocool down,its temperaturewill dropuntil thenaphthalenestartsto tunbackintoasolid and will not start to fall again untilallthe liquid has tumedbackto solid.During any change of state,melting or freezing （solidifying),boiling or condensing (tuming backfrom gas to liquid),the temperature remains constant.
-THEGASLAWS
+The thermal energy supplied is used to overcome the forces between the molecules of the liquid in the case of water and between the molecules of the solid in the case of naphthalene. If we allow the naphthalene to cool down, its temperature will drop until the naphthalene starts to turn back into a solid and will not start to fall again until all the liquid has turned back to solid. During any change of state, melting or freezing (solidifying), boiling or condensing (turning back from gas to liquid), the temperature remains constant.
 
-We arenow going tofocus our attention on thepropertiesofgases.We shall explain the differentpropertiesin termsof themovement ofparticles.
+#### THEGASLAWS
+THE GAS LAWS
 
-Wehave already said that gases are made up ofmolecules that are moving. We believe that theparticles ingases are spread out and constantlymoving in a random,haphazard way.
+We are now going to focus our attention on the properties of gases. We shall explain the different properties in terms of the movement of particles.
 
-When themoleculeshit the wallsofa container they exert a force.The combined effectof the huge numberofcollisionsresultsin the pressure that is exerted on thewallsof thecontainer.
+We have already said that gases are made up of molecules that are moving. We believe that the particles in gases are spread out and constantly moving in a random, haphazard way.
 
-The scientist Robert Boyle(Figure 19.6) discovered something thatyou have probablynoticedifyou have everused abicyclepump:airissquashy! He noticed thatyou cansqueeze airina cylinder and that it springsback toits original volumewhenyou release it.Youcan try thisforyourselfwith aplastic syringe (Figure 19.7).
+When the molecules hit the walls of a container they exert a force. The combined effect of the huge number of collisions results in the pressure that is exerted on the walls of the container.
 
-• Figure 19.8 A modem version of Boyle's experiment to seehow the volumeof agas depends on the pressure exerted onit.
+The scientist Robert Boyle (Figure 19.6) discovered something that you have probably noticed if you have ever used a bicycle pump: air is squashy! He noticed that you can squeeze air in a cylinder and that it springs back to its original volume when you release it. You can try this for yourself with a plastic syringe (Figure 19.7).
 
-Eyeprotection isneeded in case any tubing leaks or detaches,which will cause gas underhigh pressure to be ejected.
+• Figure 19.8 A modern version of Boyle's experiment to see how the volume of a gas depends on the pressure exerted on it.
+
+Eye protection is needed in case any tubing leaks or detaches, which will cause gas under high pressure to be ejected.
 HINT
 
 You can do all your working inkPa if you wish,rather than converting the pressure to pascals.You can also use cubiccentimetresforvolumeif these units aregiven in thequestion.It does notmatterwhich unitsyou use,aslong asyou use the same ones throughout the question.
@@ -6289,35 +6419,35 @@ When we cool agas thekinetic energy ofitsparticles decreases.Thelower the temper
 More questions on solids,liquids and gasescanbe found at the endof Unit5 onpage 193.
 PHYSICS ONLY
 
-• Drawupa table to summarise theway thatparticlesare arranged in solids,liquids and gases.
+• Draw up a table to summarise the way that particles are arranged in solids, liquids and gases.
 
-• bHowdo these different arrangementsofparticlesexplain thephysical properties of solids,liquids and gases?
+• b How do these different arrangements of particles explain the physical properties of solids, liquids and gases?
 
-• 2Copy and complete the followingparagraph about theparticle theory of matter.
+• 2 Copy and complete the following paragraph about the particle theory of matter.
 
-Matterismadeup of
+Matter is made up of
 
 that are in continuous
 
 When we
 
-supplyheat energy tomatter the
+supply heat energy to matter the
 
 move
 
-Gases exerta
+Gases exert a
 
-pressure on their containersbecause the
+pressure on their containers because the
 
 are continually
 
 with
 
-the walls.The pressure will
+the walls. The pressure will
 
-when the gas isheated ina container of
+when the gas is heated in a container of
 
-fixed volumebecause the
+fixed volume because the
 
 are moving
 
@@ -6325,25 +6455,25 @@ SKILLS
 
 ANALYSIS
 
-• Explainhowideasaboutparticles can account for the absolute zero of temperature.
+• Explain how ideas about particles can account for the absolute zero of temperature.
 
-• 4.aConvert the following Celsius temperatures toKelvin temperatures.
+• 4. a Convert the following Celsius temperatures to Kelvin temperatures.
 
-• 0.0
+• 0.0°C
 
-• 100°℃
+• 100°C
 
-20℃
+• 20°C
 
-• bConvert the followingKelvin temperatures to Celsiustemperatures.
+• b Convert the following Kelvin temperatures to Celsius temperatures.
 
-1250K
+• 1250K
 
 • 269K
 
-305K
+• 305K
 
-• 5State what happensin the situations shown in the diagram.Explainyour answersusingideasaboutparticles.
+• 5 State what happens in the situations shown in the diagram. Explain your answers using ideas about particles.
 PHYSICS ONLY
 
 • 6aAfixedamountofgasoccupiesavolumeof500mwhenundera pressure of 100kPa.Calculate the volume that this amount of gas will occupywhen itspressure isincreased to 125kPa.You should show each stage ofyour calculation.
@@ -6364,113 +6494,117 @@ SKILLS
 
 PROBLEM SOLVING
 
-• aArectangularblockofmetalof density8000kg/m²measures2cmby3cm by10 cm.What is the massof the block?
+• A rectangular block of metal of density 8000kg/m³ measures 2cm by 3cm by 10 cm. What is the mass of the block?
 
-• A48g
+• A 48g
 
-• B0.48kg
+• B 0.48kg
 
-• C4.8kg
+• C 4.8kg
 
-• D48kg
+• D 48kg
 
 (1)
 
-• bWhich of the followingwill exert the greatest pressure when standing on the punob
+• b Which of the following will exert the greatest pressure when standing on the punob
 
-• Aan elephant:weight 50000N,area of one foot 0.2m²
+• A an elephant: weight 50000N, area of one foot 0.2m²
 
-• Batmosphericpressure:105Pa
+• B atmospheric pressure: 10⁵Pa
 
-• Cballerina:weight 450 N,on onepoint,area 0.0015m²
+• C ballerina: weight 450 N, on one point, area 0.0015m²
 
-• Dman:weight 800 N,area ofone foot 0.025m²
+• D man: weight 800 N, area of one foot 0.025m²
 
 CRITICAL THINKING
 
-• cWhich of the following descriptionsmost accuratelydescribesa gas?
+• c Which of the following descriptions most accurately describes a gas?
 
 INTERPRETATION
 
-• Avery low density,easily compressed,cannot flow
+• A very low density, easily compressed, cannot flow
 
-• B high density,cannot be compressed,definite shape
+• B high density, cannot be compressed, definite shape
 
-• Cvery low density,easily compressed,expands tofillavailable space
+• C very low density, easily compressed, expands to fill available space
 
-• Dhigh density，difficult to compress,can flow
-
-(1)
-
-• dThe specificheat capacity ofa liquid is
-
-• A the amount of heatenergy required to make 1kilogram of theliquid boil
-
-• B the amount of heat energy required to raise the temperature of 1 kilogram of theliquidby1°F
-
-• of theliquidby1°C
-
-• Dthe amount of heat energyrequired toraise the temperature of 1oo0 cma of the liquidby1°C (1)
-
-• eBoyle'slawstatesthat
-
-• Aif you double the pressure on a gasitsvolume doubles
-
-• Bifyou double thepressure onagas itstemperature halves
-
-• temperature is constant
-
-• Dif you double thepressure onagasitsvolumehalvesprovided its temperature is constant
+• D high density, difficult to compress, can flow
 
 (1)
 
-(Total forQuestion 1=5marks)
+• d The specific heat capacity of a liquid is
 
-Look at the diagrambelowshowing a small gasbubble in aglassof fizzy drink, like cola.
+• A the amount of heat energy required to make 1 kilogram of the liquid boil
 
-• a Copy the diagram and use eightarrows to showshow thepressure of the liquidactson thegasbubble.
+• B the amount of heat energy required to raise the temperature of 1 kilogram of the liquid by 1°F
+
+• C the amount of heat energy required to raise the temperature of 1 kilogram of the liquid by 1°C
+
+• D the amount of heat energy required to raise the temperature of 1000 cm³ of the liquid by 1°C (1)
+
+• e Boyle's law states that
+
+• A if you double the pressure on a gas its volume doubles
+
+• B if you double the pressure on a gas its temperature halves
+
+• C if you double the pressure on a gas its volume doubles provided its temperature is constant
+
+• D if you double the pressure on a gas its volume halves provided its temperature is constant
+
+(1)
+
+(Total for Question 1 = 5 marks)
+
+Look at the diagram below showing a small gas bubble in a glass of fizzy drink, like cola.
+
+• a Copy the diagram and use eight arrows to show how the pressure of the liquid acts on the gas bubble.
 
 SKILLS
 
 REASONING
 
-EXECUTIVEFUNCTION
+EXECUTIVE FUNCTION
 
 CRITICAL THINKING
 
-EXECUTIVEFUNCTION
+EXECUTIVE FUNCTION
 
 PROBLEM SOLVING
 
 3
 
-• Describewhat happens to thebubble asit floatsup towardsthe topof the drinkand explain thereason foryouranswer(assume that the amount of gasin the bubble doesnot change as the bubblerises up through the cola). (3)
-（Total forQuestion2=5marks)
+• Describe what happens to the bubble as it floats up towards the top of the drink and explain the reason for your answer (assume that the amount of gas in the bubble does not change as the bubble rises up through the cola). (3)
 
-Thediagram showspart of theapparatususedbya student to find the density ofa stone.
+#### （Total forQuestion2=5marks)
+（Total for Question 2 = 5 marks)
 
-• IWhat is the studentmeasuring?
+The diagram shows part of the apparatus used by a student to find the density of a stone.
 
-(1)
-
-• ilWhatotherpieceofapparatusisrequired tocompletethe measurement?
-
-• IlWhatprecautions should the student take to ensure that the measurement is accurate?
-
-• IState the equation that the student needs to calculate the density of the stone.
+• (i) What is the student measuring?
 
 (1)
 
-• iiWhatothermeasurement must bemade?State the nameof the apparatusneeded to make thismeasurement.
+• (ii) What other piece of apparatus is required to complete the measurement?
+
+• (iii) What precautions should the student take to ensure that the measurement is accurate?
+
+• (iv) State the equation that the student needs to calculate the density of the stone.
 
 (1)
-(Total forQuestion3=5marks)
 
-The diagramshowsa simple mercurybarometermadebyfilling a strong glass tube with mercury and tuming it upside down(with the open end of the tube closed) in a dishof mercury and then opening the end below the level of mercury in the dish.Mercuryruns out of the tube until thepressure of the mercury atXis equal to thepressure of the air acting on the surface of the mercury in the dish.
+• (v) What other measurement must be made? State the name of the apparatus needed to make this measurement.
 
-The height,h,of mercury in the tube is a measure of air （atmospheric) pressure.A typical value for h is 76 cm.
+(1)
 
-The density of mercuryis 13600kg/m.Use this value to calculate the atmospheric pressure in Pa (pascals).
+#### (Total forQuestion3=5marks)
+(Total for Question 3 = 5 marks)
+
+The diagram shows a simple mercury barometer made by filling a strong glass tube with mercury and turning it upside down (with the open end of the tube closed) in a dish of mercury and then opening the end below the level of mercury in the dish. Mercury runs out of the tube until the pressure of the mercury at X is equal to the pressure of the air acting on the surface of the mercury in the dish.
+
+The height, h, of mercury in the tube is a measure of air (atmospheric) pressure. A typical value for h is 76 cm.
+
+The density of mercury is 13600 kg/m³. Use this value to calculate the atmospheric pressure in Pa (pascals).
 
 SKILLS
 
@@ -6478,35 +6612,37 @@ INTERPRETATION
 
 ANALYSIS
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
 REASONING
 
 6
 PHYSICS ONLY
 
-Abeaker filledwithwaterinitiallyat20°Ciscooled ina freezeruntil its temperature drops to-20°C(the temperature inside the freezer).The temperaturein thebeakerismeasuredwith adigital thermometerand recorded atregularintervalsuntilitreaches-20°C.
+A beaker filled with water initially at 20°C is cooled in a freezer until its temperature drops to -20°C (the temperature inside the freezer). The temperature in the beaker is measured with a digital thermometer and recorded at regular intervals until it reaches -20°C.
 
 freezer
 
-• aCopy the graph axesshown and sketch how the temperature of the contentsof the beaker changeswith time from its starting temperature of +20°Cuntilitreaches-20°C.
+• a Copy the graph axes shown and sketch how the temperature of the contents of the beaker changes with time from its starting temperature of +20°C until it reaches -20°C.
 
 (5)
 
-• bReferring toyoursketchgraphexplain whathappensto the water asit is cooledfrom20°Cto-20°C.
+• b Referring to your sketch graph explain what happens to the water as it is cooled from 20°C to -20°C.
 
 (5)
-(Total forQuestion 5=10 marks)
 
-An electrickettleratedat2.5kWofmass0.5kg contains1.5kgofwaterat 20°C.Thekettle is turned on and thekettle and itscontents are heated to 100°C.
+#### (Total forQuestion 5=10 marks)
+(Total for Question 5 = 10 marks)
 
-The s.h.c.(specific heat capacity) of the metal the kettle is made of is 500J/kg°C and the s.h.c.of water is 4200 J/kg°C.
+An electric kettle of mass 0.5 kg contains 1.5 kg of water at 20°C. The kettle is turned on and the kettle and its contents are heated to 100°C.
 
-• aCalculate the total amountofheatenergyneeded. (5)
+The s.h.c. (specific heat capacity) of the metal the kettle is made of is 500 J/kg°C and the s.h.c. of water is 4200 J/kg°C.
 
-• Howlongmustthekettlebeswitched on for toheatthekettleandwater to 100°C? Giveyour answerin minutes to two significantfigures. (4)
+• a Calculate the total amount of heat energy needed. (5)
 
-• cInpractice it will take longerthanthis toboil thewaterin thekettle. Explain why. (1)
+• How long must the kettle be switched on for to heat the kettle and water to 100°C? Give your answer in minutes to two significant figures. (4)
+
+• c In practice it will take longer than this to boil the water in the kettle. Explain why. (1)
 HINT
 
 Youmay need to refer to Chapter 2 to find therelationship between electrical power, energy and time.
@@ -6519,9 +6655,11 @@ END OFPHYSICS ONLY
 
 ### Unit 6 divider and chapter map
 
-UNIT6 MAGNETISMAND ELECTROMAGNETISM
 
-asabridgeoffirethatconnected theEarth tothesky.Nowadaysweknowitiscausedbycharged particles,emittedbytheSun,interactingwiththeEarth'smagneticfield andatmosphere.Inthis sectionwewillbelookingatmagnetismandthecrucialroleitplaysinoureverydaylives.
+#### UNIT6 MAGNETISMAND ELECTROMAGNETISM
+UNIT 6 MAGNETISM AND ELECTROMAGNETISM
+
+as a bridge of fire that connected the Earth to the sky. Nowadays we know it is caused by charged particles, emitted by the Sun, interacting with the Earth's magnetic field and atmosphere. In this section we will be looking at magnetism and the crucial role it plays in our everyday lives.
 
 ## Unit 6: Magnetism and Electromagnetism
 
@@ -6565,25 +6703,27 @@ In this section you will need to use ampere (A)as the unit of current,volt (M) a
 • Figure 20.2 Magnets attract some objects and not others.
 MAGNETS
 
-The strongest parts ofa magnet are called itspoles.Most magnetshave two poles.These are called thenorth pole and the southpole.
+The strongest parts of a magnet are called its poles. Most magnets have two poles. These are called the north pole and the south pole.
 
-If two similarpolesareplaced neartoeachother theyrepel.lf twodissimilar (opposite)poles areplacednearto eachother they attract.
+If two similar poles are placed near to each other they repel. If two dissimilar (opposite) poles are placed near to each other they attract.
 
 • Figure 20.3 Similar poles repel and opposite poles attract.
 
-Permanentmagnetslikethebarmagnetsshown inFigure20.3aremadefrom amagneticallyhard material such assteel.A magneticallyhard material keeps andisnot suitableforapermanent magnet.Magneticallysoftmaterialslose theirmagnetismeasily and are therefore usefulas temporarymagnets.
+Permanent magnets like the bar magnets shown in Figure 20.3 are made from a magnetically hard material such as steel. A magnetically hard material keeps and is not suitable for a permanent magnet. Magnetically soft materials lose their magnetism easily and are therefore useful as temporary magnets.
 EXTENSION WORK
 
 Ancient travellers would construct a basic compass byplacing a splinter (thinpiece)of magnetisedrockcalled lodestone onto apieceofwoodfloating in water.The splinter would tum to point in the direction ofnorth-south. The end pointing towards the north was called thenorth pole.
-PRACTICAL:INVESTIGATETHEMAGNETICFIELDPATTERNSOFBARMAGNETS
 
-• Placeabarmagnetbetween twobooks andplaceasheetofpaperorthin card overit.
+#### PRACTICAL:INVESTIGATETHEMAGNETICFIELDPATTERNSOFBARMAGNETS
+PRACTICAL: INVESTIGATE THE MAGNETIC FIELD PATTERNS OF BAR MAGNETS
 
-• 2Sprinklesome iron filingson thepaperabove themagnet.
+• Place a bar magnet between two books and place a sheet of paper or thin card over it.
 
-• 3Tap the papervery gently.
+• 2 Sprinkle some iron filings on the paper above the magnet.
 
-• 4The iron filingswill move toshowthemagneticfieldpatterm.
+• 3 Tap the paper very gently.
+
+• 4 The iron filings will move to show the magnetic field pattern.
 OR
 
 • 1Place a bar magnet on apiece of paper.
@@ -6611,17 +6751,21 @@ The magneticfield lines:
 • show the strengthof themagneticfield-thefield lines areclosest together where themagneticfield is strongest.
 
 Avoid skin contactwith iron filings since they iritate the skin.Do not blow them off the paper,because they may get into the eyes,which is very painful.
-MAGNETICFIELDS
 
-Around everymagnetthereisavolumeofspacewherewecandetect magnetism.Thisvolume of space is called a magnetic field.Normallya magneticfield cannotbeseenbutwecan useironfilingsorplotting compasses toshowitsshape and discoversomething aboutitsstrengthand direction.
+#### MAGNETICFIELDS
+MAGNETIC FIELDS
 
-in each position, the needle of the plotting compass lines up with the field line,pointing from north to south
+Around every magnet there is a volume of space where we can detect magnetism. This volume of space is called a magnetic field. Normally a magnetic field cannot be seen but we can use iron filings or plotting compasses to show its shape and discover something about its strength and direction.
+
+in each position, the needle of the plotting compass lines up with the field line, pointing from north to south
 EXTENSION WORK
 
 PointXinFigure 20.6is calleda neutral point.It is a position where the effectsof the twomagneticfieldshave cancelled each otherout,meaning that there is no resultant magnetic field here.Can you find any other neutral points in these magnetic field pattems?
-OVERLAPPINGMAGNETICFIELDS
 
-If twomagnetsareplaced neareach other,theirmagneticfieldsoverlap and affecteach other.We caninvestigatethisusing iron filingsorplotting compasses.Figure 20.6 shows thedifferent fieldpatterns we would see.
+#### OVERLAPPINGMAGNETICFIELDS
+OVERLAPPING MAGNETIC FIELDS
+
+If two magnets are placed near each other, their magnetic fields overlap and affect each other. We can investigate this using iron filings or plotting compasses. Figure 20.6 shows the different field patterns we would see.
 
 a
 
@@ -6706,48 +6850,50 @@ INTERPRETATION,
 
 REASONING
 
-CRITICALTHINKING
-Circuitbreaker
+CRITICAL THINKING
 
-Circuit breakers also use electromagnets.The circuit breakerin Figure 20.16 uses electromagnetism tocut off the current if itbecomeslarger thana certainvalue.If the current is toohigh the electromagnet becomesstrong enough topull theiron catch out ofposition sothat the contactsopen and the circuit breaks.Once the problem in the circuithasbeen corrected the catchisrepositioned bypressing theresetbutton.
+#### Circuitbreaker
+Circuit breaker
+
+Circuit breakers also use electromagnets. The circuit breaker in Figure 20.16 uses electromagnetism to cut off the current if it becomes larger than a certain value. If the current is too high the electromagnet becomes strong enough to pull the iron catch out of position so that the contacts open and the circuit breaks. Once the problem in the circuit has been corrected the catch is repositioned by pressing the reset button.
 
 • Figure 20.16 a The circuit breaker allows a normal sized current. b When there is too large a current the circuit becomes incomplete.
 
-• Figure 20.17 These circuit breakers control the supply of electricity to different circuits in a building.The circuit breaker will 'trip'if there is something wrong with the circuit and the current is too high.
+• Figure 20.17 These circuit breakers control the supply of electricity to different circuits in a building. The circuit breaker will 'trip' if there is something wrong with the circuit and the current is too high.
 
-More questionsonelectromagnetism canbe found at the end ofUnit6on page217.
+More questions on electromagnetism can be found at the end of Unit 6 on page 217.
 
-• 1Whichof these objectsare made from magneticmaterials?
+• 1 Which of these objects are made from magnetic materials?
 
-• acopperpipe
+• a copper pipe
 
-• ironbar
+• iron bar
 
-• plasticpaperclip
+• plastic paperclip
 
 • rubber tyre
 
-• csteel nail
+• c steel nail
 
 • nickel coins
 
-• dglass bottle
+• d glass bottle
 
-• 2Drawadiagramof twobarmagnetsplacedsothat twoof theirpolesare these positions.
+• 2 Draw a diagram of two bar magnets placed so that two of their poles are these positions.
 
-• 3aWhat three featuresofa magneticfield dofield linesshow?
+• 3 a What three features of a magnetic field do field lines show?
 
 INTERPRETATION
 
-• bWhat is a uniform magneticfield?
+• b What is a uniform magnetic field?
 
-• cDrawa diagram ofa uniform fieldbetween twobarmagnets.
+• c Draw a diagram of a uniform field between two bar magnets.
 
-• aDrawadiagram toshow theshape of the magnetic field around a solenoid.
+• a Draw a diagram to show the shape of the magnetic field around a solenoid.
 
-• bHowdoesyourdiagram showwhere themagneticfieldisstrong or weak?
+• b How does your diagram show where the magnetic field is strong or weak?
 
-• Explainwhathappens to the magneticfieldif the direction of the current through the solenoid isreversed.
+• Explain what happens to the magnetic field if the direction of the current through the solenoid is reversed.
 
 #### Circuitbreaker
 • 5In 1819a scientist named Hans Christian Oersted wasusinga cell to producea current ina wire.Close to the wire therewasa compass.When there was a current in the wire,Oersted noticed-much to his surprise-that the compassneedle moved.
@@ -6796,25 +6942,27 @@ PHYSICS ONLY
 • input (primary)voltage primary turns output (secondary)voltage secondary turns
 
 • Know and use the relationship: inputpower=outputpower
-MOVEMENTFROM ELECTRICITY
 
-Whena chargedparticle moves througha magneticfield it experiences a force,aslong as its motion is notparallel to the field.We can demonstrate this effect by passing electrons (that is,an electric current)along a wire that is placedinamagneticfieldasshown inFigure21.2.When theswitchisclosed and electronsflow,the wire will try to move upwards.
+#### MOVEMENTFROM ELECTRICITY
+MOVEMENT FROM ELECTRICITY
 
-• Figure 21.2 The wire moves where there is a curent in it.
+When a charged particle moves through a magnetic field it experiences a force, as long as its motion is not parallel to the field. We can demonstrate this effect by passing electrons (that is, an electric current) along a wire that is placed in a magnetic field as shown in Figure 21.2. When the switch is closed and electrons flow, the wire will try to move upwards.
 
-We can explain thismotion by looking atwhat happenswhen the switch is closed and the twomagnetic fields overlap.
+• Figure 21.2 The wire moves where there is a current in it.
 
-The twodiagramsinFigure21.3showthe shapesand directions of the magneticfieldsaacross thepoles of the magnet,and b around the currentcarryingwirebefore theyoverlap.
+We can explain this motion by looking at what happens when the switch is closed and the two magnetic fields overlap.
+
+The two diagrams in Figure 21.3 show the shapes and directions of the magnetic fields across the poles of the magnet, and b around the current carrying wire before they overlap.
 
 Figure 21.3a Magnet's uniform magnetic field b Magnetic field around a current carrying wire
 
-If thewireisplacedbetween thepolesof themagnet,thetwofieldsoverlap.
+If the wire is placed between the poles of the magnet, the two fields overlap.
 
 resultant field due to overlapping
 
-Figure 21.4The newmagnetic field created by overlapping
+Figure 21.4 The new magnetic field created by overlapping
 
-In certainplaces,for example,below the wire,thefields arein the same direction and soreinforce each other.A strongmagnetic field isproduced here.In otherplaces,forexample,above thewire,the fields are in opposite directions.A weaker fieldisproduced here.Because the fields are of different strengths the wire'feels'a force,pushing it from thestrongerpartof thefield to the weakerpart-that is,in this case,upwards.The overlapping of the two magneticfieldshasproduced motion.Thisiscalled the motoreffect.
+In certain places, for example, below the wire, the fields are in the same direction and so reinforce each other. A strong magnetic field is produced here. In other places, for example, above the wire, the fields are in opposite directions. A weaker field is produced here. Because the fields are of different strengths the wire 'feels' a force, pushing it from the stronger part of the field to the weaker part - that is, in this case, upwards. The overlapping of the two magnetic fields has produced motion. This is called the motor effect.
 KEY POINT
 
 We canpredict the direction of the forceormovement of thewireusing Fleming'sleft-hand rule.
@@ -6869,48 +7017,52 @@ Althoughyou will notbe asked thisinyour examit isinteresting toknowhow commercia
 • The single loop ofwire isreplacedwithseveral coilsofwirewrapped onthesame axis.This makes the motor more powerful and allows it to run more smoothly.
 
 • Thecoils are wrapped on a soft iron core that hasbeen coveredby a thin layer of plastic.Thismakes the motormore efficient and morepowerful.
-ELECTROMAGNETICINDUCTION
 
-Motorsuse electricity toproduce movement.Generatorsand alternators are machines that use motion toproduce electricity.They use a process called electromagnetic induction.
+#### ELECTROMAGNETICINDUCTION
+ELECTROMAGNETIC INDUCTION
 
-• Figure 21.9 Transportable generators are used to produce electricity for the lights andmachinery used onroadworks.
+Motors use electricity to produce movement. Generators and alternators are machines that use motion to produce electricity. They use a process called electromagnetic induction.
 
-The workers shown inFigure21.9needelectricityfor theirmachinesand their lights.Instead ofconnectinginto the mains supply,aswe doathome,theworkers have theirowngenerator,whichproduces the electrical energy theyneed.Infact, themains supplyitself isproducedby large generatorsinpowerstations.In this next section,youwill discoverhowageneratorproduceselectricity.
-DEMONSTRATING ELECTROMAGNETICINDUCTION
+• Figure 21.9 Transportable generators are used to produce electricity for the lights and machinery used on roadworks.
 
-Ifwe move a wire across a magnetic field atright angles,asshown in Figure 21.10,a voltage is inducedorgenerated in thewire.lf thewire ispart ofa complete circuit,there isa current.This event is called electromagnetic induction.
+The workers shown in Figure 21.9 need electricity for their machines and their lights. Instead of connecting into the mains supply, as we do at home, the workers have their own generator, which produces the electrical energy they need. In fact, the mains supply itself is produced by large generators in power stations. In this next section, you will discover how a generator produces electricity.
 
-• Figure 21.10 when a wire moves acrossa magnetic field a voltage is generated in the wire.
+#### DEMONSTRATING ELECTROMAGNETICINDUCTION
+DEMONSTRATING ELECTROMAGNETIC INDUCTION
+
+If we move a wire across a magnetic field at right angles, as shown in Figure 21.10, a voltage is induced or generated in the wire. If the wire is part of a complete circuit, there is a current. This event is called electromagnetic induction.
+
+• Figure 21.10 when a wire moves across a magnetic field a voltage is generated in the wire.
 
 The size of the induced voltage (and current) can be increased by:
 
-• 1movingthewiremorequickly
+• 1 moving the wire more quickly
 
-• 2 using a stronger magnet so that there are more field lines'cut'
+• 2 using a stronger magnet so that there are more field lines 'cut'
 
-• 3 wrapping thewire into a coil so that more pieces of wire move through the magneticfield.
+• 3 wrapping the wire into a coil so that more pieces of wire move through the magnetic field.
 
-• Figure 21.12A dynamo is a simple generator.
+• Figure 21.12 A dynamo is a simple generator.
 
-We can alsogeneratea voltage and currentbypushing a magnetinto acoil. In this situationand thepreviousone（Figure 21.10)wecan see thatit isthe cuttingactionbetween thewires and the field lines thatgenerates thevoltage If there isno cutting (that is,the wires and magnets are stationary)novoltage is generated.
+We can also generate a voltage and current by pushing a magnet into a coil. In this situation and the previous one (Figure 21.10) we can see that it is the cutting action between the wires and the field lines that generates the voltage. If there is no cutting (that is, the wires and magnets are stationary) no voltage is generated.
 
-• Figure 21.11 Amagnet moving in a coil will generate electricity.
+• Figure 21.11 A magnet moving in a coil will generate electricity.
 
-This experiment also shows us that the size of the induced voltage(and current) can beincreased by:
+This experiment also shows us that the size of the induced voltage (and current) can be increased by:
 
-• moving themagnetmorequickly
+• moving the magnet more quickly
 
-• using a strongermagnet
+• using a stronger magnet
 
-• 3usinga coilwithmore turns.
+• 3 using a coil with more turns.
 
-We can summarise allthe discoveriesfrom these experimentsbysaying:
+We can summarise all the discoveries from these experiments by saying:
 
-• a voltage isinduced when a conductor cuts throughmagnetic field lines
+• a voltage is induced when a conductor cuts through magnetic field lines
 
-• a voltage isinduced whenmagneticfield linescut through a conductor
+• a voltage is induced when magnetic field lines cut through a conductor
 
-• the faster the linesare cut thelarger theinducedvoltage.
+• the faster the lines are cut the larger the induced voltage.
 EXTENSION WORK
 
 It isinteresting to note,but not necessary foryour exam,that Michael Faraday was the first person to observe how the sizeof an induced voltage dependsupon the rate at which the magnetic lines of flux(field lines)are being cut.He summarised his observations inFaraday's LawofElectromagnetic Induction.This states that:
@@ -6930,11 +7082,13 @@ Figure21.13shows amuchlargergeneratorusedinpowerstationsto generate the mainsele
 Figure 21.13 This generator produces electricity on an industrial scale:
 
 these generators a use much stronger magnets,bhave many more turns of wire on the coil,and cspin the coil much faster.
-THETRANSFORMER
 
-When there is alternating curentin a coil,themagneticfield arounditis continuously changing.As the size of the current in the coilincreases the field grows.As the size of the current decreases thefield collapses.lf a second coil isplaced nearthefirst,this growing and collapsing magneticfieldwillpass throughit.Asit cuts through the wires of the second coil,avoltage isinduced across that coil.The size and direction of the inducedvoltage changes as thevoltage applied to the first coil changes.(The first coil ismore usually called theprimary coil.)An alternatingvoltageapplied across theprimary coil therefore produces an altermatingvoltage across the secondary coil.This combination oftwomagneticallylinked coilsiscalledatransformer.
+#### THETRANSFORMER
+THE TRANSFORMER
 
-• Figure 21.14The size of the voltage generated in the secondary coil of a transfommer depends on the voltage in the primary coiland the numbers of tums on each coll.
+When there is alternating current in a coil, the magnetic field around it is continuously changing. As the size of the current in the coil increases the field grows. As the size of the current decreases the field collapses. If a second coil is placed near the first, this growing and collapsing magnetic field will pass through it. As it cuts through the wires of the second coil, a voltage is induced across that coil. The size and direction of the induced voltage changes as the voltage applied to the first coil changes. (The first coil is more usually called the primary coil.) An alternating voltage applied across the primary coil therefore produces an alternating voltage across the secondary coil. This combination of two magnetically linked coils is called a transformer.
+
+• Figure 21.14 The size of the voltage generated in the secondary coil of a transformer depends on the voltage in the primary coil and the numbers of turns on each coil.
 KEY POINT
 
 A transformer thatis used to increase voltages,like the one in Example 1,is called a step-up transformer.One that isused to decrease voltages is called a step-down transformer.
@@ -6993,42 +7147,42 @@ ANALYSIS,
 
 REASONING
 
-As the coilrotates,its wires cut through magnetic field lines and a current isinduced in them.lfwewatch justone sideof the coil we see that thewire movesup through thefield andthen down foreach tum of the coil.Asa result the current isinduced firstin one direction and then in the opposite direction.Thiskind of current is called alternating current. Agenerator thatproducesaltermating current is called an altemator.
+As the coil rotates, its wires cut through magnetic field lines and a current is induced in them. If we watch just one side of the coil we see that the wire moves up through the field and then down for each turn of the coil. As a result the current is induced first in one direction and then in the opposite direction. This kind of current is called alternating current. A generator that produces alternating current is called an alternator.
 
-The frequencyof an alternating current is thenumber of complete cycles it makeseachsecond.If an alternatorcoilrotates twiceina second the frequency of the altemating currentit producesis2Hz(2cyclesper second).The frequency of the UKmainssupplyis 50 Hz.
+The frequency of an alternating current is the number of complete cycles it makes each second. If an alternator coil rotates twice in a second the frequency of the alternating current it produces is 2 Hz (2 cycles per second). The frequency of the UK mains supply is 50 Hz.
 
-More questions on electricmotors and electromagneticinduction can be found at theend ofUnit6onpage217.
+More questions on electric motors and electromagnetic induction can be found at the end of Unit 6 on page 217.
 
-• Thediagrambelowshows a long wireplaced between thepolesof a magnet.
+• The diagram below shows a long wire placed between the poles of a magnet.
 
 Describe what happens when:
 
-• athereiscurrentin thewire fromAtoB
+• a there is current in the wire from A to B
 
-• bthe direction of the current isreversed-that is,from B to A
+• b the direction of the current is reversed-that is, from B to A
 
-• cwith the current from B to A,thepoles of the magnet are reversed
+• c with the current from B to A, the poles of the magnet are reversed
 
-• dthere isa larger current in the wire.
+• d there is a larger current in the wire.
 
-• Drawa simple labelled diagramofamoving-coil loudspeaker.
+• Draw a simple labelled diagram of a moving-coil loudspeaker.
 
-• passed through itscoil.
+• passed through its coil.
 
 REASONING
 PHYSICS ONLY
 
-• aExplain the differencebetweenastep-up transformeranda step-down transformer.
+• a Explain the difference between a step-up transformer and a step-down transformer.
 
-• bExplainwhere step-up and step-down transformersareused in National Grids.
+• b Explain where step-up and step-down transformers are used in National Grids.
 
-• Explainwhy transformers are usedin National Grids.
+• Explain why transformers are used in National Grids.
 
-• Drawa fullylabelled diagram ofa transformer.
+• Draw a fully labelled diagram of a transformer.
 
-• Explainwhya transformerwill notworkifa d.c.voltageis appliedacross itsprimary coil.
+• Explain why a transformer will not work if a d.c. voltage is applied across its primary coil.
 
-• A transformerhas200 turnsonitsprimary coiland5000 turns onits secondary coil.Calculate the voltage across the secondarycoil whena voltage of2Va.c.isapplied across theprimary coil.
+• A transformer has 200 turns on its primary coil and 5000 turns on its secondary coil. Calculate the voltage across the secondary coil when a voltage of 2 V a.c. is applied across the primary coil.
 END OFPHYSICSONLY
 
 • The diagrambelow shows abar magnet being pushed into a long coil. Asensitive meter is connected across the coil.
@@ -7158,24 +7312,26 @@ Thediagrambelow showshow theelectricalenergy istransmitted from a power station 
 (Total forQuestion 4=8marks)
 END OF PHYSICS ONLY
 
-Akeen cyclistbuildshisown dynamo togenerate electricity forhislights. Unfortunately.whenhe triesit out thelights are not bright enough.Suggest two changes he could make tohis dynamo togeneratemore electricity.ls therea third solution tohisproblem?
-(TotalforQuestion 5=3marks)
+A keen cyclist builds his own dynamo to generate electricity for his lights. Unfortunately, when he tries it out the lights are not bright enough. Suggest two changes he could make to his dynamo to generate more electricity. Is there a third solution to his problem?
 
-The diagram below shows the circuit foran electricbell.
+#### (TotalforQuestion 5=3marks)
+(Total for Question 5 = 3 marks)
+
+The diagram below shows the circuit for an electric bell.
 
 REASONING
 
 PROBLEM SOLVING
 
-• aExplaininyourownwordswhythebellwill notworkif theelectromagnet isreplaced with a permanent magnet.
+• a Explain in your own words why the bell will not work if the electromagnet is replaced with a permanent magnet.
 
 (2)
 
-• Explainwhy the core of the electromagnet used in an electricbellmust notbemade from steel.
+• Explain why the core of the electromagnet used in an electric bell must not be made from steel.
 
 (3)
 
-(Total forQuestion 6=5marks)
+(Total for Question 6 = 5 marks)
 
 (4)
 PHYSICS ONLY
@@ -7199,13 +7355,15 @@ ATOMSAND RADIOACTIVITY221
 RADIATIONAND HALF-LIFE233
 
 FISSIONAND FUSION250
-UNIT7 RADIOACTIVITYAND PARTICLES
 
-Henri Becquerelwasascientistwhosepioneeringworkled tothediscoveryofradioactivity andset otherscientistson apathofresearchthatcontinuestoday.
+#### UNIT7 RADIOACTIVITYAND PARTICLES
+UNIT 7 RADIOACTIVITY AND PARTICLES
 
-Usingradioactivityhasenabledustolearnaboutthestructureof matter,todevelopnewsourcesof theprocessesthatfuel starsand formed all theelements thatwe and theUniverseare made of.
+Henri Becquerel was a scientist whose pioneering work led to the discovery of radioactivity and set other scientists on a path of research that continues today.
 
-APPLICATIONS0FRADI0ACTIVITY241
+Using radioactivity has enabled us to learn about the structure of matter, to develop new sources of the processes that fuel stars and formed all the elements that we and the Universe are made of.
+
+APPLICATIONS OF RADIOACTIVITY 241
 
 ## Unit 7: Radioactivity and Particles
 
@@ -7216,19 +7374,19 @@ APPLICATIONS0FRADI0ACTIVITY241
 Atoms are made up of sub-atomicparticles called neutrons,protons and electrons.lt is the numbers of these particles that give each elementitsunique properties.In this chapteryou will find out how atomscan break up and become transformed into differentelements,and about the different types ofradiation they give out.
 LEARNING OBJECTIVES
 
-• Describe the structure ofan atom in termsofprotons, describe particular nuclei
+• Describe the structure of an atom in terms of protons, describe particular nuclei
 
-• Investigate thepenetrationpowersofdifferent types ofradiation using either radioactive sources or simulations
+• Investigate the penetration powers of different types of radiation using either radioactive sources or simulations
 
-• Know the terms atomic (proton)number,mass (nucleon)number and isotope
+• Know the terms atomic (proton) number, mass (nucleon) number and isotope
 
-• Know that alpha (a)particles,beta (β-)particles,and gamma (y)rays are ionising radiations emitted from unstable nuclei in arandomprocess
+• Know that alpha (α) particles, beta (β-) particles, and gamma (γ) rays are ionising radiations emitted from unstable nuclei in a random process
 
-• Describe the nature of alpha （a)particles,beta (β-) particles,and gamma （y)rays,and recall that they may be distinguished in terms ofpenetratingpowerand ability toionise
+• Describe the nature of alpha (α) particles, beta (β-) particles, and gamma (γ) rays, and recall that they may be distinguished in terms of penetrating power and ability to ionise
 
-• Describe the effects on the atomic and mass numbers ofanucleusof theemission ofeachofthefourmain types ofradiation (alpha,beta,gamma andneutron radiation)
+• Describe the effects on the atomic and mass numbers of a nucleus of the emission of each of the four main types of radiation (alpha, beta, gamma and neutron radiation)
 
-• Understand how tobalance nuclear equations in termsof mass and charge
+• Understand how to balance nuclear equations in terms of mass and charge
 ELECTRONS,PROTONSAND NEUTRONS
 
 Atoms are made up ofelectrons,protonsand neutrons.Figure22.1showsa simple model of how theseparticles are arranged.
@@ -7258,15 +7416,17 @@ Theproperties of these three atomicparticles are summarised in the table below.P
 | electron         |                             |                            -1 |
 | proton           | 2000                        |                            +1 |
 | neutron          | 2000                        |                             0 |
-THEATOM
 
-Thenucleusofan atom issurrounded byelectrons.We sometimes thinkof electrons asorbiting thenucleusina way similar to theplanets orbiting the Sun.lt ismore accurate to thinkof the electrons asmovingrapidly around the nucleus ina cloud or shell.
+#### THEATOM
+THE ATOM
 
-An atom is electricallyneutral.This is because the number of positive charges carried by theprotonsinitsnucleus isbalanced by the numberof negative chargeson the electronsin the electron'cloud'around the nucleus.
+The nucleus of an atom is surrounded by electrons. We sometimes think of electrons as orbiting the nucleus in a way similar to the planets orbiting the Sun. It is more accurate to think of the electrons as moving rapidly around the nucleus in a cloud or shell.
 
-Thechemical behaviour andpropertiesofaparticularelement dependupon howthe atomscombinewith otheratoms.Thisisdeterminedbythe numberof electrons in the atom.Although atoms may gainorlose electrons,sometimes quite easily,the numberofprotonsin atomsofaparticularelement isalways thesame.The atomicnumberofan element tellsushowmanyprotonseach ofitsatoms contains.Forexample,carbon has sixprotons in itsnucleusthe atomic number of carbon is,therefore,6.The symbol weuse for atomic numberis Z.Each element hasits ownunique atomicnumber.The atomic numberissometimescalled theprotonnumber.
+An atom is electrically neutral. This is because the number of positive charges carried by the protons in its nucleus is balanced by the number of negative charges on the electrons in the electron 'cloud' around the nucleus.
 
-The total numberofprotons and neutronsin thenucleusofanatom determines itsatomicmass.The mass of the electrons that make up an atom is tiny and can usuallybe ignored.The massof a proton is approximately 1.7x10-7kg. Tosavewriting thisdownweusuallyreferto themassof an atombyitsmass number ornucleon number.Thisnumberis the totalnumberofprotons and neutrons in the atom.The mass number of an element is given the symbol A.
+The chemical behaviour and properties of a particular element depend upon how the atoms combine with other atoms. This is determined by the number of electrons in the atom. Although atoms may gain or lose electrons, sometimes quite easily, the number of protons in atoms of a particular element is always the same. The atomic number of an element tells us how many protons each of its atoms contains. For example, carbon has six protons in its nucleus the atomic number of carbon is, therefore, 6. The symbol we use for atomic number is Z. Each element has its own unique atomic number. The atomic number is sometimes called the proton number.
+
+The total number of protons and neutrons in the nucleus of an atom determines its atomic mass. The mass of the electrons that make up an atom is tiny and can usually be ignored. The mass of a proton is approximately 1.7×10⁻²⁷ kg. To save writing this down we usually refer to the mass of an atom by its mass number or nucleon number. This number is the total number of protons and neutrons in the atom. The mass number of an element is given the symbol A.
 
 #### THEATOM
 Eachparticular type of atomwill have itsown atomicnumber,which identifies the element,and a mass number that depends on the total number of nucleons,orparticles,in the nucleus.Figure 22.2shows the way we represent anatom ofan elementwhose chemical symbol isX,showing the atomic numberand the mass number.
@@ -7300,19 +7460,21 @@ Nucleonshaveroughly 2000 times themassofan electron,andalpha particles are made 
 BETA RADIATION(B-AND β+)
 
 each other.(Remember thatprotons carypositive charge and like charges repel.) Thepresence of neutrons in the nucleus affects the balancebetween these forces.Too many or too few neutronswill make the nucleusunstable.An unstablenucleuswill eventually decay.When the nucleus ofanatom decays it
-IONISINGRADIATION
 
-When unstablenuclei decay theygive outionisingradiation.lonisingradiation causes atoms togain orlose electriccharge,forming ions.Unstablenuclei decay atrandom.This means thatit isnotpossible to predictwhich unstable happen.Weshall see thatwe canmake measurements thatwill enableus to predicttheprobabilitythata certainproportionofaradioactive material will decayin a given time.
+#### IONISINGRADIATION
+IONISING RADIATION
 
-• Figure 22.6 When a neutral atom(ormolecule) is hit by ionising radiation it loses an electron and becomes a positively charged ion.
+When unstable nuclei decay they give out ionising radiation. Ionising radiation causes atoms to gain or lose electric charge, forming ions. Unstable nuclei decay at random. This means that it is not possible to predict which unstable happen. We shall see that we can make measurements that will enable us to predict the probability that a certain proportion of a radioactive material will decay in a given time.
 
-There are three basic types of ionising radiation.They are:alpha (a),beta (B) and gamma(v)radiation.
+• Figure 22.6 When a neutral atom (or molecule) is hit by ionising radiation it loses an electron and becomes a positively charged ion.
 
-Alpharadiation consists offast-movingparticles that are thrown out of unstable nuclei when they decay.These are called alpha particles.Alpha particles are heliumnuclei-helium atomswithout their orbiting electrons. Figure22.7 shows an alpha particle and thenotation that isused to denote it inequations.
+There are three basic types of ionising radiation. They are: alpha (α), beta (β) and gamma (γ) radiation.
 
-Alpha particleshave arelatively large mass.They are made up of four nucleons and sohave amassnumberof4.Theyare also charged because of the two protons that they carry.The relative charge of an alpha particle is+2.
+Alpha radiation consists of fast-moving particles that are thrown out of unstable nuclei when they decay. These are called alpha particles. Alpha particles are helium nuclei - helium atoms without their orbiting electrons. Figure 22.7 shows an alpha particle and the notation that is used to denote it in equations.
 
-Alpha particles have a short range.Therange of ionisingradiation is the distanceitcan travel throughmatter.Alphaparticlescan onlytravelafew centimetres inairand cannotpenetratemore thana fewmillimetresofpaper. Theyhave a limitedrangebecause they interactwith atoms along theirpaths, causing ions to form.Thismeans that theyrapidlygiveup the energy that they had when theywereejected from theunstablenucleus.
+Alpha particles have a relatively large mass. They are made up of four nucleons and so have a mass number of 4. They are also charged because of the two protons that they carry. The relative charge of an alpha particle is +2.
+
+Alpha particles have a short range. The range of ionising radiation is the distance it can travel through matter. Alpha particles can only travel a few centimetres in air and cannot penetrate more than a few millimetres of paper. They have a limited range because they interact with atoms along their paths, causing ions to form. This means that they rapidly give up the energy that they had when they were ejected from the unstable nucleus.
 
 #### IONISINGRADIATION
 Beta minusparticles(β-)are very fast-moving electrons that are ejected by a decaying nucleus.The nucleus of an atom contains protons and neutrons,so where does the electron come from?The stabilityofa nucleus depends on the proportion of protons and neutrons it contains.Theresult of radioactive decay istochange thebalance ofprotonsand neutronsin thenucleustomake it
@@ -7329,17 +7491,17 @@ EXTENSION WORK
 more stable.Beta minus decay involvesaneutron in thenucleus splittinginto a the nucleus and the electron isejected athigh speed asabeta minusparticle.
 EXTENSION WORK
 
-Sometimes a proton will decay into a neutron by emitting a beta plus particle (β+）.A beta plusparticle is an antielectron,a particle with the same mass as anelectron but with positive charge.The antielectron is called a positron.
+Sometimes a proton will decay into a neutron by emitting a beta plus particle (β+). A beta plus particle is an antielectron, a particle with the same mass as an electron but with positive charge. The antielectron is called a positron.
 
-Betaparticles arevery light-they have only0.000 125 times the mass of an alpha particle.The relative charge of aβ-is-1 and the relative charge ofa β+is+1.
+Beta particles are very light - they have only 0.000 125 times the mass of an alpha particle. The relative charge of a β⁻ is -1 and the relative charge of a β⁺ is +1.
 
-Betaparticlesinteractwithmatterin theirpathslessfrequentlythan alpha particles.This is because they are smaller and carryless charge.Thismeans thatbetaparticles have a greaterrange than alpha particles.Betaparticles can travel long distances through air,pass through papereasily and are only absorbedbydensermaterialslike aluminium.Amillimetre ortwo ofaluminium foilwill stopallbut themostenergeticbetaparticles.
+Beta particles interact with matter in their paths less frequently than alpha particles. This is because they are smaller and carry less charge. This means that beta particles have a greater range than alpha particles. Beta particles can travel long distances through air, pass through paper easily and are only absorbed by denser materials like aluminium. A millimetre or two of aluminium foil will stop all but the most energetic beta particles.
 
-Gammarays are electromagnetic waves(seepage 106)withvery short wavelengths.As they arewaves,they have no mass and no charge.They are weaklyionising and interactonlyoccasionallywithatomsintheirpaths.They are extremelypenetrating andpass throughall but the verydensest materials with ease.It takesseveral centimetres thicknessoflead,ora metre or soof concrete,to stop gamma radiation.
+Gamma rays are electromagnetic waves (see page 106) with very short wavelengths. As they are waves, they have no mass and no charge. They are weakly ionising and interact only occasionally with atoms in their paths. They are extremely penetrating and pass through all but the very densest materials with ease. It takes several centimetres thickness of lead, or a metre or so of concrete, to stop gamma radiation.
 
-Neutronsare emittedbyradioactive material.Theyhaveroughlythesame massasaprotonbut have no electric charge.The symbol used fora neutron inradioactive decay equationsis:
+Neutrons are emitted by radioactive material. They have roughly the same mass as a proton but have no electric charge. The symbol used for a neutron in radioactive decay equations is:
 
-Ifaneutron isemitted byanucleusitsmassnumber(A)goes downby 1but theatomicnumber(Z)isunchanged.lfa neutron isabsorbed bya nucleus its mass number (A) goes up by 1 but the atomicnumber(Z) is unchanged.
+If a neutron is emitted by a nucleus its mass number (A) goes down by 1 but the atomic number (Z) is unchanged. If a neutron is absorbed by a nucleus its mass number (A) goes up by 1 but the atomic number (Z) is unchanged.
 KEY.POINT
 
 Asneutrons cause otheratoms to emit radiation they must be screened.This isdone using materials that have a lot of light atoms like hydrogen.Concrete and water areused toprevent neutrons escaping fromnuclearreactors.
@@ -7364,24 +7526,26 @@ The Geiger-Muller (GM) tube isa detector of radiation.It is descrbed in the next
 | alpha,a     | strong          | weak                | 5-8cm                    | paper                  |
 | beta,β      | medium          | medium              | 500-1000cm               | thin aluminium         |
 | gamma,y     | weak            | strong              | virtuallyinfinite        | thick lead sheet       |
-ACTIVITY1
+
+#### ACTIVITY1
+ACTIVITY 1
 
 • Figure 22.8 Measuring the penetrating power of different types of radiation
 
-Radioactive sourcesmustbe stored in lead-lined boxes andkept in ametal cupboard with a radiation warning label.The source must be handledwith tongsawayfrom thebody.(SeeChapter24page247for more details of safe practice withradioactive materials.)
+Radioactive sources must be stored in lead-lined boxes and kept in a metal cupboard with a radiation warning label. The source must be handled with tongs away from the body. (See Chapter 24 page 247 for more details of safe practice with radioactive materials.)
 
-Before the source isremoved from its storage container,measure the backgroundradiation countby connecting a Geiger-Muller(GM) tube to a counter.Write down the numberof counts after5minutes.Repeat this three times and find the averagebackgroundradiation count.
+Before the source is removed from its storage container, measure the background radiation count by connecting a Geiger-Muller (GM) tube to a counter. Write down the number of counts after 5 minutes. Repeat this three times and find the average background radiation count.
 
-Takea sourceofalpha radiation andsetit upata measured distance (between2and 4cm)from the GM tube.
+Take a source of alpha radiation and set it up at a measured distance (between 2 and 4 cm) from the GM tube.
 
-Measure the countsdetected in a5minuteperiod.Repeat the count with a sheet of thickpaperinfront of the source.You should find that the countshavedropped to thebackgroundradiation count.Thisshows that alpharadiationdoesnotpass throughpaper.
+Measure the counts detected in a 5 minute period. Repeat the count with a sheet of thick paper in front of the source. You should find that the counts have dropped to the background radiation count. This shows that alpha radiation does not pass through paper.
 
-newcount for5minutesplace thin sheetsofaluminiumbetween the source and detector.When the thickness of the aluminium sheet is 1-2mm thickyouwillfindthat the counthasdropped tothebackground radiation level.Thisshows thatbetaradiationisblocked byjusta few millimetres ofaluminium.
+New count for 5 minutes place thin sheets of aluminium between the source and detector. When the thickness of the aluminium sheet is 1-2 mm thick you will find that the count has dropped to the background radiation level. This shows that beta radiation is blocked by just a few millimetres of aluminium.
 
-Finally carry outthe same steps using a gamma radiation source.Now youwill find thatgammaradiation isonlyblockedwhena fewcentimetres oflead areplacedbetween thesourceand thedetector.
+Finally carry out the same steps using a gamma radiation source. Now you will find that gamma radiation is only blocked when a few centimetres of lead are placed between the source and the detector.
 
 #### ACTIVITY1
-Aswesaidearlier,anunstable atom,orstrictlyspeakingitsnucleus,will decay byemittingradiation.lf the decayprocessinvolves thenucleusejecting either an alpha ora beta particle,the atomic number will change.Thismeans that alpha orbeta decay causes the original element totransform intoadifferent element.
+As we said earlier, an unstable atom, or strictly speaking its nucleus, will decay by emitting radiation. If the decay process involves the nucleus ejecting either an alpha or a beta particle, the atomic number will change. This means that alpha or beta decay causes the original element to transform into a different element.
 REMINDER
 
 Ais the massnumber of the element and Zis the atomic number.The lettersWandYarenot the symbols of anyparticular elements as this is the general equation.
@@ -7441,21 +7605,21 @@ Here is an example of beta minus decay:
 
 'C 4N -le + +energy carbon-14atom→nitrogen-14atom+betaparticle,β-+energy(also an antineutrino)
 
-Theradioactive isotopeof carbon,carbon-14,decays toform the stable isotope of the gasnitrogen,by emitting a beta particle.Remember that the beta minus particle isformedwhenaneutron splits to form aproton and anelectron. Figure 22.10 shows the standard atomic notation for a beta particle (β-).
+The radioactive isotope of carbon, carbon-14, decays to form the stable isotope of the gas nitrogen, by emitting a beta particle. Remember that the beta minus particle is formed when a neutron splits to form a proton and an electron. Figure 22.10 shows the standard atomic notation for a beta particle (β-).
 
-The electron has very little mass, so the mass number,A,is zero.
+The electron has very little mass, so the mass number, A, is zero.
 
-The electron doesnothave an atomic number but does carry an equal and opposite electric charge to a proton so itsZnumberis-1.
+The electron does not have an atomic number but does carry an equal and opposite electric charge to a proton so its Z number is -1.
 
 Figure 22.10 A beta minus particle
 
-Thegeneral formof thebeta minusdecayequation is:
+The general form of the beta minus decay equation is:
 
 x→zY+e+energy
 
 beta minusparticle,β-
 
-Inβ-decay.elementXis transformed intoelementYbythe emission ofa beta minusparticle.ElementYis the nextelement in theperiodic table after element X.The beta particle,an electron,haspractically no massso the mass number,A,is the same inXand Y.As theβ-particlehas a charge of-1,the atomicnumberof thenewelement isincreased toZ+1.Again themass number and the atomicnumber are conserved through this equation.
+In β-decay, element X is transformed into element Y by the emission of a beta minus particle. Element Y is the next element in the periodic table after element X. The beta particle, an electron, has practically no mass so the mass number, A, is the same in X and Y. As the β-particle has a charge of -1, the atomic number of the new element is increased to Z+1. Again the mass number and the atomic number are conserved through this equation.
 EXTENSION WORK
 
 You will notbe asked about β+decaybut the example here is included to show that the atomic mass numbers (A) and the atomic numbers (Z) on each side of the decay equation must balance.Here is an example of beta plus decay:
@@ -7515,11 +7679,11 @@ Be→²Be+n
 Afteranunstablenucleushas emitted an alpha orbetaparticleit sometimes hassurplus energy.ltemits this energyasgamma radiation.Gamma rays are pure energy,so theydonot have anymass or charge.When a nucleus emits agammaraythere isno change toeither the atomicnumberor themass numberof the nucleus.
 LOOKING AHEAD
 
-• Figure22.12Inside theLargeHadron Collider
+• Figure 22.12 Inside the Large Hadron Collider
 
-Understanding theparticles thatmake up all matterin the Universe,how theyinteract and the forcesinvolved holdingmatter togetherremains amajor area of research forphysicists.Thisis an introduction to what hasbeen called theparticle zoo'Large particle accelerators,like the Large Hadron Collider(LHC)on the Swiss/French border,have identified many newparticles.Energy turned intomatter!Research hasrecognised patternsin theseparticlesand wenowhave a model that explains many complexnuclearprocesses-some ofwhich haveincreased our understanding ofhow theUniverse wasformed.
+Understanding the particles that make up all matter in the Universe, how they interact and the forces involved holding matter together remains a major area of research for physicists. This is an introduction to what has been called the 'particle zoo'. Large particle accelerators, like the Large Hadron Collider (LHC) on the Swiss/French border, have identified many new particles. Energy turned into matter! Research has recognised patterns in these particles and we now have a model that explains many complex nuclear processes - some of which have increased our understanding of how the Universe was formed.
 
-We alsounderstand howmattercanbe transformed intoenergy and the amazing amountofenergy thatresults,revealed by Albert Einstein in his famousequation:
+We also understand how matter can be transformed into energy and the amazing amount of energy that results, revealed by Albert Einstein in his famous equation:
 
 E=mc²
 CHAPTER QUESTIONS
@@ -7528,69 +7692,69 @@ SKILLS
 
 PROBLEM SOLVING
 
-More questions on the structure of the atom can be found at the end of Unit7 on page255.
+More questions on the structure of the atom can be found at the end of Unit 7 on page 255.
 
-• Copy and complete the tablebelow.ldentify theparticles and complete the missing data.
+• Copy and complete the table below. Identify the particles and complete the missing data.
 
-• Identify the following atomicparticlesfrom their descriptions:
+• Identify the following atomic particles from their descriptions:
 
-• aanuncharged nucleon
+• a an uncharged nucleon
 
-• bthe particle with the least mass
+• b the particle with the least mass
 
-• ctheparticle with the same massasa neutron
+• c the particle with the same mass as a neutron
 
-• dtheparticlewith thesame amountofchargeasanelectron
+• d the particle with the same amount of charge as an electron
 
-• eaparticle that isnegativelycharged.
+• e a particle that is negatively charged.
 
-• Explain thefollowing termsused todescribethestructure ofan atom:
+• Explain the following terms used to describe the structure of an atom:
 
-• aatomicnumber
+• a atomic number
 
 • mass number.
 
-• Copy and complete the table below,describing the structures of the different atomsin terms ofnumbersofprotons,neutrons and electrons
+• Copy and complete the table below, describing the structures of the different atoms in terms of numbers of protons, neutrons and electrons
 
-• 5Copy and complete the following sentences:
+• 5 Copy and complete the following sentences:
 
-• aAn alpha particle consists of four
+• a An alpha particle consists of four
 
-• Twoof theseare
+• Two of these are
 
 and
 
-twoare An alpha particle carries a charge of
+two are An alpha particle carries a charge of
 
-• bAbetaminusparticleisa fast-moving thatisemitted from the nucleus.ltis created when a in the nucleus decays to form a and thebetaparticle.
+• b A beta minus particle is a fast-moving that is emitted from the nucleus. It is created when a in the nucleus decays to form a and the beta particle.
 
-• cA third type of ionising radiation hasno mass.lt is called
+• c A third type of ionising radiation has no mass. It is called
 
 radiation.
 
-• This type of radiation isatypeofwavewithavery
+• This type of radiation is a type of wave with a very
 
 wavelength.
 
-• dGammaradiation ispartof the
+• d Gamma radiation is part of the
 
 spectrum.
 
-• 6The following nuclearequation showingbetaplusdecay:
+• 6 The following nuclear equation showing beta plus decay:
 
-• aFrom the following listofparticles:
+• a From the following list of particles:
 
-• Aelectron
+• A electron
 
-• Cproton
+• C proton
 
 • D alpha particle
 
-• iStatewhich istheparticleon theleftof thisbalanced equation.
+• i State which is the particle on the left of this balanced equation.
 
-• iiStatewhichisthe first of the terms on theright of thisequation.
+• ii State which is the first of the terms on the right of this equation.
 
-• The second term on theright of this equation isapositron-the antiparticleofan electron.Copyand complete the above equationfilling in the emptyboxes shown.
+• The second term on the right of this equation is a positron - the antiparticle of an electron. Copy and complete the above equation filling in the empty boxes shown.
 
 ## Unit 7: Radioactivity and Particles
 
@@ -7612,26 +7776,28 @@ LEARNING OBJECTIVES
 • Use the concept of thehalf-lifeto carryout simple s
 DETECTING IONISING RADIATION
 
-Wilhelm Rontgen（Figure 23.1a)discovered x-rays in 1895.Henri Becquerel (Figure23.1b)believed thaturanium emittedx-rays afterbeing exposed to sunlight.To test thisidea he placed some wrapped,unused photographic platesina drawerwith some samplesofuranium ore on top of them.He found a strong image of the oreon theplateswhen he developed them.He laterrealised that thiswas due to a new typeof ionising radiation.He had discoveredradioactivity.
+Wilhelm Rontgen（Figure 23.1a) discovered x-rays in 1895. Henri Becquerel (Figure 23.1b) believed that uranium emitted x-rays after being exposed to sunlight. To test this idea he placed some wrapped, unused photographic plates in a drawer with some samples of uranium ore on top of them. He found a strong image of the ore on the plates when he developed them. He later realised that this was due to a new type of ionising radiation. He had discovered radioactivity.
 
-The unit ofradioactivity isnamed after Becquerel.Thebecquerel(Bq)is a measure ofhowmany unstablenuclei are disintegrating (breakingup)per second-onebecquerelmeansarate ofone disintegrationpersecond.The becquerel isavery small unit.More practical units are thekBq (an average of1000 disintegrationspersecond)and the MBq (anaverage of1000 000 disintegrations per second).
+The unit of radioactivity is named after Becquerel. The becquerel (Bq) is a measure of how many unstable nuclei are disintegrating (breaking up) per second - one becquerel means a rate of one disintegration per second. The becquerel is a very small unit. More practical units are the kBq (an average of 1000 disintegrations per second) and the MBq (an average of 1000 000 disintegrations per second).
 
-Photographicfilm can stillbeused to detectradioactivity.Some scientistswho workwithradioactivematerialswearapieceofphotographicfilm inabadge. If the filmbecomesfogged (unclear)it shows that the scientist hasbeen exposed toacertain amountofradiation.Thesebadgesarecheckedregularly toensure thatscientistsarenotexposed to toomuch ionisingradiation.
+Photographic film can still be used to detect radioactivity. Some scientists who work with radioactive materials wear a piece of photographic film in a badge. If the film becomes fogged (unclear) it shows that the scientist has been exposed to a certain amount of radiation. These badges are checked regularly to ensure that scientists are not exposed to too much ionising radiation.
 
 a
 
 b
 
-Figure 23.1 a Wilhelm ROntgen (1845-1923),bHenriBecquerel (1852-1908).Nobel prize winners in 1901 and 1903
-THEGEIGER-MULLER(GM)TUBE
+Figure 23.1 a Wilhelm Rontgen (1845-1923), b Henri Becquerel (1852-1908). Nobel prize winners in 1901 and 1903
 
-Figure23.2shows thebasicconstructionofa Geiger-Muller(GM) tube.lt is a glass tube with an electrically conducting surface on the inside.The tube has a thin window made of mica(anaturally occurringmineral that can be split into thin sheets).The tube contains a special mixture of gases at very lowpressure. In themiddle of the tube,electricallyinsulated from the conducting surface, there is an electrode.This electrode is connected,via a high-value resistor,to a high-voltage supply. typically 300-500V.
+#### THEGEIGER-MULLER(GM)TUBE
+THE GEIGER-MÜLLER (GM) TUBE
 
-When ionisingradiation entersthe tubeitcauses thelowpressuregasinside toformions.Theionsallowasmallamountofcurrenttoflowfromthe electrode to the conducting layer.This is detected by an electronic circuit.
+Figure 23.2 shows the basic construction of a Geiger-Müller (GM) tube. It is a glass tube with an electrically conducting surface on the inside. The tube has a thin window made of mica (a naturally occurring mineral that can be split into thin sheets). The tube contains a special mixture of gases at very low pressure. In the middle of the tube, electrically insulated from the conducting surface, there is an electrode. This electrode is connected, via a high-value resistor, to a high-voltage supply, typically 300-500V.
 
-• Figure 23.2A Geiger-Muller tube is used to measure the level of radiation.
+When ionising radiation enters the tube it causes the low pressure gas inside to form ions. The ions allow a small amount of current to flow from the electrode to the conducting layer. This is detected by an electronic circuit.
 
-The GM tube isusually linked up toa counting circuit.Thiskeeps a count of howmanyionising particles(orhowmuchyradiation) have entered the GM tube.Sometimes GM tubesare connected to rate meters.These measure thenumberofionising eventsper second,and so givea measure of the radioactivityinbecquerels.Ratemetersusuallyhavealoudspeakeroutputso the level ofradioactivity isindicated by therateof clicksproduced.
+• Figure 23.2 A Geiger-Müller tube is used to measure the level of radiation.
+
+The GM tube is usually linked up to a counting circuit. This keeps a count of how many ionising particles (or how much radiation) have entered the GM tube. Sometimes GM tubes are connected to rate meters. These measure the number of ionising events per second, and so give a measure of the radioactivity in becquerels. Rate meters usually have a loudspeaker output so the level of radioactivity is indicated by the rate of clicks produced.
 BACKGROUNDRADIATION
 
 Backgroundradiation islow-levelionisingradiation thatisproduced allthe time.Thisbackground radiation has a number of sources.Some of these are natural and some are artificial.
@@ -7641,29 +7807,31 @@ Figure 23.3 Sources of background radiation in the UK.These are the average valu
 NATURALBACKGROUND RADIATION FROMTHEEARTH
 KEY POINT
 
-When an atom ofaradioactive element decaysitgivesoutradiation andchangestoanatomofanother element.Thismay also beradioactive. anddecay to forman atomofyet anotherelement.Theelementsformed asa result ofa radioactive element experiencing a seriesof decays are called decay products.
-ARTIFICIALRADIATION
-
-Some of theradiationwereceive comes fromrocksinthe Earth'scrust(hard outer layer).When theEarth wasformed,around 4.5billionyears ago,it contained many radioactive isotopes.Some decayedveryquicklybut others arestillproducingradiation.Some ofthedecayproductsof these long-lived radioactive materials arealsoradioactive,so there areradioactiveisotopes withmuch shorterhalf-lives(see page 237) stillpresent in the Earth's crust.
-
-One form of uranium isaradioactive element that decaysvery slowly.Two of its decayproducts are gases.These are theradioactive gasesradon and thoron.Radon-222isa highly radioactive gasproduced by the decayof radium-226.Thoron,orradium-220,isanisotope ofradium formedby the decay ofa radioactiveisotope of thorium (thorium-232).
-
-As these decayproducts are gases,they come out ofradioactive rocks.They oftheEarth'scrusthave higher amountsofradioactivematerial sothe amount ofbackground radiationproduced inthiswayvariesfromplace toplace.In Conwall in theUK,for example,where the granite rockcontains tracesof uranium,therisk of exposure toradiation fromradongasisgreater than in some otherpartsof the UK.
-
-Violentnuclearreactionsinstars and exploding starscalled supermovae produce cosmicrays(very energeticparticles)that continuously hit the Earth. s usfairlygoodprotection from cosmicraysbutsomestill reach theEarth's surface.
+When an atom of a radioactive element decays it gives out radiation and changes to an atom of another element. This may also be radioactive and decay to form an atom of yet another element. The elements formed as a result of a radioactive element experiencing a series of decays are called decay products.
 
 #### ARTIFICIALRADIATION
-The atoms that makeup ourbodieswere formed in theviolent reactions that take place in stars thatexploded (supernovas)billions ofyears ago.Some of these atoms are radioactive sowe carryourownpersonal sourceofradiation aroundwith us.Also,aswe breathe we take in tiny amounts of theradioactive isotope of carbon,carbon-14.Because carbon-14behaves chemicallyjust like the stable isotope,carbon-12,we continuouslyrenew the amount of the radioactive carboninourbodies（seepage245).
+ARTIFICIAL RADIATION
 
-Carbon-14and otherradioactive isotopesareeatenbyhumans(and animals
+Some of the radiation we receive comes from rocks in the Earth's crust (hard outer layer). When the Earth was formed, around 4.5 billion years ago, it contained many radioactive isotopes. Some decayed very quickly but others are still producing radiation. Some of the decay products of these long-lived radioactive materials are also radioactive, so there are radioactive isotopes with much shorter half-lives (see page 237) still present in the Earth's crust.
 
-We use radioactivematerials formanypurposes.Generating electricityin nuclearpowerstationshasbeenresponsible fortheleaking ofradioactive material into the environment.The levelsare usuallysmall,but therehave beena numberof majorincidents around the world,especiallyatThree Mile Island in theUSAin1979andatChemobyl in theUkraine in1986.The tsunami andearthquake thatcausedmajordamage andlossoflifeinJapanin2011 alsodamaged theFukoshima nuclearpowerstationresultingin therelease of radioactivematerials into the airand the oceanaswell asmaking alargearea of land around the damagedpower station unsafe forhumanstolive there.
+One form of uranium is a radioactive element that decays very slowly. Two of its decay products are gases. These are the radioactive gases radon and thoron. Radon-222 is a highly radioactive gas produced by the decay of radium-226. Thoron, or radium-220, is an isotope of radium formed by the decay of a radioactive isotope of thorium (thorium-232).
 
-Testing nuclearweapons in the atmosphere has also increased the amountsof radioactiveisotopesontheEarth.
+As these decay products are gases, they come out of radioactive rocks. The rocks of the Earth's crust have higher amounts of radioactive material so the amount of background radiation produced in this way varies from place to place. In Cornwall in the UK, for example, where the granite rock contains traces of uranium, the risk of exposure to radiation from radon gas is greater than in some other parts of the UK.
 
-Radioactive tracers are used inindustry and medicine.Radioactive materials arealsoused to treat certainforms ofcancer.However,themajority of backgroundradiation isnatural-theamountproducedfrommedicalusein industryisvery small indeed.
+Violent nuclear reactions in stars and exploding stars called supernovae produce cosmic rays (very energetic particles) that continuously hit the Earth. The Earth's atmosphere gives us fairly good protection from cosmic rays but some still reach the Earth's surface.
 
-EXPERIMENTALDEMONSTRATION OFNUCLEAR DECAY
+#### ARTIFICIALRADIATION
+The atoms that make up our bodies were formed in the violent reactions that take place in stars that exploded (supernovas) billions of years ago. Some of these atoms are radioactive so we carry our own personal source of radiation around with us. Also, as we breathe we take in tiny amounts of the radioactive isotope of carbon, carbon-14. Because carbon-14 behaves chemically just like the stable isotope, carbon-12, we continuously renew the amount of the radioactive carbon in our bodies (see page 245).
+
+Carbon-14 and other radioactive isotopes are eaten by humans (and animals
+
+We use radioactive materials for many purposes. Generating electricity in nuclear power stations has been responsible for the leaking of radioactive material into the environment. The levels are usually small, but there have been a number of major incidents around the world, especially at Three Mile Island in the USA in 1979 and at Chernobyl in the Ukraine in 1986. The tsunami and earthquake that caused major damage and loss of life in Japan in 2011 also damaged the Fukushima nuclear power station resulting in the release of radioactive materials into the air and the ocean as well as making a large area of land around the damaged power station unsafe for humans to live there.
+
+Testing nuclear weapons in the atmosphere has also increased the amounts of radioactive isotopes on the Earth.
+
+Radioactive tracers are used in industry and medicine. Radioactive materials are also used to treat certain forms of cancer. However, the majority of background radiation is natural - the amount produced from medical use in industry is very small indeed.
+
+EXPERIMENTAL DEMONSTRATION OF NUCLEAR DECAY
 RADIOACTIVEDECAY
 
 Radioactive decay isarandom（unpredictable)process,just like throwing a coin.lfwethrowa coin wecannotsaywith certaintywhetheritwill come down heads or tails.lfwe throw a thousand coinswe cannot predict which will landheads andwhichwill land tails.The sameis true forradioactive nuclei.It isimpossible to tell whichnuclei will disintegrate(break down) at anyparticular time.However,if wethrewa thousand coinswewouldbe surprisedif the numberthatlanded asheadswasnotaround5oo.Weknow thata normal coin hasan equal chanceof landingasahead ora tail,soifwegot600 headswe would thinkitwasunusual.If theproportion ofheadswere muchgreater than thiswe would beright to thinkthat the coin wasnot fair.
@@ -7691,9 +7859,9 @@ Notice that thegraphinFigure23.5falls steeply at first and more slowly after eac
 Ifwe have a sample of a radioactive material,it will contain millions of atoms. Theprocessof decay israndom,sowe don'tknowwhen an atom will decay but therewill beaprobability thata certain fractionof themwill disintegrate Once an unstablenucleus has disintegrated,it is out of the game-it won't be around to disintegrate during the nextperiod of time.lfweplot agraph of are fewernuclei to decay.
 HALF-LIFE
 
-Ourcoin-tossingmodel of radioactive decayshowsagraph that approaches thehorizontal axismore and more slowlyastimepasses.The model will produceanumberof throwsafterwhichall thecoinshavebeen taken outof thegame.The numberislikelytovary from trial to trial because themodel becomeslessandlessreliable as thenumberofcoinsbecomessmaller.With real radioactive decay we use a measure of activity called the half-life.This is defined as follows.
+Our coin-tossing model of radioactive decay shows a graph that approaches the horizontal axis more and more slowly as time passes. The model will produce a number of throws after which all the coins have been taken out of the game. The number is likely to vary from trial to trial because the model becomes less and less reliable as the number of coins becomes smaller. With real radioactive decay we use a measure of activity called the half-life. This is defined as follows.
 
-Thehalf-lifeofaradioactive sampleis theaverage time taken forhalf the original massofthesample todecay.lf theamountofradioactivematterhas halved then the activity of the decayhalves-this activity iswhat ismeasured infinding the half-life of an isotope.Thehalf-life is different for different radioactiveisotopes.
+The half-life of a radioactive sample is the average time taken for half the original mass of the sample to decay. If the amount of radioactive matter has halved then the activity of the decay halves - this activity is what is measured in finding the half-life of an isotope. The half-life is different for different radioactive isotopes.
 MEASURINGTHEHALF-LIFEOFA RADIOACTIVEISOTOPE
 
 Figure 23.6shows what this means.After one half-lifeperiod,t,the amount of the original unstable element has halved.Aftera second period of time,t,the amount hashalved again,and so on.
@@ -7701,10 +7869,10 @@ Figure 23.6shows what this means.After one half-lifeperiod,t,the amount of the o
 Tomeasure thehalf-life ofaradioactive material (radioisotope)wemust measure the activity of the sample atregular times.Thisis doneusing a Geiger-Muller(GM)tube linked to a rate meter.Before taking measurements from the sample,we must measure the localbackground radiation.We must subtractthebackgroundradiationmeasurementfrom measurements taken from the samplesoweknowtheradiationproduced by the sampleitself.We then measure therate ofdecayof the sample atregular time intervals.The rate ofdecayis shownby the countrate on therate meter.Theresults should be recorded ina tablelike the one shownbelow.
 
 #### MEASURINGTHEHALF-LIFEOFA RADIOACTIVEISOTOPE
-|   Average backgroundradiation measured over5min=xBq - Time,t/min | Average backgroundradiation measured over5min=xBq - Countrate/Bq   | Average backgroundradiation measured over5min=xBq - Correctedcountrate,C/Bq   |
-|------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
-|                                                                0 |                                                                    | yo-x                                                                          |
-|                                                                5 | ys                                                                 | ys-X                                                                          |
+|   Average background radiation measured over 5min = xBq - Time, t/min | Average background radiation measured over 5min = xBq - Count rate/Bq   | Average background radiation measured over 5min = xBq - Corrected count rate, C/Bq   |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------|
+|                                                                        0 |                                                                       | y-x                                                                             |
+|                                                                        5 | y                                                                     | y-x                                                                             |
 
 #### MEASURINGTHEHALF-LIFEOFA RADIOACTIVEISOTOPE
 The rate of decay,C,corrected forbackgroundradiation,isproportional to the amount of radioactive isotope present.lf weplot a graph of Cagainst time,t, we can measure the half-life from thegraph,as shown in Figure23.7.
@@ -7730,39 +7898,39 @@ HALF-LIFECALCULATIONS
 Graphs of activity,inbecquerels,against time can beused tofind the half-life ofan isotope,and thishalf-life information canbeused to make predictions of the activity of the radioisotope at a later time.
 EXAMPLE1
 
-Theactivityofa sample ofa certain isotope isfound tobe200 Bq.
+The activity of a sample of a certain isotope is found to be 200 Bq.
 
-If the isotope hasa half-life of20minutes,what will the activity of the samplebeafteronehour?
+If the isotope has a half-life of 20 minutes, what will the activity of the sample be after one hour?
 
-After20minutes the activity will have halved to 100Bq.
+After 20 minutes the activity will have halved to 100 Bq.
 
-After40minutes(two half-lives)it willhavehalved again to50 Bq.After 60 minutesitwill have halved again,so the activity will be25Bq.
+After 40 minutes (two half-lives) it will have halved again to 50 Bq. After 60 minutes it will have halved again, so the activity will be 25 Bq.
 
 What is the level of activity of this sample after three hours?
 
-Three hours=9x20 minutes-thatis,ninehalf-lifeperiods.Thismeans the activity will have halved nine times.The level of activity (and the amount of theradioisotoperemaining)will be:
+Three hours = 9 × 20 minutes - that is, nine half-life periods. This means the activity will have halved nine times. The level of activity (and the amount of the radioisotope remaining) will be:
 
-1 of the original value,and so of the original activity or amount. 29 512
+1 of the original value, and so of the original activity or amount. 29 512
 
-More questions on radioactive decay can be found at the end of Unit 7on page255.
+More questions on radioactive decay can be found at the end of Unit 7 on page 255.
 
-• 1aExplainwhatismeant bybackground radiation.
+• 1a Explain what is meant by background radiation.
 
-• bExplain the differencebetweennaturalbackgroundradiation and artificial backgroundradiation.
+• b Explain the difference between natural background radiation and artificial background radiation.
 
-• Give three different sources of backgroundradiation.Say whetheryour examples are natural or artificial sources.
+• Give three different sources of background radiation. Say whether your examples are natural or artificial sources.
 
-• 2a Explain simply theprinciple of the Geiger-Muller tube.
+• 2a Explain simply the principle of the Geiger-Muller tube.
 
-• The Geiger-Muller tube isoften connected toa rate meter.Explain what this instrument measures.
+• The Geiger-Muller tube is often connected to a rate meter. Explain what this instrument measures.
 
-• Therate meter is calibrated inkBq.How is thisunit defined?
+• The rate meter is calibrated in kBq. How is this unit defined?
 
-• 3a Define what ismeantby the half-life of aradioactivematerial.
+• 3a Define what is meant by the half-life of a radioactive material.
 
-• Radioactive decay isa random process.Explain what thismeans.
+• Radioactive decay is a random process. Explain what this means.
 
-• The activity of a radioactive sample ismeasured.The activity,corrected forbackgroundradiation,is found tobe240 Bq.The activity is measured again after1hour30minutes and isnow30Bq.Whatis the half-lifeof the sample?
+• The activity of a radioactive sample is measured. The activity, corrected for background radiation, is found to be 240 Bq. The activity is measured again after 1 hour 30 minutes and is now 30 Bq. What is the half-life of the sample?
 
 #### EXAMPLE1
 • In anothermodel of radioactive decay,a student fillsaburettewith water, asshown in the diagram,and startsa timer at theinstant the tap at the bottom is opened.She notes theheight of the column ofwater atregular intervals.lt takes35seconds toemptyfrom50ml to25ml.Assuming that the arrangementprovidesagoodmodelof radioactive decay:
@@ -7813,17 +7981,17 @@ TREATMENT
 
 STERILISATION USING RADIATION
 
-Otherisotopesareused toimage specificparts of the body.Technetium-99 isthe mostwidelyused isotopein medicalimaging.lt isused tohelpidentify medical problems that affect manyparts of thebody.Figure24.1 shows a scan of a patient'skidneys.lt showsclearly that one of thekidneysis not workingproperly.
+Other isotopes are used to image specific parts of the body. Technetium-99 is the most widely used isotope in medical imaging. It is used to help identify medical problems that affect many parts of the body. Figure 24.1 shows a scan of a patient's kidneys. It shows clearly that one of the kidneys is not working properly.
 
-Figure 24.2 Scanner used to provide 3Dimages of a patient's body
+Figure 24.2 Scanner used to provide 3D images of a patient's body
 
-Imaging techniques enable doctors toproduce three-dimensional (3D) computerimages ofpartsofapatient'sbody.These are of greatvalue in diagnosis.Figure24.2shows thekindofequipmentused forthree-dimensional imaging.
+Imaging techniques enable doctors to produce three-dimensional (3D) computer images of parts of a patient's body. These are of great value in diagnosis. Figure 24.2 shows the kind of equipment used for three-dimensional imaging.
 
-bodies.Low doses of radiation may have nolasting effect.Higher dosesmay cause the cellstostopworkingproperly as theradiation damages theDNAin thecells.This can lead to abnormal growth and cancer.Veryhigh doses will kill living cells.
+bodies. Low doses of radiation may have no lasting effect. Higher doses may cause the cells to stop working properly as the radiation damages the DNA in the cells. This can lead to abnormal growth and cancer. Very high doses will kill living cells.
 
-Anotherway of treating canceris tokill the cancer cells inside the body.This can be done with chemicals containingradioactive isotopes.Unfortunately,the radiation killshealthy cells as wellas diseased ones.Toreduce the damage tohealthy tissue,chemicals are used to target the location of the cancer in thebody.They may emit either alpha orbetaradiation.Both these types of radiationhave a short rangein the body.so they will affect only a small volume of tissue close to the target.
+Another way of treating cancer is to kill the cancer cells inside the body. This can be done with chemicals containing radioactive isotopes. Unfortunately, the radiation kills healthy cells as well as diseased ones. To reduce the damage to healthy tissue, chemicals are used to target the location of the cancer in the body. They may emit either alpha or beta radiation. Both these types of radiation have a short range in the body, so they will affect only a small volume of tissue close to the target.
 
-Theradioisotopeiodine-131isused in the treatmentofvarious diseasesof the emission.
+The radioisotope iodine-131 is used in the treatment of various diseases of the emission.
 
 #### TREATMENT
 Gammaradiation cankillbacteria andviruses.ltis thereforeused to kill The technique iscalled irradiation.The items tobe sterilised areplaced in secure bags toensure that they cannot bere-contaminated before use.The gammaradiation willpass through thepackaging and destroybacteria without damaging the item.
@@ -7837,9 +8005,9 @@ GAMMARADIOGRAPHY
 • Figure24.4A gamma camera image used to view inside a valve
 GAUGING
 
-Some foodproductsare treated in a similarway tomake sure that they arefree from anybacteria that will cause the food torot orwill cause foodpoisoning. The irradiationof food isan issue that causesconcem amongst thepublic and isnot a widelyusedprocedure at thepresent time.
+Some food products are treated in a similar way to make sure that they are free from any bacteria that will cause the food to rot or will cause food poisoning. The irradiation of food is an issue that causes concern amongst the public and is not a widely used procedure at the present time.
 
-Irradiation such as the deliberate exposureof foodproducts and surgical instrumentstocontrolled amountsofradiation should notbe confused with radioactive contamination.lfradioactive waste is accidentallyreleased either intothe air or thesea it couldresult infish,animalsoragricultural cropsbeing contaminated withradioactive material.
+Irradiation such as the deliberate exposure of food products and surgical instruments to controlled amounts of radiation should not be confused with radioactive contamination. If radioactive waste is accidentally released either into the air or the sea it could result in fish, animals or agricultural crops being contaminated with radioactive material.
 
 Figure 24.3 Gamma radiation is used to sterilise medical equipment.
 THEUSEOFRADIOACTIVITYININDUSTRY
@@ -7860,17 +8028,19 @@ Anotherexample ofgauging usesa similarprocess tomonitor thethickness ofplastic s
 Radioisotopes are used to check the flowof liquidsin industrial processes. Very tiny amountsofradiation can easilybe detected.Complexpiping systems,like thoseused in inpower stations,can be monitored forleaks. Radioactive tracers areevenused tomeasure therateof spread of sewage (human waste)(Figure 24.6)!
 
 • Figure 24.6 Radioactive tracers released with the sewage allow its spread to be monitored to make sure the concentration does not reach harmful levelsin any area.
-RADIOACTIVEDATING
 
-Avarietyofdifferentmethodsinvolvingradioisotopesareused todateminerals This isused to find theageoforganicmatter-forexample,from treesand animals-that was onceliving.We shall alsolook attechniques thatare used tofind the age of inorganicmaterial likerocks and minerals.
+#### RADIOACTIVEDATING
+RADIOACTIVE DATING
 
-Radiocarbon dating measures thelevel of an isotope called carbon-14 (C-14).This is made in the atmosphere.Cosmicrays from space are continuallyraining down upon theEarth.Thesehave a lotofenergy.When they hitatoms of gasin theupperlayers of the atmosphere,the nucleiof the atoms breakapart.Thepartsflyoffathighspeed.lf theyhit otheratoms theycan cause nuclear transformations(changes)to takeplace.These transformations turn the elementsin the airinto differentisotopes.One such collision involves a fast-moving neutron striking an atom ofnitrogen.(Nitrogen forms nearly 80% of our atmosphere.)The nuclearequation for thisprocess is:
+A variety of different methods involving radioisotopes are used to date minerals. This is used to find the age of organic matter - for example, from trees and animals - that was once living. We shall also look at techniques that are used to find the age of inorganic material like rocks and minerals.
 
-Notice that,as in the other nuclearequations we have seen,the top numbers -which show thenumberofnucleons-addup to thesame totalon each side of the equation.Thisisbecause themassnumber is conserved.Thebottom numbers-which show theamountofchargeon theparticles-are also conserved.
+Radiocarbon dating measures the level of an isotope called carbon-14 (C-14). This is made in the atmosphere. Cosmic rays from space are continually raining down upon the Earth. These have a lot of energy. When they hit atoms of gas in the upper layers of the atmosphere, the nuclei of the atoms break apart. The parts fly off at high speed. If they hit other atoms they can cause nuclear transformations (changes) to take place. These transformations turn the elements in the air into different isotopes. One such collision involves a fast-moving neutron striking an atom of nitrogen. (Nitrogen forms nearly 80% of our atmosphere.) The nuclear equation for this process is:
 
-You have seen the notation forneutrons and protonsin Chapter22. AreminderofneutronnotationisshowninFigure24.7,andofprotonnotation inFigure 24.8.
+Notice that, as in the other nuclear equations we have seen, the top numbers - which show the number of nucleons - add up to the same total on each side of the equation. This is because the mass number is conserved. The bottom numbers - which show the amount of charge on the particles - are also conserved.
 
-Theresultof the collisionofaneutronwith a nitrogen atom isanuclear transformation.The nitrogenatomistransformedinto anatom of the radioactiveisotopeofcarbon,carbon-14.
+You have seen the notation for neutrons and protons in Chapter 22. A reminder of neutron notation is shown in Figure 24.7, and of proton notation in Figure 24.8.
+
+The result of the collision of a neutron with a nitrogen atom is a nuclear transformation. The nitrogen atom is transformed into an atom of the radioactive isotope of carbon, carbon-14.
 
 #### RADIOACTIVEDATING
 As wehave already mentioned,isotopes of an element have the same chemical behaviour.Thismeans that the carbon-14 atomsreactwith oxygen in ouratmosphere toformcarbon dioxide,just likethemuch more common and stable isotope,carbon-12.The carbon dioxide isthen absorbedbyplants in theprocessofphotosynthesis.Asa result,aproportion of the carbon that makesup any plant willbe theradioactive form,carbon-14.Included in plant material,theradioactive isotopecarbon-14entersthe food chain,which meansthat animals and humanswill alsohave aproportion of carbon-14 in theirbodies.These carbon-14atomswill decaybut,in living plants and animals,they are continuously replaced by new ones.
@@ -7880,15 +8050,15 @@ When an organism (living thing) dies,thereplacement process stops.As timepasses,
 Thehalf-life forthe decayof carbon-14is approximately5600years.This means thatevery5600yearstheproportionofcarbon-14indeadplant and animal materialwillhalve.The amountofcarbon-14presentin a sample of deadplantoranimal material isfoundbymeasuring the activityof thesample Thisiscomparedwith theamountofcarbon-14thatwouldhavebeenpresent when the sample waspart ofa living organism.From this,it ispossible to estimatewhen thesourceof thesampledied.
 EXAMPLE1
 
-120g ofliving wood hasaradioactive activity(correctedforbackground radiation)of24Bq.A120g sampleofwood fromanhistoricalsite isfound tohave anactivity of 6Bq.lf thehalf-lifeof carbon-14is5600years, estimate the age of thewood from the site.
+120g of living wood has a radioactive activity (corrected for background radiation) of 24Bq. A 120g sample of wood from an historical site is found to have an activity of 6Bq. If the half-life of carbon-14 is 5600 years, estimate the age of the wood from the site.
 
-Since theactivityof thesamplehashalvedtwicefrom thatexpected in living wood,twohalf-lives must have passed.
+Since the activity of the sample has halved twice from that expected in living wood, two half-lives must have passed.
 
-Theageof thesampleis thereforearound2x5600years=11200years
+The age of the sample is therefore around 2x5600 years = 11200 years
 
-Therearelimitationsto themethodofradiocarbon dating.ltassumesthelevel ofcosmicradiationreaching theEarthis constant,whichisnotnecessarily accurate.Fortunately,the techniquehasbeen adjusted to take thevariations ofcosmicray activityinto account.This isdone by testing samples ofaknown age,likematerial from the mummies（preserved corpses)of Egyptian Pharaohs and fromvery ancientliving trees.
+There are limitations to the method of radiocarbon dating. It assumes the level of cosmic radiation reaching the Earth is constant, which is not necessarily accurate. Fortunately, the technique has been adjusted to take the variations of cosmic ray activity into account. This is done by testing samples of a known age, like material from the mummies (preserved corpses) of Egyptian Pharaohs and from very ancient living trees.
 
-Theradiocarbon methodisnotusedtodatesamplesolderthan50000-60000 years because,after10half-lives,the amount of carbon-14remainingin samples is too small to measure accurately.
+The radiocarbon method is not used to date samples older than 50000-60000 years because, after 10 half-lives, the amount of carbon-14 remaining in samples is too small to measure accurately.
 EXTENSION WORK
 
 radioactive isotopes.What follows on dating the age ofrocksis included forinterest only.
@@ -7915,56 +8085,58 @@ Forrocks containing such radioactive isotopes,theproportion of parent to stable 
 The decay series of potassium-40 endswith argon gas.Aspotassium-40 decays inigneousrock,the argon producedremains trapped in therock.lgneous rocks are formed whenmolten rockbecomes solid.lgneousrocks are non-porous.The proportion of argon topotassium-40 again gives a measure of the ageof therock.
 
 SAFEHANDLING OFRADIOACTIVE MATERIALS
-THEDANGERSTO HEALTH OFIONISING RADIATION
-
-lonising radiation can damage themolecules thatmake up the cellsof living tissue.Cells sufferthiskind ofdamageall the time formany different reasons. Fortunately.cells can repair orreplace themselvesgiven time so,usually，no permanent damageresults.However,if cellssufferrepeated damage because ofionising radiation,the cellmaybekilled.Alternatively the cell maystart to behave in an unexpected waybecause it hasbeen damaged.We call this effect cell mutation.Some typesof cancerhappenbecause damaged cells starttodivideuncontrollablyandnolongerperform theircorrectfunction.
-
-Different types ofionisingradiation present different risks.Alphaparticleshave Thismeans that an alpha sourcepresents little risk,as alpha particles do not penetrate（pass through)the skin.Theproblem ofalpha radiation ismuch greaterif thesource of alpha particlesis takeninto thebody.Here theradiation willbevery close tomanydifferenttypesof cells and theymaybe damaged if the exposure isprolonged.Alpha emitterscanbebreathedin ortaken in througheating food.Radongasisa decayproductofradium andis an alpha emitter.It thereforepresents a real risk to health.Smokers greatly increase theirexposure to thiskindofdamageastheydraw theradiationsourceright into theirlungs(cigarette smoke containsradon).
-
-Beta and gammaradiation doprovide a serioushealthriskwhenoutside the by ionisation.Gamma radiation,aswehave mentioned earlier,is the most emitters that are absorbed by thebodypresent lessrisk than alpha emitters, because oftheirlowerionisingpower.
 
 #### THEDANGERSTO HEALTH OFIONISING RADIATION
-In all cases,the longer theperiod ofexposure toradiationthe greater the riskofseriouscell damage.Workersinthe nuclearindustrywearbadgesto indicate theirlevel ofexposure.Some arepiecesofphotographicfilm that become increasingly'foggy'(unclear) as the radiation exposure increases. Another type ofbadgeuses aproperty called thermoluminescence. Thermoluminescence means that the exposedmaterialwill giveout light whenit iswarmed.Theradiationreleasesenergy tomakeheatso the thermoluminescentbadgesgive outmorelightwhenexposed tohigherlevels ofradiation.Workershave theirbadgeschecked regularlyand thisgivesa measureof theiroverallexposure toradiation.
+THE DANGERS TO HEALTH OF IONISING RADIATION
 
-Samplesofradioactive isotopes used inschools and colleges are very small. teachers!Although theriskis small,certainprecautions mustbe followed.The samplesarestoredinlead-lined containers toblockeven themostpenetrating form ofradiation,gamma rays.The containers are clearlylabelled asaradiation hazard (danger)and mustbe stored in a lockedmetal cabinet.The samples are handled using tongs and arekeptasfarfrom thebody aspossible.
+Ionising radiation can damage the molecules that make up the cells of living tissue. Cells suffer this kind of damage all the time for many different reasons. Fortunately, cells can repair or replace themselves given time so, usually, no permanent damage results. However, if cells suffer repeated damage because of ionising radiation, the cell may be killed. Alternatively the cell may start to behave in an unexpected way because it has been damaged. We call this effect cell mutation. Some types of cancer happen because damaged cells start to divide uncontrollably and no longer perform their correct function.
 
-In thenuclearindustry andresearchlaboratories,much largeramounts of radioactive materialareused.Thesehave tobehandled withgreatcare.Very energeticsourceswill behandledremotelybyoperatorswho areprotected by lead shields,concrete and thickglass viewing panels.Ashasbeen mentioned earlier,neutronradiation isabsorbed bylighterelements and waste materials, like spent uranium fuelrodsfromnuclearreactors,are storedunderwateruntil theneutronradiation levelsdroptoasafelevel.
+Different types of ionising radiation present different risks. Alpha particles have This means that an alpha source presents little risk, as alpha particles do not penetrate (pass through) the skin. The problem of alpha radiation is much greater if the source of alpha particles is taken into the body. Here the radiation will be very close to many different types of cells and they may be damaged if the exposure is prolonged. Alpha emitters can be breathed in or taken in through eating food. Radon gas is a decay product of radium and is an alpha emitter. It therefore presents a real risk to health. Smokers greatly increase their exposure to this kind of damage as they draw the radiation source right into their lungs (cigarette smoke contains radon).
 
-#### THEDANGERSTO HEALTH OFIONISING RADIATION
-• Figure 24.9 Radioactive samples are stored inlead-lined containers and are handled with tongsorprotected fingers.
-
-• Figure 24.10Industrial sources of radioactivity must be handed with a lot of care.
-
-The majorproblem withnuclearmaterials islong-term storage.Some materials have extremelylong half-livessotheyremain active forthousands and sometimes tens of thousandsofyears.Nuclearwaste must be stored in sealed containersthatmustbe capable of containing theradioactivityfor enormously longperiods of time.
-
-More questions on applications of radioactivity canbe found at the end of Unit 7on page255.
-
-• 1The most widely used isotopein medicine is technetium-99m.It has a halflife of sixhours and decays by the emissionof low-energy gamma rays and beta particles.
-
-• aExplain why the characteristicsof technetium-99m make it suitablefor diagnostic use in medicine.
-
-• Technetium-99m can be chemically attached toa widevarietyof pharmaceuticalproductsso thatit canbetargeted atparticular tissues ororgans.How can itsprogress through the bodybe measured and monitored?
-
-• 2Technetium-99m isproduced frommolybdenum-99ina devicecalled a technetium generator.Which decayprocess-a,βory-could cause molybdenum-99todecay to technetium-99m?Explainyouranswer.
-
-• 3Aradioactiveisotope ofiodine isused inboth the diagnosisand treatment ofa condition of the thyroidgland.Thisglandnaturally takesup ordinary iodine aspart of its function.lf a patient has an overactive thyroid it concentrates toomuch iodine in thegland and thishas seriouseffectson the patient's health.
-
-Howmight theradioisotopeiodine-131beused to:
+Beta and gamma radiation do provide a serious health risk when outside the by ionisation. Gamma radiation, as we have mentioned earlier, is the most emitters that are absorbed by the body present less risk than alpha emitters, because of their lower ionising power.
 
 #### THEDANGERSTO HEALTH OFIONISING RADIATION
-• aidentify anoveractive thyroidgland?
+In all cases, the longer the period of exposure to radiation the greater the risk of serious cell damage. Workers in the nuclear industry wear badges to indicate their level of exposure. Some are pieces of photographic film that become increasingly 'foggy' (unclear) as the radiation exposure increases. Another type of badge uses a property called thermoluminescence. Thermoluminescence means that the exposed material will give out light when it is warmed. The radiation releases energy to make heat so the thermoluminescent badges give out more light when exposed to higher levels of radiation. Workers have their badges checked regularly and this gives a measure of their overall exposure to radiation.
+
+Samples of radioactive isotopes used in schools and colleges are very small. teachers! Although the risk is small, certain precautions must be followed. The samples are stored in lead-lined containers to block even the most penetrating form of radiation, gamma rays. The containers are clearly labelled as a radiation hazard (danger) and must be stored in a locked metal cabinet. The samples are handled using tongs and are kept as far from the body as possible.
+
+In the nuclear industry and research laboratories, much larger amounts of radioactive material are used. These have to be handled with great care. Very energetic sources will be handled remotely by operators who are protected by lead shields, concrete and thick glass viewing panels. As has been mentioned earlier, neutron radiation is absorbed by lighter elements and waste materials, like spent uranium fuel rods from nuclear reactors, are stored underwater until the neutron radiation levels drop to a safe level.
+
+#### THEDANGERSTO HEALTH OFIONISING RADIATION
+• Figure 24.9 Radioactive samples are stored in lead-lined containers and are handled with tongs or protected fingers.
+
+• Figure 24.10 Industrial sources of radioactivity must be handled with a lot of care.
+
+The major problem with nuclear materials is long-term storage. Some materials have extremely long half-lives so they remain active for thousands and sometimes tens of thousands of years. Nuclear waste must be stored in sealed containers that must be capable of containing the radioactivity for enormously long periods of time.
+
+More questions on applications of radioactivity can be found at the end of Unit 7 on page 255.
+
+• 1 The most widely used isotope in medicine is technetium-99m. It has a half-life of six hours and decays by the emission of low-energy gamma rays and beta particles.
+
+• a Explain why the characteristics of technetium-99m make it suitable for diagnostic use in medicine.
+
+• Technetium-99m can be chemically attached to a wide variety of pharmaceutical products so that it can be targeted at particular tissues or organs. How can its progress through the body be measured and monitored?
+
+• 2 Technetium-99m is produced from molybdenum-99 in a device called a technetium generator. Which decay process - α, β or γ - could cause molybdenum-99 to decay to technetium-99m? Explain your answer.
+
+• 3 A radioactive isotope of iodine is used in both the diagnosis and treatment of a condition of the thyroid gland. This gland naturally takes up ordinary iodine as part of its function. If a patient has an overactive thyroid it concentrates too much iodine in the gland and this has serious effects on the patient's health.
+
+How might the radioisotope iodine-131 be used to:
+
+#### THEDANGERSTO HEALTH OFIONISING RADIATION
+• a identify an overactive thyroid gland?
 
 • b treat the overactive thyroid?
 
-(lodine-131hasa half-life ofeight days and isahigh-energybeta emitter.)
+(Iodine-131 has a half-life of eight days and is a high-energy beta emitter.)
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 CREATIVITY,
 
 REASONING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 PROBLEM SOLVING
 
@@ -7972,50 +8144,50 @@ ANALYSIS
 
 REASONING
 
-• 4aExplain the differencebetween radioactive contaminationand irradiation.
+• 4a Explain the difference between radioactive contamination and irradiation.
 
-• bGivean example ofa use ofiradiation.
+• b Give an example of a use of irradiation.
 
-• Paperis madein a variety of differentweights'，with different thicknesses. Howcould ionising radiationbeused to check thethickness ofpaperduring production?You should consider thefollowing:
+• Paper is made in a variety of different weights, with different thicknesses. How could ionising radiation be used to check the thickness of paper during production? You should consider the following:
 
-• the typeof radiation tobeused
+• the type of radiation to be used
 
-• how it will be used to measure thepaper thickness
+• how it will be used to measure the paper thickness
 
 • accurate
 
-• safetyprocedures.
+• safety procedures.
 
-• 6Radiocarbon dating isused to estimate the age oforganic（once-living) materials.lt uses a radioisotope of carbon,carbon-14(C-14).
+• 6 Radiocarbon dating is used to estimate the age of organic (once-living) materials. It uses a radioisotope of carbon, carbon-14 (C-14).
 
-• aHow iscarbon-14 formed?
+• a How is carbon-14 formed?
 
-• bWhy does all living matter contain aproportion of C-14?
+• b Why does all living matter contain a proportion of C-14?
 
-• What happens to theproportion of C-14 in an organism onceit hasdied?
+• What happens to the proportion of C-14 in an organism once it has died?
 
-• What assumptions are made in theprocess of radiocarbon dating?
+• What assumptions are made in the process of radiocarbon dating?
 
-• Why is thismethodunsuitable foraccurately dating material that ismore than50000yearsold?
+• Why is this method unsuitable for accurately dating material that is more than 50000 years old?
 
-• Mostradioactive isotopesofelementshavehalf-lives thatare extremely short compared to the ageof theEarth.The Earth isabout 4.5billionyears old.Radium hasa half-life of only about 1600years.
+• Most radioactive isotopes of elements have half-lives that are extremely short compared to the age of the Earth. The Earth is about 4.5 billion years old. Radium has a half-life of only about 1600 years.
 
-• aHowmanyhalf-livesofradiumhave therebeen since theEarthformed?
+• a How many half-lives of radium have there been since the Earth formed?
 
-• StudentAsaysall theradium fommedwhen theEarth condensed outof the amount bynow.
+• Student A says all the radium formed when the Earth condensed out of the amount by now.
 
-• Student Bsays that it depends on how much there was to start with.
+• Student B says that it depends on how much there was to start with.
 
-• Student C says that thereis still a significant amountof radium on theEarth.
+• Student C says that there is still a significant amount of radium on the Earth.
 
 #### THEDANGERSTO HEALTH OFIONISING RADIATION
-• bWhich student orstudentsare correct? Givereasons foryouranswer.
+• b Which student or students are correct? Give reasons for your answer.
 
-• 8An isotope that decaysby alpha emission isrelativelysafewhen outsidethe body butvery dangerousif absorbed by thebody,eitherthrough breathing oreating.
+• 8 An isotope that decays by alpha emission is relatively safe when outside the body but very dangerous if absorbed by the body, either through breathing or eating.
 
-• aExplainwhy thisisso.
+• a Explain why this is so.
 
-• bWhyisradon-220 aparticularlydangerousisotope?
+• b Why is radon-220 a particularly dangerous isotope?
 
 ## Unit 7: Radioactivity and Particles
 
@@ -8045,53 +8217,59 @@ LEARNING OBJECTIVES
 • Explain why nuclearfusion doesnot happen at low temperatures and pressures,due to electrostatic repulsion ofprotons
 
 • Describe theroleplayed by the control rods and moderatorin thefission process
-NUCLEAR REACTIONSASA SOURCEOFENERGY
 
-Nuclearreactionsinvolve a change in the qualities of atoms.Heavy atoms may split intolighteratoms and otherpiecesinaprocess calledfission.Lighter atomsmaybeforced tojoin together tomakeheavieratomsinaprocess called fusion.Ineitherprocess,the mass of the starting atoms isgreater than themass of the products.This missing mass has been converted into energy.
+#### NUCLEAR REACTIONSASA SOURCEOFENERGY
+NUCLEAR REACTIONS AS A SOURCE OF ENERGY
 
-Within the core of the Earth,radioactive isotopes of elementslike uranium, thorium andpotassiumprovidea largeproportion of the heatwithin theEarth itself throughradioactive decay.
+Nuclear reactions involve a change in the qualities of atoms. Heavy atoms may split into lighter atoms and other pieces in a process called fission. Lighter atoms may be forced to join together to make heavier atoms in a process called fusion. In either process, the mass of the starting atoms is greater than the mass of the products. This missing mass has been converted into energy.
 
-In the Sun,hydrogen is converted intohelium ina fusion reactionproviding us with a continuous supplyof energy in the form of heatand other electromagneticradiation.
-NUCLEARFISSION
+Within the core of the Earth, radioactive isotopes of elements like uranium, thorium and potassium provide a large proportion of the heat within the Earth itself through radioactive decay.
 
-Uranium-235 isused asfuelin anuclearreactor.lt isused because itsnuclei can be split by a neutron.Theprocess of splitting an atom is called fission.
+In the Sun, hydrogen is converted into helium in a fusion reaction providing us with a continuous supply of energy in the form of heat and other electromagnetic radiation.
 
-Uranium-235iscalled afissilematerialbecauseit goes through the splitting process easily.The fission process is shown in Figure25.1.
+#### NUCLEARFISSION
+NUCLEAR FISSION
 
-In the fissionreaction,a slow-movingneutron is absorbed by a nucleus of uranium-235.
+Uranium-235 is used as fuel in a nuclear reactor. It is used because its nuclei can be split by a neutron. The process of splitting an atom is called fission.
 
-• Figure 25.1One example offission ofuranium-235
+Uranium-235 is called a fissile material because it goes through the splitting process easily. The fission process is shown in Figure 25.1.
 
-The resulting nucleus of uranium-236 isunstable and splits apart.The fragmentsof thisdecayarethetwo daughternucleiofbarium-144and neutrons.The equationforthisdecay is:
+In the fission reaction, a slow-moving neutron is absorbed by a nucleus of uranium-235.
 
-Thefissionreaction producesa huge amountof energy.This isbecause the massof theproducts,thebarium andkryptonnucleiand the three neutrons, isslightlyless than thatof the original uranium-236nuclei.Thislost massis converted to energy.Most of the energyis carriedaway as the kinetic energy of the two lighternuclei.Some isemitted asgammaradiation.The three neutronsproducedbythefissionmayhitothernucleiofuranium-235,so causing theprocess torepeat,asshowninFigure25.2.Ifoneneutron from eachfission causesonenearbyuranium-235 to split,then thefissionreaction willkeepgoing.lf more thanoneneutron from eachfission causesfission insurrounding nuclei,then thereactiongetsfasterand faster-abit like an avalanche.
+• Figure 25.1 One example of fission of uranium-235
+
+The resulting nucleus of uranium-236 is unstable and splits apart. The fragments of this decay are the two daughter nuclei of barium-144 and neutrons. The equation for this decay is:
+
+The fission reaction produces a huge amount of energy. This is because the mass of the products, the barium and krypton nuclei and the three neutrons, is slightly less than that of the original uranium-236 nuclei. This lost mass is converted to energy. Most of the energy is carried away as the kinetic energy of the two lighter nuclei. Some is emitted as gamma radiation. The three neutrons produced by the fission may hit other nuclei of uranium-235, so causing the process to repeat, as shown in Figure 25.2. If one neutron from each fission causes one nearby uranium-235 to split, then the fission reaction will keep going. If more than one neutron from each fission causes fission in surrounding nuclei, then the reaction gets faster and faster - a bit like an avalanche.
 EXTENSION WORK
 
-A'slowneutron is a low-energy neutron produced by a nuclear decay.Faster moving,more energeticneutrons donot causefission.
+A 'slow neutron is a low-energy neutron produced by a nuclear decay. Faster moving, more energetic neutrons do not cause fission.
 
-This is called a chain reaction.Each fission results in more nuclei splitting apart.lf theamount ofuranium-235is small,many of the neutronsreleased donot hit otheruraniumnuclei and the reaction doesnotget faster and faster.Fora chain reaction tohappen there mustbe a minimum amount of the uranium-235.This minimum amount is called the criticalmass.
+This is called a chain reaction. Each fission results in more nuclei splitting apart. If the amount of uranium-235 is small, many of the neutrons released do not hit other uranium nuclei and the reaction does not get faster and faster. For a chain reaction to happen there must be a minimum amount of the uranium-235. This minimum amount is called the critical mass.
 
-In an atomicbombtwopieces of fissilematerial (isotopesthat canbe triggered intosplittingapart)thataresmallerthan thecritical massareforced together isachainreaction with therapid anduncontrolledreleaseofhuge amountsof energy.
-Figure25.2A chain reaction in uranium-235
-
-If thisis allowed to takeplace inanuclearreactor,thereactor core overheats, resultinginanuclear explosion with the suddenrelease ofenormous amounts of heatenergy and radiation.Inanuclearreactortheprocessis controlled so that the heat energy isreleased overa longerperiod of time.Theheat produced in the core orheart of thereactor is used toheat water.The steam produced then drives turbines(engines)to tum generators.The basicparts of anuclearreactorare showninFigure25.3.
-
-Thereactor core contains fuel rods ofenriched uranium.Enriched uranium isuranium-238with ahigherproportionof uranium-235thanisfound in natural reserves ofuranium.Graphite is used asa moderator.Thejob of
-
-Figure 25.3Anuclearreactor controls a chain reaction so that heat energy isreleased slowly.
-
-themoderatoristoabsorbsomeof thekineticenergyof theneutronsto slow them down.Thisisbecause slowneutrons aremore easily absorbed by uranium-235.Aneutron slowed in thisway can start thefissionprocess.
-
-In thenuclearreactor there are also controlrods,made ofboron or cadmium.Theseabsorb theneutronsand take them outof the fissionprocess completely.When the control rods arefullyinside the core,the chain reaction is almostcompletely stopped and therate ofproduction ofheat is low.As the control rods arewithdrawn,the rate of fission increasesproducing heat at a greaterrate.
-
-Thereactorvessel ismadeof steel and surroundedbya concretelayerabout 5metres in thickness.Thisprevents any radiation escaping,even neutrons.
+In an atomic bomb two pieces of fissile material (isotopes that can be triggered into splitting apart) that are smaller than the critical mass are forced together is a chain reaction with the rapid and uncontrolled release of huge amounts of energy.
 
 #### Figure25.2A chain reaction in uranium-235
-Thenuclearprocess in a reactorproduces a varietyofdifferenttypesof radioactive material.Somehaverelatively shorthalf-livesand decayrapidly Thesesoonbecomesafetohandleand donotpresentproblemsof long-term storage.Othermaterialshave extremely longhalf-lives.These will continue to produce dangerouslevelsofionisingradiation forthousandsofyears.These wasteproductspresent a seriousproblem forlong-term storage.They are usuallysealed(closed) in containerswhich are thenburied deepunderground. The sites forunderground storage have tobe carefullyselected.Therockmust bewaterresistantand thegeologyof thesitemustbestable-storing waste in
+Figure 25.2 A chain reaction in uranium-235
 
-Somereactors aredesigned toproduceplutonium.Plutonium isavery radioactiveartificialelement.Smallamountsofplutoniumrepresentaserious danger tohealth.Plutoniumisanotherfissilematerial.lfa largeenough mass ofplutoniumisbrought togethera chainreactionwill start.Plutonium can be used in theproduction ofnuclearweapons.
+If this is allowed to take place in a nuclear reactor, the reactor core overheats, resulting in a nuclear explosion with the sudden release of enormous amounts of heat energy and radiation. In a nuclear reactor the process is controlled so that the heat energy is released over a longer period of time. The heat produced in the core or heart of the reactor is used to heat water. The steam produced then drives turbines (engines) to turn generators. The basic parts of a nuclear reactor are shown in Figure 25.3.
 
-Nuclearpower stations donotproduce carbon dioxide oracidicgases asfossil fuel powerstations do.Thismeans thatnuclearpower doesnot contribute toglobal warming oracid rain.Only small amountsofuranium areneeded fora chainreaction and the supplyofnuclearfuelwilllastmany hundredsofyears-unlike some fossil fuels that couldrun out in the next fifty years.
+The reactor core contains fuel rods of enriched uranium. Enriched uranium is uranium-238 with a higher proportion of uranium-235 than is found in natural reserves of uranium. Graphite is used as a moderator. The job of
+
+Figure 25.3 A nuclear reactor controls a chain reaction so that heat energy is released slowly.
+
+the moderator is to absorb some of the kinetic energy of the neutrons to slow them down. This is because slow neutrons are more easily absorbed by uranium-235. A neutron slowed in this way can start the fission process.
+
+In the nuclear reactor there are also control rods, made of boron or cadmium. These absorb the neutrons and take them out of the fission process completely. When the control rods are fully inside the core, the chain reaction is almost completely stopped and the rate of production of heat is low. As the control rods are withdrawn, the rate of fission increases producing heat at a greater rate.
+
+The reactor vessel is made of steel and surrounded by a concrete layer about 5 metres in thickness. This prevents any radiation escaping, even neutrons.
+
+#### Figure25.2A chain reaction in uranium-235
+The nuclear process in a reactor produces a variety of different types of radioactive material. Some have relatively short half-lives and decay rapidly. These soon become safe to handle and do not present problems of long-term storage. Other materials have extremely long half-lives. These will continue to produce dangerous levels of ionising radiation for thousands of years. These waste products present a serious problem for long-term storage. They are usually sealed (closed) in containers which are then buried deep underground. The sites for underground storage have to be carefully selected. The rock must be water resistant and the geology of the site must be stable - storing waste in
+
+Some reactors are designed to produce plutonium. Plutonium is a very radioactive artificial element. Small amounts of plutonium represent a serious danger to health. Plutonium is another fissile material. If a large enough mass of plutonium is brought together a chain reaction will start. Plutonium can be used in the production of nuclear weapons.
+
+Nuclear power stations do not produce carbon dioxide or acidic gases as fossil fuel power stations do. This means that nuclear power does not contribute to global warming or acid rain. Only small amounts of uranium are needed for a chain reaction and the supply of nuclear fuel will last many hundreds of years - unlike some fossil fuels that could run out in the next fifty years.
 NUCLEARFUSION
 
 Figure 25.4 Here a nucleus of deuterium collides with a nucleus of tritium. They undergo fusion to form the nucleus of helium,a neutron and a large amount of energy.
@@ -8099,40 +8277,40 @@ Figure 25.4 Here a nucleus of deuterium collides with a nucleus of tritium. They
 AFigure 25.5 The mass of the products of fuslon is smaller than the two hydrogen nuclei.
 CHAPTER QUESTIONS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 REASONING
 
 CRITICAL THINKING
 
-Figure25.4showsa fusionprocess thatisbeing used inprojects to develop nuclearfusionreactors.Two isotopes of hydrogen,deuterium(H-2)and tritium(H-3),collide atvery high speed.The result is the formation of a helium nucleus,a neutron and a large amount of energy.The fusion process is the energy source of our Sun and allstars.
+Figure 25.4 shows a fusion process that is being used in projects to develop nuclear fusion reactors. Two isotopes of hydrogen, deuterium (H-2) and tritium (H-3), collide at very high speed. The result is the formation of a helium nucleus, a neutron and a large amount of energy. The fusion process is the energy source of our Sun and all stars.
 
-Thisprocess usesmaterials that aremorereadily available than theuranium used ina conventional fission reactor and has the advantageofproducing noradioactive waste.Theproblem is creating thevery high temperatures needed tomake the deuterium and tritiumnucleicollide with enough energy toovercome the repulsive(pushing away)force between the positive electric charge in the nuclei of each isotope.The high temperature (100 million°C) bottle'.In order to increase the chance of fusion between the lightnuclei in the hot liquid,thepressure within the liquid must bevery high.
+This process uses materials that are more readily available than the uranium used in a conventional fission reactor and has the advantage of producing no radioactive waste. The problem is creating the very high temperatures needed to make the deuterium and tritium nuclei collide with enough energy to overcome the repulsive (pushing away) force between the positive electric charge in the nuclei of each isotope. The high temperature (100 million°C) bottle'. In order to increase the chance of fusion between the light nuclei in the hot liquid, the pressure within the liquid must be very high.
 
-More questions on the structureof the atom can be found atthe end ofUnit7 onpage 255.
+More questions on the structure of the atom can be found at the end of Unit 7 on page 255.
 
-• 1aUranium-235(U-235) isa fissilematerial.What does thismean?
+• 1a Uranium-235 (U-235) is a fissile material. What does this mean?
 
-• bIf there is a large enough mass of U-235,it may causea chainreaction. (This is called the critical mass for the isotope.)
+• b If there is a large enough mass of U-235, it may cause a chain reaction. (This is called the critical mass for the isotope.)
 
-• iDescribehowa chainreactionmay takeplacewhena U-235nucleus splitsapart.
+• i Describe how a chain reaction may take place when a U-235 nucleus splits apart.
 
-• iiAchainreactionisunlikely to takeplace if there isonlya small amount ofU-235.Explainwhy thisis so.
+• ii A chain reaction is unlikely to take place if there is only a small amount of U-235. Explain why this is so.
 
-• 2List two advantages and two disadvantagesof nuclearfission as a wayof producing energy.
+• 2 List two advantages and two disadvantages of nuclear fission as a way of producing energy.
 
 #### CHAPTER QUESTIONS
-• 3 Ina nuclearfissionreactor,fuel rodsmade upof a fissile material,like U-235,arelowered into tubesin a large blockofgraphite.Inbetween the fuelrodsare control rodsmadeofboron whichmayberaised outof the reactor orlowered into it.Thereactor container(vessel) is surrounded by steeland avery thicklayerofconcrete.
+• 3 In a nuclear fission reactor, fuel rods made up of a fissile material, like U-235, are lowered into tubes in a large block of graphite. In between the fuel rods are control rods made of boron which may be raised out of the reactor or lowered into it. The reactor container (vessel) is surrounded by steel and a very thick layer of concrete.
 
-• aExplain thepurposeof thegraphite around the fuel rods.
+• a Explain the purpose of the graphite around the fuel rods.
 
-• Describewhateffect the action ofraising the control rodsoutof the reactorcore hason thebehaviourof thereactor.
+• Describe what effect the action of raising the control rods out of the reactor core has on the behaviour of the reactor.
 
-• cExplainhow theworkersina nuclearpowerstation areprotected from the dangerous typesofradiationproduced by thisnuclearreactor.
+• c Explain how the workers in a nuclear power station are protected from the dangerous types of radiation produced by this nuclear reactor.
 
-• Describe the differences betweennuclear fission and nuclearfusion.
+• Describe the differences between nuclear fission and nuclear fusion.
 
-• 5Explainwhycreating energyina nuclearreactorby fusionissomuchmore difficult than creatingpowerby nuclearfission.
+• 5 Explain why creating energy in a nuclear reactor by fusion is so much more difficult than creating power by nuclear fission.
 
 ## Unit 7: Radioactivity and Particles
 
@@ -8142,63 +8320,63 @@ UNIT QUESTIONS
 
 SKILLS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
-• Which of the followingparticles has the smallest mass?
+• Which of the following particles has the smallest mass?
 
-• Aalpha
+• A alpha
 
-• Bneutron
+• B neutron
 
-• Cproton
+• C proton
 
-• Delectron
+• D electron
 
-• bWhen aradioactive isotope emits an alpha particle its
+• b When a radioactive isotope emits an alpha particle its
 
-• Aatomic mass decreases and itsatomicnumberdecreases
+• A atomic mass decreases and its atomic number decreases
 
-• Batomicmassincreasesand its atomicnumber decreases
+• B atomic mass increases and its atomic number decreases
 
-• Catomic mass decreases and its atomicnumberincreases
+• C atomic mass decreases and its atomic number increases
 
-• Datomicmassisunchanged and its atomicnumber decreases
-
-(1)
-
-• cThe emission ofwhich of the following particlesfrom aradioisotope causes it to changeinto thenextelementin theperiodictable?
-
-• Apositron
-
-• Belectron
-
-• Cneutron
-
-• Dalpha
-
-• dAradioactive isotopehasan activityof 1000 Bq;after5hours its activity hasfallen to 125Bq.Thehalf-lifeof this isotope is
-
-• A1hour
-
-• B75minutes
-
-• C125minutes
-
-• D2.5hours
+• D atomic mass is unchanged and its atomic number decreases
 
 (1)
 
-• Which of thefollowingparticles thatmaybe emitted inradioactive decayis not ionising?
+• c The emission of which of the following particles from a radioisotope causes it to change into the next element in the periodic table?
 
-• Aalpha
+• A positron
 
-• Bbeta minus
+• B electron
 
-• Cneutron
+• C neutron
 
-• Dbetaplus
+• D alpha
 
-(Total forQuestion 1=5marks)
+• d A radioactive isotope has an activity of 1000 Bq; after 5 hours its activity has fallen to 125 Bq. The half-life of this isotope is
+
+• A 1 hour
+
+• B 75 minutes
+
+• C 125 minutes
+
+• D 2.5 hours
+
+(1)
+
+• Which of the following particles that may be emitted in radioactive decay is not ionising?
+
+• A alpha
+
+• B beta minus
+
+• C neutron
+
+• D beta plus
+
+(Total for Question 1 = 5 marks)
 
 SKILLS
 
@@ -8211,15 +8389,15 @@ CRITICAL THINKING
 4
 UNIT QUESTIONS
 
-In the Sun and other stars the temperature and pressure make hydrogen nuclei fuse together to form heavier nuclei.Thisprocessproducesa very large amount of energy,various types ofradiation and helium.The steps of this fusionprocess are shown in thefollowing nuclearequations.
+In the Sun and other stars the temperature and pressure make hydrogen nuclei fuse together to form heavier nuclei. This process produces a very large amount of energy, various types of radiation and helium. The steps of this fusion process are shown in the following nuclear equations.
 
-Balance theseequationsbyfiling in theboxes:
+Balance these equations by filling in the boxes:
 
-• aH+H→H+
+• a H+H→H+
 
 (2)
 
-• b²H+H→He
+• b ²H+H→He
 
 (2)
 
@@ -8229,51 +8407,51 @@ Balance theseequationsbyfiling in theboxes:
 
 (Total for Question 2=7marks)
 
-Here are descriptions ofsomenuclearparticles:
+Here are descriptions of some nuclear particles:
 
-Particle A has0mass and a charge+1.
+Particle A has 0 mass and a charge +1.
 
-Particle B has 1mass and a charge 0.
+Particle B has 1 mass and a charge 0.
 
 • Particle C has 1 mass and a charge +1.
 
-Particle D has O mass and a charge-1.
+Particle D has O mass and a charge -1.
 
-ParticleEhas 4mass and a charge +2.
+Particle E has 4 mass and a charge +2.
 
-• aState which particle is an alpha.
+• a State which particle is an alpha.
 
-• bState which particle is a beta minus.
+• b State which particle is a beta minus.
 
-• cState which particle isapositron.
+• c State which particle is a positron.
 
-• dState which particle is aproton.
-
-(1)
-
-• eState which particle isa neutron.
+• d State which particle is a proton.
 
 (1)
 
-(Total for Question3=5marks)
+• e State which particle is a neutron.
 
-Two typesof nuclearreactor are used toproduce energy.Fissionreactors are already inuse innuclearpowerplants around the world.Fusionreactors are still at the experimental stage.
+(1)
 
-• aExplainwhatismeantby:
+(Total for Question 3=5marks)
 
-• inuclearfission
+Two types of nuclear reactor are used to produce energy. Fission reactors are already in use in nuclear power plants around the world. Fusion reactors are still at the experimental stage.
+
+• a Explain what is meant by:
+
+• i nuclear fission
 
 (4)
 
-• iinuclearfusion
+• ii nuclear fusion
 
 (4)
 
-• bInafissionreactor theprocessofgenerating energyis a chainreaction using a suitablefissilefuel like uranium-235.
+• b In a fission reactor the process of generating energy is a chain reaction using a suitable fissile fuel like uranium-235.
 
-• iExplain whata chain reaction is,and (4)
+• i Explain what a chain reaction is, and (4)
 
-• iihow itbecontrolled orshutdowncompletely.
+• ii how it be controlled or shutdown completely.
 
 (4)
 
@@ -8281,52 +8459,54 @@ Two typesof nuclearreactor are used toproduce energy.Fissionreactors are already
 
 SKILLS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 REASONING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 PROBLEM SOLVING
 
-• aExplain the conditions that are needed to cause nuclearfusion.
+• a Explain the conditions that are needed to cause nuclear fusion.
 
 (e)
 
-• bState tworeasonswhynuclearfusionreactors maybe abetter altemative tonuclearfission reactors.
-
-(2)
-(TotalforQuestion5=5marks)
-
-• Explain what the letters A and Ztell us about the structure (make up)of the nucleus ofany elementX.
+• b State two reasons why nuclear fusion reactors may be a better alternative to nuclear fission reactors.
 
 (2)
 
-• bHere isa list of the type ofradiation that maybe emitted (given out)by an unstable nucleus:
+#### (TotalforQuestion5=5marks)
+(Total for Question 5 = 5 marks)
 
-• Aalpha
+• Explain what the letters A and Z tell us about the structure (make up) of the nucleus of any element X.
 
-• Bbeta
+(2)
 
-• Cgamma
+• b Here is a list of the type of radiation that may be emitted (given out) by an unstable nucleus:
 
-• Dneutron
+• A alpha
 
-• IWhich type affectsA but not Z?
+• B beta
 
-• iiWhich type affectsZbutnotA?
+• C gamma
+
+• D neutron
+
+• i Which type affects A but not Z?
+
+• ii Which type affects Z but not A?
 
 (1)
 
-• ii Which type affects both A and Z?
+• iii Which type affects both A and Z?
 
 (1)
 
-• ivWhich type affectsneitherAnorZ?
+• iv Which type affects neither A nor Z?
 
 (1)
 
-(TotalforQuestion6=6marks)
+(Total for Question 6 = 6 marks)
 
 ## Unit 8: Astrophysics
 
@@ -8342,9 +8522,11 @@ COSMOL0GY271
 
 ### Motion in the universe
 
-26 MOTION IN THEUNIVERSE
 
-We live on aplanet called Earth.lt is one of many planets that. togetherwith theirmoons,formourSolar System.Gravitational forcesholdour SolarSystem together.These forcescause theplanets,seiernilsand comets to orbit theSun,and moons and artificial satellites to orbittheplanets.In thischapter wewill lookatthekeyroleplayed bygravitational forcesincontrollingthese movements.
+#### 26 MOTION IN THEUNIVERSE
+26 MOTION IN THE UNIVERSE
+
+We live on a planet called Earth. It is one of many planets that, together with their moons, form our Solar System. Gravitational forces hold our Solar System together. These forces cause the planets, satellites and comets to orbit the Sun, and moons and artificial satellites to orbit the planets. In this chapter we will look at the key role played by gravitational forces in controlling these movements.
 UNITS
 
 In this sectionyou willneed to usekilogram (kg)as the unit of mass,metre (m)as the unit of length,metre/second (m/s)as the unit of speed, metre/second²(m/s²)as the unit ofacceleration newton (N) as the unit of force,second (s)as the unitof time andnewton/kilogram(N/kg)as the unitofgravitational field strength.
@@ -8368,34 +8550,36 @@ time period,T
 THESOLARSYSTEM
 
 • Figure 26.2 The Earth is one of eight planets that orbit the Sun. The orbits of the planets are elliptical (an oval shape) with the Sun close to the centre.
-WHYDOOBJECTSMOVEINA CIRCLE?
 
-Figure26.3showsaboyswinging aheavyballaroundona wire.Tomake this balltravelin a circleheneedsto spin around and atthe same timepull on the wire.Withoutthiscontinuouspulling force theball willnot travel in a circle.
+#### WHYDOOBJECTSMOVEINA CIRCLE?
+WHY DO OBJECTS MOVE IN A CIRCLE?
 
-• Figure 26.3 a Apulling force has to be applied to the ball to make it travel in a circle.b lf the wire breaks or the boy releases the handle the ballflies away.
+Figure 26.3 shows a boy swinging a heavy ball around on a wire. To make this ball travel in a circle he needs to spin around and at the same time pull on the wire. Without this continuous pulling force the ball will not travel in a circle.
 
-Planetsand comets travel around the Sun.Moons and satellites travel around theplanets.For this tohappen there mustbeforcesbeing applied to them. Thereisno string orwire topull on asin the example above,sowhere do these forcescome from?In1687,lsaacNewtonsuggested his theoryof gravitytoexplain thesemovements.
+• Figure 26.3 a A pulling force has to be applied to the ball to make it travel in a circle. b If the wire breaks or the boy releases the handle the ball flies away.
 
-Newtonsuggested thatbetween any two objects thereis always a force of attraction.This attraction is dueto the masses of the objects.He called this force gravitational force.
+Planets and comets travel around the Sun. Moons and satellites travel around the planets. For this to happen there must be forces being applied to them. There is no string or wire to pull on as in the example above, so where do these forces come from? In 1687, Isaac Newton suggested his theory of gravity to explain these movements.
+
+Newton suggested that between any two objects there is always a force of attraction. This attraction is due to the masses of the objects. He called this force gravitational force.
 
 He suggested that the size of this force depends on the:
 
-• massesof thetwoobjects
+• masses of the two objects
 
-• 2distancebetween themasses.
+• 2 distance between the masses.
 
-The greater the masses of the two objects the stronger the atractive forcesbetween them. Ifthe distance between themassesisincreased the forcesbetween them decrease.
+The greater the masses of the two objects the stronger the attractive forces between them. If the distance between the masses is increased the forces between them decrease.
 
-• Figure 26.4Gravitational forces obey an inverse square law-that is,if the distance between themassesis doubled,the forces between them are quartered;if the distance between them is trebled,the forces become one ninth of what they were.
+• Figure 26.4 Gravitational forces obey an inverse square law - that is, if the distance between the masses is doubled, the forces between them are quartered; if the distance between them is trebled, the forces become one ninth of what they were.
 
-Thegravitational attractionbetween twoobjectswithsmall massesis tiny. Only when one orboth of the objectshas a very large mass-forexample,a moon oraplanet-is the force of attraction obvious.
+The gravitational attraction between two objects with small mass is tiny. Only when one or both of the objects has a very large mass - for example, a moon or a planet - is the force of attraction obvious.
 
 #### WHYDOOBJECTSMOVEINA CIRCLE?
-OurSun is massive.It contains over99%of the mass of the SolarSystem.It isthegravitational attractionbetweenthismassand eachof theplanetsthat holds theSolarSystem togetherand causestheplanets tofollowtheircurved paths.
+Our Sun is massive. It contains over 99% of the mass of the Solar System. It is the gravitational attraction between this mass and each of the planets that holds the Solar System together and causes the planets to follow their curved paths.
 
 • Figure 26.5 Gravitational forces make the planets follow nearly circular paths.
 
-Thoseplanets that are closestto theSun feel the greatest attraction and so follow the most curved paths.Planets thatare thefurthestfrom theSun feel theweakestpull and follow the leastcurvedpath.
+Those planets that are closest to the Sun feel the greatest attraction and so follow the most curved paths. Planets that are the furthest from the Sun feel the weakest pull and follow the least curved path.
 
 #### WHYDOOBJECTSMOVEINA CIRCLE?
 | Planet   |   Average distance from Sun compared with the Earth |   Time for one orbit of the Sun in Earthyears |
@@ -8422,9 +8606,9 @@ The planet Neptune isa very long wayfrom theSunso thegravitational force between
 • Figure 26.7 This satellite is held in orbit by the gravitational attraction between it and the Earth.
 EXTENSION WORK
 
-Aithough you will notbe asked inyour exam about the'tails of comets'it is interesting toknow that,close to the Sun,some of a comet's frozen gases evaporate to become gases again, formingalong tail that shines in the sunlight.These tails can be millions of kilometres in length.Perhaps the most famousofthecometsisHalley's Comet,whichvisitsourpartof the SolarSystem every76years.ltwas lastvisible from Earthin1986.
+Although you will not be asked in your exam about the 'tails of comets' it is interesting to know that, close to the Sun, some of a comet's frozen gases evaporate to become gases again, forming a long tail that shines in the sunlight. These tails can be millions of kilometres in length. Perhaps the most famous of the comets is Halley's Comet, which visits our part of the Solar System every 76 years. It was last visible from Earth in 1986.
 
-Since thelate 1950shumanshavebeen abletolaunch,and toput intoorbit around theEarth,objectslike the one seen inFigure26.7.These areknown as artificial satellites and are extremelyuseful. Some satellitesareput into a very highorbitabove theEarth and are used tohelpuscommunicate overlarge distances,forexample,forintermationalphone calls orvideolinks,theinternet and soon.Some satellites areput into a muchlowerorbitand areused to monitorin detail theEarth'ssurface,such as the temperature of the world's oceansortheprogressof forest fires.
+Since the late 1950s humans have been able to launch, and to put into orbit around the Earth, objects like the one seen in Figure 26.7. These are known as artificial satellites and are extremely useful. Some satellites are put into a very high orbit above the Earth and are used to help us communicate over large distances, for example, for international phone calls or video links, the internet and so on. Some satellites are put into a much lower orbit and are used to monitor in detail the Earth's surface, such as the temperature of the world's oceans or the progress of forest fires.
 COMETS
 
 Cometsarelargerock-likepieces ofice thatorbit theSun.Theyhave very elliptical (elongated)orbits which at times take themvery close to the Sun.At other times they travel close tothevery edge of ourSolarSystem.
@@ -8432,15 +8616,17 @@ Cometsarelargerock-likepieces ofice thatorbit theSun.Theyhave very elliptical (e
 • Figure 26.8 The speed.of a comet varies enormously. They travel at their fastest when they are very close to the Sun.
 
 • Figure 26.9 Halley's comet could be last seen from Earth in 1986.
-GRAVITATIONALFIELDSTRENGTH
 
-Thestrength ofgravity on aplanetormoon iscalleditsgravitational field differentradii-both of thesewill affecttheirgravitational fieldstrengths.
+#### GRAVITATIONALFIELDSTRENGTH
+GRAVITATIONAL FIELD STRENGTH
 
-• The larger themass of a planet thegreater itsgravitational field strength.
+The strength of gravity on a planet or moon is called its gravitational field different radii - both of these will affect their gravitational field strengths.
 
-• The larger theradius ofaplanet the smaller thegravitational field strength at its surface.
+• The larger the mass of a planet the greater its gravitational field strength.
 
-Thegravitational fieldstrengthontheEarthisapproximately10N/kgwhilston the Moon it is approximately 1.6 N/kg.
+• The larger the radius of a planet the smaller the gravitational field strength at its surface.
+
+The gravitational field strength on the Earth is approximately 10 N/kg while on the Moon it is approximately 1.6 N/kg.
 
 #### GRAVITATIONALFIELDSTRENGTH
 | Planet   | Diametercompared with the Earth   | Mass compared with the Earth   |   Gravitational field strength/N/kg |
@@ -8605,21 +8791,23 @@ Using the colours of stars and their surface temperatures,scientistshave created
 | G                     | 6000-5200               | yellow       |
 | K                     | 5200-3700               | orange       |
 | M                     | 3700-2000               | red          |
-Thebrightnessofastar
 
-Atfirstthere would seem tobe little doubtwhich of thesevehicle headlights is thebrightest.But isitreally that simple？The cars in the distance might have away.Also thebrightness of headlightsin different makesofcars and lorries could be different!
+#### Thebrightnessofastar
+The brightness of a star
 
-Whenwelookat the starsin thenight skywehave similarproblemsdeciding which are the brightest.
+At first there would seem to be little doubt which of these vehicle headlights is the brightest. But is it really that simple? The cars in the distance might have a way. Also the brightness of headlights in different makes of cars and lorries could be different!
 
-Thebrightnessofa stardependson a the distance thestaris fromtheEarth and bwhat the starismade from and thekindsofnuclearreactions thatare taking place.
+When we look at the stars in the night sky we have similar problems deciding which are the brightest.
 
-Asaresult thereare threedifferentwaysin which astronomersdescribethebrightnessofa star:
+The brightness of a star depends on a the distance the star is from the Earth and b what the star is made from and the kinds of nuclear reactions that are taking place.
 
-• 1The apparent brightness ormagnitude of a star.This is the easiest method and is simply a measure of howbright a staris asseen from the Earth.
+As a result there are three different ways in which astronomers describe the brightness of a star:
 
-• The absolute brightness or magnitude.Thisis a measure of howbright stars would appearif theywereallplaced thesame distance awayfromtheEarth. (This distance that astronomers agreed on,called the standard distance, isequal to 10parsecsor32.6light years).Thisisoften a bettermeasure of brightnessbecause it allowsscientists to make comparisons between stars.
+• 1 The apparent brightness or magnitude of a star. This is the easiest method and is simply a measure of how bright a star is as seen from the Earth.
 
-• The luminosityofa star.Thismeasureshowmuch energyin the form of light isemitted fromastar'ssurface everysecond.
+• The absolute brightness or magnitude. This is a measure of how bright stars would appear if they were all placed the same distance away from the Earth. (This distance that astronomers agreed on, called the standard distance, is equal to 10 parsecs or 32.6 light years). This is often a better measure of brightness because it allows scientists to make comparisons between stars.
+
+• The luminosity of a star. This measures how much energy in the form of light is emitted from a star's surface every second.
 REMINDER
 
 The brightness ofa stardepends on:
@@ -8627,47 +8815,53 @@ The brightness ofa stardepends on:
 • the distance the staris from the Earth
 
 • the luminosity of the star-that is,howmuch energy is transferred from the star each second.
-THEBIRTHOFASTAR
 
-Figure27.6Birthofasolar system StarslikeourSunareformed fromlargecloudsofdustandgasparticleswe callnebulaeorstellarnebulae.Theseparticlesare drawn togetheroveravery longperiodof timebygravitational forces.Theparticlesarepulled together so tightly that there isavery large increase in temperature andpressure.Asa resultof thisnuclear fusion reactionsbegin.Hydrogen nucleijoin together to makelargernuclei and huge amountsofenergyinthe form ofheatand light arereleased.This incrediblyhotball of gasisa veryyoung star.
-THELIFEOFASTAR
+#### THEBIRTHOFASTAR
+THE BIRTH OF A STAR
 
-The appearance of a star changesgradually with time.These changesfollowa pattern.
+Figure 27.6 Birth of a solar system Stars like our Sun are formed from large clouds of dust and gas particles we call nebulae or stellar nebulae. These particles are drawn together over a very long period of time by gravitational forces. The particles are pulled together so tightly that there is a very large increase in temperature and pressure. As a result of this nuclear fusion reactions begin. Hydrogen nuclei join together to make larger nuclei and huge amounts of energy in the form of heat and light are released. This incredibly hot ball of gas is a very young star.
 
-When a star first forms,gravitational forces are pullingparticles together.Then whennuclearreactionsbegin,thehigh temperaturescreate forces that try to push the particles apart-that is,make thegases expand.When these two forces are balanced,the staris said tobe in its main stableperiod.A starin thismain stableperiod isreferred to asa main sequence star(you will learn why later).Thisperiod can last formany millions ofyears.At the moment our Sunisin thisstableperiod.
+#### THELIFEOFASTAR
+THE LIFE OF A STAR
 
-Towards the end of this stableperiod,there arelesshydrogen nuclei and eventuallythehydrogen fusionreactionsstop.Gravitational forcesare now the largest forces and compress the star.As the star shrinksin size there is alarge increase in temperature.Sohigh that fusionreactionsbetween heliumnuclei begin.The energyreleased by thesereactions causes the star to expand tomany timesits original size.Asit expands itbecomes a little cooler and more of itslight energy isemitted in the redpart of the spectrum.The staris changing into aredgiant.
+The appearance of a star changes gradually with time. These changes follow a pattern.
 
-Sometime laterwhen most of theheliumnuclei havefused (joined) together, newnuclearreactions begin,butnow the compressive or squashing forces are anincreasein temperature so the staragain changes colour.ltnow emitsmore blue andwhite light.It has changed into a white dwarf star.The matter from whichwhite dwarf stars are made is millionsof timesmore dense than any matterfoundon theEarth.
+When a star first forms, gravitational forces are pulling particles together. Then when nuclear reactions begin, the high temperatures create forces that try to push the particles apart - that is, make the gases expand. When these two forces are balanced, the star is said to be in its main stable period. A star in this main stable period is referred to as a main sequence star (you will learn why later). This period can last for many millions of years. At the moment our Sun is in this stable period.
 
-Finally asawhitedwarf starcoolsit changes intoa coldblackdwarf star.
+Towards the end of this stable period, there are less hydrogen nuclei and eventually the hydrogen fusion reactions stop. Gravitational forces are now the largest forces and compress the star. As the star shrinks in size there is a large increase in temperature. So high that fusion reactions between helium nuclei begin. The energy released by these reactions causes the star to expand to many times its original size. As it expands it becomes a little cooler and more of its light energy is emitted in the red part of the spectrum. The star is changing into a red giant.
+
+Sometime later when most of the helium nuclei have fused (joined) together, new nuclear reactions begin, but now the compressive or squashing forces are an increase in temperature so the star again changes colour. It now emits more blue and white light. It has changed into a white dwarf star. The matter from which white dwarf stars are made is millions of times more dense than any matter found on the Earth.
+
+Finally as a white dwarf star cools it changes into a cold black dwarf star.
 
 • Figure 27.7 The life-cycle of stars with a mass similar to that of our Sun
 
 Figure 27.8 The final stages for stars with masses much greater than our Sun
 HINT
 
-Try toremember the general features of the HR diagram-thatis,the shape andposition of themain sequence and thepositionsofwhite dwarfs,red giants and red supergiants.
+Try to remember the general features of the HR diagram-that is, the shape and position of the main sequence and the positions of white dwarfs, red giants and red supergiants.
 
-Astar that ismuchlarger than ourSun may followa slightly differentpathat the end of its life.After the stableperiod itwillexpand intoalargered supergiant.At the end of thisperiod,asit contractsitbecomesunstable.It explodesthrowing dustandgasintospace toformanewstellarnebula.Thisexplodingstaris called a supemova.Anymatterremaining will forma verydenseneutron star.If theneutronstarhasa mass that is approximatelyfive timesgreater than that of ourSun ormore,itcollapsesfurther tobecomeablackhole.
+A star that is much larger than our Sun may follow a slightly different path at the end of its life. After the stable period it will expand into a large red supergiant. At the end of this period, as it contracts it becomes unstable. It explodes throwing dust and gas into space to form a new stellar nebula. This exploding star is called a supernova. Any matter remaining will form a very dense neutron star. If the neutron star has a mass that is approximately five times greater than that of our Sun or more, it collapses further to become a black hole.
 EXTENSION WORK
 
 from it.This iswhy they are called‘black holes".
 
 All the elements in theperiodic table uptoiron areformed in stars but elements heavier than these are only formedinsupemova explosions.
-TheHertzsprung-Russell diagram (HR diagram)
 
-Two scientists,Ejnar Hertzsprung and Henry Norris Russell,separately discovered therelationshipbetween thebrightnessofastarand itssurface temperature.They createda diagram that shows therelationshipbetween the brightness,temperature and classification of a star.
+#### TheHertzsprung-Russell diagram (HR diagram)
+The Hertzsprung-Russell diagram (HR diagram)
 
-Theimportance of thisdiagram isthat byfinding a star's position in thediagram we then knowitsinternal structure and at what stage it is at in its life.
+Two scientists, Ejnar Hertzsprung and Henry Norris Russell, separately discovered the relationship between the brightness of a star and its surface temperature. They created a diagram that shows the relationship between the brightness, temperature and classification of a star.
 
-Forexample,Siriusliesin the mainsequencebeltsoit isastar similar toourSun and fusion reactions between hydrogen nucleiare takingplace inits core.In the next stage ofitslife it willbecome aredgiant.
+The importance of this diagram is that by finding a star's position in the diagram we then know its internal structure and at what stage it is at in its life.
+
+For example, Sirius lies in the main sequence belts so it is a star similar to our Sun and fusion reactions between hydrogen nuclei are taking place in its core. In the next stage of its life it will become a red giant.
 
 Rigel is in the supergiants
 
-region of thediagram and so has alreadypassed through the main sequence part of its life. The majorityoffusionreactions takingplaceinitscore are between helium nuclei.lt will eventuallybecome aneutron star orablackhole.
+region of the diagram and so has already passed through the main sequence part of its life. The majority of fusion reactions taking place in its core are between helium nuclei. It will eventually become a neutron star or a black hole.
 
-• Figure 27.9 The Hertzsprung-Russell diagram is important becauseit can beused to describe the life story of a star and to predict the final stages of its life.
+• Figure 27.9 The Hertzsprung-Russell diagram is important because it can be used to describe the life story of a star and to predict the final stages of its life.
 
 ## Unit 8: Astrophysics
 
@@ -8697,59 +8891,63 @@ C
 • Describe thered-shift in light received from galaxies at different distances from the Earth
 
 • Explain why thered-shift ofgalaxiesprovides evidence for the expansion of theUniverse
-THEDOPPLEREFFECT
-
-If welookat the stars and galaxies inourUniverse usinga simple optical telescope it isimpossible to tellif they are moving,and if they are moving thenhowfastorin which direction.lf howeverwelook atthespectrumoflight emittedbyastar or galaxywe can discoverallof the above.Wecan do thisby using an effect called the Doppler effect (see page 104),first described by an Austrian scientistnamed ChristianDopplerin 1842.
-
-Before we lookat theDopplereffectin space,letuslookat some more familiar situationswhere we can observe it.
-
-Ifwe close oureyes andlisten to the engine ofa fastmoving carit isusually very simpletodecideif itisapproachingusormoving away.The loudness of themotorwillof course change butso toowill the frequencyof thesound wehear.As the car approaches the frequency of the soundproduced byits
-
-motor appearstobehighbutwhen itmovesawayitappears tohave a lower
-
-TheDoppler effect is a property of all waves.It happensnot onlywith sound wavesbut alsowith lightwaves.Whenastronomerslookat lightspectra from distant stars and galaxies they can see the Dopplereffect.
 
 #### THEDOPPLEREFFECT
-Figure 28.4shows the spectra from four different objects.The firstis the spectrum from ourSun.The darklineswe can see are called absorption lines.They are the frequenciesof light thathavebeenabsorbedbyhydrogen. Thesecond spectrum isfromanearbygalaxy.Here wecanclearly see thatthe positionsof the darklineshavemoved towards theredpartof thespectrum. The thirdisthespectrumfroma verydistantgalaxy-the lineshave moved even further towards thered.Thelast spectrum showsthe greatest shift forthe furthest galaxy.Wecallthis displacementred-shift'Like the changes in the frequency of thecarengineit indicates arelativemotionbetween thegalaxies and theobserver.
+THE DOPPLER EFFECT
+
+If we look at the stars and galaxies in our Universe using a simple optical telescope it is impossible to tell if they are moving, and if they are moving then how fast or in which direction. If however we look at the spectrum of light emitted by a star or galaxy we can discover all of the above. We can do this by using an effect called the Doppler effect (see page 104), first described by an Austrian scientist named Christian Doppler in 1842.
+
+Before we look at the Doppler effect in space, let us look at some more familiar situations where we can observe it.
+
+If we close our eyes and listen to the engine of a fast moving car it is usually very simple to decide if it is approaching us or moving away. The loudness of the motor will of course change but so too will the frequency of the sound we hear. As the car approaches the frequency of the sound produced by its
+
+motor appears to be high but when it moves away it appears to have a lower
+
+The Doppler effect is a property of all waves. It happens not only with sound waves but also with light waves. When astronomers look at light spectra from distant stars and galaxies they can see the Doppler effect.
+
+#### THEDOPPLEREFFECT
+Figure 28.4 shows the spectra from four different objects. The first is the spectrum from our Sun. The dark lines we can see are called absorption lines. They are the frequencies of light that have been absorbed by hydrogen. The second spectrum is from a nearby galaxy. Here we can clearly see that the positions of the dark lines have moved towards the red part of the spectrum. The third is the spectrum from a very distant galaxy - the lines have moved even further towards the red. The last spectrum shows the greatest shift for the furthest galaxy. We call this displacement 'red-shift'. Like the changes in the frequency of the car engine it indicates a relative motion between the galaxies and the observer.
 
 • Figure 28.4 Light spectra for four different objects
 
-Red-shift indicates thatthesourceof the lightwavesismoving awayfrom the observer.Blue-shiftwould indicate that thesource of lightismoving towards theobserver.We can seewhy thisis the case inFigure28.5.
+Red-shift indicates that the source of the light waves is moving away from the observer. Blue-shift would indicate that the source of light is moving towards the observer. We can see why this is the case in Figure 28.5.
 
-• alight from a stationary (not moving） star,for example,our Sun
+• a light from a stationary (not moving) star, for example, our Sun
 
-• light from a similar starmoving away from the Earth is stretched and sohas a longer wavelength-that is,we see red-shift
+• light from a similar star moving away from the Earth is stretched and so has a longer wavelength - that is, we see red-shift
 
-• light from a similar starmoving towards the Earth is compressed and so has a shorter wavelength-that is,we see blue-shift
+• light from a similar star moving towards the Earth is compressed and so has a shorter wavelength - that is, we see blue-shift
 
-• Figure 28.5 Demonstrations of light froma starmoving away from Earth and moving towardsit
+• Figure 28.5 Demonstrations of light from a star moving away from Earth and moving towards it
 
 #### THEDOPPLEREFFECT
-Whenwe compare the lightemitted from all thedifferentgalaxiesa clear pattem emerges.Almost all the galaxies emit light with red-shift.Thefurther awayagalaxyisthegreater thered-shift and therefore thefasterit ismoving awayfrom us.Weseeexactly thispattern in situations that involve explosions.
+When we compare the light emitted from all the different galaxies a clear pattern emerges. Almost all the galaxies emit light with red-shift. The further away a galaxy is the greater the red-shift and therefore the faster it is moving away from us. We see exactly this pattern in situations that involve explosions.
 
-• Figure 28.6 As the bun expands the currants get further apart. Similarly as the Universe expands the galaxiesget further apart.
+• Figure 28.6 As the bun expands the currants get further apart. Similarly as the Universe expands the galaxies get further apart.
 
-• Figure28.7Amap of the cosmicbackground radiation,the afterglow of theBig Bang
+• Figure 28.7 A map of the cosmic background radiation, the afterglow of the Big Bang
 
-Soscientistsnowbelieve that theUniverse isexpanding and thatatsome time in thepast,allthe matterin theUniversewas in oneplacejustbefore an explosion.This theory is called the BigBang theory.
+So scientists now believe that the Universe is expanding and that at some time in the past, all the matter in the Universe was in one place just before an explosion. This theory is called the Big Bang theory.
 
-Anotherway toimagine the expansion of theUniverseistoobservewhat happensto thedough andcurrantsin abunwhen they areplaced inanoven tocook.Overaperiod of time the dough expands and the currantsall move away from each other.In thismodel the doughrepresents theUniverse, increasinginsize astime passes.Thecurrantsrepresent galaxiesthatare seen tobemoving away from each otheras theUniverseexpands.
+Another way to imagine the expansion of the Universe is to observe what happens to the dough and currants in a bun when they are placed in an oven to cook. Over a period of time the dough expands and the currants all move away from each other. In this model the dough represents the Universe, increasing in size as time passes. The currants represent galaxies that are seen to be moving away from each other as the Universe expands.
 
-THEDOPPLER EQUATION
+THE DOPPLER EQUATION
 
-Theequationbelowshowsushow tocalculate thespeed atwhichastaror galaxyismovingrelativetous.
+The equation below shows us how to calculate the speed at which a star or galaxy is moving relative to us.
 EXAMPLE1
 
-Lightemittedby theSunhasa wavelengthof434nm.A distantgalaxy emitsthesame lightbutbecauseof theDopplereffectithasawavelength of482nm.Calculate thespeedatwhich thegalaxyismovingrelative to theEarth.(speedof light=3x108m/s)
+Light emitted by the Sun has a wavelength of 434 nm. A distant galaxy emits the same light but because of the Doppler effect it has a wavelength of 482 nm. Calculate the speed at which the galaxy is moving relative to the Earth. (speed of light = 3×10⁸ m/s)
 
-• =0.332×10m/s
+• = 0.332×10⁸ m/s
 
-• =33200km/s
+• = 33200 km/s
 
-Because the apparentwavelength islonger,thisis an example ofred-shift. Thegalaxyisthereforemovingawayfrom theEarth.
-COSMICMICROWAVEBACKGROUND(CMB)RADIATION
+Because the apparent wavelength is longer, this is an example of red-shift. The galaxy is therefore moving away from the Earth.
 
-Toreinforce the idea that theUniversebegan with aBig Bang,scientists searched forsomethingelse thatwemight connectwithanexplosion-that is, the release ofenergy.Thisenergy would be in the form ofwaves.But asthe Universe expands these waveswouldbecome stretched and therefore they wouldhavemuch longerwavelengthsthanbefore.In factthesewavelengths werepredictedtobesolong thattheywouldbeinthemicrowavepartof the electromagneticspectrum.Inthe 1960sscientistsdetected thisafterglow ofenergy.Aswaspredicted,they are microwaves and can be detected in alldirectionsin the Universe.Theybecame known as cosmicmicrowave background(CMB)radiation.
+#### COSMICMICROWAVEBACKGROUND(CMB)RADIATION
+COSMIC MICROWAVE BACKGROUND (CMB) RADIATION
+
+To reinforce the idea that the Universe began with a Big Bang, scientists searched for something else that we might connect with an explosion - that is, the release of energy. This energy would be in the form of waves. But as the Universe expands these waves would become stretched and therefore they would have much longer wavelengths than before. In fact these wavelengths were predicted to be so long that they would be in the microwave part of the electromagnetic spectrum. In the 1960s scientists detected this afterglow of energy. As was predicted, they are microwaves and can be detected in all directions in the Universe. They became known as cosmic microwave background (CMB) radiation.
 LOOKING AHEAD-DARKENERGY
 
 Having found evidence that the Universe began with a Big Bang and is expanding,scientists are now asking the question,Will the Universe continue toexpandforeverorwillgravitygradually slowit down and reverse the process,pulling all the matterback toa single point (the Big Crunch)?'The rate atwhich the expansion of the Universe slows depends upon how muchmass there is in the Universe.The greater the mass the more the expansion of the Universewill be slowed.
@@ -8769,11 +8967,11 @@ More questionsoncosmologycanbe found at theendofUnit8onpage275.
 • Howwill the light spectra of a distant galaxy differ from thatof a very distant galaxy?Explain what this difference indicates.
 
 #### LOOKING AHEAD-DARKENERGY
-• What two observed features of ourUniverse suggest that itbegan with a Big Bang?
+• What two observed features of our Universe suggest that it began with a Big Bang?
 
-• 5Thespectrumof adistantgalaxyshowsa change inpositionof absorption linesof300nm compared with theSun's spectrum.If these linesin the Sun's spectrumcorrespond toa lightwith wavelengthof600 nm calculate thespeed of thisgalaxyrelative to the speed of the Earth. (speed oflight=3x108m/s)
+• 5 The spectrum of a distant galaxy shows a change in position of absorption lines of 300 nm compared with the Sun's spectrum. If these lines in the Sun's spectrum correspond to a light with wavelength of 600 nm calculate the speed of this galaxy relative to the speed of the Earth. (speed of light=3x10⁸ m/s)
 
-END OFPHYSICSONLY
+END OF PHYSICS ONLY
 
 ## Unit 8: Astrophysics
 
@@ -8850,33 +9048,33 @@ forexample, and experience the forcesand sohave
 theleast orbits.The shape of a planet's orbit isnot quite ltis
 
 #### UNIT QUESTIONS
-Allobjects that orbit aplanetare called called but natural ones are
+All objects that orbit a planet are called called but natural ones are
 
-(Total forQuestion 2=16marks)
+(Total for Question 2 = 16 marks)
 
-Aman has a massof 80kg.On the Earth he weighs 800N.Using the table on page263calculate theweightof thisman on the surface of:
+A man has a mass of 80kg. On the Earth he weighs 800N. Using the table on page 263 calculate the weight of this man on the surface of:
 
-• aVenus
+• a Venus
 
 (3)
 
-• bMars
+• b Mars
 
 (3)
 
 • c Neptune.
 
-(e)
+(3)
 
-(Total forQuestion3=9marks)
+(Total for Question 3 = 9 marks)
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
 ANALYSIS
 
 HINT
 
-circumference ofa circle=2rtr
+circumference of a circle = 2πr
 
 PROBLEM SOLVING
 
@@ -8890,11 +9088,11 @@ PROBLEM SOLVING
 
 UNIT QUESTIONS
 
-Calculate the speedof a satellite that isorbiting 250km above theEarth's surface and completes oneorbitin2hr.
+Calculate the speed of a satellite that is orbiting 250km above the Earth's surface and completes one orbit in 2hr.
 
-(Total forQuestion4=5marks)
+(Total for Question 4 = 5 marks)
 
-The tablebelow contains information about some of theplanetsinourSolar System.
+The table below contains information about some of the planets in our Solar System.
 
 #### UNIT QUESTIONS
 | Planet   |   Surface gravity compared with the Earth |   Distance from Sun comparedwith the Earth |   Period/Earth years |
@@ -8906,115 +9104,117 @@ The tablebelow contains information about some of theplanetsinourSolar System.
 | Saturn   |                                       1.1 |                                        9.5 |                   30 |
 
 #### UNIT QUESTIONS
-• Name threeplanets that have a weakergravitational pull on their surface than there ison Earth.
+• Name three planets that have a weaker gravitational pull on their surface than there is on Earth.
 
-• How long isa year on Satum?
+• How long is a year on Saturn?
 
 (1)
 
-• If the distance from the Earth to theSun is150millionkilometers,calculate the distance of Satum from the Sun. (2)
+• If the distance from the Earth to the Sun is 150 million kilometers, calculate the distance of Saturn from the Sun. (2)
 
-• dAssuming that the orbitalpath forSatum is circular,calculate its orbital speed inkm/s.
+• Assuming that the orbital path for Saturn is circular, calculate its orbital speed in km/s.
 
 (e)
 
-(TotalforQuestion5=7marks)
+(Total for Question 5 = 7 marks)
 
-• Drawa diagram toshow theshape of theorbitofa cometaround the Sun.
+• Draw a diagram to show the shape of the orbit of a comet around the Sun.
 
 (2)
 
-• bDescribe and explain howthe speed ofa cometchangesasit travels arounditsorbit.
+• b Describe and explain how the speed of a comet changes as it travels around its orbit.
 
 (4)
 
-(Total forQuestion6=6marks)
+(Total for Question 6 = 6 marks)
 
-Draw theHertzsprung-Russell diagram.Label the main features and explain why thediagram isuseful forastronomers.
+Draw the Hertzsprung-Russell diagram. Label the main features and explain why the diagram is useful for astronomers.
 
-((TotalforQuestion 7=12marks)
+((Total for Question 7 = 12 marks)
 
-What is cosmicmicrowave backgroundradiation?
+What is cosmic microwave background radiation?
 
-(Total forQuestion8=3marks)
+(Total for Question 8 = 3 marks)
 
-The spectra of two galaxies,A and B,each show a change in theposition of absorption linesof200nm and 450nm comparedwith theSun'sspectrum. If these linescorrespond tolightwith a wavelengthof5o0nm in theSun's spectrum calculate the speed of thesegalaxiesrelative to thespeedof the Earth.（speedof light=3x10m/s)
+The spectra of two galaxies, A and B, each show a change in the position of absorption lines of 200 nm and 450 nm compared with the Sun's spectrum. If these lines correspond to light with a wavelength of 500 nm in the Sun's spectrum calculate the speed of these galaxies relative to the speed of the Earth. (speed of light = 3×10⁸ m/s)
 
-(TotalforQuestion9=10 marks)
+(Total for Question 9 = 10 marks)
 
 ### Appendices A-E (periodic table, formulae, quantities, skills, command words)
 
-APPENDIXB:FORMULAEAND RELATIONSHIPS
 
-• 1therelationshipbetween average speed,distance movedand time taken:
+#### APPENDIXB:FORMULAEAND RELATIONSHIPS
+APPENDIX B: FORMULAE AND RELATIONSHIPS
+
+• 1 the relationship between average speed, distance moved and time taken:
 
 distance moved
 
 time taken
 
-average speed=
+average speed =
 
-• 2the relationship between force,mass and acceleration:
+• 2 the relationship between force, mass and acceleration:
 
-• force=mass xacceleration
+• force = mass x acceleration
 
-• 3the relationshipbetween acceleration,change in velocity and time taken:
+• 3 the relationship between acceleration, change in velocity and time taken:
 
-acceleration=
+acceleration =
 
 change in velocity
 
 time taken
 
-• therelationship between momentum,mass and velocity:
+• the relationship between momentum, mass and velocity:
 
-• momentum=massxvelocity
+• momentum = mass x velocity
 
-• momentum=mxV
+• momentum = m x V
 
-• 5therelationshipbetween density,massandvolume：
+• 5 the relationship between density, mass and volume：
 
-mass density= volume
+mass density = volume
 
-• the relationship between work done,force and distance moved:
+• the relationship between work done, force and distance moved:
 
-• workdone=force xdistancemoved
+• work done = force x distance moved
 
 • the energy relationships:
 
-• energy transferred=work done
+• energy transferred = work done
 
-• gravitational potential energy=massxgxheight
+• gravitational potential energy = mass x g x height
 
-• therelationshipbetween mass,weight and gravitational field strength:
+• the relationship between mass, weight and gravitational field strength:
 
-• weight= massxgravitational field strength
+• weight = mass x gravitational field strength
 
-• therelationshipbetween an applied force,the area overwhich it acts and theresultingpressure:
+• the relationship between an applied force, the area over which it acts and the resulting pressure:
 
-• 10Therelationshipbetween themoment ofa force and itsperpendicular distancefrom the pivot:
+• 10 The relationship between the moment of a force and its perpendicular distance from the pivot:
 
-• moment=forcexperpendiculardistance from the pivot
+• moment = force x perpendicular distance from the pivot
 
-• 11 the relationship between charge,current,voltage, resistance andelectricalpower:
+• 11 the relationship between charge, current, voltage, resistance and electrical power:
 
-• charge=currentxtime
+• charge = current x time
 
-• voltage=current xresistance
+• voltage = current x resistance
 
-• electrical power=voltagexcurrent
+• electrical power = voltage x current
 
-• 12the relationship between speed,frequency and wavelength of wave:
+• 12 the relationship between speed, frequency and wavelength of wave:
 
-• wave speed=frequencyxwavelength
+• wave speed = frequency x wavelength
 
-• 13therelationshipbetween tums and voltage fora transformer:
+• 13 the relationship between turns and voltage for a transformer:
 
-input (primary)voltage primary turns
+input (primary) voltage primary turns
 
-output(secondary)voltage secondary tuns
+output (secondary) voltage secondary turns
 
-• 14therelationship betweenrefractive index,angle of incidence and angle of refraction:
+• 14 the relationship between refractive index, angle of incidence and angle of refraction:
 
 #### APPENDIXB:FORMULAEAND RELATIONSHIPS
 • 15therelationshipbetweenrefractiveindexand critical angle:
@@ -9119,11 +9319,13 @@ Youwilllearn these skills duringpractical work throughout your course.ThisAppend
 METHOD
 
 Themethod forapractical investigationisalist of instructionsforcarrying out theinvestigation.Inan exam you maybegivenalistofapparatusandasked todescribe howtouseit toinvestigate aparticularquestion.Whenyou arewritinga method,itisimportant todescribeallthesteps in thecorrectorder.Theperson marking theexampaper cannotwatchyou doing the experiment-if you donot describe a step theywillassumeyou have forgotten about it.
-RELIABLEEVIDENCE
 
-Inmany of the investigationsyouhave carried out,you willhavebeenasked torepeatreadingsanduseamean value when plotting a graph orwritingyour conclusion.By repeatingresultsyou canfindouthowreliableyour evidence is(see more on this on page 283),and spot anymistakes. Yourmethod should explain thatyou willrepeateach measurement,and thatyouwill discard anyanomalous results(ones that donot fit thepattem)before finding a meanvalue.You shouldalsoexplainwhyyou would dothis.
+#### RELIABLEEVIDENCE
+RELIABLE EVIDENCE
 
-Forsome experimentsyou do notneed to takerepeat measurements of the same thing.Forexample,you mightbefinding outwhichtype of insulationworksbest bymeasuring thetemperature of hotwaterin insulated beakers.In this case,you can measure the temperature of thewater everyminute for 10or20minutes,andplot a line graph of temperature against time.You will be able tospotany anomalousresultsbecause theywillnot lie on the line formed by most of yourreadings.You do notneed torepeatthewholeexperimentseveral times.
+In many of the investigations you have carried out, you will have been asked to repeat readings and use a mean value when plotting a graph or writing your conclusion. By repeating results you can find out how reliable your evidence is (see more on this on page 283), and spot any mistakes. Your method should explain that you will repeat each measurement, and that you will discard any anomalous results (ones that do not fit the pattern) before finding a mean value. You should also explain why you would do this.
+
+For some experiments you do not need to take repeat measurements of the same thing. For example, you might be finding out which type of insulation works best by measuring the temperature of hot water in insulated beakers. In this case, you can measure the temperature of the water every minute for 10 or 20 minutes, and plot a line graph of temperature against time. You will be able to spot any anomalous results because they will not lie on the line formed by most of your readings. You do not need to repeat the whole experiment several times.
 SAFETYPRECAUTIONS
 
 Youmay alsobe asked aboutsafetyprecautionsyou would takewhen carrying out an investigation.The safety precautions depend on the type of investigation,but these are some of the thingsyou should thinkabout:
@@ -9183,21 +9385,23 @@ of the columns
 applies toboth
 
 undemeath it.
-DEPENDENT,INDEPENDENTANDCONTROL VARIABLES
 
-Inan investigation we oftenwant to find out if one physical quantityisdependent on anotherphysical quantity and ifweareable todescribe therelationship either onagraph,in words or mathematically.
+#### DEPENDENT,INDEPENDENTANDCONTROL VARIABLES
+DEPENDENT, INDEPENDENT AND CONTROL VARIABLES
 
-Anexamplewouldbe toinvestigatewhethertheelectrical resistance ofapiece ofwireisdependentonitslength. Here the dependentvariable would be theresistance ofthelengthof the wireand theindependentvariable the one we would change foreachmeasurement of the resistance,would be the length of the wire.We would need tobe aware thatotherphysicalquantitiesmight affect theresistance of the length ofwire,forexample the temperature of thewire.Thisis anexampleofa controlvariable;wewould check the temperature of the wire and its surroundings throughout the investigation to make sure it did not change.If the temperature of the wire changed itwouldmakeourconclusion abouthow the resistance of a wire depends on itslength invalid.
+In an investigation we often want to find out if one physical quantity is dependent on another physical quantity and if we are able to describe the relationship either on a graph, in words or mathematically.
 
-Canyou think of any othervariables that might affect theresistanceofa length ofwire thatwouldneed tobe controlled (kept the same) during an investigation of how the resistance of a wire depends on itslength?
+An example would be to investigate whether the electrical resistance of a piece of wire is dependent on its length. Here the dependent variable would be the resistance of the length of the wire and the independent variable the one we would change for each measurement of the resistance, would be the length of the wire. We would need to be aware that other physical quantities might affect the resistance of the length of wire, for example the temperature of the wire. This is an example of a control variable; we would check the temperature of the wire and its surroundings throughout the investigation to make sure it did not change. If the temperature of the wire changed it would make our conclusion about how the resistance of a wire depends on its length invalid.
 
-Astudentwantstofindouthowthevoltageoutputfrom aPV(photovoltaic)cell depends on the angle it makes to the direction of light shining on it.
+Can you think of any other variables that might affect the resistance of a length of wire that would need to be controlled (kept the same) during an investigation of how the resistance of a wire depends on its length?
 
-• Statewhich quantity isthe dependentvariable and whichis theindependentvariable
+A student wants to find out how the voltage output from a PV (photovoltaic) cell depends on the angle it makes to the direction of light shining on it.
 
-• IWhatotherquantitieswouldneed tobekept the same during the investigation?
+• State which quantity is the dependent variable and which is the independent variable
 
-• iiWhatdowe call thesevariablequantities thatmust bekept constant during thisinvestigation?
+• I What other quantities would need to be kept the same during the investigation?
+
+• ii What do we call these variable quantities that must be kept constant during this investigation?
 GRAPHS
 
 Graphs area veryuseful way of presentingresults.A graph allowsyou to findpatternsinresultsandalsohelps you to spotanyresults thatmaynotfit thepattern.The graphbelow shows theresults of an experiment tofind the length of a springwith different weightson it.
@@ -9319,129 +9523,131 @@ Thisbookwaswritten forthenewEdexcel Intermational GCSEPhysics specification (syl
 | What,Why                           | Directcommandwordsused formultiple- choice questions. |
 GLOSSARY
 
-absorptionabsorptionis the opposite ofreflection:soft foam surfaces absorb sound,mattblack surfaces absorb light and heat
+absorption absorption is the opposite of reflection: soft foam surfaces absorb sound, matt black surfaces absorb light and heat
 
 acceleration the rate of increasing velocity
 
-alternating voltage avoltage thatiscontinuously changing invalue and direction
+alternating voltage a voltage that is continuously changing in value and direction
 
-amplitude themaximum distancemovedbyavibrating objectfrom itsequilibriumposition
+amplitude the maximum distance moved by a vibrating object from its equilibrium position
 
-angle of incidence anglebetween the incomingray and thenormal
+angle of incidence angle between the incoming ray and the normal
 
-angle ofreflection angle between the reflected ray and thenormal
+angle of reflection angle between the reflected ray and the normal
 
-angle ofrefractionanglebetween therefractedray and thenormal
+angle of refraction angle between the refracted ray and the normal
 
 apparatus equipment used in investigations and experiments
 
 applications uses
 
-asteroids small rocky objects orbiting the Sun,mostly found between the orbits of Mars and Jupiter.
+asteroids small rocky objects orbiting the Sun, mostly found between the orbits of Mars and Jupiter.
 
-atoms smallparticlesfrom which everything ismade attract pull together
+atoms small particles from which everything is made attract pull together
 
-bacteria single-celled organisms,some types of which cause illness
+bacteria single-celled organisms, some types of which cause illness
 
-calories unit ofenergy nolongerused except in measuring the amount of energyin food
+calories unit of energy no longer used except in measuring the amount of energy in food
 
 cells sources of electrical energy
 
-circuits in electricity and electronics,complete conducting pathsforelectricity:circuit is sometimes used asa term forelectronicapparatus
+circuits in electricity and electronics, complete conducting paths for electricity: circuit is sometimes used as a term for electronic apparatus
 
-collision two ormoremoving objectshitting each other
+collision two or more moving objects hitting each other
 
-cometobjectoftenmade ofice and rocksthatorbits the Sun inan elongatedorbit
+comet object often made of ice and rocks that orbits the Sun in an elongated orbit
 
 compressed squeezed into a very small space
 
 #### GLOSSARY
-compression squashing together controlrods rodsused inanuclearreactorto slow down orstopanuclear chainreaction convection the movement ofheatina fluid (thatis,a gasorliquid)asthe fluid expandsand riseswhen warmed core the centre of something as in,for example,the Earth'score deceleration getting slower,decreasing velocity deflected made to change direction diameter the width of a circle,cylinder or sphere dimmer switcha device used to alter thebrightness of a bulb or light displacementthedistanceaparticlehasmoved from itsequilibrium (undisturbed)position dissolves broken down into tinyparticles ormolecules by the action of a liquid,forexample,sugar dissolvingin water Doppler effect the changein frequency（and wavelength)causedby therelativemovementof the source of the waves orthe observer drag coefficient ameasureofhoweasilyan objectcan move through a fluid (liquid orgas)
+compression squashing together control rods rods used in a nuclear reactor to slow down or stop a nuclear chain reaction convection the movement of heat in a fluid (that is, a gas or liquid) as the fluid expands and rises when warmed core the centre of something as in, for example, the Earth's core deceleration getting slower, decreasing velocity deflected made to change direction diameter the width of a circle, cylinder or sphere dimmer switch a device used to alter the brightness of a bulb or light displacement the distance a particle has moved from its equilibrium (undisturbed) position dissolves broken down into tiny particles or molecules by the action of a liquid, for example, sugar dissolving in water Doppler effect the change in frequency (and wavelength) caused by the relative movement of the source of the waves or the observer drag coefficient a measure of how easily an object can move through a fluid (liquid or gas)
 
-electrical insulatorsmaterials that donotallowelectric current topass through them
+electrical insulators materials that do not allow electric current to pass through them
 
-electrodeametal plate orrod bywhichelectricity can enterorleave an electrical device
+electrode a metal plate or rod by which electricity can enter or leave an electrical device
 
-electromagnetic spectrum familyofwavesincluding radio waves,microwaves,infraredwaves,visiblelight, ultravioletand x-rays
+electromagnetic spectrum family of waves including radio waves, microwaves, infrared waves, visible light, ultraviolet and x-rays
 
-elements in chemistry:pure substancesmade up of only one type of atom;ingeneral use:part of something
+elements in chemistry: pure substances made up of only one type of atom; in general use: part of something
 
-emissionsomething emitted from a system
+emission something emitted from a system
 
 emitted given out
 
-evaporate change from a liquid into a gas（usually at a temperature lowerthan theboilingpointof theliquid)
+evaporate change from a liquid into a gas (usually at a temperature lower than the boiling point of the liquid)
 
-exertedacted on
+exerted acted on
 
-conduction thermal conduction:the movement ofheat through a solid;electrical conduction:the movement of electriccharge through matter
+conduction thermal conduction: the movement of heat through a solid; electrical conduction: the movement of electric charge through matter
 
-conductor a material that allowselectricity to flow through it easily filament coilofwire ina bulb thatglowswhenelectricity passes through it fissionthe breaking up of an atom into smallerparts flex wire
-force apush orapull
-
-fossil fuels substances used toprovide energy when bumed thathave formed overmillionsofyearsfrom dead animalorvegetablematter
-
-fraction apart of;sometimesrepresented mathematicallyasaratioofasmallernumberovera largernumber,forexample,fora half
-
-frequency the number of waves orvibrations made each second
-
-frictiona forcebetween two solid surfacestrying to move acrosseach other thattries to stop movement happening
-
-fusion reaction when the centres of atoms(nuclei) join together
-
-generator a device that transfersmechanical energy to electrical energy-that is,a source of electrical energy
-
-glows emitslight
-
-gradient theslope ofa line or surface
-
-gravitational field strength howgreattheeffectof unit mass
-
-gravity theforce thatobjectswith mass exert on each other
-
-half-lifethelength of time it takesforthe activity ofan amount ofa radioactive substance to halve
-
-halogen light bulb a lightbulb thatcontainsa small amountofa halogen such asiodineorbromine
-
-heating elementscoilsofwiresused totransfer electrical energy toheatenergy
-
-hemisphere half a sphere,asin the northern hemisphere refering to thepartof the Earth above the equator
-
-hydroelectricpower electrical energyproduced from the energyin waterstored high abovegroundlevel in mountain lakesandreservoirs
-
-induced created,caused,produced
+conductor a material that allows electricity to flow through it easily filament coil of wire in a bulb that glows when electricity passes through it fission the breaking up of an atom into smaller parts flex wire
 
 #### force apush orapull
-inkjetprinters printers that create animage by directing dropletsofinkontopaper Hght emitting diodes (LEDs) amaterial thatgivesoff light when currentpasses throughit lightgates electronic systems that are used to switch something onoroff,likeadigitalclockwhen a lightbeam between alight source and a detectorisbroken longitudinalwavethevibrationsof thesewavesare along thedirectioninwhich thewave travels magnetic fleld aplacewherewe can detectmagnetism magnification how many timesbigger,forexample,a magnificationof two indicatesit is twice asbig mass the amount ofmatterin an object;thatproperty of anobject thatdetermineshoweasyit istospeedupor slowdown metricrelated to a system ofunitsofmeasurement based onkilograms,metres and second,forexample,SI unitsare metric moderator amaterialused innuclearreactors tomake neutronsmove more slowly molecules groupsofatomsjoined together negatively charged hasmorenegative chargesthan positive charges non-porous a material that doesnotallowliquids to pass through it non-renewable an energy source thatwill not last forever, forexample,a fossil fuel like coalwillrun out eventually normal (the)a line at90 degrees to the surface nuclear to dowith the nucleusofanatom,forexample theforcesthathold neutrons andprotons tightlytogether in thenucleus isa nuclearforce optical telescope an instrument thatwe usetosee distantobjectusingvisiblelight orbitthepathofaplanetaround astarorasatellite around a planet orbital speeds the speedsofobjectsasthey circle otherobjects,forexample,the Moongoing around the Earth oremany chemicalelementsarebound upwith other elementsin rocks;these rocksare called ores
+force a push or a pull
+
+fossil fuels substances used to provide energy when burned that have formed over millions of years from dead animal or vegetable matter
+
+fraction apart of; sometimes represented mathematically as a ratio of a smaller number over a larger number, for example, for a half
+
+frequency the number of waves or vibrations made each second
+
+friction a force between two solid surfaces trying to move across each other that tries to stop movement happening
+
+fusion reaction when the centres of atoms (nuclei) join together
+
+generator a device that transfers mechanical energy to electrical energy - that is, a source of electrical energy
+
+glows emits light
+
+gradient the slope of a line or surface
+
+gravitational field strength how great the effect of unit mass
+
+gravity the force that objects with mass exert on each other
+
+half-life the length of time it takes for the activity of an amount of a radioactive substance to halve
+
+halogen light bulb a light bulb that contains a small amount of a halogen such as iodine or bromine
+
+heating elements coils of wires used to transfer electrical energy to heat energy
+
+hemisphere half a sphere, as in the northern hemisphere referring to the part of the Earth above the equator
+
+hydroelectric power electrical energy produced from the energy in water stored high above ground level in mountain lakes and reservoirs
+
+induced created, caused, produced
 
 #### force apush orapull
-insulatoramaterial throughwhichit isvery difficult or impossibleforelectricity toflow oscilloscope adeviceused toobservewavesand vibrations
+inkjet printers printers that create an image by directing droplets of ink on top of paper Light emitting diodes (LEDs) a material that gives off light when current passes through it light gates electronic systems that are used to switch something on or off, like a digital clock when a light beam between a light source and a detector is broken longitudinal wave the vibrations of these waves are along the direction in which the wave travels magnetic field a place where we can detect magnetism magnification how many times bigger, for example, a magnification of two indicates it is twice as big mass the amount of matter in an object; that property of an object that determines how easy it is to speed up or slow down metric related to a system of units of measurement based on kilograms, metres and second, for example, SI units are metric moderator a material used in nuclear reactors to make neutrons move more slowly molecules groups of atoms joined together negatively charged has more negative charges than positive charges non-porous a material that does not allow liquids to pass through it non-renewable an energy source that will not last forever, for example, a fossil fuel like coal will run out eventually normal (the) a line at 90 degrees to the surface nuclear to do with the nucleus of an atom, for example the forces that hold neutrons and protons tightly together in the nucleus is a nuclear force optical telescope an instrument that we use to see distant objects using visible light orbit the path of a planet around a star or as a satellite around a planet orbital speeds the speeds of objects as they circle other objects, for example, the Moon going around the Earth or many chemical elements are bound up with other elements in rocks; these rocks are called ores
 
-inverselyproportional something varying such that itdecreasesbyequalamountsassomeotherfactor increasesbyequal amounts
+#### force apush orapull
+insulator a material through which it is very difficult or impossible for electricity to flow oscilloscope a device used to observe waves and vibrations
 
-kinetic energy the type of energy that amoving object stores ozone layer alayerhigh above theEarth'ssurface that containslots of ozone（O)
+inversely proportional something varying such that it decreases by equal amounts as some other factor increases by equal amounts
 
-parabolaaparticularshapeofcurved surfaceused to focuslight,heat,radio waves,andsoon,oaparticular point
+kinetic energy the type of energy that a moving object stores ozone layer a layer high above the Earth's surface that contains lots of ozone (O)
 
-parallaxerror notreadinga scale onarulerorother measuring instrument by looking at the scale straight on (atrightangles to the scale)
+parabola a particular shape of curved surface used to focus light, heat, radio waves, and so on, o a particular point
 
-penetratingpower the measureof the abilityofawave totravel through objects
+parallax error not reading a scale on a ruler or other measuring instrument by looking at the scale straight on (at right angles to the scale)
 
-perpendicular upright orat right-angles(90 degrees to something)
+penetrating power the measure of the ability of a wave to travel through objects
 
-phenomena events,occurrences
+perpendicular upright or at right-angles (90 degrees to something)
 
-photosynthesis theprocess ingreenplants that uses lightfrom theSuntoproduceenergyfortheplanttogrow
+phenomena events, occurrences
 
-photovoltaic cells devices that transferenergy from light (typically the Sun) into electrical energy:used in renewable energyprojects;not tobeconfused with solar heatexchangers that transferheat from the Sun towater, allowing energy tobestored in tanksofheatedwater
+photosynthesis the process in green plants that uses light from the Sun to produce energy for the plant to grow
 
-pitch (of a sound)the interpretation of the frequency of a sound by aperson'sbrain/ear
+photovoltaic cells devices that transfer energy from light (typically the Sun) into electrical energy: used in renewable energy projects; not to be confused with solar heat exchangers that transfer heat from the Sun to water, allowing energy to be stored in tanks of heated water
 
-pivot thepoint around which something can tum or rotate
+pitch (of a sound) the interpretation of the frequency of a sound by a person's brain/ear
+
+pivot the point around which something can turn or rotate
 
 plugs and sockets the most common way to obtain electrical energy from the mains supply
 
-polarity termused to describe whichpartsofa magnet arenorthorsouth orwhichpartsofanelectrical circuit arepositive andnegative
+polarity term used to describe which parts of a magnet are north or south or which parts of an electrical circuit are positive and negative
 
 plastic
 
@@ -9477,48 +9683,48 @@ scanned looked atover an area,asin scanningpages fromabookin a photocopier
 #### force apush orapull
 solenoid a long coil
 
-sonar methodofusing soundwavestodetectobjects and measure theirdistance
+sonar method of using sound waves to detect objects and measure their distance
 
-spiral galaxyaverylarge group of stars thatforms a spring-like winding shape
+spiral galaxy a very large group of stars that forms a spring-like winding shape
 
-squared inmaths,something multiplied by itself
+squared in maths, something multiplied by itself
 
-sterilisedmade free ofdirt and bacteria
+sterilised made free of dirt and bacteria
 
-steriliseremove allbacteria andgerms
+sterilise remove all bacteria and germs
 
-stroboscope apparatusthatproducesshortbright flashes of lightatregularintervals(that is ata known frequencytobevaried;used toallowaseriesofimages ofa moving object tobe capturedphotographicallyorto determine thespeedofrotating objects
+stroboscope apparatus that produces short bright flashes of light at regular intervals (that is at a known frequency to be varied; used to allow a series of images of a moving object to be captured photographically or to determine the speed of rotating objects
 
-subtract take awayfrom
+subtract take away from
 
-sum theresult ofadding things together
+sum the result of adding things together
 
-terminal velocity themaximum speed thata moving objectisable toreach
+terminal velocity the maximum speed that a moving object is able to reach
 
-thermalrelating toheat;also used to describe upward aircurrents called convection
+thermal relating to heat; also used to describe upward air currents called convection
 
-thermistor a conductorwhose resistance changes a lot when its temperature changes
+thermistor a conductor whose resistance changes a lot when its temperature changes
 
-red-shift emitted waveshave theirwavelength increased,thatis,moved to thered end ofthe spectrum thrust a type of pushing force,like the thrust of rocket motors
+red-shift emitted waves have their wavelength increased, that is, moved to the red end of the spectrum thrust a type of pushing force, like the thrust of rocket motors
 
-time period timeneeded to makeone completewave orvibration
+time period time needed to make one complete wave or vibration
 
-tracersthe use ofsubstancesthat canbe detected to show themovement of liquids throughaperson'sbody or pipesinmachinery
+tracers the use of substances that can be detected to show the movement of liquids through a person's body or pipes in machinery
 
-transformer device used to change alternatingvoltages
+transformer device used to change alternating voltages
 
-transverse wave thevibrationsof thiswave areatright angles to the direction in which the wave is moving
+transverse wave the vibrations of this wave are at right angles to the direction in which the wave is moving
 
-trebled increasedbya factor of3,thatis,3xthe original
+trebled increased by a factor of 3, that is, 3x the original
 
-tuning forka steel instrument thatwhen itvibrates producessound waves ofa constant frequency and wavelength
+tuning fork a steel instrument that when it vibrates produces sound waves of a constant frequency and wavelength
 
 unbalanced force non-zero resultant force
 
 #### force apush orapull
-unstable likely to change;referring to an objectit means totip over;in thecase ofaradioactiveisotopeitmeans to emitparticlesthatchange themake-upofanucleus
+unstable likely to change; referring to an object it means to tip over; in the case of a radioactive isotope it means to emit particles that change the make-up of a nucleus
 
-upthrust an upward force acting on something:an objectinaliquidorgaswill haveanupwardforce acting onit called the buoyant (todowith floating)upthrust vacuum containing no matteratall;the space between stars isa nearly perfectvacuum;a vacuum flaskhas a ofanymatter vertical upwards,at right angles to the ground vibratemove continuouslybackand forth visible light waves that canbe detectedby the eye voltageamountofenergy transferred toeach coulomb of charge thatpasses wavelength thedistancefromonepointonawave to thesamepointon thenextwave wavesvibrationswhichcary or move energy weightthe force ofgravityacting onabody weightless the condition inwhich abody doesnot experience theforcewe callweight;ifyou stand on weighing scale ina lift thatisaccelerating toward the Earth at10m/s²thescaleswillshowthatyouweigh nothing-this isjust one way in which weightlessness can happen
+upthrust an upward force acting on something: an object in a liquid or gas will have an upward force acting on it called the buoyant (to do with floating) upthrust vacuum containing no matter at all; the space between stars is a nearly perfect vacuum; a vacuum flask has a vacuum of any matter vertical upwards, at right angles to the ground vibrate move continuously back and forth visible light waves that can be detected by the eye voltage amount of energy transferred to each coulomb of charge that passes wavelength the distance from one point on a wave to the same point on the next wave waves vibrations which carry or move energy weight the force of gravity acting on a body weightless the condition in which a body does not experience the force we call weight; if you stand on weighing scale in a lift that is accelerating toward the Earth at 10 m/s² the scales will show that you weigh nothing - this is just one way in which weightlessness can happen
 
 #### A
 | ABS32 absolutezero 139,189-91                                  |
@@ -9671,7 +9877,7 @@ upthrust an upward force acting on something:an objectinaliquidorgaswill haveanu
 | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14                                                                                                  | direct voltage 65 displacement 6-7,14
 
 #### D
-| dependent variable 281 depthandpressure 178 deuterium 223                                                                              | dependent variable 281 depthandpressure 178 deuterium 223                                                                              | dependent variable 281 depthandpressure 178 deuterium 223                                                                              | dependent variable 281 depthandpressure 178 deuterium 223                                                                              | dependent variable 281 depthandpressure 178 deuterium 223                                                                              | dependent variable 281 depthandpressure 178 deuterium 223                                                                              | | diagnosisofdisease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosisofdisease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosisofdisease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosisofdisease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosisofdisease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosisofdisease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     |
+| dependent variable 281 depth and pressure 178 deuterium 223                                                                              | dependent variable 281 depth and pressure 178 deuterium 223                                                                              | dependent variable 281 depth and pressure 178 deuterium 223                                                                              | dependent variable 281 depth and pressure 178 deuterium 223                                                                              | dependent variable 281 depth and pressure 178 deuterium 223                                                                              | dependent variable 281 depth and pressure 178 deuterium 223                                                                              | | diagnosis of disease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosis of disease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosis of disease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosis of disease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosis of disease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     | diagnosis of disease 241-2 dimmer switch 79 diodes 78,81 direct current （d.c.)65,70                                                     |
 
 #### D
 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3                                                                                 | distance momentofa force 49 standard 267 stopping 32-3

@@ -211,3 +211,77 @@ Stage Summary:
 - Parse grinding in background; ETA ~2 h for 308 pages.
 - TOC anchors recorded (uncertain: ch8 75, ch16 150|151, ch22 221|222) -
   to be refined post-parse via LEARNING OBJECTIVES detection in parsed text.
+
+---
+Task ID: T-PARSE-4PH1-3
+Agent: main (Super Z)
+Task: Physics 4PH1 v1 parse execution (recap; full record = commit 6242e01
+message, which is the of-record for this task).
+
+Work Log:
+- Docling 2.33 base (heron layout + RapidOCR + TableFormer, ~9-13 s/page) with
+  page-level hybrid: 2.133 formula-decode on PDF 16-17, tesseract fallback on
+  PDF 14/20/21, 33 pages formula-OFF retry (CodeFormula crash bug), PDF 307
+  pixel-verified blank. 308/308 checkpointed.
+- parse_docling_physics.py -> 736 chunks (15-key grammar, phys_v1_* ids),
+  offset book_page = pdf_page - 10 (triple-confirmed), 8 units / 28 chapters,
+  TOC OCR digit garbles resolved by corpus scan (ch8=75, ch16=150, ch17=158,
+  ch22=221). NO answers section (verified corpus-wide).
+- Serving-critical compliance: chapter_questions (21) / unit_questions (26)
+  typed + page-anchored (47 chunks on marker-verified pages); book_pages +
+  pdf_pages per chunk on all 736; non-body typed separately.
+- validate_physics.py: ALL CHECKS PASSED. Deliverables in parsed/ (v1).
+
+Stage Summary:
+- v1 parse complete, pushed as 6242e01 (deliverables + 308 checkpoints +
+  scripts + METHOD_AND_FINDINGS + this worklog).
+
+---
+Task ID: T-PARSE-4PH1-4
+Agent: main (Super Z)
+Task: Chemistry-style LLM fidelity polish round 1 (operator directive
+2026-10-19: "run the chemistry-style LLM fidelity polish (RapidOCR drops
+some spaces on this scan"). Serving-critical constraint: chapter_questions /
+unit_questions anchors and both page numberings must stay per-chunk and
+untouched.
+
+Work Log:
+- Workspace reset since 4PH1-3 (no physics files locally): re-fetched parsed/
+  deliverables + pipeline scripts from repo HEAD (raw.githubusercontent), env
+  rebuilt (z-ai-web-dev-sdk npm install in scripts/).
+- Noise census: 62% of chunks carry 18+ lowercase glue runs; caps-glue 272,
+  camel-glue 181 hits corpus-wide; equations already Unicode (0 caret tokens).
+- select_noisy_physics.py: physics-adapted scoring (space_run 18+ chars
+  weighted 3x, caps-glue whitelisted against legit book labels like
+  INTERPRETATION/RADIOACTIVITY, camel-glue 2x, chemistry residual classes
+  kept, table/glossary/index/front-matter damped, question types boosted).
+  Selected 300/736 incl. ALL 47 chapter/unit question chunks (force-include).
+- llm_repair_physics.js (z-ai SDK): no-paraphrase prompt whose PRIMARY class
+  is dropped-space restoration; units/equations must survive verbatim;
+  guards: length drift 0.6-1.7x, refusals, Unicode-unit non-decrease, tables
+  keep per-line pipe counts, prose wording fidelity via whitespace-normalized
+  LCS token ratio >= 0.97 (added after first-pass rejects showed +-1-4 line
+  reflows with identical wording); rejected raws saved as evidence. CONC=1,
+  429 backoff, quota-stop after 3 consecutive 429s, resumable JSONL.
+  Persistent 429 quota walls (chemistry precedent) -> 8 foreground batches.
+- merge_llm_physics.py: 232/300 applied (231 changed, 1 no-op), text_original
+  preserved, char_count recomputed, full_book_docling.md + parse_report_v1
+  regenerated. SERVING-CRITICAL ANCHOR CHECK vs pristine v1 snapshot:
+  0 drift across id/unit_no/chapter_no/content_type/pdf_pages/book_pages/
+  section/unit_name/chapter_title on all 736 chunks; chunk id set unchanged.
+- audit_polish_physics.py: polished-chunk glue runs 1008 -> 3 (residuals are
+  legit words: thermoluminescence, telecommunications, one front-matter URL);
+  camel glue 121 -> 0; caps glue 127 -> 15; Unicode-unit regressions 0.
+- validate_physics.py re-run: ALL CHECKS PASSED (736 unique ids, 28/28
+  chapters, 8/8 units, 0 order breaks, 47 question chunks page-anchored,
+  0 latex remnants).
+- Round 2 pending: 68 chunks (49 unresolved + 19 rejects re-queued under the
+  improved guard) blocked by LLM quota; resume protocol documented in
+  parsed/README.md. No schema/id changes in round 1; round 2 is pure text.
+
+Stage Summary:
+- Corpus state of record: parsed/edexcel_igcse_physics_chunks_v1.jsonl
+  (736 chunks, 232 llm_repaired with text_original preserved), validation
+  green, serving-critical anchors byte-identical to pristine v1.
+- Round 2 is a text-only re-run of the same resumable scripts; split
+  derivation unaffected (anchors untouched by design and verified).

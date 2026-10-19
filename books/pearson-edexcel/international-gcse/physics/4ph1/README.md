@@ -56,5 +56,10 @@ with originals preserved.
       **serving-critical met: chapter_questions/unit_questions typed and
       page-anchored, book_pages + pdf_pages per-chunk**)
 - [x] Deliverables in `parsed/` (v1), works/decisions in `pipeline/`
+- [x] LLM fidelity polish round 1 (2026-10-19): scan-wide RapidOCR space-drop
+      repaired on 232/300 selected chunks (strict no-paraphrase, originals
+      preserved); serving-critical anchor check 0 drift; validation re-run
+      ALL CHECKS PASSED. Round 2 (68 chunks) pending LLM quota — protocol in
+      `parsed/README.md`.
 
-## Status: v1 PARSE COMPLETE — validation passed (2026-10-19)
+## Status: v1 PARSE + POLISH ROUND 1 COMPLETE — validation passed (2026-10-19)
