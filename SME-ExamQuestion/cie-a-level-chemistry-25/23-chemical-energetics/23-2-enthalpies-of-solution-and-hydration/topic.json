@@ -1,0 +1,369 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:49:52Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "23-chemical-energetics",
+  "name": "23. Chemical Energetics"
+ },
+ "topic": {
+  "id": "top_msxdtTbT8BYnC24g",
+  "slug": "23-2-enthalpies-of-solution-and-hydration",
+  "name": "Enthalpies of Solution & Hydration",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "factors-affecting-enthalpy-of-hydration",
+   "name": "Factors Affecting Enthalpy of Hydration",
+   "revision_note_id": "rn_nksvTDYYy3PgnCT4"
+  },
+  {
+   "slug": "energy-cycle-calculations",
+   "name": "Energy Cycle Calculations",
+   "revision_note_id": "rn_8jBqHmQFTRj67v5Q"
+  },
+  {
+   "slug": "constructing-energy-cycles",
+   "name": "Constructing Energy Cycles",
+   "revision_note_id": "rn_v3sMwgQ92Jj7MyBd"
+  },
+  {
+   "slug": "enthalpies-of-solution-and-hydration",
+   "name": "Enthalpies of Solution & Hydration",
+   "revision_note_id": "rn_d5CHXdRhtvf8VCkQ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_dkbXTJgq2ZwbQtqK",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/23-chemical-energetics/23-2-enthalpies-of-solution-and-hydration/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 4,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2024/03/screenshot-2024-03-15-110305.png": "001-hess-s-law-energy-cycle-for-cabr-2-lattice-energ.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/screenshot-2024-03-15-110316.png": "002-hess-s-law-energy-cycle-for-kf-lattice-energy-fr.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_y63MtRkHhcw48K2r",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_WV35GBhksGDmYsfQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SnnZTcRwCg2frBFn"
+     ],
+     "part_tier": null,
+     "problem_md": "A Group 1 metal, M, forms an ionic chloride compound.\n\nThe lattice energy of this compound is −773 kJ mol<sup>–</sup> and the standard enthalpy change of hydration of the chloride ion is −363 kJ mol<sup>–</sup>.\n\nThe standard enthalpy change of solution of the Group 1 chloride is +4 kJ mol<sup>–</sup>.\n\nUsing the information in Table 4.1, deduce the identity of the Group 1 ion, M<sup>+</sup>. Show your working.\n\n**Table 4.1**\n\n| **Group 1 ion** | Δ*H*<sup>θ</sup><sub>hyd</sub>** / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| Li<sup>+</sup> | −519 |\n| Na<sup>+</sup> | −406 |\n| K<sup>+</sup> | −321 |\n| Rb<sup>+</sup> | −296 |\n\nIdentity of M<sup>+</sup> = ...........................",
+     "solution_md": "The identity of M<sup>+</sup> is deduced by calculating Δ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>) from the energy cycle.\n\n- State the relationship from the energy cycle:\n\nlattice energy + Δ*H*<sup>θ</sup><sub>sol</sub> = Δ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>) + Δ*H*<sup>θ</sup><sub>hyd</sub>(Cl<sup>–</sup>) **[1 mark]**\n\n- Rearrange and substitute the known values:\n\nΔ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>) = lattice energy + Δ*H*<sup>θ</sup><sub>sol</sub> − Δ*H*<sup>θ</sup><sub>hyd</sub>(Cl<sup>–</sup>)\n\nΔ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>) = (−773) + (+4) − (−363)\n\nΔ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>) = −406 kJ mol<sup>–1</sup> **[1 mark]**\n\n- Compare with Table 4.1:\n\nM<sup>+</sup> = **Na**<sup>**+**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct energy cycle relationship\n> \n> 1 mark for Δ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>) = −406 kJ mol<sup>–</sup>\n> \n> 1 mark for Na<sup>+</sup> **OR** correct identification of a Group 1 ion based on a numerical answer matching a value in Table 4.1\n> \n> Allow error carried forward from incorrect rearrangement\n\n> **[exam-tip]**\n> Set up the energy cycle equation first:\n> \n> lattice energy + Δ*H*<sup>θ</sup><sub>sol</sub> = ΣΔ*H*<sup>θ</sup><sub>hyd</sub>.\n> \n> Rearranging to find Δ*H*<sup>θ</sup><sub>hyd</sub>(M<sup>+</sup>): subtract Δ*H*<sup>θ</sup><sub>hyd</sub>(Cl<sup>–</sup>) from both sides. The lattice energy given is negative. CIE defines lattice energy as the formation of the ionic lattice, so take care with signs when substituting."
+    },
+    {
+     "id": "qstnprt_HcbGGGjhzQG7Z5kg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ysSdxYn8jvXccKdS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA Group 1 metal, M, forms an ionic chloride compound.\n\nThe lattice energy of this compound is −773 kJ mol^–^.\n\nMetal M forms an ionic compound with a different halide ion. The lattice energy of this new compound is −705 kJ mol<sup>–</sup>.\n\nDeduce the formula of this compound. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> A possible formula for the new compound is:\n> \n> - MBr (s) / MI (s) **[1 mark]**\n> - The new halide ion has a larger ionic radius than Cl<sup>–</sup> / has more electron shells than Cl<sup>–</sup> **[1 mark]**\n> - The attraction between M<sup>+</sup> and the new halide ion is weaker than between M<sup>+</sup> and Cl<sup>–</sup>, giving a less exothermic lattice energy **[1 mark]**\n\n> **[exam-tip]**\n> The lattice energy of the new compound (−705 kJ mol<sup>–</sup>) is less exothermic than that of MCl (−773 kJ mol<sup>–</sup>). Since M<sup>+</sup> is unchanged, the difference must come from the halide ion. A less exothermic lattice energy means weaker ionic attractions, which occurs when the halide ion is larger. Both Br<sup>–</sup> and I<sup>–</sup> are larger than Cl<sup>–</sup>, so MBr and MI are both valid answers. MF would be incorrect as F<sup>–</sup> is smaller than Cl<sup>–</sup>, so MF would have a more exothermic lattice energy than MCl."
+    },
+    {
+     "id": "qstnprt_775NHB8RMjPdgHTP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ysSdxYn8jvXccKdS"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Explain why the standard enthalpy change of hydration of Group 1 ions is an exothermic process.\n\n[2]\n\nii) Explain why the standard enthalpy change of hydration becomes less exothermic down Group 1.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The standard enthalpy change of hydration of Group 1 ions is exothermic because:\n> \n> - Group 1 ions / M<sup>+</sup> attract the δ<sup>–</sup> oxygen atoms in polar water molecules / ion-dipole attractions form between M<sup>+</sup> and water **[1 mark]**\n> - Bonds form between the Group 1 ion and water molecules, releasing energy **[1 mark]**\n> \n> ii) The standard enthalpy change of hydration becomes less exothermic down Group 1 because:\n> \n> - The ionic radius of M<sup>+</sup> increases down the group **[1 mark]**\n> - The ion-dipole attraction between M<sup>+</sup> and water molecules decreases / water molecules are attracted less strongly as charge density decreases **[1 mark]**\n\n> **[exam-tip]**\n> For part i, connect two steps: the positive Group 1 ion is attracted to the δ<sup>–</sup> oxygen in water, and forming this attraction releases energy. Bond formation is always exothermic.\n> \n> For part ii, all Group 1 ions carry the same charge (+1), so ionic radius is the only variable. A larger ion has a lower charge density, forms weaker ion-dipole attractions with water, and releases less energy on hydration."
+    }
+   ]
+  },
+  {
+   "id": "qstn_R2Py2zxbTb5h6YXD",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_x56D5gRJq73kMXbq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fZcV6nrG2QTrcXH7"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe, in terms of electron transfer, the formation of solid calcium bromide, CaBr<sub>2</sub>, from its atoms.",
+     "solution_md": "> **[mark-scheme]**\n> The formation of CaBr<sub>2</sub> in terms of electron transfer:\n> \n> - One calcium atom loses two electrons **[1 mark]**\n> - Two bromine atoms each gain one electron **[1 mark]**\n> - Forming one Ca<sup>2+</sup>\n> **AND**\n> Two Br<sup>–</sup> ions **[1 mark]**\n> \n> Answers referring to \"bromine ions\" instead of \"bromide ions\" are not accepted in the third mark point.\n\n> **[exam-tip]**\n> The formula CaBr<sub>2</sub> tells you the ratio: one Ca to two Br. Calcium is in Group 2 and loses both outer electrons to form Ca<sup>2+</sup>. Each bromine atom individually gains one electron to form Br<sup>–</sup>, giving two bromide ions in total. Use \"bromide\" (not \"bromine\") when referring to the Br<sup>–</sup> ion."
+    },
+    {
+     "id": "qstnprt_8SnPvnc9sG6TJxRB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SnnZTcRwCg2frBFn"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 3.1 gives thermodynamic data for calcium bromide, CaBr<sub>2</sub>.\n\ni) Define the term lattice energy.\n\n[2]\n\n**Table 3.1**\n\n| **enthalpy change** | **enthalpy change / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| Δ*H*<sup>θ</sup><sub>hyd</sub> Br<sup>–</sup> | –348 |\n| lattice energy of CaBr<sub>2</sub> | −2176 |\n| Δ*H*<sup>θ</sup><sub>sol</sub> CaBr<sub>2</sub> | −99 |\n\nii) Using Table 3.1, calculate the standard enthalpy change of hydration of the calcium ion. Show your working.\n\nenthalpy change of hydration of Ca<sup>2+</sup> = ........................ kJ mol<sup>–1</sup>\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) Lattice energy is the enthalpy change when:\n> \n> - One mole of an ionic compound / ionic lattice is formed **[1 mark]**\n> - From its constituent gaseous ions **[1 mark]**\n\nii) The enthalpy change of hydration of Ca<sup>2+</sup> is calculated from the energy cycle.\n\n![Hess's law energy cycle for CaBr~2~: lattice energy from Ca^2+^ (g) and 2Br^–^ (g), with enthalpy of solution and enthalpies of hydration of Ca^2+^ and Br^–^ shown](assets/001-hess-s-law-energy-cycle-for-cabr-2-lattice-energ.png)\n\n- State the relationship from the energy cycle:\n\nlattice energy + Δ*H*<sup>θ</sup><sub>sol</sub>(CaBr<sub>2</sub>) = Δ*H*<sup>θ</sup><sub>hyd</sub>(Ca<sup>2+</sup>) + 2 x Δ*H*<sup>θ</sup><sub>hyd</sub>(Br<sup>–</sup>)\n\n- Rearrange and substitute values from Table 3.1:\n\nΔ*H*<sup>θ</sup><sub>hyd</sub>(Ca<sup>2+</sup>) = (−2176) + (−99) − 2 x (−348) **[1 mark]**\n\nΔ*H*<sup>θ</sup><sub>hyd</sub>(Ca<sup>2+</sup>) = **−1579 kJ mol**<sup>**–1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from incorrect sign convention if the method is otherwise correct.\n\n> **[exam-tip]**\n> For part i, CIE uses \"lattice energy\" exclusively, always defined as the formation of the ionic lattice from gaseous ions (always exothermic, negative). This differs from other exam boards, which use separate terms for formation and dissociation.\n> \n> For part ii, the overall equation (lattice energy + Δ*H*<sup>θ</sup><sub>sol</sub> = ΣΔ*H*<sup>θ</sup><sub>hyd</sub>) is not awarded a mark, but writing it out avoids sign errors. Multiply Δ*H*<sup>θ</sup><sub>hyd</sub>(Br<sup>–</sup>) by two, as two bromide ions dissolve per mole of CaBr<sub>2</sub>."
+    },
+    {
+     "id": "qstnprt_XdKmZZVCj6KQ8Scy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SnnZTcRwCg2frBFn"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the data in Table 3.2 to calculate the standard enthalpy change of solution of potassium fluoride. Show your working.\n\n**Table 3.2**\n\n| **enthalpy change** | **enthalpy change / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| lattice energy of KF | −830 |\n| Δ*H*<sup>θ</sup><sub>hyd</sub> K<sup>+</sup> | −351 |\n| Δ*H*<sup>θ</sup><sub>hyd</sub> F<sup>–</sup> | −504 |",
+     "solution_md": "The standard enthalpy change of solution of KF is calculated using Hess's law.\n\n![Hess's law energy cycle for KF: lattice energy from K^+^ (g) and F^–^ (g), with enthalpy of solution and enthalpies of hydration of K^+^ and F^–^ shown](assets/002-hess-s-law-energy-cycle-for-kf-lattice-energy-fr.png)\n\n- State the relationship from the energy cycle:\n\nΔ*H*<sup>θ</sup><sub>sol</sub> = ΣΔ*H*<sup>θ</sup><sub>hyd</sub> − lattice energy **[1 mark]**\n\n- Substitute the values from Table 3.2 and calculate:\n\nΔ*H*<sup>θ</sup><sub>sol</sub> = [(−351) + (−504)] − (−830) **[1 mark]**\n\nΔ*H*<sup>θ</sup><sub>sol</sub>(KF) = **−25 kJ mol**<sup>**–1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct relationship: ΣΔ*H*<sup>θ</sup><sub>hyd</sub> − lattice energy **OR** correctly constructed energy cycle\n> \n> 1 mark for correct substitution\n> \n> 1 mark for −25 kJ mol<sup>–1</sup>\n> \n> Allow error carried forward from incorrect substitution if method is correct\n\n> **[exam-tip]**\n> The energy cycle gives:\n> \n> lattice energy + Δ*H*<sup>θ</sup><sub>sol</sub> = ΣΔ*H*<sup>θ</sup><sub>hyd</sub>.\n> \n> Rearranging:\n> \n> Δ*H*<sup>θ</sup><sub>sol</sub> = ΣΔ*H*<sup>θ</sup><sub>hyd</sub> − lattice energy.\n> \n> KF is a 1:1 ionic compound, so add both hydration enthalpies directly without multiplying either by a stoichiometric coefficient."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mXh2BYvVzFmkGVKR",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_24bCXT4ymNjTM9bG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7m3szDrWFP2SZ2tK"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Define the term standard enthalpy change of hydration in relation to the fluoride ion.\n\n[2]\n\nii) State whether the standard enthalpy change of hydration of the fluoride ion is an exothermic or endothermic process. Explain your answer.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The standard enthalpy change of hydration of the fluoride ion is the enthalpy change when:\n> \n> - One mole of F<sup>–</sup> (g) / one mole of gaseous fluoride ions **[1 mark]**\n> - Dissolves in excess water to form an infinitely dilute solution / forms F<sup>–</sup> (aq) **[1 mark]**\n> \n> ii) The standard enthalpy change of hydration of the fluoride ion is:\n> \n> - Exothermic **[1 mark]**\n> - The F<sup>–</sup> ion attracts the δ<sup>+</sup> hydrogen atoms in water molecules / ion-dipole bonds form between F<sup>–</sup> and water molecules / energy is released as bonds form between the ion and water **[1 mark]**\n\n> **[exam-tip]**\n> For part i, both the quantity (one mole) and state (gaseous) of the fluoride ion must be stated, along with the product (infinitely dilute aqueous solution). A definition that omits \"gaseous\" or \"excess water / infinite dilution\" will lose a mark.\n> \n> For part ii, state \"exothermic\" first. This earns the first mark independently. The explanation should focus on the ion-dipole attraction between the negative fluoride ion and the δ<sup>+</sup> hydrogen atoms on water molecules. Forming these bonds releases energy, making the process exothermic."
+    },
+    {
+     "id": "qstnprt_qHZKP55n6zpMBVQc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ysSdxYn8jvXccKdS"
+     ],
+     "part_tier": null,
+     "problem_md": "The standard enthalpy changes of hydration of the fluoride and chloride ions are −524 kJ mol<sup>–</sup> and −364 kJ mol<sup>–</sup> respectively.\n\nExplain why the standard enthalpy change of hydration of the fluoride ion is more exothermic than that of the chloride ion.",
+     "solution_md": "> **[mark-scheme]**\n> The fluoride ion's enthalpy change of hydration is more exothermic because:\n> \n> - The fluoride ion has a smaller ionic radius than the chloride ion **[1 mark]**\n> - The ion-dipole attraction between the fluoride ion and water molecules is stronger / the fluoride ion attracts the δ<sup>+</sup> hydrogen atoms in water more strongly **[1 mark]**\n> \n> Hydrogen bonding is not accepted as the basis for the explanation.\n\n> **[exam-tip]**\n> Both ions carry the same charge (1−), so the difference in hydration enthalpy is determined by ionic radius. A smaller ion concentrates the same charge in a smaller space (higher charge density), forming stronger ion-dipole attractions with the δ<sup>+</sup> hydrogen atoms on water molecules and releasing more energy on hydration."
+    },
+    {
+     "id": "qstnprt_4GZVCxCKCpgsxwgy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ysSdxYn8jvXccKdS"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the data in Table 2.1 to explain why the standard enthalpy change of hydration of the calcium ion is more exothermic than that of the sodium ion.\n\n**Table 2.1**\n\n| **name of enthalpy change** | **enthalpy change / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| Δ*H*<sup>θ</sup><sub>hyd</sub> Cl<sup>–</sup> | −364 |\n| Δ*H*<sup>θ</sup><sub>hyd</sub> Na<sup>+</sup> | −406 |\n| Δ*H*<sup>θ</sup><sub>hyd</sub> Ca<sup>2+</sup> | −1579 |",
+     "solution_md": "> **[mark-scheme]**\n> Ca<sup>2+</sup> has a more exothermic enthalpy change of hydration than Na<sup>+</sup> because:\n> \n> - Ca<sup>2+</sup> has a higher charge (+2) than Na<sup>+</sup> (+1) / Ca<sup>2+</sup> has a higher charge density than Na<sup>+</sup> **[1 mark]**\n> - Ca<sup>2+</sup> forms stronger ion-dipole attractions with water molecules / attracts water molecules more strongly **[1 mark]**\n> \n> \"Higher size to charge ratio\" is not accepted; the correct comparison is charge density (charge relative to ionic radius).\n\n> **[exam-tip]**\n> The ionic radii of Ca<sup>2+</sup> and Na<sup>+</sup> are very similar (approximately 100 pm and 102 pm respectively), so the difference in hydration enthalpy is primarily due to the charge. Ca<sup>2+</sup> carries twice the charge of Na<sup>+</sup>. Higher charge means a stronger attraction to the partial charges on surrounding water molecules, releasing more energy on hydration."
+    }
+   ]
+  },
+  {
+   "id": "qstn_GvfjfNv3MbCxCPHB",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_sB9MRgR9HPwM5msz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7m3szDrWFP2SZ2tK"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term standard enthalpy change of hydration, Δ*H*<sup>θ</sup><sub>*hyd*</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The standard enthalpy change of hydration is the enthalpy change when:\n> \n> - One mole of gaseous ions **[1 mark]**\n> - Dissolves in excess water to form an infinitely dilute solution **[1 mark]**\n\n> **[exam-tip]**\n> CIE requires both elements of this definition: the quantity and state of the ions (one mole, gaseous) and the process (dissolving in excess water to form an infinitely dilute solution). Writing only \"dissolves in water\" without specifying excess water or infinite dilution will not score the second mark."
+    },
+    {
+     "id": "qstnprt_ndVbqr59vW9twpH5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ysSdxYn8jvXccKdS",
+      "spcpt_7m3szDrWFP2SZ2tK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe standard enthalpy change of hydration is the enthalpy change when one mole of gaseous ions dissolves in excess water to form an infinitely dilute solution.\n\ni) Construct an equation to represent the Δ*H*<sup>θ</sup><sub>*hyd*</sub> of the Mg<sup>2+</sup> ion.\n\n[1]\n\nii) Suggest why the Δ*H*<sup>θ</sup><sub>*hyd*</sub> of the Mg<sup>2+</sup> ion is more exothermic than that of the Ca<sup>2+</sup> ion.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) An equation representing the Δ*H*<sup>θ</sup><sub>hyd</sub> of the Mg<sup>2+</sup> ion:\n> \n> - Mg<sup>2+</sup> (g) → Mg<sup>2+</sup> (aq)\n> **OR**\n> Mg<sup>2+</sup> (g) + 6H<sub>2</sub>O (l) → [Mg(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> (aq) **[1 mark]**\n> \n> ii) The Δ*H*<sup>θ</sup><sub>hyd</sub> of Mg<sup>2+</sup> is more exothermic than that of Ca<sup>2+</sup> because:\n> \n> - Mg<sup>2+</sup> has a smaller ionic radius / higher charge density than Ca<sup>2+</sup> **[1 mark]**\n\n> **[exam-tip]**\n> For part i, both the simple ionic equation (Mg<sup>2+</sup> (g) → Mg<sup>2+</sup> (aq)) and the full coordination equation showing water molecules score the mark.\n> \n> For part ii, Mg<sup>2+</sup> and Ca<sup>2+</sup> carry the same charge, so the smaller Mg<sup>2+</sup> ion has a greater charge density, forming stronger ion-dipole attractions with water molecules and releasing more energy on hydration."
+    },
+    {
+     "id": "qstnprt_Qw4PrTjzrg65sJdG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "The standard enthalpy change of solution for MgCl<sub>2</sub> is represented by the following equation.\n\nMgCl<sub>2</sub> (s) + aq → Mg<sup>2+</sup> (aq) + 2Cl<sup>–</sup> (aq)\n\nDescribe the apparatus used and the measurements taken to determine a value for the standard enthalpy change of solution of MgCl<sub>2</sub> in the laboratory.",
+     "solution_md": "> **[mark-scheme]**\n> The apparatus and measurements needed to determine Δ*H*<sup>θ</sup><sub>sol</sub> for MgCl<sub>2</sub>:\n> \n> - Measure a known volume / mass of water into a polystyrene cup / calorimeter **[1 mark]**\n> - Record the initial temperature of the water **[1 mark]**\n> - Weigh out a known mass of MgCl<sub>2</sub> **[1 mark]**\n> - Record the final / maximum temperature reached\n> **OR**\n> Record the temperature change **[1 mark]**\n\n> **[exam-tip]**\n> CIE rewards four distinct steps: setting up a calorimeter with a known volume of water, recording the starting temperature, measuring the mass of MgCl<sub>2</sub> added, and recording the temperature change. Once you have these measurements, calculate the energy change using *q* = *mc*Δ*T*, then convert to kJ mol<sup>–1</sup> using the molar mass of MgCl<sub>2</sub> (95.3 g mol<sup>–1</sup>)."
+    },
+    {
+     "id": "qstnprt_drGy2rdm8GNHPTWg",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WmYZtcYYX3SNC8x6"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the data in Table 4.1 to calculate the standard enthalpy change of solution of magnesium chloride. Show your working.\n\n**Table 4.1**\n\n| Enthalpy change | Enthalpy change / kJ mol<sup>-1</sup> |\n|---|---|\n| Δ*H*<sup>θ</sup><sub>latt</sub> MgCl<sub>2</sub> (s) | –2526 kJ mol<sup>–1</sup> |\n| Δ*H*<sup>θ</sup><sub>hyd</sub> (Mg<sup>2+</sup> (g)) | –1890 kJ mol<sup>–1</sup> |\n| Δ*H*<sup>θ</sup><sub>hyd</sub> (Cl<sup>–</sup> (g)) | –398 kJ mol<sup>–1</sup> |",
+     "solution_md": "The standard enthalpy change of solution of MgCl<sub>2</sub> is calculated using Hess's law.\n\n- State the relationship between Δ*H*<sup>θ</sup><sub>sol</sub>, Δ*H*<sup>θ</sup><sub>latt</sub> and Δ*H*<sup>θ</sup><sub>hyd</sub>:\n\nΔ*H*<sup>θ</sup><sub>sol</sub> = Δ*H*<sup>θ</sup><sub>hyd</sub>(Mg<sup>2+</sup>) + 2 x Δ*H*<sup>θ</sup><sub>hyd</sub>(Cl<sup>–</sup>) − Δ*H*<sup>θ</sup><sub>latt</sub> **[1 mark]**\n\n- Substitute the values from Table 4.1 and calculate:\n\nΔ*H*<sup>θ</sup><sub>sol</sub> = (−1890) + 2 x (−398) − (−2526) **[1 mark]**\n\nΔ*H*<sup>θ</sup><sub>sol</sub> = **−160 kJ mol**<sup>**–1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct relationship: Δ*H*<sup>θ</sup><sub>hyd</sub>(Mg<sup>2+</sup>) + 2 x Δ*H*<sup>θ</sup><sub>hyd</sub>(Cl<sup>–</sup>) − Δ*H*<sup>θ</sup><sub>latt</sub>\n> \n> 1 mark for correct substitution\n> \n> 1 mark for −160 kJ mol<sup>–1</sup>; allow ECF from incorrect substitution if method is correct\n\n> **[exam-tip]**\n> The relationship Δ*H*<sup>θ</sup><sub>sol</sub> = ΣΔ*H*<sup>θ</sup><sub>hyd</sub> − Δ*H*<sup>θ</sup><sub>latt</sub> follows from Hess's law. The lattice energy in the table is for formation (exothermic, negative), so subtracting it effectively adds its magnitude back. Remember to multiply Δ*H*<sup>θ</sup><sub>hyd</sub>(Cl<sup>–</sup>) by two, as two chloride ions are released when one mole of MgCl<sub>2</sub> dissolves."
+    }
+   ]
+  }
+ ]
+}

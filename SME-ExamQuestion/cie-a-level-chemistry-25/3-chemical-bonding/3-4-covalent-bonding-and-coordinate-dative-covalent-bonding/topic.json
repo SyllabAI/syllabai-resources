@@ -1,0 +1,808 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:51:30Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "3-chemical-bonding",
+  "name": "3. Chemical Bonding"
+ },
+ "topic": {
+  "id": "top_sbhWQT97VHDJpGHt",
+  "slug": "3-4-covalent-bonding-and-coordinate-dative-covalent-bonding",
+  "name": "Covalent Bonding & Coordinate (Dative Covalent) Bonding",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "hybridisation",
+   "name": "Hybridisation",
+   "revision_note_id": "rn_DWyJ86M4snfdjdzB"
+  },
+  {
+   "slug": "covalent-bonding",
+   "name": "Covalent Bonding",
+   "revision_note_id": "rn_fdZbkbKdQ4r95vSq"
+  },
+  {
+   "slug": "bond-energy-and-length",
+   "name": "Bond Energy & Length",
+   "revision_note_id": "rn_466vz27ZKVD9H52Q"
+  },
+  {
+   "slug": "coordinate-bonding",
+   "name": "Coordinate Bonding",
+   "revision_note_id": "rn_PPMZ7pmRTQ49dMR2"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_yDh3CvXTq68j6W2G",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 14,
+   "questions_embedded": 14,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/3-chemical-bonding/3-4-covalent-bonding-and-coordinate-dative-covalent-bonding/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 14,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/06/43305-structure-of-acrylonitrile-showing--and--bonds.png": "001-chemical-structure-of-acrylonitrile-showing-and-.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/12983-structure-of-the-no2--ion.png": "002-skeletal-formula-of-the-no2-ion-showing-a-centra.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/no2-radical.webp": "003-structural-formula-of-the-no2-radical-showing-a-.webp",
+   "https://cdn.savemyexams.com/uploads/2026/06/464-sigma-and-pi-bond-multiple-choice-table.JPG": "004-table-of-diagrams-comparing-and-molecular-orbita.jpg",
+   "https://cdn.savemyexams.com/uploads/2026/06/37064-s-and-p-atomic-orbitals.png": "005-diagram-of-s-and-p-atomic-orbitals-a-spherical-s.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/26369-phosphine-to-phosphonium-ion.JPG": "006-diagram-of-phosphine-showing-a-lone-pair-on-phos.jpg",
+   "https://cdn.savemyexams.com/uploads/2026/06/47387-ammonia-to-ammonium-ion.JPG": "007-diagram-of-ammonia-reacting-with-a-proton-to-for.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_VmCCypKCxxq7wZmx",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6zxmW4N4ZV6s6qtQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NbtHdZ2KrTzhrkdg"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row gives the number of σ and π bonds in one molecule of acrylonitrile?\n\n|   | number of σ bonds | number of π bonds |\n|---|---|---|\n| **A** | 4 | 2 |\n| **B** | 6 | 1 |\n| **C** | 6 | 3 |\n| **D** | 7 | 3 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Expand the condensed formula into the full displayed structure:\n\nCH<sub>2</sub>=CH–C≡N\n\n- Count each bond type systematically:\n\n  - 3 C–H single bonds: 3 σ bonds.\n  - C=C double bond: 1 σ bond + 1 π bond.\n  - C–C single bond: 1 σ bond.\n  - C≡N triple bond: 1 σ bond + 2 π bonds.\n\n- Total σ bonds = 3 + 1 + 1 + 1 = 6.\n- Total π bonds = 1 + 2 = 3.\n\n![Chemical structure of acrylonitrile showing σ and π bonds, with hydrogen atoms bonded to carbons and a carbon-nitrogen triple bond.](assets/001-chemical-structure-of-acrylonitrile-showing-and-.png)\n\n**A** is incorrect as only 4 σ bonds have been counted. The C=C double bond, the C–C single bond, and the C≡N triple bond each contain one σ bond that must be included.\n\n**B** is incorrect as the C≡N triple bond contributes 2 π bonds, not zero. The total π bond count is 1 (from C=C) + 2 (from C≡N) = 3.\n\n**D** is incorrect as the C≡N triple bond contains only one σ bond (plus two π bonds), giving a total of 6 σ bonds, not 7.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9M6PNtcCQq3kKrNX",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JxNg8NvjVwydD9nQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NbtHdZ2KrTzhrkdg"
+     ],
+     "part_tier": null,
+     "problem_md": "How many σ and π bonds are present in ethanenitrile?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Structure of ethanenitrile: H<sub>3</sub>C−C≡N.\n- **σ bonds:**\n\n  - 3 (C−H) + 1 (C−C) + 1 (C≡N) = **5**\n- **π bonds:**\n\n  - The triple bond between C and N contains **2** π bonds.\n\n**A** is incorrect as there are 5 σ bonds, not 4; the C−C single bond is also a σ bond and must be counted.\n\n**B** is incorrect as the C≡N triple bond contains 2 π bonds, not 1.\n\n**D** is incorrect as there are 5 σ bonds, not 6; the triple bond contributes only one σ bond (plus two π bonds).\n\n> **[exam-tip]**\n> Every bond (single, double, or triple) contains exactly one σ bond.\n> \n> A double bond adds 1 π bond.\n> \n> A triple bond adds 2 π bonds.\n> \n> Count all σ bonds first, then count π bonds separately from any multiple bonds.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "4σ, 1π"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "5σ, 1π"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "5σ, 2π"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "6σ, 2π"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8b5YFsjqskvwQqHp",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_zftSvbWsVtYnTMRP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_txt4gPnzhw6M2BTz",
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Which compound has the highest boiling point?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- All four compounds have similar relative molecular masses (*M*<sub>r</sub> ≈ 58–60).\n- So, differences in boiling point are determined by the type of intermolecular forces present.\n- CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH has the highest boiling point due to **hydrogen bonding** between the O–H group and adjacent molecules.\n- Hydrogen bonds are stronger than all other intermolecular forces present in these compounds.\n\n**A** is incorrect as butane has only instantaneous dipole-induced dipole forces, which are weaker than hydrogen bonds.\n\n**B** is incorrect as 2-methylpropane also has only instantaneous dipole-induced dipole forces. Its branched structure further reduces intermolecular contact, giving a slightly lower boiling point than butane.\n\n**D** is incorrect as propanal has a polar C=O group, giving permanent dipole–dipole forces, but these are weaker than hydrogen bonds.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "(CH<sub>3</sub>)<sub>3</sub>CH"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CHO"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XygrYpH2FxKGyHn9",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_J6BJTWHRkGH6dCq9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kXRXDrTrjgyqkQnj",
+      "spcpt_45K6F3xzDKJt8C25"
+     ],
+     "part_tier": null,
+     "problem_md": "Which bond is the most polar?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Bond polarity depends on the **difference in electronegativity** between the two bonded atoms.\n- Electronegativity increases across a period; the greater the separation in group number, the larger the difference.\n- In the Si–Cl bond, silicon is in Group 14 and chlorine is in Group 17.\n\n  - This is a separation of three groups across Period 3.\n- The other three bonds are all between elements in adjacent groups.\n\n  - So, their electronegativity differences are much smaller.\n- Therefore, Si–Cl therefore has the largest electronegativity difference and is the most polar bond.\n\n**A** is incorrect as C and N are adjacent elements in Period 2 (Groups 14 and 15), so the electronegativity difference is small.\n\n**B** is incorrect as N and O are adjacent elements in Period 2 (Groups 15 and 16), giving a similarly small electronegativity difference.\n\n**C** is incorrect as P and S are adjacent elements in Period 3 (Groups 15 and 16), so the electronegativity difference is also small.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "C–N"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "N–O"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "P–S"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Si–Cl"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TvvP6y2tMCjXjKcj",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jFqRjZjNSS4tXd9w",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tCRzWvJsYwc8Wf2y"
+     ],
+     "part_tier": null,
+     "problem_md": "Which bond is the shortest?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Bond length is determined by bond order and atomic radius.\n\n  - A higher bond order and smaller atomic radius both result in a shorter bond.\n\n- Nitrogen gas, N<sub>2</sub>, contains a triple bond (bond order 3).\n\n  - Nitrogen (Group 15) has a greater nuclear charge and smaller atomic radius than carbon (Group 14).\n  - So, the N≡N bond is shorter than the C≡C bond in ethyne.\n\n**A** is incorrect as ethyne, C<sub>2</sub>H<sub>2</sub>, also contains a triple bond (bond order 3), but carbon atoms have a larger atomic radius than nitrogen atoms. Therefore the C≡C bond is longer than the N≡N bond.\n\n**C** is incorrect as oxygen gas, O<sub>2</sub>, contains a double bond (bond order 2). Double bonds have fewer shared electrons than triple bonds, resulting in a weaker electrostatic attraction between the nuclei and the shared electrons, and therefore a longer bond.\n\n**D** is incorrect as ozone, O<sub>3</sub>, has a delocalised π electron system across its three oxygen atoms. The O–O bonds have an average bond order of 1.5, which is lower than the double bond in O<sub>2</sub>, making the bonds in ozone longer than those in oxygen gas.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the carbon-carbon bond in ethyne, C<sub>2</sub>H<sub>2</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "the nitrogen-nitrogen bond in nitrogen, N<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the oxygen-oxygen bond in oxygen, O<sub>2</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the oxygen-oxygen bond in ozone, O<sub>3</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PGMj3mwfQB4y5BjY",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dm6mPXbgFPptqb5F",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement describes the bonding within a carbonate ion, CO<sub>3</sub><sup>2–</sup>?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The bonding within the carbonate ion consists of covalent bonds between the carbon atom and the oxygen atoms.\n- A covalent bond is defined as the strong electrostatic attraction between shared pairs of electrons and the positively charged nuclei of the bonded atoms.\n\n**A** is incorrect as the separate carbonate ions, CO<sub>3</sub><sup>2–</sup>, both carry a negative charge. Electrostatic attraction cannot occur between two negatively charged species. Also, this describes an interaction between ions, not the bonding within the ion itself.\n\n**C** is incorrect as instantaneous dipole-induced dipole forces are weak intermolecular forces acting between separate molecules, not the intramolecular covalent bonds holding atoms together within an ion.\n\n**D** is incorrect as permanent dipole–permanent dipole forces are intermolecular forces acting between separate polar molecules, not the intramolecular covalent bonds within a polyatomic ion.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "electrostatic attraction between separate carbonate ions"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "electrostatic attraction between shared pairs of electrons and positively charged nuclei"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "instantaneous dipole-induced dipole forces"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "permanent dipole–permanent dipole forces"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PF48YWVSG7SC4JrY",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cbGtpp6c6zYkrkyy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NbtHdZ2KrTzhrkdg"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of the NO<sub>2</sub> molecule is shown below.\n\n![Skeletal formula of the NO2- ion, showing a central nitrogen double-bonded to one oxygen and single-bonded to another negatively charged oxygen](assets/002-skeletal-formula-of-the-no2-ion-showing-a-centra.png)\n\nWhich compound has the same hybridisation of carbon atoms as the nitrogen atom in NO<sub>2</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The nitrogen atom in NO<sub>2</sub> has three electron domains:\n\n  - One double bond to oxygen.\n  - One single bond to oxygen.\n  - One unpaired electron.\n- To accommodate three regions of electron density, the nitrogen atom is sp<sup>2</sup> hybridised, giving a bent (V-shaped) geometry with a bond angle of approximately 134°.\n\n- Ethene, C<sub>2</sub>H<sub>4</sub>, contains:\n\n  - A C=C double bond.\n  - Each carbon atom forms three σ bonds (two C–H and one C–C) and has no lone pairs, giving three electron domains and sp<sup>2</sup> hybridisation.\n\n![Structural formula of the NO2- radical, showing a central positively charged nitrogen bonded to two oxygen atoms, one with a negative charge](assets/003-structural-formula-of-the-no2-radical-showing-a-.webp)\n\n**B** is incorrect as ethyne, C<sub>2</sub>H<sub>2</sub>, contains a C≡C triple bond. Each carbon atom forms only two σ bonds and has two electron domains, so it is sp hybridised (linear, 180°).\n\n**C** is incorrect as methane, CH<sub>4</sub>, contains only single bonds. The carbon atom forms four σ bonds and has four electron domains, so it is sp<sup>3</sup> hybridised (tetrahedral, 109.5°).\n\n**D** is incorrect as propane, CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub>, is an alkane containing only single bonds. All carbon atoms form four σ bonds and are sp<sup>3</sup> hybridised.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "ethene"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "ethyne"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "methane"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "propane"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Z5gF76g7B2MnKpvC",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YfBhW9fdMKNBtkpv",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WfbwJkmCX7gyZZqb",
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "“The bond **X** between the hydrogen and halogen atoms in HBr is **Y** than in HI.”\n\nWhich row does **not** correctly complete the sentence?\n\n|   | **X** | **Y** |\n|---|---|---|\n| **A** | length | shorter |\n| **B** | energy | greater |\n| **C** | angle | smaller |\n| **D** | polarity | greater |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Diatomic molecules like HBr and HI consist of only two atoms.\n- A bond angle requires at least three atoms to be defined.\n- Therefore, neither molecule has a bond angle, making this row an impossible and incorrect completion of the sentence.\n\n**A** is incorrect as the H–Br bond is shorter than the H–I bond; bromine is in a lower period than iodine and has fewer electron shells, giving a smaller atomic radius and a shorter bond length. The statement is TRUE and so this is not the answer.\n\n**B** is incorrect as the shorter H–Br bond has a greater bond energy than the longer H–I bond. A shorter, stronger bond requires more energy to break. The statement is TRUE and so this is not the answer.\n\n**D** is incorrect as bromine (Group 17) is more electronegative than iodine. The greater electronegativity difference in HBr creates a larger permanent dipole and greater bond polarity compared with HI. The statement is TRUE and so this is not the answer.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wgbkvHQ6dz28Nqr5",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2d3hqpCthyrGvmGx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WfbwJkmCX7gyZZqb",
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "Which diagrams correctly illustrate the formation of a σ bond and a π bond from the overlap of atomic orbitals?\n\n![Table of diagrams comparing σ and π molecular orbital overlaps for A–D, showing combinations of s and p orbitals with bonding and antibonding shapes.](assets/004-table-of-diagrams-comparing-and-molecular-orbita.jpg)",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A sigma (σ) bond is formed by the direct, head-on overlap of atomic orbitals; this can be two s orbitals, an s and a p orbital, or two p orbitals meeting end-on.\n\n- A pi (π) bond is formed by the sideways (lateral) overlap of two adjacent, parallel p orbitals, producing electron density above and below the internuclear axis.\n\n![Diagram of s and p atomic orbitals: a spherical s orbital and three dumbbell-shaped p orbitals (px, py, pz) aligned along x, y and z axes.](assets/005-diagram-of-s-and-p-atomic-orbitals-a-spherical-s.png)\n\n- Diagram B correctly shows two p orbitals overlapping head-on to form a σ bond, and two p orbitals overlapping sideways to form a π bond.\n\n**A** is incorrect as the diagram for the π bond shows an s orbital overlapping sideways with a p orbital; s orbitals are spherical and cannot form the above-and-below electron density required for a π bond.\n\n**C** is incorrect as the π bond diagram does not show the sideways overlap of two adjacent p orbitals.\n\n**D** is incorrect as the σ bond diagram does not show the correct head-on overlap of atomic orbitals.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sTbFJwqYbrfBTrjj",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XDn67v9YC956yh7X",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NbtHdZ2KrTzhrkdg"
+     ],
+     "part_tier": null,
+     "problem_md": "Which bond is formed by the end-on overlap of atomic orbitals?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A sigma (σ) bond is formed by the direct, end-on (head-on) overlap of atomic orbitals along the internuclear axis between the bonding atoms.\n\n**A** is incorrect as ionic bonds are formed by the strong electrostatic attraction between oppositely charged ions. They do not involve the overlap of atomic orbitals.\n\n**B** is incorrect as metallic bonds are formed by the electrostatic attraction between positive metal ions and a sea of delocalised electrons. They do not involve the directional end-on overlap of atomic orbitals.\n\n**C** is incorrect as pi (π) bonds are formed by the sideways (lateral) overlap of adjacent p orbitals, not by end-on overlap.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "ionic bond"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "metallic bond"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "pi (π) bond"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "sigma (σ) bond"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HFkCg9xPhPk9Kx6n",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_nShq3SwNq8Kq2wnt",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WfbwJkmCX7gyZZqb",
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "Phosphine, PH<sub>3</sub>, can react with a hydrogen ion, H<sup>+</sup>, to form the phosphonium ion.\n\nWhich type of bond is formed in this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- A co-ordinate (dative covalent) bond is a covalent bond in which both shared electrons are provided by the same atom.\n- The H<sup>+</sup> ion has an empty 1s orbital.\n- The lone pair on the phosphorus atom in PH<sub>3</sub> is donated to the H<sup>+</sup> ion, forming a co-ordinate bond and creating the PH<sub>4</sub><sup>+</sup> ion.\n\n![Diagram of phosphine showing a lone pair on phosphorus reacting with H⁺ to form the tetrahedral phosphonium ion, [PH₄]⁺, labelled throughout](assets/006-diagram-of-phosphine-showing-a-lone-pair-on-phos.jpg)\n\n**B** is incorrect as dipole-dipole forces are intermolecular forces of attraction between polar molecules, not an intramolecular bond formed during a chemical reaction.\n\n**C** is incorrect as hydrogen bonds only form when hydrogen is covalently bonded to nitrogen, oxygen, or fluorine. Phosphorus is not electronegative enough to form hydrogen bonds. Also, hydrogen bonding is an intermolecular force, not the bond formed in this reaction.\n\n**D** is incorrect as ionic bonding is the strong electrostatic attraction between oppositely charged ions.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "co-ordinate (dative covalent) bond"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "dipole-dipole forces"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "hydrogen bond"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "ionic bond"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gQKnbpFVMjvchjrn",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dk5V9XZybNgQcpQN",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WfbwJkmCX7gyZZqb",
+      "spcpt_G57NmSHkVfNqRmDK",
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "Which feature is **not** present in a nitrogen molecule, N<sub>2</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A nitrogen molecule contains a triple covalent bond.\n- A triple bond consists of exactly one sigma (σ) bond and two pi (π) bonds.\n\n  - σ bonds are formed by the end-on overlap of atomic orbitals.\n  - π bonds are formed by the sideways (lateral) overlap of adjacent p orbitals.\n- Therefore, three π bonds are not present in N<sub>2</sub>.\n\n**A** is incorrect as the triple bond in N<sub>2</sub> does contain exactly one σ bond. The statement is TRUE and so this is not the answer.\n\n**C** is incorrect as the triple bond in N<sub>2</sub> consists of three shared pairs of electrons (six electrons total). The statement is TRUE and so this is not the answer.\n\n**D** is incorrect as nitrogen has five valence electrons. Three are used in the triple bond, leaving one lone pair on each nitrogen atom (two lone pairs in the molecule). The statement is TRUE and so this is not the answer.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "one σ bond"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "three π bonds"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "three shared pairs of electrons"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "two lone pairs of electrons"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fRTQqHkK7TQNxgFd",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_44NNmV62J7F8S5VC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WfbwJkmCX7gyZZqb"
+     ],
+     "part_tier": null,
+     "problem_md": "Which species contains a co-ordinate (dative covalent) bond?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The ammonium ion, NH<sub>4</sub><sup>+</sup>, is formed when ammonia, NH<sub>3</sub>, reacts with a hydrogen ion, H<sup>+</sup>.\n\n- The nitrogen atom in NH<sub>3</sub> has a lone pair of electrons.\n- The H<sup>+</sup> ion has an empty 1s orbital.\n- The lone pair on nitrogen is donated to the H<sup>+</sup> ion to form a co-ordinate (dative covalent) bond, creating the NH<sub>4</sub><sup>+</sup> ion.\n\n![Diagram of ammonia reacting with a proton to form ammonium, showing lone pair on nitrogen accepting H⁺ to give tetrahedral NH₄⁺ ion](assets/007-diagram-of-ammonia-reacting-with-a-proton-to-for.jpg)\n\n**A** is incorrect as the cyanide ion, CN<sup>–</sup>, contains a standard covalent triple bond between carbon and nitrogen. The negative charge means carbon effectively has 5 valence electrons (isoelectronic with nitrogen). So, both atoms share three electrons in a normal triple bond and no co-ordinate bond is present.\n\n**B** is incorrect as nitrogen gas, N<sub>2</sub>, contains a triple covalent bond in which each nitrogen atom shares three of its five valence electrons. The remaining two electrons form a lone pair on each nitrogen atom.\n\n**C** is incorrect as ammonia, NH<sub>3</sub>, contains three standard single covalent bonds. The lone pair on the nitrogen atom is present but is not donated within the NH<sub>3</sub> molecule itself.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CN<sup>–</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "N<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "NH<sub>3</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "NH<sub>4</sub><sup>+</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_b3wf8YwkSKhjBtNt",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_9Grsp4qJRSgWfjft",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tCRzWvJsYwc8Wf2y"
+     ],
+     "part_tier": null,
+     "problem_md": "The bond length in an O<sub>2</sub> molecule is 0.121 nm and the bond length in an N<sub>2</sub> molecule is 0.109 nm.\n\nWhich statement explains why the bond in N<sub>2</sub> is shorter than the bond in O<sub>2</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- An O<sub>2</sub> molecule contains a double bond (4 shared electrons, bond order 2).\n- An N<sub>2</sub> molecule contains a triple bond (6 shared electrons, bond order 3)v\n- The greater number of shared electrons in the N<sub>2</sub> triple bond creates a stronger electrostatic attraction between the shared electrons and the two nitrogen nuclei.\n\n  - This pulls the atoms closer together and results in a shorter bond length.\n\n**A** is incorrect as nitrogen (Group 15) actually has a larger atomic radius than oxygen (Group 16). Both are in Period 2, but oxygen has a greater nuclear charge (8 protons vs 7 protons), which pulls its outer electrons closer to the nucleus. A larger atomic radius would tend to increase bond length.\n\n**B** is incorrect as it is true that oxygen is more electronegative than nitrogen. However, higher electronegativity tends to shorten bonds, not lengthen them. The fact that N<sub>2</sub> is shorter than O<sub>2</sub> demonstrates that bond order overrides electronegativity in this comparison.\n\n**C** is incorrect as the O–O double bond in O<sub>2</sub> is not stronger than the N≡N triple bond. The triple bond (bond order 3) is stronger than the double bond (bond order 2).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Nitrogen has a smaller atomic radius."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Oxygen atoms are more electronegative."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Oxygen bond is stronger."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The bond in an N<sub>2</sub> molecule contains more shared electrons."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

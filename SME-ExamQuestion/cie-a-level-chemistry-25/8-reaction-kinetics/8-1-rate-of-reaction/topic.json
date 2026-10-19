@@ -1,0 +1,583 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:55:29Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "8-reaction-kinetics",
+  "name": "8. Reaction Kinetics"
+ },
+ "topic": {
+  "id": "top_Rg9CNKWthjzCfHXJ",
+  "slug": "8-1-rate-of-reaction",
+  "name": "Rate of Reaction",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "rate-of-reaction-and-collision-theory",
+   "name": "Rate of Reaction & Collision Theory",
+   "revision_note_id": "rn_sX8FgwgFzNxFg3rF"
+  },
+  {
+   "slug": "rate-of-reaction-calculations",
+   "name": "Rate of Reaction Calculations",
+   "revision_note_id": "rn_x4W2VMcCg5SjQ7Dp"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_bn9kx64dqHD2R4Yf",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/8-reaction-kinetics/8-1-rate-of-reaction/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q5hard.png": "001-graph-showing-volume-of-oxygen-on-y-axis-against.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q4hard.png": "002-graph-showing-mass-of-y-in-vapour-state-on-y-axi.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_ZRzNr33MCfmTyVhy",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_8CfsRvGftC988TFF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "Two experiments are carried out to measure the rate of reaction between solid calcium carbonate and dilute hydrochloric acid.\n\n**Experiment 1:** 1.5 g of CaCO<sub>3</sub> (s) is added to 100 cm<sup>3</sup> of 0.50 mol dm<sup>-3</sup> HCl (aq).\n\n**Experiment 2:** 1.5 g of CaCO<sub>3</sub> (s) is added to a mixture of 100 cm<sup>3</sup> of 0.50 mol dm<sup>-3</sup> HCl (aq) and 100 cm<sup>3</sup> of distilled water.\n\nThe initial rate of Experiment 1 is higher than the initial rate of Experiment 2.\n\nWhich row explains the difference in the initial rate when water is added?\n\n|   | frequency of collisions between reacting particles | proportion of effective collisions | activation energy |\n|---|---|---|---|\n| **A** | decreases | decreases | remains constant |\n| **B** | decreases | remains constant | remains constant |\n| **C** | decreases | remains constant | increases |\n| **D** | remains constant | decreases | increases |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Adding 100 cm<sup>3</sup> of distilled water doubles the total volume, halving the concentration of H<sup>+</sup> ions.\n- The reacting particles are further apart and collide less frequently, so the frequency of collisions decreases.\n- The proportion of effective collisions depends on the Maxwell-Boltzmann distribution.\n- Since temperature is unchanged, the proportion of particles with sufficient energy to react remains constant.\n- The activation energy is a fixed constant for a given reaction and is unaffected by adding water.\n\n**A** is incorrect as adding water at constant temperature does not affect the energy distribution of particles. The proportion of effective collisions remains constant, not decreases.\n\n**C** is incorrect as the activation energy does not increase when water is added; only a catalyst alters the activation energy.\n\n**D** is incorrect as collision frequency does decrease when water is added, because the concentration of reacting particles is reduced.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wxcr3CdcF52zktk7",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6x32KQZTBg8JGCwh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "The pressure of a fixed mass of gaseous reactants is increased at constant temperature.\n\nWhich of the following is the reason for the resulting increase in the rate of reaction?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Increasing the pressure of a fixed mass of gas forces the same number of molecules into a smaller volume.\n- The molecules are closer together and therefore collide more frequently.\n- The increased collision frequency raises the rate of reaction.\n\n**A** is incorrect as the activation energy is a fixed constant for a given reaction and is only lowered by a catalyst.\n\n**B** is incorrect as average kinetic energy is directly proportional to absolute temperature. Because the temperature is constant, the average kinetic energy of the molecules does not change.\n\n**D** is incorrect as the proportion of molecules with energy greater than or equal to the activation energy depends on the Maxwell-Boltzmann distribution, which is determined by temperature. At constant temperature, this proportion remains unchanged.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the activation energy of the reaction decreases"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the average kinetic energy of the molecules increases"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "the frequency of collisions between molecules increases"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the proportion of molecules with energy greater than or equal to the activation energy increases"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VW2M2Nm77XZzcrsv",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_x8hdYYBhyFCzPX2J",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt",
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "Curve 1 shows the volume of oxygen produced over time during the decomposition of 100 cm<sup>3</sup> of 1.0 mol dm<sup>-3</sup> hydrogen peroxide in the presence of a manganese(IV) oxide catalyst.\n\n![Graph showing volume of oxygen on y-axis against time on x-axis. Curve 1 has a steeper initial gradient and reaches a lower final plateau. Curve 2 has a shallower initial gradient and reaches a higher final plateau.](assets/001-graph-showing-volume-of-oxygen-on-y-axis-against.png)\n\nWhich change to the experiment produces curve 2?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Curve 2 has a shallower initial gradient (slower initial rate) but reaches a higher final plateau (greater total volume of oxygen).\n- Adding 0.1 mol dm<sup>-3</sup> H<sub>2</sub>O<sub>2</sub> to the original 1.0 mol dm<sup>-3</sup> solution dilutes the mixture, lowering the initial concentration and reducing the initial rate.\n\n  - This produces the shallower gradient.\n- Adding more H<sub>2</sub>O<sub>2</sub> also increases the total moles present, so more oxygen is produced overall.\n\n  - This produces the higher final plateau.\n\n**A** is incorrect as raising the temperature increases the rate of reaction, giving a steeper initial gradient, not a shallower one. The total moles of H<sub>2</sub>O<sub>2</sub> are unchanged, so the final plateau is the same as curve 1.\n\n**B** is incorrect as adding more catalyst increases the rate of reaction, giving a steeper initial gradient. A catalyst does not change the total yield of oxygen, so the final plateau is the same as curve 1.\n\n**C** is incorrect as adding water dilutes the H<sub>2</sub>O<sub>2</sub>, which does produce a shallower initial gradient. However, adding water does not change the total moles of H<sub>2</sub>O<sub>2</sub> present, so the final plateau is the same as curve 1, not higher.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "raising the temperature"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "adding more manganese(IV) oxide catalyst"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "adding water"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "adding some 0.1 mol dm<sup>-3</sup> hydrogen peroxide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rkWy3MwYGDppmJqJ",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7Q3TmKYFtMVr6pd6",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "A quantity of solid *Y* was placed in a previously evacuated vessel, and the apparatus was then held at a series of different temperatures. At each temperature, the mass of *Y* in the vapour state was calculated from pressure measurements. The results are shown below.\n\n![Graph showing mass of Y in vapour state on y-axis against temperature on x-axis. The mass increases with temperature up to a plateau at value m, which is first reached at temperature T. The mass remains constant above T.](assets/002-graph-showing-mass-of-y-in-vapour-state-on-y-axi.png)\n\nWhat can be deduced from the diagram?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The mass of vapour increases with temperature until it reaches a maximum of m at temperature T, after which it does not change.\n- This plateau indicates that all of the solid has vaporised at temperature T.\n- The entire sample is in the vapour state, so the initial mass of solid Y placed in the vessel must have been m.\n\n**A** is incorrect as temperature T represents the point where the last solid has vaporised, not where liquid appears. As temperature rises beyond T, Y remains in the vapour state.\n\n**C** is incorrect as above temperature T, the number of moles of gas (n) and the volume (V) are both constant, but the temperature (T) continues to rise. By the ideal gas equation, pV = nRT, the pressure is directly proportional to absolute temperature and therefore continues to increase.\n\n**D** is incorrect as the experiment is carried out in a closed vessel. The volume of the vessel is fixed, so the gas cannot expand.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "liquid appears at temperature T"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "the initial mass of solid Y placed in the vessel is m"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the pressure of the vapour remains constant at temperatures above T"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the volume of the vapour increases at temperatures above T"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qS58hhGMNhS2p3zv",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Phdt56HXFQXZgsxG",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for a reaction is shown.\n\nNaOH (aq) + HCl (aq) → NaCl (aq) + H<sub>2</sub>O (l)\n\nWhich species could be monitored over time to determine the rate of this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The rate of reaction can be measured by monitoring the change in concentration of a reactant or product over time.\n- The net ionic equation is:\n\nH<sup>+</sup> (aq) + OH<sup>-</sup> (aq) → H<sub>2</sub>O (l)\n\n- Hydrogen ions are consumed as the reaction proceeds, so their concentration decreases measurably over time.\n- This change can be monitored using a pH meter.\n\n**B** and **C** are incorrect as Cl<sup>-</sup> and Na<sup>+</sup> are spectator ions. They do not participate in the chemical reaction, so their concentrations do not change from start to finish. It is not possible to determine the rate of reaction by monitoring them.\n\n**D** is incorrect as water is the solvent. Its concentration is approximately 55.5 mol dm<sup>-3</sup>, so the small amount produced during the reaction causes a negligible percentage change. This cannot be used to calculate the rate of reaction accurately.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "H<sup>+</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Cl<sup>-</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Na<sup>+</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "H<sub>2</sub>O"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pdr8RVRq66yjhVMY",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gbHthwg5NrhnZ9VB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following is the main reason for the increase in the rate of a reaction when the temperature increases?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- At higher temperature, the Maxwell-Boltzmann distribution shifts to higher energies.\n- A greater proportion of molecules have energy greater than or equal to the activation energy, so a greater proportion of collisions are effective and the rate increases.\n\n**A** and **B** are incorrect as the activation energy is a fixed constant for a given reaction pathway and does not change with temperature.\n\n**C** is incorrect as the increase in collision frequency at higher temperature is relatively small. The main reason for the rate increase is the much larger increase in the proportion of molecules with energy greater than or equal to the activation energy.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the activation energy of the reaction decreases"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the activation energy of the reaction increases"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the frequency of collisions between molecules increases"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "more molecules have energy greater than or equal to the activation energy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jdymd8VFntM3hZvv",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dq3d8FBgW6NCFnbs",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen gas reacts with bromine gas.\n\nWhich row explains why the rate of reaction is higher at 500 K than at 400 K?\n\n|   | collision frequency | proportion of effective collisions | activation energy |\n|---|---|---|---|\n| **A** | increases | increases | decreases |\n| **B** | increases | increases | remains constant |\n| **C** | increases | remains constant | decreases |\n| **D** | remains constant | increases | remains constant |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- At higher temperature, molecules move faster, so they collide more frequently.\n\n- A greater proportion of molecules have energy greater than or equal to the activation energy at higher temperature, so the proportion of effective collisions increases.\n\n- The activation energy is a fixed property of the reaction pathway and is unaffected by temperature.\n\n**A** is incorrect as the activation energy does not decrease when temperature increases; only a catalyst can lower the activation energy.\n\n**C** is incorrect as the proportion of effective collisions increases with temperature, not remains constant.\n\n**D** is incorrect as collision frequency increases with temperature due to molecules moving faster.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_J8SyWVxFgPhFrYTT",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_X9PsS6dfzsS2YWzr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "Two experiments are carried out to measure the rate of reaction between solid calcium carbonate and dilute hydrochloric acid.\n\n**Experiment 1:** 1.5 g of CaCO<sub>3</sub> (s) is added to 100 cm<sup>3</sup> of 0.50 mol dm<sup>-3</sup> HCl (aq).\n\n**Experiment 2:** 1.5 g of CaCO<sub>3</sub> (s) is added to a mixture of 100 cm<sup>3</sup> of 0.50 mol dm<sup>-3</sup> HCl (aq) and 100 cm<sup>3</sup> of distilled water.\n\nThe initial rate of reaction in Experiment 1 is higher than the initial rate in Experiment 2.\n\nWhich statement explains this?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Adding 100 cm<sup>3</sup> of distilled water doubles the total volume of the solution, which halves the concentration of the H<sup>+</sup> ions.\n\n- Since there are fewer reacting particles per unit volume, they are further apart and collide with the solid calcium carbonate surface less frequently. This reduces the rate of reaction.\n\n**A** is incorrect as the proportion of particles with energy greater than or equal to the activation energy depends on temperature, not concentration. At constant temperature, this proportion is unchanged.\n\n**B** is incorrect as the effectiveness of a collision depends on the orientation and energy of the colliding particles, not on their concentration. Adding water does not alter the proportion of effective collisions.\n\n**C** is incorrect as the activation energy is a fixed constant for a given reaction and is unaffected by adding water.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "adding water decreases the proportion of reacting particles with energy greater than or equal to the activation energy"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "adding water decreases the proportion of effective collisions between reacting particles"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "adding water increases the activation energy of the reaction"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "adding water reduces the frequency of collisions between reacting particles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HKJVTJhM6QpmySmk",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_rNzWRkpkVDPBSY2Q",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "The rate of a reaction roughly doubles when the temperature is increased from 40 °C to 50 °C.\n\nWhich statement explains this?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- A small increase in temperature causes a disproportionately large increase in the number of molecules with energy greater than or equal to the activation energy.\n\n- This is because the Maxwell-Boltzmann distribution is exponential near the activation energy.\n\n- A small rightward shift in the curve produces a large increase in the area under the curve beyond the activation energy threshold.\n\n**A** and **B** are incorrect as although average kinetic energy and molecular velocity do increase with temperature, these increases are much smaller in magnitude than the increase in the number of molecules with energy greater than or equal to the activation energy.\n\n**C** is incorrect as although collision frequency does increase with temperature, this increase is also much smaller in magnitude than the increase in the number of molecules with energy greater than or equal to the activation energy.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the average kinetic energy of each molecule doubles"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the average velocity of the molecules doubles"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the frequency of molecular collisions doubles"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "the number of molecules with energy greater than or equal to the activation energy doubles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gGNZMFgTyyJW8ngK",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_8z69q8MwPZ8jmmQd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "When 1 cm<sup>3</sup> of 0.1 mol dm<sup>-3</sup> HCl (aq) is added to 10 cm<sup>3</sup> of 0.02 mol dm<sup>-3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> (aq), a pale yellow precipitate forms slowly.\n\nWhen the experiment is repeated using 10 cm<sup>3</sup> of 0.05 mol dm<sup>-3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> (aq), the precipitate forms more quickly.\n\nWhich statement explains this observation?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Using 0.05 mol dm<sup>-3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> instead of 0.02 mol dm<sup>-3</sup> increases the concentration of thiosulfate ions.\n- A higher concentration means more reacting particles per unit volume.\n- The particles are closer together and collide more frequently, increasing the rate of reaction.\n\n**B** is incorrect as concentration does not change the average energy of collisions. Only a change in temperature would increase the energy of the colliding particles.\n\n**C** is incorrect as the activation energy is a fixed constant for a given reaction. Changing the concentration does not alter the activation energy; only a catalyst can do this.\n\n**D** is incorrect as the proportion of particles with energy greater than or equal to the activation energy depends on temperature, not concentration. At constant temperature, this proportion is unchanged.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "the reacting particles collide more frequently"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "the collisions between reacting particles are more energetic"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the activation energy of the reaction is lower"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the proportion of particles with energy greater than or equal to the activation energy increases"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

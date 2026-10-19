@@ -1,0 +1,693 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T01:47:41Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "a-level",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_z95CDJVQ5kWGwYjT",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) A Level Chemistry"
+ },
+ "section": {
+  "slug": "2-atoms-molecules-and-stoichiometry",
+  "name": "2. Atoms, Molecules & Stoichiometry"
+ },
+ "topic": {
+  "id": "top_wRkqHNNB9snb8Sgp",
+  "slug": "2-2-the-mole-and-the-avogadro-constant",
+  "name": "The Mole & the Avogadro Constant",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "the-mole-and-the-avogadro-constant",
+   "name": "The Mole & the Avogadro Constant",
+   "revision_note_id": "rn_7jtb327g4ZPGh2KY"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_ZKY25BCscVFjHtzX",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-2-the-mole-and-the-avogadro-constant/multiple-choice-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_nSwXFBxnhPYRhfSv",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WjkvzXSpyR5KSXJt",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "When heated, calcium nitrate, Ca(NO<sub>3</sub>)<sub>2</sub>, will decompose to a white solid and a mixture of gases. One of the gases released is an oxide of nitrogen,**Y**.\n\n8.2 g of anhydrous calcium nitrate is heated until no further reaction takes place.\n\nWhat is the mass of **Y** produced?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Write a balanced equation for the thermal decomposition of calcium nitrate and identify gas **Y**:\n\n2Ca(NO<sub>3</sub>)<sub>2</sub> (s) → 2CaO (s) + 4NO<sub>2</sub> (g) + O<sub>2</sub> (g)\n\n- Gas **Y** is nitrogen dioxide, NO<sub>2</sub>.\n- Calculate the molar mass of the reactant and of gas **Y**:\n\n*M*<sub>r</sub>[Ca(NO<sub>3</sub>)<sub>2</sub>] = 40.1 + 2[14.0 + 3 x 16.0] = 164.1 g mol<sup>-1</sup>\n\n*M*<sub>r</sub>[NO<sub>2</sub>] = 14.0 + 2 x 16.0 = 46.0 g mol<sup>-1</sup>\n\n- Calculate the number of moles of calcium nitrate:\n\n*n*(Ca(NO<sub>3</sub>)<sub>2</sub>) = $\\frac{\\mathrm{mass}}{M_{r}}$\n\n*n*(Ca(NO<sub>3</sub>)<sub>2</sub>) = $\\frac{8.2}{164.1}$\n\n*n*(Ca(NO<sub>3</sub>)<sub>2</sub>) = 0.050 mol\n\n- Use the stoichiometric ratio to find the moles of NO<sub>2</sub> produced:\n\n2 mol Ca(NO<sub>3</sub>)<sub>2</sub> produces 4 mol NO<sub>2</sub>, so the molar ratio is 1 : 2\n\n*n*(NO<sub>2</sub>) = 2 x 0.050 = 0.10 mol\n\n- Calculate the mass of gas **Y**:\n\nmass = *n* x *M*<sub>r</sub>\n\nmass = 0.10 x 46.0\n\nmass = 4.6 g\n\n**A** is incorrect as this uses a 1:1 molar ratio between Ca(NO<sub>3</sub>)<sub>2</sub> and NO<sub>2</sub> instead of the correct 1:2 ratio: 0.050 x 1 x 46.0 = 2.3 g.\n\n**B** is incorrect as this uses the molar mass of N<sub>2</sub> (28.0 g mol<sup>-1</sup>) instead of NO<sub>2</sub> (46.0 g mol<sup>-1</sup>) for gas **Y**: 0.10 x 28.0 = 2.8 g.\n\n**D** is incorrect as this applies a 4:1 molar ratio (n(NO<sub>2</sub>) = 4 x n(Ca(NO<sub>3</sub>)<sub>2</sub>)) rather than the correct 1:2 ratio: 0.050 x 4 x 46.0 = 9.2 g.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2.3 g"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "2.8 g"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "4.6 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "9.2 g"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{8.2}{164.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>164</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{8.2}{164.1}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VsFjSRTmsQ7PVjrC",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_sNjN6YX3YVXwydVS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "Which mass of substance contains the greatest number of atoms?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- **A**, 3.00 g of ammonia:\n- Calculate the number of *M*<sub>r</sub>:\n\n14.0 + (3 x 1.0) = 17.0\n\n- Calculate the number of moles:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{3.00}{17.0}$\n\nmoles = 0.18 mol\n\n- Calculate the number of moles of atoms:\n\n0.18 x 4 = 0.72 mol of atoms\n\n- **B**, 3.00 g of chloromethane:\n\n*M*<sub>r</sub> = 12.0 + (3 x 1.0) + 35.5 = 50.5\n\nmoles = $\\frac{3.00}{50.5}$ = 0.059 mol\n\n0.059 x 5 = 0.30 mol of atoms\n\n- **C**, 4.00 g of hydrogen sulfide:\n\n*M*<sub>r</sub> = (2 x 1.0) + 32.1 = 34.1\n\nmoles= $\\frac{4.00}{34.1}$ = 0.12 mol\n\n0.12 x 3 = 0.36 mol of atoms\n\n- **D**, 4.00 g of hydrogen chloride:\n\n*M*<sub>r</sub> = 1.0 + 35.5 = 36.5\n\nmoles= $\\frac{4.00}{36.5}$ = 0.11 mol\n\n0.11 x 2 = 0.22 mol of atoms\n\n- Option **A** contains the greatest number of moles of atoms and, therefore, the greatest number of atoms.\n\n**B**, **C** & **D** are incorrect as they do not contain the greatest number of moles of atoms.\n\n> **[exam-tip]**\n> There is no need to use the Avogadro constant to answer this question. The option with the greatest number of moles of atoms has the greatest number of atoms, so comparing moles directly is sufficient.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "3.00 g of ammonia"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3.00 g of chloromethane"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "4.00 g of hydrogen sulfide"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4.00 g of hydrogen chloride"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{3.00}{17.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>17</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.00}{17.0}"
+      },
+      {
+       "latex": "\\frac{3.00}{50.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>50</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.00}{50.5}"
+      },
+      {
+       "latex": "\\frac{4.00}{34.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>34</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.00}{34.1}"
+      },
+      {
+       "latex": "\\frac{4.00}{36.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>36</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.00}{36.5}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TGJsrffXwPdJd86G",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_vsXc8rnSDtdYVjY8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "Which substance has the greatest number of atoms?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Convert mass of CH<sub>4</sub> from kg to g:\n\n1.69 x 10<sup>-4</sup> x 1000 = 0.169 g\n\n- Calculate moles of CH<sub>4</sub>:\n\nmoles = $\\frac{0.169}{16.0}$ = 0.01056 mol\n\n- Calculate number of molecules of CH<sub>4</sub>:\n\n0.01056 x 6.02 x 10<sup>23</sup> = 6.36 x 10<sup>21</sup>\n\n- Calculate number of atoms:\n\n5 x 6.36 x 10<sup>21</sup> = **3.18 x 10**<sup>**22**</sup>\n\n**A** is incorrect as the number of atoms for chlorine is 1.92 x 10<sup>21</sup>.\n\n- Convert mass from mg to g: 113 mg / 1000 = 0.113 g\n- Calculate moles of chlorine: 0.113 / 71.0 = 0.00159 mol\n- Calculate molecules of chlorine: 0.00159 x 6.02 x 10<sup>23</sup> = 9.58 x 10<sup>20</sup> molecules\n- Calculate atoms of chlorine: 2 x 9.58 x 10<sup>20</sup> = 1.92 x 10<sup>21</sup> atoms\n\n**B** is incorrect as the number of atoms for sulfur is 2.48 x 10<sup>21</sup>.\n\n- Convert mass from kg to g: 1.32 x 10<sup>-4</sup> kg x 1000 = 0.132 g\n- Calculate moles of sulfur: 0.132 / 32.1 = 0.00411 mol\n- Calculate atoms of sulfur: 0.00411 x 6.02 x 10<sup>23</sup> = 2.48 x 10<sup>21</sup> atoms\n\n**C** is incorrect as the number of atoms of ammonia is 1.30 x 10<sup>22</sup>.\n\n- Convert mass from mg to g: 92 mg / 1000 = 0.092 g\n- Calculate moles of ammonia: 0.092 / 17.0 = 0.00541 mol\n- Calculate molecules of ammonia: 0.00541 x 6.02 x 10<sup>23</sup> = 3.26 x 10<sup>21</sup> molecules\n- Calculate atoms of ammonia: 4 x 3.26 x 10<sup>21</sup> = 1.30 x 10<sup>22</sup> atoms\n\n> **[exam-tip]**\n> Always convert units to grams before calculating moles:\n> \n> - mg → g: divide by 1000\n> - kg → g: multiply by 1000",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "113 mg of chlorine"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.32 × 10<sup>-4</sup> kg of sulfur"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "92.0 mg of ammonia"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "1.69 × 10<sup>−4</sup> kg of methane"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{0.169}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>169</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.169}{16.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SWmkP4vYYq8zScDm",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_St3XtJ89yqNvk6NF",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the number of molecules of nitrogen gas in 4.00 g?\n\n(the Avogadro constant *L* = 6.02 x 10<sup>23</sup>)",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Calculate the *M*<sub>r</sub> of N<sub>2</sub>:\n\n*M*<sub>r</sub> of N<sub>2</sub> = 14.0 x 2 = 28.0\n\n- Calculate the moles of N<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{4.00}{28.0}$\n\nmoles = 0.143 mol\n\n- Calculate the number of molecules:\n\n0.143 x 6.02 x 10<sup>23</sup> = **8.61 x 10**<sup>**22**</sup>\n\n**B** is incorrect as this shows a student mixing up the mole calculation, dividing *M*<sub>r</sub> by mass rather than mass by *M*<sub>r</sub>.\n\n**C** is incorrect as this is from calculating moles = mass x *M*<sub>r</sub> and multiplying by Avogadro's constant.\n\n**D** is incorrect as this is from using the relative atomic mass of nitrogen (14) rather than the relative formula mass of N<sub>2</sub> (28).\n\n> **[exam-tip]**\n> The question asks for the number of nitrogen molecules in 4.00 g, not atoms. Make sure you calculate the relative formula mass of N<sub>2</sub> (28.0), not the relative atomic mass of N (14.0).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "8.61 x 10<sup>22</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "4.21 x 10<sup>24</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "6.74 x 10<sup>25</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "1.72 x 10<sup>23</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{4.00}{28.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>28</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.00}{28.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_spSzTmMKbnpBsqjV",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dpkzwJGzBNcfJFGW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "Which sample contains the greatest number of molecules?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- 1 g of methanal contains:\n\n$\\frac{1}{30}$ = 0.0333 moles\n\n- 2 g of carbon dioxide contains:\n\n$\\frac{2}{44}$ = 0.04545 moles\n\n- 3 g of sulfur, S<sub>8</sub>, contains:\n\n$\\frac{3}{256.8}$ = 0.01168 moles\n\n- 4 g of bromine contains:\n\n$\\frac{4}{159.8}$ = 0.02503 moles\n\n- Therefore, the number of molecules in 2 g of carbon dioxide will be the highest as this contains the most moles.\n\n**A**, **C** & **D** are incorrect as these do not have the highest number of moles and therefore the greatest number of molecules.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1 g of methanal, CH<sub>2</sub>O"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "2 g of carbon dioxide, CO<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "3 g of sulfur, S<sub>8</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4 g of bromine, Br<sub>2</sub>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{1}{30}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac></math>",
+       "alt": "\\frac{1}{30}"
+      },
+      {
+       "latex": "\\frac{2}{44}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>44</mn></mfrac></math>",
+       "alt": "\\frac{2}{44}"
+      },
+      {
+       "latex": "\\frac{3}{256.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mrow><mn>256</mn><mo>.</mo><mn>8</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3}{256.8}"
+      },
+      {
+       "latex": "\\frac{4}{159.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mrow><mn>159</mn><mo>.</mo><mn>8</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4}{159.8}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RB3v2QG38n9Fcwt6",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2gNgVx2YB5tnjrmT",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "A gas cylinder for a portable heater contains 13 kg of butane.\n\nHow many butane molecules are in the gas cylinder?\n\nThe Avogadro’s constant,* L* = 6.022 x 10<sup>23</sup> mol<sup>-1</sup>",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Calculate the relative formula mass of butane:\n\nC<sub>4</sub>H<sub>10</sub> = 58.0\n\n- Calculate the moles of butane:\n\nmoles = $\\frac{13000}{58.0}$ = 224.14 mol\n\n- Calculate the number of molecules of butane:\n\n224.14 x 6.02 x 10<sup>23</sup> = **1.35 x 10**<sup>**26**</sup>\n\n**B** is incorrect as the mass has not been converted from kg to g: using 13 instead of 13 000 gives 13 / 58.0 x 6.02 x 10<sup>23</sup> = 1.35 x 10<sup>23</sup>.\n\n**C** is incorrect as C<sub>4</sub>H<sub>8</sub> was used to work out the relative formula mass instead of C<sub>4</sub>H<sub>10</sub> for butane.\n\n**D** is incorrect as the number of molecules of butane was divided by the Avogadro constant rather than multiplied.\n\n> **[exam-tip]**\n> Remember to convert kg to g when calculating the number of moles:\n> \n> 13 kg x 1000 = 13 000 g",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "1.35 x 10<sup>26</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.35 x 10<sup>23</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "1.40 x 10<sup>26</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3.72 x 10<sup>-22</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{13000}{58.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13000</mn><mrow><mn>58</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{13000}{58.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qypG32fhVPXV6ZZJ",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HrSmzzdSQyj92bFM",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "The mass of a coin is 20% nickel. The coin has a mass of 10.0 g.\n\nHow many nickel atoms are in the coin?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Find the mass of nickel in the coin:\n\n10.0 x 0.2 = 2.0 g\n\n- Find the moles of nickel:\n\nmoles = $\\frac{mass}{M_{r}}$\n\nmoles = $\\frac{2.0}{58.7}$\n\nmoles = 0.034 mol\n\n- Find the number of nickel atoms (*L* = 6.02 x 10<sup>23</sup> mol<sup>-1</sup>):\n\n0.034 x 6.02 x 10<sup>23</sup> =** **2.05 x 10<sup>22</sup>\n\n**A** is incorrect as this uses the atomic number of nickel (28) instead of the relative atomic mass (58.7): 2.0 / 28 x 6.02 x 10<sup>23</sup> = 4.30 x 10<sup>22</sup>.\n\n**B** is incorrect as this uses the total coin mass (10.0 g) rather than just the nickel content (2.0 g): 10.0 / 58.7 x 6.02 x 10<sup>23</sup> = 1.03 x 10<sup>23</sup>.\n\n**C** is incorrect as this uses the mass of nickel (2.0 g) directly as the number of moles without dividing by the molar mass: 2.0 x 6.02 x 10<sup>23</sup> = 1.20 x 10<sup>24</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "4.30 x 10<sup>22</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.03 x 10<sup>23</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "1.20 x 10<sup>24</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "2.05 x 10<sup>22</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{mass}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><msub><mi>M</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{mass}{M_r}"
+      },
+      {
+       "latex": "\\frac{2.0}{58.7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>58</mn><mo>.</mo><mn>7</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.0}{58.7}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KtvkHGZ5SH2w554V",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_SJD6wHmgM3N8qSxQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "A coin with a mass of 9.97 g contains 5.921% nickel by mass.\n\nHow many nickel atoms are in the coin?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Find the mass of nickel in the coin:\n\n9.97 x 0.05921 = 0.590 g\n\n- Find the moles of nickel:\n\nmoles = $\\frac{mass}{M_{r}}$\n\nmoles = $\\frac{0.590}{58.7}$\n\nmoles = 0.01 mol\n\n- Find the number of nickel atoms (*L* = 6.02 x 10<sup>23</sup> mol<sup>-1</sup>):\n\n0.01 x 6.02 x 10<sup>23</sup> = 6.02 x 10<sup>21</sup>\n\n**A** is incorrect as this uses the atomic number of nickel (28) instead of the relative atomic mass (58.7) in the moles calculation.\n\n**B** is incorrect as this does not correctly apply the percentage composition to find the mass of nickel in the coin before calculating moles.\n\n**C** is incorrect as this multiplies the mass by the molar mass rather than dividing to find the number of moles.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "4.30 x 10<sup>22</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3.01 x 10<sup>23</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "6.02 x 10<sup>25</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "6.02 x 10<sup>21</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{mass}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><msub><mi>M</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{mass}{M_r}"
+      },
+      {
+       "latex": "\\frac{0.590}{58.7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>590</mn></mrow><mrow><mn>58</mn><mo>.</mo><mn>7</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.590}{58.7}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9nwznv8hS4c6SxwD",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_25hTxD2rdNGQP4BB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the mass of 0.56 moles of potassium dichromate (VI), K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Calculate the relative formula mass of K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>:\n\n(2 x 39.1) + (2 x 52.0) + (7 x 16.0) = 294.2\n\n- Calculate the mass:\n\nmass = moles x *M*<sub>r</sub>\n\n= 0.56 x 294.2\n\n= **164.75 g**\n\n**A** is incorrect as this uses atomic numbers instead of relative atomic masses in the *M*<sub>r</sub> calculation.\n\n**C** is incorrect as this is from incorrectly dividing *M*<sub>r</sub> by moles to calculate mass.\n\n**D** is incorrect as this is from missing out one oxygen atom in the relative formula mass calculation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "79.52 g"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "164.75 g"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "525.36 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "155.79 g"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6fHCdJ5bmb59xyNV",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Gwz7Nq8dsj7HRzm6",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethane has the formula C<sub>2</sub>H<sub>6</sub>.\n\nWhat is the mass in grams of one molecule of ethane? (*A*<sub>r</sub>: C = 12.0; H = 1.0)\n\n(the Avogadro constant *L* = 6.02 x 10<sup>23</sup>)",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Calculate the relative formula mass of ethane:\n\n*M*<sub>r</sub> = (12.0 x 2) + (1.0 x 6) = 30.0\n\n- Divide by the Avogadro constant to find the mass of one molecule:\n\nmass of one molecule = $\\frac{30.0}{6.02\\times10^{23}}$\n\nmass of one molecule = **4.98 x 10**<sup>**-23**</sup> g\n\n**A** is incorrect as this multiplies the molar mass by the Avogadro constant rather than dividing, giving a very large number.\n\n**C** is incorrect as this is the relative formula mass of ethane, not the mass of one molecule.\n\n**D** is incorrect as this uses a relative formula mass of 18.0, meaning one carbon atom has been omitted from the calculation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1.81 x 10<sup>25</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "4.98 x 10<sup>-23</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "30.0"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3.00 x 10<sup>-23</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{30.0}{6.02\\times10^{23}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>6</mn><mo>.</mo><mn>02</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>23</mn></msup></mrow></mfrac></math>",
+       "alt": "\\frac{30.0}{6.02 \\times 10^{23}}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

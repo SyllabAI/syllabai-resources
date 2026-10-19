@@ -1,0 +1,1147 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-17T03:23:54Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "igcse",
+  "subject": "maths",
+  "exam_code": "0607",
+  "sme_course_id": "crs_g8pJFKBphPXptPQ4",
+  "syllabus_version": "2023",
+  "sme_alias_path": "international-maths/23/core",
+  "course_name": "Cambridge (CIE) IGCSE International Maths"
+ },
+ "section": {
+  "slug": "statistics",
+  "name": "Statistics"
+ },
+ "topic": {
+  "id": "top_XNRRQdPF5nvC3tcr",
+  "slug": "averages-ranges-and-comparing-data",
+  "name": "Averages, Ranges & Comparing Data",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "mean-median-and-mode",
+   "name": "Mean, Median & Mode",
+   "revision_note_id": "rn_NZwfv927gy35vn6z"
+  },
+  {
+   "slug": "range",
+   "name": "Range",
+   "revision_note_id": "rn_jdTfQ9bb2zhjBznM"
+  },
+  {
+   "slug": "quartiles-and-interquartile-range",
+   "name": "Quartiles & Interquartile Range",
+   "revision_note_id": "rn_x2qcS23X7yM2RBrq"
+  },
+  {
+   "slug": "averages-from-tables",
+   "name": "Averages from Tables",
+   "revision_note_id": "rn_k5XCppyPMJ9nr9Nd"
+  },
+  {
+   "slug": "using-calculators-to-find-averages",
+   "name": "Using Calculators to Find Averages",
+   "revision_note_id": "rn_TMdgSq74JqYvXgvs"
+  },
+  {
+   "slug": "comparing-data-sets",
+   "name": "Comparing Data Sets",
+   "revision_note_id": "rn_VcZ2gRQj4NKjJkfD"
+  },
+  {
+   "slug": "calculations-with-the-mean",
+   "name": "Calculations with the Mean",
+   "revision_note_id": "rn_gjGVXY2QJ2VZnM2k"
+  },
+  {
+   "slug": "discrete-and-continuous-data",
+   "name": "Discrete & Continuous Data",
+   "revision_note_id": "rn_hS6QJQVXmZNJ2Jt7"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_bC2DddHqjVqBK7FP",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 20,
+   "questions_embedded": 20,
+   "page_url": "https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/topic-questions/statistics/averages-ranges-and-comparing-data/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 20,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_3JSHH9FFR3vMgGD5",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_YnW5Z9BHhW9J5yZN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The midday temperature in degrees Celsius (°C) for a town is recorded for 12 days. The temperatures are listed below.\n\n$161819221822\\,252424211820$\n\nWrite down the mode.",
+     "solution_md": "> *The mode is the most common value*\n\n> *There are three days when the temperature at midday was 18*\n\n**Final answer:** **18 °C**\n\n**[B1]**\n\n> **[mark-scheme]**\n> Units are not required.",
+     "equations": [
+      {
+       "latex": "161819221822\\,252424211820",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>18</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>19</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>22</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>18</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>22</mn><mspace linebreak=\"newline\"/><mn>25</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>24</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>24</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>21</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>18</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "16 space space space 18 space space space 19 space space space 22 space space space 18 space space space 22\n25 space space space 24 space space space 24 space space space 21 space space space 18 space space space 20"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_CR7h8xj5GDrJKHDc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the median.",
+     "solution_md": "> *The median is the middle value*\n\n> *Write down the values in order*\n\n$16,18,18,18,19,20,20,22,22,24,24,25$\n\n> *Find the value in the middle, crossing off the numbers from each end can help*\n\n`up diagonal strike 16 comma space up diagonal strike 18 comma space up diagonal strike 18 comma space up diagonal strike 18 comma space up diagonal strike 19 comma space 20 comma space 21 comma space up diagonal strike 22 comma space up diagonal strike 22 comma space up diagonal strike 24 comma space up diagonal strike 24 comma space up diagonal strike 25`\n\n**[M1]**\n\n> *There are two numbers in the middle, the median will be in the middle of these two values*\n\n**Final answer:** **20.5 °C**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: 20 and 21 identified in some way. This mark is implied if correct final answer is found.\n> \n> **A1**: Correct final answer of 20.5 (units are not required for this mark).",
+     "equations": [
+      {
+       "latex": "16,18,18,18,19,20,20,22,22,24,24,25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo>,</mo><mo>&#160;</mo><mn>18</mn><mo>,</mo><mo>&#160;</mo><mn>18</mn><mo>,</mo><mo>&#160;</mo><mn>18</mn><mo>,</mo><mo>&#160;</mo><mn>19</mn><mo>,</mo><mo>&#160;</mo><mn>20</mn><mo>,</mo><mo>&#160;</mo><mn>20</mn><mo>,</mo><mo>&#160;</mo><mn>22</mn><mo>,</mo><mo>&#160;</mo><mn>22</mn><mo>,</mo><mo>&#160;</mo><mn>24</mn><mo>,</mo><mo>&#160;</mo><mn>24</mn><mo>,</mo><mo>&#160;</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "16 comma space 18 comma space 18 comma space 18 comma space 19 comma space 20 comma space 20 comma space 22 comma space 22 comma space 24 comma space 24 comma space 25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5HR6sh4B5rTVCt64",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ny7RBh9jHCS7yqG3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 21",
+      "number": "0607/11",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "This table shows the ages of 20 cars.\n\n| Age (years) | Frequency |\n|---|---|\n| 1 | 2 |\n| 2 | 7 |\n| 3 | 4 |\n| 4 | 3 |\n| 5 | 4 |\n\nWork out the range.\n\n........................................ years",
+     "solution_md": "> *Subtract the lowest age (1) from the greatest age (5)*\n\n*5-1*\n\n**4 ****[1]**"
+    },
+    {
+     "id": "qstnprt_MCfcn83pmDWx5SfN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| Age (years) | Frequency |\n| --- | --- |\n| 1 | 2 |\n| 2 | 7 |\n| 3 | 4 |\n| 4 | 3 |\n| 5 | 4 |\n\nWork out the mean age of the cars.\n\n........................................ years",
+     "solution_md": "> *Multiply each age by its frequency*\n\n| Age (years) | Frequency | Age $\\times$ frequency |\n|---|---|---|\n| 1 | 2 | $1\\times2=2$ |\n| 2 | 7 | $2\\times7=14$ |\n| 3 | 4 | $3\\times4=12$ |\n| 4 | 3 | $4\\times3=12$ |\n| 5 | 4 | $5\\times4=20$ |\n\n> *Add together the results*\n\n> *This gives us the total of all our data added together*\n\n$2+14+12+12+20=60$\n\n**[1]**\n\n> *Divide by how many pieces of data there are, 20*\n*Be careful to avoid the common mistake here which would be to divide by the total number of rows *\n\n$60\\div20$\n\n**[1]**\n\n**3** **[1]**",
+     "equations": [
+      {
+       "latex": "\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#215;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "cross times"
+      },
+      {
+       "latex": "1\\times2=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1 cross times 2 equals 2"
+      },
+      {
+       "latex": "2\\times7=14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>&#215;</mo><mn>7</mn><mo>=</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 cross times 7 equals 14"
+      },
+      {
+       "latex": "3\\times4=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>&#215;</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 cross times 4 equals 12"
+      },
+      {
+       "latex": "4\\times3=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 cross times 3 equals 12"
+      },
+      {
+       "latex": "5\\times4=20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#215;</mo><mn>4</mn><mo>=</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 cross times 4 equals 20"
+      },
+      {
+       "latex": "2+14+12+12+20=60",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>+</mo><mn>14</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>60</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 plus 14 plus 12 plus 12 plus 20 equals 60"
+      },
+      {
+       "latex": "60\\div20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>60</mn><mo>&#247;</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "60 divided by 20"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YfGG45K9gRzhDDJV",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_mh7DnjhdPhgkFpgK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "March 2019",
+      "number": "0580/12",
+      "question_number": 24,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz"
+     ],
+     "part_tier": null,
+     "problem_md": "Five numbers have a mean of 9.4 . \nFour of the numbers are 3, 5, 10 and 12.\n\nWork out the range of the five numbers.",
+     "solution_md": "> *Multiply the mean by the number of data values to determine the sum of the values*\n\n$9.4\\times5=47$\n\n**[1]**\n\n> *Subtract the known values from the sum to determine the missing value*\n\n`47 minus open parentheses 3 plus 5 plus 10 plus 12 close parentheses equals 17`\n\n**[1]**\n\n> *The range is the difference between the highest and the lowest data values*\n\n$17-3=14$\n\n**[1]**\n\n$14$ **[1]**",
+     "equations": [
+      {
+       "latex": "9.4\\times5=47",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>4</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><mn>47</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9.4 cross times 5 equals 47"
+      },
+      {
+       "latex": "17-3=14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>17</mn><mo>-</mo><mn>3</mn><mo>=</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "17 minus 3 equals 14"
+      },
+      {
+       "latex": "14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">14</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cd7yKhWcXhT2dYGW",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_JKcpXXJ8vfMv3nQP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/13",
+      "question_number": 19,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The mean of three numbers is 150.\n\nThe numbers are 361, 2$n$ and `open parentheses n minus 1 close parentheses` .\n\nFind the value of $n$.\n\n$n$ = ...................................................",
+     "solution_md": "> *Work out the total of the three numbers*\n\n$150\\times3=450$\n\n> *The sum of the numbers must be equal to 450 so form an equation*\n\n`361 space plus thin space 2 n space plus thin space open parentheses n minus 1 close parentheses space equals space 450`\n\n**for 361 + 2n + n - 1**** [1] **\n**correct equation ****[1]**\n\n> *Collect like terms*\n\n$360+3n=450$\n\n> *Subtract 360 from both sides*\n\n$3n=90$\n\n> *Divide by 3*\n\n$n=30$\n\n**n**** = 30** **[1]**",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "150\\times3=450",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>150</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>3</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>450</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "150 space cross times space 3 space equals space 450"
+      },
+      {
+       "latex": "360+3n=450",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>360</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>3</mn><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>450</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "360 space plus thin space 3 n space equals space 450"
+      },
+      {
+       "latex": "3n=90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>90</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 n space equals space 90"
+      },
+      {
+       "latex": "n=30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>30</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space equals space 30"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WYSsRCCywHX73sXs",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_KSfkHrZm5pVRGy2s",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/33",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "Six students bring an apple to school one day. The list shows the mass of each apple, correct to the nearest gram.\n\n| 82 | 94 | 78 | 103 | 88 | 82 |\n|---|---|---|---|---|---|\n\nFind\n\ni) the mode,\n\n.............................................. g [1]\n\nii) the range,\n\n.............................................. g [1]\n\niiii) the median.\n\n.............................................. g [2]",
+     "solution_md": "i) *The most common number is 82*\n\n**82 g** **[1]**\n\nii) *Range = largest number (103) - smallest number (78)*\n\n$103-78=25$\n\n**25 g** **[1]**\n\niii)*Write the numbers in order from smallest to largest*\n\n*78, 82, 82, 88, 94, 103*\n\n**[1]**\n\n> *Keep crossing a number off the beginning and the end of the list to find the middle*\n\n`up diagonal strike 78 comma space up diagonal strike 82 comma space 82 comma space 88 comma space up diagonal strike 94 comma space up diagonal strike 103`\n\n> * The median is halfway between 82 and 88*\n\n**85 g** **[1]**",
+     "equations": [
+      {
+       "latex": "103-78=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>103</mn><mo>-</mo><mn>78</mn><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "103 minus 78 equals 25"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_f8bTNy8xfw5JBdPV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0580/33",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n82 | 94 | 78 | 103 | 88 | 82\n\nAnother student, Toni, also brings an apple to school.\n\nThe mean mass of the 7 apples is 89g.\n\nWork out the mass of Toni’s apple.\n\n.............................................. g",
+     "solution_md": "> *Add together the 7 numbers, including Toni's apple, to work out the total weight*\n\n*78 + 82 + 82 + 88 + 94 + 103 + *$x$* = 527 + *$x$\n\n**[1]**\n\n> *Mean (89) = total (527 + *$x$*) *$\\div$* how many pieces of data (7)*\n\n`89 equals open parentheses 527 plus x close parentheses divided by 7`\n\n> * Multiply both sides of the equation by 7*\n\n`table row cell 89 cross times 7 end cell equals cell 527 plus x end cell row blank blank blank row 623 equals cell 527 plus x end cell end table`\n\n**[1]**\n\n> *Subtract 527 from both sides*\n\n`table row cell 623 minus 527 end cell equals x row blank blank blank row 96 equals x end table`\n\n**96 g** **[1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\div",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#247;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "divided by"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_psw5Txfc7nhScfFk",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_T22q6F9Kcb3WkC6g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/13",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The mean of seven numbers is 16.\n\nSix of these numbers are 12, 20, 19, 10, 21 and 13.\n\nFind the seventh number.",
+     "solution_md": "> *Multiply the mean (16) by 7 (the number of values) to find the total of all the values*\n\n$16\\times7=112$\n\n**[1]**\n\n> *Add up the numbers we already know*\n\n$12+20+19+10+21+13=95$\n\n> *Subtract 95 from the total, 112*\n\n$112-95=17$\n\n$17$ **[1]**",
+     "equations": [
+      {
+       "latex": "16\\times7=112",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo>&#215;</mo><mn>7</mn><mo>=</mo><mn>112</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16 cross times 7 equals 112"
+      },
+      {
+       "latex": "12+20+19+10+21+13=95",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>19</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>13</mn><mo>=</mo><mn>95</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "12 plus 20 plus 19 plus 10 plus 21 plus 13 equals 95"
+      },
+      {
+       "latex": "112-95=17",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>112</mn><mo>-</mo><mn>95</mn><mo>=</mo><mn>17</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "112 minus 95 equals 17"
+      },
+      {
+       "latex": "17",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">17</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BPRhSjzfYwwkYSGD",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_78vmCGrqD82vvQ4X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Nov 2020",
+      "number": "0580/31",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_rhXmqmWtwvBqFH9P",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "Ning has a spinner numbered 1 to 6. She spins it 50 times and her results are shown in the table.\n\n| Number on spinner | Frequency |\n|---|---|\n| 1 | 15 |\n| 2 | 12 |\n| 3 | 9 |\n| 4 | 5 |\n| 5 | 2 |\n| 6 | 7 |\n\ni) Write down the mode.\n\n[1]\n\nii) Find the median.\n\n[1]\n\niii)Work out the mean.\n\n[1]",
+     "solution_md": "(i) *The mode is the number which occurred **most often** *\n\n> *Look in the table for the outcome which has the highest frequency*\n\n> * The number 1 has the highest frequency (of 15)*\n\n$1$* ***[1]**\n\n(ii) *Open a new spreadsheet on your calculator and enter the data into a table *\n\n> *Select the statistics calculations from the statistics function and choose one-variable statistics*\n\n> *Read off the value for the median (*$\\mathrm{MedianX}$* or *$\\mathrm{Med}$*)*\n\n$2$* ***[1]**\n\n(iii) *Read off the value for the mean (*$\\overline{x}$*)*\n\n*Mean = 2.76*\n\n$2.76$* ***[1]**",
+     "equations": [
+      {
+       "latex": "1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">1</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 1"
+      },
+      {
+       "latex": "\\mathrm{MedianX}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>MedianX</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "MedianX"
+      },
+      {
+       "latex": "\\mathrm{Med}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Med</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "Med"
+      },
+      {
+       "latex": "2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">2</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2"
+      },
+      {
+       "latex": "\\overline{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>x</mi><mo>&#175;</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x with bar on top"
+      },
+      {
+       "latex": "2.76",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">76</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold 2 bold. bold 76"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_K4CgMrMnFcwCZZkm",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_zHrKr3HJmJfyfB8w",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0580/33",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P",
+      "spcpt_jgWpDXX6QTytnqVr"
+     ],
+     "part_tier": null,
+     "problem_md": "Emma records the number of letters in each word in a sentence.\n\n| 7 | 1 | 5 | 4 | 2 | 4 | 5 | 3 | 3 | 1 | 2 | 4 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n\nFind\n\ni) the median,\n\n[2]\n\nii) the mode,\n\n[1]\n\niii) the range.\n\n[1]",
+     "solution_md": "i) *First write the numbers in order*\n\n$1,1,2,2,3,3,4,4,4,5,5,7$\n\n**[1]**\n\n> *Find the middle number(s) by crossing out numbers from both ends*\n\n`up diagonal strike 1 comma space up diagonal strike 1 comma space up diagonal strike 2 comma space up diagonal strike 2 comma space up diagonal strike 3 comma space 3 comma space 4 comma space up diagonal strike 4 comma space up diagonal strike 4 comma space up diagonal strike 5 comma space up diagonal strike 5 comma space up diagonal strike 7`\n\n> *The median is halfway between 3 and 4*\n\n**3.5** **[1]**\n\nii) *The mode is the most common piece of data*\n\n**4** **[1]**\n\niii) *The range is the difference between the largest and smallest number*\n\n$7-1=6$\n\n**6** **[1]**",
+     "equations": [
+      {
+       "latex": "1,1,2,2,3,3,4,4,4,5,5,7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>,</mo><mo>&#160;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 comma space 1 comma space 2 comma space 2 comma space 3 comma space 3 comma space 4 comma space 4 comma space 4 comma space 5 comma space 5 comma space 7"
+      },
+      {
+       "latex": "7-1=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 space minus space 1 space equals space 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jycwVrCKPTYdSmF6",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_VCMxby255S8mznCX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7fxdPJsB8RszGmmq"
+     ],
+     "part_tier": null,
+     "problem_md": "These are the ages in years of 10 people.\n\n| 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 21 | 23 |\n|---|---|---|---|---|---|---|---|---|---|\n\nFind the interquartile range.\n\n........................................ years",
+     "solution_md": "> *There are 10 data values (an even number)*\n*So the lower half will be the first 5 values*\n*The lower quartile is the median of that lower half of the data*\n\n***14***      ***15***      ***16***      ***17***      ***18***\n\n> *So the lower quartile is 16*\n\n> *Do the same thing with the upper half of the data to find the upper quartile*\n*The upper quartile is the median of the upper half of the data*\n\n***19***      ***20***      ***20***      ***21***      ***23***\n\n> *So the upper quartile is 20*\n\n**Either 16 or 20 identified [1]**\n\n> *Find the interquartile range by subtracting the lower quartile from the upper quartile*\n\n***IQR = UQ-LQ = 20-16***\n\n**4 years ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xFDn8WTGQmP9rGSM",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cQK2rtpWHRkzCSch",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": "May/June 2019",
+      "number": "0580/13",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the different methods of travel for 20 people going to work.\n\n| Method of travel | Frequency |\n|---|---|\n| Car | 10 |\n| Walk | 5 |\n| Bike | 3 |\n| Bus | 2 |\n\nWhich type of average, mean, median or mode, can be used for this information?",
+     "solution_md": "> *The mode can be determined from categorical data, as well as numerical data*\n\n> *The mean and median can only be calculated from numerical data*\n\n**Mode** **[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cSCHSxpkQkZHjb6k",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_y6WP66gj57PvY9xg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "tick",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QWXhzVp2S3VYZdZc"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows examples of types of data collected about members of a gym.\n\nPut a tick (***✓ ***) in each row to show whether the data is Discrete or Continuous.\n\n| Type of data | Discrete | Continuous |\n|---|---|---|\n| Weight of a person |   |   |\n| Total time spent on the train |   |   |\n| Number of people in a group |   |   |\n| Cost of a train ticket |   |   |",
+     "solution_md": "> *The weight of a person can take any value, it is continuous*\n\n> *The total time spent on a train can take any value, it is continuous *\n\n> *The number of people in a group must be an integer value, it is discrete*\n\n> *The cost of a train ticket must always be a fixed amount, it cannot take any value, it is discrete *\n\n| Type of data | Discrete | Continuous |\n|---|---|---|\n| Weight of a person |   | **Final answer:** **✓** |\n| Total time spent on the train |   | **Final answer:** **✓** |\n| Number of people in a group | **Final answer:** **✓** |   |\n| Cost of a train ticket | **Final answer:** **✓** |   |\n\n**Any 3 correct [1]**\n**All correct [1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_D5DkJQGyPpZwgfbx",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_VY5K94ShKRkDVZSd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/31",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P",
+      "spcpt_jgWpDXX6QTytnqVr"
+     ],
+     "part_tier": null,
+     "problem_md": "At Donville station the number of tickets sold each day is recorded for seven days.\n\n| 104 | 18 | 72 | 31 | 27 | 45 | 60 |\n|---|---|---|---|---|---|---|\n\nFind\n\ni) the range,\n\n[1]\n\nii) the median,\n\n[2]",
+     "solution_md": "i) *The range is the difference between the highest value and the lowest value of data*\n\n*The highest value is *$104$\n\n*The lowest value is *$18$\n\n$104-18$* *\n\n**86**** ****[1]**\n\nii) *The median is the middle value in an ordered set of data*\n\n> *Order the data from smallest to largest*\n\n$18,27,31,45,60,72,104$\n\n**[1]**\n\n> *Select the middle item of data in the list*\n\n**45*** ***[1]**",
+     "equations": [
+      {
+       "latex": "104",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>104</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": 104
+      },
+      {
+       "latex": "18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>18</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": 18
+      },
+      {
+       "latex": "104-18",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>104</mn><mo>-</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "104 minus 18"
+      },
+      {
+       "latex": "18,27,31,45,60,72,104",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>18</mn><mo>,</mo><mo>&#160;</mo><mn>27</mn><mo>,</mo><mo>&#160;</mo><mn>31</mn><mo>,</mo><mo>&#160;</mo><mn>45</mn><mo>,</mo><mo>&#160;</mo><mn>60</mn><mo>,</mo><mo>&#160;</mo><mn>72</mn><mo>,</mo><mo>&#160;</mo><mn>104</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "18 comma space 27 comma space 31 comma space 45 comma space 60 comma space 72 comma space 104"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6R79jnh4CQbQDWX7",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_gPKDxDBBkVHFKPmZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 19,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "| 27 | 14 | 8 | 93 | 32 | 55 | 14 | 38 | 73 | 47 |\n|---|---|---|---|---|---|---|---|---|---|\n\nFrom this list of numbers find\n\nthe median,\n\n[2]",
+     "solution_md": "> *To find the median, first write the numbers from smallest to biggest*\n\n$8,14,14,27,32,38,47,55,73,93$\n\n**[1]**\n\n> *The median is the middle number*\n\n> *Find it by crossing off the numbers from either end in turn *\n\n> *There are an even number of numbers in this case, so there will be two middle numbers*\n\n`up diagonal strike 8 comma space up diagonal strike 14 comma space up diagonal strike 14 comma space up diagonal strike 27 comma space circle enclose 32 comma space 38 end enclose comma space up diagonal strike 47 comma space up diagonal strike 55 comma space up diagonal strike 73 comma space up diagonal strike 93`\n\n> *The median is halfway between these numbers*\n\n> *Halfway between 32 and 38 is 35*\n\n**35**** ****[1]**",
+     "equations": [
+      {
+       "latex": "8,14,14,27,32,38,47,55,73,93",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>,</mo><mo>&#160;</mo><mn>14</mn><mo>,</mo><mo>&#160;</mo><mn>14</mn><mo>,</mo><mo>&#160;</mo><mn>27</mn><mo>,</mo><mo>&#160;</mo><mn>32</mn><mo>,</mo><mo>&#160;</mo><mn>38</mn><mo>,</mo><mo>&#160;</mo><mn>47</mn><mo>,</mo><mo>&#160;</mo><mn>55</mn><mo>,</mo><mo>&#160;</mo><mn>73</mn><mo>,</mo><mo>&#160;</mo><mn>93</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 comma space 14 comma space 14 comma space 27 comma space 32 comma space 38 comma space 47 comma space 55 comma space 73 comma space 93"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6BB5HR4d4DwPjp2K",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0580/11",
+      "question_number": 19,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jgWpDXX6QTytnqVr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| 27 | 14 | 8 | 93 | 32 | 55 | 14 | 38 | 73 | 47 |\n\n| 27 | 14 | 8 | 93 | 32 | 55 | 14 | 38 | 73 | 47 |\n|---|---|---|---|---|---|---|---|---|---|\n\nFrom this list of numbers find\n\nthe range.",
+     "solution_md": "> *The range is the difference between the largest and smallest numbers*\n\n> *The largest number is 93*\n\n> *The smallest number is 8*\n\n$93-8=85$\n\n**85**** [1]**",
+     "equations": [
+      {
+       "latex": "93-8=85",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>93</mn><mo> </mo><mo>-</mo><mo> </mo><mn>8</mn><mo> </mo><mo>=</mo><mo> </mo><mn>85</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "93 space minus space 8 space equals space 85"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2MfJ8YWJPVC37c6H",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_J87FvhKrjFxpMVcx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2020 May/June",
+      "number": "0580/43",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the marks scored by some students in a test.\n\n| Mark | 5 | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|---|\n| Frequency | 8 | 2 | 12 | 2 | 0 | 1 |\n\nCalculate the mean mark.",
+     "solution_md": "> *Open a new spreadsheet/table on your calculator, make sure the frequency option is turned on in stats mode *\n\n> *Enter each data point for the Marks into the first (data) column and the frequencies into the second column *\n\n> *Open the statistics function, you may need to choose 'one variable statistics' and choose the option for the mean,  *$μ$\n\n> *The word 'calculate' is written in this question, so a method mark can be gained from writing down the calculation to find the mean*\n\n> *Add together the frequencies to find the total number of students*\n\n$8+2+12+2+0+1=25$\n\n> *Divide the total number of marks by the total number of students to get the mean mark*\n\n`fraction numerator open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 2 close parentheses plus open parentheses 7 cross times 12 close parentheses plus open parentheses 8 cross times 2 close parentheses plus open parentheses 9 cross times 0 close parentheses plus open parentheses 10 cross times 1 close parentheses over denominator 25 end fraction`\n\n**[1]**\n\n**6.48 ****[1]**",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "8+2+12+2+0+1=25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 plus 2 plus 12 plus 2 plus 0 plus 1 equals 25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rzd6T6tgTHFwc6QD",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GJTDfV35jQwd24Nq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2018 May/June",
+      "number": "0580/21",
+      "question_number": 23,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rhXmqmWtwvBqFH9P",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "40 people were asked how many times they visited the cinema in one month. \nThe table shows the results.\n\n| Number of cinema visits | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n|---|---|---|---|---|---|---|---|---|\n| Frequency | 5 | 5 | 6 | 6 | 7 | 3 | 6 | 2 |\n\nFind the mode.",
+     "solution_md": "> *Check the frequency row, the highest frequency is 7*\n\n> *The mode is the number of visits to the cinema which has this frequency*\n\n**4**** [1]**\n**A common mistake is to put \"7\" as the answer**"
+    },
+    {
+     "id": "qstnprt_wWZyqJwS5NzJStxc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2018 May/June",
+      "number": "0580/21",
+      "question_number": 23,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| Number of cinema visits | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| Frequency | 5 | 5 | 6 | 6 | 7 | 3 | 6 | 2 |\n\nCalculate the mean.",
+     "solution_md": "> *This could be done on your calculator, but there is a mark for writing down the method as well*\n\n> *Find the sum of the product of the number and the frequencies*\n\n$(0\\times5)+(1\\times5)+(2\\times6)+(3\\times6)+(4\\times7)+(5\\times3)+(6\\times6)+(7\\times2)=128$\n\n**[1]**\n\n> *Divide this by the total, which is given in the question as 40*\n\n$\\frac{\\sumfx}{\\sumf}=\\frac{128}{40}$\n\n** **$3.2$** [1]**",
+     "equations": [
+      {
+       "latex": "(0\\times5)+(1\\times5)+(2\\times6)+(3\\times6)+(4\\times7)+(5\\times3)+(6\\times6)+(7\\times2)=128",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>0</mn><mo>×</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>×</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>×</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mo>×</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mo>×</mo><mn>7</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>5</mn><mo>×</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>6</mn><mo>×</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>7</mn><mo>×</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>128</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "left parenthesis 0 cross times 5 right parenthesis plus left parenthesis 1 cross times 5 right parenthesis plus left parenthesis 2 cross times 6 right parenthesis plus left parenthesis 3 cross times 6 right parenthesis plus left parenthesis 4 cross times 7 right parenthesis plus left parenthesis 5 cross times 3 right parenthesis plus left parenthesis 6 cross times 6 right parenthesis plus left parenthesis 7 cross times 2 right parenthesis equals 128"
+      },
+      {
+       "latex": "\\frac{\\sumfx}{\\sumf}=\\frac{128}{40}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>∑</mo><mi>f</mi><mi>x</mi></mrow><mrow><mo>∑</mo><mi>f</mi></mrow></mfrac><mo>=</mo><mfrac><mn>128</mn><mn>40</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator sum f x over denominator sum f end fraction equals 128 over 40"
+      },
+      {
+       "latex": "3.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "bold 3 bold. bold 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7y8W64n8sKdXdCfH",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_NRMBQCYx8HJ8QTDJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2020 March",
+      "number": "0580/22",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rhXmqmWtwvBqFH9P",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the marks scored by 40 students in a test.\n\n| Mark | 5 | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|---|\n| Frequency | 8 | 5 | 11 | 7 | 5 | 4 |\n\nCalculate the mean mark.",
+     "solution_md": "> *Open a new spreadsheet/table on your calculator, make sure the frequency option is turned on in stats mode *\n\n> *Enter each data point for the Marks into the first (data) column and the frequencies into the second column *\n\n> *Open the statistics function, you may need to choose 'one variable statistics' and choose the option for the mean,  *$μ$\n\n> *The word 'calculate' is written in this question, so a method mark can be gained from writing down the calculation to find the mean*\n\n`fraction numerator open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 5 close parentheses plus open parentheses 7 cross times 11 close parentheses plus open parentheses 8 cross times 7 close parentheses plus open parentheses 9 cross times 5 close parentheses plus open parentheses 10 cross times 4 close parentheses over denominator 40 end fraction`\n\n**[1]**\n\n**7.2 ****[1]**",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JM5XnTzsWgzWwZpc",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_QH7DHvX8gY8CYfwx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2018\tMay/June",
+      "number": "0580/43",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rhXmqmWtwvBqFH9P",
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "A teacher records the number of days each of the 24 students in her class are absent. \nThe frequency table shows the results.\n\n| Number of days | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Frequency | 10 | 8 | 3 | 2 | 0 | 1 |\n\nFind the mode, the median and the mean.\n\nMode = ...............................................      \nMedian = ...............................................      \nMean = ...............................................",
+     "solution_md": "> *Open a new spreadsheet/table on your calculator, make sure the frequency option is turned on in stats mode *\n\n> *Enter each data point for Number of days into the first (data) column and the frequencies into the second column *\n\n> *Open the statistics function, you may need to choose 'one variable statistics' and choose the option for:*\n\n> *the mode,  Mod*\n\n**0 ****[1]**\n\n> *the median,  Med*\n\n**1 ****[1]**\n\n> *the mean,  *$μ$\n\n$1.04166...$\n\n**1.04 (3 s.f.) ****[1]**",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "1.04166...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>04166</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.04166..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2j8JzCqW8jrSHc6M",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_JcvY5fxdYkV7sDr3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "June 2018",
+      "number": "4MA1/2H",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jgWpDXX6QTytnqVr"
+     ],
+     "part_tier": null,
+     "problem_md": "The students in Class A and in Class B take the same examination.\n\nThe lowest score in Class A is 39 \nThe range of scores for Class A is 57 \nThe lowest score in Class B is 33 \nThe range of scores for Class B is 60\n\nFind the range of scores for all the students in both classes.",
+     "solution_md": "*Find the lowest overall score in both classes (the smaller of the two lowest class scores)*\n\n*lowest overall score is 33*\n\n*The range is the difference between the highest and lowest values* *Find the highest score in Class A (by adding its range to its lowest score)*\n\n*highest score in Class A = 39 + 57 = 96*\n\n*Find the highest score in Class B (by adding its range to its lowest score)*\n\n*highest score in Class B = 33 + 60 = 93*\n\n**either class highest score correct**** [1]**\n\n*Find the highest overall score in both classes (the larger of the two highest class scores)* *  *\n\n*highest overall score is 96*\n\n*Find the overall range (the highest overall score subtract the lowest overall score)*\n\n*overall range = 96 - 33*\n\n**subtracting 33 from your highest score**** [1]**\n\n**63 ****[1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VMYZ3KFSZBN4grqg",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_qVzng9fvfRvtYMN4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2019\tMay/June",
+      "number": "0580/41",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rhXmqmWtwvBqFH9P",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The test scores of 14 students are shown below.\n\n| 21 | 21 | 23 | 26 | 25 | 21 | 22 | 20 | 21 | 23 | 23 | 27 | 24 | 21 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n\nFind the range, mode, median and mean of the test scores.\n\nRange = ....................................................      \nMode = ....................................................      \nMedian = ....................................................      \nMean = ....................................................",
+     "solution_md": "> *Method 1: Using GDC*\n\n> *Open a new spreadsheet/table on your calculator*\n\n> *If possible on your calculator, turn off the frequency option in stats mode*\n\n> *Enter each score into the first (data) column and leave the frequencies as 1 in the second column if it is required*\n\n> *Open the statistics function, you may need to choose 'one variable statistics' and choose the option for:*\n\n> *the range,  R*\n\n**7 ****[1]**\n\n> *the mode,  Mod*\n\n**21 ****[1]**\n\n> *the median,  Med*\n\n**22.5 ****[1]**\n\n> *the mean,  *$μ$\n\n$22.71428571...$\n\n**22.7 (3 s.f.) ****[1]**\n\n> *Method 2*\n\n> *The **range **is the difference between the maximum and minimum values.*\n\n$27-20=7$\n\n**Range = 7 ****[1]**\n\n> *The **mode **is the number which occurs the most frequently.*\n\n*21 (it appears 5 times)*\n\n**Mode = 21 ****[1]**\n\n> *The **median **is found by putting the numbers in order, and then finding the number in the middle. *\n*As there are 14 pieces of data, the middle of the data set will be halfway between the 7*<sup>*th*</sup>* and 8*<sup>*th*</sup>* pieces of data. *\n*If it isn't easy to spot, find the value halfway between two numbers by adding them together and dividing by 2. *\n*You could also find the middle of the data by crossing out the numbers from each end alternately.*\n\n`up diagonal strike 20 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space 22 space space space 23 space space space up diagonal strike 23 space space space up diagonal strike 23 space space space up diagonal strike 24 space space space up diagonal strike 25 space space space up diagonal strike 26 space space space up diagonal strike 27`\n\n*Halfway between 22 and 23 will be 22.5, which is the median*\n\n**Median = 22.5 ****[1]**\n\n> *To find the **mean**, find the sum of the data, and divide by how many pieces of data there are.*\n\n$\\frac{20+21+21+21+21+21+22+23+23+23+24+25+26+27}{14}$\n\n$\\frac{318}{14}=22.71428571...$\n\n**Mean = 22.7 (3 s.f.) ****[1]**",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "22.71428571...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>22</mn><mo>.</mo><mn>71428571</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "22.71428571..."
+      },
+      {
+       "latex": "27-20=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>27</mn><mo>-</mo><mn>20</mn><mo>=</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "27 minus 20 equals 7"
+      },
+      {
+       "latex": "\\frac{20+21+21+21+21+21+22+23+23+23+24+25+26+27}{14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>20</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>22</mn><mo>+</mo><mn>23</mn><mo>+</mo><mn>23</mn><mo>+</mo><mn>23</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>25</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>27</mn></mrow><mn>14</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 20 plus 21 plus 21 plus 21 plus 21 plus 21 plus 22 plus 23 plus 23 plus 23 plus 24 plus 25 plus 26 plus 27 over denominator 14 end fraction"
+      },
+      {
+       "latex": "\\frac{318}{14}=22.71428571...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>318</mn><mn>14</mn></mfrac><mo>=</mo><mn>22</mn><mo>.</mo><mn>71428571</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "318 over 14 equals 22.71428571..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_33VXkjCjmrPG9DZZ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_cqQyFt8zJD6w2f2w",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2019\tOct/Nov",
+      "number": "0580/41",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rhXmqmWtwvBqFH9P",
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "Roberto records the value of each of the coins he has at home. The table shows the results.\n\n| Value (cents) | 1 | 2 | 5 | 10 | 20 | 50 |\n|---|---|---|---|---|---|---|\n| Frequency | 3 | 1 | 3 | 2 | 4 | 2 |\n\ni) Find the range.\n\n........................................... cents [1]\n\nii) Find the mode.\n\n........................................... cents [1]\n\niii) Find the median.\n\n........................................... cents [1]\n\niv) Work out the total value of Roberto’s coins.\n\n........................................... cents [1]\n\nv) Work out the mean.\n\n........................................... cents [1]",
+     "solution_md": "> *Method 1: Using GDC*\n\n> *Open a new spreadsheet/table on your calculator*\n\n> *Enter the Value row into the first (data) column (label this V) and the frequencies into the second column (label this f)*\n\n> *Open the statistics function, you may need to choose 'one variable statistics' and choose the option for:*\n\ni)* the range,  R*\n\n**49 cents ****[1]**\n\nii)* the mode,  Mod*\n\n**20 cents ****[1]**\n\niii)* the median,  Med*\n\n**10 cents ****[1]**\n\niv)* the sum of values,  *$Σx$\n\n**220 cents ****[1]**\n\nv)* the mean,  *$μ$* or *$\\overline{x}$\n\n$14.66666...$\n\n**14.7 cents ****[1]**\n**An answer between 14.66 to 14.67 will be accepted**\n\n> *Method 2*\n\ni) *Subtract the lowest value coin from the highest value coin to find the range.*\n\n$50-1$\n\n**49 cents ****[1]**\n\nii) *The mode is the most common number, so identify the type of coin with the highest frequency.*\n\n**20 cents** **[1]**\n\niii) *The median is the middle value. It's position can be found using *$\\frac{n+1}{2}$*.*\n\n> *Find the total number of coins (*$n$*) by adding together the frequencies of the different types.*\n\n$3+1+3+2+4+2=15$\n\n> *Add one to the total and then divide by 2.*\n\n`open parentheses 15 plus 1 close parentheses divided by 2 equals 8`\n\n> *Starting from the lowest value coin, find the value of the 8*<sup>*th*</sup>* coin.*\n\n*The 8**<sup>th</sup>** coin lies in the 10 cents column*\n\n**10 cents** **[1]**\n\niv) *Multiply the value of each coin by how many there are of that type.*\n\n`open parentheses 1 cross times 3 close parentheses plus open parentheses 2 cross times 1 close parentheses plus open parentheses 5 cross times 3 close parentheses plus open parentheses 10 cross times 2 close parentheses plus open parentheses 20 cross times 4 close parentheses plus open parentheses 50 cross times 2 close parentheses`\n\n**220 cents** **[1]**\n\nv) *Divide the total value of the coins by how many coins there are.*\n\n$\\frac{220}{15}=14.66666...$\n\n**Final answer:** **14.7 cents**** [1]**\n\n**An answer between 14.66 to 14.67 will be accepted.**",
+     "equations": [
+      {
+       "latex": "Σx",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#931;</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "capital sigma x"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#956;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "\\overline{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>x</mi><mo>&#175;</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x with bar on top"
+      },
+      {
+       "latex": "14.66666...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>14</mn><mo>.</mo><mn>66666</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "14.66666..."
+      },
+      {
+       "latex": "50-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>50</mn><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "50 minus 1"
+      },
+      {
+       "latex": "\\frac{n+1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator n plus 1 over denominator 2 end fraction"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "3+1+3+2+4+2=15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 plus 1 plus 3 plus 2 plus 4 plus 2 equals 15"
+      },
+      {
+       "latex": "\\frac{220}{15}=14.66666...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>220</mn><mn>15</mn></mfrac><mo>=</mo><mn>14</mn><mo>.</mo><mn>66666</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "220 over 15 equals 14.66666..."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
