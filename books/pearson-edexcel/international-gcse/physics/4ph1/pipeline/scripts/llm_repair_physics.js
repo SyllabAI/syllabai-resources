@@ -10,6 +10,22 @@ const fs = require("fs");
 const ZJSONL = "/home/z/my-project/download/rag_physics/edexcel_igcse_physics_chunks_v1.jsonl";
 const IDS = JSON.parse(fs.readFileSync("/home/z/my-project/data/llm_repair_ids_physics.json", "utf-8"));
 const OUT = "/home/z/my-project/data/llm_repairs_physics.jsonl";
+const LOG = "/home/z/my-project/data/llm_repair_r2.log";
+
+function log(msg) {
+  const line = `[${new Date().toISOString()}] ${msg}`;
+  console.log(line);
+  try { fs.appendFileSync(LOG, line + "\n"); } catch {}
+}
+
+function withTimeout(promise, ms, label) {
+  return Promise.race([
+    promise,
+    new Promise((_, rej) => setTimeout(() => rej(new Error(`TIMEOUT ${label} ${ms / 1000}s`)), ms)),
+  ]);
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const LINE_STRICT = `\n\nCRITICAL EXTRA RULE: keep EVERY line break exactly as in the\ninput. Do not merge, split, join or reorder lines. Same number of lines in,\nsame number out. This overrides any urge to reflow paragraphs.`;
 
@@ -87,27 +103,27 @@ function sanityCheck(original, repaired) {
 
 async function repairOne(zai, chunk) {
   const body = chunk.text;
-  for (let attempt = 1; attempt <= 6; attempt++) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
     try {
-      const completion = await zai.chat.completions.create({
+      const completion = await withTimeout(zai.chat.completions.create({
         messages: [
           { role: "assistant", content: SYSTEM },
           { role: "user", content: body },
         ],
         thinking: { type: "disabled" },
-      });
+      }), 120000, "main-call");
       const raw = completion.choices?.[0]?.message?.content || "";
       let cleaned = sanityCheck(body, raw);
       if (cleaned === null) {
         // one line-strict retry before giving up (common failure: reflowed lines)
         try {
-          const retry = await zai.chat.completions.create({
+          const retry = await withTimeout(zai.chat.completions.create({
             messages: [
               { role: "assistant", content: SYSTEM + LINE_STRICT },
               { role: "user", content: body },
             ],
             thinking: { type: "disabled" },
-          });
+          }), 120000, "strict-retry");
           const raw2 = retry.choices?.[0]?.message?.content || "";
           cleaned = sanityCheck(body, raw2);
           if (cleaned === null) {
@@ -122,9 +138,21 @@ async function repairOne(zai, chunk) {
       return { id: chunk.id, status: "ok", text: cleaned };
     } catch (e) {
       const is429 = /429|too many/i.test(e.message || "");
-      if (attempt === 6) return { id: chunk.id, status: "error", reason: e.message };
-      await new Promise(r => setTimeout(r, is429 ? 25000 * attempt : 1500 * attempt));
+      if (attempt === 5) return { id: chunk.id, status: "error", reason: e.message };
+      await sleep(is429 ? 20000 * attempt : 1500 * attempt);
     }
+  }
+}
+
+async function probeQuota(zai) {
+  try {
+    await withTimeout(zai.chat.completions.create({
+      messages: [{ role: "user", content: "Reply with exactly: OK" }],
+      thinking: { type: "disabled" },
+    }), 30000, "probe");
+    return true;
+  } catch (e) {
+    return !/429|too many/i.test(e.message || ""); // non-429 errors: let the run proceed
   }
 }
 
@@ -144,29 +172,39 @@ async function main() {
     }
   }
   const todo = IDS.filter(id => chunks.has(id) && !done.has(id));
-  console.log(`todo: ${todo.length}/${IDS.length} (already done: ${done.size})`);
+  log(`todo: ${todo.length}/${IDS.length} (already done: ${done.size})`);
   const zai = await (require("z-ai-web-dev-sdk").default).create();
-  const CONC = Number(process.env.CONC || 2);
+  // ---- quota probe: do not grind retries while the wall is up ----
+  const PROBE_MAX = Number(process.env.PROBE_MAX || 8);
+  let cleared = false;
+  for (let p = 1; p <= PROBE_MAX; p++) {
+    if (await probeQuota(zai)) { log(`quota probe ${p}: clear`); cleared = true; break; }
+    const wait = Number(process.env.PROBE_WAIT || 90);
+    log(`quota probe ${p}/${PROBE_MAX}: 429 -> wait ${wait}s`);
+    await sleep(wait * 1000);
+  }
+  if (!cleared) { log("quota still down after probes -> clean exit (resume later)"); return; }
+  const CONC = Number(process.env.CONC || 1);
   let i = 0, ok = 0, rej = 0, err = 0, consec429 = 0;
   async function worker() {
     while (i < todo.length) {
       const id = todo[i++];
       const res = await repairOne(zai, chunks.get(id));
       fs.appendFileSync(OUT, JSON.stringify(res) + "\n");
-      if (res.status === "ok") { ok++; consec429 = 0; }
-      else if (res.status === "rejected") { rej++; console.log("REJ", id, res.reason); }
+      if (res.status === "ok") { ok++; consec429 = 0; log(`OK ${id} (${ok + rej + err}/${todo.length})`); }
+      else if (res.status === "rejected") { rej++; log(`REJ ${id} ${res.reason}`); }
       else {
         err++;
         if (/429|too many/i.test(res.reason || "")) consec429++;
-        console.log("ERR", id, res.reason);
+        log(`ERR ${id} ${res.reason}`);
       }
       if ((ok + rej + err) % 10 === 0)
-        console.log(`progress: ${ok + rej + err}/${todo.length} (ok=${ok} rej=${rej} err=${err})`);
-      if (consec429 >= 3) { console.log("QUOTA: 3 consecutive 429s -> stopping run (resume later)"); break; }
+        log(`progress: ${ok + rej + err}/${todo.length} (ok=${ok} rej=${rej} err=${err})`);
+      if (consec429 >= 2) { log("QUOTA: 2 consecutive 429 chunks -> stopping run (resume later)"); break; }
     }
   }
   await Promise.all(Array.from({ length: CONC }, worker));
-  console.log(`DONE ok=${ok} rejected=${rej} error=${err}`);
+  log(`DONE ok=${ok} rejected=${rej} error=${err}`);
 }
 
-main().catch(e => { console.error("FATAL", e.message); process.exit(1); });
+main().catch(e => { console.error("FATAL", e.message); log("FATAL " + e.message); process.exit(1); });

@@ -285,3 +285,41 @@ Stage Summary:
   green, serving-critical anchors byte-identical to pristine v1.
 - Round 2 is a text-only re-run of the same resumable scripts; split
   derivation unaffected (anchors untouched by design and verified).
+
+---
+Task ID: T-PARSE-4PH1-4-R2
+Agent: main (Super Z)
+Task: Round 2 of the polish (68 chunks: 49 unresolved + 19 rejects re-queued;
+includes 4 serving-critical unit_questions chunks) — operator directive
+"retry round 2" / "resume round 2" (2026-10-20).
+
+Work Log:
+- Workspace reset twice between sessions; reinstalled z-ai-web-dev-sdk both
+  times; verified all state survived (data/llm_repairs_physics.jsonl: 232
+  distinct ok, todo=68; deliverables + pristine snapshot intact).
+- llm_repair_physics.js hardened: quota probe loop before processing
+  (PROBE_MAX/PROBE_WAIT env), per-call 120s timeout (hung calls no longer
+  eat a batch), 429 backoff 20s*attempt, quota-stop after 2 consecutive 429
+  chunks, progress logging to data/llm_repair_r2.log.
+- Quota wall diagnosed as account-level and absolute: 20+ batches over
+  15+ hours (2026-10-19 23:26 -> 2026-10-20 15:33 UTC, zero successes);
+  tiny probes 429; all 6 alternative model names 429; vision endpoint 429;
+  persists across session restart and gateway config refresh. Chemistry
+  precedent says the pool refills with time; resume protocol unaffected.
+- Chain dry-run on current corpus while waiting: validate_physics.py ALL
+  CHECKS PASSED; audit_polish_physics.py reproduces round-1 numbers exactly
+  (changed-chunk space runs 1008 -> 3, residuals legit; camel 121 -> 0;
+  unicode-unit regressions 0).
+- This commit persists round 1 + the resume kit so any future session can
+  finish round 2 from repo state alone: polish scripts -> pipeline/scripts/,
+  selection + repair resume state -> pipeline/evidence/ (chemistry parity),
+  hardened runner + this worklog + parsed README round-2 protocol.
+
+Stage Summary:
+- Round 2 pending 68/300 (todo order: 30 body, 10 worked_example, 7
+  learning_objectives, 5 table_data, 5 extension_work, 4 unit_questions,
+  3 key_point, 2 exam_hint, 1 appendix, 1 front_matter).
+- Resume command: cd scripts && PROBE_MAX=1 CONC=1 node llm_repair_physics.js
+  in repeated batches until todo=0, then merge_llm_physics.py,
+  audit_polish_physics.py, validate_physics.py, README/worklog addendum,
+  final commit. No schema/id changes expected; anchors untouched by design.
