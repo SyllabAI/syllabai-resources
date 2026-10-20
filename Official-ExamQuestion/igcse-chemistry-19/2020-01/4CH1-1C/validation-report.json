@@ -1,0 +1,144 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.1",
+ "generated_utc": "2026-10-20T20:53:27Z",
+ "series": "2020-01",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C; series=2020-01; printed='January 2020; January 2020'; sha256 qp/ms match manifest: True",
+   "details": {
+    "qp_sha256": "37247459b838d799b1059dd3b1aba296043104a56323c656e71eb1fca589396f",
+    "ms_sha256": "c6048d76f7c5c64a5c080161396e0534af545e3e03bc2b66cb5f6cf5c9f9a4c5",
+    "registry_paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "10 questions; Σ question totals=110/110; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 10
+   }
+  },
+  {
+   "gate": "G2-verbatim",
+   "status": "PASS",
+   "summary": "5-gram overlap vs source region ≥0.95 for all 57 parts: True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "FAIL",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "details": {
+    "issues": [
+     {
+      "part": "7(a)(ii)",
+      "issue": "no keyed correct choice"
+     },
+     {
+      "part": "7(a)(iii)",
+      "issue": "no keyed correct choice"
+     }
+    ]
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "11 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 0 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 0
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 60/60 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 60 parts pending-llm tagging",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G1",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2",
+   "detected": true,
+   "target": "10(d)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "7(a)(ii)",
+   "reason": "MCQ key unresolved from MS"
+  },
+  {
+   "part": "7(a)(iii)",
+   "reason": "MCQ key unresolved from MS"
+  },
+  {
+   "part": "2(a)",
+   "reason": "figure crop required (table, page 4)"
+  },
+  {
+   "part": "2(b)",
+   "reason": "figure crop required (table, page 5)"
+  },
+  {
+   "part": "4(a)(i)",
+   "reason": "figure crop required (table, page 8)"
+  },
+  {
+   "part": "4(b)(ii)",
+   "reason": "figure crop required (boxes, diagram, page 9)"
+  },
+  {
+   "part": "6(b)",
+   "reason": "figure crop required (diagram, table, page 13)"
+  },
+  {
+   "part": "7(b)(i)",
+   "reason": "figure crop required (table, page 17)"
+  },
+  {
+   "part": "9(d)(i)",
+   "reason": "figure crop required (grid, table, page 25)"
+  },
+  {
+   "part": "9(d)(ii)",
+   "reason": "figure crop required (graph, page 25)"
+  }
+ ]
+}

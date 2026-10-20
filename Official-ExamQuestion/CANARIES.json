@@ -1,0 +1,88 @@
+{
+  "schema": "syllabai.official-paper-questions.canaries/0.1",
+  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
+  "converter_version_floor": "0.3",
+  "canaries": [
+    {
+      "id": "C1-honest-refusal",
+      "series": "2020-01",
+      "assertion": "part 7(a)(iii) has NO keyed correct choice (the pipeline must refuse the ambiguous interleaved MS; finding F6)",
+      "check": "part_unkeyed",
+      "part": "7(a)(iii)"
+    },
+    {
+      "id": "C2-refusal-state",
+      "series": "2020-01",
+      "assertion": "G3-mcq-integrity status == FAIL (the honest refusal must surface as a gate failure, not be papered over)",
+      "check": "gate_status",
+      "gate": "G3-mcq-integrity",
+      "expected": "FAIL"
+    },
+    {
+      "id": "C3-baseline-unchanged",
+      "series": "2020-11",
+      "assertion": "all gates PASS and 6/6 MCQs keyed (baseline; regression sentinel for F12/F14 keying changes)",
+      "check": "all_gates_pass_and_mcq_keyed",
+      "mcq_keyed": 6
+    },
+    {
+      "id": "C4-archive-damage-attributed",
+      "series": "2019-06",
+      "assertion": "G1-structure == REVIEW with marks 104/110 and source_defects.affected_questions includes 7 (rasterized pages; must never be silently 'fixed' by invention)",
+      "check": "gate_status",
+      "gate": "G1-structure",
+      "expected": "REVIEW",
+      "marks_total": 104,
+      "affected_questions_include": 7
+    },
+    {
+      "id": "C5-elimination-keying",
+      "series": "2023-06",
+      "assertion": "part 9(a)(i) keyed to choice B (glued 'B4' answer cell + rebuttal census; finding F14)",
+      "check": "part_keyed_to",
+      "part": "9(a)(i)",
+      "label": "B"
+    },
+    {
+      "id": "C6-elimination-keying-2",
+      "series": "2026-06",
+      "assertion": "part 1(a) keyed to choice D ('<L> (answer)' cell + 'is not the formula' rebuttals; finding F14)",
+      "check": "part_keyed_to",
+      "part": "1(a)",
+      "label": "D"
+    },
+    {
+      "id": "C7-count-registry",
+      "series": "2026-06",
+      "assertion": "exactly 9 questions extracted (verified against printed footers summing to 110; finding F4/F13)",
+      "check": "question_count",
+      "expected": 9
+    },
+    {
+      "id": "C8-count-registry-2",
+      "series": "2023-01",
+      "assertion": "exactly 12 questions extracted (verified against printed footers summing to 110)",
+      "check": "question_count",
+      "expected": 12
+    },
+    {
+      "id": "C9-negative-controls",
+      "series": "*",
+      "assertion": "negative controls N1-N3 DETECTED on every series, every run",
+      "check": "negative_controls_all_detected"
+    },
+    {
+      "id": "C10-cross-diff",
+      "series": "*",
+      "assertion": "independent-parse cross-diff holds 100% marks agreement on every series that has a repo parsed/ layer (2024-06, 2025-06, 2026-06)",
+      "check": "cross_diff_full_agreement"
+    },
+    {
+      "id": "C11-manifest-schema-v2",
+      "series": "2026-06",
+      "assertion": "G0 passes and records the schema-v2 annotation (manifest without series.printed must not crash; finding F13)",
+      "check": "g0_summary_contains",
+      "substring": "manifest schema v2"
+    }
+  ]
+}
