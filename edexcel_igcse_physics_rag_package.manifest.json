@@ -1,0 +1,18 @@
+{
+  "file": "edexcel_igcse_physics_rag_package.zip",
+  "sha256": "a2100fe68d4aa6c0337caf267b479ab77981f9499bacbaf0fc868a7a047fa1bd",
+  "bytes": 468394,
+  "files_in_archive": 23,
+  "stored_as": "release asset on tag books-intake-physics-2026-10-21",
+  "release_url": "https://github.com/SyllabAI/syllabai-resources/releases/tag/books-intake-physics-2026-10-21",
+  "download_url": "https://github.com/SyllabAI/syllabai-resources/releases/download/books-intake-physics-2026-10-21/edexcel_igcse_physics_rag_package.zip",
+  "provenance": {
+    "operator_directive": "134e Physics textbook Proceed (zai-web chat, trace 1a15aeb2b2d1c8a5); keys delivered trace 1a15b213bc9cc525",
+    "source_pdf_sha256": "9b0783d9fe99790a08255eb1f2ebb6eab5833c03ef8e36dd51b7643ac68a313a",
+    "source_pdf_in_archive": false,
+    "source_pdf_note": "Commercial Pearson student-book scan deliberately EXCLUDED from the archive (copyright posture, golden rule 5); referenced by sha256 only. Page-level docling_pages/ intermediates also excluded (repo-side)."
+  },
+  "serves": "books-intake archive-upload gate (physics intake; chemistry precedent T-MIG-133c)",
+  "contents_summary": "rag_physics/ chunks v1 JSONL (736 chunks, validation green, 299/300 LLM-polished) + full_book markdown + parse report + load_rag.py + README; scripts/ parse-merge-audit pipeline (two-round polish incl. guard-fix replay); METHOD_AND_FINDINGS.md; books-lane worklog",
+  "validation": "validate_physics.py: unique IDs, 28/28 chapters, 8/8 units, 0 body order breaks, dual page numbering on every chunk; post-polish serving-critical anchor diff vs pristine v1 = 0 drift on all 736 chunks"
+}
