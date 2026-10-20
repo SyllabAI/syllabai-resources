@@ -60,8 +60,15 @@ STRICT RULES:
 const UNICHARS = /[₀-₉⁰¹²³⁴-⁹⁺⁻°×μΩ·]/g;
 
 function lcsRatio(a, b) {
-  // token-sequence similarity: allows whitespace reflow, forbids wording changes
-  const A = a.split(/\s+/).filter(Boolean), B = b.split(/\s+/).filter(Boolean);
+  // whitespace-normalized wording fidelity (documented intent): strip ALL
+  // whitespace, then character-level LCS ratio. De-glue repairs (splitting
+  // glued tokens) leave the stripped strings identical -> ratio 1.0, while
+  // any wording change/paraphrase/truncation still bites. The previous
+  // token-level version contradicted this intent: it failed every full
+  // de-glue repair (235/236 banked round-1 OKs would fail it) because
+  // splitting a glued token breaks token equality by design.
+  const A = a.replace(/\s+/g, "");
+  const B = b.replace(/\s+/g, "");
   if (!A.length || !B.length) return 0;
   const prev = new Array(B.length + 1).fill(0);
   let cur = new Array(B.length + 1).fill(0);

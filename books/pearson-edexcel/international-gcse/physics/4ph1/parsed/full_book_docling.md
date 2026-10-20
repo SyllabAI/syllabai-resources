@@ -111,11 +111,11 @@ The publisher would lke to thank the following for their kind pemission to repro
 Alamy Stock Photo:age fotostock28tr,230,Ageev Rostislav142,Alison Eckett 210,Ange 243cr,Archive Pics 233bl,Art Directors & TRIP 259,Ashley Cooper 163bl,Authentic Creations 120tl,Charles Stiring/Alamy Stock Photo 18tlChris Cooper-Smith 23t, Chris Rose 110t,Cultura Crative (RF）212. Design Pics Inc 173tr,Digital Image Library 155cl Dinodia Photos 48ti,DOE Photo 164,Emmanuel Lacoste 176cl,epa european pressphoto agency b.v. 87,Flake 60tl,frans lemmens 144cr,Fred Olivier/Nature Picture Lirary 148, GL Archive 233br, Granger Historical Picture Archlve 34,Henry Wostheim Source75,ImagineThat 111cl,INTERFOTO 177,Jeff Rotman 173tc,John Joannides 139, Linda Richards 22tr, Andrew Michael 97t, Michele Burgess 3tr, NASA 265, NASA/ S.Dupuis 44, NASA Archive 37tr, The Natural History 158,Phanie 128br,phlipus 82,Pictorial PressLtd 150,160,187,220,pxel shepherd 63t, PjStudio 110br, Pulsar Images 248t, RadoslavRadev 120cl, Richard Wainscoat 262br,Robert Estallphoto agency 162t, samart boonyang 206,sciencephotos 79cr,80,103cl,Scott Ramsey 18tr,Sean Pavone 133t, Studioshots 63b,Trevor Chriss 59,Alvin Wong 214tlBnanupFanH 9tc; Fotolia.com:annavaczi 144cl,artush 32,izzzy71 144bl,ktsdesign 106, schankz176cr,Szasz-Fabian Jozsef 9tr,troninphoto 23bl;
 
 #### Picture Credits
-Getty Images:Aleksandrs Podskocijs/EyeEm 140, Carlos Herrera/Ioon Sportswire/Corbis 133tc,EcoImages 165,Graiki36,mevans 21bl,Michael Steele279,mlchalzB6/iStock271t,Peter Turnley 28t,ROBERT SULLIVAN /AFP 110cl,Science &Society Picture Library 155bl,163cl,Scott Eells/ Bloomberg 113blViewStock21tl,YinYang 22t;
+Getty Images: Aleksandrs Podskocijs/EyeEm 140, Carlos Herrera/Ioon Sportswire/Corbis 133tc, EcoImages 165, Graiki 36, mevans 21bl, Michael Steele 279, mlchalzB6/iStock 271t, Peter Turnley 28t, ROBERT SULLIVAN /AFP 110cl, Science & Society Picture Library 155bl, 163cl, Scott Eells/Bloomberg 113bl, ViewStock 21tl, YinYang 22t;
 
-Maritime&Coastguard Agency:109cr;
+Maritime & Coastguard Agency: 109cr;
 
-Pearson Education Ltd:Studio 8 71, Gareth Boden 79tl, Coleman Yuen. Science Photo Library Ltd:Andrew Lambert Photography 12tr,25,188,CNRI 241,David Parker 153br,Doring Kindersley /UIG 141,ESA -A. Le Floch37t, DRP.MARAZZ1 242tr,Martyn F. Chlmaid 103t, CORDELIA MOLLOY 20tL70t 70tr,PATRICKLANDMANN248t,R.MEGNA/FUNDAMENTALPHOTOS67, Sputnik159tc,TONY&DAPHNEHALLAS 153cl,TRLLtd.45,WMAP SCIENCE TEAM,NASA273;
+Pearson Education Ltd: Studio 8 71, Gareth Boden 79tl, Coleman Yuen. Science Photo Library Ltd: Andrew Lambert Photography 12tr, 25, 188, CNRI 241, David Parker 153br, Doring Kindersley /UIG 141, ESA -A. Le Floch 37t, DRP. MARAZZ1 242tr, Martyn F. Chlmaid 103t, CORDELIA MOLLOY 20t, L70t 70tr, PATRICK LANDMANN 248t, R. MEGNA/FUNDAMENTAL PHOTOS 67, Sputnik 159tc, TONY & DAPHNE HALLAS 153cl, TRL Ltd. 45, WMAP SCIENCE TEAM, NASA 273;
 
 #### Picture Credits
 Shutterstock.com:805084132,111cr,VartanovAnatoly110t,bikeriderlondon 109bi, Syivie Bouchard 90,Brian Kinney 155tr, Cardens Design 258, Norman Chan72,CreativeNature.nl 163t,devy 9t,Dja6589,271bl,emel82 162cl EpicStockMedla96,MartinFischer 84,GalushkoSergey 128cl,imagedb.com 62.Joanne Harris and Daniel Bubnich 121,karrapavan 196,MidoSemsem 120cr,MIGUEL GARCIA SAAVEDRA 60br,Minerva Studlo179,morchella 123, NADA GIRL 91,Nicholas Sutcliffe 126,Noraluca013 159tl,Pavel L Photo and Video113tr,portumen 163cr,Przemyslaw Skibinski 115.punksid267,ra3m 204,ronstik 236,Sander van Sinttruye 266t,Santi Rodriguez 128tt, Oiga Selyutina 97br,SFC 102,Smlleus100,Stanislav Tplyashin161,STUDIOMAX 145,tcly 48tr,TiagoLadeira 147, topseller 173t,valdis torms 40,Valery Lebedev266bl,Villiers Steyn 128tr, Volodymyr Goinyk 172,vovan 159tr, Voyagerix 20bl, Wolfgang Kloehr 266tr, YanLev.5ti;
@@ -129,24 +129,24 @@ All other images O Pearson Education
 Disclaimer neither Pearson, Edexcel nor the authors take responsibiity for the safety of any activity. Before doing any practical activity you are legally required to carry out your own risk assessment. In particular, any local rules issued by your employer must be obeyed, regardless of what is reoommended in this resource.Where students are requined to write their own risk assessments they must always be checked by the teacher and revised,as necessary. to cover any issues the students may have overlooked. The teacher should always have the finall control as to how the practical is conducted.
 
 #### Picture Credits
-| COURSESTRUCTURE                               |     |
+| COURSE STRUCTURE                               |     |
 |-----------------------------------------------|-----|
-| ABOUTTHISBOOK                                 |     |
-| ASSESSMENTOVERVIEW                            |     |
-| UNIT 1:FORCESANDMOTION                        | 2   |
-| UNIT2:ELECTRICITY                             | 58  |
-| UNIT3:WAVES                                   | 96  |
-| UNIT4:ENERGYRESOURCESANDENERGY TRANSFER       | 132 |
-| UNIT5:SOLIDS,LIQUIDSANDGASES                  | 172 |
-| UNIT6:MAGNETISMANDELECTROMAGNETISM            | 196 |
-| UNIT7:RADIOACTIVITYANDPARTICLES               | 220 |
-| UNIT8:ASTROPHYSICS                            | 258 |
+| ABOUT THIS BOOK                                 |     |
+| ASSESSMENT OVERVIEW                            |     |
+| UNIT 1: FORCES AND MOTION                        | 2   |
+| UNIT 2: ELECTRICITY                             | 58  |
+| UNIT 3: WAVES                                   | 96  |
+| UNIT 4: ENERGY RESOURCES AND ENERGY TRANSFER       | 132 |
+| UNIT 5: SOLIDS, LIQUIDS AND GASES                  | 172 |
+| UNIT 6: MAGNETISM AND ELECTROMAGNETISM            | 196 |
+| UNIT 7: RADIOACTIVITY AND PARTICLES               | 220 |
+| UNIT 8: ASTROPHYSICS                            | 258 |
 | APPENDICES                                    |     |
-| APPENDIXA:PERIODICTABLE                       | 277 |
-| APPENDIXB:FORMULAEANDRELATIONSHIPS            | 278 |
-| APPENDIXC:PHYSICALQUANTITIESANDUNITS          | 279 |
-| APPENDIXD:EXPERIMENTALAND INVESTIGATIVESKILLS | 280 |
-| APPENDIXE:COMMAND WORDS                       | 284 |
+| APPENDIX A: PERIODIC TABLE                       | 277 |
+| APPENDIX B: FORMULAE AND RELATIONSHIPS            | 278 |
+| APPENDIX C: PHYSICAL QUANTITIES AND UNITS          | 279 |
+| APPENDIX D: EXPERIMENTAL AND INVESTIGATIVE SKILLS | 280 |
+| APPENDIX E: COMMAND WORDS                       | 284 |
 | GLOSSARY                                      | 285 |
 | INDEX                                         | 289 |
 
@@ -526,24 +526,24 @@ You do not need to include these equations in your table headings but you may be
 |--------------|-----------------|-----------------|------------------------------------|------------------------------|
 
 #### THE DIFFERENCE BETWEEN SPEED AND VELOCITY
-Inaquestionyou maybegiven a completesetof resultsoryou mayberequired tocomplete thetableby doing thenecessary calculations.You maybe asked toplot a graph(seegeneral notes above)and then drawa conclusion.The conclusionyou drawmustbeexplained withreference to the graph,forexample,if the best fit line thereisaproportionalrelationshipbetween thequantitiesyou haveplottedon thegraph.
+In a question you may be given a complete set of results or you may be required to complete the table by doing the necessary calculations. You may be asked to plot a graph (see general notes above) and then draw a conclusion. The conclusion you draw must be explained with reference to the graph, for example, if the best fit line there is a proportional relationship between the quantities you have plotted on the graph.
 Some alternative methods
 
-You could investigate the motion of moving objectsusingphotographicmethodseitherby:
+You could investigate the motion of moving objects using photographic methods either by:
 
-• intervals(found from the frequencysetting onthe stroboscope)with thecamera adjusted sothat theshutteris open forthe duration of themovement,or
+• intervals (found from the frequency setting on the stroboscope) with the camera adjusted so that the shutter is open for the duration of the movement, or
 
 • you to calculate the time between each image.
 
-In either case a clearlymarked measuring scale should be visible.
+In either case a clearly marked measuring scale should be visible.
 
-Oryou could use an electronicallyoperated stopclock and electronictiming gates.Thiswill letyoumeasure the time thatit takes forthe moving object to travel overa measured distance.Thishas theadvantage ofremoving timing errorsproduced byhumanreaction time.
+Or you could use an electronically operated stopclock and electronic timing gates. This will let you measure the time that it takes for the moving object to travel over a measured distance. This has the advantage of removing timing errors produced by human reaction time.
 
-Youcan also use timing gates to measure how the speed of the object changes asit moves.
+You can also use timing gates to measure how the speed of the object changes as it moves.
 
-Figure 1.11 Using a timing gate ls a more accurate method formeasuring time taken to travel a distance.
+Figure 1.11 Using a timing gate is a more accurate method for measuring time taken to travel a distance.
 
-timinggate.Measuring thelength of thecardstrip and the time it takesfor the card strip topass through the timing gate allowsyou tocalculate the averagespeed of thecarasitpassesthrough the timinggate.
+timing gate. Measuring the length of the card strip and the time it takes for the card strip to pass through the timing gate allows you to calculate the average speed of the car as it passes through the timing gate.
 ACCELERATION
 
 Figure 1.12showssome objectswhosespeed ischanging.Theplane must accelerate toreach take-off speed.In ice hockey.the puck(small disc that the playerhits)deceleratesonlyvery slowlywhen it slidesacrossthe ice.When the egg hits the ground it is forced to decelerate(decreaseits speed)very rapidly.Rapid deceleration can have destructive results.
@@ -555,15 +555,15 @@ AFigure 1.12 Acceleration...
 ...and deceleration
 HINT
 
-It isgoodpractice to include unitsin equations-thiswill helpyou to supply the answerwith the correct unit.
+It is good practice to include units in equations - this will help you to supply the answer with the correct unit.
 
-Acceleration is therateatwhich objects change theirvelocity.ltisdefined as follows:
+Acceleration is the rate at which objects change their velocity. It is defined as follows:
 
-Whyu?Simplybecause it comesbeforev!
+Why u? Simply because it comes before v!
 
-Acceleration,likevelocity.is a vector because the directionin which the acceleration occurs isimportant as well as the size of the acceleration.
+Acceleration, like velocity, is a vector because the direction in which the acceleration occurs is important as well as the size of the acceleration.
 
-Velocityismeasured inm/s,so increase invelocityisalsomeasured inm/s. Acceleration,therate of increaseinvelocitywith time,is thereforemeasured in m/s/s(read asmetrespersecond per second').We normally write this as m/s²(read as'metresper second squared').Other unitsmaybeused-for example,cm/s².
+Velocity is measured in m/s, so increase in velocity is also measured in m/s. Acceleration, the rate of increase in velocity with time, is therefore measured in m/s/s (read as 'metres per second per second'). We normally write this as m/s² (read as 'metres per second squared'). Other units may be used - for example, cm/s².
 EXAMPLE2
 
 Acaris travelling at20 m/s.ltacceleratessteadily for5s,afterwhich time it is travelling at30 m/s.Calculateitsacceleration.
@@ -888,11 +888,11 @@ mation:
 su? + 2as
 
 ee
-EXAMPLES
 
-Acylinder containing a vaccine isdropped from a helicopterhovering at aheightof200 m above theground.Theacceleration due togravity is 10 m/s².Calculate the speed at which the cylinder will hit the ground.
+#### EXAMPLES
+A cylinder containing a vaccine is dropped from a helicopter hovering at a height of 200 m above the ground. The acceleration due to gravity is 10 m/s². Calculate the speed at which the cylinder will hit the ground.
 
-You are given the acceleration,a=10 m/s²,and the distance,s=200 m, through which the cylindermoves.The initial velocity,u,isnot stated,but you assume it isOm/s as the helicopter ishovering (staying in one place in the air).Substitute these valuesin the given equation:
+You are given the acceleration, a=10 m/s², and the distance, s=200 m, through which the cylinder moves. The initial velocity, u, is not stated, but you assume it is 0 m/s as the helicopter is hovering (staying in one place in the air). Substitute these values in the given equation:
 
 v²=u²+2as
 
@@ -900,7 +900,7 @@ v²=u²+2as
 
 • =4000m²/s²
 
-thereforev=√（4000 m²/s²)
+therefore v=√（4000 m²/s²)
 
 • =63.25m/s
 LOOKING AHEAD
@@ -956,63 +956,37 @@ In which graph is the object:
 • c decelerating
 
 #### LOOKING AHEAD
-• daccelerating at the greatest rate?
+• d accelerating at the greatest rate?
 
-• 14 Sketch avelocity-timegraph to showhow thevelocityof a car travelling alonga straightroad changesif it acceleratesuniformlyfromrestfor5s, travelsata constantvelocity for10 s,then brakes hard to come torest in 2s.
+• 14 Sketch a velocity-time graph to show how the velocity of a car travelling along a straight road changes if it accelerates uniformly from rest for 5s, travels at a constant velocity for 10 s, then brakes hard to come to rest in 2s.
 
-• 15a Plota velocity-time graph using the data in the following table:
+• 15a Plot a velocity-time graph using the data in the following table:
 
-0.0
-
-2.5
-
-5.0
-
-7.5
-
-10.0
-
-0.0
-
-1.0
-
-2.0
-
-3.0
-
-4.0
-
-5.0
-
-6.0
-
-7.0
-
-8.0
-
-9.0
+0.0 | 2.5 | 5.0 | 7.5 | 10.0
+0.0 | 1.0 | 2.0 | 3.0 | 4.0
+5.0 | 6.0 | 7.0 | 8.0 | 9.0
 
 Draw a line of best fit and use your graph to find:
 
-• bthe acceleration during the first4s
+• b the acceleration during the first 4s
 
-• cthe distance travelled in:
+• c the distance travelled in:
 
-• ithefirst4sof themotion shown
+• i the first 4s of the motion shown
 
-• iithelast5softhe motion shown
+• ii the last 5s of the motion shown
 
-• dtheaverage speed during the9secondsof motion shown.
+• d the average speed during the 9 seconds of motion shown.
 
-• 16 The dripping car fromQuestion7is still on theroad! It is still dripping oil butnow at a rateofone droppersecond.The trailof dripsisshown on the diagrambelow asthe cartravels from left toright.
+• 16 The dripping car from Question 7 is still on the road! It is still dripping oil but now at a rate of one drop per second. The trail of drips is shown on the diagram below as the car travels from left to right.
 
-Describe the motion (the way the car is moving)using the information in this diagram.
+Describe the motion (the way the car is moving) using the information in this diagram.
 
-• 17This question uses the equation v²=u²+2as.
+• 17 This question uses the equation v²=u²+2as.
 
-• aExplainwhateachof the termsin thisequationrepresents.
+• a Explain what each of the terms in this equation represents.
 
-• bA ball isthrown verticallyupwardsat25m/s.Gravity causes theball to decelerateat10 m/s².Calculate the maximumheighttheballwillreach.
+• b A ball is thrown vertically upwards at 25 m/s. Gravity causes the ball to decelerate at 10 m/s². Calculate the maximum height the ball will reach.
 
 ## Unit 1: Forces and Motion
 
@@ -1160,23 +1134,25 @@ If you apply a force to an elastic band, its shape changes - the band stretches 
 Some materials, like glass, do not change shape easily and are brittle, breaking rather than stretching noticeably. Elastic materials do not break easily and tend to return to their original shape when the forces acting on them are removed. like the spring in Figure 2.11b. Other materials, like putty and modelling clay are not elastic but plastic, and they change shape when even quite small forces are applied to them.
 
 We will look at elastic materials, like rubber, metal wires and metals formed into springs, in the next part of this chapter.
-SPRINGSANDWIRES
 
-Springs are coiled lengths of certain types of metal,which can be stretched situations.Sometimes they are used toabsorbraised bumps in the road as suspension springsin a carorbicycle.Inbeds and chairs theyareused to make sleeping and sittingmore comfortable.Theyare alsoused in doorlocks tohold them closed and to make doors close automatically.
+#### SPRINGSANDWIRES
+SPRINGS AND WIRES
 
-To choose the right spring foraparticularuse,wemust understand some
+Springs are coiled lengths of certain types of metal, which can be stretched situations. Sometimes they are used to absorb raised bumps in the road as suspension springs in a car or bicycle. In beds and chairs they are used to make sleeping and sitting more comfortable. They are also used in door locks to hold them closed and to make doors close automatically.
 
-Springs changelengthwhen a forceactson them and theyretum to their originallengthwhen theforceisremoved.
+To choose the right spring for a particular use, we must understand some
 
-Thisis trueprovidedyou donotstretch them toomuch.lf springs are stretched
+Springs change length when a force acts on them and they return to their original length when the force is removed.
 
-Robert Hooke discovered anotherimportantproperty of springs.He used simple apparatuslike that shown inFigure2.12.
+This is true provided you don't stretch them too much. If springs are stretched
 
-Hooke measured the increasein length(extension)produced by different load forces on springs.The graphhe obtained byplotting force againstextension was a straight line passing through theorigin.This showsthat the extensionof the spring isproportional to the force.Thisrelationship is known as Hooke's law.
+Robert Hooke discovered another important property of springs. He used simple apparatus like that shown in Figure 2.12.
 
-Figure2.12Robert Hooke(1635-1703) was a contemporary of Sir lsaac Newton.This is a drawing of the apparatus Hooke used in his experimental work on the extension of a spring.
+Hooke measured the increase in length (extension) produced by different load forces on springs. The graph he obtained by plotting force against extension was a straight line passing through the origin. This shows that the extension of the spring is proportional to the force. This relationship is known as Hooke's law.
 
-Wear eyeprotectionifheavy loads are beingused and clamp stands securely to a bench or table.Keep hands and feetaway frombeneath the load.Do not use excessively large loads.
+Figure 2.12 Robert Hooke (1635-1703) was a contemporary of Sir Isaac Newton. This is a drawing of the apparatus Hooke used in his experimental work on the extension of a spring.
+
+Wear eye protection if heavy loads are being used and clamp stands securely to a bench or table. Keep hands and feet away from beneath the load. Do not use excessively large loads.
 
 #### PRACTICAL:INVESTIGATEHOWTHEEXTENSION OFA SPRINGCHANGESWITHLOAD
 PRACTICAL: INVESTIGATE HOW THE EXTENSION OF A SPRING CHANGES WITH LOAD
@@ -1461,25 +1437,23 @@ You can use the triangle method to rearrange this equation.
 Near and on the Earth's surface the gravitational field strength is approximately 9.8 N/kg, but we often use 10 N/kg to make calculations easier. The gravitational field strength on the Moon is about 1.6 N/kg, so an object taken from the Earth to the Moon will have less weight even though it has the same mass.
 
 • Figure 3.13 An astronaut jumping on the Moon enjoying the effect of low gravity
-EXAMPLE2
 
-An astronautinaspace suitwitha completelife supportpackhasa mass of140kg.Howmuchwill the astronautweigha on the Earth,and b on Marswhere the gravitational field strength isabout one thirdof that on Earth?(Take the strengthof the Earth's gravitational field as 10 N/kg.)
+#### EXAMPLE2
+EXAMPLE 2
+
+An astronaut in a space suit with a complete life support pack has a mass of 140kg. How much will the astronaut weigh a on the Earth, and b on Mars where the gravitational field strength is about one third of that on Earth? (Take the strength of the Earth's gravitational field as 10 N/kg.)
 
 The force of gravity or weight of an object is given by:
 
-weight,W=mass,m×gravitational field strength,g
+weight, W = mass, m × gravitational field strength, g
 
-• aweighton Earth=140kgx10N/kg
+• a weight on Earth = 140kg × 10N/kg
+= 1400N
 
-=1400N
+• b weight on Mars = 140kg × 3.34N/kg
+= 468N
 
-• 10N/kg =3.34N/kg bg on Mars= 3
-
-weightonMars=140kgx3.34N/kg
-
-=468N
-
-• Figure3.15The velocity-time graph for an object accelerating until it reaches terminal velocity
+• Figure 3.15 The velocity-time graph for an object accelerating until it reaches terminal velocity
 
 #### AIRRESISTANCEANDTERMINALVELOCITY
 AIR RESISTANCE AND TERMINAL VELOCITY
@@ -1619,17 +1593,15 @@ p=mxV
 • Use the conservation ofmomentum tocalculate the mass,velocity or momentum ofobjects
 KEY POINT
 
-Donot confuse momentum,aproperty ofmoving masses,with moment,the turning effect of a force.
+Do not confuse momentum, a property of moving masses, with moment, the turning effect of a force.
 
-force=
-
-time taken
+force = time taken
 
 (mv-mu)
 
-• Demonstrateanunderstanding of Newton's third law
+• Demonstrate an understanding of Newton's third law
 
-Newton'scradle is an entertaining toybutit also demonstratesaphysics conservation law.When oneof theballsisdrawn backa short way and released,it swings and collides with the remaining groupofballs.After the firstball wasdrawnbacktostartwith.Iftwoballsaredrawnbackandreleased then twoballswillmoveaway at the oppositeend asthecollision occurs. Themoving ball hasmomentum,and momentum is conserved in collisions. Thischapterisabout momentum andwhat ismeantby conservation of momentum.
+Newton's cradle is an entertaining toy but it also demonstrates a physics conservation law. When one of the balls is drawn back a short way and released, it swings and collides with the remaining group of balls. After the first ball was drawn back to start with. If two balls are drawn back and released then two balls will move away at the opposite end as the collision occurs. The moving ball has momentum, and momentum is conserved in collisions. This chapter is about momentum and what is meant by conservation of momentum.
 MOMENTUM
 
 We talk about objects gaining momentum' in everyday speech. When we say this we are usually trying to get across an idea of something becoming more
@@ -1894,23 +1866,26 @@ Challenge apartner(perhapsonewho thinks that he or she is strongl) to try to app
 • Figure 5.2 The distance of the force from the pivot is crucial.
 
 Youwill realise thatyou have an advantagebecause the tuming effect ofyour force doesn't just depend on the size of the forceyou applybutalso on the distance from thehinge orpivot at whichyou apply it.You have the advantage of greater leverage(Figure 5.2).
-THEMOMENT OFAFORCE
 
-The turning effect ofa forceabout a hinge orpivot iscalled itsmoment.The moment of a force is defined like this:
+#### THEMOMENT OFAFORCE
+THE MOMENT OF A FORCE
 
-moment of a force(Nm)= force,F (N) xperpendicular distance from pivot,d (m) moment=Fxd
+The turning effect of a force about a hinge or pivot is called its moment. The moment of a force is defined like this:
 
-The moment ofa force ismeasured innewton metres(Nm)because force is measured innewtons and the distance to thepivotisinmetres.Weneed tobe preciseaboutwhat distancewe measurewhen calculating the moment ofa force.Look at the diagrams inFigure 5.3.
+moment of a force (Nm) = force, F (N) × perpendicular distance from pivot, d (m)
+moment = F × d
+
+The moment of a force is measured in newton metres (Nm) because force is measured in newtons and the distance to the pivot is in metres. We need to be precise about what distance we measure when calculating the moment of a force. Look at the diagrams in Figure 5.3.
 
 force
 
 • Figure 5.3 For a force to have its biggest effect it should be at 90° to the lever.
 
-Ifyou think about the simple dooropening'competition'we discussed earlier you will realisethat fora force tohave thebiggest turning effect it should be appliedasinFigure5.3a-that is,itsline ofaction shouldbeperpendicular（at 90° to the door.
+If you think about the simple door opening 'competition' we discussed earlier you will realise that for a force to have the biggest turning effect it should be applied as in Figure 5.3a - that is, its line of action should be perpendicular (at 90°) to the door.
 
-InFigure 5.3b the forcehasno tuming effect atall because the line along which the forceis acting passes through the pivot.
+In Figure 5.3b the force has no turning effect at all because the line along which the force is acting passes through the pivot.
 
-Figure5.3cshowshow thedistance tothepivotmustbemeasured togetthe correctvalue for themoment.The distance is the perpendiculardistancefrom the line ofaction of the force to the pivot.
+Figure 5.3c shows how the distance to the pivot must be measured to get the correct value for the moment. The distance is the perpendicular distance from the line of action of the force to the pivot.
 INBALANCE
 
 An object willbe in balance (that is,it will not try to tun about a pivot point) if: sum of anticlockwise moments=sum of clockwisemoments
@@ -1972,13 +1947,15 @@ The answer is that person B must apply a force greater than 50 N (F > 50 N).
 Look back at Figure 5.1 and look at Figure 5.6. The load arm is long so that the crane can reach across a construction site and move loads backwards and forwards along the length of the arm. The weight of the long load arm and the load must be counterbalanced by the large concrete blocks at the end of the short arm that projects out behind the crane controller's cabin. The counterbalance weights must be large because they are positioned closer to the pivot point, where the crane tower supports the crosspiece of the crane. Without careful balance the turning forces on the support tower could cause it to bend and collapse
 
 Figure 5.6 The clockwise and anticlockwise moments on the crane must be balanced.
-CENTREOFGRAVITY
 
-Trybalancing aruler onyourfinger,as shown inFigure5.7.
+#### CENTREOFGRAVITY
+CENTRE OF GRAVITY
 
-When therulerisbalanced,theanticlockwisemoment isequal to the clockwisemoment,butthereare nodownward forcesacting inthissituation otherthan theweightof theruleritself.Weknow thattheweightof theruleris due to thepullof the Earth's gravity on the mass of the ruler.The mass of the rulerisequally spread throughout itslength.It isnot,therefore,surprising to find thatthe rulerbalancesatitscentrepoint.
+Try balancing a ruler on your finger, as shown in Figure 5.7.
 
-Wesay that the centre of gravity of therulerisat thispoint.Theweight force of theruler acts through the centre of gravity-it is thepointwhere the whole of theweightof theruler appearstoact.lf we support theruler at thispoint there isno turning moment in any direction about the point,and it balances.The centre ofgravityis sometimes called the centre of mass.
+When the ruler is balanced, the anticlockwise moment is equal to the clockwise moment, but there are no downward forces acting in this situation other than the weight of the ruler itself. We know that the weight of the ruler is due to the pull of the Earth's gravity on the mass of the ruler. The mass of the ruler is equally spread throughout its length. It is not, therefore, surprising to find that the ruler balances at its centre point.
+
+We say that the centre of gravity of the ruler is at this point. The weight force of the ruler acts through the centre of gravity - it is the point where the whole of the weight of the ruler appears to act. If we support the ruler at this point there is no turning moment in any direction about the point, and it balances. The centre of gravity is sometimes called the centre of mass.
 Finding the centreofgravity ofa sheetof card
 
 Ifyou have a sheetof card orany other uniform material thenfinding its centre of as shown in Figure 5.8.
@@ -1998,15 +1975,17 @@ Thissketchdiagramshowsauniformwoodenmetrerulerwitha massof 0.12kg.Apivot at the 
 The weight of the ruler actsvertically through the centreof gravity of the rule.As theruleris uniform the centreofgravityisat the 50 cm mark.
 
 • Figure 5.11 A labelled sketch of the problem
-Forbalance:
 
-anticlockwisemoments=clockwisemoments
+#### Forbalance:
+For balance:
 
-（mxg）×20cm=（0.12kg×g）x10cm
+anticlockwise moments = clockwise moments
+
+(mxg) × 20cm = (0.12kg×g) x10cm
 
 The mass of the brass weight is 0.06 kg.
 
-Here g is the gravitational field strength in N/kg but,asyou can see,it cancels.You can leave the distances in centimetresbecause you are using the samelengthunits onboth sidesof the equation.
+Here g is the gravitational field strength in N/kg but, as you can see, it cancels. You can leave the distances in centimetres because you are using the same length units on both sides of the equation.
 Centre ofgravity and stability
 
 Theposition of the centre of gravity of an object will affect itsstability.A stable objectisone that is difficult topush over-whenpushed and then releaseditwill tend to retun to its original position.
@@ -2190,51 +2169,49 @@ PHYSICS ONLY
 
 This question is about momentum.
 
-• Statewhethermomentumisascalar or avector quantity and explainyour answer. (3)
+• State whether momentum is a scalar or a vector quantity and explain your answer. (3)
 
-The following apparatus isused toinvestigate themomentum of two gliderson a linearair-track.
+The following apparatus is used to investigate the momentum of two gliders on a linear air-track.
 
-The gliders are fitted with magnetswith likepoles facing each other,so that theyrepel each other,and tied togetherwith a cotton thread.Thiscotton thread will be burnt using a flame laterin theinvestigation.5 cmsquare cards are attached toboth gliders-these will pass through thelight gates.Digital timers time how long each card takes to pass through the light gates.The gliders are initially atrest.
+The gliders are fitted with magnets with like poles facing each other, so that they repel each other, and tied together with a cotton thread. This cotton thread will be burnt using a flame later in the investigation. 5 cm square cards are attached to both gliders - these will pass through the light gates. Digital timers time how long each card takes to pass through the light gates. The gliders are initially at rest.
 
-• bState the initial momentum of the gliders.
-
-(1)
-
-• iDrawa labelled diagram showing the forcesacting ongliderAbefore the thread is bunt. (4)
-
-• iiStateNewton'sthird lawandexplainhowit appliesto thehorizontal forces on the gliderswhen the thread is cut with the flame.
-
-(E)
-
-• IliDescribe what happens to the two gliderswhen the thread iscut.
+• b State the initial momentum of the gliders.
 
 (1)
 
-• dAfter the thread is cut the card on gliderApasses thelight gate in 1.25s.
+• i Draw a labelled diagram showing the forces acting on glider A before the thread is burnt. (4)
+
+• ii State Newton's third law and explain how it applies to the horizontal forces on the gliders when the thread is cut with the flame.
+
+(5)
+
+• iii Describe what happens to the two gliders when the thread is cut.
+
+(1)
+
+• d After the thread is cut the card on glider A passes the light gate in 1.25s.
 
 HINT
 
 (2)
 
-(5)
+• Calculate the speed of glider A as it passes through the light gate.
 
-• Calculate the speed of gliderA asit passes through the light gate.
+• i Glider A has a mass of 500g and glider B has a mass of 800g Calculate how fast glider B will be moving, explaining your method and any assumptions you make.
 
-• liGliderAhas a massof500g and gliderB hasa massof800g Calculate how fastglider Bwillbemoving,explainingyourmethod and anyassumptionsyou make.
+• The experiment is repeated but the two gliders are tied closer together with a shorter cotton thread. Explain what difference this would make to the result of cutting the thread, if any.
 
-• The experimentisrepeatedbutthe two glidersare tied closertogether witha shorter cotton thread.Explain what difference this would make to the result of cutting the thread,if any.
-
-(E)
+(3)
 
 Think about magnetic forces.
 
-(Total forQuestion4=22marks)
+(Total for Question 4 = 22 marks)
 
 REASONING
 
 a
 
-• IName the independent variable in this investigation.
+• i Name the independent variable in this investigation.
 
 (1)
 
@@ -2377,11 +2354,13 @@ Other common appliances thatmakeuseof theheating effectofelectricity includekett
 When current passes through the very thin wire（filament)of a traditional light bulbit becomesvery hot and glows（shines)white.The bulb is transferring electrical energy toheat and light energy.
 
 • Figure 6.11 It is the heating effect of a current that is causing this bulb to glow.
-ELECTRICALPOWER
 
-Figure6.12showsa50Whalogenlightbulb.Youcan alsobuy70Wlight bulbs.Bothbulbs transferelectricalenergy toheat and light.The70Wbulb willbebrighterbecauseit transfers70Jofelectricalenergy every second.The dimmer50Whalogenbulbshown transfersonly50Jofenergy everysecond. A70Wbulb has a higherpowerrating.
+#### ELECTRICALPOWER
+ELECTRICAL POWER
 
-• Figure 6.12 The dimmer 50 wbulb transfersless electrical energy to heat and light energy every second.
+Figure 6.12 shows a 50 W halogen light bulb. You can also buy 70 W light bulbs. Both bulbs transfer electrical energy to heat and light. The 70 W bulb will be brighter because it transfers 70 J of electrical energy every second. The dimmer 50 W halogen bulb shown transfers only 50 J of energy every second. A 70 W bulb has a higher power rating.
+
+• Figure 6.12 The dimmer 50 W bulb transfers less electrical energy to heat and light energy every second.
 KEY POINT
 
 You will lean more about voltage and current in Chapter 7.
@@ -2441,13 +2420,13 @@ Figure 6.14 showshow thevoltage ofan a.c.supply compareswith the voltageofad.c.s
 Figure 6.14 How the voltage of an a.c. supply compares with that of a d.c. supply
 
 #### ALTERNATING CURRENTAND DIRECT CURRENT
-| CHAPTERQUESTIONS                       | More questions on domesticelectricity can be found at theend of Unit 2on page 93. |
+| CHAPTER QUESTIONS                       | More questions on domestic electricity can be found at the end of Unit 2 on page 93. |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SKILLS PROBLEM SOLVING                 | aThere isacurrent of0.25Ain abulbwhenavoltageof 12Visapplied acrossit.Calculate the power of the bulb. Calculate thevoltage that isbeing applied across a 10Wbulb with a current of 0.2A. cCalculate thecurrentina60Wbulbif thevoltage acrossitis230V. dHowmuchenergy istransferredifa 100Wbulb isleftonfor5hours? |
-| CAITICAL THINKING                      | 2Anelectrickettleismarked'230V,1.5kW. Explain what these numbers mean. |
-| SKILLS PROBLEMSOLVING SKILLS REASONING | Calculate the correct fuse that should beused. Explainwhya230V,100Wbulbglowsmorebrightlythana230V,60W bulb when both are connected to the mains supply. |
-| SKILLS CRITICAL THINKING               | Give one advantage of usinga circuit breakerrather than a wire or cartridge fuse. bWhyis the switch for an appliance alwaysplaced in the live wire? cWhat ismeant by the sentence‘The hairdryer has double insulation'? |
-| SKILLS DECISION MAKING, CREATIVITY     | Thinkof a room inyourhousewhere there arelotsofelectrical appliances. Make a listof them.Now organiseyour list so that the appliancesthatyou thinkhave thehighestpowerrating areat the topofyourlist and thosewith thelowest are at the bottom.How couldyoudiscoverifyourguessesare correct? |
+| SKILLS PROBLEM SOLVING                 | a There is a current of 0.25A in a bulb when a voltage of 12V is applied across it. Calculate the power of the bulb. Calculate the voltage that is being applied across a 10W bulb with a current of 0.2A. c Calculate the current in a 60W bulb if the voltage across it is 230V. d How much energy is transferred if a 100W bulb is left on for 5 hours? |
+| CRITICAL THINKING                      | 2 An electric kettle is marked '230V, 1.5kW. Explain what these numbers mean. |
+| SKILLS PROBLEM SOLVING SKILLS REASONING | Calculate the correct fuse that should be used. Explain why a 230V, 100W bulb glows more brightly than a 230V, 60W bulb when both are connected to the mains supply. |
+| SKILLS CRITICAL THINKING               | Give one advantage of using a circuit breaker rather than a wire or cartridge fuse. b Why is the switch for an appliance always placed in the live wire? c What is meant by the sentence 'The hairdryer has double insulation'? |
+| SKILLS DECISION MAKING, CREATIVITY     | Think of a room in your house where there are lots of electrical appliances. Make a list of them. Now organise your list so that the appliances that you think have the highest power rating are at the top of your list and those with the lowest are at the bottom. How could you discover if your guesses are correct? |
 
 ## Unit 2: Electricity
 
@@ -2828,19 +2807,21 @@ forthe2ΩresistorV=2Ax2Q=4V
 forthe4Ωresistor:V=2Ax4Q=8V
 
 The resistance wire in the circuit may get hot enough to bum skin if the current/voltage is increased too much.
-EXPERIMENTTOINVESTIGATEHOWCURRENTVARIESWITH VOLTAGEFORDIFFERENTCOMPONENTS
 
-• 1Setup the circuit shown inFigure8.4.
+#### EXPERIMENTTOINVESTIGATEHOWCURRENTVARIESWITH VOLTAGEFORDIFFERENTCOMPONENTS
+EXPERIMENT TO INVESTIGATE HOW CURRENT VARIES WITH VOLTAGE FOR DIFFERENT COMPONENTS
 
-• 2Tun thevariableresistor toitsmaximumvalue.
+• 1 Setup the circuit shown in Figure 8.4.
 
-• 3 Close the switch and take thereadings from the ammeter and thevoltmeter.
+• 2 Turn the variable resistor to its maximum value.
 
-• Alter thevalue of thevariableresistor again and take a newpair ofreadings from the meters.
+• 3 Close the switch and take the readings from the ammeter and the voltmeter.
 
-• 5Repeat the whole process at least six times.
+• Alter the value of the variable resistor again and take a new pair of readings from the meters.
 
-• 6Place theresults ina table (see the table below)and draw a graphof current ()against voltage (M).
+• 5 Repeat the whole process at least six times.
+
+• 6 Place the results in a table (see the table below) and draw a graph of current (I) against voltage (V).
 
 • Figure 8.4 This circuit can be used to investigate the relationship between current and voltage.
 
@@ -2859,7 +2840,7 @@ Typical results table
 
 Figure 8.5 Graph of results
 
-CURRENT/VOLTAGEGRAPHFORA WIRE ORA RESISTOR
+CURRENT/VOLTAGE GRAPH FOR A WIRE OR A RESISTOR
 HINT
 
 The flatter the slope the higher the resistance.
@@ -3038,19 +3019,21 @@ Allatoms contain small particlescalled protons,neutrons and electrons.The proton
 • Figure 9.2A neutral atom has the same number of negative electrons and positive protons (not to scale).
 
 Normally the numberofprotons in the nucleus isequal to thenumber of orbiting electrons.The atom therefore has no overall charge.Itis neutral.Ifan atom gainsextra electrons,itis then negatively charged.lfan atom loses electrons,it becomespositively charged.Anatom thatbecomes charged by gainingorlosingelectronsiscalled anion.
-CHARGING MATERIALSBYFRICTION
 
-It ispossible tocharge some objects simplybyrubbing them together.But these objectsmustbemade from differentmaterialsandthesematerialsmust be electrical insulators,
+#### CHARGING MATERIALSBYFRICTION
+CHARGING MATERIALS BY FRICTION
 
-We can test which materials are conductors andwhich are insulatorsusing the circuit in Figure 9.3.
+It is possible to charge some objects simply by rubbing them together. But these objects must be made from different materials and these materials must be electrical insulators,
+
+We can test which materials are conductors and which are insulators using the circuit in Figure 9.3.
 
 • Figure 9.3 Testing circuit
 
-Ifweplacea conductorbetween A and B thebulbwill shine.lf we place an insulatorbetweenAand B the bulbwill not shine.
+If we place a conductor between A and B the bulb will shine. If we place an insulator between A and B the bulb will not shine.
 
-Materials such asgraphite andmetals such as copper,tin and gold allow electricity to flow through them easily.They are electrical conductors.
+Materials such as graphite and metals such as copper, tin and gold allow electricity to flow through them easily. They are electrical conductors.
 
-Materials such asplastic,rubber,glass and wood donot allow electricity to flow through them easily.They are electrical insulators.
+Materials such as plastic, rubber, glass and wood do not allow electricity to flow through them easily. They are electrical insulators.
 REMINDER
 
 It is important torememberthat the rubbingaction doesnotproduce or create charge.lt simply separates charge-that is,it transfers some electrons from one object toanother.
@@ -3074,15 +3057,15 @@ Figure 9.5 Similar charges repel and opposite charges attract
 Charged objects can exert forces on other charged objects without being in contact with them. If the charges are similar, the objects repel each other. f
 EXTENSION WORK
 
-Staticelectricity is abuild upof charge thatdoes not move.The movement of charge is current electricity.
+Static electricity is a build up of charge that does not move. The movement of charge is current electricity.
 
-Alithoughyouwill notbe testedon theVan de Graaff generatorit can beused to show dramatically the repulsion between similar charges.
+Although you will not be tested on the Van de Graaff generator it can be used to show dramatically the repulsion between similar charges.
 
-Figure9.6 showswhat canhappen if a person is charged withstatic electricity.The girl has herhands onaVan de Graaff generator.When it is turned on chargesflow onto thelargemetal dome.Some of the chargesflow overherhands and onto allpartsof her body,includingherhair.Each strand (piece)ofhairhas the same type of charge as its neighbour.There are repulsive forces between the strands,so the strands repel each other.These forces cause herhair to stand onend.
+Figure 9.6 shows what can happen if a person is charged with static electricity. The girl has her hands on a Van de Graaff generator. When it is turned on charges flow onto the large metal dome. Some of the charges flow over her hands and onto all parts of her body, including her hair. Each strand (piece) of hair has the same type of charge as its neighbour. There are repulsive forces between the strands, so the strands repel each other. These forces cause her hair to stand on end.
 
-• Figure 9.6 A build-up of static electricity meansthat eachhairon the girl'shead has the same charge,and they repel each other.
+• Figure 9.6 A build-up of static electricity means that each hair on the girl's head has the same charge, and they repel each other.
 
-For this demonstration to work,the girl must stand onaninsulatorto prevent anyof the chargesshe is receivingfrom thegeneratorfromescaping into the floor.At the end of the demonstration thegirl steps off the insulator-the charges can now escape and herhairfalls.When apathisprovided forchargesto escape it is called earthing.
+For this demonstration to work, the girl must stand on an insulator to prevent any of the charges she is receiving from the generator from escaping into the floor. At the end of the demonstration the girl steps off the insulator - the charges can now escape and her hair falls. When a path is provided for charges to escape it is called earthing.
 FORCESBETWEEN CHARGEDAND UNCHARGED OBJECTS
 
 It ispossible fora charged object toattract something that is uncharged.The balloon experiment demonstrates this.
@@ -3233,69 +3216,65 @@ UNIT QUESTIONS
 
 SKILLS
 
-CRITICAL THINKENG
+CRITICAL THINKING
 
-• aWhichof the following isnotused toprotect usfrom the possibility of receiving an electric shock?
+• a Which of the following is not used to protect us from the possibility of receiving an electric shock?
 
-• Adouble insulation
+• A double insulation
 
-• B livewire
+• B live wire
 
-• Cearth wire
+• C earth wire
 
-• Dcircuitbreaker
+• D circuit breaker
 
-• bWhichof thefollowing istrueforanegatively charged object?
+• b Which of the following is true for a negatively charged object?
 
-• A It will attract anothernegatively charged object.
+• A It will attract another negatively charged object.
 
 • B It has too few electrons.
 
-• CIt has too many neutrons.
+• C It has too many neutrons.
 
-• DIt has gained extra electrons.
+• D It has gained extra electrons.
 
-• cWhichof the following is true for all parallel circuits?
+• c Which of the following is true for all parallel circuits?
 
-• APartsof the circuit can be tumed off while otherpartsremain on.
+• A Parts of the circuit can be turned off while other parts remain on.
 
-• B The current is the same in all partsof the circuit.
+• B The current is the same in all parts of the circuit.
 
-• CThere is only one path for the current to follow.
+• C There is only one path for the current to follow.
 
-• D There are nojunctions orbranches.
+• D There are no junctions or branches.
 
 PROBLEM SOLVING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 (1)
 
-• dWhen avoltage of 6Vis applied acrossaresistor there is a current of 0.1A. Thevalue of the resistoris
+• d When a voltage of 6V is applied across a resistor there is a current of 0.1A. The value of the resistor is
 
-• A6Q
+• A 6Ω
 
-• B60Q
+• B 60Ω
 
-• C16.6Ω
+• C 16.6Ω
 
-• D0.6Ω
+• D 0.6Ω
 
 (1)
 
-(Total forQuestion 1=4marks)
+(Total for Question 1 = 4 marks)
 
-Copy and complete the following passage aboutelectricity.filling in the spaces.
+Copy and complete the following passage about electricity, filling in the spaces.
 
-Anelectriccurrentisa flow of Acurrentof 1amp is1 of charge flowing each second.Thevoltage is the transferredper coulombof charge.
+An electric current is a flow of A current of 1 amp is 1 of charge flowing each second. The voltage is the transferred per coulomb of charge.
 
-The current in a component dependson the voltage and the
+The current in a component depends on the voltage and the : the higher the resistance, the the current.
 
-:thehigher
-
-theresistance,the the current.
-
-(Total forQuestions2=5marks)
+(Total for Questions 2 = 5 marks)
 
 SKILLS
 
@@ -3303,15 +3282,15 @@ ANALYSIS
 
 3
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-Asma setup the circuit shownbelow toinvestigatehowtheresistanceofa bulb changes asthe current in it changes.
+Asma set up the circuit shown below to investigate how the resistance of a bulb changes as the current in it changes.
 
-• aWhatare the namesof the instrumentslabelled Yand Z?
+• a What are the names of the instruments labelled Y and Z?
 
-• bWhat is thename of the component labelledx?
+• b What is the name of the component labelled X?
 
-• cWhat is the purpose of Xin this circuit?
+• c What is the purpose of X in this circuit?
 
 #### UNIT QUESTIONS
 Asma takes a series of readings. She measures the voltage across the bulb and the current in it. She then plots the graph shown below.
@@ -3421,19 +3400,18 @@ LEARNING OBJECTIVES
 v=fxA
 UNITS
 
-In this unit,you will need touse degrees()as the unit of angle,hertz (Hz)as the unit of frequency.metre（m) as the unit of length,metre per second (m/s)as the unit of speed and second (s）as the unit of time.
+In this unit, you will need to use degrees (°) as the unit of angle, hertz (Hz) as the unit of frequency, metre (m) as the unit of length, metre per second (m/s) as the unit of speed and second (s) as the unit of time.
 
-AFigure 10.1Using microwaves to communicate
+A Figure 10.1 Using microwaves to communicate
 
-Use the relationshipbetweenfrequency and timeperiod: frequency=
-
+Use the relationship between frequency and time period: frequency = 
 time period
 
-• Use the above relationships in different contexts including sound waves and electromagneticwaves
+• Use the above relationships in different contexts including sound waves and electromagnetic waves
 
-• Explain that all waves can bereflected and refracted
+• Explain that all waves can be reflected and refracted
 
-• Explain why there isa change in the observed frequencyandwavelength ofawavewhenitssource is movingrelative to an observer,and that this is known as the Dopplereffect
+• Explain why there is a change in the observed frequency and wavelength of a wave when its source is moving relative to an observer, and that this is known as the Doppler effect
 WHATAREWAVES?
 
 Waves are away of transferring energy from place toplace.Aswe can see in Figure 10.1we often use them to transferinformation.All these transfers take place withnomatterbeing transferred.
@@ -3510,21 +3488,21 @@ v=f×λ
 • =4 Hz×3 m
 
 • =12 m/s
-EXAMPLE2
 
-Atuning fork creates sound waveswitha frequency of 170Hz.If the speed of sound in airis340m/s,calculate thewavelength of the sound waves.
+#### EXAMPLE2
+EXAMPLE 2
 
-V=fx入
+A tuning fork creates sound waves with a frequency of 170 Hz. If the speed of sound in air is 340 m/s, calculate the wavelength of the sound waves.
+
+V = f × λ
 
 So
 
-入=V
+λ = V / f
 
-f
+340 m/s / 170 Hz
 
-340m/s 170Hz
-
-=2m
+= 2 m
 
 Figure 10.11 A tuning fork
 THE RIPPLETANK
@@ -3934,27 +3912,33 @@ If the ray strikes theboundarybetween the twomedia at90°,the ray continues with
 Rayboxlampsgethotenough tobum skin and charpaper.Glass blocks and prisms shouldbehandled carefully and notknocked together-they can splinter or shatter.
 
 • Figure 12.9 How to investigate refraction using a rectangular glass block
-REFRACTIVEINDEX
 
-Different materials can bend rays of light by different amounts.We describe indexof glass is about 1.5and wateris1.3.This tellsusthat under similar circumstances glasswill refract light more than water.
+#### REFRACTIVEINDEX
+REFRACTIVE INDEX
 
-We can use the equationbelow tocalculate therefractive indexof a material:
+Different materials can bend rays of light by different amounts. We describe index of glass is about 1.5 and water is 1.3. This tells us that under similar circumstances glass will refract light more than water.
 
-where/is theangleofincidenceandris the angle ofrefraction.
+We can use the equation below to calculate the refractive index of a material:
 
-EXAMPLEI
+where i is the angle of incidence and r is the angle of refraction.
 
-In an experiment similar to theone shown inFigure 12.9,the angle of incidence was measured as30and the angleofrefractionas 19°. Calculate therefractiveindexof theglassblock.
+EXAMPLE 1
 
-sini n= sinr
+In an experiment similar to the one shown in Figure 12.9, the angle of incidence was measured as 30 and the angle of refraction as 19°. Calculate the refractive index of the glass block.
 
-sin30 sin19
+sin i
+n = ----
+sin r
+
+sin 30
+--------
+sin 19
 
 0.5
-
+-------
 0.33
 
-=1.52
+= 1.52
 PRACTICAL:INVESTIGATETHEREFRACTIVEINDEXFORGLASS
 
 You can investigate therefractive indexofglassusingaraybox and a rectangular glassblock.
@@ -3974,7 +3958,7 @@ You can investigate therefractive indexofglassusingaraybox and a rectangular gla
 • Use the equationn= sinr block.
 KEY POINT
 
-Thesymbol 'r'isused forboth the angleofreflectionand the angleof refraction.
+The symbol 'r' is used for both the angle of reflection and the angle of refraction.
 
 #### TOTALINTERNALREFLECTION
 TOTAL INTERNAL REFLECTION
@@ -4085,16 +4069,16 @@ Modern telecommunications systems use optical fibres rather than copper wires to
 
 #### OPTICALFIBRESIN TELECOMMUNICATIONS
 |
-| SKILLS INTERPRETATION                  | 5- Draw threeraydiagramstoshowwhathappenstoarayof light travelling inaglassblock in the following situations.lt hits a face ofthe block at an angle:             |
-|                                        | aless than the criticalangle                                                                                                                                     |
-|                                        | bequal to the critical angle                                                                                                                                     |
-|                                        | cgreater than the critical angle. |
-| SKILLS CRITICALTHINKING                | What ismeant by‘totalintermal reflectionof light'and underwhat conditions does itoccur? |
-| SKILLS INTERPRETATION                  | Drawa diagram toshowhow total internalreflection takesplaceina prismaticperiscope. |
-| SKILLS REASONING                       | Give one advantageofusingprismsinaperiscoperatherthanplane mirrors. |
-| SKILLS INTERPRETATION                  | Drawa second diagram toshowhowaprismcouldbeused toturn aray of light through 180°.Give one application ofa prism used in this way. |
-| SKILLS INTERPRETATION CRITICALTHINKING | 日 Explainwhya ray of light entering anoptical fibre isunable toescape through the sides of the fibre.Include aray diagram inyourexplanation. |
-| CRITICALTHINKING                       | bExplainhow doctorsuse opticalfibres to see inside thebody. cName one other use of optical fibres. |
+| SKILLS INTERPRETATION                  | 5- Draw three ray diagrams to show what happens to a ray of light travelling in a glass block in the following situations. It hits a face of the block at an angle:             |
+|                                        | a less than the critical angle                                                                                                                                     |
+|                                        | b equal to the critical angle                                                                                                                                     |
+|                                        | c greater than the critical angle. |
+| SKILLS CRITICAL THINKING                | What is meant by 'total internal reflection of light' and under what conditions does it occur? |
+| SKILLS INTERPRETATION                  | Draw a diagram to show how total internal reflection takes place in a prismatic periscope. |
+| SKILLS REASONING                       | Give one advantage of using prisms in a periscope rather than plane mirrors. |
+| SKILLS INTERPRETATION                  | Draw a second diagram to show how a prism could be used to turn a ray of light through 180°. Give one application of a prism used in this way. |
+| SKILLS INTERPRETATION CRITICAL THINKING | 日 Explain why a ray of light entering an optical fibre is unable to escape through the sides of the fibre. Include a ray diagram in your explanation. |
+| CRITICAL THINKING                       | b Explain how doctors use optical fibres to see inside the body. c Name one other use of optical fibres. |
 
 ## Unit 3: Waves
 
@@ -4127,11 +4111,11 @@ Figure 13.1 Using sound waves to communicate.
 Figure13.2showspartof thesound system used bya bandplaying at a concert.This equipmentmustproducesoundsthatare loud enough to be music tobe appreciated.In thischapterwe aregoing tolook at how sounds are made and how they travel as waves.
 SOUNDWAVES
 
-Sounds areproduced by objects thatarevibrating.We hear soundswhen thesevibrations,travelling assound waves,reach ourears.
+Sounds are produced by objects that are vibrating. We hear sounds when these vibrations, travelling as sound waves, reach our ears.
 
-Figure 13.3The loudspeaker vibrates and produces sound waves.
+Figure 13.3 The loudspeaker vibrates and produces sound waves.
 
-Ahinged'clapperboard'worksbest butit needsexteriorhandles toprevent fingers being trapped.
+A hinged 'clapperboard' works best but it needs exterior handles to prevent fingers being trapped.
 EXTENSION WORK
 
 You willnotbe tested on thismore detailed description ofhow soundsfrom a loudspeaker are heard.As the speaker cone moves to the right,it pushes air molecules closer together,creating a compression.These particles then push theright.Behind the compression as the speaker cone moves to the left is a region where the particles are spread out.This region is called a rarefaction.After the cone hasvibrated several times,it has created a series of compressions and rarefactions travelling away from it.Thisis a longitudinal sound wave(see page 98).When the waves enter the ear,they strike the eardrum and make it vibrate.These vibrations are changed into electrical signals,which are then detected by the brain
@@ -4236,13 +4220,15 @@ EXAMPLE3
 Calculate the wavelength of a sound wave that is produced by a source vibrating with a frequency of 85 Hz. The speed of sound in air is 340 m/s.
 
 The wavelength is 4 m.
-AUDIBLERANGE
 
-The averageperson can onlyhearsounds thathave a frequencyhigher than 20 Hzbut lower than20 000 Hz.This spread of frequenciesis called the audiblerange orhearingrange.The size of the audiblerange varies slightly fromperson toperson andusuallybecomesnarrower aswegetolder.You producesoundsatdifferent frequencies.
+#### AUDIBLERANGE
+AUDIBLE RANGE
 
-• Figure 13.9 Low-pitched sounds and high-pitched sounds seen on an oscillscope.A lowpitchedsoundhasalowfrequencymeaningfewercompletewavespersecondsofewer complete waves are seen on the oscilloscope than for the high-pitched (high frequency) sound.
+The average person can only hear sounds that have a frequency higher than 20 Hz but lower than 20 000 Hz. This spread of frequencies is called the audible range or hearing range. The size of the audible range varies slightly from person to person and usually becomes narrower as we get older. You produce sounds at different frequencies.
 
-From the trace drawnon the screen we canmeasure the time forone completevibration or one complete wave.This iscalled the timeperiod of the wave (7).We can then find the frequency of the sound ()using the equation:
+• Figure 13.9 Low-pitched sounds and high-pitched sounds seen on an oscilloscope. A low-pitched sound has a low frequency meaning fewer complete waves per second so fewer complete waves are seen on the oscilloscope than for the high-pitched (high frequency) sound.
+
+From the trace drawn on the screen we can measure the time for one complete vibration or one complete wave. This is called the time period of the wave (T). We can then find the frequency of the sound (f) using the equation:
 EXAMPLE2
 
 The picture of a sound wave seen on an oscilloscope has a time period of 0.005s. What is the frequency of the wave?
@@ -4559,15 +4545,17 @@ LEARNING OBJECTIVES
 • Usetheprinciple ofconservation ofenergy
 UNITS
 
-In thissection you will need touse kilogram (kg) as the unit of mass,joule (J）as the unit ofenergy.metre (m）as the unit of length,metre per second (m/s) as the unit of speed and velocity, metre persecond squared(m/s9)asthe unit of acceleration,newton (N) as the unit of force,second （s）as the unit of time and watt (W)as the unit ofpower. You have used all these units before.
+In this section you will need to use kilogram (kg) as the unit of mass, joule (J) as the unit of energy, metre (m) as the unit of length, metre per second (m/s) as the unit of speed and velocity, metre per second squared (m/s²) as the unit of acceleration, newton (N) as the unit of force, second (s) as the unit of time and watt (W) as the unit of power. You have used all these units before.
 
-• Know and use therelationship between efficiency, useful energy output and total energy output:
+• Know and use the relationship between efficiency, useful energy output and total energy output:
 
-useful energy output efficiency= x100% total energy output
+useful energy output
+efficiency = -------------- × 100%
+total energy output
 
-• Describe a variety of everyday and scientific devices and situations,explaining the transferof the input energy in terms of the above relationship.including their representation by Sankey diagrams
+• Describe a variety of everyday and scientific devices and situations, explaining the transfer of the input energy in terms of the above relationship, including their representation by Sankey diagrams
 
-For thingstohappen we need energy!Energyisused toproducesound.Energy is used totransportpeople and goodsfromplace toplace,whetherit isby isneeded tolift objects,makemachinery workand run all the electrical and electronicequipmentwehave in ourmodern world.Energyisneededtomake light and heat.The demand forenergyincreasesevery daybecause the world's population isincreasing.Peopleconsume energyin theformof food andneed energy for thebasicsof life,likewarmthand light.Aspeoplebecomewealthier they demand much more than thebasics,so theneed for energygrows!
+For things to happen we need energy! Energy is used to produce sound. Energy is used to transport people and goods from place to place, whether it is by is needed to lift objects, make machinery work and run all the electrical and electronic equipment we have in our modern world. Energy is needed to make light and heat. The demand for energy increases every day because the world's population is increasing. People consume energy in the form of food and need energy for the basics of life, like warmth and light. As people become wealthier they demand much more than the basics, so the need for energy grows!
 STORESOFENERGY
 
 Energy is found inmany different stores:
@@ -4668,71 +4656,51 @@ useful energy output
 Efficiency doesnothave a unitbecause it is aratio.Sometimesefficiency is shown asa fraction of the energy output thatisin thewanted oruseful store. Inreal energy transfers thisfractionwillalwaysbeless than1becausesomeof the total outputenergywill be in an unwanted store.
 EXAMPLE1
 
-A 60W.tungsten filament bulbuses60Jof energy every second.It is5% efficient.Howmuch of the total energy output persecond isuseful light energy?
+A 60W tungsten filament bulb uses 60J of energy every second. It is 5% efficient. How much of the total energy output per second is useful light energy?
 
-efficiency=
-
-x100%
-
-5%=
-
-x100%
-
-5
-
+efficiency = 
 useful energy output
-
 total energy output
+×100%
 
+5% = 
 useful energy output
-
 60J
+×100%
 
-useful energy output
-
+5 × 60J
 100
+= useful energy output
 
-60J
+So useful (light) energy from bulb = 3J each second.
 
-So useful (light) energy from bulb= 3Jeach second.
+More questions on the need for energy can be found at the end of Unit 4 on page 168.
 
-5×60J
+• Describe the main energy transfers taking place in the following situations:
 
-100
+• a turning on a torch
+• b lighting a candle
+• c rubbing your hands to keep them warm
+• d bouncing on a trampoline.
 
-More questions on theneed for energy canbefound at the end of Unit 4on page 168.
+• Copy and complete the following Sankey diagrams. Remember that the width of the arrows must be proportional to the amount of energy involved. This has been done for you in part a.
 
-• Describe themain energy transfers takingplacein thefollowing situations:
+• a for an electric lamp
+• b In a typical wash in a washing machine 1.2MJ is transferred to the kinetic energy of the rotating drum, 6MJ of energy is transferred to heat the water and 0.8MJ is wasted as heat transferred to the surroundings and sound.
 
-• aturningon a torch
-
-• blighting a candle
-
-• crubbingyourhandstokeep themwarm
-
-• dbouncing on a trampoline.
-
-• Copyand complete the following Sankey diagrams.Remember that the widthof the arrowsmustbeproportional tothe amountof energyinvolved. This hasbeen done foryou inpart a.
-
-• aforanelectriclamp
-
-• bIna typical washin a washingmachine 1.2MJ is transferred to thekinetic energyof therotating drum,6MJofenergy is transferred toheat the waterandO.8MJ iswasted asheat transferred to the surroundings and sound.
-
-1.2MJof kineticenergy to rotate the drum
-
+1.2MJ of kinetic energy to rotate the drum
 6MJ of heat energy
+0.8MJ of energy wasted as heat and sound
 
-0.8MJ ofenergywasted as heat and sound
+• 3a Draw a Sankey diagram for the following situation. An electric kettle is used to heat some water. 350kJ of energy are used to heat the water, 10kJ raise the temperature of the kettle and 40kJ escape to heat the surroundings.
 
-• 3a Draw aSankey diagram for the following situation.Anelectrickettleis used toheatsomewater.350kJofenergy areused to heat thewater, 10kJraise thetemperatureof thekettle and40kJescape toheat the surroundings.
+• b Calculate the efficiency of the kettle.
 
-• bCalculate the efficiency of thekettle.
+• A ball is dropped. It hits the ground with 10J of kinetic energy and bounces with 4J of kinetic energy.
 
-• Aball isdropped.lt hitsthe ground with 10Jofkineticenergy and bounces with 4Jofkineticenergy.
+• What happens to 6J of the energy during the bounce?
 
-• What happens to 6Jof the energy during the bounce?
-
-• bDrawa Sankeydiagram for the energy flow that takesplace during the bounce.
+• b Draw a Sankey diagram for the energy flow that takes place during the bounce.
 
 ## Unit 4: Energy Resources and Energy Transfer
 
@@ -4745,19 +4713,19 @@ This chapter is about theways inwhich thermal (heat)energy is transterred from a
 • Figure 15.1 The transter of thermal energy from place toplace can be useful-for example,rising warm air createsthermals'that can cary this glider up togreat heights,
 LEARNING OBJECTIVES
 
-• Describehow thermal energy transfer may take place by conduction,convection and radiation
+• Describe how thermal energy transfer may take place by conduction, convection and radiation
 
-• Practical:investigate thermal energy transfer by conduction,convection and radiation
+• Practical: investigate thermal energy transfer by conduction, convection and radiation
 
-• Explain therole of convection in everyday phenomena
+• Explain the role of convection in everyday phenomena
 
-• Explain waysof reducing unwanted energy transfer,such asinsulation
+• Explain ways of reducing unwanted energy transfer, such as insulation
 
-• Explain how emission and absorption ofradiation arerelated to surface and temperature
+• Explain how emission and absorption of radiation are related to surface and temperature
 
-Thermal orheat energyis energy that is stored in'hot'matter.We shall see that'hot'isarelative term.There isa temperature called absolute zero that is the lowest possible temperature.Any matter thatis above this temperature has some thermal energy.Thekinetic energy of the minute particles thatmake up allmatterproduces the effectwecallheat.
+Thermal or heat energy is energy that is stored in 'hot' matter. We shall see that 'hot' is a relative term. There is a temperature called absolute zero that is the lowest possible temperature. Any matter that is above this temperature has some thermal energy. The kinetic energy of the minute particles that make up all matter produces the effect we call heat.
 
-Thermal energy is transferred from a place that is hotter(that is,atahigher temperature)toone thatis colder(ata lowertemperature).Inthischapter,we will lookat the differentwaysinwhich thermal energyis transferredbetween placesthat have different temperatures.
+Thermal energy is transferred from a place that is hotter (that is, at a higher temperature) to one that is colder (at a lower temperature). In this chapter, we will look at the different ways in which thermal energy is transferred between places that have different temperatures.
 CONDUCTION
 
 Thermal conduction is the transferof thermal(heat)energy through a substance by the vibration of the atoms within the substance.The substance itself doesnotmove.
@@ -4991,24 +4959,23 @@ The mine system had a shaft with a fire lit at the bottom. Explain how this kept
 
 ### Work and power
 
-16WORKANDP0WER
 
-Work is calculatedbymultiplying the force applied by the distance throughwhich the force moves-the bigger the force,or the longer the distance through which it moves. the more work is done.Work always involves an energy transfer.Power is the rate at which energy is transferredand efficiency isa measure of how much of the input how to calculate the work done in a system and its power asenergy is transterred.
+#### 16WORKANDP0WER
+16 WORK AND POWER
 
-• Figure 16.1 James Joule (1B18-1889) was the son of a wealthy Manchester brewer He was tutored bylames Daton and carried out scientifieresearch inhisown laboratory.built in the basementof his tather's home
+Work is calculated by multiplying the force applied by the distance through which the force moves - the bigger the force, or the longer the distance through which it moves, the more work is done. Work always involves an energy transfer. Power is the rate at which energy is transferred and efficiency is a measure of how much of the input how to calculate the work done in a system and its power as energy is transferred.
 
-• Understand how conservation of energy produces a linkbetweengravitationalpotential energy,kinetic energyand work
+• Figure 16.1 James Joule (1818-1889) was the son of a wealthy Manchester brewer. He was tutored by James Dalton and carried out scientific research in his own laboratory, built in the basement of his father's home.
 
-• Describe power astherate of transferofenergy or the rate of doing work
+• Understand how conservation of energy produces a link between gravitational potential energy, kinetic energy and work
 
-• Use the relationship betweenpower,work done (energy transferred)and time taken:
+• Describe power as the rate of transfer of energy or the rate of doing work
+
+• Use the relationship between power, work done (energy transferred) and time taken:
 
 work done
-
-power=
-
+power =
 time taken
-
 W
 LEARNING OBJECTIVES
 
@@ -5085,11 +5052,13 @@ InFigure 16.5,we can see the GPEstored by the weight isbeing transferred to othe
 REMINDER
 
 Gravitational field strength is the force actingperkilogram on a mass in a gravitational field.The gravitational field strength,g,on the surface of the Earth is approximately 10 N/kg.Since the weight ofan objectismg,increase in GPE is a specialversion of the equation W=Fxd,withF=mg and d=h.
-KINETICENERGY,KE
+
+#### KINETICENERGY,KE
+KINETIC ENERGY, KE
 
 The kinetic energy of a moving object is calculated using the equation:
 
-kinetic energy,KE(joules）=mass,m (kilograms)x speed squared,v (metres squaredper secondssquared)
+kinetic energy, KE (joules) = mass, m (kilograms) × speed squared, v (metres squared per second squared)
 EXTENSION WORK
 
 In Chapter 1 we saw the equation of uniformly accelerated motion:
@@ -5140,11 +5109,11 @@ v=√(2x17mx10N/kg）
 Someof theGPE the truck had at thestartwill be transferred toheatand sound,so the speed at thebottom of the fall will bea littleslower than this.
 POWER
 
-Poweris therate of transferof energy or therateof doing work.
+Power is the rate of transfer of energy or the rate of doing work.
 
-JamesWatt(Figure 16.10a)isremembered as theinventorof the steam engine and issaid tohavebeen inspiredbywatching thelid onakettlebeingforced upby the pressure of the steam forminginside.Neither story is accurate, butwhat is trueisthatWatt,working inpartnershipwithMatthewBoulton, developed improvements to the steam engine thatmadeita commercial
+James Watt (Figure 16.10a) is remembered as the inventor of the steam engine and is said to have been inspired by watching the lid on a kettle being forced up by the pressure of the steam forming inside. Neither story is accurate, but what is true is that Watt, working in partnership with Matthew Boulton, developed improvements to the steam engine that made it a commercial
 
-TheSl unit of powerisnamed inhonour ofJamesWatt.The watt (W)is the rate of transfer or conversion of energy of onejoule per second (1 J/s).
+The SI unit of power is named in honour of James Watt. The watt (W) is the rate of transfer or conversion of energy of one joule per second (1 J/s).
 
 #### PRACTICAL:INVESTIGATEYOURPOWEROUTPUT
 PRACTICAL: INVESTIGATE YOUR POWER OUTPUT
@@ -5156,17 +5125,17 @@ Figure 16.11 An experiment to measure your output power
 Wear suitable footwear and only allow one person at a time on the staircase. Ensure the stairs are dry, in good condition and free of any obstacles.
 
 A more convenient way of raising your GPE and getting to a higher floor in a building is to take a lift. The lift will transfer its energy input, usually electrical to kinetic energy and then, if you are going up, to GPE. As usual, unwanted energy transfers are inevitable - sound and heat will be produced. If we know the weight of the lift and its contents and the height through which it moves, we can calculate the work done in the usual way. If we measure the time that the lift journey takes we can then calculate the power output of the lift motor. (Strictly this will be the useful power output - it will not take account of the wasted power due to unwanted energy transfers.)
-EXAMPLES
 
-Ifa lift andpassengershave a combined weight of 4000Nand theliftmovesupwardswithanaverage speedof3m/s thenwhat istheusefulpoweroutput oftheliftmotor?
+#### EXAMPLES
+If a lift and passengers have a combined weight of 4000 N and the lift moves upwards with an average speed of 3 m/s then what is the useful power output of the lift motor?
 
-Tokeep thelift movingupwardsatasteady speed, theliftmotormustprovideanupward force to balance the weightof the lift.This is4000 N. Ineach second,thisforceis applied througha vertical distance of3m,so:
+To keep the lift moving upwards at a steady speed, the lift motor must provide an upward force to balance the weight of the lift. This is 4000 N. In each second, this force is applied through a vertical distance of 3 m, so:
 
-workdonepersecond=4000Nx3m/s
+work done per second = 4000 N × 3 m/s
 
-=12000J/s
+= 12000 J/s
 
-=12000W
+= 12000 W
 CHAPTER QUESTIONS
 
 PROBLEM SOLVING
@@ -5511,49 +5480,49 @@ UNIT QUESTIONS
 
 SKILLS
 
-CRITICALTHINKING
-
-PROBLEMSOLVING
+CRITICAL THINKING
 
 PROBLEM SOLVING
 
-• aA fluorescent lampis25%efficient.Choose the statement that correctly describeshowthe lampperforms.
+PROBLEM SOLVING
 
-• A thelamponlyworksfora quarterof the time
+• A fluorescent lamp is 25% efficient. Choose the statement that correctly describes how the lamp performs.
 
-• B 25%of the electricalenergy transferred to thelamp iswasted
+• A the lamp only works for a quarter of the time
 
-• Cthe lamp does not workproperly
+• B 25% of the electrical energy transferred to the lamp is wasted
 
-• D25%of the energy supplied to the lampis transferred to light
+• C the lamp does not work properly
 
-(1)
-
-• bAcar uses energy stored in chemical form in petrol.When the engine is running this energyis transferred to other typesof stored energy.Which of the following energy stores is useful?
-
-• Anoise
-
-• Bheat
-
-• Cmovement
-
-• D hotexhaust gases
+• D 25% of the energy supplied to the lamp is transferred to light
 
 (1)
 
-• Whichof the followingmaterialsisagood thermal conductor?
+• b A car uses energy stored in chemical form in petrol. When the engine is running this energy is transferred to other types of stored energy. Which of the following energy stores is useful?
 
-• Aglass
+• A noise
 
-• Baluminium
+• B heat
 
-• Cair
+• C movement
 
-• Dwater
+• D hot exhaust gases
 
 (1)
 
-• dWhich of the following statements about thermalradiation isfalse?
+• Which of the following materials is a good thermal conductor?
+
+• A glass
+
+• B aluminium
+
+• C air
+
+• D water
+
+(1)
+
+• d Which of the following statements about thermal radiation is false?
 
 • A It cannot travel through glass.
 
@@ -5561,27 +5530,27 @@ PROBLEM SOLVING
 
 • C It travels at the speed of light.
 
-• D It is absorbed byblackobjectsbetter than shiny ones.
+• D It is absorbed by black objects better than shiny ones.
 
 (1)
 
-• Four students,A,B,Cand D,measure their power output byrunning upstairs and timing how long it takes.Which of the four students has the greatest power output?
+• Four students, A, B, C and D, measure their power output by running upstairs and timing how long it takes. Which of the four students has the greatest power output?
 
-• Amassof50kg,takes20 s to gain a height of 10m
+• A mass of 50kg, takes 20 s to gain a height of 10m
 
-• Bmassof40kg,takes30s togainaheight of 15m
+• B mass of 40kg, takes 30s to gain a height of 15m
 
-• Cmassof 45kg,takes 10 s togaina heightof5m
+• C mass of 45kg, takes 10 s to gain a height of 5m
 
-• Dmassof55kg,takes25stogainaheightof 15m
+• D mass of 55kg, takes 25s to gain a height of 15m
 
 (1)
 
-（Total forQuestion1=5marks)
+（Total for Question 1 = 5 marks)
 
 SKILLS
 
-CRITICALTHINKNG
+CRITICAL THINKING
 
 SKILLS
 
@@ -5591,19 +5560,17 @@ SKILLS
 
 INTERPRETATION
 
-ANALYSIS,
-
-REASONING
+ANALYSIS, REASONING
 
 SKILLS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 3
 
-An electricmotorisused toraisea load thatweighs800Nthrough a distance of30m.
+An electric motor is used to raise a load that weighs 800N through a distance of 30m.
 
-• aHowmuchworkdoesit do inraising theload?
+• a How much work does it do in raising the load?
 
 (e)
 
@@ -5852,19 +5819,20 @@ When answering questions,start with the equation you need to use in words or rec
 • =0.92g/cm³
 
 • =920 kg/m³
-PRESSUREUNDERA SOLID
 
-You can pusha drawing pinintoapiece of wood quite easily,butyou cannot makeahole in thewood withyourthumb,no matterhowhardyoupush!The small point of the drawingpin concentratesallyourpushingforce into a tiny area,so thepin goes into the wood easily.Similarly,it is easier to cut things with a sharpknife than a blunt one,becausewith a sharpknife all theforce is concentrated into a much smaller area.
+#### PRESSUREUNDERA SOLID
+PRESSURE UNDER A SOLID
 
-Pressure is defined as the force perunit area.Force ismeasured innewtons (N) and area is measured in square metres(m²).The units forpressure are pascals (Pa),where 1 Pa is equivalent to 1 N/m².
+You can push a drawing pin into a piece of wood quite easily, but you cannot make a hole in the wood with your thumb, no matter how hard you push! The small point of the drawing pin concentrates all your pushing force into a tiny area, so the pin goes into the wood easily. Similarly, it is easier to cut things with a sharp knife than a blunt one, because with a sharp knife all the force is concentrated into a much smaller area.
 
-Pressure （p),force（F)and area (A)are linked by the following equation:
+Pressure is defined as the force per unit area. Force is measured in newtons (N) and area is measured in square metres (m²). The units for pressure are pascals (Pa), where 1 Pa is equivalent to 1 N/m².
 
-force,F(newtons)
+Pressure (p), force (F) and area (A) are linked by the following equation:
 
-pressure,p（pascals）=
+force, F (newtons)
 
-area,A （square metres）
+pressure, p (pascals) =
+area, A (square metres)
 
 Figure 18.4 The equation for pressure can be rearranged using the triangle method.
 EXAMPLE2
@@ -5946,25 +5914,27 @@ F=pxA
 KEYPONT.
 
 Youneed toleam this equationbut you donotneed toknow theproof given here for the exam.
-PRESSUREAND DEPTH
 
-Theexperiment showninFigure 18.9 demonstrates that thepressureina liquid increases with depth.We can work out the pressure difference by thinking about a column ofwater,as shown in Figure18.10.
+#### PRESSUREAND DEPTH
+PRESSURE AND DEPTH
 
-The force at thebottom of the column isequal to all the weight ofwater above it.The volume of this water(V)is found by multiplying the area of its base(A) by the height (h) of the column.We can work out the mass (m)of the water by multiplying thevolume(Axh)by the density(o).
+The experiment shown in Figure 18.9 demonstrates that the pressure in a liquid increases with depth. We can work out the pressure difference by thinking about a column of water, as shown in Figure 18.10.
 
-mass of water,m=(A xh)xp
+The force at the bottom of the column is equal to all the weight of water above it. The volume of this water (V) is found by multiplying the area of its base (A) by the height (h) of the column. We can work out the mass (m) of the water by multiplying the volume (A x h) by the density (ρ).
 
-The force（F)on thebottomof the water column isequal to the weightof this volume of water,which is the mass,m(Axhxp)，multiplied by the gravitational field strength(g)(see page 34).
+mass of water, m = (A x h) x ρ
 
-Aswe are concerned with the pressure on thebase of the column,we divide the forcebythearea:
+The force (F) on the bottom of the water column is equal to the weight of this volume of water, which is the mass, m (A x h x ρ), multiplied by the gravitational field strength (g) (see page 34).
 
-The area of the column therefore doesnot matter,and we can calculate the pressure differencebetween twopointsin a liquid using the equation:
+As we are concerned with the pressure on the base of the column, we divide the force by the area:
 
-pressure difference,p（Pa)=height,h (m） x density,p(kg/m)xgravitational field strength,g (N/kg)
+The area of the column therefore does not matter, and we can calculate the pressure difference between two points in a liquid using the equation:
 
-Be careful not tomuddle the symbol for pressure,p,with the symbol for density,p.
+pressure difference, p (Pa) = height, h (m) × density, ρ (kg/m³) × gravitational field strength, g (N/kg)
 
-Thisequation canbe used for calculatingpressure differencesinotherliquids orgases,aslong asyou know their densities.
+Be careful not to muddle the symbol for pressure, p, with the symbol for density, ρ.
+
+This equation can be used for calculating pressure differences in other liquids or gases, as long as you know their densities.
 EXAMPLES
 
 The firstexperimentsonairpressure were carried outusing a simple barometer.This wasmade byfilling a long glass tube with mercury,and then inverting itinto a bowl of mercury.The mercury fallsuntil the weight of the column is supported by thepressure of the air on the mercury in thebowl.
@@ -6082,17 +6052,19 @@ Some of the properties of a substance depend on the chemical it is made from. Ho
 boiling, freezing and condensing.
 
 Figure 19.2 Changes of state
-PROPERTIESOFTHEDIFFERENTSTATESOFMATTER
 
-Most of this chapterwill be about the properties of gases,but we shallmention solids and liquids for completeness.
+#### PROPERTIESOFTHEDIFFERENTSTATESOFMATTER
+PROPERTIES OF THE DIFFERENT STATES OF MATTER
 
-Solidshave a definiterigid shape and they are oftenvery dense.The density of a substanceis a measure of how tightlypacked theparticles are.
+Most of this chapter will be about the properties of gases, but we shall mention solids and liquids for completeness.
 
-Some solidshave high densitiesbecause theparticles that they are made between theparticles,which give solid objects their definite shape and,in some materials,a great deal of strength.
+Solids have a definite rigid shape and they are often very dense. The density of a substance is a measure of how tightly packed the particles are.
 
-Although the particles areheld togetherby strong forces,they can still move. Theyvibrate about theirfixedpositionsin the solid.When wesupplyenergy to a solid byheating it,theparticlesvibrate more-theymove more quickly.We notice the increase in thekineticenergyof theparticlesina substanceasan increasein the temperature of the substance.
+Some solids have high densities because the particles that they are made between the particles, which give solid objects their definite shape and, in some materials, a great deal of strength.
 
-Liquids share a property with gases-theyhave no definite shape.However, theparticles that make upliquids tend to stick together,unlike gasparticles. Liquidswill occupy thelowestpart of anycontainerbut gaseswill expand to fill anycontainer that they arein.Liquidshave much greater densities than gases.This isbecause theparticles in liquids are still very close together,like
+Although the particles are held together by strong forces, they can still move. They vibrate about their fixed positions in the solid. When we supply energy to a solid by heating it, the particles vibrate more - they move more quickly. We notice the increase in the kinetic energy of the particles in a substance as an increase in the temperature of the substance.
+
+Liquids share a property with gases - they have no definite shape. However, the particles that make up liquids tend to stick together, unlike gas particles. Liquids will occupy the lowest part of any container but gases will expand to fill any container that they are in. Liquids have much greater densities than gases. This is because the particles in liquids are still very close together, like
 
 GASES
 SUMMARYOFTHEPROPERTIESOF SOLIDS,LIQUIDSAND GASES
@@ -6119,29 +6091,27 @@ Solidsandliquidsareverydifficult to compressbecause theparticles in them are alm
 | expands to fillall available space | ou       | ou        | yes     |
 
 #### SUMMARYOFTHEPROPERTIESOF SOLIDS,LIQUIDSAND GASES
-Theparticles(molecules) ina solid(Figure 19.3a):
+The particles (molecules) in a solid (Figure 19.3a):
 
-• are tightlypacked
+• are tightly packed
 
-• areheldinafixedpattem orcrystal structureby strongforcesbetween them
+• are held in a fixed pattern or crystal structure by strong forces between them
 
-• vibrate around theirfixed positions in the structure.
+• vibrate around their fixed positions in the structure.
 
-The particles(molecules) in a liquid （Figure 19.3b):
+The particles (molecules) in a liquid (Figure 19.3b):
 
-• are tightlypacked （still very close together,like insolids)
-
-• s between them
+• are tightly packed (still very close together, like in solids)
 
 • move at random with no fixed positions.
 
-The particles(molecules) in a gas(Figure 19.3c):
+The particles (molecules) in a gas (Figure 19.3c):
 
-• arevery spread out
+• are very spread out
 
-• have no fixedpositionsand theforcesbetween themareveryweak
+• have no fixed positions and the forces between them are very weak
 
-• move with a rapid,random motion.
+• move with a rapid, random motion.
 MEASURING HEAT ENERGY
 
 We have seen that when heat energy is supplied to solids,liquids and gases it increases thekinetic energy of theirmolecules,which we detect as an increase in temperature.Different substancesneed differentamounts ofheat energy to cause the sameincrease in temperature.
@@ -6152,15 +6122,15 @@ KEY POINT
 △,the Greek letter delta,means a change in the quantity that follows it. 0.the Greek letter theta,isused to represent temperature so△θ(delta theta)means a changein temperature. Ifwecool something down then△8is negative and so,therefore,is △Q.This simply means that,to cool something down,we need to remove thermal energy from it.
 EXTENSION WORK
 
-This figure assumes that all the thermal energyprovidedgoes toraise the temperature of the water.In practice some energywill beused toheat up thekettle and some will be lost to the surroundingsthrough thermal radiation, themal conduction and convection and somewaterwill evaporatebefore the boiling point isreached.
+This figure assumes that all the thermal energy provided goes to raise the temperature of the water. In practice some energy will be used to heat up the kettle and some will be lost to the surroundings through thermal radiation, thermal conduction and convection and some water will evaporate before the boiling point is reached.
 
-The immersion heater(and,eventually, the metal block)willget hot enough tobum the skin.Ifused in water,the immersion heatermustnot haveitstop immersed.
+The immersion heater (and, eventually, the metal block) will get hot enough to burn the skin. If used in water, the immersion heater must not have its top immersed.
 
-We usethe following equation to workout howmuch energy isneeded to change the temperature of an objectbya given amount:
+We use the following equation to work out how much energy is needed to change the temperature of an object by a given amount:
 
-change in thermal energy,△Q (joules）=mass,m (kilograms)xspecific heat capacity.cxchange in temperature,△e(°C)
+change in thermal energy, △Q (joules) = mass, m (kilograms) × specific heat capacity, c × change in temperature, △θ (°C)
 
-△Q=mxCx△0
+△Q = m × c × △θ
 EXAMPLE1
 
 If you fill a kettle with 300g of water at an initial temperature of 15°C, how much energy is needed to make the water heat up to boiling? The s.h.c. of water is 4200 J/kg°C.
@@ -6236,9 +6206,9 @@ c = 1100 J/kg°C
 As heat will still be lost and some of the heat energy supplied heats the immersion heater and the thermometer, then this answer is larger than the expected value of 900 J/kg°C
 EXAMPLE3
 
-To determine the specificheat capacity of water,1 litre of water(mass, m,=1kg)ata starting temperature of20°Cispoured intoanelectric kettlewith apowerof2.4kW.The water in thekettle justreachesboiling point after 2yminutes.Use this information to calculate the s.h.c.of water.
+To determine the specific heat capacity of water, 1 litre of water (mass, m, =1kg) at a starting temperature of 20°C is poured into an electric kettle with a power of 2.4 kW. The water in the kettle just reaches boiling point after 2 minutes. Use this information to calculate the s.h.c. of water.
 
-Doyou thinkyour answerwillbe toobigor toosmall?Giveareasonfor your answer.
+Do you think your answer will be too big or too small? Give a reason for your answer.
 KEY POINT
 
 Naphthalene is used because it hasa lower melting point than many solids. It is flammable so must beheated indirectlyin awaterbathwithcare.
@@ -6294,40 +6264,44 @@ The scientist Robert Boyle (Figure 19.6) discovered something that you have prob
 Eye protection is needed in case any tubing leaks or detaches, which will cause gas under high pressure to be ejected.
 HINT
 
-You can do all your working inkPa if you wish,rather than converting the pressure to pascals.You can also use cubiccentimetresforvolumeif these units aregiven in thequestion.It does notmatterwhich unitsyou use,aslong asyou use the same ones throughout the question.
+You can do all your working in kPa if you wish, rather than converting the pressure to pascals. You can also use cubic centimetres for volume if these units are given in the question. It does not matter which units you use, as long as you use the same ones throughout the question.
 
-Boyledevised an experimenttoseehow thevolumeoccupiedbyagas dependson thepressure exerted onit.Pressure is the force acting perunit area.This is measured in N/m².One N/m²is called a pascal (Pa).A version of Boyle'sexperiment is shown inFigure 19.8.
+Boyle devised an experiment to see how the volume occupied by a gas depends on the pressure exerted on it. Pressure is the force acting per unit area. This is measured in N/m². One N/m² is called a pascal (Pa). A version of Boyle's experiment is shown in Figure 19.8.
 
-Boyle tookcare tomake sure that the trapped gashewas studying stayed at the same temperature.Heincreased thepressure on thegas and made a note of thenewvolume.Hisresults looked like the graph shown inFigure 19.9a.
+Boyle took care to make sure that the trapped gas he was studying stayed at the same temperature. He increased the pressure on the gas and made a note of the new volume. His results looked like the graph shown in Figure 19.9a.
 
-• Figure 19.9 a Graph to show how the pressure ofa gas at constant temperature varies with the volume;b Graph of pressure against volume
+• Figure 19.9 a Graph to show how the pressure of a gas at constant temperature varies with the volume; b Graph of pressure against volume
 
-Boyle noticed thatwhen he doubled thepressure,the volume of the gas halved.lf we plot pressure(p),against 1 as in Figure 19.9b,we can volume see from the straight linepassing through the origin thatp isproportional to V This discovery,called Boyle'slaw,isexpressed in the equation:
+Boyle noticed that when he doubled the pressure, the volume of the gas halved. If we plot pressure (p), against 1 as in Figure 19.9b, we can volume see from the straight line passing through the origin that p is proportional to V. This discovery, called Boyle's law, is expressed in the equation:
 
-Thismeans that if you take a fixed massofgas that has a pressurepand a volumeV,and change either thepressureor the volume,the newpressure p2 multiplied by the newvolume Vwillbe the same aspxV.if the temperature of the gasremains the same.
-EXAMPLE4
+This means that if you take a fixed mass of gas that has a pressure p and a volume V, and change either the pressure or the volume, the new pressure p₂ multiplied by the new volume V₂ will be the same as p₁V₁ if the temperature of the gas remains the same.
 
-Atmosphericpressure is100kPa (100000 Pa).Some airin a sealed containerhasa volume of2matatmosphericpressure.What would be thepressureof theairifyoureduced itsvolume to0.2m²?
+#### EXAMPLE4
+EXAMPLE 4
 
-First write down whatweknow:
+Atmospheric pressure is 100 kPa (100000 Pa). Some air in a sealed container has a volume of 2m³ at atmospheric pressure. What would be the pressure of the air if you reduced its volume to 0.2m³?
 
-P=100kPa
+First write down what we know:
 
-V=2m3
+P = 100 kPa
 
-V2=0.2m3
+V = 2m³
 
-pV=p2V2
+V₂ = 0.2m³
 
-P×0.2m3=100kPa×2m3
+p₁V₁ = p₂V₂
 
-100kPax2m3 P2= 0.2m3 =1000 kPa
+P × 0.2m³ = 100 kPa × 2m³
 
-• Figure 19.10 Simple apparatus to measure thepressure of afixedvolume of gas ata rangeof temperatures
+100 kPa × 2m³
+P₂ = ------------ = 1000 kPa
+    0.2m³
 
-Gases canbe compressed because the gasmoleculesarevery spread out. When agasissquashed intoa smallercontaineritpresses on thewallsof the containerwith agreaterpressure.Thisisexplained in termsofparticle theory as follows.
+• Figure 19.10 Simple apparatus to measure the pressure of a fixed volume of gas at a range of temperatures
 
-If thegasiskeptat the same temperature,theaveragespeed of theparticles staysthe same.(Rememberthat temperatureis an indication of thekinetic energy of theparticles.)lf the same number ofparticlesis squeezed intoa smallervolume,they willhit the containerwalls more often.Each particle exertsa tiny force on thewallwithwhich it collides.Morecollisionspersecond means a greateraverage force on the wall and,therefore,a greaterpressure.
+Gases can be compressed because the gas molecules are very spread out. When a gas is squashed into a smaller container it presses on the walls of the container with a greater pressure. This is explained in terms of particle theory as follows.
+
+If the gas is kept at the same temperature, the average speed of the particles stays the same. (Remember that temperature is an indication of the kinetic energy of the particles.) If the same number of particles is squeezed into a smaller volume, they will hit the container walls more often. Each particle exerts a tiny force on the wall with which it collides. More collisions per second means a greater average force on the wall and, therefore, a greater pressure.
 ABSOLUTEZERO
 
 Boyle tookcare to conduct hisexperiment at constant temperature.He was aware that temperature alsohad an effect on thepressureofagas.Figure19.10 showsan experiment to investigatehowthepressure ofagasdependsonits temperature.
@@ -6343,62 +6317,60 @@ What happens if we keep cooling the gas? The graph in Figure 19.12 shows this.
 • Figure 19.12 At a temperature of -273 °C, the pressure of the gas would be zero. This temperature
 KEY POINT
 
-We often use the symbol efor temperature in°C.Fortemperature inKwe alwaysuse the symbol T.Remember to convert Celsius temperatures toKelvin when using gas law equationsin which temperature change occurs.
+We often use the symbol e for temperature in °C. For temperature in K we always use the symbol T. Remember to convert Celsius temperatures to Kelvin when using gas law equations in which temperature change occurs.
 
-Aswe cool the gas,thepressure keeps decreasing.The pressure of the gas cannotbecome less than zero.This suggests that there isa temperature below which it isnotpossible to cool the gasfurther.Thistemperature iscalled absolute zero.Experiments show thatabsolute zerois approximately-273°C.
+As we cool the gas, the pressure keeps decreasing. The pressure of the gas cannot become less than zero. This suggests that there is a temperature below which it is not possible to cool the gas further. This temperature is called absolute zero. Experiments show that absolute zero is approximately -273°C.
 
-TheKelvin temperature scale startsfrom absolutezero.TheKelvin temperature of a gasisproportional to the averagekineticenergy of itsmolecules.
+The Kelvin temperature scale starts from absolute zero. The Kelvin temperature of a gas is proportional to the average kinetic energy of its molecules.
 
-To converta temperatureon the Celsiusscale(in°C)to aKelvin scale temperature (inK),add273 to the Celsius scale temperature:
+To convert a temperature on the Celsius scale (in °C) to a Kelvin scale temperature (in K), add 273 to the Celsius scale temperature:
 
-• temperature inK=temperaturein°C+273
+• temperature in K = temperature in °C + 273
 
-• temperature inC=temperature inK-273
-EXAMPLES
+• temperature in °C = temperature in K - 273
 
-• aAt what temperature doeswater freeze,inKelvin?
+#### EXAMPLES
+• aAt what temperature does water freeze, in Kelvin?
 
-WaterfreezesatOC.To convert O°C toKelvin:
+Water freezes at 0°C. To convert 0°C to Kelvin:
 
-T=(0°C+273）K =273K
+T = (0°C + 273) K = 273 K
 
-• What isroom temperature,inKelvin?
+• What is room temperature, in Kelvin?
 
-Typical room temperatureis20°C,so:
+Typical room temperature is 20°C, so:
 
-T=（20°C+273）K
+T = (20°C + 273) K
+= 293 K
 
-=293K
+• What temperature is 400 K on the Celsius scale?
 
-• What temperature is 400Kon the Celsiusscale?
+θ = (400 K - 273) °C
+= 127 °C
 
-θ=（400K-273）°℃
-
-=127°℃
-
-lIfweredraw the graph ofpressure against temperature using the absolute or Kelvin temperature scale,we get a graph that is a straight line passing through the origin,as shown in Figure 19.13.This shows that thepressure of thegas isproportional toitsKelvin temperature.Forexample,if youheat agasfrom 200K（-73°C)to400K（127°C),itspressurewill double.
+If we redraw the graph of pressure against temperature using the absolute or Kelvin temperature scale, we get a graph that is a straight line passing through the origin, as shown in Figure 19.13. This shows that the pressure of the gas is proportional to its Kelvin temperature. For example, if you heat a gas from 200 K (-73°C) to 400 K (127°C), its pressure will double.
 
 • volume
 
-Fora fixedmass of gas ata constant volume:
+For a fixed mass of gas at a constant volume:
 
-NB Tmustbe measured in Kelvin.
+NB T must be measured in Kelvin.
 EXTENSION WORK
 
 Cooling things furtherbecomes more and more difficult as they get closer to 0K.Scientists have managed tocool gasesdown to within a few thousandths of a degree above absolute zero.At this temperature, evengases likehelium andhydrogen can be liquefied.The gas laws do not apply once a gas is either cooled orcompressed (forced into a small volume) to the point that they become liquid.
 EXAMPLEG
 
-You take an empty tin andput thelid on tightly.You heat it using a Bunsen bumeruntil the temperatureof the airinside is50°C.What is the pressure of the airinside the tin?The temperature of theroom is20*C.
+You take an empty tin and put the lid on tightly. You heat it using a Bunsen burner until the temperature of the air inside is 50°C. What is the pressure of the air inside the tin? The temperature of the room is 20°C.
 
-First write down whatyouknow:
+First write down what you know:
 
-P=100kPa (thisis atmosphericpressure)
+P=100kPa (this is atmospheric pressure)
 
-The starting temperature is20°C,butwemust change this toKelvin,so:
+The starting temperature is 20°C, but we must change this to Kelvin, so:
 
 T=20+273K=293K.
 
-The end temperature,50°C,mustalsobe convertedso:
+The end temperature, 50°C, must also be converted so:
 
 T=50+273K=323K
 
@@ -6406,17 +6378,17 @@ P1
 
 P2
 
-323K =100kPax 293K
+323K =100kPa × 293K
 
 =110kPa
 
-Therelationshipcanbeexplained asfollows.
+The relationship can be explained as follows.
 
-The numberof gasparticles and the space,orvolume,they occupyremain constant.When we heat the gas theparticles continue to moverandomly.but with a higher average speed.Thismeansthat their collisionswith the wallsof the container are harder and happen more often.This results in the average pressure exerted by the particles increasing.
+The number of gas particles and the space, or volume, they occupy remain constant. When we heat the gas the particles continue to move randomly, but with a higher average speed. This means that their collisions with the walls of the container are harder and happen more often. This results in the average pressure exerted by the particles increasing.
 
-When we cool agas thekinetic energy ofitsparticles decreases.Thelower the temperature ofagasthelesskinetic energyitsparticleshave-theymove moreslowly.Atabsolutezero theparticleshave no thermal ormovement energy,so theycannotexertapressure.
+When we cool a gas the kinetic energy of its particles decreases. The lower the temperature of a gas the less kinetic energy its particles have - they move more slowly. At absolute zero the particles have no thermal or movement energy, so they cannot exert a pressure.
 
-More questions on solids,liquids and gasescanbe found at the endof Unit5 onpage 193.
+More questions on solids, liquids and gases can be found at the end of Unit 5 on page 193.
 PHYSICS ONLY
 
 • Draw up a table to summarise the way that particles are arranged in solids, liquids and gases.
@@ -6966,25 +6938,27 @@ In certain places, for example, below the wire, the fields are in the same direc
 KEY POINT
 
 We canpredict the direction of the forceormovement of thewireusing Fleming'sleft-hand rule.
-THEMOVING-COILLOUDSPEAKER
 
-Astrongerforcewill beproducedif themagnetic field isstrongerorif the current is increased.
+#### THEMOVING-COILLOUDSPEAKER
+THE MOVING-COIL LOUDSPEAKER
 
-Ifwe change the direction of the current or themagnet'sfield,a different overlappingpattern iscreated and wewillsee thewire move in theopposite direction.
+A stronger force will be produced if the magnetic field is stronger or if the current is increased.
 
-• Figure 21.5 Fleming’s left-hand rule helps you to work out the direction of the force.
+If we change the direction of the current or the magnet's field, a different overlapping pattern is created and we will see the wire move in the opposite direction.
 
-Themoving-coil loudspeakeruses themotoreffect to transferelectrical energy to sound energy.
+• Figure 21.5 Fleming's left-hand rule helps you to work out the direction of the force.
 
-• Electric currents from a source,such as a radio,pass through the coils of a speaker.
+The moving-coil loudspeaker uses the motor effect to transfer electrical energy to sound energy.
 
-• These currents,whichrepresent sounds,are always changing in size and direction,likevibrating sound waves.
+• Electric currents from a source, such as a radio, pass through the coils of a speaker.
 
-• The fieldsof the coiland thepermanentmagnet are therefore creating direction.
+• These currents, which represent sounds, are always changing in size and direction, like vibrating sound waves.
 
-• These fieldsin turn applyrapidly changing forces to thewires of the coil, which cause the speaker cone tovibrate.
+• The fields of the coil and the permanent magnet are therefore creating direction.
 
-• Thesevibrations create thesoundwaveswe hear.
+• These fields in turn apply rapidly changing forces to the wires of the coil, which cause the speaker cone to vibrate.
+
+• These vibrations create the sound waves we hear.
 
 Figure 21.6 A loudspeaker transfers electrical energy to sound energy.
 THEELECTRICMOTOR
@@ -7010,13 +6984,13 @@ Toincrease the rate atwhich themotor tums we can:
 • increase the currentin theloop ofwire.
 EXTENSION WORK
 
-Althoughyou will notbe asked thisinyour examit isinteresting toknowhow commercial motors like the one used in thiselectricdrill differ from the simple motor described inFigure 21.7.
+Although you will not be asked this in your exam it is interesting to know how commercial motors like the one used in this electric drill differ from the simple motor described in Figure 21.7.
 
-• The permanent magnets are replaced with curved electromagnets capable of producingvery strongmagneticfields.
+• The permanent magnets are replaced with curved electromagnets capable of producing very strong magnetic fields.
 
-• The single loop ofwire isreplacedwithseveral coilsofwirewrapped onthesame axis.This makes the motor more powerful and allows it to run more smoothly.
+• The single loop of wire is replaced with several coils of wire wrapped on the same axis. This makes the motor more powerful and allows it to run more smoothly.
 
-• Thecoils are wrapped on a soft iron core that hasbeen coveredby a thin layer of plastic.Thismakes the motormore efficient and morepowerful.
+• The coils are wrapped on a soft iron core that has been covered by a thin layer of plastic. This makes the motor more efficient and more powerful.
 
 #### ELECTROMAGNETICINDUCTION
 ELECTROMAGNETIC INDUCTION
@@ -7104,15 +7078,17 @@ Vnp Vns
 EXAMPLE1
 
 A transformerhas100 turnsonitsprimary coiland500 turnson its secondarycoil.lfan alternatingvoltageof2Visappliedacrossthe primary,what is thevoltage across the secondary coil?
-ENERGYINTRANSFORMERS
 
-It isveryimportant to try to make transformersasefficientaspossible.Tokeep any energylosses toa minimumweuse thickcopperwire for the coilsand use a soft iron core covered in a thinlayerofplastic to connect the twocoils.
+#### ENERGYINTRANSFORMERS
+ENERGY IN TRANSFORMERS
 
-Ifa transformeris100%efficient then the electrical energyentering theprimary second:Anotherwayof saying this is:
+It is very important to try to make transformers as efficient as possible. To keep any energy losses to a minimum we use thick copper wire for the coils and use a soft iron core covered in a thin layer of plastic to connect the two coils.
 
-input power,V/= output power,V
+If a transformer is 100% efficient then the electrical energy entering the primary second: Another way of saying this is:
 
-V/=Vss
+input power, V/ = output power, V/
+
+V/ = V/ s
 EXAMPLE2
 
 Whena voltage of 12Va.c.is appliedacross theprimary coil ofa stepdown transformer,there isa current of 0.4A in theprimary coil.Calculate the current in the secondary coil if thevoltage induced acrossitis2Va.c. Assume thatthe transformeris100%efficient.
@@ -7210,75 +7186,73 @@ REASONING
 SKILLS
 
 CRITICAL THINKING
-(Total forQuestion 2=8marks）
 
-• aExplainhowabicycle dynamogeneratescurrent. (E)
+#### (Total forQuestion 2=8marks）
+(Total for Question 2 = 8 marks)
 
-• bWhy does the dynamo produceno current when the cyclist has stopped?
+• a Explain how a bicycle dynamo generates current. (E)
 
-• cWhatis an alternator?
+• b Why does the dynamo produce no current when the cyclist has stopped?
 
-INTERPRETATION CRITICALTHINKING
+• c What is an alternator?
+
+INTERPRETATION CRITICAL THINKING
 
 (1)
 
-• dExplain using diagrams the difference between a.c.and d.c.currents. (e)
+• d Explain using diagrams the difference between a.c. and d.c. currents. (e)
 
 CRITICAL THINKING
 
-• Explain what ismeant by thisstatement:The mains supplyin the UKhas a frequencyof50 Hz.
+• Explain what is meant by this statement: The mains supply in the UK has a frequency of 50 Hz.
 
 (2)
 
-(TotalforQuestion 3=10marks)
+(Total for Question 3 = 10 marks)
 
 CRITICAL THINKING
 
-• aWhichof theseobjects ismade from a magneticmaterial?
+• a Which of these objects is made from a magnetic material?
 
-• Aarubber band
+• A a rubber band
 
-• Ba piece of paper
+• B a piece of paper
 
-• Ca steel nail
+• C a steel nail
 
-• Da plasticruler
+• D a plastic ruler
 
-• bIn which of these situations will you see attraction?
+• b In which of these situations will you see attraction?
 
-• A Thenorthpoles of twomagnets areplaced close together.
+• A The north poles of two magnets are placed close together.
 
-• BA wooden rod isplaced close toa strong magnet.
+• B A wooden rod is placed close to a strong magnet.
 
-• CThe southpoles of two magnets areplaced close together.
+• C The south poles of two magnets are placed close together.
 
-• DThe northpoleof one magnet isplaced close to the southpole of anothermagnet.
+• D The north pole of one magnet is placed close to the south pole of another magnet.
 
-• cWhich of these statements is true foramagneticallyhard material?
+• c Which of these statements is true for a magnetically hard material?
 
 • A They are difficult to bend.
 
-• B They are used to makepermanent magnets.
+• B They are used to make permanent magnets.
 
-• CThey are electrical insulators.
+• C They are electrical insulators.
 
-• DThey are used in electromagnets.
+• D They are used in electromagnets.
 
 3
 
 (1)
 
-（Total for Question 1=3marks)
+（Total for Question 1 = 3 marks)
 
-Copy and complete the following passage,filling in the blanks.
+Copy and complete the following passage, filling in the blanks.
 
-A wire carrying an electric current experiencesa when it isina
+A wire carrying an electric current experiences a when it is in a field. This effect can be used in and electric
 
-field.This effect can be used in andelectric
-
-Ifa wire ismoved through a magneticfield,or themagneticfield neara of wire changes,a current can be in the wire.Thiseffectisused in
-
-and
+If a wire is moved through a magnetic field, or the magnetic field near a of wire changes, a current can be in the wire. This effect is used in and
 
 SKILLS
 
@@ -7286,7 +7260,7 @@ REASONING
 
 PROBLEM SOLVING
 
-CREATIVITY,
+CREATIVITY
 
 REASONING
 
@@ -7295,21 +7269,21 @@ SKILLS
 REASONING
 PHYSICS ONLY
 
-Thediagrambelow showshow theelectricalenergy istransmitted from a power station to ourhomes.
+The diagram below shows how the electrical energy is transmitted from a power station to our homes.
 
-• aWhy is the voltage of the supply increasedbefore transmission?
+• a Why is the voltage of the supply increased before transmission?
 
 (1)
 
-• bWhy is the voltage of the supply decreased before entering our homes? (1)
+• b Why is the voltage of the supply decreased before entering our homes? (1)
 
-• cAstep-up transformerhas100 turnsonitsprimary coiland20000 tums onitssecondary coil.Calculate the outputvoltage of the transformerif the inputvoltageis12Va.c. (3)
+• c A step-up transformer has 100 turns on its primary coil and 20000 turns on its secondary coil. Calculate the output voltage of the transformer if the input voltage is 12 V a.c. (3)
 
-• dAssuming that the transformeris100%efficient,calculate the size of the induced current in the secondary coil if the current in the primary coil is 10A.
+• d Assuming that the transformer is 100% efficient, calculate the size of the induced current in the secondary coil if the current in the primary coil is 10A.
 
 (3)
 
-(Total forQuestion 4=8marks)
+(Total for Question 4 = 8 marks)
 END OF PHYSICS ONLY
 
 A keen cyclist builds his own dynamo to generate electricity for his lights. Unfortunately, when he tries it out the lights are not bright enough. Suggest two changes he could make to his dynamo to generate more electricity. Is there a third solution to his problem?
@@ -7436,13 +7410,13 @@ So,using this notation,an atom of oxygen isrepresented by:
 The chemical symbol for oxygen is O.The atomic numberis 8-this tells us that the nucleus contains eight protons.The mass numberis 16,so there are 16nucleons （protons and neutrons)in the nucleus.Since elghtof these are protons,the remaining eight must be neutrons.The atom is electrically neutral overall,so the+8charge of the nucleus isbalanced by the eight orbiting electrons,each with charge-1.
 EXTENSION WORK
 
-Hydrogen-2isalso called heavy hydrogenordeuterium.Hydrogen-3is called tritium.
+Hydrogen-2 is also called heavy hydrogen or deuterium. Hydrogen-3 is called tritium.
 
-THESTABILITYOFISOTOPES
+THE STABILITY OF ISOTOPES
 
-• Figure 22.3 The hydrogen atom has one proton in itsnucleus and no neutrons,so the massnumber A=1+0=1.Asithas oneproton,its atomic number,Z=1.For helium,A=4(2protons+2 neutrons)and Z=2(2protons).For carbon,A=12(6 protons+6neutrons） whileZ=6（6protons)
+• Figure 22.3 The hydrogen atom has one proton in its nucleus and no neutrons, so the mass number A=1+0=1. As it has one proton, its atomic number, Z=1. For helium, A=4(2 protons+2 neutrons) and Z=2(2 protons). For carbon, A=12(6 protons+6 neutrons) while Z=6(6 protons)
 
-Figure22.3shows some examplesof theuse of thisnotation forhydrogen, helium and carbon,togetherwith a simple indication of the structure of anatom of eachof these elements.Ineachcase thenumberof orbiting electronsisequal tothe number ofprotonsin thenucleus,so the atoms are electricallyneutral.
+Figure 22.3 shows some examples of the use of this notation for hydrogen, helium and carbon, together with a simple indication of the structure of an atom of each of these elements. In each case the number of orbiting electrons is equal to the number of protons in the nucleus, so the atoms are electrically neutral.
 ISOTOPES
 
 Thenumberofprotonsin an atom identifies the element.The chemical behaviour of an element depends on the number of electronsit has and,as wehave seen,this always balances thenumberofprotons in the nucleus. However,thenumber of neutrons in the nucleus can vary slightly.Atoms of an elementwith differentnumbers ofneutronsare called isotopesof theelement. The numberofneutrons ina nucleusaffects the massof the atom.Different isotopes of an elementwillall have the same atomicnumber,Z,but different massnumbers,A.Figures22.4and22.5show some examples of isotopes.
@@ -7507,15 +7481,17 @@ KEY.POINT
 Asneutrons cause otheratoms to emit radiation they must be screened.This isdone using materials that have a lot of light atoms like hydrogen.Concrete and water areused toprevent neutrons escaping fromnuclearreactors.
 
 Asneutrons are not electrically charged they donot directly cause ionisation.They are absorbed bynuclei ofother atoms and can cause them tobecomeradioactive Theradioactivenuclei formed in thiswaywill then decay emitting ionisingradiation. Neutrons are the only type ofradiation to cause otheratoms tobecome radioactive We shall see later(Chapter25)thatneutron radiation plays an importantpartin the process offission used innuclearreactors.
-SUMMARY OFTHEPROPERTIESOF IONISINGRADIATION
 
-We have said that ionising radiation causes uncharged atoms to lose electrons. An atom that haslost(or gained) electrons has an overall charge.It is called an ion.The three types of radioactive emission can all form ions.
+#### SUMMARY OFTHEPROPERTIESOF IONISINGRADIATION
+SUMMARY OF THE PROPERTIES OF IONISING RADIATION
 
-Asionising radiationpasses through matter,its energy is absorbed.This means thatradiation can onlypenetratematterup toacertain thickness Thisdependsonthetypeofradiation and thedensityof thematerial thatit is passing through.
+We have said that ionising radiation causes uncharged atoms to lose electrons. An atom that has lost (or gained) electrons has an overall charge. It is called an ion. The three types of radioactive emission can all form ions.
 
-Theionising andpenetrating powers of alpha,beta andgamma radiation are typical but they dodependon the energyof theradiation.Forexample,more
+As ionising radiation passes through matter, its energy is absorbed. This means that radiation can only penetrate matter up to a certain thickness. This depends on the type of radiation and the density of the material that it is passing through.
 
-Allworkwithradioactive sourcesmust beclosely supervised byqualified science staffandno sourcesmust be touchedorpointed towardsany part of the body. Source usage must be logged and they mustbe retumed to theirsecure storageimmediately afteruse.In theUKstudentsunder 16yearsare notpermitted tohandle sources;over16,they are allowed to dothis with close supervision.
+The ionising and penetrating powers of alpha, beta and gamma radiation are typical but they do depend on the energy of the radiation. For example, more
+
+All work with radioactive sources must be closely supervised by qualified science staff and no sources must be touched or pointed towards any part of the body. Source usage must be logged and they must be returned to their secure storage immediately after use. In the UK students under 16 years are not permitted to handle sources; over 16, they are allowed to do this with close supervision.
 KEY POINT
 
 The Geiger-Muller (GM) tube isa detector of radiation.It is descrbed in the next chapter.
@@ -7552,39 +7528,24 @@ Ais the massnumber of the element and Zis the atomic number.The lettersWandYaren
 KEY POINT
 
 It isworthpointing out that themass numberrefersto thenumberofnuclear particles,ornucleons,involved In the transformation-not the exact mass. Mass is not conserved in nuclear transformations,assome ofit is transformed into energy.
-KEYPDINT
 
-Acomplete periodic table is shown in AppendixAon page 277.The numbers showninthe topleftcornerarethe atomicnumbers of the elements-the Znumbers in the nuclear equations. Remember that theZnumbers tellus thenumber of protonsin thenucleus of anelement.Some periodic tables show the atomicmass toobutaselements have a number of different isotopes the mass numbers will be an average for the different isotopes.
+#### KEYPDINT
+KEY POINT
 
-Here isan example of alpha decay:
+A complete periodic table is shown in Appendix A on page 277. The numbers shown in the top left corner are the atomic numbers of the elements - the Z numbers in the nuclear equations. Remember that the Z numbers tell us the number of protons in the nucleus of an element. Some periodic tables show the atomic mass too but as elements have a number of different isotopes the mass numbers will be an average for the different isotopes.
 
-218Ra
+Here is an example of alpha decay:
 
-He
+²¹⁸Ra → ²¹⁴Rn + ⁴He + energy
+radium atom radon atom + α particle + energy
 
-→
+The radioactive isotope radium-222 decays to the element radon by the emission of an alpha particle. The alpha particle is sometimes represented by the Greek letter α. Radon is a radioactive gas that also decays by emitting an alpha particle. Note that the atomic number for radon, 86, is two less than the atomic number for radium.
 
-+
+This is a balanced equation:
+• The total of the A numbers on each side of the equation is the same. (Remember that A is the total number of protons and neutrons.)
+• The total of the Z numbers on each side of the equation is the same. (Remember that the Z number tells us the number of protons in the nucleus - the number of positively charged particles.)
 
-energy
-
-radium atom
-
-radonatom+
-
-aparticle+
-
-energy
-
-Theradioactiveisotoperadium-222decaystotheelementradonbythe emission ofan alpha particle.The alpha particleissometimesrepresented by the Greeklettera.Radon isaradioactivegas that alsodecaysbyemitting an alpha particle.Note that the atomicnumberforradon,86,is two less than the atomicnumberforradium.
-
-Thisisabalanced equation:
-
-• The total of theAnumbersoneachsideof theequation is thesame. (Remember that Ais the total numberofprotonsand neutrons.)
-
-• Thetotalof theZnumbersoneach sideof theequationisthesame. (Remember thattheZnumbertellsusthenumberofprotonsin thenucleus -thenumberofpositively chargedparticles.)
-
-Thegeneral form of thealphadecay equation is:
+The general form of the alpha decay equation is:
 
 #### KEYPDINT
 In alpha decay,elementYis transformed intoelementWby the emission of analphaparticle.ElementWistwoplacesbefore elementYin theperiodic table.The alpha particle,a helium nucleus,carries away fournucleons,which reduces the massnumber(A)by four.Twoof these nucleonsareprotonsso the atomicnumberof the new elementis twoless than the originalelement, Z-2.Notice that the mass number and the atomicnumber are conserved through this equation-that is,the total numbers of nucleons andprotons on each sideof the equation are thesame.
@@ -7798,13 +7759,15 @@ When ionising radiation enters the tube it causes the low pressure gas inside to
 • Figure 23.2 A Geiger-Müller tube is used to measure the level of radiation.
 
 The GM tube is usually linked up to a counting circuit. This keeps a count of how many ionising particles (or how much radiation) have entered the GM tube. Sometimes GM tubes are connected to rate meters. These measure the number of ionising events per second, and so give a measure of the radioactivity in becquerels. Rate meters usually have a loudspeaker output so the level of radioactivity is indicated by the rate of clicks produced.
-BACKGROUNDRADIATION
 
-Backgroundradiation islow-levelionisingradiation thatisproduced allthe time.Thisbackground radiation has a number of sources.Some of these are natural and some are artificial.
+#### BACKGROUNDRADIATION
+BACKGROUND RADIATION
 
-Figure 23.3 Sources of background radiation in the UK.These are the average values-the true amounts andproportionsvary fromplace toplace.
+Background radiation is low-level ionising radiation that is produced all the time. This background radiation has a number of sources. Some of these are natural and some are artificial.
 
-NATURALBACKGROUND RADIATION FROMTHEEARTH
+Figure 23.3 Sources of background radiation in the UK. These are the average values - the true amounts and proportions vary from place to place.
+
+NATURAL BACKGROUND RADIATION FROM THE EARTH
 KEY POINT
 
 When an atom of a radioactive element decays it gives out radiation and changes to an atom of another element. This may also be radioactive and decay to form an atom of yet another element. The elements formed as a result of a radioactive element experiencing a series of decays are called decay products.
@@ -7862,11 +7825,13 @@ HALF-LIFE
 Our coin-tossing model of radioactive decay shows a graph that approaches the horizontal axis more and more slowly as time passes. The model will produce a number of throws after which all the coins have been taken out of the game. The number is likely to vary from trial to trial because the model becomes less and less reliable as the number of coins becomes smaller. With real radioactive decay we use a measure of activity called the half-life. This is defined as follows.
 
 The half-life of a radioactive sample is the average time taken for half the original mass of the sample to decay. If the amount of radioactive matter has halved then the activity of the decay halves - this activity is what is measured in finding the half-life of an isotope. The half-life is different for different radioactive isotopes.
-MEASURINGTHEHALF-LIFEOFA RADIOACTIVEISOTOPE
 
-Figure 23.6shows what this means.After one half-lifeperiod,t,the amount of the original unstable element has halved.Aftera second period of time,t,the amount hashalved again,and so on.
+#### MEASURINGTHEHALF-LIFEOFA RADIOACTIVEISOTOPE
+MEASURING THE HALF-LIFE OF A RADIOACTIVE ISOTOPE
 
-Tomeasure thehalf-life ofaradioactive material (radioisotope)wemust measure the activity of the sample atregular times.Thisis doneusing a Geiger-Muller(GM)tube linked to a rate meter.Before taking measurements from the sample,we must measure the localbackground radiation.We must subtractthebackgroundradiationmeasurementfrom measurements taken from the samplesoweknowtheradiationproduced by the sampleitself.We then measure therate ofdecayof the sample atregular time intervals.The rate ofdecayis shownby the countrate on therate meter.Theresults should be recorded ina tablelike the one shownbelow.
+Figure 23.6 shows what this means. After one half-life period, t, the amount of the original unstable element has halved. After a second period of time, t, the amount has halved again, and so on.
+
+To measure the half-life of a radioactive material (radioisotope) we must measure the activity of the sample at regular times. This is done using a Geiger-Muller (GM) tube linked to a rate meter. Before taking measurements from the sample, we must measure the local background radiation. We must subtract the background radiation measurement from measurements taken from the sample so we know the radiation produced by the sample itself. We then measure the rate of decay of the sample at regular time intervals. The rate of decay is shown by the count rate on the rate meter. The results should be recorded in a table like the one shown below.
 
 #### MEASURINGTHEHALF-LIFEOFA RADIOACTIVEISOTOPE
 |   Average background radiation measured over 5min = xBq - Time, t/min | Average background radiation measured over 5min = xBq - Count rate/Bq   | Average background radiation measured over 5min = xBq - Corrected count rate, C/Bq   |
@@ -7976,7 +7941,7 @@ Different compounds are chosen for different diagnostictasks.Forexample the isot
 Thehalf-life ofiodine-123isabout 13hours.A short half-lifeis importantasthis means that the activity of the tracer decreases toavery lowlevel in a few days.
 EXTENSION WORK
 
-The isotope used inmedicine is what iscalledametastable fom of technetium-99called technetium-99m.
+The isotope used in medicine is what is called a metastable form of technetium-99 called technetium-99m.
 TREATMENT
 
 STERILISATION USING RADIATION
@@ -8592,11 +8557,13 @@ Those planets that are closest to the Sun feel the greatest attraction and so fo
 | Satun    |                                                 9.5 |                                            30 |
 | Uranus   |                                                  19 |                                            84 |
 | Neptune  |                                                  30 |                                           165 |
-SATELLITESAND MOONS
 
-A satellite is an object that orbits a planet.There are two types of satellite: naturaland artificial (human-made).
+#### SATELLITESAND MOONS
+SATELLITES AND MOONS
 
-Natural satellitesare called moons.The Earth hasjust one moon.lt is the fifth largestmoon inourSolarSystem,approximately340000kmfromEarth,and takesjust over27 days to complete one orbit.Although we callourmoonThe Moon'it isnotunique.Many planetshave moons.Some have more than one, forexample,Marshastwomoons whileJupiterand Saturn havemore than 60each.All moonshave circular orbitsbecause of thegravitational forces between them and theirplanet.
+A satellite is an object that orbits a planet. There are two types of satellite: natural and artificial (human-made).
+
+Natural satellites are called moons. The Earth has just one moon. It is the fifth largest moon in our Solar System, approximately 340000 km from Earth, and takes just over 27 days to complete one orbit. Although we call our moon 'The Moon' it is not unique. Many planets have moons. Some have more than one, for example, Mars has two moons while Jupiter and Saturn have more than 60 each. All moons have circular orbits because of the gravitational forces between them and their planet.
 EXTENSION WORK
 
 The planet Neptune isa very long wayfrom theSunso thegravitational force between them isvery small.This means.that the orbit ofNeptune isnot very curved and it takesavery long time forit to complete one orbit.
@@ -8644,23 +8611,22 @@ The gravitational field strength on the Earth is approximately 10 N/kg while on 
 On the Moon,thegravitational field strength is only one sixth that of the Earth's.This meansthat on theMoon you would weigh six timesless.lf howeveryouvisitedJupiteryou would weighalmost2ytimesmore!
 
 • Figure 26.10 The difference in one person's weight on the Moon and on Jupiter
-ORBITALSPEEDSOFPLANETSANDSATELLITES
 
-performing.Forexample,communication satellitesare put inhigh orbits and travel atapproximately3km/s,while thoseobserving thewholesurfaceof the Earth areputintolowpolarorbitswith speedsofabout8km/s.
+#### ORBITALSPEEDSOFPLANETSANDSATELLITES
+ORBITAL SPEEDS OF PLANETS AND SATELLITES
+
+performing. For example, communication satellites are put in high orbits and travel at approximately 3 km/s, while those observing the whole surface of the Earth are put into low polar orbits with speeds of about 8 km/s.
 
 We can calculate the speed of a satellite using the equation:
 
-speed,v=
+speed, v = 
+distance moved, s
+time taken, t
 
-distancemoved,s
+The distance moved is the circumference of the circular orbit, r:
+distance moved = 2 × π × orbital radius,
 
-time taken,t
-
-The distance moved is the circumference of the circularorbit,r:
-
-distance moved=2xItxorbitalradius,
-
-The time period,T,is the time for one complete orbit.
+The time period, T, is the time for one complete orbit.
 EXTENSION WORK
 
 The orbital period ofa communications satellite,and mostweather satellites,is 24hours,and it always remains above the same part of the Earth's surface. lt is said tobe'geostationary
@@ -8670,55 +8636,38 @@ Rememberto use thesame units throughoutyour work.Distanceshere arelikely to be g
 :oS
 
 The same equationcanbeused to calculate the speeds of theplanets,wherer is the average distance from theSun.
-EXAMPLE1
 
-Calculate thespeedofasatellitethatisorbiting200kmabove theEarth's surfaceandcompletes oneorbitin 1h24min.Theradiusof theEarth is 6400km.
+#### EXAMPLE1
+Calculate the speed of a satellite that is orbiting 200 km above the Earth's surface and completes one orbit in 1h24min. The radius of the Earth is 6400 km.
 
-Theradius of the orbit ismeasured from the centre of the Earth-that is,it is theradiusoftheEarthplus theheightof theorbitabove theEarth'ssurface.
+The radius of the orbit is measured from the centre of the Earth - that is, it is the radius of the Earth plus the height of the orbit above the Earth's surface.
 
-radiusoforbit,r=200km+6400km
+radius of orbit, r = 200 km + 6400 km
+= 6600 km
+= 6600000 m
 
-• =6600km
+orbital period, T = (60 min + 24 min) × 60 seconds
+= 5040 seconds
 
-• =6600000m
+orbital speed, v = 2×π×r/T
+= 2×π×6600000m/5040s
+= 41500000m/5040s
+= 8200 m/s or 8.2 km/s
 
-orbitalperiod,T=（60min+24min）x60seconds
+More questions on motion in the Universe can be found at the end of Unit 8 on page 275.
 
-• =5040 seconds
+• 1a What is the name of the force that keeps all the planets of the Solar System in orbit around the Sun?
+• b What two factors determine the size of this force on the surface of a planet.
+• c Describe one difference between the orbits of Mercury and Neptune. Give one reason for this difference.
+• d Describe how the speed of a comet changes as it orbits the Sun.
+• 2 Describe the differences between the orbits of a moon, a planet and a comet.
+• 3 A satellite is in an orbit 35786 km above the surface of the Earth. The radius of the Earth is approximately 6400 km. The satellite is moving at 3.07 km/s.
+• a How long does the satellite take to orbit the Earth once?
+• b What do you notice about the time period of this satellite?
 
-orbital speed,v T
+If the Earth is approximately 150 million km from the Sun calculate the speed at which the following planets are moving around the Sun. The information you need is given in the table on page 261.
 
-2×T×6600000m
-
-5040s
-
-41500000m
-
-5040s
-
-• =8200 m/sor8.2km/s
-
-More questions on motion in the Universecanbe found at the endof Unit 8on page275.
-
-• 1aWhat isthename of theforce thatkeeps alltheplanetsof theSolar System in orbit around the Sun?
-
-• bWhat two factors determine the size of thisforce onthe surfaceof aplanet.
-
-• cDescribe one differencebetween the orbitsofMercury and Neptune. Give onereason for this difference.
-
-• dDescribe how the speed of a comet changes as it orbits the Sun.
-
-• 2Describe the differencesbetween the orbits of a moon,a planet and a comet.
-
-• 3Asatelliteisinanorbit35786kmabove thesurface oftheEarth.Theradius of the Earth is approximately 6400km.The satellite is moving at3.07km/s.
-
-• aHowlong doesthesatellite take toorbit the Earthonce?
-
-• bWhat doyou notice about the time period of this satellite?
-
-• If theEarthisapproximately150millionkmfromtheSuncalculatethe speedatwhich the following planetsaremoving around the Sun.The informationyou need isgivenin the table onpage261.
-
-aEarth
+a Earth
 
 ## Unit 8: Astrophysics
 
@@ -8738,21 +8687,21 @@ PHYSICS ONLY
 • Draw the main components (parts)of the Hertzsprung-Russell diagram (HR diagram)
 LEARNING OBJECTIVES
 
-• Know that the Sun isa starat the centre of our Solar System
+• Know that the Sun is a star at the centre of our Solar System
 
-• Know that the Universe isa large collection ofbillions of galaxies;galaxies are a large collection of billions of stars; ourSolarSystem isin the Milky Way galaxy
+• Know that the Universe is a large collection of billions of galaxies; galaxies are a large collection of billions of stars; our Solar System is in the Milky Way galaxy
 
 • Understand how stars can be classified according to their colour
 
-• Know thatastar'scolourisrelated toitssurfacetemperature
+• Know that a star's colour is related to its surface temperature
 
-• Describe theevolutionofstarsofsimilarmassto the Sun through the following stages:
+• Describe the evolution of stars of similar mass to the Sun through the following stages:
 
 • nebula
 
-• star(main sequence)
+• star (main sequence)
 
-• redgiant
+• red giant
 
 • white dwarf
 THEMILKYWAY
@@ -8981,71 +8930,63 @@ UNIT QUESTIONS
 
 REASONING
 
-CRITICALTHINKING
+CRITICAL THINKING
 
 PROBLEM SOLVING, ANALYSIS
 
-CRITICALTHINKING
+CRITICAL THINKING
 
-• aWhich of the following statements isincorrect?
+• aWhich of the following statements is incorrect?
 
-• A Gravitational forceskeep ourMoonin orbit around the Earth.
+• A Gravitational forces keep our Moon in orbit around the Earth.
 
-• BComets and moons orbit planets.
+• B Comets and moons orbit planets.
 
 • C-Planets orbit the Sun.
 
-• DArtificial satellites orbit aplanet.
+• D Artificial satellites orbit a planet.
 
-• Which of the following sequencesmightbe followed bya star that hasa mass much larger than our Sun?
+• Which of the following sequences might be followed by a star that has a mass much larger than our Sun?
 
-• A main sequence,stellarnebula,red giant,white dwarf
+• A main sequence, stellar nebula, red giant, white dwarf
 
-• Bstellarnebula,main sequence,red supergiant,blackhole
+• B stellar nebula, main sequence, red supergiant, black hole
 
-• Cstellarnebula,main sequence,white dwarf,black hole
+• C stellar nebula, main sequence, white dwarf, black hole
 
-• Dmain sequence,red giant,neutron star,white dwarf
+• D main sequence, red giant, neutron star, white dwarf
 
 (1)
 
-• Whichare the most commonreactions that takeplace in the core of a star that is in the main sequence?
+• Which are the most common reactions that take place in the core of a star that is in the main sequence?
 
 • A nuclear fission reactions between helium nuclei
 
-• Bnuclearfission reactionsbetween hydrogen nuclei
+• B nuclear fission reactions between hydrogen nuclei
 
-• Cnuclear fusion reactions between helium nuclei
+• C nuclear fusion reactions between helium nuclei
 
-• D nuclear fusionreactionsbetween hydrogen nuclel
+• D nuclear fusion reactions between hydrogen nuclei
 
 (1)
 
-• dWhich of the following observations doesnot support the BigBang theory?
+• dWhich of the following observations does not support the Big Bang theory?
 
-• Acosmicmicrowavebackground radiation
+• A cosmic microwave background radiation
 
 • B blue-shift in the spectra of galaxies
 
-• Cred-shift in the spectra ofgalaxies
+• C red-shift in the spectra of galaxies
 
-• Daccelerating galaxies
+• D accelerating galaxies
 
 (1)
 
-(Total forQuestion 1=4marks)
+(Total for Question 1=4 marks)
 
-Copy and complete the following passage about gravitational forces,filling in the spaces.
+Copy and complete the following passage about gravitational forces, filling in the spaces.
 
-Gravitational forces cause planets and to the Sun.The planets
-
-to the Sun,for example, and experience the
-
-forces and sohave the most orbits.The planets from the Sun,
-
-forexample, and experience the forcesand sohave
-
-theleast orbits.The shape of a planet's orbit isnot quite ltis
+Gravitational forces cause planets and to the Sun. The planets to the Sun, for example, and experience the forces and so have the most orbits. The planets from the Sun, for example, and experience the forces and so have the least orbits. The shape of a planet's orbit is not quite ltis
 
 #### UNIT QUESTIONS
 All objects that orbit a planet are called called but natural ones are
@@ -9278,13 +9219,13 @@ Reproduced from Pearson Edexcel Intemational GCSEin PhysicsSpecification-Issue 1
 All the units used in science are defined by the Systeme International d'Unites:Sl units.
 
 You will,of course,find measurements of units made in subdivisions and multiples of thebase unit.Forexample the subdivisions of the kilogram are grams(g)and milligrams(mg).Metres are subdivided into centimetres (cm)and multiplied into kilometres (km).You willalso be familiarwith otherunitsfortime:minutes,hours,days and years,and so on.You will need to take care to convert units in calculations to the base units of kg,m and swhen you meet these subdivisions andmultiples.
-EXAMPLE
 
-Car speedometers(aninstrument in a vehicle that showshowfastit isgoing)read inkm/h.Calculate the equivalentspeedinm/sofacar travellingat40km/h.
+#### EXAMPLE
+Car speedometers (an instrument in a vehicle that shows how fast it is going) read in km/h. Calculate the equivalent speed in m/s of a car travelling at 40 km/h.
 
-There are1000metresinakilometre so 40km=40000m.
+There are 1000 metres in a kilometre so 40 km = 40000 m.
 
-An houris3600 seconds,so thecar travels40000m in3600 s.
+An hour is 3600 seconds, so the car travels 40000 m in 3600 s.
 
 40000m
 
@@ -9292,9 +9233,9 @@ In one second the car will travel
 
 3600s
 
-S040km/h=11.1m/s
+So 40 km/h = 11.1 m/s
 
-Usain Boltcurrent world recordholderfor the100m sprintaveraged 10.43m/s over his record-breaking 100 m.
+Usain Bolt current world record holder for the 100 m sprint averaged 10.43 m/s over his record-breaking 100 m.
 APPENDIXD:EXPERIMENTALAND INVESTIGATIVESKLLS
 
 Howeveryou doneed to explain thisinyourmethodtheperson markingyourpaperwill notjust assumeyou understand why drawing a graph like this is useful.
@@ -9353,7 +9294,7 @@ Rememberthatmostinvestigations andpracticals are quite safe,and so safety precau
 • ifyouareusing electricity toheat something such as fusewire use a heatproof mat toprotect the bench and donot touch hot wires.
 UNITS
 
-Measurements are akeypart of investigations,but they do notmean anything unlessyou alsogive theunits.Alength of15'couldmean15mm,15cm,15m,oreven15km！
+Measurements are a key part of investigations, but they do not mean anything unless you also give the units. A length of 15' could mean 15mm, 15cm, 15m, or even 15km！
 RECORDING RESULTS
 
 Results should alwaysberecorded in a table.Thefactor thatyou change in an experiment usually goesin the first column.This table shows the resultsforan experiment toinvestigate how the current changeswhenyou change the length ofapieceofwireina circuit.
@@ -9421,9 +9362,9 @@ Think about whether the line should go through the origin.In this case,there is 
 You may sometimesneed toinclude units on a sketch graph,if more than one possible scale could beused.For example,ifyou were asked tosketch agraph toshow how thepressure ofa fixedvolumeofgasvarieswith temperature,either of these graphswould be correct.
 ANALYSING RESULTS
 
-In someinvestigationsyoumayhave tocarryout calculationsonyourresults.Forexample,ifyou were investigatinghow theresistanceofawiredepended on itslengthyouwouldneed tocalculate theresistancefrom current andvoltage measurements.Whenyou show the results ofyour calculations,you should alwaysgiveyour result toanappropriatenumber of significantfigures.The followingexamples should make thisclear.
+In some investigations you may have to carry out calculations on your results. For example, if you were investigating how the resistance of a wire depended on its length you would need to calculate the resistance from current and voltage measurements. When you show the results of your calculations, you should always give your result to an appropriate number of significant figures. The following examples should make this clear.
 
-The current andvoltage in thefirst table areboth measured to two significant figures(2sf).In this case,it means that the voltage isaccurate tothe nearest0.1Vand the current is accurate to the nearest 0.01A.Whenyou divide thevoltage bythe current toget the resistance,you getnumberswith lots of decimal places.lf you just write down the whole answerasdisplayed onyourcalculator,thisimplies that the answerismore accurate than itis.Forexample,the lastcolumn in the table impliesthattheresistancevalueis accuratetothenearest0.00000001Qand thisisobviously not the case!
+The current and voltage in the first table are both measured to two significant figures (2sf). In this case, it means that the voltage is accurate to the nearest 0.1V and the current is accurate to the nearest 0.01A. When you divide the voltage by the current to get the resistance, you get numbers with lots of decimal places. If you just write down the whole answer as displayed on your calculator, this implies that the answer is more accurate than it is. For example, the last column in the table implies that the resistance value is accurate to the nearest 0.00000001Ω and this is obviously not the case!
 
 #### ANALYSING RESULTS
 |   Voltage/V |   Current/A |   Resistance/n |
@@ -9859,7 +9800,7 @@ upthrust an upward force acting on something: an object in a liquid or gas will 
 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series 246 deceleration 10 | decay224 alpha(a)227 beta(β)228-9 exponential 237 gamma(v)230 neutron 229-30 products 235 radioactive 236-7 series
 
 #### D
-| dark energy274 daughternuclide 246                                                                                                     | dark energy274 daughternuclide 246                                                                                                     | dark energy274 daughternuclide 246                                                                                                     | dark energy274 daughternuclide 246                                                                                                     | dark energy274 daughternuclide 246                                                                                                     | dark energy274 daughternuclide 246                                                                                                     | ------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| dark energy 274 daughter nuclide 246 | dark energy 274 daughter nuclide 246 | dark energy 274 daughter nuclide 246 | dark energy 274 daughter nuclide 246 | dark energy 274 daughter nuclide 246 | dark energy 274 daughter nuclide 246 | ------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 
 #### D
 | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182                                                                                       | collisions 31,45 delta(△)184 density(p)173-5,182

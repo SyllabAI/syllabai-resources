@@ -76,7 +76,7 @@ sha256 `9b0783d9fe99790a08255eb1f2ebb6eab5833c03ef8e36dd51b7643ac68a313a`.
 Recommended filter: `exclude_types={"index", "divider", "front_matter"}`.
 This book has NO answers section (unlike chemistry 4CH1).
 
-## LLM polish (round 1, 2026-10-19)
+## LLM polish (rounds 1–2, 2026-10-19/20)
 
 - **Why:** RapidOCR on this scan drops spaces between words
   ("therelationshipbetween", "PearsonEdexcel") — 62% of chunks carried at
@@ -90,25 +90,36 @@ This book has NO answers section (unlike chemistry 4CH1).
   units/equations (m/s², kg·m/s, N/kg, Ω, °C, v²) must survive verbatim;
   tables keep per-line pipe counts. Guards: length drift, refusal patterns,
   Unicode-unit non-decrease, and wording fidelity via whitespace-normalized
-  token similarity (LCS ≥ 0.97) for prose; strict line/pipe discipline for
-  tables. z-ai SDK, resumable JSONL, single worker with 429 backoff.
-- **Result:** 232 of 300 polished (68 pending a quota-limited round 2;
-  19 first-pass rejects re-queued under the wording-fidelity guard).
-  Post-polish audit (`pipeline/scripts/audit_polish_physics.py`): on polished
-  chunks, 18+ lowercase glue runs 1008 → 3 (residuals are legit long words:
-  "thermoluminescence", "telecommunications", one front-matter URL line);
-  camel glue 121 → 0; Unicode-unit regressions 0. Corpus-wide space-glue
-  runs 1456 → 451 (unpolished remainder concentrated in the 68 round-2
-  pending chunks and damp-typed back matter).
+  similarity for prose (character-level LCS on whitespace-stripped text —
+  see guard-fix note below); strict line/pipe discipline for tables.
+  z-ai SDK, resumable JSONL, quota-probe + per-call 120s timeout + quota-stop
+  (run survives the gateway's intermittent 429 windows; progress logged).
+- **Result:** 299 of 300 polished across two rounds (round 1: 232; round 2:
+  67 net new incl. all re-queued rejects). The single holdout
+  (`phys_v1_u0_c0_pdf300_0715`, an index `table_data` chunk) was twice
+  rejected by the table pipe-discipline guard (model kept emitting fullwidth
+  punctuation on the index table) and keeps its original text — index-type
+  back matter is filter-recommended anyway. Post-polish audit
+  (`pipeline/scripts/audit_polish_physics.py`): on round-2 changed chunks,
+  18+ lowercase glue runs 144 → 0, camel glue 27 → 0, caps glue 52 → 4;
+  Unicode-unit regressions 0; corpus-wide space-glue runs 1456 → 307, with
+  **0 residual in the serving-critical chapter_questions/unit_questions
+  chunks**. Remaining residue sits in chunks below the selection threshold
+  or in damp-typed back matter (same policy as chemistry 4CH1).
+- **Guard fix (round 2):** the prose wording-fidelity guard was originally
+  implemented as token-level LCS (split on whitespace), which contradicts its
+  documented "whitespace-normalized" intent — splitting a glued token breaks
+  token equality, so it failed every correct de-glue repair (replay proved
+  235/236 banked round-1 OKs would have failed it; round-1 OKs were banked
+  before the guard was added mid-round). Replaced with character-level LCS
+  on whitespace-stripped text: a full de-glue repair scores 1.0 while any
+  wording change/paraphrase/truncation still fails. 37/38 rejected raws
+  replay-passed under the fixed guard; rejects were re-queued and repaired.
 - **Merge** (`pipeline/scripts/merge_llm_physics.py`): applied in place,
   `text_original` preserved, `char_count` recomputed, full markdown +
   parse report regenerated, serving-critical anchor diff vs pristine v1
-  snapshot = 0 drift. Repair evidence (per-id records incl. rejects with
-  raw outputs) in `pipeline/evidence/`.
-- **Round 2 protocol:** rerun `select_noisy_physics.py` (list unchanged),
-  then `llm_repair_physics.js` (resume-safe), then
-  `merge_llm_physics.py` + `audit_polish_physics.py` +
-  `validate_physics.py`. No schema or id changes expected.
+  snapshot = 0 drift on all 736 chunks. Repair evidence (per-id records incl.
+  rejects with raw outputs) in `pipeline/evidence/`.
 
 ## Parser stack & provenance
 
@@ -127,7 +138,9 @@ This book has NO answers section (unlike chemistry 4CH1).
 - Display-equation boxes: 63 formula regions detected; most decoded to LaTeX
   then Unicode (e.g. `v² = u² + 2×a×s`); where the region decode produced
   junk, the equation also survives in nearby body text.
-- Space-drop repair is round-1 complete: 232/300 selected chunks polished;
-  the remaining 68 keep their v1 text (originals unaffected) until round 2.
+- Space-drop repair is two-round complete: 299/300 selected chunks polished
+  (originals preserved on every touched chunk); corpus-wide residual glue is
+  confined to below-threshold chunks and damp-typed back matter, 0 in the
+  serving-critical question chunks.
 - 3 of 53 learning-objectives chunks carry intra-item newlines (audit cosmetic
   note from chemistry; mostly addressed here, trim further on next pass).

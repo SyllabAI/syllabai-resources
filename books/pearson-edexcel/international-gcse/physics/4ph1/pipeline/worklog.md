@@ -323,3 +323,47 @@ Stage Summary:
   in repeated batches until todo=0, then merge_llm_physics.py,
   audit_polish_physics.py, validate_physics.py, README/worklog addendum,
   final commit. No schema/id changes expected; anchors untouched by design.
+
+---
+Task ID: T-PARSE-4PH1-4-R2 (completion)
+Agent: main (Super Z)
+Task: Round 2 executed to completion during the gateway's intermittent open
+windows (wall lifted ~16:04 UTC 2026-10-20, brief windows between 429 walls).
+
+Work Log:
+- Quota wall broke at ~16:04 UTC; first window processed 26 chunks but
+  rejected 25 — investigation proved the rejects were CORRECT repairs: the
+  prose wording-fidelity guard was implemented as token-level LCS (split on
+  whitespace), which contradicts its documented "whitespace-normalized"
+  intent — splitting a glued token (the whole job) breaks token equality, so
+  every full de-glue repair failed. Replay against banked records proved
+  235/236 round-1 OKs would also fail the guard as coded (round-1 OKs were
+  banked before the guard was added mid-round-1; the guard then only ever
+  passed near-no-ops, explaining round 1's 19 re-queued rejects).
+- Fix: lcsRatio rewritten to character-level LCS on whitespace-stripped text
+  (de-glue -> 1.0; wording change/paraphrase/truncation still fails).
+  Offline replay of the 38 saved reject raws: 37/38 would now pass (the
+  holdout is a table chunk correctly failing pipe discipline).
+- Rejects re-queued (evidence kept in
+  data/llm_repairs_physics_rej_purged_r2a.jsonl); resume-safe runner
+  hammered the intermittent windows (CONC=2): batches of 31 / 28 / 25 / 11
+  OKs. Final re-queue cycle recovered 1 of the last 2 rejects; the holdout
+  phys_v1_u0_c0_pdf300_0715 (index table_data) twice failed the table
+  pipe-discipline guard (fullwidth punctuation on the index table) and
+  keeps its original (evidence: data/llm_repairs_physics_rej_purged_r2b.jsonl).
+- merge_llm_physics.py: 736 chunks, llm_repaired 299, text changed 67
+  (round-2 delta), text_original preserved, md + report regenerated.
+  SERVING-CRITICAL ANCHOR CHECK vs pristine v1: PASS, 0 drift on all 736.
+- audit_polish_physics.py: round-2 changed chunks space_run 144 -> 0,
+  camel 27 -> 0, caps 52 -> 4, unicode-unit regressions 0; corpus-wide
+  space runs 1456 -> 307 (0 residual in chapter_questions/unit_questions
+  chunks; remainder in below-threshold/damp-typed chunks — chemistry
+  policy), polished-chunk residuals are 3 legit words/URL.
+- validate_physics.py: ALL CHECKS PASSED (736 ids, 28/28 chapters, 8/8
+  units, 47 question chunks page-anchored, 0 latex remnants).
+- parsed/README.md rewritten for rounds 1-2 (result, guard fix, holdout).
+
+Stage Summary:
+- 4PH1 v1 corpus FINAL: 736 chunks, 299/300 selected chunks LLM-polished
+  across two rounds, originals preserved everywhere, anchors byte-identical,
+  validation green. Round 2 deliverables + evidence committed and pushed.
