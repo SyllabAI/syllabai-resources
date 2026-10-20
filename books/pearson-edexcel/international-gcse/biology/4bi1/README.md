@@ -1,7 +1,18 @@
-# Pearson Edexcel International GCSE (9-1) Biology (2017), 4BI1 — Student Book Intake (2026-10-21)
+# Pearson Edexcel International GCSE (9-1) Biology (2017), 4BI1 — Student Book
 
-**Status:** SOURCE (intake T-INTAKE-4BI1-1) — parse lane NOT started.
-Scaffold per `books/README.md` §5 (copy of `physics/4ph1/`).
+**Status:** PARSED — chunk corpus v1 landed (T-PARSE-4BI1-1, 2026-10-21).
+Parse route: **text-layer lane** (PyMuPDF native extraction — the source is a
+Word-2016 print-replica, NOT a scan; first lane in `books/README.md` to skip
+the OCR stack). 871 chunks (`bio_v1_`), 6 units / 22 chapters, validation
+ALL CHECKS PASSED (`validate_biology.py`). LLM fidelity polish round 1
+(363 selected — all question chunks + garble-scored) — see
+`pipeline/METHOD_AND_FINDINGS.md` and `parsed/parse_report_v1.json` for the
+final applied/rejected counts.
+
+Method record: `pipeline/METHOD_AND_FINDINGS.md` (2-up spread law, broken-CMap
+garble classes, question-range anchoring via the book's "More questions …"
+cross-references, decision log D-1…D-10). Intake record: T-INTAKE-4BI1-1
+(below).
 
 ## Book of this lane
 
@@ -83,10 +94,17 @@ pending for multi-book courses — T-MIG-140 receipt).
 
 ## Next steps
 
-1. Parse lane per `books/README.md` §5 phases 0–10 (quality gate:
-   `../../PARSE_STANDARD.md` 8 points).
-2. LLM fidelity polish round(s) IF the noise census justifies it.
+1. ~~Parse lane per `books/README.md` §5 phases 0–10~~ — DONE
+   (T-PARSE-4BI1-1): corpus v1 validated, polish round 1 in
+   `parsed/`.
+2. ~~LLM fidelity polish round(s) IF the noise census justifies it~~ —
+   round 1 executed (363 chunks selected: 171 serving-critical question
+   chunks + 192 garble-scored); residuals documented in the parse report.
 3. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20
-   flip).
+   flip) — next lane; note the serving-path promotion below.
 4. Update `books/CATALOG.md` tracker in the same commit as each state
-   change.
+   change — done for the parse state.
+5. Additive v2 candidates (NOT blocking): Unicode sub/superscript recovery
+   for chemical formulas via vertical-offset span analysis (METHOD D-7);
+   LO-text recovery for the 5 openers whose objectives are outline graphics
+   (ch9/10/14/15/19).

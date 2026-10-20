@@ -1,0 +1,46 @@
+{
+  "n_chunks": 869,
+  "content_types": {
+    "front_matter": 15,
+    "skills": 1,
+    "divider": 6,
+    "body": 344,
+    "learning_objectives": 21,
+    "biology_only": 2,
+    "key_point": 58,
+    "did_you_know": 59,
+    "safety": 9,
+    "practical": 5,
+    "chapter_questions": 124,
+    "extension_work": 34,
+    "unit_questions": 45,
+    "exam_hint": 11,
+    "appendix": 21,
+    "glossary": 29,
+    "index": 20,
+    "answers": 65
+  },
+  "size_min": 20,
+  "size_max": 2095,
+  "size_avg": 955,
+  "n_chunks_over_hardmax": 0,
+  "source_pdf_sha256": "974ad65d913108b9caa98df9eda1584e546177854bcd5efa6d8642797d093006",
+  "parser": "PyMuPDF 1.26.7 native text layer (2-up spreads split at x-midpoint; natural content-stream order; icon-junk strip; no OCR) \u2014 text-layer lane, first in playbook",
+  "n_llm_polished": 91,
+  "known_limitations": [
+    "chemical formulas keep plain digits (CO2, C6H12O6) \u2014 span-size sub/sup conversion rejected: garbled display-font bullets ('11') mimic small spans; candidate for additive v2",
+    "5 of 22 chapter openers carry no extractable LEARNING OBJECTIVES text (outline-graphic boxes: ch9/10/14/15/19); 17/22 have LO chunks",
+    "stylized cover/assessment-table art garbles remain inside 2 front-matter chunks (harmless to RAG)",
+    "residual CMap garbles/icon junk in the 272 polish-pending chunks (quota wall) \u2014 resumable"
+  ],
+  "llm_polish": {
+    "selected": 363,
+    "applied": 91,
+    "rejected": 9,
+    "quota_pending": 263,
+    "rounds": 1,
+    "status": "round 1 PARTIAL \u2014 gateway 429 quota wall (account-level) stopped the run at 91/363; runner is resumable (append-only JSONL + skip-if-done), see books/README.md phase 7 / PM-3",
+    "guard": "garble-map-normalized char-level LCS >= 0.94 (calibrated by replaying all banked round-1 OKs, min 0.9412 \u2014 PM-2 discipline; playbook 0.97 was calibrated on whitespace-only damage), length drift 0.6-1.7x, refusal patterns, line-strict retry; rejected raws kept as evidence (llm_repairs_biology_r1a_evidence.jsonl)",
+    "sliver_drops": 2
+  }
+}

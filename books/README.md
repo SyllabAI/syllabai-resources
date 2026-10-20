@@ -53,7 +53,7 @@ books/
 |---|---|---|---|
 | Edexcel IGCSE Chemistry (4CH1), 383 pp | `chem_v3_…` | v1 640 / v3 **1234** chunks | Final; external audit green (2026-10-18); LLM-polished |
 | Edexcel IGCSE Physics (4PH1), 308 pp | `phys_v1_…` | v1 **736** chunks | Final; polish rounds 1–2 (299/300); validation green (2026-10-20) |
-| Edexcel IGCSE Biology (4BI1), 357 pp | — | — | **SOURCE landed 2026-10-21** (T-INTAKE-4BI1-1): native-text 2-up spreads, OCR route not required; parse lane not started |
+| Edexcel IGCSE Biology (4BI1), 357 pp | `bio_v1_…` | v1 **871** chunks | Parsed 2026-10-21 (T-PARSE-4BI1-1): **first text-layer lane** (PyMuPDF, no OCR); validation green; polish round 1 (see parsed report) |
 
 ## 2. Read order (do not skip)
 
@@ -453,6 +453,36 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   provenance. Action: at Phase 0 intake, curl first, then headless-browser
   clearance + cookie handoff, and only then log a wall as blocking.
 
+- **L-012** (2026-10-21, T-PARSE-4BI1-1, Super Z): a text-layer (print-replica)
+  source fails via FONT ENCODING, not OCR — damage is deterministic per
+  font/style (broken-CMap display/italic spans: "hvmg"=living, "1s"=is,
+  "chapler"=chapter, "KEV POINT"), while body text is clean; the OCR stack is
+  the wrong tool and PyMuPDF native extraction takes ~40 s for a whole book.
+  Evidence: `biology/4bi1/pipeline/METHOD_AND_FINDINGS.md` §3.
+  Action: at phase 1, if a text layer is present, probe per-font/per-style
+  damage classes before planning; expect icon-glyph junk + garble classes.
+- **L-013** (2026-10-21, T-PARSE-4BI1-1, Super Z): probe-display code can
+  CREATE the noise it reports — a span dump joined with spaces simulated
+  intra-word splits ("Th is") that did not exist in the real extraction
+  (PyMuPDF's natural span concatenation re-joins kerning splits).
+  Evidence: METHOD_AND_FINDINGS.md §3 + D-3/D-4.
+  Action: re-derive noise classes from the PRODUCTION extraction path, never
+  from probe-side joins, before writing cleaning rules.
+- **L-014** (2026-10-21, T-PARSE-4BI1-1, Super Z): the book's own
+  cross-reference apparatus ("More questions on X can be found at the end of
+  Unit N on page M" — exactly one per chapter) is a stronger structural
+  anchor than decorative section headers, which garble, merge or sit
+  mid-page (y=409). Evidence: biology QUESTION_RANGES derivation (22/22
+  anchored). Action: at phase 2, look for per-unit self-describing
+  navigation lines and anchor question ranges on them.
+- **L-015** (2026-10-21, T-PARSE-4BI1-1, Super Z): fidelity-guard thresholds
+  are damage-class-specific — the 0.97 whitespace-stripped LCS was calibrated
+  on space-drop damage; substitution damage (broken-CMap fixes + icon-junk
+  removal) needs more headroom. Calibrated 0.94 for biology by replaying ALL
+  banked round-1 OKs (min 0.9412) — PM-2 replay discipline, paraphrase still
+  lands 0.7–0.85. Evidence: `calibrate_guard_4bi1.py` + repair log.
+  Action: when polish-reject storms hit a new damage class, replay banked
+  OKs and recalibrate the threshold from the replay, never by eye.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -463,6 +493,16 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   CATALOG.md (§3.3 + §4.1) in the same commit; lane README carries the
   note. Lesson: verify author/ISBN against the artifact itself at intake
   (title page), not against queue-planning rows.
+
+- **E-002** (2026-10-21, T-PARSE-4BI1-1): `physics/4ph1/parsed/load_rag.py`
+  reads chunks as `{"id", "text", "metadata": {...}}`, but the DELIVERED
+  physics corpus (`edexcel_igcse_physics_chunks_v1.jsonl`) is the flat 15-key
+  grammar — `load_raw()` would crash on `c["metadata"]`. The biology lane
+  ships `load_rag.py` matching the flat format (use it as the reference).
+  Evidence: `physics/4ph1/parsed/load_rag.py` vs first line of its own
+  corpus. Disposition: NOT FIXED HERE (physics files are another lane's
+  deliverable — flagging for the physics lane owner; fix is a ~10-line
+  rewrite of the accessor). PROPOSED FOR OPERATOR GATE / lane-owner fix.
 
 *(template for future entries; superseding entries must reference the
 E-ID they correct)*
@@ -486,6 +526,27 @@ E-ID they correct)*
   Deviations from playbook: none (intake-only task). Lessons appended:
   L-011. Errata filed: E-001.
 
+- **R-002** (2026-10-21, T-PARSE-4BI1-1, 4BI1): pages parsed 179/179 spreads
+  (= 358 half-pages; 349 numbered book pages + front/back matter); chunks
+  **869** (`bio_v1_`); content types 18; offset: NOT a single offset — 2-up
+  law `book = 2s-10 (L) / 2s-9 (R)` confirmed 3 ways (header digits,
+  course-structure digits, opener scan); validation **ALL CHECKS PASSED**
+  (validate_biology.py: 15-key grammar incl. polish keys, 22/22 chapters,
+  6/6 units, 0 order breaks, 2-up law coherence, question anchoring 22/22 +
+  6/6 unit banks, answers 329-348 covered, size bounds 20-2095, char_count
+  recomputed); LLM polish round 1: selected 363 (171 forced question + 192
+  garble-scored), applied 91, rejected 9 (pre-calibration guard, evidence
+  kept), quota-pending 272 (account-level 429 wall ~45 min and holding —
+  runner resumable); holdouts none. Deviations from playbook: (1) phase 1
+  re-plan clause exercised — TEXT-LAYER route replaces Docling OCR for this
+  print-replica source (approved at intake); (2) fidelity-guard threshold
+  calibrated 0.94 for the substitution damage class with PM-2 replay
+  discipline (playbook's 0.97 was whitespace-damage-calibrated; see L-015);
+  (3) two skill-tag sliver chunks dropped at merge (<40 chars, junk-only,
+  documented). Lessons appended: L-012, L-013, L-014, L-015. Errata filed:
+  E-002 (physics load_rag.py metadata-wrapper mismatch — not fixed here,
+  flagged to lane owner).
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -496,6 +557,12 @@ E-ID they correct)*
 
 ## 10. Change log
 
+- **2026-10-21 — v1.2 (T-PARSE-4BI1-1):** 4BI1 parse lane executed as the
+  FIRST TEXT-LAYER LANE (PyMuPDF native extraction, no OCR — playbook §5
+  phase-1 re-plan clause); 2-up law pinned 3 ways; 22/22 chapter question
+  ranges anchored via the book's own cross-references; corpus v1 869 chunks
+  validated ALL CHECKS PASSED; polish round 1 partial (91/363, quota-walled,
+  resumable); ledgers L-012…L-015 + E-002 + R-002 recorded.
 - **2026-10-21 — v1.1 (T-INTAKE-4BI1-1):** 4BI1 student book landed as
   SOURCE (lane `pearson-edexcel/international-gcse/biology/4bi1/`,
   sha256 `974ad65d…93006`, 357pp native-text 2-up spreads, OCR route not
