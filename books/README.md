@@ -53,6 +53,7 @@ books/
 |---|---|---|---|
 | Edexcel IGCSE Chemistry (4CH1), 383 pp | `chem_v3_…` | v1 640 / v3 **1234** chunks | Final; external audit green (2026-10-18); LLM-polished |
 | Edexcel IGCSE Physics (4PH1), 308 pp | `phys_v1_…` | v1 **736** chunks | Final; polish rounds 1–2 (299/300); validation green (2026-10-20) |
+| Edexcel IGCSE Biology (4BI1), 357 pp | — | — | **SOURCE landed 2026-10-21** (T-INTAKE-4BI1-1): native-text 2-up spreads, OCR route not required; parse lane not started |
 
 ## 2. Read order (do not skip)
 
@@ -442,11 +443,29 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
 - **L-010** (2026-10-21, T-BOOKS-README-1, Super Z): playbook extracted from
   per-book histories so future parses start from evidence, not memory.
   Evidence: this file's bootstrap commit. Action: keep it alive via §9.
+- **L-011** (2026-10-21, T-INTAKE-4BI1-1, Super Z): intake download walls
+  are not dead ends — SiteGround sgcaptcha-class JS challenges clear in a
+  headless browser; hand the clearance cookies to curl for the bulk
+  download (theonlineschool.co.uk 4BI1 PDF landed this way after curl-only
+  failed). Cloudflare "Just a moment" hosts (dokumen.pub, pdfcoffee)
+  remain hostile to curl; try the same browser route before declaring a
+  source bot-walled. Evidence: worklog T-INTAKE-4BI1-1, lane README
+  provenance. Action: at Phase 0 intake, curl first, then headless-browser
+  clearance + cookie handoff, and only then log a wall as blocking.
 
 ### 9.5 Errata ledger
 
-*(empty — template below; superseding entries must reference the E-ID they
-correct)*
+- **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
+  row listed the 4BI1 SB authors as "Penny Johnson, Susan Kearsey". The
+  book of record (ISBN 9780435185084, 2017) is by **Philip Bradfield &
+  Steve Potter** — verified against the landed copy's title page, Pearson's
+  official sample PDF, and retail ISBN listings. Disposition: FIXED in
+  CATALOG.md (§3.3 + §4.1) in the same commit; lane README carries the
+  note. Lesson: verify author/ISBN against the artifact itself at intake
+  (title page), not against queue-planning rows.
+
+*(template for future entries; superseding entries must reference the
+E-ID they correct)*
 
 ```
 - **E-<seq>** (<date>, <TASK-ID>): <what is wrong / what misled you, where
@@ -456,7 +475,16 @@ correct)*
 
 ### 9.6 Review records
 
-*(empty — template; one per parse task, appended in order)*
+- **R-001** (2026-10-21, T-INTAKE-4BI1-1, 4BI1 intake): repo check — 4BI1
+  SB absent (only spec spine `Official-Specifications/igcse-biology/`);
+  web-sourced theonlineschool.co.uk copy via headless-browser sgcaptcha
+  clearance + curl cookie handoff; pypdf verified 179 spread pages / 357
+  book pp, native text layer (18/18 sampled pages >40 chars), authors
+  confirmed Bradfield & Potter (ISBN 9780435185084); lane scaffold landed;
+  CATALOG tracker row 9 + §3.3 record + §4.1 state S. No parse yet (next
+  lane runs §5 phases 0–10 with the spread-mapping watch item).
+  Deviations from playbook: none (intake-only task). Lessons appended:
+  L-011. Errata filed: E-001.
 
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
@@ -468,6 +496,11 @@ correct)*
 
 ## 10. Change log
 
+- **2026-10-21 — v1.1 (T-INTAKE-4BI1-1):** 4BI1 student book landed as
+  SOURCE (lane `pearson-edexcel/international-gcse/biology/4bi1/`,
+  sha256 `974ad65d…93006`, 357pp native-text 2-up spreads, OCR route not
+  required); CATALOG tracker row 9 + §3.3 + §4.1→S; L-011 + E-001 + R-001
+  recorded (first exercised cycle of the §9 self-improvement loop).
 - **2026-10-21 — v1.0 (T-BOOKS-README-1):** bootstrapped the playbook from
   the complete chemistry 4CH1 + physics 4PH1 histories (methods, findings,
   decision logs, post-mortems, audit verdict); seeded lesson ledger L-001…

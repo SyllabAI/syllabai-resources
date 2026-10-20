@@ -39,7 +39,8 @@ the committed books-registry set; the shelf is always the live gate.
 | 6 | Cambridge International AS & A Level **Biology** Coursebook 4th ed (Jones et al.) | CIE 9700 | `cie-a-level-biology-25` | `cambridge-international/ial/biology/9700/` | ✅ 2026-10-21 (696pp, text layer) | — | — | — |
 | 7 | **Cambridge IGCSE Physics** 3rd ed (Duncan & Kennett, Hodder endorsed) | CIE 0625 | `cie-igcse-physics-23` | `cambridge-international/igcse/physics/0625/` | ✅ 2026-10-21 (328pp, text layer; CUP Sang upgrade pending) | — | — | — |
 | 8 | **Cambridge IGCSE Biology** Coursebook 3rd ed (Jones & Jones) | CIE 0610 | `cie-igcse-biology-23` | `cambridge-international/igcse/biology/0610/` | ✅ 2026-10-21 (350pp image scan → OCR route) | — | — | — |
-| 9+ | → see §4 rollout queue (wave-3: SB2 of YPH11, 0620 chemistry, edition upgrades) | | | | | | | |
+| 9 | Edexcel International GCSE (9-1) **Biology** Student Book | Pearson Edexcel IGCSE 4BI1 | `igcse-biology-19` | `pearson-edexcel/international-gcse/biology/4bi1/` | ✅ 2026-10-21 (357 book pp as 179 native-text 2-up spreads; ISBN 9780435185084; OCR route NOT required) | — | — | — |
+| 10+ | → see §4 rollout queue (wave-3: SB2 of YPH11, 0620 chemistry, edition upgrades) | | | | | | | |
 
 ## 3. Books in the archive — full records
 
@@ -69,6 +70,22 @@ the committed books-registry set; the shelf is always the live gate.
 | Serving | — pending the T-MIG-133-style serving lane (TEXTBOOK doc + chapters + slices manifest + validation flip) |
 | Notes | second parse; hybrid-stack lessons feed the playbook §7/§8 |
 
+### 3.3 Edexcel International GCSE (9-1) Biology Student Book — SOURCE
+
+| Field | Value |
+|---|---|
+| Qual / code | Pearson Edexcel International GCSE, **4BI1** (2017 line) |
+| Course binding (v2 hub) | `igcse-biology-19` · specKey `pearson-edexcel/international-gcse/biology/4bi1` (spec spine already in repo: `Official-Specifications/igcse-biology/`) |
+| Authors | Philip Bradfield, Steve Potter (verified from the landed copy's title page + Pearson official sample; §4.1 queue row had misattributed "Penny Johnson, Susan Kearsey" — corrected here, errata E-001 in books/README.md) |
+| ISBN | 978-0435185084 (1st ed., 2017) |
+| Source of record | `biology/4bi1/source/student-book.pdf` · sha256 `974ad65d913108b9caa98df9eda1584e546177854bcd5efa6d8642797d093006` · 357 book pages rendered as **179 landscape 2-up spread PDF pages** · 34,351,405 bytes · **native text layer** (Word 2016 → Acrobat Pro DC 15 print-replica conversion; OCR route NOT required) |
+| Disclosed form | 2-up spreads (deterministic preprocessing at parse); Word-conversion split-word artifacts ("differen t organs") — noise census at parse start; ANSWERS section present (like 4CH1, unlike 4PH1) |
+| Provenance | theonlineschool.co.uk direct PDF (sgcaptcha-walled; cleared via headless-browser clearance + cookie handoff to curl), gateway trace 1a15b063a08dbc69; pypdf verification 18/18 sampled pages text>40 chars |
+| Upgrade candidates | dokumen.pub single-page 357pp/165MB (CF-walled at intake); pdfcoffee 49MB copy (CF-walled); Pearson official = 69pp sample only |
+| Parse | — not started (playbook §5 phases 0–10; watch item: spread→book-page mapping probed 3 ways) |
+| Serving | — pending |
+| Notes | first NATIVE-TEXT-LAYER source in the Pearson IGCSE lanes — quality class above 4CH1/4PH1 scans; intake-only lane, no corpus yet |
+
 ## 4. Rollout queue — books for every course (decision of record 2026-10-20)
 
 Operator decision (v2 trace 1a15a87407daa94d): **books on every course**.
@@ -82,7 +99,7 @@ SOURCE · `P` PARSED · `I` INTEGRATED · `L` LIVE.
 |---|---|---|---|
 | Chemistry 4CH1 | `igcse-chemistry-19` | SB (Jim Clark) | **L** (§3.1) |
 | Physics 4PH1 | `igcse-physics-19` | SB (Arnold/Johnson/Woote) | **P** (§3.2) |
-| Biology 4BI1 | `igcse-biology-19` | SB (Penny Johnson, Susan Kearsey) | — |
+| Biology 4BI1 | `igcse-biology-19` | SB (Philip Bradfield & Steve Potter, ISBN 9780435185084; authors corrected 2026-10-21 — see §3.3 + books/README.md E-001) | **S** (§3.3) |
 | Maths A 4MA1 (F/H) | `igcse-maths-a-18-*` | SB (A/O level Maths A; PDF+JSONL package staged upstream, operator-keyed) | — |
 | Maths B 4MB1 | `igcse-maths-b-16` | SB (David Turner, Ian Potts) | — |
 | Further Pure 4PM1 | `igcse-further-maths-19` | SB | — |
@@ -166,4 +183,5 @@ component.
 | Date | Change | Commit / evidence |
 |---|---|---|
 | 2026-10-21 | Catalog created (T-MIG-141 wave-2 intake): chemistry + physics rows of record, rollout queue for 60+ lanes, status vocabulary, multi-book law note | this commit |
+| 2026-10-21 | 4BI1 SOURCE intake (T-INTAKE-4BI1-1): lane `pearson-edexcel/international-gcse/biology/4bi1/` lands per the 4ph1 scaffold (source/ + sha256 974ad65d…93006 + provenance README); book = Bradfield & Potter 2017, 357pp as 179 native-text 2-up spreads — OCR route NOT required; tracker row 9 + §3.3 record + §4.1 state —→S + author misattribution corrected (books/README.md E-001); upgrade candidates: dokumen.pub 357pp/165MB single-page, pdfcoffee 49MB | this commit (lane README = per-book evidence) |
 | 2026-10-21 | Wave-2 SOURCE intake: 6 lanes land (YPH11 SB1; 9701; 9702 2nd ed; 9700 4th ed; 0625 Hodder 3rd ed; 0610 3rd ed) — each `source/` + sha256 + provenance README per the 4ph1 scaffold; quality verdicts + disclosed defects (9701 2-page ad watermark; 0610/SB1 image-only → OCR route); pendings: YPH11 SB2, 0620 full copy, 3rd/4th/5th-ed upgrades | this commit (lane READMEs = per-book evidence) |
