@@ -33,14 +33,15 @@ the committed books-registry set; the shelf is always the live gate.
 |---|---|---|---|---|---|---|---|---|
 | 1 | Edexcel International GCSE (9-1) **Chemistry** Student Book | Pearson Edexcel IGCSE 4CH1 | `igcse-chemistry-19` | `pearson-edexcel/international-gcse/chemistry/4ch1/` | ✅ 2026-10-18 | ✅ 2026-10-18 (v3, 1234 chunks; audit GREEN) | ✅ 2026-10-20 (doc `e6c0db50…`, 29 chapters) | ✅ 2026-10-20 (VALIDATED; card+shelf live) |
 | 2 | Edexcel International GCSE (9-1) **Physics** Student Book | Pearson Edexcel IGCSE 4PH1 | `igcse-physics-19` | `pearson-edexcel/international-gcse/physics/4ph1/` | ✅ 2026-10-19 | ✅ 2026-10-20 (v1, 736 chunks; polish R1-R2; validator ALL CHECKS PASSED) | — pending serving lane | — pending |
-| 3 | Pearson Edexcel International AS Level **Physics** Student Book 1 (Miles Hudson) | Pearson Edexcel IAL YPH11 (book 1 of 2) | `ial-physics-19` | `pearson-edexcel/international-a-level/physics/yph11/` | ✅ 2026-10-21 (book 1; 225pp image replica) | — | — | — |
+| 3 | Pearson Edexcel International AS/A2 Level **Physics** Student Books 1+2 (Miles Hudson) | Pearson Edexcel IAL YPH11 (2-book course) | `ial-physics-19` | `pearson-edexcel/international-a-level/physics/yph11/` | ✅ 2026-10-21 (book 1, 225pp + book 2, 237pp; both image replicas; SB2 = 145dpi derived copy under GitHub's 100 MiB limit — derivation disclosed in lane README) | — | — | — |
 | 4 | Cambridge International AS & A Level **Chemistry** Coursebook 3rd ed (Ryan & Norris) | CIE 9701 | `cie-a-level-chemistry-25` | `cambridge-international/ial/chemistry/9701/` | ✅ 2026-10-21 (889pp, text layer; 2 pages ad-watermarked — parse must strip) | — | — | — |
 | 5 | Cambridge International AS & A Level **Physics** Coursebook 2nd ed (Sang et al.) | CIE 9702 | `cie-a-level-physics-25` | `cambridge-international/ial/physics/9702/` | ✅ 2026-10-21 (744pp, text layer; 3rd-ed upgrade pending) | — | — | — |
 | 6 | Cambridge International AS & A Level **Biology** Coursebook 4th ed (Jones et al.) | CIE 9700 | `cie-a-level-biology-25` | `cambridge-international/ial/biology/9700/` | ✅ 2026-10-21 (696pp, text layer) | — | — | — |
 | 7 | **Cambridge IGCSE Physics** 3rd ed (Duncan & Kennett, Hodder endorsed) | CIE 0625 | `cie-igcse-physics-23` | `cambridge-international/igcse/physics/0625/` | ✅ 2026-10-21 (328pp, text layer; CUP Sang upgrade pending) | — | — | — |
 | 8 | **Cambridge IGCSE Biology** Coursebook 3rd ed (Jones & Jones) | CIE 0610 | `cie-igcse-biology-23` | `cambridge-international/igcse/biology/0610/` | ✅ 2026-10-21 (350pp image scan → OCR route) | — | — | — |
 | 9 | Edexcel International GCSE (9-1) **Biology** Student Book | Pearson Edexcel IGCSE 4BI1 | `igcse-biology-19` | `pearson-edexcel/international-gcse/biology/4bi1/` | ✅ 2026-10-21 (357 book pp as 179 native-text 2-up spreads; ISBN 9780435185084; OCR route NOT required) | — | — | — |
-| 10+ | → see §4 rollout queue (wave-3: SB2 of YPH11, 0620 chemistry, edition upgrades) | | | | | | | |
+| 10 | **Cambridge IGCSE Chemistry** Coursebook 4th ed (Harwood & Lodge) | CIE 0620 | `cie-igcse-chemistry-23` | `cambridge-international/igcse/chemistry/0620/` | ✅ 2026-10-21 (362pp full copy, image-only + RM.DL watermark disclosed → OCR route; sourcing history in lane README) | — | — | — |
+| 11+ | → see §4 rollout queue (wave-3: edition upgrades — CUP 0620 5th ed, 9702 3rd ed, 9700 5th ed, 0625 CUP Sang, 0610 4th ed) | | | | | | | |
 
 ## 3. Books in the archive — full records
 
@@ -116,7 +117,7 @@ SOURCE · `P` PARSED · `I` INTEGRATED · `L` LIVE.
 
 | Lane | Course slug | Book(s) | State |
 |---|---|---|---|
-| **Physics YPH11** | `ial-physics-19` | **Student Book 1** (Miles Hudson, IAS Units 1–2, ISBN 978-1292244877) + **Student Book 2** (IAL Units 4–5, ISBN 978-1292244478) — a TWO-book course; Units 3/6 are practicals, no SB | **SB1 = S** · SB2 — (bot-walled: taleem360 reCAPTCHA, scribd login; candidates in lane README) |
+| **Physics YPH11** | `ial-physics-19` | **Student Book 1** (Miles Hudson, IAS Units 1–2, ISBN 978-1292244877) + **Student Book 2** (IAL Units 4–5, ISBN 978-1292244478) — a TWO-book course; Units 3/6 are practicals, no SB | **SB1 = S · SB2 = S** (2026-10-21 retry: taleem360 direct link via Googlebot-UA bypass — the wall-bypass method of record; SB2 archive copy = disclosed 145dpi ghostscript derivative, original 115 MiB over GitHub's file limit) |
 | Chemistry YCH11 | `ial-chemistry-17` | Student Book 1 + Student Book 2 (same two-book IAL science pattern) | — |
 | Biology YBI11 | `ial-biology-18` | Student Book 1 + Student Book 2 | — |
 | Maths YMA01 (P1-P4, M1-M2, S1-S2, D1) | `ial-maths-20-*` | per-component SBs | — |
@@ -145,7 +146,7 @@ component.
 | A-Level Biology 9700 | `cie-a-level-biology-25` | Coursebook — Jones, Fosbery, Taylor, Widger | **S** (4th ed sourced 2026-10-21, 696pp; 5th ed = upgrade candidate) |
 | A-Level Maths 9709 (6 lanes) | `cie-a-level-maths-20-*` | per-component Coursebooks: Pure Math 1; Pure Math 2&3; Mechanics; Prob & Stats 1; Prob & Stats 2 | — |
 | IGCSE Physics 0625 | `cie-igcse-physics-23` | Coursebook 3rd ed — Sang | **S** (Hodder Duncan/Kennett 3rd ed sourced 2026-10-21, 328pp; CUP Sang = upgrade candidate) |
-| IGCSE Chemistry 0620 | `cie-igcse-chemistry-23` | Coursebook 4th ed — Harwood & Lodge | — (papacambridge 4th ed = 69pp preview; freelib/chemistry.com.pk JS-walled; full copy still to source) |
+| IGCSE Chemistry 0620 | `cie-igcse-chemistry-23` | Coursebook 4th ed — Harwood & Lodge | **S** (2026-10-21 retry: full 362pp copy via libgen.vg; image-only → OCR route; RM.DL per-page watermark disclosed; papacambridge 69pp preview re-proven & rejected; CUP 5th ed = upgrade candidate) |
 | IGCSE Biology 0610 | `cie-igcse-biology-23` | Coursebook 3rd ed — Jones | **S** (3rd ed sourced 2026-10-21, 350pp image scan; 4th ed = upgrade candidate) |
 | IGCSE Maths 0580 (core/extended) | `cie-igcse-maths-25-*` | Core & Extended Coursebook — Morrison/Humberstone (or Hodder Pimentel/Wall) | — |
 | IGCSE Intl Maths 0607 | `cie-igcse-maths-international-maths-23-*` | Coursebook | — |
@@ -185,3 +186,4 @@ component.
 | 2026-10-21 | Catalog created (T-MIG-141 wave-2 intake): chemistry + physics rows of record, rollout queue for 60+ lanes, status vocabulary, multi-book law note | this commit |
 | 2026-10-21 | 4BI1 SOURCE intake (T-INTAKE-4BI1-1): lane `pearson-edexcel/international-gcse/biology/4bi1/` lands per the 4ph1 scaffold (source/ + sha256 974ad65d…93006 + provenance README); book = Bradfield & Potter 2017, 357pp as 179 native-text 2-up spreads — OCR route NOT required; tracker row 9 + §3.3 record + §4.1 state —→S + author misattribution corrected (books/README.md E-001); upgrade candidates: dokumen.pub 357pp/165MB single-page, pdfcoffee 49MB | this commit (lane README = per-book evidence) |
 | 2026-10-21 | Wave-2 SOURCE intake: 6 lanes land (YPH11 SB1; 9701; 9702 2nd ed; 9700 4th ed; 0625 Hodder 3rd ed; 0610 3rd ed) — each `source/` + sha256 + provenance README per the 4ph1 scaffold; quality verdicts + disclosed defects (9701 2-page ad watermark; 0610/SB1 image-only → OCR route); pendings: YPH11 SB2, 0620 full copy, 3rd/4th/5th-ed upgrades | this commit (lane READMEs = per-book evidence) |
+| 2026-10-21 | Wave-2 retry (run-002): YPH11 SB2 + 0620 land from fresh sources — SB2 via taleem360 direct link (Googlebot-UA wall-bypass method of record; archive copy = disclosed 145dpi ghostscript derivative of the 115 MiB original, OCR-parity verified); 0620 CUP 4th ed via libgen.vg (362pp image-only, RM.DL watermark disclosed; papacambridge 69pp preview re-proven & rejected); 0620 lane scaffold created; tracker rows 3/9 + queue §4.2/§4.3 updated | this commit (lane READMEs = per-book evidence) |

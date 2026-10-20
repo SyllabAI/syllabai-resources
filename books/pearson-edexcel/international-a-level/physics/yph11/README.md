@@ -23,13 +23,15 @@ Scaffold per `books/README.md` §5 (copy of `physics/4ph1/`).
 - **Title:** Pearson Edexcel International A2 Level Physics Student Book 2
 - **Authors:** Miles Hudson
 - **ISBN:** 978-1292244478
-- **Coverage:** IAL Units 4 & 5 (Unit 6 is the practical unit, no SB)
-- **File:** **PENDING**
-- **Pages:** —
-- **Bytes:** —
-- **sha256:** —
-- **Quality:** NOT SOURCED this wave — taleem360 bot-walled (reCAPTCHA), scribd login-gated
-- **Provenance:** candidates: taleem360.com/edexcel-international-a-level-physics-book-2-vyu; pdfcoffee.com/edexcel-ial-physics-book-2-pdf-free.html (32MB); scribd.com/document/890242837
+- **Coverage:** IAL Units 4 & 5, Topics 5–11 + Maths Skills (Unit 6 is the practical unit, no SB) — identity proven by OCR of the cover ("Pearson Edexcel International A Level Physics Student Book 2") and the contents page (Topics 5–11)
+- **File:** `source/student-book-2.pdf` (ARCHIVE COPY — see derivation note)
+- **Pages:** 237 (full copy; cross-checked 237/238pp scribd copies of the same title)
+- **Bytes:** 41,870,983
+- **sha256:** `449dc3f34a56d64790abba2b1f39d2a35fd42e98c60e2a7cc063dd1d77573d0c`
+- **Original scan (provenance of record):** 120,888,486 bytes · sha256 `28eabe40458d064216f593b44ffa96670f0fef1f7362b39af3a85c4e02ed5f8f` · image-only print replica (one full-page JPEG per page, ~150dpi; zero text layer) → OCR route
+- **Derivation note (disclosed):** the original exceeds GitHub's 100 MiB hard file limit, so the archive copy is a ghostscript `pdfwrite` derivative (color images resampled 150→145 dpi Bicubic, DCTEncode, duplicate-image detection on). Pages unchanged (237); OCR parity verified on the contents page (231/234 chars vs original). Original retained locally at `scratch/books_dl_retry/sb2_taleem360.pdf` and re-downloadable at the provenance URL.
+- **Quality:** Image-only print replica → OCR route (the proven 4CH1/4PH1/SB1 stack). Disclosed third-party mark: cover carries "PDF COMPILED BY SAAD".
+- **Provenance:** https://www.taleem360.com/download/edexcel-international-a-level-physics-book-2-vyu?f=8bab16ce (direct link; the page is reCAPTCHA-walled to normal browsers but serves `text/html`+file to a Googlebot UA — the wall-bypass method of record, 2026-10-21)
 
 ## Course binding (planned)
 
