@@ -1,0 +1,292 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.1",
+ "generated_utc": "2026-10-20T20:53:26Z",
+ "series": "2019-06",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/1C; series=2019-06; printed='June 2019'; sha256 qp/ms match manifest: True",
+   "details": {
+    "qp_sha256": "0254a7364b4434fd68b1b1d852f694df7e33a9d54b1d8e9db8e06ae9d865a16a",
+    "ms_sha256": "2429332c17d9919019eb51b5f0a06f2be5c8863992a7442e62aa6b9e146f92e6",
+    "registry_paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/1C"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "REVIEW",
+   "summary": "14 questions extracted; Σ known totals=104/110; source defects: missing Q[1, 7, 11, 12, 15] (image-only pages [4, 12, 16, 18, 20, 26] in archive PDF) — lost content needs human/OCR re-ingest",
+   "details": {
+    "mismatches": [
+     {
+      "question": 1,
+      "parts_sum": 1,
+      "printed": 4,
+      "attributed_to_image_only_pages": [
+       4
+      ]
+     },
+     {
+      "question": 11,
+      "parts_sum": 3,
+      "printed": 9,
+      "attributed_to_image_only_pages": [
+       16
+      ]
+     },
+     {
+      "question": 12,
+      "parts_sum": 7,
+      "printed": 9,
+      "attributed_to_image_only_pages": [
+       18
+      ]
+     },
+     {
+      "question": 15,
+      "parts_sum": 6,
+      "printed": 9,
+      "attributed_to_image_only_pages": [
+       26
+      ]
+     }
+    ],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [
+     {
+      "question": 7,
+      "reason": "footer absent in source PDF; question not extractable — image-only page(s) [12] in archive PDF (content lost at scan)",
+      "attributed": true
+     }
+    ],
+    "image_only_pages": [
+     4,
+     12,
+     16,
+     18,
+     20,
+     26
+    ],
+    "count_expected": 15
+   }
+  },
+  {
+   "gate": "G2-verbatim",
+   "status": "PASS",
+   "summary": "5-gram overlap vs source region ≥0.95 for all 51 parts: True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "6 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 1 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 1
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "REVIEW",
+   "summary": "MS linkage 32/53 (60%)",
+   "details": {
+    "unmatched": [
+     "3(d)(i)",
+     "3(d)(ii)",
+     "5(c)(i)",
+     "5(c)(ii)",
+     "6(b)(i)",
+     "6(b)(ii)",
+     "8(c)(i)",
+     "8(c)(ii)",
+     "9(b)",
+     "10(a)(i)",
+     "10(a)(ii)",
+     "10(b)(i)",
+     "10(b)(ii)",
+     "11(iii)",
+     "13(b)(i)",
+     "13(b)(ii)",
+     "14(f)(i)",
+     "14(f)(ii)",
+     "15(i)",
+     "15(ii)",
+     "15(iii)"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 53 parts pending-llm tagging",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G1",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2",
+   "detected": true,
+   "target": "14(f)(i)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "Q7",
+   "reason": "footer absent in source PDF; question not extractable — image-only page(s) [12] in archive PDF (content lost at scan)"
+  },
+  {
+   "part": "2(a)",
+   "reason": "figure crop required (diagram, page 6)"
+  },
+  {
+   "part": "3(d)(ii)",
+   "reason": "figure crop required (table, page 7)"
+  },
+  {
+   "part": "9(b)",
+   "reason": "figure crop required (diagram, page 13)"
+  },
+  {
+   "part": "13(a)(i)",
+   "reason": "figure crop required (grid, page 21)"
+  },
+  {
+   "part": "13(b)(i)",
+   "reason": "figure crop required (grid, page 21)"
+  },
+  {
+   "part": "13(b)(ii)",
+   "reason": "figure crop required (grid, page 21)"
+  },
+  {
+   "part": "3(d)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(d)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "5(c)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "5(c)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(b)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(b)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "8(c)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "8(c)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "9(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(b)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(b)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(iii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "13(b)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "13(b)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "14(f)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "14(f)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "15(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "15(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "15(iii)",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "source_defects": {
+  "image_only_pages": [
+   4,
+   12,
+   16,
+   18,
+   20,
+   26
+  ],
+  "affected_questions": [
+   1,
+   7,
+   11,
+   12,
+   15
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.1",
+ "generated_utc": "2026-10-20T20:53:30Z",
+ "series": "2021-06",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C; series=2021-06; printed='June 2021'; sha256 qp/ms match manifest: True",
+   "details": {
+    "qp_sha256": "f23c24c14501fce4ee42a72a15deb96c84c9e205565683a4d1e8e6084d3fb4af",
+    "ms_sha256": "1d2da221fc93f0014b8305d470a63486e0d1ad727d816680719916f716f36ab5",
+    "registry_paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "10 questions; Σ question totals=110/110; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [
+     20,
+     27,
+     28
+    ],
+    "count_expected": 10
+   }
+  },
+  {
+   "gate": "G2-verbatim",
+   "status": "PASS",
+   "summary": "5-gram overlap vs source region ≥0.95 for all 54 parts: True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "8 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 1 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 1
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 53/54 (98%)",
+   "details": {
+    "unmatched": [
+     "7(a)"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 54 parts pending-llm tagging",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G1",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2",
+   "detected": true,
+   "target": "1(a)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "1(a)",
+   "reason": "figure crop required (table, page 3)"
+  },
+  {
+   "part": "2(a)(i)",
+   "reason": "figure crop required (table, page 4)"
+  },
+  {
+   "part": "3(b)(ii)",
+   "reason": "figure crop required (apparatus, page 6)"
+  },
+  {
+   "part": "5(a)(i)",
+   "reason": "figure crop required (boxes, page 10)"
+  },
+  {
+   "part": "7(b)(i)",
+   "reason": "figure crop required (table, page 16)"
+  },
+  {
+   "part": "8(b)(iii)",
+   "reason": "figure crop required (diagram, page 19)"
+  },
+  {
+   "part": "9(b)(i)",
+   "reason": "figure crop required (graph, page 22)"
+  },
+  {
+   "part": "9(b)(ii)",
+   "reason": "figure crop required (grid, page 23)"
+  },
+  {
+   "part": "7(a)",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "source_defects": {
+  "image_only_pages": [
+   20,
+   27,
+   28
+  ],
+  "affected_questions": []
+ }
+}
