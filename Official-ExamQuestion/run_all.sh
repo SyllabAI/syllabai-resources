@@ -5,13 +5,42 @@
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"                 # .../syllabai-resources/Official-ExamQuestion
 RES="$(cd "$ROOT/.." && pwd)"                          # .../syllabai-resources
-UP=/home/z/my-project/upload                           # staging area for inputs (see AGENTS.md)
+UP="${EXAMQ_UPLOAD_DIR:-/home/z/my-project/upload}"    # staging area for inputs (see AGENTS.md)
+mkdir -p "$UP"
 GHTOKEN="${GHTOKEN:-}"
 BASEURL="https://raw.githubusercontent.com/SyllabAI/syllabai-pastpapers/main/past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers"
 
+# Bootstrap the series index when absent (LEDGER F16): one contents-API call on
+# the 4CH1 series directory. The recursive git/trees API TRUNCATES on large
+# repos (~39k entries observed) and can silently omit subtrees — never rely on it.
+if [ ! -s "$UP/pp-tree.json" ]; then
+  echo "bootstrapping pp-tree.json (series enumeration via contents API)"
+  GHTOKEN="$GHTOKEN" python3 - "$UP/pp-tree.json" <<'PY'
+import json, os, subprocess, sys
+out = sys.argv[1]
+tok = os.environ.get("GHTOKEN", "")
+url = ("https://api.github.com/repos/SyllabAI/syllabai-pastpapers/contents/"
+       "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers?ref=main")
+cmd = ["curl", "-s"]
+if tok: cmd += ["-H", f"Authorization: token {tok}"]
+cmd += [url]
+entries = json.loads(subprocess.run(cmd, capture_output=True, text=True, timeout=60).stdout or "null")
+if not isinstance(entries, list):
+    sys.exit("F16 bootstrap failed: contents API did not return a directory list (auth? repo moved?)")
+series = sorted(e["name"] for e in entries if e.get("type") == "dir")
+pre = "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers"
+tree = [{"path": f"{pre}/{s}/4CH1-1C/qp.pdf"} for s in series]
+json.dump({"tree": tree,
+           "note": "synthesized series index via contents API (git/trees recursive truncates; F16)"},
+          open(out, "w"))
+print("  series enumerated:", len(series))
+PY
+fi
+
 SERIES=$(python3 - <<'PY'
-import json, re
-t = json.load(open("/home/z/my-project/upload/pp-tree.json"))
+import json, re, os
+p = os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload") + "/pp-tree.json"
+t = json.load(open(p))
 pat = re.compile(r"4ch1/past-papers/([^/]+)/4CH1-1C/qp\.pdf$")
 print(" ".join(sorted({m.group(1) for e in t["tree"] if (m := pat.search(e.get("path", "")))})))
 PY

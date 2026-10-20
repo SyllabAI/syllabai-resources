@@ -16,6 +16,7 @@ Run:  python3 official_examq_extract.py --series 2020-11   (baseline; also 2019-
 """
 import hashlib
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -24,12 +25,24 @@ from pathlib import Path
 import fitz  # PyMuPDF — page-anchored provenance
 import yaml
 
-UPLOAD = Path("/home/z/my-project/upload")
-OUTROOT = Path("/home/z/my-project/download/syllabai-resources/Official-ExamQuestion/igcse-chemistry-19")
-SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
+# --- pipeline roots (LEDGER F15: derived from this file's location so the kit
+# --- runs from any clean checkout; env vars override for exotic staging) ---
+SCRIPTS_DIR = Path(__file__).resolve().parent            # .../syllabai-resources/scripts
+RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
+UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
+OUTROOT = RES_DIR / "Official-ExamQuestion" / "igcse-chemistry-19"   # ALWAYS inside the checkout
+# spec-point registry: canonical copy lives in this repo (SME-ExamQuestion/...);
+# staged spc-resolution.json is a legacy fallback for pre-F15 staging areas.
+_SPEC_REPO = RES_DIR / "SME-ExamQuestion" / "igcse-chemistry-19" / "spec_point_resolution.json"
+if os.environ.get("EXAMQ_SPEC_RESOLUTION"):
+    SPEC_RESOLUTION = Path(os.environ["EXAMQ_SPEC_RESOLUTION"])
+elif _SPEC_REPO.exists():
+    SPEC_RESOLUTION = _SPEC_REPO
+else:
+    SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.3"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.4"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 PAPER_TOTAL = 110          # registry expectation for 4CH1/1C — constant across series
 # printed question counts verified per series (footers vary 9..15 across the 4CH1 era);
 # counts cross-checked against per-question footer marks summing to 110

@@ -4,6 +4,23 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.4 — 2026-10 · clean-checkout verification wave (portability, F15/F16)
+
+The kit was run from a clean checkout of `main` as shipped:
+- **Reproducibility proven**: golden-master parity 56/56 output files byte-identical
+  (modulo `generated_utc`) vs the committed corpus; all 11 canaries held.
+- **F15 (fixed)**: converter/cross-diff/report had hardcoded output roots into a
+  machine-specific mirror — regenerated outputs bypassed the canaries' own reads.
+  All roots now derive from `Path(__file__)`; outputs are always written inside the
+  checkout. Staging dir overridable via `EXAMQ_UPLOAD_DIR`; spec registry reads the
+  repo-tree copy (canonical) with staged-copy fallback.
+- **F16 (fixed)**: `run_all.sh` now self-bootstraps the series index via one
+  contents-API call when `pp-tree.json` is absent (the recursive `git/trees` API
+  truncates on large repos and silently omits subtrees — observed live).
+- New canary **C12-no-hardcoded-output-root** guards F15; corpus re-run green with
+  an empty staging dir (cold start: bootstrap → fetch 32 PDFs → gates → canaries).
+- No extraction behaviour changed: identical question/part/mark/key output.
+
 ## 0.3 — 2026-10 · full-corpus batch wave (16/16 series of 4CH1/1C)
 
 New findings fixed (LEDGER.md F11–F14):

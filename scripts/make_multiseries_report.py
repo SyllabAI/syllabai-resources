@@ -6,8 +6,10 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-BASE = Path("/home/z/my-project/download/syllabai-resources/Official-ExamQuestion/igcse-chemistry-19")
-ROOT = Path("/home/z/my-project/download/syllabai-resources/Official-ExamQuestion")
+# F15: roots derive from this file's location — reports are always written inside
+# the checkout, never to a hardcoded machine-specific mirror.
+ROOT = Path(__file__).resolve().parent.parent / "Official-ExamQuestion"
+BASE = ROOT / "igcse-chemistry-19"
 GATES = ["G0-identity", "G1-structure", "G2-verbatim", "G3-mcq-integrity",
          "G4-figure-resolution", "G5-answer-linkage", "G6-registry-codes"]
 
