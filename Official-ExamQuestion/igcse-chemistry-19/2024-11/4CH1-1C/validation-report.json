@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T21:29:22Z",
+ "generated_utc": "2026-10-20T22:37:56Z",
  "series": "2024-11",
  "gates": [
   {
@@ -46,10 +46,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "13 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 1 parts without page anchor",
+   "summary": "13 asset records cover every table/diagram/grid/apparatus mention: 9 cropped to assets/*.png (150 dpi), 4 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 1
+    "pages_unanchored": 1,
+    "crop_stats": {
+     "crops": 9,
+     "pending": 4
+    }
    }
   },
   {
@@ -73,6 +77,18 @@
      "4CH1-3.15C"
     ]
    }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 54/54 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 49 parts, agrees with QP marks on 49",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 49,
+    "ms_marks_agree": 49,
+    "ms_marks_disagree": []
+   }
   }
  ],
  "negative_controls": [
@@ -95,52 +111,20 @@
  ],
  "review_queue": [
   {
-   "part": "1(a)",
-   "reason": "figure crop required (table, page 4)"
-  },
-  {
-   "part": "1(b)(i)",
-   "reason": "figure crop required (diagram, page 5)"
-  },
-  {
    "part": "2(c)",
    "reason": "figure crop required (table, page 7)"
   },
   {
    "part": "4(a)",
-   "reason": "figure crop required (apparatus, diagram, page 11)"
+   "reason": "figure crop required (apparatus, page 11)"
   },
   {
-   "part": "5(c)(i)",
-   "reason": "figure crop required (apparatus, page 16)"
-  },
-  {
-   "part": "5(c)(ii)",
-   "reason": "figure crop required (graph, page 16)"
-  },
-  {
-   "part": "6(a)(i)",
-   "reason": "figure crop required (table, page 18)"
-  },
-  {
-   "part": "6(b)",
-   "reason": "figure crop required (diagram, page 18)"
-  },
-  {
-   "part": "6(c)(i)",
-   "reason": "figure crop required (diagram, page 19)"
+   "part": "4(a)",
+   "reason": "figure crop required (diagram, page 11)"
   },
   {
    "part": "7(c)",
    "reason": "figure crop required (table, page 21)"
-  },
-  {
-   "part": "10(b)(ii)",
-   "reason": "figure crop required (diagram, page 28)"
-  },
-  {
-   "part": "11(a)(iv)",
-   "reason": "figure crop required (diagram, page 31)"
   },
   {
    "part": "11(a)(iv)",

@@ -4,6 +4,48 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.5 — 2026-10 · render-reveal + Smart Mark wave (solution layer, figure crop pass)
+
+Two additions requested to unlock frontend rendering and structured marking;
+both are strictly additive (v0.4→v0.5 parity: extraction fields byte-identical
+in all 16 series, every gate state preserved).
+
+- **`solution_md` + `mark_points[]` per part (G7)**: every MS-linked part now
+  carries the verbatim mark-scheme answer block (`solution_md`, whitespace-
+  normalized, marks-column digits stripped) and awardable `mark_points[]`
+  (`{id, marks, text_md}` — ids like `2024-06-3-c-MP2`). Points split ONLY on
+  explicit ascending M1..Mn rows in the answer column, each worth 1, accepted
+  only when n == part marks; everything else is one whole-block point; MCQ
+  parts emit a label-style point referencing the keyed choice. Fail-closed:
+  the splitter can only under-split, never invent. New gate **G7-solution-
+  emission** proves coverage (895/895 linked parts) and the sum invariant;
+  it also censuses the MS marks-column digit vs the QP marks (agreement
+  recorded per series; drift cases are layout facts, not extraction errors).
+- **Figure crop pass (G4 upgraded, canary C14)**: the 158 page-anchored
+  `crop-required` stubs are now resolved against the QP PDF itself — vector-
+  drawing + raster-image clusters (page frames, margin decorations and
+  full-page scans removed pre-merge; horizontal ruling lines kept as table
+  strokes; axis labels absorbed from a +16pt text ring; full-width ruled
+  answer strips filtered) rendered to `assets/<asset_id>.png` at 150 dpi.
+  126/158 emitted (4.1 MB), 14 as shared figures reused by sibling mentions,
+  10 flagged `review` for human eyes; the 32 pending keep their stubs and
+  review entries (blank-to-complete diagrams, rasterized 2019-06 pages).
+  Deterministic assignment; clusters claimed per page in document order.
+- `questions.md` now embeds the crops and renders the mark-scheme answer.
+- New canaries **C13-solution-emission** and **C14-figure-crops**; floor 0.5.
+- Tooling finding **F17** (LEDGER): PyMuPDF `Rect` has no `__ior__` — the
+  crop pass's `hit |= b` silently dropped every intersecting box until the
+  union was rebound into the list; caught by page-3 rendering diff, now
+  canaried by C14's file-existence check.
+- Known limitation recorded: PUA glyphs (`\uf0b4` for ×) in the source text
+  layer pass through verbatim in both problem_md and solution_md (pre-v0.5
+  characteristic; a PUA→Unicode mapping pass is future work).
+
+Corpus totals: 169 questions · 930 parts · 895/895 linked parts with
+solution_md + mark_points (347 atomic M-splits) · 126 figure crops ·
+cross-diff 161/161 unchanged · 14/16 canaried non-PASS states preserved
+(2020-01 honest refusal, 2019-06 archive damage).
+
 ## 0.4 — 2026-10 · clean-checkout verification wave (portability, F15/F16)
 
 The kit was run from a clean checkout of `main` as shipped:

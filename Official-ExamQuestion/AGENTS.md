@@ -23,7 +23,8 @@ Official-ExamQuestion/
   igcse-chemistry-19/<series>/4CH1-1C/
     topic.json              syllabai.official-paper-questions/0.1 (the product)
     questions.md            human-readable render
-    validation-report.json  G0–G6 receipts + negative controls + review queue
+    validation-report.json  G0–G7 receipts + negative controls + review queue
+    assets/*.png            figure crops rendered from the QP PDF (v0.5)
 ../scripts/
   official_examq_extract.py the converter (deterministic; no LLM in the extraction loop)
   make_multiseries_report.py report aggregator (auto-discovers series dirs)
@@ -82,19 +83,39 @@ Run the whole corpus and verify nothing regressed:
 | G1 structure | Σ parts = printed Q total = 110/paper | mark-sum drift, missing footers, count-registry miss |
 | G2 verbatim | emitted text == extracted source text | any post-hoc edit (≥1 5-gram below overlap)          |
 | G3 MCQ     | options as printed, exactly one key   | option count drift, ambiguous/unresolved keys        |
-| G4 figures | every table/diagram mention → asset   | mentions without page-anchored asset records         |
+| G4 figures | every table/diagram mention → asset; crops rendered | mentions without page-anchored asset records |
 | G5 answers | positional linkage into the MS        | unmatched parts below threshold                      |
 | G6 registry| spec codes exist or are documented    | unknown code without a documented gap                |
+| G7 solutions| verbatim MS block + awardable points | linked part without solution_md; point marks ≠ part marks |
 
 Negative controls (N1 mark-bump, N2 one-word paraphrase, N3 fake spec code) run every
 session and MUST be DETECTED 3/3 — otherwise the run is void.
+
+## The v0.5 serving fields (what the frontend / Smart Mark consume)
+
+- `solution_md` — the verbatim mark-scheme answer block for the part (whitespace-
+  normalized; marks-column digits stripped). Render behind a reveal control.
+- `mark_points[]` — awardable points `{id, marks, text_md}`; ids are stable
+  (`<series>-<part>-MP<n>`); marks ALWAYS sum to the part's marks (G7). Splits exist
+  only where the MS prints explicit M1..Mn rows; everything else is one whole-block
+  point. MCQ parts carry a label-style point referencing the keyed choice. Smart Mark
+  can award per point and reconcile against `marks`.
+- `assets[]` — `kind: "crop"` entries carry `path` (relative to topic.json), `page`,
+  `render` (vector/raster), `text_coverage`, `shared` (figure reused by a sibling
+  mention) and `review` (true = human should eyeball the crop); `kind:
+  "crop-required"` entries stay in the review queue (blank-to-complete diagrams,
+  rasterized source pages).
+- Known verbatim limitation: PUA glyphs in the source text layer (e.g. `\uf0b4` for
+  ×) pass through un-mapped; a PUA→Unicode pass is future work and must not be done
+  ad hoc inside the converter.
 
 ## Review queue taxonomy (what humans decide; agents must NOT decide)
 
 | reason prefix            | meaning                                    | agent may? |
 |--------------------------|--------------------------------------------|------------|
 | `MCQ key unresolved`     | MS layout ambiguous (e.g. 2020-01 Q7a)     | never auto-key |
-| `figure crop required`   | asset stub exists, needs the crop pass     | produce crop, keep stub |
+| `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | produce crop only if a region exists; keep stub |
+| `figure crop emitted — human verify` | crop rendered but low-confidence (no text anchor, text-heavy region) | re-render/adjust; never delete silently |
 | `spec code ... not in registry` | registry gap or invalid code        | propose, human accepts |
 | `Q<N> ... image-only`    | rasterized source pages, content lost      | re-ingest via OCR, re-run gates |
 | `pending-llm`            | spec tagging not yet seeded for this series| seed via LLM **only as labels**, re-validated by G6 |
@@ -141,9 +162,12 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues: MCQ keys for 2020-01 Q7(a) (2 keys), figure crops for all
-  series (asset stubs are page-anchored and ready), spec-tagging seeds (`pending-llm`)
-  for all series except the 2020-11 demo set.
+- Human review queues: MCQ keys for 2020-01 Q7(a) (2 keys), 10 emitted figure crops
+  flagged `human verify` + 32 pending stubs (blank-to-complete diagrams, rasterized
+  2019-06 pages), spec-tagging seeds (`pending-llm`) for all series except the
+  2020-11 demo set.
+- PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
+  added as a converter-level mapping table with its own parity run, not ad hoc.
 - 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5
   rasterized content pages, then re-run gates (G1 must return to PASS with 110/110).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.

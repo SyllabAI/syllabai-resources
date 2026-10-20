@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T21:28:48Z",
+ "generated_utc": "2026-10-20T22:37:42Z",
  "series": "2019-06",
  "gates": [
   {
@@ -92,10 +92,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "6 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 1 parts without page anchor",
+   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 2 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 1
+    "pages_unanchored": 1,
+    "crop_stats": {
+     "crops": 4,
+     "pending": 2
+    }
    }
   },
   {
@@ -138,6 +142,18 @@
      "4CH1-3.15C"
     ]
    }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 32/32 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 32 parts, agrees with QP marks on 32",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 32,
+    "ms_marks_agree": 32,
+    "ms_marks_disagree": []
+   }
   }
  ],
  "negative_controls": [
@@ -164,10 +180,6 @@
    "reason": "footer absent in source PDF; question not extractable — image-only page(s) [12] in archive PDF (content lost at scan)"
   },
   {
-   "part": "2(a)",
-   "reason": "figure crop required (diagram, page 6)"
-  },
-  {
    "part": "3(d)(ii)",
    "reason": "figure crop required (table, page 7)"
   },
@@ -177,15 +189,15 @@
   },
   {
    "part": "13(a)(i)",
-   "reason": "figure crop required (grid, page 21)"
+   "reason": "figure crop emitted — human verify (assets/asset_13_a_i_grid.png)"
   },
   {
    "part": "13(b)(i)",
-   "reason": "figure crop required (grid, page 21)"
+   "reason": "figure crop emitted — human verify (assets/asset_13_b_i_grid.png)"
   },
   {
    "part": "13(b)(ii)",
-   "reason": "figure crop required (grid, page 21)"
+   "reason": "figure crop emitted — human verify (assets/asset_13_b_ii_grid.png)"
   },
   {
    "part": "3(d)(i)",

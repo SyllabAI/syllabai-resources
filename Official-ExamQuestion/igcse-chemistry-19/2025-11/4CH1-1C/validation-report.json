@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T21:29:34Z",
+ "generated_utc": "2026-10-20T22:37:59Z",
  "series": "2025-11",
  "gates": [
   {
@@ -46,10 +46,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "8 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 0 parts without page anchor",
+   "summary": "8 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 2 remain crop-required; 0 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 0
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 6,
+     "pending": 2
+    }
    }
   },
   {
@@ -69,6 +73,18 @@
     "allowed_gaps": [
      "4CH1-3.15C"
     ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 59/59 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 54 parts, agrees with QP marks on 54",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 54,
+    "ms_marks_agree": 54,
+    "ms_marks_disagree": []
    }
   }
  ],
@@ -92,36 +108,16 @@
  ],
  "review_queue": [
   {
-   "part": "3(c)(i)",
-   "reason": "figure crop required (grid, page 8)"
-  },
-  {
-   "part": "3(c)(ii)",
-   "reason": "figure crop required (grid, page 8)"
-  },
-  {
    "part": "4(a)",
    "reason": "figure crop required (diagram, page 10)"
   },
   {
    "part": "4(c)(i)",
-   "reason": "figure crop required (diagram, page 11)"
+   "reason": "figure crop emitted — human verify (assets/asset_4_c_i_diagram.png)"
   },
   {
    "part": "6(a)(ii)",
    "reason": "figure crop required (diagram, page 16)"
-  },
-  {
-   "part": "8(a)",
-   "reason": "figure crop required (table, page 21)"
-  },
-  {
-   "part": "9(a)",
-   "reason": "figure crop required (table, page 21)"
-  },
-  {
-   "part": "9(b)",
-   "reason": "figure crop required (diagram, page 22)"
   }
  ]
 }

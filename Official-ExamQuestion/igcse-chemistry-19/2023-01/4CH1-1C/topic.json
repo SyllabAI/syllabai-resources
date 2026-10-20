@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T21:29:11Z",
- "generator": "official_examq_extract.py v0.4 (ADR-037) series=2023-01",
+ "generated_utc": "2026-10-20T22:37:52Z",
+ "generator": "official_examq_extract.py v0.5 (ADR-037) series=2023-01",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/1C",
  "source": {
   "qp_sha256": "f25bac612af935d73235818fc6eec8a6429d15f3d4babddc681fe3ba4be2c2e8",
@@ -34,15 +34,27 @@
      "problem_md": "Complete the diagram to show how particles are arranged in the liquid state.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "particles should be close together and should fill ALLOW particles filling\nfrom the bottom of the box, most particles should the whole box\ntouch with a minimum of 2 random rows of\nparticles IGNORE the size of the\nparticles\nREJECT a regular\narrangement",
+     "mark_points": [
+      {
+       "id": "2023-01-1-a-i-MP1",
+       "marks": 1,
+       "text_md": "particles should be close together and should fill ALLOW particles filling\nfrom the bottom of the box, most particles should the whole box\ntouch with a minimum of 2 random rows of\nparticles IGNORE the size of the\nparticles\nREJECT a regular\narrangement"
+      }
+     ],
      "source_page": 3,
      "assets": [
       {
        "id": "asset_1_a_i_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 3,
-       "review": true
+       "review": false,
+       "path": "assets/asset_1_a_i_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.193,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -55,6 +67,14 @@
      "problem_md": "Identify the state of matter that contains particles with the least energy.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "solid",
+     "mark_points": [
+      {
+       "id": "2023-01-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "solid"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -67,15 +87,27 @@
      "problem_md": "The table shows two changes of state. Complete the table by giving the name of each change of state. Change of state Name solid to liquid solid to gas",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "solid to liquid melting\nsolid to gas sublimation ALLOW subliming",
+     "mark_points": [
+      {
+       "id": "2023-01-1-b-MP1",
+       "marks": 2,
+       "text_md": "solid to liquid melting\nsolid to gas sublimation ALLOW subliming"
+      }
+     ],
      "source_page": 3,
      "assets": [
       {
        "id": "asset_1_b_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 3,
-       "review": true
+       "review": false,
+       "path": "assets/asset_1_b_table.png",
+       "render": "vector",
+       "text_coverage": 0.222,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -88,6 +120,19 @@
      "problem_md": "Explain why hot water evaporates more quickly than cold water.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the two points.\nM1 (particles / molecules have) more (kinetic) ALLOW hot water has\nenergy more (kinetic) energy\nALLOW (particles /\nmolecules) move\nfaster\nIGNORE vibrate more\nM2 can overcome / break the (intermolecular) ALLOW can overcome /\nforces/forces (between water molecules) break the bonds\n(between water\nmolecules) OR\nto break away from one\nanother OR to escape\nmore easily\nIGNORE references to\ncollisions, activation\nenergy or rate of\nreaction\nTotal for question = 6\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-1-c-MP1",
+       "marks": 1,
+       "text_md": "(particles / molecules have) more (kinetic) ALLOW hot water has\nenergy more (kinetic) energy"
+      },
+      {
+       "id": "2023-01-1-c-MP2",
+       "marks": 1,
+       "text_md": "can overcome / break the (intermolecular) ALLOW can overcome /\nforces/forces (between water molecules) break the bonds\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -135,6 +180,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "B (Cl2)\nA is not the correct answer as the symbol O is for\natoms of oxygen not molecules\nC is not the correct answer as HCl is a compound\nD is not the correct answer as H2O is a compound",
+     "mark_points": [
+      {
+       "id": "2023-01-2-a-MP1",
+       "marks": 1,
+       "text_md": "Answer B: Cl2"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -168,6 +221,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "C (filtration)\nA is not the correct answer as crystallisation is not\nused to separate an insoluble solid from a liquid\nB is not the correct answer as evaporation will not\nseparate an insoluble solid from a liquid\nD is not the correct answer as simple distillation is\nused to separate a solvent from a solution",
+     "mark_points": [
+      {
+       "id": "2023-01-2-b-MP1",
+       "marks": 1,
+       "text_md": "Answer C: filtration"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -180,6 +241,14 @@
      "problem_md": "Give the name of a method used to separate a mixture of liquids with different boiling points.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "fractional distillation REJECT distillation\nREJECT simple distillation",
+     "mark_points": [
+      {
+       "id": "2023-01-2-c-MP1",
+       "marks": 1,
+       "text_md": "fractional distillation REJECT distillation\nREJECT simple distillation"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -213,6 +282,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "D (X(s) → X(aq))\nA is not the correct answer as (l) is not the correct\nfinal state symbol\nB is not the correct answer as (g) Is not the final\nstate symbol\nC is not the correct answer as the state symbols are\nthe wrong way round",
+     "mark_points": [
+      {
+       "id": "2023-01-2-d-i-MP1",
+       "marks": 1,
+       "text_md": "Answer D: X(s)                               → X(aq)"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -246,6 +323,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "C (diffusion)\nA is not the correct answer as boiling does not\noccur in the beaker\nB is not the correct answer as condensing does not\noccur in the beaker\nD is not the correct answer as sublimation does not\noccur in the beaker",
+     "mark_points": [
+      {
+       "id": "2023-01-2-d-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer C: diffusion"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -258,15 +343,32 @@
      "problem_md": "After one day the student does two tests on the liquid in the beaker. The table shows the student’s results. Test Result flame test lilac flame addition of acidified barium chloride solution white precipitate Identify substance X.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 potassium / K+ potassium sulfate scores 2\nM2 sulfate / SO42- K2SO4 scores 2\nKSO4 alone scores 1\nALLOW in either order\nIf name correct ignore\nincorrect formula\nTotal for question = 7\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-2-d-iii-MP1",
+       "marks": 1,
+       "text_md": "potassium / K+ potassium sulfate scores 2"
+      },
+      {
+       "id": "2023-01-2-d-iii-MP2",
+       "marks": 1,
+       "text_md": "sulfate / SO42- K2SO4 scores 2\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
        "id": "asset_2_d_iii_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 5,
-       "review": true
+       "review": false,
+       "path": "assets/asset_2_d_iii_table.png",
+       "render": "vector",
+       "text_coverage": 0.268,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -293,6 +395,14 @@
      "problem_md": "Name the gas that is about 1% of dry air by volume.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "argon / Ar",
+     "mark_points": [
+      {
+       "id": "2023-01-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "argon / Ar"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -326,6 +436,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "C (nitrogen)\nA is not correct because nitrogen is more abundant\nthan carbon dioxide methane or oxygen\nB is not correct because nitrogen is more abundant\nthan methane\nD is not correct because nitrogen is more abundant\nthan oxygen",
+     "mark_points": [
+      {
+       "id": "2023-01-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer C: nitrogen"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -338,6 +456,14 @@
      "problem_md": "Some of the iron wool rusts. Give the chemical name for rust.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "(hydrated) iron (III) oxide REJECT other oxidation\nstates\nALLOW Fe2O3\nIGNORE iron oxide",
+     "mark_points": [
+      {
+       "id": "2023-01-3-b-i-MP1",
+       "marks": 1,
+       "text_md": "(hydrated) iron (III) oxide REJECT other oxidation\nstates\nALLOW Fe2O3\nIGNORE iron oxide"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -350,6 +476,14 @@
      "problem_md": "Give a reason why neon does not react with the iron wool.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "(neon) has a full outer shell (of electrons) ALLOW (neon) is\nunreactive / inert /has 8\nelectrons in the outer\nshell\nALLOW (neon) does not\nlose or gain (or share)\nelectrons",
+     "mark_points": [
+      {
+       "id": "2023-01-3-b-ii-MP1",
+       "marks": 1,
+       "text_md": "(neon) has a full outer shell (of electrons) ALLOW (neon) is\nunreactive / inert /has 8\nelectrons in the outer\nshell\nALLOW (neon) does not\nlose or gain (or share)\nelectrons"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -362,15 +496,32 @@
      "problem_md": "The table shows the student’s results. initial length of column of gas 75 mm final length of column of gas 30 mm Use the results to calculate the percentage of oxygen in the mixture of oxygen and neon. percentage of oxygen = %",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 75  30 OR 45 (mm)\nM2 (45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1\ncorrect answer of 60%\nwithout working scores 2\nanswer of 40% without\nworking scores 1\nTotal for question = 6\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-3-b-iii-MP1",
+       "marks": 1,
+       "text_md": "75  30 OR 45 (mm)"
+      },
+      {
+       "id": "2023-01-3-b-iii-MP2",
+       "marks": 1,
+       "text_md": "(45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
        "id": "asset_3_b_iii_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 5,
-       "review": true
+       "review": false,
+       "path": "assets/asset_3_b_iii_table.png",
+       "render": "vector",
+       "text_coverage": 0.268,
+       "shared": true
       }
      ],
      "spec_point_codes": [],
@@ -397,15 +548,42 @@
      "problem_md": "Explain two mistakes that the student makes when setting up the apparatus. 1 2 ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "4\nM1 baseline has been drawn in ink ALLOW baseline is not\ndrawn in pencil\nM2 and will therefore interfere with / contaminate ALLOW will move up the\nthe results paper / will get mixed\nup with A / will produce\nother colours /affect\nresults / will smudge\n/ink is soluble\nM3 the water level is above A/the baseline ALLOW water level is\ntoo high / A is under\nwater\nM4 and therefore A will mix with/dissolve in the ALLOW A will wash off\nwater the paper\nIGNORE references to\nlid",
+     "mark_points": [
+      {
+       "id": "2023-01-4-a-MP1",
+       "marks": 1,
+       "text_md": "baseline has been drawn in ink ALLOW baseline is not"
+      },
+      {
+       "id": "2023-01-4-a-MP2",
+       "marks": 1,
+       "text_md": "and will therefore interfere with / contaminate ALLOW will move up the\nthe results paper / will get mixed"
+      },
+      {
+       "id": "2023-01-4-a-MP3",
+       "marks": 1,
+       "text_md": "the water level is above A/the baseline ALLOW water level is"
+      },
+      {
+       "id": "2023-01-4-a-MP4",
+       "marks": 1,
+       "text_md": "and therefore A will mix with/dissolve in the ALLOW A will wash off\nwater the paper"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
        "id": "asset_4_a_apparatus",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "apparatus",
        "source": "qp.pdf",
        "page": 8,
-       "review": true
+       "review": false,
+       "path": "assets/asset_4_a_apparatus.png",
+       "render": "vector",
+       "text_coverage": 0.163,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -418,6 +596,19 @@
      "problem_md": "Complete the chromatogram for food colouring A by adding and labelling the dyes. A",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 one spot about ¼ of the way between the ALLOW answers that\nbaseline and the top of the paper / solvent front show solvent front\nand one spot about ½ way\nM2 the lower spot labelled yellow and the higher\nspot labelled blue",
+     "mark_points": [
+      {
+       "id": "2023-01-4-b-i-MP1",
+       "marks": 1,
+       "text_md": "one spot about ¼ of the way between the ALLOW answers that\nbaseline and the top of the paper / solvent front show solvent front\nand one spot about ½ way"
+      },
+      {
+       "id": "2023-01-4-b-i-MP2",
+       "marks": 1,
+       "text_md": "the lower spot labelled yellow and the higher\nspot labelled blue"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -430,6 +621,14 @@
      "problem_md": "Give a reason why the blue dye has a larger R f value than the yellow dye.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "the blue food colouring/it is more soluble (in water)\nORA as long as yellow food colouring is referred to IGNORE blue colour/it\ntravels further up the\npaper\nTotal for question = 7\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-4-b-ii-MP1",
+       "marks": 1,
+       "text_md": "the blue food colouring/it is more soluble (in water)\nORA as long as yellow food colouring is referred to IGNORE blue colour/it\ntravels further up the\npaper\nTotal for question = 7\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -456,6 +655,14 @@
      "problem_md": "Name the substance that causes the brown coating on the magnesium.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "copper ALLOW Cu\nREJECT copper(II) /Cu2+",
+     "mark_points": [
+      {
+       "id": "2023-01-5-a-i-MP1",
+       "marks": 1,
+       "text_md": "copper ALLOW Cu\nREJECT copper(II) /Cu2+"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -468,6 +675,14 @@
      "problem_md": "State why there is no change with magnesium sulfate solution. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "magnesium cannot displace itself ALLOW magnesium does\nnot react with\nmagnesium sulfate\n/magnesium ions /Mg2+\nIGNORE magnesium\ndoes not react with\nmagnesium /itself",
+     "mark_points": [
+      {
+       "id": "2023-01-5-a-ii-MP1",
+       "marks": 1,
+       "text_md": "magnesium cannot displace itself ALLOW magnesium does\nnot react with\nmagnesium sulfate\n/magnesium ions /Mg2+\nIGNORE magnesium\ndoes not react with\nmagnesium /itself"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -480,6 +695,14 @@
      "problem_md": "Use the information from both tables to deduce the order of reactivity of aluminium, magnesium, copper and metal X. most reactive least reactive",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "magnesium /Mg ALLOW 1 mark if\naluminium /Al aluminium and X are\nX swapped.\ncopper /Cu\nIf copper(II) instead of\ncopper 1 mark only",
+     "mark_points": [
+      {
+       "id": "2023-01-5-b-i-MP1",
+       "marks": 2,
+       "text_md": "magnesium /Mg ALLOW 1 mark if\naluminium /Al aluminium and X are\nX swapped.\ncopper /Cu\nIf copper(II) instead of\ncopper 1 mark only"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -492,6 +715,14 @@
      "problem_md": "Give a possible identity for metal X.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "zinc / iron ALLOW all other valid\nanswers",
+     "mark_points": [
+      {
+       "id": "2023-01-5-b-ii-MP1",
+       "marks": 1,
+       "text_md": "zinc / iron ALLOW all other valid\nanswers"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -504,6 +735,19 @@
      "problem_md": "This ionic equation represents the reaction between magnesium and aluminium nitrate. 3Mg(s) + 2Al3+(aq) → 3Mg2+(aq) + 2Al(s) Explain, in terms of electrons, which species acts as a reducing agent in this reaction.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the two points\nM1 magnesium /Mg (is the reducing agent)\nM2 magnesium /Mg donates electrons (causing Al 3+ ALLOW magnesium / Mg\nions to be reduced) gives (away) / loses\nelectrons (causing Al3+\nto be reduced) /Al3+\ngains electrons\nNo M2 if reference to\naluminium/Al instead of\naluminium ions/Al3+\nIGNORE Mg is oxidised\nM2 dep on M1\nTotal for question = 7 marks\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-5-c-MP1",
+       "marks": 1,
+       "text_md": "magnesium /Mg (is the reducing agent)"
+      },
+      {
+       "id": "2023-01-5-c-MP2",
+       "marks": 1,
+       "text_md": "magnesium /Mg donates electrons (causing Al 3+ ALLOW magnesium / Mg\nions to be reduced) gives (away) / loses\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -554,6 +798,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "B (chloroethene)\nA is not correct as the monomer has a double bond\nC is not correct as the monomer has two carbons\nD is not correct as the monomer has two carbons",
+     "mark_points": [
+      {
+       "id": "2023-01-6-a-MP1",
+       "marks": 1,
+       "text_md": "Answer B: chloroethene"
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
@@ -565,6 +817,14 @@
      "problem_md": "Complete the equation to show the repeat unit of the polymer that forms from this monomer. H Cl n C C H H n",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "1\nExtension bonds do not\nneed to go through the\nbrackets",
+     "mark_points": [
+      {
+       "id": "2023-01-6-b-MP1",
+       "marks": 1,
+       "text_md": "1\nExtension bonds do not\nneed to go through the\nbrackets"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -577,6 +837,19 @@
      "problem_md": "A typical molecule of the polymer has a relative molecular mass (Mr ) of 2 490 000 Show that the number of monomer molecules needed to make this typical molecule is about 40 000 [for C, Ar = 12 for Cl, Ar = 35.5] ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (Mr of chloroethene) = 62.5\nM2 2490000 ÷ 62.5 = 39 840",
+     "mark_points": [
+      {
+       "id": "2023-01-6-c-MP1",
+       "marks": 1,
+       "text_md": "(Mr of chloroethene) = 62.5"
+      },
+      {
+       "id": "2023-01-6-c-MP2",
+       "marks": 1,
+       "text_md": "2490000 ÷ 62.5 = 39 840"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -589,6 +862,14 @@
      "problem_md": "These are two methods used to dispose of the polymer. • burying in landfill sites • burning Discuss the environmental problems caused by these two methods of disposal.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A discussion which refers to any 4 of the following\npoints\nM1 polymers/poly(propene) will remain in landfill ALLOW reference to\nindefinitely OWTTE running out of landfill\nsites OWTTE\nM2 (as they) are inert /unreactive/do not\nbiodegrade/do not decompose\nM3 burning produces greenhouse gases / CO2\nM4 reference to climate change /global warming\nM5 burning produces toxic gases ALLOW carbon\nmonoxide /CO\n/hydrogen chloride/HCl\nMax 3 if any reference\nto the ozone layer",
+     "mark_points": [
+      {
+       "id": "2023-01-6-d-MP1",
+       "marks": 4,
+       "text_md": "A discussion which refers to any 4 of the following\npoints\nM1 polymers/poly(propene) will remain in landfill ALLOW reference to\nindefinitely OWTTE running out of landfill\nsites OWTTE\nM2 (as they) are inert /unreactive/do not\nbiodegrade/do not decompose\nM3 burning produces greenhouse gases / CO2\nM4 reference to climate change /global warming\nM5 burning produces toxic gases ALLOW carbon\nmonoxide /CO\n/hydrogen chloride/HCl\nMax 3 if any reference\nto the ozone layer"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -601,6 +882,19 @@
      "problem_md": "A different polymer molecule contains 10 600 atoms of carbon, 10 600 atoms of hydrogen and 31 800 atoms of chlorine. Determine the empirical formula of this polymer. empirical formula =",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 1:1:3 / 31 800 ÷ 10 600 ALLOW other evidence\nof working\nM2 CHCl3 ALLOW the atoms in any\norder\nAnswer of CHCl3 without\nworking scores 2\nTotal for question = 10\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-6-e-MP1",
+       "marks": 1,
+       "text_md": "1:1:3 / 31 800 ÷ 10 600 ALLOW other evidence"
+      },
+      {
+       "id": "2023-01-6-e-MP2",
+       "marks": 1,
+       "text_md": "CHCl3 ALLOW the atoms in any\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -623,6 +917,14 @@
      "problem_md": "Give a reason why compound X is not a hydrocarbon.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "X contains oxygen /OH ALLOW hydrocarbons\nonly contain hydrogen\nand carbon (atoms)\nREJECT oxygen\nmolecules or hydrogen\nand carbon molecules",
+     "mark_points": [
+      {
+       "id": "2023-01-7-a-MP1",
+       "marks": 1,
+       "text_md": "X contains oxygen /OH ALLOW hydrocarbons\nonly contain hydrogen\nand carbon (atoms)\nREJECT oxygen\nmolecules or hydrogen\nand carbon molecules"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -635,6 +937,14 @@
      "problem_md": "Give the letter of the compound that is a saturated hydrocarbon with the empirical formula CH2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "W",
+     "mark_points": [
+      {
+       "id": "2023-01-7-b-MP1",
+       "marks": 1,
+       "text_md": "W"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -647,6 +957,14 @@
      "problem_md": "Give the letter of the compound that produces nine moles of water when one mole undergoes complete combustion.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "V",
+     "mark_points": [
+      {
+       "id": "2023-01-7-c-MP1",
+       "marks": 1,
+       "text_md": "V"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -659,6 +977,14 @@
      "problem_md": "Give the structural formula of compound Y. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "CH2=CHCH2CH3 ALLOW CH2CHCH2CH3",
+     "mark_points": [
+      {
+       "id": "2023-01-7-d-MP1",
+       "marks": 1,
+       "text_md": "CH2=CHCH2CH3 ALLOW CH2CHCH2CH3"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -671,6 +997,19 @@
      "problem_md": "Explain why compounds W and Y are isomers.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 same molecular formula ALLOW same numbers\nof C and H atoms\nM2 different displayed / structural formulae ALLOW different\narrangement of atoms",
+     "mark_points": [
+      {
+       "id": "2023-01-7-e-MP1",
+       "marks": 1,
+       "text_md": "same molecular formula ALLOW same numbers"
+      },
+      {
+       "id": "2023-01-7-e-MP2",
+       "marks": 1,
+       "text_md": "different displayed / structural formulae ALLOW different"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -683,6 +1022,19 @@
      "problem_md": "Write a chemical equation for this reaction.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "C4H10 + Br2 → C4H9Br + HBr\nM1 C4H9Br as product ALLOW polysubstitution\nM2 rest of the equation correct M2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2023-01-7-f-i-MP1",
+       "marks": 1,
+       "text_md": "C4H9Br as product ALLOW polysubstitution"
+      },
+      {
+       "id": "2023-01-7-f-i-MP2",
+       "marks": 1,
+       "text_md": "rest of the equation correct M2 dep on M1"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -716,6 +1068,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "C (substitution)\nA is not the correct answer because alkanes do not\nundergo addition reactions\nB is not the correct answer as this is not a\ncombustion reaction\nD is not the correct answer as this reaction is not\nthermal decomposition",
+     "mark_points": [
+      {
+       "id": "2023-01-7-f-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer C: substitution"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -728,6 +1088,14 @@
      "problem_md": "Describe how the combustion of sulfur-free petrol in a car engine produces gases that can cause acid rain. Do not refer to carbon dioxide in your answer.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A description that refers to any 3 from\nM1 nitrogen and oxygen (from air) REJECT mention of\npetrol contains nitrogen\nfor M1 only\nM2 react at the high temperatures (in a car M2 dep on mention of\nengine) nitrogen and oxygen\nM3 forming oxides of nitrogen ALLOW NOx or named\noxides of nitrogen\nM4 which react with/dissolve in water forming M4 dep on M3\nnitric acid /HNO3 /acid rain\nTotal for question = 12\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-7-g-MP1",
+       "marks": 3,
+       "text_md": "A description that refers to any 3 from\nM1 nitrogen and oxygen (from air) REJECT mention of\npetrol contains nitrogen\nfor M1 only\nM2 react at the high temperatures (in a car M2 dep on mention of\nengine) nitrogen and oxygen\nM3 forming oxides of nitrogen ALLOW NOx or named\noxides of nitrogen\nM4 which react with/dissolve in water forming M4 dep on M3\nnitric acid /HNO3 /acid rain\nTotal for question = 12\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -754,15 +1122,37 @@
      "problem_md": "Complete the table by giving the missing formulae.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 NaCl Penalise once only for\nincorrect case or\nM2 MgCl2 superscript numbers\nM3 Mg3N2 ALLOW symbols\nreversed e.g. N2Mg3\nALLOW correct charges\non ions e.g Mg2+(Cl-)2",
+     "mark_points": [
+      {
+       "id": "2023-01-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "NaCl Penalise once only for"
+      },
+      {
+       "id": "2023-01-8-a-i-MP2",
+       "marks": 1,
+       "text_md": "MgCl2 superscript numbers"
+      },
+      {
+       "id": "2023-01-8-a-i-MP3",
+       "marks": 1,
+       "text_md": "Mg3N2 ALLOW symbols"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
        "id": "asset_8_a_i_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 16,
-       "review": true
+       "review": false,
+       "path": "assets/asset_8_a_i_table.png",
+       "render": "vector",
+       "text_coverage": 0.236,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -775,6 +1165,14 @@
      "problem_md": "Give the name of the compound with the formula MgO",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "magnesium oxide Spelling must be\ncorrect",
+     "mark_points": [
+      {
+       "id": "2023-01-8-a-ii-MP1",
+       "marks": 1,
+       "text_md": "magnesium oxide Spelling must be\ncorrect"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -787,6 +1185,14 @@
      "problem_md": "Calculate the relative formula mass (Mr ) of Na3N [for Na, Ar = 23 for N, Ar = 14] Mr = ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "83 IGNORE units",
+     "mark_points": [
+      {
+       "id": "2023-01-8-a-iii-MP1",
+       "marks": 1,
+       "text_md": "83 IGNORE units"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -799,6 +1205,19 @@
      "problem_md": "Describe the changes in the electron configurations of lithium and oxygen when these atoms form lithium oxide, Li2O",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 lithium changes (from 2.1) to 2 ALLOW (two) lithium\n(atoms) lose one\nelectron\nM2 oxygen changes (from 2.6) to 2.8 ALLOW oxygen (atom)\ngains two electrons\nNo marks if mention of\nsharing electrons",
+     "mark_points": [
+      {
+       "id": "2023-01-8-b-i-MP1",
+       "marks": 1,
+       "text_md": "lithium changes (from 2.1) to 2 ALLOW (two) lithium"
+      },
+      {
+       "id": "2023-01-8-b-i-MP2",
+       "marks": 1,
+       "text_md": "oxygen changes (from 2.6) to 2.8 ALLOW oxygen (atom)"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -811,6 +1230,24 @@
      "problem_md": "Lithium oxide has a giant ionic structure. Explain why lithium oxide has a high melting point.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the three points\nM1 strong (electrostatic) forces of attraction ALLOW strong ionic\nbonds\nM2 between oppositely charged ions\nM3 which require a lot of energy to break IGNORE more energy\n0 marks if any mention\nof covalent bonds,\nintermolecular forces or\nmolecules\nTotal for question = 10\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-8-b-ii-MP1",
+       "marks": 1,
+       "text_md": "strong (electrostatic) forces of attraction ALLOW strong ionic"
+      },
+      {
+       "id": "2023-01-8-b-ii-MP2",
+       "marks": 1,
+       "text_md": "between oppositely charged ions"
+      },
+      {
+       "id": "2023-01-8-b-ii-MP3",
+       "marks": 1,
+       "text_md": "which require a lot of energy to break IGNORE more energy\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -840,15 +1277,27 @@
      "problem_md": "The diagram represents a molecule of oxygen. + + Describe the forces of attraction in a covalent bond.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (electrostatic) attraction between nuclei must be plural\nM2 and shared pair(s) of electrons\nOR\nM1 (electrostatic) attraction between shared pair(s)\nof electrons\nM2 and nuclei must be plural",
+     "mark_points": [
+      {
+       "id": "2023-01-9-a-MP1",
+       "marks": 2,
+       "text_md": "M1 (electrostatic) attraction between nuclei must be plural\nM2 and shared pair(s) of electrons\nOR\nM1 (electrostatic) attraction between shared pair(s)\nof electrons\nM2 and nuclei must be plural"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
        "id": "asset_9_a_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 18,
-       "review": true
+       "review": false,
+       "path": "assets/asset_9_a_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.127,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -861,15 +1310,27 @@
      "problem_md": "The table shows the boiling points of three Group 7 elements. Boiling point in °C fluorine –188 chlorine –34 bromine 59 Explain the trend in the boiling points. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links any 3 from\nM1 the boiling points increase (down the\ngroup/from F to Br)\nM2 because the intermolecular forces get stronger\nM3 as (molecular) mass / size / number of electrons\n/(electron) shells increases\nM4 so more energy needed to separate the\nmolecules/break the intermolecular forces No M2, M3 or M4 if any\nmention of breaking\ncovalent/ionic bonds",
+     "mark_points": [
+      {
+       "id": "2023-01-9-b-MP1",
+       "marks": 3,
+       "text_md": "An explanation that links any 3 from\nM1 the boiling points increase (down the\ngroup/from F to Br)\nM2 because the intermolecular forces get stronger\nM3 as (molecular) mass / size / number of electrons\n/(electron) shells increases\nM4 so more energy needed to separate the\nmolecules/break the intermolecular forces No M2, M3 or M4 if any\nmention of breaking\ncovalent/ionic bonds"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
        "id": "asset_9_b_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 18,
-       "review": true
+       "review": false,
+       "path": "assets/asset_9_b_table.png",
+       "render": "vector",
+       "text_coverage": 0.245,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -882,6 +1343,14 @@
      "problem_md": "Graphite is a naturally-occurring form of carbon. Explain why graphite is soft and conducts electricity. Refer to structure and bonding in your answer.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links any five from\nM1 the structure is in layers ALLOW sheets /rows\nM2 there are weak forces between the layers (of REJECT intermolecular\natoms) forces/molecules/ions\nM3 which can slide (over one another making it\nsoft)\nM4 each carbon / atom makes three covalent bonds REJECT ionic bonds\nM5 (one) delocalised electron (per carbon / atom) REJECT molecules/ions\nM6 (delocalised) electrons flow / move / are mobile\n(to conduct electricity)\nTotal for question = 10\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-9-c-MP1",
+       "marks": 5,
+       "text_md": "An explanation that links any five from\nM1 the structure is in layers ALLOW sheets /rows\nM2 there are weak forces between the layers (of REJECT intermolecular\natoms) forces/molecules/ions\nM3 which can slide (over one another making it\nsoft)\nM4 each carbon / atom makes three covalent bonds REJECT ionic bonds\nM5 (one) delocalised electron (per carbon / atom) REJECT molecules/ions\nM6 (delocalised) electrons flow / move / are mobile\n(to conduct electricity)\nTotal for question = 10\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -908,11 +1377,15 @@
      "assets": [
       {
        "id": "asset_10_a_apparatus",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "apparatus",
        "source": "qp.pdf",
        "page": 20,
-       "review": true
+       "review": false,
+       "path": "assets/asset_10_a_apparatus.png",
+       "render": "vector",
+       "text_coverage": 0.16,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -925,6 +1398,29 @@
      "problem_md": "Calculate the theoretical maximum temperature reached by the mixture, which has a mass of 50 g. [specific heat capacity of mixture, c = 4.2 J / g / °C] temperature = °C",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 Q = m × c × ΔT\nM2 ΔT = 2880 ÷ (50 × 4.2) M2 subsumes M1\nM3 ΔT = 13.7(1) °C\nM4 (maximum temp = 13.7(1) + 21.(0) =) 34.7 (°C) ALLOW ecf from M3\nALLOW any number of\nsig fig except 1 in M3\nand M4\nCorrect answer without\nworking scores 4",
+     "mark_points": [
+      {
+       "id": "2023-01-10-b-i-MP1",
+       "marks": 1,
+       "text_md": "Q = m × c × ΔT"
+      },
+      {
+       "id": "2023-01-10-b-i-MP2",
+       "marks": 1,
+       "text_md": "ΔT = 2880 ÷ (50 × 4.2) M2 subsumes M1"
+      },
+      {
+       "id": "2023-01-10-b-i-MP3",
+       "marks": 1,
+       "text_md": "ΔT = 13.7(1) °C"
+      },
+      {
+       "id": "2023-01-10-b-i-MP4",
+       "marks": 1,
+       "text_md": "(maximum temp = 13.7(1) + 21.(0) =) 34.7 (°C) ALLOW ecf from M3"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -937,6 +1433,14 @@
      "problem_md": "Give a reason why the maximum temperature recorded by the student is lower than the theoretical maximum temperature calculated.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "thermal energy/heat lost (to the atmosphere / IGNORE energy lost\nsurroundings)",
+     "mark_points": [
+      {
+       "id": "2023-01-10-b-ii-MP1",
+       "marks": 1,
+       "text_md": "thermal energy/heat lost (to the atmosphere / IGNORE energy lost\nsurroundings)"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -949,6 +1453,14 @@
      "problem_md": "In the reaction, 0.0500 mol of hydrochloric acid completely react. Calculate the molar enthalpy change, ΔH , in kilojoules per mole of hydrochloric acid. Include a sign in your answer. ΔH = kJ / mol",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 2880 ÷ 1000 OR 2.880 kJ\nM2 2.880 ÷ 0.05(00) ALLOW ecf from M1\nM3 -57.6kJ/mol ALLOW any number of\nsig fig except 1 in M3\nOR\nM1 2880 ÷ 0.05(00) OR 57 600J\nM2 57 600 ÷ 1000 ALLOW ecf from M1\nM3 -57.6 kJ/mol ALLOW any number of\nsig fig except 1 in M3\nCorrect answer without\nworking scores 3\nTotal for question = 9\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-10-b-iii-MP1",
+       "marks": 3,
+       "text_md": "M1 2880 ÷ 1000 OR 2.880 kJ\nM2 2.880 ÷ 0.05(00) ALLOW ecf from M1\nM3 -57.6kJ/mol ALLOW any number of\nsig fig except 1 in M3\nOR\nM1 2880 ÷ 0.05(00) OR 57 600J\nM2 57 600 ÷ 1000 ALLOW ecf from M1\nM3 -57.6 kJ/mol ALLOW any number of\nsig fig except 1 in M3\nCorrect answer without\nworking scores 3\nTotal for question = 9\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -975,6 +1487,14 @@
      "problem_md": "Explain why it is important that magnesium is in excess.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 so all the nitric acid reacts/is neutralised\nAND\nM2 therefore the solution only contains magnesium ALLOW so the excess\nnitrate magnesium can be\nremoved by filtration\nOR\nM3 if acid is still present it will contaminate the\ncrystals OWTTE",
+     "mark_points": [
+      {
+       "id": "2023-01-11-a-i-MP1",
+       "marks": 2,
+       "text_md": "M1 so all the nitric acid reacts/is neutralised\nAND\nM2 therefore the solution only contains magnesium ALLOW so the excess\nnitrate magnesium can be\nremoved by filtration\nOR\nM3 if acid is still present it will contaminate the\ncrystals OWTTE"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -987,6 +1507,14 @@
      "problem_md": "The student adds 0.75 g of magnesium to 0.025 mol of nitric acid. Calculate the mass of magnesium, in grams, that remains at the end of the reaction. [for magnesium, Ar = 24] mass of magnesium = g ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 moles of Mg that reacts = 0.0250 ÷ 2 OR 0.0125\nM2 mass of Mg that reacts = 0.0125 x 24 OR 0.3 (g) ALLOW M1 × 24\nM3 mass of Mg remaining = 0.45 (g) ALLOW 0.75 - M2\nOR\nM1 moles of Mg = 0.0250 ÷ 2 OR 0.0125\nM2 moles of Mg remaining = 0.75 ÷ 24  0.0125 OR ALLOW 0.03125  M1\n0.03125  0.0125 OR 0.01875\nM3 mass of Mg remaining (= 0.01875 x 24) = 0.45 (g) ALLOW M2 x 24\nCorrect answer without\nworking scores 3\n0.15 (g) scores 2",
+     "mark_points": [
+      {
+       "id": "2023-01-11-a-ii-MP1",
+       "marks": 3,
+       "text_md": "M1 moles of Mg that reacts = 0.0250 ÷ 2 OR 0.0125\nM2 mass of Mg that reacts = 0.0125 x 24 OR 0.3 (g) ALLOW M1 × 24\nM3 mass of Mg remaining = 0.45 (g) ALLOW 0.75 - M2\nOR\nM1 moles of Mg = 0.0250 ÷ 2 OR 0.0125\nM2 moles of Mg remaining = 0.75 ÷ 24  0.0125 OR ALLOW 0.03125  M1\n0.03125  0.0125 OR 0.01875\nM3 mass of Mg remaining (= 0.01875 x 24) = 0.45 (g) ALLOW M2 x 24\nCorrect answer without\nworking scores 3\n0.15 (g) scores 2"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -999,6 +1527,34 @@
      "problem_md": "Describe how the student can obtain dry crystals of hydrated magnesium nitrate from the mixture at the end of the reaction. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 filter off the excess magnesium\nM2 heat the solution until crystals first start to form ALLOW heat until the\nsolution is saturated\n/ heat until crystals form\non the end of a glass rod\n/heat to evaporate some\nof the water\nM3 leave the solution to cool (and crystallise)\nM4 pour/filter off excess liquid (to obtain crystals)\nIGNORE washing\nM5 leave (crystals) to dry ALLOW any method of\ndrying that avoids excess\nheat e.g. filter paper, a\ndesiccator, a warm oven\nIf heated to dryness only\nM1 can be scored\nIf solution is not heated\nonly M1, M4 and M5 can\nbe scored",
+     "mark_points": [
+      {
+       "id": "2023-01-11-a-iii-MP1",
+       "marks": 1,
+       "text_md": "filter off the excess magnesium"
+      },
+      {
+       "id": "2023-01-11-a-iii-MP2",
+       "marks": 1,
+       "text_md": "heat the solution until crystals first start to form ALLOW heat until the"
+      },
+      {
+       "id": "2023-01-11-a-iii-MP3",
+       "marks": 1,
+       "text_md": "leave the solution to cool (and crystallise)"
+      },
+      {
+       "id": "2023-01-11-a-iii-MP4",
+       "marks": 1,
+       "text_md": "pour/filter off excess liquid (to obtain crystals)"
+      },
+      {
+       "id": "2023-01-11-a-iii-MP5",
+       "marks": 1,
+       "text_md": "leave (crystals) to dry ALLOW any method of"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1011,15 +1567,37 @@
      "problem_md": "The student repeats the experiment and records the volume of hydrogen gas collected. The graph shows the student’s results. 300 250 200 Volume of hydrogen in cm3 150 100 0 10 20 30 40 50 60 70 80 90 100 110 120 Time in s Use the graph to calculate the rate of reaction, in cm3/ s, at t = 40 s. Show your working on the graph. rate of reaction = cm3/ s",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 tangent drawn (at 40 s)\nM2 change in volume of hydrogen ÷ change in time\nM3 correct answer between 2.75 and 3.75 (cm3/s)\ninclusive\nIf no tangent drawn allow\n1 mark for\n240 ÷ 40 = 6 (cm3/s)\nTotal for question = 13\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2023-01-11-b-MP1",
+       "marks": 1,
+       "text_md": "tangent drawn (at 40 s)"
+      },
+      {
+       "id": "2023-01-11-b-MP2",
+       "marks": 1,
+       "text_md": "change in volume of hydrogen ÷ change in time"
+      },
+      {
+       "id": "2023-01-11-b-MP3",
+       "marks": 1,
+       "text_md": "correct answer between 2.75 and 3.75 (cm3/s)\ninclusive\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 24,
      "assets": [
       {
        "id": "asset_11_b_graph",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "graph",
        "source": "qp.pdf",
        "page": 24,
-       "review": true
+       "review": false,
+       "path": "assets/asset_11_b_graph.png",
+       "render": "vector",
+       "text_coverage": 0.062,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -1046,6 +1624,14 @@
      "problem_md": "Give a reason why the student repeats steps 3 and 4 until the mass is constant. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "to make sure all the water is given off/evaporates ALLOW to make sure\nthe reaction is\ncomplete",
+     "mark_points": [
+      {
+       "id": "2023-01-12-a-i-MP1",
+       "marks": 1,
+       "text_md": "to make sure all the water is given off/evaporates ALLOW to make sure\nthe reaction is\ncomplete"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -1058,6 +1644,14 @@
      "problem_md": "Calculate the mass of BaCl2 that forms in tube A.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "5.2(0 g)",
+     "mark_points": [
+      {
+       "id": "2023-01-12-a-ii-MP1",
+       "marks": 1,
+       "text_md": "5.2(0 g)"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1070,6 +1664,14 @@
      "problem_md": "Calculate the mass of water lost.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "0.9(0 g)",
+     "mark_points": [
+      {
+       "id": "2023-01-12-a-iii-MP1",
+       "marks": 1,
+       "text_md": "0.9(0 g)"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1082,6 +1684,24 @@
      "problem_md": "Determine the value of x in BaCl2 . xH2O Show your working. [for BaCl2 , Mr = 208 for H2O, Mr = 18] x =",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 moles of BaCl2= 5.2 ÷ 208 OR 0.025 ALLOW ecf from (ii)\nM2 moles of H2O = 0.9 ÷ 18 OR 0.05(0) ALLOW ecf from (iii)\nM3 0.05(0) ÷ 0.025 = 2 ALLOW ecf from M1 and\nM2 as long as the\nanswer is an integer\nCorrect answer without\nworking scores 3",
+     "mark_points": [
+      {
+       "id": "2023-01-12-a-iv-MP1",
+       "marks": 1,
+       "text_md": "moles of BaCl2= 5.2 ÷ 208 OR 0.025 ALLOW ecf from (ii)"
+      },
+      {
+       "id": "2023-01-12-a-iv-MP2",
+       "marks": 1,
+       "text_md": "moles of H2O = 0.9 ÷ 18 OR 0.05(0) ALLOW ecf from (iii)"
+      },
+      {
+       "id": "2023-01-12-a-iv-MP3",
+       "marks": 1,
+       "text_md": "0.05(0) ÷ 0.025 = 2 ALLOW ecf from M1 and"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1094,6 +1714,19 @@
      "problem_md": "Describe a physical test to show that the water in tube B is pure. QUESTION 12 CONTINUES ON NEXT PAGE ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (measure the) boiling point ALLOW freezing point\nM2 100°C ALLOW 0°C for freezing\npoint",
+     "mark_points": [
+      {
+       "id": "2023-01-12-b-MP1",
+       "marks": 1,
+       "text_md": "(measure the) boiling point ALLOW freezing point"
+      },
+      {
+       "id": "2023-01-12-b-MP2",
+       "marks": 1,
+       "text_md": "100°C ALLOW 0°C for freezing"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1106,6 +1739,14 @@
      "problem_md": "Give the meaning of the symbol ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "reversible ALLOW the reaction\ngoes in both directions\nIGNORE equilibrium",
+     "mark_points": [
+      {
+       "id": "2023-01-12-c-i-MP1",
+       "marks": 1,
+       "text_md": "reversible ALLOW the reaction\ngoes in both directions\nIGNORE equilibrium"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1118,6 +1759,19 @@
      "problem_md": "Describe how the reaction can be used to show that a liquid contains water.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 add water to anhydrous copper sulfate ALLOW white copper\nsulfate\nM2 which turns (from white) to blue M2 dep on mention of\nanhydrous/white\ncopper sulfate\nMax 1 mark if incorrect\nstarting colour",
+     "mark_points": [
+      {
+       "id": "2023-01-12-c-ii-MP1",
+       "marks": 1,
+       "text_md": "add water to anhydrous copper sulfate ALLOW white copper"
+      },
+      {
+       "id": "2023-01-12-c-ii-MP2",
+       "marks": 1,
+       "text_md": "which turns (from white) to blue M2 dep on mention of"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1130,6 +1784,19 @@
      "problem_md": "Calculate the maximum number of water molecules in tube B after the sample of hydrated copper(II) sulfate has completely reacted. One mole of any substance contains 6 × 1023 particles. maximum number of molecules =",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 moles of water = 0.02 x 5 OR 0.1\nM2 molecules of water = 6 × 1022 ALLOW ecf from M1\nCorrect answer without\nworking scores 2\n1.2 x 1022 scores 1\nTotal for question = 13\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2023-01-12-c-iii-MP1",
+       "marks": 1,
+       "text_md": "moles of water = 0.02 x 5 OR 0.1"
+      },
+      {
+       "id": "2023-01-12-c-iii-MP2",
+       "marks": 1,
+       "text_md": "molecules of water = 6 × 1022 ALLOW ecf from M1\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
