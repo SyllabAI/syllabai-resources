@@ -36,12 +36,17 @@ never an input to verbatim extraction.
 
 ## Quickstart (per-series)
 
-Inputs are staged under `/home/z/my-project/upload/` with fixed names (see
-`official_examq_extract.py:paths_for`):
+The kit runs from any clean checkout. Outputs are ALWAYS written inside the checkout
+(`Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-1C/`, F15). Inputs are
+staged under `$EXAMQ_UPLOAD_DIR` (default `/home/z/my-project/upload`) with fixed
+names (see `official_examq_extract.py:paths_for`):
 
     official-4CH1-1C-<series>-qp.pdf / -ms.pdf     raw PDFs from syllabai-pastpapers
     official-<series>-qp.txt / -ms.txt             pdftotext -layout extractions
     manifest-<series>-1C.yaml                      manifest from the archive repo
+
+Cold start needs no manual prep: `run_all.sh` bootstraps the series index itself
+(one contents-API call; set `GHTOKEN` for a private archive repo, F16).
 
 Run one series (writes topic.json + questions.md + validation-report.json):
 

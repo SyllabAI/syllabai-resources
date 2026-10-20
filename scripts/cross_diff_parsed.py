@@ -5,15 +5,17 @@ Independent parse agreement — the strongest correctness evidence available:
 two different parsers over the same PDF must agree on every part mark.
 
 Usage: python3 cross_diff_parsed.py [series ...]   (default: all series that have a parsed layer)
-Expects: upload/parsed-{S}-questions.json  and  download/.../igcse-chemistry-19/{S}/4CH1-1C/topic.json
-Writes:  download/syllabai-resources/Official-ExamQuestion/igcse-chemistry-19/CROSS-DIFF.json
+Expects: $EXAMQ_UPLOAD_DIR (default /home/z/my-project/upload)/parsed-{S}-questions.json
+         and <checkout>/Official-ExamQuestion/igcse-chemistry-19/{S}/4CH1-1C/topic.json
+Writes:  <checkout>/Official-ExamQuestion/CROSS-DIFF.json  (always inside the checkout; F15)
 """
 import json
+import os
 import sys
 from pathlib import Path
 
-UPLOAD = Path("/home/z/my-project/upload")
-BASE = Path("/home/z/my-project/download/syllabai-resources/Official-ExamQuestion")
+UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
+BASE = Path(__file__).resolve().parent.parent / "Official-ExamQuestion"
 IGCSE = BASE / "igcse-chemistry-19"
 
 HAVE_PARSED = ["2024-06", "2025-06", "2026-06"]

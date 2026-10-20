@@ -70,6 +70,19 @@ for c in cans:
             ok = bool(cd["series"]) and all(
                 s["comparable_parts"] > 0 and not s["part_mismatches"] and not s["question_mismatches"]
                 for s in cd["series"])
+        elif chk == "no_hardcoded_output_root":
+            # C12 (LEDGER F15): output roots must derive from the checkout, never
+            # from a machine-specific mirror path that silently bypasses the
+            # canaries' own reads.
+            ok = True
+            for rel in ("official_examq_extract.py", "cross_diff_parsed.py", "make_multiseries_report.py"):
+                p = HERE.parent / "scripts" / rel
+                if not p.exists():
+                    print(f"  ! scripts/{rel} not found in the checkout")
+                    ok = False
+                elif "download/syllabai-resources" in p.read_text():
+                    print(f"  ! scripts/{rel} still writes to the hardcoded mirror root (F15 regression)")
+                    ok = False
         elif chk == "g0_summary_contains":
             rep, _ = load(series)
             g = next((g for g in rep["gates"] if g["gate"] == "G0-identity"), None)
