@@ -19,7 +19,8 @@
 
     Official-ExamQuestion/<spec-folder>/<series>/<paper>/
       topic.json               syllabai.official-paper-questions/0.1
-      questions.md             human-readable render (choices keyed, assets noted)
+      questions.md             human-readable render (choices keyed, figure crops embedded, mark-scheme answers)
+    assets/*.png            figure crops rendered from the QP PDF at 150 dpi
       validation-report.json   G0–G6 gate receipts + negative controls + review queue
 
     scripts/official_examq_extract.py    the converter (deterministic; no LLM in the loop)
@@ -32,7 +33,8 @@
 | G1 structure | Σ part marks = printed question total; Σ question totals = paper total |
 | G2 verbatim | every `problem_md` 5-gram-overlaps ≥0.95 with its own extracted source lines — any post-hoc edit fails loudly |
 | G3 MCQ integrity | options exactly as printed (Edexcel A–D), exactly one MS-keyed answer; unresolved → review, never auto-keyed |
-| G4 figures | every table/diagram/grid/apparatus mention resolves to a page-anchored asset record (crop-required until the crop pass) |
+| G4 figures | every mention resolves to a page-anchored asset record; the crop pass renders croppable figures to assets/*.png (126/158 at v0.5) |
+| G7 solutions | every MS-linked part carries solution_md + mark_points summing to the part marks |
 | G5 answers | positional linkage into the official MS; coverage reported; unmatched → review |
 | G6 registry | spec codes must exist in the SME spec-point resolution registry or be documented gaps → review; nothing fabricated |
 
@@ -54,6 +56,6 @@ spec code MUST be DETECTED by G1/G2/G6 respectively, else the run is void.
 - Agent operations: `AGENTS.md` (protocol + improvement loop), `LEDGER.md` (findings
   F1–F14), `CANARIES.json` + `check_canaries.py` (regression assertions),
   `run_all.sh` (one-command full-corpus run), `CHANGELOG.md` (converter history).
-- Open work: human review queues (2020-01 MCQ keys, figure crops, `pending-llm`
+- Open work: human review queues (2020-01 MCQ keys, 10 crop-verify + 32 crop-pending, `pending-llm`
   spec tagging), 2019-06 re-ingest, then new courses per ADR-037 §6 (4XCH1 modular,
   4SD0 shared papers).

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T21:29:22Z",
- "generator": "official_examq_extract.py v0.4 (ADR-037) series=2024-11",
+ "generated_utc": "2026-10-20T22:37:57Z",
+ "generator": "official_examq_extract.py v0.5 (ADR-037) series=2024-11",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-11:4CH1/1C",
  "source": {
   "qp_sha256": "81f416f2c32d849ec99796c546aa21b76bbab50b2131c29f623f1298fdaed7a0",
@@ -34,15 +34,27 @@
      "problem_md": "Substances can change from one state to another. The box gives some words about changes of state. condensing cooling evaporation freezing heating melting sublimation Complete the table by giving the correct word from the box for each change of state. You may use each word once, more than once or not at all. Change of state Name of change from liquid to solid from gas to liquid from solid to gas ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "from liquid to solid freezing\nfrom gas to liquid condensing ALLOW condensation\nfrom solid to gas sublimation ALLOW subliming",
+     "mark_points": [
+      {
+       "id": "2024-11-1-a-MP1",
+       "marks": 3,
+       "text_md": "from liquid to solid freezing\nfrom gas to liquid condensing ALLOW condensation\nfrom solid to gas sublimation ALLOW subliming"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
        "id": "asset_1_a_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 4,
-       "review": true
+       "review": false,
+       "path": "assets/asset_1_a_table.png",
+       "render": "vector",
+       "text_coverage": 0.431,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -55,15 +67,27 @@
      "problem_md": "Complete the diagram by drawing six circles to represent atoms in the gas state.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "6 circles similar size randomly arranged none touching At least one circle in\ntop/bottom of box",
+     "mark_points": [
+      {
+       "id": "2024-11-1-b-i-MP1",
+       "marks": 1,
+       "text_md": "6 circles similar size randomly arranged none touching At least one circle in\ntop/bottom of box"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
        "id": "asset_1_b_i_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 5,
-       "review": true
+       "review": false,
+       "path": "assets/asset_1_b_i_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.14,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -97,6 +121,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "A (the atoms move randomly in the gas state)\nB is not correct since atoms do not move randomly in\nthe solid state\nC is not correct since atoms are not in a fixed position\nin the gas state\nD is not correct since atoms are not in a fixed position\nin the liquid state",
+     "mark_points": [
+      {
+       "id": "2024-11-1-b-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer A: the atoms move randomly in the gas state"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -109,6 +141,14 @@
      "problem_md": "Complete the equation, by adding the state symbols, for the conversion of water into ice. H2O( ) → H2O( )",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "H2O(l) → H2O(s) ALLOW upper\ncase/lower case\nTotal = 6\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-1-c-MP1",
+       "marks": 1,
+       "text_md": "H2O(l) → H2O(s) ALLOW upper\ncase/lower case\nTotal = 6\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -135,6 +175,14 @@
      "problem_md": "Name the gas needed for combustion.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "oxygen ALLOW O2",
+     "mark_points": [
+      {
+       "id": "2024-11-2-a-i-MP1",
+       "marks": 1,
+       "text_md": "oxygen ALLOW O2"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -147,6 +195,14 @@
      "problem_md": "Name the gas that is most abundant in air.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "nitrogen ALLOW N2",
+     "mark_points": [
+      {
+       "id": "2024-11-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "nitrogen ALLOW N2"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -159,6 +215,14 @@
      "problem_md": "Name the gas that can bleach damp litmus paper.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "chlorine ALLOW Cl2",
+     "mark_points": [
+      {
+       "id": "2024-11-2-a-iii-MP1",
+       "marks": 1,
+       "text_md": "chlorine ALLOW Cl2"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -171,6 +235,19 @@
      "problem_md": "Explain why hydrogen chloride is classified as a compound. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (hydrogen chloride) has (atoms of) two / ALLOW two different\ndifferent elements atoms\nM2 (chemically) bonded/joined / (chemically)\ncombined together",
+     "mark_points": [
+      {
+       "id": "2024-11-2-b-MP1",
+       "marks": 1,
+       "text_md": "(hydrogen chloride) has (atoms of) two / ALLOW two different\ndifferent elements atoms"
+      },
+      {
+       "id": "2024-11-2-b-MP2",
+       "marks": 1,
+       "text_md": "(chemically) bonded/joined / (chemically)\ncombined together"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -204,6 +281,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "D (chlorine has the strongest forces of attraction\nbetween its molecules)\nA is not the correct answer because covalent bonds\nare not broken when chlorine boils\nB is not the correct answer because covalent bonds\ndo not occur between molecules\nC is not the correct answer because chlorine does\nnot have ionic bonds\nTotal = 6\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-2-c-MP1",
+       "marks": 1,
+       "text_md": "Answer D: chlorine has the strongest forces of attraction between its molecules"
+      }
+     ],
      "source_page": 7,
      "assets": [
       {
@@ -239,6 +324,19 @@
      "problem_md": "Name the two substances needed for iron to rust. 1 2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 oxygen ALLOW air\nALLOW O2\nM2 water ALLOW moisture\nALLOW H2O",
+     "mark_points": [
+      {
+       "id": "2024-11-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "oxygen ALLOW air"
+      },
+      {
+       "id": "2024-11-3-a-i-MP2",
+       "marks": 1,
+       "text_md": "water ALLOW moisture"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -251,6 +349,14 @@
      "problem_md": "Give the chemical name for rust.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "(hydrated) iron (III) oxide ALLOW ferric oxide\nALLOW Fe2O3",
+     "mark_points": [
+      {
+       "id": "2024-11-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(hydrated) iron (III) oxide ALLOW ferric oxide\nALLOW Fe2O3"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -263,6 +369,19 @@
      "problem_md": "Explain how method A prevents iron from rusting.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 paint acts as a barrier / (protective) layer NOT galvanising\nOWTTE NOT coating/covering\nM2 which prevents water/oxygen/air getting to the\niron/reacting with iron",
+     "mark_points": [
+      {
+       "id": "2024-11-3-b-i-MP1",
+       "marks": 1,
+       "text_md": "paint acts as a barrier / (protective) layer NOT galvanising\nOWTTE NOT coating/covering"
+      },
+      {
+       "id": "2024-11-3-b-i-MP2",
+       "marks": 1,
+       "text_md": "which prevents water/oxygen/air getting to the\niron/reacting with iron"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -275,6 +394,14 @@
      "problem_md": "Give the name of method B. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "galvanising ALLOW sacrificial\nprotection",
+     "mark_points": [
+      {
+       "id": "2024-11-3-b-ii-MP1",
+       "marks": 1,
+       "text_md": "galvanising ALLOW sacrificial\nprotection"
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
@@ -286,6 +413,19 @@
      "problem_md": "Explain how method B prevents iron from rusting even when the zinc coating is scratched.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 zinc is more reactive than iron OR zinc has a ALLOW zinc reacts\ngreater tendency to lose electrons instead of iron\nNOT zinc reacts more\nrapidly/faster\nM2 zinc oxidises / forms zinc oxide/reacts before REJECT references to\niron zinc rusting\nREJECT zinc reacts with\niron\nTotal = 8\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-3-b-iii-MP1",
+       "marks": 1,
+       "text_md": "zinc is more reactive than iron OR zinc has a ALLOW zinc reacts\ngreater tendency to lose electrons instead of iron"
+      },
+      {
+       "id": "2024-11-3-b-iii-MP2",
+       "marks": 1,
+       "text_md": "zinc oxidises / forms zinc oxide/reacts before REJECT references to\niron zinc rusting\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -312,6 +452,14 @@
      "problem_md": "Describe how the student should set up the apparatus and do the experiment. You may use a diagram to help your answer. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 draw a line in pencil (just above the bottom of\nthe paper)\nM2 put a spot of each ink on the line (before\ncontact with solvent)\nM3 pour some solvent in the beaker ALLOW water for\nsolvent\nM4 place the paper in the beaker so the spots are\nabove the solvent\nM5 leave until the solvent has risen up the paper ALLOW water for\n(nearly to the top) solvent\nALL marks can be\nscored/supported from\na labelled diagram\nthroughout\nM2 (moles of carbon dioxide) = 2 000 000 ALLOW M1÷2\nM3(mass of carbon dioxide) = 88 (tonnes) 88 (tonnes) scores 3\nmarks",
+     "mark_points": [
+      {
+       "id": "2024-11-4-a-MP1",
+       "marks": 5,
+       "text_md": "M1 draw a line in pencil (just above the bottom of\nthe paper)\nM2 put a spot of each ink on the line (before\ncontact with solvent)\nM3 pour some solvent in the beaker ALLOW water for\nsolvent\nM4 place the paper in the beaker so the spots are\nabove the solvent\nM5 leave until the solvent has risen up the paper ALLOW water for\n(nearly to the top) solvent\nALL marks can be\nscored/supported from\na labelled diagram\nthroughout\nM2 (moles of carbon dioxide) = 2 000 000 ALLOW M1÷2\nM3(mass of carbon dioxide) = 88 (tonnes) 88 (tonnes) scores 3\nmarks"
+      }
+     ],
      "source_page": 11,
      "assets": [
       {
@@ -341,6 +489,19 @@
      "problem_md": "Explain which ink contains a dye that is insoluble in the solvent.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 E\nM2 because it stayed on the start line/did not ALLOW didn’t move/ Rf\ntravel up paper value =0\nM2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2024-11-4-b-i-MP1",
+       "marks": 1,
+       "text_md": "E"
+      },
+      {
+       "id": "2024-11-4-b-i-MP2",
+       "marks": 1,
+       "text_md": "because it stayed on the start line/did not ALLOW didn’t move/ Rf\ntravel up paper value =0"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -353,6 +514,19 @@
      "problem_md": "Explain which inks contain the same dye. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 A and C\nM2 because they both (have a spot) at the same ALLOW travelled same\nheight OWTTE distance/same Rf value\nM2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2024-11-4-b-ii-MP1",
+       "marks": 1,
+       "text_md": "A and C"
+      },
+      {
+       "id": "2024-11-4-b-ii-MP2",
+       "marks": 1,
+       "text_md": "because they both (have a spot) at the same ALLOW travelled same\nheight OWTTE distance/same Rf value"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -365,6 +539,19 @@
      "problem_md": "Describe how the student can use the chromatogram to determine the Rf value for the dye in ink C. You do not need to calculate the Rf value.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 measure the distance from the start line to the\nspot and the distance from the start line to the\nsolvent front\nM2 distance moved by the spot ÷ distance moved by M2 subsumes M1\nthe solvent\nAllow 2 marks for a\ncorrect calculation\nmethod\nTotal = 11\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-4-b-iii-MP1",
+       "marks": 1,
+       "text_md": "measure the distance from the start line to the\nspot and the distance from the start line to the\nsolvent front"
+      },
+      {
+       "id": "2024-11-4-b-iii-MP2",
+       "marks": 1,
+       "text_md": "distance moved by the spot ÷ distance moved by M2 subsumes M1\nthe solvent\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -391,6 +578,14 @@
      "problem_md": "Give the test for oxygen gas.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "oxygen relights a glowing splint",
+     "mark_points": [
+      {
+       "id": "2024-11-5-a-MP1",
+       "marks": 1,
+       "text_md": "oxygen relights a glowing splint"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -403,6 +598,19 @@
      "problem_md": "The rate of reaction is increased by adding a suitable catalyst. Describe how a catalyst increases the rate of a reaction.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 a catalyst provides an alternative pathway ALLOW alternative\nroute\nM2 of lower activation energy",
+     "mark_points": [
+      {
+       "id": "2024-11-5-b-MP1",
+       "marks": 1,
+       "text_md": "a catalyst provides an alternative pathway ALLOW alternative"
+      },
+      {
+       "id": "2024-11-5-b-MP2",
+       "marks": 1,
+       "text_md": "of lower activation energy"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -415,15 +623,27 @@
      "problem_md": "Name the pieces of apparatus labelled A and B. A B",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A (conical) flask\nB (gas) syringe",
+     "mark_points": [
+      {
+       "id": "2024-11-5-c-i-MP1",
+       "marks": 2,
+       "text_md": "A (conical) flask\nB (gas) syringe"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
        "id": "asset_5_c_i_apparatus",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "apparatus",
        "source": "qp.pdf",
        "page": 16,
-       "review": true
+       "review": false,
+       "path": "assets/asset_5_c_i_apparatus.png",
+       "render": "vector",
+       "text_coverage": 0.086,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -436,15 +656,32 @@
      "problem_md": "Determine the volume of oxygen gas produced in the first 4 minutes. Show on the graph how you obtain your answer. volume of oxygen = cm3 ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 line from 4 minutes to the curved line\nM2 38cm3 ALLOW values 37-39cm3",
+     "mark_points": [
+      {
+       "id": "2024-11-5-c-ii-MP1",
+       "marks": 1,
+       "text_md": "line from 4 minutes to the curved line"
+      },
+      {
+       "id": "2024-11-5-c-ii-MP2",
+       "marks": 1,
+       "text_md": "38cm3 ALLOW values 37-39cm3"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
        "id": "asset_5_c_ii_graph",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "graph",
        "source": "qp.pdf",
        "page": 16,
-       "review": true
+       "review": false,
+       "path": "assets/asset_5_c_ii_graph.png",
+       "render": "vector",
+       "text_coverage": 0.086,
+       "shared": true
       }
      ],
      "spec_point_codes": [],
@@ -457,6 +694,29 @@
      "problem_md": "Determine the rate of reaction at 8 minutes by drawing a suitable tangent to the curve. Include the units for the rate of reaction. rate of reaction = units",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 tangent drawn to the graph at 8 minutes\ntouches curve once only\nM2 measurements made from ALLOW ecf for tangent\ndrawn at other than 8\nminutes\nM3 use measurements to calculate rate\n(y2-y1/x2-x1)(1sf or more)\nM4 cm3/minute ALLOW cm3/min\nALLOW cm3min-1\nALLOW cm3/s\nALLOW cm3s-1\nIf NO tangent drawn or drawn incorrectly(M1 not\nawarded)\nthen M3 awarded for 58-60/8 or 480 calculated\ncorrectly OR numbers from a calculated\ncorrectly\nAND M4 for cm3/minutes ALLOW cm3/min\nALLOW cm3min-1\nALLOW cm3/s\nALLOW cm3s-1\nTotal = 11\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-5-c-iii-MP1",
+       "marks": 1,
+       "text_md": "tangent drawn to the graph at 8 minutes\ntouches curve once only"
+      },
+      {
+       "id": "2024-11-5-c-iii-MP2",
+       "marks": 1,
+       "text_md": "measurements made from ALLOW ecf for tangent"
+      },
+      {
+       "id": "2024-11-5-c-iii-MP3",
+       "marks": 1,
+       "text_md": "use measurements to calculate rate\n(y2-y1/x2-x1)(1sf or more)"
+      },
+      {
+       "id": "2024-11-5-c-iii-MP4",
+       "marks": 1,
+       "text_md": "cm3/minute ALLOW cm3/min\nIf NO tangent drawn or drawn incorrectly(M1 not\nawarded)\nthen M3 awarded for 58-60/8 or 480 calculated\ncorrectly OR numbers from a calculated\ncorrectly\nAND M4 for cm3/minutes ALLOW cm3/min\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -483,15 +743,27 @@
      "problem_md": "Complete the table by giving the three missing formulae.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "AlCl3 ALLOW formula in\nreverse\nZnSO4 NOT molecular formula\nPenalise symbol\n(NH4)3N letters/size of subscripts\nonce only",
+     "mark_points": [
+      {
+       "id": "2024-11-6-a-i-MP1",
+       "marks": 3,
+       "text_md": "AlCl3 ALLOW formula in\nreverse\nZnSO4 NOT molecular formula\nPenalise symbol\n(NH4)3N letters/size of subscripts\nonce only"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
        "id": "asset_6_a_i_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 18,
-       "review": true
+       "review": false,
+       "path": "assets/asset_6_a_i_table.png",
+       "render": "vector",
+       "text_coverage": 0.221,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -504,6 +776,14 @@
      "problem_md": "Give the name of the compound with the formula Al2(SO4)3",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "aluminium sulfate ALLOW aluminium\nsulphate",
+     "mark_points": [
+      {
+       "id": "2024-11-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "aluminium sulfate ALLOW aluminium\nsulphate"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -516,15 +796,37 @@
      "problem_md": "The diagram shows the arrangement of electrons in an atom of magnesium and an atom of chlorine. Magnesium Chlorine  Describe, in terms of electrons, what happens when magnesium atoms and chlorine atoms form magnesium chloride.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 magnesium loses electrons ALLOW magnesium\ngives/transfers electrons\nM2 chlorine gains electrons to chlorine for M1,M2\nNOT chloride gains\nelectrons\nM3 magnesium loses two electrons and two chlorines M3 assumes M1,M2\neach gain one electron\nALLOW correct ionic\nequations",
+     "mark_points": [
+      {
+       "id": "2024-11-6-b-MP1",
+       "marks": 1,
+       "text_md": "magnesium loses electrons ALLOW magnesium"
+      },
+      {
+       "id": "2024-11-6-b-MP2",
+       "marks": 1,
+       "text_md": "chlorine gains electrons to chlorine for M1,M2"
+      },
+      {
+       "id": "2024-11-6-b-MP3",
+       "marks": 1,
+       "text_md": "magnesium loses two electrons and two chlorines M3 assumes M1,M2\neach gain one electron"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
        "id": "asset_6_b_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 18,
-       "review": true
+       "review": false,
+       "path": "assets/asset_6_b_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.224,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -537,15 +839,32 @@
      "problem_md": "Complete the dot-and-cross diagram to show the outer shell electrons in a molecule of ammonia. N H H H",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 two electrons between each nitrogen and\nhydrogen atom\nM2 two non-bonding electrons M2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2024-11-6-c-i-MP1",
+       "marks": 1,
+       "text_md": "two electrons between each nitrogen and\nhydrogen atom"
+      },
+      {
+       "id": "2024-11-6-c-i-MP2",
+       "marks": 1,
+       "text_md": "two non-bonding electrons M2 dep on M1"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
        "id": "asset_6_c_i_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 19,
-       "review": true
+       "review": false,
+       "path": "assets/asset_6_c_i_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.077,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -558,6 +877,19 @@
      "problem_md": "Describe the forces of attraction in a covalent bond.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (electrostatic) forces of attraction between shared\npair(s) of electrons\nM2 and the nuclei REJECT nucleus (must\nbe plural)\nREJECT intermolecular\nforces for both marks\nTotal = 11\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-6-c-ii-MP1",
+       "marks": 1,
+       "text_md": "(electrostatic) forces of attraction between shared\npair(s) of electrons"
+      },
+      {
+       "id": "2024-11-6-c-ii-MP2",
+       "marks": 1,
+       "text_md": "and the nuclei REJECT nucleus (must\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -584,6 +916,14 @@
      "problem_md": "Give a reason why the student surrounds tube B with ice.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "any one from:\nM1 to condense the water vapour ALLOW condense\nsteam/condense gas\nNOT cools water\nM2 to ensure all the water collects in the tube (as a NOT stops water\nliquid) evaporating",
+     "mark_points": [
+      {
+       "id": "2024-11-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "any one from:\nM1 to condense the water vapour ALLOW condense\nsteam/condense gas\nNOT cools water\nM2 to ensure all the water collects in the tube (as a NOT stops water\nliquid) evaporating"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -596,6 +936,14 @@
      "problem_md": "State how the student knows when all the water of crystallisation has been given off. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "When the mass doesn’t change / is constant/stops Accept: the last two\nincreasing results are the same\nAccept: balance reading\nstays the same",
+     "mark_points": [
+      {
+       "id": "2024-11-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "When the mass doesn’t change / is constant/stops Accept: the last two\nincreasing results are the same\nAccept: balance reading\nstays the same"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -608,6 +956,19 @@
      "problem_md": "Describe a chemical test the student can use to show that the liquid in tube B contains water.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 add anhydrous/white copper(II) sulfate/sulphate ALLOW\nanhydrous/white copper\nsulfate/sulphate\nALLOW add\nanhydrous/blue cobalt\nchloride\nM2 which turns (from white to) blue ALLOW which turns\n(from blue to) pink\nM2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2024-11-7-b-MP1",
+       "marks": 1,
+       "text_md": "add anhydrous/white copper(II) sulfate/sulphate ALLOW"
+      },
+      {
+       "id": "2024-11-7-b-MP2",
+       "marks": 1,
+       "text_md": "which turns (from white to) blue ALLOW which turns"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -620,6 +981,29 @@
      "problem_md": "The decomposition of hydrated magnesium sulfate is shown in the equation. MgSO4.xH2O → MgSO4 + xH2O At the end of the reaction, the mass of MgSO4 remaining in the tube is 6.0 g. Use this mass and the results in the table to calculate x in MgSO4.xH2O [for MgSO4 , Mr = 120 for H2O, Mr = 18] x =",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (mass of water) = 6.3g Ecf for incorrect mass of\nwater\nM2 (moles of MgSO4) = 0.05\nM3 (moles of H2O) 0.35 M1 can be awarded\nfrom moles of H2O in M3\nM4 x=7\nAnswer of 7 on its own\nscores 4 marks\nTotal = 8\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-7-c-MP1",
+       "marks": 1,
+       "text_md": "(mass of water) = 6.3g Ecf for incorrect mass of"
+      },
+      {
+       "id": "2024-11-7-c-MP2",
+       "marks": 1,
+       "text_md": "(moles of MgSO4) = 0.05"
+      },
+      {
+       "id": "2024-11-7-c-MP3",
+       "marks": 1,
+       "text_md": "(moles of H2O) 0.35 M1 can be awarded"
+      },
+      {
+       "id": "2024-11-7-c-MP4",
+       "marks": 1,
+       "text_md": "x=7\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 21,
      "assets": [
       {
@@ -651,6 +1035,14 @@
      "problem_md": "Give a reason why the reading on the balance decreases during the reaction.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "carbon dioxide/a gas escapes/is lost/released NOT carbon dioxide/gas\n(through the cotton wool) is given off/produced\nNOT wrong named gas",
+     "mark_points": [
+      {
+       "id": "2024-11-8-a-MP1",
+       "marks": 1,
+       "text_md": "carbon dioxide/a gas escapes/is lost/released NOT carbon dioxide/gas\n(through the cotton wool) is given off/produced\nNOT wrong named gas"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -663,6 +1055,19 @@
      "problem_md": "Explain why the rate of reaction is greatest at the start.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 the concentration (of hydrochloric acid) is ALLOW there is a\nhighest greater surface area of\nmarble chips\nALLOW greater amount\nof hydrochloric\nacid/reactants\nALLOW more particles\nM2 so there are more collisions per unit time ALLOW more frequent\ncollisions\nREJECT references to\ngreater (kinetic) energy\nfor both marks",
+     "mark_points": [
+      {
+       "id": "2024-11-8-b-MP1",
+       "marks": 1,
+       "text_md": "the concentration (of hydrochloric acid) is ALLOW there is a\nhighest greater surface area of"
+      },
+      {
+       "id": "2024-11-8-b-MP2",
+       "marks": 1,
+       "text_md": "so there are more collisions per unit time ALLOW more frequent"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -675,6 +1080,14 @@
      "problem_md": "After 10 minutes, the reaction stops even though there are marble chips remaining. Give a reason why the reaction stops. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "the hydrochloric acid has been used up OWTTE NOT acid is saturated\nIGNORE acid is a\nlimiting factor",
+     "mark_points": [
+      {
+       "id": "2024-11-8-c-MP1",
+       "marks": 1,
+       "text_md": "the hydrochloric acid has been used up OWTTE NOT acid is saturated\nIGNORE acid is a\nlimiting factor"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -687,6 +1100,14 @@
      "problem_md": "Give two variables that should be controlled to make sure the results are valid. 1 2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "any two from:\n(same) mass of marble chips ALLOW (same) amount\nof marble chips\n(same) surface area of marble chips ALLOW (same) size\nmarble chips\n(same) concentration of hydrochloric acid\n(same) volume of hydrochloric acid NOT same amount of\nacid",
+     "mark_points": [
+      {
+       "id": "2024-11-8-d-i-MP1",
+       "marks": 2,
+       "text_md": "any two from:\n(same) mass of marble chips ALLOW (same) amount\nof marble chips\n(same) surface area of marble chips ALLOW (same) size\nmarble chips\n(same) concentration of hydrochloric acid\n(same) volume of hydrochloric acid NOT same amount of\nacid"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -699,6 +1120,24 @@
      "problem_md": "Explain the effect of increasing the temperature of hydrochloric acid on the rate of reaction.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 rate of reaction increases\nM2 particles have more energy OR more particles ALLOW particles move\nhave energy greater than (or equal to) the faster\nactivation energy\nM3 so more successful collisions per unit time ALLOW more frequent\nsuccessful collisions\nTotal = 9\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-8-d-ii-MP1",
+       "marks": 1,
+       "text_md": "rate of reaction increases"
+      },
+      {
+       "id": "2024-11-8-d-ii-MP2",
+       "marks": 1,
+       "text_md": "particles have more energy OR more particles ALLOW particles move\nhave energy greater than (or equal to) the faster\nactivation energy"
+      },
+      {
+       "id": "2024-11-8-d-ii-MP3",
+       "marks": 1,
+       "text_md": "so more successful collisions per unit time ALLOW more frequent\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -725,6 +1164,14 @@
      "problem_md": "Give a reason why the student uses an aluminium can rather than a glass beaker.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "aluminium is a better conductor (of heat) than glass REJECT insulation\n(comparison needed) references",
+     "mark_points": [
+      {
+       "id": "2024-11-9-a-MP1",
+       "marks": 1,
+       "text_md": "aluminium is a better conductor (of heat) than glass REJECT insulation\n(comparison needed) references"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -737,6 +1184,14 @@
      "problem_md": "Identify the black solid.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "carbon / soot/ C",
+     "mark_points": [
+      {
+       "id": "2024-11-9-b-i-MP1",
+       "marks": 1,
+       "text_md": "carbon / soot/ C"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -749,6 +1204,14 @@
      "problem_md": "Give a reason why the black solid forms. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "incomplete combustion occurs OR the supply of\noxygen/air is limited",
+     "mark_points": [
+      {
+       "id": "2024-11-9-b-ii-MP1",
+       "marks": 1,
+       "text_md": "incomplete combustion occurs OR the supply of\noxygen/air is limited"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -761,6 +1224,14 @@
      "problem_md": "Show that the heat energy needed to raise the temperature of 100 g of water by 50 °C is approximately 20 000 J. [for water, c = 4.2 J/g/°C]",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1100×4.2×50\nM2 21000(J) ALLOW ecf for M2 if\nanswer close to 20000J",
+     "mark_points": [
+      {
+       "id": "2024-11-9-c-i-MP1",
+       "marks": 2,
+       "text_md": "M1100×4.2×50\nM2 21000(J) ALLOW ecf for M2 if\nanswer close to 20000J"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -773,6 +1244,29 @@
      "problem_md": "The student burns 1.84 g of ethanol. Calculate the molar enthalpy change, ΔH, in kJ/mol, for the combustion of ethanol. Include a sign in your answer. [for ethanol, Mr = 46] ΔH = kJ/mol ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 21 kJ ALLOW 20kJ\nM2 1.84÷46 OR 0.04 moles\nM3 21÷0.04 OR 525 (kJ/mol) ALLOW 21÷M2\nALLOW 500 (kJ/mol) if\n20kJ used\nM4 -525 (kJ/mol) M4 is for the – sign.\nALLOW ecf from M3",
+     "mark_points": [
+      {
+       "id": "2024-11-9-c-ii-MP1",
+       "marks": 1,
+       "text_md": "21 kJ ALLOW 20kJ"
+      },
+      {
+       "id": "2024-11-9-c-ii-MP2",
+       "marks": 1,
+       "text_md": "1.84÷46 OR 0.04 moles"
+      },
+      {
+       "id": "2024-11-9-c-ii-MP3",
+       "marks": 1,
+       "text_md": "21÷0.04 OR 525 (kJ/mol) ALLOW 21÷M2"
+      },
+      {
+       "id": "2024-11-9-c-ii-MP4",
+       "marks": 1,
+       "text_md": "-525 (kJ/mol) M4 is for the – sign."
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -785,6 +1279,14 @@
      "problem_md": "Complete the equation for the incomplete combustion of butanol.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "5O2 ALLOW multiples if the\nrest of the balancing\nnumbers have been\nmultiplied",
+     "mark_points": [
+      {
+       "id": "2024-11-9-d-i-MP1",
+       "marks": 1,
+       "text_md": "5O2 ALLOW multiples if the\nrest of the balancing\nnumbers have been\nmultiplied"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -797,6 +1299,24 @@
      "problem_md": "Calculate the total amount, in moles, of gas produced by the incomplete combustion of 3.7 g of butanol. amount of gas = mol",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (Mr of butanol) 74\nM2 (moles of butanol) 3.7÷74 OR 0.05 ALLOW 3.7÷M1 if\nattempted Mr shown\nM3 0.45 moles ALLOW M2×9\nAnswer of 0.45 scores 3\nTotal = 13\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-9-d-ii-MP1",
+       "marks": 1,
+       "text_md": "(Mr of butanol) 74"
+      },
+      {
+       "id": "2024-11-9-d-ii-MP2",
+       "marks": 1,
+       "text_md": "(moles of butanol) 3.7÷74 OR 0.05 ALLOW 3.7÷M1 if"
+      },
+      {
+       "id": "2024-11-9-d-ii-MP3",
+       "marks": 1,
+       "text_md": "0.45 moles ALLOW M2×9\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -826,6 +1346,14 @@
      "problem_md": "Give a reason why ethane does not undergo an addition reaction with bromine.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "any one from:\nM1 ethane is saturated\nM2 ethane has no double bonds\nM3 ethane has single bonds only",
+     "mark_points": [
+      {
+       "id": "2024-11-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "any one from:\nM1 ethane is saturated\nM2 ethane has no double bonds\nM3 ethane has single bonds only"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -838,6 +1366,19 @@
      "problem_md": "Complete the equation for the substitution reaction between ethane and bromine, including an essential condition for the reaction. C2H6 + Br2 → + condition",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 products C2H5Br and HBr In either order\nALLOW balanced\nequations with a\npolysubstituted\nhalogenoalkane\nM2 condition ultra violet radiation / ultra violet\nlight/UV",
+     "mark_points": [
+      {
+       "id": "2024-11-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "products C2H5Br and HBr In either order"
+      },
+      {
+       "id": "2024-11-10-a-ii-MP2",
+       "marks": 1,
+       "text_md": "condition ultra violet radiation / ultra violet\nlight/UV"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -850,6 +1391,14 @@
      "problem_md": "Give the colour change that occurs when ethene reacts with bromine water. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "orange/yellow/brown to colourless/decolourises NOT red/red-brown",
+     "mark_points": [
+      {
+       "id": "2024-11-10-a-iii-MP1",
+       "marks": 1,
+       "text_md": "orange/yellow/brown to colourless/decolourises NOT red/red-brown"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -862,6 +1411,14 @@
      "problem_md": "Compounds in the same homologous series have the same general formula. Give two other characteristics of compounds in the same homologous series. 1 2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "any two from:\nM1 same functional group\nM2 the same/similar chemical properties OR NOT similar reactivity\nundergo same/similar chemical reactions\nM3 trend in physical properties ALLOW a named\nphysical property e.g.\nboiling point\nNOT similar physical\nproperties\nM4 differ by CH2",
+     "mark_points": [
+      {
+       "id": "2024-11-10-b-i-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nM1 same functional group\nM2 the same/similar chemical properties OR NOT similar reactivity\nundergo same/similar chemical reactions\nM3 trend in physical properties ALLOW a named\nphysical property e.g.\nboiling point\nNOT similar physical\nproperties\nM4 differ by CH2"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -874,15 +1431,32 @@
      "problem_md": "Explain why the alkenes in the diagram are isomers.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 same molecular formula NOT same\nempirical/general\nformula\nM2 different displayed/structural formulae ALLOW different\nstructures/arrangements",
+     "mark_points": [
+      {
+       "id": "2024-11-10-b-ii-MP1",
+       "marks": 1,
+       "text_md": "same molecular formula NOT same"
+      },
+      {
+       "id": "2024-11-10-b-ii-MP2",
+       "marks": 1,
+       "text_md": "different displayed/structural formulae ALLOW different"
+      }
+     ],
      "source_page": 28,
      "assets": [
       {
        "id": "asset_10_b_ii_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 28,
-       "review": true
+       "review": false,
+       "path": "assets/asset_10_b_ii_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.37,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -895,6 +1469,14 @@
      "problem_md": "Draw the displayed formula of another alkene that is an isomer of these two alkenes. ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "ALLOW E/trans isomer\nM1 chain length longer in poly(ethene)",
+     "mark_points": [
+      {
+       "id": "2024-11-10-b-iii-MP1",
+       "marks": 1,
+       "text_md": "chain length longer in poly(ethene)"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -907,6 +1489,14 @@
      "problem_md": "The reaction used to make poly(ethene) can be represented by this equation. ( ( H H H H n C C C C H H H H n Describe the differences between the reactant and the product in this reaction. Refer to carbon chain length, type of bond and state of matter in your answer.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "3\nM2 polymer contains only single (covalent) bonds\n/no double bond ALLOW monomer\ncontains double C=C\nbonds\nALLOW reactant/ethene\nunsaturated\nALLOW\nproduct/polyethene\nsaturated\nM3 ethene is a gas and poly(ethene) is a solid\nTotal = 12\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2024-11-10-c-MP1",
+       "marks": 3,
+       "text_md": "3\nM2 polymer contains only single (covalent) bonds\n/no double bond ALLOW monomer\ncontains double C=C\nbonds\nALLOW reactant/ethene\nunsaturated\nALLOW\nproduct/polyethene\nsaturated\nM3 ethene is a gas and poly(ethene) is a solid\nTotal = 12\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],
@@ -936,6 +1526,19 @@
      "problem_md": "Write a chemical equation for the reaction in stage 1.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "2PbS + 3O2 → 2PbO + 2SO2\nM1 formulae of O2 and SO2\nM2 rest of equation correctly balanced M2 dep on M1\nALLOW\nmultiples/fractions",
+     "mark_points": [
+      {
+       "id": "2024-11-11-a-i-MP1",
+       "marks": 1,
+       "text_md": "formulae of O2 and SO2"
+      },
+      {
+       "id": "2024-11-11-a-i-MP2",
+       "marks": 1,
+       "text_md": "rest of equation correctly balanced M2 dep on M1"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -948,6 +1551,14 @@
      "problem_md": "Give a reason why sulfur dioxide should not be released into the atmosphere.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "(sulfur dioxide causes) acid rain / breathing problems ALLOW named\nbreathing problems such\nas asthma\nALLOW other effects of\nacid rain such as killing\nfish, damage to\nstonework, killing plants",
+     "mark_points": [
+      {
+       "id": "2024-11-11-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(sulfur dioxide causes) acid rain / breathing problems ALLOW named\nbreathing problems such\nas asthma\nALLOW other effects of\nacid rain such as killing\nfish, damage to\nstonework, killing plants"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -960,6 +1571,14 @@
      "problem_md": "This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of lead(II) oxide is heated in a furnace with an excess of carbon. Calculate the maximum mass, in tonnes, of carbon dioxide that could be released into the atmosphere. [1 tonne = 1 × 106 g] [for PbO, Mr = 223 for CO2 , Mr = 44] mass = tonnes ",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 (moles lead(II) oxide) = 892 000 000 ÷ 223 OR ALLOW calculations",
+     "mark_points": [
+      {
+       "id": "2024-11-11-a-iii-MP1",
+       "marks": 3,
+       "text_md": "M1 (moles lead(II) oxide) = 892 000 000 ÷ 223 OR ALLOW calculations"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -976,11 +1595,15 @@
      "assets": [
       {
        "id": "asset_11_a_iv_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 31,
-       "review": true
+       "review": false,
+       "path": "assets/asset_11_a_iv_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.221,
+       "shared": false
       }
      ],
      "spec_point_codes": [],

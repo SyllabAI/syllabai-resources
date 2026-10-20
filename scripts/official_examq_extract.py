@@ -42,7 +42,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.4"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.5"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 PAPER_TOTAL = 110          # registry expectation for 4CH1/1C — constant across series
 # printed question counts verified per series (footers vary 9..15 across the 4CH1 era);
 # counts cross-checked against per-question footer marks summing to 110
@@ -328,6 +328,192 @@ def parse_ms(ms_lines):
     return entries
 
 
+# ---------------------------------------------------------------- v0.5: solution emission
+# The reveal + Smart Mark layer: per-part solution_md (verbatim MS answer block)
+# and mark_points[] (awardable points whose marks always sum to the part marks).
+SOL_TAIL_MARKS_RE = re.compile(r"\s{2,}(\d{1,2})\s*$")   # marks-column digit, far right
+TOTAL_ROW_RE = re.compile(r"^Total \d+$")
+NOTES_COL_INDENT = 45   # answer-column content sits left of this in every observed table;
+                        # the Notes column (ALLOW/ACCEPT/... + its M1/M2 cross-references)
+                        # starts at col ~60+ — never confuse its M-rows for points
+
+
+def build_solution(p, ms_lines, series):
+    """v0.5: derive solution_md + mark_points[] from the linked MS entry.
+
+    Verbatim doctrine: solution_md is every content line of the entry block,
+    whitespace-normalized, with the marker row's trailing marks-column digit
+    removed (it is layout, not answer). Nothing is added or reworded.
+
+    mark_points[]: points are split ONLY on explicit ascending M1..Mn rows
+    printed in the answer column (indent < NOTES_COL_INDENT), each worth 1,
+    accepted only when n == the part's marks. Every other entry becomes ONE
+    point carrying the whole block (marks = part marks). MCQ parts emit a
+    single label-style point referencing the keyed choice. Fail-closed: the
+    splitter can only under-split, never invent; unlinked parts emit nothing.
+    Returns (solution_md, mark_points, ms_marks_digit_or_None)."""
+    marks = p["marks"]
+    lines = []                      # (raw indent, normalized text)
+    ms_marks = None
+    for ln in ms_lines:
+        raw = ln.rstrip()
+        if not raw.strip():
+            continue
+        tail = SOL_TAIL_MARKS_RE.search(raw)
+        if tail and raw[:tail.start()].strip():
+            if ms_marks is None:
+                ms_marks = int(tail.group(1))
+            raw = raw[:tail.start()].rstrip()
+        text = re.sub(r"\s{2,}", " ", raw).strip()
+        if not text or TOTAL_ROW_RE.match(text):
+            continue
+        lines.append((len(raw) - len(raw.lstrip()), text))
+    if not lines:
+        return None, None, None
+    solution_md = "\n".join(t for _, t in lines)
+    base = f"{series}-{p['part_number'].replace('(', '-').replace(')', '')}"
+    pts = None
+    if p["question_type"] == "multiple_choice":
+        keyed = next((c for c in p.get("choices") or [] if c.get("is_correct")), None)
+        if marks is not None:
+            pts = [{"id": f"{base}-MP1", "marks": marks,
+                    "text_md": (f"Answer {keyed['label']}: {keyed['text_md']}"
+                                if keyed else solution_md)}]
+    elif marks is not None:
+        m_rows = [(k, m) for k, (ind, t) in enumerate(lines)
+                  if ind < NOTES_COL_INDENT and (m := re.match(r"^M([1-9])\s+(\S.*)$", t))]
+        nums = [int(m.group(1)) for _, m in m_rows]
+        if m_rows and nums == list(range(1, len(nums) + 1)) and len(nums) == marks:
+            pts = []
+            for j, (k, m) in enumerate(m_rows):
+                end = m_rows[j + 1][0] if j + 1 < len(m_rows) else len(lines)
+                seg = [m.group(2)]
+                seg += [t for ind, t in lines[k + 1:end]
+                        if ind < NOTES_COL_INDENT and not re.match(r"^M[1-9]\s", t)]
+                pts.append({"id": f"{base}-MP{j + 1}", "marks": 1,
+                            "text_md": "\n".join(seg)})
+        if pts is None:
+            pts = [{"id": f"{base}-MP1", "marks": marks, "text_md": solution_md}]
+    return solution_md, pts, ms_marks
+
+
+# ---------------------------------------------------------------- v0.5: figure crop pass
+# Turns the page-anchored crop-required stubs into real PNG crops rendered from
+# the QP PDF. Detection is deterministic (vector-drawing + raster-image clusters);
+# anything not provably a figure stays a stub and keeps its review-queue entry.
+CROP_MIN_W, CROP_MIN_H = 40, 25          # figure-sized regions (pt)
+CROP_PAD, CROP_DPI = 8.0, 150
+FULL_PAGE_FRAC = 0.80                    # page-border frames cover ~100% -> rejected
+ANSWER_STRIP_W, ANSWER_STRIP_H = 320, 55  # full-width ruled answer boxes are furniture
+
+
+def detect_figure_clusters(page):
+    """Figure-sized regions on a QP page: vector-drawing rects (lines, curves,
+    fills — apparatus diagrams, graphs, tables) plus embedded raster bboxes,
+    union-merged with padding to fixpoint. Page furniture is removed BEFORE
+    merging (printed page-border frames, margin decoration strips, full-page
+    scans) because a frame at 79% page area survives any post-hoc area filter
+    and margin stripe images sit close enough to merge with it. Horizontal
+    ruling lines are zero-height rects — they ARE table strokes, so only
+    truly zero-size artifacts are dropped here. Post-merge filters: figure
+    minimum size, full-width ruled answer strips. Deterministic order."""
+    pw, ph = page.rect.width, page.rect.height
+
+    def furniture(r):
+        if r.width >= 0.45 * pw and r.height >= 0.45 * ph:
+            return True                      # page-border frame / full-page scan
+        if r.x1 <= 45 or r.x0 >= pw - 45 or r.y1 <= 30 or r.y0 >= ph - 30:
+            return True                      # margin decorations / edge stripes
+        return False
+
+    seeds = []
+    for d in page.get_drawings():
+        r = fitz.Rect(d["rect"])
+        if max(r.width, r.height) < 3 or furniture(r):
+            continue
+        seeds.append(r)
+    for info in page.get_image_info():
+        r = fitz.Rect(info["bbox"])
+        if max(r.width, r.height) < 5 or furniture(r):
+            continue
+        seeds.append(r)
+    if not seeds:
+        return []
+    page_area = abs(page.rect)
+    boxes = [fitz.Rect(r.x0 - CROP_PAD, r.y0 - CROP_PAD, r.x1 + CROP_PAD, r.y1 + CROP_PAD)
+             for r in seeds]
+    merged = []
+    for b in sorted(boxes, key=lambda r: (round(r.y0, 1), round(r.x0, 1))):
+        hit_i = next((i for i, m in enumerate(merged) if m.intersects(b)), None)
+        if hit_i is None:
+            merged.append(fitz.Rect(b))
+        else:
+            merged[hit_i] = merged[hit_i] | b   # NOTE: Rect has no __ior__ — must rebind into the list
+    for _ in range(10):                    # absorb merge chains to a fixpoint
+        out, changed = [], False
+        for b in merged:
+            hit_i = next((i for i, m in enumerate(out) if m.intersects(b)), None)
+            if hit_i is None:
+                out.append(fitz.Rect(b))
+            else:
+                if not out[hit_i].contains(b):
+                    out[hit_i] = out[hit_i] | b
+                    changed = True
+        merged = out
+        if not changed:
+            break
+    figs = []
+    for m in merged:
+        if abs(m) > FULL_PAGE_FRAC * page_area:
+            continue
+        if m.width >= ANSWER_STRIP_W and m.height <= ANSWER_STRIP_H:
+            continue
+        if m.width < CROP_MIN_W or m.height < CROP_MIN_H:
+            continue
+        figs.append(m)
+    return sorted(figs, key=lambda r: (round(r.y0), round(r.x0)))
+
+
+def figure_anchor_y(page, problem_md):
+    """Y position of the part's own text on the page (figures sit below it).
+    Tries progressively shorter word prefixes because pdftotext and PyMuPDF
+    disagree about spacing/punctuation. None = unanchorable -> review flag."""
+    frag = re.sub(r"\s+", " ", problem_md).strip()
+    for n in (8, 6, 4, 3):
+        ws = frag.split()[:n]
+        if len(ws) < n:
+            break
+        hits = page.search_for(" ".join(ws))
+        if hits:
+            return hits[0].y0
+    return None
+
+
+def expand_with_labels(page, rect):
+    """Union the cluster with nearby text blocks that overlap a fixed +16pt
+    ring around it — graph axis labels and chart annotations are TEXT sitting
+    just outside the vector strokes, and belong to the figure. Only blocks
+    overlapping the ring are absorbed (distant paragraph text is not)."""
+    ring = fitz.Rect(rect.x0 - 16, rect.y0 - 16, rect.x1 + 16, rect.y1 + 16) & page.rect
+    out = fitz.Rect(rect)
+    for b in page.get_text("blocks"):
+        tb = fitz.Rect(b[:4])
+        if not tb.is_empty and ring.intersects(tb):
+            out |= tb
+    return out
+
+
+def text_coverage(page, rect):
+    """Fraction of the rect's area overlapped by text blocks — high values mean
+    the region is mostly text (mis-detected cluster) and the crop needs eyes."""
+    tot = 0.0
+    for b in page.get_text("blocks"):
+        inter = fitz.Rect(b[:4]) & rect
+        if not inter.is_empty:
+            tot += abs(inter)
+    return round(min(1.0, tot / max(abs(rect), 1.0)), 3)
+
+
 # ---------------------------------------------------------------- main
 def main():
     import argparse, copy
@@ -492,6 +678,9 @@ def main():
                 if lab:
                     for c in p["choices"]:
                         c["is_correct"] = (c["label"] == lab)
+            # v0.5 solution emission (reveal + Smart Mark): verbatim MS block +
+            # awardable points; unlinked parts emit nothing (fields stay None)
+            p["solution_md"], p["mark_points"], p["_ms_marks"] = build_solution(p, lines, series)
 
     # ---- page anchoring + assets -------------------------------------------
     pdf = fitz.open(QP_PDF)
@@ -519,6 +708,68 @@ def main():
                             "kind": "crop-required", "mention": k,
                             "source": "qp.pdf", "page": p["source_page"], "review": True}
                            for k in mentions]
+
+    # ---- v0.5 figure crop pass ----------------------------------------------
+    # For every asset stub with a page anchor, detect figure clusters on that
+    # page and render the nearest cluster below the part's own text to PNG.
+    # Deterministic assignment: clusters are claimed per page in document order;
+    # parts keep their crop-required stub (review queue) when no cluster fits.
+    ASSETS_DIR = OUT / "assets"
+    ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+    page_clusters, page_rasters, claimed = {}, {}, {}
+    crop_stats = {"crops": 0, "pending": 0}
+    for q in doc_questions:
+        for p in q["parts"]:
+            for a in p.get("assets") or []:
+                pg = p.get("source_page")
+                if pg is None:
+                    crop_stats["pending"] += 1
+                    continue
+                if pg not in page_clusters:
+                    page = pdf[pg - 1]
+                    page_clusters[pg] = detect_figure_clusters(page)
+                    page_rasters[pg] = [fitz.Rect(i["bbox"]) for i in page.get_image_info()
+                                        if i["bbox"][2] - i["bbox"][0] >= 5
+                                        and i["bbox"][3] - i["bbox"][1] >= 5]
+                clusters = page_clusters[pg]
+                used = claimed.setdefault(pg, set())
+                # prefer unclaimed clusters; a figure SHARED by sibling parts
+                # (e.g. the group-stem apparatus behind 4(b)(i) and 4(b)(ii))
+                # may be reused — the same source figure legitimately backs
+                # every mention that points at it
+                cand = [(i, c) for i, c in enumerate(clusters) if i not in used] or \
+                       list(enumerate(clusters))
+                if not cand:
+                    crop_stats["pending"] += 1
+                    continue
+                page = pdf[pg - 1]
+                ay = figure_anchor_y(page, p["problem_md"])
+                pick = None
+                if ay is not None:
+                    below = sorted(((min(abs(c.y0 - ay), abs((c.y0 + c.y1) / 2 - ay)), i, c)
+                                    for i, c in cand if c.y0 >= ay - 36), key=lambda t: (t[0], t[1]))
+                    pick = below[0] if below else None
+                if pick is None:
+                    ref = ay if ay is not None else page.rect.height / 2
+                    pick = min(((abs((c.y0 + c.y1) / 2 - ref), i, c) for i, c in cand),
+                               key=lambda t: (t[0], t[1]))
+                _, i, c = pick
+                shared = i in used
+                used.add(i)
+                c = expand_with_labels(page, c)
+                clip = fitz.Rect(c.x0 - 3, c.y0 - 3, c.x1 + 3, c.y1 + 3) & page.rect
+                pix = page.get_pixmap(clip=clip, dpi=CROP_DPI)
+                rel = f"assets/{a['id']}.png"
+                pix.save(str(OUT / rel))
+                cov = text_coverage(page, c)
+                a["kind"] = "crop"
+                a["path"] = rel
+                a["render"] = ("raster" if any(rb.contains(c) for rb in page_rasters[pg])
+                               else "vector")
+                a["text_coverage"] = cov
+                a["shared"] = shared
+                a["review"] = bool(ay is None or cov > 0.55)
+                crop_stats["crops"] += 1
 
     # ---- spec seeds (labels only; registry-validated) -----------------------
     seeds = SEEDS.get(series, {})
@@ -646,12 +897,23 @@ def main():
     n_assets = sum(len(p["assets"]) for q in doc_questions for p in q["parts"])
     n_unanchored = sum(1 for q in doc_questions for p in q["parts"] if p["source_page"] is None)
     gate("G4-figure-resolution", not dangling,
-         f"{n_assets} asset records (crop-required) cover every table/diagram/grid/apparatus mention; "
+         f"{n_assets} asset records cover every table/diagram/grid/apparatus mention: "
+         f"{crop_stats['crops']} cropped to assets/*.png ({CROP_DPI} dpi), "
+         f"{crop_stats['pending']} remain crop-required; "
          f"{n_unanchored} parts without page anchor",
-         {"dangling": dangling, "pages_unanchored": n_unanchored})
-    report["review_queue"].extend(
-        [{"part": p["part_number"], "reason": f"figure crop required ({', '.join(a['mention'] for a in p['assets'])}, page {p['source_page']})"}
-         for q in doc_questions for p in q["parts"] if p["assets"]])
+         {"dangling": dangling, "pages_unanchored": n_unanchored, "crop_stats": crop_stats})
+    for q in doc_questions:
+        for p in q["parts"]:
+            for a in p.get("assets") or []:
+                if a.get("kind") == "crop":
+                    if a.get("review"):
+                        report["review_queue"].append(
+                            {"part": p["part_number"],
+                             "reason": f"figure crop emitted — human verify ({a['path']})"})
+                else:
+                    report["review_queue"].append(
+                        {"part": p["part_number"],
+                         "reason": f"figure crop required ({a['mention']}, page {a.get('page')})"})
 
     # G5 answer linkage
     parts_all = [p for q in doc_questions for p in q["parts"]]
@@ -678,6 +940,33 @@ def main():
          f"or documented gaps→review; {n_pending} parts pending-llm tagging",
          {"violations": g6_bad, "allowed_gaps": sorted(ALLOWED_GAPS)})
 
+    # G7 solution emission (v0.5): every linked part carries the verbatim MS
+    # block, and every mark_points split sums exactly to the part's marks.
+    sol_parts = [p for p in parts_all if p.get("answer_status") == "linked"]
+    no_sol = [p["part_number"] for p in sol_parts if not p.get("solution_md")]
+    sum_bad = []
+    for p in parts_all:
+        mp = p.get("mark_points")
+        if mp and p.get("marks") is not None and sum(x["marks"] for x in mp) != p["marks"]:
+            sum_bad.append({"part": p["part_number"],
+                            "points_sum": sum(x["marks"] for x in mp), "marks": p["marks"]})
+    ms_seen = sum(1 for p in parts_all
+                  if p.get("_ms_marks") is not None and p.get("marks") is not None)
+    ms_agree = sum(1 for p in parts_all
+                   if p.get("_ms_marks") is not None and p.get("marks") is not None
+                   and p["_ms_marks"] == p["marks"])
+    ms_disagree = [f"{p['part_number']} (ms={p['_ms_marks']} qp={p['marks']})"
+                   for p in parts_all
+                   if p.get("_ms_marks") is not None and p.get("marks") is not None
+                   and p["_ms_marks"] != p["marks"]]
+    gate("G7-solution-emission", not no_sol and not sum_bad,
+         f"solution_md on {len(sol_parts) - len(no_sol)}/{len(sol_parts)} linked parts; "
+         f"mark_points sum == part marks everywhere: {not sum_bad}; "
+         f"MS marks-column digit read for {ms_seen} parts, agrees with QP marks on {ms_agree}",
+         {"missing_solution": no_sol, "sum_mismatches": sum_bad,
+          "ms_marks_seen": ms_seen, "ms_marks_agree": ms_agree,
+          "ms_marks_disagree": ms_disagree})
+
     # ---- assemble document (before popping internal fields) ------------------
     topic = {
         "schema": SCHEMA, "generated_utc": now_iso(),
@@ -698,7 +987,7 @@ def main():
             "total_marks_source": "printed-footer" if q["printed_total"] is not None else "inferred-parts-footer-missing",
             "stem_md": q["stem_md"],
             "parts": [{k: v for k, v in p.items()
-                       if k not in ("group_stem_md", "option_list", "group", "roman", "answer_raw", "source_norm") and v is not None}
+                       if k not in ("group_stem_md", "option_list", "group", "roman", "answer_raw", "source_norm", "_ms_marks") and v is not None}
                       for p in q["parts"]],
         } for q in doc_questions],
     }
@@ -802,8 +1091,18 @@ def write_questions_md(topic, path):
             if p.get("choices"):
                 out += [f"- **({c['label']})** {c['text_md']}" + ("  ✔" if c.get("is_correct") else "")
                         for c in p["choices"]] + [""]
-            if p.get("assets"):
-                out += [f"> 🖼 asset required: {a['mention']} (qp.pdf p.{a['page']})" for a in p["assets"]] + [""]
+            for a in p.get("assets") or []:
+                if a.get("kind") == "crop" and a.get("path"):
+                    out += [f"![{a['mention']} — official paper figure (qp.pdf p.{a['page']})]({a['path']})", ""]
+                else:
+                    out += [f"> 🖼 crop required: {a['mention']} (qp.pdf p.{a['page']})", ""]
+            if p.get("solution_md"):
+                out += ["", "**Mark scheme answer**", ""]
+                out += ["> " + ln for ln in p["solution_md"].splitlines()]
+                out += [""]
+                for pt in p.get("mark_points") or []:
+                    out += [f"- **({pt['marks']})** {pt['text_md'].splitlines()[0]}"]
+                out += [""]
         out.append("")
     path.write_text("\n".join(out))
 

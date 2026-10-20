@@ -1,26 +1,26 @@
 # ADR-037 corpus run — 4CH1/1C complete (all series in syllabai-pastpapers)
 
-> generated 2026-10-20T21:29:54Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper
+> generated 2026-10-20T22:38:00Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper
 > 16 series · 169 questions · 930 parts · 1754/1760 marks (6 lost to 2019-06 archive damage) · 14 series fully PASS
 
 | series | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2019-06 | PASS | REVIEW | PASS | PASS | PASS | REVIEW | PASS | 3/3 | 14 | 53 | 104/110 | 3/3 | 28 |
-| 2020-01 | PASS | PASS | PASS | FAIL | PASS | PASS | PASS | 3/3 | 10 | 60 | 110/110 | 1/3 | 10 |
-| 2020-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 64 | 110/110 | 6/6 | 14 |
-| 2021-01 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 53 | 110/110 | 3/3 | 14 |
-| 2021-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 54 | 110/110 | 2/2 | 9 |
-| 2021-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 67 | 110/110 | 1/1 | 12 |
-| 2022-01 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 65 | 110/110 | 2/2 | 12 |
-| 2022-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 57 | 110/110 | 3/3 | 10 |
-| 2023-01 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 12 | 60 | 110/110 | 7/7 | 11 |
-| 2023-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 55 | 110/110 | 3/3 | 8 |
-| 2023-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 66 | 110/110 | 2/2 | 14 |
-| 2024-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 56 | 110/110 | 4/4 | 9 |
-| 2024-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 56 | 110/110 | 2/2 | 14 |
-| 2025-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 49 | 110/110 | 6/6 | 5 |
-| 2025-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 59 | 110/110 | 6/6 | 8 |
-| 2026-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 9 | 56 | 110/110 | 5/5 | 5 |
+| 2019-06 | PASS | REVIEW | PASS | PASS | PASS | REVIEW | PASS | 3/3 | 14 | 53 | 104/110 | 3/3 | 27 |
+| 2020-01 | PASS | PASS | PASS | FAIL | PASS | PASS | PASS | 3/3 | 10 | 60 | 110/110 | 1/3 | 2 |
+| 2020-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 64 | 110/110 | 6/6 | 4 |
+| 2021-01 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 53 | 110/110 | 3/3 | 4 |
+| 2021-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 54 | 110/110 | 2/2 | 3 |
+| 2021-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 67 | 110/110 | 1/1 | 4 |
+| 2022-01 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 65 | 110/110 | 2/2 | 5 |
+| 2022-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 57 | 110/110 | 3/3 | 3 |
+| 2023-01 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 12 | 60 | 110/110 | 7/7 | 1 |
+| 2023-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 55 | 110/110 | 3/3 | 3 |
+| 2023-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 66 | 110/110 | 2/2 | 8 |
+| 2024-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 56 | 110/110 | 4/4 | 1 |
+| 2024-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 56 | 110/110 | 2/2 | 6 |
+| 2025-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 49 | 110/110 | 6/6 | 2 |
+| 2025-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 59 | 110/110 | 6/6 | 3 |
+| 2026-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 9 | 56 | 110/110 | 5/5 | 4 |
 
 ## Terminal states
 

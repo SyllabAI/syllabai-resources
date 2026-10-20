@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T21:28:53Z",
+ "generated_utc": "2026-10-20T22:37:44Z",
  "series": "2020-11",
  "gates": [
   {
@@ -51,10 +51,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "17 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 0 parts without page anchor",
+   "summary": "17 asset records cover every table/diagram/grid/apparatus mention: 13 cropped to assets/*.png (150 dpi), 4 remain crop-required; 0 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 0
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 13,
+     "pending": 4
+    }
    }
   },
   {
@@ -74,6 +78,18 @@
     "allowed_gaps": [
      "4CH1-3.15C"
     ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 64/64 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 60 parts, agrees with QP marks on 60",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 60,
+    "ms_marks_agree": 60,
+    "ms_marks_disagree": []
    }
   }
  ],
@@ -97,18 +113,6 @@
  ],
  "review_queue": [
   {
-   "part": "2(a)",
-   "reason": "figure crop required (boxes, page 6)"
-  },
-  {
-   "part": "3(a)(iii)",
-   "reason": "figure crop required (table, page 8)"
-  },
-  {
-   "part": "4(b)(ii)",
-   "reason": "figure crop required (diagram, page 11)"
-  },
-  {
    "part": "5(a)",
    "reason": "figure crop required (table, page 14)"
   },
@@ -117,40 +121,12 @@
    "reason": "figure crop required (diagram, page 15)"
   },
   {
-   "part": "5(c)",
-   "reason": "figure crop required (diagram, page 16)"
-  },
-  {
-   "part": "7(b)",
-   "reason": "figure crop required (apparatus, diagram, page 20)"
-  },
-  {
-   "part": "7(c)",
-   "reason": "figure crop required (table, page 21)"
-  },
-  {
-   "part": "7(d)",
-   "reason": "figure crop required (grid, table, page 22)"
-  },
-  {
    "part": "7(e)(i)",
    "reason": "figure crop required (graph, page 23)"
   },
   {
    "part": "7(e)(iii)",
    "reason": "figure crop required (graph, page 23)"
-  },
-  {
-   "part": "8(a)(i)",
-   "reason": "figure crop required (apparatus, page 25)"
-  },
-  {
-   "part": "8(b)",
-   "reason": "figure crop required (diagram, table, page 26)"
-  },
-  {
-   "part": "8(d)",
-   "reason": "figure crop required (table, page 27)"
   }
  ],
  "source_defects": {

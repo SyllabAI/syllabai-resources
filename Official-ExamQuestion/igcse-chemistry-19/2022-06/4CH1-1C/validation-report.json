@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T21:29:08Z",
+ "generated_utc": "2026-10-20T22:37:51Z",
  "series": "2022-06",
  "gates": [
   {
@@ -46,10 +46,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 5 parts without page anchor",
+   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 9 cropped to assets/*.png (150 dpi), 2 remain crop-required; 5 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 5
+    "pages_unanchored": 5,
+    "crop_stats": {
+     "crops": 9,
+     "pending": 2
+    }
    }
   },
   {
@@ -71,6 +75,18 @@
     "allowed_gaps": [
      "4CH1-3.15C"
     ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 56/56 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 49 parts, agrees with QP marks on 49",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 49,
+    "ms_marks_agree": 49,
+    "ms_marks_disagree": []
    }
   }
  ],
@@ -94,36 +110,8 @@
  ],
  "review_queue": [
   {
-   "part": "2(a)",
-   "reason": "figure crop required (table, page 4)"
-  },
-  {
-   "part": "4(b)",
-   "reason": "figure crop required (diagram, table, page 9)"
-  },
-  {
-   "part": "4(c)",
-   "reason": "figure crop required (table, page 9)"
-  },
-  {
-   "part": "6(b)(iii)",
-   "reason": "figure crop required (graph, page 14)"
-  },
-  {
    "part": "6(c)(i)",
    "reason": "figure crop required (grid, page 15)"
-  },
-  {
-   "part": "8(b)",
-   "reason": "figure crop required (diagram, table, page 21)"
-  },
-  {
-   "part": "10(a)",
-   "reason": "figure crop required (diagram, page 24)"
-  },
-  {
-   "part": "10(b)(i)",
-   "reason": "figure crop required (table, page 24)"
   },
   {
    "part": "10(c)(ii)",

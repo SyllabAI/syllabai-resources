@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
- "converter_version_floor": "0.4",
+ "converter_version_floor": "0.5",
  "canaries": [
   {
    "id": "C1-honest-refusal",
@@ -89,6 +89,20 @@
    "series": "*",
    "assertion": "converter/diff/report scripts derive output roots from their own checkout location; the machine-specific mirror path must never reappear (finding F15)",
    "check": "no_hardcoded_output_root"
+  },
+  {
+   "id": "C13-solution-emission",
+   "series": "*",
+   "assertion": "every MS-linked part carries a non-empty solution_md and its mark_points[] sum exactly to the part marks (v0.5 reveal + Smart Mark layer; LEDGER wave 5)",
+   "check": "solution_fields_consistent"
+  },
+  {
+   "id": "C14-figure-crops",
+   "series": "*",
+   "assertion": "figure crop pass emitted PNGs for at least 100 asset stubs corpus-wide (126 at v0.5), every emitted crop file exists and is non-trivial; pending stubs keep their review entries (v0.5 crop pass)",
+   "check": "figure_crops_present",
+   "min_crops": 100,
+   "min_png_bytes": 1000
   }
  ]
 }

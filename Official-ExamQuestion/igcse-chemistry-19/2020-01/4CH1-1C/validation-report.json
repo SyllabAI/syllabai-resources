@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T21:28:50Z",
+ "generated_utc": "2026-10-20T22:37:43Z",
  "series": "2020-01",
  "gates": [
   {
@@ -55,10 +55,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records (crop-required) cover every table/diagram/grid/apparatus mention; 0 parts without page anchor",
+   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 11 cropped to assets/*.png (150 dpi), 0 remain crop-required; 0 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 0
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 11,
+     "pending": 0
+    }
    }
   },
   {
@@ -77,6 +81,22 @@
     "violations": [],
     "allowed_gaps": [
      "4CH1-3.15C"
+    ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 60/60 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 48 parts, agrees with QP marks on 45",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 48,
+    "ms_marks_agree": 45,
+    "ms_marks_disagree": [
+     "2(a) (ms=12 qp=5)",
+     "5(e)(i) (ms=19 qp=2)",
+     "5(e)(ii) (ms=33 qp=2)"
     ]
    }
   }
@@ -107,38 +127,6 @@
   {
    "part": "7(a)(iii)",
    "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "2(a)",
-   "reason": "figure crop required (table, page 4)"
-  },
-  {
-   "part": "2(b)",
-   "reason": "figure crop required (table, page 5)"
-  },
-  {
-   "part": "4(a)(i)",
-   "reason": "figure crop required (table, page 8)"
-  },
-  {
-   "part": "4(b)(ii)",
-   "reason": "figure crop required (boxes, diagram, page 9)"
-  },
-  {
-   "part": "6(b)",
-   "reason": "figure crop required (diagram, table, page 13)"
-  },
-  {
-   "part": "7(b)(i)",
-   "reason": "figure crop required (table, page 17)"
-  },
-  {
-   "part": "9(d)(i)",
-   "reason": "figure crop required (grid, table, page 25)"
-  },
-  {
-   "part": "9(d)(ii)",
-   "reason": "figure crop required (graph, page 25)"
   }
  ]
 }

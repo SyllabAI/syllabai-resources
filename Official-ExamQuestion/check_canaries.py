@@ -83,6 +83,56 @@ for c in cans:
                 elif "download/syllabai-resources" in p.read_text():
                     print(f"  ! scripts/{rel} still writes to the hardcoded mirror root (F15 regression)")
                     ok = False
+        elif chk == "solution_fields_consistent":
+            # C13 (v0.5): the reveal + Smart Mark layer must be complete and
+            # self-consistent on every series.
+            ok = True
+            n_linked = n_sol = n_mp = n_badsum = 0
+            for d in sorted(BASE.iterdir()):
+                if not (d / "4CH1-1C" / "topic.json").exists():
+                    continue
+                t = json.loads((d / "4CH1-1C" / "topic.json").read_text())
+                for q in t["questions"]:
+                    for p in q["parts"]:
+                        if p.get("answer_status") != "linked":
+                            continue
+                        n_linked += 1
+                        if not p.get("solution_md"):
+                            ok = False
+                            print(f"  ! {d.name} {p['part_number']}: linked but no solution_md")
+                        mp = p.get("mark_points")
+                        if mp:
+                            n_mp += 1
+                            if p.get("marks") is not None and sum(x["marks"] for x in mp) != p["marks"]:
+                                ok = False
+                                n_badsum += 1
+                                print(f"  ! {d.name} {p['part_number']}: mark_points sum != marks")
+            print(f"  (linked parts: {n_linked}, with mark_points: {n_mp}, bad sums: {n_badsum})")
+        elif chk == "figure_crops_present":
+            # C14 (v0.5): the crop pass must keep emitting real PNGs; every
+            # crop reference must resolve to a non-trivial file in the checkout.
+            ok = True
+            n_crops = n_files = 0
+            for d in sorted(BASE.iterdir()):
+                tp = d / "4CH1-1C" / "topic.json"
+                if not tp.exists():
+                    continue
+                t = json.loads(tp.read_text())
+                for q in t["questions"]:
+                    for p in q["parts"]:
+                        for a in p.get("assets") or []:
+                            if a.get("kind") == "crop":
+                                n_crops += 1
+                                f = d / "4CH1-1C" / a.get("path", "")
+                                if not f.exists() or f.stat().st_size < c.get("min_png_bytes", 1000):
+                                    ok = False
+                                    print(f"  ! {d.name} {p['part_number']}: crop file missing/too small: {a.get('path')}")
+                                else:
+                                    n_files += 1
+            if n_crops < c.get("min_crops", 0):
+                ok = False
+                print(f"  ! corpus-wide crops {n_crops} < floor {c.get('min_crops')}")
+            print(f"  (crops: {n_crops}, files verified: {n_files})")
         elif chk == "g0_summary_contains":
             rep, _ = load(series)
             g = next((g for g in rep["gates"] if g["gate"] == "G0-identity"), None)

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T21:29:00Z",
- "generator": "official_examq_extract.py v0.4 (ADR-037) series=2021-06",
+ "generated_utc": "2026-10-20T22:37:47Z",
+ "generator": "official_examq_extract.py v0.5 (ADR-037) series=2021-06",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C",
  "source": {
   "qp_sha256": "f23c24c14501fce4ee42a72a15deb96c84c9e205565683a4d1e8e6084d3fb4af",
@@ -34,15 +34,27 @@
      "problem_md": "Complete the table by choosing substances from the box that match the description. Each substance may be used once, more than once or not at all. Description Substance a good conductor of electricity an element that has a basic oxide a substance used as a fuel a major cause of acid rain a non‑metallic element that is a solid at room temperature",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "ALLOW correct\nInformation Substance formulae\na good conductor of copper\nelectricity\nan element that has a copper\nbasic oxide\na substance used as a methane\nfuel\na major cause of acid sulfur dioxide\nrain\na non-metallic element iodine\nthat is a solid at room\ntemperature",
+     "mark_points": [
+      {
+       "id": "2021-06-1-a-MP1",
+       "marks": 5,
+       "text_md": "ALLOW correct\nInformation Substance formulae\na good conductor of copper\nelectricity\nan element that has a copper\nbasic oxide\na substance used as a methane\nfuel\na major cause of acid sulfur dioxide\nrain\na non-metallic element iodine\nthat is a solid at room\ntemperature"
+      }
+     ],
      "source_page": 3,
      "assets": [
       {
        "id": "asset_1_a_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 3,
-       "review": true
+       "review": false,
+       "path": "assets/asset_1_a_table.png",
+       "render": "vector",
+       "text_coverage": 0.165,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -55,6 +67,19 @@
      "problem_md": "Describe a test for carbon dioxide.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A description which refers to the following points\nM1 bubble/add (the gas/carbon dioxide) into ACCEPT calcium\nlimewater hydroxide\nM2 (limewater) turns cloudy/milky ACCEPT white\nprecipitate\nM2 dep on use of\nlimewater/calcium\nhydroxide in M1\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-1-b-MP1",
+       "marks": 1,
+       "text_md": "bubble/add (the gas/carbon dioxide) into ACCEPT calcium\nlimewater hydroxide"
+      },
+      {
+       "id": "2021-06-1-b-MP2",
+       "marks": 1,
+       "text_md": "(limewater) turns cloudy/milky ACCEPT white\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -77,15 +102,27 @@
      "problem_md": "Complete Table 1 by giving the missing information. Subatomic particle Relative mass Relative charge electron 0.0005 proton +1 neutron 1 Table 1",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "1 mark for each correct\nanswer\nSub-atomic Relative Relative\nparticle mass charge\nACCEPT minus one\nelectron 0.0005 −1 REJECT – unqualified\nproton 1 +1 ACCEPT one\nALLOW +1\nneutron 1 0 ACCEPT zero/none/ no\ncharge",
+     "mark_points": [
+      {
+       "id": "2021-06-2-a-i-MP1",
+       "marks": 3,
+       "text_md": "1 mark for each correct\nanswer\nSub-atomic Relative Relative\nparticle mass charge\nACCEPT minus one\nelectron 0.0005 −1 REJECT – unqualified\nproton 1 +1 ACCEPT one\nALLOW +1\nneutron 1 0 ACCEPT zero/none/ no\ncharge"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
        "id": "asset_2_a_i_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 4,
-       "review": true
+       "review": false,
+       "path": "assets/asset_2_a_i_table.png",
+       "render": "vector",
+       "text_coverage": 0.249,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -98,6 +135,14 @@
      "problem_md": "Give the name of the part of the atom containing protons and neutrons.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "nucleus",
+     "mark_points": [
+      {
+       "id": "2021-06-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "nucleus"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -110,6 +155,14 @@
      "problem_md": "Give the letter of the species that has six electrons in its outer shell.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "U",
+     "mark_points": [
+      {
+       "id": "2021-06-2-b-i-MP1",
+       "marks": 1,
+       "text_md": "U"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -122,6 +175,14 @@
      "problem_md": "Give the mass number of Z.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "25",
+     "mark_points": [
+      {
+       "id": "2021-06-2-b-ii-MP1",
+       "marks": 1,
+       "text_md": "25"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -134,6 +195,14 @@
      "problem_md": "Give the letter of the species that is a positive ion.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "W",
+     "mark_points": [
+      {
+       "id": "2021-06-2-b-iii-MP1",
+       "marks": 1,
+       "text_md": "W"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -146,6 +215,14 @@
      "problem_md": "Give the letters of the two species that are isotopes of the same element.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "Y and Z\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-2-b-iv-MP1",
+       "marks": 1,
+       "text_md": "Y and Z\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -158,6 +235,24 @@
      "problem_md": "A sample of neon contains two isotopes, 20Ne and 22Ne The relative abundances of the two isotopes in the sample are 20 22 Ne 91.2% Ne 8.80% Calculate the relative atomic mass of this sample of neon. Give your answer to one decimal place. relative atomic mass =",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "• sum of masses multiplied by percentages Correct answer of 20.2\n• division by 100 with or without working\n• answer given to 1 decimal place scores 3\nExample calculation\nM1 (91.2 x 20) + (8.80 x 22) OR 2017.6 ACCEPT 2018\nM2 2017.6 ÷ 100 OR 20.176 ACCEPT 20.18\nM3 20.2 OR answer from M2 given to 1d.p.\ncorrect answer without\nworking scores 3\n20.176 and 20.18\nwithout working score 2\n2020 scores M1 and M3\n20 without working\nscores 0\n20 with correct working\nscores 2\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-2-c-MP1",
+       "marks": 1,
+       "text_md": "(91.2 x 20) + (8.80 x 22) OR 2017.6 ACCEPT 2018"
+      },
+      {
+       "id": "2021-06-2-c-MP2",
+       "marks": 1,
+       "text_md": "2017.6 ÷ 100 OR 20.176 ACCEPT 20.18"
+      },
+      {
+       "id": "2021-06-2-c-MP3",
+       "marks": 1,
+       "text_md": "20.2 OR answer from M2 given to 1d.p.\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -187,6 +282,14 @@
      "problem_md": "Name the process that occurs which causes the sugar to spread throughout the water.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "diffusion",
+     "mark_points": [
+      {
+       "id": "2021-06-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "diffusion"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -199,6 +302,14 @@
      "problem_md": "State two ways to make the sugar dissolve more quickly. 1 2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "Any two from ALLOW shake/swirl\nM1 stir (the mixture) ALLOW any description\nof heating\nM2 heat (the mixture)\nM3 grind the sugar or break into smaller pieces or\nincrease its surface area",
+     "mark_points": [
+      {
+       "id": "2021-06-3-a-ii-MP1",
+       "marks": 2,
+       "text_md": "Any two from ALLOW shake/swirl\nM1 stir (the mixture) ALLOW any description\nof heating\nM2 heat (the mixture)\nM3 grind the sugar or break into smaller pieces or\nincrease its surface area"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -211,6 +322,14 @@
      "problem_md": "Name the process used to obtain pure water from the sugar solution.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "(simple) distillation REJECT fractional\ndistillation\nALLOW distilling\nOWTTE",
+     "mark_points": [
+      {
+       "id": "2021-06-3-b-i-MP1",
+       "marks": 1,
+       "text_md": "(simple) distillation REJECT fractional\ndistillation\nALLOW distilling\nOWTTE"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -223,15 +342,32 @@
      "problem_md": "Explain the purpose of the piece of apparatus labelled X.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the following two points\nM1 (water/ vapour/ steam / gas) is cooled\nM2 and condenses OR in the condenser\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-3-b-ii-MP1",
+       "marks": 1,
+       "text_md": "(water/ vapour/ steam / gas) is cooled"
+      },
+      {
+       "id": "2021-06-3-b-ii-MP2",
+       "marks": 1,
+       "text_md": "and condenses OR in the condenser\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
        "id": "asset_3_b_ii_apparatus",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "apparatus",
        "source": "qp.pdf",
        "page": 6,
-       "review": true
+       "review": false,
+       "path": "assets/asset_3_b_ii_apparatus.png",
+       "render": "vector",
+       "text_coverage": 0.129,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -258,6 +394,14 @@
      "problem_md": "Describe how the student should complete the experiment after putting a spot of each food colouring on the paper.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A description including any three of the following M1 and M2 can be\nscored from a labelled\ndiagram\nM1 pour some solvent into a beaker ALLOW any named\n/chromatography tank solvent\nM2 place the paper in the solvent so that the food\ncolourings are above the level of the solvent\nM3 leave the paper until the solvent reaches the\nlevel shown in the diagram/ has moved to near the\ntop of the paper OWTTE\nM4 take the paper out and leave to dry",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-i-MP1",
+       "marks": 3,
+       "text_md": "A description including any three of the following M1 and M2 can be\nscored from a labelled\ndiagram\nM1 pour some solvent into a beaker ALLOW any named\n/chromatography tank solvent\nM2 place the paper in the solvent so that the food\ncolourings are above the level of the solvent\nM3 leave the paper until the solvent reaches the\nlevel shown in the diagram/ has moved to near the\ntop of the paper OWTTE\nM4 take the paper out and leave to dry"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -270,6 +414,14 @@
      "problem_md": "Deduce the number of dyes in food colouring H.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "one/1",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-ii-MP1",
+       "marks": 1,
+       "text_md": "one/1"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -282,6 +434,14 @@
      "problem_md": "Suggest why food colouring F does not move during the experiment.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "(F/it is) insoluble (in the solvent)/ does not dissolve\n(in the solvent)",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-iii-MP1",
+       "marks": 1,
+       "text_md": "(F/it is) insoluble (in the solvent)/ does not dissolve\n(in the solvent)"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -294,6 +454,19 @@
      "problem_md": "Explain which two food colourings contain the dye that is likely to be the most soluble in the solvent.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 E and H\nM2 they contain a dye that moved the furthest\n(distance up the paper)/ is closest to the solvent\nfront / has the greatest Rf value\nM2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-iv-MP1",
+       "marks": 1,
+       "text_md": "E and H"
+      },
+      {
+       "id": "2021-06-4-a-iv-MP2",
+       "marks": 1,
+       "text_md": "they contain a dye that moved the furthest\n(distance up the paper)/ is closest to the solvent\nfront / has the greatest Rf value"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -306,6 +479,24 @@
      "problem_md": "Determine which food colouring contains a dye with Rf value closest to 0.67 Show your working.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 distance moved by solvent = 59-61mm and ALLOW distances in cm\ndistance moved by the dye = 37-41mm e.g. 6cm and 4cm\nIf paper has been\nprinted on A4 distances\nwill be 51-53mm and\n33-37mm\nM2 distance moved by the dye ÷ distance moved by\nthe solvent ≈ 0.67\nM3 (the dye in food colouring) G\nALLOW alternative\nmethods\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-4-b-MP1",
+       "marks": 1,
+       "text_md": "distance moved by solvent = 59-61mm and ALLOW distances in cm\ndistance moved by the dye = 37-41mm e.g. 6cm and 4cm"
+      },
+      {
+       "id": "2021-06-4-b-MP2",
+       "marks": 1,
+       "text_md": "distance moved by the dye ÷ distance moved by\nthe solvent ≈ 0.67"
+      },
+      {
+       "id": "2021-06-4-b-MP3",
+       "marks": 1,
+       "text_md": "(the dye in food colouring) G\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -328,15 +519,27 @@
      "problem_md": "Complete the boxes by giving the missing information about the alkane with the molecular formula C2H6 molecular formula C2H6 name empirical formula displayed formula",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "3\nmolecular formula C 2 H6\nname ethane\nPenalise incorrect use\nempirical formula CH3 of case, superscripts\nH H\ndisplayed formula H−C−C−H\nH H",
+     "mark_points": [
+      {
+       "id": "2021-06-5-a-i-MP1",
+       "marks": 3,
+       "text_md": "3\nmolecular formula C 2 H6\nname ethane\nPenalise incorrect use\nempirical formula CH3 of case, superscripts\nH H\ndisplayed formula H−C−C−H\nH H"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
        "id": "asset_5_a_i_boxes",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "boxes",
        "source": "qp.pdf",
        "page": 10,
-       "review": true
+       "review": false,
+       "path": "assets/asset_5_a_i_boxes.png",
+       "render": "vector",
+       "text_coverage": 0.124,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -349,6 +552,14 @@
      "problem_md": "Complete the chemical equation for the complete combustion of the alkane C2H6 C2H6 + O2 → CO2 + H2O",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "2C2H6 + 7O2  4CO2 + 6H2O ACCEPT multiples and\nfractions",
+     "mark_points": [
+      {
+       "id": "2021-06-5-a-ii-MP1",
+       "marks": 1,
+       "text_md": "2C2H6 + 7O2  4CO2 + 6H2O ACCEPT multiples and\nfractions"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -361,6 +572,14 @@
      "problem_md": "Incomplete combustion occurs when the air supply is limited. Give the names of two products of incomplete combustion. 1 2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "Any two from\nM1 carbon monoxide/CO\nM2 carbon/C ALLOW soot\nM3 water (vapour)/steam/H2O IGNORE carbon dioxide",
+     "mark_points": [
+      {
+       "id": "2021-06-5-a-iii-MP1",
+       "marks": 2,
+       "text_md": "Any two from\nM1 carbon monoxide/CO\nM2 carbon/C ALLOW soot\nM3 water (vapour)/steam/H2O IGNORE carbon dioxide"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -394,6 +613,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "A addition\nB is incorrect as it is not a decomposition reaction\nC is incorrect as no solid precipitate is produced\nD is incorrect as it is not a substitution reaction",
+     "mark_points": [
+      {
+       "id": "2021-06-5-b-i-MP1",
+       "marks": 1,
+       "text_md": "Answer A: addition"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -406,6 +633,19 @@
      "problem_md": "Draw displayed formulae for two different alkenes with the molecular formula C4H8 alkene 1 alkene 2",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "Any two from Do not accept displayed\nformulae of cyclic\nM1 alkanes\nALLOW cis-trans (E/Z)\nM2 isomers of but-2-ene for\nboth marks\nM3",
+     "mark_points": [
+      {
+       "id": "2021-06-5-b-ii-MP1",
+       "marks": 1,
+       "text_md": "alkanes\nALLOW cis-trans (E/Z)"
+      },
+      {
+       "id": "2021-06-5-b-ii-MP2",
+       "marks": 1,
+       "text_md": "isomers of but-2-ene for\nboth marks\nM3"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -418,6 +658,14 @@
      "problem_md": "State the term used for compounds with the same molecular formula but different structural formulae.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "isomers ALLOW isomerism\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-5-b-iii-MP1",
+       "marks": 1,
+       "text_md": "isomers ALLOW isomerism\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -430,6 +678,19 @@
      "problem_md": "Complete the equation for this polymerisation reaction. H CH3 nC C → H H",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "If double bond between\nH CH3 carbon atoms scores 0\nI I\nC−C\nI I\nH H n\nM1 correct repeat unit\nM2 extension bonds, brackets and n after brackets",
+     "mark_points": [
+      {
+       "id": "2021-06-5-c-i-MP1",
+       "marks": 1,
+       "text_md": "correct repeat unit"
+      },
+      {
+       "id": "2021-06-5-c-i-MP2",
+       "marks": 1,
+       "text_md": "extension bonds, brackets and n after brackets"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -442,6 +703,24 @@
      "problem_md": "Two ways of disposing of polymers such as poly(propene) are  burying them in landfill sites  burning them to release heat energy Discuss the environmental problems caused by these two methods of disposal.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A discussion which refers to the following points\nM1 polymers/poly(propene) will remain in landfill\nindefinitely OWTTE\nM2 (as they) are inert /unreactive/do not biodegrade\nM3 burning produces toxic gases ALLOW burning\nproduces greenhouse\ngases\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-5-c-ii-MP1",
+       "marks": 1,
+       "text_md": "polymers/poly(propene) will remain in landfill\nindefinitely OWTTE"
+      },
+      {
+       "id": "2021-06-5-c-ii-MP2",
+       "marks": 1,
+       "text_md": "(as they) are inert /unreactive/do not biodegrade"
+      },
+      {
+       "id": "2021-06-5-c-ii-MP3",
+       "marks": 1,
+       "text_md": "burning produces toxic gases ALLOW burning\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -471,6 +750,14 @@
      "problem_md": "Give three observations that are made when lithium reacts with water. 1 2 3",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "Any 3 from\nM1 effervescence/bubbles/fizzing\nM2 moves moves on surface\nscores M2 and M3\nM3 floats\nM4 disappears/gets smaller ALLOW dissolves\nM5 vapour trail/steam\nIGNORE melts/heat\nproduced\nIGNORE any reference\nto indicators",
+     "mark_points": [
+      {
+       "id": "2021-06-6-a-i-MP1",
+       "marks": 3,
+       "text_md": "Any 3 from\nM1 effervescence/bubbles/fizzing\nM2 moves moves on surface\nscores M2 and M3\nM3 floats\nM4 disappears/gets smaller ALLOW dissolves\nM5 vapour trail/steam\nIGNORE melts/heat\nproduced\nIGNORE any reference\nto indicators"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -483,6 +770,19 @@
      "problem_md": "After the reaction has finished, the teacher adds a few drops of universal indicator to the solution in the trough. Explain the colour of the universal indicator after it is added to the solution.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the following two points\nM1 the universal indicator turns purple/blue\nM2 (because) OH−/hydroxide ions are present ALLOW an alkaline\nsolution /an alkali is\nproduced / a solution\nof high pH is formed",
+     "mark_points": [
+      {
+       "id": "2021-06-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "the universal indicator turns purple/blue"
+      },
+      {
+       "id": "2021-06-6-a-ii-MP2",
+       "marks": 1,
+       "text_md": "(because) OH−/hydroxide ions are present ALLOW an alkaline"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -495,6 +795,19 @@
      "problem_md": "Write a chemical equation for the reaction of lithium with water. .",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "2Li + 2H2O  2LiOH + H2 ALLOW multiples and\nfractions\nM1 all formulae correct\nM2 balancing of correct formulae M2 dep on M1",
+     "mark_points": [
+      {
+       "id": "2021-06-6-a-iii-MP1",
+       "marks": 1,
+       "text_md": "all formulae correct"
+      },
+      {
+       "id": "2021-06-6-a-iii-MP2",
+       "marks": 1,
+       "text_md": "balancing of correct formulae M2 dep on M1"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -507,6 +820,19 @@
      "problem_md": "Explain why the student needs to clean the platinum wire.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the following two points\nM1 to remove any other ions/chemicals/ impurities/\ncontaminants/ compounds/substances (that may be on\nthe wire)\nM2 (so that) they do not interfere with/mask the ALLOW (so that) they\ncolour of the flame do not affect the\nresult (of the test)\nALLOW (remove\nsubstances) that could\ncolour the flame",
+     "mark_points": [
+      {
+       "id": "2021-06-6-b-i-MP1",
+       "marks": 1,
+       "text_md": "to remove any other ions/chemicals/ impurities/\ncontaminants/ compounds/substances (that may be on\nthe wire)"
+      },
+      {
+       "id": "2021-06-6-b-i-MP2",
+       "marks": 1,
+       "text_md": "(so that) they do not interfere with/mask the ALLOW (so that) they\ncolour of the flame do not affect the"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -540,6 +866,14 @@
       }
      ],
      "answer_status": "linked",
+     "solution_md": "D yellow\nA is incorrect as sodium ions do not give a green flame\nB is incorrect as sodium ions do not give a lilac flame\nC is incorrect as sodium ions do not give a red flame\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-6-b-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer D: yellow"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -552,6 +886,14 @@
      "problem_md": "Give the formula of each ion in potassium sulfate. potassium ion sulfate ion",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "K+ and SO42−",
+     "mark_points": [
+      {
+       "id": "2021-06-6-c-i-MP1",
+       "marks": 1,
+       "text_md": "K+ and SO42−"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -564,6 +906,29 @@
      "problem_md": "The melting point of potassium sulfate is 1069 °C. Explain why potassium sulfate has a high melting point. Refer to structure and bonding in your answer.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the following four points\nM1 (potassium sulfate) has a giant (ionic) structure\n/lattice\nM2 electrostatic attraction between oppositely\ncharged ions\nM3 (ionic bonds or forces / attractions between ions) ionic bonds are strong\nare strong scores M3\nM4 a large amount of energy is needed to overcome\nthe forces/break the bonds\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-6-c-ii-MP1",
+       "marks": 1,
+       "text_md": "(potassium sulfate) has a giant (ionic) structure\n/lattice"
+      },
+      {
+       "id": "2021-06-6-c-ii-MP2",
+       "marks": 1,
+       "text_md": "electrostatic attraction between oppositely\ncharged ions"
+      },
+      {
+       "id": "2021-06-6-c-ii-MP3",
+       "marks": 1,
+       "text_md": "(ionic bonds or forces / attractions between ions) ionic bonds are strong\nare strong scores M3"
+      },
+      {
+       "id": "2021-06-6-c-ii-MP4",
+       "marks": 1,
+       "text_md": "a large amount of energy is needed to overcome\nthe forces/break the bonds\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -608,15 +973,27 @@
      "problem_md": "Complete the table by giving the temperatures to the nearest 0.1 °C. temperature of the acid at the start in °C highest temperature reached in °C temperature rise in °C 20.8",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "2\ntemperature of the acid at 22.4\nthe start in oC\nhighest temperature 43.2 ALLOW ECF from\nreached in oC incorrect starting\ntemperature\ntemperature rise in oC 20.8\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-7-b-i-MP1",
+       "marks": 2,
+       "text_md": "2\ntemperature of the acid at 22.4\nthe start in oC\nhighest temperature 43.2 ALLOW ECF from\nreached in oC incorrect starting\ntemperature\ntemperature rise in oC 20.8\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
        "id": "asset_7_b_i_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 16,
-       "review": true
+       "review": false,
+       "path": "assets/asset_7_b_i_table.png",
+       "render": "vector",
+       "text_coverage": 0.297,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -629,6 +1006,19 @@
      "problem_md": "Show that the heat energy change (Q) for this reaction is about 2200 J. [mass of 1.0 cm3 of solution = 1.0 g] [for the solution, c = 4.2 J/g/°C]",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "• substitute correct values into Q = mcΔT Correct answer of 2184\n• evaluation or 2194 without working\nscores 2\nExample calculation\nM1 Q = 25 x 4.2 x 20.8 ALLOW 25.12g for m\nM2 2184 (J) ACCEPT any number of\nsig figs except 1\nALLOW ECF from M1",
+     "mark_points": [
+      {
+       "id": "2021-06-7-b-ii-MP1",
+       "marks": 1,
+       "text_md": "Q = 25 x 4.2 x 20.8 ALLOW 25.12g for m"
+      },
+      {
+       "id": "2021-06-7-b-ii-MP2",
+       "marks": 1,
+       "text_md": "2184 (J) ACCEPT any number of"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -641,6 +1031,29 @@
      "problem_md": "The mass of magnesium used by the student was 0.12 g. Calculate the value of the enthalpy change (ΔH), in kilojoules per mole of magnesium, for the reaction between magnesium and hydrochloric acid. Include a sign in your answer. ΔH = kJ/mol",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "• find the amount of magnesium in moles\n• divide Q by n\n• convert answer in J/mol to kJ/mol\n• answer including sign\nExample calculation\nM1 n(Mg) = 0.12 ÷ 24 OR 0.005(0)\nM2 Q ÷ n OR 2184 ÷ 0.005(0) OR 436,800 (J/mol) ACCEPT use of 2180 or\n2200\nALLOW ECF on\nincorrect answer to (ii)\nand/or M1\nM3 436,800 ÷ 1000 OR 436.8 (kJ/mol) ALLOW ECF on\nincorrect answer to M2\nM4 – 436.8 (kJ/mol) ALLOW ECF on\nincorrect answer to M3\nCorrect answer with\nminus sign and without\nworking scores 4\nCorrect answer without\nminus sign and without\nworking scores 3\nACCEPT any number of\nsig figs except 1\nthroughout (ii)\n-438.8 or-438.9 also\nscores 4 (from 5.12g\nand 2194J in (ii))\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-7-b-iii-MP1",
+       "marks": 1,
+       "text_md": "n(Mg) = 0.12 ÷ 24 OR 0.005(0)"
+      },
+      {
+       "id": "2021-06-7-b-iii-MP2",
+       "marks": 1,
+       "text_md": "Q ÷ n OR 2184 ÷ 0.005(0) OR 436,800 (J/mol) ACCEPT use of 2180 or"
+      },
+      {
+       "id": "2021-06-7-b-iii-MP3",
+       "marks": 1,
+       "text_md": "436,800 ÷ 1000 OR 436.8 (kJ/mol) ALLOW ECF on"
+      },
+      {
+       "id": "2021-06-7-b-iii-MP4",
+       "marks": 1,
+       "text_md": "– 436.8 (kJ/mol) ALLOW ECF on\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -667,6 +1080,39 @@
      "problem_md": "A scientist finds an unlabelled bottle on a shelf. She thinks the bottle contains a solution of ammonium sulfate, (NH4)2SO4 Describe tests the scientist could do to show that the solution is ammonium sulfate.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "A description which refers to the following six\npoints\nTest for ammonium ions:\nM1 add sodium hydroxide (solution) (and warm) ALLOW other alkalis\nM2 test the gas with (damp) (red) litmus No M2 or M3 if solution\npaper/(damp) universal indicator paper tested with litmus/\nuniversal indicator\npaper\nM3 (litmus) turns blue /(universal indicator) turns\nblue/purple (if ammonium ions are present)\nTest for sulfate ions:\nM4 add (dilute hydrochloric/nitric) acid M4 and M5 can be in\neither order\nM5 add barium chloride (solution) /barium nitrate\n(solution)\nM6 white precipitate (if sulfate ions are present)\nNo M4 or M6 if sulfuric\nacid added\nM6 dep on M5",
+     "mark_points": [
+      {
+       "id": "2021-06-8-a-MP1",
+       "marks": 1,
+       "text_md": "add sodium hydroxide (solution) (and warm) ALLOW other alkalis"
+      },
+      {
+       "id": "2021-06-8-a-MP2",
+       "marks": 1,
+       "text_md": "test the gas with (damp) (red) litmus No M2 or M3 if solution\npaper/(damp) universal indicator paper tested with litmus/"
+      },
+      {
+       "id": "2021-06-8-a-MP3",
+       "marks": 1,
+       "text_md": "(litmus) turns blue /(universal indicator) turns\nblue/purple (if ammonium ions are present)\nTest for sulfate ions:"
+      },
+      {
+       "id": "2021-06-8-a-MP4",
+       "marks": 1,
+       "text_md": "add (dilute hydrochloric/nitric) acid M4 and M5 can be in"
+      },
+      {
+       "id": "2021-06-8-a-MP5",
+       "marks": 1,
+       "text_md": "add barium chloride (solution) /barium nitrate\n(solution)"
+      },
+      {
+       "id": "2021-06-8-a-MP6",
+       "marks": 1,
+       "text_md": "white precipitate (if sulfate ions are present)"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -679,6 +1125,14 @@
      "problem_md": "Name the type of reaction that occurs between ammonia and sulfuric acid.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "neutralisation ALLOW acid-base OR\nacid-alkali",
+     "mark_points": [
+      {
+       "id": "2021-06-8-b-i-MP1",
+       "marks": 1,
+       "text_md": "neutralisation ALLOW acid-base OR\nacid-alkali"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -691,6 +1145,14 @@
      "problem_md": "Write a chemical equation for the reaction of ammonia with sulfuric acid.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "2NH3 + H2SO4  (NH4)2SO4 ALLOW multiples",
+     "mark_points": [
+      {
+       "id": "2021-06-8-b-ii-MP1",
+       "marks": 1,
+       "text_md": "2NH3 + H2SO4  (NH4)2SO4 ALLOW multiples"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -703,6 +1165,19 @@
      "problem_md": "Draw a dot‑and‑cross diagram to show the bonding in a molecule of ammonia. Show outer electrons only.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 3 bonding pairs correct\nM2 rest of molecule correct M2 dep on M1\nALLOW any\ncombination of dots and\ncrosses\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-8-b-iii-MP1",
+       "marks": 1,
+       "text_md": "3 bonding pairs correct"
+      },
+      {
+       "id": "2021-06-8-b-iii-MP2",
+       "marks": 1,
+       "text_md": "rest of molecule correct M2 dep on M1\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -738,6 +1213,14 @@
      "problem_md": "State why the mass of the contents of the flask decreases.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "carbon dioxide/a gas is given off/escapes REJECT incorrect gas",
+     "mark_points": [
+      {
+       "id": "2021-06-9-a-i-MP1",
+       "marks": 1,
+       "text_md": "carbon dioxide/a gas is given off/escapes REJECT incorrect gas"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -750,6 +1233,14 @@
      "problem_md": "State the purpose of the cotton wool.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "to prevent acid/ liquid/ solution/ spray from\nleaving the flask OWTTE",
+     "mark_points": [
+      {
+       "id": "2021-06-9-a-ii-MP1",
+       "marks": 1,
+       "text_md": "to prevent acid/ liquid/ solution/ spray from\nleaving the flask OWTTE"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -762,6 +1253,14 @@
      "problem_md": "Explain why sulfuric acid is not a suitable acid to use in this investigation.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links two of the following\nM1 (insoluble) calcium sulfate will form\nM2 which will form a coating/ layer on the marble\nchips\nM3 slowing down/ preventing/ stopping the M3 dep on M1 or M2\nreaction",
+     "mark_points": [
+      {
+       "id": "2021-06-9-a-iii-MP1",
+       "marks": 2,
+       "text_md": "An explanation that links two of the following\nM1 (insoluble) calcium sulfate will form\nM2 which will form a coating/ layer on the marble\nchips\nM3 slowing down/ preventing/ stopping the M3 dep on M1 or M2\nreaction"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -774,15 +1273,27 @@
      "problem_md": "In the investigation the marble chips are in excess. Explain the shape of the graph.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the following four points\nM1 the curve is steep(est) at the start\nM2 because the (acid) concentration is high(est) ALLOW there are the\nmost (acid) particles in\nsolution\nM3 the curve becomes less steep as the solution/ ALLOW the curve\nacid is becoming more dilute becomes less steep as\nthere are fewer acid\nparticles/particles in\nsolution\nM4 the curve levels off/ stops going up when the\nacid has all been used up\nIGNORE references to\nparticles of marble\nchips\nIGNORE references to\nenergy\nOR\nM1 the curve is steep(est) at the start\nM2 because the reaction is fast(est) at the start\nM3 the curve becomes less steep because the\nreaction slows down\nM4 the curve levels off/stops going up when the\nacid has all been used up",
+     "mark_points": [
+      {
+       "id": "2021-06-9-b-i-MP1",
+       "marks": 4,
+       "text_md": "An explanation that links the following four points\nM1 the curve is steep(est) at the start\nM2 because the (acid) concentration is high(est) ALLOW there are the\nmost (acid) particles in\nsolution\nM3 the curve becomes less steep as the solution/ ALLOW the curve\nacid is becoming more dilute becomes less steep as\nthere are fewer acid\nparticles/particles in\nsolution\nM4 the curve levels off/ stops going up when the\nacid has all been used up\nIGNORE references to\nparticles of marble\nchips\nIGNORE references to\nenergy\nOR\nM1 the curve is steep(est) at the start\nM2 because the reaction is fast(est) at the start\nM3 the curve becomes less steep because the\nreaction slows down\nM4 the curve levels off/stops going up when the\nacid has all been used up"
+      }
+     ],
      "source_page": 22,
      "assets": [
       {
        "id": "asset_9_b_i_graph",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "graph",
        "source": "qp.pdf",
        "page": 22,
-       "review": true
+       "review": false,
+       "path": "assets/asset_9_b_i_graph.png",
+       "render": "vector",
+       "text_coverage": 0.142,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -795,6 +1306,19 @@
      "problem_md": "The student repeats the experiment using the same volume of hydrochloric acid but of half the concentration of the original acid. All other conditions are kept the same. On the grid, draw the curve the student would obtain.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 curve drawn starting at the origin and below the\noriginal curve\nM2 curve levels off at 0.27 g + or − half a small\nsquare\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-9-b-ii-MP1",
+       "marks": 1,
+       "text_md": "curve drawn starting at the origin and below the\noriginal curve"
+      },
+      {
+       "id": "2021-06-9-b-ii-MP2",
+       "marks": 1,
+       "text_md": "curve levels off at 0.27 g + or − half a small\nsquare\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -816,6 +1340,14 @@
      "problem_md": "Explain, using particle collision theory, how increasing the temperature affects the rate of a reaction.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "An explanation that links the following four points\nM1 the rate of reaction increases/ the reaction is\nfaster/ the reaction speeds up\nand any three from\nM2 because the particles gain (kinetic) energy /move\nfaster\nM3 there are more collisions per unit time\nM4 more collisions/particles have energy greater than\nthe activation energy\nM5 more collisions are successful\nthere are more frequent\nsuccessful collisions\nscores M3 and M5\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-9-c-MP1",
+       "marks": 4,
+       "text_md": "An explanation that links the following four points\nM1 the rate of reaction increases/ the reaction is\nfaster/ the reaction speeds up\nand any three from\nM2 because the particles gain (kinetic) energy /move\nfaster\nM3 there are more collisions per unit time\nM4 more collisions/particles have energy greater than\nthe activation energy\nM5 more collisions are successful\nthere are more frequent\nsuccessful collisions\nscores M3 and M5\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -845,6 +1377,14 @@
      "problem_md": "Give a reason why hydrogen is passed through the reduction tube until the tube and contents are cool.",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "so that the (hot) lead does not react with ACCEPT so that lead is\noxygen/air (converting back into lead oxide) not oxidised (back to\nlead oxide)",
+     "mark_points": [
+      {
+       "id": "2021-06-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "so that the (hot) lead does not react with ACCEPT so that lead is\noxygen/air (converting back into lead oxide) not oxidised (back to\nlead oxide)"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -857,6 +1397,19 @@
      "problem_md": "Describe what the teacher should do next to make sure all the lead oxide has been reduced to lead. .",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "M1 repeat the heating ACCEPT heat to\nconstant mass for both\nM2 until the mass remains constant/ does not marks\nchange",
+     "mark_points": [
+      {
+       "id": "2021-06-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "repeat the heating ACCEPT heat to"
+      },
+      {
+       "id": "2021-06-10-a-ii-MP2",
+       "marks": 1,
+       "text_md": "until the mass remains constant/ does not marks\nchange"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -869,6 +1422,14 @@
      "problem_md": "Calculate the mass of lead formed. mass of lead = g",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "4.66 (g)",
+     "mark_points": [
+      {
+       "id": "2021-06-10-b-i-MP1",
+       "marks": 1,
+       "text_md": "4.66 (g)"
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
@@ -880,6 +1441,14 @@
      "problem_md": "Calculate the mass of oxygen removed from the lead oxide. mass of oxygen = g",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "0.48 (g)",
+     "mark_points": [
+      {
+       "id": "2021-06-10-b-ii-MP1",
+       "marks": 1,
+       "text_md": "0.48 (g)"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -892,6 +1461,29 @@
      "problem_md": "Determine the empirical formula of the lead oxide. empirical formula of the lead oxide",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "• calculate the moles of lead and oxygen\n• divide by the smaller number\n• calculate the whole number ratio\n• give the empirical formula\nExample calculation\nM1 4.66 and 0.48 OR 0.0225 and 0.03(00) Division by atomic\n207 16 numbers or upside down\ncalculation scores 0\nM2 0.0225 and 0.03(00) OR 1:1.33\n0.0225 0.0225\nM3 1 x 3 and 1.33 x 3 OR 3:4 3:4 ratio without\nworking scores 3\nM4 Pb3O4\nPb3O4 without working\nscores 4\nALLOW ECF from\nincorrect masses.\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-06-10-b-iii-MP1",
+       "marks": 1,
+       "text_md": "4.66 and 0.48 OR 0.0225 and 0.03(00) Division by atomic\n207 16 numbers or upside down"
+      },
+      {
+       "id": "2021-06-10-b-iii-MP2",
+       "marks": 1,
+       "text_md": "0.0225 and 0.03(00) OR 1:1.33\n0.0225 0.0225"
+      },
+      {
+       "id": "2021-06-10-b-iii-MP3",
+       "marks": 1,
+       "text_md": "1 x 3 and 1.33 x 3 OR 3:4 3:4 ratio without"
+      },
+      {
+       "id": "2021-06-10-b-iii-MP4",
+       "marks": 1,
+       "text_md": "Pb3O4\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -904,6 +1496,14 @@
      "problem_md": "Complete the equation for the reaction by adding the state symbols. Pb(NO3)2( ) + 2HCl( ) → PbCl2( ) + 2HNO3( )",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "ALLOW any\nPb(NO3)2 (aq) + 2HCl (aq)  PbCl2 (s) + 2HNO3 (aq) combination of\nuppercase and\nlowercase letters",
+     "mark_points": [
+      {
+       "id": "2021-06-10-c-i-MP1",
+       "marks": 1,
+       "text_md": "ALLOW any\nPb(NO3)2 (aq) + 2HCl (aq)  PbCl2 (s) + 2HNO3 (aq) combination of\nuppercase and\nlowercase letters"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -916,6 +1516,24 @@
      "problem_md": "Show that the maximum mass of lead(II) chloride that can be made from 0.0370 mol of hydrochloric acid is about 5 g. [Mr of PbCl2 = 278] maximum mass = g",
      "choices": [],
      "answer_status": "linked",
+     "solution_md": "• calculate the amount of PbCl2\n• multiply the moles by the Mr of PbCl2\n• evaluation to show that the value is about 5 g\nExample calculation\nM1 n(PbCl2) = 0.0370 OR 0.0185 (mol)\nM2 mass of PbCl2 = 0.0185 x 278 (g) MAX 1 for 0.0370 x 278\nif no division by 2 in M1\nM3 5.143 (g)\nALLOW any number of\nsig figs\n5.1, 5.14 and 5.143 g\nwithout working score 3\n5 g without working\nscores 0\nALLOW alternative\nmethods\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2021-06-10-c-ii-MP1",
+       "marks": 1,
+       "text_md": "n(PbCl2) = 0.0370 OR 0.0185 (mol)"
+      },
+      {
+       "id": "2021-06-10-c-ii-MP2",
+       "marks": 1,
+       "text_md": "mass of PbCl2 = 0.0185 x 278 (g) MAX 1 for 0.0370 x 278"
+      },
+      {
+       "id": "2021-06-10-c-ii-MP3",
+       "marks": 1,
+       "text_md": "5.143 (g)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
