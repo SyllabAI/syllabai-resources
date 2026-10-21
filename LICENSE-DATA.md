@@ -83,3 +83,40 @@ Hussain Khondokar).
 ## Cambridge International syllabus documents (T-SPECS-CIE-1, 2026-10-18)
 
 The `Official-Specifications/cie-*` qualification directories hold official Cambridge International Education syllabus PDFs (IGCSE and AS/A Level editions matching the SME course lanes), downloaded from cambridgeinternational.org with the source URL, edition window and SHA-1 identity recorded per qualification (`spec.json` + `manifest.json`). Syllabus documents are © Cambridge University Press & Assessment; they are publicly provided documents used under the same non-commercial educational course-project posture as the rest of this notice, and no ownership is claimed. Redistribution beyond the pilot is not authorized by this paragraph. Takedown / correction requests: as above — affected material will be removed promptly.
+
+## Amendment 2026-10-22 — Pearson Student Book hosting (operator attestation; the F-BOOK-0001 amendment of record)
+
+The operator (Nawaf Al Hussain Khondokar) attests that he holds the rights to
+host the Pearson Edexcel International GCSE (9-1) Chemistry Student Book for
+the SyllabAI product. Recorded verbatim in-session at the package intake
+run-001, 2026-10-18 (gateway trace `1a14f8bf97b983f1`): **"I have rights on
+hosting"** (the intake covering the student book and the RAG corpora; the
+assertion of record also carried in the consuming repository's
+`packages/contracts/src/books.ts` header since T-MIG-133).
+
+Subject of the attestation — the student-book PDF of record:
+
+- `books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf`
+  (383 pages; sha256 `d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04`,
+  pinned at T-BOOK-010 S0 in the consuming repository's `books/4ch1/meta/book.yaml`).
+
+Consequences of this amendment:
+
+- Hosting this student-book PDF and its page-exact derived surfaces (the
+  chapter slices and the page-anchored interactive rail of the SyllabAI
+  interactive-books pilot — the rail-over-spine posture of
+  `ADR-BOOK-0001` in SyllabAI/syllabai-v2) inside SyllabAI surfaces
+  (including this repository and the authenticated product) is covered by
+  the operator's attestation above.
+- Scope is the student book (textbook) only. Pearson (Edexcel)
+  **examination** material remains unaffected — the ADR-013 license-wall
+  posture stays for exam-board examination content; the SME amendments
+  above are likewise untouched in their subject matter.
+- The non-commercial educational pilot posture, provenance law and
+  takedown handling stated above remain in force unchanged.
+- Bookkeeping of record: this amendment discharges **F-BOOK-0001**
+  (SyllabAI/syllabai-v2 → `books/4ch1/qa/findings.jsonl`), the release gate
+  of ADR-BOOK-0001 §4 ("no full-book launch (Phase C flip) until
+  `LICENSE-DATA.md` carries a Student-Book amendment").
+- Operator follow-ups (not blockers): retain the underlying permission
+  documentation on file.
