@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
- "converter_version_floor": "0.8",
+ "converter_version_floor": "0.9.0",
  "canaries": [
   {
    "id": "C3-baseline-unchanged",
@@ -240,6 +240,163 @@
    "series": "*",
    "assertion": "spec tagging is terminal on the spec-labelled 1C tranche: zero pending-llm parts there; every no-spec-point part has a matching no_spec_point entry in its series spec-labels file, and every entry resolves to a real part carrying no codes (finding F38)",
    "check": "spec_tag_terminal"
+  },
+  {
+   "id": "C33-2c-spec-tag-terminal",
+   "series": "*",
+   "paper": "2C",
+   "assertion": "spec tagging is terminal on the 2C tranche after its first wave (F40 wave): 0 pending-llm parts across all 16 2C slices, and the no-spec-point state agrees bidirectionally with the <series>-2C.json label files",
+   "check": "spec_tag_terminal"
+  },
+  {
+   "id": "C34-2c-stem-table-2022-06",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "7(d)(i) 'the table' resolves to the REAL bond-energy table via the 7(d) group stem (asset_7_d_table_stem, p18) as a shared ref — not the p19 energy diagram the v0.8.1 own-page rescue cropped (F40c)",
+   "check": "asset_state",
+   "part": "7(d)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_7_d_table_stem",
+   "page": 18
+  },
+  {
+   "id": "C35-2c-stem-table-2024-11",
+   "series": "2024-11",
+   "paper": "2C",
+   "assertion": "5(b)(i) 'Complete the table' resolves to the results table via the group stem (asset_5_b_table_stem, p13) — not the p12 burette diagram the v0.8.1 adjacent fallback stole (F40c)",
+   "check": "asset_state",
+   "part": "5(b)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_5_b_table_stem",
+   "page": 13
+  },
+  {
+   "id": "C36-2c-stem-table-2023-01",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "7(b)(i) 'the table' resolves to the bond-energy table via the group stem (asset_7_b_table_stem, p24) — not the p23 hydrazine displayed-formula circles (F40c)",
+   "check": "asset_state",
+   "part": "7(b)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_7_b_table_stem",
+   "page": 24
+  },
+  {
+   "id": "C37-2c-stem-table-2023-11",
+   "series": "2023-11",
+   "paper": "2C",
+   "assertion": "7(d)(i) 'the values in the table' resolves to the bond-energy table via the group stem (asset_7_d_table_stem, p22) — v0.8.1 stubbed it (F40c)",
+   "check": "asset_state",
+   "part": "7(d)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_7_d_table_stem",
+   "page": 22
+  },
+  {
+   "id": "C38-2c-axis-rescue-2021-11",
+   "series": "2021-11",
+   "paper": "2C",
+   "assertion": "7(c) 'Draw an energy level diagram' crops the printed Energy axis scaffold on its own page (p23) — v0.8.1 stole the 7(b) bond table via the adjacent whole-stem fallback (F40a/F40d)",
+   "check": "asset_state",
+   "part": "7(c)",
+   "kind": "crop",
+   "page": 23,
+   "path_contains": "asset_7_c_diagram"
+  },
+  {
+   "id": "C39-2c-axis-rescue-2025-06",
+   "series": "2025-06",
+   "paper": "2C",
+   "assertion": "2(e) 'Draw a reaction profile diagram' crops the printed Energy axis scaffold on p7 — v0.8.1 stole the Q2 stem apparatus (F40a/F40d)",
+   "check": "asset_state",
+   "part": "2(e)",
+   "kind": "crop",
+   "page": 7,
+   "path_contains": "asset_2_e_diagram"
+  },
+  {
+   "id": "C40-2c-axis-rescue-2019-06",
+   "series": "2019-06",
+   "paper": "2C",
+   "assertion": "5(c) 'Draw an energy level diagram' crops the printed energy axis scaffold on p12 (archive-damaged series still resolves) (F40d)",
+   "check": "asset_state",
+   "part": "5(c)",
+   "kind": "crop",
+   "page": 12,
+   "path_contains": "asset_5_c_diagram"
+  },
+  {
+   "id": "C41-2c-pua-anchor-2022-01",
+   "series": "2022-01",
+   "paper": "2C",
+   "assertion": "6(a)(iii) 'the graph' gets its page anchor despite the PUA bullets in problem_md (F40e) and resolves UP to the printed plotting grid on p21 (F40b) — v0.8.1 stubbed it with page=None",
+   "check": "asset_state",
+   "part": "6(a)(iii)",
+   "kind": "crop",
+   "page": 21,
+   "path_contains": "asset_6_a_iii_graph"
+  },
+  {
+   "id": "C42-2c-anchor-2022-06",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "3(c) 'The table shows...' (sentence-initial noun) anchors ABOVE its printed electronic-configuration table on p6 — the v0.8.1 2-word probe landed on the instruction line and stubbed it (F40f)",
+   "check": "asset_state",
+   "part": "3(c)",
+   "kind": "crop",
+   "page": 6,
+   "path_contains": "asset_3_c_table"
+  },
+  {
+   "id": "C43-2c-anchor-2023-11",
+   "series": "2023-11",
+   "paper": "2C",
+   "assertion": "3(c) 'The diagram represents...' crops the pure-Al/alloy particle diagram on p9 — v0.8.1 stubbed it (F40f)",
+   "check": "asset_state",
+   "part": "3(c)",
+   "kind": "crop",
+   "page": 9,
+   "path_contains": "asset_3_c_diagram"
+  },
+  {
+   "id": "C44-2c-anchor-2025-11",
+   "series": "2025-11",
+   "paper": "2C",
+   "assertion": "6(b) 'The table gives some bond energies' crops the printed table on p19 — v0.8.1 stubbed it (F40f)",
+   "check": "asset_state",
+   "part": "6(b)",
+   "kind": "crop",
+   "page": 19,
+   "path_contains": "asset_6_b_table"
+  },
+  {
+   "id": "C45-2c-mention-suppressed-2026-06",
+   "series": "2026-06",
+   "paper": "2C",
+   "assertion": "4(c) 'Include suitable calculations and apparatus in your answer' carries NO asset — the 'apparatus in your answer' mention is student-provided, never a printed figure (F40g)",
+   "check": "asset_state",
+   "part": "4(c)",
+   "empty": true
+  },
+  {
+   "id": "C46-2c-ms-linkage-2021-01",
+   "series": "2021-01",
+   "paper": "2C",
+   "assertion": "1(b) links to the MS block the printed MS sub-numbered '1 (b) (i)' (marks-matched single-part fallback, F40h) — v0.8.1 left it unmatched",
+   "check": "part_linked",
+   "part": "1(b)"
+  },
+  {
+   "id": "C47-2c-ms-linkage-2025-06",
+   "series": "2025-06",
+   "paper": "2C",
+   "assertion": "1(b)(ii) links to the MS row printed '(II)' — roman-numeral case normalization (F40i) — and carries the adjudicated-by-layout solution block; v0.8.1 left it unmatched",
+   "check": "part_linked",
+   "part": "1(b)(ii)"
   }
  ]
 }

@@ -875,6 +875,15 @@ A student uses this apparatus to record the maximum temperature in the reaction 
 
 Name a suitable piece of apparatus to add 25 cm3 of solution to the beaker. 
 
+
+**Mark scheme answer**
+
+> measuring cylinder ALLOW burette /
+> pipette /syringe
+> REJECT gas syringe
+
+- **(1)** measuring cylinder ALLOW burette /
+
 ### 10(b)(i) [4]
 
 Calculate the theoretical maximum temperature reached by the mixture, which has a mass of 50 g. [specific heat capacity of mixture, c = 4.2 J / g / °C] temperature = °C

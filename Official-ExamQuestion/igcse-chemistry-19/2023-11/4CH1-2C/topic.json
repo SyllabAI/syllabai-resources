@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T15:37:45Z",
- "generator": "official_examq_extract.py v0.8.1 (ADR-037) series=2023-11 paper=2C",
+ "generated_utc": "2026-10-21T18:28:35Z",
+ "generator": "official_examq_extract.py v0.9.0 (ADR-037) series=2023-11 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-11:4CH1/2C",
  "source": {
   "qp_sha256": "240272b2a0e8b434c99b19434a629a01eabfa25788fd8ce48f8465675f61841a",
@@ -65,8 +65,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.15"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(b)",
@@ -106,8 +108,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.38"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(c)",
@@ -147,8 +151,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.5"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(d)",
@@ -189,8 +195,10 @@
        "text_coverage": 0.423
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.7"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {}
@@ -219,8 +227,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.11"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(a)(ii)",
@@ -239,8 +249,11 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.25",
+      "4CH1-2.11"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(a)(iii)",
@@ -264,8 +277,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.10"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(b)",
@@ -308,8 +323,10 @@
        "ref_part": "asset_2_b_apparatus_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.10"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(c)",
@@ -328,8 +345,10 @@
      ],
      "source_page": 7,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.9"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {}
@@ -358,8 +377,10 @@
      ],
      "source_page": 8,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.23C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)",
@@ -378,8 +399,10 @@
      ],
      "source_page": 8,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.25C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(c)",
@@ -410,15 +433,21 @@
      "assets": [
       {
        "id": "asset_3_c_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 9,
-       "review": true
+       "review": false,
+       "path": "assets/asset_3_c_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.087,
+       "review_verdict": "accepted"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.26C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {}
@@ -447,8 +476,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.8"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(b)",
@@ -467,8 +498,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.8"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(c)(i)",
@@ -501,8 +534,10 @@
        "ref_part": "asset_4_c_graph_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.8"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(c)(ii)",
@@ -529,6 +564,7 @@
        "text_md": "the second line shows that (there is no ALLOW the second line\nfurther reaction and) the cool sodium hydroxide shows that there is no\nsolution decreases the temperature OWTTE further reaction as the"
       }
      ],
+     "source_page": 11,
      "assets": [
       {
        "id": "asset_4_c_ii_graph",
@@ -544,8 +580,11 @@
        "ref_part": "asset_4_c_graph_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.1",
+      "4CH1-3.8"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(d)",
@@ -579,8 +618,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.3"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -618,8 +659,10 @@
      ],
      "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.36C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(a)(ii)",
@@ -643,8 +686,10 @@
      ],
      "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.36C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(b)(i)",
@@ -663,8 +708,10 @@
      ],
      "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.39C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(b)(ii)",
@@ -704,8 +751,10 @@
      ],
      "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.41C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(i)",
@@ -724,8 +773,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.49C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(ii)",
@@ -744,8 +795,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.49C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(iii)",
@@ -769,8 +822,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.49C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(d)",
@@ -789,8 +844,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.50C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -840,10 +897,11 @@
        "mention": "apparatus",
        "source": "qp.pdf",
        "page": 16,
-       "review": true,
+       "review": false,
        "path": "assets/asset_6_a_apparatus.png",
        "render": "vector",
-       "text_coverage": 0.067
+       "text_coverage": 0.067,
+       "review_verdict": "accepted"
       },
       {
        "id": "asset_6_a_diagram",
@@ -859,8 +917,10 @@
        "ref_part": "6(a)"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.33C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(b)",
@@ -879,8 +939,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.28"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(c)(i)",
@@ -909,8 +971,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.34C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(c)(ii)",
@@ -934,8 +998,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.35C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(d)",
@@ -964,8 +1030,10 @@
      ],
      "source_page": 18,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.48"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -1003,8 +1071,10 @@
      ],
      "source_page": 20,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.56C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(b)(i)",
@@ -1023,8 +1093,10 @@
      ],
      "source_page": 21,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.59C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(b)(ii)",
@@ -1043,8 +1115,10 @@
      ],
      "source_page": 21,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.59C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(c)(i)",
@@ -1063,8 +1137,10 @@
      ],
      "source_page": 21,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.44"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(c)(ii)",
@@ -1083,8 +1159,10 @@
      ],
      "source_page": 21,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.58C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(d)(i)",
@@ -1115,15 +1193,22 @@
      "assets": [
       {
        "id": "asset_7_d_i_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 22,
-       "review": true
+       "review": false,
+       "path": "assets/asset_7_d_table_stem.png",
+       "render": "vector",
+       "text_coverage": 0.35,
+       "shared": true,
+       "ref_part": "asset_7_d_table_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.7C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(d)(ii)",
@@ -1166,8 +1251,10 @@
        "ref_part": "asset_7_d_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.5C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {

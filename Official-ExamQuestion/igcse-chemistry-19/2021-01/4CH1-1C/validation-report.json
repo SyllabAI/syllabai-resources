@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T15:37:25Z",
+ "generated_utc": "2026-10-21T18:28:17Z",
  "series": "2021-01",
  "paper": "1C",
  "gates": [
@@ -64,12 +64,9 @@
   {
    "gate": "G5-answer-linkage",
    "status": "PASS",
-   "summary": "MS linkage 51/53 (96%)",
+   "summary": "MS linkage 53/53 (100%)",
    "details": {
-    "unmatched": [
-     "3(a)",
-     "3(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -86,12 +83,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 51/51 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 47 parts, agrees with QP marks on 46",
+   "summary": "solution_md on 53/53 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 49 parts, agrees with QP marks on 48",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 47,
-    "ms_marks_agree": 46,
+    "ms_marks_seen": 49,
+    "ms_marks_agree": 48,
     "ms_marks_disagree": [
      "8(c)(ii) (ms=2 qp=1)"
     ]
@@ -116,16 +113,7 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "3(a)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(b)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "source_defects": {
   "image_only_pages": [
    16,

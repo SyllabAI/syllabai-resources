@@ -163,9 +163,39 @@ Lead nitrate and potassium iodide react to form the insoluble solid lead iodide.
 
 Name the two processes that occur before the solid lead iodide forms. 1 2
 
+
+**Mark scheme answer**
+
+> M1 dissolving Answers can be in
+> either order
+> M2 diffusion
+
+- **(1)** dissolving Answers can be in
+- **(1)** diffusion
+
 ### 3(b) [2]
 
 Explain why solid lead iodide takes less time to form when the reaction is repeated using water at a higher temperature.
+
+
+**Mark scheme answer**
+
+> An explanation that links any two of the following
+> points
+> M1 crystals dissolve faster
+> ALLOW (potassium
+> M2 (potassium iodide/ lead nitrate/ water) particles iodide /lead nitrate/
+> move faster / (lead/ iodide) ions move faster / rate of water) particles have
+> diffusion increases more energy
+> ALLOW molecules in
+> place of particles if
+> referring to water
+> M3 therefore (lead and iodide) ions/ particles meet / IGNORE references to
+> collide after a shorter period of time/ sooner more collisions or
+> more energetic
+> collisions
+
+- **(2)** An explanation that links any two of the following
 
 ### 3(c)(i) [1]
 

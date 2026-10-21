@@ -140,7 +140,7 @@ What is the atomic number of P in table 2? 
 - **(C)** 4
 - **(D)** 7
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_2_b_table_stem](assets/asset_2_b_table_stem.png)
+![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_i_table.png)
 
 
 **Mark scheme answer**
@@ -161,7 +161,7 @@ What is the mass number of U in table 2?
 - **(C)** 18
 - **(D)** 26
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_2_b_table_stem](assets/asset_2_b_table_stem.png)
+![table — official paper figure (qp.pdf p.6) — shared with 2(b)(i)](assets/asset_2_b_i_table.png)
 
 
 **Mark scheme answer**
@@ -177,7 +177,7 @@ What is the mass number of U in table 2?
 
 Give the letter in table 2 that represents an element in Group 5 of the Periodic Table.
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_2_b_table_stem](assets/asset_2_b_table_stem.png)
+![table — official paper figure (qp.pdf p.6) — shared with 2(b)(i)](assets/asset_2_b_i_table.png)
 
 
 **Mark scheme answer**

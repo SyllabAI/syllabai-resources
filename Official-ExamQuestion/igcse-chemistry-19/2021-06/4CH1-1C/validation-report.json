@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T15:37:28Z",
+ "generated_utc": "2026-10-21T18:28:19Z",
  "series": "2021-06",
  "paper": "1C",
  "gates": [
@@ -65,11 +65,9 @@
   {
    "gate": "G5-answer-linkage",
    "status": "PASS",
-   "summary": "MS linkage 53/54 (98%)",
+   "summary": "MS linkage 54/54 (100%)",
    "details": {
-    "unmatched": [
-     "7(a)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -86,12 +84,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 53/53 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 50 parts, agrees with QP marks on 50",
+   "summary": "solution_md on 54/54 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 51 parts, agrees with QP marks on 51",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 50,
-    "ms_marks_agree": 50,
+    "ms_marks_seen": 51,
+    "ms_marks_agree": 51,
     "ms_marks_disagree": []
    }
   }
@@ -118,10 +116,6 @@
   {
    "part": "8(b)(iii)",
    "reason": "figure crop required (diagram, page 19)"
-  },
-  {
-   "part": "7(a)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "source_defects": {

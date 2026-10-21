@@ -62,7 +62,17 @@ Name the technique used to separate crude oil into fractions.
 > fractional distillation ALLOW fractionating /
 > fractionation
 > IGNORE distillation alone
-> (II) aircraft fuel / jet fuel / (aero)plane fuel must mention fuels, not just
+
+- **(1)** fractional distillation ALLOW fractionating /
+
+### 1(b)(ii) [1]
+
+Give one use of the kerosene fraction.
+
+
+**Mark scheme answer**
+
+> aircraft fuel / jet fuel / (aero)plane fuel must mention fuels, not just
 > /aviation fuel aircraft etc.
 > ALLOW fuel for lamps/for
 > heaters/ for stoves
@@ -70,11 +80,7 @@ Name the technique used to separate crude oil into fractions.
 > Answer Notes Marks
 > number
 
-- **(1)** fractional distillation ALLOW fractionating /
-
-### 1(b)(ii) [1]
-
-Give one use of the kerosene fraction.
+- **(1)** aircraft fuel / jet fuel / (aero)plane fuel must mention fuels, not just
 
 
 ## Question 2 (13 marks)
@@ -153,7 +159,7 @@ Explain why increasing the temperature of the hydrochloric acid affects the rate
 
 Draw a reaction profile diagram for the reaction, showing ΔH and activation energy. Label the reactants and products. Energy
 
-![diagram — official paper figure (qp.pdf p.6)](assets/asset_2_e_diagram.png)
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_2_e_diagram.png)
 
 
 **Mark scheme answer**

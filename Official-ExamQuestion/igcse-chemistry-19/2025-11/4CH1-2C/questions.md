@@ -565,7 +565,7 @@ The equation shows one of the possible substitution reactions that occurs during
 
 Complete the reaction profile diagram to show the levels of the reactants, the products and the activation energy, Ea . energy 
 
-> 🖼 crop required: diagram (qp.pdf p.18)
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_a_diagram.png)
 
 
 **Mark scheme answer**
@@ -590,7 +590,7 @@ Complete the reaction profile diagram to show the levels of the reactants, the p
 
 The table gives some bond energies. Bond C H Cl Cl H Cl Bond energy in kJ / mol 414 242 431 Using information from the equation and the table, calculate the bond energy of the C Cl bond. C Cl bond energy = kJ / mol
 
-> 🖼 crop required: table (qp.pdf p.19)
+![table — official paper figure (qp.pdf p.19)](assets/asset_6_b_table.png)
 
 
 **Mark scheme answer**

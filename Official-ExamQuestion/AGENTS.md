@@ -130,12 +130,15 @@ spec-labels file's `no_spec_point` map, verified bidirectionally by C32),
 (a code not in the SME registry; G6 routes it to the review queue). G6 re-validates
 every code against `spec_point_resolution.json` on every run. 1C coverage after
 v0.8.1: 927/930 parts tagged (1,180 codes, 0 invalid) + 3 terminal no-spec-point
-parts (2019-06 5(a), 2020-01 10(c)(ii), 2022-01 3(b)(iv)); 0 pending. 2C: no wave
-exists yet, all 607 parts honestly `pending-llm`.
+parts (2019-06 5(a), 2020-01 10(c)(ii), 2022-01 3(b)(iv)); 0 pending. 2C coverage
+after its first wave (v0.9.0): 607/607 parts resolved — 584 tagged (0 invalid
+codes) + 23 terminal no-spec-point parts (safety precautions, fuel/ester
+property-definitions, investigation-design and graph-skills parts — each decided
+against the published spec PDF and documented in the `<series>-2C.json`
+`no_spec_point` maps); 0 pending. C33 pins the 2C terminal state.
 To extend tagging: append codes to the per-series spec-labels file (part_number
 → [codes]; 1C files are `spec-labels/<series>.json`, other papers use
-`spec-labels/<series>-<paper>.json` — no 2C wave exists yet, all 607 2C parts
-are honestly `pending-llm`), re-run, and let G6 judge.
+`spec-labels/<series>-<paper>.json`), re-run, and let G6 judge.
 
 ## MCQ-key adjudication ledger (v0.8.1)
 
@@ -167,6 +170,9 @@ variants (F34) — verdict homes never collide across papers. Verdict vocabulary
 Any other verdict/kind pairing fails closed (C22 flags it). Drawn scaffolds
 (overlapping electron shells printed as vector circles) are NOT stubs — the
 converter crops them (F32) and the fresh crop is eyeballed like any other.
+The ledger holds 25 1C verdicts + 17 2C verdicts under ten `<series>:2C` homes
+(v0.9.0); stem-table crops are verified via canaries C34-C37 (verdicts apply to
+part-attached assets only).
 
 ## Review queue taxonomy (what humans decide; agents must NOT decide)
 
@@ -223,7 +229,7 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues (v0.8.1 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
+- Human review queues (v0.9.0 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
   the printed MS itself misplaces the answer rows (a source-document defect), so
   the two refused keys were human-adjudicated against the rendered MS page into
   MCQ-KEYS.json (7(a)(ii)=C chlorine, 7(a)(iii)=A astatine; the 7(a)(i) block
@@ -232,14 +238,14 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   decided as `no-spec-point` — the official 4CH1 spec gives no numbered point
   for hydrogen density (airship), NO-recycling in the nitric acid process, or
   safety precautions (verified against the published spec PDF); entries live in
-  the series spec-labels files and C32 pins them (F38; 2C's 607 parts still
-  await their first wave). Crop review is EMPTY (1C): the
+  the series spec-labels files and C32 pins them (F38; 2C's 607 parts were resolved by their first wave (v0.9.0): 584 tagged + 23 terminal no-spec-point; C33 pins it). Crop review is EMPTY (1C): the
   wave-10 sweep eyeballed every flagged crop and stub against its source page —
   19 accepted crops + 6 stub-accepted text-only dot-and-cross scaffolds
   (2020-11 5(b)(iv), 2021-06 8(b)(iii), 2023-11 6(b), 2024-06 7(b), 2025-06
   9(a)(i), 2026-06 6(b)) live in CROP-REVIEW.json (25 verdicts); NEW converter
   flags after any crop-pass change still need eyeballs before a ledger verdict
-  (2C's 22 figure items included — see the F34 follow-ups below).
+  (2C's 22 figure items were eyeballed in the v0.9.0 wave — 17 verdicts under
+  `<series>:2C` homes, 12 re-emitted crops re-viewed; see the F34 follow-ups).
   Bookkeeping note: v0.7's AGENTS.md said "17 review-flagged crops" — a mid-wave
   count; the shipped v0.7 queue was 7 stubs (the wave's ledger had already
   cleared the crop flags), now all 6 remaining stubs are stub-accepted and
@@ -249,14 +255,16 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 - 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5
   rasterized content pages, then re-run gates (G1 must return to PASS with 110/110).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
-- 2C follow-ups (F34 wave): (a) eyeball the 22 review-queue figure items and
-  record verdicts in CROP-REVIEW.json under `<series>:2C` keys; (b) author the
-  2C spec-label waves (`spec-labels/<series>-2C.json`, labels only, G6 judges);
-  (c) the repo parsed/ layer is 1C-only — a 2C parsed layer would unlock the
-  independent-parse cross-diff for 2C; (d) the remaining GO'd variants (1CR ×11,
-  2CR ×11) run on the same kit via `--paper 1CR/2CR` once their totals/counts
-  are footer-verified into `PAPER_TOTALS`/`EXPECT_QUESTIONS` and any layout
-  findings go through the loop.
+- 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
+  were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under
+  `<series>:2C` keys (F40 documents the 9 defect mechanisms behind them);
+  (b) DONE v0.9.0 — the 2C spec-label waves are authored
+  (`spec-labels/<series>-2C.json`, labels only, G6 judges; 607/607 resolved,
+  C33 pins the terminal state); (c) the repo parsed/ layer is 1C-only — a 2C
+  parsed layer would unlock the independent-parse cross-diff for 2C; (d) the
+  remaining GO'd variants (1CR ×11, 2CR ×11) run on the same kit via
+  `--paper 1CR/2CR` once their totals/counts are footer-verified into
+  `PAPER_TOTALS`/`EXPECT_QUESTIONS` and any layout findings go through the loop.
 - Serving semantics (v0.6): `assets[]` entries are `kind: "crop"` (real PNG under
   `path`), or `kind: "crop"` with `shared: true` + `ref_part` (a reference to the
   part/stem figure that already owns the PNG — render the referenced `path`, do

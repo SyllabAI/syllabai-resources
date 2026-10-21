@@ -807,7 +807,7 @@ Show by calculation that the heat energy (Q) supplied by the pentanol is approxi
 
 The table gives the initial and final mass readings. Initial mass of spirit burner and pentanol in g 90.11 Final mass of spirit burner and pentanol in g 89.75 Use your answer to part (c)(i) and the information in the table to calculate the molar enthalpy change (ΔH) of combustion, in kJ / mol, for pentanol. [for pentanol, Mr = 88] Include a sign in your answer. ΔH for pentanol = kJ / mol
 
-![table — official paper figure (qp.pdf p.22) — shared with 8(b)](assets/asset_8_b_table.png)
+![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_ii_table.png)
 
 
 **Mark scheme answer**

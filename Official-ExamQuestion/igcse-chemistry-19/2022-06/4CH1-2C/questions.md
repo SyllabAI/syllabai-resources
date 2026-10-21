@@ -235,7 +235,7 @@ Which halogen is a solid at room temperature?
 
 The table shows the electronic configurations of a fluorine atom and a chlorine atom. Electronic configuration fluorine 2.7 chlorine 2.8.7 Explain the relative reactivities of fluorine and chlorine using the information in the table. 
 
-> 🖼 crop required: table (qp.pdf p.6)
+![table — official paper figure (qp.pdf p.6)](assets/asset_3_c_table.png)
 
 
 **Mark scheme answer**
@@ -701,7 +701,7 @@ The data book value of ΔH for the combustion of ethanol is –1367 kJ/mol. Give
 
 Calculate the bond energy of the C H bond, using information from the equation and the table. C H bond energy = kJ/mol
 
-![table — official paper figure (qp.pdf p.19)](assets/asset_7_d_i_table.png)
+![table — official paper figure (qp.pdf p.18) — shared with asset_7_d_table_stem](assets/asset_7_d_table_stem.png)
 
 
 **Mark scheme answer**
@@ -727,7 +727,7 @@ Calculate the bond energy of the C H bond, using information from the equation a
 
 Complete the energy level diagram to show the products and ΔH. Energy CH4 + 2O2
 
-![diagram — official paper figure (qp.pdf p.19) — shared with 7(d)(i)](assets/asset_7_d_i_table.png)
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_7_d_ii_diagram.png)
 
 
 **Mark scheme answer**

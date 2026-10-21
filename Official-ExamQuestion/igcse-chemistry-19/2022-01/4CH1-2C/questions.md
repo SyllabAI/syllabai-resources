@@ -567,7 +567,7 @@ Draw a curve of best fit. 0.50 0.40 0.30 Increase in mass in grams 0.20 0.10 0 1
 
 Explain the shape of the graph. 
 
-> 🖼 crop required: graph (qp.pdf p.None)
+![graph — official paper figure (qp.pdf p.21)](assets/asset_6_a_iii_graph.png)
 
 
 **Mark scheme answer**

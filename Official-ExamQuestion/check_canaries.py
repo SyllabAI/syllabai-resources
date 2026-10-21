@@ -272,22 +272,26 @@ for c in cans:
             print(f"  (ledger entries: {len(ledger)}, applied: {n_applied})")
         elif chk == "spec_tag_terminal":
             # C32 (v0.8.1/F38): spec tagging is terminal on the spec-labelled 1C
-            # tranche (2C awaits its first spec-label wave and may carry
-            # pending-llm). Zero pending-llm parts among 1C slices; the
+            # tranche. Zero pending-llm parts among 1C slices; the
             # no-spec-point state must agree bidirectionally with the series
             # spec-labels files, and every entry must resolve to a real part
             # carrying no codes.
+            # v0.9 (F40 wave): paper-aware — the 2C tranche runs the same check
+            # with paper=2C and the '<series>-2C.json' label files (C33) after
+            # its first wave; 1C stays the legacy default.
+            paper = c.get("paper", "1C")
+            suffix = "" if paper == "1C" else f"-{paper}"
             ok = True
             n_pending = n_nospec = 0
             nsp_by_series = {}
             for d in sorted(BASE.iterdir()):
                 if not d.is_dir():
                     continue
-                pd = d / "4CH1-1C"
+                pd = d / f"4CH1-{paper}"
                 if not (pd / "topic.json").exists():
                     continue
                 s = d.name
-                lp = HERE / "spec-labels" / f"{s}.json"
+                lp = HERE / "spec-labels" / f"{s}{suffix}.json"
                 lab = json.loads(lp.read_text()) if lp.exists() else {}
                 nsp_by_series[s] = set((lab.get("no_spec_point") or {}).keys())
                 t = json.loads((pd / "topic.json").read_text())
@@ -296,28 +300,38 @@ for c in cans:
                         if p.get("tagging") == "pending-llm":
                             ok = False
                             n_pending += 1
-                            print(f"  ! 1C {s} {p['part_number']}: still pending-llm")
+                            print(f"  ! {paper} {s} {p['part_number']}: still pending-llm")
                         if p.get("tagging") == "no-spec-point":
                             n_nospec += 1
                             if p["part_number"] not in nsp_by_series[s]:
                                 ok = False
-                                print(f"  ! 1C {s} {p['part_number']}: no-spec-point without a labels-file entry")
+                                print(f"  ! {paper} {s} {p['part_number']}: no-spec-point without a labels-file entry")
             for s, parts in nsp_by_series.items():
                 if not parts:
                     continue
-                t = json.loads((BASE / s / "4CH1-1C" / "topic.json").read_text())
+                t = json.loads((BASE / s / f"4CH1-{paper}" / "topic.json").read_text())
                 pn = {p["part_number"] for q in t["questions"] for p in q["parts"]}
                 for part in parts:
                     if part not in pn:
                         ok = False
-                        print(f"  ! 1C {s}: no_spec_point entry {part} does not resolve to a part")
+                        print(f"  ! {paper} {s}: no_spec_point entry {part} does not resolve to a part")
                     else:
                         got = [p for q in t["questions"] for p in q["parts"]
                                if p["part_number"] == part][0]
                         if got.get("spec_point_codes"):
                             ok = False
-                            print(f"  ! 1C {s} {part}: labelled no-spec-point but carries codes")
-            print(f"  (1C pending-llm: {n_pending}, no-spec-point: {n_nospec})")
+                            print(f"  ! {paper} {s} {part}: labelled no-spec-point but carries codes")
+            print(f"  ({paper} pending-llm: {n_pending}, no-spec-point: {n_nospec})")
+        elif chk == "part_linked":
+            # C46/C47 (v0.9/F40h+F40i): MS-linkage fixes pinned — the named part
+            # must be linked with a non-empty solution block.
+            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            got = [p for q in t["questions"] for p in q["parts"]
+                   if p["part_number"] == c["part"]]
+            ok = bool(got) and got[0].get("answer_status") == "linked" \
+                and bool((got[0].get("solution_md") or "").strip())
+            if not ok:
+                print(f"  ! {series} {c.get('paper')} {c['part']}: expected linked with solution_md")
         else:
             ok = False
             print(f"  ! unknown check type {chk}")

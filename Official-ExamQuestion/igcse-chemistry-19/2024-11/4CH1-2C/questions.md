@@ -392,7 +392,7 @@ Give a reason why the student does not use universal indicator in this titration
 
 Complete the table by adding the results from the rough titration. Record the volumes to the nearest 0.05 cm3
 
-![table — official paper figure (qp.pdf p.12)](assets/asset_5_b_i_table.png)
+![table — official paper figure (qp.pdf p.13) — shared with asset_5_b_table_stem](assets/asset_5_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -411,7 +411,7 @@ Complete the table by adding the results from the rough titration. Record the vo
 
 Concordant results are results within 0.20 cm3 of each other. Use the concordant results from the table to calculate the mean volume of acid added. mean volume of acid = cm3 
 
-![table — official paper figure (qp.pdf p.12) — shared with asset_5_b_i_table](assets/asset_5_b_i_table.png)
+![table — official paper figure (qp.pdf p.13) — shared with asset_5_b_table_stem](assets/asset_5_b_table_stem.png)
 
 
 **Mark scheme answer**
