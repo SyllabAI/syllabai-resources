@@ -353,7 +353,8 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
             if out_bytes[i] != raw_bundle_bytes[i]:
                 raise ExportGateError(
                     f"G-E4: SME prefix diverges at byte {i}: "
-                    f"{raw_bundle_bytes[max(0,i-60):i+60]!r} vs {out_bytes[max(0,i-60):i+60]!r}")
+                    f"{raw_bundle_bytes[max(0, i - 60):i + 60]!r} vs "
+                    f"{out_bytes[max(0, i - 60):i + 60]!r}")
         raise ExportGateError("G-E4: SME prefix length drift")
     print(f"G-E4 ok: SME prefix byte-identical ({first_off} bytes)")
 
@@ -402,15 +403,17 @@ def main():
         manifest = json.load(open(args.manifest))
         official_n = sum(1 for t in out if is_official(t))
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.10.0 corpus (merged main): 2019-06 rasterized pages recovered "
-            "through the F41 OCR source layer (G1 110/110 PASS, 15 new/renumbered parts) + F42 "
-            "early-MS bare-marker linkage (G5 63/64; 3(d)(ii) honestly unmatched, MS answer is a "
-            f"printed image). {official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} "
-            "parts, all spec-tagged (1C wave 2 + 2C wave 1).")
+            "ADR-037 converter v0.10.1 corpus (merged main): v0.10.0 rasterization re-capture "
+            "(F41 OCR source layer G1 110/110; F42 early-MS bare-marker linkage G5 63/64) + the "
+            "F45 crop-pass wave: all 8 honest stubs dispositioned (4 manual crops served - "
+            "2020-11 5(b)(iv) CH3Cl, 2023-11 6(b) H2O2, 2024-06 7(b) N2, 2019-06 15(a) tests "
+            "table off the rasterized scan; 4 re-verified blank with stub-accepted evidence). "
+            f"{official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} parts, all "
+            "spec-tagged (1C wave 2 + 2C wave 1).")
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
-        print(f"manifest staged (importSource.ref stays; note bumped to v0.10.0)")
+        print(f"manifest staged (importSource.ref stays; note bumped to the v0.10.1 wave description)")
     print(f"written: {dest}/questions.json")
 
 

@@ -170,19 +170,31 @@ variants (F34) — verdict homes never collide across papers. Verdict vocabulary
 - `stub-accepted` — the source page has no croppable figure (text-only scaffold,
   blank answer area); clears `review` on `kind: "crop-required"` stubs. The stub
   record stays (kind never changes) — the text layer is the faithful representation.
+- **`manual_crop` arm (v0.10.1, F45)** — an `accepted` entry on a stub may carry
+  `manual_crop: {page, rect}` (PDF points): the converter renders that eyeballed box
+  at 150 dpi, flips the stub to `kind: "crop"` with `manual_crop: true`, and the
+  normal accepted↔crop pairing applies. The box re-renders deterministically on
+  every run; malformed boxes abort the run (fail-closed). Use it exactly when the
+  printed region IS the scaffold/figure (text-only dot-and-cross skeletons,
+  rasterized-page figures) — never for genuinely blank answer areas.
 Any other verdict/kind pairing fails closed (C22 flags it). Drawn scaffolds
 (overlapping electron shells printed as vector circles) are NOT stubs — the
 converter crops them (F32) and the fresh crop is eyeballed like any other.
+
 The ledger holds 25 1C verdicts + 17 2C verdicts under ten `<series>:2C` homes
-(v0.9.0); stem-table crops are verified via canaries C34-C37 (verdicts apply to
-part-attached assets only).
+(v0.9.0); the v0.10.1 crop-pass wave flipped 4 stub-accepted entries to `accepted`
+with `manual_crop` boxes (2020-11 5(b)(iv), 2023-11 6(b), 2024-06 7(b), 2019-06
+15(a)) and re-verified the 4 genuinely blank ones (2021-06 8(b)(iii), 2025-06
+9(a)(i), 2026-06 6(b), 2021-11:2C 5(c)). After the wave: 29 crops + 4 stubs on 1C
+homes, 17 verdicts on 2C homes; the corpus review queue has ZERO `figure crop
+required` entries.
 
 ## Review queue taxonomy (what humans decide; agents must NOT decide)
 
 | reason prefix            | meaning                                    | agent may? |
 |--------------------------|--------------------------------------------|------------|
 | `MCQ key unresolved`     | MS layout ambiguous and not ledger-adjudicated | never auto-key; adjudicate via MCQ-KEYS.json with rendered-page evidence |
-| `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | produce crop only if a region exists; keep stub |
+| `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | since v0.10.1 (F45): eyeball the page; if a printed region exists, record a `manual_crop` box in CROP-REVIEW.json (accepted verdict) — otherwise keep the stub with evidence |
 | `figure crop emitted — human verify` | crop rendered but low-confidence (no text anchor, text-heavy region) | re-render/adjust; never delete silently |
 | `spec code ... not in registry` | registry gap or invalid code        | propose, human accepts |
 | `Q<N> ... image-only`    | rasterized source pages, content lost      | build the F41 OCR source layer (`scripts/prep_ocr_layer_2019.py` pattern), re-run gates; 2019-06 is done |
@@ -232,7 +244,7 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues (v0.9.0 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
+- Human review queues (v0.10.1 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
   the printed MS itself misplaces the answer rows (a source-document defect), so
   the two refused keys were human-adjudicated against the rendered MS page into
   MCQ-KEYS.json (7(a)(ii)=C chlorine, 7(a)(iii)=A astatine; the 7(a)(i) block
@@ -241,18 +253,7 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   decided as `no-spec-point` — the official 4CH1 spec gives no numbered point
   for hydrogen density (airship), NO-recycling in the nitric acid process, or
   safety precautions (verified against the published spec PDF); entries live in
-  the series spec-labels files and C32 pins them (F38; 2C's 607 parts were resolved by their first wave (v0.9.0): 584 tagged + 23 terminal no-spec-point; C33 pins it). Crop review is EMPTY (1C): the
-  wave-10 sweep eyeballed every flagged crop and stub against its source page —
-  19 accepted crops + 6 stub-accepted text-only dot-and-cross scaffolds
-  (2020-11 5(b)(iv), 2021-06 8(b)(iii), 2023-11 6(b), 2024-06 7(b), 2025-06
-  9(a)(i), 2026-06 6(b)) live in CROP-REVIEW.json (25 verdicts); NEW converter
-  flags after any crop-pass change still need eyeballs before a ledger verdict
-  (2C's 22 figure items were eyeballed in the v0.9.0 wave — 17 verdicts under
-  `<series>:2C` homes, 12 re-emitted crops re-viewed; see the F34 follow-ups).
-  Bookkeeping note: v0.7's AGENTS.md said "17 review-flagged crops" — a mid-wave
-  count; the shipped v0.7 queue was 7 stubs (the wave's ledger had already
-  cleared the crop flags), now all 6 remaining stubs are stub-accepted and
-  2024-11 6(c)(i) became a real crop (F32).
+  the series spec-labels files and C32 pins them (F38; 2C's 607 parts were resolved by their first wave (v0.9.0): 584 tagged + 23 terminal no-spec-point; C33 pins it). Crop review is EMPTY and TERMINAL (v0.10.1, F45): all 8 crop-required stubs are dispositioned — 4 manual-cropped from their printed scaffolds/table (2020-11 5(b)(iv), 2023-11 6(b), 2024-06 7(b), 2019-06 15(a) off the rasterized scan) and 4 re-verified genuinely blank with stub-accepted notes (2021-06 8(b)(iii), 2025-06 9(a)(i), 2026-06 6(b), 2021-11:2C 5(c)); zero `figure crop required` entries remain corpus-wide, so new converter flags after any future crop change still need eyeballs before a ledger verdict.
 - PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
   added as a converter-level mapping table with its own parity run, not ad hoc.
 - 2019-06 archive damage: DONE (v0.10.0) — the six rasterized content pages were

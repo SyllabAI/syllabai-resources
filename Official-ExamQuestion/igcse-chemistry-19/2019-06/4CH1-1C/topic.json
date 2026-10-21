@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T21:17:31Z",
- "generator": "official_examq_extract.py v0.10.0 (ADR-037) series=2019-06 paper=1C",
+ "generated_utc": "2026-10-21T23:05:49Z",
+ "generator": "official_examq_extract.py v0.10.1 (ADR-037) series=2019-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/1C",
  "source": {
   "qp_sha256": "0254a7364b4434fd68b1b1d852f694df7e33a9d54b1d8e9db8e06ae9d865a16a",
@@ -1928,12 +1928,16 @@
      "assets": [
       {
        "id": "asset_15_a_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
        "page": 26,
        "review": false,
-       "review_verdict": "stub-accepted"
+       "path": "assets/asset_15_a_table.png",
+       "render": "raster",
+       "text_coverage": 0.0,
+       "manual_crop": true,
+       "review_verdict": "accepted"
       }
      ],
      "spec_point_codes": [

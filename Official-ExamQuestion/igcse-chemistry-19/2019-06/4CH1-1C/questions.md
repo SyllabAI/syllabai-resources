@@ -1308,7 +1308,7 @@ Hydrated ammonium iron(III) sulfate is a violet solid that has the formula (NH4)
 
 Complete the table to show the observation made in each test.
 
-> 🖼 crop required: table (qp.pdf p.26)
+![table — official paper figure (qp.pdf p.26)](assets/asset_15_a_table.png)
 
 
 **Mark scheme answer**
