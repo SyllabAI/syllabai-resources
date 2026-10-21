@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T01:57:57Z",
- "generator": "official_examq_extract.py v0.6 (ADR-037) series=2024-11",
+ "generated_utc": "2026-10-21T10:40:28Z",
+ "generator": "official_examq_extract.py v0.7 (ADR-037) series=2024-11",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-11:4CH1/1C",
  "source": {
   "qp_sha256": "81f416f2c32d849ec99796c546aa21b76bbab50b2131c29f623f1298fdaed7a0",
@@ -50,15 +50,17 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 4,
-       "review": true,
+       "review": false,
        "path": "assets/asset_1_a_table.png",
        "render": "vector",
        "text_coverage": 0.138,
-       "shared": false
+       "review_verdict": "accepted"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.2"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(b)(i)",
@@ -82,15 +84,19 @@
        "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
-       "page": 4,
-       "review": true,
-       "path": "assets/asset_1_b_i_diagram.png",
+       "page": 5,
+       "review": false,
+       "path": "assets/asset_1_b_diagram_stem.png",
        "render": "vector",
-       "text_coverage": 0.304
+       "text_coverage": 0.139,
+       "shared": true,
+       "ref_part": "asset_1_b_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.1"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(b)(ii)",
@@ -130,8 +136,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.1"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(c)",
@@ -150,8 +158,11 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.2",
+      "4CH1-1.25"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -184,8 +195,11 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.9",
+      "4CH1-2.11"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(a)(ii)",
@@ -204,8 +218,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.9"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(a)(iii)",
@@ -224,8 +240,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.44"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(b)",
@@ -249,8 +267,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.8"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(c)",
@@ -304,8 +324,11 @@
        "ref_part": "asset_2_c_table_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.48",
+      "4CH1-2.5"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -343,8 +366,10 @@
      ],
      "source_page": 8,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.18"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(a)(ii)",
@@ -363,8 +388,10 @@
      ],
      "source_page": 8,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.18"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(i)",
@@ -388,8 +415,10 @@
      ],
      "source_page": 8,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.19"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(ii)",
@@ -407,8 +436,10 @@
       }
      ],
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.19"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(iii)",
@@ -432,8 +463,10 @@
      ],
      "source_page": 9,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.19"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -466,8 +499,11 @@
      ],
      "source_page": 11,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.10",
+      "4CH1-1.13"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(b)(i)",
@@ -491,8 +527,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.11"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(b)(ii)",
@@ -516,8 +554,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.11"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(b)(iii)",
@@ -541,8 +581,10 @@
      ],
      "source_page": 13,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.12"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -575,8 +617,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.44"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(b)",
@@ -600,8 +644,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.12"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(i)",
@@ -629,13 +675,15 @@
        "review": false,
        "path": "assets/asset_5_c_apparatus_stem.png",
        "render": "vector",
-       "text_coverage": 0.058,
+       "text_coverage": 0.076,
        "shared": true,
        "ref_part": "asset_5_c_apparatus_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.16"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(ii)",
@@ -668,13 +716,15 @@
        "review": false,
        "path": "assets/asset_5_c_graph_stem.png",
        "render": "vector",
-       "text_coverage": 0.064,
+       "text_coverage": 0.069,
        "shared": true,
        "ref_part": "asset_5_c_graph_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.16"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(iii)",
@@ -708,8 +758,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.9"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -751,12 +803,13 @@
        "review": false,
        "path": "assets/asset_6_a_i_table.png",
        "render": "vector",
-       "text_coverage": 0.0,
-       "shared": false
+       "text_coverage": 0.108
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.39"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(a)(ii)",
@@ -775,8 +828,10 @@
      ],
      "source_page": 18,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.39"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(b)",
@@ -811,15 +866,19 @@
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 18,
-       "review": true,
-       "path": "assets/asset_6_b_diagram.png",
+       "review": false,
+       "path": "assets/asset_6_a_i_table.png",
        "render": "vector",
-       "text_coverage": 0.0,
-       "shared": true
+       "text_coverage": 0.108,
+       "shared": true,
+       "ref_part": "6(a)(i)"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.19",
+      "4CH1-1.40"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(c)(i)",
@@ -852,8 +911,10 @@
        "review": true
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.46"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(c)(ii)",
@@ -877,8 +938,10 @@
      ],
      "source_page": 19,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.45"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -911,8 +974,11 @@
      ],
      "source_page": 20,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.2",
+      "4CH1-1.10"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(a)(ii)",
@@ -931,8 +997,10 @@
      ],
      "source_page": 20,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.33"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(b)",
@@ -956,8 +1024,10 @@
      ],
      "source_page": 21,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.49"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "7(c)",
@@ -1005,8 +1075,10 @@
        "ref_part": "asset_7_c_table_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.33"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {}
@@ -1035,8 +1107,10 @@
      ],
      "source_page": 22,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.15"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "8(b)",
@@ -1060,8 +1134,10 @@
      ],
      "source_page": 22,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.11"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "8(c)",
@@ -1080,8 +1156,10 @@
      ],
      "source_page": 22,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.15"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "8(d)(i)",
@@ -1100,8 +1178,10 @@
      ],
      "source_page": 23,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.15"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "8(d)(ii)",
@@ -1130,8 +1210,11 @@
      ],
      "source_page": 23,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.10",
+      "4CH1-3.11"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -1164,8 +1247,10 @@
      ],
      "source_page": 24,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.2"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "9(b)(i)",
@@ -1184,8 +1269,10 @@
      ],
      "source_page": 24,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.12"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "9(b)(ii)",
@@ -1204,8 +1291,10 @@
      ],
      "source_page": 24,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.12"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "9(c)(i)",
@@ -1224,8 +1313,10 @@
      ],
      "source_page": 25,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.3"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "9(c)(ii)",
@@ -1259,8 +1350,10 @@
      ],
      "source_page": 25,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.4"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "9(d)(i)",
@@ -1279,8 +1372,11 @@
      ],
      "source_page": 26,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.25",
+      "4CH1-4.12"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "9(d)(ii)",
@@ -1309,8 +1405,10 @@
      ],
      "source_page": 26,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.28"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -1346,8 +1444,11 @@
      ],
      "source_page": 27,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.21",
+      "4CH1-4.6"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "10(a)(ii)",
@@ -1371,8 +1472,11 @@
      ],
      "source_page": 27,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.25",
+      "4CH1-4.22"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "10(a)(iii)",
@@ -1391,8 +1495,11 @@
      ],
      "source_page": 27,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.27",
+      "4CH1-4.28"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "10(b)(i)",
@@ -1411,8 +1518,10 @@
      ],
      "source_page": 28,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.3"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "10(b)(ii)",
@@ -1445,13 +1554,15 @@
        "review": false,
        "path": "assets/asset_10_b_diagram_stem.png",
        "render": "vector",
-       "text_coverage": 0.366,
+       "text_coverage": 0.304,
        "shared": true,
        "ref_part": "asset_10_b_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.3"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "10(b)(iii)",
@@ -1470,8 +1581,11 @@
      ],
      "source_page": 28,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.2",
+      "4CH1-4.3"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "10(c)",
@@ -1490,8 +1604,11 @@
      ],
      "source_page": 29,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.44",
+      "4CH1-4.45"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -1532,8 +1649,11 @@
      ],
      "source_page": 30,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.25",
+      "4CH1-2.23C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "11(a)(ii)",
@@ -1552,8 +1672,10 @@
      ],
      "source_page": 30,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.16"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "11(a)(iii)",
@@ -1572,8 +1694,10 @@
      ],
      "source_page": 30,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.29"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "11(a)(iv)",
@@ -1593,12 +1717,14 @@
        "review": false,
        "path": "assets/asset_11_a_iv_diagram.png",
        "render": "vector",
-       "text_coverage": 0.0,
-       "shared": false
+       "text_coverage": 0.146
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.42",
+      "4CH1-1.47"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "11(b)",
@@ -1609,8 +1735,10 @@
      "answer_status": "unmatched",
      "source_page": 32,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.33"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {

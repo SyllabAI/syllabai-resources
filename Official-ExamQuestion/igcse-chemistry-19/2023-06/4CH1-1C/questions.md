@@ -203,7 +203,7 @@ The table gives some information about three substances, X, Y and Z. Conducts Co
 
 Complete the table by giving the missing information.
 
-![table — official paper figure (qp.pdf p.8)](assets/asset_3_a_table.png)
+![table — official paper figure (qp.pdf p.8) — shared with asset_3_a_table_stem](assets/asset_3_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -612,7 +612,7 @@ State why the first line of best fit should pass through the origin.
 
 Use your graph to determine the volume of lead(II) nitrate solution needed to react completely with 15.0 cm3 of potassium chloride solution. volume = cm3
 
-![graph — official paper figure (qp.pdf p.16) — shared with asset_6_b_graph_stem](assets/asset_6_b_graph_stem.png)
+![graph — official paper figure (qp.pdf p.16) — shared with 6(b)(i)](assets/asset_6_b_i_grid.png)
 
 
 **Mark scheme answer**
@@ -807,7 +807,7 @@ Show by calculation that the heat energy (Q) supplied by the pentanol is approxi
 
 The table gives the initial and final mass readings. Initial mass of spirit burner and pentanol in g 90.11 Final mass of spirit burner and pentanol in g 89.75 Use your answer to part (c)(i) and the information in the table to calculate the molar enthalpy change (ΔH) of combustion, in kJ / mol, for pentanol. [for pentanol, Mr = 88] Include a sign in your answer. ΔH for pentanol = kJ / mol
 
-![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_ii_table.png)
+![table — official paper figure (qp.pdf p.22) — shared with 8(b)](assets/asset_8_b_table.png)
 
 
 **Mark scheme answer**
@@ -1028,7 +1028,7 @@ Show by calculation that the zinc is in excess.
 
 The volume of hydrogen collected is measured at regular time intervals. Curve A shows the results of this experiment. A Volume of 30 hydrogen in cm3 20 Time The experiment is repeated using 1.3 g of zinc powder instead of zinc granules. All other conditions are kept the same. On the grid, draw the curve you would expect to obtain. 
 
-![grid — official paper figure (qp.pdf p.28)](assets/asset_10_a_ii_grid.png)
+![grid — official paper figure (qp.pdf p.27)](assets/asset_10_a_ii_grid.png)
 
 
 **Mark scheme answer**

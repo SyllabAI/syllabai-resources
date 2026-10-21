@@ -264,7 +264,7 @@ This question is about ionic compounds.
 
 Complete the table by giving the three missing formulae.
 
-![table — official paper figure (qp.pdf p.8)](assets/asset_4_a_i_table.png)
+![table — official paper figure (qp.pdf p.8) — shared with asset_4_a_table_stem](assets/asset_4_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -552,7 +552,7 @@ The diagram shows the thermometer readings for this reaction. 20 25 °C °C 15 2
 
 ![diagram — official paper figure (qp.pdf p.13)](assets/asset_6_b_diagram.png)
 
-![table — official paper figure (qp.pdf p.13)](assets/asset_6_b_table.png)
+![table — official paper figure (qp.pdf p.15) — shared with asset_6_b_table_stem](assets/asset_6_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -735,7 +735,7 @@ Which element is the least reactive?
 
 Complete the table by predicting the missing results.
 
-![table — official paper figure (qp.pdf p.17)](assets/asset_7_b_i_table.png)
+![table — official paper figure (qp.pdf p.17) — shared with asset_7_b_table_stem](assets/asset_7_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -1015,7 +1015,7 @@ Plot the data values from the table on the grid. Draw a straight line of best fi
 
 ![grid — official paper figure (qp.pdf p.25)](assets/asset_9_d_i_grid.png)
 
-![table — official paper figure (qp.pdf p.25) — shared with ?](assets/asset_9_d_i_table.png)
+![table — official paper figure (qp.pdf p.24) — shared with asset_9_d_table_stem](assets/asset_9_d_table_stem.png)
 
 
 **Mark scheme answer**
@@ -1031,7 +1031,7 @@ Plot the data values from the table on the grid. Draw a straight line of best fi
 
 Deduce the value of ΔH for an alcohol with six carbon atoms per molecule. Show on the graph how you obtained your answer. ΔH = kJ/mol
 
-![graph — official paper figure (qp.pdf p.25) — shared with asset_9_d_graph_stem](assets/asset_9_d_graph_stem.png)
+![graph — official paper figure (qp.pdf p.25) — shared with 9(d)(i)](assets/asset_9_d_i_grid.png)
 
 
 **Mark scheme answer**

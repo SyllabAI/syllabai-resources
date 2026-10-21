@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T01:57:42Z",
+ "generated_utc": "2026-10-21T10:40:14Z",
  "series": "2020-01",
  "gates": [
   {
@@ -55,14 +55,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 11 cropped to assets/*.png (150 dpi), 0 remain crop-required; 0 parts without page anchor",
+   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 10 cropped to assets/*.png (150 dpi), 0 remain crop-required; 0 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 0,
     "crop_stats": {
-     "crops": 11,
+     "crops": 10,
      "pending": 0,
-     "shared": 1
+     "shared": 5
     }
    }
   },
@@ -77,7 +77,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 60 parts pending-llm tagging",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 1 parts pending-llm tagging",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -128,18 +128,6 @@
   {
    "part": "7(a)(iii)",
    "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "4(a)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_4_a_i_table.png)"
-  },
-  {
-   "part": "7(b)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_7_b_i_table.png)"
-  },
-  {
-   "part": "9(d)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_9_d_i_table.png)"
   }
  ]
 }

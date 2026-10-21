@@ -312,9 +312,9 @@ Two experiments are done to determine the percentage composition by volume of a 
 
 In experiment 1, a student bubbles the mixture of gases through limewater. Carbon dioxide reacts with limewater. The diagram shows the apparatus the student uses. syringe A syringe B mixture of gases gas syringe in 1 cm3 divisions limewater The student pushes the mixture of gases out of syringe A, but no gas bubbles appear in the limewater. Give one change the student needs to make to the apparatus for gas bubbles to appear in the limewater.
 
-![apparatus — official paper figure (qp.pdf p.12)](assets/asset_5_a_apparatus.png)
+![apparatus — official paper figure (qp.pdf p.14) — shared with asset_5_a_apparatus_stem](assets/asset_5_a_apparatus_stem.png)
 
-![diagram — official paper figure (qp.pdf p.12) — shared with ?](assets/asset_5_a_diagram.png)
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_5_a_diagram.png)
 
 
 **Mark scheme answer**
@@ -1106,7 +1106,7 @@ Use the information in Table 1 to complete the order of reactivity. most reactiv
 
 Table 2 shows the colours of four metals and the colours of their metal sulfate solutions. Metal Colour of metal Colour of metal sulfate solution copper brown blue iron dark grey green magnesium silvery colourless zinc light grey colourless Table 2 When a metal is added to a metal sulfate solution there may be a colour change on the surface of the metal and in the solution. Use the information in Table 2 and your knowledge of the reactivity series to explain any colour changes in these two experiments. copper added to magnesium sulfate solution zinc added to iron sulfate solution
 
-![table — official paper figure (qp.pdf p.34) — shared with asset_11_b_table_stem](assets/asset_11_b_table_stem.png)
+![table — official paper figure (qp.pdf p.34) — shared with asset_11_a_table_stem](assets/asset_11_a_table_stem.png)
 
 
 **Mark scheme answer**

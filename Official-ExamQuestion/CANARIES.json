@@ -167,6 +167,12 @@
    "part": "3(d)(ii)",
    "kind": "crop",
    "path_contains": "asset_3_d_ii_table"
+  },
+  {
+   "id": "C22-crop-review-ledger",
+   "series": "*",
+   "assertion": "every accepted verdict in CROP-REVIEW.json references an existing crop asset, and every asset carrying review_verdict is ledger-accepted — the eyeball record and the corpus never drift apart (F29)",
+   "check": "crop_review_ledger"
   }
  ]
 }

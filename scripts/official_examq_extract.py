@@ -42,7 +42,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.6"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.7"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 PAPER_TOTAL = 110          # registry expectation for 4CH1/1C — constant across series
 # printed question counts verified per series (footers vary 9..15 across the 4CH1 era);
 # counts cross-checked against per-question footer marks summing to 110
@@ -52,10 +52,14 @@ EXPECT_QUESTIONS = {"2020-11": 10, "2020-01": 10, "2021-06": 10, "2022-06": 10, 
                     "2026-06": 9}
 # per-series demo seeds (labels only; registry-validated in G6). Other series -> pending-llm.
 SEEDS = {
+    # v0.5 demo seeds, audited against the spec registry in v0.7 (LEDGER F31):
+    # 4(c)(ii) is an Mr calculation (1.26), 8(c)(ii) a molar-enthalpy
+    # calculation (3.4), 10(b) an empirical-formula determination (1.33),
+    # 1(b)(i) the noble-gas group (1.24)
     "2020-11": {
-        "1(b)(i)": "4CH1-1.20", "4(c)(ii)": "4CH1-1.25",
-        "9(c)(ii)": "4CH1-1.28", "10(b)": "4CH1-1.31",
-        "8(c)(ii)": "4CH1-3.9", "7": "4CH1-3.15C",   # 7* deliberately incl. registry-gap demo
+        "1(b)(i)": "4CH1-1.24", "4(c)(ii)": "4CH1-1.26",
+        "9(c)(ii)": "4CH1-1.28", "10(b)": "4CH1-1.33",
+        "8(c)(ii)": "4CH1-3.4", "7": "4CH1-3.15C",   # 7* deliberately incl. registry-gap demo
     },
 }
 
@@ -496,6 +500,35 @@ def detect_figure_clusters(page):
             killed.add(j)
         merged = [m for k, m in enumerate(merged) if k not in killed]
 
+    # v0.7 (F27b): paired figures — one figure printed as several drawings
+    # side by side at the same height ('an atom of magnesium and an atom of
+    # chlorine', the solid/liquid/gas box row). Same-row pairs (y-overlap
+    # >= 60%, x-gap <= 90pt) belong together; a mention that picks either
+    # half must crop the whole row (the 2024-11 6(b) defect cropped only the
+    # chlorine atom of the printed pair).
+    for _ in range(4):
+        pairs = []
+        for i in range(len(merged)):
+            for j in range(i + 1, len(merged)):
+                a_, b_ = merged[i], merged[j]
+                if a_.height < 40 or b_.height < 40:
+                    continue
+                yov = min(a_.y1, b_.y1) - max(a_.y0, b_.y0)
+                if yov < 0.6 * min(a_.height, b_.height):
+                    continue
+                gap = max(a_.x0, b_.x0) - min(a_.x1, b_.x1)
+                if 0 <= gap <= 90 and (a_.width + gap + b_.width) <= 0.85 * pw:
+                    pairs.append((i, j))
+        if not pairs:
+            break
+        killed = set()
+        for i, j in pairs:
+            if i in killed or j in killed:
+                continue
+            merged[i] = merged[i] | merged[j]
+            killed.add(j)
+        merged = [m for k, m in enumerate(merged) if k not in killed]
+
     figs = []
     for m in merged:
         if abs(m) > FULL_PAGE_FRAC * page_area:
@@ -510,15 +543,18 @@ def detect_figure_clusters(page):
     return sorted(figs, key=lambda r: (round(r.y0), round(r.x0)))
 
 
-def figure_anchor_y(page, problem_md):
+def figure_anchor_y(page, problem_md, min_words=2):
     """Y position of the part's own text on the page (figures sit below it).
     Tries progressively shorter word prefixes because pdftotext and PyMuPDF
-    disagree about spacing/punctuation. None = unanchorable -> review flag."""
+    disagree about spacing/punctuation. min_words raises the shortest prefix
+    the search may fall back to — cross-page anchoring must use >= 4 (a
+    2-word prefix like 'The student' matches unrelated lines, F25). Returns
+    None = unanchorable -> review flag."""
     frag = re.sub(r"\s+", " ", problem_md).strip()
     words = frag.split()
     for n in (8, 6, 4, 3, 2):
         k = min(n, len(words))
-        if k < 2:
+        if k < min_words:
             break
         hits = page.search_for(" ".join(words[:k]))
         if hits:
@@ -545,7 +581,12 @@ def noun_anchor_y(page, problem_md, noun):
         # direction: a sentence that OPENS with a prepositional phrase
         # ('On the grid, add ...') refers to a figure printed ABOVE; an
         # instruction sentence ('Plot the results on the grid.', 'Complete
-        # the table ...') points at a figure printed BELOW (F24)
+        # the table ...') points at a figure printed BELOW (F24).
+        # v0.7 (F26): a noun used as the SOURCE of data — 'from the table',
+        # 'from the graph' — refers to a figure printed ABOVE even inside a
+        # forward instruction sentence (the 2020-01 9(d)(i) defect where the
+        # 'table' of 'Plot the data values from the table' was anchored at
+        # the plotting grid below it).
         sentence_start = max(frag.rfind(".", 0, m.start()), frag.rfind("!", 0, m.start())) + 1
         head = frag[sentence_start:m.start()].strip()
         below = True
@@ -553,6 +594,17 @@ def noun_anchor_y(page, problem_md, noun):
             hw = head.split()
             if len(hw) <= 2 and hw[0].lower() in REF_PREPS:
                 below = False
+            elif hw[-1].lower() == "from" or (
+                    len(hw) >= 2 and hw[-2].lower() == "from"
+                    and hw[-1].lower() in ("the", "this", "that", "his", "its", "your", "each")):
+                below = False
+            elif (len(hw) >= 3 and hw[-2].lower() in ("on", "in", "at")
+                  and hw[-1].lower() in ("the", "this", "that", "his", "its", "each")
+                  and re.match(r"^\s*\(?\s*(?:[a-z]+\)\s*)?(?:label|mark|annotate|name)\b", head, re.I)):
+                below = False   # 'Label the particles on the diagram' — the
+                                # figure being marked sits ABOVE (2025-06 1(a);
+                                # 'Plot the results on the grid' stays below —
+                                # the verb gates the direction)
         for n in (len(ws), 4, 3):
             if n < 2:
                 break
@@ -597,6 +649,48 @@ def expand_with_labels(page, rect, exclude_frags=()):
         foreign = (MARK_TAG_RE.match(txt) or PART_MARKER_RE.match(txt)
                    or re.search(r"total for (question|paper)", txt)
                    or DOTRUN_RE.search(txt)          # printed answer-line dots
+                   or any(f and f in txt for f in frags))
+        if not foreign:
+            out |= tb
+    # v0.7 (F27): callout labels — short unpunctuated text blocks sitting at
+    # the side of an apparatus drawing ('sodium thiosulfate solution',
+    # 'paper with cross drawn on it', 'Magnesium'). They start near the
+    # figure but extend far beyond the +-66pt contain ring, so the F22 ring
+    # pass rejects them and the crop clips the label mid-word (the 2020-11
+    # 7(b) defect). A side block is absorbed when it is short, unpunctuated,
+    # vertically inside the figure span and not foreign layout text.
+    for b in page.get_text("blocks"):
+        tb = fitz.Rect(b[:4])
+        if tb.is_empty or tb.height > 34:
+            continue
+        if not (rect.y0 - 6 <= (tb.y0 + tb.y1) / 2 <= rect.y1 + 30):
+            continue
+        side_gap = max(rect.x0 - tb.x1, tb.x0 - rect.x1)
+        if side_gap > 130:
+            continue
+        txt = norm(b[4] if len(b) > 4 else "")[:80]
+        if not txt or txt.endswith(".") or len(txt.split()) > 8:
+            continue               # prose, never a label
+        foreign = (MARK_TAG_RE.match(txt) or PART_MARKER_RE.match(txt)
+                   or re.search(r"total for (question|paper)", txt)
+                   or DOTRUN_RE.search(txt)
+                   or any(f and f in txt for f in frags))
+        if not foreign:
+            out |= tb
+    # v0.7 (F27c): never slice a text block — a short block the final rect
+    # cuts through renders as clipped mid-word text (the 2020-11 7(b) top
+    # line). Absorb it whole when it is mostly inside and not layout text.
+    for b in page.get_text("blocks"):
+        tb = fitz.Rect(b[:4])
+        if tb.is_empty or tb.height > 30 or out.contains(tb):
+            continue
+        inter = tb & out
+        if inter.is_empty or abs(inter) < 0.4 * abs(tb):
+            continue
+        txt = norm(b[4] if len(b) > 4 else "")[:80]
+        foreign = (MARK_TAG_RE.match(txt) or PART_MARKER_RE.match(txt)
+                   or re.search(r"total for (question|paper)", txt)
+                   or DOTRUN_RE.search(txt)
                    or any(f and f in txt for f in frags))
         if not foreign:
             out |= tb
@@ -670,6 +764,10 @@ INTRO_RE = re.compile(
     r"\b(?:the\s+|this\s+)?(?:table|diagram|grid|graph|apparatus|boxes)s?\s*\d?\s*"
     r"(?:shows?|gives?|represents?|lists?|displays?|is)\b"
     r"|\buses?\s+this\s+(?:table|diagram|grid|graph|apparatus|boxes)\b", re.I)
+# v0.7 (F26): left-context guard for INTRO_RE — 'the syringe in the diagram
+# shows' references the stem's figure instead of introducing one
+INTRO_CONTEXT_RE = re.compile(
+    r"\b(?:in|on|from|of|at|than|against)\s+(?:the|this|that|his|its|each)\s+$", re.I)
 
 
 def resolve_first(problem_md, noun=None):
@@ -677,14 +775,22 @@ def resolve_first(problem_md, noun=None):
     anchoring: an explicit 'in part (x)' back-ref, a numbered figure
     ('grid 1', 'table 2'), or a backward reference ('Use the graph to...')
     with no introduction phrase. Forward-introducing verbs AND in-text
-    introductions ('The diagram shows ...') keep the own-page-below anchor."""
+    introductions ('The diagram shows ...') keep the own-page-below anchor.
+    v0.7 (F26): an intro noun preceded by a possessive preposition — 'the
+    syringe in the diagram shows ...' — is a REFERENCE to a figure the stem
+    introduced, not a fresh introduction (the 2022-06 4(b) defect where the
+    'diagram' mention anchored at Table 1 below it)."""
     md = problem_md or ""
     if BACKREF_RE.search(md) or NUMBERED_NOUN_RE.search(md):
         return True
     if FORWARD_RE.match(md):
         return False
-    if noun and INTRO_RE.search(md):
-        return False
+    if noun:
+        for m in INTRO_RE.finditer(md):
+            if noun not in m.group(0).lower():
+                continue
+            if not INTRO_CONTEXT_RE.search(md[:m.start()]):
+                return False
     return True
 
 
@@ -901,26 +1007,46 @@ def main():
                             "source": "qp.pdf", "page": p["source_page"], "review": True}
                            for k in mentions]
 
-    # ---- v0.6 figure crop pass ----------------------------------------------
+    # ---- v0.7 figure crop pass ----------------------------------------------
     # Resolution order per mention (fail-closed; anything unresolved stays a
     # crop-required stub in the review queue):
     #   1. explicit back-ref 'on the grid in part (a)'  -> shared ref (F20)
-    #   2. backward reference ('Use the graph to...', no intro phrase) resolves
-    #      a figure introduced earlier BEFORE any own-page anchoring — the
-    #      2021-01 10(a)(iii) defect class (a wrong nearest-below crop):
-    #      2a. stem / group-stem figure intro 'The graph shows ...' -> one lazy
-    #          stem crop shared by every referencing part (F21)
-    #      2b. sibling part crop for the same figure class -> shared ref (F20)
-    #      2c. adjacent page anchored on the group stem -> crop, review (F23)
-    #   3. forward introduction ('Plot ... on the grid', 'The diagram shows ...')
-    #      -> own-page cluster below the part's text (v0.5 behaviour, now with
-    #      F18 furniture filters and F22 foreign-text exclusion)
-    #   4. forward with no own-page cluster -> adjacent page (F23)
-    #   5. unresolved -> crop-required stub (honest, review queue)
+    #   2. numbered figures ('table 1', 'grid 2') anchor on their OWN page
+    #      first — the numbered figure prints in the question's region
+    #      (F25: 2022-06 4(b) 'table 1' was dragged to the stem apparatus
+    #      on the previous page)
+    #   3. backward reference ('Use the graph to...', no intro phrase):
+    #      3a. stem / group-stem figure intro 'The graph shows ...' -> one
+    #          lazy stem crop shared by every referencing part (F21)
+    #      3b. sibling part crop for the same figure class -> shared ref (F20)
+    #      3c. own-page rescue, both noun-phrase directions, always
+    #          review-flagged (F25 reorder: 'the changes listed in the table'
+    #          with the table right below on the SAME page must beat the
+    #          adjacent-page search that grabbed the printed Periodic Table)
+    #      3d. adjacent page anchored on a stem sentence that names the noun
+    #          — the 2-word fallback anchor and the single-unclaimed-cluster
+    #          rule are GONE (F25: they matched unrelated lines and picked
+    #          reference pages)
+    #   4. forward introduction ('Plot ... on the grid', 'The diagram shows'):
+    #      4a. own-page cluster in the noun phrase's own direction (F26:
+    #          'from the table' is a backward reference even inside a
+    #          forward instruction sentence)
+    #      4b. sibling share   4c. stem figure   4d. adjacent (strong anchor)
+    #   5. question-scoped plot fallback: exactly one low-text unclaimed
+    #      cluster on the part's page +-1 (F25b: 2022-06 6(c)(i) grid)
+    #   6. unresolved -> crop-required stub (honest, review queue)
     ASSETS_DIR = OUT / "assets"
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+    # v0.7 (F29): human crop-review verdicts — the durable eyeball record.
+    # An 'accepted' verdict clears the review flag on re-runs; anything not
+    # in the ledger keeps whatever confidence the converter computed.
+    _CROP_REVIEW_PATH = RES_DIR / "Official-ExamQuestion" / "CROP-REVIEW.json"
+    crop_reviews = {}
+    if _CROP_REVIEW_PATH.exists():
+        crop_reviews = json.loads(_CROP_REVIEW_PATH.read_text()).get("reviews", {}).get(series, {})
     page_clusters, page_rasters = {}, {}
     claimed = {}                       # page -> {cluster_index: question_number} (F24)
+    claimed_asset = {}                 # page -> {cluster_index: owning asset dict} (F28)
     crop_stats = {"crops": 0, "pending": 0, "shared": 0}
     stem_assets = {}                     # (qnum, group, noun) -> asset (F21 lazy)
 
@@ -962,6 +1088,10 @@ def main():
                        else "vector")
         a["text_coverage"] = cov
         a["review"] = bool(ay is None or cov > 0.55)
+        v = crop_reviews.get(a["id"])
+        if isinstance(v, dict) and v.get("verdict") == "accepted":
+            a["review"] = False
+            a["review_verdict"] = "accepted"
         crop_stats["crops"] += 1
 
     def page_of_text(text):
@@ -1029,12 +1159,18 @@ def main():
             if pick is None:
                 continue
             _, i, c = pick
+            if used.get(i) == q["question_number"] and claimed_asset.get(pg, {}).get(i):
+                # v0.7 (F28): the same question already cropped this cluster —
+                # reuse that crop instead of rendering a second file
+                stem_assets[key] = claimed_asset[pg][i]
+                return claimed_asset[pg][i]
             used[i] = q["question_number"]
             aid = f"asset_{q['question_number']}_{group or 'q'}_{noun}_stem"
             a = {"id": aid, "kind": "crop-required", "mention": noun,
                  "source": "qp.pdf", "page": pg, "review": True,
                  "_src_text": [sent, p.get("problem_md") or ""]}
             render_crop(pg, c, a, ay)
+            claimed_asset.setdefault(pg, {})[i] = a
             a["review"] = True          # stem-anchored: verify target choice
             break
         stem_assets[key] = a
@@ -1074,8 +1210,15 @@ def main():
             cnre2 = CLASS_NOUN_RE[FIG_CLASS[a["mention"]]]
             for st in stems:
                 sent = next((s for s in re.split(r"(?<=[.!?])\s+", st)
-                             if cnre2.search(s)), st)
-                ay = figure_anchor_y(page, sent)
+                             if cnre2.search(s)), None)
+                if sent is None:
+                    # v0.7 (F25/C20): a stem that never names the noun may
+                    # still anchor the search WHEN the stem text itself is
+                    # printed on the neighbour page (the 2025-11 continuation
+                    # grid) — but the anchor needs a >= 4-word prefix hit,
+                    # never a 2-word fragment that matches unrelated lines
+                    sent = st
+                ay = figure_anchor_y(page, sent, min_words=4)
                 if ay is not None:
                     break
             used = claimed.setdefault(pg2, {})
@@ -1087,13 +1230,19 @@ def main():
                 below = sorted(((abs(c.y0 - ay), i, c) for i, c in cand
                                 if c.y0 >= ay - 36), key=lambda t: (t[0], t[1]))
             else:
-                # no stem anchor on this page: take the single unambiguous
-                # figure only — never guess between several (F23)
-                below = [(0,) + cand[0]] if len(cand) == 1 else []
+                below = []   # v0.7 (F25): never take an un-anchored lone figure
+                             # on a neighbour page — that rule grabbed reference
+                             # pages like the printed Periodic Table
             if not below:
                 continue
             _, i, c = pick = below[0]
+            if FIG_CLASS[a["mention"]] == "plot" and text_coverage(page, c) > 0.15:
+                # v0.7 (F30): a stem that does not name the noun may anchor on
+                # a page whose figure is the wrong class (the 2022-06 6(b)(iii)
+                # 'graph' defect: the question stem anchored the apparatus)
+                continue
             used[i] = q["question_number"]
+            claimed_asset.setdefault(pg2, {})[i] = a
             render_crop(pg2, c, a, ay)
             a["review"] = True
             return True
@@ -1109,6 +1258,41 @@ def main():
         a["ref_part"] = target.get("_owner") or target.get("id")
         a["review"] = False
         crop_stats["shared"] += 1
+
+    def question_plot_fallback(q, p, a):
+        """v0.7 (F25b): 'on the grid' that no own-page, stem, sibling or
+        adjacent step could resolve — when the part's page +-1 contains
+        EXACTLY ONE low-text cluster unclaimed by other questions, that
+        cluster is the referent (the 2022-06 6(c)(i) case: the plotting
+        grid prints beside the earlier parts of the same question, none of
+        which names it). Same-question claims become shared refs. Always
+        review-flagged."""
+        pg = p.get("source_page")
+        if pg is None:
+            return False
+        cands = []
+        for pg2 in (pg - 1, pg, pg + 1):
+            if not (1 <= pg2 <= len(pdf)) or pg2 in content_img_pages:
+                continue
+            used = claimed.setdefault(pg2, {})
+            for i, c in enumerate(clusters_for(pg2)):
+                owner_q = used.get(i)
+                if owner_q is not None and owner_q != q["question_number"]:
+                    continue
+                if text_coverage(pdf[pg2 - 1], c) > 0.15:
+                    continue          # tables/prose regions are not plot surfaces
+                cands.append((pg2, i, c))
+        if len(cands) != 1:
+            return False              # zero or ambiguous -> honest stub
+        pg2, i, c = cands[0]
+        if claimed.get(pg2, {}).get(i) == q["question_number"] and claimed_asset.get(pg2, {}).get(i):
+            share_ref(a, claimed_asset[pg2][i], "plot-fallback")
+            return True
+        claimed.setdefault(pg2, {})[i] = q["question_number"]
+        claimed_asset.setdefault(pg2, {})[i] = a
+        render_crop(pg2, c, a, None)
+        a["review"] = True
+        return True
 
     def own_page_pick(q, p, a, force_review, allow_single=True):
         """Own-page resolution shared by forward introductions and the
@@ -1129,9 +1313,14 @@ def main():
         if not cand:
             return False
         anchors = noun_anchor_y(page, p["problem_md"], noun) or []
-        start_ay = figure_anchor_y(page, p["problem_md"])
-        if start_ay is not None:
-            anchors.append((start_ay, True))
+        if not anchors:
+            # v0.7 (F25): the part-start anchor is only used when the noun
+            # phrase itself gives no evidence — a directional noun anchor
+            # must never be overridden by a blind below-anchor (the
+            # 2020-01 9(d)(i) 'from the table' defect).
+            start_ay = figure_anchor_y(page, p["problem_md"])
+            if start_ay is not None:
+                anchors.append((start_ay, True))
         for ay, below in anchors:
             if below:
                 scored = sorted(((min(abs(c.y0 - ay), abs((c.y0 + c.y1) / 2 - ay)), i, c)
@@ -1141,26 +1330,40 @@ def main():
                 scored = sorted(((min(abs(c.y1 - ay), abs((c.y0 + c.y1) / 2 - ay)), i, c)
                                  for i, c in cand if c.y1 <= ay + 36),
                                 key=lambda t: (t[0], t[1]))
+            if scored and FIG_CLASS[noun] == "plot" and \
+                    text_coverage(page, scored[0][2]) > 0.30:
+                # v0.7 (F25): a text-dense region is a printed data table, not
+                # a plotting surface (every verified grid/graph crop has
+                # coverage <= 0.05; the 2025-11 3(c)(i) table above the
+                # 'On the grid' line must not be taken as the grid)
+                scored = []
             if scored:
                 _, i, c = scored[0]
-                shared = used.get(i) == q["question_number"]
+                if used.get(i) == q["question_number"] and claimed_asset.get(pg, {}).get(i):
+                    # v0.7 (F28): the same question already cropped this
+                    # cluster — share the rendered file instead of writing a
+                    # byte-identical twin PNG with ref_part:null
+                    share_ref(a, claimed_asset[pg][i], "same-claim")
+                    return True
                 used[i] = q["question_number"]
+                claimed_asset.setdefault(pg, {})[i] = a
                 p["_owner"] = p["part_number"]
+                a["_owner"] = p["part_number"]
                 render_crop(pg, c, a, ay if below else None)
-                a["shared"] = shared
-                if shared or force_review:
+                if force_review:
                     a["review"] = True
-                else:
-                    a["_owner"] = p["part_number"]
                 return True
         if len(cand) == 1 and not force_review and allow_single:
             # forward introduction on a page with exactly one figure: unambiguous
             i, c = cand[0]
-            shared = used.get(i) == q["question_number"]
+            if used.get(i) == q["question_number"] and claimed_asset.get(pg, {}).get(i):
+                share_ref(a, claimed_asset[pg][i], "same-claim")
+                return True
             used[i] = q["question_number"]
+            claimed_asset.setdefault(pg, {})[i] = a
             p["_owner"] = p["part_number"]
+            a["_owner"] = p["part_number"]
             render_crop(pg, c, a, None)
-            a["shared"] = shared
             a["review"] = True          # no anchor evidence -> verify
             return True
         return False
@@ -1179,6 +1382,12 @@ def main():
                         and not INTRO_RE.search(pmd)):
                     crop_stats["pending"] += 1
                     continue
+                # v0.7: numbered-figure first-look is PER NOUN — 'table 1'
+                # pins the table asset to this question's region, but the
+                # same part's 'diagram' mention is not numbered (the
+                # 2022-06 4(b) defect where the diagram mention was dragged
+                # to Table 1 below the instruction)
+                numbered = bool(re.search(rf"\b{re.escape(noun)}s?\s+\d+\b", pmd, re.I))
                 # 1. explicit 'in part (x)' back-reference
                 bm = BACKREF_RE.search(pmd)
                 if bm:
@@ -1194,45 +1403,54 @@ def main():
                             share_ref(a, resolved, "backref")
                             continue
                 backward = resolve_first(pmd, noun) and not BACKREF_RE.search(pmd)
+                if numbered:
+                    # 2. numbered figures print in the question's own region —
+                    # own-page anchoring before any cross-page search (F25)
+                    if own_page_pick(q, p, a, force_review=False, allow_single=False):
+                        continue
                 if backward:
-                    # 2a. stem / group-stem figure
+                    # 3a. stem / group-stem figure
                     sa = stem_figure(q, p, noun)
                     if sa:
                         share_ref(a, sa, "stem")
                         continue
-                    # 2b. sibling crop
+                    # 3b. sibling crop
                     sc = sibling_crop(q, p, noun)
                     if sc:
                         share_ref(a, sc, "sibling")
                         continue
-                    # 2c. adjacent page (a stem-anchored neighbour figure is
-                    # more trustworthy than an own-page guess)
-                    if adjacent_crop(q, p, a):
-                        continue
-                    # 2d. own-page rescue (review-flagged: a backward reference
-                    # that found nothing earlier may still sit above its figure
-                    # — the 10(a)(iii) trap — so the pick is always verified)
+                    # 3c. own-page rescue, both directions, always verified
                     if own_page_pick(q, p, a, force_review=True):
                         continue
-                    crop_stats["pending"] += 1
+                    # 3d. adjacent page, strong stem anchor only (F25)
+                    if adjacent_crop(q, p, a):
+                        continue
+                else:
+                    # 4a. forward introduction: own-page cluster in the noun
+                    # phrase's own direction
+                    if own_page_pick(q, p, a, force_review=False, allow_single=False):
+                        continue
+                    # 4b. the page's figure was already claimed by a sibling
+                    sc = sibling_crop(q, p, noun)
+                    if sc:
+                        share_ref(a, sc, "sibling")
+                        continue
+                    # 4c. the group/question stem introduced the figure even
+                    # though this part's sentence is an instruction (F25:
+                    # 2020-01 9(d)(i) 'the table' = the p24 data table)
+                    sa = stem_figure(q, p, noun)
+                    if sa:
+                        share_ref(a, sa, "stem")
+                        continue
+                    # 4d. adjacent page, strong anchor only
+                    if adjacent_crop(q, p, a):
+                        continue
+                # 5. question-scoped plot fallback (F25b)
+                if FIG_CLASS[noun] == "plot" and question_plot_fallback(q, p, a):
                     continue
-                # 3. forward introduction: own-page cluster below the part text
-                if own_page_pick(q, p, a, force_review=False, allow_single=False):
-                    continue
-                # 3b. the page's figure was already claimed by a sibling part
-                # (two parts share one grid) -> shared reference
-                sc = sibling_crop(q, p, noun)
-                if sc:
-                    share_ref(a, sc, "sibling")
-                    continue
-                # 3c. unambiguous single figure on the page (no anchor hit)
-                if own_page_pick(q, p, a, force_review=False, allow_single=True):
-                    continue
-                # 4. forward with no own-page cluster: adjacent page
-                if adjacent_crop(q, p, a):
-                    continue
-                # 5. honest stub
+                # 6. honest stub
                 crop_stats["pending"] += 1
+                continue
         # mark owners of real crops for share_ref bookkeeping (stem crops are
         # question-level figures — they keep their own id as the ref target)
         for p in q["parts"]:
@@ -1241,8 +1459,28 @@ def main():
                         and not a["id"].endswith("_stem") and not a.get("_owner")):
                     a["_owner"] = p["part_number"]
 
-    # ---- spec seeds (labels only; registry-validated) -----------------------
+    # ---- v0.7 (F29): crop-review verdicts, applied LAST --------------------
+    # The eyeball ledger overrides every confidence flag — resolution paths
+    # set review=True after render_crop runs, so the verdict must land after
+    # all of them (the 18-crop wave that still showed review=true otherwise).
+    for q in doc_questions:
+        for p in q["parts"]:
+            for a in p.get("assets") or []:
+                v = crop_reviews.get(a["id"])
+                if isinstance(v, dict) and v.get("verdict") == "accepted":
+                    a["review"] = False
+                    a["review_verdict"] = "accepted"
+
+    # ---- spec tags: v0.5 demo seeds + v0.7 llm spec-tagging waves -----------
+    # Labels only (AGENTS.md review taxonomy: 'pending-llm' -> seed via LLM as
+    # labels, re-validated by G6). Wave files live in spec-labels/<series>.json
+    # as {"parts": {"<part_number>": ["4CH1-x.y", ...]}}; question-level tags
+    # are expanded to their parts by the wave authoring script.
     seeds = SEEDS.get(series, {})
+    labels_path = RES_DIR / "Official-ExamQuestion" / "spec-labels" / f"{series}.json"
+    labels = {}
+    if labels_path.exists():
+        labels = json.loads(labels_path.read_text()).get("parts", {})
     reg = json.loads(SPEC_RESOLUTION.read_text())["resolved"]
     registry = set()
     for r in reg:
@@ -1250,13 +1488,19 @@ def main():
             registry.add(r["resolved_code"])
     for q in doc_questions:
         for p in q["parts"]:
-            code = seeds.get(p["part_number"])
-            if code:
-                p["spec_point_codes"] = [code]
-                p["tagging"] = "seed-demo"
-                if code not in registry:
+            codes, tagging = [], None
+            seed_code = seeds.get(p["part_number"])
+            if seed_code:
+                codes, tagging = [seed_code], "seed-demo"
+            elif labels.get(p["part_number"]):
+                codes, tagging = list(labels[p["part_number"]]), "llm-spec-wave"
+            if codes:
+                p["spec_point_codes"] = codes
+                p["tagging"] = tagging
+                bad = [c for c in codes if c not in registry]
+                if bad:
                     p["tagging"] = "registry-gap-review"
-                    report["review_queue"].append({"part": p["part_number"], "reason": f"spec code {code} not in registry (gap or invalid) — human decision"})
+                    report["review_queue"].append({"part": p["part_number"], "reason": f"spec code {', '.join(bad)} not in registry (gap or invalid) — human decision"})
             else:
                 p["spec_point_codes"] = []
                 p["tagging"] = "pending-llm"

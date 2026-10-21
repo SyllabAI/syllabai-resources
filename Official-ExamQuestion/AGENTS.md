@@ -18,6 +18,8 @@ Official-ExamQuestion/
   check_canaries.py         canary checker (exit 1 on violation)
   run_all.sh                one-command full-corpus run + canary verification
   CHANGELOG.md              converter version history
+  CROP-REVIEW.json          durable human eyeball verdicts for figure crops (F29)
+  spec-labels/<series>.json LLM spec-tagging wave labels (parts -> 4CH1 codes)
   MULTI-SERIES-REPORT.{md,json}   per-series gate matrix + findings + cross-diff summary
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
   igcse-chemistry-19/<series>/4CH1-1C/
@@ -102,12 +104,26 @@ session and MUST be DETECTED 3/3 — otherwise the run is void.
   can award per point and reconcile against `marks`.
 - `assets[]` — `kind: "crop"` entries carry `path` (relative to topic.json), `page`,
   `render` (vector/raster), `text_coverage`, `shared` (figure reused by a sibling
-  mention) and `review` (true = human should eyeball the crop); `kind:
+  mention), `ref_part` (the owning part/stem-asset id for shared refs) and
+  `review` (true = human should eyeball the crop; cleared + `review_verdict:
+  "accepted"` when CROP-REVIEW.json carries an accepted verdict); `kind:
   "crop-required"` entries stay in the review queue (blank-to-complete diagrams,
   rasterized source pages).
 - Known verbatim limitation: PUA glyphs in the source text layer (e.g. `\uf0b4` for
   ×) pass through un-mapped; a PUA→Unicode pass is future work and must not be done
   ad hoc inside the converter.
+
+## Spec tagging (v0.7 spec-point waves)
+
+Parts carry `spec_point_codes` + a `tagging` state: `seed-demo` (v0.5 registry-
+validated demo seeds), `llm-spec-wave` (codes from `spec-labels/<series>.json`,
+LLM-authored as LABELS ONLY — AGENTS.md review taxonomy), `pending-llm` (no
+clean spec point found — honestly queued), `registry-gap-review` (a code not in
+the SME registry; G6 routes it to the review queue). G6 re-validates every code
+against `spec_point_resolution.json` on every run. Wave coverage: 927/930 parts
+tagged (1,180 codes, 0 invalid); the 3 pending parts have no clean spec point.
+To extend tagging: append codes to the per-series spec-labels file (part_number
+→ [codes]), re-run, and let G6 judge.
 
 ## Review queue taxonomy (what humans decide; agents must NOT decide)
 
@@ -162,13 +178,14 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues (v0.6 crop-review wave): MCQ keys for 2020-01 Q7(a) (2 keys),
-  24 emitted figure crops flagged `human verify` (each was eyeballed once against
-  its source page — see LEDGER wave 6; re-flag after any converter change),
-  8 honest crop-required stubs (dot-and-cross prompts whose printed scaffolds are
-  text-only — no croppable region exists; 2022-06 6(b)(iii) whose plotted grid
-  cannot be attributed without guessing), spec-tagging seeds (`pending-llm`) for
-  all series except the 2020-11 demo set.
+- Human review queues (v0.7 state): MCQ keys for 2020-01 Q7(a) (2 keys, agents
+  must never auto-key), 17 review-flagged crops — every previously flagged crop
+  was re-eyeballed in the Task 9 wave and the 18 verdicts persisted in
+  CROP-REVIEW.json; NEW converter flags after any crop-pass change still need
+  eyeballs. 7 honest crop-required stubs (text-only dot-and-cross scaffolds and
+  2021-06 8(b)(iii) whose grid prints without a croppable region on the scanned
+  page). 3 parts pending spec tags (2019-06 5(a), 2020-01 10(c)(ii), 2022-01
+  3(b)(iv) — no clean spec point exists; decide or leave).
 - PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
   added as a converter-level mapping table with its own parity run, not ad hoc.
 - 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5

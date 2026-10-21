@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T01:57:46Z",
+ "generated_utc": "2026-10-21T10:40:18Z",
  "series": "2021-06",
  "gates": [
   {
@@ -50,14 +50,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
+   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 5 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
-     "crops": 6,
+     "crops": 5,
      "pending": 1,
-     "shared": 3
+     "shared": 2
     }
    }
   },
@@ -74,7 +74,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 54 parts pending-llm tagging",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 0 parts pending-llm tagging",
    "details": {
     "violations": [],
     "allowed_gaps": [

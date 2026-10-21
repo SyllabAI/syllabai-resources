@@ -4,6 +4,58 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.7 — 2026-10 · verdict-ledger + spec-tagging waves (24 still-tagged crops reviewed, 927/930 parts spec-tagged, shared-ref dedup)
+
+All 24 v0.6 `human verify` crops were re-eyeballed against their source pages
+(14 had been correct, 10 were wrong: wrong-cluster bindings, clipped callout
+labels, twin duplicate files). The verdicts exposed six more defect classes
+(F25–F30) plus a seed audit (F31); all fixes generic.
+
+- **Resolution order rebuild (F25)**: numbered figures ('table 1') anchor on
+  their OWN page before any cross-page search (2022-06 4(b) was dragged to the
+  stem apparatus on the previous page); the adjacent-page pass lost its
+  2-word fallback anchor ('The student' matched unrelated lines) and its
+  single-unclaimed-cluster rule (it grabbed the printed Periodic Table twice —
+  2021-01 1(a) and 2025-06 1(b)); own-page rescue for backward references now
+  runs BEFORE the adjacent search; a question-scoped plot fallback claims the
+  grid printed beside earlier parts that never name it (2022-06 6(c)(i)).
+- **Directional nouns inside forward sentences (F26)**: 'from the table' is a
+  backward reference even in 'Plot the data values from the table on the grid'
+  (2020-01 9(d)(i) now shares the p24 data table instead of duplicating the
+  grid); an intro noun preceded by 'in the diagram' ('the syringe in the
+  diagram shows…') is a reference, not an introduction (2022-06 4(b)); numbered
+  mentions are per-noun, not per-part.
+- **Callout labels + paired figures (F27)**: short unpunctuated text blocks at
+  the side of a drawing ('sodium thiosulfate solution', 'Magnesium') are
+  absorbed even beyond the ±66pt ring (2020-11 7(b) no longer clips its
+  labels); same-row drawing pairs merge into one figure (2024-11 6(b) now
+  crops BOTH the Mg and Cl atoms; 2024-11 1(b)(i) gets all three boxes); a
+  text block the final rect would slice is absorbed whole (F27c).
+- **Wrong-class guards (F30)**: plot-class mentions never bind to text-dense
+  regions (coverage > 0.30 is a table, never a grid — every verified plot crop
+  is ≤ 0.05); the adjacent pass applies the same guard (2022-06 6(b)(iii)
+  claimed the question stem's apparatus, now claims the p14 plotting grid).
+- **Shared-ref semantics (F28)**: a same-question re-pick now shares the
+  owner's crop (`ref_part` set) instead of writing a byte-identical twin PNG
+  with `ref_part: null`; stem crops reuse an already-claimed cluster. Corpus:
+  135 crop assets (57 shared refs), 7 honest stubs, no orphan files.
+- **Verdict ledger (F29)**: `CROP-REVIEW.json` records durable eyeball
+  verdicts; an 'accepted' entry clears `review` on every re-run (applied after
+  all confidence overrides); C22 pins ledger↔corpus consistency in both
+  directions. The 24 flagged crops are now 18 flags → all 18 re-eyeballed and
+  ledger-accepted.
+- **Spec-tagging waves (labels only, G6-validated)**: `spec-labels/<series>.json`
+  files tag 922 parts across 16 series (1,180 codes, 0 invalid against the
+  SME spec registry); 927/930 parts carry `spec_point_codes` — the 3 remaining
+  `pending-llm` parts have no clean spec point (airship density, recycle
+  stream, safety precaution) and stay honestly queued. Demo seeds audited
+  (F31): 2020-11 4(c)(ii) 1.25→1.26, 8(c)(ii) 3.9→3.4, 10(b) 1.31→1.33,
+  1(b)(i) 1.20→1.24.
+- Parity vs v0.6: **930/930 parts byte-identical** on extraction fields
+  (marks, problem_md, solution_md, mark_points, source_page); gate matrix
+  unchanged (2019-06 G1/G5 REVIEW, 2020-01 G3 honest FAIL). Canaries C22
+  added; floor 0.7.
+
 ## 0.6 — 2026-10 · crop-review wave (eyeball of 10 flagged + 32 pending, serving semantics)
 
 The 10 review-flagged v0.5 crops and all 32 pending stubs were eyeballed against
