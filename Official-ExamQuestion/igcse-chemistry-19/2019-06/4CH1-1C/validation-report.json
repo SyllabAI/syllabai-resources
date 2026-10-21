@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T18:28:10Z",
+ "generated_utc": "2026-10-21T21:17:30Z",
  "series": "2019-06",
  "paper": "1C",
  "gates": [
@@ -16,67 +16,21 @@
   },
   {
    "gate": "G1-structure",
-   "status": "REVIEW",
-   "summary": "14 questions extracted; Σ known totals=104/110; source defects: missing Q[1, 7, 11, 12, 15] (image-only pages [4, 12, 16, 18, 20, 26] in archive PDF) — lost content needs human/OCR re-ingest",
+   "status": "PASS",
+   "summary": "15 questions; Σ question totals=110/110; parts-sum == printed total for all questions: True",
    "details": {
-    "mismatches": [
-     {
-      "question": 1,
-      "parts_sum": 1,
-      "printed": 4,
-      "attributed_to_image_only_pages": [
-       4
-      ]
-     },
-     {
-      "question": 11,
-      "parts_sum": 3,
-      "printed": 9,
-      "attributed_to_image_only_pages": [
-       16
-      ]
-     },
-     {
-      "question": 12,
-      "parts_sum": 7,
-      "printed": 9,
-      "attributed_to_image_only_pages": [
-       18
-      ]
-     },
-     {
-      "question": 15,
-      "parts_sum": 6,
-      "printed": 9,
-      "attributed_to_image_only_pages": [
-       26
-      ]
-     }
-    ],
+    "mismatches": [],
     "unattributed": [],
     "inferred_totals": {},
-    "footer_gaps": [
-     {
-      "question": 7,
-      "reason": "footer absent in source PDF; question not extractable — image-only page(s) [12] in archive PDF (content lost at scan)",
-      "attributed": true
-     }
-    ],
-    "image_only_pages": [
-     4,
-     12,
-     16,
-     18,
-     20,
-     26
-    ],
+    "footer_gaps": [],
+    "image_only_pages": [],
     "count_expected": 15
    }
   },
   {
    "gate": "G2-verbatim",
    "status": "PASS",
-   "summary": "5-gram overlap vs source region ≥0.95 for all 51 parts: True",
+   "summary": "5-gram overlap vs source region ≥0.95 for all 62 parts: True",
    "details": {
     "violations": [],
     "min_ratio": 1.0
@@ -85,7 +39,7 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "6 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
     "issues": []
    }
@@ -93,44 +47,24 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 0 remain crop-required; 1 parts without page anchor",
+   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
      "crops": 4,
-     "pending": 0,
+     "pending": 1,
      "shared": 3
     }
    }
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 32/53 (60%)",
+   "status": "PASS",
+   "summary": "MS linkage 63/64 (98%)",
    "details": {
     "unmatched": [
-     "3(d)(i)",
-     "3(d)(ii)",
-     "5(c)(i)",
-     "5(c)(ii)",
-     "6(b)(i)",
-     "6(b)(ii)",
-     "8(c)(i)",
-     "8(c)(ii)",
-     "9(b)",
-     "10(a)(i)",
-     "10(a)(ii)",
-     "10(b)(i)",
-     "10(b)(ii)",
-     "11(iii)",
-     "13(b)(i)",
-     "13(b)(ii)",
-     "14(f)(i)",
-     "14(f)(ii)",
-     "15(i)",
-     "15(ii)",
-     "15(iii)"
+     "3(d)(ii)"
     ]
    }
   },
@@ -148,12 +82,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 32/32 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 32 parts, agrees with QP marks on 32",
+   "summary": "solution_md on 63/63 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 60 parts, agrees with QP marks on 60",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 32,
-    "ms_marks_agree": 32,
+    "ms_marks_seen": 60,
+    "ms_marks_agree": 60,
     "ms_marks_disagree": []
    }
   }
@@ -178,115 +112,74 @@
  ],
  "review_queue": [
   {
-   "part": "Q7",
-   "reason": "footer absent in source PDF; question not extractable — image-only page(s) [12] in archive PDF (content lost at scan)"
-  },
-  {
-   "part": "3(d)(i)",
-   "reason": "answer not auto-linked to MS"
+   "part": "15(a)",
+   "reason": "figure crop required (table, page 26)"
   },
   {
    "part": "3(d)(ii)",
    "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(c)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(c)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(c)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(c)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(b)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "11(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "13(b)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "13(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "14(f)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "14(f)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "15(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "15(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "15(iii)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
- "source_defects": {
-  "image_only_pages": [
-   4,
-   12,
-   16,
-   18,
-   20,
-   26
-  ],
-  "affected_questions": [
-   1,
-   7,
-   11,
-   12,
-   15
-  ]
- },
+ "ocr_pages": [
+  {
+   "page": 4,
+   "sha256": "33af931d8f711fb84ab3d628cd81c5d28dfb0fd39f5ce510c66f0947564fff0c",
+   "chars": 966,
+   "lines": 28,
+   "tool": "tesseract 5.5.0 --psm 6 (600-dpi bw draft) + agent transcription",
+   "render": "pdftoppm -r 600 -gray; evidence renders in ocr-2019-06/pages + hi2",
+   "corrections": 2
+  },
+  {
+   "page": 12,
+   "sha256": "5e263e61cd7631236d386a87c3ca795b22e32669e11ae4e117ad09242870a49a",
+   "chars": 389,
+   "lines": 15,
+   "tool": "tesseract 5.5.0 --psm 6 (600-dpi bw draft) + agent transcription",
+   "render": "pdftoppm -r 600 -gray; evidence renders in ocr-2019-06/pages + hi2",
+   "corrections": 1
+  },
+  {
+   "page": 16,
+   "sha256": "a80a114915908ba0f4f393c9a071e02cdc431fe4e681e5aa8f58c8e3d3a24dfd",
+   "chars": 607,
+   "lines": 18,
+   "tool": "tesseract 5.5.0 --psm 6 (600-dpi bw draft) + agent transcription",
+   "render": "pdftoppm -r 600 -gray; evidence renders in ocr-2019-06/pages + hi2",
+   "corrections": 3
+  },
+  {
+   "page": 18,
+   "sha256": "b7de8e2792cdcaba552a8123832cc5100748a9bc6b05c6da1f6fd1aa2539020d",
+   "chars": 607,
+   "lines": 14,
+   "tool": "tesseract 5.5.0 --psm 6 (600-dpi bw draft) + agent transcription",
+   "render": "pdftoppm -r 600 -gray; evidence renders in ocr-2019-06/pages + hi2",
+   "corrections": 2
+  },
+  {
+   "page": 20,
+   "sha256": "e77d1f3d3ed526f56c5f7c6b4e0cd47f3c33cd820f91e376a18ec0eee887daa1",
+   "chars": 666,
+   "lines": 23,
+   "tool": "tesseract 5.5.0 --psm 6 (600-dpi bw draft) + agent transcription",
+   "render": "pdftoppm -r 600 -gray; evidence renders in ocr-2019-06/pages + hi2",
+   "corrections": 3
+  },
+  {
+   "page": 26,
+   "sha256": "9e9a51318d987f7d06e0e7d67a71330373086418d30d6fcb0e184c2052094480",
+   "chars": 823,
+   "lines": 19,
+   "tool": "tesseract 5.5.0 --psm 6 (600-dpi bw draft) + agent transcription",
+   "render": "pdftoppm -r 600 -gray; evidence renders in ocr-2019-06/pages + hi2",
+   "corrections": 2
+  }
+ ],
  "mcq_keys_applied": [],
  "spec_tagging": {
-  "tagged": 52,
-  "parts": 53,
+  "tagged": 63,
+  "parts": 64,
   "pending_llm": 0,
   "no_spec_point": 1
  }

@@ -57,9 +57,7 @@ State what remains in the flask when the separation is complete.
 > salt
 > cler
 > Total for Q1 = 5
-> Question
 > Notes Marks
-> number
 > Answer
 
 - **(1)** salt
@@ -139,9 +137,6 @@ State how the chromatogram suggests that the yellow food dye Y is less soluble i
 > spot from yellow food dye/Y does not move as far ORA
 > as spot from red food dye/R OWTTE exp
 > Total for Q2 = 7
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** spot from yellow food dye/Y does not move as far ORA
 
@@ -197,9 +192,6 @@ This is the order of reactivity of four metals. most reactive aluminium iron lea
 > + CO2
 > ALLOW PbO + C  Pb
 > +CO
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Method 1/ heating the metal oxide/lead(II)
 - **(1)** (because) lead is less reactive than iron (and ALLOW carbon is more
@@ -234,9 +226,6 @@ The diagram shows the arrangement of the particles in a pure metal. Metals are o
 > strength/breaking of
 > forces/(metallic) bonds
 > Total for Q3 = 10
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (particles/ions/atoms are same size in a regular
 - **(1)** diagram of alloy structure showing minimum of
@@ -303,9 +292,6 @@ Explain why this process is carried out in the absence of air and at a temperatu
 > /stop optimum temperature
 > (between 30 ℃ and
 > 40 ℃)
-> Question
-> Answer Notes Marks
-> number
 
 - **(4)** Explanation including four from
 
@@ -378,9 +364,6 @@ Esters have particular uses that depend on their properties. Give an example of 
 > solvents (for
 > paints/varnishes)
 > Total for Q4 = 15
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (Property:) distinctive/sweet/fruity smell ALLOW volatile
 - **(1)** used in perfumes/flavourings ALLOW any correct use
@@ -532,9 +515,6 @@ The equation for the combustion of butadiene in excess oxygen is 2C4H6 + 11O2 �
 > reaction profile can
 > score M2 M3 M4 ECF
 > Total for Q5 = 15
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** horizontal line below level of reactants with 8 CO2 + 6 H2O
 - **(1)** profile curve rising from reactants level to form “hump” and
@@ -680,9 +660,6 @@ The equation for the reaction in the titration is H2SO4 + 2KOH → K2SO4 + 2H2O 
 > 31.25/31.3/31 scores 2
 > 62.5/63 scores 2
 > Total for Q6 = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** calculation with following steps
 

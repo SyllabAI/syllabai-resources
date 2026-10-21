@@ -75,9 +75,6 @@ The diagram shows the particles in substance E. E Give two reasons why substance
 > types of/sizes of atom.
 > M2 not (chemically) joined / (chemically) bonded
 > together
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** two different elements ALLOW two different
 - **(1)** not (chemically) joined / (chemically) bonded
@@ -158,9 +155,6 @@ State the relationship between the reactivity of the Group 7 elements and the si
 > M1 as the atoms get bigger
 > M2 the reactivity decreases ACCEPT reverse
 > argument
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** as the atoms get bigger
 - **(1)** the reactivity decreases ACCEPT reverse
@@ -242,9 +236,6 @@ Explain how method B prevents iron from rusting even when the zinc coating is da
 > preference to iron rates of reaction
 > REJECT references to
 > zinc rusting
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** zinc is more reactive than iron /higher in the
 - **(1)** therefore reacts / oxidises / corrodes in IGNORE references to
@@ -324,9 +315,6 @@ A sample of carbon contains atoms of mass number 12 and 13 The table shows the p
 > decimal places with or
 > without working scores
 > 2 marks.
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (98.930 × 12) + (1.070 × 13) ÷ 100
 - **(1)** 12.01 ALLOW 1 mark for
@@ -412,9 +400,6 @@ Explain why the gas syringes in experiment 1 cannot be used to find the percenta
 > precise/accurate
 > enough to measure
 > small volume changes
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the percentage/amount of carbon dioxide in the ALLOW there is 0.04%
 - **(1)** therefore the reading on the syringe would ALLOW the change on
@@ -457,9 +442,6 @@ Explain why argon is extremely unreactive.
 > shell electrons
 > M2 therefore does not lose or gain (or share)
 > electrons
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** argon/it has a full outer shell of electrons ALLOW has eight outer
 - **(1)** therefore does not lose or gain (or share)
@@ -575,9 +557,6 @@ The relative formula mass (Mr) of compound Z is 62 Deduce the molecular formula 
 > M1 Mr of CH3O = 31 C2H6O2 without working
 > scores 2
 > M2 (62 ÷ 31 = 2 so molecular formula is) C2H6O2
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Mr of CH3O = 31 C2H6O2 without working
 - **(1)** (62 ÷ 31 = 2 so molecular formula is) C2H6O2
@@ -727,9 +706,6 @@ Explain why ammonia has a low boiling point.
 > M2 and therefore require little energy to overcome IGNORE less energy
 > Mention of breaking
 > covalent bonds = 0
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** forces between molecules/intermolecular forces ALLOW intermolecular
 - **(1)** and therefore require little energy to overcome IGNORE less energy
@@ -789,9 +765,6 @@ A colourless solution contains sodium carbonate and sodium sulfate. Describe a t
 > M1 add (dilute) acid before adding the barium ALLOW any named acid
 > chloride except sulfuric acid
 > M2 white precipitate M2 is dependent on M1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add (dilute) acid before adding the barium ALLOW any named acid
 - **(1)** white precipitate M2 is dependent on M1
@@ -894,9 +867,6 @@ Use the results of the experiment to explain the type of reaction that occurs wh
 > No M2 or M3 if the
 > statements contradict
 > one another
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** An explanation that links together
 
@@ -942,9 +912,6 @@ Suggest why the mass of carbon dioxide produced is less than the calculated maxi
 > M1 the sodium carbonate is impure
 > M2 some of the carbon dioxide dissolves in the
 > acid/solution
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Any one from:
 
@@ -1031,9 +998,6 @@ Calculate the number of molecules of ethanol in 15.5 cm3 of ethanol. number of m
 > except 1
 > ALLOW answer in
 > ordinary form
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** answer from (b)(i) × 6 × 1023 ALLOW any number of
 
@@ -1106,9 +1070,6 @@ The student burns 0.0200 mol of ethanol. Use this information and your value for
 > REJECT incorrect
 > rounding.
 > REJECT positive answer.
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 20.790 kJ ALLOW answer to 10(c)(i)
 - **(1)** (20.790 ÷ 0.0200 =) -1039.5 (kJ/mol) ALLOW any number of

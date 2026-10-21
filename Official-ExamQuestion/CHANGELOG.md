@@ -4,6 +4,45 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.10.0 — 2026-10-22 · rasterization re-capture: OCR source layer (F41) + early-MS bare-marker linkage (F42)
+
+The last honest REVIEW in the corpus is closed: 2019-06 1C goes G1 PASS 110/110.
+
+- **OCR source layer (F41)** — image-only archive pages can now be recovered without
+  inventing content: staged `UPLOAD/ocr/<series>-<paper>/qp-pNN.txt` (prepared page
+  texts) + `ocr-pages.json` (sha256-pinned, tool + corrections documented). The
+  converter fail-closes on any sha mismatch, splices the text into page_norm for
+  page attribution, exempts recovered pages from the G1 image-only attribution, and
+  emits `ocr_pages` receipts. Prep committed as `scripts/prep_ocr_layer_2019.py`
+  (deterministic + idempotent). 2019-06: Q7 recovered whole, Q1/Q11/Q12/Q13/Q15
+  heads recovered; G1 104/110 REVIEW -> 110/110 PASS; every recovered part eyeballed
+  against the 600-dpi render; sub-OCR-floor spans (equation subscripts, table
+  values) transcribed with MS-text-layer corroboration and canary-pinned (C49-C51).
+- **Early-MS bare-marker linkage (F42)** — the 2019-06 MS prints two-level markers
+  bare (`d   i`, `   ii`, glued `10ai`/`bi`), leaves 9(b)'s answer cell empty (the
+  answer is a drawn diagram), sets `iii` at indent 0 after a page break, and its
+  unit fragments (`(g)`) hijacked the marker state. Fixes: marker-column indent
+  gate (<=12), three new gated row regexes (ascending-sequence invariant),
+  end-of-line bare-letter rows, marks-digit-only rests open marker-only entries,
+  repeated MS page-table headers are furniture, and a question-level-roman lookup
+  fallback. G5: 32/53 -> 63/64; the residual 3(d)(ii) is honestly unmatched (its MS
+  answer cell is a printed image — C52). Damage-repair renumber:
+  11(iii)->11(b)(iii), 15(i..iii)->15(b)(i..iii) (spec-labels keys migrated, wave 2).
+- **MS page-table headers are furniture (F43)** — the G-E1 export gate's first run
+  surfaced a latent v0.6-era defect: 278 served solution blocks (corpus-wide) carried
+  the repeated 'Question / Answer Notes Marks / number' header inside solution_md /
+  mark_points, because a marker row near a page break swallowed the next page's
+  header rows. G5 never caught it (linkage counts were right; only block contents
+  were polluted). Fixed by the header furniture rule; C54 pins the law corpus-wide.
+  The hub bundle of record carried the same pollution plus 10 mis-linked 2019-06 1C
+  solution blocks (wrong answers served since v0.6) — corrected by the wave-12 hub
+  re-export under the G-E1 frozen census (F41b).
+- **Canaries 45 -> 52** (C4 retired -> C4-archive-damage-repaired; C48-C53 added;
+  new checker verbs parts_all_linked / part_answer_status / part_problem_md_contains /
+  ocr_pages_receipt). Parity vs v0.9.0: 31/32 slices extraction-identical with
+  identical G5 summaries; the 2019-06 1C diffs are exactly the 11 recovered + 4
+  renumbered parts. Corpus: 941 parts, 0 pending-llm, 4 terminal no-spec-point.
+
 ## 0.9.0 — 2026-10-22 · 2C wave: crop-eyeball fixes (F40), ledger keying (F39), 2C spec-label wave
 
 The 2C backlog opened by the 0.8.0 enablement wave is closed end-to-end.

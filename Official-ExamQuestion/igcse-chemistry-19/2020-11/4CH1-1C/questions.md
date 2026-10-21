@@ -112,9 +112,6 @@ Which of these is the least reactive element in Group 1?
 > D is not correct because sodium is not the least
 > reactive element in Group 1
 > Total for Q1 = 7 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer B: lithium
 
@@ -162,9 +159,6 @@ A student has two solids, X and Y. One of these solids is a pure substance and t
 > opposed to
 > melting point
 > Total for Q2 = 6 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** measure the melting point ALLOW measure
 - **(1)** if fixed/sharp melting point the substance is pure M1 and
@@ -281,9 +275,6 @@ Explain which substance is the oxidising agent.
 > IGNORE references to
 > electrons
 > Total for Q3 = 8 marks
-> Question
-> Answer Notes Marks
-> number
 > - -
 
 - **(1)** copper(II) oxide/CuO
@@ -379,9 +370,6 @@ The diagram shows a beaker containing some ammonia solution and a few drops of p
 > yellow in alkali and red in acid
 > D is not correct because phenolphthalein is not
 > colourless in alkali and pink in acid
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer C: pink           colourless
 
@@ -445,9 +433,6 @@ Calculate the mass, in grams, of nitrogen in 1.0 kg of ammonium sulfate. mass = 
 > ALLOW any number
 > of sig figs except 1
 > Total for Q4 = 10
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** Example calculation mark CQ from (i)
 
@@ -574,9 +559,6 @@ Graphite is another substance that contains covalent bonds. The diagram shows th
 > 0 marks if mention of
 > ions in graphite
 > Total Q5 = 12
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (one) electron (per carbon atom) delocalised IGNORE sea of Exp
 - **(1)** (so) free to move (between layers)
@@ -653,9 +635,6 @@ Describe how compound D can be obtained from crude oil using the industrial proc
 > If confusion with
 > cracking only M1 can be
 > awarded
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** heat/vapourise crude oil ALLOW boil
 - **(1)** pass into (fractionating) column/tower
@@ -699,9 +678,6 @@ Draw the structure of this polymer. Include the displayed formula of the repeat 
 > ALLOW use of CH3
 > M2 brackets and n and extension bonds M2 DEP M1
 > Total for Q6 = 14
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** correct repeat unit Ignore bond angles
 - **(1)** brackets and n and extension bonds M2 DEP M1
@@ -861,9 +837,6 @@ Explain, in terms of particle collision theory, the effect that increasing the t
 > M3 rate (of reaction) increases ALLOW reaction is faster
 > /speeds up
 > Total Q7 =14
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (mean) kinetic energy of particles increases ALLOW particles move faster
 - **(1)** (so) more successful collisions per second/unit ALLOW reference to more
@@ -941,9 +914,6 @@ The diagram shows the temperatures in one experiment. °C 25 °C 30 20 25 initia
 > M2 24.4
 > M3 2.9 ALLOW ECF for M3 if
 > M1 and/or M2 incorrect
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 27.3
 - **(1)** 24.4
@@ -1013,9 +983,6 @@ Another student does a similar experiment but uses hydrated copper(II) sulfate i
 > grad
 > M2 (so) endothermic
 > Total Q8 = 14
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** temperature decreases/falls
 - **(1)** (so) endothermic
@@ -1097,9 +1064,6 @@ The student considered using a lid on the crucible in the experiment. Suggest an
 > escaping
 > M2 disadvantage: the gas(es)/CO2/H2O/steam could
 > not easily escape OWTTE
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** advantage: to stop any solid/Na2CO3/NaHCO3 REJECT references to
 - **(1)** disadvantage: the gas(es)/CO2/H2O/steam could
@@ -1177,9 +1141,6 @@ Other than spillages, suggest a possible reason why the student’s actual yield
 > M2 not all sodium hydrogencarbonate
 > reacted/decomposed
 > Total Q9 = 12 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** any one from
 

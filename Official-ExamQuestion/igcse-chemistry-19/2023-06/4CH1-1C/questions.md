@@ -58,9 +58,6 @@ A sample of solid hydrated copper(II) sulfate can be obtained from a mixture of 
 > distillation
 > M4 A pure sample of hydrated copper(II) sulfate is ACCEPT crystallising
 > then obtained by crystallisation
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** A mixture of copper(II) oxide and copper(II)
 - **(1)** The copper(II) oxide is then removed by filtering ACCEPT filtration
@@ -188,9 +185,6 @@ Give the reason why no reaction occurs when iron is added to magnesium sulfate s
 > iron is less reactive/lower in the reactivity series (than IGNORE just ‘iron is
 > magnesium) ORA not reactive enough’
 > with no comparison
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** iron is less reactive/lower in the reactivity series (than IGNORE just ‘iron is
 
@@ -240,9 +234,6 @@ Explain why substance X has a low melting point.
 > REJECT intermolecular
 > forces between atoms/bonds
 > for both marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (X has) weak intermolecular forces / weak ALLOW weak intermolecular
 - **(1)** (so) little energy needed to overcome the REJECT any reference to
@@ -334,9 +325,6 @@ Propene can be polymerised to form poly(propene). Draw the displayed formula of 
 > −C − C−
 > I I REJECT structure without
 > H CH3 extension bonds
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** M1
 
@@ -389,9 +377,6 @@ Describe a test to show that this hydrocarbon is unsaturated.
 > REJECT if reference to uv
 > being needed for reaction
 > to take place
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add bromine water REJECT add bromine for
 - **(1)** (bromine water) decolourised / turns (from M2 dep on reference to
@@ -479,9 +464,6 @@ Lithium carbonate has ionic bonding. State what is meant by the term ionic bondi
 > cations/positive ions
 > REJECT implication of
 > covalent bonding for M2
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** electrostatic attraction
 - **(1)** between oppositely charged ions ACCEPT between
@@ -621,9 +603,6 @@ Use your graph to determine the volume of lead(II) nitrate solution needed to re
 > cross/meet or if there
 > aren’t two lines eg a curve
 > is drawn
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** value read from graph where lines cross no mark if lines do not
 
@@ -729,9 +708,6 @@ A student mixes the following pairs of solutions. Pair 1 bromine solution and po
 > M7 the overall order of reactivity is chlorine > bromine > IGNORE references
 > iodine ORA to reactivity
 > up/down the group
-> Question
-> Answer Notes Marks
-> number
 
 - **(6)** An explanation which links six of the following points
 
@@ -847,9 +823,6 @@ The formula of pentanol is C5H11OH Write a chemical equation for the complete co
 > IGNORE state
 > symbols even if
 > incorrect
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** all formulae correct
 - **(1)** balancing of correct formulae M2 dep on M1
@@ -985,9 +958,6 @@ The table gives the student’s results. Mass of empty tube in g 15.83 Mass of t
 > 3.55
 > M4 moles of H2O = 180  18
 > M5 therefore, x = 10
-> Question
-> Answer Notes Marks
-> number
 
 - **(5)** M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g) Correct answer
 

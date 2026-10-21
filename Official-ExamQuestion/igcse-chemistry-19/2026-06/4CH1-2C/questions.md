@@ -90,9 +90,6 @@ Butane‑1,4‑dioic acid can react to form this polyester. O O O CH2 CH2 CH2 CH
 > M2 for circling the correct 4 adjacent carbons IGNORE C-O- if circled
 > including the two C=O
 > M2 dep on M1
-> Question
-> Answer Notes Marks
-> number
 > _
 
 - **(1)** for circling any 4 adjacent carbons If fewer/more than 4
@@ -241,9 +238,6 @@ Solid sodium hydroxide is dissolved in excess water to make a solution. This pro
 > 0.646(25) scores 2
 > ACCEPT any number of
 > SF except 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (0.55 × 1000 =) 550 (g)
 - **(1)** amount of sodium hydroxide = 550 ÷ 40 ECF from M1
@@ -392,9 +386,6 @@ Molten sodium chloride is electrolysed to give 5000 mol of chlorine gas. Calcula
 > M2 120 000 (dm3) ALLOW
 > 5000 x 24 = 120 000
 > (dm3) scores 2
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (5000 × 24 000 =) 120 000 000 (cm3)
 - **(1)** 120 000 (dm3) ALLOW
@@ -462,9 +453,6 @@ A student is given a sample of solid potassium chloride. Describe a method that 
 > for M4
 > M6 stir (using a stirring rod) until KCl has ALLOW invert volumetric
 > dissolved flask for M6
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** amount of KCl (= 0.25 × 0.500 )= 0.125 mol
 - **(1)** mass of KCl (= 0.125 × 74.5)= 9.31 g 9.3(1) scores M1 and M2
@@ -563,9 +551,6 @@ The reaction between ethanoic acid and ethanol is exothermic. Explain the effect
 > OR so more frequent collisions that have energy
 > equal to/greater than activation energy
 > M6 rate increases
-> Question
-> Answer Notes Marks
-> number
 
 - **(5)** an explanation linking any 5 of the following points: M3 or M6 incorrect, max 4
 

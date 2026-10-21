@@ -77,9 +77,6 @@ State why neon is unreactive.
 > shell/energy level
 > ALLOW 8 electrons in
 > outer shell/energy level
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** does not (easily) gain/lose/share electrons ALLOW full outer
 
@@ -139,9 +136,6 @@ The student then sets up two more test tubes containing iron nails. drying agent
 > water/moisture present
 > as an alternative to M4
 > and M5
-> Question
-> Answer Notes Marks
-> number
 
 - **(4)** An explanation that links 4 of the following 5 points
 
@@ -342,9 +336,6 @@ Use your graph to calculate the solubility of potassium nitrate in g per 100 g o
 > 44 g
 > ALLOW ECF from
 > incorrect plotting
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** mass at 25 oC read from graph to nearest grid line
 - **(1)** mass from graph multiplied by 4 expected answer around
@@ -417,9 +408,6 @@ Draw the displayed formulae for ethanol and ethanoic acid in the boxes. ethanol 
 > between O and H once
 > only
 > M2
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** M1 Penalise no bond
 
@@ -471,9 +459,6 @@ The word equation for the fermentation process is glucose → ethanol + carbon d
 > ethanol
 > ALLOW multiples and
 > fractions
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** C6H12O6  2C2H5OH + 2CO2 ALLOW 2C2H6O for
 
@@ -563,9 +548,6 @@ Suggest why the volume of chlorine collected during this electrolysis is less th
 
 > (some) chlorine dissolves (in the solution) ALLOW chlorine
 > dissolves in water
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (some) chlorine dissolves (in the solution) ALLOW chlorine
 
@@ -619,9 +601,6 @@ Calculate the maximum volume, in dm3, of chlorine gas at rtp that can be obtaine
 > answer in standard form
 > as long as some working
 > is shown
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 23 400 000 OR 400 000
 - **(1)** 400 000 OR 200 000 OR answer to M1
@@ -671,9 +650,6 @@ What is the colour of phenolphthalein in phosphoric acid?
 > not in acid
 > D is not correct as the colour of phenolphthalein in
 > phosphoric acid is not red
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer B: colourless
 

@@ -66,9 +66,6 @@ There are two isotopes of this element. Give one way, in terms of sub-atomic par
 > mass number and
 > atomic number.
 > 5 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** same number of protons ALLOW same number
 - **(1)** different number of neutrons
@@ -133,9 +130,6 @@ Describe the test for hydrogen gas.
 
 > lighted splint (produces squeaky) pop
 > 5 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** lighted splint (produces squeaky) pop
 
@@ -218,9 +212,6 @@ An ester is formed by adding ethanoic acid to ethanol in the presence of sulfuri
 > M2 rest of molecule correct as a fully displayed
 > structure
 > 8 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** ester linkage as a displayed
 - **(1)** rest of molecule correct as a fully displayed
@@ -298,9 +289,6 @@ Explain why potassium is more reactive than sodium. Refer to the electronic conf
 > M3 therefore (outer shell electron) is more easily ALLOW reverse
 > lost argument for sodium
 > 9 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** electron configuration of sodium is 2,8,1 and ALLOW the outer shell
 - **(1)** outer electron less attracted (to the nucleus of
@@ -446,9 +434,6 @@ Draw an energy level diagram for the reaction between aluminium and iron(III) ox
 > scored from an
 > endothermic diagram
 > 14 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** right hand line below left hand line
 - **(1)** correct name / formula of both reactants
@@ -539,9 +524,6 @@ Give a reason why the last three heights are the same.
 > nitrate is in excess /
 > not all the silver
 > nitrate has reacted
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** all the copper [(II)] chloride has reacted ALLOW the silver
 
@@ -593,9 +575,6 @@ In an experiment using different solutions, the mass of silver chloride produced
 > M2 87.5(%) ALLOW 2 or more
 > significant figures
 > 15 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (0.744 ÷ 0.850) × 100
 - **(1)** 87.5(%) ALLOW 2 or more
@@ -652,9 +631,6 @@ Octane can also be produced by the process of cracking. Give the conditions for 
 > oxide
 > IGNORE references to
 > pressure
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** temperature of 600°C - 700°C
 - **(1)** catalyst of silica / alumina ALLOW

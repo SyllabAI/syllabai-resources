@@ -53,9 +53,6 @@ Describe how particles are arranged differently in solids and gases.
 > related to movement
 > including ‘random
 > movement’
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** solid (particles) have a regular arrangement OR IGNORE statements
 - **(1)** solid (particles) are closely/tightly packed OR IGNORE diagrams
@@ -154,9 +151,6 @@ The percentage of oxygen in air is approximately 21%. Suggest an improvement to 
 > ALLOW warmer temperature
 > repeat/average does not
 > score - apply list principle
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Leave the experiment for longer (than a ALLOW use a measuring
 
@@ -323,9 +317,6 @@ Identify the relationship between relative atomic mass and atomic number for the
 > atomic mass and the atomic number) / as the proportional
 > atomic number increases so does the relative REJECT proportional
 > atomic mass REJECT linear
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** there is a positive correlation (between the relative REJECT directly
 
@@ -419,9 +410,6 @@ Complete the equation for the reaction in the glass tube by adding state symbols
 **Mark scheme answer**
 
 > NH3 (g) + HCl (g) ⇌ NH4Cl (s) IGNORE letter case
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** NH3 (g) + HCl (g) ⇌ NH4Cl (s) IGNORE letter case
 
@@ -546,9 +534,6 @@ Explain why metal X could be silver.
 > M2 therefore there was no reaction/there was no M2 dep on correct M1 or
 > (mean) temperature increase/no displacement M1 missing
 > reaction
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** silver is less reactive than copper
 - **(1)** therefore there was no reaction/there was no M2 dep on correct M1 or
@@ -665,9 +650,6 @@ Give the term used to describe ethene in the polymerisation process.
 **Mark scheme answer**
 
 > monomer
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** monomer
 
@@ -778,9 +760,6 @@ The amount of dilute nitric acid used in the investigation was 0.079 mol. Calcul
 > M2 3.78 OR 47.8 (kJ/mol)
 > 0.079
 > M3 − 47.8 (kJ/mol)
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** M1 3780 OR 47 848 (J/mol) correct answer without
 
@@ -831,9 +810,6 @@ Explain why magnesium oxide has a higher melting point than sodium chloride. Ref
 > on ions
 > M5 which take more energy (to overcome the
 > forces / break the bonds) ORA
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (sodium chloride and magnesium oxide) have a Mention of covalent
 - **(1)** (there are) electrostatic forces / attraction
@@ -956,9 +932,6 @@ Draw an isomer of propene that does not have the same functional group.
 **Mark scheme answer**
 
 > structure of cyclopropane
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** structure of cyclopropane
 

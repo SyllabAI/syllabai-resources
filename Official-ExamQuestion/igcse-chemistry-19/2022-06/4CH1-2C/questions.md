@@ -76,9 +76,6 @@ Describe a test for carbon dioxide.
 > REJECT addition of
 > extra reagents for both
 > marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** bubble/pass/add the gas/carbon dioxide into
 - **(1)** (limewater) turns cloudy/milky ALLOW white
@@ -180,9 +177,6 @@ State why sulfuric acid would not be a suitable acid to use in this titration.
 
 > barium sulfate is insoluble /does not dissolve /forms a
 > precipitate
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** barium sulfate is insoluble /does not dissolve /forms a
 
@@ -297,9 +291,6 @@ Describe tests to show that the product of the reaction is lithium chloride.
 > M5 white precipitate
 > M5 dep on addition of
 > silver nitrate
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** flame test flame test
 - **(1)** red (flame) ALLOW crimson/scarlet
@@ -419,9 +410,6 @@ Write an ionic half‑equation for the formation of chlorine at the positive ele
 > fractions
 > IGNORE state symbols
 > even if incorrect
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 2Cl  Cl2 + 2e() ALLOW 2Cl  2e() Cl2
 
@@ -566,9 +554,6 @@ Draw the structural formulae of the two monomers used to make this polyester.
 > ALLOW HOCH2CH2OH for
 > M2
 > REJECT OH—C once only
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** 2
 
@@ -638,9 +623,6 @@ Aeroplanes are made of an alloy containing aluminium and titanium. Explain why t
 > M3 (which disrupts the structure so that)
 > atoms/layers do not/harder to slide over each
 > other (making it stronger) OWTTE
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** in pure titanium all atoms are the same size ALLOW cations/ions
 - **(1)** the alloy has atoms of different sizes REJECT mention of

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.multi-series/0.1",
- "generated_utc": "2026-10-21T18:28:45Z",
+ "generated_utc": "2026-10-21T21:18:05Z",
  "baseline": "2020-11",
  "corpus": "4CH1 1C+2C — all series in syllabai-pastpapers (F34)",
  "series": [
@@ -10,43 +10,27 @@
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
-    "G1-structure": "REVIEW",
+    "G1-structure": "PASS",
     "G2-verbatim": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS"
    },
-   "questions": 14,
-   "parts": 53,
-   "marks_total": 104,
+   "questions": 15,
+   "parts": 64,
+   "marks_total": 110,
    "marks_expected": 110,
-   "mcq_parts": 3,
-   "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 32/53 (60%)",
+   "mcq_parts": 6,
+   "mcq_keyed": 6,
+   "ms_linkage": "MS linkage 63/64 (98%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
-   "source_defects": {
-    "image_only_pages": [
-     4,
-     12,
-     16,
-     18,
-     20,
-     26
-    ],
-    "affected_questions": [
-     1,
-     7,
-     11,
-     12,
-     15
-    ]
-   },
-   "review_queue_items": 22
+   "source_defects": null,
+   "review_queue_items": 2
   },
   {
    "series": "2019-06",

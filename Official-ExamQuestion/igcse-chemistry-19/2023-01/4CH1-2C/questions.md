@@ -63,9 +63,6 @@ Explain why Y and Z are isotopes of the same element.
 > number, different mass
 > number” for (1) mark
 > Total for question = 7
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** same number of protons / both have 17 protons IGNORE all refs to
 - **(1)** different number of neutrons / one has two
@@ -143,9 +140,6 @@ Determine the number of atoms in a molecule of C10H16N2O3S
 
 > 32/thirty two
 > Total for question = 5
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 32/thirty two
 
@@ -250,9 +244,6 @@ A saturated solution of the salt in 100 g of water is cooled from 90 °C to 30 �
 > Mark ECF on (ii), even if
 > a straight line is drawn
 > Total for question = 8
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** working shown on graph ALLOW any evidence of
 - **(1)** solubility at 90°C – solubility at 30°C Expected answer of 74-
@@ -371,9 +362,6 @@ Describe a test to show that ethene is unsaturated.
 > in presence of uv, then
 > score M1 only
 > Total for question = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add bromine water ALLOW bromine solution
 - **(1)** which decolourises / turns colourless M2 dep on mention of
@@ -476,9 +464,6 @@ Copper can be produced by reacting an oxide of copper with methane. The diagram 
 > IF Ar is divided by mass,
 > then M1 only scores
 > Total for question = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** mass of copper = 3.81g and mass of oxygen =
 - **(1)** moles of copper = 0.06 and moles of oxygen = M2 allow ECF from M1
@@ -582,9 +567,6 @@ A student does a titration to find the accurate volume of sodium hydroxide solut
 > M9 repeat until concordant results ALLOW repeat until two
 > results are ± 0.2 cm3
 > Total for question = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(6)** Any 6 of the following:
 

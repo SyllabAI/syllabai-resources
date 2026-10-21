@@ -69,9 +69,6 @@ Complete the equation, by adding the state symbols, for the conversion of water 
 > H2O(l) → H2O(s) ALLOW upper
 > case/lower case
 > Total = 6
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** H2O(l) → H2O(s) ALLOW upper
 
@@ -153,9 +150,6 @@ Why does chlorine have the highest boiling point of the gases in the table?
 > C is not the correct answer because chlorine does
 > not have ionic bonds
 > Total = 6
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer D: chlorine has the strongest forces of attraction between its molecules
 
@@ -236,9 +230,6 @@ Explain how method B prevents iron from rusting even when the zinc coating is sc
 > REJECT zinc reacts with
 > iron
 > Total = 8
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** zinc is more reactive than iron OR zinc has a ALLOW zinc reacts
 - **(1)** zinc oxidises / forms zinc oxide/reacts before REJECT references to
@@ -323,9 +314,6 @@ Describe how the student can use the chromatogram to determine the Rf value for 
 > correct calculation
 > method
 > Total = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** measure the distance from the start line to the
 - **(1)** distance moved by the spot ÷ distance moved by M2 subsumes M1
@@ -419,9 +407,6 @@ Determine the rate of reaction at 8 minutes by drawing a suitable tangent to the
 > ALLOW cm3/s
 > ALLOW cm3s-1
 > Total = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** tangent drawn to the graph at 8 minutes
 - **(1)** measurements made from ALLOW ecf for tangent
@@ -518,9 +503,6 @@ Describe the forces of attraction in a covalent bond.
 > REJECT intermolecular
 > forces for both marks
 > Total = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (electrostatic) forces of attraction between shared
 - **(1)** and the nuclei REJECT nucleus (must
@@ -598,9 +580,6 @@ The decomposition of hydrated magnesium sulfate is shown in the equation. MgSO4.
 > Answer of 7 on its own
 > scores 4 marks
 > Total = 8
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (mass of water) = 6.3g Ecf for incorrect mass of
 - **(1)** (moles of MgSO4) = 0.05
@@ -695,9 +674,6 @@ Explain the effect of increasing the temperature of hydrochloric acid on the rat
 > M3 so more successful collisions per unit time ALLOW more frequent
 > successful collisions
 > Total = 9
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** rate of reaction increases
 - **(1)** particles have more energy OR more particles ALLOW particles move
@@ -807,9 +783,6 @@ Calculate the total amount, in moles, of gas produced by the incomplete combusti
 > M3 0.45 moles ALLOW M2×9
 > Answer of 0.45 scores 3
 > Total = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (Mr of butanol) 74
 - **(1)** (moles of butanol) 3.7÷74 OR 0.05 ALLOW 3.7÷M1 if
@@ -936,9 +909,6 @@ The reaction used to make poly(ethene) can be represented by this equation. ( ( 
 > saturated
 > M3 ethene is a gas and poly(ethene) is a solid
 > Total = 12
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** 3
 

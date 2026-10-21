@@ -78,9 +78,6 @@ Explain why hot water evaporates more quickly than cold water.
 > energy or rate of
 > reaction
 > Total for question = 6
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (particles / molecules have) more (kinetic) ALLOW hot water has
 - **(1)** can overcome / break the (intermolecular) ALLOW can overcome /
@@ -206,9 +203,6 @@ After one day the student does two tests on the liquid in the beaker. The table 
 > If name correct ignore
 > incorrect formula
 > Total for question = 7
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** potassium / K+ potassium sulfate scores 2
 - **(1)** sulfate / SO42- K2SO4 scores 2
@@ -300,9 +294,6 @@ The table shows the student’s results. initial length of column of gas 75 mm f
 > answer of 40% without
 > working scores 1
 > Total for question = 6
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 75  30 OR 45 (mm)
 - **(1)** (45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1
@@ -373,9 +364,6 @@ Give a reason why the blue dye has a larger R f value than the yellow dye.
 > travels further up the
 > paper
 > Total for question = 7
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the blue food colouring/it is more soluble (in water)
 
@@ -465,9 +453,6 @@ This ionic equation represents the reaction between magnesium and aluminium nitr
 > IGNORE Mg is oxidised
 > M2 dep on M1
 > Total for question = 7 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** magnesium /Mg (is the reducing agent)
 - **(1)** magnesium /Mg donates electrons (causing Al 3+ ALLOW magnesium / Mg
@@ -561,9 +546,6 @@ A different polymer molecule contains 10 600 atoms of carbon, 10 600 atoms of hy
 > Answer of CHCl3 without
 > working scores 2
 > Total for question = 10
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 1:1:3 / 31 800 ÷ 10 600 ALLOW other evidence
 - **(1)** CHCl3 ALLOW the atoms in any
@@ -693,9 +675,6 @@ Describe how the combustion of sulfur-free petrol in a car engine produces gases
 > M4 which react with/dissolve in water forming M4 dep on M3
 > nitric acid /HNO3 /acid rain
 > Total for question = 12
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** A description that refers to any 3 from
 
@@ -787,9 +766,6 @@ Lithium oxide has a giant ionic structure. Explain why lithium oxide has a high 
 > intermolecular forces or
 > molecules
 > Total for question = 10
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** strong (electrostatic) forces of attraction ALLOW strong ionic
 - **(1)** between oppositely charged ions
@@ -858,9 +834,6 @@ Graphite is a naturally-occurring form of carbon. Explain why graphite is soft a
 > M6 (delocalised) electrons flow / move / are mobile
 > (to conduct electricity)
 > Total for question = 10
-> Question
-> Answer Notes Marks
-> number
 
 - **(5)** An explanation that links any five from
 
@@ -937,9 +910,6 @@ In the reaction, 0.0500 mol of hydrochloric acid completely react. Calculate the
 > Correct answer without
 > working scores 3
 > Total for question = 9
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** M1 2880 ÷ 1000 OR 2.880 kJ
 
@@ -1039,9 +1009,6 @@ The student repeats the experiment and records the volume of hydrogen gas collec
 > 1 mark for
 > 240 ÷ 40 = 6 (cm3/s)
 > Total for question = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** tangent drawn (at 40 s)
 - **(1)** change in volume of hydrogen ÷ change in time

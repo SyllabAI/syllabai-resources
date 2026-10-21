@@ -100,9 +100,6 @@ Give the molecular formula of ethanol.
 > numbers
 > REJECT C2H5OH
 > Total for question = 7
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** C2H6O IGNORE size of
 
@@ -237,9 +234,6 @@ Name another pollutant gas that also forms acid rain.
 > ALLOW other oxides of
 > nitrogen
 > Total for question = 8
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** sulfur dioxide ALLOW SO2
 
@@ -338,9 +332,6 @@ Suggest why the student’s method is not suitable for determining the solubilit
 > would decompose
 > M2 (hydrated) copper(II) sulfate would lose water
 > Total for question = 9
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Any one from
 
@@ -442,9 +433,6 @@ The teacher adds 0.150 g of lithium to an excess of water and collects the hydro
 > without working scores
 > 4 marks.
 > Total for question = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** amount lithium = 0.150 ÷ 7 OR 0.0214 mol penalise 1 sig fig in M1
 - **(1)** amount hydrogen = 0.0107 mol ALLOW M1÷2
@@ -524,9 +512,6 @@ On the diagram, draw a curve to show the reaction profile for the same reaction 
 > the peak of the original curve, and ending at water
 > and oxygen level
 > Total for question = 8
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** curve starting from hydrogen peroxide level, below
 
@@ -649,9 +634,6 @@ Explain why metals conduct electricity.
 > 0 marks if reference to
 > ions moving
 > Total for question = 12
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** delocalised electrons IGNORE sea of electrons
 - **(1)** are free to move (throughout the structure) M2 dep on mention of
@@ -754,9 +736,6 @@ Explain why adding a catalyst does not change the position of equilibrium.
 > M1 a catalyst increases the rate of forward and
 > backward reactions
 > M2 equally M2 dep on M1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** a catalyst increases the rate of forward and
 - **(1)** equally M2 dep on M1

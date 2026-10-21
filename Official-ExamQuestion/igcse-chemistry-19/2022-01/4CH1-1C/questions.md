@@ -80,9 +80,6 @@ Determine the number of atoms in a molecule of C3H5N3O9
 
 > 20
 > Total for question = 7 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 20
 
@@ -188,9 +185,6 @@ Give two other methods used to prevent iron from rusting. 1 2
 > sacrificial protection
 > cathodic protection
 > Total for question = 9 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** Any two from:
 
@@ -273,9 +267,6 @@ Concentrated ammonia solution and concentrated hydrochloric acid are corrosive. 
 > ALLOW put a bung /
 > cork in both ends
 > Total for question = 7 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** eye protection / wear safety glasses / goggles
 
@@ -382,9 +373,6 @@ Suggest one reason why the calculated percentage of oxygen in the mixture may no
 > IGNORE not all oxygen
 > reacted
 > Total for question = 8 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Any one from:
 
@@ -486,9 +474,6 @@ The equation for the reaction between magnesium and oxygen is 2Mg + O2 → 2MgO 
 
 > (moles of MgO) = 0.40
 > Total for question = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (moles of MgO) = 0.40
 
@@ -569,9 +554,6 @@ When sodium oxide is heated it reacts to form sodium metal and sodium peroxide, 
 
 > 2Na2O → 2Na + Na2O2
 > Total for question = 9 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 2Na2O → 2Na + Na2O2
 
@@ -680,9 +662,6 @@ Give an advantage of mixing solutions containing equal amounts, in moles, of sil
 > contaminate the sodium
 > nitrate OWTTE
 > Total for question = 8 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** any one from:
 
@@ -825,9 +804,6 @@ Give one problem caused by the disposal of addition polymers.
 > landfill sites are getting full
 > toxic / greenhouse gases are produced when burned
 > Total for question = 15 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Any one from:
 
@@ -975,9 +951,6 @@ Explain why changing the concentration of hydrochloric acid has an effect on the
 > REJECT increased /
 > changed energy / speed
 > Total for question = 15 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** change in number of particles (per unit volume) ALLOW particles are
 - **(1)** change in collisions per unit time ALLOW change in
@@ -1061,9 +1034,6 @@ Graphite and C60 fullerene contain covalent bonds, but have different structures
 > covalent bonds in C60 no
 > M4 or M5
 > Total for question = 9 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(4)** Any four from:
 
