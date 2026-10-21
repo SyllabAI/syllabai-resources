@@ -298,6 +298,32 @@
    "official_code": "S4.174",
    "tier": "S0_operator_override",
    "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_b73GQrfrvh6TZkh9": {
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_code": "S4.172",
+   "tier": "S0_operator_adjudication",
+   "method": "operator-delegate adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+   "adjudication": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "evidence": "orphan pool wording is S4.172's lead-in verbatim ('Calculate and interpret the following liquidity ratios:'); sole citing part's post-repair code = S4.172; S4.170 rejected (it is the profitability-vs-liquidity distinction, not the ratios)",
+    "rule": "T-SPEC-ACCT-ADJ-1 operator adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+    "trace": "1a15e3f5088ea219",
+    "generated_utc": "2026-10-21T11:46:20Z"
+   }
+  },
+  "spcpt_b663TCrP8tWxhjvq": {
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_code": "S4.172",
+   "tier": "S0_operator_adjudication",
+   "method": "operator-delegate adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+   "adjudication": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "evidence": "orphan pool wording is S4.172's lead-in verbatim; 8 citing parts all sit in liquidity-ratio questions and every surviving whole-question code = S4.172; item name 'Evaluating Liquidity' = interpret/evaluate the current and acid-test ratios = S4.172's scope",
+    "rule": "T-SPEC-ACCT-ADJ-1 operator adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+    "trace": "1a15e3f5088ea219",
+    "generated_utc": "2026-10-21T11:46:20Z"
+   }
   }
  },
  "unmapped": [
@@ -310,20 +336,6 @@
    "spcpt_id": "spcpt_cdXKKWTrNP4djDZW",
    "name": "Mark-up",
    "reason": "no-guess pending: the published 4AC1 spec carries no mark-up statement (Topic 4.4 lists gross profit percentage, profit for the year as a percentage of revenue, and return on capital employed only — PDF p27)"
-  },
-  {
-   "spcpt_id": "spcpt_b73GQrfrvh6TZkh9",
-   "name": "Liquidity",
-   "reason": "no-guess demote: orphan pool id IGCSE_ACCOUNTING:S4.070 absent from committed spine issue-1; no-tier evidence empty; no deterministic parent (ambiguity or name-overlap guard)",
-   "candidates": {},
-   "was_official_id": "IGCSE_ACCOUNTING:S4.070"
-  },
-  {
-   "spcpt_id": "spcpt_b663TCrP8tWxhjvq",
-   "name": "Evaluating Liquidity",
-   "reason": "no-guess demote: orphan pool id IGCSE_ACCOUNTING:S4.070 absent from committed spine issue-1; no-tier evidence empty; no deterministic parent (ambiguity or name-overlap guard)",
-   "candidates": {},
-   "was_official_id": "IGCSE_ACCOUNTING:S4.070"
   }
  ],
  "flags": [],
@@ -337,6 +349,19 @@
    "id": "igcse-accounting",
    "issue": "1",
    "points": 101
+  }
+ },
+ "adjudication": {
+  "rule": "T-SPEC-ACCT-ADJ-1 operator adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+  "trace": "1a15e3f5088ea219",
+  "dispatch": "adjudicate these 12 items",
+  "generated_utc": "2026-10-21T11:46:20Z",
+  "menu_size": 2,
+  "overrides": 2,
+  "confirmed_demotes": 0,
+  "targets": {
+   "spcpt_b73GQrfrvh6TZkh9": "S4.172",
+   "spcpt_b663TCrP8tWxhjvq": "S4.172"
   }
  }
 }

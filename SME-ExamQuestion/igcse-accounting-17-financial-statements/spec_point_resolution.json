@@ -4,8 +4,8 @@
  "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 33,
-  "resolved": 29,
-  "unresolved": 4
+  "resolved": 31,
+  "unresolved": 2
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -211,9 +211,9 @@
    "sme_name": "Evaluating Liquidity",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "official_id": null,
-   "official_wording": null,
+   "resolved_code": "S4.172",
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_wording": "Calculate and interpret the following liquidity ratios:",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
@@ -225,6 +225,15 @@
     "demoted": true,
     "trace": "1a15c07ca8d172b5",
     "generated_utc": "2026-10-21T01:55:55Z"
+   },
+   "adjudication": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "was_official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+    "evidence": "orphan pool wording is S4.172's lead-in verbatim; 8 citing parts all sit in liquidity-ratio questions and every surviving whole-question code = S4.172; item name 'Evaluating Liquidity' = interpret/evaluate the current and acid-test ratios = S4.172's scope",
+    "rule": "T-SPEC-ACCT-ADJ-1 operator adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+    "trace": "1a15e3f5088ea219",
+    "supersedes_demote": true,
+    "generated_utc": "2026-10-21T11:46:20Z"
    }
   },
   {
@@ -232,9 +241,9 @@
    "sme_name": "Liquidity",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "official_id": null,
-   "official_wording": null,
+   "resolved_code": "S4.172",
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_wording": "Calculate and interpret the following liquidity ratios:",
    "tier": "P2_page_context_join",
    "score": null,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
@@ -246,6 +255,15 @@
     "demoted": true,
     "trace": "1a15c07ca8d172b5",
     "generated_utc": "2026-10-21T01:55:55Z"
+   },
+   "adjudication": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "was_official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+    "evidence": "orphan pool wording is S4.172's lead-in verbatim ('Calculate and interpret the following liquidity ratios:'); sole citing part's post-repair code = S4.172; S4.170 rejected (it is the profitability-vs-liquidity distinction, not the ratios)",
+    "rule": "T-SPEC-ACCT-ADJ-1 operator adjudication of the T-SPEC-ACCT-REPAIR-1 demote menu (dispatch 'adjudicate these 12 items')",
+    "trace": "1a15e3f5088ea219",
+    "supersedes_demote": true,
+    "generated_utc": "2026-10-21T11:46:20Z"
    }
   },
   {
