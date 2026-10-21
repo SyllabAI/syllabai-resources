@@ -29,6 +29,24 @@
     "V5_topic_scoped_phrase_identity": "authoritative (topic-scoped phrase identity)"
    },
    "note": "identity-grade operator verdicts applied to the honest-zero anchors (T-SPECS-CIE-GATE-1 NEXT #1); authoritative by construction per AGENT.md rule 1; unresolved anchors stay pending with structured reasons (rule 3); the gate's ACCEPTED state and provenance are preserved"
+  },
+  "complete": {
+   "state": "ACCEPTED_operator_ordered",
+   "lane": "T-SPECS-CIE-COMPLETE-1",
+   "applied_utc": "2026-10-22T00:00:00Z",
+   "order": "operator order 'Proceed with (1) upstream lattice-join completion' (gateway trace 1a15f79acff5346d, 2026-10-22, zai-web)",
+   "tier_policy": {
+    "V7_agent_note_join": "agent-authored note-level join executed under the operator COMPLETE-1 order; rows individually overturnable; evidence in scripts/cie_complete_verdicts.yaml"
+   },
+   "rows": 0,
+   "applied": 0,
+   "already": 0,
+   "notes_total": 8,
+   "notes_coded_after": 0,
+   "pending_classified": 8,
+   "pending_reasons": [
+    "assessment_technique_note"
+   ]
   }
  },
  "registry": {

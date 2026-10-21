@@ -130,3 +130,38 @@ promoted to the V* authoritative class on the operator order "tranche-1":
   one-way — a re-run after apply fail-closes with zero byte drift), validated
   by `scripts/cie_tranche1_t2near_check.py` (battery T1-T10, base-blob
   re-derivation; `graph/reports/T_SPECS_CIE_TRANCHE1_T2NEAR_CHECK.json`).
+
+## CIE note-level completion (T-SPECS-CIE-COMPLETE-1, 2026-10-22)
+
+The operator-ordered completion of the CIE lattice join at the NOTE level
+("Proceed with (1) Upstream lattice-join completion (also fixing History+11
+bundles)", gateway trace 1a15f79acff5346d), answering the CONTENT-AUDIT
+run-001-r0 finding that the CIE notes join was thin (42.6% bridged; 12
+bundles <15%) because the SME spec-index mapping is self-described "still in
+progress".
+
+- **12 lanes treated** (the audit's thin list): history-18, english-literature-21,
+  business-23, business-25, general-paper-21, economics-25, english-language-25,
+  english-language-20, geography-25, a-level-maths-20-pure-3,
+  further-maths-additional-maths-25.
+- **217 notes joined / 443 code entries added**, tier `V7_agent_note_join`
+  (additive to the V-ladder): agent-authored note-level joins executed under
+  the operator order, evidence per row in `scripts/cie_complete_verdicts.yaml`
+  (sidecar label/topic/section + official point texts); rows are individually
+  overturnable by the operator; review_state.complete block records the basis.
+- **Method classes** (item.codes[].method): `agent_semantic_note_join`
+  (history, hand-verified against note bodies), `agent_title_identity_join`
+  (literature set texts, GP skill statements), `agent_def_prefix_containment`
+  (business-23 inline SME definitions inside parsed official texts),
+  `agent_topic_scope_join` (GP theme-spanning topic pages).
+- **448 residual notes classified, not silently dropped**: every still-uncoded
+  note carries a structured reason class (assessment_technique_note,
+  set_text_absent_from_served_lattice, cross_edition_lattice,
+  fragmented_math_statement_lattice, no_unique_deterministic_target, ...) —
+  recorded in the receipt and review_state.complete.pending_reasons; the
+  geography/maths/English residuals need either an official-text re-parse
+  (the parsed syllabi are line-fragmented) or an operator-gated semantic
+  lane (AGENT.md rule 3).
+- Applied by `scripts/cie_complete_fill.py` (deterministic, fixed stamp,
+  idempotent — re-run applies 0, byte-identical), battery C1-C5 in
+  `graph/reports/T_SPECS_CIE_COMPLETE_1_CHECK.json`.
