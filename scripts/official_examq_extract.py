@@ -42,7 +42,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.7"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.7.1"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 PAPER_TOTAL = 110          # registry expectation for 4CH1/1C — constant across series
 # printed question counts verified per series (footers vary 9..15 across the 4CH1 era);
 # counts cross-checked against per-question footer marks summing to 110
@@ -708,6 +708,36 @@ def text_coverage(page, rect):
     return round(min(1.0, tot / max(abs(rect), 1.0)), 3)
 
 
+# ---------------------------------------------------- v0.7.1: drawn scaffolds (F32)
+# 'Complete/Draw a dot-and-cross diagram' prompts fall to rule 0's honest stub
+# because the printed scaffold is usually TEXT-ONLY (bare element letters in a
+# blank answer area: 'H C Cl H H', 'N N', 'H O O H'). But some papers print the
+# scaffold as a real DRAWING — overlapping electron-shell circles around the
+# element letters (2024-11 6(c)(i): an N circle + three H circles). Rule 0 must
+# not stub those: a substantial non-furniture vector drawing at/below the part's
+# instruction line means the scaffold is drawn and the normal anchoring path
+# must crop it. Thin rules (answer lines, separators) and page furniture never
+# qualify; a blank answer area yields False, so every verified text-only stub
+# stays stubbed.
+def drawn_scaffold_below(page, ay, min_dim=20.0):
+    if ay is None:
+        return False
+    pw, ph = page.rect.width, page.rect.height
+    for d in page.get_drawings():
+        r = fitz.Rect(d["rect"])
+        if min(r.width, r.height) < min_dim:
+            continue                      # thin rule / dotted answer line
+        if r.width >= 0.45 * pw and r.height >= 0.45 * ph:
+            continue                      # page-border frame / full-page scan
+        if r.height >= 0.5 * ph and r.width <= 60:
+            continue                      # full-height margin stripe (F18)
+        if r.x1 <= 45 or r.x0 >= pw - 45 or r.y1 <= 30 or r.y0 >= ph - 30:
+            continue                      # margin decorations / edge stripes
+        if r.y0 >= ay - 10:
+            return True
+    return False
+
+
 # ---------------------------------------------------- v0.6: mention semantics (F19)
 # A figure noun in the part text is only a figure REFERENCE when at least one
 # occurrence is not itself part of a non-figural phrase. "Periodic Table",
@@ -1111,12 +1141,19 @@ def main():
         m = re.match(r"\d+\(([a-z])\)", p["part_number"])
         return m.group(1) if m else None
 
-    def stem_figure(q, p, noun):
+    def stem_figure(q, p, noun, own_group_only=False, same_page=None):
         """F21: crop the figure a question/group stem introduces ('The graph
         shows ...', 'uses this apparatus', 'Grid 2 shows ...'), once per
-        (question, group, noun). Returns the asset dict or None."""
+        (question, group, noun). Returns the asset dict or None.
+        v0.7.1 (F33): own_group_only restricts the introducer to the part's
+        OWN group stem / the question stem — earlier siblings and other
+        groups' stems are NOT introductions (the 2024-11 6(c)(i) defect
+        where 6(b)'s sentence hijacked 6(c)(i) before its own-page pick);
+        same_page requires the stem sentence to print on the part's page."""
         group = group_letter(p)
-        key = (q["question_number"], group, noun)
+        # F33: the cache key carries the search strictness — a None result
+        # from the tight 4a-pre search must not poison the wider 3a/4c search
+        key = (q["question_number"], group, noun, own_group_only, same_page)
         if key in stem_assets:
             return stem_assets[key]
         cls = FIG_CLASS[noun]
@@ -1124,18 +1161,21 @@ def main():
         g = (q.get("groups") or {}).get(group) if group else None
         if g and g.get("group_stem_md"):
             stems.append(g["group_stem_md"])
-        for letter, gg in sorted((q.get("groups") or {}).items()):
-            if letter != group and gg.get("group_stem_md"):
-                stems.append(gg["group_stem_md"])
+        if not own_group_only:
+            for letter, gg in sorted((q.get("groups") or {}).items()):
+                if letter != group and gg.get("group_stem_md"):
+                    stems.append(gg["group_stem_md"])
         if q.get("stem_md"):
             stems.append(q["stem_md"])
-        # intro sentences often glue into the first part's problem_md when the
-        # group stays inline — earlier siblings are legitimate introductions
-        for pp in q["parts"]:
-            if pp is p:
-                break
-            if pp.get("problem_md"):
-                stems.append(pp["problem_md"])
+        if not own_group_only:
+            # intro sentences often glue into the first part's problem_md when
+            # the group stays inline — earlier siblings are legitimate
+            # introductions
+            for pp in q["parts"]:
+                if pp is p:
+                    break
+                if pp.get("problem_md"):
+                    stems.append(pp["problem_md"])
         a = None
         cnre = CLASS_NOUN_RE[FIG_CLASS[noun]]
         for st in stems:
@@ -1145,6 +1185,8 @@ def main():
                 continue
             pg = page_of_text(sent)
             if pg is None:
+                continue
+            if same_page is not None and pg != same_page:
                 continue
             page = pdf[pg - 1]
             ay = figure_anchor_y(page, sent)
@@ -1377,11 +1419,19 @@ def main():
                 noun = a["mention"]
                 pg = p.get("source_page")
                 # 0. dot-and-cross draw prompts: the printed scaffold is
-                # text-only, so no vector region exists — honest stub (F19b)
+                # text-only, so no vector region exists — honest stub (F19b).
+                # v0.7.1 (F32): a DRAWN scaffold (overlapping electron shells
+                # printed as vector circles, 2024-11 6(c)(i)) is a real
+                # figure — the normal anchoring path below must crop it, so
+                # the stub only applies when no substantial drawing sits at/
+                # below the instruction (fail-closed: unanchorable -> stub).
                 if (noun == "diagram" and re.search(r"dot.{0,3}and.{0,3}cross", pmd, re.I)
                         and not INTRO_RE.search(pmd)):
-                    crop_stats["pending"] += 1
-                    continue
+                    _page = pdf[pg - 1] if pg is not None else None
+                    _ay = figure_anchor_y(_page, pmd) if _page is not None else None
+                    if not (_ay is not None and drawn_scaffold_below(_page, _ay)):
+                        crop_stats["pending"] += 1
+                        continue
                 # v0.7: numbered-figure first-look is PER NOUN — 'table 1'
                 # pins the table asset to this question's region, but the
                 # same part's 'diagram' mention is not numbered (the
@@ -1426,6 +1476,35 @@ def main():
                     if adjacent_crop(q, p, a):
                         continue
                 else:
+                    # 4a-pre (F33): a group/question stem that NAMES the
+                    # noun's class introduces the figure — resolve it BEFORE
+                    # any own-page below-pick. The 2024-11 6(a)(i) defect:
+                    # 'Complete the table' printed BELOW the table (the
+                    # formulae grid the group stem 'The table gives...'
+                    # introduces) picked the next part's electron-shell
+                    # diagram below the instruction instead; the real table
+                    # was never cropped. TWO GATES keep the promotion surgical:
+                    #   (1) the part's own text must not introduce the figure
+                    #       itself (INTRO_RE — the 2019-06 3(d)(ii) 'The table
+                    #       lists...' class: its own sentence anchors the
+                    #       correct table below, no stem needed);
+                    #   (2) the part's own noun anchors must point DOWN (the
+                    #       instruction-below-figure signature — the 2025-06
+                    #       1(a) 'Label ... on the diagram' class references
+                    #       UP and resolves fine without promotion).
+                    # stem_figure fails safe (None) so the below-pick still
+                    # runs when no own-group stem names the class on the
+                    # part's page.
+                    _promote = not INTRO_RE.search(pmd)
+                    if _promote and pg is not None:
+                        _anchors = noun_anchor_y(pdf[pg - 1], pmd, noun)
+                        if _anchors and not any(b for _, b in _anchors):
+                            _promote = False
+                    sa = stem_figure(q, p, noun, own_group_only=True,
+                                     same_page=pg) if _promote else None
+                    if sa:
+                        share_ref(a, sa, "stem")
+                        continue
                     # 4a. forward introduction: own-page cluster in the noun
                     # phrase's own direction
                     if own_page_pick(q, p, a, force_review=False, allow_single=False):
@@ -1459,17 +1538,27 @@ def main():
                         and not a["id"].endswith("_stem") and not a.get("_owner")):
                     a["_owner"] = p["part_number"]
 
-    # ---- v0.7 (F29): crop-review verdicts, applied LAST --------------------
+    # ---- v0.7 (F29) / v0.7.1 (F32): crop-review verdicts, applied LAST -----
     # The eyeball ledger overrides every confidence flag — resolution paths
     # set review=True after render_crop runs, so the verdict must land after
     # all of them (the 18-crop wave that still showed review=true otherwise).
+    # v0.7.1 verdict vocabulary: 'accepted' clears review on real crops
+    # (kind=="crop"); 'stub-accepted' clears review on honest crop-required
+    # stubs (the eyeballed "no croppable figure" decision). Any other
+    # combination fails closed — C22 flags ledger↔corpus mismatches.
     for q in doc_questions:
         for p in q["parts"]:
             for a in p.get("assets") or []:
                 v = crop_reviews.get(a["id"])
-                if isinstance(v, dict) and v.get("verdict") == "accepted":
+                if not isinstance(v, dict):
+                    continue
+                vd = v.get("verdict")
+                if vd == "accepted" and a.get("kind") == "crop":
                     a["review"] = False
                     a["review_verdict"] = "accepted"
+                elif vd == "stub-accepted" and a.get("kind") == "crop-required":
+                    a["review"] = False
+                    a["review_verdict"] = "stub-accepted"
 
     # ---- spec tags: v0.5 demo seeds + v0.7 llm spec-tagging waves -----------
     # Labels only (AGENTS.md review taxonomy: 'pending-llm' -> seed via LLM as

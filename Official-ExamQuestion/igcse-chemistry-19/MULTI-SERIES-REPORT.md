@@ -1,6 +1,6 @@
 # ADR-037 corpus run — 4CH1/1C complete (all series in syllabai-pastpapers)
 
-> generated 2026-10-21T10:40:32Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper
+> generated 2026-10-21T11:55:57Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper
 > 16 series · 169 questions · 930 parts · 1754/1760 marks (6 lost to 2019-06 archive damage) · 14 series fully PASS
 
 | series | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |
@@ -17,7 +17,7 @@
 | 2023-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 55 | 110/110 | 3/3 | 0 |
 | 2023-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 66 | 110/110 | 2/2 | 4 |
 | 2024-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 56 | 110/110 | 4/4 | 1 |
-| 2024-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 56 | 110/110 | 2/2 | 3 |
+| 2024-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 56 | 110/110 | 2/2 | 2 |
 | 2025-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 49 | 110/110 | 6/6 | 1 |
 | 2025-11 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 59 | 110/110 | 6/6 | 0 |
 | 2026-06 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 9 | 56 | 110/110 | 5/5 | 1 |

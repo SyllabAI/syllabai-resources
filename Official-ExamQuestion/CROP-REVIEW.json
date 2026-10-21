@@ -1,46 +1,134 @@
 {
   "schema": "syllabai.crop-review/0.1",
-  "note": "Durable human eyeball verdicts for emitted figure crops (F29). 'accepted' clears the review flag on every re-run; anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
+  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
   "reviewed_utc": "2026-10-21",
-  "reviewed_by": "session agent (Task 9 crop-review wave; every crop viewed against its source PDF page)",
+  "reviewed_by": "session agent (Task 9 crop-review wave + wave-10 stub sweep; every crop and every stub viewed against its source PDF page)",
   "reviews": {
     "2020-01": {
-      "asset_4_b_ii_boxes": {"verdict": "accepted", "note": "3 empty ion boxes (sodium/oxide/sodium) — the dot-and-cross scaffold 4(b)(ii) asks to complete"}
+      "asset_4_b_ii_boxes": {
+        "verdict": "accepted",
+        "note": "3 empty ion boxes (sodium/oxide/sodium) — the dot-and-cross scaffold 4(b)(ii) asks to complete"
+      }
     },
     "2020-11": {
-      "asset_7_b_apparatus": {"verdict": "accepted", "note": "v0.7 F27 fix verified: full apparatus with eye / conical flask / sodium thiosulfate solution / paper-with-cross labels intact, stem caption whole (was right-clipped in v0.6)"},
-      "asset_7_d_grid": {"verdict": "accepted", "note": "clean 0.05/0-70 degC plotting grid"},
-      "asset_8_b_table": {"verdict": "accepted", "note": "clean maximum/initial/increase temperature table"}
+      "asset_7_b_apparatus": {
+        "verdict": "accepted",
+        "note": "v0.7 F27 fix verified: full apparatus with eye / conical flask / sodium thiosulfate solution / paper-with-cross labels intact, stem caption whole (was right-clipped in v0.6)"
+      },
+      "asset_7_d_grid": {
+        "verdict": "accepted",
+        "note": "clean 0.05/0-70 degC plotting grid"
+      },
+      "asset_8_b_table": {
+        "verdict": "accepted",
+        "note": "clean maximum/initial/increase temperature table"
+      },
+      "asset_5_b_iv_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p15: the printed scaffold is 5 bare letters (H top / H-C-Cl / H bottom) floating in a blank answer area — no circles, boxes or rules to crop; problem_md carries the element skeleton verbatim"
+      }
     },
     "2021-01": {
-      "asset_1_a_table": {"verdict": "accepted", "note": "v0.7 fix verified: the p3 states table (was the p2 Periodic Table page in v0.6)"},
-      "asset_4_a_apparatus": {"verdict": "accepted", "note": "gas syringe + flask apparatus, captions benign"},
-      "asset_5_a_table": {"verdict": "accepted", "note": "v0.7 fix verified: the p10 separation-methods table (was the 5(b) chromatogram in v0.6)"},
-      "asset_6_a_table": {"verdict": "accepted", "note": "clean precipitate results table"}
+      "asset_1_a_table": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p3 states table (was the p2 Periodic Table page in v0.6)"
+      },
+      "asset_4_a_apparatus": {
+        "verdict": "accepted",
+        "note": "gas syringe + flask apparatus, captions benign"
+      },
+      "asset_5_a_table": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p10 separation-methods table (was the 5(b) chromatogram in v0.6)"
+      },
+      "asset_6_a_table": {
+        "verdict": "accepted",
+        "note": "clean precipitate results table"
+      }
     },
     "2022-01": {
-      "asset_3_a_table": {"verdict": "accepted", "note": "clean change-of-state table"},
-      "asset_3_b_ii_diagram": {"verdict": "accepted", "note": "clean NH3/HCl cotton-wool tube diagram"}
+      "asset_3_a_table": {
+        "verdict": "accepted",
+        "note": "clean change-of-state table"
+      },
+      "asset_3_b_ii_diagram": {
+        "verdict": "accepted",
+        "note": "clean NH3/HCl cotton-wool tube diagram"
+      }
     },
     "2022-06": {
-      "asset_6_b_iii_graph": {"verdict": "accepted", "note": "v0.7 fix verified: the p14 plotting grid (6(c)(i) shares it); v0.6 left this part an honest stub and mis-bound the grid mention to the results table"}
+      "asset_6_b_iii_graph": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p14 plotting grid (6(c)(i) shares it); v0.6 left this part an honest stub and mis-bound the grid mention to the results table"
+      }
     },
     "2023-06": {
-      "asset_8_b_table": {"verdict": "accepted", "note": "clean initial/final/temperature-change table"},
-      "asset_10_a_ii_grid": {"verdict": "accepted", "note": "v0.7 fix verified: the p27 curve-A graph (was the 10(b) A/B/C graph in v0.6)"}
+      "asset_8_b_table": {
+        "verdict": "accepted",
+        "note": "clean initial/final/temperature-change table"
+      },
+      "asset_10_a_ii_grid": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p27 curve-A graph (was the 10(b) A/B/C graph in v0.6)"
+      }
     },
     "2024-06": {
-      "asset_10_b_table": {"verdict": "accepted", "note": "clean temperature table with 16.4 rise"}
+      "asset_10_b_table": {
+        "verdict": "accepted",
+        "note": "clean temperature table with 16.4 rise"
+      },
+      "asset_7_b_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p14: the nitrogen scaffold is 2 bare letters (N N) in a blank area — the C19 honest-scaffold pin stays valid"
+      }
     },
     "2024-11": {
-      "asset_1_a_table": {"verdict": "accepted", "note": "clean change-of-state table"}
+      "asset_1_a_table": {
+        "verdict": "accepted",
+        "note": "clean change-of-state table"
+      },
+      "asset_6_c_i_diagram": {
+        "verdict": "accepted",
+        "note": "wave-10 eyeball: p19 prints a DRAWN ammonia scaffold (N circle + three overlapping H circles) that rule 0 wrongly stubbed as text-only — F32 un-stubs it and the fresh crop renders the full scaffold, labels intact, no furniture (cov 0.041, vector)"
+      }
     },
     "2025-06": {
-      "asset_1_a_diagram": {"verdict": "accepted", "note": "atom diagram with leader lines and dotted label blanks (part of the printed figure)"},
-      "asset_1_b_table": {"verdict": "accepted", "note": "v0.7 fix verified: the p3 mass/group/period/configuration table (was the p2 Periodic Table page in v0.6)"}
+      "asset_1_a_diagram": {
+        "verdict": "accepted",
+        "note": "atom diagram with leader lines and dotted label blanks (part of the printed figure)"
+      },
+      "asset_1_b_table": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p3 mass/group/period/configuration table (was the p2 Periodic Table page in v0.6)"
+      },
+      "asset_9_a_i_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p20: the 9(a)(i) answer area is completely blank; the displayed formula above belongs to the 9(a) stem, not this part's dot-and-cross task"
+      }
     },
     "2025-11": {
-      "asset_3_c_i_grid": {"verdict": "accepted", "note": "v0.7 fix verified: the p9 relative-atomic-mass grid printed next to the (c) instructions (v0.6 wrongly bound the mention to the p8 data table)"}
+      "asset_3_c_i_grid": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p9 relative-atomic-mass grid printed next to the (c) instructions (v0.6 wrongly bound the mention to the p8 data table)"
+      }
+    },
+    "2021-06": {
+      "asset_8_b_iii_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p19: the 8(b)(iii) answer area is completely blank (not even element letters) — nothing croppable exists on the page for this part"
+      }
+    },
+    "2023-11": {
+      "asset_6_b_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p15: the hydrogen-peroxide scaffold is 4 bare letters (H O O H) in a blank area; the question-6 apparatus diagram above belongs to the stem and is cropped separately"
+      }
+    },
+    "2026-06": {
+      "asset_6_b_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p18: the 6(b) answer area is completely blank — nothing croppable for the ethane dot-and-cross prompt"
+      }
     }
   }
 }

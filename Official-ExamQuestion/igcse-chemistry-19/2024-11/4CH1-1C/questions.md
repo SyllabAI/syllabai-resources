@@ -439,7 +439,7 @@ This question is about ionic and covalent compounds.
 
 Complete the table by giving the three missing formulae.
 
-![table — official paper figure (qp.pdf p.18)](assets/asset_6_a_i_table.png)
+![table — official paper figure (qp.pdf p.18) — shared with asset_6_a_table_stem](assets/asset_6_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -469,7 +469,7 @@ Give the name of the compound with the formula Al2(SO4)3
 
 The diagram shows the arrangement of electrons in an atom of magnesium and an atom of chlorine. Magnesium Chlorine  Describe, in terms of electrons, what happens when magnesium atoms and chlorine atoms form magnesium chloride.
 
-![diagram — official paper figure (qp.pdf p.18) — shared with 6(a)(i)](assets/asset_6_a_i_table.png)
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_b_diagram.png)
 
 
 **Mark scheme answer**
@@ -492,7 +492,7 @@ The diagram shows the arrangement of electrons in an atom of magnesium and an at
 
 Complete the dot-and-cross diagram to show the outer shell electrons in a molecule of ammonia. N H H H
 
-> 🖼 crop required: diagram (qp.pdf p.19)
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_6_c_i_diagram.png)
 
 
 **Mark scheme answer**

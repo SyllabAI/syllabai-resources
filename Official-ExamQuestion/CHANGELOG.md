@@ -4,6 +4,42 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.7.1 — 2026-10 · wave-10 stub sweep (crop-review queue emptied) + drawn scaffolds + stem-first tables
+
+The wave-10 sweep eyeballed every remaining review-flagged item against its
+source PDF page. The queue the user saw as "17 new flags" was — reconciled
+against the shipped corpus (topic.json, validation reports, hub bundle all
+agree) — 7 crop-required stubs; v0.7's AGENTS.md had carried a mid-wave count.
+Verdicts:
+
+- **Stub verdicts (F32 ledger half)**: 6 of the 7 stubs are text-only dot-and-
+  cross scaffolds or blank answer areas (bare element letters 'H C Cl H H' /
+  'N N' / 'H O O H', or nothing at all) — nothing croppable exists; the new
+  `stub-accepted` verdict records that decision durably and clears the flag on
+  every re-run. C22 now enforces the verdict vocabulary both ways: accepted ↔
+  kind crop, stub-accepted ↔ kind crop-required.
+- **Drawn scaffold un-stubbed (F32 converter half)**: 2024-11 6(c)(i) prints a
+  REAL drawn scaffold (an N circle + three overlapping H circles) that rule 0
+  stubbed because the part text ends in the element-letter signature. Rule 0
+  now checks for a substantial non-furniture vector drawing at/below the
+  instruction (`drawn_scaffold_below`); drawn scaffolds crop, text-only
+  scaffolds keep the honest stub. The fresh crop is ledger-accepted (C24).
+- **Stem-first tables (F33)**: 2024-11 6(a)(i) 'Complete the table' printed
+  BELOW the formulae table picked the next part's Mg/Cl electron diagram (the
+  real table was never cropped, and 6(b) rode the wrong owner's file). The
+  forward branch now resolves the part's OWN group/question stem introduction
+  before the below-pick, gated twice: the part text must not itself introduce
+  the figure (INTRO_RE — protects 2019-06 3(d)(ii)), and the part's own noun
+  anchors must point DOWN (protects 2025-06 1(a)). Corpus effect: 2024-11 6(a)(i)
+  = the formulae table (C23), 6(b) = both Mg/Cl atoms under its own id (the F27
+  promise, now on the right record), 2023-01 1(a)(i) = the solid/liquid/gas
+  three-box row via its stem and 1(b) = the changes-of-state table instead of
+  sharing 1(a)(i)'s diagram (both HEAD mis-bindings fixed).
+- **Ledger**: 25 verdicts (19 accepted + 6 stub-accepted) across 13 series;
+  corpus review flags: 0. Canaries C23/C24 added (24 total). Parity vs v0.7:
+  930/930 parts byte-identical on extraction fields; gate matrix unchanged
+  (2019-06 G1/G5 REVIEW, 2020-01 G3 honest FAIL).
+
 ## 0.7 — 2026-10 · verdict-ledger + spec-tagging waves (24 still-tagged crops reviewed, 927/930 parts spec-tagged, shared-ref dedup)
 
 All 24 v0.6 `human verify` crops were re-eyeballed against their source pages
