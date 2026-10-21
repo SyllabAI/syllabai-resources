@@ -46,7 +46,40 @@
    "pending_classified": 76,
    "pending_reasons": [
     "fragmented_math_statement_lattice_needs_semantic_lane"
-   ]
+   ],
+   "bands": {
+    "A": {
+     "state": "ACCEPTED_operator_ordered_band_A",
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z",
+     "order": "operator order 'fire semantic-lane band A (the 140 fragmented-math rows)' (gateway trace 1a16057229070f09, 2026-10-22, zai-web)",
+     "tier_policy": {
+      "V7_agent_note_join": "agent-authored note-level semantic join executed under the operator band-A order; rows individually overturnable; evidence in scripts/cie_complete_verdicts.yaml"
+     },
+     "rows": 60,
+     "applied": 60,
+     "already": 0,
+     "pending_classified": 16,
+     "pending_reasons": [
+      "no_p3_statement_teaches_note_content (eliminating the parameter (Cartesian conversion); not a P3 statement)",
+      "no_p3_statement_teaches_note_content (further-modelling: generic modelling-skills note, no unique P3 statement)",
+      "no_p3_statement_teaches_note_content (parametric basics (defining/plotting); 3.4.3 covers differentiating only)",
+      "no_p3_statement_teaches_note_content (sketching parametric graphs; not a P3 statement)",
+      "official_9709_p3_algebra_bullet_2+3_polynomial_factorisation_via_division_and_factor_theorem_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_2+4_improper_algebraic_fractions_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_2_polynomial_division_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_3_factor_and_remainder_theorem_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_4_partial_fraction_decomposition_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_4_partial_fractions_linear_denominators_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_4_partial_fractions_squared_linear_denominators_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_4_rational_expressions_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_5_binomial_expansion_approximations_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_5_general_binomial_expansion_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_5_multiple_general_binomial_expansions_glued_into_parse_3.1.2_no_dedicated_served_point",
+      "official_9709_p3_algebra_bullet_5_subtleties_of_general_binomial_expansion_glued_into_parse_3.1.2_no_dedicated_served_point"
+     ]
+    }
+   }
   }
  },
  "registry": {
@@ -153,7 +186,17 @@
    "label": "Sketching Graphs of Modulus Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "algebra-and-functions",
    "topic": "modulus-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.1.1",
+     "official_code": "3.1.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_NGktbPYcJkXjMHrT"
    ]
@@ -163,7 +206,17 @@
    "label": "Solving Equations with Modulus Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "algebra-and-functions",
    "topic": "modulus-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_rcz347qWK3S8MqfS"
    ]
@@ -255,7 +308,17 @@
    "label": "Argand Diagrams - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "argand-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.4",
+     "official_code": "3.9.4",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_Wy5kPRWSq9zfrrrc"
    ]
@@ -265,7 +328,17 @@
    "label": "Geometry of Complex Addition, Subtraction & Conjugation | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "complex-numbers",
    "topic": "argand-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.7",
+     "official_code": "3.9.7",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_NXpDX6ztHhmdcPbD"
    ]
@@ -275,7 +348,17 @@
    "label": "Regions on Argand Diagrams - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "argand-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.8",
+     "official_code": "3.9.8",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_SZhrbTbBnFTFmWpV"
    ]
@@ -285,7 +368,17 @@
    "label": "Loci with Complex Numbers - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "argand-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.8",
+     "official_code": "3.9.8",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_PX3rkYhHsTmCcGVs"
    ]
@@ -295,7 +388,17 @@
    "label": "Modulus-Argument Form - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "argand-diagrams",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.1",
+     "official_code": "3.9.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_CTzdQvyV74XgQhWs",
     "spcpt_zp6rDS7x7nWFJG2K"
@@ -306,7 +409,17 @@
    "label": "Complex Conjugates & Division - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.2",
+     "official_code": "3.9.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_mChcsKgYY5syK6MZ"
    ]
@@ -316,7 +429,17 @@
    "label": "Complex Roots of Polynomials - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.3",
+     "official_code": "3.9.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_C9dsh9bjcbvTb78H",
     "spcpt_7SYgfKDQfsYx8Vgn"
@@ -327,7 +450,17 @@
    "label": "What are Complex Numbers? - A Level Maths Revision Notes",
    "section": "complex-numbers",
    "topic": "complex-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.1",
+     "official_code": "3.9.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_K9H4Mmtfp5yh8ctX",
     "spcpt_bZGdc2Hcy257xTX7"
@@ -353,7 +486,17 @@
    "label": "Exponential Form of Complex Numbers - A Level Maths Revision",
    "section": "complex-numbers",
    "topic": "further-complex-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.5",
+     "official_code": "3.9.5",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_gXc66Skxs4Nn2yWT"
    ]
@@ -363,7 +506,17 @@
    "label": "Geometry of Complex Multiplication & Division | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "complex-numbers",
    "topic": "further-complex-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.7",
+     "official_code": "3.9.7",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_bmMp6HQvpM74Czgs"
    ]
@@ -373,7 +526,17 @@
    "label": "Square Roots of a Complex Number using Exponential Form | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "complex-numbers",
    "topic": "further-complex-numbers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.9.6",
+     "official_code": "3.9.6",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_bB5PKcVdcyGwVcgb"
    ]
@@ -403,7 +566,17 @@
    "label": "Parametric Differentiation | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "differentiation-of-parametric-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.4.3",
+     "official_code": "3.4.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_YXNKYW4W32K6HFn5"
    ]
@@ -423,7 +596,17 @@
    "label": "Differentiating Other Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "further-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.4.1",
+     "official_code": "3.4.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_9M6txgmvBvxkgYb5"
    ]
@@ -433,7 +616,17 @@
    "label": "Product Rule | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "further-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_6nDMwtQJ7WfdvgPb"
    ]
@@ -443,7 +636,17 @@
    "label": "Quotient Rule | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "further-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.4.2",
+     "official_code": "3.4.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_NMz2QnW3vCFZCZmm"
    ]
@@ -453,7 +656,17 @@
    "label": "Implicit Differentiation | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "differentiation",
    "topic": "implicit-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.4.3",
+     "official_code": "3.4.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_pYT5j4mkfqgGVyG8"
    ]
@@ -463,7 +676,17 @@
    "label": "General Solutions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "differential-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.8.2",
+     "official_code": "3.8.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_kp9mJX8PDbPPf4w6"
    ]
@@ -473,7 +696,17 @@
    "label": "Modelling with Differential Equations | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "differential-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.8.1",
+     "official_code": "3.8.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_fT888hj3nWRtGBpn"
    ]
@@ -483,7 +716,17 @@
    "label": "Particular Solutions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "differential-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.8.3",
+     "official_code": "3.8.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_JfCD3zwDvrF2qW4F"
    ]
@@ -493,7 +736,17 @@
    "label": "Separation of Variables | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "differential-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.8.2",
+     "official_code": "3.8.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_sH6wmW3VVsjtnMYT"
    ]
@@ -503,7 +756,26 @@
    "label": "Solving & Interpreting Differential Equations | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "differential-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.8.2",
+     "official_code": "3.8.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.8.4",
+     "official_code": "3.8.4",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_PnxgBf2qYcvSjRfZ"
    ]
@@ -513,7 +785,17 @@
    "label": "Harder Substitution | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.6",
+     "official_code": "3.5.6",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_XhXVThpfcZ9CPFM8"
    ]
@@ -523,7 +805,17 @@
    "label": "Integrating f'(x)/f(x) | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_JwrdCCvhVRQqRksD"
    ]
@@ -533,7 +825,17 @@
    "label": "Integrating Other Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_wyhNQnwTntpyh6Zq"
    ]
@@ -543,7 +845,17 @@
    "label": "Integrating with Trigonometric Identities | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.2",
+     "official_code": "3.5.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_23tNQxHx7XQvT4bw"
    ]
@@ -568,7 +880,17 @@
    "label": "Integration by Substitution | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.6",
+     "official_code": "3.5.6",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_2Z5vBCjNv9Ydr5b3"
    ]
@@ -578,7 +900,62 @@
    "label": "Integration Decision Making | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.1",
+     "official_code": "3.5.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.2",
+     "official_code": "3.5.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.3",
+     "official_code": "3.5.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.4",
+     "official_code": "3.5.4",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.5",
+     "official_code": "3.5.5",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.6",
+     "official_code": "3.5.6",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_SrFpVvthH46W55tj"
    ]
@@ -588,7 +965,17 @@
    "label": "Integration using Partial Fractions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.5.3",
+     "official_code": "3.5.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_ZFbY6XYPkJtMsk93"
    ]
@@ -598,7 +985,17 @@
    "label": "Exponential Equations | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "laws-of-logarithms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.3",
+     "official_code": "3.2.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_cMmmKhpspFd2qwy4"
    ]
@@ -623,7 +1020,17 @@
    "label": "Derivatives of Exponential Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "logarithmic-and-exponential-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.4.1",
+     "official_code": "3.4.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_ZNpcttH3C8QZc9WH"
    ]
@@ -633,7 +1040,17 @@
    "label": "\"e\" | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "logarithmic-and-exponential-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_bT9c3ZnCxT8fhbqM"
    ]
@@ -643,7 +1060,17 @@
    "label": "Exponential Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "logarithmic-and-exponential-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_9hj7RrpSwthZMfPM"
    ]
@@ -653,7 +1080,26 @@
    "label": "Logarithmic Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "logarithmic-and-exponential-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_YBNtct7qsnsY754w"
    ]
@@ -663,7 +1109,17 @@
    "label": "Exponential Growth & Decay | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "modelling-with-logarithms-and-exponentials",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_jVPhCHgQ5XCm23Hg"
    ]
@@ -673,7 +1129,17 @@
    "label": "Transforming Graphs using Logs | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "modelling-with-logarithms-and-exponentials",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.4",
+     "official_code": "3.2.4",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_SmtQ68v57r6fDHmN"
    ]
@@ -683,7 +1149,17 @@
    "label": "Using Exponentials in Modelling | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "logarithms-and-exponentials",
    "topic": "modelling-with-logarithms-and-exponentials",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_bynSkFNmPxyyRkY6"
    ]
@@ -693,7 +1169,17 @@
    "label": "Change of Sign | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "numerical-methods",
    "topic": "numerical-solutions-of-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.6.1",
+     "official_code": "3.6.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_tnGXWDF39HwFf7Pk"
    ]
@@ -703,7 +1189,17 @@
    "label": "Failure of the Change of Sign Method | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "numerical-methods",
    "topic": "numerical-solutions-of-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.6.1",
+     "official_code": "3.6.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_jWc24T7YJ3vg83h5"
    ]
@@ -713,7 +1209,26 @@
    "label": "x = g(x) Iteration | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "numerical-methods",
    "topic": "numerical-solutions-of-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.6.2",
+     "official_code": "3.6.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.6.3",
+     "official_code": "3.6.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_BfHcWctk2Fw8QtZj"
    ]
@@ -723,7 +1238,17 @@
    "label": "Compound Angle Formulae | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "compound-and-double-angle-formulae",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_5bGK2QnqzT8s8d2z"
    ]
@@ -733,7 +1258,17 @@
    "label": "Double Angle Formulae | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "compound-and-double-angle-formulae",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_dbj3b6JSGbb5HBhm"
    ]
@@ -743,7 +1278,17 @@
    "label": "Harmonic Form | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "compound-and-double-angle-formulae",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_hXbbmBmmgzKY7p5f"
    ]
@@ -753,7 +1298,17 @@
    "label": "Strategy for Further Trigonometric Equations | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "further-trigonometric-equations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_J2NtwHHQN4RKv9bY"
    ]
@@ -763,7 +1318,17 @@
    "label": "Definitions of Reciprocal Trigonometric Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "reciprocal-trigonometric-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_BKyqGnK3G7766CYn"
    ]
@@ -773,7 +1338,17 @@
    "label": "Graphs of Reciprocal Trigonometric Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "reciprocal-trigonometric-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.1",
+     "official_code": "3.3.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_rm8J5XdBtFyt8r2y"
    ]
@@ -783,7 +1358,17 @@
    "label": "Identities with Reciprocal Trigonometric Functions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "reciprocal-trigonometric-functions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_JRwzRh2ryj4m6Gj9"
    ]
@@ -793,7 +1378,17 @@
    "label": "Trigonometric Proof | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "trigonometry",
    "topic": "trigonometric-proof",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.3.2",
+     "official_code": "3.3.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_2V76zDK8DyYhw7nQ"
    ]
@@ -803,7 +1398,17 @@
    "label": "Vector Equation of a Line - A Level Maths Revision Notes",
    "section": "vectors",
    "topic": "vector-equations-of-lines-and-the-scalar-product",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.4",
+     "official_code": "3.7.4",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_hXC48dpxjzYC42CR"
    ]
@@ -813,7 +1418,17 @@
    "label": "Parallel & Skew Lines - A Level Maths Revision Notes",
    "section": "vectors",
    "topic": "vector-equations-of-lines-and-the-scalar-product",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_k868kHQFjJdH2rtC"
    ]
@@ -823,7 +1438,17 @@
    "label": "Dot Product Formula - Vectors - A Level Maths Revision Notes",
    "section": "vectors",
    "topic": "vector-equations-of-lines-and-the-scalar-product",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.6",
+     "official_code": "3.7.6",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_GnvjF6Qpb6TTNvnd"
    ]
@@ -833,7 +1458,17 @@
    "label": "Angle between two Vectors - A Level Maths Revision Notes",
    "section": "vectors",
    "topic": "vector-equations-of-lines-and-the-scalar-product",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.6",
+     "official_code": "3.7.6",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_GjkGPBQxw5qX3wHd"
    ]
@@ -843,7 +1478,17 @@
    "label": "Basic Vectors | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-2-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_ts8KGt4XJ4wcQFvV"
    ]
@@ -853,7 +1498,17 @@
    "label": "Magnitude & Direction | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-2-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_Mjs3DbfDZSWQm4sw"
    ]
@@ -863,7 +1518,17 @@
    "label": "Position Vectors | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-2-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_6fw2v3vcB3GvKrhp"
    ]
@@ -873,7 +1538,17 @@
    "label": "Problem Solving using Vectors | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-2-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.2",
+     "official_code": "3.7.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_Fj2Hmc45nNr3xrF3"
    ]
@@ -883,7 +1558,17 @@
    "label": "Vector Addition | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-2-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.2",
+     "official_code": "3.7.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_2HRssHdD9m3yg6JN"
    ]
@@ -893,7 +1578,35 @@
    "label": "Problem Solving using 3D Vectors | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-3-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.2",
+     "official_code": "3.7.2",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.5",
+     "official_code": "3.7.5",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_2PGdnfT8zrW4HcHn"
    ]
@@ -903,7 +1616,26 @@
    "label": "Vectors in 3 Dimensions | Cambridge (CIE) A Level Maths Revision Notes 2021",
    "section": "vectors",
    "topic": "vectors-in-3-dimensions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.1",
+     "official_code": "3.7.1",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    },
+    {
+     "official_id": "cie-a-level-maths-2023-2025:3.7.3",
+     "official_code": "3.7.3",
+     "tier": "V7_agent_note_join",
+     "method": "agent_semantic_note_join",
+     "score": null,
+     "lane": "T-SPECS-CIE-COMPLETE-1-BAND-A",
+     "applied_utc": "2026-10-22T00:00:00Z"
+    }
+   ],
    "pending": [
     "spcpt_XrvxCtZwqGx2bXZq"
    ]
