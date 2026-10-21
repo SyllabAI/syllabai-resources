@@ -12,7 +12,7 @@ This question is about the three states of matter, solid, liquid and gas.
 
 Complete the diagram to show how particles are arranged in the liquid state.
 
-![diagram — official paper figure (qp.pdf p.3)](assets/asset_1_a_i_diagram.png)
+![diagram — official paper figure (qp.pdf p.3) — shared with asset_1_a_diagram_stem](assets/asset_1_a_diagram_stem.png)
 
 
 **Mark scheme answer**
@@ -42,7 +42,7 @@ Identify the state of matter that contains particles with the least energy.
 
 The table shows two changes of state. Complete the table by giving the name of each change of state. Change of state Name solid to liquid solid to gas
 
-![table — official paper figure (qp.pdf p.3) — shared with 1(a)(i)](assets/asset_1_a_i_diagram.png)
+![table — official paper figure (qp.pdf p.3)](assets/asset_1_b_table.png)
 
 
 **Mark scheme answer**

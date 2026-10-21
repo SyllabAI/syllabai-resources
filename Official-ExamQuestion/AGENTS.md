@@ -108,7 +108,8 @@ session and MUST be DETECTED 3/3 — otherwise the run is void.
   `review` (true = human should eyeball the crop; cleared + `review_verdict:
   "accepted"` when CROP-REVIEW.json carries an accepted verdict); `kind:
   "crop-required"` entries stay in the review queue (blank-to-complete diagrams,
-  rasterized source pages).
+  rasterized source pages) until a `review_verdict: "stub-accepted"` records the
+  eyeballed no-croppable-figure decision (v0.7.1 verdict vocabulary, F32).
 - Known verbatim limitation: PUA glyphs in the source text layer (e.g. `\uf0b4` for
   ×) pass through un-mapped; a PUA→Unicode pass is future work and must not be done
   ad hoc inside the converter.
@@ -124,6 +125,20 @@ against `spec_point_resolution.json` on every run. Wave coverage: 927/930 parts
 tagged (1,180 codes, 0 invalid); the 3 pending parts have no clean spec point.
 To extend tagging: append codes to the per-series spec-labels file (part_number
 → [codes]), re-run, and let G6 judge.
+
+## Crop-review verdict ledger (v0.7.1)
+
+`CROP-REVIEW.json` is the durable eyeball record; verdicts are applied AFTER all
+confidence overrides on every run and C22 keeps ledger↔corpus consistent in both
+directions. Verdict vocabulary:
+- `accepted` — the crop matches its source-page figure; clears `review` on
+  `kind: "crop"` assets.
+- `stub-accepted` — the source page has no croppable figure (text-only scaffold,
+  blank answer area); clears `review` on `kind: "crop-required"` stubs. The stub
+  record stays (kind never changes) — the text layer is the faithful representation.
+Any other verdict/kind pairing fails closed (C22 flags it). Drawn scaffolds
+(overlapping electron shells printed as vector circles) are NOT stubs — the
+converter crops them (F32) and the fresh crop is eyeballed like any other.
 
 ## Review queue taxonomy (what humans decide; agents must NOT decide)
 
@@ -178,13 +193,17 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues (v0.7 state): MCQ keys for 2020-01 Q7(a) (2 keys, agents
-  must never auto-key), 17 review-flagged crops — every previously flagged crop
-  was re-eyeballed in the Task 9 wave and the 18 verdicts persisted in
-  CROP-REVIEW.json; NEW converter flags after any crop-pass change still need
-  eyeballs. 7 honest crop-required stubs (text-only dot-and-cross scaffolds and
-  2021-06 8(b)(iii) whose grid prints without a croppable region on the scanned
-  page). 3 parts pending spec tags (2019-06 5(a), 2020-01 10(c)(ii), 2022-01
+- Human review queues (v0.7.1 state): MCQ keys for 2020-01 Q7(a) (2 keys, agents
+  must never auto-key). Crop review is EMPTY: the wave-10 sweep eyeballed every
+  flagged crop and stub against its source page — 19 accepted crops + 6
+  stub-accepted text-only dot-and-cross scaffolds (2020-11 5(b)(iv), 2021-06
+  8(b)(iii), 2023-11 6(b), 2024-06 7(b), 2025-06 9(a)(i), 2026-06 6(b)) live in
+  CROP-REVIEW.json (25 verdicts); NEW converter flags after any crop-pass change
+  still need eyeballs before a ledger verdict. Bookkeeping note: v0.7's AGENTS.md
+  said "17 review-flagged crops" — a mid-wave count; the shipped v0.7 queue was 7
+  stubs (the wave's ledger had already cleared the crop flags), now all 6
+  remaining stubs are stub-accepted and 2024-11 6(c)(i) became a real crop (F32).
+  3 parts pending spec tags (2019-06 5(a), 2020-01 10(c)(ii), 2022-01
   3(b)(iv) — no clean spec point exists; decide or leave).
 - PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
   added as a converter-level mapping table with its own parity run, not ad hoc.

@@ -162,24 +162,43 @@ for c in cans:
             g = next((g for g in rep["gates"] if g["gate"] == "G0-identity"), None)
             ok = g is not None and g["status"] == "PASS" and c["substring"] in g["summary"]
         elif chk == "crop_review_ledger":
-            # C22 (v0.7): the CROP-REVIEW.json verdict ledger and the emitted
-            # corpus must agree in both directions.
+            # C22 (v0.7/v0.7.1): the CROP-REVIEW.json verdict ledger and the
+            # emitted corpus must agree in both directions. Verdict vocabulary:
+            # 'accepted' pairs with kind=="crop", 'stub-accepted' pairs with
+            # kind=="crop-required" (the eyeballed honest-stub decision).
             ledger = json.loads((HERE / "CROP-REVIEW.json").read_text()).get("reviews", {})
             ok = True
             n_verdicts = 0
             for s in sorted(p.name for p in BASE.iterdir() if p.is_dir()):
                 t = json.loads((BASE / s / "4CH1-1C" / "topic.json").read_text())
                 assets = {a["id"]: a for q in t["questions"] for p in q["parts"]
-                          for a in (p.get("assets") or []) if a.get("kind") == "crop"}
+                          for a in (p.get("assets") or [])}
                 for aid, v in (ledger.get(s) or {}).items():
                     n_verdicts += 1
-                    if v.get("verdict") == "accepted" and aid not in assets:
+                    vd = v.get("verdict")
+                    want_kind = {"accepted": "crop", "stub-accepted": "crop-required"}.get(vd)
+                    if want_kind is None:
                         ok = False
-                        print(f"  ! {s}: ledger accepts {aid} but no such crop asset exists")
+                        print(f"  ! {s}: ledger verdict {vd!r} for {aid} is not a known kind")
+                    elif aid not in assets:
+                        ok = False
+                        print(f"  ! {s}: ledger {vd} {aid} but no such asset exists")
+                    elif assets[aid].get("kind") != want_kind:
+                        ok = False
+                        print(f"  ! {s}: ledger {vd} {aid} but asset kind is "
+                              f"{assets[aid].get('kind')!r} (want {want_kind})")
                 for aid, a in assets.items():
-                    if a.get("review_verdict") and not ((ledger.get(s) or {}).get(aid, {}).get("verdict") == "accepted"):
+                    rv = a.get("review_verdict")
+                    if rv and not ((ledger.get(s) or {}).get(aid, {}).get("verdict") == rv):
                         ok = False
-                        print(f"  ! {s}: {aid} carries review_verdict without an accepted ledger entry")
+                        print(f"  ! {s}: {aid} carries review_verdict {rv!r} without a "
+                              f"matching ledger entry")
+                    if a.get("kind") == "crop" and rv == "stub-accepted":
+                        ok = False
+                        print(f"  ! {s}: crop asset {aid} must not carry stub-accepted")
+                    if a.get("kind") == "crop-required" and rv == "accepted":
+                        ok = False
+                        print(f"  ! {s}: stub asset {aid} must not carry accepted")
             print(f"  (ledger verdicts: {n_verdicts})")
         else:
             ok = False

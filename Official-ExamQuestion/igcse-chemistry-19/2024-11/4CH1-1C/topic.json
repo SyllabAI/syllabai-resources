@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T10:40:28Z",
- "generator": "official_examq_extract.py v0.7 (ADR-037) series=2024-11",
+ "generated_utc": "2026-10-21T11:55:53Z",
+ "generator": "official_examq_extract.py v0.7.1 (ADR-037) series=2024-11",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-11:4CH1/1C",
  "source": {
   "qp_sha256": "81f416f2c32d849ec99796c546aa21b76bbab50b2131c29f623f1298fdaed7a0",
@@ -801,9 +801,11 @@
        "source": "qp.pdf",
        "page": 18,
        "review": false,
-       "path": "assets/asset_6_a_i_table.png",
+       "path": "assets/asset_6_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.108
+       "text_coverage": 0.343,
+       "shared": true,
+       "ref_part": "asset_6_a_table_stem"
       }
      ],
      "spec_point_codes": [
@@ -867,11 +869,9 @@
        "source": "qp.pdf",
        "page": 18,
        "review": false,
-       "path": "assets/asset_6_a_i_table.png",
+       "path": "assets/asset_6_b_diagram.png",
        "render": "vector",
-       "text_coverage": 0.108,
-       "shared": true,
-       "ref_part": "6(a)(i)"
+       "text_coverage": 0.108
       }
      ],
      "spec_point_codes": [
@@ -904,11 +904,15 @@
      "assets": [
       {
        "id": "asset_6_c_i_diagram",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 19,
-       "review": true
+       "review": false,
+       "path": "assets/asset_6_c_i_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.041,
+       "review_verdict": "accepted"
       }
      ],
      "spec_point_codes": [
