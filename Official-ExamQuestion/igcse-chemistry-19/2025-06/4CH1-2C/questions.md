@@ -76,9 +76,6 @@ Give one use of the kerosene fraction.
 > /aviation fuel aircraft etc.
 > ALLOW fuel for lamps/for
 > heaters/ for stoves
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** aircraft fuel / jet fuel / (aero)plane fuel must mention fuels, not just
 
@@ -185,9 +182,6 @@ Draw a reaction profile diagram for the reaction, showing ΔH and activation ene
 > arrow /just a line
 > ecf M1, M3, M4, M5 for
 > endothermic reaction
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** label reactants and products ACCEPT names of
 - **(1)** product line below reactant line and to the
@@ -333,9 +327,6 @@ Give a reason why this reaction is classified as oxidation.
 > REJECT chlorine / Cl / Cl2
 > loses electrons
 > Total
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** chloride (ions)/Cl— (ions) lose electron(s) ALLOW electron(s) are
 
@@ -460,9 +451,6 @@ Draw the displayed formula of ethyl ethanoate.
 > I I I
 > H H H
 > M2 dep on M1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** correct ester functional group
 - **(1)** rest of molecule correct
@@ -602,9 +590,6 @@ The student repeats the titration without the methyl orange indicator. They add 
 > No M4 if heated directly
 > with a Bunsen burner/
 > hot oven
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** heat the solution of potassium sulfate until it is If heated to dryness
 - **(1)** allow the solution to cool / to crystallise

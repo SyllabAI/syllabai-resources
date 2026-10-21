@@ -60,9 +60,6 @@ Identify the non‑metal element that is a solid at room temperature.
 **Mark scheme answer**
 
 > sulfur ALLOW S
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** sulfur ALLOW S
 
@@ -145,9 +142,6 @@ Give the general formula for the alkanes.
 
 > CnH2n + 2 ACCEPT different letters
 > to n / uppercase
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** CnH2n + 2 ACCEPT different letters
 
@@ -203,9 +197,6 @@ Catalytic cracking also produces alkenes. C11H24 can undergo cracking to give pe
 > / C3H6 + C3H6
 > ALLOW correct
 > displayed formulae
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** C2H4
 - **(1)** C4H8 ALLOW 1 mark for
@@ -292,9 +283,6 @@ Explain why the copper(II) sulfate solution becomes paler blue during the electr
 > decreases
 > ALLOW copper ions/Cu2+
 > form copper
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the (blue) colour is caused by copper
 - **(1)** copper ions/Cu2+ are being discharged/ ACCEPT concentration
@@ -315,9 +303,6 @@ When hydrated copper(II) sulfate crystals are heated, anhydrous copper(II) sulfa
 > M2 n(CuSO4) = 8.0 ÷ 159.5 = 0.05(0) (mol)
 > M3 n(H2O) = 4.5 ÷ 18 = 0.25 (mol)
 > M4 0.25 ÷ 0.05(0) (= 5)
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (12.5 – 8.0) = 4.5 (g)
 - **(1)** n(CuSO4) = 8.0 ÷ 159.5 = 0.05(0) (mol)
@@ -369,9 +354,6 @@ Describe four changes that the student could make to improve his plan. 1 2 3 4
 > end-point
 > M8 repeat the titration (to obtain an average/
 > concordant results)
-> Question
-> Answer Notes Marks
-> number
 
 - **(4)** A description that makes reference to any four of
 
@@ -397,9 +379,6 @@ The student then does the titration correctly. He finds that 16.70 cm3 of the di
 > working scores 3
 > ACCEPT alternative
 > methods
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** n(NaOH) = 0.0250 × 0.200 or 0.005 (mol)
 - **(1)** n(H2SO4) = 0.005 ÷ 2 or 0.0025 (mol) answer to M1 ÷ 2
@@ -447,9 +426,6 @@ Explain how a catalyst increases the rate of a reaction.
 > ALLOW lowers the
 > energy needed to start
 > the reaction
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** provides an alternative pathway OWTTE
 - **(1)** with a lower activation energy OWTTE ACCEPT more collisions
@@ -507,9 +483,6 @@ Complete the energy level diagram to show the position of the products and the e
 > reactants level
 > IGNORE any attempts at
 > including activation energy
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** horizontal line to show products in correct Mark CQ on sign in (i)
 - **(1)** vertical line in correct position and labelled ΔH ACCEPT double headed
@@ -589,9 +562,6 @@ When the air supply is limited, incomplete combustion occurs and carbon monoxide
 > haemoglobin in red
 > blood cells or forming
 > carboxyhaemoglobin
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** prevents blood from carrying oxygen/ reduces the ALLOW references to
 
@@ -643,9 +613,6 @@ Complete the equation. Show only one repeat unit of the polyester. O O HO C CH2C
 > this equation is then
 > balanced, so M1 and M3
 > can be awarded.
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** correct ester link for M1 and M2
 - **(1)** rest of polymer structure correct with extension
@@ -742,9 +709,6 @@ Give an ionic equation for the reaction that occurs. Include state symbols in yo
 > awarded for correct state
 > M2 state symbols correct symbols. If NaCl in equation
 > must be (aq).
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** all formulae correct incorrect) M2 can still be
 - **(1)** state symbols correct symbols. If NaCl in equation

@@ -73,9 +73,6 @@ Which row shows the most reactive element in Group 1 and Group 7? Most reactive 
 > reactive element in Group 1 and astatine is not the
 > most reactive element in Group 7
 > Total marks for Question 1 = 5
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer D: francium                                                                                            fluorine
 
@@ -148,9 +145,6 @@ In Step 5, crystals start to form at 26 °C. Calculate the solubility of the sol
 > M2 (so solubility = 4.5 x 10) = 45 (g per 100 g of water) ALLOW M1×10
 > 45 with no working
 > scores 2
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 4.5 (g solid in 10 g water)
 - **(1)** (so solubility = 4.5 x 10) = 45 (g per 100 g of water) ALLOW M1×10
@@ -195,9 +189,6 @@ Suggest why the values for the solubility of A and B may be less accurate at 95 
 
 > some water may have been lost/evaporated OWTTE
 > Total marks for Question 2 = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** some water may have been lost/evaporated OWTTE
 
@@ -266,9 +257,6 @@ Deduce a relationship between the relative formula mass (Mr) of a gas and the sp
 > M3 statement of relationship eg the higher the ACCEPT reverse
 > Mr the slower the gas diffuses argument
 > Total marks for Question 3 = 8
-> Question
-> Answer Notes Marks
-> number
 > 2+
 
 - **(1)** Mr of H2S = (1 + 1 + 32) = 34
@@ -313,9 +301,6 @@ The diagram shows the electronic configuration of a potassium atom and an oxygen
 > M3 (K)+ and (O)2-
 > If only outer shells
 > shows – max 2
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** potassium ion
 - **(1)** oxide ion
@@ -378,9 +363,6 @@ The diagram shows the apparatus a teacher uses to demonstrate the electrolysis o
 > 4OH-→O2 + 2H2O + 4e(-)
 > M4 2H+ + 2e (-)  H2
 > Total marks for Question 4 = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** X is chlorine / Cl2 ALLOW oxygen / O2
 - **(1)** Y is hydrogen / H2 If both given but wrong
@@ -445,9 +427,6 @@ Explain, without giving practical details, which method is most suitable to obta
 > M2 (because) carbon is more reactive than lead OR ALLOW reverse
 > carbon can displace lead argument
 > M2 dep on M1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** carbon extraction
 - **(1)** (because) carbon is more reactive than lead OR ALLOW reverse
@@ -495,9 +474,6 @@ Aluminium is extracted from aluminium oxide. The overall equation for the proces
 > 1350 without working
 > scores 2
 > Total marks for Question 5 = 12
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** M1 calculation of Mr of Al2O3
 
@@ -641,9 +617,6 @@ Give one advantage of biopolyesters.
 
 > biodegradable ACCEPT description
 > Total marks for Question 6 = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** biodegradable ACCEPT description
 

@@ -71,9 +71,6 @@ Explain, in terms of electron configuration, why sodium is more reactive than li
 > (plural) in M1 and M2
 > but do not allow
 > electrons in M3
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the outer shell is further from the nucleus in ALLOW a sodium atom
 - **(1)** there is less attraction to the nucleus for the ALLOW there is more
@@ -127,7 +124,6 @@ Explain how sacrificial protection prevents the rusting of iron.
 > iron
 > Question Notes
 > Answer Marks
-> number
 
 - **(1)** a more reactive metal is connected to/coated on ACCEPT a suitable metal,
 - **(1)** the more reactive metal will react /oxidise REJECT a more reactive
@@ -223,9 +219,6 @@ Explain why catalytic cracking is useful.
 > polymers make ethanol
 > M3 smaller fractions /alkanes /molecules ALLOW gasoline /
 > /hydrocarbons are needed for petrol fuel for cars
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** there is a surplus supply of / less demand for
 - **(1)** alkenes are produced which are needed to make ALLOW plastics / to
@@ -318,9 +311,6 @@ Use your graph to calculate the solubility, in g per 100 g of water, of sodium n
 > M2 mass at 20 C read from graph (expected value score but allow M3
 > approximately 8 g) for M1 – M2
 > M3 M1 − M2 (expected value approximately 13 g)
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** mass at 50 C read from graph (expected value Need to show
 - **(1)** mass at 20 C read from graph (expected value score but allow M3
@@ -447,9 +437,6 @@ Deduce the molecular formula of this ester.
 
 > C6H12O2 ALLOW symbols in any
 > order
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** C6H12O2 ALLOW symbols in any
 
@@ -607,9 +594,6 @@ State why the half‑equation represents an oxidation reaction.
 > lost
 > REJECT bromine loses
 > electrons
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** bromide (ions)/Br − loses electrons ALLOW electrons are
 

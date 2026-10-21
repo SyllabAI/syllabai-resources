@@ -79,9 +79,6 @@ State an environmental problem caused when sulfur dioxide gas dissolves in water
 > limestone/marble
 > buildings/statues etc.
 > IGNORE toxic/pollutant
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** acid rain ACCEPT an adverse
 
@@ -139,9 +136,6 @@ This element has three isotopes. The table shows the mass number and percentage 
 > M3 24.3 ALLOW ECF from M2 if
 > calculated answer is
 > to 1dp
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (24 x 79.2) + (25 x 10.0) + (26 x 10.8) OR 2431.6 REJECT if correct
 - **(1)** 2431.6 ÷ 100 OR 24.316
@@ -243,9 +237,6 @@ Explain why the reaction between aluminium and iron(III) oxide is a redox reacti
 > references to changes
 > in oxidation number for
 > M2 and M3
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** aluminium is oxidised and iron/iron oxide is ALLOW both oxidation
 - **(1)** aluminium gains oxygen ALLOW aluminium/Al
@@ -329,9 +320,6 @@ The diagram shows the arrangement of the electrons in a sodium atom and in an ox
 > crosses for M1 and M2
 > M3 correct charges on all ions (with or without
 > brackets)
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** correct electron arrangement of both sodium
 - **(1)** correct electron arrangement of the oxide ion 1 mark
@@ -416,9 +404,6 @@ Describe a test that can be used to distinguish between compounds Q and T. test 
 > M2 no change/stays purple
 > M3 decolourised / goes
 > colourless
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (add) bromine water ACCEPT Br2 (aq)
 - **(1)** no change / stays orange ALLOW no reaction
@@ -472,9 +457,6 @@ Draw the displayed formula of another alkene that is an isomer of alkene V.
 > REJECT displayed
 > formulae of cyclic
 > alkanes
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Either
 
@@ -518,9 +500,6 @@ The relative molecular mass (Mr) of the compound is 66. Determine the molecular 
 > working scores 2
 > marks.
 > 2CH2F scores 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 66 OR 66 OR 2
 - **(1)** C2H4F2 ACCEPT symbols in
@@ -617,9 +596,6 @@ Give three factors that the student should keep constant in this investigation. 
 > M4 (speed/time of) stirring
 > M5 external / room temperature ALLOW initial
 > /starting temperature
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** Any three from
 
@@ -660,9 +636,7 @@ Deduce the order of reactivity of the five metals. most reactive least reactive
 > tin
 > copper
 > Total
-> Question
 > Answer Marks
-> number
 
 - **(1)** most reactive magnesium ACCEPT symbols
 
@@ -779,9 +753,6 @@ The word equation for the reaction of bromine with sodium iodide is bromine + so
 > Br2 + 2I-  2Br- + I2
 > ALLOW multiples
 > and fractions
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Br2 + 2NaI  2NaBr + I2 ACCEPT correct
 
@@ -848,9 +819,6 @@ A technician sees an unlabelled bottle containing a liquid. He knows that the li
 > contains Br- / is a
 > bromide
 > No M6 for this test
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add sodium hydroxide (solution) ALLOW ammonia
 - **(1)** if blue precipitate forms solution contains IGNORE qualifiers
@@ -958,9 +926,6 @@ Diamond and graphite are both giant covalent substances made up of carbon atoms.
 > If mention of ions in
 > graphite only M9 can be
 > scored
-> Question
-> Answer Notes Marks
-> number
 
 - **(6)** Any explanation that links any three of the
 
@@ -1063,9 +1028,6 @@ The student burns 0.96 g of methanol, CH3OH Calculate the molar enthalpy change,
 > M3 – 420 (kJ/mol)
 > AND – 430 / – 433 for
 > M3
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 0.96 ÷ 32 OR 0.03
 - **(1)** 12.6 ÷ 0.03 OR 420 (kJ/mol)
@@ -1121,9 +1083,6 @@ State the relationship between ΔH and the number of carbon atoms per molecule.
 > number of carbon atoms
 > (per molecule) the more
 > exothermic the ΔH value
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** The greater the number of carbon atoms (per ALLOW ΔH is (directly)
 
@@ -1226,9 +1185,6 @@ Suggest what use can be made of the nitrogen monoxide gas formed in stage 3. QUE
 > can be (re)used in stage 2 / to make more IGNORE can be
 > nitrogen dioxide (in stage 2) / can be used to recycled/reused unless
 > make more nitric acid qualified
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** can be (re)used in stage 2 / to make more IGNORE can be
 

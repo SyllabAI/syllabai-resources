@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
- "converter_version_floor": "0.9.0",
+ "converter_version_floor": "0.10.0",
  "canaries": [
   {
    "id": "C3-baseline-unchanged",
@@ -11,14 +11,13 @@
    "mcq_keyed": 6
   },
   {
-   "id": "C4-archive-damage-attributed",
+   "id": "C4-archive-damage-repaired",
    "series": "2019-06",
-   "assertion": "G1-structure == REVIEW with marks 104/110 and source_defects.affected_questions includes 7 (rasterized pages; must never be silently 'fixed' by invention)",
+   "assertion": "G1-structure == PASS with 15 questions summing 110/110 after the F41 OCR source-layer recovery of the rasterized pages (the pre-repair honest-REVIEW state is retired; the recovery is pinned by C48-C53)",
    "check": "gate_status",
    "gate": "G1-structure",
-   "expected": "REVIEW",
-   "marks_total": 104,
-   "affected_questions_include": 7
+   "expected": "PASS",
+   "marks_total": 110
   },
   {
    "id": "C5-elimination-keying",
@@ -397,6 +396,85 @@
    "assertion": "1(b)(ii) links to the MS row printed '(II)' — roman-numeral case normalization (F40i) — and carries the adjudicated-by-layout solution block; v0.8.1 left it unmatched",
    "check": "part_linked",
    "part": "1(b)(ii)"
+  },
+  {
+   "id": "C48-ocr-layer-receipts",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "F41 OCR source layer: validation receipts carry exactly pages [4,12,16,18,20,26] (fail-closed sha verification happens in G0 at run time)",
+   "check": "ocr_pages_receipt",
+   "pages": [
+    4,
+    12,
+    16,
+    18,
+    20,
+    26
+   ]
+  },
+  {
+   "id": "C49-ocr-q7-stem-verbatim",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "Q7 (lost entirely to rasterization, recovered by F41) exists with its verbatim stem",
+   "check": "part_problem_md_contains",
+   "question": 7,
+   "substring": "Diamond, graphite and silicon dioxide all have giant covalent structures"
+  },
+  {
+   "id": "C50-ocr-equation-pin",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "Q11(a) carries the transcribed combustion equation (subscripts below the 144-dpi OCR floor; transcribed from the 600-dpi render, corroborated by the MS text layer)",
+   "check": "part_problem_md_contains",
+   "question": 11,
+   "contains_all": [
+    "CH4(g) + 2O2(g)",
+    "CO2(g) + 2H2O(g)"
+   ]
+  },
+  {
+   "id": "C51-ocr-table-values-pin",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "Q12 stem carries the results-table values 20.0/14.2 (dropped by every OCR variant; transcribed from the render, corroborated by MS 'M1 14.2 - 20.0 = (-)5.8')",
+   "check": "part_problem_md_contains",
+   "question": 12,
+   "contains_all": [
+    "20.0",
+    "14.2"
+   ]
+  },
+  {
+   "id": "C52-ms-image-answer-honest",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "3(d)(ii) stays unmatched: its MS answer cell is a printed image (Property table with ticks), not text — the honest terminal state, never a fabricated solution",
+   "check": "part_answer_status",
+   "part": "3(d)(ii)",
+   "expected": "unmatched"
+  },
+  {
+   "id": "C53-ms-bare-marker-linkage",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "F42 early-MS bare-marker linkage: 3(d)(i), 10(a)(i), 10(b)(i), 13(b)(i), 14(f)(ii), 11(b)(iii), 15(b)(i) all linked with solutions (also pins the damage-repair renumber 15(b)(i..iii)/11(b)(iii))",
+   "check": "parts_all_linked",
+   "parts": [
+    "3(d)(i)",
+    "10(a)(i)",
+    "10(b)(i)",
+    "13(b)(i)",
+    "14(f)(ii)",
+    "11(b)(iii)",
+    "15(b)(i)"
+   ]
+  },
+  {
+   "id": "C54-solution-blocks-header-free",
+   "series": "*",
+   "assertion": "F43: no served solution_md or mark_points text carries the repeated MS page-table header ('Question / Answer Notes Marks / number') — the v0.6-era block-boundary leak cleaned corpus-wide in v0.10.0 (278 blocks)",
+   "check": "solution_blocks_header_free"
   }
  ]
 }

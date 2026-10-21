@@ -7,6 +7,20 @@ Reads  : <repo>/Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-<paper>/t
 Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + 32 official sets)
 Papers : EXAMQ_EXPORT_PAPERS env ("1C", "2C", or "1C,2C" default)
 
+Export gates (fail-closed, v2 of this script — the G-E law archived on PR #27):
+  G-E1  every regenerated set is compared against the bundle of record.
+        Default: ANY delta fails the export (the reproducibility law — running
+        the exporter of record against its own bundle must be a no-op).
+        A content wave passes --expected-deltas <census.json>; the printed
+        census (new/gone/changed part ids per slug) must EQUAL it exactly.
+  G-E2  per-question sum(parts.marks) == totalMarks; every markPoints block
+        sums to the part marks; specPointCodes is a list of strings.
+  G-E3  per-slice census (questions/parts/marks) must equal the recorded
+        MULTI-SERIES-REPORT constants for BOTH papers (hard stop on drift).
+  G-E4  the SME prefix of the bundle re-serializes byte-identically (the
+        official-papers export never touches the SME corpus of record).
+Deterministic; no LLM in the loop.
+
 Contract notes (src/lib/contracts.ts in syllabai-hub):
 - QuestionPart: id/order/questionType/marks/commandWord/specPointIds/
   specPointCodes/problemMd/solutionMd/choices?/sourcePaper? — this exporter
@@ -22,7 +36,6 @@ from pathlib import Path
 # repo-relative (F15 portability): works from any checkout of syllabai-resources
 CORPUS = str(Path(__file__).resolve().parents[1] / "Official-ExamQuestion" / "igcse-chemistry-19")
 HUB_CURRENT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/hub-chem-questions.json"
-OUT = sys.argv[1] if len(sys.argv) > 1 else "/tmp/hub-stage"
 RAW = "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-chemistry-19"
 SERIES_LABEL = {"01": "January", "06": "June", "11": "November"}
 OFFICIAL_SLUG_PREFIX = "official-4ch1-"
@@ -54,9 +67,11 @@ def resolve_asset_path(a, by_id):
     return None
 
 
-def export_series(series, paper):
-    tp = f"{CORPUS}/{series}/4CH1-{paper}/topic.json"
-    tj = json.load(open(tp))
+def export_series(series, paper, topic=None):
+    if topic is None:
+        tp = f"{CORPUS}/{series}/4CH1-{paper}/topic.json"
+        topic = json.load(open(tp))
+    tj = topic
     # asset id -> asset (for shared-ref resolution)
     by_id = {}
     for q in tj["questions"]:
@@ -163,19 +178,180 @@ def export_series(series, paper):
     }
 
 
+# G-E3 census of record — generated from MULTI-SERIES-REPORT.json @ converter
+# v0.10.0 (wave 12: 2019-06 1C recovered through the F41 OCR layer).
+# (questions, parts, marks) per slice; a mismatch is a hard stop.
+EXPECTED_CENSUS = {
+    "1C": {
+        "2019-06": (15, 64, 110),
+        "2020-01": (10, 60, 110),
+        "2020-11": (10, 64, 110),
+        "2021-01": (11, 53, 110),
+        "2021-06": (10, 54, 110),
+        "2021-11": (11, 67, 110),
+        "2022-01": (11, 65, 110),
+        "2022-06": (10, 57, 110),
+        "2023-01": (12, 60, 110),
+        "2023-06": (10, 55, 110),
+        "2023-11": (10, 66, 110),
+        "2024-06": (10, 56, 110),
+        "2024-11": (11, 56, 110),
+        "2025-06": (10, 49, 110),
+        "2025-11": (10, 59, 110),
+        "2026-06": (9, 56, 110),
+    },
+    "2C": {
+        "2019-06": (8, 39, 70),
+        "2020-01": (7, 39, 70),
+        "2020-11": (7, 35, 70),
+        "2021-01": (7, 39, 70),
+        "2021-06": (7, 43, 70),
+        "2021-11": (7, 41, 70),
+        "2022-01": (7, 41, 70),
+        "2022-06": (7, 39, 70),
+        "2023-01": (7, 37, 70),
+        "2023-06": (7, 41, 70),
+        "2023-11": (7, 37, 70),
+        "2024-06": (7, 37, 70),
+        "2024-11": (7, 34, 70),
+        "2025-06": (6, 38, 70),
+        "2025-11": (6, 31, 70),
+        "2026-06": (6, 36, 70),
+    },
+}
+
+ALL_SERIES = ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
+              "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06",
+              "2024-11", "2025-06", "2025-11", "2026-06"]
+
+
+class ExportGateError(Exception):
+    pass
+
+
+def census(s):
+    nq = len(s["questions"])
+    nps = sum(len(q["parts"]) for q in s["questions"])
+    mk = sum(p["marks"] for q in s["questions"] for p in q["parts"])
+    return nq, nps, mk
+
+
+def part_map(s):
+    return {p["id"]: p for q in s["questions"] for p in q["parts"]}
+
+
+def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
+    """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict."""
+    by_slug = {t.get("slug"): t for t in json.loads(raw_bundle_bytes)}
+    # ---- G-E3: census constants (cheap, run first) ----
+    for paper in ("1C", "2C"):
+        for series in ALL_SERIES:
+            s = next(t for t in out_sets if t["slug"] == f"official-4ch1-{paper.lower()}-{series}")
+            c = census(s)
+            exp = EXPECTED_CENSUS[paper][series]
+            if c != exp:
+                raise ExportGateError(f"G-E3 {series}/{paper}: census {c} != expected {exp}")
+    print(f"G-E3 ok: 32 slices match the v0.10.0 MULTI-SERIES constants "
+          f"({sum(census(t)[2] for t in out_sets if t.get('topicSlug')=='official-past-papers')} marks)")
+    # ---- G-E2: sum laws ----
+    for t in out_sets:
+        if t.get("topicSlug") != "official-past-papers":
+            continue
+        for q in t["questions"]:
+            if sum(p["marks"] for p in q["parts"]) != q["totalMarks"]:
+                raise ExportGateError(f"G-E2 part-sum violation in {t['slug']} {q['id']}")
+            for p in q["parts"]:
+                msum = sum(m["marks"] for m in (p.get("markPoints") or []))
+                if p.get("markPoints") and msum != p["marks"]:
+                    raise ExportGateError(f"G-E2 markPoints sum {msum} != {p['marks']} at {p['id']}")
+                if not all(isinstance(c, str) for c in (p.get("specPointCodes") or [])):
+                    raise ExportGateError(f"G-E2 spec codes not strings at {p['id']}")
+    print("G-E2 ok: part-sum, markPoints sum-law and spec-code shapes hold on all official sets")
+    # ---- G-E1: regenerate vs bundle of record ----
+    census_rows = {"new": {}, "gone": {}, "changed": {}}
+    for paper in ("1C", "2C"):
+        for series in ALL_SERIES:
+            slug = f"official-4ch1-{paper.lower()}-{series}"
+            rebuilt = export_series(series, paper, topics_src(series, paper))
+            of_record = by_slug.get(slug)
+            if of_record is None:
+                raise ExportGateError(f"G-E1: bundle of record lacks {slug}")
+            rp, op = part_map(rebuilt), part_map(of_record)
+            new_ids = sorted(set(rp) - set(op))
+            gone_ids = sorted(set(op) - set(rp))
+            changed = sorted(pid for pid in set(rp) & set(op)
+                             if json.dumps(rp[pid], sort_keys=True) != json.dumps(op[pid], sort_keys=True))
+            if new_ids:
+                census_rows["new"].setdefault(slug, []).extend(new_ids)
+            if gone_ids:
+                census_rows["gone"].setdefault(slug, []).extend(gone_ids)
+            if changed:
+                census_rows["changed"].setdefault(slug, []).extend(changed)
+    flat = {k: {s: v for s, v in d.items() if v} for k, d in census_rows.items()}
+    n_delta = sum(len(v) for d in flat.values() for v in d.values())
+    if n_delta == 0:
+        print("G-E1 ok: regeneration is a byte-level no-op against the bundle of record")
+    else:
+        if not expected_deltas_path:
+            for k in ("new", "gone", "changed"):
+                for slug, ids in flat[k].items():
+                    for pid in ids:
+                        print(f"  DELTA {k}: {slug} {pid}")
+            raise ExportGateError(
+                f"G-E1: {n_delta} deltas vs the bundle of record with no --expected-deltas "
+                f"census (the reproducibility law: an exporter of record run against its own "
+                f"bundle must be a no-op; a content wave must disclose its census)")
+        expected = json.load(open(expected_deltas_path))
+        if json.dumps(flat, sort_keys=True) != json.dumps(expected, sort_keys=True):
+            raise ExportGateError("G-E1: delta census != --expected-deltas (the printed "
+                                  "DELTA listing above shows the fresh census; regenerate "
+                                  "the disclosure file only after eyeballing every class)")
+        print(f"G-E1 ok: {n_delta} deltas match the disclosed wave census exactly")
+    # ---- G-E4: the SME prefix is never touched ----
+    first_off = raw_bundle_bytes.find(b'"topicId": "off_')
+    if first_off == -1:
+        raise ExportGateError("G-E4: no official block found in the bundle of record")
+    out_bytes = json.dumps(out_sets, indent=1, ensure_ascii=False).encode()
+    if out_bytes[:first_off] != raw_bundle_bytes[:first_off]:
+        for i in range(first_off):
+            if out_bytes[i] != raw_bundle_bytes[i]:
+                raise ExportGateError(
+                    f"G-E4: SME prefix diverges at byte {i}: "
+                    f"{raw_bundle_bytes[max(0,i-60):i+60]!r} vs {out_bytes[max(0,i-60):i+60]!r}")
+        raise ExportGateError("G-E4: SME prefix length drift")
+    print(f"G-E4 ok: SME prefix byte-identical ({first_off} bytes)")
+
+
 def main():
-    hub = json.load(open(HUB_CURRENT))
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("out_stage")
+    ap.add_argument("current_questions")
+    ap.add_argument("--topics-dir", default=None,
+                    help="dir holding <series>-<paper>.json staging copies of the corpus topics")
+    ap.add_argument("--expected-deltas", default=None,
+                    help="disclosed delta census for a content wave (default: zero deltas)")
+    ap.add_argument("--manifest", default=None,
+                    help="manifest.json beside the bundle of record; staged with bumped note")
+    args = ap.parse_args()
+    topics_dir = args.topics_dir or os.path.join(os.getcwd(), "topics")
+
+    def topics_src(series, paper):
+        return json.load(open(os.path.join(topics_dir, f"{series}-{paper}.json")))
+
+    raw = open(args.current_questions, "rb").read()
+    hub = json.loads(raw)
     kept = [t for t in hub if not t["slug"].startswith(OFFICIAL_SLUG_PREFIX)]
-    papers = [x.strip() for x in PAPER.split(",")]
-    official = [export_series(s, paper)
-                for paper in papers
-                for s in ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
-                          "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06",
-                          "2024-11", "2025-06", "2025-11", "2026-06"]]
+    official = [export_series(s, paper, topics_src(s, paper))
+                for paper in ("1C", "2C") for s in ALL_SERIES]
     out = kept + official
-    dest = os.path.join(OUT, "content/igcse-chemistry-19")
+
+    run_gates(out, raw, args.expected_deltas, topics_src)
+
+    dest = os.path.join(args.out_stage, "content", "igcse-chemistry-19")
     os.makedirs(dest, exist_ok=True)
-    json.dump(out, open(os.path.join(dest, "questions.json"), "w"), indent=1, ensure_ascii=False)
+    with open(os.path.join(dest, "questions.json"), "wb") as f:
+        f.write(json.dumps(out, indent=1, ensure_ascii=False).encode())
     n_sets = len(official)
     n_q = sum(len(t["questions"]) for t in official)
     n_p = sum(len(q["parts"]) for t in official for q in t["questions"])
@@ -186,6 +362,19 @@ def main():
                  for a in p["assets"] if a["kind"] == "crop-required")
     print(f"sets: {len(kept)} SME kept + {n_sets} official | questions: {n_q} | parts: {n_p} "
           f"| markPoints: {n_mp} | figure crops: {n_fig} | honest stubs: {n_stub}")
+    if args.manifest and os.path.exists(args.manifest):
+        manifest = json.load(open(args.manifest))
+        official_n = sum(1 for t in out if t.get("topicSlug") == "official-past-papers")
+        manifest["importSource"]["note"] = (
+            "ADR-037 converter v0.10.0 corpus (merged main): 2019-06 rasterized pages recovered "
+            "through the F41 OCR source layer (G1 110/110 PASS, 15 new/renumbered parts) + F42 "
+            "early-MS bare-marker linkage (G5 63/64; 3(d)(ii) honestly unmatched, MS answer is a "
+            f"printed image). {official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} "
+            "parts, all spec-tagged (1C wave 2 + 2C wave 1).")
+        os.makedirs(args.out_stage, exist_ok=True)
+        with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
+            f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
+        print(f"manifest staged (importSource.ref stays; note bumped to v0.10.0)")
     print(f"written: {dest}/questions.json")
 
 

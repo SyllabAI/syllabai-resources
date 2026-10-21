@@ -153,9 +153,6 @@ Lithium ions can be identified using a flame test. What flame colour indicates t
 > A is incorrect as it is not lilac
 > B is incorrect as it is not orange
 > D is incorrect as it is not yellow
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer C: red
 
@@ -323,7 +320,6 @@ Calcium hydroxide can react with phosphoric acid to form calcium phosphate. Comp
 
 > 3Ca(OH)2 + 2H3PO4 → (1)Ca3(PO4)2 + 6H2O ALLOW multiples and
 > fractions
-> Answer Notes Marks
 
 - **(1)** 3Ca(OH)2 + 2H3PO4 → (1)Ca3(PO4)2 + 6H2O ALLOW multiples and
 
@@ -448,9 +444,6 @@ Explain why hexane (C6H14) has a higher boiling point than butane (C4H10).
 > M2 stronger intermolecular forces between the no M2 or M3 if any mention
 > molecules ORA of breaking covalent bonds
 > M3 so more energy to overcome the forces ORA Total 14
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** hexane is a larger molecule/longer chain ORA ALLOW contains more
 - **(1)** stronger intermolecular forces between the no M2 or M3 if any mention
@@ -580,9 +573,6 @@ The actual yield of iron from this sample is 21 g. Calculate the percentage yiel
 > involving 21 as the
 > numerator
 > 0.75 scores 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 21 x 100 correct answer
 - **(1)** 75 (%) ALLOW ecf for any
@@ -698,9 +688,6 @@ Explain what might have caused the anomalous result.
 > M1 did not stir the mixture
 > M2 so highest temperature was not reached
 > I Total 12
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** An explanation that links the following points do not allow use
 
@@ -763,7 +750,6 @@ Explain why graphite is soft and is a conductor of electricity. Refer to structu
 > M7 electrons are free to move (therefore they IGNORE reference to
 > can conduct electricity) can carrying a
 > charge/current
-> Question
 > number Answer Notes Marks
 
 - **(6)** An explanation that links six of the following

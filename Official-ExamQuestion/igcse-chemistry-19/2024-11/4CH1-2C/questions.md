@@ -84,9 +84,6 @@ A proton has a mass of 1.6726 × 10–24 g. A neutron has a mass of 1.6740 × 10
 > mark for 3.3466 x 10-24
 > 1.00398 x 10-23
 > Total = 7
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without
 - **(1)** 1.1714×10-23
@@ -161,9 +158,6 @@ A student has a solution of iron(II) sulfate and a solution of iron(III) sulfate
 > M2 dep on M1 or any
 > soluble hydroxides
 > Total = 8
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add sodium hydroxide (to both solutions) IGNORE OH-/ hydroxide
 - **(1)** iron(II) sulfate forms a green precipitate /ppt IGNORE sluggish green
@@ -230,9 +224,6 @@ Give a physical test that the teacher could do to find out if the ethanol produc
 > range of temperatures
 > it is impure
 > Total = 6
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** measure / test the boiling point ALLOW boil the ethanol
 - **(1)** a pure substance has a fixed boiling point / IGNORE a pure
@@ -330,9 +321,6 @@ Explain why potassium is more reactive than lithium. Refer to atomic structure i
 > easily lost if electrons are
 > mentioned
 > Total = 11
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (atoms of potassium) are bigger / have more ALLOW / more shielding
 - **(1)** (therefore) the outer shell electron is less lose 1 mark if outer shell
@@ -449,9 +437,6 @@ This is the equation for the reaction between dilute nitric acid and sodium hydr
 > M5 leave (in a warm place) to dry /dry with filter paper
 > /towel/cloth
 > Total = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** repeat using the same volumes of NaOH and HNO 3 M1 only if heated to
 - **(1)** heat until crystals first start to form /heat to ALLOW heat to evaporate
@@ -561,9 +546,6 @@ Explain why the reaction between ethene and bromine is exothermic. Refer to bond
 > out /released to break the
 > bonds
 > Total = 13
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** more energy / heat was given out /released when ALLOW sum of bond
 - **(1)** than was taken in / needed to break the bonds (in ALLOW is less than the

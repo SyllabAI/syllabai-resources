@@ -49,9 +49,6 @@ Name the piece of apparatus labelled R.
 **Mark scheme answer**
 
 > (volumetric) pipette REJECT dropping pipette
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (volumetric) pipette REJECT dropping pipette
 
@@ -170,9 +167,6 @@ Explain how displacement reactions involving halogens and halides provide eviden
 > reaction
 > M5 example of reaction where displacement does
 > not occur
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** reactivity decreases down the group (from F/Cl ALLOW fluorine is the
 - **(1)** displacement reactions happen when more ALLOW specific halogen
@@ -315,9 +309,6 @@ A sample of the solution surrounding the positive electrode is tested with unive
 > ALLOW orange
 > IGNORE yellow
 > REJECT pink
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** concentration of hydroxide ions/OH- decreases ALLOW H+/hydrogen ions
 - **(1)** so universal indicator turns red
@@ -421,9 +412,6 @@ Deduce the name of the carboxylic acid and the name of the alcohol that react to
 > M1 carboxylic acid ethanoic acid ACCEPT acetic acid
 > M2 alcohol butanol ACCEPT butan-1-ol/
 > 1-butanol
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** carboxylic acid ethanoic acid ACCEPT acetic acid
 - **(1)** alcohol butanol ACCEPT butan-1-ol/
@@ -463,9 +451,6 @@ Identify the small molecule formed when these two monomers react together.
 **Mark scheme answer**
 
 > water/H2O
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** water/H2O
 
@@ -550,9 +535,6 @@ Potassium iodide has been suggested as an alternative catalyst to manganese(IV) 
 > compare gradient (steepness) for each catalyst
 > M7 the more effective catalyst gives the fastest rate
 > of reaction OWTTE
-> Question
-> Answer Notes Marks
-> number
 
 - **(5)** A description that refers to five of the following seven
 

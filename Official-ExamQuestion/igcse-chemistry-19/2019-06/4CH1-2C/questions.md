@@ -40,9 +40,7 @@ Complete the sentence about isotopes. Isotopes are atoms that have the same numb
 
 > M1 protons IGNORE electrons
 > M2 neutrons
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** protons IGNORE electrons
 - **(1)** neutrons
@@ -208,7 +206,6 @@ State the relationship between the number of carbon atoms in the molecule and ho
 > evaporates
 > IGNORE references to time taken
 > ALLOW correct reverse argument
-> Question
 > number Answer Additional guidance Marks
 
 - **(1)** as the number of carbon atoms increases
@@ -254,9 +251,7 @@ Aluminium is malleable and can be easily shaped to make saucepans used for cooki
 > IGNORE unreactive/inert
 > M4 high melting point IGNORE references to recycling
 > M5 low density/lightweight/strong IGNORE light
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(2)** Any two from the following:
 
@@ -295,7 +290,6 @@ Explain why magnalium is harder than aluminium.
 > IGNORE references to strength of
 > metallic bonds
 > Question Answer Additional guidance Marks
-> number
 
 - **(1)** the regular arrangement of atoms is ALLOW lattice/layers/rows of
 - **(1)** because magnesium atoms are larger than ALLOW magnesium and aluminium
@@ -373,9 +367,7 @@ Explain, in terms of bonds broken and bonds made, why this reaction is exothermi
 > M2 than is taken in when the bonds are broken
 > ACCEPT correct reverse
 > argument
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** more energy is given out when the bonds are made If state/imply that energy
 - **(1)** than is taken in when the bonds are broken
@@ -400,9 +392,7 @@ Draw an energy level diagram for the reaction between N2H4 and H2O2 energy
 > reactants (on left) and
 > M3 correct names/formulae of both products products (on right) award
 > 1 mark from M2 and M3
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** right hand line below left hand line
 - **(1)** correct names/formulae of both reactants If only use words
@@ -496,9 +486,7 @@ Write a chemical equation for the complete combustion of ethanol in air.
 > C2H5OH + 3 O2  2 CO2 + 3 H2O ACCEPT multiples
 > M1 all formulae correct
 > M2 correctly balanced M2 DEP M1
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** all formulae correct
 - **(1)** correctly balanced M2 DEP M1
@@ -558,9 +546,7 @@ Complete the equation for the reaction of ethanoic acid with sodium CH3COOH(aq) 
 > M1 for both products correct
 > M2 for correctly balanced ACCEPT multiples
 > M2 DEP M1
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** for both products correct
 - **(1)** for correctly balanced ACCEPT multiples
@@ -652,9 +638,7 @@ A student suggests that the new equilibrium mixture would be lighter in colour t
 > ALLOW molecules/particles of NO2
 > are in a smaller volume
 > REJECT more NO2 produced
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** the concentration of NO2 has increased ALLOW molecules/particles of NO2
 
@@ -697,9 +681,7 @@ Write a chemical equation for the reaction between nitrogen monoxide, NO, and ca
 **Mark scheme answer**
 
 > 2 NO + 2 CO  N2 + 2 CO2 ACCEPT multiples and fractions
-> Question
 > Answer Additional guidance Marks
-> number
 
 - **(1)** 2 NO + 2 CO  N2 + 2 CO2 ACCEPT multiples and fractions
 

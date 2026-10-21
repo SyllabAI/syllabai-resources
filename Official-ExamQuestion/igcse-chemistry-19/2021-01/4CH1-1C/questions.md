@@ -41,9 +41,6 @@ Particles in a solid are closely packed, arranged in a regular pattern and vibra
 > M4 move (very) quickly IGNORE references to
 > kinetic energy
 > 6 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** A description that refers to any three of the
 
@@ -146,9 +143,6 @@ Suggest how the melting point of a pure substance changes when an impurity is ad
 > temperatures substance will have a
 > lower melting point
 > 5 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the (impure) substance will melt over a range of ALLOW the (impure)
 
@@ -231,9 +225,6 @@ Complete the chemical equation for the reaction between lead nitrate and potassi
 > fractions
 > 2KNO3(aq)
 > 7 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** ALLOW multiples and
 
@@ -308,9 +299,6 @@ Some car manufacturers use paint containing tiny particles of zinc. Explain how 
 > IGNORE references to
 > galvanising
 > 7 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** zinc is more reactive/higher in the reactivity ALLOW zinc is a
 - **(1)** zinc will oxidise / react / corrode instead of IGNORE references to
@@ -387,9 +375,6 @@ A different chromatography experiment is set up. A spot of food colouring is pla
 > M1 120 × 0.72 without working scores
 > M2 86 / 86.4 (mm)
 > 10 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 120 × 0.72 without working scores
 - **(1)** 86 / 86.4 (mm)
@@ -457,9 +442,6 @@ A student has four unlabelled beakers, each containing a colourless solution of 
 > If this alternative given no
 > M5
 > 9 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(6)** A description that refers to any six of the following
 
@@ -565,9 +547,6 @@ Give a reason why the scientist does the experiment in a polystyrene cup.
 > polystyrene is a good insulator /poor conductor (of ALLOW prevent heat loss
 > heat) OR to minimise/reduce heat loss
 > 13 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** polystyrene is a good insulator /poor conductor (of ALLOW prevent heat loss
 
@@ -699,9 +678,6 @@ The ionic equation for the reaction between bromine and sodium iodide is Br2(aq)
 > loses electrons so is
 > oxidised
 > 12 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** M1 bromine is reduced and iodide (ions)/I- is
 
@@ -818,9 +794,6 @@ Give the name of this type of reaction.
 
 > substitution
 > 12 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** substitution
 
@@ -944,9 +917,6 @@ The equation for the complete combustion of one mole of an alkane can be represe
 > incorrect values of X and
 > Y
 > 14 marks
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** moles of CO2 = 7 or X = 7
 - **(1)** moles of H2O = 8 or Y = 8

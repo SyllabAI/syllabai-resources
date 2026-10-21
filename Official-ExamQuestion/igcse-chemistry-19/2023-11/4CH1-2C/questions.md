@@ -94,9 +94,6 @@ When a halogen is added to a solution containing halide ions, a displacement rea
 > Deduct 1 mark only for
 > incorrect use of ide or
 > ine
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** chlorine displaces bromine and iodine/chlorine ALLOW chlorine has
 - **(1)** bromine displaces iodine/iodine doesn’t ALLOW iodine has no
@@ -193,9 +190,6 @@ State why the gas remaining in the bell jar at the end of the reaction is approx
 > been removed and) only 1%
 > / small amounts of the
 > other gases remain
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** The percentages of argon and carbon dioxide are ACCEPT references to
 
@@ -284,9 +278,6 @@ The diagram represents the structure of pure aluminium, and the structure of an 
 > Deduct 1 mark if no
 > mention of
 > layers/sheets/rows
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** in pure metal layers (of atoms/cations ALLOW sheets/rows for
 - **(1)** in an alloy the different sized/larger atoms
@@ -404,9 +395,6 @@ The student repeats the experiment using a polystyrene cup. These are the studen
 > ACCEPT any number of
 > significant figures correctly
 > rounded except 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** mass of solution = 25 + 22 OR 47 (g) correct answer without
 - **(1)** Q = mcΔT OR Q = 47 × 4.2 × 35 ALLOW ecf from M1 if
@@ -544,9 +532,6 @@ State what is meant by the term biopolyester.
 > by bacteria
 > ALLOW can be
 > decomposed
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (a polyester that) is biodegradable ACCEPT can be degraded
 
@@ -648,9 +633,6 @@ Describe a test to show that sodium carbonate solution contains carbonate ions.
 > the gas with limewater of adding acid
 > M3 (limewater) turns milky/cloudy ALLOW white precipitate
 > M3 dep on limewater
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add (dilute) hydrochloric acid (to the sodium ALLOW any suitable
 - **(1)** bubble/pass the gas through limewater OR test M2 dep on M1 or mention
@@ -759,9 +741,6 @@ Use the equation and the values in the table to calculate the enthalpy change, �
 > marks
 > sign required to score
 > M3
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)**  bond energies on LHS = 2 × 436 + 498 OR 1370 (kJ) Correct answer without
 - **(1)**  bond energies on RHS = 4 × 463 OR 1852 (kJ)

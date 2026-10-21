@@ -100,9 +100,6 @@ Describe the arrangement and movement of particles in a solid.
 > closely packed regular lattice EXP
 > M2 (particles) vibrate around a fixed
 > position/vibrate only
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** regular arrangement of particles/particles ALLOW particles in a
 - **(1)** (particles) vibrate around a fixed
@@ -224,9 +221,6 @@ A sample containing the isotopes Q and R has this percentage composition by mass
 > 15.8 scores 2
 > Use of 5 and 5 =5.0
 > scores 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 20.6 × 10 + 79.4 x 11 OR 1079.4
 - **(1)** 20.6 × 10 + 79.4 × 11 OR 1079.4 OR 10.794 incorrect mass
@@ -366,9 +360,6 @@ Give one important use for short‑chain alkenes.
 > polyethene, polypropene etc.
 > ACCEPT to make alcohol(s)
 > Reject fuels
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (to make) polymers /polymerisation ACCEPT the name of a correct
 
@@ -497,9 +488,6 @@ Give a chemical equation for this reaction.
 > fractions
 > IGNORE state symbols even
 > if incorrect
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** CuCO3  CuO + CO2 ALLOW multiples and
 
@@ -764,9 +752,6 @@ In this reaction, the manganese(IV) oxide acts as a catalyst. Explain how a cata
 > M1 provides an alternative pathway/route
 > M2 with lower activation energy
 > Total
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** provides an alternative pathway/route
 - **(1)** with lower activation energy
@@ -851,9 +836,6 @@ Give the formula of the ion that causes the solution to be acidic.
 **Mark scheme answer**
 
 > H+ ALLOW H3O+
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** H+ ALLOW H3O+
 
@@ -938,9 +920,6 @@ C60 fullerene is a molecule made of 60 carbon atoms. The diagram shows the struc
 > M2 3.6 × 1025 answer must be in
 > correct standard form
 > to 1 decimal place
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (number of atoms =) 60 × 6.0 × 1023 correct answer
 - **(1)** 3.6 × 1025 answer must be in
@@ -1068,9 +1047,6 @@ Use the Periodic Table to identify metal M.
 > and/or (iii) is viable
 > Use of 4.46 gives 223
 > Francium (scores 1)
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Pb/lead ALLOW ecf on incorrect
 

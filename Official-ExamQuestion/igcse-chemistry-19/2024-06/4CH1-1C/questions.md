@@ -57,9 +57,6 @@ Describe a test for chlorine.
 > blue then
 > bleaches/turns white
 > scores M1 only
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (use damp blue) litmus paper
 - **(1)** (litmus paper) bleached/turns white
@@ -186,9 +183,6 @@ Explain why this reaction is a redox reaction.
 > for M2
 > REJECT iron loses
 > oxygen for M2
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** An explanation that links the following two points
 
@@ -293,9 +287,6 @@ Deduce the name of element Z.
 **Mark scheme answer**
 
 > magnesium
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** magnesium
 
@@ -403,9 +394,6 @@ Calcium bromide is an ionic compound. The table shows the formulae and melting p
 > than to overcome the intermolecular forces (in
 > caffeine) OWTTE No M5 if reference to
 > incorrect bonds
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** calcium bromide is a giant (ionic)
 - **(1)** with many/strong electrostatic attractions ALLOW many/strong
@@ -479,9 +467,6 @@ Calculate the Rf value for the dye in G. Show your working. Rf value =
 > 0.57 and 0.64
 > M3 not awarded if value is
 > incorrectly rounded
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** distance from baseline to solvent level in mm = 65
 - **(1)** distance from baseline to spot/dye in mm = 39 ACCEPT any value between
@@ -603,9 +588,6 @@ Potassium aluminium sulfate is normally found as a hydrated salt, with the formu
 > M4 (x = 0.6  0.05 =) 12 whole number
 > ACCEPT alternative
 > methods
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (mass of water =) 23.7 − 12.9 OR 10.8 without working scores 4
 - **(1)** (moles of KAl(SO4)2 =) 12.9  258 OR 0.05(00) ALLOW ecf on incorrect
@@ -750,9 +732,6 @@ A technician finds an unlabelled bottle on a shelf that could be ammonium carbon
 > No M5 and M6 if
 > limewater added directly
 > to the solution.
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** add sodium hydroxide solution (and heat) and M3
 - **(1)** test the gas/ammonia with (damp) red litmus M2 is dependent on M1
@@ -914,9 +893,6 @@ Explain one problem for humans caused by a product of this incomplete combustion
 > haemoglobin
 > M2 dep on M1
 > IGNORE harmful
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** carbon monoxide/CO
 - **(1)** is poisonous/toxic/limits the capacity to carry
@@ -1014,9 +990,6 @@ The student repeats the experiment using the same mass of smaller marble chips. 
 > MAX 1 mark if reference
 > to particles having more
 > energy or moving faster
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the rate of reaction would increase/be faster
 - **(1)** (because) the smaller marble chips have a IGNORE less chance of

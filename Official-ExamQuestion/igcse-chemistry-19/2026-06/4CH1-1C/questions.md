@@ -124,9 +124,6 @@ Explain why aqueous ammonia is an alkali and a base.
 > ions neutralising an acid for
 > M2
 > IGNORE pH references
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (ammonia is an alkali as it) forms/source of ALLOW (an alkali) is a
 - **(1)** (ammonia is a base as it) accepts protons/H+ ALLOW references to
@@ -230,9 +227,6 @@ This passage is about the reaction between sodium and oxygen. Use words from the
 > M2 exothermic
 > M3 ionic
 > M4 basic
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** minimum
 - **(1)** exothermic
@@ -364,9 +358,6 @@ Use the tangent to determine the rate of reaction at 60 s. Include the units for
 > 0.7 cm3/s)
 > ALLOW cm3/second
 > M3 correct units of cm /s ALLOW cm3s-1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** suitable values taken from the graph for two If no tangent drawn
 - **(1)** gradient calculated (expected value approx. 0.5-
@@ -469,9 +460,6 @@ Name the type of reaction that occurs between isoprene and chlorine.
 > M1 – moles of X = 0.212/139 ( = 0.001525)
 > M2 – % yield = M1/0.0500 x 100 ecf for M2
 > M3 – 3.05 % (2 dp only) ecf for M3 but only to 2dp
-> Question
-> Answer Notes Marks
-> number
 
 - **(3)** M1 mass of X = 0.050 x 139 = 6.95 g Correct answer 3.05%
 
@@ -541,9 +529,6 @@ Explain how the combustion of an impurity in some hydrocarbon fuels causes an en
 > rain/water Accept correct equation
 > for M3
 > M4 (to form) acid rain
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (a common impurity in fuels is) sulfur IGNORE C/CO/CO2
 - **(1)** (sulfur) burns/combusts/reacts in (air/oxygen) Accept correct equation
@@ -682,9 +667,6 @@ Explain why ethane does not have any isomers.
 > different structural/displayed formula references to general
 > formula in isomer
 > definition.
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (ethane has) only one possible structure/no ALLOW (ethane) cannot be
 - **(1)** isomers have the same molecular formula but a REJECT incorrect
@@ -807,9 +789,6 @@ Give a reason why copper metal cannot be used in this reaction.
 > copper will not react (with a dilute acid)/copper is
 > unreactive/copper is at the bottom of the reactivity
 > series/copper is below hydrogen in the reactivity series
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** copper will not react (with a dilute acid)/copper is
 
@@ -923,9 +902,6 @@ Lithium fluoride has a giant ionic structure. Explain why lithium fluoride has a
 > of covalent bonds,
 > intermolecular forces
 > or molecules
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** strong electrostatic (forces of) attraction
 - **(1)** between oppositely charged ions

@@ -46,9 +46,6 @@ Describe a test for carbon dioxide.
 > M2 dep on use of
 > limewater/calcium
 > hydroxide in M1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** bubble/add (the gas/carbon dioxide) into ACCEPT calcium
 - **(1)** (limewater) turns cloudy/milky ACCEPT white
@@ -133,9 +130,6 @@ Give the letters of the two species that are isotopes of the same element.
 **Mark scheme answer**
 
 > Y and Z
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Y and Z
 
@@ -162,9 +156,6 @@ A sample of neon contains two isotopes, 20Ne and 22Ne The relative abundances of
 > scores 0
 > 20 with correct working
 > scores 2
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (91.2 x 20) + (8.80 x 22) OR 2017.6 ACCEPT 2018
 - **(1)** 2017.6 ÷ 100 OR 20.176 ACCEPT 20.18
@@ -228,9 +219,6 @@ Explain the purpose of the piece of apparatus labelled X.
 > An explanation that links the following two points
 > M1 (water/ vapour/ steam / gas) is cooled
 > M2 and condenses OR in the condenser
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (water/ vapour/ steam / gas) is cooled
 - **(1)** and condenses OR in the condenser
@@ -318,9 +306,6 @@ Determine which food colouring contains a dye with Rf value closest to 0.67 Show
 > M3 (the dye in food colouring) G
 > ALLOW alternative
 > methods
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** distance moved by solvent = 59-61mm and ALLOW distances in cm
 - **(1)** distance moved by the dye ÷ distance moved by
@@ -426,9 +411,6 @@ State the term used for compounds with the same molecular formula but different 
 **Mark scheme answer**
 
 > isomers ALLOW isomerism
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** isomers ALLOW isomerism
 
@@ -465,9 +447,6 @@ Two ways of disposing of polymers such as poly(propene) are  burying them in 
 > M3 burning produces toxic gases ALLOW burning
 > produces greenhouse
 > gases
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** polymers/poly(propene) will remain in landfill
 - **(1)** (as they) are inert /unreactive/do not biodegrade
@@ -574,9 +553,6 @@ Which of these is the colour of the flame if the solid contains sodium ions?
 > A is incorrect as sodium ions do not give a green flame
 > B is incorrect as sodium ions do not give a lilac flame
 > C is incorrect as sodium ions do not give a red flame
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** Answer D: yellow
 
@@ -607,9 +583,6 @@ The melting point of potassium sulfate is 1069 °C. Explain why potassium sulfat
 > are strong scores M3
 > M4 a large amount of energy is needed to overcome
 > the forces/break the bonds
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (potassium sulfate) has a giant (ionic) structure
 - **(1)** electrostatic attraction between oppositely
@@ -650,9 +623,6 @@ Complete the table by giving the temperatures to the nearest 0.1 °C. temperatur
 > reached in oC incorrect starting
 > temperature
 > temperature rise in oC 20.8
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** 2
 
@@ -709,9 +679,6 @@ The mass of magnesium used by the student was 0.12 g. Calculate the value of the
 > -438.8 or-438.9 also
 > scores 4 (from 5.12g
 > and 2194J in (ii))
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** n(Mg) = 0.12 ÷ 24 OR 0.005(0)
 - **(1)** Q ÷ n OR 2184 ÷ 0.005(0) OR 436,800 (J/mol) ACCEPT use of 2180 or
@@ -793,9 +760,6 @@ Draw a dot‑and‑cross diagram to show the bonding in a molecule of ammonia. S
 > ALLOW any
 > combination of dots and
 > crosses
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 3 bonding pairs correct
 - **(1)** rest of molecule correct M2 dep on M1
@@ -897,9 +861,6 @@ The student repeats the experiment using the same volume of hydrochloric acid bu
 > original curve
 > M2 curve levels off at 0.27 g + or − half a small
 > square
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** curve drawn starting at the origin and below the
 - **(1)** curve levels off at 0.27 g + or − half a small
@@ -924,9 +885,6 @@ Explain, using particle collision theory, how increasing the temperature affects
 > there are more frequent
 > successful collisions
 > scores M3 and M5
-> Question
-> Answer Notes Marks
-> number
 
 - **(4)** An explanation that links the following four points
 
@@ -1012,9 +970,6 @@ Determine the empirical formula of the lead oxide. empirical formula of the lead
 > scores 4
 > ALLOW ECF from
 > incorrect masses.
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** 4.66 and 0.48 OR 0.0225 and 0.03(00) Division by atomic
 - **(1)** 0.0225 and 0.03(00) OR 1:1.33

@@ -77,9 +77,6 @@ Explain, in terms of electron configuration, why neon is unreactive.
 > (electron configuration) 2.8
 > M2 (so) does not need to lose or gain (or share)
 > electrons / e(-)
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** full outer shell / 8 electrons in outer shell /
 - **(1)** (so) does not need to lose or gain (or share)
@@ -217,9 +214,6 @@ Explain why an increasing amount of carbon dioxide in the atmosphere is likely t
 > ozone layer for M2 or M3
 > IGNORE reference to acid
 > rain
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** An explanation that links two of the following three
 
@@ -381,9 +375,6 @@ Draw the displayed formula of propanol.
 > H⎯C⎯C⎯C⎯O⎯H
 > I I I ACCEPT structure of
 > H H H propan-2-ol
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** H H H Bond between O and H
 
@@ -486,9 +477,6 @@ This is the ionic equation for the reaction between an acid and an alkali. H+(aq
 > M2 the OH− (ion) reacts / bonds with the H+ (ion) (to ALLOW donates a proton
 > form water) / H+ (ion) to the OH−
 > IGNORE accepts a proton
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** an H+ ion is a proton
 - **(1)** the OH− (ion) reacts / bonds with the H+ (ion) (to ALLOW donates a proton
@@ -594,9 +582,6 @@ State why the formation of oxygen at the positive electrode is an oxidation reac
 
 > electrons are lost ALLOW H2O / water
 > loses electrons
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** electrons are lost ALLOW H2O / water
 
@@ -671,9 +656,6 @@ Explain why the enthalpy change in this reaction is approximately 0 kJ / mol.
 > M2 energy needed to break bonds equals energy
 > released when bonds form (so overall enthalpy
 > change is 0)
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** the same (two) bonds / C⎯O and O⎯H are ALLOW ecf if wrong
 - **(1)** energy needed to break bonds equals energy

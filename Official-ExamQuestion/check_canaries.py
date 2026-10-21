@@ -332,6 +332,76 @@ for c in cans:
                 and bool((got[0].get("solution_md") or "").strip())
             if not ok:
                 print(f"  ! {series} {c.get('paper')} {c['part']}: expected linked with solution_md")
+        elif chk == "parts_all_linked":
+            # C53 (v0.10/F42): the 2019-06 early-MS bare-marker linkage wave —
+            # every named part must exist, be linked, and carry a solution block.
+            # Doubles as the damage-repair renumber pin (15(b)(i..iii), 11(b)(iii)).
+            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            ok = True
+            for pn in c["parts"]:
+                got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == pn]
+                if not got or got[0].get("answer_status") != "linked" \
+                        or not (got[0].get("solution_md") or "").strip():
+                    ok = False
+                    print(f"  ! {series} {pn}: expected linked with solution_md")
+        elif chk == "part_answer_status":
+            # C52 (v0.10/F42): honest-state pins — e.g. 3(d)(ii) stays unmatched
+            # because its MS answer cell is a printed image, not text.
+            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == c["part"]]
+            ok = bool(got) and got[0].get("answer_status") == c["expected"]
+            if not ok:
+                st = got[0].get("answer_status") if got else "PART MISSING"
+                print(f"  ! {series} {c['part']}: expected answer_status {c['expected']!r}, got {st!r}")
+        elif chk == "part_problem_md_contains":
+            # C49/C50/C51 (v0.10/F41): OCR-recovered verbatim pins — the
+            # transcribed spans (equation subscripts, table values) must never
+            # silently regress to the raw-OCR garble.
+            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            if c.get("question") is not None:
+                q = next((q for q in t["questions"] if q["question_number"] == c["question"]), None)
+                text = (q.get("stem_md") or "") if q else ""
+                if not text and q is not None:
+                    text = " ".join(p.get("problem_md") or "" for p in q["parts"])
+            else:
+                got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == c["part"]]
+                text = (got[0].get("problem_md") or "") if got else ""
+            needles = c.get("contains_all") or ([c["substring"]] if c.get("substring") else [])
+            ok = bool(text) and all(n in text for n in needles)
+            if not ok:
+                print(f"  ! {series} {c.get('question') or c.get('part')}: pinned text missing {needles}")
+        elif chk == "solution_blocks_header_free":
+            # C54 (v0.10/F43): no served solution block may carry the repeated
+            # MS page-table header — a marker row near a page break used to
+            # inherit the next page's 'Question / Answer (Notes) Marks / number'
+            # lines into solution_md/mark_points corpus-wide.
+            import re as _re
+            hdr = _re.compile(r"Question\s*Answer( Additional guidance)? Notes Marks\s*number|Question\s*\n?\s*Answer Notes Marks\s*\n?\s*number")
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            s = p.get("solution_md") or ""
+                            mps = p.get("mark_points") or []
+                            n += 1
+                            if hdr.search(s) or any(hdr.search(m.get("text_md") or "") for m in mps):
+                                ok = False
+                                print(f"  ! {d.name}/{pd.name} {p['part_number']}: solution block carries the MS page-table header")
+            print(f"  (solution blocks scanned: {n})")
+        elif chk == "ocr_pages_receipt":
+            # C48 (v0.10/F41): the OCR source-layer receipts must be present and
+            # cover exactly the recovered pages (fail-closed sha verification is
+            # G0's job at run time; this pins the receipt census).
+            rep, _ = load(series, c.get("paper", "1C"))
+            pages = [e["page"] for e in rep.get("ocr_pages", [])]
+            ok = pages == c["pages"]
+            if not ok:
+                print(f"  ! {series} {c.get('paper')}: ocr_pages {pages} != {c['pages']}")
         else:
             ok = False
             print(f"  ! unknown check type {chk}")

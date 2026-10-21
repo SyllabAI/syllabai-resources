@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.9.0"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.10.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -89,6 +89,8 @@ def paths_for(series: str, paper: str = "1C") -> dict:
         "qp_txt": qp_txt if (qp_txt.exists() or not legacy_qp_txt.exists()) else legacy_qp_txt,
         "ms_txt": ms_txt if (ms_txt.exists() or not legacy_ms_txt.exists()) else legacy_ms_txt,
         "manifest": UPLOAD / f"manifest-{series}-{paper}.yaml",
+        # v0.10 (F41): optional OCR source layer for image-only pages
+        "ocr_index": UPLOAD / "ocr" / f"{series}-{paper}" / "ocr-pages.json",
         "out": OUTROOT / series / f"4CH1-{paper}",
     }
 
@@ -134,6 +136,14 @@ FURNITURE_LINE = [
     re.compile(r"^\s*\d{1,2}\s*$"),                 # bare page number (1..36)
     re.compile(r"^[\s.]*\.[\s.]*$"),                # dotted answer lines
     re.compile(r"^\s*$"),
+    # F42: the MS is one table; every printed page repeats its header, and a
+    # marker row near a page break would otherwise swallow the next page's
+    # header into its answer block (2019-06 3(d)(ii) inherited
+    # 'Question / Answer Notes Marks / number' as its solution)
+    re.compile(r"^\s*Question\s*$"),
+    re.compile(r"^\s*Answer\s+Notes\s+Marks\s*$"),
+    re.compile(r"^\s*number\s*$"),
+    re.compile(r"^\s*Marks\s*$"),
 ]
 
 
@@ -290,11 +300,32 @@ def finalize_part(lines):
 # ---------------------------------------------------------------- stage 3: MS linkage
 MS_ROW_RE = re.compile(
     r"^ {0,20}(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\)\s*)?(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\)\s*)?(\S.*)$")
+# F42 marker-column gate: marker rows sit in the MS table's marker column
+# (indent <= 12 in every observed layout); the answer column starts deeper.
+# Without the gate, answer-cell fragments like the unit '(g)' hijack the
+# marker state (2019-06: '(g)' after 14(f)(i) re-pointed cur_letter to 'g'
+# and 14(f)(ii) became unlinkable).
 MS_MARKER_ONLY_RE = re.compile(
-    r"^\s*(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\))?\s*(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\))?\s*$")
+    r"^ {0,12}(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\))?\s*(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\))?\s*$")
 # some series (2019-06) print sub-letters bare without parentheses: "    b      they have..."
+# v0.10 (F42): the early 2019-06 MS also prints the letter at END OF LINE when the
+# answer cell is a printed image/diagram (9(b) dot-and-cross): '    b' — the
+# lookahead must accept end-of-line, else the row never opens its entry.
 MS_BARE_LETTER_RE = re.compile(
-    r"^ {0,20}(?:(\d{1,2})\s+)?([a-h])(?=\s{2,})\s*(.*)$")
+    r"^ {0,12}(?:(\d{1,2})\s+)?([a-h])(?=\s{2,}|$)\s*(.*)$")
+# v0.10 (F42): the early 2019-06 MS prints two-level markers bare —
+# 'd   i' (letter + spaces + bare roman, e.g. 3(d)(i), 13(b)(i), 14(f)(i),
+# 15(b)(i)), '   ii' (bare roman continuation row, e.g. 3(d)(ii), 10(a)(ii)),
+# and glued '10ai' / 'bi' (unspaced qn+letter+roman / letter+roman).
+# Same positional family as MS_BARE_LETTER_RE (F7); roman tokens are gated on
+# the ascending-sequence invariant so content lines that merely begin with a
+# roman-like token can never hijack a marker row.
+MS_BARE_LETTER_ROMAN_RE = re.compile(
+    r"^ {0,12}(?:(\d{1,2})\s+)?([a-h])\s+(i{1,3}|iv|v|vi{1,3})(?=\s{2,}|$)\s*(.*)$")
+MS_GLUED_MARKER_RE = re.compile(
+    r"^ {0,12}(?:(\d{1,2}))?([a-h])(i{1,3}|iv|v|vi{1,3})(?=\s{2,})\s*(.*)$")
+MS_BARE_ROMAN_RE = re.compile(
+    r"^ {0,12}(i{1,3}|iv|v|vi{1,3})(?=\s{2,}|$)\s*(.*)$")
 
 
 def parse_ms(ms_lines):
@@ -306,7 +337,11 @@ def parse_ms(ms_lines):
     entries = {}
     cur_q, cur_letter = None, None
     cur = None
+    last_roman = {}   # F42: (q, letter) -> index into ROMAN of the last marker roman
     TOTAL_RE = re.compile(r"^\s*Total\s+\d+\s*$")
+
+    def _roman_idx(r):
+        return ROMAN.index(r.lower()) if r else None
 
     def _honour_qn(qn_str, has_marker_evidence):
         """F35 (LEDGER): MS content rows can BEGIN with short numerals — Mr
@@ -340,6 +375,9 @@ def parse_ms(ms_lines):
         mo = MS_MARKER_ONLY_RE.match(ln)
         m = MS_ROW_RE.match(ln)
         mb = MS_BARE_LETTER_RE.match(ln)
+        mbr = MS_BARE_LETTER_ROMAN_RE.match(ln)
+        mg = MS_GLUED_MARKER_RE.match(ln)
+        mro = MS_BARE_ROMAN_RE.match(ln)
         if mo and any(mo.groups()[:3]):
             qn, letter, roman = mo.group(1), mo.group(2), mo.group(3)
             # v0.9 (F40i): the printed MS sometimes sets the roman in caps —
@@ -354,7 +392,43 @@ def parse_ms(ms_lines):
             if letter:
                 cur_letter = letter
             cur = (cur_q, cur_letter, roman if roman else None)
+            if roman and cur_q is not None and cur_letter:
+                last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
             entries.setdefault(cur, [])
+        elif mbr:
+            # F42: bare letter + bare roman, e.g. '    d   i    Impurities...'
+            qn, letter, roman, rest = mbr.groups()
+            roman = roman.lower()
+            new_q = _honour_qn(qn, True)
+            if new_q is not None:
+                cur_q = new_q
+            cur_letter = letter
+            cur = (cur_q, cur_letter, roman)
+            if cur_q is not None:
+                last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
+            # F42: a rest that is ONLY a marks-column digit opens a marker-only
+            # entry (the digit is layout, not answer content — 3(d)(ii)'s answer
+            # cell is a printed image; the digit alone must not become one)
+            entries.setdefault(cur, [] if re.fullmatch(r"\d{1,2}", rest.strip())
+                               else [rest.strip()] if rest.strip() else [])
+        elif mg:
+            # F42: glued unspaced marker, e.g. '  10ai     M1 ...' or '   bi      (C5H12...'
+            qn, letter, roman, rest = mg.groups()
+            roman = roman.lower()
+            new_q = _honour_qn(qn, True) if qn else None
+            if new_q is not None:
+                cur_q = new_q
+            # ascending-sequence gate: the glued letter must not go backwards
+            # within the question (content tokens like 'an'/'it' at line start
+            # can glue-match; real markers ascend)
+            if cur_q is None or (cur_letter and ord(letter) < ord(cur_letter) and qn is None):
+                cur = None
+            else:
+                cur_letter = letter
+                cur = (cur_q, cur_letter, roman)
+                if cur_q is not None:
+                    last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
+                entries.setdefault(cur, [rest.strip()] if rest.strip() else [])
         elif mb:
             # bare-letter rows must win over MS_ROW_RE (whose groups are all
             # optional and therefore match almost any line)
@@ -368,7 +442,24 @@ def parse_ms(ms_lines):
             if r2:
                 roman, rest = r2.group(1).lower(), r2.group(2)
             cur = (cur_q, cur_letter, roman)
+            if roman and cur_q is not None:
+                last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
             entries.setdefault(cur, [rest.strip()] if rest.strip() else [])
+        elif mro and cur is not None and cur[0] is not None and cur[1] is not None:
+            # F42: bare roman continuation row, e.g. '        ii      2' — the
+            # letter is inherited. Ascending-sequence gate: the roman must be
+            # exactly the next one for this (question, letter); anything else
+            # is content, not a marker.
+            roman, rest = mro.group(1).lower(), mro.group(2)
+            k = (cur[0], cur[1])
+            expected = last_roman.get(k, -1) + 1
+            if _roman_idx(roman) == expected:
+                cur = (cur[0], cur[1], roman)
+                last_roman[k] = expected
+                entries.setdefault(cur, [] if re.fullmatch(r"\d{1,2}", rest.strip())
+                                   else [rest.strip()] if rest.strip() else [])
+            elif cur is not None:
+                entries[cur].append(ln)
         elif m:
             qn, letter, roman, rest = m.groups()
             # F40i: same lowercase normalization as the marker-only branch —
@@ -981,6 +1072,36 @@ def main():
     if not identity_ok:
         print("G0 FAIL — aborting (fail-closed)"); json.dump(report, sys.stdout, indent=1); return 1
 
+    # ---- v0.10 (F41): OCR source layer for image-only pages -----------------
+    # A rasterized archive page carries no text layer (2019-06: 144-dpi scan,
+    # 8 image-only pages). When a prepared OCR page layer exists for such a
+    # page (UPLOAD/ocr/<series>-<paper>/qp-pNN.txt + ocr-pages.json manifest),
+    # its text IS the page's source layer: the staged qp.txt carries it
+    # (form-feed splice, prepared by scripts/prep_ocr_layer_2019.py) and
+    # page_norm below splices it so figure mentions anchor with page
+    # attribution. Fail-closed: every manifest sha256 must match its staged
+    # file or the run aborts; pages listed here are excluded from the G1
+    # image-only defect attribution (their content is recovered, not lost).
+    ocr_pages = []
+    if P["ocr_index"].exists():
+        ocr_manifest = json.loads(P["ocr_index"].read_text())
+        if ocr_manifest.get("source_pdf_sha256") != sha256(QP_PDF):
+            print("OCR layer manifest does not pin this QP PDF — aborting (fail-closed)")
+            report["gates"].append({"gate": "G0-identity", "status": "FAIL",
+                                    "summary": "ocr layer source_pdf_sha256 mismatch",
+                                    "details": {}})
+            json.dump(report, sys.stdout, indent=1); return 1
+        for e in ocr_manifest["pages"]:
+            f = P["ocr_index"].parent / f"qp-p{e['page']:02d}.txt"
+            if not f.exists() or sha256(f) != e["sha256"]:
+                print(f"OCR layer sha256 mismatch for page {e['page']} — aborting (fail-closed)")
+                report["gates"].append({"gate": "G0-identity", "status": "FAIL",
+                                        "summary": f"ocr layer sha256 mismatch p{e['page']}",
+                                        "details": {}})
+                json.dump(report, sys.stdout, indent=1); return 1
+            ocr_pages.append(e)
+    report["ocr_pages"] = ocr_pages
+
     qp_lines = clean_lines(QP_TXT.read_text(errors="replace"))
     footers = [(i, int(m.group(1)), int(m.group(2)))
                for i, ln in enumerate(qp_lines) if (m := FOOTER_RE.search(ln))]
@@ -1073,6 +1194,17 @@ def main():
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
             lines = ms_entries.get(key, [])
+            if not lines and p["roman"] is not None and p["group"] is None:
+                # v0.10 (F42): the QP prints a bare question-level roman
+                # (2019-06 11(iii) — the paper itself omits the '(b)' after
+                # '(b)(i)/(ii)'), while the MS nests the row under a letter.
+                # Fail-closed: use the (q, L, roman) entry only when EXACTLY
+                # ONE letter in the question owns that roman.
+                cands = [k for k in ms_entries
+                         if k[0] == q["question_number"] and k[2] == p["roman"]
+                         and k[1] is not None and ms_entries[k]]
+                if len(cands) == 1:
+                    lines = ms_entries[cands[0]]
             if not lines and p["roman"] is None and p["group"]:
                 # v0.9 (F40h): the printed MS sometimes sub-numbers a part the
                 # QP leaves undivided — Jan 2021 2C prints '1 (b) (i)' for the
@@ -1169,10 +1301,18 @@ def main():
     # ---- page anchoring + assets -------------------------------------------
     pdf = fitz.open(QP_PDF)
     page_norm = [norm(pg.get_text()) for pg in pdf]
+    # v0.10 (F41): OCR-covered pages contribute their prepared text to the
+    # page-normalized index, so mentions on recovered pages anchor with real
+    # page attribution.
+    for e in ocr_pages:
+        t = (P["ocr_index"].parent / f"qp-p{e['page']:02d}.txt").read_text()
+        if e["page"] - 1 < len(page_norm):
+            page_norm[e["page"] - 1] = norm(t)
     # source-defect census: rasterized pages carry no text layer (seen in 2019-06:
     # 8 image-only pages; Q7 lost entirely, Q1/Q11/Q12/Q13/Q15 partly)
     IMG_ONLY_CHARS = 40
     image_only_pages = [i + 1 for i, pg in enumerate(pdf) if len(pg.get_text().strip()) < IMG_ONLY_CHARS]
+    ocr_covered = {e["page"] for e in ocr_pages}   # F41: recovered, not lost
     footer_page = {}
     for i, pg in enumerate(pdf):
         t = pg.get_text()
@@ -1181,7 +1321,8 @@ def main():
     # only content pages matter for defect attribution (covers are routinely rasterized);
     # allow up to 3 pages before the first footer (a question's first page precedes its footer)
     first_q_page = min(footer_page.values()) if footer_page else 1
-    content_img_pages = [p for p in image_only_pages if p >= max(3, first_q_page - 3)]
+    content_img_pages = [p for p in image_only_pages if p >= max(3, first_q_page - 3)
+                         and p not in ocr_covered]
     MENTION_RE = re.compile(r"\b(table|diagram|grid|graph|apparatus|boxes)\b", re.I)
     for q in doc_questions:
         for p in q["parts"]:

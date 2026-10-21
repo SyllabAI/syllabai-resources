@@ -60,9 +60,6 @@ Give the charge on the ion formed from this atom.
 > +1 / 1+ ACCEPT + / Na+ /
 > positive 1
 > IGNORE positive alone
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** +1 / 1+ ACCEPT + / Na+ /
 
@@ -158,9 +155,6 @@ Describe how the student can obtain pure dry crystals of salt from the salt solu
 > the water
 > only M5 can be
 > awarded.
-> Question
-> Answer Notes Marks
-> number
 
 - **(4)** A description that refers to four of the following IGNORE any steps
 
@@ -270,9 +264,6 @@ Sulfur is an impurity in crude oil. Explain why this is a problem for the enviro
 > with rain / water
 > IGNORE mixes
 > M3 (causing) acid rain
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** sulfur dioxide produced when fuel is ALLOW sulfur / fuel reacts
 - **(1)** (sulfur dioxide) dissolves in / reacts with ACCEPT (sulfur oxide / sulfur
@@ -383,9 +374,6 @@ The student repeats the experiment and obtains a different set of results. Table
 > 25.7 (%) scores 2
 > 75.6 (%) scores 2
 > 34.6 (%) scores 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (volume of oxygen =) 90 − 22 OR 68 (cm3)
 - **(1)** (total volume at start =) 260 + 90 OR 350 (cm3)
@@ -471,9 +459,6 @@ Ethane (C2H6) and ethene (C2H4) both react with bromine. Describe the difference
 > M1, M2, M3 and M6 can be
 > scored from word or
 > chemical equations
-> Question
-> Answer Notes Marks
-> number
 
 - **(5)** A description that refers to any five of the following IGNORE any colour changes
 
@@ -630,9 +615,6 @@ Explain, in terms of particle collision theory, how increasing the temperature a
 > M3 collision frequency increases OR rate of reaction ACCEPT more
 > increases (successful) collisions
 > per unit time
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** particles gain more (kinetic) energy ALLOW particles move
 - **(1)** more collisions have energy greater than the ACCEPT more
@@ -661,7 +643,6 @@ State what is meant by the term isotopes.
 > IGNORE same
 > number of electrons
 > M2 (with a) different number of neutrons / different mass
-> number
 
 - **(1)** atoms of the same element / atoms with the same REJECT different
 - **(1)** (with a) different number of neutrons / different mass
@@ -795,9 +776,6 @@ The actual value of x is 5 Give a reason why the calculated value of x is lower 
 > ALLOW not all the
 > (hydrated copper
 > sulfate) reacts
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** not all the water was removed (from the hydrated ALLOW the
 
@@ -871,9 +849,6 @@ C60 fullerene is a simple molecular substance made of 60 carbon atoms. The diagr
 > forces need to be
 > broken / overcome in
 > fullerene
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** C60 fullerene has weak forces between the no M1 or M2 if
 - **(1)** little / less energy needed to break / overcome the
@@ -1004,9 +979,6 @@ The red lead oxide used in the reaction has a mass of 5.48 g. Calculate the maxi
 > no M2) or M2 x 223
 > ALLOW any number of sig
 > figs except 1
-> Question
-> Answer Notes Marks
-> number
 
 - **(1)** (moles of Pb3O4 =) 5.48 ÷ 685 OR 0.008(00)
 - **(1)** (moles of PbO =) 0.008(00) x 3 OR 0.024(0) ALLOW ecf as long as an

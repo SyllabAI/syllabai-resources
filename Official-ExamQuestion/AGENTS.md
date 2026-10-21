@@ -49,6 +49,9 @@ names (see `official_examq_extract.py:paths_for`):
     official-<series>-<paper>-qp.txt / -ms.txt       pdftotext -layout extractions
     manifest-<series>-<paper>.yaml                   manifest from the archive repo
   (pre-0.8 bare 1C txt names are still honored for old staging areas)
+    ocr/<series>-<paper>/qp-pNN.txt + ocr-pages.json  OCR source layer (F41, optional):
+                                  prepared text for image-only archive pages; sha256-
+                                  pinned manifest, fail-closed on any mismatch
 
 Cold start needs no manual prep: `run_all.sh` bootstraps the series index itself
 (one contents-API call; set `GHTOKEN` for a private archive repo, F16).
@@ -129,7 +132,7 @@ spec-labels file's `no_spec_point` map, verified bidirectionally by C32),
 1C tranche this state must NOT persist: decide or document), `registry-gap-review`
 (a code not in the SME registry; G6 routes it to the review queue). G6 re-validates
 every code against `spec_point_resolution.json` on every run. 1C coverage after
-v0.8.1: 927/930 parts tagged (1,180 codes, 0 invalid) + 3 terminal no-spec-point
+v0.10.0: 941/941 parts resolved corpus-wide — 1C 927 tagged + 3 terminal no-spec-point + the 11 F41-recovered parts labelled (wave 2); 2C 584 tagged + 23 terminal
 parts (2019-06 5(a), 2020-01 10(c)(ii), 2022-01 3(b)(iv)); 0 pending. 2C coverage
 after its first wave (v0.9.0): 607/607 parts resolved — 584 tagged (0 invalid
 codes) + 23 terminal no-spec-point parts (safety precautions, fuel/ester
@@ -182,7 +185,7 @@ part-attached assets only).
 | `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | produce crop only if a region exists; keep stub |
 | `figure crop emitted — human verify` | crop rendered but low-confidence (no text anchor, text-heavy region) | re-render/adjust; never delete silently |
 | `spec code ... not in registry` | registry gap or invalid code        | propose, human accepts |
-| `Q<N> ... image-only`    | rasterized source pages, content lost      | re-ingest via OCR, re-run gates |
+| `Q<N> ... image-only`    | rasterized source pages, content lost      | build the F41 OCR source layer (`scripts/prep_ocr_layer_2019.py` pattern), re-run gates; 2019-06 is done |
 | (tagging states)         | `no-spec-point` = terminal decision; `pending-llm` = undecided, must not persist on the labelled tranche | decide with spec-PDF evidence, or tag |
 
 ## The self-improvement loop (MANDATORY protocol when a gate fails)
@@ -252,8 +255,14 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   2024-11 6(c)(i) became a real crop (F32).
 - PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
   added as a converter-level mapping table with its own parity run, not ad hoc.
-- 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5
-  rasterized content pages, then re-run gates (G1 must return to PASS with 110/110).
+- 2019-06 archive damage: DONE (v0.10.0) — the six rasterized content pages were
+  re-captured through the F41 OCR source layer and G1 is PASS 110/110. The one
+  residual honest item is 2019-06 3(d)(ii): its MS answer cell is a printed image
+  (no extractable text), so the part stays unmatched (C52); serving that answer
+  would need an MS-figure crop capability. Stem-level figures on the recovered
+  pages (Q1 beakers, Q7 structures, Q11/Q13 apparatus, Q12/Q13/Q15 results tables)
+  are not asset-backed — no part-level mention triggers the crop machinery on
+  text-anchor-less pages; a stem-scan stub pass is future work.
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
 - 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
   were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under

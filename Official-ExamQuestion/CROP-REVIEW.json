@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.crop-review/0.1",
  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
- "reviewed_utc": "2026-10-22",
+ "reviewed_utc": "2026-10-22T00:00:00Z",
  "reviewed_by": "session agent (Task 12 2C wave: all 22 v0.8.1 queue items + all 13 v0.9-emitted crops/stubs viewed against their source PDF pages; stem-table crops verified via canaries C33-C35 — CROP-REVIEW verdicts apply to part-attached assets only)",
  "reviews": {
   "2020-01": {
@@ -208,6 +208,12 @@
    "asset_2_b_apparatus": {
     "verdict": "accepted",
     "note": "titration apparatus (burette + stand + 250 cm3 beaker, bung/burette/beaker labels) matches p7"
+   }
+  },
+  "2019-06": {
+   "asset_15_a_table": {
+    "verdict": "stub-accepted",
+    "note": "F41 wave: the tests table prints on rasterized p26 (144-dpi archive scan) — no text-layer anchors, so no crop can be produced; the crop-required stub is the honest state. Eyeballed against the 600-dpi render (ocr-2019-06/pages/p26-26.png): 3 test rows as transcribed, Observation column empty (complete-the-table)."
    }
   }
  }
