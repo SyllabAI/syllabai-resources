@@ -729,7 +729,7 @@ The reaction is often used to investigate rates of reaction. The diagram shows t
 
 ![apparatus — official paper figure (qp.pdf p.20)](assets/asset_7_b_apparatus.png)
 
-![diagram — official paper figure (qp.pdf p.20) — shared with ?](assets/asset_7_b_diagram.png)
+![diagram — official paper figure (qp.pdf p.20) — shared with 7(b)](assets/asset_7_b_apparatus.png)
 
 
 **Mark scheme answer**

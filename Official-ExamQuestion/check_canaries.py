@@ -161,6 +161,26 @@ for c in cans:
             rep, _ = load(series)
             g = next((g for g in rep["gates"] if g["gate"] == "G0-identity"), None)
             ok = g is not None and g["status"] == "PASS" and c["substring"] in g["summary"]
+        elif chk == "crop_review_ledger":
+            # C22 (v0.7): the CROP-REVIEW.json verdict ledger and the emitted
+            # corpus must agree in both directions.
+            ledger = json.loads((HERE / "CROP-REVIEW.json").read_text()).get("reviews", {})
+            ok = True
+            n_verdicts = 0
+            for s in sorted(p.name for p in BASE.iterdir() if p.is_dir()):
+                t = json.loads((BASE / s / "4CH1-1C" / "topic.json").read_text())
+                assets = {a["id"]: a for q in t["questions"] for p in q["parts"]
+                          for a in (p.get("assets") or []) if a.get("kind") == "crop"}
+                for aid, v in (ledger.get(s) or {}).items():
+                    n_verdicts += 1
+                    if v.get("verdict") == "accepted" and aid not in assets:
+                        ok = False
+                        print(f"  ! {s}: ledger accepts {aid} but no such crop asset exists")
+                for aid, a in assets.items():
+                    if a.get("review_verdict") and not ((ledger.get(s) or {}).get(aid, {}).get("verdict") == "accepted"):
+                        ok = False
+                        print(f"  ! {s}: {aid} carries review_verdict without an accepted ledger entry")
+            print(f"  (ledger verdicts: {n_verdicts})")
         else:
             ok = False
             print(f"  ! unknown check type {chk}")

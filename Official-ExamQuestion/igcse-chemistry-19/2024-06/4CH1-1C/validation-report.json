@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T01:57:55Z",
+ "generated_utc": "2026-10-21T10:40:27Z",
  "series": "2024-06",
  "gates": [
   {
@@ -46,12 +46,12 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "9 asset records cover every table/diagram/grid/apparatus mention: 8 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
+   "summary": "9 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
-     "crops": 8,
+     "crops": 6,
      "pending": 1,
      "shared": 4
     }
@@ -68,7 +68,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 56 parts pending-llm tagging",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 0 parts pending-llm tagging",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -113,10 +113,6 @@
   {
    "part": "7(b)",
    "reason": "figure crop required (diagram, page 14)"
-  },
-  {
-   "part": "10(b)",
-   "reason": "figure crop emitted — human verify (assets/asset_10_b_table.png)"
   }
  ]
 }

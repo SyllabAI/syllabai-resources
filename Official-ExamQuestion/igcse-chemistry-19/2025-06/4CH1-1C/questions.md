@@ -31,9 +31,9 @@ Label the three subatomic particles on the diagram.
 
 Use information from the diagram to complete the table for this element. mass number group number period number electronic configuration
 
-![diagram — official paper figure (qp.pdf p.3) — shared with asset_1_b_diagram_stem](assets/asset_1_b_diagram_stem.png)
+![diagram — official paper figure (qp.pdf p.3) — shared with 1(a)](assets/asset_1_a_diagram.png)
 
-![table — official paper figure (qp.pdf p.2)](assets/asset_1_b_table.png)
+![table — official paper figure (qp.pdf p.3)](assets/asset_1_b_table.png)
 
 
 **Mark scheme answer**
@@ -658,7 +658,7 @@ Draw a straight line of best fit through the first six points, ignoring the anom
 
 The point where the lines cross shows the volume of acid needed to exactly neutralise the alkali and the maximum temperature reached. Use your graph to determine these values. volume of acid = cm3 maximum temperature = °C
 
-![graph — official paper figure (qp.pdf p.16) — shared with asset_7_d_graph_stem](assets/asset_7_d_graph_stem.png)
+![graph — official paper figure (qp.pdf p.16) — shared with 7(c)(i)](assets/asset_7_c_i_grid.png)
 
 
 **Mark scheme answer**

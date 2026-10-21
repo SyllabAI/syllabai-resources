@@ -42,7 +42,7 @@ Identify the state of matter that contains particles with the least energy.
 
 The table shows two changes of state. Complete the table by giving the name of each change of state. Change of state Name solid to liquid solid to gas
 
-![table — official paper figure (qp.pdf p.3) — shared with ?](assets/asset_1_b_table.png)
+![table — official paper figure (qp.pdf p.3) — shared with 1(a)(i)](assets/asset_1_a_i_diagram.png)
 
 
 **Mark scheme answer**
@@ -712,7 +712,7 @@ This question is about ionic compounds.
 
 Complete the table by giving the missing formulae.
 
-![table — official paper figure (qp.pdf p.16)](assets/asset_8_a_i_table.png)
+![table — official paper figure (qp.pdf p.16) — shared with asset_8_a_table_stem](assets/asset_8_a_table_stem.png)
 
 
 **Mark scheme answer**

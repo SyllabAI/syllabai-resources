@@ -27,7 +27,7 @@ Substances can change from one state to another. The box gives some words about 
 
 Complete the diagram by drawing six circles to represent atoms in the gas state.
 
-![diagram — official paper figure (qp.pdf p.4)](assets/asset_1_b_i_diagram.png)
+![diagram — official paper figure (qp.pdf p.5) — shared with asset_1_b_diagram_stem](assets/asset_1_b_diagram_stem.png)
 
 
 **Mark scheme answer**
@@ -469,7 +469,7 @@ Give the name of the compound with the formula Al2(SO4)3
 
 The diagram shows the arrangement of electrons in an atom of magnesium and an atom of chlorine. Magnesium Chlorine  Describe, in terms of electrons, what happens when magnesium atoms and chlorine atoms form magnesium chloride.
 
-![diagram — official paper figure (qp.pdf p.18) — shared with ?](assets/asset_6_b_diagram.png)
+![diagram — official paper figure (qp.pdf p.18) — shared with 6(a)(i)](assets/asset_6_a_i_table.png)
 
 
 **Mark scheme answer**

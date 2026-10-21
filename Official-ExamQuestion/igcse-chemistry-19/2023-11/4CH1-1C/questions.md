@@ -117,7 +117,7 @@ Describe the arrangement and movement of particles in a solid.
 
 Table 1 shows some relative masses and charges of subatomic particles. Complete table 1 by giving the missing information. Electron Proton Neutron Relative mass 0.0005 Relative charge 0 Table 1
 
-![table — official paper figure (qp.pdf p.6) — shared with asset_2_a_table_stem](assets/asset_2_a_table_stem.png)
+![table — official paper figure (qp.pdf p.6)](assets/asset_2_a_table.png)
 
 
 **Mark scheme answer**
@@ -708,7 +708,7 @@ Explain in terms of particle collision theory how decreasing the concentration a
 
 The student repeats the experiment using the same volume of hydrogen peroxide solution but with half the original concentration. All other conditions are kept the same. On the grid, draw the curve you would expect the student to obtain.
 
-![grid — official paper figure (qp.pdf p.16) — shared with asset_6_d_grid_stem](assets/asset_6_d_grid_stem.png)
+![grid — official paper figure (qp.pdf p.16) — shared with 6(c)(i)](assets/asset_6_c_i_grid.png)
 
 ### 6(e) [2]
 
