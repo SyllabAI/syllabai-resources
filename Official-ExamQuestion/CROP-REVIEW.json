@@ -1,220 +1,256 @@
 {
- "schema": "syllabai.crop-review/0.1",
- "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
- "reviewed_utc": "2026-10-22T00:00:00Z",
- "reviewed_by": "session agent (Task 12 2C wave: all 22 v0.8.1 queue items + all 13 v0.9-emitted crops/stubs viewed against their source PDF pages; stem-table crops verified via canaries C33-C35 — CROP-REVIEW verdicts apply to part-attached assets only)",
- "reviews": {
-  "2020-01": {
-   "asset_4_b_ii_boxes": {
-    "verdict": "accepted",
-    "note": "3 empty ion boxes (sodium/oxide/sodium) — the dot-and-cross scaffold 4(b)(ii) asks to complete"
-   }
-  },
-  "2020-11": {
-   "asset_7_b_apparatus": {
-    "verdict": "accepted",
-    "note": "v0.7 F27 fix verified: full apparatus with eye / conical flask / sodium thiosulfate solution / paper-with-cross labels intact, stem caption whole (was right-clipped in v0.6)"
-   },
-   "asset_7_d_grid": {
-    "verdict": "accepted",
-    "note": "clean 0.05/0-70 degC plotting grid"
-   },
-   "asset_8_b_table": {
-    "verdict": "accepted",
-    "note": "clean maximum/initial/increase temperature table"
-   },
-   "asset_5_b_iv_diagram": {
-    "verdict": "stub-accepted",
-    "note": "wave-10 eyeball of p15: the printed scaffold is 5 bare letters (H top / H-C-Cl / H bottom) floating in a blank answer area — no circles, boxes or rules to crop; problem_md carries the element skeleton verbatim"
-   }
-  },
-  "2021-01": {
-   "asset_1_a_table": {
-    "verdict": "accepted",
-    "note": "v0.7 fix verified: the p3 states table (was the p2 Periodic Table page in v0.6)"
-   },
-   "asset_4_a_apparatus": {
-    "verdict": "accepted",
-    "note": "gas syringe + flask apparatus, captions benign"
-   },
-   "asset_5_a_table": {
-    "verdict": "accepted",
-    "note": "v0.7 fix verified: the p10 separation-methods table (was the 5(b) chromatogram in v0.6)"
-   },
-   "asset_6_a_table": {
-    "verdict": "accepted",
-    "note": "clean precipitate results table"
-   }
-  },
-  "2022-01": {
-   "asset_3_a_table": {
-    "verdict": "accepted",
-    "note": "clean change-of-state table"
-   },
-   "asset_3_b_ii_diagram": {
-    "verdict": "accepted",
-    "note": "clean NH3/HCl cotton-wool tube diagram"
-   }
-  },
-  "2022-06": {
-   "asset_6_b_iii_graph": {
-    "verdict": "accepted",
-    "note": "v0.7 fix verified: the p14 plotting grid (6(c)(i) shares it); v0.6 left this part an honest stub and mis-bound the grid mention to the results table"
-   }
-  },
-  "2023-06": {
-   "asset_8_b_table": {
-    "verdict": "accepted",
-    "note": "clean initial/final/temperature-change table"
-   },
-   "asset_10_a_ii_grid": {
-    "verdict": "accepted",
-    "note": "v0.7 fix verified: the p27 curve-A graph (was the 10(b) A/B/C graph in v0.6)"
-   }
-  },
-  "2024-06": {
-   "asset_10_b_table": {
-    "verdict": "accepted",
-    "note": "clean temperature table with 16.4 rise"
-   },
-   "asset_7_b_diagram": {
-    "verdict": "stub-accepted",
-    "note": "wave-10 eyeball of p14: the nitrogen scaffold is 2 bare letters (N N) in a blank area — the C19 honest-scaffold pin stays valid"
-   }
-  },
-  "2024-11": {
-   "asset_1_a_table": {
-    "verdict": "accepted",
-    "note": "clean change-of-state table"
-   },
-   "asset_6_c_i_diagram": {
-    "verdict": "accepted",
-    "note": "wave-10 eyeball: p19 prints a DRAWN ammonia scaffold (N circle + three overlapping H circles) that rule 0 wrongly stubbed as text-only — F32 un-stubs it and the fresh crop renders the full scaffold, labels intact, no furniture (cov 0.041, vector)"
-   }
-  },
-  "2025-06": {
-   "asset_1_a_diagram": {
-    "verdict": "accepted",
-    "note": "atom diagram with leader lines and dotted label blanks (part of the printed figure)"
-   },
-   "asset_1_b_table": {
-    "verdict": "accepted",
-    "note": "v0.7 fix verified: the p3 mass/group/period/configuration table (was the p2 Periodic Table page in v0.6)"
-   },
-   "asset_9_a_i_diagram": {
-    "verdict": "stub-accepted",
-    "note": "wave-10 eyeball of p20: the 9(a)(i) answer area is completely blank; the displayed formula above belongs to the 9(a) stem, not this part's dot-and-cross task"
-   }
-  },
-  "2025-11": {
-   "asset_3_c_i_grid": {
-    "verdict": "accepted",
-    "note": "v0.7 fix verified: the p9 relative-atomic-mass grid printed next to the (c) instructions (v0.6 wrongly bound the mention to the p8 data table)"
-   }
-  },
-  "2021-06": {
-   "asset_8_b_iii_diagram": {
-    "verdict": "stub-accepted",
-    "note": "wave-10 eyeball of p19: the 8(b)(iii) answer area is completely blank (not even element letters) — nothing croppable exists on the page for this part"
-   }
-  },
-  "2023-11": {
-   "asset_6_b_diagram": {
-    "verdict": "stub-accepted",
-    "note": "wave-10 eyeball of p15: the hydrogen-peroxide scaffold is 4 bare letters (H O O H) in a blank area; the question-6 apparatus diagram above belongs to the stem and is cropped separately"
-   }
-  },
-  "2026-06": {
-   "asset_6_b_diagram": {
-    "verdict": "stub-accepted",
-    "note": "wave-10 eyeball of p18: the 6(b) answer area is completely blank — nothing croppable for the ethane dot-and-cross prompt"
-   }
-  },
-  "2019-06:2C": {
-   "asset_5_c_diagram": {
-    "verdict": "accepted",
-    "note": "F40d axis rescue verified: the printed energy-axis scaffold (vertical arrow + 'energy' label, p12 answer area) is the figure 5(c) 'Draw an energy level diagram' completes; crop matches the source page"
-   }
-  },
-  "2020-11:2C": {
-   "asset_5_c_iii_diagram": {
-    "verdict": "accepted",
-    "note": "energy profile scaffold (Energy axis + 2C4H6+11O2 reactant level) matches p16 exactly; the student completes products level, dH arrow and Ea label"
-   }
-  },
-  "2021-11:2C": {
-   "asset_7_c_diagram": {
-    "verdict": "accepted",
-    "note": "F40d axis rescue verified: printed Energy axis + arrowhead (p23) is 7(c)'s scaffold; v0.8.1 had stolen the 7(b) bond table via the adjacent whole-stem fallback (F40a removed)"
-   },
-   "asset_5_c_diagram": {
-    "verdict": "stub-accepted",
-    "note": "5(c) 'Explain, using a labelled diagram, why lead metal is malleable' — student-draws semantics; answer area is blank ruled lines, no printed figure (v0.8.1 crop had stolen the stem reactivity-series box)"
-   }
-  },
-  "2022-01:2C": {
-   "asset_2_b_i_boxes": {
-    "verdict": "accepted",
-    "note": "5-row tick-box table with empty tick column matches p7 exactly — the printed scaffold 2(b)(i) asks to tick"
-   },
-   "asset_6_a_iii_graph": {
-    "verdict": "accepted",
-    "note": "F40e+F40b fix verified: full plotting grid (0-8 min x 0-0.50 g axes + labels) on p21; v0.8.1 lost the page anchor to PUA bullets and stubbed it"
-   }
-  },
-  "2022-06:2C": {
-   "asset_3_c_table": {
-    "verdict": "accepted",
-    "note": "F40f fix verified: electronic-configuration table (fluorine 2.7 / chlorine 2.8.7) on p6; v0.8.1's 2-word anchor probe landed below the table and stubbed it"
-   }
-  },
-  "2023-01:2C": {
-   "asset_7_a_diagram": {
-    "verdict": "accepted",
-    "note": "hydrazine dot-and-cross scaffold (N circles + H circles) matches p23; the drawn-scaffold path (F32) crops it"
-   }
-  },
-  "2023-11:2C": {
-   "asset_6_a_apparatus": {
-    "verdict": "accepted",
-    "note": "pipette X (25 cm3) + burette Y with scale and 'Not to scale' box, labels intact — matches p16"
-   },
-   "asset_3_c_diagram": {
-    "verdict": "accepted",
-    "note": "F40f fix verified: Pure aluminium + Alloy particle diagrams with both captions on p9; v0.8.1 stubbed it (sentence-initial 'The diagram represents' anchor collision)"
-   }
-  },
-  "2025-06:2C": {
-   "asset_2_e_diagram": {
-    "verdict": "accepted",
-    "note": "F40d axis rescue verified: Energy axis + arrowhead + dotted reactant level (p7) is 2(e)'s reaction-profile scaffold; v0.8.1 had stolen the Q2 stem gas-syringe apparatus"
-   }
-  },
-  "2025-11:2C": {
-   "asset_6_a_diagram": {
-    "verdict": "accepted",
-    "note": "F40d axis rescue verified: energy axis + arrow + 'energy' label (p18) is 6(a)'s reaction-profile scaffold"
-   },
-   "asset_6_b_table": {
-    "verdict": "accepted",
-    "note": "F40f fix verified: bond-energy table (C-H 414 / Cl-Cl 242 / H-Cl 431) on p19; v0.8.1 stubbed it"
-   }
-  },
-  "2026-06:2C": {
-   "asset_1_a_table": {
-    "verdict": "accepted",
-    "note": "Description/Name table with empty Name column matches p4 exactly — the table 1(a) completes"
-   },
-   "asset_2_b_apparatus": {
-    "verdict": "accepted",
-    "note": "titration apparatus (burette + stand + 250 cm3 beaker, bung/burette/beaker labels) matches p7"
-   }
-  },
-  "2019-06": {
-   "asset_15_a_table": {
-    "verdict": "stub-accepted",
-    "note": "F41 wave: the tests table prints on rasterized p26 (144-dpi archive scan) — no text-layer anchors, so no crop can be produced; the crop-required stub is the honest state. Eyeballed against the 600-dpi render (ocr-2019-06/pages/p26-26.png): 3 test rows as transcribed, Observation column empty (complete-the-table)."
-   }
+  "schema": "syllabai.crop-review/0.1",
+  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
+  "reviewed_utc": "2026-10-22T00:00:00Z",
+  "reviewed_by": "session agent (Task 12 2C wave: all 22 v0.8.1 queue items + all 13 v0.9-emitted crops/stubs viewed against their source PDF pages; stem-table crops verified via canaries C33-C35 — CROP-REVIEW verdicts apply to part-attached assets only)",
+  "reviews": {
+    "2020-01": {
+      "asset_4_b_ii_boxes": {
+        "verdict": "accepted",
+        "note": "3 empty ion boxes (sodium/oxide/sodium) — the dot-and-cross scaffold 4(b)(ii) asks to complete"
+      }
+    },
+    "2020-11": {
+      "asset_7_b_apparatus": {
+        "verdict": "accepted",
+        "note": "v0.7 F27 fix verified: full apparatus with eye / conical flask / sodium thiosulfate solution / paper-with-cross labels intact, stem caption whole (was right-clipped in v0.6)"
+      },
+      "asset_7_d_grid": {
+        "verdict": "accepted",
+        "note": "clean 0.05/0-70 degC plotting grid"
+      },
+      "asset_8_b_table": {
+        "verdict": "accepted",
+        "note": "clean maximum/initial/increase temperature table"
+      },
+      "asset_5_b_iv_diagram": {
+        "verdict": "accepted",
+        "note": "crop-pass wave: the printed CH3Cl skeleton (H top / H-C-Cl / H bottom, p15) IS the scaffold a learner completes - rect derived from the PDF text-layer letter bboxes (H/C/Cl word boxes + 12-14pt pad), cropped at 150 dpi; supersedes the wave-10 text-only stub decision",
+        "manual_crop": {
+          "page": 15,
+          "rect": [
+            231.5,
+            187.2,
+            365.1,
+            319.6
+          ]
+        }
+      }
+    },
+    "2021-01": {
+      "asset_1_a_table": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p3 states table (was the p2 Periodic Table page in v0.6)"
+      },
+      "asset_4_a_apparatus": {
+        "verdict": "accepted",
+        "note": "gas syringe + flask apparatus, captions benign"
+      },
+      "asset_5_a_table": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p10 separation-methods table (was the 5(b) chromatogram in v0.6)"
+      },
+      "asset_6_a_table": {
+        "verdict": "accepted",
+        "note": "clean precipitate results table"
+      }
+    },
+    "2022-01": {
+      "asset_3_a_table": {
+        "verdict": "accepted",
+        "note": "clean change-of-state table"
+      },
+      "asset_3_b_ii_diagram": {
+        "verdict": "accepted",
+        "note": "clean NH3/HCl cotton-wool tube diagram"
+      }
+    },
+    "2022-06": {
+      "asset_6_b_iii_graph": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p14 plotting grid (6(c)(i) shares it); v0.6 left this part an honest stub and mis-bound the grid mention to the results table"
+      }
+    },
+    "2023-06": {
+      "asset_8_b_table": {
+        "verdict": "accepted",
+        "note": "clean initial/final/temperature-change table"
+      },
+      "asset_10_a_ii_grid": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p27 curve-A graph (was the 10(b) A/B/C graph in v0.6)"
+      }
+    },
+    "2024-06": {
+      "asset_10_b_table": {
+        "verdict": "accepted",
+        "note": "clean temperature table with 16.4 rise"
+      },
+      "asset_7_b_diagram": {
+        "verdict": "accepted",
+        "note": "crop-pass wave: the printed N N skeleton on p14 cropped as 7(b)'s scaffold (rect from text-layer word boxes + pad); the F19b doctrine (the AUTOMATIC pass never force-crops text-only scaffolds) is unchanged - this box is the eyeballed manual decision (supersedes the wave-10 stub, C19 reworded)",
+        "manual_crop": {
+          "page": 14,
+          "rect": [
+            243.8,
+            301.5,
+            351.5,
+            354.4
+          ]
+        }
+      }
+    },
+    "2024-11": {
+      "asset_1_a_table": {
+        "verdict": "accepted",
+        "note": "clean change-of-state table"
+      },
+      "asset_6_c_i_diagram": {
+        "verdict": "accepted",
+        "note": "wave-10 eyeball: p19 prints a DRAWN ammonia scaffold (N circle + three overlapping H circles) that rule 0 wrongly stubbed as text-only — F32 un-stubs it and the fresh crop renders the full scaffold, labels intact, no furniture (cov 0.041, vector)"
+      }
+    },
+    "2025-06": {
+      "asset_1_a_diagram": {
+        "verdict": "accepted",
+        "note": "atom diagram with leader lines and dotted label blanks (part of the printed figure)"
+      },
+      "asset_1_b_table": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p3 mass/group/period/configuration table (was the p2 Periodic Table page in v0.6)"
+      },
+      "asset_9_a_i_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p20: the 9(a)(i) answer area is completely blank; the displayed formula above belongs to the 9(a) stem, not this part's dot-and-cross task; crop-pass wave re-verified p20: still completely blank - the stem's displayed formula is 9(a)'s content, not (i)'s"
+      }
+    },
+    "2025-11": {
+      "asset_3_c_i_grid": {
+        "verdict": "accepted",
+        "note": "v0.7 fix verified: the p9 relative-atomic-mass grid printed next to the (c) instructions (v0.6 wrongly bound the mention to the p8 data table)"
+      }
+    },
+    "2021-06": {
+      "asset_8_b_iii_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p19: the 8(b)(iii) answer area is completely blank (not even element letters) — nothing croppable exists on the page for this part; crop-pass wave re-verified p19 at 150 dpi: the (iii) answer area is completely blank - the stub remains the honest state"
+      }
+    },
+    "2023-11": {
+      "asset_6_b_diagram": {
+        "verdict": "accepted",
+        "note": "crop-pass wave: the printed H O O H skeleton on p15 cropped as 6(b)'s dot-and-cross scaffold (rect from text-layer word boxes + pad); supersedes the wave-10 text-only stub decision",
+        "manual_crop": {
+          "page": 15,
+          "rect": [
+            179.2,
+            624.2,
+            416.1,
+            677.1
+          ]
+        }
+      }
+    },
+    "2026-06": {
+      "asset_6_b_diagram": {
+        "verdict": "stub-accepted",
+        "note": "wave-10 eyeball of p18: the 6(b) answer area is completely blank — nothing croppable for the ethane dot-and-cross prompt; crop-pass wave re-verified p18: still completely blank for the ethane prompt"
+      }
+    },
+    "2019-06:2C": {
+      "asset_5_c_diagram": {
+        "verdict": "accepted",
+        "note": "F40d axis rescue verified: the printed energy-axis scaffold (vertical arrow + 'energy' label, p12 answer area) is the figure 5(c) 'Draw an energy level diagram' completes; crop matches the source page"
+      }
+    },
+    "2020-11:2C": {
+      "asset_5_c_iii_diagram": {
+        "verdict": "accepted",
+        "note": "energy profile scaffold (Energy axis + 2C4H6+11O2 reactant level) matches p16 exactly; the student completes products level, dH arrow and Ea label"
+      }
+    },
+    "2021-11:2C": {
+      "asset_7_c_diagram": {
+        "verdict": "accepted",
+        "note": "F40d axis rescue verified: printed Energy axis + arrowhead (p23) is 7(c)'s scaffold; v0.8.1 had stolen the 7(b) bond table via the adjacent whole-stem fallback (F40a removed)"
+      },
+      "asset_5_c_diagram": {
+        "verdict": "stub-accepted",
+        "note": "5(c) 'Explain, using a labelled diagram, why lead metal is malleable' — student-draws semantics; answer area is blank ruled lines, no printed figure (v0.8.1 crop had stolen the stem reactivity-series box); crop-pass wave re-verified p15: blank ruled answer lines only - nothing printable exists for a student-draws prompt"
+      }
+    },
+    "2022-01:2C": {
+      "asset_2_b_i_boxes": {
+        "verdict": "accepted",
+        "note": "5-row tick-box table with empty tick column matches p7 exactly — the printed scaffold 2(b)(i) asks to tick"
+      },
+      "asset_6_a_iii_graph": {
+        "verdict": "accepted",
+        "note": "F40e+F40b fix verified: full plotting grid (0-8 min x 0-0.50 g axes + labels) on p21; v0.8.1 lost the page anchor to PUA bullets and stubbed it"
+      }
+    },
+    "2022-06:2C": {
+      "asset_3_c_table": {
+        "verdict": "accepted",
+        "note": "F40f fix verified: electronic-configuration table (fluorine 2.7 / chlorine 2.8.7) on p6; v0.8.1's 2-word anchor probe landed below the table and stubbed it"
+      }
+    },
+    "2023-01:2C": {
+      "asset_7_a_diagram": {
+        "verdict": "accepted",
+        "note": "hydrazine dot-and-cross scaffold (N circles + H circles) matches p23; the drawn-scaffold path (F32) crops it"
+      }
+    },
+    "2023-11:2C": {
+      "asset_6_a_apparatus": {
+        "verdict": "accepted",
+        "note": "pipette X (25 cm3) + burette Y with scale and 'Not to scale' box, labels intact — matches p16"
+      },
+      "asset_3_c_diagram": {
+        "verdict": "accepted",
+        "note": "F40f fix verified: Pure aluminium + Alloy particle diagrams with both captions on p9; v0.8.1 stubbed it (sentence-initial 'The diagram represents' anchor collision)"
+      }
+    },
+    "2025-06:2C": {
+      "asset_2_e_diagram": {
+        "verdict": "accepted",
+        "note": "F40d axis rescue verified: Energy axis + arrowhead + dotted reactant level (p7) is 2(e)'s reaction-profile scaffold; v0.8.1 had stolen the Q2 stem gas-syringe apparatus"
+      }
+    },
+    "2025-11:2C": {
+      "asset_6_a_diagram": {
+        "verdict": "accepted",
+        "note": "F40d axis rescue verified: energy axis + arrow + 'energy' label (p18) is 6(a)'s reaction-profile scaffold"
+      },
+      "asset_6_b_table": {
+        "verdict": "accepted",
+        "note": "F40f fix verified: bond-energy table (C-H 414 / Cl-Cl 242 / H-Cl 431) on p19; v0.8.1 stubbed it"
+      }
+    },
+    "2026-06:2C": {
+      "asset_1_a_table": {
+        "verdict": "accepted",
+        "note": "Description/Name table with empty Name column matches p4 exactly — the table 1(a) completes"
+      },
+      "asset_2_b_apparatus": {
+        "verdict": "accepted",
+        "note": "titration apparatus (burette + stand + 250 cm3 beaker, bung/burette/beaker labels) matches p7"
+      }
+    },
+    "2019-06": {
+      "asset_15_a_table": {
+        "verdict": "accepted",
+        "note": "crop-pass wave: the tests table prints on rasterized p26 (144-dpi archive scan) - an eyeballed manual rect [87,153,560,444] (borders pixel-profiled: header top 156.3, bottom 440.7, left 90, right 559) crops it straight from the scan (render=raster), no text anchors needed; supersedes the F41 no-crop decision; Observation column stays empty (complete-the-table)",
+        "manual_crop": {
+          "page": 26,
+          "rect": [
+            87.0,
+            153.0,
+            560.0,
+            444.0
+          ]
+        }
+      }
+    }
   }
- }
 }

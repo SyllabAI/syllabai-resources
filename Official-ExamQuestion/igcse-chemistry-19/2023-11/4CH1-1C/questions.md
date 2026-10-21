@@ -676,7 +676,7 @@ Give the test for oxygen.
 
 Complete the dot‑and‑cross diagram for a molecule of hydrogen peroxide. Show outer electrons only. H O O H 
 
-> 🖼 crop required: diagram (qp.pdf p.15)
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_b_diagram.png)
 
 
 **Mark scheme answer**

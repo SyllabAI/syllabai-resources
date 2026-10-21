@@ -507,7 +507,7 @@ The bonds in a molecule of CH3Cl are covalent. Explain, in terms of electrostati
 
 Draw a dot‑and‑cross diagram for a molecule of CH3Cl Show only the outer electrons of the atoms. H H C Cl H
 
-> 🖼 crop required: diagram (qp.pdf p.15)
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_5_b_iv_diagram.png)
 
 
 **Mark scheme answer**

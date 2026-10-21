@@ -629,7 +629,7 @@ What is the approximate percentage by volume of nitrogen in the atmosphere?
 
 Complete the dot-and-cross diagram for a molecule of nitrogen. Show outer electrons only. N N
 
-> 🖼 crop required: diagram (qp.pdf p.14)
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_7_b_diagram.png)
 
 
 **Mark scheme answer**

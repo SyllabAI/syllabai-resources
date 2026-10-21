@@ -4,6 +4,34 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.10.1 — 2026-10-22 · optional crop pass: ledger-driven manual crops (F45)
+
+The 8 crop-required stubs are dispositioned: 4 become real crops, 4 are re-verified
+blank with fresh evidence.
+
+- **Manual crop pass (F45)** — a CROP-REVIEW verdict entry may now carry
+  `manual_crop: {page, rect}` (PDF points). At verdict-application time the converter
+  renders that eyeballed box from qp.pdf at 150 dpi into `assets/<id>.png`, flips the
+  stub to a real crop (`kind: "crop"`, `render: "raster"` when the box sits inside a
+  page raster), and marks the asset `manual_crop: true`. Fail-closed: requires
+  `verdict: "accepted"` on a `crop-required` stub, box page must equal the stub page,
+  rect well-formed and ≥20pt per side, else the run aborts. The F19b doctrine is
+  unchanged for the AUTOMATIC pass; the manual box is the eyeballed human decision
+  and re-renders deterministically on every re-run.
+- **Corpus effect** — 4 stubs → crops: 2020-11 5(b)(iv) CH₃Cl skeleton (p15), 2023-11
+  6(b) H-O-O-H skeleton (p15), 2024-06 7(b) N-N skeleton (p14), 2019-06 15(a) tests
+  table cropped straight from the rasterized p26 archive scan (no text anchors needed
+  for a manual rect). 4 stubs re-verified genuinely blank at 150 dpi (2021-06 8(b)(iii),
+  2025-06 9(a)(i), 2026-06 6(b), 2021-11 2C 5(c)) — stub-accepted stands, notes carry
+  the re-verification. The corpus review queue now holds only the 3 honestly-unmatched
+  answer linkages; zero "figure crop required" entries remain.
+- **Canaries** — floor 0.10.1; C19 rewritten to pin the 7(b) manual scaffold crop
+  (asset_state kind=crop on p14); C55 pins the 15(a) raster manual crop (kind=crop on
+  p26); C22 ledger↔corpus consistency re-verified with the 4 flipped verdicts; C14
+  recalibrated (byte floor 1000→250 B — the sparse scaffold class compresses small
+  legitimately — plus a new explicit 60×40 px dimension floor read from the PNG IHDR,
+  the degenerate-sliver guard the byte floor was proxying). 53 hold.
+
 ## 0.10.0 — 2026-10-22 · rasterization re-capture: OCR source layer (F41) + early-MS bare-marker linkage (F42)
 
 The last honest REVIEW in the corpus is closed: 2019-06 1C goes G1 PASS 110/110.

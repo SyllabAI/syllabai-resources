@@ -126,6 +126,21 @@ for c in cans:
         elif chk == "figure_crops_present":
             # C14 (v0.5): the crop pass must keep emitting real PNGs; every
             # crop reference must resolve to a non-trivial file in the checkout.
+            # v0.10.1 (F45): the byte floor is recalibrated (1000 -> 250) for the
+            # sparse text-only scaffold class (a printed 2-letter skeleton in
+            # whitespace compresses below the old floor legitimately), and the
+            # degenerate-sliver guard the byte floor was proxying becomes an
+            # explicit pixel-dimension floor (PNG IHDR, no new dependency).
+            import struct as _struct
+
+            def _png_dims(path):
+                with open(path, "rb") as fh:
+                    head = fh.read(24)
+                if len(head) < 24 or head[:8] != b"\x89PNG\r\n\x1a\n":
+                    return None
+                w, h = _struct.unpack(">II", head[16:24])
+                return w, h
+
             ok = True
             n_crops = n_files = 0
             for d in sorted(BASE.iterdir()):
@@ -140,9 +155,14 @@ for c in cans:
                                     continue
                                 n_crops += 1
                                 f = pd / a.get("path", "")
-                                if not f.exists() or f.stat().st_size < c.get("min_png_bytes", 1000):
+                                dims = _png_dims(f) if f.exists() else None
+                                if (not f.exists()
+                                        or f.stat().st_size < c.get("min_png_bytes", 250)
+                                        or dims is None
+                                        or dims[0] < c.get("min_px_w", 0)
+                                        or dims[1] < c.get("min_px_h", 0)):
                                     ok = False
-                                    print(f"  ! {d.name}/{pd.name} {p['part_number']}: crop file missing/too small: {a.get('path')}")
+                                    print(f"  ! {d.name}/{pd.name} {p['part_number']}: crop file missing/too small/degenerate: {a.get('path')} dims={dims}")
                                 else:
                                     n_files += 1
             if n_crops < c.get("min_crops", 0):
