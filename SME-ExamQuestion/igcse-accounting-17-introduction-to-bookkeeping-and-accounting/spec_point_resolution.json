@@ -4,8 +4,8 @@
  "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 110,
-  "resolved": 105,
-  "unresolved": 5
+  "resolved": 95,
+  "unresolved": 15
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -14,37 +14,67 @@
    "sme_name": "Purchases Returns",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "S2.060",
-   "official_id": "IGCSE_ACCOUNTING:S2.060",
-   "official_wording": "purchases returns book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.060",
+    "was_official_wording": "purchases returns book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='purchases returns book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_2Z3gY378wcRv9qqB",
    "sme_name": "The Imprest System",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": "S2.063",
-   "official_id": "IGCSE_ACCOUNTING:S2.063",
-   "official_wording": "petty cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "S0_operator_override",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)",
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.063",
+    "was_official_wording": "petty cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='petty cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_2rygXYBHBJvQ4p2B",
    "sme_name": "Balancing the Cash Book",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S2.062",
-   "official_id": "IGCSE_ACCOUNTING:S2.062",
-   "official_wording": "three-column cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.062",
+    "was_official_wording": "three-column cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='three column cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_3NQNy3Qw9ZmJ4Zdm",
@@ -70,26 +100,46 @@
    "sme_name": "Revenue Expenditure",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": "S2.135",
+   "official_id": "IGCSE_ACCOUNTING:S2.135",
+   "official_wording": "Explain the terms:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E5 seg-subitem=='revenue expenditure'@IGCSE_ACCOUNTING:S2.135",
+    "tier": "pool-text",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_4fw9h8fXvc3Jd844",
    "sme_name": "Purchase Orders",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "S2.051",
-   "official_id": "IGCSE_ACCOUNTING:S2.051",
-   "official_wording": "purchase order",
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.051",
+    "was_official_wording": "purchase order",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='purchase order'@IGCSE_ACCOUNTING:S2.129",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_58zZFC8D52Wygq9T",
@@ -129,52 +179,90 @@
    "sme_name": "Sales Day Book",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S2.059",
-   "official_id": "IGCSE_ACCOUNTING:S2.059",
-   "official_wording": "sales day book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.059",
+    "was_official_wording": "sales day book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='sales day book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_7DQ5qKjvmcKjgn2d",
    "sme_name": "The Double Entry System",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "S2.066",
-   "official_id": "IGCSE_ACCOUNTING:S2.066",
-   "official_wording": "payables ledger. b) Record transactions in ledger accounts using double entry principles.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.066",
+    "was_official_wording": "payables ledger. b) Record transactions in ledger accounts using double entry principles.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_7dkqsbPJqT3Yjhrm",
    "sme_name": "Sales Returns Day Book",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S2.061",
-   "official_id": "IGCSE_ACCOUNTING:S2.061",
-   "official_wording": "sales returns book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.061",
+    "was_official_wording": "sales returns book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='sales returns book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_7jgDCDDTVM4MZHq8",
    "sme_name": "Partnerships",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "S1.038",
-   "official_id": "IGCSE_ACCOUNTING:S1.038",
-   "official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+   "resolved_code": "S1.119",
+   "official_id": "IGCSE_ACCOUNTING:S1.119",
+   "official_wording": "Explain the characteristics of:",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.038",
+    "was_official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.119",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_7rJpWpRrJNjB5jYD",
@@ -203,39 +291,65 @@
    "sme_name": "Accruals",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "S1.041",
-   "official_id": "IGCSE_ACCOUNTING:S1.041",
-   "official_wording": "accruals",
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.041",
+    "was_official_wording": "accruals",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.121",
+    "tier": "name",
+    "selection": "same-section",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_93fh4WgyqbpVCBxM",
    "sme_name": "Internal Stakeholders",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": "S1.038",
-   "official_id": "IGCSE_ACCOUNTING:S1.038",
-   "official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.038",
+    "was_official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_9NJSTHxs5YmXCmss",
    "sme_name": "Straight Line Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_9XfSNcmSJk4NHDZT",
@@ -253,39 +367,69 @@
    "sme_name": "Sole Traders",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S1.037",
-   "official_id": "IGCSE_ACCOUNTING:S1.037",
-   "official_wording": "sole traders",
+   "resolved_code": "S1.119",
+   "official_id": "IGCSE_ACCOUNTING:S1.119",
+   "official_wording": "Explain the characteristics of:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.037",
+    "was_official_wording": "sole traders",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='sole traders'@IGCSE_ACCOUNTING:S1.119",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_CZkk9qFGNP9YJrGx",
    "sme_name": "Remittance Advice",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S2.056",
-   "official_id": "IGCSE_ACCOUNTING:S2.056",
-   "official_wording": "remittance advice",
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.056",
+    "was_official_wording": "remittance advice",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='remittance advice'@IGCSE_ACCOUNTING:S2.129",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_CrB8jX6rX6Z72rNW",
    "sme_name": "Purchases Returns Day Book",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": "S2.060",
-   "official_id": "IGCSE_ACCOUNTING:S2.060",
-   "official_wording": "purchases returns book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.060",
+    "was_official_wording": "purchases returns book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='purchases returns book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_DjkZsjkNX3C35DTp",
@@ -314,13 +458,21 @@
    "sme_name": "Provision for Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_F9fV4RfVWTX86BbJ",
@@ -357,24 +509,44 @@
    "sme_name": "The Cash Book",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": "S2.062",
-   "official_id": "IGCSE_ACCOUNTING:S2.062",
-   "official_wording": "three-column cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P2_page_context_join",
    "score": null,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.062",
+    "was_official_wording": "three-column cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='three column cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_G6YPxqfQ2JMnC5x7",
    "sme_name": "Cash Discount",
    "sme_definition": "",
    "referenced_by_parts": 9,
-   "resolved_code": "S2.062",
-   "official_id": "IGCSE_ACCOUNTING:S2.062",
-   "official_wording": "three-column cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "S0_operator_override",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)",
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.062",
+    "was_official_wording": "three-column cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='three column cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_G8ZDFvrKCHQjhVVK",
@@ -414,26 +586,44 @@
    "sme_name": "Disposal Account",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_Hz6GygvqgnWyvS26",
    "sme_name": "Private & Public Sector Organisations",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": "S1.036",
-   "official_id": "IGCSE_ACCOUNTING:S1.036",
-   "official_wording": "private sector organisations",
+   "resolved_code": "S1.119",
+   "official_id": "IGCSE_ACCOUNTING:S1.119",
+   "official_wording": "Explain the characteristics of:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.036",
+    "was_official_wording": "private sector organisations",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='private sector organisat'@IGCSE_ACCOUNTING:S1.119",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_JfWqW4Fh7MGQm2zW",
@@ -462,37 +652,67 @@
    "sme_name": "Discount Allowed",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S2.062",
-   "official_id": "IGCSE_ACCOUNTING:S2.062",
-   "official_wording": "three-column cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "S0_operator_override",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)",
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.062",
+    "was_official_wording": "three-column cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='three column cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_KRTztYQRyDf2rVDv",
    "sme_name": "Invoices",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": "S2.053",
-   "official_id": "IGCSE_ACCOUNTING:S2.053",
-   "official_wording": "sales invoice",
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.053",
+    "was_official_wording": "sales invoice",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='sales invoice'@IGCSE_ACCOUNTING:S2.129",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_MKTZbMZ4Gm44SwKn",
    "sme_name": "Receivables, Payables & Nominal Ledgers",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": "S2.065",
-   "official_id": "IGCSE_ACCOUNTING:S2.065",
-   "official_wording": "receivables ledger",
+   "resolved_code": "S2.133",
+   "official_id": "IGCSE_ACCOUNTING:S2.133",
+   "official_wording": "Explain the purpose of the:",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.065",
+    "was_official_wording": "receivables ledger",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='receivables ledger'@IGCSE_ACCOUNTING:S2.133",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_MMpfj7YbBCtV9PTR",
@@ -521,13 +741,23 @@
    "sme_name": "Effects of Incorrect Treatment of Expenditure",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": "S2.135",
+   "official_id": "IGCSE_ACCOUNTING:S2.135",
+   "official_wording": "Explain the terms:",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E5 seg-subitem=='revenue expenditure'@IGCSE_ACCOUNTING:S2.135",
+    "tier": "pool-text",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_NVvgM5vtKJd5Y8c4",
@@ -545,13 +775,21 @@
    "sme_name": "External Stakeholders",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": "S1.038",
-   "official_id": "IGCSE_ACCOUNTING:S1.038",
-   "official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.038",
+    "was_official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_P5c5tZz9grcJf7xs",
@@ -635,26 +873,46 @@
    "sme_name": "Business Entity",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S1.044",
-   "official_id": "IGCSE_ACCOUNTING:S1.044",
-   "official_wording": "business entity.",
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.044",
+    "was_official_wording": "business entity.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.121",
+    "tier": "name",
+    "selection": "same-section",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_QqWG7WNYwFQ2pjmV",
    "sme_name": "Capital Expenditure",
    "sme_definition": "",
    "referenced_by_parts": 14,
-   "resolved_code": "S2.067",
-   "official_id": "IGCSE_ACCOUNTING:S2.067",
-   "official_wording": "capital expenditure",
+   "resolved_code": "S2.135",
+   "official_id": "IGCSE_ACCOUNTING:S2.135",
+   "official_wording": "Explain the terms:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.067",
+    "was_official_wording": "capital expenditure",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='capital expenditure'@IGCSE_ACCOUNTING:S2.135",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_QtChwZW4N4qHfFFB",
@@ -672,13 +930,23 @@
    "sme_name": "Debit Notes & Credit Notes",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "S2.054",
-   "official_id": "IGCSE_ACCOUNTING:S2.054",
-   "official_wording": "credit note",
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.054",
+    "was_official_wording": "credit note",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='credit note'@IGCSE_ACCOUNTING:S2.129",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_T7dmv27pcfZNDYXz",
@@ -767,52 +1035,92 @@
    "sme_name": "Petty Cash Vouchers",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": "S2.057",
-   "official_id": "IGCSE_ACCOUNTING:S2.057",
-   "official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.057",
+    "was_official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name-sing@IGCSE_ACCOUNTING:S2.129",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_X45ypSkbRF3NhYbY",
    "sme_name": "The Journal",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "S2.064",
-   "official_id": "IGCSE_ACCOUNTING:S2.064",
-   "official_wording": "the journal.",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.064",
+    "was_official_wording": "the journal.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='the journal'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_XBsYFjgjNYfh3PfX",
    "sme_name": "Purchases Day Book",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": "S2.058",
-   "official_id": "IGCSE_ACCOUNTING:S2.058",
-   "official_wording": "purchases day book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.058",
+    "was_official_wording": "purchases day book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='purchases day book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_XjcY9gg9HmNsNDQZ",
    "sme_name": "Prudence",
    "sme_definition": "",
    "referenced_by_parts": 9,
-   "resolved_code": "S1.040",
-   "official_id": "IGCSE_ACCOUNTING:S1.040",
-   "official_wording": "prudence",
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.040",
+    "was_official_wording": "prudence",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.121",
+    "tier": "name",
+    "selection": "same-section",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_Xp3btZQZMhCwnFDT",
@@ -863,13 +1171,23 @@
    "sme_name": "Consistency",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": "S1.039",
-   "official_id": "IGCSE_ACCOUNTING:S1.039",
-   "official_wording": "consistency",
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.039",
+    "was_official_wording": "consistency",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.121",
+    "tier": "name",
+    "selection": "same-section",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_ZwYV9PnxyVFhmGqQ",
@@ -909,26 +1227,44 @@
    "sme_name": "Security Issues",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "S1.045",
-   "official_id": "IGCSE_ACCOUNTING:S1.045",
-   "official_wording": "spreadsheets. b) Explain the issues regarding the security of data:",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.045",
+    "was_official_wording": "spreadsheets. b) Explain the issues regarding the security of data:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_ffVqrYhcNDPmGBKq",
    "sme_name": "Statements of Account",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": "S2.055",
-   "official_id": "IGCSE_ACCOUNTING:S2.055",
-   "official_wording": "statement of account",
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.055",
+    "was_official_wording": "statement of account",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='statement of account'@IGCSE_ACCOUNTING:S2.129",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_gtcsfnSNdfJ7fpsG",
@@ -954,13 +1290,23 @@
    "sme_name": "Money Measurement",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S1.043",
-   "official_id": "IGCSE_ACCOUNTING:S1.043",
-   "official_wording": "money measurement",
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.043",
+    "was_official_wording": "money measurement",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.121",
+    "tier": "name",
+    "selection": "same-section",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_jkxJQxQfFSrqYWR5",
@@ -989,13 +1335,21 @@
    "sme_name": "Profit or Loss on a Sale of a Non-Current Asset",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_mT8PPqsZ5zdfkxxk",
@@ -1035,39 +1389,69 @@
    "sme_name": "Sales Returns",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": "S2.061",
-   "official_id": "IGCSE_ACCOUNTING:S2.061",
-   "official_wording": "sales returns book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.061",
+    "was_official_wording": "sales returns book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='sales returns book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_n7MRgBWR5kvpRWTY",
    "sme_name": "The Petty Cash Book",
    "sme_definition": "",
    "referenced_by_parts": 11,
-   "resolved_code": "S2.063",
-   "official_id": "IGCSE_ACCOUNTING:S2.063",
-   "official_wording": "petty cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.063",
+    "was_official_wording": "petty cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='petty cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_nmGy2VPqQgJC5mp9",
    "sme_name": "Receipts",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "S2.057",
-   "official_id": "IGCSE_ACCOUNTING:S2.057",
-   "official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+   "resolved_code": "S2.130",
+   "official_id": "IGCSE_ACCOUNTING:S2.130",
+   "official_wording": "Cash receipt",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.057",
+    "was_official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E4 name-in-stmt@IGCSE_ACCOUNTING:S2.130",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_pR24x4fHRXT2fsYr",
@@ -1129,24 +1513,42 @@
    "sme_name": "Discount Received",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "S2.062",
-   "official_id": "IGCSE_ACCOUNTING:S2.062",
-   "official_wording": "three-column cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "S0_operator_override",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)",
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.062",
+    "was_official_wording": "three-column cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='three column cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_srTknwNn78jknxwg",
    "sme_name": "Debits & Credits",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "S2.066",
-   "official_id": "IGCSE_ACCOUNTING:S2.066",
-   "official_wording": "payables ledger. b) Record transactions in ledger accounts using double entry principles.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.066",
+    "was_official_wording": "payables ledger. b) Record transactions in ledger accounts using double entry principles.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_swWXFKksDwrddJwP",
@@ -1197,50 +1599,88 @@
    "sme_name": "Trade Discount",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": "S2.062",
-   "official_id": "IGCSE_ACCOUNTING:S2.062",
-   "official_wording": "three-column cash book",
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
    "tier": "S0_operator_override",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)",
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.062",
+    "was_official_wording": "three-column cash book",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='three column cash book'@IGCSE_ACCOUNTING:S2.132",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_vw8BWYrvKCf6MsqQ",
    "sme_name": "Reducing Balance Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": "S2.068",
-   "official_id": "IGCSE_ACCOUNTING:S2.068",
-   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.068",
+    "was_official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_wTtjvcBJJyWs2BDC",
    "sme_name": "Purpose of Books of Original Entry",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S2.057",
-   "official_id": "IGCSE_ACCOUNTING:S2.057",
-   "official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+   "resolved_code": "S2.131",
+   "official_id": "IGCSE_ACCOUNTING:S2.131",
+   "official_wording": "Explain the purpose of books of original entry.",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S2.057",
+    "was_official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E4 name-in-stmt@IGCSE_ACCOUNTING:S2.131",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_yDPQyxCWx8GSRH4V",
    "sme_name": "Methods of Protecting Data",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": "S1.048",
-   "official_id": "IGCSE_ACCOUNTING:S1.048",
-   "official_wording": "confidentiality. c) Explain the methods of protecting data:",
+   "resolved_code": "S1.124",
+   "official_id": "IGCSE_ACCOUNTING:S1.124",
+   "official_wording": "Explain the methods of protecting data:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.048",
+    "was_official_wording": "confidentiality. c) Explain the methods of protecting data:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E4 name-in-stmt@IGCSE_ACCOUNTING:S1.124",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_yVD5d8rW3TsNX2xf",
@@ -1269,13 +1709,23 @@
    "sme_name": "Materiality",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": "S1.042",
-   "official_id": "IGCSE_ACCOUNTING:S1.042",
-   "official_wording": "materiality",
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S1.042",
+    "was_official_wording": "materiality",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S1.121",
+    "tier": "name",
+    "selection": "same-section",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_zsVqrJjvNSXmShv7",

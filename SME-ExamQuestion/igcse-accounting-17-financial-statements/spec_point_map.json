@@ -6,11 +6,11 @@
  "unit_scope": null,
  "generated_utc": "2026-09-19T15:30:24Z",
  "sme_entries": 31,
- "official_pool": 118,
+ "official_pool": 101,
  "mappings": {
   "spcpt_6C5dG6s8r4RXv9Nw": {
-   "official_id": "IGCSE_ACCOUNTING:S4.069",
-   "official_code": "S4.069",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_code": "S4.171",
    "tier": "P1_name_fragment_join",
    "score": null,
    "unit": null,
@@ -22,11 +22,20 @@
     "twin_codes": null,
     "superseded_code": null,
     "pmt_excluded": true
+   },
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.069",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='gross profit percentage'@IGCSE_ACCOUNTING:S4.171",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
    }
   },
   "spcpt_H5H8SmwXGsJG2NCz": {
-   "official_id": "IGCSE_ACCOUNTING:S4.071",
-   "official_code": "S4.071",
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_code": "S4.172",
    "tier": "P1_name_fragment_join",
    "score": null,
    "unit": null,
@@ -38,27 +47,20 @@
     "twin_codes": null,
     "superseded_code": null,
     "pmt_excluded": true
-   }
-  },
-  "spcpt_b73GQrfrvh6TZkh9": {
-   "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_code": "S4.070",
-   "tier": "P2_page_context_join",
-   "score": null,
-   "unit": null,
-   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "resolution": {
-    "lane": "operator-verdict (T-SPEC-7)",
-    "quote": "Liquidity",
-    "page": "the-calculation-and-interpretation-of-accounting-ratios/liquidity-ratios",
-    "twin_codes": null,
-    "superseded_code": null,
-    "pmt_excluded": true
+   },
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.071",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='current working capital '@IGCSE_ACCOUNTING:S4.172",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
    }
   },
   "spcpt_bwwMxxBtnK5W2gBX": {
-   "official_id": "IGCSE_ACCOUNTING:S4.072",
-   "official_code": "S4.072",
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_code": "S4.172",
    "tier": "P1_name_fragment_join",
    "score": null,
    "unit": null,
@@ -70,11 +72,20 @@
     "twin_codes": null,
     "superseded_code": null,
     "pmt_excluded": true
+   },
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.072",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S4.172",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
    }
   },
   "spcpt_wPpvXGQ2cKGwr4rT": {
-   "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_code": "S4.070",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_code": "S4.171",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "unit": null,
@@ -86,22 +97,15 @@
     "twin_codes": null,
     "superseded_code": null,
     "pmt_excluded": true
-   }
-  },
-  "spcpt_b663TCrP8tWxhjvq": {
-   "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_code": "S4.070",
-   "tier": "P2_page_context_join",
-   "score": 1.0,
-   "unit": null,
-   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "resolution": {
-    "lane": "operator-verdict (T-SPEC-7)",
-    "quote": "Evaluating Liquidity",
-    "page": "the-calculation-and-interpretation-of-accounting-ratios/liquidity-ratios",
-    "twin_codes": null,
-    "superseded_code": null,
-    "pmt_excluded": true
+   },
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E3 subitem-in-name@IGCSE_ACCOUNTING:S4.171",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
    }
   },
   "spcpt_4HQKDs8RmbXshqGx": {
@@ -306,7 +310,33 @@
    "spcpt_id": "spcpt_cdXKKWTrNP4djDZW",
    "name": "Mark-up",
    "reason": "no-guess pending: the published 4AC1 spec carries no mark-up statement (Topic 4.4 lists gross profit percentage, profit for the year as a percentage of revenue, and return on capital employed only — PDF p27)"
+  },
+  {
+   "spcpt_id": "spcpt_b73GQrfrvh6TZkh9",
+   "name": "Liquidity",
+   "reason": "no-guess demote: orphan pool id IGCSE_ACCOUNTING:S4.070 absent from committed spine issue-1; no-tier evidence empty; no deterministic parent (ambiguity or name-overlap guard)",
+   "candidates": {},
+   "was_official_id": "IGCSE_ACCOUNTING:S4.070"
+  },
+  {
+   "spcpt_id": "spcpt_b663TCrP8tWxhjvq",
+   "name": "Evaluating Liquidity",
+   "reason": "no-guess demote: orphan pool id IGCSE_ACCOUNTING:S4.070 absent from committed spine issue-1; no-tier evidence empty; no deterministic parent (ambiguity or name-overlap guard)",
+   "candidates": {},
+   "was_official_id": "IGCSE_ACCOUNTING:S4.070"
   }
  ],
- "flags": []
+ "flags": [],
+ "repair": {
+  "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+  "trace": "1a15c07ca8d172b5",
+  "generated_utc": "2026-10-21T01:55:55Z",
+  "orphans_repointed": 4,
+  "orphans_demoted": 2,
+  "spine": {
+   "id": "igcse-accounting",
+   "issue": "1",
+   "points": 101
+  }
+ }
 }

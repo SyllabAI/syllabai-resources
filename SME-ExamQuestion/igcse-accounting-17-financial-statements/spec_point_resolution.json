@@ -4,8 +4,8 @@
  "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 33,
-  "resolved": 31,
-  "unresolved": 2
+  "resolved": 29,
+  "unresolved": 4
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -47,13 +47,23 @@
    "sme_name": "Gross Profit Percentage",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S4.069",
-   "official_id": "IGCSE_ACCOUNTING:S4.069",
-   "official_wording": "gross profit percentage",
+   "resolved_code": "S4.171",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_wording": "Calculate and interpret the following profitability ratios:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.069",
+    "was_official_wording": "gross profit percentage",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='gross profit percentage'@IGCSE_ACCOUNTING:S4.171",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_6t22NHTFjYvszgvN",
@@ -82,13 +92,23 @@
    "sme_name": "Current (Working Capital) Ratio",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": "S4.071",
-   "official_id": "IGCSE_ACCOUNTING:S4.071",
-   "official_wording": "current (working capital) ratio",
+   "resolved_code": "S4.172",
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_wording": "Calculate and interpret the following liquidity ratios:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.071",
+    "was_official_wording": "current (working capital) ratio",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "L1-unanimous-text seg=='current working capital '@IGCSE_ACCOUNTING:S4.172",
+    "tier": "id-level",
+    "selection": "L1",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_HHc2rF66RySy4NMx",
@@ -191,39 +211,65 @@
    "sme_name": "Evaluating Liquidity",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": "S4.070",
-   "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "was_official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_b73GQrfrvh6TZkh9",
    "sme_name": "Liquidity",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "S4.070",
-   "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P2_page_context_join",
    "score": null,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "was_official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "demoted": true,
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_bwwMxxBtnK5W2gBX",
    "sme_name": "Liquid (Acid Test) Ratio",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": "S4.072",
-   "official_id": "IGCSE_ACCOUNTING:S4.072",
-   "official_wording": "liquid (acid test) ratio. production cost and total cost.",
+   "resolved_code": "S4.172",
+   "official_id": "IGCSE_ACCOUNTING:S4.172",
+   "official_wording": "Calculate and interpret the following liquidity ratios:",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.072",
+    "was_official_wording": "liquid (acid test) ratio. production cost and total cost.",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E1 subitem==name@IGCSE_ACCOUNTING:S4.172",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_cdXKKWTrNP4djDZW",
@@ -315,13 +361,23 @@
    "sme_name": "Return on Capital Employed (ROCE)",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": "S4.070",
-   "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+   "resolved_code": "S4.171",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_wording": "Calculate and interpret the following profitability ratios:",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "was_official_id": "IGCSE_ACCOUNTING:S4.070",
+    "was_official_wording": "return on capital employed. c) Calculate and interpret the following liquidity ratios:",
+    "rule": "T-SPEC-ACCT-REPAIR-1 subitem-reparent (operator dispatch 'accounting maps-vs-spine inconsistency (own lane)')",
+    "evidence": "E3 subitem-in-name@IGCSE_ACCOUNTING:S4.171",
+    "tier": "name",
+    "selection": "unique",
+    "trace": "1a15c07ca8d172b5",
+    "generated_utc": "2026-10-21T01:55:55Z"
+   }
   },
   {
    "id": "spcpt_x29yvZNwgRsCxxxQ",
