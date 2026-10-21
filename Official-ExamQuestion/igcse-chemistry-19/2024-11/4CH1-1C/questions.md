@@ -270,12 +270,12 @@ Describe how the student should set up the apparatus and do the experiment. You 
 > ALL marks can be
 > scored/supported from
 > a labelled diagram
-> throughout
-> M2 (moles of carbon dioxide) = 2 000 000 ALLOW M1÷2
-> M3(mass of carbon dioxide) = 88 (tonnes) 88 (tonnes) scores 3
-> marks
 
-- **(5)** M1 draw a line in pencil (just above the bottom of
+- **(1)** draw a line in pencil (just above the bottom of
+- **(1)** put a spot of each ink on the line (before
+- **(1)** pour some solvent in the beaker ALLOW water for
+- **(1)** place the paper in the beaker so the spots are
+- **(1)** leave until the solvent has risen up the paper ALLOW water for
 
 ### 4(b)(i) [2]
 
@@ -990,6 +990,11 @@ This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of
 **Mark scheme answer**
 
 > M1 (moles lead(II) oxide) = 892 000 000 ÷ 223 OR ALLOW calculations
+> 4 000 000 moles done in megamoles
+> throughout
+> M2 (moles of carbon dioxide) = 2 000 000 ALLOW M1÷2
+> M3(mass of carbon dioxide) = 88 (tonnes) 88 (tonnes) scores 3
+> marks
 
 - **(3)** M1 (moles lead(II) oxide) = 892 000 000 ÷ 223 OR ALLOW calculations
 
@@ -999,7 +1004,51 @@ The diagram shows the structures of lead(II) sulfide and sulfur dioxide. Lead(II
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_11_a_iv_diagram.png)
 
+
+**Mark scheme answer**
+
+> any 5 from:
+> lead(II) sulfide
+> M1 giant ionic structure/lattice REJECT
+> molecules/covalent
+> bonds/ intermolecular
+> forces for all three
+> marks
+> M2 strong (ionic) bonds OR strong electrostatic
+> forces (between oppositely charged) ions
+> M3 which take a lot of energy to break / overcome M3 dep on M2
+> sulfur dioxide
+> REJECT ions/ionic
+> bonds for all 3 marks
+> M4 simple molecular/covalent structure ALLOW molecules
+> NOT particles/atoms
+> M5 weak intermolecular forces OR weak forces NOT weak IMF between
+> between molecules atoms
+> M6 which take little energy to overcome M6 dep on M5
+
+- **(5)** any 5 from:
+
 ### 11(b) [4]
 
 A different oxide of lead contains 90.7% by mass of lead and 9.3% by mass of oxygen. Determine the empirical formula of this oxide of lead. empirical formula =
+
+
+**Mark scheme answer**
+
+> M1 90.7÷207 and 9.30÷16 NOT atomic numbers
+> M2 0.438 (moles of lead) and 0.581 (moles of ALLOW 9.30÷32 for ecf
+> oxygen) Answer must be 2sf or
+> more
+> M3 ratio of moles = 1:1.33 ALLOW 1.3
+> M4 empirical formula is Pb3O4 ALLOW ecf from ratio
+> shown to produce
+> formula
+> Total = 15
+> Pearson Education Limited. Registered company number 872828
+> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+
+- **(1)** 90.7÷207 and 9.30÷16 NOT atomic numbers
+- **(1)** 0.438 (moles of lead) and 0.581 (moles of ALLOW 9.30÷32 for ecf
+- **(1)** ratio of moles = 1:1.33 ALLOW 1.3
+- **(1)** empirical formula is Pb3O4 ALLOW ecf from ratio
 

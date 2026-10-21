@@ -66,3 +66,21 @@
 ## Entry format (append below; never rewrite history)
 
     | F<max+1> | <date> | <series> | <finding — what defeated the parser/gate, at raw-text level> | <generic fix> | <canary id / new canary added> |
+| F34 | 2026-10-21 (2C enablement wave; operator GO ruling trace 1a15ebd93809a525) | corpus-wide (variant layer) | the converter hard-coded the 1C variant everywhere: staging filenames (official-4CH1-1C-*), the manifest name (manifest-<series>-1C.yaml), PAPER_TOTAL=110, the per-series question-count registry, the output dir (4CH1-1C), and the report/canary/cross-diff tooling — the GO'd 2C tranche (ADR-037 GO ruling, 38-paper schedule) could not run at all | generic --paper parametrization: PAPER_TOTALS {1C:110, 2C:70} + per-paper EXPECT_QUESTIONS (2C counts footer-verified 16/16 series: 8/7×13/6, Σ=70 every series); paths_for(series, paper) with paper-suffixed staging names (legacy 1C .txt names still honored); G0 now also asserts manifest paper_number_variant == requested paper; run_all.sh loops papers; report auto-discovers 4CH1-* slices; canary checker paper-aware (per-series canaries carry optional "paper", default 1C; corpus loops cover every variant; CROP-REVIEW ledger keys stay bare-<series> for 1C and use <series>:<paper> for new variants); cross_diff --paper (parsed/ layer is 1C-only today — 2C SKIPs honestly) | C25 (2C slice count), C26 (2C G1 @70 marks); 1C extraction parity 930/930, gate matrix unchanged |
+| F35 | 2026-10-21 (2C enablement wave) | 2022-06 2C (then 2022-01 1C regression during verification) | MS content rows can BEGIN with short numerals: the 5(a)(i) Mr working '12   1   16' (relative atomic masses, ≤20-space indent) matched MS_ROW_RE's optional leading qn group and hijacked cur_q 5->12 — every later Q5 marker row inherited question 12, Q5(b)-(d) went unlinkable (G5 79%); conversely, the first guard draft (strict +1 sequence) stalled on the 2022-01 PMT front-matter blurb '70 countries, in 100 languages' (numeral 70 accepted as first question, real markers 1..11 rejected forever, G5 0/65) and broke 2019-06's damaged sequence (rasterized Q10; bare-letter rows '11 a calculate moles…' legitimately skip) | a numeral is a question-number marker when EITHER (a) the same row carries letter/roman marker evidence — evidence wins because damaged papers skip numbers — OR (b) it advances the strict sequence (bootstrap at question 1, then +1 or same-question re-print); numeral-only rows that skip are content | C25/C26 hold; 2022-06 2C G5 39/39 (100%); 2022-01 1C restored to all-PASS; 2019-06 1C back to the shipped 32/53 REVIEW; cross-diff 161/161 |
+| F36 | 2026-10-21 (2C enablement wave) | 2021-11 2C | sentence-form MCQ positives: the MS opens with 'The only correct answer is D as francium is the most reactive…' — the F12 pattern ('<L> is (the) correct') misses that word order and F14 elimination keying cannot corroborate because sentence-style 2C entries carry no '<L> <text>' answer rows, so the key was refused (G3 FAIL, 1(e) unkeyed) | positive-statement keying extended to the 'correct answer is <L>' sentence family (guarded against 'answer is not <L>'); still subject to the single-distinct-positive rule, so ambiguous entries keep refusing | C27 (2021-11 2C 1(e) keyed D); 2020-01 7(a)(iii) canary still refuses (C1/C2) |
+
+## Wave summaries (continued)
+
+- **Wave 9 — 2C enablement (this run)**: the operator's GO ruling (ADR-037, trace
+  1a15ebd93809a525) scheduled the remaining 4CH1 variants; the 2C tranche (16
+  papers) is converted end-to-end by the same unchanged gate suite. Converter
+  v0.8.0 = F34 (paper parametrization) + F35 (question-number marker discipline)
+  + F36 (sentence-form positives). Corpus after the wave: **1C 169 Q / 930 parts /
+  1754/1760 marks (unchanged; 14/16 all-PASS, honest 2019-06 REVIEW + 2020-01
+  refusal)** + **2C 110 Q / 607 parts / 1120/1120 marks / 27/27 MCQs keyed /
+  16/16 all-PASS** — 2C scans are cleaner than 1C (no rasterized pages). 27
+  canaries hold; cross-diff 161/161 (1C parsed layer; 2C has no parsed layer
+  yet — honest gap). 2C spec tagging: no labels authored yet, all 607 parts
+  honestly `pending-llm`; 2C figure crops: 22 review-queue items awaiting
+  eyeballs (first-pass converter flags, per the CROP-REVIEW protocol).

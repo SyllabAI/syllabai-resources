@@ -794,8 +794,71 @@ A technician sees an unlabelled bottle containing a liquid. He knows that the li
 **Mark scheme answer**
 
 > A description that makes reference to the following
+> 6 points
+> Test for cation
+> M1 add sodium hydroxide (solution) ALLOW ammonia
+> solution
+> M2 if blue precipitate forms solution contains IGNORE qualifiers
+> copper(II) ion(s) / contains Cu2+ / is a copper REJECT other colours
+> compound
+> M3 if green precipitate forms solution contains IGNORE qualifiers
+> iron(II) ion(s) / contains Fe2+ / is an iron compound REJECT other colours
+> If no reagent or
+> incorrect reagent but
+> correct M2 and M3
+> score 1
+> ALLOW
+> M1 flame test or
+> description of flame
+> test
+> M2 if blue-green
+> (flame)
+> solution contains
+> copper(II) ion(s) /
+> contains Cu2+ / is a
+> copper compound
+> No M3 for this test
+> ALLOW
+> M1 addition of suitable
+> metal above Cu in
+> reactivity series
+> M2 brown/pink/pink-
+> brown solid forms
+> No M3 for this test
+> Test for anion
+> M4 add silver nitrate (solution)
+> IGNORE addition of
+> nitric acid
+> REJECT addition of
+> hydrochloric acid for M4
+> M5 if white precipitate forms solution contains
+> chloride ion(s) / contains Cl- / is a chloride
+> M6 if cream precipitate forms solution contains
+> bromide ion(s) / contains Br- / is a bromide
+> If no reagent or
+> incorrect reagent but
+> correct M5 and M6
+> score 1
+> ALLOW
+> M4 add chlorine water
+> (to solution)
+> M5 if turns
+> orange/yellow/brown
+> solution contains
+> bromide ion(s) /
+> contains Br- / is a
+> bromide
+> No M6 for this test
+> Question
+> Answer Notes Marks
+> number
 
-- **(6)** A description that makes reference to the following
+- **(1)** add sodium hydroxide (solution) ALLOW ammonia
+- **(1)** if blue precipitate forms solution contains IGNORE qualifiers
+- **(1)** if green precipitate forms solution contains IGNORE qualifiers
+- **(1)** add silver nitrate (solution)
+- **(1)** if white precipitate forms solution contains
+- **(1)** if cream precipitate forms solution contains
 
 
 ## Question 8 (11 marks)

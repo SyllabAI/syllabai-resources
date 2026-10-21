@@ -358,31 +358,6 @@ The syringe in the diagram shows the reading at the end of the experiment. Compl
 > incorrectly
 > correct volumes the wrong
 > way round scores 1
-> M1 C60 fullerene has weak forces between the no M1 or M2 if
-> molecules /weak intermolecular forces reference to breaking
-> bonds in fullerene
-> M2 little / less energy needed to break / overcome the
-> forces /separate the molecules
-> M3 diamond and graphite have many / strong no M3 or M4 if
-> (covalent) bonds (between atoms) reference to
-> intermolecular forces
-> in diamond and
-> graphite
-> M4 large amount of /more energy needed to break
-> /overcome the (covalent) bonds
-> If M1 and M3 are not
-> scored allow 1 mark
-> for covalent bonds (in
-> diamond and
-> graphite) need to be
-> broken / overcome
-> AND intermolecular
-> forces need to be
-> broken / overcome in
-> fullerene
-> Question
-> Answer Notes Marks
-> number
 
 - **(2)** syringe reading at start 81 ALLOW ecf on syringe
 
@@ -841,8 +816,26 @@ Discuss the differences between diamond and graphite. Refer to structure and bon
 > 6
 > M1 diamond has a tetrahedral (structure) OR in REJECT ions /
 > diamond each (carbon) atom is (covalently) bonded to metallic once in M1
+> 4 other (carbon) atoms or M2
+> M2 graphite has a hexagonal (structure) / has layers
+> OR in graphite each (carbon) atom is (covalently)
+> bonded to 3 other (carbon) atoms
+> M3 diamond does not conduct electricity OR graphite
+> conducts electricity
+> M4 diamond has no delocalised electrons OR graphite
+> has delocalised electrons
+> M5 diamond is hard OR graphite is soft REJECT diamond is
+> soft / graphite is hard
+> M6 in diamond the strong (C-C) bonds need to be REJECT reference to
+> broken OR in graphite the layers can slide over each intermolecular
+> other OR graphite has weak forces between layers
 
-- **(6)** 6
+- **(1)** diamond has a tetrahedral (structure) OR in REJECT ions /
+- **(1)** graphite has a hexagonal (structure) / has layers
+- **(1)** diamond does not conduct electricity OR graphite
+- **(1)** diamond has no delocalised electrons OR graphite
+- **(1)** diamond is hard OR graphite is soft REJECT diamond is
+- **(1)** in diamond the strong (C-C) bonds need to be REJECT reference to
 
 ### 8(b) [4]
 
@@ -851,6 +844,41 @@ C60 fullerene is a simple molecular substance made of 60 carbon atoms. The diagr
 ![diagram — official paper figure (qp.pdf p.21)](assets/asset_8_b_diagram.png)
 
 ![table — official paper figure (qp.pdf p.21)](assets/asset_8_b_table.png)
+
+
+**Mark scheme answer**
+
+> An explanation that links the following four points:
+> M1 C60 fullerene has weak forces between the no M1 or M2 if
+> molecules /weak intermolecular forces reference to breaking
+> bonds in fullerene
+> M2 little / less energy needed to break / overcome the
+> forces /separate the molecules
+> M3 diamond and graphite have many / strong no M3 or M4 if
+> (covalent) bonds (between atoms) reference to
+> intermolecular forces
+> in diamond and
+> graphite
+> M4 large amount of /more energy needed to break
+> /overcome the (covalent) bonds
+> If M1 and M3 are not
+> scored allow 1 mark
+> for covalent bonds (in
+> diamond and
+> graphite) need to be
+> broken / overcome
+> AND intermolecular
+> forces need to be
+> broken / overcome in
+> fullerene
+> Question
+> Answer Notes Marks
+> number
+
+- **(1)** C60 fullerene has weak forces between the no M1 or M2 if
+- **(1)** little / less energy needed to break / overcome the
+- **(1)** diamond and graphite have many / strong no M3 or M4 if
+- **(1)** large amount of /more energy needed to break
 
 
 ## Question 9 (11 marks)

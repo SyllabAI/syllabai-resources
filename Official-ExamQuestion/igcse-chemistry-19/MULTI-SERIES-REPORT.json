@@ -1,11 +1,12 @@
 {
  "schema": "syllabai.official-paper-questions.multi-series/0.1",
- "generated_utc": "2026-10-21T11:55:57Z",
+ "generated_utc": "2026-10-21T15:10:01Z",
  "baseline": "2020-11",
- "corpus": "4CH1/1C — all series in syllabai-pastpapers",
+ "corpus": "4CH1 1C+2C — all series in syllabai-pastpapers (F34)",
  "series": [
   {
    "series": "2019-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -48,7 +49,36 @@
    "review_queue_items": 22
   },
   {
+   "series": "2019-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 8,
+   "parts": 39,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 39/39 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 1
+  },
+  {
    "series": "2020-01",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -75,7 +105,36 @@
    "review_queue_items": 2
   },
   {
+   "series": "2020-01",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 39,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 2,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 39/39 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 0
+  },
+  {
    "series": "2020-11",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-11:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -110,7 +169,41 @@
    "review_queue_items": 1
   },
   {
+   "series": "2020-11",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-11:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 35,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 35/35 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 1
+  },
+  {
    "series": "2021-01",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-01:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -143,7 +236,44 @@
    "review_queue_items": 2
   },
   {
+   "series": "2021-01",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-01:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 39,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 38/39 (97%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     12,
+     16,
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 1
+  },
+  {
    "series": "2021-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -177,7 +307,42 @@
    "review_queue_items": 2
   },
   {
+   "series": "2021-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 43,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 43/43 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     10,
+     20
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 0
+  },
+  {
    "series": "2021-11",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -194,7 +359,7 @@
    "marks_expected": 110,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 64/67 (96%)",
+   "ms_linkage": "MS linkage 67/67 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -208,10 +373,44 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 3
+   "review_queue_items": 0
+  },
+  {
+   "series": "2021-11",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 41,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 41/41 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 2
   },
   {
    "series": "2022-01",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -238,7 +437,36 @@
    "review_queue_items": 1
   },
   {
+   "series": "2022-01",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 41,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 41/41 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 2
+  },
+  {
    "series": "2022-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -255,17 +483,46 @@
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 56/57 (98%)",
+   "ms_linkage": "MS linkage 57/57 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 0
+  },
+  {
+   "series": "2022-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 39,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 2,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 39/39 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 2
   },
   {
    "series": "2023-01",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -292,7 +549,36 @@
    "review_queue_items": 1
   },
   {
+   "series": "2023-01",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 37,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 37/37 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 2
+  },
+  {
    "series": "2023-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -319,7 +605,36 @@
    "review_queue_items": 0
   },
   {
+   "series": "2023-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 41,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 41/41 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 0
+  },
+  {
    "series": "2023-11",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-11:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -336,17 +651,46 @@
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 63/66 (95%)",
+   "ms_linkage": "MS linkage 64/66 (97%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 4
+   "review_queue_items": 3
+  },
+  {
+   "series": "2023-11",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-11:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 37,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 4,
+   "mcq_keyed": 4,
+   "ms_linkage": "MS linkage 37/37 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 3
   },
   {
    "series": "2024-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -373,7 +717,36 @@
    "review_queue_items": 1
   },
   {
+   "series": "2024-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 37,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 37/37 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 0
+  },
+  {
    "series": "2024-11",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-11:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -390,17 +763,46 @@
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 54/56 (96%)",
+   "ms_linkage": "MS linkage 56/56 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 2
+   "review_queue_items": 0
+  },
+  {
+   "series": "2024-11",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-11:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 7,
+   "parts": 34,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 34/34 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 1
   },
   {
    "series": "2025-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -427,7 +829,36 @@
    "review_queue_items": 1
   },
   {
+   "series": "2025-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 6,
+   "parts": 38,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 37/38 (97%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 2
+  },
+  {
    "series": "2025-11",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-11:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -454,7 +885,36 @@
    "review_queue_items": 0
   },
   {
+   "series": "2025-11",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-11:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 6,
+   "parts": 31,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 31/31 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 2
+  },
+  {
    "series": "2026-06",
+   "paper": "1C",
    "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2026-06:4CH1/1C",
    "gates": {
     "G0-identity": "PASS",
@@ -479,6 +939,34 @@
    },
    "source_defects": null,
    "review_queue_items": 1
+  },
+  {
+   "series": "2026-06",
+   "paper": "2C",
+   "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2026-06:4CH1/2C",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-verbatim": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS"
+   },
+   "questions": 6,
+   "parts": 36,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 36/36 (100%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 3
   }
  ],
  "generalization_findings": [
@@ -569,9 +1057,11 @@
  ],
  "cross_diff": {
   "method": "part-level marks vs repo parsed/questions.json layer (independent parser, same PDFs)",
+  "paper": "1C",
   "series": [
    {
     "series": "2024-06",
+    "paper": "1C",
     "comparable_parts": 56,
     "part_mismatches": [],
     "only_in_ours": [],
@@ -596,6 +1086,7 @@
    },
    {
     "series": "2025-06",
+    "paper": "1C",
     "comparable_parts": 49,
     "part_mismatches": [],
     "only_in_ours": [],
@@ -612,6 +1103,7 @@
    },
    {
     "series": "2026-06",
+    "paper": "1C",
     "comparable_parts": 56,
     "part_mismatches": [],
     "only_in_ours": [],
@@ -633,7 +1125,7 @@
     "match_rate": "56/56"
    }
   ],
-  "note": "every roman-part mark and question total agrees with the repo's own parsed layer; 'only_in_parsed' entries are letter-group totals the parsed layer records in addition to its roman parts — no mark disagreement anywhere",
+  "note": "every roman-part mark and question total agrees with the repo's own parsed layer; 'only_in_parsed' entries are letter-group totals the parsed layer records in addition to its roman parts — no mark disagreement anywhere. The repo parsed/ layer exists for 4CH1/1C dirs only today (F34), so the cross-diff evidence is 1C.",
   "key_result": "161"
  }
 }

@@ -195,12 +195,42 @@ Explain, in terms of subatomic particles, why Q and R are isotopes.
 
 > An explanation that links the following two points
 > M1 (Q and R have) same number of protons/ both have IGNORE same number
+> 5 protons of electrons
+> M2 (but) different numbers of neutrons/ (Q has) 5 IGNORE references to
+> neutrons and (R has) 6 neutrons/R has an extra neutron atomic and mass
+> numbers
 
-- **(2)** An explanation that links the following two points
+- **(1)** (Q and R have) same number of protons/ both have IGNORE same number
+- **(1)** (but) different numbers of neutrons/ (Q has) 5 IGNORE references to
 
 ### 2(c)(ii) [3]
 
 A sample containing the isotopes Q and R has this percentage composition by mass. Q = 20.6 % R = 79.4 % Calculate the relative atomic mass (Ar) of this sample of the element. Give your answer to one decimal place. Ar =
+
+
+**Mark scheme answer**
+
+> M1 20.6 × 10 + 79.4 x 11 OR 1079.4
+> ALLOW ecf if
+> M2 20.6 × 10 + 79.4 × 11 OR 1079.4 OR 10.794 incorrect mass
+> 100 100 numbers used
+> M3 10.8 10.8 without working
+> scores 3
+> 10.79/10.794 without
+> working scores 2
+> Use of 5 and 6 = 5.8
+> scores 2
+> Use of 15 and 16 =
+> 15.8 scores 2
+> Use of 5 and 5 =5.0
+> scores 1
+> Question
+> Answer Notes Marks
+> number
+
+- **(1)** 20.6 × 10 + 79.4 x 11 OR 1079.4
+- **(1)** 20.6 × 10 + 79.4 × 11 OR 1079.4 OR 10.794 incorrect mass
+- **(1)** 10.8 10.8 without working
 
 
 ## Question 3 (12 marks)
@@ -556,10 +586,7 @@ Explain why ethane is described as a saturated compound.
 
 **Mark scheme answer**
 
-> protons of electrons
-> M2 (but) different numbers of neutrons/ (Q has) 5 IGNORE references to
-> neutrons and (R has) 6 neutrons/R has an extra neutron atomic and mass
-> numbers
+> An explanation that links the following two points
 > M1 (has) all single bonds/only single bonds/ (has)
 > no double/multiple bonds
 > M2 (so) no other atoms can be added (to ALLOW contains the
@@ -570,7 +597,8 @@ Explain why ethane is described as a saturated compound.
 > ALLOW only undergoes
 > substitution reactions
 
-- **(2)** protons of electrons
+- **(1)** (has) all single bonds/only single bonds/ (has)
+- **(1)** (so) no other atoms can be added (to ALLOW contains the
 
 ### 5(d) [2]
 
@@ -620,8 +648,23 @@ An organic compound has this percentage composition by mass. C = 19.2 % H = 4.0 
 **Mark scheme answer**
 
 > M1 19.2 4.0 12.8 64.0 0 marks for upside down
+> 12 1 16 80 calculation or use of
+> atomic numbers
+> Ecf on incorrect atomic
+> mass but can’t be an
+> atomic number 6,8 or 35
+> M2 1.6 4.0 0.8 0.8
+> 0.8 0.8 0.8 0.8
+> OR 2 5 1
+> M3 C2H5OBr Symbols can be in any
+> order
+> correct answer without
+> working scores 3
+> Question number Answer Notes Marks
 
-- **(3)** M1 19.2 4.0 12.8 64.0 0 marks for upside down
+- **(1)** 19.2 4.0 12.8 64.0 0 marks for upside down
+- **(1)** 1.6 4.0 0.8 0.8
+- **(1)** C2H5OBr Symbols can be in any
 
 
 ## Question 6 (12 marks)

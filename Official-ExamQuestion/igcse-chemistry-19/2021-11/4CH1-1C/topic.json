@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T11:55:45Z",
- "generator": "official_examq_extract.py v0.7.1 (ADR-037) series=2021-11",
+ "generated_utc": "2026-10-21T15:09:38Z",
+ "generator": "official_examq_extract.py v0.8.0 (ADR-037) series=2021-11 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C",
  "source": {
   "qp_sha256": "fa4c64a38fa6438c6490d54baea4760e193963a3e33b5aeebca8726e0776b9d9",
@@ -196,7 +196,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "C\nC is the correct answer because iodine is in period",
+     "solution_md": "C\nC is the correct answer because iodine is in period\n5 therefore has 5 shells and group 7 therefore has\n7 electrons in its outer shell.\nA is incorrect because arsenic has 5 shells and 4\nelectrons in its outer shell.\nB is incorrect because selenium has 4 shells and 6\nelectrons in its outer shell.\nD is incorrect because the number of shells and\nnumber of electrons in the outer shell in iodine\nhave been reversed.",
      "mark_points": [
       {
        "id": "2021-11-2-a-ii-MP1",
@@ -218,7 +218,20 @@
      "question_type": "structured",
      "problem_md": "The table gives descriptions of the reactions of some Group 7 elements with iron wool. Complete the table by giving a description of the reaction of fluorine with iron wool. Element Description of reaction with iron wool fluorine  does not need heating chlorine  reacts quickly  needs heating bromine  reacts slowly  needs heating iodine  reacts very slowly",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "M1 does not need heating\nM2 reacts very quickly must imply quicker\nreaction than chlorine",
+     "mark_points": [
+      {
+       "id": "2021-11-2-b-i-MP1",
+       "marks": 1,
+       "text_md": "does not need heating"
+      },
+      {
+       "id": "2021-11-2-b-i-MP2",
+       "marks": 1,
+       "text_md": "reacts very quickly must imply quicker"
+      }
+     ],
      "source_page": 7,
      "assets": [
       {
@@ -244,7 +257,20 @@
      "question_type": "structured",
      "problem_md": "State the relationship between the reactivity of the Group 7 elements and the size of their atoms.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "M1 as the atoms get bigger\nM2 the reactivity decreases ACCEPT reverse\nargument\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-11-2-b-ii-MP1",
+       "marks": 1,
+       "text_md": "as the atoms get bigger"
+      },
+      {
+       "id": "2021-11-2-b-ii-MP2",
+       "marks": 1,
+       "text_md": "the reactivity decreases ACCEPT reverse\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [
@@ -561,12 +587,12 @@
      "problem_md": "In experiment 1, a student bubbles the mixture of gases through limewater. Carbon dioxide reacts with limewater. The diagram shows the apparatus the student uses. syringe A syringe B mixture of gases gas syringe in 1 cm3 divisions limewater The student pushes the mixture of gases out of syringe A, but no gas bubbles appear in the limewater. Give one change the student needs to make to the apparatus for gas bubbles to appear in the limewater.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "therefore has 5 shells and group 7 therefore has\nM1 add more limewater (to cover tube on left)\nM2 the glass tube on the left should be longer/in\nthe limewater",
+     "solution_md": "Any one from:\nM1 add more limewater (to cover tube on left)\nM2 the glass tube on the left should be longer/in\nthe limewater",
      "mark_points": [
       {
        "id": "2021-11-5-a-MP1",
        "marks": 1,
-       "text_md": "therefore has 5 shells and group 7 therefore has\nM1 add more limewater (to cover tube on left)\nM2 the glass tube on the left should be longer/in\nthe limewater"
+       "text_md": "Any one from:\nM1 add more limewater (to cover tube on left)\nM2 the glass tube on the left should be longer/in\nthe limewater"
       }
      ],
      "source_page": 12,
@@ -911,12 +937,17 @@
      "problem_md": "Show by calculation that the empirical formula of compound Z is CH3O",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 38.7 9.7 51.6 0 marks if upside down",
+     "solution_md": "M1 38.7 9.7 51.6 0 marks if upside down\n12 1 16 calculation or use of\natomic numbers\nOR 3.225 9.7 3.225\nM2 (divide by smallest)\n1 3",
      "mark_points": [
       {
        "id": "2021-11-6-b-i-MP1",
-       "marks": 2,
-       "text_md": "M1 38.7 9.7 51.6 0 marks if upside down"
+       "marks": 1,
+       "text_md": "38.7 9.7 51.6 0 marks if upside down\n12 1 16 calculation or use of\nOR 3.225 9.7 3.225"
+      },
+      {
+       "id": "2021-11-6-b-i-MP2",
+       "marks": 1,
+       "text_md": "(divide by smallest)\n1 3"
       }
      ],
      "source_page": 18,
@@ -932,7 +963,20 @@
      "question_type": "structured",
      "problem_md": "The relative formula mass (Mr) of compound Z is 62 Deduce the molecular formula of compound Z. molecular formula =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "M1 Mr of CH3O = 31 C2H6O2 without working\nscores 2\nM2 (62 ÷ 31 = 2 so molecular formula is) C2H6O2\nQuestion\nAnswer Notes Marks\nnumber",
+     "mark_points": [
+      {
+       "id": "2021-11-6-b-ii-MP1",
+       "marks": 1,
+       "text_md": "Mr of CH3O = 31 C2H6O2 without working"
+      },
+      {
+       "id": "2021-11-6-b-ii-MP2",
+       "marks": 1,
+       "text_md": "(62 ÷ 31 = 2 so molecular formula is) C2H6O2\nQuestion\nAnswer Notes Marks\nnumber"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [
@@ -1031,12 +1075,17 @@
      "problem_md": "The rate of the reaction is increased by passing the gases over a catalyst. Explain how a catalyst increases the rate of a reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 does not need heating\nM2 reacts very quickly must imply quicker\nreaction than chlorine\npathway\nM2 with lower activation energy",
+     "solution_md": "M1 catalyst provides an alternative reaction route/\npathway\nM2 with lower activation energy",
      "mark_points": [
       {
        "id": "2021-11-7-b-i-MP1",
-       "marks": 2,
-       "text_md": "M1 does not need heating\nM2 reacts very quickly must imply quicker\nreaction than chlorine\npathway\nM2 with lower activation energy"
+       "marks": 1,
+       "text_md": "catalyst provides an alternative reaction route/\npathway"
+      },
+      {
+       "id": "2021-11-7-b-i-MP2",
+       "marks": 1,
+       "text_md": "with lower activation energy"
       }
      ],
      "source_page": 20,
@@ -1053,12 +1102,22 @@
      "problem_md": "Explain how increasing the pressure of gases increases the rate of reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 as the atoms get bigger\nM2 the reactivity decreases ACCEPT reverse\nargument\nQuestion\nAnswer Notes Marks\nnumber\nin a smaller volume\n/space\nM2 therefore more collisions\nM3 per unit time\nmore frequent collisions\nscores M2 and M3\nany reference to\nincreasing energy max =",
+     "solution_md": "M1 particles / molecules are closer together ACCEPT more particles\nin a smaller volume\n/space\nM2 therefore more collisions\nM3 per unit time\nmore frequent collisions\nscores M2 and M3\nany reference to\nincreasing energy max =",
      "mark_points": [
       {
        "id": "2021-11-7-b-ii-MP1",
-       "marks": 3,
-       "text_md": "M1 as the atoms get bigger\nM2 the reactivity decreases ACCEPT reverse\nargument\nQuestion\nAnswer Notes Marks\nnumber\nin a smaller volume\n/space\nM2 therefore more collisions\nM3 per unit time\nmore frequent collisions\nscores M2 and M3\nany reference to\nincreasing energy max ="
+       "marks": 1,
+       "text_md": "particles / molecules are closer together ACCEPT more particles"
+      },
+      {
+       "id": "2021-11-7-b-ii-MP2",
+       "marks": 1,
+       "text_md": "therefore more collisions"
+      },
+      {
+       "id": "2021-11-7-b-ii-MP3",
+       "marks": 1,
+       "text_md": "per unit time"
       }
      ],
      "source_page": 21,

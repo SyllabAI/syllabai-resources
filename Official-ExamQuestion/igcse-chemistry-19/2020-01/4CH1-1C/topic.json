@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T11:55:40Z",
- "generator": "official_examq_extract.py v0.7.1 (ADR-037) series=2020-01",
+ "generated_utc": "2026-10-21T15:09:29Z",
+ "generator": "official_examq_extract.py v0.8.0 (ADR-037) series=2020-01 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C",
  "source": {
   "qp_sha256": "37247459b838d799b1059dd3b1aba296043104a56323c656e71eb1fca589396f",
@@ -1256,12 +1256,37 @@
      "problem_md": "A technician sees an unlabelled bottle containing a liquid. He knows that the liquid is a solution of one of these compounds. ● copper(II) chloride ● copper(II) bromide ● iron(II) chloride ● iron(II) bromide Describe chemical tests that the technician could use to identify the compound in the solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that makes reference to the following",
+     "solution_md": "A description that makes reference to the following\n6 points\nTest for cation\nM1 add sodium hydroxide (solution) ALLOW ammonia\nsolution\nM2 if blue precipitate forms solution contains IGNORE qualifiers\ncopper(II) ion(s) / contains Cu2+ / is a copper REJECT other colours\ncompound\nM3 if green precipitate forms solution contains IGNORE qualifiers\niron(II) ion(s) / contains Fe2+ / is an iron compound REJECT other colours\nIf no reagent or\nincorrect reagent but\ncorrect M2 and M3\nscore 1\nALLOW\nM1 flame test or\ndescription of flame\ntest\nM2 if blue-green\n(flame)\nsolution contains\ncopper(II) ion(s) /\ncontains Cu2+ / is a\ncopper compound\nNo M3 for this test\nALLOW\nM1 addition of suitable\nmetal above Cu in\nreactivity series\nM2 brown/pink/pink-\nbrown solid forms\nNo M3 for this test\nTest for anion\nM4 add silver nitrate (solution)\nIGNORE addition of\nnitric acid\nREJECT addition of\nhydrochloric acid for M4\nM5 if white precipitate forms solution contains\nchloride ion(s) / contains Cl- / is a chloride\nM6 if cream precipitate forms solution contains\nbromide ion(s) / contains Br- / is a bromide\nIf no reagent or\nincorrect reagent but\ncorrect M5 and M6\nscore 1\nALLOW\nM4 add chlorine water\n(to solution)\nM5 if turns\norange/yellow/brown\nsolution contains\nbromide ion(s) /\ncontains Br- / is a\nbromide\nNo M6 for this test\nQuestion\nAnswer Notes Marks\nnumber",
      "mark_points": [
       {
        "id": "2020-01-7-c-MP1",
-       "marks": 6,
-       "text_md": "A description that makes reference to the following"
+       "marks": 1,
+       "text_md": "add sodium hydroxide (solution) ALLOW ammonia"
+      },
+      {
+       "id": "2020-01-7-c-MP2",
+       "marks": 1,
+       "text_md": "if blue precipitate forms solution contains IGNORE qualifiers\ncopper(II) ion(s) / contains Cu2+ / is a copper REJECT other colours\ncompound"
+      },
+      {
+       "id": "2020-01-7-c-MP3",
+       "marks": 1,
+       "text_md": "if green precipitate forms solution contains IGNORE qualifiers\niron(II) ion(s) / contains Fe2+ / is an iron compound REJECT other colours\nTest for anion"
+      },
+      {
+       "id": "2020-01-7-c-MP4",
+       "marks": 1,
+       "text_md": "add silver nitrate (solution)"
+      },
+      {
+       "id": "2020-01-7-c-MP5",
+       "marks": 1,
+       "text_md": "if white precipitate forms solution contains\nchloride ion(s) / contains Cl- / is a chloride"
+      },
+      {
+       "id": "2020-01-7-c-MP6",
+       "marks": 1,
+       "text_md": "if cream precipitate forms solution contains\nbromide ion(s) / contains Br- / is a bromide\nQuestion\nAnswer Notes Marks\nnumber"
       }
      ],
      "source_page": 18,

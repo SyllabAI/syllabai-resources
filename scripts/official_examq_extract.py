@@ -12,7 +12,8 @@ from the source layer; the only generated fields are labels (command_word,
 spec seeds) and links (answer linkage, asset stubs) — and labels are
 registry-validated or flagged for human review.
 
-Run:  python3 official_examq_extract.py --series 2020-11   (baseline; also 2019-06, 2020-01, 2021-06, 2022-06, 2024-06)
+Run:  python3 official_examq_extract.py --series 2020-11                (baseline series, paper 1C)
+      python3 official_examq_extract.py --series 2022-06 --paper 2C    (paper variants: 1C default, 2C since v0.8/F34)
 """
 import hashlib
 import json
@@ -42,14 +43,24 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.7.1"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
-PAPER_TOTAL = 110          # registry expectation for 4CH1/1C — constant across series
-# printed question counts verified per series (footers vary 9..15 across the 4CH1 era);
-# counts cross-checked against per-question footer marks summing to 110
-EXPECT_QUESTIONS = {"2020-11": 10, "2020-01": 10, "2021-06": 10, "2022-06": 10, "2024-06": 10,
-                    "2019-06": 15, "2021-01": 11, "2021-11": 11, "2022-01": 11, "2023-01": 12,
-                    "2023-06": 10, "2023-11": 10, "2024-11": 11, "2025-06": 10, "2025-11": 10,
-                    "2026-06": 9}
+CONVERTER_VERSION = "0.8.0"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+# registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
+# totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
+# (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
+PAPER_TOTALS = {"1C": 110, "2C": 70}
+PAPER_TOTAL = PAPER_TOTALS["1C"]   # runtime global — set per run in main()
+# printed question counts verified per series (footers vary 6..15 across the 4CH1 era);
+# counts cross-checked against per-question footer marks summing to the paper total
+EXPECT_QUESTIONS = {
+    "1C": {"2020-11": 10, "2020-01": 10, "2021-06": 10, "2022-06": 10, "2024-06": 10,
+           "2019-06": 15, "2021-01": 11, "2021-11": 11, "2022-01": 11, "2023-01": 12,
+           "2023-06": 10, "2023-11": 10, "2024-11": 11, "2025-06": 10, "2025-11": 10,
+           "2026-06": 9},
+    "2C": {"2019-06": 8, "2020-01": 7, "2020-11": 7, "2021-01": 7, "2021-06": 7,
+           "2021-11": 7, "2022-01": 7, "2022-06": 7, "2023-01": 7, "2023-06": 7,
+           "2023-11": 7, "2024-06": 7, "2024-11": 7, "2025-06": 6, "2025-11": 6,
+           "2026-06": 6},
+}
 # per-series demo seeds (labels only; registry-validated in G6). Other series -> pending-llm.
 SEEDS = {
     # v0.5 demo seeds, audited against the spec registry in v0.7 (LEDGER F31):
@@ -64,14 +75,21 @@ SEEDS = {
 }
 
 
-def paths_for(series: str) -> dict:
+def paths_for(series: str, paper: str = "1C") -> dict:
+    # F34: staging names are paper-suffixed. The .txt extraction names were NOT
+    # paper-suffixed before v0.8 (a 1C/2C staging collision); fall back to the
+    # legacy bare name so pre-0.8 staging areas keep working for 1C.
+    qp_txt = UPLOAD / f"official-{series}-{paper}-qp.txt"
+    ms_txt = UPLOAD / f"official-{series}-{paper}-ms.txt"
+    legacy_qp_txt = UPLOAD / f"official-{series}-qp.txt"
+    legacy_ms_txt = UPLOAD / f"official-{series}-ms.txt"
     return {
-        "qp_pdf": UPLOAD / f"official-4CH1-1C-{series}-qp.pdf",
-        "ms_pdf": UPLOAD / f"official-4CH1-1C-{series}-ms.pdf",
-        "qp_txt": UPLOAD / f"official-{series}-qp.txt",
-        "ms_txt": UPLOAD / f"official-{series}-ms.txt",
-        "manifest": UPLOAD / f"manifest-{series}-1C.yaml",
-        "out": OUTROOT / series / "4CH1-1C",
+        "qp_pdf": UPLOAD / f"official-4CH1-{paper}-{series}-qp.pdf",
+        "ms_pdf": UPLOAD / f"official-4CH1-{paper}-{series}-ms.pdf",
+        "qp_txt": qp_txt if (qp_txt.exists() or not legacy_qp_txt.exists()) else legacy_qp_txt,
+        "ms_txt": ms_txt if (ms_txt.exists() or not legacy_ms_txt.exists()) else legacy_ms_txt,
+        "manifest": UPLOAD / f"manifest-{series}-{paper}.yaml",
+        "out": OUTROOT / series / f"4CH1-{paper}",
     }
 
 # ---------------------------------------------------------------- utilities
@@ -289,6 +307,33 @@ def parse_ms(ms_lines):
     cur_q, cur_letter = None, None
     cur = None
     TOTAL_RE = re.compile(r"^\s*Total\s+\d+\s*$")
+
+    def _honour_qn(qn_str, has_marker_evidence):
+        """F35 (LEDGER): MS content rows can BEGIN with short numerals — Mr
+        workings ('12 1 16' inside a 5(a)(i) calculation), coefficient rows,
+        isotope masses — and front matter carries numerals too (the 2022-01
+        PMT blurb '70 countries, in 100 languages' would hijack the file).
+        A leading numeral is a QUESTION-NUMBER marker when EITHER
+        (a) the same row carries letter/roman marker evidence ('11 a calculate
+            moles…', '5 (a) (i) …') — damaged papers (2019-06 rasterized Q10)
+            legitimately skip numbers, so evidence wins over the sequence, OR
+        (b) it advances the strictly ascending question sequence: question 1
+            bootstraps, then next-question (+1) or a same-question re-print
+            (covers numeral-only rows). A numeral-only row that skips
+            ('12 1 16 atomic numbers' at cur_q=5) is content, not a marker
+            (the 2022-06 2C defect: it hijacked cur_q 5->12 and left
+            Q5(b)-(d) unlinkable, G5 79%)."""
+        if not qn_str:
+            return None
+        v = int(qn_str)
+        if has_marker_evidence:
+            return v
+        if cur_q is None:
+            return v if v == 1 else None
+        if v == cur_q or v == cur_q + 1:
+            return v
+        return None
+
     for ln in ms_lines:
         if TOTAL_RE.match(ln):
             continue
@@ -297,8 +342,9 @@ def parse_ms(ms_lines):
         mb = MS_BARE_LETTER_RE.match(ln)
         if mo and any(mo.groups()[:3]):
             qn, letter, roman = mo.group(1), mo.group(2), mo.group(3)
-            if qn:
-                cur_q = int(qn)
+            new_q = _honour_qn(qn, bool(letter or roman))
+            if new_q is not None:
+                cur_q = new_q
             if letter:
                 cur_letter = letter
             cur = (cur_q, cur_letter, roman if roman else None)
@@ -307,8 +353,9 @@ def parse_ms(ms_lines):
             # bare-letter rows must win over MS_ROW_RE (whose groups are all
             # optional and therefore match almost any line)
             qn, letter, rest = mb.groups()
-            if qn:
-                cur_q = int(qn)
+            new_q = _honour_qn(qn, True)   # bare-letter rows carry letter evidence by construction
+            if new_q is not None:
+                cur_q = new_q
             cur_letter = letter
             roman = None
             r2 = L2_INLINE_RE.match(rest.strip())
@@ -318,9 +365,10 @@ def parse_ms(ms_lines):
             entries.setdefault(cur, [rest.strip()] if rest.strip() else [])
         elif m:
             qn, letter, roman, rest = m.groups()
-            if any([qn, letter, roman]):
-                if qn:
-                    cur_q = int(qn)
+            new_q = _honour_qn(qn, bool(letter or roman))
+            if any([new_q, letter, roman]):
+                if new_q is not None:
+                    cur_q = new_q
                 if letter:
                     cur_letter = letter
                 cur = (cur_q, cur_letter, roman if roman else None)
@@ -830,17 +878,21 @@ def main():
     ap = argparse.ArgumentParser(description="ADR-037 official-paper question extractor")
     ap.add_argument("--series", default="2020-11",
                     help="paper series folder, e.g. 2020-11 (baseline), 2019-06, 2020-01, 2021-06, 2022-06, 2024-06")
+    ap.add_argument("--paper", default="1C", choices=sorted(PAPER_TOTALS),
+                    help="paper variant code (F34): 1C default; 2C since v0.8")
     args = ap.parse_args()
     series = args.series
-    P = paths_for(series)
-    global QP_PDF, MS_PDF, QP_TXT, MS_TXT, MANIFEST, OUT
+    paper = args.paper
+    P = paths_for(series, paper)
+    global QP_PDF, MS_PDF, QP_TXT, MS_TXT, MANIFEST, OUT, PAPER_TOTAL
     QP_PDF, MS_PDF = P["qp_pdf"], P["ms_pdf"]
     QP_TXT, MS_TXT = P["qp_txt"], P["ms_txt"]
     MANIFEST, OUT = P["manifest"], P["out"]
-    expect_q = EXPECT_QUESTIONS.get(series)
+    PAPER_TOTAL = PAPER_TOTALS[paper]
+    expect_q = EXPECT_QUESTIONS[paper].get(series)
 
     report = {"schema": "syllabai.official-paper-questions.validation/0.1",
-              "generated_utc": now_iso(), "series": series, "gates": [],
+              "generated_utc": now_iso(), "series": series, "paper": paper, "gates": [],
               "negative_controls": [], "review_queue": []}
 
     # ---- G0 identity -------------------------------------------------------
@@ -849,14 +901,20 @@ def main():
     mat = {m["type"]: m for m in manifest["materials"]}
     sha_ok = (qp_sha == mat["question-paper"]["sha256"] and
               ms_sha == mat["mark-scheme"]["sha256"])
+    # F34: the staged manifest must claim the SAME variant we were asked to convert
+    # (a 2C run over 1CR bytes would otherwise sail through the sha checks).
+    manifest_variant = manifest.get("paper", {}).get("paper_number_variant")
+    variant_ok = (manifest_variant == paper)
+    identity_ok = sha_ok and variant_ok
     paper_id = manifest["paper_id"]
     report["gates"].append({
-        "gate": "G0-identity", "status": "PASS" if sha_ok else "FAIL",
+        "gate": "G0-identity", "status": "PASS" if identity_ok else "FAIL",
         "summary": f"paper_id={paper_id}; series={manifest['series']['normalized']}; "
-                   f"printed={manifest['series'].get('printed', 'n/a (manifest schema v2 omits it)')!r}; sha256 qp/ms match manifest: {sha_ok}",
+                   f"printed={manifest['series'].get('printed', 'n/a (manifest schema v2 omits it)')!r}; sha256 qp/ms match manifest: {sha_ok}; "
+                   f"manifest variant {manifest_variant!r} == requested {paper!r}: {variant_ok}",
         "details": {"qp_sha256": qp_sha, "ms_sha256": ms_sha,
                     "registry_paper_id": paper_id}})
-    if not sha_ok:
+    if not identity_ok:
         print("G0 FAIL — aborting (fail-closed)"); json.dump(report, sys.stdout, indent=1); return 1
 
     qp_lines = clean_lines(QP_TXT.read_text(errors="replace"))
@@ -952,8 +1010,18 @@ def main():
                     m = re.match(r"^\s*([A-E])\s+\S", s)
                     g = re.match(r"^\s*([A-E])(?=[0-9(])", s)   # glued answer cell: 'B4', 'D(NH4+)'
                     pos = re.search(r"(?<![A-Za-z])([A-E])\s+is\s+(?:the\s+)?correct\b", s)
-                    if pos and pos.group(1) in labels:
-                        positives.append(pos.group(1))
+                    # F36: 2C MS entries often open with a sentence —
+                    # 'The only correct answer is D as francium is…'. The F12
+                    # pattern above misses that word order, and F14's
+                    # elimination keying cannot corroborate (no '<L> <text>'
+                    # answer rows exist in sentence-style entries), so the key
+                    # was refused. Sentence positives are labels-only evidence
+                    # and stay subject to the single-distinct-positive rule.
+                    pos_sent = re.search(
+                        r"(?<![A-Za-z])(?:the\s+)?(?:only\s+)?correct\s+answer\s+is\s+([A-E])\b(?!\s+not\b)", s)
+                    chosen = (pos or pos_sent)
+                    if chosen and chosen.group(1) in labels:
+                        positives.append(chosen.group(1))
                     hit = m or g
                     if hit and hit.group(1) in labels:
                         # rebuttal row: an option letter followed by negative text
@@ -1565,8 +1633,9 @@ def main():
     # labels, re-validated by G6). Wave files live in spec-labels/<series>.json
     # as {"parts": {"<part_number>": ["4CH1-x.y", ...]}}; question-level tags
     # are expanded to their parts by the wave authoring script.
-    seeds = SEEDS.get(series, {})
-    labels_path = RES_DIR / "Official-ExamQuestion" / "spec-labels" / f"{series}.json"
+    seeds = SEEDS.get(series, {}) if paper == "1C" else {}   # demo seeds are 1C artifacts (F31)
+    labels_path = (RES_DIR / "Official-ExamQuestion" / "spec-labels" /
+                   (f"{series}.json" if paper == "1C" else f"{series}-{paper}.json"))
     labels = {}
     if labels_path.exists():
         labels = json.loads(labels_path.read_text()).get("parts", {})
@@ -1773,7 +1842,7 @@ def main():
     # ---- assemble document (before popping internal fields) ------------------
     topic = {
         "schema": SCHEMA, "generated_utc": now_iso(),
-        "generator": f"official_examq_extract.py v{CONVERTER_VERSION} (ADR-037) series={series}",
+        "generator": f"official_examq_extract.py v{CONVERTER_VERSION} (ADR-037) series={series} paper={paper}",
         "paper_id": paper_id,
         "source": {"qp_sha256": qp_sha, "ms_sha256": ms_sha,
                    "series": manifest["series"]["normalized"],

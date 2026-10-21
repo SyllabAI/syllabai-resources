@@ -4,9 +4,11 @@
 Independent parse agreement — the strongest correctness evidence available:
 two different parsers over the same PDF must agree on every part mark.
 
-Usage: python3 cross_diff_parsed.py [series ...]   (default: all series that have a parsed layer)
+Usage: python3 cross_diff_parsed.py [--paper P] [series ...]   (default: all series that have a parsed layer)
 Expects: $EXAMQ_UPLOAD_DIR (default /home/z/my-project/upload)/parsed-{S}-questions.json
-         and <checkout>/Official-ExamQuestion/igcse-chemistry-19/{S}/4CH1-1C/topic.json
+         and <checkout>/Official-ExamQuestion/igcse-chemistry-19/{S}/4CH1-{paper}/topic.json
+F34: --paper selects the variant (default 1C). The repo parsed/ layer exists for
+1C dirs only today, so 2C runs SKIP honestly (no independent parse to diff against).
 Writes:  <checkout>/Official-ExamQuestion/CROSS-DIFF.json  (always inside the checkout; F15)
 """
 import json
@@ -19,12 +21,15 @@ BASE = Path(__file__).resolve().parent.parent / "Official-ExamQuestion"
 IGCSE = BASE / "igcse-chemistry-19"
 
 HAVE_PARSED = ["2024-06", "2025-06", "2026-06"]
-series = sys.argv[1:] or HAVE_PARSED
+_args = [a for a in sys.argv[1:] if not a.startswith("--") and not a in ("1C", "2C")]
+PAPER = "2C" if ("--paper" in sys.argv and sys.argv.index("--paper") + 1 < len(sys.argv)
+                 and sys.argv[sys.argv.index("--paper") + 1] == "2C") else "1C"
+series = _args or HAVE_PARSED
 
-out = {"schema": "syllabai.official-paper-questions.cross-diff/0.1", "series": []}
+out = {"schema": "syllabai.official-paper-questions.cross-diff/0.1", "paper": PAPER, "series": []}
 for S in series:
     pf = UPLOAD / f"parsed-{S}-questions.json"
-    tf = IGCSE / S / "4CH1-1C" / "topic.json"
+    tf = IGCSE / S / f"4CH1-{PAPER}" / "topic.json"
     if not pf.exists() or not tf.exists():
         print(f"{S}: SKIP (missing {'parsed' if not pf.exists() else 'topic.json'})")
         continue
@@ -53,7 +58,7 @@ for S in series:
     qo = {q["question_number"]: q["total_marks"] for q in ours["questions"]}
     qmism = [(n, qo.get(n), qm[n]) for n in sorted(set(qo) & set(qm)) if qo.get(n) != qm[n]]
 
-    rec = {"series": S,
+    rec = {"series": S, "paper": PAPER,
            "comparable_parts": len(common), "part_mismatches": mism,
            "only_in_ours": only_ours, "only_in_parsed": only_parsed,
            "question_mismatches": qmism,

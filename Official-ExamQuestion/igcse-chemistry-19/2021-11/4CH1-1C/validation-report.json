@@ -1,12 +1,13 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T11:55:44Z",
+ "generated_utc": "2026-10-21T15:09:37Z",
  "series": "2021-11",
+ "paper": "1C",
  "gates": [
   {
    "gate": "G0-identity",
    "status": "PASS",
-   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C; series=2021-11; printed='November 2021; November 2021'; sha256 qp/ms match manifest: True",
+   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C; series=2021-11; printed='November 2021; November 2021'; sha256 qp/ms match manifest: True; manifest variant '1C' == requested '1C': True",
    "details": {
     "qp_sha256": "fa4c64a38fa6438c6490d54baea4760e193963a3e33b5aeebca8726e0776b9d9",
     "ms_sha256": "d002350dba38a35927191f257158f3ef3fa66c6d51070e1e67fdaed754ac3ded",
@@ -64,13 +65,9 @@
   {
    "gate": "G5-answer-linkage",
    "status": "PASS",
-   "summary": "MS linkage 64/67 (96%)",
+   "summary": "MS linkage 67/67 (100%)",
    "details": {
-    "unmatched": [
-     "2(b)(i)",
-     "2(b)(ii)",
-     "6(b)(ii)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -87,15 +84,13 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 64/64 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 60 parts, agrees with QP marks on 59",
+   "summary": "solution_md on 67/67 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 64 parts, agrees with QP marks on 64",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 60,
-    "ms_marks_agree": 59,
-    "ms_marks_disagree": [
-     "7(b)(ii) (ms=2 qp=3)"
-    ]
+    "ms_marks_seen": 64,
+    "ms_marks_agree": 64,
+    "ms_marks_disagree": []
    }
   }
  ],
@@ -117,20 +112,7 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "2(b)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "source_defects": {
   "image_only_pages": [
    38,

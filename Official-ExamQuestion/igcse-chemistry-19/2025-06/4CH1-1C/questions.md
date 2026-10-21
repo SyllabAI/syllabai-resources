@@ -573,8 +573,19 @@ The actual yield of iron from this sample is 21 g. Calculate the percentage yiel
 **Mark scheme answer**
 
 > M1 21 x 100 correct answer
+> 28 without working
+> scores 2
+> M2 75 (%) ALLOW ecf for any
+> correct calculation
+> involving 21 as the
+> numerator
+> 0.75 scores 1
+> Question
+> Answer Notes Marks
+> number
 
-- **(2)** M1 21 x 100 correct answer
+- **(1)** 21 x 100 correct answer
+- **(1)** 75 (%) ALLOW ecf for any
 
 
 ## Question 7 (12 marks)

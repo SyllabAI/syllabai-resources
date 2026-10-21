@@ -120,6 +120,15 @@ Which row gives the correct number of occupied electron shells and the correct n
 
 > C
 > C is the correct answer because iodine is in period
+> 5 therefore has 5 shells and group 7 therefore has
+> 7 electrons in its outer shell.
+> A is incorrect because arsenic has 5 shells and 4
+> electrons in its outer shell.
+> B is incorrect because selenium has 4 shells and 6
+> electrons in its outer shell.
+> D is incorrect because the number of shells and
+> number of electrons in the outer shell in iodine
+> have been reversed.
 
 - **(1)** Answer C: 5                                                                                                      7
 
@@ -129,9 +138,32 @@ The table gives descriptions of the reactions of some Group 7 elements with iron
 
 ![table — official paper figure (qp.pdf p.7)](assets/asset_2_b_i_table.png)
 
+
+**Mark scheme answer**
+
+> M1 does not need heating
+> M2 reacts very quickly must imply quicker
+> reaction than chlorine
+
+- **(1)** does not need heating
+- **(1)** reacts very quickly must imply quicker
+
 ### 2(b)(ii) [2]
 
 State the relationship between the reactivity of the Group 7 elements and the size of their atoms.
+
+
+**Mark scheme answer**
+
+> M1 as the atoms get bigger
+> M2 the reactivity decreases ACCEPT reverse
+> argument
+> Question
+> Answer Notes Marks
+> number
+
+- **(1)** as the atoms get bigger
+- **(1)** the reactivity decreases ACCEPT reverse
 
 
 ## Question 3 (7 marks)
@@ -319,12 +351,12 @@ In experiment 1, a student bubbles the mixture of gases through limewater. Carbo
 
 **Mark scheme answer**
 
-> therefore has 5 shells and group 7 therefore has
+> Any one from:
 > M1 add more limewater (to cover tube on left)
 > M2 the glass tube on the left should be longer/in
 > the limewater
 
-- **(1)** therefore has 5 shells and group 7 therefore has
+- **(1)** Any one from:
 
 ### 5(b)(i) [2]
 
@@ -524,12 +556,31 @@ Show by calculation that the empirical formula of compound Z is CH3O
 **Mark scheme answer**
 
 > M1 38.7 9.7 51.6 0 marks if upside down
+> 12 1 16 calculation or use of
+> atomic numbers
+> OR 3.225 9.7 3.225
+> M2 (divide by smallest)
+> 1 3
 
-- **(2)** M1 38.7 9.7 51.6 0 marks if upside down
+- **(1)** 38.7 9.7 51.6 0 marks if upside down
+- **(1)** (divide by smallest)
 
 ### 6(b)(ii) [2]
 
 The relative formula mass (Mr) of compound Z is 62 Deduce the molecular formula of compound Z. molecular formula =
+
+
+**Mark scheme answer**
+
+> M1 Mr of CH3O = 31 C2H6O2 without working
+> scores 2
+> M2 (62 ÷ 31 = 2 so molecular formula is) C2H6O2
+> Question
+> Answer Notes Marks
+> number
+
+- **(1)** Mr of CH3O = 31 C2H6O2 without working
+- **(1)** (62 ÷ 31 = 2 so molecular formula is) C2H6O2
 
 
 ## Question 7 (14 marks)
@@ -603,13 +654,12 @@ The rate of the reaction is increased by passing the gases over a catalyst. Expl
 
 **Mark scheme answer**
 
-> M1 does not need heating
-> M2 reacts very quickly must imply quicker
-> reaction than chlorine
+> M1 catalyst provides an alternative reaction route/
 > pathway
 > M2 with lower activation energy
 
-- **(2)** M1 does not need heating
+- **(1)** catalyst provides an alternative reaction route/
+- **(1)** with lower activation energy
 
 ### 7(b)(ii) [3]
 
@@ -618,12 +668,7 @@ Explain how increasing the pressure of gases increases the rate of reaction.
 
 **Mark scheme answer**
 
-> M1 as the atoms get bigger
-> M2 the reactivity decreases ACCEPT reverse
-> argument
-> Question
-> Answer Notes Marks
-> number
+> M1 particles / molecules are closer together ACCEPT more particles
 > in a smaller volume
 > /space
 > M2 therefore more collisions
@@ -633,7 +678,9 @@ Explain how increasing the pressure of gases increases the rate of reaction.
 > any reference to
 > increasing energy max =
 
-- **(3)** M1 as the atoms get bigger
+- **(1)** particles / molecules are closer together ACCEPT more particles
+- **(1)** therefore more collisions
+- **(1)** per unit time
 
 ### 7(c)(i) [2]
 

@@ -1,12 +1,13 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T11:55:50Z",
+ "generated_utc": "2026-10-21T15:09:49Z",
  "series": "2023-11",
+ "paper": "1C",
  "gates": [
   {
    "gate": "G0-identity",
    "status": "PASS",
-   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2023-11:4CH1/1C; series=2023-11; printed='November 2023'; sha256 qp/ms match manifest: True",
+   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2023-11:4CH1/1C; series=2023-11; printed='November 2023'; sha256 qp/ms match manifest: True; manifest variant '1C' == requested '1C': True",
    "details": {
     "qp_sha256": "180909048496d940c72e0e669173a52d0a3fa2f6e69c43c453d1ddcc20e06048",
     "ms_sha256": "08caaccc01f8e42a3f066685916e2fac75cf5263a690ae1e0eaba104c3f072ed",
@@ -60,10 +61,9 @@
   {
    "gate": "G5-answer-linkage",
    "status": "PASS",
-   "summary": "MS linkage 63/66 (95%)",
+   "summary": "MS linkage 64/66 (97%)",
    "details": {
     "unmatched": [
-     "2(c)(ii)",
      "6(c)(ii)",
      "6(d)(ii)"
     ]
@@ -83,12 +83,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 63/63 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 62 parts, agrees with QP marks on 61",
+   "summary": "solution_md on 64/64 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 64 parts, agrees with QP marks on 63",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 62,
-    "ms_marks_agree": 61,
+    "ms_marks_seen": 64,
+    "ms_marks_agree": 63,
     "ms_marks_disagree": [
      "2(a) (ms=1 qp=2)"
     ]
@@ -117,10 +117,6 @@
   {
    "part": "6(b)",
    "reason": "figure crop required (diagram, page 15)"
-  },
-  {
-   "part": "2(c)(ii)",
-   "reason": "answer not auto-linked to MS"
   },
   {
    "part": "6(c)(ii)",
