@@ -162,12 +162,20 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues: MCQ keys for 2020-01 Q7(a) (2 keys), 10 emitted figure crops
-  flagged `human verify` + 32 pending stubs (blank-to-complete diagrams, rasterized
-  2019-06 pages), spec-tagging seeds (`pending-llm`) for all series except the
-  2020-11 demo set.
+- Human review queues (v0.6 crop-review wave): MCQ keys for 2020-01 Q7(a) (2 keys),
+  24 emitted figure crops flagged `human verify` (each was eyeballed once against
+  its source page — see LEDGER wave 6; re-flag after any converter change),
+  8 honest crop-required stubs (dot-and-cross prompts whose printed scaffolds are
+  text-only — no croppable region exists; 2022-06 6(b)(iii) whose plotted grid
+  cannot be attributed without guessing), spec-tagging seeds (`pending-llm`) for
+  all series except the 2020-11 demo set.
 - PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
   added as a converter-level mapping table with its own parity run, not ad hoc.
 - 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5
   rasterized content pages, then re-run gates (G1 must return to PASS with 110/110).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
+- Serving semantics (v0.6): `assets[]` entries are `kind: "crop"` (real PNG under
+  `path`), or `kind: "crop"` with `shared: true` + `ref_part` (a reference to the
+  part/stem figure that already owns the PNG — render the referenced `path`, do
+  not expect a second file), or `kind: "crop-required"` (honest stub). Asset ids
+  ending in `_stem` are question-level figures introduced by a stem sentence.

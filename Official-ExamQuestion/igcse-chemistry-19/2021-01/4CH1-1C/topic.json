@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:37:46Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2021-01",
+ "generated_utc": "2026-10-21T01:57:46Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2021-01",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-01:4CH1/1C",
  "source": {
   "qp_sha256": "adb0593af53a637d943112d14fbb1cd98b970aa899e684237ef45b1b71609c19",
@@ -49,12 +49,11 @@
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 3,
-       "review": false,
+       "page": 2,
+       "review": true,
        "path": "assets/asset_1_a_table.png",
        "render": "vector",
-       "text_coverage": 0.239,
-       "shared": false
+       "text_coverage": 0.35
       }
      ],
      "spec_point_codes": [],
@@ -406,7 +405,7 @@
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 8,
-       "review": false,
+       "review": true,
        "path": "assets/asset_4_a_diagram.png",
        "render": "vector",
        "text_coverage": 0.12,
@@ -498,12 +497,11 @@
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 10,
-       "review": false,
+       "page": 11,
+       "review": true,
        "path": "assets/asset_5_a_table.png",
        "render": "vector",
-       "text_coverage": 0.168,
-       "shared": false
+       "text_coverage": 0.09
       }
      ],
      "spec_point_codes": [],
@@ -621,10 +619,10 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 14,
-       "review": false,
+       "review": true,
        "path": "assets/asset_6_a_table.png",
        "render": "vector",
-       "text_coverage": 0.25,
+       "text_coverage": 0.264,
        "shared": false
       }
      ],
@@ -697,7 +695,7 @@
        "review": false,
        "path": "assets/asset_7_a_diagram.png",
        "render": "vector",
-       "text_coverage": 0.214,
+       "text_coverage": 0.0,
        "shared": false
       }
      ],
@@ -735,7 +733,7 @@
        "review": false,
        "path": "assets/asset_7_b_i_table.png",
        "render": "vector",
-       "text_coverage": 0.211,
+       "text_coverage": 0.223,
        "shared": false
       }
      ],
@@ -872,7 +870,7 @@
        "review": false,
        "path": "assets/asset_8_a_table.png",
        "render": "vector",
-       "text_coverage": 0.312,
+       "text_coverage": 0.353,
        "shared": false
       }
      ],
@@ -1107,7 +1105,7 @@
        "review": false,
        "path": "assets/asset_9_c_diagram.png",
        "render": "vector",
-       "text_coverage": 0.206,
+       "text_coverage": 0.157,
        "shared": false
       }
      ],
@@ -1252,10 +1250,11 @@
        "source": "qp.pdf",
        "page": 28,
        "review": false,
-       "path": "assets/asset_10_a_ii_graph.png",
+       "path": "assets/asset_10_a_graph_stem.png",
        "render": "vector",
-       "text_coverage": 0.076,
-       "shared": false
+       "text_coverage": 0.066,
+       "shared": true,
+       "ref_part": "asset_10_a_graph_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1293,12 +1292,13 @@
        "kind": "crop",
        "mention": "graph",
        "source": "qp.pdf",
-       "page": 29,
-       "review": true,
-       "path": "assets/asset_10_a_iii_graph.png",
+       "page": 28,
+       "review": false,
+       "path": "assets/asset_10_a_graph_stem.png",
        "render": "vector",
-       "text_coverage": 0.33,
-       "shared": false
+       "text_coverage": 0.066,
+       "shared": true,
+       "ref_part": "asset_10_a_graph_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1335,7 +1335,7 @@
        "review": false,
        "path": "assets/asset_10_b_diagram.png",
        "render": "vector",
-       "text_coverage": 0.357,
+       "text_coverage": 0.351,
        "shared": false
       }
      ],
@@ -1560,11 +1560,16 @@
      "assets": [
       {
        "id": "asset_11_b_iii_grid",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": 35,
-       "review": true
+       "page": 34,
+       "review": false,
+       "path": "assets/asset_11_b_grid_stem.png",
+       "render": "vector",
+       "text_coverage": 0.109,
+       "shared": true,
+       "ref_part": "asset_11_b_grid_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1590,7 +1595,7 @@
        "text_md": "more collisions per unit time / more frequent\ncollisions"
       }
      ],
-     "source_page": 35,
+     "source_page": 36,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"

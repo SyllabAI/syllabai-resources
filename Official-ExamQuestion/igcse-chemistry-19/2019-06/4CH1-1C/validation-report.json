@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T22:37:42Z",
+ "generated_utc": "2026-10-21T01:57:41Z",
  "series": "2019-06",
  "gates": [
   {
@@ -92,13 +92,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 2 remain crop-required; 1 parts without page anchor",
+   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 0 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
      "crops": 4,
-     "pending": 2
+     "pending": 0,
+     "shared": 3
     }
    }
   },
@@ -178,26 +179,6 @@
   {
    "part": "Q7",
    "reason": "footer absent in source PDF; question not extractable — image-only page(s) [12] in archive PDF (content lost at scan)"
-  },
-  {
-   "part": "3(d)(ii)",
-   "reason": "figure crop required (table, page 7)"
-  },
-  {
-   "part": "9(b)",
-   "reason": "figure crop required (diagram, page 13)"
-  },
-  {
-   "part": "13(a)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_13_a_i_grid.png)"
-  },
-  {
-   "part": "13(b)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_13_b_i_grid.png)"
-  },
-  {
-   "part": "13(b)(ii)",
-   "reason": "figure crop emitted — human verify (assets/asset_13_b_ii_grid.png)"
   },
   {
    "part": "3(d)(i)",

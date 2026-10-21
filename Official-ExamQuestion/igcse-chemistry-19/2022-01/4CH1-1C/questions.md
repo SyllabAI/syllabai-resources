@@ -231,7 +231,7 @@ State the name given to the spreading out of gas particles.
 
 State how the diagram shows that the particles of ammonia gas are travelling at higher speeds than the particles of hydrogen chloride gas.
 
-> 🖼 crop required: diagram (qp.pdf p.9)
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_3_b_ii_diagram.png)
 
 
 **Mark scheme answer**
@@ -345,7 +345,7 @@ State how the results show that all the oxygen has reacted.
 
 The volume of gas in the glass tube and connecting tubes is 175 cm3. Use this value and the results table to calculate the percentage of oxygen in the mixture of oxygen and argon. percentage of oxygen = % 
 
-![table — official paper figure (qp.pdf p.11)](assets/asset_4_b_ii_table.png)
+![table — official paper figure (qp.pdf p.11) — shared with asset_4_b_table_stem](assets/asset_4_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -510,8 +510,6 @@ The diagram shows the electronic configuration of atoms of sodium and oxygen. So
 ### 6(b) [1]
 
 Calculate the relative formula mass (Mr ) of sodium oxide, Na2O, using information from the Periodic Table. Mr = 
-
-![table — official paper figure (qp.pdf p.16)](assets/asset_6_b_table.png)
 
 
 **Mark scheme answer**
@@ -891,7 +889,7 @@ State how the student would know when the reaction has stopped. 
 
 Use the graph to determine the amount, in moles, of carbon dioxide produced during the reaction. [Mr of CO2 = 44] amount = mol
 
-> 🖼 crop required: graph (qp.pdf p.25)
+![graph — official paper figure (qp.pdf p.24) — shared with asset_9_c_graph_stem](assets/asset_9_c_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -913,7 +911,7 @@ Use the graph to determine the amount, in moles, of carbon dioxide produced duri
 
 Use the graph to calculate the rate of reaction, in grams per second, at time 60 seconds. Show your working on the graph. rate of reaction = g / s 
 
-> 🖼 crop required: graph (qp.pdf p.25)
+![graph — official paper figure (qp.pdf p.24) — shared with asset_9_c_graph_stem](assets/asset_9_c_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -983,8 +981,6 @@ This question is about substances with covalent bonds.
 ### 10(a)(i) [2]
 
 Draw a dot and cross diagram to show the outer shell electrons in a molecule of nitrogen, N2
-
-![diagram — official paper figure (qp.pdf p.28)](assets/asset_10_a_i_diagram.png)
 
 
 **Mark scheme answer**
@@ -1149,7 +1145,7 @@ Calculate the volume, in cm3, of pure water collected. volume of pure water = cm
 
 Explain an improvement to the apparatus that would increase the percentage yield of pure water.
 
-> 🖼 crop required: apparatus (qp.pdf p.32)
+![apparatus — official paper figure (qp.pdf p.30) — shared with asset_11_c_apparatus_stem](assets/asset_11_c_apparatus_stem.png)
 
 
 **Mark scheme answer**

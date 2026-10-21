@@ -42,7 +42,7 @@ Identify the state of matter that contains particles with the least energy.
 
 The table shows two changes of state. Complete the table by giving the name of each change of state. Change of state Name solid to liquid solid to gas
 
-![table — official paper figure (qp.pdf p.3)](assets/asset_1_b_table.png)
+![table — official paper figure (qp.pdf p.3) — shared with ?](assets/asset_1_b_table.png)
 
 
 **Mark scheme answer**
@@ -288,7 +288,7 @@ Give a reason why neon does not react with the iron wool.
 
 The table shows the student’s results. initial length of column of gas 75 mm final length of column of gas 30 mm Use the results to calculate the percentage of oxygen in the mixture of oxygen and neon. percentage of oxygen = %
 
-![table — official paper figure (qp.pdf p.5)](assets/asset_3_b_iii_table.png)
+![table — official paper figure (qp.pdf p.7)](assets/asset_3_b_iii_table.png)
 
 
 **Mark scheme answer**
@@ -318,7 +318,7 @@ A student uses this apparatus to investigate the dyes in a food colouring A. chr
 
 Explain two mistakes that the student makes when setting up the apparatus. 1 2 
 
-![apparatus — official paper figure (qp.pdf p.8)](assets/asset_4_a_apparatus.png)
+![apparatus — official paper figure (qp.pdf p.8) — shared with asset_4_a_apparatus_stem](assets/asset_4_a_apparatus_stem.png)
 
 
 **Mark scheme answer**
@@ -874,8 +874,6 @@ A student uses this apparatus to record the maximum temperature in the reaction 
 ### 10(a) [1]
 
 Name a suitable piece of apparatus to add 25 cm3 of solution to the beaker. 
-
-![apparatus — official paper figure (qp.pdf p.20)](assets/asset_10_a_apparatus.png)
 
 ### 10(b)(i) [4]
 

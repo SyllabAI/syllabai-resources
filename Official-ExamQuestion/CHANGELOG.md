@@ -4,6 +4,46 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.6 — 2026-10 · crop-review wave (eyeball of 10 flagged + 32 pending, serving semantics)
+
+The 10 review-flagged v0.5 crops and all 32 pending stubs were eyeballed against
+their rendered source pages. The verdicts exposed six defect classes (F18–F24)
+in how figures are detected, attributed and shared; all fixes are generic
+(pattern-named, corpus-wide), never per-series.
+
+- **Furniture filters (F18)**: full-height margin-stripe images no longer bridge
+  whole pages into one discardable mega-cluster (2019-06 table pages had ZERO
+  clusters); footer-band clusters (barcode / Turn over) are never cropped — the
+  13(b)(i)/(ii) footer-barcode crops are gone.
+- **Anchor disambiguation (F18b)**: progressive-length page anchors (shortest
+  fragment matching exactly one page) fix collided openings — 2019-06 9(b) now
+  finds its Halon 1301 displayed formula on p14; 7 anchors shifted, each
+  independently verified against the printed page.
+- **Mention semantics (F19)**: 'Periodic Table', 'Draw a dot-and-cross diagram',
+  'You may use a diagram', 'piece/set up the apparatus' no longer create
+  crop-required stubs (9 spurious queue items removed); printed-scaffold cases
+  ('N N', 'H C Cl H H') keep theirs.
+- **Anaphora resolution (F20/F21)**: backward references resolve BEFORE any
+  own-page anchoring — explicit 'in part (x)' back-refs, stem/group-stem figure
+  intros (one lazy stem crop shared by every referencing part), sibling crops of
+  the same figure class, then adjacent pages. 2021-01 10(a)(iii) now shares the
+  stem graph instead of cropping the 10(b) isomers diagram; 13(b)(i)/(ii) share
+  13(a)(i)'s grid; 2024-11 7(c)/2(c) share their stem tables.
+- **Foreign-text exclusion (F22)**: crops no longer swallow instruction lines,
+  mark tags, '(Total for Question…)' rows, dotted answer rules or whole-page
+  text blocks.
+- **Adjacent-page continuation figures + question-scoped claims (F23/F24)**:
+  grids printed on the page after their referencing parts are cropped
+  (2025-11 3(c)(i) p9 grid); a cluster claimed by another question is never
+  taken, and same-question reuse emits a shared reference.
+- **Corpus effect**: 134 crop assets (52 shared references — anaphoric parts no
+  longer duplicate PNGs; 143 unique PNG files), 8 honest stubs (dot-and-cross
+  prompts with text-only scaffolds; 2022-06 6(b)(iii) whose plotted grid cannot
+  be attributed without guessing), 24 review-flagged crops queued for humans.
+  Parity vs v0.5: extraction fields byte-identical in all 16 series (7
+  verified source_page disambiguations excepted); gate matrix unchanged.
+  Canaries C15–C21 added; floor 0.6.
+
 ## 0.5 — 2026-10 · render-reveal + Smart Mark wave (solution layer, figure crop pass)
 
 Two additions requested to unlock frontend rendering and structured marking;

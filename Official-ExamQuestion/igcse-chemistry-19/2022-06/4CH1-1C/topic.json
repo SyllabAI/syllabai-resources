@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:37:51Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2022-06",
+ "generated_utc": "2026-10-21T01:57:51Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2022-06",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-06:4CH1/1C",
  "source": {
   "qp_sha256": "222019063953cef895736c575d38b4e3fcd6e3af5eb0e964c3ef14b81af81e62",
@@ -163,7 +163,7 @@
        "review": false,
        "path": "assets/asset_2_a_table.png",
        "render": "vector",
-       "text_coverage": 0.244,
+       "text_coverage": 0.101,
        "shared": false
       }
      ],
@@ -512,24 +512,24 @@
        "kind": "crop",
        "mention": "diagram",
        "source": "qp.pdf",
-       "page": 9,
+       "page": 8,
        "review": false,
-       "path": "assets/asset_4_b_diagram.png",
+       "path": "assets/asset_4_b_diagram_stem.png",
        "render": "vector",
-       "text_coverage": 0.232,
-       "shared": false
+       "text_coverage": 0.06,
+       "shared": true,
+       "ref_part": "asset_4_b_diagram_stem"
       },
       {
        "id": "asset_4_b_table",
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 9,
-       "review": false,
+       "page": 8,
+       "review": true,
        "path": "assets/asset_4_b_table.png",
        "render": "vector",
-       "text_coverage": 0.267,
-       "shared": false
+       "text_coverage": 0.083
       }
      ],
      "spec_point_codes": [],
@@ -569,10 +569,11 @@
        "source": "qp.pdf",
        "page": 9,
        "review": false,
-       "path": "assets/asset_4_c_table.png",
+       "path": "assets/asset_4_c_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.267,
-       "shared": true
+       "text_coverage": 0.229,
+       "shared": true,
+       "ref_part": "asset_4_c_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -830,15 +831,11 @@
      "assets": [
       {
        "id": "asset_6_b_iii_graph",
-       "kind": "crop",
+       "kind": "crop-required",
        "mention": "graph",
        "source": "qp.pdf",
        "page": 14,
-       "review": false,
-       "path": "assets/asset_6_b_iii_graph.png",
-       "render": "vector",
-       "text_coverage": 0.069,
-       "shared": false
+       "review": true
       }
      ],
      "spec_point_codes": [],
@@ -893,11 +890,14 @@
      "assets": [
       {
        "id": "asset_6_c_i_grid",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": 15,
-       "review": true
+       "page": 14,
+       "review": true,
+       "path": "assets/asset_6_c_i_grid.png",
+       "render": "vector",
+       "text_coverage": 0.336
       }
      ],
      "spec_point_codes": [],
@@ -1236,7 +1236,7 @@
        "review": false,
        "path": "assets/asset_8_b_diagram.png",
        "render": "vector",
-       "text_coverage": 0.258,
+       "text_coverage": 0.0,
        "shared": false
       },
       {
@@ -1248,7 +1248,7 @@
        "review": false,
        "path": "assets/asset_8_b_table.png",
        "render": "vector",
-       "text_coverage": 0.457,
+       "text_coverage": 0.385,
        "shared": false
       }
      ],
@@ -1464,20 +1464,7 @@
       }
      ],
      "source_page": 24,
-     "assets": [
-      {
-       "id": "asset_10_a_diagram",
-       "kind": "crop",
-       "mention": "diagram",
-       "source": "qp.pdf",
-       "page": 24,
-       "review": false,
-       "path": "assets/asset_10_a_diagram.png",
-       "render": "vector",
-       "text_coverage": 0.241,
-       "shared": false
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },
@@ -1504,11 +1491,11 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 24,
-       "review": false,
+       "review": true,
        "path": "assets/asset_10_b_i_table.png",
        "render": "vector",
-       "text_coverage": 0.241,
-       "shared": true
+       "text_coverage": 0.169,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -1607,11 +1594,16 @@
      "assets": [
       {
        "id": "asset_10_c_ii_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 27,
-       "review": true
+       "page": 26,
+       "review": false,
+       "path": "assets/asset_10_c_table_stem.png",
+       "render": "vector",
+       "text_coverage": 0.454,
+       "shared": true,
+       "ref_part": "asset_10_c_table_stem"
       }
      ],
      "spec_point_codes": [],

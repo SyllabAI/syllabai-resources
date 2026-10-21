@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:38:00Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2026-06",
+ "generated_utc": "2026-10-21T01:58:00Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2026-06",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2026-06:4CH1/1C",
  "source": {
   "qp_sha256": "231c05743b0853aa408ae22103faf2645baca81e44fbc839972adc493abbede3",
@@ -426,16 +426,7 @@
       }
      ],
      "source_page": 9,
-     "assets": [
-      {
-       "id": "asset_3_a_apparatus",
-       "kind": "crop-required",
-       "mention": "apparatus",
-       "source": "qp.pdf",
-       "page": 9,
-       "review": true
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },
@@ -526,12 +517,13 @@
        "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": 10,
-       "review": true,
-       "path": "assets/asset_3_e_i_grid.png",
+       "page": 11,
+       "review": false,
+       "path": "assets/asset_3_e_grid_stem.png",
        "render": "vector",
-       "text_coverage": 0.025,
-       "shared": false
+       "text_coverage": 0.079,
+       "shared": true,
+       "ref_part": "asset_3_e_grid_stem"
       }
      ],
      "spec_point_codes": [],
@@ -555,11 +547,16 @@
      "assets": [
       {
        "id": "asset_3_e_ii_grid",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": null,
-       "review": true
+       "page": 11,
+       "review": false,
+       "path": "assets/asset_3_e_grid_stem.png",
+       "render": "vector",
+       "text_coverage": 0.079,
+       "shared": true,
+       "ref_part": "asset_3_e_grid_stem"
       }
      ],
      "spec_point_codes": [],
@@ -589,10 +586,11 @@
        "source": "qp.pdf",
        "page": 11,
        "review": false,
-       "path": "assets/asset_3_f_i_grid.png",
+       "path": "assets/asset_3_f_grid_stem.png",
        "render": "vector",
-       "text_coverage": 0.094,
-       "shared": false
+       "text_coverage": 0.079,
+       "shared": true,
+       "ref_part": "asset_3_f_grid_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1514,7 +1512,7 @@
        "text_md": "fully correct balanced equation\nFeSO4 + Zn → ZnSO4 + Fe"
       }
      ],
-     "source_page": 21,
+     "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"

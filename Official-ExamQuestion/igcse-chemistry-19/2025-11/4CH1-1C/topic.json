@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:37:59Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2025-11",
+ "generated_utc": "2026-10-21T01:57:59Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2025-11",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-11:4CH1/1C",
  "source": {
   "qp_sha256": "7076dc7916f2515197f71d09d2e5685b305cc0a58ba1eed9166a2646b0969883",
@@ -505,12 +505,11 @@
        "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": 8,
-       "review": false,
+       "page": 9,
+       "review": true,
        "path": "assets/asset_3_c_i_grid.png",
        "render": "vector",
-       "text_coverage": 0.46,
-       "shared": false
+       "text_coverage": 0.036
       }
      ],
      "spec_point_codes": [],
@@ -538,12 +537,13 @@
        "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": 8,
+       "page": 9,
        "review": false,
-       "path": "assets/asset_3_c_ii_grid.png",
+       "path": "assets/asset_3_c_i_grid.png",
        "render": "vector",
-       "text_coverage": 0.46,
-       "shared": true
+       "text_coverage": 0.036,
+       "shared": true,
+       "ref_part": "asset_3_c_i_grid"
       }
      ],
      "spec_point_codes": [],
@@ -607,16 +607,7 @@
       }
      ],
      "source_page": 10,
-     "assets": [
-      {
-       "id": "asset_4_a_diagram",
-       "kind": "crop-required",
-       "mention": "diagram",
-       "source": "qp.pdf",
-       "page": 10,
-       "review": true
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },
@@ -698,11 +689,12 @@
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 11,
-       "review": true,
-       "path": "assets/asset_4_c_i_diagram.png",
+       "review": false,
+       "path": "assets/asset_4_c_diagram_stem.png",
        "render": "vector",
-       "text_coverage": 0.222,
-       "shared": false
+       "text_coverage": 0.216,
+       "shared": true,
+       "ref_part": "asset_4_c_diagram_stem"
       }
      ],
      "spec_point_codes": [],
@@ -957,16 +949,7 @@
       }
      ],
      "source_page": 16,
-     "assets": [
-      {
-       "id": "asset_6_a_ii_diagram",
-       "kind": "crop-required",
-       "mention": "diagram",
-       "source": "qp.pdf",
-       "page": 16,
-       "review": true
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },
@@ -1286,7 +1269,7 @@
        "review": false,
        "path": "assets/asset_8_a_table.png",
        "render": "vector",
-       "text_coverage": 0.322,
+       "text_coverage": 0.354,
        "shared": false
       }
      ],
@@ -1358,19 +1341,19 @@
        "text_md": "3\nDisplayed formula of propene Must show ALL the bonds\nor\nMolecular formula of propene C3H6\nEmpirical formula of propene CH2\nRelative formula mass of propene 42 IGNORE calculation"
       }
      ],
-     "source_page": 21,
+     "source_page": 22,
      "assets": [
       {
        "id": "asset_9_a_table",
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 21,
+       "page": 22,
        "review": false,
        "path": "assets/asset_9_a_table.png",
        "render": "vector",
-       "text_coverage": 0.322,
-       "shared": true
+       "text_coverage": 0.105,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -1397,20 +1380,7 @@
       }
      ],
      "source_page": 22,
-     "assets": [
-      {
-       "id": "asset_9_b_diagram",
-       "kind": "crop",
-       "mention": "diagram",
-       "source": "qp.pdf",
-       "page": 22,
-       "review": false,
-       "path": "assets/asset_9_b_diagram.png",
-       "render": "vector",
-       "text_coverage": 0.113,
-       "shared": false
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },

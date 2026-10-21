@@ -10,7 +10,7 @@ This question is about states of matter.
 
 Use the words solid, liquid or gas to give the initial and final state of matter for each of the changes listed in the table. The first one has been done for you. Change Initial state Final state melting solid liquid sublimation condensing evaporation
 
-![table — official paper figure (qp.pdf p.3)](assets/asset_1_a_table.png)
+![table — official paper figure (qp.pdf p.2)](assets/asset_1_a_table.png)
 
 
 **Mark scheme answer**
@@ -218,7 +218,7 @@ When iron rusts, it reacts with oxygen in the air. A student uses the rusting of
 
 ![apparatus — official paper figure (qp.pdf p.8)](assets/asset_4_a_apparatus.png)
 
-![diagram — official paper figure (qp.pdf p.8)](assets/asset_4_a_diagram.png)
+![diagram — official paper figure (qp.pdf p.8) — shared with ?](assets/asset_4_a_diagram.png)
 
 
 **Mark scheme answer**
@@ -296,7 +296,7 @@ This question is about the separation of mixtures.
 
 The box gives some methods used to separate mixtures. crystallisation filtration fractional distillation simple distillation Complete the table by giving the correct method from the box for each separation. Each method can be used once, more than once or not at all. Separation Method insoluble solid from a liquid pure water from a solution liquid from a mixture of liquids with different boiling points soluble solid from a solution
 
-![table — official paper figure (qp.pdf p.10)](assets/asset_5_a_table.png)
+![table — official paper figure (qp.pdf p.11)](assets/asset_5_a_table.png)
 
 
 **Mark scheme answer**
@@ -816,7 +816,7 @@ Draw a curve of best fit.
 
 Use the graph to find the boiling point of the alkane with 7 carbon atoms in its molecule. Show on the graph how you obtain your answer. boiling point = °C
 
-![graph — official paper figure (qp.pdf p.28)](assets/asset_10_a_ii_graph.png)
+![graph — official paper figure (qp.pdf p.28) — shared with asset_10_a_graph_stem](assets/asset_10_a_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -833,7 +833,7 @@ Use the graph to find the boiling point of the alkane with 7 carbon atoms in its
 
 Explain the trend shown by the graph.
 
-![graph — official paper figure (qp.pdf p.29)](assets/asset_10_a_iii_graph.png)
+![graph — official paper figure (qp.pdf p.28) — shared with asset_10_a_graph_stem](assets/asset_10_a_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -1001,7 +1001,7 @@ The equation for the reaction between zinc and hydrochloric acid is Zn(s) + 2HCl
 
 The student repeats the experiment at a higher temperature but keeps all other conditions the same. On the grid, draw the curve you would expect to see in this experiment. Question continues on next page
 
-> 🖼 crop required: grid (qp.pdf p.35)
+![grid — official paper figure (qp.pdf p.34) — shared with asset_11_b_grid_stem](assets/asset_11_b_grid_stem.png)
 
 
 **Mark scheme answer**

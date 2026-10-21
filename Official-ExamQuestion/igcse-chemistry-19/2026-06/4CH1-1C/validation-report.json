@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T22:38:00Z",
+ "generated_utc": "2026-10-21T01:57:59Z",
  "series": "2026-06",
  "gates": [
   {
@@ -46,13 +46,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "5 asset records cover every table/diagram/grid/apparatus mention: 2 cropped to assets/*.png (150 dpi), 3 remain crop-required; 1 parts without page anchor",
+   "summary": "4 asset records cover every table/diagram/grid/apparatus mention: 2 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
      "crops": 2,
-     "pending": 3
+     "pending": 1,
+     "shared": 3
     }
    }
   },
@@ -107,18 +108,6 @@
   }
  ],
  "review_queue": [
-  {
-   "part": "3(a)",
-   "reason": "figure crop required (apparatus, page 9)"
-  },
-  {
-   "part": "3(e)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_3_e_i_grid.png)"
-  },
-  {
-   "part": "3(e)(ii)",
-   "reason": "figure crop required (grid, page None)"
-  },
   {
    "part": "6(b)",
    "reason": "figure crop required (diagram, page 18)"

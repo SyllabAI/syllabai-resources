@@ -209,7 +209,7 @@ Suggest why the reaction between metal R and dilute hydrochloric acid was not do
 
 Use the information in the table to place the metals in order of reactivity from most reactive to least reactive. most reactive least reactive
 
-![table — official paper figure (qp.pdf p.8)](assets/asset_3_a_iii_table.png)
+![table — official paper figure (qp.pdf p.8) — shared with asset_3_a_table_stem](assets/asset_3_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -458,8 +458,6 @@ Calculate the mass, in grams, of nitrogen in 1.0 kg of ammonium sulfate. mass = 
 ### 5(a) [2]
 
 Chlorine, bromine and iodine are elements in the Periodic Table. Explain how the position of these elements in the Periodic Table depends on their electronic configurations.
-
-> 🖼 crop required: table (qp.pdf p.14)
 
 
 **Mark scheme answer**
@@ -731,7 +729,7 @@ The reaction is often used to investigate rates of reaction. The diagram shows t
 
 ![apparatus — official paper figure (qp.pdf p.20)](assets/asset_7_b_apparatus.png)
 
-![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_b_diagram.png)
+![diagram — official paper figure (qp.pdf p.20) — shared with ?](assets/asset_7_b_diagram.png)
 
 
 **Mark scheme answer**
@@ -797,7 +795,7 @@ The student wants to compare the rates of the reaction at the different temperat
 
 Use the graph to determine a value for the rate of the reaction at 45 °C. Show on the graph how you obtained your answer. rate of reaction = s−1
 
-> 🖼 crop required: graph (qp.pdf p.23)
+![graph — official paper figure (qp.pdf p.22) — shared with 7(d)](assets/asset_7_d_grid.png)
 
 
 **Mark scheme answer**
@@ -832,7 +830,7 @@ Calculate the time that it would take for the cross not to be seen at 45 °C. ti
 
 Describe the relationship between rate of reaction and temperature shown by the graph.
 
-> 🖼 crop required: graph (qp.pdf p.23)
+![graph — official paper figure (qp.pdf p.22) — shared with 7(d)](assets/asset_7_d_grid.png)
 
 
 **Mark scheme answer**
@@ -881,8 +879,6 @@ A student uses this apparatus to investigate the heat energy change when a salt 
 ### 8(a)(i) [1]
 
 Name the piece of apparatus the student should use to add the distilled water to the polystyrene cup.
-
-![apparatus — official paper figure (qp.pdf p.25)](assets/asset_8_a_i_apparatus.png)
 
 
 **Mark scheme answer**

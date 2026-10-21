@@ -287,7 +287,7 @@ State what type of particle is formed when an atom loses its outer shell electro
 
 On the grid, add an appropriate scale to the y-axis, starting at 6.0
 
-![grid — official paper figure (qp.pdf p.8)](assets/asset_3_c_i_grid.png)
+![grid — official paper figure (qp.pdf p.9)](assets/asset_3_c_i_grid.png)
 
 
 **Mark scheme answer**
@@ -301,7 +301,7 @@ On the grid, add an appropriate scale to the y-axis, starting at 6.0
 
 Plot the data on the grid. Do not join the points.  Relative atomic mass 6.0 3 4 5 6 7 8 9 10 Atomic number
 
-![grid — official paper figure (qp.pdf p.8)](assets/asset_3_c_ii_grid.png)
+![grid — official paper figure (qp.pdf p.9) — shared with asset_3_c_i_grid](assets/asset_3_c_i_grid.png)
 
 
 **Mark scheme answer**
@@ -339,8 +339,6 @@ This question is about ammonium chloride.
 ### 4(a) [2]
 
 Draw a diagram to show the arrangement of the electrons in a chloride ion.
-
-> 🖼 crop required: diagram (qp.pdf p.10)
 
 
 **Mark scheme answer**
@@ -391,7 +389,7 @@ Two beakers are unlabelled. One beaker contains a solution of ammonium chloride 
 
 Explain the mistake in the student’s diagram.
 
-![diagram — official paper figure (qp.pdf p.11)](assets/asset_4_c_i_diagram.png)
+![diagram — official paper figure (qp.pdf p.11) — shared with asset_4_c_diagram_stem](assets/asset_4_c_diagram_stem.png)
 
 
 **Mark scheme answer**
@@ -575,8 +573,6 @@ Give the name of process 1.
 ### 6(a)(ii) [5]
 
 Sketch a labelled diagram showing how the kerosene fraction is obtained from crude oil in process 1. 
-
-> 🖼 crop required: diagram (qp.pdf p.16)
 
 
 **Mark scheme answer**
@@ -858,7 +854,7 @@ This question is about propene and propane.
 
 Complete the table by giving the missing information about propene. Displayed formula of propene Molecular formula of propene C3H6 Empirical formula of propene Relative formula mass of propene
 
-![table — official paper figure (qp.pdf p.21)](assets/asset_9_a_table.png)
+![table — official paper figure (qp.pdf p.22)](assets/asset_9_a_table.png)
 
 
 **Mark scheme answer**
@@ -875,8 +871,6 @@ Complete the table by giving the missing information about propene. Displayed fo
 ### 9(b) [2]
 
 Draw a dot-and-cross diagram for propane. Include only outer shell electrons. 
-
-![diagram — official paper figure (qp.pdf p.22)](assets/asset_9_b_diagram.png)
 
 
 **Mark scheme answer**
