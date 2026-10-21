@@ -1,0 +1,45 @@
+{
+ "schema": "syllabai.mcq-keys/0.1",
+ "note": "Human-adjudicated MCQ answer keys where the printed mark scheme's own layout defeats positional linkage (answer rows printed in the wrong slots). Every entry carries the eyeballed key and the corrected verbatim MS rows; the converter applies both BEFORE solution emission, so solution_md / mark_points / choices[].is_correct all derive from the adjudicated block. Keys are decided from the printed MS page (rendered + viewed) and the question paper — never from model guessing.",
+ "adjudicated_utc": "2026-10-21",
+ "evidence_dir": "uploads staged at EXAMQ_UPLOAD_DIR (official-4CH1-1C-2020-01-ms.pdf page 12 render; QP page 16)",
+ "entries": [
+  {
+   "series": "2020-01",
+   "part": "7(a)(i)",
+   "key": "B",
+   "evidence": "printed MS p12: 'B bromine' with rebuttals 'A is incorrect as astatine is a solid' / 'C is incorrect as chlorine is a gas'; QP p16 asks 'Which element is a liquid at room temperature?' (bromine is the only liquid). Already keyed by linkage — this entry completes the block: the printed MS places the third rebuttal 'D is incorrect as iodine is a solid' under (ii), an obvious layout slip (it is (i)'s rebuttal, parallel to the other two state-based rebuttals); it is restored here.",
+   "ms_lines": [
+    "B bromine",
+    "A is incorrect as astatine is a solid",
+    "C is incorrect as chlorine is a gas",
+    "D is incorrect as iodine is a solid"
+   ]
+  },
+  {
+   "series": "2020-01",
+   "part": "7(a)(ii)",
+   "key": "C",
+   "evidence": "QP p16 asks 'Which element has the palest colour?'. Printed MS p12 puts (ii)'s answer block under (iii) (official layout defect): 'C chlorine (as it is pale green)' with rebuttals A black / B brown / D dark grey — all darker than pale green chlorine, so C is the only coherent key. Linkage therefore found no answer row under (ii) (honest refusal, F6).",
+   "ms_lines": [
+    "C chlorine (as it is pale green)",
+    "A is incorrect as astatine is black",
+    "B is incorrect as bromine is brown",
+    "D is incorrect as iodine is dark grey"
+   ],
+   "note": "printed rebuttal line 4 reads 'C is incorrect as iodine is dark grey' — a typo for D (iodine is option D; C is the keyed answer itself, a mark scheme cannot rebut its own key). Corrected here; the verbatim printed text is this note + evidence_dir."
+  },
+  {
+   "series": "2020-01",
+   "part": "7(a)(iii)",
+   "key": "A",
+   "evidence": "QP p16 asks 'Which element is the least reactive?'. Printed MS p12 answers 'A astatine' with rebuttals B/C/D 'is incorrect as ... is more reactive than astatine' — Group 7 reactivity decreases down the group, astatine (bottom of the four) is least reactive. Linkage smeared this block together with (ii)'s into one garbled entry (honest refusal, F6).",
+   "ms_lines": [
+    "A astatine",
+    "B is incorrect as bromine is more reactive than astatine",
+    "C is incorrect as chlorine is more reactive than astatine",
+    "D is incorrect as iodine is more reactive than astatine"
+   ]
+  }
+ ]
+}

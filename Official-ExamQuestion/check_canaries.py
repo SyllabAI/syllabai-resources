@@ -223,6 +223,101 @@ for c in cans:
                             ok = False
                             print(f"  ! {s}: stub asset {aid} must not carry accepted")
             print(f"  (ledger verdicts: {n_verdicts})")
+        elif chk == "mcq_keys_ledger":
+            # C31 (v0.8.1/F37): MCQ-KEYS.json and the corpus must agree in both
+            # directions — every adjudicated entry is applied to its part (key
+            # set on that choice, answer_key_source marker, validation report
+            # lists the application), and no part claims adjudication that the
+            # ledger does not carry. solution_md must also start from the
+            # adjudicated block's first line (the override replaces the
+            # mis-linked rows before build_solution runs).
+            ledger = json.loads((HERE / "MCQ-KEYS.json").read_text()).get("entries", [])
+            ok = True
+            n_applied = 0
+            corpus = {}
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    s = d.name if pd.name == "4CH1-1C" else f"{d.name}:{pd.name.split('-')[1]}"
+                    t = json.loads((pd / "topic.json").read_text())
+                    rep = json.loads((pd / "validation-report.json").read_text())
+                    applied = set(rep.get("mcq_keys_applied") or [])
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            if p.get("answer_key_source") == "mcq-keys-ledger":
+                                corpus[(s, p["part_number"])] = (p, f"{s}/{p['part_number']}" in applied)
+            for e in ledger:
+                s, part = e["series"], e["part"]
+                if (s, part) not in corpus:
+                    ok = False
+                    print(f"  ! ledger {s} {part}: no corpus part carries the adjudication")
+                    continue
+                p, in_report = corpus[(s, part)]
+                n_applied += 1
+                keyed = [ch["label"] for ch in (p.get("choices") or []) if ch.get("is_correct")]
+                if keyed != [e["key"]]:
+                    ok = False
+                    print(f"  ! ledger {s} {part}: key {e['key']} but corpus keyed {keyed}")
+                if not in_report:
+                    ok = False
+                    print(f"  ! ledger {s} {part}: applied but missing from validation report")
+                if not (p.get("solution_md") or "").startswith(e["ms_lines"][0].split()[0]):
+                    ok = False
+                    print(f"  ! ledger {s} {part}: solution_md not rebuilt from adjudicated block")
+            for (s, part) in corpus:
+                if not any(e["series"] == s and e["part"] == part for e in ledger):
+                    ok = False
+                    print(f"  ! {s} {part}: answer_key_source marker without a ledger entry")
+            print(f"  (ledger entries: {len(ledger)}, applied: {n_applied})")
+        elif chk == "spec_tag_terminal":
+            # C32 (v0.8.1/F38): spec tagging is terminal on the spec-labelled 1C
+            # tranche (2C awaits its first spec-label wave and may carry
+            # pending-llm). Zero pending-llm parts among 1C slices; the
+            # no-spec-point state must agree bidirectionally with the series
+            # spec-labels files, and every entry must resolve to a real part
+            # carrying no codes.
+            ok = True
+            n_pending = n_nospec = 0
+            nsp_by_series = {}
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                pd = d / "4CH1-1C"
+                if not (pd / "topic.json").exists():
+                    continue
+                s = d.name
+                lp = HERE / "spec-labels" / f"{s}.json"
+                lab = json.loads(lp.read_text()) if lp.exists() else {}
+                nsp_by_series[s] = set((lab.get("no_spec_point") or {}).keys())
+                t = json.loads((pd / "topic.json").read_text())
+                for q in t["questions"]:
+                    for p in q["parts"]:
+                        if p.get("tagging") == "pending-llm":
+                            ok = False
+                            n_pending += 1
+                            print(f"  ! 1C {s} {p['part_number']}: still pending-llm")
+                        if p.get("tagging") == "no-spec-point":
+                            n_nospec += 1
+                            if p["part_number"] not in nsp_by_series[s]:
+                                ok = False
+                                print(f"  ! 1C {s} {p['part_number']}: no-spec-point without a labels-file entry")
+            for s, parts in nsp_by_series.items():
+                if not parts:
+                    continue
+                t = json.loads((BASE / s / "4CH1-1C" / "topic.json").read_text())
+                pn = {p["part_number"] for q in t["questions"] for p in q["parts"]}
+                for part in parts:
+                    if part not in pn:
+                        ok = False
+                        print(f"  ! 1C {s}: no_spec_point entry {part} does not resolve to a part")
+                    else:
+                        got = [p for q in t["questions"] for p in q["parts"]
+                               if p["part_number"] == part][0]
+                        if got.get("spec_point_codes"):
+                            ok = False
+                            print(f"  ! 1C {s} {part}: labelled no-spec-point but carries codes")
+            print(f"  (1C pending-llm: {n_pending}, no-spec-point: {n_nospec})")
         else:
             ok = False
             print(f"  ! unknown check type {chk}")

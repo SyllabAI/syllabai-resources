@@ -4,21 +4,6 @@
  "converter_version_floor": "0.8",
  "canaries": [
   {
-   "id": "C1-honest-refusal",
-   "series": "2020-01",
-   "assertion": "part 7(a)(iii) has NO keyed correct choice (the pipeline must refuse the ambiguous interleaved MS; finding F6)",
-   "check": "part_unkeyed",
-   "part": "7(a)(iii)"
-  },
-  {
-   "id": "C2-refusal-state",
-   "series": "2020-01",
-   "assertion": "G3-mcq-integrity status == FAIL (the honest refusal must surface as a gate failure, not be papered over)",
-   "check": "gate_status",
-   "gate": "G3-mcq-integrity",
-   "expected": "FAIL"
-  },
-  {
    "id": "C3-baseline-unchanged",
    "series": "2020-11",
    "assertion": "all gates PASS and 6/6 MCQs keyed (baseline; regression sentinel for F12/F14 keying changes)",
@@ -219,6 +204,42 @@
    "check": "part_keyed_to",
    "part": "1(e)",
    "label": "D"
+  },
+  {
+   "id": "C28-adjudicated-key-ii",
+   "series": "2020-01",
+   "assertion": "part 7(a)(ii) keys to C chlorine (palest colour; MCQ-KEYS.json adjudication of the misprinted MS layout; finding F37)",
+   "check": "part_keyed_to",
+   "part": "7(a)(ii)",
+   "label": "C"
+  },
+  {
+   "id": "C29-adjudicated-gate",
+   "series": "2020-01",
+   "assertion": "G3-mcq-integrity status == PASS (with the adjudicated keys applied, the 2020-01 MCQ set is fully keyed — the F6 honest-refusal FAIL state is retired; F37)",
+   "check": "gate_status",
+   "gate": "G3-mcq-integrity",
+   "expected": "PASS"
+  },
+  {
+   "id": "C30-adjudicated-key-iii",
+   "series": "2020-01",
+   "assertion": "part 7(a)(iii) keys to A astatine (least reactive; MCQ-KEYS.json adjudication; finding F37) — replaces the C1-honest-refusal unkeyed pin",
+   "check": "part_keyed_to",
+   "part": "7(a)(iii)",
+   "label": "A"
+  },
+  {
+   "id": "C31-mcq-keys-ledger",
+   "series": "*",
+   "assertion": "MCQ-KEYS.json and the emitted corpus agree in both directions: every entry is applied (key set, answer_key_source marker, report lists it) and no corpus part claims adjudication without a ledger entry (finding F37)",
+   "check": "mcq_keys_ledger"
+  },
+  {
+   "id": "C32-spec-tag-terminal",
+   "series": "*",
+   "assertion": "spec tagging is terminal on the spec-labelled 1C tranche: zero pending-llm parts there; every no-spec-point part has a matching no_spec_point entry in its series spec-labels file, and every entry resolves to a real part carrying no codes (finding F38)",
+   "check": "spec_tag_terminal"
   }
  ]
 }

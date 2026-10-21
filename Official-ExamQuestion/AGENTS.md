@@ -19,6 +19,7 @@ Official-ExamQuestion/
   run_all.sh                one-command full-corpus run + canary verification
   CHANGELOG.md              converter version history
   CROP-REVIEW.json          durable human eyeball verdicts for figure crops (F29)
+  MCQ-KEYS.json             durable human-adjudicated MCQ keys + corrected MS rows (F37)
   spec-labels/<series>.json LLM spec-tagging wave labels (parts -> 4CH1 codes)
   MULTI-SERIES-REPORT.{md,json}   per-series gate matrix + findings + cross-diff summary
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
@@ -120,15 +121,37 @@ session and MUST be DETECTED 3/3 — otherwise the run is void.
 
 Parts carry `spec_point_codes` + a `tagging` state: `seed-demo` (v0.5 registry-
 validated demo seeds), `llm-spec-wave` (codes from `spec-labels/<series>.json`,
-LLM-authored as LABELS ONLY — AGENTS.md review taxonomy), `pending-llm` (no
-clean spec point found — honestly queued), `registry-gap-review` (a code not in
-the SME registry; G6 routes it to the review queue). G6 re-validates every code
-against `spec_point_resolution.json` on every run. Wave coverage: 927/930 parts
-tagged (1,180 codes, 0 invalid); the 3 pending parts have no clean spec point.
+LLM-authored as LABELS ONLY — AGENTS.md review taxonomy), `no-spec-point`
+(v0.8.1 terminal: the official 4CH1 specification gives NO numbered point for
+the part — decided against the published spec PDF, documented per part in the
+spec-labels file's `no_spec_point` map, verified bidirectionally by C32),
+`pending-llm` (no clean spec point found — honestly queued; on the spec-labelled
+1C tranche this state must NOT persist: decide or document), `registry-gap-review`
+(a code not in the SME registry; G6 routes it to the review queue). G6 re-validates
+every code against `spec_point_resolution.json` on every run. 1C coverage after
+v0.8.1: 927/930 parts tagged (1,180 codes, 0 invalid) + 3 terminal no-spec-point
+parts (2019-06 5(a), 2020-01 10(c)(ii), 2022-01 3(b)(iv)); 0 pending. 2C: no wave
+exists yet, all 607 parts honestly `pending-llm`.
 To extend tagging: append codes to the per-series spec-labels file (part_number
 → [codes]; 1C files are `spec-labels/<series>.json`, other papers use
 `spec-labels/<series>-<paper>.json` — no 2C wave exists yet, all 607 2C parts
 are honestly `pending-llm`), re-run, and let G6 judge.
+
+## MCQ-key adjudication ledger (v0.8.1)
+
+`MCQ-KEYS.json` is the durable record for MCQ keys the converter must NEVER
+auto-derive: the printed Jan 2020 MS itself misplaces the Q7(a) answer rows
+((ii)'s block prints under (iii), a stray (i) rebuttal prints under (ii)), so
+no positional linkage can key them (F6's honest refusal). Each entry carries
+the eyeballed key (from the rendered MS page + QP stem + chemistry) and the
+corrected verbatim MS rows. The converter applies the override BEFORE solution
+emission — so `solution_md`, `mark_points[]` and `choices[].is_correct` all
+derive from the adjudicated block — and C31 keeps ledger↔corpus consistent in
+both directions. Adjudications are HUMAN decisions (rendered-page evidence in
+each entry); agents must not append entries without rendering and viewing the
+MS page. Known printed typo: (ii)'s fourth rebuttal reads 'C is incorrect as
+iodine is dark grey' — corrected to D in the corpus (iodine is option D; C is
+the keyed answer), verbatim text preserved in the ledger entry.
 
 ## Crop-review verdict ledger (v0.7.1)
 
@@ -149,12 +172,12 @@ converter crops them (F32) and the fresh crop is eyeballed like any other.
 
 | reason prefix            | meaning                                    | agent may? |
 |--------------------------|--------------------------------------------|------------|
-| `MCQ key unresolved`     | MS layout ambiguous (e.g. 2020-01 Q7a)     | never auto-key |
+| `MCQ key unresolved`     | MS layout ambiguous and not ledger-adjudicated | never auto-key; adjudicate via MCQ-KEYS.json with rendered-page evidence |
 | `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | produce crop only if a region exists; keep stub |
 | `figure crop emitted — human verify` | crop rendered but low-confidence (no text anchor, text-heavy region) | re-render/adjust; never delete silently |
 | `spec code ... not in registry` | registry gap or invalid code        | propose, human accepts |
 | `Q<N> ... image-only`    | rasterized source pages, content lost      | re-ingest via OCR, re-run gates |
-| `pending-llm`            | spec tagging not yet seeded for this series| seed via LLM **only as labels**, re-validated by G6 |
+| (tagging states)         | `no-spec-point` = terminal decision; `pending-llm` = undecided, must not persist on the labelled tranche | decide with spec-PDF evidence, or tag |
 
 ## The self-improvement loop (MANDATORY protocol when a gate fails)
 
@@ -200,18 +223,27 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues (v0.7.1 state): MCQ keys for 2020-01 Q7(a) (2 keys, agents
-  must never auto-key). Crop review is EMPTY: the wave-10 sweep eyeballed every
-  flagged crop and stub against its source page — 19 accepted crops + 6
-  stub-accepted text-only dot-and-cross scaffolds (2020-11 5(b)(iv), 2021-06
-  8(b)(iii), 2023-11 6(b), 2024-06 7(b), 2025-06 9(a)(i), 2026-06 6(b)) live in
-  CROP-REVIEW.json (25 verdicts); NEW converter flags after any crop-pass change
-  still need eyeballs before a ledger verdict. Bookkeeping note: v0.7's AGENTS.md
-  said "17 review-flagged crops" — a mid-wave count; the shipped v0.7 queue was 7
-  stubs (the wave's ledger had already cleared the crop flags), now all 6
-  remaining stubs are stub-accepted and 2024-11 6(c)(i) became a real crop (F32).
-  3 parts pending spec tags (2019-06 5(a), 2020-01 10(c)(ii), 2022-01
-  3(b)(iv) — no clean spec point exists; decide or leave).
+- Human review queues (v0.8.1 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
+  the printed MS itself misplaces the answer rows (a source-document defect), so
+  the two refused keys were human-adjudicated against the rendered MS page into
+  MCQ-KEYS.json (7(a)(ii)=C chlorine, 7(a)(iii)=A astatine; the 7(a)(i) block
+  gained its misplaced third rebuttal) and canaries C28/C29/C30/C31 pin the new
+  state (F37). Spec tagging is TERMINAL on 1C: the 3 pending-llm parts are
+  decided as `no-spec-point` — the official 4CH1 spec gives no numbered point
+  for hydrogen density (airship), NO-recycling in the nitric acid process, or
+  safety precautions (verified against the published spec PDF); entries live in
+  the series spec-labels files and C32 pins them (F38; 2C's 607 parts still
+  await their first wave). Crop review is EMPTY (1C): the
+  wave-10 sweep eyeballed every flagged crop and stub against its source page —
+  19 accepted crops + 6 stub-accepted text-only dot-and-cross scaffolds
+  (2020-11 5(b)(iv), 2021-06 8(b)(iii), 2023-11 6(b), 2024-06 7(b), 2025-06
+  9(a)(i), 2026-06 6(b)) live in CROP-REVIEW.json (25 verdicts); NEW converter
+  flags after any crop-pass change still need eyeballs before a ledger verdict
+  (2C's 22 figure items included — see the F34 follow-ups below).
+  Bookkeeping note: v0.7's AGENTS.md said "17 review-flagged crops" — a mid-wave
+  count; the shipped v0.7 queue was 7 stubs (the wave's ledger had already
+  cleared the crop flags), now all 6 remaining stubs are stub-accepted and
+  2024-11 6(c)(i) became a real crop (F32).
 - PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
   added as a converter-level mapping table with its own parity run, not ad hoc.
 - 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5

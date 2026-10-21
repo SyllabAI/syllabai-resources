@@ -688,6 +688,7 @@ Which element is a liquid at room temperature?
 > B bromine
 > A is incorrect as astatine is a solid
 > C is incorrect as chlorine is a gas
+> D is incorrect as iodine is a solid
 
 - **(1)** Answer B: bromine
 
@@ -697,21 +698,24 @@ Which element has the palest colour?
 
 - **(A)** astatine
 - **(B)** bromine
-- **(C)** chlorine
+- **(C)** chlorine  ✔
 - **(D)** iodine
 
 
 **Mark scheme answer**
 
-> D is incorrect as iodine is a solid
+> C chlorine (as it is pale green)
+> A is incorrect as astatine is black
+> B is incorrect as bromine is brown
+> D is incorrect as iodine is dark grey
 
-- **(1)** D is incorrect as iodine is a solid
+- **(1)** Answer C: chlorine
 
 ### 7(a)(iii) [1]
 
 Which element is the least reactive?
 
-- **(A)** astatine
+- **(A)** astatine  ✔
 - **(B)** bromine
 - **(C)** chlorine
 - **(D)** iodine
@@ -719,17 +723,12 @@ Which element is the least reactive?
 
 **Mark scheme answer**
 
-> 1
-> C chlorine (as it is pale green)
-> A is incorrect as astatine is black
-> B is incorrect as bromine is brown
-> C is incorrect as iodine is dark grey
 > A astatine
 > B is incorrect as bromine is more reactive than astatine
 > C is incorrect as chlorine is more reactive than astatine
 > D is incorrect as iodine is more reactive than astatine
 
-- **(1)** 1
+- **(1)** Answer A: astatine
 
 ### 7(b)(i) [2]
 
