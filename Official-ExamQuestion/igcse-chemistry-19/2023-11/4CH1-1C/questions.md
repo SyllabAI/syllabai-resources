@@ -117,7 +117,7 @@ Describe the arrangement and movement of particles in a solid.
 
 Table 1 shows some relative masses and charges of subatomic particles. Complete table 1 by giving the missing information. Electron Proton Neutron Relative mass 0.0005 Relative charge 0 Table 1
 
-![table — official paper figure (qp.pdf p.6)](assets/asset_2_a_table.png)
+![table — official paper figure (qp.pdf p.6) — shared with asset_2_a_table_stem](assets/asset_2_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -140,7 +140,7 @@ What is the atomic number of P in table 2? 
 - **(C)** 4
 - **(D)** 7
 
-![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_i_table.png)
+![table — official paper figure (qp.pdf p.6) — shared with asset_2_b_table_stem](assets/asset_2_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -161,7 +161,7 @@ What is the mass number of U in table 2?
 - **(C)** 18
 - **(D)** 26
 
-> 🖼 crop required: table (qp.pdf p.7)
+![table — official paper figure (qp.pdf p.6) — shared with asset_2_b_table_stem](assets/asset_2_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -177,7 +177,7 @@ What is the mass number of U in table 2?
 
 Give the letter in table 2 that represents an element in Group 5 of the Periodic Table.
 
-> 🖼 crop required: table (qp.pdf p.7)
+![table — official paper figure (qp.pdf p.6) — shared with asset_2_b_table_stem](assets/asset_2_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -421,7 +421,7 @@ Calculate the Mr for carbon dioxide. Mr =
 
 Give a reason why it is not possible to give information for air in the table. 
 
-![table — official paper figure (qp.pdf p.10)](assets/asset_4_a_vii_table.png)
+![table — official paper figure (qp.pdf p.10) — shared with asset_4_a_table_stem](assets/asset_4_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -645,7 +645,7 @@ Give the test for oxygen.
 
 Complete the dot‑and‑cross diagram for a molecule of hydrogen peroxide. Show outer electrons only. H O O H 
 
-![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_b_diagram.png)
+> 🖼 crop required: diagram (qp.pdf p.15)
 
 
 **Mark scheme answer**
@@ -708,7 +708,7 @@ Explain in terms of particle collision theory how decreasing the concentration a
 
 The student repeats the experiment using the same volume of hydrogen peroxide solution but with half the original concentration. All other conditions are kept the same. On the grid, draw the curve you would expect the student to obtain.
 
-> 🖼 crop required: grid (qp.pdf p.17)
+![grid — official paper figure (qp.pdf p.16) — shared with asset_6_d_grid_stem](assets/asset_6_d_grid_stem.png)
 
 ### 6(e) [2]
 
@@ -1015,8 +1015,6 @@ Calculate the relative atomic mass of M. relative atomic mass of M =
 ### 9(b)(iv) [1]
 
 Use the Periodic Table to identify metal M.
-
-> 🖼 crop required: table (qp.pdf p.23)
 
 
 **Mark scheme answer**

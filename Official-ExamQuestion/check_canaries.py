@@ -133,6 +133,30 @@ for c in cans:
                 ok = False
                 print(f"  ! corpus-wide crops {n_crops} < floor {c.get('min_crops')}")
             print(f"  (crops: {n_crops}, files verified: {n_files})")
+        elif chk == "asset_state":
+            # C15–C21 (v0.6): figure-serving semantics pinned per part — the
+            # exact resolutions from the crop-review wave must hold forever.
+            t = json.loads((BASE / series / "4CH1-1C" / "topic.json").read_text())
+            assets = [a for q in t["questions"] for p in q["parts"]
+                      if p["part_number"] == c["part"] for a in (p.get("assets") or [])]
+            if c.get("empty"):
+                ok = not assets
+                if not ok:
+                    print(f"  ! {c['part']}: expected NO assets, got {assets[:1]}")
+            else:
+                matches = [a for a in assets if a.get("kind") == c.get("kind")]
+                if c.get("shared") is not None:
+                    matches = [a for a in matches if bool(a.get("shared")) == c["shared"]]
+                if c.get("ref_part") is not None:
+                    matches = [a for a in matches if a.get("ref_part") == c["ref_part"]]
+                if c.get("page") is not None:
+                    matches = [a for a in matches if a.get("page") == c["page"]]
+                if c.get("path_contains"):
+                    matches = [a for a in matches
+                               if c["path_contains"] in (a.get("path") or "")]
+                ok = bool(matches)
+                if not ok:
+                    print(f"  ! {c['part']}: no asset matches {c}")
         elif chk == "g0_summary_contains":
             rep, _ = load(series)
             g = next((g for g in rep["gates"] if g["gate"] == "G0-identity"), None)

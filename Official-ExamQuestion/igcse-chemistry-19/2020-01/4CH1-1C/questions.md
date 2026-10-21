@@ -1015,7 +1015,7 @@ Plot the data values from the table on the grid. Draw a straight line of best fi
 
 ![grid — official paper figure (qp.pdf p.25)](assets/asset_9_d_i_grid.png)
 
-![table — official paper figure (qp.pdf p.25)](assets/asset_9_d_i_table.png)
+![table — official paper figure (qp.pdf p.25) — shared with ?](assets/asset_9_d_i_table.png)
 
 
 **Mark scheme answer**
@@ -1031,7 +1031,7 @@ Plot the data values from the table on the grid. Draw a straight line of best fi
 
 Deduce the value of ΔH for an alcohol with six carbon atoms per molecule. Show on the graph how you obtained your answer. ΔH = kJ/mol
 
-![graph — official paper figure (qp.pdf p.25)](assets/asset_9_d_ii_graph.png)
+![graph — official paper figure (qp.pdf p.25) — shared with asset_9_d_graph_stem](assets/asset_9_d_graph_stem.png)
 
 
 **Mark scheme answer**

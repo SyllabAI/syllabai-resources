@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:37:55Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2023-11",
+ "generated_utc": "2026-10-21T01:57:54Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2023-11",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-11:4CH1/1C",
  "source": {
   "qp_sha256": "180909048496d940c72e0e669173a52d0a3fa2f6e69c43c453d1ddcc20e06048",
@@ -53,7 +53,7 @@
        "review": false,
        "path": "assets/asset_1_a_diagram.png",
        "render": "vector",
-       "text_coverage": 0.064,
+       "text_coverage": 0.0,
        "shared": false
       }
      ],
@@ -188,10 +188,11 @@
        "source": "qp.pdf",
        "page": 6,
        "review": false,
-       "path": "assets/asset_2_a_table.png",
+       "path": "assets/asset_2_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.198,
-       "shared": false
+       "text_coverage": 0.327,
+       "shared": true,
+       "ref_part": "asset_2_a_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -242,10 +243,11 @@
        "source": "qp.pdf",
        "page": 6,
        "review": false,
-       "path": "assets/asset_2_b_i_table.png",
+       "path": "assets/asset_2_b_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.272,
-       "shared": false
+       "text_coverage": 0.327,
+       "shared": true,
+       "ref_part": "asset_2_b_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -291,11 +293,16 @@
      "assets": [
       {
        "id": "asset_2_b_ii_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 7,
-       "review": true
+       "page": 6,
+       "review": false,
+       "path": "assets/asset_2_b_table_stem.png",
+       "render": "vector",
+       "text_coverage": 0.327,
+       "shared": true,
+       "ref_part": "asset_2_b_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -320,11 +327,16 @@
      "assets": [
       {
        "id": "asset_2_b_iii_table",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 7,
-       "review": true
+       "page": 6,
+       "review": false,
+       "path": "assets/asset_2_b_table_stem.png",
+       "render": "vector",
+       "text_coverage": 0.327,
+       "shared": true,
+       "ref_part": "asset_2_b_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -728,10 +740,11 @@
        "source": "qp.pdf",
        "page": 10,
        "review": false,
-       "path": "assets/asset_4_a_vii_table.png",
+       "path": "assets/asset_4_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.452,
-       "shared": false
+       "text_coverage": 0.462,
+       "shared": true,
+       "ref_part": "asset_4_a_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1085,15 +1098,11 @@
      "assets": [
       {
        "id": "asset_6_b_diagram",
-       "kind": "crop",
+       "kind": "crop-required",
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 15,
-       "review": false,
-       "path": "assets/asset_6_b_diagram.png",
-       "render": "vector",
-       "text_coverage": 0.167,
-       "shared": false
+       "review": true
       }
      ],
      "spec_point_codes": [],
@@ -1122,7 +1131,7 @@
        "mention": "grid",
        "source": "qp.pdf",
        "page": 16,
-       "review": true,
+       "review": false,
        "path": "assets/asset_6_c_i_grid.png",
        "render": "vector",
        "text_coverage": 0.093,
@@ -1174,11 +1183,16 @@
      "assets": [
       {
        "id": "asset_6_d_ii_grid",
-       "kind": "crop-required",
+       "kind": "crop",
        "mention": "grid",
        "source": "qp.pdf",
-       "page": 17,
-       "review": true
+       "page": 16,
+       "review": false,
+       "path": "assets/asset_6_d_grid_stem.png",
+       "render": "vector",
+       "text_coverage": 0.093,
+       "shared": true,
+       "ref_part": "asset_6_d_grid_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1448,7 +1462,7 @@
        "review": false,
        "path": "assets/asset_8_d_diagram.png",
        "render": "vector",
-       "text_coverage": 0.192,
+       "text_coverage": 0.0,
        "shared": false
       }
      ],
@@ -1636,16 +1650,7 @@
       }
      ],
      "source_page": 23,
-     "assets": [
-      {
-       "id": "asset_9_b_iv_table",
-       "kind": "crop-required",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 23,
-       "review": true
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     }

@@ -37,7 +37,7 @@ The diagram shows part of the Periodic Table, with elements represented by the l
 
 Give the letter from the diagram that represents a noble gas.
 
-![diagram — official paper figure (qp.pdf p.6)](assets/asset_2_a_diagram.png)
+![diagram — official paper figure (qp.pdf p.6) — shared with asset_2_a_diagram_stem](assets/asset_2_a_diagram_stem.png)
 
 
 **Mark scheme answer**
@@ -149,7 +149,7 @@ State why the wire should be clean when used in the flame test.
 
 The table lists properties of some metals. Add ticks () to the table to show the two properties needed in a metal wire used in a flame test. Property good conductor of electricity high density high melting point unreactive
 
-> 🖼 crop required: table (qp.pdf p.7)
+![table — official paper figure (qp.pdf p.7)](assets/asset_3_d_ii_table.png)
 
 
 ## Question 4 (8 marks)
@@ -454,7 +454,7 @@ Show, by calculation, that the empirical formula of this compound is CBrF3
 
 The diagram shows the displayed formula of a molecule of Halon 1301. F Br C F F Draw a dot-and-cross diagram to show all the outer electrons in this molecule.
 
-> 🖼 crop required: diagram (qp.pdf p.13)
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_9_b_diagram.png)
 
 ### 9(c) [2]
 
@@ -657,13 +657,13 @@ Draw a curve of best fit. 100 Volume of hydrogen in cm3 0 20 40 60 80 Time in s
 
 The student repeats the experiment using ● 0.043 g of magnesium ribbon ● 50 cm3 of 2.00 mol/dm3 hydrochloric acid Draw, on the grid in part (a), the curve you would expect in this experiment. Label this curve Y.
 
-![grid — official paper figure (qp.pdf p.21)](assets/asset_13_b_i_grid.png)
+![grid — official paper figure (qp.pdf p.21) — shared with 13(a)(i)](assets/asset_13_a_i_grid.png)
 
 ### 13(b)(ii) [2]
 
 The student repeats the experiment again, using ● 0.086 g of magnesium ribbon ● 50 cm3 of 2.00 mol/dm3 hydrochloric acid ● a slightly higher temperature than the first experiment Draw, on the grid in part (a), the curve you would expect in this experiment. Label this curve Z.
 
-![grid — official paper figure (qp.pdf p.21)](assets/asset_13_b_ii_grid.png)
+![grid — official paper figure (qp.pdf p.21) — shared with 13(a)(i)](assets/asset_13_a_i_grid.png)
 
 ### 13(c) [1]
 

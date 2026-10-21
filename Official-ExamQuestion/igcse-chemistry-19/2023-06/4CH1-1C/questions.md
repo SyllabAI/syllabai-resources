@@ -285,8 +285,6 @@ Give two characteristics of a homologous series. 1 2
 
 Draw a dot-and-cross diagram to show the bonding in a molecule of ethene. Show outer electrons only. 
 
-> 🖼 crop required: diagram (qp.pdf p.9)
-
 
 **Mark scheme answer**
 
@@ -614,7 +612,7 @@ State why the first line of best fit should pass through the origin.
 
 Use your graph to determine the volume of lead(II) nitrate solution needed to react completely with 15.0 cm3 of potassium chloride solution. volume = cm3
 
-> 🖼 crop required: graph (qp.pdf p.17)
+![graph — official paper figure (qp.pdf p.16) — shared with asset_6_b_graph_stem](assets/asset_6_b_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -1030,7 +1028,7 @@ Show by calculation that the zinc is in excess.
 
 The volume of hydrogen collected is measured at regular time intervals. Curve A shows the results of this experiment. A Volume of 30 hydrogen in cm3 20 Time The experiment is repeated using 1.3 g of zinc powder instead of zinc granules. All other conditions are kept the same. On the grid, draw the curve you would expect to obtain. 
 
-![grid — official paper figure (qp.pdf p.27)](assets/asset_10_a_ii_grid.png)
+![grid — official paper figure (qp.pdf p.28)](assets/asset_10_a_ii_grid.png)
 
 
 **Mark scheme answer**

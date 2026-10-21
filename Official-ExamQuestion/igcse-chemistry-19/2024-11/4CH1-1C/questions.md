@@ -27,7 +27,7 @@ Substances can change from one state to another. The box gives some words about 
 
 Complete the diagram by drawing six circles to represent atoms in the gas state.
 
-![diagram — official paper figure (qp.pdf p.5)](assets/asset_1_b_i_diagram.png)
+![diagram — official paper figure (qp.pdf p.4)](assets/asset_1_b_i_diagram.png)
 
 
 **Mark scheme answer**
@@ -139,7 +139,7 @@ Why does chlorine have the highest boiling point of the gases in the table?
 - **(C)** chlorine has the strongest ionic bonds between its atoms
 - **(D)** chlorine has the strongest forces of attraction between its molecules  ✔
 
-> 🖼 crop required: table (qp.pdf p.7)
+![table — official paper figure (qp.pdf p.6) — shared with asset_2_c_table_stem](assets/asset_2_c_table_stem.png)
 
 
 **Mark scheme answer**
@@ -254,10 +254,6 @@ A student does an experiment to identify the dyes in inks A, B, C, D and E. The 
 
 Describe how the student should set up the apparatus and do the experiment. You may use a diagram to help your answer. 
 
-> 🖼 crop required: apparatus (qp.pdf p.11)
-
-> 🖼 crop required: diagram (qp.pdf p.11)
-
 
 **Mark scheme answer**
 
@@ -370,7 +366,7 @@ The rate of reaction is increased by adding a suitable catalyst. Describe how a 
 
 Name the pieces of apparatus labelled A and B. A B
 
-![apparatus — official paper figure (qp.pdf p.16)](assets/asset_5_c_i_apparatus.png)
+![apparatus — official paper figure (qp.pdf p.15) — shared with asset_5_c_apparatus_stem](assets/asset_5_c_apparatus_stem.png)
 
 
 **Mark scheme answer**
@@ -384,7 +380,7 @@ Name the pieces of apparatus labelled A and B. A B
 
 Determine the volume of oxygen gas produced in the first 4 minutes. Show on the graph how you obtain your answer. volume of oxygen = cm3 
 
-![graph — official paper figure (qp.pdf p.16)](assets/asset_5_c_ii_graph.png)
+![graph — official paper figure (qp.pdf p.16) — shared with asset_5_c_graph_stem](assets/asset_5_c_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -473,7 +469,7 @@ Give the name of the compound with the formula Al2(SO4)3
 
 The diagram shows the arrangement of electrons in an atom of magnesium and an atom of chlorine. Magnesium Chlorine  Describe, in terms of electrons, what happens when magnesium atoms and chlorine atoms form magnesium chloride.
 
-![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_b_diagram.png)
+![diagram — official paper figure (qp.pdf p.18) — shared with ?](assets/asset_6_b_diagram.png)
 
 
 **Mark scheme answer**
@@ -496,7 +492,7 @@ The diagram shows the arrangement of electrons in an atom of magnesium and an at
 
 Complete the dot-and-cross diagram to show the outer shell electrons in a molecule of ammonia. N H H H
 
-![diagram — official paper figure (qp.pdf p.19)](assets/asset_6_c_i_diagram.png)
+> 🖼 crop required: diagram (qp.pdf p.19)
 
 
 **Mark scheme answer**
@@ -588,7 +584,7 @@ Describe a chemical test the student can use to show that the liquid in tube B c
 
 The decomposition of hydrated magnesium sulfate is shown in the equation. MgSO4.xH2O → MgSO4 + xH2O At the end of the reaction, the mass of MgSO4 remaining in the tube is 6.0 g. Use this mass and the results in the table to calculate x in MgSO4.xH2O [for MgSO4 , Mr = 120 for H2O, Mr = 18] x =
 
-> 🖼 crop required: table (qp.pdf p.21)
+![table — official paper figure (qp.pdf p.20) — shared with asset_7_c_table_stem](assets/asset_7_c_table_stem.png)
 
 
 **Mark scheme answer**
@@ -895,7 +891,7 @@ Compounds in the same homologous series have the same general formula. Give two 
 
 Explain why the alkenes in the diagram are isomers.
 
-![diagram — official paper figure (qp.pdf p.28)](assets/asset_10_b_ii_diagram.png)
+![diagram — official paper figure (qp.pdf p.28) — shared with asset_10_b_diagram_stem](assets/asset_10_b_diagram_stem.png)
 
 
 **Mark scheme answer**

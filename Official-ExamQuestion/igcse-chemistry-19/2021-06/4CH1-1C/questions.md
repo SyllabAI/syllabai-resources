@@ -63,7 +63,7 @@ Describe a test for carbon dioxide.
 
 Complete Table 1 by giving the missing information. Subatomic particle Relative mass Relative charge electron 0.0005 proton +1 neutron 1 Table 1
 
-![table — official paper figure (qp.pdf p.4)](assets/asset_2_a_i_table.png)
+![table — official paper figure (qp.pdf p.4) — shared with asset_2_a_table_stem](assets/asset_2_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -221,8 +221,6 @@ Name the process used to obtain pure water from the sugar solution.
 ### 3(b)(ii) [2]
 
 Explain the purpose of the piece of apparatus labelled X.
-
-![apparatus — official paper figure (qp.pdf p.6)](assets/asset_3_b_ii_apparatus.png)
 
 
 **Mark scheme answer**
@@ -847,7 +845,7 @@ Explain why sulfuric acid is not a suitable acid to use in this investigation.
 
 In the investigation the marble chips are in excess. Explain the shape of the graph.
 
-![graph — official paper figure (qp.pdf p.22)](assets/asset_9_b_i_graph.png)
+![graph — official paper figure (qp.pdf p.22) — shared with asset_9_b_graph_stem](assets/asset_9_b_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -883,7 +881,7 @@ In the investigation the marble chips are in excess. Explain the shape of the gr
 
 The student repeats the experiment using the same volume of hydrochloric acid but of half the concentration of the original acid. All other conditions are kept the same. On the grid, draw the curve the student would obtain.
 
-> 🖼 crop required: grid (qp.pdf p.23)
+![grid — official paper figure (qp.pdf p.22) — shared with asset_9_b_grid_stem](assets/asset_9_b_grid_stem.png)
 
 
 **Mark scheme answer**

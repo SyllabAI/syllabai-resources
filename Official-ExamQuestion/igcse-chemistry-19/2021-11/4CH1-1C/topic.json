@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:37:49Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2021-11",
+ "generated_utc": "2026-10-21T01:57:48Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2021-11",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C",
  "source": {
   "qp_sha256": "fa4c64a38fa6438c6490d54baea4760e193963a3e33b5aeebca8726e0776b9d9",
@@ -117,7 +117,7 @@
        "review": false,
        "path": "assets/asset_1_b_diagram.png",
        "render": "vector",
-       "text_coverage": 0.073,
+       "text_coverage": 0.005,
        "shared": false
       }
      ],
@@ -195,20 +195,7 @@
       }
      ],
      "source_page": 6,
-     "assets": [
-      {
-       "id": "asset_2_a_ii_table",
-       "kind": "crop",
-       "mention": "table",
-       "source": "qp.pdf",
-       "page": 6,
-       "review": false,
-       "path": "assets/asset_2_a_ii_table.png",
-       "render": "vector",
-       "text_coverage": 0.35,
-       "shared": false
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },
@@ -230,7 +217,7 @@
        "review": false,
        "path": "assets/asset_2_b_i_table.png",
        "render": "vector",
-       "text_coverage": 0.317,
+       "text_coverage": 0.293,
        "shared": false
       }
      ],
@@ -511,7 +498,7 @@
        "review": false,
        "path": "assets/asset_4_b_table.png",
        "render": "vector",
-       "text_coverage": 0.304,
+       "text_coverage": 0.259,
        "shared": false
       }
      ],
@@ -558,7 +545,7 @@
        "review": false,
        "path": "assets/asset_5_a_apparatus.png",
        "render": "vector",
-       "text_coverage": 0.147,
+       "text_coverage": 0.146,
        "shared": false
       },
       {
@@ -567,10 +554,10 @@
        "mention": "diagram",
        "source": "qp.pdf",
        "page": 12,
-       "review": false,
+       "review": true,
        "path": "assets/asset_5_a_diagram.png",
        "render": "vector",
-       "text_coverage": 0.147,
+       "text_coverage": 0.146,
        "shared": true
       }
      ],
@@ -1179,10 +1166,10 @@
        "mention": "grid",
        "source": "qp.pdf",
        "page": 27,
-       "review": true,
+       "review": false,
        "path": "assets/asset_9_a_i_grid.png",
        "render": "vector",
-       "text_coverage": 0.04,
+       "text_coverage": 0.039,
        "shared": false
       }
      ],
@@ -1645,10 +1632,11 @@
        "source": "qp.pdf",
        "page": 34,
        "review": false,
-       "path": "assets/asset_11_a_ii_table.png",
+       "path": "assets/asset_11_a_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.334,
-       "shared": false
+       "text_coverage": 0.287,
+       "shared": true,
+       "ref_part": "asset_11_a_table_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1696,12 +1684,13 @@
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 35,
+       "page": 34,
        "review": false,
-       "path": "assets/asset_11_b_table.png",
+       "path": "assets/asset_11_b_table_stem.png",
        "render": "vector",
-       "text_coverage": 0.277,
-       "shared": false
+       "text_coverage": 0.287,
+       "shared": true,
+       "ref_part": "asset_11_b_table_stem"
       }
      ],
      "spec_point_codes": [],

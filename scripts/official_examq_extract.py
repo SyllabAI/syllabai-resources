@@ -42,7 +42,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.5"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.6"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 PAPER_TOTAL = 110          # registry expectation for 4CH1/1C — constant across series
 # printed question counts verified per series (footers vary 9..15 across the 4CH1 era);
 # counts cross-checked against per-question footer marks summing to 110
@@ -402,26 +402,34 @@ def build_solution(p, ms_lines, series):
 # the QP PDF. Detection is deterministic (vector-drawing + raster-image clusters);
 # anything not provably a figure stays a stub and keeps its review-queue entry.
 CROP_MIN_W, CROP_MIN_H = 40, 25          # figure-sized regions (pt)
-CROP_PAD, CROP_DPI = 8.0, 150
+CROP_PAD, CROP_DPI = 9.0, 150
 FULL_PAGE_FRAC = 0.80                    # page-border frames cover ~100% -> rejected
 ANSWER_STRIP_W, ANSWER_STRIP_H = 320, 55  # full-width ruled answer boxes are furniture
+FOOTER_BAND = 80                         # pt: page-bottom band (barcode / Turn over) F18
 
 
 def detect_figure_clusters(page):
     """Figure-sized regions on a QP page: vector-drawing rects (lines, curves,
     fills — apparatus diagrams, graphs, tables) plus embedded raster bboxes,
     union-merged with padding to fixpoint. Page furniture is removed BEFORE
-    merging (printed page-border frames, margin decoration strips, full-page
-    scans) because a frame at 79% page area survives any post-hoc area filter
-    and margin stripe images sit close enough to merge with it. Horizontal
+    merging (printed page-border frames, margin decoration strips, full-height
+    stripe images, full-page scans) because a frame at 79% page area survives
+    any post-hoc area filter, margin stripe images sit close enough to merge
+    with it, and a full-height 'DO NOT WRITE' stripe image bridges the border
+    rules + answer rules + tables into one page-sized mega-cluster (F18: the
+    2019-06 defect that left table pages with zero clusters). Horizontal
     ruling lines are zero-height rects — they ARE table strokes, so only
-    truly zero-size artifacts are dropped here. Post-merge filters: figure
-    minimum size, full-width ruled answer strips. Deterministic order."""
+    truly zero-size artifacts are dropped here; answer-rule stacks that do
+    merge are removed by the answer-strip filter. Post-merge filters: footer
+    band (F18), figure minimum size, full-width ruled answer strips.
+    Deterministic order."""
     pw, ph = page.rect.width, page.rect.height
 
     def furniture(r):
         if r.width >= 0.45 * pw and r.height >= 0.45 * ph:
             return True                      # page-border frame / full-page scan
+        if r.height >= 0.5 * ph and r.width <= 60:
+            return True                      # full-height margin stripe image (F18)
         if r.x1 <= 45 or r.x0 >= pw - 45 or r.y1 <= 30 or r.y0 >= ph - 30:
             return True                      # margin decorations / edge stripes
         return False
@@ -462,10 +470,38 @@ def detect_figure_clusters(page):
         merged = out
         if not changed:
             break
+    # labelled fragments of one figure sit in a vertical stack (an 'eye' label
+    # above the apparatus drawing) — merge pairs with strong x-overlap, a small
+    # y-gap and real figure heights; answer-rule stacks (h <= 20) never qualify
+    for _ in range(6):
+        pairs = []
+        for i in range(len(merged)):
+            for j in range(i + 1, len(merged)):
+                a_, b_ = merged[i], merged[j]
+                if a_.height < 40 or b_.height < 40:
+                    continue
+                xov = min(a_.x1, b_.x1) - max(a_.x0, b_.x0)
+                if xov < 0.4 * min(a_.width, b_.width):
+                    continue
+                gap = max(a_.y0, b_.y0) - min(a_.y1, b_.y1)
+                if 0 <= gap <= 24:
+                    pairs.append((i, j))
+        if not pairs:
+            break
+        killed = set()
+        for i, j in pairs:
+            if i in killed or j in killed:
+                continue
+            merged[i] = merged[i] | merged[j]
+            killed.add(j)
+        merged = [m for k, m in enumerate(merged) if k not in killed]
+
     figs = []
     for m in merged:
         if abs(m) > FULL_PAGE_FRAC * page_area:
             continue
+        if m.y0 >= ph - FOOTER_BAND:
+            continue                         # footer band: barcode / Turn over / page number (F18)
         if m.width >= ANSWER_STRIP_W and m.height <= ANSWER_STRIP_H:
             continue
         if m.width < CROP_MIN_W or m.height < CROP_MIN_H:
@@ -479,26 +515,90 @@ def figure_anchor_y(page, problem_md):
     Tries progressively shorter word prefixes because pdftotext and PyMuPDF
     disagree about spacing/punctuation. None = unanchorable -> review flag."""
     frag = re.sub(r"\s+", " ", problem_md).strip()
-    for n in (8, 6, 4, 3):
-        ws = frag.split()[:n]
-        if len(ws) < n:
+    words = frag.split()
+    for n in (8, 6, 4, 3, 2):
+        k = min(n, len(words))
+        if k < 2:
             break
-        hits = page.search_for(" ".join(ws))
+        hits = page.search_for(" ".join(words[:k]))
         if hits:
             return hits[0].y0
     return None
 
 
-def expand_with_labels(page, rect):
+REF_PREPS = {"on", "from", "in", "of", "at", "than", "against"}
+
+
+def noun_anchor_y(page, problem_md, noun):
+    """F20/F22/F24: anchor candidates at EVERY figure-noun phrase of the part
+    text, each with a direction. 'Complete the table' / 'The diagram shows'
+    instruct -> the figure sits BELOW; 'on the diagram' / 'in apparatus X'
+    refer -> the figure sits ABOVE. Returns [(y, below?), ...] in document
+    order of the phrases. None when the noun is absent from the page text."""
+    frag = re.sub(r"\s+", " ", problem_md).strip()
+    occ = list(re.finditer(rf"\b{noun}s?\b", frag, re.I))
+    if not occ:
+        return None
+    out = []
+    for m in occ:
+        ws = frag[:m.end()].split()[-6:]
+        # direction: a sentence that OPENS with a prepositional phrase
+        # ('On the grid, add ...') refers to a figure printed ABOVE; an
+        # instruction sentence ('Plot the results on the grid.', 'Complete
+        # the table ...') points at a figure printed BELOW (F24)
+        sentence_start = max(frag.rfind(".", 0, m.start()), frag.rfind("!", 0, m.start())) + 1
+        head = frag[sentence_start:m.start()].strip()
+        below = True
+        if head:
+            hw = head.split()
+            if len(hw) <= 2 and hw[0].lower() in REF_PREPS:
+                below = False
+        for n in (len(ws), 4, 3):
+            if n < 2:
+                break
+            hits = page.search_for(" ".join(ws[-n:]))
+            if hits:
+                out.append((hits[-1].y1 if below else hits[-1].y0, below))
+                break
+    return out or None
+
+
+PART_MARKER_RE = re.compile(r"^\(?[a-z]+\)?\s+\([ivx]+\)|^\([ivx]+\)|^\([a-z]+\)\s", re.I)
+MARK_TAG_RE = re.compile(r"^\(\d+\)$")
+
+
+def expand_with_labels(page, rect, exclude_frags=()):
     """Union the cluster with nearby text blocks that overlap a fixed +16pt
     ring around it — graph axis labels and chart annotations are TEXT sitting
     just outside the vector strokes, and belong to the figure. Only blocks
-    overlapping the ring are absorbed (distant paragraph text is not)."""
+    overlapping the ring are absorbed (distant paragraph text is not).
+    F22: blocks that sit ENTIRELY outside the pre-expansion rect and carry
+    foreign text — the part's own question line, a neighbouring part's marker
+    line, a bare mark tag — must never be absorbed: they are layout, not
+    labels (the 2025-11 4(c)(i) defect where the crop swallowed '(i) Explain
+    the mistake in the student's diagram.'). Axis labels under a graph don't
+    match any exclusion and stay inside the crop."""
     ring = fitz.Rect(rect.x0 - 16, rect.y0 - 16, rect.x1 + 16, rect.y1 + 16) & page.rect
+    inner = fitz.Rect(rect.x0 + 2, rect.y0 + 2, rect.x1 - 2, rect.y1 - 2)
+    contain = fitz.Rect(rect.x0 - 66, rect.y0 - 66, rect.x1 + 66, rect.y1 + 66) & page.rect
     out = fitz.Rect(rect)
+    frags = [norm(f)[:40] for f in exclude_frags if f]
     for b in page.get_text("blocks"):
         tb = fitz.Rect(b[:4])
-        if not tb.is_empty and ring.intersects(tb):
+        if tb.is_empty or not ring.intersects(tb):
+            continue
+        if not contain.contains(tb):
+            continue             # a block reaching far beyond the figure is page
+                                 # text, not a label (F22: whole-page text blocks)
+        if inner.intersects(tb):
+            out |= tb
+            continue
+        txt = norm(b[4] if len(b) > 4 else "")[:80]
+        foreign = (MARK_TAG_RE.match(txt) or PART_MARKER_RE.match(txt)
+                   or re.search(r"total for (question|paper)", txt)
+                   or DOTRUN_RE.search(txt)          # printed answer-line dots
+                   or any(f and f in txt for f in frags))
+        if not foreign:
             out |= tb
     return out
 
@@ -512,6 +612,80 @@ def text_coverage(page, rect):
         if not inter.is_empty:
             tot += abs(inter)
     return round(min(1.0, tot / max(abs(rect), 1.0)), 3)
+
+
+# ---------------------------------------------------- v0.6: mention semantics (F19)
+# A figure noun in the part text is only a figure REFERENCE when at least one
+# occurrence is not itself part of a non-figural phrase. "Periodic Table",
+# "Draw a dot-and-cross diagram", "Sketch a labelled diagram", "use a diagram",
+# "a piece of apparatus" and "set up the apparatus" describe tasks or common
+# nouns, never a printed figure. Verbatim problem_md is untouched — this only
+# gates asset creation, so spurious crop-required stubs never enter the queue.
+MENTION_SUPPRESS_RE = {
+    "table": [re.compile(r"periodic\s+table$", re.I)],
+    "diagram": [re.compile(r"(?:use|draw|sketch)\s+(?:a\s+)?(?:labelled\s+)?(?:dot(?:-| )and( |-)cross\s+)?diagram$", re.I)],
+    "apparatus": [re.compile(r"(?:piece\s+of|set\s+up\s+the)\s+apparatus$", re.I)],
+}
+MENTION_NOUNS = ("table", "diagram", "grid", "graph", "apparatus", "boxes")
+
+
+def figure_mentions(problem_md):
+    """Nouns of problem_md that refer to a printed figure (F19). A noun is
+    suppressed only when EVERY occurrence sits inside a non-figural phrase.
+    Scaffold exception: 'Draw a dot-and-cross diagram' with printed element
+    tokens after it ('H C Cl H H', 'N N') refers to a real printed scaffold —
+    the mention (and its stub) stays."""
+    scaffold_re = re.compile(r"(?:\b(?:[HCNOF]|Cl|Br)\b[\s,]*){2,}")
+    out = []
+    for noun in MENTION_NOUNS:
+        occ = list(re.finditer(rf"\b{noun}\b", problem_md, re.I))
+        if not occ:
+            continue
+        ok = False
+        for m in occ:
+            head = problem_md[:m.end()]
+            if any(p.search(head) for p in MENTION_SUPPRESS_RE.get(norm(noun), [])):
+                continue
+            ok = True
+            break
+        if not ok and noun == "diagram" and any(scaffold_re.search(problem_md[m.end():]) for m in occ):
+            ok = True
+        if ok:
+            out.append(noun)
+    return sorted(set(out))
+
+
+# ---------------------------------------------------- v0.6: figure anaphora (F20)
+# Backward references must RESOLVE to an already-rendered figure, never
+# re-anchor to whatever drawing happens to sit below the sentence.
+BACKREF_RE = re.compile(r"in part \(([a-z])\)", re.I)
+NUMBERED_NOUN_RE = re.compile(r"\b(?:grid|table)\s+\d+", re.I)
+# forward-introducing verbs: the figure the noun refers to is printed BELOW
+# this sentence (the part's own page region) — own-page anchoring is correct.
+FORWARD_RE = re.compile(r"^\s*(?:\(?[a-z]+\))?\s*(?:plot|draw|complete|add|label|sketch)\b", re.I)
+# an in-text introduction ('The diagram shows ...', 'uses this apparatus')
+# means the part itself introduces the figure — own-page anchoring, even
+# though the sentence opens with a noun, not a verb (F20: 2019-06 9(b)).
+INTRO_RE = re.compile(
+    r"\b(?:the\s+|this\s+)?(?:table|diagram|grid|graph|apparatus|boxes)s?\s*\d?\s*"
+    r"(?:shows?|gives?|represents?|lists?|displays?|is)\b"
+    r"|\buses?\s+this\s+(?:table|diagram|grid|graph|apparatus|boxes)\b", re.I)
+
+
+def resolve_first(problem_md, noun=None):
+    """True when the part must RESOLVE an existing figure before any own-page
+    anchoring: an explicit 'in part (x)' back-ref, a numbered figure
+    ('grid 1', 'table 2'), or a backward reference ('Use the graph to...')
+    with no introduction phrase. Forward-introducing verbs AND in-text
+    introductions ('The diagram shows ...') keep the own-page-below anchor."""
+    md = problem_md or ""
+    if BACKREF_RE.search(md) or NUMBERED_NOUN_RE.search(md):
+        return True
+    if FORWARD_RE.match(md):
+        return False
+    if noun and INTRO_RE.search(md):
+        return False
+    return True
 
 
 # ---------------------------------------------------------------- main
@@ -701,75 +875,371 @@ def main():
     MENTION_RE = re.compile(r"\b(table|diagram|grid|graph|apparatus|boxes)\b", re.I)
     for q in doc_questions:
         for p in q["parts"]:
-            anchor = norm(re.sub(r"^[()a-ziv ]+", "", p["problem_md"]))[:38]
-            p["source_page"] = next((i + 1 for i, t in enumerate(page_norm) if anchor in t), None)
-            mentions = sorted(set(m.group(1).lower() for m in MENTION_RE.finditer(p["problem_md"])))
+            # progressive-length anchoring: a 38-char fragment can collide with
+            # an identical sibling wording (2019-06 Q9(b) 'The diagram shows the
+            # displayed formula ...' also opens Q8(c) — the collision anchored
+            # Q9(b) to page 13 and its figure on page 14 was never found). The
+            # shortest fragment that matches EXACTLY ONE page wins (F18b).
+            frag = norm(re.sub(r"^[()a-ziv ]+", "", p["problem_md"]))[:110]
+            src_page = None
+            for n in (38, 60, 90, 110):
+                probe = frag[:n]
+                if not probe:
+                    break
+                pages = [i + 1 for i, t in enumerate(page_norm) if probe in t]
+                if len(pages) == 1:
+                    src_page = pages[0]
+                    break
+                if pages and src_page is None:
+                    src_page = pages[0]
+                if len(probe) < n:        # fragment exhausted (short problem_md)
+                    break
+            p["source_page"] = src_page
+            mentions = figure_mentions(p["problem_md"])       # F19-suppressed
             p["assets"] = [{"id": f"asset_{p['part_number'].replace('(', '_').replace(')', '')}_{k}",
                             "kind": "crop-required", "mention": k,
                             "source": "qp.pdf", "page": p["source_page"], "review": True}
                            for k in mentions]
 
-    # ---- v0.5 figure crop pass ----------------------------------------------
-    # For every asset stub with a page anchor, detect figure clusters on that
-    # page and render the nearest cluster below the part's own text to PNG.
-    # Deterministic assignment: clusters are claimed per page in document order;
-    # parts keep their crop-required stub (review queue) when no cluster fits.
+    # ---- v0.6 figure crop pass ----------------------------------------------
+    # Resolution order per mention (fail-closed; anything unresolved stays a
+    # crop-required stub in the review queue):
+    #   1. explicit back-ref 'on the grid in part (a)'  -> shared ref (F20)
+    #   2. backward reference ('Use the graph to...', no intro phrase) resolves
+    #      a figure introduced earlier BEFORE any own-page anchoring — the
+    #      2021-01 10(a)(iii) defect class (a wrong nearest-below crop):
+    #      2a. stem / group-stem figure intro 'The graph shows ...' -> one lazy
+    #          stem crop shared by every referencing part (F21)
+    #      2b. sibling part crop for the same figure class -> shared ref (F20)
+    #      2c. adjacent page anchored on the group stem -> crop, review (F23)
+    #   3. forward introduction ('Plot ... on the grid', 'The diagram shows ...')
+    #      -> own-page cluster below the part's text (v0.5 behaviour, now with
+    #      F18 furniture filters and F22 foreign-text exclusion)
+    #   4. forward with no own-page cluster -> adjacent page (F23)
+    #   5. unresolved -> crop-required stub (honest, review queue)
     ASSETS_DIR = OUT / "assets"
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
-    page_clusters, page_rasters, claimed = {}, {}, {}
-    crop_stats = {"crops": 0, "pending": 0}
+    page_clusters, page_rasters = {}, {}
+    claimed = {}                       # page -> {cluster_index: question_number} (F24)
+    crop_stats = {"crops": 0, "pending": 0, "shared": 0}
+    stem_assets = {}                     # (qnum, group, noun) -> asset (F21 lazy)
+
+    FIG_CLASS = {"graph": "plot", "grid": "plot", "table": "table",
+                 "diagram": "figure", "apparatus": "figure", "boxes": "figure"}
+    CLASS_NOUN_RE = {c: re.compile(rf"\b({'|'.join(sorted(n for n, k in FIG_CLASS.items() if k == c))})s?\b", re.I)
+                     for c in set(FIG_CLASS.values())}
+
+    # group stems live on the parts during extraction (q['groups'] is attached
+    # to the serialized topic only) — build the per-question view now so the
+    # stem-figure / adjacent-page lookups can see them
+    for q in doc_questions:
+        q["groups"] = {}
+        for p in q["parts"]:
+            if p.get("group_stem_md"):
+                q["groups"].setdefault(p["group"], {})["group_stem_md"] = p["group_stem_md"]
+
+    def clusters_for(pg):
+        if pg not in page_clusters:
+            page = pdf[pg - 1]
+            page_clusters[pg] = detect_figure_clusters(page)
+            page_rasters[pg] = [fitz.Rect(i["bbox"]) for i in page.get_image_info()
+                                if i["bbox"][2] - i["bbox"][0] >= 5
+                                and i["bbox"][3] - i["bbox"][1] >= 5]
+        return page_clusters[pg]
+
+    def render_crop(pg, cluster, a, ay):
+        page = pdf[pg - 1]
+        c = expand_with_labels(page, cluster, exclude_frags=a.get("_src_text") or [])
+        clip = fitz.Rect(c.x0 - 3, c.y0 - 3, c.x1 + 3, c.y1 + 3) & page.rect
+        pix = page.get_pixmap(clip=clip, dpi=CROP_DPI)
+        rel = f"assets/{a['id']}.png"
+        pix.save(str(OUT / rel))
+        cov = text_coverage(page, c)
+        a["kind"] = "crop"
+        a["path"] = rel
+        a["page"] = pg
+        a["render"] = ("raster" if any(rb.contains(c) for rb in page_rasters[pg])
+                       else "vector")
+        a["text_coverage"] = cov
+        a["review"] = bool(ay is None or cov > 0.55)
+        crop_stats["crops"] += 1
+
+    def page_of_text(text):
+        frag = norm(re.sub(r"\s+", " ", text))[:110]
+        probes, seen = [], set()
+        for n in (60, 38, 110):
+            probe = frag[:n]
+            if len(probe) < 20 or probe in seen:
+                continue
+            seen.add(probe)
+            pages = [i + 1 for i, t in enumerate(page_norm) if probe in t]
+            if pages:
+                return pages[0]
+        return None
+
+    def group_letter(p):
+        m = re.match(r"\d+\(([a-z])\)", p["part_number"])
+        return m.group(1) if m else None
+
+    def stem_figure(q, p, noun):
+        """F21: crop the figure a question/group stem introduces ('The graph
+        shows ...', 'uses this apparatus', 'Grid 2 shows ...'), once per
+        (question, group, noun). Returns the asset dict or None."""
+        group = group_letter(p)
+        key = (q["question_number"], group, noun)
+        if key in stem_assets:
+            return stem_assets[key]
+        cls = FIG_CLASS[noun]
+        stems = []
+        g = (q.get("groups") or {}).get(group) if group else None
+        if g and g.get("group_stem_md"):
+            stems.append(g["group_stem_md"])
+        for letter, gg in sorted((q.get("groups") or {}).items()):
+            if letter != group and gg.get("group_stem_md"):
+                stems.append(gg["group_stem_md"])
+        if q.get("stem_md"):
+            stems.append(q["stem_md"])
+        # intro sentences often glue into the first part's problem_md when the
+        # group stays inline — earlier siblings are legitimate introductions
+        for pp in q["parts"]:
+            if pp is p:
+                break
+            if pp.get("problem_md"):
+                stems.append(pp["problem_md"])
+        a = None
+        cnre = CLASS_NOUN_RE[FIG_CLASS[noun]]
+        for st in stems:
+            sent = next((s for s in re.split(r"(?<=[.!?])\s+", st)
+                         if cnre.search(s)), None)
+            if not sent:
+                continue
+            pg = page_of_text(sent)
+            if pg is None:
+                continue
+            page = pdf[pg - 1]
+            ay = figure_anchor_y(page, sent)
+            used = claimed.setdefault(pg, {})
+            cand = [(i, c) for i, c in enumerate(clusters_for(pg))
+                    if used.get(i) in (None, q["question_number"])]
+            pick = None
+            if ay is not None:
+                below = sorted(((abs(c.y0 - ay), i, c) for i, c in cand
+                                if c.y0 >= ay - 36), key=lambda t: (t[0], t[1]))
+                pick = below[0] if below else None
+            if pick is None:
+                continue
+            _, i, c = pick
+            used[i] = q["question_number"]
+            aid = f"asset_{q['question_number']}_{group or 'q'}_{noun}_stem"
+            a = {"id": aid, "kind": "crop-required", "mention": noun,
+                 "source": "qp.pdf", "page": pg, "review": True,
+                 "_src_text": [sent, p.get("problem_md") or ""]}
+            render_crop(pg, c, a, ay)
+            a["review"] = True          # stem-anchored: verify target choice
+            break
+        stem_assets[key] = a
+        return a
+
+    def sibling_crop(q, p, noun):
+        """F20: nearest preceding sibling part owning a REAL crop of the same
+        figure class ('graph'/'grid' both resolve to a plotting surface)."""
+        cls = FIG_CLASS[noun]
+        best = None
+        for pp in q["parts"]:
+            if pp is p:
+                break
+            for aa in pp.get("assets") or []:
+                if (aa.get("kind") == "crop" and aa.get("mention") in FIG_CLASS
+                        and FIG_CLASS[aa["mention"]] == cls and not aa.get("ref_part")):
+                    best = aa
+        return best
+
+    def adjacent_crop(q, p, a):
+        """F23: the figure lives on a neighbouring page (a part continued from
+        its group's previous page). Anchor on the group stem, else the question
+        stem, and claim the nearest cluster below it. Always review-flagged."""
+        group = group_letter(p)
+        stems = []
+        g = (q.get("groups") or {}).get(group) if group else None
+        if g and g.get("group_stem_md"):
+            stems.append(g["group_stem_md"])
+        if q.get("stem_md"):
+            stems.append(q["stem_md"])
+        pg = p.get("source_page")
+        for pg2 in (pg - 1, pg + 1) if pg else ():
+            if not (1 <= pg2 <= len(pdf)) or pg2 in content_img_pages:
+                continue
+            page = pdf[pg2 - 1]
+            ay = None
+            cnre2 = CLASS_NOUN_RE[FIG_CLASS[a["mention"]]]
+            for st in stems:
+                sent = next((s for s in re.split(r"(?<=[.!?])\s+", st)
+                             if cnre2.search(s)), st)
+                ay = figure_anchor_y(page, sent)
+                if ay is not None:
+                    break
+            used = claimed.setdefault(pg2, {})
+            cand = [(i, c) for i, c in enumerate(clusters_for(pg2))
+                    if used.get(i) in (None, q["question_number"])]
+            if not cand:
+                continue
+            if ay is not None:
+                below = sorted(((abs(c.y0 - ay), i, c) for i, c in cand
+                                if c.y0 >= ay - 36), key=lambda t: (t[0], t[1]))
+            else:
+                # no stem anchor on this page: take the single unambiguous
+                # figure only — never guess between several (F23)
+                below = [(0,) + cand[0]] if len(cand) == 1 else []
+            if not below:
+                continue
+            _, i, c = pick = below[0]
+            used[i] = q["question_number"]
+            render_crop(pg2, c, a, ay)
+            a["review"] = True
+            return True
+        return False
+
+    def share_ref(a, target, how):
+        a["kind"] = "crop"
+        a["path"] = target["path"]
+        a["page"] = target.get("page")
+        a["render"] = target.get("render")
+        a["text_coverage"] = target.get("text_coverage")
+        a["shared"] = True
+        a["ref_part"] = target.get("_owner") or target.get("id")
+        a["review"] = False
+        crop_stats["shared"] += 1
+
+    def own_page_pick(q, p, a, force_review, allow_single=True):
+        """Own-page resolution shared by forward introductions and the
+        backward-rescue path. Anchors at EVERY noun phrase with its direction
+        (instructions point DOWN at the figure, references point UP), tries
+        them last-first, then part-start, then — forward only — the
+        unambiguous single cluster. Clusters claimed by the SAME question may
+        be reused (shared=true); clusters claimed by another question are
+        never taken (F24: the 2025-06/2021-01 page-mate theft)."""
+        noun = a["mention"]
+        pg = p.get("source_page")
+        if pg is None:
+            return False
+        page = pdf[pg - 1]
+        used = claimed.setdefault(pg, {})
+        cand = [(i, c) for i, c in enumerate(clusters_for(pg))
+                if used.get(i) in (None, q["question_number"])]
+        if not cand:
+            return False
+        anchors = noun_anchor_y(page, p["problem_md"], noun) or []
+        start_ay = figure_anchor_y(page, p["problem_md"])
+        if start_ay is not None:
+            anchors.append((start_ay, True))
+        for ay, below in anchors:
+            if below:
+                scored = sorted(((min(abs(c.y0 - ay), abs((c.y0 + c.y1) / 2 - ay)), i, c)
+                                 for i, c in cand if c.y0 >= ay - 36),
+                                key=lambda t: (t[0], t[1]))
+            else:
+                scored = sorted(((min(abs(c.y1 - ay), abs((c.y0 + c.y1) / 2 - ay)), i, c)
+                                 for i, c in cand if c.y1 <= ay + 36),
+                                key=lambda t: (t[0], t[1]))
+            if scored:
+                _, i, c = scored[0]
+                shared = used.get(i) == q["question_number"]
+                used[i] = q["question_number"]
+                p["_owner"] = p["part_number"]
+                render_crop(pg, c, a, ay if below else None)
+                a["shared"] = shared
+                if shared or force_review:
+                    a["review"] = True
+                else:
+                    a["_owner"] = p["part_number"]
+                return True
+        if len(cand) == 1 and not force_review and allow_single:
+            # forward introduction on a page with exactly one figure: unambiguous
+            i, c = cand[0]
+            shared = used.get(i) == q["question_number"]
+            used[i] = q["question_number"]
+            p["_owner"] = p["part_number"]
+            render_crop(pg, c, a, None)
+            a["shared"] = shared
+            a["review"] = True          # no anchor evidence -> verify
+            return True
+        return False
+
     for q in doc_questions:
         for p in q["parts"]:
+            p["_owner"] = None
+            pmd = p["problem_md"] or ""
             for a in p.get("assets") or []:
+                a["_src_text"] = [pmd]
+                noun = a["mention"]
                 pg = p.get("source_page")
-                if pg is None:
+                # 0. dot-and-cross draw prompts: the printed scaffold is
+                # text-only, so no vector region exists — honest stub (F19b)
+                if (noun == "diagram" and re.search(r"dot.{0,3}and.{0,3}cross", pmd, re.I)
+                        and not INTRO_RE.search(pmd)):
                     crop_stats["pending"] += 1
                     continue
-                if pg not in page_clusters:
-                    page = pdf[pg - 1]
-                    page_clusters[pg] = detect_figure_clusters(page)
-                    page_rasters[pg] = [fitz.Rect(i["bbox"]) for i in page.get_image_info()
-                                        if i["bbox"][2] - i["bbox"][0] >= 5
-                                        and i["bbox"][3] - i["bbox"][1] >= 5]
-                clusters = page_clusters[pg]
-                used = claimed.setdefault(pg, set())
-                # prefer unclaimed clusters; a figure SHARED by sibling parts
-                # (e.g. the group-stem apparatus behind 4(b)(i) and 4(b)(ii))
-                # may be reused — the same source figure legitimately backs
-                # every mention that points at it
-                cand = [(i, c) for i, c in enumerate(clusters) if i not in used] or \
-                       list(enumerate(clusters))
-                if not cand:
+                # 1. explicit 'in part (x)' back-reference
+                bm = BACKREF_RE.search(pmd)
+                if bm:
+                    letter = bm.group(1)
+                    tgt = next((pp for pp in q["parts"]
+                                if pp["part_number"].startswith(f"{q['question_number']}({letter})")
+                                and pp is not p), None)
+                    if tgt:
+                        resolved = next((aa for aa in (tgt.get("assets") or [])
+                                         if aa.get("kind") == "crop"
+                                         and FIG_CLASS.get(aa.get("mention")) == FIG_CLASS[noun]), None)
+                        if resolved:
+                            share_ref(a, resolved, "backref")
+                            continue
+                backward = resolve_first(pmd, noun) and not BACKREF_RE.search(pmd)
+                if backward:
+                    # 2a. stem / group-stem figure
+                    sa = stem_figure(q, p, noun)
+                    if sa:
+                        share_ref(a, sa, "stem")
+                        continue
+                    # 2b. sibling crop
+                    sc = sibling_crop(q, p, noun)
+                    if sc:
+                        share_ref(a, sc, "sibling")
+                        continue
+                    # 2c. adjacent page (a stem-anchored neighbour figure is
+                    # more trustworthy than an own-page guess)
+                    if adjacent_crop(q, p, a):
+                        continue
+                    # 2d. own-page rescue (review-flagged: a backward reference
+                    # that found nothing earlier may still sit above its figure
+                    # — the 10(a)(iii) trap — so the pick is always verified)
+                    if own_page_pick(q, p, a, force_review=True):
+                        continue
                     crop_stats["pending"] += 1
                     continue
-                page = pdf[pg - 1]
-                ay = figure_anchor_y(page, p["problem_md"])
-                pick = None
-                if ay is not None:
-                    below = sorted(((min(abs(c.y0 - ay), abs((c.y0 + c.y1) / 2 - ay)), i, c)
-                                    for i, c in cand if c.y0 >= ay - 36), key=lambda t: (t[0], t[1]))
-                    pick = below[0] if below else None
-                if pick is None:
-                    ref = ay if ay is not None else page.rect.height / 2
-                    pick = min(((abs((c.y0 + c.y1) / 2 - ref), i, c) for i, c in cand),
-                               key=lambda t: (t[0], t[1]))
-                _, i, c = pick
-                shared = i in used
-                used.add(i)
-                c = expand_with_labels(page, c)
-                clip = fitz.Rect(c.x0 - 3, c.y0 - 3, c.x1 + 3, c.y1 + 3) & page.rect
-                pix = page.get_pixmap(clip=clip, dpi=CROP_DPI)
-                rel = f"assets/{a['id']}.png"
-                pix.save(str(OUT / rel))
-                cov = text_coverage(page, c)
-                a["kind"] = "crop"
-                a["path"] = rel
-                a["render"] = ("raster" if any(rb.contains(c) for rb in page_rasters[pg])
-                               else "vector")
-                a["text_coverage"] = cov
-                a["shared"] = shared
-                a["review"] = bool(ay is None or cov > 0.55)
-                crop_stats["crops"] += 1
+                # 3. forward introduction: own-page cluster below the part text
+                if own_page_pick(q, p, a, force_review=False, allow_single=False):
+                    continue
+                # 3b. the page's figure was already claimed by a sibling part
+                # (two parts share one grid) -> shared reference
+                sc = sibling_crop(q, p, noun)
+                if sc:
+                    share_ref(a, sc, "sibling")
+                    continue
+                # 3c. unambiguous single figure on the page (no anchor hit)
+                if own_page_pick(q, p, a, force_review=False, allow_single=True):
+                    continue
+                # 4. forward with no own-page cluster: adjacent page
+                if adjacent_crop(q, p, a):
+                    continue
+                # 5. honest stub
+                crop_stats["pending"] += 1
+        # mark owners of real crops for share_ref bookkeeping (stem crops are
+        # question-level figures — they keep their own id as the ref target)
+        for p in q["parts"]:
+            for a in p.get("assets") or []:
+                if (a.get("kind") == "crop" and not a.get("ref_part")
+                        and not a["id"].endswith("_stem") and not a.get("_owner")):
+                    a["_owner"] = p["part_number"]
 
     # ---- spec seeds (labels only; registry-validated) -----------------------
     seeds = SEEDS.get(series, {})
@@ -893,7 +1363,7 @@ def main():
 
     # G4 figure resolution
     dangling = [{"part": p["part_number"]} for q in doc_questions for p in q["parts"]
-                if MENTION_RE.search(p["problem_md"]) and not p["assets"]]
+                if figure_mentions(p["problem_md"]) and not p["assets"]]
     n_assets = sum(len(p["assets"]) for q in doc_questions for p in q["parts"])
     n_unanchored = sum(1 for q in doc_questions for p in q["parts"] if p["source_page"] is None)
     gate("G4-figure-resolution", not dangling,
@@ -987,7 +1457,7 @@ def main():
             "total_marks_source": "printed-footer" if q["printed_total"] is not None else "inferred-parts-footer-missing",
             "stem_md": q["stem_md"],
             "parts": [{k: v for k, v in p.items()
-                       if k not in ("group_stem_md", "option_list", "group", "roman", "answer_raw", "source_norm", "_ms_marks") and v is not None}
+                       if k not in ("group_stem_md", "option_list", "group", "roman", "answer_raw", "source_norm", "_ms_marks", "_owner") and v is not None}
                       for p in q["parts"]],
         } for q in doc_questions],
     }
@@ -1000,6 +1470,13 @@ def main():
             if p.get("option_list"):
                 extras.setdefault(p["group"], {})["option_list"] = p["option_list"]
         q["groups"] = {g: v for g, v in extras.items() if v}
+
+    # strip private crop-pass bookkeeping ("_" keys) from serialized assets
+    for q in topic["questions"]:
+        for p in q["parts"]:
+            for a in p.get("assets") or []:
+                for k in [k for k in a if k.startswith("_")]:
+                    a.pop(k, None)
 
     # strip internal linkage fields from working copy
     for q in doc_questions:
@@ -1093,7 +1570,10 @@ def write_questions_md(topic, path):
                         for c in p["choices"]] + [""]
             for a in p.get("assets") or []:
                 if a.get("kind") == "crop" and a.get("path"):
-                    out += [f"![{a['mention']} — official paper figure (qp.pdf p.{a['page']})]({a['path']})", ""]
+                    cap = f"{a['mention']} — official paper figure (qp.pdf p.{a['page']})"
+                    if a.get("shared"):
+                        cap += f" — shared with {a.get('ref_part', '?')}"
+                    out += [f"![{cap}]({a['path']})", ""]
                 else:
                     out += [f"> 🖼 crop required: {a['mention']} (qp.pdf p.{a['page']})", ""]
             if p.get("solution_md"):

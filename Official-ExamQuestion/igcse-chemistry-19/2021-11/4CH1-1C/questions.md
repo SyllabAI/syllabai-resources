@@ -115,8 +115,6 @@ Which row gives the correct number of occupied electron shells and the correct n
 - **(C)** 5                                                                                                      7  ✔
 - **(D)** 7                                                                                                      5
 
-![table — official paper figure (qp.pdf p.6)](assets/asset_2_a_ii_table.png)
-
 
 **Mark scheme answer**
 
@@ -316,7 +314,7 @@ In experiment 1, a student bubbles the mixture of gases through limewater. Carbo
 
 ![apparatus — official paper figure (qp.pdf p.12)](assets/asset_5_a_apparatus.png)
 
-![diagram — official paper figure (qp.pdf p.12)](assets/asset_5_a_diagram.png)
+![diagram — official paper figure (qp.pdf p.12) — shared with ?](assets/asset_5_a_diagram.png)
 
 
 **Mark scheme answer**
@@ -1092,7 +1090,7 @@ Name the type of reaction that occurs between manganese and chromium sulfate.
 
 Use the information in Table 1 to complete the order of reactivity. most reactive manganese least reactive
 
-![table — official paper figure (qp.pdf p.34)](assets/asset_11_a_ii_table.png)
+![table — official paper figure (qp.pdf p.34) — shared with asset_11_a_table_stem](assets/asset_11_a_table_stem.png)
 
 
 **Mark scheme answer**
@@ -1108,7 +1106,7 @@ Use the information in Table 1 to complete the order of reactivity. most reactiv
 
 Table 2 shows the colours of four metals and the colours of their metal sulfate solutions. Metal Colour of metal Colour of metal sulfate solution copper brown blue iron dark grey green magnesium silvery colourless zinc light grey colourless Table 2 When a metal is added to a metal sulfate solution there may be a colour change on the surface of the metal and in the solution. Use the information in Table 2 and your knowledge of the reactivity series to explain any colour changes in these two experiments. copper added to magnesium sulfate solution zinc added to iron sulfate solution
 
-![table — official paper figure (qp.pdf p.35)](assets/asset_11_b_table.png)
+![table — official paper figure (qp.pdf p.34) — shared with asset_11_b_table_stem](assets/asset_11_b_table_stem.png)
 
 
 **Mark scheme answer**

@@ -345,9 +345,9 @@ Explain the advantage of using iron powder rather than pieces of iron. 
 
 The syringe in the diagram shows the reading at the end of the experiment. Complete table 1 to show the readings on the syringe. Give both values to the nearest 1 cm3. syringe reading at start syringe reading at end change in volume in cm3 65 Table 1
 
-![diagram — official paper figure (qp.pdf p.9)](assets/asset_4_b_diagram.png)
+![diagram — official paper figure (qp.pdf p.8) — shared with asset_4_b_diagram_stem](assets/asset_4_b_diagram_stem.png)
 
-![table — official paper figure (qp.pdf p.9)](assets/asset_4_b_table.png)
+![table — official paper figure (qp.pdf p.8)](assets/asset_4_b_table.png)
 
 
 **Mark scheme answer**
@@ -390,7 +390,7 @@ The syringe in the diagram shows the reading at the end of the experiment. Compl
 
 The student repeats the experiment and obtains a different set of results. Table 2 shows these results. volume of air in conical flask and glass tube in cm3 260 syringe reading at start 90 syringe reading at end 22 Table 2 Use the results from table 2 to calculate the percentage by volume of oxygen in the air. percentage by volume of oxygen in air = %
 
-![table — official paper figure (qp.pdf p.9)](assets/asset_4_c_table.png)
+![table — official paper figure (qp.pdf p.9) — shared with asset_4_c_table_stem](assets/asset_4_c_table_stem.png)
 
 
 **Mark scheme answer**
@@ -582,7 +582,7 @@ Draw a curve of best fit. 100 Volume of hydrogen in cm3 0 20 40 60 80 Time in s
 
 Determine the volume of hydrogen collected in the first 10 seconds. Show on the graph how you obtained your answer. volume of hydrogen = cm3 
 
-![graph — official paper figure (qp.pdf p.14)](assets/asset_6_b_iii_graph.png)
+> 🖼 crop required: graph (qp.pdf p.14)
 
 
 **Mark scheme answer**
@@ -626,7 +626,7 @@ Explain why the rate of reaction is greatest at the start of the reaction.
 
 On the grid, draw the curve you would expect the student to obtain.
 
-> 🖼 crop required: grid (qp.pdf p.15)
+![grid — official paper figure (qp.pdf p.14)](assets/asset_6_c_i_grid.png)
 
 
 **Mark scheme answer**
@@ -997,8 +997,6 @@ This question is about ammonia and ammonium compounds.
 
 Ammonia (NH3) is a simple covalent molecule. Draw a dot-and-cross diagram to show the bonding in a molecule of ammonia.
 
-![diagram — official paper figure (qp.pdf p.24)](assets/asset_10_a_diagram.png)
-
 
 **Mark scheme answer**
 
@@ -1078,7 +1076,7 @@ Calculate the percentage of nitrogen in ammonium nitrate. [Mr of NH4NO3 = 80] pe
 
 Fertilisers add nitrogen to the soil to help plants grow. Ammonia and ammonium sulfate can both be used as fertilisers. Discuss the advantages and disadvantages of using each of these compounds as fertilisers. Use information from the table in your answer. [pH of rainwater is approximately 5.6]
 
-> 🖼 crop required: table (qp.pdf p.27)
+![table — official paper figure (qp.pdf p.26) — shared with asset_10_c_table_stem](assets/asset_10_c_table_stem.png)
 
 
 **Mark scheme answer**

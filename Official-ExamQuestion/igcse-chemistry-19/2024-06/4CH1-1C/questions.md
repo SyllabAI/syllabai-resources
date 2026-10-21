@@ -351,7 +351,7 @@ Give the empirical formula for caffeine.
 
 Give the name of the method of separation shown in the diagram.
 
-![diagram — official paper figure (qp.pdf p.8)](assets/asset_4_b_i_diagram.png)
+![diagram — official paper figure (qp.pdf p.8) — shared with asset_4_b_diagram_stem](assets/asset_4_b_diagram_stem.png)
 
 
 **Mark scheme answer**
@@ -365,7 +365,7 @@ Give the name of the method of separation shown in the diagram.
 
 Describe what happens to the ethanol vapour in apparatus X. 
 
-![apparatus — official paper figure (qp.pdf p.8)](assets/asset_4_b_ii_apparatus.png)
+![apparatus — official paper figure (qp.pdf p.8) — shared with asset_4_b_apparatus_stem](assets/asset_4_b_apparatus_stem.png)
 
 
 **Mark scheme answer**
@@ -959,7 +959,7 @@ State the purpose of the cotton wool. 
 
 Explain the shape of the graph. You should assume that the marble chips are in excess.
 
-![graph — official paper figure (qp.pdf p.20)](assets/asset_9_b_i_graph.png)
+![graph — official paper figure (qp.pdf p.20) — shared with asset_9_b_graph_stem](assets/asset_9_b_graph_stem.png)
 
 
 **Mark scheme answer**
@@ -985,7 +985,7 @@ Explain the shape of the graph. You should assume that the marble chips are in e
 
 On the grid, draw the curve you would expect to obtain if the student uses the same volume of hydrochloric acid but with half the concentration. Assume that all other conditions are kept the same. 
 
-![grid — official paper figure (qp.pdf p.20)](assets/asset_9_b_ii_grid.png)
+![grid — official paper figure (qp.pdf p.20) — shared with asset_9_b_grid_stem](assets/asset_9_b_grid_stem.png)
 
 
 **Mark scheme answer**

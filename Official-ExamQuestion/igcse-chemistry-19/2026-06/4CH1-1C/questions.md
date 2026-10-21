@@ -252,8 +252,6 @@ A student does an experiment to investigate the decomposition of hydrogen peroxi
 
 Name a suitable piece of apparatus to measure the volume of oxygen collected.
 
-> 🖼 crop required: apparatus (qp.pdf p.9)
-
 
 **Mark scheme answer**
 
@@ -316,7 +314,7 @@ Explain what is meant by the term catalyst. 
 
 Plot the student’s results on grid 1.
 
-![grid — official paper figure (qp.pdf p.10)](assets/asset_3_e_i_grid.png)
+![grid — official paper figure (qp.pdf p.11) — shared with asset_3_e_grid_stem](assets/asset_3_e_grid_stem.png)
 
 
 **Mark scheme answer**
@@ -330,7 +328,7 @@ Plot the student’s results on grid 1.
 
 Draw a curve of best fit. 120 100 Volume of oxygen 60 in cm3 0 20 40 60 80 100 120 Time in s Grid 1 
 
-> 🖼 crop required: grid (qp.pdf p.None)
+![grid — official paper figure (qp.pdf p.11) — shared with asset_3_e_grid_stem](assets/asset_3_e_grid_stem.png)
 
 
 **Mark scheme answer**
@@ -343,7 +341,7 @@ Draw a curve of best fit. 120 100 Volume of oxygen 60 in cm3 0 20 40 60 80 100 1
 
 On grid 2, draw a tangent to the curve for catalyst B at 60 s.
 
-![grid — official paper figure (qp.pdf p.11)](assets/asset_3_f_i_grid.png)
+![grid — official paper figure (qp.pdf p.11) — shared with asset_3_f_grid_stem](assets/asset_3_f_grid_stem.png)
 
 
 **Mark scheme answer**

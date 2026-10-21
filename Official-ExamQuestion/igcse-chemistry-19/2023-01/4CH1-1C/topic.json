@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-20T22:37:52Z",
- "generator": "official_examq_extract.py v0.5 (ADR-037) series=2023-01",
+ "generated_utc": "2026-10-21T01:57:52Z",
+ "generator": "official_examq_extract.py v0.6 (ADR-037) series=2023-01",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/1C",
  "source": {
   "qp_sha256": "f25bac612af935d73235818fc6eec8a6429d15f3d4babddc681fe3ba4be2c2e8",
@@ -53,7 +53,7 @@
        "review": false,
        "path": "assets/asset_1_a_i_diagram.png",
        "render": "vector",
-       "text_coverage": 0.193,
+       "text_coverage": 0.155,
        "shared": false
       }
      ],
@@ -103,11 +103,11 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 3,
-       "review": false,
+       "review": true,
        "path": "assets/asset_1_b_table.png",
        "render": "vector",
-       "text_coverage": 0.222,
-       "shared": false
+       "text_coverage": 0.155,
+       "shared": true
       }
      ],
      "spec_point_codes": [],
@@ -509,19 +509,19 @@
        "text_md": "(45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1\nQuestion\nAnswer Notes Marks\nnumber"
       }
      ],
-     "source_page": 5,
+     "source_page": 7,
      "assets": [
       {
        "id": "asset_3_b_iii_table",
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 5,
+       "page": 7,
        "review": false,
        "path": "assets/asset_3_b_iii_table.png",
        "render": "vector",
-       "text_coverage": 0.268,
-       "shared": true
+       "text_coverage": 0.325,
+       "shared": false
       }
      ],
      "spec_point_codes": [],
@@ -580,10 +580,11 @@
        "source": "qp.pdf",
        "page": 8,
        "review": false,
-       "path": "assets/asset_4_a_apparatus.png",
+       "path": "assets/asset_4_a_apparatus_stem.png",
        "render": "vector",
-       "text_coverage": 0.163,
-       "shared": false
+       "text_coverage": 0.089,
+       "shared": true,
+       "ref_part": "asset_4_a_apparatus_stem"
       }
      ],
      "spec_point_codes": [],
@@ -1148,10 +1149,10 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 16,
-       "review": false,
+       "review": true,
        "path": "assets/asset_8_a_i_table.png",
        "render": "vector",
-       "text_coverage": 0.236,
+       "text_coverage": 0.136,
        "shared": false
       }
      ],
@@ -1296,7 +1297,7 @@
        "review": false,
        "path": "assets/asset_9_a_diagram.png",
        "render": "vector",
-       "text_coverage": 0.127,
+       "text_coverage": 0.04,
        "shared": false
       }
      ],
@@ -1329,7 +1330,7 @@
        "review": false,
        "path": "assets/asset_9_b_table.png",
        "render": "vector",
-       "text_coverage": 0.245,
+       "text_coverage": 0.25,
        "shared": false
       }
      ],
@@ -1374,20 +1375,7 @@
      "choices": [],
      "answer_status": "unmatched",
      "source_page": 20,
-     "assets": [
-      {
-       "id": "asset_10_a_apparatus",
-       "kind": "crop",
-       "mention": "apparatus",
-       "source": "qp.pdf",
-       "page": 20,
-       "review": false,
-       "path": "assets/asset_10_a_apparatus.png",
-       "render": "vector",
-       "text_coverage": 0.16,
-       "shared": false
-      }
-     ],
+     "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm"
     },
@@ -1596,7 +1584,7 @@
        "review": false,
        "path": "assets/asset_11_b_graph.png",
        "render": "vector",
-       "text_coverage": 0.062,
+       "text_coverage": 0.046,
        "shared": false
       }
      ],

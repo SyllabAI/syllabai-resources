@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-20T22:37:54Z",
+ "generated_utc": "2026-10-21T01:57:54Z",
  "series": "2023-11",
  "gates": [
   {
@@ -46,13 +46,14 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 7 cropped to assets/*.png (150 dpi), 4 remain crop-required; 3 parts without page anchor",
+   "summary": "10 asset records cover every table/diagram/grid/apparatus mention: 7 cropped to assets/*.png (150 dpi), 1 remain crop-required; 3 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 3,
     "crop_stats": {
      "crops": 7,
-     "pending": 4
+     "pending": 1,
+     "shared": 6
     }
    }
   },
@@ -114,24 +115,8 @@
  ],
  "review_queue": [
   {
-   "part": "2(b)(ii)",
-   "reason": "figure crop required (table, page 7)"
-  },
-  {
-   "part": "2(b)(iii)",
-   "reason": "figure crop required (table, page 7)"
-  },
-  {
-   "part": "6(c)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_6_c_i_grid.png)"
-  },
-  {
-   "part": "6(d)(ii)",
-   "reason": "figure crop required (grid, page 17)"
-  },
-  {
-   "part": "9(b)(iv)",
-   "reason": "figure crop required (table, page 23)"
+   "part": "6(b)",
+   "reason": "figure crop required (diagram, page 15)"
   },
   {
    "part": "2(c)(ii)",
