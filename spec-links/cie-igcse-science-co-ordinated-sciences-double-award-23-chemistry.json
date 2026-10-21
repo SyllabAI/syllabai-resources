@@ -40,6 +40,18 @@
     "failed": 0,
     "ambiguous_stay_quarantined": 166
    }
+  },
+  "tranche1": {
+   "lane": "T-SPECS-CIE-TRANCHE1-T2NEAR-1",
+   "directive": "operator order 'tranche-1' (gateway trace 1a15e4200e6af579, 2026-10-21, zai-web) — fires tranche1_t2NearVerdicts of the anchor-gap census receipt of record (cie-anchor-gap-census-r0.json)",
+   "applied_utc": "2026-10-21T12:40:00Z",
+   "base_commit": "67a173b952a4ebb7e3856dcaf4b98b863738f8ea",
+   "method": "operator_verdict",
+   "tier": "V6_near_text_verdict",
+   "tier_semantics": "authoritative (operator ratifies the GATE-1-audited accepted-near text join for this item; prior method recorded verbatim in the verdict sheet)",
+   "parts": 15,
+   "entries": 15,
+   "note": "tranche-1 of the anchor-gap completion program: the 155-part T2_near review queue promoted to the V* authoritative class; no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors and the notes/flashcards axis untouched"
   }
  },
  "registry": {
@@ -82,6 +94,13 @@
    "ambiguous_pairs": 7,
    "pending_refs": 229,
    "note": "index re-join cures applied additively; the 268 record-less (lane, id) pairs stay pending honestly (AGENT.md rule 3)"
+  },
+  "tranche1": {
+   "lane": "T-SPECS-CIE-TRANCHE1-T2NEAR-1",
+   "applied_utc": "2026-10-21T12:40:00Z",
+   "promoted_entries": 15,
+   "promoted_parts": 15,
+   "scope": "question_part items whose codes[] were T2_near-only (the anchor-gap census receipt's tranche-1 queue); pending anchors untouched"
   }
  },
  "items": {
@@ -1905,8 +1924,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1",
      "official_code": "C7.2.1",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -2025,8 +2044,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1",
      "official_code": "C7.2.1",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -2327,8 +2346,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1",
      "official_code": "C7.2.1",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3254,8 +3273,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.6",
      "official_code": "C6.2.6",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3284,8 +3303,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.6",
      "official_code": "C6.2.6",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3618,8 +3637,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1",
      "official_code": "C7.2.1",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3664,8 +3683,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C10.2.1",
      "official_code": "C10.2.1",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3715,8 +3734,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C10.2.1",
      "official_code": "C10.2.1",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -4704,8 +4723,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.4.3",
      "official_code": "C12.4.3",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -4755,8 +4774,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.4.3",
      "official_code": "C12.4.3",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -6869,8 +6888,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.2",
      "official_code": "C3.3.2",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -6914,8 +6933,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.4",
      "official_code": "C3.3.4",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -6929,8 +6948,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.4",
      "official_code": "C3.3.4",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -6944,8 +6963,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.4",
      "official_code": "C3.3.4",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -6969,8 +6988,8 @@
     {
      "official_id": "CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.2",
      "official_code": "C3.3.2",
-     "tier": "T2_near",
-     "method": "cie_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []

@@ -1,0 +1,2911 @@
+lane: T-SPECS-CIE-TRANCHE1-T2NEAR-1
+generated_utc: '2026-10-21T12:40:00Z'
+directive: operator order 'tranche-1' (gateway trace 1a15e4200e6af579, 2026-10-21, zai-web) — fires tranche1_t2NearVerdicts
+  of the anchor-gap census receipt of record (.syllabai/receipts/CIE-INTEGRATION/cie-anchor-gap-census-r0.json)
+base_commit: 67a173b952a4ebb7e3856dcaf4b98b863738f8ea
+header: 'Tranche-1 operator verdicts: the 155-part T2_near review queue of the anchor-gap census receipt,
+  promoted to the V* authoritative class. Every row re-tiers an EXISTING accepted-near sidecar entry (tier
+  T2_near, method cie_definition_text_join | cie_text_join -> tier V6_near_text_verdict, method operator_verdict);
+  no code is invented, no join re-derived, no pending anchor touched (AGENT.md rules 1-4; ADR-030 never
+  invent). Applied fail-closed by cie_tranche1_t2near_fill.py; re-validated by cie_tranche1_t2near_check.py
+  (base-blob re-derivation). Rows are per (lane, item, official_id); entries keyed per row key: SME reuses
+  spcpt ids across course trees and items may carry several hints.'
+verdicts:
+- lane: cie-a-level-biology-25
+  item: qstnprt_3BkvmjGBSR9tGjcP
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.2
+  official_code: 12.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.2.2
+  label: qstn_mXtfvtxDXtkvZRqD / part 4
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_3HFc5SzN5pjBB7fg
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3
+  official_code: 12.1.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.1.3
+  label: qstn_fsVFgrmdGJGQHwyp / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_4BhKd6rwSBSSFzzT
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:3.2.2
+  official_code: 3.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.2
+  label: qstn_WcVHtDJKMyyNmmXj / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_4RKYjMGJtRmqgqBZ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_RGQ7G9TC3h6vKy8s / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_54xHK3SYMhBw26YC
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_sXmqDQy65CPccbty / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_74mPrY9FXVdxMzHh
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_Hm3fksTJXkgB7P29 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_7tM5bhyHvqRvZnRN
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3
+  official_code: 12.1.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.1.3
+  label: qstn_b6BdkjCPHgQprWsN / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_8S8yTTgqCymKqt3w
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:3.2.2
+  official_code: 3.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.2
+  label: qstn_cCMqXSPSqwwC3Mb9 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_97KkwTRkZTjPSwGx
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_J6VGwXW2s7Y3Qtsp / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_BCGDKdRyG6ZZ6ph9
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_TB829ncTSVHhQBRt / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_BfVS3mZJTr2kJvwS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.2
+  official_code: 12.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.2.2
+  label: qstn_fsVFgrmdGJGQHwyp / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_BpwCDBM6yk3KtRq6
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_dVnyyqM5kB9BkrPP / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_FMYd4CZ5sswNw4RV
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_Y6jwNPbXx45XH22N / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_H3XHXxBqz3mgVHRq
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3
+  official_code: 12.1.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.1.3
+  label: qstn_b6BdkjCPHgQprWsN / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_HbhSkFRZRCcQkrCg
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_CWXVHM6Q5nVN7sPY / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_Kpwc4jkJF5Vfq9ZS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3
+  official_code: 12.1.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.1.3
+  label: qstn_b6BdkjCPHgQprWsN / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_Mb723BSmMkjBgSbJ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_qpHyY9YG5np3VbKN / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_PFQ55N4F4JdQ3BPS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_bsJbnMkT9rgWqr5h / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_TCjJhHFgY2sQW8RX
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_6JMS5WRbb3MGBsdc / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_WzzjqjgKSDxVKdny
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3
+  official_code: 12.1.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.1.3
+  label: qstn_b6BdkjCPHgQprWsN / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_YCNsz6SNdN9p8QDW
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_dVnyyqM5kB9BkrPP / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_ZSp8S8YvSW6qcs8d
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.4
+  official_code: 12.2.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.2.4
+  label: qstn_P7rz7hvhZM58vZsp / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_hWVTgxKP3qCMQm6M
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_y2nX6HMQrR4TQ7CB / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_hn2F7hSSHMSnWMX8
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_qYgYb6ndpcSTDmp3 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_hpWhHZr2WZzvfCq2
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:3.2.2
+  official_code: 3.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.2
+  label: qstn_cbs76VnNHm9yZmDB / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_k4JMV2F5dScTRcyR
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_6JMS5WRbb3MGBsdc / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_nJPJX3HVV6gBPcyv
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_PmtZySbcgVYRQ7YR / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_nkFWRPDVqVMYPCRz
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_PmtZySbcgVYRQ7YR / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_s9gX52mxN5TjdCWX
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_Y6jwNPbXx45XH22N / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_sS8F6KmBXGYftmzH
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:3.2.2
+  official_code: 3.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.2
+  label: qstn_hmFQxtvxz2HPR7v9 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_tZcJPZTqwd35BgyC
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_QvYNysV3XDMv7Jbk / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_tmgxqfn3WTr3NQFK
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2
+  official_code: 19.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 19.2.2
+  label: qstn_Gshn58VxRpr7B3yz / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_vg8pxndnHRfW2J5C
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.2
+  official_code: 12.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.2.2
+  label: qstn_2pFFzYkrDdcpS857 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_wmkr6D6zYwCHSM8q
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.4
+  official_code: 12.2.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.2.4
+  label: qstn_T8SvXPzFJ3Q6qdzv / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_x9FrPmtSrvWnmxYZ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1
+  official_code: 16.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 16.2.1
+  label: qstn_MGwTFgR7t4ZFKMw8 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_y6XvDvsqf88fX9nB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3
+  official_code: 12.1.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 12.1.3
+  label: qstn_rnCPS5Q4TcGTVcBf / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-biology-25
+  item: qstnprt_zz4drXZjN3vfwzsD
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1
+  official_code: 11.1.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 11.1.1
+  label: qstn_gQzMXdZcP6sswXVk / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_25hTxD2rdNGQP4BB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_9nwznv8hS4c6SxwD / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_2gNgVx2YB5tnjrmT
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_RB3v2QG38n9Fcwt6 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_3kkRSjrJf9CNjHmd
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_zZJTYhXVJhDhGCRW / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_Gwz7Nq8dsj7HRzm6
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_6fHCdJ5bmb59xyNV / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_HMRzHtvYcmmzgrFG
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_xSRVmHsF8RnsZH65 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_HrSmzzdSQyj92bFM
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_qypG32fhVPXV6ZZJ / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_PZN33HQT2xbdhCc9
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_Yztr5RfCmyrPcKtp / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_Q5Ryk6XbBFHNc9yp
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_vj9kTtMrmCtg6W6F / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_QbVF7mHDQqKSGHy5
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_z8bNHPXfmdrMmbRT / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_S66nwQCyySYtXn9k
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_cFbYwQfSp2Fz5JpV / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_SJD6wHmgM3N8qSxQ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_KtvkHGZ5SH2w554V / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_St3XtJ89yqNvk6NF
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_SWmkP4vYYq8zScDm / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_TfJ5TQjFYK3QqY4H
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_QCtq2N6ct9Z5jypZ / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_WjkvzXSpyR5KSXJt
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_nSwXFBxnhPYRhfSv / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_XQRgbCftTmz7mrTV
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_6Ybm4TGFsmCpH2VK / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_Yymr3TdKzCVq7mgJ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_y9bJXdCkt5CbBjgh / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_bcn3jXTHKpZnCjfF
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_kThrKHGvhkcG9s3P / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_dpkzwJGzBNcfJFGW
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_spSzTmMKbnpBsqjV / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_fTN6yvZ9PpHyTDjx
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_n6MtBydZWxFbZPz4 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_sNjN6YX3YVXwydVS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_VsFjSRTmsQ7PVjrC / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_vsXc8rnSDtdYVjY8
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.2.1
+  official_code: 2.2.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.2.1
+  label: qstn_TGJsrffXwPdJd86G / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_wGWpyt5BwXmNwHRG
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_CpD6SY7c5Db7SJzG / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_wJDRvMsJNsn4ZtNR
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_SzhBMpm3CHThZM3X / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_yQM5Kfb7YqQXRpy8
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_dt98qGMnqSHzxWyX / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-chemistry-25
+  item: qstnprt_zzc3ghSPNMpn6tr2
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.7.1
+  official_code: 3.7.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.7.1
+  label: qstn_3DsTMF5cPKjvpr32 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_4PsFfKQks9R8hKk6
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_FRvMYQHTdZrz5KH9 / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_7rRqTt38FXm2NHVf
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_WD4Hccchxvp8f8Rz / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_C5WD7SZJSMKM5Fzt
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_QwtTXghPXYbfpVcS / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_JfXxprmvsh9R7MKJ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_WD4Hccchxvp8f8Rz / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_KFb6XYpYrbyyYGmQ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_FYyf7fqRft5P7tdT / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_KbHYtzjNczqYVDbK
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_FRvMYQHTdZrz5KH9 / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_PbDjFDrksgXDW8nS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_QwtTXghPXYbfpVcS / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_SwfCBFknzyqZwNqF
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_WD4Hccchxvp8f8Rz / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_VdDH5ypQKj7ghhm3
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_5rzFdhGsDFHzhQDK / part 3
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_X35RdHFBC53P2zjk
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_8s6wNnHqghJYrh6D / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_bW2ryHJHZDDn567G
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_8s6wNnHqghJYrh6D / part 2
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_dnTWBjYPq9zZ7swq
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_FRvMYQHTdZrz5KH9 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_m92NFD2DNxBKv2D5
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_8s6wNnHqghJYrh6D / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_rbJpKzFbP4kXs3Wq
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_FRvMYQHTdZrz5KH9 / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-a-level-physics-25
+  item: qstnprt_tBgTsKkqf5pGV7vy
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_A_LEVEL_PHYSICS_2025_2027:18.4.1
+  official_code: 18.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 18.4.1
+  label: qstn_FYyf7fqRft5P7tdT / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_2F7VdRSQG4VVbD93
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:2.3.2
+  official_code: 2.3.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.3.2
+  label: qstn_Xsrps8NGkvpxQtmT / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_2VmDXzGx4BWvYgfb
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.1
+  official_code: 1.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.1
+  label: qstn_5P5GzPHHFWP4PXqP / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_38NtbQHD7FwtcwWr
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.1.2
+  official_code: 4.1.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.1.2
+  label: qstn_fNJmFcrHQfkwcTW6 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_38ftpwP5X2ShDqZM
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:3.3.1
+  official_code: 3.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.3.1
+  label: qstn_6mK2kTffHxsrJJNf / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_4N5ncyG4yGdkqmXB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:2.3.2
+  official_code: 2.3.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.3.2
+  label: qstn_S6JjzRxWpYGqG4Xz / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_7VnfHsbcQtjRnpCB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.3.1
+  official_code: 4.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.3.1
+  label: qstn_4nZdBmtfzMFcNGbT / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_7jj337psMmYWyQJs
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.1
+  official_code: 1.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.1
+  label: qstn_gkjXZPgbRgtqzfxK / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_BFcvxPzPpv6H2c45
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_XRWJPYKvz2HrkMsR / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_Bw9Q2CM8SDZpcMYS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.3
+  official_code: 1.3.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.3
+  label: qstn_482JGjzrHNPVw4qf / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_CRNNhnhFv6vDwhw6
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.1.2
+  official_code: 4.1.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.1.2
+  label: qstn_BmSdt65zwYvSrwpM / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_DFNpxkGhxp649wxS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:6.3.1
+  official_code: 6.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 6.3.1
+  label: qstn_qKjDGNGzG66hG82c / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_GFSjpqXXYkfSN96w
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:2.4.1
+  official_code: 2.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.4.1
+  label: qstn_F7RnzqtzPRSK5H73 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_GSmWjGTvnCgQqkyP
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:2.3.2
+  official_code: 2.3.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.3.2
+  label: qstn_d4Y2bwDtPqYQV5jv / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_J9h3X3y4kNs4RNKB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.4.1
+  official_code: 4.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.4.1
+  label: qstn_53p78QJdcJ8JBmKd / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_MTncBgHxzntM2VSp
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:2.4.1
+  official_code: 2.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.4.1
+  label: qstn_QjbNy2xpD9gVD5xf / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_MYwJKHgv5X889cgY
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:6.3.3
+  official_code: 6.3.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 6.3.3
+  label: qstn_YMNwmYxq24WqbV7w / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_MpKRbH2zTFhQjXkP
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.4.1
+  official_code: 5.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.4.1
+  label: qstn_f9Qm4dKvsZ66PC5M / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_NYnzSwC6cW33ZjJC
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:3.1.2
+  official_code: 3.1.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.1.2
+  label: qstn_p8tc5RSwYyQH2Q78 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_R3Z5qpr97vYx9SKb
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_wkS4fzXB5wDmgR73 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_Rqbp8P3KNzfFRHNP
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.1.2
+  official_code: 4.1.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.1.2
+  label: qstn_vYp2KsHqRNmP2JF2 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_Sv6pmjQbHHnC3vYF
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.1.2
+  official_code: 4.1.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.1.2
+  label: qstn_2fcjvmGYBxFqTVhz / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_TW3XwhPSmqJsNB5k
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.1.2
+  official_code: 4.1.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.1.2
+  label: qstn_pqy5FNj8YRhYPrh3 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_VNdHpxBQp7jGqMQX
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_5SSPmqW9cSdjsXDy / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_VSsGJjqCFj2XtpgS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_H5NGwGdrVfR8MwKx / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_WydNvq6DtTybk524
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.1
+  official_code: 1.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.1
+  label: qstn_Msp6czWbVPsK5Q6g / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_YTJdw62sSbcK8hZs
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_GF5WfTG8KjNchTdV / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_ZKwXm37Rq2N4wM5X
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.3.1
+  official_code: 4.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.3.1
+  label: qstn_jjb7t3xR2xkknyHP / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_c5khP2FpF8DYbpbB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.3.1
+  official_code: 4.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.3.1
+  label: qstn_XDMHgQ3m8Ztzj9bH / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_d9v7GtSpGxMB3sG5
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.4.1
+  official_code: 5.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.4.1
+  label: qstn_ZHfjv9g686cybwVy / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_dJKPmC36MTBKndvX
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.1
+  official_code: 1.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.1
+  label: qstn_MdhxCxJSfr3W9pCW / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_fXVbkG9f9m9KcJJ4
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.4.1
+  official_code: 4.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.4.1
+  label: qstn_4PKgjwpy39GZndnM / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_g3gJ82tZGCHpKNjf
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.3
+  official_code: 1.3.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.3
+  label: qstn_ZVH8Thr2mQTYK8rV / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_h5FdXn2NGb5MH9tG
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.4.1
+  official_code: 4.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.4.1
+  label: qstn_3gtNHC6cSg5zMF2Q / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_hT3bpRgp6Jfbzf69
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.3.1
+  official_code: 4.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.3.1
+  label: qstn_rcSMNj9mxhfYHYBY / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_hzqpmBnVNKh4ndBQ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:3.3.1
+  official_code: 3.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.3.1
+  label: qstn_WJXGZXW2vVwDwywz / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_jGJ8fBWJFmqTKwBf
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:4.3.1
+  official_code: 4.3.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.3.1
+  label: qstn_rmZF5Y89cTnQ7SVN / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_kPp45RGR38Fdvpjb
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_jnYyJCr978MZXMPC / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_n9ZngKnYtTySdbvC
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:5.5.4
+  official_code: 5.5.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 5.5.4
+  label: qstn_6Xtt9QQr6BvJ83R3 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_sPFqY847vTsX8p84
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.3
+  official_code: 1.3.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.3
+  label: qstn_gBMCsw4fxdKPjBbY / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_v3vgTCqZRFMGDprQ
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:2.4.1
+  official_code: 2.4.1
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 2.4.1
+  label: qstn_nmkzyRFJgHFCCsws / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-business-23
+  item: qstnprt_ytg6mS5859NScVkj
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_BUSINESS_2023_2025:1.3.3
+  official_code: 1.3.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 1.3.3
+  label: qstn_BqF5wW2N82zrH6rm / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-computer-science-23
+  item: qstnprt_B2ZctjXJm7ZH2M4Y
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.2.2
+  official_code: 8.2.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: 8.2.2
+  label: qstn_QF4b4xDQDY7DFFfy / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-computer-science-23
+  item: qstnprt_RDXpPPH7c8yF9F6v
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.2.2
+  official_code: 8.2.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: 8.2.2
+  label: qstn_KhDY7zsyKH6yqD3R / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-computer-science-23
+  item: qstnprt_ZtD8vDR9DPxgbzt9
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.2.2
+  official_code: 8.2.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: 8.2.2
+  label: qstn_hSy95WCVDCDkwrV5 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-computer-science-23
+  item: qstnprt_jrc3YMVK95Jd8WjD
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.2.2
+  official_code: 8.2.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: 8.2.2
+  label: qstn_pyDDgg3gGG2WR5HK / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-computer-science-23
+  item: qstnprt_q9YQzPk6PF4MXQtw
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.2.2
+  official_code: 8.2.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: 8.2.2
+  label: qstn_vr2rpzgH7xhdDtjY / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-computer-science-23
+  item: qstnprt_xmhwbc8g4qfPK7G7
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_COMPUTER_SCIENCE_2023_2025:8.2.2
+  official_code: 8.2.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: 8.2.2
+  label: qstn_wVfwcm7mpzKhVKB8 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_6zNxk6szMhybcpNW
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.2-dup5
+  official_code: 4.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.2
+  label: qstn_f7dDmhJbTTQBmPWq / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_6zNxk6szMhybcpNW
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup5
+  official_code: 4.2.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.3
+  label: qstn_f7dDmhJbTTQBmPWq / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_6zNxk6szMhybcpNW
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.6-dup2
+  official_code: 4.2.6
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.6
+  label: qstn_f7dDmhJbTTQBmPWq / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_DwQ5qgyTGJHdWnpm
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.2-dup5
+  official_code: 4.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.2
+  label: qstn_Z6SMTFwWgmj6PYTF / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_DwQ5qgyTGJHdWnpm
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup5
+  official_code: 4.2.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.3
+  label: qstn_Z6SMTFwWgmj6PYTF / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_DwQ5qgyTGJHdWnpm
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.6-dup2
+  official_code: 4.2.6
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.6
+  label: qstn_Z6SMTFwWgmj6PYTF / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_JVdzVJ4y7KsBbd7K
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.2-dup5
+  official_code: 4.2.2
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.2
+  label: qstn_57vTT9XGkbwH5Bqk / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_JVdzVJ4y7KsBbd7K
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup5
+  official_code: 4.2.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.3
+  label: qstn_57vTT9XGkbwH5Bqk / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_JVdzVJ4y7KsBbd7K
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.6-dup2
+  official_code: 4.2.6
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.6
+  label: qstn_57vTT9XGkbwH5Bqk / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_QtqzgJZPTDqrvHG7
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.3-dup3
+  official_code: 3.2.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.3
+  label: qstn_qDbpBTd92HwNBBWy / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_RV4Y8rknVNJRVpwj
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.4-dup4
+  official_code: 4.2.4
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 4.2.4
+  label: qstn_yCnmfY82qgsjmNgD / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_WZZCKS6WnrRDMs6r
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.3-dup3
+  official_code: 3.2.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.3
+  label: qstn_q9W56HtYpmX7vc5d / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-physics-23
+  item: qstnprt_p6mxQ8psNXbXbxT6
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.3-dup3
+  official_code: 3.2.3
+  prior:
+    tier: T2_near
+    method: cie_definition_text_join
+  spine_code: 3.2.3
+  label: qstn_n8Ss7tYcGNcHqfrj / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_definition_text_join); T2 tier audited 584/584 lower-bound,
+      zero defects (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_8JWJB9JJdCWSYM55
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.2
+  official_code: C3.3.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C3.3.2
+  label: qstn_85GR6gKm7jJSyFdH / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_946vPYWBxtRrP3Hk
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.4.3
+  official_code: C12.4.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C12.4.3
+  label: qstn_7YJCyYjyf4SCBMqv / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_FMs6hygZHrm4XtZH
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.6
+  official_code: C6.2.6
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C6.2.6
+  label: qstn_qgqn7BNHQrgfKpxH / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_GZwGxMSjN8fnKgq4
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1
+  official_code: C7.2.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C7.2.1
+  label: qstn_HbhxjDRX5d9qvHwf / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_HVchmVGRVH5RDmJ9
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1
+  official_code: C7.2.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C7.2.1
+  label: qstn_RvQGks2Q9KHCzs6b / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_JPPB22qJqJPsdmZG
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1
+  official_code: C7.2.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C7.2.1
+  label: qstn_YPhZGwDY2FzfMrRM / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_Jvwn7DKCHDvXzXsR
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.4
+  official_code: C3.3.4
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C3.3.4
+  label: qstn_xMqry7HJdRBdQR9r / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_McDt3gphtQtVFMNf
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C10.2.1
+  official_code: C10.2.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C10.2.1
+  label: qstn_qSFsVK6kYbvFwK44 / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_Qz3GGYnDcpGS4z5w
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C6.2.6
+  official_code: C6.2.6
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C6.2.6
+  label: qstn_NSj6QDC4YyV8sbvQ / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_RPWcDrbt2Xx3SmhS
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C10.2.1
+  official_code: C10.2.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C10.2.1
+  label: qstn_g8TCCVTyRB7QHsYp / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_YrkSTYKjpssrVK9B
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C7.2.1
+  official_code: C7.2.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C7.2.1
+  label: qstn_t8qqFvpfJsZXSkPB / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_cNXgXQb3kxsT9wrg
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C12.4.3
+  official_code: C12.4.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C12.4.3
+  label: qstn_tgqqcKrTxhMMdsdW / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_prggjCvrdrxrmb93
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.4
+  official_code: C3.3.4
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C3.3.4
+  label: qstn_SVGb6fFhDpCWT9mN / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_rYtKDxthNYP9Tfjc
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.2
+  official_code: C3.3.2
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C3.3.2
+  label: qstn_x7Wp99tDxkZJsWQx / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry
+  item: qstnprt_sJXYp75PTdyPKqfj
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027:C3.3.4
+  official_code: C3.3.4
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C3.3.4
+  label: qstn_9PBwXJqkHQxmwTVx / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-biology
+  item: qstnprt_3dzmfWjVmRgTWSXs
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:B3.1.3
+  official_code: B3.1.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: B3.1.3
+  label: qstn_wZsHCC8sTJxnt45G / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-biology
+  item: qstnprt_JHMb3Py47fdhMcY2
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:B3.1.3
+  official_code: B3.1.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: B3.1.3
+  label: qstn_wZsHCC8sTJxnt45G / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-biology
+  item: qstnprt_SfydJP3hMk7Z74wK
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:B3.1.3
+  official_code: B3.1.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: B3.1.3
+  label: qstn_YnmnHWpSNND2xdnY / part 1
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-biology
+  item: qstnprt_XfBQmVX6wGp7msqC
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:B3.1.3
+  official_code: B3.1.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: B3.1.3
+  label: qstn_2cSFQxsrhPCYSkZT / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-biology
+  item: qstnprt_dmQ7YnsV3T3Q6thj
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:B6.3.1
+  official_code: B6.3.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: B6.3.1
+  label: qstn_zF3BHSdYhhKM54YT / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-biology
+  item: qstnprt_gsMJGzH4WyMdNpyt
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:B3.1.3
+  official_code: B3.1.3
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: B3.1.3
+  label: qstn_YnmnHWpSNND2xdnY / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-chemistry
+  item: qstnprt_7RFxyDS6Hc2FX9Zd
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:C3.4.4
+  official_code: C3.4.4
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C3.4.4
+  label: qstn_pzFpH6fhfF7bRVYK / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-chemistry
+  item: qstnprt_BrgjRBnB4ZZd7MnB
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:C5.1.1
+  official_code: C5.1.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C5.1.1
+  label: qstn_6xSS5Fp367ZsKdMM / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
+- lane: cie-igcse-science-combined-science-23-chemistry
+  item: qstnprt_cJNzCcCMHwHXWxBD
+  kind: question_part
+  tier: V6_near_text_verdict
+  official_id: CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:C5.1.1
+  official_code: C5.1.1
+  prior:
+    tier: T2_near
+    method: cie_text_join
+  spine_code: C5.1.1
+  label: qstn_r5SS626wxKJSVvKG / part 0
+  evidence:
+    origin: GATE-1-accepted near join (cie_text_join); T2 tier audited 584/584 lower-bound, zero defects
+      (T-SPECS-CIE-GATE-1); spine-resolvable of record
+    queue_of_record: cie-anchor-gap-census-r0.json tranche1_t2NearVerdicts (155-part queue, computed,
+      never transcribed)
+    r9_consume_state: held out of linkage as items[].t2HintCodes; codes[] empty on the committed map (the
+      t2HintCodes law, cie-consume-r9-run-001)
