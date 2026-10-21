@@ -6,7 +6,7 @@
  "unit_scope": null,
  "generated_utc": "2026-09-18T10:43:41Z",
  "sme_entries": 121,
- "official_pool": 131,
+ "official_pool": 412,
  "mappings": {
   "spcpt_2YWCbjWF3fHMPpR8": {
    "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-1.51",
@@ -1101,5 +1101,19 @@
    "flag": "high-similarity but not near-verbatim — review"
   }
  ],
- "join_method": "sme_spcpt_sibling_map.py full-pool join (resolver-grade scoring, unit-scope boost, cross-unit winners flagged; pre-existing better-evidence mappings kept)"
+ "join_method": "sme_spcpt_sibling_map.py full-pool join (resolver-grade scoring, unit-scope boost, cross-unit winners flagged; pre-existing better-evidence mappings kept)",
+ "provenance": [
+  {
+   "stage2_refresh": {
+    "field": "official_pool",
+    "vintage_value": 131,
+    "restated_value": 412,
+    "rule": "builder law: map_spec_points.course_scope + candidates_for on committed Official-Specifications/parsed data (same law that built the 42 coherent maps)",
+    "note": "vintage pool was subject-scoped (Chemistry=131) without declaring it; the builder has no subject-scope concept and the sibling biology/physics maps use the full 412; mappings verified 119/119 subject-pure",
+    "mappings_touched": 0,
+    "trace": "1a15f76c1e5d3799",
+    "utc": "2026-10-21T17:41:33+00:00"
+   }
+  }
+ ]
 }

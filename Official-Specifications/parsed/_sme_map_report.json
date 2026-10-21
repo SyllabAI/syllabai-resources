@@ -281,46 +281,51 @@
    "regime": "B",
    "unit_scope": "Unit 1",
    "sme_entries": 137,
-   "official_pool": 182,
-   "mapped": 94,
+   "official_pool": 100,
+   "mapped": 59,
    "tiers": {
-    "S1_name_match": 67,
-    "S2_name_ambiguous": 22,
-    "T4_fuzzy": 5
+    "S1_name_match": 54,
+    "S2_name_ambiguous": 5
    },
-   "unmapped": 43,
-   "flags": 36,
-   "join_method": "full-pool"
+   "unmapped": 78,
+   "flags": 5
   },
   "igcse-chemistry-modular-24-unit-2": {
    "qual": "igcse-chemistry-modular",
    "regime": "B",
    "unit_scope": "Unit 2",
    "sme_entries": 120,
-   "official_pool": 182,
-   "mapped": 80,
+   "official_pool": 81,
+   "mapped": 39,
    "tiers": {
-    "S1_name_match": 55,
-    "T4_fuzzy": 5,
-    "S2_name_ambiguous": 20
+    "S1_name_match": 32,
+    "S2_name_ambiguous": 7
    },
-   "unmapped": 40,
-   "flags": 44,
-   "join_method": "full-pool"
+   "unmapped": 81,
+   "flags": 7
   },
   "igcse-economics-17": {
    "qual": "igcse-economics",
    "regime": "B",
    "unit_scope": null,
    "sme_entries": 204,
-   "official_pool": 94,
+   "official_pool": 108,
    "mapped": 33,
    "tiers": {
     "S1_name_match": 28,
     "S2_name_ambiguous": 5
    },
    "unmapped": 171,
-   "flags": 5
+   "flags": 5,
+   "stage2_refresh": [
+    {
+     "field": "official_pool",
+     "vintage_value": 94,
+     "restated_value": 108,
+     "trace": "1a15f76c1e5d3799",
+     "utc": "2026-10-21T17:41:33+00:00"
+    }
+   ]
   },
   "igcse-english-literature-16": {
    "qual": "igcse-english-literature",
@@ -354,14 +359,23 @@
    "regime": "B",
    "unit_scope": null,
    "sme_entries": 262,
-   "official_pool": 155,
+   "official_pool": 240,
    "mapped": 6,
    "tiers": {
     "S1_name_match": 5,
     "S2_name_ambiguous": 1
    },
    "unmapped": 256,
-   "flags": 1
+   "flags": 1,
+   "stage2_refresh": [
+    {
+     "field": "official_pool",
+     "vintage_value": 155,
+     "restated_value": 240,
+     "trace": "1a15f76c1e5d3799",
+     "utc": "2026-10-21T17:41:33+00:00"
+    }
+   ]
   },
   "igcse-ict-17": {
    "qual": "igcse-ict",
@@ -524,7 +538,7 @@
    "regime": "A",
    "unit_scope": null,
    "sme_entries": 121,
-   "official_pool": 131,
+   "official_pool": 412,
    "mapped": 119,
    "tiers": {
     "T1_verbatim": 84,
@@ -534,7 +548,16 @@
    },
    "unmapped": 2,
    "flags": 17,
-   "join_method": "full-pool"
+   "join_method": "full-pool",
+   "stage2_refresh": [
+    {
+     "field": "official_pool",
+     "vintage_value": 131,
+     "restated_value": 412,
+     "trace": "1a15f76c1e5d3799",
+     "utc": "2026-10-21T17:41:33+00:00"
+    }
+   ]
   },
   "igcse-science-double-award-17-physics": {
    "qual": "igcse-science-double-award",

@@ -39,6 +39,7 @@ NOTES = BASE / "SME-RevisionNotes"
 EQ = BASE / "SME-ExamQuestion"
 FC = BASE / "SME-Flashcards"
 OUT = BASE / "spec-links"
+PARSED = BASE / "Official-Specifications" / "parsed"
 SCHEMA = "syllabai.learner-spec-links/1.0"
 
 ALL_COURSES = sorted(p.name for p in EQ.iterdir()
@@ -94,13 +95,36 @@ def verdict_overlay(eq_dir: Path, mappings: dict) -> dict:
     return overlay
 
 
-def merge_part_codes(codes, part, mappings):
+def load_spine_ids(qual):
+    """Spine ids of record for the qual (T-SPEC-STAGE2-1): the official pool the
+    sidecar codes must resolve against. None when the spine is absent — callers
+    then fall back to the pre-stage-2 pass-through behavior."""
+    if not qual:
+        return None
+    sp = PARSED / qual / "spec_points.json"
+    if not sp.exists():
+        return None
+    try:
+        return {p["id"] for p in json.loads(sp.read_text(encoding="utf-8"))["spec_points"]}
+    except Exception:
+        return None
+
+
+def merge_part_codes(codes, part, mappings, spine_ids=None):
     """T-SPEC-2c/2e: part-level operator-verdict codes live directly on the
     topic.json part (spec_point_codes). They are authoritative (validated
     against the course registry by the fail-closed apply lanes and by verify
     G1) and are merged here so learner links match the corpus. Id-level
-    resolutions (map lane / overlay) win on duplicate official_code."""
-    have = {c["official_code"] for c in codes}
+    resolutions (map lane / overlay) win on duplicate official_id.
+
+    T-SPEC-STAGE2-1: converter-era part codes may be paper-qualified
+    (e.g. 4CH1-1.14). When the verbatim qualified id is not spine-valid and
+    the deterministic paper-prefix strip resolves to a spine id, the code is
+    emitted in the spine form (official_id + official_code) with the
+    resolution suffix on method. Codes that resolve nowhere pass through
+    verbatim (visible, never dropped, never guessed)."""
+    have_codes = {c["official_code"] for c in codes}
+    have_ids = {c["official_id"] for c in codes}
     prefix = None
     for m in mappings.values():
         oid = m.get("official_id") or ""
@@ -109,15 +133,27 @@ def merge_part_codes(codes, part, mappings):
             break
     extra = []
     for c in part.get("spec_point_codes") or []:
-        if c in have:
-            continue
-        have.add(c)
-        extra.append({"official_id": f"{prefix}:{c}" if prefix else c,
-                      "official_code": c,
+        oid = f"{prefix}:{c}" if prefix else c
+        ocode = c
+        method = ("operator-verdict part lane (T-SPEC-2c/2e; "
+                  "PMT excluded as source per operator "
+                  "instruction 2026-09-18)")
+        if (spine_ids and prefix and "-" in c
+                and oid not in spine_ids):
+            cand = f"{prefix}:{c.split('-', 1)[1]}"
+            if cand in spine_ids:
+                oid = cand
+                ocode = c.split("-", 1)[1]
+                method = method + "; stage-2 paper-qualified part code " \
+                         "resolved to spine (T-SPEC-STAGE2-1)"
+        if oid in have_ids or ocode in have_codes:
+            continue  # id-level resolutions (map lane / overlay) win
+        have_ids.add(oid)
+        have_codes.add(ocode)
+        extra.append({"official_id": oid,
+                      "official_code": ocode,
                       "tier": "operator-verdict-part",
-                      "method": "operator-verdict part lane (T-SPEC-2c/2e; "
-                                "PMT excluded as source per operator "
-                                "instruction 2026-09-18)"})
+                      "method": method})
     if not extra:
         return codes
     return sorted(codes + extra, key=lambda c: c["official_id"])
@@ -133,6 +169,7 @@ def course_bundle(course: str) -> dict:
         qual = mj.get("qual")
         mappings = mj.get("mappings") or {}
     mappings.update(verdict_overlay(eq_dir, mappings))
+    spine_ids = load_spine_ids(qual)  # T-SPEC-STAGE2-1 resolution universe
 
     items: dict = {}
     stats = Counter()
@@ -167,7 +204,7 @@ def course_bundle(course: str) -> dict:
                 if not spids:
                     continue
                 codes, pending = resolve(spids, mappings)
-                codes = merge_part_codes(codes, p, mappings)
+                codes = merge_part_codes(codes, p, mappings, spine_ids)
                 items[p["id"]] = {
                     "kind": "question_part",
                     "label": f"{(q.get('reference') or q.get('id') or 'question')} / part {p.get('order')}",
