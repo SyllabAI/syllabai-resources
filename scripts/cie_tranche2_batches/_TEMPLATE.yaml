@@ -1,0 +1,29 @@
+# T-SPECS-CIE-TRANCHE2-R2-BATCH template — copy to {batch_id}.yaml and fill.
+# The operator rules rows of a regenerated review sheet per sid (the sheet is
+# scripts/cie_tranche2_sheets/{bank}.yaml; its sha256 sits in _index.json).
+# verdicts: anchor (codes required — the registry-paired official_id/official_code)
+#         | quarantine (no honest anchor from the evidence; reason required)
+#         | defer (not ruled now; reason required).
+# The lane never invents: every anchored code is byte-verified against the
+# bank's parsed registry before any write (ADR-030, AGENT.md rule 3).
+lane: T-SPECS-CIE-TRANCHE2-R2-BATCH-<batch_id>
+batch_id: <batch_id>            # slug-safe, unique, e.g. chem25-b01
+bank: <bank slug>               # e.g. cie-a-level-chemistry-25
+source_sheet: scripts/cie_tranche2_sheets/<bank>.yaml
+source_sheet_sha256: <verbatim from scripts/cie_tranche2_sheets/_index.json>
+directive: <the operator's order, verbatim>
+ruled_utc: <ISO-8601>
+ruled_by: operator
+rulings:
+  - sid: spcpt_<...>
+    verdict: anchor
+    codes:
+      - official_id: <qual-slug-namespace>:<code>
+        official_code: "<code>"
+    note: <optional operator note>
+  - sid: spcpt_<...>
+    verdict: quarantine
+    reason: <verbatim rationale>
+  - sid: spcpt_<...>
+    verdict: defer
+    reason: <verbatim rationale>
