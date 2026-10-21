@@ -627,6 +627,13 @@ A student investigates the reaction between magnesium and hydrochloric acid. He 
 
 Complete the word equation for the reaction. magnesium + hydrochloric acid → +
 
+
+**Mark scheme answer**
+
+>  magnesium chloride + hydrogen ACCEPT in either order
+
+- **(1)**  magnesium chloride + hydrogen ACCEPT in either order
+
 ### 7(b)(i) [2]
 
 Complete the table by giving the temperatures to the nearest 0.1 °C. temperature of the acid at the start in °C highest temperature reached in °C temperature rise in °C 20.8

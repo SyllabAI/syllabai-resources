@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T15:37:51Z",
+ "generated_utc": "2026-10-21T18:28:41Z",
  "series": "2025-06",
  "paper": "2C",
  "gates": [
@@ -61,17 +61,15 @@
   {
    "gate": "G5-answer-linkage",
    "status": "PASS",
-   "summary": "MS linkage 37/38 (97%)",
+   "summary": "MS linkage 38/38 (100%)",
    "details": {
-    "unmatched": [
-     "1(b)(ii)"
-    ]
+    "unmatched": []
    }
   },
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 38 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 0 parts pending-llm tagging; 2 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -82,12 +80,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 37/37 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 36 parts, agrees with QP marks on 36",
+   "summary": "solution_md on 38/38 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 37 parts, agrees with QP marks on 37",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 36,
-    "ms_marks_agree": 36,
+    "ms_marks_seen": 37,
+    "ms_marks_agree": 37,
     "ms_marks_disagree": []
    }
   }
@@ -110,21 +108,12 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "2(e)",
-   "reason": "figure crop emitted — human verify (assets/asset_2_e_diagram.png)"
-  },
-  {
-   "part": "1(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "mcq_keys_applied": [],
  "spec_tagging": {
-  "tagged": 0,
+  "tagged": 36,
   "parts": 38,
-  "pending_llm": 38,
-  "no_spec_point": 0
+  "pending_llm": 0,
+  "no_spec_point": 2
  }
 }

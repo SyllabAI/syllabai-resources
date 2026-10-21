@@ -4,6 +4,32 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.9.0 — 2026-10-22 · 2C wave: crop-eyeball fixes (F40), ledger keying (F39), 2C spec-label wave
+
+The 2C backlog opened by the 0.8.0 enablement wave is closed end-to-end.
+
+- **Crop-review ledger keying (F39)** — the converter now loads
+  `reviews["<series>:<paper>"]` for non-1C papers (the documented convention that
+  C22 and AGENTS.md already enforced; the load site was still reading the bare
+  series key, so non-1C verdicts were silently ignored).
+- **Nine crop-resolution fixes (F40 a-i)** — every first-pass 2C review item was
+  eyeballed against its source page and traced to a generic mechanism: adjacent
+  whole-stem fallback restricted to definite references (a); two reference-up
+  direction shapes added (b); stem-sentence glyph-glue retried from the noun
+  phrase (c); drawn-axis scaffold rescue with zero-width-rect normalisation (d);
+  PUA-stripped page anchors (e); sentence-initial noun post-context probes (f);
+  '<noun> in your answer' student-provided suppression with a definite-reference
+  guard (g); marks-matched sub-numbered MS block fallback + roman case
+  normalization (h,i). 1C extraction fields stay byte-identical; 9 adjudicated
+  1C improvements (5 previously-unmatched parts now linked, 3 wrong figure
+  bindings corrected, 1 stem asset retired) — each eyeballed.
+- **2C spec-label wave (first wave)** — 607/607 parts resolved: 584 tagged with
+  registry-validated codes (G6: 0 invalid) + 23 terminal no-spec-point parts
+  decided against the published 4CH1 spec PDF (F38 evidence standard). 2C
+  coverage is terminal like 1C; C33 pins it.
+- **Verdicts** — 17 2C verdicts across 10 `<series>:2C` CROP-REVIEW homes
+  (16 accepted crops + 1 stub-accepted). 45 canaries (C33-C47 added); floor 0.9.0.
+
 ## 0.8.1 — 2026-10-21 · MCQ-key adjudication ledger + terminal no-spec-point state
 
 Both long-standing 1C human-decision items closed with evidence (LEDGER F37/F38):

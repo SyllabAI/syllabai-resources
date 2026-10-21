@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T15:37:39Z",
+ "generated_utc": "2026-10-21T18:28:30Z",
  "series": "2023-01",
  "paper": "2C",
  "gates": [
@@ -54,7 +54,7 @@
     "crop_stats": {
      "crops": 8,
      "pending": 0,
-     "shared": 4
+     "shared": 5
     }
    }
   },
@@ -69,7 +69,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 37 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 0 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -108,21 +108,12 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "7(a)",
-   "reason": "figure crop emitted — human verify (assets/asset_7_a_diagram.png)"
-  },
-  {
-   "part": "7(b)(i)",
-   "reason": "figure crop emitted — human verify (assets/asset_7_b_i_table.png)"
-  }
- ],
+ "review_queue": [],
  "mcq_keys_applied": [],
  "spec_tagging": {
-  "tagged": 0,
+  "tagged": 37,
   "parts": 37,
-  "pending_llm": 37,
+  "pending_llm": 0,
   "no_spec_point": 0
  }
 }

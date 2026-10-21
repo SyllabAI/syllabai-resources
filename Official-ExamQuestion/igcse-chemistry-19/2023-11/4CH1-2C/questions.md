@@ -262,7 +262,7 @@ Aluminium is a metal with many uses. Aluminium is malleable, a good conductor of
 
 The diagram represents the structure of pure aluminium, and the structure of an alloy of aluminium. Pure aluminium Alloy of aluminium Use the diagram to explain why the alloy is harder than pure aluminium.
 
-> 🖼 crop required: diagram (qp.pdf p.9)
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_3_c_diagram.png)
 
 
 **Mark scheme answer**
@@ -744,7 +744,7 @@ Explain how hydrogen gas forms at the negative electrode. 
 
 Use the equation and the values in the table to calculate the enthalpy change, ΔH , for the reaction. Include a sign in your answer. ΔH = kJ
 
-> 🖼 crop required: table (qp.pdf p.22)
+![table — official paper figure (qp.pdf p.22) — shared with asset_7_d_table_stem](assets/asset_7_d_table_stem.png)
 
 
 **Mark scheme answer**

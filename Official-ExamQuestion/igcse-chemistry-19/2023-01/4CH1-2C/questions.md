@@ -617,7 +617,7 @@ This is the displayed formula for a molecule of hydrazine. H H N N H H Complete 
 
 Use the data in the table to calculate the total energy needed to break all the bonds in the reactants. energy needed = kJ 
 
-![table — official paper figure (qp.pdf p.23)](assets/asset_7_b_i_table.png)
+![table — official paper figure (qp.pdf p.24) — shared with asset_7_b_table_stem](assets/asset_7_b_table_stem.png)
 
 
 **Mark scheme answer**
@@ -635,7 +635,7 @@ Use the data in the table to calculate the total energy needed to break all the 
 
 Use the data in the table to calculate the total energy released when all the bonds in the products are made. energy released = kJ
 
-![table — official paper figure (qp.pdf p.23) — shared with asset_7_b_i_table](assets/asset_7_b_i_table.png)
+![table — official paper figure (qp.pdf p.24) — shared with asset_7_b_table_stem](assets/asset_7_b_table_stem.png)
 
 
 **Mark scheme answer**

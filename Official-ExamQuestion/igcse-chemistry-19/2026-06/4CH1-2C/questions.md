@@ -146,8 +146,6 @@ A student sets up this apparatus to do a titration. bung burette 250 cm3 beaker 
 
 The student plans this method for their titration. • add 25.0 cm3 of an alkali to the beaker • add an acid to the burette until the level reaches 0.00 cm3 • open the burette tap and add acid to the beaker until there is a colour change • record the final reading on the burette • repeat the method until concordant results have been obtained. Give three improvements to the student’s method. Do not refer to changes in apparatus in your answer. 1 2 3
 
-![apparatus — official paper figure (qp.pdf p.7) — shared with 2(b)](assets/asset_2_b_apparatus.png)
-
 
 **Mark scheme answer**
 
@@ -447,8 +445,6 @@ Give a suitable test for chloride ions. 
 ### 4(c) [6]
 
 A student is given a sample of solid potassium chloride. Describe a method that the student could use to make 250 cm3 of 0.500 mol/dm3 potassium chloride solution. Include suitable calculations and apparatus in your answer. [for potassium chloride Mr = 74.5]
-
-> 🖼 crop required: apparatus (qp.pdf p.13)
 
 
 **Mark scheme answer**

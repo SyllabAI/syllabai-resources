@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.8.1"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.9.0"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -153,7 +153,7 @@ FOOTER_RE = re.compile(r"\(Total for Question (\d{1,2}) = (\d{1,2}) marks\)")
 QSTART_RE = re.compile(r"^\s*(\d{1,2})\s+([A-Za-z(].*)$")   # remainder must start alpha/'(' (indent-tolerant)
 L1_RE = re.compile(r"^\s*\(([a-h])\s*\)\s*(.*)$")
 L2_RE = re.compile(r"^\s*\((i{1,3}|iv|v|vi{1,3})\s*\)\s+(.*)$")   # romans i..viii
-L2_INLINE_RE = re.compile(r"^\((i{1,3}|iv|v|vi{1,3})\s*\)\s+(.*)$")
+L2_INLINE_RE = re.compile(r"^\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\)\s+(.*)$")
 MARK_RE = re.compile(r"^\s*\((\d{1,2})\)\s*$")
 OPT_RE = re.compile(r"^\s*([A-E])\s+(\S.*?)\s*$")
 ROMAN = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"]
@@ -289,9 +289,9 @@ def finalize_part(lines):
 
 # ---------------------------------------------------------------- stage 3: MS linkage
 MS_ROW_RE = re.compile(
-    r"^ {0,20}(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\)\s*)?(?:\((i{1,3}|iv|v|vi{1,3})\s*\)\s*)?(\S.*)$")
+    r"^ {0,20}(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\)\s*)?(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\)\s*)?(\S.*)$")
 MS_MARKER_ONLY_RE = re.compile(
-    r"^\s*(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\))?\s*(?:\((i{1,3}|iv|v|vi{1,3})\s*\))?\s*$")
+    r"^\s*(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\))?\s*(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\))?\s*$")
 # some series (2019-06) print sub-letters bare without parentheses: "    b      they have..."
 MS_BARE_LETTER_RE = re.compile(
     r"^ {0,20}(?:(\d{1,2})\s+)?([a-h])(?=\s{2,})\s*(.*)$")
@@ -342,6 +342,12 @@ def parse_ms(ms_lines):
         mb = MS_BARE_LETTER_RE.match(ln)
         if mo and any(mo.groups()[:3]):
             qn, letter, roman = mo.group(1), mo.group(2), mo.group(3)
+            # v0.9 (F40i): the printed MS sometimes sets the roman in caps —
+            # '1 (b) (II)' for the QP's 1(b)(ii) (2025-06 2C) — the lowercase-
+            # only row regex treated the row as content and appended the
+            # answer to the WRONG part's block. Normalize to lowercase; the
+            # QP side (L2_RE) stays lowercase-only.
+            roman = roman.lower() if roman else None
             new_q = _honour_qn(qn, bool(letter or roman))
             if new_q is not None:
                 cur_q = new_q
@@ -360,11 +366,15 @@ def parse_ms(ms_lines):
             roman = None
             r2 = L2_INLINE_RE.match(rest.strip())
             if r2:
-                roman, rest = r2.group(1), r2.group(2)
+                roman, rest = r2.group(1).lower(), r2.group(2)
             cur = (cur_q, cur_letter, roman)
             entries.setdefault(cur, [rest.strip()] if rest.strip() else [])
         elif m:
             qn, letter, roman, rest = m.groups()
+            # F40i: same lowercase normalization as the marker-only branch —
+            # the 2025-06 2C MS prints the marker-only '(II)' row and the
+            # MS_ROW_RE branch must fold it too
+            roman = roman.lower() if roman else None
             new_q = _honour_qn(qn, bool(letter or roman))
             if any([new_q, letter, roman]):
                 if new_q is not None:
@@ -618,7 +628,14 @@ def noun_anchor_y(page, problem_md, noun):
     text, each with a direction. 'Complete the table' / 'The diagram shows'
     instruct -> the figure sits BELOW; 'on the diagram' / 'in apparatus X'
     refer -> the figure sits ABOVE. Returns [(y, below?), ...] in document
-    order of the phrases. None when the noun is absent from the page text."""
+    order of the phrases. None when the noun is absent from the page text.
+    v0.9 (F40f): each occurrence first probes FORWARD context (the noun plus
+    the words that FOLLOW it, sentence-bounded) before falling back to the
+    legacy pre-noun window — a sentence-INITIAL noun ('The table shows ...')
+    has a 1-2-word pre-context whose probe matches later lines of the same
+    page, dragging the anchor BELOW the very figure it should sit above
+    (the 2022-06 2C 3(c) defect: both anchors landed on the instruction
+    line under the printed table)."""
     frag = re.sub(r"\s+", " ", problem_md).strip()
     occ = list(re.finditer(rf"\b{noun}s?\b", frag, re.I))
     if not occ:
@@ -635,6 +652,13 @@ def noun_anchor_y(page, problem_md, noun):
         # forward instruction sentence (the 2020-01 9(d)(i) defect where the
         # 'table' of 'Plot the data values from the table' was anchored at
         # the plotting grid below it).
+        # v0.9 (F40b): two more source-reference shapes point UP —
+        #   '... of the <noun>'  ('Explain the shape of the graph': the graph
+        #        is the object being read, 2022-01 2C 6(a)(iii));
+        #   'the data in the <noun>' / 'the values in the <noun>' (the noun
+        #        is a data source, not a writing surface — 'Use the values
+        #        in the table'; 'Complete the table' / 'Plot the results on
+        #        the grid' stay BELOW).
         sentence_start = max(frag.rfind(".", 0, m.start()), frag.rfind("!", 0, m.start())) + 1
         head = frag[sentence_start:m.start()].strip()
         below = True
@@ -646,6 +670,13 @@ def noun_anchor_y(page, problem_md, noun):
                     len(hw) >= 2 and hw[-2].lower() == "from"
                     and hw[-1].lower() in ("the", "this", "that", "his", "its", "your", "each")):
                 below = False
+            elif (len(hw) >= 2 and hw[-2].lower() == "of"
+                  and hw[-1].lower() in ("the", "this", "that", "his", "its", "each")):
+                below = False
+            elif (len(hw) >= 3 and hw[-3].lower() in ("data", "values")
+                  and hw[-2].lower() in ("in", "on", "from")
+                  and hw[-1].lower() in ("the", "this", "that", "his", "its", "each")):
+                below = False
             elif (len(hw) >= 3 and hw[-2].lower() in ("on", "in", "at")
                   and hw[-1].lower() in ("the", "this", "that", "his", "its", "each")
                   and re.match(r"^\s*\(?\s*(?:[a-z]+\)\s*)?(?:label|mark|annotate|name)\b", head, re.I)):
@@ -653,13 +684,34 @@ def noun_anchor_y(page, problem_md, noun):
                                 # figure being marked sits ABOVE (2025-06 1(a);
                                 # 'Plot the results on the grid' stays below —
                                 # the verb gates the direction)
-        for n in (len(ws), 4, 3):
-            if n < 2:
-                break
-            hits = page.search_for(" ".join(ws[-n:]))
-            if hits:
-                out.append((hits[-1].y1 if below else hits[-1].y0, below))
-                break
+        # F40f: forward-context probe first — the noun plus up to 4 words
+        # that follow it INSIDE its sentence. A sentence-initial noun gets a
+        # specific probe ('table shows the electronic configurations')
+        # instead of the ambiguous 1-word pre-context ('the table').
+        anchored = False
+        sent_end = len(frag)
+        for stop in (".", "!", "?"):
+            se = frag.find(stop, m.end())
+            if se != -1:
+                sent_end = min(sent_end, se)
+        post = re.sub(r"[^A-Za-z0-9\s]", " ", frag[m.end():sent_end]).split()[:4]
+        if post:
+            base = re.sub(r"[^A-Za-z0-9\s]", " ", m.group(0)).strip()
+            for n in (len(post), 3, 2, 1):
+                probe = " ".join([base] + post[:n])
+                hits = page.search_for(probe)
+                if hits:
+                    out.append((hits[0].y1 if below else hits[0].y0, below))
+                    anchored = True
+                    break
+        if not anchored:
+            for n in (len(ws), 4, 3):
+                if n < 2:
+                    break
+                hits = page.search_for(" ".join(ws[-n:]))
+                if hits:
+                    out.append((hits[-1].y1 if below else hits[-1].y0, below))
+                    break
     return out or None
 
 
@@ -806,8 +858,12 @@ def figure_mentions(problem_md):
     suppressed only when EVERY occurrence sits inside a non-figural phrase.
     Scaffold exception: 'Draw a dot-and-cross diagram' with printed element
     tokens after it ('H C Cl H H', 'N N') refers to a real printed scaffold —
-    the mention (and its stub) stays."""
+    the mention (and its stub) stays.
+    v0.9 (F40g): an occurrence immediately followed by 'in your answer'
+    describes something the STUDENT provides ('Include suitable apparatus in
+    your answer') — never a printed figure."""
     scaffold_re = re.compile(r"(?:\b(?:[HCNOF]|Cl|Br)\b[\s,]*){2,}")
+    student_answer_re = re.compile(r"\s+in\s+your\s+answer\b", re.I)
     out = []
     for noun in MENTION_NOUNS:
         occ = list(re.finditer(rf"\b{noun}\b", problem_md, re.I))
@@ -817,6 +873,14 @@ def figure_mentions(problem_md):
         for m in occ:
             head = problem_md[:m.end()]
             if any(p.search(head) for p in MENTION_SUPPRESS_RE.get(norm(noun), [])):
+                continue
+            if (student_answer_re.match(problem_md[m.end():])
+                    and not re.search(r"\b(?:the|this|that)\s+$", problem_md[:m.start()], re.I)):
+                # F40g: '<noun> in your answer' is student-provided ('include
+                # suitable apparatus in your answer') — but a DEFINITE
+                # occurrence ('use information from the table in your answer')
+                # refers to a printed figure and must survive (the 2022-06 1C
+                # 10(c)(ii) regression this guard caused in the first draft).
                 continue
             ok = True
             break
@@ -1009,6 +1073,24 @@ def main():
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
             lines = ms_entries.get(key, [])
+            if not lines and p["roman"] is None and p["group"]:
+                # v0.9 (F40h): the printed MS sometimes sub-numbers a part the
+                # QP leaves undivided — Jan 2021 2C prints '1 (b) (i)' for the
+                # QP's 1(b). When this question's letter-group has exactly ONE
+                # part (this one), the sub-numbered MS block can only belong
+                # to it. Fail-closed: the block's trailing marks digit must
+                # equal the part's marks.
+                sibs = [pp for pp in q["parts"] if pp["group"] == p["group"]]
+                cand = ms_entries.get((q["question_number"], p["group"], "i"), [])
+                if len(sibs) == 1 and cand:
+                    # the marks digit sits in the right-hand column: a bare
+                    # trailing number on a content line (build_solution reads
+                    # the same column); the swallowed next-table header rows
+                    # carry none, so a match is strong evidence
+                    trail_marks = {int(m.group(1)) for ln in cand
+                                   for m in [re.search(r"\s(\d{1,2})\s*$", ln)] if m}
+                    if p["marks"] in trail_marks:
+                        lines = cand
             mk = mcq_key_overrides.get((series, p["part_number"]))
             if mk and p["question_type"] == "multiple_choice":
                 lines = list(mk["ms_lines"])
@@ -1108,7 +1190,14 @@ def main():
             # displayed formula ...' also opens Q8(c) — the collision anchored
             # Q9(b) to page 13 and its figure on page 14 was never found). The
             # shortest fragment that matches EXACTLY ONE page wins (F18b).
-            frag = norm(re.sub(r"^[()a-ziv ]+", "", p["problem_md"]))[:110]
+            # v0.9 (F40e): PUA furniture glyphs glued to short part text
+            # ('Explain the shape of the graph. \uf0a2\uf0a2...') poison every
+            # probe — the page text never contains them, so a short part lost
+            # its page anchor entirely (2022-01 2C 6(a)(iii)). Strip the PUA
+            # range before probing; matching only feeds page attribution, the
+            # verbatim problem_md is untouched.
+            frag = norm(re.sub(r"[\uf000-\ufbff]+", " ",
+                        re.sub(r"^[()a-ziv ]+", "", p["problem_md"])))[:110]
             src_page = None
             for n in (38, 60, 90, 110):
                 probe = frag[:n]
@@ -1162,10 +1251,16 @@ def main():
     # v0.7 (F29): human crop-review verdicts — the durable eyeball record.
     # An 'accepted' verdict clears the review flag on re-runs; anything not
     # in the ledger keeps whatever confidence the converter computed.
+    # v0.8.2 (F39): ledger keying follows the documented convention (AGENTS.md,
+    # C22) — 1C keeps the legacy bare '<series>' home, other variants use
+    # '<series>:<paper>' so verdict homes never collide across papers. The
+    # F34 wave documented the convention but the load site kept reading the
+    # bare series key, so non-1C verdicts were silently ignored.
     _CROP_REVIEW_PATH = RES_DIR / "Official-ExamQuestion" / "CROP-REVIEW.json"
     crop_reviews = {}
     if _CROP_REVIEW_PATH.exists():
-        crop_reviews = json.loads(_CROP_REVIEW_PATH.read_text()).get("reviews", {}).get(series, {})
+        _review_doc = json.loads(_CROP_REVIEW_PATH.read_text()).get("reviews", {})
+        crop_reviews = _review_doc.get(series, {}) if paper == "1C" else _review_doc.get(f"{series}:{paper}", {})
     page_clusters, page_rasters = {}, {}
     claimed = {}                       # page -> {cluster_index: question_number} (F24)
     claimed_asset = {}                 # page -> {cluster_index: owning asset dict} (F28)
@@ -1275,13 +1370,41 @@ def main():
                          if cnre.search(s)), None)
             if not sent:
                 continue
-            pg = page_of_text(sent)
+            # v0.9 (F40c): stem linearizations glue figure-glyph junk into the
+            # intro sentence ('...H O O H The table shows the bond energies...')
+            # because the displayed formula carries no punctuation — the glued
+            # whole string never matches a page's text order, so the intro was
+            # silently lost (the 2022-06 2C 7(d)(i) / 2024-11 2C 5(b)(i) /
+            # 2023-01 2C 7(b)(i) defects: the real stem table was never
+            # cropped and a neighbour figure got stolen instead). Retry from
+            # the noun phrase itself, then with bounded windows.
+            probes = [sent]
+            m_np = cnre.search(sent)
+            if m_np:
+                tail = sent[m_np.start():].split()
+                probes.append(sent[m_np.start():])
+                probes.append(" ".join(tail[:10]))
+                probes.append(" ".join(tail[:6]))
+            pg, ay, used_sent = None, None, None
+            for probe in probes:
+                pg_try = page_of_text(probe)
+                if pg_try is None:
+                    continue
+                ay_try = figure_anchor_y(pdf[pg_try - 1], probe)
+                if ay_try is None and probe is not probes[0]:
+                    # the page hit came from the windowed probe; anchor with
+                    # the same window
+                    ay_try = figure_anchor_y(pdf[pg_try - 1], probe, min_words=4)
+                if ay_try is None:
+                    continue
+                pg, ay, used_sent = pg_try, ay_try, probe
+                break
             if pg is None:
                 continue
+            sent = used_sent
             if same_page is not None and pg != same_page:
                 continue
             page = pdf[pg - 1]
-            ay = figure_anchor_y(page, sent)
             used = claimed.setdefault(pg, {})
             cand = [(i, c) for i, c in enumerate(clusters_for(pg))
                     if used.get(i) in (None, q["question_number"])]
@@ -1326,8 +1449,16 @@ def main():
 
     def adjacent_crop(q, p, a):
         """F23: the figure lives on a neighbouring page (a part continued from
-        its group's previous page). Anchor on the group stem, else the question
-        stem, and claim the nearest cluster below it. Always review-flagged."""
+        its group's previous page). Anchor ONLY on a stem sentence that names
+        the noun's class, and claim the nearest cluster below it. Always
+        review-flagged. v0.9 (F40a): the v0.7 whole-stem fallback (anchor on
+        ANY stem text printed on the neighbour page) is GONE — a stem that
+        never names the class identifies nothing, and the fallback stole
+        unrelated data figures on the neighbour page for draw/resolve
+        mentions (2021-11 2C 5(c) reactivity-series box, 7(c) bond table,
+        2025-06 2C 2(e) apparatus). Plot-class surfaces (the only legitimate
+        continuation targets, 2025-11 3(c)(i)) resolve via the question-
+        scoped plot fallback, not this path."""
         group = group_letter(p)
         stems = []
         g = (q.get("groups") or {}).get(group) if group else None
@@ -1342,15 +1473,29 @@ def main():
             page = pdf[pg2 - 1]
             ay = None
             cnre2 = CLASS_NOUN_RE[FIG_CLASS[a["mention"]]]
+            # v0.9 (F40a-fix): the whole-stem fallback survives ONLY for
+            # DEFINITE references ('the diagram shows...', 2022-01 1C 3(b)(ii)
+            # — the group stem's diffusion-tube figure the part explicitly
+            # refers to) and never for data-source readings ('the data/values
+            # in the table', F40b) — those name a specific table the stem
+            # path owns. Create/data mentions ('draw a diagram', 'complete
+            # the table') stay fallback-free: the four v0.8.1 thefts were
+            # all create/data mentions stealing neighbour figures.
+            pmd_l = (p.get("problem_md") or "")
+            noun_re = re.escape(a["mention"])
+            definite = re.search(rf"\b(?:the|this|that|his|its)\s+{noun_re}s?\b", pmd_l, re.I)
+            data_source = re.search(
+                rf"\b(?:data|values|results)\s+(?:in|on|from|of)\s+(?:the|this|that|his|its)\s+{noun_re}s?\b",
+                pmd_l, re.I)
             for st in stems:
                 sent = next((s for s in re.split(r"(?<=[.!?])\s+", st)
                              if cnre2.search(s)), None)
                 if sent is None:
-                    # v0.7 (F25/C20): a stem that never names the noun may
-                    # still anchor the search WHEN the stem text itself is
-                    # printed on the neighbour page (the 2025-11 continuation
-                    # grid) — but the anchor needs a >= 4-word prefix hit,
-                    # never a 2-word fragment that matches unrelated lines
+                    if not (definite and not data_source):
+                        # F40a: a stem that never names the noun class does
+                        # not anchor the search for indefinite/create/data
+                        # mentions — see docstring.
+                        continue
                     sent = st
                 ay = figure_anchor_y(page, sent, min_words=4)
                 if ay is not None:
@@ -1426,6 +1571,69 @@ def main():
         claimed_asset.setdefault(pg2, {})[i] = a
         render_crop(pg2, c, a, None)
         a["review"] = True
+        return True
+
+    def axis_scaffold_crop(q, p, a):
+        """F40d (v0.9): crop a printed DRAWN AXIS scaffold that cluster
+        detection misses. An empty energy-profile answer space prints a thin
+        vertical line + arrowhead + the 'Energy' label — no vector cluster
+        forms, so the resolution chain falls through to the stub. The stub
+        would claim 'no croppable figure', but the figure IS printed. Finds
+        a substantial vertical drawing below the part's instruction line and
+        crops it (labels absorbed by expand_with_labels inside render_crop).
+        Fail-closed: anything ambiguous leaves the stub in place."""
+        pg = p.get("source_page")
+        if pg is None:
+            return False
+        page = pdf[pg - 1]
+        pw, ph = page.rect.width, page.rect.height
+        ay = figure_anchor_y(page, p["problem_md"])
+        if ay is None:
+            return False
+        axes = []
+        for d in page.get_drawings():
+            r = fitz.Rect(d["rect"])
+            if r.y0 < ay - 10:
+                continue                  # not below the instruction
+            if r.x1 <= 45 or r.x0 >= pw - 45 or r.y1 <= 30 or r.y0 >= ph - 30:
+                continue                  # margin decorations / furniture
+            if r.width >= 0.45 * pw and r.height >= 0.45 * ph:
+                continue                  # page frame
+            if r.height >= 0.5 * ph and r.width <= 60:
+                continue                  # full-height margin stripe (F18)
+            vertical_axis = r.width <= 14 and r.height >= 50
+            substantial = min(r.width, r.height) >= 20
+            if not (vertical_axis or substantial):
+                continue                  # thin rule / dotted answer line
+            axes.append(r)
+        if not axes:
+            return False
+        # v0.9 (F40d-fix): a stroked line's rect can be zero-width — fitz
+        # treats zero-area rects as EMPTY, so the union in expand_with_labels
+        # collapses to the absorbed text label and the axis line itself is
+        # lost (the 2021-11 7(c) crop that showed only 'Energy'). Give thin
+        # rects a minimum stroke before unioning.
+        norm_axes = []
+        for r in axes:
+            rr = fitz.Rect(r)
+            if rr.width < 4:
+                rr = fitz.Rect(rr.x0 - 2.5, rr.y0, rr.x1 + 2.5, rr.y1)
+            if rr.height < 4:
+                rr = fitz.Rect(rr.x0, rr.y0 - 2.5, rr.x1, rr.y1 + 2.5)
+            norm_axes.append(rr)
+        rect = norm_axes[0]
+        for r in norm_axes[1:]:
+            # keep drawings near the first axis (arrowheads, second axis);
+            # distant unrelated drawings would poison the crop
+            if (abs(r.x0 - rect.x0) < 200 and abs(r.y0 - rect.y0) < 260):
+                rect |= r
+        used = claimed.setdefault(pg, {})
+        # never steal a cluster-detected figure's region
+        for i, c in enumerate(clusters_for(pg)):
+            if c.intersects(rect) and used.get(i) not in (None, q["question_number"]):
+                return False
+        render_crop(pg, rect, a, ay)
+        a["review"] = True                # eyeball before the ledger accepts
         return True
 
     def own_page_pick(q, p, a, force_review, allow_single=True):
@@ -1618,6 +1826,17 @@ def main():
                         continue
                 # 5. question-scoped plot fallback (F25b)
                 if FIG_CLASS[noun] == "plot" and question_plot_fallback(q, p, a):
+                    continue
+                # 5b. drawn-scaffold rescue (F40d, v0.9): a draw/complete
+                # instruction whose printed scaffold is TOO THIN for cluster
+                # detection — a lone Energy axis with an arrowhead (2021-11
+                # 2C 7(c), 2025-06 2C 2(e), 2019-06 2C 5(c), 2025-11 2C 6(a))
+                # — must not become a "no croppable figure" stub: the paper
+                # DOES print the figure the student completes. Crop the
+                # axis's own rect (F32's drawn-scaffold doctrine, extended
+                # from dot-and-cross shells to drawn axes).
+                if (FORWARD_RE.match(pmd) and FIG_CLASS[noun] == "figure"
+                        and pg is not None and axis_scaffold_crop(q, p, a)):
                     continue
                 # 6. honest stub
                 crop_stats["pending"] += 1

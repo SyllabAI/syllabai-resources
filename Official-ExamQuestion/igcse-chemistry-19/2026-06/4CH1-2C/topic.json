@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T15:37:56Z",
- "generator": "official_examq_extract.py v0.8.1 (ADR-037) series=2026-06 paper=2C",
+ "generated_utc": "2026-10-21T18:28:45Z",
+ "generator": "official_examq_extract.py v0.9.0 (ADR-037) series=2026-06 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2026-06:4CH1/2C",
  "source": {
   "qp_sha256": "713f1fccc169d6b716b0a2713bc07bbf1aa94a34a25e298fd2e6c3b449dcc9a3",
@@ -50,14 +50,19 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 4,
-       "review": true,
+       "review": false,
        "path": "assets/asset_1_a_table.png",
        "render": "vector",
-       "text_coverage": 0.185
+       "text_coverage": 0.185,
+       "review_verdict": "accepted"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.44",
+      "4CH1-4.49C",
+      "4CH1-4.50C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(b)",
@@ -76,8 +81,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.45"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(c)(i)",
@@ -96,8 +103,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.2"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(c)(ii)",
@@ -121,8 +130,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.36C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "1(c)(iii)",
@@ -146,8 +157,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.49C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -180,8 +193,10 @@
      ],
      "source_page": 7,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.34"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(b)",
@@ -206,14 +221,17 @@
        "mention": "apparatus",
        "source": "qp.pdf",
        "page": 7,
-       "review": true,
+       "review": false,
        "path": "assets/asset_2_b_apparatus.png",
        "render": "vector",
-       "text_coverage": 0.053
+       "text_coverage": 0.053,
+       "review_verdict": "accepted"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.33C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(c)",
@@ -231,23 +249,11 @@
       }
      ],
      "source_page": 8,
-     "assets": [
-      {
-       "id": "asset_2_c_apparatus",
-       "kind": "crop",
-       "mention": "apparatus",
-       "source": "qp.pdf",
-       "page": 7,
-       "review": false,
-       "path": "assets/asset_2_b_apparatus.png",
-       "render": "vector",
-       "text_coverage": 0.053,
-       "shared": true,
-       "ref_part": "2(b)"
-      }
+     "assets": [],
+     "spec_point_codes": [
+      "4CH1-2.33C"
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(d)(i)",
@@ -280,8 +286,10 @@
        "ref_part": "asset_2_d_table_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.33C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(d)(ii)",
@@ -305,8 +313,10 @@
      ],
      "source_page": 9,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.33C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(e)(i)",
@@ -330,8 +340,10 @@
      ],
      "source_page": 9,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.38"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "2(e)(ii)",
@@ -360,8 +372,11 @@
      ],
      "source_page": 9,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.4",
+      "4CH1-3.8"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -402,8 +417,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.44"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(a)(ii)",
@@ -422,8 +439,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.51"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(i)",
@@ -447,8 +466,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.58C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(ii)",
@@ -467,8 +488,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.57C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(iii)",
@@ -487,8 +510,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.59C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(b)(iv)",
@@ -507,8 +532,10 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.15"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(c)(i)",
@@ -544,8 +571,10 @@
        "text_coverage": 0.246
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.58C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(c)(ii)",
@@ -574,8 +603,11 @@
      ],
      "source_page": 11,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.58C",
+      "4CH1-1.59C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "3(c)(iii)",
@@ -599,8 +631,10 @@
      ],
      "source_page": 11,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.35C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -639,8 +673,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.46"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(b)(i)",
@@ -659,8 +695,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.48"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(b)(ii)",
@@ -684,8 +722,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.48"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "4(c)",
@@ -728,18 +768,11 @@
       }
      ],
      "source_page": 13,
-     "assets": [
-      {
-       "id": "asset_4_c_apparatus",
-       "kind": "crop-required",
-       "mention": "apparatus",
-       "source": "qp.pdf",
-       "page": 13,
-       "review": true
-      }
+     "assets": [],
+     "spec_point_codes": [
+      "4CH1-1.34C"
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {}
@@ -773,8 +806,10 @@
      ],
      "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-4.39C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(b)",
@@ -793,8 +828,10 @@
      ],
      "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.20C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(i)",
@@ -816,9 +853,12 @@
        "text_md": "with a lower activation energy M2 dep on M1"
       }
      ],
+     "source_page": 14,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.12"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(c)(ii)",
@@ -842,8 +882,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.21C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "5(d)",
@@ -862,8 +904,10 @@
      ],
      "source_page": 15,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-3.22C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {
@@ -896,8 +940,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.39"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(b)",
@@ -916,8 +962,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.7C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(c)",
@@ -936,8 +984,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.7C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(d)",
@@ -956,8 +1006,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-2.34"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(e)(i)",
@@ -995,8 +1047,10 @@
        "ref_part": "asset_6_e_table_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.6C"
+     ],
+     "tagging": "llm-spec-wave"
     },
     {
      "part_number": "6(e)(ii)",
@@ -1025,8 +1079,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "spec_point_codes": [
+      "4CH1-1.6C"
+     ],
+     "tagging": "llm-spec-wave"
     }
    ],
    "groups": {

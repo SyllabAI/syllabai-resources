@@ -384,7 +384,7 @@ Explain, in terms of bonds broken and bonds made, why this reaction is exothermi
 
 Draw an energy level diagram for the reaction between N2H4 and H2O2 energy
 
-> 🖼 crop required: diagram (qp.pdf p.12)
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_5_c_diagram.png)
 
 
 **Mark scheme answer**

@@ -57,6 +57,23 @@ Name this element. Use the Periodic Table on page 2 to help you.
 There are two isotopes of this element. Give one way, in terms of sub-atomic particles, that these isotopes are the same and one way that they are different. same different
 
 
+**Mark scheme answer**
+
+> M1 same number of protons ALLOW same number
+> of electrons
+> M2 different number of neutrons
+> IGNORE references to
+> mass number and
+> atomic number.
+> 5 marks
+> Question
+> Answer Notes Marks
+> number
+
+- **(1)** same number of protons ALLOW same number
+- **(1)** different number of neutrons
+
+
 ## Question 2 (5 marks)
 
 This question is about gases.

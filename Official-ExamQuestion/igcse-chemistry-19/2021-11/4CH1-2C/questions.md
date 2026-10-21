@@ -456,7 +456,7 @@ Explain, without giving practical details, which method is most suitable to obta
 
 Explain, using a labelled diagram, why lead metal is malleable.
 
-![diagram — official paper figure (qp.pdf p.14)](assets/asset_5_c_diagram.png)
+> 🖼 crop required: diagram (qp.pdf p.15)
 
 
 **Mark scheme answer**
@@ -707,7 +707,7 @@ Hydrogen gas reacts with fluorine gas to form hydrogen fluoride gas. H2(g) + F2(
 
 Draw an energy level diagram for the reaction between hydrogen and fluorine. Label the enthalpy change, ΔH. Energy
 
-![diagram — official paper figure (qp.pdf p.22)](assets/asset_7_c_diagram.png)
+![diagram — official paper figure (qp.pdf p.23)](assets/asset_7_c_diagram.png)
 
 
 **Mark scheme answer**

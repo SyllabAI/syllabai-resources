@@ -398,6 +398,17 @@ Complete the table to show the relative mass and relative charge of a proton and
 
 ![table — official paper figure (qp.pdf p.14)](assets/asset_5_a_table.png)
 
+
+**Mark scheme answer**
+
+> relative mass proton 1 All 4 correct scores 2
+> 2 or 3 correct scores 1
+> relative mass neutron 1
+> relative charge proton +1
+> relative charge neutron 0
+
+- **(2)** relative mass proton 1 All 4 correct scores 2
+
 ### 5(b)(i) [2]
 
 State the meaning of the term isotopes.
