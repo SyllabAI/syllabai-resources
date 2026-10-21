@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Aggregate per-series validation reports into the ADR-037 corpus report
-(JSON + human-readable MD). Auto-discovers series directories; integrates the
-independent-parse cross-diff (CROSS-DIFF.json) when present."""
+(JSON + human-readable MD). Auto-discovers series × paper-variant directories
+(1C, 2C, ... since F34); integrates the independent-parse cross-diff
+(CROSS-DIFF.json) when present."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,17 +13,23 @@ ROOT = Path(__file__).resolve().parent.parent / "Official-ExamQuestion"
 BASE = ROOT / "igcse-chemistry-19"
 GATES = ["G0-identity", "G1-structure", "G2-verbatim", "G3-mcq-integrity",
          "G4-figure-resolution", "G5-answer-linkage", "G6-registry-codes"]
+PAPER_TOTALS = {"1C": 110, "2C": 70}   # mirror of the converter registry (F34)
 
-SERIES = sorted(d.name for d in BASE.iterdir()
-                if d.is_dir() and (d / "4CH1-1C" / "validation-report.json").exists())
+SLICES = []   # (series, paper) with outputs
+for d in sorted(BASE.iterdir()):
+    if not d.is_dir():
+        continue
+    for pd in sorted(d.iterdir()):
+        if pd.is_dir() and pd.name.startswith("4CH1-") and (pd / "validation-report.json").exists():
+            SLICES.append((d.name, pd.name.split("-")[1]))
 
 out = {"schema": "syllabai.official-paper-questions.multi-series/0.1",
        "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-       "baseline": "2020-11", "corpus": "4CH1/1C — all series in syllabai-pastpapers",
+       "baseline": "2020-11", "corpus": "4CH1 1C+2C — all series in syllabai-pastpapers (F34)",
        "series": [], "generalization_findings": [], "cross_diff": None}
 
-for S in SERIES:
-    d = BASE / S / "4CH1-1C"
+for S, PAPER in SLICES:
+    d = BASE / S / f"4CH1-{PAPER}"
     r = json.loads((d / "validation-report.json").read_text())
     t = json.loads((d / "topic.json").read_text())
     gs = {g["gate"]: g["status"] for g in r["gates"]}
@@ -32,10 +39,10 @@ for S in SERIES:
     keyed = sum(1 for q in t["questions"] for p in q["parts"] if p.get("choices") and any(c.get("is_correct") for c in p["choices"]))
     marks = sum(q["total_marks"] for q in t["questions"])
     out["series"].append({
-        "series": S, "paper_id": t["paper_id"],
+        "series": S, "paper": PAPER, "paper_id": t["paper_id"],
         "gates": {g: gs.get(g) for g in GATES},
         "questions": len(t["questions"]), "parts": parts,
-        "marks_total": marks, "marks_expected": 110,
+        "marks_total": marks, "marks_expected": PAPER_TOTALS.get(PAPER),
         "mcq_parts": len(mcq), "mcq_keyed": keyed,
         "ms_linkage": g5["summary"],
         "negative_controls": {nc["id"]: "DETECTED" if nc["detected"] else "MISSED" for nc in r["negative_controls"]},
@@ -48,10 +55,12 @@ if cdpath.exists():
     cd = json.loads(cdpath.read_text())
     out["cross_diff"] = {
         "method": "part-level marks vs repo parsed/questions.json layer (independent parser, same PDFs)",
+        "paper": cd.get("paper", "1C"),
         "series": cd["series"],
         "note": ("every roman-part mark and question total agrees with the repo's own parsed layer; "
                  "'only_in_parsed' entries are letter-group totals the parsed layer records in "
-                 "addition to its roman parts — no mark disagreement anywhere"),
+                 "addition to its roman parts — no mark disagreement anywhere. The repo parsed/ "
+                 "layer exists for 4CH1/1C dirs only today (F34), so the cross-diff evidence is 1C."),
     }
 
 out["generalization_findings"] = [
@@ -85,9 +94,9 @@ out["generalization_findings"] = [
      "fix": "elimination keying: sole un-rebutted option keyed only when corroborated by exactly one answer row; anything ambiguous stays unkeyed (2020-01 canary still refuses)"},
 ]
 
-out["cross_diff"]["key_result"] = (
-    f"{sum(len(s['comparable_parts']) if isinstance(s.get('comparable_parts'), list) else s['comparable_parts'] for s in out['cross_diff']['series'])}"
-    if out["cross_diff"] else None)
+if out["cross_diff"]:
+    out["cross_diff"]["key_result"] = (
+        f"{sum(len(s['comparable_parts']) if isinstance(s.get('comparable_parts'), list) else s['comparable_parts'] for s in out['cross_diff']['series'])}")
 
 (BASE / "MULTI-SERIES-REPORT.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
 
@@ -95,25 +104,37 @@ out["cross_diff"]["key_result"] = (
 tot_q = sum(s["questions"] for s in out["series"])
 tot_parts = sum(s["parts"] for s in out["series"])
 tot_marks = sum(s["marks_total"] for s in out["series"])
-full_pass = [s["series"] for s in out["series"]
-             if all(v == "PASS" for v in s["gates"].values())]
-md = ["# ADR-037 corpus run — 4CH1/1C complete (all series in syllabai-pastpapers)", "",
-      f"> generated {out['generated_utc']} · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper",
-      f"> {len(SERIES)} series · {tot_q} questions · {tot_parts} parts · {tot_marks}/{110*len(SERIES)} marks"
-      f" (6 lost to 2019-06 archive damage) · {len(full_pass)} series fully PASS", "",
-      "| series | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |",
-      "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+full_pass = [s for s in out["series"] if all(v == "PASS" for v in s["gates"].values())]
+md = ["# ADR-037 corpus run — 4CH1 1C+2C complete (all series in syllabai-pastpapers; F34)", "",
+      f"> generated {out['generated_utc']} · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice",
+      f"> {len(SLICES)} slices ({sorted({s['paper'] for s in out['series']})}) · {tot_q} questions · {tot_parts} parts · {tot_marks} marks extracted"
+      f" · {len(full_pass)} slices fully PASS", "",
+      "| series | paper | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |",
+      "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
 for s in out["series"]:
     g = s["gates"]
     nc = "3/3" if all(v == "DETECTED" for v in s["negative_controls"].values()) and len(s["negative_controls"]) == 3 else "-".join(str(x) for x in s["negative_controls"].values())
-    md.append(f"| {s['series']} | {g['G0-identity']} | {g['G1-structure']} | {g['G2-verbatim']} | {g['G3-mcq-integrity']} | "
+    exp = s["marks_expected"]
+    md.append(f"| {s['series']} | {s['paper']} | {g['G0-identity']} | {g['G1-structure']} | {g['G2-verbatim']} | {g['G3-mcq-integrity']} | "
               f"{g['G4-figure-resolution']} | {g['G5-answer-linkage']} | {g['G6-registry-codes']} | {nc} | {s['questions']} | {s['parts']} | "
-              f"{s['marks_total']}/110 | {s['mcq_keyed']}/{s['mcq_parts']} | {s['review_queue_items']} |")
-md += ["", "## Terminal states", "",
-       "- **14/16 series: all gates PASS** — every mark accounted for, every MCQ keyed, negative controls detected 3/3.",
-       "- **2020-01: G3 FAIL is honest** — the printed MS interleaves Q7(a)(ii)/(iii) marker rows; a wrong auto-key was refused (it would have keyed C where the notes prove A). Two MCQ keys need a human. Canary: `7(a)(iii)` must stay unkeyed.",
-       "- **2019-06: G1/G5 REVIEW reflect real archive damage** — 5 rasterized content pages; Q7 wholly lost (6 marks), Q1/Q11/Q12/Q15 partial. Content needs OCR/manual re-ingest; nothing was invented to fill the gaps.",
-       "", "## Independent-parse cross-diff (strongest correctness evidence)", ""]
+              f"{s['marks_total']}/{exp} | {s['mcq_keyed']}/{s['mcq_parts']} | {s['review_queue_items']} |")
+md += ["", "## Terminal states", ""]
+for paper in sorted({s["paper"] for s in out["series"]}):
+    rows = [s for s in out["series"] if s["paper"] == paper]
+    fp = [s["series"] for s in rows if all(v == "PASS" for v in s["gates"].values())]
+    line = f"- **{paper}: {len(fp)}/{len(rows)} slices all-gates PASS**"
+    if len(fp) == len(rows):
+        line += f" ({', '.join(fp)})"
+    else:
+        nonpass = [s for s in rows if any(v != "PASS" for v in s["gates"].values())]
+        detail = ", ".join(
+            s["series"] + " (" + ", ".join(f"{g}={v}" for g, v in s["gates"].items() if v != "PASS") + ")"
+            for s in nonpass)
+        line += f"; all-PASS: {', '.join(fp)}; non-PASS: {detail}"
+    md.append(line)
+md += ["- **1C 2020-01: G3 FAIL is honest** — the printed MS interleaves Q7(a)(ii)/(iii) marker rows; a wrong auto-key was refused (it would have keyed C where the notes prove A). Two MCQ keys need a human. Canary: `7(a)(iii)` must stay unkeyed.",
+       "- **1C 2019-06: G1/G5 REVIEW reflect real archive damage** — 5 rasterized content pages; Q7 wholly lost (6 marks), Q1/Q11/Q12/Q15 partial. Content needs OCR/manual re-ingest; nothing was invented to fill the gaps.",
+       "", "## Independent-parse cross-diff (strongest correctness evidence; 1C — the repo parsed layer is 1C-only today, F34)", ""]
 if out["cross_diff"]:
     md.append(f"- {out['cross_diff']['method']}")
     for s in out["cross_diff"]["series"]:
@@ -129,4 +150,4 @@ md += ["", "## Self-improvement loop", "",
 (BASE / "MULTI-SERIES-REPORT.md").write_text("\n".join(md) + "\n")
 print("written:", BASE / "MULTI-SERIES-REPORT.json")
 print("written:", BASE / "MULTI-SERIES-REPORT.md")
-print("series:", len(SERIES), "| full-pass:", len(full_pass))
+print("slices:", len(SLICES), "| full-pass:", len(full_pass))

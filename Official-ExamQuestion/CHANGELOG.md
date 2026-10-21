@@ -4,6 +4,43 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.8.0 — 2026-10-21 · 2C enablement wave (paper parametrization + MS marker discipline + sentence positives)
+
+The operator's GO ruling (ADR-037, trace `1a15ebd93809a525`) scheduled the
+remaining 4CH1 variants; this release runs the 2C tranche (16 papers) through
+the unchanged gate suite. Three ledger entries land together (none was shipped
+interim, so the corpus has exactly one v0.8.0 state):
+
+- **F34 — paper parametrization.** `--paper {1C,2C}` (default 1C);
+  `PAPER_TOTALS {1C:110, 2C:70}` + per-paper `EXPECT_QUESTIONS` (2C counts
+  footer-verified 16/16 series, Σ=70 every series); paper-suffixed staging
+  names with legacy-1C fallback; G0 additionally asserts the staged manifest's
+  `paper_number_variant` equals the requested paper (a 2C run over 1CR bytes
+  now fails closed); `run_all.sh` loops papers; the report auto-discovers
+  `4CH1-*` slices; the canary checker is paper-aware (optional `"paper"` on
+  per-series canaries, default 1C; corpus-wide loops cover every variant;
+  CROP-REVIEW ledger keys: bare `<series>` for 1C, `<series>:<paper>` for new
+  variants); `cross_diff_parsed.py --paper` (the repo parsed/ layer is 1C-only
+  today — 2C SKIPs honestly).
+- **F35 — MS question-number marker discipline.** Content rows that begin
+  with short numerals (the 2022-06 2C Mr working `12   1   16`) previously
+  hijacked `cur_q`; the first guard draft then regressed 2022-01 1C (PMT
+  blurb `70 countries…` blessed as question one) and 2019-06 1C (damaged
+  sequence needs skips). Final rule: numeral + letter/roman marker evidence
+  on the row always wins; numeral-only rows must advance the strict sequence
+  (bootstrap at 1, then +1 / re-print). 2022-06 2C G5 39/39; 2022-01 1C
+  all-PASS restored; 2019-06 1C exactly the shipped 32/53 REVIEW.
+- **F36 — sentence-form MCQ positives.** 'The only correct answer is D …'
+  (2021-11 2C 1(e)) keys via the extended positive family, still gated by
+  the single-distinct-positive rule; 2020-01 7(a)(iii) keeps refusing (C1/C2).
+
+Corpus after the wave (32 slices): 1C 169 Q / 930 parts / 1754/1760 marks,
+14/16 all-PASS (unchanged); **2C 110 Q / 607 parts / 1120/1120 marks / 27/27
+MCQs keyed, 16/16 all-PASS**. All 607 2C parts are honestly `pending-llm`
+(no spec-label wave authored for 2C yet); 22 2C figure items sit in the
+review queues awaiting first eyeballs. 27 canaries hold; cross-diff 161/161
+(1C). Canaries C25/C26/C27 added; floor 0.8.
+
 ## 0.7.1 — 2026-10 · wave-10 stub sweep (crop-review queue emptied) + drawn scaffolds + stem-first tables
 
 The wave-10 sweep eyeballed every remaining review-flagged item against its

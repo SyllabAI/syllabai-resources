@@ -1,197 +1,224 @@
 {
-  "schema": "syllabai.official-paper-questions.canaries/0.1",
-  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
-  "converter_version_floor": "0.6",
-  "canaries": [
-    {
-      "id": "C1-honest-refusal",
-      "series": "2020-01",
-      "assertion": "part 7(a)(iii) has NO keyed correct choice (the pipeline must refuse the ambiguous interleaved MS; finding F6)",
-      "check": "part_unkeyed",
-      "part": "7(a)(iii)"
-    },
-    {
-      "id": "C2-refusal-state",
-      "series": "2020-01",
-      "assertion": "G3-mcq-integrity status == FAIL (the honest refusal must surface as a gate failure, not be papered over)",
-      "check": "gate_status",
-      "gate": "G3-mcq-integrity",
-      "expected": "FAIL"
-    },
-    {
-      "id": "C3-baseline-unchanged",
-      "series": "2020-11",
-      "assertion": "all gates PASS and 6/6 MCQs keyed (baseline; regression sentinel for F12/F14 keying changes)",
-      "check": "all_gates_pass_and_mcq_keyed",
-      "mcq_keyed": 6
-    },
-    {
-      "id": "C4-archive-damage-attributed",
-      "series": "2019-06",
-      "assertion": "G1-structure == REVIEW with marks 104/110 and source_defects.affected_questions includes 7 (rasterized pages; must never be silently 'fixed' by invention)",
-      "check": "gate_status",
-      "gate": "G1-structure",
-      "expected": "REVIEW",
-      "marks_total": 104,
-      "affected_questions_include": 7
-    },
-    {
-      "id": "C5-elimination-keying",
-      "series": "2023-06",
-      "assertion": "part 9(a)(i) keyed to choice B (glued 'B4' answer cell + rebuttal census; finding F14)",
-      "check": "part_keyed_to",
-      "part": "9(a)(i)",
-      "label": "B"
-    },
-    {
-      "id": "C6-elimination-keying-2",
-      "series": "2026-06",
-      "assertion": "part 1(a) keyed to choice D ('<L> (answer)' cell + 'is not the formula' rebuttals; finding F14)",
-      "check": "part_keyed_to",
-      "part": "1(a)",
-      "label": "D"
-    },
-    {
-      "id": "C7-count-registry",
-      "series": "2026-06",
-      "assertion": "exactly 9 questions extracted (verified against printed footers summing to 110; finding F4/F13)",
-      "check": "question_count",
-      "expected": 9
-    },
-    {
-      "id": "C8-count-registry-2",
-      "series": "2023-01",
-      "assertion": "exactly 12 questions extracted (verified against printed footers summing to 110)",
-      "check": "question_count",
-      "expected": 12
-    },
-    {
-      "id": "C9-negative-controls",
-      "series": "*",
-      "assertion": "negative controls N1-N3 DETECTED on every series, every run",
-      "check": "negative_controls_all_detected"
-    },
-    {
-      "id": "C10-cross-diff",
-      "series": "*",
-      "assertion": "independent-parse cross-diff holds 100% marks agreement on every series that has a repo parsed/ layer (2024-06, 2025-06, 2026-06)",
-      "check": "cross_diff_full_agreement"
-    },
-    {
-      "id": "C11-manifest-schema-v2",
-      "series": "2026-06",
-      "assertion": "G0 passes and records the schema-v2 annotation (manifest without series.printed must not crash; finding F13)",
-      "check": "g0_summary_contains",
-      "substring": "manifest schema v2"
-    },
-    {
-      "id": "C12-no-hardcoded-output-root",
-      "series": "*",
-      "assertion": "converter/diff/report scripts derive output roots from their own checkout location; the machine-specific mirror path must never reappear (finding F15)",
-      "check": "no_hardcoded_output_root"
-    },
-    {
-      "id": "C13-solution-emission",
-      "series": "*",
-      "assertion": "every MS-linked part carries a non-empty solution_md and its mark_points[] sum exactly to the part marks (v0.5 reveal + Smart Mark layer; LEDGER wave 5)",
-      "check": "solution_fields_consistent"
-    },
-    {
-      "id": "C14-figure-crops",
-      "series": "*",
-      "assertion": "figure crop pass emitted PNGs for at least 100 asset stubs corpus-wide (134 unique crop assets at v0.6, 143 PNG files), every emitted crop file exists and is non-trivial; pending stubs keep their review entries (v0.5 crop pass, v0.6 semantics)",
-      "check": "figure_crops_present",
-      "min_crops": 100,
-      "min_png_bytes": 1000
-    },
-    {
-      "id": "C15-backref-share",
-      "series": "2019-06",
-      "assertion": "13(b)(i) 'on the grid in part (a)' resolves to a shared reference of 13(a)(i)'s grid — the footer-barcode mis-crop must never return (F18/F20)",
-      "check": "asset_state",
-      "part": "13(b)(i)",
-      "kind": "crop",
-      "shared": true,
-      "ref_part": "13(a)(i)"
-    },
-    {
-      "id": "C16-spurious-mention-suppressed",
-      "series": "2020-11",
-      "assertion": "5(a) 'position … in the Periodic Table' creates NO asset records — spurious figure mentions stay suppressed (F19)",
-      "check": "asset_state",
-      "part": "5(a)",
-      "empty": true
-    },
-    {
-      "id": "C17-stem-figure-share",
-      "series": "2024-11",
-      "assertion": "7(c) 'the results in the table' shares the stem-introduced results table crop (F21)",
-      "check": "asset_state",
-      "part": "7(c)",
-      "kind": "crop",
-      "shared": true,
-      "path_contains": "table_stem"
-    },
-    {
-      "id": "C18-anaphora-stem-graph",
-      "series": "2021-01",
-      "assertion": "10(a)(iii) 'the graph' shares the group-stem boiling-points graph — the 10(b) isomers mis-crop must never return (F20)",
-      "check": "asset_state",
-      "part": "10(a)(iii)",
-      "kind": "crop",
-      "shared": true,
-      "path_contains": "graph_stem"
-    },
-    {
-      "id": "C19-honest-scaffold-stub",
-      "series": "2024-06",
-      "assertion": "7(b) 'Complete the dot-and-cross diagram … N N' keeps a crop-required stub — text-only scaffolds are never force-cropped (F19b)",
-      "check": "asset_state",
-      "part": "7(b)",
-      "kind": "crop-required"
-    },
-    {
-      "id": "C20-adjacent-page-grid",
-      "series": "2025-11",
-      "assertion": "3(c)(i) crops the plotting grid printed on the NEXT page (p9) — adjacent continuation figures resolve (F23)",
-      "check": "asset_state",
-      "part": "3(c)(i)",
-      "kind": "crop",
-      "page": 9
-    },
-    {
-      "id": "C21-furniture-free-tables",
-      "series": "2019-06",
-      "assertion": "3(d)(ii) crops the printed Property table — the margin-stripe mega-cluster defect must never zero out a page again (F18)",
-      "check": "asset_state",
-      "part": "3(d)(ii)",
-      "kind": "crop",
-      "path_contains": "asset_3_d_ii_table"
-    },
-    {
-      "id": "C22-crop-review-ledger",
-      "series": "*",
-      "assertion": "every accepted verdict in CROP-REVIEW.json references an existing crop asset, and every asset carrying review_verdict is ledger-accepted — the eyeball record and the corpus never drift apart (F29)",
-      "check": "crop_review_ledger"
-    },
-    {
-      "id": "C23-table-diagram-distinct",
-      "series": "2024-11",
-      "assertion": "6(a)(i) 'Complete the table' crops the formulae table via the group-stem anchor while 6(b) crops the Mg/Cl diagram — the two assets must never alias one file again, and the real table must never go uncropped (F33)",
-      "check": "asset_state",
-      "part": "6(a)(i)",
-      "kind": "crop",
-      "path_contains": "asset_6_a_table_stem"
-    },
-    {
-      "id": "C24-drawn-scaffold-crop",
-      "series": "2024-11",
-      "assertion": "6(c)(i) 'Complete the dot-and-cross diagram' crops the DRAWN ammonia scaffold (N circle + three H circles printed as vector art) instead of stubbing — the text-only scaffold signature must not swallow drawn scaffolds (F32)",
-      "check": "asset_state",
-      "part": "6(c)(i)",
-      "kind": "crop",
-      "page": 19,
-      "path_contains": "asset_6_c_i_diagram"
-    }
-  ]
+ "schema": "syllabai.official-paper-questions.canaries/0.1",
+ "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
+ "converter_version_floor": "0.8",
+ "canaries": [
+  {
+   "id": "C1-honest-refusal",
+   "series": "2020-01",
+   "assertion": "part 7(a)(iii) has NO keyed correct choice (the pipeline must refuse the ambiguous interleaved MS; finding F6)",
+   "check": "part_unkeyed",
+   "part": "7(a)(iii)"
+  },
+  {
+   "id": "C2-refusal-state",
+   "series": "2020-01",
+   "assertion": "G3-mcq-integrity status == FAIL (the honest refusal must surface as a gate failure, not be papered over)",
+   "check": "gate_status",
+   "gate": "G3-mcq-integrity",
+   "expected": "FAIL"
+  },
+  {
+   "id": "C3-baseline-unchanged",
+   "series": "2020-11",
+   "assertion": "all gates PASS and 6/6 MCQs keyed (baseline; regression sentinel for F12/F14 keying changes)",
+   "check": "all_gates_pass_and_mcq_keyed",
+   "mcq_keyed": 6
+  },
+  {
+   "id": "C4-archive-damage-attributed",
+   "series": "2019-06",
+   "assertion": "G1-structure == REVIEW with marks 104/110 and source_defects.affected_questions includes 7 (rasterized pages; must never be silently 'fixed' by invention)",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "REVIEW",
+   "marks_total": 104,
+   "affected_questions_include": 7
+  },
+  {
+   "id": "C5-elimination-keying",
+   "series": "2023-06",
+   "assertion": "part 9(a)(i) keyed to choice B (glued 'B4' answer cell + rebuttal census; finding F14)",
+   "check": "part_keyed_to",
+   "part": "9(a)(i)",
+   "label": "B"
+  },
+  {
+   "id": "C6-elimination-keying-2",
+   "series": "2026-06",
+   "assertion": "part 1(a) keyed to choice D ('<L> (answer)' cell + 'is not the formula' rebuttals; finding F14)",
+   "check": "part_keyed_to",
+   "part": "1(a)",
+   "label": "D"
+  },
+  {
+   "id": "C7-count-registry",
+   "series": "2026-06",
+   "assertion": "exactly 9 questions extracted (verified against printed footers summing to 110; finding F4/F13)",
+   "check": "question_count",
+   "expected": 9
+  },
+  {
+   "id": "C8-count-registry-2",
+   "series": "2023-01",
+   "assertion": "exactly 12 questions extracted (verified against printed footers summing to 110)",
+   "check": "question_count",
+   "expected": 12
+  },
+  {
+   "id": "C9-negative-controls",
+   "series": "*",
+   "assertion": "negative controls N1-N3 DETECTED on every series, every run",
+   "check": "negative_controls_all_detected"
+  },
+  {
+   "id": "C10-cross-diff",
+   "series": "*",
+   "assertion": "independent-parse cross-diff holds 100% marks agreement on every series that has a repo parsed/ layer (2024-06, 2025-06, 2026-06)",
+   "check": "cross_diff_full_agreement"
+  },
+  {
+   "id": "C11-manifest-schema-v2",
+   "series": "2026-06",
+   "assertion": "G0 passes and records the schema-v2 annotation (manifest without series.printed must not crash; finding F13)",
+   "check": "g0_summary_contains",
+   "substring": "manifest schema v2"
+  },
+  {
+   "id": "C12-no-hardcoded-output-root",
+   "series": "*",
+   "assertion": "converter/diff/report scripts derive output roots from their own checkout location; the machine-specific mirror path must never reappear (finding F15)",
+   "check": "no_hardcoded_output_root"
+  },
+  {
+   "id": "C13-solution-emission",
+   "series": "*",
+   "assertion": "every MS-linked part carries a non-empty solution_md and its mark_points[] sum exactly to the part marks (v0.5 reveal + Smart Mark layer; LEDGER wave 5)",
+   "check": "solution_fields_consistent"
+  },
+  {
+   "id": "C14-figure-crops",
+   "series": "*",
+   "assertion": "figure crop pass emitted PNGs for at least 100 asset stubs corpus-wide (134 unique crop assets at v0.6, 143 PNG files), every emitted crop file exists and is non-trivial; pending stubs keep their review entries (v0.5 crop pass, v0.6 semantics)",
+   "check": "figure_crops_present",
+   "min_crops": 100,
+   "min_png_bytes": 1000
+  },
+  {
+   "id": "C15-backref-share",
+   "series": "2019-06",
+   "assertion": "13(b)(i) 'on the grid in part (a)' resolves to a shared reference of 13(a)(i)'s grid — the footer-barcode mis-crop must never return (F18/F20)",
+   "check": "asset_state",
+   "part": "13(b)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "13(a)(i)"
+  },
+  {
+   "id": "C16-spurious-mention-suppressed",
+   "series": "2020-11",
+   "assertion": "5(a) 'position … in the Periodic Table' creates NO asset records — spurious figure mentions stay suppressed (F19)",
+   "check": "asset_state",
+   "part": "5(a)",
+   "empty": true
+  },
+  {
+   "id": "C17-stem-figure-share",
+   "series": "2024-11",
+   "assertion": "7(c) 'the results in the table' shares the stem-introduced results table crop (F21)",
+   "check": "asset_state",
+   "part": "7(c)",
+   "kind": "crop",
+   "shared": true,
+   "path_contains": "table_stem"
+  },
+  {
+   "id": "C18-anaphora-stem-graph",
+   "series": "2021-01",
+   "assertion": "10(a)(iii) 'the graph' shares the group-stem boiling-points graph — the 10(b) isomers mis-crop must never return (F20)",
+   "check": "asset_state",
+   "part": "10(a)(iii)",
+   "kind": "crop",
+   "shared": true,
+   "path_contains": "graph_stem"
+  },
+  {
+   "id": "C19-honest-scaffold-stub",
+   "series": "2024-06",
+   "assertion": "7(b) 'Complete the dot-and-cross diagram … N N' keeps a crop-required stub — text-only scaffolds are never force-cropped (F19b)",
+   "check": "asset_state",
+   "part": "7(b)",
+   "kind": "crop-required"
+  },
+  {
+   "id": "C20-adjacent-page-grid",
+   "series": "2025-11",
+   "assertion": "3(c)(i) crops the plotting grid printed on the NEXT page (p9) — adjacent continuation figures resolve (F23)",
+   "check": "asset_state",
+   "part": "3(c)(i)",
+   "kind": "crop",
+   "page": 9
+  },
+  {
+   "id": "C21-furniture-free-tables",
+   "series": "2019-06",
+   "assertion": "3(d)(ii) crops the printed Property table — the margin-stripe mega-cluster defect must never zero out a page again (F18)",
+   "check": "asset_state",
+   "part": "3(d)(ii)",
+   "kind": "crop",
+   "path_contains": "asset_3_d_ii_table"
+  },
+  {
+   "id": "C22-crop-review-ledger",
+   "series": "*",
+   "assertion": "every accepted verdict in CROP-REVIEW.json references an existing crop asset, and every asset carrying review_verdict is ledger-accepted — the eyeball record and the corpus never drift apart (F29)",
+   "check": "crop_review_ledger"
+  },
+  {
+   "id": "C23-table-diagram-distinct",
+   "series": "2024-11",
+   "assertion": "6(a)(i) 'Complete the table' crops the formulae table via the group-stem anchor while 6(b) crops the Mg/Cl diagram — the two assets must never alias one file again, and the real table must never go uncropped (F33)",
+   "check": "asset_state",
+   "part": "6(a)(i)",
+   "kind": "crop",
+   "path_contains": "asset_6_a_table_stem"
+  },
+  {
+   "id": "C24-drawn-scaffold-crop",
+   "series": "2024-11",
+   "assertion": "6(c)(i) 'Complete the dot-and-cross diagram' crops the DRAWN ammonia scaffold (N circle + three H circles printed as vector art) instead of stubbing — the text-only scaffold signature must not swallow drawn scaffolds (F32)",
+   "check": "asset_state",
+   "part": "6(c)(i)",
+   "kind": "crop",
+   "page": 19,
+   "path_contains": "asset_6_c_i_diagram"
+  },
+  {
+   "id": "C25-2c-slice-count",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "4CH1/2C is extracted as its own paper slice: 7 questions (footer-verified probe, F34); the paper parametrization must never collapse 2C back onto the 1C slice or drop the slice",
+   "check": "question_count",
+   "expected": 7
+  },
+  {
+   "id": "C26-2c-g1-marks",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "4CH1/2C 2022-06 G1 structure PASSES with the 2C paper total of 70 marks (footer-verified 16/16 series, F34) — the per-variant PAPER_TOTALS registry must hold",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 70
+  },
+  {
+   "id": "C27-2c-sentence-positive",
+   "series": "2021-11",
+   "paper": "2C",
+   "assertion": "1(e) keys to D via the sentence-form positive 'The only correct answer is D' (F36) — sentence-style 2C MS entries must key on a single distinct positive without answer-row corroboration",
+   "check": "part_keyed_to",
+   "part": "1(e)",
+   "label": "D"
+  }
+ ]
 }

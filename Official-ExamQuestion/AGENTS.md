@@ -22,7 +22,7 @@ Official-ExamQuestion/
   spec-labels/<series>.json LLM spec-tagging wave labels (parts -> 4CH1 codes)
   MULTI-SERIES-REPORT.{md,json}   per-series gate matrix + findings + cross-diff summary
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
-  igcse-chemistry-19/<series>/4CH1-1C/
+  igcse-chemistry-19/<series>/4CH1-<paper>/   (1C since the prototype; 2C since v0.8/F34)
     topic.json              syllabai.official-paper-questions/0.1 (the product)
     questions.md            human-readable render
     validation-report.json  G0–G7 receipts + negative controls + review queue
@@ -44,16 +44,18 @@ The kit runs from any clean checkout. Outputs are ALWAYS written inside the chec
 staged under `$EXAMQ_UPLOAD_DIR` (default `/home/z/my-project/upload`) with fixed
 names (see `official_examq_extract.py:paths_for`):
 
-    official-4CH1-1C-<series>-qp.pdf / -ms.pdf     raw PDFs from syllabai-pastpapers
-    official-<series>-qp.txt / -ms.txt             pdftotext -layout extractions
-    manifest-<series>-1C.yaml                      manifest from the archive repo
+    official-4CH1-<paper>-<series>-qp.pdf / -ms.pdf  raw PDFs from syllabai-pastpapers
+    official-<series>-<paper>-qp.txt / -ms.txt       pdftotext -layout extractions
+    manifest-<series>-<paper>.yaml                   manifest from the archive repo
+  (pre-0.8 bare 1C txt names are still honored for old staging areas)
 
 Cold start needs no manual prep: `run_all.sh` bootstraps the series index itself
 (one contents-API call; set `GHTOKEN` for a private archive repo, F16).
 
 Run one series (writes topic.json + questions.md + validation-report.json):
 
-    python3 scripts/official_examq_extract.py --series 2020-11
+    python3 scripts/official_examq_extract.py --series 2020-11             (paper 1C)
+    python3 scripts/official_examq_extract.py --series 2022-06 --paper 2C  (2C tranche, F34)
 
 Run the whole corpus and verify nothing regressed:
 
@@ -82,7 +84,7 @@ Run the whole corpus and verify nothing regressed:
 | Gate    | Proves                                   | Fails when                                          |
 |---------|------------------------------------------|-----------------------------------------------------|
 | G0 identity | the PDFs ARE the manifest's paper     | sha256 mismatch, manifest schema surprises (F13)     |
-| G1 structure | Σ parts = printed Q total = 110/paper | mark-sum drift, missing footers, count-registry miss |
+| G1 structure | Σ parts = printed Q total = paper total (110 for 1C, 70 for 2C — `PAPER_TOTALS`) | mark-sum drift, missing footers, count-registry miss |
 | G2 verbatim | emitted text == extracted source text | any post-hoc edit (≥1 5-gram below overlap)          |
 | G3 MCQ     | options as printed, exactly one key   | option count drift, ambiguous/unresolved keys        |
 | G4 figures | every table/diagram mention → asset; crops rendered | mentions without page-anchored asset records |
@@ -124,13 +126,16 @@ the SME registry; G6 routes it to the review queue). G6 re-validates every code
 against `spec_point_resolution.json` on every run. Wave coverage: 927/930 parts
 tagged (1,180 codes, 0 invalid); the 3 pending parts have no clean spec point.
 To extend tagging: append codes to the per-series spec-labels file (part_number
-→ [codes]), re-run, and let G6 judge.
+→ [codes]; 1C files are `spec-labels/<series>.json`, other papers use
+`spec-labels/<series>-<paper>.json` — no 2C wave exists yet, all 607 2C parts
+are honestly `pending-llm`), re-run, and let G6 judge.
 
 ## Crop-review verdict ledger (v0.7.1)
 
 `CROP-REVIEW.json` is the durable eyeball record; verdicts are applied AFTER all
 confidence overrides on every run and C22 keeps ledger↔corpus consistent in both
-directions. Verdict vocabulary:
+directions. Ledger keys: bare `<series>` for 1C, `<series>:<paper>` for other
+variants (F34) — verdict homes never collide across papers. Verdict vocabulary:
 - `accepted` — the crop matches its source-page figure; clears `review` on
   `kind: "crop"` assets.
 - `stub-accepted` — the source page has no croppable figure (text-only scaffold,
@@ -181,9 +186,11 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 - Output dirs mirror the archive: `<course>/<series>/<paper>/`. Never write into
   `syllabai-pastpapers` (byte-frozen archive of record; see README).
 - Add a new series: stage the 3 input files with the standard names, verify printed
-  question count against footers (must sum to 110), add the count to
-  `EXPECT_QUESTIONS`, run, then follow the improvement loop for whatever the gates
-  surface.
+  question count against footers (must sum to the paper total: 110 for 1C, 70 for
+  2C — `PAPER_TOTALS`), add the count to `EXPECT_QUESTIONS[<paper>]`, run, then
+  follow the improvement loop for whatever the gates surface. G0 also asserts the
+  staged manifest's `paper_number_variant` equals `--paper` (a 2C run over 1CR
+  bytes fails closed).
 - Add a new course (beyond igcse-chemistry-19): parametrize `PAPER_TOTAL`,
   `EXPECT_QUESTIONS`, footer regex, and the spec registry path; the ADR's UNVERIFIED
   list (§6) lists what must be proven for a new course (modular 4XCH1, 4SD0 shared
@@ -210,6 +217,14 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 - 2019-06 archive damage: re-ingest from a better PDF if one surfaces, or OCR the 5
   rasterized content pages, then re-run gates (G1 must return to PASS with 110/110).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
+- 2C follow-ups (F34 wave): (a) eyeball the 22 review-queue figure items and
+  record verdicts in CROP-REVIEW.json under `<series>:2C` keys; (b) author the
+  2C spec-label waves (`spec-labels/<series>-2C.json`, labels only, G6 judges);
+  (c) the repo parsed/ layer is 1C-only — a 2C parsed layer would unlock the
+  independent-parse cross-diff for 2C; (d) the remaining GO'd variants (1CR ×11,
+  2CR ×11) run on the same kit via `--paper 1CR/2CR` once their totals/counts
+  are footer-verified into `PAPER_TOTALS`/`EXPECT_QUESTIONS` and any layout
+  findings go through the loop.
 - Serving semantics (v0.6): `assets[]` entries are `kind: "crop"` (real PNG under
   `path`), or `kind: "crop"` with `shared: true` + `ref_part` (a reference to the
   part/stem figure that already owns the PNG — render the referenced `path`, do
