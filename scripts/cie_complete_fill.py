@@ -54,6 +54,7 @@ QUAL = {
  "cie-igcse-geography-25": "cie-igcse-geography-2025-2026",
  "cie-igcse-business-25": "cie-igcse-business-2027-2029",
  "cie-igcse-business-23": "cie-igcse-business-2023-2025",
+ "cie-a-level-business-23": "cie-a-level-business-2023-2025",
  "cie-igcse-history-18": "cie-igcse-history-2024-2026",
 }
 
@@ -194,7 +195,7 @@ def main():
         }
         print(f"{slug:46s} rows={len(lane_rows):4d} applied={applied:4d} already={already:4d} "
               f"pendingClassified={len(lane_pend):4d}", flush=True)
-    # manifest block
+    # manifest block (idempotent: values derive from report['courses'])
     if apply_mode and not report['problems']:
         man_path = os.path.join(RES, 'spec-links', 'manifest.json')
         man = load(man_path)
@@ -208,14 +209,40 @@ def main():
         }
         json.dump(man, open(man_path, 'w', encoding='utf8'), indent=1, ensure_ascii=False)
         open(man_path, 'a', encoding='utf8').write('\n')
-        # evidence yaml
+    # evidence yaml — built deterministically from the INPUTS (not the apply
+    # loop), so re-runs repopulate it identically instead of clobbering it.
+    if apply_mode and not report['problems']:
         ydoc = {'lane': LANE, 'generated_utc': STAMP, 'order': ORDER,
                 'header': ('Per (lane, noteId) verdict rows of the COMPLETE-1 note-level '
                            'lattice-join completion. Tier V7_agent_note_join = agent-authored '
                            'under the operator order, evidence recorded (sidecar label/topic/'
                            'section + official point texts); rows individually overturnable; '
-                           'pending classes in pending_classes.json (AGENT.md rules 1-4).'),
-                'verdicts': yaml_rows}
+                           'pending_classified entries record the structured reason per '
+                           'still-uncoded note (AGENT.md rules 1-4).'),
+                'verdicts': []}
+        for slug_y in sorted(rows):
+            sidecar_path_y = os.path.join(RES, 'spec-links', f'{slug_y}.json')
+            sd_y = load(sidecar_path_y)
+            codes_universe_y = parsed_codes(QUAL[slug_y])
+            items_y = sd_y['items']
+            for nid_y, rec_y in rows[slug_y].items():
+                it_y = items_y.get(nid_y) or {}
+                ydoc['verdicts'].append({
+                    'lane': slug_y, 'id': nid_y, 'verdict': 'resolve', 'tier': TIER,
+                    'method': rec_y['cls'], 'codes': rec_y['codes'],
+                    'label': it_y.get('label'), 'section': it_y.get('section'),
+                    'topic': it_y.get('topic'),
+                    'official_texts': {c: (codes_universe_y.get(c) or '')[:160]
+                                       for c in rec_y['codes']},
+                    'rule': f'{rec_y["cls"]} under {LANE}; {ORDER}',
+                })
+            for nid_y, reason_y in sorted(pend.get(slug_y, {}).items()):
+                it_y = items_y.get(nid_y) or {}
+                ydoc['verdicts'].append({
+                    'lane': slug_y, 'id': nid_y, 'verdict': 'pending_classified',
+                    'reason': reason_y, 'label': it_y.get('label'),
+                    'section': it_y.get('section'), 'topic': it_y.get('topic'),
+                })
         with open(os.path.join(RES, 'scripts', 'cie_complete_verdicts.yaml'), 'w', encoding='utf8') as f:
             yaml.safe_dump(ydoc, f, sort_keys=False, allow_unicode=True, width=110)
     if report['problems']:
