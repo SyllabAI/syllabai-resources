@@ -20,6 +20,12 @@ REPORT = "/home/z/my-project/download/rag_biology/parse_report_v1.json"
 ANCHOR_KEYS = ["id", "unit_no", "unit_name", "chapter_no", "chapter_title",
                "section", "content_type", "book_pages", "pdf_pages"]
 
+# Skill-tag slivers already dropped by the round-1 partial merge (2026-10-20,
+# lane worklog 23:15): junk-only <40-char chunks with no RAG value. Frozen here
+# so idempotent re-merges after resuming the polish keep the anchor diff clean
+# (they are absent from the corpus by design and cannot be re-detected).
+PREV_DROPPED_IDS = {"bio_v1_u2_c4_pdf038_0259", "bio_v1_u2_c5_pdf045_0296"}
+
 pristine_path = CORPUS + ".pristine"
 if not os.path.exists(pristine_path):
     shutil.copyfile(CORPUS, pristine_path)
@@ -81,7 +87,7 @@ for c in chunks:
         if c.get(k) != p.get(k):
             drift += 1
             print(f"[anchor] DRIFT {k} on {c['id']}: {p.get(k)!r} -> {c.get(k)!r}")
-extra = set(pristine) - {c["id"] for c in chunks} - dropped_ids
+extra = set(pristine) - {c["id"] for c in chunks} - dropped_ids - PREV_DROPPED_IDS
 if extra:
     drift += len(extra)
     print(f"[anchor] MISSING ids: {sorted(extra)[:5]}")
@@ -123,7 +129,9 @@ report.update({
         "selected": len(json.load(open("/home/z/my-project/data/biology/llm_repair_ids_biology.json"))),
         "applied": applied,
         "rounds": 1,
-        "guard": "garble-map-normalized char-level LCS >= 0.97 (whitespace-stripped), "
+        "guard": "garble-map + generic junk-token normalized char-level symmetric LCS >= 0.94 "
+                 "(whitespace-stripped; threshold calibrated by replaying banked OKs, "
+                 "min 0.9412, see METHOD_AND_FINDINGS D-9 / playbook L-015), "
                  "length drift 0.6-1.7x, refusal patterns, line-strict retry; "
                  "rejected raws kept as evidence",
     },

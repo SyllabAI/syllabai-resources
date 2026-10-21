@@ -659,8 +659,6 @@ Externally set and assessed
 
 by Edexcel
 
-11;BiiihiHiiiij!@!iid1ilM\illlllll
-
 AVAILABILITY
 
 Biology
@@ -680,8 +678,8 @@ January and June
 examination series
 
 First assessment June 2019
-11wBli\MiM!iiw!M!iifMIMMlilllllll
 
+#### 11wBli\MiM!iiw!M!iifMIMMlilllllll
 AVAILABILITY
 
 Biology
@@ -5558,17 +5556,17 @@ it by performing an operation called an artificial pneumothorax. What do
 
 you think might be involved in this operation?
 
-mm> CRITICAL THINKING
+CRITICAL THINKING
 
-mD ANALYSIS
+ANALYSIS
 
-lr.ll!l'll'!li, ANALYSIS
+ANALYSIS
 
-liiillliiil"'" PROBLEM SOLVING
+PROBLEM SOLVING
 
-l'!lllllP.lli,, ANALYSIS
+ANALYSIS
 
-liiillliiil"'" REASONING
+REASONING
 
 #### .•. ,
 8
@@ -5658,11 +5656,11 @@ reading the leaflet!
 
 4 FOOD AND DIGESTION
 
-Food 1s essenllal for lite. The nutrients obtained trom 11 are used m many different ways by the body This chapter looks at
+Food is essential for life. The nutrients obtained from it are used in many different ways by the body This chapter looks at
 
-the different kinds of food, and how the food 1s broken down by the d1gest1ve system and absorbed mto the blood, so that
+the different kinds of food, and how the food is broken down by the digestive system and absorbed into the blood, so that
 
-11 can be earned to all the tissues of the body
+it can be carried to all the tissues of the body
 LEARNING OBJECTIVES
 
 111
@@ -6875,8 +6873,8 @@ pregnancy a woman may need extra iron or calcium in her diet, for the growth
 of the fetus. In younger women, the blood loss during menstruation (periods)
 
 can result in anaemia, producing a need for extra iron in the diet.
-i:mjllle\1@tl
 
+#### i:mjllle\1@tl
 If a sample of food will burn well in air, its energy content can be
 
 measured using a simplified version of the food calorimeter (Figure 4.13).
@@ -6885,11 +6883,9 @@ Suitable foods are dry pasta, crispbread or biscuits. It is not advisable to
 
 use nuts, since some people are allergic to them.
 
-water"'<
+water"
 
-burning fJd he-;;;----..
-
-on mounted needle
+burning food on mounted needle
 ----
 
 .& Figure 4.13 Measuring the energy content of a food sample
@@ -8994,8 +8990,8 @@ why a double circulatory system is more efficient than a single
 circulatory system.
 
 c Explain why single-celled organisms do not need a circulatory system.
-I&
 
+#### I&
 CRITICAL THINKING
 
 6 Blood transports oxygen and carbon dioxide around the body. Oxygen is
@@ -9008,19 +9004,13 @@ transporting oxygen.
 
 b Describe how oxygen:
 
-!I . ...
-
-\.'.f
-
 i
 
 enters a red blood cell from the alveoli in the lungs
 
-Ii
+ii
 
 passes from a red blood cell to an actively respiring muscle cell.
-
-!I, ...
 
 #### =..•.;
 c Describe how carbon dioxide is transported around the body.
@@ -9122,8 +9112,8 @@ d waking.
 and after a period of exercise.
 
 150
-'-y--1 '-y-' '-,--'
 
+#### '-y--1 '-y-' '-,--'
 A
 
 B
@@ -9136,7 +9126,7 @@ time
 
 a Describe and explain the heart rates found:
 
-I at rest, before exercise (period A)
+i at rest, before exercise (period A)
 
 ii as the person commences the exercise (period B)
 
@@ -9152,11 +9142,11 @@ fitness?
 
 6 COORDINATION
 
-In the body 'coordinaliOn' means makmg thmgs happen at the right tune by hnkmg up different body act1v1t1es. Humans
+In the body 'coordination' means making things happen at the right time by linking up different body activities. Humans
 
-and other animals have two organ systems wl11ch do this. The first 1s the nervous system, which 1s the subJect of this
+and other animals have two organ systems which do this. The first is the nervous system, which is the subject of this
 
-chapter. The second 1s the hormone or endocrine system, which 1s dealt with 10 Chapter 7.
+chapter. The second is the hormone or endocrine system, which is dealt with in Chapter 7.
 LEARNING OBJECTIVES
 
 •
@@ -9496,17 +9486,17 @@ L_J
 
 axon
 
-direction ot impulses
+direction of impulses
 
 axon terminations on
 
-cellrdy
+cell body
 
 I
 
 sensory neurone
 
-myelin [heath
+myelin sheath
 
 )G
 
@@ -9516,7 +9506,7 @@ d' ·:.:.f·· I i
 
 ~
 
-1rectton o 1mpu se dendron
+direction of impulse dendron
 
 junctions with
 
@@ -10268,9 +10258,11 @@ receptor to the CNS
 the CNS
 
 effector from the CNS
-1111> CRITICAL THINKING
 
-1111> REASONING
+#### 1111> CRITICAL THINKING
+CRITICAL THINKING
+
+REASONING
 
 .. 6 •
 
@@ -10283,8 +10275,8 @@ p
 a
 
 Which row in the table shows the cornea and the choroid?
-·--
 
+#### ·--
 A
 
 B
@@ -10357,7 +10349,7 @@ a What is meant by 'accommodation'?
 
 b Why is accommodation not possible after a cataract operation?
 
-c: Explain how a normal eye accommodates to focus on a nearby object .
+c: Explain how a normal eye accommodates to focus on a nearby object.
 .... ~
 
 6 The diagram shows a section through a human eye .
@@ -10422,12 +10414,14 @@ b Describe the function of each of these types of neurone.
 
 c Which parts of the nervous system are shown by the labels X, Y and Z?
 
-El!!.> CRITICAL THINKING
+CRITICAL THINKING
 
-1:11!!> PROBLEM SOLVING
+PROBLEM SOLVING
 
-1:11!!> CRITICAL THINKING
-1:11!!> CRITICAL THINKING
+CRITICAL THINKING
+
+#### 1:11!!> CRITICAL THINKING
+1: CRITICAL THINKING
 
 d In what form is information passed along neurones?
 
@@ -10472,11 +10466,9 @@ produced by each stimulus.
 
 b For one of your five examples, explain:
 
-the nature and role of the receptor
+i the nature and role of the receptor
 
-ii
-
-the nature and role of the effector organ.
+ii the nature and role of the effector organ.
 
 c For the same example, describe the chain of events from stimulus to
 
@@ -10488,11 +10480,11 @@ response.
 
 7 CHEMICAL COORDINATION
 
-The nervous system (Chapter 6) 1s a coordination system forming a hnk between stimulus and response. The body
+The nervous system (Chapter 6) is a coordination system forming a link between stimulus and response. The body
 
-has a second coordinatmn system, which does not involve nerves. This 1s the endocnnc system. It consists of organs
+has a second coordination system, which does not involve nerves. This is the endocrine system. It consists of organs
 
-called endocrine glands, which make chemical messenger substances called hormones. Hormones are earned in the
+called endocrine glands, which make chemical messenger substances called hormones. Hormones are carried in the
 
 bloodstream.
 LEARNING OBJECTIVES
@@ -10660,17 +10652,15 @@ thyroid
 
 (in women)
 
-o,<:i~
-
 ovary
 
 testis (in men)
 
 A Figure 7.2 The main endocrine glands of the
 
-body .
+body.
 
-KEY POINl
+KEY POINT
 
 The pituitary is a link between the
 
@@ -10994,7 +10984,7 @@ glucose in the blood, so a person with diabetes can help to control their blood
 sugar if they limit the amount of carbohydrate that they eat. However a person
 
 #### UIMwiii11\1jfijujff ...
-kEY POIHl
+KEY POINT
 
 Insulin is a protein, and if it were to be
 
@@ -11040,9 +11030,7 @@ the gene for human insulin (see
 
 Chapter 22).
 
-UIMwiii11\1jfijujff ...
-mD
-
+#### mD
 CRITICAL THINKING
 
 with diabetes (type 1) also needs to receive daily injections of insulin to keep
@@ -11094,8 +11082,8 @@ B oestrogen
 C progesterone
 
 D follicle stimulating hormone (FSH)
-mD
 
+#### mD
 CRITICAL THINKING
 
 3 Which of the following will not happen when the hormone adrenaline is
@@ -11125,8 +11113,8 @@ D insulin present in the urine
 four words in italics
 
 b Identify the hormones A to D in the table.
-EIH::HH
 
+#### EIH::HH
 One function of this hormone
 
 A
@@ -11148,8 +11136,6 @@ completes the development of the uterus lining during the menstrual cycle
 '8 130
 
 ~ 120
-
-D
 
 ~o 110
 ~i
@@ -11196,9 +11182,9 @@ Describe two ways a person with diabetes can monitor their blood
 
 glucose level.
 
-iii Explain two ways that a person with diabetes can help to control their
+iii Explain two ways that a person with diabetes can help to control their blood
 
-blood glucose level.
+glucose level.
 
 ## Unit 2: Animal Physiology
 
@@ -11206,9 +11192,9 @@ blood glucose level.
 
 8 HOMEOSTASIS AND EXCRETION
 
-The kidneys have maior roles to play m both homeostasis and excretion. This chapter 1s mainly concerned w,lh the
+The kidneys have major roles to play in both homeostasis and excretion. This chapter is mainly concerned with the
 
-structure and funcllon of the kidneys. It also deals with another important aspect of homeostasis - maintaining a steady
+structure and function of the kidneys. It also deals with another important aspect of homeostasis - maintaining a steady
 
 body temperature.
 LEARNING OBJECTIVES
@@ -11404,7 +11390,9 @@ sweat 600 cm3
 urine 1500 cm3
 
 faeces 1 OD cm3
-I total 2600 cm3 I
+
+#### I total 2600 cm3 I
+I total 2600 cm3
 
 Tissue fluid is a watery solution of salts, glucose and other solutes. It surrounds
 
@@ -11454,7 +11442,7 @@ in other forms, such as sweat. Every litre of urine contains about 40 g of waste
 
 products and salts (Table 8.1).
 
-K[Y POINT
+KEY POINT
 
 If you are studying for the Double
 
@@ -11999,7 +11987,7 @@ smaller volume of urine. These changes are controlled by a hormone produced
 
 by the pituitary gland, at the base of the brain. The hormone is called
 
-antidiuretlc hormone, or ADH.
+antidiuretic hormone, or ADH.
 
 'Diuresis' means the flow of urine from the body, so 'antidiuresis' means
 
@@ -12056,11 +12044,11 @@ dilute. This leads to lower levels of ADH secretion, the kidney tubules become
 
 less permeable to water, and more water passes out of the body in the
 
-urine. In this way, through the action of AOH, the level of water in the internal
+urine. In this way, through the action of ADH, the level of water in the internal
 
 environment is kept constant.
 
-•!li'1•11:1!•11@·1ims·,
+•ANALYSIS•
 
 40
 
@@ -12185,17 +12173,17 @@ its body temperature varied.
 
 It is also important that the body does not become too hot. The cells' enzymes
 
-work best at 37 •c. At higher temperatures enzymes, like all proteins, are
+work best at 37 °C. At higher temperatures enzymes, like all proteins, are
 
-destroyed by denaturing (see Chapter 1 ). Endotherms have all evolved a
+destroyed by denaturing (see Chapter 1). Endotherms have all evolved a
 
-body temperature of around 40 •c (Table 8.2) and enzymes that work best at
+body temperature of around 40 °C (Table 8.2) and enzymes that work best at
 
 this temperature.
 
 Table 8.2 The body temperatures of a range of mammals and birds
 
-M+it&
+Mammal
 
 brown bear
 
@@ -12262,11 +12250,9 @@ of body temperature/ °C
 
 41.0 ± 1.0
 
-MONITORING BOOY TEMPERATURE
+MONITORING BODY TEMPERATURE
 
-THE SKIN ANO TEMPERATURE
-
-CONTROL
+THE SKIN AND TEMPERATURE CONTROL
 
 epidermis {
 
@@ -12280,7 +12266,7 @@ hypodermis {
 
 In humans and other mammals the core body temperature is monitored by a
 
-part of the brain called the thermo regulatory centre. This is located in the
+part of the brain called the thermoregulatory centre. This is located in the
 
 hypothalamus of the brain. It acts as the body's 'thermostat'.
 
@@ -12296,7 +12282,7 @@ having a cold drink, or putting on more clothes.
 
 If changes to our behaviour are not enough to keep our body temperature
 
-constant, the therrnoregulatory centre in the hypothalamus detects a change in
+constant, the thermoregulatory centre in the hypothalamus detects a change in
 
 the temperature of the blood flowing through it. It then sends signals via nerves to
 
@@ -12438,8 +12424,8 @@ deeper vessels
 .6, Figure 8.10 Blood flow through the surface of the skin is controlled by vasodilation or
 
 vasoconstriction.
-\
 
+#### \
 In cold conditions, the opposite happens. The arterioles leading to the surface
 
 capillary loops constrict (become narrower) and blood flow to the surface of
@@ -12451,9 +12437,8 @@ Vasoconstriction and vasodilation are brought about by tiny rings of muscles
 in the walls of the arterioles, called sphincter muscles, like the sphincters you
 
 read about earlier in this chapter, at the outlet of the bladder.
-mD CRITICAL THINKING
-....
 
+#### ....
 There are other ways that the body can control heat loss and heat gain. In cold
 
 conditions, the body's metabolism speeds up, generating more heat. The liver,
@@ -12528,17 +12513,13 @@ C 2and3
 
 D 1, 2and3
 
-•!/u••11:mmm1in1n
+CRITICAL THINKING
 
-mD
+ANALYSIS
 
 CRITICAL THINKING
 
-mD ANALYSIS
-
-..,,,,..,..,_ CRITICAL THINKING,
-
-liililliii,III' REASON I NG
+REASONING
 BID ANALYSIS
 
 4 If the human body temperature starts to rise, which of the following happens?
@@ -12550,8 +12531,8 @@ B contraction of hair erector muscles
 C decrease in the rate of metabolism
 
 D decrease in production of sweat by glands in the skin
-@:mmm:1-a1r1
 
+#### @:mmm:1-a1r1
 5 Explain the meaning of the following terms:
 
 a homeostasis
@@ -12712,16 +12693,16 @@ animal lives).
 
 9 REPRODUCTION IN HUMANS
 
-One of the charactenstics of hvmg organisms that makes them different from non-l1vmg thmgs ,s their ability to produce
+One of the characteristics of living organisms that makes them different from non-living things is their ability to produce
 
-offspring, or reproduce Reproduction 1s all about an organism passing on its genes. This can be through special sex
+offspring, or reproduce. Reproduction is all about an organism passing on its genes. This can be through special sex
 
 cells, or gametes. It can also be asexually, without the production of gametes. In this chapter we look at the differences
 
-between sexual and asexual reproduction, and study m detail the process of human reproduction.
+between sexual and asexual reproduction, and study in detail the process of human reproduction.
 
 .6. Figure 9.1 A sperm fertilising an egg
-KEV POINT
+KEY POINT
 
 Individuals produced asexually from the
 
@@ -12787,13 +12768,13 @@ determines a particular characteristic
 
 or feature. Genes are found in the
 
-nucleus of a cell on lhe chromosomes
+nucleus of a cell on the chromosomes
 
 (see Chapter 18).
 
 SEXUAL REPRODUCTION
 
-PRODUCTION DF GAMETES
+PRODUCTION OF GAMETES
 
 TRANSFER OF THE SPERM TO
 
@@ -12811,11 +12792,11 @@ of the original cell (see Chapter 17 for a description of mitosis). As a result,
 
 all the cells of an organism that are produced asexually have the same genes
 
-as the cell that produced them - the original adult cell. So a/I asexually
+as the cell that produced them - the original adult cell. So all asexually
 
 produced offspring from one adult will have the same genes as the cells of the
 
-adult. They will a/I be genetic copies of that adult and so will be identical to
+adult. They will all be genetic copies of that adult and so will be identical to
 
 each other.
 
@@ -12825,9 +12806,7 @@ it lives is relatively stable. If an organism is well adapted to this stable
 
 environment, asexual reproduction will produce offspring that are also well
 
-adapted. However, if the environment changes significantly, then a/I the
-
-individuals will be affected equally by the change. It may be such a dramatic
+adapted. However, if the environment changes significantly, then all the individuals will be affected equally by the change. It may be such a dramatic
 
 change that none of the individuals are adapted well enough to survive. The
 
@@ -13015,11 +12994,11 @@ in nucleus
 (diploid).
 G
 
-Zygotehas
+Zygote has
 
-46 ~hromosomes
+46 chromosomes
 
-m nucleus
+in nucleus
 
 (diploid).
 
@@ -13325,7 +13304,7 @@ voice breaks
 
 sexual 'drive' develops
 
-HORMONES ANO THE MENSTRUAL
+HORMONES AND THE MENSTRUAL
 
 CYCLE
 
@@ -13464,8 +13443,8 @@ of the corpus luteum is under the
 control of luteinising hormone (LH) from
 
 the pituitary.
-mD
 
+#### mD
 CRITICAL THINKING
 
 While this is going on, the lining of the uterus has been repaired after
@@ -13523,7 +13502,7 @@ C haploid cells produced by meiosis
 
 D haploid cells produced by mitosis
 
-2 Which of the following is nor a function of the ovaries?
+2 Which of the following is not a function of the ovaries?
 
 A the secretion of progesterone
 
@@ -13543,15 +13522,15 @@ D the site of fertilisation
 
 4. placenta
 
-A 1 and2
+A 1 and 2
 
-B 2and3
+B 2 and 3
 
-C 3and4
+C 3 and 4
 
-D 2and4
-mD
+D 2 and 4
 
+#### mD
 CRITICAL THINKING
 
 <4 A woman's first day of menstruation was on 1st June. Assuming she has a
@@ -13568,7 +13547,7 @@ D 21 June
 
 5 The diagram shows a baby about to be born.
 
-a Name parts A to Fon the diagram.
+a Name parts A to F on the diagram.
 
 b What is the function of A during pregnancy?
 
@@ -13587,8 +13566,8 @@ Method B
 testes -===:::::::::::
 
 ovary--.
-\
 
+#### \
 young Hydra bud
 
 a Which of the two methods shows asexual reproduction? Give a reason
@@ -13606,8 +13585,8 @@ reproduces mainly asexually. When the conditions change, Hydra begins
 to reproduce sexually. How does this pattern of sexual and asexual
 
 reproduction help Hydra to survive?
-mD
 
+#### mD
 INTERPERSONAL SKILLS
 
 7 a The diagram shows the female reproductive system.
@@ -13639,7 +13618,9 @@ thickness
 of lining
 
 of uterus
-L _.ruw...._..,,a11m1t.., ,,uugu,UllJ
+
+#### L _.ruw...._..,,a11m1t.., ,,uugu,UllJ
+L __...........allimit.., ,uugu,UllJ
 
 0
 
@@ -13693,15 +13674,11 @@ oestrogens and other chemicals. Carry out an Internet search to find out the
 
 evidence for this. Summarise your findings in about two sides of A4 paper.
 
-mD
-
 INTERPRETATION
 
 9
 
-The graph shows some of the changes taking place during the menstrual
-
-cycle.
+The graph shows some of the changes taking place during the menstrual cycle.
 
 follicle
 
@@ -13718,9 +13695,9 @@ A
 21
 
 B
-.. ·•--..
 
-28 {days)
+#### .. ·•--..
+28 (days)
 
 a Identify the two hormones produced by the ovary, which are shown by
 
@@ -13754,15 +13731,14 @@ Place where the
 
 hormone is made
 
-Funct,on(s) of the hormone
+Function(s) of the hormone
 
 ## Unit 2: Animal Physiology
 
 ### Unit 2: end-of-unit questions
 
-mD CRITICAL THINKING
-mD
 
+#### mD
 REASONING
 
 ANALYSIS
@@ -13781,19 +13757,21 @@ Inhaled air/%
 
 78
 
+21
+
+0.04
+
+0.96
+
 Exhaled air / %
 
 79
 
-a Copy the table and fill in the gaps by choosing from the following numbers:
-
-21
+16
 
 4
 
-0.04
-
-16
+1
 
 (2)
 
@@ -13809,7 +13787,7 @@ c Explain why exhaling is a form of excretion.
 
 d The following features can be seen in the lungs:
 
-thin membranes between the alveoli and the blood supply
+i thin membranes between the alveoli and the blood supply
 
 ii a good blood supply
 
@@ -13843,7 +13821,7 @@ Explain your answer.
 
 (4)
 
-Ii Which nutrient does enzyme A digest?
+ii Which nutrient does enzyme A digest?
 
 (1)
 
@@ -13859,7 +13837,7 @@ ii What is urea made from?
 
 (1)
 
-Iii Suggest how feeding urea to cattle can result in an increased growth
+iii Suggest how feeding urea to cattle can result in an increased growth
 
 rate.
 
@@ -13867,11 +13845,9 @@ rate.
 
 CRITICAL THINKING
 
-EJDANALYSIS
+ANALYSIS
 
 CRITICAL THINKING
-
-mD
 
 REASONING
 
@@ -13944,9 +13920,7 @@ ii Describe two other effects of adrenaline on the body.
 
 d How is a reflex action different from a voluntary action?
 
-e Following exercise there is a recovery period in which breathing rate and
-
-heart rate gradually return to pre-exercise levels. Explain why they do not
+e Following exercise there is a recovery period in which breathing rate and heart rate gradually return to pre-exercise levels. Explain why they do not
 
 (2)
 
@@ -13960,10 +13934,10 @@ return immediately to these levels.
 
 Total 16 marks
 
-mD
+CRITICAL THINKING
 
-CRITICAL TltlNKING
-mDANALYSIS
+#### mDANALYSIS
+ANALYSIS
 
 The immune system responds to infections using white blood cells.
 
@@ -13991,7 +13965,7 @@ response.
 
 Total 9 marks
 
-Humans and other mammals are able to main1ain a constant body temperature
+Humans and other mammals are able to maintain a constant body temperature
 
 which is usually higher than that of their surroundings.
 
@@ -14008,8 +13982,8 @@ shivering begins.
 Explain how each response helps the body to keep warm.
 
 ii Explain how the structure of arterioles allows them to constrict.
-@:mmtamir,
 
+#### @:mmtamir,
 c When the weather is hot we produce less urine.
 
 What is the name of the hormone that controls the amount of urine
@@ -14026,13 +14000,11 @@ ii Explain why the body produces less urine in hot weather.
 
 (1)
 
-iii Explain how the hormone in i} works in t he kidney to produce less
+iii Explain how the hormone in i} works in the kidney to produce less
 
 urine.
 
 (3)
-
-IMl111li:juj•@l@U
 
 Total 11 marks
 
@@ -14047,17 +14019,15 @@ C
 .
 
 ovulation on day 14
-mD
 
+#### mD
 CRITICAL THINKING
 
-9!!'1!111!11,,. EXECUTIVE
-
-~FUNCTION
+EXECUTIVE FUNCTION
 
 a Using evidence from the diagram, answer the following questions.
 
-During which of the stages A, 8, C or D does:
+During which of the stages A, B, C or D does:
 
 the level of the hormone oestrogen increase in the blood
 
@@ -14087,9 +14057,7 @@ per cell as two different human cells undergo cell division.
 
 Cell A
 
-CellB
-
-II
+Cell B
 
 original
 
@@ -14109,9 +14077,9 @@ division
 
 cells
 
-celt
+cell
 
-djvision
+division
 
 cells
 
@@ -14120,15 +14088,13 @@ cells
 92
 
 ~
-
-0
 E[
 
 e
 
 ii 23
 
-a Which of the two cells, A or 8, is dividing by meiosis? Explain how you
+a Which of the two cells, A or B, is dividing by meiosis? Explain how you
 
 arrived at your answer.
 
@@ -14184,17 +14150,15 @@ does·our understanding of eccosystems.
 
 10 PLANTS AND FOOD
 
-This chapler looks at photosynthesis. U1e process by which plants make slarch, and the structure of leaves in relation to
+This chapter looks at photosynthesis. The process by which plants make starch, and the structure of leaves in relation to
 
-photosynthesis. II also deals with how plants obtain other nutrients, and then uses in the plant.
+photosynthesis. It also deals with how plants obtain other nutrients, and then uses in the plant.
 
 Figure 10.1 All these foods are made
 
 by plants or made from products of
 
 plants. They all contain starch.
-
-...
 PLANTS MAKE STARCH
 
 All the foods shown in Figure 10.1 are products of plants. Some, such as
@@ -14205,7 +14169,7 @@ the staple diet of humans. They all contain starch, which is the main storage
 
 carbohydrate made by plants. Starch is a good way of storing carbohydrate
 
-because it insoluble, compact and can be broken down easily.
+because it is insoluble, compact and can be broken down easily.
 
 You can test for starch in food by adding a few drops
 
@@ -14427,7 +14391,7 @@ some elements are radioactive and can
 
 be used as 'labels' to follow chemical
 
-pathways. Others like 180 are identified
+pathways. Others like 18O are identified
 
 by their mass.
 
@@ -14451,7 +14415,7 @@ not make starch directly, but first produces glucose, which is then joined
 
 together in chains to form starch molecules. A carbohydrate made of many
 
-sugar sub-units is called a polysaccharide. Glucose has the formula C6H120 6.
+sugar sub-units is called a polysaccharide. Glucose has the formula C6H12O6.
 
 The carbon and oxygen atoms of the glucose molecule come from the carbon
 
@@ -14469,7 +14433,7 @@ scientists have proved that water is used in photosynthesis. They have done
 
 this by supplying the plant with water with 'labelled' atoms, for example using
 
-the 'heavy' isotope of oxygen ('80). This isotope ends up in the oxygen gas
+the 'heavy' isotope of oxygen ('18O). This isotope ends up in the oxygen gas
 
 produced by the plant. A summary of the sources of the atoms in the glucose
 
@@ -14491,13 +14455,13 @@ It is summarised by the equation:
 
 carbon dioxide + water
 
-liQht
+light
 
 glucose + oxygen
 
 or:
 
-6C02 + 6H20
+6CO2 + 6H20
 
 chlorophyll
 
@@ -14513,7 +14477,7 @@ You will probably have noticed that the overall equation for photosynthesis is
 
 the reverse of the one for aerobic respiration (see Chapter 1 ):
 
-C 6H 120 6 + 602 -, 6C02 + 6H20 (plus energy)
+C6H12O6 + 6O2 -> 6CO2 + 6H20 (plus energy)
 
 Respiration, which is carried out by both animals and plants, releases energy
 
@@ -14529,7 +14493,7 @@ leaf blade
 
 \
 
-branching veiqs
+branching veins
 
 \
 
@@ -14567,7 +14531,9 @@ amount of sunlight (Figure 10.6).
 palisade cells
 
 \
-spongy~ ---1
+
+#### spongy~ ---1
+spongy ---1
 
 greatly magnified
 
@@ -14619,9 +14585,9 @@ photosynthetic tissues. They also allow oxygen and water vapour to diffuse
 
 out. Each stoma is formed as a gap between two highly specialised cells
 
-called guard cells, which can change their shape to open or close the
+called guard cells, which can change their shape to open or close the stoma
 
-stoma (see Chapter 11).
+(see Chapter 11).
 KEY POINT
 
 A 'gas exchange' surface is a tissue that
@@ -14817,11 +14783,13 @@ air from the respiration of all organisms in the field.
 0.045
 
 ! ·a o.04o
-~./ concentration
 
-over24 hours
+#### ~./ concentration
+concentration
 
-0.025.,_ _______
+over 24 hours
+
+0.025 _______
 
 _
 
@@ -14831,9 +14799,9 @@ noon
 
 midnight
 
-• Figure 10.8 Photosynthesis affects the concentration of carbOn dioxide in the air around plants.
+• Figure 10.8 Photosynthesis affects the concentration of carbon dioxide in the air around plants.
 
-Over a 24-hour period, the concentration rises and falls, as a resutt of the relative levels of
+Over a 24-hour period, the concentration rises and falls, as a result of the relative levels of
 
 photosynthesis and respiration.
 
@@ -14851,13 +14819,13 @@ Table 10.1 Changes to hydrogen carbonate indicator solution with different conce
 
 carbon dioxide.
 
-Cond1t1on
+Condition
 
 high concentrations of CO2 (more than 0.04%)
 
 CO2 in normal air (0.04%)
 
-low concentrations of CO, (less than 0.04%)
+low concentrations of CO2 (less than 0.04%)
 
 Indicator colour
 
@@ -14885,14 +14853,14 @@ foil) and the third covered with some translucent material, to restrict the
 
 intensity of light reaching the leaf. The fourth tube without a leaf acts as a
 
-Control, to show that it is the presence of the leaf which affects the colour
+control, to show that it is the presence of the leaf which affects the colour
 
 of the indicator. (Figure 10.9).
 
 FACTORS AFFECTING THE RATE
 
 OF PHOTOSYNTHESIS
-KEV POINT
+KEY POINT
 
 A limiting factor is the component of a
 
@@ -14934,7 +14902,7 @@ leaf in dim light
 
 control (no leaf)
 
-Colour of md,cator at end of experiment
+Colour of indicator at end of experiment
 
 purple
 
@@ -14963,7 +14931,7 @@ intensity does not affect the rate any more. Normally, the factor which 'holds
 
 back' the rate of photosynthesis is the concentration of carbon dioxide in the
 
-air. This is only about 0.03 to 0.04%, and the p lant can only take up the carbon
+air. This is only about 0.03 to 0.04%, and the plant can only take up the carbon
 
 dioxide and fix it into carbohydrate at a certain rate. If the plant is put in a
 
@@ -14977,11 +14945,11 @@ photosynthesis, by limiting the rate of the chemical reactions in the leaf. A ri
 
 in temperature will then increase the rate. With normal levels of carbon dioxide,
 
-very low temperatures (close to O •q slow the reactions, but high temperatures
+very low temperatures (close to 0 °C) slow the reactions, but high temperatures
 
 (above about 35 °C) also reduce photosynthesis by denaturing enzymes in the
 
-plant cells (see Chapter 1 ).
+plant cells (see Chapter 1).
 KEY POINT
 
 Knowledge of limiting factors is used
@@ -15044,7 +15012,7 @@ If the bubbles formed per minute are counted, this is a measure of the
 
 rate of photosynthesis of the plant. It is easiest to count the bubbles if
 
-the cut piece of weed is placed upside down in a test tube, as show n in
+the cut piece of weed is placed upside down in a test tube, as shown in
 
 Figure 10.11. A small paperclip attached to the bottom of the piece of
 
@@ -15387,7 +15355,7 @@ two stages (Figure 10.16).
 
 light
 
-o,
+CO2
 
 I
 
@@ -15421,8 +15389,8 @@ they are called the light-independent reactions.
 If you continue with biology beyond International GCSE, you will find out
 
 more about the biochemistry of photosynthesis.
-... ,
 
+#### ... ,
 More questions on plants and food can be found at the end of Unit 3 on
 
 page 182.
@@ -15478,9 +15446,9 @@ C carbon dioxide concentration
 
 D light intensity
 
-mD CRITICAL THINKING
-mD
+CRITICAL THINKING
 
+#### mD
 INTERPRETATION
 
 4 Which of the following compounds can only be made by a plant if it has
@@ -15552,8 +15520,6 @@ cells contain many chloroplasts for
 
 photosynthesis
 
-mD
-
 REASONING
 
 7 The graph shows the changes in the concentration of carbon dioxide in a
@@ -15563,19 +15529,17 @@ field of long grass throughout a 24-hour period in summer.
 0.045
 
 ~ 0.040
-~ ..
 
-u
-
+#### ~ ..
 0.035
 
 0.030
 
-- - . average concentration
+average concentration
 
 over the 24 hours
 
-0.025 +--~--~-~--~
+0.025 ->
 
 2400h 0600h 1200h 1800h 2400h
 
@@ -15592,7 +15556,9 @@ at 1200 hours.
 b What factor will limit the rate of photosynthesis at 0400 hours and at
 
 1400 hours?
-•aN•1•11:1111••nt1imu
+
+#### •aN•1•11:1111••nt1imu
+•AND••••••••nt1imu
 
 8 The table below shows some of the substances that can be made by plants.
 
@@ -15624,7 +15590,7 @@ wool
 
 aluminium
 
-foil ---+
+foil --->
 
 pea
 
@@ -15637,8 +15603,8 @@ solution
 a Explain the purpose of the aeration tube and the aluminium foil around
 
 the test tube.
-mD
 
+#### mD
 INTERPRETATION
 
 b After two weeks, the roots of the pea seedling had grown less than
@@ -15736,7 +15702,7 @@ summary to less than two sides (about 500 words).
 
 11 TRANSPORT IN PLANTS
 
-Chapter 1 O described how plants make food by photosynthesis. Photosynthesis requires water lrom the roots to be
+Chapter 1 described how plants make food by photosynthesis. Photosynthesis requires water from the roots to be
 
 transported to the leaves, and sugars and other products of photosynthesis to be transported away from the leaves to the
 
@@ -15868,7 +15834,7 @@ potentials), and they are separated
 
 by a partially permeable membrane,
 
-osmosis can still take place .
+osmosis can still take place.
 
 The level in the capillary tube rises as water moves from the beaker to the
 
@@ -16060,11 +16026,11 @@ lose water by osmosis and shrink, producing cells with crinkly edges (Figure 11.
 
 red blood cells on the
 
-righ~ which were placed
+right, which were placed
 
 in a 3% salt solution, with
 
-the nonnal cells on the
+the normal cells on the
 
 left. Blood plasma has a
 
@@ -16278,14 +16244,14 @@ terms of osmosis.
 
 How large are the percentage changes in mass of the chips in the two
 
-liquids, compared w ith the chip in air?
+liquids, compared with the chip in air?
 
 A Figure 11.10 Root hairs on the growing root
 
 of a radish seedling. The hairs increase the
 
 surface area for absorption of water.
-KEV POINT
+KEY POINT
 
 If a plant needs a mineral ion that is
 
@@ -16407,7 +16373,7 @@ LOSS OF WATER BY THE LEAVES - TRANSPIRATION
 
 Osmosis is also involved in the movement of water through leaves. The
 
-epidermis of leaves is covered by a waxy cuticle (see Chapter 10), w hich is
+epidermis of leaves is covered by a waxy cuticle (see Chapter 10), which is
 
 impermeable to water. Most water passes out of the leaves as water vapour
 
@@ -16417,13 +16383,13 @@ Water leaves the cells of the leaf mesophyll and evaporates into the air spaces
 
 between the spongy mesophyll cells. The water vapour then diffuses out
 
-through the stomata! pores (Figure 11.12).
+through the stomata pores (Figure 11.12).
 
 water lost through stoma
 
 guard cell
 
-• Figure 11.12 Passage of water from the xylem to the stomata! pores of a leaf
+• Figure 11.12 Passage of water from the xylem to the stomata pores of a leaf
 }--
 
 Loss of water from the mesophyll cells sets up a water potential gradient which
@@ -16619,11 +16585,11 @@ In older stems, the vascular tissue grows to form complete rings around the
 stem. The inner xylem forms the woody central core of a stem, with the living
 
 layer of phloem outside this.
-•=MM5'1iWA
 
+#### •=MM5'1iWA
 As you saw in Chapter 10, there are usually more stomata on the lower surface
 
-of the leaves than the upper surface in most plant species (Figure 11 .17).
+of the leaves than the upper surface in most plant species (Figure 11.17).
 
 If they were mainly on the upper leaf surface, the leaf would lose too much
 
@@ -16655,14 +16621,11 @@ the only cells in the lower epidermis that contain chloroplasts. In the light, t
 
 guard cells use energy to accumulate solutes in their vacuoles, causing water
 
-to be drawn in by osmosis (Figure 11 .18).
+to be drawn in by osmosis (Figure 11.18).
 
 water enters guard cells by osmosis;
-
 guard cells become turgid, opening stoma
-
 water leaves guard cells by osmosis;
-
 guard cells become flaccid, closing stoma
 
 #### •=MM5'1iWA
@@ -16845,8 +16808,9 @@ to the new conditions. How can you tell when the shoot has equilibrated
 to the change? (Hint - what will happen to the rate of transpiration?)
 
 •Ui'#•jj:jj•j!ililiWFI
-mD CRITICAL THINKING
-mD CRITICAL THINKING
+
+#### mD CRITICAL THINKING
+CRITICAL THINKING
 
 More questions on transport in plants can be found at the end of Unit 3 on
 
@@ -16889,7 +16853,7 @@ B
 
 C
 
-0
+D
 
 Xylem
 
@@ -16921,11 +16885,11 @@ C cold, windy and dry
 
 D warm, still and wet
 
-mD CRITICAL THINKING
+CRITICAL THINKING
 
-mD CRITICAL THINKING
-. .
+CRITICAL THINKING
 
+#### . .
 ANALYSIS
 
 5 Three 'chips' of about the same size and shape were cut from the same
@@ -16941,8 +16905,8 @@ solution A
 solution B
 
 solution C
-Mi@/1:i·l,,!MMMMl::fhh·M
 
+#### Mi@/1:i·l,,!MMMMl::fhh·M
 7.4
 
 8.2
@@ -16955,7 +16919,7 @@ Mi@/1:i·l,,!MMMMl::fhh·M
 
 8.5
 
-Change ,n mass I%
+Change in mass I%
 
 - 12.2
 
@@ -16976,8 +16940,8 @@ the potato cells?
 The cell membrane is described as 'partially permeable'. Explain the
 
 meaning of this.
-@:mj•ij51•1@1
 
+#### @:mj•ij51•1@1
 6 Explain how each of the following cells is adapted for its function:
 
 a a root hair cell
@@ -17008,8 +16972,6 @@ d Greenflies feed by sticking their hollow tube-like mouthparts into the
 
 phloem of a plant stem.
 
-l!/ui•li:IMM5'lll/lU
-
 8 The diagram shows a cross-section through the stem of a plant.
 
 A
@@ -17018,11 +16980,9 @@ C
 
 a Identify the tissues labelled A, B and C.
 
-mD
-
 ANALYSIS INTERPRETATION
-mD
 
+#### mD
 CRITICAL THINKING
 
 9
@@ -17098,8 +17058,8 @@ D
 a Copy and complete the table below to show which condition (1 , 2, 3
 
 or 4) is most likely to produce curve A, B, C and D. One has been done
-for you: --
 
+#### for you: --
 B
 
 4
@@ -17120,9 +17080,9 @@ c Describe an adaptation found in plants living in dry habitats that
 
 decreases water loss from the leaves.
 
-E:!111> INTERPRETATION
-....
+INTERPRETATION
 
+#### ....
 11 The diagram shows a section through the root of a plant.
 
 a Identify the tissues labelled X and Y.
@@ -17149,12 +17109,12 @@ Underline each of these words in your description.
 
 12 CHEMICAL COORDINATION IN PLANTS
 
-Plants can detect changes m theJr environment and respond to them, but the responses are much slower than those m
+Plants can detect changes in their environment and respond to them, but the responses are much slower than those in
 
-animals. This 1s because movements in a plant are brought about by changes m the plant's growth. This chapter 1s about
+animals. This is because movements in a plant are brought about by changes in the plant's growth. This chapter is about
 
 these growth responses, and the chemicals that coordinate them.
-_ Understand that plants respond to stimuli
+Understand that plants respond to stimuli
 
 Understand the role of auxin in the phototropic
 
@@ -17382,7 +17342,7 @@ no growth or bending
 
 direction of light
 
-(di coleoptile with tip
+(d) coleoptile with tip
 
 covered by opaque
 
@@ -17463,7 +17423,7 @@ EXTENSION WORK
 
 'Auxin' should really be
 
-1auxins', since
+'auxins', since
 
 there are a number of chemicals
 
@@ -17579,8 +17539,10 @@ clinostat
 
 • Figure 12.8 A clinostat
 
-1i10;1,i"111M1Mrn ....
-mD CRITICAL THINKING
+110;1,i"111M1Mrn ....
+
+#### mD CRITICAL THINKING
+CRITICAL THINKING
 
 The clinostat can be used to demonstrate tropisms, for example geotropism
 
@@ -17635,9 +17597,7 @@ D Stems show positive phototropism and positive geotropism
 
 2. Auxin diffuses towards the light
 
-3. A high concentration of auxin stimulates growth of the coleoptile
-
-towards the light.
+3. A high concentration of auxin stimulates growth of the coleoptile towards the light.
 
 Which of these statements are true?
 
@@ -17663,10 +17623,12 @@ C positive geotropism
 
 D negative geotropism
 
-mD CRITICAL THINKING
+CRITICAL THINKING
 
-mD EXECUTIVE FUNCTION
-mD REASONING
+EXECUTIVE FUNCTION
+
+#### mD REASONING
+REASONING
 
 4 Movement of auxin is thought to take place by which of the following methods?
 
@@ -17697,7 +17659,9 @@ The diagram shows what was done. Predict the results you would expect to
 get in each of the experiments a) to c). Explain your answers.
 
 mica sheet
-c)_U____
+
+#### c)_U____
+c) ____
 
 light
 
@@ -17722,21 +17686,17 @@ The coleoptiles were measured and the mean length of each treatment
 group was calculated. Each batch of seedlings was then placed in a box
 
 with a hole cut in one side to provide a unidirectional source of light.
-light ~
+
+#### light ~
+light
 
 light
 
-decapitated
+decapitated coleoptiles with
 
-coleoptiles with
+untreated coleoptiles
 
-untreated
-
-coleoptiles
-
-tips covered
-
-coleoptiles
+tips covered coleoptiles
 
 After 48 hours the new mean length of the coleoptiles was found for
 
@@ -17764,7 +17724,7 @@ length of the coleoptiles, rather than simply the increase in length.
 
 Plants, like animals, can reproduce sexually and asexually. The sexual organs of a flowering plant are its flowers, which
 
-produce pollen and ovules contammg the flower's gametes. This chapter looks at both types of reproduction m flowering
+produce pollen and ovules containing the flower's gametes. This chapter looks at both types of reproduction in flowering
 
 plants.
 LEARNING OBJECTIVES
@@ -18001,9 +17961,9 @@ pollen grains
 
 Type of flower
 
-Insect-poll mated
+Insect-pollinated
 
-Wmd-polhnated
+Wind-pollinated
 
 enclosed within flower so that insect
 
@@ -18035,11 +17995,9 @@ small
 
 brightly coloured to attract insects
 
-not brighUy coloured, usually green
+not brightly coloured, usually green
 
 present - they produce nectar, a
-
-sweet liquid containing sugars as a
 
 absent
 
@@ -18047,9 +18005,9 @@ absent
 
 larger, sticky grains or grains with
 
-hooks, to stick to insects' bodies
-
 smaller, smooth, inflated grains to
+
+hooks, to stick to insects' bodies
 
 carry in the wind
 
@@ -18190,7 +18148,7 @@ dispersed from the parent plant they are usually very dry, containing only about
 10% water. This low water content restricts a seed's metabolism, so that it can
 
 #### GERMINATION
-remain alive but dormant {inactive) for a long time, sometimes for many years.
+remain alive but dormant (inactive) for a long time, sometimes for many years.
 
 When a seed germinates, dormancy comes to an end. The seed's food
 
@@ -18198,7 +18156,7 @@ store is broken down by enzymes and respired aerobically. This means that
 
 germination needs the following conditions:
 
-• warm temperatures, so that enzymes can act efficiently {see Chapter 1)
+• warm temperatures, so that enzymes can act efficiently (see Chapter 1)
 
 • water, for chemical reactions to take place in solution
 
@@ -18209,7 +18167,7 @@ Safety Note: Wash hands after
 
 handling seeds.
 
-mD CRITICAL THINKING
+CRITICAL THINKING
 
 Small seeds such as peas or mustard will grow on wet cotton wool
 
@@ -18236,7 +18194,7 @@ C
 
 oil
 
-kept at 4•c
+kept at 4°C
 
 D
 
@@ -18246,21 +18204,21 @@ A Figure 13.8 Apparatus to investigate the conditions needed for germination
 
 The water in tube C has been boiled to remove dissolved oxygen. The
 
-layer of oil {e.g. cooking oil) keeps out oxygen from the air.
+layer of oil (e.g. cooking oil) keeps out oxygen from the air.
 
-• Tube A: seeds on wet cotton wool, maintained at 20°C {room
+• Tube A: seeds on wet cotton wool, maintained at 20°C (room
 
 temperature)
 
-• Tube B: seeds on dry cotton wool, maintained at 20 •c
+• Tube B: seeds on dry cotton wool, maintained at 20°C
 
 • Tube C: seeds in boiled water, with a thin surface layer of oil;
 
-maintained at 20 •c
+maintained at 20°C
 
-• Tube D: seeds on wet cotton wool, placed in a refrigerator at 4 •c
+• Tube D: seeds on wet cotton wool, placed in a refrigerator at 4°C
 
-After a few days the seeds in the control tube {A) will start to germinate.
+After a few days the seeds in the control tube (A) will start to germinate.
 
 There will be no germination in tubes B or C. The seeds in tube D may
 
@@ -18268,7 +18226,7 @@ eventually start to germinate, but much more slowly than in tube A.
 
 What do the results tell you about the conditions needed for germination?
 
-Do you have any criticisms of this method? {Hint - are all the variables
+Do you have any criticisms of this method? (Hint - are all the variables
 
 fully controlled?)
 
@@ -18298,13 +18256,13 @@ C from stigma to style
 
 D from stigma to ovary
 
-El!!.> CRITICAL THINKING
+CRITICAL THINKING
 
-mD CRITICAL THINKING
+CRITICAL THINKING
 
-El!!.> OECISION MAKING
-mD
+DECISION MAKING
 
+#### mD
 EXECUTIVE FUNCTION
 
 3 Following fertilisation, which of the following takes place?
@@ -18349,9 +18307,9 @@ b How are insects attracted to a
 
 flower like this? Give two ways.
 
-c Copy the diagram and extend
+c Copy the diagram and extend the
 
-the pollen tube to show where it
+pollen tube to show where it
 
 would go when fully grown.
 
@@ -18379,7 +18337,7 @@ shown in the table .
 
 Height of any seedlings that
 
-genmnated / cm
+germinated / cm
 
 A
 
@@ -18392,8 +18350,8 @@ B
 C
 
 3.4, 4.5, 2.5, 3.7, 2.8, 4.4, 4.3, 2.9, 2.1, 3.7 • -
-. ..
 
+#### . ..
 100
 
 20
@@ -18432,7 +18390,7 @@ stolons. The ends of each stolon
 
 develop into a new tuber.
 
-;olon
+stolon
 
 a Give two pieces of evidence
 
@@ -18448,8 +18406,6 @@ will be genetically identical.
 
 (stem growing
 
-C'I
-
 downwards)
 
 \
@@ -18457,7 +18413,9 @@ downwards)
 old tuber which
 
 produced
-"-
+
+#### "-
+-
 
 parent plant
 
@@ -18519,11 +18477,13 @@ c Describe the benefits of reproducing banana plants asexually.
 
 ### Unit 3: end-of-unit questions
 
-E:!111.> CRITICAL THINKING
 
-E:!111.> INTERPRETATION
+#### E:!111.> CRITICAL THINKING
+CRITICAL THINKING
 
-E:!111.> DECISION MAKING
+INTERPRETATION
+
+DECISION MAKING
 D
 
 Light intensity and the concentration of carbon dioxide in the atmosphere
@@ -18600,17 +18560,13 @@ percentage change in mass calculated for each solution.
 
 The graph summarises the results.
 
-E:!111.> DECISION MAKJNG
+DECISION MAKING
 
-E:!111.> PROBL£M SOLVING
+PROBLEM SOLVING
 
-EXECUTIVE
+EXECUTIVE FUNCTION
 
-FUNCTION
-~ "
-
-le
-
+#### ~ "
 1l.
 
 (increase)
@@ -18665,7 +18621,7 @@ In terms of water potential, explain the result obtained with a
 
 (3)
 
-Ii What concentration of sucrose has a water potential equivalent to that
+ii What concentration of sucrose has a water potential equivalent to that
 
 of the potato cells? Explain your answer.
 
@@ -18687,18 +18643,19 @@ The diagram shows the main stages in the movement of water through a leaf.
 
 ~
 
-spcngy
+spongy
 
 mesophyll
 
 lower
 
 epidermis
-~
 
+#### ~
+~
 ~ A
 
-mDANALYSIS
+ANALYSIS
 
 a Name the tissues labelled A and B. Explain how you arrived at your
 
@@ -18708,7 +18665,7 @@ b Describe how water is being moved at each of the stages 1, 2, 3
 
 and 4.
 
-c; Describe two ways, visible in the diagram, in which this leaf is adapted to
+c Describe two ways, visible in the diagram, in which this leaf is adapted to
 
 (4)
 
@@ -18728,13 +18685,13 @@ conserve water.
 
 Total 14 marks
 
-IUl••ijl=1Mlt!C\1•UIO
+INTERPRETATION
 
-~.':) II Plants can respond to a range of stimuli.
+~ Plants can respond to a range of stimuli.
 
-mDANALYSIS
-mD
+ANALYSIS
 
+#### mD
 CRITICAL THINKING
 
 a Plant shoots detect and grow towards light.
@@ -18752,8 +18709,6 @@ iii Explain the advantage to the plant of this response.
 (1)
 
 b In an investigation, young plant shoots were exposed to light from one side.
-
-c;
 
 The wavelength of the light was varied. The graph summarises the results of
 
@@ -18789,25 +18744,19 @@ ii Describe the ways roots and shoots respond to this stimulus
 
 (2)
 
-Iii What is the benefit to the plant of these responses?
+iii What is the benefit to the plant of these responses?
 
 (2)
 
 Total 14 marks
 
-mDANALYSIS
-
-(:) D
+ANALYSIS
 
 The diagram below shows a flower.
 
-€,[)
+EXECUTIVE FUNCTION
 
-...,,,..,... EXECUTIVE
-
-aiillliiil"'" FUNCTION
-D
-
+#### D
 a Give the letter of the structure which:
 
 produces pollen grains
@@ -18824,7 +18773,7 @@ adapted for insect pollination.
 
 (2)
 
-c; Give the letter of the structure which is:
+c Give the letter of the structure which is:
 
 the stigma
 
@@ -18880,7 +18829,7 @@ Total 6 marks
 
 14 ECOSYSTEMS
 
-An ecosystem 1s a d1shnct, self.supporting system of organisms mteractmg with each other and with a physical
+An ecosystem is a distinct, self-supporting system of organisms interacting with each other and with a physical
 
 environment. An ecosystem can be small, such as a pond, or large, such as a mangrove swamp or a large forest This
 
@@ -18890,7 +18839,7 @@ A Figure 14.1 A pond is a small ecosystem.
 
 A Figure 14.2 A mangrove swamp is a larger ecosystem.
 
-KEY POIPlT
+KEY POINT
 
 Decomposers are fungi and some
 
@@ -18898,7 +18847,7 @@ species of bacteria. They feed by
 
 saprotrophic nutrition (see Chapter 2)
 
-USING OUADRATS TO SAMPLE
+USING QUADRATS TO SAMPLE
 
 FROM A HABITAT
 HINT
@@ -19192,9 +19141,9 @@ light severely restricts the growth of other tree species and ground layer plant
 
 animals.
 
-& Figure 14.6 A tropical raintorest ecosystem
+& Figure 14.6 A tropical rainforest ecosystem
 
-& Figure 14.7 A pine tores! has a low
+& Figure 14.7 A pine forest has a low
 
 contains thousands of different species of plants
 
@@ -19337,9 +19286,9 @@ environment can affect processes occurring in the organisms; processes
 
 occurring in organisms can affect the temperature of the environment (all
 
-organisms produce some heat}.
+organisms produce some heat).
 
-I•
+•
 
 Don't forget that plants take in carbon dioxide and give out oxygen only when there
 
@@ -19349,8 +19298,8 @@ plants take in oxygen and give out carbon dioxide. You should be able to explain
 
 reasons for this (see Chapter 10).
 
-BIOTIC ANO ABIOTIC FACTORS
-KEV POINT
+BIOTIC AND ABIOTIC FACTORS
+KEY POINT
 
 A predator is an animal that kills and
 
@@ -19368,7 +19317,7 @@ mosquitoes are parasites of humans
 
 the host of the mosquito.
 
-KEY POINl
+KEY POINT
 
 Large areas of the Earth dominated by
 
@@ -19477,7 +19426,7 @@ grasshopper
 lizard
 
 .& Figure 14.8 A simple food chain.
-KEV POINT
+KEY POINT
 
 Another way of describing the food
 
@@ -19493,7 +19442,7 @@ The simplest way of showing feeding relationships within an ecosystem is a
 
 food chain (Figure 14.8).
 
-In any food chain, the arrow(-->) means 'is eaten by'. In the food chain
+In any food chain, the arrow(->) means 'is eaten by'. In the food chain
 
 illustrated, the grass is the producer. It is a plant so it can photosynthesise
 
@@ -20058,15 +20007,14 @@ to see if the letter N (the symbol for
 
 nitrogen) is present:
 
-ProteiNs, amiNo acids and DNA all
+Proteins, amino acids and DNA all
 
 contain nitrogen. Carbohydrates and
-
 fats don't - they have no N.
 
 Nitrogen is an element that is present in many biological compounds, including
 
-proteins, amino acids, most vitamins, DNA and ATP. like the carbon cycle, the
+proteins, amino acids, most vitamins, DNA and ATP. Like the carbon cycle, the
 
 nitrogen cycle involves feeding, assimilation, death and decay. Photosynthesis
 
@@ -20167,29 +20115,29 @@ proteiN in
 detritus
 
 (dead matter)
-.,,,,.
 
-proteiN
+#### .,,,,.
+protein
 
 in these
 
 bacteria
 
-d~ath
+death
 
 decomposers
 
-ammoNia
+ammonia
 
 (NH3)
 
 Nitrite
 
-(N02)
+(NO2)
 
 ~
 
-itrifying bacteria
+nitrifying bacteria
 
 & Figure 14.18 The main stages in the nitrogen cycle
 
@@ -20302,11 +20250,8 @@ If you are interested, you can do some background research about Simpson's
 Index. You will find that there are different formulas used for the Index.
 
 It doesn't matter which one you use, as long as you are consistent.
-Ill>
 
-CRITICAL THINKING
-Ill>
-
+#### Ill>
 REASONING
 
 More questions on ecosystems can be found at the end of Unit 4 on page 221.
@@ -20357,8 +20302,6 @@ C 2 and 3
 
 D 3 and 4
 
-@:mmMJmlD
-
 4 In the nitrogen cycle, which of the following conversions is carried out by
 
 nitrifying bacteria?
@@ -20380,7 +20323,7 @@ b What are the roles of plants, animals and decomposers in an ecosystem?
 
 6 A marine food chain is shown below.
 
-plankton ... small crustacean -, krill -, seal -, killer whale
+plankton ... small crustacean -> krill -> seal -> killer whale
 
 a Which organism is i the producer, Ii the secondary consumer?
 
@@ -20390,11 +20333,9 @@ c Suggest why five trophic levels are possible in this case, when many food
 
 chains only have three or four.
 
-mD
-
 ANALYSIS REASONING
-mD
 
+#### mD
 CRITICAL THINKING
 
 7
@@ -20403,7 +20344,7 @@ Part (a) of the diagram shows a woodland food web. Part (b) shows a
 
 pyramid of numbers and a pyramid of biomass for a small part of this wood.
 
-(o)
+(a)
 
 herbs
 
@@ -20421,10 +20362,10 @@ numbers per 0.1 hectare
 
 150000
 
--
+->
 
-x
-earthworms l
+#### earthworms l
+earthworms
 
 oak trees
 
@@ -20452,7 +20393,7 @@ d In part (b) of the diagram, explain why level Y is such a different width in
 
 the two pyramids.
 
-•:ju11'1&1ems1
+•:problems•
 
 8
 
@@ -20468,9 +20409,7 @@ plant roots
 
 '
 
-ritus!
-
-~~
+nitrogen-fixing
 
 bacteria
 
@@ -20531,9 +20470,7 @@ ecosystem.
 
 b Write out two food chains, each containing four organisms from this
 
-food web. label each organism in each food chain as producer, primary
-
-consumer, secondary consumer or tertiary consumer.
+food web. label each organism in each food chain as producer, primary consumer, secondary consumer or tertiary consumer.
 
 c Decomposers make carbon in the detritus available again to mangrove
 
@@ -20551,9 +20488,8 @@ Explain how the decomposers make the carbon available.
 
 15 HUMAN INFLUENCES ON THE ENVIRONMENT
 
-Humans have intelligence far beyond that of any other animal on Earth This chapter looks at the way
-
-used our intelligence to influence natural environments, and some of the problems we have caused
+Humans have intelligence far beyond that of any other animal on Earth. This chapter looks at the way
+we have used our intelligence to influence natural environments, and some of the problems we have caused.
 the ozone layer is bei*: des1,£¥J
 
 11laces
@@ -20944,7 +20880,7 @@ potential maize crop is lost
 
 to weeds, insects and fungal
 
-diseases (Figure 15 . 6).
+diseases (Figure 15.6).
 
 DID YOU KNOW?
 
@@ -20968,7 +20904,7 @@ manufacturer's instructions.
 
 Adding farmyard manure returns some nitrogen to the soil. But, as farmyard
 
-manure is made from livestock faeces and ind igestible fodder, it can only
+manure is made from livestock faeces and indigestible fodder, it can only
 
 replace a portion of the lost nitrogen. Most farmers apply inorganic fertilisers
 
@@ -21202,7 +21138,7 @@ economic damage
 
 occurs when pest
 
-- - - - - popufalion rises
+-> population rises
 
 above this level
 
@@ -21430,11 +21366,11 @@ we will look at in this chapter are carbon dioxide, methane, carbon monoxide
 
 and sulfur dioxide.
 
-CARBON DIOXIDE ANO GLOBAL
+CARBON DIOXIDE AND GLOBAL
 
 WARMING
 
-KEY POltlT
+KEY POINT
 
 In any one year, there is a peak and a
 
@@ -21462,7 +21398,7 @@ winter summer winter
 
 year
 
-Figure 15.12 Seasonal fluctuations in carton
+Figure 15.12 Seasonal fluctuations in carbon
 
 dioxide levels.
 
@@ -22137,23 +22073,15 @@ increase in mineral ions
 
 algal bloom
 
-!
-
 death of algae
-
-!
 
 decomposition by aerobic bacteria
 
-!
-
 bacteria use up oxygen
 
-!
-
 fish and other animals die
-mD
 
+#### mD
 CRITICAL THINKING
 
 nitrate is very soluble in water, and is easily washed out of the soil by rain, a
@@ -22208,8 +22136,6 @@ C It is persistent in the environment
 
 D It is not biodegradable
 
-mD
-
 REASONING
 
 2 The following gases are found in atmospheric air:
@@ -22232,8 +22158,6 @@ C 2 and 3
 
 D 2 and 4
 
-@:M .. m1irn1u
-
 3 Which of the following is a consequence of deforestation?
 
 A soil erosion
@@ -22243,64 +22167,39 @@ B increased water vapour in the air
 C reduced CO2 in the air
 
 D increased biodiversity
-IUl•1iji:i1•1"1&1iWS'I
 
+#### IUl•1iji:i1•1"1&1iWS'I
 4 In a lake affected by eutrophication, which of the following causes the death
-
 of aquatic plants?
-
 A Poisoning by excess minerals
-
 B Lack of oxygen in the water
-
 C Lack of light reaching the plants
-
 D Lack of carbon dioxide in the water
-
 5 Why are humans having much more of an impact on their environment now
-
 than they did 500 years ago?
-
 6 The graph shows the changing concentrations of carbon dioxide at Mauna
-
 Loa, Hawaii over a number of years.
-
 a Describe the overall trend shown by the graph.
-
 b Explain the trend described in a).
-
 c In any one year, the level of atmospheric carbon dioxide shows a peak
-
 and a trough. Explain why.
-
 360
-
 ~ 350
-
 "6 ~
-
 ! ~ 330
-
 C: C:
-
 8 .8 320
-
 ~
-
 1960
-
 1965
-
 1970
-
 1975
-
 1980
-
 1985 1990
-
 year
-mD CRITICAL TltlNKING
+
+#### mD CRITICAL TltlNKING
+CRITICAL THINKING
 
 7 The diagram shows how the greenhouse effect is thought to operate.
 
@@ -22408,8 +22307,8 @@ crops free of pests.
 
 ### Unit 4: end-of-unit questions
 
-mD
 
+#### mD
 REASONING
 
 The diagram shows a simplified food web of a fish, the herring.
@@ -22421,11 +22320,11 @@ a
 arrow worm
 
 large crustaceans
-•
 
-sea butterlly
+#### •
+sea butterfly
 
-pepods
+copepods
 
 other small crustaceans
 
@@ -22435,7 +22334,7 @@ Write out a food chain from the above food web containing four
 
 organisms.
 
-ii From your food chain, name t he primary consumer and secondary
+ii From your food chain, name the primary consumer and secondary
 
 consumer.
 
@@ -22484,15 +22383,15 @@ copepod to the herring.
 (2)
 
 Total 14 marks
-~
 
+#### ~
 PROBLEM SOLVING
 
 REASONING
 
-a'!l'll'l'll!!I ANALYSIS
+ANALYSIS
 
-lliililiiil"' REASONING
+REASONING
 
 A farmer added nitrate fertiliser to his wheat crop to try to increase yield. The
 
@@ -22559,8 +22458,8 @@ a A new insecticide was trialled over three years to test its effectiveness in
 controlling an insect pest of potato plants. Three different concentrations of
 
 the insecticide were tested. Some results are shown in the table.
-EH\H:iMH:E
 
+#### EH\H:iMH:E
 Percentage of insect pest killed each year of insecticide
 
 1 (weakest)
@@ -22636,15 +22535,15 @@ decomposers, in the carbon cycle. Humans influence the carbon cycle more
 
 than other animals.
 
-a'!l'll'l'll!!I ANALYSIS
+ANALYSIS
 
-lliililiiil"' REASONING
+REASONING
 
 REASONING
 
 CRITICAL THINKING
-( {>
 
+#### ( {>
 REASONING
 
 a Explain the importance of plants in the carbon cycle.
@@ -22748,9 +22647,9 @@ season. Suggest why.
 
 (2)
 
-mDANAlYSIS
-mD
+ANALYSIS
 
+#### mD
 REASONING
 
 c Two species of the flour beetle, Tribolium, compete with each other for
@@ -22850,7 +22749,7 @@ nitrogen oxides
 
 6760
 
-carton monoxide
+carbon monoxide
 
 34600
 
@@ -22886,25 +22785,19 @@ aluminium is extracted.
 
 c Suggest two reasons why there may be little plant life in water near an
 
-~~00.
+aluminium extraction plant.
 
-~
+(2)
 
 Total 9 marks
 
-mD
-
 INTERPRETATION
 
-mDANAlYSIS
+ANALYSIS
 
-a'!llll"ll!lli EXECUTIVE
+EXECUTIVE FUNCTION
 
-llilillliil"' FUNCTION
-
-mDANALYSIS
-
-( ;\ D
+ANALYSIS
 
 Rust fungi infect the leaves of many crop plants.
 ••"
@@ -22930,7 +22823,7 @@ The relative amount of infection in the two plots was monitored over 50
 days. The table shows the results of the investigation.
 I
 
-Relative amount of 1nfect1on / arbitrary umts
+Relative amount of infection / arbitrary units
 
 Unsprayed (control)
 
@@ -23006,7 +22899,7 @@ SELECTIVE BREEDING 268
 
 16 CHROMOSOMES, GENES AND DNA
 
-This chapter looks at the structure and organisation of genetic matenal, namely chromosomes, genes and DNA.
+This chapter looks at the structure and organisation of genetic material, namely chromosomes, genes and DNA.
 
 W
 ANING OBJECTIVES
@@ -23021,7 +22914,7 @@ chromosomes on which genes are located
 
 Understand that a gene is a section of a molecule of
 
-ONA that codes for a specific protein
+DNA that codes for a specific protein
 
 BIOLOGY ONLY
 
@@ -23123,7 +23016,7 @@ of DNA)
 
 4 Figure 16.1 Our genetic make-up
 
-WHO DISCOVERED ff?
+WHO DISCOVERED DNA?
 
 adenine is always
 
@@ -23268,7 +23161,7 @@ the material of a dress.
 
 KEY POINT
 
-One consequence of the base-pairing rule is that, in each molecule of ONA, the
+One consequence of the base-pairing rule is that, in each molecule of DNA, the
 
 amounts of adenine and thymine are equal, as are the amounts of cytosine and
 
@@ -23397,7 +23290,7 @@ leucinephenylalanine
 one entire protein
 
 A Figure 16.6 The triplet code.
-KEV POINT
+KEY POINT
 
 A gene is a section of a molecule of
 
@@ -23843,8 +23736,8 @@ Nearly all human cells contain 46 chromosomes. The photographs in
 Figure 16.12 show the 46 chromosomes from the body cells of a human male.
 
 2
-r
 
+#### r
 18
 
 ..a Figure 16.12 A man's
@@ -23877,7 +23770,7 @@ of a nucleus means there is more room
 
 for carrying oxygen.)
 
-KEY POINl
+KEY POINT
 
 The X and the Y chromosomes are the
 
@@ -23980,9 +23873,9 @@ Each protein contributes towards a particular body feature. Sometimes the
 
 feature is visible, such as eye colour or skin pigmentation. Sometimes the
 
-feature is not visible, such as the type of haemoglobin in red blood cells or the
+feature is not visible, such as the type of haemoglobin in red blood cells or the type
 
-type of blood group antigen on the red blood cells.
+of blood group antigen on the red blood cells.
 
 Some genes have more than one form. For example, the genes controlling
 
@@ -23992,7 +23885,7 @@ of the feature (Figure 16.14).
 
 Form 1 of the gene
 
-free eartobe
+free earlobe
 
 upper eyelid not folded
 
@@ -24017,8 +23910,8 @@ fold
 eyes angled away from nose
 
 eyes angled towards nose
-)f'
 
+#### )f'
 long eyelashes
 
 short eyelashes
@@ -24063,7 +23956,7 @@ C
 
 same feature but code for different expressions of that feature.
 
-LOOKING AHEAO - REGULATING
+LOOKING AHEAD - REGULATING
 
 GENES
 
@@ -24140,16 +24033,12 @@ for different enzymes in a metabolic pathway. Operons were first discovered
 in bacteria. At first we thought they only existed in prokaryotes, but molecular
 
 biologists have now found them in eukaryotic cells too.
-,. .....
 
-• 7 ..
-
-•• • #
-
+#### ,. .....
 More questions on DNA can be found at the end of Unit 5 on page 277.
-•:m)!ttwl'UIEI
 
-Which of the following are components of DNA?
+#### •:m)!ttwl'UIEI
+• Which of the following are components of DNA?
 
 A deoxyribose, uracil and phosphate
 
@@ -24169,7 +24058,7 @@ C transcription of the DNA
 
 D translation of the DNA
 
-3 The base sequence for the same length of ONA before and after a gene
+3 The base sequence for the same length of DNA before and after a gene
 
 mutation was as follows:
 
@@ -24177,9 +24066,9 @@ Before mutation:
 
 After mutation:
 
-ATI TCC GTI ATC CGG
+ATG TCC GTA ATC CGG
 
-ATI CCG TIA TCC GGA
+ATG CCG TTA TCC GGA
 
 Which type of mutation took place?
 
@@ -24233,13 +24122,13 @@ base-pairing rule.
 5
 
 •aM·•·11:11,1 .. w1°~1u
-mD
 
+#### mD
 CRITICAL THINKING
 
 6 a What is:
 
-I agene
+i a gene
 
 ii
 
@@ -24249,7 +24138,7 @@ b Describe the structure of a chromosome.
 
 c How are the chromosomes in a woman's skin cells:
 
-similar to
+i similar to
 
 ii different from those in a man's skin cells?
 
@@ -24263,7 +24152,7 @@ b Explain how a single gene mutation can lead to the formation of a protein
 
 in which:
 
-many of the amino acids are different from those coded for by the
+i many of the amino acids are different from those coded for by the
 
 non-mutated gene
 
@@ -24297,15 +24186,11 @@ of a protein during a process called ----------
 
 The mRNA sequence consists of a triplet code. Each triplet of bases
 
-is called a
+is called a ----------. Reading of the mRNA base
 
-. Reading of the mRNA base
+sequence begins at a ---------- and ends at a
 
-sequence begins at a
-
-and ends at a
-
-----------· Molecules of tRNA carrying an amino acid
+----------. Molecules of tRNA carrying an amino acid
 
 bind to the mRNA at an organelle called the----------
 
@@ -24318,7 +24203,7 @@ bind to the mRNA at an organelle called the----------
 Growth and reproduc~on are two charactenst1cs of living things Both involve cell d1v1s1on, which 1s U1e subJect ol lh1s chapter
 LEARNING OBJECTIVES
 
-l!I
+l1
 
 Understand how division of a diploid cell by mitosis
 
@@ -24326,25 +24211,25 @@ produces two cells that contain identical sets of
 
 chromosomes
 
-ill
+l1
 
 Understand how random fertilisation produces genetic
 
 variation of offspring
 
-11
+l1
 
 Understand that variation within a species can be
 
 genetic, environmental or a combination of both.
 
-Ill
+l1
 
 Understand that mitosis occurs during growth, repair,
 
 cloning and asexual reproduction
 
-l'I
+l1
 
 Understand how division of a cell by meiosis produces
 
@@ -24376,17 +24261,17 @@ the most common form of cell division.
 
 Only in the sex organs is cell division different. Here, some cells divide to
 
-produce gametes {sex cells), which contain only half the original number of
+produce gametes (sex cells), which contain only half the original number of
 
 chromosomes. This is so that when male and female gametes fuse together
 
-{fertilisation) the resulting cell {called a zygote) will contain the full set of
+(fertilisation) the resulting cell (called a zygote) will contain the full set of
 
 chromosomes and can then divide and grow into a new individual.
 
 Human body cells are diploid - they have 46 chromosomes in 23 homologous
 
-pairs. The gametes, with 23 chromosomes {one copy of each homologous
+pairs. The gametes, with 23 chromosomes (one copy of each homologous
 chromosome), are haploid cells.
 
 There are two kind of cell division: mitosis and meiosis. When cells divide
@@ -24802,7 +24687,7 @@ pea plants is described in
 
 Chapter 18.
 
-zygote), the embryos (and, later, the children and the adults they become} will
+zygote), the embryos (and, later, the children and the adults they become) will
 
 be genetically identical.
 
@@ -24871,7 +24756,9 @@ this variation in height is
 due to the environment
 
 A Figure 17.7 Bar chart showing variation in height of pea plants.
-IEl:!l!l> CRITICAL THINKING
+
+#### IEl:!l!l> CRITICAL THINKING
+CRITICAL THINKING
 
 Several environmental factors can influence the height of the plants.
 
@@ -24971,15 +24858,13 @@ C the skin of a mammal.
 
 D the tip of a shoot of a plant
 
-IEl:!l!l> CRITICAL THINKING
+CRITICAL THINKING
 
-IEl:!l!l> CRITICAL THINKING
+CRITICAL THINKING
 
-..,,,,.,..,, EXECUTIVE FUNCTION,
+EXECUTIVE FUNCTION
 
-IEl:!l!l> CRITICAL THINKING
-
-..,,,,.,..,, CRITICAL THINKING,
+CRITICAL THINKING
 ....... REASONING
 
 5 Cells can divide by mitosis or by meiosis.
@@ -25067,24 +24952,22 @@ variation described is likely to be genetic, environmental or both. In each
 
 case, give a reason for your answers.
 
-11 Humans have brown, blue or green eyes.
+a Humans have brown, blue or green eyes.
 
 b Half the human population is male, half is female.
 
 c Cuttings of hydrangea plants grown in soils with different pH values
 
 develop flowers with slightly different colours.
-~
 
+#### ~
 CRITICAL THINKING,
 
-liililiiil"' REASONING
-
-~
+REASONING
 
 ANALYSIS
 
-liililiiil"' NTERPRETATION
+INTERPRETATION
 
 d Some pea plants are tall; others are dwarf. However, the tall plants are
 
@@ -25118,13 +25001,13 @@ The graph shows how these distances changed during mitosis.
 
 A
 
-C
+B
 
 time
 
 a Describe two events that occur during stage A.
 
-b Explain what is happening during stage 8.
+b Explain what is happening during stage B.
 
 c Describe two events that occur during stage C.
 
@@ -25134,9 +25017,9 @@ c Describe two events that occur during stage C.
 
 18 GENES AND INHERITANCE
 
-How and why do we mhe11t features from our parents? This chapter answers these questions by looking at the work of
+How and why do we inherit features from our parents? This chapter answers these questions by looking at the work of
 
-Gregor Mendel and how he has helped us to understand the myste11es of mhentance.
+Gregor Mendel and how he has helped us to understand the mysteries of inheritance.
 LEARNING OBJECTIVES
 
 •
@@ -25243,7 +25126,7 @@ genetics was established.
 MENDEL'S EXPERIMENTS ON
 
 INHERITANCE
-KEV POINT
+KEY POINT
 
 In his breeding experiments, Mendel
 
@@ -25830,13 +25713,11 @@ of digits must also be heterozygous (the 'normal-number' parent can only have
 
 passed on a 'normal-number' allele). Individuals 1, 2, 3, 16, 17 and 18 fall into
 
-one or other of these categories and must be heterozygous .
+one or other of these categories and must be heterozygous.
 
 We can now add this genetic information to the pedigree. This is shown in
 
-Figure 18.7 .
-
-.
+Figure 18.7.
 
 male with
 
@@ -25859,7 +25740,7 @@ normal number
 
 of digits
 
-.\ Figure 18.7 A pedigree showing the inheri1ance of polydactyly in a family, with details of
+.\ Figure 18.7 A pedigree showing the inheritance of polydactyly in a family, with details of
 
 genotypes added.
 
@@ -25881,21 +25762,27 @@ Dd
 
 gametes
 
-@and@
+D and d
 
-@and@
+D and d
 
 female gametes
 
 genotypes of children
 
-@
+DD
 
-@
+Dd
 
-male @~
+dD
 
-gametes@~
+dd
+
+male gametes
+
+D
+
+d
 
 .\ Figure 18.8 Possible outcomes from a genetic cross between two parents, both heterozygous for
 
@@ -26100,7 +25987,9 @@ human height and body mass (weight).
 u10Aiai"1,1@1Mrn ....
 
 BID CRITICAL THINKING
-BID PROBL£M SOLVING
+
+#### BID PROBL£M SOLVING
+BID PROBLEM SOLVING
 
 More questions on chromosomes, genes and inheritance can be found at the
 
@@ -26145,11 +26034,9 @@ A 0.00
 
 C 0.50
 
-@:mmtamir,
+D 0.67
 
 B 0.25
-
-D 0.67
 
 4 Alleles B and b are codominant. Two heterozygous individuals were
 
@@ -26165,8 +26052,6 @@ C 1 :2:1
 
 D 1:1 :1 : 1
 
-iaM•#•ll:IMM51mlU
-
 5 Predict the ratios of offspring from the following crosses between tall/dwarf
 
 pea plants.
@@ -26181,9 +26066,9 @@ d Tt x Tt
 
 e Ttxtt
 
-ti X tt.
+f tt X tt.
 
-BID CRITICAL THINKING
+CRITICAL THINKING
 BID ANALYSIS
 
 & In cattle, a pair of alleles controls coat colour. The allele for black coat
@@ -26265,7 +26150,7 @@ genotypes of F1 parents
 
 gametes
 
-Q andQ Q and Q
+R and r R and r
 
 female gametes
 
@@ -26273,13 +26158,11 @@ genotypes of F2
 
 male Q~
 
-gameteso~
+gametes R and r R and r
 
 a Copy and complete the genetic diagram.
 
-b What are the colours of the flowers of A, B, C and O?
-
-mD
+b What are the colours of the flowers of A, B, C and D?
 
 PROBLEM SOLVING
 
@@ -26304,9 +26187,7 @@ b What are the genotypes of individuals 3, 4 and 11? Explain your
 
 answers.
 
-c Draw genetic diagrams to work out the probability that the next child
-
-born to individuals 10 and 11 will
+c Draw genetic diagrams to work out the probability that the next child born to individuals 10 and 11 will
 
 I be male,
 
@@ -26879,9 +26760,8 @@ first used in the 1940s (see Chapter 15). By the 1950s many species of insect
 (e.g. mosquitoes) appeared to be resistant to DDT. The resistant insects had
 
 developed a gene mutation that stopped them being killed by the insecticide.
-mD CRITICAL THINKING
-~ 7 iO .•. ,
 
+#### ~ 7 iO .•. ,
 While DDT continued to be used, the resistant insects had a selective
 
 advantage over the non-resistant ones. They survived to breed, so that with
@@ -26900,17 +26780,17 @@ Unit 5 on page 277.
 
 Which of the following statements is/are correct?
 
-1 . Antibiotics are made by bacteria
+1. Antibiotics are made by bacteria
 
 2. Antibiotics kill bacteria
 
 3. Antibiotics do not work on viruses
 
-A 1 and2
+A 1 and 2
 
 B 2 only
 
-C 2and3
+C 2 and 3
 
 D 1, 2 and 3
 
@@ -26960,7 +26840,7 @@ c Some antibiotics are no longer effective in killing pathogens. Use your
 
 understanding of natural selection to explain why.
 
-mD CRITICAL THINKING
+CRITICAL THINKING
 .... .,
 
 7 Warfarin is a pesticide that was developed to kill rats. When it was first used in
@@ -26975,7 +26855,7 @@ effective than it used to be.
 
 b Suggest what might happen to the number of rats carrying the allele for
 
-warfarin resistance, if warfarin were no longer used. Explain your answer .
+warfarin resistance, if warfarin were no longer used. Explain your answer.
 
 8 In the Galapagos Islands, Charles Darwin identified a number of species
 
@@ -26989,13 +26869,11 @@ their beaks. The diagram shows some of the beak types and that of the
 
 likely ancestral finch.
 
-common ~"'-
-
-ancestor
+common ancestor
 
 "
-~
 
+#### ~
 seedeating
 
 ground
@@ -27060,9 +26938,9 @@ out-competed by non-tolerant plants. Suggest a reason for this.
 
 20 SELECTIVE BREEDING
 
-Ever since humans became farmers lhey have been selectively breeding animals and plants. Tins chapter looks at
+Ever since humans became farmers they have been selectively breeding animals and plants. This chapter looks at
 
-trad1tmnal methods of selective breeding and modern developments involving cloned organisms.
+traditional methods of selective breeding and modern developments involving cloned organisms.
 LEARNING OBJECTIVES
 
 •
@@ -27534,13 +27412,9 @@ from the young plants. Because of the amount of water vapour in the air,
 they are often called 'fogging greenhouses'.
 
 Figure 20.6 Explants growing in a culture medium.
-'
 
-Figure 20.7 Explants forming roots.
-
-Figure 20.8 Young plants being grown in compost in a greenhouse.
-
-DIO YOU KNOW?
+#### '
+DID YOU KNOW?
 
 There are many advantages to propagating plants in this way:
 
@@ -27580,7 +27454,7 @@ new individual because it only has half
 
 the chromosomes of normal body cells.
 
-An ordinary d iploid body cell, even
+An ordinary diploid body cell, even
 
 though it has all the chromosomes, is
 
@@ -27701,8 +27575,8 @@ USING CLONED ANIMALS TO MAKE
 PROTEINS
 
 CHAPTER QUESTIONS
-mD
 
+#### mD
 CRITICAL THINKING
 
 Dolly was only produced after many unsuccessful attempts. Since then, the
@@ -27757,8 +27631,6 @@ Animals that have had genes transferred from other species are called
 
 transgenic animals.
 
-IUl•#•ll:IMM51@U
-
 More questions on selective breeding can be found at the end of Unit 5 on
 
 page 277.
@@ -27772,8 +27644,8 @@ B natural selection
 C artificial insemination
 
 D artificial selection
-mD
 
+#### mD
 REASONING
 
 2 Which of the following best describes a clone?
@@ -27789,7 +27661,9 @@ C an offspring where the genetic material in every cell is identical to that of
 one parent
 
 D a type of sheep
-Nam111l:i!•l"1Nlm!U
+
+#### Nam111l:i!•l"1Nlm!U
+Name
 
 3 Which of the following best describes artificial insemination?
 
@@ -27802,23 +27676,18 @@ C selectively breeding healthy animals
 D fertilisation of an egg in a test tube
 
 4 Which of the following is the best description of how the first cloned
-
 mammal (Dolly the sheep) was produced?
 
 A A mammary gland cell was fused with an enucleated egg, grown into an
-
 embryo and allowed to develop in a surrogate mother.
 
 B A surrogate mother had an egg removed, which was fused with a
-
 mammary gland cell and allowed to develop into an embryo.
 
 C An egg was placed in an enucleated mammary gland cell, grown into an
-
 embryo and allowed to develop in a surrogate mother.
 
 D An egg was placed in the mammary gland of a donor sheep and allowed
-
 to develop into an embryo.
 
 5 a How is selective breeding similar to natural selection?
@@ -27828,25 +27697,21 @@ b How is selective breeding different from natural selection?
 6 Selective breeding of crop plants often aims to increase the yield of the crop.
 
 a Describe, and explain the reasons for, three other aims of selective
-
 breeding programmes in crop plants.
 
 b Describe two advantages of micropropagation over the more traditional
-
 technique of taking cuttings.
 
 c Explain why plants produced by micropropagation will be genetically
-
 identical to each other and to the parent plant.
 
-mD- INTRAPERSONAL
+INTERPERSONAL
 
 7 The diagram shows some of the features of a cow that might be used as a
-
 basis for a breeding programme.
 I
 
-feed to meaV
+feed to meat
 
 feed to milk
 
@@ -27870,8 +27735,6 @@ yield of maize (sweetcorn).
 
 pure
 
-MftI'1(f}
-
 line A
 
 X
@@ -27881,17 +27744,19 @@ pure
 hybrid G
 
 lineB
-pure c,,,,
+
+#### pure c,,,,
+pure corn
 
 hybrid F
 
-lineD
+line D
 
 a Describe the breeding procedure used to produce hybrid G.
 
 b Describe three differences between the corn cobs of hybrid G and those
 
-ofC.
+of C.
 
 c How could you show that the differences between hybrid G and hybrid C
 
@@ -27901,15 +27766,17 @@ are genetic?
 
 concerns of selective breeding of animals. You should write about one side
 
-ofA4.
+of A4.
 
 ## Unit 5: Variation and Selection
 
 ### Unit 5: end-of-unit questions
 
-mD- CRITICAL THINKING
 
-..,.,,.,..,_ CRITICAL THINKING t .,.,
+#### mD- CRITICAL THINKING
+CRITICAL THINKING
+
+CRITICAL THINKING
 D
 
 For natural selection to operate, some factor has to exert a 'selection pressure'.
@@ -27969,8 +27836,8 @@ I
 nutrient agar
 
 medium
-~
 
+#### ~
 auxin (mg/ dm')
 
 none
@@ -28009,7 +27876,7 @@ d Explain one advantage and one disadvantage of micropropagation.
 
 ·a~1·•u1:1MN21.P1•w
 
-mDANAlYSIS
+ANALYSIS
 ••• D
 
 PTC (phenylthiocarbamide) is a chemical that to some people has a very
@@ -28099,11 +27966,9 @@ d Describe two differences between mitosis and meiosis.
 
 {Total 7 marks)
 
-mD
-
 CRITICAL THINKING
 
-mDANALYSIS
+ANALYSIS
 D
 
 The following flowchart shows how Dolly the sheep was cloned.
@@ -28154,7 +28019,7 @@ e Suggest two advantages of producing animal clones.
 
 (2)
 
-{Total 7 marks)
+{Total 7 marks}
 
 ( ;\ D
 
@@ -28213,9 +28078,9 @@ species of microorganisms that are grown by humans in order to make useful produ
 
 unit we look at this last group, and consider traditional and modern biotechnology. In addition,
 
-microorganisms are sometimes genetically engineered to produce new J)roducts. This is descrioed
+microorganisms are sometimes genetically engineered to produce new products. This is described
 
-in the final chapter, along with some examJ)les of genetically modified plants and animals.
+in the final chapter, along with some examples of genetically modified plants and animals.
 
 ## Unit 6: Microorganisms and Genetic Modification
 
@@ -28223,16 +28088,12 @@ in the final chapter, along with some examJ)les of genetically modified plants a
 
 21 USING MICROORGANISMS
 
-In !his chapter we look at microorganisms Iha! are grown in order to make products lhat are of use to humans
+In This chapter we look at microorganisms that are grown in order to make products that are of use to humans
 LEARNING OBJECTIVES
-
-l!'I
 
 Understand the role of yeast in the production of food,
 
 including bread
-
-11
 
 Understand the use of an industrial fermenter and
 
@@ -28244,19 +28105,13 @@ aseptic precautions, nutrients, optimum temperature
 
 and pH, oxygenation, and agitation.
 
-B
-
 Investigate the rate of anaerobic respiration by yeast in
 
 different conditions
 
-!!l
-
 Understand the role of bacteria (Lactobacillus) in the
 
 production of yoghurt
-
-LJ
 
 10 ~lm
 WHAT ARE MICROORGANISMS?
@@ -28364,13 +28219,15 @@ Modern biotechnology also allows us to alter the genes of microorganisms so
 that they code for new products. This is called genetic engineering. It is a
 
 topic that you will read about in Chapter 22.
-TRADITIONAL BIOTECHNOLOGY - MAKING FOOD ANO DRINKS
+
+#### TRADITIONAL BIOTECHNOLOGY - MAKING FOOD ANO DRINKS
+TRADITIONAL BIOTECHNOLOGY - MAKING FOOD AND DRINKS
 
 When yeast cells are deprived of oxygen, they respire anaerobically, breaking
 
 sugar down into ethanol and carbon dioxide:
 
-glucose -+ ethanol + carbon dioxide
+glucose -> ethanol + carbon dioxide
 
 This process has been used for thousands of years to make alcoholic drinks
 
@@ -28402,9 +28259,9 @@ down starch into the sugar maltose. Later, the maltose from the seeds is
 
 fermented by yeast in a large open vat (Figure 21.3).
 
-.t. Figure 21.2 A small fermenter for producing hOmemade wine.
+Figure 21.2 A small fermenter for producing homemade wine.
 
-& Figure 21.3 A froth forming on the surface of the beer as yeast ferments the
+Figure 21.3 A froth forming on the surface of the beer as yeast ferments the
 
 sugar to alcohol and carbon dioxide. The carbon dioxide in the froth prevents
 
@@ -28787,8 +28644,9 @@ products or cells of the 'foreign' organism. The methods used to prevent
 contamination by unwanted microorganisms such as filtering the air and
 
 sterilising the fermenter using steam, are known as 'aseptic precautions'.
-mD CRITICAL THINKING
-mD REASONING
+
+#### mD REASONING
+REASONING
 
 More questions on growing useful organisms can be found at the end of Unit 6
 
@@ -28826,7 +28684,7 @@ B pasteurisation of the milk
 
 C the conversion of lactose into lactic acid
 
-D yhe action of an enzyme in the milk
+D the action of an enzyme in the milk
 
 4 Yoghurt can be made at home by adding a small amount of old yoghurt to
 
@@ -28889,15 +28747,13 @@ paddle
 b Why does air need to be pumped through the fermenter? Why is the air
 
 filtered?
-.,...,
 
+#### .,...,
 c Explain how a steady temperature is maintained in the fermenter .
 
 d What is supplied through the inlet marked 'X'?
 
-e Suggest what would happen to the growth of Penicillium in the fermenter
-
-if the paddles stopped working.
+e Suggest what would happen to the growth of Penicillium in the fermenter if the paddles stopped working.
 
 6 The diagram shows a fermentation flask used to make wine at home.
 
@@ -28950,7 +28806,7 @@ milk.
 
 22 GENETIC MODIFICATION
 
-In this chapter we will look at ways m wt11ch 1t 1s now possible to manipulate genes and produce genetically mod1f1ed
+In this chapter we will look at ways in which it is now possible to manipulate genes and produce genetically modified
 
 organisms - the science of 'genetic engineering'.
 LEARNING OBJECTIVES
@@ -29001,7 +28857,7 @@ Understand how cloned transgenic animals can be
 
 used to produce human proteins.
 
-KEY POINl
+KEY POINT
 
 A transgenic organism is one that
 
@@ -29017,7 +28873,7 @@ allow them to make human insulin.
 
 Some sheep secrete the protein alpha-
 
-1-antitrypsin (AA1) in their milk because
+1-antitrypsin (AAT) in their milk because
 
 they have the human gene that directs
 
@@ -29366,9 +29222,9 @@ bacterium
 ~
 
 foreign gene taken
-c:><::) J
 
-.& Figure 22.5 A bacteriophage attacking a bacterial cell.
+#### c:><::) J
+Figure 22.5 A bacteriophage attacking a bacterial cell.
 
 Different bacteria have been genetically modified to manufacture a range
 
@@ -29552,7 +29408,9 @@ obtained from
 plant to be
 
 modified
-0 16 .- plasmid isclated ~
+
+#### 0 16 .- plasmid isclated ~
+0 16 .- plasmid isolated ~
 
 plasmid cut open
 
@@ -29584,7 +29442,7 @@ cells now contain
 
 the foreign gene
 
-Agrobacteriur.
+Agrobacterium.
 
 tumefaciens
 
@@ -29815,7 +29673,7 @@ transplantation. However, many people have ethical concerns about using
 
 animal organs for transplanting into humans.
 
-CLONING TRArJSGENIC ANIMALS
+CLONING TRANSGENIC ANIMALS
 
 KEY POINT
 
@@ -29878,8 +29736,6 @@ Transgenic sheep have been genetically modified to produce AAT in their milk.
 It may be possible to use this to treat people with AAT deficiency. If the sheep
 
 were to be cloned, this would increase the amount of AAT available.
-
-iali•1111:/M"151•1IIFI
 LOOKING AHEAD -THE POLYMERASE CHAIN REACTION
 
 The polymerase chain reaction (PCR) is a laboratory process that
@@ -29929,8 +29785,8 @@ as little as 2-3 hours in a PCR machine. You just place small tubes
 containing the DNA sample, primers, free nucleotides, DNA polymerase
 
 and a buffer solution in the machine, switch on, and wait for the results.
-DD
 
+#### DD
 CRITICAL THINKING
 
 More questions on gene technology can be found at the end of Unit 6 on
@@ -29961,13 +29817,13 @@ from genetically modified bacteria .
 
 Which of the following shows the correct sequence of steps in the process?
 
-A 2 -+ 1 -+ 4 -+3
+A 2 -> 1 -> 4 ->3
 
-8 4-+2-+3-+1
+B 4->2->3->1
 
-C 4-+1-+3-+2
+C 4->1->3->2
 
-0 2-+3-+4-+1
+D 2->3->4->1
 
 3 Which of the following genetically modified plants have not been
 
@@ -29991,9 +29847,7 @@ C protease
 
 D restriction enzyme
 
-mD CRITICAL THINKING
-
-mD
+CRITICAL THINKING
 
 INTRAPERSONAL
 
@@ -30080,11 +29934,13 @@ and plants.
 
 ### Unit 6: end-of-unit questions
 
-....,,.. CRITICAL THINKING
 
-mD CRITICAL THINKING
+#### ....,,.. CRITICAL THINKING
+CRITICAL THINKING
 
-mD CRITICAL THINKING
+CRITICAL THINKING
+
+CRITICAL THINKING
 D
 
 Some experimental sheep were genetically modified, using a human gene.
@@ -35820,76 +35676,51 @@ z
 zygote 18,118,120,235,240
 CHAPTER 1
 
-1 I> B
+1 B
 
-2 I> A
+2 A
 
-31> A
+3 A
 
-4 I> D
+4 D
 
-5 I> a Diagram should show each part of a plant cell
-
+5 a Diagram should show each part of a plant cell
 and its function, e.g. cell wall (maintains shape
-
 of cell), cell membrane (controls entry and exit of
-
 substances), cytoplasm (where metabolism/reactions
-
 take place), vacuole (stores dissolved substances),
-
 nucleus (controls activities of cell), chloroplasts
-
 (photosynthesis), mitochondria (respiration).
 
 b An animal cell lacks a cell wall, a large permanent
-
 vacuole and chloroplasts.
 
-6 I> Description, in words or diagrams, should include the
-
+6 Description, in words or diagrams, should include the
 following points:
 
 • enzymes are biological catalysts
-
 • they speed up reactions in cells without being used up
-
 • each enzyme catalyses a different reaction
-
 • the production of enzymes is controlled by genes
-
 • enzymes are made of protein
-
 • the substrate attaches to the enzyme at the active site
-
 • the substrate fits into the active site like a key in a lock
-
 • this allows the products to be formed more easily
-
 • intracellular enzymes catalyse reactions inside cells
-
 • extracellular enzymes are secreted out of cells (e.g.
-
 digestive enzymes)
-
 • they are affected by changes in pH and temperature.
 
-7 I> a About 75 °C.
+7 a About 75 °C.
 
-b At 60 •c the molecules of enzyme and substrate have
-
+b At 60 °C the molecules of enzyme and substrate have
 more kinetic energy and move around more quickly.
-
 There are more frequent collisions between enzyme
-
 and substrate molecules, so more reactions are likely
-
 to take place.
 
 c The microorganism lives at high temperatures, so it
-
 needs 'heat-resistant' enzymes with a high optimum
-
 temperature.
 
 d It is denatured.
@@ -35954,7 +35785,7 @@ CHAPTER 2
 
 3 I> B
 
-41> C
+4 I> C
 
 5 I> a
 
@@ -35962,7 +35793,7 @@ Fungi
 
 ii Protoctists
 
-Iv Bacteria
+iv Bacteria
 
 iii Plants
 
@@ -36585,7 +36416,7 @@ b For 55-year-olds smoking 25 a day: about 4.5 per
 
 1000 men (or 45 per 10 000 men).
 
-For 55-year-olds smoking 1 O a day: about 1 per 1000
+For 55-year-olds smoking 10 a day: about 1 per 1000
 
 men.
 
@@ -36611,19 +36442,21 @@ they both show a strong link.
 
 much information so that it puts the reader off. It must
 
-have a cl ear message.
+have a clear message.
 
 CHAPTER4
 
-1 11> D
+1 ANALYSIS
 
-2 II> A
+2 REASONING
 
-3 II> D
+3 INTERPRETATION
 
-411> B
+4 CRITICAL THINKING
 
-5 11> a Starch: take a sample of the water in a spotting tile
+5 PROBLEM SOLVING
+
+a Starch: take a sample of the water in a spotting tile
 
 and add a drop of iodine solution. The colour changes
 
@@ -36649,9 +36482,9 @@ d Large, insoluble food molecules are broken down into
 
 small, soluble ones.
 
-6 II> a It is body temperature
+6 EXECUTIVE FUNCTION
 
-711>
+7 DECISION MAKING
 
 #### 4• B
 b It had been broken down into smaller molecules called
@@ -36816,74 +36649,42 @@ a high energy content. Pasta is largely carbohydrate,
 which contains less energy per gram.
 CHAPTER 5
 
-1 11> B
+1 B
 
-5 11> a Single: fish; double: human or other named mammal.
+5 a Single: fish; double: human or other named mammal.
 
-b I
-
-(Either) The blood passes once through the heart
-
+b (Either) The blood passes once through the heart
 in a single system, and twice through the heart in
-
 a double system for every complete circulation of
-
 the body.
-
 (Or) In a double system the blood flows from the
-
 heart through one circuit to the lungs, then back
-
 to the heart and out through another circuit to the
-
 rest of the body.
-
 ii Double circulatory system pumps the blood
-
 twice per circulation so higher pressures can be
-
 maintained.
-
 c Diffusion can take place because it has a large surface
-
 area compared with its volume and the distances for
-
 substances to move inside the cell are short.
 
-6 11> a A red blood cell has a large surface area compared
-
-w ith its volume; contains haemoglobin; and has no
-
+6 a A red blood cell has a large surface area compared
+with its volume; contains haemoglobin; and has no
 nucleus, so more space is available for haemoglobin.
-
-b I
-
-Oxygen dissolves in the liquid lining the alveoli
-
+b Oxygen dissolves in the liquid lining the alveoli
 and then diffuses down a concentration gradient
-
 through the walls of the alveoli and capillaries into
-
 the plasma and into the red blood cells.
-
 ii Oxygen dissolves in the plasma and then diffuses
-
 down a concentration gradient through the walls of
-
 the capillaries into the muscle cells.
-
 c Dissolved in plasma.
 
-7 II> a Arteries have thick walls containing much muscle
-
+7 a Arteries have thick walls containing much muscle
 tissue and elastic fibres. These adaptations allow their
-
 walls to stretch and recoil under pressure.
-
 b Veins have valves, thin walls with little muscle, and
-
 a large lumen; arteries have no valves (except at
-
 the start of the aorta and pulmonary artery), thick
 
 #### CHAPTER 5
@@ -36897,7 +36698,7 @@ allow exchange of materials. They have a very small
 
 diameter to fit between other cells of the body.
 
-8 11> a A= left atrium, B = (atrioventricular) valves, C = left
+8  a A= left atrium, B = (atrioventricular) valves, C = left
 
 ventricle, D = aorta, E = right atrium.
 
@@ -36907,13 +36708,13 @@ prevent backflow of blood.
 
 c I A; ii E
 
-9 " a
+9  a
 
 A (red blood cell), identified by its colour (red) and
 
 biconcave disc shape.
 
-Ii
+ii
 
 B (lymphocyte), identified by its colour (white) and
 
@@ -36927,7 +36728,7 @@ nucleus.
 
 b Platelets - blood clotting.
 
-10 II> a C, heart rate is increasing so more blood can be
+10  a C, heart rate is increasing so more blood can be
 
 pumped to muscles.
 
@@ -36937,7 +36738,7 @@ c A, lowest rate. B, increases from minimum to steady
 
 rate.
 
-11 II> a
+11  a
 
 Low rate (75 beats/minute) because body is at
 
@@ -36959,9 +36760,9 @@ b The shorter the recovery period, the fitter the person.
 
 CHAPTERS
 
-1 11> D
+1  D
 
-5 11> a Changes that take place in the shape of the lens
+5  a Changes that take place in the shape of the lens
 
 to allow the eye to focus upon objects at different
 
@@ -36976,7 +36777,7 @@ ligaments slacken. The shape of the lens becomes
 
 more convex, refracting the light more.
 
-611> a
+6 a
 
 Function
 
@@ -37002,11 +36803,9 @@ takes nerve impulses to the brain
 
 D
 
-b
+b H
 
-H
-
-711> a
+7 a
 
 ii Contraction of circular muscles in the iris reduces
 
@@ -37016,17 +36815,17 @@ Contraction of radial muscles increases the size of
 
 the pupil, letting more light into the eye.
 
-Iii To protect the eye from damage by bright light,
+iii To protect the eye from damage by bright light,
 
 and to allow vision in different light intensities.
 
-Sensory neurone
+b Sensory neurone
 
 ii Relay neurone
 
-Iii Motor neurone
+iii Motor neurone
 
-b The sensory neurone carries impulses from sensory
+c The sensory neurone carries impulses from sensory
 
 receptors towards the central nervous system. The
 
@@ -37038,11 +36837,11 @@ neurone links the other two types of neurone in the
 
 CNS.
 
-c X: white matter, Y: grey matter, Z: dorsal root ganglion.
+d X: white matter, Y: grey matter, Z: dorsal root ganglion.
 
-d Electrical impulses.
+e Electrical impulses.
 
-e The gap between one neurone and another is
+f The gap between one neurone and another is
 
 called a synapse. An impulse arrives at the end
 
@@ -37050,13 +36849,13 @@ of an axon and causes the release of a chemical
 
 called a neurotransmitter into the synapse. The
 
-neurot ransmitter diffuses across the synapse and
+neurotransmitter diffuses across the synapse and
 
 attaches to the membrane of the next neurone. This
 
 starts an impulse in the second nerve cell.
 
-8 11> a P: cell body, Q: dendrite, R: axon.
+8 a P: cell body, Q: dendrite, R: axon.
 
 b Speed = distance/time
 
@@ -37133,51 +36932,35 @@ CHAPTER 7
 4 ~ C
 
 5 ... a 'Hormones' are chemical messenger substances,
-
 carried in the blood. 'Secreted' refers to the process
-
 where a cell makes a chemical that passes to the
-
 outside of the cell. 'Glands' are organs that secrete
-
 chemicals, and 'endocrine' glands secrete their
-
 products into the blood.
 
 b A = insulin, B = adrenaline, C = testosterone,
-
 D = progesterone.
 
 6 ~ a Glucose has been absorbed into the blood following a
-
 meal (lunch!)
 
 b The high concentration of glucose in the blood
-
 is detected by the pancreas, which secretes the
-
 hormone insulin into the blood. Insulin stimulates
-
 the uptake of blood glucose into the liver, where it
-
 is converted into an insoluble storage carbohydrate
-
 called glycogen.
 
 c I
 
 Untreated diabetes leads to weakness and loss of
-
 weight, and eventually coma and death.
 
 II Coloured test strips to detect glucose in the urine,
-
 and direct measurement of blood glucose using a
-
 sensor.
 
-Ill Reducing the amount of carbohydrate in the diet,
-
+III Reducing the amount of carbohydrate in the diet,
 and injections of insulin.
 
 CHAPTERS
@@ -37191,27 +36974,21 @@ CHAPTERS
 4 ~ C
 
 5 ~ a Maintaining constant conditions in the internal
-
 environment of the body.
 
-b Removal of the waste products of metabolism from
-
-the body.
+b Removal of the waste products of metabolism from the
+body.
 
 c Filtration of different sized molecules under pressure
-
 (as in the Bowman's capsule).
 
 d Reabsorption of different amounts of different
-
 substances by the kidney tubule.
 
 e An animal (mammal or bird) that generates internal
-
 (metabolic) heat to keep its temperature constant.
 
 6 ~ a X = glomerulus, Y = Bowman's capsule (or renal
-
 capsule), Z = loop of Henle
 
 #### CHAPTER 7
@@ -37451,7 +37228,7 @@ b The function of the placenta is the transfer of oxygen
 
 and nutrients from the mother's blood to the blood
 
-of the embryo I fetus, and removal of waste products
+of the embryo/fetus, and removal of waste products
 
 such as carbon dioxide and urea from the fetus to the
 
@@ -37459,7 +37236,7 @@ mother.
 
 c Just before birth, contractions of the muscle of the
 
-uterus (El causes the amnion to rupture, allowing the
+uterus (E) causes the amnion to rupture, allowing the
 
 amniotic fluid (D) to escape. This is the 'breaking of
 
@@ -37932,158 +37709,89 @@ week)
 controlled factor.
 CHAPTER 10
 
-1 I> A
+1 A
 
-4 I> A
+4 A
 
-5 1> a Iodine solution, turns from yellow-orange to blue-
-
+5 a Iodine solution, turns from yellow-orange to blue-
 black.
 
 b Only the green areas that are not covered would
-
 contain starch.
 
 c Photosynthesis needs light and chlorophyll. These are
-
 only both available in green, uncovered areas.
 
 d A storage carbohydrate. It is insoluble, so can be
-
 stored in cells and has no osmotic effects.
 
 Part of
-
 Function
-
 How the part is
-
 leaf
-
 adapted for its
-
 function
-
 palisade
-
 (main site of
-
 (cells contain many
-
 mesophyll
-
 photosynthesis)
-
 chloroplasts for
-
 layer
-
 photosynthesis)
-
 spongy
-
 gas exchange
-
 large surface
-
 mesophyll
-
 surface: uptake of area to volume
-
 layer
-
 CO2 and release
-
 ratio; air spaces
-
 of 0 2 during
-
 between cells; many
-
 photosynthesis,
-
 chloroplasts in cells
-
 some
-
 for photosynthesis
-
-photosynthesis
-
 (but fewer than in
-
 palisade layer)
-
 stomata
-
 pores which
-
 pores formed
-
 exchange gases
-
 between two guard
-
 (CO2, 0 2 and
-
 cells; guard cells can
-
-water vapour) with change shape to
-
+water vapour) with
+change shape to
 the atmosphere
-
 open and close pores
-
 xylem
-
 transport of water
-
 cells consist of dead,
-
 and minerals
-
 hollow vessels,
-
 allows transport
-
 through the lumen of
-
 each vessel; lignified
-
 walls for strength,
-
 preventing cells
-
 collapsing under
-
 suction pressure
-
 phloem
-
 transport of
-
 sieve tubes with
-
 products of
-
 sieve plates forming
-
 photosynthesis
-
 continuous tubes to
-
 transport solutes;
-
 cells living, so can
-
 exercise control over
-
 movement
 
-7 1> a At 0200 hours (night) the grass respires, producing
-
+7 a At 0200 hours (night) the grass respires, producing
 CO2 , but there is no photosynthesis. At 1200 hours
-
 (midday) photosynthesis in the grass exceeds
 
 #### CHAPTER 10
@@ -38123,7 +37831,7 @@ energy store in some plants, e.g. nuts,
 
 seeds. Part of all cell membranes.
 
-9 1> a The aeration tube supplies oxygen to allow the roots
+9 a The aeration tube supplies oxygen to allow the roots
 
 to respire. The foil stops light entering the tube,
 
@@ -38131,7 +37839,7 @@ preventing the growth of algae.
 
 b Phosphate.
 
-10 I> a
+10 a
 
 140
 
@@ -38157,9 +37865,7 @@ b Phosphate.
 
 :,
 
-.0
-
-40
+.0 40
 
 20
 
@@ -38183,13 +37889,9 @@ oxygen content.
 
 • The bubbles may not be all the same size.
 
-• The water in the test tube may have increased in
+• The water in the test tube may have increased in temperature as the lamp was brought nearer to the tube.
 
-temperature as the lamp was brought nearer to the
-
-tube.
-
-11 I> The account should include:
+11 The account should include:
 
 •
 
@@ -38205,9 +37907,7 @@ Equation for the reaction.
 
 • Leaf adaptations: details of palisade mesophyll,
 
-spongy mesophyll, stomata and epidermis, xylem and
-
-phloem (diagram needed).
+spongy mesophyll, stomata and epidermis, xylem and phloem (diagram needed).
 
 •
 
@@ -38223,9 +37923,9 @@ these topics are covered fully in Chapter 14).
 
 CHAPTER 11
 
-1 1> C
+1 C
 
-4 I> A
+4 A
 
 #### CHAPTER 10
 5 1> a Loss in mass = (8.2-8.0)g = 0.2g.
@@ -38454,9 +38154,9 @@ control, with no sheet).
 
 c The coleoptile would grow (bend) towards the source
 
-of light. The mica would not interrupt the movement of
+of light. The mica would not interrupt the movement
 
-auxin away from the light.
+of auxin away from the light.
 
 8 I> a Decapitated coleoptiles would produce the least
 
@@ -38510,80 +38210,49 @@ the starting length. We can do this by calculating a
 percentage increase.
 CHAPTER 13
 
-1 1> B
+1 B
 
-2 I> A
+2 A
 
-31> D
+3 D
 
-41> D
+4 D
 
-51> a Stigma.
-
+5 a Stigma.
 b By the coloured petals, scent and nectar.
-
 c Pollen tube should be shown growing down through
-
 the rest of the style and entering the ovary.
 
-6 1> a Independent: temperature
-
+6 a Independent: temperature
 Dependent: height of seedlings and % of seeds that
-
 germinated
-
-b ~A+~5+25+3~+~8+~4+~3+2E+2.1+
-
+b (3.5+2.5+2.5+3.5+2.8+3.4+3.3+2.6+2.1+
 3.7) / 10; 3.43cm
-
-c Higher temperatures (20 ' C or 30 ' C) are needed for
-
-germination to take place. At a low temperature (4 ' C)
-
+c Higher temperatures (20 ° C or 30 ° C) are needed for
+germination to take place. At a low temperature (4 ° C)
 few seeds germinated or grew. Growth of seedlings
-
-was greater at 30 ' C than at 20 ' C.
-
+was greater at 30 ° C than at 20 ° C.
 d Temperature affects the activity of enzymes and the
-
 rate of metabolic reactions. It increases the kinetic
-
 energy of molecules, so that there are more collisions
-
 between enzyme and substrate molecules, resulting
-
 in an increase in successful reactions. Germination
-
 depends on metabolic reactions, so temperature
-
 affects germination.
-
 e The light intensity is not controlled. Tube A is in the
-
 light, while B and C are in the dark. All three tubes
-
 should be in the light (or all three in the dark).
 
-7 I> a This method of reproduction does not involve flowers I
-
+7 a This method of reproduction does not involve flowers /
 seeds / pollen and ovules, so is not sexual. It involves
-
 the tubers growing from body cells of the parent plant.
-
 b The tubers grow from body cells of the parent plant
-
 by mitosis, which produces cells that are genetically
-
 identical.
-
 c Growth may be affected by the environment of the
-
 plants, e.g. different soil minerals or different light
-
 intensity.
-
 d Sexual reproduction produces offspring that show
-
 genetic variation, allowing them to survive if the
 
 #### CHAPTER 13
@@ -38666,13 +38335,13 @@ more quickly. (Also, if the plants are resistant to a
 disease, they all will be, so won't be killed by it.)
 END OF UNIT 3 QUESTIONS
 
-1 I> a I
+1 a
 
 Any four points from:
 
 As light intensity increases, the rate of
 
-photosynthesis increases (1 ). The rate of increase
+photosynthesis increases (1). The rate of increase
 
 is faster at high CO2 concentration than at low CO2
 
@@ -38692,55 +38361,53 @@ intensity X (1).
 
 The maximum rate of photosynthesis is higher
 
-at high CO2 concentration than at low CO2
+at high CO2 concentration than at low CO2 concentration (1).
 
-concentration (1).
-
-II Up to X the limiting factor is light (1 ), because
+II Up to X the limiting factor is light (1), because
 
 increasing light intensity increases the rate of
 
-photosynthesis (1 ). Beyond X the limiting factor
+photosynthesis (1). Beyond X the limiting factor
 
-is CO2 (1 ), as increasing light intensity has no
+is CO2 (1), as increasing light intensity has no
 
 effect on the rate of photosynthesis (1) whereas
 
-increased CO2 increases the rate (1 ).
+increased CO2 increases the rate (1).
 
-b I
+b i
 
 Temperature, water availability.
 
-II Reactions are slow at low temperatures (1),
+ii Reactions are slow at low temperatures (1),
 
 because the molecules have little kinetic energy (1)
 
 and therefore there are fewer successful collisions
 
-between enzyme molecules and substrates (1 ).
+between enzyme molecules and substrates (1).
 
-Water is a raw material for photosynthesis (1 ).
+Water is a raw material for photosynthesis (1).
 
 c The photosynthesis reaction uses / takes in light
 
 energy (1) and converts it into chemical energy stored
 
-in the glucose/ starch produced (1 ).
+in the glucose/ starch produced (1).
 
-2 11> a I
+2 a i
 
 To remove any water/ sap on the outside of the
 
 cylinder (1).
 
-II To allow an average to be calculated/ to check
+ii To allow an average to be calculated/ to check
 
-reliability of results (1 ).
+reliability of results (1).
 
-Iii So they all had the same surface area to volume
+iii So they all had the same surface area to volume
 
-ratio(1 ).
+ratio(1).
 
 b
 
@@ -38759,15 +38426,13 @@ cylinder (1).
 
 Ii (Approximately) 0.75mol per dm3 (1), because
 
-there is no c hange in mass (1 ), as there is no net
+there is no change in mass (1 ), as there is no net
 
 movement of water (1 ).
 
 c Repeat experiment with more cylinders (1), use more
 
-concentrations of sucrose between O and 1 mol
-
-3 II> a
+concentrations of sucrose between 0 and 1 mol
 
 per dm3 (such as 0.2 mol per dm3, 0.4 mol per dm3,
 
@@ -38787,7 +38452,7 @@ flow(1).
 
 2 = osmosis (1).
 
-3 = evaporation I diffusion (1 ).
+3 = evaporation / diffusion (1 ).
 
 4 = transpiration / evaporation (1 ).
 
@@ -38799,7 +38464,7 @@ contain many chloroplasts (1) which absorb light (1)
 
 • Spongy mesophyll is a gas exchange surface (1) for
 
-exchange of CO2 and 0 2 (1)
+exchange of CO2 and O2 (1)
 
 • Stomata allow entry of CO2 (1) a raw material for
 
@@ -38817,7 +38482,7 @@ c Carbon dioxide enters through the stomata (1) but
 
 stomata need to be closed to prevent loss of water (1 ).
 
-4 11> a
+4 II> a
 
 (Positive) phototropism (1 ).
 
@@ -38832,7 +38497,7 @@ source (1) causes growth on the dark side of the
 
 shoot (1).
 
-Iii The plant receives more light for photosynthesis (1).
+The plant receives more light for photosynthesis (1).
 
 b I
 
@@ -38856,10 +38521,6 @@ wavelengths of light (1), cannot absorb other
 
 wavelengths (1), these wavelengths are present in
 
-C I
-
-II
-
 sunlight (1).
 
 Gravity (1 ).
@@ -38867,8 +38528,6 @@ Gravity (1 ).
 Root grows towards gravity/ positive geotropism
 
 (1), shoot (in some species) grows away from
-
-s 11> a
 
 gravity/ shows negative geotropism (1).
 
@@ -38922,9 +38581,9 @@ anther of a plant to the stigma of the same plant
 
 (1). Cross-pollination is when pollen is transferred
 
-to the stigma o f another plant (1).
+to the stigma of another plant (1).
 
-6 11> Any six points for 6 marks:
+6 Any six points for 6 marks:
 
 pollen grains placed in sucrose solution / in range of
 
@@ -38950,15 +38609,15 @@ same temperature/ light intensity/ other suitable
 controlled variable
 CHAPTER 14
 
-1 11> D
+1 D
 
-211> B
+2 B
 
-311> A
+3 A
 
-411> C
+4 C
 
-5 11> a Habitat: place where an organism lives; community: all
+5 a Habitat: place where an organism lives; community: all
 
 the populations of living organisms in an ecosystem;
 
@@ -38972,23 +38631,23 @@ b Plants = producers; animals = consumers;
 
 decomposers = breakdown of dead material.
 
-6 II> a
+6 a
 
 Plankton.
 
 ii Krill.
 
-b Quaternary consumer I top carnivore.
+b Quaternary consumer / top carnivore.
 
 c Very large amounts of photosynthesis / production by
 
 the plankton can support this number of trophic levels.
 
-7 11> a Any two from:
+7 a Any two from:
 
-• trees -+ moths -
+• trees -> moths -
 
-small birds - owls
+small birds -> owls
 
 • trees -
 
@@ -38998,9 +38657,9 @@ small birds -
 
 weasels
 
-• trees _, moths _, small birds -, shrews
+• trees -> moths -> small birds -> shrews
 
-• trees -+ moths -+ beetles -+ shrews
+• trees -> moths -> beetles -> shrews
 
 b Vole or small bird.
 
@@ -39014,7 +38673,7 @@ but each tree has a very large mass, and the pyramid
 
 of biomass shows the total mass of the trees.
 
-8 11> a X = ammonia; Y = nitrate; Z = decomposer.
+8 a X = ammonia; Y = nitrate; Z = decomposer.
 
 b Active transport.
 
@@ -39058,15 +38717,9 @@ t
 
 b Any suitable food chain with four organisms, such as:
 
-• dead leaves --,. crabs --, tarpon -+ humans
+• dead leaves -> crabs -> tarpon -> humans
 
-• dead leaves -
-
-shrimps -
-
-snappers -
-
-humans
+• dead leaves -> shrimps -> snappers -> humans
 
 c I
 
@@ -39077,21 +38730,21 @@ II Decomposers feed on the detritus; their respiration
 produces carbon dioxide as a waste product.
 CHAPTER 15
 
-111> B
+B
 
-211> A
+A
 
-311> A
+A
 
-411> C
+C
 
-5 II> Because of the great increase in the human population,
+Because of the great increase in the human population,
 
 the need to produce food to sustain the population, and
 
 the industrial revolution and growth of technology.
 
-6 11> a The concentration of carbon dioxide is increasing.
+a The concentration of carbon dioxide is increasing.
 
 b The increase is due to increased burning of fossil fuels.
 
@@ -39103,7 +38756,7 @@ winter there is less photosynthesis, so carbon dioxide
 
 levels increase.
 
-7 II> a Any two: carbon dioxide, methane, water vapour, CFCs
+a Any two: carbon dioxide, methane, water vapour, CFCs
 
 b Without a greenhouse effect, the temperature on the
 
@@ -39121,7 +38774,7 @@ mosquitoes will spread to more northerly parts of
 
 Europe.
 
-8 II> a Rain washes fertiliser into the pond, causing the algae
+a Rain washes fertiliser into the pond, causing the algae
 
 to grow.
 
@@ -39133,13 +38786,13 @@ An increased temperature increases their rate of
 
 photosynthesis, so they grow faster.
 
-9 II> Sewage causes growth of bacteria in the water. The
+Sewage causes growth of bacteria in the water. The
 
 bacteria need oxygen for growth, using up the oxygen in
 
 the water, so that the fish suffocate/ die.
 
-1 O II> a Pesticides kill pests (insects etc.) so less crop eaten;
+a Pesticides kill pests (insects etc.) so less crop eaten;
 
 fertilisers supply minerals that increase the growth of
 
@@ -39535,170 +39188,89 @@ increased (1 ). This was probably because the plants
 had developed resistance to the fungicide (1).
 CHAPTER 16
 
-1 11- C
+1 1- C
 
-5 II- a A= base / thymine; B = base I cytosine; C =
-
+5 II- a A= base / thymine; B = base / cytosine; C =
 deoxyribose / sugar; D = phosphate; E = nucleotide.
 
 b Franklin used X-ray diffraction on DNA to find out
-
 about its structure. Watson & Crick used Franklin's
-
 data and other information to build a model of the
-
 structure of DNA.
 
 c A always pairs with T, and C always pairs with G.
 
-6 11> a
-
+6 II> a
 A gene is a length of DNA that codes for a protein.
-
 ii
-
 Alleles are different forms of a gene.
 
 b A chromosome is a structure in the nucleus of a cell
-
 composed of DNA (and proteins).
 
 c I
-
 Both have 23 pairs of chromosomes in each cell.
-
 ii Woman's skin cells contain XX sex chromosomes,
-
 man's contain XY.
 
 7 II> a Flow diagram should have boxes showing the stages
-
 in order: (1) the two strands of the DNA separate;
-
 (2) each strand acts as a template for the formation
-
 of a new strand; (3) DNA polymerase assembles
-
 nucleotides alongside the two strands; (4) Two DNA
-
 molecules formed.
 
 b I
-
 Caused by an addition, duplication or deletion of
-
 a base, resulting in all triplets of bases after the
-
 mutation being different and so different amino
-
 acids are coded for.
-
 ii Caused by a change in one base in a triplet, by
-
 substitution or inversion, so that it codes for a
-
 different amino acid. Triplets after the mutation are
-
 not altered; so subsequent amino acids will not be
-
 affected.
 
 8 II- a Five.
-
 b AUG GAG CCA GUA GGG
-
 c ATG GAG CCA GTA GGG
-
 d The mRNA base sequence is converted into the amino
-
 acid sequence of a protein during a process called
-
 translation. The mRNA sequence consists of a triplet
-
 code. Each triplet of bases is called a codon. Reading
-
 of the mRNA base sequence begins at a start codon
-
 and ends at a stop codon. Molecules of tRNA carrying
-
 an amino acid bind to the mRNA at an organelle called
-
 the ribosome.
 CHAPTER 17
 
-1 11> D
+1 D
 
-5 11> a Both types of division start with each chromosome
-
-copying itself / DNA replicating / DNA copying itself/
-
-chromatids forming.
+5 a Both types of division start with each chromosome copying itself / DNA replicating / DNA copying itself / chromatids forming.
 
 Plus any two of:
 
-Mitosis produces two daughter cells, meiosis
+Mitosis produces two daughter cells, meiosis produces four daughter cells.
 
-produces four daughter cells.
+Daughter cells from mitosis are genetically identical to each other and the parent cell; daughter cells from meiosis are genetically different from each other and the parent cell.
 
-Daughter cells from mitosis are genetically identical
+Mitosis produces daughter cells with the same number of chromosomes as the parent cell / diploid to diploid; meiosis halves the chromosome number / diploid to haploid.
 
-to each other and the parent cell; daughter cells
+b Mitosis, they are formed by division of body cells to produce more body cells.
 
-from meiosis are genetically different from each
+c Because the number of chromosomes per cell is reduced by half.
 
-other and the parent cell.
+6 a They have been formed by mitosis, so are genetically identical.
 
-Mitosis produces daughter cells with the same
+b Meiosis is used to form pollen and egg cells, so fertilisation results in seeds that are genetically different from each other.
 
-number of chromosomes as the parent cell / diploid
+7 a Control.
 
-to diploid; meiosis halves the chromosome number
+b Plants from cuttings would be genetically identical, which is better in order to compare the effects of the treatment with nitrogen-fixing bacteria. Seeds would be genetically different, so their growth might depend on their genes, rather than the treatment.
 
-/ diploid to haploid.
+c The nitrogen-fixing bacteria provide nitrates needed for growth. This is an environmental effect on growth, rather than a genetic one. Therefore the environment plays a big part in the growth of these plants.
 
-b Mitosis, they are formed by division of body cells to
-
-produce more body cells.
-
-c Because the number of chromosomes per cell is
-
-reduced by half.
-
-6 II> a They have been formed by mitosis, so are genetically
-
-identical.
-
-b Meiosis is used to form pollen and egg cells, so
-
-fertilisation results in seeds that are genetically
-
-different from each other.
-
-7 II- a Control.
-
-b Plants from cuttings would be genetically identical,
-
-which is better in order to compare the effects of the
-
-treatment with nitrogen-fixing bacteria. Seeds would
-
-be genetically different, so their growth might depend
-
-on their genes, rather than the treatment.
-
-c The nitrogen-fixing bacteria provide nitrates needed
-
-for growth. This is an environmental effect on growth,
-
-rather than a genetic one. Therefore the environment
-
-plays a big part in the growth of these plants.
-
-8 1> a Meiosis, because sperm are gametes that are haploid
-
-/ contain half the number of chromosomes of body
-
-cells.
+8 a Meiosis, because sperm are gametes that are haploid / contain half the number of chromosomes of body cells.
 
 #### CHAPTER 17
 b Mitosis, because body cells are dividing to produce
@@ -39762,66 +39334,40 @@ CHAPTER 18
 
 2 ... A
 
-3 I> D
+3 ... D
 
-41> C
+4 ... C
 
-5 I> a All tall.
-
-b Alltall.
-
-c Alltall.
-
+5 ... a All tall.
+b All tall.
+c All tall.
 d 3 tall : 1 short.
-
 e 1 tall : 1 short (or 2 :2).
-
 All short.
 
-6 1> a I
-
+6 ... a I
 Homozygous.
-
 II Dominant gene hides the expression of the
-
 recessive gene when heterozygous; recessive
-
 gene expressed only in homozygous form.
-
 b
-
 B and b; ii all Bb.
-
 c I
-
 Heterozygous.
-
 II
-
 B
-
 b
-
 B
-
 b
-
 ~
-
 Phenotypes = 3 black : 1 red.
 
-7 I> a Gametes of parents = R and r
-
-Genotypes of F1 = Ar
-
-Genotypes of F1 parents = Ar and Ar
-
+7 ... a Gametes of parents = R and r
+Genotypes of F1 = Rr
+Genotypes of F1 parents = Rr and Rr
 Gametes of F1 parents R, R and r, r
-
 Genotypes of F2 =
-
 R
-
 r
 R~
 
@@ -39969,7 +39515,7 @@ CHAPTER 19
 
 5 I> a It means that the organisms that are best adapted
 
-to th eir environment are more likely to survive and
+to their environment are more likely to survive and
 
 reproduce.
 
@@ -40189,7 +39735,7 @@ pathogens; cloned animals like 'Dolly' may have
 genetic defects; ethical issues).
 END OF UNIT 5 QUESTIONS
 
-1 11> a Toxic copper ions (1), only copper-tolerant plants will
+1  ANALYSIS a Toxic copper ions (1), only copper-tolerant plants will
 
 grow and reproduce/ non-tolerant plants will die (1).
 
@@ -40205,11 +39751,11 @@ the pesticide will grow and reproduce/ non-resistant
 
 pests will die (1).
 
-2 11> a Tips of stems and side shoots removed (explants) (1);
+2  ANALYSIS a Tips of stems and side shoots removed (explants) (1);
 
-exp/ants trimmed to 0.5-1 mm (1); put exp/ants onto agar
+explants trimmed to 0.5-1 mm (1); put explants onto agar
 
-containing nutrients and hormones (1); when exp/ants
+containing nutrients and hormones (1); when explants
 
 have grown transfer to compost in greenhouse (1 ).
 
@@ -40217,13 +39763,11 @@ b All have same genes since produced by mitosis from
 
 cells of the same parent plant.
 
-c I
-
-Kinetin causes growth of shoots (1 ); auxin causes
+c Kinetin causes growth of shoots (1 ); auxin causes
 
 growth of callus and roots (1 ).
 
-Ii
+ii
 
 Use 2 mg per dm3 of auxin to cause growth of
 
@@ -40249,7 +39793,7 @@ same genes, so susceptible to same diseases/ could
 
 all be affected at same time (2).
 
-3 11> a Both 1 and 2 are tasters (1). If the gene was recessive,
+3  ANALYSIS a Both 1 and 2 are tasters (1). If the gene was recessive,
 
 all their children would also be tasters, but 4 is a
 
@@ -40287,76 +39831,50 @@ T
 t
 tE1E
 
-4 11> a D, C, B, E, F, A (all correct ; 2 marks, 1 mark if one or
-
+4  a D, C, B, E, F, A (all correct ; 2 marks, 1 mark if one or
 more wrong).
 
 b Mitosis (1), because there are only two cells produced
-
 / only one division / no reduction division / no pairing
-
 of homologous chromosomes (1 ).
 
-C 46
+c 46
 
 d Anytwoof:
-
 mitosis produces two daughter cells, meiosis
-
 produces four daughter cells
-
 daughter cells from mitosis are genetically identical
-
 to each other and the parent cell; daughter cells
-
 from meiosis are genetically different from each
-
 other and the parent cell
-
 mitosis produces daughter cells with the same
-
 number of chromosomes as the parent cell / diploid
-
 to diploid; meiosis halves the chromosome number
-
 / diploid to haploid.
 
-5 11> a From the nucleus of a mammary gland cell of sheep A
-
+5  a From the nucleus of a mammary gland cell of sheep A
 (1).
 
 b Nucleus of an egg is haploid / has half set of
-
 chromosomes; nucleus of an embryo is diploid / has
-
 full set of chromosomes (1).
 
 c SheepA.
 
 d It does not involve fertilisation of an egg by a sperm (1);
-
 the embryo grows from a body cell nucleus (mammary
-
 gland cell nucleus) rather than from a zygote (1).
 
 e Cloning (genetically modified) animals to produce
-
 human proteins (to treat diseases) (1). Cloning
-
 (genetically modified) animals to supply organs for
-
 transplants (1 ).
 
-6 11> (One mark for each correct underlined term)
-
+6  (One mark for each correct underlined term)
 A gene is a section of a molecule known as DNA/
-
 deoxyribonucleic acid. The molecule is found within the
-
 nucleus of a cell, within thread-like structures called
-
-~somes. The strands of the molecule form a
-
+chromosomes. The strands of the molecule form a
 double helix joined by paired bases. The base adenine
 
 #### tE1E
@@ -40372,7 +39890,7 @@ which carries the code for making proteins out to the
 
 cytoplasm.
 
-7 11> 50 base pairs (1)
+7 50 base pairs (1)
 
 • 30 (G) bases (1) /numbers of C and G must be the
 
@@ -40393,15 +39911,15 @@ UNIT 6 ANSWERS
 
 CHAPTER 21
 
-1 11> A
+1 ANALYSIS A
 
-211> B
+2 ANALYSIS B
 
-311> C
+3 ANALYSIS C
 
-411> D
+4 ANALYSIS D
 
-5 11> a Using (hot) steam under high pressure.
+5 ANALYSIS a Using (hot) steam under high pressure.
 
 b The air is needed to supply oxygen for aerobic
 
@@ -40425,7 +39943,7 @@ contents, so that the Penicillium cells are exposed to
 
 more nutrients, achieving a faster rate of growth.
 
-6 11> a glucose -+ ethanol + carbon dioxide
+6 ANALYSIS a glucose -> ethanol + carbon dioxide
 
 b The fermentation air lock allows carbon dioxide to
 
@@ -40439,13 +39957,13 @@ optimum temperature.
 
 d High concentrations of ethanol kill the yeast cells.
 
-7 11> a To kill any natural bacteria in the milk.
+7 ANALYSIS a To kill any natural bacteria in the milk.
 
 b It is the optimum temperature for growth and activity
 
 of the yoghurt bacteria.
 
-c Pro1eins in the milk coagulate due to the fall in pH.
+c Proteins in the milk coagulate due to the fall in pH.
 
 d The drop in pH reduces the growth of the lactic acid
 
@@ -40456,78 +39974,58 @@ e The low pH helps to prevent the growth of other
 spoiling microorganisms.
 CHAPTER 22
 
-1 11> B
+1 B
 
-211> C
+2 C
 
-311> D
+3 D
 
-411> A
+4 A
 
-5 II> a 1 ; restriction endonuclease / restriction enzyme;
-
+5 a; restriction endonuclease / restriction enzyme;
 2; (DNA) ligase.
 
 b It is a vector, used to transfer the gene into the
-
 bacterium.
 
 c They are cultured in fermenters.
 
 d It is identical to human insulin and gives better control
-
 of blood glucose levels.
 
-6 II> The account should discuss how far xenotransplantation
-
+6 The account should discuss how far xenotransplantation
 has been developed and what advantages have been
-
 suggested for it. It should look at what the biological
-
 problems might be, and the ethical objections. It should
-
 be a balanced account.
 
-7 II> a Use Agrobacterium to insert plasmids containing the
-
+7 a Use Agrobacterium to insert plasmids containing the
 required gene into plant cells or use a gene gun -
-
 firing a pellet of gold coated with DNA containing the
-
 required gene.
 
 b The plants are grown by micropropagation.
 
 c Egg cell.
 
-8 II> Essay should describe a range of genetically engineered
-
+8 Essay should describe a range of genetically engineered
 products, such as:
 
 products from bacteria: human insulin, enzymes,
-
 human growth hormone, etc
-
 • genetically modified plants, such as 'golden rice' and
-
 crops resistant to herbicide
-
 • genetically modified animals, e.g. sheep used to
-
 produce human proteins, xenotransplantation.
 
 The benefits of each example should be discussed.
 
 The risks from genetic engineering should also be
-
 discussed, such as:
 
 • 'escape' of genes from crop plants into natural plant
-
 populations
-
 • transfer of 'hidden' pathogens in xenotransplanted
-
 organs.
 END OF UNIT 6 QUESTIONS
 

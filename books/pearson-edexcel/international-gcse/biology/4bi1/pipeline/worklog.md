@@ -81,3 +81,51 @@ Times are UTC (workspace clock 2026-10-20T21:xx-23:xx = 2026-10-21 in session tz
   repair / merge / audit / calibrate / probes), `pipeline/METHOD_AND_FINDINGS.md`,
   `pipeline/evidence/` (probe outputs, repair evidence)
 - playbook ledgers: L-012…L-015, E-002, R-002 (books/README.md §9)
+
+## Polish round 1 — RESUME & COMPLETION (2026-10-21, T-PARSE-4BI1-1-R1)
+
+- **08:59** State re-verified after another workspace reset (SDK wiped, PM-5;
+  resume JSONL + corpus + scripts survived). Runner/merge/audit/validate
+  materialized from origin/main; py_compile + node --check green; resume
+  file = 91 ok / 0 rej -> **todo 272/363**.
+- **08:59-16:01** Merge idempotency patch first: the anchor diff would flag
+  the 2 already-dropped sliver ids on any re-merge -> frozen as
+  `PREV_DROPPED_IDS` in merge_llm_biology.py (dropped ids derived from
+  pristine-minus-corpus: bio_v1_u2_c4_pdf038_0259, bio_v1_u2_c5_pdf045_0296);
+  stale report guard string corrected 0.97 -> calibrated 0.94 (D-9/L-015).
+  Probe-loop wrapper `polish_loop_biology.sh` built (PM-3): 1 lean probe per
+  45-90s, auto-switch to CONC=2 processing on first clear probe, clean exit
+  before tool caps. ~60 probes across 20 batches: ALL 429 (model-switch
+  probe: glm-4-flash + glm-4.5-flash also 429 -> account-level). Wall age
+  passed 16h.
+- **16:01-17:29** Wall broke into INTERMITTENT ~3-min processing windows
+  (physics R2 pattern). Back-to-back probe-loop batches harvested
+  ~28 chunks/window: batches 57-66 -> +268 records. Error records (429s
+  caught mid-window) auto-retried on the next run (only ok/rejected count
+  as done) - 25 stragglers self-healed in the final window.
+- **17:31** **POLISH COMPLETE**: todo=0. Final resume composition: 359 ok /
+  4 rejected (post-calibration guard; raws -> evidence r1b, 29 records incl.
+  superseded 429 errors) / 0 pending.
+- **17:35** Post-completion gates: merge_llm_biology.py — applied=357,
+  6 NEW skill-tag slivers dropped post-polish (bare <40-char skill words:
+  bio_v1_u2_c0_pdf070_0449, bio_v1_u2_c8_pdf062_0411, bio_v1_u3_c11_pdf087_0552,
+  bio_v1_u4_c14_pdf105_0676, bio_v1_u5_c19_pdf138_0889, bio_v1_u6_c21_pdf148_0963),
+  **anchor diff 0 drift**; corpus 869 -> **863 chunks**.
+  audit_polish_biology.py **PASSED, 0 regressions** (arrow 37->1, icon junk
+  113->6, 1s 18->2, ANO 6->0, KEV 10->0, hvmg 4->0, chapler 1->0).
+  validate_biology.py **ALL CHECKS PASSED** (863 chunks, 22/22 chapters,
+  6/6 units, 0 order breaks, 163 question chunks intact).
+- **17:40** Docs: parsed/README.md (polish COMPLETE section, limitations
+  rewritten, stats 863), METHOD_AND_FINDINGS.md (D-9 0.94 correction,
+  D-11 resume mechanics, Results final numbers), parsed/README stats,
+  playbook ledgers L-016 (frozen drop-lists for idempotent re-merges),
+  L-017 (intermittent-window harvesting) + R-003 + change log v1.3.
+
+**Deliverables (this commit):**
+- `parsed/edexcel_igcse_biology_chunks_v1.jsonl` (863 chunks, 357 polished)
+- `parsed/full_book_textlayer.md`, `parsed/parse_report_v1.json`,
+  `parsed/README.md`
+- `pipeline/scripts/merge_llm_biology.py` (PREV_DROPPED_IDS + guard string),
+  `pipeline/scripts/polish_loop_biology.sh` (new),
+  `pipeline/evidence/llm_repairs_biology_r1b_evidence.jsonl` (new)
+- `pipeline/METHOD_AND_FINDINGS.md`, playbook `books/README.md` (ledgers)

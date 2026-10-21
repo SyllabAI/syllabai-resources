@@ -134,29 +134,53 @@ book_pages fall outside the spread-derived range.
   segment when the LO heading is garbled — recovers 2 otherwise-body openers.
 - **D-9 (garble-map-normalized fidelity guard).** The LLM polish guard
   normalizes KNOWN garble classes in both strings before the char-level
-  whitespace-stripped LCS ≥ 0.97 check, so transcription repairs that fix
+  whitespace-stripped LCS check, so transcription repairs that fix
   character substitutions pass while wording changes still bite (extends
-  the PM-2 guard to substitution-class damage).
+  the PM-2 guard to substitution-class damage). Threshold calibrated at
+  **0.94** (not the 0.97 whitespace-damage default) by replaying ALL banked
+  OKs — minimum passing score 0.9412; paraphrase still scores 0.7–0.85 and
+  is caught (playbook L-015). A generic junk-token rule handles icon-glyph
+  forms no fixed map can enumerate (≥4 chars, contains a symbol, removing
+  i/l/1 leaves ≤2 non-digit chars).
 - **D-10 (LLM polish scope).** 363/871 chunks selected: all 171
   question-typed chunks (serving-critical, force rule) + 192 garble-scored
   chunks (0 obvious garbles missed outside selection). Selection heuristics
   were tightened twice after false-positive storms (living/lumen words).
+- **D-11 (resumable polish mechanics).** The round-1 run was interrupted by
+  a >16h account-level 429 wall, then completed across intermittent
+  ~3-minute gateway windows: a lean probe-loop wrapper
+  (polish_loop_biology.sh) fires 1 tiny probe/min and switches straight
+  into CONC=2 processing when a window opens (~28 chunks/window). Two
+  merge-correctness rules came out of the resume: (1) already-dropped
+  sliver IDs must be FROZEN in the merge script (PREV_DROPPED_IDS) — the
+  anchor diff would otherwise flag them as missing on every re-merge;
+  (2) error records in the resume JSONL are retried on resume (only
+  ok/rejected count as done), so 429-stragglers self-heal with zero
+  manual bookkeeping. Junk-only skill-tag slivers that emerge only AFTER
+  junk stripping (bare "<40 chars of skill word") are a documented drop
+  class, not content loss (869 -> 863).
 
 ## 5. Results
 
-- **871 chunks** (`bio_v1_` prefix), 0.83 MB chars, size min/median/max =
-  20/943/2095, 0 over HARD_MAX 2400.
-- Content types: body 344, chapter_questions 126, answers 65, did_you_know
-  59, key_point 58, unit_questions 45, extension_work 34, glossary 29,
+- **863 chunks** final (`bio_v1_` prefix), 0.83 MB chars, size
+  min/median/max = 20/949/2095, 0 over HARD_MAX 2400. (871 pre-polish; 8
+  junk-only skill-tag slivers dropped: 2 pre-polish, 6 post-polish.)
+- Content types: body 344, chapter_questions 119, answers 65, did_you_know
+  59, key_point 58, unit_questions 44, extension_work 34, glossary 29,
   learning_objectives 21, appendix 21, index 20, front_matter 15, exam_hint
   11, safety 9, divider 6, practical 5, biology_only 2, skills 1.
 - Validation: **ALL CHECKS PASSED** (validate_biology.py): unique IDs,
   15-key grammar, 22/22 chapters, 6/6 units, 0 order breaks, dual numbering
   + 2-up law coherence, question anchoring to all probed ranges, answers
   coverage 329–348, size bounds, char_count recomputation.
-- LLM polish round 1: 363 selected; N applied / rejected / quota-pending —
-  see parse_report_v1.json `llm_polish` for the final numbers (updated by
-  merge_llm_biology.py, which also runs the 0-drift anchor diff).
+- **LLM polish round 1 COMPLETE:** 363 selected -> 359 repaired OK /
+  4 rejected (originals kept; raws in evidence r1a/r1b) -> 357 applied
+  (2 OKs were already-dropped slivers). Anchor diff vs pristine: **0
+  drift** on all serving-critical fields.
+- Post-polish audit (audit_polish_biology.py): **PASSED, 0 regressions** —
+  arrow garble 37 -> 1, icon junk 113 -> 6, 1s(is) 18 -> 2, ANO 6 -> 0,
+  KEV 10 -> 0, hvmg 4 -> 0, chapler 1 -> 0 (residuals sit in the 4
+  rejected chunks / unselected front-matter, all documented).
 
 ## 6. Reusable lessons (see also books/README.md §9 ledgers)
 
@@ -167,3 +191,6 @@ book_pages fall outside the spread-derived range.
 - Probe-display code can CREATE the noise it reports (space-joined span
   dumps simulated intra-word splits). Always re-derive noise classes from
   the production extraction before writing cleaning rules.
+- Long 429 walls (>16h) can break into intermittent short windows instead
+  of lifting cleanly — patience beats giving up (L-017), and a resume-safe
+  runner + frozen drop-lists make the harvest mechanical (D-11).

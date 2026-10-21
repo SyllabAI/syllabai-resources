@@ -483,6 +483,28 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   lands 0.7–0.85. Evidence: `calibrate_guard_4bi1.py` + repair log.
   Action: when polish-reject storms hit a new damage class, replay banked
   OKs and recalibrate the threshold from the replay, never by eye.
+- **L-016** (2026-10-21, T-PARSE-4BI1-1-R1, Super Z): a merge that drops
+  chunks (junk-only slivers) must FREEZE the dropped IDs (e.g.
+  `PREV_DROPPED_IDS` in merge_llm_biology.py) — on any resumed re-merge the
+  anchor diff re-detects nothing (the chunks are already absent from the
+  corpus) and would flag them as MISSING ids, failing an otherwise-clean
+  merge. Evidence: biology re-merge after the partial merge — anchor diff
+  stayed 0-drift only with the frozen list (dropped ids derived from
+  pristine-minus-corpus). Action: whenever a merge step removes records,
+  persist the removed IDs in the merge script (or a state file) before the
+  run ends.
+- **L-017** (2026-10-21, T-PARSE-4BI1-1-R1, Super Z): quota walls do not
+  always lift cleanly — the biology wall held >16h then broke into
+  INTERMITTENT ~3-minute processing windows instead. A lean probe-loop
+  wrapper (1 tiny probe per 45–90s, auto-switching into CONC=2 processing
+  on the first clear probe) harvested ~28 chunks/window to completion;
+  oversized fixed-sleep probing would have missed most windows. Error
+  records in the resume JSONL are retried on the next run (only
+  ok/rejected count as done), so 429-stragglers self-heal. Evidence:
+  `polish_loop_biology.sh` + lane worklog 2026-10-21 (batches 57–66).
+  Action: after ~2h of continuous 429s, drop to 1-probe-per-minute
+  foreground loops instead of longer waits; never treat an "error" record
+  as done.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -547,6 +569,23 @@ E-ID they correct)*
   E-002 (physics load_rag.py metadata-wrapper mismatch — not fixed here,
   flagged to lane owner).
 
+- **R-003** (2026-10-21, T-PARSE-4BI1-1-R1, 4BI1 polish resume): pages
+  parsed n/a (resume task); chunks **863** final (8 junk-only slivers
+  dropped total: 2 pre-polish, 6 post-polish — bare skill words <40 chars);
+  offset unchanged (2-up law, re-validated); validation **ALL CHECKS
+  PASSED**; LLM polish round 1 **COMPLETE**: selected 363, repaired OK 359,
+  rejected 4 (post-calibration guard; raws in evidence r1b), applied 357
+  to corpus (2 OKs were already-dropped slivers), holdouts none; anchor
+  diff vs pristine **0 drift** on all serving-critical fields; post-polish
+  audit PASSED with 0 regressions (arrow 37→1, icon junk 113→6, 1s 18→2,
+  ANO/KEV/hvmg/chapler →0). Wall story: >16h account-level 429 wall,
+  broke into intermittent ~3-min windows at ~16h; probe-loop wrapper
+  (1 probe/min, CONC=2 on window) harvested to completion over ~10
+  batches. Deviations from playbook: guard threshold 0.94 for this damage
+  class (documented L-015, D-9) — otherwise none. Lessons appended:
+  L-016, L-017. Errata filed: none (merge script guard-string
+  0.97→0.94 staleness corrected in-place as part of this task).
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -557,6 +596,13 @@ E-ID they correct)*
 
 ## 10. Change log
 
+- **2026-10-21 — v1.3 (T-PARSE-4BI1-1-R1):** 4BI1 polish round 1 COMPLETED
+  across a >16h 429 wall that broke into intermittent windows (probe-loop
+  harvest, ~28 chunks/window); final corpus 863 chunks (8 junk-only sliver
+  drops documented), 357 LLM-polished with originals preserved, anchor
+  diff 0 drift, audit PASSED 0 regressions, validation ALL CHECKS PASSED;
+  ledgers L-016, L-017 + R-003 recorded; D-9 threshold note corrected to
+  the calibrated 0.94 (was stale at 0.97).
 - **2026-10-21 — v1.2 (T-PARSE-4BI1-1):** 4BI1 parse lane executed as the
   FIRST TEXT-LAYER LANE (PyMuPDF native extraction, no OCR — playbook §5
   phase-1 re-plan clause); 2-up law pinned 3 ways; 22/22 chapter question
