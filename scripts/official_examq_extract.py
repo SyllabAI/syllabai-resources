@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.10.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.10.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -1998,6 +1998,14 @@ def main():
     # (kind=="crop"); 'stub-accepted' clears review on honest crop-required
     # stubs (the eyeballed "no croppable figure" decision). Any other
     # combination fails closed — C22 flags ledger↔corpus mismatches.
+    # v0.10.1 (F45) optional crop pass: a ledger entry may carry
+    # manual_crop {page, rect} — the eyeballed crop box (PDF points) for a
+    # stub whose printed content the automatic pass cannot reach (text-only
+    # scaffolds the F19b doctrine stubs, or figures on rasterized archive
+    # pages with no vector anchors). The box is the human decision; the
+    # render is deterministic at CROP_DPI on every re-run. Fail-closed: a
+    # malformed box aborts the run instead of silently shipping a stub or a
+    # wrong crop; the stub's own page must agree with the box's page.
     for q in doc_questions:
         for p in q["parts"]:
             for a in p.get("assets") or []:
@@ -2005,6 +2013,41 @@ def main():
                 if not isinstance(v, dict):
                     continue
                 vd = v.get("verdict")
+                mc = v.get("manual_crop")
+                if mc is not None:
+                    if vd != "accepted" or a.get("kind") != "crop-required":
+                        raise SystemExit(
+                            f"F45 manual_crop requires verdict=accepted on a crop-required "
+                            f"stub: {a['id']} verdict={vd!r} kind={a.get('kind')!r}")
+                    mc_pg = mc.get("page")
+                    mc_rect = mc.get("rect")
+                    if (not isinstance(mc_pg, int) or not (1 <= mc_pg <= len(pdf))
+                            or not isinstance(mc_rect, list) or len(mc_rect) != 4
+                            or not all(isinstance(x, (int, float)) and x >= 0 for x in mc_rect)):
+                        raise SystemExit(
+                            f"F45 manual_crop malformed for {a['id']}: {mc!r}")
+                    if a.get("page") is not None and int(a["page"]) != mc_pg:
+                        raise SystemExit(
+                            f"F45 manual_crop page {mc_pg} != stub page {a.get('page')} for {a['id']}")
+                    mc_page = pdf[mc_pg - 1]
+                    mc_clip = fitz.Rect(*[float(x) for x in mc_rect]) & mc_page.rect
+                    if mc_clip.is_empty or mc_clip.width < 20 or mc_clip.height < 20:
+                        raise SystemExit(f"F45 manual_crop degenerate rect for {a['id']}: {mc_rect}")
+                    clusters_for(mc_pg)          # populate the page raster index
+                    mc_rel = f"assets/{a['id']}.png"
+                    mc_pix = mc_page.get_pixmap(clip=mc_clip, dpi=CROP_DPI)
+                    mc_pix.save(str(OUT / mc_rel))
+                    a["kind"] = "crop"
+                    a["path"] = mc_rel
+                    a["page"] = mc_pg
+                    a["render"] = ("raster" if any(rb.contains(mc_clip) for rb in page_rasters[mc_pg])
+                                   else "vector")
+                    a["text_coverage"] = text_coverage(mc_page, mc_clip)
+                    a["manual_crop"] = True
+                    if crop_stats["pending"] > 0:
+                        crop_stats["pending"] -= 1
+                    crop_stats["crops"] += 1
+                    vd = "accepted"
                 if vd == "accepted" and a.get("kind") == "crop":
                     a["review"] = False
                     a["review_verdict"] = "accepted"
