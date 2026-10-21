@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.8.0"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.8.1"   # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -991,10 +991,29 @@ def main():
 
     # ---- MS linkage + MCQ keys ---------------------------------------------
     ms_entries = parse_ms(clean_lines(MS_TXT.read_text(errors="replace")))
+    # ---- v0.8.1 (F37): human-adjudicated MCQ keys, applied pre-emission -----
+    # The printed Jan 2020 MS itself misplaces the Q7(a) answer rows: (ii)'s
+    # answer block prints under (iii) and a stray (i) rebuttal prints under
+    # (ii), so positional linkage cannot key those parts (honest refusal, F6).
+    # MCQ-KEYS.json carries the eyeballed key + the corrected verbatim MS rows
+    # (evidence: rendered MS page). The override lands BEFORE build_solution so
+    # solution_md, mark_points[] and choices[].is_correct all derive from the
+    # adjudicated block — never from the mis-linked rows.
+    mcq_keys_path = RES_DIR / "Official-ExamQuestion" / "MCQ-KEYS.json"
+    mcq_key_overrides = {}
+    if mcq_keys_path.exists():
+        for e in json.loads(mcq_keys_path.read_text()).get("entries", []):
+            mcq_key_overrides[(e["series"], e["part"])] = e
+    mcq_keys_applied = []
     for q in doc_questions:
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
             lines = ms_entries.get(key, [])
+            mk = mcq_key_overrides.get((series, p["part_number"]))
+            if mk and p["question_type"] == "multiple_choice":
+                lines = list(mk["ms_lines"])
+                p["answer_key_source"] = "mcq-keys-ledger"
+                mcq_keys_applied.append(f"{series}/{p['part_number']}")
             raw = re.sub(r"\s{2,}", " ", " ".join(lines)).strip()
             p["answer_status"] = "linked" if raw else "unmatched"
             p["answer_raw"] = raw
@@ -1053,6 +1072,11 @@ def main():
                     letters = set(re.findall(r"(?<![A-Za-z])([A-D])(?![A-Za-z])", raw))
                     if len(letters) == 1:
                         lab = letters.pop()
+                # v0.8.1 (F37): the adjudicated key is authoritative and lands
+                # LAST — a stale heuristic result can never outrank it, and a
+                # key outside the printed labels fails closed to unkeyed (G3).
+                if mk is not None:
+                    lab = mk["key"] if mk["key"] in labels else None
                 if lab:
                     for c in p["choices"]:
                         c["is_correct"] = (c["label"] == lab)
@@ -1636,9 +1660,14 @@ def main():
     seeds = SEEDS.get(series, {}) if paper == "1C" else {}   # demo seeds are 1C artifacts (F31)
     labels_path = (RES_DIR / "Official-ExamQuestion" / "spec-labels" /
                    (f"{series}.json" if paper == "1C" else f"{series}-{paper}.json"))
-    labels = {}
+    labels, nsp = {}, {}
     if labels_path.exists():
-        labels = json.loads(labels_path.read_text()).get("parts", {})
+        _labels_doc = json.loads(labels_path.read_text())
+        labels = _labels_doc.get("parts", {})
+        # v0.8.1 (F38): terminal no-spec-point states — parts the official 4CH1
+        # specification itself gives NO numbered point for (verified against the
+        # published spec), decided rather than left pending-llm forever.
+        nsp = _labels_doc.get("no_spec_point", {})
     reg = json.loads(SPEC_RESOLUTION.read_text())["resolved"]
     registry = set()
     for r in reg:
@@ -1661,7 +1690,10 @@ def main():
                     report["review_queue"].append({"part": p["part_number"], "reason": f"spec code {', '.join(bad)} not in registry (gap or invalid) — human decision"})
             else:
                 p["spec_point_codes"] = []
-                p["tagging"] = "pending-llm"
+                if p["part_number"] in nsp:
+                    p["tagging"] = "no-spec-point"
+                else:
+                    p["tagging"] = "pending-llm"
     # ---- gates ---------------------------------------------------------------
     def gate(name, ok, summary, details=None):
         report["gates"].append({"gate": name, "status": "PASS" if ok else "FAIL",
@@ -1807,9 +1839,11 @@ def main():
                 if c not in registry and c not in ALLOWED_GAPS:
                     g6_bad.append({"part": p["part_number"], "code": c})
     n_pending = sum(1 for p in parts_all if p["tagging"] == "pending-llm")
+    n_nospec = sum(1 for p in parts_all if p["tagging"] == "no-spec-point")
     gate("G6-registry-codes", not g6_bad,
          f"all emitted codes ∈ spec_point_resolution registry ({len(registry)} codes) "
-         f"or documented gaps→review; {n_pending} parts pending-llm tagging",
+         f"or documented gaps→review; {n_pending} parts pending-llm tagging; "
+         f"{n_nospec} parts no-spec-point (terminal, documented per part)",
          {"violations": g6_bad, "allowed_gaps": sorted(ALLOWED_GAPS)})
 
     # G7 solution emission (v0.5): every linked part carries the verbatim MS
@@ -1927,6 +1961,13 @@ def main():
         g6_nc = any(c not in registry for q in nc3["questions"] for p in q["parts"] for c in p["spec_point_codes"])
         nc_results.append({"id": "N3-fake-spec-code", "expected_gate": "G6", "detected": g6_nc})
     report["negative_controls"] = nc_results
+    report["mcq_keys_applied"] = mcq_keys_applied
+    report["spec_tagging"] = {
+        "tagged": sum(1 for p in parts_all if p.get("spec_point_codes")),
+        "parts": len(parts_all),
+        "pending_llm": sum(1 for p in parts_all if p.get("tagging") == "pending-llm"),
+        "no_spec_point": sum(1 for p in parts_all if p.get("tagging") == "no-spec-point"),
+    }
 
     # ---- write outputs -------------------------------------------------------
     OUT.mkdir(parents=True, exist_ok=True)

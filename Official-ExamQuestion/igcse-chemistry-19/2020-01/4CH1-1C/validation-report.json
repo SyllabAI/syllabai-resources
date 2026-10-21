@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T15:09:28Z",
+ "generated_utc": "2026-10-21T15:37:20Z",
  "series": "2020-01",
  "paper": "1C",
  "gates": [
@@ -38,19 +38,10 @@
   },
   {
    "gate": "G3-mcq-integrity",
-   "status": "FAIL",
-   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "status": "PASS",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
-    "issues": [
-     {
-      "part": "7(a)(ii)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "7(a)(iii)",
-      "issue": "no keyed correct choice"
-     }
-    ]
+    "issues": []
    }
   },
   {
@@ -78,7 +69,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 1 parts pending-llm tagging",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 0 parts pending-llm tagging; 1 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -89,12 +80,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 60/60 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 48 parts, agrees with QP marks on 45",
+   "summary": "solution_md on 60/60 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 46 parts, agrees with QP marks on 43",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 48,
-    "ms_marks_agree": 45,
+    "ms_marks_seen": 46,
+    "ms_marks_agree": 43,
     "ms_marks_disagree": [
      "2(a) (ms=12 qp=5)",
      "5(e)(i) (ms=19 qp=2)",
@@ -121,14 +112,16 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "7(a)(ii)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "7(a)(iii)",
-   "reason": "MCQ key unresolved from MS"
-  }
- ]
+ "review_queue": [],
+ "mcq_keys_applied": [
+  "2020-01/7(a)(i)",
+  "2020-01/7(a)(ii)",
+  "2020-01/7(a)(iii)"
+ ],
+ "spec_tagging": {
+  "tagged": 59,
+  "parts": 60,
+  "pending_llm": 0,
+  "no_spec_point": 1
+ }
 }

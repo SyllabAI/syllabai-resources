@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-21T15:09:29Z",
- "generator": "official_examq_extract.py v0.8.0 (ADR-037) series=2020-01 paper=1C",
+ "generated_utc": "2026-10-21T15:37:21Z",
+ "generator": "official_examq_extract.py v0.8.1 (ADR-037) series=2020-01 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C",
  "source": {
   "qp_sha256": "37247459b838d799b1059dd3b1aba296043104a56323c656e71eb1fca589396f",
@@ -1070,8 +1070,9 @@
        "is_correct": false
       }
      ],
+     "answer_key_source": "mcq-keys-ledger",
      "answer_status": "linked",
-     "solution_md": "B bromine\nA is incorrect as astatine is a solid\nC is incorrect as chlorine is a gas",
+     "solution_md": "B bromine\nA is incorrect as astatine is a solid\nC is incorrect as chlorine is a gas\nD is incorrect as iodine is a solid",
      "mark_points": [
       {
        "id": "2020-01-7-a-i-MP1",
@@ -1094,28 +1095,33 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "astatine"
+       "text_md": "astatine",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "bromine"
+       "text_md": "bromine",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "chlorine"
+       "text_md": "chlorine",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "iodine"
+       "text_md": "iodine",
+       "is_correct": false
       }
      ],
+     "answer_key_source": "mcq-keys-ledger",
      "answer_status": "linked",
-     "solution_md": "D is incorrect as iodine is a solid",
+     "solution_md": "C chlorine (as it is pale green)\nA is incorrect as astatine is black\nB is incorrect as bromine is brown\nD is incorrect as iodine is dark grey",
      "mark_points": [
       {
        "id": "2020-01-7-a-ii-MP1",
        "marks": 1,
-       "text_md": "D is incorrect as iodine is a solid"
+       "text_md": "Answer C: chlorine"
       }
      ],
      "source_page": 16,
@@ -1133,28 +1139,33 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "astatine"
+       "text_md": "astatine",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "bromine"
+       "text_md": "bromine",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "chlorine"
+       "text_md": "chlorine",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "iodine"
+       "text_md": "iodine",
+       "is_correct": false
       }
      ],
+     "answer_key_source": "mcq-keys-ledger",
      "answer_status": "linked",
-     "solution_md": "1\nC chlorine (as it is pale green)\nA is incorrect as astatine is black\nB is incorrect as bromine is brown\nC is incorrect as iodine is dark grey\nA astatine\nB is incorrect as bromine is more reactive than astatine\nC is incorrect as chlorine is more reactive than astatine\nD is incorrect as iodine is more reactive than astatine",
+     "solution_md": "A astatine\nB is incorrect as bromine is more reactive than astatine\nC is incorrect as chlorine is more reactive than astatine\nD is incorrect as iodine is more reactive than astatine",
      "mark_points": [
       {
        "id": "2020-01-7-a-iii-MP1",
        "marks": 1,
-       "text_md": "1\nC chlorine (as it is pale green)\nA is incorrect as astatine is black\nB is incorrect as bromine is brown\nC is incorrect as iodine is dark grey\nA astatine\nB is incorrect as bromine is more reactive than astatine\nC is incorrect as chlorine is more reactive than astatine\nD is incorrect as iodine is more reactive than astatine"
+       "text_md": "Answer A: astatine"
       }
      ],
      "source_page": 16,
@@ -1833,7 +1844,7 @@
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
-     "tagging": "pending-llm"
+     "tagging": "no-spec-point"
     },
     {
      "part_number": "10(d)",

@@ -4,6 +4,36 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.8.1 — 2026-10-21 · MCQ-key adjudication ledger + terminal no-spec-point state
+
+Both long-standing 1C human-decision items closed with evidence (LEDGER F37/F38):
+
+- **MCQ-KEYS.json (F37)** — the printed Jan 2020 MS itself misplaces the Q7(a)
+  answer rows, so the converter's honest refusal (F6) was correct and no parser
+  change can recover the keys. The new human-adjudication ledger carries the
+  eyeballed keys + corrected verbatim MS rows: 7(a)(ii)=C chlorine (palest
+  colour), 7(a)(iii)=A astatine (least reactive), and 7(a)(i)'s block completed
+  with the rebuttal the MS prints one row too low. The converter applies the
+  override before solution emission, so `solution_md` / `mark_points[]` /
+  `choices[].is_correct` all derive from the adjudicated block; the printed
+  typo ("C is incorrect as iodine is dark grey") is corrected to D with the
+  verbatim text preserved in the ledger. 2020-01 G3 returns to PASS — 1C MCQ
+  keys are now 58/58 corpus-wide (2C was already 27/27). Canaries: the C1/C2
+  refusal pins retire, replaced by C28-adjudicated-key-ii,
+  C29-adjudicated-gate (G3 PASS), C30-adjudicated-key-iii, C31 (ledger↔corpus
+  bidirectional).
+- **no-spec-point terminal state (F38)** — the 3 pending-llm 1C parts (2019-06
+  5(a) airship/hydrogen-density, 2020-01 10(c)(ii) NO-recycle, 2022-01 3(b)(iv)
+  safety precaution) were decided against the published 4CH1 spec PDF: no
+  numbered point covers them, so they are tagged `no-spec-point` with per-part
+  evidence in the series spec-labels files. 1C coverage: 927/930 tagged (1,180
+  codes, 0 invalid) + 3 terminal no-spec-point; 0 pending-llm on the labelled
+  tranche (2C's 607 parts keep their honest pending-llm until their first
+  wave). Canary C32 pins the state bidirectionally (1C-scoped).
+- Validation reports now carry `mcq_keys_applied` + `spec_tagging` receipts.
+- Parity vs v0.8.0: exactly 6 1C parts touched (3 MCQ parts in 2020-01, 3
+  tagging states), every 2C slice byte-identical; negative controls 3/3.
+
 ## 0.8.0 — 2026-10-21 · 2C enablement wave (paper parametrization + MS marker discipline + sentence positives)
 
 The operator's GO ruling (ADR-037, trace `1a15ebd93809a525`) scheduled the

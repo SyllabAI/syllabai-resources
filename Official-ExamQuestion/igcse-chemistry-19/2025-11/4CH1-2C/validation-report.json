@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T15:09:58Z",
+ "generated_utc": "2026-10-21T15:37:53Z",
  "series": "2025-11",
  "paper": "2C",
  "gates": [
@@ -69,7 +69,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 31 parts pending-llm tagging",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 31 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -117,5 +117,12 @@
    "part": "6(b)",
    "reason": "figure crop required (table, page 19)"
   }
- ]
+ ],
+ "mcq_keys_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 31,
+  "pending_llm": 31,
+  "no_spec_point": 0
+ }
 }
