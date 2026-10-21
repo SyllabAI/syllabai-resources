@@ -7,7 +7,9 @@ Reads  : <repo>/Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-<paper>/t
 Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + 32 official sets)
 Papers : EXAMQ_EXPORT_PAPERS env ("1C", "2C", or "1C,2C" default)
 
-Export gates (fail-closed, v2 of this script — the G-E law archived on PR #27):
+Export gates (fail-closed, v3 of this script — the G-E law archived on PR #27,
+landed in wave 12; F44 adds the per-paper topicSlug namespace + G-E1b identity
+closure):
   G-E1  every regenerated set is compared against the bundle of record.
         Default: ANY delta fails the export (the reproducibility law — running
         the exporter of record against its own bundle must be a no-op).
@@ -157,7 +159,11 @@ def export_series(series, paper, topic=None):
         "slug": OFFICIAL_SLUG_PREFIX + paper.lower() + "-" + series,
         "name": f"{series_label(series)} — Paper {paper} (official past paper)",
         "setName": "Official Past Paper",
-        "topicSlug": "official-past-papers",
+        # F44: topicSlug := the set's own canonical slug (the per-paper ref
+        # namespace of record — v2 0776f8dea7, operator-ordered "path 1 — fix":
+        # one shared topicSlug with per-set restarting orders collided 12 base
+        # refs and the frozen package-global seenRefs gate refused the bundle).
+        "topicSlug": OFFICIAL_SLUG_PREFIX + paper.lower() + "-" + series,
         "section": f"Official past papers (4CH1/{paper})",
         "sectionSlug": "official-past-papers",
         "curriculum": {
@@ -236,6 +242,24 @@ def census(s):
     return nq, nps, mk
 
 
+def is_official(t):
+    """F44: official sets are identified by their slug prefix, never by
+    topicSlug (which is the set's own slug since the per-paper namespace
+    law) — the old topicSlug=='official-past-papers' filter silently
+    selected zero sets after that law landed."""
+    return t.get("slug", "").startswith(OFFICIAL_SLUG_PREFIX)
+
+
+# G-E1b: set-level identity fields — a law, not a wave artifact (F44). The
+# part census cannot see these; the topicSlug namespace drift rode exactly
+# this blind spot. Any drift fails with no disclosure path: a real namespace
+# change must land in the exporter of record and the bundle in the same
+# reviewed PR.
+IDENTITY_FIELDS = ("topicId", "slug", "name", "setName", "topicSlug",
+                   "section", "sectionSlug", "curriculum", "source",
+                   "schema", "relatedNoteIds")
+
+
 def part_map(s):
     return {p["id"]: p for q in s["questions"] for p in q["parts"]}
 
@@ -252,10 +276,10 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
             if c != exp:
                 raise ExportGateError(f"G-E3 {series}/{paper}: census {c} != expected {exp}")
     print(f"G-E3 ok: 32 slices match the v0.10.0 MULTI-SERIES constants "
-          f"({sum(census(t)[2] for t in out_sets if t.get('topicSlug')=='official-past-papers')} marks)")
+          f"({sum(census(t)[2] for t in out_sets if is_official(t))} marks)")
     # ---- G-E2: sum laws ----
     for t in out_sets:
-        if t.get("topicSlug") != "official-past-papers":
+        if not is_official(t):
             continue
         for q in t["questions"]:
             if sum(p["marks"] for p in q["parts"]) != q["totalMarks"]:
@@ -269,6 +293,7 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
     print("G-E2 ok: part-sum, markPoints sum-law and spec-code shapes hold on all official sets")
     # ---- G-E1: regenerate vs bundle of record ----
     census_rows = {"new": {}, "gone": {}, "changed": {}}
+    ident_drift = []
     for paper in ("1C", "2C"):
         for series in ALL_SERIES:
             slug = f"official-4ch1-{paper.lower()}-{series}"
@@ -276,6 +301,9 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
             of_record = by_slug.get(slug)
             if of_record is None:
                 raise ExportGateError(f"G-E1: bundle of record lacks {slug}")
+            for f in IDENTITY_FIELDS:
+                if json.dumps(rebuilt.get(f), sort_keys=True) != json.dumps(of_record.get(f), sort_keys=True):
+                    ident_drift.append(f"{slug}: {f}")
             rp, op = part_map(rebuilt), part_map(of_record)
             new_ids = sorted(set(rp) - set(op))
             gone_ids = sorted(set(op) - set(rp))
@@ -307,6 +335,14 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
                                   "DELTA listing above shows the fresh census; regenerate "
                                   "the disclosure file only after eyeballing every class)")
         print(f"G-E1 ok: {n_delta} deltas match the disclosed wave census exactly")
+    if ident_drift:
+        for d in ident_drift:
+            print(f"  IDENTITY DRIFT {d}")
+        raise ExportGateError("G-E1b: set-level identity drift vs the bundle of record "
+                              "(identity fields are a law, not a wave artifact — a real "
+                              "namespace change must land in the exporter of record and the "
+                              "bundle in the same reviewed PR)")
+    print("G-E1b ok: set-level identity fields byte-equal on all 32 official sets")
     # ---- G-E4: the SME prefix is never touched ----
     first_off = raw_bundle_bytes.find(b'"topicId": "off_')
     if first_off == -1:
@@ -364,7 +400,7 @@ def main():
           f"| markPoints: {n_mp} | figure crops: {n_fig} | honest stubs: {n_stub}")
     if args.manifest and os.path.exists(args.manifest):
         manifest = json.load(open(args.manifest))
-        official_n = sum(1 for t in out if t.get("topicSlug") == "official-past-papers")
+        official_n = sum(1 for t in out if is_official(t))
         manifest["importSource"]["note"] = (
             "ADR-037 converter v0.10.0 corpus (merged main): 2019-06 rasterized pages recovered "
             "through the F41 OCR source layer (G1 110/110 PASS, 15 new/renumbered parts) + F42 "
