@@ -52,6 +52,18 @@
    "parts": 37,
    "entries": 37,
    "note": "tranche-1 of the anchor-gap completion program: the 155-part T2_near review queue promoted to the V* authoritative class; no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors and the notes/flashcards axis untouched"
+  },
+  "tranche2": {
+   "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
+   "directive": "operator order 'Tranche-2' (gateway trace 1a15f8160e677949, 2026-10-22, zai-web) — fires tranche2_verdictProgram of the anchor-gap census receipt of record (cie-anchor-gap-census-r0.json)",
+   "applied_utc": "2026-10-22T05:30:00Z",
+   "base_commit": "cef8d5e25b14094434b591963516ff414ae5b366",
+   "method": "operator_verdict",
+   "tier": "V6_near_text_verdict",
+   "tier_semantics": "authoritative (operator ratifies the GATE-1-audited accepted-near text join for this item; prior method recorded verbatim in the verdict sheet)",
+   "items": 97,
+   "entries": 114,
+   "note": "tranche-2 round-1 of the anchor-gap completion program: the residual T2_near census promoted to the V* authoritative class (the census receipt's tranche-2 scope, fleet-wide); no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors untouched"
   }
  },
  "registry": {
@@ -101,6 +113,13 @@
    "promoted_entries": 37,
    "promoted_parts": 37,
    "scope": "question_part items whose codes[] were T2_near-only (the anchor-gap census receipt's tranche-1 queue); pending anchors untouched"
+  },
+  "tranche2": {
+   "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
+   "applied_utc": "2026-10-22T05:30:00Z",
+   "promoted_entries": 114,
+   "promoted_items": 97,
+   "scope": "the residual T2_near census fleet-wide (this lane's share); pending anchors untouched; the T2_near class retires fleet-wide with this round"
   }
  },
  "items": {
@@ -397,8 +416,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:11.1.1",
      "official_code": "11.1.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -523,8 +542,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3",
      "official_code": "12.1.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -676,8 +695,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.5",
      "official_code": "12.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.6",
@@ -699,8 +718,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.4",
      "official_code": "12.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -771,8 +790,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.2",
      "official_code": "12.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -858,8 +877,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
      "official_code": "13.1.9",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -1484,8 +1503,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1",
      "official_code": "16.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -1514,8 +1533,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -1526,8 +1545,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -1547,8 +1566,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -1562,8 +1581,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
@@ -2320,8 +2339,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -2506,8 +2525,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -2554,8 +2573,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
      "official_code": "2.2.7",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.9",
@@ -2882,8 +2901,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:3.2.2",
      "official_code": "3.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3706,8 +3725,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -3733,8 +3752,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
      "official_code": "8.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3835,8 +3854,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.6",
      "official_code": "9.1.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3895,8 +3914,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -7188,8 +7207,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3",
      "official_code": "12.1.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -7224,8 +7243,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.1.3",
      "official_code": "12.1.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -7710,8 +7729,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.5",
      "official_code": "12.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.6",
@@ -7733,8 +7752,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.2",
      "official_code": "12.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:12.2.7",
@@ -8426,8 +8445,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
      "official_code": "13.1.9",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -8451,8 +8470,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.8",
      "official_code": "13.1.8",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
@@ -8472,8 +8491,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.8",
      "official_code": "13.1.8",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
@@ -8565,8 +8584,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -8673,8 +8692,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.8",
      "official_code": "13.1.8",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
@@ -8730,8 +8749,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
      "official_code": "13.1.9",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -8836,8 +8855,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -9189,8 +9208,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.8",
      "official_code": "13.1.8",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
@@ -9879,8 +9898,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.8",
      "official_code": "13.1.8",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:13.1.9",
@@ -13362,8 +13381,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13374,8 +13393,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.5",
@@ -13395,8 +13414,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13407,8 +13426,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13437,8 +13456,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13449,8 +13468,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13464,8 +13483,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13476,8 +13495,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13527,8 +13546,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13569,8 +13588,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1",
      "official_code": "16.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13590,8 +13609,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13626,8 +13645,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13647,8 +13666,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13683,8 +13702,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13695,8 +13714,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13731,8 +13750,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13743,8 +13762,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13758,8 +13777,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13770,8 +13789,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13785,8 +13804,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13797,8 +13816,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13893,8 +13912,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13905,8 +13924,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13920,8 +13939,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13932,8 +13951,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13947,8 +13966,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13959,8 +13978,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -13974,8 +13993,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -13986,8 +14005,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14022,8 +14041,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1",
      "official_code": "16.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
@@ -14034,8 +14053,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14055,8 +14074,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14091,8 +14110,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14136,8 +14155,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -14148,8 +14167,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14169,8 +14188,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1",
      "official_code": "16.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14214,8 +14233,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.1",
      "official_code": "16.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
@@ -14226,8 +14245,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14247,8 +14266,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -14262,8 +14281,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.2",
      "official_code": "16.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.3",
@@ -14274,8 +14293,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -19496,8 +19515,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:16.2.4",
      "official_code": "16.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -19598,8 +19617,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.1.5",
@@ -19733,8 +19752,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:6.1.3",
@@ -19826,8 +19845,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.4",
@@ -19883,8 +19902,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.4",
@@ -19940,8 +19959,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -19955,8 +19974,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.2",
      "official_code": "19.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:19.2.4",
@@ -21071,8 +21090,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -21128,8 +21147,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -21215,8 +21234,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -21389,8 +21408,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -21425,8 +21444,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -21476,8 +21495,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -21497,8 +21516,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.10",
      "official_code": "2.2.10",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:2.2.7",
@@ -27776,8 +27795,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
      "official_code": "8.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -27797,8 +27816,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
      "official_code": "8.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -27812,8 +27831,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -27833,8 +27852,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -27869,8 +27888,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -27935,8 +27954,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -28031,8 +28050,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -28109,8 +28128,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
      "official_code": "8.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -28124,8 +28143,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -28160,8 +28179,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.2",
      "official_code": "8.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
@@ -28217,8 +28236,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
      "official_code": "8.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -28268,8 +28287,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:8.2.6",
      "official_code": "8.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -28748,8 +28767,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -28835,8 +28854,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -28892,8 +28911,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -28919,8 +28938,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -28973,8 +28992,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -29006,8 +29025,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.6",
      "official_code": "9.1.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -29111,8 +29130,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.6",
      "official_code": "9.1.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -29138,8 +29157,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.6",
      "official_code": "9.1.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -29189,8 +29208,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -29228,8 +29247,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.6",
      "official_code": "9.1.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -29243,8 +29262,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -29270,8 +29289,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -29312,8 +29331,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -29354,8 +29373,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.2",
      "official_code": "9.1.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.5",
@@ -29387,8 +29406,8 @@
     {
      "official_id": "CIE_A_LEVEL_BIOLOGY_2025_2027:9.1.6",
      "official_code": "9.1.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []

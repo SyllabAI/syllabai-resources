@@ -1,0 +1,41 @@
+{
+ "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
+ "battery": {
+  "T1": {
+   "verdict": "PASS",
+   "note": "sheet rows 423 == fill summary per lane"
+  },
+  "T2": {
+   "verdict": "PASS",
+   "note": "zero T2_near fleet-wide; every sheet key is V6+operator_verdict"
+  },
+  "T3": {
+   "verdict": "PASS",
+   "note": "all 423 (official_id, code) pairs in lane registries"
+  },
+  "T5": {
+   "verdict": "PASS",
+   "note": "15 lanes: only tier/method on the promoted set + additive tranche2 blocks moved"
+  },
+  "T6": {
+   "verdict": "PASS",
+   "note": "29 non-queue CIE sidecars byte-identical to base"
+  },
+  "T7": {
+   "verdict": "PASS",
+   "note": "manifest additive-only (15 row blocks + cie_tranche2)"
+  },
+  "T8": {
+   "verdict": "PASS",
+   "note": "all 313 part rows byte-match the committed maps' t2HintCodes (the promoted entries ARE the maps' hint sources)"
+  },
+  "T9": {
+   "verdict": "PASS",
+   "note": "payload within the declared set; 34303 deleted paths outside it are the disclosed sandbox disk-rescue noise (never committed)"
+  },
+  "T10": {
+   "verdict": "PASS",
+   "note": "engine re-run fails closed + zero byte drift"
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
+ "generated_utc": "2026-10-22T05:30:00Z",
+ "directive": "operator order 'Tranche-2' (gateway trace 1a15f8160e677949, 2026-10-22, zai-web) — fires tranche2_verdictProgram of the anchor-gap census receipt of record (cie-anchor-gap-census-r0.json)",
+ "base_commit": "cef8d5e25b14094434b591963516ff414ae5b366",
+ "method": "operator_verdict",
+ "tier": "V6_near_text_verdict",
+ "tier_semantics": "authoritative (operator ratifies the GATE-1-audited accepted-near text join for this item; prior method recorded verbatim in the verdict sheet)",
+ "prior_methods": [
+  "cie_definition_text_join",
+  "cie_text_join"
+ ],
+ "receipt_of_record": ".syllabai/receipts/CIE-INTEGRATION/cie-anchor-gap-census-r0.json",
+ "sheet": "scripts/cie_tranche2_t2_enrichment_verdicts.yaml",
+ "fleet_census": {
+  "residual_t2_total": 423,
+  "class_split": {
+   "anchored.note": 45,
+   "anchored.question_part": 151,
+   "t2only.note": 65,
+   "t2only.question_part": 162
+  },
+  "census_receipt_disclosure_reconciliation": "total 423 == the post-tranche-1 t2Hints census of record EXACT (584 - 161 promoted by tranche-1); notes 110 == the census receipt's '~110 T2 hint entries' EXACT; anchored-class part entries 151 on 284-disclosed-parts' entry-count basis (the census receipt's '~284 parts' was approximate and parts-vs-entries conflated — this sheet's figures are the computed census)",
+  "census_queue_hole_disclosure": "162 t2only question_part entries in 8 lanes (env-mgmt-20 8 / biology-23 2 / business-23 5 / chemistry-23 4 / cs-23 48 / economics-20 10 / geography-20 62 / physics-23 23) were NOT in the census receipt's tranche-1 queue (155 parts / 161 entries / 9 lanes) although they carry the same GATE-1-accepted near evidence and sit in the v2 maps as t2HintCodes on codes-empty items (map hint arithmetic 313 == 151 + 162 EXACT per lane). The census receipt's queue figures stay historical-of-record (append-only); the fleet T2 census of record is THIS sheet"
+ },
+ "expected_landing": {
+  "gap_movement": "cls=t2only question_part promotions (162 entries) anchor their parts — the expQ re-pin after the consume re-run is the of-record number (computed, never transcribed); anchored-class and note promotions do not move the question census (the notes axis gains its accepted-near codes)",
+  "t2_class_retirement": "zero T2_near entries remain fleet-wide (battery-pinned)"
+ },
+ "lanes": {
+  "cie-a-level-biology-25": {
+   "promoted_items": 97,
+   "promoted_entries": 114
+  },
+  "cie-a-level-chemistry-25": {
+   "promoted_items": 2,
+   "promoted_entries": 2
+  },
+  "cie-a-level-physics-25": {
+   "promoted_items": 1,
+   "promoted_entries": 1
+  },
+  "cie-as-environmental-management-20": {
+   "promoted_items": 20,
+   "promoted_entries": 21
+  },
+  "cie-igcse-biology-23": {
+   "promoted_items": 3,
+   "promoted_entries": 3
+  },
+  "cie-igcse-business-23": {
+   "promoted_items": 20,
+   "promoted_entries": 20
+  },
+  "cie-igcse-chemistry-23": {
+   "promoted_items": 6,
+   "promoted_entries": 6
+  },
+  "cie-igcse-computer-science-23": {
+   "promoted_items": 74,
+   "promoted_entries": 75
+  },
+  "cie-igcse-economics-20": {
+   "promoted_items": 15,
+   "promoted_entries": 15
+  },
+  "cie-igcse-geography-20": {
+   "promoted_items": 75,
+   "promoted_entries": 78
+  },
+  "cie-igcse-physics-23": {
+   "promoted_items": 34,
+   "promoted_entries": 39
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry": {
+   "promoted_items": 29,
+   "promoted_entries": 36
+  },
+  "cie-igcse-science-combined-science-23-biology": {
+   "promoted_items": 8,
+   "promoted_entries": 8
+  },
+  "cie-igcse-science-combined-science-23-chemistry": {
+   "promoted_items": 3,
+   "promoted_entries": 3
+  },
+  "cie-igcse-science-combined-science-23-physics": {
+   "promoted_items": 1,
+   "promoted_entries": 2
+  }
+ }
+}

@@ -52,6 +52,18 @@
    "parts": 7,
    "entries": 13,
    "note": "tranche-1 of the anchor-gap completion program: the 155-part T2_near review queue promoted to the V* authoritative class; no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors and the notes/flashcards axis untouched"
+  },
+  "tranche2": {
+   "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
+   "directive": "operator order 'Tranche-2' (gateway trace 1a15f8160e677949, 2026-10-22, zai-web) — fires tranche2_verdictProgram of the anchor-gap census receipt of record (cie-anchor-gap-census-r0.json)",
+   "applied_utc": "2026-10-22T05:30:00Z",
+   "base_commit": "cef8d5e25b14094434b591963516ff414ae5b366",
+   "method": "operator_verdict",
+   "tier": "V6_near_text_verdict",
+   "tier_semantics": "authoritative (operator ratifies the GATE-1-audited accepted-near text join for this item; prior method recorded verbatim in the verdict sheet)",
+   "items": 34,
+   "entries": 39,
+   "note": "tranche-2 round-1 of the anchor-gap completion program: the residual T2_near census promoted to the V* authoritative class (the census receipt's tranche-2 scope, fleet-wide); no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors untouched"
   }
  },
  "registry": {
@@ -101,6 +113,13 @@
    "promoted_entries": 13,
    "promoted_parts": 7,
    "scope": "question_part items whose codes[] were T2_near-only (the anchor-gap census receipt's tranche-1 queue); pending anchors untouched"
+  },
+  "tranche2": {
+   "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
+   "applied_utc": "2026-10-22T05:30:00Z",
+   "promoted_entries": 39,
+   "promoted_items": 34,
+   "scope": "the residual T2_near census fleet-wide (this lane's share); pending anchors untouched; the T2_near class retires fleet-wide with this round"
   }
  },
  "items": {
@@ -220,8 +239,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.4",
      "official_code": "1.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.7",
@@ -241,8 +260,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.5",
      "official_code": "1.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.11",
@@ -1223,8 +1242,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup2",
      "official_code": "3.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
@@ -1422,8 +1441,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3-dup3",
      "official_code": "3.2.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.5-dup2",
@@ -1680,8 +1699,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1",
      "official_code": "4.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -1718,20 +1737,20 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.2-dup5",
      "official_code": "4.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup5",
      "official_code": "4.2.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.6-dup2",
      "official_code": "4.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -1751,8 +1770,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.4-dup4",
      "official_code": "4.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -1833,8 +1852,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.5-dup2",
      "official_code": "4.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup2",
@@ -2590,8 +2609,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2-dup2",
      "official_code": "6.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -2993,8 +3012,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.1",
      "official_code": "1.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.1.2",
@@ -3014,8 +3033,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.4",
      "official_code": "1.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3089,8 +3108,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.1",
      "official_code": "1.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3114,8 +3133,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.4",
      "official_code": "1.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3139,8 +3158,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.4",
      "official_code": "1.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3270,8 +3289,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.1",
      "official_code": "1.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3285,8 +3304,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.1",
      "official_code": "1.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3315,8 +3334,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.1",
      "official_code": "1.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3330,8 +3349,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.1",
      "official_code": "1.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -3375,8 +3394,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:1.2.4",
      "official_code": "1.2.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -7765,8 +7784,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup2",
      "official_code": "3.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3",
@@ -7836,8 +7855,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3-dup3",
      "official_code": "3.2.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -7876,8 +7895,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:3.2.3-dup3",
      "official_code": "3.2.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -9263,8 +9282,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.5-dup2",
      "official_code": "4.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -9352,8 +9371,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.5-dup2",
      "official_code": "4.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -9500,8 +9519,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1",
      "official_code": "4.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -9515,8 +9534,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1",
      "official_code": "4.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -9597,8 +9616,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.5-dup2",
      "official_code": "4.2.5",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -9630,14 +9649,14 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup5",
      "official_code": "4.2.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.6-dup2",
      "official_code": "4.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -9661,8 +9680,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1",
      "official_code": "4.2.1",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3",
@@ -9757,20 +9776,20 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.2-dup5",
      "official_code": "4.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup5",
      "official_code": "4.2.3",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     },
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.2.6-dup2",
      "official_code": "4.2.6",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -10230,8 +10249,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:4.3.4",
      "official_code": "4.3.4",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -11515,8 +11534,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2-dup2",
      "official_code": "6.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": [
@@ -12036,8 +12055,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2-dup2",
      "official_code": "6.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
@@ -12081,8 +12100,8 @@
     {
      "official_id": "CIE_IGCSE_PHYSICS_2023_2025:6.2.2-dup2",
      "official_code": "6.2.2",
-     "tier": "T2_near",
-     "method": "cie_definition_text_join"
+     "tier": "V6_near_text_verdict",
+     "method": "operator_verdict"
     }
    ],
    "pending": []
