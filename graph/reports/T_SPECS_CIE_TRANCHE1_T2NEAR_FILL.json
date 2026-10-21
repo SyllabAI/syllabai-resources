@@ -1,0 +1,57 @@
+{
+ "lane": "T-SPECS-CIE-TRANCHE1-T2NEAR-1",
+ "generated_utc": "2026-10-21T12:40:00Z",
+ "directive": "operator order 'tranche-1' (gateway trace 1a15e4200e6af579, 2026-10-21, zai-web) — fires tranche1_t2NearVerdicts of the anchor-gap census receipt of record (cie-anchor-gap-census-r0.json)",
+ "base_commit": "67a173b952a4ebb7e3856dcaf4b98b863738f8ea",
+ "method": "operator_verdict",
+ "tier": "V6_near_text_verdict",
+ "tier_semantics": "authoritative (operator ratifies the GATE-1-audited accepted-near text join for this item; prior method recorded verbatim in the verdict sheet)",
+ "prior_methods": [
+  "cie_definition_text_join",
+  "cie_text_join"
+ ],
+ "receipt_of_record": ".syllabai/receipts/CIE-INTEGRATION/cie-anchor-gap-census-r0.json",
+ "sheet": "scripts/cie_tranche1_t2near_verdicts.yaml",
+ "expected_landing": {
+  "question_level_closure_prediction": 116,
+  "note": "distinct fully-unmapped parent questions of the 155 parts, computed lane-side from the committed bundles; the census re-pin after the consume re-run is the of-record number"
+ },
+ "lanes": {
+  "cie-a-level-biology-25": {
+   "promoted_parts": 37,
+   "promoted_entries": 37
+  },
+  "cie-a-level-chemistry-25": {
+   "promoted_parts": 25,
+   "promoted_entries": 25
+  },
+  "cie-a-level-physics-25": {
+   "promoted_parts": 15,
+   "promoted_entries": 15
+  },
+  "cie-igcse-business-23": {
+   "promoted_parts": 41,
+   "promoted_entries": 41
+  },
+  "cie-igcse-computer-science-23": {
+   "promoted_parts": 6,
+   "promoted_entries": 6
+  },
+  "cie-igcse-physics-23": {
+   "promoted_parts": 7,
+   "promoted_entries": 13
+  },
+  "cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry": {
+   "promoted_parts": 15,
+   "promoted_entries": 15
+  },
+  "cie-igcse-science-combined-science-23-biology": {
+   "promoted_parts": 6,
+   "promoted_entries": 6
+  },
+  "cie-igcse-science-combined-science-23-chemistry": {
+   "promoted_parts": 3,
+   "promoted_entries": 3
+  }
+ }
+}

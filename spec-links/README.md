@@ -110,3 +110,23 @@ Built by `scripts/cie_verdict_fill.py` (deterministic, fixed stamp,
 byte-idempotent on re-run), validated by `scripts/cie_verdict_check.py`
 (battery V1-V10, `graph/reports/T_SPECS_CIE_VERDICT_1_CHECK.json`), including
 an independent re-derivation of every resolve from source blobs.
+
+## CIE tranche-1 T2_near verdicts (T-SPECS-CIE-TRANCHE1-T2NEAR-1, 2026-10-21)
+
+The anchor-gap census receipt's tranche-1 queue — the 155 unanchored
+question_part items whose sole join state is the GATE-1-accepted near hint —
+promoted to the V* authoritative class on the operator order "tranche-1":
+
+- **161 sidecar code entries re-tiered in place**:
+  `T2_near` -> `V6_near_text_verdict`, `cie_*_text_join` -> `operator_verdict`.
+  The V6 class (additive to the VERDICT-1 ladder) means the operator ratifies a
+  GATE-1-audited accepted-near text join as authoritative for that item (the T2
+  tier was audited 584/584 lower-bound, zero defects); the prior method is
+  recorded verbatim per row in `scripts/cie_tranche1_t2near_verdicts.yaml`.
+- **Nothing else moves**: no code invented (every promoted pair byte-verified
+  against the sidecar's own T2 entry AND the lane registry), no join
+  re-derived, no pending anchor touched, all non-queue sidecars byte-identical.
+- Applied by `scripts/cie_tranche1_t2near_fill.py` (deterministic, fixed stamp;
+  one-way — a re-run after apply fail-closes with zero byte drift), validated
+  by `scripts/cie_tranche1_t2near_check.py` (battery T1-T10, base-blob
+  re-derivation; `graph/reports/T_SPECS_CIE_TRANCHE1_T2NEAR_CHECK.json`).

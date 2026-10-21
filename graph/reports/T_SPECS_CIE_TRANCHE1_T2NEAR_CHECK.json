@@ -1,0 +1,69 @@
+{
+ "lane": "T-SPECS-CIE-TRANCHE1-T2NEAR-1",
+ "base_commit": "67a173b952a4ebb7e3856dcaf4b98b863738f8ea",
+ "generated_utc": "2026-10-21T12:40:00Z",
+ "battery": [
+  {
+   "id": "T1",
+   "name": "9 lanes well-formed (ACCEPTED + additive blocks) + receipt-queue cross-foot (155 parts / 161 entries)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T2",
+   "name": "bijection: promoted set (base T2 entries on sheet items) == sheet, per lane; zero other entry drift",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T3",
+   "name": "zero dangling verdict targets (official_id AND official_code in the lane registry)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T4",
+   "name": "vocabulary conformance (V6+operator_verdict pairing; zero T2_near left on the 155 sheet items; out-of-scope hints on other items untouched)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T5",
+   "name": "structural integrity vs base (items/kinds/labels/pending/totals/registry/pre-existing blocks byte-identical)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T6",
+   "name": "non-verdict footprint byte-identical to base (35 CIE + 49 Edexcel sidecars)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T7",
+   "name": "manifest: pre-existing rows/fields value-identical + additive tranche1 blocks",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T8",
+   "name": "v2-map cross-foot: every row's (item, official_id, spine_code) matches the committed t2HintCodes (161 rows)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T9",
+   "name": "footprint guard: git status within the declared set (15 paths, 0 outside)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "id": "T10",
+   "name": "re-run safety: engine re-run fail-closes (T2 entries consumed) AND zero byte drift",
+   "ok": true,
+   "detail": "rc=1 drift=[]"
+  }
+ ],
+ "passed": 10,
+ "total": 10
+}
