@@ -58,6 +58,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 | f-0008 | process | u1-c03 | warn | **closed (premise invalid)** | hub serving URL of record misidentified — Render core retired by operator decision, serving migrated to syllabai-v2; 503 = retirement steady state, never a publish target (PR #63) |
 | f-0009 | process | — | warn | closed | stale retired-origin citations in v2 docs (hub README + t097 workflow) stripped of record in v2 PR #314 with the production origin named: syllabai-hub-v2.vercel.app |
 | f-0010 | lint-false-positive | u1-c05 s04/s06/s08/s31/s36 | warn | closed | V4 `\(l\)` regex fired on the legitimate liquid state symbol — chem.yaml r0.1 refines to `\([Ii]l+\)` (the copper(Il)/(Ill) OCR-misread class), in PR #65 |
+| f-0011 | platform-regression | u1-c05 (course-wide serving) | **error** | **open (ops lane needed)** | T-C20 reader leg down at production for ALL chapters — hub /api/v1/* rewrite plane 404s + API content-books routes 500; corpus plane healthy (5 packs live, c05 published 36 sections); content lane files evidence, v2 ops lane fixes (trace 1a1658a2da08e5bd) |
 
 ## Decisions log (operator-level, newest first)
 
