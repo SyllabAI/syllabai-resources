@@ -105,7 +105,7 @@ tot_q = sum(s["questions"] for s in out["series"])
 tot_parts = sum(s["parts"] for s in out["series"])
 tot_marks = sum(s["marks_total"] for s in out["series"])
 full_pass = [s for s in out["series"] if all(v == "PASS" for v in s["gates"].values())]
-md = ["# ADR-037 corpus run — 4CH1 1C+2C complete (all series in syllabai-pastpapers; F34)", "",
+md = ["# ADR-037 corpus run — 4CH1 complete: 1C + 2C + both F-178 R-variant tranches (1CR, 2CR) — 54 slices, all series in syllabai-pastpapers; F34 + F-178", "",
       f"> generated {out['generated_utc']} · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice",
       f"> {len(SLICES)} slices ({sorted({s['paper'] for s in out['series']})}) · {tot_q} questions · {tot_parts} parts · {tot_marks} marks extracted"
       f" · {len(full_pass)} slices fully PASS", "",
