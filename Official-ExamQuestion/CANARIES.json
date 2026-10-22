@@ -694,6 +694,91 @@
      "contains": "calculate the enthalpy change, ΔH,"
     }
    ]
+  },
+  {
+   "id": "C66-ms-column-deinterleave",
+   "series": "2021-01",
+   "assertion": "F53 column de-interleave + F54 total-row drop: 3(d) serves the answer stream ('Pb(NO3)2(aq) + 2KI(aq) -> PbI2(s) +' then '2KNO3(aq)') with the guidance re-joined as its own note ('ALLOW multiples and fractions') and no leaked question-total row; 1(b) M-rows clean with ALLOW/IGNORE notes separated",
+   "check": "part_solution_md_contains",
+   "part": "3(d)",
+   "contains_all": [
+    "Pb(NO3)2(aq) + 2KI(aq) → PbI2(s) +\n2KNO3(aq)",
+    "ALLOW multiples and fractions"
+   ],
+   "contains_none": [
+    "7 marks"
+   ]
+  },
+  {
+   "id": "C67-dot-restoration",
+   "series": "2021-01",
+   "assertion": "F55 inline dot-run restoration: the printed answer blanks survive in completion stems - 3(d) carries both coefficient slots",
+   "check": "part_problem_md_contains",
+   "part": "3(d)",
+   "contains_all": [
+    "Pb(NO3)2(aq) + .......... KI(aq) → PbI2(s) + .......... KNO3(aq)"
+   ]
+  },
+  {
+   "id": "C67b-dot-restoration-2019-06",
+   "series": "2019-06",
+   "assertion": "F55: 10(b)(i) equation blanks restored in both product slots",
+   "check": "part_problem_md_contains",
+   "part": "10(b)(i)",
+   "contains_all": [
+    "C5H12 + Br2 → .......... + .........."
+   ]
+  },
+  {
+   "id": "C68-picture-mcq-keyed",
+   "series": "2021-11",
+   "assertion": "F56 picture MCQs: 1(a)(i) promotes to multiple_choice keyed A (ii C, iii B) with the ledger crop on (i)",
+   "check": "part_keyed_to",
+   "part": "1(a)(i)",
+   "label": "A"
+  },
+  {
+   "id": "C68b-picture-mcq-keyed-ii",
+   "series": "2021-11",
+   "assertion": "F56: 1(a)(ii) keyed C",
+   "check": "part_keyed_to",
+   "part": "1(a)(ii)",
+   "label": "C"
+  },
+  {
+   "id": "C68c-picture-mcq-keyed-iii",
+   "series": "2021-11",
+   "assertion": "F56: 1(a)(iii) keyed B",
+   "check": "part_keyed_to",
+   "part": "1(a)(iii)",
+   "label": "B"
+  },
+  {
+   "id": "C68d-picture-mcq-2c",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "F56: 2C picture MCQs keyed B/D/C with the properties-table crop on 2(a)(i)",
+   "check": "part_keyed_to",
+   "part": "2(a)(i)",
+   "label": "B"
+  },
+  {
+   "id": "C68e-picture-mcq-2c-ii",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "F56: 2(a)(ii) keyed D",
+   "check": "part_keyed_to",
+   "part": "2(a)(ii)",
+   "label": "D"
+  },
+  {
+   "id": "C68f-picture-mcq-2c-iii",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "F56: 2(a)(iii) keyed C",
+   "check": "part_keyed_to",
+   "part": "2(a)(iii)",
+   "label": "C"
   }
  ]
 }

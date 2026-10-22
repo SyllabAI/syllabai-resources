@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:33Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2021-01 paper=2C",
+ "generated_utc": "2026-10-22T14:59:10Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2021-01 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-01:4CH1/2C",
  "source": {
   "qp_sha256": "99ef1fc89c8a3f2a9fe45ccce83a587957edb5f39565423ee789c15085fff202",
@@ -99,12 +99,12 @@
      "problem_md": "Name this element. Use the Periodic Table on page 2 to help you.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "lithium ALLOW Li",
+     "solution_md": "lithium\n\nALLOW Li",
      "mark_points": [
       {
        "id": "2021-01-1-a-iii-MP1",
        "marks": 1,
-       "text_md": "lithium ALLOW Li"
+       "text_md": "lithium\n\nALLOW Li"
       }
      ],
      "source_page": 4,
@@ -118,20 +118,20 @@
      "part_number": "1(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "There are two isotopes of this element. Give one way, in terms of sub-atomic particles, that these isotopes are the same and one way that they are different. same different",
+     "problem_md": "There are two isotopes of this element. Give one way, in terms of sub-atomic particles, that these isotopes are the same and one way that they are different. same .......... different ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 same number of protons ALLOW same number\nof electrons\nM2 different number of neutrons\nIGNORE references to\nmass number and\natomic number.\n5 marks",
+     "solution_md": "M1 same number of protons\nM2 different number of neutrons\n\nALLOW same number of electrons\nIGNORE references to mass number and atomic number.",
      "mark_points": [
       {
        "id": "2021-01-1-b-MP1",
        "marks": 1,
-       "text_md": "same number of protons ALLOW same number"
+       "text_md": "same number of protons\nALLOW same number of electrons"
       },
       {
        "id": "2021-01-1-b-MP2",
        "marks": 1,
-       "text_md": "different number of neutrons"
+       "text_md": "different number of neutrons\nIGNORE references to mass number and atomic number."
       }
      ],
      "source_page": 4,
@@ -158,12 +158,12 @@
      "problem_md": "Name the most abundant gas in the Earth’s atmosphere.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "nitrogen ALLOW N2/N",
+     "solution_md": "nitrogen\n\nALLOW N2/N",
      "mark_points": [
       {
        "id": "2021-01-2-a-i-MP1",
        "marks": 1,
-       "text_md": "nitrogen ALLOW N2/N"
+       "text_md": "nitrogen\n\nALLOW N2/N"
       }
      ],
      "source_page": 5,
@@ -180,12 +180,12 @@
      "problem_md": "Name the gas that is a compound.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "carbon dioxide ALLOW CO2",
+     "solution_md": "carbon dioxide\n\nALLOW CO2",
      "mark_points": [
       {
        "id": "2021-01-2-a-ii-MP1",
        "marks": 1,
-       "text_md": "carbon dioxide ALLOW CO2"
+       "text_md": "carbon dioxide\n\nALLOW CO2"
       }
      ],
      "source_page": 5,
@@ -202,12 +202,12 @@
      "problem_md": "Name the least reactive of the gases.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "argon ALLOW Ar",
+     "solution_md": "argon\n\nALLOW Ar",
      "mark_points": [
       {
        "id": "2021-01-2-a-iii-MP1",
        "marks": 1,
-       "text_md": "argon ALLOW Ar"
+       "text_md": "argon\n\nALLOW Ar"
       }
      ],
      "source_page": 5,
@@ -224,12 +224,12 @@
      "problem_md": "Name the gas formed by the complete combustion of hydrocarbons.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "carbon dioxide ALLOW CO2",
+     "solution_md": "carbon dioxide\n\nALLOW CO2",
      "mark_points": [
       {
        "id": "2021-01-2-a-iv-MP1",
        "marks": 1,
-       "text_md": "carbon dioxide ALLOW CO2"
+       "text_md": "carbon dioxide\n\nALLOW CO2"
       }
      ],
      "source_page": 5,
@@ -246,12 +246,12 @@
      "problem_md": "Describe the test for hydrogen gas.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "lighted splint (produces squeaky) pop\n5 marks",
+     "solution_md": "lighted splint (produces squeaky) pop",
      "mark_points": [
       {
        "id": "2021-01-2-b-MP1",
        "marks": 1,
-       "text_md": "lighted splint (produces squeaky) pop\n5 marks"
+       "text_md": "lighted splint (produces squeaky) pop"
       }
      ],
      "source_page": 5,
@@ -279,7 +279,7 @@
      "part_number": "3(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "All the carboxylic acids are of the same concentration. Give two other variables the student should control in his investigation. 1 2",
+     "problem_md": "All the carboxylic acids are of the same concentration. Give two other variables the student should control in his investigation. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Any two from:\nM1 volume of acid\nM2 temperature\nM3 mass / moles of magnesium\nM4 surface area / size of pieces of magnesium",
@@ -302,12 +302,12 @@
      "problem_md": "Give a reason why it is important to connect the gas syringe quickly.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "so as little gas as possible escapes ALLOW so no gas\nescapes\nIGNORE references to\naccuracy\nREJECT references to\ngas getting in",
+     "solution_md": "so as little gas as possible escapes\n\nALLOW so no gas escapes\nIGNORE references to accuracy\nREJECT references to gas getting in",
      "mark_points": [
       {
        "id": "2021-01-3-a-ii-MP1",
        "marks": 1,
-       "text_md": "so as little gas as possible escapes ALLOW so no gas\nescapes\nIGNORE references to\naccuracy\nREJECT references to\ngas getting in"
+       "text_md": "so as little gas as possible escapes\n\nALLOW so no gas escapes\nIGNORE references to accuracy\nREJECT references to gas getting in"
       }
      ],
      "source_page": 6,
@@ -319,15 +319,15 @@
      "part_number": "3(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the mean (average) time for propanoic acid to produce 10 cm3 of hydrogen gas. mean time = s",
+     "problem_md": "Calculate the mean (average) time for propanoic acid to produce 10 cm3 of hydrogen gas. mean time = .......... s",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (69 + 70 + 71) ÷ 3 Answer of 70 with or\nwithout working scores\nM2 70s\nAnswer of 76 or 75.8 or\n75.75 with or without\nworking scores 1",
+     "solution_md": "M1 (69 + 70 + 71) ÷ 3 Answer of 70 with or\nM2 70s\n\nwithout working scores Answer of 76 or 75.8 or 75.75 with or without working scores 1",
      "mark_points": [
       {
        "id": "2021-01-3-b-i-MP1",
        "marks": 1,
-       "text_md": "(69 + 70 + 71) ÷ 3 Answer of 70 with or"
+       "text_md": "(69 + 70 + 71) ÷ 3 Answer of 70 with or\nwithout working scores Answer of 76 or 75.8 or 75.75 with or without working scores 1"
       },
       {
        "id": "2021-01-3-b-i-MP2",
@@ -367,7 +367,7 @@
      "problem_md": "An ester is formed by adding ethanoic acid to ethanol in the presence of sulfuric acid. Give the displayed formula of the ester produced when ethanoic acid reacts with ethanol.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 ester linkage as a displayed\nstructure\nM2 rest of molecule correct as a fully displayed\nstructure\n8 marks",
+     "solution_md": "M1 ester linkage as a displayed\nstructure\nM2 rest of molecule correct as a fully displayed\nstructure",
      "mark_points": [
       {
        "id": "2021-01-3-c-MP1",
@@ -405,15 +405,15 @@
      "part_number": "4(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the chemical equation for the reaction of sodium with water. _____Na( ) + ______H2O(l) → _____NaOH( ) + H2(g)",
+     "problem_md": "Complete the chemical equation for the reaction of sodium with water. _____Na( .......... ) + ______H2O(l) → _____NaOH( .......... ) + H2(g)",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\n2 Na(s) + 2 H2O(l) → 2 NaOH(aq) + H2(g)\nM1 correct balancing numbers ALLOW multiples or\nfractions.\nM2 (s) and (aq) for state symbols",
+     "solution_md": "2\n2 Na(s) + 2 H2O(l) → 2 NaOH(aq) + H2(g)\nM1 correct balancing numbers\nM2 (s) and (aq) for state symbols\n\nALLOW multiples or fractions.",
      "mark_points": [
       {
        "id": "2021-01-4-a-i-MP1",
        "marks": 1,
-       "text_md": "correct balancing numbers ALLOW multiples or"
+       "text_md": "correct balancing numbers\nALLOW multiples or fractions."
       },
       {
        "id": "2021-01-4-a-i-MP2",
@@ -436,12 +436,12 @@
      "problem_md": "Identify the ion that causes the solution to become alkaline.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "hydroxide or OH- REJECT OH",
+     "solution_md": "hydroxide or OH-\n\nREJECT OH",
      "mark_points": [
       {
        "id": "2021-01-4-a-ii-MP1",
        "marks": 1,
-       "text_md": "hydroxide or OH- REJECT OH"
+       "text_md": "hydroxide or OH-\n\nREJECT OH"
       }
      ],
      "source_page": 10,
@@ -455,15 +455,15 @@
      "part_number": "4(a)(iii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Give three observations that would be made when sodium reacts with water. 1 2 3",
+     "problem_md": "Give three observations that would be made when sodium reacts with water. 1 .......... 2 .......... 3 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any three from:\nM1 the sodium moves (on the surface) ALLOW sodium floats\nM2 effervescence or bubbles (of gas) IGNORE gas or\nhydrogen produced\nM3 (indicator or phenolphthalein or water) turns IGNORE initial colour\npink of indicator\nALLOW the sodium\nM4 the sodium gets smaller disappears / (appears\nto) dissolve\nM5 the sodium melts or turns into a ball",
+     "solution_md": "Any three from:\nM1 the sodium moves (on the surface)\nM2 effervescence or bubbles (of gas)\nM3 (indicator or phenolphthalein or water) turns\npink\nM4 the sodium gets smaller\nM5 the sodium melts or turns into a ball\n\nALLOW sodium floats\nIGNORE gas or hydrogen produced\nIGNORE initial colour of indicator\nALLOW the sodium disappears / (appears to) dissolve",
      "mark_points": [
       {
        "id": "2021-01-4-a-iii-MP1",
        "marks": 3,
-       "text_md": "Any three from:\nM1 the sodium moves (on the surface) ALLOW sodium floats\nM2 effervescence or bubbles (of gas) IGNORE gas or\nhydrogen produced\nM3 (indicator or phenolphthalein or water) turns IGNORE initial colour\npink of indicator\nALLOW the sodium\nM4 the sodium gets smaller disappears / (appears\nto) dissolve\nM5 the sodium melts or turns into a ball"
+       "text_md": "Any three from:\nM1 the sodium moves (on the surface)\nM2 effervescence or bubbles (of gas)\nM3 (indicator or phenolphthalein or water) turns\npink\nM4 the sodium gets smaller\nM5 the sodium melts or turns into a ball\n\nALLOW sodium floats\nIGNORE gas or hydrogen produced\nIGNORE initial colour of indicator\nALLOW the sodium disappears / (appears to) dissolve"
       }
      ],
      "source_page": 10,
@@ -480,12 +480,12 @@
      "problem_md": "Explain why potassium is more reactive than sodium. Refer to the electronic configurations of the atoms in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 electron configuration of sodium is 2,8,1 and ALLOW the outer shell\nelectron configuration of potassium is 2,8,8,1 is further from the\nnucleus\nALLOW potassium has\nmore shells\nALLOW larger atom /\nlarger atomic radius\nM2 outer electron less attracted (to the nucleus of\npotassium)\nM3 therefore (outer shell electron) is more easily ALLOW reverse\nlost argument for sodium\n9 marks",
+     "solution_md": "M1 electron configuration of sodium is 2,8,1 and\nelectron configuration of potassium is 2,8,8,1\nM2 outer electron less attracted (to the nucleus of\npotassium)\nM3 therefore (outer shell electron) is more easily\nlost\n\nALLOW the outer shell is further from the nucleus\nALLOW potassium has more shells\nALLOW larger atom / larger atomic radius\nALLOW reverse argument for sodium",
      "mark_points": [
       {
        "id": "2021-01-4-b-MP1",
        "marks": 1,
-       "text_md": "electron configuration of sodium is 2,8,1 and ALLOW the outer shell\nelectron configuration of potassium is 2,8,8,1 is further from the"
+       "text_md": "electron configuration of sodium is 2,8,1 and\nelectron configuration of potassium is 2,8,8,1\nALLOW the outer shell is further from the nucleus\nALLOW potassium has more shells\nALLOW larger atom / larger atomic radius"
       },
       {
        "id": "2021-01-4-b-MP2",
@@ -495,7 +495,7 @@
       {
        "id": "2021-01-4-b-MP3",
        "marks": 1,
-       "text_md": "therefore (outer shell electron) is more easily ALLOW reverse\nlost argument for sodium"
+       "text_md": "therefore (outer shell electron) is more easily\nlost\nALLOW reverse argument for sodium"
       }
      ],
      "source_page": 11,
@@ -526,7 +526,7 @@
      "problem_md": "Explain why aluminium is malleable.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 layers / rows (of atoms / ions)\nM2 can slide over one another M2 is dependent on\nmention of layers /\nrows in M1",
+     "solution_md": "M1 layers / rows (of atoms / ions)\nM2 can slide over one another M2 is dependent on\n\nmention of layers / rows in M1",
      "mark_points": [
       {
        "id": "2021-01-5-a-i-MP1",
@@ -536,7 +536,7 @@
       {
        "id": "2021-01-5-a-i-MP2",
        "marks": 1,
-       "text_md": "can slide over one another M2 is dependent on"
+       "text_md": "can slide over one another M2 is dependent on\nmention of layers / rows in M1"
       }
      ],
      "source_page": 13,
@@ -553,7 +553,7 @@
      "problem_md": "Explain why aluminium conducts electricity.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 delocalised electrons\nM2 can move / can flow / are free to move (throughout IGNORE references to\nthe structure) charge or current\nIGNORE free electrons\nM2 dependent on\nmention of electrons in\nM1",
+     "solution_md": "M1 delocalised electrons\nM2 can move / can flow / are free to move (throughout\nthe structure)\n\nIGNORE references to charge or current\nIGNORE free electrons M2 dependent on mention of electrons in M1",
      "mark_points": [
       {
        "id": "2021-01-5-a-ii-MP1",
@@ -563,7 +563,7 @@
       {
        "id": "2021-01-5-a-ii-MP2",
        "marks": 1,
-       "text_md": "can move / can flow / are free to move (throughout IGNORE references to\nthe structure) charge or current"
+       "text_md": "can move / can flow / are free to move (throughout\nthe structure)\nIGNORE references to charge or current\nIGNORE free electrons M2 dependent on mention of electrons in M1"
       }
      ],
      "source_page": 13,
@@ -580,12 +580,12 @@
      "problem_md": "Aluminium cannot be extracted by heating a mixture of carbon and aluminium oxide. Give a reason why heating a mixture of aluminium oxide and carbon does not produce aluminium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "aluminium is more reactive than carbon ALLOW references to\nposition in reactivity\nseries e.g. aluminium is\nhigher in reactivity\nseries than carbon.\nALLOW carbon is less\nreactive than\naluminium",
+     "solution_md": "aluminium is more reactive than carbon\n\nALLOW references to position in reactivity series e.g. aluminium is higher in reactivity series than carbon.\nALLOW carbon is less reactive than aluminium",
      "mark_points": [
       {
        "id": "2021-01-5-b-MP1",
        "marks": 1,
-       "text_md": "aluminium is more reactive than carbon ALLOW references to\nposition in reactivity\nseries e.g. aluminium is\nhigher in reactivity\nseries than carbon.\nALLOW carbon is less\nreactive than\naluminium"
+       "text_md": "aluminium is more reactive than carbon\n\nALLOW references to position in reactivity series e.g. aluminium is higher in reactivity series than carbon.\nALLOW carbon is less reactive than aluminium"
       }
      ],
      "source_page": 13,
@@ -602,17 +602,17 @@
      "problem_md": "Explain how aluminium metal forms at the negative electrode.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 aluminium / Al3+ions are attracted to the negative\nelectrode / cathode (because they are positively\ncharged)\nALLOW Al3+ + 3e-→Al\nM2 where they gain electrons (forming aluminium) IGNORE references to\nreduction",
+     "solution_md": "M1 aluminium / Al3+ions are attracted to the negative\nelectrode / cathode (because they are positively\ncharged)\nM2 where they gain electrons (forming aluminium)\n\nALLOW Al3+ + 3e-→Al\nIGNORE references to reduction",
      "mark_points": [
       {
        "id": "2021-01-5-c-i-MP1",
        "marks": 1,
-       "text_md": "aluminium / Al3+ions are attracted to the negative\nelectrode / cathode (because they are positively\ncharged)"
+       "text_md": "aluminium / Al3+ions are attracted to the negative\nelectrode / cathode (because they are positively\ncharged)\nALLOW Al3+ + 3e-→Al"
       },
       {
        "id": "2021-01-5-c-i-MP2",
        "marks": 1,
-       "text_md": "where they gain electrons (forming aluminium) IGNORE references to"
+       "text_md": "where they gain electrons (forming aluminium)\nIGNORE references to reduction"
       }
      ],
      "source_page": 14,
@@ -626,15 +626,15 @@
      "part_number": "5(c)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Write an ionic half-equation for the formation of oxygen gas at the positive electrode →",
+     "problem_md": "Write an ionic half-equation for the formation of oxygen gas at the positive electrode. .......... → ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2O2- → O2 + 4e- ALLOW 2O2- - 4e- → O2",
+     "solution_md": "2O2- → O2 + 4e-\n\nALLOW 2O2- - 4e- → O2",
      "mark_points": [
       {
        "id": "2021-01-5-c-ii-MP1",
        "marks": 1,
-       "text_md": "2O2- → O2 + 4e- ALLOW 2O2- - 4e- → O2"
+       "text_md": "2O2- → O2 + 4e-\n\nALLOW 2O2- - 4e- → O2"
       }
      ],
      "source_page": 14,
@@ -676,12 +676,12 @@
      "problem_md": "State how the equation shows that iron(III) oxide is reduced.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "iron oxide loses oxygen IGNORE references to\nelectrons",
+     "solution_md": "iron oxide loses oxygen\n\nIGNORE references to electrons",
      "mark_points": [
       {
        "id": "2021-01-5-d-i-MP1",
        "marks": 1,
-       "text_md": "iron oxide loses oxygen IGNORE references to\nelectrons"
+       "text_md": "iron oxide loses oxygen\n\nIGNORE references to electrons"
       }
      ],
      "source_page": 15,
@@ -698,12 +698,12 @@
      "problem_md": "Draw an energy level diagram for the reaction between aluminium and iron(III) oxide. Energy",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "IGNORE horizontal axis\ndrawn\nIGNORE activation\nenergy if shown\nM1 right hand line below left hand line\nM2 correct name / formula of both reactants\nM3 correct name / formula of both products\nIf only use words\nreactants (on left) and\nproducts (on right)\naward 1 mark from M2\nand M3\nM2 and M3 can be\nscored from an\nendothermic diagram\n14 marks",
+     "solution_md": "M1 right hand line below left hand line\nM2 correct name / formula of both reactants\nM3 correct name / formula of both products\n\nIGNORE horizontal axis drawn\nIGNORE activation energy if shown If only use words reactants (on left) and products (on right) award 1 mark from M2 and M3 M2 and M3 can be scored from an endothermic diagram",
      "mark_points": [
       {
        "id": "2021-01-5-d-ii-MP1",
        "marks": 1,
-       "text_md": "right hand line below left hand line"
+       "text_md": "right hand line below left hand line\nIGNORE horizontal axis drawn\nIGNORE activation energy if shown If only use words reactants (on left) and products (on right) award 1 mark from M2 and M3 M2 and M3 can be scored from an endothermic diagram"
       },
       {
        "id": "2021-01-5-d-ii-MP2",
@@ -764,12 +764,12 @@
      "problem_md": "Describe how a student could prepare a pure, dry sample of silver chloride starting with copper(II) chloride solution and silver nitrate solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 mix / stir / add (silver nitrate and copper (II) IGNORE references\nchloride) to heating\nM2 filter (the silver chloride)\nM3 wash with (deionised / distilled) water\nM4 dry in a warm oven or dry with filter paper or\nleave / allow to dry (on a windowsill) or dry in a\ndesiccator\nIf evaporation is\nmentioned to form\ncrystals max = 1",
+     "solution_md": "M1 mix / stir / add (silver nitrate and copper (II)\nchloride)\nM2 filter (the silver chloride)\nM3 wash with (deionised / distilled) water\nM4 dry in a warm oven or dry with filter paper or\nleave / allow to dry (on a windowsill) or dry in a\ndesiccator\n\nIGNORE references to heating If evaporation is mentioned to form crystals max = 1",
      "mark_points": [
       {
        "id": "2021-01-6-a-MP1",
        "marks": 1,
-       "text_md": "mix / stir / add (silver nitrate and copper (II) IGNORE references\nchloride) to heating"
+       "text_md": "mix / stir / add (silver nitrate and copper (II)\nchloride)\nIGNORE references to heating If evaporation is mentioned to form crystals max = 1"
       },
       {
        "id": "2021-01-6-a-MP2",
@@ -801,12 +801,12 @@
      "problem_md": "Plot the student’s results.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 and M2 all points correctly plotted to ± half a Deduct 1 mark for\nsquare every incorrect point.",
+     "solution_md": "M1 and M2 all points correctly plotted to ± half a\nsquare\n\nDeduct 1 mark for every incorrect point.",
      "mark_points": [
       {
        "id": "2021-01-6-b-i-MP1",
        "marks": 2,
-       "text_md": "M1 and M2 all points correctly plotted to ± half a Deduct 1 mark for\nsquare every incorrect point."
+       "text_md": "M1 and M2 all points correctly plotted to ± half a\nsquare\n\nDeduct 1 mark for every incorrect point."
       }
      ],
      "source_page": 19,
@@ -841,12 +841,12 @@
      "problem_md": "Suggest a mistake the student made to cause the anomalous result.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any one from:\nthe precipitate wasn’t left to settle (for long ALLOW measured\nenough) the height too early\nthe tube was on a slant\nnot enough / less than 3.0 cm3 of silver nitrate IGNORE references\nadded to human error\nunqualified",
+     "solution_md": "Any one from:\nthe precipitate wasn’t left to settle (for long\nenough)\nthe tube was on a slant\nnot enough / less than 3.0 cm3 of silver nitrate\nadded\n\nALLOW measured the height too early\nIGNORE references to human error unqualified",
      "mark_points": [
       {
        "id": "2021-01-6-b-iii-MP1",
        "marks": 1,
-       "text_md": "Any one from:\nthe precipitate wasn’t left to settle (for long ALLOW measured\nenough) the height too early\nthe tube was on a slant\nnot enough / less than 3.0 cm3 of silver nitrate IGNORE references\nadded to human error\nunqualified"
+       "text_md": "Any one from:\nthe precipitate wasn’t left to settle (for long\nenough)\nthe tube was on a slant\nnot enough / less than 3.0 cm3 of silver nitrate\nadded\n\nALLOW measured the height too early\nIGNORE references to human error unqualified"
       }
      ],
      "source_page": 19,
@@ -861,12 +861,12 @@
      "problem_md": "Give a reason why the last three heights are the same.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "all the copper [(II)] chloride has reacted ALLOW the silver\nnitrate is in excess /\nnot all the silver\nnitrate has reacted",
+     "solution_md": "all the copper [(II)] chloride has reacted\n\nALLOW the silver nitrate is in excess / not all the silver nitrate has reacted",
      "mark_points": [
       {
        "id": "2021-01-6-b-iv-MP1",
        "marks": 1,
-       "text_md": "all the copper [(II)] chloride has reacted ALLOW the silver\nnitrate is in excess /\nnot all the silver\nnitrate has reacted"
+       "text_md": "all the copper [(II)] chloride has reacted\n\nALLOW the silver nitrate is in excess / not all the silver nitrate has reacted"
       }
      ],
      "source_page": 19,
@@ -883,12 +883,12 @@
      "problem_md": "Name a piece of apparatus suitable for measuring 25.0 cm3 of copper(II) chloride solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any one from:\nburette ALLOW measuring\ncylinder\n(volumetric) pipette REJECT beaker",
+     "solution_md": "Any one from:\nburette\n(volumetric) pipette\n\nALLOW measuring cylinder\nREJECT beaker",
      "mark_points": [
       {
        "id": "2021-01-6-c-i-MP1",
        "marks": 1,
-       "text_md": "Any one from:\nburette ALLOW measuring\ncylinder\n(volumetric) pipette REJECT beaker"
+       "text_md": "Any one from:\nburette\n(volumetric) pipette\n\nALLOW measuring cylinder\nREJECT beaker"
       }
      ],
      "source_page": 20,
@@ -902,10 +902,10 @@
      "part_number": "6(c)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Calculate the maximum mass, in grams, of silver chloride that could be produced. [Mr of AgCl = 143.5] maximum mass = g",
+     "problem_md": "Calculate the maximum mass, in grams, of silver chloride that could be produced. [Mr of AgCl = 143.5] maximum mass = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Example calculation\nM1 moles of coper chloride = (25 x 0.50) ÷ 1000 OR\n0.0125 moles\nM2 moles of silver chloride = 0.0250 ALLOW answer to M1\nx2\nM3 mass of silver chloride = 3.59 g ALLOW answer to M1\nor M2 × 143.5\nALLOW 2 or more\nsignificant figures\nCorrect answer of 3.59\ng scores 3 marks",
+     "solution_md": "Example calculation\nM1 moles of coper chloride = (25 x 0.50) ÷ 1000 OR\n0.0125 moles\nM2 moles of silver chloride = 0.0250\nM3 mass of silver chloride = 3.59 g\n\nALLOW answer to M1 x2\nALLOW answer to M1 or M2 × 143.5\nALLOW 2 or more significant figures\nCorrect answer of 3.59 g scores 3 marks",
      "mark_points": [
       {
        "id": "2021-01-6-c-ii-MP1",
@@ -915,12 +915,12 @@
       {
        "id": "2021-01-6-c-ii-MP2",
        "marks": 1,
-       "text_md": "moles of silver chloride = 0.0250 ALLOW answer to M1"
+       "text_md": "moles of silver chloride = 0.0250\nALLOW answer to M1 x2"
       },
       {
        "id": "2021-01-6-c-ii-MP3",
        "marks": 1,
-       "text_md": "mass of silver chloride = 3.59 g ALLOW answer to M1"
+       "text_md": "mass of silver chloride = 3.59 g\nALLOW answer to M1 or M2 × 143.5\nALLOW 2 or more significant figures\nCorrect answer of 3.59 g scores 3 marks"
       }
      ],
      "source_page": 20,
@@ -934,10 +934,10 @@
      "part_number": "6(c)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "In an experiment using different solutions, the mass of silver chloride produced is 0.744 g. The maximum mass of silver chloride that could be produced is 0.850 g. Calculate the percentage yield. percentage yield = %",
+     "problem_md": "In an experiment using different solutions, the mass of silver chloride produced is 0.744 g. The maximum mass of silver chloride that could be produced is 0.850 g. Calculate the percentage yield. percentage yield = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (0.744 ÷ 0.850) × 100\nM2 87.5(%) ALLOW 2 or more\nsignificant figures\n15 marks",
+     "solution_md": "M1 (0.744 ÷ 0.850) × 100\nM2 87.5(%)\n\nALLOW 2 or more significant figures",
      "mark_points": [
       {
        "id": "2021-01-6-c-iii-MP1",
@@ -947,7 +947,7 @@
       {
        "id": "2021-01-6-c-iii-MP2",
        "marks": 1,
-       "text_md": "87.5(%) ALLOW 2 or more"
+       "text_md": "87.5(%)\nALLOW 2 or more significant figures"
       }
      ],
      "source_page": 20,
@@ -981,12 +981,12 @@
      "problem_md": "The diagram shows a fractionating column. gasoline crude oil Describe how crude oil is separated into fractions in the fractionating column.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 crude oil is heated / vapourised ALLOW boiled\nM2 vapours / gases / compounds / hydrocarbons\nrise up the column\nM3 the column is hotter at the bottom than the ALLOW temperature\ntop gradient of the column\nALLOW vapours /\nM4 vapours / compounds / hydrocarbons compounds /\ncondense at their boiling point hydrocarbons /\ncondense at different\nheights\nALLOW the vapours /\ncompounds /\nhydrocarbons /\nfractions have different\nboiling points.",
+     "solution_md": "M1 crude oil is heated / vapourised\nM2 vapours / gases / compounds / hydrocarbons\nrise up the column\nM3 the column is hotter at the bottom than the\ntop\nM4 vapours / compounds / hydrocarbons\ncondense at their boiling point\n\nALLOW boiled\nALLOW temperature gradient of the column\nALLOW vapours / compounds / hydrocarbons / condense at different heights\nALLOW the vapours / compounds / hydrocarbons / fractions have different boiling points.",
      "mark_points": [
       {
        "id": "2021-01-7-a-MP1",
        "marks": 1,
-       "text_md": "crude oil is heated / vapourised ALLOW boiled"
+       "text_md": "crude oil is heated / vapourised\nALLOW boiled"
       },
       {
        "id": "2021-01-7-a-MP2",
@@ -996,12 +996,12 @@
       {
        "id": "2021-01-7-a-MP3",
        "marks": 1,
-       "text_md": "the column is hotter at the bottom than the ALLOW temperature\ntop gradient of the column"
+       "text_md": "the column is hotter at the bottom than the\ntop\nALLOW temperature gradient of the column\nALLOW vapours / compounds / hydrocarbons / condense at different heights"
       },
       {
        "id": "2021-01-7-a-MP4",
        "marks": 1,
-       "text_md": "vapours / compounds / hydrocarbons compounds /\ncondense at their boiling point hydrocarbons /"
+       "text_md": "vapours / compounds / hydrocarbons\ncondense at their boiling point\nALLOW the vapours / compounds / hydrocarbons / fractions have different boiling points."
       }
      ],
      "source_page": 21,
@@ -1030,7 +1030,7 @@
      "problem_md": "Octane can also be produced by the process of cracking. Give the conditions for cracking.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 temperature of 600°C - 700°C\nM2 catalyst of silica / alumina ALLOW\naluminosilicates /\nzeolites / silicon\ndioxide / aluminium\noxide\nIGNORE references to\npressure",
+     "solution_md": "M1 temperature of 600°C - 700°C\nM2 catalyst of silica / alumina\n\nALLOW aluminosilicates / zeolites / silicon dioxide / aluminium oxide\nIGNORE references to pressure",
      "mark_points": [
       {
        "id": "2021-01-7-b-MP1",
@@ -1040,7 +1040,7 @@
       {
        "id": "2021-01-7-b-MP2",
        "marks": 1,
-       "text_md": "catalyst of silica / alumina ALLOW"
+       "text_md": "catalyst of silica / alumina\nALLOW aluminosilicates / zeolites / silicon dioxide / aluminium oxide\nIGNORE references to pressure"
       }
      ],
      "source_page": 21,
@@ -1057,12 +1057,12 @@
      "problem_md": "Explain how oxides of nitrogen form in a car engine.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 nitrogen (from the air) reacts / combines with REJECT any implication\noxygen (from the air) that oxygen or\nnitrogen come from\nthe fuel.\nM2 at high temperatures (in the car engine)",
+     "solution_md": "M1 nitrogen (from the air) reacts / combines with\noxygen (from the air)\nM2 at high temperatures (in the car engine)\n\nREJECT any implication that oxygen or nitrogen come from the fuel.",
      "mark_points": [
       {
        "id": "2021-01-7-c-i-MP1",
        "marks": 1,
-       "text_md": "nitrogen (from the air) reacts / combines with REJECT any implication\noxygen (from the air) that oxygen or"
+       "text_md": "nitrogen (from the air) reacts / combines with\noxygen (from the air)\nREJECT any implication that oxygen or nitrogen come from the fuel."
       },
       {
        "id": "2021-01-7-c-i-MP2",
@@ -1106,7 +1106,7 @@
      "problem_md": "Show that the car produces less than 100 g of carbon dioxide per km. [molar volume of carbon dioxide at rtp = 24 000 cm3]",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Example calculation\nM1 volume of carbon dioxide = 206 000 cm3 /\n2.06×105 cm3 / 206 dm3\nM2 volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can\n5.15×104 cm3 / 51.5 dm3 happen in M1, M2, M3\nor M5\nALLOW M1 ÷ 4\nM3 (51 500 ÷ 24 000) = 2.15 moles ALLOW M2 or\nM1 ÷ 24 000\nM4 Mr of carbon dioxide is 44\nM5 mass of carbon dioxide per Km = 94.4 g ALLOW 94 – 95 g\nALLOW ecf from\nincorrect Mr\nCorrect answer of 94 –\n95 g scores 5 marks.\n14 marks\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "Example calculation\nM1 volume of carbon dioxide = 206 000 cm3 /\n2.06×105 cm3 / 206 dm3\nM2 volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can\n5.15×104 cm3 / 51.5 dm3 happen in M1, M2, M3\nM3 (51 500 ÷ 24 000) = 2.15 moles\nM4 Mr of carbon dioxide is 44\nM5 mass of carbon dioxide per Km = 94.4 g\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nor M5\nALLOW M1 ÷ 4\nALLOW M2 or M1 ÷ 24 000\nALLOW 94 – 95 g\nALLOW ecf from incorrect Mr\nCorrect answer of 94 – 95 g scores 5 marks.",
      "mark_points": [
       {
        "id": "2021-01-7-c-iii-MP1",
@@ -1116,12 +1116,12 @@
       {
        "id": "2021-01-7-c-iii-MP2",
        "marks": 1,
-       "text_md": "volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can\n5.15×104 cm3 / 51.5 dm3 happen in M1, M2, M3"
+       "text_md": "volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can\n5.15×104 cm3 / 51.5 dm3 happen in M1, M2, M3\nor M5\nALLOW M1 ÷ 4"
       },
       {
        "id": "2021-01-7-c-iii-MP3",
        "marks": 1,
-       "text_md": "(51 500 ÷ 24 000) = 2.15 moles ALLOW M2 or"
+       "text_md": "(51 500 ÷ 24 000) = 2.15 moles\nALLOW M2 or M1 ÷ 24 000"
       },
       {
        "id": "2021-01-7-c-iii-MP4",
@@ -1131,7 +1131,7 @@
       {
        "id": "2021-01-7-c-iii-MP5",
        "marks": 1,
-       "text_md": "mass of carbon dioxide per Km = 94.4 g ALLOW 94 – 95 g\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "mass of carbon dioxide per Km = 94.4 g\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\nALLOW 94 – 95 g\nALLOW ecf from incorrect Mr\nCorrect answer of 94 – 95 g scores 5 marks."
       }
      ],
      "source_page": 22,

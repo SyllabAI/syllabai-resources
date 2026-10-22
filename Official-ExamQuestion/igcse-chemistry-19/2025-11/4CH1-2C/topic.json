@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:57Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2025-11 paper=2C",
+ "generated_utc": "2026-10-22T14:42:31Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2025-11 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-11:4CH1/2C",
  "source": {
   "qp_sha256": "1963af3aa5a42b5ab0ed8da4231dd615d9efd47098f22a057dcfcaaf6632a95b",
@@ -34,12 +34,12 @@
      "problem_md": "Complete the table by placing ticks (ü) in each column to show if a piece of apparatus can be used for a process. One tick has been done for you. Each piece of apparatus can be used for one process, more than one process, or not at all. Process Letter measures different evaporates solvent to titration volumes produce crystals P Q ü R S T U",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "5\nextra ticks in any row lose 1\nLetter titration measures evaporates mark\ndifferent solvent to\nvolumes produce any ticks in row U lose 1\ncrystals mark\nP ✓\nQ ✓ ✓\nR ✓\nS ✓\nT ✓\nU",
+     "solution_md": "5\nLetter titration measures evaporates\ndifferent solvent to\nvolumes produce\ncrystals\nP ✓\nQ ✓ ✓\nR ✓\nS ✓\nT ✓\nU\n\nextra ticks in any row lose 1 mark any ticks in row U lose 1 mark",
      "mark_points": [
       {
        "id": "2025-11-1-a-MP1",
        "marks": 5,
-       "text_md": "5\nextra ticks in any row lose 1\nLetter titration measures evaporates mark\ndifferent solvent to\nvolumes produce any ticks in row U lose 1\ncrystals mark\nP ✓\nQ ✓ ✓\nR ✓\nS ✓\nT ✓\nU"
+       "text_md": "5\nLetter titration measures evaporates\ndifferent solvent to\nvolumes produce\ncrystals\nP ✓\nQ ✓ ✓\nR ✓\nS ✓\nT ✓\nU\n\nextra ticks in any row lose 1 mark any ticks in row U lose 1 mark"
       }
      ],
      "source_page": 4,
@@ -91,12 +91,12 @@
      "problem_md": "Name the piece of apparatus labelled R.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(volumetric) pipette REJECT dropping pipette",
+     "solution_md": "(volumetric) pipette\n\nREJECT dropping pipette",
      "mark_points": [
       {
        "id": "2025-11-1-c-MP1",
        "marks": 1,
-       "text_md": "(volumetric) pipette REJECT dropping pipette"
+       "text_md": "(volumetric) pipette\n\nREJECT dropping pipette"
       }
      ],
      "source_page": 5,
@@ -123,12 +123,12 @@
      "problem_md": "The table lists some halogens and their properties. Complete the table by giving the missing information. Halogen State at 25°C Colour fluorine pale yellow chlorine gas bromine brown iodine solid dark grey",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "3\nHalogen State at Colour\n25 oC\nfluorine gas pale yellow\nchlorine gas (pale) green ALLOW light green\nbromine liquid brown\niodine solid dark grey",
+     "solution_md": "3\nHalogen State at Colour\n25 oC\nfluorine gas pale yellow\nchlorine gas (pale) green\nbromine liquid\niodine solid\n\nALLOW light green brown dark grey",
      "mark_points": [
       {
        "id": "2025-11-2-a-MP1",
        "marks": 3,
-       "text_md": "3\nHalogen State at Colour\n25 oC\nfluorine gas pale yellow\nchlorine gas (pale) green ALLOW light green\nbromine liquid brown\niodine solid dark grey"
+       "text_md": "3\nHalogen State at Colour\n25 oC\nfluorine gas pale yellow\nchlorine gas (pale) green\nbromine liquid\niodine solid\n\nALLOW light green brown dark grey"
       }
      ],
      "source_page": 6,
@@ -176,10 +176,10 @@
      "part_number": "2(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "A sample of bromine atoms contains 42.0% bromine‑79 and 58.0% bromine‑81. Calculate the relative atomic mass of this sample of bromine atoms. Give your answer to three significant figures. relative atomic mass =",
+     "problem_md": "A sample of bromine atoms contains 42.0% bromine‑79 and 58.0% bromine‑81. Calculate the relative atomic mass of this sample of bromine atoms. Give your answer to three significant figures. relative atomic mass = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer without\nM1 42 x 79 + 58 x 81 OR 8016 working scores 3\nM2 8016 ÷ 100 OR 80.16 ALLOW M2 ECF M1\nM3 80.2 ALLOW M3 ECF M2\nECF for M3 if all values in\nthe question are used and\nthe answer given to 3\nsig.figs.",
+     "solution_md": "correct answer without\nM1 42 x 79 + 58 x 81 OR 8016 working scores 3\nM2 8016 ÷ 100 OR 80.16\nM3 80.2\n\nALLOW M2 ECF M1\nALLOW M3 ECF M2 ECF for M3 if all values in the question are used and the answer given to 3 sig.figs.",
      "mark_points": [
       {
        "id": "2025-11-2-c-MP1",
@@ -189,12 +189,12 @@
       {
        "id": "2025-11-2-c-MP2",
        "marks": 1,
-       "text_md": "8016 ÷ 100 OR 80.16 ALLOW M2 ECF M1"
+       "text_md": "8016 ÷ 100 OR 80.16\nALLOW M2 ECF M1"
       },
       {
        "id": "2025-11-2-c-MP3",
        "marks": 1,
-       "text_md": "80.2 ALLOW M3 ECF M2"
+       "text_md": "80.2\nALLOW M3 ECF M2 ECF for M3 if all values in the question are used and the answer given to 3 sig.figs."
       }
      ],
      "source_page": 6,
@@ -208,15 +208,15 @@
      "part_number": "2(d)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the probability of having a molecule with an Mr of 70 probability =",
+     "problem_md": "Calculate the probability of having a molecule with an Mr of 70 probability = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(0.75 x 0.75 =) 0.5625 ALLOW 0.56 /0.563",
+     "solution_md": "(0.75 x 0.75 =) 0.5625\n\nALLOW 0.56 /0.563",
      "mark_points": [
       {
        "id": "2025-11-2-d-i-MP1",
        "marks": 1,
-       "text_md": "(0.75 x 0.75 =) 0.5625 ALLOW 0.56 /0.563"
+       "text_md": "(0.75 x 0.75 =) 0.5625\n\nALLOW 0.56 /0.563"
       }
      ],
      "source_page": 7,
@@ -233,12 +233,12 @@
      "problem_md": "Explain why the probability of a molecule having an Mr of 72 is not 0.1875",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nALLOW ECF from (i)\nM1 (0.1875 x 2=) 0.375\nM2 but need to x 2 to take into account that either ALLOW idea that shows\nCl atom could be the 35 or 37 isotope OWTTE two combinations of 35Cl\nand 37Cl isotopes to form a\nchlorine molecule with Mr\nOR of 72\nM1 Total probability is 1\nM2 so remaining probability is 0.375 ALLOW 0.38",
+     "solution_md": "2\nM1 (0.1875 x 2=) 0.375\nM2 but need to x 2 to take into account that either\nCl atom could be the 35 or 37 isotope OWTTE\nOR\nM1 Total probability is 1\nM2 so remaining probability is 0.375\n\nALLOW ECF from (i)\nALLOW idea that shows two combinations of 35Cl and 37Cl isotopes to form a chlorine molecule with Mr of 72\nALLOW 0.38",
      "mark_points": [
       {
        "id": "2025-11-2-d-ii-MP1",
        "marks": 2,
-       "text_md": "2\nALLOW ECF from (i)\nM1 (0.1875 x 2=) 0.375\nM2 but need to x 2 to take into account that either ALLOW idea that shows\nCl atom could be the 35 or 37 isotope OWTTE two combinations of 35Cl\nand 37Cl isotopes to form a\nchlorine molecule with Mr\nOR of 72\nM1 Total probability is 1\nM2 so remaining probability is 0.375 ALLOW 0.38"
+       "text_md": "2\nM1 (0.1875 x 2=) 0.375\nM2 but need to x 2 to take into account that either\nCl atom could be the 35 or 37 isotope OWTTE\nOR\nM1 Total probability is 1\nM2 so remaining probability is 0.375\n\nALLOW ECF from (i)\nALLOW idea that shows two combinations of 35Cl and 37Cl isotopes to form a chlorine molecule with Mr of 72\nALLOW 0.38"
       }
      ],
      "source_page": 7,
@@ -255,22 +255,22 @@
      "problem_md": "Explain how displacement reactions involving halogens and halides provide evidence for the trend in reactivity in Group 7 of the Periodic Table. Include examples of reactions in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following 5 points\nM1 reactivity decreases down the group (from F/Cl ALLOW fluorine is the\nto I) most reactive element in\nGroup 7 ORA\nM2 displacement reactions happen when more ALLOW specific halogen\nreactive halogen displaces a less reactive halogen displaces a less reactive\nhalogen\ne.g. Chlorine/Cl is more\nreactive so it will displace\nbromine/Br (and iodine/I)\nM3 from a solution/compound containing its halide ALLOW specific halide\n(ions) (ions)\nALLOW ORA for M2 and\nOR M3\nALLOW correct word or balanced chemical equation\nfor M2 and M3\nM4 example of colour change in a displacement\nreaction\nM5 example of reaction where displacement does\nnot occur",
+     "solution_md": "An explanation that links the following 5 points\nM1 reactivity decreases down the group (from F/Cl\nto I)\nM2 displacement reactions happen when more\nreactive halogen displaces a less reactive halogen\nM3 from a solution/compound containing its halide\n(ions)\nOR\nALLOW correct word or balanced chemical equation\nfor M2 and M3\nM4 example of colour change in a displacement\nreaction\nM5 example of reaction where displacement does\nnot occur\n\nALLOW fluorine is the most reactive element in Group 7 ORA\nALLOW specific halogen displaces a less reactive halogen e.g. Chlorine/Cl is more reactive so it will displace bromine/Br (and iodine/I)\nALLOW specific halide (ions)\nALLOW ORA for M2 and M3",
      "mark_points": [
       {
        "id": "2025-11-2-e-MP1",
        "marks": 1,
-       "text_md": "reactivity decreases down the group (from F/Cl ALLOW fluorine is the\nto I) most reactive element in"
+       "text_md": "reactivity decreases down the group (from F/Cl\nto I)\nALLOW fluorine is the most reactive element in Group 7 ORA"
       },
       {
        "id": "2025-11-2-e-MP2",
        "marks": 1,
-       "text_md": "displacement reactions happen when more ALLOW specific halogen\nreactive halogen displaces a less reactive halogen displaces a less reactive"
+       "text_md": "displacement reactions happen when more\nreactive halogen displaces a less reactive halogen\nALLOW specific halogen displaces a less reactive halogen e.g. Chlorine/Cl is more reactive so it will displace bromine/Br (and iodine/I)"
       },
       {
        "id": "2025-11-2-e-MP3",
        "marks": 1,
-       "text_md": "from a solution/compound containing its halide ALLOW specific halide\n(ions) (ions)\nOR M3\nALLOW correct word or balanced chemical equation\nfor M2 and M3"
+       "text_md": "from a solution/compound containing its halide\n(ions)\nOR\nALLOW correct word or balanced chemical equation\nfor M2 and M3\nALLOW specific halide (ions)\nALLOW ORA for M2 and M3"
       },
       {
        "id": "2025-11-2-e-MP4",
@@ -311,12 +311,12 @@
      "problem_md": "Give the chemical name for rust.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(hydrated) iron(III) oxide/ferric oxide ACCEPT Fe2O3\nREJECT iron oxide/FeO with\nincorrect oxidation state",
+     "solution_md": "(hydrated) iron(III) oxide/ferric oxide\n\nACCEPT Fe2O3\nREJECT iron oxide/FeO with incorrect oxidation state",
      "mark_points": [
       {
        "id": "2025-11-3-a-i-MP1",
        "marks": 1,
-       "text_md": "(hydrated) iron(III) oxide/ferric oxide ACCEPT Fe2O3\nREJECT iron oxide/FeO with\nincorrect oxidation state"
+       "text_md": "(hydrated) iron(III) oxide/ferric oxide\n\nACCEPT Fe2O3\nREJECT iron oxide/FeO with incorrect oxidation state"
       }
      ],
      "source_page": 10,
@@ -333,12 +333,12 @@
      "problem_md": "Explain how painting prevents iron from rusting.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points:\nM1 paint acts as a barrier/(protective) layer REJECT galvanising\nOWTTE /coating/covering/sacrificial\nprotection\nM2 which prevents water/oxygen/air getting to the\niron/reacting with iron",
+     "solution_md": "An explanation that links the following two points:\nM1 paint acts as a barrier/(protective) layer\nOWTTE\nM2 which prevents water/oxygen/air getting to the\niron/reacting with iron\n\nREJECT galvanising /coating/covering/sacrificial protection",
      "mark_points": [
       {
        "id": "2025-11-3-a-ii-MP1",
        "marks": 1,
-       "text_md": "paint acts as a barrier/(protective) layer REJECT galvanising\nOWTTE /coating/covering/sacrificial"
+       "text_md": "paint acts as a barrier/(protective) layer\nOWTTE\nREJECT galvanising /coating/covering/sacrificial protection"
       },
       {
        "id": "2025-11-3-a-ii-MP2",
@@ -360,7 +360,7 @@
      "problem_md": "Steel is made from iron and carbon. Explain how the difference in malleability of pure iron and high-carbon steel affects the uses of these materials.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following:\nM1 (high-carbon) steel is an alloy\nM2 idea of a comparison of malleability between ALLOW pure iron is more\npure iron and (high-carbon) steel malleable than high-carbon\nsteel ORA\nM3 (pure) iron can be used in ALLOW car (bodies)/ship\ngates/railings/nails/wires/chains/cookware building/decorative metal\nworks\nM4 (high-carbon) steel can be used in cutting IGNORE cutlery/kitchen\ntools/knives/blades/springs/bearings/hammers/rail utensils\ntracks/car chassis ALLOW ideas of load-\nbearing\napplications/building\nreinforcement\nM5 (high carbon) steel has different-sized atoms ALLOW steel has (both iron\n/particles (which disrupt the structure/regular and carbon) atoms/particles\narrangement) ORA which are of different sizes\n(and randomly arranged)\nM6 which means layers (of atoms/metal ALLOW rows or sheets\nions/particles) cannot slide over each other ORA\nany mention of\nintermolecular forces/ionic\nbonds/covalent bonds/bond\nbreaking max 5 marks",
+     "solution_md": "An explanation that links the following:\nM1 (high-carbon) steel is an alloy\nM2 idea of a comparison of malleability between\npure iron and (high-carbon) steel\nM3 (pure) iron can be used in\ngates/railings/nails/wires/chains/cookware\nM4 (high-carbon) steel can be used in cutting\ntools/knives/blades/springs/bearings/hammers/rail\ntracks/car chassis\nM5 (high carbon) steel has different-sized atoms\n/particles (which disrupt the structure/regular\narrangement) ORA\nM6 which means layers (of atoms/metal\nions/particles) cannot slide over each other ORA\n\nALLOW pure iron is more malleable than high-carbon steel ORA\nALLOW car (bodies)/ship building/decorative metal works\nIGNORE cutlery/kitchen utensils\nALLOW ideas of load- bearing applications/building reinforcement\nALLOW steel has (both iron and carbon) atoms/particles which are of different sizes (and randomly arranged)\nALLOW rows or sheets any mention of intermolecular forces/ionic bonds/covalent bonds/bond breaking max 5 marks",
      "mark_points": [
       {
        "id": "2025-11-3-b-MP1",
@@ -370,27 +370,27 @@
       {
        "id": "2025-11-3-b-MP2",
        "marks": 1,
-       "text_md": "idea of a comparison of malleability between ALLOW pure iron is more\npure iron and (high-carbon) steel malleable than high-carbon"
+       "text_md": "idea of a comparison of malleability between\npure iron and (high-carbon) steel\nALLOW pure iron is more malleable than high-carbon steel ORA"
       },
       {
        "id": "2025-11-3-b-MP3",
        "marks": 1,
-       "text_md": "(pure) iron can be used in ALLOW car (bodies)/ship\ngates/railings/nails/wires/chains/cookware building/decorative metal"
+       "text_md": "(pure) iron can be used in\ngates/railings/nails/wires/chains/cookware\nALLOW car (bodies)/ship building/decorative metal works"
       },
       {
        "id": "2025-11-3-b-MP4",
        "marks": 1,
-       "text_md": "(high-carbon) steel can be used in cutting IGNORE cutlery/kitchen\ntools/knives/blades/springs/bearings/hammers/rail utensils\ntracks/car chassis ALLOW ideas of load-"
+       "text_md": "(high-carbon) steel can be used in cutting\ntools/knives/blades/springs/bearings/hammers/rail\ntracks/car chassis\nIGNORE cutlery/kitchen utensils\nALLOW ideas of load- bearing applications/building reinforcement"
       },
       {
        "id": "2025-11-3-b-MP5",
        "marks": 1,
-       "text_md": "(high carbon) steel has different-sized atoms ALLOW steel has (both iron\n/particles (which disrupt the structure/regular and carbon) atoms/particles\narrangement) ORA which are of different sizes"
+       "text_md": "(high carbon) steel has different-sized atoms\n/particles (which disrupt the structure/regular\narrangement) ORA\nALLOW steel has (both iron and carbon) atoms/particles which are of different sizes (and randomly arranged)"
       },
       {
        "id": "2025-11-3-b-MP6",
        "marks": 1,
-       "text_md": "which means layers (of atoms/metal ALLOW rows or sheets\nions/particles) cannot slide over each other ORA"
+       "text_md": "which means layers (of atoms/metal\nions/particles) cannot slide over each other ORA\nALLOW rows or sheets any mention of intermolecular forces/ionic bonds/covalent bonds/bond breaking max 5 marks"
       }
      ],
      "source_page": 10,
@@ -404,10 +404,10 @@
      "part_number": "3(c)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Zinc reacts with dilute sulfuric acid to produce zinc sulfate and hydrogen. This is the equation for the reaction. Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g) A mass of 16 g of zinc reacts with an excess of sulfuric acid. Calculate the maximum volume, at rtp, of hydrogen produced. [for hydrogen at rtp, molar volume = 24 dm3] volume of hydrogen = dm3",
+     "problem_md": "Zinc reacts with dilute sulfuric acid to produce zinc sulfate and hydrogen. This is the equation for the reaction. Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g) A mass of 16 g of zinc reacts with an excess of sulfuric acid. Calculate the maximum volume, at rtp, of hydrogen produced. [for hydrogen at rtp, molar volume = 24 dm3] volume of hydrogen = .......... dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer without\nM1 (amount of zinc =) 16 ÷ 65 OR 0.246 (mol) working scores 2\nM2 (volume of hydrogen = 0.246 x 24 =) 5.9 (dm3) ALLOW ECF for incorrect Ar\nALLOW answer correctly\nrounded to 1 sig.fig.",
+     "solution_md": "correct answer without\nM1 (amount of zinc =) 16 ÷ 65 OR 0.246 (mol) working scores 2\nM2 (volume of hydrogen = 0.246 x 24 =) 5.9 (dm3)\n\nALLOW ECF for incorrect Ar\nALLOW answer correctly rounded to 1 sig.fig.",
      "mark_points": [
       {
        "id": "2025-11-3-c-MP1",
@@ -417,7 +417,7 @@
       {
        "id": "2025-11-3-c-MP2",
        "marks": 1,
-       "text_md": "(volume of hydrogen = 0.246 x 24 =) 5.9 (dm3) ALLOW ECF for incorrect Ar"
+       "text_md": "(volume of hydrogen = 0.246 x 24 =) 5.9 (dm3)\nALLOW ECF for incorrect Ar\nALLOW answer correctly rounded to 1 sig.fig."
       }
      ],
      "source_page": 11,
@@ -434,12 +434,12 @@
      "problem_md": "The ionic half-equation at the negative electrode is Zn2+ + 2e– → Zn Give a reason why this half-equation shows reduction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Zn2+ /Zinc ions gain electrons ALLOW Zn cations\nREJECT Zn/Zinc gains\nelectrons",
+     "solution_md": "Zn2+ /Zinc ions gain electrons\n\nALLOW Zn cations\nREJECT Zn/Zinc gains electrons",
      "mark_points": [
       {
        "id": "2025-11-3-d-i-MP1",
        "marks": 1,
-       "text_md": "Zn2+ /Zinc ions gain electrons ALLOW Zn cations\nREJECT Zn/Zinc gains\nelectrons"
+       "text_md": "Zn2+ /Zinc ions gain electrons\n\nALLOW Zn cations\nREJECT Zn/Zinc gains electrons"
       }
      ],
      "source_page": 11,
@@ -453,15 +453,15 @@
      "part_number": "3(d)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the ionic half-equation for the reaction that could occur at the positive electrode. ……… …… OH– → … … … … … O2 + … … … … … H2O + … … … … … e–",
+     "problem_md": "Complete the ionic half-equation for the reaction that could occur at the positive electrode. ……… .......... …… OH– → … … … .......... … … O2 + … … … .......... … … H2O + … … … .......... … … e–",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "4OH- → (1)O2 + 2H2O + 4e− ALLOW multiples or\nfractions\nIGNORE state symbols even\nif incorrect",
+     "solution_md": "4OH- → (1)O2 + 2H2O + 4e−\n\nALLOW multiples or fractions\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2025-11-3-d-ii-MP1",
        "marks": 1,
-       "text_md": "4OH- → (1)O2 + 2H2O + 4e− ALLOW multiples or\nfractions\nIGNORE state symbols even\nif incorrect"
+       "text_md": "4OH- → (1)O2 + 2H2O + 4e−\n\nALLOW multiples or fractions\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 11,
@@ -478,17 +478,17 @@
      "problem_md": "A sample of the solution surrounding the positive electrode is tested with universal indicator. Explain the final colour of the universal indicator.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points:\nM1 concentration of hydroxide ions/OH- decreases ALLOW H+/hydrogen ions\nare formed\nIGNORE solution is\nacidic/H2SO4/acid is\nformed\nM2 so universal indicator turns red\nALLOW orange\nIGNORE yellow\nREJECT pink",
+     "solution_md": "An explanation that links the following two points:\nM1 concentration of hydroxide ions/OH- decreases\nM2 so universal indicator turns red\n\nALLOW H+/hydrogen ions are formed\nIGNORE solution is acidic/H2SO4/acid is formed\nALLOW orange\nIGNORE yellow\nREJECT pink",
      "mark_points": [
       {
        "id": "2025-11-3-d-iii-MP1",
        "marks": 1,
-       "text_md": "concentration of hydroxide ions/OH- decreases ALLOW H+/hydrogen ions"
+       "text_md": "concentration of hydroxide ions/OH- decreases\nALLOW H+/hydrogen ions are formed\nIGNORE solution is acidic/H2SO4/acid is formed"
       },
       {
        "id": "2025-11-3-d-iii-MP2",
        "marks": 1,
-       "text_md": "so universal indicator turns red"
+       "text_md": "so universal indicator turns red\nALLOW orange\nIGNORE yellow\nREJECT pink"
       }
      ],
      "source_page": 11,
@@ -544,17 +544,17 @@
      "problem_md": "State the pressure and catalyst used for this reaction to manufacture ethanol. pressure catalyst",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 Pressure: 60 – 70 atm/atmosphere(s) (inclusive) ACCEPT any pressure\nbetween 60 and 70\ninclusive\nACCEPT any correct\nalternative unit and\nquantity\nM2 Catalyst: Phosphoric acid ALLOW sulfuric acid\n/H2SO4",
+     "solution_md": "M1 Pressure: 60 – 70 atm/atmosphere(s) (inclusive)\nM2 Catalyst: Phosphoric acid\n\nACCEPT any pressure between 60 and 70 inclusive\nACCEPT any correct alternative unit and quantity\nALLOW sulfuric acid /H2SO4",
      "mark_points": [
       {
        "id": "2025-11-4-a-ii-MP1",
        "marks": 1,
-       "text_md": "Pressure: 60 – 70 atm/atmosphere(s) (inclusive) ACCEPT any pressure"
+       "text_md": "Pressure: 60 – 70 atm/atmosphere(s) (inclusive)\nACCEPT any pressure between 60 and 70 inclusive\nACCEPT any correct alternative unit and quantity"
       },
       {
        "id": "2025-11-4-a-ii-MP2",
        "marks": 1,
-       "text_md": "Catalyst: Phosphoric acid ALLOW sulfuric acid"
+       "text_md": "Catalyst: Phosphoric acid\nALLOW sulfuric acid /H2SO4"
       }
      ],
      "source_page": 12,
@@ -571,12 +571,12 @@
      "problem_md": "State the condition needed to prevent the formation of ethanoic acid.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "anaerobic/no O2 /absence of air IGNORE respiration",
+     "solution_md": "anaerobic/no O2 /absence of air\n\nIGNORE respiration",
      "mark_points": [
       {
        "id": "2025-11-4-b-i-MP1",
        "marks": 1,
-       "text_md": "anaerobic/no O2 /absence of air IGNORE respiration"
+       "text_md": "anaerobic/no O2 /absence of air\n\nIGNORE respiration"
       }
      ],
      "source_page": 12,
@@ -594,12 +594,12 @@
      "problem_md": "Explain why fermentation needs to happen in the range of 30 °C to 40 °C.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nM1 enzymes become inactive below 30°C ACCEPT ideas of rate\nof\nreaction/fermentation\nbeing too slow below\n30°C\nM2 yeast cells/enzymes denature above 40oC\nIf M1 and M2 not\nscored, (yeast contains)\nenzymes need an\noptimum temperature\nscores 1 mark",
+     "solution_md": "2\nM1 enzymes become inactive below 30°C\nM2 yeast cells/enzymes denature above 40oC\n\nACCEPT ideas of rate of reaction/fermentation being too slow below 30°C If M1 and M2 not scored, (yeast contains) enzymes need an optimum temperature scores 1 mark",
      "mark_points": [
       {
        "id": "2025-11-4-b-ii-MP1",
        "marks": 1,
-       "text_md": "enzymes become inactive below 30°C ACCEPT ideas of rate"
+       "text_md": "enzymes become inactive below 30°C\nACCEPT ideas of rate of reaction/fermentation being too slow below 30°C If M1 and M2 not scored, (yeast contains) enzymes need an optimum temperature scores 1 mark"
       },
       {
        "id": "2025-11-4-b-ii-MP2",
@@ -648,17 +648,17 @@
      "problem_md": "Deduce the name of the carboxylic acid and the name of the alcohol that react to form this ester. carboxylic acid alcohol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 carboxylic acid ethanoic acid ACCEPT acetic acid\nM2 alcohol butanol ACCEPT butan-1-ol/\n1-butanol",
+     "solution_md": "M1 carboxylic acid ethanoic acid\nM2 alcohol butanol\n\nACCEPT acetic acid\nACCEPT butan-1-ol/ 1-butanol",
      "mark_points": [
       {
        "id": "2025-11-4-c-ii-MP1",
        "marks": 1,
-       "text_md": "carboxylic acid ethanoic acid ACCEPT acetic acid"
+       "text_md": "carboxylic acid ethanoic acid\nACCEPT acetic acid"
       },
       {
        "id": "2025-11-4-c-ii-MP2",
        "marks": 1,
-       "text_md": "alcohol butanol ACCEPT butan-1-ol/"
+       "text_md": "alcohol butanol\nACCEPT butan-1-ol/ 1-butanol"
       }
      ],
      "source_page": 13,
@@ -697,17 +697,17 @@
      "problem_md": "Draw the structure of the repeat unit of the polyester formed from the two monomers.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ACCEPT\nM1 ester link ALLOW −COO−\nM2 rest of the molecule correct with or without M2 dep M1\nextension bonds ALLOW C2H4 / C3H6\nIGNORE brackets and n",
+     "solution_md": "M1 ester link\nM2 rest of the molecule correct with or without\nextension bonds\n\nACCEPT\nALLOW −COO− M2 dep M1\nALLOW C2H4 / C3H6\nIGNORE brackets and n",
      "mark_points": [
       {
        "id": "2025-11-4-d-ii-MP1",
        "marks": 1,
-       "text_md": "ester link ALLOW −COO−"
+       "text_md": "ester link\nACCEPT\nALLOW −COO− M2 dep M1"
       },
       {
        "id": "2025-11-4-d-ii-MP2",
        "marks": 1,
-       "text_md": "rest of the molecule correct with or without M2 dep M1\nextension bonds ALLOW C2H4 / C3H6"
+       "text_md": "rest of the molecule correct with or without\nextension bonds\nALLOW C2H4 / C3H6\nIGNORE brackets and n"
       }
      ],
      "source_page": 14,
@@ -769,17 +769,17 @@
      "problem_md": "Give a chemical test for the presence of water.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 anhydrous/white copper(II) sulfate/copper ALLOW anhydrous/blue\nsulfate/CuSO4 cobalt(II)\nchloride/cobalt chloride\nOR cobalt(II) chloride\npaper\nM2 turns (from white to) blue ALLOW turns (from blue\nto) pink\nM2 dep M1\nIGNORE water boils at\n100oC",
+     "solution_md": "M1 anhydrous/white copper(II) sulfate/copper\nsulfate/CuSO4\nM2 turns (from white to) blue\n\nALLOW anhydrous/blue cobalt(II) chloride/cobalt chloride OR cobalt(II) chloride paper\nALLOW turns (from blue to) pink M2 dep M1\nIGNORE water boils at 100oC",
      "mark_points": [
       {
        "id": "2025-11-5-a-MP1",
        "marks": 1,
-       "text_md": "anhydrous/white copper(II) sulfate/copper ALLOW anhydrous/blue\nsulfate/CuSO4 cobalt(II)"
+       "text_md": "anhydrous/white copper(II) sulfate/copper\nsulfate/CuSO4\nALLOW anhydrous/blue cobalt(II) chloride/cobalt chloride OR cobalt(II) chloride paper"
       },
       {
        "id": "2025-11-5-a-MP2",
        "marks": 1,
-       "text_md": "turns (from white to) blue ALLOW turns (from blue"
+       "text_md": "turns (from white to) blue\nALLOW turns (from blue to) pink M2 dep M1\nIGNORE water boils at 100oC"
       }
      ],
      "source_page": 15,
@@ -879,12 +879,12 @@
      "problem_md": "Potassium iodide has been suggested as an alternative catalyst to manganese(IV) oxide. Describe a method to show which catalyst is more effective for the decomposition of hydrogen peroxide.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to five of the following seven\npoints:\nM1 add the same mass of the potassium iodide to the ALLOW same surface\nconical flask area of catalyst\nM2 add the same volume of hydrogen peroxide\nM3 keep the temperature constant\nM4 start/set the timer\nM5 record the volume of gas produced in a given time\nOR record the time for certain volume of gas to be\nevolved\nM6 plot the results of the graph and calculate OR\ncompare gradient (steepness) for each catalyst\nM7 the more effective catalyst gives the fastest rate\nof reaction OWTTE",
+     "solution_md": "A description that refers to five of the following seven\npoints:\nM1 add the same mass of the potassium iodide to the\nconical flask\nM2 add the same volume of hydrogen peroxide\nM3 keep the temperature constant\nM4 start/set the timer\nM5 record the volume of gas produced in a given time\nOR record the time for certain volume of gas to be\nevolved\nM6 plot the results of the graph and calculate OR\ncompare gradient (steepness) for each catalyst\nM7 the more effective catalyst gives the fastest rate\nof reaction OWTTE\n\nALLOW same surface area of catalyst",
      "mark_points": [
       {
        "id": "2025-11-5-c-MP1",
        "marks": 5,
-       "text_md": "A description that refers to five of the following seven\npoints:\nM1 add the same mass of the potassium iodide to the ALLOW same surface\nconical flask area of catalyst\nM2 add the same volume of hydrogen peroxide\nM3 keep the temperature constant\nM4 start/set the timer\nM5 record the volume of gas produced in a given time\nOR record the time for certain volume of gas to be\nevolved\nM6 plot the results of the graph and calculate OR\ncompare gradient (steepness) for each catalyst\nM7 the more effective catalyst gives the fastest rate\nof reaction OWTTE"
+       "text_md": "A description that refers to five of the following seven\npoints:\nM1 add the same mass of the potassium iodide to the\nconical flask\nM2 add the same volume of hydrogen peroxide\nM3 keep the temperature constant\nM4 start/set the timer\nM5 record the volume of gas produced in a given time\nOR record the time for certain volume of gas to be\nevolved\nM6 plot the results of the graph and calculate OR\ncompare gradient (steepness) for each catalyst\nM7 the more effective catalyst gives the fastest rate\nof reaction OWTTE\n\nALLOW same surface area of catalyst"
       }
      ],
      "source_page": 17,
@@ -915,22 +915,22 @@
      "problem_md": "Complete the reaction profile diagram to show the levels of the reactants, the products and the activation energy, Ea . energy",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 two horizontal lines in correct positions ALLOW product line\ndirectly below reactants\nline\nM2 horizontal lines labelled correctly with formulae IGNORE incorrect letter\nof reactants and products cases and\nsubscripts/superscripts\nM3 vertical line in correct position and labelled Ea ALLOW ECF from M1\nREJECT downwards\npointing arrow/double-\nheaded arrow\n/no arrowhead",
+     "solution_md": "M1 two horizontal lines in correct positions\nM2 horizontal lines labelled correctly with formulae\nof reactants and products\nM3 vertical line in correct position and labelled Ea\n\nALLOW product line directly below reactants line\nIGNORE incorrect letter cases and subscripts/superscripts\nALLOW ECF from M1\nREJECT downwards pointing arrow/double- headed arrow /no arrowhead",
      "mark_points": [
       {
        "id": "2025-11-6-a-MP1",
        "marks": 1,
-       "text_md": "two horizontal lines in correct positions ALLOW product line"
+       "text_md": "two horizontal lines in correct positions\nALLOW product line directly below reactants line"
       },
       {
        "id": "2025-11-6-a-MP2",
        "marks": 1,
-       "text_md": "horizontal lines labelled correctly with formulae IGNORE incorrect letter\nof reactants and products cases and"
+       "text_md": "horizontal lines labelled correctly with formulae\nof reactants and products\nIGNORE incorrect letter cases and subscripts/superscripts"
       },
       {
        "id": "2025-11-6-a-MP3",
        "marks": 1,
-       "text_md": "vertical line in correct position and labelled Ea ALLOW ECF from M1"
+       "text_md": "vertical line in correct position and labelled Ea\nALLOW ECF from M1\nREJECT downwards pointing arrow/double- headed arrow /no arrowhead"
       }
      ],
      "source_page": 18,
@@ -957,15 +957,15 @@
      "part_number": "6(b)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "The table gives some bond energies. Bond C H Cl Cl H Cl Bond energy in kJ / mol 414 242 431 Using information from the equation and the table, calculate the bond energy of the C Cl bond. C Cl bond energy = kJ / mol",
+     "problem_md": "The table gives some bond energies. Bond C H Cl Cl H Cl Bond energy in kJ / mol 414 242 431 Using information from the equation and the table, calculate the bond energy of the C Cl bond. C Cl bond energy = .......... kJ / mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer without\nworking scores 5\nM1 ∑ bond energies on LHS = (3 x 414) + (1 x C-Cl) +\n(3 x 242) OR (1 x C-Cl) + 1968 (kJ/mol)\nM2 ∑ bond energies on RHS = (4 x C−Cl) + (3 x 431)\nOR (4 x C−Cl) + 1293 (kJ/mol)\nM3 (1 x C-Cl + 1968) − (4 x C−Cl + 1293) = −339 ALLOW ECF calculation\nof Bonds broken – Bonds\nMade = -339\nM4 (3 x C−Cl = 339 + 675) OR 1014\nM5 (C−Cl = 1014 ÷ 3 =) 338 (kJ/mol)\nALLOW ECF throughout",
+     "solution_md": "correct answer without\nM1 ∑ bond energies on LHS = (3 x 414) + (1 x C-Cl) +\n(3 x 242) OR (1 x C-Cl) + 1968 (kJ/mol)\nM2 ∑ bond energies on RHS = (4 x C−Cl) + (3 x 431)\nOR (4 x C−Cl) + 1293 (kJ/mol)\nM3 (1 x C-Cl + 1968) − (4 x C−Cl + 1293) = −339\nM4 (3 x C−Cl = 339 + 675) OR 1014\nM5 (C−Cl = 1014 ÷ 3 =) 338 (kJ/mol)\n\nworking scores 5\nALLOW ECF calculation of Bonds broken – Bonds Made = -339\nALLOW ECF throughout",
      "mark_points": [
       {
        "id": "2025-11-6-b-MP1",
        "marks": 1,
-       "text_md": "∑ bond energies on LHS = (3 x 414) + (1 x C-Cl) +\n(3 x 242) OR (1 x C-Cl) + 1968 (kJ/mol)"
+       "text_md": "∑ bond energies on LHS = (3 x 414) + (1 x C-Cl) +\n(3 x 242) OR (1 x C-Cl) + 1968 (kJ/mol)\nworking scores 5"
       },
       {
        "id": "2025-11-6-b-MP2",
@@ -975,7 +975,7 @@
       {
        "id": "2025-11-6-b-MP3",
        "marks": 1,
-       "text_md": "(1 x C-Cl + 1968) − (4 x C−Cl + 1293) = −339 ALLOW ECF calculation"
+       "text_md": "(1 x C-Cl + 1968) − (4 x C−Cl + 1293) = −339\nALLOW ECF calculation of Bonds broken – Bonds Made = -339"
       },
       {
        "id": "2025-11-6-b-MP4",
@@ -985,7 +985,7 @@
       {
        "id": "2025-11-6-b-MP5",
        "marks": 1,
-       "text_md": "(C−Cl = 1014 ÷ 3 =) 338 (kJ/mol)"
+       "text_md": "(C−Cl = 1014 ÷ 3 =) 338 (kJ/mol)\nALLOW ECF throughout"
       }
      ],
      "source_page": 19,

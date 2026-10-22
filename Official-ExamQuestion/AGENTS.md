@@ -7,6 +7,23 @@
 > Gates fail closed: a paper ships only when every gate passes, and anything the
 > pipeline cannot prove becomes a human review item — never a guess.
 
+## Wave 16 state (serving experience, v0.14.0)
+
+- The archive of record stays VERBATIM; the hub bundle is the presentation
+  layer. Typography (F57), stem serving (F58), the MS de-interleave (F53),
+  total-row drops (F54), dot-restored blanks (F55) and the picture-MCQ
+  promotions (F56) live in the converter emission + exporter v4 and are gated
+  by exporter G-E6 (tag-strip, stem coverage, serving-shape pins) next to the
+  F51 data-cut G-E5 law.
+- DOTRUN_RE is deliberately LINEAR — never 'optimise' it back to the
+  (?:\s*\.\s*){4,} form: it backtracks catastrophically on -layout answer
+  templates (dots → dots) and hangs the run at 100% CPU (2021-01 2C).
+- MCQ-KEYS.json entries are paper-aware: the series field doubles as the C31
+  corpus home ('<series>:<paper>' for non-1C papers); the converter splits it.
+- The verify harness's EXPECTED_CENSUS carries the 22 R-variant constants; its
+  disclosed-class vocabulary includes choices/questionType for the wave-16
+  census. Extend both per its own update law when a wave changes them.
+
 ## What lives here
 
 ```

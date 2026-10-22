@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:46Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2023-06 paper=1C",
+ "generated_utc": "2026-10-22T14:42:15Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2023-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-06:4CH1/1C",
  "source": {
   "qp_sha256": "db3e6fdfb62c0357798a5bda8d755facdada1bd0a43d1439565b737ca26fb817",
@@ -81,12 +81,12 @@
      "problem_md": "Give the best method for obtaining pure water from seawater.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "simple distillation ACCEPT distillation",
+     "solution_md": "simple distillation\n\nACCEPT distillation",
      "mark_points": [
       {
        "id": "2023-06-1-a-iii-MP1",
        "marks": 1,
-       "text_md": "simple distillation ACCEPT distillation"
+       "text_md": "simple distillation\n\nACCEPT distillation"
       }
      ],
      "source_page": 4,
@@ -100,10 +100,10 @@
      "part_number": "1(b)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "A sample of solid hydrated copper(II) sulfate can be obtained from a mixture of copper(II) oxide and copper(II) sulfate. Complete the passage by using words from the box. The mixture of copper(II) oxide and copper(II) sulfate can be separated by first the copper(II) sulfate in distilled water. The copper(II) oxide is then removed by Some of the water from the copper(II) sulfate solution is then removed by A pure sample of hydrated copper(II) sulfate is then obtained by",
+     "problem_md": "A sample of solid hydrated copper(II) sulfate can be obtained from a mixture of copper(II) oxide and copper(II) sulfate. Complete the passage by using words from the box. The mixture of copper(II) oxide and copper(II) sulfate can be separated by first .......... the copper(II) sulfate in distilled water. The copper(II) oxide is then removed by Some of the water from the copper(II) sulfate solution is then removed by A pure sample of hydrated copper(II) sulfate is then obtained by",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 A mixture of copper(II) oxide and copper(II)\nsulfate can be separated by first dissolving the\ncopper(II) sulfate in distilled water.\nM2 The copper(II) oxide is then removed by filtering ACCEPT filtration\nM3 Some of the water from the copper(II) sulfate ACCEPT evaporation\nsolution is then removed by evaporating\nACCEPT simple\ndistillation\nM4 A pure sample of hydrated copper(II) sulfate is ACCEPT crystallising\nthen obtained by crystallisation",
+     "solution_md": "M1 A mixture of copper(II) oxide and copper(II)\nsulfate can be separated by first dissolving the\ncopper(II) sulfate in distilled water.\nM2 The copper(II) oxide is then removed by filtering\nM3 Some of the water from the copper(II) sulfate\nsolution is then removed by evaporating\nM4 A pure sample of hydrated copper(II) sulfate is\nthen obtained by crystallisation\n\nACCEPT filtration\nACCEPT evaporation\nACCEPT simple distillation\nACCEPT crystallising",
      "mark_points": [
       {
        "id": "2023-06-1-b-MP1",
@@ -113,17 +113,17 @@
       {
        "id": "2023-06-1-b-MP2",
        "marks": 1,
-       "text_md": "The copper(II) oxide is then removed by filtering ACCEPT filtration"
+       "text_md": "The copper(II) oxide is then removed by filtering\nACCEPT filtration"
       },
       {
        "id": "2023-06-1-b-MP3",
        "marks": 1,
-       "text_md": "Some of the water from the copper(II) sulfate ACCEPT evaporation\nsolution is then removed by evaporating"
+       "text_md": "Some of the water from the copper(II) sulfate\nsolution is then removed by evaporating\nACCEPT evaporation\nACCEPT simple distillation"
       },
       {
        "id": "2023-06-1-b-MP4",
        "marks": 1,
-       "text_md": "A pure sample of hydrated copper(II) sulfate is ACCEPT crystallising\nthen obtained by crystallisation"
+       "text_md": "A pure sample of hydrated copper(II) sulfate is\nthen obtained by crystallisation\nACCEPT crystallising"
       }
      ],
      "source_page": 5,
@@ -155,12 +155,12 @@
      "problem_md": "Give the chemical name of the compound that forms when iron rusts.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(hydrated) iron(III) oxide / Fe2O3 IGNORE iron oxide\nREJECT iron(II) oxide",
+     "solution_md": "(hydrated) iron(III) oxide / Fe2O3\n\nIGNORE iron oxide\nREJECT iron(II) oxide",
      "mark_points": [
       {
        "id": "2023-06-2-a-i-MP1",
        "marks": 1,
-       "text_md": "(hydrated) iron(III) oxide / Fe2O3 IGNORE iron oxide\nREJECT iron(II) oxide"
+       "text_md": "(hydrated) iron(III) oxide / Fe2O3\n\nIGNORE iron oxide\nREJECT iron(II) oxide"
       }
      ],
      "source_page": 6,
@@ -221,12 +221,12 @@
      "problem_md": "Galvanising is a method used to prevent iron from rusting. Give the name of the metal used to galvanise iron.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "zinc ALLOW Zn",
+     "solution_md": "zinc\n\nALLOW Zn",
      "mark_points": [
       {
        "id": "2023-06-2-a-iii-MP1",
        "marks": 1,
-       "text_md": "zinc ALLOW Zn"
+       "text_md": "zinc\n\nALLOW Zn"
       }
      ],
      "source_page": 6,
@@ -243,12 +243,12 @@
      "problem_md": "Give a chemical equation for the reaction between iron and sulfuric acid.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Fe + H2SO4 → FeSO4 + H2 ALLOW multiples and\nfractions\nIGNORE state symbols\neven if incorrect",
+     "solution_md": "Fe + H2SO4 → FeSO4 + H2\n\nALLOW multiples and fractions\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2023-06-2-b-i-MP1",
        "marks": 1,
-       "text_md": "Fe + H2SO4 → FeSO4 + H2 ALLOW multiples and\nfractions\nIGNORE state symbols\neven if incorrect"
+       "text_md": "Fe + H2SO4 → FeSO4 + H2\n\nALLOW multiples and fractions\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 6,
@@ -266,12 +266,12 @@
      "problem_md": "Give a test for hydrogen.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(squeaky) pop with lighted splint/lit with a (Bunsen) IGNORE just ‘burns\nflame with a squeaky pop’\nREJECT use of glowing\nsplint",
+     "solution_md": "(squeaky) pop with lighted splint/lit with a (Bunsen)\nflame\n\nIGNORE just ‘burns with a squeaky pop’\nREJECT use of glowing splint",
      "mark_points": [
       {
        "id": "2023-06-2-b-ii-MP1",
        "marks": 1,
-       "text_md": "(squeaky) pop with lighted splint/lit with a (Bunsen) IGNORE just ‘burns\nflame with a squeaky pop’\nREJECT use of glowing\nsplint"
+       "text_md": "(squeaky) pop with lighted splint/lit with a (Bunsen)\nflame\n\nIGNORE just ‘burns with a squeaky pop’\nREJECT use of glowing splint"
       }
      ],
      "source_page": 6,
@@ -288,12 +288,12 @@
      "problem_md": "Name the type of reaction that occurs.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "displacement ACCEPT redox\n/oxidation and\nreduction",
+     "solution_md": "displacement\n\nACCEPT redox /oxidation and reduction",
      "mark_points": [
       {
        "id": "2023-06-2-c-i-MP1",
        "marks": 1,
-       "text_md": "displacement ACCEPT redox\n/oxidation and\nreduction"
+       "text_md": "displacement\n\nACCEPT redox /oxidation and reduction"
       }
      ],
      "source_page": 7,
@@ -310,12 +310,12 @@
      "problem_md": "State the appearance of the solid that forms in the reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "pink-brown /pink (solid) ACCEPT pink / brown\n/ orange alone or in\ncombinations eg\norange-brown\nALLOW red-brown\nREJECT red\nIGNORE copper",
+     "solution_md": "pink-brown /pink (solid)\n\nACCEPT pink / brown / orange alone or in combinations eg orange-brown\nALLOW red-brown\nREJECT red\nIGNORE copper",
      "mark_points": [
       {
        "id": "2023-06-2-c-ii-MP1",
        "marks": 1,
-       "text_md": "pink-brown /pink (solid) ACCEPT pink / brown\n/ orange alone or in\ncombinations eg\norange-brown\nALLOW red-brown\nREJECT red\nIGNORE copper"
+       "text_md": "pink-brown /pink (solid)\n\nACCEPT pink / brown / orange alone or in combinations eg orange-brown\nALLOW red-brown\nREJECT red\nIGNORE copper"
       }
      ],
      "source_page": 7,
@@ -332,12 +332,12 @@
      "problem_md": "Give the reason why no reaction occurs when iron is added to magnesium sulfate solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "iron is less reactive/lower in the reactivity series (than IGNORE just ‘iron is\nmagnesium) ORA not reactive enough’\nwith no comparison",
+     "solution_md": "iron is less reactive/lower in the reactivity series (than\nmagnesium) ORA\n\nIGNORE just ‘iron is not reactive enough’ with no comparison",
      "mark_points": [
       {
        "id": "2023-06-2-d-MP1",
        "marks": 1,
-       "text_md": "iron is less reactive/lower in the reactivity series (than IGNORE just ‘iron is\nmagnesium) ORA not reactive enough’\nwith no comparison"
+       "text_md": "iron is less reactive/lower in the reactivity series (than\nmagnesium) ORA\n\nIGNORE just ‘iron is not reactive enough’ with no comparison"
       }
      ],
      "source_page": 7,
@@ -374,12 +374,12 @@
      "problem_md": "Complete the table by giving the missing information.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Type of bonding Type of structure\n(X) covalent simple molecular\n(Y) M1 covalent\nM2 giant (covalent) ALLOW giant molecular\n/giant covalent lattice\nACCEPT macromolecular\n(Z) M3 ionic\nM4 giant (ionic) lattice ALLOW (ionic) lattice\nIGNORE ‘giant’ alone",
+     "solution_md": "Type of bonding Type of structure\n(X) covalent simple molecular\n(Y) M1 covalent\nM2 giant (covalent)\n(Z) M3 ionic\nM4 giant (ionic) lattice\n\nALLOW giant molecular /giant covalent lattice\nACCEPT macromolecular\nALLOW (ionic) lattice\nIGNORE ‘giant’ alone",
      "mark_points": [
       {
        "id": "2023-06-3-a-MP1",
        "marks": 4,
-       "text_md": "Type of bonding Type of structure\n(X) covalent simple molecular\n(Y) M1 covalent\nM2 giant (covalent) ALLOW giant molecular\n/giant covalent lattice\nACCEPT macromolecular\n(Z) M3 ionic\nM4 giant (ionic) lattice ALLOW (ionic) lattice\nIGNORE ‘giant’ alone"
+       "text_md": "Type of bonding Type of structure\n(X) covalent simple molecular\n(Y) M1 covalent\nM2 giant (covalent)\n(Z) M3 ionic\nM4 giant (ionic) lattice\n\nALLOW giant molecular /giant covalent lattice\nACCEPT macromolecular\nALLOW (ionic) lattice\nIGNORE ‘giant’ alone"
       }
      ],
      "source_page": 8,
@@ -413,17 +413,17 @@
      "problem_md": "Explain why substance X has a low melting point.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following points\nM1 (X has) weak intermolecular forces / weak ALLOW weak intermolecular\nforces between molecules bonds / weak bonds between\nmolecules\nIGNORE less energy\nM2 (so) little energy needed to overcome the REJECT any reference to\nforces/separate the molecules / the forces weak covalent bonds or\nrequire little energy to break covalent bonds being broken\nor ionic bonds for both\nmarks.\nREJECT intermolecular\nforces between atoms/bonds\nfor both marks",
+     "solution_md": "An explanation that links the following points\nM1 (X has) weak intermolecular forces / weak\nforces between molecules\nM2 (so) little energy needed to overcome the\nforces/separate the molecules / the forces\nrequire little energy to break\n\nALLOW weak intermolecular bonds / weak bonds between molecules\nIGNORE less energy\nREJECT any reference to weak covalent bonds or covalent bonds being broken or ionic bonds for both marks.\nREJECT intermolecular forces between atoms/bonds for both marks",
      "mark_points": [
       {
        "id": "2023-06-3-b-MP1",
        "marks": 1,
-       "text_md": "(X has) weak intermolecular forces / weak ALLOW weak intermolecular\nforces between molecules bonds / weak bonds between"
+       "text_md": "(X has) weak intermolecular forces / weak\nforces between molecules\nALLOW weak intermolecular bonds / weak bonds between molecules\nIGNORE less energy"
       },
       {
        "id": "2023-06-3-b-MP2",
        "marks": 1,
-       "text_md": "(so) little energy needed to overcome the REJECT any reference to\nforces/separate the molecules / the forces weak covalent bonds or\nrequire little energy to break covalent bonds being broken"
+       "text_md": "(so) little energy needed to overcome the\nforces/separate the molecules / the forces\nrequire little energy to break\nREJECT any reference to weak covalent bonds or covalent bonds being broken or ionic bonds for both marks.\nREJECT intermolecular forces between atoms/bonds for both marks"
       }
      ],
      "source_page": 8,
@@ -447,15 +447,15 @@
      "part_number": "4(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two characteristics of a homologous series. 1 2",
+     "problem_md": "Give two characteristics of a homologous series. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any two from IGNORE references to a\nspecific homologous series\nM1 same general formula\nM2 same functional group\nM3 each member differs from the next by CH2\nM4 similar chemical properties / (chemical) ALLOW same chemical\nreactions properties / (chemical)\nreactions\nM5 trend/change/increase in physical properties ACCEPT named physical\nproperty e.g. trend in\nboiling points\nREJECT same / similar\nphysical properties",
+     "solution_md": "Any two from\nM1 same general formula\nM2 same functional group\nM3 each member differs from the next by CH2\nM4 similar chemical properties / (chemical)\nreactions\nM5 trend/change/increase in physical properties\n\nIGNORE references to a specific homologous series\nALLOW same chemical properties / (chemical) reactions\nACCEPT named physical property e.g. trend in boiling points\nREJECT same / similar physical properties",
      "mark_points": [
       {
        "id": "2023-06-4-a-i-MP1",
        "marks": 2,
-       "text_md": "Any two from IGNORE references to a\nspecific homologous series\nM1 same general formula\nM2 same functional group\nM3 each member differs from the next by CH2\nM4 similar chemical properties / (chemical) ALLOW same chemical\nreactions properties / (chemical)\nreactions\nM5 trend/change/increase in physical properties ACCEPT named physical\nproperty e.g. trend in\nboiling points\nREJECT same / similar\nphysical properties"
+       "text_md": "Any two from\nM1 same general formula\nM2 same functional group\nM3 each member differs from the next by CH2\nM4 similar chemical properties / (chemical)\nreactions\nM5 trend/change/increase in physical properties\n\nIGNORE references to a specific homologous series\nALLOW same chemical properties / (chemical) reactions\nACCEPT named physical property e.g. trend in boiling points\nREJECT same / similar physical properties"
       }
      ],
      "source_page": 9,
@@ -472,17 +472,17 @@
      "problem_md": "Draw a dot-and-cross diagram to show the bonding in a molecule of ethene. Show outer electrons only.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ACCEPT any combination\nof dots and crosses\nACCEPT with or without\nshells drawn\nIGNORE inner shells on\ncarbon atoms\nM1 two shared pairs of electrons between two REJECT if non-bonding\ncarbon atoms electrons shown on carbon\nM2 shared pair of electrons between each hydrogen REJECT if non-bonding\nand the carbon it is bonded to electrons shown on\nhydrogen",
+     "solution_md": "M1 two shared pairs of electrons between two\ncarbon atoms\nM2 shared pair of electrons between each hydrogen\nand the carbon it is bonded to\n\nACCEPT any combination of dots and crosses\nACCEPT with or without shells drawn\nIGNORE inner shells on carbon atoms\nREJECT if non-bonding electrons shown on carbon\nREJECT if non-bonding electrons shown on hydrogen",
      "mark_points": [
       {
        "id": "2023-06-4-a-ii-MP1",
        "marks": 1,
-       "text_md": "two shared pairs of electrons between two REJECT if non-bonding\ncarbon atoms electrons shown on carbon"
+       "text_md": "two shared pairs of electrons between two\ncarbon atoms\nACCEPT any combination of dots and crosses\nACCEPT with or without shells drawn\nIGNORE inner shells on carbon atoms\nREJECT if non-bonding electrons shown on carbon"
       },
       {
        "id": "2023-06-4-a-ii-MP2",
        "marks": 1,
-       "text_md": "shared pair of electrons between each hydrogen REJECT if non-bonding\nand the carbon it is bonded to electrons shown on"
+       "text_md": "shared pair of electrons between each hydrogen\nand the carbon it is bonded to\nREJECT if non-bonding electrons shown on hydrogen"
       }
      ],
      "source_page": 9,
@@ -499,12 +499,12 @@
      "problem_md": "State why the empirical formula of all alkenes in this homologous series is CH2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "There are twice as many hydrogen atoms as carbon ACCEPT general formula is\natoms (in every alkene) OWTTE CnH2n\nACCEPT it is the lowest\nwhole number ratio of\natoms in alkenes",
+     "solution_md": "There are twice as many hydrogen atoms as carbon\natoms (in every alkene) OWTTE\n\nACCEPT general formula is CnH2n\nACCEPT it is the lowest whole number ratio of atoms in alkenes",
      "mark_points": [
       {
        "id": "2023-06-4-b-i-MP1",
        "marks": 1,
-       "text_md": "There are twice as many hydrogen atoms as carbon ACCEPT general formula is\natoms (in every alkene) OWTTE CnH2n\nACCEPT it is the lowest\nwhole number ratio of\natoms in alkenes"
+       "text_md": "There are twice as many hydrogen atoms as carbon\natoms (in every alkene) OWTTE\n\nACCEPT general formula is CnH2n\nACCEPT it is the lowest whole number ratio of atoms in alkenes"
       }
      ],
      "source_page": 10,
@@ -522,12 +522,12 @@
      "problem_md": "Propene can be polymerised to form poly(propene). Draw the displayed formula of propene and the repeat unit of poly(propene). propene repeat unit of poly(propene)",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1\nALLOW methyl group to be\nshown as -CH3 rather than\nfully displayed\nM2 H H\nI I IGNORE brackets and n\n−C − C−\nI I REJECT structure without\nH CH3 extension bonds",
+     "solution_md": "M1\nM2 H H\nI I\n−C − C−\nI I\nH CH3\n\nALLOW methyl group to be shown as -CH3 rather than fully displayed\nIGNORE brackets and n\nREJECT structure without extension bonds",
      "mark_points": [
       {
        "id": "2023-06-4-b-ii-MP1",
        "marks": 2,
-       "text_md": "M1\nALLOW methyl group to be\nshown as -CH3 rather than\nfully displayed\nM2 H H\nI I IGNORE brackets and n\n−C − C−\nI I REJECT structure without\nH CH3 extension bonds"
+       "text_md": "M1\nM2 H H\nI I\n−C − C−\nI I\nH CH3\n\nALLOW methyl group to be shown as -CH3 rather than fully displayed\nIGNORE brackets and n\nREJECT structure without extension bonds"
       }
      ],
      "source_page": 10,
@@ -572,22 +572,22 @@
      "problem_md": "Explain why this compound is an unsaturated hydrocarbon.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three points\nM1 made up of carbon/C and hydrogen/H (atoms) REJECT carbon and\nhydrogen molecules in M1\nM2 only M2 dep on mention of just\ncarbon and hydrogen in M1\nM3 contains (two) C=C / (carbon-carbon) double ALLOW contains a (carbon-\nbonds carbon) double bond",
+     "solution_md": "An explanation that links the following three points\nM1 made up of carbon/C and hydrogen/H (atoms)\nM2 only\nM3 contains (two) C=C / (carbon-carbon) double\nbonds\n\nREJECT carbon and hydrogen molecules in M1 M2 dep on mention of just carbon and hydrogen in M1\nALLOW contains a (carbon- carbon) double bond",
      "mark_points": [
       {
        "id": "2023-06-4-c-ii-MP1",
        "marks": 1,
-       "text_md": "made up of carbon/C and hydrogen/H (atoms) REJECT carbon and"
+       "text_md": "made up of carbon/C and hydrogen/H (atoms)\nREJECT carbon and hydrogen molecules in M1 M2 dep on mention of just carbon and hydrogen in M1"
       },
       {
        "id": "2023-06-4-c-ii-MP2",
        "marks": 1,
-       "text_md": "only M2 dep on mention of just"
+       "text_md": "only"
       },
       {
        "id": "2023-06-4-c-ii-MP3",
        "marks": 1,
-       "text_md": "contains (two) C=C / (carbon-carbon) double ALLOW contains a (carbon-\nbonds carbon) double bond"
+       "text_md": "contains (two) C=C / (carbon-carbon) double\nbonds\nALLOW contains a (carbon- carbon) double bond"
       }
      ],
      "source_page": 11,
@@ -605,17 +605,17 @@
      "problem_md": "Describe a test to show that this hydrocarbon is unsaturated.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two points\nM1 add bromine water REJECT add bromine for\nM1\nM2 (bromine water) decolourised / turns (from M2 dep on reference to\norange/yellow to) colourless bromine in M1\nIGNORE incorrect initial\ncolour\nREJECT if reference to uv\nbeing needed for reaction\nto take place",
+     "solution_md": "A description that refers to the following two points\nM1 add bromine water\nM2 (bromine water) decolourised / turns (from\norange/yellow to) colourless\n\nREJECT add bromine for M1 M2 dep on reference to bromine in M1\nIGNORE incorrect initial colour\nREJECT if reference to uv being needed for reaction to take place",
      "mark_points": [
       {
        "id": "2023-06-4-c-iii-MP1",
        "marks": 1,
-       "text_md": "add bromine water REJECT add bromine for"
+       "text_md": "add bromine water\nREJECT add bromine for M1 M2 dep on reference to bromine in M1"
       },
       {
        "id": "2023-06-4-c-iii-MP2",
        "marks": 1,
-       "text_md": "(bromine water) decolourised / turns (from M2 dep on reference to\norange/yellow to) colourless bromine in M1"
+       "text_md": "(bromine water) decolourised / turns (from\norange/yellow to) colourless\nIGNORE incorrect initial colour\nREJECT if reference to uv being needed for reaction to take place"
       }
      ],
      "source_page": 11,
@@ -649,15 +649,15 @@
      "part_number": "5(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two other observations when lithium reacts with water. 1 2",
+     "problem_md": "Give two other observations when lithium reacts with water. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any two from:\nM1 effervescence/fizzing/bubbles IGNORE hydrogen / gas\nformed\nM2 lithium becomes smaller/disappears ALLOW lithium dissolves\nM3 moves (across the surface) IGNORE melts / forms a\nball / flame",
+     "solution_md": "Any two from:\nM1 effervescence/fizzing/bubbles\nM2 lithium becomes smaller/disappears\nM3 moves (across the surface)\n\nIGNORE hydrogen / gas formed\nALLOW lithium dissolves\nIGNORE melts / forms a ball / flame",
      "mark_points": [
       {
        "id": "2023-06-5-a-i-MP1",
        "marks": 2,
-       "text_md": "Any two from:\nM1 effervescence/fizzing/bubbles IGNORE hydrogen / gas\nformed\nM2 lithium becomes smaller/disappears ALLOW lithium dissolves\nM3 moves (across the surface) IGNORE melts / forms a\nball / flame"
+       "text_md": "Any two from:\nM1 effervescence/fizzing/bubbles\nM2 lithium becomes smaller/disappears\nM3 moves (across the surface)\n\nIGNORE hydrogen / gas formed\nALLOW lithium dissolves\nIGNORE melts / forms a ball / flame"
       }
      ],
      "source_page": 12,
@@ -674,7 +674,7 @@
      "problem_md": "A few drops of methyl orange are added to the solution in the trough. Explain the final colour of the solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (solution turns) yellow\nM2 (solution is) an alkali/alkaline ACCEPT lithium\nhydroxide / hydroxide\nions / OH− ions formed\nALLOW basic",
+     "solution_md": "M1 (solution turns) yellow\nM2 (solution is) an alkali/alkaline\n\nACCEPT lithium hydroxide / hydroxide ions / OH− ions formed\nALLOW basic",
      "mark_points": [
       {
        "id": "2023-06-5-a-ii-MP1",
@@ -684,7 +684,7 @@
       {
        "id": "2023-06-5-a-ii-MP2",
        "marks": 1,
-       "text_md": "(solution is) an alkali/alkaline ACCEPT lithium"
+       "text_md": "(solution is) an alkali/alkaline\nACCEPT lithium hydroxide / hydroxide ions / OH− ions formed\nALLOW basic"
       }
      ],
      "source_page": 12,
@@ -702,32 +702,32 @@
      "problem_md": "An unlabelled bottle containing a white powder is found in a laboratory. Describe tests to show that the white powder in the bottle is lithium carbonate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following five points\nM1 flame test ACCEPT description of\nflame test\nIGNORE ‘burning’\nM2 red (flame) ACCEPT crimson\nREJECT brick-red\nM3 add (dilute hydrochloric) acid ACCEPT nitric or sulfuric\nacid\nREJECT if additional\nincorrect reagent given\neg silver nitrate\nM4 (pass/bubble) gas/carbon dioxide into limewater M4 dep on acid in M3\nM5 (limewater) turns cloudy/milky / white ppt M5 dep on use of\nforms limewater\nNo M4 or M5 if limewater\nadded directly to the\nsolution",
+     "solution_md": "A description that refers to the following five points\nM1 flame test\nM2 red (flame)\nM3 add (dilute hydrochloric) acid\nM4 (pass/bubble) gas/carbon dioxide into limewater\nM5 (limewater) turns cloudy/milky / white ppt\nforms\n\nACCEPT description of flame test\nIGNORE ‘burning’\nACCEPT crimson\nREJECT brick-red\nACCEPT nitric or sulfuric acid\nREJECT if additional incorrect reagent given eg silver nitrate M4 dep on acid in M3 M5 dep on use of limewater No M4 or M5 if limewater added directly to the solution",
      "mark_points": [
       {
        "id": "2023-06-5-b-MP1",
        "marks": 1,
-       "text_md": "flame test ACCEPT description of"
+       "text_md": "flame test\nACCEPT description of flame test\nIGNORE ‘burning’"
       },
       {
        "id": "2023-06-5-b-MP2",
        "marks": 1,
-       "text_md": "red (flame) ACCEPT crimson"
+       "text_md": "red (flame)\nACCEPT crimson\nREJECT brick-red"
       },
       {
        "id": "2023-06-5-b-MP3",
        "marks": 1,
-       "text_md": "add (dilute hydrochloric) acid ACCEPT nitric or sulfuric"
+       "text_md": "add (dilute hydrochloric) acid\nACCEPT nitric or sulfuric acid\nREJECT if additional incorrect reagent given eg silver nitrate M4 dep on acid in M3 M5 dep on use of limewater No M4 or M5 if limewater added directly to the solution"
       },
       {
        "id": "2023-06-5-b-MP4",
        "marks": 1,
-       "text_md": "(pass/bubble) gas/carbon dioxide into limewater M4 dep on acid in M3"
+       "text_md": "(pass/bubble) gas/carbon dioxide into limewater"
       },
       {
        "id": "2023-06-5-b-MP5",
        "marks": 1,
-       "text_md": "(limewater) turns cloudy/milky / white ppt M5 dep on use of\nforms limewater"
+       "text_md": "(limewater) turns cloudy/milky / white ppt\nforms"
       }
      ],
      "source_page": 13,
@@ -745,7 +745,7 @@
      "problem_md": "Lithium carbonate has ionic bonding. State what is meant by the term ionic bonding.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 electrostatic attraction\nM2 between oppositely charged ions ACCEPT between\nanions/negative ions and\ncations/positive ions\nREJECT implication of\ncovalent bonding for M2",
+     "solution_md": "M1 electrostatic attraction\nM2 between oppositely charged ions\n\nACCEPT between anions/negative ions and cations/positive ions\nREJECT implication of covalent bonding for M2",
      "mark_points": [
       {
        "id": "2023-06-5-c-MP1",
@@ -755,7 +755,7 @@
       {
        "id": "2023-06-5-c-MP2",
        "marks": 1,
-       "text_md": "between oppositely charged ions ACCEPT between"
+       "text_md": "between oppositely charged ions\nACCEPT between anions/negative ions and cations/positive ions\nREJECT implication of covalent bonding for M2"
       }
      ],
      "source_page": 13,
@@ -783,15 +783,15 @@
      "part_number": "6(a)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the equation for the reaction by adding the state symbols. Pb(NO3)2 ( ) + 2KCl ( ) → PbCl2 ( ) + 2KNO3 ( )",
+     "problem_md": "Complete the equation for the reaction by adding the state symbols. Pb(NO3)2 ( .......... ) + 2KCl ( .......... ) → PbCl2 ( .......... ) + 2KNO3 ( .......... )",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "1\nPb(NO3)2(aq) + 2KCl(aq) → PbCl2(s) + 2KNO3(aq) ALLOW upper case letters\nfor state symbols",
+     "solution_md": "1\nPb(NO3)2(aq) + 2KCl(aq) → PbCl2(s) + 2KNO3(aq)\n\nALLOW upper case letters for state symbols",
      "mark_points": [
       {
        "id": "2023-06-6-a-i-MP1",
        "marks": 1,
-       "text_md": "1\nPb(NO3)2(aq) + 2KCl(aq) → PbCl2(s) + 2KNO3(aq) ALLOW upper case letters\nfor state symbols"
+       "text_md": "1\nPb(NO3)2(aq) + 2KCl(aq) → PbCl2(s) + 2KNO3(aq)\n\nALLOW upper case letters for state symbols"
       }
      ],
      "source_page": 15,
@@ -827,20 +827,20 @@
      "part_number": "6(a)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the relative formula mass (Mr) of lead(II) nitrate, Pb(NO3)2 Mr =",
+     "problem_md": "Calculate the relative formula mass (Mr) of lead(II) nitrate, Pb(NO3)2 Mr = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 207 + (14 + 16 × 3) × 2 Correct answer without\nworking scores\nM2 331 ALLOW ECF on M1 if other\nmultiples of atomic masses\nadded together eg 207 + 14\n+ (16 x 3) = 269 for 1 mark\nREJECT use of atomic\nnumbers for both marks",
+     "solution_md": "M1 207 + (14 + 16 × 3) × 2\nM2 331\n\nCorrect answer without working scores\nALLOW ECF on M1 if other multiples of atomic masses added together eg 207 + 14 + (16 x 3) = 269 for 1 mark\nREJECT use of atomic numbers for both marks",
      "mark_points": [
       {
        "id": "2023-06-6-a-iii-MP1",
        "marks": 1,
-       "text_md": "207 + (14 + 16 × 3) × 2 Correct answer without"
+       "text_md": "207 + (14 + 16 × 3) × 2\nCorrect answer without working scores"
       },
       {
        "id": "2023-06-6-a-iii-MP2",
        "marks": 1,
-       "text_md": "331 ALLOW ECF on M1 if other"
+       "text_md": "331\nALLOW ECF on M1 if other multiples of atomic masses added together eg 207 + 14 + (16 x 3) = 269 for 1 mark\nREJECT use of atomic numbers for both marks"
       }
      ],
      "source_page": 15,
@@ -891,12 +891,12 @@
      "problem_md": "Draw a circle around the anomalous result.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "point at 2.9 cm/6.0 cm3 circled ALLOW ecf from incorrect\nplotting",
+     "solution_md": "point at 2.9 cm/6.0 cm3 circled\n\nALLOW ecf from incorrect plotting",
      "mark_points": [
       {
        "id": "2023-06-6-b-ii-MP1",
        "marks": 1,
-       "text_md": "point at 2.9 cm/6.0 cm3 circled ALLOW ecf from incorrect\nplotting"
+       "text_md": "point at 2.9 cm/6.0 cm3 circled\n\nALLOW ecf from incorrect plotting"
       }
      ],
      "source_page": 16,
@@ -913,7 +913,7 @@
      "problem_md": "Draw a line of best fit through the first four points and another line of best fit through the last three points. Make sure that the lines cross. 4.0 3.0 Height of precipitate in cm 2.0 1.0 0 2.0 4.0 6.0 8.0 10.0 12.0 14.0 Volume of lead(II) nitrate in cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 best fit straight line through first four points\nignoring the anomalous point\nM2 horizontal straight line through last three points ALLOW max (1) if lines do\nnot cross or meet, or if a\nsmooth curve is drawn,\navoiding the anomalous\npoint",
+     "solution_md": "M1 best fit straight line through first four points\nignoring the anomalous point\nM2 horizontal straight line through last three points\n\nALLOW max (1) if lines do not cross or meet, or if a smooth curve is drawn, avoiding the anomalous point",
      "mark_points": [
       {
        "id": "2023-06-6-b-iii-MP1",
@@ -923,7 +923,7 @@
       {
        "id": "2023-06-6-b-iii-MP2",
        "marks": 1,
-       "text_md": "horizontal straight line through last three points ALLOW max (1) if lines do"
+       "text_md": "horizontal straight line through last three points\nALLOW max (1) if lines do not cross or meet, or if a smooth curve is drawn, avoiding the anomalous point"
       }
      ],
      "source_page": 16,
@@ -937,15 +937,15 @@
      "part_number": "6(b)(iv)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two possible mistakes the student could have made to cause the anomalous result. 1 2",
+     "problem_md": "Give two possible mistakes the student could have made to cause the anomalous result. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any two from\nM1 precipitate not allowed to settle ACCEPT height measured\ntoo soon\nM2 height (of precipitate) measured incorrectly\neg reference to parallax when measuring height\nM3 more than 2 cm3 (of lead(II) nitrate) added / ALLOW too much lead(II)\n(total volume of lead(II) nitrate added was) more nitrate added\nthan 6 cm3",
+     "solution_md": "Any two from\nM1 precipitate not allowed to settle\nM2 height (of precipitate) measured incorrectly\neg reference to parallax when measuring height\nM3 more than 2 cm3 (of lead(II) nitrate) added /\n(total volume of lead(II) nitrate added was) more\nthan 6 cm3\n\nACCEPT height measured too soon\nALLOW too much lead(II) nitrate added",
      "mark_points": [
       {
        "id": "2023-06-6-b-iv-MP1",
        "marks": 2,
-       "text_md": "Any two from\nM1 precipitate not allowed to settle ACCEPT height measured\ntoo soon\nM2 height (of precipitate) measured incorrectly\neg reference to parallax when measuring height\nM3 more than 2 cm3 (of lead(II) nitrate) added / ALLOW too much lead(II)\n(total volume of lead(II) nitrate added was) more nitrate added\nthan 6 cm3"
+       "text_md": "Any two from\nM1 precipitate not allowed to settle\nM2 height (of precipitate) measured incorrectly\neg reference to parallax when measuring height\nM3 more than 2 cm3 (of lead(II) nitrate) added /\n(total volume of lead(II) nitrate added was) more\nthan 6 cm3\n\nACCEPT height measured too soon\nALLOW too much lead(II) nitrate added"
       }
      ],
      "source_page": 17,
@@ -981,15 +981,15 @@
      "part_number": "6(b)(vi)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Use your graph to determine the volume of lead(II) nitrate solution needed to react completely with 15.0 cm3 of potassium chloride solution. volume = cm3",
+     "problem_md": "Use your graph to determine the volume of lead(II) nitrate solution needed to react completely with 15.0 cm3 of potassium chloride solution. volume = .......... cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "value read from graph where lines cross no mark if lines do not\ncross/meet or if there\naren’t two lines eg a curve\nis drawn",
+     "solution_md": "value read from graph where lines cross no mark if lines do not\n\ncross/meet or if there aren’t two lines eg a curve is drawn",
      "mark_points": [
       {
        "id": "2023-06-6-b-vi-MP1",
        "marks": 1,
-       "text_md": "value read from graph where lines cross no mark if lines do not\ncross/meet or if there\naren’t two lines eg a curve\nis drawn"
+       "text_md": "value read from graph where lines cross no mark if lines do not\n\ncross/meet or if there aren’t two lines eg a curve is drawn"
       }
      ],
      "source_page": 17,
@@ -1058,25 +1058,25 @@
      "part_number": "7(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "A sample of bromine contains two isotopes. • Br–79 with relative abundance 52.8 % • Br–81 with relative abundance 47.2 % Calculate the relative atomic mass (Ar ) of this sample of bromine. Give your answer to three significant figures. Ar =",
+     "problem_md": "A sample of bromine contains two isotopes. • Br–79 with relative abundance 52.8 % • Br–81 with relative abundance 47.2 % Calculate the relative atomic mass (Ar ) of this sample of bromine. Give your answer to three significant figures. Ar = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 79 × 52.8 + 81 × 47.2 OR 7994.4 correct answer\nwithout working\nM2 7994.4 ÷ 100 OR 79.944 scores 3\nM3 79.9 79.944 without\nworking scores 2\nM3 dep on use of 79\n& 81 in calculation",
+     "solution_md": "M1 79 × 52.8 + 81 × 47.2 OR 7994.4 correct answer\nM2 7994.4 ÷ 100 OR 79.944\nM3 79.9\n\nwithout working scores 3 79.944 without working scores 2 M3 dep on use of 79 & 81 in calculation",
      "mark_points": [
       {
        "id": "2023-06-7-b-MP1",
        "marks": 1,
-       "text_md": "79 × 52.8 + 81 × 47.2 OR 7994.4 correct answer"
+       "text_md": "79 × 52.8 + 81 × 47.2 OR 7994.4 correct answer\nwithout working scores 3 79.944 without working scores 2 M3 dep on use of 79 & 81 in calculation"
       },
       {
        "id": "2023-06-7-b-MP2",
        "marks": 1,
-       "text_md": "7994.4 ÷ 100 OR 79.944 scores 3"
+       "text_md": "7994.4 ÷ 100 OR 79.944"
       },
       {
        "id": "2023-06-7-b-MP3",
        "marks": 1,
-       "text_md": "79.9 79.944 without"
+       "text_md": "79.9"
       }
      ],
      "source_page": 18,
@@ -1090,15 +1090,15 @@
      "part_number": "7(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Aluminium reacts with chlorine to form aluminium chloride. This is the equation for the reaction. 2Al + 3Cl2 → 2AlCl3 Calculate the minimum mass of chlorine needed to form 26.7 g of aluminium chloride. [for Cl2 , Mr = 71 for AlCl3 , Mr = 133.5] minimum mass of chlorine = g",
+     "problem_md": "Aluminium reacts with chlorine to form aluminium chloride. This is the equation for the reaction. 2Al + 3Cl2 → 2AlCl3 Calculate the minimum mass of chlorine needed to form 26.7 g of aluminium chloride. [for Cl2 , Mr = 71 for AlCl3 , Mr = 133.5] minimum mass of chlorine = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (amount of AlCl3 =) 26.7 ÷ 133.5 OR 0.2(00) (mol) correct answer\nwithout working\nscores 3\nM2 (amount of Cl2 =) 0.2(00) × 3 OR 0.3(00) (mol) ALLOW ECF on M1,\n2 as long as an\nattempt has been\nmade to find moles\nM3 (mass of Cl2 =) 0.3(00) × 71 = 21.3 (g) ALLOW ECF on M2\nALLOW any number\nof sig figs except 1\nOR\nM1 213g of Cl2 produces 267g of AlCl3\nM2 (mass of Cl2 =) 26.7 × 213\n267\nM3 = 21.3 (g)",
+     "solution_md": "M1 (amount of AlCl3 =) 26.7 ÷ 133.5 OR 0.2(00) (mol) correct answer\nM2 (amount of Cl2 =) 0.2(00) × 3 OR 0.3(00) (mol)\n2\nM3 (mass of Cl2 =) 0.3(00) × 71 = 21.3 (g)\nOR\nM1 213g of Cl2 produces 267g of AlCl3\nM2 (mass of Cl2 =) 26.7 × 213\n267\nM3 = 21.3 (g)\n\nwithout working scores 3\nALLOW ECF on M1, as long as an attempt has been made to find moles\nALLOW ECF on M2\nALLOW any number of sig figs except 1",
      "mark_points": [
       {
        "id": "2023-06-7-c-MP1",
        "marks": 3,
-       "text_md": "M1 (amount of AlCl3 =) 26.7 ÷ 133.5 OR 0.2(00) (mol) correct answer\nwithout working\nscores 3\nM2 (amount of Cl2 =) 0.2(00) × 3 OR 0.3(00) (mol) ALLOW ECF on M1,\n2 as long as an\nattempt has been\nmade to find moles\nM3 (mass of Cl2 =) 0.3(00) × 71 = 21.3 (g) ALLOW ECF on M2\nALLOW any number\nof sig figs except 1\nOR\nM1 213g of Cl2 produces 267g of AlCl3\nM2 (mass of Cl2 =) 26.7 × 213\n267\nM3 = 21.3 (g)"
+       "text_md": "M1 (amount of AlCl3 =) 26.7 ÷ 133.5 OR 0.2(00) (mol) correct answer\nM2 (amount of Cl2 =) 0.2(00) × 3 OR 0.3(00) (mol)\n2\nM3 (mass of Cl2 =) 0.3(00) × 71 = 21.3 (g)\nOR\nM1 213g of Cl2 produces 267g of AlCl3\nM2 (mass of Cl2 =) 26.7 × 213\n267\nM3 = 21.3 (g)\n\nwithout working scores 3\nALLOW ECF on M1, as long as an attempt has been made to find moles\nALLOW ECF on M2\nALLOW any number of sig figs except 1"
       }
      ],
      "source_page": 18,
@@ -1115,12 +1115,12 @@
      "problem_md": "A student mixes the following pairs of solutions. Pair 1 bromine solution and potassium chloride solution Pair 2 bromine solution and potassium iodide solution Explain how the student can use the results of these experiments to show the order of reactivity of the three halogens, bromine, chlorine and iodine. Include observations in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation which links six of the following points\nPair 1\nM1 no reaction / no change (in colour) / stays yellow or ACCEPT it stays any\norange stated colour\nM2 bromine cannot displace chlorine / bromine does not Penalise incorrect\nreact with chloride ions to produce chlorine use of -ine and -ide\nACCEPT Br2 + KCl →\nBr2 + KCl\nor ionic equation\nM3 therefore chlorine is more reactive than bromine ACCEPT “bromine\ncannot displace\nchlorine because it\nis less reactive”\nOWTTE for M2 and\nM3\nPair 2\nM4 turns brown ACCEPT\ncombinations that\ninclude brown eg\nred-brown\nM5 bromine displaces iodine / bromine reacts with iodide Penalise incorrect\nions to produce iodine use of -ine and -ide\nACCEPT Br2 + 2KI →\nI2 + 2KBr\nor ionic equation\nM6 therefore bromine is more reactive than iodine ACCEPT “bromine\ndisplaces iodine\nbecause it is more\nreactive” OWTTE\nfor M5 and M6\nM7 the overall order of reactivity is chlorine > bromine > IGNORE references\niodine ORA to reactivity\nup/down the group",
+     "solution_md": "An explanation which links six of the following points\nPair 1\nM1 no reaction / no change (in colour) / stays yellow or\norange\nM2 bromine cannot displace chlorine / bromine does not\nreact with chloride ions to produce chlorine\nM3 therefore chlorine is more reactive than bromine\nPair 2\nM4 turns brown\nM5 bromine displaces iodine / bromine reacts with iodide\nions to produce iodine\nM6 therefore bromine is more reactive than iodine\nM7 the overall order of reactivity is chlorine > bromine >\niodine ORA\n\nACCEPT it stays any stated colour Penalise incorrect use of -ine and -ide\nACCEPT Br2 + KCl → Br2 + KCl or ionic equation\nACCEPT “bromine cannot displace chlorine because it is less reactive”\nOWTTE for M2 and M3\nACCEPT combinations that include brown eg red-brown Penalise incorrect use of -ine and -ide\nACCEPT Br2 + 2KI → I2 + 2KBr or ionic equation\nACCEPT “bromine displaces iodine because it is more reactive” OWTTE for M5 and M6\nIGNORE references to reactivity up/down the group",
      "mark_points": [
       {
        "id": "2023-06-7-d-MP1",
        "marks": 6,
-       "text_md": "An explanation which links six of the following points\nPair 1\nM1 no reaction / no change (in colour) / stays yellow or ACCEPT it stays any\norange stated colour\nM2 bromine cannot displace chlorine / bromine does not Penalise incorrect\nreact with chloride ions to produce chlorine use of -ine and -ide\nACCEPT Br2 + KCl →\nBr2 + KCl\nor ionic equation\nM3 therefore chlorine is more reactive than bromine ACCEPT “bromine\ncannot displace\nchlorine because it\nis less reactive”\nOWTTE for M2 and\nM3\nPair 2\nM4 turns brown ACCEPT\ncombinations that\ninclude brown eg\nred-brown\nM5 bromine displaces iodine / bromine reacts with iodide Penalise incorrect\nions to produce iodine use of -ine and -ide\nACCEPT Br2 + 2KI →\nI2 + 2KBr\nor ionic equation\nM6 therefore bromine is more reactive than iodine ACCEPT “bromine\ndisplaces iodine\nbecause it is more\nreactive” OWTTE\nfor M5 and M6\nM7 the overall order of reactivity is chlorine > bromine > IGNORE references\niodine ORA to reactivity\nup/down the group"
+       "text_md": "An explanation which links six of the following points\nPair 1\nM1 no reaction / no change (in colour) / stays yellow or\norange\nM2 bromine cannot displace chlorine / bromine does not\nreact with chloride ions to produce chlorine\nM3 therefore chlorine is more reactive than bromine\nPair 2\nM4 turns brown\nM5 bromine displaces iodine / bromine reacts with iodide\nions to produce iodine\nM6 therefore bromine is more reactive than iodine\nM7 the overall order of reactivity is chlorine > bromine >\niodine ORA\n\nACCEPT it stays any stated colour Penalise incorrect use of -ine and -ide\nACCEPT Br2 + KCl → Br2 + KCl or ionic equation\nACCEPT “bromine cannot displace chlorine because it is less reactive”\nOWTTE for M2 and M3\nACCEPT combinations that include brown eg red-brown Penalise incorrect use of -ine and -ide\nACCEPT Br2 + 2KI → I2 + 2KBr or ionic equation\nACCEPT “bromine displaces iodine because it is more reactive” OWTTE for M5 and M6\nIGNORE references to reactivity up/down the group"
       }
      ],
      "source_page": 19,
@@ -1147,12 +1147,12 @@
      "problem_md": "State why the student stirs the water.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "to allow the heat (energy) to be distributed evenly ACCEPT so the\n(throughout the water) OWTTE temperature is the\nsame (throughout\nthe water)",
+     "solution_md": "to allow the heat (energy) to be distributed evenly\n(throughout the water) OWTTE\n\nACCEPT so the temperature is the same (throughout the water)",
      "mark_points": [
       {
        "id": "2023-06-8-a-i-MP1",
        "marks": 1,
-       "text_md": "to allow the heat (energy) to be distributed evenly ACCEPT so the\n(throughout the water) OWTTE temperature is the\nsame (throughout\nthe water)"
+       "text_md": "to allow the heat (energy) to be distributed evenly\n(throughout the water) OWTTE\n\nACCEPT so the temperature is the same (throughout the water)"
       }
      ],
      "source_page": 21,
@@ -1191,12 +1191,12 @@
      "problem_md": "The diagram shows the initial temperature of the water. °C 20 Complete the table to show the temperature readings. Give both values to the nearest 0.1 °C. Initial temperature of water in °C Final temperature of water in °C Temperature change in °C 35.0",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "PENALISE answer not\nto nearest 0.1 °C\nInitial temperature of water in oC 15.9 once only\nFinal temperature of water in oC 50.9 ALLOW ecf on initial\ntemperature\nTemperature change in oC 35.0 Correct values\ntransposed scores (1)",
+     "solution_md": "PENALISE answer not\nInitial temperature of water in oC 15.9\nFinal temperature of water in oC 50.9\nTemperature change in oC 35.0\n\nto nearest 0.1 °C once only\nALLOW ecf on initial temperature\nCorrect values transposed scores (1)",
      "mark_points": [
       {
        "id": "2023-06-8-b-MP1",
        "marks": 2,
-       "text_md": "PENALISE answer not\nto nearest 0.1 °C\nInitial temperature of water in oC 15.9 once only\nFinal temperature of water in oC 50.9 ALLOW ecf on initial\ntemperature\nTemperature change in oC 35.0 Correct values\ntransposed scores (1)"
+       "text_md": "PENALISE answer not\nInitial temperature of water in oC 15.9\nFinal temperature of water in oC 50.9\nTemperature change in oC 35.0\n\nto nearest 0.1 °C once only\nALLOW ecf on initial temperature\nCorrect values transposed scores (1)"
       }
      ],
      "source_page": 22,
@@ -1237,17 +1237,17 @@
      "problem_md": "Show by calculation that the heat energy (Q) supplied by the pentanol is approximately 15 000 J. [for water, c = 4.2 J / g / °C] [for 1.0 cm3 of water, mass = 1.0 g]",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (Q =) 100 × 4.2 × 35 (J) Correct answer of\n14 700 without\nworking scores 2\nM2 14 700 (J) ALLOW 15 000 (J)\nonly if M1 is scored",
+     "solution_md": "M1 (Q =) 100 × 4.2 × 35 (J)\nM2 14 700 (J)\n\nCorrect answer of 14 700 without working scores 2\nALLOW 15 000 (J) only if M1 is scored",
      "mark_points": [
       {
        "id": "2023-06-8-c-i-MP1",
        "marks": 1,
-       "text_md": "(Q =) 100 × 4.2 × 35 (J) Correct answer of"
+       "text_md": "(Q =) 100 × 4.2 × 35 (J)\nCorrect answer of 14 700 without working scores 2"
       },
       {
        "id": "2023-06-8-c-i-MP2",
        "marks": 1,
-       "text_md": "14 700 (J) ALLOW 15 000 (J)"
+       "text_md": "14 700 (J)\nALLOW 15 000 (J) only if M1 is scored"
       }
      ],
      "source_page": 22,
@@ -1261,25 +1261,25 @@
      "part_number": "8(c)(ii)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "The table gives the initial and final mass readings. Initial mass of spirit burner and pentanol in g 90.11 Final mass of spirit burner and pentanol in g 89.75 Use your answer to part (c)(i) and the information in the table to calculate the molar enthalpy change (ΔH) of combustion, in kJ / mol, for pentanol. [for pentanol, Mr = 88] Include a sign in your answer. ΔH for pentanol = kJ / mol",
+     "problem_md": "The table gives the initial and final mass readings. Initial mass of spirit burner and pentanol in g 90.11 Final mass of spirit burner and pentanol in g 89.75 Use your answer to part (c)(i) and the information in the table to calculate the molar enthalpy change (ΔH) of combustion, in kJ / mol, for pentanol. [for pentanol, Mr = 88] Include a sign in your answer. ΔH for pentanol = .......... kJ / mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (mass of pentanol =) 90.11 − 89.75 OR 0.36 (g) Correct answer\nwithout working\nscores 5\nM2 (amount of pentanol =) 0.36 ÷ 88 OR 0.0041 (mol) ALLOW ecf on\nincorrect mass\nREJECT 0.004\n(which gives final\nanswer of −3675)\nM3 14 700 ÷ 0.0041 OR 3 600 000 (J/mol) ALLOW ecf as long\nas there has been an\nattempt to calculate\nmoles of pentanol\nM4 3 600 000 ÷ 1000 OR 3600 (kJ/mol)\nM5 (ΔH =) − 3600 (kJ/mol) ALLOW any SF\nexcept 1 SF",
+     "solution_md": "M1 (mass of pentanol =) 90.11 − 89.75 OR 0.36 (g)\nM2 (amount of pentanol =) 0.36 ÷ 88 OR 0.0041 (mol)\nM3 14 700 ÷ 0.0041 OR 3 600 000 (J/mol)\nM4 3 600 000 ÷ 1000 OR 3600 (kJ/mol)\nM5 (ΔH =) − 3600 (kJ/mol)\n\nCorrect answer without working scores 5\nALLOW ecf on incorrect mass\nREJECT 0.004 (which gives final answer of −3675)\nALLOW ecf as long as there has been an attempt to calculate moles of pentanol\nALLOW any SF except 1 SF",
      "mark_points": [
       {
        "id": "2023-06-8-c-ii-MP1",
        "marks": 1,
-       "text_md": "(mass of pentanol =) 90.11 − 89.75 OR 0.36 (g) Correct answer"
+       "text_md": "(mass of pentanol =) 90.11 − 89.75 OR 0.36 (g)\nCorrect answer without working scores 5"
       },
       {
        "id": "2023-06-8-c-ii-MP2",
        "marks": 1,
-       "text_md": "(amount of pentanol =) 0.36 ÷ 88 OR 0.0041 (mol) ALLOW ecf on"
+       "text_md": "(amount of pentanol =) 0.36 ÷ 88 OR 0.0041 (mol)\nALLOW ecf on incorrect mass\nREJECT 0.004 (which gives final answer of −3675)"
       },
       {
        "id": "2023-06-8-c-ii-MP3",
        "marks": 1,
-       "text_md": "14 700 ÷ 0.0041 OR 3 600 000 (J/mol) ALLOW ecf as long"
+       "text_md": "14 700 ÷ 0.0041 OR 3 600 000 (J/mol)\nALLOW ecf as long as there has been an attempt to calculate moles of pentanol"
       },
       {
        "id": "2023-06-8-c-ii-MP4",
@@ -1289,7 +1289,7 @@
       {
        "id": "2023-06-8-c-ii-MP5",
        "marks": 1,
-       "text_md": "(ΔH =) − 3600 (kJ/mol) ALLOW any SF"
+       "text_md": "(ΔH =) − 3600 (kJ/mol)\nALLOW any SF except 1 SF"
       }
      ],
      "source_page": 23,
@@ -1318,17 +1318,17 @@
      "problem_md": "The formula of pentanol is C5H11OH Write a chemical equation for the complete combustion of pentanol.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "C5H11OH + 7.5O2 → 5CO2 + 6H2O ALLOW multiples\nM1 all formulae correct\nM2 balancing of correct formulae M2 dep on M1\nIGNORE state\nsymbols even if\nincorrect",
+     "solution_md": "C5H11OH + 7.5O2 → 5CO2 + 6H2O\nM1 all formulae correct\nM2 balancing of correct formulae\n\nALLOW multiples M2 dep on M1\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2023-06-8-d-MP1",
        "marks": 1,
-       "text_md": "all formulae correct"
+       "text_md": "all formulae correct\nALLOW multiples M2 dep on M1"
       },
       {
        "id": "2023-06-8-d-MP2",
        "marks": 1,
-       "text_md": "balancing of correct formulae M2 dep on M1"
+       "text_md": "balancing of correct formulae\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 23,
@@ -1442,17 +1442,17 @@
      "problem_md": "Describe what the student should do next to make sure that all the water is removed from the hydrated sodium sulfate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two points\nM1 heat the sodium sulfate (again) ACCEPT ‘heat to\nconstant mass’ for\nM2 (repeat) until there is no further change in mass both marks",
+     "solution_md": "A description that refers to the following two points\nM1 heat the sodium sulfate (again)\nM2 (repeat) until there is no further change in mass\n\nACCEPT ‘heat to constant mass’ for both marks",
      "mark_points": [
       {
        "id": "2023-06-9-b-i-MP1",
        "marks": 1,
-       "text_md": "heat the sodium sulfate (again) ACCEPT ‘heat to"
+       "text_md": "heat the sodium sulfate (again)\nACCEPT ‘heat to constant mass’ for both marks"
       },
       {
        "id": "2023-06-9-b-i-MP2",
        "marks": 1,
-       "text_md": "(repeat) until there is no further change in mass both marks"
+       "text_md": "(repeat) until there is no further change in mass"
       }
      ],
      "source_page": 25,
@@ -1469,12 +1469,12 @@
      "problem_md": "Explain the role of the ice in the beaker.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 to cool the (water) vapour ACCEPT steam\nM2 so it condenses / forms liquid/water",
+     "solution_md": "An explanation that links the following two points\nM1 to cool the (water) vapour\nM2 so it condenses / forms liquid/water\n\nACCEPT steam",
      "mark_points": [
       {
        "id": "2023-06-9-b-ii-MP1",
        "marks": 1,
-       "text_md": "to cool the (water) vapour ACCEPT steam"
+       "text_md": "to cool the (water) vapour\nACCEPT steam"
       },
       {
        "id": "2023-06-9-b-ii-MP2",
@@ -1496,17 +1496,17 @@
      "problem_md": "Describe how the student could prove that the liquid collected is pure water.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two points\nM1 heat (the water) / measure the boiling point ALLOW find the\nfreezing point\n/melting point?\nM2 (if it) boils at 100 oC (it is pure water) / boiling REJECT evaporate\npoint is 100 °C\nALLOW freezes/\nmelts at 0oC\nIGNORE chemical test\neven if incorrect",
+     "solution_md": "A description that refers to the following two points\nM1 heat (the water) / measure the boiling point\nM2 (if it) boils at 100 oC (it is pure water) / boiling\npoint is 100 °C\n\nALLOW find the freezing point /melting point?\nREJECT evaporate\nALLOW freezes/ melts at 0oC\nIGNORE chemical test even if incorrect",
      "mark_points": [
       {
        "id": "2023-06-9-b-iii-MP1",
        "marks": 1,
-       "text_md": "heat (the water) / measure the boiling point ALLOW find the"
+       "text_md": "heat (the water) / measure the boiling point\nALLOW find the freezing point /melting point?"
       },
       {
        "id": "2023-06-9-b-iii-MP2",
        "marks": 1,
-       "text_md": "(if it) boils at 100 oC (it is pure water) / boiling REJECT evaporate\npoint is 100 °C"
+       "text_md": "(if it) boils at 100 oC (it is pure water) / boiling\npoint is 100 °C\nREJECT evaporate\nALLOW freezes/ melts at 0oC\nIGNORE chemical test even if incorrect"
       }
      ],
      "source_page": 25,
@@ -1521,15 +1521,15 @@
      "part_number": "9(c)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "The table gives the student’s results. Mass of empty tube in g 15.83 Mass of tube and Na2SO4.xH2O in g 23.88 Mass of tube and Na2SO4 in g 19.38 Use the student’s results to calculate the value of x. [for Na2SO4, Mr = 142 for H2O, Mr = 18] x =",
+     "problem_md": "The table gives the student’s results. Mass of empty tube in g 15.83 Mass of tube and Na2SO4.xH2O in g 23.88 Mass of tube and Na2SO4 in g 19.38 Use the student’s results to calculate the value of x. [for Na2SO4, Mr = 142 for H2O, Mr = 18] x = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g) Correct answer\nwithout working\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g) scores 5\nM3 amount of Na2SO4 (= 3.55 ÷ 142) = 0.025 (mol) ALLOW ECF from\nincorrect M1\nM4 amount of H2O (= 4.50 ÷ 18) = 0.25 (mol) ALLOW ECF from\nincorrect M2\nM5 x (= 0.25 ÷ 0.025) = 10 ALLOW an integer\nECF on M3 & M4\nACCEPT alternative\ncorrect methods\nOR\nM1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g)\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g)\nM3 mass of water combined with 1 mole of sodium\nsulfate = 142 × 4.50 = 180 (g)\n3.55\nM4 moles of H2O = 180 ÷ 18\nM5 therefore, x = 10",
+     "solution_md": "M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g)\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g)\nM3 amount of Na2SO4 (= 3.55 ÷ 142) = 0.025 (mol)\nM4 amount of H2O (= 4.50 ÷ 18) = 0.25 (mol)\nM5 x (= 0.25 ÷ 0.025) = 10\nOR\nM1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g)\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g)\nM3 mass of water combined with 1 mole of sodium\nsulfate = 142 × 4.50 = 180 (g)\n3.55\nM4 moles of H2O = 180 ÷ 18\nM5 therefore, x = 10\n\nCorrect answer without working scores 5\nALLOW ECF from incorrect M1\nALLOW ECF from incorrect M2\nALLOW an integer ECF on M3 & M4\nACCEPT alternative correct methods",
      "mark_points": [
       {
        "id": "2023-06-9-c-MP1",
        "marks": 5,
-       "text_md": "M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g) Correct answer\nwithout working\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g) scores 5\nM3 amount of Na2SO4 (= 3.55 ÷ 142) = 0.025 (mol) ALLOW ECF from\nincorrect M1\nM4 amount of H2O (= 4.50 ÷ 18) = 0.25 (mol) ALLOW ECF from\nincorrect M2\nM5 x (= 0.25 ÷ 0.025) = 10 ALLOW an integer\nECF on M3 & M4\nACCEPT alternative\ncorrect methods\nOR\nM1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g)\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g)\nM3 mass of water combined with 1 mole of sodium\nsulfate = 142 × 4.50 = 180 (g)\n3.55\nM4 moles of H2O = 180 ÷ 18\nM5 therefore, x = 10"
+       "text_md": "M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g)\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g)\nM3 amount of Na2SO4 (= 3.55 ÷ 142) = 0.025 (mol)\nM4 amount of H2O (= 4.50 ÷ 18) = 0.25 (mol)\nM5 x (= 0.25 ÷ 0.025) = 10\nOR\nM1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g)\nM2 mass of H2O (= 23.88 − 19.38) = 4.50 (g)\nM3 mass of water combined with 1 mole of sodium\nsulfate = 142 × 4.50 = 180 (g)\n3.55\nM4 moles of H2O = 180 ÷ 18\nM5 therefore, x = 10\n\nCorrect answer without working scores 5\nALLOW ECF from incorrect M1\nALLOW ECF from incorrect M2\nALLOW an integer ECF on M3 & M4\nACCEPT alternative correct methods"
       }
      ],
      "source_page": 26,
@@ -1575,12 +1575,12 @@
      "problem_md": "Show by calculation that the zinc is in excess.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 0.0036 moles of HCl react with 0.0018 moles of Zn\nM2 mass of Zn that reacts is 0.0018 x 65 = 0.117 (g) ALLOW 0.234 g is less\n(which is less than 1.3 g, so zinc is in excess) than 1.3g, so zinc in\nexcess for (1)\nOR\nM1 moles of zinc that can react with 0.0036 moles of\nHCl = 0.0036 / 2 = 0.0018 (mol)\nM2 moles of Zn present = 1.3 ÷ 65 = 0.02 (mol)\n(which is more than 0.0018, so zinc is in excess)\nOR\nM1 amount of zinc = 1.3 ÷ 65 = 0.02 (mol)\nM2 amount of HCl that can react = 2 x 0.02 = 0.04\n(mol) (which is greater than 0.0036, so zinc is in\nexcess)",
+     "solution_md": "M1 0.0036 moles of HCl react with 0.0018 moles of Zn\nM2 mass of Zn that reacts is 0.0018 x 65 = 0.117 (g)\n(which is less than 1.3 g, so zinc is in excess)\nOR\nM1 moles of zinc that can react with 0.0036 moles of\nHCl = 0.0036 / 2 = 0.0018 (mol)\nM2 moles of Zn present = 1.3 ÷ 65 = 0.02 (mol)\n(which is more than 0.0018, so zinc is in excess)\nOR\nM1 amount of zinc = 1.3 ÷ 65 = 0.02 (mol)\nM2 amount of HCl that can react = 2 x 0.02 = 0.04\n(mol) (which is greater than 0.0036, so zinc is in\nexcess)\n\nALLOW 0.234 g is less than 1.3g, so zinc in excess for (1)",
      "mark_points": [
       {
        "id": "2023-06-10-a-i-MP1",
        "marks": 2,
-       "text_md": "M1 0.0036 moles of HCl react with 0.0018 moles of Zn\nM2 mass of Zn that reacts is 0.0018 x 65 = 0.117 (g) ALLOW 0.234 g is less\n(which is less than 1.3 g, so zinc is in excess) than 1.3g, so zinc in\nexcess for (1)\nOR\nM1 moles of zinc that can react with 0.0036 moles of\nHCl = 0.0036 / 2 = 0.0018 (mol)\nM2 moles of Zn present = 1.3 ÷ 65 = 0.02 (mol)\n(which is more than 0.0018, so zinc is in excess)\nOR\nM1 amount of zinc = 1.3 ÷ 65 = 0.02 (mol)\nM2 amount of HCl that can react = 2 x 0.02 = 0.04\n(mol) (which is greater than 0.0036, so zinc is in\nexcess)"
+       "text_md": "M1 0.0036 moles of HCl react with 0.0018 moles of Zn\nM2 mass of Zn that reacts is 0.0018 x 65 = 0.117 (g)\n(which is less than 1.3 g, so zinc is in excess)\nOR\nM1 moles of zinc that can react with 0.0036 moles of\nHCl = 0.0036 / 2 = 0.0018 (mol)\nM2 moles of Zn present = 1.3 ÷ 65 = 0.02 (mol)\n(which is more than 0.0018, so zinc is in excess)\nOR\nM1 amount of zinc = 1.3 ÷ 65 = 0.02 (mol)\nM2 amount of HCl that can react = 2 x 0.02 = 0.04\n(mol) (which is greater than 0.0036, so zinc is in\nexcess)\n\nALLOW 0.234 g is less than 1.3g, so zinc in excess for (1)"
       }
      ],
      "source_page": 27,
@@ -1637,12 +1637,12 @@
      "problem_md": "In one of these experiments the student repeats the original method but at a temperature of 20 °C. Explain in terms of particle collision theory why the curve obtained could be curve B.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links any of the following four\npoints\nM1 curve B is less steep (than curve A)\nM2 (because) the particles have less kinetic energy ALLOW particles\nmove more slowly\nM3 so there are fewer successful collisions per unit ACCEPT less frequent\ntime/less frequent successful collisions collisions that exceed\nactivation energy\nM4 so rate of reaction is slower / reaction takes longer\nto complete\nM5 no change in reacting quantities, so final volume is\nunchanged\nACCEPT reverse\nargument throughout",
+     "solution_md": "An explanation that links any of the following four\npoints\nM1 curve B is less steep (than curve A)\nM2 (because) the particles have less kinetic energy\nM3 so there are fewer successful collisions per unit\ntime/less frequent successful collisions\nM4 so rate of reaction is slower / reaction takes longer\nto complete\nM5 no change in reacting quantities, so final volume is\nunchanged\n\nALLOW particles move more slowly\nACCEPT less frequent collisions that exceed activation energy\nACCEPT reverse argument throughout",
      "mark_points": [
       {
        "id": "2023-06-10-b-i-MP1",
        "marks": 4,
-       "text_md": "An explanation that links any of the following four\npoints\nM1 curve B is less steep (than curve A)\nM2 (because) the particles have less kinetic energy ALLOW particles\nmove more slowly\nM3 so there are fewer successful collisions per unit ACCEPT less frequent\ntime/less frequent successful collisions collisions that exceed\nactivation energy\nM4 so rate of reaction is slower / reaction takes longer\nto complete\nM5 no change in reacting quantities, so final volume is\nunchanged\nACCEPT reverse\nargument throughout"
+       "text_md": "An explanation that links any of the following four\npoints\nM1 curve B is less steep (than curve A)\nM2 (because) the particles have less kinetic energy\nM3 so there are fewer successful collisions per unit\ntime/less frequent successful collisions\nM4 so rate of reaction is slower / reaction takes longer\nto complete\nM5 no change in reacting quantities, so final volume is\nunchanged\n\nALLOW particles move more slowly\nACCEPT less frequent collisions that exceed activation energy\nACCEPT reverse argument throughout"
       }
      ],
      "source_page": 28,
@@ -1659,12 +1659,12 @@
      "problem_md": "In the other experiment the student repeats the original method but uses 20 cm3 of hydrochloric acid containing 0.0018 mol. Explain why curve C shows the results the student obtained.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links two of the following points\nM1 only half the moles (of hydrochloric acid) used /\n(hydrochloric acid) concentration is halved\nM2 (so) only half the volume/20 cm3 of hydrogen/gas If M1 and M2 are not\nproduced scored, allow (1)\nmark for the idea\nthat less HCl\nproduces less\nhydrogen\nM3 hydrochloric acid is less concentrated so curve is\nless steep",
+     "solution_md": "An explanation that links two of the following points\nM1 only half the moles (of hydrochloric acid) used /\n(hydrochloric acid) concentration is halved\nM2 (so) only half the volume/20 cm3 of hydrogen/gas If M1 and M2 are not\nproduced scored, allow (1)\nM3 hydrochloric acid is less concentrated so curve is\nless steep\n\nmark for the idea that less HCl produces less hydrogen",
      "mark_points": [
       {
        "id": "2023-06-10-b-ii-MP1",
        "marks": 2,
-       "text_md": "An explanation that links two of the following points\nM1 only half the moles (of hydrochloric acid) used /\n(hydrochloric acid) concentration is halved\nM2 (so) only half the volume/20 cm3 of hydrogen/gas If M1 and M2 are not\nproduced scored, allow (1)\nmark for the idea\nthat less HCl\nproduces less\nhydrogen\nM3 hydrochloric acid is less concentrated so curve is\nless steep"
+       "text_md": "An explanation that links two of the following points\nM1 only half the moles (of hydrochloric acid) used /\n(hydrochloric acid) concentration is halved\nM2 (so) only half the volume/20 cm3 of hydrogen/gas If M1 and M2 are not\nproduced scored, allow (1)\nM3 hydrochloric acid is less concentrated so curve is\nless steep\n\nmark for the idea that less HCl produces less hydrogen"
       }
      ],
      "source_page": 29,
@@ -1682,17 +1682,17 @@
      "problem_md": "Catalysts can be used to speed up reactions. Describe how a catalyst works.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two points\nM1 (a catalyst) provides an alternative pathway/route IGNORE general\nstatements about\nM2 with a lower activation energy catalysts increasing\nrate / not being used\nup\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "A description that refers to the following two points\nM1 (a catalyst) provides an alternative pathway/route\nM2 with a lower activation energy\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nIGNORE general statements about catalysts increasing rate / not being used up",
      "mark_points": [
       {
        "id": "2023-06-10-c-MP1",
        "marks": 1,
-       "text_md": "(a catalyst) provides an alternative pathway/route IGNORE general"
+       "text_md": "(a catalyst) provides an alternative pathway/route\nIGNORE general statements about catalysts increasing rate / not being used up"
       },
       {
        "id": "2023-06-10-c-MP2",
        "marks": 1,
-       "text_md": "with a lower activation energy catalysts increasing\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "with a lower activation energy\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
       }
      ],
      "source_page": 29,

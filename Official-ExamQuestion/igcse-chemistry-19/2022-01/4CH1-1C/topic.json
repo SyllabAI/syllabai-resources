@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:39Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2022-01 paper=1C",
+ "generated_utc": "2026-10-22T14:42:05Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2022-01 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/1C",
  "source": {
   "qp_sha256": "06c4f1f72748869ed805d867b271638317e3a31599f1daa9373279b83b40d9a5",
@@ -101,17 +101,17 @@
      "problem_md": "The diagram represents a molecule. Explain why this molecule is a compound.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 two / different elements ALLOW (two) different\natoms\nM2 (chemically) joined / bonded together ALLOW a description of\nbonding",
+     "solution_md": "M1 two / different elements\nM2 (chemically) joined / bonded together\n\nALLOW (two) different atoms\nALLOW a description of bonding",
      "mark_points": [
       {
        "id": "2022-01-1-b-MP1",
        "marks": 1,
-       "text_md": "two / different elements ALLOW (two) different"
+       "text_md": "two / different elements\nALLOW (two) different atoms"
       },
       {
        "id": "2022-01-1-b-MP2",
        "marks": 1,
-       "text_md": "(chemically) joined / bonded together ALLOW a description of"
+       "text_md": "(chemically) joined / bonded together\nALLOW a description of bonding"
       }
      ],
      "source_page": 5,
@@ -162,12 +162,12 @@
      "problem_md": "Determine the number of atoms in a molecule of C3H5N3O9",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "20\nTotal for question = 7 marks",
+     "solution_md": "20\n\nTotal for question = 7 marks",
      "mark_points": [
       {
        "id": "2022-01-1-c-ii-MP1",
        "marks": 1,
-       "text_md": "20\nTotal for question = 7 marks"
+       "text_md": "20\n\nTotal for question = 7 marks"
       }
      ],
      "source_page": 5,
@@ -198,7 +198,7 @@
      "part_number": "2(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Name the two substances needed for iron to rust. 1 2",
+     "problem_md": "Name the two substances needed for iron to rust. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "M1 oxygen / air\nM2 water",
@@ -228,12 +228,12 @@
      "problem_md": "Give the chemical name for rust.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(hydrated) iron(III) oxide REJECT (hydrated) iron\n(II) oxide",
+     "solution_md": "(hydrated) iron(III) oxide\n\nREJECT (hydrated) iron (II) oxide",
      "mark_points": [
       {
        "id": "2022-01-2-a-ii-MP1",
        "marks": 1,
-       "text_md": "(hydrated) iron(III) oxide REJECT (hydrated) iron\n(II) oxide"
+       "text_md": "(hydrated) iron(III) oxide\n\nREJECT (hydrated) iron (II) oxide"
       }
      ],
      "source_page": 6,
@@ -294,12 +294,12 @@
      "problem_md": "Name this type of rust prevention.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "galvanising ALLOW galvanisation\nIGNORE sacrificial\nprotection",
+     "solution_md": "galvanising\n\nALLOW galvanisation\nIGNORE sacrificial protection",
      "mark_points": [
       {
        "id": "2022-01-2-b-i-MP1",
        "marks": 1,
-       "text_md": "galvanising ALLOW galvanisation\nIGNORE sacrificial\nprotection"
+       "text_md": "galvanising\n\nALLOW galvanisation\nIGNORE sacrificial protection"
       }
      ],
      "source_page": 6,
@@ -316,17 +316,17 @@
      "problem_md": "Explain how this type of rust prevention continues to protect iron when the layer of zinc is damaged.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 zinc is more reactive (than iron) ALLOW zinc is higher in\nthe reactivity series\n(than iron)\nM2 zinc reacts / oxidises / corrodes REJECT references to\nbefore / instead of iron zinc rusting",
+     "solution_md": "M1 zinc is more reactive (than iron)\nM2 zinc reacts / oxidises / corrodes\nbefore / instead of iron\n\nALLOW zinc is higher in the reactivity series (than iron)\nREJECT references to zinc rusting",
      "mark_points": [
       {
        "id": "2022-01-2-b-ii-MP1",
        "marks": 1,
-       "text_md": "zinc is more reactive (than iron) ALLOW zinc is higher in"
+       "text_md": "zinc is more reactive (than iron)\nALLOW zinc is higher in the reactivity series (than iron)"
       },
       {
        "id": "2022-01-2-b-ii-MP2",
        "marks": 1,
-       "text_md": "zinc reacts / oxidises / corrodes REJECT references to\nbefore / instead of iron zinc rusting"
+       "text_md": "zinc reacts / oxidises / corrodes\nbefore / instead of iron\nREJECT references to zinc rusting"
       }
      ],
      "source_page": 6,
@@ -340,15 +340,15 @@
      "part_number": "2(b)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two other methods used to prevent iron from rusting. 1 2",
+     "problem_md": "Give two other methods used to prevent iron from rusting. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any two from:\npainting ALLOW powder coating\nplastic coating\noiling / greasing\nchromium plating\nsacrificial protection\ncathodic protection\nTotal for question = 9 marks",
+     "solution_md": "Any two from:\npainting\nplastic coating\noiling / greasing\nchromium plating\nsacrificial protection\ncathodic protection\n\nALLOW powder coating Total for question = 9 marks",
      "mark_points": [
       {
        "id": "2022-01-2-b-iii-MP1",
        "marks": 2,
-       "text_md": "Any two from:\npainting ALLOW powder coating\nplastic coating\noiling / greasing\nchromium plating\nsacrificial protection\ncathodic protection\nTotal for question = 9 marks"
+       "text_md": "Any two from:\npainting\nplastic coating\noiling / greasing\nchromium plating\nsacrificial protection\ncathodic protection\n\nALLOW powder coating Total for question = 9 marks"
       }
      ],
      "source_page": 7,
@@ -417,12 +417,12 @@
      "problem_md": "State the name given to the spreading out of gas particles.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "diffusion ALLOW diffusing",
+     "solution_md": "diffusion\n\nALLOW diffusing",
      "mark_points": [
       {
        "id": "2022-01-3-b-i-MP1",
        "marks": 1,
-       "text_md": "diffusion ALLOW diffusing"
+       "text_md": "diffusion\n\nALLOW diffusing"
       }
      ],
      "source_page": 9,
@@ -496,12 +496,12 @@
      "problem_md": "Concentrated ammonia solution and concentrated hydrochloric acid are corrosive. Give one safety precaution the teacher should take.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "eye protection / wear safety glasses / goggles\nwear gloves\napron / lab coat\nALLOW put a bung /\ncork in both ends\nTotal for question = 7 marks",
+     "solution_md": "eye protection / wear safety glasses / goggles\nwear gloves\napron / lab coat\n\nALLOW put a bung / cork in both ends Total for question = 7 marks",
      "mark_points": [
       {
        "id": "2022-01-3-b-iv-MP1",
        "marks": 1,
-       "text_md": "eye protection / wear safety glasses / goggles\nwear gloves\napron / lab coat\nALLOW put a bung /\ncork in both ends\nTotal for question = 7 marks"
+       "text_md": "eye protection / wear safety glasses / goggles\nwear gloves\napron / lab coat\n\nALLOW put a bung / cork in both ends Total for question = 7 marks"
       }
      ],
      "source_page": 9,
@@ -530,12 +530,12 @@
      "problem_md": "Give a reason why the copper powder is heated.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any one from:\nto increase the rate of reaction\nto give the particles enough energy to react ALLOW because copper\ndoes not react with\noxygen when copper is\ncold\nALLOW so that copper\nwill react with oxygen",
+     "solution_md": "Any one from:\nto increase the rate of reaction\nto give the particles enough energy to react\n\nALLOW because copper does not react with oxygen when copper is cold\nALLOW so that copper will react with oxygen",
      "mark_points": [
       {
        "id": "2022-01-4-a-i-MP1",
        "marks": 1,
-       "text_md": "Any one from:\nto increase the rate of reaction\nto give the particles enough energy to react ALLOW because copper\ndoes not react with\noxygen when copper is\ncold\nALLOW so that copper\nwill react with oxygen"
+       "text_md": "Any one from:\nto increase the rate of reaction\nto give the particles enough energy to react\n\nALLOW because copper does not react with oxygen when copper is cold\nALLOW so that copper will react with oxygen"
       }
      ],
      "source_page": 10,
@@ -553,12 +553,12 @@
      "problem_md": "State why argon is unreactive.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "because Ar does not (readily) gain / lose / share ACCEPT argon has a full\nelectrons outer shell / valence\nshell of electrons",
+     "solution_md": "because Ar does not (readily) gain / lose / share\nelectrons\n\nACCEPT argon has a full outer shell / valence shell of electrons",
      "mark_points": [
       {
        "id": "2022-01-4-a-ii-MP1",
        "marks": 1,
-       "text_md": "because Ar does not (readily) gain / lose / share ACCEPT argon has a full\nelectrons outer shell / valence\nshell of electrons"
+       "text_md": "because Ar does not (readily) gain / lose / share\nelectrons\n\nACCEPT argon has a full outer shell / valence shell of electrons"
       }
      ],
      "source_page": 10,
@@ -575,12 +575,12 @@
      "problem_md": "Give the name of the black powder that forms when the oxygen reacts with the copper.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "copper(II) oxide ALLOW copper oxide\nREJECT copper(I) oxide",
+     "solution_md": "copper(II) oxide\n\nALLOW copper oxide\nREJECT copper(I) oxide",
      "mark_points": [
       {
        "id": "2022-01-4-a-iii-MP1",
        "marks": 1,
-       "text_md": "copper(II) oxide ALLOW copper oxide\nREJECT copper(I) oxide"
+       "text_md": "copper(II) oxide\n\nALLOW copper oxide\nREJECT copper(I) oxide"
       }
      ],
      "source_page": 10,
@@ -597,12 +597,12 @@
      "problem_md": "State how the results show that all the oxygen has reacted.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "results are the same (at the end) ALLOW results stop\ndecreasing",
+     "solution_md": "results are the same (at the end)\n\nALLOW results stop decreasing",
      "mark_points": [
       {
        "id": "2022-01-4-b-i-MP1",
        "marks": 1,
-       "text_md": "results are the same (at the end) ALLOW results stop\ndecreasing"
+       "text_md": "results are the same (at the end)\n\nALLOW results stop decreasing"
       }
      ],
      "source_page": 11,
@@ -616,10 +616,10 @@
      "part_number": "4(b)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The volume of gas in the glass tube and connecting tubes is 175 cm3. Use this value and the results table to calculate the percentage of oxygen in the mixture of oxygen and argon. percentage of oxygen = %",
+     "problem_md": "The volume of gas in the glass tube and connecting tubes is 175 cm3. Use this value and the results table to calculate the percentage of oxygen in the mixture of oxygen and argon. percentage of oxygen = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 volume oxygen = 20 cm 3\nM2 total volume = 253 cm3\nM3 (20÷253)×100 = 7.9% ALLOW correct\nevaluation from M1 and\nM2\nALLOW any number of\nsignificant figures\nREJECT incorrect\nrounding\nCorrect answer of 7.9%\nwith or without working\nscores 3",
+     "solution_md": "M1 volume oxygen = 20 cm 3\nM2 total volume = 253 cm3\nM3 (20÷253)×100 = 7.9%\n\nALLOW correct evaluation from M1 and M2\nALLOW any number of significant figures\nREJECT incorrect rounding\nCorrect answer of 7.9% with or without working scores 3",
      "mark_points": [
       {
        "id": "2022-01-4-b-ii-MP1",
@@ -634,7 +634,7 @@
       {
        "id": "2022-01-4-b-ii-MP3",
        "marks": 1,
-       "text_md": "(20÷253)×100 = 7.9% ALLOW correct"
+       "text_md": "(20÷253)×100 = 7.9%\nALLOW correct evaluation from M1 and M2\nALLOW any number of significant figures\nREJECT incorrect rounding\nCorrect answer of 7.9% with or without working scores 3"
       }
      ],
      "source_page": 11,
@@ -666,12 +666,12 @@
      "problem_md": "Suggest one reason why the calculated percentage of oxygen in the mixture may not be accurate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any one from:\nthere is a leak in the apparatus\ntemperature was not the same for all readings\nthe apparatus was not left to cool (to room\ntemperature)\nIGNORE not all oxygen\nreacted\nTotal for question = 8 marks",
+     "solution_md": "Any one from:\nthere is a leak in the apparatus\ntemperature was not the same for all readings\nthe apparatus was not left to cool (to room\ntemperature)\n\nIGNORE not all oxygen reacted Total for question = 8 marks",
      "mark_points": [
       {
        "id": "2022-01-4-b-iii-MP1",
        "marks": 1,
-       "text_md": "Any one from:\nthere is a leak in the apparatus\ntemperature was not the same for all readings\nthe apparatus was not left to cool (to room\ntemperature)\nIGNORE not all oxygen\nreacted\nTotal for question = 8 marks"
+       "text_md": "Any one from:\nthere is a leak in the apparatus\ntemperature was not the same for all readings\nthe apparatus was not left to cool (to room\ntemperature)\n\nIGNORE not all oxygen reacted Total for question = 8 marks"
       }
      ],
      "source_page": 12,
@@ -702,12 +702,12 @@
      "problem_md": "Complete the table to show the relative mass and relative charge of a proton and a neutron. Proton Electron Neutron Relative mass 1/2000 Relative charge −1",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "relative mass proton 1 All 4 correct scores 2\n2 or 3 correct scores 1\nrelative mass neutron 1\nrelative charge proton +1\nrelative charge neutron 0",
+     "solution_md": "relative mass proton 1 All 4 correct scores 2\nrelative mass neutron 1\nrelative charge proton +1\nrelative charge neutron 0\n\n2 or 3 correct scores 1",
      "mark_points": [
       {
        "id": "2022-01-5-a-MP1",
        "marks": 2,
-       "text_md": "relative mass proton 1 All 4 correct scores 2\n2 or 3 correct scores 1\nrelative mass neutron 1\nrelative charge proton +1\nrelative charge neutron 0"
+       "text_md": "relative mass proton 1 All 4 correct scores 2\nrelative mass neutron 1\nrelative charge proton +1\nrelative charge neutron 0\n\n2 or 3 correct scores 1"
       }
      ],
      "source_page": 14,
@@ -736,17 +736,17 @@
      "problem_md": "State the meaning of the term isotopes.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 atoms (of the same element) with the same ALLOW atoms with the\nnumber of protons same atomic number\nALLOW atoms with the\nsame number of\nelectrons\nM2 but different numbers of neutrons ALLOW but different\nmass numbers",
+     "solution_md": "M1 atoms (of the same element) with the same\nnumber of protons\nM2 but different numbers of neutrons\n\nALLOW atoms with the same atomic number\nALLOW atoms with the same number of electrons\nALLOW but different mass numbers",
      "mark_points": [
       {
        "id": "2022-01-5-b-i-MP1",
        "marks": 1,
-       "text_md": "atoms (of the same element) with the same ALLOW atoms with the\nnumber of protons same atomic number"
+       "text_md": "atoms (of the same element) with the same\nnumber of protons\nALLOW atoms with the same atomic number\nALLOW atoms with the same number of electrons"
       },
       {
        "id": "2022-01-5-b-i-MP2",
        "marks": 1,
-       "text_md": "but different numbers of neutrons ALLOW but different"
+       "text_md": "but different numbers of neutrons\nALLOW but different mass numbers"
       }
      ],
      "source_page": 14,
@@ -790,7 +790,7 @@
      "problem_md": "A sample of magnesium contains these percentages of the three isotopes. Mg‑24 = 79.00 % Mg‑25 = 10.00 % Mg‑26 = 11.00 % Use this information to show that the relative atomic mass of magnesium is 24.32",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nscores 2 marks\nM1 multiplies each mass number by the percentages\nM2 adds multiples together and divides by 100\n(24 x 0.79) + (25 x 0.10)\n+ (26 x 0.11) scores\nboth marks",
+     "solution_md": "2\nscores 2 marks\nM1 multiplies each mass number by the percentages\nM2 adds multiples together and divides by 100\n\n(24 x 0.79) + (25 x 0.10) + (26 x 0.11) scores both marks",
      "mark_points": [
       {
        "id": "2022-01-5-b-iii-MP1",
@@ -800,7 +800,7 @@
       {
        "id": "2022-01-5-b-iii-MP2",
        "marks": 1,
-       "text_md": "adds multiples together and divides by 100"
+       "text_md": "adds multiples together and divides by 100\n(24 x 0.79) + (25 x 0.10) + (26 x 0.11) scores both marks"
       }
      ],
      "source_page": 15,
@@ -814,10 +814,10 @@
      "part_number": "5(b)(iv)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "One mole of magnesium has a mass of 24.32 g. There are 6.022 × 1023 atoms in one mole. Calculate the mass, in grams, of one atom of magnesium. Give your answer to 4 significant figures. mass = g",
+     "problem_md": "One mole of magnesium has a mass of 24.32 g. There are 6.022 × 1023 atoms in one mole. Calculate the mass, in grams, of one atom of magnesium. Give your answer to 4 significant figures. mass = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 24.32÷(6.022×1023)\nM2 4.039 × 10-23 ALLOW ecf from M1 as\nlong as answer is given\nto 4 sig figs\nCorrect answer of 4.039\n× 10-23 g to 4 sig sigs\nscores 2 with or without\nworking",
+     "solution_md": "M1 24.32÷(6.022×1023)\nM2 4.039 × 10-23\n\nALLOW ecf from M1 as long as answer is given to 4 sig figs\nCorrect answer of 4.039 × 10-23 g to 4 sig sigs scores 2 with or without working",
      "mark_points": [
       {
        "id": "2022-01-5-b-iv-MP1",
@@ -827,7 +827,7 @@
       {
        "id": "2022-01-5-b-iv-MP2",
        "marks": 1,
-       "text_md": "4.039 × 10-23 ALLOW ecf from M1 as"
+       "text_md": "4.039 × 10-23\nALLOW ecf from M1 as long as answer is given to 4 sig figs\nCorrect answer of 4.039 × 10-23 g to 4 sig sigs scores 2 with or without working"
       }
      ],
      "source_page": 15,
@@ -842,15 +842,15 @@
      "part_number": "5(c)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "The equation for the reaction between magnesium and oxygen is 2Mg + O2 → 2MgO Determine the maximum amount, in moles, of magnesium oxide that can be produced from 0.50 mol of magnesium and 0.20 mol of oxygen. amount = mol",
+     "problem_md": "The equation for the reaction between magnesium and oxygen is 2Mg + O2 → 2MgO Determine the maximum amount, in moles, of magnesium oxide that can be produced from 0.50 mol of magnesium and 0.20 mol of oxygen. amount = .......... mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(moles of MgO) = 0.40\nTotal for question = 11",
+     "solution_md": "(moles of MgO) = 0.40\n\nTotal for question = 11",
      "mark_points": [
       {
        "id": "2022-01-5-c-MP1",
        "marks": 1,
-       "text_md": "(moles of MgO) = 0.40\nTotal for question = 11"
+       "text_md": "(moles of MgO) = 0.40\n\nTotal for question = 11"
       }
      ],
      "source_page": 15,
@@ -881,12 +881,12 @@
      "problem_md": "The diagram shows the electronic configuration of atoms of sodium and oxygen. Sodium Oxygen Describe the changes in the electronic configuration of the atoms of sodium and oxygen to form the ions in sodium oxide.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any three from:\nM1 sodium (atom) loses electron(s)\nM2 oxygen (atom) gains electron(s)\nM3 sodium loses 1 electron AND oxygen gains 2\nelectrons\nOR\nM3 (both atoms become ions with configuration) 2.8\nany mention of sharing\nof electrons scores 0",
+     "solution_md": "Any three from:\nM1 sodium (atom) loses electron(s)\nM2 oxygen (atom) gains electron(s)\nM3 sodium loses 1 electron AND oxygen gains 2\nelectrons\nOR\nM3 (both atoms become ions with configuration) 2.8\n\nany mention of sharing of electrons scores 0",
      "mark_points": [
       {
        "id": "2022-01-6-a-MP1",
        "marks": 3,
-       "text_md": "Any three from:\nM1 sodium (atom) loses electron(s)\nM2 oxygen (atom) gains electron(s)\nM3 sodium loses 1 electron AND oxygen gains 2\nelectrons\nOR\nM3 (both atoms become ions with configuration) 2.8\nany mention of sharing\nof electrons scores 0"
+       "text_md": "Any three from:\nM1 sodium (atom) loses electron(s)\nM2 oxygen (atom) gains electron(s)\nM3 sodium loses 1 electron AND oxygen gains 2\nelectrons\nOR\nM3 (both atoms become ions with configuration) 2.8\n\nany mention of sharing of electrons scores 0"
       }
      ],
      "source_page": 16,
@@ -913,7 +913,7 @@
      "part_number": "6(b)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the relative formula mass (Mr ) of sodium oxide, Na2O, using information from the Periodic Table. Mr =",
+     "problem_md": "Calculate the relative formula mass (Mr ) of sodium oxide, Na2O, using information from the Periodic Table. Mr = ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "62",
@@ -961,17 +961,17 @@
      "problem_md": "Give a test to show that sodium oxide contains sodium ions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 flame test ALLOW any description\nof a flame test\nM2 yellow colour ALLOW orange or\nyellow-orange\nM2 dep on M1 or\nmention of flame",
+     "solution_md": "M1 flame test\nM2 yellow colour\n\nALLOW any description of a flame test\nALLOW orange or yellow-orange M2 dep on M1 or mention of flame",
      "mark_points": [
       {
        "id": "2022-01-6-d-MP1",
        "marks": 1,
-       "text_md": "flame test ALLOW any description"
+       "text_md": "flame test\nALLOW any description of a flame test"
       },
       {
        "id": "2022-01-6-d-MP2",
        "marks": 1,
-       "text_md": "yellow colour ALLOW orange or"
+       "text_md": "yellow colour\nALLOW orange or yellow-orange M2 dep on M1 or mention of flame"
       }
      ],
      "source_page": 17,
@@ -988,12 +988,12 @@
      "problem_md": "When sodium oxide is heated it reacts to form sodium metal and sodium peroxide, Na2O2 Complete the equation for this reaction. Na2O →",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2Na2O → 2Na + Na2O2\nTotal for question = 9 marks",
+     "solution_md": "2Na2O → 2Na + Na2O2\n\nTotal for question = 9 marks",
      "mark_points": [
       {
        "id": "2022-01-6-e-MP1",
        "marks": 1,
-       "text_md": "2Na2O → 2Na + Na2O2\nTotal for question = 9 marks"
+       "text_md": "2Na2O → 2Na + Na2O2\n\nTotal for question = 9 marks"
       }
      ],
      "source_page": 17,
@@ -1086,12 +1086,12 @@
      "problem_md": "The student wants to obtain pure, dry crystals of sodium nitrate. Crystals of sodium nitrate decompose at temperatures above 300 °C. Describe a method the student could use to obtain pure, dry crystals of sodium nitrate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any five from:\nM1 filter\nM2 heat/boil (the solution)\nM3 to evaporate some of the water ALLOW until crystals\nform on the end of a\nglass rod\nALLOW until crystals\nfirst start to form\nALLOW until the\nsolution is saturated\nM4 leave / cool (to crystallise) M4 dep on M2\nM5 pour off excess liquid OR filter (to obtain M5 dep on crystals\ncrystals) having been formed\nIGNORE references to\nwashing\nM6 suitable method of drying the e.g. place in (warm)\ncrystals oven / leave to\ndry (in warm place) /\nuse filter\npaper / kitchen towel /\n/ desiccator\nIf solution heated to\ndryness or\nleft to evaporate all of\nthe water\nonly M1 and M2 can be\nawarded.\nIf method produces\nsilver chloride only M1\nand M6 can be awarded",
+     "solution_md": "Any five from:\nM1 filter\nM2 heat/boil (the solution)\nM3 to evaporate some of the water\nM4 leave / cool (to crystallise)\nM5 pour off excess liquid OR filter (to obtain\ncrystals)\nM6 suitable method of drying the\ncrystals\n\nALLOW until crystals form on the end of a glass rod\nALLOW until crystals first start to form\nALLOW until the solution is saturated M4 dep on M2 M5 dep on crystals having been formed\nIGNORE references to washing e.g. place in (warm) oven / leave to dry (in warm place) / use filter paper / kitchen towel / / desiccator If solution heated to dryness or left to evaporate all of the water only M1 and M2 can be awarded. If method produces silver chloride only M1 and M6 can be awarded",
      "mark_points": [
       {
        "id": "2022-01-7-b-ii-MP1",
        "marks": 5,
-       "text_md": "Any five from:\nM1 filter\nM2 heat/boil (the solution)\nM3 to evaporate some of the water ALLOW until crystals\nform on the end of a\nglass rod\nALLOW until crystals\nfirst start to form\nALLOW until the\nsolution is saturated\nM4 leave / cool (to crystallise) M4 dep on M2\nM5 pour off excess liquid OR filter (to obtain M5 dep on crystals\ncrystals) having been formed\nIGNORE references to\nwashing\nM6 suitable method of drying the e.g. place in (warm)\ncrystals oven / leave to\ndry (in warm place) /\nuse filter\npaper / kitchen towel /\n/ desiccator\nIf solution heated to\ndryness or\nleft to evaporate all of\nthe water\nonly M1 and M2 can be\nawarded.\nIf method produces\nsilver chloride only M1\nand M6 can be awarded"
+       "text_md": "Any five from:\nM1 filter\nM2 heat/boil (the solution)\nM3 to evaporate some of the water\nM4 leave / cool (to crystallise)\nM5 pour off excess liquid OR filter (to obtain\ncrystals)\nM6 suitable method of drying the\ncrystals\n\nALLOW until crystals form on the end of a glass rod\nALLOW until crystals first start to form\nALLOW until the solution is saturated M4 dep on M2 M5 dep on crystals having been formed\nIGNORE references to washing e.g. place in (warm) oven / leave to dry (in warm place) / use filter paper / kitchen towel / / desiccator If solution heated to dryness or left to evaporate all of the water only M1 and M2 can be awarded. If method produces silver chloride only M1 and M6 can be awarded"
       }
      ],
      "source_page": 19,
@@ -1109,12 +1109,12 @@
      "problem_md": "Give an advantage of mixing solutions containing equal amounts, in moles, of silver nitrate and sodium chloride.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any one from:\nto make sure the silver nitrate and sodium chloride ALLOW so all the\nfully reacted reactants react OR so\nnothing left unreacted\nOR so neither reagent is\nin excess\nto make sure the products only contained silver\nchloride and sodium nitrate\nto ensure the highest possible yield\nALLOW to make sure\nthe sodium nitrate\n(crystals) would be pure\nALLOW If either solution\nwere in excess, it would\ncontaminate the sodium\nnitrate OWTTE\nTotal for question = 8 marks",
+     "solution_md": "any one from:\nto make sure the silver nitrate and sodium chloride\nfully reacted\nto make sure the products only contained silver\nchloride and sodium nitrate\nto ensure the highest possible yield\n\nALLOW so all the reactants react OR so nothing left unreacted OR so neither reagent is in excess\nALLOW to make sure the sodium nitrate (crystals) would be pure\nALLOW If either solution were in excess, it would contaminate the sodium nitrate OWTTE Total for question = 8 marks",
      "mark_points": [
       {
        "id": "2022-01-7-b-iii-MP1",
        "marks": 1,
-       "text_md": "any one from:\nto make sure the silver nitrate and sodium chloride ALLOW so all the\nfully reacted reactants react OR so\nnothing left unreacted\nOR so neither reagent is\nin excess\nto make sure the products only contained silver\nchloride and sodium nitrate\nto ensure the highest possible yield\nALLOW to make sure\nthe sodium nitrate\n(crystals) would be pure\nALLOW If either solution\nwere in excess, it would\ncontaminate the sodium\nnitrate OWTTE\nTotal for question = 8 marks"
+       "text_md": "any one from:\nto make sure the silver nitrate and sodium chloride\nfully reacted\nto make sure the products only contained silver\nchloride and sodium nitrate\nto ensure the highest possible yield\n\nALLOW so all the reactants react OR so nothing left unreacted OR so neither reagent is in excess\nALLOW to make sure the sodium nitrate (crystals) would be pure\nALLOW If either solution were in excess, it would contaminate the sodium nitrate OWTTE Total for question = 8 marks"
       }
      ],
      "source_page": 19,
@@ -1239,12 +1239,12 @@
      "problem_md": "Complete the equation for the reaction. CH4 + Br2 →",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "CH3Br + HBr ALLOW balanced\nequations for multiple\nsubstitutions",
+     "solution_md": "CH3Br + HBr\n\nALLOW balanced equations for multiple substitutions",
      "mark_points": [
       {
        "id": "2022-01-8-b-i-MP1",
        "marks": 1,
-       "text_md": "CH3Br + HBr ALLOW balanced\nequations for multiple\nsubstitutions"
+       "text_md": "CH3Br + HBr\n\nALLOW balanced equations for multiple substitutions"
       }
      ],
      "source_page": 21,
@@ -1303,10 +1303,10 @@
      "part_number": "8(c)(ii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The relative formula mass (Mr ) of G is 127 Determine the molecular formula of G. molecular formula =",
+     "problem_md": "The relative formula mass (Mr ) of G is 127 Determine the molecular formula of G. molecular formula = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 127÷63.5=2\nM2 Molecular formula = C4H8Cl2\nAnswer of C4H8Cl2\nwithout working scores",
+     "solution_md": "M1 127÷63.5=2\nM2 Molecular formula = C4H8Cl2\n\nAnswer of C4H8Cl2 without working scores",
      "mark_points": [
       {
        "id": "2022-01-8-c-ii-MP1",
@@ -1316,7 +1316,7 @@
       {
        "id": "2022-01-8-c-ii-MP2",
        "marks": 1,
-       "text_md": "Molecular formula = C4H8Cl2"
+       "text_md": "Molecular formula = C4H8Cl2\nAnswer of C4H8Cl2 without working scores"
       }
      ],
      "assets": [],
@@ -1332,7 +1332,7 @@
      "problem_md": "Complete the equation to show part of the polymer formed from two molecules of compound E. H H H 2 C C C H C C C C H H",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nM1 two carbon atoms both with 2 H atoms\nM2 two carbon atoms both with 1 H atom and 1 CH 3\ngroup and nothing attached to the joining bonds\nMarks are independent",
+     "solution_md": "2\nM1 two carbon atoms both with 2 H atoms\nM2 two carbon atoms both with 1 H atom and 1 CH 3\ngroup and nothing attached to the joining bonds\n\nMarks are independent",
      "mark_points": [
       {
        "id": "2022-01-8-d-i-MP1",
@@ -1342,7 +1342,7 @@
       {
        "id": "2022-01-8-d-i-MP2",
        "marks": 1,
-       "text_md": "two carbon atoms both with 1 H atom and 1 CH 3\ngroup and nothing attached to the joining bonds"
+       "text_md": "two carbon atoms both with 1 H atom and 1 CH 3\ngroup and nothing attached to the joining bonds\nMarks are independent"
       }
      ],
      "source_page": 22,
@@ -1360,12 +1360,12 @@
      "problem_md": "Give one problem caused by the disposal of addition polymers.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any one from:\nlandfill sites are getting full\ntoxic / greenhouse gases are produced when burned\nTotal for question = 15 marks",
+     "solution_md": "Any one from:\nlandfill sites are getting full\ntoxic / greenhouse gases are produced when burned\n\nTotal for question = 15 marks",
      "mark_points": [
       {
        "id": "2022-01-8-d-ii-MP1",
        "marks": 1,
-       "text_md": "Any one from:\nlandfill sites are getting full\ntoxic / greenhouse gases are produced when burned\nTotal for question = 15 marks"
+       "text_md": "Any one from:\nlandfill sites are getting full\ntoxic / greenhouse gases are produced when burned\n\nTotal for question = 15 marks"
       }
      ],
      "source_page": 22,
@@ -1399,12 +1399,12 @@
      "problem_md": "Explain why using a cotton wool plug increases the accuracy of the student’s results.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 to prevent acid splashing out OR IGNORE solid leaving\nso only (carbon dioxide) gas leaves the flask the flask\nREJECT prevents gas\nescaping\nM2 so the decrease in mass is close to the actual\nvalue OR so that the decrease in mass is only due to\nthe gas",
+     "solution_md": "M1 to prevent acid splashing out OR\nso only (carbon dioxide) gas leaves the flask\nM2 so the decrease in mass is close to the actual\nvalue OR so that the decrease in mass is only due to\nthe gas\n\nIGNORE solid leaving the flask\nREJECT prevents gas escaping",
      "mark_points": [
       {
        "id": "2022-01-9-a-MP1",
        "marks": 1,
-       "text_md": "to prevent acid splashing out OR IGNORE solid leaving\nso only (carbon dioxide) gas leaves the flask the flask"
+       "text_md": "to prevent acid splashing out OR\nso only (carbon dioxide) gas leaves the flask\nIGNORE solid leaving the flask\nREJECT prevents gas escaping"
       },
       {
        "id": "2022-01-9-a-MP2",
@@ -1423,7 +1423,7 @@
      "part_number": "9(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the equation for the reaction by adding the state symbols. CaCO3( ) + 2HCl( ) → CaCl2(aq) + H2O( ) + CO2( )",
+     "problem_md": "Complete the equation for the reaction by adding the state symbols. CaCO3( .......... ) + 2HCl( .......... ) → CaCl2(aq) + H2O( .......... ) + CO2( .......... )",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "M1 CaCO3(s) + 2HCl(aq)\nM2 H2O(l) + CO2(g)",
@@ -1475,12 +1475,12 @@
      "problem_md": "State how the student would know when the reaction has stopped.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "mass stays the same / stops decreasing ALLOW effervescence /\nfizzing stops\nALLOW the curve levels\noff",
+     "solution_md": "mass stays the same / stops decreasing\n\nALLOW effervescence / fizzing stops\nALLOW the curve levels off",
      "mark_points": [
       {
        "id": "2022-01-9-c-ii-MP1",
        "marks": 1,
-       "text_md": "mass stays the same / stops decreasing ALLOW effervescence /\nfizzing stops\nALLOW the curve levels\noff"
+       "text_md": "mass stays the same / stops decreasing\n\nALLOW effervescence / fizzing stops\nALLOW the curve levels off"
       }
      ],
      "source_page": 24,
@@ -1495,10 +1495,10 @@
      "part_number": "9(c)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Use the graph to determine the amount, in moles, of carbon dioxide produced during the reaction. [Mr of CO2 = 44] amount = mol",
+     "problem_md": "Use the graph to determine the amount, in moles, of carbon dioxide produced during the reaction. [Mr of CO2 = 44] amount = .......... mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 0.98\nM2 (0.98÷44) = 0.022 ALLOW any number of\nsignificant figures\nREJECT incorrect\nrounding\nALLOW M1÷44\nCorrect answer of 0.022\nmoles with or without\nworking scores 2 marks",
+     "solution_md": "M1 0.98\nM2 (0.98÷44) = 0.022\n\nALLOW any number of significant figures\nREJECT incorrect rounding\nALLOW M1÷44\nCorrect answer of 0.022 moles with or without working scores 2 marks",
      "mark_points": [
       {
        "id": "2022-01-9-c-iii-MP1",
@@ -1508,7 +1508,7 @@
       {
        "id": "2022-01-9-c-iii-MP2",
        "marks": 1,
-       "text_md": "(0.98÷44) = 0.022 ALLOW any number of"
+       "text_md": "(0.98÷44) = 0.022\nALLOW any number of significant figures\nREJECT incorrect rounding\nALLOW M1÷44\nCorrect answer of 0.022 moles with or without working scores 2 marks"
       }
      ],
      "source_page": 25,
@@ -1536,10 +1536,10 @@
      "part_number": "9(c)(iv)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Use the graph to calculate the rate of reaction, in grams per second, at time 60 seconds. Show your working on the graph. rate of reaction = g / s",
+     "problem_md": "Use the graph to calculate the rate of reaction, in grams per second, at time 60 seconds. Show your working on the graph. rate of reaction = .......... g / s",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 tangent shown on graph\nM2 method of calculating gradient\n(change in y ÷ change in x)\nM3 rate of reaction in g/s ALLOW ECF from M2\nAnswer of 0.005 – 0.006\nwith a tangent shown\non the graph scores 3\nwith or without other\nworking.\nAnswer of 0.015g/s (the\naverage rate of reaction\nfor the first 60s scores\n1)",
+     "solution_md": "M1 tangent shown on graph\nM2 method of calculating gradient\n(change in y ÷ change in x)\nM3 rate of reaction in g/s\n\nALLOW ECF from M2 Answer of 0.005 – 0.006 with a tangent shown on the graph scores 3 with or without other working. Answer of 0.015g/s (the average rate of reaction for the first 60s scores 1)",
      "mark_points": [
       {
        "id": "2022-01-9-c-iv-MP1",
@@ -1554,7 +1554,7 @@
       {
        "id": "2022-01-9-c-iv-MP3",
        "marks": 1,
-       "text_md": "rate of reaction in g/s ALLOW ECF from M2"
+       "text_md": "rate of reaction in g/s\nALLOW ECF from M2 Answer of 0.005 – 0.006 with a tangent shown on the graph scores 3 with or without other working. Answer of 0.015g/s (the average rate of reaction for the first 60s scores 1)"
       }
      ],
      "source_page": 25,
@@ -1612,17 +1612,17 @@
      "problem_md": "Explain why changing the concentration of hydrochloric acid has an effect on the initial rate of reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 change in number of particles (per unit volume) ALLOW particles are\ncloser together or\nfurther apart\nM2 change in collisions per unit time ALLOW change in\nfrequency of collisions\nREJECT increased /\nchanged energy / speed\nTotal for question = 15 marks",
+     "solution_md": "M1 change in number of particles (per unit volume)\nM2 change in collisions per unit time\n\nALLOW particles are closer together or further apart\nALLOW change in frequency of collisions\nREJECT increased / changed energy / speed Total for question = 15 marks",
      "mark_points": [
       {
        "id": "2022-01-9-d-ii-MP1",
        "marks": 1,
-       "text_md": "change in number of particles (per unit volume) ALLOW particles are"
+       "text_md": "change in number of particles (per unit volume)\nALLOW particles are closer together or further apart"
       },
       {
        "id": "2022-01-9-d-ii-MP2",
        "marks": 1,
-       "text_md": "change in collisions per unit time ALLOW change in"
+       "text_md": "change in collisions per unit time\nALLOW change in frequency of collisions\nREJECT increased / changed energy / speed Total for question = 15 marks"
       }
      ],
      "source_page": 26,
@@ -1656,17 +1656,17 @@
      "problem_md": "Draw a dot and cross diagram to show the outer shell electrons in a molecule of nitrogen, N2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nALLOW dots, crosses or\nany combination.\nM1 6 bonding electrons\nM2 2 non-bonding electrons on each atom M2 dep on M1",
+     "solution_md": "2\nM1 6 bonding electrons\nM2 2 non-bonding electrons on each atom\n\nALLOW dots, crosses or any combination. M2 dep on M1",
      "mark_points": [
       {
        "id": "2022-01-10-a-i-MP1",
        "marks": 1,
-       "text_md": "6 bonding electrons"
+       "text_md": "6 bonding electrons\nALLOW dots, crosses or any combination. M2 dep on M1"
       },
       {
        "id": "2022-01-10-a-i-MP2",
        "marks": 1,
-       "text_md": "2 non-bonding electrons on each atom M2 dep on M1"
+       "text_md": "2 non-bonding electrons on each atom"
       }
      ],
      "source_page": 28,
@@ -1683,7 +1683,7 @@
      "problem_md": "Describe the forces of attraction in a covalent bond.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 shared pair(s) of electrons\nM2 attracted to (two) nuclei REJECT nucleus. Must\nbe plural for M2.\nM2 dep on mention of\nelectrons in M1",
+     "solution_md": "M1 shared pair(s) of electrons\nM2 attracted to (two) nuclei\n\nREJECT nucleus. Must be plural for M2. M2 dep on mention of electrons in M1",
      "mark_points": [
       {
        "id": "2022-01-10-a-ii-MP1",
@@ -1693,7 +1693,7 @@
       {
        "id": "2022-01-10-a-ii-MP2",
        "marks": 1,
-       "text_md": "attracted to (two) nuclei REJECT nucleus. Must"
+       "text_md": "attracted to (two) nuclei\nREJECT nucleus. Must be plural for M2. M2 dep on mention of electrons in M1"
       }
      ],
      "source_page": 28,
@@ -1732,12 +1732,12 @@
      "problem_md": "Graphite and C60 fullerene contain covalent bonds, but have different structures. Explain why C60 fullerene has a much lower melting point than graphite. Refer to structure and bonding in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any four from:\nM1 graphite is giant covalent ALLOW giant structure\nif M2 is scored\nREJECT molecules of\ngraphite\nM2 (in melting graphite) covalent bonds are ALLOW description of\nbroken covalent bonds\nM3 (C60) (simple) molecular structure ALLOW molecules of C60\nM4 (in melting C60) intermolecular forces (of ALLOW breaking bonds\nattraction) are overcome in C60 if intermolecular\nforces clearly\nmentioned\nM4 subsumes M3\nM5 more energy is needed to break covalent bonds\n(in graphite) than intermolecular forces (in C60)\nMention of\nintermolecular forces in\ngraphite no M2 or M5\nMention of breaking\ncovalent bonds in C60 no\nM4 or M5\nTotal for question = 9 marks",
+     "solution_md": "Any four from:\nM1 graphite is giant covalent\nM2 (in melting graphite) covalent bonds are\nbroken\nM3 (C60) (simple) molecular structure\nM4 (in melting C60) intermolecular forces (of\nattraction) are overcome\nM5 more energy is needed to break covalent bonds\n(in graphite) than intermolecular forces (in C60)\n\nALLOW giant structure if M2 is scored\nREJECT molecules of graphite\nALLOW description of covalent bonds\nALLOW molecules of C60\nALLOW breaking bonds in C60 if intermolecular forces clearly mentioned M4 subsumes M3 Mention of intermolecular forces in graphite no M2 or M5 Mention of breaking covalent bonds in C60 no M4 or M5 Total for question = 9 marks",
      "mark_points": [
       {
        "id": "2022-01-10-b-ii-MP1",
        "marks": 4,
-       "text_md": "Any four from:\nM1 graphite is giant covalent ALLOW giant structure\nif M2 is scored\nREJECT molecules of\ngraphite\nM2 (in melting graphite) covalent bonds are ALLOW description of\nbroken covalent bonds\nM3 (C60) (simple) molecular structure ALLOW molecules of C60\nM4 (in melting C60) intermolecular forces (of ALLOW breaking bonds\nattraction) are overcome in C60 if intermolecular\nforces clearly\nmentioned\nM4 subsumes M3\nM5 more energy is needed to break covalent bonds\n(in graphite) than intermolecular forces (in C60)\nMention of\nintermolecular forces in\ngraphite no M2 or M5\nMention of breaking\ncovalent bonds in C60 no\nM4 or M5\nTotal for question = 9 marks"
+       "text_md": "Any four from:\nM1 graphite is giant covalent\nM2 (in melting graphite) covalent bonds are\nbroken\nM3 (C60) (simple) molecular structure\nM4 (in melting C60) intermolecular forces (of\nattraction) are overcome\nM5 more energy is needed to break covalent bonds\n(in graphite) than intermolecular forces (in C60)\n\nALLOW giant structure if M2 is scored\nREJECT molecules of graphite\nALLOW description of covalent bonds\nALLOW molecules of C60\nALLOW breaking bonds in C60 if intermolecular forces clearly mentioned M4 subsumes M3 Mention of intermolecular forces in graphite no M2 or M5 Mention of breaking covalent bonds in C60 no M4 or M5 Total for question = 9 marks"
       }
      ],
      "source_page": 29,
@@ -1770,17 +1770,17 @@
      "problem_md": "Describe a chemical test to show that the colourless liquid contains water.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 add anhydrous copper sulfate ALLOW add white\ncopper sulfate\nM2 turns (from white) to blue M2 dep on copper\nsulfate in M1\nALLOW\nM1 add anhydrous /\nblue cobalt chloride\nM2 turns (from blue) to\npink\nM2 dep on cobalt\nchloride in M1",
+     "solution_md": "M1 add anhydrous copper sulfate\nM2 turns (from white) to blue\n\nALLOW add white copper sulfate M2 dep on copper sulfate in M1\nALLOW M1 add anhydrous / blue cobalt chloride M2 turns (from blue) to pink M2 dep on cobalt chloride in M1",
      "mark_points": [
       {
        "id": "2022-01-11-a-i-MP1",
        "marks": 1,
-       "text_md": "add anhydrous copper sulfate ALLOW add white"
+       "text_md": "add anhydrous copper sulfate\nALLOW add white copper sulfate M2 dep on copper sulfate in M1"
       },
       {
        "id": "2022-01-11-a-i-MP2",
        "marks": 1,
-       "text_md": "turns (from white) to blue M2 dep on copper"
+       "text_md": "turns (from white) to blue\nALLOW M1 add anhydrous / blue cobalt chloride M2 turns (from blue) to pink M2 dep on cobalt chloride in M1"
       }
      ],
      "source_page": 30,
@@ -1797,12 +1797,12 @@
      "problem_md": "Describe a physical test to show the colourless liquid is pure water.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 measure the boiling point / freezing point ALLOW boil it or freeze\nit\nM2 100 °C / 0°C\nValue must match\nproperty",
+     "solution_md": "M1 measure the boiling point / freezing point\nM2 100 °C / 0°C\n\nALLOW boil it or freeze it Value must match property",
      "mark_points": [
       {
        "id": "2022-01-11-a-ii-MP1",
        "marks": 1,
-       "text_md": "measure the boiling point / freezing point ALLOW boil it or freeze"
+       "text_md": "measure the boiling point / freezing point\nALLOW boil it or freeze it Value must match property"
       },
       {
        "id": "2022-01-11-a-ii-MP2",
@@ -1822,10 +1822,10 @@
      "part_number": "11(b)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "The equation for the decomposition of hydrated zinc sulfate is ZnSO4·7H2O(s) → ZnSO4(s) + 7H2O(l) The student records these masses. mass of boiling tube = 41.64 g mass of boiling tube + ZnSO4·7H2O = 54.46 g Calculate the maximum volume, in cm3, of pure water that could be produced. Give your answer to 1 decimal place. [1.00 cm3 of pure water has a mass of 1.00 g] [Mr of ZnSO4·7H2O = 287 Mr of H2O = 18] maximum volume of pure water = cm3",
+     "problem_md": "The equation for the decomposition of hydrated zinc sulfate is ZnSO4·7H2O(s) → ZnSO4(s) + 7H2O(l) The student records these masses. mass of boiling tube = 41.64 g mass of boiling tube + ZnSO4·7H2O = 54.46 g Calculate the maximum volume, in cm3, of pure water that could be produced. Give your answer to 1 decimal place. [1.00 cm3 of pure water has a mass of 1.00 g] [Mr of ZnSO4·7H2O = 287 Mr of H2O = 18] maximum volume of pure water = .......... cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 mass of hydrated zinc sulfate = 54.46-41.64 OR\n12.82 g\nM2 Moles of hydrated zinc sulfate = 12.82÷287 OR ALLOW M1÷287\n0.0447\nM3 Moles H2O = 0.0447×7 OR 0.313 ALLOW M2×7\nM4 Mass H2O = 5.63 g ALLOW M3×18\nM5 Volume H2O 5.6 cm3 Must be 1dp\nALLOW M4 to 1dp\nCorrect answer of 5.6\ncm3 to 1dp with or\nwithout working scores\n5 marks",
+     "solution_md": "M1 mass of hydrated zinc sulfate = 54.46-41.64 OR\n12.82 g\nM2 Moles of hydrated zinc sulfate = 12.82÷287 OR\n0.0447\nM3 Moles H2O = 0.0447×7 OR 0.313\nM4 Mass H2O = 5.63 g\nM5 Volume H2O 5.6 cm3\n\nALLOW M1÷287\nALLOW M2×7\nALLOW M3×18 Must be 1dp\nALLOW M4 to 1dp\nCorrect answer of 5.6 cm3 to 1dp with or without working scores",
      "mark_points": [
       {
        "id": "2022-01-11-b-MP1",
@@ -1835,22 +1835,22 @@
       {
        "id": "2022-01-11-b-MP2",
        "marks": 1,
-       "text_md": "Moles of hydrated zinc sulfate = 12.82÷287 OR ALLOW M1÷287\n0.0447"
+       "text_md": "Moles of hydrated zinc sulfate = 12.82÷287 OR\n0.0447\nALLOW M1÷287"
       },
       {
        "id": "2022-01-11-b-MP3",
        "marks": 1,
-       "text_md": "Moles H2O = 0.0447×7 OR 0.313 ALLOW M2×7"
+       "text_md": "Moles H2O = 0.0447×7 OR 0.313\nALLOW M2×7"
       },
       {
        "id": "2022-01-11-b-MP4",
        "marks": 1,
-       "text_md": "Mass H2O = 5.63 g ALLOW M3×18"
+       "text_md": "Mass H2O = 5.63 g\nALLOW M3×18 Must be 1dp"
       },
       {
        "id": "2022-01-11-b-MP5",
        "marks": 1,
-       "text_md": "Volume H2O 5.6 cm3 Must be 1dp"
+       "text_md": "Volume H2O 5.6 cm3\nALLOW M4 to 1dp\nCorrect answer of 5.6 cm3 to 1dp with or without working scores"
       }
      ],
      "source_page": 31,
@@ -1864,15 +1864,15 @@
      "part_number": "11(c)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the volume, in cm3, of pure water collected. volume of pure water = cm3",
+     "problem_md": "Calculate the volume, in cm3, of pure water collected. volume of pure water = .......... cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "1.7 ALLOW 2 or more\nsignificant figures\nREJECT incorrect\nrounding",
+     "solution_md": "1.7\n\nALLOW 2 or more significant figures\nREJECT incorrect rounding",
      "mark_points": [
       {
        "id": "2022-01-11-c-i-MP1",
        "marks": 1,
-       "text_md": "1.7 ALLOW 2 or more\nsignificant figures\nREJECT incorrect\nrounding"
+       "text_md": "1.7\n\nALLOW 2 or more significant figures\nREJECT incorrect rounding"
       }
      ],
      "source_page": 31,
@@ -1889,12 +1889,12 @@
      "problem_md": "Explain an improvement to the apparatus that would increase the percentage yield of pure water.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 stand the measuring cylinder in a beaker of ice ALLOW any way of\ncooling the measuring\nOR\ncylinder or delivery\ntube\nM1 replace the delivery tube with a (Liebig)\ncondenser ALLOW add a condenser\nIGNORE add a stopper /\nbung\nM2 less water / water vapour / steam lost ALLOW more water\n(vapour) / steam\ncondenses\nALLOW less water\nevaporates\nTotal for question = 12\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "M1 stand the measuring cylinder in a beaker of ice\nOR\nM1 replace the delivery tube with a (Liebig)\ncondenser\nM2 less water / water vapour / steam lost\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nALLOW any way of cooling the measuring cylinder or delivery tube\nALLOW add a condenser\nIGNORE add a stopper / bung\nALLOW more water (vapour) / steam condenses\nALLOW less water evaporates Total for question = 12",
      "mark_points": [
       {
        "id": "2022-01-11-c-ii-MP1",
        "marks": 2,
-       "text_md": "M1 stand the measuring cylinder in a beaker of ice ALLOW any way of\ncooling the measuring\nOR\ncylinder or delivery\ntube\nM1 replace the delivery tube with a (Liebig)\ncondenser ALLOW add a condenser\nIGNORE add a stopper /\nbung\nM2 less water / water vapour / steam lost ALLOW more water\n(vapour) / steam\ncondenses\nALLOW less water\nevaporates\nTotal for question = 12\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "M1 stand the measuring cylinder in a beaker of ice\nOR\nM1 replace the delivery tube with a (Liebig)\ncondenser\nM2 less water / water vapour / steam lost\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nALLOW any way of cooling the measuring cylinder or delivery tube\nALLOW add a condenser\nIGNORE add a stopper / bung\nALLOW more water (vapour) / steam condenses\nALLOW less water evaporates Total for question = 12"
       }
      ],
      "source_page": 32,

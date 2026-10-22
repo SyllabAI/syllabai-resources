@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:42Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2022-06 paper=2C",
+ "generated_utc": "2026-10-22T14:42:09Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2022-06 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-06:4CH1/2C",
  "source": {
   "qp_sha256": "9e64b423851b6edb303e02d52b9004bb7843dfb8f26cf491b223d1ba788823e5",
@@ -34,12 +34,12 @@
      "problem_md": "Identify the least reactive gas in the atmosphere.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "argon ALLOW Ar",
+     "solution_md": "argon\n\nALLOW Ar",
      "mark_points": [
       {
        "id": "2022-06-1-a-i-MP1",
        "marks": 1,
-       "text_md": "argon ALLOW Ar"
+       "text_md": "argon\n\nALLOW Ar"
       }
      ],
      "source_page": 3,
@@ -56,12 +56,12 @@
      "problem_md": "Identify the most abundant gas in the atmosphere.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "nitrogen ALLOW N2/N",
+     "solution_md": "nitrogen\n\nALLOW N2/N",
      "mark_points": [
       {
        "id": "2022-06-1-a-ii-MP1",
        "marks": 1,
-       "text_md": "nitrogen ALLOW N2/N"
+       "text_md": "nitrogen\n\nALLOW N2/N"
       }
      ],
      "source_page": 3,
@@ -78,12 +78,12 @@
      "problem_md": "Identify the gas that is not normally found in the atmosphere.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "hydrogen ALLOW H2/H",
+     "solution_md": "hydrogen\n\nALLOW H2/H",
      "mark_points": [
       {
        "id": "2022-06-1-a-iii-MP1",
        "marks": 1,
-       "text_md": "hydrogen ALLOW H2/H"
+       "text_md": "hydrogen\n\nALLOW H2/H"
       }
      ],
      "source_page": 3,
@@ -100,12 +100,12 @@
      "problem_md": "State an environmental problem caused by increasing amounts of carbon dioxide in the atmosphere.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "climate change/global warming /oceans becoming ALLOW greenhouse\nmore acidic effect\nALLOW effects of\nglobal warming e.g.\nmelting of polar ice\ncaps/flooding/wild fires\nIGNORE acid rain\nREJECT references to\nozone layer",
+     "solution_md": "climate change/global warming /oceans becoming\nmore acidic\n\nALLOW greenhouse effect\nALLOW effects of global warming e.g. melting of polar ice caps/flooding/wild fires\nIGNORE acid rain\nREJECT references to ozone layer",
      "mark_points": [
       {
        "id": "2022-06-1-b-MP1",
        "marks": 1,
-       "text_md": "climate change/global warming /oceans becoming ALLOW greenhouse\nmore acidic effect\nALLOW effects of\nglobal warming e.g.\nmelting of polar ice\ncaps/flooding/wild fires\nIGNORE acid rain\nREJECT references to\nozone layer"
+       "text_md": "climate change/global warming /oceans becoming\nmore acidic\n\nALLOW greenhouse effect\nALLOW effects of global warming e.g. melting of polar ice caps/flooding/wild fires\nIGNORE acid rain\nREJECT references to ozone layer"
       }
      ],
      "source_page": 3,
@@ -122,7 +122,7 @@
      "problem_md": "Describe a test for carbon dioxide.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 bubble/pass/add the gas/carbon dioxide into\nlimewater\nM2 (limewater) turns cloudy/milky ALLOW white\nprecipitate\nM2 dep on mention of\nlimewater\nREJECT addition of\nextra reagents for both\nmarks",
+     "solution_md": "M1 bubble/pass/add the gas/carbon dioxide into\nlimewater\nM2 (limewater) turns cloudy/milky\n\nALLOW white precipitate M2 dep on mention of limewater\nREJECT addition of extra reagents for both marks",
      "mark_points": [
       {
        "id": "2022-06-1-c-MP1",
@@ -132,7 +132,7 @@
       {
        "id": "2022-06-1-c-MP2",
        "marks": 1,
-       "text_md": "(limewater) turns cloudy/milky ALLOW white"
+       "text_md": "(limewater) turns cloudy/milky\nALLOW white precipitate M2 dep on mention of limewater\nREJECT addition of extra reagents for both marks"
       }
      ],
      "source_page": 3,
@@ -160,10 +160,10 @@
      "part_number": "2(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give the name of each piece of apparatus. X Y",
+     "problem_md": "Give the name of each piece of apparatus. X .......... Y ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (X) measuring cylinder\nM2 (Y) pipette ALLOW graduated\npipette",
+     "solution_md": "M1 (X) measuring cylinder\nM2 (Y) pipette\n\nALLOW graduated pipette",
      "mark_points": [
       {
        "id": "2022-06-2-a-i-MP1",
@@ -173,7 +173,7 @@
       {
        "id": "2022-06-2-a-i-MP2",
        "marks": 1,
-       "text_md": "(Y) pipette ALLOW graduated"
+       "text_md": "(Y) pipette\nALLOW graduated pipette"
       }
      ],
      "source_page": 4,
@@ -190,12 +190,12 @@
      "problem_md": "In a titration, a student adds 25.0 cm3 of barium hydroxide solution to a conical flask. Give a reason why it is better to use Y rather than X.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(volume measurement with Y is) more precise ORA ALLOW (volume\nmeasurement with Y\nis) more accurate\nORA\nALLOW (Y gives) a\n(more) exact volume\n/exactly 25 cm3",
+     "solution_md": "(volume measurement with Y is) more precise ORA\n\nALLOW (volume measurement with Y is) more accurate ORA\nALLOW (Y gives) a (more) exact volume /exactly 25 cm3",
      "mark_points": [
       {
        "id": "2022-06-2-a-ii-MP1",
        "marks": 1,
-       "text_md": "(volume measurement with Y is) more precise ORA ALLOW (volume\nmeasurement with Y\nis) more accurate\nORA\nALLOW (Y gives) a\n(more) exact volume\n/exactly 25 cm3"
+       "text_md": "(volume measurement with Y is) more precise ORA\n\nALLOW (volume measurement with Y is) more accurate ORA\nALLOW (Y gives) a (more) exact volume /exactly 25 cm3"
       }
      ],
      "source_page": 4,
@@ -234,12 +234,12 @@
      "problem_md": "Give a reason why universal indicator is not suitable for use in a titration.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "there is no clear end point/ colour change is gradual (at ALLOW it has a\nthe end point)/no sharp colour change OWTTE range of colours",
+     "solution_md": "there is no clear end point/ colour change is gradual (at\nthe end point)/no sharp colour change OWTTE\n\nALLOW it has a range of colours",
      "mark_points": [
       {
        "id": "2022-06-2-b-ii-MP1",
        "marks": 1,
-       "text_md": "there is no clear end point/ colour change is gradual (at ALLOW it has a\nthe end point)/no sharp colour change OWTTE range of colours"
+       "text_md": "there is no clear end point/ colour change is gradual (at\nthe end point)/no sharp colour change OWTTE\n\nALLOW it has a range of colours"
       }
      ],
      "source_page": 4,
@@ -253,25 +253,25 @@
      "part_number": "2(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The student adds some dilute nitric acid to a burette and does the titration. The equation for the reaction is Ba(OH)2 + 2HNO3 → Ba(NO3)2 + 2H2O The student finds that 21.50 cm3 of nitric acid of concentration 0.600 mol/dm3 neutralises 25.0 cm3 of barium hydroxide solution. Calculate the concentration, in mol/dm3, of the barium hydroxide solution. concentration = mol/dm3",
+     "problem_md": "The student adds some dilute nitric acid to a burette and does the titration. The equation for the reaction is Ba(OH)2 + 2HNO3 → Ba(NO3)2 + 2H2O The student finds that 21.50 cm3 of nitric acid of concentration 0.600 mol/dm3 neutralises 25.0 cm3 of barium hydroxide solution. Calculate the concentration, in mol/dm3, of the barium hydroxide solution. concentration = .......... mol/dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer with\nor without working\nscores 3\nM1 moles of HNO3 = 21.5 × 0.6(00) OR 0.0129\n1000\nM2 moles of Ba(OH)2 = 0.0129 ÷ 2 OR 0.00645 ALLOW ecf on M2\nM3 conc. of Ba(OH)2 = 0.00645 × 1000 = 0.258 (mol/dm3)\n25 ACCEPT alternative\nmethods\n0.516 scores 2\n1.032 scores 2\nALLOW 2 sig figs\ncorrectly rounded\nthroughout\nPenalise rounding to\n1 sig fig once only",
+     "solution_md": "correct answer with\nM1 moles of HNO3 = 21.5 × 0.6(00) OR 0.0129\n1000\nM2 moles of Ba(OH)2 = 0.0129 ÷ 2 OR 0.00645\nM3 conc. of Ba(OH)2 = 0.00645 × 1000 = 0.258 (mol/dm3)\n25\n\nor without working scores 3\nALLOW ecf on M2\nACCEPT alternative methods 0.516 scores 2 1.032 scores 2\nALLOW 2 sig figs correctly rounded throughout Penalise rounding to 1 sig fig once only",
      "mark_points": [
       {
        "id": "2022-06-2-c-MP1",
        "marks": 1,
-       "text_md": "moles of HNO3 = 21.5 × 0.6(00) OR 0.0129\n1000"
+       "text_md": "moles of HNO3 = 21.5 × 0.6(00) OR 0.0129\n1000\nor without working scores 3"
       },
       {
        "id": "2022-06-2-c-MP2",
        "marks": 1,
-       "text_md": "moles of Ba(OH)2 = 0.0129 ÷ 2 OR 0.00645 ALLOW ecf on M2"
+       "text_md": "moles of Ba(OH)2 = 0.0129 ÷ 2 OR 0.00645\nALLOW ecf on M2"
       },
       {
        "id": "2022-06-2-c-MP3",
        "marks": 1,
-       "text_md": "conc. of Ba(OH)2 = 0.00645 × 1000 = 0.258 (mol/dm3)\n25 ACCEPT alternative"
+       "text_md": "conc. of Ba(OH)2 = 0.00645 × 1000 = 0.258 (mol/dm3)\n25\nACCEPT alternative methods 0.516 scores 2 1.032 scores 2\nALLOW 2 sig figs correctly rounded throughout Penalise rounding to 1 sig fig once only"
       }
      ],
      "source_page": 5,
@@ -413,22 +413,22 @@
      "problem_md": "The table shows the electronic configurations of a fluorine atom and a chlorine atom. Electronic configuration fluorine 2.7 chlorine 2.8.7 Explain the relative reactivities of fluorine and chlorine using the information in the table.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following four points\nM1 fluorine is more reactive than chlorine ORA ALLOW reactivity\ndecreases down the\ngroup ORA\nM2 the outer shell is closer to the nucleus in ALLOW a fluorine atom is\nfluorine / fluorine has fewer shells / fluorine has a smaller than a chlorine\nsmaller atomic radius ORA atom ORA\nM3 there is a stronger attraction to the nucleus for ALLOW there is less\nan electron in fluorine ORA shielding in fluorine ORA\nM4 so fluorine accepts an electron more readily ORA",
+     "solution_md": "An explanation that links the following four points\nM1 fluorine is more reactive than chlorine ORA\nM2 the outer shell is closer to the nucleus in\nfluorine / fluorine has fewer shells / fluorine has a\nsmaller atomic radius ORA\nM3 there is a stronger attraction to the nucleus for\nan electron in fluorine ORA\nM4 so fluorine accepts an electron more readily ORA\n\nALLOW reactivity decreases down the group ORA\nALLOW a fluorine atom is smaller than a chlorine atom ORA\nALLOW there is less shielding in fluorine ORA",
      "mark_points": [
       {
        "id": "2022-06-3-c-MP1",
        "marks": 1,
-       "text_md": "fluorine is more reactive than chlorine ORA ALLOW reactivity"
+       "text_md": "fluorine is more reactive than chlorine ORA\nALLOW reactivity decreases down the group ORA"
       },
       {
        "id": "2022-06-3-c-MP2",
        "marks": 1,
-       "text_md": "the outer shell is closer to the nucleus in ALLOW a fluorine atom is\nfluorine / fluorine has fewer shells / fluorine has a smaller than a chlorine\nsmaller atomic radius ORA atom ORA"
+       "text_md": "the outer shell is closer to the nucleus in\nfluorine / fluorine has fewer shells / fluorine has a\nsmaller atomic radius ORA\nALLOW a fluorine atom is smaller than a chlorine atom ORA"
       },
       {
        "id": "2022-06-3-c-MP3",
        "marks": 1,
-       "text_md": "there is a stronger attraction to the nucleus for ALLOW there is less\nan electron in fluorine ORA shielding in fluorine ORA"
+       "text_md": "there is a stronger attraction to the nucleus for\nan electron in fluorine ORA\nALLOW there is less shielding in fluorine ORA"
       },
       {
        "id": "2022-06-3-c-MP4",
@@ -463,12 +463,12 @@
      "problem_md": "Write a chemical equation for the reaction of lithium with chlorine.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2Li + Cl2 → 2LiCl ALLOW multiples or\nfractions\nIGNORE state symbols\neven if incorrect\nACCEPT 2Li+Cl-\nREJECT any charges on Li\nor Cl2",
+     "solution_md": "2Li + Cl2 → 2LiCl\n\nALLOW multiples or fractions\nIGNORE state symbols even if incorrect\nACCEPT 2Li+Cl-\nREJECT any charges on Li or Cl2",
      "mark_points": [
       {
        "id": "2022-06-3-d-i-MP1",
        "marks": 1,
-       "text_md": "2Li + Cl2 → 2LiCl ALLOW multiples or\nfractions\nIGNORE state symbols\neven if incorrect\nACCEPT 2Li+Cl-\nREJECT any charges on Li\nor Cl2"
+       "text_md": "2Li + Cl2 → 2LiCl\n\nALLOW multiples or fractions\nIGNORE state symbols even if incorrect\nACCEPT 2Li+Cl-\nREJECT any charges on Li or Cl2"
       }
      ],
      "source_page": 7,
@@ -485,27 +485,27 @@
      "problem_md": "Describe tests to show that the product of the reaction is lithium chloride.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following five points\nTest for lithium ions\nACCEPT description of\nM1 flame test flame test\nM2 red (flame) ALLOW crimson/scarlet\nREJECT brick red/orange\nred\nM2 dep on M1\nTest for chloride ions\nM3 add nitric acid REJECT incorrect acid\ne.g. HCl or H2SO4 for M3\nonly\nM4 add silver nitrate (solution) ALLOW acidified silver\nnitrate for M3 and M4\nM5 white precipitate\nM5 dep on addition of\nsilver nitrate",
+     "solution_md": "A description that refers to the following five points\nTest for lithium ions\nM1 flame test\nM2 red (flame)\nTest for chloride ions\nM3 add nitric acid\nM4 add silver nitrate (solution)\nM5 white precipitate\n\nACCEPT description of flame test\nALLOW crimson/scarlet\nREJECT brick red/orange red M2 dep on M1\nREJECT incorrect acid e.g. HCl or H2SO4 for M3 only\nALLOW acidified silver nitrate for M3 and M4 M5 dep on addition of silver nitrate",
      "mark_points": [
       {
        "id": "2022-06-3-d-ii-MP1",
        "marks": 1,
-       "text_md": "flame test flame test"
+       "text_md": "flame test\nACCEPT description of flame test"
       },
       {
        "id": "2022-06-3-d-ii-MP2",
        "marks": 1,
-       "text_md": "red (flame) ALLOW crimson/scarlet\nTest for chloride ions"
+       "text_md": "red (flame)\nTest for chloride ions\nALLOW crimson/scarlet\nREJECT brick red/orange red M2 dep on M1"
       },
       {
        "id": "2022-06-3-d-ii-MP3",
        "marks": 1,
-       "text_md": "add nitric acid REJECT incorrect acid"
+       "text_md": "add nitric acid\nREJECT incorrect acid e.g. HCl or H2SO4 for M3 only"
       },
       {
        "id": "2022-06-3-d-ii-MP4",
        "marks": 1,
-       "text_md": "add silver nitrate (solution) ALLOW acidified silver"
+       "text_md": "add silver nitrate (solution)\nALLOW acidified silver nitrate for M3 and M4 M5 dep on addition of silver nitrate"
       },
       {
        "id": "2022-06-3-d-ii-MP5",
@@ -539,10 +539,10 @@
      "part_number": "4(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Magnesium burns in oxygen to form magnesium oxide. State two observations that would be seen during the reaction. 1 2",
+     "problem_md": "Magnesium burns in oxygen to form magnesium oxide. State two observations that would be seen during the reaction. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 bright/white light OR bright/white flame\nM2 white powder/solid/ash ALLOW white smoke\nALLOW grey powder\n/solid/ash\nREJECT white precipitate",
+     "solution_md": "M1 bright/white light OR bright/white flame\nM2 white powder/solid/ash\n\nALLOW white smoke\nALLOW grey powder /solid/ash\nREJECT white precipitate",
      "mark_points": [
       {
        "id": "2022-06-4-a-MP1",
@@ -552,7 +552,7 @@
       {
        "id": "2022-06-4-a-MP2",
        "marks": 1,
-       "text_md": "white powder/solid/ash ALLOW white smoke"
+       "text_md": "white powder/solid/ash\nALLOW white smoke\nALLOW grey powder /solid/ash\nREJECT white precipitate"
       }
      ],
      "source_page": 8,
@@ -569,7 +569,7 @@
      "problem_md": "The diagram shows the electron configurations of a magnesium atom and an oxygen atom. magnesium atom oxygen atom Describe the changes in the electronic configurations when magnesium reacts with oxygen to form the ionic compound magnesium oxide, MgO",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two points\nM1 magnesium/Mg loses two electrons/becomes 2.8\nM2 oxygen/O gains two electrons/becomes 2.8 ACCEPT magnesium gives\ntwo electrons to oxygen\nfor M1 and M2\nBoth marks can be scored\nfrom diagrams showing\ncorrect electronic\nconfigurations of the ions.",
+     "solution_md": "A description that refers to the following two points\nM1 magnesium/Mg loses two electrons/becomes 2.8\nM2 oxygen/O gains two electrons/becomes 2.8\n\nACCEPT magnesium gives two electrons to oxygen for M1 and M2 Both marks can be scored from diagrams showing correct electronic configurations of the ions.",
      "mark_points": [
       {
        "id": "2022-06-4-b-MP1",
@@ -579,7 +579,7 @@
       {
        "id": "2022-06-4-b-MP2",
        "marks": 1,
-       "text_md": "oxygen/O gains two electrons/becomes 2.8 ACCEPT magnesium gives"
+       "text_md": "oxygen/O gains two electrons/becomes 2.8\nACCEPT magnesium gives two electrons to oxygen for M1 and M2 Both marks can be scored from diagrams showing correct electronic configurations of the ions."
       }
      ],
      "source_page": 8,
@@ -608,12 +608,12 @@
      "problem_md": "State why magnesium cannot be produced by heating magnesium oxide with carbon.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "magnesium is more reactive/higher in the reactivity\nseries (than carbon)/magnesium is a better reducing ALLOW carbon cannot\nagent (than carbon) ORA displace magnesium",
+     "solution_md": "magnesium is more reactive/higher in the reactivity\nseries (than carbon)/magnesium is a better reducing\nagent (than carbon) ORA\n\nALLOW carbon cannot displace magnesium",
      "mark_points": [
       {
        "id": "2022-06-4-c-i-MP1",
        "marks": 1,
-       "text_md": "magnesium is more reactive/higher in the reactivity\nseries (than carbon)/magnesium is a better reducing ALLOW carbon cannot\nagent (than carbon) ORA displace magnesium"
+       "text_md": "magnesium is more reactive/higher in the reactivity\nseries (than carbon)/magnesium is a better reducing\nagent (than carbon) ORA\n\nALLOW carbon cannot displace magnesium"
       }
      ],
      "source_page": 8,
@@ -630,7 +630,7 @@
      "problem_md": "Explain the different ways that magnesium and magnesium chloride conduct electricity. magnesium magnesium chloride",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following four points\nM1 (magnesium) has delocalised electrons\nM2 electrons can move REJECT reference to ions\nor atoms moving for M2\nM3 (magnesium chloride) can only conduct when\nmolten/in solution OR (magnesium chloride) cannot ions are free to move\nconduct when solid when (magnesium\nchloride) is molten/in\nM4 ions are free to move solution scores M3 and M4\nREJECT reference to\nelectrons moving for M4",
+     "solution_md": "An explanation that links the following four points\nM1 (magnesium) has delocalised electrons\nM2 electrons can move\nM3 (magnesium chloride) can only conduct when\nmolten/in solution OR (magnesium chloride) cannot\nconduct when solid\nM4 ions are free to move\n\nREJECT reference to ions or atoms moving for M2 ions are free to move when (magnesium chloride) is molten/in solution scores M3 and M4\nREJECT reference to electrons moving for M4",
      "mark_points": [
       {
        "id": "2022-06-4-c-ii-MP1",
@@ -640,17 +640,17 @@
       {
        "id": "2022-06-4-c-ii-MP2",
        "marks": 1,
-       "text_md": "electrons can move REJECT reference to ions"
+       "text_md": "electrons can move\nREJECT reference to ions or atoms moving for M2 ions are free to move when (magnesium chloride) is molten/in solution scores M3 and M4"
       },
       {
        "id": "2022-06-4-c-ii-MP3",
        "marks": 1,
-       "text_md": "(magnesium chloride) can only conduct when\nmolten/in solution OR (magnesium chloride) cannot ions are free to move\nconduct when solid when (magnesium"
+       "text_md": "(magnesium chloride) can only conduct when\nmolten/in solution OR (magnesium chloride) cannot\nconduct when solid"
       },
       {
        "id": "2022-06-4-c-ii-MP4",
        "marks": 1,
-       "text_md": "ions are free to move solution scores M3 and M4"
+       "text_md": "ions are free to move\nREJECT reference to electrons moving for M4"
       }
      ],
      "source_page": 9,
@@ -668,12 +668,12 @@
      "problem_md": "State why this is a reduction reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "magnesium ions/ Mg2+ gains electrons ALLOW electrons are\ngained\nREJECT magnesium /Mg\ngains electrons\nREJECT reference to loss\nor gain of oxygen",
+     "solution_md": "magnesium ions/ Mg2+ gains electrons\n\nALLOW electrons are gained\nREJECT magnesium /Mg gains electrons\nREJECT reference to loss or gain of oxygen",
      "mark_points": [
       {
        "id": "2022-06-4-d-i-MP1",
        "marks": 1,
-       "text_md": "magnesium ions/ Mg2+ gains electrons ALLOW electrons are\ngained\nREJECT magnesium /Mg\ngains electrons\nREJECT reference to loss\nor gain of oxygen"
+       "text_md": "magnesium ions/ Mg2+ gains electrons\n\nALLOW electrons are gained\nREJECT magnesium /Mg gains electrons\nREJECT reference to loss or gain of oxygen"
       }
      ],
      "source_page": 9,
@@ -690,12 +690,12 @@
      "problem_md": "Write an ionic half‑equation for the formation of chlorine at the positive electrode.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2Cl− → Cl2 + 2e(−) ALLOW 2Cl− − 2e(−)→ Cl2\nALLOW multiples or\nfractions\nIGNORE state symbols\neven if incorrect",
+     "solution_md": "2Cl− → Cl2 + 2e(−)\n\nALLOW 2Cl− − 2e(−)→ Cl2\nALLOW multiples or fractions\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2022-06-4-d-ii-MP1",
        "marks": 1,
-       "text_md": "2Cl− → Cl2 + 2e(−) ALLOW 2Cl− − 2e(−)→ Cl2\nALLOW multiples or\nfractions\nIGNORE state symbols\neven if incorrect"
+       "text_md": "2Cl− → Cl2 + 2e(−)\n\nALLOW 2Cl− − 2e(−)→ Cl2\nALLOW multiples or fractions\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 9,
@@ -729,17 +729,17 @@
      "problem_md": "Show that the empirical formula of the compound is CH2O",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 40.0 6.7 53.3 0 marks for division by\n12 1 16 atomic numbers or\nupside-down calculation\nM2 3.33 6.7 3.33 ALLOW any number of sig\nfigs except 1\nAND\n1 2\nACCEPT alternative\nmethods",
+     "solution_md": "M1 40.0 6.7 53.3 0 marks for division by\n12 1 16 atomic numbers or\nM2 3.33 6.7 3.33\nAND\n1 2\n\nupside-down calculation\nALLOW any number of sig figs except 1\nACCEPT alternative methods",
      "mark_points": [
       {
        "id": "2022-06-5-a-i-MP1",
        "marks": 1,
-       "text_md": "40.0 6.7 53.3 0 marks for division by\n12 1 16 atomic numbers or"
+       "text_md": "40.0 6.7 53.3 0 marks for division by\n12 1 16 atomic numbers or\nupside-down calculation"
       },
       {
        "id": "2022-06-5-a-i-MP2",
        "marks": 1,
-       "text_md": "3.33 6.7 3.33 ALLOW any number of sig\nAND\n1 2"
+       "text_md": "3.33 6.7 3.33\nAND\n1 2\nALLOW any number of sig figs except 1\nACCEPT alternative methods"
       }
      ],
      "source_page": 10,
@@ -756,12 +756,12 @@
      "problem_md": "Draw the structural formula of a compound with the molecular formula C2H4O2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "CH3COOH ACCEPT HCOOCH3\nOR OR",
+     "solution_md": "CH3COOH\nOR\n\nACCEPT HCOOCH3 OR",
      "mark_points": [
       {
        "id": "2022-06-5-a-ii-MP1",
        "marks": 1,
-       "text_md": "CH3COOH ACCEPT HCOOCH3\nOR OR"
+       "text_md": "CH3COOH\nOR\n\nACCEPT HCOOCH3 OR"
       }
      ],
      "source_page": 10,
@@ -775,20 +775,20 @@
      "part_number": "5(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the equation for this reaction. 2HCOOH + Na2CO3 → + +",
+     "problem_md": "Complete the equation for this reaction. 2HCOOH + Na2CO3 → .......... + .......... + ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2HCOOH + Na2CO3 → 2HCOONa + CO2 + H2O\nM1 CO2 + H2O IGNORE numbers in front\nof CO2 and/or H2O if only\nM1 scored\nM2 HCOONa and equation correctly balanced REJECT NaCOOH\nALLOW NaHCOO",
+     "solution_md": "2HCOOH + Na2CO3 → 2HCOONa + CO2 + H2O\nM1 CO2 + H2O\nM2 HCOONa and equation correctly balanced\n\nIGNORE numbers in front of CO2 and/or H2O if only M1 scored\nREJECT NaCOOH\nALLOW NaHCOO",
      "mark_points": [
       {
        "id": "2022-06-5-b-i-MP1",
        "marks": 1,
-       "text_md": "CO2 + H2O IGNORE numbers in front"
+       "text_md": "CO2 + H2O\nIGNORE numbers in front of CO2 and/or H2O if only M1 scored"
       },
       {
        "id": "2022-06-5-b-i-MP2",
        "marks": 1,
-       "text_md": "HCOONa and equation correctly balanced REJECT NaCOOH"
+       "text_md": "HCOONa and equation correctly balanced\nREJECT NaCOOH\nALLOW NaHCOO"
       }
      ],
      "source_page": 11,
@@ -805,12 +805,12 @@
      "problem_md": "State what you would observe in this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "bubbles/ fizzing/ effervescence IGNORE gas given off\nALLOW sodium carbonate\ndisappears/dissolves",
+     "solution_md": "bubbles/ fizzing/ effervescence\n\nIGNORE gas given off\nALLOW sodium carbonate disappears/dissolves",
      "mark_points": [
       {
        "id": "2022-06-5-b-ii-MP1",
        "marks": 1,
-       "text_md": "bubbles/ fizzing/ effervescence IGNORE gas given off\nALLOW sodium carbonate\ndisappears/dissolves"
+       "text_md": "bubbles/ fizzing/ effervescence\n\nIGNORE gas given off\nALLOW sodium carbonate disappears/dissolves"
       }
      ],
      "source_page": 11,
@@ -827,12 +827,12 @@
      "problem_md": "Give the name of the ester that forms.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "propyl methanoate spelling must be correct\nALLOW propyl formate",
+     "solution_md": "propyl methanoate spelling must be correct\n\nALLOW propyl formate",
      "mark_points": [
       {
        "id": "2022-06-5-c-i-MP1",
        "marks": 1,
-       "text_md": "propyl methanoate spelling must be correct\nALLOW propyl formate"
+       "text_md": "propyl methanoate spelling must be correct\n\nALLOW propyl formate"
       }
      ],
      "source_page": 11,
@@ -849,12 +849,12 @@
      "problem_md": "State what is meant by the ⇌ symbol.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "reversible reaction ALLOW reaction which\ngoes both ways\nIGNORE equilibrium",
+     "solution_md": "reversible reaction\n\nALLOW reaction which goes both ways\nIGNORE equilibrium",
      "mark_points": [
       {
        "id": "2022-06-5-c-ii-MP1",
        "marks": 1,
-       "text_md": "reversible reaction ALLOW reaction which\ngoes both ways\nIGNORE equilibrium"
+       "text_md": "reversible reaction\n\nALLOW reaction which goes both ways\nIGNORE equilibrium"
       }
      ],
      "source_page": 11,
@@ -871,12 +871,12 @@
      "problem_md": "When this reaction occurs in a sealed container, the reaction can reach dynamic equilibrium. Give one characteristic of a reaction at dynamic equilibrium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "forward and backward reactions occur at the same\nrate OWTTE\nOR\nconcentrations of reactants and products remain ALLOW\nconstant/stay the same/do not change amounts/moles/ratios of\nreactants and products\nremain constant\nREJECT concentrations of\nreactants and products\nare equal/the same",
+     "solution_md": "forward and backward reactions occur at the same\nrate OWTTE\nOR\nconcentrations of reactants and products remain\nconstant/stay the same/do not change\n\nALLOW amounts/moles/ratios of reactants and products remain constant\nREJECT concentrations of reactants and products are equal/the same",
      "mark_points": [
       {
        "id": "2022-06-5-c-iii-MP1",
        "marks": 1,
-       "text_md": "forward and backward reactions occur at the same\nrate OWTTE\nOR\nconcentrations of reactants and products remain ALLOW\nconstant/stay the same/do not change amounts/moles/ratios of\nreactants and products\nremain constant\nREJECT concentrations of\nreactants and products\nare equal/the same"
+       "text_md": "forward and backward reactions occur at the same\nrate OWTTE\nOR\nconcentrations of reactants and products remain\nconstant/stay the same/do not change\n\nALLOW amounts/moles/ratios of reactants and products remain constant\nREJECT concentrations of reactants and products are equal/the same"
       }
      ],
      "source_page": 11,
@@ -915,12 +915,12 @@
      "problem_md": "Draw the structural formulae of the two monomers used to make this polyester.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nM1 M2 ALLOW\nHOOCCH2CH2COOH for M1\nALLOW HOCH2CH2OH for\nM2\nREJECT OH—C once only",
+     "solution_md": "2\nM1 M2\n\nALLOW HOOCCH2CH2COOH for M1\nALLOW HOCH2CH2OH for M2\nREJECT OH—C once only",
      "mark_points": [
       {
        "id": "2022-06-5-d-ii-MP1",
        "marks": 2,
-       "text_md": "2\nM1 M2 ALLOW\nHOOCCH2CH2COOH for M1\nALLOW HOCH2CH2OH for\nM2\nREJECT OH—C once only"
+       "text_md": "2\nM1 M2\n\nALLOW HOOCCH2CH2COOH for M1\nALLOW HOCH2CH2OH for M2\nREJECT OH—C once only"
       }
      ],
      "source_page": 12,
@@ -957,20 +957,20 @@
      "part_number": "6(a)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO2 Calculate the volume, in dm3, of chlorine gas at rtp needed to react completely with 20 tonnes of titanium dioxide. Give your answer in standard form. [1 tonne = 106 g Mr of TiO2 = 80] [molar volume of chlorine gas at rtp = 24 dm3] volume of chlorine gas = dm3",
+     "problem_md": "This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO2 Calculate the volume, in dm3, of chlorine gas at rtp needed to react completely with 20 tonnes of titanium dioxide. Give your answer in standard form. [1 tonne = 106 g Mr of TiO2 = 80] [molar volume of chlorine gas at rtp = 24 dm3] volume of chlorine gas = .......... dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer with or\nwithout working scores 4\nM1 (moles of TiO2 =) 20 × 106 OR 2.5 × 105 (mol) ACCEPT 250 000 (mol)\nM2 (moles of Cl2 =) 2.5 × 105 x 2 OR 5.0 × 105 (mol) ACCEPT 500 000 (mol)\nM3 (vol of Cl2 =) 5.0 × 105 × 24 OR 12 000 000 (dm3)\nM4 1.2 × 107 (dm3) ALLOW ecf on M2 and\nM3\n6 x 106 scores 3\n3 x 106 scores 3\n6 000 000 scores 2\n3 000 000 scores 2\n2.083 x 104 scores 3",
+     "solution_md": "correct answer with or\nM1 (moles of TiO2 =) 20 × 106 OR 2.5 × 105 (mol)\nM2 (moles of Cl2 =) 2.5 × 105 x 2 OR 5.0 × 105 (mol)\nM3 (vol of Cl2 =) 5.0 × 105 × 24 OR 12 000 000 (dm3)\nM4 1.2 × 107 (dm3)\n\nwithout working scores 4\nACCEPT 250 000 (mol)\nACCEPT 500 000 (mol)\nALLOW ecf on M2 and M3 6 x 106 scores 3 3 x 106 scores 3 6 000 000 scores 2 3 000 000 scores 2 2.083 x 104 scores 3",
      "mark_points": [
       {
        "id": "2022-06-6-a-MP1",
        "marks": 1,
-       "text_md": "(moles of TiO2 =) 20 × 106 OR 2.5 × 105 (mol) ACCEPT 250 000 (mol)"
+       "text_md": "(moles of TiO2 =) 20 × 106 OR 2.5 × 105 (mol)\nwithout working scores 4\nACCEPT 250 000 (mol)"
       },
       {
        "id": "2022-06-6-a-MP2",
        "marks": 1,
-       "text_md": "(moles of Cl2 =) 2.5 × 105 x 2 OR 5.0 × 105 (mol) ACCEPT 500 000 (mol)"
+       "text_md": "(moles of Cl2 =) 2.5 × 105 x 2 OR 5.0 × 105 (mol)\nACCEPT 500 000 (mol)"
       },
       {
        "id": "2022-06-6-a-MP3",
@@ -980,7 +980,7 @@
       {
        "id": "2022-06-6-a-MP4",
        "marks": 1,
-       "text_md": "1.2 × 107 (dm3) ALLOW ecf on M2 and"
+       "text_md": "1.2 × 107 (dm3)\nALLOW ecf on M2 and M3 6 x 106 scores 3 3 x 106 scores 3 6 000 000 scores 2 3 000 000 scores 2 2.083 x 104 scores 3"
       }
      ],
      "source_page": 14,
@@ -997,7 +997,7 @@
      "problem_md": "In stage 2, titanium(IV) chloride vapour is passed through molten magnesium in a container filled with argon. This is the equation for the reaction in stage 2. TiCl 4 + 2Mg → Ti + 2MgCl2 Explain why the container is filled with argon rather than air.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 argon is unreactive/inert\nM2 (so argon) will not react with/oxidise the ALLOW argon will not\nmagnesium react with/oxidise\ntitanium\nOR OR\noxygen (in air) will react with/oxidise the oxygen (in air) will react\nmagnesium with/oxidise the titanium",
+     "solution_md": "An explanation that links the following two points\nM1 argon is unreactive/inert\nM2 (so argon) will not react with/oxidise the\nmagnesium\nOR\noxygen (in air) will react with/oxidise the\nmagnesium\n\nALLOW argon will not react with/oxidise titanium OR oxygen (in air) will react with/oxidise the titanium",
      "mark_points": [
       {
        "id": "2022-06-6-b-MP1",
@@ -1007,7 +1007,7 @@
       {
        "id": "2022-06-6-b-MP2",
        "marks": 1,
-       "text_md": "(so argon) will not react with/oxidise the ALLOW argon will not\nmagnesium react with/oxidise\nOR OR\noxygen (in air) will react with/oxidise the oxygen (in air) will react\nmagnesium with/oxidise the titanium"
+       "text_md": "(so argon) will not react with/oxidise the\nmagnesium\nOR\noxygen (in air) will react with/oxidise the\nmagnesium\nALLOW argon will not react with/oxidise titanium OR oxygen (in air) will react with/oxidise the titanium"
       }
      ],
      "source_page": 15,
@@ -1024,17 +1024,17 @@
      "problem_md": "Aeroplanes are made of an alloy containing aluminium and titanium. Explain why the alloy is stronger than pure titanium metal. You may include diagrams in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three all marks can be awarded\npoints from labelled diagrams\nM1 in pure titanium all atoms are the same size ALLOW cations/ions\nOR layers/atoms can slide over each other (making /particles in place of\nit soft /malleable) atoms throughout\nM2 the alloy has atoms of different sizes REJECT mention of\nmolecules once only\nM3 (which disrupts the structure so that)\natoms/layers do not/harder to slide over each\nother (making it stronger) OWTTE",
+     "solution_md": "An explanation that links the following three all marks can be awarded\npoints from labelled diagrams\nM1 in pure titanium all atoms are the same size\nOR layers/atoms can slide over each other (making\nit soft /malleable)\nM2 the alloy has atoms of different sizes\nM3 (which disrupts the structure so that)\natoms/layers do not/harder to slide over each\nother (making it stronger) OWTTE\n\nALLOW cations/ions /particles in place of atoms throughout\nREJECT mention of molecules once only",
      "mark_points": [
       {
        "id": "2022-06-6-c-MP1",
        "marks": 1,
-       "text_md": "in pure titanium all atoms are the same size ALLOW cations/ions\nOR layers/atoms can slide over each other (making /particles in place of\nit soft /malleable) atoms throughout"
+       "text_md": "in pure titanium all atoms are the same size\nOR layers/atoms can slide over each other (making\nit soft /malleable)\nALLOW cations/ions /particles in place of atoms throughout"
       },
       {
        "id": "2022-06-6-c-MP2",
        "marks": 1,
-       "text_md": "the alloy has atoms of different sizes REJECT mention of"
+       "text_md": "the alloy has atoms of different sizes\nREJECT mention of molecules once only"
       },
       {
        "id": "2022-06-6-c-MP3",
@@ -1066,12 +1066,12 @@
      "problem_md": "The student notices that the bottom of the container turns black. Give the name of the black substance that forms on the bottom of the container.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "carbon ALLOW soot\nALLOW copper(II) oxide\n/copper oxide/CuO\nREJECT copper(I) oxide",
+     "solution_md": "carbon\n\nALLOW soot\nALLOW copper(II) oxide /copper oxide/CuO\nREJECT copper(I) oxide",
      "mark_points": [
       {
        "id": "2022-06-7-a-MP1",
        "marks": 1,
-       "text_md": "carbon ALLOW soot\nALLOW copper(II) oxide\n/copper oxide/CuO\nREJECT copper(I) oxide"
+       "text_md": "carbon\n\nALLOW soot\nALLOW copper(II) oxide /copper oxide/CuO\nREJECT copper(I) oxide"
       }
      ],
      "source_page": 17,
@@ -1088,7 +1088,7 @@
      "problem_md": "In one experiment, the student burns 0.92 g of ethanol. The student calculates that the heat energy absorbed by the water is 18.2 kJ. Show that the results of this experiment give an approximate value for the enthalpy of combustion of ethanol of ΔH = –900 kJ/mol. [Mr of ethanol = 46]",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (amount of ethanol) = 0.92 ÷ 46 OR 0.02(0) (mol)\nM2 (−)18.2 ÷ 0.02(0) = (−)910 (kJ/mol)\nALLOW alternative\nmethods",
+     "solution_md": "M1 (amount of ethanol) = 0.92 ÷ 46 OR 0.02(0) (mol)\nM2 (−)18.2 ÷ 0.02(0) = (−)910 (kJ/mol)\n\nALLOW alternative methods",
      "mark_points": [
       {
        "id": "2022-06-7-b-MP1",
@@ -1098,7 +1098,7 @@
       {
        "id": "2022-06-7-b-MP2",
        "marks": 1,
-       "text_md": "(−)18.2 ÷ 0.02(0) = (−)910 (kJ/mol)"
+       "text_md": "(−)18.2 ÷ 0.02(0) = (−)910 (kJ/mol)\nALLOW alternative methods"
       }
      ],
      "source_page": 17,
@@ -1112,7 +1112,7 @@
      "part_number": "7(c)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The data book value of ΔH for the combustion of ethanol is –1367 kJ/mol. Give two reasons why the student’s value is much lower than the data book value. 1 2",
+     "problem_md": "The data book value of ΔH for the combustion of ethanol is –1367 kJ/mol. Give two reasons why the student’s value is much lower than the data book value. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "Any 2 from\nM1 heat (energy)/ thermal energy was lost (to the\nsurroundings/apparatus)\nM2 incomplete combustion (of ethanol)\nM3 the ethanol was impure/ethanol evaporates",
@@ -1134,15 +1134,15 @@
      "part_number": "7(d)(i)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate the bond energy of the C H bond, using information from the equation and the table. C H bond energy = kJ/mol",
+     "problem_md": "Calculate the bond energy of the C H bond, using information from the equation and the table. C H bond energy = .......... kJ/mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer with or\nwithout working scores 4\nM1 Σ bonds broken = 4 x C−H + 2 x 498 ALLOW 2 x 498 OR 996\nseen\nM2 Σ bonds formed = 2 x 805 + 4 x 463 OR 3462\nM3 4 x C−H + 996 − 3462 = − 890\nM4 C−H = 1576 ÷ 4 = 394 (kJ/mol) ALLOW ecf throughout\n839 without working\nscores 3\n616.5/617 without\nworking scores 3",
+     "solution_md": "correct answer with or\nM1 Σ bonds broken = 4 x C−H + 2 x 498\nM2 Σ bonds formed = 2 x 805 + 4 x 463 OR 3462\nM3 4 x C−H + 996 − 3462 = − 890\nM4 C−H = 1576 ÷ 4 = 394 (kJ/mol)\n\nwithout working scores 4\nALLOW 2 x 498 OR 996 seen\nALLOW ecf throughout 839 without working scores 3 616.5/617 without working scores 3",
      "mark_points": [
       {
        "id": "2022-06-7-d-i-MP1",
        "marks": 1,
-       "text_md": "Σ bonds broken = 4 x C−H + 2 x 498 ALLOW 2 x 498 OR 996"
+       "text_md": "Σ bonds broken = 4 x C−H + 2 x 498\nwithout working scores 4\nALLOW 2 x 498 OR 996 seen"
       },
       {
        "id": "2022-06-7-d-i-MP2",
@@ -1157,7 +1157,7 @@
       {
        "id": "2022-06-7-d-i-MP4",
        "marks": 1,
-       "text_md": "C−H = 1576 ÷ 4 = 394 (kJ/mol) ALLOW ecf throughout"
+       "text_md": "C−H = 1576 ÷ 4 = 394 (kJ/mol)\nALLOW ecf throughout 839 without working scores 3 616.5/617 without working scores 3"
       }
      ],
      "source_page": 19,
@@ -1188,7 +1188,7 @@
      "problem_md": "Complete the energy level diagram to show the products and ΔH. Energy CH4 + 2O2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\n↑\nEnergy CH4 + 2O2\n¯¯¯¯¯¯¯¯¯¯¯\nΔH\nCO2 + 2H2O\n¯¯¯¯¯¯¯¯¯¯¯\nM1 horizontal line to show products in correct\nposition and correctly labelled\nM2 vertical line in correct position and labelled ACCEPT double headed\nΔH/− 890 (kJ/mol) arrow or arrow pointing\nfrom reactants level to\nproducts level\nREJECT arrow pointing\nfrom products level to\nreactants level\nIGNORE any attempts at\nincluding activation\nenergy\nIf endothermic reaction\nshown M2 can be\nawarded for correct\narrow/line labelled\nΔH/+890 (kJ/mol)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "2\n↑\nEnergy CH4 + 2O2\n¯¯¯¯¯¯¯¯¯¯¯\nΔH\nCO2 + 2H2O\n¯¯¯¯¯¯¯¯¯¯¯\nM1 horizontal line to show products in correct\nposition and correctly labelled\nM2 vertical line in correct position and labelled\nΔH/− 890 (kJ/mol)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nACCEPT double headed arrow or arrow pointing from reactants level to products level\nREJECT arrow pointing from products level to reactants level\nIGNORE any attempts at including activation energy If endothermic reaction shown M2 can be awarded for correct arrow/line labelled ΔH/+890 (kJ/mol)",
      "mark_points": [
       {
        "id": "2022-06-7-d-ii-MP1",
@@ -1198,7 +1198,7 @@
       {
        "id": "2022-06-7-d-ii-MP2",
        "marks": 1,
-       "text_md": "vertical line in correct position and labelled ACCEPT double headed\nΔH/− 890 (kJ/mol) arrow or arrow pointing\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "vertical line in correct position and labelled\nΔH/− 890 (kJ/mol)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\nACCEPT double headed arrow or arrow pointing from reactants level to products level\nREJECT arrow pointing from products level to reactants level\nIGNORE any attempts at including activation energy If endothermic reaction shown M2 can be awarded for correct arrow/line labelled ΔH/+890 (kJ/mol)"
       }
      ],
      "source_page": 19,

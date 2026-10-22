@@ -46,6 +46,65 @@ Contract notes (src/lib/contracts.ts in syllabai-hub):
 import json, glob, os, re, subprocess, sys, hashlib
 from pathlib import Path
 
+# ---------------------------------------------------------------- v4 (F55):
+# serving typography - the archive of record stays verbatim; the hub bundle is
+# the presentation layer. Chemical formulas render sub/sup exactly like the SME
+# sets do. Every rule only WRAPS existing characters; the machine-checked
+# invariant is strip_tags(transform(s)) == s - a violation emits the original.
+_PROTECT = re.compile(r"(<(?:sub|sup|u)>.*?</(?:sub|sup|u)>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|https?://\S+)")
+_UNIT_SUP = re.compile(r"\b(cm|dm|km|m)(3)\b")
+_POW10 = re.compile(r"(\u00d7|x)( ?)10([\u2212-])(\d{1,2})(?![.0-9])")
+_POW10_U = re.compile(r"(?<=[\d\)])( ?)(\u00d7|x)( ?)10(2[23])(?![\d.])")
+_CHARGE = re.compile(r"(?<=[A-Za-z0-9\)\]])(\d{0,2})([\u2212+-])(?![\w\d])")
+_LINE_CHARGE = re.compile(r"(?<=^)(\d{1,2})([\u2212+])(?=\s|/|$)")
+_PARGROUP = re.compile(r"\(((?:[A-Z][a-z]?\d*)+)\)(\d+)")
+_FORMULA = re.compile(r"(?<![A-Za-z0-9])((?:[A-Z][a-z]?\d*)+|[0-9]((?:[A-Z][a-z]?\d*)+))(?![A-Za-z0-9])")
+_FORMULA_OK = re.compile(r"^(?:[A-Z][a-z]?\d*)+$")
+_LABELISH = re.compile(r"^M\d+$")
+
+
+def typography(s):
+    orig = s
+    if not s or ("<sub>" in s and "<sup>" in s):
+        return s
+    parts = _PROTECT.split(s)
+    out = []
+    for i, seg in enumerate(parts):
+        if i % 2:                       # protected span
+            out.append(seg)
+            continue
+        seg = _UNIT_SUP.sub(lambda m: f"{m.group(1)}<sup>{m.group(2)}</sup>", seg)
+        seg = _POW10.sub(lambda m: f"{m.group(1)}{m.group(2)}10"
+                                    f"<sup>{m.group(3)}{m.group(4)}</sup>", seg)
+        seg = _POW10_U.sub(lambda m: f"{m.group(1)}{m.group(2)}{m.group(3)}10"
+                                      f"<sup>{m.group(4)}</sup>", seg)
+        seg = _PARGROUP.sub(lambda m: "(" + re.sub(r"(\d+)", r"<sub>\1</sub>", m.group(1))
+                                 + f")<sub>{m.group(2)}</sub>", seg)
+        seg = _CHARGE.sub(lambda m: f"<sup>{m.group(1)}{m.group(2)}</sup>", seg)
+        seg = _LINE_CHARGE.sub(lambda m: f"<sup>{m.group(1)}{m.group(2)}</sup>", seg)
+        buf = []
+        for m in _FORMULA.finditer(seg):
+            tok = m.group(0)
+            body = m.group(2) or m.group(1)
+            if (not _FORMULA_OK.match(body) or _LABELISH.match(body)
+                    or not any(c.isdigit() for c in body)
+                    or (m.group(2) and len(m.group(2)) < 2)
+                    or seg[m.end():m.end() + 1] == "-"):
+                continue
+            buf.append((m.start(), m.end(),
+                        tok.replace(body, re.sub(r"(\d+)", r"<sub>\1</sub>", body))))
+        if buf:
+            res, last = [], 0
+            for a, b, t in buf:
+                res.append(seg[last:a]); res.append(t); last = b
+            res.append(seg[last:])
+            seg = "".join(res)
+        out.append(seg)
+    res = "".join(out)
+    if re.sub(r"</?(?:sub|sup)>", "", res) != orig:
+        return orig
+    return res
+
 # repo-relative (F15 portability): works from any checkout of syllabai-resources
 REPO_ROOT = str(Path(__file__).resolve().parents[1])
 CORPUS = str(Path(__file__).resolve().parents[1] / "Official-ExamQuestion" / "igcse-chemistry-19")
@@ -96,8 +155,24 @@ def export_series(series, paper, topic=None):
     questions = []
     for qi, q in enumerate(tj["questions"]):
         qnum = str(q["question_number"])
+        # F56: the archive keeps question/group stems as separate fields; the
+        # hub part schema has no stem slot, so the stems prepend to the first
+        # part that prints under them (same reading order as the paper).
+        q_stem = (q.get("stem_md") or "").strip()
+        group_stems = {g: (gd.get("group_stem_md") or "").strip()
+                       for g, gd in (q.get("groups") or {}).items()}
+        seen_groups = set()
         parts = []
         for p in q["parts"]:
+            gm = re.match(r"^\d+\(([a-h])\)", p["part_number"])
+            gletter = gm.group(1) if gm else None
+            prefixes = []
+            if not parts and q_stem:
+                prefixes.append(q_stem)
+            if gletter and gletter not in seen_groups and group_stems.get(gletter):
+                prefixes.append(group_stems[gletter])
+            if gletter:
+                seen_groups.add(gletter)
             marks = int(p["marks"]) if p.get("marks") is not None else 0
             assets_out, figures_md = [], []
             for a in p.get("assets") or []:
@@ -124,10 +199,13 @@ def export_series(series, paper, topic=None):
                         "the crop is queued for human verification.*")
                 assets_out.append(entry)
             problem_md = (p.get("problem_md") or "").strip()
+            if prefixes:
+                problem_md = "\n\n".join(prefixes) + "\n\n" + problem_md
             if figures_md:
                 problem_md += "\n\n" + "\n\n".join(figures_md)
-            sol = p.get("solution_md") or None
-            mp = [{"id": x["id"], "marks": x["marks"], "textMd": x["text_md"]}
+            problem_md = typography(problem_md)
+            sol = typography(p["solution_md"]) if p.get("solution_md") else None
+            mp = [{"id": x["id"], "marks": x["marks"], "textMd": typography(x["text_md"])}
                   for x in (p.get("mark_points") or [])]
             choices = None
             if p.get("question_type") == "multiple_choice" and p.get("choices"):
@@ -135,7 +213,7 @@ def export_series(series, paper, topic=None):
                 if isinstance(ch, str):
                     ch = json.loads(ch)
                 choices = [{"label": c["label"], "isCorrect": bool(c.get("is_correct")),
-                            "textMd": c.get("text_md", "")} for c in ch]
+                            "textMd": typography(c.get("text_md", ""))} for c in ch]
             parts.append({
                 "id": f"offp_{series}_{part_slug(p['part_number'])}",
                 "order": len(parts),
@@ -465,6 +543,95 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allo
                                   "DELTA listing above shows the fresh census; regenerate "
                                   "the disclosure file only after eyeballing every class)")
         print(f"G-E1 ok: {n_delta} deltas match the disclosed wave census exactly")
+    # ---- G-E6: presentation-layer invariants (wave 16) ----
+    # (a) the F57 typography tag-strip invariant holds on every served string;
+    # (b) every non-empty archive stem (question + group) appears verbatim in
+    #     its set's served problemMd stream (F58 stem serving);
+    # (c) pinned serving shapes hold on the bundle.
+    n_stems = 0
+    stem_misses, pin_misses = [], []
+    strip = lambda s: re.sub(r"</?(?:sub|sup)>", "", s or "")
+    for t in out_sets:
+        if not is_official(t):
+            continue
+        served = "\n".join(p["problemMd"] for q in t["questions"] for p in q["parts"])
+        slug = t["slug"]
+        mslug = re.match(r"official-4ch1-([0-9][A-Z]R?)-(.+)$", slug, re.I)
+        if not mslug:
+            continue
+        paper, series = mslug.group(1).upper(), mslug.group(2)
+        tj = topics_src(series, paper)   # staging copies exist for every exported set
+        # (a) tag-strip equality against the ARCHIVE strings: the typography may
+        # only wrap characters, so stripping the served tags must return the
+        # archive text exactly (solutionMd / markPoints / choices; problemMd is
+        # stem+problem+figures composed - its parts are checked individually)
+        arch = {}
+        for q in tj["questions"]:
+            for p in q["parts"]:
+                arch[f"offp_{series}_{p['part_number'].replace('(', '-').replace(')', '')}"] = p
+        for q in t["questions"]:
+            for p in q["parts"]:
+                ap = arch.get(p["id"])
+                if ap is None:
+                    continue
+                if strip(p.get("solutionMd")) != (ap.get("solution_md") or "").strip():
+                    pin_misses.append(f"{p['id']}: solutionMd tag-strip != archive")
+                amp = {m["id"]: m for m in (ap.get("mark_points") or [])}
+                for m in p.get("markPoints") or []:
+                    am = amp.get(m["id"])
+                    if am is not None and strip(m["textMd"]) != (am.get("text_md") or "").strip():
+                        pin_misses.append(f"{p['id']} {m['id']}: textMd tag-strip != archive")
+                if p.get("choices") and ap.get("choices"):
+                    for c, ac in zip(p["choices"], ap["choices"]):
+                        if strip(c.get("textMd") or "") != (ac.get("text_md") or "").strip():
+                            pin_misses.append(f"{p['id']}: choice tag-strip != archive")
+                if p.get("markPoints"):
+                    ms = sum(m["marks"] for m in p["markPoints"])
+                    if ms != p["marks"]:
+                        pin_misses.append(f"{p['id']}: markPoints sum {ms}")
+        for q in tj["questions"]:
+            stems = [q.get("stem_md") or ""]
+            stems += [(gd.get("group_stem_md") or "") for gd in (q.get("groups") or {}).values()]
+            for st in stems:
+                st = st.strip()
+                if not st:
+                    continue
+                n_stems += 1
+                # the stem rides the typography like every served string, so the
+                # flat archive form is matched against the tag-stripped stream
+                if st not in strip(served):
+                    stem_misses.append(f"{slug} Q{q['question_number']}: stem missing")
+    pins = [
+        ("official-4ch1-1c-2019-06", "offp_2019-06_3-a", "ALLOW Sr<sup>2+</sup>"),
+        ("official-4ch1-1c-2021-01", "offp_2021-01_3-c-ii", "ALLOW Pb<sup>2+</sup>"),
+        ("official-4ch1-1c-2021-01", "offp_2021-01_3-d",
+         "Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2KI(aq) \u2192 PbI<sub>2</sub>(s) +\n"
+         "2KNO<sub>3</sub>(aq)\n\nALLOW multiples and fractions"),
+        ("official-4ch1-1c-2021-01", "offp_2021-01_3-a",
+         "Lead nitrate and potassium iodide react to form the insoluble solid lead iodide"),
+        ("official-4ch1-1c-2021-01", "offp_2021-01_3-d",
+         "Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + .......... KI(aq)"),
+        ("official-4ch1-1c-2019-06", "offp_2019-06_10-b-i",
+         "C<sub>5</sub>H<sub>12</sub> + Br<sub>2</sub> \u2192 .......... + .........."),
+        ("official-4ch1-1c-2021-11", "offp_2021-11_1-a-i",
+         "The diagram shows the particles in four substances, A, B, C and D"),
+    ]
+    # part ids are unique per SET, not corpus-wide (offp_2019-06_3-a exists in
+    # both the 1C and 2C sets) - pins look up within their own set
+    by_slug_id = {(t["slug"], p["id"]): p
+                  for t in out_sets if is_official(t)
+                  for q in t["questions"] for p in q["parts"]}
+    for slug, pid, needle in pins:
+        p = by_slug_id.get((slug, pid))
+        if p is None or needle not in (p["problemMd"] + "\n" + (p.get("solutionMd") or "")):
+            pin_misses.append(f"{pid}: pinned serving shape missing")
+    if stem_misses or pin_misses:
+        for m in (stem_misses + pin_misses)[:20]:
+            print(f"  G-E6 MISS {m}")
+        raise ExportGateError(
+            f"G-E6: {len(stem_misses)} stem misses + {len(pin_misses)} presentation pin misses")
+    print(f"G-E6 ok: tag-strip + markPoints sums hold corpus-wide; {n_stems} archive stems "
+          f"served; {len(pins)} serving-shape pins hold")
     if ident_drift:
         for d in ident_drift:
             print(f"  IDENTITY DRIFT {d}")
@@ -556,22 +723,26 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.11.0 corpus (merged main): wave-14 closes the last three "
-            "honest review items, corpus review queue now empty. F48 PUA->Unicode pass: all "
-            "23 symbol-font PUA chars in the source text layer map to real Unicode from "
-            "evidence (font trace + page render per glyph - arrows, Delta x2, equilibrium, "
-            "Sigma, check, bullets, degree, times, divide, minus, bond rule); served corpus "
-            "text is PUA-free and fail-closed on unmapped chars (C56 pins absence + nine "
-            "mappings). F46 deep-indent roman MS rows: 2023-11 1C 6(c)(ii)/6(d)(ii) link "
-            "(G5 66/66), their (i)-blocks lose the absorbed rows. F47 MS-LINK-OVERRIDES "
-            "ledger: 2019-06 1C 3(d)(ii) MS-image answer cell human-adjudicated as verbatim "
-            "tick-table transcription (C52/C57). Four page anchors restored by the cleaner "
-            "text (2021-06 2C 7(c)(i), 2022-06 2C 5(c)(ii), 2025-06 2C 6(a)(ii), 2026-06 1C "
-            "7(a)(ii)). This bundle reconciles to the corpus of record on one part: "
-            "3(d)(ii) serves the verbatim transcription (the previously staged interpretive "
-            "summary + ms-image asset is superseded; sourcePage 7 restored). "
-            f"{official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} parts, all "
-            "spec-tagged (1C wave 2 + 2C wave 1).")
+            "ADR-037 converter v0.14.0 corpus: wave 16 is the serving-experience wave "
+            "(operator directive: best learner experience over verbatim presentation - the "
+            "archive of record stays verbatim, the hub bundle is the presentation layer). "
+            "F53 de-interleaves the printed two-column markscheme at emission (text-start "
+            "modal boundary, keyword-gated splits, word multiset machine-verified; guidance "
+            "re-joined and anchored to its award point). F54 drops the printed question-total "
+            "rows ('N marks') from served blocks. F55 restores the printed answer-line blanks "
+            "in completion stems (inline dot runs compact to '..........'; line-only runs "
+            "still drop; the dot-run matcher is deliberately linear - the classic "
+            "(?:\\s*\\.\\s*){4,} form backtracks catastrophically on -layout answer "
+            "templates). F56 promotes the 6 picture MCQs (2021-11 1C 1(a)(i-iii), 2023-01 2C "
+            "2(a)(i-iii); options are the printed A-D particle boxes / properties table) to "
+            "keyed choices with ledger-eyeballed figure crops (MCQ-KEYS picture_mcq entries, "
+            "CROP-REVIEW accepted verdicts). The exporter adds F57 chemical typography "
+            "(sub/sup like the SME sets; every rule only wraps characters, strip_tags "
+            "invariant machine-checked by G-E6) and F58 question/group stem serving (G-E6 "
+            "proves every archive stem is served). Marks, question structure, spec codes and "
+            "existing asset bindings untouched everywhere (parity-audited); the changed-key "
+            "census is exactly {solutionMd+markPoints} x 1154/1159, {problemMd} x 335 "
+            "(dots) + stems, {choices+questionType} x 6, assets +2 picture crops.")
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())

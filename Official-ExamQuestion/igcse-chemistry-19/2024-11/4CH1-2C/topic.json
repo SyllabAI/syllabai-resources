@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:53Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2024-11 paper=2C",
+ "generated_utc": "2026-10-22T14:42:26Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2024-11 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-11:4CH1/2C",
  "source": {
   "qp_sha256": "ab746dd318eecaafeeaa9adac917360a6f4159b0f84d54f4328a0ac6b61542e6",
@@ -100,17 +100,17 @@
      "problem_md": "Explain why species B and C are atoms of the same element with identical chemical properties.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (they are both atoms of the same element ALLOW same atomic\nbecause they both have the) same number of protons number\nM2 (they have the same chemical properties because\nthey both have the) same electron configuration ALLOW same number\nof electrons\nIGNORE same number\nof electrons in the outer\nshell\nIGNORE any mention of\nneutrons",
+     "solution_md": "M1 (they are both atoms of the same element\nbecause they both have the) same number of protons\nM2 (they have the same chemical properties because\nthey both have the) same electron configuration\n\nALLOW same atomic number\nALLOW same number of electrons\nIGNORE same number of electrons in the outer shell\nIGNORE any mention of neutrons",
      "mark_points": [
       {
        "id": "2024-11-1-b-MP1",
        "marks": 1,
-       "text_md": "(they are both atoms of the same element ALLOW same atomic\nbecause they both have the) same number of protons number"
+       "text_md": "(they are both atoms of the same element\nbecause they both have the) same number of protons\nALLOW same atomic number"
       },
       {
        "id": "2024-11-1-b-MP2",
        "marks": 1,
-       "text_md": "(they have the same chemical properties because\nthey both have the) same electron configuration ALLOW same number"
+       "text_md": "(they have the same chemical properties because\nthey both have the) same electron configuration\nALLOW same number of electrons\nIGNORE same number of electrons in the outer shell\nIGNORE any mention of neutrons"
       }
      ],
      "source_page": 5,
@@ -124,20 +124,20 @@
      "part_number": "1(c)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "A proton has a mass of 1.6726 × 10–24 g. A neutron has a mass of 1.6740 × 10–24 g. Calculate the mass, in grams, of the nucleus of an atom of species C. mass = g",
+     "problem_md": "A proton has a mass of 1.6726 × 10–24 g. A neutron has a mass of 1.6740 × 10–24 g. Calculate the mass, in grams, of the nucleus of an atom of species C. mass = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without\nworking scores 2\nM2 1.1714×10-23\nanswer must be in\ncorrect standard form\nALLOW any number of\nsignificant figures from 2\nand correctly rounded\nALLOW ecf for M2 as\nlong as the numbers are\nadded\npossible answers 1\nmark for 3.3466 x 10-24\n1.00398 x 10-23\nTotal = 7",
+     "solution_md": "M1 (3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without\nM2 1.1714×10-23\n\nworking scores 2 answer must be in correct standard form\nALLOW any number of significant figures from 2 and correctly rounded\nALLOW ecf for M2 as long as the numbers are added possible answers 1 mark for 3.3466 x 10-24 1.00398 x 10-23 Total = 7",
      "mark_points": [
       {
        "id": "2024-11-1-c-MP1",
        "marks": 1,
-       "text_md": "(3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without"
+       "text_md": "(3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without\nworking scores 2 answer must be in correct standard form"
       },
       {
        "id": "2024-11-1-c-MP2",
        "marks": 1,
-       "text_md": "1.1714×10-23"
+       "text_md": "1.1714×10-23\nALLOW any number of significant figures from 2 and correctly rounded\nALLOW ecf for M2 as long as the numbers are added possible answers 1 mark for 3.3466 x 10-24 1.00398 x 10-23 Total = 7"
       }
      ],
      "source_page": 5,
@@ -168,12 +168,12 @@
      "problem_md": "Explain why metals are malleable.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 layers (of atoms or ions or particles) ALLOW rows or sheets\nM2 (atoms /ions) can slide over one another\nno marks if mention of\nintermolecular forces or\nelectrons sliding",
+     "solution_md": "M1 layers (of atoms or ions or particles)\nM2 (atoms /ions) can slide over one another\n\nALLOW rows or sheets no marks if mention of intermolecular forces or electrons sliding",
      "mark_points": [
       {
        "id": "2024-11-2-a-i-MP1",
        "marks": 1,
-       "text_md": "layers (of atoms or ions or particles) ALLOW rows or sheets"
+       "text_md": "layers (of atoms or ions or particles)\nALLOW rows or sheets no marks if mention of intermolecular forces or electrons sliding"
       },
       {
        "id": "2024-11-2-a-i-MP2",
@@ -195,17 +195,17 @@
      "problem_md": "Explain why metals are good conductors of electricity.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 electrons are delocalised any reference to ions\nmoving scores 0\nM2 and (electrons) can move / flow (throughout the must mention electrons\nstructure) in the answer in M1",
+     "solution_md": "M1 electrons are delocalised any reference to ions\nM2 and (electrons) can move / flow (throughout the\nstructure)\n\nmoving scores 0 must mention electrons in the answer in M1",
      "mark_points": [
       {
        "id": "2024-11-2-a-ii-MP1",
        "marks": 1,
-       "text_md": "electrons are delocalised any reference to ions"
+       "text_md": "electrons are delocalised any reference to ions\nmoving scores 0 must mention electrons in the answer in M1"
       },
       {
        "id": "2024-11-2-a-ii-MP2",
        "marks": 1,
-       "text_md": "and (electrons) can move / flow (throughout the must mention electrons\nstructure) in the answer in M1"
+       "text_md": "and (electrons) can move / flow (throughout the\nstructure)"
       }
      ],
      "source_page": 6,
@@ -222,12 +222,12 @@
      "problem_md": "Two methods of obtaining a metal from a compound are electrolysis and extraction using carbon. Explain, without giving practical details, which method is most suitable for extracting iron from iron(III) oxide.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 carbon extraction / extraction using carbon no marks if electrolysis\nin M1\nM2 iron is less reactive (than carbon) OR carbon is\nmore reactive (than iron)",
+     "solution_md": "M1 carbon extraction / extraction using carbon no marks if electrolysis\nM2 iron is less reactive (than carbon) OR carbon is\nmore reactive (than iron)\n\nin M1",
      "mark_points": [
       {
        "id": "2024-11-2-b-MP1",
        "marks": 1,
-       "text_md": "carbon extraction / extraction using carbon no marks if electrolysis"
+       "text_md": "carbon extraction / extraction using carbon no marks if electrolysis\nin M1"
       },
       {
        "id": "2024-11-2-b-MP2",
@@ -249,17 +249,17 @@
      "problem_md": "A student has a solution of iron(II) sulfate and a solution of iron(III) sulfate. Describe a chemical test the student could use to identify which solution is iron(II) sulfate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 add sodium hydroxide (to both solutions) IGNORE OH-/ hydroxide\nions for M1 but allow M2\nM2 iron(II) sulfate forms a green precipitate /ppt IGNORE sluggish green\nor green sludge\nIGNORE iron(III) sulfate\neven if incorrect unless\nit is a green precipitate\nM2 dep on M1 or any\nsoluble hydroxides\nTotal = 8",
+     "solution_md": "M1 add sodium hydroxide (to both solutions)\nM2 iron(II) sulfate forms a green precipitate /ppt\n\nIGNORE OH-/ hydroxide ions for M1 but allow M2\nIGNORE sluggish green or green sludge\nIGNORE iron(III) sulfate even if incorrect unless it is a green precipitate M2 dep on M1 or any soluble hydroxides Total = 8",
      "mark_points": [
       {
        "id": "2024-11-2-c-MP1",
        "marks": 1,
-       "text_md": "add sodium hydroxide (to both solutions) IGNORE OH-/ hydroxide"
+       "text_md": "add sodium hydroxide (to both solutions)\nIGNORE OH-/ hydroxide ions for M1 but allow M2"
       },
       {
        "id": "2024-11-2-c-MP2",
        "marks": 1,
-       "text_md": "iron(II) sulfate forms a green precipitate /ppt IGNORE sluggish green"
+       "text_md": "iron(II) sulfate forms a green precipitate /ppt\nIGNORE sluggish green or green sludge\nIGNORE iron(III) sulfate even if incorrect unless it is a green precipitate M2 dep on M1 or any soluble hydroxides Total = 8"
       }
      ],
      "source_page": 7,
@@ -330,7 +330,7 @@
      "part_number": "3(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Name the pieces of apparatus labelled X, Y and Z. X Y Z",
+     "problem_md": "Name the pieces of apparatus labelled X, Y and Z. X .......... Y .......... Z ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "X = thermometer\nY = (Liebig) condenser\nZ = beaker",
@@ -369,17 +369,17 @@
      "problem_md": "Give a physical test that the teacher could do to find out if the ethanol produced is pure.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 measure / test the boiling point ALLOW boil the ethanol\nM2 a pure substance has a fixed boiling point / IGNORE a pure\nboiling point of 78ºC substance has a fixed\nmelting point\nIGNORE any incorrect\ntemperature\nALLOW a pure\nsubstance will not boil\nover a range of\ntemperatures\nALLOW if it boils over a\nrange of temperatures\nit is impure\nTotal = 6",
+     "solution_md": "M1 measure / test the boiling point\nM2 a pure substance has a fixed boiling point /\nboiling point of 78ºC\n\nALLOW boil the ethanol\nIGNORE a pure substance has a fixed melting point\nIGNORE any incorrect temperature\nALLOW a pure substance will not boil over a range of temperatures\nALLOW if it boils over a range of temperatures it is impure Total = 6",
      "mark_points": [
       {
        "id": "2024-11-3-c-MP1",
        "marks": 1,
-       "text_md": "measure / test the boiling point ALLOW boil the ethanol"
+       "text_md": "measure / test the boiling point\nALLOW boil the ethanol"
       },
       {
        "id": "2024-11-3-c-MP2",
        "marks": 1,
-       "text_md": "a pure substance has a fixed boiling point / IGNORE a pure\nboiling point of 78ºC substance has a fixed"
+       "text_md": "a pure substance has a fixed boiling point /\nboiling point of 78ºC\nIGNORE a pure substance has a fixed melting point\nIGNORE any incorrect temperature\nALLOW a pure substance will not boil over a range of temperatures\nALLOW if it boils over a range of temperatures it is impure Total = 6"
       }
      ],
      "source_page": 9,
@@ -403,15 +403,15 @@
      "part_number": "4(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two observations when lithium is added to water. 1 2",
+     "problem_md": "Give two observations when lithium is added to water. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from:\nM1 effervescence / bubbles / fizzing (of hydrogen)\nM2 (the piece of lithium) gets smaller / disappears ALLOW dissolves\nM3 (the piece of lithium) moves on the surface ALLOW (the piece of\nlithium) floats (on the\nsurface)\nM4 white trail\nany mention of a flame\nMAX = 1",
+     "solution_md": "any two from:\nM1 effervescence / bubbles / fizzing (of hydrogen)\nM2 (the piece of lithium) gets smaller / disappears\nM3 (the piece of lithium) moves on the surface\nM4 white trail\n\nALLOW dissolves\nALLOW (the piece of lithium) floats (on the surface) any mention of a flame MAX = 1",
      "mark_points": [
       {
        "id": "2024-11-4-a-i-MP1",
        "marks": 2,
-       "text_md": "any two from:\nM1 effervescence / bubbles / fizzing (of hydrogen)\nM2 (the piece of lithium) gets smaller / disappears ALLOW dissolves\nM3 (the piece of lithium) moves on the surface ALLOW (the piece of\nlithium) floats (on the\nsurface)\nM4 white trail\nany mention of a flame\nMAX = 1"
+       "text_md": "any two from:\nM1 effervescence / bubbles / fizzing (of hydrogen)\nM2 (the piece of lithium) gets smaller / disappears\nM3 (the piece of lithium) moves on the surface\nM4 white trail\n\nALLOW dissolves\nALLOW (the piece of lithium) floats (on the surface) any mention of a flame MAX = 1"
       }
      ],
      "source_page": 10,
@@ -452,10 +452,10 @@
      "part_number": "4(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "This is the equation for the reaction between lithium and water. 2Li(s) + 2H2O(l) → 2LiOH(aq) + H2(g) The teacher collects 550 cm3 of hydrogen at rtp. Calculate the mass, in grams, of lithium that the teacher added to the water. [one mole of gas at rtp has a volume of 24 000 cm3] [for lithium, Ar = 7] [for carbon Ar = 12 for hydrogen, Ar = 1 for oxygen Ar = 16] mass = g",
+     "problem_md": "This is the equation for the reaction between lithium and water. 2Li(s) + 2H2O(l) → 2LiOH(aq) + H2(g) The teacher collects 550 cm3 of hydrogen at rtp. Calculate the mass, in grams, of lithium that the teacher added to the water. [one mole of gas at rtp has a volume of 24 000 cm3] [for lithium, Ar = 7] [for carbon Ar = 12 for hydrogen, Ar = 1 for oxygen Ar = 16] mass = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (moles of H2) = 550÷24000 OR 0.0229 0.321g scores 3\nM2 (moles of Li) = 0.0229×2 OR 0.0458 ALLOW M1×2\nM3 (mass of Li) 0.321 (g) ALLOW M2×7\nALLOW 0.32 / 0.3206\n/0.32088 /0.32083\n/0.322\nminimum 2 sig. figs.",
+     "solution_md": "M1 (moles of H2) = 550÷24000 OR 0.0229 0.321g scores 3\nM2 (moles of Li) = 0.0229×2 OR 0.0458\nM3 (mass of Li) 0.321 (g)\n\nALLOW M1×2\nALLOW M2×7\nALLOW 0.32 / 0.3206 /0.32088 /0.32083 /0.322 minimum 2 sig. figs.",
      "mark_points": [
       {
        "id": "2024-11-4-b-MP1",
@@ -465,12 +465,12 @@
       {
        "id": "2024-11-4-b-MP2",
        "marks": 1,
-       "text_md": "(moles of Li) = 0.0229×2 OR 0.0458 ALLOW M1×2"
+       "text_md": "(moles of Li) = 0.0229×2 OR 0.0458\nALLOW M1×2"
       },
       {
        "id": "2024-11-4-b-MP3",
        "marks": 1,
-       "text_md": "(mass of Li) 0.321 (g) ALLOW M2×7"
+       "text_md": "(mass of Li) 0.321 (g)\nALLOW M2×7\nALLOW 0.32 / 0.3206 /0.32088 /0.32083 /0.322 minimum 2 sig. figs."
       }
      ],
      "source_page": 10,
@@ -488,12 +488,12 @@
      "problem_md": "Give one observation seen with potassium that is not seen with lithium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any one from:\nM1 (lilac) flame REJECT an incorrect\ncolour of the flame\nM2 melts / turns into a ball\nALLOW faster\neffervescence / moves\nfaster / can explode",
+     "solution_md": "any one from:\nM1 (lilac) flame\nM2 melts / turns into a ball\n\nREJECT an incorrect colour of the flame\nALLOW faster effervescence / moves faster / can explode",
      "mark_points": [
       {
        "id": "2024-11-4-c-i-MP1",
        "marks": 1,
-       "text_md": "any one from:\nM1 (lilac) flame REJECT an incorrect\ncolour of the flame\nM2 melts / turns into a ball\nALLOW faster\neffervescence / moves\nfaster / can explode"
+       "text_md": "any one from:\nM1 (lilac) flame\nM2 melts / turns into a ball\n\nREJECT an incorrect colour of the flame\nALLOW faster effervescence / moves faster / can explode"
       }
      ],
      "source_page": 11,
@@ -510,22 +510,22 @@
      "problem_md": "Explain why potassium is more reactive than lithium. Refer to atomic structure in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (atoms of potassium) are bigger / have more ALLOW / more shielding\nshells (of electrons) / larger atomic radius from the nucleus\n/ the outer shell electron is further from the nucleus / Li 2,1 K 2,8,8,1\nM2 (therefore) the outer shell electron is less lose 1 mark if outer shell\nattracted to the nucleus electron is not\nmentioned\nM3 (and therefore the outer shell) electron is more lose 1 mark in M2 or M3\neasily lost if electrons are\nmentioned\nTotal = 11",
+     "solution_md": "M1 (atoms of potassium) are bigger / have more\nshells (of electrons) / larger atomic radius\n/ the outer shell electron is further from the nucleus\nM2 (therefore) the outer shell electron is less\nattracted to the nucleus\nM3 (and therefore the outer shell) electron is more\neasily lost\n\nALLOW / more shielding from the nucleus / Li 2,1 K 2,8,8,1 lose 1 mark if outer shell electron is not mentioned lose 1 mark in M2 or M3 if electrons are mentioned Total = 11",
      "mark_points": [
       {
        "id": "2024-11-4-c-ii-MP1",
        "marks": 1,
-       "text_md": "(atoms of potassium) are bigger / have more ALLOW / more shielding\nshells (of electrons) / larger atomic radius from the nucleus\n/ the outer shell electron is further from the nucleus / Li 2,1 K 2,8,8,1"
+       "text_md": "(atoms of potassium) are bigger / have more\nshells (of electrons) / larger atomic radius\n/ the outer shell electron is further from the nucleus\nALLOW / more shielding from the nucleus / Li 2,1 K 2,8,8,1 lose 1 mark if outer shell electron is not mentioned lose 1 mark in M2 or M3 if electrons are mentioned Total = 11"
       },
       {
        "id": "2024-11-4-c-ii-MP2",
        "marks": 1,
-       "text_md": "(therefore) the outer shell electron is less lose 1 mark if outer shell\nattracted to the nucleus electron is not"
+       "text_md": "(therefore) the outer shell electron is less\nattracted to the nucleus"
       },
       {
        "id": "2024-11-4-c-ii-MP3",
        "marks": 1,
-       "text_md": "(and therefore the outer shell) electron is more lose 1 mark in M2 or M3\neasily lost if electrons are"
+       "text_md": "(and therefore the outer shell) electron is more\neasily lost"
       }
      ],
      "source_page": 11,
@@ -556,12 +556,12 @@
      "problem_md": "Give the name of the apparatus that the student should use to measure the volume of sodium hydroxide solution in step 1.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(volumetric) pipette REJECT dropping pipette",
+     "solution_md": "(volumetric) pipette\n\nREJECT dropping pipette",
      "mark_points": [
       {
        "id": "2024-11-5-a-i-MP1",
        "marks": 1,
-       "text_md": "(volumetric) pipette REJECT dropping pipette"
+       "text_md": "(volumetric) pipette\n\nREJECT dropping pipette"
       }
      ],
      "source_page": 12,
@@ -592,12 +592,12 @@
      "problem_md": "Give the colour change seen in step 4.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "yellow to red ALLOW yellow to orange\n/ yellow to pink\nmust be in the correct\norder",
+     "solution_md": "yellow to red\n\nALLOW yellow to orange / yellow to pink must be in the correct order",
      "mark_points": [
       {
        "id": "2024-11-5-a-ii-MP1",
        "marks": 1,
-       "text_md": "yellow to red ALLOW yellow to orange\n/ yellow to pink\nmust be in the correct\norder"
+       "text_md": "yellow to red\n\nALLOW yellow to orange / yellow to pink must be in the correct order"
       }
      ],
      "source_page": 12,
@@ -614,12 +614,12 @@
      "problem_md": "Give a reason why the student does not use universal indicator in this titration.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any one from:\nM1 (universal indicator) does not give a sharp colour ALLOW has no clear end\nchange point\nM2 (universal indicator) changes colour over a range ALLOW there are a wide\nof pH values range of colours / colour\nchange is too gradual",
+     "solution_md": "any one from:\nM1 (universal indicator) does not give a sharp colour\nchange\nM2 (universal indicator) changes colour over a range\nof pH values\n\nALLOW has no clear end point\nALLOW there are a wide range of colours / colour change is too gradual",
      "mark_points": [
       {
        "id": "2024-11-5-a-iii-MP1",
        "marks": 1,
-       "text_md": "any one from:\nM1 (universal indicator) does not give a sharp colour ALLOW has no clear end\nchange point\nM2 (universal indicator) changes colour over a range ALLOW there are a wide\nof pH values range of colours / colour\nchange is too gradual"
+       "text_md": "any one from:\nM1 (universal indicator) does not give a sharp colour\nchange\nM2 (universal indicator) changes colour over a range\nof pH values\n\nALLOW has no clear end point\nALLOW there are a wide range of colours / colour change is too gradual"
       }
      ],
      "source_page": 12,
@@ -636,7 +636,7 @@
      "problem_md": "Complete the table by adding the results from the rough titration. Record the volumes to the nearest 0.05 cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 volume at end 23.80(cm3) and volume at start no M1 for 23.8\n2.15(cm3)\nM2 volume added 21.65(cm3) ALLOW ecf if M1 values\nare incorrect but correct\nsubtraction to 2 decimal\nplaces",
+     "solution_md": "M1 volume at end 23.80(cm3) and volume at start no M1 for 23.8\n2.15(cm3)\nM2 volume added 21.65(cm3)\n\nALLOW ecf if M1 values are incorrect but correct subtraction to 2 decimal places",
      "mark_points": [
       {
        "id": "2024-11-5-b-i-MP1",
@@ -646,7 +646,7 @@
       {
        "id": "2024-11-5-b-i-MP2",
        "marks": 1,
-       "text_md": "volume added 21.65(cm3) ALLOW ecf if M1 values"
+       "text_md": "volume added 21.65(cm3)\nALLOW ecf if M1 values are incorrect but correct subtraction to 2 decimal places"
       }
      ],
      "source_page": 13,
@@ -674,10 +674,10 @@
      "part_number": "5(b)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Concordant results are results within 0.20 cm3 of each other. Use the concordant results from the table to calculate the mean volume of acid added. mean volume of acid = cm3",
+     "problem_md": "Concordant results are results within 0.20 cm3 of each other. Use the concordant results from the table to calculate the mean volume of acid added. mean volume of acid = .......... cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 volumes from titrations 1 and 3 used\nM2 (21.30+21.50)÷2 ALLOW ECF from M1\nM3 21.40(cm3) ALLOW ECF from M2\ncommon answers are\n21.48/22.38/21.83/22.23\n21.50/22.40/21.85/22.25",
+     "solution_md": "M1 volumes from titrations 1 and 3 used\nM2 (21.30+21.50)÷2\nM3 21.40(cm3)\n\nALLOW ECF from M1\nALLOW ECF from M2 common answers are 21.48/22.38/21.83/22.23 21.50/22.40/21.85/22.25",
      "mark_points": [
       {
        "id": "2024-11-5-b-ii-MP1",
@@ -687,12 +687,12 @@
       {
        "id": "2024-11-5-b-ii-MP2",
        "marks": 1,
-       "text_md": "(21.30+21.50)÷2 ALLOW ECF from M1"
+       "text_md": "(21.30+21.50)÷2\nALLOW ECF from M1"
       },
       {
        "id": "2024-11-5-b-ii-MP3",
        "marks": 1,
-       "text_md": "21.40(cm3) ALLOW ECF from M2"
+       "text_md": "21.40(cm3)\nALLOW ECF from M2 common answers are 21.48/22.38/21.83/22.23 21.50/22.40/21.85/22.25"
       }
      ],
      "source_page": 13,
@@ -723,7 +723,7 @@
      "problem_md": "This is the equation for the reaction between dilute nitric acid and sodium hydroxide solution. HNO3(aq) + NaOH(aq) → NaNO3(aq) + H2O(l) After the titration, the student knows the volume of acid needed to neutralise 25.0 cm3 of the sodium hydroxide solution. Sodium nitrate decomposes at high temperatures. Describe how the student could obtain pure, dry crystals of sodium nitrate from dilute nitric acid and sodium hydroxide solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 repeat using the same volumes of NaOH and HNO 3 M1 only if heated to\nOR repeat without indicator dryness\nM2 heat until crystals first start to form /heat to ALLOW heat to evaporate\ncrystallisation point / heat until crystals form on the some/most of the water\nend of a glass rod /to form a saturated\nsolution\nlose 1 mark if no mention\nM3 leave to cool (and crystallise) of crystals for M3, M4, M5\nM4 pour off excess liquid OR filter (to remove IGNORE wash crystals\ncrystals)\nALLOW dry in a (warm)\noven/in a dessicator\nM5 leave (in a warm place) to dry /dry with filter paper\n/towel/cloth\nTotal = 13",
+     "solution_md": "M1 repeat using the same volumes of NaOH and HNO 3 M1 only if heated to\nOR repeat without indicator dryness\nM2 heat until crystals first start to form /heat to\ncrystallisation point / heat until crystals form on the\nend of a glass rod\nM3 leave to cool (and crystallise)\nM4 pour off excess liquid OR filter (to remove\ncrystals)\nM5 leave (in a warm place) to dry\n\nALLOW heat to evaporate some/most of the water /to form a saturated solution lose 1 mark if no mention of crystals for M3, M4, M5\nIGNORE wash crystals\nALLOW dry in a (warm) oven/in a dessicator /dry with filter paper /towel/cloth Total = 13",
      "mark_points": [
       {
        "id": "2024-11-5-c-MP1",
@@ -733,22 +733,22 @@
       {
        "id": "2024-11-5-c-MP2",
        "marks": 1,
-       "text_md": "heat until crystals first start to form /heat to ALLOW heat to evaporate\ncrystallisation point / heat until crystals form on the some/most of the water\nend of a glass rod /to form a saturated"
+       "text_md": "heat until crystals first start to form /heat to\ncrystallisation point / heat until crystals form on the\nend of a glass rod\nALLOW heat to evaporate some/most of the water /to form a saturated solution lose 1 mark if no mention of crystals for M3, M4, M5"
       },
       {
        "id": "2024-11-5-c-MP3",
        "marks": 1,
-       "text_md": "leave to cool (and crystallise) of crystals for M3, M4, M5"
+       "text_md": "leave to cool (and crystallise)"
       },
       {
        "id": "2024-11-5-c-MP4",
        "marks": 1,
-       "text_md": "pour off excess liquid OR filter (to remove IGNORE wash crystals\ncrystals)"
+       "text_md": "pour off excess liquid OR filter (to remove\ncrystals)\nIGNORE wash crystals\nALLOW dry in a (warm) oven/in a dessicator /dry with filter paper /towel/cloth Total = 13"
       },
       {
        "id": "2024-11-5-c-MP5",
        "marks": 1,
-       "text_md": "leave (in a warm place) to dry /dry with filter paper"
+       "text_md": "leave (in a warm place) to dry"
       }
      ],
      "source_page": 14,
@@ -779,12 +779,12 @@
      "problem_md": "Describe how crude oil is separated into fractions by fractional distillation.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 crude oil / it is heated ALLOW boiled/vaporised\nM2 the vapours / gases rise up the column\nM3 the column is hotter at the bottom than the top ALLOW the vapours cool as\nOWTTE they rise up the\ncolumn/temperature\ngradient\nM4 the vapours condense at their boiling points",
+     "solution_md": "M1 crude oil / it is heated\nM2 the vapours / gases rise up the column\nM3 the column is hotter at the bottom than the top\nOWTTE\nM4 the vapours condense at their boiling points\n\nALLOW boiled/vaporised\nALLOW the vapours cool as they rise up the column/temperature gradient",
      "mark_points": [
       {
        "id": "2024-11-6-a-MP1",
        "marks": 1,
-       "text_md": "crude oil / it is heated ALLOW boiled/vaporised"
+       "text_md": "crude oil / it is heated\nALLOW boiled/vaporised"
       },
       {
        "id": "2024-11-6-a-MP2",
@@ -794,7 +794,7 @@
       {
        "id": "2024-11-6-a-MP3",
        "marks": 1,
-       "text_md": "the column is hotter at the bottom than the top ALLOW the vapours cool as\nOWTTE they rise up the"
+       "text_md": "the column is hotter at the bottom than the top\nOWTTE\nALLOW the vapours cool as they rise up the column/temperature gradient"
       },
       {
        "id": "2024-11-6-a-MP4",
@@ -816,17 +816,17 @@
      "problem_md": "Give the conditions necessary for cracking to occur.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 600-700°C ALLOW any number or\nrange between 600-700\nM2 catalyst of silica/alumina ALLOW aluminosilicates/\nzeolites / SiO2 / Al2O3",
+     "solution_md": "M1 600-700°C\nM2 catalyst of silica/alumina\n\nALLOW any number or range between 600-700\nALLOW aluminosilicates/ zeolites / SiO2 / Al2O3",
      "mark_points": [
       {
        "id": "2024-11-6-b-i-MP1",
        "marks": 1,
-       "text_md": "600-700°C ALLOW any number or"
+       "text_md": "600-700°C\nALLOW any number or range between 600-700"
       },
       {
        "id": "2024-11-6-b-i-MP2",
        "marks": 1,
-       "text_md": "catalyst of silica/alumina ALLOW aluminosilicates/"
+       "text_md": "catalyst of silica/alumina\nALLOW aluminosilicates/ zeolites / SiO2 / Al2O3"
       }
      ],
      "source_page": 15,
@@ -843,7 +843,7 @@
      "problem_md": "Explain why shorter-chain alkanes are more useful than longer-chain alkanes.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (shorter chain alkanes) are more flammable / are\neasier to burn\nM2 therefore are more useful as fuels /petrol ALLOW used as fuels\n/gasoline /petrol/gasoline",
+     "solution_md": "M1 (shorter chain alkanes) are more flammable / are\neasier to burn\nM2 therefore are more useful as fuels /petrol\n/gasoline\n\nALLOW used as fuels /petrol/gasoline",
      "mark_points": [
       {
        "id": "2024-11-6-b-ii-MP1",
@@ -853,7 +853,7 @@
       {
        "id": "2024-11-6-b-ii-MP2",
        "marks": 1,
-       "text_md": "therefore are more useful as fuels /petrol ALLOW used as fuels\n/gasoline /petrol/gasoline"
+       "text_md": "therefore are more useful as fuels /petrol\n/gasoline\nALLOW used as fuels /petrol/gasoline"
       }
      ],
      "source_page": 15,
@@ -867,15 +867,15 @@
      "part_number": "6(b)(iii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Ethene reacts with bromine. The equation shows the displayed formulae of the reactants and product. H H H H C C + Br Br → H C C H H H Br Br The table shows some bond energies. Bond Bond energy in kJ/mol C C 612 C C 348 C H 414 Br Br 193 C Br 276 Show that the molar enthalpy change, ΔH, for this reaction is about –100 kJ/mol. ΔH = kJ/mol",
+     "problem_md": "Ethene reacts with bromine. The equation shows the displayed formulae of the reactants and product. H H H H C C + Br Br → H C C H H H Br Br The table shows some bond energies. Bond Bond energy in kJ/mol C C 612 C C 348 C H 414 Br Br 193 C Br 276 Show that the molar enthalpy change, ΔH, for this reaction is about –100 kJ/mol. ΔH = .......... kJ/mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (bonds broken) = 612+193 OR 805 (kJ/mol) working must be shown for\na show that question\nM2 (bonds formed) = 348+(2×276) OR 900 (kJ/mol)\nM3 -95 (kJ/mol)\nALLOW M1-M2 as long as\nOR answer is between -80 and\n-120 (kJ/mol)\nM1 (bonds broken) = (4×414)+612+193 OR 2461\n(kJ/mol)\nM2 (bonds formed) = (4×414)+348+(2×276) OR 2556\n(kJ/mol) ALLOW M1-M2 as long as\nanswer is between -80 and\nM3 -95 (kJ/mol) -120 (kJ/mol)",
+     "solution_md": "M1 (bonds broken) = 612+193 OR 805 (kJ/mol) working must be shown for\nM2 (bonds formed) = 348+(2×276) OR 900 (kJ/mol)\nM3 -95 (kJ/mol)\nOR\nM1 (bonds broken) = (4×414)+612+193 OR 2461\n(kJ/mol)\nM2 (bonds formed) = (4×414)+348+(2×276) OR 2556\n(kJ/mol)\nM3 -95 (kJ/mol)\n\na show that question\nALLOW M1-M2 as long as answer is between -80 and -120 (kJ/mol)\nALLOW M1-M2 as long as answer is between -80 and -120 (kJ/mol)",
      "mark_points": [
       {
        "id": "2024-11-6-b-iii-MP1",
        "marks": 3,
-       "text_md": "M1 (bonds broken) = 612+193 OR 805 (kJ/mol) working must be shown for\na show that question\nM2 (bonds formed) = 348+(2×276) OR 900 (kJ/mol)\nM3 -95 (kJ/mol)\nALLOW M1-M2 as long as\nOR answer is between -80 and\n-120 (kJ/mol)\nM1 (bonds broken) = (4×414)+612+193 OR 2461\n(kJ/mol)\nM2 (bonds formed) = (4×414)+348+(2×276) OR 2556\n(kJ/mol) ALLOW M1-M2 as long as\nanswer is between -80 and\nM3 -95 (kJ/mol) -120 (kJ/mol)"
+       "text_md": "M1 (bonds broken) = 612+193 OR 805 (kJ/mol) working must be shown for\nM2 (bonds formed) = 348+(2×276) OR 900 (kJ/mol)\nM3 -95 (kJ/mol)\nOR\nM1 (bonds broken) = (4×414)+612+193 OR 2461\n(kJ/mol)\nM2 (bonds formed) = (4×414)+348+(2×276) OR 2556\n(kJ/mol)\nM3 -95 (kJ/mol)\n\na show that question\nALLOW M1-M2 as long as answer is between -80 and -120 (kJ/mol)\nALLOW M1-M2 as long as answer is between -80 and -120 (kJ/mol)"
       }
      ],
      "source_page": 16,
@@ -904,17 +904,17 @@
      "problem_md": "Explain why the reaction between ethene and bromine is exothermic. Refer to bond energies in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 more energy / heat was given out /released when ALLOW sum of bond\nthe bonds (in the products) were formed energies to break the\nbonds (in the reactants)\nM2 than was taken in / needed to break the bonds (in ALLOW is less than the\nthe reactants) sum of the bond energies\nfor making the bonds (in\nthe products)\nno marks for energy taken\nin /needed to make the\nbonds OR for energy given\nout /released to break the\nbonds\nTotal = 13",
+     "solution_md": "M1 more energy / heat was given out /released when\nthe bonds (in the products) were formed\nM2 than was taken in / needed to break the bonds (in\nthe reactants)\n\nALLOW sum of bond energies to break the bonds (in the reactants)\nALLOW is less than the sum of the bond energies for making the bonds (in the products) no marks for energy taken in /needed to make the bonds OR for energy given out /released to break the bonds Total = 13",
      "mark_points": [
       {
        "id": "2024-11-6-b-iv-MP1",
        "marks": 1,
-       "text_md": "more energy / heat was given out /released when ALLOW sum of bond\nthe bonds (in the products) were formed energies to break the"
+       "text_md": "more energy / heat was given out /released when\nthe bonds (in the products) were formed\nALLOW sum of bond energies to break the bonds (in the reactants)"
       },
       {
        "id": "2024-11-6-b-iv-MP2",
        "marks": 1,
-       "text_md": "than was taken in / needed to break the bonds (in ALLOW is less than the\nthe reactants) sum of the bond energies"
+       "text_md": "than was taken in / needed to break the bonds (in\nthe reactants)\nALLOW is less than the sum of the bond energies for making the bonds (in the products) no marks for energy taken in /needed to make the bonds OR for energy given out /released to break the bonds Total = 13"
       }
      ],
      "source_page": 17,
@@ -945,12 +945,12 @@
      "problem_md": "Name alcohol A.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "propan-1-ol ALLOW propanol\nREJECT propan-2-ol",
+     "solution_md": "propan-1-ol\n\nALLOW propanol\nREJECT propan-2-ol",
      "mark_points": [
       {
        "id": "2024-11-7-a-i-MP1",
        "marks": 1,
-       "text_md": "propan-1-ol ALLOW propanol\nREJECT propan-2-ol"
+       "text_md": "propan-1-ol\n\nALLOW propanol\nREJECT propan-2-ol"
       }
      ],
      "source_page": 19,
@@ -986,25 +986,25 @@
      "part_number": "7(a)(iii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Carboxylic acid B has a chain of carbon atoms with no branches. The number of CH2 units is represented by the letter n. Calculate the value of n. [for carboxylic acid B, Mr = 242] n =",
+     "problem_md": "Carboxylic acid B has a chain of carbon atoms with no branches. The number of CH2 units is represented by the letter n. Calculate the value of n. [for carboxylic acid B, Mr = 242] n = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 242-(15+45) = 182 13 without working\nscores 3\nM2 182÷14 ALLOW M1÷14\nM3 13 M3 must be an integer\n17 scores 2",
+     "solution_md": "M1 242-(15+45) = 182 13 without working\nM2 182÷14\nM3 13\n\nscores 3\nALLOW M1÷14 M3 must be an integer 17 scores 2",
      "mark_points": [
       {
        "id": "2024-11-7-a-iii-MP1",
        "marks": 1,
-       "text_md": "242-(15+45) = 182 13 without working"
+       "text_md": "242-(15+45) = 182 13 without working\nscores 3"
       },
       {
        "id": "2024-11-7-a-iii-MP2",
        "marks": 1,
-       "text_md": "182÷14 ALLOW M1÷14"
+       "text_md": "182÷14\nALLOW M1÷14 M3 must be an integer 17 scores 2"
       },
       {
        "id": "2024-11-7-a-iii-MP3",
        "marks": 1,
-       "text_md": "13 M3 must be an integer"
+       "text_md": "13"
       }
      ],
      "source_page": 19,
@@ -1040,30 +1040,30 @@
      "part_number": "7(b)(i)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "This is the equation for the reaction between dicarboxylic acid C and sodium hydroxide solution. HOOCCH2CH2COOH + 2NaOH → NaOOCH2CH2COONa + 2H2O 25.0 cm3 of 0.150 mol/dm3 sodium hydroxide solution is completely neutralised by 17.5 cm3 of a solution of dicarboxylic acid C. Calculate the concentration, in mol/dm3, of the solution of dicarboxylic acid C. Give your answer to three significant figures. concentration = mol/dm3",
+     "problem_md": "This is the equation for the reaction between dicarboxylic acid C and sodium hydroxide solution. HOOCCH2CH2COOH + 2NaOH → NaOOCH2CH2COONa + 2H2O 25.0 cm3 of 0.150 mol/dm3 sodium hydroxide solution is completely neutralised by 17.5 cm3 of a solution of dicarboxylic acid C. Calculate the concentration, in mol/dm3, of the solution of dicarboxylic acid C. Give your answer to three significant figures. concentration = .......... mol/dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer without\nworking scores all 4\nM1 (moles of NaOH) 0.150×0.025 OR 0.00375(mol) marks\nM2 (moles of C) 0.00375÷2 OR 0.001875(mol) ALLOW M1÷2\nM3 0.001875÷0.0175 OR 0.10714(mol/dm3) ALLOW M2÷0.0175\nALLOW M3 to 3 sig figs\nM4 0.107(mol/dm3) M4 must be to 3 sig figs\n0.214 scores 3 marks",
+     "solution_md": "correct answer without\nM1 (moles of NaOH) 0.150×0.025 OR 0.00375(mol)\nM2 (moles of C) 0.00375÷2 OR 0.001875(mol)\nM3 0.001875÷0.0175 OR 0.10714(mol/dm3)\nM4 0.107(mol/dm3)\n\nworking scores all 4 marks\nALLOW M1÷2\nALLOW M2÷0.0175\nALLOW M3 to 3 sig figs M4 must be to 3 sig figs 0.214 scores 3 marks",
      "mark_points": [
       {
        "id": "2024-11-7-b-i-MP1",
        "marks": 1,
-       "text_md": "(moles of NaOH) 0.150×0.025 OR 0.00375(mol) marks"
+       "text_md": "(moles of NaOH) 0.150×0.025 OR 0.00375(mol)\nworking scores all 4 marks"
       },
       {
        "id": "2024-11-7-b-i-MP2",
        "marks": 1,
-       "text_md": "(moles of C) 0.00375÷2 OR 0.001875(mol) ALLOW M1÷2"
+       "text_md": "(moles of C) 0.00375÷2 OR 0.001875(mol)\nALLOW M1÷2"
       },
       {
        "id": "2024-11-7-b-i-MP3",
        "marks": 1,
-       "text_md": "0.001875÷0.0175 OR 0.10714(mol/dm3) ALLOW M2÷0.0175"
+       "text_md": "0.001875÷0.0175 OR 0.10714(mol/dm3)\nALLOW M2÷0.0175\nALLOW M3 to 3 sig figs M4 must be to 3 sig figs 0.214 scores 3 marks"
       },
       {
        "id": "2024-11-7-b-i-MP4",
        "marks": 1,
-       "text_md": "0.107(mol/dm3) M4 must be to 3 sig figs"
+       "text_md": "0.107(mol/dm3)"
       }
      ],
      "source_page": 20,
@@ -1080,17 +1080,17 @@
      "problem_md": "Dicarboxylic acid C and diol D react to form a polyester. Draw the displayed formula of the repeat unit of this polyester.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ALLOW without the\nextension bonds\nM1 for the ester linkage\nM2 rest of the molecule correct M2 dep on M1\nTotal = 12\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "M1 for the ester linkage\nM2 rest of the molecule correct\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nALLOW without the extension bonds M2 dep on M1 Total = 12",
      "mark_points": [
       {
        "id": "2024-11-7-b-ii-MP1",
        "marks": 1,
-       "text_md": "for the ester linkage"
+       "text_md": "for the ester linkage\nALLOW without the extension bonds M2 dep on M1 Total = 12"
       },
       {
        "id": "2024-11-7-b-ii-MP2",
        "marks": 1,
-       "text_md": "rest of the molecule correct M2 dep on M1\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "rest of the molecule correct\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
       }
      ],
      "source_page": 21,

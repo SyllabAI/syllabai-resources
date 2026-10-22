@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:41Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2022-06 paper=1C",
+ "generated_utc": "2026-10-22T14:42:08Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2022-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-06:4CH1/1C",
  "source": {
   "qp_sha256": "222019063953cef895736c575d38b4e3fcd6e3af5eb0e964c3ef14b81af81e62",
@@ -34,12 +34,12 @@
      "problem_md": "Name the part of the atom that contains the protons and neutrons.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "nucleus ACCEPT nuclei",
+     "solution_md": "nucleus\n\nACCEPT nuclei",
      "mark_points": [
       {
        "id": "2022-06-1-a-MP1",
        "marks": 1,
-       "text_md": "nucleus ACCEPT nuclei"
+       "text_md": "nucleus\n\nACCEPT nuclei"
       }
      ],
      "source_page": 3,
@@ -124,12 +124,12 @@
      "problem_md": "Give the charge on the ion formed from this atom.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "+1 / 1+ ACCEPT + / Na+ /\npositive 1\nIGNORE positive alone",
+     "solution_md": "+1 / 1+ ACCEPT + / Na+ /\n\npositive 1\nIGNORE positive alone",
      "mark_points": [
       {
        "id": "2022-06-1-e-MP1",
        "marks": 1,
-       "text_md": "+1 / 1+ ACCEPT + / Na+ /\npositive 1\nIGNORE positive alone"
+       "text_md": "+1 / 1+ ACCEPT + / Na+ /\n\npositive 1\nIGNORE positive alone"
       }
      ],
      "source_page": 3,
@@ -157,12 +157,12 @@
      "problem_md": "The box shows some changes of state. boiling condensation evaporation freezing melting sublimation The table lists some physical changes. Complete the table using words from the box to show the change of state for each physical change. Physical change Change of state water to ice steam to water solid wax to liquid wax iodine crystals to iodine vapour",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "4\nChange Change of\nstate\nwater to ice freezing\nsteam to water condensation ALLOW condensing\nsolid wax to liquid wax melting\niodine crystals to iodine sublimation ALLOW subliming\nvapour",
+     "solution_md": "4\nChange Change of\nwater to ice\nsteam to water condensation\nsolid wax to liquid wax\niodine crystals to iodine sublimation\nvapour\n\nstate freezing\nALLOW condensing melting\nALLOW subliming",
      "mark_points": [
       {
        "id": "2022-06-2-a-MP1",
        "marks": 4,
-       "text_md": "4\nChange Change of\nstate\nwater to ice freezing\nsteam to water condensation ALLOW condensing\nsolid wax to liquid wax melting\niodine crystals to iodine sublimation ALLOW subliming\nvapour"
+       "text_md": "4\nChange Change of\nwater to ice\nsteam to water condensation\nsolid wax to liquid wax\niodine crystals to iodine sublimation\nvapour\n\nstate freezing\nALLOW condensing melting\nALLOW subliming"
       }
      ],
      "source_page": 4,
@@ -188,20 +188,20 @@
      "part_number": "2(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "State two things the student could do to make the salt dissolve quickly. 1 2",
+     "problem_md": "State two things the student could do to make the salt dissolve quickly. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 heat ALLOW use hot water\nIGNORE add more water\nM2 stir / mix ALLOW grind / crush\nthe solid / mixture",
+     "solution_md": "M1 heat\nM2 stir / mix\n\nALLOW use hot water\nIGNORE add more water\nALLOW grind / crush the solid / mixture",
      "mark_points": [
       {
        "id": "2022-06-2-b-i-MP1",
        "marks": 1,
-       "text_md": "heat ALLOW use hot water"
+       "text_md": "heat\nALLOW use hot water\nIGNORE add more water"
       },
       {
        "id": "2022-06-2-b-i-MP2",
        "marks": 1,
-       "text_md": "stir / mix ALLOW grind / crush"
+       "text_md": "stir / mix\nALLOW grind / crush the solid / mixture"
       }
      ],
      "source_page": 4,
@@ -219,12 +219,12 @@
      "problem_md": "State what the student should do next to separate the sand from the salt solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "filter ALLOW a description of\nfiltration",
+     "solution_md": "filter\n\nALLOW a description of filtration",
      "mark_points": [
       {
        "id": "2022-06-2-b-ii-MP1",
        "marks": 1,
-       "text_md": "filter ALLOW a description of\nfiltration"
+       "text_md": "filter\n\nALLOW a description of filtration"
       }
      ],
      "source_page": 4,
@@ -241,12 +241,12 @@
      "problem_md": "Describe how the student can obtain pure dry crystals of salt from the salt solution.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to four of the following IGNORE any steps\npoints: before heating the\nsolution\nM1 heat / boil (the solution)\nM2 evaporate some of the water ALLOW until crystals\nform on the end of a\nglass rod\nALLOW until crystals\nfirst start to form\nALLOW until the\nsolution is saturated\nM3 leave / cool (the solution to crystallise) M3 dep on M1\nM4 pour off excess liquid OR filter (to obtain M4 dep on crystals\ncrystals) having been formed\nIGNORE references to\nwashing\nM5 suitable method of drying the crystals e.g. place in an\noven / leave to\ndry /use filter\npaper / kitchen towel /\n/ desiccator / heat to\ndryness\nIf solution heated until\nall the water\nevaporates / heated\nuntil all the water has\nbeen removed / heated\nto dryness award M1\nand M5\nIf the solution is left to\nevaporate all of\nthe water\nonly M5 can be\nawarded.",
+     "solution_md": "A description that refers to four of the following\npoints:\nM1 heat / boil (the solution)\nM2 evaporate some of the water\nM3 leave / cool (the solution to crystallise)\nM4 pour off excess liquid OR filter (to obtain\ncrystals)\nM5 suitable method of drying the crystals\n\nIGNORE any steps before heating the solution\nALLOW until crystals form on the end of a glass rod\nALLOW until crystals first start to form\nALLOW until the solution is saturated M3 dep on M1 M4 dep on crystals having been formed\nIGNORE references to washing e.g. place in an oven / leave to dry /use filter paper / kitchen towel / / desiccator / heat to dryness If solution heated until all the water evaporates / heated until all the water has been removed / heated to dryness award M1 and M5 If the solution is left to evaporate all of the water only M5 can be awarded.",
      "mark_points": [
       {
        "id": "2022-06-2-b-iii-MP1",
        "marks": 4,
-       "text_md": "A description that refers to four of the following IGNORE any steps\npoints: before heating the\nsolution\nM1 heat / boil (the solution)\nM2 evaporate some of the water ALLOW until crystals\nform on the end of a\nglass rod\nALLOW until crystals\nfirst start to form\nALLOW until the\nsolution is saturated\nM3 leave / cool (the solution to crystallise) M3 dep on M1\nM4 pour off excess liquid OR filter (to obtain M4 dep on crystals\ncrystals) having been formed\nIGNORE references to\nwashing\nM5 suitable method of drying the crystals e.g. place in an\noven / leave to\ndry /use filter\npaper / kitchen towel /\n/ desiccator / heat to\ndryness\nIf solution heated until\nall the water\nevaporates / heated\nuntil all the water has\nbeen removed / heated\nto dryness award M1\nand M5\nIf the solution is left to\nevaporate all of\nthe water\nonly M5 can be\nawarded."
+       "text_md": "A description that refers to four of the following\npoints:\nM1 heat / boil (the solution)\nM2 evaporate some of the water\nM3 leave / cool (the solution to crystallise)\nM4 pour off excess liquid OR filter (to obtain\ncrystals)\nM5 suitable method of drying the crystals\n\nIGNORE any steps before heating the solution\nALLOW until crystals form on the end of a glass rod\nALLOW until crystals first start to form\nALLOW until the solution is saturated M3 dep on M1 M4 dep on crystals having been formed\nIGNORE references to washing e.g. place in an oven / leave to dry /use filter paper / kitchen towel / / desiccator / heat to dryness If solution heated until all the water evaporates / heated until all the water has been removed / heated to dryness award M1 and M5 If the solution is left to evaporate all of the water only M5 can be awarded."
       }
      ],
      "source_page": 5,
@@ -277,12 +277,12 @@
      "problem_md": "State what happens to the crude oil when it is in X.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(crude oil/it is) heated / vapourised ALLOW evaporated / boiled\nREJECT melted",
+     "solution_md": "(crude oil/it is) heated / vapourised\n\nALLOW evaporated / boiled\nREJECT melted",
      "mark_points": [
       {
        "id": "2022-06-3-a-i-MP1",
        "marks": 1,
-       "text_md": "(crude oil/it is) heated / vapourised ALLOW evaporated / boiled\nREJECT melted"
+       "text_md": "(crude oil/it is) heated / vapourised\n\nALLOW evaporated / boiled\nREJECT melted"
       }
      ],
      "source_page": 6,
@@ -299,12 +299,12 @@
      "problem_md": "Give the name of fraction E.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "gasoline ALLOW petrol",
+     "solution_md": "gasoline\n\nALLOW petrol",
      "mark_points": [
       {
        "id": "2022-06-3-a-ii-MP1",
        "marks": 1,
-       "text_md": "gasoline ALLOW petrol"
+       "text_md": "gasoline\n\nALLOW petrol"
       }
      ],
      "source_page": 6,
@@ -343,12 +343,12 @@
      "problem_md": "State the catalyst and temperature used in this cracking reaction. catalyst temperature",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 silica / alumina (catalyst) ACCEPT SiO2/Al2O3 / silicon\ndioxide / aluminium oxide\n/aluminosilicates / zeolites\nM2 600 to 700 oC",
+     "solution_md": "M1 silica / alumina (catalyst)\nM2 600 to 700 oC\n\nACCEPT SiO2/Al2O3 / silicon dioxide / aluminium oxide /aluminosilicates / zeolites",
      "mark_points": [
       {
        "id": "2022-06-3-b-i-MP1",
        "marks": 1,
-       "text_md": "silica / alumina (catalyst) ACCEPT SiO2/Al2O3 / silicon"
+       "text_md": "silica / alumina (catalyst)\nACCEPT SiO2/Al2O3 / silicon dioxide / aluminium oxide /aluminosilicates / zeolites"
       },
       {
        "id": "2022-06-3-b-i-MP2",
@@ -367,20 +367,20 @@
      "part_number": "3(b)(ii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The equation shows an example of a catalytic cracking reaction. C13H28 → C8H18 + C2H4 + C3H6 Give two reasons why this reaction is important. 1 2",
+     "problem_md": "The equation shows an example of a catalytic cracking reaction. C13H28 → C8H18 + C2H4 + C3H6 Give two reasons why this reaction is important. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any two from:\nM1 shorter-chain alkanes are in high(er) ALLOW C8H18 is in high(er)\ndemand / more useful / used for petrol / demand (than C13H28) / more\nmore flammable useful / used for petrol / more\nflammable\nIGNORE shorter-chain alkanes\nare used as fuels\nM2 alkenes are needed / used to make ALLOW C2H4 / C3H6 are needed\npolymers / used to make polymers /\nplastics\nshorter chain hydrocarbons /\nthe products are in high(er)\ndemand / more useful / more\nflammable scores 1 if no other\nmark awarded\nto create shorter alkanes and\nalkenes scores 1 if no other\nmark awarded",
+     "solution_md": "Any two from:\nM1 shorter-chain alkanes are in high(er)\ndemand / more useful / used for petrol /\nmore flammable\nM2 alkenes are needed / used to make\npolymers\n\nALLOW C8H18 is in high(er) demand (than C13H28) / more useful / used for petrol / more flammable\nIGNORE shorter-chain alkanes are used as fuels\nALLOW C2H4 / C3H6 are needed / used to make polymers / plastics shorter chain hydrocarbons / the products are in high(er) demand / more useful / more flammable scores 1 if no other mark awarded to create shorter alkanes and alkenes scores 1 if no other mark awarded",
      "mark_points": [
       {
        "id": "2022-06-3-b-ii-MP1",
        "marks": 1,
-       "text_md": "shorter-chain alkanes are in high(er) ALLOW C8H18 is in high(er)\ndemand / more useful / used for petrol / demand (than C13H28) / more\nmore flammable useful / used for petrol / more"
+       "text_md": "shorter-chain alkanes are in high(er)\ndemand / more useful / used for petrol /\nmore flammable\nALLOW C8H18 is in high(er) demand (than C13H28) / more useful / used for petrol / more flammable\nIGNORE shorter-chain alkanes are used as fuels"
       },
       {
        "id": "2022-06-3-b-ii-MP2",
        "marks": 1,
-       "text_md": "alkenes are needed / used to make ALLOW C2H4 / C3H6 are needed\npolymers / used to make polymers /"
+       "text_md": "alkenes are needed / used to make\npolymers\nALLOW C2H4 / C3H6 are needed / used to make polymers / plastics shorter chain hydrocarbons / the products are in high(er) demand / more useful / more flammable scores 1 if no other mark awarded to create shorter alkanes and alkenes scores 1 if no other mark awarded"
       }
      ],
      "source_page": 7,
@@ -397,17 +397,17 @@
      "problem_md": "Sulfur is an impurity in crude oil. Explain why this is a problem for the environment.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three\npoints:\nM1 sulfur dioxide produced when fuel is ALLOW sulfur / fuel reacts\nburned with oxygen / oxidises forming\nsulfur dioxide\nIGNORE sulfur trioxide and\nsulfur oxide\nM2 (sulfur dioxide) dissolves in / reacts with ACCEPT (sulfur oxide / sulfur\nrain / water trioxide) dissolves in / reacts\nwith rain / water\nIGNORE mixes\nM3 (causing) acid rain",
+     "solution_md": "An explanation that links the following three\npoints:\nM1 sulfur dioxide produced when fuel is\nburned\nM2 (sulfur dioxide) dissolves in / reacts with\nrain / water\nM3 (causing) acid rain\n\nALLOW sulfur / fuel reacts with oxygen / oxidises forming sulfur dioxide\nIGNORE sulfur trioxide and sulfur oxide\nACCEPT (sulfur oxide / sulfur trioxide) dissolves in / reacts with rain / water\nIGNORE mixes",
      "mark_points": [
       {
        "id": "2022-06-3-c-MP1",
        "marks": 1,
-       "text_md": "sulfur dioxide produced when fuel is ALLOW sulfur / fuel reacts\nburned with oxygen / oxidises forming"
+       "text_md": "sulfur dioxide produced when fuel is\nburned\nALLOW sulfur / fuel reacts with oxygen / oxidises forming sulfur dioxide\nIGNORE sulfur trioxide and sulfur oxide"
       },
       {
        "id": "2022-06-3-c-MP2",
        "marks": 1,
-       "text_md": "(sulfur dioxide) dissolves in / reacts with ACCEPT (sulfur oxide / sulfur\nrain / water trioxide) dissolves in / reacts"
+       "text_md": "(sulfur dioxide) dissolves in / reacts with\nrain / water\nACCEPT (sulfur oxide / sulfur trioxide) dissolves in / reacts with rain / water\nIGNORE mixes"
       },
       {
        "id": "2022-06-3-c-MP3",
@@ -447,12 +447,12 @@
      "problem_md": "State why the iron powder needs to be wet.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "water is needed for iron to rust / react ALLOW reaction needs\nwater (and oxygen)\nALLOW increases rate of\nreaction",
+     "solution_md": "water is needed for iron to rust / react\n\nALLOW reaction needs water (and oxygen)\nALLOW increases rate of reaction",
      "mark_points": [
       {
        "id": "2022-06-4-a-i-MP1",
        "marks": 1,
-       "text_md": "water is needed for iron to rust / react ALLOW reaction needs\nwater (and oxygen)\nALLOW increases rate of\nreaction"
+       "text_md": "water is needed for iron to rust / react\n\nALLOW reaction needs water (and oxygen)\nALLOW increases rate of reaction"
       }
      ],
      "source_page": 8,
@@ -469,12 +469,12 @@
      "problem_md": "State the colour of the compound formed in the reaction between iron and oxygen.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "brown (coating on iron) ALLOW red-brown /\norange-brown / orange /\norange-red\nIGNORE red alone",
+     "solution_md": "brown (coating on iron)\n\nALLOW red-brown / orange-brown / orange / orange-red\nIGNORE red alone",
      "mark_points": [
       {
        "id": "2022-06-4-a-ii-MP1",
        "marks": 1,
-       "text_md": "brown (coating on iron) ALLOW red-brown /\norange-brown / orange /\norange-red\nIGNORE red alone"
+       "text_md": "brown (coating on iron)\n\nALLOW red-brown / orange-brown / orange / orange-red\nIGNORE red alone"
       }
      ],
      "source_page": 8,
@@ -513,17 +513,17 @@
      "problem_md": "Explain the advantage of using iron powder rather than pieces of iron.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 (the powder has) a larger surface area ALLOW (the powder has)\nhigher\nsurface area:volume\nM2 so the iron will rust quicker/ the reaction will\nbe faster / the results are (obtained) more quickly\nIGNORE references to the\ncollision theory",
+     "solution_md": "An explanation that links the following two points\nM1 (the powder has) a larger surface area\nM2 so the iron will rust quicker/ the reaction will\nbe faster / the results are (obtained) more quickly\n\nALLOW (the powder has) higher surface area:volume\nIGNORE references to the collision theory",
      "mark_points": [
       {
        "id": "2022-06-4-a-iv-MP1",
        "marks": 1,
-       "text_md": "(the powder has) a larger surface area ALLOW (the powder has)"
+       "text_md": "(the powder has) a larger surface area\nALLOW (the powder has) higher surface area:volume"
       },
       {
        "id": "2022-06-4-a-iv-MP2",
        "marks": 1,
-       "text_md": "so the iron will rust quicker/ the reaction will\nbe faster / the results are (obtained) more quickly"
+       "text_md": "so the iron will rust quicker/ the reaction will\nbe faster / the results are (obtained) more quickly\nIGNORE references to the collision theory"
       }
      ],
      "source_page": 8,
@@ -541,12 +541,12 @@
      "problem_md": "The syringe in the diagram shows the reading at the end of the experiment. Complete table 1 to show the readings on the syringe. Give both values to the nearest 1 cm3. syringe reading at start syringe reading at end change in volume in cm3 65 Table 1",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "syringe reading at start 81 ALLOW ecf on syringe\nsyringe reading at end 16 reading at start if syringe\nchange in volume in cm3 65 reading at end read\nincorrectly\ncorrect volumes the wrong\nway round scores 1",
+     "solution_md": "syringe reading at start 81\nsyringe reading at end 16\nchange in volume in cm3 65\n\nALLOW ecf on syringe reading at start if syringe reading at end read incorrectly correct volumes the wrong way round scores 1",
      "mark_points": [
       {
        "id": "2022-06-4-b-MP1",
        "marks": 2,
-       "text_md": "syringe reading at start 81 ALLOW ecf on syringe\nsyringe reading at end 16 reading at start if syringe\nchange in volume in cm3 65 reading at end read\nincorrectly\ncorrect volumes the wrong\nway round scores 1"
+       "text_md": "syringe reading at start 81\nsyringe reading at end 16\nchange in volume in cm3 65\n\nALLOW ecf on syringe reading at start if syringe reading at end read incorrectly correct volumes the wrong way round scores 1"
       }
      ],
      "source_page": 9,
@@ -585,15 +585,15 @@
      "part_number": "4(c)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The student repeats the experiment and obtains a different set of results. Table 2 shows these results. volume of air in conical flask and glass tube in cm3 260 syringe reading at start 90 syringe reading at end 22 Table 2 Use the results from table 2 to calculate the percentage by volume of oxygen in the air. percentage by volume of oxygen in air = %",
+     "problem_md": "The student repeats the experiment and obtains a different set of results. Table 2 shows these results. volume of air in conical flask and glass tube in cm3 260 syringe reading at start 90 syringe reading at end 22 Table 2 Use the results from table 2 to calculate the percentage by volume of oxygen in the air. percentage by volume of oxygen in air = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer without\nworking scores 3\nM1 (volume of oxygen =) 90 − 22 OR 68 (cm3)\nM2 (total volume at start =) 260 + 90 OR 350 (cm3)\nM3 68 x 100 = 19.4 (%) ALLOW ecf on M1 and M2\n350 in M3 as long as the answer\nis less than 100%\nACCEPT any number of sig\nfigs except 1\n26.2 (%) scores 2\n25.7 (%) scores 2\n75.6 (%) scores 2\n34.6 (%) scores 1",
+     "solution_md": "correct answer without\nM1 (volume of oxygen =) 90 − 22 OR 68 (cm3)\nM2 (total volume at start =) 260 + 90 OR 350 (cm3)\nM3 68 x 100 = 19.4 (%)\n350\n\nworking scores 3\nALLOW ecf on M1 and M2 in M3 as long as the answer is less than 100%\nACCEPT any number of sig figs except 1 26.2 (%) scores 2 25.7 (%) scores 2 75.6 (%) scores 2 34.6 (%) scores 1",
      "mark_points": [
       {
        "id": "2022-06-4-c-MP1",
        "marks": 1,
-       "text_md": "(volume of oxygen =) 90 − 22 OR 68 (cm3)"
+       "text_md": "(volume of oxygen =) 90 − 22 OR 68 (cm3)\nworking scores 3"
       },
       {
        "id": "2022-06-4-c-MP2",
@@ -603,7 +603,7 @@
       {
        "id": "2022-06-4-c-MP3",
        "marks": 1,
-       "text_md": "68 x 100 = 19.4 (%) ALLOW ecf on M1 and M2\n350 in M3 as long as the answer"
+       "text_md": "68 x 100 = 19.4 (%)\n350\nALLOW ecf on M1 and M2 in M3 as long as the answer is less than 100%\nACCEPT any number of sig figs except 1 26.2 (%) scores 2 25.7 (%) scores 2 75.6 (%) scores 2 34.6 (%) scores 1"
       }
      ],
      "source_page": 9,
@@ -643,17 +643,17 @@
      "problem_md": "State what is meant by the term isomers.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (compounds with) same molecular formula ALLOW same number of\ncarbons and hydrogens /\natoms of each element\nM2 different structural / displayed formulae ALLOW different\nstructures / arrangement\nof atoms",
+     "solution_md": "M1 (compounds with) same molecular formula\nM2 different structural / displayed formulae\n\nALLOW same number of carbons and hydrogens / atoms of each element\nALLOW different structures / arrangement of atoms",
      "mark_points": [
       {
        "id": "2022-06-5-a-i-MP1",
        "marks": 1,
-       "text_md": "(compounds with) same molecular formula ALLOW same number of"
+       "text_md": "(compounds with) same molecular formula\nALLOW same number of carbons and hydrogens / atoms of each element"
       },
       {
        "id": "2022-06-5-a-i-MP2",
        "marks": 1,
-       "text_md": "different structural / displayed formulae ALLOW different"
+       "text_md": "different structural / displayed formulae\nALLOW different structures / arrangement of atoms"
       }
      ],
      "source_page": 10,
@@ -667,7 +667,7 @@
      "part_number": "5(a)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the relative formula mass (Mr ) of C5H12 Mr of C5H12 =",
+     "problem_md": "Calculate the relative formula mass (Mr ) of C5H12 Mr of C5H12 = ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(5 x 12 + 12 x1 =) 72",
@@ -738,12 +738,12 @@
      "problem_md": "Ethane (C2H6) and ethene (C2H4) both react with bromine. Describe the differences in the reactions of ethane and ethene with bromine. Refer to the conditions, the products and the types of reaction involved.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to any five of the following IGNORE any colour changes\npoints: given\nM1 ethane needs UV (radiation) to react IGNORE UV for ethene\nM2 ethane produces bromoethane IGNORE any references to\ntemperature and pressure\nM3 ethane produces hydrogen bromide / HBr ALLOW formulae\nM4 reaction with ethane involves breaking C-H bond\n/ reaction with ethene involves breaking C=C bond\nM5 ethane reaction is substitution\nM6 ethene produces dibromoethane\nM7 ethene reaction is addition\nALLOW formula\nM1, M2, M3 and M6 can be\nscored from word or\nchemical equations",
+     "solution_md": "A description that refers to any five of the following\npoints:\nM1 ethane needs UV (radiation) to react\nM2 ethane produces bromoethane\nM3 ethane produces hydrogen bromide / HBr\nM4 reaction with ethane involves breaking C-H bond\n/ reaction with ethene involves breaking C=C bond\nM5 ethane reaction is substitution\nM6 ethene produces dibromoethane\nM7 ethene reaction is addition\n\nIGNORE any colour changes given\nIGNORE UV for ethene\nIGNORE any references to temperature and pressure\nALLOW formulae\nALLOW formula M1, M2, M3 and M6 can be scored from word or chemical equations",
      "mark_points": [
       {
        "id": "2022-06-5-b-MP1",
        "marks": 5,
-       "text_md": "A description that refers to any five of the following IGNORE any colour changes\npoints: given\nM1 ethane needs UV (radiation) to react IGNORE UV for ethene\nM2 ethane produces bromoethane IGNORE any references to\ntemperature and pressure\nM3 ethane produces hydrogen bromide / HBr ALLOW formulae\nM4 reaction with ethane involves breaking C-H bond\n/ reaction with ethene involves breaking C=C bond\nM5 ethane reaction is substitution\nM6 ethene produces dibromoethane\nM7 ethene reaction is addition\nALLOW formula\nM1, M2, M3 and M6 can be\nscored from word or\nchemical equations"
+       "text_md": "A description that refers to any five of the following\npoints:\nM1 ethane needs UV (radiation) to react\nM2 ethane produces bromoethane\nM3 ethane produces hydrogen bromide / HBr\nM4 reaction with ethane involves breaking C-H bond\n/ reaction with ethene involves breaking C=C bond\nM5 ethane reaction is substitution\nM6 ethene produces dibromoethane\nM7 ethene reaction is addition\n\nIGNORE any colour changes given\nIGNORE UV for ethene\nIGNORE any references to temperature and pressure\nALLOW formulae\nALLOW formula M1, M2, M3 and M6 can be scored from word or chemical equations"
       }
      ],
      "source_page": 11,
@@ -773,15 +773,15 @@
      "part_number": "6(a)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the chemical equation for this reaction. Mg + 2HCl → +",
+     "problem_md": "Complete the chemical equation for this reaction. Mg + 2HCl → .......... + ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Mg + 2HCl → MgCl2 + H2 IGNORE state symbols\neven if incorrect",
+     "solution_md": "Mg + 2HCl → MgCl2 + H2\n\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2022-06-6-a-i-MP1",
        "marks": 1,
-       "text_md": "Mg + 2HCl → MgCl2 + H2 IGNORE state symbols\neven if incorrect"
+       "text_md": "Mg + 2HCl → MgCl2 + H2\n\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 13,
@@ -820,12 +820,12 @@
      "problem_md": "The student uses 0.090 g of magnesium and 0.025 mol of hydrochloric acid. Show by calculation that the hydrochloric acid is in excess.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 amount of magnesium = 0.090 ÷ 24 OR 0.00375 (mol)\nM2 amount of HCl needed = 2 × 0.00375 = 0.0075 (mol)\n(which is less than 0.025)\nOR\nM1 amount of magnesium needed = 0.025÷2 OR 0.0125\n(mol)\nM2 mass of magnesium needed = 0.0125 × 24 = 0.3(g)\n(there is less magnesium than needed)\nALLOW any number of\nsignificant figures",
+     "solution_md": "M1 amount of magnesium = 0.090 ÷ 24 OR 0.00375 (mol)\nM2 amount of HCl needed = 2 × 0.00375 = 0.0075 (mol)\n(which is less than 0.025)\nOR\nM1 amount of magnesium needed = 0.025÷2 OR 0.0125\n(mol)\nM2 mass of magnesium needed = 0.0125 × 24 = 0.3(g)\n(there is less magnesium than needed)\n\nALLOW any number of significant figures",
      "mark_points": [
       {
        "id": "2022-06-6-a-iii-MP1",
        "marks": 2,
-       "text_md": "M1 amount of magnesium = 0.090 ÷ 24 OR 0.00375 (mol)\nM2 amount of HCl needed = 2 × 0.00375 = 0.0075 (mol)\n(which is less than 0.025)\nOR\nM1 amount of magnesium needed = 0.025÷2 OR 0.0125\n(mol)\nM2 mass of magnesium needed = 0.0125 × 24 = 0.3(g)\n(there is less magnesium than needed)\nALLOW any number of\nsignificant figures"
+       "text_md": "M1 amount of magnesium = 0.090 ÷ 24 OR 0.00375 (mol)\nM2 amount of HCl needed = 2 × 0.00375 = 0.0075 (mol)\n(which is less than 0.025)\nOR\nM1 amount of magnesium needed = 0.025÷2 OR 0.0125\n(mol)\nM2 mass of magnesium needed = 0.0125 × 24 = 0.3(g)\n(there is less magnesium than needed)\n\nALLOW any number of significant figures"
       }
      ],
      "source_page": 13,
@@ -882,20 +882,20 @@
      "part_number": "6(b)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Determine the volume of hydrogen collected in the first 10 seconds. Show on the graph how you obtained your answer. volume of hydrogen = cm3",
+     "problem_md": "Determine the volume of hydrogen collected in the first 10 seconds. Show on the graph how you obtained your answer. volume of hydrogen = .......... cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 vertical line on grid from 10 seconds to curve ALLOW any mark at\ncorrect position on\ncurve / either axis\nM2 volume correctly read from their graph to the nearest expected value 25 to\ngrid line 30 cm3",
+     "solution_md": "M1 vertical line on grid from 10 seconds to curve\nM2 volume correctly read from their graph to the nearest\ngrid line\n\nALLOW any mark at correct position on curve / either axis expected value 25 to 30 cm3",
      "mark_points": [
       {
        "id": "2022-06-6-b-iii-MP1",
        "marks": 1,
-       "text_md": "vertical line on grid from 10 seconds to curve ALLOW any mark at"
+       "text_md": "vertical line on grid from 10 seconds to curve\nALLOW any mark at correct position on curve / either axis expected value 25 to 30 cm3"
       },
       {
        "id": "2022-06-6-b-iii-MP2",
        "marks": 1,
-       "text_md": "volume correctly read from their graph to the nearest expected value 25 to\ngrid line 30 cm3"
+       "text_md": "volume correctly read from their graph to the nearest\ngrid line"
       }
      ],
      "source_page": 14,
@@ -926,12 +926,12 @@
      "problem_md": "Explain why the rate of reaction is greatest at the start of the reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 concentration (of HCl) is greatest (at the start) REJECT incorrect\nreferences to energy\nALLOW more particles\n(of HCl / more H+\nions)\nALLOW more HCl\nmolecules / greater\nsurface area of Mg\nIGNORE greater mass\n/more Mg\nIGNORE references to\nthe graph\nM2 more collisions per unit time / more frequent\ncollisions",
+     "solution_md": "An explanation that links the following two points\nM1 concentration (of HCl) is greatest (at the start)\nM2 more collisions per unit time / more frequent\ncollisions\n\nREJECT incorrect references to energy\nALLOW more particles (of HCl / more H+ ions)\nALLOW more HCl molecules / greater surface area of Mg\nIGNORE greater mass /more Mg\nIGNORE references to the graph",
      "mark_points": [
       {
        "id": "2022-06-6-b-iv-MP1",
        "marks": 1,
-       "text_md": "concentration (of HCl) is greatest (at the start) REJECT incorrect"
+       "text_md": "concentration (of HCl) is greatest (at the start)\nREJECT incorrect references to energy\nALLOW more particles (of HCl / more H+ ions)\nALLOW more HCl molecules / greater surface area of Mg\nIGNORE greater mass /more Mg\nIGNORE references to the graph"
       },
       {
        "id": "2022-06-6-b-iv-MP2",
@@ -953,12 +953,12 @@
      "problem_md": "On the grid, draw the curve you would expect the student to obtain.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 curve starting at 0 and steeper than original curve ALLOW a curve\nstarting within 1 small\nsquare of the original\nM2 curve levelling off at same volume as original curve",
+     "solution_md": "M1 curve starting at 0 and steeper than original curve\nM2 curve levelling off at same volume as original curve\n\nALLOW a curve starting within 1 small square of the original",
      "mark_points": [
       {
        "id": "2022-06-6-c-i-MP1",
        "marks": 1,
-       "text_md": "curve starting at 0 and steeper than original curve ALLOW a curve"
+       "text_md": "curve starting at 0 and steeper than original curve\nALLOW a curve starting within 1 small square of the original"
       },
       {
        "id": "2022-06-6-c-i-MP2",
@@ -994,22 +994,22 @@
      "problem_md": "Explain, in terms of particle collision theory, how increasing the temperature affects the rate of reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three points\nM1 particles gain more (kinetic) energy ALLOW particles move\nfaster\nM2 more collisions have energy greater than the ACCEPT more\nactivation energy collisions are\nsuccessful\nM3 collision frequency increases OR rate of reaction ACCEPT more\nincreases (successful) collisions\nper unit time",
+     "solution_md": "An explanation that links the following three points\nM1 particles gain more (kinetic) energy\nM2 more collisions have energy greater than the\nactivation energy\nM3 collision frequency increases OR rate of reaction\nincreases\n\nALLOW particles move faster\nACCEPT more collisions are successful\nACCEPT more (successful) collisions per unit time",
      "mark_points": [
       {
        "id": "2022-06-6-c-ii-MP1",
        "marks": 1,
-       "text_md": "particles gain more (kinetic) energy ALLOW particles move"
+       "text_md": "particles gain more (kinetic) energy\nALLOW particles move faster"
       },
       {
        "id": "2022-06-6-c-ii-MP2",
        "marks": 1,
-       "text_md": "more collisions have energy greater than the ACCEPT more\nactivation energy collisions are"
+       "text_md": "more collisions have energy greater than the\nactivation energy\nACCEPT more collisions are successful"
       },
       {
        "id": "2022-06-6-c-ii-MP3",
        "marks": 1,
-       "text_md": "collision frequency increases OR rate of reaction ACCEPT more\nincreases (successful) collisions"
+       "text_md": "collision frequency increases OR rate of reaction\nincreases\nACCEPT more (successful) collisions per unit time"
       }
      ],
      "source_page": 15,
@@ -1046,12 +1046,12 @@
      "problem_md": "State what is meant by the term isotopes.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 atoms of the same element / atoms with the same REJECT different\nnumber of protons /atoms with the same atomic number number of electrons\nIGNORE same\nnumber of electrons\nM2 (with a) different number of neutrons / different mass",
+     "solution_md": "M1 atoms of the same element / atoms with the same\nnumber of protons /atoms with the same atomic number\nM2 (with a) different number of neutrons / different mass\n\nREJECT different number of electrons\nIGNORE same number of electrons",
      "mark_points": [
       {
        "id": "2022-06-7-a-i-MP1",
        "marks": 1,
-       "text_md": "atoms of the same element / atoms with the same REJECT different\nnumber of protons /atoms with the same atomic number number of electrons"
+       "text_md": "atoms of the same element / atoms with the same\nnumber of protons /atoms with the same atomic number\nREJECT different number of electrons\nIGNORE same number of electrons"
       },
       {
        "id": "2022-06-7-a-i-MP2",
@@ -1070,15 +1070,15 @@
      "part_number": "7(a)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Calculate the relative atomic mass (Ar ) of this sample of copper. Give your answer to three significant figures. Ar of copper =",
+     "problem_md": "Calculate the relative atomic mass (Ar ) of this sample of copper. Give your answer to three significant figures. Ar of copper = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer\nwithout working\nscores 3\nM1 (63 x 69.5) + (65 x 30.5) OR 6361\nM2 their M1 ÷ 100 OR 63.61\nM3 63.6 ALLOW answer to\nM2 to 3 sig figs\n63.61 without\nworking scores 2",
+     "solution_md": "correct answer\nM1 (63 x 69.5) + (65 x 30.5) OR 6361\nM2 their M1 ÷ 100 OR 63.61\nM3 63.6\n\nwithout working scores 3\nALLOW answer to M2 to 3 sig figs 63.61 without working scores 2",
      "mark_points": [
       {
        "id": "2022-06-7-a-ii-MP1",
        "marks": 1,
-       "text_md": "(63 x 69.5) + (65 x 30.5) OR 6361"
+       "text_md": "(63 x 69.5) + (65 x 30.5) OR 6361\nwithout working scores 3"
       },
       {
        "id": "2022-06-7-a-ii-MP2",
@@ -1088,7 +1088,7 @@
       {
        "id": "2022-06-7-a-ii-MP3",
        "marks": 1,
-       "text_md": "63.6 ALLOW answer to"
+       "text_md": "63.6\nALLOW answer to M2 to 3 sig figs 63.61 without working scores 2"
       }
      ],
      "source_page": 16,
@@ -1188,7 +1188,7 @@
      "part_number": "7(c)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the mass of CuSO4 formed. mass of CuSO4 = g",
+     "problem_md": "Calculate the mass of CuSO4 formed. mass of CuSO4 = .......... g",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(28.20 − 20.52 =) 7.68",
@@ -1209,7 +1209,7 @@
      "part_number": "7(c)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the mass of water formed. mass of water = g",
+     "problem_md": "Calculate the mass of water formed. mass of water = .......... g",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(31.77 − 28.20 =) 3.57",
@@ -1233,22 +1233,22 @@
      "problem_md": "Show that the value of x is approximately 4 [Mr of CuSO4 = 159.5 Mr of H2O = 18]",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 7.68 ÷ 159.5 OR 0.04815 correct answer\nwithout working\nM2 3.57 ÷ 18 OR 0.1983 scores 3\nM3 0.1983 ÷ 0.04815 OR 4.12 ALLOW ecf from (i)\nand/or (ii) for M1\nand M2; and M3\nprovided the answer\nrounds to 4\nREJECT incorrect\nrounding in M1 or\nM2\nALLOW any number\nof sig figs in M1 and\nM2 except 1\nPenalise 1 sig fig\nonce only",
+     "solution_md": "M1 7.68 ÷ 159.5 OR 0.04815 correct answer\nM2 3.57 ÷ 18 OR 0.1983\nM3 0.1983 ÷ 0.04815 OR 4.12\n\nwithout working scores 3\nALLOW ecf from (i) and/or (ii) for M1 and M2; and M3 provided the answer rounds to 4\nREJECT incorrect rounding in M1 or M2\nALLOW any number of sig figs in M1 and M2 except 1 Penalise 1 sig fig once only",
      "mark_points": [
       {
        "id": "2022-06-7-c-iii-MP1",
        "marks": 1,
-       "text_md": "7.68 ÷ 159.5 OR 0.04815 correct answer"
+       "text_md": "7.68 ÷ 159.5 OR 0.04815 correct answer\nwithout working scores 3"
       },
       {
        "id": "2022-06-7-c-iii-MP2",
        "marks": 1,
-       "text_md": "3.57 ÷ 18 OR 0.1983 scores 3"
+       "text_md": "3.57 ÷ 18 OR 0.1983"
       },
       {
        "id": "2022-06-7-c-iii-MP3",
        "marks": 1,
-       "text_md": "0.1983 ÷ 0.04815 OR 4.12 ALLOW ecf from (i)"
+       "text_md": "0.1983 ÷ 0.04815 OR 4.12\nALLOW ecf from (i) and/or (ii) for M1 and M2; and M3 provided the answer rounds to 4\nREJECT incorrect rounding in M1 or M2\nALLOW any number of sig figs in M1 and M2 except 1 Penalise 1 sig fig once only"
       }
      ],
      "source_page": 19,
@@ -1265,12 +1265,12 @@
      "problem_md": "The actual value of x is 5 Give a reason why the calculated value of x is lower than the actual value.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "not all the water was removed (from the hydrated ALLOW the\ncopper(II) sulfate) (hydrated copper(II)\nsulfate) was not\nheated for long\nenough\nALLOW not all the\nwater left the tube\n(that was being\nheated)\nALLOW not all the\n(hydrated copper\nsulfate) reacts",
+     "solution_md": "not all the water was removed (from the hydrated\ncopper(II) sulfate)\n\nALLOW the (hydrated copper(II) sulfate) was not heated for long enough\nALLOW not all the water left the tube (that was being heated)\nALLOW not all the (hydrated copper sulfate) reacts",
      "mark_points": [
       {
        "id": "2022-06-7-c-iv-MP1",
        "marks": 1,
-       "text_md": "not all the water was removed (from the hydrated ALLOW the\ncopper(II) sulfate) (hydrated copper(II)\nsulfate) was not\nheated for long\nenough\nALLOW not all the\nwater left the tube\n(that was being\nheated)\nALLOW not all the\n(hydrated copper\nsulfate) reacts"
+       "text_md": "not all the water was removed (from the hydrated\ncopper(II) sulfate)\n\nALLOW the (hydrated copper(II) sulfate) was not heated for long enough\nALLOW not all the water left the tube (that was being heated)\nALLOW not all the (hydrated copper sulfate) reacts"
       }
      ],
      "source_page": 19,
@@ -1307,12 +1307,12 @@
      "problem_md": "Discuss the differences between diamond and graphite. Refer to structure and bonding, electrical conductivity and hardness in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "6\nM1 diamond has a tetrahedral (structure) OR in REJECT ions /\ndiamond each (carbon) atom is (covalently) bonded to metallic once in M1\n4 other (carbon) atoms or M2\nM2 graphite has a hexagonal (structure) / has layers\nOR in graphite each (carbon) atom is (covalently)\nbonded to 3 other (carbon) atoms\nM3 diamond does not conduct electricity OR graphite\nconducts electricity\nM4 diamond has no delocalised electrons OR graphite\nhas delocalised electrons\nM5 diamond is hard OR graphite is soft REJECT diamond is\nsoft / graphite is hard\nM6 in diamond the strong (C-C) bonds need to be REJECT reference to\nbroken OR in graphite the layers can slide over each intermolecular\nother OR graphite has weak forces between layers",
+     "solution_md": "6\nM1 diamond has a tetrahedral (structure) OR in\ndiamond each (carbon) atom is (covalently) bonded to\n4 other (carbon) atoms\nM2 graphite has a hexagonal (structure) / has layers\nOR in graphite each (carbon) atom is (covalently)\nbonded to 3 other (carbon) atoms\nM3 diamond does not conduct electricity OR graphite\nconducts electricity\nM4 diamond has no delocalised electrons OR graphite\nhas delocalised electrons\nM5 diamond is hard OR graphite is soft\nM6 in diamond the strong (C-C) bonds need to be\nbroken OR in graphite the layers can slide over each\nother OR graphite has weak forces between layers\n\nREJECT ions / metallic once in M1 or M2\nREJECT diamond is soft / graphite is hard\nREJECT reference to intermolecular",
      "mark_points": [
       {
        "id": "2022-06-8-a-MP1",
        "marks": 1,
-       "text_md": "diamond has a tetrahedral (structure) OR in REJECT ions /\ndiamond each (carbon) atom is (covalently) bonded to metallic once in M1\n4 other (carbon) atoms or M2"
+       "text_md": "diamond has a tetrahedral (structure) OR in\ndiamond each (carbon) atom is (covalently) bonded to\n4 other (carbon) atoms\nREJECT ions / metallic once in M1 or M2"
       },
       {
        "id": "2022-06-8-a-MP2",
@@ -1332,12 +1332,12 @@
       {
        "id": "2022-06-8-a-MP5",
        "marks": 1,
-       "text_md": "diamond is hard OR graphite is soft REJECT diamond is"
+       "text_md": "diamond is hard OR graphite is soft\nREJECT diamond is soft / graphite is hard"
       },
       {
        "id": "2022-06-8-a-MP6",
        "marks": 1,
-       "text_md": "in diamond the strong (C-C) bonds need to be REJECT reference to\nbroken OR in graphite the layers can slide over each intermolecular\nother OR graphite has weak forces between layers"
+       "text_md": "in diamond the strong (C-C) bonds need to be\nbroken OR in graphite the layers can slide over each\nother OR graphite has weak forces between layers\nREJECT reference to intermolecular"
       }
      ],
      "source_page": 20,
@@ -1354,12 +1354,12 @@
      "problem_md": "C60 fullerene is a simple molecular substance made of 60 carbon atoms. The diagram shows its structure. The table shows the approximate melting points of diamond, graphite and C60 fullerene. Approximate melting point Substance in °C diamond 4000 graphite 3600 C60 fullerene 600 Explain why C60 fullerene has a much lower melting point than diamond and graphite.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following four points:\nM1 C60 fullerene has weak forces between the no M1 or M2 if\nmolecules /weak intermolecular forces reference to breaking\nbonds in fullerene\nM2 little / less energy needed to break / overcome the\nforces /separate the molecules\nM3 diamond and graphite have many / strong no M3 or M4 if\n(covalent) bonds (between atoms) reference to\nintermolecular forces\nin diamond and\ngraphite\nM4 large amount of /more energy needed to break\n/overcome the (covalent) bonds\nIf M1 and M3 are not\nscored allow 1 mark\nfor covalent bonds (in\ndiamond and\ngraphite) need to be\nbroken / overcome\nAND intermolecular\nforces need to be\nbroken / overcome in\nfullerene",
+     "solution_md": "An explanation that links the following four points:\nM1 C60 fullerene has weak forces between the no M1 or M2 if\nmolecules /weak intermolecular forces reference to breaking\nM2 little / less energy needed to break / overcome the\nforces /separate the molecules\nM3 diamond and graphite have many / strong\n(covalent) bonds (between atoms)\nM4 large amount of /more energy needed to break\n/overcome the (covalent) bonds\n\nbonds in fullerene no M3 or M4 if reference to intermolecular forces in diamond and graphite If M1 and M3 are not scored allow 1 mark for covalent bonds (in diamond and graphite) need to be broken / overcome AND intermolecular forces need to be broken / overcome in fullerene",
      "mark_points": [
       {
        "id": "2022-06-8-b-MP1",
        "marks": 1,
-       "text_md": "C60 fullerene has weak forces between the no M1 or M2 if\nmolecules /weak intermolecular forces reference to breaking"
+       "text_md": "C60 fullerene has weak forces between the no M1 or M2 if\nmolecules /weak intermolecular forces reference to breaking\nbonds in fullerene no M3 or M4 if reference to intermolecular forces in diamond and graphite If M1 and M3 are not scored allow 1 mark for covalent bonds (in diamond and graphite) need to be broken / overcome AND intermolecular forces need to be broken / overcome in fullerene"
       },
       {
        "id": "2022-06-8-b-MP2",
@@ -1369,7 +1369,7 @@
       {
        "id": "2022-06-8-b-MP3",
        "marks": 1,
-       "text_md": "diamond and graphite have many / strong no M3 or M4 if\n(covalent) bonds (between atoms) reference to"
+       "text_md": "diamond and graphite have many / strong\n(covalent) bonds (between atoms)"
       },
       {
        "id": "2022-06-8-b-MP4",
@@ -1423,15 +1423,15 @@
      "part_number": "9(a)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the equation for the reaction by adding the missing state symbols. PbO(s) + H2( ) → Pb( ) + H2O( )",
+     "problem_md": "Complete the equation for the reaction by adding the missing state symbols. PbO(s) + H2( .......... ) → Pb( .......... ) + H2O( .......... )",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "PbO(s) + H2(g) → Pb(s) + H2O(l OR g) ALLOW upper case\nletters for state symbols",
+     "solution_md": "PbO(s) + H2(g) → Pb(s) + H2O(l OR g)\n\nALLOW upper case letters for state symbols",
      "mark_points": [
       {
        "id": "2022-06-9-a-i-MP1",
        "marks": 1,
-       "text_md": "PbO(s) + H2(g) → Pb(s) + H2O(l OR g) ALLOW upper case\nletters for state symbols"
+       "text_md": "PbO(s) + H2(g) → Pb(s) + H2O(l OR g)\n\nALLOW upper case letters for state symbols"
       }
      ],
      "source_page": 22,
@@ -1491,12 +1491,12 @@
      "problem_md": "Explain why the reaction of yellow lead oxide with hydrogen is a redox reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links either pair of the two\npoints\nM1 lead oxide is reduced and hydrogen is oxidised ACCEPT lead oxide is the\noxidising agent and\nhydrogen is the reducing\nagent\nM2 lead oxide loses oxygen and hydrogen gains ACCEPT lead ions gain\noxygen electrons and hydrogen\nloses electrons\nOR\nM1 lead oxide loses oxygen so is reduced ACCEPT lead ions gain\nelectrons so are reduced\nM2 hydrogen gains oxygen so is oxidised ACCEPT hydrogen loses\nelectrons so is oxidised\nALLOW oxidation number\nof lead / Pb2+ decreases\nfrom +2 to 0 so is\nreduced for M1\nOxidation number of\nhydrogen increases from\n0 to +1 so is oxidised for\nM2",
+     "solution_md": "An explanation that links either pair of the two\npoints\nM1 lead oxide is reduced and hydrogen is oxidised\nM2 lead oxide loses oxygen and hydrogen gains\noxygen\nOR\nM1 lead oxide loses oxygen so is reduced\nM2 hydrogen gains oxygen so is oxidised\n\nACCEPT lead oxide is the oxidising agent and hydrogen is the reducing agent\nACCEPT lead ions gain electrons and hydrogen loses electrons\nACCEPT lead ions gain electrons so are reduced\nACCEPT hydrogen loses electrons so is oxidised\nALLOW oxidation number of lead / Pb2+ decreases from +2 to 0 so is reduced for M1 Oxidation number of hydrogen increases from 0 to +1 so is oxidised for M2",
      "mark_points": [
       {
        "id": "2022-06-9-a-iii-MP1",
        "marks": 2,
-       "text_md": "An explanation that links either pair of the two\npoints\nM1 lead oxide is reduced and hydrogen is oxidised ACCEPT lead oxide is the\noxidising agent and\nhydrogen is the reducing\nagent\nM2 lead oxide loses oxygen and hydrogen gains ACCEPT lead ions gain\noxygen electrons and hydrogen\nloses electrons\nOR\nM1 lead oxide loses oxygen so is reduced ACCEPT lead ions gain\nelectrons so are reduced\nM2 hydrogen gains oxygen so is oxidised ACCEPT hydrogen loses\nelectrons so is oxidised\nALLOW oxidation number\nof lead / Pb2+ decreases\nfrom +2 to 0 so is\nreduced for M1\nOxidation number of\nhydrogen increases from\n0 to +1 so is oxidised for\nM2"
+       "text_md": "An explanation that links either pair of the two\npoints\nM1 lead oxide is reduced and hydrogen is oxidised\nM2 lead oxide loses oxygen and hydrogen gains\noxygen\nOR\nM1 lead oxide loses oxygen so is reduced\nM2 hydrogen gains oxygen so is oxidised\n\nACCEPT lead oxide is the oxidising agent and hydrogen is the reducing agent\nACCEPT lead ions gain electrons and hydrogen loses electrons\nACCEPT lead ions gain electrons so are reduced\nACCEPT hydrogen loses electrons so is oxidised\nALLOW oxidation number of lead / Pb2+ decreases from +2 to 0 so is reduced for M1 Oxidation number of hydrogen increases from 0 to +1 so is oxidised for M2"
       }
      ],
      "source_page": 22,
@@ -1513,17 +1513,17 @@
      "problem_md": "Describe a physical test to show that the water produced in this reaction is pure.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two\npoints:\nM1 measure the boiling point (of the water) ALLOW boil it / measure\nthe freezing point /\nfreeze it\nM2 (boiling point is) 100 oC ACCEPT (freezing point\nis) 0 oC",
+     "solution_md": "A description that refers to the following two\npoints:\nM1 measure the boiling point (of the water)\nM2 (boiling point is) 100 oC\n\nALLOW boil it / measure the freezing point / freeze it\nACCEPT (freezing point is) 0 oC",
      "mark_points": [
       {
        "id": "2022-06-9-a-iv-MP1",
        "marks": 1,
-       "text_md": "measure the boiling point (of the water) ALLOW boil it / measure"
+       "text_md": "measure the boiling point (of the water)\nALLOW boil it / measure the freezing point / freeze it"
       },
       {
        "id": "2022-06-9-a-iv-MP2",
        "marks": 1,
-       "text_md": "(boiling point is) 100 oC ACCEPT (freezing point"
+       "text_md": "(boiling point is) 100 oC\nACCEPT (freezing point is) 0 oC"
       }
      ],
      "source_page": 22,
@@ -1541,12 +1541,12 @@
      "problem_md": "Describe what the scientist should do next to make sure that all the red lead oxide has reacted.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points:\nM1 heat the crucible ALLOW repeat the\nexperiment\nM2 repeat until constant mass is obtained\nheat to constant mass\nscores 2",
+     "solution_md": "An explanation that links the following two points:\nM1 heat the crucible\nM2 repeat until constant mass is obtained\n\nALLOW repeat the experiment heat to constant mass scores 2",
      "mark_points": [
       {
        "id": "2022-06-9-b-i-MP1",
        "marks": 1,
-       "text_md": "heat the crucible ALLOW repeat the"
+       "text_md": "heat the crucible\nALLOW repeat the experiment heat to constant mass scores 2"
       },
       {
        "id": "2022-06-9-b-i-MP2",
@@ -1565,25 +1565,25 @@
      "part_number": "9(b)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The red lead oxide used in the reaction has a mass of 5.48 g. Calculate the maximum mass of yellow lead oxide that could form. [Mr of Pb3O4 = 685 Mr of PbO = 223] maximum mass of PbO = g",
+     "problem_md": "The red lead oxide used in the reaction has a mass of 5.48 g. Calculate the maximum mass of yellow lead oxide that could form. [Mr of Pb3O4 = 685 Mr of PbO = 223] maximum mass of PbO = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct final answer\nwithout working scores 3\nM1 (moles of Pb3O4 =) 5.48 ÷ 685 OR 0.008(00)\nM2 (moles of PbO =) 0.008(00) x 3 OR 0.024(0) ALLOW ecf as long as an\nattempt has been made\nto find moles\nM3 (mass of PbO =) 0.024 x 223 = 5.352 (g) ALLOW answer to M1(if\nno M2) or M2 x 223\nALLOW any number of sig\nfigs except 1",
+     "solution_md": "correct final answer\nM1 (moles of Pb3O4 =) 5.48 ÷ 685 OR 0.008(00)\nM2 (moles of PbO =) 0.008(00) x 3 OR 0.024(0)\nM3 (mass of PbO =) 0.024 x 223 = 5.352 (g)\n\nwithout working scores 3\nALLOW ecf as long as an attempt has been made to find moles\nALLOW answer to M1(if no M2) or M2 x 223\nALLOW any number of sig figs except 1",
      "mark_points": [
       {
        "id": "2022-06-9-b-ii-MP1",
        "marks": 1,
-       "text_md": "(moles of Pb3O4 =) 5.48 ÷ 685 OR 0.008(00)"
+       "text_md": "(moles of Pb3O4 =) 5.48 ÷ 685 OR 0.008(00)\nwithout working scores 3"
       },
       {
        "id": "2022-06-9-b-ii-MP2",
        "marks": 1,
-       "text_md": "(moles of PbO =) 0.008(00) x 3 OR 0.024(0) ALLOW ecf as long as an"
+       "text_md": "(moles of PbO =) 0.008(00) x 3 OR 0.024(0)\nALLOW ecf as long as an attempt has been made to find moles"
       },
       {
        "id": "2022-06-9-b-ii-MP3",
        "marks": 1,
-       "text_md": "(mass of PbO =) 0.024 x 223 = 5.352 (g) ALLOW answer to M1(if"
+       "text_md": "(mass of PbO =) 0.024 x 223 = 5.352 (g)\nALLOW answer to M1(if no M2) or M2 x 223\nALLOW any number of sig figs except 1"
       }
      ],
      "source_page": 23,
@@ -1617,7 +1617,7 @@
      "problem_md": "Ammonia (NH3) is a simple covalent molecule. Draw a dot-and-cross diagram to show the bonding in a molecule of ammonia.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\nM1 3 bonding pairs\nM2 rest of molecule fully correct M2 dep on M1\nALLOW any combination of\ndots and crosses",
+     "solution_md": "2\nM1 3 bonding pairs\nM2 rest of molecule fully correct M2 dep on M1\n\nALLOW any combination of dots and crosses",
      "mark_points": [
       {
        "id": "2022-06-10-a-MP1",
@@ -1627,7 +1627,7 @@
       {
        "id": "2022-06-10-a-MP2",
        "marks": 1,
-       "text_md": "rest of molecule fully correct M2 dep on M1"
+       "text_md": "rest of molecule fully correct M2 dep on M1\nALLOW any combination of dots and crosses"
       }
      ],
      "source_page": 24,
@@ -1680,12 +1680,12 @@
      "problem_md": "When ammonia reacts with sulfuric acid, ammonium sulfate is formed. Write a chemical equation for this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2NH3 + H2SO4 → (NH4)2SO4 ALLOW multiples\nIGNORE state symbols even\nif incorrect",
+     "solution_md": "2NH3 + H2SO4 → (NH4)2SO4\n\nALLOW multiples\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2022-06-10-b-ii-MP1",
        "marks": 1,
-       "text_md": "2NH3 + H2SO4 → (NH4)2SO4 ALLOW multiples\nIGNORE state symbols even\nif incorrect"
+       "text_md": "2NH3 + H2SO4 → (NH4)2SO4\n\nALLOW multiples\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 25,
@@ -1703,7 +1703,7 @@
      "problem_md": "Describe a test for ammonium ions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 add sodium hydroxide (solution)\nM2 test (gas / ammonia) with (damp) red\nlitmus paper / (damp) universal indicator paper\nM3 (red litmus) turns blue / universal indicator) REJECT if solution /\nturns blue / purple ammonium (sulfate) tested\nwith litmus / universal\nindicator paper",
+     "solution_md": "M1 add sodium hydroxide (solution)\nM2 test (gas / ammonia) with (damp) red\nlitmus paper / (damp) universal indicator paper\nM3 (red litmus) turns blue / universal indicator)\nturns blue / purple\n\nREJECT if solution / ammonium (sulfate) tested with litmus / universal indicator paper",
      "mark_points": [
       {
        "id": "2022-06-10-b-iii-MP1",
@@ -1718,7 +1718,7 @@
       {
        "id": "2022-06-10-b-iii-MP3",
        "marks": 1,
-       "text_md": "(red litmus) turns blue / universal indicator) REJECT if solution /\nturns blue / purple ammonium (sulfate) tested"
+       "text_md": "(red litmus) turns blue / universal indicator)\nturns blue / purple\nREJECT if solution / ammonium (sulfate) tested with litmus / universal indicator paper"
       }
      ],
      "source_page": 25,
@@ -1732,20 +1732,20 @@
      "part_number": "10(c)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the percentage of nitrogen in ammonium nitrate. [Mr of NH4NO3 = 80] percentage of nitrogen = %",
+     "problem_md": "Calculate the percentage of nitrogen in ammonium nitrate. [Mr of NH4NO3 = 80] percentage of nitrogen = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 2 x 14 ÷ 80 OR 0.35 correct answer without\nworking scores 2\nM2 (0.35 x 100 =) 35 (%) ALLOW 1 mark for 17 / 17.5\n/ 18 (%)",
+     "solution_md": "M1 2 x 14 ÷ 80 OR 0.35 correct answer without\nM2 (0.35 x 100 =) 35 (%)\n\nworking scores 2\nALLOW 1 mark for 17 / 17.5 / 18 (%)",
      "mark_points": [
       {
        "id": "2022-06-10-c-i-MP1",
        "marks": 1,
-       "text_md": "2 x 14 ÷ 80 OR 0.35 correct answer without"
+       "text_md": "2 x 14 ÷ 80 OR 0.35 correct answer without\nworking scores 2"
       },
       {
        "id": "2022-06-10-c-i-MP2",
        "marks": 1,
-       "text_md": "(0.35 x 100 =) 35 (%) ALLOW 1 mark for 17 / 17.5"
+       "text_md": "(0.35 x 100 =) 35 (%)\nALLOW 1 mark for 17 / 17.5 / 18 (%)"
       }
      ],
      "source_page": 26,
@@ -1762,12 +1762,12 @@
      "problem_md": "Fertilisers add nitrogen to the soil to help plants grow. Ammonia and ammonium sulfate can both be used as fertilisers. Discuss the advantages and disadvantages of using each of these compounds as fertilisers. Use information from the table in your answer. [pH of rainwater is approximately 5.6]",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An answer that links any 4 points:\nM1 (NH3) higher % of N OR ((NH4)2SO4) lower %\nof N\nM2 (NH4)2SO4 easy to use (to soil) / easy for the\nplants to absorb / less wastage\nOR (NH3) difficult to use (to soil) / difficult for\nthe plants to absorb / more wastage / has to\nbe dissolved (in water) first\nM3 (NH4)2SO4 pH close to that of (rain) water / REJECT NH3 has a pH close\nwill not alter the pH (of the soil/water) to rainwater\nM4 NH3 will cause (the soil/water) to become REJECT ammonia causes the\nalkaline / will raise the pH (of the soil/water) / soil / water to become\nneutralise (the water / soil) / may stunt growth acidic\nof plants / may damage / kill plants\nM5 NH3 and or (NH4)2SO4 soluble so runoff /\nwastage of fertiliser / water pollution /\neutrophication / leaching\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "An answer that links any 4 points:\nM1 (NH3) higher % of N OR ((NH4)2SO4) lower %\nof N\nM2 (NH4)2SO4 easy to use (to soil) / easy for the\nplants to absorb / less wastage\nOR (NH3) difficult to use (to soil) / difficult for\nthe plants to absorb / more wastage / has to\nbe dissolved (in water) first\nM3 (NH4)2SO4 pH close to that of (rain) water /\nwill not alter the pH (of the soil/water)\nM4 NH3 will cause (the soil/water) to become\nalkaline / will raise the pH (of the soil/water) /\nneutralise (the water / soil) / may stunt growth\nof plants / may damage / kill plants\nM5 NH3 and or (NH4)2SO4 soluble so runoff /\nwastage of fertiliser / water pollution /\neutrophication / leaching\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nREJECT NH3 has a pH close to rainwater\nREJECT ammonia causes the soil / water to become acidic",
      "mark_points": [
       {
        "id": "2022-06-10-c-ii-MP1",
        "marks": 4,
-       "text_md": "An answer that links any 4 points:\nM1 (NH3) higher % of N OR ((NH4)2SO4) lower %\nof N\nM2 (NH4)2SO4 easy to use (to soil) / easy for the\nplants to absorb / less wastage\nOR (NH3) difficult to use (to soil) / difficult for\nthe plants to absorb / more wastage / has to\nbe dissolved (in water) first\nM3 (NH4)2SO4 pH close to that of (rain) water / REJECT NH3 has a pH close\nwill not alter the pH (of the soil/water) to rainwater\nM4 NH3 will cause (the soil/water) to become REJECT ammonia causes the\nalkaline / will raise the pH (of the soil/water) / soil / water to become\nneutralise (the water / soil) / may stunt growth acidic\nof plants / may damage / kill plants\nM5 NH3 and or (NH4)2SO4 soluble so runoff /\nwastage of fertiliser / water pollution /\neutrophication / leaching\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "An answer that links any 4 points:\nM1 (NH3) higher % of N OR ((NH4)2SO4) lower %\nof N\nM2 (NH4)2SO4 easy to use (to soil) / easy for the\nplants to absorb / less wastage\nOR (NH3) difficult to use (to soil) / difficult for\nthe plants to absorb / more wastage / has to\nbe dissolved (in water) first\nM3 (NH4)2SO4 pH close to that of (rain) water /\nwill not alter the pH (of the soil/water)\nM4 NH3 will cause (the soil/water) to become\nalkaline / will raise the pH (of the soil/water) /\nneutralise (the water / soil) / may stunt growth\nof plants / may damage / kill plants\nM5 NH3 and or (NH4)2SO4 soluble so runoff /\nwastage of fertiliser / water pollution /\neutrophication / leaching\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nREJECT NH3 has a pH close to rainwater\nREJECT ammonia causes the soil / water to become acidic"
       }
      ],
      "source_page": 27,

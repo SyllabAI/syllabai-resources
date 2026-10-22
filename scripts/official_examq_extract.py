@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.13.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.14.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -118,7 +118,11 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
-DOTRUN_RE = re.compile(r"(?:\s*\.\s*){4,}")   # printed answer lines "= . . . . . g"
+# F55 note: the dot-run pattern must be LINEAR and unambiguous - the classic
+# (?:\s*\.\s*){4,} form (even atomically grouped) backtracks catastrophically on
+# -layout answer templates ('. . . . -> . . . .', fullmatch); each repetition
+# here consumes exactly one dot, so matching is O(n)
+DOTRUN_RE = re.compile(r"[ \t]*\.[ \t]*(?:\.[ \t]*){3,}")   # printed answer lines "= . . . . . g"
 
 
 def strip_dotrun(s: str) -> str:
@@ -404,9 +408,33 @@ def finalize_part(lines):
     choices, consumed = parse_mcq_block(kept)
     if choices:
         kept = [ln for i, ln in enumerate(kept) if i not in consumed]
-    source_norm = norm(strip_dotrun(" ".join(kept)))   # final ground truth (marks + options removed)
+    # v0.14 (F55): printed answer-line dots are CONTENT when they share a line
+    # with stem text (equation blanks: 'C5H12 + Br2 -> . . . . + . . . .'),
+    # furniture when the line is only dots (ruled answer strips). The legacy
+    # behaviour stripped both, so completion stems served the blank-less
+    # equation as if it were a stated fact. Inline runs compact to the SME
+    # convention '..........'; line-only runs still drop. source_norm keeps
+    # the legacy dot-free form (anchors/matching must not see the filler).
+    # NOTE: DOTRUN_RE is an ATOMIC regex — the plain (?:\s*\.\s*){4,} form
+    # backtracks catastrophically on long -layout dot chains.
+    proc = []
+    for ln in kept:
+        s = ln.strip()
+        import sys as _s
+        print('FP-A', len(kept), len(ln), repr(ln), 'STRIPPED:', repr(s), flush=True)
+        if not s or DOTRUN_RE.fullmatch(s):
+            print('FP-B drop', flush=True)
+            continue
+        print('FP-C sub', flush=True)
+        proc.append(DOTRUN_RE.sub(" .......... ", ln))
+        print('FP-D subbed', flush=True)
+    print('FP joined len', len(" ".join(proc)), flush=True)
+    _j = " ".join(proc)
+    print('FP strip start', flush=True)
+    source_norm = norm(strip_dotrun(_j))   # final ground truth (marks + options removed)
+    print('FP strip done', flush=True)
 
-    text = strip_dotrun(re.sub(r"\s{2,}", " ", " ".join(kept))).strip()
+    text = re.sub(r"\s{2,}", " ", " ".join(proc)).strip()
     return {"marks": marks, "choices": choices, "problem_md": text, "source_norm": source_norm}
 
 
@@ -692,29 +720,146 @@ def parse_ms(ms_lines):
 # The reveal + Smart Mark layer: per-part solution_md (verbatim MS answer block)
 # and mark_points[] (awardable points whose marks always sum to the part marks).
 SOL_TAIL_MARKS_RE = re.compile(r"\s{2,}(\d{1,2})\s*$")   # marks-column digit, far right
-TOTAL_ROW_RE = re.compile(r"^Total \d+$")
+TOTAL_ROW_RE = re.compile(r"^(?:Total \d+|\d{1,2}\s+marks?)$")   # F54: + bare 'N marks' totals
 NOTES_COL_INDENT = 45   # answer-column content sits left of this in every observed table;
                         # the Notes column (ALLOW/ACCEPT/... + its M1/M2 cross-references)
                         # starts at col ~60+ — never confuse its M-rows for points
 
+# v0.14 (F53): pdftotext -layout keeps the MS Answer and Notes columns on ONE
+# physical line, joined by a multi-space run at the notes-column x-boundary;
+# the whitespace collapse then interleaves guidance fragments into the served
+# answer text. The de-interleaver anchors on TEXT-START columns (the Notes
+# column prints at a consistent x per table, so its text-start column is the
+# mode across the block). Splits are keyword-gated (the right fragment must
+# START a guidance note, or continue an OPEN note block) so answer-cell
+# sub-tables that happen to align with the boundary can never be cut.
+MS_NOTE_KEYWORD_RE = re.compile(
+    r"^(?:ALLOW|ACCEPT|IGNORE|REJECT|Deduct|Do not|OWTA|OWTTE|Mark|Note|N\.B\.|"
+    r"Scores|Otherwise|Candidates|Examples|Correct|Incorrect|Best|Answers|answers|"
+    r"[A-E](?:,\s|\s+is\s+(?:not\s+)?(?:the\s+)?(?:in)?correct))")
+RUN2_RE = re.compile(r"\s{2,}")
+
+
+def split_ms_columns(raw_lines):
+    """F53: separate the Answer column from the Notes column.
+
+    Returns (answer_rows, notes): answer_rows = [(indent, text)] in reading
+    order; notes = [(anchor, text)] where anchor = the index of the answer row
+    the fragment prints beside (-1 when it precedes all answer rows). Note
+    fragments re-join into blocks: a new block starts on a guidance keyword,
+    continuations append. Fail-safe: the word multiset must survive the split
+    (whitespace-only change) - on any violation the block returns (None, None)
+    and the caller keeps the legacy single-column behaviour. No word is ever
+    added, removed, or reworded; only the column reading order is restored."""
+    in_words = sorted(norm(" ".join(ln for ln in raw_lines
+                                   if not TOTAL_ROW_RE.match(ln.strip()))).split())
+
+    def starts_of(ln):
+        out = []
+        pos = 0
+        for m in RUN2_RE.finditer(ln):
+            if ln[pos:m.start()].strip():
+                out.append(pos)
+            pos = m.end()
+        if ln[pos:].strip():
+            out.append(pos)
+        return out
+
+    cand = {}
+    for ln in raw_lines:
+        if TOTAL_ROW_RE.match(ln.strip()):
+            continue        # F54: marks-column totals never vote the boundary
+        for t in starts_of(ln):
+            frag = ln[t:].strip()
+            if t >= 25 and (MS_NOTE_KEYWORD_RE.match(frag) or t >= 45):
+                cand[t] = cand.get(t, 0) + 1
+    if not cand:
+        return None, None
+    boundary = max(cand, key=lambda k: (cand[k], k))
+    answer_rows, frag_notes = [], []
+    for ln in raw_lines:
+        stripped = ln.strip()
+        if not stripped or TOTAL_ROW_RE.match(stripped):
+            continue        # F54: question-total rows are layout on both columns
+        indent = len(ln) - len(ln.lstrip())
+        # marker-row rests are stored without their leading whitespace; a rest
+        # that opens a guidance keyword is Notes-column content (the printed
+        # gap between the marker and the notes text was consumed by the row
+        # regex), e.g. '(d)   ALLOW multiples and'
+        if (indent == 0 and MS_NOTE_KEYWORD_RE.match(stripped)
+                and not RUN2_RE.search(stripped)):
+            if not TOTAL_ROW_RE.match(stripped):
+                frag_notes.append((len(answer_rows) - 1, stripped))
+            continue
+        split_at = None
+        for m in RUN2_RE.finditer(ln):
+            t = m.end()
+            frag = ln[t:].strip()
+            # boundary+-3 covers content lines (full indent preserved); the deep
+            # keyword rule additionally covers marker-row rests, whose coordinate
+            # system is shifted by the consumed marker indent. A boundary-aligned
+            # NON-keyword fragment continues an OPEN note block (wrapped guidance
+            # shares a printed row with the next answer row); with no block open
+            # it stays answer-side, so answer-cell sub-tables at the same x are
+            # never cut.
+            near = boundary - 3 <= t <= boundary + 3
+            if frag and ((MS_NOTE_KEYWORD_RE.match(frag) and (near or t >= 40))
+                         or (near and frag_notes)):
+                split_at = m
+        if split_at is not None:
+            left = ln[:split_at.start()].rstrip()
+            right = ln[split_at.end():].strip()
+            anchor = len(answer_rows)
+            if left.strip():
+                answer_rows.append((len(left) - len(left.lstrip()),
+                                    re.sub(r"\s{2,}", " ", left).strip()))
+            if right and not TOTAL_ROW_RE.match(right):
+                frag_notes.append((anchor if left.strip() else anchor - 1, right))
+        elif indent >= boundary - 3 and indent > 0:
+            if not TOTAL_ROW_RE.match(stripped):
+                frag_notes.append((len(answer_rows) - 1, stripped))
+        else:
+            answer_rows.append((indent, re.sub(r"\s{2,}", " ", stripped)))
+    # re-join fragments into note blocks (row-major order preserves the printed
+    # top-to-bottom reading of the Notes column); a non-keyword fragment ALWAYS
+    # continues the previous block - wrapped guidance rows can share a printed
+    # row with the next M-row, so anchors may differ
+    notes = []
+    for anchor, f in frag_notes:
+        if notes and not MS_NOTE_KEYWORD_RE.match(f):
+            notes[-1] = (notes[-1][0], notes[-1][1] + " " + f)
+        else:
+            notes.append((anchor, f))
+    out_words = sorted(norm(" ".join([t for _, t in answer_rows]
+                                     + [t for _, t in notes])).split())
+    if out_words != in_words or not answer_rows:
+        return None, None
+    return answer_rows, notes
+
 
 def build_solution(p, ms_lines, series):
-    """v0.5: derive solution_md + mark_points[] from the linked MS entry.
+    """v0.14: derive solution_md + mark_points[] from the linked MS entry.
 
     Verbatim doctrine: solution_md is every content line of the entry block,
     whitespace-normalized, with the marker row's trailing marks-column digit
-    removed (it is layout, not answer). Nothing is added or reworded.
+    removed (it is layout, not answer) and the question-total row dropped
+    (F54). Nothing is added or reworded. F53 de-interleaves the printed
+    two-column table: the Answer column becomes the answer stream, the Notes
+    column (ALLOW/ACCEPT/IGNORE/REJECT guidance) is re-joined and appended as
+    its own paragraph; the word multiset is machine-verified invariant.
 
     mark_points[]: points are split ONLY on explicit ascending M1..Mn rows
     printed in the answer column (indent < NOTES_COL_INDENT), each worth 1,
-    accepted only when n == the part's marks. Every other entry becomes ONE
-    point carrying the whole block (marks = part marks). MCQ parts emit a
+    accepted only when n == the part's marks; each point carries the guidance
+    blocks that print beside its rows (F53 anchor). Every other entry becomes
+    ONE point carrying the whole block (marks = part marks). MCQ parts emit a
     single label-style point referencing the keyed choice. Fail-closed: the
     splitter can only under-split, never invent; unlinked parts emit nothing.
     Returns (solution_md, mark_points, ms_marks_digit_or_None)."""
     marks = p["marks"]
     lines = []                      # (raw indent, normalized text)
     ms_marks = None
+    raw_kept = []
     for ln in ms_lines:
         raw = ln.rstrip()
         if not raw.strip():
@@ -724,21 +869,42 @@ def build_solution(p, ms_lines, series):
             if ms_marks is None:
                 ms_marks = int(tail.group(1))
             raw = raw[:tail.start()].rstrip()
-        text = re.sub(r"\s{2,}", " ", raw).strip()
-        if not text or TOTAL_ROW_RE.match(text):
-            continue
-        lines.append((len(raw) - len(raw.lstrip()), text))
+        raw_kept.append(raw)
+    # F53: de-interleave the two-column layout. Override-ledger lines are
+    # single-column human transcriptions - never split them.
+    answer_rows, notes = None, None
+    if p.get("answer_key_source") != "ms-link-overrides-ledger":
+        answer_rows, notes = split_ms_columns(raw_kept)
+    if answer_rows is None:
+        for raw in raw_kept:
+            text = re.sub(r"\s{2,}", " ", raw).strip()
+            if not text or TOTAL_ROW_RE.match(text):
+                continue
+            lines.append((len(raw) - len(raw.lstrip()), text))
+        notes = []
+    else:
+        for ind, text in answer_rows:
+            if not text or TOTAL_ROW_RE.match(text):
+                continue
+            lines.append((ind, text))
+        notes = [(a, t) for a, t in notes if not TOTAL_ROW_RE.match(t)]
     if not lines:
         return None, None, None
     solution_md = "\n".join(t for _, t in lines)
+    if notes:
+        solution_md += "\n\n" + "\n".join(t for _, t in notes)
     base = f"{series}-{p['part_number'].replace('(', '-').replace(')', '')}"
     pts = None
     if p["question_type"] == "multiple_choice":
         keyed = next((c for c in p.get("choices") or [] if c.get("is_correct")), None)
         if marks is not None:
-            pts = [{"id": f"{base}-MP1", "marks": marks,
-                    "text_md": (f"Answer {keyed['label']}: {keyed['text_md']}"
-                                if keyed else solution_md)}]
+            if keyed:
+                txt = f"Answer {keyed['label']}"
+                if keyed.get("text_md"):
+                    txt += f": {keyed['text_md']}"
+            else:
+                txt = solution_md
+            pts = [{"id": f"{base}-MP1", "marks": marks, "text_md": txt}]
     elif marks is not None:
         m_rows = [(k, m) for k, (ind, t) in enumerate(lines)
                   if ind < NOTES_COL_INDENT and (m := re.match(r"^M([1-9])\s+(\S.*)$", t))]
@@ -754,6 +920,29 @@ def build_solution(p, ms_lines, series):
                             "text_md": "\n".join(seg)})
         if pts is None:
             pts = [{"id": f"{base}-MP1", "marks": marks, "text_md": solution_md}]
+    # F53: guidance blocks ride their anchor point as well as the block view,
+    # so the per-point reveal carries the same ALLOW/ACCEPT context the
+    # printed table shows beside the answer
+    if pts and notes:
+        for anchor, t in notes:
+            target = None
+            if len(pts) > 1:
+                if anchor < 0 or anchor < m_rows[0][0]:
+                    target = pts[0]
+                else:
+                    for j, (k, m) in enumerate(m_rows):
+                        lo = k
+                        hi = m_rows[j + 1][0] if j + 1 < len(m_rows) else len(lines)
+                        if lo <= anchor < hi:
+                            target = pts[j]
+                            break
+                    if target is None:
+                        target = pts[-1]
+            else:
+                target = pts[0]
+                if target["text_md"] == solution_md:
+                    continue        # whole-block point already carries the notes
+            target["text_md"] += "\n" + t
     return solution_md, pts, ms_marks
 
 
@@ -1403,7 +1592,11 @@ def main():
     mcq_key_overrides = {}
     if mcq_keys_path.exists():
         for e in json.loads(mcq_keys_path.read_text()).get("entries", []):
-            mcq_key_overrides[(e["series"], e["part"])] = e
+            # v0.14: paper-aware homes - the ledger's series field doubles as the
+            # C31 corpus home ('<series>:<paper>' for non-1C papers, F34), so the
+            # converter lookup splits it and keys on (series, paper, part)
+            series_home = e["series"].split(":")[0]
+            mcq_key_overrides[(series_home, e.get("paper") or "1C", e["part"])] = e
     mcq_keys_applied = []
     # v0.11 (F47): manual MS-linkage ledger — the same human-adjudication
     # doctrine as MCQ-KEYS.json, for STRUCTURED parts whose printed MS answer
@@ -1453,7 +1646,33 @@ def main():
                                    for m in [re.search(r"\s(\d{1,2})\s*$", ln)] if m}
                     if p["marks"] in trail_marks:
                         lines = cand
-            mk = mcq_key_overrides.get((series, p["part_number"]))
+            mk = mcq_key_overrides.get((series, paper, p["part_number"]))
+            # v0.14 (F56): picture MCQs - the options are the printed particle
+            # diagrams / properties table A-D, so no option text exists to parse
+            # and the part falls out of the QP parse as 'structured' with no
+            # choices. The ledger carries the eyeballed key + the verbatim MS
+            # rows (same evidence standard as every MCQ-KEYS entry); the
+            # converter promotes the part to multiple_choice with label-only
+            # choices. Positionally-linked rows stay the answer of record when
+            # linkage found them; an unlinked picture part falls back to the
+            # ledger's transcribed rows (fail-closed: the ledger, never
+            # invention). The ledger's eyeballed crop rect renders the printed
+            # option figure onto the group's first part.
+            if mk and p["question_type"] == "structured" and mk.get("picture_mcq"):
+                p["question_type"] = "multiple_choice"
+                p["choices"] = [{"label": L, "text_md": "",
+                                 "is_correct": L == mk["key"]}
+                                for L in mk.get("options") or ["A", "B", "C", "D"]]
+                p["answer_key_source"] = "mcq-keys-ledger"
+                if mk.get("crop"):
+                    p["_picture_crop"] = mk["crop"]
+                mcq_keys_applied.append(f"{series}/{p['part_number']}")
+                if not lines:
+                    lines = list(mk["ms_lines"])
+            if mk and p["question_type"] == "multiple_choice" and not mk.get("picture_mcq"):
+                lines = list(mk["ms_lines"])
+                p["answer_key_source"] = "mcq-keys-ledger"
+                mcq_keys_applied.append(f"{series}/{p['part_number']}")
             if mk and p["question_type"] == "multiple_choice":
                 lines = list(mk["ms_lines"])
                 p["answer_key_source"] = "mcq-keys-ledger"
@@ -2404,10 +2623,13 @@ def main():
                                     "affected_questions": sorted(defective)}
 
     # G2 verbatim — emitted text vs the source lines it claims to be copied from
+    # F55: the restored '..........' answer blanks are presentation filler the
+    # source_norm ground truth deliberately strips, so the overlap comparison
+    # runs on the dot-free form - the exact pre-v0.14 semantics
     g2_bad, g2_ratios = [], {}
     for q in doc_questions:
         for p in q["parts"]:
-            grams = ngrams(p["problem_md"])
+            grams = ngrams(strip_dotrun(p["problem_md"]))
             if not grams:
                 continue
             src_grams = ngrams(p["source_norm"])
@@ -2432,6 +2654,32 @@ def main():
     gate("G3-mcq-integrity", not g3_issues,
          f"{len(mcq)} MCQ parts; all have printed A–D and MS-keyed answer: {not g3_issues}",
          {"issues": g3_issues})
+
+    # v0.14 (F56): picture-MCQ ledger crops - the MCQ-KEYS picture entries carry
+    # an eyeballed page rect for the printed option figure (particle boxes /
+    # properties table). The crop renders deterministically from the QP PDF;
+    # the ledger entry IS the human verdict (same doctrine as
+    # MS-LINK-OVERRIDES), so the asset clears its review flag and pins
+    # review_verdict for C22.
+    for q in doc_questions:
+        for p in q["parts"]:
+            pc = p.pop("_picture_crop", None)
+            if not pc:
+                continue
+            page = pdf[int(pc["page"]) - 1]
+            clip = fitz.Rect(pc["rect"]) & page.rect
+            a = {"id": f"asset_{p['part_number'].replace('(', '_').replace(')', '')}_picture",
+                 "kind": "crop", "mention": pc.get("mention") or "figure",
+                 "source": "qp.pdf", "page": int(pc["page"]), "review": False,
+                 "render": "vector", "review_verdict": "accepted",
+                 "manual": "mcq-picture-ledger"}
+            pix = page.get_pixmap(clip=fitz.Rect(clip.x0 - 3, clip.y0 - 3,
+                                                 clip.x1 + 3, clip.y1 + 3), dpi=CROP_DPI)
+            rel = f"assets/{a['id']}.png"
+            pix.save(str(OUT / rel))
+            a["path"] = rel
+            p.setdefault("assets", []).insert(0, a)
+            crop_stats["crops"] += 1
 
     # G4 figure resolution
     dangling = [{"part": p["part_number"]} for q in doc_questions for p in q["parts"]

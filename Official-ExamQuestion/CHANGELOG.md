@@ -1,3 +1,37 @@
+## 0.14.0 — 2026-10-22 · wave 16: the serving-experience wave (F53–F58)
+
+The operator directive: best learner experience over verbatim presentation —
+the archive of record stays verbatim; the hub bundle is the presentation layer.
+Corpus of record (54 slices incl. both R tranches): marks, question structure,
+spec codes and asset bindings byte-identical on all 1548 1C+2C parts; the
+1CR/2CR slices are untouched (their v0.13.x outputs regenerate byte-identically
+modulo generator/timestamp when their next wave re-runs them).
+
+- **MS column de-interleave (F53)** — split_ms_columns at emission: per-block
+  text-start modal boundary, keyword-gated splits, open-note continuation,
+  marker-rest rule; guidance re-joined into blocks anchored to their award
+  point; word multiset machine-verified (violation → legacy path). solutionMd
+  ×1154 / markPoints ×1159; the worst interleaves ('ALLOW multiples and\nPb(NO3)2(aq) + 2KI(aq) → PbI2(s) +\nfractions…') now serve as clean
+  answer + note streams.
+- **Question-total rows (F54)** — 'N marks' totals dropped from served blocks
+  (17 parts) and from the F53 boundary vote.
+- **Answer blanks restored (F55)** — inline dot runs compact to '..........'
+  in 335 completion stems (line-only runs still drop); source_norm/G2 stay
+  dot-free. EN ROUTE: the classic (?:\s*\.\s*){4,} dot-run pattern
+  backtracked catastrophically on -layout answer templates (2021-01 2C hung at
+  100% CPU even atomically grouped); DOTRUN_RE is now deliberately linear.
+- **Picture MCQs (F56)** — 6 unanswerable parts (options are printed A-D
+  particle boxes / a properties table) become keyed multiple_choice with
+  ledger-eyeballed figure crops; MCQ-KEYS lookup is paper-aware (the first
+  non-1C ledger exercise; C31 extended).
+- **Exporter v4 (F57/F58 + G-E6)** — chemical typography (sub/sup like the SME
+  sets; strip_tags(served)==archive machine-checked per string) and question/
+  group stem serving (994 stems that every previous export dropped); the new
+  G-E6 presentation-invariant gate proves both on every run, next to the F51
+  data-cut G-E5 law this wave rebased onto.
+
+All 72 canaries hold; the exporter census (2016 disclosed part deltas) and the
+independent verify harness agree exactly.
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
 Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so any

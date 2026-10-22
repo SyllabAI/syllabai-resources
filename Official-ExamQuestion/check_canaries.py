@@ -275,6 +275,14 @@ for c in cans:
                     continue
                 p, in_report = corpus[(s, part)]
                 n_applied += 1
+                # F56 (wave 16): the validation report lists applications by the
+                # converter's plain series ('2023-01/2(a)(i)'); the corpus home
+                # for non-1C papers is '<series>:<paper>' - resolve the home's
+                # report before failing (first paper-aware ledger exercise)
+                if not in_report and s.count(':'):
+                    hs, hp = s.split(':')
+                    rep2 = json.loads((BASE / hs / f"4CH1-{hp}" / "validation-report.json").read_text())
+                    in_report = f"{hs}/{p['part_number']}" in set(rep2.get("mcq_keys_applied") or [])
                 keyed = [ch["label"] for ch in (p.get("choices") or []) if ch.get("is_correct")]
                 if keyed != [e["key"]]:
                     ok = False
@@ -390,6 +398,18 @@ for c in cans:
             ok = bool(text) and all(n in text for n in needles)
             if not ok:
                 print(f"  ! {series} {c.get('question') or c.get('part')}: pinned text missing {needles}")
+        elif chk == "part_solution_md_contains":
+            # C66 (wave 16): served-solution pins - the F53 de-interleave and
+            # F54 total-row drop must keep their exact reconstructed shapes
+            # (the pre-wave interleaved garble must never silently return)
+            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == c["part"]]
+            text = (got[0].get("solution_md") or "") if got else ""
+            needles = c.get("contains_all") or ([c["substring"]] if c.get("substring") else [])
+            banned = c.get("contains_none") or []
+            ok = bool(text) and all(n in text for n in needles) and not any(b in text for b in banned)
+            if not ok:
+                print(f"  ! {series} {c.get('part')}: pinned solution text mismatch")
         elif chk == "solution_blocks_header_free":
             # C54 (v0.10/F43): no served solution block may carry the repeated
             # MS page-table header — a marker row near a page break used to

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.mcq-keys/0.1",
- "note": "Human-adjudicated MCQ answer keys where the printed mark scheme's own layout defeats positional linkage (answer rows printed in the wrong slots). Every entry carries the eyeballed key and the corrected verbatim MS rows; the converter applies both BEFORE solution emission, so solution_md / mark_points / choices[].is_correct all derive from the adjudicated block. Keys are decided from the printed MS page (rendered + viewed) and the question paper — never from model guessing.",
+ "note": "Human-adjudicated MCQ answer keys where the printed mark scheme's own layout defeats positional linkage (answer rows printed in the wrong slots). Every entry carries the eyeballed key and the corrected verbatim MS rows; the converter applies both BEFORE solution emission, so solution_md / mark_points / choices[].is_correct all derive from the adjudicated block. Keys are decided from the printed MS page (rendered + viewed) and the question paper — never from model guessing. Wave-16 (F56) adds picture-MCQ entries: the options are the printed A-D particle boxes / properties table, so choices are label-only and the group figure renders from the ledger's eyeballed crop spec (crop on the group's first part; the siblings share it within the same question card).",
  "adjudicated_utc": "2026-10-21",
  "evidence_dir": "uploads staged at EXAMQ_UPLOAD_DIR (official-4CH1-1C-2020-01-ms.pdf page 12 render; QP page 16)",
  "entries": [
@@ -40,6 +40,167 @@
     "C is incorrect as chlorine is more reactive than astatine",
     "D is incorrect as iodine is more reactive than astatine"
    ]
+  },
+  {
+   "series": "2021-11",
+   "part": "1(a)(i)",
+   "paper": "1C",
+   "key": "A",
+   "picture_mcq": true,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "crop": {
+    "page": 4,
+    "rect": [
+     115.4,
+     109.1,
+     479.8,
+     215.0
+    ],
+    "mention": "the diagram of particles in four substances, A, B, C and D"
+   },
+   "ms_lines": [
+    "A                                                                                   1",
+    "                A is the correct answer because A contains one",
+    "                element and the atoms are not joined to other",
+    "                atoms.",
+    "                B is incorrect because B contains molecules of an",
+    "                element.",
+    "                C is incorrect because C contains molecules of a",
+    "                compound",
+    "                D is incorrect. D contains an element but the",
+    "                atoms are joined together to form a giant covalent",
+    "                structure."
+   ],
+   "evidence": "wave-16 eyeball: printed MS answer cell viewed at render (key letter + '<L> is the correct answer because...' notes); option figure = the printed A-D boxes/table on the QP page, rect eyeballed against the rendered page"
+  },
+  {
+   "series": "2021-11",
+   "part": "1(a)(ii)",
+   "paper": "1C",
+   "key": "C",
+   "picture_mcq": true,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "crop": null,
+   "ms_lines": [
+    "C                                                                                   1",
+    "                C is the correct answer because C contains atoms of",
+    "                two different elements chemically bonded",
+    "                together.",
+    "                A is incorrect because A is an element.",
+    "                B is incorrect because B is an element.",
+    "                D is incorrect because D is an element."
+   ],
+   "evidence": "wave-16 eyeball: printed MS answer cell viewed at render (key letter + '<L> is the correct answer because...' notes); option figure = the printed A-D boxes/table on the QP page, rect eyeballed against the rendered page"
+  },
+  {
+   "series": "2021-11",
+   "part": "1(a)(iii)",
+   "paper": "1C",
+   "key": "B",
+   "picture_mcq": true,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "crop": null,
+   "ms_lines": [
+    "B                                                                                   1",
+    "                B is correct because B shows two atoms of the same",
+    "                element chemically bonded together e.g. H2",
+    "                A is incorrect because A contains atoms of an",
+    "                element",
+    "                C in incorrect because C contains molecules of a",
+    "                compound with the formula e.g. H2O",
+    "                D is incorrect because C contains a giant covalent",
+    "                structure that could have the formula C"
+   ],
+   "evidence": "wave-16 eyeball: printed MS answer cell viewed at render (key letter + '<L> is the correct answer because...' notes); option figure = the printed A-D boxes/table on the QP page, rect eyeballed against the rendered page"
+  },
+  {
+   "series": "2023-01:2C",
+   "part": "2(a)(i)",
+   "paper": "2C",
+   "key": "B",
+   "picture_mcq": true,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "crop": {
+    "page": 6,
+    "rect": [
+     57.0,
+     92.0,
+     538.0,
+     246.0
+    ],
+    "mention": "the table of properties of four substances, A, B, C and D"
+   },
+   "ms_lines": [
+    "B                                                                               1",
+    "                A, C and D are not the correct answers as metals",
+    "                conduct electricity when solid"
+   ],
+   "evidence": "wave-16 eyeball: printed MS answer cell viewed at render (key letter + '<L> is the correct answer because...' notes); option figure = the printed A-D boxes/table on the QP page, rect eyeballed against the rendered page"
+  },
+  {
+   "series": "2023-01:2C",
+   "part": "2(a)(ii)",
+   "paper": "2C",
+   "key": "D",
+   "picture_mcq": true,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "crop": null,
+   "ms_lines": [
+    "D                                                                               1",
+    "                A is not the correct answer because diamond will",
+    "                not conduct electricity when molten",
+    "                B is not the correct answer because diamond will",
+    "                not conduct electricity when solid or molten",
+    "                C is not the correct answer because diamond has a",
+    "                much higher melting and boiling point"
+   ],
+   "evidence": "wave-16 eyeball: printed MS answer cell viewed at render (key letter + '<L> is the correct answer because...' notes); option figure = the printed A-D boxes/table on the QP page, rect eyeballed against the rendered page"
+  },
+  {
+   "series": "2023-01:2C",
+   "part": "2(a)(iii)",
+   "paper": "2C",
+   "key": "C",
+   "picture_mcq": true,
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "crop": null,
+   "ms_lines": [
+    "C                                                                               1",
+    "                A is not the correct answer as A is a solid at 600°C",
+    "                B is not the correct answer as B is a liquid at 600°C",
+    "                D is not the correct answer as D is a solid at 600°C"
+   ],
+   "evidence": "wave-16 eyeball: printed MS answer cell viewed at render (key letter + '<L> is the correct answer because...' notes); option figure = the printed A-D boxes/table on the QP page, rect eyeballed against the rendered page"
   }
  ]
 }
