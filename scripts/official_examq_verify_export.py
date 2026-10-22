@@ -130,6 +130,20 @@ EXPECTED_CENSUS = {
     ("2024-06", "1CR"): (12, 57, 110, 110),
     ("2025-06", "1CR"): (11, 55, 110, 110),
     ("2026-06", "1CR"): (11, 57, 110, 110),
+    # 2CR tranche (converter v0.13.0 corpus, trace 1a16373bc7d373fd): 11 sets,
+    # each carrying its printed 70/70 across both mark layers. The series set
+    # is exactly the F-178 footer-verified 2CR schedule (tracker PR #32).
+    ("2019-06", "2CR"): (7, 40, 70, 70),
+    ("2020-01", "2CR"): (7, 38, 70, 70),
+    ("2020-11", "2CR"): (7, 36, 70, 70),
+    ("2021-01", "2CR"): (8, 45, 70, 70),
+    ("2022-01", "2CR"): (7, 35, 70, 70),
+    ("2022-06", "2CR"): (7, 40, 70, 70),
+    ("2023-01", "2CR"): (8, 40, 70, 70),
+    ("2023-06", "2CR"): (7, 38, 70, 70),
+    ("2024-06", "2CR"): (7, 38, 70, 70),
+    ("2025-06", "2CR"): (7, 38, 70, 70),
+    ("2026-06", "2CR"): (7, 35, 70, 70),
 }
 
 # Documented archive damage of record (G-E2 exceptions) — currently EMPTY.
