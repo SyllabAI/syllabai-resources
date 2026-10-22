@@ -1,0 +1,19 @@
+stage: S1-S4
+date: "2026-10-22"
+agent: "T-BOOK-034 r0 (u1:c02 full authoring, session web-c414c074 chat 08b3170a trace 1a163d15648caa95)"
+prompt_version: "lesson-prose@1.0.0 / lesson-boxes@1.0.0 / lesson-glossary@1.0.0 (registry, hand-applied this run)"
+lint: "PASS 0 errors / 0 warnings (V1-V9 at stage S4; transcript qa/lint.txt)"
+trace_id: "1a163d15648caa95"
+stages:
+  S0: "scaffold placeholders (12) replaced by the real spine pinned from the calibrated section-maps/u1-c02.json — re-verified byte-identical against a live section_map.py regeneration this session (10 sections, pages [14,20], 24 chunks)"
+  S0-L0: "course.yaml u1:c02 spine node pinned at S1: join_set DERIVED from igcse-chemistry-T1:SUBb (resourcesSha 888bca4a) = 1.8, 1.9, 1.10, 1.11, 1.12, 1.13 (all core, both papers, DA-shared, no C-suffix); learning_objective VERBATIM from chunks 0065+0066 (margin objectives OCR'd into the ELEMENTS chunk; bullet glyphs joined with ';'; 'R,' artifact normalized to 'Rf'; no paraphrase)"
+  S1: "prose grounded in the chapter's 24 chunks_v3 chunks (pp. 14-23), 10/10 sections"
+  S2: "boxes per course.yaml box_allowlist: key-point (x10 sections), exam-hint (x10), misconception (x10), quick-check (x10), prior-knowledge (s01), cross-curricular (s01, s10), maths-skills (s07, s10), worked-example (s09, s10), safety (s09, from chunk 0081 book safety note), summary + can-you (s10 close). did-you-know honestly absent: chapter 2 carries zero did_you_know census chunks"
+  S3: "practice wired by specRefs via the derived-links law — question text never authored; book end-of-chapter questions (chunks 0088/0089, pp. 22-23) stay page-jump-only (licensing law)"
+  S4: "lessonPackV1.json emitted (status=draft — SUGGESTED law; operator flip is a separate command)"
+spec_join: "join_set DERIVED (never authored) from spine node igcse-chemistry-T1:SUBb in apps/hub/spines/igcse-chemistry-19.json (resourcesSha 888bca4a): 1.8, 1.9, 1.10, 1.11, 1.12, 1.13; pinned per-section (1.8: s01-s06; 1.9: s07; 1.10: s08-s09; 1.11+1.12+1.13: s10; 1.13 also s09) and subset-checked by V3; whole lesson is Paper 1 + Paper 2 core content (no C-suffix points)"
+title_refinements: "printed headings retained as provenance; learner-facing titles refined: s01 chapter opener -> 'The map of all matter'; s03 printed 'PROPORTIONS' (body is the 118-elements story) -> '118 elements — and where they live'; s06 printed 'SIMPLE DIFFERENCES BETWEEN MIXTURES AND COMPOUNDS' -> 'Mixture or compound — the simple differences'; s09 printed 'MAKING PURE SALT FROM ROCK SALT' but its calibrated chunk span (0077-0084) also carries the distillation blocks and the chromatography practical, so title widened to 'Rock salt to pure salt — filtration, crystallisation and distillation'; s10 keeps printed 'USING PAPER CHROMATOGRAPHY IN ANALYSIS' + ', Rf values'"
+blocks: "blockIds honest-absent: VALIDATED blocks live in Neon (L3), not in-repo; renderer joins blocks by the per-section bookPage anchors (pinned from chunks_v3)"
+ocr_notes: "chunk 0071 proportion sentence and chunk 0074 acid/flame sentences are partially garbled OCR; meaning reconstructed from intact sibling text and page context (iron/sulfur, hydrogen/oxygen examples) — flagged here rather than silently patched beyond the book's claims"
+findings_filed: [f-0007]
+summary: "u1:c02 authored end-to-end for real: 10 sections S1-S4, lint GREEN 0/0, lessonPackV1.json emitted draft; course.yaml spine corruption (c02 + c16 titles) fixed with finding f-0007 (system change: quote all spine titles); c02 join_set + verbatim learning_objective pinned at S1."

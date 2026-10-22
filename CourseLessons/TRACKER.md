@@ -6,7 +6,8 @@
 > allowed for narrative notes only — status truth lives in `tracker.yaml`
 > via `lessonctl.py tracker` transactions (receipt-anchored).
 
-**Last regenerated:** 2026-10-22 (T-BOOK-033/flip r0 — u1:c01 pack published) · **Agent convention:** every status
+**Last regenerated:** 2026-10-22 (T-BOOK-034 r0 — u1:c02 authored S1–S4, pack emitted
+draft; c02/c16 spine-title corruption fixed, finding f-0007) · **Agent convention:** every status
 change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 
 ---
@@ -24,6 +25,7 @@ change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 | # | Lesson (chapter_key) | Folder | Stage | Sections done | Boxes | Lint | Last receipt | Owner (last agent) |
 |---|---|---|---|---|---|---|---|---|
 | 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S4 (authored; **pack PUBLISHED**) | 13/13 | full allowlist coverage (key-point/exam-hint/misconception ×13; quick-check ×13; worked-example ×2; safety ×2; closing set) | PASS (0/0, stage S4) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-032 r0 (author) / T-BOOK-033/flip r0 (publish) |
+| 2 | u1:c02 Elements, compounds and mixtures | `lessons/u1-c02-elements-compounds-mixtures/` | S4 (authored; **pack DRAFT — awaiting operator flip**) | 10/10 | full allowlist coverage (key-point/exam-hint/misconception/quick-check ×10; worked-example ×2; maths-skills ×2; safety ×1; prior-knowledge ×1; cross-curricular ×2; closing set; did-you-know honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4) | qa/receipt.yaml (S1-S4) | T-BOOK-034 r0 |
 
 (Sections column = `sections[].status: done` count vs spine length.
 Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+.)
@@ -32,7 +34,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 
 | Phase | Lessons | Status |
 |---|---|---|
-| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a162e924c017891; hub re-bake same day) — c02–c05 next** |
+| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a162e924c017891); c02 authored end-to-end (S4) + pack DRAFT awaiting flip (T-BOOK-034 r0, trace 1a163d15648caa95) — c03–c05 next** |
 | Unit 1 rest | u1:c06–c10 | not started |
 | Unit 2 | u2:c11–c18 | not started |
 | Unit 3 | u3:c19–c21 | not started |
@@ -50,6 +52,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 | f-0004 | tool-bug | u1-c01 | warn | closed | resume printed 'NEXT: S2 boxes' with 12/13 files missing → lessonctl r0.3 derives NEXT from per-section file reality |
 | f-0005 | spec-gap | u1-c01 | warn | closed | box_allowlist omitted quick-check → appended (course.yaml r0.1) |
 | f-0006 | tool-bug | u1-c01 | info | closed | tracker printed phantom 'report --write-md' instruction → message corrected; CLI output-instruction audit (lessonctl r0.3) |
+| f-0007 | process | u1-c02 | warn | closed | course.yaml spine titles c02/c16 corrupted by unquoted YAML titles (title split into stray key) → both quoted+restored in this PR; system change: quote spine strings, yaml.safe_load before commit |
 
 ## Decisions log (operator-level, newest first)
 

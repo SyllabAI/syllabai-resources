@@ -1,0 +1,170 @@
+# glossary — u1:c02 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: element
+  slug: element
+  definition: "A substance that cannot be split into anything simpler by chemical means; all its atoms have the same atomic number."
+  ms_accepts: ["made of only one type of atom", "cannot be broken down into simpler substances by chemical means", "all atoms have the same atomic number"]
+  ms_avoids: ["can be separated by filtering or heating", "found naturally only"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf023_0066 + chem_v3_u1_c2_pdf023_0068"
+- term: compound
+  slug: compound
+  definition: "Two or more elements chemically combined, always in fixed proportions; it can only be split apart by chemical reactions."
+  ms_accepts: ["two or more elements chemically combined", "in fixed proportions", "cannot be separated by physical means"]
+  ms_avoids: ["mixed in any proportion", "just mixed together"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf024_0070"
+- term: mixture
+  slug: mixture
+  definition: "Two or more substances (elements and/or compounds) mixed together with no chemical reaction; the components can be in any proportion and keep their own properties."
+  ms_accepts: ["not chemically combined", "components in any proportion", "components keep their own properties", "can be separated by physical means"]
+  ms_avoids: ["in fixed proportions", "a new substance forms"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf024_0071 + chem_v3_u1_c2_pdf025_0074"
+- term: atom
+  slug: atom
+  definition: "The smallest neutral particle of an element; the building block shown in element and compound diagrams. (Full structure: Chapter 3.)"
+  ms_accepts: ["smallest particle of an element"]
+  ms_avoids: ["smallest particle ever", "smallest particle of anything (that is not what IGCSE claims)"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf023_0066"
+- term: atomic number
+  slug: atomic-number
+  definition: "The number of protons in the nucleus of an atom. All atoms of the same element share the same atomic number."
+  ms_accepts: ["number of protons (in the nucleus)", "same atomic number means same element"]
+  ms_avoids: ["number of particles in the atom", "number of neutrons"]
+  aliases: ["proton number"]
+  source: "chem_v3_u1_c2_pdf023_0068"
+- term: isotope
+  slug: isotope
+  definition: "Atoms of the same element with the same atomic number but different mass numbers, because they contain different numbers of neutrons."
+  ms_accepts: ["same protons, different neutrons", "same atomic number, different mass number"]
+  ms_avoids: ["a different element", "radioactive version of an element"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf023_0068"
+- term: periodic table
+  slug: periodic-table
+  definition: "The chart displaying all 118 elements; most occur naturally, a few are made artificially."
+  ms_accepts: ["arrangement of all the elements"]
+  ms_avoids: ["a list of compounds"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf024_0069"
+- term: formula
+  slug: formula
+  definition: "The fixed ratio of atoms in a compound written with symbols and subscript numbers, e.g. HF, MgF₂, CO₂, CH₄."
+  ms_accepts: ["shows the elements and the fixed ratio of atoms in a compound"]
+  ms_avoids: ["a recipe that can change"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf024_0070"
+- term: pure substance
+  slug: pure-substance
+  definition: "A single element or single compound, with nothing else mixed in; it melts and boils at fixed temperatures."
+  ms_accepts: ["only one substance present", "fixed/sharp melting and boiling point"]
+  ms_avoids: ["a natural substance", "a clear substance"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf025_0074 + chem_v3_u1_c2_pdf025_0075"
+- term: impurity
+  slug: impurity
+  definition: "An unwanted substance mixed with the one you want; impurities lower the melting point and raise the boiling point of a substance."
+  ms_accepts: ["unwanted substance present in a sample", "lowers melting point / raises boiling point"]
+  ms_avoids: ["dirt always makes it darker", "impurities raise the melting point"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf025_0074 + chem_v3_u1_c2_pdf025_0075"
+- term: melting point
+  slug: melting-point
+  definition: "The fixed temperature at which a pure solid melts; impurities lower it and make melting happen over a range."
+  ms_accepts: ["temperature at which a solid melts", "pure substances melt at a fixed temperature"]
+  ms_avoids: ["when a liquid boils"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf025_0075"
+- term: boiling point
+  slug: boiling-point
+  definition: "The fixed temperature at which a pure liquid boils; impurities raise it, so a solution boils above 100 °C."
+  ms_accepts: ["temperature at which a liquid boils", "pure liquids boil at a fixed temperature"]
+  ms_avoids: ["when bubbles appear at any temperature"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf025_0075"
+- term: filtration
+  slug: filtration
+  definition: "Separating an insoluble solid from a liquid by pouring through filter paper; the solid left is the residue, the liquid passing through is the filtrate."
+  ms_accepts: ["residue left on filter paper", "filtrate passes through", "separates insoluble solid from liquid"]
+  ms_avoids: ["separates dissolved substances", "the salt is caught by the paper"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf026_0077"
+- term: residue
+  slug: residue
+  definition: "The solid left on the filter paper after filtration."
+  ms_accepts: ["solid left on the filter paper"]
+  ms_avoids: ["the liquid collected"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf026_0077"
+- term: filtrate
+  slug: filtrate
+  definition: "The liquid that passes through the filter paper during filtration."
+  ms_accepts: ["liquid that comes through the filter paper"]
+  ms_avoids: ["the solid on the paper"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf026_0077"
+- term: crystallisation
+  slug: crystallisation
+  definition: "Separating a solute from its solution by evaporating solvent until the solution is nearly saturated, then cooling so crystals form; crystals are filtered off."
+  ms_accepts: ["heat to evaporate solvent until nearly saturated", "crystals form on cooling", "tested with a glass rod"]
+  ms_avoids: ["boil the whole solution dry", "crystals appear instantly"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf026_0077"
+- term: saturated solution
+  slug: saturated-solution
+  definition: "A solution holding the maximum amount of dissolved solute at that temperature; crystals form on its surface or on a dipped glass rod."
+  ms_accepts: ["contains the maximum dissolved solute at that temperature", "no more solute can dissolve"]
+  ms_avoids: ["a very strong solution always"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf026_0077"
+- term: simple distillation
+  slug: simple-distillation
+  definition: "Separating the solvent from a solution: the solvent boils, is condensed in the condenser and collected, while dissolved solids stay in the flask."
+  ms_accepts: ["solvent evaporates then condenses", "collect the water; salt stays in the flask"]
+  ms_avoids: ["the salt evaporates and is collected"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf027_0080"
+- term: fractional distillation
+  slug: fractional-distillation
+  definition: "Separating a mixture of miscible liquids using their different boiling points in a fractionating column, e.g. ethanol (78 °C) from water (100 °C)."
+  ms_accepts: ["different boiling points", "liquid with lower boiling point reaches the top of the column first"]
+  ms_avoids: ["used to separate salt from water (that is simple distillation)"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf027_0080"
+- term: miscible
+  slug: miscible
+  definition: "Describes liquids that mix completely in any proportion to form a single layer, e.g. ethanol and water."
+  ms_accepts: ["mix in any proportion forming one layer"]
+  ms_avoids: ["liquids that don't mix (that is immiscible)"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf027_0080"
+- term: baseline
+  slug: baseline
+  definition: "The starting line on chromatography paper, drawn in pencil about 1 cm from the bottom, where spots are placed."
+  ms_accepts: ["pencil line where spots are added", "pencil (not pen) so it does not dissolve and move"]
+  ms_avoids: ["drawn in pen", "drawn at the very bottom edge in the solvent"]
+  aliases: ["pencil line", "start line"]
+  source: "chem_v3_u1_c2_pdf028_0083"
+- term: solvent front
+  slug: solvent-front
+  definition: "The highest level the solvent reaches on the chromatography paper before the run is stopped."
+  ms_accepts: ["furthest point reached by the solvent", "mark the solvent front before it reaches the top"]
+  ms_avoids: ["where the dye spots end up"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf028_0083"
+- term: chromatogram
+  slug: chromatogram
+  definition: "The pattern of spots left on the chromatography paper after the solvent has moved up and the paper has dried."
+  ms_accepts: ["the pattern of spots produced by chromatography", "used to identify the components of a mixture"]
+  ms_avoids: ["the beaker used in chromatography"]
+  aliases: []
+  source: "chem_v3_u1_c2_pdf028_0084"
+- term: Rf value
+  slug: rf-value
+  definition: "Distance moved by a spot divided by distance moved by the solvent front, both measured from the pencil line; always between 0 and 1, with no units."
+  ms_accepts: ["distance moved by substance ÷ distance moved by solvent front", "no units", "measure to the centre of the spot"]
+  ms_avoids: ["a value greater than 1", "quoted in cm", "measured to the edge of the spot"]
+  aliases: ["retardation factor"]
+  source: "chem_v3_u1_c2_pdf030_0086 + chem_v3_u1_c2_pdf030_0087"
