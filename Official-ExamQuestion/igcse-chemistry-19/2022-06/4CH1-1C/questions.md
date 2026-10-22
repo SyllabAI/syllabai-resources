@@ -104,7 +104,7 @@ State two things the student could do to make the salt dissolve quickly. 1 2
 
 ### 2(b)(ii) [1]
 
-State what the student should do next to separate the sand from the salt solution. 
+State what the student should do next to separate the sand from the salt solution.
 
 
 **Mark scheme answer**
@@ -192,7 +192,7 @@ Give the name of fraction E.
 
 ### 3(a)(iii) [1]
 
-Give a use for fraction A. 
+Give a use for fraction A.
 
 
 **Mark scheme answer**
@@ -315,7 +315,7 @@ Give the formula of the compound formed.
 
 ### 4(a)(iv) [2]
 
-Explain the advantage of using iron powder rather than pieces of iron. 
+Explain the advantage of using iron powder rather than pieces of iron.
 
 
 **Mark scheme answer**
@@ -427,7 +427,7 @@ This is the displayed formula of one of the isomers. H H H H H H C C C C C H H H
 
 ### 5(a)(iv) [2]
 
-Draw the displayed formulae of the other two isomers. Isomer 1 Isomer 2 
+Draw the displayed formulae of the other two isomers. Isomer 1 Isomer 2
 
 
 **Mark scheme answer**
@@ -498,7 +498,7 @@ Give the test for hydrogen.
 
 ### 6(a)(iii) [2]
 
-The student uses 0.090 g of magnesium and 0.025 mol of hydrochloric acid. Show by calculation that the hydrochloric acid is in excess. 
+The student uses 0.090 g of magnesium and 0.025 mol of hydrochloric acid. Show by calculation that the hydrochloric acid is in excess.
 
 
 **Mark scheme answer**
@@ -540,7 +540,7 @@ Draw a curve of best fit. 100 Volume of hydrogen in cm3 0 20 40 60 80 Time in s
 
 ### 6(b)(iii) [2]
 
-Determine the volume of hydrogen collected in the first 10 seconds. Show on the graph how you obtained your answer. volume of hydrogen = cm3 
+Determine the volume of hydrogen collected in the first 10 seconds. Show on the graph how you obtained your answer. volume of hydrogen = cm3
 
 ![graph — official paper figure (qp.pdf p.14)](assets/asset_6_b_iii_graph.png)
 
@@ -629,7 +629,7 @@ This question is about copper and copper compounds.
 
 **(b)** When copper(II) carbonate is heated, copper(II) oxide and carbon dioxide are formed.
 
-**(c)** A student uses this apparatus to find the value of x in the formula CuSO4.xH2O hydrated copper(II) sulfate heat ice water This is the student’s method. • find the mass of an empty boiling tube • add hydrated copper(II) sulfate to the tube and record the new mass • heat the hydrated copper(II) sulfate until it changes colour • allow the tube to cool and record the mass again  The table shows the student’s results. mass of empty tube in g 20.52 mass of tube and CuSO4.xH2O in g 31.77 mass of tube and CuSO4 in g 28.20
+**(c)** A student uses this apparatus to find the value of x in the formula CuSO4.xH2O hydrated copper(II) sulfate heat ice water This is the student’s method. • find the mass of an empty boiling tube • add hydrated copper(II) sulfate to the tube and record the new mass • heat the hydrated copper(II) sulfate until it changes colour • allow the tube to cool and record the mass again The table shows the student’s results. mass of empty tube in g 20.52 mass of tube and CuSO4.xH2O in g 31.77 mass of tube and CuSO4 in g 28.20
 
 ### 7(a)(i) [2]
 
@@ -649,7 +649,7 @@ State what is meant by the term isotopes.
 
 ### 7(a)(ii) [3]
 
-Calculate the relative atomic mass (Ar ) of this sample of copper. Give your answer to three significant figures. Ar of copper = 
+Calculate the relative atomic mass (Ar ) of this sample of copper. Give your answer to three significant figures. Ar of copper =
 
 
 **Mark scheme answer**
@@ -689,7 +689,7 @@ What is the name of this type of reaction?
 
 ### 7(b)(ii) [1]
 
-Which colour change occurs during this reaction? 
+Which colour change occurs during this reaction?
 
 - **(A)** blue to black
 - **(B)** blue to white
@@ -786,7 +786,7 @@ Diamond and graphite are giant covalent structures made of carbon atoms. The dia
 
 ### 8(a) [6]
 
-Discuss the differences between diamond and graphite. Refer to structure and bonding, electrical conductivity and hardness in your answer. 
+Discuss the differences between diamond and graphite. Refer to structure and bonding, electrical conductivity and hardness in your answer.
 
 
 **Mark scheme answer**
@@ -929,7 +929,7 @@ Explain why the reaction of yellow lead oxide with hydrogen is a redox reaction.
 
 ### 9(a)(iv) [2]
 
-Describe a physical test to show that the water produced in this reaction is pure. 
+Describe a physical test to show that the water produced in this reaction is pure.
 
 
 **Mark scheme answer**
@@ -1011,7 +1011,7 @@ Ammonia (NH3) is a simple covalent molecule. Draw a dot-and-cross diagram to sho
 
 ### 10(b)(i) [2]
 
-Complete the table by giving the missing information. 
+Complete the table by giving the missing information.
 
 ![table — official paper figure (qp.pdf p.24) — shared with asset_10_b_table_stem](assets/asset_10_b_table_stem.png)
 
@@ -1040,7 +1040,7 @@ When ammonia reacts with sulfuric acid, ammonium sulfate is formed. Write a chem
 
 ### 10(b)(iii) [3]
 
-Describe a test for ammonium ions. 
+Describe a test for ammonium ions.
 
 
 **Mark scheme answer**
@@ -1059,7 +1059,7 @@ Describe a test for ammonium ions. 
 
 ### 10(c)(i) [2]
 
-Calculate the percentage of nitrogen in ammonium nitrate. [Mr of NH4NO3 = 80] percentage of nitrogen = % 
+Calculate the percentage of nitrogen in ammonium nitrate. [Mr of NH4NO3 = 80] percentage of nitrogen = %
 
 
 **Mark scheme answer**

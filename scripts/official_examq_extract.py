@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.10.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.11.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -124,6 +124,70 @@ def now_iso():
 
 
 # ---------------------------------------------------------------- stage 1: QP cleaning
+# ---------------------------------------------------------------- F48: PUA → Unicode
+# The source PDFs embed symbol/dingbat fonts (SymbolMT, Wingdings 1/2/3,
+# EuclidExtra, MathType-style CID subsets) whose text layer maps to Unicode
+# Private Use Area (U+E000–U+F8FF). Left as-is they leak into served
+# problem/stem/solution text as invisible garbage glyphs (corpus census at
+# v0.10.1: 18 distinct PUA chars, ~2.4k occurrences). Every mapping below was
+# decided from EVIDENCE (PDF font trace + page render, eyeballed), never
+# guessed: the char is what the printed page shows at that spot.
+PUA_MAP = {
+    "\uf022": "\u2192",   # Wingdings3 arrowright — equation arrow (N2 + 3H2 → 2NH3)
+    "\uf02d": "\u2212",   # minus — printed CID dash: charge (2Cl−), subtraction (75 − 30)
+                          # and bond (C−H) all share this glyph; minus matches the
+                          # charge/arithmetic semantics and the corpus house style
+                          # ('(ΔH =) − 3600' already uses U+2212)
+    "\uf044": "\u0394",   # Symbol Delta — (ΔH =) −3600
+    "\uf072": "\u0394",   # Wingdings3 Delta — 'M4 ΔH correctly shown'
+    "\uf083": "\u21cc",   # EuclidExtra — equilibrium arrow N2O4(g) ⇌ 2NO2(g)
+    "\uf0a2": "",         # Wingdings2 dotted answer-line rule — page furniture, dropped
+    "\uf0ad": "\u2191",   # CID subset up-arrow — Energy-axis arrow in the 2022-06 cycle
+    "\uf0ae": "\u2192",   # CID long arrowright — equation arrow
+    "\uf0b0": "\u00b0",   # Symbol degree — '(°C)'
+    "\uf0b4": "\u00d7",   # Symbol multiply — 100 × 4.2 × 49.5
+    "\uf0b7": "\u2022",   # Symbol bullet — MS solution list bullets
+    "\uf0b8": "\u00f7",   # Symbol divide — 0.0129 ÷ 2
+    "\uf0e0": "\u2192",   # Wingdings arrowright — word-equation arrow
+    "\uf0e5": "\u03a3",   # CID Sigma — 'M1 Σ bonds broken'
+    "\uf097": "\u2022",   # Wingdings2 bullet — QP list bullets
+    "\uf09f": "\u2022",   # QP method-list bullet (2021-01 2C 'This is the student's method')
+    "\uf0fc": "\u2713",   # Wingdings check — 'Add ticks (✓)'
+    "\uf8e7": "\u2500",   # box-drawing light horizontal — the printed continuous bond
+                          # rule (H─C──C──C─H); renders as an unbroken line so
+                          # double bonds read as one longer rule, like the print
+    # Cover-page furniture (wave-14 source-census additions: these live in the
+    # raw txt but never reached served strings — the paper-variant tick-box
+    # ornaments on the front cover, a filled+hollow shape pair per series;
+    # font trace Wingdings2, renders eyeballed). Dropped like F0A2.
+    "\uf0ee": "",         # 2023-11/2025-06 covers: eight-point seal + star
+    "\uf0c0": "",         # 2023-06/2025-11 covers: pentagons
+    "\uf098": "",         # 2022-01/2023-01 covers: circles
+    "\uf0bf": "",         # 2022-06 covers: diamonds
+    "\uf0c2": "",         # 2024-11 covers: hexagons
+}
+
+
+def normalize_pua(s: str) -> str:
+    """F48: map every known PUA char to its real Unicode form; REFUSE unknown
+    PUA (fail-closed — a new symbol font must earn an evidenced mapping entry
+    above, it must not silently leak into served content)."""
+    if not any(0xE000 <= ord(c) <= 0xF8FF for c in s):
+        return s
+    out = []
+    for c in s:
+        cp = ord(c)
+        if 0xE000 <= cp <= 0xF8FF:
+            if c not in PUA_MAP:
+                raise ValueError(
+                    f"unmapped PUA char U+{cp:04X} in {s[:80]!r} — add an evidenced "
+                    f"PUA_MAP entry (font trace + page render) before running")
+            out.append(PUA_MAP[c])
+        else:
+            out.append(c)
+    return "".join(out)
+
+
 FURNITURE_SUBS = [
     (re.compile(r"\*P\d{5}[A-Z]\w*\*"), " "),       # page identity marker (P62045A*, P58561A*, ...)
     (re.compile(r"\bTurn over\b"), " "),
@@ -150,6 +214,7 @@ FURNITURE_LINE = [
 def clean_lines(raw: str):
     out = []
     for ln in raw.splitlines():
+        ln = normalize_pua(ln)   # F48: symbol-font PUA -> real Unicode before any parsing
         for rx, rep in FURNITURE_SUBS:
             ln = rx.sub(rep, ln)
         if any(rx.match(ln) for rx in FURNITURE_LINE):
@@ -326,6 +391,15 @@ MS_GLUED_MARKER_RE = re.compile(
     r"^ {0,12}(?:(\d{1,2}))?([a-h])(i{1,3}|iv|v|vi{1,3})(?=\s{2,})\s*(.*)$")
 MS_BARE_ROMAN_RE = re.compile(
     r"^ {0,12}(i{1,3}|iv|v|vi{1,3})(?=\s{2,}|$)\s*(.*)$")
+# F46 (v0.11): parenthesized roman CONTENT row printed DEEP in the marker
+# column's answer area (indent 21..30). The 2023-11 1C MS is the observed
+# layout ('(ii)   best fit curve…', '(ii)   M1 curve starting…'); every
+# previously seen parenthesized roman row sat at indent <= 20, so these rows
+# fell through to content and were absorbed into the (i) block. Letter
+# markers at this depth stay refused on purpose: answer-cell fragments like
+# '(g)' must never re-point the marker state (the F42 lesson).
+MS_DEEP_ROMAN_RE = re.compile(
+    r"^ {21,30}\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\)\s+(\S.*)$")
 
 
 def parse_ms(ms_lines):
@@ -378,6 +452,7 @@ def parse_ms(ms_lines):
         mbr = MS_BARE_LETTER_ROMAN_RE.match(ln)
         mg = MS_GLUED_MARKER_RE.match(ln)
         mro = MS_BARE_ROMAN_RE.match(ln)
+        mdr = MS_DEEP_ROMAN_RE.match(ln)
         if mo and any(mo.groups()[:3]):
             qn, letter, roman = mo.group(1), mo.group(2), mo.group(3)
             # v0.9 (F40i): the printed MS sometimes sets the roman in caps —
@@ -453,6 +528,28 @@ def parse_ms(ms_lines):
             roman, rest = mro.group(1).lower(), mro.group(2)
             k = (cur[0], cur[1])
             expected = last_roman.get(k, -1) + 1
+            if _roman_idx(roman) == expected:
+                cur = (cur[0], cur[1], roman)
+                last_roman[k] = expected
+                entries.setdefault(cur, [] if re.fullmatch(r"\d{1,2}", rest.strip())
+                                   else [rest.strip()] if rest.strip() else [])
+            elif cur is not None:
+                entries[cur].append(ln)
+        elif mdr and cur is not None and cur[0] is not None and cur[1] is not None:
+            # F46 (v0.11): deep-indent parenthesized roman content row — the
+            # 2023-11 1C MS prints '(ii)   best fit curve …' at indent 22,
+            # past MS_ROW_RE's {0,20} window, so the row was absorbed as
+            # content into the (i) block and 6(c)(ii)/6(d)(ii) stayed honestly
+            # unmatched. Same ascending-sequence gate as the bare-roman
+            # branch: the roman must be exactly the NEXT one for this
+            # (question, letter); anything else stays content.
+            roman, rest = mdr.group(1).lower(), mdr.group(2)
+            k = (cur[0], cur[1])
+            # gate on the CURRENT entry's roman when it carries one (the
+            # 2023-11 '(i)' rows arrived via MS_ROW_RE, which never touches
+            # last_roman — gating on last_roman alone would expect 'i' again
+            # and re-absorb these rows as content)
+            expected = (_roman_idx(cur[2]) + 1) if cur[2] else last_roman.get(k, -1) + 1
             if _roman_idx(roman) == expected:
                 cur = (cur[0], cur[1], roman)
                 last_roman[k] = expected
@@ -1190,6 +1287,21 @@ def main():
         for e in json.loads(mcq_keys_path.read_text()).get("entries", []):
             mcq_key_overrides[(e["series"], e["part"])] = e
     mcq_keys_applied = []
+    # v0.11 (F47): manual MS-linkage ledger — the same human-adjudication
+    # doctrine as MCQ-KEYS.json, for STRUCTURED parts whose printed MS answer
+    # is not machine-linkable text. The 2019-06 3(d)(ii) answer cell is a
+    # printed image (bordered Property table with ticks): the pipeline
+    # refused to fabricate text for it (F42/C52 honest refusal), so the
+    # answer of record is the eyeballed verbatim transcription of that image,
+    # decided from the rendered MS page — never model guessing. Fail-closed:
+    # an override applies ONLY when positional linkage found nothing for the
+    # part, and only for non-MCQ parts (MCQ adjudication has its own ledger).
+    ms_link_overrides = {}
+    ms_link_overrides_path = RES_DIR / "Official-ExamQuestion" / "MS-LINK-OVERRIDES.json"
+    if ms_link_overrides_path.exists():
+        for e in json.loads(ms_link_overrides_path.read_text()).get("entries", []):
+            ms_link_overrides[(e["series"], e["paper"], e["part"])] = e
+    ms_link_applied = []
     for q in doc_questions:
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
@@ -1228,6 +1340,11 @@ def main():
                 lines = list(mk["ms_lines"])
                 p["answer_key_source"] = "mcq-keys-ledger"
                 mcq_keys_applied.append(f"{series}/{p['part_number']}")
+            mlo = ms_link_overrides.get((series, paper, p["part_number"]))
+            if mlo and p["question_type"] != "multiple_choice" and not lines:
+                lines = list(mlo["ms_lines"])
+                p["answer_key_source"] = "ms-link-overrides-ledger"
+                ms_link_applied.append(f"{series}:{paper}/{p['part_number']}")
             raw = re.sub(r"\s{2,}", " ", " ".join(lines)).strip()
             p["answer_status"] = "linked" if raw else "unmatched"
             p["answer_raw"] = raw
@@ -1300,7 +1417,7 @@ def main():
 
     # ---- page anchoring + assets -------------------------------------------
     pdf = fitz.open(QP_PDF)
-    page_norm = [norm(pg.get_text()) for pg in pdf]
+    page_norm = [norm(normalize_pua(pg.get_text())) for pg in pdf]   # F48: same mapping both sides
     # v0.10 (F41): OCR-covered pages contribute their prepared text to the
     # page-normalized index, so mentions on recovered pages anchor with real
     # page attribution.
@@ -2365,6 +2482,7 @@ def main():
         nc_results.append({"id": "N3-fake-spec-code", "expected_gate": "G6", "detected": g6_nc})
     report["negative_controls"] = nc_results
     report["mcq_keys_applied"] = mcq_keys_applied
+    report["ms_link_overrides_applied"] = ms_link_applied
     report["spec_tagging"] = {
         "tagged": sum(1 for p in parts_all if p.get("spec_point_codes")),
         "parts": len(parts_all),

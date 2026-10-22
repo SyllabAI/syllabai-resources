@@ -32,7 +32,7 @@ Give the best method for separating the dyes in black ink.
 
 ### 1(a)(iii) [1]
 
-Give the best method for obtaining pure water from seawater. 
+Give the best method for obtaining pure water from seawater.
 
 
 **Mark scheme answer**
@@ -133,7 +133,7 @@ Give a chemical equation for the reaction between iron and sulfuric acid.
 
 ### 2(b)(ii) [1]
 
-Give a test for hydrogen. 
+Give a test for hydrogen.
 
 
 **Mark scheme answer**
@@ -274,7 +274,7 @@ Give two characteristics of a homologous series. 1 2
 
 ### 4(a)(ii) [2]
 
-Draw a dot-and-cross diagram to show the bonding in a molecule of ethene. Show outer electrons only. 
+Draw a dot-and-cross diagram to show the bonding in a molecule of ethene. Show outer electrons only.
 
 
 **Mark scheme answer**
@@ -311,7 +311,7 @@ State why the empirical formula of all alkenes in this homologous series is CH2
 
 ### 4(b)(ii) [2]
 
-Propene can be polymerised to form poly(propene). Draw the displayed formula of propene and the repeat unit of poly(propene). propene repeat unit of poly(propene) 
+Propene can be polymerised to form poly(propene). Draw the displayed formula of propene and the repeat unit of poly(propene). propene repeat unit of poly(propene)
 
 
 **Mark scheme answer**
@@ -406,7 +406,7 @@ Give two other observations when lithium reacts with water. 1 2
 
 ### 5(a)(ii) [2]
 
-A few drops of methyl orange are added to the solution in the trough. Explain the final colour of the solution. 
+A few drops of methyl orange are added to the solution in the trough. Explain the final colour of the solution.
 
 
 **Mark scheme answer**
@@ -501,7 +501,7 @@ Give the formula of each ion in lead(II) nitrate. lead ion nitrate ion
 
 ### 6(a)(iii) [2]
 
-Calculate the relative formula mass (Mr) of lead(II) nitrate, Pb(NO3)2 Mr = 
+Calculate the relative formula mass (Mr) of lead(II) nitrate, Pb(NO3)2 Mr =
 
 
 **Mark scheme answer**
@@ -545,7 +545,7 @@ Draw a circle around the anomalous result.
 
 ### 6(b)(iii) [2]
 
-Draw a line of best fit through the first four points and another line of best fit through the last three points. Make sure that the lines cross. 4.0 3.0 Height of precipitate in cm 2.0 1.0 0 2.0 4.0 6.0 8.0 10.0 12.0 14.0 Volume of lead(II) nitrate in cm3 
+Draw a line of best fit through the first four points and another line of best fit through the last three points. Make sure that the lines cross. 4.0 3.0 Height of precipitate in cm 2.0 1.0 0 2.0 4.0 6.0 8.0 10.0 12.0 14.0 Volume of lead(II) nitrate in cm3
 
 
 **Mark scheme answer**
@@ -633,24 +633,24 @@ A sample of bromine contains two isotopes. • Br–79 with relative abundance 5
 
 > M1 79 × 52.8 + 81 × 47.2 OR 7994.4 correct answer
 > without working
-> M2 7994.4  100 OR 79.944 scores 3
+> M2 7994.4 ÷ 100 OR 79.944 scores 3
 > M3 79.9 79.944 without
 > working scores 2
 > M3 dep on use of 79
 > & 81 in calculation
 
 - **(1)** 79 × 52.8 + 81 × 47.2 OR 7994.4 correct answer
-- **(1)** 7994.4  100 OR 79.944 scores 3
+- **(1)** 7994.4 ÷ 100 OR 79.944 scores 3
 - **(1)** 79.9 79.944 without
 
 ### 7(c) [3]
 
-Aluminium reacts with chlorine to form aluminium chloride. This is the equation for the reaction. 2Al + 3Cl2 → 2AlCl3 Calculate the minimum mass of chlorine needed to form 26.7 g of aluminium chloride. [for Cl2 , Mr = 71 for AlCl3 , Mr = 133.5] minimum mass of chlorine = g 
+Aluminium reacts with chlorine to form aluminium chloride. This is the equation for the reaction. 2Al + 3Cl2 → 2AlCl3 Calculate the minimum mass of chlorine needed to form 26.7 g of aluminium chloride. [for Cl2 , Mr = 71 for AlCl3 , Mr = 133.5] minimum mass of chlorine = g
 
 
 **Mark scheme answer**
 
-> M1 (amount of AlCl3 =) 26.7  133.5 OR 0.2(00) (mol) correct answer
+> M1 (amount of AlCl3 =) 26.7 ÷ 133.5 OR 0.2(00) (mol) correct answer
 > without working
 > scores 3
 > M2 (amount of Cl2 =) 0.2(00) × 3 OR 0.3(00) (mol) ALLOW ECF on M1,
@@ -666,7 +666,7 @@ Aluminium reacts with chlorine to form aluminium chloride. This is the equation 
 > 267
 > M3 = 21.3 (g)
 
-- **(3)** M1 (amount of AlCl3 =) 26.7  133.5 OR 0.2(00) (mol) correct answer
+- **(3)** M1 (amount of AlCl3 =) 26.7 ÷ 133.5 OR 0.2(00) (mol) correct answer
 
 ### 7(d) [6]
 
@@ -732,7 +732,7 @@ State why the student stirs the water.
 
 ### 8(a)(ii) [1]
 
-Suggest why it is important that the student immediately finds the final mass of the spirit burner and pentanol. 
+Suggest why it is important that the student immediately finds the final mass of the spirit burner and pentanol.
 
 
 **Mark scheme answer**
@@ -765,7 +765,7 @@ The diagram shows the initial temperature of the water. °C 20 Complete the tabl
 
 ### 8(c)(i) [2]
 
-Show by calculation that the heat energy (Q) supplied by the pentanol is approximately 15 000 J. [for water, c = 4.2 J / g / °C] [for 1.0 cm3 of water, mass = 1.0 g] 
+Show by calculation that the heat energy (Q) supplied by the pentanol is approximately 15 000 J. [for water, c = 4.2 J / g / °C] [for 1.0 cm3 of water, mass = 1.0 g]
 
 
 **Mark scheme answer**
@@ -791,24 +791,24 @@ The table gives the initial and final mass readings. Initial mass of spirit burn
 > M1 (mass of pentanol =) 90.11 − 89.75 OR 0.36 (g) Correct answer
 > without working
 > scores 5
-> M2 (amount of pentanol =) 0.36  88 OR 0.0041 (mol) ALLOW ecf on
+> M2 (amount of pentanol =) 0.36 ÷ 88 OR 0.0041 (mol) ALLOW ecf on
 > incorrect mass
 > REJECT 0.004
 > (which gives final
 > answer of −3675)
-> M3 14 700  0.0041 OR 3 600 000 (J/mol) ALLOW ecf as long
+> M3 14 700 ÷ 0.0041 OR 3 600 000 (J/mol) ALLOW ecf as long
 > as there has been an
 > attempt to calculate
 > moles of pentanol
-> M4 3 600 000  1000 OR 3600 (kJ/mol)
-> M5 (H =) − 3600 (kJ/mol) ALLOW any SF
+> M4 3 600 000 ÷ 1000 OR 3600 (kJ/mol)
+> M5 (ΔH =) − 3600 (kJ/mol) ALLOW any SF
 > except 1 SF
 
 - **(1)** (mass of pentanol =) 90.11 − 89.75 OR 0.36 (g) Correct answer
-- **(1)** (amount of pentanol =) 0.36  88 OR 0.0041 (mol) ALLOW ecf on
-- **(1)** 14 700  0.0041 OR 3 600 000 (J/mol) ALLOW ecf as long
-- **(1)** 3 600 000  1000 OR 3600 (kJ/mol)
-- **(1)** (H =) − 3600 (kJ/mol) ALLOW any SF
+- **(1)** (amount of pentanol =) 0.36 ÷ 88 OR 0.0041 (mol) ALLOW ecf on
+- **(1)** 14 700 ÷ 0.0041 OR 3 600 000 (J/mol) ALLOW ecf as long
+- **(1)** 3 600 000 ÷ 1000 OR 3600 (kJ/mol)
+- **(1)** (ΔH =) − 3600 (kJ/mol) ALLOW any SF
 
 ### 8(d) [2]
 
@@ -834,7 +834,7 @@ This question is about different hydrated forms of sodium sulfate.
 
 **(a)** A compound has the formula Na2SO4.7H2O
 
-**(b)** Another hydrated form of sodium sulfate has the formula Na2SO4.xH2O A student uses this apparatus to find the value of x. hydrated sodium sulfate heat ice water  This is the student’s method. • find the mass of an empty tube • add solid hydrated sodium sulfate to the tube • find the mass of the tube and hydrated sodium sulfate • heat the tube for several minutes • allow the tube to cool and find the mass of the tube and contents
+**(b)** Another hydrated form of sodium sulfate has the formula Na2SO4.xH2O A student uses this apparatus to find the value of x. hydrated sodium sulfate heat ice water This is the student’s method. • find the mass of an empty tube • add solid hydrated sodium sulfate to the tube • find the mass of the tube and hydrated sodium sulfate • heat the tube for several minutes • allow the tube to cool and find the mass of the tube and contents
 
 ### 9(a)(i) [1]
 
@@ -911,7 +911,7 @@ Explain the role of the ice in the beaker.
 
 ### 9(b)(iii) [2]
 
-Describe how the student could prove that the liquid collected is pure water. 
+Describe how the student could prove that the liquid collected is pure water.
 
 
 **Mark scheme answer**
@@ -942,11 +942,11 @@ The table gives the student’s results. Mass of empty tube in g 15.83 Mass of t
 > M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g) Correct answer
 > without working
 > M2 mass of H2O (= 23.88 − 19.38) = 4.50 (g) scores 5
-> M3 amount of Na2SO4 (= 3.55  142) = 0.025 (mol) ALLOW ECF from
+> M3 amount of Na2SO4 (= 3.55 ÷ 142) = 0.025 (mol) ALLOW ECF from
 > incorrect M1
-> M4 amount of H2O (= 4.50  18) = 0.25 (mol) ALLOW ECF from
+> M4 amount of H2O (= 4.50 ÷ 18) = 0.25 (mol) ALLOW ECF from
 > incorrect M2
-> M5 x (= 0.25  0.025) = 10 ALLOW an integer
+> M5 x (= 0.25 ÷ 0.025) = 10 ALLOW an integer
 > ECF on M3 & M4
 > ACCEPT alternative
 > correct methods
@@ -956,7 +956,7 @@ The table gives the student’s results. Mass of empty tube in g 15.83 Mass of t
 > M3 mass of water combined with 1 mole of sodium
 > sulfate = 142 × 4.50 = 180 (g)
 > 3.55
-> M4 moles of H2O = 180  18
+> M4 moles of H2O = 180 ÷ 18
 > M5 therefore, x = 10
 
 - **(5)** M1 mass of Na2SO4 (= 19.38 − 15.83) = 3.55 (g) Correct answer
@@ -984,10 +984,10 @@ Show by calculation that the zinc is in excess.
 > OR
 > M1 moles of zinc that can react with 0.0036 moles of
 > HCl = 0.0036 / 2 = 0.0018 (mol)
-> M2 moles of Zn present = 1.3  65 = 0.02 (mol)
+> M2 moles of Zn present = 1.3 ÷ 65 = 0.02 (mol)
 > (which is more than 0.0018, so zinc is in excess)
 > OR
-> M1 amount of zinc = 1.3  65 = 0.02 (mol)
+> M1 amount of zinc = 1.3 ÷ 65 = 0.02 (mol)
 > M2 amount of HCl that can react = 2 x 0.02 = 0.04
 > (mol) (which is greater than 0.0036, so zinc is in
 > excess)
@@ -996,7 +996,7 @@ Show by calculation that the zinc is in excess.
 
 ### 10(a)(ii) [2]
 
-The volume of hydrogen collected is measured at regular time intervals. Curve A shows the results of this experiment. A Volume of 30 hydrogen in cm3 20 Time The experiment is repeated using 1.3 g of zinc powder instead of zinc granules. All other conditions are kept the same. On the grid, draw the curve you would expect to obtain. 
+The volume of hydrogen collected is measured at regular time intervals. Curve A shows the results of this experiment. A Volume of 30 hydrogen in cm3 20 Time The experiment is repeated using 1.3 g of zinc powder instead of zinc granules. All other conditions are kept the same. On the grid, draw the curve you would expect to obtain.
 
 ![grid — official paper figure (qp.pdf p.27)](assets/asset_10_a_ii_grid.png)
 
@@ -1012,7 +1012,7 @@ The volume of hydrogen collected is measured at regular time intervals. Curve A 
 
 ### 10(b)(i) [4]
 
-In one of these experiments the student repeats the original method but at a temperature of 20 °C. Explain in terms of particle collision theory why the curve obtained could be curve B. 
+In one of these experiments the student repeats the original method but at a temperature of 20 °C. Explain in terms of particle collision theory why the curve obtained could be curve B.
 
 
 **Mark scheme answer**

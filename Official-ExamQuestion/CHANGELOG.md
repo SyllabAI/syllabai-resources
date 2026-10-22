@@ -4,6 +4,43 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.11.0 — 2026-10-22 · wave 14: the 3 honest answer-linkage refusals + PUA→Unicode (F46–F48)
+
+The corpus review queue empties of linkage items: G5 100% on 2019-06 1C (64/64) and
+2023-11 1C (66/66); review_queue holds only the 4 documented genuinely-blank stub
+verdicts corpus-wide.
+
+- **Deep-indent roman MS rows (F46)** — the 2023-11 1C MS prints the 6(c)(ii)/6(d)(ii)
+  answer rows at indent 22, past MS_ROW_RE's `{0,20}` window; both rows were absorbed
+  into the (i)-blocks and the parts stayed honestly unmatched. New `MS_DEEP_ROMAN_RE`
+  branch (indent 21–30, parenthesized romans only, ascending-sequence gate keyed on the
+  current entry's roman). Corpus-wide scope audit: exactly the 2 target rows match.
+- **MS-LINK-OVERRIDES ledger (F47)** — the MCQ-KEYS human-adjudication doctrine extended
+  to structured parts: 2019-06 3(d)(ii)'s MS answer cell is a printed image (Property
+  table with ticks); the ledger carries the rendered-page evidence and the verbatim
+  tick-table transcription; converter applies it before solution emission, fail-closed
+  (only when positional linkage found nothing, never for MCQ parts). The superseded
+  staged design (interpretive summary + ms.pdf image asset) violated the verbatim
+  doctrine and was declined.
+- **PUA→Unicode pass (F48)** — 23 distinct Private Use Area chars in the source text
+  layer (SymbolMT / Wingdings 1-2-3 / EuclidExtra / CID subsets), ~2.4k served-string
+  occurrences, all mapped from per-glyph evidence (font trace + page render): → ×3,
+  Δ ×2, ⇌, Σ, ✓, • ×3, °, ×, ÷, −, ─, ↑; dotted answer-line rules + 5 cover-page
+  ornament pairs dropped as furniture. Normalization sits at text ingest (clean_lines)
+  and on page_norm (same table both sides of the anchor probes) and is FAIL-CLOSED: an
+  unmapped PUA char aborts the run. Four page anchors recover (2021-06 2C 7(c)(i),
+  2022-06 2C 5(c)(ii), 2025-06 2C 6(a)(ii), 2026-06 1C 7(a)(ii) — each verified).
+- **Corpus effect** — 256/256 gates PASS; parity vs v0.10.1 audited per-field: zero
+  marks / spec-code / asset changes, part census 1548 unchanged; deltas are exactly the
+  PUA strings + the 3 linkages (+ (i)-block de-pollution) + 4 anchor gains + gate-detail
+  improvements. The exporter's G-E1 no-op law caught this run's first glyph draft
+  (en dash / em dash) against the bundle of record; the corpus adopted the better-evidenced
+  U+2212 (minus) and U+2500 (bond rule) instead; the final export discloses exactly one
+  delta — the 3(d)(ii) corpus-of-record reconciliation.
+- **Canaries** — 56 hold: C52 rewritten (refusal pin → adjudicated-linkage pin), C56
+  no_pua_served (corpus-wide absence + 9 mapping pins), C57 ms_link_overrides_ledger
+  (bidirectional), C58 deep-roman linkage; converter_version_floor 0.11.0.
+
 ## 0.10.1 — 2026-10-22 · optional crop pass: ledger-driven manual crops (F45)
 
 The 8 crop-required stubs are dispositioned: 4 become real crops, 4 are re-verified

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-21T23:06:11Z",
+ "generated_utc": "2026-10-22T03:10:48Z",
  "series": "2023-11",
  "paper": "1C",
  "gates": [
@@ -61,12 +61,9 @@
   {
    "gate": "G5-answer-linkage",
    "status": "PASS",
-   "summary": "MS linkage 64/66 (97%)",
+   "summary": "MS linkage 66/66 (100%)",
    "details": {
-    "unmatched": [
-     "6(c)(ii)",
-     "6(d)(ii)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -83,12 +80,12 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 64/64 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 64 parts, agrees with QP marks on 63",
+   "summary": "solution_md on 66/66 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 66 parts, agrees with QP marks on 65",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 64,
-    "ms_marks_agree": 63,
+    "ms_marks_seen": 66,
+    "ms_marks_agree": 65,
     "ms_marks_disagree": [
      "2(a) (ms=1 qp=2)"
     ]
@@ -113,18 +110,10 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "6(c)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(d)(ii)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "ocr_pages": [],
  "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
  "spec_tagging": {
   "tagged": 66,
   "parts": 66,

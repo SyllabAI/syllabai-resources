@@ -1,0 +1,22 @@
+{
+ "schema": "syllabai.ms-link-overrides/0.1",
+ "note": "Human-adjudicated MS answer linkage for STRUCTURED parts where the printed mark scheme's answer is not machine-linkable text. Every entry carries the eyeballed verbatim transcription of the printed answer block and the evidence it was decided from; the converter applies it BEFORE solution emission (fail-closed: only when positional linkage found nothing for the part, and never for MCQ parts — MCQ adjudication lives in MCQ-KEYS.json). Answers are decided from the printed MS page (rendered + viewed) — never from model guessing.",
+ "adjudicated_utc": "2026-10-22",
+ "evidence_dir": "wave-14 probe renders (EXAMQ_UPLOAD_DIR official-4CH1-1C-2019-06-ms.pdf page 6, answer cell + full page)",
+ "entries": [
+  {
+   "series": "2019-06",
+   "paper": "1C",
+   "part": "3(d)(ii)",
+   "marks": 2,
+   "evidence": "printed MS p6: the 3(d)(ii) Answer cell is an embedded IMAGE — a bordered 'Property' table with a tick column: rows 'good conductor of electricity', 'high density', 'high melting point' (ticked), 'unreactive' (ticked); Marks column reads 2 (Total for Q3 = 6). This is the last honest F42 refusal: positional linkage correctly found no text to link (C52 pinned the refusal). The transcription below is the image's verbatim content, eyeballed from the rendered page; nothing is added or reworded beyond the table's own line structure.",
+   "ms_lines": [
+    "Property                                       2",
+    "good conductor of electricity",
+    "high density",
+    "high melting point   \u2713",
+    "unreactive           \u2713"
+   ]
+  }
+ ]
+}

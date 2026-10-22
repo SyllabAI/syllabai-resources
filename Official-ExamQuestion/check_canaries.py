@@ -413,6 +413,107 @@ for c in cans:
                                 ok = False
                                 print(f"  ! {d.name}/{pd.name} {p['part_number']}: solution block carries the MS page-table header")
             print(f"  (solution blocks scanned: {n})")
+        elif chk == "no_pua_served":
+            # C56 (v0.11/F48): no served string in any topic.json may carry a
+            # Private Use Area char (U+E000–U+F8FF) — every symbol-font glyph
+            # must surface as its real Unicode form (PUA_MAP). The optional
+            # pins re-prove specific evidenced mappings at their exact parts,
+            # so a silent PUA_MAP regression (e.g. mapping a glyph to '')
+            # cannot pass the absence law.
+            ok = True
+            n_files = 0
+
+            def _walk(o, path, hits):
+                if isinstance(o, dict):
+                    for k, v in o.items():
+                        _walk(v, f"{path}.{k}", hits)
+                elif isinstance(o, list):
+                    for i, v in enumerate(o):
+                        _walk(v, f"{path}[{i}]", hits)
+                elif isinstance(o, str):
+                    for idx, ch in enumerate(o):
+                        if 0xE000 <= ord(ch) <= 0xF8FF:
+                            hits.append(f"{path}[{idx}]=U+{ord(ch):04X}")
+
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    n_files += 1
+                    hits = []
+                    _walk(t, "$", hits)
+                    for h in hits[:3]:
+                        print(f"  ! {d.name}/{pd.name}: PUA char served at {h}")
+                    if hits:
+                        ok = False
+            for pin in c.get("pins") or []:
+                t = json.loads((BASE / pin["series"] /
+                                f"4CH1-{pin.get('paper', '1C')}" / "topic.json").read_text())
+                texts = []
+                for q in t["questions"]:
+                    for p in q["parts"]:
+                        if pin.get("part") and p["part_number"] != pin["part"]:
+                            continue
+                        if pin.get("field") == "stem":
+                            texts.append(q.get("stem_md") or "")
+                        else:
+                            fields = [p.get("problem_md") or "",
+                                      p.get("solution_md") or "",
+                                      "\n".join(m.get("text_md") or ""
+                                                for m in p.get("mark_points") or [])]
+                            texts.append("\n".join(fields))
+                if not any(pin["contains"] in tx for tx in texts):
+                    ok = False
+                    print(f"  ! pin missing: {pin['series']}/{pin.get('paper', '1C')} "
+                          f"{pin.get('part')} {pin['contains']!r}")
+            print(f"  (topic.json scanned: {n_files}, pins: {len(c.get('pins') or [])})")
+        elif chk == "ms_link_overrides_ledger":
+            # C57 (v0.11/F47): MS-LINK-OVERRIDES.json and the corpus must agree
+            # in both directions — every adjudicated entry is applied to its
+            # part (linked, answer_key_source marker, validation report lists
+            # the application, solution_md rebuilt from the adjudicated block),
+            # and no part claims adjudication that the ledger does not carry.
+            ledger = json.loads((HERE / "MS-LINK-OVERRIDES.json").read_text()).get("entries", [])
+            ok = True
+            n_applied = 0
+            corpus = {}
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    paper = pd.name.split("-")[1]
+                    rep = json.loads((pd / "validation-report.json").read_text())
+                    applied = set(rep.get("ms_link_overrides_applied") or [])
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            if p.get("answer_key_source") == "ms-link-overrides-ledger":
+                                corpus[(d.name, paper, p["part_number"])] = (
+                                    p, f"{d.name}:{paper}/{p['part_number']}" in applied)
+            for e in ledger:
+                s, paper, part = e["series"], e["paper"], e["part"]
+                if (s, paper, part) not in corpus:
+                    ok = False
+                    print(f"  ! ledger {s}:{paper} {part}: no corpus part carries the adjudication")
+                    continue
+                p, in_report = corpus[(s, paper, part)]
+                n_applied += 1
+                if p.get("answer_status") != "linked":
+                    ok = False
+                    print(f"  ! ledger {s}:{paper} {part}: applied but answer_status != linked")
+                if not in_report:
+                    ok = False
+                    print(f"  ! ledger {s}:{paper} {part}: applied but missing from validation report")
+                if not (p.get("solution_md") or "").startswith(e["ms_lines"][0].split()[0]):
+                    ok = False
+                    print(f"  ! ledger {s}:{paper} {part}: solution_md not rebuilt from adjudicated block")
+            for (s, paper, part) in corpus:
+                if not any(e["series"] == s and e["paper"] == paper and e["part"] == part
+                           for e in ledger):
+                    ok = False
+                    print(f"  ! {s}:{paper} {part}: answer_key_source marker without a ledger entry")
+            print(f"  (ledger entries: {len(ledger)}, applied: {n_applied})")
         elif chk == "ocr_pages_receipt":
             # C48 (v0.10/F41): the OCR source-layer receipts must be present and
             # cover exactly the recovered pages (fail-closed sha verification is

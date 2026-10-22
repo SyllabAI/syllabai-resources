@@ -403,13 +403,20 @@ def main():
         manifest = json.load(open(args.manifest))
         official_n = sum(1 for t in out if is_official(t))
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.11.0 corpus (merged main): the F46 PUA->Unicode mapping pass "
-            "(18 evidence-checked mappings, corpus text layer PUA-free, C60 pins it) + the wave-14 "
-            "answer-linkage closures: F47 wide-marker MS rows (2023-11 1C 6(c)(ii)/6(d)(ii) linked, "
-            "(i)-block pollution removed) and F48 ANSWER-LINKS.json ledger (2019-06 1C 3(d)(ii) "
-            "MS-image answer human-adjudicated + rendered image asset served; the last 3 honest "
-            "G5 refusals resolved - review queue empty corpus-wide) + F49 canonical probe matching "
-            "(2 anchors restored, 4 silently-missing anchors gained). "
+            "ADR-037 converter v0.11.0 corpus (merged main): wave-14 closes the last three "
+            "honest review items, corpus review queue now empty. F48 PUA->Unicode pass: all "
+            "23 symbol-font PUA chars in the source text layer map to real Unicode from "
+            "evidence (font trace + page render per glyph - arrows, Delta x2, equilibrium, "
+            "Sigma, check, bullets, degree, times, divide, minus, bond rule); served corpus "
+            "text is PUA-free and fail-closed on unmapped chars (C56 pins absence + nine "
+            "mappings). F46 deep-indent roman MS rows: 2023-11 1C 6(c)(ii)/6(d)(ii) link "
+            "(G5 66/66), their (i)-blocks lose the absorbed rows. F47 MS-LINK-OVERRIDES "
+            "ledger: 2019-06 1C 3(d)(ii) MS-image answer cell human-adjudicated as verbatim "
+            "tick-table transcription (C52/C57). Four page anchors restored by the cleaner "
+            "text (2021-06 2C 7(c)(i), 2022-06 2C 5(c)(ii), 2025-06 2C 6(a)(ii), 2026-06 1C "
+            "7(a)(ii)). This bundle reconciles to the corpus of record on one part: "
+            "3(d)(ii) serves the verbatim transcription (the previously staged interpretive "
+            "summary + ms-image asset is superseded; sourcePage 7 restored). "
             f"{official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} parts, all "
             "spec-tagged (1C wave 2 + 2C wave 1).")
         os.makedirs(args.out_stage, exist_ok=True)

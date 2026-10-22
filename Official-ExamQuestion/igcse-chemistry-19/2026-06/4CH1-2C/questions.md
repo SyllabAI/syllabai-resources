@@ -35,7 +35,7 @@ The box gives some names used in polymerisation. addition alkane alkene condensa
 
 ### 1(b) [1]
 
-Which structure shows the correct repeating unit for poly(propene)? H H H H H H A C C C B C C C H H H H H CH3 H C C C D C C H H CH3 
+Which structure shows the correct repeating unit for poly(propene)? H H H H H H A C C C B C C C H H H H H CH3 H C C C D C C H H CH3
 
 
 **Mark scheme answer**
@@ -119,7 +119,7 @@ Name a negative ion that always gives a salt that is soluble in water.
 
 ### 2(b) [2]
 
-A student sets up this apparatus to do a titration. bung burette 250 cm3 beaker The student makes two mistakes when setting up their apparatus. Suggest two changes to the student’s set up that need to be made if the titration is to be done correctly. 1 2 
+A student sets up this apparatus to do a titration. bung burette 250 cm3 beaker The student makes two mistakes when setting up their apparatus. Suggest two changes to the student’s set up that need to be made if the titration is to be done correctly. 1 2
 
 ![apparatus — official paper figure (qp.pdf p.7)](assets/asset_2_b_apparatus.png)
 
@@ -164,7 +164,7 @@ The student plans this method for their titration. • add 25.0 cm3 of an alkali
 
 ### 2(d)(i) [1]
 
-Concordant results are those within 0.20 cm3 of each other. Add ticks (ü) to the table to show the concordant results. 
+Concordant results are those within 0.20 cm3 of each other. Add ticks (ü) to the table to show the concordant results.
 
 ![table — official paper figure (qp.pdf p.8) — shared with asset_2_d_table_stem](assets/asset_2_d_table_stem.png)
 
@@ -324,7 +324,7 @@ Give the half‑equation for the reaction at the positive electrode.
 
 ### 3(b)(iv) [1]
 
-Identify the particles that flow through the wires connecting the electrodes. 
+Identify the particles that flow through the wires connecting the electrodes.
 
 
 **Mark scheme answer**
@@ -419,7 +419,7 @@ Give a reason why adding blue litmus paper to a solution of potassium chloride i
 
 ### 4(b)(ii) [2]
 
-Give a suitable test for chloride ions. 
+Give a suitable test for chloride ions.
 
 
 **Mark scheme answer**
@@ -470,7 +470,7 @@ Ethanoic acid reacts with ethanol to produce ethyl ethanoate and water. This rea
 
 ### 5(a) [2]
 
-Complete the equation for the reaction between ethanoic acid and ethanol by adding the displayed formula of the missing reactant and the missing product. CH3COOH +  + H2O
+Complete the equation for the reaction between ethanoic acid and ethanol by adding the displayed formula of the missing reactant and the missing product. CH3COOH + ⇌ + H2O
 
 
 **Mark scheme answer**
@@ -503,7 +503,7 @@ Ethanoic acid and ethanol are mixed in a beaker. ethanoic acid and ethanol Give 
 
 ### 5(c)(i) [2]
 
-Explain how a catalyst works. 
+Explain how a catalyst works.
 
 
 **Mark scheme answer**
@@ -599,7 +599,7 @@ State the independent variable in this method.
 
 ### 6(d) [1]
 
-State why this method is not suitable for determining the solubility of barium sulfate. 
+State why this method is not suitable for determining the solubility of barium sulfate.
 
 
 **Mark scheme answer**
