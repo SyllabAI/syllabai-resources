@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:54Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2025-06 paper=1C",
+ "generated_utc": "2026-10-22T14:42:27Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2025-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-06:4CH1/1C",
  "source": {
   "qp_sha256": "d860cbae11a72b38853a3a5f3176845ee117a0b5a6a01b4bb766f7bb88bfb06f",
@@ -34,12 +34,12 @@
      "problem_md": "Label the three subatomic particles on the diagram.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 •_________ proton must be in the\nright order\nM2 o_________ neutron\nif proton and\nM3 x_________ electron neutron in wrong\norder allow one\nmark for M1 & M2.",
+     "solution_md": "M1 •_________ proton must be in the\nM2 o_________ neutron\nM3 x_________ electron\n\nright order if proton and neutron in wrong order allow one mark for M1 & M2.",
      "mark_points": [
       {
        "id": "2025-06-1-a-MP1",
        "marks": 1,
-       "text_md": "•_________ proton must be in the"
+       "text_md": "•_________ proton must be in the\nright order if proton and neutron in wrong order allow one mark for M1 & M2."
       },
       {
        "id": "2025-06-1-a-MP2",
@@ -49,7 +49,7 @@
       {
        "id": "2025-06-1-a-MP3",
        "marks": 1,
-       "text_md": "x_________ electron neutron in wrong"
+       "text_md": "x_________ electron"
       }
      ],
      "source_page": 3,
@@ -129,12 +129,12 @@
      "problem_md": "Give the name of this element.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "boron ALLOW B\nQuestion number Answer Notes Marks",
+     "solution_md": "boron\nQuestion number Answer Notes\n\nALLOW B\nMarks",
      "mark_points": [
       {
        "id": "2025-06-1-c-MP1",
        "marks": 1,
-       "text_md": "boron ALLOW B\nQuestion number Answer Notes Marks"
+       "text_md": "boron\nQuestion number Answer Notes\n\nALLOW B\nMarks"
       }
      ],
      "source_page": 3,
@@ -159,15 +159,15 @@
      "part_number": "2(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "State two observations made when lithium reacts with water. 1 2",
+     "problem_md": "State two observations made when lithium reacts with water. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any 2 from\nM1 effervescence /fizzing /bubbles IGNORE gas given off\nM2 moves moves on the surface\nscores M2 and M3\nM3 floats\nM4 gets smaller / disappears ALLOW dissolves\nIGNORE heat\nproduced\nIGNORE colour change",
+     "solution_md": "Any 2 from\nM1 effervescence /fizzing /bubbles\nM2 moves\nM3 floats\nM4 gets smaller / disappears\n\nIGNORE gas given off moves on the surface scores M2 and M3\nALLOW dissolves\nIGNORE heat produced\nIGNORE colour change",
      "mark_points": [
       {
        "id": "2025-06-2-a-MP1",
        "marks": 2,
-       "text_md": "Any 2 from\nM1 effervescence /fizzing /bubbles IGNORE gas given off\nM2 moves moves on the surface\nscores M2 and M3\nM3 floats\nM4 gets smaller / disappears ALLOW dissolves\nIGNORE heat\nproduced\nIGNORE colour change"
+       "text_md": "Any 2 from\nM1 effervescence /fizzing /bubbles\nM2 moves\nM3 floats\nM4 gets smaller / disappears\n\nIGNORE gas given off moves on the surface scores M2 and M3\nALLOW dissolves\nIGNORE heat produced\nIGNORE colour change"
       }
      ],
      "source_page": 4,
@@ -227,12 +227,12 @@
      "problem_md": "Explain the colour and pH of the solution in the trough.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three\npoints\nM1 (colour of solution is) blue/purple ALLOW indigo/violet\nM2 (pH value or range between) 10 and 14\nM3 (as the solution is) alkaline /an alkali ACCEPT (the solution\nis) basic",
+     "solution_md": "An explanation that links the following three\npoints\nM1 (colour of solution is) blue/purple\nM2 (pH value or range between) 10 and 14\nM3 (as the solution is) alkaline /an alkali\n\nALLOW indigo/violet\nACCEPT (the solution is) basic",
      "mark_points": [
       {
        "id": "2025-06-2-c-i-MP1",
        "marks": 1,
-       "text_md": "(colour of solution is) blue/purple ALLOW indigo/violet"
+       "text_md": "(colour of solution is) blue/purple\nALLOW indigo/violet"
       },
       {
        "id": "2025-06-2-c-i-MP2",
@@ -242,7 +242,7 @@
       {
        "id": "2025-06-2-c-i-MP3",
        "marks": 1,
-       "text_md": "(as the solution is) alkaline /an alkali ACCEPT (the solution"
+       "text_md": "(as the solution is) alkaline /an alkali\nACCEPT (the solution is) basic"
       }
      ],
      "source_page": 4,
@@ -260,12 +260,12 @@
      "problem_md": "Give the formula of the ion responsible for this pH.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "− ACCEPT HO−\nOH",
+     "solution_md": "−\nOH\n\nACCEPT HO−",
      "mark_points": [
       {
        "id": "2025-06-2-c-ii-MP1",
        "marks": 1,
-       "text_md": "− ACCEPT HO−\nOH"
+       "text_md": "−\nOH\n\nACCEPT HO−"
       }
      ],
      "source_page": 4,
@@ -339,17 +339,17 @@
      "problem_md": "Explain why the start line on the paper is drawn in pencil rather than in ink.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 ink would dissolve in the solvent/pencil would ALLOW ink is\nnot dissolve in the solvent soluble/pencil is\ninsoluble\nM2 ink would travel/run/smudge/produce spots on ALLOW unable to\nthe chromatogram which would interfere with the calculate Rf value\nresults/ pencil would not produce spots on the\nchromatogram so would not interfere with the\nresults OWTTE",
+     "solution_md": "An explanation that links the following two points\nM1 ink would dissolve in the solvent/pencil would\nnot dissolve in the solvent\nM2 ink would travel/run/smudge/produce spots on\nthe chromatogram which would interfere with the\nresults/ pencil would not produce spots on the\nchromatogram so would not interfere with the\nresults OWTTE\n\nALLOW ink is soluble/pencil is insoluble\nALLOW unable to calculate Rf value",
      "mark_points": [
       {
        "id": "2025-06-3-a-MP1",
        "marks": 1,
-       "text_md": "ink would dissolve in the solvent/pencil would ALLOW ink is\nnot dissolve in the solvent soluble/pencil is"
+       "text_md": "ink would dissolve in the solvent/pencil would\nnot dissolve in the solvent\nALLOW ink is soluble/pencil is insoluble"
       },
       {
        "id": "2025-06-3-a-MP2",
        "marks": 1,
-       "text_md": "ink would travel/run/smudge/produce spots on ALLOW unable to\nthe chromatogram which would interfere with the calculate Rf value\nresults/ pencil would not produce spots on the\nchromatogram so would not interfere with the\nresults OWTTE"
+       "text_md": "ink would travel/run/smudge/produce spots on\nthe chromatogram which would interfere with the\nresults/ pencil would not produce spots on the\nchromatogram so would not interfere with the\nresults OWTTE\nALLOW unable to calculate Rf value"
       }
      ],
      "source_page": 6,
@@ -424,15 +424,15 @@
      "part_number": "3(d)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate the Rf value for the dye in W. Give your answer to two significant figures. Rf value =",
+     "problem_md": "Calculate the Rf value for the dye in W. Give your answer to two significant figures. Rf value = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 measurement to spot W = 2.2 cm/ 22 mm or ALLOW within range of\n2.3cm/ 23mm 2.2-2.3 cm\nM2 measurement to solvent front = 6.9 cm/ 69 mm\nM3 (Rf value =) 2.2 OR 2.3 more than 2 sig figs ALLOW ecf on incorrect\n6.9 6.9 measurements in M1\nand M2\nM4 0.32/0.33 ALLOW ecf corrected to\n2 sig figs\nQuestion number Answer Notes Marks",
+     "solution_md": "M1 measurement to spot W = 2.2 cm/ 22 mm or\n2.3cm/ 23mm\nM2 measurement to solvent front = 6.9 cm/ 69 mm\nM3 (Rf value =) 2.2 OR 2.3 more than 2 sig figs\n6.9 6.9\nM4 0.32/0.33\nQuestion number Answer Notes\n\nALLOW within range of 2.2-2.3 cm\nALLOW ecf on incorrect measurements in M1 and M2\nALLOW ecf corrected to 2 sig figs\nMarks",
      "mark_points": [
       {
        "id": "2025-06-3-d-MP1",
        "marks": 1,
-       "text_md": "measurement to spot W = 2.2 cm/ 22 mm or ALLOW within range of\n2.3cm/ 23mm 2.2-2.3 cm"
+       "text_md": "measurement to spot W = 2.2 cm/ 22 mm or\n2.3cm/ 23mm\nALLOW within range of 2.2-2.3 cm"
       },
       {
        "id": "2025-06-3-d-MP2",
@@ -442,12 +442,12 @@
       {
        "id": "2025-06-3-d-MP3",
        "marks": 1,
-       "text_md": "(Rf value =) 2.2 OR 2.3 more than 2 sig figs ALLOW ecf on incorrect\n6.9 6.9 measurements in M1"
+       "text_md": "(Rf value =) 2.2 OR 2.3 more than 2 sig figs\n6.9 6.9\nALLOW ecf on incorrect measurements in M1 and M2"
       },
       {
        "id": "2025-06-3-d-MP4",
        "marks": 1,
-       "text_md": "0.32/0.33 ALLOW ecf corrected to\nQuestion number Answer Notes Marks"
+       "text_md": "0.32/0.33\nQuestion number Answer Notes\nALLOW ecf corrected to 2 sig figs\nMarks"
       }
      ],
      "source_page": 7,
@@ -557,7 +557,7 @@
      "part_number": "4(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the relative formula mass (Mr) of Ca3(PO4)2 Mr of Ca3(PO4)2 =",
+     "problem_md": "Calculate the relative formula mass (Mr) of Ca3(PO4)2 Mr of Ca3(PO4)2 = ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "M1 Use of addition of Ca = 40 P = 31 O = 16\nM2 (40 × 3 + 31 × 2 + 16 × 8 =) 310",
@@ -584,20 +584,20 @@
      "part_number": "4(b)(ii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the percentage by mass of calcium in calcium phosphate. percentage = %",
+     "problem_md": "Calculate the percentage by mass of calcium in calcium phosphate. percentage = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 40 × 3 × 100 ALLOW ecf for Mr\n310 incorrectly calculated\nM2 39 (%) ALLOW 1 mark for 13 (%)\nif working shown\nALLOW any number of sig\nfigs except 1 e.g. 38.7 for\n2 marks or 12.9 for 1 mark",
+     "solution_md": "M1 40 × 3 × 100\n310\nM2 39 (%)\n\nALLOW ecf for Mr incorrectly calculated\nALLOW 1 mark for 13 (%) if working shown\nALLOW any number of sig figs except 1 e.g. 38.7 for 2 marks or 12.9 for 1 mark",
      "mark_points": [
       {
        "id": "2025-06-4-b-ii-MP1",
        "marks": 1,
-       "text_md": "40 × 3 × 100 ALLOW ecf for Mr\n310 incorrectly calculated"
+       "text_md": "40 × 3 × 100\n310\nALLOW ecf for Mr incorrectly calculated"
       },
       {
        "id": "2025-06-4-b-ii-MP2",
        "marks": 1,
-       "text_md": "39 (%) ALLOW 1 mark for 13 (%)"
+       "text_md": "39 (%)\nALLOW 1 mark for 13 (%) if working shown\nALLOW any number of sig figs except 1 e.g. 38.7 for 2 marks or 12.9 for 1 mark"
       }
      ],
      "source_page": 8,
@@ -611,15 +611,15 @@
      "part_number": "4(c)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calcium hydroxide can react with phosphoric acid to form calcium phosphate. Complete the equation for this reaction Ca(OH)2 + H3PO4 → Ca3(PO4)2 + H2O",
+     "problem_md": "Calcium hydroxide can react with phosphoric acid to form calcium phosphate. Complete the equation for this reaction. .......... Ca(OH)2 + .......... H3PO4 → .......... Ca3(PO4)2 + .......... H2O",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "3Ca(OH)2 + 2H3PO4 → (1)Ca3(PO4)2 + 6H2O ALLOW multiples and\nfractions",
+     "solution_md": "3Ca(OH)2 + 2H3PO4 → (1)Ca3(PO4)2 + 6H2O\n\nALLOW multiples and fractions",
      "mark_points": [
       {
        "id": "2025-06-4-c-MP1",
        "marks": 1,
-       "text_md": "3Ca(OH)2 + 2H3PO4 → (1)Ca3(PO4)2 + 6H2O ALLOW multiples and\nfractions"
+       "text_md": "3Ca(OH)2 + 2H3PO4 → (1)Ca3(PO4)2 + 6H2O\n\nALLOW multiples and fractions"
       }
      ],
      "source_page": 8,
@@ -646,22 +646,22 @@
      "problem_md": "Explain why butane is a saturated hydrocarbon.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 butane contains hydrogen/H and carbon/C REJECT hydrogen and\n(atoms) carbon molecules for M1\nM2 dep on hydrogen and\nM2 only carbon\nACCEPT does not contain\nM3 and contains only single bonds double bonds/multiple\nbonds",
+     "solution_md": "M1 butane contains hydrogen/H and carbon/C\n(atoms)\nM2 only\nM3 and contains only single bonds\n\nREJECT hydrogen and carbon molecules for M1 M2 dep on hydrogen and carbon\nACCEPT does not contain double bonds/multiple bonds",
      "mark_points": [
       {
        "id": "2025-06-5-a-MP1",
        "marks": 1,
-       "text_md": "butane contains hydrogen/H and carbon/C REJECT hydrogen and\n(atoms) carbon molecules for M1"
+       "text_md": "butane contains hydrogen/H and carbon/C\n(atoms)\nREJECT hydrogen and carbon molecules for M1 M2 dep on hydrogen and carbon"
       },
       {
        "id": "2025-06-5-a-MP2",
        "marks": 1,
-       "text_md": "only carbon"
+       "text_md": "only\nACCEPT does not contain double bonds/multiple bonds"
       },
       {
        "id": "2025-06-5-a-MP3",
        "marks": 1,
-       "text_md": "and contains only single bonds double bonds/multiple"
+       "text_md": "and contains only single bonds"
       }
      ],
      "source_page": 10,
@@ -679,7 +679,7 @@
      "problem_md": "When butane burns completely in oxygen, carbon dioxide and water are produced. Give a chemical equation for this combustion reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2C4H10 + 13O2 → 8CO2 + 10H2O\nM1 all formulae correct\nM2 balancing of correct formulae ALLOW multiples and\nfractions",
+     "solution_md": "2C4H10 + 13O2 → 8CO2 + 10H2O\nM1 all formulae correct\nM2 balancing of correct formulae\n\nALLOW multiples and fractions",
      "mark_points": [
       {
        "id": "2025-06-5-b-i-MP1",
@@ -689,7 +689,7 @@
       {
        "id": "2025-06-5-b-i-MP2",
        "marks": 1,
-       "text_md": "balancing of correct formulae ALLOW multiples and"
+       "text_md": "balancing of correct formulae\nALLOW multiples and fractions"
       }
      ],
      "source_page": 10,
@@ -707,12 +707,12 @@
      "problem_md": "Incomplete combustion can occur when the oxygen supply is limited. One product of the incomplete combustion of butane is carbon monoxide. Give the name of another product of this incomplete combustion.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "carbon ALLOW soot / C\nALLOW water / water\nvapour / steam",
+     "solution_md": "carbon\n\nALLOW soot / C\nALLOW water / water vapour / steam",
      "mark_points": [
       {
        "id": "2025-06-5-b-ii-MP1",
        "marks": 1,
-       "text_md": "carbon ALLOW soot / C\nALLOW water / water\nvapour / steam"
+       "text_md": "carbon\n\nALLOW soot / C\nALLOW water / water vapour / steam"
       }
      ],
      "source_page": 10,
@@ -729,12 +729,12 @@
      "problem_md": "State why carbon monoxide is poisonous to humans.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "carbon monoxide reduces the capacity of blood ACCEPT correct references\nto transport oxygen OWTTE to haemoglobin\nALLOW produces\ncarboxyhaemoglobin",
+     "solution_md": "carbon monoxide reduces the capacity of blood\nto transport oxygen OWTTE\n\nACCEPT correct references to haemoglobin\nALLOW produces carboxyhaemoglobin",
      "mark_points": [
       {
        "id": "2025-06-5-b-iii-MP1",
        "marks": 1,
-       "text_md": "carbon monoxide reduces the capacity of blood ACCEPT correct references\nto transport oxygen OWTTE to haemoglobin\nALLOW produces\ncarboxyhaemoglobin"
+       "text_md": "carbon monoxide reduces the capacity of blood\nto transport oxygen OWTTE\n\nACCEPT correct references to haemoglobin\nALLOW produces carboxyhaemoglobin"
       }
      ],
      "source_page": 10,
@@ -751,17 +751,17 @@
      "problem_md": "State what is meant by the term isomers.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 isomers have the same molecular formula ALLOW same number of\ncarbons and hydrogens\nM2 but different structural/displayed formulae ALLOW different\narrangement of atoms",
+     "solution_md": "M1 isomers have the same molecular formula\nM2 but different structural/displayed formulae\n\nALLOW same number of carbons and hydrogens\nALLOW different arrangement of atoms",
      "mark_points": [
       {
        "id": "2025-06-5-c-i-MP1",
        "marks": 1,
-       "text_md": "isomers have the same molecular formula ALLOW same number of"
+       "text_md": "isomers have the same molecular formula\nALLOW same number of carbons and hydrogens"
       },
       {
        "id": "2025-06-5-c-i-MP2",
        "marks": 1,
-       "text_md": "but different structural/displayed formulae ALLOW different"
+       "text_md": "but different structural/displayed formulae\nALLOW different arrangement of atoms"
       }
      ],
      "source_page": 11,
@@ -806,17 +806,17 @@
      "problem_md": "Explain why hexane (C6H14) has a higher boiling point than butane (C4H10).",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three\npoints\nM1 hexane is a larger molecule/longer chain ORA ALLOW contains more\ncarbon (and hydrogen)\natoms\nM2 stronger intermolecular forces between the no M2 or M3 if any mention\nmolecules ORA of breaking covalent bonds\nM3 so more energy to overcome the forces ORA Total 14",
+     "solution_md": "An explanation that links the following three\npoints\nM1 hexane is a larger molecule/longer chain ORA\nM2 stronger intermolecular forces between the\nmolecules ORA\nM3 so more energy to overcome the forces ORA Total 14\n\nALLOW contains more carbon (and hydrogen) atoms no M2 or M3 if any mention of breaking covalent bonds",
      "mark_points": [
       {
        "id": "2025-06-5-d-MP1",
        "marks": 1,
-       "text_md": "hexane is a larger molecule/longer chain ORA ALLOW contains more"
+       "text_md": "hexane is a larger molecule/longer chain ORA\nALLOW contains more carbon (and hydrogen) atoms no M2 or M3 if any mention of breaking covalent bonds"
       },
       {
        "id": "2025-06-5-d-MP2",
        "marks": 1,
-       "text_md": "stronger intermolecular forces between the no M2 or M3 if any mention\nmolecules ORA of breaking covalent bonds"
+       "text_md": "stronger intermolecular forces between the\nmolecules ORA"
       },
       {
        "id": "2025-06-5-d-MP3",
@@ -850,20 +850,20 @@
      "part_number": "6(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "When iron rusts, iron(III) oxide forms. State two conditions needed for iron to rust. 1 2",
+     "problem_md": "When iron rusts, iron(III) oxide forms. State two conditions needed for iron to rust. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 oxygen /O2 ALLOW air\nM2 water /H2O ALLOW moisture\n/water vapour\n/steam",
+     "solution_md": "M1 oxygen /O2\nM2 water /H2O\n\nALLOW air\nALLOW moisture /water vapour /steam",
      "mark_points": [
       {
        "id": "2025-06-6-a-MP1",
        "marks": 1,
-       "text_md": "oxygen /O2 ALLOW air"
+       "text_md": "oxygen /O2\nALLOW air"
       },
       {
        "id": "2025-06-6-a-MP2",
        "marks": 1,
-       "text_md": "water /H2O ALLOW moisture"
+       "text_md": "water /H2O\nALLOW moisture /water vapour /steam"
       }
      ],
      "source_page": 12,
@@ -967,7 +967,7 @@
      "problem_md": "Describe a test to show that a solution contains Fe3+ ions. test result",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 add sodium hydroxide (solution)\nM2 a brown precipitate (forms) ACCEPT red-brown\n/orange-brown\nM2 dependent on M1",
+     "solution_md": "M1 add sodium hydroxide (solution)\nM2 a brown precipitate (forms)\n\nACCEPT red-brown /orange-brown M2 dependent on M1",
      "mark_points": [
       {
        "id": "2025-06-6-d-MP1",
@@ -977,7 +977,7 @@
       {
        "id": "2025-06-6-d-MP2",
        "marks": 1,
-       "text_md": "a brown precipitate (forms) ACCEPT red-brown"
+       "text_md": "a brown precipitate (forms)\nACCEPT red-brown /orange-brown M2 dependent on M1"
       }
      ],
      "source_page": 12,
@@ -994,12 +994,12 @@
      "problem_md": "Explain why this is a redox reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following points\nM1 iron(III) oxide /Fe2O3 loses oxygen so is reduced ACCEPT Fe3+ gains\nelectrons and is\nM2 carbon monoxide gains oxygen so is oxidised reduced\nOR\nM1 iron(III) oxide /Fe2O3 is reduced and carbon\nmonoxide /CO is oxidised\nM2 iron(III) oxide /Fe2O3 loses oxygen and carbon\nmonoxide /CO gains oxygen",
+     "solution_md": "An explanation that links the following points\nM1 iron(III) oxide /Fe2O3 loses oxygen so is reduced\nM2 carbon monoxide gains oxygen so is oxidised\nOR\nM1 iron(III) oxide /Fe2O3 is reduced and carbon\nmonoxide /CO is oxidised\nM2 iron(III) oxide /Fe2O3 loses oxygen and carbon\nmonoxide /CO gains oxygen\n\nACCEPT Fe3+ gains electrons and is reduced",
      "mark_points": [
       {
        "id": "2025-06-6-e-i-MP1",
        "marks": 2,
-       "text_md": "An explanation that links the following points\nM1 iron(III) oxide /Fe2O3 loses oxygen so is reduced ACCEPT Fe3+ gains\nelectrons and is\nM2 carbon monoxide gains oxygen so is oxidised reduced\nOR\nM1 iron(III) oxide /Fe2O3 is reduced and carbon\nmonoxide /CO is oxidised\nM2 iron(III) oxide /Fe2O3 loses oxygen and carbon\nmonoxide /CO gains oxygen"
+       "text_md": "An explanation that links the following points\nM1 iron(III) oxide /Fe2O3 loses oxygen so is reduced\nM2 carbon monoxide gains oxygen so is oxidised\nOR\nM1 iron(III) oxide /Fe2O3 is reduced and carbon\nmonoxide /CO is oxidised\nM2 iron(III) oxide /Fe2O3 loses oxygen and carbon\nmonoxide /CO gains oxygen\n\nACCEPT Fe3+ gains electrons and is reduced"
       }
      ],
      "source_page": 13,
@@ -1013,15 +1013,15 @@
      "part_number": "6(e)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Calculate the minimum mass of iron(III) oxide needed to produce a theoretical yield of 28 g of iron. [for Fe2O3 Mr = 160] minimum mass of iron(III) oxide = g",
+     "problem_md": "Calculate the minimum mass of iron(III) oxide needed to produce a theoretical yield of 28 g of iron. [for Fe2O3 Mr = 160] minimum mass of iron(III) oxide = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (amount of Fe =) 28 ÷ 56 OR 0.5(0) (mol) ALLOW ecf\nthroughout\nM2 (amount of Fe2O3 =) 0.5 ÷ 2 OR 0.25 (mol)\ncorrect answer\nM3 (mass of Fe2O3 = 0.25 × 160 =) 40 (g) without working\nscores 3",
+     "solution_md": "M1 (amount of Fe =) 28 ÷ 56 OR 0.5(0) (mol)\nM2 (amount of Fe2O3 =) 0.5 ÷ 2 OR 0.25 (mol)\nM3 (mass of Fe2O3 = 0.25 × 160 =) 40 (g)\n\nALLOW ecf throughout correct answer without working scores 3",
      "mark_points": [
       {
        "id": "2025-06-6-e-ii-MP1",
        "marks": 1,
-       "text_md": "(amount of Fe =) 28 ÷ 56 OR 0.5(0) (mol) ALLOW ecf"
+       "text_md": "(amount of Fe =) 28 ÷ 56 OR 0.5(0) (mol)\nALLOW ecf throughout correct answer without working scores 3"
       },
       {
        "id": "2025-06-6-e-ii-MP2",
@@ -1031,7 +1031,7 @@
       {
        "id": "2025-06-6-e-ii-MP3",
        "marks": 1,
-       "text_md": "(mass of Fe2O3 = 0.25 × 160 =) 40 (g) without working"
+       "text_md": "(mass of Fe2O3 = 0.25 × 160 =) 40 (g)"
       }
      ],
      "source_page": 13,
@@ -1045,20 +1045,20 @@
      "part_number": "6(e)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The actual yield of iron from this sample is 21 g. Calculate the percentage yield of iron. percentage yield = %",
+     "problem_md": "The actual yield of iron from this sample is 21 g. Calculate the percentage yield of iron. percentage yield = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 21 x 100 correct answer\n28 without working\nscores 2\nM2 75 (%) ALLOW ecf for any\ncorrect calculation\ninvolving 21 as the\nnumerator\n0.75 scores 1",
+     "solution_md": "M1 21 x 100 correct answer\n28 without working\nM2 75 (%)\n\nscores 2\nALLOW ecf for any correct calculation involving 21 as the numerator 0.75 scores 1",
      "mark_points": [
       {
        "id": "2025-06-6-e-iii-MP1",
        "marks": 1,
-       "text_md": "21 x 100 correct answer\n28 without working"
+       "text_md": "21 x 100 correct answer\n28 without working\nscores 2"
       },
       {
        "id": "2025-06-6-e-iii-MP2",
        "marks": 1,
-       "text_md": "75 (%) ALLOW ecf for any"
+       "text_md": "75 (%)\nALLOW ecf for any correct calculation involving 21 as the numerator 0.75 scores 1"
       }
      ],
      "source_page": 13,
@@ -1086,10 +1086,10 @@
      "part_number": "7(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the chemical equation for this neutralisation reaction. Include the state symbols. 2NaOH(aq) + H2SO4(aq) → +",
+     "problem_md": "Complete the chemical equation for this neutralisation reaction. Include the state symbols. 2NaOH(aq) + H2SO4(aq) → .......... + ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2NaOH(aq) + H2SO4(aq) → Na2SO4(aq) + 2H2O(l)\nM1 equation correct and balanced\nM2 state symbols correct If H2 is shown as a\nproduct in the\nequation allow\n(g) for M2",
+     "solution_md": "2NaOH(aq) + H2SO4(aq) → Na2SO4(aq) + 2H2O(l)\nM1 equation correct and balanced\nM2 state symbols correct If H2 is shown as a\n\nproduct in the equation allow (g) for M2",
      "mark_points": [
       {
        "id": "2025-06-7-a-MP1",
@@ -1099,7 +1099,7 @@
       {
        "id": "2025-06-7-a-MP2",
        "marks": 1,
-       "text_md": "state symbols correct If H2 is shown as a"
+       "text_md": "state symbols correct If H2 is shown as a\nproduct in the equation allow (g) for M2"
       }
      ],
      "source_page": 15,
@@ -1117,17 +1117,17 @@
      "problem_md": "This is the student’s method. Step 1 add 50 cm3 of sodium hydroxide solution to a glass beaker Step 2 record the initial temperature of the sodium hydroxide solution Step 3 add 5 cm3 of dilute sulfuric acid to the beaker Step 4 stir the mixture and record the highest temperature reached The student repeats steps 3 and 4 until a total of 40 cm3 of acid has been added. Explain one way the student could improve the accuracy of the experiment.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following points ALLOW any other\nacceptable\nM1 use a polystyrene cup instead of a beaker / or use a answer\nlid on the beaker\nM2 as less heat is lost REJECT prevent\nheat loss",
+     "solution_md": "An explanation that links the following points\nM1 use a polystyrene cup instead of a beaker / or use a\nlid on the beaker\nM2 as less heat is lost\n\nALLOW any other acceptable answer\nREJECT prevent heat loss",
      "mark_points": [
       {
        "id": "2025-06-7-b-MP1",
        "marks": 1,
-       "text_md": "use a polystyrene cup instead of a beaker / or use a answer\nlid on the beaker"
+       "text_md": "use a polystyrene cup instead of a beaker / or use a\nlid on the beaker\nALLOW any other acceptable answer"
       },
       {
        "id": "2025-06-7-b-MP2",
        "marks": 1,
-       "text_md": "as less heat is lost REJECT prevent"
+       "text_md": "as less heat is lost\nREJECT prevent heat loss"
       }
      ],
      "source_page": 15,
@@ -1224,20 +1224,20 @@
      "part_number": "7(d)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The point where the lines cross shows the volume of acid needed to exactly neutralise the alkali and the maximum temperature reached. Use your graph to determine these values. volume of acid = cm3 maximum temperature = °C",
+     "problem_md": "The point where the lines cross shows the volume of acid needed to exactly neutralise the alkali and the maximum temperature reached. Use your graph to determine these values. volume of acid = .......... cm3 maximum temperature = .......... °C",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 volume of acid (approximately 27.5) values from the\ncandidates graph\nM2 maximum temperature (approximately 28.6) to the nearest\nsmall square",
+     "solution_md": "M1 volume of acid (approximately 27.5) values from the\nM2 maximum temperature (approximately 28.6)\n\ncandidates graph to the nearest small square",
      "mark_points": [
       {
        "id": "2025-06-7-d-MP1",
        "marks": 1,
-       "text_md": "volume of acid (approximately 27.5) values from the"
+       "text_md": "volume of acid (approximately 27.5) values from the\ncandidates graph to the nearest small square"
       },
       {
        "id": "2025-06-7-d-MP2",
        "marks": 1,
-       "text_md": "maximum temperature (approximately 28.6) to the nearest"
+       "text_md": "maximum temperature (approximately 28.6)"
       }
      ],
      "source_page": 17,
@@ -1269,12 +1269,12 @@
      "problem_md": "Explain what might have caused the anomalous result.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following points do not allow use\ntoo little of the\nM1 took the temperature too early acid as this would\naffect the rest of\nM2 so highest temperature was not reached the graph\nOR\nM1 did not stir the mixture\nM2 so highest temperature was not reached\nI Total 12",
+     "solution_md": "An explanation that links the following points do not allow use\nM1 took the temperature too early\nM2 so highest temperature was not reached\nOR\nM1 did not stir the mixture\nM2 so highest temperature was not reached\nI Total 12\n\ntoo little of the acid as this would affect the rest of the graph",
      "mark_points": [
       {
        "id": "2025-06-7-e-MP1",
        "marks": 2,
-       "text_md": "An explanation that links the following points do not allow use\ntoo little of the\nM1 took the temperature too early acid as this would\naffect the rest of\nM2 so highest temperature was not reached the graph\nOR\nM1 did not stir the mixture\nM2 so highest temperature was not reached\nI Total 12"
+       "text_md": "An explanation that links the following points do not allow use\nM1 took the temperature too early\nM2 so highest temperature was not reached\nOR\nM1 did not stir the mixture\nM2 so highest temperature was not reached\nI Total 12\n\ntoo little of the acid as this would affect the rest of the graph"
       }
      ],
      "source_page": 17,
@@ -1305,12 +1305,12 @@
      "problem_md": "Explain, with reference to its bonding, why diamond has a high melting point.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three\npoints\nM1 covalent bonds are strong ACCEPT strong\n(electrostatic) forces\nbetween the shared\npair of electrons and\nnuclei\nM2 many (covalent) bonds (need to be broken)\nM3 a large amount of (heat/thermal) energy is IGNORE more energy\nneeded to break the bonds\nNOT just heat\nAny mention of\nintermolecular\nforces/forces between\nmolecules or ions/ionic\nbonding/metallic\nbonding scores 0 out of",
+     "solution_md": "An explanation that links the following three\npoints\nM1 covalent bonds are strong\nM2 many (covalent) bonds (need to be broken)\nM3 a large amount of (heat/thermal) energy is\nneeded to break the bonds\n\nACCEPT strong (electrostatic) forces between the shared pair of electrons and nuclei\nIGNORE more energy NOT just heat Any mention of intermolecular forces/forces between molecules or ions/ionic bonding/metallic bonding scores 0 out of",
      "mark_points": [
       {
        "id": "2025-06-8-a-MP1",
        "marks": 1,
-       "text_md": "covalent bonds are strong ACCEPT strong"
+       "text_md": "covalent bonds are strong\nACCEPT strong (electrostatic) forces between the shared pair of electrons and nuclei"
       },
       {
        "id": "2025-06-8-a-MP2",
@@ -1320,7 +1320,7 @@
       {
        "id": "2025-06-8-a-MP3",
        "marks": 1,
-       "text_md": "a large amount of (heat/thermal) energy is IGNORE more energy\nneeded to break the bonds"
+       "text_md": "a large amount of (heat/thermal) energy is\nneeded to break the bonds\nIGNORE more energy NOT just heat Any mention of intermolecular forces/forces between molecules or ions/ionic bonding/metallic bonding scores 0 out of"
       }
      ],
      "source_page": 18,
@@ -1337,12 +1337,12 @@
      "problem_md": "Explain why graphite is soft and is a conductor of electricity. Refer to structure and bonding in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links six of the following\npoints but must include M3 and M7 for full marks\nM1 carbon atoms are joined together by covalent\nbonds\nM2 (structure is) in layers /in a 2D structure ACCEPT sheets\nM3 (layers) can slide over each other (therefore\nit is soft)\nM4 (because there are) weak forces between If reference to weak\nlayers intermolecular forces or\nlayers of molecules\nthen no M4\nM5 each carbon atom is bonded to three others\n(carbons)\nM6 there are delocalised electrons (between the IGNORE free/spare\nlayers) electron/unbonded\nM7 electrons are free to move (therefore they IGNORE reference to\ncan conduct electricity) can carrying a\ncharge/current\nnumber Answer Notes Marks",
+     "solution_md": "An explanation that links six of the following\npoints but must include M3 and M7 for full marks\nM1 carbon atoms are joined together by covalent\nbonds\nM2 (structure is) in layers /in a 2D structure\nM3 (layers) can slide over each other (therefore\nit is soft)\nM4 (because there are) weak forces between\nlayers\nM5 each carbon atom is bonded to three others\n(carbons)\nM6 there are delocalised electrons (between the\nlayers)\nM7 electrons are free to move (therefore they\ncan conduct electricity)\nnumber Answer Notes\n\nACCEPT sheets If reference to weak intermolecular forces or layers of molecules then no M4\nIGNORE free/spare electron/unbonded\nIGNORE reference to can carrying a charge/current\nMarks",
      "mark_points": [
       {
        "id": "2025-06-8-b-MP1",
        "marks": 6,
-       "text_md": "An explanation that links six of the following\npoints but must include M3 and M7 for full marks\nM1 carbon atoms are joined together by covalent\nbonds\nM2 (structure is) in layers /in a 2D structure ACCEPT sheets\nM3 (layers) can slide over each other (therefore\nit is soft)\nM4 (because there are) weak forces between If reference to weak\nlayers intermolecular forces or\nlayers of molecules\nthen no M4\nM5 each carbon atom is bonded to three others\n(carbons)\nM6 there are delocalised electrons (between the IGNORE free/spare\nlayers) electron/unbonded\nM7 electrons are free to move (therefore they IGNORE reference to\ncan conduct electricity) can carrying a\ncharge/current\nnumber Answer Notes Marks"
+       "text_md": "An explanation that links six of the following\npoints but must include M3 and M7 for full marks\nM1 carbon atoms are joined together by covalent\nbonds\nM2 (structure is) in layers /in a 2D structure\nM3 (layers) can slide over each other (therefore\nit is soft)\nM4 (because there are) weak forces between\nlayers\nM5 each carbon atom is bonded to three others\n(carbons)\nM6 there are delocalised electrons (between the\nlayers)\nM7 electrons are free to move (therefore they\ncan conduct electricity)\nnumber Answer Notes\n\nACCEPT sheets If reference to weak intermolecular forces or layers of molecules then no M4\nIGNORE free/spare electron/unbonded\nIGNORE reference to can carrying a charge/current\nMarks"
       }
      ],
      "source_page": 19,
@@ -1369,17 +1369,17 @@
      "problem_md": "Draw a dot‑and‑cross diagram of chloroethene. Show only the outer shell electrons.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 two shared pairs between carbon atoms ALLOW any\ncombination of dots\nM2 rest of molecule fully correct and crosses\nM2 dep on M1",
+     "solution_md": "M1 two shared pairs between carbon atoms\nM2 rest of molecule fully correct\n\nALLOW any combination of dots and crosses M2 dep on M1",
      "mark_points": [
       {
        "id": "2025-06-9-a-i-MP1",
        "marks": 1,
-       "text_md": "two shared pairs between carbon atoms ALLOW any"
+       "text_md": "two shared pairs between carbon atoms\nALLOW any combination of dots and crosses M2 dep on M1"
       },
       {
        "id": "2025-06-9-a-i-MP2",
        "marks": 1,
-       "text_md": "rest of molecule fully correct and crosses"
+       "text_md": "rest of molecule fully correct"
       }
      ],
      "source_page": 20,
@@ -1406,12 +1406,12 @@
      "problem_md": "Describe, in terms of electrostatic attraction, what is meant by a covalent bond.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "a description that refers to the following\npoints\nM1 attraction between a shared pair of\nelectrons\nM2 and two nuclei\nDo not allow nucleus\nOR\nM1 attraction between nuclei\nM2 and a shared pair of electrons Do not allow nucleus",
+     "solution_md": "a description that refers to the following\npoints\nM1 attraction between a shared pair of\nelectrons\nM2 and two nuclei\nOR\nM1 attraction between nuclei\nM2 and a shared pair of electrons\n\nDo not allow nucleus\nDo not allow nucleus",
      "mark_points": [
       {
        "id": "2025-06-9-a-ii-MP1",
        "marks": 2,
-       "text_md": "a description that refers to the following\npoints\nM1 attraction between a shared pair of\nelectrons\nM2 and two nuclei\nDo not allow nucleus\nOR\nM1 attraction between nuclei\nM2 and a shared pair of electrons Do not allow nucleus"
+       "text_md": "a description that refers to the following\npoints\nM1 attraction between a shared pair of\nelectrons\nM2 and two nuclei\nOR\nM1 attraction between nuclei\nM2 and a shared pair of electrons\n\nDo not allow nucleus\nDo not allow nucleus"
       }
      ],
      "source_page": 20,
@@ -1428,12 +1428,12 @@
      "problem_md": "Chloroethene is a monomer. Draw the displayed formula of the repeat unit of poly(chloroethene).",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "H H ALLOW with or\n| | without extension\n— C — C— bonds\n| |\nH Cl IGNORE brackets and n",
+     "solution_md": "H H\n| |\n— C — C—\n| |\nH Cl\n\nALLOW with or without extension bonds\nIGNORE brackets and n",
      "mark_points": [
       {
        "id": "2025-06-9-a-iii-MP1",
        "marks": 1,
-       "text_md": "H H ALLOW with or\n| | without extension\n— C — C— bonds\n| |\nH Cl IGNORE brackets and n"
+       "text_md": "H H\n| |\n— C — C—\n| |\nH Cl\n\nALLOW with or without extension bonds\nIGNORE brackets and n"
       }
      ],
      "source_page": 21,
@@ -1447,10 +1447,10 @@
      "part_number": "9(a)(iv)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Poly(chloroethene) is non‑biodegradable. There are two main methods used to dispose of poly(chloroethene). Describe one problem caused by each method. 1 2",
+     "problem_md": "Poly(chloroethene) is non‑biodegradable. There are two main methods used to dispose of poly(chloroethene). Describe one problem caused by each method. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to the following two\npairs of points\nM1 disposal of poly(chloroethene) in landfill\nM2 takes up space / takes a very long time IGNORE non-\nto decompose/ they are inert OWTTE biodegradable\nM2 dependent on M1\nM3 burning poly(chloroethene) M4 dependent on M3\nM4 hydrogen chloride / toxic gases produced ALLOW produces\ngreenhouse gases",
+     "solution_md": "A description that refers to the following two\npairs of points\nM1 disposal of poly(chloroethene) in landfill\nM2 takes up space / takes a very long time\nto decompose/ they are inert OWTTE\nM3 burning poly(chloroethene)\nM4 hydrogen chloride / toxic gases produced\n\nIGNORE non- biodegradable M2 dependent on M1 M4 dependent on M3\nALLOW produces greenhouse gases",
      "mark_points": [
       {
        "id": "2025-06-9-a-iv-MP1",
@@ -1460,17 +1460,17 @@
       {
        "id": "2025-06-9-a-iv-MP2",
        "marks": 1,
-       "text_md": "takes up space / takes a very long time IGNORE non-\nto decompose/ they are inert OWTTE biodegradable"
+       "text_md": "takes up space / takes a very long time\nto decompose/ they are inert OWTTE\nIGNORE non- biodegradable M2 dependent on M1 M4 dependent on M3"
       },
       {
        "id": "2025-06-9-a-iv-MP3",
        "marks": 1,
-       "text_md": "burning poly(chloroethene) M4 dependent on M3"
+       "text_md": "burning poly(chloroethene)"
       },
       {
        "id": "2025-06-9-a-iv-MP4",
        "marks": 1,
-       "text_md": "hydrogen chloride / toxic gases produced ALLOW produces"
+       "text_md": "hydrogen chloride / toxic gases produced\nALLOW produces greenhouse gases"
       }
      ],
      "source_page": 21,
@@ -1484,25 +1484,25 @@
      "part_number": "9(b)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "An organic compound contains this percentage composition by mass. C = 22.0% H = 4.6% Br = 73.4% Calculate the empirical formula of this compound. empirical formula =",
+     "problem_md": "An organic compound contains this percentage composition by mass. C = 22.0% H = 4.6% Br = 73.4% Calculate the empirical formula of this compound. empirical formula = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 22.0 4.6 73.4 0 marks if division by\n12 1 80 atomic numbers or\nupside down\nM2 1.83 4.6 0.92 calculation\n0.92 0.92 0.92\ncorrect answer without\nOR 2 5 1 working scores 3\nM3 C2H5Br\nALLOW symbols in any\norder",
+     "solution_md": "M1 22.0 4.6 73.4 0 marks if division by\n12 1 80 atomic numbers or\nM2 1.83 4.6 0.92\n0.92 0.92 0.92\nOR 2 5 1 working scores 3\nM3 C2H5Br\norder\n\nupside down calculation correct answer without\nALLOW symbols in any",
      "mark_points": [
       {
        "id": "2025-06-9-b-MP1",
        "marks": 1,
-       "text_md": "22.0 4.6 73.4 0 marks if division by\n12 1 80 atomic numbers or"
+       "text_md": "22.0 4.6 73.4 0 marks if division by\n12 1 80 atomic numbers or\nupside down calculation correct answer without"
       },
       {
        "id": "2025-06-9-b-MP2",
        "marks": 1,
-       "text_md": "1.83 4.6 0.92 calculation\n0.92 0.92 0.92\nOR 2 5 1 working scores 3"
+       "text_md": "1.83 4.6 0.92\n0.92 0.92 0.92\nOR 2 5 1 working scores 3"
       },
       {
        "id": "2025-06-9-b-MP3",
        "marks": 1,
-       "text_md": "C2H5Br"
+       "text_md": "C2H5Br\nALLOW symbols in any"
       }
      ],
      "source_page": 22,
@@ -1519,12 +1519,12 @@
      "problem_md": "Ethane and ethene undergo different types of reaction with bromine. Describe the differences between these two reactions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "A description that refers to any five of the\nfollowing points with a maximum of three\nmarks from each section/reactant:\nethane\nM1 a substitution reaction\nM2 does not decolourise/stays\norange/decolourises very slowly\nM3 ultraviolet radiation/light needed ALLOW UV\nM4 produces bromoethane/C2H5Br\nM5 produces hydrogen bromide/HBr\nethene\nM6 an addition reaction\nM7 decolourises (immediately) / turns\ncolourless\nM8 produces dibromoethane/C2H4Br2\nQuestion number Answer Notes Marks",
+     "solution_md": "A description that refers to any five of the\nfollowing points with a maximum of three\nmarks from each section/reactant:\nethane\nM1 a substitution reaction\nM2 does not decolourise/stays\norange/decolourises very slowly\nM3 ultraviolet radiation/light needed\nM4 produces bromoethane/C2H5Br\nM5 produces hydrogen bromide/HBr\nethene\nM6 an addition reaction\nM7 decolourises (immediately) / turns\ncolourless\nM8 produces dibromoethane/C2H4Br2\nQuestion number Answer Notes\n\nALLOW UV\nMarks",
      "mark_points": [
       {
        "id": "2025-06-9-c-MP1",
        "marks": 5,
-       "text_md": "A description that refers to any five of the\nfollowing points with a maximum of three\nmarks from each section/reactant:\nethane\nM1 a substitution reaction\nM2 does not decolourise/stays\norange/decolourises very slowly\nM3 ultraviolet radiation/light needed ALLOW UV\nM4 produces bromoethane/C2H5Br\nM5 produces hydrogen bromide/HBr\nethene\nM6 an addition reaction\nM7 decolourises (immediately) / turns\ncolourless\nM8 produces dibromoethane/C2H4Br2\nQuestion number Answer Notes Marks"
+       "text_md": "A description that refers to any five of the\nfollowing points with a maximum of three\nmarks from each section/reactant:\nethane\nM1 a substitution reaction\nM2 does not decolourise/stays\norange/decolourises very slowly\nM3 ultraviolet radiation/light needed\nM4 produces bromoethane/C2H5Br\nM5 produces hydrogen bromide/HBr\nethene\nM6 an addition reaction\nM7 decolourises (immediately) / turns\ncolourless\nM8 produces dibromoethane/C2H4Br2\nQuestion number Answer Notes\n\nALLOW UV\nMarks"
       }
      ],
      "source_page": 22,
@@ -1554,15 +1554,15 @@
      "part_number": "10(a)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "This is the student’s method. • pour some water into the copper can • record the mass of the spirit burner and fuel • measure the initial temperature of the water • place the spirit burner under the copper can and light the burner • stop heating the water when the temperature reaches 30°C • record the new mass of the spirit burner and fuel The student repeats the experiment with different fuels. Explain two variables the student should control to make this a valid test. 1 2",
+     "problem_md": "This is the student’s method. • pour some water into the copper can • record the mass of the spirit burner and fuel • measure the initial temperature of the water • place the spirit burner under the copper can and light the burner • stop heating the water when the temperature reaches 30°C • record the new mass of the spirit burner and fuel The student repeats the experiment with different fuels. Explain two variables the student should control to make this a valid test. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links any two pairs\nPair 1\nM1 same volume of water ALLOW same mass of\nwater\nM2 so the same amount of fuel/heat is required IGNORE references to\ntime\nPair 2\nM1 stir the water\nM2 so the temperature is uniform throughout the\nwater\nPair 3\nM1 to make sure the spirit burner is the same ALLOW the wick is the\ndistance to the copper can same height\nM2 so the same amount of heat loss occurs\nALLOW any other\nacceptable answer",
+     "solution_md": "An explanation that links any two pairs\nPair 1\nM1 same volume of water\nM2 so the same amount of fuel/heat is required\nPair 2\nM1 stir the water\nM2 so the temperature is uniform throughout the\nwater\nPair 3\nM1 to make sure the spirit burner is the same\ndistance to the copper can\nM2 so the same amount of heat loss occurs\n\nALLOW same mass of water\nIGNORE references to time\nALLOW the wick is the same height\nALLOW any other acceptable answer",
      "mark_points": [
       {
        "id": "2025-06-10-a-MP1",
        "marks": 4,
-       "text_md": "An explanation that links any two pairs\nPair 1\nM1 same volume of water ALLOW same mass of\nwater\nM2 so the same amount of fuel/heat is required IGNORE references to\ntime\nPair 2\nM1 stir the water\nM2 so the temperature is uniform throughout the\nwater\nPair 3\nM1 to make sure the spirit burner is the same ALLOW the wick is the\ndistance to the copper can same height\nM2 so the same amount of heat loss occurs\nALLOW any other\nacceptable answer"
+       "text_md": "An explanation that links any two pairs\nPair 1\nM1 same volume of water\nM2 so the same amount of fuel/heat is required\nPair 2\nM1 stir the water\nM2 so the temperature is uniform throughout the\nwater\nPair 3\nM1 to make sure the spirit burner is the same\ndistance to the copper can\nM2 so the same amount of heat loss occurs\n\nALLOW same mass of water\nIGNORE references to time\nALLOW the wick is the same height\nALLOW any other acceptable answer"
       }
      ],
      "source_page": 24,
@@ -1576,10 +1576,10 @@
      "part_number": "10(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the value of heat energy change (Q) in joules. [for water, c = 4.2 J/g/°C 1.0 cm3 of water has mass = 1.0 g] Q = J",
+     "problem_md": "Calculate the value of heat energy change (Q) in joules. [for water, c = 4.2 J/g/°C 1.0 cm3 of water has mass = 1.0 g] Q = .......... J",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 ΔT = (30-18) = 12\nM2 Q = 100 × 4.2 × 12 (= 5040 / 5000 (J)) correct answer without\nworking scores 2 marks\nALLOW ecf if incorrect\ntemperature change\ne.g. 7560 /7600 or\n12600 /13000 scores 1",
+     "solution_md": "M1 ΔT = (30-18) = 12\nM2 Q = 100 × 4.2 × 12 (= 5040 / 5000 (J)) correct answer without\n\nworking scores 2 marks\nALLOW ecf if incorrect temperature change e.g. 7560 /7600 or 12600 /13000 scores 1",
      "mark_points": [
       {
        "id": "2025-06-10-b-i-MP1",
@@ -1589,7 +1589,7 @@
       {
        "id": "2025-06-10-b-i-MP2",
        "marks": 1,
-       "text_md": "Q = 100 × 4.2 × 12 (= 5040 / 5000 (J)) correct answer without"
+       "text_md": "Q = 100 × 4.2 × 12 (= 5040 / 5000 (J)) correct answer without\nworking scores 2 marks\nALLOW ecf if incorrect temperature change e.g. 7560 /7600 or 12600 /13000 scores 1"
       }
      ],
      "source_page": 25,
@@ -1603,35 +1603,35 @@
      "part_number": "10(b)(ii)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "Calculate the enthalpy change (ΔH) in kJ/mol. [for ethanol, Mr = 46] Include a sign in your answer. ΔH = kJ/mol",
+     "problem_md": "Calculate the enthalpy change (ΔH) in kJ/mol. [for ethanol, Mr = 46] Include a sign in your answer. ΔH = .......... kJ/mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (mass of ethanol =) 38.52 — 38.29 OR 0.23 (g) correct answer without\nworking scores 5 marks\nM2 (amount =) 0.23 ÷ 46 OR 0.005(0) (mol)\nALLOW ecf throughout\nM3 5040 ÷ 0.005(0) OR 1 008 000 (J/mol)\nACCEPT 1 000 000\nM4 1 008 000 ÷ 1000 OR 1008 (kJ/mol)\nACCEPT 1000\nM5 — 1008 (kJ/mol)\nACCEPT — 1000\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "M1 (mass of ethanol =) 38.52 — 38.29 OR 0.23 (g) correct answer without\nM2 (amount =) 0.23 ÷ 46 OR 0.005(0) (mol)\nM3 5040 ÷ 0.005(0) OR 1 008 000 (J/mol)\nM4 1 008 000 ÷ 1000 OR 1008 (kJ/mol)\nM5 — 1008 (kJ/mol)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nworking scores 5 marks\nALLOW ecf throughout\nACCEPT 1 000 000\nACCEPT 1000\nACCEPT — 1000",
      "mark_points": [
       {
        "id": "2025-06-10-b-ii-MP1",
        "marks": 1,
-       "text_md": "(mass of ethanol =) 38.52 — 38.29 OR 0.23 (g) correct answer without"
+       "text_md": "(mass of ethanol =) 38.52 — 38.29 OR 0.23 (g) correct answer without\nworking scores 5 marks"
       },
       {
        "id": "2025-06-10-b-ii-MP2",
        "marks": 1,
-       "text_md": "(amount =) 0.23 ÷ 46 OR 0.005(0) (mol)"
+       "text_md": "(amount =) 0.23 ÷ 46 OR 0.005(0) (mol)\nALLOW ecf throughout"
       },
       {
        "id": "2025-06-10-b-ii-MP3",
        "marks": 1,
-       "text_md": "5040 ÷ 0.005(0) OR 1 008 000 (J/mol)"
+       "text_md": "5040 ÷ 0.005(0) OR 1 008 000 (J/mol)\nACCEPT 1 000 000"
       },
       {
        "id": "2025-06-10-b-ii-MP4",
        "marks": 1,
-       "text_md": "1 008 000 ÷ 1000 OR 1008 (kJ/mol)"
+       "text_md": "1 008 000 ÷ 1000 OR 1008 (kJ/mol)\nACCEPT 1000"
       },
       {
        "id": "2025-06-10-b-ii-MP5",
        "marks": 1,
-       "text_md": "— 1008 (kJ/mol)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "— 1008 (kJ/mol)\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\nACCEPT — 1000"
       }
      ],
      "source_page": 25,

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.crop-review/0.1",
  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
- "reviewed_utc": "2026-10-22T08:00:00Z",
+ "reviewed_utc": "2026-10-22T13:57:06Z",
  "reviewed_by": "session agent (2CR tranche, trace 1a16373bc7d373fd: all 11 v0.13.0-emitted crops + 3 crop-required stubs viewed against their source PDF pages rendered at 150 dpi; 8 emitted crops accepted as-is; the 3 stubs became F45 manual crops with the rects above - CROP-REVIEW verdicts apply to part-attached assets only)",
  "reviews": {
   "2020-01": {
@@ -199,6 +199,10 @@
    "asset_7_a_diagram": {
     "verdict": "accepted",
     "note": "hydrazine dot-and-cross scaffold (N circles + H circles) matches p23; the drawn-scaffold path (F32) crops it"
+   },
+   "asset_2_a_i_picture": {
+    "verdict": "accepted",
+    "note": "wave-16 F56 picture-MCQ ledger crop: the printed option figure of 2(a) (properties table for substances A-D) crops from qp.pdf p6 at the eyeballed rect [57.0, 92.0, 538.0, 246.0] carried by MCQ-KEYS.json; rendered crop viewed this session - header + all four substance rows present. review_verdict pinned on the asset."
    }
   },
   "2023-11:2C": {
@@ -413,6 +417,12 @@
    "asset_7_b_ii_diagram": {
     "verdict": "accepted",
     "note": "2CR run: bare energy-axis scaffold (p20) - exactly what the source prints"
+   }
+  },
+  "2021-11": {
+   "asset_1_a_i_picture": {
+    "verdict": "accepted",
+    "note": "wave-16 F56 picture-MCQ ledger crop: the printed option figure of 1(a) (four particle boxes A-D with labels) crops from qp.pdf p4 at the eyeballed rect [115.4, 109.1, 479.8, 215.0] carried by MCQ-KEYS.json; rendered crop viewed this session against the rendered page - all four boxes + labels present, nothing clipped. The ledger entry IS the human verdict (MS-LINK-OVERRIDES doctrine); review_verdict pinned on the asset."
    }
   }
  }

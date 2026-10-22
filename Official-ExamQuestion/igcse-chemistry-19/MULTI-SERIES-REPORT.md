@@ -1,6 +1,6 @@
-# ADR-037 corpus run — 4CH1 complete: 1C + 2C + both F-178 R-variant tranches (1CR, 2CR) — 54 slices, all series in syllabai-pastpapers; F34 + F-178
+# ADR-037 corpus run — 4CH1 1C+2C complete (all series in syllabai-pastpapers; F34)
 
-> generated 2026-10-22T13:41:13Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
+> generated 2026-10-22T14:43:13Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
 > 54 slices (['1C', '1CR', '2C', '2CR']) · 477 questions · 2607 parts · 4860 marks extracted · 54 slices fully PASS
 
 | series | paper | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |
@@ -23,7 +23,7 @@
 | 2021-01 | 2CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 8 | 45 | 70/None | 3/3 | 0 |
 | 2021-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 54 | 110/110 | 2/2 | 1 |
 | 2021-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 43 | 70/70 | 1/1 | 0 |
-| 2021-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 67 | 110/110 | 1/1 | 0 |
+| 2021-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 67 | 110/110 | 4/4 | 0 |
 | 2021-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 41 | 70/70 | 3/3 | 1 |
 | 2022-01 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 65 | 110/110 | 2/2 | 0 |
 | 2022-01 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 59 | 110/None | 6/6 | 0 |
@@ -35,7 +35,7 @@
 | 2022-06 | 2CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 40 | 70/None | 4/4 | 0 |
 | 2023-01 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 12 | 60 | 110/110 | 7/7 | 0 |
 | 2023-01 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 57 | 110/None | 3/3 | 1 |
-| 2023-01 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 37 | 70/70 | 1/1 | 0 |
+| 2023-01 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 37 | 70/70 | 4/4 | 0 |
 | 2023-01 | 2CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 8 | 40 | 70/None | 2/2 | 0 |
 | 2023-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 55 | 110/110 | 3/3 | 0 |
 | 2023-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 59 | 110/None | 3/3 | 0 |

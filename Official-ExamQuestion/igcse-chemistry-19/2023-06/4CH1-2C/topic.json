@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:47Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2023-06 paper=2C",
+ "generated_utc": "2026-10-22T14:42:16Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2023-06 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-06:4CH1/2C",
  "source": {
   "qp_sha256": "49e32df30edacbb78ec2d520c6d6c7a482c3488dccb23b54b276f4e7277e5b84",
@@ -35,12 +35,12 @@
      "problem_md": "Name the element with atomic number 14.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "silicon ALLOW Si",
+     "solution_md": "silicon\n\nALLOW Si",
      "mark_points": [
       {
        "id": "2023-06-1-a-i-MP1",
        "marks": 1,
-       "text_md": "silicon ALLOW Si"
+       "text_md": "silicon\n\nALLOW Si"
       }
      ],
      "source_page": 3,
@@ -57,12 +57,12 @@
      "problem_md": "Name the element in Group 2 and Period 3.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "magnesium ALLOW Mg",
+     "solution_md": "magnesium\n\nALLOW Mg",
      "mark_points": [
       {
        "id": "2023-06-1-a-ii-MP1",
        "marks": 1,
-       "text_md": "magnesium ALLOW Mg"
+       "text_md": "magnesium\n\nALLOW Mg"
       }
      ],
      "source_page": 3,
@@ -79,12 +79,12 @@
      "problem_md": "Name an element that is a liquid at room temperature.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "bromine ALLOW mercury / Hg\nALLOW Br / Br2\nREJECT bromide / Br−",
+     "solution_md": "bromine\n\nALLOW mercury / Hg\nALLOW Br / Br2\nREJECT bromide / Br−",
      "mark_points": [
       {
        "id": "2023-06-1-a-iii-MP1",
        "marks": 1,
-       "text_md": "bromine ALLOW mercury / Hg\nALLOW Br / Br2\nREJECT bromide / Br−"
+       "text_md": "bromine\n\nALLOW mercury / Hg\nALLOW Br / Br2\nREJECT bromide / Br−"
       }
      ],
      "source_page": 3,
@@ -101,12 +101,12 @@
      "problem_md": "Give the electronic configuration of an atom of phosphorus.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2,8,5 / 2.8.5 ACCEPT diagram\nshowing electron\nconfiguration",
+     "solution_md": "2,8,5 / 2.8.5\n\nACCEPT diagram showing electron configuration",
      "mark_points": [
       {
        "id": "2023-06-1-a-iv-MP1",
        "marks": 1,
-       "text_md": "2,8,5 / 2.8.5 ACCEPT diagram\nshowing electron\nconfiguration"
+       "text_md": "2,8,5 / 2.8.5\n\nACCEPT diagram showing electron configuration"
       }
      ],
      "source_page": 3,
@@ -123,12 +123,12 @@
      "problem_md": "Give the formula of sodium sulfide.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Na2S ALLOW Na+2S2−",
+     "solution_md": "Na2S\n\nALLOW Na+2S2−",
      "mark_points": [
       {
        "id": "2023-06-1-a-v-MP1",
        "marks": 1,
-       "text_md": "Na2S ALLOW Na+2S2−"
+       "text_md": "Na2S\n\nALLOW Na+2S2−"
       }
      ],
      "source_page": 3,
@@ -311,12 +311,12 @@
      "problem_md": "Give the chemical equation for this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "CuCO3 → CuO + CO2 ALLOW multiples\nIGNORE state symbols\neven if incorrect",
+     "solution_md": "CuCO3 → CuO + CO2\n\nALLOW multiples\nIGNORE state symbols even if incorrect",
      "mark_points": [
       {
        "id": "2023-06-2-b-iii-MP1",
        "marks": 1,
-       "text_md": "CuCO3 → CuO + CO2 ALLOW multiples\nIGNORE state symbols\neven if incorrect"
+       "text_md": "CuCO3 → CuO + CO2\n\nALLOW multiples\nIGNORE state symbols even if incorrect"
       }
      ],
      "source_page": 4,
@@ -330,25 +330,25 @@
      "part_number": "2(c)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "A student uses this apparatus to find the percentage of oxygen in a sample of air. gas syringe air conical flask wet iron filings The student leaves the apparatus until there is no further change in volume of gas in the syringe. These are the student’s results. volume of gas in flask and connecting tube in cm3 280 volume of gas in syringe at start in cm3 100 volume of gas in syringe at end in cm3 27 Calculate the percentage of oxygen in the sample of air. Give your answer to two significant figures. percentage of oxygen = %",
+     "problem_md": "A student uses this apparatus to find the percentage of oxygen in a sample of air. gas syringe air conical flask wet iron filings The student leaves the apparatus until there is no further change in volume of gas in the syringe. These are the student’s results. volume of gas in flask and connecting tube in cm3 280 volume of gas in syringe at start in cm3 100 volume of gas in syringe at end in cm3 27 Calculate the percentage of oxygen in the sample of air. Give your answer to two significant figures. percentage of oxygen = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (volume of oxygen =) 100 − 27 OR 73 (cm3) correct answer with or\nwithout working scores 4\nM2 (volume of air at start =) 280 + 100 OR 380 (cm3) ALLOW ECF throughout\nM3 73 ÷ 380 × 100 OR 19.2 (%) Use of 280 gives an\nanswer of 26 scores 3\nM4 19 (%)\nAlternative method\nM1 (volume of air left=)\n280 + 27 OR 307 (cm3)\nM2 307 ÷ 380 x 100 OR\n80.8 (%)\nM3 100 − 80.8 OR 19.2\nM4 19 (%)",
+     "solution_md": "M1 (volume of oxygen =) 100 − 27 OR 73 (cm3) correct answer with or\nM2 (volume of air at start =) 280 + 100 OR 380 (cm3)\nM3 73 ÷ 380 × 100 OR 19.2 (%)\nM4 19 (%)\n\nwithout working scores 4\nALLOW ECF throughout Use of 280 gives an answer of 26 scores 3 Alternative method M1 (volume of air left=) 280 + 27 OR 307 (cm3) M2 307 ÷ 380 x 100 OR 80.8 (%) M3 100 − 80.8 OR 19.2 M4 19 (%)",
      "mark_points": [
       {
        "id": "2023-06-2-c-MP1",
        "marks": 1,
-       "text_md": "(volume of oxygen =) 100 − 27 OR 73 (cm3) correct answer with or"
+       "text_md": "(volume of oxygen =) 100 − 27 OR 73 (cm3) correct answer with or\nwithout working scores 4"
       },
       {
        "id": "2023-06-2-c-MP2",
        "marks": 1,
-       "text_md": "(volume of air at start =) 280 + 100 OR 380 (cm3) ALLOW ECF throughout"
+       "text_md": "(volume of air at start =) 280 + 100 OR 380 (cm3)\nALLOW ECF throughout Use of 280 gives an answer of 26 scores 3 Alternative method M1 (volume of air left=) 280 + 27 OR 307 (cm3) M2 307 ÷ 380 x 100 OR 80.8 (%) M3 100 − 80.8 OR 19.2 M4 19 (%)"
       },
       {
        "id": "2023-06-2-c-MP3",
        "marks": 1,
-       "text_md": "73 ÷ 380 × 100 OR 19.2 (%) Use of 280 gives an"
+       "text_md": "73 ÷ 380 × 100 OR 19.2 (%)"
       },
       {
        "id": "2023-06-2-c-MP4",
@@ -382,12 +382,12 @@
      "problem_md": "Explain why an increasing amount of carbon dioxide in the atmosphere is likely to cause a problem for the environment.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links two of the following three\npoints\nM1 carbon dioxide is a greenhouse gas ACCEPT description of\ngreenhouse effect\ne.g. carbon dioxide traps\nheat / infra-red rays in\nAND the atmosphere\nM2 (that causes) climate change / global warming /\nglobal temperature rise\nOR\nM3 melting of polar icecaps / flooding / wildfires / ALLOW oceans becoming\nsea levels rising more acidic / less basic\n/pH decreasing\nREJECT reference to the\nozone layer for M2 or M3\nIGNORE reference to acid\nrain",
+     "solution_md": "An explanation that links two of the following three\npoints\nM1 carbon dioxide is a greenhouse gas\nAND\nM2 (that causes) climate change / global warming /\nglobal temperature rise\nOR\nM3 melting of polar icecaps / flooding / wildfires /\nsea levels rising\n\nACCEPT description of greenhouse effect e.g. carbon dioxide traps heat / infra-red rays in the atmosphere\nALLOW oceans becoming more acidic / less basic /pH decreasing\nREJECT reference to the ozone layer for M2 or M3\nIGNORE reference to acid rain",
      "mark_points": [
       {
        "id": "2023-06-2-d-MP1",
        "marks": 2,
-       "text_md": "An explanation that links two of the following three\npoints\nM1 carbon dioxide is a greenhouse gas ACCEPT description of\ngreenhouse effect\ne.g. carbon dioxide traps\nheat / infra-red rays in\nAND the atmosphere\nM2 (that causes) climate change / global warming /\nglobal temperature rise\nOR\nM3 melting of polar icecaps / flooding / wildfires / ALLOW oceans becoming\nsea levels rising more acidic / less basic\n/pH decreasing\nREJECT reference to the\nozone layer for M2 or M3\nIGNORE reference to acid\nrain"
+       "text_md": "An explanation that links two of the following three\npoints\nM1 carbon dioxide is a greenhouse gas\nAND\nM2 (that causes) climate change / global warming /\nglobal temperature rise\nOR\nM3 melting of polar icecaps / flooding / wildfires /\nsea levels rising\n\nACCEPT description of greenhouse effect e.g. carbon dioxide traps heat / infra-red rays in the atmosphere\nALLOW oceans becoming more acidic / less basic /pH decreasing\nREJECT reference to the ozone layer for M2 or M3\nIGNORE reference to acid rain"
       }
      ],
      "source_page": 6,
@@ -415,20 +415,20 @@
      "part_number": "3(a)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the equation for fermentation. C6H12O6 → +",
+     "problem_md": "Complete the equation for fermentation. C6H12O6 → .......... + ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "C6H12O6 → 2C2H5OH + 2CO2 ACCEPT CH3CH2OH\nM1 both formulae correct\nM2 balancing of correct formulae M2 dep on M1 but if\nC2H6O given no M1\nbut allow M2 for\ncorrect balancing\nIGNORE state\nsymbols even if\nincorrect\nALLOW multiples\nand fractions",
+     "solution_md": "C6H12O6 → 2C2H5OH + 2CO2\nM1 both formulae correct\nM2 balancing of correct formulae\n\nACCEPT CH3CH2OH M2 dep on M1 but if C2H6O given no M1 but allow M2 for correct balancing\nIGNORE state symbols even if incorrect\nALLOW multiples and fractions",
      "mark_points": [
       {
        "id": "2023-06-3-a-MP1",
        "marks": 1,
-       "text_md": "both formulae correct"
+       "text_md": "both formulae correct\nACCEPT CH3CH2OH M2 dep on M1 but if C2H6O given no M1 but allow M2 for correct balancing"
       },
       {
        "id": "2023-06-3-a-MP2",
        "marks": 1,
-       "text_md": "balancing of correct formulae M2 dep on M1 but if"
+       "text_md": "balancing of correct formulae\nIGNORE state symbols even if incorrect\nALLOW multiples and fractions"
       }
      ],
      "source_page": 8,
@@ -445,12 +445,12 @@
      "problem_md": "Complete the table by giving the missing information.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "3\nACCEPT H3PO4\nHydration Fermentation If formula alone\nmust be correct, but\nReagents ethene and steam aqueous glucose if name given and\nformula incorrect\nCatalyst phosphoric acid enzymes in yeast ignore formula\nTemperature in\no 300 30 ALLOW sulphuric\nC\nPressure in acid / H2SO4\n60 − 70\natmospheres\nACCEPT any\ntemperature\nbetween 20 and 40\ninclusive\nACCEPT any\npressure between 60\nand 70 inclusive",
+     "solution_md": "3\nHydration Fermentation\nReagents ethene and steam aqueous glucose\nCatalyst phosphoric acid enzymes in yeast\nTemperature in\no 300 30\nC\nPressure in\n60 − 70\natmospheres\n\nACCEPT H3PO4 If formula alone must be correct, but if name given and formula incorrect ignore formula\nALLOW sulphuric acid / H2SO4\nACCEPT any temperature between 20 and 40 inclusive\nACCEPT any pressure between 60 and 70 inclusive",
      "mark_points": [
       {
        "id": "2023-06-3-b-i-MP1",
        "marks": 3,
-       "text_md": "3\nACCEPT H3PO4\nHydration Fermentation If formula alone\nmust be correct, but\nReagents ethene and steam aqueous glucose if name given and\nformula incorrect\nCatalyst phosphoric acid enzymes in yeast ignore formula\nTemperature in\no 300 30 ALLOW sulphuric\nC\nPressure in acid / H2SO4\n60 − 70\natmospheres\nACCEPT any\ntemperature\nbetween 20 and 40\ninclusive\nACCEPT any\npressure between 60\nand 70 inclusive"
+       "text_md": "3\nHydration Fermentation\nReagents ethene and steam aqueous glucose\nCatalyst phosphoric acid enzymes in yeast\nTemperature in\no 300 30\nC\nPressure in\n60 − 70\natmospheres\n\nACCEPT H3PO4 If formula alone must be correct, but if name given and formula incorrect ignore formula\nALLOW sulphuric acid / H2SO4\nACCEPT any temperature between 20 and 40 inclusive\nACCEPT any pressure between 60 and 70 inclusive"
       }
      ],
      "source_page": 8,
@@ -482,12 +482,12 @@
      "problem_md": "Explain one advantage and one disadvantage of using fermentation rather than hydration to produce ethanol. You should use information from the table to help your answer. advantage disadvantage",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links one advantage and one\ndisadvantage\nadvantage:\nM1 uses low(er) pressure / atmospheric pressure / 1 atm\nM2 so less energy needed / less costly equipment / safer IGNORE cheaper\n/less costly alone\nOR\nM1 uses low(er) temperature\nM2 so less energy / heat needed IGNORE cheaper\n/less costly\nOR\nM1 glucose /sugar cane is a natural resource /is\nrenewable\nM2 whereas ethene obtained from crude oil /ethene is\nnon-renewable / ethene is a finite resource\nOR\nM1 yeast is a natural resource\nM2 whereas phosphoric acid is a manufactured catalyst\ndisadvantage:\nM3 fermentation is slow(er) ALLOW\nM4 fermentation is less efficient /so hydration is more M3 fermentation is a\nefficient batch process\nM4 whereas\nhydration is a\ncontinuous process\nOR (so more efficient)\nM3 ethanol is impure IGNORE reference to\nM4 so ethanol needs to be purified ORA yield\nOR\nM3 growing sugar cane takes up land\nM4 that can be used to grow food crops",
+     "solution_md": "An explanation that links one advantage and one\ndisadvantage\nadvantage:\nM1 uses low(er) pressure / atmospheric pressure / 1 atm\nM2 so less energy needed / less costly equipment / safer\nOR\nM1 uses low(er) temperature\nM2 so less energy / heat needed\nOR\nM1 glucose /sugar cane is a natural resource /is\nrenewable\nM2 whereas ethene obtained from crude oil /ethene is\nnon-renewable / ethene is a finite resource\nOR\nM1 yeast is a natural resource\nM2 whereas phosphoric acid is a manufactured catalyst\ndisadvantage:\nM3 fermentation is slow(er)\nM4 fermentation is less efficient /so hydration is more\nefficient\nOR\nM3 ethanol is impure\nM4 so ethanol needs to be purified ORA\nOR\nM3 growing sugar cane takes up land\nM4 that can be used to grow food crops\n\nIGNORE cheaper /less costly alone\nIGNORE cheaper /less costly\nALLOW M3 fermentation is a batch process M4 whereas hydration is a continuous process (so more efficient)\nIGNORE reference to yield",
      "mark_points": [
       {
        "id": "2023-06-3-b-ii-MP1",
        "marks": 4,
-       "text_md": "An explanation that links one advantage and one\ndisadvantage\nadvantage:\nM1 uses low(er) pressure / atmospheric pressure / 1 atm\nM2 so less energy needed / less costly equipment / safer IGNORE cheaper\n/less costly alone\nOR\nM1 uses low(er) temperature\nM2 so less energy / heat needed IGNORE cheaper\n/less costly\nOR\nM1 glucose /sugar cane is a natural resource /is\nrenewable\nM2 whereas ethene obtained from crude oil /ethene is\nnon-renewable / ethene is a finite resource\nOR\nM1 yeast is a natural resource\nM2 whereas phosphoric acid is a manufactured catalyst\ndisadvantage:\nM3 fermentation is slow(er) ALLOW\nM4 fermentation is less efficient /so hydration is more M3 fermentation is a\nefficient batch process\nM4 whereas\nhydration is a\ncontinuous process\nOR (so more efficient)\nM3 ethanol is impure IGNORE reference to\nM4 so ethanol needs to be purified ORA yield\nOR\nM3 growing sugar cane takes up land\nM4 that can be used to grow food crops"
+       "text_md": "An explanation that links one advantage and one\ndisadvantage\nadvantage:\nM1 uses low(er) pressure / atmospheric pressure / 1 atm\nM2 so less energy needed / less costly equipment / safer\nOR\nM1 uses low(er) temperature\nM2 so less energy / heat needed\nOR\nM1 glucose /sugar cane is a natural resource /is\nrenewable\nM2 whereas ethene obtained from crude oil /ethene is\nnon-renewable / ethene is a finite resource\nOR\nM1 yeast is a natural resource\nM2 whereas phosphoric acid is a manufactured catalyst\ndisadvantage:\nM3 fermentation is slow(er)\nM4 fermentation is less efficient /so hydration is more\nefficient\nOR\nM3 ethanol is impure\nM4 so ethanol needs to be purified ORA\nOR\nM3 growing sugar cane takes up land\nM4 that can be used to grow food crops\n\nIGNORE cheaper /less costly alone\nIGNORE cheaper /less costly\nALLOW M3 fermentation is a batch process M4 whereas hydration is a continuous process (so more efficient)\nIGNORE reference to yield"
       }
      ],
      "source_page": 9,
@@ -519,12 +519,12 @@
      "problem_md": "Explain why fermentation needs to occur in the absence of air.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 oxygen would oxidise / react with ethanol / alcohol\nM2 which would produce ethanoic acid / CH3COOH ALLOW acetic acid /\nvinegar\nOR IGNORE carboxylic acid\nM1 fermentation needs to be anaerobic\nM2 so ethanol / alcohol will be formed / otherwise\nonly carbon dioxide and water would form",
+     "solution_md": "An explanation that links the following two points\nM1 oxygen would oxidise / react with ethanol / alcohol\nM2 which would produce ethanoic acid / CH3COOH\nOR\nM1 fermentation needs to be anaerobic\nM2 so ethanol / alcohol will be formed / otherwise\nonly carbon dioxide and water would form\n\nALLOW acetic acid / vinegar\nIGNORE carboxylic acid",
      "mark_points": [
       {
        "id": "2023-06-3-c-MP1",
        "marks": 2,
-       "text_md": "An explanation that links the following two points\nM1 oxygen would oxidise / react with ethanol / alcohol\nM2 which would produce ethanoic acid / CH3COOH ALLOW acetic acid /\nvinegar\nOR IGNORE carboxylic acid\nM1 fermentation needs to be anaerobic\nM2 so ethanol / alcohol will be formed / otherwise\nonly carbon dioxide and water would form"
+       "text_md": "An explanation that links the following two points\nM1 oxygen would oxidise / react with ethanol / alcohol\nM2 which would produce ethanoic acid / CH3COOH\nOR\nM1 fermentation needs to be anaerobic\nM2 so ethanol / alcohol will be formed / otherwise\nonly carbon dioxide and water would form\n\nALLOW acetic acid / vinegar\nIGNORE carboxylic acid"
       }
      ],
      "source_page": 9,
@@ -541,22 +541,22 @@
      "problem_md": "Show by calculation that the empirical formula of propanol is C3H8O.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 60.0 13.3 26.7 0 marks for division by\n12 1 16 atomic numbers or\nupside-down calculation\nM2 5.0 13.3 1.67 ALLOW any number of sig\nfigs except 1 apart from 5\nM3 5.0 13.3 1.67 in M2 and M3\n1.67 1.67 1.67\nOR 2.99 7.96\nACCEPT alternative\nmethods",
+     "solution_md": "M1 60.0 13.3 26.7 0 marks for division by\n12 1 16 atomic numbers or\nM2 5.0 13.3 1.67\nM3 5.0 13.3 1.67\n1.67 1.67 1.67\nOR 2.99 7.96\n\nupside-down calculation\nALLOW any number of sig figs except 1 apart from 5 in M2 and M3\nACCEPT alternative methods",
      "mark_points": [
       {
        "id": "2023-06-3-d-i-MP1",
        "marks": 1,
-       "text_md": "60.0 13.3 26.7 0 marks for division by\n12 1 16 atomic numbers or"
+       "text_md": "60.0 13.3 26.7 0 marks for division by\n12 1 16 atomic numbers or\nupside-down calculation"
       },
       {
        "id": "2023-06-3-d-i-MP2",
        "marks": 1,
-       "text_md": "5.0 13.3 1.67 ALLOW any number of sig"
+       "text_md": "5.0 13.3 1.67\nALLOW any number of sig figs except 1 apart from 5 in M2 and M3"
       },
       {
        "id": "2023-06-3-d-i-MP3",
        "marks": 1,
-       "text_md": "5.0 13.3 1.67 in M2 and M3\n1.67 1.67 1.67\nOR 2.99 7.96"
+       "text_md": "5.0 13.3 1.67\n1.67 1.67 1.67\nOR 2.99 7.96\nACCEPT alternative methods"
       }
      ],
      "source_page": 10,
@@ -573,12 +573,12 @@
      "problem_md": "Draw the displayed formula of propanol.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "H H H Bond between O and H\nI I I must be shown\nH⎯C⎯C⎯C⎯O⎯H\nI I I ACCEPT structure of\nH H H propan-2-ol",
+     "solution_md": "H H H Bond between O and H\nI I I must be shown\nH⎯C⎯C⎯C⎯O⎯H\nI I I\nH H H\n\nACCEPT structure of propan-2-ol",
      "mark_points": [
       {
        "id": "2023-06-3-d-ii-MP1",
        "marks": 1,
-       "text_md": "H H H Bond between O and H\nI I I must be shown\nH⎯C⎯C⎯C⎯O⎯H\nI I I ACCEPT structure of\nH H H propan-2-ol"
+       "text_md": "H H H Bond between O and H\nI I I must be shown\nH⎯C⎯C⎯C⎯O⎯H\nI I I\nH H H\n\nACCEPT structure of propan-2-ol"
       }
      ],
      "source_page": 10,
@@ -634,7 +634,7 @@
      "problem_md": "Give the colour of methyl orange in potassium hydroxide solution and in dilute sulfuric acid. colour in potassium hydroxide solution colour in dilute sulfuric acid",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (colour in potassium hydroxide) yellow\nM2 (colour in sulfuric acid) red ALLOW pink",
+     "solution_md": "M1 (colour in potassium hydroxide) yellow\nM2 (colour in sulfuric acid) red\n\nALLOW pink",
      "mark_points": [
       {
        "id": "2023-06-4-b-MP1",
@@ -644,7 +644,7 @@
       {
        "id": "2023-06-4-b-MP2",
        "marks": 1,
-       "text_md": "(colour in sulfuric acid) red ALLOW pink"
+       "text_md": "(colour in sulfuric acid) red\nALLOW pink"
       }
      ],
      "source_page": 12,
@@ -683,12 +683,12 @@
      "problem_md": "State why the student swirls the flask continuously.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "to mix the solutions (more thoroughly) OWTTE ALLOW to speed up the\nreaction between the acid\nand alkali OWTTE",
+     "solution_md": "to mix the solutions (more thoroughly) OWTTE\n\nALLOW to speed up the reaction between the acid and alkali OWTTE",
      "mark_points": [
       {
        "id": "2023-06-4-d-MP1",
        "marks": 1,
-       "text_md": "to mix the solutions (more thoroughly) OWTTE ALLOW to speed up the\nreaction between the acid\nand alkali OWTTE"
+       "text_md": "to mix the solutions (more thoroughly) OWTTE\n\nALLOW to speed up the reaction between the acid and alkali OWTTE"
       }
      ],
      "source_page": 12,
@@ -705,12 +705,12 @@
      "problem_md": "State what is meant by the term concordant results.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "titres/results within (+ or −) 0.2 (cm3 of each other) ALLOW within 0.1\nREJECT > 0.2 or < 0.1",
+     "solution_md": "titres/results within (+ or −) 0.2 (cm3 of each other)\n\nALLOW within 0.1\nREJECT > 0.2 or < 0.1",
      "mark_points": [
       {
        "id": "2023-06-4-e-MP1",
        "marks": 1,
-       "text_md": "titres/results within (+ or −) 0.2 (cm3 of each other) ALLOW within 0.1\nREJECT > 0.2 or < 0.1"
+       "text_md": "titres/results within (+ or −) 0.2 (cm3 of each other)\n\nALLOW within 0.1\nREJECT > 0.2 or < 0.1"
       }
      ],
      "source_page": 13,
@@ -724,25 +724,25 @@
      "part_number": "4(f)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The student finds that 15.00 cm3 of sulfuric acid of concentration 0.180 mol / dm3 neutralises 25.0 cm3 of potassium hydroxide solution. This is the equation for the reaction. 2KOH + H2SO4 → K2SO4 + 2H2O Calculate the concentration of the potassium hydroxide solution. concentration = mol / dm3",
+     "problem_md": "The student finds that 15.00 cm3 of sulfuric acid of concentration 0.180 mol / dm3 neutralises 25.0 cm3 of potassium hydroxide solution. This is the equation for the reaction. 2KOH + H2SO4 → K2SO4 + 2H2O Calculate the concentration of the potassium hydroxide solution. concentration = .......... mol / dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer with or\nwithout working scores 3\nM1 n(H2SO4) = 0.0150 × 0.180 or 0.0027(0) (mol)\nM2 n(KOH) = 0.0027(0) × 2 or 0.0054(0) (mol) answer to M1 × 2\nM3 concn = (0.0054(0) ÷ 0.0250) = 0.216 (mol/dm3) answer to M2 ÷ 0.0250\nALLOW any number of sig\nfigs except 1\ncommon answers:\n0.108 and 0.054 scores 2",
+     "solution_md": "correct answer with or\nM1 n(H2SO4) = 0.0150 × 0.180 or 0.0027(0) (mol)\nM2 n(KOH) = 0.0027(0) × 2 or 0.0054(0) (mol)\nM3 concn = (0.0054(0) ÷ 0.0250) = 0.216 (mol/dm3)\n\nwithout working scores 3 answer to M1 × 2 answer to M2 ÷ 0.0250\nALLOW any number of sig figs except 1 common answers: 0.108 and 0.054 scores 2",
      "mark_points": [
       {
        "id": "2023-06-4-f-MP1",
        "marks": 1,
-       "text_md": "n(H2SO4) = 0.0150 × 0.180 or 0.0027(0) (mol)"
+       "text_md": "n(H2SO4) = 0.0150 × 0.180 or 0.0027(0) (mol)\nwithout working scores 3 answer to M1 × 2 answer to M2 ÷ 0.0250"
       },
       {
        "id": "2023-06-4-f-MP2",
        "marks": 1,
-       "text_md": "n(KOH) = 0.0027(0) × 2 or 0.0054(0) (mol) answer to M1 × 2"
+       "text_md": "n(KOH) = 0.0027(0) × 2 or 0.0054(0) (mol)"
       },
       {
        "id": "2023-06-4-f-MP3",
        "marks": 1,
-       "text_md": "concn = (0.0054(0) ÷ 0.0250) = 0.216 (mol/dm3) answer to M2 ÷ 0.0250"
+       "text_md": "concn = (0.0054(0) ÷ 0.0250) = 0.216 (mol/dm3)\nALLOW any number of sig figs except 1 common answers: 0.108 and 0.054 scores 2"
       }
      ],
      "source_page": 13,
@@ -759,7 +759,7 @@
      "problem_md": "This is the ionic equation for the reaction between an acid and an alkali. H+(aq) + OH−(aq) → H2O(l) Explain why the OH− ion is a proton acceptor in this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 an H+ ion is a proton\nM2 the OH− (ion) reacts / bonds with the H+ (ion) (to ALLOW donates a proton\nform water) / H+ (ion) to the OH−\nIGNORE accepts a proton",
+     "solution_md": "An explanation that links the following two points\nM1 an H+ ion is a proton\nM2 the OH− (ion) reacts / bonds with the H+ (ion) (to\nform water)\n\nALLOW donates a proton / H+ (ion) to the OH−\nIGNORE accepts a proton",
      "mark_points": [
       {
        "id": "2023-06-4-g-MP1",
@@ -769,7 +769,7 @@
       {
        "id": "2023-06-4-g-MP2",
        "marks": 1,
-       "text_md": "the OH− (ion) reacts / bonds with the H+ (ion) (to ALLOW donates a proton\nform water) / H+ (ion) to the OH−"
+       "text_md": "the OH− (ion) reacts / bonds with the H+ (ion) (to\nform water)\nALLOW donates a proton / H+ (ion) to the OH−\nIGNORE accepts a proton"
       }
      ],
      "source_page": 13,
@@ -796,12 +796,12 @@
      "problem_md": "Describe how the student could test a sample of copper(II) sulfate solution to show that it contains copper(II) ions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 add sodium hydroxide (to the copper(II) sulfate ALLOW potassium\nsolution) hydroxide or aqueous\nammonia\nNo M1 if any incorrect\nreagent added\nM2 blue precipitate (forms) IGNORE qualifiers e.g.\npale / dark etc.\nM2 dep on addition of a\nOR correct alkali\nM1 flame test ACCEPT description of\nflame test\nM2 blue-green (flame) ALLOW green\nM2 dep on flame",
+     "solution_md": "M1 add sodium hydroxide (to the copper(II) sulfate\nsolution)\nM2 blue precipitate (forms)\nOR\nM1 flame test\nM2 blue-green (flame)\n\nALLOW potassium hydroxide or aqueous ammonia No M1 if any incorrect reagent added\nIGNORE qualifiers e.g. pale / dark etc. M2 dep on addition of a correct alkali\nACCEPT description of flame test\nALLOW green M2 dep on flame",
      "mark_points": [
       {
        "id": "2023-06-5-a-MP1",
        "marks": 2,
-       "text_md": "M1 add sodium hydroxide (to the copper(II) sulfate ALLOW potassium\nsolution) hydroxide or aqueous\nammonia\nNo M1 if any incorrect\nreagent added\nM2 blue precipitate (forms) IGNORE qualifiers e.g.\npale / dark etc.\nM2 dep on addition of a\nOR correct alkali\nM1 flame test ACCEPT description of\nflame test\nM2 blue-green (flame) ALLOW green\nM2 dep on flame"
+       "text_md": "M1 add sodium hydroxide (to the copper(II) sulfate\nsolution)\nM2 blue precipitate (forms)\nOR\nM1 flame test\nM2 blue-green (flame)\n\nALLOW potassium hydroxide or aqueous ammonia No M1 if any incorrect reagent added\nIGNORE qualifiers e.g. pale / dark etc. M2 dep on addition of a correct alkali\nACCEPT description of flame test\nALLOW green M2 dep on flame"
       }
      ],
      "source_page": 14,
@@ -818,12 +818,12 @@
      "problem_md": "Describe how copper metal forms at the negative electrode.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An description that refers to any three from\nM1 copper ions are positively charged / cations ALLOW M1 and M3 for a\n/ Cu2+ (ions) fully correct half\nequation\nM2 and are attracted to / travel to the negative i.e. Cu2+ + 2e → Cu\nelectrode / cathode\nM3 where they accept electrons\nM4 and become (copper) atoms",
+     "solution_md": "An description that refers to any three from\nM1 copper ions are positively charged / cations\n/ Cu2+ (ions)\nM2 and are attracted to / travel to the negative\nelectrode / cathode\nM3 where they accept electrons\nM4 and become (copper) atoms\n\nALLOW M1 and M3 for a fully correct half equation i.e. Cu2+ + 2e → Cu",
      "mark_points": [
       {
        "id": "2023-06-5-b-MP1",
        "marks": 3,
-       "text_md": "An description that refers to any three from\nM1 copper ions are positively charged / cations ALLOW M1 and M3 for a\n/ Cu2+ (ions) fully correct half\nequation\nM2 and are attracted to / travel to the negative i.e. Cu2+ + 2e → Cu\nelectrode / cathode\nM3 where they accept electrons\nM4 and become (copper) atoms"
+       "text_md": "An description that refers to any three from\nM1 copper ions are positively charged / cations\n/ Cu2+ (ions)\nM2 and are attracted to / travel to the negative\nelectrode / cathode\nM3 where they accept electrons\nM4 and become (copper) atoms\n\nALLOW M1 and M3 for a fully correct half equation i.e. Cu2+ + 2e → Cu"
       }
      ],
      "source_page": 14,
@@ -840,12 +840,12 @@
      "problem_md": "State the appearance of the copper that forms on the negative electrode.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "pink solid / deposit / coating / metal ACCEPT pink-brown /\norange-brown / brown /\norange / red-brown\nREJECT red\nREJECT precipitate",
+     "solution_md": "pink solid / deposit / coating / metal\n\nACCEPT pink-brown / orange-brown / brown / orange / red-brown\nREJECT red\nREJECT precipitate",
      "mark_points": [
       {
        "id": "2023-06-5-c-MP1",
        "marks": 1,
-       "text_md": "pink solid / deposit / coating / metal ACCEPT pink-brown /\norange-brown / brown /\norange / red-brown\nREJECT red\nREJECT precipitate"
+       "text_md": "pink solid / deposit / coating / metal\n\nACCEPT pink-brown / orange-brown / brown / orange / red-brown\nREJECT red\nREJECT precipitate"
       }
      ],
      "source_page": 15,
@@ -881,20 +881,20 @@
      "part_number": "5(d)(ii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the half-equation for the formation of oxygen at the positive electrode. 2H2O → + +",
+     "problem_md": "Complete the half-equation for the formation of oxygen at the positive electrode. 2H2O → .......... + .......... + ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2H2O → 4H+ + O2 + 4e(−) 4OH− → 2H2O + O2 + 4e(−)\nscores 1\nIGNORE state symbols\neven if incorrect\nM1 O2 + e(−) IGNORE any numbers in\nfront of O2 + e(−) and any\nM2 equation fully correct other species",
+     "solution_md": "2H2O → 4H+ + O2 + 4e(−) 4OH− → 2H2O + O2 + 4e(−)\nM1 O2 + e(−)\nM2 equation fully correct\n\nscores 1\nIGNORE state symbols even if incorrect\nIGNORE any numbers in front of O2 + e(−) and any other species",
      "mark_points": [
       {
        "id": "2023-06-5-d-ii-MP1",
        "marks": 1,
-       "text_md": "O2 + e(−) IGNORE any numbers in"
+       "text_md": "O2 + e(−)\nscores 1\nIGNORE state symbols even if incorrect\nIGNORE any numbers in front of O2 + e(−) and any other species"
       },
       {
        "id": "2023-06-5-d-ii-MP2",
        "marks": 1,
-       "text_md": "equation fully correct other species"
+       "text_md": "equation fully correct"
       }
      ],
      "source_page": 15,
@@ -911,12 +911,12 @@
      "problem_md": "State why the formation of oxygen at the positive electrode is an oxidation reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "electrons are lost ALLOW H2O / water\nloses electrons",
+     "solution_md": "electrons are lost\n\nALLOW H2O / water loses electrons",
      "mark_points": [
       {
        "id": "2023-06-5-d-iii-MP1",
        "marks": 1,
-       "text_md": "electrons are lost ALLOW H2O / water\nloses electrons"
+       "text_md": "electrons are lost\n\nALLOW H2O / water loses electrons"
       }
      ],
      "source_page": 15,
@@ -947,12 +947,12 @@
      "problem_md": "Give the name of a suitable catalyst to increase the rate of this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "sulfuric acid / H2SO4 ACCEPT hydrochloric acid\n/ HCl and nitric acid /\nHNO3 / phosphoric acid /\nH3PO4",
+     "solution_md": "sulfuric acid / H2SO4\n\nACCEPT hydrochloric acid / HCl and nitric acid / HNO3 / phosphoric acid / H3PO4",
      "mark_points": [
       {
        "id": "2023-06-6-a-i-MP1",
        "marks": 1,
-       "text_md": "sulfuric acid / H2SO4 ACCEPT hydrochloric acid\n/ HCl and nitric acid /\nHNO3 / phosphoric acid /\nH3PO4"
+       "text_md": "sulfuric acid / H2SO4\n\nACCEPT hydrochloric acid / HCl and nitric acid / HNO3 / phosphoric acid / H3PO4"
       }
      ],
      "source_page": 16,
@@ -970,12 +970,12 @@
      "problem_md": "State how you would know that an ester has formed.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "distinctive / sweet / fruity smell ACCEPT an oily layer\nforms (on the surface)",
+     "solution_md": "distinctive / sweet / fruity smell\n\nACCEPT an oily layer forms (on the surface)",
      "mark_points": [
       {
        "id": "2023-06-6-a-ii-MP1",
        "marks": 1,
-       "text_md": "distinctive / sweet / fruity smell ACCEPT an oily layer\nforms (on the surface)"
+       "text_md": "distinctive / sweet / fruity smell\n\nACCEPT an oily layer forms (on the surface)"
       }
      ],
      "source_page": 16,
@@ -1034,12 +1034,12 @@
      "problem_md": "Explain why the enthalpy change in this reaction is approximately 0 kJ / mol.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 the same (two) bonds / C⎯O and O⎯H are ALLOW ecf if wrong\nbroken and formed bonds in (i)\nIGNORE the same number\nof bonds are broken and\nformed\nM2 energy needed to break bonds equals energy\nreleased when bonds form (so overall enthalpy\nchange is 0)",
+     "solution_md": "An explanation that links the following two points\nM1 the same (two) bonds / C⎯O and O⎯H are\nbroken and formed\nM2 energy needed to break bonds equals energy\nreleased when bonds form (so overall enthalpy\nchange is 0)\n\nALLOW ecf if wrong bonds in (i)\nIGNORE the same number of bonds are broken and formed",
      "mark_points": [
       {
        "id": "2023-06-6-b-ii-MP1",
        "marks": 1,
-       "text_md": "the same (two) bonds / C⎯O and O⎯H are ALLOW ecf if wrong\nbroken and formed bonds in (i)"
+       "text_md": "the same (two) bonds / C⎯O and O⎯H are\nbroken and formed\nALLOW ecf if wrong bonds in (i)\nIGNORE the same number of bonds are broken and formed"
       },
       {
        "id": "2023-06-6-b-ii-MP2",
@@ -1075,12 +1075,12 @@
      "problem_md": "State why carbon monoxide is poisonous to humans.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "reduces the capacity of blood to transport oxygen ALLOW carbon monoxide\nround the body OWTTE /it binds with\nhaemoglobin",
+     "solution_md": "reduces the capacity of blood to transport oxygen\nround the body OWTTE\n\nALLOW carbon monoxide /it binds with haemoglobin",
      "mark_points": [
       {
        "id": "2023-06-7-a-MP1",
        "marks": 1,
-       "text_md": "reduces the capacity of blood to transport oxygen ALLOW carbon monoxide\nround the body OWTTE /it binds with\nhaemoglobin"
+       "text_md": "reduces the capacity of blood to transport oxygen\nround the body OWTTE\n\nALLOW carbon monoxide /it binds with haemoglobin"
       }
      ],
      "source_page": 18,
@@ -1097,7 +1097,7 @@
      "problem_md": "Explain the effect, if any, on the yield of hydrogen at equilibrium when a nickel catalyst is used.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 no effect\nM2 as increases rate of forward reaction and rate\nof backward reaction equally\nM2 dep on M1 or missing",
+     "solution_md": "An explanation that links the following two points\nM1 no effect\nM2 as increases rate of forward reaction and rate\nof backward reaction equally\n\nM2 dep on M1 or missing",
      "mark_points": [
       {
        "id": "2023-06-7-b-MP1",
@@ -1107,7 +1107,7 @@
       {
        "id": "2023-06-7-b-MP2",
        "marks": 1,
-       "text_md": "as increases rate of forward reaction and rate\nof backward reaction equally"
+       "text_md": "as increases rate of forward reaction and rate\nof backward reaction equally\nM2 dep on M1 or missing"
       }
      ],
      "source_page": 18,
@@ -1124,7 +1124,7 @@
      "problem_md": "The temperature of the reaction mixture is reduced to 600 °C, but the pressure is kept at 5 atmospheres. Explain the effect on the yield of hydrogen at equilibrium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 yield decreases\nM2 as (forward) reaction is endothermic (so ALLOW backward\nequilibrium shifts to the LHS / reactants side) /reverse reaction is\nexothermic\nM2 dep on M1 or missing\nIGNORE references to Le\nChatelier",
+     "solution_md": "An explanation that links the following two points\nM1 yield decreases\nM2 as (forward) reaction is endothermic (so\nequilibrium shifts to the LHS / reactants side)\n\nALLOW backward /reverse reaction is exothermic M2 dep on M1 or missing\nIGNORE references to Le Chatelier",
      "mark_points": [
       {
        "id": "2023-06-7-c-i-MP1",
@@ -1134,7 +1134,7 @@
       {
        "id": "2023-06-7-c-i-MP2",
        "marks": 1,
-       "text_md": "as (forward) reaction is endothermic (so ALLOW backward\nequilibrium shifts to the LHS / reactants side) /reverse reaction is"
+       "text_md": "as (forward) reaction is endothermic (so\nequilibrium shifts to the LHS / reactants side)\nALLOW backward /reverse reaction is exothermic M2 dep on M1 or missing\nIGNORE references to Le Chatelier"
       }
      ],
      "source_page": 18,
@@ -1151,7 +1151,7 @@
      "problem_md": "The pressure of the reaction mixture is reduced to 4 atmospheres, but the temperature is kept at 700 °C. Explain the effect on the yield of hydrogen at equilibrium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following two points\nM1 yield increases\nM2 as there are fewer moles / molecules (of gas)\non the left-hand side / there are 2 mol on LHS and\n4 mol on RHS (so equilibrium shifts to the RHS /\nproducts side) ORA M2 dep on M1 or missing\nIGNORE references to Le\nChatelier",
+     "solution_md": "An explanation that links the following two points\nM1 yield increases\nM2 as there are fewer moles / molecules (of gas)\non the left-hand side / there are 2 mol on LHS and\n4 mol on RHS (so equilibrium shifts to the RHS /\nproducts side) ORA M2 dep on M1 or missing\n\nIGNORE references to Le Chatelier",
      "mark_points": [
       {
        "id": "2023-06-7-c-ii-MP1",
@@ -1161,7 +1161,7 @@
       {
        "id": "2023-06-7-c-ii-MP2",
        "marks": 1,
-       "text_md": "as there are fewer moles / molecules (of gas)\non the left-hand side / there are 2 mol on LHS and\n4 mol on RHS (so equilibrium shifts to the RHS /\nproducts side) ORA M2 dep on M1 or missing"
+       "text_md": "as there are fewer moles / molecules (of gas)\non the left-hand side / there are 2 mol on LHS and\n4 mol on RHS (so equilibrium shifts to the RHS /\nproducts side) ORA M2 dep on M1 or missing\nIGNORE references to Le Chatelier"
       }
      ],
      "source_page": 19,
@@ -1175,30 +1175,30 @@
      "part_number": "7(d)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate the volume, in dm3, of methane gas at rtp needed to produce 6.6 tonnes of hydrogen gas. [at rtp, molar volume = 24 dm3 1 tonne = 106 g] Give your answer in standard form. volume of methane = dm3",
+     "problem_md": "Calculate the volume, in dm3, of methane gas at rtp needed to produce 6.6 tonnes of hydrogen gas. [at rtp, molar volume = 24 dm3 1 tonne = 106 g] Give your answer in standard form. volume of methane = .......... dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer with or\nwithout working scores 4\nM1 n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol) ACCEPT 3 300 000\nM2 n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol) ACCEPT 1 100 000\nM3 vol(CH4) = 1.1 × 106 × 24 OR 26 400 000 (dm3) M2 × 24\nM4 2.6 × 107 ACCEPT 2.64 × 107\nALLOW ECF throughout\ncommon answers:\n7.9(2) × 107 scores 3\n5.28 × 107 scores 3\n1.584 × 108 scores 2\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "correct answer with or\nM1 n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol)\nM2 n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol)\nM3 vol(CH4) = 1.1 × 106 × 24 OR 26 400 000 (dm3)\nM4 2.6 × 107\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\n\nwithout working scores 4\nACCEPT 3 300 000\nACCEPT 1 100 000 M2 × 24\nACCEPT 2.64 × 107\nALLOW ECF throughout common answers: 7.9(2) × 107 scores 3 5.28 × 107 scores 3 1.584 × 108 scores 2",
      "mark_points": [
       {
        "id": "2023-06-7-d-MP1",
        "marks": 1,
-       "text_md": "n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol) ACCEPT 3 300 000"
+       "text_md": "n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol)\nwithout working scores 4\nACCEPT 3 300 000"
       },
       {
        "id": "2023-06-7-d-MP2",
        "marks": 1,
-       "text_md": "n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol) ACCEPT 1 100 000"
+       "text_md": "n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol)\nACCEPT 1 100 000 M2 × 24"
       },
       {
        "id": "2023-06-7-d-MP3",
        "marks": 1,
-       "text_md": "vol(CH4) = 1.1 × 106 × 24 OR 26 400 000 (dm3) M2 × 24"
+       "text_md": "vol(CH4) = 1.1 × 106 × 24 OR 26 400 000 (dm3)"
       },
       {
        "id": "2023-06-7-d-MP4",
        "marks": 1,
-       "text_md": "2.6 × 107 ACCEPT 2.64 × 107\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "2.6 × 107\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom\nACCEPT 2.64 × 107\nALLOW ECF throughout common answers: 7.9(2) × 107 scores 3 5.28 × 107 scores 3 1.584 × 108 scores 2"
       }
      ],
      "source_page": 19,

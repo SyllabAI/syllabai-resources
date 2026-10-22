@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:56Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2025-11 paper=1C",
+ "generated_utc": "2026-10-22T14:42:30Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2025-11 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2025-11:4CH1/1C",
  "source": {
   "qp_sha256": "7076dc7916f2515197f71d09d2e5685b305cc0a58ba1eed9166a2646b0969883",
@@ -31,10 +31,10 @@
      "part_number": "1(a)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Give the names of the changes of state labelled X, Y and Z. X Y Z",
+     "problem_md": "Give the names of the changes of state labelled X, Y and Z. X .......... Y .......... Z ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 X melting\nM2 Y boiling ALLOW evaporation\nALLOW vaporisation\nM3 Z sublimation",
+     "solution_md": "M1 X melting\nM2 Y boiling\nM3 Z sublimation\n\nALLOW evaporation\nALLOW vaporisation",
      "mark_points": [
       {
        "id": "2025-11-1-a-MP1",
@@ -44,7 +44,7 @@
       {
        "id": "2025-11-1-a-MP2",
        "marks": 1,
-       "text_md": "Y boiling ALLOW evaporation"
+       "text_md": "Y boiling\nALLOW evaporation\nALLOW vaporisation"
       },
       {
        "id": "2025-11-1-a-MP3",
@@ -66,17 +66,17 @@
      "problem_md": "Water vapour condenses to form water. Give the equation for this change of state. Include the state symbols.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "H2O (g) → H2O (l)\nM1 both formulae correct IGNORE ‘water’ instead\nof formulae\nM2 both state symbols correct IGNORE letter case\nM2 dep on M1",
+     "solution_md": "H2O (g) → H2O (l)\nM1 both formulae correct\nM2 both state symbols correct\n\nIGNORE ‘water’ instead of formulae\nIGNORE letter case M2 dep on M1",
      "mark_points": [
       {
        "id": "2025-11-1-b-MP1",
        "marks": 1,
-       "text_md": "both formulae correct IGNORE ‘water’ instead"
+       "text_md": "both formulae correct\nIGNORE ‘water’ instead of formulae"
       },
       {
        "id": "2025-11-1-b-MP2",
        "marks": 1,
-       "text_md": "both state symbols correct IGNORE letter case"
+       "text_md": "both state symbols correct\nIGNORE letter case M2 dep on M1"
       }
      ],
      "source_page": 3,
@@ -94,17 +94,17 @@
      "problem_md": "Describe how particles are arranged differently in solids and gases.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 solid (particles) have a regular arrangement OR IGNORE statements\ngas particles are randomly arranged related to liquids\nM2 solid (particles) are closely/tightly packed OR IGNORE diagrams\ngas particles widely spaced\nIGNORE statements\nrelated to movement\nincluding ‘random\nmovement’",
+     "solution_md": "M1 solid (particles) have a regular arrangement OR\ngas particles are randomly arranged\nM2 solid (particles) are closely/tightly packed OR\ngas particles widely spaced\n\nIGNORE statements related to liquids\nIGNORE diagrams\nIGNORE statements related to movement including ‘random movement’",
      "mark_points": [
       {
        "id": "2025-11-1-c-MP1",
        "marks": 1,
-       "text_md": "solid (particles) have a regular arrangement OR IGNORE statements\ngas particles are randomly arranged related to liquids"
+       "text_md": "solid (particles) have a regular arrangement OR\ngas particles are randomly arranged\nIGNORE statements related to liquids"
       },
       {
        "id": "2025-11-1-c-MP2",
        "marks": 1,
-       "text_md": "solid (particles) are closely/tightly packed OR IGNORE diagrams\ngas particles widely spaced"
+       "text_md": "solid (particles) are closely/tightly packed OR\ngas particles widely spaced\nIGNORE diagrams\nIGNORE statements related to movement including ‘random movement’"
       }
      ],
      "source_page": 3,
@@ -131,12 +131,12 @@
      "problem_md": "Identify the gas with a molecule that contains a triple bond.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "nitrogen ALLOW N2\nIGNORE N",
+     "solution_md": "nitrogen\n\nALLOW N2\nIGNORE N",
      "mark_points": [
       {
        "id": "2025-11-2-a-i-MP1",
        "marks": 1,
-       "text_md": "nitrogen ALLOW N2\nIGNORE N"
+       "text_md": "nitrogen\n\nALLOW N2\nIGNORE N"
       }
      ],
      "source_page": 4,
@@ -153,12 +153,12 @@
      "problem_md": "Identify the gas in the atmosphere that exists as individual atoms.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "argon ALLOW Ar",
+     "solution_md": "argon\n\nALLOW Ar",
      "mark_points": [
       {
        "id": "2025-11-2-a-ii-MP1",
        "marks": 1,
-       "text_md": "argon ALLOW Ar"
+       "text_md": "argon\n\nALLOW Ar"
       }
      ],
      "source_page": 4,
@@ -176,12 +176,12 @@
      "problem_md": "Identify the gas needed for combustion reactions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "oxygen ALLOW O2\nIGNORE O",
+     "solution_md": "oxygen\n\nALLOW O2\nIGNORE O",
      "mark_points": [
       {
        "id": "2025-11-2-a-iii-MP1",
        "marks": 1,
-       "text_md": "oxygen ALLOW O2\nIGNORE O"
+       "text_md": "oxygen\n\nALLOW O2\nIGNORE O"
       }
      ],
      "source_page": 4,
@@ -199,12 +199,12 @@
      "problem_md": "Explain how carbon dioxide can be formed from copper(II) carbonate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 heat (the copper(II) carbonate) ALLOW thermal\ndecomposition for 2 marks\nM2 until it decomposes (into carbon dioxide) ALLOW correct equation for\nM2 only\nOR\nM1 add an acid\nM2 forming salt, water and carbon dioxide ACCEPT acid/carbonate\nequation for 2 marks",
+     "solution_md": "M1 heat (the copper(II) carbonate)\nM2 until it decomposes (into carbon dioxide)\nOR\nM1 add an acid\nM2 forming salt, water and carbon dioxide\n\nALLOW thermal decomposition for 2 marks\nALLOW correct equation for M2 only\nACCEPT acid/carbonate equation for 2 marks",
      "mark_points": [
       {
        "id": "2025-11-2-b-MP1",
        "marks": 2,
-       "text_md": "M1 heat (the copper(II) carbonate) ALLOW thermal\ndecomposition for 2 marks\nM2 until it decomposes (into carbon dioxide) ALLOW correct equation for\nM2 only\nOR\nM1 add an acid\nM2 forming salt, water and carbon dioxide ACCEPT acid/carbonate\nequation for 2 marks"
+       "text_md": "M1 heat (the copper(II) carbonate)\nM2 until it decomposes (into carbon dioxide)\nOR\nM1 add an acid\nM2 forming salt, water and carbon dioxide\n\nALLOW thermal decomposition for 2 marks\nALLOW correct equation for M2 only\nACCEPT acid/carbonate equation for 2 marks"
       }
      ],
      "source_page": 4,
@@ -218,10 +218,10 @@
      "part_number": "2(c)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Use the student’s results to calculate the percentage of oxygen in the sample of air. percentage = %",
+     "problem_md": "Use the student’s results to calculate the percentage of oxygen in the sample of air. percentage = .......... %",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (height of oxygen =) 93 − 77 OR 16 (mm)\nM2 16 × 100 = 17 (%) M2 subsumes M1\nACCEPT 17/17.2/17.20 or\nany number of sig figs\nexcept 1\n83/82.8 scores M2 – ecf",
+     "solution_md": "M1 (height of oxygen =) 93 − 77 OR 16 (mm)\nM2 16 × 100 = 17 (%) M2 subsumes M1\n\nACCEPT 17/17.2/17.20 or any number of sig figs except 1 83/82.8 scores M2 – ecf",
      "mark_points": [
       {
        "id": "2025-11-2-c-i-MP1",
@@ -231,7 +231,7 @@
       {
        "id": "2025-11-2-c-i-MP2",
        "marks": 1,
-       "text_md": "16 × 100 = 17 (%) M2 subsumes M1"
+       "text_md": "16 × 100 = 17 (%) M2 subsumes M1\nACCEPT 17/17.2/17.20 or any number of sig figs except 1 83/82.8 scores M2 – ecf"
       }
      ],
      "source_page": 5,
@@ -249,12 +249,12 @@
      "problem_md": "The percentage of oxygen in air is approximately 21%. Suggest an improvement to the method that would increase the accuracy of the student’s results.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Leave the experiment for longer (than a ALLOW use a measuring\nweek)/leave until the water is at a constant cylinder/graduated tube\nheight\nALLOW use iron fillings\nALLOW more iron wool\nALLOW warmer temperature\nrepeat/average does not\nscore - apply list principle",
+     "solution_md": "Leave the experiment for longer (than a\nweek)/leave until the water is at a constant\nheight\n\nALLOW use a measuring cylinder/graduated tube\nALLOW use iron fillings\nALLOW more iron wool\nALLOW warmer temperature repeat/average does not score - apply list principle",
      "mark_points": [
       {
        "id": "2025-11-2-c-ii-MP1",
        "marks": 1,
-       "text_md": "Leave the experiment for longer (than a ALLOW use a measuring\nweek)/leave until the water is at a constant cylinder/graduated tube\nheight\nALLOW use iron fillings\nALLOW more iron wool\nALLOW warmer temperature\nrepeat/average does not\nscore - apply list principle"
+       "text_md": "Leave the experiment for longer (than a\nweek)/leave until the water is at a constant\nheight\n\nALLOW use a measuring cylinder/graduated tube\nALLOW use iron fillings\nALLOW more iron wool\nALLOW warmer temperature repeat/average does not score - apply list principle"
       }
      ],
      "source_page": 5,
@@ -506,12 +506,12 @@
      "problem_md": "State what type of particle is formed when an atom loses its outer shell electrons.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(positive) ion/cation ALLOW ‘an ion’\nREJECT ‘anion’\nREJECT negative",
+     "solution_md": "(positive) ion/cation\n\nALLOW ‘an ion’\nREJECT ‘anion’\nREJECT negative",
      "mark_points": [
       {
        "id": "2025-11-3-b-MP1",
        "marks": 1,
-       "text_md": "(positive) ion/cation ALLOW ‘an ion’\nREJECT ‘anion’\nREJECT negative"
+       "text_md": "(positive) ion/cation\n\nALLOW ‘an ion’\nREJECT ‘anion’\nREJECT negative"
       }
      ],
      "source_page": 7,
@@ -563,12 +563,12 @@
      "problem_md": "Plot the data on the grid. Do not join the points. Relative atomic mass 6.0 3 4 5 6 7 8 9 10 Atomic number",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "all points plotted to the nearest grid line ECF for correct points\non an appropriate\nalternative axis",
+     "solution_md": "all points plotted to the nearest grid line ECF for correct points\n\non an appropriate alternative axis",
      "mark_points": [
       {
        "id": "2025-11-3-c-ii-MP1",
        "marks": 2,
-       "text_md": "all points plotted to the nearest grid line ECF for correct points\non an appropriate\nalternative axis"
+       "text_md": "all points plotted to the nearest grid line ECF for correct points\n\non an appropriate alternative axis"
       }
      ],
      "source_page": 8,
@@ -599,12 +599,12 @@
      "problem_md": "Identify the relationship between relative atomic mass and atomic number for the elements in this period.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "there is a positive correlation (between the relative REJECT directly\natomic mass and the atomic number) / as the proportional\natomic number increases so does the relative REJECT proportional\natomic mass REJECT linear",
+     "solution_md": "there is a positive correlation (between the relative\natomic mass and the atomic number) / as the\natomic number increases so does the relative\natomic mass\n\nREJECT directly proportional\nREJECT proportional\nREJECT linear",
      "mark_points": [
       {
        "id": "2025-11-3-c-iii-MP1",
        "marks": 1,
-       "text_md": "there is a positive correlation (between the relative REJECT directly\natomic mass and the atomic number) / as the proportional\natomic number increases so does the relative REJECT proportional\natomic mass REJECT linear"
+       "text_md": "there is a positive correlation (between the relative\natomic mass and the atomic number) / as the\natomic number increases so does the relative\natomic mass\n\nREJECT directly proportional\nREJECT proportional\nREJECT linear"
       }
      ],
      "source_page": 9,
@@ -638,17 +638,17 @@
      "problem_md": "Draw a diagram to show the arrangement of the electrons in a chloride ion.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 a correct diagram which has an inner shell ‘2,8,8’ with no\nconfiguration of 2,8 diagram scores 1\nmark only\nM2 a correct diagram which has an outer shell\nIGNORE charge on the\nconfiguration of 8\nion",
+     "solution_md": "M1 a correct diagram which has an inner shell ‘2,8,8’ with no\nconfiguration of 2,8 diagram scores 1\nM2 a correct diagram which has an outer shell\nconfiguration of 8\n\nmark only\nIGNORE charge on the ion",
      "mark_points": [
       {
        "id": "2025-11-4-a-MP1",
        "marks": 1,
-       "text_md": "a correct diagram which has an inner shell ‘2,8,8’ with no\nconfiguration of 2,8 diagram scores 1"
+       "text_md": "a correct diagram which has an inner shell ‘2,8,8’ with no\nconfiguration of 2,8 diagram scores 1\nmark only"
       },
       {
        "id": "2025-11-4-a-MP2",
        "marks": 1,
-       "text_md": "a correct diagram which has an outer shell\nconfiguration of 8"
+       "text_md": "a correct diagram which has an outer shell\nconfiguration of 8\nIGNORE charge on the ion"
       }
      ],
      "source_page": 10,
@@ -666,32 +666,32 @@
      "problem_md": "Two beakers are unlabelled. One beaker contains a solution of ammonium chloride and the other beaker contains a solution of ammonium sulfate. Describe tests that can be carried out to confirm that one beaker contains ammonium chloride and the other beaker contains ammonium sulfate.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Test for chloride ions IGNORE tests for\nammonium ions\nM1 add (nitric) acid (to the ammonium chloride)\nREJECT add HCl –\nM2 add silver nitrate solution loses M1 and M3\nM3 white precipitate forms M3 dep on addition of\nsilver nitrate\nTest for sulfate ions\nM4 add (nitric acid/hydrochloric) acid (to the REJECT add H2SO4 –\nammonium sulfate) loses M4 and M6\nM5 add barium chloride ALLOW barium\nnitrate\nM6 white precipitate forms\nM6 dep on addition of\nbarium\nchloride/nitrate",
+     "solution_md": "Test for chloride ions\nM1 add (nitric) acid (to the ammonium chloride)\nM2 add silver nitrate solution\nM3 white precipitate forms\nTest for sulfate ions\nM4 add (nitric acid/hydrochloric) acid (to the\nammonium sulfate)\nM5 add barium chloride\nM6 white precipitate forms\n\nIGNORE tests for ammonium ions\nREJECT add HCl – loses M1 and M3 M3 dep on addition of silver nitrate\nREJECT add H2SO4 – loses M4 and M6\nALLOW barium nitrate M6 dep on addition of barium chloride/nitrate",
      "mark_points": [
       {
        "id": "2025-11-4-b-MP1",
        "marks": 1,
-       "text_md": "add (nitric) acid (to the ammonium chloride)"
+       "text_md": "add (nitric) acid (to the ammonium chloride)\nIGNORE tests for ammonium ions\nREJECT add HCl – loses M1 and M3 M3 dep on addition of silver nitrate"
       },
       {
        "id": "2025-11-4-b-MP2",
        "marks": 1,
-       "text_md": "add silver nitrate solution loses M1 and M3"
+       "text_md": "add silver nitrate solution"
       },
       {
        "id": "2025-11-4-b-MP3",
        "marks": 1,
-       "text_md": "white precipitate forms M3 dep on addition of\nTest for sulfate ions"
+       "text_md": "white precipitate forms\nTest for sulfate ions"
       },
       {
        "id": "2025-11-4-b-MP4",
        "marks": 1,
-       "text_md": "add (nitric acid/hydrochloric) acid (to the REJECT add H2SO4 –\nammonium sulfate) loses M4 and M6"
+       "text_md": "add (nitric acid/hydrochloric) acid (to the\nammonium sulfate)\nREJECT add H2SO4 – loses M4 and M6"
       },
       {
        "id": "2025-11-4-b-MP5",
        "marks": 1,
-       "text_md": "add barium chloride ALLOW barium"
+       "text_md": "add barium chloride\nALLOW barium nitrate M6 dep on addition of barium chloride/nitrate"
       },
       {
        "id": "2025-11-4-b-MP6",
@@ -714,12 +714,12 @@
      "problem_md": "Explain the mistake in the student’s diagram.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 the ammonium chloride should be closer to the ACCEPT (reactant)\nhydrochloric acid/further from the ammonia labels should be the\nsolution/further to the right other way around for\nM1\nREJECT ammonium\nchloride should be in\nthe centre for M1\nM2 as hydrogen chloride has a higher Mr/relative\nmolecular mass/relative formula mass ORA\nM3 so hydrogen chloride (molecules) moves more\nslowly/diffuses more slowly/travel a shorter distance\nORA",
+     "solution_md": "M1 the ammonium chloride should be closer to the\nhydrochloric acid/further from the ammonia\nsolution/further to the right\nM2 as hydrogen chloride has a higher Mr/relative\nmolecular mass/relative formula mass ORA\nM3 so hydrogen chloride (molecules) moves more\nslowly/diffuses more slowly/travel a shorter distance\nORA\n\nACCEPT (reactant) labels should be the other way around for M1\nREJECT ammonium chloride should be in the centre for M1",
      "mark_points": [
       {
        "id": "2025-11-4-c-i-MP1",
        "marks": 1,
-       "text_md": "the ammonium chloride should be closer to the ACCEPT (reactant)\nhydrochloric acid/further from the ammonia labels should be the\nsolution/further to the right other way around for"
+       "text_md": "the ammonium chloride should be closer to the\nhydrochloric acid/further from the ammonia\nsolution/further to the right\nACCEPT (reactant) labels should be the other way around for M1\nREJECT ammonium chloride should be in the centre for M1"
       },
       {
        "id": "2025-11-4-c-i-MP2",
@@ -757,15 +757,15 @@
      "part_number": "4(c)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the equation for the reaction in the glass tube by adding state symbols. NH3 ( ) + HCl ( ) NH4Cl ( )",
+     "problem_md": "Complete the equation for the reaction in the glass tube by adding state symbols. NH3 ( .......... ) + HCl ( .......... ) NH4Cl ( .......... )",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "NH3 (g) + HCl (g) ⇌ NH4Cl (s) IGNORE letter case",
+     "solution_md": "NH3 (g) + HCl (g) ⇌ NH4Cl (s)\n\nIGNORE letter case",
      "mark_points": [
       {
        "id": "2025-11-4-c-ii-MP1",
        "marks": 1,
-       "text_md": "NH3 (g) + HCl (g) ⇌ NH4Cl (s) IGNORE letter case"
+       "text_md": "NH3 (g) + HCl (g) ⇌ NH4Cl (s)\n\nIGNORE letter case"
       }
      ],
      "source_page": 11,
@@ -818,17 +818,17 @@
      "problem_md": "Explain why a polystyrene cup is used instead of a glass beaker.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 polystyrene cup is an insulator ALLOW ORA\nM2 so less heat is lost REJECT prevents heat\nloss/no heat loss for M2",
+     "solution_md": "M1 polystyrene cup is an insulator\nM2 so less heat is lost\n\nALLOW ORA\nREJECT prevents heat loss/no heat loss for M2",
      "mark_points": [
       {
        "id": "2025-11-5-b-MP1",
        "marks": 1,
-       "text_md": "polystyrene cup is an insulator ALLOW ORA"
+       "text_md": "polystyrene cup is an insulator\nALLOW ORA"
       },
       {
        "id": "2025-11-5-b-MP2",
        "marks": 1,
-       "text_md": "so less heat is lost REJECT prevents heat"
+       "text_md": "so less heat is lost\nREJECT prevents heat loss/no heat loss for M2"
       }
      ],
      "source_page": 13,
@@ -842,15 +842,15 @@
      "part_number": "5(c)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two variables the student should control in the investigation. 1 2",
+     "problem_md": "Give two variables the student should control in the investigation. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Allow any two from:\nM1 concentration of copper(II) sulfate IGNORE same\nmass/amount of metal W\nM2 volume of copper(II) sulfate\nIf no reference to\nM3 rate of stirring concentration and\nvolume allow amount of\nM4 surface area of metal (W) copper(II) sulfate for 1\nmark\nM5 Same initial temperature\nM6 Same (polystyrene) cup",
+     "solution_md": "Allow any two from:\nM1 concentration of copper(II) sulfate\nM2 volume of copper(II) sulfate\nM3 rate of stirring\nM4 surface area of metal (W)\nM5 Same initial temperature\nM6 Same (polystyrene) cup\n\nIGNORE same mass/amount of metal W If no reference to concentration and volume allow amount of copper(II) sulfate for 1 mark",
      "mark_points": [
       {
        "id": "2025-11-5-c-MP1",
        "marks": 2,
-       "text_md": "Allow any two from:\nM1 concentration of copper(II) sulfate IGNORE same\nmass/amount of metal W\nM2 volume of copper(II) sulfate\nIf no reference to\nM3 rate of stirring concentration and\nvolume allow amount of\nM4 surface area of metal (W) copper(II) sulfate for 1\nmark\nM5 Same initial temperature\nM6 Same (polystyrene) cup"
+       "text_md": "Allow any two from:\nM1 concentration of copper(II) sulfate\nM2 volume of copper(II) sulfate\nM3 rate of stirring\nM4 surface area of metal (W)\nM5 Same initial temperature\nM6 Same (polystyrene) cup\n\nIGNORE same mass/amount of metal W If no reference to concentration and volume allow amount of copper(II) sulfate for 1 mark"
       }
      ],
      "source_page": 13,
@@ -865,10 +865,10 @@
      "part_number": "5(d)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the mean temperature increase for metal Y. Give your answer to two significant figures. mean temperature increase = °C",
+     "problem_md": "Calculate the mean temperature increase for metal Y. Give your answer to two significant figures. mean temperature increase = .......... °C",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 6.1 + 6.3 + 6.0 OR 6.13 6.1 in table or in the\n3 space available scores 2.\nM2 6.1 Answer line takes priority\nover the table.\nECF for correct\ncalculation to 2sf for any\ndata taken for metal Y",
+     "solution_md": "M1 6.1 + 6.3 + 6.0 OR 6.13 6.1 in table or in the\n3 space available scores 2.\nM2 6.1 Answer line takes priority\n\nover the table. ECF for correct calculation to 2sf for any data taken for metal Y",
      "mark_points": [
       {
        "id": "2025-11-5-d-i-MP1",
@@ -878,7 +878,7 @@
       {
        "id": "2025-11-5-d-i-MP2",
        "marks": 1,
-       "text_md": "6.1 Answer line takes priority"
+       "text_md": "6.1 Answer line takes priority\nover the table. ECF for correct calculation to 2sf for any data taken for metal Y"
       }
      ],
      "source_page": 14,
@@ -895,12 +895,12 @@
      "problem_md": "Explain whether the anomalous result in experiment 2 could have been caused by stirring the mixture too quickly.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 any one from:\nREJECT answers which\nOverall temp change should be similar/same as Exp indicate that stirring\n1/3 OWTTE would have caused the\nTemperature increase should not be lower than error (i.e. Yes). This\nExp1/3 scores 0 for the question.\nTemperature increase would be higher than 2.0\ngiven in the table\nM2 (as stirring too quickly) would increase the rate\nof reaction/wouldn’t have reduced the amount of\nheat produced (in the reaction)",
+     "solution_md": "M1 any one from:\nOverall temp change should be similar/same as Exp\n1/3 OWTTE\nTemperature increase should not be lower than\nExp1/3\nTemperature increase would be higher than 2.0\ngiven in the table\nM2 (as stirring too quickly) would increase the rate\nof reaction/wouldn’t have reduced the amount of\nheat produced (in the reaction)\n\nREJECT answers which indicate that stirring would have caused the error (i.e. Yes). This scores 0 for the question.",
      "mark_points": [
       {
        "id": "2025-11-5-d-ii-MP1",
        "marks": 1,
-       "text_md": "any one from:\nOverall temp change should be similar/same as Exp indicate that stirring\n1/3 OWTTE would have caused the\nTemperature increase should not be lower than error (i.e. Yes). This\nExp1/3 scores 0 for the question.\nTemperature increase would be higher than 2.0\ngiven in the table"
+       "text_md": "any one from:\nOverall temp change should be similar/same as Exp\n1/3 OWTTE\nTemperature increase should not be lower than\nExp1/3\nTemperature increase would be higher than 2.0\ngiven in the table\nREJECT answers which indicate that stirring would have caused the error (i.e. Yes). This scores 0 for the question."
       },
       {
        "id": "2025-11-5-d-ii-MP2",
@@ -992,12 +992,12 @@
      "problem_md": "Give the name of process 1.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "fractional distillation ACCEPT fractionation\nACCEPT fractionating",
+     "solution_md": "fractional distillation\n\nACCEPT fractionation\nACCEPT fractionating",
      "mark_points": [
       {
        "id": "2025-11-6-a-i-MP1",
        "marks": 1,
-       "text_md": "fractional distillation ACCEPT fractionation\nACCEPT fractionating"
+       "text_md": "fractional distillation\n\nACCEPT fractionation\nACCEPT fractionating"
       }
      ],
      "source_page": 16,
@@ -1015,12 +1015,12 @@
      "problem_md": "Sketch a labelled diagram showing how the kerosene fraction is obtained from crude oil in process 1.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 a tower drawn with one entrance and more than\none exit\nM2 crude oil heated/vapourised before entering the\ntower OR passing through a furnace\nM3 crude oil enters at bottom ‘bottom’ meaning not\nhigher than the exit\nof the second lowest\nM4 kerosene leaves tower but not right at fraction\ntop/bottom\nOne from:\nM5 a temperature gradient up the column/hottest\nlabel at the bottom/coldest label at the top REJECT both M5/M6 if\nM6 3 or more other fractions labelled in correct place either is incorrect\nrelative to kerosene",
+     "solution_md": "M1 a tower drawn with one entrance and more than\none exit\nM2 crude oil heated/vapourised before entering the\ntower OR passing through a furnace\nM3 crude oil enters at bottom ‘bottom’ meaning not\nM4 kerosene leaves tower but not right at\ntop/bottom\nOne from:\nM5 a temperature gradient up the column/hottest\nlabel at the bottom/coldest label at the top\nM6 3 or more other fractions labelled in correct place\nrelative to kerosene\n\nhigher than the exit of the second lowest fraction\nREJECT both M5/M6 if either is incorrect",
      "mark_points": [
       {
        "id": "2025-11-6-a-ii-MP1",
        "marks": 5,
-       "text_md": "M1 a tower drawn with one entrance and more than\none exit\nM2 crude oil heated/vapourised before entering the\ntower OR passing through a furnace\nM3 crude oil enters at bottom ‘bottom’ meaning not\nhigher than the exit\nof the second lowest\nM4 kerosene leaves tower but not right at fraction\ntop/bottom\nOne from:\nM5 a temperature gradient up the column/hottest\nlabel at the bottom/coldest label at the top REJECT both M5/M6 if\nM6 3 or more other fractions labelled in correct place either is incorrect\nrelative to kerosene"
+       "text_md": "M1 a tower drawn with one entrance and more than\none exit\nM2 crude oil heated/vapourised before entering the\ntower OR passing through a furnace\nM3 crude oil enters at bottom ‘bottom’ meaning not\nM4 kerosene leaves tower but not right at\ntop/bottom\nOne from:\nM5 a temperature gradient up the column/hottest\nlabel at the bottom/coldest label at the top\nM6 3 or more other fractions labelled in correct place\nrelative to kerosene\n\nhigher than the exit of the second lowest fraction\nREJECT both M5/M6 if either is incorrect"
       }
      ],
      "source_page": 16,
@@ -1034,10 +1034,10 @@
      "part_number": "6(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give the two conditions needed for a reaction to occur in process 2. 1 2",
+     "problem_md": "Give the two conditions needed for a reaction to occur in process 2. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 600 to 700 oC inclusive\nM2 silica/alumina (catalyst) ACCEPT\nzeolites/SiO2/Al2O3\naluminosilicates\n/silicon dioxide\n/aluminium oxide",
+     "solution_md": "M1 600 to 700 oC inclusive\nM2 silica/alumina (catalyst)\n\nACCEPT zeolites/SiO2/Al2O3 aluminosilicates /silicon dioxide /aluminium oxide",
      "mark_points": [
       {
        "id": "2025-11-6-b-i-MP1",
@@ -1047,7 +1047,7 @@
       {
        "id": "2025-11-6-b-i-MP2",
        "marks": 1,
-       "text_md": "silica/alumina (catalyst) ACCEPT"
+       "text_md": "silica/alumina (catalyst)\nACCEPT zeolites/SiO2/Al2O3 aluminosilicates /silicon dioxide /aluminium oxide"
       }
      ],
      "source_page": 17,
@@ -1061,15 +1061,15 @@
      "part_number": "6(b)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Complete the equation for the reaction in process 2. C14H30 → +",
+     "problem_md": "Complete the equation for the reaction in process 2. C14H30 → .......... + ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "C14H30 → C8H18 + 3C2H4 ALLOW multiples or\nfractions",
+     "solution_md": "C14H30 → C8H18 + 3C2H4\n\nALLOW multiples or fractions",
      "mark_points": [
       {
        "id": "2025-11-6-b-ii-MP1",
        "marks": 1,
-       "text_md": "C14H30 → C8H18 + 3C2H4 ALLOW multiples or\nfractions"
+       "text_md": "C14H30 → C8H18 + 3C2H4\n\nALLOW multiples or fractions"
       }
      ],
      "source_page": 11,
@@ -1086,12 +1086,12 @@
      "problem_md": "Explain one use of octane as fuel.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the following three points\nM1 (octane) can be used as petrol/(fuel) for cars ALLOW other\nacceptable uses for\npetrol\nM2 (as it) undergoes combustion/reacts with\noxygen/burns\nM3 releasing heat (energy) ACCEPT thermal\nenergy",
+     "solution_md": "An explanation that links the following three points\nM1 (octane) can be used as petrol/(fuel) for cars\nM2 (as it) undergoes combustion/reacts with\noxygen/burns\nM3 releasing heat (energy)\n\nALLOW other acceptable uses for petrol\nACCEPT thermal energy",
      "mark_points": [
       {
        "id": "2025-11-6-c-MP1",
        "marks": 1,
-       "text_md": "(octane) can be used as petrol/(fuel) for cars ALLOW other"
+       "text_md": "(octane) can be used as petrol/(fuel) for cars\nALLOW other acceptable uses for petrol"
       },
       {
        "id": "2025-11-6-c-MP2",
@@ -1101,7 +1101,7 @@
       {
        "id": "2025-11-6-c-MP3",
        "marks": 1,
-       "text_md": "releasing heat (energy) ACCEPT thermal"
+       "text_md": "releasing heat (energy)\nACCEPT thermal energy"
       }
      ],
      "source_page": 17,
@@ -1176,7 +1176,7 @@
      "part_number": "7(a)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Determine the volume of sodium hydroxide solution at the point where the lines cross. volume = cm3",
+     "problem_md": "Determine the volume of sodium hydroxide solution at the point where the lines cross. volume = .......... cm3",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "any value between 21.4 and 21.8 inclusive",
@@ -1199,7 +1199,7 @@
      "part_number": "7(a)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Determine the maximum temperature change reached during the investigation. maximum temperature change = °C",
+     "problem_md": "Determine the maximum temperature change reached during the investigation. maximum temperature change = .......... °C",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "any value between 16.1 and 16.3 inclusive",
@@ -1221,10 +1221,10 @@
      "part_number": "7(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two mistakes in the student’s statement. 1 2",
+     "problem_md": "Give two mistakes in the student’s statement. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 should not be nitric acid added/sodium\nhydroxide should be added (not nitric acid)\nM2 the point where the lines cross shows where\nthe acid was neutralised/the acid was neutralised\nbefore 40 cm3/ the acid was neutralised at 21.6 ALLOW any value between\ncm3 21.4-21.8 cm3 for 21.6 cm3",
+     "solution_md": "M1 should not be nitric acid added/sodium\nhydroxide should be added (not nitric acid)\nM2 the point where the lines cross shows where\nthe acid was neutralised/the acid was neutralised\nbefore 40 cm3/ the acid was neutralised at 21.6\ncm3\n\nALLOW any value between 21.4-21.8 cm3 for 21.6 cm3",
      "mark_points": [
       {
        "id": "2025-11-7-b-i-MP1",
@@ -1234,7 +1234,7 @@
       {
        "id": "2025-11-7-b-i-MP2",
        "marks": 1,
-       "text_md": "the point where the lines cross shows where\nthe acid was neutralised/the acid was neutralised\nbefore 40 cm3/ the acid was neutralised at 21.6 ALLOW any value between\ncm3 21.4-21.8 cm3 for 21.6 cm3"
+       "text_md": "the point where the lines cross shows where\nthe acid was neutralised/the acid was neutralised\nbefore 40 cm3/ the acid was neutralised at 21.6\ncm3\nALLOW any value between 21.4-21.8 cm3 for 21.6 cm3"
       }
      ],
      "source_page": 19,
@@ -1270,30 +1270,30 @@
      "part_number": "7(c)(i)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "Calculate the maximum temperature reached. maximum temperature = °C",
+     "problem_md": "Calculate the maximum temperature reached. maximum temperature = .......... °C",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 mass of solution = 25 + 25 OR 50 (g) ALLOW ecf for M2 onwards\nM2 Q = mcΔT OR 3780 = 50 × 4.2 × ΔT answer of 36 scores 2\nM3 ΔT = 3780 OR 18 (oC) answer of 55 scores 3\n50 × 4.2\nM4 (maximum temperature = 19 + 18 =) 37 (oC) correct answer without\nworking scores 4",
+     "solution_md": "M1 mass of solution = 25 + 25 OR 50 (g)\nM2 Q = mcΔT OR 3780 = 50 × 4.2 × ΔT\nM3 ΔT = 3780 OR 18 (oC)\n50 × 4.2\nM4 (maximum temperature = 19 + 18 =) 37 (oC)\n\nALLOW ecf for M2 onwards answer of 36 scores 2 answer of 55 scores 3 correct answer without working scores 4",
      "mark_points": [
       {
        "id": "2025-11-7-c-i-MP1",
        "marks": 1,
-       "text_md": "mass of solution = 25 + 25 OR 50 (g) ALLOW ecf for M2 onwards"
+       "text_md": "mass of solution = 25 + 25 OR 50 (g)\nALLOW ecf for M2 onwards answer of 36 scores 2 answer of 55 scores 3 correct answer without working scores 4"
       },
       {
        "id": "2025-11-7-c-i-MP2",
        "marks": 1,
-       "text_md": "Q = mcΔT OR 3780 = 50 × 4.2 × ΔT answer of 36 scores 2"
+       "text_md": "Q = mcΔT OR 3780 = 50 × 4.2 × ΔT"
       },
       {
        "id": "2025-11-7-c-i-MP3",
        "marks": 1,
-       "text_md": "ΔT = 3780 OR 18 (oC) answer of 55 scores 3\n50 × 4.2"
+       "text_md": "ΔT = 3780 OR 18 (oC)\n50 × 4.2"
       },
       {
        "id": "2025-11-7-c-i-MP4",
        "marks": 1,
-       "text_md": "(maximum temperature = 19 + 18 =) 37 (oC) correct answer without"
+       "text_md": "(maximum temperature = 19 + 18 =) 37 (oC)"
       }
      ],
      "source_page": 20,
@@ -1307,15 +1307,15 @@
      "part_number": "7(c)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The amount of dilute nitric acid used in the investigation was 0.079 mol. Calculate the value of ΔH, in kJ / mol, for the neutralisation reaction. Include a sign in your answer. ΔH = kJ / mol",
+     "problem_md": "The amount of dilute nitric acid used in the investigation was 0.079 mol. Calculate the value of ΔH, in kJ / mol, for the neutralisation reaction. Include a sign in your answer. ΔH = .......... kJ / mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 3780 OR 47 848 (J/mol) correct answer without\n0.079 working scores 3 or 2\nwithout or incorrect sign\nM2 47.8 (kJ/mol)\nIncorrect rounding loses M2\nM3 − 47.8 (kJ/mol)\nOR\nM1 3780 OR 3.78 (kJ)\n1000\nM2 3.78 OR 47.8 (kJ/mol)\n0.079\nM3 − 47.8 (kJ/mol)",
+     "solution_md": "M1 3780 OR 47 848 (J/mol) correct answer without\n0.079 working scores 3 or 2\nM2 47.8 (kJ/mol)\nM3 − 47.8 (kJ/mol)\nOR\nM1 3780 OR 3.78 (kJ)\n1000\nM2 3.78 OR 47.8 (kJ/mol)\n0.079\nM3 − 47.8 (kJ/mol)\n\nwithout or incorrect sign\nIncorrect rounding loses M2",
      "mark_points": [
       {
        "id": "2025-11-7-c-ii-MP1",
        "marks": 3,
-       "text_md": "M1 3780 OR 47 848 (J/mol) correct answer without\n0.079 working scores 3 or 2\nwithout or incorrect sign\nM2 47.8 (kJ/mol)\nIncorrect rounding loses M2\nM3 − 47.8 (kJ/mol)\nOR\nM1 3780 OR 3.78 (kJ)\n1000\nM2 3.78 OR 47.8 (kJ/mol)\n0.079\nM3 − 47.8 (kJ/mol)"
+       "text_md": "M1 3780 OR 47 848 (J/mol) correct answer without\n0.079 working scores 3 or 2\nM2 47.8 (kJ/mol)\nM3 − 47.8 (kJ/mol)\nOR\nM1 3780 OR 3.78 (kJ)\n1000\nM2 3.78 OR 47.8 (kJ/mol)\n0.079\nM3 − 47.8 (kJ/mol)\n\nwithout or incorrect sign\nIncorrect rounding loses M2"
       }
      ],
      "source_page": 20,
@@ -1386,27 +1386,27 @@
      "problem_md": "Explain why magnesium oxide has a higher melting point than sodium chloride. Refer to structure and bonding in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "5\nM1 (sodium chloride and magnesium oxide) have a Mention of covalent\ngiant ionic structure /lattice bonding, intermolecular\nforces, metallic\nbonding, molecules\nloses M1-M4.\nM2 (there are) electrostatic forces / attraction\nbetween oppositely charged ions /negative and ALLOW ionic bonds\npositive ions / anions and cations\nM3 MgO has stronger attraction (between ions) than\nNaCl ORA ‘stronger ionic bonds in\nMgO’ scores M2 and M3\nM4 (because the) ions in MgO have a higher\ncharge/higher charge density (than NaCl) ORA\nACCEPT correct charges\non ions\nM5 which take more energy (to overcome the\nforces / break the bonds) ORA",
+     "solution_md": "5\nM1 (sodium chloride and magnesium oxide) have a Mention of covalent\ngiant ionic structure /lattice bonding, intermolecular\nM2 (there are) electrostatic forces / attraction\nbetween oppositely charged ions /negative and\npositive ions / anions and cations\nM3 MgO has stronger attraction (between ions) than\nNaCl ORA\nM4 (because the) ions in MgO have a higher\ncharge/higher charge density (than NaCl) ORA\nM5 which take more energy (to overcome the\nforces / break the bonds) ORA\n\nforces, metallic bonding, molecules loses M1-M4.\nALLOW ionic bonds ‘stronger ionic bonds in MgO’ scores M2 and M3\nACCEPT correct charges on ions",
      "mark_points": [
       {
        "id": "2025-11-8-b-MP1",
        "marks": 1,
-       "text_md": "(sodium chloride and magnesium oxide) have a Mention of covalent\ngiant ionic structure /lattice bonding, intermolecular"
+       "text_md": "(sodium chloride and magnesium oxide) have a Mention of covalent\ngiant ionic structure /lattice bonding, intermolecular\nforces, metallic bonding, molecules loses M1-M4."
       },
       {
        "id": "2025-11-8-b-MP2",
        "marks": 1,
-       "text_md": "(there are) electrostatic forces / attraction\nbetween oppositely charged ions /negative and ALLOW ionic bonds\npositive ions / anions and cations"
+       "text_md": "(there are) electrostatic forces / attraction\nbetween oppositely charged ions /negative and\npositive ions / anions and cations\nALLOW ionic bonds ‘stronger ionic bonds in MgO’ scores M2 and M3"
       },
       {
        "id": "2025-11-8-b-MP3",
        "marks": 1,
-       "text_md": "MgO has stronger attraction (between ions) than\nNaCl ORA ‘stronger ionic bonds in"
+       "text_md": "MgO has stronger attraction (between ions) than\nNaCl ORA"
       },
       {
        "id": "2025-11-8-b-MP4",
        "marks": 1,
-       "text_md": "(because the) ions in MgO have a higher\ncharge/higher charge density (than NaCl) ORA"
+       "text_md": "(because the) ions in MgO have a higher\ncharge/higher charge density (than NaCl) ORA\nACCEPT correct charges on ions"
       },
       {
        "id": "2025-11-8-b-MP5",
@@ -1439,12 +1439,12 @@
      "problem_md": "Complete the table by giving the missing information about propene. Displayed formula of propene Molecular formula of propene C3H6 Empirical formula of propene Relative formula mass of propene",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "3\nDisplayed formula of propene Must show ALL the bonds\nor\nMolecular formula of propene C3H6\nEmpirical formula of propene CH2\nRelative formula mass of propene 42 IGNORE calculation",
+     "solution_md": "3\nDisplayed formula of propene Must show ALL the bonds\nor\nMolecular formula of propene C3H6\nEmpirical formula of propene CH2\nRelative formula mass of propene 42\n\nIGNORE calculation",
      "mark_points": [
       {
        "id": "2025-11-9-a-MP1",
        "marks": 3,
-       "text_md": "3\nDisplayed formula of propene Must show ALL the bonds\nor\nMolecular formula of propene C3H6\nEmpirical formula of propene CH2\nRelative formula mass of propene 42 IGNORE calculation"
+       "text_md": "3\nDisplayed formula of propene Must show ALL the bonds\nor\nMolecular formula of propene C3H6\nEmpirical formula of propene CH2\nRelative formula mass of propene 42\n\nIGNORE calculation"
       }
      ],
      "source_page": 22,
@@ -1475,17 +1475,17 @@
      "problem_md": "Draw a dot-and-cross diagram for propane. Include only outer shell electrons.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 correct electron sharing between 3 carbon ACCEPT any combination\natoms of dots and crosses\nM2 rest of structure correctly drawn M2 dep on M1",
+     "solution_md": "M1 correct electron sharing between 3 carbon\natoms\nM2 rest of structure correctly drawn\n\nACCEPT any combination of dots and crosses M2 dep on M1",
      "mark_points": [
       {
        "id": "2025-11-9-b-MP1",
        "marks": 1,
-       "text_md": "correct electron sharing between 3 carbon ACCEPT any combination\natoms of dots and crosses"
+       "text_md": "correct electron sharing between 3 carbon\natoms\nACCEPT any combination of dots and crosses M2 dep on M1"
       },
       {
        "id": "2025-11-9-b-MP2",
        "marks": 1,
-       "text_md": "rest of structure correctly drawn M2 dep on M1"
+       "text_md": "rest of structure correctly drawn"
       }
      ],
      "source_page": 22,
@@ -1546,12 +1546,12 @@
      "problem_md": "Give the reaction condition needed for propane and bromine to react together.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ultra violet radiation / ultra violet light/UV IGNORE sunlight",
+     "solution_md": "ultra violet radiation / ultra violet light/UV\n\nIGNORE sunlight",
      "mark_points": [
       {
        "id": "2025-11-9-c-ii-MP1",
        "marks": 1,
-       "text_md": "ultra violet radiation / ultra violet light/UV IGNORE sunlight"
+       "text_md": "ultra violet radiation / ultra violet light/UV\n\nIGNORE sunlight"
       }
      ],
      "source_page": 23,
@@ -1565,25 +1565,25 @@
      "part_number": "9(c)(iii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "A compound formed in the reaction between bromine water and an alkene has this percentage composition by mass. C = 25.9% H = 5.0% O = 11.5% Br = 57.6% Calculate the empirical formula of this compound. empirical formula =",
+     "problem_md": "A compound formed in the reaction between bromine water and an alkene has this percentage composition by mass. C = 25.9% H = 5.0% O = 11.5% Br = 57.6% Calculate the empirical formula of this compound. empirical formula = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 25.9 5.0 11.5 57.6 0 marks for upside down\n12 1 16 80 calculation or use of any\natomic number (6/8/35)\nM2 2.16 5.0 0.72 0.72\n0.72 0.72 0.72 0.72 ecf allowed from M2 if\none incorrect Ar value\nOR 3 6.94 1 1 used that is not an\natomic number for these\nM3 C3H7OBr element (6/8/35)\ncorrect answer without\nworking scores 3",
+     "solution_md": "M1 25.9 5.0 11.5 57.6 0 marks for upside down\n12 1 16 80 calculation or use of any\nM2 2.16 5.0 0.72 0.72\n0.72 0.72 0.72 0.72\nOR 3 6.94 1 1\nM3 C3H7OBr\n\natomic number (6/8/35) ecf allowed from M2 if one incorrect Ar value used that is not an atomic number for these element (6/8/35) correct answer without working scores 3",
      "mark_points": [
       {
        "id": "2025-11-9-c-iii-MP1",
        "marks": 1,
-       "text_md": "25.9 5.0 11.5 57.6 0 marks for upside down\n12 1 16 80 calculation or use of any"
+       "text_md": "25.9 5.0 11.5 57.6 0 marks for upside down\n12 1 16 80 calculation or use of any\natomic number (6/8/35) ecf allowed from M2 if one incorrect Ar value used that is not an atomic number for these element (6/8/35) correct answer without working scores 3"
       },
       {
        "id": "2025-11-9-c-iii-MP2",
        "marks": 1,
-       "text_md": "2.16 5.0 0.72 0.72\n0.72 0.72 0.72 0.72 ecf allowed from M2 if\nOR 3 6.94 1 1 used that is not an"
+       "text_md": "2.16 5.0 0.72 0.72\n0.72 0.72 0.72 0.72\nOR 3 6.94 1 1"
       },
       {
        "id": "2025-11-9-c-iii-MP3",
        "marks": 1,
-       "text_md": "C3H7OBr element (6/8/35)"
+       "text_md": "C3H7OBr"
       }
      ],
      "source_page": 23,
@@ -1704,17 +1704,17 @@
      "problem_md": "During step 3, the reaction mixture is filtered. Identify the substance that remains in the filter paper and the substances in the beaker after this filtration. filter paper beaker",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (excess) aluminium (powder) ACCEPT (leftover)\nwater\nM2 aluminium sulfate AND water IGNORE aluminium\nsulfate solution\nunless water is also\nstated\nALLOW correct\nsymbols",
+     "solution_md": "M1 (excess) aluminium (powder)\nM2 aluminium sulfate AND water\n\nACCEPT (leftover) water\nIGNORE aluminium sulfate solution unless water is also stated\nALLOW correct symbols",
      "mark_points": [
       {
        "id": "2025-11-10-b-i-MP1",
        "marks": 1,
-       "text_md": "(excess) aluminium (powder) ACCEPT (leftover)"
+       "text_md": "(excess) aluminium (powder)\nACCEPT (leftover) water"
       },
       {
        "id": "2025-11-10-b-i-MP2",
        "marks": 1,
-       "text_md": "aluminium sulfate AND water IGNORE aluminium"
+       "text_md": "aluminium sulfate AND water\nIGNORE aluminium sulfate solution unless water is also stated\nALLOW correct symbols"
       }
      ],
      "source_page": 26,
@@ -1732,12 +1732,12 @@
      "problem_md": "State why the aluminium is added until it is in excess.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Ensure all the (sulfuric) acid reacts ALLOW neutralises\n(all) the acid\nIGNORE maximum\nyield",
+     "solution_md": "Ensure all the (sulfuric) acid reacts\n\nALLOW neutralises (all) the acid\nIGNORE maximum yield",
      "mark_points": [
       {
        "id": "2025-11-10-b-ii-MP1",
        "marks": 1,
-       "text_md": "Ensure all the (sulfuric) acid reacts ALLOW neutralises\n(all) the acid\nIGNORE maximum\nyield"
+       "text_md": "Ensure all the (sulfuric) acid reacts\n\nALLOW neutralises (all) the acid\nIGNORE maximum yield"
       }
      ],
      "source_page": 27,
@@ -1754,17 +1754,17 @@
      "problem_md": "Explain why powdered aluminium is used. Question 10 continues on the next page",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 greater surface area (to volume ratio) REJECT kinetic\nenergy for M1\nM2 increases the rate of reaction/speeds up the IGNORE dissolving\nreaction/more frequent (successful) collisions/more faster\n(successful) collisions per unit time",
+     "solution_md": "M1 greater surface area (to volume ratio)\nM2 increases the rate of reaction/speeds up the\nreaction/more frequent (successful) collisions/more\n(successful) collisions per unit time\n\nREJECT kinetic energy for M1\nIGNORE dissolving faster",
      "mark_points": [
       {
        "id": "2025-11-10-b-iii-MP1",
        "marks": 1,
-       "text_md": "greater surface area (to volume ratio) REJECT kinetic"
+       "text_md": "greater surface area (to volume ratio)\nREJECT kinetic energy for M1"
       },
       {
        "id": "2025-11-10-b-iii-MP2",
        "marks": 1,
-       "text_md": "increases the rate of reaction/speeds up the IGNORE dissolving\nreaction/more frequent (successful) collisions/more faster\n(successful) collisions per unit time"
+       "text_md": "increases the rate of reaction/speeds up the\nreaction/more frequent (successful) collisions/more\n(successful) collisions per unit time\nIGNORE dissolving faster"
       }
      ],
      "source_page": 27,
@@ -1782,12 +1782,12 @@
      "problem_md": "Show that sulfuric acid is not in excess.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 amount of Al = 3.20 ÷ 27 OR 0.119 (mol) alternative answer\nM2 0.120 × 2 = 0.08 (mol) of Al (so 0.1 is in excess) M1 only 0.08 (mol)\n3 of Al needed\nOR\nM2 mass of Al =\nM2 0.119×3 = 0.179 (mol) of H2SO4 (only 0.12 used) 0.08 x 27 = 2.16g\n2 (less than 3.20 g)",
+     "solution_md": "M1 amount of Al = 3.20 ÷ 27 OR 0.119 (mol) alternative answer\nM2 0.120 × 2 = 0.08 (mol) of Al (so 0.1 is in excess) M1 only 0.08 (mol)\n3 of Al needed\nOR\nM2 0.119×3 = 0.179 (mol) of H2SO4 (only 0.12 used)\n2\n\nM2 mass of Al = 0.08 x 27 = 2.16g (less than 3.20 g)",
      "mark_points": [
       {
        "id": "2025-11-10-c-i-MP1",
        "marks": 2,
-       "text_md": "M1 amount of Al = 3.20 ÷ 27 OR 0.119 (mol) alternative answer\nM2 0.120 × 2 = 0.08 (mol) of Al (so 0.1 is in excess) M1 only 0.08 (mol)\n3 of Al needed\nOR\nM2 mass of Al =\nM2 0.119×3 = 0.179 (mol) of H2SO4 (only 0.12 used) 0.08 x 27 = 2.16g\n2 (less than 3.20 g)"
+       "text_md": "M1 amount of Al = 3.20 ÷ 27 OR 0.119 (mol) alternative answer\nM2 0.120 × 2 = 0.08 (mol) of Al (so 0.1 is in excess) M1 only 0.08 (mol)\n3 of Al needed\nOR\nM2 0.119×3 = 0.179 (mol) of H2SO4 (only 0.12 used)\n2\n\nM2 mass of Al = 0.08 x 27 = 2.16g (less than 3.20 g)"
       }
      ],
      "source_page": 28,
@@ -1801,25 +1801,25 @@
      "part_number": "10(c)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "The student calculates the percentage yield of aluminium sulfate obtained from 0.120 mol of sulfuric acid as 113%. Calculate the mass, in grams, of aluminium sulfate produced if the yield is 113%. mass = g",
+     "problem_md": "The student calculates the percentage yield of aluminium sulfate obtained from 0.120 mol of sulfuric acid as 113%. Calculate the mass, in grams, of aluminium sulfate produced if the yield is 113%. mass = .......... g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 amount of Al2(SO4)3 = 0.120 ÷ 3 OR 0.04(00) (mol) correct answer\nwithout working\nscores 3\nM2 theoretical mass = (0.04(00) × 342 =) 13.68 g ALLOW ecf for\nincorrect Mr\nM3 recorded actual mass = (13.68 × 1.13) = 15.46 g ALLOW any number\nof sig figs except 1\n46.38 scores 2 marks",
+     "solution_md": "M1 amount of Al2(SO4)3 = 0.120 ÷ 3 OR 0.04(00) (mol) correct answer\nM2 theoretical mass = (0.04(00) × 342 =) 13.68 g\nM3 recorded actual mass = (13.68 × 1.13) = 15.46 g\n\nwithout working scores 3\nALLOW ecf for incorrect Mr\nALLOW any number of sig figs except 1 46.38 scores 2 marks",
      "mark_points": [
       {
        "id": "2025-11-10-c-ii-MP1",
        "marks": 1,
-       "text_md": "amount of Al2(SO4)3 = 0.120 ÷ 3 OR 0.04(00) (mol) correct answer"
+       "text_md": "amount of Al2(SO4)3 = 0.120 ÷ 3 OR 0.04(00) (mol) correct answer\nwithout working scores 3"
       },
       {
        "id": "2025-11-10-c-ii-MP2",
        "marks": 1,
-       "text_md": "theoretical mass = (0.04(00) × 342 =) 13.68 g ALLOW ecf for"
+       "text_md": "theoretical mass = (0.04(00) × 342 =) 13.68 g\nALLOW ecf for incorrect Mr"
       },
       {
        "id": "2025-11-10-c-ii-MP3",
        "marks": 1,
-       "text_md": "recorded actual mass = (13.68 × 1.13) = 15.46 g ALLOW any number"
+       "text_md": "recorded actual mass = (13.68 × 1.13) = 15.46 g\nALLOW any number of sig figs except 1 46.38 scores 2 marks"
       }
      ],
      "source_page": 28,
@@ -1837,12 +1837,12 @@
      "problem_md": "Suggest a mistake the student made when carrying out the method that caused the percentage yield to be greater than 100%.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any one from: ALLOW reference to\nhydrated salt\nM1 (the crystals/product) haven’t fully dried/still IGNORE calculation\ncontain water/not all water evaporated error\nM2 sulfuric acid used was more concentrated REJECT add more\naluminium\nM3 higher volume of sulfuric acid used than stated",
+     "solution_md": "Any one from:\nM1 (the crystals/product) haven’t fully dried/still\ncontain water/not all water evaporated\nM2 sulfuric acid used was more concentrated\nM3 higher volume of sulfuric acid used than stated\n\nALLOW reference to hydrated salt\nIGNORE calculation error\nREJECT add more aluminium",
      "mark_points": [
       {
        "id": "2025-11-10-c-iii-MP1",
        "marks": 1,
-       "text_md": "Any one from: ALLOW reference to\nhydrated salt\nM1 (the crystals/product) haven’t fully dried/still IGNORE calculation\ncontain water/not all water evaporated error\nM2 sulfuric acid used was more concentrated REJECT add more\naluminium\nM3 higher volume of sulfuric acid used than stated"
+       "text_md": "Any one from:\nM1 (the crystals/product) haven’t fully dried/still\ncontain water/not all water evaporated\nM2 sulfuric acid used was more concentrated\nM3 higher volume of sulfuric acid used than stated\n\nALLOW reference to hydrated salt\nIGNORE calculation error\nREJECT add more aluminium"
       }
      ],
      "source_page": 28,

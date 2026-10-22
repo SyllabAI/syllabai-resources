@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:58Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2026-06 paper=1C",
+ "generated_utc": "2026-10-22T14:42:33Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2026-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2026-06:4CH1/1C",
  "source": {
   "qp_sha256": "231c05743b0853aa408ae22103faf2645baca81e44fbc839972adc493abbede3",
@@ -120,17 +120,17 @@
      "problem_md": "Explain why ammonium carbonate is a compound.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 2 or more/4 (different) elements ALLOW (four) different\ntypes of atoms\nREJECT different\nmolecules\nM2 (chemically) joined/bonded together IGNORE covalent/ionic",
+     "solution_md": "M1 2 or more/4 (different) elements\nM2 (chemically) joined/bonded together\n\nALLOW (four) different types of atoms\nREJECT different molecules\nIGNORE covalent/ionic",
      "mark_points": [
       {
        "id": "2026-06-1-c-MP1",
        "marks": 1,
-       "text_md": "2 or more/4 (different) elements ALLOW (four) different"
+       "text_md": "2 or more/4 (different) elements\nALLOW (four) different types of atoms\nREJECT different molecules"
       },
       {
        "id": "2026-06-1-c-MP2",
        "marks": 1,
-       "text_md": "(chemically) joined/bonded together IGNORE covalent/ionic"
+       "text_md": "(chemically) joined/bonded together\nIGNORE covalent/ionic"
       }
      ],
      "source_page": 4,
@@ -147,17 +147,17 @@
      "problem_md": "Describe a test for carbon dioxide.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 bubble/pass/add carbon dioxide/gas into IGNORE ‘limewater\nlimewater test’ for M1\nM2 (limewater) turns cloudy/milky ALLOW white\nprecipitate\nM2 dependent on\nmention of limewater\nREJECT addition of\nextra reagent for both\nmarks",
+     "solution_md": "M1 bubble/pass/add carbon dioxide/gas into\nlimewater\nM2 (limewater) turns cloudy/milky\n\nIGNORE ‘limewater test’ for M1\nALLOW white precipitate M2 dependent on mention of limewater\nREJECT addition of extra reagent for both marks",
      "mark_points": [
       {
        "id": "2026-06-1-d-i-MP1",
        "marks": 1,
-       "text_md": "bubble/pass/add carbon dioxide/gas into IGNORE ‘limewater\nlimewater test’ for M1"
+       "text_md": "bubble/pass/add carbon dioxide/gas into\nlimewater\nIGNORE ‘limewater test’ for M1"
       },
       {
        "id": "2026-06-1-d-i-MP2",
        "marks": 1,
-       "text_md": "(limewater) turns cloudy/milky ALLOW white"
+       "text_md": "(limewater) turns cloudy/milky\nALLOW white precipitate M2 dependent on mention of limewater\nREJECT addition of extra reagent for both marks"
       }
      ],
      "source_page": 5,
@@ -171,7 +171,7 @@
      "part_number": "1(d)(ii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Calculate the relative molecular mass (Mr) of ammonia. Mr =",
+     "problem_md": "Calculate the relative molecular mass (Mr) of ammonia. Mr = ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "17/seventeen",
@@ -193,7 +193,7 @@
      "part_number": "1(d)(iii)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Using the relative molecular mass, determine the percentage by mass of nitrogen in ammonia. percentage = %",
+     "problem_md": "Using the relative molecular mass, determine the percentage by mass of nitrogen in ammonia. percentage = .......... %",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "(14 ÷ 17) x 100 = 82(.35)% Allow ecf from (ii)",
@@ -218,17 +218,17 @@
      "problem_md": "Explain why aqueous ammonia is an alkali and a base.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (ammonia is an alkali as it) forms/source of ALLOW (an alkali) is a\nhydroxide/OH- ions soluble base\nM2 (ammonia is a base as it) accepts protons/H+ ALLOW references to\nions neutralising an acid for\nM2\nIGNORE pH references",
+     "solution_md": "M1 (ammonia is an alkali as it) forms/source of\nhydroxide/OH- ions\nM2 (ammonia is a base as it) accepts protons/H+\nions\n\nALLOW (an alkali) is a soluble base\nALLOW references to neutralising an acid for M2\nIGNORE pH references",
      "mark_points": [
       {
        "id": "2026-06-1-d-iv-MP1",
        "marks": 1,
-       "text_md": "(ammonia is an alkali as it) forms/source of ALLOW (an alkali) is a\nhydroxide/OH- ions soluble base"
+       "text_md": "(ammonia is an alkali as it) forms/source of\nhydroxide/OH- ions\nALLOW (an alkali) is a soluble base"
       },
       {
        "id": "2026-06-1-d-iv-MP2",
        "marks": 1,
-       "text_md": "(ammonia is a base as it) accepts protons/H+ ALLOW references to\nions neutralising an acid for"
+       "text_md": "(ammonia is a base as it) accepts protons/H+\nions\nALLOW references to neutralising an acid for M2\nIGNORE pH references"
       }
      ],
      "source_page": 5,
@@ -258,15 +258,15 @@
      "part_number": "2(a)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two observations made when sodium reacts with water. 1 2",
+     "problem_md": "Give two observations made when sodium reacts with water. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any 2 from:\nM1 effervescence/bubbles/fizzing moves on surface scores\nM2 and M3\nM2 moves\nALLOW dissolves\nM3 floats\nIGNORE heat produced\nM4 disappears/ gets smaller ALLOW sodium melts\nIGNORE flame\nM5 turns into a sphere/ball\nM6 white trail",
+     "solution_md": "Any 2 from:\nM1 effervescence/bubbles/fizzing moves on surface scores\nM2 moves\nM3 floats\nM4 disappears/ gets smaller\nM5 turns into a sphere/ball\nM6 white trail\n\nM2 and M3\nALLOW dissolves\nIGNORE heat produced\nALLOW sodium melts\nIGNORE flame",
      "mark_points": [
       {
        "id": "2026-06-2-a-i-MP1",
        "marks": 2,
-       "text_md": "Any 2 from:\nM1 effervescence/bubbles/fizzing moves on surface scores\nM2 and M3\nM2 moves\nALLOW dissolves\nM3 floats\nIGNORE heat produced\nM4 disappears/ gets smaller ALLOW sodium melts\nIGNORE flame\nM5 turns into a sphere/ball\nM6 white trail"
+       "text_md": "Any 2 from:\nM1 effervescence/bubbles/fizzing moves on surface scores\nM2 moves\nM3 floats\nM4 disappears/ gets smaller\nM5 turns into a sphere/ball\nM6 white trail\n\nM2 and M3\nALLOW dissolves\nIGNORE heat produced\nALLOW sodium melts\nIGNORE flame"
       }
      ],
      "source_page": 6,
@@ -283,12 +283,12 @@
      "problem_md": "Give the word equation for this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "sodium + water → sodium hydroxide + hydrogen ACCEPT correct equation\nusing formulae scores 2\nM1 correct reactants marks\nM2 correct products",
+     "solution_md": "sodium + water → sodium hydroxide + hydrogen\nM1 correct reactants\nM2 correct products\n\nACCEPT correct equation using formulae scores 2 marks",
      "mark_points": [
       {
        "id": "2026-06-2-a-ii-MP1",
        "marks": 1,
-       "text_md": "correct reactants marks"
+       "text_md": "correct reactants\nACCEPT correct equation using formulae scores 2 marks"
       },
       {
        "id": "2026-06-2-a-ii-MP2",
@@ -308,7 +308,7 @@
      "part_number": "2(a)(iii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Calculate the amount, in moles, of 0.25 g of sodium. Give your answer to two significant figures. amount = mol",
+     "problem_md": "Calculate the amount, in moles, of 0.25 g of sodium. Give your answer to two significant figures. amount = .......... mol",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "M1 0.25 ÷ 23 (= 0.0108696)\nM2 0.011 (mol) ecf 0.023 (mol) scores 1",
@@ -338,17 +338,17 @@
      "problem_md": "The teacher adds a piece of potassium of mass 0.25 g to a different trough of water. Explain whether the volume of hydrogen produced in the reaction with potassium would be more than, less than or the same as the volume of hydrogen produced in the reaction with sodium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 fewer moles of potassium reacted/fewer moles IGNORE greater Ar\nof potassium in 0.25 g/correct calculation (0.25 ÷ 39 /atomic mass but can\n(= 0.0064)) score M2\nM2 less hydrogen would be produced M2 dep on M1",
+     "solution_md": "M1 fewer moles of potassium reacted/fewer moles\nof potassium in 0.25 g/correct calculation (0.25 ÷ 39\n(= 0.0064))\nM2 less hydrogen would be produced\n\nIGNORE greater Ar /atomic mass but can score M2 M2 dep on M1",
      "mark_points": [
       {
        "id": "2026-06-2-a-iv-MP1",
        "marks": 1,
-       "text_md": "fewer moles of potassium reacted/fewer moles IGNORE greater Ar\nof potassium in 0.25 g/correct calculation (0.25 ÷ 39 /atomic mass but can\n(= 0.0064)) score M2"
+       "text_md": "fewer moles of potassium reacted/fewer moles\nof potassium in 0.25 g/correct calculation (0.25 ÷ 39\n(= 0.0064))\nIGNORE greater Ar /atomic mass but can score M2 M2 dep on M1"
       },
       {
        "id": "2026-06-2-a-iv-MP2",
        "marks": 1,
-       "text_md": "less hydrogen would be produced M2 dep on M1"
+       "text_md": "less hydrogen would be produced"
       }
      ],
      "source_page": 6,
@@ -363,15 +363,15 @@
      "part_number": "2(b)(i)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Complete the equation for the reaction. Include state symbols Na ( ) + O2 ( ) → Na2O ( )",
+     "problem_md": "Complete the equation for the reaction. Include state symbols. .......... Na ( .......... ) + .......... O2 ( .......... ) → .......... Na2O ( .......... )",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "4Na(s) + (1)O2(g) → 2Na2O(s) ACCEPT correct multiples\nor fractions\nM1 correct state symbols\nM2 correct balancing",
+     "solution_md": "4Na(s) + (1)O2(g) → 2Na2O(s)\nM1 correct state symbols\nM2 correct balancing\n\nACCEPT correct multiples or fractions",
      "mark_points": [
       {
        "id": "2026-06-2-b-i-MP1",
        "marks": 1,
-       "text_md": "correct state symbols"
+       "text_md": "correct state symbols\nACCEPT correct multiples or fractions"
       },
       {
        "id": "2026-06-2-b-i-MP2",
@@ -391,7 +391,7 @@
      "part_number": "2(b)(ii)",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "This passage is about the reaction between sodium and oxygen. Use words from the box to complete the passage. acidic basic complete covalent endothermic exothermic ionic maximum minimum molecular Sodium reacts with oxygen to form sodium oxide. To start the reaction, the sodium needs to be heated to overcome the activation energy. Activation energy is the energy needed to start the reaction. The enthalpy change for the reaction is negative, which means that the reaction is Sodium oxide contains bonding. It is a metal oxide that has properties.",
+     "problem_md": "This passage is about the reaction between sodium and oxygen. Use words from the box to complete the passage. acidic basic complete covalent endothermic exothermic ionic maximum minimum molecular Sodium reacts with oxygen to form sodium oxide. To start the reaction, the sodium needs to be heated to overcome the activation energy. Activation energy is the .......... energy needed to start the reaction. The enthalpy change for the reaction is negative, which means that the reaction is Sodium oxide contains .......... bonding. It is a metal oxide that has .......... properties.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "M1 minimum\nM2 exothermic\nM3 ionic\nM4 basic",
@@ -450,12 +450,12 @@
      "problem_md": "Name a suitable piece of apparatus to measure the volume of oxygen collected.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "gas syringe ALLOW collection over\nwater using measuring\ncylinder/graduated gas\njar",
+     "solution_md": "gas syringe\n\nALLOW collection over water using measuring cylinder/graduated gas jar",
      "mark_points": [
       {
        "id": "2026-06-3-a-MP1",
        "marks": 1,
-       "text_md": "gas syringe ALLOW collection over\nwater using measuring\ncylinder/graduated gas\njar"
+       "text_md": "gas syringe\n\nALLOW collection over water using measuring cylinder/graduated gas jar"
       }
      ],
      "source_page": 9,
@@ -469,15 +469,15 @@
      "part_number": "3(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Give two variables that the student must control to obtain valid results. 1 2",
+     "problem_md": "Give two variables that the student must control to obtain valid results. 1 .......... 2 ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any TWO of the following: ACCEPT amount of\nhydrogen peroxide for\nM1 temperature one mark only as an\nalternative for both M2\nM2 concentration of hydrogen peroxide and M3\nM3 mass/volume of hydrogen peroxide ACCEPT amount of\ncatalyst for one mark\nM4 mass/volume of catalyst only as an alternative\nfor both M4 and M5\nM5 concentration OR surface area of catalyst",
+     "solution_md": "Any TWO of the following:\nM1 temperature\nM2 concentration of hydrogen peroxide\nM3 mass/volume of hydrogen peroxide\nM4 mass/volume of catalyst\nM5 concentration OR surface area of catalyst\n\nACCEPT amount of hydrogen peroxide for one mark only as an alternative for both M2 and M3\nACCEPT amount of catalyst for one mark only as an alternative for both M4 and M5",
      "mark_points": [
       {
        "id": "2026-06-3-b-MP1",
        "marks": 2,
-       "text_md": "Any TWO of the following: ACCEPT amount of\nhydrogen peroxide for\nM1 temperature one mark only as an\nalternative for both M2\nM2 concentration of hydrogen peroxide and M3\nM3 mass/volume of hydrogen peroxide ACCEPT amount of\ncatalyst for one mark\nM4 mass/volume of catalyst only as an alternative\nfor both M4 and M5\nM5 concentration OR surface area of catalyst"
+       "text_md": "Any TWO of the following:\nM1 temperature\nM2 concentration of hydrogen peroxide\nM3 mass/volume of hydrogen peroxide\nM4 mass/volume of catalyst\nM5 concentration OR surface area of catalyst\n\nACCEPT amount of hydrogen peroxide for one mark only as an alternative for both M2 and M3\nACCEPT amount of catalyst for one mark only as an alternative for both M4 and M5"
       }
      ],
      "source_page": 9,
@@ -516,17 +516,17 @@
      "problem_md": "Explain what is meant by the term catalyst.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (a catalyst) speeds up the reaction/increases the IGNORE changes rate\nrate (of reaction)\nM2 is chemically unchanged OR mass does not change ACCEPT is not used up\nIGNORE reference to\nalternative pathway/\nlowering Ea",
+     "solution_md": "M1 (a catalyst) speeds up the reaction/increases the\nrate (of reaction)\nM2 is chemically unchanged OR mass does not change\n\nIGNORE changes rate\nACCEPT is not used up\nIGNORE reference to alternative pathway/ lowering Ea",
      "mark_points": [
       {
        "id": "2026-06-3-d-MP1",
        "marks": 1,
-       "text_md": "(a catalyst) speeds up the reaction/increases the IGNORE changes rate\nrate (of reaction)"
+       "text_md": "(a catalyst) speeds up the reaction/increases the\nrate (of reaction)\nIGNORE changes rate"
       },
       {
        "id": "2026-06-3-d-MP2",
        "marks": 1,
-       "text_md": "is chemically unchanged OR mass does not change ACCEPT is not used up"
+       "text_md": "is chemically unchanged OR mass does not change\nACCEPT is not used up\nIGNORE reference to alternative pathway/ lowering Ea"
       }
      ],
      "source_page": 9,
@@ -645,25 +645,25 @@
      "part_number": "3(f)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Use the tangent to determine the rate of reaction at 60 s. Include the units for the rate of reaction. rate of reaction = unit",
+     "problem_md": "Use the tangent to determine the rate of reaction at 60 s. Include the units for the rate of reaction. rate of reaction = .......... unit ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 suitable values taken from the graph for two If no tangent drawn\ncoordinates using their tangent then only M3 can be\nawarded.\nM2 gradient calculated (expected value approx. 0.5-\n0.7 cm3/s)\nALLOW cm3/second\nM3 correct units of cm /s ALLOW cm3s-1",
+     "solution_md": "M1 suitable values taken from the graph for two If no tangent drawn\ncoordinates using their tangent then only M3 can be\nM2 gradient calculated (expected value approx. 0.5-\n0.7 cm3/s)\nM3 correct units of cm /s\n\nawarded.\nALLOW cm3/second\nALLOW cm3s-1",
      "mark_points": [
       {
        "id": "2026-06-3-f-ii-MP1",
        "marks": 1,
-       "text_md": "suitable values taken from the graph for two If no tangent drawn\ncoordinates using their tangent then only M3 can be"
+       "text_md": "suitable values taken from the graph for two If no tangent drawn\ncoordinates using their tangent then only M3 can be\nawarded."
       },
       {
        "id": "2026-06-3-f-ii-MP2",
        "marks": 1,
-       "text_md": "gradient calculated (expected value approx. 0.5-\n0.7 cm3/s)"
+       "text_md": "gradient calculated (expected value approx. 0.5-\n0.7 cm3/s)\nALLOW cm3/second"
       },
       {
        "id": "2026-06-3-f-ii-MP3",
        "marks": 1,
-       "text_md": "correct units of cm /s ALLOW cm3s-1"
+       "text_md": "correct units of cm /s\nALLOW cm3s-1"
       }
      ],
      "source_page": 11,
@@ -697,17 +697,17 @@
      "problem_md": "Explain why isoprene is a hydrocarbon.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (a molecule/compound/substance) made of REJECT ‘carbon/hydrogen\nhydrogen and carbon molecules/ions’ for M1\nM2 only M2 dep on mention of\nhydrogen and carbon in\nM1.",
+     "solution_md": "M1 (a molecule/compound/substance) made of\nhydrogen and carbon\nM2 only\n\nREJECT ‘carbon/hydrogen molecules/ions’ for M1 M2 dep on mention of hydrogen and carbon in M1.",
      "mark_points": [
       {
        "id": "2026-06-4-a-MP1",
        "marks": 1,
-       "text_md": "(a molecule/compound/substance) made of REJECT ‘carbon/hydrogen\nhydrogen and carbon molecules/ions’ for M1"
+       "text_md": "(a molecule/compound/substance) made of\nhydrogen and carbon\nREJECT ‘carbon/hydrogen molecules/ions’ for M1 M2 dep on mention of hydrogen and carbon in M1."
       },
       {
        "id": "2026-06-4-a-MP2",
        "marks": 1,
-       "text_md": "only M2 dep on mention of"
+       "text_md": "only"
       }
      ],
      "source_page": 12,
@@ -756,12 +756,12 @@
      "problem_md": "Explain why isoprene does not have the same general formula as propene.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 general formula for propene is CnH2n ALLOW general formula\nfor isoprene\nM2 more than one double bond (so doesn’t fit the\nalkene general formula).",
+     "solution_md": "M1 general formula for propene is CnH2n\nM2 more than one double bond (so doesn’t fit the\nalkene general formula).\n\nALLOW general formula for isoprene",
      "mark_points": [
       {
        "id": "2026-06-4-c-MP1",
        "marks": 1,
-       "text_md": "general formula for propene is CnH2n ALLOW general formula"
+       "text_md": "general formula for propene is CnH2n\nALLOW general formula for isoprene"
       },
       {
        "id": "2026-06-4-c-MP2",
@@ -781,10 +781,10 @@
      "part_number": "4(d)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "This is the equation for the complete combustion of isoprene. C5H8 + 7O2 → 5CO2 + 4H2O Calculate the amount, in moles, of carbon dioxide produced when 50 g of isoprene undergoes complete combustion. amount = mol",
+     "problem_md": "This is the equation for the complete combustion of isoprene. C5H8 + 7O2 → 5CO2 + 4H2O Calculate the amount, in moles, of carbon dioxide produced when 50 g of isoprene undergoes complete combustion. amount = .......... mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 Mr of isoprene = 68\nM2 amount of isoprene = 50 ÷ 68 = 0.735 mol ecf for M2\nM3 amount of CO2 = 0.735 x 5 = 3.7 mol ecf for M3\nALLOW any number of SF\nexcept 1",
+     "solution_md": "M1 Mr of isoprene = 68\nM2 amount of isoprene = 50 ÷ 68 = 0.735 mol ecf for M2\nM3 amount of CO2 = 0.735 x 5 = 3.7 mol ecf for M3\n\nALLOW any number of SF except 1",
      "mark_points": [
       {
        "id": "2026-06-4-d-MP1",
@@ -799,7 +799,7 @@
       {
        "id": "2026-06-4-d-MP3",
        "marks": 1,
-       "text_md": "amount of CO2 = 0.735 x 5 = 3.7 mol ecf for M3"
+       "text_md": "amount of CO2 = 0.735 x 5 = 3.7 mol ecf for M3\nALLOW any number of SF except 1"
       }
      ],
      "source_page": 13,
@@ -817,12 +817,12 @@
      "problem_md": "Name the type of reaction that occurs between isoprene and chlorine.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "addition (reaction) IGNORE synthesis",
+     "solution_md": "addition (reaction)\n\nIGNORE synthesis",
      "mark_points": [
       {
        "id": "2026-06-4-e-i-MP1",
        "marks": 1,
-       "text_md": "addition (reaction) IGNORE synthesis"
+       "text_md": "addition (reaction)\n\nIGNORE synthesis"
       }
      ],
      "source_page": 14,
@@ -837,15 +837,15 @@
      "part_number": "4(e)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "0.0500 mol of isoprene reacts with chlorine. 0.212 g of product X is produced. Calculate the percentage yield of product X. Give your answer to two decimal places. [for Product X Mr = 139] percentage yield =",
+     "problem_md": "0.0500 mol of isoprene reacts with chlorine. 0.212 g of product X is produced. Calculate the percentage yield of product X. Give your answer to two decimal places. [for Product X Mr = 139] percentage yield = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 mass of X = 0.050 x 139 = 6.95 g Correct answer 3.05%\nM2 % yield = (0.212 ÷ 6.95) x 100 scores 3\nM3 3.05 % (2 dp only) ecf for M2\necf for M3 but only to 2dp\nOR 6.24% scores 2 marks\nM1 – moles of X = 0.212/139 ( = 0.001525)\nM2 – % yield = M1/0.0500 x 100 ecf for M2\nM3 – 3.05 % (2 dp only) ecf for M3 but only to 2dp",
+     "solution_md": "M1 mass of X = 0.050 x 139 = 6.95 g\nM2 % yield = (0.212 ÷ 6.95) x 100\nM3 3.05 % (2 dp only)\nOR\nM1 – moles of X = 0.212/139 ( = 0.001525)\nM2 – % yield = M1/0.0500 x 100\nM3 – 3.05 % (2 dp only)\n\nCorrect answer 3.05% scores 3 ecf for M2 ecf for M3 but only to 2dp 6.24% scores 2 marks ecf for M2 ecf for M3 but only to 2dp",
      "mark_points": [
       {
        "id": "2026-06-4-e-ii-MP1",
        "marks": 3,
-       "text_md": "M1 mass of X = 0.050 x 139 = 6.95 g Correct answer 3.05%\nM2 % yield = (0.212 ÷ 6.95) x 100 scores 3\nM3 3.05 % (2 dp only) ecf for M2\necf for M3 but only to 2dp\nOR 6.24% scores 2 marks\nM1 – moles of X = 0.212/139 ( = 0.001525)\nM2 – % yield = M1/0.0500 x 100 ecf for M2\nM3 – 3.05 % (2 dp only) ecf for M3 but only to 2dp"
+       "text_md": "M1 mass of X = 0.050 x 139 = 6.95 g\nM2 % yield = (0.212 ÷ 6.95) x 100\nM3 3.05 % (2 dp only)\nOR\nM1 – moles of X = 0.212/139 ( = 0.001525)\nM2 – % yield = M1/0.0500 x 100\nM3 – 3.05 % (2 dp only)\n\nCorrect answer 3.05% scores 3 ecf for M2 ecf for M3 but only to 2dp 6.24% scores 2 marks ecf for M2 ecf for M3 but only to 2dp"
       }
      ],
      "source_page": 14,
@@ -877,12 +877,12 @@
      "problem_md": "Describe how useful hydrocarbons can be obtained from crude oil. Refer to fractional distillation and cracking in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (fractional distillation) separates the mixture Must make reference to a\nbased on boiling points / fractions condense at temperature linked to\ndifferent temperatures boiling/condensing\nM2 temperature gradient / hotter at bottom / Credit can be given for M1\nshorter chain alkanes rise higher in the column ORA and M2 even if\nfractionation is described\nafter cracking.\nM3 more long chain hydrocarbons are produced ACCEPT a named example\nthan can be used directly / not enough short chain e.g. not enough gasoline\n(alkanes) / greater demand for short chain\n(alkanes) ORA Must refer to supply /\ndemand issues.\nAny 3 marks from the following:\nM4 cracking requires 600-700 ºC\nM5 cracking requires silica / alumina / zeolite\ncatalyst\nM6 (cracking) produces (more) short chain/shorter ALLOW products which are\nalkanes more flammable\nIGNORE ‘more useful’\nM7 (cracking) produces alkenes ALLOW products which are\nused to make polymers/\nplastics",
+     "solution_md": "M1 (fractional distillation) separates the mixture Must make reference to a\nbased on boiling points / fractions condense at temperature linked to\ndifferent temperatures boiling/condensing\nM2 temperature gradient / hotter at bottom / Credit can be given for M1\nshorter chain alkanes rise higher in the column ORA and M2 even if\nM3 more long chain hydrocarbons are produced\nthan can be used directly / not enough short chain\n(alkanes) / greater demand for short chain\n(alkanes) ORA\nAny 3 marks from the following:\nM4 cracking requires 600-700 ºC\nM5 cracking requires silica / alumina / zeolite\ncatalyst\nM6 (cracking) produces (more) short chain/shorter\nalkanes\nM7 (cracking) produces alkenes\n\nfractionation is described after cracking.\nACCEPT a named example e.g. not enough gasoline Must refer to supply / demand issues.\nALLOW products which are more flammable\nIGNORE ‘more useful’\nALLOW products which are used to make polymers/ plastics",
      "mark_points": [
       {
        "id": "2026-06-5-a-MP1",
        "marks": 6,
-       "text_md": "M1 (fractional distillation) separates the mixture Must make reference to a\nbased on boiling points / fractions condense at temperature linked to\ndifferent temperatures boiling/condensing\nM2 temperature gradient / hotter at bottom / Credit can be given for M1\nshorter chain alkanes rise higher in the column ORA and M2 even if\nfractionation is described\nafter cracking.\nM3 more long chain hydrocarbons are produced ACCEPT a named example\nthan can be used directly / not enough short chain e.g. not enough gasoline\n(alkanes) / greater demand for short chain\n(alkanes) ORA Must refer to supply /\ndemand issues.\nAny 3 marks from the following:\nM4 cracking requires 600-700 ºC\nM5 cracking requires silica / alumina / zeolite\ncatalyst\nM6 (cracking) produces (more) short chain/shorter ALLOW products which are\nalkanes more flammable\nIGNORE ‘more useful’\nM7 (cracking) produces alkenes ALLOW products which are\nused to make polymers/\nplastics"
+       "text_md": "M1 (fractional distillation) separates the mixture Must make reference to a\nbased on boiling points / fractions condense at temperature linked to\ndifferent temperatures boiling/condensing\nM2 temperature gradient / hotter at bottom / Credit can be given for M1\nshorter chain alkanes rise higher in the column ORA and M2 even if\nM3 more long chain hydrocarbons are produced\nthan can be used directly / not enough short chain\n(alkanes) / greater demand for short chain\n(alkanes) ORA\nAny 3 marks from the following:\nM4 cracking requires 600-700 ºC\nM5 cracking requires silica / alumina / zeolite\ncatalyst\nM6 (cracking) produces (more) short chain/shorter\nalkanes\nM7 (cracking) produces alkenes\n\nfractionation is described after cracking.\nACCEPT a named example e.g. not enough gasoline Must refer to supply / demand issues.\nALLOW products which are more flammable\nIGNORE ‘more useful’\nALLOW products which are used to make polymers/ plastics"
       }
      ],
      "source_page": 16,
@@ -901,12 +901,12 @@
      "problem_md": "State what is meant by the term fuel.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(a substance that) when burned releases heat ALLOW burns /combusts\n(energy)/thermal energy /catches fire",
+     "solution_md": "(a substance that) when burned releases heat\n(energy)/thermal energy\n\nALLOW burns /combusts /catches fire",
      "mark_points": [
       {
        "id": "2026-06-5-b-i-MP1",
        "marks": 1,
-       "text_md": "(a substance that) when burned releases heat ALLOW burns /combusts\n(energy)/thermal energy /catches fire"
+       "text_md": "(a substance that) when burned releases heat\n(energy)/thermal energy\n\nALLOW burns /combusts /catches fire"
       }
      ],
      "source_page": 17,
@@ -923,22 +923,22 @@
      "problem_md": "Explain how the combustion of an impurity in some hydrocarbon fuels causes an environmental problem.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (a common impurity in fuels is) sulfur IGNORE C/CO/CO2\nREJECT nitrogen for M1\nM2 (sulfur) burns/combusts/reacts in (air/oxygen) Accept correct equation\nto form sulfur dioxide/SO2 for M2\nIGNORE sulfur oxide/sulfur\ntrioxide for M2.\nM3 sulfur dioxide/SO2 dissolves in/reacts with IGNORE mixes\nrain/water Accept correct equation\nfor M3\nM4 (to form) acid rain",
+     "solution_md": "M1 (a common impurity in fuels is) sulfur\nM2 (sulfur) burns/combusts/reacts in (air/oxygen)\nto form sulfur dioxide/SO2\nM3 sulfur dioxide/SO2 dissolves in/reacts with\nrain/water\nM4 (to form) acid rain\n\nIGNORE C/CO/CO2\nREJECT nitrogen for M1 Accept correct equation for M2\nIGNORE sulfur oxide/sulfur trioxide for M2.\nIGNORE mixes Accept correct equation for M3",
      "mark_points": [
       {
        "id": "2026-06-5-b-ii-MP1",
        "marks": 1,
-       "text_md": "(a common impurity in fuels is) sulfur IGNORE C/CO/CO2"
+       "text_md": "(a common impurity in fuels is) sulfur\nIGNORE C/CO/CO2\nREJECT nitrogen for M1 Accept correct equation for M2"
       },
       {
        "id": "2026-06-5-b-ii-MP2",
        "marks": 1,
-       "text_md": "(sulfur) burns/combusts/reacts in (air/oxygen) Accept correct equation\nto form sulfur dioxide/SO2 for M2"
+       "text_md": "(sulfur) burns/combusts/reacts in (air/oxygen)\nto form sulfur dioxide/SO2\nIGNORE sulfur oxide/sulfur trioxide for M2."
       },
       {
        "id": "2026-06-5-b-ii-MP3",
        "marks": 1,
-       "text_md": "sulfur dioxide/SO2 dissolves in/reacts with IGNORE mixes\nrain/water Accept correct equation"
+       "text_md": "sulfur dioxide/SO2 dissolves in/reacts with\nrain/water\nIGNORE mixes Accept correct equation for M3"
       },
       {
        "id": "2026-06-5-b-ii-MP4",
@@ -971,12 +971,12 @@
      "problem_md": "Explain a problem caused by a product of the incomplete combustion of ethane.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 carbon monoxide/CO\nM2 reduces the capacity of blood to transport ACCEPT correct references\noxygen OWTTE/poisonous/toxic to haemoglobin\nALLOW produces\ncarboxyhaemoglobin\nOR\nM1 soot/carbon/C\nM2 causes breathing difficulties/asthma/respiratory\nproblems",
+     "solution_md": "M1 carbon monoxide/CO\nM2 reduces the capacity of blood to transport\noxygen OWTTE/poisonous/toxic\nOR\nM1 soot/carbon/C\nM2 causes breathing difficulties/asthma/respiratory\nproblems\n\nACCEPT correct references to haemoglobin\nALLOW produces carboxyhaemoglobin",
      "mark_points": [
       {
        "id": "2026-06-6-a-MP1",
        "marks": 2,
-       "text_md": "M1 carbon monoxide/CO\nM2 reduces the capacity of blood to transport ACCEPT correct references\noxygen OWTTE/poisonous/toxic to haemoglobin\nALLOW produces\ncarboxyhaemoglobin\nOR\nM1 soot/carbon/C\nM2 causes breathing difficulties/asthma/respiratory\nproblems"
+       "text_md": "M1 carbon monoxide/CO\nM2 reduces the capacity of blood to transport\noxygen OWTTE/poisonous/toxic\nOR\nM1 soot/carbon/C\nM2 causes breathing difficulties/asthma/respiratory\nproblems\n\nACCEPT correct references to haemoglobin\nALLOW produces carboxyhaemoglobin"
       }
      ],
      "source_page": 18,
@@ -994,12 +994,12 @@
      "problem_md": "Draw a dot‑and‑cross diagram to show the outer shell electrons in a molecule of ethane.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "IGNORE inner shell on\ncarbon atoms\nACCEPT with or without\nshell drawn.\nM1 2 electrons between carbon atoms\nM2 dep on M1\nM2 rest of the molecule correct",
+     "solution_md": "M1 2 electrons between carbon atoms\nM2 rest of the molecule correct\n\nIGNORE inner shell on carbon atoms\nACCEPT with or without shell drawn. M2 dep on M1",
      "mark_points": [
       {
        "id": "2026-06-6-b-MP1",
        "marks": 1,
-       "text_md": "2 electrons between carbon atoms"
+       "text_md": "2 electrons between carbon atoms\nIGNORE inner shell on carbon atoms\nACCEPT with or without shell drawn. M2 dep on M1"
       },
       {
        "id": "2026-06-6-b-MP2",
@@ -1031,17 +1031,17 @@
      "problem_md": "Ethane has a boiling point of –89°C. Describe the arrangement and movement of particles of ethane at 25°C.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 irregular/random arrangement of particles ALLOW particles are far\napart/widely spaced\nREJECT mention of ions for\nM1\nM2 (particles) move (very) quickly/high(er) kinetic REJECT references to\nenergy/random movement ethane being a liquid –\nscores 0",
+     "solution_md": "M1 irregular/random arrangement of particles\nM2 (particles) move (very) quickly/high(er) kinetic\nenergy/random movement\n\nALLOW particles are far apart/widely spaced\nREJECT mention of ions for M1\nREJECT references to ethane being a liquid – scores 0",
      "mark_points": [
       {
        "id": "2026-06-6-c-MP1",
        "marks": 1,
-       "text_md": "irregular/random arrangement of particles ALLOW particles are far"
+       "text_md": "irregular/random arrangement of particles\nALLOW particles are far apart/widely spaced\nREJECT mention of ions for M1"
       },
       {
        "id": "2026-06-6-c-MP2",
        "marks": 1,
-       "text_md": "(particles) move (very) quickly/high(er) kinetic REJECT references to\nenergy/random movement ethane being a liquid –"
+       "text_md": "(particles) move (very) quickly/high(er) kinetic\nenergy/random movement\nREJECT references to ethane being a liquid – scores 0"
       }
      ],
      "source_page": 18,
@@ -1058,17 +1058,17 @@
      "problem_md": "Explain why ethane has a lower boiling point than octane.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 ethane has weaker intermolecular forces ORA ACCEPT forces between\nmolecules\nM2 less energy needed to overcome them\nALLOW intermolecular\nbonds\nREJECT breaking of bonds\nfor M1",
+     "solution_md": "M1 ethane has weaker intermolecular forces ORA\nM2 less energy needed to overcome them\n\nACCEPT forces between molecules\nALLOW intermolecular bonds\nREJECT breaking of bonds for M1",
      "mark_points": [
       {
        "id": "2026-06-6-d-MP1",
        "marks": 1,
-       "text_md": "ethane has weaker intermolecular forces ORA ACCEPT forces between"
+       "text_md": "ethane has weaker intermolecular forces ORA\nACCEPT forces between molecules"
       },
       {
        "id": "2026-06-6-d-MP2",
        "marks": 1,
-       "text_md": "less energy needed to overcome them"
+       "text_md": "less energy needed to overcome them\nALLOW intermolecular bonds\nREJECT breaking of bonds for M1"
       }
      ],
      "source_page": 19,
@@ -1086,12 +1086,12 @@
      "problem_md": "State the condition needed for ethane to react with bromine.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ultraviolet radiation ALLOW UV light\nALLOW ‘UV’",
+     "solution_md": "ultraviolet radiation\n\nALLOW UV light\nALLOW ‘UV’",
      "mark_points": [
       {
        "id": "2026-06-6-e-i-MP1",
        "marks": 1,
-       "text_md": "ultraviolet radiation ALLOW UV light\nALLOW ‘UV’"
+       "text_md": "ultraviolet radiation\n\nALLOW UV light\nALLOW ‘UV’"
       }
      ],
      "source_page": 19,
@@ -1108,17 +1108,12 @@
      "problem_md": "Give the displayed formula of each product. product 1 product 2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 H-Br/Br-H REJECT HBr as bond must\nbe shown\nREJECT ‘br’ once\nREJECT structural or\nM2 molecular formula\nALLOW bromine atom\nanywhere on molecule\nACCEPT multiple\nsubstitutions on molecule",
+     "solution_md": "M1 H-Br/Br-H\nM2\n\nREJECT HBr as bond must be shown\nREJECT ‘br’ once\nREJECT structural or molecular formula\nALLOW bromine atom anywhere on molecule\nACCEPT multiple substitutions on molecule",
      "mark_points": [
       {
        "id": "2026-06-6-e-ii-MP1",
-       "marks": 1,
-       "text_md": "H-Br/Br-H REJECT HBr as bond must"
-      },
-      {
-       "id": "2026-06-6-e-ii-MP2",
-       "marks": 1,
-       "text_md": "molecular formula"
+       "marks": 2,
+       "text_md": "M1 H-Br/Br-H\nM2\n\nREJECT HBr as bond must be shown\nREJECT ‘br’ once\nREJECT structural or molecular formula\nALLOW bromine atom anywhere on molecule\nACCEPT multiple substitutions on molecule"
       }
      ],
      "source_page": 19,
@@ -1135,17 +1130,17 @@
      "problem_md": "Explain why ethane does not have any isomers.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (ethane has) only one possible structure/no ALLOW (ethane) cannot be\nother way of being displayed/ cannot be rearranged branched\nREJECT references to\ndouble bonds for M1.\nREJECT references to\nhaving only two carbon\nmolecules for M1.\nM2 isomers have the same molecular formula but a REJECT incorrect\ndifferent structural/displayed formula references to general\nformula in isomer\ndefinition.",
+     "solution_md": "M1 (ethane has) only one possible structure/no\nother way of being displayed/ cannot be rearranged\nM2 isomers have the same molecular formula but a\ndifferent structural/displayed formula\n\nALLOW (ethane) cannot be branched\nREJECT references to double bonds for M1.\nREJECT references to having only two carbon molecules for M1.\nREJECT incorrect references to general formula in isomer definition.",
      "mark_points": [
       {
        "id": "2026-06-6-f-MP1",
        "marks": 1,
-       "text_md": "(ethane has) only one possible structure/no ALLOW (ethane) cannot be\nother way of being displayed/ cannot be rearranged branched"
+       "text_md": "(ethane has) only one possible structure/no\nother way of being displayed/ cannot be rearranged\nALLOW (ethane) cannot be branched\nREJECT references to double bonds for M1.\nREJECT references to having only two carbon molecules for M1."
       },
       {
        "id": "2026-06-6-f-MP2",
        "marks": 1,
-       "text_md": "isomers have the same molecular formula but a REJECT incorrect\ndifferent structural/displayed formula references to general"
+       "text_md": "isomers have the same molecular formula but a\ndifferent structural/displayed formula\nREJECT incorrect references to general formula in isomer definition."
       }
      ],
      "source_page": 19,
@@ -1174,7 +1169,7 @@
      "part_number": "7(a)(i)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "A student does an experiment and determines that 1.75 mol of CuSO4 reacts with 5.25 mol of H2O Calculate the student’s value of x in the formula of hydrated copper(II) sulfate. x =",
+     "problem_md": "A student does an experiment and determines that 1.75 mol of CuSO4 reacts with 5.25 mol of H2O Calculate the student’s value of x in the formula of hydrated copper(II) sulfate. x = ..........",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "x = (5.25 ÷ 1.75) = 3",
@@ -1199,12 +1194,12 @@
      "problem_md": "State what the ⇌ symbol shows about this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(the reaction is) reversible ACCEPT reaction that\ngoes both ways/both\nforwards and backwards\nreaction occur\nIGNORE references to\nequilibrium\nIGNORE references to\nreactants turning into\nproducts and products\ninto reactants.",
+     "solution_md": "(the reaction is) reversible\n\nACCEPT reaction that goes both ways/both forwards and backwards reaction occur\nIGNORE references to equilibrium\nIGNORE references to reactants turning into products and products into reactants.",
      "mark_points": [
       {
        "id": "2026-06-7-a-ii-MP1",
        "marks": 1,
-       "text_md": "(the reaction is) reversible ACCEPT reaction that\ngoes both ways/both\nforwards and backwards\nreaction occur\nIGNORE references to\nequilibrium\nIGNORE references to\nreactants turning into\nproducts and products\ninto reactants."
+       "text_md": "(the reaction is) reversible\n\nACCEPT reaction that goes both ways/both forwards and backwards reaction occur\nIGNORE references to equilibrium\nIGNORE references to reactants turning into products and products into reactants."
       }
      ],
      "source_page": 20,
@@ -1221,12 +1216,12 @@
      "problem_md": "Describe two experiments to show that the ⇌ symbol is correct for this reaction. Include any relevant observations.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 – add water to anhydrous copper(II) sulfate ALLOW steps in reverse\nstarting from hydrated\nM2 – turns (from white to) blue CuSO4\nM3 – heat the hydrated copper(II) sulfate (to dryness) REJECT ‘evaporate’ in a\ncontext that would form\nM4 – turns (from blue to) white/turns back to white hydrated crystals for M3\nAny one from:\nM5 – suitable vessel to contain the experiment (e.g.\nevaporating basin, boiling tube)\nM6 – colourless liquid/water vapour/ steam\n/condensation will be observed/produced",
+     "solution_md": "M1 – add water to anhydrous copper(II) sulfate\nM2 – turns (from white to) blue\nM3 – heat the hydrated copper(II) sulfate (to dryness)\nM4 – turns (from blue to) white/turns back to white\nAny one from:\nM5 – suitable vessel to contain the experiment (e.g.\nevaporating basin, boiling tube)\nM6 – colourless liquid/water vapour/ steam\n/condensation will be observed/produced\n\nALLOW steps in reverse starting from hydrated CuSO4\nREJECT ‘evaporate’ in a context that would form hydrated crystals for M3",
      "mark_points": [
       {
        "id": "2026-06-7-a-iii-MP1",
        "marks": 5,
-       "text_md": "M1 – add water to anhydrous copper(II) sulfate ALLOW steps in reverse\nstarting from hydrated\nM2 – turns (from white to) blue CuSO4\nM3 – heat the hydrated copper(II) sulfate (to dryness) REJECT ‘evaporate’ in a\ncontext that would form\nM4 – turns (from blue to) white/turns back to white hydrated crystals for M3\nAny one from:\nM5 – suitable vessel to contain the experiment (e.g.\nevaporating basin, boiling tube)\nM6 – colourless liquid/water vapour/ steam\n/condensation will be observed/produced"
+       "text_md": "M1 – add water to anhydrous copper(II) sulfate\nM2 – turns (from white to) blue\nM3 – heat the hydrated copper(II) sulfate (to dryness)\nM4 – turns (from blue to) white/turns back to white\nAny one from:\nM5 – suitable vessel to contain the experiment (e.g.\nevaporating basin, boiling tube)\nM6 – colourless liquid/water vapour/ steam\n/condensation will be observed/produced\n\nALLOW steps in reverse starting from hydrated CuSO4\nREJECT ‘evaporate’ in a context that would form hydrated crystals for M3"
       }
      ],
      "source_page": 20,
@@ -1316,17 +1311,17 @@
      "problem_md": "When making copper(II) sulfate using this method, excess copper(II) oxide is used. Explain why the copper(II) oxide is chosen as the reagent in excess.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 (copper(II) oxide) can be easily removed by ALLOW (copper(II)oxide\nfiltration (at the end)/is insoluble can be observed when in\nexcess/when stopped\nreacting\nM2 all the acid is used up/neutralised ALLOW acid doesn’t\ncontaminate product",
+     "solution_md": "M1 (copper(II) oxide) can be easily removed by\nfiltration (at the end)/is insoluble\nM2 all the acid is used up/neutralised\n\nALLOW (copper(II)oxide can be observed when in excess/when stopped reacting\nALLOW acid doesn’t contaminate product",
      "mark_points": [
       {
        "id": "2026-06-7-b-iii-MP1",
        "marks": 1,
-       "text_md": "(copper(II) oxide) can be easily removed by ALLOW (copper(II)oxide\nfiltration (at the end)/is insoluble can be observed when in"
+       "text_md": "(copper(II) oxide) can be easily removed by\nfiltration (at the end)/is insoluble\nALLOW (copper(II)oxide can be observed when in excess/when stopped reacting"
       },
       {
        "id": "2026-06-7-b-iii-MP2",
        "marks": 1,
-       "text_md": "all the acid is used up/neutralised ALLOW acid doesn’t"
+       "text_md": "all the acid is used up/neutralised\nALLOW acid doesn’t contaminate product"
       }
      ],
      "source_page": 21,
@@ -1450,12 +1445,12 @@
      "problem_md": "Describe how two fluorine atoms combine to form a fluorine molecule.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 the two (fluorine) atoms in a molecule share a pair ALLOW covalent\nof electrons bonding for M1\nM2 resulting in a full outer shell REJECT references to\nionic bonding- scores 0\nOR\nM1 (electrostatic) attraction between a shared pair of REJECT pairs of\nelectrons electrons for M1\nM2 and nuclei",
+     "solution_md": "M1 the two (fluorine) atoms in a molecule share a pair\nof electrons\nM2 resulting in a full outer shell\nOR\nM1 (electrostatic) attraction between a shared pair of\nelectrons\nM2 and nuclei\n\nALLOW covalent bonding for M1\nREJECT references to ionic bonding- scores 0\nREJECT pairs of electrons for M1",
      "mark_points": [
       {
        "id": "2026-06-8-b-i-MP1",
        "marks": 2,
-       "text_md": "M1 the two (fluorine) atoms in a molecule share a pair ALLOW covalent\nof electrons bonding for M1\nM2 resulting in a full outer shell REJECT references to\nionic bonding- scores 0\nOR\nM1 (electrostatic) attraction between a shared pair of REJECT pairs of\nelectrons electrons for M1\nM2 and nuclei"
+       "text_md": "M1 the two (fluorine) atoms in a molecule share a pair\nof electrons\nM2 resulting in a full outer shell\nOR\nM1 (electrostatic) attraction between a shared pair of\nelectrons\nM2 and nuclei\n\nALLOW covalent bonding for M1\nREJECT references to ionic bonding- scores 0\nREJECT pairs of electrons for M1"
       }
      ],
      "source_page": 22,
@@ -1470,10 +1465,10 @@
      "part_number": "8(b)(ii)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "One mole of fluorine gas contains 6.0 × 1023 molecules. Calculate the number of molecules in 100 g of fluorine. Give your answer in standard form. number of molecules =",
+     "problem_md": "One mole of fluorine gas contains 6.0 × 1023 molecules. Calculate the number of molecules in 100 g of fluorine. Give your answer in standard form. number of molecules = ..........",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 Mr of F2 = 38 ecf for M2 and M3\nM2 amount of F2 = 100 ÷ 38 = 2.63 (mol) Answers must be more\nthan 1sf\nM3 no. of molecules = M2 x (6.0 x 1023) = 1.6 x 1024\n3.2 x 1024 scores 2",
+     "solution_md": "M1 Mr of F2 = 38 ecf for M2 and M3\nM2 amount of F2 = 100 ÷ 38 = 2.63 (mol)\nM3 no. of molecules = M2 x (6.0 x 1023) = 1.6 x 1024\n\nAnswers must be more than 1sf 3.2 x 1024 scores 2",
      "mark_points": [
       {
        "id": "2026-06-8-b-ii-MP1",
@@ -1483,7 +1478,7 @@
       {
        "id": "2026-06-8-b-ii-MP2",
        "marks": 1,
-       "text_md": "amount of F2 = 100 ÷ 38 = 2.63 (mol) Answers must be more"
+       "text_md": "amount of F2 = 100 ÷ 38 = 2.63 (mol)\nAnswers must be more than 1sf 3.2 x 1024 scores 2"
       },
       {
        "id": "2026-06-8-b-ii-MP3",
@@ -1506,17 +1501,17 @@
      "problem_md": "Describe the changes in the electronic configurations of a lithium atom and a fluorine atom when they form lithium fluoride. fluorine lithium",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 fluorine changes (from 2.7) to 2.8 ALLOW fluorine gains\none electron\nM2 lithium changes (from 2.1) to 2 ALLOW lithium loses\none electron\nPenalise incorrect\nnumber of inner\nelectrons only once",
+     "solution_md": "M1 fluorine changes (from 2.7) to 2.8\nM2 lithium changes (from 2.1) to 2\n\nALLOW fluorine gains one electron\nALLOW lithium loses one electron Penalise incorrect number of inner electrons only once",
      "mark_points": [
       {
        "id": "2026-06-8-c-i-MP1",
        "marks": 1,
-       "text_md": "fluorine changes (from 2.7) to 2.8 ALLOW fluorine gains"
+       "text_md": "fluorine changes (from 2.7) to 2.8\nALLOW fluorine gains one electron"
       },
       {
        "id": "2026-06-8-c-i-MP2",
        "marks": 1,
-       "text_md": "lithium changes (from 2.1) to 2 ALLOW lithium loses"
+       "text_md": "lithium changes (from 2.1) to 2\nALLOW lithium loses one electron Penalise incorrect number of inner electrons only once"
       }
      ],
      "source_page": 23,
@@ -1534,12 +1529,12 @@
      "problem_md": "Lithium fluoride has a giant ionic structure. Explain why lithium fluoride has a high melting point.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An explanation that links the three points IGNORE giant ionic\nstructure\nM1 strong electrostatic (forces of) attraction\nALLOW strong (ionic)\nbonds for M1 only\nM2 between oppositely charged ions\nM3 which require a lot of (heat) energy to break IGNORE more energy\n0 marks if any mention\nof covalent bonds,\nintermolecular forces\nor molecules",
+     "solution_md": "An explanation that links the three points\nM1 strong electrostatic (forces of) attraction\nM2 between oppositely charged ions\nM3 which require a lot of (heat) energy to break\n\nIGNORE giant ionic structure\nALLOW strong (ionic) bonds for M1 only\nIGNORE more energy 0 marks if any mention of covalent bonds, intermolecular forces or molecules",
      "mark_points": [
       {
        "id": "2026-06-8-c-ii-MP1",
        "marks": 1,
-       "text_md": "strong electrostatic (forces of) attraction"
+       "text_md": "strong electrostatic (forces of) attraction\nIGNORE giant ionic structure\nALLOW strong (ionic) bonds for M1 only"
       },
       {
        "id": "2026-06-8-c-ii-MP2",
@@ -1549,7 +1544,7 @@
       {
        "id": "2026-06-8-c-ii-MP3",
        "marks": 1,
-       "text_md": "which require a lot of (heat) energy to break IGNORE more energy"
+       "text_md": "which require a lot of (heat) energy to break\nIGNORE more energy 0 marks if any mention of covalent bonds, intermolecular forces or molecules"
       }
      ],
      "source_page": 23,
@@ -1626,12 +1621,12 @@
      "problem_md": "Give the chemical equation for the reaction that occurs in beaker 1.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "FeSO4 + Zn → ZnSO4 + Fe IGNORE state symbols\nM1 correct formulae of products Penalise use of\nincorrect letter cases\nonly once\nM2 fully correct balanced equation\nFeSO4 + Zn → ZnSO4 + Fe",
+     "solution_md": "FeSO4 + Zn → ZnSO4 + Fe\nM1 correct formulae of products\nM2 fully correct balanced equation\nFeSO4 + Zn → ZnSO4 + Fe\n\nIGNORE state symbols Penalise use of incorrect letter cases only once",
      "mark_points": [
       {
        "id": "2026-06-9-a-ii-MP1",
        "marks": 1,
-       "text_md": "correct formulae of products Penalise use of"
+       "text_md": "correct formulae of products\nIGNORE state symbols Penalise use of incorrect letter cases only once"
       },
       {
        "id": "2026-06-9-a-ii-MP2",
@@ -1654,17 +1649,17 @@
      "problem_md": "Explain which species is the oxidising agent in beaker 1.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 Fe2+ (is the species in the oxidising agent) ACCEPT FeSO4/iron(II)\nsulfate /iron sulfate (is\nthe oxidising agent)\nREJECT iron/Fe for M1\nM2 accepts/gains electrons (from zinc) OWTTE ALLOW causes zinc to\nbe oxidised/lose (2)\nelectrons\nIGNORE answers related\nto loss/gain of oxygen\nM2 dep on M1",
+     "solution_md": "M1 Fe2+ (is the species in the oxidising agent)\nM2 accepts/gains electrons (from zinc) OWTTE\n\nACCEPT FeSO4/iron(II) sulfate /iron sulfate (is the oxidising agent)\nREJECT iron/Fe for M1\nALLOW causes zinc to be oxidised/lose (2) electrons\nIGNORE answers related to loss/gain of oxygen M2 dep on M1",
      "mark_points": [
       {
        "id": "2026-06-9-a-iii-MP1",
        "marks": 1,
-       "text_md": "Fe2+ (is the species in the oxidising agent) ACCEPT FeSO4/iron(II)"
+       "text_md": "Fe2+ (is the species in the oxidising agent)\nACCEPT FeSO4/iron(II) sulfate /iron sulfate (is the oxidising agent)\nREJECT iron/Fe for M1"
       },
       {
        "id": "2026-06-9-a-iii-MP2",
        "marks": 1,
-       "text_md": "accepts/gains electrons (from zinc) OWTTE ALLOW causes zinc to"
+       "text_md": "accepts/gains electrons (from zinc) OWTTE\nALLOW causes zinc to be oxidised/lose (2) electrons\nIGNORE answers related to loss/gain of oxygen M2 dep on M1"
       }
      ],
      "source_page": 24,
@@ -1681,7 +1676,7 @@
      "problem_md": "Explain why no changes are observed in beaker 2.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 no (displacement) reaction takes place/iron\ncannot displace zinc ORA\nM2 iron is less reactive than zinc ORA Must be a comparison\nfor M2\nACCEPT references to\nposition in the\nreactivity series",
+     "solution_md": "M1 no (displacement) reaction takes place/iron\ncannot displace zinc ORA\nM2 iron is less reactive than zinc ORA Must be a comparison\n\nfor M2\nACCEPT references to position in the reactivity series",
      "mark_points": [
       {
        "id": "2026-06-9-b-MP1",
@@ -1691,7 +1686,7 @@
       {
        "id": "2026-06-9-b-MP2",
        "marks": 1,
-       "text_md": "iron is less reactive than zinc ORA Must be a comparison"
+       "text_md": "iron is less reactive than zinc ORA Must be a comparison\nfor M2\nACCEPT references to position in the reactivity series"
       }
      ],
      "source_page": 25,
@@ -1708,17 +1703,17 @@
      "problem_md": "Describe a test to show that the solutions in the beakers contain sulfate ions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 add barium chloride/barium nitrate IGNORE reference to\n(solution)/BaCl2/Ba(NO3)2 addition of an acid\nunless sulfuric acid is\nadded which scores 0\nApply list principle to\nany other additional\nreagents\nM2 (gives/forms a) white precipitate M2 dep on M1",
+     "solution_md": "M1 add barium chloride/barium nitrate\n(solution)/BaCl2/Ba(NO3)2\nM2 (gives/forms a) white precipitate\n\nIGNORE reference to addition of an acid unless sulfuric acid is added which scores 0 Apply list principle to any other additional reagents M2 dep on M1",
      "mark_points": [
       {
        "id": "2026-06-9-c-i-MP1",
        "marks": 1,
-       "text_md": "add barium chloride/barium nitrate IGNORE reference to\n(solution)/BaCl2/Ba(NO3)2 addition of an acid"
+       "text_md": "add barium chloride/barium nitrate\n(solution)/BaCl2/Ba(NO3)2\nIGNORE reference to addition of an acid unless sulfuric acid is added which scores 0 Apply list principle to any other additional reagents M2 dep on M1"
       },
       {
        "id": "2026-06-9-c-i-MP2",
        "marks": 1,
-       "text_md": "(gives/forms a) white precipitate M2 dep on M1"
+       "text_md": "(gives/forms a) white precipitate"
       }
      ],
      "source_page": 25,
@@ -1735,17 +1730,17 @@
      "problem_md": "Explain why the student acidifies the solutions in the beakers before testing for sulfate ions.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "M1 removes other ions that would react (with the ALLOW removes\nbarium ions) impurities\nACCEPT removes\ncarbonates for M1\nM2 to prevent other (white) precipitates forming IGNORE false positive",
+     "solution_md": "M1 removes other ions that would react (with the\nbarium ions)\nM2 to prevent other (white) precipitates forming\n\nALLOW removes impurities\nACCEPT removes carbonates for M1\nIGNORE false positive",
      "mark_points": [
       {
        "id": "2026-06-9-c-ii-MP1",
        "marks": 1,
-       "text_md": "removes other ions that would react (with the ALLOW removes\nbarium ions) impurities"
+       "text_md": "removes other ions that would react (with the\nbarium ions)\nALLOW removes impurities\nACCEPT removes carbonates for M1"
       },
       {
        "id": "2026-06-9-c-ii-MP2",
        "marks": 1,
-       "text_md": "to prevent other (white) precipitates forming IGNORE false positive"
+       "text_md": "to prevent other (white) precipitates forming\nIGNORE false positive"
       }
      ],
      "source_page": 25,
