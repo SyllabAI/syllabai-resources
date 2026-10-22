@@ -1,0 +1,48 @@
+event: pack-status-flip
+pack_id: u1-c03-atomic-structure
+chapter_key: u1:c03
+course: chemistry-4ch1
+from_status: draft
+to_status: published
+date: "2026-10-23"
+operator_command: "merge + the operator flip command"
+trace_id: "1a164915672f5ba5"
+agent: "T-BOOK-035/flip r0 (zai-web session web-c414c074, chat 08b3170a)"
+law: >-
+  START-HERE law 7 (SUGGESTED): the flip to review/published is an explicit
+  operator command, recorded in the tracker with a receipt. This file is that
+  receipt; the paired tracker transaction is lessonctl.py tracker --set
+  pack_status=published --receipt qa/flip-published.yaml.
+authority:
+  authoring_of_record: >-
+    qa/receipt.yaml — u1:c03 authored end-to-end S1-S4 (11/11 sections),
+    lint PASS 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON),
+    lessonPackV1.json emitted draft per the SUGGESTED law with the note
+    "operator flip is a separate command".
+  operator_note_of_record: >-
+    qa/receipt.yaml S4: "lessonPackV1.json emitted (status=draft — SUGGESTED
+    law; operator flip is a separate command)." The operator command above
+    answers that note (PR #45/#52 pattern); target status published is the
+    serving state of the T-C20 gate (published-only shelf + reader toggle).
+post_flip:
+  source_of_record: >-
+    qa/lessonPackV1.json status: published (single top-level field edit,
+    byte-precise — 1 line changed, +4 bytes = "published" vs "draft", no
+    other key touched; re-linted GREEN 0 errors / 0 warnings post-flip;
+    authoring receipt unchanged)
+  tracker: >-
+    tracker.yaml lessons.u1-c03-atomic-structure gains pack_status: published
+    via the lessonctl.py tracker transaction (receipt-anchored; lesson.yaml
+    receipts mirror append); TRACKER.md synced in the same commit per the
+    transaction output law.
+  hub_rebake: >-
+    syllabai-v2 lane re-runs apps/hub/scripts/import_lesson_packs.py
+    (fetch-first, SYLLABAI_PAT env-only) so the baked content-plane copy
+    carries status: published (c03 FIRST bake; c01/c02 expected
+    byte-identical); merge to main = the git-connected hub auto-bake (~90s)
+    — the "re-bake it" half of the operator command.
+scope_notes:
+  - "lesson.yaml stage is S4 (set at authoring close in the c03 authoring PR — c02's stage-lag gap was fixed that lane); not named by the operator order and not a serving input (stage truth is qa/receipt.yaml S1-S4)"
+  - "tracker.yaml courses.chemistry-4ch1.phases.pilot-gate.status ('not-started') predates this flip and is c01-c05 collective; after this flip c01+c02+c03 are PUBLISHED — left untouched, flagged for the c04-c05 lanes, not a defect of this flip"
+  - "sandbox-wipe recovery disclosure: the first flip build (Task 8 sandbox: local merge 0c0e4de + flip 0621e76) died unpushed with the recycled sandbox; this receipt is written by the content-identical rebuild (Task 9) on fresh re-clone — merge of record rebuilt as 284ce7c on the advanced main (91eed73; CourseLessons delta 1f2aab4..91eed73 = empty, no conflict), flip rebuilt byte-exact (same 1-line flip, same receipt text class). Operation of record unchanged; only commit shas differ."
+  - "credential note: the Task 8 sandbox had no GitHub write access (session PAT died with it); the operator supplied a fresh token (trace 1a164d0d8e9b7021) and this lane pushes + opens the PRs — prior token was chat-exposed; rotation executed by this reissue"
