@@ -1000,6 +1000,14 @@
      "deferred_sids": 2,
      "parts_touched": 22,
      "entries_added": 44
+    },
+    "chem25-b02": {
+     "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+     "anchored_sids": 12,
+     "quarantined_sids": 1,
+     "deferred_sids": 12,
+     "parts_touched": 67,
+     "entries_added": 147
     }
    }
   },
@@ -2618,6 +2626,19 @@
    "rulings": 1,
    "parts_touched": 0,
    "entries_added": 0,
+   "tier_policy": {
+    "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
+   }
+  },
+  "chem25-b02": {
+   "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+   "bank": "cie-a-level-chemistry-25",
+   "applied_utc": "2026-10-22T02:08:37Z",
+   "directive": "operator order (gateway trace 1a1614f00e3596dd, 2026-10-22, zai-web) — the operator's second tranche-2 ruling batch, 26 rows verbatim: spcpt_26qcCY45Rx3S5Q75 -> anchor 23.3.2, 23.4.4 only if the linked parts confirm entropy/Gibbs coverage; otherwise split the entropy and Gibbs scopes. | spcpt_2ThbMTgPgvQbtpTc -> anchor 28.4.1, 28.4.2. | spcpt_6kfKxfq3Q9w2RBGz -> anchor 24.2.3, 24.2.4; verify electron-flow and feasibility coverage against the linked parts. | spcpt_7GFsrZwSKvKWbScF -> anchor 1.1.7 only if the linked parts concern ionisation-energy trends; otherwise hold for evidence. | spcpt_9Dxx4xs6KDbb85cJ -> hold for evidence; the linked phenylamine parts span several organic-chemistry topics, and the candidate excerpt does not isolate the intended reaction scope. | spcpt_BsxZ3K63vTYS5gtF -> anchor 32.2.3, 32.2.4; keep distinct from general acidity and NMR topics. | spcpt_CdtkSssKHMzw5ZTn -> split by reaction route; candidate anchors 21.1.2 and 36.1.2 require part-level confirmation before assignment. | spcpt_HmMgqHYYJMyF6nVN -> anchor 6.1.1, 6.1.2; do not add 2.3.1 without direct evidence. | spcpt_WXp9yV6RjmGqJnn3 -> anchor 12.1.3, 12.1.4; add 14.1.6 only if the linked parts explicitly cover the relevant nitrogen-oxide reaction. | spcpt_XQ97pkXbbVSfgqZD -> anchor 19.2.1, 19.2.2, 19.2.3. | spcpt_Y6Qj4KVdMvB2kpqv -> anchor 7.1.4, 7.1.7, 7.1.8 only where supported by the linked question part; do not map the whole equilibrium subtopic by default. | spcpt_YpKqb5HsZsxDZymV -> anchor 24.2.3, 24.2.4; distinguish measuring electrode potentials from electrolysis calculations. | spcpt_Ytmx9DyG2jXQB5D6 -> anchor 19.2.2; include 19.2.1 or 19.2.3 only if the linked parts cover production or hydrolysis respectively. | spcpt_Zt25mTwwxK5GP3RX -> anchor 28.1.2, 28.1.3; exclude transition-element properties unrelated to orbital shape. | spcpt_c7vFrg8fTnmm4kcp -> anchor 25.1.4, 25.1.5 only if the linked parts concern Le Chatelier's principle; otherwise hold for evidence. | spcpt_fFh7hPWmj22BJ5tJ -> anchor 24.2.1-24.2.4 only for the specific standard-electrode/cell-potential content evidenced by the linked parts. | spcpt_gXGMxJcrhrnxtZD -> anchor 1.1.7 only if the linked parts concern ionisation-energy trends; otherwise hold for evidence. | spcpt_hZTPmmSRrdvvX3Qd -> anchor 8.1.2, 8.1.3 only where the linked parts test activation energy and the Boltzmann distribution. | spcpt_j9xWMbPMSC6qSJnY -> anchor 23.4.1, 23.4.2 only if these are the official Gibbs-equation calculation points in the source specification; verify before committing. | spcpt_jptnPNnPshVwycwD -> anchor 13.1.1, 13.1.2; add other hydrocarbon points only when the linked parts support them. | spcpt_kYX8rJ8Ff8TSC2TK -> anchor 11.3.1, 11.3.2 only if those are the official halide-ion reducing-agent points; verify the exact source wording. | spcpt_kmmQMJ52BJxbDd6g -> anchor 33.3.1-33.3.4. | spcpt_mVXNDWrRyFCbsscr -> anchor 32.2.5, 32.2.6; keep distinct from general phenol acidity. | spcpt_pYmRWxPrtMDKj5ym -> quarantine: deuterated-solvent preparation is not established as a standalone syllabus point by the supplied candidate evidence. Retain only if the linked parts explicitly assess solvent choice or its role in proton NMR. | spcpt_qd7Tc37DJzJjRrmk -> anchor 18.2.1, 18.2.2. | spcpt_sFJ6ZPXvkT79fC2f -> anchor 4.1.1, 4.1.2 only where the linked parts directly assess ideal-gas assumptions or the origin of pressure. — Disclosed mapping law (B01 precedent re-applied): plain anchors -> anchor(codes); conditional anchors (only-if/only-where/verify-before-committing), split rows, and hold-for-evidence rows -> defer(reason verbatim; candidates NEVER encoded — the lane never upgrades a candidate to an anchor); the explicit quarantine row (deuterated-solvent preparation) -> quarantine per the template semantics (no honest anchor from the evidence). Two instrument dispositions: (1) the instrument's sid spcpt_gXGMxJcrhrnxtZD prefix-resolves to the unique sheet row spcpt_gXGMxJcrhrnxtZD6 (Trends in Ionisation Energy; the trailing 6 dropped in transit); (2) spcpt_HmMgqHYYJMyF6nVN (Oxidation Numbers) re-affirms the B01 anchor 6.1.1+6.1.2 — all 22 sheet part_refs already carry both codes of record (chem25-b01, 44 entries), so re-encoding yields zero fresh entries and the row is EXCLUDED from rulings[] (the G3/G4 gates would abort); the operator's 'do not add 2.3.1 without direct evidence' CLOSES the B01 2.3.1 conditional (2.3.1 stays un-encoded; no part-level staging needed). Conditional adds on plain anchors (14.1.6 on Oxides of Nitrogen; 19.2.1/19.2.3 on Production of Hydroxynitriles) and the post-anchor verification acts (electron-flow/feasibility coverage) are NOT encoded — recorded verbatim in the anchor notes; they return to the operator with part-level evidence.",
+   "source_sheet": "scripts/cie_tranche2_sheets/cie-a-level-chemistry-25.yaml",
+   "rulings": 25,
+   "parts_touched": 67,
+   "entries_added": 147,
    "tier_policy": {
     "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
    }
