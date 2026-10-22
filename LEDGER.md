@@ -164,6 +164,56 @@
   `scripts/exporter-disclosures/2026-10-22-wave12.json`, making the G-E1 --expected-deltas
   disclosure reproducible from the repo itself. No corpus changes; 52 canaries untouched.
 
+
+## Wave 19 — exporter v5, the UX-doctrine wave (F53–F56; operator wave-15)
+
+Doctrine change of record (operator, 2026-10-22): **best experience for the learner is the
+governing law; verbatim transcription is retired as the governing constraint** — values are
+still never invented (every number, equation and option text is the corpus's own; presentation
+may be re-formed). The wave compared how an SME set renders vs the equivalent official part and
+fixed the four structural gaps found. No corpus changes; 63 corpus canaries untouched; the
+served bundle PR carries a full disclosure census.
+
+- **F53 stem restore (the headline)**: every prior exporter version silently dropped ALL
+  upstream `stem_md` — 427 stems, so every official question opened cold at part (a)
+  ("After a short time, the crystal becomes smaller…" with no crystal). The exporter now
+  restores each stem onto the question's first part (SME's own pattern). Stems pass the
+  eyeballed **`Official-ExamQuestion/STEM-RESTORE.json`** ledger (92 verdicts: 26 authored
+  rebuilds — data tables, substance boxes, reaction flows, method steps, values verbatim;
+  16 drop-tail verdicts — flattened diagram-label runs redundant with a figure/table the
+  learner sees on some part; 50 keep + tranche flags). Mechanical cleaning: control chars
+  (BEL \x07 in 2022-06 1CR Q10), •/● method runs → markdown bullets, "Step N" runs → lines.
+  Splice-guard: 16 stems the converter already folded into part 1 are not duplicated.
+  Result: 411/427 stems visible on first parts (the other 16 were never missing).
+- **F54 id-collision fix**: `offp_<series>_<part>` collided **631×** across the 1C/2C/1CR/2CR
+  sets of the same series (`offp_2019-06_1-a` named four different parts), cross-wiring saved
+  MCQ answers, typed-answer drafts and attempt keys between papers. Ids now carry the paper:
+  `offp_<series>_<paper>_<part>` (2607 parts, all unique). Full old→new rename map disclosed
+  per slug in `scripts/exporter-disclosures/2026-10-22-wave19-ux-stems.json`; the verify
+  harness walks the disclosure through the lattice (any unrenamed drift still refuses). The
+  core identity bridge is unaffected (joins by topicSlug + positional order, ADR-029; verified
+  1:1 over the SME corpus only — official sets do not bridge).
+- **F55 MS-furniture strip (exporter-side law)**: trailing answer-grid header lines
+  ("Question / Answer Notes Marks / number", up to 4, glue digits tolerated) are stripped from
+  solutionMd and markPoints textMd at export. The 21 upstream furniture carriers now serve
+  clean. (The corpus keeps the raw extraction; this is a serving-format law like F15.)
+- **F56 honest stub note**: the crop-required figure line no longer says "queued for human
+  verification" (the wave-13 CROP-REVIEW verdicts settled that queue); it now tells the
+  learner the truth: no printed figure accompanies the part — the answer IS the diagram you
+  draw in the paper's answer space.
+- **F-W15-3 reflow RETIRED before ship**: joining PDF hard-wraps was render-identical (the hub
+  renders single newlines as soft breaks — react-markdown, no remark-breaks) and disturbed the
+  wave-14 verbatim pins (2019-06 3(d)(ii) tick-table). Line breaks stay as extracted.
+- **Verification**: exporter gates G-E1 (5214-delta rename census), G-E1b (identity fields
+  byte-equal ×54), G-E2 (sum laws), G-E3 (census constants, 4860 marks), G-E4 (SME prefix
+  byte-identical, 2605414 bytes), G-E5 (data cut main@1f2aab451bf4 proven against staging);
+  verify harness green (lattice through renames, 661 content deltas = disclosure exactly,
+  mark law 2607 parts). 2019-06 3(d)(ii) solutionMd/markPoints byte-identical through the
+  wave (C52 state preserved). Zero PUA in the exported bundle. Ids unique 2607/2607.
+- **Wave-20 backlog (filed in STEM-RESTORE.json tranche flags)**: ~28 stem figures/tables to
+  crop (chromatograms, apparatus, structure diagrams the stems reference but no crop carries),
+  9 displayed-formulae letter-runs (crop tranche), 3 interleaved property tables to eyeball.
+
 - **T-UGM-MODE1-1 — UGM mode-1 lane enrichment, quadratics pilot (this run)**: first
   landing from the Underground Mathematics reverse-engineering track
   (SyllabAI/syllabai-experimental @ 915bfa8c; ADR-UGM-0001 Accepted 2026-10-22,

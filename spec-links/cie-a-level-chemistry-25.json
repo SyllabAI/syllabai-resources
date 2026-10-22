@@ -645,6 +645,354 @@
     "entries_added": 147,
     "scope": "the map-universe review sheet's ruled sids; pending refs preserved (the declared trail); codes additive; no join re-derived (ADR-030)"
    }
+  },
+  "operatorSidAnchors": {
+   "schema": "syllabai.operator-sid-anchors/1.0",
+   "lane": "T-RULE-T2-APPLY-2",
+   "appliedUtc": "2026-10-22T13:36:36Z",
+   "ruledBy": "operator (zai-web session web-df0238cc-641e-4e8e-ae60-bc44c2aeec2e, trace 1a163b0eb57bd5b1 \"stage that sidecar capture next\")",
+   "counts": {
+    "sids": 23,
+    "distinctCodes": 46,
+    "unconditional": 6,
+    "conditionalResolved": 17
+   },
+   "provenance": {
+    "conditionalRows": "T-RULE-T2-COND-1 — 17 conditional rows resolved part-level; resolution receipt of record in SyllabAI/syllabai-v2 (download/tranche2_conditional_resolution_r0.json); registry applied of record @ a9bd2488",
+    "unconditionalRows": "T-SPECS-CIE-TRANCHE2-B02 receipt cie-tranche2-r2-batches-run-002-r0.json @ bd2c0b1e — operator rulings verbatim (6 plain anchor rows)",
+    "consumer": "v2 consume engine amendment (branch t-rule-t2-consume-anchors/r0): add-if-absent / verify-if-equal / conflict-keep+disclose (NO-GUESS); anchored sids removed from spcptUnmapped on add",
+    "durabilityLaw": "reproduces the registry rows at any consume re-run AND at full rebuild (the sidecar is the one input every consumer reads); the committed v2 map rows @ a9bd2488 are engine-preserved as-is (sheet rows for these sids: ZERO, censused)",
+    "v8Corrections": "7 sids carry b01/b02 V8 part-level entries this ruling corrects (6kfK, HmMg, Zt25 rejections; YpKq, Ytmx additions; WXp9, jptn demotions) — V8 retraction is operator-gated, separate residual; disclosed per-record in relationToV8"
+   },
+   "anchors": {
+    "spcpt_2ThbMTgPgvQbtpTc": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:28.4.1",
+     "officialCodes": [
+      "28.4.1",
+      "28.4.2"
+     ],
+     "tier": "tranche2_unconditional",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-SPECS-CIE-TRANCHE2-B02:cie-tranche2-r2-batches-run-002-r0.json@bd2c0b1",
+     "evidence": "operator unconditional anchor of record — B02 verbatim row: anchor 28.4.1, 28.4.2.",
+     "relationToV8": "matches the b01/b02 V8 part-level entries verbatim (codes identical)",
+     "spineVerified": true
+    },
+    "spcpt_XQ97pkXbbVSfgqZD": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.1",
+     "officialCodes": [
+      "19.2.1",
+      "19.2.2",
+      "19.2.3"
+     ],
+     "tier": "tranche2_unconditional",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-SPECS-CIE-TRANCHE2-B02:cie-tranche2-r2-batches-run-002-r0.json@bd2c0b1",
+     "evidence": "operator unconditional anchor of record — B02 verbatim row: anchor 19.2.1, 19.2.2, 19.2.3.",
+     "relationToV8": "matches the b01/b02 V8 part-level entries verbatim (codes identical)",
+     "spineVerified": true
+    },
+    "spcpt_kmmQMJ52BJxbDd6g": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:33.3.1",
+     "officialCodes": [
+      "33.3.1",
+      "33.3.2",
+      "33.3.3",
+      "33.3.4"
+     ],
+     "tier": "tranche2_unconditional",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-SPECS-CIE-TRANCHE2-B02:cie-tranche2-r2-batches-run-002-r0.json@bd2c0b1",
+     "evidence": "operator unconditional anchor of record — B02 verbatim row: anchor 33.3.1-33.3.4.",
+     "relationToV8": "matches the b01/b02 V8 part-level entries verbatim (codes identical)",
+     "spineVerified": true
+    },
+    "spcpt_qd7Tc37DJzJjRrmk": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:18.2.1",
+     "officialCodes": [
+      "18.2.1",
+      "18.2.2"
+     ],
+     "tier": "tranche2_unconditional",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-SPECS-CIE-TRANCHE2-B02:cie-tranche2-r2-batches-run-002-r0.json@bd2c0b1",
+     "evidence": "operator unconditional anchor of record — B02 verbatim row: anchor 18.2.1, 18.2.2.",
+     "relationToV8": "matches the b01/b02 V8 part-level entries verbatim (codes identical)",
+     "spineVerified": true
+    },
+    "spcpt_BsxZ3K63vTYS5gtF": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.3",
+     "officialCodes": [
+      "32.2.3",
+      "32.2.4"
+     ],
+     "tier": "tranche2_unconditional",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-SPECS-CIE-TRANCHE2-B02:cie-tranche2-r2-batches-run-002-r0.json@bd2c0b1",
+     "evidence": "operator unconditional anchor of record — B02 verbatim row: anchor 32.2.3, 32.2.4; keep distinct from general acidity and NMR topics.",
+     "relationToV8": "matches the b01/b02 V8 part-level entries verbatim (codes identical)",
+     "spineVerified": true
+    },
+    "spcpt_mVXNDWrRyFCbsscr": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:32.2.5",
+     "officialCodes": [
+      "32.2.5",
+      "32.2.6"
+     ],
+     "tier": "tranche2_unconditional",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-SPECS-CIE-TRANCHE2-B02:cie-tranche2-r2-batches-run-002-r0.json@bd2c0b1",
+     "evidence": "operator unconditional anchor of record — B02 verbatim row: anchor 32.2.5, 32.2.6; keep distinct from general phenol acidity.",
+     "relationToV8": "matches the b01/b02 V8 part-level entries verbatim (codes identical)",
+     "spineVerified": true
+    },
+    "spcpt_26qcCY45Rx3S5Q75": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.3.2",
+     "officialCodes": [
+      "23.3.2",
+      "23.4.4"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "14 parts: sign-of-ΔS predictions ×10 (MgCO3, KNO3, Ostwald, NH4Cl, condensation/dissolving table) = 23.3.2; 'temperature above which dissolving becomes feasible' = 23.4.4",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_j9xWMbPMSC6qSJnY": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:23.4.1",
+     "officialCodes": [
+      "23.4.1",
+      "23.4.2"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "10 parts: ΔG = ΔH − TΔS calculations throughout (ice melting, KNO3, Ostwald, Contact process, CaCO3, HCl/O2); note officially mapped 23.4.1",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_6kfKxfq3Q9w2RBGz": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.5",
+     "officialCodes": [
+      "24.2.5",
+      "24.2.7"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "11 parts: electron-flow direction (X5hr, ZbJV) + feasibility from E-cell sign (nzqD) = 24.2.5; constructing redox half/overall equations ×6 = 24.2.7 (also the note's official code)",
+     "relationToV8": "CORRECTS the b02 V8 part-level entries (24.2.3/24.2.4 on 14 parts): part-level evidence assigns 24.2.5 (electron-flow direction + feasibility from E-cell sign) and 24.2.7 (half/overall equations x6); V8 retraction is operator-gated, separate residual",
+     "spineVerified": true
+    },
+    "spcpt_YpKqb5HsZsxDZymV": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.3",
+     "officialCodes": [
+      "24.2.3",
+      "24.2.1",
+      "24.2.4"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "10 parts: half-cell types + platinum table (f37R), measurement apparatus diagrams (9Tgf, Xq2K, pSxt, ZtsH, mBFq, MXwG) = 24.2.3; define standard electrode potential (tGPZ) + standard conditions = 24.2.1; Li/I E-cell calculation (MbgV) = 24.2.4",
+     "relationToV8": "EXTENDS the b02 V8 part-level entries (24.2.3/24.2.4 on 20 parts): 24.2.1 added (define standard electrode potential + standard conditions); no retraction needed",
+     "spineVerified": true
+    },
+    "spcpt_fFh7hPWmj22BJ5tJ": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.1",
+     "officialCodes": [
+      "24.2.1",
+      "24.2.4"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "7 parts: standard conditions (QX4J, MXwG-i) = 24.2.1; Cr/Cu half-cell potential worked backwards from E-cell (CFQn) + E-cell formula card = 24.2.4",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_7GFsrZwSKvKWbScF": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.3",
+     "officialCodes": [
+      "1.4.3",
+      "1.4.6"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "2 parts + 3 cards: Be-vs-B first IE (2s² vs 2p¹ subshell factor) and highest-first-IE configuration = 1.4.3 + 1.4.6; cards teach across-period / down-group trends",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_gXGMxJcrhrnxtZD6": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:1.4.2",
+     "officialCodes": [
+      "1.4.2",
+      "1.4.4",
+      "1.4.6",
+      "1.4.8"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "4 parts + 3 cards: successive-IE tables → oxidation state of chloride (DKpF) and group identification (pq5R) = 1.4.8 + 1.4.4; construct 2nd-IE equation (Q6JW) = 1.4.2; factors/shielding cards + not-explains-trend MCQ (BqGK) = 1.4.6",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_HmMgqHYYJMyF6nVN": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "officialCodes": [
+      "6.1.1",
+      "6.1.3"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "23 parts: oxidation-number calculation/comparison MCQs throughout (sum rules, common ONs, chlorates, largest ON change, species oxidised) = 6.1.1; identify oxidised/reduced species via ON changes (x5mV, xNvK, P2R5, JMZJ disproportionation) = 6.1.3",
+     "relationToV8": "CORRECTS the b01 V8 part-level entries (6.1.1/6.1.2 on 44 parts): 6.1.2 rejected (zero equation-balancing parts among 23), 6.1.3 added (4 ON-change parts incl. disproportionation); V8 retraction is operator-gated, separate residual",
+     "spineVerified": true
+    },
+    "spcpt_WXp9yV6RjmGqJnn3": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:12.1.3",
+     "officialCodes": [
+      "12.1.3"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "4 parts + 2 cards: NOx formation in car engines + catalytic-converter removal cards = 12.1.3 verbatim; exhaust-composition and environmental-problem MCQs give occurrence context",
+     "relationToV8": "NARROWS the b02 V8 part-level entries (12.1.3/12.1.4 on 8 parts): 12.1.4 demoted to secondary (single indirect part); 12.1.3 anchored",
+     "spineVerified": true
+    },
+    "spcpt_Y6Qj4KVdMvB2kpqv": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.1.4",
+     "officialCodes": [
+      "7.1.4",
+      "7.1.7"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "1 part + 4 cards: Haber-process Kc calculation from equilibrium moles (WQnH) = 7.1.7; write-the-Kc-expression card + solids T/F card = 7.1.4",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_Ytmx9DyG2jXQB5D6": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:19.2.2",
+     "officialCodes": [
+      "19.2.2",
+      "19.2.3"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "3 parts + 3 cards: HCN/CN⁻ nucleophilic addition to aldehydes/ketones producing hydroxynitriles (Mksg, bZQs + mechanism card) = 19.2.2; butanone + NaCN/H⁺ then dilute-HCl hydrolysis to a carboxylic acid (fHBn) = 19.2.3",
+     "relationToV8": "EXTENDS the b02 V8 part-level entries (19.2.2 on 3 parts): 19.2.3 added (hydrolysis part fHBn); 19.2.1 rejected",
+     "spineVerified": true
+    },
+    "spcpt_Zt25mTwwxK5GP3RX": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:28.1.2",
+     "officialCodes": [
+      "28.1.2",
+      "1.3.8"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "1 part + 3 cards: identify the 3d orbital from four-lobed sketches (PHYR) = 28.1.2; s-orbital shape/size trend and p-orbital orientation cards = 1.3.8",
+     "relationToV8": "CORRECTS the b02 V8 part-level entries (28.1.2/28.1.3 on 2 parts): 28.1.3 rejected (the orbital-shape condition honoured), 1.3.8 added (orbital-shape cards); V8 retraction is operator-gated, separate residual",
+     "spineVerified": true
+    },
+    "spcpt_c7vFrg8fTnmm4kcp": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:7.1.2",
+     "officialCodes": [
+      "7.1.2",
+      "7.1.3",
+      "7.1.9"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "6 parts + 9 cards: define Le Chatelier card = 7.1.2; position-shift MCQs (NO2/N2O4 conditions, ethanol yield, HI colour, Na2CO3 added to saturated MgCO3) = 7.1.3; what-increases-Kc part (S9xx) + Kc-temperature card = 7.1.9",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_hZTPmmSRrdvvX3Qd": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:8.2.1",
+     "officialCodes": [
+      "8.2.1",
+      "8.2.2"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "10 parts, all from the 8.2 set: Boltzmann curve interpretation ×6 (catalyst lowering Ea, temperature shift, regions H/J/K) = 8.2.2; Ea from reaction-pathway diagrams (xJmR, QTzf) + define-Ea cards = 8.2.1",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_jptnPNnPshVwycwD": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:13.1.1",
+     "officialCodes": [
+      "13.1.1"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "1 part + 5 cards: identify-the-hydrocarbon-molecules MCQ (Btwm) + define-hydrocarbon and ethanol-T/F cards = 13.1.1; homologous-series cards are contextual",
+     "relationToV8": "NARROWS the b02 V8 part-level entries (13.1.1/13.1.2 on 2 parts): 13.1.2 secondary (no direct part); 13.1.1 anchored",
+     "spineVerified": true
+    },
+    "spcpt_kYX8rJ8Ff8TSC2TK": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.3.1",
+     "officialCodes": [
+      "11.3.1",
+      "11.3.2"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "4 parts + 2 cards: halide ions as reducing agents with concentrated H2SO4 (c9Sx, Z2rX astatide extension, reducing-power card) = 11.3.1; NaCl/NaBr + H2SO4 observations explained (gm7f) = 11.3.2 (note official code)",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    },
+    "spcpt_sFJ6ZPXvkT79fC2f": {
+     "officialId": "CIE_A_LEVEL_CHEMISTRY_2025_2027:4.1.2",
+     "officialCodes": [
+      "4.1.2",
+      "4.1.3"
+     ],
+     "tier": "tranche2_conditional_resolved",
+     "method": "operator_verdict",
+     "lineage": "operator_ruling_tranche2",
+     "via": "T-RULE-T2-COND-1:download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record)",
+     "evidence": "9 parts + 5 cards: ideal-assumption content (which gas least ideal, conditions for accurate M_r, real-gas deviation cards) = 4.1.2; pV = nRT calculations (pressure, mass, M_r from gas data) = 4.1.3 (note official code)",
+     "relationToV8": "no prior V8 part-level entries (b02 defer row) — resolved part-level by T-RULE-T2-COND-1",
+     "spineVerified": true
+    }
+   }
   }
  },
  "items": {

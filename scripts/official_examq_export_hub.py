@@ -34,6 +34,26 @@ closure; F51 adds the data-cut stamping law G-E5):
         PIN-TIGHTEN-1 (fc7a5dc2) closed by hand and filed as this follow-up.
 Deterministic; no LLM in the loop.
 
+wave-15 additions (v5, UX doctrine — best experience, non-verbatim presentation
+sanctioned; values never invented):
+  F-W15-1  stem restore: every upstream stem_md is restored to the question's
+           first part (427 stems were silently dropped by every prior exporter
+           version — the single largest official-vs-SME rendering gap). Stems
+           pass through the eyeballed STEM-RESTORE.json ledger (drop-tail /
+           authored rebuild / figure promotion) plus mechanical cleaning
+           (control chars, bullet/step reflow). Splice-guard: a stem whose
+           text is already folded into part 1 is not duplicated.
+  F-W15-2  mark-scheme furniture strip: trailing "Question/Answer Notes Marks"
+           MS-table header lines are stripped from solutionMd/markPoints.
+  F-W15-3  RETIRED before ship (wave-15 review): the hub renders single
+           newlines as soft breaks (react-markdown, no remark-breaks), so
+           joining them was render-identical byte noise — and it disturbed
+           the wave-14 verbatim-transcription pins (e.g. 2019-06 3(d)(ii)).
+           Line breaks stay as extracted; only junk lines are removed.
+  F-W15-4  honest stub note: the "pending scan / queued for human verification"
+           process jargon is replaced with learner-facing copy (the wave-13
+           CROP-REVIEW verdicts are settled; the queue language was stale).
+
 Contract notes (src/lib/contracts.ts in syllabai-hub):
 - QuestionPart: id/order/questionType/marks/commandWord/specPointIds/
   specPointCodes/problemMd/solutionMd/choices?/sourcePaper? — this exporter
@@ -81,7 +101,118 @@ def resolve_asset_path(a, by_id):
     return None
 
 
-def export_series(series, paper, topic=None):
+STEM_LEDGER_PATH = os.path.join(REPO_ROOT, "Official-ExamQuestion", "STEM-RESTORE.json")
+
+# F-W15-2: a solution line made only of MS-table header furniture (the answer
+# grid's column headers leak into the extracted cell text). Tokens are matched
+# after stripping glue digits ("3Answer" → "Answer").
+FURNITURE_WORDS = {"question", "number", "answer", "notes", "marks",
+                   "additional", "guidance", "total", "for"}
+
+
+def _is_furniture_line(line):
+    toks = [t for t in re.split(r"[^A-Za-z]+", line) if t]
+    return bool(toks) and all(t.lower().lstrip("0123456789") in FURNITURE_WORDS for t in toks)
+
+
+def strip_furniture(sol):
+    """F-W15-2: drop trailing furniture lines (up to 4) + a trailing
+    'Total for Question N = M marks' line, from the end only."""
+    if not sol:
+        return sol
+    lines = sol.rstrip().splitlines()
+    n = 0
+    while lines and n < 4:
+        last = lines[-1].strip()
+        if _is_furniture_line(last) or re.fullmatch(r"Total\s+\d+", last):
+            lines.pop()
+            n += 1
+            continue
+        if re.fullmatch(r"Total\s+for\s+Question\s+\d+\s*=\s*\d+\s*marks", last):
+            lines.pop()
+            n += 1
+            continue
+        break
+    return "\n".join(lines).rstrip() if n else sol
+
+
+def _bulletize(stem):
+    """F-W15-1 cleaning: flattened method bullet runs (• / ●) become markdown
+    bullets; 'Step N' runs become one line per step; control chars are
+    stripped. Only fires on ≥2 occurrences so prose never splits."""
+    s = re.sub(r"[\x00-\x08\x0b-\x1f]", "", stem).replace("\t", " ")
+    for b in ("\u2022", "\u25cf"):
+        if s.count(f" {b} ") >= 1:
+            parts = [x.strip() for x in s.split(b) if x.strip()]
+            if len(parts) >= 3:
+                s = parts[0] + "\n" + "\n".join(f"- {p}" for p in parts[1:])
+                break
+    if len(re.findall(r"\bStep\s+\d+\b", s)) >= 2:
+        s = re.sub(r"(?<!^)(?<!\n)\s*(\bStep\s+\d+\b)", r"\n\1", s)
+    return s
+
+
+def load_stem_ledger():
+    if not os.path.exists(STEM_LEDGER_PATH):
+        raise ExportGateError(
+            f"F-W15-1: stem ledger missing at {STEM_LEDGER_PATH} — the wave-15 "
+            "stem restore runs with the eyeballed ledger of record (STEM-RESTORE.json)")
+    return json.load(open(STEM_LEDGER_PATH))
+
+
+def restore_stem(q, series, paper, ledger, by_part_num):
+    """F-W15-1: cleaned stem markdown for a question, or None. Authored ledger
+    verdicts win; everything else passes mechanical cleaning. Splice-guard:
+    stems already folded into part 1 by the converter are not duplicated."""
+    stem = (q.get("stem_md") or "").strip()
+    if not stem:
+        return None
+    qnum = str(q["question_number"])
+    entry = ledger.get("verdicts", {}).get(f"{series}/4CH1-{paper}:Q{qnum}")
+    first_md = (q["parts"][0].get("problem_md") or "") if q["parts"] else ""
+    norm = lambda s: re.sub(r"\s+", " ", s).strip()
+    if norm(stem)[:60] and norm(stem)[:60] in norm(first_md):
+        return None  # splice-guard: converter already folded this stem into part 1
+    if entry and entry.get("verdict") == "replace":
+        anchor = entry.get("dropTailFrom")
+        if anchor:
+            if anchor not in stem:
+                raise ExportGateError(
+                    f"F-W15-1: dropTailFrom anchor not found in stem of "
+                    f"{series}/4CH1-{paper} Q{qnum}: {anchor[:60]!r}")
+        md = entry["stemMd"]
+        fig_part = entry.get("inlineFigureFrom")
+        if fig_part:
+            a = by_part_num.get(fig_part)
+            crop = next((x for x in (a or {}).get("assets", [])
+                         if x.get("kind") == "crop" and resolve_asset_path(x, {})), None) if a else None
+            if not crop:
+                raise ExportGateError(
+                    f"F-W15-1: inlineFigureFrom {fig_part} on "
+                    f"{series}/4CH1-{paper} Q{qnum} has no resolvable crop asset")
+            url = raw_url(series, paper, resolve_asset_path(crop, {}))
+            cap = f"{crop.get('mention', 'figure')} — official paper figure (qp.pdf p.{crop.get('page')})"
+            md = md.replace("{{FIG:" + fig_part + "}}", f"![{cap}]({url})")
+        if "{{FIG:" in md:
+            raise ExportGateError(
+                f"F-W15-1: unresolved FIG placeholder in authored stem of "
+                f"{series}/4CH1-{paper} Q{qnum}")
+        return md.strip()
+    if entry and entry.get("verdict") == "drop-tail":
+        tail = entry.get("tail")
+        if tail and tail not in stem:
+            raise ExportGateError(
+                f"F-W15-1: drop-tail anchor not found in stem of "
+                f"{series}/4CH1-{paper} Q{qnum}: {tail[:60]!r}")
+        if tail:
+            stem = stem[:stem.index(tail)].rstrip()
+            stem = re.sub(r"[\s]*[-–—.:;]?$", "", stem)
+        return _bulletize(stem).strip()
+    # unledgered (or keep-verdict) stems: mechanical cleaning only
+    return _bulletize(stem).strip() or None
+
+
+def export_series(series, paper, topic=None, stem_ledger=None):
     if topic is None:
         tp = f"{CORPUS}/{series}/4CH1-{paper}/topic.json"
         topic = json.load(open(tp))
@@ -96,6 +227,9 @@ def export_series(series, paper, topic=None):
     questions = []
     for qi, q in enumerate(tj["questions"]):
         qnum = str(q["question_number"])
+        # F-W15-1: the printed stem is restored to the question's first part
+        by_part_num = {p["part_number"]: p for p in q["parts"]}
+        stem_md = restore_stem(q, series, paper, stem_ledger or {}, by_part_num)
         parts = []
         for p in q["parts"]:
             marks = int(p["marks"]) if p.get("marks") is not None else 0
@@ -119,15 +253,28 @@ def export_series(series, paper, topic=None):
                         cap += f" (same figure as {a.get('ref_part')})"
                     figures_md.append(f"![{cap}]({entry['rawUrl']})")
                 elif a.get("kind") == "crop-required":
+                    # F-W15-4: learner-facing copy — the wave-13 CROP-REVIEW
+                    # verdicts settled these as honest blank-scaffold stubs;
+                    # the old 'pending scan / queued for verification' line
+                    # described a queue that no longer exists.
                     figures_md.append(
-                        "> *Figure pending scan — this scaffold is printed in the paper; "
-                        "the crop is queued for human verification.*")
+                        "> *No printed figure accompanies this part — in the paper "
+                        "you would draw the diagram (or label the apparatus) in the "
+                        "answer space provided.*")
                 assets_out.append(entry)
             problem_md = (p.get("problem_md") or "").strip()
+            if len(parts) == 0 and stem_md:
+                problem_md = stem_md + "\n\n" + problem_md
             if figures_md:
                 problem_md += "\n\n" + "\n\n".join(figures_md)
             sol = p.get("solution_md") or None
-            mp = [{"id": x["id"], "marks": x["marks"], "textMd": x["text_md"]}
+            if sol:
+                # F-W15-2: trailing MS-grid furniture lines off (visible junk).
+                # F-W15-3 retired: no reflow — single newlines render as soft
+                # breaks, and the verbatim cell structure is wave-14-pinned.
+                sol = strip_furniture(sol) or None
+            mp = [{"id": x["id"], "marks": x["marks"],
+                   "textMd": strip_furniture(x["text_md"])}
                   for x in (p.get("mark_points") or [])]
             choices = None
             if p.get("question_type") == "multiple_choice" and p.get("choices"):
@@ -137,7 +284,11 @@ def export_series(series, paper, topic=None):
                 choices = [{"label": c["label"], "isCorrect": bool(c.get("is_correct")),
                             "textMd": c.get("text_md", "")} for c in ch]
             parts.append({
-                "id": f"offp_{series}_{part_slug(p['part_number'])}",
+                # wave-15 id-collision fix: the paper code is part of the
+                # identity — offp_<series>_<part> collided across 1C/2C/1CR/2CR
+                # of the same series (631 duplicated ids), cross-wiring saved
+                # MCQ answers and typed-answer drafts between papers.
+                "id": f"offp_{series}_{paper.lower()}_{part_slug(p['part_number'])}",
                 "order": len(parts),
                 "questionType": p.get("question_type"),
                 "marks": marks,
@@ -158,7 +309,7 @@ def export_series(series, paper, topic=None):
                 },
             })
         questions.append({
-            "id": f"offq_{series}_{part_slug(qnum)}",
+            "id": f"offq_{series}_{paper.lower()}_{part_slug(qnum)}",
             "order": qi,
             "difficulty": None,
             "style": "exam_whole",
@@ -382,7 +533,7 @@ def verify_source_cut(topics_dir, source_cut):
           f"declared data cut {source_cut} (modulo the converter header)")
 
 
-def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False):
+def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False, stem_ledger=None):
     """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict.
     allow_new_official: a legitimate append wave may add official sets absent from
     the bundle of record — their full part ids are disclosed in the 'new' census
@@ -421,7 +572,7 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allo
     for paper in PAPERS:
         for series in PAPER_SERIES[paper]:
             slug = f"official-4ch1-{paper.lower()}-{series}"
-            rebuilt = export_series(series, paper, topics_src(series, paper))
+            rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger)
             of_record = by_slug.get(slug)
             if of_record is None:
                 if not allow_new_official:
@@ -447,8 +598,58 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allo
                 census_rows["changed"].setdefault(slug, []).extend(changed)
     flat = {k: {s: v for s, v in d.items() if v} for k, d in census_rows.items()}
     n_delta = sum(len(v) for d in flat.values() for v in d.values())
+    # wave-19 rename-wave shape: a disclosure carrying idRenames explains an
+    # id-identity wave — gone ids must BE the map's keys, new ids its values,
+    # and the content census (keyed by the NEW ids, id key excluded) must equal
+    # the disclosure's 'changed'. One disclosure of record, both tools read it
+    # (the CI hands the same file to the exporter and the verify harness).
+    rename_ok = False
+    if n_delta and expected_deltas_path:
+        expected_probe = json.load(open(expected_deltas_path))
+        if "idRenames" in expected_probe:
+            rename_n = content_n = 0
+            for paper in PAPERS:
+                for series in PAPER_SERIES[paper]:
+                    slug = f"official-4ch1-{paper.lower()}-{series}"
+                    rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger)
+                    of_record = by_slug[slug]
+                    smap = expected_probe["idRenames"].get(slug)
+                    if not smap:
+                        raise ExportGateError(f"G-E1: rename disclosure lacks {slug}")
+                    qmap, pmap = smap.get("questions", {}), smap.get("parts", {})
+                    for oq, rq in zip(of_record["questions"], rebuilt["questions"]):
+                        if len(oq["parts"]) != len(rq["parts"]):
+                            raise ExportGateError(f"G-E1: {slug} {oq['id']}: part count drift under a rename disclosure")
+                        if qmap.get(oq["id"]) != rq["id"]:
+                            raise ExportGateError(
+                                f"G-E1: {slug}: question rename mismatch {oq['id']} -> {qmap.get(oq['id'])!r} "
+                                f"(regenerated {rq['id']})")
+                        for oprt, rprt in zip(oq["parts"], rq["parts"]):
+                            if pmap.get(oprt["id"]) != rprt["id"]:
+                                raise ExportGateError(
+                                    f"G-E1: {slug}: part rename mismatch {oprt['id']} -> {pmap.get(oprt['id'])!r} "
+                                    f"(regenerated {rprt['id']})")
+                            rename_n += 1
+                            ck = {k for k in (set(oprt) | set(rprt)) - {"id"}
+                                  if json.dumps(oprt.get(k), sort_keys=True) != json.dumps(rprt.get(k), sort_keys=True)}
+                            if ck:
+                                content_n += 1
+                                if rprt["id"] not in expected_probe.get("changed", {}).get(slug, []):
+                                    raise ExportGateError(
+                                        f"G-E1: content delta {slug} {rprt['id']} ({sorted(ck)}) "
+                                        f"missing from the rename disclosure's 'changed' census")
+            disc_changed_n = sum(len(v) for v in expected_probe.get("changed", {}).values())
+            if content_n != disc_changed_n:
+                raise ExportGateError(
+                    f"G-E1: rename-disclosure content census {disc_changed_n} != fresh {content_n} "
+                    f"(regenerate the disclosure only after eyeballing every class)")
+            print(f"G-E1 ok: rename disclosure verified — {rename_n} ids renamed, "
+                  f"{content_n} content deltas match the disclosed 'changed' census exactly")
+            rename_ok = True
+            n_delta = 0
     if n_delta == 0:
-        print("G-E1 ok: regeneration is a byte-level no-op against the bundle of record")
+        if not rename_ok:
+            print("G-E1 ok: regeneration is a byte-level no-op against the bundle of record")
     else:
         if not expected_deltas_path:
             for k in ("new", "gone", "changed"):
@@ -529,11 +730,13 @@ def main():
     raw = open(args.current_questions, "rb").read()
     hub = json.loads(raw)
     kept = [t for t in hub if not t["slug"].startswith(OFFICIAL_SLUG_PREFIX)]
-    official = [export_series(s, paper, topics_src(s, paper))
+    stem_ledger = load_stem_ledger()
+    official = [export_series(s, paper, topics_src(s, paper), stem_ledger)
                 for paper in PAPERS for s in PAPER_SERIES[paper]]
     out = kept + official
 
-    run_gates(out, raw, args.expected_deltas, topics_src, args.allow_new_official)
+    run_gates(out, raw, args.expected_deltas, topics_src, args.allow_new_official,
+              stem_ledger)
 
     dest = os.path.join(args.out_stage, "content", "igcse-chemistry-19")
     os.makedirs(dest, exist_ok=True)
@@ -556,22 +759,24 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.11.0 corpus (merged main): wave-14 closes the last three "
-            "honest review items, corpus review queue now empty. F48 PUA->Unicode pass: all "
-            "23 symbol-font PUA chars in the source text layer map to real Unicode from "
-            "evidence (font trace + page render per glyph - arrows, Delta x2, equilibrium, "
-            "Sigma, check, bullets, degree, times, divide, minus, bond rule); served corpus "
-            "text is PUA-free and fail-closed on unmapped chars (C56 pins absence + nine "
-            "mappings). F46 deep-indent roman MS rows: 2023-11 1C 6(c)(ii)/6(d)(ii) link "
-            "(G5 66/66), their (i)-blocks lose the absorbed rows. F47 MS-LINK-OVERRIDES "
-            "ledger: 2019-06 1C 3(d)(ii) MS-image answer cell human-adjudicated as verbatim "
-            "tick-table transcription (C52/C57). Four page anchors restored by the cleaner "
-            "text (2021-06 2C 7(c)(i), 2022-06 2C 5(c)(ii), 2025-06 2C 6(a)(ii), 2026-06 1C "
-            "7(a)(ii)). This bundle reconciles to the corpus of record on one part: "
-            "3(d)(ii) serves the verbatim transcription (the previously staged interpretive "
-            "summary + ms-image asset is superseded; sourcePage 7 restored). "
-            f"{official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} parts, all "
-            "spec-tagged (1C wave 2 + 2C wave 1).")
+            "ADR-037 converter v0.11.0 corpus (merged main): wave-15 is the UX-doctrine wave "
+            "(best experience for the learner; verbatim transcription retired as the governing "
+            "law, values still never invented). F-W15-1 stem restore: all 427 upstream stem_md "
+            "blocks now reach the learner on the question's first part - every prior export "
+            "silently dropped them; 92-entry STEM-RESTORE.json ledger (eyeballed): 26 authored "
+            "rebuilds (data tables, substance boxes, reaction flows, method steps - values "
+            "verbatim), 16 drop-tail verdicts (label runs redundant with a cropped figure), 50 "
+            "keep+tranche flags. F-W15-id: part/question ids now carry the paper code "
+            "(offp_<series>_<paper>_<part>) - offp_<series>_<part> collided 631x across "
+            "1C/2C/1CR/2CR of the same series, cross-wiring saved MCQ answers and typed drafts "
+            "between papers of the same series. F-W15-2 MS-furniture tails stripped "
+            "(Question/Answer Notes Marks grid headers). F-W15-3 PDF hard-wrap reflow in "
+            "solutionMd/markPoints. F-W15-4 stub note rewritten learner-facing (the wave-13 "
+            "crop queue it referenced is settled). Core bridge unaffected (joins by "
+            "topicSlug+order, verified ADR-029). Wave-15b backlog (ledger tranche flags): ~28 "
+            "stem figures/tables to crop, 9 formulae letter-runs. "
+            f"{official_n} official sets (16x1C + 16x2C + R-variants), {n_q} questions, {n_p} parts, all "
+            "spec-tagged.")
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())

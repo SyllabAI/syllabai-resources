@@ -376,3 +376,27 @@ Converter + gates G0–G6 + negative controls N1–N3; verbatim 5-gram gate; pos
 MS linkage; MCQ keying from MS answer text; page-anchored asset stubs; spec seeds
 validated against the SME spec-point resolution registry.
 Result: 10 questions, 64 parts, 110/110 marks, G0–G6 PASS, 6/6 MCQ keyed, NC 3/3.
+
+## 0.11.0 — 2026-10-22 · exporter v5 (wave 19): the UX-doctrine wave (F53–F56)
+
+Doctrine of record changed by the operator: best learner experience governs; verbatim
+transcription retired as the constraint (values still never invented). Exporter-only wave —
+converter stays 0.11.0-era; zero corpus changes; 63 corpus canaries untouched.
+
+- **F53 stem restore**: all 427 upstream `stem_md` blocks now reach the learner on the
+  question's first part (every prior export silently dropped them — the largest official-vs-SME
+  rendering gap). Eyeballed per-question ledger `Official-ExamQuestion/STEM-RESTORE.json`
+  (26 authored rebuilds with verbatim values, 16 redundant-label drops, 50 tranche flags);
+  mechanical cleaning (control chars, bullet/step reflow) + splice-guard (16 converter-folded
+  stems skipped).
+- **F54 id-collision fix**: official part/question ids carry the paper code
+  (`offp_<series>_<paper>_<part>`) — the old scheme collided 631× across the papers of a
+  series and cross-wired saved learner answers. Full rename map disclosed per slug
+  (`scripts/exporter-disclosures/2026-10-22-wave19-ux-stems.json`); the verify harness
+  gate_e1 now walks disclosed renames through the lattice (unrenamed drift still refuses).
+- **F55 furniture strip**: trailing MS answer-grid header lines are stripped from
+  solutionMd/markPoints at export (21 carriers corpus-wide).
+- **F56 stub note**: crop-required figure line rewritten learner-facing (the "queued for
+  verification" queue it referenced was settled in v0.10.1).
+- Retired in review: reflow of PDF hard-wraps (render-identical under react-markdown soft
+  breaks; disturbed the wave-14 verbatim pins).

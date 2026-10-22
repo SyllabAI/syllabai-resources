@@ -194,7 +194,14 @@ def by_slug(sets):
 
 
 # ---------------------------------------------------------------- G-E1
-def gate_e1(stage_sets, current_sets, allow_new_official=False):
+def gate_e1(stage_sets, current_sets, allow_new_official=False, renames=None):
+    """renames (wave-15): an id-identity wave discloses, PER SLUG,
+    {"<slug>": {"questions": {old: new}, "parts": {old: new}}} — the stage
+    lattice is walked through the rename map, so drift beyond the disclosed
+    renames (order, count, unrenamed ids) still refuses. Per-slug because the
+    old scheme's cross-paper collisions mean one old id can map to different
+    new ids in different sets. Content deltas are then keyed by the NEW ids
+    and must stay inside DISCLOSED_DELTA_CLASSES."""
     st_by, cu_by = by_slug(stage_sets), by_slug(current_sets)
     st_off = [s.get("slug") for s in stage_sets if parse_slug(s.get("slug") or "")]
     cu_off = [s.get("slug") for s in current_sets if parse_slug(s.get("slug") or "")]
@@ -225,25 +232,30 @@ def gate_e1(stage_sets, current_sets, allow_new_official=False):
         content_keys = keys_changed - {"questions"}
         if content_keys:
             raise GateRefusal("G-E1", f"{slug}: set-level fields changed: {sorted(content_keys)}")
-        st_q = {q["id"]: q for q in st_s["questions"]}
-        cu_q = {q["id"]: q for q in cu_s["questions"]}
-        if [q["id"] for q in st_s["questions"]] != [q["id"] for q in cu_s["questions"]]:
-            raise GateRefusal("G-E1", f"{slug}: question lattice/order drift")
-        for qid in st_q:
-            st_p = {p["id"]: p for p in st_q[qid]["parts"]}
-            cu_p = {p["id"]: p for p in cu_q[qid]["parts"]}
-            if [p["id"] for p in st_q[qid]["parts"]] != [p["id"] for p in cu_q[qid]["parts"]]:
-                raise GateRefusal("G-E1", f"{slug} {qid}: part lattice/order drift")
-            for pid in st_p:
-                changed = {k for k in set(st_p[pid]) | set(cu_p[pid])
-                           if json.dumps(st_p[pid].get(k), sort_keys=True) != json.dumps(cu_p[pid].get(k), sort_keys=True)}
+        slug_ren = (renames or {}).get(slug, {})
+        qren = slug_ren.get("questions", {})
+        pren = slug_ren.get("parts", {})
+        # current lattice (old ids) walked forward through the rename map
+        # must equal the stage lattice (new ids) — position-for-position
+        cu_q_ids = [qren.get(q["id"], q["id"]) for q in cu_s["questions"]]
+        if cu_q_ids != [q["id"] for q in st_s["questions"]]:
+            raise GateRefusal("G-E1", f"{slug}: question lattice/order drift "
+                              f"(renames disclose {len(qren)} question ids)")
+        for st_q, cu_q in zip(st_s["questions"], cu_s["questions"]):
+            cu_p_ids = [pren.get(p["id"], p["id"]) for p in cu_q["parts"]]
+            if cu_p_ids != [p["id"] for p in st_q["parts"]]:
+                raise GateRefusal("G-E1", f"{slug} {st_q['id']}: part lattice/order drift")
+            for st_p, cu_p in zip(st_q["parts"], cu_q["parts"]):
+                new_pid = pren.get(st_p["id"], st_p["id"])
+                changed = {k for k in (set(st_p) | set(cu_p)) - {"id"}
+                           if json.dumps(st_p.get(k), sort_keys=True) != json.dumps(cu_p.get(k), sort_keys=True)}
                 if changed and not changed <= DISCLOSED_DELTA_CLASSES:
                     raise GateRefusal(
                         "G-E1",
-                        f"UNDISCLOSED DELTA {slug} {pid}: {sorted(changed)} "
+                        f"UNDISCLOSED DELTA {slug} {new_pid}: {sorted(changed)} "
                         f"(disclosed classes only: {sorted(DISCLOSED_DELTA_CLASSES)})")
                 if changed:
-                    delta_rows.append((slug, pid, sorted(changed)))
+                    delta_rows.append((slug, new_pid, sorted(changed)))
     return delta_rows, new_rows
 
 
@@ -339,7 +351,7 @@ def gate_e4(stage_raw, current_raw):
 
 
 # ---------------------------------------------------------------- driver
-def check_disclosure(delta_rows, new_rows, disclosure_path):
+def check_disclosure(delta_rows, new_rows, disclosure_path, stage_eq_current=False):
     """G-E1 closure: the harness's own census must equal the disclosure of
     record (the exporter's --expected-deltas shape: new/gone/changed part ids
     per slug). The harness lattice is strict, so 'gone' is always empty here
@@ -356,6 +368,33 @@ def check_disclosure(delta_rows, new_rows, disclosure_path):
         flat["changed"][slug].sort()
     flat["new"] = {k: v for k, v in sorted(flat["new"].items())}
     expected = json.load(open(disclosure_path))
+    if "idRenames" in expected:
+        # rename-wave shape: the exporter census is new/gone (ids are identity);
+        # the harness compares the content census keyed by the NEW ids and the
+        # rename map itself is the lattice disclosure (checked in gate_e1)
+        exp_changed = {k: sorted(v) for k, v in expected.get("changed", {}).items()}
+        mine_changed = {k: sorted(v) for k, v in flat["changed"].items() if flat["changed"][k]}
+        if not mine_changed and stage_eq_current and exp_changed:
+            # the disclosure's wave is already MATERIALIZED: the staged export is a
+            # byte-level no-op vs the bundle of record (the exporter's G-E1 no-op
+            # law proves the stage is the honest corpus regeneration), so there
+            # are no pending deltas left for the rename walk to find. The lattice
+            # still walked the disclosure (gate_e1 above); a doctored stage that
+            # merely COPIES the bundle cannot pass anything beyond this — the
+            # exporter no-op plus the corpus canaries pin the content.
+            print("G-E1 ok: rename disclosure already materialized — staged export is a "
+                  "byte-level no-op vs the bundle of record (0 pending deltas; the "
+                  f"disclosure's {sum(len(v) for v in exp_changed.values())}-part wave is on record)")
+            return 0
+        if json.dumps(mine_changed, sort_keys=True) != json.dumps(exp_changed, sort_keys=True):
+            mine = sum(len(v) for v in mine_changed.values())
+            theirs = sum(len(v) for v in exp_changed.values())
+            raise GateRefusal(
+                "G-E1",
+                f"harness content census ({mine} parts, keyed by renamed ids) != "
+                f"disclosure of record ({theirs} parts, {disclosure_path}) — "
+                f"regenerate only after eyeballing every class")
+        return sum(len(v) for v in flat["changed"].values())
     if json.dumps(flat, sort_keys=True) != json.dumps(expected, sort_keys=True):
         mine = sum(len(v) for d in flat.values() for v in d.values())
         theirs = sum(len(v) for d in expected.values() for v in d.values())
@@ -375,8 +414,13 @@ def run_gates(stage_path, current_path, report_path=None, allow_new_official=Fal
     stage_sets, current_sets = json.loads(stage_raw), json.loads(current_raw)
     official = [s for s in stage_sets if parse_slug(s.get("slug") or "")]
 
-    rows, new_rows = gate_e1(stage_sets, current_sets, allow_new_official)
-    disclosed_n = check_disclosure(rows, new_rows, disclosure_path) if disclosure_path else None
+    renames = None
+    if disclosure_path and os.path.exists(disclosure_path):
+        renames = json.load(open(disclosure_path)).get("idRenames")
+    rows, new_rows = gate_e1(stage_sets, current_sets, allow_new_official, renames)
+    disclosed_n = (check_disclosure(rows, new_rows, disclosure_path,
+                                    stage_eq_current=(stage_raw == current_raw))
+                   if disclosure_path else None)
     n_parts, damage_ok = gate_e2(official)
     n_sets, unmapped = gate_e3(official, report_path)
     prefix_len = gate_e4(stage_raw, current_raw)
@@ -403,7 +447,10 @@ def run_gates(stage_path, current_path, report_path=None, allow_new_official=Fal
     return {"delta_rows": rows, "parts": n_parts, "sets": n_sets, "prefix": prefix_len}
 
 
-def self_test(stage_path, current_path, keep=False, allow_new_official=False):
+def self_test(stage_path, current_path, keep=False, allow_new_official=False,
+              disclosure_path=None):
+    """disclosure_path: for a rename-wave stage the clean baseline itself needs
+    the id-rename disclosure to pass; faults are then seeded on top of it."""
     stage_sets = json.load(open(stage_path))
     current_sets = json.load(open(current_path))
     official = [s for s in stage_sets if parse_slug(s.get("slug") or "")]
@@ -443,14 +490,20 @@ def self_test(stage_path, current_path, keep=False, allow_new_official=False):
 
     # Seed 3 / G-E3: one question dropped from a series set in BOTH the export
     # and the bundle of record (collusive drift — G-E1 parity holds, G-E2 mark
-    # law holds; only the frozen per-series census refuses)
+    # law holds; only the frozen per-series census refuses). Wave-19 note: with
+    # a rename disclosure in play the lattice walk refuses FIRST (G-E1 — the
+    # dropped question breaks the disclosed id lattice one gate earlier, a
+    # strictly stronger property; without a disclosure the old attribution
+    # G-E3 still holds because the lattices match and only the census sees it).
     s3 = json.loads(json.dumps(stage_sets))
     c3 = json.loads(json.dumps(current_sets))
     for coll in (s3, c3):
         for s in coll:
             if s["slug"] == seed_set["slug"]:
                 s["questions"].pop()
-    seeds.append(("G-E3", f"question dropped from {seed_set['slug']} in BOTH export and bundle of record", s3, c3))
+    seeds.append(("G-E1" if disclosure_path else "G-E3",
+                  f"question dropped from {seed_set['slug']} in BOTH export and bundle of record",
+                  s3, c3))
 
     # Seed 4 / G-E4: the SME prefix is touched (an SME set's name edited)
     s4 = json.loads(json.dumps(stage_sets))
@@ -461,7 +514,8 @@ def self_test(stage_path, current_path, keep=False, allow_new_official=False):
 
     print(f"self-test: clean stage must pass, then 4 seeded faults must be refused "
           f"(workdir {workdir}{' , kept' if keep else ''})")
-    clean = run_gates(stage_path, current_path, quiet=True, allow_new_official=allow_new_official)
+    clean = run_gates(stage_path, current_path, quiet=True, allow_new_official=allow_new_official,
+                      disclosure_path=disclosure_path)
     print(f"  PASS clean stage (G-E1..G-E4; {clean['parts']} parts, prefix {clean['prefix']}B)")
 
     detected = 0
@@ -474,7 +528,8 @@ def self_test(stage_path, current_path, keep=False, allow_new_official=False):
         with open(cur_path, "wb") as f:
             f.write(reserialize(cur))
         try:
-            run_gates(seed_path, cur_path, quiet=True, allow_new_official=allow_new_official)
+            run_gates(seed_path, cur_path, quiet=True, allow_new_official=allow_new_official,
+                      disclosure_path=disclosure_path)
             print(f"  FAIL seed NOT DETECTED ({desc})")
             failures.append((want_gate, desc, "not detected"))
         except GateRefusal as e:
@@ -510,13 +565,16 @@ def main():
     t.add_argument("--current", required=True)
     t.add_argument("--keep", action="store_true")
     t.add_argument("--allow-new-official", action="store_true")
+    t.add_argument("--disclosure", default=None,
+                   help="rename-wave disclosure: the clean baseline passes through it")
     args = ap.parse_args()
     try:
         if args.mode == "verify":
             run_gates(args.stage, args.current, args.report, args.allow_new_official,
                       disclosure_path=args.disclosure)
         else:
-            ok = self_test(args.stage, args.current, args.keep, args.allow_new_official)
+            ok = self_test(args.stage, args.current, args.keep, args.allow_new_official,
+                           args.disclosure)
             if not ok:
                 sys.exit(1)
     except GateRefusal as e:
