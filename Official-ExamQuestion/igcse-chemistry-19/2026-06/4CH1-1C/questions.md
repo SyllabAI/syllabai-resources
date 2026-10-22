@@ -55,7 +55,7 @@ What is the formula of the carbonate ion?
 
 ### 1(c) [2]
 
-Explain why ammonium carbonate is a compound. 
+Explain why ammonium carbonate is a compound.
 
 
 **Mark scheme answer**
@@ -188,7 +188,7 @@ Calculate the amount, in moles, of 0.25 g of sodium. Give your answer to two sig
 
 ### 2(a)(iv) [2]
 
-The teacher adds a piece of potassium of mass 0.25 g to a different trough of water. Explain whether the volume of hydrogen produced in the reaction with potassium would be more than, less than or the same as the volume of hydrogen produced in the reaction with sodium. 
+The teacher adds a piece of potassium of mass 0.25 g to a different trough of water. Explain whether the volume of hydrogen produced in the reaction with potassium would be more than, less than or the same as the volume of hydrogen produced in the reaction with sodium.
 
 
 **Mark scheme answer**
@@ -289,7 +289,7 @@ Give the test for oxygen gas.
 
 ### 3(d) [2]
 
-Explain what is meant by the term catalyst. 
+Explain what is meant by the term catalyst.
 
 
 **Mark scheme answer**
@@ -320,7 +320,7 @@ Plot the student’s results on grid 1.
 
 ### 3(e)(ii) [1]
 
-Draw a curve of best fit. 120 100 Volume of oxygen 60 in cm3 0 20 40 60 80 100 120 Time in s Grid 1 
+Draw a curve of best fit. 120 100 Volume of oxygen 60 in cm3 0 20 40 60 80 100 120 Time in s Grid 1
 
 ![grid — official paper figure (qp.pdf p.11) — shared with asset_3_e_grid_stem](assets/asset_3_e_grid_stem.png)
 
@@ -388,7 +388,7 @@ Explain why isoprene is a hydrocarbon.
 
 ### 4(b) [3]
 
-Isoprene has this percentage composition by mass. C = 88.2 % H = 11.8 % Show by calculation that the empirical formula of isoprene is C5H8 
+Isoprene has this percentage composition by mass. C = 88.2 % H = 11.8 % Show by calculation that the empirical formula of isoprene is C5H8
 
 
 **Mark scheme answer**
@@ -419,7 +419,7 @@ Explain why isoprene does not have the same general formula as propene.
 
 ### 4(d) [3]
 
-This is the equation for the complete combustion of isoprene. C5H8 + 7O2 → 5CO2 + 4H2O Calculate the amount, in moles, of carbon dioxide produced when 50 g of isoprene undergoes complete combustion. amount = mol 
+This is the equation for the complete combustion of isoprene. C5H8 + 7O2 → 5CO2 + 4H2O Calculate the amount, in moles, of carbon dioxide produced when 50 g of isoprene undergoes complete combustion. amount = mol
 
 
 **Mark scheme answer**
@@ -470,7 +470,7 @@ Crude oil is a mixture of hydrocarbons.
 
 ### 5(a) [6]
 
-Describe how useful hydrocarbons can be obtained from crude oil. Refer to fractional distillation and cracking in your answer. 
+Describe how useful hydrocarbons can be obtained from crude oil. Refer to fractional distillation and cracking in your answer.
 
 
 **Mark scheme answer**
@@ -583,7 +583,7 @@ Draw a dot‑and‑cross diagram to show the outer shell electrons in a molecule
 
 ### 6(c) [2]
 
-Ethane has a boiling point of –89°C. Describe the arrangement and movement of particles of ethane at 25°C. 
+Ethane has a boiling point of –89°C. Describe the arrangement and movement of particles of ethane at 25°C.
 
 
 **Mark scheme answer**
@@ -673,7 +673,7 @@ Explain why ethane does not have any isomers.
 
 
 ## Question 7 (13 marks)
-**(a)** Anhydrous copper(II) sulfate reacts with water to produce hydrated copper(II) sulfate. This is the equation for the reaction. CuSO4 + xH2O  CuSO4.xH2O
+**(a)** Anhydrous copper(II) sulfate reacts with water to produce hydrated copper(II) sulfate. This is the equation for the reaction. CuSO4 + xH2O ⇌ CuSO4.xH2O
 
 **(b)** Hydrated copper(II) sulfate crystals can also be made by reacting copper(II) oxide with dilute sulfuric acid.
 
@@ -690,7 +690,7 @@ A student does an experiment and determines that 1.75 mol of CuSO4 reacts with 5
 
 ### 7(a)(ii) [1]
 
-State what the  symbol shows about this reaction.
+State what the ⇌ symbol shows about this reaction.
 
 
 **Mark scheme answer**
@@ -710,7 +710,7 @@ State what the  symbol shows about this reaction.
 
 ### 7(a)(iii) [5]
 
-Describe two experiments to show that the  symbol is correct for this reaction. Include any relevant observations. 
+Describe two experiments to show that the ⇌ symbol is correct for this reaction. Include any relevant observations.
 
 
 **Mark scheme answer**
@@ -851,7 +851,7 @@ Describe how two fluorine atoms combine to form a fluorine molecule.
 
 ### 8(b)(ii) [3]
 
-One mole of fluorine gas contains 6.0 × 1023 molecules. Calculate the number of molecules in 100 g of fluorine. Give your answer in standard form. number of molecules = 
+One mole of fluorine gas contains 6.0 × 1023 molecules. Calculate the number of molecules in 100 g of fluorine. Give your answer in standard form. number of molecules =
 
 
 **Mark scheme answer**
@@ -955,7 +955,7 @@ Give the chemical equation for the reaction that occurs in beaker 1.
 
 ### 9(a)(iii) [2]
 
-Explain which species is the oxidising agent in beaker 1. 
+Explain which species is the oxidising agent in beaker 1.
 
 
 **Mark scheme answer**

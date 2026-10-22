@@ -127,7 +127,7 @@ Explain the colour and pH of the solution in the trough.
 
 ### 2(c)(ii) [1]
 
-Give the formula of the ion responsible for this pH. 
+Give the formula of the ion responsible for this pH.
 
 
 **Mark scheme answer**
@@ -183,7 +183,7 @@ Explain why the start line on the paper is drawn in pencil rather than in ink.
 
 ### 3(b) [2]
 
-Explain which two inks contain the dye that is most soluble in the solvent. 
+Explain which two inks contain the dye that is most soluble in the solvent.
 
 
 **Mark scheme answer**
@@ -356,7 +356,7 @@ When butane burns completely in oxygen, carbon dioxide and water are produced. G
 
 **Mark scheme answer**
 
-> 2C4H10 + 13O2  8CO2 + 10H2O
+> 2C4H10 + 13O2 → 8CO2 + 10H2O
 > M1 all formulae correct
 > M2 balancing of correct formulae ALLOW multiples and
 > fractions
@@ -379,7 +379,7 @@ Incomplete combustion can occur when the oxygen supply is limited. One product o
 
 ### 5(b)(iii) [1]
 
-State why carbon monoxide is poisonous to humans. 
+State why carbon monoxide is poisonous to humans.
 
 
 **Mark scheme answer**
@@ -415,14 +415,14 @@ Draw the displayed formula of each isomer.
 
 > M1 H H H H Must show all bonds for
 > I I I I both M1 and M2
-> HCCCCH
+> H─C─C─C─C─H
 > I I I I
 > H H H H
 > M2 H H H
 > I I I
-> HCCCH
+> H─C──C──C─H
 > I I I
-> H HCH H
+> H H─C─H H
 > I
 > H
 
@@ -508,7 +508,7 @@ What is the correct order of reactivity of these four metals? most reactive leas
 
 ### 6(d) [2]
 
-Describe a test to show that a solution contains Fe3+ ions. test result 
+Describe a test to show that a solution contains Fe3+ ions. test result
 
 
 **Mark scheme answer**
@@ -603,7 +603,7 @@ Complete the chemical equation for this neutralisation reaction. Include the sta
 
 ### 7(b) [2]
 
-This is the student’s method. Step 1 add 50 cm3 of sodium hydroxide solution to a glass beaker Step 2 record the initial temperature of the sodium hydroxide solution Step 3 add 5 cm3 of dilute sulfuric acid to the beaker Step 4 stir the mixture and record the highest temperature reached The student repeats steps 3 and 4 until a total of 40 cm3 of acid has been added. Explain one way the student could improve the accuracy of the experiment. 
+This is the student’s method. Step 1 add 50 cm3 of sodium hydroxide solution to a glass beaker Step 2 record the initial temperature of the sodium hydroxide solution Step 3 add 5 cm3 of dilute sulfuric acid to the beaker Step 4 stir the mixture and record the highest temperature reached The student repeats steps 3 and 4 until a total of 40 cm3 of acid has been added. Explain one way the student could improve the accuracy of the experiment.
 
 
 **Mark scheme answer**
@@ -644,7 +644,7 @@ Draw a circle around the anomalous result.
 
 ### 7(c)(iii) [2]
 
-Draw a straight line of best fit through the first six points, ignoring the anomalous result. Draw another straight line of best fit through the last three points. Make sure that the two lines cross. 30.0 Temperature in C 25.0 20.0 0.0 10.0 20.0 30.0 40.0 Volume of sulfuric acid in cm3 
+Draw a straight line of best fit through the first six points, ignoring the anomalous result. Draw another straight line of best fit through the last three points. Make sure that the two lines cross. 30.0 Temperature in C 25.0 20.0 0.0 10.0 20.0 30.0 40.0 Volume of sulfuric acid in cm3
 
 
 **Mark scheme answer**
@@ -698,7 +698,7 @@ Diamond and graphite are two naturally‑occurring forms of carbon. They both ha
 
 ### 8(a) [3]
 
-Explain, with reference to its bonding, why diamond has a high melting point. 
+Explain, with reference to its bonding, why diamond has a high melting point.
 
 
 **Mark scheme answer**
@@ -780,7 +780,7 @@ Draw a dot‑and‑cross diagram of chloroethene. Show only the outer shell elec
 
 ### 9(a)(ii) [2]
 
-Describe, in terms of electrostatic attraction, what is meant by a covalent bond. 
+Describe, in terms of electrostatic attraction, what is meant by a covalent bond.
 
 
 **Mark scheme answer**
@@ -814,7 +814,7 @@ Chloroethene is a monomer. Draw the displayed formula of the repeat unit of poly
 
 ### 9(a)(iv) [4]
 
-Poly(chloroethene) is non‑biodegradable. There are two main methods used to dispose of poly(chloroethene). Describe one problem caused by each method. 1 2 
+Poly(chloroethene) is non‑biodegradable. There are two main methods used to dispose of poly(chloroethene). Describe one problem caused by each method. 1 2
 
 
 **Mark scheme answer**
@@ -891,7 +891,7 @@ A student uses this apparatus to investigate the energy content of different fue
 
 ### 10(a) [4]
 
-This is the student’s method. • pour some water into the copper can • record the mass of the spirit burner and fuel • measure the initial temperature of the water • place the spirit burner under the copper can and light the burner • stop heating the water when the temperature reaches 30°C • record the new mass of the spirit burner and fuel The student repeats the experiment with different fuels. Explain two variables the student should control to make this a valid test. 1 2 
+This is the student’s method. • pour some water into the copper can • record the mass of the spirit burner and fuel • measure the initial temperature of the water • place the spirit burner under the copper can and light the burner • stop heating the water when the temperature reaches 30°C • record the new mass of the spirit burner and fuel The student repeats the experiment with different fuels. Explain two variables the student should control to make this a valid test. 1 2
 
 
 **Mark scheme answer**
