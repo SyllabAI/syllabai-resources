@@ -244,3 +244,46 @@ served bundle PR carries a full disclosure census.
   record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — 3 honest
   non-overlaps) with `primaryPick` cross-referenced to `UGM-Enrichment/` #55. Rights
   © Cambridge/UCLES unchanged per file; takedown law unchanged. Base commit 3a1e99b.
+
+- **T-UGM-MODE1-2 — UGM mode-1 lane enrichment, Functions lane (this run)**: second
+  landing from the Underground Mathematics reverse-engineering track — P3c
+  generalisation lane 2, the hop lane 1's own cross-map pre-flagged ("parabola
+  families belong with P1 Functions (1.2) / transformations"). Cross-map of record:
+  `cross-map-functions.json` @ `syllabai-experimental` e59276be (spine export 1.2
+  rows 4a592ed0). New `UGM-Enrichment/cie-a-level-maths-20-pure-1-functions.json`,
+  schema `syllabai.ugm-spec-enrichment/1.0`, `review_state` SUGGESTED per AGENT.md
+  rule 2 (LLM-assisted alignment candidates with per-row confidence). UGM station
+  `combining-functions` (38 resources) → CIE 9709 P1 subtopic 1.2 Functions: 50
+  aligned rows over official codes 1.2.1–1.2.5 (27 of 38 station resources aligned
+  = 71.1%, threshold ≥70% met; 11 explicit non-overlaps recorded as such, incl. 2
+  interactive-only pages with no extractable text — rule 3), 5 `primaryPick`
+  markers (forming-functions-defining-domains / compose / invertibles / r9824 /
+  order-order), provenance strings preserved (24/38: 13 UCLES + 10 Oxford MAT +
+  1 NRICH). Station scope: sibling station `thinking-about-functions` intentionally
+  out of scope (modulus/asymptote/odd-even content → CIE P3 / IAL lanes). FACTS
+  ONLY: slugs/titles/types/levels/relations/provenance — no UGM text bodies; rights
+  © Cambridge/UCLES/MAT/NRICH unchanged (licensing block in-file + dir README).
+  Mode-2 deep-link rendering remains dropped (operator directive 2026-10-22,
+  recorded in `mode2Note`); the text route is the 2026-10-23 operator attestation.
+  Base commit d89c2e6b.
+
+- **T-UGM-IMPORT-2 — UGM text corpus import, Functions lane (this run)**: third
+  landing from the Underground Mathematics reverse-engineering track, extending the
+  `UGM-Resources/` corpus family to its second lane under the same operator
+  attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23 — its subject
+  is the corpus family built from the 2026-10-22 full-site crawl, so no new license
+  amendment is required). New `UGM-Resources/pure-1-functions/`: the **text bodies**
+  of the 38 combining-functions-station resources as YAML-front-matter markdown.
+  Text-only import law: math preserved byte-true in UGM's native `\( \)` / `\[ \]`
+  delimiters (build audit 1,993/1,993 inline + 235/235 block = 2,228 balanced, zero
+  files differing); UGM section structure/panel titles/provider spellings
+  preserved; the 2 interactive-only pages (`going-backwards`, `maths-for-dinner`)
+  land as honest-empty bodies with full front-matter identity; asset/interactive
+  references recorded in front-matter, NOT fetched. `MANIFEST.json` bumps to
+  **v2 (multi-lane)**: one block per lane, lane-1 file rows re-verified
+  byte-identical by re-hash at the v2 build (59/59), lane-2 38 rows fresh.
+  Spec-point mappings are the P3c lane-2 cross-map of record, landed `SUGGESTED`
+  (AGENT.md rule 2; no coverage manufactured — 11 honest non-overlaps) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-2. Rights
+  © Cambridge/UCLES/MAT/NRICH per file; takedown law unchanged. Base commit
+  d89c2e6b.

@@ -1,0 +1,947 @@
+{
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "generated_utc": "2026-10-23T12:00:00Z",
+ "task": "T-UGM-MODE1-2",
+ "course": "cie-a-level-maths-20-pure-1",
+ "qual": "cie-a-level-maths-2023-2025",
+ "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+ "board": "cambridge-cie",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. No coverage is manufactured: the 11 explicit non-overlaps are recorded as such (rule 3), including 2 interactive-only pages with no extractable text.",
+  "provenance_tier": "T2_near-equivalent: LLM-assisted alignment with recorded per-row confidence; not a verbatim join — treat as candidates, not authoritative mappings"
+ },
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-functions.json",
+  "commit": "e59276be (cross-map lane 2) / 4a592ed0 (spine export 1.2 rows)",
+  "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped by operator directive 2026-10-22 before implementation; direct text import under the operator attestation of 2026-10-23",
+  "method": "Phase-3c generalisation lane 2 (per cross-map-quadratics.md §8): station combining-functions -> CIE 9709 P1 subtopic 1.2 Functions. Same method as lane 1 — each resource aligned by reading its question well / task statement against the of-record spine wording; one-to-many; never forced.",
+  "lane1Sibling": "UGM-Enrichment/cie-a-level-maths-20-pure-1-quadratics.json (T-UGM-MODE1-1, syllabai-resources#55)",
+  "stationScope": "Sibling station thinking-about-functions (23 resources) is intentionally out of scope for 1.2: its modulus/asymptote/odd-even content serves CIE P3/IAL lanes. Lane 2 draws on combining-functions only, matching the one-station-per-lane shape of lane 1."
+ },
+ "licensing": {
+  "law": "FACTS-ONLY: this file carries UGM metadata (slugs, titles, resource types, levels, relations, confidence, provenance strings) — NO Underground Mathematics text bodies, question content, suggestions, solutions, or teacher-support content",
+  "rights": "UGM content (c) University of Cambridge; sourced exam questions (c) UCLES / Oxford MAT / NRICH per row; no licence for content reuse exists; provenance strings are quotations of UGM's own acknowledgement metadata (facts)",
+  "takedown": "per repo LICENSE-DATA.md pattern: issue on this repo; affected rows removed promptly"
+ },
+ "coverage": {
+  "ugmResourcesConsidered": 38,
+  "aligned": 27,
+  "nonOverlap": 11,
+  "alignedShare": 0.711,
+  "withExamProvenance": 24,
+  "alignmentRows": 50,
+  "perSpecPointCounts": {
+   "1.2.1": 11,
+   "1.2.2": 17,
+   "1.2.3": 10,
+   "1.2.4": 3,
+   "1.2.5": 9
+  },
+  "specPointsCovered": [
+   "1.2.1",
+   "1.2.2",
+   "1.2.3",
+   "1.2.4",
+   "1.2.5"
+  ]
+ },
+ "mode2Note": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar. Mode-2 (deep-link rendering on lane pages) was dropped by operator directive 2026-10-22 before any implementation — these rows land as data/facts only (mode 1). Text bodies of this station ship separately under the 2026-10-23 operator attestation (T-UGM-IMPORT-2, UGM-Resources/pure-1-functions/).",
+ "perSpecPoint": {
+  "1.2.1": {
+   "officialCode": "1.2.1",
+   "officialText": "understand the terms function, domain, range, one-one function, inverse function and composition of functions",
+   "ugmStation": "combining-functions",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resourceCount": 11,
+   "primaryPick": "forming-functions-defining-domains",
+   "resources": [
+    {
+     "ugmSlug": "r9527",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Canonical composition builder: fg vs gf order, powers f^i, all forms yielding 4x+4, f^i g f^j g^k.",
+     "provenance": "Oxford (MAT) 2012 Q['Q2']",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5362",
+     "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5362",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Range of |x+[x]|; one-one question; inverse of a restricted mapping. Floor function is an extension beyond P1 \"simple cases\".",
+     "provenance": "UCLES 1979 Q['Q1'] [848/0]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7607",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Ranges of log_a x and 1/x; f∘g with h(x)+f(x)=0; why g∘f needs a restricted domain (the composite-formation condition); define both inverses fully. log/exp vocabulary sits in 9709 P2/P3 — the range/composition/inverse skills are exactly 1.2.x.",
+     "provenance": "UCLES 1981 Q['Q4'] [9202/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5764",
+     "title": "Can we sketch the graph of $g \\colon x \\to x - [x]$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5764",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Ranges of [x] and x-[x]; sketch; solve f(x)=g(x) and fg(x)=gf(x). Floor function beyond P1 routine.",
+     "provenance": "UCLES 1976 Q['Q2'] [848/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5966",
+     "title": "Can we work with the domain, codomain and range of a bijection?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5966",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Domain/codomain/range/bijective vocabulary; range of f and of g∘f; bijectivity <-> inverse existence. phi/psi cycle extends beyond P1 routine.",
+     "provenance": "UCLES 1980 Q['Q3'] [9202/2]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "compose",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "package-of-problems",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Largest domain/range for A-D, then decompose composite functions — composition fluency package (pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "composing-gets-me-nowhere",
+     "title": "Composing gets me nowhere",
+     "url": "https://undergroundmathematics.org/combining-functions/composing-gets-me-nowhere",
+     "resourceType": "building-blocks",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "ff(x)=x self-composition; self-inverse naming and examples — inverse fluency extension.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "domain-and-range-dominoes",
+     "title": "Domain and range dominoes",
+     "url": "https://undergroundmathematics.org/combining-functions/domain-and-range-dominoes",
+     "resourceType": "fluency-exercise",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Describe domain/range in words then notation (domino fluency; pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "forming-functions-defining-domains",
+     "title": "Forming functions — defining domains",
+     "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains",
+     "resourceType": "building-blocks",
+     "level": "Introducing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Function = domain + rule + range; choose domains, state ranges, sketch; largest possible domain. Canonical 1.2.1 builder.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "invertibles",
+     "title": "Invertibles",
+     "url": "https://undergroundmathematics.org/combining-functions/invertibles",
+     "resourceType": "building-blocks",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Match functions with their inverses (incl. domain-restricted quadratics <-> surds, fractional forms) and with graphs; draw inverse graphs. Card-sort pattern exemplar.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "making-inverse-functions",
+     "title": "Making inverse functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions",
+     "resourceType": "scaffolded-task",
+     "level": "Introducing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Function-machine inversion of f(x)=2x+1, then algebraic rearranging — scaffolded 1.2.3 intro (pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.2.2": {
+   "officialCode": "1.2.2",
+   "officialText": "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+   "ugmStation": "combining-functions",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resourceCount": 17,
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "r7553",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Composition/iteration of polynomial functions f_n(f_n(...)); the maximum-value part rides P1 1.1 quadratics.",
+     "provenance": "Oxford (MAT) 2007 Q['Q2']",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9527",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Canonical composition builder: fg vs gf order, powers f^i, all forms yielding 4x+4, f^i g f^j g^k.",
+     "provenance": "Oxford (MAT) 2012 Q['Q2']",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5362",
+     "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5362",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Range of |x+[x]|; one-one question; inverse of a restricted mapping. Floor function is an extension beyond P1 \"simple cases\".",
+     "provenance": "UCLES 1979 Q['Q1'] [848/0]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5646",
+     "title": "Can we find an inverse and sketch a modulus function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5646",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Find f⁻¹ for f:x->1/(3-2x); ff(2); self-mapping values. The |x^2-4x+3| sketch part is modulus-graph work beyond P1 1.2 (P2/P3 territory).",
+     "provenance": "UCLES 1989 Q['Q17'] [8175/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8028",
+     "title": "Can we find the inverse of a function in three parts?",
+     "url": "https://undergroundmathematics.org/combining-functions/r8028",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Range of a three-part function, sketch, inverse relation and whether it is a function (one-one reasoning). Piecewise form extends \"simple cases\".",
+     "provenance": "UCLES 1972 Q['Q2'] [848/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7607",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Ranges of log_a x and 1/x; f∘g with h(x)+f(x)=0; why g∘f needs a restricted domain (the composite-formation condition); define both inverses fully. log/exp vocabulary sits in 9709 P2/P3 — the range/composition/inverse skills are exactly 1.2.x.",
+     "provenance": "UCLES 1981 Q['Q4'] [9202/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5595",
+     "title": "Can we sketch and describe these composite functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5595",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Sketch and describe f, gf, fg (e^x and x-1); the shifted-graph relationships read as translations. e^x vocabulary is P2/P3 in CIE.",
+     "provenance": "UCLES 1986 Q['Q13'] [9205/1 and 9206/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5764",
+     "title": "Can we sketch the graph of $g \\colon x \\to x - [x]$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5764",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Ranges of [x] and x-[x]; sketch; solve f(x)=g(x) and fg(x)=gf(x). Floor function beyond P1 routine.",
+     "provenance": "UCLES 1976 Q['Q2'] [848/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9824",
+     "title": "Can we sketch the inverse of this composite function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9824",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Define fg and f⁻¹; state the relationship between the graphs of f and fg and of f and f⁻¹ (mirror line); prove hf is not one-one. ln vocabulary is P2/P3 in CIE.",
+     "provenance": "UCLES 1988 Q['Q16'] [9205/1 and 9206/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5966",
+     "title": "Can we work with the domain, codomain and range of a bijection?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5966",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Domain/codomain/range/bijective vocabulary; range of f and of g∘f; bijectivity <-> inverse existence. phi/psi cycle extends beyond P1 routine.",
+     "provenance": "UCLES 1980 Q['Q3'] [9202/2]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "compose",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "package-of-problems",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Largest domain/range for A-D, then decompose composite functions — composition fluency package (pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "composing-gets-me-nowhere",
+     "title": "Composing gets me nowhere",
+     "url": "https://undergroundmathematics.org/combining-functions/composing-gets-me-nowhere",
+     "resourceType": "building-blocks",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "ff(x)=x self-composition; self-inverse naming and examples — inverse fluency extension.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "domain-and-range-dominoes",
+     "title": "Domain and range dominoes",
+     "url": "https://undergroundmathematics.org/combining-functions/domain-and-range-dominoes",
+     "resourceType": "fluency-exercise",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Describe domain/range in words then notation (domino fluency; pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6735",
+     "title": "For which $x$-values does a function equal its inverse?",
+     "url": "https://undergroundmathematics.org/combining-functions/r6735",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "f⁻¹ and ff for f:x->1/(x+1); solve f=f⁻¹ and f=ff (both reduce to x^2+x-1=0). f=f⁻¹ invites the y=x mirror-line reading.",
+     "provenance": "UCLES 1979 Q['Q10'] [986/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "forming-functions-defining-domains",
+     "title": "Forming functions — defining domains",
+     "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains",
+     "resourceType": "building-blocks",
+     "level": "Introducing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Function = domain + rule + range; choose domains, state ranges, sketch; largest possible domain. Canonical 1.2.1 builder.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8411",
+     "title": "When does this trig function have its maximum value?",
+     "url": "https://undergroundmathematics.org/combining-functions/r8411",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Greatest value of (3sin^2(10x+11)-7)^2 by inner->outer bounding — composite-range technique; the inner bounds come from P1 1.5.4.",
+     "provenance": "Oxford (MAT) 2007 Q['Q1B']",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9523",
+     "title": "Which of these function statements are true?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9523",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "note": "True/false including the fg-order misconception (f:x^2, g:x^3 gives fg=x^6, not x^5); the implication-logic items sit beyond 1.2.",
+     "provenance": "UCLES 1979 Q['Q9'] [986/2]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.2.3": {
+   "officialCode": "1.2.3",
+   "officialText": "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+   "ugmStation": "combining-functions",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resourceCount": 10,
+   "primaryPick": "invertibles",
+   "resources": [
+    {
+     "ugmSlug": "r5362",
+     "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5362",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Range of |x+[x]|; one-one question; inverse of a restricted mapping. Floor function is an extension beyond P1 \"simple cases\".",
+     "provenance": "UCLES 1979 Q['Q1'] [848/0]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5646",
+     "title": "Can we find an inverse and sketch a modulus function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5646",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Find f⁻¹ for f:x->1/(3-2x); ff(2); self-mapping values. The |x^2-4x+3| sketch part is modulus-graph work beyond P1 1.2 (P2/P3 territory).",
+     "provenance": "UCLES 1989 Q['Q17'] [8175/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8028",
+     "title": "Can we find the inverse of a function in three parts?",
+     "url": "https://undergroundmathematics.org/combining-functions/r8028",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Range of a three-part function, sketch, inverse relation and whether it is a function (one-one reasoning). Piecewise form extends \"simple cases\".",
+     "provenance": "UCLES 1972 Q['Q2'] [848/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7607",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Ranges of log_a x and 1/x; f∘g with h(x)+f(x)=0; why g∘f needs a restricted domain (the composite-formation condition); define both inverses fully. log/exp vocabulary sits in 9709 P2/P3 — the range/composition/inverse skills are exactly 1.2.x.",
+     "provenance": "UCLES 1981 Q['Q4'] [9202/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9824",
+     "title": "Can we sketch the inverse of this composite function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9824",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Define fg and f⁻¹; state the relationship between the graphs of f and fg and of f and f⁻¹ (mirror line); prove hf is not one-one. ln vocabulary is P2/P3 in CIE.",
+     "provenance": "UCLES 1988 Q['Q16'] [9205/1 and 9206/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5966",
+     "title": "Can we work with the domain, codomain and range of a bijection?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5966",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Domain/codomain/range/bijective vocabulary; range of f and of g∘f; bijectivity <-> inverse existence. phi/psi cycle extends beyond P1 routine.",
+     "provenance": "UCLES 1980 Q['Q3'] [9202/2]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "composing-gets-me-nowhere",
+     "title": "Composing gets me nowhere",
+     "url": "https://undergroundmathematics.org/combining-functions/composing-gets-me-nowhere",
+     "resourceType": "building-blocks",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "ff(x)=x self-composition; self-inverse naming and examples — inverse fluency extension.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6735",
+     "title": "For which $x$-values does a function equal its inverse?",
+     "url": "https://undergroundmathematics.org/combining-functions/r6735",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "f⁻¹ and ff for f:x->1/(x+1); solve f=f⁻¹ and f=ff (both reduce to x^2+x-1=0). f=f⁻¹ invites the y=x mirror-line reading.",
+     "provenance": "UCLES 1979 Q['Q10'] [986/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "invertibles",
+     "title": "Invertibles",
+     "url": "https://undergroundmathematics.org/combining-functions/invertibles",
+     "resourceType": "building-blocks",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Match functions with their inverses (incl. domain-restricted quadratics <-> surds, fractional forms) and with graphs; draw inverse graphs. Card-sort pattern exemplar.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "making-inverse-functions",
+     "title": "Making inverse functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions",
+     "resourceType": "scaffolded-task",
+     "level": "Introducing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Function-machine inversion of f(x)=2x+1, then algebraic rearranging — scaffolded 1.2.3 intro (pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.2.4": {
+   "officialCode": "1.2.4",
+   "officialText": "illustrate in graphical terms the relation between Sketches should include an indication of the mirror a one-one function and its inverse line",
+   "ugmStation": "combining-functions",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resourceCount": 3,
+   "primaryPick": "r9824",
+   "resources": [
+    {
+     "ugmSlug": "r9824",
+     "title": "Can we sketch the inverse of this composite function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9824",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Define fg and f⁻¹; state the relationship between the graphs of f and fg and of f and f⁻¹ (mirror line); prove hf is not one-one. ln vocabulary is P2/P3 in CIE.",
+     "provenance": "UCLES 1988 Q['Q16'] [9205/1 and 9206/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r6735",
+     "title": "For which $x$-values does a function equal its inverse?",
+     "url": "https://undergroundmathematics.org/combining-functions/r6735",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "f⁻¹ and ff for f:x->1/(x+1); solve f=f⁻¹ and f=ff (both reduce to x^2+x-1=0). f=f⁻¹ invites the y=x mirror-line reading.",
+     "provenance": "UCLES 1979 Q['Q10'] [986/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "invertibles",
+     "title": "Invertibles",
+     "url": "https://undergroundmathematics.org/combining-functions/invertibles",
+     "resourceType": "building-blocks",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Match functions with their inverses (incl. domain-restricted quadratics <-> surds, fractional forms) and with graphs; draw inverse graphs. Card-sort pattern exemplar.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.2.5": {
+   "officialCode": "1.2.5",
+   "officialText": "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these.",
+   "ugmStation": "combining-functions",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resourceCount": 9,
+   "primaryPick": "order-order",
+   "resources": [
+    {
+     "ugmSlug": "r7119",
+     "title": "Can we identify the right sketch of a transformed function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7119",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Identify the sketch of y=-f(x+1): translation then reflection — exactly the 1.2.5 vocabulary.",
+     "provenance": "Oxford (MAT) Q['Q1B'] [Specimen 2]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5595",
+     "title": "Can we sketch and describe these composite functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5595",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Sketch and describe f, gf, fg (e^x and x-1); the shifted-graph relationships read as translations. e^x vocabulary is P2/P3 in CIE.",
+     "provenance": "UCLES 1986 Q['Q13'] [9205/1 and 9206/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9673",
+     "title": "How do these transformations change the graph of $f(x)$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9673",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Sketch y=f(x)+2, y=f(x+2), y=f(2x) tracking the maximum point — the spec list verbatim.",
+     "provenance": "UCLES 1988 Q['Q6'] [9205/1 and 9206/1]",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "its-a-matter-of-perspective",
+     "title": "It's a matter of perspective",
+     "url": "https://undergroundmathematics.org/combining-functions/its-a-matter-of-perspective",
+     "resourceType": "bigger-picture",
+     "level": "Developing",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Animated translation thinking on a parabola (GeoGebra applet; interactive recorded, not fetched).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "name-that-graph-again",
+     "title": "Name that graph again",
+     "url": "https://undergroundmathematics.org/combining-functions/name-that-graph-again",
+     "resourceType": "food-for-thought",
+     "level": "Developing",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Parabola equation via the parent/transformed (red/blue) reading; the equation-finding approaches ride 1.1/1.3.",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "order-order",
+     "title": "Order! Order!",
+     "url": "https://undergroundmathematics.org/combining-functions/order-order",
+     "resourceType": "investigation",
+     "level": "Introducing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Sketch transformed graphs for translations (-2,0)/(0,-4) and stretches x3 // x, 1/2 // y; write equations in terms of f. Investigation covering the full 1.2.5 list (pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "transformers",
+     "title": "Transformers",
+     "url": "https://undergroundmathematics.org/combining-functions/transformers",
+     "resourceType": "many-ways-problem",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Sort 12 curve cards into transformation categories (translations/reflections/stretches) — many-ways-problem classification (pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "translating-or-not",
+     "title": "Translating or not?",
+     "url": "https://undergroundmathematics.org/combining-functions/translating-or-not",
+     "resourceType": "package-of-problems",
+     "level": "Developing",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "y=1/(x+a) and y=1/(x^2+a) parameter study: genuine translations vs lookalikes (non-example design; pattern exemplar).",
+     "provenance": null,
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6607",
+     "title": "Which transformations give us the graph of $y=2^{x^2-4x+3}$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r6607",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Reach y=2^(x^2-4x+3) from y=2^(x^2) by stretch + translation — \"simple combinations of these\" verbatim. 2^x vocabulary is P2/P3 in CIE.",
+     "provenance": "Oxford (MAT) 2014 Q['Q1I']",
+     "hasTeacherSupport": false,
+     "primaryPick": false
+    }
+   ]
+  }
+ },
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "r5868",
+   "title": "Can we identify the right sketch graph of this reciprocal function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5868",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: reciprocal-graph sketch via completing the square — rides 1.1.1/quadratics and curve sketching; the range work exceeds P1 1.2 \"simple cases\"."
+  },
+  {
+   "ugmSlug": "r8749",
+   "title": "Can we identify the right sketch of a product of functions?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8749",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: product of functions (2^-x sin^2 x^2) with trig beyond P1 — arithmetic combination, not composition/transformations."
+  },
+  {
+   "ugmSlug": "r6656",
+   "title": "Can we pick the graph of $y=\\sin^2{\\sqrt{x}}$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r6656",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: graph identification via trig behaviour of sin^2(sqrt x); composite structure noted, but the tested skill is trig beyond P1."
+  },
+  {
+   "ugmSlug": "r8427",
+   "title": "Can we sketch these four related curves?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8427",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: rational + modulus curve sketching with asymptotes — |f(x)| is not in the P1 1.2.5 transformation list."
+  },
+  {
+   "ugmSlug": "r6653",
+   "title": "Can we solve this equation with a sum of square roots?",
+   "url": "https://undergroundmathematics.org/combining-functions/r6653",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: surds-equation solving via curve sketching; rides P1 surds/quadratics work, not 1.2.x."
+  },
+  {
+   "ugmSlug": "function-builder-i",
+   "title": "Function builder I",
+   "url": "https://undergroundmathematics.org/combining-functions/function-builder-i",
+   "resourceType": "fluency-exercise",
+   "reason": "NON-OVERLAP for this lane: sums/products of functions (function algebra) — not a P1 1.2 mode of combination; the sketching rides 1.1."
+  },
+  {
+   "ugmSlug": "going-backwards",
+   "title": "Going backwards",
+   "url": "https://undergroundmathematics.org/combining-functions/going-backwards",
+   "resourceType": "bigger-picture",
+   "reason": "NON-OVERLAP for this lane: bigger-picture page with no extractable text sections (interactive applet page) — no alignment claim possible."
+  },
+  {
+   "ugmSlug": "r9924",
+   "title": "How many solutions does this composite function equation have?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9924",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: composite shell (2^(sin^2 x)) but the tested skill is sin^2+cos^2=1 range bounding (P1 1.5.4) with P2/P3 exponential vocabulary."
+  },
+  {
+   "ugmSlug": "maths-for-dinner",
+   "title": "Maths for dinner",
+   "url": "https://undergroundmathematics.org/combining-functions/maths-for-dinner",
+   "resourceType": "bigger-picture",
+   "reason": "NON-OVERLAP for this lane: bigger-picture page with no extractable text sections (interactive applet page)."
+  },
+  {
+   "ugmSlug": "picture-the-process-ii",
+   "title": "Picture the process II",
+   "url": "https://undergroundmathematics.org/combining-functions/picture-the-process-ii",
+   "resourceType": "food-for-thought",
+   "reason": "NON-OVERLAP for this lane: real-world graph modelling (bacteria/drug/oscillation); not a 1.2.x skill."
+  },
+  {
+   "ugmSlug": "r9798",
+   "title": "When does $f$ satisfy the identity $f(t)-f(1-t)=g(t)$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9798",
+   "resourceType": "review-question",
+   "reason": "NON-OVERLAP for this lane: functional equations via substitution t->1-t — beyond P1 1.2 scope."
+  }
+ ]
+}
