@@ -116,6 +116,20 @@ EXPECTED_CENSUS = {
     ("2025-06", "2C"): (6, 38, 70, 70),
     ("2025-11", "2C"): (6, 31, 70, 70),
     ("2026-06", "2C"): (6, 36, 70, 70),
+    # 1CR tranche (converter v0.12.0 corpus, trace 1a162ea420f90a75): 11 sets,
+    # each carrying its printed 110/110 across both mark layers. The series set
+    # is exactly the F-178 footer-verified 1CR schedule (tracker PR #32).
+    ("2019-06", "1CR"): (10, 55, 110, 110),
+    ("2020-01", "1CR"): (11, 59, 110, 110),
+    ("2020-11", "1CR"): (10, 63, 110, 110),
+    ("2021-01", "1CR"): (10, 58, 110, 110),
+    ("2022-01", "1CR"): (11, 59, 110, 110),
+    ("2022-06", "1CR"): (11, 57, 110, 110),
+    ("2023-01", "1CR"): (10, 57, 110, 110),
+    ("2023-06", "1CR"): (11, 59, 110, 110),
+    ("2024-06", "1CR"): (12, 57, 110, 110),
+    ("2025-06", "1CR"): (11, 55, 110, 110),
+    ("2026-06", "1CR"): (11, 57, 110, 110),
 }
 
 # Documented archive damage of record (G-E2 exceptions) — currently EMPTY.
@@ -182,8 +196,14 @@ def gate_e1(stage_sets, current_sets, allow_new_official=False):
     if [s for s in st_off if s in cu_by] != [s for s in cu_off if s in st_by]:
         raise GateRefusal("G-E1", "official set ORDER differs from the bundle of record")
     delta_rows = []
+    new_rows = []
     for slug in st_off:
         if slug not in cu_by:
+            # reachable only under --allow-new-official (the lattice check above
+            # refuses extras otherwise): an append wave's new sets disclose their
+            # full part lattice in the 'new' census class
+            st_s = st_by[slug]
+            new_rows.append((slug, sorted(p["id"] for q in st_s["questions"] for p in q["parts"])))
             continue
         st_s, cu_s = st_by[slug], cu_by[slug]
         keys_changed = {k for k in set(st_s) | set(cu_s)
@@ -210,7 +230,7 @@ def gate_e1(stage_sets, current_sets, allow_new_official=False):
                         f"(disclosed classes only: {sorted(DISCLOSED_DELTA_CLASSES)})")
                 if changed:
                     delta_rows.append((slug, pid, sorted(changed)))
-    return delta_rows
+    return delta_rows, new_rows
 
 
 # ---------------------------------------------------------------- G-E2
@@ -305,17 +325,22 @@ def gate_e4(stage_raw, current_raw):
 
 
 # ---------------------------------------------------------------- driver
-def check_disclosure(delta_rows, disclosure_path):
+def check_disclosure(delta_rows, new_rows, disclosure_path):
     """G-E1 closure: the harness's own census must equal the disclosure of
     record (the exporter's --expected-deltas shape: new/gone/changed part ids
-    per slug). The harness lattice is strict, so new/gone are always empty
-    here; a disclosure claiming new/gone parts therefore mismatches and
-    refuses — part-append waves need a harness revision in the same PR."""
+    per slug). The harness lattice is strict, so 'gone' is always empty here
+    and 'changed' covers only common sets; 'new' names the append wave's sets
+    with their full part lattices (the harness revision the F-187 protocol
+    filed for set-append waves — a part-append WITHIN a common set still
+    refuses at the lattice check)."""
     flat = {"new": {}, "gone": {}, "changed": {}}
+    for slug, pids in new_rows:
+        flat["new"][slug] = list(pids)
     for slug, pid, _classes in delta_rows:
         flat["changed"].setdefault(slug, []).append(pid)
     for slug in flat["changed"]:
         flat["changed"][slug].sort()
+    flat["new"] = {k: v for k, v in sorted(flat["new"].items())}
     expected = json.load(open(disclosure_path))
     if json.dumps(flat, sort_keys=True) != json.dumps(expected, sort_keys=True):
         mine = sum(len(v) for d in flat.values() for v in d.values())
@@ -336,14 +361,17 @@ def run_gates(stage_path, current_path, report_path=None, allow_new_official=Fal
     stage_sets, current_sets = json.loads(stage_raw), json.loads(current_raw)
     official = [s for s in stage_sets if parse_slug(s.get("slug") or "")]
 
-    rows = gate_e1(stage_sets, current_sets, allow_new_official)
-    disclosed_n = check_disclosure(rows, disclosure_path) if disclosure_path else None
+    rows, new_rows = gate_e1(stage_sets, current_sets, allow_new_official)
+    disclosed_n = check_disclosure(rows, new_rows, disclosure_path) if disclosure_path else None
     n_parts, damage_ok = gate_e2(official)
     n_sets, unmapped = gate_e3(official, report_path)
     prefix_len = gate_e4(stage_raw, current_raw)
     if not quiet:
         print(f"G-E1 ok: official lattice equal; {len(rows)} disclosed-class part deltas"
               + (f" ({sum(len(r[2]) for r in rows)} fields)" if rows else ""))
+        if new_rows:
+            print(f"G-E1 ok: {len(new_rows)} new official sets accepted under --allow-new-official "
+                  f"({sum(len(p) for _, p in new_rows)} parts disclosed as 'new')")
         if disclosed_n is not None:
             print(f"G-E1 ok: census matches the disclosure of record exactly ({disclosed_n} parts)")
         for slug, pid, ch in rows[:12]:
@@ -361,7 +389,7 @@ def run_gates(stage_path, current_path, report_path=None, allow_new_official=Fal
     return {"delta_rows": rows, "parts": n_parts, "sets": n_sets, "prefix": prefix_len}
 
 
-def self_test(stage_path, current_path, keep=False):
+def self_test(stage_path, current_path, keep=False, allow_new_official=False):
     stage_sets = json.load(open(stage_path))
     current_sets = json.load(open(current_path))
     official = [s for s in stage_sets if parse_slug(s.get("slug") or "")]
@@ -419,7 +447,7 @@ def self_test(stage_path, current_path, keep=False):
 
     print(f"self-test: clean stage must pass, then 4 seeded faults must be refused "
           f"(workdir {workdir}{' , kept' if keep else ''})")
-    clean = run_gates(stage_path, current_path, quiet=True)
+    clean = run_gates(stage_path, current_path, quiet=True, allow_new_official=allow_new_official)
     print(f"  PASS clean stage (G-E1..G-E4; {clean['parts']} parts, prefix {clean['prefix']}B)")
 
     detected = 0
@@ -432,7 +460,7 @@ def self_test(stage_path, current_path, keep=False):
         with open(cur_path, "wb") as f:
             f.write(reserialize(cur))
         try:
-            run_gates(seed_path, cur_path, quiet=True)
+            run_gates(seed_path, cur_path, quiet=True, allow_new_official=allow_new_official)
             print(f"  FAIL seed NOT DETECTED ({desc})")
             failures.append((want_gate, desc, "not detected"))
         except GateRefusal as e:
@@ -467,13 +495,14 @@ def main():
     t.add_argument("--stage", required=True)
     t.add_argument("--current", required=True)
     t.add_argument("--keep", action="store_true")
+    t.add_argument("--allow-new-official", action="store_true")
     args = ap.parse_args()
     try:
         if args.mode == "verify":
             run_gates(args.stage, args.current, args.report, args.allow_new_official,
                       disclosure_path=args.disclosure)
         else:
-            ok = self_test(args.stage, args.current, args.keep)
+            ok = self_test(args.stage, args.current, args.keep, args.allow_new_official)
             if not ok:
                 sys.exit(1)
     except GateRefusal as e:

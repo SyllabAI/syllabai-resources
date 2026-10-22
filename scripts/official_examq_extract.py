@@ -43,11 +43,14 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.11.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.12.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
-PAPER_TOTALS = {"1C": 110, "2C": 70}
+# R variants footer-verified from the archive of record 22/22 (F-178 R-VARIANT
+# SCHEDULE, tracker PR #32 receipt: 1CR = 110 x11, 2CR = 70 x11; legacy 4CH0 R
+# papers 2013-2017 are a different spec and stay out of scope).
+PAPER_TOTALS = {"1C": 110, "2C": 70, "1CR": 110, "2CR": 70}
 PAPER_TOTAL = PAPER_TOTALS["1C"]   # runtime global — set per run in main()
 # printed question counts verified per series (footers vary 6..15 across the 4CH1 era);
 # counts cross-checked against per-question footer marks summing to the paper total
@@ -60,6 +63,15 @@ EXPECT_QUESTIONS = {
            "2021-11": 7, "2022-01": 7, "2022-06": 7, "2023-01": 7, "2023-06": 7,
            "2023-11": 7, "2024-06": 7, "2024-11": 7, "2025-06": 6, "2025-11": 6,
            "2026-06": 6},
+    # R variants (F-178 schedule, footer-verified 22/22): 1CR tranche converts in
+    # this run; 2CR counts are filed with the registry per the filed protocol and
+    # convert in the 2CR tranche (no staging yet — G0 fails closed on absent files).
+    "1CR": {"2019-06": 10, "2020-01": 11, "2020-11": 10, "2021-01": 10, "2022-01": 11,
+            "2022-06": 11, "2023-01": 10, "2023-06": 11, "2024-06": 12, "2025-06": 11,
+            "2026-06": 11},
+    "2CR": {"2019-06": 7, "2020-01": 7, "2020-11": 7, "2021-01": 8, "2022-01": 7,
+            "2022-06": 7, "2023-01": 8, "2023-06": 7, "2024-06": 7, "2025-06": 7,
+            "2026-06": 7},
 }
 # per-series demo seeds (labels only; registry-validated in G6). Other series -> pending-llm.
 SEEDS = {
@@ -165,6 +177,18 @@ PUA_MAP = {
     "\uf098": "",         # 2022-01/2023-01 covers: circles
     "\uf0bf": "",         # 2022-06 covers: diamonds
     "\uf0c2": "",         # 2024-11 covers: hexagons
+    # 1CR tranche additions (2026-10-22, trace 1a162ea420f90a75) — each from a
+    # PDF font trace + page render, eyeballed:
+    "\uf033": "\u2713",   # ZapfDingbatsITCbyBT check — 'Place ticks (✓) in three boxes'
+                          # (2019-06 1CR p4); same semantics as the F0FC Wingdings check
+    "\uf8ee": "\u23a1",   # Symbol big-bracket UPPER corner — the drawn repeating-unit
+    "\uf8ef": "\u23a2",   #   scaffold (2022-06 1CR p21 chloroethene polymerisation):
+    "\uf8f0": "\u23a3",   #   top/extension/bottom pieces, box-drawing family like F8E7.
+                          #   The text layer mirrors both columns onto these three
+                          #   codepoints (left column serves ⎡⎢⎣ top-to-bottom, right
+                          #   column serves them inverted) — the right-hand corner
+                          #   mirror is not recoverable from the text layer; the
+                          #   scaffold still reads as a bracket pair (render eyeballed)
 }
 
 
@@ -385,10 +409,37 @@ MS_BARE_LETTER_RE = re.compile(
 # Same positional family as MS_BARE_LETTER_RE (F7); roman tokens are gated on
 # the ascending-sequence invariant so content lines that merely begin with a
 # roman-like token can never hijack a marker row.
-MS_BARE_LETTER_ROMAN_RE = re.compile(
-    r"^ {0,12}(?:(\d{1,2})\s+)?([a-h])\s+(i{1,3}|iv|v|vi{1,3})(?=\s{2,}|$)\s*(.*)$")
+# v0.12 (F50): DEGRADED two-level markers — the 1CR tranche prints the same
+# marker with one or BOTH paren pairs lost in the text layer: '3 c (i)'
+# (2019-06: bare letter + ONE space + paren roman — the old 2-space lookahead
+# refused it), 'a (ii)' (2019-06 5(a)(ii): the letter repeats on the (ii) row),
+# 'b)     i)' (2020-11: half-paren markers), '(e)      i' (2026-06: paren
+# letter + bare roman). The branch fires ONLY when at least one paren is
+# missing — fully-parenthesized '(a) (i)' rows fall through to MS_ROW_RE and
+# keep the exact pre-v0.12 path (2020-01 4(a)(i)-style rows carry the marks
+# digit in rest, which that branch keeps as content). The roman token stays
+# bracket-bounded by the 2-space lookahead, so 'a viewpoint' can never match.
+MS_DEGRADED_MARKER_RE = re.compile(
+    r"^ {0,12}(?:(\d{1,2})\s+)?(\()?([a-h])(\))?\s+(\()?(i{1,3}|iv|v|vi{1,3})(\))?(?=\s{2,}|$)\s*(.*)$")
+# v0.12 (F50): the glued family also prints letter + PAREN roman unspaced —
+# 2019-06 1CR prints 4(b)(iv)'s bare 'b(iv)' marker-only row BETWEEN its M1
+# and M2 answer rows ('    b(iv)').
 MS_GLUED_MARKER_RE = re.compile(
-    r"^ {0,12}(?:(\d{1,2}))?([a-h])(i{1,3}|iv|v|vi{1,3})(?=\s{2,})\s*(.*)$")
+    r"^ {0,12}(?:(\d{1,2}))?([a-h])(?:(i{1,3}|iv|v|vi{1,3})|\((i{1,3}|iv|v|vi{1,3})\s*\))(?=\s{2,}|$)\s*(.*)$")
+# v0.12 (F50): half-paren BARE roman continuation row — 2020-11 1CR 3(b)(ii)
+# prints 'ii)    M1 add bromine water' (open paren lost in the text layer).
+# Same ascending-sequence gate as the bare form; a strictly separate branch so
+# rows without the trailing paren keep the exact pre-v0.12 path.
+MS_HALF_ROMAN_RE = re.compile(
+    r"^ {0,12}(i{1,3}|iv|v|vi{1,3})\)(?=\s{2,}|$)\s*(.*)$")
+# v0.12 (F50): rotated-margin sidebar fragments ('clip / with / graph' printed
+# sideways in the scanned MS margin) interleave before the marker column —
+# 2022-01 1CR Q8: '    clip    (b)     all points correctly plotted …'. Marker
+# evidence must be strong: the row must carry a marks-column digit at the tail
+# (a real table row — the wrapped tail fragments carry none) and the letter
+# must ADVANCE the current group. Anything else stays content.
+MS_SIDEBAR_LETTER_RE = re.compile(
+    r"^ {0,6}[a-z]{2,10}\s{2,}\(([a-h])\s*\)\s*(\S.*)$")
 MS_BARE_ROMAN_RE = re.compile(
     r"^ {0,12}(i{1,3}|iv|v|vi{1,3})(?=\s{2,}|$)\s*(.*)$")
 # F46 (v0.11): parenthesized roman CONTENT row printed DEEP in the marker
@@ -449,9 +500,11 @@ def parse_ms(ms_lines):
         mo = MS_MARKER_ONLY_RE.match(ln)
         m = MS_ROW_RE.match(ln)
         mb = MS_BARE_LETTER_RE.match(ln)
-        mbr = MS_BARE_LETTER_ROMAN_RE.match(ln)
+        mdm = MS_DEGRADED_MARKER_RE.match(ln)
         mg = MS_GLUED_MARKER_RE.match(ln)
         mro = MS_BARE_ROMAN_RE.match(ln)
+        mhr = MS_HALF_ROMAN_RE.match(ln)
+        msl = MS_SIDEBAR_LETTER_RE.match(ln)
         mdr = MS_DEEP_ROMAN_RE.match(ln)
         if mo and any(mo.groups()[:3]):
             qn, letter, roman = mo.group(1), mo.group(2), mo.group(3)
@@ -470,9 +523,15 @@ def parse_ms(ms_lines):
             if roman and cur_q is not None and cur_letter:
                 last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
             entries.setdefault(cur, [])
-        elif mbr:
-            # F42: bare letter + bare roman, e.g. '    d   i    Impurities...'
-            qn, letter, roman, rest = mbr.groups()
+        elif mdm and not (mdm.group(2) and mdm.group(4) and mdm.group(5) and mdm.group(7)):
+            # F42 bare letter + bare roman ('    d   i    Impurities...') and
+            # v0.12 (F50) degraded-paren variants — see MS_DEGRADED_MARKER_RE.
+            # Fully-parenthesized rows skip this branch (fall through to
+            # MS_ROW_RE); a rest that is ONLY a marks-column digit opens a
+            # marker-only entry (the digit is layout, not answer content —
+            # 3(d)(ii)'s answer cell is a printed image; the digit alone must
+            # not become one)
+            qn, letter, roman, rest = mdm.group(1), mdm.group(3), mdm.group(6), mdm.group(8)
             roman = roman.lower()
             new_q = _honour_qn(qn, True)
             if new_q is not None:
@@ -481,15 +540,14 @@ def parse_ms(ms_lines):
             cur = (cur_q, cur_letter, roman)
             if cur_q is not None:
                 last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
-            # F42: a rest that is ONLY a marks-column digit opens a marker-only
-            # entry (the digit is layout, not answer content — 3(d)(ii)'s answer
-            # cell is a printed image; the digit alone must not become one)
             entries.setdefault(cur, [] if re.fullmatch(r"\d{1,2}", rest.strip())
                                else [rest.strip()] if rest.strip() else [])
         elif mg:
             # F42: glued unspaced marker, e.g. '  10ai     M1 ...' or '   bi      (C5H12...'
-            qn, letter, roman, rest = mg.groups()
-            roman = roman.lower()
+            # v0.12 (F50): the paren-roman glued form ('    b(iv)') carries the
+            # roman in the second alternative group.
+            qn, letter, roman, roman_paren, rest = mg.groups()
+            roman = (roman or roman_paren).lower()
             new_q = _honour_qn(qn, True) if qn else None
             if new_q is not None:
                 cur_q = new_q
@@ -504,6 +562,20 @@ def parse_ms(ms_lines):
                 if cur_q is not None:
                     last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
                 entries.setdefault(cur, [rest.strip()] if rest.strip() else [])
+        elif msl and cur is not None and cur[0] is not None:
+            # v0.12 (F50): rotated-margin sidebar fragment + marker row (see
+            # MS_SIDEBAR_LETTER_RE). Fires only on a real table row (marks
+            # digit at the tail) whose letter ADVANCES the current group; the
+            # wrapped tail fragments (no tail digit) and any backwards letter
+            # stay content.
+            letter, rest = msl.group(1), msl.group(2)
+            if ((cur[1] is None or ord(letter) > ord(cur[1]))
+                    and re.search(r"\d{1,2}\s*$", ln)):
+                cur_letter = letter
+                cur = (cur[0], cur_letter, None)
+                entries.setdefault(cur, [rest.strip()] if rest.strip() else [])
+            elif cur is not None:
+                entries[cur].append(ln)
         elif mb:
             # bare-letter rows must win over MS_ROW_RE (whose groups are all
             # optional and therefore match almost any line)
@@ -526,6 +598,20 @@ def parse_ms(ms_lines):
             # exactly the next one for this (question, letter); anything else
             # is content, not a marker.
             roman, rest = mro.group(1).lower(), mro.group(2)
+            k = (cur[0], cur[1])
+            expected = last_roman.get(k, -1) + 1
+            if _roman_idx(roman) == expected:
+                cur = (cur[0], cur[1], roman)
+                last_roman[k] = expected
+                entries.setdefault(cur, [] if re.fullmatch(r"\d{1,2}", rest.strip())
+                                   else [rest.strip()] if rest.strip() else [])
+            elif cur is not None:
+                entries[cur].append(ln)
+        elif mhr and cur is not None and cur[0] is not None and cur[1] is not None:
+            # v0.12 (F50): half-paren bare roman continuation row ('ii)  M1 …',
+            # 2020-11 1CR 3(b)(ii)) — same ascending-sequence gate as the bare
+            # form above; anything not exactly the next roman stays content.
+            roman, rest = mhr.group(1).lower(), mhr.group(2)
             k = (cur[0], cur[1])
             expected = last_roman.get(k, -1) + 1
             if _roman_idx(roman) == expected:
@@ -1255,16 +1341,24 @@ def main():
         region = qp_lines[prev + 1 if fi else 0:idx]
         prev = idx
         # start lines for this question and for any missing questions whose body
-        # lives inside this region (their footer was dropped by the archive PDF)
+        # lives inside this region (their footer was dropped by the archive PDF).
+        # FIRST match, not last (F49): the true question start is the region's
+        # earliest "<N> <alpha>" line — lines BEFORE it are page furniture only
+        # (bare page numbers etc. are already stripped), while digit-leading
+        # SOURCE lines inside the question body (an isotope column '3  Li', an
+        # equation '2 NaOH ...') can false-match QSTART_RE and, with cur[-1],
+        # truncated 2023-06 1CR Q3 at its isotope label: the whole (a) group
+        # (4 marks, incl. three MCQs) vanished and (b)(i)/(ii) landed in the
+        # virtual roman group as 3(i)/3(ii).
         pieces = []
         for m in missing:
             ms_ = [i for i, ln in enumerate(region)
                    if QSTART_RE.match(ln) and int(QSTART_RE.match(ln).group(1)) == m]
             if ms_:
-                pieces.append((m, ms_[-1], None))
+                pieces.append((m, ms_[0], None))
         cur = [i for i, ln in enumerate(region)
                if QSTART_RE.match(ln) and int(QSTART_RE.match(ln).group(1)) == qnum]
-        pieces.append((qnum, cur[-1] if cur else 0, qtotal))
+        pieces.append((qnum, cur[0] if cur else 0, qtotal))
         pieces.sort(key=lambda t: t[1])
         for k, (qn, st, pt) in enumerate(pieces):
             end = pieces[k + 1][1] if k + 1 < len(pieces) else len(region)

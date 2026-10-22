@@ -4,8 +4,9 @@ format (syllabai.sme-exam-questions/1.1 compatible, contract-additive).
 
 Reads  : <repo>/Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-<paper>/topic.json
          the CURRENT hub content/igcse-chemistry-19/questions.json (28 SME sets)
-Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + 32 official sets)
-Papers : EXAMQ_EXPORT_PAPERS env ("1C", "2C", or "1C,2C" default)
+Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + official sets)
+Papers : 1C + 2C (16 series each) + 1CR (11 series, R-VARIANT tranche 1); 2CR joins
+         with its tranche. Official slugs: official-4ch1-<paper>-<series>.
 
 Export gates (fail-closed, v3 of this script — the G-E law archived on PR #27,
 landed in wave 12; F44 adds the per-paper topicSlug namespace + G-E1b identity
@@ -224,11 +225,33 @@ EXPECTED_CENSUS = {
         "2025-11": (6, 31, 70),
         "2026-06": (6, 36, 70),
     },
+    # 1CR tranche (converter v0.12.0 corpus; MULTI-SERIES-REPORT of record):
+    # (questions, parts, marks) — every set carries its printed 110/110.
+    "1CR": {
+        "2019-06": (10, 55, 110),
+        "2020-01": (11, 59, 110),
+        "2020-11": (10, 63, 110),
+        "2021-01": (10, 58, 110),
+        "2022-01": (11, 59, 110),
+        "2022-06": (11, 57, 110),
+        "2023-01": (10, 57, 110),
+        "2023-06": (11, 59, 110),
+        "2024-06": (12, 57, 110),
+        "2025-06": (11, 55, 110),
+        "2026-06": (11, 57, 110),
+    },
 }
 
 ALL_SERIES = ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
               "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06",
               "2024-11", "2025-06", "2025-11", "2026-06"]
+# F-178 R-VARIANT tranche 1 (footer-verified 22/22, tracker PR #32): the 1CR
+# paper exists for exactly these 11 of the 16 series (2021-06/2021-11/2023-11/
+# 2024-11/2025-11 never printed a 1CR; 2020-06 never ran at all — COVID).
+R1CR_SERIES = ["2019-06", "2020-01", "2020-11", "2021-01", "2022-01", "2022-06",
+               "2023-01", "2023-06", "2024-06", "2025-06", "2026-06"]
+PAPER_SERIES = {"1C": ALL_SERIES, "2C": ALL_SERIES, "1CR": R1CR_SERIES}
+PAPERS = tuple(PAPER_SERIES)   # 2CR appended by its tranche
 
 
 class ExportGateError(Exception):
@@ -264,18 +287,23 @@ def part_map(s):
     return {p["id"]: p for q in s["questions"] for p in q["parts"]}
 
 
-def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
-    """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict."""
+def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False):
+    """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict.
+    allow_new_official: a legitimate append wave may add official sets absent from
+    the bundle of record — their full part ids are disclosed in the 'new' census
+    class (the exporter refuses silently-dropped new sets either way)."""
     by_slug = {t.get("slug"): t for t in json.loads(raw_bundle_bytes)}
     # ---- G-E3: census constants (cheap, run first) ----
-    for paper in ("1C", "2C"):
-        for series in ALL_SERIES:
+    n_slices = 0
+    for paper in PAPERS:
+        for series in PAPER_SERIES[paper]:
             s = next(t for t in out_sets if t["slug"] == f"official-4ch1-{paper.lower()}-{series}")
             c = census(s)
             exp = EXPECTED_CENSUS[paper][series]
             if c != exp:
                 raise ExportGateError(f"G-E3 {series}/{paper}: census {c} != expected {exp}")
-    print(f"G-E3 ok: 32 slices match the v0.10.0 MULTI-SERIES constants "
+            n_slices += 1
+    print(f"G-E3 ok: {n_slices} slices match the MULTI-SERIES constants of record "
           f"({sum(census(t)[2] for t in out_sets if is_official(t))} marks)")
     # ---- G-E2: sum laws ----
     for t in out_sets:
@@ -294,13 +322,20 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
     # ---- G-E1: regenerate vs bundle of record ----
     census_rows = {"new": {}, "gone": {}, "changed": {}}
     ident_drift = []
-    for paper in ("1C", "2C"):
-        for series in ALL_SERIES:
+    n_common = 0
+    for paper in PAPERS:
+        for series in PAPER_SERIES[paper]:
             slug = f"official-4ch1-{paper.lower()}-{series}"
             rebuilt = export_series(series, paper, topics_src(series, paper))
             of_record = by_slug.get(slug)
             if of_record is None:
-                raise ExportGateError(f"G-E1: bundle of record lacks {slug}")
+                if not allow_new_official:
+                    raise ExportGateError(
+                        f"G-E1: bundle of record lacks {slug} (an append wave must run "
+                        f"with --allow-new-official and disclose its census)")
+                census_rows["new"][slug] = sorted(p["id"] for q in rebuilt["questions"] for p in q["parts"])
+                continue
+            n_common += 1
             for f in IDENTITY_FIELDS:
                 if json.dumps(rebuilt.get(f), sort_keys=True) != json.dumps(of_record.get(f), sort_keys=True):
                     ident_drift.append(f"{slug}: {f}")
@@ -342,7 +377,7 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src):
                               "(identity fields are a law, not a wave artifact — a real "
                               "namespace change must land in the exporter of record and the "
                               "bundle in the same reviewed PR)")
-    print("G-E1b ok: set-level identity fields byte-equal on all 32 official sets")
+    print(f"G-E1b ok: set-level identity fields byte-equal on all {n_common} common official sets")
     # ---- G-E4: the SME prefix is never touched ----
     first_off = raw_bundle_bytes.find(b'"topicId": "off_')
     if first_off == -1:
@@ -368,6 +403,9 @@ def main():
                     help="dir holding <series>-<paper>.json staging copies of the corpus topics")
     ap.add_argument("--expected-deltas", default=None,
                     help="disclosed delta census for a content wave (default: zero deltas)")
+    ap.add_argument("--allow-new-official", action="store_true",
+                    help="append wave: official sets absent from the bundle of record are "
+                         "disclosed in the 'new' census class instead of refusing")
     ap.add_argument("--manifest", default=None,
                     help="manifest.json beside the bundle of record; staged with bumped note")
     args = ap.parse_args()
@@ -380,10 +418,10 @@ def main():
     hub = json.loads(raw)
     kept = [t for t in hub if not t["slug"].startswith(OFFICIAL_SLUG_PREFIX)]
     official = [export_series(s, paper, topics_src(s, paper))
-                for paper in ("1C", "2C") for s in ALL_SERIES]
+                for paper in PAPERS for s in PAPER_SERIES[paper]]
     out = kept + official
 
-    run_gates(out, raw, args.expected_deltas, topics_src)
+    run_gates(out, raw, args.expected_deltas, topics_src, args.allow_new_official)
 
     dest = os.path.join(args.out_stage, "content", "igcse-chemistry-19")
     os.makedirs(dest, exist_ok=True)

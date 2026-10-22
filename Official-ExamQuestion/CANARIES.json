@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
- "converter_version_floor": "0.11.0",
+ "converter_version_floor": "0.12.0",
  "canaries": [
   {
    "id": "C3-baseline-unchanged",
@@ -493,7 +493,7 @@
   {
    "id": "C56-pua-free-corpus",
    "series": "*",
-   "assertion": "F48 PUA pass: no served string in any topic.json carries a Private Use Area char (U+E000-U+F8FF) — every symbol-font glyph surfaces as its evidenced real Unicode form; the pins re-prove nine of the mappings at their exact parts",
+   "assertion": "F48 PUA pass: no served string in any topic.json carries a Private Use Area char (U+E000-U+F8FF) — every symbol-font glyph surfaces as its evidenced real Unicode form; the pins re-prove eleven of the mappings at their exact parts 1CR-wave pins: the ZapfDingbats tick and the Symbol big-bracket trio.",
    "check": "no_pua_served",
    "pins": [
     {
@@ -558,6 +558,20 @@
      "part": "7(d)(ii)",
      "field": "solution",
      "contains": "↑\nEnergy"
+    },
+    {
+     "series": "2019-06",
+     "paper": "1CR",
+     "part": "2(a)",
+     "field": "problem",
+     "contains": "Place ticks (✓) in three boxes"
+    },
+    {
+     "series": "2022-06",
+     "paper": "1CR",
+     "part": "7(d)(i)",
+     "field": "problem",
+     "contains": "⎡"
     }
    ]
   },
@@ -576,6 +590,74 @@
    "parts": [
     "6(c)(ii)",
     "6(d)(ii)"
+   ]
+  },
+  {
+   "id": "C59-qstart-first-match-1cr",
+   "series": "2023-06",
+   "paper": "1CR",
+   "assertion": "F49 QSTART first-match law: Q3 parses WHOLE — the isotope label row '3  Li   73Li' inside the question body no longer truncates the region (cur[-1] did exactly that), so 3(a)(i) exists and keys to A (electron); Q3 carries its printed 8 marks across 6 parts",
+   "check": "part_keyed_to",
+   "part": "3(a)(i)",
+   "label": "A"
+  },
+  {
+   "id": "C60-1cr-degraded-markers-2019-06",
+   "series": "2019-06",
+   "paper": "1CR",
+   "assertion": "F50 degraded-marker linkage: the old-format Summer-2019 MS rows '3 c (i)' (bare letter + one space + paren roman), 'a (ii)' (letter repeated on the roman row) and the glued 'b(iv)' marker-only row between M1/M2 all link — 3(c)(i)-(iii), 4(b)(iv) and 5(a)(ii) reach their printed blocks",
+   "check": "parts_all_linked",
+   "parts": [
+    "3(c)(i)",
+    "3(c)(ii)",
+    "3(c)(iii)",
+    "4(b)(iv)",
+    "5(a)(ii)"
+   ]
+  },
+  {
+   "id": "C61-1cr-5a-ii-keyed-B",
+   "series": "2019-06",
+   "paper": "1CR",
+   "assertion": "the repaired 5(a)(ii) linkage carries its MS key ('B gas is given off' + rebuttal rows) — the G3 MCQ census heals with no MCQ-KEYS adjudication needed",
+   "check": "part_keyed_to",
+   "part": "5(a)(ii)",
+   "label": "B"
+  },
+  {
+   "id": "C62-1cr-half-paren-markers-2020-11",
+   "series": "2020-11",
+   "paper": "1CR",
+   "assertion": "F50 half-paren markers: 'b)     i)' and the 'ii)' continuation row both parse — 3(b)(i) and 3(b)(ii) link",
+   "check": "parts_all_linked",
+   "parts": [
+    "3(b)(i)",
+    "3(b)(ii)"
+   ]
+  },
+  {
+   "id": "C63-1cr-bare-roman-2026-06",
+   "series": "2026-06",
+   "paper": "1CR",
+   "assertion": "F50 paren-letter + bare-roman rows: '(e)      i   nitrogen' and the 'ii' continuation parse — 1(e)(i) and 1(e)(ii) link",
+   "check": "parts_all_linked",
+   "parts": [
+    "1(e)(i)",
+    "1(e)(ii)"
+   ]
+  },
+  {
+   "id": "C64-1cr-sidebar-marker-2022-01",
+   "series": "2022-01",
+   "paper": "1CR",
+   "assertion": "F50 sidebar-marker branch + F47 override: the rotated-margin strip ('all clip with graph') no longer hides 8(b) — (ii)-(v) link positionally and (b)(i) links via the MS-LINK-OVERRIDES transcription of its wrap-split answer cell",
+   "check": "parts_all_linked",
+   "parts": [
+    "8(b)(i)",
+    "8(b)(ii)",
+    "8(b)(iii)",
+    "8(b)(iv)",
+    "8(b)(v)"
    ]
   }
  ]

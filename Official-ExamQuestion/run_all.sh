@@ -33,7 +33,7 @@ series = sorted(e["name"] for e in entries if e.get("type") == "dir")
 pre = "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers"
 tree = []
 for s in series:
-    for paper in ("1C", "2C"):   # F34: enumerate both variants in the index
+    for paper in ("1C", "2C", "1CR", "2CR"):   # F34 + the F-178 R-variant tranches
         tree.append({"path": f"{pre}/{s}/4CH1-{paper}/qp.pdf"})
 json.dump({"tree": tree,
            "note": "synthesized series index via contents API (git/trees recursive truncates; F16; papers per F34)"},

@@ -4,6 +4,34 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.12.0 — 2026-10-22 · the 1CR tranche: registry + first R-variant corpus + QSTART/marker repairs (F49–F50)
+
+The R-VARIANT SCHEDULE's first tranche converts: 11 × 4CH1/1CR papers (2019-06 → 2026-06,
+118 Q / 636 P / 1210 marks, every series G0–G7 PASS with Σ=110/110 footer-enforced), staged
+from the archive of record (qp/ms PDFs sha256-pinned against the archive manifests; MS files
+fetched for this run). All parts enter `pending-llm` under the anchor law — the spec-label
+waves are the tranche's next step. Corpus of record (32 sets) byte-identical modulo
+generator/timestamp after every change below.
+
+- **1CR/2CR registry entries (F-178 protocol)** — `PAPER_TOTALS` gains 1CR=110/2CR=70;
+  `EXPECT_QUESTIONS` gains the footer-verified per-series counts (1CR×11 + 2CR×11, tracker
+  PR #32 receipts). The 2CR rows are filed with the registry per the filed protocol; their
+  outputs land in the 2CR tranche.
+- **PUA map additions (F48 evidence standard)** — 2019-06 1CR prints the ZapfDingbats tick
+  `\uf033` ('Place ticks (✓) in three boxes') → U+2713; 2022-06 1CR prints the Symbol
+  big-bracket trio `\uf8ee/\uf8ef/\uf8f0` (the drawn repeating-unit scaffold of 7(d)(i)) →
+  U+23A1/23A2/23A3 with the documented right-column mirror caveat. C56 pins both.
+- **QSTART first-match law (F49)** — the question-start driver now takes the region's FIRST
+  `<N> <alpha>` line; the isotope-label false match that truncated 2023-06 1CR Q3 (its whole
+  (a) group lost, G1 4/8) is structurally impossible. C59 pins the shape.
+- **Degraded-marker MS branches (F50)** — `MS_DEGRADED_MARKER_RE` (fires only when a paren
+  pair is missing), the glued `b(iv)` alternative, `MS_HALF_ROMAN_RE` and the gated
+  `MS_SIDEBAR_LETTER_RE` heal all four marker degenerations of the R-era MS layouts; 14
+  linkage refusals + 1 MCQ key refusal resolve with zero per-series special-casing, and the
+  one genuine wrap-split answer cell (2022-01 1CR 8(b)(i)) is human-transcribed into
+  MS-LINK-OVERRIDES per the F47 law. C60–C64 pin them; 15 crop/stub items eyeballed into
+  CROP-REVIEW (11 accepted + 4 stub-accepted across 8 `<series>:1CR` homes).
+
 ## 0.11.0 — 2026-10-22 · wave 14: the 3 honest answer-linkage refusals + PUA→Unicode (F46–F48)
 
 The corpus review queue empties of linkage items: G5 100% on 2019-06 1C (64/64) and
