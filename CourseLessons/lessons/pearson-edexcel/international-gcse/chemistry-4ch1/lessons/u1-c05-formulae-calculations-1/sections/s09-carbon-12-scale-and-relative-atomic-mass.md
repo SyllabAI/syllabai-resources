@@ -24,7 +24,7 @@ delivers.
 **The carbon-12 scale.** A single atom weighs about
 1.67 × 10⁻²⁴ g — an absurd number to calculate with. Instead, chemists
 compare all atomic masses against a standard: the mass of an atom of the
-**[[carbon-12-scale|carbon-12 isotope]]**. On this scale one ¹²C atom
+**carbon-12 isotope** ([[carbon-12-scale]]). On this scale one ¹²C atom
 weighs **exactly 12 units**, and the basic unit of the scale is
 **one-twelfth** of that — approximately the mass of the most common
 hydrogen atom. So fluorine-19 has a relative mass of **19** (19 times

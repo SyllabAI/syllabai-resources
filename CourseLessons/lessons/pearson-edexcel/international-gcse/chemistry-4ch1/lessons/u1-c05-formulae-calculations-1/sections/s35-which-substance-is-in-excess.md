@@ -13,7 +13,7 @@ right proportions. Usually **something is in excess** — there is more
 than enough of it to react with the other substance — and you remove the
 excess afterwards (by filtering, for example). A **[[reagent]]** is just
 something that reacts; the substance left over is the
-**[[excess-reagent|excess reagent]]**.
+**[[excess-reagent]]**.
 
 The trap the book sets up: until now, every problem gave you enough
 information to calculate moles of **one** thing. What if you are given

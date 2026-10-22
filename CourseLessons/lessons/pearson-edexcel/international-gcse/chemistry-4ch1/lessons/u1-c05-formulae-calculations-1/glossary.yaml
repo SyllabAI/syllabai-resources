@@ -1,2 +1,198 @@
-# glossary entries: term/slug/definition/ms_accepts/ms_avoids/aliases/source
-[]
+# glossary — u1:c05 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: word equation
+  slug: word-equation
+  definition: "An equation naming the substances in words, e.g. magnesium + oxygen -> magnesium oxide. Write one only when specifically asked; all chemical equations must be balanced."
+  ms_accepts: ["equation using the names of the substances"]
+  ms_avoids: ["an equation with formulae", "an unbalanced description"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf047_0146"
+- term: chemical equation
+  slug: chemical-equation
+  definition: "A symbol equation using formulae (e.g. 2Mg + O2 -> 2MgO); usually what is meant by 'write an equation'. Shows the proportions of reactants and products and must be balanced."
+  ms_accepts: ["symbol equation", "equation using formulae"]
+  ms_avoids: ["any list of reactants and products", "a word equation"]
+  aliases: ["symbol equation"]
+  source: "chem_v3_u1_c5_pdf047_0146"
+- term: balanced equation
+  slug: balanced-equation
+  definition: "An equation with the same number of atoms of each element on both sides, balanced by writing big numbers in front of formulae — never by changing a formula."
+  ms_accepts: ["same number of atoms of each element on both sides", "mass is conserved"]
+  ms_avoids: ["changing formulae to balance", "adding subscripts to balance"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf049_0149"
+- term: coefficient
+  slug: coefficient
+  definition: "The big number written in front of a formula in an equation (the 2 in 2HCl); it multiplies every atom in the formula and gives the number of moles reacting."
+  ms_accepts: ["big number in front of a formula", "number of moles of the substance"]
+  ms_avoids: ["a subscript", "number of atoms in one molecule"]
+  aliases: ["big number"]
+  source: "chem_v3_u1_c5_pdf048_0147"
+- term: state symbol
+  slug: state-symbol
+  definition: "A symbol after a formula showing physical state: (s) solid, (l) liquid, (g) gas, (aq) dissolved in water — e.g. 2K(s) + 2H2O(l) -> 2KOH(aq) + H2(g)."
+  ms_accepts: ["(s)/(l)/(g)/(aq) showing physical states", "(aq) = dissolved in water"]
+  ms_avoids: ["(aq) for pure water", "state symbols change the balancing"]
+  aliases: ["physical state notation"]
+  source: "chem_v3_u1_c5_pdf050_0157"
+- term: aqueous
+  slug: aqueous
+  definition: "Dissolved in water, written (aq) after the formula. Formed when something dissolves in water; pure water itself is the liquid H2O, not aqueous."
+  ms_accepts: ["dissolved in water", "solution in water"]
+  ms_avoids: ["containing water", "the liquid state of any substance"]
+  aliases: ["(aq)"]
+  source: "chem_v3_u1_c5_pdf050_0154"
+- term: relative atomic mass
+  slug: relative-atomic-mass
+  definition: "The weighted average mass of the isotopes of an element, measured on the carbon-12 scale on which a 12C atom is exactly 12. Relative masses have no units."
+  ms_accepts: ["weighted average mass of isotopes on the carbon-12 scale", "average mass of an atom compared with 1/12 of a 12C atom"]
+  ms_avoids: ["the mass of one atom", "a whole number for every element", "mass in grams"]
+  aliases: ["Ar"]
+  source: "chem_v3_u1_c5_pdf051_0164"
+- term: carbon-12 scale
+  slug: carbon-12-scale
+  definition: "The comparison scale for atomic and formula masses: one atom of the carbon-12 isotope weighs exactly 12 units, so the scale's unit is one-twelfth of a 12C atom."
+  ms_accepts: ["relative masses compared with a 12C atom", "12C = exactly 12 on the scale"]
+  ms_avoids: ["carbon-14 dating", "actual masses in grams"]
+  aliases: ["carbon-12 standard"]
+  source: "chem_v3_u1_c5_pdf051_0163"
+- term: relative formula mass
+  slug: relative-formula-mass
+  definition: "The sum of all the relative atomic masses in a formula unit, on the carbon-12 scale; symbol Mᵣ. Used for any compound, ionic or covalent — e.g. H2O = 18, CuSO4·5H2O = 249.5."
+  ms_accepts: ["sum of relative atomic masses in the formula", "Mr calculated from Ar values"]
+  ms_avoids: ["mass of one molecule in grams", "ignoring waters of crystallisation"]
+  aliases: ["Mr", "formula mass"]
+  source: "chem_v3_u1_c5_pdf051_0165"
+- term: relative molecular mass
+  slug: relative-molecular-mass
+  definition: "The Mᵣ of a substance that exists as molecules (covalent substances). Properly applied only to molecules — use relative formula mass for ionic substances like NaCl or MgO."
+  ms_accepts: ["Mr of a molecular (covalent) substance"]
+  ms_avoids: ["using it for ionic compounds", "interchangeably for ionic formulae at this level"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf051_0163"
+- term: percentage composition
+  slug: percentage-composition
+  definition: "The percentage by mass of an element in a compound: the element's total atom mass (atoms × Ar) divided by the compound's Mᵣ, × 100 — e.g. oxygen in Na2CO3 is 48/106 × 100."
+  ms_accepts: ["percentage by mass of an element in a compound", "mass of element in one mole ÷ Mᵣ × 100"]
+  ms_avoids: ["dividing one atom's Ar by the Mᵣ ignoring subscripts", "percentage by volume"]
+  aliases: ["percentage by mass"]
+  source: "chem_v3_u1_c5_pdf052_0169"
+- term: water of crystallisation
+  slug: water-of-crystallisation
+  definition: "Water chemically bound into a salt's crystal structure as part of its formula (the ·5H2O in CuSO4·5H2O); always fixed whole numbers per formula unit. Salts containing it are hydrated."
+  ms_accepts: ["water chemically bonded in the crystal", "fixed number of water molecules per formula unit"]
+  ms_avoids: ["wet salt", "loose water trapped in the crystal", "impurity"]
+  aliases: ["water of crystallization"]
+  source: "chem_v3_u1_c5_pdf052_0171"
+- term: hydrated salt
+  slug: hydrated-salt
+  definition: "A salt containing water of crystallisation as part of its formula, e.g. CuSO4·5H2O, Na2CO3·10H2O, MgCl2·6H2O. Its Mᵣ includes the bound water."
+  ms_accepts: ["salt containing water of crystallisation", "crystals include chemically bound water"]
+  ms_avoids: ["a damp or wet salt", "a salt dissolved in water"]
+  aliases: ["hydrate", "hydrated crystals"]
+  source: "chem_v3_u1_c5_pdf052_0171"
+- term: anhydrous
+  slug: anhydrous
+  definition: "Without water: the salt left when all the water of crystallisation has been driven off by heating, e.g. anhydrous barium chloride, BaCl2 (no ·nH2O)."
+  ms_accepts: ["without water", "salt with all water of crystallisation removed"]
+  ms_avoids: ["dry on the outside only", "never contained water"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf061_0225"
+- term: mole
+  slug: mole
+  definition: "The unit of amount of substance, abbreviated mol. 1 mole of a substance has a mass in grams equal to its Mᵣ and contains 6 × 10²³ particles."
+  ms_accepts: ["unit of amount of substance", "mass of 1 mole = Mᵣ in grams", "6 × 10²³ particles per mole"]
+  ms_avoids: ["a unit of mass", "the same mass for every substance", "an animal"]
+  aliases: ["mol"]
+  source: "chem_v3_u1_c5_pdf053_0175"
+- term: Avogadro constant
+  slug: avogadro-constant
+  definition: "The number of particles in one mole of any substance: about 6 × 10²³ per mole. Equal moles of any substances contain equal numbers of particles."
+  ms_accepts: ["6 × 10²³ particles per mole", "number of particles in one mole"]
+  ms_avoids: ["a mass", "different for different substances"]
+  aliases: ["Avogadro's number", "L"]
+  source: "chem_v3_u1_c5_pdf055_0187"
+- term: molar mass
+  slug: molar-mass
+  definition: "The term commonly used for the mass of 1 mole of a substance. Strictly it has units of g/mol (the mass of 1 mole is in g), a distinction rarely needed at International GCSE."
+  ms_accepts: ["the mass of 1 mole of a substance", "Mᵣ expressed in grams"]
+  ms_avoids: ["a different quantity from mass of 1 mole at this level", "moles per gram"]
+  aliases: ["mass of 1 mole"]
+  source: "chem_v3_u1_c5_pdf054_0180"
+- term: empirical formula
+  slug: empirical-formula
+  definition: "The simplest whole-number ratio of the atoms of each element present in a compound, found from mole ratios — e.g. CH2 for the compound whose molecular formula is C4H8."
+  ms_accepts: ["simplest whole number ratio of atoms", "simplest ratio formula"]
+  ms_avoids: ["the actual number of atoms in a molecule", "a guess at the formula"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf055_0188"
+- term: molecular formula
+  slug: molecular-formula
+  definition: "The actual number of atoms of each element in one molecule (or formula unit). It is the empirical formula multiplied by a whole number — e.g. H2O2 is the molecular formula with empirical HO."
+  ms_accepts: ["actual number of atoms of each element", "n × the empirical formula"]
+  ms_avoids: ["always different from the empirical formula", "the simplest ratio"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf055_0188"
+- term: combustion
+  slug: combustion
+  definition: "Burning a substance in oxygen — the reaction type used to find the formula of magnesium oxide: the magnesium gains oxygen, so the crucible's contents increase in mass."
+  ms_accepts: ["burning in oxygen", "reaction with oxygen releasing energy"]
+  ms_avoids: ["any reaction that gets hot", "only reactions producing flames"]
+  aliases: ["burning"]
+  source: "chem_v3_u1_c5_pdf058_0202"
+- term: reduction
+  slug: reduction
+  definition: "The removal of oxygen from a substance — used to find the formula of copper oxide by passing hydrogen over it: the oxide loses oxygen, so the dish's contents decrease in mass."
+  ms_accepts: ["loss of oxygen", "oxygen removed from the substance"]
+  ms_avoids: ["loss of mass generally", "gain of oxygen"]
+  aliases: ["reduced"]
+  source: "chem_v3_u1_c5_pdf059_0212"
+- term: displacement reaction
+  slug: displacement-reaction
+  definition: "A reaction in which a more reactive element takes the place of a less reactive one in a compound — hydrogen displaces copper from copper oxide in the reduction practical."
+  ms_accepts: ["a more reactive element takes the place of a less reactive one", "competition reaction"]
+  ms_avoids: ["any reaction between two elements", "swapping of atoms generally"]
+  aliases: ["competition reaction"]
+  source: "chem_v3_u1_c5_pdf059_0209"
+- term: redox reaction
+  slug: redox-reaction
+  definition: "A reaction in which reduction and oxidation happen together — e.g. CuO + H2 -> Cu + H2O: the copper oxide is reduced (oxygen removed) while the hydrogen is oxidised."
+  ms_accepts: ["reduction and oxidation occurring together", "oxygen transfer between substances"]
+  ms_avoids: ["only loss of oxygen", "electron talk at this level"]
+  aliases: ["oxidation-reduction"]
+  source: "chem_v3_u1_c5_pdf059_0210"
+- term: percentage yield
+  slug: percentage-yield
+  definition: "actual yield ÷ theoretical yield × 100 — how much product was obtained compared with what the equation's moles promise. Should come out below 100%; above it suggests wet product or a mistake."
+  ms_accepts: ["actual yield divided by theoretical yield × 100", "comparison of product obtained with maximum possible"]
+  ms_avoids: ["theoretical ÷ actual", "a measure of purity"]
+  aliases: ["yield"]
+  source: "chem_v3_u1_c5_pdf067_0251"
+- term: theoretical yield
+  slug: theoretical-yield
+  definition: "The mass of product a reaction could produce, calculated from the equation and the moles of starting material — e.g. 7.53 g of CuSO4·5H2O from 2.40 g of CuO."
+  ms_accepts: ["the calculated maximum mass of product", "yield expected from the moles calculation"]
+  ms_avoids: ["what the experiment actually gave", "the mass you started with"]
+  aliases: ["calculated yield"]
+  source: "chem_v3_u1_c5_pdf067_0251"
+- term: actual yield
+  slug: actual-yield
+  definition: "The mass of product actually obtained in the experiment, given in the question — e.g. 5.21 g of crystals. Always divided by (not into) the theoretical yield for the percentage."
+  ms_accepts: ["the mass obtained in the experiment", "the measured product mass"]
+  ms_avoids: ["the calculated maximum", "always 100% of theory"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf067_0251"
+- term: reagent
+  slug: reagent
+  definition: "Simply something that reacts. In excess calculations, try both reagents' moles in the equation: the one that runs out first (limiting) feeds the product calculation."
+  ms_accepts: ["a substance that reacts", "starting material in a reaction"]
+  ms_avoids: ["only the liquid in a reaction", "the catalyst"]
+  aliases: []
+  source: "chem_v3_u1_c5_pdf068_0255"
+- term: excess reagent
+  slug: excess-reagent
+  definition: "The reagent present in more than enough to react with all of the other one — determined from the equation's ratios, not from which amount is bigger. Removed after the reaction (e.g. by filtering)."
+  ms_accepts: ["more than enough to react with all the other reagent", "determined using the chemical equation"]
+  ms_avoids: ["whichever reagent has the larger number of moles", "any unreacted impurity"]
+  aliases: ["substance in excess"]
+  source: "chem_v3_u1_c5_pdf068_0253"

@@ -5,17 +5,17 @@ bookPage: 53
 chunkRefs: [chem_v3_u1_c5_pdf062_0232, chem_v3_u1_c5_pdf062_0233]
 specRefs: ["1.31", "1.33"]
 blocks: []
-glossary: [hydrated-salt, anhydrous]
+glossary: [anhydrous, hydrated-salt]
 ---
 
 Heat a salt that contains water of crystallisation and the water is
-driven off, leaving the **[[anhydrous]]** salt behind. **[[hydrated-salt|Hydrated]]**
-barium chloride is the commonly used example, because the barium chloride
-itself does not decompose even on quite strong heating — only the water
-leaves.
+driven off, leaving the **[[anhydrous]]** salt behind. Barium chloride —
+a **[[hydrated-salt]]** — is the commonly used example, because the
+barium chloride itself does not decompose even on quite strong heating —
+only the water leaves.
 
-**The experiment** (heating the crystals in a crucible, Figure 5.15) hands
-you three masses:
+**The experiment** (heating the crystals in a crucible, Figure 5.15)
+hands you three masses:
 
 - mass of crucible = **30.00 g**
 - mass of crucible + barium chloride crystals, BaCl₂·nH₂O = **32.44 g**
@@ -39,9 +39,10 @@ Table 5.2:
 | ratio of moles        | 1           | 2         |
 | empirical formula     | **BaCl₂·2H₂O** |        |
 
-The unknown n was 2 — found by the identical divide-by-Mᵣ, divide-by-
-smallest machinery as every other empirical formula in this chapter. The
-only novelty is that one of the "elements" is a whole water molecule.
+The unknown n was 2 — found by the identical divide-by-Mᵣ,
+divide-by-smallest machinery as every other empirical formula in this
+chapter. The only novelty is that one of the "elements" is a whole water
+molecule.
 
 :::exam-hint
 Two Mᵣ values must be *assembled* before the table can start: BaCl₂ =

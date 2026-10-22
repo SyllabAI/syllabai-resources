@@ -9,5 +9,5 @@ banned_phrases:
   - "the equilibrium shifts to use up"     # teleology banned at IGCSE; say: the position of equilibrium moves so that...
 
 banned_regex:
-  - '\(l\)'                                # OCR artifact: state symbol (l) vs identity (I) — review-checked
+  - '\([Ii]l+\)'                            # OCR artifact: identity-I misread as lowercase l — '(Il)'/'(Ill)' class (f-0010 refined from the over-broad '\(l\)' which also matched the legitimate liquid state symbol)
   - '[\uFFFD]'                             # mojibake replacement char

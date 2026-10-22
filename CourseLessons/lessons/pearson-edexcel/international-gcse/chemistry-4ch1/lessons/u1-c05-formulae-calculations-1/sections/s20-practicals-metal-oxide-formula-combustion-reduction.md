@@ -59,7 +59,7 @@ at end 26.32 g.
 The reaction, CuO + H₂ → Cu + H₂O, is a **[[displacement-reaction]]**
 (hydrogen is more reactive than copper and displaces it) — and can also
 be called a **[[redox-reaction]]**: the copper oxide has been
-**[[reduction|reduced]]** (oxygen removed). Chapter 14 develops both.
+**reduced** — oxygen removed, the [[reduction]] of the copper(II) oxide. Chapter 14 develops both.
 
 The table (Aᵣ: Cu = 63.5, O = 16): 2.54/63.5 = 0.0400 mol Cu;
 0.64/16 = 0.040 mol O; ratio 1 : 1 → empirical formula **CuO**.
