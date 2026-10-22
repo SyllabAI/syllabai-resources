@@ -4,6 +4,35 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.12.1 — 2026-10-22 · exporter F51: the data-cut stamping law (G-E5)
+
+Exporter-only follow-up (converter stays 0.12.0; zero corpus changes; 65 canaries
+untouched; no corpus file is read or written differently):
+
+- **The wrinkle of record (v2 PIN-TIGHTEN-1, fc7a5dc2)** — the pilot hub manifest's
+  `importSource.ref` named the exporter-of-record commit (main@bf8d56c3, F44's landing)
+  while the wave-14 run actually consumed 855cddcf; the pin under-claimed and had to be
+  tightened forward by hand. Root cause filed open there: the exporter of record left
+  the ref untouched every run ("importSource.ref stays"), so the pin could only drift
+  from the data.
+- **G-E5, the data-cut law (runs first, whenever a manifest is staged)** — the run
+  declares `--source-cut main@<40-hex>` (REQUIRED with --manifest, refused without it,
+  format fail-closed); the exporter then proves every consumed staging topics file
+  content-identical to that cut's committed topic.json (modulo the generated_utc/
+  generator converter header — the data plane must match canonicalized byte-exact;
+  git-show against the repo of record, missing staging file or unknown cut aborts) and
+  STAMPS the declared cut into the staged manifest's `importSource.ref`. Fail-closed,
+  no disclosure path: identity is a law (the G-E1b precedent) — a runner whose staging
+  copies are not the declared cut re-stages or re-declares; it can no longer stamp a
+  pin the data cannot prove.
+- **Note text stays the per-wave hardcode of record** — the wave description bump
+  remains a reviewed-PR act (the F44 law); the stamped ref no longer depends on it.
+- **Negative controls verified live** (all refused before any write): malformed
+  --source-cut format; a well-formed 40-hex cut absent from the repo; a one-byte-
+  tampered staging copy. Positive control: the full 43-slice run against the hub
+  bundle of record with the wave-15 disclosure + --allow-new-official — G-E5 +
+  G-E3/G-E2/G-E1/G-E1b/G-E4 all green, staged manifest ref = the declared cut.
+
 ## 0.12.0 — 2026-10-22 · the 1CR tranche: registry + first R-variant corpus + QSTART/marker repairs (F49–F50)
 
 The R-VARIANT SCHEDULE's first tranche converts: 11 × 4CH1/1CR papers (2019-06 → 2026-06,

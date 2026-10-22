@@ -8,9 +8,9 @@ Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + official s
 Papers : 1C + 2C (16 series each) + 1CR (11 series, R-VARIANT tranche 1); 2CR joins
          with its tranche. Official slugs: official-4ch1-<paper>-<series>.
 
-Export gates (fail-closed, v3 of this script — the G-E law archived on PR #27,
+Export gates (fail-closed, v4 of this script — the G-E law archived on PR #27,
 landed in wave 12; F44 adds the per-paper topicSlug namespace + G-E1b identity
-closure):
+closure; F51 adds the data-cut stamping law G-E5):
   G-E1  every regenerated set is compared against the bundle of record.
         Default: ANY delta fails the export (the reproducibility law — running
         the exporter of record against its own bundle must be a no-op).
@@ -22,6 +22,16 @@ closure):
         MULTI-SERIES-REPORT constants for BOTH papers (hard stop on drift).
   G-E4  the SME prefix of the bundle re-serializes byte-identically (the
         official-papers export never touches the SME corpus of record).
+  G-E5  the data-cut law (F51; runs first, whenever a manifest is staged):
+        the run declares --source-cut main@<40-hex> — the resources commit
+        whose corpus it consumes; every consumed staging topics file must be
+        content-identical to that cut's committed topic.json (modulo the
+        generated_utc/generator converter header — the data plane must match
+        canonicalized byte-exact), and the declared cut is then STAMPED into
+        the staged manifest's importSource.ref. 'importSource.ref stays' is
+        retired: the pin once under-claimed at the exporter-of-record commit
+        (bf8d56c3) while the run consumed 855cddcf — the wrinkle v2
+        PIN-TIGHTEN-1 (fc7a5dc2) closed by hand and filed as this follow-up.
 Deterministic; no LLM in the loop.
 
 Contract notes (src/lib/contracts.ts in syllabai-hub):
@@ -33,10 +43,11 @@ Contract notes (src/lib/contracts.ts in syllabai-hub):
   part's/stem asset's PNG (same rawUrl) — the hub pattern embeds images as
   markdown, so shared figures inline the same URL.
 """
-import json, glob, os, sys, hashlib
+import json, glob, os, re, subprocess, sys, hashlib
 from pathlib import Path
 
 # repo-relative (F15 portability): works from any checkout of syllabai-resources
+REPO_ROOT = str(Path(__file__).resolve().parents[1])
 CORPUS = str(Path(__file__).resolve().parents[1] / "Official-ExamQuestion" / "igcse-chemistry-19")
 HUB_CURRENT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/hub-chem-questions.json"
 RAW = "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-chemistry-19"
@@ -287,6 +298,74 @@ def part_map(s):
     return {p["id"]: p for q in s["questions"] for p in q["parts"]}
 
 
+# F51 (exporter v4): the data-cut law. The hub manifest's importSource.ref is
+# the pin the v2 per-course pin law serves — PIN-TIGHTEN-1 (v2 fc7a5dc2) proved
+# the wrinkle class: the ref once named the exporter-of-record commit (F44's
+# landing bf8d56c3) while the run actually consumed a later cut (855cddcf).
+# The exporter now stamps the DECLARED data cut and proves the consumed staging
+# copies ARE that cut, fail-closed, no disclosure path (identity is a law — the
+# G-E1b precedent). Content-identity modulo the converter header:
+# generated_utc/generator are the converter's own identity (its version law),
+# not the data cut's; the data plane must match canonicalized byte-exact.
+SOURCE_CUT_RE = re.compile(r"^main@[0-9a-f]{40}$")
+CUT_VOLATILE_HEADER = ("generated_utc", "generator")
+
+
+def parse_source_cut(value):
+    if not SOURCE_CUT_RE.match(value or ""):
+        raise ValueError(
+            f"--source-cut must be main@<40-hex commit sha> (got {value!r}) — "
+            f"the declared data cut is the resources commit whose corpus the run consumes")
+    return value
+
+
+def _cut_topic_bytes(source_cut, rel_path):
+    # the pin of record is 'main@<40-hex>' (manifest form); git wants the bare
+    # rev — 'main@<hex>' is not valid rev syntax (the '@' would start a reflog
+    # expression), so translate before handing it to git.
+    rev = source_cut.split("@", 1)[1] if "@" in source_cut else source_cut
+    proc = subprocess.run(
+        ["git", "-C", REPO_ROOT, "show", f"{rev}:{rel_path}"],
+        capture_output=True)
+    if proc.returncode != 0:
+        raise ExportGateError(
+            f"G-E5: cannot read {rel_path} at the declared data cut {source_cut} "
+            f"(git show failed: {proc.stderr.decode(errors='replace').strip()[:200]})")
+    return proc.stdout
+
+
+def _topic_data_plane(raw_bytes):
+    d = json.loads(raw_bytes)
+    return {k: v for k, v in d.items() if k not in CUT_VOLATILE_HEADER}
+
+
+def verify_source_cut(topics_dir, source_cut):
+    """G-E5: every consumed staging topics file must BE the declared data cut.
+    Content-identity vs <cut>:Official-ExamQuestion/.../topic.json modulo the
+    converter header. Fail-closed, no disclosure path — a runner whose staging
+    copies are not the declared cut must re-stage or declare the cut the copies
+    actually are; it can no longer stamp a pin the data cannot prove."""
+    checked = 0
+    for paper in PAPERS:
+        for series in PAPER_SERIES[paper]:
+            staged_path = os.path.join(topics_dir, f"{series}-{paper}.json")
+            if not os.path.exists(staged_path):
+                raise ExportGateError(
+                    f"G-E5: staging topics file missing for {series}/{paper}: "
+                    f"{staged_path} (stage the declared cut's corpus topics first)")
+            staged = _topic_data_plane(open(staged_path, "rb").read())
+            rel = f"Official-ExamQuestion/igcse-chemistry-19/{series}/4CH1-{paper}/topic.json"
+            at_cut = _topic_data_plane(_cut_topic_bytes(source_cut, rel))
+            if json.dumps(staged, sort_keys=True) != json.dumps(at_cut, sort_keys=True):
+                raise ExportGateError(
+                    f"G-E5: staging topics for {series}/{paper} are NOT the declared "
+                    f"data cut {source_cut} (content drift beyond the converter header; "
+                    f"re-stage from {source_cut} or declare the cut the copies are)")
+            checked += 1
+    print(f"G-E5 ok: {checked}/{checked} staging topics content-identical to the "
+          f"declared data cut {source_cut} (modulo the converter header)")
+
+
 def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False):
     """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict.
     allow_new_official: a legitimate append wave may add official sets absent from
@@ -408,8 +487,25 @@ def main():
                          "disclosed in the 'new' census class instead of refusing")
     ap.add_argument("--manifest", default=None,
                     help="manifest.json beside the bundle of record; staged with bumped note")
+    ap.add_argument("--source-cut", default=None,
+                    help="the data cut this run consumes, main@<40-hex> (F51: REQUIRED "
+                         "with --manifest — stamped into importSource.ref and proven by "
+                         "G-E5 against the staging copies)")
     args = ap.parse_args()
     topics_dir = args.topics_dir or os.path.join(os.getcwd(), "topics")
+    source_cut = None
+    if args.manifest and not args.source_cut:
+        ap.error("--source-cut main@<40-hex> is REQUIRED with --manifest (F51: the "
+                 "manifest's importSource.ref must name the data cut the run consumes "
+                 "— 'importSource.ref stays' is retired; see v2 PIN-TIGHTEN-1)")
+    if args.source_cut and not args.manifest:
+        ap.error("--source-cut is only meaningful with --manifest (it stamps importSource.ref)")
+    if args.source_cut:
+        try:
+            source_cut = parse_source_cut(args.source_cut)
+        except ValueError as exc:
+            ap.error(str(exc))
+        verify_source_cut(topics_dir, source_cut)
 
     def topics_src(series, paper):
         return json.load(open(os.path.join(topics_dir, f"{series}-{paper}.json")))
@@ -440,6 +536,9 @@ def main():
     if args.manifest and os.path.exists(args.manifest):
         manifest = json.load(open(args.manifest))
         official_n = sum(1 for t in out if is_official(t))
+        # F51: the pin law — the staged manifest names the data cut the run
+        # consumed (G-E5-proven above), never a stale or tool-identity ref.
+        manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
             "ADR-037 converter v0.11.0 corpus (merged main): wave-14 closes the last three "
             "honest review items, corpus review queue now empty. F48 PUA->Unicode pass: all "
@@ -460,7 +559,9 @@ def main():
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
-        print(f"manifest staged (importSource.ref stays; note bumped to the v0.11.0 wave description)")
+        print(f"manifest staged (importSource.ref stamped to the declared data cut "
+              f"{source_cut} — G-E5-proven; note text is the per-wave hardcode of "
+              f"record: bump it in the same reviewed PR as the wave)")
     print(f"written: {dest}/questions.json")
 
 
