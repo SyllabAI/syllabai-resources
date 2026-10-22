@@ -55,3 +55,49 @@ courses — T-MIG-140 receipt, multibook_disclosure).
    `../../PARSE_STANDARD.md` where applicable, else the same 8 points).
 2. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
 3. Update `books/CATALOG.md` tracker in the same commit as each state change.
+
+---
+
+## SB2 PARSE (delta lane, 2026-10-22 — same T-PARSE-YPH11-1 task, parallel session)
+
+Student Book 2 was parsed by a second session running the operator's
+"Retry YPH11 polish" directive, on top of this lane's SB1 work (L-008
+parallel-lane protocol; blob-compare before push, genuine delta only).
+
+- **Corpus:** `parsed/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl` — **826
+  chunks** (`yph2_v1_` prefix per this lane's two-book law), Topics 5–11 /
+  13 chapter blocks (5A…11B), offset `book = pdf − 10` (probed 3 ways;
+  roman i–xi = PDF 1–11, arabic starts at book 2 = PDF 12 — same no-page-1
+  law as SB1). Validator `pipeline/scripts/validate_ial_physics_sb2.py`:
+  ALL CHECKS PASSED (13/13 chapters, 7/7 topics, 0 order breaks, strict
+  offset law, 13/13 EXAM PRACTICE pairs page-anchored, 0 LaTeX remnants).
+- **SOURCE INTEGRITY FIX (books/README.md E-004):** the SB2 archive copy
+  landed at intake (41,870,983 B, sha256 `449dc3f3…73d0c`) was TRUNCATED at
+  225pp — its own contents page promises COMMAND WORDS 218 / GLOSSARY 220 /
+  INDEX 224 but the file ended mid-sample-answers (book 215). The original
+  was re-downloaded via the documented taleem360 Googlebot-UA route and
+  verified byte-identical to the original-of-record (120,888,486 B, sha256
+  `28eabe40…8f`, 237pp), then a fresh complete 145dpi derivative was landed
+  (48,278,974 B, sha256 `f8f3fc62…ce82d`, OCR parity 1.0000 vs original on
+  the contents page; ghostscript `-dPassThroughJPEGImages=false` required —
+  books/README.md L-022). **`source/student-book-2.pdf` is REPLACED in the
+  delta commit.**
+- **Structure findings:** per-chapter THINKING BIGGER (2pp, second page often
+  a SCIENCE COMMUNICATION activity) + EXAM PRACTICE (2pp) pairs for all 13
+  chapters; back matter = Maths Skills 204–209, Preparing 210–211, Sample
+  Exam Answers 212–217, Command Words 218–219, Glossary 220–223, Index
+  224–227 (no picture-credits page). 7 additive IAL content types as in SB1.
+- **Formula orphans:** the docling 2.33 blank-formula bug (this lane's
+  formula-provenance note above) affects SB2 identically — 278 empty formula
+  regions exported to `pipeline/evidence/formula_orphans_sb2.json` for a
+  future verbatim manual-transcription rescue (SB1's manual_formula law;
+  display equations survive as plain OCR text in the meantime).
+- **Polish R1:** glue census 90% of chunks (12+ char runs); 794/826 selected
+  (67 chapter_questions forced); runner staged
+  (`pipeline/scripts/llm_repair_ial_physics_sb2.js`), quota-walled
+  (same account-level 429 wall) — 0/794 processed, resumable per
+  `parsed/README.md` polish section.
+- Pipeline evidence: `pipeline/METHOD_AND_FINDINGS_SB2.md`,
+  `pipeline/worklog_sb2.md`, `pipeline/evidence/parse_sb2.log`,
+  `pipeline/evidence/llm_repair_ids_sb2.json`, `pipeline/docling_pages_sb2/`
+  (237 per-page checkpoints).
