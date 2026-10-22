@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version_note": "v2 (T-UGM-IMPORT-2, 2026-10-23): multi-lane corpus — per-lane blocks. Lane-1 file rows re-verified byte-identical by re-hash against #58 (main@91eed732). v1 top-level shape is preserved inside each lane block; consumers flatten lanes[].files.",
+  "version_note": "v3 (T-UGM-IMPORT-3, 2026-10-23): lane-3 block appended (pure-1-coordinate-geometry, 85 files, two-station lane geometry-of-equations + circles); lane-1/2 rows untouched from v2. v2 (T-UGM-IMPORT-2, 2026-10-23): multi-lane corpus — per-lane blocks; lane-1 rows re-verified byte-identical against #58 (main@91eed732). v1 top-level shape preserved inside each lane block; consumers flatten lanes[].files.",
   "corpus": "UGM-Resources",
   "source": {
     "site": "undergroundmathematics.org",
@@ -11,7 +11,7 @@
     "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
   },
   "built": "2026-10-22T19:10:13+06:00",
-  "file_count": 97,
+  "file_count": 182,
   "lanes": [
     {
       "task": "T-UGM-IMPORT-1",
@@ -1204,6 +1204,1010 @@
           "resource_type_label": "Review question",
           "spec_points": [
             "1.2.5"
+          ],
+          "captured": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "task": "T-UGM-IMPORT-3",
+      "lane_dir": "pure-1-coordinate-geometry",
+      "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-3 file cie-a-level-maths-20-pure-1-coordinate-geometry.json, task T-UGM-MODE1-3) — this corpus adds the text bodies under the 2026-10-23 operator attestation",
+      "capture_corpus": "syllabai-experimental undergroundmathematics/ @ cb947595 (P2 crawl + ugm-clean; spine export 1.3 rows; cross-map lane 3 in the same commit)",
+      "cross_map_of_record": {
+        "file": "undergroundmathematics/resources/derived/cross-map-coordinate-geometry.json @ cb947595",
+        "pilot": "P3c coordinate-geometry cross-map (generalisation lane 3, two-station)",
+        "aligned": 61,
+        "resources": 85
+      },
+      "built": "2026-10-23T02:05:29+06:00",
+      "file_count": 85,
+      "files": [
+        {
+          "path": "pure-1-coordinate-geometry/r6803-a-line-cuts-the-axes-to-make-a-triangle-can-we-find-its-area.md",
+          "sha256": "e6e2b6d4832dbe51a17cd1d43954529b57f82141e9643759e9a25cd7f3f0e294",
+          "ugm_id": "r6803",
+          "title": "A line cuts the axes to make a triangle; can we find its area?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6803",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6835-a-line-through-a-variable-point-creates-a-triangle-can-we-find-its-area.md",
+          "sha256": "554a4990682311e0099709d60b61a1e5d64dbb0055526f9128af9a363b4f93d9",
+          "ugm_id": "r6835",
+          "title": "A line through a variable point creates a triangle; can we find its area?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6835",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6583-a-point-y-moves-to-define-a-point-p-can-we-find-the-locus-of-p.md",
+          "sha256": "38c20d2454ff4d56b36c49f6cee7434d2e183d7302820d074d5a0ff1f075492d",
+          "ugm_id": "r6583",
+          "title": "A point $Y$ moves to define a point $P$ — can we find the locus of $P\\,$?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6583",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/between-the-lines-between-the-lines.md",
+          "sha256": "eaad426f0660b7491d0e0108d25ba50ee098a11ec5798d511d2bbe6a3200c59b",
+          "ugm_id": "between-the-lines",
+          "title": "Between the lines",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/between-the-lines",
+          "resource_type_label": "Food for thought",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5948-can-we-calculate-an-approximation-to-the-root-of-this-function.md",
+          "sha256": "18a461bd8064ad8f0fe8d1ffd288b7771b5fb216bb9fea3a1fd85ecca089b8b0",
+          "ugm_id": "r5948",
+          "title": "Can we calculate an approximation to the root of this function?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5948",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5967-can-we-find-a-rectangle-from-two-vertices-and-a-diagonal.md",
+          "sha256": "fc36d7e6679cd58ece8555c4931c28a6dc1f927fb7f1cf169088631e29e7e7b0",
+          "ugm_id": "r5967",
+          "title": "Can we find a rectangle from two vertices and a diagonal?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5967",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5281-can-we-find-an-integer-solution-to-three-simultaneous-inequalities.md",
+          "sha256": "0bab9b9f8e62ddeb8748e7a2ba5ade494b2324728aae964eea455416d29c373b",
+          "ugm_id": "r5281",
+          "title": "Can we find an integer solution to three simultaneous inequalities?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5281",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8471-can-we-find-the-area-of-this-inscribed-quadrilateral.md",
+          "sha256": "d28b37558e2f45db51d725bb244c50b02b9fffa88f34c69e1aded5a17d4d4cc4",
+          "ugm_id": "r8471",
+          "title": "Can we find the area of this inscribed quadrilateral?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r8471",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8748-can-we-find-the-area-of-this-quadrilateral.md",
+          "sha256": "5f7d31a6deac413d2eb34fb5be8b2aedeb05b78b00cf9102471d486fc6d4cb8e",
+          "ugm_id": "r8748",
+          "title": "Can we find the area of this quadrilateral?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r8748",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6366-can-we-find-the-coordinates-of-this-tilted-rectangle.md",
+          "sha256": "c7e19169b7867c7466b212beecbd4e1c2eaf1e59a218cb2a2c29ba48ac196796",
+          "ugm_id": "r6366",
+          "title": "Can we find the coordinates of this tilted rectangle?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6366",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9273-can-we-find-the-point-midway-between-an-intersection-and-a-line.md",
+          "sha256": "b03fb8b1d6e5f2425ebc43f8dfd1b1d4458c684f2b41c6c4cb2f64d6374ca6da",
+          "ugm_id": "r9273",
+          "title": "Can we find the point midway between an intersection and a line?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r9273",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2",
+            "1.3.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8408-can-we-find-the-three-inequalities-that-define-this-region.md",
+          "sha256": "bef9f18ebb97e48cf57ef9ec33137f3740e2e5be4acb1060737bf26cf471dda8",
+          "ugm_id": "r8408",
+          "title": "Can we find the three inequalities that define this region?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r8408",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7320-can-we-illustrate-this-pair-of-inequalities-on-a-graph.md",
+          "sha256": "17e766c6820fa93d9e580d82f75cf5fab91512337705b9493c550f7bcea1bed1",
+          "ugm_id": "r7320",
+          "title": "Can we illustrate this pair of inequalities on a graph?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r7320",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7757-can-we-match-this-equation-to-its-graph.md",
+          "sha256": "762d38297e25b1066428bd5498afaa0999ef6a74b3ac39d3c15445c6d6decc58",
+          "ugm_id": "r7757",
+          "title": "Can we match this equation to its graph?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r7757",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7642-can-we-maximise-the-profit-for-this-tractor-making-business.md",
+          "sha256": "4058e98c26906abe59bd9f21330605fc354e210b8cc202fd6eb80d844a2ee8a0",
+          "ugm_id": "r7642",
+          "title": "Can we maximise the profit for this tractor-making business?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r7642",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7296-can-we-plot-this-graph-and-use-it-to-solve-two-equations.md",
+          "sha256": "3225a9549556de0436a90973df6c8f38030c0454f3970a92b7c2106198b8d8b7",
+          "ugm_id": "r7296",
+          "title": "Can we plot this graph and use it to solve two equations?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r7296",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6230-can-we-reflect-this-point-in-this-line.md",
+          "sha256": "7f90757635c8e64674c31af7f6bf5f643678631a2d4cd30c105350cdad1e954b",
+          "ugm_id": "r6230",
+          "title": "Can we reflect this point in this line?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6230",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6234-can-we-show-that-this-point-moves-on-a-circle.md",
+          "sha256": "d954c96c9b7719b5fbd14c679c066cc4b7148ace8bdd0d8a9b8c49667c4923ee",
+          "ugm_id": "r6234",
+          "title": "Can we show that this point moves on a circle?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6234",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8449-can-we-show-this-parallelogram-is-a-rectangle.md",
+          "sha256": "013713cbad384c9716617518d3840ff19759a7e9c398971410f51b76e6513d22",
+          "ugm_id": "r8449",
+          "title": "Can we show this parallelogram is a rectangle?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r8449",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/cartesian-coordinates-cartesian-coordinates.md",
+          "sha256": "829a107bf406e584e4f2614fc72f4a1bf1d51a460b5bc689955a674f7f66487f",
+          "ugm_id": "cartesian-coordinates",
+          "title": "Cartesian coordinates",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/cartesian-coordinates",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [
+            "1.3.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5661-given-a-right-angle-and-the-equations-of-two-sides-can-we-find-the-third.md",
+          "sha256": "4908d72cc54017fb2195382dcca9a05486f10d81c5bb6e34ed2fd373f8412d8b",
+          "ugm_id": "r5661",
+          "title": "Given a right angle and the equations of two sides, can we find the third?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5661",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5887-if-we-know-the-sum-and-product-of-two-numbers-what-are-they.md",
+          "sha256": "05653b3f17ee83eb999df1e7bb20d14a5eb4c170cd9e3df093d26d08ea185b7f",
+          "ugm_id": "r5887",
+          "title": "If we know the sum and product of two numbers, what are they?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5887",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/lots-of-lines-lots-of-lines.md",
+          "sha256": "acd89a5339988c3a703645c52f0ff643c38d50a5cc2c47ccc63cd96f2c75683c",
+          "ugm_id": "lots-of-lines",
+          "title": "Lots of lines!",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/lots-of-lines",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.3.2",
+            "1.3.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/near-miss-near-miss.md",
+          "sha256": "6b33148b6e563d15ab9ca63fcd7cf24717e8a5a0429dee7adda4a93ba79759b3",
+          "ugm_id": "near-miss",
+          "title": "Near miss",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/near-miss",
+          "resource_type_label": "Food for thought",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/negatively-triangular-negatively-triangular.md",
+          "sha256": "e6b5e2b000c9a1b1dedd708331143ab24fe3c4d36b3f36bc1b50da2a2a95ff5b",
+          "ugm_id": "negatively-triangular",
+          "title": "Negatively triangular",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/negatively-triangular",
+          "resource_type_label": "Many ways problem",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6514-no-solutions-or-infinitely-many.md",
+          "sha256": "b8e4e80f128262b12a1786577d54afd685036a5f1517789ea41421ad0afb8ee5",
+          "ugm_id": "r6514",
+          "title": "No solutions, or infinitely many?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r6514",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8080-one-distance-is-double-another-can-we-find-a-locus.md",
+          "sha256": "bcc3c682d069feedf72cae0cccb478a2af3a1e8a1390b91a53d9a1441e02079d",
+          "ugm_id": "r8080",
+          "title": "One distance is double another; can we find a locus?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r8080",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/simultaneous-squares-simultaneous-squares.md",
+          "sha256": "91f9eea4a3b8791c69cbd896ad97291e9dd39b6abf66028318e7298c61951b88",
+          "ugm_id": "simultaneous-squares",
+          "title": "Simultaneous squares",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/simultaneous-squares",
+          "resource_type_label": "Investigation",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/spot-the-difference-spot-the-difference.md",
+          "sha256": "df4c88fd2d8cc91a586d19aa19e8569601d15203daa652b550846a1dfaccd0c4",
+          "ugm_id": "spot-the-difference",
+          "title": "Spot the difference",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/spot-the-difference",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/straight-line-pairs-straight-line-pairs.md",
+          "sha256": "b89d8aef9dc11af68e62e4ef95c79c87bc97371469a2b2ba71c1522d879ec376",
+          "ugm_id": "straight-line-pairs",
+          "title": "Straight line pairs",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/straight-line-pairs",
+          "resource_type_label": "Investigation",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/describing-straight-lines-straight-lines.md",
+          "sha256": "56ed7deb1a080624592fe05604597f3dc379a2c5ca164dfd5b1b06cd51f8fb7e",
+          "ugm_id": "describing-straight-lines",
+          "title": "Straight lines",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/describing-straight-lines",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.3.2",
+            "1.3.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/the-circle-of-apollonius-coordinate-edition-the-circle-of-apollonius-coordinate-edition.md",
+          "sha256": "1af2fac64f08b5f931ef6155187fc49483f49e3f454b0067ba11d192e1e1ae98",
+          "ugm_id": "the-circle-of-apollonius-coordinate-edition",
+          "title": "The circle of Apollonius... coordinate edition",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/the-circle-of-apollonius-coordinate-edition",
+          "resource_type_label": "Many ways problem",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/the-equation-of-a-straight-line-the-equation-of-a-straight-line.md",
+          "sha256": "2d5b6b3913b23060d42f00c35e171fdd73fc52ab05ed68d997d6cfcfca1833d3",
+          "ugm_id": "the-equation-of-a-straight-line",
+          "title": "The equation of a straight line",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/the-equation-of-a-straight-line",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9709-what-is-the-largest-x-to-satisfy-these-three-inequalities.md",
+          "sha256": "8fce723a8b3c6f23fdfd6e92b246280b7676cf7e7e3aed22096afa0f208861e3",
+          "ugm_id": "r9709",
+          "title": "What is the largest $x$ to satisfy these three inequalities?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r9709",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5255-what-s-the-locus-of-the-intersection-of-these-variable-lines.md",
+          "sha256": "7d812cb883768c2da2736d121633a0b67835ad41af9c43e43514e627b63c56ea",
+          "ugm_id": "r5255",
+          "title": "What's the locus of the intersection of these variable lines?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5255",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5202-where-is-the-foot-of-the-perpendicular-from-a-point-to-a-line.md",
+          "sha256": "33f349aee203bc1579915172a0a0eee3d693afdc1823751cc545f869d394fbae",
+          "ugm_id": "r5202",
+          "title": "Where is the foot of the perpendicular from a point to a line?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5202",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.1",
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5737-which-four-inequalities-define-this-region.md",
+          "sha256": "6b29efcc9d395d6581d1e23ef61f6da125d77944fd216490f46c6d00365f3c9b",
+          "ugm_id": "r5737",
+          "title": "Which four inequalities define this region?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r5737",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9617-which-of-these-graphs-shows-the-area-a-c-as-c-varies.md",
+          "sha256": "3034d0539f08a82ccfdd62b50f3a107282efd04c7a48869d880084725e8a6ec1",
+          "ugm_id": "r9617",
+          "title": "Which of these graphs shows the area $A(c)$ as $c$ varies?",
+          "url": "https://undergroundmathematics.org/geometry-of-equations/r9617",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/belt-belt.md",
+          "sha256": "9c96c4f2ffa6fc6a27ff7e21d620bad527acb65bf5d94288525984d66a922bd4",
+          "ugm_id": "belt",
+          "title": "Belt",
+          "url": "https://undergroundmathematics.org/circles/belt",
+          "resource_type_label": "Food for thought",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8225-can-we-find-the-area-between-three-touching-circles.md",
+          "sha256": "868558939c47ea914780dffcf1063c309bb7858739ecd78fa690ab7ed351d196",
+          "ugm_id": "r8225",
+          "title": "Can we find the area between three touching circles?",
+          "url": "https://undergroundmathematics.org/circles/r8225",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9386-can-we-find-the-area-bounded-by-these-two-graphs.md",
+          "sha256": "01f6c8e34d255ebf630b8f40db2a45d3ea8a91d6ad0cb86141f57d69a7b6e812",
+          "ugm_id": "r9386",
+          "title": "Can we find the area bounded by these two graphs?",
+          "url": "https://undergroundmathematics.org/circles/r9386",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8946-can-we-find-the-areas-enclosed-between-a-circle-and-its-tangent.md",
+          "sha256": "cc3f8978e2a1255e58f1e077e35aa0a9e9b635cfa8de419ff9c922f4c6caa306",
+          "ugm_id": "r8946",
+          "title": "Can we find the areas enclosed between a circle and its tangent?",
+          "url": "https://undergroundmathematics.org/circles/r8946",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8216-can-we-find-the-circles-through-the-points-where-two-ellipses-meet.md",
+          "sha256": "29d11f6ca0efc6c5ad1e4a92ac337f5d3fa3ae14eff95492c62ec07185549f84",
+          "ugm_id": "r8216",
+          "title": "Can we find the circles through the points where two ellipses meet?",
+          "url": "https://undergroundmathematics.org/circles/r8216",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5777-can-we-find-the-equation-of-the-inscribed-circle-of-the-triangle-abc.md",
+          "sha256": "28a7ba390d43ea0ccc0d2351b90ad81ffe774b99c4341561bac13cf47a3ff341",
+          "ugm_id": "r5777",
+          "title": "Can we find the equation of the inscribed circle of the triangle $ABC$?",
+          "url": "https://undergroundmathematics.org/circles/r5777",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5624-can-we-find-the-equations-of-two-circles-that-touch-another.md",
+          "sha256": "4c5b7e2eef61ae38b9db9507f5bdd77503d6d2d54fe19bed297e89b12cf80121",
+          "ugm_id": "r5624",
+          "title": "Can we find the equations of two circles that touch another?",
+          "url": "https://undergroundmathematics.org/circles/r5624",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7816-can-we-find-the-ratio-of-the-areas-of-these-two-sectors.md",
+          "sha256": "ea980b2d8d3947b3e43610a0d4b90d472854d791e45fb542ddd126ad2d5691b2",
+          "ugm_id": "r7816",
+          "title": "Can we find the ratio of the areas of these two sectors?",
+          "url": "https://undergroundmathematics.org/circles/r7816",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5903-can-we-find-the-tangents-to-this-circle-from-the-origin.md",
+          "sha256": "c7849a1e509807cd0761ef122b1ed0312238ff8bb20a9a784ad787bd59d77d09",
+          "ugm_id": "r5903",
+          "title": "Can we find the tangents to this circle from the origin?",
+          "url": "https://undergroundmathematics.org/circles/r5903",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8419-can-we-find-the-two-circles-that-satisfy-these-three-conditions.md",
+          "sha256": "a608f093d70fbced7c29d8a3870e3afcadf554a733753503c6b5b0d929cfffda",
+          "ugm_id": "r8419",
+          "title": "Can we find the two circles that satisfy these three conditions?",
+          "url": "https://undergroundmathematics.org/circles/r8419",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7656-can-we-show-that-circle-area-triangle-area-geq-pi.md",
+          "sha256": "2daddce68ce6beadb9df68170d0eec6675c34ff5508ec4b0834fc82b24fff2e0",
+          "ugm_id": "r7656",
+          "title": "Can we show that (circle area)/(triangle area) $\\geq \\pi$?",
+          "url": "https://undergroundmathematics.org/circles/r7656",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5717-can-we-show-that-these-four-points-lie-on-a-circle.md",
+          "sha256": "0821fbf87bf9d3358e0e62b370dc5e3bed3f944721e97afd9aae5e46a2f46f07",
+          "ugm_id": "r5717",
+          "title": "Can we show that these four points lie on a circle?",
+          "url": "https://undergroundmathematics.org/circles/r5717",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6100-can-we-show-that-these-two-circles-touch.md",
+          "sha256": "4622f0b18564c8896fa394d5a42fd82c2c837ef1fdf6c5a19f1f718719b742fd",
+          "ugm_id": "r6100",
+          "title": "Can we show that these two circles touch?",
+          "url": "https://undergroundmathematics.org/circles/r6100",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8051-can-we-show-the-locus-of-the-midpoint-of-pq-is-an-ellipse.md",
+          "sha256": "1aaf1ae05a6e7009cabc54db0d5548c848f02c183fdff78c111e9a83d3742728",
+          "ugm_id": "r8051",
+          "title": "Can we show the locus of the midpoint of $PQ$ is an ellipse?",
+          "url": "https://undergroundmathematics.org/circles/r8051",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6390-can-we-show-these-two-circles-lie-entirely-outside-each-other.md",
+          "sha256": "c9f0ed564d760f8558354bbf6e1403f0dc6e0ef46b15ab88834919c5a0dbb324",
+          "ugm_id": "r6390",
+          "title": "Can we show these two circles lie entirely outside each other?",
+          "url": "https://undergroundmathematics.org/circles/r6390",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7549-can-we-show-this-quartic-equation-has-exactly-two-real-roots.md",
+          "sha256": "b1451cb1deb64cc8677bdaf3a69933c1ef95f77c0257c20028e1c987b022bbe1",
+          "ugm_id": "r7549",
+          "title": "Can we show this quartic equation has exactly two real roots?",
+          "url": "https://undergroundmathematics.org/circles/r7549",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/cones-cones.md",
+          "sha256": "5f83d4de4111cdf7a84bc28cf013b34eda09c7bd3c0d11c707b53c8d1f3504fd",
+          "ugm_id": "cones",
+          "title": "Cones",
+          "url": "https://undergroundmathematics.org/circles/cones",
+          "resource_type_label": "Building blocks",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/conic-sections-in-real-life-conic-sections-in-real-life.md",
+          "sha256": "c87d622f6e4b94802d6d2777d2665eb691edf2f7f9101e3c23fac45c22b5d73c",
+          "ugm_id": "conic-sections-in-real-life",
+          "title": "Conic sections in real life",
+          "url": "https://undergroundmathematics.org/circles/conic-sections-in-real-life",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/cutting-spheres-cutting-spheres.md",
+          "sha256": "703c1f404bb970487a94c4893bf19dfee7e6f620917eecbe840c2521e90b61df",
+          "ugm_id": "cutting-spheres",
+          "title": "Cutting spheres",
+          "url": "https://undergroundmathematics.org/circles/cutting-spheres",
+          "resource_type_label": "Food for thought",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/elliptical-crossings-elliptical-crossings.md",
+          "sha256": "3847ba1203a7610e2afea6f1f3fb086db2348aa4052d399d9e905eb4be18431c",
+          "ugm_id": "elliptical-crossings",
+          "title": "Elliptical crossings",
+          "url": "https://undergroundmathematics.org/circles/elliptical-crossings",
+          "resource_type_label": "Package of problems",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/finding-circles-finding-circles.md",
+          "sha256": "0840592f9f5706078820b50f8d0a5c4fb1286ee88878c9390968e3b1a310bd29",
+          "ugm_id": "finding-circles",
+          "title": "Finding circles",
+          "url": "https://undergroundmathematics.org/circles/finding-circles",
+          "resource_type_label": "Many ways problem",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9368-given-three-clues-can-we-find-the-equation-of-this-circle.md",
+          "sha256": "29adf90ffaf7f9fbb979af60c74959ff2de5ad9703ede1abf5b95249d8b51428",
+          "ugm_id": "r9368",
+          "title": "Given three clues, can we find the equation of this circle?",
+          "url": "https://undergroundmathematics.org/circles/r9368",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9551-given-two-lines-crossing-a-circle-can-we-show-these-lengths-are-equal.md",
+          "sha256": "69711614fe9bf066a0bb1f1778648d4a89ceebe866f2f54c27115d889bbbdaad",
+          "ugm_id": "r9551",
+          "title": "Given two lines crossing a circle, can we show these lengths are equal?",
+          "url": "https://undergroundmathematics.org/circles/r9551",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7385-how-much-of-this-log-is-below-the-surface.md",
+          "sha256": "5837af50fe8eef7084a4c902e551d4d90e246b1e8f2b1dc99b8d861e3877c6e5",
+          "ugm_id": "r7385",
+          "title": "How much of this log is below the surface?",
+          "url": "https://undergroundmathematics.org/circles/r7385",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9045-if-aq-qp-lambda-1-can-we-show-q-lies-on-a-circle.md",
+          "sha256": "96c74d6f806e38bb711d06a1db74a5df184f3567804f4f99529b526a84dac1c3",
+          "ugm_id": "r9045",
+          "title": "If $AQ:QP=\\lambda:1$, can we show $Q$ lies on a  circle?",
+          "url": "https://undergroundmathematics.org/circles/r9045",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6645-if-x-2-y-2-leq1-when-does-x-y-have-a-maximum.md",
+          "sha256": "cec3fd7c5d8abbba8e5fbf7d75bf96c9ed95ad13f5ad328b7380c4c406a22d4b",
+          "ugm_id": "r6645",
+          "title": "If $x^2+y^2\\leq1$, when does $x+y$ have a maximum?",
+          "url": "https://undergroundmathematics.org/circles/r6645",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9423-if-we-know-the-difference-in-their-areas-how-big-are-these-sectors.md",
+          "sha256": "1403e4e71545f4f25222b935d0255a07242aa7b229b835453a3cad8b7387a741",
+          "ugm_id": "r9423",
+          "title": "If we know the difference in their areas, how big are these sectors?",
+          "url": "https://undergroundmathematics.org/circles/r9423",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/olympic-rings-olympic-rings.md",
+          "sha256": "75821da228445be5fd30cd68a83968916098d75fa38ef964da4d0bb979acecb2",
+          "ugm_id": "olympic-rings",
+          "title": "Olympic rings",
+          "url": "https://undergroundmathematics.org/circles/olympic-rings",
+          "resource_type_label": "Problem requiring decisions",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/pairs-of-circles-pairs-of-circles.md",
+          "sha256": "5a4f07b99539e9a649b9c3974d2da44005f8b2f2ae77e53a250e431f6f1ef240",
+          "ugm_id": "pairs-of-circles",
+          "title": "Pairs of circles",
+          "url": "https://undergroundmathematics.org/circles/pairs-of-circles",
+          "resource_type_label": "Package of problems",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/sector-spirals-sector-spirals.md",
+          "sha256": "87c43db75bb232578c89afc303f165d4374afdc3ded1dd33f0090c7fad639520",
+          "ugm_id": "sector-spirals",
+          "title": "Sector spirals",
+          "url": "https://undergroundmathematics.org/circles/sector-spirals",
+          "resource_type_label": "Fluency exercise",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/teddy-bear-teddy-bear.md",
+          "sha256": "5ded5ff5f40aeb66dcea20fb9e6436356df48bf320245685617f7a64f408008d",
+          "ugm_id": "teddy-bear",
+          "title": "Teddy bear",
+          "url": "https://undergroundmathematics.org/circles/teddy-bear",
+          "resource_type_label": "Package of problems",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/teddy-bear-teacher-support-teddy-bear-teacher-support.md",
+          "sha256": "d3b156c2d83f3c5b557203887ec50201deb146420ca3429c04d6af3bf683b113",
+          "ugm_id": "teddy-bear-teacher-support",
+          "title": "Teddy bear - teacher support",
+          "url": "https://undergroundmathematics.org/circles/teddy-bear-teacher-support",
+          "resource_type_label": "Resource in action",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7937-what-area-do-these-intersecting-circles-share.md",
+          "sha256": "f8f8272035ebd17ccf900b177c63c0daf644f2d490ab6853d59f94f734828b8e",
+          "ugm_id": "r7937",
+          "title": "What area do these intersecting circles share?",
+          "url": "https://undergroundmathematics.org/circles/r7937",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8509-what-can-we-deduce-if-the-loci-traced-out-by-two-points-touch.md",
+          "sha256": "2653113be50aa443ae5fb4fe34d179e6e8f1cfd7969f85c7acdd2d09f6d5acd8",
+          "ugm_id": "r8509",
+          "title": "What can we deduce if the loci traced out by two points touch?",
+          "url": "https://undergroundmathematics.org/circles/r8509",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7925-what-can-we-say-if-two-circles-cut-at-right-angles.md",
+          "sha256": "b2b8b2b8e13261d759986341e73139d9af8b155cc8ad5d711ddb96d9b109882a",
+          "ugm_id": "r7925",
+          "title": "What can we say if two circles cut at right angles?",
+          "url": "https://undergroundmathematics.org/circles/r7925",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r5754-what-is-the-locus-of-these-points-fixed-to-a-rod.md",
+          "sha256": "d973e1943560839f1004a53c2c426dbd92733231901f781dbfb7f5fe5e739d7f",
+          "ugm_id": "r5754",
+          "title": "What is the locus of these points fixed to a rod?",
+          "url": "https://undergroundmathematics.org/circles/r5754",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7495-what-s-the-area-inside-both-the-circle-c-and-the-triangle-t.md",
+          "sha256": "f651651ee01aeaf42e4651c06fda627efa95910486030d0f9c22b6cbe157e9d7",
+          "ugm_id": "r7495",
+          "title": "What's the area inside both the circle $C$ and the triangle $T$?",
+          "url": "https://undergroundmathematics.org/circles/r7495",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6164-what-s-the-area-of-this-square-if-it-sits-in-this-sector.md",
+          "sha256": "58510a084426b08c60fcf7b9bedce5bd878e62a85377b7d22d7a77ab6cf25236",
+          "ugm_id": "r6164",
+          "title": "What's the area of this square if it sits in this sector?",
+          "url": "https://undergroundmathematics.org/circles/r6164",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9768-what-s-the-locus-of-p-q-if-the-length-of-this-tangent-equals-p.md",
+          "sha256": "6710c4b11a5af99aab78f8f07b5a3c016d40549c33b4c4fede3ed665ad4a7d39",
+          "ugm_id": "r9768",
+          "title": "What's the locus of $(p, q)$ if the length of this tangent equals $p$?",
+          "url": "https://undergroundmathematics.org/circles/r9768",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r6838-what-s-the-shared-area-for-these-two-circles.md",
+          "sha256": "22380234ad1a81bee2bd01d38ea24b6ae58bf7068fb2a8d2ead8942ad46345a3",
+          "ugm_id": "r6838",
+          "title": "What's the shared area for these two circles?",
+          "url": "https://undergroundmathematics.org/circles/r6838",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7979-when-does-a-circle-touch-a-parabola-twice.md",
+          "sha256": "fcdc0b103297637e3587bf29088ed32597744c4098af11db57eaba0f58636287",
+          "ugm_id": "r7979",
+          "title": "When does a circle touch a parabola twice?",
+          "url": "https://undergroundmathematics.org/circles/r7979",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7599-when-does-the-origin-lie-inside-this-circle.md",
+          "sha256": "5cc6be2e0491e18a202d8c2eef7b574bbda9976174f0322589480b3c6ad75d57",
+          "ugm_id": "r7599",
+          "title": "When does the origin lie inside this circle?",
+          "url": "https://undergroundmathematics.org/circles/r7599",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9028-when-does-this-area-within-a-circle-have-a-maximum-value.md",
+          "sha256": "4ff11fc3b05753467c2dd3b30900abbfea4aa35541c54551c95908002ca555ac",
+          "ugm_id": "r9028",
+          "title": "When does this area within a circle have a maximum value?",
+          "url": "https://undergroundmathematics.org/circles/r9028",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/where-are-you-where-are-you.md",
+          "sha256": "0fc21638abf64f7faf7b4bb3a0d62e345fe3bc46e0c6501d573b1898ef4d0b82",
+          "ugm_id": "where-are-you",
+          "title": "Where are you?",
+          "url": "https://undergroundmathematics.org/circles/where-are-you",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r7171-where-do-this-pair-of-tangents-to-a-circle-meet.md",
+          "sha256": "a384241831b6f56eacfad1697547626b5d0f74f318d633c0a8cfaf4e981725f5",
+          "ugm_id": "r7171",
+          "title": "Where do this pair of tangents to a circle meet?",
+          "url": "https://undergroundmathematics.org/circles/r7171",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r9452-which-point-on-the-first-circle-is-closest-to-the-second.md",
+          "sha256": "35f9aa215f5b228c87b3346f007125031e390a61861cdd30dc0c51be21f0c254",
+          "ugm_id": "r9452",
+          "title": "Which point on the first circle is closest to the second?",
+          "url": "https://undergroundmathematics.org/circles/r9452",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-coordinate-geometry/r8275-which-point-on-this-circle-is-closest-to-the-origin.md",
+          "sha256": "faf0cd577df55c0b2fc19c4d1759da622ed22aa093ace3348ea6d30f73190a4d",
+          "ugm_id": "r8275",
+          "title": "Which point on this circle is closest to the origin?",
+          "url": "https://undergroundmathematics.org/circles/r8275",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.3.2"
           ],
           "captured": "2026-10-22"
         }

@@ -6,7 +6,7 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** two lanes of record.
+**Status:** three lanes of record.
 
 - **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
   landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
@@ -19,10 +19,16 @@ preservation-grade snapshot of a stable source.
   `SyllabAI/syllabai-experimental` (27/38 aligned to CIE 9709 P1 1.2.1–1.2.5;
   11 honest non-overlaps incl. 2 interactive-only pages whose bodies of record
   are honest empty states).
+- **Lane 3 — `pure-1-coordinate-geometry/`** (85 resources of the UGM *Geometry of Equations* +
+  *Circles* stations — the first two-station lane, task **`T-UGM-IMPORT-3`**). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-coordinate-geometry.json` (task **`T-UGM-MODE1-3`**).
+  Cross-map of record: `cross-map-coordinate-geometry.json` in `SyllabAI/syllabai-experimental`
+  (61/85 aligned to CIE 9709 P1 1.3.1–1.3.2 with spine fragments 1.3.1a/1.3.2a folded of record;
+  24 honest non-overlaps — the circles station's radian-mensuration/theorem strands serve other lanes).
 
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
-the text bodies. `MANIFEST.json` is **v2 (multi-lane)** — one block per lane,
-lane-1 rows re-verified byte-identical at the v2 build.
+the text bodies. `MANIFEST.json` is **v3 (multi-lane)** — one block per lane;
+lane-1/2 rows carried forward untouched from v2.
 
 ## Rights and licensing authority
 
