@@ -43,7 +43,7 @@ Give the name of a diatomic molecule.
 
 ### 1(a)(iv) [1]
 
-Give the name of a metal element. 
+Give the name of a metal element.
 
 
 **Mark scheme answer**
@@ -115,7 +115,7 @@ Complete the chemical equation for the reaction. Mg + 2HCl → +
 
 ### 2(c) [2]
 
-Draw a sketch graph to show how the volume of hydrogen changes with time until the reaction has finished. Volume Time 
+Draw a sketch graph to show how the volume of hydrogen changes with time until the reaction has finished. Volume Time
 
 ![graph — official paper figure (qp.pdf p.6)](assets/asset_2_c_graph.png)
 
@@ -233,7 +233,7 @@ Calculate the relative atomic mass (Ar) of magnesium. Give your answer to one de
 
 ### 3(b) [1]
 
-Which of these compounds is an insoluble solid? 
+Which of these compounds is an insoluble solid?
 
 - **(A)** calcium nitrate
 - **(B)** calcium sulfate  ✔
@@ -252,7 +252,7 @@ Which of these compounds is an insoluble solid? 
 
 ### 3(c) [3]
 
-Magnesium oxide is an ionic compound. The diagrams show the atoms of magnesium and oxygen. Mg O Draw diagrams to show the structure of each ion in magnesium oxide. Include the charge on each ion. 
+Magnesium oxide is an ionic compound. The diagrams show the atoms of magnesium and oxygen. Mg O Draw diagrams to show the structure of each ion in magnesium oxide. Include the charge on each ion.
 
 
 **Mark scheme answer**
@@ -271,7 +271,7 @@ Magnesium oxide is an ionic compound. The diagrams show the atoms of magnesium a
 
 ### 3(d) [5]
 
-The table lists some substances and shows which substance conducts electricity. Substance Conducts electricity? water no solid magnesium chloride no aqueous magnesium chloride yes Explain these observations. Refer to structure and bonding in your answer. 
+The table lists some substances and shows which substance conducts electricity. Substance Conducts electricity? water no solid magnesium chloride no aqueous magnesium chloride yes Explain these observations. Refer to structure and bonding in your answer.
 
 ![table — official paper figure (qp.pdf p.10)](assets/asset_3_d_table.png)
 
@@ -383,7 +383,7 @@ Complete the chemical equation for this reaction. 2CH3COOH + Na2CO3 → + +
 
 ### 4(b)(ii) [2]
 
-State two observations seen in this reaction. 1 2 
+State two observations seen in this reaction. 1 2
 
 
 **Mark scheme answer**
@@ -477,7 +477,7 @@ Name the most suitable piece of apparatus for measuring 25.0 cm3 of potassium hy
 
 ### 5(a)(ii) [1]
 
-State why the student places the conical flask on a white tile. 
+State why the student places the conical flask on a white tile.
 
 
 **Mark scheme answer**
@@ -518,13 +518,13 @@ Place ticks (ü) in the table to show which results are concordant.
 
 > 1
 > 27.40 27.65 27.30 27.35
->   
+> ✓ ✓ ✓
 
 - **(1)** 1
 
 ### 5(c)(ii) [1]
 
-Use the concordant results to calculate the mean volume of sulfuric acid added. mean volume of sulfuric acid = cm3 
+Use the concordant results to calculate the mean volume of sulfuric acid added. mean volume of sulfuric acid = cm3
 
 
 **Mark scheme answer**
@@ -599,7 +599,7 @@ The student repeats the titration without the methyl orange indicator. They add 
 
 ## Question 6 (10 marks)
 
-Hydrogen reacts with iodine vapour to form hydrogen iodide, HI This is the equation for the reaction. H2(g) + I2(g)  2HI(g) ΔH = +26 kJ/mol
+Hydrogen reacts with iodine vapour to form hydrogen iodide, HI This is the equation for the reaction. H2(g) + I2(g) ⇌ 2HI(g) ΔH = +26 kJ/mol
 
 **(b)** In a sealed container at equilibrium, the reaction conditions are 500°C and 2 atm.
 
@@ -618,7 +618,7 @@ Give the test for hydrogen.
 
 ### 6(a)(ii) [1]
 
-State what the symbol  represents.
+State what the symbol ⇌ represents.
 
 
 **Mark scheme answer**
@@ -652,7 +652,7 @@ The temperature of the reaction mixture is increased to 600°C, but the pressure
 
 ### 6(b)(ii) [2]
 
-The pressure of the reaction mixture is decreased to 1 atm but the temperature is kept at 500°C. Explain the effect, if any, on the yield of hydrogen iodide at equilibrium. 
+The pressure of the reaction mixture is decreased to 1 atm but the temperature is kept at 500°C. Explain the effect, if any, on the yield of hydrogen iodide at equilibrium.
 
 
 **Mark scheme answer**
