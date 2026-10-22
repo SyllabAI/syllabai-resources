@@ -2802,5 +2802,25 @@
    "substrateManifestSha256": "83f595b0ce33d8b4",
    "v2OfRecord": "T-RULE-T2-APPLY-2 run-002 (PR #300 @ 17e2c89e)"
   }
+ },
+ "operator_mis_tag_repoint": {
+  "cie-a-level-chemistry-25": {
+   "lane": "T-RULE-T2-MISTAG-1",
+   "appliedUtc": "2026-10-23T10:00:00Z",
+   "bank": "cie-a-level-chemistry-25",
+   "parts": 10,
+   "partsChanged": 8,
+   "entriesRemoved": 3,
+   "entriesAdded": 11,
+   "keepAsContext": 2,
+   "keepNoOp": 1,
+   "tierPolicy": {
+    "tranche2_mis_tag_repoint": "operator part-level mis-tag adjudication (T-RULE-T2-COND-1 misTags[10], spine-verified re-points)"
+   },
+   "sidecarBlock": "anchors.misTagRepoints",
+   "sidecarSha256": "4802af4e170b6a594057fe34aaf4535b7cdbd06b8da07d7f62754d28333be98a",
+   "substrateManifestSha256": "da1fa5a1dce977a4",
+   "v2OfRecord": "T-RULE-T2-V8-RETRACT-1 run-003 (v2 PR #318 @ 41fb011)"
+  }
  }
 }
