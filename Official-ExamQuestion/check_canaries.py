@@ -420,8 +420,12 @@ for c in cans:
             # pins re-prove specific evidenced mappings at their exact parts,
             # so a silent PUA_MAP regression (e.g. mapping a glyph to '')
             # cannot pass the absence law.
+            # v0.13.1 (F52): the optional canary field extra_chars [[bad, good], ...]
+            # extends the absence law beyond the PUA range to any evidenced
+            # source-char artifact (the MyriadPro-It italic-Delta U+01FB).
             ok = True
             n_files = 0
+            extra_bad = {chr(x[0]): x for x in (c.get("extra_chars") or [])}
 
             def _walk(o, path, hits):
                 if isinstance(o, dict):
@@ -434,6 +438,8 @@ for c in cans:
                     for idx, ch in enumerate(o):
                         if 0xE000 <= ord(ch) <= 0xF8FF:
                             hits.append(f"{path}[{idx}]=U+{ord(ch):04X}")
+                        elif ch in extra_bad:
+                            hits.append(f"{path}[{idx}]=U+{ord(ch):04X} (extra_chars law)")
 
             for d in sorted(BASE.iterdir()):
                 if not d.is_dir():

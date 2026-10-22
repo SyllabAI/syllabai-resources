@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
- "converter_version_floor": "0.12.0",
+ "converter_version_floor": "0.13.1",
  "canaries": [
   {
    "id": "C3-baseline-unchanged",
@@ -658,6 +658,41 @@
     "8(b)(iii)",
     "8(b)(iv)",
     "8(b)(v)"
+   ]
+  },
+  {
+   "id": "C65-delta-normalization",
+   "series": "*",
+   "assertion": "F52 source-char normalization: no served string in any topic.json carries U+01FB (the MyriadPro-It italic-Delta artifact, bytes C7 BB) — every printed italic Delta surfaces as U+0394; pins re-prove the three fixed parts at their exact strings.",
+   "check": "no_pua_served",
+   "extra_chars": [
+    [
+     507,
+     916
+    ]
+   ],
+   "pins": [
+    {
+     "series": "2020-01",
+     "paper": "1CR",
+     "part": "6(c)(i)",
+     "field": "problem",
+     "contains": "Calculate the molar enthalpy change, ΔH, in kJ/mol."
+    },
+    {
+     "series": "2020-01",
+     "paper": "2CR",
+     "part": "6(b)(iv)",
+     "field": "problem",
+     "contains": "the enthalpy change, ΔH."
+    },
+    {
+     "series": "2020-01",
+     "paper": "2CR",
+     "part": "6(c)",
+     "field": "problem",
+     "contains": "calculate the enthalpy change, ΔH,"
+    }
    ]
   }
  ]

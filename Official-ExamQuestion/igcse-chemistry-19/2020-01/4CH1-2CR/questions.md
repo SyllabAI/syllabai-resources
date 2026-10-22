@@ -605,7 +605,7 @@ Give one other way that the rate of reaction between ethene gas and hydrogen gas
 
 ### 6(b)(iv) [3]
 
-The reaction between ethene and hydrogen is exothermic. Complete the reaction profile diagram, including labels for the activation energy and the enthalpy change, ǻH. C 2 H4 + H 2 Energy
+The reaction between ethene and hydrogen is exothermic. Complete the reaction profile diagram, including labels for the activation energy and the enthalpy change, ΔH. C 2 H4 + H 2 Energy
 
 ![diagram — official paper figure (qp.pdf p.19)](assets/asset_6_b_iv_diagram.png)
 
@@ -631,7 +631,7 @@ The reaction between ethene and hydrogen is exothermic. Complete the reaction pr
 
 ### 6(c) [3]
 
-The reaction between ethene and hydrogen can be represented using displayed formulae. H H H H C=C + H H –o H C C H H H H H Bond energy in Bond kJ/mol C C 612 C H 412 H H 436 C C 348 Use the bond energies in the table to calculate the enthalpy change, ǻH, in kJ/mol for this reaction. ǻH = kJ/mol
+The reaction between ethene and hydrogen can be represented using displayed formulae. H H H H C=C + H H –o H C C H H H H H Bond energy in Bond kJ/mol C C 612 C H 412 H H 436 C C 348 Use the bond energies in the table to calculate the enthalpy change, ΔH, in kJ/mol for this reaction. ΔH = kJ/mol
 
 ![table — official paper figure (qp.pdf p.20)](assets/asset_6_c_table.png)
 
