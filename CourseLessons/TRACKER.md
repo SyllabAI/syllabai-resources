@@ -6,7 +6,7 @@
 > allowed for narrative notes only — status truth lives in `tracker.yaml`
 > via `lessonctl.py tracker` transactions (receipt-anchored).
 
-**Last regenerated:** 2026-10-22 (T-BOOK-032 r0) · **Agent convention:** every status
+**Last regenerated:** 2026-10-22 (T-BOOK-033/flip r0 — u1:c01 pack published) · **Agent convention:** every status
 change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 
 ---
@@ -23,7 +23,7 @@ change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 
 | # | Lesson (chapter_key) | Folder | Stage | Sections done | Boxes | Lint | Last receipt | Owner (last agent) |
 |---|---|---|---|---|---|---|---|---|
-| 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S4 (authored) | 13/13 | full allowlist coverage (key-point/exam-hint/misconception ×13; quick-check ×13; worked-example ×2; safety ×2; closing set) | PASS (0/0, stage S4) | qa/receipt.yaml (S1-S4) | T-BOOK-032 r0 |
+| 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S4 (authored; **pack PUBLISHED**) | 13/13 | full allowlist coverage (key-point/exam-hint/misconception ×13; quick-check ×13; worked-example ×2; safety ×2; closing set) | PASS (0/0, stage S4) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-032 r0 (author) / T-BOOK-033/flip r0 (publish) |
 
 (Sections column = `sections[].status: done` count vs spine length.
 Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+.)
@@ -32,7 +32,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 
 | Phase | Lessons | Status |
 |---|---|---|
-| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4, draft pack emitted); c02–c05 next** |
+| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a162e924c017891; hub re-bake same day) — c02–c05 next** |
 | Unit 1 rest | u1:c06–c10 | not started |
 | Unit 2 | u2:c11–c18 | not started |
 | Unit 3 | u3:c19–c21 | not started |
