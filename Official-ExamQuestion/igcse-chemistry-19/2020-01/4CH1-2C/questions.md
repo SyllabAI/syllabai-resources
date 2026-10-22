@@ -189,7 +189,7 @@ Catalytic cracking also produces alkenes. C11H24 can undergo cracking to give pe
 
 **Mark scheme answer**
 
-> (C11H24  C5H12) + C2H4 + C4H8 alkenes can be in either
+> (C11H24 → C5H12) + C2H4 + C4H8 alkenes can be in either
 > order
 > M1 C2H4
 > M2 C4H8 ALLOW 1 mark for
@@ -538,7 +538,7 @@ Give the chemical equation for this reaction.
 
 **Mark scheme answer**
 
-> C2H5OH + 3O2  2CO2 + 3H2O
+> C2H5OH + 3O2 → 2CO2 + 3H2O
 > M1 all formulae correct ALLOW C2H6O for
 > ethanol
 > M2 balancing of correct formulae ACCEPT multiples and
@@ -634,13 +634,13 @@ Give the word equation for this reaction.
 
 **Mark scheme answer**
 
-> calcium + water  calcium hydroxide + hydrogen ACCEPT fully correct
+> calcium + water → calcium hydroxide + hydrogen ACCEPT fully correct
 > balanced chemical equation.
-> Ca + 2H2O  Ca(OH)2 + H2
+> Ca + 2H2O → Ca(OH)2 + H2
 > IGNORE state symbols even
 > if incorrect
 
-- **(1)** calcium + water  calcium hydroxide + hydrogen ACCEPT fully correct
+- **(1)** calcium + water → calcium hydroxide + hydrogen ACCEPT fully correct
 
 ### 7(a)(ii) [2]
 
@@ -703,7 +703,7 @@ Give an ionic equation for the reaction that occurs. Include state symbols in yo
 
 **Mark scheme answer**
 
-> Ba2+(aq) + SO42-(aq)  BaSO4(s) If formulae incorrect or full
+> Ba2+(aq) + SO42-(aq) → BaSO4(s) If formulae incorrect or full
 > equation given (even if
 > M1 all formulae correct incorrect) M2 can still be
 > awarded for correct state

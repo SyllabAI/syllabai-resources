@@ -70,24 +70,24 @@ Give the name of this change of state.
 
 ### 1(c)(ii) [1]
 
-Write an equation, including state symbols, to show the change of state of water from a gas to a liquid. 
+Write an equation, including state symbols, to show the change of state of water from a gas to a liquid.
 
 
 **Mark scheme answer**
 
-> H2O(g)  H2O(l) ACCEPT multiples
+> H2O(g) → H2O(l) ACCEPT multiples
 > Formula must be GR
 > correct
 > ALLOW
-> steam(g)  water(l)
-> water(g)  water(l)
+> steam(g) → water(l)
+> water(g) → water(l)
 > Water vapour(g)
-> water(l)
+> →water(l)
 > ALLOW upper case
 > letters for state symbols
 > Ignore missing brackets
 
-- **(1)** H2O(g)  H2O(l) ACCEPT multiples
+- **(1)** H2O(g) → H2O(l) ACCEPT multiples
 
 ### 1(d) [2]
 
@@ -122,7 +122,7 @@ Table 1 shows some relative masses and charges of subatomic particles. Complete 
 > 2
 > Electron Proton Neutron
 > Relative mass 0.0005 1
-> Relative charge 1 +1
+> Relative charge −1 +1
 > ALLOW - + All 4 correct 2 marks
 > 2 or 3 correct 1 mark
 
@@ -130,7 +130,7 @@ Table 1 shows some relative masses and charges of subatomic particles. Complete 
 
 ### 2(b)(i) [1]
 
-What is the atomic number of P in table 2? 
+What is the atomic number of P in table 2?
 
 - **(A)** 2
 - **(B)** 3  ✔
@@ -281,7 +281,7 @@ Give the name of mixture D.
 
 ### 3(a)(v) [1]
 
-Give a use for mixture B. 
+Give a use for mixture B.
 
 
 **Mark scheme answer**
@@ -440,7 +440,7 @@ Calculate the Mr for carbon dioxide. Mr =
 
 ### 4(a)(vii) [1]
 
-Give a reason why it is not possible to give information for air in the table. 
+Give a reason why it is not possible to give information for air in the table.
 
 ![table — official paper figure (qp.pdf p.10) — shared with asset_4_a_table_stem](assets/asset_4_a_table_stem.png)
 
@@ -484,12 +484,12 @@ Give a chemical equation for this reaction.
 
 **Mark scheme answer**
 
-> CuCO3  CuO + CO2 ALLOW multiples and
+> CuCO3 → CuO + CO2 ALLOW multiples and
 > fractions
 > IGNORE state symbols even
 > if incorrect
 
-- **(1)** CuCO3  CuO + CO2 ALLOW multiples and
+- **(1)** CuCO3 → CuO + CO2 ALLOW multiples and
 
 
 ## Question 5 (17 marks)
@@ -550,15 +550,15 @@ Complete the equation for this reaction. C2H6 + Br2 → +
 
 **Mark scheme answer**
 
-> C2H6 + Br2  C2H5Br + HBr ALLOW multiple
+> C2H6 + Br2 → C2H5Br + HBr ALLOW multiple
 > substitutions as long as the
 > equation is balanced
 
-- **(1)** C2H6 + Br2  C2H5Br + HBr ALLOW multiple
+- **(1)** C2H6 + Br2 → C2H5Br + HBr ALLOW multiple
 
 ### 5(b)(iii) [1]
 
-Give the name for this type of reaction. 
+Give the name for this type of reaction.
 
 
 **Mark scheme answer**
@@ -609,7 +609,7 @@ State what you would observe when ethane and ethene are added separately to two 
 
 ### 5(e) [3]
 
-Explain why straight‑chain alkenes always have the same empirical formula, but straight‑chain alkanes have different empirical formulae. Refer to the molecular formulae of the alkanes C2H6 and C4H10 in your answer. 
+Explain why straight‑chain alkenes always have the same empirical formula, but straight‑chain alkanes have different empirical formulae. Refer to the molecular formulae of the alkanes C2H6 and C4H10 in your answer.
 
 
 **Mark scheme answer**
@@ -674,7 +674,7 @@ Give the test for oxygen.
 
 ### 6(b) [2]
 
-Complete the dot‑and‑cross diagram for a molecule of hydrogen peroxide. Show outer electrons only. H O O H 
+Complete the dot‑and‑cross diagram for a molecule of hydrogen peroxide. Show outer electrons only. H O O H
 
 ![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_b_diagram.png)
 
@@ -700,14 +700,20 @@ Plot the student’s results on the grid.
 
 > all points plotted correctly to the nearest grid line
 > (+-1/2 small square)
-> (ii) best fit curve starting at 0 and levelling off at 94 cm3 Ecf possible from
-> misplotted point
 
 - **(1)** all points plotted correctly to the nearest grid line
 
 ### 6(c)(ii) [1]
 
-Draw a curve of best fit. 100 Volume of oxygen in cm3 0 20 40 60 80 100 120 140 160 Time in seconds 
+Draw a curve of best fit. 100 Volume of oxygen in cm3 0 20 40 60 80 100 120 140 160 Time in seconds
+
+
+**Mark scheme answer**
+
+> best fit curve starting at 0 and levelling off at 94 cm3 Ecf possible from
+> misplotted point
+
+- **(1)** best fit curve starting at 0 and levelling off at 94 cm3 Ecf possible from
 
 ### 6(d)(i) [3]
 
@@ -730,16 +736,25 @@ Explain in terms of particle collision theory how decreasing the concentration a
 > energy/particle
 > movement mentioned in
 > answer
-> (ii) M1 curve starting at 0 and less steep than original curve
-> M2 curve levelling off at 46-48 cm3 inclusive
 
-- **(3)** An explanation that links the following three points
+- **(1)** fewer particles (in the same volume) REJECT if reference to
+- **(1)** fewer collisions per unit time/less frequent collisions IGNORE less chance of
+- **(1)** (so) rate of reaction decreases MAX 1 mark can be
 
 ### 6(d)(ii) [2]
 
 The student repeats the experiment using the same volume of hydrogen peroxide solution but with half the original concentration. All other conditions are kept the same. On the grid, draw the curve you would expect the student to obtain.
 
 ![grid — official paper figure (qp.pdf p.16) — shared with 6(c)(i)](assets/asset_6_c_i_grid.png)
+
+
+**Mark scheme answer**
+
+> M1 curve starting at 0 and less steep than original curve
+> M2 curve levelling off at 46-48 cm3 inclusive
+
+- **(1)** curve starting at 0 and less steep than original curve
+- **(1)** curve levelling off at 46-48 cm3 inclusive
 
 ### 6(e) [2]
 
@@ -762,7 +777,7 @@ In this reaction, the manganese(IV) oxide acts as a catalyst. Explain how a cata
 
 ### 7(a) [6]
 
-A technician needs to identify the solution in an unlabelled bottle. The technician knows that the solution contains one of these compounds. • iron(II) bromide • iron(II) chloride • iron(III) bromide • iron(III) chloride Describe how the technician can use chemical tests to identify the compound. 
+A technician needs to identify the solution in an unlabelled bottle. The technician knows that the solution contains one of these compounds. • iron(II) bromide • iron(II) chloride • iron(III) bromide • iron(III) chloride Describe how the technician can use chemical tests to identify the compound.
 
 
 **Mark scheme answer**
@@ -780,16 +795,16 @@ A technician needs to identify the solution in an unlabelled bottle. The technic
 > REJECT addition of
 > hydrochloric or
 > sulfuric acid for M4
-> M5 if cream precipitate forms it is a bromide/Br M5 and M6 dep on
+> M5 if cream precipitate forms it is a bromide/Br− M5 and M6 dep on
 > addition of silver
-> M6 if white precipitate forms it is a chloride/Cl nitrate
+> M6 if white precipitate forms it is a chloride/Cl− nitrate
 
 - **(1)** add sodium hydroxide (solution) ALLOW add (aqueous)
 - **(1)** if a green precipitate forms it is an iron(II)/Fe2+ M2 and M3 dep on M1
 - **(1)** if a brown precipitate forms it is an iron(III)/Fe3+ ALLOW red-
 - **(1)** add silver nitrate (solution to a fresh sample) IGNORE addition of
-- **(1)** if cream precipitate forms it is a bromide/Br M5 and M6 dep on
-- **(1)** if white precipitate forms it is a chloride/Cl nitrate
+- **(1)** if cream precipitate forms it is a bromide/Br− M5 and M6 dep on
+- **(1)** if white precipitate forms it is a chloride/Cl− nitrate
 
 ### 7(b) [3]
 
@@ -798,7 +813,7 @@ When chlorine gas is passed over heated iron powder, iron(III) chloride forms. T
 
 **Mark scheme answer**
 
-> M1 moles of iron = 2.8  56 = 0.05(0)
+> M1 moles of iron = 2.8 ÷ 56 = 0.05(0)
 > M2 2 mol iron reacts with 3 mol chlorine
 > M3 moles of Fe to react with Cl2 = 0.060 × 2 = 0.04(0)
 > (so iron is in excess)
@@ -808,13 +823,13 @@ When chlorine gas is passed over heated iron powder, iron(III) chloride forms. T
 > M3 moles of Fe to react with Cl2 = 0.060 × 2 = 0.04(0)
 > M4 0.04(0) × 56 = 2.24 g (so iron is in excess)
 > OR
-> M1 moles of iron = 2.8  56 = 0.05(0)
+> M1 moles of iron = 2.8 ÷ 56 = 0.05(0)
 > M2,M3
 > moles of Cl2 to react with Fe = 0.05(0) × 3 = 0.075
 > (so 0.060 moles is not enough, so iron is in excess)
 > MAXIMUM 3 MARKS
 
-- **(3)** M1 moles of iron = 2.8  56 = 0.05(0)
+- **(3)** M1 moles of iron = 2.8 ÷ 56 = 0.05(0)
 
 ### 7(c)(i) [1]
 
@@ -888,7 +903,7 @@ Explain why diamond has a high melting point.
 
 ### 8(c) [2]
 
-Explain why graphite is a good conductor of electricity. 
+Explain why graphite is a good conductor of electricity.
 
 
 **Mark scheme answer**
@@ -959,7 +974,7 @@ State why it is important to relight the hydrogen at the end of the tube if the 
 
 ### 9(a)(iii) [2]
 
-Explain why it is important to continue passing hydrogen into the tube and burning the hydrogen at the end of the tube until the contents have cooled. 
+Explain why it is important to continue passing hydrogen into the tube and burning the hydrogen at the end of the tube until the contents have cooled.
 
 
 **Mark scheme answer**
@@ -995,13 +1010,13 @@ Calculate the amount, in moles, of oxygen atoms in the sample of the metal oxide
 
 **Mark scheme answer**
 
-> M1 mass of oxygen = 4.46  4.14 OR 0.32 (g) correct answer without
+> M1 mass of oxygen = 4.46 − 4.14 OR 0.32 (g) correct answer without
 > working scores 2
-> M2 (moles of oxygen atoms = 0.32  16 =) 0.02(0) ALLOW ecf on incorrect
+> M2 (moles of oxygen atoms = 0.32 ÷ 16 =) 0.02(0) ALLOW ecf on incorrect
 > mass of oxygen atoms
 
-- **(1)** mass of oxygen = 4.46  4.14 OR 0.32 (g) correct answer without
-- **(1)** (moles of oxygen atoms = 0.32  16 =) 0.02(0) ALLOW ecf on incorrect
+- **(1)** mass of oxygen = 4.46 − 4.14 OR 0.32 (g) correct answer without
+- **(1)** (moles of oxygen atoms = 0.32 ÷ 16 =) 0.02(0) ALLOW ecf on incorrect
 
 ### 9(b)(ii) [1]
 
@@ -1023,7 +1038,7 @@ Calculate the relative atomic mass of M. relative atomic mass of M =
 
 **Mark scheme answer**
 
-> M1 (Ar of M =) 4.14  0.02(0) ALLOW ecf from (ii)
+> M1 (Ar of M =) 4.14 ÷ 0.02(0) ALLOW ecf from (ii)
 > M2 207 207 without working
 > scores 2
 > ALLOW ecf on incorrect
@@ -1031,7 +1046,7 @@ Calculate the relative atomic mass of M. relative atomic mass of M =
 > moles -use of 4.46 gives
 > 223 (scores 1)
 
-- **(1)** (Ar of M =) 4.14  0.02(0) ALLOW ecf from (ii)
+- **(1)** (Ar of M =) 4.14 ÷ 0.02(0) ALLOW ecf from (ii)
 - **(1)** 207 207 without working
 
 ### 9(b)(iv) [1]
@@ -1072,7 +1087,7 @@ State why the mixture is filtered.
 
 ### 10(b) [4]
 
-Describe how a pure, dry sample of hydrated zinc nitrate crystals could be obtained from the filtrate. 
+Describe how a pure, dry sample of hydrated zinc nitrate crystals could be obtained from the filtrate.
 
 
 **Mark scheme answer**
@@ -1127,7 +1142,7 @@ The actual yield of hydrated zinc nitrate crystals is 36.4 g. Calculate the perc
 
 **Mark scheme answer**
 
-> M1 36.4  44.55 × 100 ALLOW ecf from (i)
+> M1 36.4 ÷ 44.55 × 100 ALLOW ecf from (i)
 > M2 81.7(%) ALLOW any number of sig figs
 > except 1 but rounded
 > correctly
@@ -1138,6 +1153,6 @@ The actual yield of hydrated zinc nitrate crystals is 36.4 g. Calculate the perc
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** 36.4  44.55 × 100 ALLOW ecf from (i)
+- **(1)** 36.4 ÷ 44.55 × 100 ALLOW ecf from (i)
 - **(1)** 81.7(%) ALLOW any number of sig figs
 
