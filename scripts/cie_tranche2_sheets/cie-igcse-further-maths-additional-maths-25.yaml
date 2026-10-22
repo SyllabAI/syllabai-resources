@@ -9,8 +9,8 @@ law: 'operator_verdict is the only authoritative class for the no-match pool (AD
   via cie_tranche2_batch_encode.py; the 134c gate stays parked while the census is unchanged'
 pool_law: MAP zero-code universe (r1 receipt materialFinding) — NOT the sidecar codes-empty state
 substrate_pins:
-  map_sha256: 017e9d7108152b03cb03567b02aad2f3dd5fa0ca9c2766ca89e48f249bd25c4f
-  sidecar_sha256: 3ab9f7f58bdbc3d6b326c7a57492c2d6bf7fa0ef6caf99f890bc6aca1d7b8325
+  map_sha256: 666b42d1243634b47477bfe69933ee7b3fb29bbed4181d0ff074e35a08003774
+  sidecar_sha256: 96b53c9d253d21f84aa68d5e7c2f558b9c60d2cc9228be5411cd729bccbf7269
   spec_point_index_sha256: 1f4dddaa666774e96545c3acf09dcbd2aff9efe81f46c76aa4b70efc24378dd9
   registry_qual: cie-igcse-further-maths-additional-maths-2025-2027
 reconciliation:
@@ -63,9 +63,9 @@ pool:
   distinct_sids: 97
   sidless_parts_tranche3_class: 12
   class_census:
-    declared_link: 2
+    declared_link: 39
     multi_hit: 1
-    no_match: 94
+    no_match: 57
   official_points_in_scope: 68
   candidate_cap: 200
 ruling_schema_doc: 'per sid — anchor: {official_code, official_id} (one or more; official_id must be the registry
@@ -85,13 +85,15 @@ rows:
   - qstnprt_GFYV7VknfVXgDJ2b
   note_refs:
   - rn_b6fxNBw2PGpd3Fn8
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id004
+  - 1.3.4
+  - 1.3.5
   ruling: PENDING
 - sid: spcpt_2b724HbPFJPDMZ2Y
   sme_name: Domain & Range of Inverse Functions
@@ -108,13 +110,14 @@ rows:
   - qstnprt_V5kfPwX3nXj5TZ9p
   note_refs:
   - rn_c8Bd6tTJ5RgvhFtT
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id006
+  - 1.6.2
   ruling: PENDING
 - sid: spcpt_38crrsQhJKNDqnWH
   sme_name: Second Order Derivatives
@@ -129,13 +132,14 @@ rows:
   - qstnprt_ySNG2dmkrMcNmmxG
   note_refs:
   - rn_mmQN8pg3H2RvbGB6
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id002
+  - 14.2.2
   ruling: PENDING
 - sid: spcpt_3VsSczXgRNskFpVz
   sme_name: Modulus Cubic Graphs
@@ -182,13 +186,17 @@ rows:
   - qstnprt_xRK6Dzq2Bwq2S5rw
   note_refs:
   - rn_GFw49vy4nRqKHG3c
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id007
+  - 10.5.1
+  - 10.5.2
+  - 10.5.3
+  - 10.5.4
   ruling: PENDING
 - sid: spcpt_3t6BzhCCD9MHSK8X
   sme_name: Modelling Velocities with Vectors
@@ -243,13 +251,15 @@ rows:
   - qstnprt_znSqzV7cWpz9rgF4
   note_refs:
   - rn_52gmVh89WQx5PxzZ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id001
+  - 6.2.1
+  - 6.2.2
   ruling: PENDING
 - sid: spcpt_4grcDgq3ZPzXqWcx
   sme_name: Differentiating e^x & lnx
@@ -275,13 +285,14 @@ rows:
   - qstnprt_wwBtWtMHfFx3K67y
   note_refs:
   - rn_jFGbjbvCm4qjqMcJ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id003
+  - 14.3.2
   ruling: PENDING
 - sid: spcpt_5CR4bZZmb6VNWxVT
   sme_name: Problem Solving with Permutations & Combinations
@@ -347,13 +358,14 @@ rows:
   - qstnprt_k9ZHqbwshXsRDXfC
   note_refs:
   - rn_5K75HHBqBdnVn7sN
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id005
+  - 10.4.2
   ruling: PENDING
 - sid: spcpt_69qXcFBbcmd6HWHX
   sme_name: Completing the Square
@@ -421,13 +433,14 @@ rows:
   - qstnprt_yR8ybcmhsfJZ2Qzm
   note_refs:
   - rn_vCfvVt6zxHNF5S4v
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 13.3.2
   ruling: PENDING
 - sid: spcpt_7BHPktVdQnJG7Kgq
   sme_name: Displacement, Velocity & Acceleration
@@ -481,13 +494,13 @@ rows:
   - qstnprt_vgzrvY9pvGGpYB5n
   note_refs:
   - rn_52gmVh89WQx5PxzZ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id001
   ruling: PENDING
 - sid: spcpt_7VHhcbpGm4bQrx3v
   sme_name: Chain Rule
@@ -649,13 +662,14 @@ rows:
   - qstnprt_ctWWg4qgzfc9vpz2
   note_refs:
   - rn_QTtTN4pD9gh2KrDD
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 14.2.2
   ruling: PENDING
 - sid: spcpt_8t6PxrTbYZBMSWXQ
   sme_name: Graphs of Trig Functions
@@ -728,13 +742,15 @@ rows:
   - qstnprt_jG7JXwJGhrq2ncvg
   note_refs:
   - rn_YNz42vJ47pgmDPFZ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 10.6.1
+  - 10.6.2
   ruling: PENDING
 - sid: spcpt_C5CX4bT5T5fKrR5d
   sme_name: Testing for Local Minimum & Maximum Points
@@ -752,13 +768,13 @@ rows:
   - qstnprt_rT9qR6gdWCcyhXqr
   note_refs:
   - rn_mmQN8pg3H2RvbGB6
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id002
   ruling: PENDING
 - sid: spcpt_CXSqYKHRkdwnHbdw
   sme_name: Parallel Lines
@@ -839,13 +855,14 @@ rows:
   - qstnprt_wKdwxThDN65kd6SZ
   note_refs:
   - rn_BKKzWdyHN8jgBtJ3
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 14.15.3
   ruling: PENDING
 - sid: spcpt_DdW4C2wKbf4Pn2Ty
   sme_name: Solving Quadratics by Factorising
@@ -1002,13 +1019,13 @@ rows:
   - qstnprt_v2CF5JrJ9vzWwvrV
   note_refs:
   - rn_jFGbjbvCm4qjqMcJ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id003
   ruling: PENDING
 - sid: spcpt_HDV2QKZhrpNm9GYJ
   sme_name: Inequalities on Graphs
@@ -1023,13 +1040,15 @@ rows:
   - qstnprt_MzFygrt2XNNQNSmM
   note_refs:
   - rn_cDrSDbQfYnbWmTwk
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id013
+  - 2.5.1
+  - 2.5.2
   ruling: PENDING
 - sid: spcpt_J4yG78VbHv8xST3p
   sme_name: Exponential Functions
@@ -1123,13 +1142,16 @@ rows:
   - qstnprt_x2gm88ZfpysWvkc7
   note_refs:
   - rn_VdtrzdCWGBZfm2wp
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 14.12.2
+  - 14.12.3
+  - 14.12.4
   ruling: PENDING
 - sid: spcpt_N2d7b7XT2gzcq6Mz
   sme_name: Integrating e^x & 1/x
@@ -1153,13 +1175,15 @@ rows:
   - qstnprt_zxs7KGsX27jdZMCD
   note_refs:
   - rn_M4BvnTC9rwJhbdjy
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 14.11.1
+  - 14.12.5
   ruling: PENDING
 - sid: spcpt_N8PS5Sgsz8vCHW7q
   sme_name: Reciprocal Trig Functions
@@ -1200,13 +1224,13 @@ rows:
   - qstnprt_yMQHdrZ4SSfnMhXW
   note_refs:
   - rn_b6fxNBw2PGpd3Fn8
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id004
   ruling: PENDING
 - sid: spcpt_NfNBhBGVj6NP5t5s
   sme_name: Area Under a Curve
@@ -1225,13 +1249,16 @@ rows:
   - qstnprt_xVPvmRb99HQXtfnT
   note_refs:
   - rn_786mgyFhwNGF6ym6
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 14.13.1
+  - 14.13.2
+  - 14.13.3
   ruling: PENDING
 - sid: spcpt_NfwGSdrHSQtd7Hm9
   sme_name: Area of a Sector
@@ -1381,13 +1408,13 @@ rows:
   - qstnprt_r5dT9KBZVgRVYgfp
   note_refs:
   - rn_5K75HHBqBdnVn7sN
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id005
   ruling: PENDING
 - sid: spcpt_T9nZHcf2qK49B5pP
   sme_name: Arithmetic Series
@@ -1440,13 +1467,13 @@ rows:
   - qstnprt_rDfkVbVtmbK7kP23
   note_refs:
   - rn_mmQN8pg3H2RvbGB6
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id002
   ruling: PENDING
 - sid: spcpt_Tkq54FVG7c9TsQ6c
   sme_name: Solving Modulus Equations
@@ -1467,13 +1494,17 @@ rows:
   - qstnprt_XcjsqjYQVygQMPNN
   note_refs:
   - rn_vKZyFsHdY4Bs3m6F
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id008
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
   ruling: PENDING
 - sid: spcpt_TvBTg3PdqhCKDMcC
   sme_name: Logarithmic Functions
@@ -1520,13 +1551,13 @@ rows:
   - qstnprt_xNScJJcHw5wjJWV8
   note_refs:
   - rn_c8Bd6tTJ5RgvhFtT
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id006
   ruling: PENDING
 - sid: spcpt_W6qk7y5NY3skmtYq
   sme_name: Hidden Quadratic Equations
@@ -1644,13 +1675,16 @@ rows:
   - qstnprt_zBb8rc5fjS62k5n7
   note_refs:
   - rn_pNJT5cG2rG7kfbPZ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
   ruling: PENDING
 - sid: spcpt_Zndqd25fHNYPKVMZ
   sme_name: Integrating Composite Functions (ax+b)
@@ -1670,13 +1704,18 @@ rows:
   - qstnprt_vVXTNCGJs9WxH9HS
   note_refs:
   - rn_jB7byhHQQZ27z58W
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id009
+  - 14.12.1
+  - 14.12.2
+  - 14.12.3
+  - 14.12.4
+  - 14.12.5
   ruling: PENDING
 - sid: spcpt_ZydKgKr5dTycvPvp
   sme_name: Intersection of Two Circles
@@ -1692,13 +1731,16 @@ rows:
   - qstnprt_HhK8JHhRZGWjKpB7
   note_refs:
   - rn_GX5bBg8dY2YdcRtn
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id010
+  - 8.4.1
+  - 8.4.2
+  - 8.4.3
   ruling: PENDING
 - sid: spcpt_cWq7d2hrR4fZkxtW
   sme_name: Applications of Discriminant
@@ -1804,13 +1846,13 @@ rows:
   - qstnprt_zYKRqHtjsNPR7dMX
   note_refs:
   - rn_GFw49vy4nRqKHG3c
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id007
   ruling: PENDING
 - sid: spcpt_h8zq2Wx95W5M7kZB
   sme_name: Magnitude of a Vector
@@ -1856,13 +1898,13 @@ rows:
   - qstnprt_m2s3v7f7cpVYCGnj
   note_refs:
   - rn_vKZyFsHdY4Bs3m6F
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id008
   ruling: PENDING
 - sid: spcpt_hd3mfrNrkCXYMS4j
   sme_name: Substitution Method
@@ -1908,13 +1950,14 @@ rows:
   - qstnprt_ts7gBvqsj56TYTcN
   note_refs:
   - rn_6XHnSB5gcxzV9rMQ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id012
+  - 8.1.2
   ruling: PENDING
 - sid: spcpt_kGrd4J3kVJVyMPtJ
   sme_name: Length of an Arc
@@ -1967,13 +2010,14 @@ rows:
   - qstnprt_zsySfkKmxpb9PHch
   note_refs:
   - rn_JTYRqf9MZSrGbnFj
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: &id011
+  - 7.4.1
   ruling: PENDING
 - sid: spcpt_mvBk4XZgQmTP4bnD
   sme_name: Differentiation for Kinematics
@@ -2095,13 +2139,13 @@ rows:
   - qstnprt_m9WgtwPwtrxs4VQS
   note_refs:
   - rn_GFw49vy4nRqKHG3c
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id007
   ruling: PENDING
 - sid: spcpt_pwBvmphGXzWcW2xh
   sme_name: Binomial Expansion
@@ -2205,13 +2249,13 @@ rows:
   - qstnprt_v2CF5JrJ9vzWwvrV
   note_refs:
   - rn_jB7byhHQQZ27z58W
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id009
   ruling: PENDING
 - sid: spcpt_rNBh9Hv9B4nxcQnz
   sme_name: Equation of Common Chord
@@ -2226,13 +2270,13 @@ rows:
   - qstnprt_g3743nH3Jwr2Mm7Q
   note_refs:
   - rn_GX5bBg8dY2YdcRtn
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id010
   ruling: PENDING
 - sid: spcpt_rVQXdvGwFqtnNSvD
   sme_name: Solving Exponential Equations
@@ -2297,13 +2341,13 @@ rows:
   - qstnprt_yQr7T4XkNQ5c4jcd
   note_refs:
   - rn_c8Bd6tTJ5RgvhFtT
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id006
   ruling: PENDING
 - sid: spcpt_rwSjKzS5YrPmtq9x
   sme_name: Product Rule
@@ -2429,13 +2473,13 @@ rows:
   - qstnprt_ssDmqnN9gRh4xFrn
   note_refs:
   - rn_JTYRqf9MZSrGbnFj
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id011
   ruling: PENDING
 - sid: spcpt_v7G5PNqmCFK47VWw
   sme_name: Arithmetic Sequences
@@ -2506,13 +2550,13 @@ rows:
   - qstnprt_ts7gBvqsj56TYTcN
   note_refs:
   - rn_6XHnSB5gcxzV9rMQ
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id012
   ruling: PENDING
 - sid: spcpt_w3hb87JScmvzrv7b
   sme_name: Transformations of Trig Functions
@@ -2554,13 +2598,13 @@ rows:
   - qstnprt_mR62JdBM5t8wPFXc
   note_refs:
   - rn_cDrSDbQfYnbWmTwk
-  cls: no_match
+  cls: declared_link
   wide_phrase_hits: []
   map_scoped_codes: []
   scoped_candidates: []
   candidates_truncated: false
   candidates_topic_total: 0
-  declared_note_codes: null
+  declared_note_codes: *id013
   ruling: PENDING
 - sid: spcpt_xr9KqPmDKQdy6Nvt
   sme_name: Equations of a Straight Line

@@ -1,7 +1,7 @@
 # T-SPECS-CIE-TRANCHE2-R2-SHEETS-1 — cie-a-level-chemistry-25 operator review sheet
 
 - Pool (MAP universe): 1336 verdict-unit parts (1633 part-sid declarations) / 256 distinct sids; sid-less (tranche-3 class): 6
-- Sidecar cross-foot: 1336 pending parts (1633 declarations) / 256 sids
+- Sidecar cross-foot: 1314 pending parts (1604 declarations) / 255 sids
 - Class census: {'J4_residue': 1, 'declared_link': 20, 'multi_hit': 10, 'no_match': 224, 'record_less': 1}
 - Law: the operator rules per sid (anchor / quarantine / defer); the lane never invents (ADR-030, AGENT.md rule 3). Ruled batches → scripts/cie_tranche2_batches/{batch_id}.yaml → cie_tranche2_batch_encode.py.
 
