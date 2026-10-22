@@ -4,6 +4,44 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.13.0 — 2026-10-22 · the 2CR tranche: the second R-variant corpus + evidenced PUA extensions (trace 1a16373bc7d373fd)
+
+The R-VARIANT SCHEDULE's second tranche converts: 11 × 4CH1/2CR papers (2019-06 → 2026-06,
+79 Q / 423 P / 770 marks, every series G0–G7 PASS with Σ=70/70 footer-enforced), staged
+from the archive of record (r2cr staging: qp/manifests from the footer-verified r-verify
+set, ms.pdf fetched fresh per series, text layers regenerated; every PDF sha256-pinned
+against its manifest, 22/22). All parts enter `pending-llm` under the anchor law — the
+spec-label waves are the next step (636 1CR parts already waiting). The improvement loop
+is QUIET this tranche: no parser law changed; every series passed G0–G7 + NC 3/3 on the
+first or second pass (the two first-pass refusals were the F48 fail-closed PUA law doing
+its job). The 43-set corpus of record is byte-identical modulo generator/timestamp —
+parity evidence: the exporter's wave-16 census reproduces the wave-15 1CR slug part
+lists IDENTICALLY, and G-E1b identity holds on all 32 common sets.
+
+- **PUA map additions (F48 evidence standard)** — 2019-06 2CR prints the Wingdings2 tick
+  `\uf050` ('Add ticks (✓) to the table...', p16 render) → U+2713 (the corpus's third tick
+  glyph, after F033 ZapfDingbats + F0FC Wingdings). 2023-01 2CR prints the Symbol
+  big-bracket RIGHT trio `\uf8f9/\uf8fa/\uf8fb` (the 4(b)(ii) repeat-unit answer scaffold,
+  p9 render, positional top/mid/bottom pairing with the mapped left trio) →
+  U+23A4/23A5/23A6 — this retires the v0.12.0 right-column mirror caveat with direct
+  evidence: the 6-piece bracket pair is now fully mapped. C56 pins both corpus-wide.
+- **F45 manual-crop pass (three stubs → real crops, eyeballed)** — 2020-01 2CR 1(a)(ii)
+  five particle boxes (the MCQ options reference box numbers; particle drawings are
+  unrecoverable from text), 2020-01 2CR 6(c) displayed-formulae + bond-energy table block
+  (the text layer loses the bond glyphs: 'C C 612'), 2023-01 2CR 8(a) energy-axis scaffold
+  (same printed-skeleton class the automatic pass crops elsewhere in this tranche). Rects
+  derived from fitz drawing/word geometry, eyeballed against 150 dpi renders; live in
+  CROP-REVIEW.json (`2020-01:2CR`, `2023-01:2CR` homes), re-render deterministically.
+- **Review close-out** — 11 queue items eyeballed: 8 emitted crops accepted as-is, 3
+  crop-required stubs became the F45 manual crops above; final state 0 review flags on
+  the 2CR tranche, 11 `:2CR` CROP-REVIEW homes of record.
+- **Known artifact carried (documented, not normalized)** — 2020-01 2CR prose carries
+  `ǻH` where ΔH prints (MyriadPro-It custom encoding renders italic Delta as U+01DF);
+  the landed 2020-01 1CR corpus carries the same artifact, so both tranches are
+  consistent and G2-verbatim-faithful to their source layers. A future normalization
+  (→ U+0394 corpus-wide) is an operator-level improvement item touching both 2020-01
+  slices together.
+
 ## 0.12.1 — 2026-10-22 · exporter F51: the data-cut stamping law (G-E5)
 
 Exporter-only follow-up (converter stays 0.12.0; zero corpus changes; 65 canaries

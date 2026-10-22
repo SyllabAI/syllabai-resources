@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.12.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.13.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -63,9 +63,8 @@ EXPECT_QUESTIONS = {
            "2021-11": 7, "2022-01": 7, "2022-06": 7, "2023-01": 7, "2023-06": 7,
            "2023-11": 7, "2024-06": 7, "2024-11": 7, "2025-06": 6, "2025-11": 6,
            "2026-06": 6},
-    # R variants (F-178 schedule, footer-verified 22/22): 1CR tranche converts in
-    # this run; 2CR counts are filed with the registry per the filed protocol and
-    # convert in the 2CR tranche (no staging yet — G0 fails closed on absent files).
+    # R variants (F-178 schedule, footer-verified 22/22): both tranches convert —
+    # 1CR in the v0.12.0 run (resources PR #46), 2CR in the v0.13.0 run.
     "1CR": {"2019-06": 10, "2020-01": 11, "2020-11": 10, "2021-01": 10, "2022-01": 11,
             "2022-06": 11, "2023-01": 10, "2023-06": 11, "2024-06": 12, "2025-06": 11,
             "2026-06": 11},
@@ -184,11 +183,23 @@ PUA_MAP = {
     "\uf8ee": "\u23a1",   # Symbol big-bracket UPPER corner — the drawn repeating-unit
     "\uf8ef": "\u23a2",   #   scaffold (2022-06 1CR p21 chloroethene polymerisation):
     "\uf8f0": "\u23a3",   #   top/extension/bottom pieces, box-drawing family like F8E7.
-                          #   The text layer mirrors both columns onto these three
-                          #   codepoints (left column serves ⎡⎢⎣ top-to-bottom, right
-                          #   column serves them inverted) — the right-hand corner
-                          #   mirror is not recoverable from the text layer; the
-                          #   scaffold still reads as a bracket pair (render eyeballed)
+                          #   The 2022-06 1CR text layer mirrors both columns onto
+                          #   these three codepoints (right-corner mirror not then
+                          #   distinguishable); the 2CR run (below) evidences and
+                          #   maps the true right-column trio.
+    # 2CR tranche additions (2026-10-22, trace 1a16373bc7d373fd) — each from a
+    # PDF font trace + page render, eyeballed:
+    "\uf050": "\u2713",   # Wingdings2 check — 'Add ticks (✓) to the table to show the
+                          # concordant results' (2019-06 2CR p16 render; the third
+                          # tick glyph of the corpus, after F033 ZapfDingbats + F0FC
+                          # Wingdings — same printed semantics, U+2713 everywhere)
+    "\uf8f9": "\u23a4",   # Symbol big-bracket UPPER-RIGHT corner — the repeat-unit
+    "\uf8fa": "\u23a5",   #   answer scaffold (2023-01 2CR p9 polyester equation):
+    "\uf8fb": "\u23a6",   #   top/mid/bottom right pieces mirroring F8EE/F8EF/F8F0;
+                          #   text layer pairs them positionally (top row F8EE+F8F9,
+                          #   18 extension rows F8EF+F8FA, bottom row F8F0+F8FB),
+                          #   font trace MWAWPZ+Symbol, render eyeballed — retires
+                          #   the 1CR right-column mirror caveat with direct evidence
 }
 
 

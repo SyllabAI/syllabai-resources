@@ -61,8 +61,8 @@ jobs:
             n=$((n+1))
           done
           echo "topics staged: $n"
-          test "$n" -eq 43
-      - name: run the exporter of record (v0.12.0/F50 interface; disclosed wave census when one is filed)
+          test "$n" -eq 54
+      - name: run the exporter of record (v0.13.0 interface; disclosed wave census when one is filed)
         run: |
           mkdir -p /tmp/export-stage
           LATEST=$(ls scripts/exporter-disclosures/*.json 2>/dev/null | sort -V | tail -1 || true)

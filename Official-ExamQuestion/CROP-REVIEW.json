@@ -1,8 +1,8 @@
 {
  "schema": "syllabai.crop-review/0.1",
  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
- "reviewed_utc": "2026-10-22T04:00:00Z",
- "reviewed_by": "session agent (1CR tranche, trace 1a162ea420f90a75: all 11 v0.12.0-emitted crops viewed against their source questions; 4 crop-required stubs checked at their source pages — blank-to-draw scaffolds and prose apparatus mentions have no croppable figure; verdicts apply to part-attached assets only)",
+ "reviewed_utc": "2026-10-22T08:00:00Z",
+ "reviewed_by": "session agent (2CR tranche, trace 1a16373bc7d373fd: all 11 v0.13.0-emitted crops + 3 crop-required stubs viewed against their source PDF pages rendered at 150 dpi; 8 emitted crops accepted as-is; the 3 stubs became F45 manual crops with the rects above - CROP-REVIEW verdicts apply to part-attached assets only)",
  "reviews": {
   "2020-01": {
    "asset_4_b_ii_boxes": {
@@ -328,6 +328,91 @@
    "asset_7_b_iv_graph": {
     "verdict": "accepted",
     "note": "7(b)(iv) plotting grid with the three printed points (0,0), (1,0.8), (2,1.4) — axes labelled, grid complete"
+   }
+  },
+  "2020-01:2CR": {
+   "asset_1_a_ii_boxes": {
+    "verdict": "accepted",
+    "note": "2CR run crop-pass: the five printed particle boxes (Box 1-Box 5, p4) are the answer surface for 1(a)(i)/(ii)/(iii) - the MCQ options reference box numbers and the particle drawings are unrecoverable from the text layer; rect from the five drawn box outlines (fitz, x 74.7-520.5, y 143.3-215.0) + Box-N label word boxes (y 223.6-234.2) + pad, cropped 150 dpi vector; render eyeballed against p4",
+    "manual_crop": {
+     "page": 4,
+     "rect": [
+      70,
+      138,
+      526,
+      240
+     ]
+    }
+   },
+   "asset_6_c_table": {
+    "verdict": "accepted",
+    "note": "2CR run crop-pass: the displayed-formulae equation (H2C=CH2 + H-H -> H3C-CH3 structures, p20) plus the bond-energy table (C=C 612 / C-H 412 / H-H 436 / C-C 348) - the text layer loses the bond glyphs (\"C C 612\") and scrambles the structures, so the printed block is the faithful form; rect from the formula word boxes (x 181.2-416.1, y 89.8-153.4) + table rule union (x 183.7-411.5, y 174.9-293.9) + pad, cropped 150 dpi vector; render eyeballed against p20",
+    "manual_crop": {
+     "page": 20,
+     "rect": [
+      174,
+      84,
+      424,
+      300
+     ]
+    }
+   },
+   "asset_6_b_iv_diagram": {
+    "verdict": "accepted",
+    "note": "2CR run: reaction-profile scaffold (Energy axis + C2H4 + H2 level, p19) - complete answer surface, matches render"
+   }
+  },
+  "2023-01:2CR": {
+   "asset_8_a_diagram": {
+    "verdict": "accepted",
+    "note": "2CR run crop-pass: the printed energy-axis scaffold (p20) for 8(a) draw-the-reaction-profile - same printed-skeleton class the automatic pass crops elsewhere in this tranche (2022-06 7(c), 2025-06 7(b)(ii), both accepted); rect from the vertical arrow segment (fitz, x=108.6, y 225.7-440.0) + Energy word box (x 64.4-99.2, y 325.5-340.0) + pad; the N2 + O2 -> 2NO equation is served in text; render eyeballed",
+    "manual_crop": {
+     "page": 20,
+     "rect": [
+      58,
+      218,
+      150,
+      448
+     ]
+    }
+   },
+   "asset_7_b_table": {
+    "verdict": "accepted",
+    "note": "2CR run: indicator/final-colour completion table (p16) - headers + empty body whole, matches render"
+   }
+  },
+  "2019-06:2CR": {
+   "asset_2_a_table": {
+    "verdict": "accepted",
+    "note": "2CR run: the 6-row boron completion table (atomic number 5 pre-filled) - all rows and rules whole, matches p4 render"
+   }
+  },
+  "2022-01:2CR": {
+   "asset_7_d_diagram": {
+    "verdict": "accepted",
+    "note": "2CR run: reaction-profile scaffold (Energy axis + H2 + Cl2 level, p19) - complete, matches render"
+   }
+  },
+  "2022-06:2CR": {
+   "asset_4_a_diagram": {
+    "verdict": "accepted",
+    "note": "2CR run: copper-metal structure diagram with metal-cations/delocalised-electrons labels (p9) - complete, all circles + labels whole"
+   },
+   "asset_7_c_diagram": {
+    "verdict": "accepted",
+    "note": "2CR run: bare energy-axis scaffold (p19) - exactly what the source prints for the draw-the-diagram part"
+   }
+  },
+  "2023-06:2CR": {
+   "asset_5_c_i_grid": {
+    "verdict": "accepted",
+    "note": "2CR run: plotting grid 9.00-10.00 x 0-50 (p15) - grid + both scales + x-title whole; the rotated y-axis title clips to a fragment at the left edge but the axis meaning is served by the group (c) stem prose and the sibling 5(c)(ii) text layer"
+   }
+  },
+  "2025-06:2CR": {
+   "asset_7_b_ii_diagram": {
+    "verdict": "accepted",
+    "note": "2CR run: bare energy-axis scaffold (p20) - exactly what the source prints"
    }
   }
  }

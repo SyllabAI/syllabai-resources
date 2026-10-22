@@ -5,8 +5,8 @@ format (syllabai.sme-exam-questions/1.1 compatible, contract-additive).
 Reads  : <repo>/Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-<paper>/topic.json
          the CURRENT hub content/igcse-chemistry-19/questions.json (28 SME sets)
 Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + official sets)
-Papers : 1C + 2C (16 series each) + 1CR (11 series, R-VARIANT tranche 1); 2CR joins
-         with its tranche. Official slugs: official-4ch1-<paper>-<series>.
+Papers : 1C + 2C (16 series each) + 1CR + 2CR (11 R-series each, the F-178
+         R-VARIANT tranches). Official slugs: official-4ch1-<paper>-<series>.
 
 Export gates (fail-closed, v4 of this script — the G-E law archived on PR #27,
 landed in wave 12; F44 adds the per-paper topicSlug namespace + G-E1b identity
@@ -251,6 +251,21 @@ EXPECTED_CENSUS = {
         "2025-06": (11, 55, 110),
         "2026-06": (11, 57, 110),
     },
+    # 2CR tranche (converter v0.13.0 corpus; MULTI-SERIES-REPORT of record):
+    # (questions, parts, marks) — every set carries its printed 70/70.
+    "2CR": {
+        "2019-06": (7, 40, 70),
+        "2020-01": (7, 38, 70),
+        "2020-11": (7, 36, 70),
+        "2021-01": (8, 45, 70),
+        "2022-01": (7, 35, 70),
+        "2022-06": (7, 40, 70),
+        "2023-01": (8, 40, 70),
+        "2023-06": (7, 38, 70),
+        "2024-06": (7, 38, 70),
+        "2025-06": (7, 38, 70),
+        "2026-06": (7, 35, 70),
+    },
 }
 
 ALL_SERIES = ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
@@ -261,8 +276,9 @@ ALL_SERIES = ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
 # 2024-11/2025-11 never printed a 1CR; 2020-06 never ran at all — COVID).
 R1CR_SERIES = ["2019-06", "2020-01", "2020-11", "2021-01", "2022-01", "2022-06",
                "2023-01", "2023-06", "2024-06", "2025-06", "2026-06"]
-PAPER_SERIES = {"1C": ALL_SERIES, "2C": ALL_SERIES, "1CR": R1CR_SERIES}
-PAPERS = tuple(PAPER_SERIES)   # 2CR appended by its tranche
+PAPER_SERIES = {"1C": ALL_SERIES, "2C": ALL_SERIES,
+                "1CR": R1CR_SERIES, "2CR": R1CR_SERIES}   # same 11 series print 2CR
+PAPERS = tuple(PAPER_SERIES)   # both F-178 R-variant tranches now convert
 
 
 class ExportGateError(Exception):

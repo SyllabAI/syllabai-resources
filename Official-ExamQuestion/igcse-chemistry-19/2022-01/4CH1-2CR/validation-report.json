@@ -1,0 +1,129 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.1",
+ "generated_utc": "2026-10-22T12:12:37Z",
+ "series": "2022-01",
+ "paper": "2CR",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/2CR; series=2022-01; printed='January 2022; January 2022'; sha256 qp/ms match manifest: True; manifest variant '2CR' == requested '2CR': True",
+   "details": {
+    "qp_sha256": "3909b340a2ac15a881876b16c511aafdac591dcae133312aefa0ee9b41bb86c9",
+    "ms_sha256": "371e31a747194f0099ff466ce9dcd1bce628ceae31dcf5561ef6a62428284735",
+    "registry_paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/2CR"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "7 questions; Σ question totals=70/70; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [
+     20
+    ],
+    "count_expected": 7
+   }
+  },
+  {
+   "gate": "G2-verbatim",
+   "status": "PASS",
+   "summary": "5-gram overlap vs source region ≥0.95 for all 35 parts: True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "4 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 0 remain crop-required; 0 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 4,
+     "pending": 0,
+     "shared": 1
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 35/35 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 35 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 35/35 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 32 parts, agrees with QP marks on 32",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 32,
+    "ms_marks_agree": 32,
+    "ms_marks_disagree": []
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G1",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2",
+   "detected": true,
+   "target": "5(a)(ii)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [],
+ "ocr_pages": [],
+ "source_defects": {
+  "image_only_pages": [
+   20
+  ],
+  "affected_questions": []
+ },
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 35,
+  "pending_llm": 35,
+  "no_spec_point": 0
+ }
+}
