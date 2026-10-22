@@ -1,0 +1,27 @@
+{
+ "lane": "T-RULE-T2-APPLY-2",
+ "bank": "cie-a-level-chemistry-25",
+ "generatedUtc": "2026-10-22T13:36:36Z",
+ "directive": "stage that sidecar capture next (operator trace 1a163b0eb57bd5b1)",
+ "sources": {
+  "resolutionReceipt": "download/tranche2_conditional_resolution_r0.json (syllabai-v2 of record) — sha256 384c27fb58d6093a",
+  "b02VerbatimBatch": "cie-tranche2-r2-batches-run-002-r0.json @ bd2c0b1",
+  "v2RegistryOfRecord": "apps/hub/content-maps/cie-a-level-chemistry-25.json @ a9bd2488 (23/23 rows byte-consistent)",
+  "registryPairings": "Official-Specifications/parsed/cie-a-level-chemistry-2025-2027/664563-2025-2027-syllabus.parsed.json — 46/46 verified",
+  "sheetCensus": "cie_rejoin_resolutions.yaml — 0 rows target these 23 sids (no overwrite hazard)"
+ },
+ "counts": {
+  "sids": 23,
+  "distinctCodes": 46,
+  "unconditional": 6,
+  "conditionalResolved": 17
+ },
+ "sidecarSha256After": "7d23b94793974852f8e74c73db6a3b48bff82036109d2e1ac6e4c06c52b16188",
+ "manifestRow": true,
+ "gates": "G1 accepted-state + serialization law / G2 substrate clean vs HEAD / G3 receipt + v2-registry cross-check / G4 46-46 parsed-registry pairings / G5 additive-only (all sibling keys deep-unchanged) — ALL GREEN",
+ "disclosures": [
+  "additive only — items/totals/review_state untouched; sidecar sha moves (future batch yamls must regen their substrate pins)",
+  "7 sids carry V8 entries this ruling corrects — retraction is operator-gated, separate residual (relationToV8 per record)",
+  "consumer amendment lives in syllabai-v2 branch t-rule-t2-consume-anchors/r0 (engine law adoption by the consume lane)"
+ ]
+}
