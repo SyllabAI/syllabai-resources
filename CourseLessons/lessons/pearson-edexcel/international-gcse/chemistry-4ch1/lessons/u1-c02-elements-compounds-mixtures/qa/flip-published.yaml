@@ -1,0 +1,43 @@
+event: pack-status-flip
+pack_id: u1-c02-elements-compounds-mixtures
+chapter_key: u1:c02
+course: chemistry-4ch1
+from_status: draft
+to_status: published
+date: "2026-10-22"
+operator_command: "merge + issue the operator flip command (PR #45 pattern)"
+trace_id: "1a163f5c9173aa49"
+agent: "T-BOOK-034/flip r0 (zai-web session web-c414c074, chat 08b3170a)"
+law: >-
+  START-HERE law 7 (SUGGESTED): the flip to review/published is an explicit
+  operator command, recorded in the tracker with a receipt. This file is that
+  receipt; the paired tracker transaction is lessonctl.py tracker --set
+  pack_status=published --receipt qa/flip-published.yaml.
+authority:
+  authoring_of_record: >-
+    qa/receipt.yaml — u1:c02 authored end-to-end S1-S4 (10/10 sections),
+    lint PASS 0 errors / 0 warnings (V1-V9 at stage S4), lessonPackV1.json
+    emitted draft per the SUGGESTED law with the note "operator flip is a
+    separate command".
+  operator_note_of_record: >-
+    qa/receipt.yaml S4: "lessonPackV1.json emitted (status=draft — SUGGESTED
+    law; operator flip is a separate command)." The operator command above
+    answers that note (PR #45 pattern); target status published is the
+    serving state of the T-C20 gate (published-only shelf + reader toggle).
+post_flip:
+  source_of_record: >-
+    qa/lessonPackV1.json status: published (single top-level field edit,
+    byte-precise, no other key touched)
+  tracker: >-
+    tracker.yaml lessons.u1-c02-elements-compounds-mixtures gains
+    pack_status: published via the lessonctl.py tracker transaction
+    (receipt-anchored); TRACKER.md synced in the same commit per the
+    transaction output law.
+  hub_rebake: >-
+    syllabai-v2 lane re-runs apps/hub/scripts/import_lesson_packs.py (fetch-first,
+    SYLLABAI_PAT env-only) so the baked content-plane copy carries
+    status: published; merge to main = the git-connected hub auto-bake
+    (~90s) — the "re-bake it" half of the operator command.
+scope_notes:
+  - "lesson.yaml stage field left at its on-origin value (S4); not named by the operator order and not a serving input (stage truth is qa/receipt.yaml S1-S4)"
+  - "tracker.yaml courses.chemistry-4ch1.phases.pilot-gate.status ('not-started') predates this flip and is c01-c05 collective; left untouched — flagged for the c03-c05 authoring lanes, not a defect of this flip"
