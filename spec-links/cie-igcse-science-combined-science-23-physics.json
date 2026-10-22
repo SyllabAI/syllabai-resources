@@ -52,6 +52,49 @@
    "items": 1,
    "entries": 2,
    "note": "tranche-2 round-1 of the anchor-gap completion program: the residual T2_near census promoted to the V* authoritative class (the census receipt's tranche-2 scope, fleet-wide); no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors untouched"
+  },
+  "tranche2_batches": {
+   "combsci23-phys-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "combsci23-phys-b01",
+    "bank": "cie-igcse-science-combined-science-23-physics",
+    "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_7Rykpm3QJVXFkrjp (Calculating power)",
+    "ruled_utc": "2026-10-22T00:00:00Z",
+    "ruled_by": "operator",
+    "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-science-combined-science-23-physics.yaml",
+    "source_sheet_sha256": "7412a1e5f9dc1b142094c3865ed96076ae4b0ca5e2630de0580db5495796ce94",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "tier_semantics": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)",
+    "rulings": 1,
+    "anchored_sids": 1,
+    "quarantined_sids": 0,
+    "deferred_sids": 0,
+    "parts_touched": 1,
+    "entries_added": 2,
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "rulings_detail": [
+     {
+      "sid": "spcpt_7Rykpm3QJVXFkrjp",
+      "verdict": "anchor",
+      "codes": [
+       [
+        "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.3.1",
+        "P2.3.1"
+       ],
+       [
+        "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.3.2",
+        "P2.3.2"
+       ]
+      ],
+      "parts": [
+       "qstnprt_Gy6NjF2mrqqnnCSK"
+      ],
+      "reason": "",
+      "note": "Operator verbatim: \"Anchor: P2.3.1, P2.3.2.\""
+     }
+    ]
+   }
   }
  },
  "registry": {
@@ -61,7 +104,7 @@
  },
  "totals": {
   "items": 132,
-  "items_with_codes": 24,
+  "items_with_codes": 25,
   "by_kind": {
    "notes": 84,
    "question_parts": 48,
@@ -69,7 +112,7 @@
   },
   "coded_by_kind": {
    "notes": 16,
-   "question_parts": 8,
+   "question_parts": 9,
    "flashcards": 0
   }
  },
@@ -101,6 +144,21 @@
    "promoted_entries": 2,
    "promoted_items": 1,
    "scope": "the residual T2_near census fleet-wide (this lane's share); pending anchors untouched; the T2_near class retires fleet-wide with this round"
+  },
+  "tranche2_batches": {
+   "combsci23-phys-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "combsci23-phys-b01",
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "anchored_sids": 1,
+    "quarantined_sids": 0,
+    "deferred_sids": 0,
+    "parts_touched": 1,
+    "entries_added": 2,
+    "scope": "the map-universe review sheet's ruled sids; pending refs preserved (the declared trail); codes additive; no join re-derived (ADR-030)"
+   }
   }
  },
  "items": {
@@ -1285,7 +1343,26 @@
    "label": "qstn_bCKq28gSxdQc7HB6 / part 0",
    "section": "motion-forces-energy",
    "topic": "energy-work-power",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.3.1",
+     "official_code": "P2.3.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_7Rykpm3QJVXFkrjp"
+    },
+    {
+     "official_id": "CIE_IGCSE_SCIENCE_COMBINED_SCIENCE_2023_2024:P2.3.2",
+     "official_code": "P2.3.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_7Rykpm3QJVXFkrjp"
+    }
+   ],
    "pending": [
     "spcpt_7Rykpm3QJVXFkrjp"
    ]

@@ -1,0 +1,32 @@
+lane: T-SPECS-CIE-TRANCHE2-R2-BATCH-chem25-b01
+batch_id: chem25-b01
+bank: cie-a-level-chemistry-25
+source_sheet: scripts/cie_tranche2_sheets/cie-a-level-chemistry-25.yaml
+source_sheet_sha256: 7600659e807abcf0cab888405daf96408a4966aa068d9a18f45a0c1868c159f7
+directive: 'operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator''s first
+  tranche-2 ruling batch, verbatim instrument: "I''ve inspected the workbook. I''ll use your ruling convention:
+  anchor, split across points, quarantine, or hold for evidence. I''ll avoid forcing a match when the
+  candidate list is weak or misleading." — rows below are the operator''s table verbatim, mapped per the
+  disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate
+  to an anchor). Batch rows: spcpt_HmMgqHYYJMyF6nVN (Oxidation Numbers) | spcpt_3G5VshJ2mzwT8ssc (Enthalpy
+  Changes) | spcpt_3gMJXKdXVpBfkmWS (Interpreting & Explaining Carbon-13 NMR Spectra)'
+ruled_utc: '2026-10-22T00:00:00Z'
+ruled_by: operator
+rulings:
+- sid: spcpt_HmMgqHYYJMyF6nVN
+  verdict: anchor
+  codes:
+  - official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1
+    official_code: 6.1.1
+  - official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2
+    official_code: 6.1.2
+  note: 'Operator verbatim: "Anchor: 6.1.1, 6.1.2. Keep 2.3.1 as a candidate only if the underlying parts
+    support that additional scope." — 2.3.1 NOT encoded (conditional candidate; the open 2.3.1 question
+    returns to the operator after part-level evidence staging).'
+- sid: spcpt_3G5VshJ2mzwT8ssc
+  verdict: defer
+  reason: 'Hold: the supplied candidate scope is broad and the existing mappings do not establish which
+    individual points the linked part supports.'
+- sid: spcpt_3gMJXKdXVpBfkmWS
+  verdict: defer
+  reason: 'Hold for evidence: the supplied candidate excerpt does not establish the correct official anchor.'

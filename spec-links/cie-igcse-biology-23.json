@@ -52,6 +52,38 @@
    "items": 3,
    "entries": 3,
    "note": "tranche-2 round-1 of the anchor-gap completion program: the residual T2_near census promoted to the V* authoritative class (the census receipt's tranche-2 scope, fleet-wide); no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors untouched"
+  },
+  "tranche2_batches": {
+   "igcsebio23-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "igcsebio23-b01",
+    "bank": "cie-igcse-biology-23",
+    "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_wnsYq9ZtzYsVC62X (Transpiration)",
+    "ruled_utc": "2026-10-22T00:00:00Z",
+    "ruled_by": "operator",
+    "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-biology-23.yaml",
+    "source_sheet_sha256": "bad24ebc99020fa6ede02c2231d3a1b51d9b46c69e7a4590fdb63c8416d42f5b",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "tier_semantics": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)",
+    "rulings": 1,
+    "anchored_sids": 0,
+    "quarantined_sids": 0,
+    "deferred_sids": 1,
+    "parts_touched": 0,
+    "entries_added": 0,
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "rulings_detail": [
+     {
+      "sid": "spcpt_wnsYq9ZtzYsVC62X",
+      "verdict": "defer",
+      "codes": [],
+      "parts": [],
+      "reason": "Anchor candidates: 8.3.1-8.3.7. Confirm the individual parts before assigning every point. (Operator's candidate scope NOT encoded; part-level evidence staging returns to the operator.)",
+      "note": ""
+     }
+    ]
+   }
   }
  },
  "registry": {
@@ -101,6 +133,21 @@
    "promoted_entries": 3,
    "promoted_items": 3,
    "scope": "the residual T2_near census fleet-wide (this lane's share); pending anchors untouched; the T2_near class retires fleet-wide with this round"
+  },
+  "tranche2_batches": {
+   "igcsebio23-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "igcsebio23-b01",
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "anchored_sids": 0,
+    "quarantined_sids": 0,
+    "deferred_sids": 1,
+    "parts_touched": 0,
+    "entries_added": 0,
+    "scope": "the map-universe review sheet's ruled sids; pending refs preserved (the declared trail); codes additive; no join re-derived (ADR-030)"
+   }
   }
  },
  "items": {

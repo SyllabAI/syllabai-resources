@@ -1,0 +1,26 @@
+lane: T-SPECS-CIE-TRANCHE2-R2-BATCH-igcsechem23-b01
+batch_id: igcsechem23-b01
+bank: cie-igcse-chemistry-23
+source_sheet: scripts/cie_tranche2_sheets/cie-igcse-chemistry-23.yaml
+source_sheet_sha256: a5b7a240311f3aaba09a57fa14869a6222cb726875bf069ba413834089778b92
+directive: 'operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator''s first
+  tranche-2 ruling batch, verbatim instrument: "I''ve inspected the workbook. I''ll use your ruling convention:
+  anchor, split across points, quarantine, or hold for evidence. I''ll avoid forcing a match when the
+  candidate list is weak or misleading." — rows below are the operator''s table verbatim, mapped per the
+  disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate
+  to an anchor). Batch rows: spcpt_jxPK72xT9PSVKKw6 (Transition elements) | spcpt_tYWjkWkWSpM2vWZH (Photosynthesis)'
+ruled_utc: '2026-10-22T00:00:00Z'
+ruled_by: operator
+rulings:
+- sid: spcpt_jxPK72xT9PSVKKw6
+  verdict: anchor
+  codes:
+  - official_id: CIE_IGCSE_CHEMISTRY_2023_2025:8.4.1
+    official_code: 8.4.1
+  - official_id: CIE_IGCSE_CHEMISTRY_2023_2025:8.4.2
+    official_code: 8.4.2
+  note: 'Operator verbatim: "Anchor: 8.4.1, 8.4.2."'
+- sid: spcpt_tYWjkWkWSpM2vWZH
+  verdict: defer
+  reason: 'Hold: the supplied candidate list appears section-mismatched; do not use it to assign syllabus
+    points.'
