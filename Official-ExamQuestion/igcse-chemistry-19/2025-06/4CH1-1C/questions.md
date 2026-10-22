@@ -165,6 +165,8 @@ A student uses paper chromatography to investigate the dyes in five different in
 
 Explain why the start line on the paper is drawn in pencil rather than in ink.
 
+![chromatogram of five inks — official paper figure (qp.pdf p.6)](assets/asset_3_stem_chromatogram.png)
+
 
 **Mark scheme answer**
 
@@ -700,6 +702,8 @@ Diamond and graphite are two naturally‑occurring forms of carbon. They both ha
 
 Explain, with reference to its bonding, why diamond has a high melting point.
 
+![diamond and graphite structures — official paper figure (qp.pdf p.18)](assets/asset_8_stem_structures.png)
+
 
 **Mark scheme answer**
 
@@ -892,6 +896,8 @@ A student uses this apparatus to investigate the energy content of different fue
 ### 10(a) [4]
 
 This is the student’s method. • pour some water into the copper can • record the mass of the spirit burner and fuel • measure the initial temperature of the water • place the spirit burner under the copper can and light the burner • stop heating the water when the temperature reaches 30°C • record the new mass of the spirit burner and fuel The student repeats the experiment with different fuels. Explain two variables the student should control to make this a valid test. 1 2
+
+![fuel calorimetry apparatus — official paper figure (qp.pdf p.24)](assets/asset_10_stem_calorimetry.png)
 
 
 **Mark scheme answer**

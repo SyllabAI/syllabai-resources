@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T13:39:30Z",
- "generator": "official_examq_extract.py v0.13.1 (ADR-037) series=2021-01 paper=1CR",
+ "generated_utc": "2026-10-22T19:23:51Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2021-01 paper=1CR",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-01:4CH1/1CR",
  "source": {
   "qp_sha256": "e8bf13d2517fcc66854cea62eecae20c2b613c85bc3cf440ff1f026fa6289f37",
@@ -186,7 +186,22 @@
       }
      ],
      "source_page": 4,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_2_stem_chromatogram",
+       "kind": "crop",
+       "mention": "chromatogram of inks and dyes",
+       "source": "qp.pdf",
+       "page": 4,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_2_stem_chromatogram.png",
+       "render": "vector",
+       "text_coverage": 0.047,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-1.11"
      ],

@@ -80,6 +80,8 @@ The table shows properties of four substances, A, B, C and D. Melting point Boil
 
 Which substance could be a metal? A B C D
 
+![substance properties table — official paper figure (qp.pdf p.6)](assets/asset_2_stem_properties-table.png)
+
 
 **Mark scheme answer**
 
@@ -479,6 +481,8 @@ When ethanoic acid reacts with ethanol in the presence of concentrated sulfuric 
 ### 6(a)(i) [1]
 
 Draw a circle around the functional group in ethanoic acid.
+
+![ester equation displayed formulae — official paper figure (qp.pdf p.20)](assets/asset_6_stem_ester-equation.png)
 
 
 **Mark scheme answer**

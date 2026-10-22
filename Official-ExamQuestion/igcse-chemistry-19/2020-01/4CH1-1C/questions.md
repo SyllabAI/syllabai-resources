@@ -340,6 +340,8 @@ The boxes show the displayed formulae of six organic compounds, P, Q, R, S, T an
 
 Give the letter of the compound that is not a hydrocarbon.
 
+![six displayed formulae PQRSTU — official paper figure (qp.pdf p.10)](assets/asset_5_stem_displayed-formulae.png)
+
 
 **Mark scheme answer**
 

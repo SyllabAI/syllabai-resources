@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:37Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2021-11 paper=1C",
+ "generated_utc": "2026-10-22T19:24:00Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2021-11 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C",
  "source": {
   "qp_sha256": "fa4c64a38fa6438c6490d54baea4760e193963a3e33b5aeebca8726e0776b9d9",
@@ -1550,7 +1550,22 @@
       }
      ],
      "source_page": 30,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_10_stem_distillation",
+       "kind": "crop",
+       "mention": "distillation apparatus",
+       "source": "qp.pdf",
+       "page": 30,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_10_stem_distillation.png",
+       "render": "vector",
+       "text_coverage": 0.006,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-1.10"
      ],

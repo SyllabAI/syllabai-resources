@@ -76,6 +76,8 @@ Which of the unknown substances contains only one food dye?
 - **(C)** substance U
 - **(D)** substance V
 
+![chromatogram of dyes and unknowns — official paper figure (qp.pdf p.6)](assets/asset_2_stem_chromatogram.png)
+
 
 **Mark scheme answer**
 
@@ -378,6 +380,8 @@ The organic compound butadiene is a colourless gas used in the manufacture of sy
 ### 5(a) [3]
 
 Explain why butadiene is described as an unsaturated hydrocarbon.
+
+![displayed formula of butadiene — official paper figure (qp.pdf p.14)](assets/asset_5_stem_butadiene.png)
 
 
 **Mark scheme answer**

@@ -15,6 +15,8 @@ Particle Y is a proton. What is particle Z?
 - **(C)** a neutron  ✔
 - **(D)** a nucleus
 
+![atom diagram with particle key — official paper figure (qp.pdf p.4)](assets/asset_1_stem_atom.png)
+
 
 **Mark scheme answer**
 
@@ -504,6 +506,8 @@ The reaction between magnesium and copper(II) sulfate solution is exothermic. Th
 ### 6(a)(i) [1]
 
 State why a reaction occurs when magnesium is added to copper(II) sulfate solution.
+
+![calorimetry apparatus — official paper figure (qp.pdf p.16)](assets/asset_6_stem_calorimetry.png)
 
 
 **Mark scheme answer**

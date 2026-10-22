@@ -12,6 +12,8 @@ This question is about the unsaturated hydrocarbon, ethene. The displayed formul
 
 State the meaning of the term hydrocarbon.
 
+![displayed formula of ethene — official paper figure (qp.pdf p.4)](assets/asset_1_stem_ethene.png)
+
 
 **Mark scheme answer**
 
@@ -120,6 +122,8 @@ Which of these is gas Z?
 - **(B)** methane
 - **(C)** neon
 - **(D)** nitrogen  ✔
+
+![pie chart of gases in air — official paper figure (qp.pdf p.6)](assets/asset_2_stem_pie-chart.png)
 
 
 **Mark scheme answer**

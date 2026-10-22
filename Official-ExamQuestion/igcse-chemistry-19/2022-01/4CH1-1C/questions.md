@@ -678,6 +678,8 @@ The table shows the structures of six organic compounds. A B C H H H H H H H C H
 
 Give the letter of a compound not shown as a displayed formula.
 
+![six displayed structures A-F — official paper figure (qp.pdf p.20)](assets/asset_8_stem_structures.png)
+
 
 **Mark scheme answer**
 

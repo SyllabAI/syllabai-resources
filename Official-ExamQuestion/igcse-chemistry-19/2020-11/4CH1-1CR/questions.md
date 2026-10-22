@@ -66,6 +66,8 @@ The diagram shows the positions of some elements in the Periodic Table. 1 2 3 4 
 
 Give the symbol of a metal.
 
+![mini periodic table extract — official paper figure (qp.pdf p.4)](assets/asset_2_stem_periodic-table.png)
+
 
 **Mark scheme answer**
 

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:26Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2019-06 paper=2C",
+ "generated_utc": "2026-10-22T19:23:27Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2019-06 paper=2C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/2C",
  "source": {
   "qp_sha256": "78737827bc8fd0e2ae630ca8b4f733b4565ebb6e30c7f3667a8202d972e885b8",
@@ -505,7 +505,50 @@
       }
      ],
      "source_page": 11,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_5_stem_aircraft",
+       "kind": "crop",
+       "mention": "rocket aircraft apparatus",
+       "source": "qp.pdf",
+       "page": 10,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_5_stem_aircraft.png",
+       "render": "vector",
+       "text_coverage": 0.035,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      },
+      {
+       "id": "asset_5_stem_displayed-formulae",
+       "kind": "crop",
+       "mention": "displayed formulae of the reactants and products",
+       "source": "qp.pdf",
+       "page": 10,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_5_stem_displayed-formulae.png",
+       "render": "vector",
+       "text_coverage": 0.11,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      },
+      {
+       "id": "asset_5_stem_bond-tables",
+       "kind": "crop",
+       "mention": "bond energy tables",
+       "source": "qp.pdf",
+       "page": 11,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_5_stem_bond-tables.png",
+       "render": "vector",
+       "text_coverage": 0.497,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-3.7C"
      ],

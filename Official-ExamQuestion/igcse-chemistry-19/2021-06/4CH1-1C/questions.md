@@ -232,6 +232,8 @@ A student uses paper chromatography in an experiment to separate the dyes in fou
 
 Describe how the student should complete the experiment after putting a spot of each food colouring on the paper.
 
+![chromatogram before and after — official paper figure (qp.pdf p.8)](assets/asset_4_stem_chromatogram.png)
+
 
 **Mark scheme answer**
 

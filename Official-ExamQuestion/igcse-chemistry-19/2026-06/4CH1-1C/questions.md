@@ -374,6 +374,8 @@ Diagram 1 shows the displayed formula of isoprene. H H C H H H C C C C H H H Dia
 
 Explain why isoprene is a hydrocarbon.
 
+![displayed formula of isoprene (Diagram 1) — official paper figure (qp.pdf p.12)](assets/asset_4_stem_isoprene.png)
+
 
 **Mark scheme answer**
 
@@ -922,6 +924,8 @@ What type of reaction occurs in beaker 1?
 - **(B)** combustion
 - **(C)** displacement  ✔
 - **(D)** neutralisation
+
+![two-beaker electrochemical cell — official paper figure (qp.pdf p.24)](assets/asset_9_stem_cell.png)
 
 
 **Mark scheme answer**

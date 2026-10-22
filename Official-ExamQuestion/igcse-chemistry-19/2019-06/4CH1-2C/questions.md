@@ -306,6 +306,12 @@ During the Second World War, engineers developed a rocket-powered aircraft. comb
 
 Use the data in the tables to calculate the total amount of energy required to break all of the bonds in the reactants. energy required = kJ
 
+![rocket aircraft apparatus — official paper figure (qp.pdf p.10)](assets/asset_5_stem_aircraft.png)
+
+![displayed formulae of the reactants and products — official paper figure (qp.pdf p.10)](assets/asset_5_stem_displayed-formulae.png)
+
+![bond energy tables — official paper figure (qp.pdf p.11)](assets/asset_5_stem_bond-tables.png)
+
 
 **Mark scheme answer**
 
