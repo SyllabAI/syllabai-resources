@@ -1,0 +1,322 @@
+qual: 4ch1
+board: pearson-edexcel
+qualification: international-gcse
+course_slug: igcse-chemistry-19
+subject_code: 4CH1
+spec_of_record:
+  code: 4CH1
+  issue: Issue 3
+  issue_date: 2024-09
+  spec_points: 182
+  sub_sections: 29
+  paper_route:
+    paper1:
+      code: 1C
+      marks: 110
+      weight: 0.611
+      coverage: core only
+    paper2:
+      code: 2C
+      marks: 70
+      weight: 0.389
+      coverage: all content incl. bold-C
+book_of_record:
+  repo: syllabai-resources
+  path: edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf
+  sha256: TBD-at-first-lesson-receipt
+  pages: 383
+parse_of_record:
+  repo: syllabai-resources
+  path: parsed/edexcel_igcse_chemistry_chunks_v3.jsonl
+  sha256: TBD-at-first-lesson-receipt
+  engine: ibm-docling
+  chunks: 1234
+  sha256_note: sha pinned at first lesson receipt (S4); parse calibrated 2026-10-22,
+    1234 chunks, 341 print-heading sections
+past_papers_of_record:
+  repo: syllabai-pastpapers
+  index: apps/hub/src/data/pastpapers-index.json (syllabai-v2)
+  sessions: 17
+  papers: 56
+  variants:
+  - 1C
+  - 1CR
+  - 2C
+  - 2CR
+features:
+  prior_knowledge_box: true
+  cross_curricular_box: true
+  misconception_box: true
+  maths_skills_box: true
+  ms_vocab_layer: true
+  past_paper_anchor_cards: true
+  glossary_chips: true
+  quick_checks: true
+  highlighting_notes: platform
+  spaced_lookback: platform
+  tts: platform-post-pilot
+box_allowlist:
+- key-point
+- exam-hint
+- misconception
+- safety
+- did-you-know
+- maths-skills
+- prior-knowledge
+- cross-curricular
+- worked-example
+- summary
+- can-you
+section_grammar: u<unit>:c<NN>:s<NN>
+lint_pack: chem@0.1.0
+doctrine_refs:
+  start_here: ../../../../START-HERE.md
+  feature_spec: ../../../../FEATURE-SPEC.md
+  playbook: ../../../../BUILD-PLAYBOOK.md
+  validation: ../../../../VALIDATION.md
+  self_improvement: ../../../../SELF-IMPROVEMENT.md
+  platform_contracts: syllabai-v2 packages/contracts/src/books-lesson.ts
+  platform_plan: syllabai-v2 docs/books/LESSON-PLAN-4CH1-v1.md
+spine:
+  u1:
+  - key: u1:c01
+    slug: states-of-matter
+    title: States of matter
+    chem_only: false
+    pages:
+    - 3
+    - 11
+    section_count: 13
+  - key: u1:c02
+    slug: elements-compounds-mixtures
+    title: Elements
+    compounds and mixtures: null
+    chem_only: false
+    pages:
+    - 14
+    - 20
+    section_count: 10
+  - key: u1:c03
+    slug: atomic-structure
+    title: Atomic structure
+    chem_only: false
+    pages:
+    - 24
+    - 28
+    section_count: 11
+  - key: u1:c04
+    slug: periodic-table
+    title: The periodic table
+    chem_only: false
+    pages:
+    - 30
+    - 36
+    section_count: 12
+  - key: u1:c05
+    slug: formulae-calculations-1
+    title: Formulae and calculations (part 1)
+    chem_only: false
+    pages:
+    - 38
+    - 59
+    widget_density: high
+    section_count: 36
+  - key: u1:c06
+    slug: formulae-calculations-2
+    title: Formulae and calculations (part 2)
+    chem_only: false
+    pages:
+    - 64
+    - 71
+    widget_density: high
+    section_count: 15
+  - key: u1:c07
+    slug: ionic-bonding
+    title: Ionic bonding
+    chem_only: false
+    pages:
+    - 75
+    - 83
+    section_count: 15
+  - key: u1:c08
+    slug: covalent-bonding
+    title: Covalent bonding
+    chem_only: false
+    pages:
+    - 85
+    - 94
+    section_count: 19
+  - key: u1:c09
+    slug: metallic-bonding
+    title: Metallic bonding
+    chem_only: true
+    pages:
+    - 98
+    - 99
+    section_count: 4
+  - key: u1:c10
+    slug: electrolysis
+    title: Electrolysis
+    chem_only: true
+    pages:
+    - 101
+    - 109
+    widget_density: high
+    section_count: 10
+  u2:
+  - key: u2:c11
+    slug: alkali-metals
+    title: Alkali metals
+    chem_only: false
+    pages:
+    - 123
+    - 128
+    section_count: 10
+  - key: u2:c12
+    slug: halogens
+    title: Halogens
+    chem_only: false
+    pages:
+    - 130
+    - 135
+    section_count: 8
+  - key: u2:c13
+    slug: gases-atmosphere
+    title: Gases in the atmosphere
+    chem_only: false
+    pages:
+    - 137
+    - 143
+    section_count: 7
+  - key: u2:c14
+    slug: reactivity-series
+    title: Reactivity series
+    chem_only: false
+    pages:
+    - 145
+    - 156
+    section_count: 20
+  - key: u2:c15
+    slug: extraction-metals
+    title: Extraction and uses of metals
+    chem_only: true
+    pages:
+    - 160
+    - 164
+    section_count: 10
+  - key: u2:c16
+    slug: acids-alkalis-titrations
+    title: Acids
+    alkalis and titrations: null
+    chem_only: false
+    pages:
+    - 167
+    - 172
+    widget_density: high
+    section_count: 9
+  - key: u2:c17
+    slug: salt-preparations
+    title: Salt preparations
+    chem_only: false
+    pages:
+    - 173
+    - 189
+    section_count: 21
+  - key: u2:c18
+    slug: chemical-tests
+    title: Chemical tests
+    chem_only: false
+    pages:
+    - 190
+    - 198
+    section_count: 12
+  u3:
+  - key: u3:c19
+    slug: energetics
+    title: Energetics
+    chem_only: false
+    pages:
+    - 207
+    - 224
+    section_count: 17
+  - key: u3:c20
+    slug: rates-reaction
+    title: Rates of reaction
+    chem_only: false
+    pages:
+    - 227
+    - 238
+    section_count: 11
+  - key: u3:c21
+    slug: equilibria
+    title: Reversible reactions and equilibria
+    chem_only: true
+    pages:
+    - 240
+    - 246
+    section_count: 10
+  u4:
+  - key: u4:c22
+    slug: organic-intro
+    title: Introduction to organic chemistry
+    chem_only: false
+    pages:
+    - 255
+    - 265
+    section_count: 14
+  - key: u4:c23
+    slug: crude-oil
+    title: Crude oil
+    chem_only: false
+    pages:
+    - 268
+    - 273
+    section_count: 8
+  - key: u4:c24
+    slug: alkanes
+    title: Alkanes
+    chem_only: false
+    pages:
+    - 277
+    - 279
+    section_count: 5
+  - key: u4:c25
+    slug: alkenes
+    title: Alkenes
+    chem_only: false
+    pages:
+    - 282
+    - 285
+    section_count: 8
+  - key: u4:c26
+    slug: alcohols
+    title: Alcohols
+    chem_only: true
+    pages:
+    - 287
+    - 291
+    section_count: 7
+  - key: u4:c27
+    slug: carboxylic-acids
+    title: Carboxylic acids
+    chem_only: true
+    pages:
+    - 293
+    - 295
+    section_count: 5
+  - key: u4:c28
+    slug: esters
+    title: Esters
+    chem_only: true
+    pages:
+    - 297
+    - 299
+    section_count: 4
+  - key: u4:c29
+    slug: synthetic-polymers
+    title: Synthetic polymers
+    chem_only: false
+    pages:
+    - 302
+    - 308
+    section_count: 10
