@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-22T10:30:26Z",
+ "generated_utc": "2026-10-22T13:39:32Z",
  "series": "2022-01",
  "paper": "1CR",
  "gates": [
@@ -74,7 +74,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 59 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (155 codes) or documented gaps→review; 0 parts pending-llm tagging; 3 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": [
@@ -129,9 +129,9 @@
   "2022-01:1CR/8(b)(i)"
  ],
  "spec_tagging": {
-  "tagged": 0,
+  "tagged": 56,
   "parts": 59,
-  "pending_llm": 59,
-  "no_spec_point": 0
+  "pending_llm": 0,
+  "no_spec_point": 3
  }
 }
