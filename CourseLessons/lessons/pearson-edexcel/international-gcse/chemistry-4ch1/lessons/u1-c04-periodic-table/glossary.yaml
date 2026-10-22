@@ -1,0 +1,170 @@
+# glossary — u1:c04 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: periodic table
+  slug: periodic-table
+  definition: "The chart showing all the elements in the universe, arranged in order of atomic number in groups (columns) and periods (rows); first presented in its modern form in 1869 by Mendeleev."
+  ms_accepts: ["arrangement of elements in order of atomic number", "columns are groups, rows are periods"]
+  ms_avoids: ["alphabetical list of elements", "elements in discovery order"]
+  aliases: ["Periodic Table"]
+  source: "chem_v3_u1_c4_pdf039_0113"
+- term: group
+  slug: group
+  definition: "A vertical column of the Periodic Table; numbered 1-7 then 0 at this level, with the transition metals not usually included in the numbering."
+  ms_accepts: ["vertical column of the Periodic Table", "elements with the same number of outer-shell electrons"]
+  ms_avoids: ["a horizontal row", "elements with similar masses"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf040_0119"
+- term: period
+  slug: period
+  definition: "A horizontal row of the Periodic Table; the period number gives the number of occupied shells (or the highest occupied shell) in the atoms of its elements."
+  ms_accepts: ["horizontal row of the Periodic Table", "period number = number of occupied shells"]
+  ms_avoids: ["a vertical column", "period = number of outer electrons"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf042_0128"
+- term: transition metal
+  slug: transition-metal
+  definition: "An element of the middle block of the Periodic Table (shown in orange in the book's Figure 4.1); not usually included in the group numbering at this level."
+  ms_accepts: ["element in the middle block of the Periodic Table", "transition element"]
+  ms_avoids: ["a group 1 metal", "any metal in a numbered group"]
+  aliases: ["transition element"]
+  source: "chem_v3_u1_c4_pdf040_0119"
+- term: alkali metal
+  slug: alkali-metal
+  definition: "A Group 1 element (lithium, sodium, potassium and the rest); reacts vigorously with water to form hydrogen and an hydroxide."
+  ms_accepts: ["Group 1 element", "metal that reacts with water forming hydroxide + hydrogen"]
+  ms_avoids: ["hydrogen (it is not a Group 1 metal)", "any reactive metal"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf040_0119"
+- term: halogen
+  slug: halogen
+  definition: "A Group 7 element (fluorine, chlorine, bromine, iodine); reacts with hydrogen to form hydrides of similar formula (HF, HCl, HBr)."
+  ms_accepts: ["Group 7 element", "element forming hydrides HF/HCl/HBr-type"]
+  ms_avoids: ["Group 0 element", "a metal"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf040_0119"
+- term: noble gas
+  slug: noble-gas
+  definition: "A Group 0 element (helium, neon, argon and the rest); almost completely unreactive because its outer shell is full (8 electrons, or 2 for helium)."
+  ms_accepts: ["Group 0 element", "unreactive because outer shell is full"]
+  ms_avoids: ["unreactive because it has no electrons", "Group 8 element at this level"]
+  aliases: ["inert gas (loose usage)"]
+  source: "chem_v3_u1_c4_pdf043_0132"
+- term: lanthanoid
+  slug: lanthanoid
+  definition: "An element of the first detached row at the bottom of the Periodic Table; not actually rare despite the old name 'rare earth metals', and important in modern technology."
+  ms_accepts: ["element of the first bottom row of the Periodic Table", "rare earth metal (old name)"]
+  ms_avoids: ["a non-metal", "an actinoid"]
+  aliases: ["rare earth metal (old name)"]
+  source: "chem_v3_u1_c4_pdf040_0118"
+- term: actinoid
+  slug: actinoid
+  definition: "An element of the second detached row at the bottom of the Periodic Table; most are unstable and undergo radioactive decay."
+  ms_accepts: ["element of the second bottom row of the Periodic Table", "mostly radioactive metals"]
+  ms_avoids: ["a non-metal", "a lanthanoid"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf040_0118"
+- term: atomic number
+  slug: atomic-number
+  definition: "The number of protons in the nuclei of an element's atoms; always the smaller of the two numbers printed against a symbol in the Periodic Table."
+  ms_accepts: ["number of protons in the nucleus", "the smaller number on the Periodic Table"]
+  ms_avoids: ["protons plus neutrons", "the larger number on the chart"]
+  aliases: ["proton number"]
+  source: "chem_v3_u1_c4_pdf040_0120"
+- term: mass number
+  slug: mass-number
+  definition: "The total number of protons and neutrons in an atom; on Periodic Tables that print isotope masses, it is the mass number of the most common isotope."
+  ms_accepts: ["protons + neutrons", "the larger number (isotope-mass tables)"]
+  ms_avoids: ["the number of protons only", "a weighted average of isotopes (that is Aᵣ)"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf040_0120"
+- term: relative atomic mass
+  slug: relative-atomic-mass
+  definition: "The weighted average mass of an element's isotopes; the number the Periodic Table shows instead of a mass number when it is not a whole number (chlorine 35.5)."
+  ms_accepts: ["weighted average mass of isotopes", "Aᵣ as printed on the chart"]
+  ms_avoids: ["mass of one atom of the element", "always a whole number"]
+  aliases: ["Aᵣ"]
+  source: "chem_v3_u1_c4_pdf040_0120"
+- term: shell
+  slug: shell
+  definition: "An energy level around the nucleus that electrons occupy; lower (inner) shells fill first, and at this level the capacities are 2, 8, then 8."
+  ms_accepts: ["energy level occupied by electrons", "fills inner-before-outer, capacities 2/8/8 at this level"]
+  ms_avoids: ["the path an electron orbits along", "a fixed orbit track"]
+  aliases: ["energy level"]
+  source: "chem_v3_u1_c4_pdf040_0121"
+- term: electronic configuration
+  slug: electronic-configuration
+  definition: "The arrangement of electrons in an atom's shells, written with commas (chlorine 2, 8, 7); the electrons must add up to the atomic number."
+  ms_accepts: ["arrangement of electrons in shells", "e.g. 2,8,7 for chlorine"]
+  ms_avoids: ["the order of filling subshells", "a diagram of orbit paths"]
+  aliases: ["electron arrangement", "electronic structure (loose usage)"]
+  source: "chem_v3_u1_c4_pdf041_0124"
+- term: outer shell
+  slug: outer-shell
+  definition: "The highest occupied shell of an atom; its electron count is the group number (Groups 1-7) and governs how the element reacts."
+  ms_accepts: ["highest occupied energy level", "its electrons are the ones involved in reactions"]
+  ms_avoids: ["the largest shell the atom could ever have", "the nucleus region"]
+  aliases: ["outermost shell"]
+  source: "chem_v3_u1_c4_pdf042_0127"
+- term: valency
+  slug: valency
+  definition: "Combining power; the historical reason Group 0 was numbered 0 - the noble gases were first believed to combine with nothing, hence zero combining power."
+  ms_accepts: ["combining power of an element", "why the noble-gas group is numbered 0"]
+  ms_avoids: ["the number of shells", "the charge on every ion"]
+  aliases: ["combining power"]
+  source: "chem_v3_u1_c4_pdf043_0130"
+- term: basic oxide
+  slug: basic-oxide
+  definition: "A metal oxide that reacts with acids to form salts; if soluble in water it dissolves to form an alkali (sodium oxide + water -> sodium hydroxide solution)."
+  ms_accepts: ["oxide reacting with acids to form salts", "soluble one gives an alkali in water"]
+  ms_avoids: ["any oxide of a metal regardless of behaviour (Al2O3 is amphoteric)", "an oxide that neutralises bases"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf044_0137"
+- term: acidic oxide
+  slug: acidic-oxide
+  definition: "A non-metal oxide that reacts with bases/alkalis to form salts; if soluble in water it dissolves to form an acidic solution (sulfur(IV) oxide + water -> sulfurous acid)."
+  ms_accepts: ["oxide reacting with bases/alkalis to form salts", "soluble one gives an acid in water"]
+  ms_avoids: ["any oxide of a non-metal regardless of behaviour (CO is neutral)", "an oxide that neutralises acids"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf044_0140"
+- term: amphoteric oxide
+  slug: amphoteric-oxide
+  definition: "An oxide that reacts with both acids and bases, behaving like a basic oxide and an acidic oxide at once; the book's example is aluminium oxide (Al2O3)."
+  ms_accepts: ["oxide reacting with both acids and bases", "aluminium oxide as the example"]
+  ms_avoids: ["an oxide that reacts with neither", "a neutral oxide like CO"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf044_0138"
+- term: delocalised electron
+  slug: delocalised-electron
+  definition: "An electron not tied to any one atom, free to move through the metal; its presence is why metals conduct electricity (full explanation in Chapter 9)."
+  ms_accepts: ["free-to-move electron in a metal", "reason metals conduct electricity"]
+  ms_avoids: ["an electron shared between two named atoms", "a free proton"]
+  aliases: ["delocalised electrons"]
+  source: "chem_v3_u1_c4_pdf044_0140"
+- term: graphite
+  slug: graphite
+  definition: "A form of carbon; the book's named exception among non-metals, since it conducts electricity even though non-metals do not generally conduct."
+  ms_accepts: ["non-metal that conducts electricity", "a form of carbon"]
+  ms_avoids: ["a metal", "an alloy of carbon"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf044_0140"
+- term: malleable
+  slug: malleable
+  definition: "Can be hammered into shape - a typical metal property (the adjective pairs with ductile, which means drawn into wires)."
+  ms_accepts: ["can be hammered into shape", "bent/beat into sheets without shattering"]
+  ms_avoids: ["can be drawn into wires (that is ductile)", "brittle"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf045_0142"
+- term: ductile
+  slug: ductile
+  definition: "Can be drawn into wires - a typical metal property (pairs with malleable, which means hammered into shape)."
+  ms_accepts: ["can be drawn into wires", "stretched into wire form"]
+  ms_avoids: ["can be hammered into shape (that is malleable)", "brittle"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf045_0142"
+- term: metallic lustre
+  slug: metallic-lustre
+  definition: "The shine of a metal, seen when it is polished or freshly cut; not by itself proof of metal-hood (shiny sulfur crystals are still non-metal)."
+  ms_accepts: ["metal's shine when polished or freshly cut", "shiny appearance of metals"]
+  ms_avoids: ["proof that a substance is a metal", "colour of a metal"]
+  aliases: []
+  source: "chem_v3_u1_c4_pdf045_0142"

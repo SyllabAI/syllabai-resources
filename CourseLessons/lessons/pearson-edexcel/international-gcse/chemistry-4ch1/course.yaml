@@ -136,6 +136,19 @@ spine:
     pages:
     - 30
     - 36
+    # join_set DERIVED (never authored): children of spine node
+    # igcse-chemistry-T1:SUBd in apps/hub/spines/igcse-chemistry-19.json
+    # (resourcesSha 888bca4a). Pinned at S1 (T-BOOK-036 r0, 2026-10-23).
+    # SUBd carries 7 children 1.18-1.24 — supersedes the T-BOOK-035 r0
+    # preview note ("1.18-1.21"): the chapter's LEARNING OBJECTIVES chunk
+    # chem_v3_u1_c4_pdf039_0113 lists exactly those 7 spec statements.
+    # learning_objective: VERBATIM from chunk chem_v3_u1_c4_pdf039_0113
+    # (margin items; bullet glyphs joined with ';'; the two sub-bullets of
+    # the arrangement objective joined inline after its ':' lead; the
+    # interleaved chapter-opener paragraph is opener prose, not an
+    # objective, and stays out; no paraphrase)
+    learning_objective: "Understand how elements are arranged in the Periodic Table: in order of atomic number; in groups and periods; Identify an element as a metal or a non-metal according to its position in the Periodic Table; Understand how to deduce the electronic configurations of the first 20 elements from their positions in the Periodic Table; Understand how to use electrical conductivity and the acid-base character of oxides to classify elements as metals or non-metals; Understand how the electronic configuration of a main group element is related to its position in the Periodic Table; Understand why elements in the same group of the Periodic Table have similar chemical properties; Understand why the noble gases (Group 0) do not readily react"
+    join_set: ["1.18", "1.19", "1.20", "1.21", "1.22", "1.23", "1.24"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 12
   - key: u1:c05
     slug: formulae-calculations-1
