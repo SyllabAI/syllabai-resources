@@ -245,6 +245,15 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Wave-19 exporter UX wave is MERGED-state pending PR: stems restored (F53), official
+  part ids carry the paper code (F54 — the 631 cross-paper collisions are fixed; any
+  tooling that cached `offp_<series>_<part>` ids must re-read the bundle), MS furniture
+  stripped at export (F55), stub notes learner-facing (F56). Wave-20 candidates, in the
+  ledger's tranche flags: stem-figure crop tranche (~28), formulae letter-runs (9),
+  interleaved property tables (3), then the LLM-authored solution-enrichment wave
+  (official solutionMd is mark-scheme-terse vs SME's 732-char median — the doctrine
+  permits authored worked answers; needs its own review pass).
+
 - Human review queues (v0.10.1 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
   the printed MS itself misplaces the answer rows (a source-document defect), so
   the two refused keys were human-adjudicated against the rendered MS page into
@@ -264,7 +273,10 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   would need an MS-figure crop capability. Stem-level figures on the recovered
   pages (Q1 beakers, Q7 structures, Q11/Q13 apparatus, Q12/Q13/Q15 results tables)
   are not asset-backed — no part-level mention triggers the crop machinery on
-  text-anchor-less pages; a stem-scan stub pass is future work.
+  text-anchor-less pages; a stem-scan stub pass is future work. UPDATE wave 19:
+  the STEM TEXT of all 427 questions now reaches the hub (exporter F53, ledger
+  `STEM-RESTORE.json`); the stem FIGURES remain the open crop tranche (see the
+  ledger's tranche flags — ~28 figures/tables + 9 formulae letter-runs).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
 - 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
   were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under
