@@ -12,6 +12,8 @@ Complete the table by giving the name of each piece of apparatus. Letter Name A 
 
 ![table — official paper figure (qp.pdf p.3)](assets/asset_1_a_table.png)
 
+![four pieces of apparatus A-D — official paper figure (qp.pdf p.3)](assets/asset_1_stem_apparatus.png)
+
 
 **Mark scheme answer**
 

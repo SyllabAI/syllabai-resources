@@ -474,6 +474,98 @@ for c in cans:
                     print(f"  ! pin missing: {pin['series']}/{pin.get('paper', '1C')} "
                           f"{pin.get('part')} {pin['contains']!r}")
             print(f"  (topic.json scanned: {n_files}, pins: {len(c.get('pins') or [])})")
+        elif chk == "stem_figures_ledger":
+            # C66 (v0.14.0/wave-20): STEM-RESTORE.json's stemFigures specs and
+            # the emitted corpus must agree in both directions. Forward: every
+            # ledger spec is a real kind=crop asset on its target part, flagged
+            # stem_figure + manual_crop (the F45 branch rendered it) with a
+            # present PNG. Reverse: every corpus stem_figure asset traces back
+            # to its ledger entry (a stray stub cannot ship as a silent crop).
+            ok = True
+            ledger = json.loads((HERE / "STEM-RESTORE.json").read_text()).get("verdicts", {})
+            n_specs = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    s = d.name if pd.name == "4CH1-1C" else f"{d.name}:{pd.name.split('-')[1]}"
+                    paper = pd.name.split("-")[1]
+                    t = json.loads((pd / "topic.json").read_text())
+                    assets = {a["id"]: (a, q, p) for q in t["questions"]
+                              for p in q["parts"] for a in (p.get("assets") or [])}
+                    stem_assets = {aid for aid, (a, q, p) in assets.items() if a.get("stem_figure")}
+                    spec_ids = set()
+                    for skey, e in ledger.items():
+                        want = f"{d.name}/4CH1-{paper}:"
+                        if not skey.startswith(want):
+                            continue
+                        for sf in e.get("stemFigures") or []:
+                            spec_ids.add(sf["id"])
+                            a = assets.get(sf["id"])
+                            if a is None:
+                                ok = False
+                                print(f"  ! {skey}: ledger stemFigure {sf['id']} missing from corpus")
+                                continue
+                            n_specs += 1
+                            rec = a[0]
+                            if (rec.get("kind") != "crop" or not rec.get("stem_figure")
+                                    or not rec.get("manual_crop")
+                                    or rec.get("review_verdict") != "accepted"):
+                                ok = False
+                                print(f"  ! {skey}: stemFigure {sf['id']} state "
+                                      f"kind={rec.get('kind')} stem_figure={rec.get('stem_figure')} "
+                                      f"manual_crop={rec.get('manual_crop')} rv={rec.get('review_verdict')}")
+                            png = pd / (rec.get("path") or "")
+                            if not png.exists() or png.stat().st_size < 250:
+                                ok = False
+                                print(f"  ! {skey}: stemFigure {sf['id']} PNG missing/tiny")
+                    stray = stem_assets - spec_ids
+                    if stray:
+                        ok = False
+                        print(f"  ! {s}: corpus stem_figure assets without ledger entry: {sorted(stray)}")
+            print(f"  (stem-figure specs realized: {n_specs})")
+        elif chk == "solution_enrichment_ledger":
+            # C71 (v0.14.0/wave-20 Part C): SOLUTION-ENRICH.json and the corpus
+            # must agree — every authored entry resolves to a real part in the
+            # right slice, carries the authored review state, and the CORPUS
+            # still holds the MS-derived solution (enrichment is export-only:
+            # the authored text must never be baked into topic.json).
+            ok = True
+            led = json.loads((HERE / "SOLUTION-ENRICH.json").read_text()).get("entries", {})
+            n = 0
+            corpus = {}
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    paper = pd.name.split("-")[1]
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            slug = p["part_number"].replace("(", "-").replace(")", "")
+                            pid = f"offp_{d.name}_{paper.lower()}_{slug}"
+                            corpus[pid] = (d.name, paper, p)
+            for key, e in led.items():
+                series_paper, slug = key.split(":")
+                series, paper = series_paper.rsplit("-", 1)
+                pid = f"offp_{series}_{paper.lower()}_{slug}"
+                n += 1
+                if pid not in corpus:
+                    ok = False
+                    print(f"  ! enrichment {key}: no corpus part {pid}")
+                    continue
+                _, _, part = corpus[pid]
+                if e.get("review") != "authored-r0" or not e.get("solutionMd", "").strip():
+                    ok = False
+                    print(f"  ! enrichment {key}: bad review state or empty solutionMd")
+                ms_sol = (part.get("solution_md") or "").strip()
+                if not ms_sol:
+                    ok = False
+                    print(f"  ! enrichment {key}: corpus part has no MS solution to enrich")
+                if e.get("solutionMd", "").strip() == ms_sol:
+                    ok = False
+                    print(f"  ! enrichment {key}: authored text identical to MS cell (not enriching)")
+            print(f"  (enrichment entries resolved: {n})")
         elif chk == "ms_link_overrides_ledger":
             # C57 (v0.11/F47): MS-LINK-OVERRIDES.json and the corpus must agree
             # in both directions — every adjudicated entry is applied to its

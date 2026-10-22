@@ -492,6 +492,8 @@ When copper(II) sulfate solution is electrolysed, copper forms at the negative e
 
 Describe how the student could test a sample of copper(II) sulfate solution to show that it contains copper(II) ions.
 
+![electrolysis apparatus — official paper figure (qp.pdf p.14)](assets/asset_5_stem_electrolysis.png)
+
 
 **Mark scheme answer**
 
@@ -595,6 +597,8 @@ Ethanoic acid reacts with methanol to form an ester. The equation shows the disp
 ### 6(a)(i) [1]
 
 Give the name of a suitable catalyst to increase the rate of this reaction.
+
+![ester equation displayed formulae — official paper figure (qp.pdf p.16)](assets/asset_6_stem_ester-equation.png)
 
 
 **Mark scheme answer**

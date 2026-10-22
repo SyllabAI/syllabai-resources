@@ -10,6 +10,8 @@ The diagram shows how particles are arranged in the three states of matter. Z X 
 
 Give the names of the changes of state labelled X, Y and Z. X Y Z
 
+![three states of matter diagram — official paper figure (qp.pdf p.3)](assets/asset_1_stem_states.png)
+
 
 **Mark scheme answer**
 

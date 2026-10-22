@@ -477,6 +477,8 @@ A student uses this apparatus to investigate the reaction between magnesium and 
 
 Complete the chemical equation for this reaction. Mg + 2HCl → +
 
+![gas syringe apparatus — official paper figure (qp.pdf p.13)](assets/asset_6_stem_syringe.png)
+
 
 **Mark scheme answer**
 

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:34Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2021-06 paper=1C",
+ "generated_utc": "2026-10-22T19:23:54Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2021-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C",
  "source": {
   "qp_sha256": "f23c24c14501fce4ee42a72a15deb96c84c9e205565683a4d1e8e6084d3fb4af",
@@ -416,7 +416,22 @@
       }
      ],
      "source_page": 8,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_4_stem_chromatogram",
+       "kind": "crop",
+       "mention": "chromatogram before and after",
+       "source": "qp.pdf",
+       "page": 8,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_4_stem_chromatogram.png",
+       "render": "vector",
+       "text_coverage": 0.043,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-1.10",
       "4CH1-1.13"

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
- "converter_version_floor": "0.13.1",
+ "converter_version_floor": 0.14,
  "canaries": [
   {
    "id": "C3-baseline-unchanged",
@@ -694,6 +694,58 @@
      "contains": "calculate the enthalpy change, ΔH,"
     }
    ]
+  },
+  {
+   "id": "C66-stem-figures-ledger",
+   "series": "*",
+   "assertion": "wave-20 (F-W20-1): every STEM-RESTORE.json stemFigures spec is realized in the corpus as a kind=crop asset flagged stem_figure + manual_crop (rendered through the F45 branch), and every corpus stem_figure asset traces back to its ledger entry — bidirectional, corpus-wide",
+   "check": "stem_figures_ledger"
+  },
+  {
+   "id": "C67-stem-chromatogram-2019-06",
+   "series": "2019-06",
+   "assertion": "wave-20: the Q4 chromatography apparatus (dropped by every prior wave) is a real crop on 4(a) — the first-part stem figure the restored stem needs",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "4(a)",
+   "kind": "crop",
+   "path_contains": "asset_4_stem_chromatogram"
+  },
+  {
+   "id": "C68-stem-bond-tables-2019-06",
+   "series": "2019-06",
+   "assertion": "wave-20: the (a)-group bond-energy tables print above 5(a)(i) with no part-owned crop — the ledger-targeted stub renders them on the part that reads them",
+   "check": "asset_state",
+   "paper": "2C",
+   "part": "5(a)(i)",
+   "kind": "crop",
+   "path_contains": "asset_5_stem_bond-tables"
+  },
+  {
+   "id": "C69-stem-raster-structures-2019-06",
+   "series": "2019-06",
+   "assertion": "wave-20: Q7's three-structure diagram lives on the rasterized p12 archive scan (no text anchors) — the manual crop is render=raster and carries the key",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "7(a)",
+   "kind": "crop",
+   "path_contains": "asset_7_stem_structures"
+  },
+  {
+   "id": "C70-stem-formulae-2020-01",
+   "series": "2020-01",
+   "assertion": "wave-20: the six displayed formulae PQRSTU (flattened to a letter run in the stem text) are a real crop on 5(a)(i) — the formulae letter-run tranche closes",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "5(a)(i)",
+   "kind": "crop",
+   "path_contains": "asset_5_stem_displayed-formulae"
+  },
+  {
+   "id": "C71-solution-enrichment-ledger",
+   "series": "*",
+   "assertion": "wave-20 Part C (F-W20-3): every SOLUTION-ENRICH.json entry resolves to a real part, carries the authored review state, enriches (differs from) the MS cell — and the corpus topic.json still holds the MS-derived solution (enrichment is export-only, never baked into the data plane)",
+   "check": "solution_enrichment_ledger"
   }
  ]
 }

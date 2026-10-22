@@ -82,6 +82,8 @@ A student does a chromatography experiment using ink 1, ink 2, and three known d
 
 Deduce what conclusions can be made about the composition of ink 1.
 
+![chromatogram of inks and dyes — official paper figure (qp.pdf p.4)](assets/asset_2_stem_chromatogram.png)
+
 
 **Mark scheme answer**
 

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:41Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2022-06 paper=1C",
+ "generated_utc": "2026-10-22T19:24:12Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2022-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-06:4CH1/1C",
  "source": {
   "qp_sha256": "222019063953cef895736c575d38b4e3fcd6e3af5eb0e964c3ef14b81af81e62",
@@ -785,7 +785,22 @@
       }
      ],
      "source_page": 13,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_6_stem_syringe",
+       "kind": "crop",
+       "mention": "gas syringe apparatus",
+       "source": "qp.pdf",
+       "page": 13,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_6_stem_syringe.png",
+       "render": "vector",
+       "text_coverage": 0.13,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-1.25"
      ],

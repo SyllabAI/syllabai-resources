@@ -62,6 +62,21 @@ Contract notes (src/lib/contracts.ts in syllabai-hub):
 - Shared figure references (assets[].shared + ref_part) resolve to the owning
   part's/stem asset's PNG (same rawUrl) — the hub pattern embeds images as
   markdown, so shared figures inline the same URL.
+
+wave-20 additions (v6, stem-figure tranche):
+  F-W20-1  stem figures inline: STEM-RESTORE.json entries may carry
+           stemFigures (converter-rendered crop assets, flagged stem_figure)
+           and stemFigureRef (an already-cropped asset id). Assets flagged
+           stem_figure on the question's FIRST part render INSIDE the stem
+           block — right after the stem prose, before the part text — instead
+           of the end-of-problemMd figure slot; assets targeted at a later
+           part (the 2019-06 2C bond-energy tables for 5(a)(i)) render in
+           that part's normal figure slot.
+  F-W20-2  flattened label-soup cuts: entry.dropSpan [from, to) removes the
+           mid-stem flattened figure-label run (both anchors verbatim,
+           fail-closed); entry.dropTail removes the tail from a verbatim
+           anchor (the soup the crop now serves visually). These apply to
+           keep-verdict stems before mechanical cleaning.
 """
 import json, glob, os, re, subprocess, sys, hashlib
 from pathlib import Path
@@ -152,6 +167,18 @@ def _bulletize(stem):
     return s
 
 
+SOLUTION_ENRICH_PATH = os.path.join(REPO_ROOT, "Official-ExamQuestion", "SOLUTION-ENRICH.json")
+
+
+def load_enrichment_ledger():
+    """F-W20-3: the authored worked-answer ledger (wave-20 Part C). Optional:
+    an absent ledger means every part serves its MS-derived solution."""
+    if not os.path.exists(SOLUTION_ENRICH_PATH):
+        return {}
+    doc = json.load(open(SOLUTION_ENRICH_PATH))
+    return doc.get("entries", {})
+
+
 def load_stem_ledger():
     if not os.path.exists(STEM_LEDGER_PATH):
         raise ExportGateError(
@@ -163,7 +190,9 @@ def load_stem_ledger():
 def restore_stem(q, series, paper, ledger, by_part_num):
     """F-W15-1: cleaned stem markdown for a question, or None. Authored ledger
     verdicts win; everything else passes mechanical cleaning. Splice-guard:
-    stems already folded into part 1 by the converter are not duplicated."""
+    stems already folded into part 1 by the converter are not duplicated.
+    wave-20 (F-W20-2): entry.dropSpan / entry.dropTail cut the flattened
+    figure-label soup BEFORE verdict handling; both anchors verbatim."""
     stem = (q.get("stem_md") or "").strip()
     if not stem:
         return None
@@ -173,6 +202,24 @@ def restore_stem(q, series, paper, ledger, by_part_num):
     norm = lambda s: re.sub(r"\s+", " ", s).strip()
     if norm(stem)[:60] and norm(stem)[:60] in norm(first_md):
         return None  # splice-guard: converter already folded this stem into part 1
+    if entry:
+        span = entry.get("dropSpan")
+        if span:
+            a_from, a_to = span
+            i, j = stem.find(a_from), stem.find(a_to)
+            if i < 0 or j < 0 or j <= i:
+                raise ExportGateError(
+                    f"F-W20-2: dropSpan anchors not found/ordered in stem of "
+                    f"{series}/4CH1-{paper} Q{qnum}: {a_from[:50]!r} -> {a_to[:50]!r}")
+            stem = (stem[:i].rstrip() + " " + stem[j:].lstrip()).strip()
+        tail = entry.get("dropTail")
+        if tail:
+            if tail not in stem:
+                raise ExportGateError(
+                    f"F-W20-2: dropTail anchor not found in stem of "
+                    f"{series}/4CH1-{paper} Q{qnum}: {tail[:60]!r}")
+            stem = stem[:stem.index(tail)].rstrip()
+            stem = re.sub(r"[\s]*[-\u2013\u2014.:;]?$", "", stem)
     if entry and entry.get("verdict") == "replace":
         anchor = entry.get("dropTailFrom")
         if anchor:
@@ -212,7 +259,7 @@ def restore_stem(q, series, paper, ledger, by_part_num):
     return _bulletize(stem).strip() or None
 
 
-def export_series(series, paper, topic=None, stem_ledger=None):
+def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
     if topic is None:
         tp = f"{CORPUS}/{series}/4CH1-{paper}/topic.json"
         topic = json.load(open(tp))
@@ -230,11 +277,47 @@ def export_series(series, paper, topic=None, stem_ledger=None):
         # F-W15-1: the printed stem is restored to the question's first part
         by_part_num = {p["part_number"]: p for p in q["parts"]}
         stem_md = restore_stem(q, series, paper, stem_ledger or {}, by_part_num)
+        # F-W20-1: stem-level figures render inside the stem block
+        stem_figs_md = []
+        s_entry = (stem_ledger or {}).get("verdicts", {}).get(f"{series}/4CH1-{paper}:Q{qnum}") or {}
+        ref = (s_entry.get("stemFigureRef") or {}).get("asset")
+        if ref:
+            ra = by_id.get(ref)
+            if ra is None:
+                # F28 collapse: the owner record may exist only as a share-ref
+                # whose ref_part names the stem asset (its path IS the owner's
+                # PNG) — resolve through the share-ref's path.
+                ra = next((a for a in by_id.values() if a.get("ref_part") == ref), None)
+            rpath = resolve_asset_path(ra, by_id) if ra else None
+            if not ra or ra.get("kind") != "crop" or not rpath:
+                raise ExportGateError(
+                    f"F-W20-1: stemFigureRef {ref} on {series}/4CH1-{paper} Q{qnum} "
+                    f"does not resolve to a real crop asset")
+            url = raw_url(series, paper, rpath)
+            cap = f"{ra.get('mention', 'figure')} — official paper figure (qp.pdf p.{ra.get('page')})"
+            stem_figs_md.append(f"![{cap}]({url})")
+        first_assets = (q["parts"][0].get("assets") or []) if q["parts"] else []
+        for a in first_assets:
+            if not a.get("stem_figure") or a.get("kind") != "crop":
+                continue
+            rel = resolve_asset_path(a, by_id)
+            if not rel:
+                raise ExportGateError(
+                    f"F-W20-1: stem figure {a['id']} on {series}/4CH1-{paper} Q{qnum} "
+                    f"has no resolvable path")
+            url = raw_url(series, paper, rel)
+            cap = f"{a.get('mention', 'figure')} — official paper figure (qp.pdf p.{a.get('page')})"
+            stem_figs_md.append(f"![{cap}]({url})")
         parts = []
         for p in q["parts"]:
             marks = int(p["marks"]) if p.get("marks") is not None else 0
             assets_out, figures_md = [], []
             for a in p.get("assets") or []:
+                # F-W20-1: stem figures on the FIRST part render in the stem
+                # block (stem_figs_md above) — their crop record still rides
+                # assets[] for the metadata, but the end-of-part figure slot
+                # must not duplicate the inline stem image.
+                is_stem_fig = a.get("stem_figure") and len(parts) == 0
                 rel = resolve_asset_path(a, by_id)
                 entry = {
                     "kind": a.get("kind"),
@@ -251,7 +334,8 @@ def export_series(series, paper, topic=None, stem_ledger=None):
                     cap = f"{a.get('mention', 'figure')} — official paper figure (qp.pdf p.{a.get('page')})"
                     if a.get("shared"):
                         cap += f" (same figure as {a.get('ref_part')})"
-                    figures_md.append(f"![{cap}]({entry['rawUrl']})")
+                    if not is_stem_fig:
+                        figures_md.append(f"![{cap}]({entry['rawUrl']})")
                 elif a.get("kind") == "crop-required":
                     # F-W15-4: learner-facing copy — the wave-13 CROP-REVIEW
                     # verdicts settled these as honest blank-scaffold stubs;
@@ -264,7 +348,8 @@ def export_series(series, paper, topic=None, stem_ledger=None):
                 assets_out.append(entry)
             problem_md = (p.get("problem_md") or "").strip()
             if len(parts) == 0 and stem_md:
-                problem_md = stem_md + "\n\n" + problem_md
+                # F-W20-1: stem prose, then its figures, then the part text
+                problem_md = stem_md + "\n\n" + (("\n\n".join(stem_figs_md) + "\n\n") if stem_figs_md else "") + problem_md
             if figures_md:
                 problem_md += "\n\n" + "\n\n".join(figures_md)
             sol = p.get("solution_md") or None
@@ -273,6 +358,13 @@ def export_series(series, paper, topic=None, stem_ledger=None):
                 # F-W15-3 retired: no reflow — single newlines render as soft
                 # breaks, and the verbatim cell structure is wave-14-pinned.
                 sol = strip_furniture(sol) or None
+            # F-W20-3: authored worked answers replace the terse MS cell as the
+            # learner-facing solutionMd; the MS text itself stays verbatim in
+            # mark_points (marking is never authored). Ledger-only: a part
+            # without a reviewed entry keeps its MS-derived solution.
+            e_entry = (enrich or {}).get(f"{series}-{paper}:{part_slug(p['part_number'])}")
+            if e_entry and e_entry.get("review") == "authored-r0" and e_entry.get("solutionMd"):
+                sol = e_entry["solutionMd"]
             mp = [{"id": x["id"], "marks": x["marks"],
                    "textMd": strip_furniture(x["text_md"])}
                   for x in (p.get("mark_points") or [])]
@@ -533,7 +625,7 @@ def verify_source_cut(topics_dir, source_cut):
           f"declared data cut {source_cut} (modulo the converter header)")
 
 
-def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False, stem_ledger=None):
+def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False, stem_ledger=None, enrich=None):
     """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict.
     allow_new_official: a legitimate append wave may add official sets absent from
     the bundle of record — their full part ids are disclosed in the 'new' census
@@ -572,7 +664,7 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allo
     for paper in PAPERS:
         for series in PAPER_SERIES[paper]:
             slug = f"official-4ch1-{paper.lower()}-{series}"
-            rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger)
+            rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger, enrich)
             of_record = by_slug.get(slug)
             if of_record is None:
                 if not allow_new_official:
@@ -611,7 +703,7 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allo
             for paper in PAPERS:
                 for series in PAPER_SERIES[paper]:
                     slug = f"official-4ch1-{paper.lower()}-{series}"
-                    rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger)
+                    rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger, enrich)
                     of_record = by_slug[slug]
                     smap = expected_probe["idRenames"].get(slug)
                     if not smap:
@@ -731,12 +823,13 @@ def main():
     hub = json.loads(raw)
     kept = [t for t in hub if not t["slug"].startswith(OFFICIAL_SLUG_PREFIX)]
     stem_ledger = load_stem_ledger()
-    official = [export_series(s, paper, topics_src(s, paper), stem_ledger)
+    enrich = load_enrichment_ledger()
+    official = [export_series(s, paper, topics_src(s, paper), stem_ledger, enrich)
                 for paper in PAPERS for s in PAPER_SERIES[paper]]
     out = kept + official
 
     run_gates(out, raw, args.expected_deltas, topics_src, args.allow_new_official,
-              stem_ledger)
+              stem_ledger, enrich)
 
     dest = os.path.join(args.out_stage, "content", "igcse-chemistry-19")
     os.makedirs(dest, exist_ok=True)
@@ -759,22 +852,25 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.11.0 corpus (merged main): wave-15 is the UX-doctrine wave "
-            "(best experience for the learner; verbatim transcription retired as the governing "
-            "law, values still never invented). F-W15-1 stem restore: all 427 upstream stem_md "
-            "blocks now reach the learner on the question's first part - every prior export "
-            "silently dropped them; 92-entry STEM-RESTORE.json ledger (eyeballed): 26 authored "
-            "rebuilds (data tables, substance boxes, reaction flows, method steps - values "
-            "verbatim), 16 drop-tail verdicts (label runs redundant with a cropped figure), 50 "
-            "keep+tranche flags. F-W15-id: part/question ids now carry the paper code "
-            "(offp_<series>_<paper>_<part>) - offp_<series>_<part> collided 631x across "
-            "1C/2C/1CR/2CR of the same series, cross-wiring saved MCQ answers and typed drafts "
-            "between papers of the same series. F-W15-2 MS-furniture tails stripped "
-            "(Question/Answer Notes Marks grid headers). F-W15-3 PDF hard-wrap reflow in "
-            "solutionMd/markPoints. F-W15-4 stub note rewritten learner-facing (the wave-13 "
-            "crop queue it referenced is settled). Core bridge unaffected (joins by "
-            "topicSlug+order, verified ADR-029). Wave-15b backlog (ledger tranche flags): ~28 "
-            "stem figures/tables to crop, 9 formulae letter-runs. "
+            "ADR-037 converter v0.14.0 corpus (wave-20): the stem-figure tranche closes the "
+            "wave-15 backlog - all 48 figures/tables the restored question stems reference are "
+            "now eyeballed crops (chromatograms, apparatus, structure diagrams, mini periodic "
+            "table, pie chart, displayed-formula letter runs, interleaved property tables; the "
+            "rasterized 2019-06 p12 structures via pixel profiling), rendered deterministically "
+            "through the F45 manual-crop branch from STEM-RESTORE.json stemFigures specs "
+            "(F57). Exporter v6 (F-W20-1): stem figures inline INSIDE the stem block (prose -> "
+            "figure -> part text); part-targeted figures (2019-06 2C bond-energy tables for "
+            "5(a)(i)) render on the part that reads them; stemFigureRef inlines 2 already-served "
+            "figures; F-W20-2 cuts the flattened figure-label soup from the served stems "
+            "(dropSpan x2, dropTail x44, anchors verbatim fail-closed). 1 tranche flag retired "
+            "with evidence (2023-11 1C Q7 has no displayed formulae). Part C (F60): 124 authored "
+            "worked answers (all of 2019-06 1C + 2020-01 1C) served as solutionMd from "
+            "SOLUTION-ENRICH.json with the build-time value-fidelity review pass - the MS cells "
+            "and mark points stay verbatim. Corpus: 30/54 slices "
+            "changed, 48 crop assets, every other extraction field byte-identical; 68 canaries "
+            "(C66 corpus-wide bidirectional ledger check + C67-C70 pins). Wave-15 UX doctrine "
+            "governs: best learner experience, values never invented. Group-stem restore and "
+            "the solution-enrichment wave are the next tranches. "
             f"{official_n} official sets (16x1C + 16x2C + R-variants), {n_q} questions, {n_p} parts, all "
             "spec-tagged.")
         os.makedirs(args.out_stage, exist_ok=True)

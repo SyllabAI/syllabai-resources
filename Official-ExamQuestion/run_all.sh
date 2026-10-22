@@ -56,6 +56,16 @@ echo "papers: $PAPERS"
 
 for S in $SERIES; do
   for PAPER in $PAPERS; do
+    # F-178: the R papers exist for exactly 11 of the 16 series (2021-06/2021-11/
+    # 2023-11/2024-11/2025-11 never printed a 1CR/2CR; 2020-06 never ran). Skip
+    # combos the registry of record does not expect instead of crashing in G0.
+    if ! python3 -c "
+import sys
+sys.path.insert(0, '$RES/scripts')
+from official_examq_extract import EXPECT_QUESTIONS
+sys.exit(0 if EXPECT_QUESTIONS['$PAPER'].get('$S') else 1)"; then
+      echo "skip $S/4CH1-$PAPER (paper never printed — F-178 registry)"; continue
+    fi
     if [ "${SKIP_FETCH:-0}" != "1" ]; then
       D="$BASEURL/$S/4CH1-$PAPER"
       for f in manifest.yaml qp.pdf ms.pdf; do

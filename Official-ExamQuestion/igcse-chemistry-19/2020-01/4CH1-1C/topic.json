@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T03:10:27Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2020-01 paper=1C",
+ "generated_utc": "2026-10-22T19:23:32Z",
+ "generator": "official_examq_extract.py v0.14.0 (ADR-037) series=2020-01 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C",
  "source": {
   "qp_sha256": "37247459b838d799b1059dd3b1aba296043104a56323c656e71eb1fca589396f",
@@ -609,7 +609,22 @@
       }
      ],
      "source_page": 10,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_5_stem_displayed-formulae",
+       "kind": "crop",
+       "mention": "six displayed formulae PQRSTU",
+       "source": "qp.pdf",
+       "page": 10,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_5_stem_displayed-formulae.png",
+       "render": "vector",
+       "text_coverage": 0.156,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-4.2"
      ],

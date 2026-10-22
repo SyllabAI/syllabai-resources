@@ -248,6 +248,8 @@ A student uses this apparatus to investigate the colours in four different inks,
 
 Explain two mistakes the student made when setting up his experiment. 1 2
 
+![chromatography apparatus — official paper figure (qp.pdf p.8)](assets/asset_4_stem_chromatogram.png)
+
 
 **Mark scheme answer**
 
@@ -411,6 +413,8 @@ What is the order of reactivity of these metals? most reactive least reactive
 - **(C)** W                                                         Y                                                        X                                                        Z
 - **(D)** Z                                                        Y                                                        X                                                       W
 
+![metals reactivity table — official paper figure (qp.pdf p.11)](assets/asset_6_stem_reactivity-table.png)
+
 
 **Mark scheme answer**
 
@@ -479,6 +483,8 @@ Diamond, graphite and silicon dioxide all have giant covalent structures. The di
 ### 7(a) [2]
 
 Explain why silicon dioxide has a high melting point.
+
+![giant covalent structures diagram — official paper figure (qp.pdf p.12)](assets/asset_7_stem_structures.png)
 
 
 **Mark scheme answer**

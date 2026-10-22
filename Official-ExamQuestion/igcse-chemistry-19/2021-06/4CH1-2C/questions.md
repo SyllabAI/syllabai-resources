@@ -152,6 +152,8 @@ The diagram shows the industrial equipment used to separate crude oil into fract
 
 Give the name of the industrial equipment.
 
+![fractionating column diagram — official paper figure (qp.pdf p.6)](assets/asset_3_stem_column.png)
+
 
 **Mark scheme answer**
 
@@ -474,6 +476,8 @@ The diagram shows how hydrogen gas and chlorine gas can be prepared in the labor
 ### 6(a)(i) [1]
 
 Give a test for hydrogen gas.
+
+![electrolysis cell diagram — official paper figure (qp.pdf p.14)](assets/asset_6_stem_cell.png)
 
 
 **Mark scheme answer**

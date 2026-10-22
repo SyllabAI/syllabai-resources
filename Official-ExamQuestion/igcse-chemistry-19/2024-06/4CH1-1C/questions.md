@@ -410,6 +410,8 @@ A student uses paper chromatography in an experiment to separate the dyes in fou
 
 The chromatography paper is placed in a solvent. Explain why the spots on the baseline are placed above the level of the solvent.
 
+![chromatogram before and after — official paper figure (qp.pdf p.10)](assets/asset_5_stem_chromatogram.png)
+
 
 **Mark scheme answer**
 

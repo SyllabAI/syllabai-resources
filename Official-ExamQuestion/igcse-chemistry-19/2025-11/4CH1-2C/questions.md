@@ -12,6 +12,8 @@ Complete the table by placing ticks (ü) in each column to show if a piece of ap
 
 ![table — official paper figure (qp.pdf p.4)](assets/asset_1_a_table.png)
 
+![six pieces of apparatus P-U — official paper figure (qp.pdf p.4)](assets/asset_1_stem_apparatus.png)
+
 
 **Mark scheme answer**
 

@@ -10,6 +10,8 @@ The diagram shows the sub‑atomic particles in an atom of an element. Q – + +
 
 Give the name of each of the sub‑atomic particles labelled P, Q and R. P Q R
 
+![sub-atomic particle diagram PQRS — official paper figure (qp.pdf p.3)](assets/asset_1_stem_particles.png)
+
 
 **Mark scheme answer**
 

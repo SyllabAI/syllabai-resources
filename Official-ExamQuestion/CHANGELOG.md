@@ -4,6 +4,59 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.14.0 — 2026-10-22 · wave-20: the stem-figure tranche (the wave-19 backlog closes)
+
+The wave-19 stem restore (F53) carried 50 keep-verdicts flagged for figures the stems
+introduce but no part ever mentions — 38 qp-fig, 2 interleaved tables, 9 formulae
+letter-runs, 1 box-ok (handled) — plus 2 already-served figures and 1 retired mis-flag
+found during reconciliation (2023-11 1C Q7: no displayed formulae exist in that question;
+QP pp.18-19 eyeballed). This wave crops them all.
+
+- **Converter (F57)**: the question-stem figure pass reads `stemFigures` specs from
+  STEM-RESTORE.json (id/page/rect/mention/target, the eyeballed crop tranche) and emits
+  a crop-required stub on the target part (first part unless `target` names one); the
+  EXISTING F45 manual_crop branch renders it at verdict time — the box is the human
+  decision, the render deterministic at CROP_DPI. Fail-closed: malformed spec or asset-id
+  collision aborts the run.
+- **Eyeball evidence (48 crops)**: every rect derived from document geometry (intro-sentence
+  bottom → first-part top band; figure clusters inside the band; label-absorption for
+  callouts; raster pixel-profiling for 2019-06 p12) and eyeballed against the printed page
+  — 37 of 48 first-candidate rects needed manual correction (clipped callout labels,
+  prose swallowed by absorption, band slivers from label-bottom layouts), fixed and
+  re-eyeballed to final. Converter renders are byte-identical to the evidence renders.
+- **Exporter v6 (F-W20-1/F-W20-2)**: stem-figure assets on a question's first part render
+  INSIDE the stem block (prose → figure → part text); assets targeted at a later part
+  (2019-06 2C bond-energy tables → 5(a)(i)) render in that part's normal figure slot;
+  `stemFigureRef` inlines an already-cropped figure (2022-06 1C Q4, 2022-01 2CR Q3 — both
+  F28 share-ref collapses resolved through ref_part). `entry.dropSpan [from, to)` removes
+  the mid-stem flattened label run; `entry.dropTail` removes the tail soup the crop now
+  serves visually — both anchors verbatim, fail-closed.
+- **Corpus effect**: exactly 30 of 54 slices change; 48 new crop assets (43 stem-figure
+  crops + 5 part/extra figures incl. the 2019-06 2C three-figure split); ZERO changes to
+  any other extraction field (marks, problem_md, solutions, spec codes, links all
+  byte-identical); 24 slices byte-identical. The exporter's own census: 48 changed parts
+  (46 {assets, problemMd} + 2 {problemMd}-only refs), 0 new/gone ids.
+- **Canaries**: 68 hold — C66 corpus-wide bidirectional stem-figures ledger check,
+  C67/C68/C69/C70 pins (chromatogram, bond tables, raster structures, formulae letter-runs).
+  Floor 0.14.
+- **Part C — solution enrichment (F60, exporter F-W20-3)**: SOLUTION-ENRICH.json
+  (syllabai.official-solution-enrichment/0.1) — 124 authored worked answers for every
+  part of the two flagship sets (2019-06 1C: 64 parts, 2020-01 1C: 60 parts), MS-terse
+  median 165 chars → SME-style narrative walkthroughs (median authored ~700 chars). The
+  doctrine rules hold: values are never invented — the build-time review pass runs a
+  numeric-token census (printed data must appear in the question/QP evidence; derived
+  values must verify as correct arithmetic on printed data via an equation scanner that
+  re-computes every a×b=c / a÷b=c / a−b=c chain in the authored text) plus
+  enrichment-vs-marking-scheme coverage and PUA/junk checks — 0 problems at ship.
+  The MS-derived solution_md and mark_points stay verbatim in the corpus and the
+  markPoints the hub serves; the authored text replaces only the learner-facing
+  solutionMd at export (C71 pins the export-only law). 124/124 entries resolve;
+  68→69 canaries.
+- **Tooling**: run_all.sh gains the F-178 registry skip guard (2021-06/2021-11/2023-11/
+  2024-11/2025-11 never printed 1CR/2CR — the runner no longer crashes in G0 on them);
+  a rebuilt-from-clean staging area reproduces all 54 committed topics byte-identical
+  (modulo the converter header) before the wave's changes — baseline receipt.
+
 ## 0.13.1 — 2026-10-22 · F52: the corpus-wide ǻH → ΔH normalization (operator dispatch, trace 1a163a753e3bd999)
 
 The 0.13.0 known-artifact carry note is superseded: the artifact is FIXED corpus-wide. MyriadPro-It's
