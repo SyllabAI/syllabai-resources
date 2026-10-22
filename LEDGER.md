@@ -213,3 +213,18 @@ served bundle PR carries a full disclosure census.
 - **Wave-20 backlog (filed in STEM-RESTORE.json tranche flags)**: ~28 stem figures/tables to
   crop (chromatograms, apparatus, structure diagrams the stems reference but no crop carries),
   9 displayed-formulae letter-runs (crop tranche), 3 interleaved property tables to eyeball.
+
+- **T-UGM-MODE1-1 — UGM mode-1 lane enrichment, quadratics pilot (this run)**: first
+  landing from the Underground Mathematics reverse-engineering track
+  (SyllabAI/syllabai-experimental @ 915bfa8c; ADR-UGM-0001 Accepted 2026-10-22,
+  operator-ratified). New `UGM-Enrichment/` domain, schema
+  `syllabai.ugm-spec-enrichment/1.0`, `review_state` SUGGESTED per AGENT.md rule 2
+  (LLM-assisted alignment candidates with per-row confidence — not verbatim joins;
+  no coverage manufactured). `cie-a-level-maths-20-pure-1-quadratics.json`: 61 aligned
+  rows over official codes 1.1.1–1.1.5 (56 of 59 station resources aligned = 95%;
+  3 explicit non-overlaps recorded as such, not collapsed — rule 3), provenance
+  strings preserved, 5 `primaryPick` markers. FACTS ONLY: slugs/titles/types/levels/
+  relations/provenance — no UGM text bodies; rights © Cambridge/UCLES unchanged
+  (licensing block in-file + dir README). Mode-2 deep-link rendering was dropped by
+  operator directive 2026-10-22 before implementation (syllabai-v2#305 closed
+  not_planned) — these rows land as data of record only. Base commit 1f2aab45.

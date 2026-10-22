@@ -1,0 +1,1080 @@
+{
+  "schema": "syllabai.ugm-spec-enrichment/1.0",
+  "generated_utc": "2026-10-22T16:30:00Z",
+  "task": "T-UGM-MODE1-1",
+  "course": "cie-a-level-maths-20-pure-1",
+  "qual": "cie-a-level-maths-2023-2025",
+  "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+  "board": "cambridge-cie",
+  "review_state": {
+    "state": "SUGGESTED",
+    "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. No coverage is manufactured: the 3 explicit non-overlaps are recorded as such (rule 3).",
+    "provenance_tier": "T2_near-equivalent: LLM-assisted alignment with recorded per-row confidence; not a verbatim join — treat as candidates, not authoritative mappings"
+  },
+  "source": {
+    "kind": "reverse-engineering corpus (metadata facts only)",
+    "repo": "SyllabAI/syllabai-experimental",
+    "path": "undergroundmathematics/resources/derived/cross-map-quadratics.json",
+    "commit": "915bfa8c",
+    "adr": "ADR-UGM-0001 (Accepted 2026-10-22): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped by operator directive 2026-10-22 before implementation; Mode-3 licensing = only route for UGM text of record",
+    "method": "Phase-3c cross-map pilot: LLM-assisted alignment pass over the UGM quadratics station (59 resources) against CIE 9709 Pure 1 (1.1.1-1.1.5), per-row confidence + explicit non-overlaps; see source repo docs/cross-map-quadratics.md",
+    "operatorRatification": "ADR-UGM-0001 ratified 2026-10-22 (zai-web session); mode-2 drop directive 2026-10-22 (zai-web session)"
+  },
+  "licensing": {
+    "law": "FACTS-ONLY: this file carries UGM metadata (slugs, titles, resource types, levels, relations, confidence, provenance strings) — NO Underground Mathematics text bodies, question content, suggestions, solutions, or teacher-support content",
+    "rights": "UGM content (c) University of Cambridge; sourced exam questions (c) UCLES; no licence for content reuse exists; provenance strings are quotations of UGM's own acknowledgement metadata (facts)",
+    "takedown": "per repo LICENSE-DATA.md pattern: issue on this repo; affected rows removed promptly"
+  },
+  "coverage": {
+    "ugmResourcesConsidered": 59,
+    "aligned": 56,
+    "nonOverlap": 3,
+    "alignedShare": 0.949,
+    "withExamProvenance": 46,
+    "specPointsCovered": [
+      "1.1.1",
+      "1.1.2",
+      "1.1.3",
+      "1.1.4",
+      "1.1.5"
+    ]
+  },
+  "mode2Note": "modesRecorded reflects the cross-map's original mode flags of record. Mode-2 (deep-link rendering on lane pages) was dropped by operator directive 2026-10-22 before any implementation — these rows land as data/facts only (mode 1).",
+  "perSpecPoint": {
+    "1.1.1": {
+      "officialCode": "1.1.1",
+      "officialText": "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form",
+      "ugmStation": "quadratics",
+      "ugmStationUrl": "https://undergroundmathematics.org/quadratics",
+      "resourceCount": 8,
+      "primaryPick": "name-that-graph",
+      "resources": [
+        {
+          "ugmSlug": "name-that-graph",
+          "title": "Name that graph",
+          "url": "https://undergroundmathematics.org/quadratics/name-that-graph",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2,
+            4
+          ],
+          "note": "Match parabola equations to graphs (vertex form, translations).",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": true
+        },
+        {
+          "ugmSlug": "quad-symmetry",
+          "title": "Quadratic symmetry",
+          "url": "https://undergroundmathematics.org/quadratics/quad-symmetry",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Axis of symmetry and vertex via completed-square form.",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6526",
+          "title": "For what values of $k$ is $x^2 + 6kx +144$ always positive?",
+          "url": "https://undergroundmathematics.org/quadratics/r6526",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Always-positive quadratic: discriminant + completing the square.",
+          "provenance": "UCLES 1981 Q12(b)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6756",
+          "title": "Given the minimum point, what's this parabola's equation?",
+          "url": "https://undergroundmathematics.org/quadratics/r6756",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Equation of a parabola from its minimum point — vertex form.",
+          "provenance": "UCLES 1958 Q2(i)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9724",
+          "title": "If $7 - px - x^2 = 16 - (q + x)^2$, what are $p$ and $q$?",
+          "url": "https://undergroundmathematics.org/quadratics/r9724",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Identity comparison after completing the square.",
+          "provenance": "UCLES 1980 Q13",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "which-parabola",
+          "title": "Which parabola?",
+          "url": "https://undergroundmathematics.org/quadratics/which-parabola",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2,
+            4
+          ],
+          "note": "Identify the parabola from graph features (NRICH).",
+          "provenance": "NRICH",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "which-quadratic",
+          "title": "Which quadratic?",
+          "url": "https://undergroundmathematics.org/quadratics/which-quadratic",
+          "resourceType": "building-blocks",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2,
+            4
+          ],
+          "note": "Which quadratic satisfies the clues — build/verify quadratics (NRICH).",
+          "provenance": "NRICH",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "paired-parabolas",
+          "title": "Paired parabolas",
+          "url": "https://undergroundmathematics.org/quadratics/paired-parabolas",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Vertex/axis reasoning across parabola pairs.",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        }
+      ]
+    },
+    "1.1.2": {
+      "officialCode": "1.1.2",
+      "officialText": "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included.",
+      "ugmStation": "quadratics",
+      "ugmStationUrl": "https://undergroundmathematics.org/quadratics",
+      "resourceCount": 12,
+      "primaryPick": "discriminating",
+      "resources": [
+        {
+          "ugmSlug": "discriminating",
+          "title": "Discriminating",
+          "url": "https://undergroundmathematics.org/quadratics/discriminating",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2,
+            4
+          ],
+          "note": "MUST/MAY/CAN'T discriminant family; teacher support available (pattern exemplar).",
+          "provenance": null,
+          "hasTeacherSupport": true,
+          "primaryPick": true
+        },
+        {
+          "ugmSlug": "discriminating-teacher-support",
+          "title": "Discriminating - teacher support",
+          "url": "https://undergroundmathematics.org/quadratics/discriminating-teacher-support",
+          "resourceType": "resource-in-action",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Teacher-support sibling of \"discriminating\" (opportunities-for-learning table).",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r5138",
+          "title": "When are the roots for $x^2-bx+c=0$ real and positive?",
+          "url": "https://undergroundmathematics.org/quadratics/r5138",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Roots real and positive: discriminant + root sign conditions.",
+          "provenance": "UCLES 2001 Q3",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r5316",
+          "title": "When does $x^2-4x-1=2k(x-5)$ have equal roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r5316",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Equal roots after rearranging a line-equals-quadratic identity.",
+          "provenance": "UCLES 1966 Q7(ii)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6526",
+          "title": "For what values of $k$ is $x^2 + 6kx +144$ always positive?",
+          "url": "https://undergroundmathematics.org/quadratics/r6526",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Always-positive quadratic: discriminant + completing the square.",
+          "provenance": "UCLES 1981 Q12(b)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6828",
+          "title": "When does $x^2+(3k-7)x+(2k+6)=0$ have real roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r6828",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Real roots condition in k: discriminant >= 0.",
+          "provenance": "UCLES 1958 Q2(ii)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7455",
+          "title": "When does $(p+1)x^2+4px+9=0$ have a repeated root?",
+          "url": "https://undergroundmathematics.org/quadratics/r7455",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Repeated root with parameter: discriminant = 0.",
+          "provenance": "UCLES 1986 Q5(a)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8812",
+          "title": "Can we show $(b^2 - 2ac)x^2 + 4(a + c)x = 8$ always has real roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r8812",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Show a quadratic always has real roots — discriminant condition.",
+          "provenance": "UCLES 1980 Q12(b)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9658",
+          "title": "When do these simultaneous equations have no real solutions?",
+          "url": "https://undergroundmathematics.org/quadratics/r9658",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "No real solutions of a line-quadratic system = discriminant condition.",
+          "provenance": "UCLES 1972 Q5(ii)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9659",
+          "title": "When does $x^2 + ax + a = 1$ have distinct real roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r9659",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Distinct real roots: discriminant > 0 (MAT).",
+          "provenance": "Oxford (MAT) 2013 Q1A",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9742",
+          "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+          "url": "https://undergroundmathematics.org/quadratics/r9742",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "x-axis crossings of a parameterised quadratic.",
+          "provenance": "UCLES 1983 Q13(a)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7350",
+          "title": "When are the coefficients of a quadratic equal to its roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r7350",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Coefficients equal to roots — root/condition reasoning (UKMT).",
+          "provenance": "UKMT 2011 Q15",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        }
+      ]
+    },
+    "1.1.3": {
+      "officialCode": "1.1.3",
+      "officialText": "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula.",
+      "ugmStation": "quadratics",
+      "ugmStationUrl": "https://undergroundmathematics.org/quadratics",
+      "resourceCount": 20,
+      "primaryPick": "quad-solving-sorter",
+      "resources": [
+        {
+          "ugmSlug": "factorisable-quads",
+          "title": "Factorisable quadratics",
+          "url": "https://undergroundmathematics.org/quadratics/factorisable-quads",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2,
+            4
+          ],
+          "note": "Fluency family on factorisable quadratics.",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "inequalities-for-some-occasions",
+          "title": "Inequalities for some occasions",
+          "url": "https://undergroundmathematics.org/quadratics/inequalities-for-some-occasions",
+          "resourceType": "fluency-exercise",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Quadratic-inequality fluency exercise.",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "irrational-roots",
+          "title": "Irrational roots",
+          "url": "https://undergroundmathematics.org/quadratics/irrational-roots",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Surd roots via formula; surd manipulation in root conditions.",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "pick-a-card",
+          "title": "Pick a card...",
+          "url": "https://undergroundmathematics.org/quadratics/pick-a-card",
+          "resourceType": "fluency-exercise",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Solving fluency (factorising/formula choice).",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "quad-solving-sorter",
+          "title": "Quadratic solving sorter",
+          "url": "https://undergroundmathematics.org/quadratics/quad-solving-sorter",
+          "resourceType": "fluency-exercise",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Sort by solution method (factorise / complete square / formula).",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": true
+        },
+        {
+          "ugmSlug": "r5059",
+          "title": "When is $12x^2+7x-10$ negative?",
+          "url": "https://undergroundmathematics.org/quadratics/r5059",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Solve and interpret a quadratic inequality (1962 UCLES).",
+          "provenance": "UCLES 1962 Q7(ii),Q7(iii)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6246",
+          "title": "Can we solve $nx^2+2x\\sqrt{pn^2+q}+rn+s=0$?",
+          "url": "https://undergroundmathematics.org/quadratics/r6246",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Quadratic formula with literal coefficients.",
+          "provenance": "UCLES 1999 Q2",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6638",
+          "title": "Can we find both roots if one is double the other?",
+          "url": "https://undergroundmathematics.org/quadratics/r6638",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Roots related by an integer factor; factorise or use root relationships.",
+          "provenance": "UCLES 1985 Q1",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7035",
+          "title": "Can we solve $12/(x-3) < x+1$?",
+          "url": "https://undergroundmathematics.org/quadratics/r7035",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Rational inequality reduces to a quadratic inequality (critical values).",
+          "provenance": "UCLES 1980 Q2",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9742",
+          "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+          "url": "https://undergroundmathematics.org/quadratics/r9742",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "x-axis crossings of a parameterised quadratic.",
+          "provenance": "UCLES 1983 Q13(a)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9989",
+          "title": "When are these quadratic inequalities true together?",
+          "url": "https://undergroundmathematics.org/quadratics/r9989",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Two quadratic inequalities true together.",
+          "provenance": "Oxford (MAT) Specimen 1 Q1G",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "which-quadratic",
+          "title": "Which quadratic?",
+          "url": "https://undergroundmathematics.org/quadratics/which-quadratic",
+          "resourceType": "building-blocks",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2,
+            4
+          ],
+          "note": "Which quadratic satisfies the clues — build/verify quadratics (NRICH).",
+          "provenance": "NRICH",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "geogebra-constructions-quadratic",
+          "title": "GeoGebra constructions... quadratic edition",
+          "url": "https://undergroundmathematics.org/quadratics/geogebra-constructions-quadratic",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Dynamic constructions of parabola properties; supports sketching (1.1.3/1.2).",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "proving-quad-formula",
+          "title": "Proving the quadratic formula",
+          "url": "https://undergroundmathematics.org/quadratics/proving-quad-formula",
+          "resourceType": "scaffolded-task",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "note": "Derive the quadratic formula (completing the square) — CIE hands the formula, derivation is enrichment.",
+          "provenance": "NRICH",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "quadratic-grids",
+          "title": "Quadratic grids",
+          "url": "https://undergroundmathematics.org/quadratics/quadratic-grids",
+          "resourceType": "rich-example",
+          "level": "Introducing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Structure/multiplication-grid identities for quadratics.",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6712",
+          "title": "How do we increase the roots of a quadratic equation by $1$?",
+          "url": "https://undergroundmathematics.org/quadratics/r6712",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Shift roots by 1: substitution y = x - 1, expansion and comparison.",
+          "provenance": "UCLES 1962 Q7(i)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7533",
+          "title": "Can we prove this inequality involving two square roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r7533",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Inequality proof with two square roots — beyond routine, but discriminant/sign reasoning.",
+          "provenance": "UCLES 1981 Q6(i)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7972",
+          "title": "If we know two values satisfying a quadratic, can we find the quadratic?",
+          "url": "https://undergroundmathematics.org/quadratics/r7972",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Reconstruct a quadratic from two known values.",
+          "provenance": "O&C (Oxford & Cambridge SEG) 1972 Q3(i)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8775",
+          "title": "Can we fit a quadratic to this given data?",
+          "url": "https://undergroundmathematics.org/quadratics/r8775",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Form a quadratic from given data/conditions.",
+          "provenance": "UCLES 1967 Q1",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8781",
+          "title": "Into how many regions do these parabolas divide the plane?",
+          "url": "https://undergroundmathematics.org/quadratics/r8781",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Regions bounded by parabolas; line-parabola positions + inequalities.",
+          "provenance": "Oxford (MAT) Specimen 2 Q1J",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        }
+      ]
+    },
+    "1.1.4": {
+      "officialCode": "1.1.4",
+      "officialText": "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic",
+      "ugmStation": "quadratics",
+      "ugmStationUrl": "https://undergroundmathematics.org/quadratics",
+      "resourceCount": 10,
+      "primaryPick": "r7328",
+      "resources": [
+        {
+          "ugmSlug": "r5287",
+          "title": "When does $y=mx-5$ intersect $y=x^2-1$  twice?",
+          "url": "https://undergroundmathematics.org/quadratics/r5287",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "y = mx - 5 cuts y = x^2 - 1 twice: discriminant in m.",
+          "provenance": "UCLES 1986 Q5(b)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6429",
+          "title": "Can we solve these simultaneous equations, one linear, one quadratic?",
+          "url": "https://undergroundmathematics.org/quadratics/r6429",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Canonical linear+quadratic simultaneous system.",
+          "provenance": "UCLES 1983 Q5",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7328",
+          "title": "When is this line a tangent to this parabola?",
+          "url": "https://undergroundmathematics.org/quadratics/r7328",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Tangency of line to parabola via discriminant = 0.",
+          "provenance": "UCLES 1977 Q13(b)",
+          "hasTeacherSupport": false,
+          "primaryPick": true
+        },
+        {
+          "ugmSlug": "r8045",
+          "title": "Can we find the midpoint of a chord of this parabola?",
+          "url": "https://undergroundmathematics.org/quadratics/r8045",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Chord of a parabola: line meets curve, then midpoint (coordinate-geometry flavour).",
+          "provenance": "UCLES 1982 Q13",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9614",
+          "title": "When does $y=kx$ intersect the parabola $y=(x-1)^2$?",
+          "url": "https://undergroundmathematics.org/quadratics/r9614",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "y = kx meets y = (x-1)^2: intersection conditions (MAT).",
+          "provenance": "Oxford (MAT) 2010 Q1A",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9658",
+          "title": "When do these simultaneous equations have no real solutions?",
+          "url": "https://undergroundmathematics.org/quadratics/r9658",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "No real solutions of a line-quadratic system = discriminant condition.",
+          "provenance": "UCLES 1972 Q5(ii)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6804",
+          "title": "Can we find the tangents to a circle from a point?",
+          "url": "https://undergroundmathematics.org/quadratics/r6804",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Tangents from a point to a circle — sits with P1 coordinate geometry (1.3); tangency via discriminant is the shared skill.",
+          "provenance": "UCLES 1964 Q2",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7520",
+          "title": "Can we solve these simultaneous equations, both of degree two?",
+          "url": "https://undergroundmathematics.org/quadratics/r7520",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Both equations degree two — extends the P1 linear+quadratic case (1.1.4).",
+          "provenance": "UCLES 1980 Q2(b)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7588",
+          "title": "Given two simultaneous equations of degree two, can we solve them?",
+          "url": "https://undergroundmathematics.org/quadratics/r7588",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Two quadratics simultaneously — extension of 1.1.4.",
+          "provenance": "UCLES 2010 Q1",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8781",
+          "title": "Into how many regions do these parabolas divide the plane?",
+          "url": "https://undergroundmathematics.org/quadratics/r8781",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Regions bounded by parabolas; line-parabola positions + inequalities.",
+          "provenance": "Oxford (MAT) Specimen 2 Q1J",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        }
+      ]
+    },
+    "1.1.5": {
+      "officialCode": "1.1.5",
+      "officialText": "recognise and solve equations in x which are quadratic in some function of x . tan",
+      "ugmStation": "quadratics",
+      "ugmStationUrl": "https://undergroundmathematics.org/quadratics",
+      "resourceCount": 11,
+      "primaryPick": "r6215",
+      "resources": [
+        {
+          "ugmSlug": "r5682",
+          "title": "Can we solve the simultaneous equations $x + y + \\sqrt{xy} = 39$ and $x^2 + y^2 + xy = 741$?",
+          "url": "https://undergroundmathematics.org/quadratics/r5682",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Substitution u = sqrt(xy) makes the simultaneous system a hidden quadratic.",
+          "provenance": "UCLES 1981 Q4(a)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6215",
+          "title": "How do we  solve $x + 3\\sqrt{x} − 1/2 = 0$?",
+          "url": "https://undergroundmathematics.org/quadratics/r6215",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Canonical hidden quadratic: x + 3sqrt(x) - 1/2 = 0.",
+          "provenance": "UCLES 2013 Q1",
+          "hasTeacherSupport": false,
+          "primaryPick": true
+        },
+        {
+          "ugmSlug": "r6816",
+          "title": "If $2y = a^x + a^{-x}$, can we find $a^x$?",
+          "url": "https://undergroundmathematics.org/quadratics/r6816",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Hidden quadratic in a^x; then a^{-x} read off reciprocally.",
+          "provenance": "UCLES 1973 Q2",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r7485",
+          "title": "Can we solve $\\sqrt{3-3x} - \\sqrt{2-x} = 1$?",
+          "url": "https://undergroundmathematics.org/quadratics/r7485",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "Surds equation squared down to a quadratic.",
+          "provenance": "UCLES 1979 Q1",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r9546",
+          "title": "When does $x^4=(x-c)^2$ have four real roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r9546",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            2
+          ],
+          "note": "x^4 = (x-c)^2: quadratic in x^2; count four real roots (MAT).",
+          "provenance": "Oxford (MAT) 2009 Q1C",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "powerful-quads",
+          "title": "Powerful quadratics",
+          "url": "https://undergroundmathematics.org/quadratics/powerful-quads",
+          "resourceType": "food-for-thought",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Equations quadratic in x^n.",
+          "provenance": "NRICH",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r5847",
+          "title": "How do we solve an equation containing three square roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r5847",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Three square roots; squaring chain reduces to a quadratic.",
+          "provenance": "UCLES 1970 Q5(ii)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r6387",
+          "title": "Can we solve this inequality with three square roots?",
+          "url": "https://undergroundmathematics.org/quadratics/r6387",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Three-square-root inequality — extension of 1.1.3/1.1.5 techniques.",
+          "provenance": "UCLES 1958 Q3(i)",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8128",
+          "title": "Can we solve these simultaneous equations that involve reciprocals?",
+          "url": "https://undergroundmathematics.org/quadratics/r8128",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Reciprocal simultaneous equations; hidden quadratic in 1/x and 1/y.",
+          "provenance": "UCLES 1975 Q2a",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8407",
+          "title": "When can this equation involving algebraic fractions hold?",
+          "url": "https://undergroundmathematics.org/quadratics/r8407",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Algebraic-fraction equation reduced to a quadratic.",
+          "provenance": "UCLES 2005 Q3",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        },
+        {
+          "ugmSlug": "r8855",
+          "title": "What does the curve $x^4-y^2=y+1$ look like?",
+          "url": "https://undergroundmathematics.org/quadratics/r8855",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "note": "Hidden quadratic in y; curve sketching itself exceeds P1 scope.",
+          "provenance": "Oxford (MAT) 2013 Q1D",
+          "hasTeacherSupport": false,
+          "primaryPick": false
+        }
+      ]
+    }
+  },
+  "nonOverlapRows": [
+    {
+      "ugmSlug": "r6864",
+      "title": "How fast are these particles sliding when they pass?",
+      "url": "https://undergroundmathematics.org/quadratics/r6864",
+      "resourceType": "review-question",
+      "reason": "NON-OVERLAP for P1 pure lane: kinematics context (particles sliding); the underlying quadratic solving is 1.1.3."
+    },
+    {
+      "ugmSlug": "parabella",
+      "title": "Parabella",
+      "url": "https://undergroundmathematics.org/quadratics/parabella",
+      "resourceType": "food-for-thought",
+      "reason": "NON-OVERLAP for this lane: parabola families belong with P1 Functions (1.2) / transformations."
+    },
+    {
+      "ugmSlug": "parabolic-mirrors",
+      "title": "Parabolic mirrors",
+      "url": "https://undergroundmathematics.org/quadratics/parabolic-mirrors",
+      "resourceType": "bigger-picture",
+      "reason": "NON-OVERLAP: enrichment (bigger-picture) — no 9709 P1 quadratics spec point; context material."
+    }
+  ]
+}
