@@ -1,7 +1,7 @@
 # T-SPECS-CIE-TRANCHE2-R2-SHEETS-1 — cie-igcse-science-combined-science-23-physics operator review sheet
 
 - Pool (MAP universe): 40 verdict-unit parts (42 part-sid declarations) / 28 distinct sids; sid-less (tranche-3 class): 0
-- Sidecar cross-foot: 40 pending parts (42 declarations) / 28 sids
+- Sidecar cross-foot: 39 pending parts (41 declarations) / 27 sids
 - Class census: {'declared_link': 3, 'multi_hit': 2, 'no_match': 23}
 - Law: the operator rules per sid (anchor / quarantine / defer); the lane never invents (ADR-030, AGENT.md rule 3). Ruled batches → scripts/cie_tranche2_batches/{batch_id}.yaml → cie_tranche2_batch_encode.py.
 

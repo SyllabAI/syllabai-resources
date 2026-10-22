@@ -9,8 +9,8 @@ law: 'operator_verdict is the only authoritative class for the no-match pool (AD
   via cie_tranche2_batch_encode.py; the 134c gate stays parked while the census is unchanged'
 pool_law: MAP zero-code universe (r1 receipt materialFinding) — NOT the sidecar codes-empty state
 substrate_pins:
-  map_sha256: 47467dbb4a364fa96bf5a26b5592be6d2fe4965ed979e2e6fcb54d53b46e91b3
-  sidecar_sha256: 91b36a9d6cc1b83363e1f83ab84ec702f7728642bcc1ed60bd0c3f54f1e9864b
+  map_sha256: 6893d77aff9a879626302916fccdbb1cac136b22f456eb67e057beb454daf7ef
+  sidecar_sha256: d35492f5b17ecc235a9a7df11be2020d1b8c51387b5b26da9ebd36c7abb28562
   spec_point_index_sha256: df52900db1d43f6398a48af8fee627e7dce4098fc9526b9d96d8bfa3d7210ecf
   registry_qual: cie-a-level-chemistry-2025-2027
 reconciliation:
@@ -22,19 +22,169 @@ reconciliation:
   map_pool_a_declarations: 1633
   map_pool_a_sids: 256
   map_pool_b_parts_sidless: 6
-  sidecar_pending_parts_distinct: 1336
-  sidecar_pending_declarations: 1633
-  sidecar_pending_sids: 256
-  sids_only_in_map: []
+  sidecar_pending_parts_distinct: 1314
+  sidecar_pending_declarations: 1604
+  sidecar_pending_sids: 255
+  sids_only_in_map:
+  - spcpt_HmMgqHYYJMyF6nVN
   sids_only_in_sidecar: []
-  part_ref_drift: []
+  part_ref_drift:
+  - sid: spcpt_4qRycvt2DMVqCSNT
+    map_parts:
+    - qstnprt_3NxbRCFFprCjkQwD
+    - qstnprt_7DJCNf6vcqtPGZ2s
+    - qstnprt_8QjDZhYSMNpqtHPc
+    - qstnprt_B33cCXw2ZT28k4QF
+    - qstnprt_G6WP4M3yXJVyw2Nb
+    - qstnprt_QjySTccsDQGDkVSy
+    - qstnprt_RJ4fxT6GBRT9ChtK
+    - qstnprt_SBZzDv2R6NMNjNHC
+    - qstnprt_WYh92YvJsZZS8KQW
+    - qstnprt_bVcHd5sGd9MXXsHy
+    - qstnprt_cjchN62kjsXcB258
+    - qstnprt_ks8xsv8VB75cqRjr
+    - qstnprt_sKRtWYkWmR36r6F7
+    - qstnprt_tCVf7MswV2BFG3fT
+    - qstnprt_tTdzHCmDThQprDMb
+    - qstnprt_tYZpSV7tfN972k4P
+    - qstnprt_vQQsBGkg9FFYFGTW
+    - qstnprt_xjSgQtR7jX4Fvxq8
+    sidecar_parts:
+    - qstnprt_3NxbRCFFprCjkQwD
+    - qstnprt_7DJCNf6vcqtPGZ2s
+    - qstnprt_8QjDZhYSMNpqtHPc
+    - qstnprt_B33cCXw2ZT28k4QF
+    - qstnprt_G6WP4M3yXJVyw2Nb
+    - qstnprt_QjySTccsDQGDkVSy
+    - qstnprt_RJ4fxT6GBRT9ChtK
+    - qstnprt_SBZzDv2R6NMNjNHC
+    - qstnprt_WYh92YvJsZZS8KQW
+    - qstnprt_bVcHd5sGd9MXXsHy
+    - qstnprt_cjchN62kjsXcB258
+    - qstnprt_sKRtWYkWmR36r6F7
+    - qstnprt_tCVf7MswV2BFG3fT
+    - qstnprt_tTdzHCmDThQprDMb
+    - qstnprt_tYZpSV7tfN972k4P
+    - qstnprt_vQQsBGkg9FFYFGTW
+    - qstnprt_xjSgQtR7jX4Fvxq8
+  - sid: spcpt_MVCJDYhVYYXfBBhr
+    map_parts:
+    - qstnprt_D76RrVqDvgZrrwtG
+    - qstnprt_J3dGDGBqF5MSzSvB
+    - qstnprt_PfMYyRW8cqHPv6s6
+    - qstnprt_QDJRJJfVY89S8pcC
+    - qstnprt_jnvjswbHFymRbFfZ
+    - qstnprt_ks8xsv8VB75cqRjr
+    - qstnprt_mwRsYpNd9pzcNMVg
+    sidecar_parts:
+    - qstnprt_D76RrVqDvgZrrwtG
+    - qstnprt_J3dGDGBqF5MSzSvB
+    - qstnprt_PfMYyRW8cqHPv6s6
+    - qstnprt_QDJRJJfVY89S8pcC
+    - qstnprt_jnvjswbHFymRbFfZ
+    - qstnprt_mwRsYpNd9pzcNMVg
+  - sid: spcpt_vqfc7FTmcsSw75Fx
+    map_parts:
+    - qstnprt_5VtW359pc6Tq4nx5
+    - qstnprt_CB9W2Y6QpMSrxvzZ
+    - qstnprt_GjpMnkwTs5thMg2G
+    - qstnprt_bTBvw384szxP4DTZ
+    sidecar_parts:
+    - qstnprt_CB9W2Y6QpMSrxvzZ
+    - qstnprt_GjpMnkwTs5thMg2G
+    - qstnprt_bTBvw384szxP4DTZ
+  - sid: spcpt_w3P5KDR2PgWJNHqC
+    map_parts:
+    - qstnprt_9VkhXWTmqy4n2WtH
+    - qstnprt_D9DPgwfqqCYPyGVC
+    - qstnprt_GjpMnkwTs5thMg2G
+    - qstnprt_HdjNQgmhmPhPdtN6
+    - qstnprt_JskDhdb9F72qJZw4
+    - qstnprt_XF2S7xDfHDsHkBDG
+    - qstnprt_gBy2MNPMwCv4B44T
+    - qstnprt_p2Jw3b4B9myksPQc
+    - qstnprt_pBSjzKbbZrHVYRFJ
+    - qstnprt_qx6VWVcmhSskcSdW
+    sidecar_parts:
+    - qstnprt_9VkhXWTmqy4n2WtH
+    - qstnprt_D9DPgwfqqCYPyGVC
+    - qstnprt_GjpMnkwTs5thMg2G
+    - qstnprt_JskDhdb9F72qJZw4
+    - qstnprt_XF2S7xDfHDsHkBDG
+    - qstnprt_gBy2MNPMwCv4B44T
+    - qstnprt_p2Jw3b4B9myksPQc
+    - qstnprt_pBSjzKbbZrHVYRFJ
+    - qstnprt_qx6VWVcmhSskcSdW
+  - sid: spcpt_wngZw4bd3nkw2NXP
+    map_parts:
+    - qstnprt_5TRDSs5MT6k6VQbz
+    - qstnprt_5bRrCDVDZFFt96fk
+    - qstnprt_JmR87ZgwQP5RFDxN
+    - qstnprt_N5mPTnkBHYB3VpwW
+    - qstnprt_NMfPNg33pwDjGG4K
+    - qstnprt_PBXBJV3CGVmVBPsm
+    - qstnprt_cFymcjJsT8QnZ8Wz
+    - qstnprt_fTC2wpS3vx8Swmjr
+    - qstnprt_jp5TP9pYZXPhm6cf
+    - qstnprt_sBWtsvh5HNFJ5DCt
+    - qstnprt_tzmQvdXPj7DBNx9v
+    sidecar_parts:
+    - qstnprt_5TRDSs5MT6k6VQbz
+    - qstnprt_JmR87ZgwQP5RFDxN
+    - qstnprt_N5mPTnkBHYB3VpwW
+    - qstnprt_NMfPNg33pwDjGG4K
+    - qstnprt_PBXBJV3CGVmVBPsm
+    - qstnprt_cFymcjJsT8QnZ8Wz
+    - qstnprt_fTC2wpS3vx8Swmjr
+    - qstnprt_jp5TP9pYZXPhm6cf
+    - qstnprt_sBWtsvh5HNFJ5DCt
+    - qstnprt_tzmQvdXPj7DBNx9v
+  - sid: spcpt_xNhdSSTW5sNGvVHn
+    map_parts:
+    - qstnprt_5tNhQPrQRStVP6RN
+    - qstnprt_9yxjd6jYt3nwR6Dz
+    - qstnprt_JMZJxGSGSVMgjHcY
+    - qstnprt_P2R5658srQKmhFpg
+    - qstnprt_SFpThhtw3mbdWD72
+    - qstnprt_TKGh6wMYWjC283th
+    - qstnprt_dBgQFRgGPvMzBkyS
+    - qstnprt_ytxhtPnp5XmzYTH7
+    sidecar_parts:
+    - qstnprt_5tNhQPrQRStVP6RN
+    - qstnprt_9yxjd6jYt3nwR6Dz
+    - qstnprt_SFpThhtw3mbdWD72
+    - qstnprt_TKGh6wMYWjC283th
+    - qstnprt_dBgQFRgGPvMzBkyS
+    - qstnprt_ytxhtPnp5XmzYTH7
   map_zero_parts_absent_from_sidecar:
   - qstnprt_3H6NVdXmPnq9mZ62
   - qstnprt_3yTJVbKrGGmWYXKm
+  - qstnprt_5VtW359pc6Tq4nx5
+  - qstnprt_5bRrCDVDZFFt96fk
+  - qstnprt_6HHFRm952SpVH3Jm
+  - qstnprt_84kcVsTbfJxVtwpr
   - qstnprt_85Dg4CV7CCvrzMDp
   - qstnprt_9Td4YX6nVYbVkCPw
+  - qstnprt_CB63rZJKWKnx5TQJ
+  - qstnprt_DWRr8nhnYTJ8WmWf
+  - qstnprt_F25YrPMZJJq6Z9wW
+  - qstnprt_G4CYSGCmGzMtYK8b
+  - qstnprt_HdjNQgmhmPhPdtN6
+  - qstnprt_JMZJxGSGSVMgjHcY
+  - qstnprt_N4ZTdrzK84G9RdZ5
+  - qstnprt_P2R5658srQKmhFpg
+  - qstnprt_PWrPggVhFNr2KBHC
+  - qstnprt_TsRN2wv7ByzhmxSp
+  - qstnprt_VWCsW3r5KjQtRsd6
   - qstnprt_Z3X8mkJj6QRmYh2b
   - qstnprt_ZnpXdYG8j47K6KGB
+  - qstnprt_ks8xsv8VB75cqRjr
+  - qstnprt_nMTk8bPjzjymDfWm
+  - qstnprt_x5mVBgNvNS3rfFYH
+  - qstnprt_xNvKDV3wbJWzBjn9
+  - qstnprt_xdT6FKPmVx7hVknj
+  - qstnprt_zcXxpzRsjCc9t7Dg
+  - qstnprt_zm7pJv9p2Hgg8kd4
 pool:
   map_zero_code_parts: 1342
   verdict_units_parts_distinct: 1336

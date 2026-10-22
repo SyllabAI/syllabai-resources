@@ -1,7 +1,7 @@
 # T-SPECS-CIE-TRANCHE2-R2-SHEETS-1 — cie-igcse-chemistry-23 operator review sheet
 
 - Pool (MAP universe): 54 verdict-unit parts (56 part-sid declarations) / 21 distinct sids; sid-less (tranche-3 class): 1
-- Sidecar cross-foot: 271 pending parts (301 declarations) / 87 sids
+- Sidecar cross-foot: 270 pending parts (300 declarations) / 86 sids
 - Class census: {'declared_link': 4, 'multi_hit': 3, 'no_match': 8, 'record_less': 6}
 - Law: the operator rules per sid (anchor / quarantine / defer); the lane never invents (ADR-030, AGENT.md rule 3). Ruled batches → scripts/cie_tranche2_batches/{batch_id}.yaml → cie_tranche2_batch_encode.py.
 

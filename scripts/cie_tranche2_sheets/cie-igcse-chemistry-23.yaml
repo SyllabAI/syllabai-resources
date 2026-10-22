@@ -9,8 +9,8 @@ law: 'operator_verdict is the only authoritative class for the no-match pool (AD
   via cie_tranche2_batch_encode.py; the 134c gate stays parked while the census is unchanged'
 pool_law: MAP zero-code universe (r1 receipt materialFinding) — NOT the sidecar codes-empty state
 substrate_pins:
-  map_sha256: 14c7d8f80414aaf363739fb31dff0cb1952c26fd8b4545a5d0ae94e99ffbcb29
-  sidecar_sha256: e4bf74c85e4bc455eefc3007f1ba187127631be04a7ab06790a2880010837fbe
+  map_sha256: 3fd42d256acf6f1fc7ad19ef026c8adf513d3e78116a2f4605a4859d23897abb
+  sidecar_sha256: f191ebe8ad4cb627c07c819fbce3c4fc642c05f28d5f17474d980c6c6a7adae1
   spec_point_index_sha256: 4f2fa3fcbb34ce03e163c2ba267488b50aa37fd2df7edeb77182a0eec1ac393c
   registry_qual: cie-igcse-chemistry-2023-2025
 reconciliation:
@@ -22,10 +22,11 @@ reconciliation:
   map_pool_a_declarations: 56
   map_pool_a_sids: 21
   map_pool_b_parts_sidless: 1
-  sidecar_pending_parts_distinct: 271
-  sidecar_pending_declarations: 301
-  sidecar_pending_sids: 87
-  sids_only_in_map: []
+  sidecar_pending_parts_distinct: 270
+  sidecar_pending_declarations: 300
+  sidecar_pending_sids: 86
+  sids_only_in_map:
+  - spcpt_jxPK72xT9PSVKKw6
   sids_only_in_sidecar:
   - spcpt_2SDcCH3Hyy4Qw9Yz
   - spcpt_2W7Rs53x7dgpKxKy
@@ -114,6 +115,7 @@ reconciliation:
     - qstnprt_dRJMB7mwPdWJTxP3
   map_zero_parts_absent_from_sidecar:
   - qstnprt_5fXkZZDmCPtCQ7F6
+  - qstnprt_hX3YMpyMcsHw7YTn
 pool:
   map_zero_code_parts: 55
   verdict_units_parts_distinct: 54
