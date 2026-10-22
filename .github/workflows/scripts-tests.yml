@@ -36,3 +36,62 @@ jobs:
         run: python3 scripts/c12_promote.py check
       - name: c12 demo decisions still pass the check gate (positive control)
         run: python3 scripts/c12_spec_tagger.py check scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+
+  official-export-gates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: fetch the hub bundle of record (syllabai-v2 main, public)
+        run: |
+          curl -sfSL -o /tmp/current-questions.json \
+            https://raw.githubusercontent.com/SyllabAI/syllabai-v2/main/apps/hub/content/igcse-chemistry-19/questions.json
+          python3 -c "import json; d=json.load(open('/tmp/current-questions.json')); print('bundle of record:', len(d), 'sets')"
+      - name: stage the corpus topics (v0.10.0 exporter interface — topics/<series>-<paper>.json)
+        run: |
+          mkdir -p topics
+          n=0
+          for f in Official-ExamQuestion/igcse-chemistry-19/*/4CH1-*/topic.json; do
+            series=$(echo "$f" | cut -d/ -f3)
+            paper=$(echo "$f" | cut -d/ -f4 | sed -e 's/^4CH1-//')
+            cp "$f" "topics/${series}-${paper}.json"
+            n=$((n+1))
+          done
+          echo "topics staged: $n"
+          test "$n" -eq 32
+      - name: run the exporter of record (v0.10.0/F44 interface; disclosed wave census when one is filed)
+        run: |
+          mkdir -p /tmp/export-stage
+          LATEST=$(ls scripts/exporter-disclosures/*.json 2>/dev/null | sort -V | tail -1 || true)
+          if [ -n "$LATEST" ]; then
+            echo "exporter mode: disclosed wave census ($LATEST)"
+            python3 scripts/official_examq_export_hub.py /tmp/export-stage /tmp/current-questions.json \
+              --topics-dir topics --expected-deltas "$LATEST"
+          else
+            echo "exporter mode: reproducibility no-op (no disclosure of record)"
+            python3 scripts/official_examq_export_hub.py /tmp/export-stage /tmp/current-questions.json \
+              --topics-dir topics
+          fi
+      - name: F-187 G-E1..G-E4 verify against the bundle of record (+ report + disclosure cross-check)
+        run: |
+          LATEST=$(ls scripts/exporter-disclosures/*.json 2>/dev/null | sort -V | tail -1 || true)
+          if [ -n "$LATEST" ]; then
+            python3 scripts/official_examq_verify_export.py verify \
+              --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
+              --current /tmp/current-questions.json \
+              --report Official-ExamQuestion/igcse-chemistry-19/MULTI-SERIES-REPORT.json \
+              --disclosure "$LATEST"
+          else
+            python3 scripts/official_examq_verify_export.py verify \
+              --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
+              --current /tmp/current-questions.json \
+              --report Official-ExamQuestion/igcse-chemistry-19/MULTI-SERIES-REPORT.json
+          fi
+      - name: F-187 seed-fault negative controls (acceptance 4-of-4 refuse)
+        run: |
+          python3 scripts/official_examq_verify_export.py self-test \
+            --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
+            --current /tmp/current-questions.json
