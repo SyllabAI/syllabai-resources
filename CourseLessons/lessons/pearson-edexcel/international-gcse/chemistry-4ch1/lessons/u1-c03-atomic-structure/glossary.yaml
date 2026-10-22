@@ -1,0 +1,114 @@
+# glossary — u1:c03 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: atom
+  slug: atom
+  definition: "The smallest piece of an element that can still be recognised as that element; splitting it further (into sub-atomic particles) needs nuclear processes, not chemistry."
+  ms_accepts: ["smallest piece of an element still recognisable as that element", "smallest particle of an element"]
+  ms_avoids: ["smallest particle of anything", "indivisible under all circumstances"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf033_0091"
+- term: molecule
+  slug: molecule
+  definition: "Two or more atoms chemically bonded (by covalent bonds); the atoms may be of the same element (H2) or different elements (H2O)."
+  ms_accepts: ["two or more atoms chemically bonded/joined together", "may be same or different elements"]
+  ms_avoids: ["must contain different elements", "any group of atoms near each other"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf033_0092"
+- term: covalent bond
+  slug: covalent-bond
+  definition: "The chemical bond that joins atoms into molecules, shown as a line between atoms in the book's diagrams; detailed treatment comes in later chapters."
+  ms_accepts: ["bond between atoms in a molecule", "shared pair(s) of electrons"]
+  ms_avoids: ["a physical stick holding atoms", "ionic attraction between atoms"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf033_0092"
+- term: sub-atomic particle
+  slug: sub-atomic-particle
+  definition: "A particle smaller than an atom; the three of record are the proton, neutron and electron."
+  ms_accepts: ["particle smaller than an atom", "protons, neutrons and electrons"]
+  ms_avoids: ["atoms of a molecule"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf034_0095"
+- term: nucleus
+  slug: nucleus
+  definition: "The central part of the atom containing the protons and neutrons; tiny compared with the atom but holding virtually all its mass."
+  ms_accepts: ["centre of the atom containing protons and neutrons", "positively charged centre"]
+  ms_avoids: ["the orbiting part of the atom", "where electrons live"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf034_0095"
+- term: proton
+  slug: proton
+  definition: "Sub-atomic particle in the nucleus with relative mass 1 and relative charge +1; its number is the atomic number."
+  ms_accepts: ["relative mass 1, relative charge +1", "in the nucleus", "number of protons = atomic number"]
+  ms_avoids: ["charge 0", "found outside the nucleus"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf034_0096"
+- term: neutron
+  slug: neutron
+  definition: "Sub-atomic particle in the nucleus with relative mass 1 and relative charge 0; its count varies between isotopes."
+  ms_accepts: ["relative mass 1, relative charge 0/neutral", "in the nucleus", "varies between isotopes"]
+  ms_avoids: ["charge +1", "changes chemical reactions"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf034_0096"
+- term: electron
+  slug: electron
+  definition: "Sub-atomic particle outside the nucleus with relative mass 1/1836 and relative charge -1; its number equals the proton number in a neutral atom."
+  ms_accepts: ["relative mass 1/1836, charge -1", "found outside the nucleus/around the nucleus", "equal in number to the protons"]
+  ms_avoids: ["in the nucleus", "charge +1", "mass 1"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf034_0096 + chem_v3_u1_c3_pdf036_0107"
+- term: atomic number
+  slug: atomic-number
+  definition: "The number of protons in the nucleus of an atom; it defines the element and every atom of the same element shares it."
+  ms_accepts: ["number of protons (in the nucleus)", "defines the element", "same as proton number"]
+  ms_avoids: ["number of neutrons", "protons plus neutrons"]
+  aliases: ["proton number"]
+  source: "chem_v3_u1_c3_pdf034_0098"
+- term: mass number
+  slug: mass-number
+  definition: "The total number of protons and neutrons in the nucleus of an atom."
+  ms_accepts: ["protons plus neutrons", "total particles in the nucleus"]
+  ms_avoids: ["the bigger number on the Periodic Table (that can be the Ar)", "number of electrons plus protons"]
+  aliases: ["nucleon number"]
+  source: "chem_v3_u1_c3_pdf034_0098"
+- term: isotope
+  slug: isotope
+  definition: "Atoms of the same element with the same atomic number but different mass numbers - same protons, different numbers of neutrons; chemically identical."
+  ms_accepts: ["same atomic number, different mass numbers", "same protons, different neutrons", "same chemical properties"]
+  ms_avoids: ["a different element", "necessarily radioactive", "different number of protons"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf035_0101"
+- term: relative atomic mass
+  slug: relative-atomic-mass
+  definition: "The average mass of an atom of an element, taking into account the amount of each isotope in a naturally occurring sample; a weighted average, usually not a whole number."
+  ms_accepts: ["average mass of an atom of the element", "weighted by isotopic abundances", "takes into account the amount of each isotope"]
+  ms_avoids: ["the mass number", "the mass of the heaviest isotope", "always a whole number"]
+  aliases: ["Ar", "relative atomic mass (Ar)"]
+  source: "chem_v3_u1_c3_pdf036_0105 + chem_v3_u1_c3_pdf035_0102"
+- term: isotopic abundance
+  slug: isotopic-abundance
+  definition: "The amount (percentage) of each isotope present in a naturally occurring sample of an element."
+  ms_accepts: ["percentage/amount of each isotope in a natural sample"]
+  ms_avoids: ["the mass of each isotope", "the number of isotopes"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf036_0105"
+- term: weighted average
+  slug: weighted-average
+  definition: "An average in which each value is multiplied by its weight before averaging; Ar weights isotope masses by their abundances."
+  ms_accepts: ["average where values count according to their weight", "multiply by weight, add, divide by total weight"]
+  ms_avoids: ["a simple mean of equal parts"]
+  aliases: ["weighted mean"]
+  source: "chem_v3_u1_c3_pdf036_0103 + chem_v3_u1_c3_pdf036_0105"
+- term: periodic table
+  slug: periodic-table
+  definition: "The chart of all the elements, arranged in order of increasing atomic number; each cell carries the atomic number plus a mass number or relative atomic mass."
+  ms_accepts: ["elements arranged in order of increasing atomic number", "smaller number in the cell is the atomic number"]
+  ms_avoids: ["arranged by atomic mass (that is not the ordering of record)", "a list of compounds"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf037_0108"
+- term: ion
+  slug: ion
+  definition: "What an atom becomes when it gains or loses electrons, so its particle counts stop matching; the book develops ions fully in Chapter 7."
+  ms_accepts: ["formed when an atom loses or gains electrons"]
+  ms_avoids: ["a new element", "an atom that changed its proton number"]
+  aliases: []
+  source: "chem_v3_u1_c3_pdf036_0107"

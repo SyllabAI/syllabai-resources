@@ -1,0 +1,194 @@
+lesson_id: u1-c03-atomic-structure
+chapter_key: u1:c03
+course_id: chemistry-4ch1
+title: Atomic structure
+chem_only: false
+stage: S4
+book_page_range:
+- 24
+- 28
+sections:
+- id: u1:c03:s01
+  title: Atomic structure — the chapter map
+  bookPage: 24
+  chunkRefs:
+  - chem_v3_u1_c3_pdf033_0090
+  - chem_v3_u1_c3_pdf033_0091
+  specRefs:
+  - '1.14'
+  glossary:
+  - atom
+  status: done
+- id: u1:c03:s02
+  title: Atoms and molecules
+  bookPage: 24
+  chunkRefs:
+  - chem_v3_u1_c3_pdf033_0092
+  - chem_v3_u1_c3_pdf034_0093
+  - chem_v3_u1_c3_pdf034_0094
+  specRefs:
+  - '1.14'
+  glossary:
+  - molecule
+  - covalent-bond
+  - electron
+  status: done
+- id: u1:c03:s03
+  title: Inside the atom — protons, neutrons and electrons
+  bookPage: 25
+  chunkRefs:
+  - chem_v3_u1_c3_pdf034_0095
+  - chem_v3_u1_c3_pdf034_0096
+  - chem_v3_u1_c3_pdf034_0097
+  specRefs:
+  - '1.15'
+  glossary:
+  - nucleus
+  - proton
+  - neutron
+  - electron
+  - sub-atomic-particle
+  status: done
+- id: u1:c03:s04
+  title: Atomic number and mass number
+  bookPage: 25
+  chunkRefs:
+  - chem_v3_u1_c3_pdf034_0098
+  - chem_v3_u1_c3_pdf035_0099
+  - chem_v3_u1_c3_pdf035_0100
+  specRefs:
+  - '1.15'
+  - '1.16'
+  glossary:
+  - atomic-number
+  - mass-number
+  - relative-atomic-mass
+  status: done
+- id: u1:c03:s05
+  title: Isotopes — same element, different mass
+  bookPage: 26
+  chunkRefs:
+  - chem_v3_u1_c3_pdf035_0101
+  specRefs:
+  - '1.16'
+  glossary:
+  - isotope
+  status: done
+- id: u1:c03:s06
+  title: Relative atomic mass — the 35.5 puzzle
+  bookPage: 26
+  chunkRefs:
+  - chem_v3_u1_c3_pdf035_0102
+  - chem_v3_u1_c3_pdf036_0103
+  specRefs:
+  - '1.16'
+  glossary:
+  - relative-atomic-mass
+  - weighted-average
+  - periodic-table
+  status: done
+- id: u1:c03:s07
+  title: Counting the number of electrons in an atom
+  bookPage: 27
+  chunkRefs:
+  - chem_v3_u1_c3_pdf036_0104
+  - chem_v3_u1_c3_pdf036_0105
+  specRefs:
+  - '1.16'
+  - '1.17'
+  glossary:
+  - isotopic-abundance
+  status: done
+- id: u1:c03:s08
+  title: Worked example — the relative atomic mass of boron
+  bookPage: 27
+  chunkRefs:
+  - chem_v3_u1_c3_pdf036_0106
+  specRefs:
+  - '1.17'
+  glossary: []
+  status: done
+- id: u1:c03:s09
+  title: The electrons
+  bookPage: 27
+  chunkRefs:
+  - chem_v3_u1_c3_pdf036_0107
+  specRefs:
+  - '1.15'
+  - '1.16'
+  glossary:
+  - ion
+  status: done
+- id: u1:c03:s10
+  title: The Periodic Table — counting particles from the chart
+  bookPage: 28
+  chunkRefs:
+  - chem_v3_u1_c3_pdf037_0108
+  specRefs:
+  - '1.16'
+  glossary:
+  - periodic-table
+  status: done
+- id: u1:c03:s11
+  title: Worked example — uranium, and the chapter close
+  bookPage: 28
+  chunkRefs:
+  - chem_v3_u1_c3_pdf037_0109
+  - chem_v3_u1_c3_pdf037_0110
+  - chem_v3_u1_c3_pdf038_0111
+  - chem_v3_u1_c3_pdf038_0112
+  specRefs:
+  - '1.16'
+  - '1.17'
+  glossary: []
+  status: done
+features:
+  prior_knowledge: true
+  cross_curricular: true
+  misconceptions: true
+  ms_vocab: true
+  glossary_chips: true
+  quick_checks: true
+  summary: true
+  can_you: true
+receipts:
+- date: '2026-10-22'
+  stage: S0
+  agent: T-BOOK-035 r0
+  note: scaffold via lessonctl (11 placeholders); section count/pages pinned at S0
+    by section_map.py — section-maps/u1-c03.json re-verified byte-identical against
+    a live regeneration this session (11 sections, pages [24,28], 23 chunks)
+- date: '2026-10-22'
+  stage: S0-L0
+  agent: T-BOOK-035 r0
+  note: course.yaml u1:c03 spine node pinned at S1 — join_set DERIVED from igcse-chemistry-T1:SUBc
+    (resourcesSha 888bca4a) = 1.14, 1.15, 1.16, 1.17 (all core, both papers, DA-shared,
+    no C-suffix); learning_objective VERBATIM from chunk chem_v3_u1_c3_pdf033_0091
+    (bullet glyphs joined with ';'; unicode Aᵣ kept per H₂O house style; no paraphrase)
+- date: '2026-10-22'
+  stage: S1-S4
+  agent: T-BOOK-035 r0 (u1:c03 full authoring, session web-c414c074 trace 1a16452413233db1)
+  note: 'receipt of record: qa/receipt.yaml — 11/11 sections, lint PASS 0/0, lessonPackV1.json
+    emitted draft.'
+- date: '2026-10-22'
+  stage: S4
+  sections_done: '11'
+  sections_total: '11'
+  last_receipt: qa/receipt.yaml
+  last_agent: T-BOOK-035 r0 (session web-c414c074 trace 1a16452413233db1)
+  pack_status: draft
+- date: '2026-10-22'
+  stage: S4
+  sections_done: '11'
+  sections_total: '11'
+  pack_status: draft
+  last_agent: T-BOOK-035 r0 (session web-c414c074 trace 1a16452413233db1)
+notes: 'T-BOOK-035 r0: authored end-to-end against the chapter''s 23 chunks_v3 chunks
+  (pp. 24-29; book_page_range 24-28 per course.yaml — end-of-chapter question pages
+  28-29 carry the Q set). specRefs DERIVED from SUBc join_set and pinned per-section;
+  V3 subset-checked (1.14, 1.15, 1.16, 1.17 — all core, both papers, no C-suffix).
+  Learner-facing titles refined; printed headings retained as provenance (receipt
+  title_refinements). blockIds honest-absent (blocks live in Neon L3; renderer joins
+  by bookPage). Chapter questions chunks 0109-0112 stay page-jump-only (licensing
+  law). lesson.yaml stage set to S4 at close (c02 shipped stage S1 — this lane closes
+  the lag; V5/V6 gates ran ON at final lint).'

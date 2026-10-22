@@ -119,6 +119,15 @@ spine:
     pages:
     - 24
     - 28
+    # join_set DERIVED (never authored): children of spine node
+    # igcse-chemistry-T1:SUBc in apps/hub/spines/igcse-chemistry-19.json
+    # (resourcesSha 888bca4a). Pinned at S1 (T-BOOK-035 r0, 2026-10-22).
+    # learning_objective: VERBATIM from the book's LEARNING OBJECTIVES
+    # chunk chem_v3_u1_c3_pdf033_0091 (margin items; bullet glyphs joined
+    # with ';'; '(A\u1d63)' kept unicode-subscript house style (H\u2082O
+    # precedent); no paraphrase)
+    learning_objective: "Know what is meant by the terms atom and molecule; Know the structure of an atom in terms of the positions, relative masses and relative charges of sub-atomic particles; Know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass (A\u1d63); Be able to calculate the relative atomic mass of an element (A\u1d63) from isotopic abundances"
+    join_set: ["1.14", "1.15", "1.16", "1.17"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 11
   - key: u1:c04
     slug: periodic-table
