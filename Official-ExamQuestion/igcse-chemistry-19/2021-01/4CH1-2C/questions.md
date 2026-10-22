@@ -136,7 +136,7 @@ Describe the test for hydrogen gas.
 
 ## Question 3 (8 marks)
 
-This question is about carboxylic acids. Solutions of carboxylic acids react with magnesium metal to form hydrogen gas. A student uses this apparatus to investigate the time taken to produce 10 cm3 of hydrogen gas from different carboxylic acids. carboxylic acid solution magnesium This is the student’s method. • pour some carboxylic acid solution into a conical flask • add some magnesium powder • quickly connect the gas syringe and start a timer • record the time taken to collect 10 cm3 of hydrogen gas The student repeats the method with three other carboxylic acids.
+This question is about carboxylic acids. Solutions of carboxylic acids react with magnesium metal to form hydrogen gas. A student uses this apparatus to investigate the time taken to produce 10 cm3 of hydrogen gas from different carboxylic acids. carboxylic acid solution magnesium This is the student’s method.  pour some carboxylic acid solution into a conical flask  add some magnesium powder  quickly connect the gas syringe and start a timer  record the time taken to collect 10 cm3 of hydrogen gas The student repeats the method with three other carboxylic acids.
 
 **(b)** The table shows the student’s results. Time taken to produce 10 cm3 of hydrogen in s Carboxylic Formula of acid carboxylic acid Experiment Experiment Experiment Experiment Mean 1 2 3 4 time in s Methanoic HCOOH 48 50 47 49 49 acid Ethanoic CH3COOH 61 63 60 61 61 acid Propanoic CH3CH2COOH 69 93 70 71 acid Butanoic CH3CH2CH2COOH 83 85 82 81 83 acid
 

@@ -32,7 +32,7 @@ Give the letter of the species that has a full outer shell of electrons.
 
 ### 1(a)(iii) [1]
 
-Give the letter of the species that has an atomic number equal to its mass number.
+Give the letter of the species that has an atomic number equal to its mass number. 
 
 
 **Mark scheme answer**
@@ -113,7 +113,7 @@ Explain why metals are malleable.
 
 ### 2(a)(ii) [2]
 
-Explain why metals are good conductors of electricity.
+Explain why metals are good conductors of electricity. 
 
 
 **Mark scheme answer**
@@ -169,7 +169,7 @@ A teacher uses this apparatus to separate a mixture of ethanol and water. X wate
 
 ### 3(a) [1]
 
-Give the name of this method of separation.
+Give the name of this method of separation. 
 
 - **(A)** chromatography
 - **(B)** crystallisation
@@ -270,7 +270,7 @@ The teacher adds a few drops of universal indicator to the solution at the end o
 
 ### 4(b) [3]
 
-This is the equation for the reaction between lithium and water. 2Li(s) + 2H2O(l) → 2LiOH(aq) + H2(g) The teacher collects 550 cm3 of hydrogen at rtp. Calculate the mass, in grams, of lithium that the teacher added to the water. [one mole of gas at rtp has a volume of 24 000 cm3] [for lithium, Ar = 7] [for carbon Ar = 12 for hydrogen, Ar = 1 for oxygen Ar = 16] mass = g
+This is the equation for the reaction between lithium and water. 2Li(s) + 2H2O(l) → 2LiOH(aq) + H2(g) The teacher collects 550 cm3 of hydrogen at rtp. Calculate the mass, in grams, of lithium that the teacher added to the water. [one mole of gas at rtp has a volume of 24 000 cm3] [for lithium, Ar = 7] [for carbon Ar = 12 for hydrogen, Ar = 1 for oxygen Ar = 16] mass = g 
 
 
 **Mark scheme answer**
@@ -331,7 +331,7 @@ Explain why potassium is more reactive than lithium. Refer to atomic structure i
 
 A student does some titrations to find the volume of dilute nitric acid needed to exactly neutralise 25.0 cm3 of sodium hydroxide solution. This is the student’s method. Step 1 add 25.0 cm3 of sodium hydroxide solution to a conical flask Step 2 add three drops of methyl orange indicator Step 3 fill a burette with the acid Step 4 add acid from the burette until the indicator changes colour Step 5 record the volume of acid added
 
-**(b)** The student completes a rough titration and four accurate titrations. The diagram shows the burette readings from the rough titration. Start End 2 23 3 24 4 25 The table shows the student’s results. Rough Titration 1 Titration 2 Titration 3 Titration 4 titration Burette reading 21.80 22.85 21.75 24.10 at end in cm3 Burette reading 0.50 0.15 0.25 0.10 at start in cm3 Volume added 21.30 22.70 21.50 24.00 in cm3
+**(b)** The student completes a rough titration and four accurate titrations. The diagram shows the burette readings from the rough titration. Start End 2 23 3 24 4 25  The table shows the student’s results. Rough Titration 1 Titration 2 Titration 3 Titration 4 titration Burette reading 21.80 22.85 21.75 24.10 at end in cm3 Burette reading 0.50 0.15 0.25 0.10 at start in cm3 Volume added 21.30 22.70 21.50 24.00 in cm3
 
 ### 5(a)(i) [1]
 
@@ -397,7 +397,7 @@ Complete the table by adding the results from the rough titration. Record the vo
 
 ### 5(b)(ii) [3]
 
-Concordant results are results within 0.20 cm3 of each other. Use the concordant results from the table to calculate the mean volume of acid added. mean volume of acid = cm3
+Concordant results are results within 0.20 cm3 of each other. Use the concordant results from the table to calculate the mean volume of acid added. mean volume of acid = cm3 
 
 ![table — official paper figure (qp.pdf p.13) — shared with asset_5_b_table_stem](assets/asset_5_b_table_stem.png)
 
@@ -488,7 +488,7 @@ Give the conditions necessary for cracking to occur.
 
 ### 6(b)(ii) [2]
 
-Explain why shorter-chain alkanes are more useful than longer-chain alkanes.
+Explain why shorter-chain alkanes are more useful than longer-chain alkanes. 
 
 
 **Mark scheme answer**
@@ -503,7 +503,7 @@ Explain why shorter-chain alkanes are more useful than longer-chain alkanes.
 
 ### 6(b)(iii) [3]
 
-Ethene reacts with bromine. The equation shows the displayed formulae of the reactants and product. H H H H C C + Br Br → H C C H H H Br Br The table shows some bond energies. Bond Bond energy in kJ/mol C C 612 C C 348 C H 414 Br Br 193 C Br 276 Show that the molar enthalpy change, ΔH, for this reaction is about –100 kJ/mol. ΔH = kJ/mol
+Ethene reacts with bromine. The equation shows the displayed formulae of the reactants and product. H H H H C C + Br Br → H C C H H H Br Br The table shows some bond energies. Bond Bond energy in kJ/mol C C 612 C C 348 C H 414 Br Br 193 C Br 276 Show that the molar enthalpy change, ΔH, for this reaction is about –100 kJ/mol. ΔH = kJ/mol 
 
 ![table — official paper figure (qp.pdf p.16)](assets/asset_6_b_iii_table.png)
 
@@ -602,7 +602,7 @@ Carboxylic acid B has a chain of carbon atoms with no branches. The number of CH
 
 ### 7(a)(iv) [1]
 
-Alcohol A and carboxylic acid B react together to form an ester. Give the other product of the reaction.
+Alcohol A and carboxylic acid B react together to form an ester. Give the other product of the reaction. 
 
 
 **Mark scheme answer**
@@ -613,7 +613,7 @@ Alcohol A and carboxylic acid B react together to form an ester. Give the other 
 
 ### 7(b)(i) [4]
 
-This is the equation for the reaction between dicarboxylic acid C and sodium hydroxide solution. HOOCCH2CH2COOH + 2NaOH → NaOOCH2CH2COONa + 2H2O 25.0 cm3 of 0.150 mol/dm3 sodium hydroxide solution is completely neutralised by 17.5 cm3 of a solution of dicarboxylic acid C. Calculate the concentration, in mol/dm3, of the solution of dicarboxylic acid C. Give your answer to three significant figures. concentration = mol/dm3
+This is the equation for the reaction between dicarboxylic acid C and sodium hydroxide solution. HOOCCH2CH2COOH + 2NaOH → NaOOCH2CH2COONa + 2H2O 25.0 cm3 of 0.150 mol/dm3 sodium hydroxide solution is completely neutralised by 17.5 cm3 of a solution of dicarboxylic acid C. Calculate the concentration, in mol/dm3, of the solution of dicarboxylic acid C. Give your answer to three significant figures. concentration = mol/dm3 
 
 
 **Mark scheme answer**

@@ -38,7 +38,7 @@ Give the reason why ethene is described as unsaturated.
 
 ### 1(b) [1]
 
-Ethene is bubbled through bromine water until there is no further colour change. Which of these is the appearance of the solution formed?
+Ethene is bubbled through bromine water until there is no further colour change. Which of these is the appearance of the solution formed? 
 
 - **(A)** colourless  ✔
 - **(B)** orange
@@ -138,7 +138,7 @@ Which of these is gas Z?
 
 ### 2(a)(ii) [1]
 
-Which of these is the approximate percentage of oxygen in dry, unpolluted air?
+Which of these is the approximate percentage of oxygen in dry, unpolluted air? 
 
 - **(A)** 0.04%
 - **(B)** 0.9%
@@ -162,7 +162,7 @@ Which of these is the approximate percentage of oxygen in dry, unpolluted air?
 
 ### 2(b)(i) [2]
 
-Identify two reactions that produce carbon dioxide by placing a tick (✓) in two boxes. cracking an alkane complete combustion of an alkane reaction between magnesium and hydrochloric acid rusting of iron thermal decomposition of copper(II) carbonate
+Identify two reactions that produce carbon dioxide by placing a tick () in two boxes. cracking an alkane complete combustion of an alkane reaction between magnesium and hydrochloric acid rusting of iron thermal decomposition of copper(II) carbonate
 
 ![boxes — official paper figure (qp.pdf p.7)](assets/asset_2_b_i_boxes.png)
 
@@ -265,7 +265,7 @@ Determine the temperature at which copper(II) chloride and sodium chloride have 
 
 ### 3(a)(ii) [2]
 
-A saturated solution of copper(II) chloride in 100 g of water is cooled from 40 °C to 10 °C. Determine the mass, in grams, of copper(II) chloride that crystallises. mass of copper(II) chloride = g
+A saturated solution of copper(II) chloride in 100 g of water is cooled from 40 °C to 10 °C. Determine the mass, in grams, of copper(II) chloride that crystallises. mass of copper(II) chloride = g 
 
 
 **Mark scheme answer**
@@ -294,7 +294,7 @@ Calculate the mass of dry potassium chloride obtained. mass = g
 
 ### 3(b)(ii) [1]
 
-Calculate the mass of water removed. mass = g
+Calculate the mass of water removed. mass = g 
 
 
 **Mark scheme answer**
@@ -365,7 +365,7 @@ Give two other observations. 1 2
 
 ### 4(a)(ii) [1]
 
-Give the final colour of the universal indicator.
+Give the final colour of the universal indicator. 
 
 
 **Mark scheme answer**
@@ -390,7 +390,7 @@ Give a reason why lithium and sodium have similar reactions with water.
 
 ### 4(b)(ii) [3]
 
-Explain why lithium is less reactive than sodium.
+Explain why lithium is less reactive than sodium. 
 
 
 **Mark scheme answer**
@@ -448,7 +448,7 @@ Hydrogen peroxide solution decomposes to give water and oxygen gas. The equation
 
 ### 5(a) [5]
 
-Three different solids are catalysts for the decomposition of hydrogen peroxide solution. A student is given hydrogen peroxide solution and a sample of each of the solid catalysts. The student has a timer, a measuring cylinder, a balance and the apparatus shown in the diagram. Describe a method the student could use to find which of the three solids is the most effective catalyst for the decomposition of hydrogen peroxide solution.
+Three different solids are catalysts for the decomposition of hydrogen peroxide solution. A student is given hydrogen peroxide solution and a sample of each of the solid catalysts. The student has a timer, a measuring cylinder, a balance and the apparatus shown in the diagram.  Describe a method the student could use to find which of the three solids is the most effective catalyst for the decomposition of hydrogen peroxide solution. 
 
 ![apparatus — official paper figure (qp.pdf p.18) — shared with asset_5_a_apparatus_stem](assets/asset_5_a_apparatus_stem.png)
 
@@ -520,7 +520,7 @@ On the diagram, draw a curve to show the reaction profile for the same reaction 
 
 This question is about the electrolysis of copper(II) sulfate solution.
 
-**(a)** The diagram shows the apparatus used for the electrolysis. power supply + − lamp positive electrode negative electrode copper(II) sulfate solution A student records the total increase in mass of the negative electrode every minute for 8 minutes. The table shows the results. Total increase in mass of Time in minutes the negative electrode in grams 0 0.00 1 0.15 2 0.27 3 0.34 4 0.39 5 0.41 6 0.42 7 0.42 8 0.42
+**(a)** The diagram shows the apparatus used for the electrolysis. power supply + − lamp positive electrode negative electrode copper(II) sulfate solution A student records the total increase in mass of the negative electrode every minute for 8 minutes. The table shows the results. Total increase in mass of Time in minutes the negative electrode in grams 0 0.00 1 0.15 2 0.27 3 0.34 4 0.39 5 0.41 6 0.42 7 0.42 8 0.42 
 
 **(b)** The product at the positive electrode is oxygen gas.
 
@@ -550,7 +550,7 @@ Draw a curve of best fit. 0.50 0.40 0.30 Increase in mass in grams 0.20 0.10 0 1
 
 ### 6(a)(iii) [2]
 
-Explain the shape of the graph.
+Explain the shape of the graph. 
 
 ![graph — official paper figure (qp.pdf p.21)](assets/asset_6_a_iii_graph.png)
 
@@ -590,7 +590,7 @@ The student repeats the electrolysis using different apparatus. positive electro
 
 ### 6(b)(ii) [2]
 
-Give an ionic half-equation for the formation of oxygen.
+Give an ionic half-equation for the formation of oxygen. 
 
 
 **Mark scheme answer**
@@ -641,7 +641,7 @@ Explain why metals conduct electricity.
 
 ## Question 7 (15 marks)
 
-This question is about esters. Ester A reacts with water to form ethanoic acid and ethanol. The displayed formulae of the reactants and products are shown in this equation H O H H H H H O H C C O + ⇌ H C C + H C C O H O C C H H H H O H H H H H H ester A The molar enthalpy change (ΔH) for the reaction is 0 kJ/mol.
+This question is about esters. Ester A reacts with water to form ethanoic acid and ethanol. The displayed formulae of the reactants and products are shown in this equation H O H H H H H O H C C O +  H C C + H C C O H O C C H H H H O H H H H H H ester A The molar enthalpy change (ΔH) for the reaction is 0 kJ/mol.
 
 **(c)** A mixture of ester A and water is left in a sealed container until the reaction mixture reaches dynamic equilibrium.
 
@@ -696,7 +696,7 @@ Describe a chemical test, other than using an indicator, to show that the reacti
 
 ### 7(b) [2]
 
-Explain why the molar enthalpy change (ΔH) for the reaction between ester A and water is 0 kJ/mol. In your answer, refer to the bonds broken and the bonds formed.
+Explain why the molar enthalpy change (ΔH) for the reaction between ester A and water is 0 kJ/mol. In your answer, refer to the bonds broken and the bonds formed. 
 
 
 **Mark scheme answer**
@@ -742,7 +742,7 @@ Explain why adding a catalyst does not change the position of equilibrium.
 
 ### 7(d) [3]
 
-The ethanoic acid produced in the reaction is completely neutralised by 22.75 cm3 of 0.150 mol/dm3 barium hydroxide solution. The equation for the neutralisation reaction is 2CH3COOH + Ba(OH)2 → Ba(CH3COO)2 + 2H2O Calculate the amount, in moles, of ethanoic acid neutralised. Give your answer to 3 significant figures. amount = mol
+The ethanoic acid produced in the reaction is completely neutralised by 22.75 cm3 of 0.150 mol/dm3 barium hydroxide solution. The equation for the neutralisation reaction is 2CH3COOH + Ba(OH)2 → Ba(CH3COO)2 + 2H2O Calculate the amount, in moles, of ethanoic acid neutralised. Give your answer to 3 significant figures. amount = mol 
 
 
 **Mark scheme answer**

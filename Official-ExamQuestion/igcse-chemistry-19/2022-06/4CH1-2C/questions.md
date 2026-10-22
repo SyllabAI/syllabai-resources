@@ -130,7 +130,7 @@ State the colour of methyl orange in barium hydroxide solution.
 
 ### 2(b)(ii) [1]
 
-Give a reason why universal indicator is not suitable for use in a titration.
+Give a reason why universal indicator is not suitable for use in a titration. 
 
 
 **Mark scheme answer**
@@ -152,7 +152,7 @@ The student adds some dilute nitric acid to a burette and does the titration. Th
 > scores 3
 > M1 moles of HNO3 = 21.5 × 0.6(00) OR 0.0129
 > 1000
-> M2 moles of Ba(OH)2 = 0.0129 ÷ 2 OR 0.00645 ALLOW ecf on M2
+> M2 moles of Ba(OH)2 = 0.0129  2 OR 0.00645 ALLOW ecf on M2
 > M3 conc. of Ba(OH)2 = 0.00645 × 1000 = 0.258 (mol/dm3)
 > 25 ACCEPT alternative
 > methods
@@ -165,7 +165,7 @@ The student adds some dilute nitric acid to a burette and does the titration. Th
 > 1 sig fig once only
 
 - **(1)** moles of HNO3 = 21.5 × 0.6(00) OR 0.0129
-- **(1)** moles of Ba(OH)2 = 0.0129 ÷ 2 OR 0.00645 ALLOW ecf on M2
+- **(1)** moles of Ba(OH)2 = 0.0129  2 OR 0.00645 ALLOW ecf on M2
 - **(1)** conc. of Ba(OH)2 = 0.00645 × 1000 = 0.258 (mol/dm3)
 
 ### 2(d) [1]
@@ -227,7 +227,7 @@ Which halogen is a solid at room temperature?
 
 ### 3(c) [4]
 
-The table shows the electronic configurations of a fluorine atom and a chlorine atom. Electronic configuration fluorine 2.7 chlorine 2.8.7 Explain the relative reactivities of fluorine and chlorine using the information in the table.
+The table shows the electronic configurations of a fluorine atom and a chlorine atom. Electronic configuration fluorine 2.7 chlorine 2.8.7 Explain the relative reactivities of fluorine and chlorine using the information in the table. 
 
 ![table — official paper figure (qp.pdf p.6)](assets/asset_3_c_table.png)
 
@@ -257,7 +257,7 @@ Write a chemical equation for the reaction of lithium with chlorine.
 
 **Mark scheme answer**
 
-> 2Li + Cl2 → 2LiCl ALLOW multiples or
+> 2Li + Cl2  2LiCl ALLOW multiples or
 > fractions
 > IGNORE state symbols
 > even if incorrect
@@ -265,7 +265,7 @@ Write a chemical equation for the reaction of lithium with chlorine.
 > REJECT any charges on Li
 > or Cl2
 
-- **(1)** 2Li + Cl2 → 2LiCl ALLOW multiples or
+- **(1)** 2Li + Cl2  2LiCl ALLOW multiples or
 
 ### 3(d)(ii) [5]
 
@@ -347,7 +347,7 @@ The diagram shows the electron configurations of a magnesium atom and an oxygen 
 
 ### 4(c)(i) [1]
 
-State why magnesium cannot be produced by heating magnesium oxide with carbon.
+State why magnesium cannot be produced by heating magnesium oxide with carbon. 
 
 
 **Mark scheme answer**
@@ -405,13 +405,13 @@ Write an ionic half‑equation for the formation of chlorine at the positive ele
 
 **Mark scheme answer**
 
-> 2Cl− → Cl2 + 2e(−) ALLOW 2Cl− − 2e(−)→ Cl2
+> 2Cl  Cl2 + 2e() ALLOW 2Cl  2e() Cl2
 > ALLOW multiples or
 > fractions
 > IGNORE state symbols
 > even if incorrect
 
-- **(1)** 2Cl− → Cl2 + 2e(−) ALLOW 2Cl− − 2e(−)→ Cl2
+- **(1)** 2Cl  Cl2 + 2e() ALLOW 2Cl  2e() Cl2
 
 
 ## Question 5 (12 marks)
@@ -419,7 +419,7 @@ Write an ionic half‑equation for the formation of chlorine at the positive ele
 
 **(b)** Methanoic acid (HCOOH) reacts with sodium carbonate solution to give three products.
 
-**(c)** Methanoic acid also reacts with propanol to form an ester. The equation for the reaction is HCOOH + C3H7OH ⇌ HCOOC3H7 + H2O
+**(c)** Methanoic acid also reacts with propanol to form an ester. The equation for the reaction is HCOOH + C3H7OH  HCOOC3H7 + H2O
 
 **(d)** A polyester forms when butanedioic acid reacts with ethanediol. The diagram shows the repeat unit of the polyester that forms. O O C CH2CH2 C O CH2CH2 O
 
@@ -445,7 +445,7 @@ Show that the empirical formula of the compound is CH2O
 
 ### 5(a)(ii) [1]
 
-Draw the structural formula of a compound with the molecular formula C2H4O2
+Draw the structural formula of a compound with the molecular formula C2H4O2 
 
 
 **Mark scheme answer**
@@ -462,7 +462,7 @@ Complete the equation for this reaction. 2HCOOH + Na2CO3 → + +
 
 **Mark scheme answer**
 
-> 2HCOOH + Na2CO3 → 2HCOONa + CO2 + H2O
+> 2HCOOH + Na2CO3  2HCOONa + CO2 + H2O
 > M1 CO2 + H2O IGNORE numbers in front
 > of CO2 and/or H2O if only
 > M1 scored
@@ -499,7 +499,7 @@ Give the name of the ester that forms.
 
 ### 5(c)(ii) [1]
 
-State what is meant by the ⇌ symbol.
+State what is meant by the  symbol.
 
 
 **Mark scheme answer**
@@ -512,7 +512,7 @@ State what is meant by the ⇌ symbol.
 
 ### 5(c)(iii) [1]
 
-When this reaction occurs in a sealed container, the reaction can reach dynamic equilibrium. Give one characteristic of a reaction at dynamic equilibrium.
+When this reaction occurs in a sealed container, the reaction can reach dynamic equilibrium. Give one characteristic of a reaction at dynamic equilibrium. 
 
 
 **Mark scheme answer**
@@ -564,7 +564,7 @@ Titanium is an important metal in industry. Titanium dioxide (TiO2) can be conve
 
 ### 6(a) [4]
 
-This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO2 Calculate the volume, in dm3, of chlorine gas at rtp needed to react completely with 20 tonnes of titanium dioxide. Give your answer in standard form. [1 tonne = 106 g Mr of TiO2 = 80] [molar volume of chlorine gas at rtp = 24 dm3] volume of chlorine gas = dm3
+This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO2 Calculate the volume, in dm3, of chlorine gas at rtp needed to react completely with 20 tonnes of titanium dioxide. Give your answer in standard form. [1 tonne = 106 g Mr of TiO2 = 80] [molar volume of chlorine gas at rtp = 24 dm3] volume of chlorine gas = dm3 
 
 
 **Mark scheme answer**
@@ -633,7 +633,7 @@ Aeroplanes are made of an alloy containing aluminium and titanium. Explain why t
 
 A student uses this apparatus to find the heat energy supplied by a liquid fuel. thermometer copper container water liquid fuel The student burns some fuel to heat the water in the copper container and measures the change in temperature.
 
-**(d)** The equation shows the combustion of methane. CH4 + 2O2 → CO2 + 2H2O ΔH = –890 kJ/mol This is the equation showing the displayed formulae. H O O H O H H C H + → O C O + O O H O H H The table shows the bond energies for O O, C O and O H Bond O O C O O H Bond energy in kJ/mol 498 805 463
+**(d)** The equation shows the combustion of methane. CH4 + 2O2 → CO2 + 2H2O ΔH = –890 kJ/mol This is the equation showing the displayed formulae. H O O H O H H C H + → O C O + O O H O H H The table shows the bond energies for O O, C O and O H Bond O O C O O H Bond energy in kJ/mol 498 805 463 
 
 ### 7(a) [1]
 
@@ -651,18 +651,18 @@ The student notices that the bottom of the container turns black. Give the name 
 
 ### 7(b) [2]
 
-In one experiment, the student burns 0.92 g of ethanol. The student calculates that the heat energy absorbed by the water is 18.2 kJ. Show that the results of this experiment give an approximate value for the enthalpy of combustion of ethanol of ΔH = –900 kJ/mol. [Mr of ethanol = 46]
+In one experiment, the student burns 0.92 g of ethanol. The student calculates that the heat energy absorbed by the water is 18.2 kJ. Show that the results of this experiment give an approximate value for the enthalpy of combustion of ethanol of ΔH = –900 kJ/mol. [Mr of ethanol = 46] 
 
 
 **Mark scheme answer**
 
-> M1 (amount of ethanol) = 0.92 ÷ 46 OR 0.02(0) (mol)
-> M2 (−)18.2 ÷ 0.02(0) = (−)910 (kJ/mol)
+> M1 (amount of ethanol) = 0.92  46 OR 0.02(0) (mol)
+> M2 ()18.2  0.02(0) = ()910 (kJ/mol)
 > ALLOW alternative
 > methods
 
-- **(1)** (amount of ethanol) = 0.92 ÷ 46 OR 0.02(0) (mol)
-- **(1)** (−)18.2 ÷ 0.02(0) = (−)910 (kJ/mol)
+- **(1)** (amount of ethanol) = 0.92  46 OR 0.02(0) (mol)
+- **(1)** ()18.2  0.02(0) = ()910 (kJ/mol)
 
 ### 7(c) [2]
 
@@ -690,20 +690,20 @@ Calculate the bond energy of the C H bond, using information from the equation a
 
 > correct answer with or
 > without working scores 4
-> M1 Σ bonds broken = 4 x C−H + 2 x 498 ALLOW 2 x 498 OR 996
+> M1  bonds broken = 4 x CH + 2 x 498 ALLOW 2 x 498 OR 996
 > seen
-> M2 Σ bonds formed = 2 x 805 + 4 x 463 OR 3462
-> M3 4 x C−H + 996 − 3462 = − 890
-> M4 C−H = 1576 ÷ 4 = 394 (kJ/mol) ALLOW ecf throughout
+> M2  bonds formed = 2 x 805 + 4 x 463 OR 3462
+> M3 4 x CH + 996  3462 =  890
+> M4 CH = 1576  4 = 394 (kJ/mol) ALLOW ecf throughout
 > 839 without working
 > scores 3
 > 616.5/617 without
 > working scores 3
 
-- **(1)** Σ bonds broken = 4 x C−H + 2 x 498 ALLOW 2 x 498 OR 996
-- **(1)** Σ bonds formed = 2 x 805 + 4 x 463 OR 3462
-- **(1)** 4 x C−H + 996 − 3462 = − 890
-- **(1)** C−H = 1576 ÷ 4 = 394 (kJ/mol) ALLOW ecf throughout
+- **(1)**  bonds broken = 4 x CH + 2 x 498 ALLOW 2 x 498 OR 996
+- **(1)**  bonds formed = 2 x 805 + 4 x 463 OR 3462
+- **(1)** 4 x CH + 996  3462 =  890
+- **(1)** CH = 1576  4 = 394 (kJ/mol) ALLOW ecf throughout
 
 ### 7(d)(ii) [2]
 
@@ -715,7 +715,7 @@ Complete the energy level diagram to show the products and ΔH. Energy CH4 + 2O2
 **Mark scheme answer**
 
 > 2
-> ↑
+> 
 > Energy CH4 + 2O2
 > ¯¯¯¯¯¯¯¯¯¯¯
 > ΔH
@@ -724,7 +724,7 @@ Complete the energy level diagram to show the products and ΔH. Energy CH4 + 2O2
 > M1 horizontal line to show products in correct
 > position and correctly labelled
 > M2 vertical line in correct position and labelled ACCEPT double headed
-> ΔH/− 890 (kJ/mol) arrow or arrow pointing
+> ΔH/ 890 (kJ/mol) arrow or arrow pointing
 > from reactants level to
 > products level
 > REJECT arrow pointing

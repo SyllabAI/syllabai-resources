@@ -125,7 +125,7 @@ Give the name of a metal that could be P.
 
 ### 2(a)(v) [1]
 
-Give a reason why the reaction of Q with dilute hydrochloric acid is not done.
+Give a reason why the reaction of Q with dilute hydrochloric acid is not done. 
 
 
 **Mark scheme answer**
@@ -231,22 +231,22 @@ Give the formula of the compound that forms when Z reacts with fluorine.
 
 ### 3(b) [2]
 
-One mole of Z contains 6.0 × 1023 atoms. Calculate the number of electrons in one mole of atoms of element Z. Give your answer in standard form. number of electrons =
+One mole of Z contains 6.0 × 1023 atoms. Calculate the number of electrons in one mole of atoms of element Z. Give your answer in standard form. number of electrons = 
 
 
 **Mark scheme answer**
 
-> M1 12 × 6.0 × 1023
+> M1 12  6.0  1023
 > ALLOW ecf if incorrect
 > number of electrons x
-> M2 7.2 × 1024
+> M2 7.2  1024
 > 6.0 x 1023
 > ALLOW ecf if /12 ONLY
 > rather than x12 giving
 > 5(.0) x1022
 
-- **(1)** 12 × 6.0 × 1023
-- **(1)** 7.2 × 1024
+- **(1)** 12  6.0  1023
+- **(1)** 7.2  1024
 
 ### 3(c) [4]
 
@@ -258,12 +258,12 @@ A sample of element Z contains three isotopes. The table shows the numbers of pa
 **Mark scheme answer**
 
 > M1 (isotopic masses) 24, 25 and 26
-> M2 79.0 × 24 + 10.0 × 25 + 11.0 × 26 OR 2432 M2 subsumes M1
+> M2 79.0  24 + 10.0  25 + 11.0  26 OR 2432 M2 subsumes M1
 > ALLOW ecf if incorrect
 > mass numbers used
 > 12.3 scores 3 with
 > working
-> M3 79.0 × 24 + 10.0 × 25 + 11.0 × 26 OR 2432 OR 24.32
+> M3 79.0  24 + 10.0  25 + 11.0  26 OR 2432 OR 24.32
 > 100 100 24.3 without working
 > scores 4
 > M4 24.3
@@ -275,8 +275,8 @@ A sample of element Z contains three isotopes. The table shows the numbers of pa
 > ALLOW Mg
 
 - **(1)** (isotopic masses) 24, 25 and 26
-- **(1)** 79.0 × 24 + 10.0 × 25 + 11.0 × 26 OR 2432 M2 subsumes M1
-- **(1)** 79.0 × 24 + 10.0 × 25 + 11.0 × 26 OR 2432 OR 24.32
+- **(1)** 79.0  24 + 10.0  25 + 11.0  26 OR 2432 M2 subsumes M1
+- **(1)** 79.0  24 + 10.0  25 + 11.0  26 OR 2432 OR 24.32
 - **(1)** 24.3
 
 ### 3(d) [1]
@@ -319,11 +319,11 @@ Calculate the relative formula mass (Mr ) of caffeine. Mr =
 
 > correct answer of 194
 > scores 2
-> M1 12 × 8 + 1 x 10 + 14 × 4 + 16 × 2
+> M1 12  8 + 1 x 10 + 14  4 + 16  2
 > No ECF
 > M2 194
 
-- **(1)** 12 × 8 + 1 x 10 + 14 × 4 + 16 × 2
+- **(1)** 12  8 + 1 x 10 + 14  4 + 16  2
 - **(1)** 194
 
 ### 4(a)(iii) [1]
@@ -354,7 +354,7 @@ Give the name of the method of separation shown in the diagram.
 
 ### 4(b)(ii) [2]
 
-Describe what happens to the ethanol vapour in apparatus X.
+Describe what happens to the ethanol vapour in apparatus X. 
 
 ![apparatus — official paper figure (qp.pdf p.8) — shared with asset_4_b_diagram_stem](assets/asset_4_b_diagram_stem.png)
 
@@ -424,7 +424,7 @@ The chromatography paper is placed in a solvent. Explain why the spots on the ba
 
 ### 5(a)(ii) [2]
 
-Explain which two felt tip pens contain the same dye.
+Explain which two felt tip pens contain the same dye. 
 
 
 **Mark scheme answer**
@@ -463,14 +463,14 @@ Calculate the Rf value for the dye in G. Show your working. Rf value =
 > M1 distance from baseline to solvent level in mm = 65
 > M2 distance from baseline to spot/dye in mm = 39 ACCEPT any value between
 > 38 and 41 inclusive
-> M3 (Rf value = 39 ÷ 65 =) 0.6 ACCEPT any value between
+> M3 (Rf value = 39  65 =) 0.6 ACCEPT any value between
 > 0.57 and 0.64
 > M3 not awarded if value is
 > incorrectly rounded
 
 - **(1)** distance from baseline to solvent level in mm = 65
 - **(1)** distance from baseline to spot/dye in mm = 39 ACCEPT any value between
-- **(1)** (Rf value = 39 ÷ 65 =) 0.6 ACCEPT any value between
+- **(1)** (Rf value = 39  65 =) 0.6 ACCEPT any value between
 
 
 ## Question 6 (13 marks)
@@ -536,7 +536,7 @@ Explain why the student needs to clean the platinum wire.
 
 ### 6(b)(ii) [1]
 
-What is the colour of the flame if the solid contains lithium ions?
+What is the colour of the flame if the solid contains lithium ions? 
 
 - **(A)** lilac
 - **(B)** orange
@@ -581,18 +581,18 @@ Potassium aluminium sulfate is normally found as a hydrated salt, with the formu
 > 4
 > correct answer of 12
 > M1 (mass of water =) 23.7 − 12.9 OR 10.8 without working scores 4
-> M2 (moles of KAl(SO4)2 =) 12.9 ÷ 258 OR 0.05(00) ALLOW ecf on incorrect
+> M2 (moles of KAl(SO4)2 =) 12.9  258 OR 0.05(00) ALLOW ecf on incorrect
 > mass of water
-> M3 (moles of water =) 10.8 ÷ 18 OR 0.6(00)
+> M3 (moles of water =) 10.8  18 OR 0.6(00)
 > answer to M4 must be a
-> M4 (x = 0.6 ÷ 0.05 =) 12 whole number
+> M4 (x = 0.6  0.05 =) 12 whole number
 > ACCEPT alternative
 > methods
 
 - **(1)** (mass of water =) 23.7 − 12.9 OR 10.8 without working scores 4
-- **(1)** (moles of KAl(SO4)2 =) 12.9 ÷ 258 OR 0.05(00) ALLOW ecf on incorrect
-- **(1)** (moles of water =) 10.8 ÷ 18 OR 0.6(00)
-- **(1)** (x = 0.6 ÷ 0.05 =) 12 whole number
+- **(1)** (moles of KAl(SO4)2 =) 12.9  258 OR 0.05(00) ALLOW ecf on incorrect
+- **(1)** (moles of water =) 10.8  18 OR 0.6(00)
+- **(1)** (x = 0.6  0.05 =) 12 whole number
 
 
 ## Question 7 (13 marks)
@@ -675,7 +675,7 @@ Nitric acid forms acid rain. State one environmental effect of acid rain.
 
 ### 7(d)(i) [1]
 
-What is the formula of ammonium carbonate?
+What is the formula of ammonium carbonate? 
 
 - **(A)** NH3CO3
 - **(B)** (NH3)2CO3
@@ -794,7 +794,7 @@ The displayed formula of one of the isomers of the alkene is shown. H H H H H C 
 
 ### 8(b) [1]
 
-But-1-ene reacts with bromine to form a compound with molecular formula C4H8Br2 What is the name given to this type of reaction?
+But-1-ene reacts with bromine to form a compound with molecular formula C4H8Br2 What is the name given to this type of reaction? 
 
 - **(A)** addition  ✔
 - **(B)** combustion
@@ -828,7 +828,7 @@ Draw the repeat unit of poly(propene).
 
 ### 8(c)(ii) [2]
 
-These are two methods for disposing of polymers such as poly(propene). method 1 burying them in landfill sites method 2 burning them to release heat energy State one environmental problem linked to each of these methods of disposal. method 1 method 2
+These are two methods for disposing of polymers such as poly(propene). method 1 burying them in landfill sites method 2 burning them to release heat energy State one environmental problem linked to each of these methods of disposal. method 1 method 2 
 
 
 **Mark scheme answer**
@@ -850,14 +850,14 @@ Complete combustion of one mole of an alkane produces 396 g of carbon dioxide an
 
 **Mark scheme answer**
 
-> M1 y (= 396 ÷ 44) = 9
-> M2 z (= 180 ÷ 18) = 10
+> M1 y (= 396  44) = 9
+> M2 z (= 180  18) = 10
 > ALLOW ecf for M3 on
 > M3 x = 14 incorrect values for M1
 > and/or M2
 
-- **(1)** y (= 396 ÷ 44) = 9
-- **(1)** z (= 180 ÷ 18) = 10
+- **(1)** y (= 396  44) = 9
+- **(1)** z (= 180  18) = 10
 - **(1)** x = 14 incorrect values for M1
 
 ### 8(e)(i) [2]
@@ -921,7 +921,7 @@ State why mass is lost from the flask.
 
 ### 9(a)(ii) [1]
 
-State the purpose of the cotton wool.
+State the purpose of the cotton wool. 
 
 
 **Mark scheme answer**
@@ -959,7 +959,7 @@ Explain the shape of the graph. You should assume that the marble chips are in e
 
 ### 9(b)(ii) [2]
 
-On the grid, draw the curve you would expect to obtain if the student uses the same volume of hydrochloric acid but with half the concentration. Assume that all other conditions are kept the same.
+On the grid, draw the curve you would expect to obtain if the student uses the same volume of hydrochloric acid but with half the concentration. Assume that all other conditions are kept the same. 
 
 ![grid — official paper figure (qp.pdf p.20) — shared with asset_9_b_graph_stem](assets/asset_9_b_graph_stem.png)
 
@@ -1015,7 +1015,7 @@ Complete the chemical equation for this reaction. Mg + 2HNO3 → +
 
 ### 10(b) [2]
 
-The thermometer shows the highest temperature reached. °C Complete the table by giving the temperatures to the nearest 0.1°C starting temperature of the acid in °C highest temperature reached in °C temperature rise in °C 16.4
+The thermometer shows the highest temperature reached. °C Complete the table by giving the temperatures to the nearest 0.1°C starting temperature of the acid in °C highest temperature reached in °C temperature rise in °C 16.4 
 
 ![table — official paper figure (qp.pdf p.22)](assets/asset_10_b_table.png)
 
@@ -1041,11 +1041,11 @@ Show that the heat energy change (Q ) for this reaction is about 2800 J. [for 1.
 
 **Mark scheme answer**
 
-> M1 Q = 40 × 4.2 × 16.4
+> M1 Q = 40  4.2  16.4
 > ACCEPT any number of
 > M2 2755 (J) sig figs except 1
 
-- **(1)** Q = 40 × 4.2 × 16.4
+- **(1)** Q = 40  4.2  16.4
 - **(1)** 2755 (J) sig figs except 1
 
 ### 10(c)(ii) [4]

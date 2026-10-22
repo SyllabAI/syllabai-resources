@@ -103,7 +103,7 @@ Identify the gas needed for combustion reactions.
 
 ### 2(b) [2]
 
-Explain how carbon dioxide can be formed from copper(II) carbonate.
+Explain how carbon dioxide can be formed from copper(II) carbonate. 
 
 
 **Mark scheme answer**
@@ -206,7 +206,7 @@ Which particle has a relative charge of 0?
 
 ### 3(a)(iii) [1]
 
-Name the part of the atom labelled Z.
+Name the part of the atom labelled Z. 
 
 
 **Mark scheme answer**
@@ -266,7 +266,7 @@ Give the chemical symbol of this element.
 
 ### 3(b) [1]
 
-State what type of particle is formed when an atom loses its outer shell electrons.
+State what type of particle is formed when an atom loses its outer shell electrons. 
 
 
 **Mark scheme answer**
@@ -293,7 +293,7 @@ On the grid, add an appropriate scale to the y-axis, starting at 6.0
 
 ### 3(c)(ii) [2]
 
-Plot the data on the grid. Do not join the points. Relative atomic mass 6.0 3 4 5 6 7 8 9 10 Atomic number
+Plot the data on the grid. Do not join the points.  Relative atomic mass 6.0 3 4 5 6 7 8 9 10 Atomic number
 
 ![grid — official paper figure (qp.pdf p.9) — shared with asset_3_c_i_grid](assets/asset_3_c_i_grid.png)
 
@@ -347,7 +347,7 @@ Draw a diagram to show the arrangement of the electrons in a chloride ion.
 
 ### 4(b) [6]
 
-Two beakers are unlabelled. One beaker contains a solution of ammonium chloride and the other beaker contains a solution of ammonium sulfate. Describe tests that can be carried out to confirm that one beaker contains ammonium chloride and the other beaker contains ammonium sulfate.
+Two beakers are unlabelled. One beaker contains a solution of ammonium chloride and the other beaker contains a solution of ammonium sulfate. Describe tests that can be carried out to confirm that one beaker contains ammonium chloride and the other beaker contains ammonium sulfate. 
 
 
 **Mark scheme answer**
@@ -448,7 +448,7 @@ Explain why a polystyrene cup is used instead of a glass beaker.
 
 ### 5(c) [2]
 
-Give two variables the student should control in the investigation. 1 2
+Give two variables the student should control in the investigation. 1 2 
 
 
 **Mark scheme answer**
@@ -487,7 +487,7 @@ Calculate the mean temperature increase for metal Y. Give your answer to two sig
 
 ### 5(d)(ii) [2]
 
-Explain whether the anomalous result in experiment 2 could have been caused by stirring the mixture too quickly.
+Explain whether the anomalous result in experiment 2 could have been caused by stirring the mixture too quickly. 
 
 
 **Mark scheme answer**
@@ -557,7 +557,7 @@ Give the name of process 1.
 
 ### 6(a)(ii) [5]
 
-Sketch a labelled diagram showing how the kerosene fraction is obtained from crude oil in process 1.
+Sketch a labelled diagram showing how the kerosene fraction is obtained from crude oil in process 1. 
 
 
 **Mark scheme answer**
@@ -677,7 +677,7 @@ Determine the volume of sodium hydroxide solution at the point where the lines c
 
 ### 7(a)(ii) [1]
 
-Determine the maximum temperature change reached during the investigation. maximum temperature change = °C
+Determine the maximum temperature change reached during the investigation. maximum temperature change = °C 
 
 
 **Mark scheme answer**
@@ -705,7 +705,7 @@ Give two mistakes in the student’s statement. 1 2
 
 ### 7(b)(ii) [1]
 
-Add another sentence to complete the student’s statement.
+Add another sentence to complete the student’s statement. 
 
 
 **Mark scheme answer**
@@ -846,7 +846,7 @@ Complete the table by giving the missing information about propene. Displayed fo
 
 ### 9(b) [2]
 
-Draw a dot-and-cross diagram for propane. Include only outer shell electrons.
+Draw a dot-and-cross diagram for propane. Include only outer shell electrons. 
 
 
 **Mark scheme answer**
@@ -890,7 +890,7 @@ Give the reaction condition needed for propane and bromine to react together.
 
 ### 9(c)(iii) [3]
 
-A compound formed in the reaction between bromine water and an alkene has this percentage composition by mass. C = 25.9% H = 5.0% O = 11.5% Br = 57.6% Calculate the empirical formula of this compound. empirical formula =
+A compound formed in the reaction between bromine water and an alkene has this percentage composition by mass. C = 25.9% H = 5.0% O = 11.5% Br = 57.6% Calculate the empirical formula of this compound. empirical formula = 
 
 
 **Mark scheme answer**
@@ -965,7 +965,7 @@ What is the total number of elements in the formula Al2(SO4)3 ?
 
 ### 10(b)(i) [2]
 
-During step 3, the reaction mixture is filtered. Identify the substance that remains in the filter paper and the substances in the beaker after this filtration. filter paper beaker
+During step 3, the reaction mixture is filtered. Identify the substance that remains in the filter paper and the substances in the beaker after this filtration. filter paper beaker 
 
 
 **Mark scheme answer**
@@ -998,7 +998,7 @@ State why the aluminium is added until it is in excess.
 
 ### 10(b)(iii) [2]
 
-Explain why powdered aluminium is used. Question 10 continues on the next page
+Explain why powdered aluminium is used. Question 10 continues on the next page 
 
 
 **Mark scheme answer**

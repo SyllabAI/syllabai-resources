@@ -10,7 +10,7 @@ The three states of matter are solid, liquid and gas.
 
 ### 1(a) [3]
 
-Substances can change from one state to another. The box gives some words about changes of state. condensing cooling evaporation freezing heating melting sublimation Complete the table by giving the correct word from the box for each change of state. You may use each word once, more than once or not at all. Change of state Name of change from liquid to solid from gas to liquid from solid to gas
+Substances can change from one state to another. The box gives some words about changes of state. condensing cooling evaporation freezing heating melting sublimation Complete the table by giving the correct word from the box for each change of state. You may use each word once, more than once or not at all. Change of state Name of change from liquid to solid from gas to liquid from solid to gas 
 
 ![table — official paper figure (qp.pdf p.4)](assets/asset_1_a_table.png)
 
@@ -114,7 +114,7 @@ Name the gas that can bleach damp litmus paper.
 
 ### 2(b) [2]
 
-Explain why hydrogen chloride is classified as a compound.
+Explain why hydrogen chloride is classified as a compound. 
 
 
 **Mark scheme answer**
@@ -204,7 +204,7 @@ Explain how method A prevents iron from rusting.
 
 ### 3(b)(ii) [1]
 
-Give the name of method B.
+Give the name of method B. 
 
 
 **Mark scheme answer**
@@ -243,7 +243,7 @@ A student does an experiment to identify the dyes in inks A, B, C, D and E. The 
 
 ### 4(a) [5]
 
-Describe how the student should set up the apparatus and do the experiment. You may use a diagram to help your answer.
+Describe how the student should set up the apparatus and do the experiment. You may use a diagram to help your answer. 
 
 
 **Mark scheme answer**
@@ -285,7 +285,7 @@ Explain which ink contains a dye that is insoluble in the solvent.
 
 ### 4(b)(ii) [2]
 
-Explain which inks contain the same dye.
+Explain which inks contain the same dye. 
 
 
 **Mark scheme answer**
@@ -323,7 +323,7 @@ Describe how the student can use the chromatogram to determine the Rf value for 
 
 Hydrogen peroxide decomposes to form water and oxygen. This decomposition is shown in the equation. 2H2O2 → 2H2O + O2
 
-**(c)** A student uses this apparatus to investigate the rate of decomposition of hydrogen peroxide solution. hydrogen peroxide solution 0 20 40 60 80 100 cm3 oxygen B A catalyst The student adds 100 cm3 of hydrogen peroxide solution at 20 °C to the apparatus labelled A. The student records the volume of oxygen gas collected every minute for 16 minutes. The graph shows the student’s results. 100 Volume of oxygen in cm3 0 4 8 12 16 Time in minutes
+**(c)** A student uses this apparatus to investigate the rate of decomposition of hydrogen peroxide solution. hydrogen peroxide solution 0 20 40 60 80 100 cm3 oxygen B A catalyst  The student adds 100 cm3 of hydrogen peroxide solution at 20 °C to the apparatus labelled A. The student records the volume of oxygen gas collected every minute for 16 minutes. The graph shows the student’s results. 100 Volume of oxygen in cm3 0 4 8 12 16 Time in minutes
 
 ### 5(a) [1]
 
@@ -366,7 +366,7 @@ Name the pieces of apparatus labelled A and B. A B
 
 ### 5(c)(ii) [2]
 
-Determine the volume of oxygen gas produced in the first 4 minutes. Show on the graph how you obtain your answer. volume of oxygen = cm3
+Determine the volume of oxygen gas produced in the first 4 minutes. Show on the graph how you obtain your answer. volume of oxygen = cm3 
 
 ![graph — official paper figure (qp.pdf p.16) — shared with asset_5_c_graph_stem](assets/asset_5_c_graph_stem.png)
 
@@ -452,7 +452,7 @@ Give the name of the compound with the formula Al2(SO4)3
 
 ### 6(b) [3]
 
-The diagram shows the arrangement of electrons in an atom of magnesium and an atom of chlorine. Magnesium Chlorine Describe, in terms of electrons, what happens when magnesium atoms and chlorine atoms form magnesium chloride.
+The diagram shows the arrangement of electrons in an atom of magnesium and an atom of chlorine. Magnesium Chlorine  Describe, in terms of electrons, what happens when magnesium atoms and chlorine atoms form magnesium chloride.
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_b_diagram.png)
 
@@ -530,7 +530,7 @@ Give a reason why the student surrounds tube B with ice.
 
 ### 7(a)(ii) [1]
 
-State how the student knows when all the water of crystallisation has been given off.
+State how the student knows when all the water of crystallisation has been given off. 
 
 
 **Mark scheme answer**
@@ -631,7 +631,7 @@ Explain why the rate of reaction is greatest at the start.
 
 ### 8(c) [1]
 
-After 10 minutes, the reaction stops even though there are marble chips remaining. Give a reason why the reaction stops.
+After 10 minutes, the reaction stops even though there are marble chips remaining. Give a reason why the reaction stops. 
 
 
 **Mark scheme answer**
@@ -713,7 +713,7 @@ Identify the black solid.
 
 ### 9(b)(ii) [1]
 
-Give a reason why the black solid forms.
+Give a reason why the black solid forms. 
 
 
 **Mark scheme answer**
@@ -738,7 +738,7 @@ Show that the heat energy needed to raise the temperature of 100 g of water by 5
 
 ### 9(c)(ii) [4]
 
-The student burns 1.84 g of ethanol. Calculate the molar enthalpy change, ΔH, in kJ/mol, for the combustion of ethanol. Include a sign in your answer. [for ethanol, Mr = 46] ΔH = kJ/mol
+The student burns 1.84 g of ethanol. Calculate the molar enthalpy change, ΔH, in kJ/mol, for the combustion of ethanol. Include a sign in your answer. [for ethanol, Mr = 46] ΔH = kJ/mol 
 
 
 **Mark scheme answer**
@@ -831,7 +831,7 @@ Complete the equation for the substitution reaction between ethane and bromine, 
 
 ### 10(a)(iii) [1]
 
-Give the colour change that occurs when ethene reacts with bromine water.
+Give the colour change that occurs when ethene reacts with bromine water. 
 
 
 **Mark scheme answer**
@@ -880,7 +880,7 @@ Explain why the alkenes in the diagram are isomers.
 
 ### 10(b)(iii) [1]
 
-Draw the displayed formula of another alkene that is an isomer of these two alkenes.
+Draw the displayed formula of another alkene that is an isomer of these two alkenes. 
 
 
 **Mark scheme answer**
@@ -954,7 +954,7 @@ Give a reason why sulfur dioxide should not be released into the atmosphere.
 
 ### 11(a)(iii) [3]
 
-This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of lead(II) oxide is heated in a furnace with an excess of carbon. Calculate the maximum mass, in tonnes, of carbon dioxide that could be released into the atmosphere. [1 tonne = 1 × 106 g] [for PbO, Mr = 223 for CO2 , Mr = 44] mass = tonnes
+This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of lead(II) oxide is heated in a furnace with an excess of carbon. Calculate the maximum mass, in tonnes, of carbon dioxide that could be released into the atmosphere. [1 tonne = 1 × 106 g] [for PbO, Mr = 223 for CO2 , Mr = 44] mass = tonnes 
 
 
 **Mark scheme answer**
@@ -970,7 +970,7 @@ This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of
 
 ### 11(a)(iv) [5]
 
-The diagram shows the structures of lead(II) sulfide and sulfur dioxide. Lead(II) sulfide Sulfur dioxide Explain, in terms of bonding and structure, why lead(II) sulfide is a solid with a very high melting point at room temperature and why sulfur dioxide is a gas at room temperature. lead(II) sulfide sulfur dioxide QUESTION 11 CONTINUES ON NEXT / BACK PAGE.
+The diagram shows the structures of lead(II) sulfide and sulfur dioxide. Lead(II) sulfide Sulfur dioxide Explain, in terms of bonding and structure, why lead(II) sulfide is a solid with a very high melting point at room temperature and why sulfur dioxide is a gas at room temperature. lead(II) sulfide sulfur dioxide QUESTION 11 CONTINUES ON NEXT / BACK PAGE. 
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_11_a_iv_diagram.png)
 

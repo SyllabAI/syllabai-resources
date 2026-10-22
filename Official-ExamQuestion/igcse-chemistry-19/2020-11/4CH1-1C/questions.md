@@ -477,10 +477,10 @@ Give the equation for this reaction.
 
 **Mark scheme answer**
 
-> Cl2 + CH4 →CH3Cl + HCl ALLOW multiples
+> Cl2 + CH4 CH3Cl + HCl ALLOW multiples
 > Grad
 
-- **(1)** Cl2 + CH4 →CH3Cl + HCl ALLOW multiples
+- **(1)** Cl2 + CH4 CH3Cl + HCl ALLOW multiples
 
 ### 5(b)(iii) [2]
 
@@ -1106,8 +1106,8 @@ Using this equation, calculate the maximum mass of sodium carbonate (Na2CO3) tha
 > NaHCO3
 > • correct evaluation of answer
 > Example calculation:
-> M1 (2x84)/168 (g) NaHCO3 → 106 (g) Na2CO3
-> M2 3.25 (g NaHCO3)→ (106÷168) x 3.25 (g Na2CO3) mark CQ on (i)
+> M1 (2x84)/168 (g) NaHCO3  106 (g) Na2CO3
+> M2 3.25 (g NaHCO3) (106÷168) x 3.25 (g Na2CO3) mark CQ on (i)
 > M3 2.05 (g Na2CO3)
 
 - **(3)** • calculate moles of NaHCO3
@@ -1158,7 +1158,7 @@ When a sample of red lead oxide is heated, it changes into a yellow solid and a 
 
 **Mark scheme answer**
 
-> M1 red lead oxide → lead(II) oxide + must have (II)
+> M1 red lead oxide  lead(II) oxide + must have (II)
 > grad
 > M2 oxygen
 > ACCEPT answers in
@@ -1168,7 +1168,7 @@ When a sample of red lead oxide is heated, it changes into a yellow solid and a 
 > formula for lead(II) oxide
 > is incorrect
 
-- **(1)** red lead oxide → lead(II) oxide + must have (II)
+- **(1)** red lead oxide  lead(II) oxide + must have (II)
 - **(1)** oxygen
 
 ### 10(b) [3]

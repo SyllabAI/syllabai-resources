@@ -188,14 +188,14 @@ This is the order of reactivity of four metals. most reactive aluminium iron lea
 > extraction)
 > ACCEPT reverse
 > arguments
-> M3 2PbO + C → 2Pb + CO2 ALLOW PbO + CO → Pb
+> M3 2PbO + C  2Pb + CO2 ALLOW PbO + CO  Pb
 > + CO2
-> ALLOW PbO + C → Pb
+> ALLOW PbO + C  Pb
 > +CO
 
 - **(1)** Method 1/ heating the metal oxide/lead(II)
 - **(1)** (because) lead is less reactive than iron (and ALLOW carbon is more
-- **(1)** 2PbO + C → 2Pb + CO2 ALLOW PbO + CO → Pb
+- **(1)** 2PbO + C  2Pb + CO2 ALLOW PbO + CO  Pb
 
 ### 3(c) [4]
 
@@ -457,10 +457,10 @@ Complete the equation to explain the scientist’s observation. 2C4H6 + 7O2 → 
 
 **Mark scheme answer**
 
-> 2 C4H6 + 7 O2→ 2C + 4 CO + 2 CO2+ 6H2O
+> 2 C4H6 + 7 O2 2C + 4 CO + 2 CO2+ 6H2O
 > Exp
 
-- **(1)** 2 C4H6 + 7 O2→ 2C + 4 CO + 2 CO2+ 6H2O
+- **(1)** 2 C4H6 + 7 O2 2C + 4 CO + 2 CO2+ 6H2O
 
 ### 5(c)(ii) [2]
 
@@ -505,11 +505,11 @@ The equation for the combustion of butadiene in excess oxygen is 2C4H6 + 11O2 �
 > arrow
 > REJECT arrow pointing
 > downwards
-> M4 ΔH correctly shown and labelled ALLOW double headed
+> M4 H correctly shown and labelled ALLOW double headed
 > arrow
 > REJECT arrow pointing
 > upwards
-> ALLOW -3446 for ΔH
+> ALLOW -3446 for H
 > label
 > an endothermic
 > reaction profile can
@@ -519,7 +519,7 @@ The equation for the combustion of butadiene in excess oxygen is 2C4H6 + 11O2 �
 - **(1)** horizontal line below level of reactants with 8 CO2 + 6 H2O
 - **(1)** profile curve rising from reactants level to form “hump” and
 - **(1)** activation energy correctly shown and labelled ALLOW double headed
-- **(1)** ΔH correctly shown and labelled ALLOW double headed
+- **(1)** H correctly shown and labelled ALLOW double headed
 
 
 ## Question 6 (11 marks)
@@ -668,7 +668,7 @@ The equation for the reaction in the titration is H2SO4 + 2KOH → K2SO4 + 2H2O 
 
 This question is about reactions involving gases.
 
-**(b)** This reaction involving gases is in dynamic equilibrium at a temperature of 225 °C. H2(g) + CO2(g) ⇌ CO(g) + H2O(g) ΔH = + 41 kJ/mol
+**(b)** This reaction involving gases is in dynamic equilibrium at a temperature of 225 °C. H2(g) + CO2(g)  CO(g) + H2O(g) ΔH = + 41 kJ/mol
 
 ### 7(a) [3]
 

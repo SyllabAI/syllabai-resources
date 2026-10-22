@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.1",
- "generated_utc": "2026-10-22T01:21:37Z",
- "generator": "official_examq_extract.py v0.11.0 (ADR-037) series=2019-06 paper=1C",
+ "generated_utc": "2026-10-21T23:05:49Z",
+ "generator": "official_examq_extract.py v0.10.1 (ADR-037) series=2019-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2019-06:4CH1/1C",
  "source": {
   "qp_sha256": "0254a7364b4434fd68b1b1d852f694df7e33a9d54b1d8e9db8e06ae9d865a16a",
@@ -402,20 +402,9 @@
      "part_number": "3(d)(ii)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "The table lists properties of some metals. Add ticks (✓) to the table to show the two properties needed in a metal wire used in a flame test. Property good conductor of electricity high density high melting point unreactive",
+     "problem_md": "The table lists properties of some metals. Add ticks () to the table to show the two properties needed in a metal wire used in a flame test. Property good conductor of electricity high density high melting point unreactive",
      "choices": [],
-     "answer_status": "linked",
-     "solution_md": "[MS answer printed as an image; transcribed below - the rendered image is at assets/asset_3_d_ii_ms_answer.png]\n\n| Property | Tick |\n| --- | --- |\n| good conductor of electricity |  |\n| high density |  |\n| high melting point | ✓ |\n| unreactive | ✓ |",
-     "mark_points": [
-      {
-       "id": "2019-06-3-d-ii-MP1",
-       "marks": 2,
-       "text_md": "ticks on 'high melting point' and 'unreactive' (the two properties needed in a flame-test wire)"
-      }
-     ],
-     "answer_key_source": "answer-links-ledger",
-     "manual_linkage": true,
-     "solution_source": "transcribed-from-ms-image (ANSWER-LINKS.json); rendered answer image at assets/asset_3_d_ii_ms_answer.png",
+     "answer_status": "unmatched",
      "source_page": 7,
      "assets": [
       {
@@ -428,18 +417,6 @@
        "path": "assets/asset_3_d_ii_table.png",
        "render": "vector",
        "text_coverage": 0.18
-      },
-      {
-       "id": "asset_3_d_ii_ms_answer",
-       "kind": "crop",
-       "mention": "MS answer image",
-       "source": "ms.pdf",
-       "page": 6,
-       "review": false,
-       "path": "assets/asset_3_d_ii_ms_answer.png",
-       "render": "raster",
-       "text_coverage": 0.222,
-       "manual_answer_crop": true
       }
      ],
      "spec_point_codes": [
@@ -661,12 +638,12 @@
      "problem_md": "Give a chemical equation for this reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "N2 + 3H2 → 2NH3 ACCEPT reversible\narrow\nIGNORE Fe if added\nto both sides of the\nequation",
+     "solution_md": "N2 + 3H2  2NH3 ACCEPT reversible\narrow\nIGNORE Fe if added\nto both sides of the\nequation",
      "mark_points": [
       {
        "id": "2019-06-5-c-i-MP1",
        "marks": 1,
-       "text_md": "N2 + 3H2 → 2NH3 ACCEPT reversible\narrow\nIGNORE Fe if added\nto both sides of the\nequation"
+       "text_md": "N2 + 3H2  2NH3 ACCEPT reversible\narrow\nIGNORE Fe if added\nto both sides of the\nequation"
       }
      ],
      "source_page": 10,
@@ -936,12 +913,12 @@
      "problem_md": "The first stage is to convert ethene into 1,2-dichloroethane, C2H4Cl2 Ethene is reacted with hydrogen chloride and oxygen. Complete the chemical equation for this reaction C2H4 + HCl + O2 → C2H4Cl2 + H2O",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2 C2H4 + 4 HCl + (1) O2 → 2C2H4Cl2 + 2H2O ACCEPT multiples and\nfractions",
+     "solution_md": "2 C2H4 + 4 HCl + (1) O2  2C2H4Cl2 + 2H2O ACCEPT multiples and\nfractions",
      "mark_points": [
       {
        "id": "2019-06-8-a-MP1",
        "marks": 1,
-       "text_md": "2 C2H4 + 4 HCl + (1) O2 → 2C2H4Cl2 + 2H2O ACCEPT multiples and\nfractions"
+       "text_md": "2 C2H4 + 4 HCl + (1) O2  2C2H4Cl2 + 2H2O ACCEPT multiples and\nfractions"
       }
      ],
      "source_page": 13,
@@ -1223,7 +1200,7 @@
      "problem_md": "Complete the equation for this reaction. C5H12 + Br2 → +",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(C5H12 + Br2) → C5H11Br + HBr deduct 1 mark if cases\nor subscripts incorrect\nACCEPT multiple\nM1 correct formula of organic product substitutions of\nbromine\nC5H10Br2 + H2 scores\nM2 HBr as a product and correctly balanced M1",
+     "solution_md": "(C5H12 + Br2)  C5H11Br + HBr deduct 1 mark if cases\nor subscripts incorrect\nACCEPT multiple\nM1 correct formula of organic product substitutions of\nbromine\nC5H10Br2 + H2 scores\nM2 HBr as a product and correctly balanced M1",
      "mark_points": [
       {
        "id": "2019-06-10-b-i-MP1",
@@ -1290,12 +1267,12 @@
      "problem_md": "Calculate the mass of oxygen required to react with 32 g of methane. [Mr of methane = 16] mass of oxygen = g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "• calculate moles of methane\n• calculate mass of oxygen\nExample calculation\nM1 n[CH4] = 32 ÷ 16 OR 2 (mol)\nM2 mass of O2 = 128 (g)\nOR answer to M1 x 2 x 32\nOR\nM1 16 g (of methane) require 64 g (of oxygen)\nM2 32 g require 128 (g) correct answer\nscores 2",
+     "solution_md": " calculate moles of methane\n calculate mass of oxygen\nExample calculation\nM1 n[CH4] = 32 ÷ 16 OR 2 (mol)\nM2 mass of O2 = 128 (g)\nOR answer to M1 x 2 x 32\nOR\nM1 16 g (of methane) require 64 g (of oxygen)\nM2 32 g require 128 (g) correct answer\nscores 2",
      "mark_points": [
       {
        "id": "2019-06-11-a-MP1",
        "marks": 2,
-       "text_md": "• calculate moles of methane\n• calculate mass of oxygen\nExample calculation\nM1 n[CH4] = 32 ÷ 16 OR 2 (mol)\nM2 mass of O2 = 128 (g)\nOR answer to M1 x 2 x 32\nOR\nM1 16 g (of methane) require 64 g (of oxygen)\nM2 32 g require 128 (g) correct answer\nscores 2"
+       "text_md": " calculate moles of methane\n calculate mass of oxygen\nExample calculation\nM1 n[CH4] = 32 ÷ 16 OR 2 (mol)\nM2 mass of O2 = 128 (g)\nOR answer to M1 x 2 x 32\nOR\nM1 16 g (of methane) require 64 g (of oxygen)\nM2 32 g require 128 (g) correct answer\nscores 2"
       }
      ],
      "source_page": 16,
@@ -1435,7 +1412,7 @@
      "problem_md": "Show that the heat energy change, Q, is about 2400 J. [mass of 1.00 cm3 of solution = 1.00 g] [for the solution, c = 4.18 J/g/ °C ] Q = J",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "• calculation of temperature change\n• substitution into Q = mcΔT\n• evaluation\nExample calculation\nM1 14.2 – 20.0 = (-)5.8\nM2 Q = 100 × 4.18 × (‒)5.8\n100 x 4.18 x (20 – 14.2)\nscores M1 and M2\nM3 = (‒) 2420 (J)\nACCEPT any number of sig\nfigs greater than 2\nCalculator answer is 2424.4\nNegative sign not required\nIf answer in kJ unit must be\ngiven.\nUse of 108 can score M1\nand M3 (= 2618)\n2400 alone scores 0\nALLOW use of 4.2 for all 3\nmarks (= 2436)",
+     "solution_md": " calculation of temperature change\n substitution into Q = mcΔT\n evaluation\nExample calculation\nM1 14.2 – 20.0 = (-)5.8\nM2 Q = 100 × 4.18 × (‒)5.8\n100 x 4.18 x (20 – 14.2)\nscores M1 and M2\nM3 = (‒) 2420 (J)\nACCEPT any number of sig\nfigs greater than 2\nCalculator answer is 2424.4\nNegative sign not required\nIf answer in kJ unit must be\ngiven.\nUse of 108 can score M1\nand M3 (= 2618)\n2400 alone scores 0\nALLOW use of 4.2 for all 3\nmarks (= 2436)",
      "mark_points": [
       {
        "id": "2019-06-12-b-MP1",
@@ -1467,7 +1444,7 @@
      "problem_md": "Use your answer to part (b) to calculate the enthalpy change, ∆H, in kilojoules per mole of ammonium nitrate. [Mr of ammonium nitrate = 80.0] Include a sign in your answer. ∆H = kJ/mol",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "• calculation of moles (n) of\nammonium nitrate\n• division of Q by n\n• conversion of J to kJ\n• answer given with + sign\nExample calculation\nM1 n[NH4NO3] = 8.00 ÷ 80 OR 0.1(00)\n(mol)\nM2 Q OR 2420 OR answer to b ACCEPT any number of sig\nn 0.1(00) answer to M1 figs in the numerator\nexcept 1\nM3 ΔH = (+) 24.2 (kJ/mol) ACCEPT any number of sig\nfigs except 1\nM4 positive sign included ALLOW ecf from M2\ncorrect answer with no\nworking and no sign or\nincorrect sign scores 3\ncorrect answer with no\nworking and correct sign\nscores 4",
+     "solution_md": " calculation of moles (n) of\nammonium nitrate\n division of Q by n\n conversion of J to kJ\n answer given with + sign\nExample calculation\nM1 n[NH4NO3] = 8.00 ÷ 80 OR 0.1(00)\n(mol)\nM2 Q OR 2420 OR answer to b ACCEPT any number of sig\nn 0.1(00) answer to M1 figs in the numerator\nexcept 1\nM3 ΔH = (+) 24.2 (kJ/mol) ACCEPT any number of sig\nfigs except 1\nM4 positive sign included ALLOW ecf from M2\ncorrect answer with no\nworking and no sign or\nincorrect sign scores 3\ncorrect answer with no\nworking and correct sign\nscores 4",
      "mark_points": [
       {
        "id": "2019-06-12-c-MP1",
@@ -1876,12 +1853,12 @@
      "problem_md": "In an experiment, a student completely reacts 9.54 g copper(II) oxide. Show that the maximum possible mass of CuSO4.5H2O crystals that can be obtained is about 30 g. [Mr of CuO = 79.5 Mr of CuSO4.5H2O = 249.5] Give your answer to an appropriate number of significant figures. mass = g",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "• calculate the moles of CuO\n• calculate the mass of CuSO4.5H2O\n• give the answer to an appropriate number of\nsignificant figures\nExample calculation\nM1 n[CuO] = 9.54 ÷ 79.5 OR 0.120 (mol)\nM2 mass of CuSO4.5H2O = 0.120 × 249.5 OR 29.94\n(g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\nOR\nM1 79.5 (g) → 249.5 (g)\nM2 9.94 (g) → (249.5 ÷ 79.5) × 9.54 (g) OR 29.94 (g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\n29.94 with no\nworking scores 2\n29.9 with no\nworking scores 3",
+     "solution_md": " calculate the moles of CuO\n calculate the mass of CuSO4.5H2O\n give the answer to an appropriate number of\nsignificant figures\nExample calculation\nM1 n[CuO] = 9.54 ÷ 79.5 OR 0.120 (mol)\nM2 mass of CuSO4.5H2O = 0.120 × 249.5 OR 29.94\n(g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\nOR\nM1 79.5 (g)  249.5 (g)\nM2 9.94 (g)  (249.5 ÷ 79.5) × 9.54 (g) OR 29.94 (g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\n29.94 with no\nworking scores 2\n29.9 with no\nworking scores 3",
      "mark_points": [
       {
        "id": "2019-06-14-f-i-MP1",
        "marks": 3,
-       "text_md": "• calculate the moles of CuO\n• calculate the mass of CuSO4.5H2O\n• give the answer to an appropriate number of\nsignificant figures\nExample calculation\nM1 n[CuO] = 9.54 ÷ 79.5 OR 0.120 (mol)\nM2 mass of CuSO4.5H2O = 0.120 × 249.5 OR 29.94\n(g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\nOR\nM1 79.5 (g) → 249.5 (g)\nM2 9.94 (g) → (249.5 ÷ 79.5) × 9.54 (g) OR 29.94 (g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\n29.94 with no\nworking scores 2\n29.9 with no\nworking scores 3"
+       "text_md": " calculate the moles of CuO\n calculate the mass of CuSO4.5H2O\n give the answer to an appropriate number of\nsignificant figures\nExample calculation\nM1 n[CuO] = 9.54 ÷ 79.5 OR 0.120 (mol)\nM2 mass of CuSO4.5H2O = 0.120 × 249.5 OR 29.94\n(g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\nOR\nM1 79.5 (g)  249.5 (g)\nM2 9.94 (g)  (249.5 ÷ 79.5) × 9.54 (g) OR 29.94 (g)\nM3 = 29.9 Final answer must\nbe to 3 sig figs\n29.94 with no\nworking scores 2\n29.9 with no\nworking scores 3"
       }
      ],
      "source_page": 25,
@@ -2020,12 +1997,12 @@
      "problem_md": "Calculate the value of x. [Mr of (NH4)2SO4.Fe2(SO4)3 = 532 and Mr of H2O = 18] Give your answer to the nearest whole number. value of x =",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "•calculate moles of (NH4)2SO4.Fe2(SO4)3\n•calculate moles of H2O\n•divide moles of water by moles of\n(NH4)2SO4.Fe2(SO4)3\n• give the value of x to the nearest whole number\nExample calculation\nM1 n[(NH4)2SO4.Fe2(SO4)3] = 6.65 ÷ 532 OR 0.0125\n(mol)\nM2 n[H2O] = 5.4(0) ÷ 18 OR 0.3(00) (mol)\nM3 x = 0.3(00) ÷ 0.0125\nM4 x = 24\nOR\nM2 ÷ M1 evaluated correctly and quoted to the correct answer\nnearest whole number without working\nscores 4\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "calculate moles of (NH4)2SO4.Fe2(SO4)3\ncalculate moles of H2O\ndivide moles of water by moles of\n(NH4)2SO4.Fe2(SO4)3\n give the value of x to the nearest whole number\nExample calculation\nM1 n[(NH4)2SO4.Fe2(SO4)3] = 6.65 ÷ 532 OR 0.0125\n(mol)\nM2 n[H2O] = 5.4(0) ÷ 18 OR 0.3(00) (mol)\nM3 x = 0.3(00) ÷ 0.0125\nM4 x = 24\nOR\nM2 ÷ M1 evaluated correctly and quoted to the correct answer\nnearest whole number without working\nscores 4\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
      "mark_points": [
       {
        "id": "2019-06-15-b-iii-MP1",
        "marks": 4,
-       "text_md": "•calculate moles of (NH4)2SO4.Fe2(SO4)3\n•calculate moles of H2O\n•divide moles of water by moles of\n(NH4)2SO4.Fe2(SO4)3\n• give the value of x to the nearest whole number\nExample calculation\nM1 n[(NH4)2SO4.Fe2(SO4)3] = 6.65 ÷ 532 OR 0.0125\n(mol)\nM2 n[H2O] = 5.4(0) ÷ 18 OR 0.3(00) (mol)\nM3 x = 0.3(00) ÷ 0.0125\nM4 x = 24\nOR\nM2 ÷ M1 evaluated correctly and quoted to the correct answer\nnearest whole number without working\nscores 4\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "calculate moles of (NH4)2SO4.Fe2(SO4)3\ncalculate moles of H2O\ndivide moles of water by moles of\n(NH4)2SO4.Fe2(SO4)3\n give the value of x to the nearest whole number\nExample calculation\nM1 n[(NH4)2SO4.Fe2(SO4)3] = 6.65 ÷ 532 OR 0.0125\n(mol)\nM2 n[H2O] = 5.4(0) ÷ 18 OR 0.3(00) (mol)\nM3 x = 0.3(00) ÷ 0.0125\nM4 x = 24\nOR\nM2 ÷ M1 evaluated correctly and quoted to the correct answer\nnearest whole number without working\nscores 4\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
       }
      ],
      "source_page": 27,

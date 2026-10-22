@@ -240,10 +240,10 @@ Complete the equation for this cracking reaction. C12H26 → C9H20 +
 
 **Mark scheme answer**
 
-> C12H26 → C9H20 + C3H6
+> C12H26  C9H20 + C3H6
 > Question number Answer Notes Marks
 
-- **(1)** C12H26 → C9H20 + C3H6
+- **(1)** C12H26  C9H20 + C3H6
 
 
 ## Question 4 (9 marks)
@@ -455,12 +455,12 @@ The word equation for the fermentation process is glucose → ethanol + carbon d
 
 **Mark scheme answer**
 
-> C6H12O6 → 2C2H5OH + 2CO2 ALLOW 2C2H6O for
+> C6H12O6  2C2H5OH + 2CO2 ALLOW 2C2H6O for
 > ethanol
 > ALLOW multiples and
 > fractions
 
-- **(1)** C6H12O6 → 2C2H5OH + 2CO2 ALLOW 2C2H6O for
+- **(1)** C6H12O6  2C2H5OH + 2CO2 ALLOW 2C2H6O for
 
 
 ## Question 6 (13 marks)
@@ -524,9 +524,9 @@ Give the ionic half-equation for the formation of hydrogen at the negative elect
 
 **Mark scheme answer**
 
-> 2H+ + 2e(−) → H2
+> 2H+ + 2e(−)  H2
 
-- **(1)** 2H+ + 2e(−) → H2
+- **(1)** 2H+ + 2e(−)  H2
 
 ### 6(b)(iii) [1]
 
@@ -655,7 +655,7 @@ What is the colour of phenolphthalein in phosphoric acid?
 
 ### 7(c)(i) [1]
 
-Add ticks (✓) to table 1 to show the concordant results.
+Add ticks () to table 1 to show the concordant results.
 
 ![table — official paper figure (qp.pdf p.18) — shared with asset_7_c_table_stem](assets/asset_7_c_table_stem.png)
 

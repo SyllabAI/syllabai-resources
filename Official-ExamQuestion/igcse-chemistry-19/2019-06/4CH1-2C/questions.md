@@ -483,7 +483,7 @@ Write a chemical equation for the complete combustion of ethanol in air.
 
 **Mark scheme answer**
 
-> C2H5OH + 3 O2 → 2 CO2 + 3 H2O ACCEPT multiples
+> C2H5OH + 3 O2  2 CO2 + 3 H2O ACCEPT multiples
 > M1 all formulae correct
 > M2 correctly balanced M2 DEP M1
 > Answer Additional guidance Marks
@@ -554,7 +554,7 @@ Complete the equation for the reaction of ethanoic acid with sodium CH3COOH(aq) 
 
 ## Question 7 (8 marks)
 
-Dinitrogen tetraoxide, N2O4, is a colourless gas. Nitrogen dioxide, NO2, is a brown gas. The two gases can exist together in dynamic equilibrium according to the equation N2O4(g) ⇌ 2NO2(g)
+Dinitrogen tetraoxide, N2O4, is a colourless gas. Nitrogen dioxide, NO2, is a brown gas. The two gases can exist together in dynamic equilibrium according to the equation N2O4(g)  2NO2(g)
 
 **(b)** Some N2O4 and some NO2 are put into a sealed gas syringe and allowed to form an equilibrium mixture. equilibrium mixture piston gas syringe This equilibrium mixture is brown.
 
@@ -680,10 +680,10 @@ Write a chemical equation for the reaction between nitrogen monoxide, NO, and ca
 
 **Mark scheme answer**
 
-> 2 NO + 2 CO → N2 + 2 CO2 ACCEPT multiples and fractions
+> 2 NO + 2 CO  N2 + 2 CO2 ACCEPT multiples and fractions
 > Answer Additional guidance Marks
 
-- **(1)** 2 NO + 2 CO → N2 + 2 CO2 ACCEPT multiples and fractions
+- **(1)** 2 NO + 2 CO  N2 + 2 CO2 ACCEPT multiples and fractions
 
 
 ## Question 8 (7 marks)

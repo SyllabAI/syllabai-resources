@@ -1,7 +1,9 @@
-# Pearson Edexcel International A-Level Physics (2018), YPH11 — Student Book Intake (2026-10-21)
+# Pearson Edexcel International A-Level Physics (2018), YPH11 — Student Books (2026-10-21 intake)
 
-**Status:** SOURCE (wave-2 intake, T-MIG-141) — parse lane NOT started.
-Scaffold per `books/README.md` §5 (copy of `physics/4ph1/`).
+**Status:** SB1 **PARSED** (T-PARSE-YPH11-1, 2026-10-22: corpus v1 881 chunks,
+validator ALL CHECKS PASSED; LLM polish R1 quota-walled at 1/404, resumable).
+SB2 = SOURCE (parse lane not started). Scaffold per `books/README.md` §5
+(copy of `physics/4ph1/`).
 
 ## Books of this lane
 
@@ -16,6 +18,8 @@ Scaffold per `books/README.md` §5 (copy of `physics/4ph1/`).
 - **Bytes:** 102,092,995
 - **sha256:** `aa1aed604d627fda8a46cf67bd562234b2934abe9d26690e1bf38c27f9c015d0`
 - **Quality:** Image-only print replica (one full-page image per page, ~150 DPI; zero text layer) -> OCR route required (the proven 4CH1/4PH1 stack)
+- **Disclosed mark:** the cover carries a third-party "PDF COMPILED BY SAAD" annotation (same mark previously disclosed on the SB2 archive copy); content pages are unmarked
+- **Parse of record (T-PARSE-YPH11-1, 2026-10-22):** Docling 2.33.0 + rapidocr-onnxruntime 1.4.4 OCR route, 225/225 pages checkpointed; page law `book = pdf - 11` confirmed 5 ways (roman front matter = pdf-1; TOC cross-checks x3 incl. 1 MOMENTUM b48=PDF59; INDEX header prints "211" on PDF 222; book page 1 does not exist in the PDF — print blank omitted); 4 topics / 11 chapters (1A-4B), per-chapter 2-page EXAM PRACTICE banks as chapter_questions anchors (11/11); corpus v1 = **881 chunks** (`yph1_v1_`), validator ALL CHECKS PASSED; docling 2.33 formula-region bug blanked 267/272 formula items — all recovered by verbatim manual transcription from rendered pages (evidence `pipeline/evidence/manual_formulas.jsonl`); LLM polish R1 partial (1/404 — account-level 429 wall, runner resumable)
 - **Provenance:** https://www.taleem360.com/edexcel-international-a-level-physics-student-book-1-in-pdf-syq (direct download link f=34f2fa1f, 97.36 MiB listing)
 
 ### Pearson Edexcel International A2 Level Physics Student Book 2

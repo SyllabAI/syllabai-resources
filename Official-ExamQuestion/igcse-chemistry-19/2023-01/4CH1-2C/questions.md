@@ -7,7 +7,7 @@
 
 ### 1(a) [3]
 
-The diagram shows the electronic configuration of an atom of an element. A Complete the table by giving the missing information. Name of the part of this atom labelled A Number of the group that contains this element Number of the period that contains this element
+The diagram shows the electronic configuration of an atom of an element. A Complete the table by giving the missing information. Name of the part of this atom labelled A Number of the group that contains this element Number of the period that contains this element 
 
 ![diagram — official paper figure (qp.pdf p.4)](assets/asset_1_a_diagram.png)
 
@@ -108,7 +108,7 @@ Which substance could be diamond? A B C D
 
 ### 2(a)(iii) [1]
 
-Which substance is a gas at 600 °C? A B C D
+Which substance is a gas at 600 °C? A B C D 
 
 
 **Mark scheme answer**
@@ -177,7 +177,7 @@ Which pair of solutions produces an insoluble salt when mixed?
 
 ### 3(b) [3]
 
-When solutions of lead nitrate and sodium sulfate are mixed, one product is solid lead sulfate. This is the equation for the reaction. Pb(NO3)2(aq) + Na2SO4(aq) → PbSO4(s) + 2NaNO3(aq) Describe how a pure, dry sample of solid lead sulfate can be obtained from the mixture.
+When solutions of lead nitrate and sodium sulfate are mixed, one product is solid lead sulfate. This is the equation for the reaction. Pb(NO3)2(aq) + Na2SO4(aq) → PbSO4(s) + 2NaNO3(aq) Describe how a pure, dry sample of solid lead sulfate can be obtained from the mixture. 
 
 
 **Mark scheme answer**
@@ -213,7 +213,7 @@ Plot the points on the grid.
 
 ### 3(c)(ii) [1]
 
-Draw a curve of best fit. 160 140 120 100 Solubility in g per 100 g of water 0 20 40 60 80 100 Temperature in °C
+Draw a curve of best fit. 160 140 120 100 Solubility in g per 100 g of water 0 20 40 60 80 100 Temperature in °C 
 
 
 **Mark scheme answer**
@@ -257,7 +257,7 @@ Fractional distillation is used to separate crude oil into fractions. The diagra
 
 ### 4(a)(i) [4]
 
-Describe how crude oil is separated into fractions in the fractionating column.
+Describe how crude oil is separated into fractions in the fractionating column. 
 
 
 **Mark scheme answer**
@@ -325,7 +325,7 @@ Describe what is meant by cracking.
 
 ### 4(b)(ii) [3]
 
-Ethene is obtained by cracking. This is the displayed formula of ethene. H H C C H H Explain why ethene is described as an unsaturated hydrocarbon.
+Ethene is obtained by cracking. This is the displayed formula of ethene. H H C C H H Explain why ethene is described as an unsaturated hydrocarbon. 
 
 
 **Mark scheme answer**
@@ -403,7 +403,7 @@ Explain why molten sodium chloride conducts electricity.
 
 ### 5(b)(ii) [2]
 
-Explain how sodium metal forms at the negative electrode.
+Explain how sodium metal forms at the negative electrode. 
 
 
 **Mark scheme answer**
@@ -411,7 +411,7 @@ Explain how sodium metal forms at the negative electrode.
 > M1 positive sodium ions / cations / Na+ (ions) are ALLOW move
 > attracted (to the negative electrode) REJECT atoms / metal
 > M2 where they gain electrons OR where they are ALLOW balanced ionic
-> reduced equation (Na+ + e → Na)
+> reduced equation (Na+ + e  Na)
 
 - **(1)** positive sodium ions / cations / Na+ (ions) are ALLOW move
 - **(1)** where they gain electrons OR where they are ALLOW balanced ionic
@@ -429,7 +429,7 @@ Write an ionic half-equation for the formation of chlorine gas at the positive e
 
 ### 5(b)(iv) [1]
 
-Give a reason why sodium metal does not form in the electrolysis of an aqueous solution of sodium chloride.
+Give a reason why sodium metal does not form in the electrolysis of an aqueous solution of sodium chloride. 
 
 
 **Mark scheme answer**
@@ -472,7 +472,7 @@ Copper can be produced by reacting an oxide of copper with methane. The diagram 
 
 ## Question 6 (13 marks)
 
-When ethanoic acid reacts with ethanol in the presence of concentrated sulfuric acid, one of the products is ester A. This is the equation for the reaction. H O H H H C C + H O C C H ⇌ ester A + O H O H H H H H ethanoic acid ethanol water
+When ethanoic acid reacts with ethanol in the presence of concentrated sulfuric acid, one of the products is ester A. This is the equation for the reaction. H O H H H C C + H O C C H  ester A + O H O H H H H H ethanoic acid ethanol water
 
 **(c)** During the reaction, the number of moles of ethanoic acid in the reaction mixture decreases, but the number of moles of concentrated sulfuric acid does not change.
 
@@ -516,7 +516,7 @@ Name ester A.
 
 ### 6(b) [2]
 
-The reaction mixture is kept in a sealed container until dynamic equilibrium is reached. State what is meant by the term dynamic equilibrium.
+The reaction mixture is kept in a sealed container until dynamic equilibrium is reached. State what is meant by the term dynamic equilibrium. 
 
 
 **Mark scheme answer**
@@ -579,7 +579,7 @@ This question is about hydrazine, N2H4
 
 ### 7(a) [2]
 
-This is the displayed formula for a molecule of hydrazine. H H N N H H Complete the dot‑and‑cross diagram for hydrazine. H H N N H H
+This is the displayed formula for a molecule of hydrazine. H H N N H H Complete the dot‑and‑cross diagram for hydrazine. H H N N H H 
 
 ![diagram — official paper figure (qp.pdf p.23)](assets/asset_7_a_diagram.png)
 
@@ -597,7 +597,7 @@ This is the displayed formula for a molecule of hydrazine. H H N N H H Complete 
 
 ### 7(b)(i) [2]
 
-Use the data in the table to calculate the total energy needed to break all the bonds in the reactants. energy needed = kJ
+Use the data in the table to calculate the total energy needed to break all the bonds in the reactants. energy needed = kJ 
 
 ![table — official paper figure (qp.pdf p.24) — shared with asset_7_b_table_stem](assets/asset_7_b_table_stem.png)
 
@@ -646,7 +646,7 @@ Calculate the enthalpy change, ΔH, in kJ/mol, for the reaction. ΔH = kJ/mol
 
 ### 7(b)(iv) [2]
 
-Explain, in terms of bonds broken and bonds made, why this reaction is exothermic.
+Explain, in terms of bonds broken and bonds made, why this reaction is exothermic. 
 
 
 **Mark scheme answer**

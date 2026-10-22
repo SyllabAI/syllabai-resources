@@ -163,7 +163,7 @@ Give one use of kerosene.
 
 ### 3(b)(ii) [3]
 
-Describe how kerosene can be obtained from crude oil.
+Describe how kerosene can be obtained from crude oil. 
 
 
 **Mark scheme answer**
@@ -195,11 +195,11 @@ Give the name of the catalyst and the temperature used for catalytic cracking. c
 > /aluminium oxide
 > /Al2O3 /zeolites
 > /aluminosilicates
-> M2 any value or range between 600 and 700 (°C )
+> M2 any value or range between 600 and 700 (C )
 > inclusive
 
 - **(1)** silica/alumina ALLOW silicon
-- **(1)** any value or range between 600 and 700 (°C )
+- **(1)** any value or range between 600 and 700 (C )
 
 ### 3(c)(ii) [3]
 
@@ -248,7 +248,7 @@ Plot the data for potassium nitrate and for sodium nitrate on the grid.
 
 ### 4(a)(ii) [2]
 
-Draw and label a curve of best fit for KNO3 and for NaNO3 Mass of solute in g 10 20 30 40 50 60 70 80 Temperature in °C
+Draw and label a curve of best fit for KNO3 and for NaNO3 Mass of solute in g 10 20 30 40 50 60 70 80 Temperature in °C 
 
 
 **Mark scheme answer**
@@ -275,7 +275,7 @@ The graph shows the temperature at which the maximum mass dissolved is the same 
 **Mark scheme answer**
 
 > temperature where their lines cross (expected
-> value approximately 68 °C)
+> value approximately 68 C)
 
 - **(1)** temperature where their lines cross (expected
 
@@ -288,12 +288,12 @@ Use your graph to calculate the solubility, in g per 100 g of water, of sodium n
 
 **Mark scheme answer**
 
-> M1 mass at 30 °C read from graph (expected value
+> M1 mass at 30 C read from graph (expected value
 > approximately 24 g)
 > M2 4 x answer to M1 (expected value approximately
 > 96 g)
 
-- **(1)** mass at 30 °C read from graph (expected value
+- **(1)** mass at 30 C read from graph (expected value
 - **(1)** 4 x answer to M1 (expected value approximately
 
 ### 4(d) [3]
@@ -305,15 +305,15 @@ Use your graph to calculate the solubility, in g per 100 g of water, of sodium n
 
 **Mark scheme answer**
 
-> M1 mass at 50 °C read from graph (expected value Need to show
+> M1 mass at 50 C read from graph (expected value Need to show
 > approximately 21 g) working on the graph
 > for M1 and M2 to
-> M2 mass at 20 °C read from graph (expected value score but allow M3
+> M2 mass at 20 C read from graph (expected value score but allow M3
 > approximately 8 g) for M1 – M2
 > M3 M1 − M2 (expected value approximately 13 g)
 
-- **(1)** mass at 50 °C read from graph (expected value Need to show
-- **(1)** mass at 20 °C read from graph (expected value score but allow M3
+- **(1)** mass at 50 C read from graph (expected value Need to show
+- **(1)** mass at 20 C read from graph (expected value score but allow M3
 - **(1)** M1 − M2 (expected value approximately 13 g)
 
 
@@ -371,7 +371,7 @@ Give the colour change that occurs during the reaction. from to
 
 ### 5(b)(iii) [2]
 
-Draw the displayed formula for methanol and for methanoic acid in the boxes. methanol methanoic acid
+Draw the displayed formula for methanol and for methanoic acid in the boxes. methanol methanoic acid 
 
 ![boxes — official paper figure (qp.pdf p.10)](assets/asset_5_b_iii_boxes.png)
 
@@ -496,7 +496,7 @@ Show that the amount of sodium bromide used is 0.050 mol.
 
 ### 6(b)(ii) [2]
 
-Show that the maximum theoretical mass of lead(II) bromide is approximately 9 g. [for PbBr2 Mr = 367]
+Show that the maximum theoretical mass of lead(II) bromide is approximately 9 g. [for PbBr2 Mr = 367] 
 
 
 **Mark scheme answer**
@@ -537,7 +537,7 @@ Explain why lead(II) bromide needs to be molten rather than solid for electrolys
 
 ### 6(c)(ii) [2]
 
-The electrolyte is at a temperature of 400 °C. Explain a suitable material for the electrodes.
+The electrolyte is at a temperature of 400 °C. Explain a suitable material for the electrodes. 
 
 
 **Mark scheme answer**
@@ -623,7 +623,7 @@ State, in terms of electrostatic attraction, what is meant by a covalent bond.
 
 ### 7(b) [4]
 
-When hydrogen chloride gas is dissolved in an organic solvent, the hydrogen chloride remains a covalent molecule. When hydrogen chloride gas is dissolved in water, ions are formed. Explain what happens when dry blue litmus paper is dipped into separate samples of each solution.
+When hydrogen chloride gas is dissolved in an organic solvent, the hydrogen chloride remains a covalent molecule. When hydrogen chloride gas is dissolved in water, ions are formed. Explain what happens when dry blue litmus paper is dipped into separate samples of each solution. 
 
 
 **Mark scheme answer**
@@ -679,7 +679,7 @@ Draw a reaction profile for the reaction. Label the reactants, the products, ΔH
 > pointing down
 > M2 correct labelling of (reactants) H2 + Cl2 and
 > (products) 2HCl
-> M3 vertical line in correct position labelled ΔH ACCEPT arrow
+> M3 vertical line in correct position labelled H ACCEPT arrow
 > pointing down or
 > double headed arrow
 > REJECT arrow
@@ -694,6 +694,6 @@ Draw a reaction profile for the reaction. Label the reactants, the products, ΔH
 
 - **(1)** show correct positions of horizontal lines and ALLOW ecf if
 - **(1)** correct labelling of (reactants) H2 + Cl2 and
-- **(1)** vertical line in correct position labelled ΔH ACCEPT arrow
+- **(1)** vertical line in correct position labelled H ACCEPT arrow
 - **(1)** vertical line in correct position labelled Ea or ACCEPT arrow
 

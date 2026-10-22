@@ -206,7 +206,7 @@ Complete the chemical equation for the reaction. 2H2S( ) + SO2( ) → S(s) + H2O
 
 **Mark scheme answer**
 
-> 2H2S (g) + SO2 (g) → 3 S (s) + 2 H2O (l)
+> 2H2S (g) + SO2 (g)  3 S (s) + 2 H2O (l)
 > M1 all state symbols correct ALLOW upper case
 > M2 balancing correct
 > ALLOW
@@ -324,9 +324,9 @@ Give a chemical equation for the reaction between potassium oxide and water.
 
 **Mark scheme answer**
 
-> K2O + H2O → 2KOH ALLOW multiples
+> K2O + H2O  2KOH ALLOW multiples
 
-- **(1)** K2O + H2O → 2KOH ALLOW multiples
+- **(1)** K2O + H2O  2KOH ALLOW multiples
 
 ### 4(d) [2]
 
@@ -358,16 +358,16 @@ The diagram shows the apparatus a teacher uses to demonstrate the electrolysis o
 > way round or unclear
 > which is which allow 1
 > mark from M1 and M2
-> M3 2Cl - → Cl2 + 2e (-) 2H2O → O2 + 4H+ + 4e(-)
+> M3 2Cl -  Cl2 + 2e (-) 2H2O → O2 + 4H+ + 4e(-)
 > or
 > 4OH-→O2 + 2H2O + 4e(-)
-> M4 2H+ + 2e (-) → H2
+> M4 2H+ + 2e (-)  H2
 > Total marks for Question 4 = 13
 
 - **(1)** X is chlorine / Cl2 ALLOW oxygen / O2
 - **(1)** Y is hydrogen / H2 If both given but wrong
-- **(1)** 2Cl - → Cl2 + 2e (-) 2H2O → O2 + 4H+ + 4e(-)
-- **(1)** 2H+ + 2e (-) → H2
+- **(1)** 2Cl -  Cl2 + 2e (-) 2H2O → O2 + 4H+ + 4e(-)
+- **(1)** 2H+ + 2e (-)  H2
 
 
 ## Question 5 (12 marks)
@@ -623,7 +623,7 @@ Give one advantage of biopolyesters.
 
 ## Question 7 (10 marks)
 
-Hydrogen gas and iodine gas react together to form hydrogen iodide gas. H2(g) + I2(g) ⇌ 2HI(g)
+Hydrogen gas and iodine gas react together to form hydrogen iodide gas. H2(g) + I2(g)  2HI(g)
 
 ### 7(a)(i) [2]
 

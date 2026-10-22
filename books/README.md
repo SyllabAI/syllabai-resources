@@ -54,6 +54,7 @@ books/
 | Edexcel IGCSE Chemistry (4CH1), 383 pp | `chem_v3_…` | v1 640 / v3 **1234** chunks | Final; external audit green (2026-10-18); LLM-polished |
 | Edexcel IGCSE Physics (4PH1), 308 pp | `phys_v1_…` | v1 **736** chunks | Final; polish rounds 1–2 (299/300); validation green (2026-10-20) |
 | Edexcel IGCSE Biology (4BI1), 357 pp | `bio_v1_…` | v1 **871** chunks | Parsed 2026-10-21 (T-PARSE-4BI1-1): **first text-layer lane** (PyMuPDF, no OCR); validation green; polish round 1 (see parsed report) |
+| Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
 
 ## 2. Read order (do not skip)
 
@@ -505,6 +506,35 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   Action: after ~2h of continuous 429s, drop to 1-probe-per-minute
   foreground loops instead of longer waits; never treat an "error" record
   as done.
+- **L-018** (2026-10-22, T-PARSE-YPH11-1, Super Z): workspace reinstall ORDER
+  matters — install CPU-index torch/torchvision FIRST
+  (`--index-url https://download.pytorch.org/whl/cpu`, force-reinstall
+  torchvision), THEN docling. PyPI torchvision is CUDA-linked and breaks
+  docling-ibm-models' layout import (RTDetrImageProcessor failure via
+  `torchvision::nms does not exist`). Evidence: yph11 pipeline worklog
+  phase 0. Action: use this exact order in the PM-5 reinstall routine.
+- **L-019** (2026-10-22, T-PARSE-YPH11-1, Super Z): PyPI package identity is
+  NOT stable across time — `pip install docling==2.133.0` now serves a SLIM
+  REBUILD (meta package + docling-slim, no DocumentConverter, broken CLI
+  entry point), not the chemistry-era formula-decoding 2.133.0. `2.33.0`
+  still serves the old architecture. Version pins in this playbook are
+  historical, not re-installable guarantees. Evidence: yph11
+  METHOD_AND_FINDINGS D-3. Action: after any workspace reset, re-verify the
+  docling import surface (`docling.document_converter`) BEFORE trusting the
+  pin; record the actual import-tested versions in the parse report.
+- **L-020** (2026-10-22, T-PARSE-YPH11-1, Super Z): docling 2.33's blank
+  formula-region bug is not benign when display equations do NOT survive as
+  plain text (4PH1 was lucky; YPH11 lost 267/272 formula items across 76
+  pages). Direct VLM crop decoding (CodeFormulaV2 via transformers) is NOT
+  a safe remedy: ~40 s/crop on 2 CPU cores AND hallucinated plausible-
+  looking physics on clean crops, which math-symbol guards cannot catch.
+  Remedy of record: verbatim MANUAL transcription from rendered pages with
+  bbox+context-aligned sidecar patching (`manual_formula_ws_yph11.py`
+  pattern) — zero hallucination, audit-able, and fast enough at agent
+  reading speed. Evidence: yph11 METHOD D-7 + `manual_formulas.jsonl`.
+  Action: at phase 2, count EMPTY formula regions; if a scan loses display
+  equations, budget the manual-transcription pass BEFORE chunking, and
+  never trust an auto-decoder without a per-crop visual verification.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -586,6 +616,30 @@ E-ID they correct)*
   L-016, L-017. Errata filed: none (merge script guard-string
   0.97→0.94 staleness corrected in-place as part of this task).
 
+- **R-004** (2026-10-22, T-PARSE-YPH11-1, YPH11 SB1): pages parsed 225/225
+  (PDF pages; book pages 2-214 + roman front matter i-xi); chunks **881**
+  (`yph1_v1_`); content types 16; offset: `book = pdf − 11` confirmed 5 ways
+  (roman headers, TOC ×3, INDEX header digit "211"; book page 1 does not
+  exist in the PDF — print blank omitted); validation **ALL CHECKS PASSED**
+  (validate_yph11.py: unique ids + grammar, 15-key schema, 4/4 topics,
+  11/11 chapters, dual numbering + offset law, question anchoring 67 chunks
+  in 11/11 EXAM PRACTICE banks, body order, char_count, size bounds 41-2237,
+  0 LaTeX remnants); formula rescue: 267/272 docling-2.33-blank formula
+  items transcribed verbatim from rendered pages (260 orphans + 7 late
+  finds; 5 parse-native; 5 adjudicated decorative/sliver) — VLM crop
+  decoding rejected (slow + hallucination, L-020); LLM polish round 1:
+  selected 404 (56 forced question + 348 scored), applied 1, rejected 0,
+  quota-pending 403 (account-level 429 wall — one brief window then
+  re-closed; runner resumable); holdouts none. Deviations from playbook:
+  (1) playbook §4.3 docling 2.133.0 formula pin NO LONGER INSTALLABLE from
+  PyPI (slim rebuild — L-019); the formula remedy of record is now manual
+  transcription (L-020), not the 2.133 splice; (2) two-book course ID law
+  `yph1_v1_`/`yph2_v1_` adopted (METHOD D-8, hub per-book law still
+  pending); (3) rapidocr pin corrected to rapidocr-onnxruntime 1.4.4 for
+  the 2.33 base stack. Lessons appended: L-018, L-019, L-020. Errata
+  filed: E-003 (4ph1 committed scripts corrupted env var — not fixed here,
+  flagged to lane owner).
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -596,6 +650,13 @@ E-ID they correct)*
 
 ## 10. Change log
 
+- **2026-10-22 — v1.4 (T-PARSE-YPH11-1):** first IAL lane executed end-to-end
+  (SB1): OCR route on the Chromium/Skia print replica; page law book = pdf−11
+  with an OMITTED print blank (book page 1); 260 display equations rescued by
+  verbatim manual transcription after the docling 2.33 blank-formula bug hit
+  at 4× the 4PH1 scale; corpus v1 881 chunks validated ALL CHECKS PASSED;
+  polish R1 partial (1/404, quota-walled, resumable); ledgers L-018…L-020 +
+  E-003 + R-004 recorded.
 - **2026-10-21 — v1.3 (T-PARSE-4BI1-1-R1):** 4BI1 polish round 1 COMPLETED
   across a >16h 429 wall that broke into intermittent windows (probe-loop
   harvest, ~28 chunks/window); final corpus 863 chunks (8 junk-only sliver

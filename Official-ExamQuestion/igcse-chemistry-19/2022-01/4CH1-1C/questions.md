@@ -34,7 +34,7 @@ Identify a method to separate gasoline from crude oil.
 
 ### 1(a)(iii) [1]
 
-Identify a method to separate water from copper(II) sulfate solution.
+Identify a method to separate water from copper(II) sulfate solution. 
 
 
 **Mark scheme answer**
@@ -156,7 +156,7 @@ Name this type of rust prevention.
 
 ### 2(b)(ii) [2]
 
-Explain how this type of rust prevention continues to protect iron when the layer of zinc is damaged.
+Explain how this type of rust prevention continues to protect iron when the layer of zinc is damaged. 
 
 
 **Mark scheme answer**
@@ -193,7 +193,7 @@ Give two other methods used to prevent iron from rusting. 1 2
 
 This question is about states of matter.
 
-**(b)** When ammonia gas and hydrogen chloride gas mix, they react together to form a white solid called ammonium chloride. The equation for the reaction is NH3(g) + HCl(g) → NH4Cl(s) A teacher soaks a piece of cotton wool in concentrated ammonia solution and another piece of cotton wool in concentrated hydrochloric acid. The teacher places the two pieces of cotton wool at opposite ends of a glass tube at the same time. After several minutes, a white ring of solid ammonium chloride forms. cotton wool soaked cotton wool soaked white ring of in concentrated in concentrated ammonium chloride ammonia solution hydrochloric acid
+**(b)** When ammonia gas and hydrogen chloride gas mix, they react together to form a white solid called ammonium chloride. The equation for the reaction is NH3(g) + HCl(g) → NH4Cl(s) A teacher soaks a piece of cotton wool in concentrated ammonia solution and another piece of cotton wool in concentrated hydrochloric acid. The teacher places the two pieces of cotton wool at opposite ends of a glass tube at the same time. After several minutes, a white ring of solid ammonium chloride forms. cotton wool soaked cotton wool soaked white ring of in concentrated in concentrated ammonium chloride ammonia solution hydrochloric acid 
 
 ### 3(a) [3]
 
@@ -310,7 +310,7 @@ State why argon is unreactive.
 
 ### 4(a)(iii) [1]
 
-Give the name of the black powder that forms when the oxygen reacts with the copper.
+Give the name of the black powder that forms when the oxygen reacts with the copper. 
 
 
 **Mark scheme answer**
@@ -334,7 +334,7 @@ State how the results show that all the oxygen has reacted.
 
 ### 4(b)(ii) [3]
 
-The volume of gas in the glass tube and connecting tubes is 175 cm3. Use this value and the results table to calculate the percentage of oxygen in the mixture of oxygen and argon. percentage of oxygen = %
+The volume of gas in the glass tube and connecting tubes is 175 cm3. Use this value and the results table to calculate the percentage of oxygen in the mixture of oxygen and argon. percentage of oxygen = % 
 
 ![table — official paper figure (qp.pdf p.11) — shared with asset_4_b_table_stem](assets/asset_4_b_table_stem.png)
 
@@ -417,7 +417,7 @@ State the meaning of the term isotopes.
 
 ### 5(b)(ii) [2]
 
-The symbol for an atom of one isotope of magnesium is 12 Mg Give the number of protons, neutrons and electrons in one atom of this isotope. number of protons number of neutrons number of electrons
+The symbol for an atom of one isotope of magnesium is 12 Mg Give the number of protons, neutrons and electrons in one atom of this isotope. number of protons number of neutrons number of electrons 
 
 
 **Mark scheme answer**
@@ -505,7 +505,7 @@ The diagram shows the electronic configuration of atoms of sodium and oxygen. So
 
 ### 6(b) [1]
 
-Calculate the relative formula mass (Mr ) of sodium oxide, Na2O, using information from the Periodic Table. Mr =
+Calculate the relative formula mass (Mr ) of sodium oxide, Na2O, using information from the Periodic Table. Mr = 
 
 
 **Mark scheme answer**
@@ -589,7 +589,7 @@ Different solutions are mixed in separate test tubes. Tube 1 copper(II) sulfate 
 
 ### 7(b)(i) [1]
 
-State the colour of the precipitate of silver chloride.
+State the colour of the precipitate of silver chloride. 
 
 
 **Mark scheme answer**
@@ -709,7 +709,7 @@ Name compound E.
 
 ### 8(a)(iv) [2]
 
-Explain why compound A and compound D are isomers.
+Explain why compound A and compound D are isomers. 
 
 
 **Mark scheme answer**
@@ -764,7 +764,7 @@ Another compound, G, has this percentage composition by mass. C = 37.8 % H = 6.3
 
 ### 8(c)(ii) [2]
 
-The relative formula mass (Mr ) of G is 127 Determine the molecular formula of G. molecular formula =
+The relative formula mass (Mr ) of G is 127 Determine the molecular formula of G. molecular formula = 
 
 
 **Mark scheme answer**
@@ -836,7 +836,7 @@ Explain why using a cotton wool plug increases the accuracy of the student’s r
 
 ### 9(b) [2]
 
-Complete the equation for the reaction by adding the state symbols. CaCO3( ) + 2HCl( ) → CaCl2(aq) + H2O( ) + CO2( )
+Complete the equation for the reaction by adding the state symbols. CaCO3( ) + 2HCl( ) → CaCl2(aq) + H2O( ) + CO2( ) 
 
 
 **Mark scheme answer**
@@ -860,7 +860,7 @@ Give a reason why there are some calcium carbonate chips remaining in the flask 
 
 ### 9(c)(ii) [1]
 
-State how the student would know when the reaction has stopped.
+State how the student would know when the reaction has stopped. 
 
 
 **Mark scheme answer**
@@ -896,7 +896,7 @@ Use the graph to determine the amount, in moles, of carbon dioxide produced duri
 
 ### 9(c)(iv) [3]
 
-Use the graph to calculate the rate of reaction, in grams per second, at time 60 seconds. Show your working on the graph. rate of reaction = g / s
+Use the graph to calculate the rate of reaction, in grams per second, at time 60 seconds. Show your working on the graph. rate of reaction = g / s 
 
 ![graph — official paper figure (qp.pdf p.24) — shared with asset_9_c_graph_stem](assets/asset_9_c_graph_stem.png)
 
@@ -980,7 +980,7 @@ Draw a dot and cross diagram to show the outer shell electrons in a molecule of 
 
 ### 10(a)(ii) [2]
 
-Describe the forces of attraction in a covalent bond.
+Describe the forces of attraction in a covalent bond. 
 
 
 **Mark scheme answer**
@@ -1068,7 +1068,7 @@ Describe a chemical test to show that the colourless liquid contains water.
 
 ### 11(a)(ii) [2]
 
-Describe a physical test to show the colourless liquid is pure water.
+Describe a physical test to show the colourless liquid is pure water. 
 
 
 **Mark scheme answer**
@@ -1110,7 +1110,7 @@ The equation for the decomposition of hydrated zinc sulfate is ZnSO4·7H2O(s) �
 
 ### 11(c)(i) [1]
 
-Calculate the volume, in cm3, of pure water collected. volume of pure water = cm3
+Calculate the volume, in cm3, of pure water collected. volume of pure water = cm3 
 
 
 **Mark scheme answer**

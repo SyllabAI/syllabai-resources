@@ -151,7 +151,7 @@ Which colour change occurs when copper(II) carbonate is heated?
 
 ### 2(b)(iii) [1]
 
-Give the chemical equation for this reaction.
+Give the chemical equation for this reaction. 
 
 
 **Mark scheme answer**
@@ -164,7 +164,7 @@ Give the chemical equation for this reaction.
 
 ### 2(c) [4]
 
-A student uses this apparatus to find the percentage of oxygen in a sample of air. gas syringe air conical flask wet iron filings The student leaves the apparatus until there is no further change in volume of gas in the syringe. These are the student’s results. volume of gas in flask and connecting tube in cm3 280 volume of gas in syringe at start in cm3 100 volume of gas in syringe at end in cm3 27 Calculate the percentage of oxygen in the sample of air. Give your answer to two significant figures. percentage of oxygen = %
+A student uses this apparatus to find the percentage of oxygen in a sample of air. gas syringe air conical flask wet iron filings The student leaves the apparatus until there is no further change in volume of gas in the syringe. These are the student’s results. volume of gas in flask and connecting tube in cm3 280 volume of gas in syringe at start in cm3 100 volume of gas in syringe at end in cm3 27 Calculate the percentage of oxygen in the sample of air. Give your answer to two significant figures. percentage of oxygen = % 
 
 ![apparatus — official paper figure (qp.pdf p.5)](assets/asset_2_c_apparatus.png)
 
@@ -250,7 +250,7 @@ Complete the equation for fermentation. C6H12O6 → +
 
 ### 3(b)(i) [3]
 
-Complete the table by giving the missing information.
+Complete the table by giving the missing information. 
 
 ![table — official paper figure (qp.pdf p.8) — shared with asset_3_b_table_stem](assets/asset_3_b_table_stem.png)
 
@@ -325,7 +325,7 @@ Explain one advantage and one disadvantage of using fermentation rather than hyd
 
 ### 3(c) [2]
 
-Explain why fermentation needs to occur in the absence of air.
+Explain why fermentation needs to occur in the absence of air. 
 
 
 **Mark scheme answer**
@@ -421,7 +421,7 @@ State why the student places the conical flask on a white tile.
 
 ### 4(d) [1]
 
-State why the student swirls the flask continuously.
+State why the student swirls the flask continuously. 
 
 
 **Mark scheme answer**
@@ -513,7 +513,7 @@ Describe how the student could test a sample of copper(II) sulfate solution to s
 
 ### 5(b) [3]
 
-Describe how copper metal forms at the negative electrode.
+Describe how copper metal forms at the negative electrode. 
 
 
 **Mark scheme answer**
@@ -620,7 +620,7 @@ State how you would know that an ester has formed.
 
 ### 6(a)(iii) [1]
 
-Give the name of this ester.
+Give the name of this ester. 
 
 
 **Mark scheme answer**
@@ -663,7 +663,7 @@ Explain why the enthalpy change in this reaction is approximately 0 kJ / mol.
 
 ## Question 7 (11 marks)
 
-Methane reacts with steam to form carbon monoxide and hydrogen. This is the equation for the reaction. CH4(g) + H2O(g) ⇌ CO(g) + 3H2(g) ∆H = +206 kJ / mol
+Methane reacts with steam to form carbon monoxide and hydrogen. This is the equation for the reaction. CH4(g) + H2O(g)  CO(g) + 3H2(g) ∆H = +206 kJ / mol
 
 **(c)** The reaction conditions for this reaction are a temperature of 700 °C and a pressure of 5 atmospheres.
 
@@ -698,7 +698,7 @@ Explain the effect, if any, on the yield of hydrogen at equilibrium when a nicke
 
 ### 7(c)(i) [2]
 
-The temperature of the reaction mixture is reduced to 600 °C, but the pressure is kept at 5 atmospheres. Explain the effect on the yield of hydrogen at equilibrium.
+The temperature of the reaction mixture is reduced to 600 °C, but the pressure is kept at 5 atmospheres. Explain the effect on the yield of hydrogen at equilibrium. 
 
 
 **Mark scheme answer**

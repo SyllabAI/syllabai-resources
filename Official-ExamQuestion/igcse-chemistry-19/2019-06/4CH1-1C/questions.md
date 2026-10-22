@@ -222,25 +222,9 @@ State why the wire should be clean when used in the flame test.
 
 ### 3(d)(ii) [2]
 
-The table lists properties of some metals. Add ticks (✓) to the table to show the two properties needed in a metal wire used in a flame test. Property good conductor of electricity high density high melting point unreactive
+The table lists properties of some metals. Add ticks () to the table to show the two properties needed in a metal wire used in a flame test. Property good conductor of electricity high density high melting point unreactive
 
 ![table — official paper figure (qp.pdf p.7)](assets/asset_3_d_ii_table.png)
-
-![MS answer image — official paper figure (qp.pdf p.6)](assets/asset_3_d_ii_ms_answer.png)
-
-
-**Mark scheme answer**
-
-> [MS answer printed as an image; transcribed below - the rendered image is at assets/asset_3_d_ii_ms_answer.png]
-> 
-> | Property | Tick |
-> | --- | --- |
-> | good conductor of electricity |  |
-> | high density |  |
-> | high melting point | ✓ |
-> | unreactive | ✓ |
-
-- **(2)** ticks on 'high melting point' and 'unreactive' (the two properties needed in a flame-test wire)
 
 
 ## Question 4 (8 marks)
@@ -378,13 +362,13 @@ Give a chemical equation for this reaction.
 
 **Mark scheme answer**
 
-> N2 + 3H2 → 2NH3 ACCEPT reversible
+> N2 + 3H2  2NH3 ACCEPT reversible
 > arrow
 > IGNORE Fe if added
 > to both sides of the
 > equation
 
-- **(1)** N2 + 3H2 → 2NH3 ACCEPT reversible
+- **(1)** N2 + 3H2  2NH3 ACCEPT reversible
 
 ### 5(c)(ii) [1]
 
@@ -572,10 +556,10 @@ The first stage is to convert ethene into 1,2-dichloroethane, C2H4Cl2 Ethene is 
 
 **Mark scheme answer**
 
-> 2 C2H4 + 4 HCl + (1) O2 → 2C2H4Cl2 + 2H2O ACCEPT multiples and
+> 2 C2H4 + 4 HCl + (1) O2  2C2H4Cl2 + 2H2O ACCEPT multiples and
 > fractions
 
-- **(1)** 2 C2H4 + 4 HCl + (1) O2 → 2C2H4Cl2 + 2H2O ACCEPT multiples and
+- **(1)** 2 C2H4 + 4 HCl + (1) O2  2C2H4Cl2 + 2H2O ACCEPT multiples and
 
 ### 8(b) [1]
 
@@ -789,7 +773,7 @@ Complete the equation for this reaction. C5H12 + Br2 → +
 
 **Mark scheme answer**
 
-> (C5H12 + Br2) → C5H11Br + HBr deduct 1 mark if cases
+> (C5H12 + Br2)  C5H11Br + HBr deduct 1 mark if cases
 > or subscripts incorrect
 > ACCEPT multiple
 > M1 correct formula of organic product substitutions of
@@ -825,8 +809,8 @@ Calculate the mass of oxygen required to react with 32 g of methane. [Mr of meth
 
 **Mark scheme answer**
 
-> • calculate moles of methane
-> • calculate mass of oxygen
+>  calculate moles of methane
+>  calculate mass of oxygen
 > Example calculation
 > M1 n[CH4] = 32 ÷ 16 OR 2 (mol)
 > M2 mass of O2 = 128 (g)
@@ -836,7 +820,7 @@ Calculate the mass of oxygen required to react with 32 g of methane. [Mr of meth
 > M2 32 g require 128 (g) correct answer
 > scores 2
 
-- **(2)** • calculate moles of methane
+- **(2)**  calculate moles of methane
 
 ### 11(b)(i) [2]
 
@@ -934,9 +918,9 @@ Show that the heat energy change, Q, is about 2400 J. [mass of 1.00 cm3 of solut
 
 **Mark scheme answer**
 
-> • calculation of temperature change
-> • substitution into Q = mcΔT
-> • evaluation
+>  calculation of temperature change
+>  substitution into Q = mcΔT
+>  evaluation
 > Example calculation
 > M1 14.2 – 20.0 = (-)5.8
 > M2 Q = 100 × 4.18 × (‒)5.8
@@ -966,11 +950,11 @@ Use your answer to part (b) to calculate the enthalpy change, ∆H, in kilojoule
 
 **Mark scheme answer**
 
-> • calculation of moles (n) of
+>  calculation of moles (n) of
 > ammonium nitrate
-> • division of Q by n
-> • conversion of J to kJ
-> • answer given with + sign
+>  division of Q by n
+>  conversion of J to kJ
+>  answer given with + sign
 > Example calculation
 > M1 n[NH4NO3] = 8.00 ÷ 80 OR 0.1(00)
 > (mol)
@@ -1268,9 +1252,9 @@ In an experiment, a student completely reacts 9.54 g copper(II) oxide. Show that
 
 **Mark scheme answer**
 
-> • calculate the moles of CuO
-> • calculate the mass of CuSO4.5H2O
-> • give the answer to an appropriate number of
+>  calculate the moles of CuO
+>  calculate the mass of CuSO4.5H2O
+>  give the answer to an appropriate number of
 > significant figures
 > Example calculation
 > M1 n[CuO] = 9.54 ÷ 79.5 OR 0.120 (mol)
@@ -1279,8 +1263,8 @@ In an experiment, a student completely reacts 9.54 g copper(II) oxide. Show that
 > M3 = 29.9 Final answer must
 > be to 3 sig figs
 > OR
-> M1 79.5 (g) → 249.5 (g)
-> M2 9.94 (g) → (249.5 ÷ 79.5) × 9.54 (g) OR 29.94 (g)
+> M1 79.5 (g)  249.5 (g)
+> M2 9.94 (g)  (249.5 ÷ 79.5) × 9.54 (g) OR 29.94 (g)
 > M3 = 29.9 Final answer must
 > be to 3 sig figs
 > 29.94 with no
@@ -1288,7 +1272,7 @@ In an experiment, a student completely reacts 9.54 g copper(II) oxide. Show that
 > 29.9 with no
 > working scores 3
 
-- **(3)** • calculate the moles of CuO
+- **(3)**  calculate the moles of CuO
 
 ### 14(f)(ii) [2]
 
@@ -1376,11 +1360,11 @@ Calculate the value of x. [Mr of (NH4)2SO4.Fe2(SO4)3 = 532 and Mr of H2O = 18] G
 
 **Mark scheme answer**
 
-> •calculate moles of (NH4)2SO4.Fe2(SO4)3
-> •calculate moles of H2O
-> •divide moles of water by moles of
+> calculate moles of (NH4)2SO4.Fe2(SO4)3
+> calculate moles of H2O
+> divide moles of water by moles of
 > (NH4)2SO4.Fe2(SO4)3
-> • give the value of x to the nearest whole number
+>  give the value of x to the nearest whole number
 > Example calculation
 > M1 n[(NH4)2SO4.Fe2(SO4)3] = 6.65 ÷ 532 OR 0.0125
 > (mol)
@@ -1394,5 +1378,5 @@ Calculate the value of x. [Mr of (NH4)2SO4.Fe2(SO4)3 = 532 and Mr of H2O = 18] G
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** •calculate moles of (NH4)2SO4.Fe2(SO4)3
+- **(4)** calculate moles of (NH4)2SO4.Fe2(SO4)3
 

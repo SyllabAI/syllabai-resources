@@ -61,9 +61,9 @@ Write a chemical equation for this reaction.
 
 **Mark scheme answer**
 
-> S + O2 → SO2
+> S + O2  SO2
 
-- **(1)** S + O2 → SO2
+- **(1)** S + O2  SO2
 
 ### 1(b)(ii) [1]
 
@@ -520,10 +520,10 @@ Write a word equation for the reaction of dilute hydrochloric acid with zinc.
 
 **Mark scheme answer**
 
-> zinc + hydrochloric acid → zinc chloride + hydrogen ACCEPT fully correct
+> zinc + hydrochloric acid  zinc chloride + hydrogen ACCEPT fully correct
 > chemical equation
 
-- **(1)** zinc + hydrochloric acid → zinc chloride + hydrogen ACCEPT fully correct
+- **(1)** zinc + hydrochloric acid  zinc chloride + hydrogen ACCEPT fully correct
 
 ### 6(b) [3]
 
@@ -748,13 +748,13 @@ The word equation for the reaction of bromine with sodium iodide is bromine + so
 
 **Mark scheme answer**
 
-> Br2 + 2NaI → 2NaBr + I2 ACCEPT correct
+> Br2 + 2NaI  2NaBr + I2 ACCEPT correct
 > ionic equation
-> Br2 + 2I- → 2Br- + I2
+> Br2 + 2I-  2Br- + I2
 > ALLOW multiples
 > and fractions
 
-- **(1)** Br2 + 2NaI → 2NaBr + I2 ACCEPT correct
+- **(1)** Br2 + 2NaI  2NaBr + I2 ACCEPT correct
 
 ### 7(c) [6]
 
@@ -1093,7 +1093,7 @@ Nitric acid (HNO3) is used in the production of fertilisers. Nitric acid is manu
 
 ### 10(a)(i) [1]
 
-Complete the chemical equation for the reaction in stage 1 NH3 + O2 ⇌ NO + H2O
+Complete the chemical equation for the reaction in stage 1 NH3 + O2  NO + H2O
 
 
 **Mark scheme answer**
@@ -1104,7 +1104,7 @@ Complete the chemical equation for the reaction in stage 1 NH3 + O2 ⇌ NO + H2O
 
 ### 10(a)(ii) [1]
 
-Give the meaning of the symbol ⇌
+Give the meaning of the symbol 
 
 
 **Mark scheme answer**
@@ -1136,9 +1136,9 @@ Give a chemical equation for the reaction of nitrogen monoxide and oxygen in sta
 
 **Mark scheme answer**
 
-> 2NO + O2 → 2NO2 ACCEPT multiples and fractions
+> 2NO + O2  2NO2 ACCEPT multiples and fractions
 
-- **(1)** 2NO + O2 → 2NO2 ACCEPT multiples and fractions
+- **(1)** 2NO + O2  2NO2 ACCEPT multiples and fractions
 
 ### 10(c)(i) [4]
 

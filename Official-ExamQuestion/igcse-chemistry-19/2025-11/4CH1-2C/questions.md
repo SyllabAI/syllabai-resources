@@ -8,7 +8,7 @@ The diagram shows some pieces of apparatus that can be used for different proces
 
 ### 1(a) [5]
 
-Complete the table by placing ticks (ü) in each column to show if a piece of apparatus can be used for a process. One tick has been done for you. Each piece of apparatus can be used for one process, more than one process, or not at all. Process Letter measures different evaporates solvent to titration volumes produce crystals P Q ü R S T U
+Complete the table by placing ticks (ü) in each column to show if a piece of apparatus can be used for a process. One tick has been done for you. Each piece of apparatus can be used for one process, more than one process, or not at all. Process Letter measures different evaporates solvent to titration volumes produce crystals P Q ü R S T U 
 
 ![table — official paper figure (qp.pdf p.4)](assets/asset_1_a_table.png)
 
@@ -21,11 +21,11 @@ Complete the table by placing ticks (ü) in each column to show if a piece of ap
 > different solvent to
 > volumes produce any ticks in row U lose 1
 > crystals mark
-> P ✓
-> Q ✓ ✓
-> R ✓
-> S ✓
-> T ✓
+> P 
+> Q  
+> R 
+> S 
+> T 
 > U
 
 - **(5)** 5
@@ -91,7 +91,7 @@ Suggest the state of astatine at 25 °C.
 
 ### 2(c) [3]
 
-A sample of bromine atoms contains 42.0% bromine‑79 and 58.0% bromine‑81. Calculate the relative atomic mass of this sample of bromine atoms. Give your answer to three significant figures. relative atomic mass =
+A sample of bromine atoms contains 42.0% bromine‑79 and 58.0% bromine‑81. Calculate the relative atomic mass of this sample of bromine atoms. Give your answer to three significant figures. relative atomic mass = 
 
 
 **Mark scheme answer**
@@ -122,7 +122,7 @@ Calculate the probability of having a molecule with an Mr of 70 probability =
 
 ### 2(d)(ii) [2]
 
-Explain why the probability of a molecule having an Mr of 72 is not 0.1875
+Explain why the probability of a molecule having an Mr of 72 is not 0.1875 
 
 
 **Mark scheme answer**
@@ -212,7 +212,7 @@ Explain how painting prevents iron from rusting.
 
 ### 3(b) [6]
 
-Steel is made from iron and carbon. Explain how the difference in malleability of pure iron and high-carbon steel affects the uses of these materials.
+Steel is made from iron and carbon. Explain how the difference in malleability of pure iron and high-carbon steel affects the uses of these materials. 
 
 
 **Mark scheme answer**
@@ -366,7 +366,7 @@ State the condition needed to prevent the formation of ethanoic acid.
 
 ### 4(b)(ii) [2]
 
-Explain why fermentation needs to happen in the range of 30 °C to 40 °C.
+Explain why fermentation needs to happen in the range of 30 °C to 40 °C. 
 
 
 **Mark scheme answer**
@@ -404,7 +404,7 @@ Draw the displayed formula of this ester.
 
 ### 4(c)(ii) [2]
 
-Deduce the name of the carboxylic acid and the name of the alcohol that react to form this ester. carboxylic acid alcohol
+Deduce the name of the carboxylic acid and the name of the alcohol that react to form this ester. carboxylic acid alcohol 
 
 
 **Mark scheme answer**
@@ -463,7 +463,7 @@ A student uses this apparatus to investigate the decomposition of hydrogen perox
 
 ### 5(a) [2]
 
-Give a chemical test for the presence of water.
+Give a chemical test for the presence of water. 
 
 
 **Mark scheme answer**
@@ -500,7 +500,7 @@ On the grid, draw the curve you would expect the student to obtain from the seco
 
 ### 5(b)(ii) [2]
 
-On the grid, draw the curve you would expect the student to obtain for the second experiment carried out at a lower temperature.
+On the grid, draw the curve you would expect the student to obtain for the second experiment carried out at a lower temperature. 
 
 ![grid — official paper figure (qp.pdf p.16) — shared with asset_5_b_grid_stem](assets/asset_5_b_grid_stem.png)
 
@@ -545,7 +545,7 @@ The equation shows one of the possible substitution reactions that occurs during
 
 ### 6(a) [3]
 
-Complete the reaction profile diagram to show the levels of the reactants, the products and the activation energy, Ea . energy
+Complete the reaction profile diagram to show the levels of the reactants, the products and the activation energy, Ea . energy 
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_a_diagram.png)
 

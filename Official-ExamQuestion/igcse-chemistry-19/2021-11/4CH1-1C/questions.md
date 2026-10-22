@@ -131,7 +131,7 @@ Which row gives the correct number of occupied electron shells and the correct n
 
 ### 2(b)(i) [2]
 
-The table gives descriptions of the reactions of some Group 7 elements with iron wool. Complete the table by giving a description of the reaction of fluorine with iron wool. Element Description of reaction with iron wool fluorine • does not need heating chlorine • reacts quickly • needs heating bromine • reacts slowly • needs heating iodine • reacts very slowly
+The table gives descriptions of the reactions of some Group 7 elements with iron wool. Complete the table by giving a description of the reaction of fluorine with iron wool. Element Description of reaction with iron wool fluorine  does not need heating chlorine  reacts quickly  needs heating bromine  reacts slowly  needs heating iodine  reacts very slowly
 
 ![table — official paper figure (qp.pdf p.7)](assets/asset_2_b_i_table.png)
 
@@ -994,7 +994,7 @@ Calculate the number of molecules of ethanol in 15.5 cm3 of ethanol. number of m
 **Mark scheme answer**
 
 > answer from (b)(i) × 6 × 1023 ALLOW any number of
-> e.g. (0.266 × 6.0 x 1023 =) 1.60 x 1023 significant figures
+> e.g. (0.266  6.0 x 1023 =) 1.60 x 1023 significant figures
 > except 1
 > ALLOW answer in
 > ordinary form
@@ -1046,11 +1046,11 @@ Calculate the heat energy change (Q) in joules. [specific heat capacity of water
 
 > M1 ΔT = 49.5°C correct answer with or
 > without working scores 3
-> M2 Q = mcΔT OR 100 × 4.2 × 49.5 ALLOW ecf from M1
+> M2 Q = mcΔT OR 100  4.2  49.5 ALLOW ecf from M1
 > M3 20 790 J ALLOW 20 800
 
 - **(1)** ΔT = 49.5°C correct answer with or
-- **(1)** Q = mcΔT OR 100 × 4.2 × 49.5 ALLOW ecf from M1
+- **(1)** Q = mcΔT OR 100  4.2  49.5 ALLOW ecf from M1
 - **(1)** 20 790 J ALLOW 20 800
 
 ### 10(d)(ii) [2]
@@ -1186,14 +1186,14 @@ A small piece of calcium is added to some dilute sulfuric acid in a beaker. One 
 > M1 (moles of aluminium =) 1÷27 OR 0.0370 moles ALLOW any number of
 > significant figures
 > except 1
-> M2 (moles of sulfuric acid required = 0.0370 × 3 =)
+> M2 (moles of sulfuric acid required = 0.0370  3 =)
 > 0.0556 moles (and there is more moles of sulfuric ALLOW 0.0555 if
 > acid) candidate has used
 > rounded value of 0.0370
 > moles
 > OR
 > M1 (moles of aluminium required =) 0.0400
-> M2 (mass of aluminium required = 27 × 0.0400 =)
+> M2 (mass of aluminium required = 27  0.0400 =)
 > 1.08 g (and there is less than 1.08 g)
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
