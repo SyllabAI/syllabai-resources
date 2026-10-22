@@ -97,12 +97,20 @@ spine:
     section_count: 13
   - key: u1:c02
     slug: elements-compounds-mixtures
-    title: Elements
-    compounds and mixtures: null
+    title: "Elements, compounds and mixtures"
     chem_only: false
     pages:
     - 14
     - 20
+    # join_set DERIVED (never authored): children of spine node
+    # igcse-chemistry-T1:SUBb in apps/hub/spines/igcse-chemistry-19.json
+    # (resourcesSha 888bca4a). Pinned at S1 (T-BOOK-034 r0, 2026-10-22).
+    # learning_objective: VERBATIM from the book's LEARNING OBJECTIVES
+    # chunks chem_v3_u1_c2_pdf023_0065 + chem_v3_u1_c2_pdf023_0066 (margin
+    # items OCR'd into the ELEMENTS chunk; bullet glyphs joined with ';';
+    # 'R,' artifact normalized to 'Rf'; no paraphrase)
+    learning_objective: "Understand how to classify a substance as an element, compound or mixture; Understand how a chromatogram provides information about the composition of a mixture; Understand that a pure substance has a fixed melting and boiling point, but that a mixture may melt or boil over a range of temperatures; Describe these experimental techniques for the separation of mixtures: simple distillation; fractional distillation; filtration; crystallisation; paper chromatography; Understand how to use the calculation of Rf values to identify the components of a mixture; Practical: Investigate paper chromatography using inks/food colourings"
+    join_set: ["1.8", "1.9", "1.10", "1.11", "1.12", "1.13"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 10
   - key: u1:c03
     slug: atomic-structure
@@ -214,8 +222,7 @@ spine:
     section_count: 10
   - key: u2:c16
     slug: acids-alkalis-titrations
-    title: Acids
-    alkalis and titrations: null
+    title: "Acids, alkalis and titrations"
     chem_only: false
     pages:
     - 167
