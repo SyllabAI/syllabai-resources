@@ -228,3 +228,19 @@ served bundle PR carries a full disclosure census.
   (licensing block in-file + dir README). Mode-2 deep-link rendering was dropped by
   operator directive 2026-10-22 before implementation (syllabai-v2#305 closed
   not_planned) — these rows land as data of record only. Base commit 1f2aab45.
+
+- **T-UGM-IMPORT-1 — UGM text corpus import, quadratics lane (this run)**: second
+  landing from the Underground Mathematics reverse-engineering track
+  (SyllabAI/syllabai-experimental @ aa13533a; ADR-UGM-0001 as amended 2026-10-23).
+  New `UGM-Resources/` corpus family: the **text bodies** of the 59 quadratics-station
+  resources as YAML-front-matter markdown (`pure-1-quadratics/`), under the operator's
+  permission attestation of 2026-10-23 (LICENSE-DATA.md Amendment 2026-10-23 — the
+  landing path the `UGM-Enrichment/` README anticipated for text of record).
+  Text-only import law: math preserved byte-true in UGM's native `\( \)` / `\[ \]`
+  delimiters (build-time audit: 6,434 = 6,434, zero files differing); UGM section
+  structure/panel titles/provider spellings preserved; 57 image + 24 interactive
+  references recorded in front-matter, NOT fetched; MANIFEST.json carries SHA-256 per
+  file + source URL + capture date. Spec-point mappings are the P3c cross-map of
+  record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — 3 honest
+  non-overlaps) with `primaryPick` cross-referenced to `UGM-Enrichment/` #55. Rights
+  © Cambridge/UCLES unchanged per file; takedown law unchanged. Base commit 3a1e99b.
