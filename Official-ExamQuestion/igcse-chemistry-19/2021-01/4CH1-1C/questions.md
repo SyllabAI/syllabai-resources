@@ -157,6 +157,8 @@ Lead nitrate and potassium iodide react to form the insoluble solid lead iodide.
 
 Name the two processes that occur before the solid lead iodide forms. 1 2
 
+![diffusion tubes at start and after several minutes — official paper figure (qp.pdf p.6)](assets/asset_3_stem_diffusion.png)
+
 
 **Mark scheme answer**
 

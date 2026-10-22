@@ -141,6 +141,8 @@ The diagram shows the separation of crude oil into fractions. A gasoline kerosen
 
 Give the name of fraction A and the name of fraction F. fraction A fraction F
 
+![fractionating column diagram — official paper figure (qp.pdf p.6)](assets/asset_3_stem_column.png)
+
 
 **Mark scheme answer**
 

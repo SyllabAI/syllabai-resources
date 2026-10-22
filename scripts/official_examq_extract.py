@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.13.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.14.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -2224,6 +2224,52 @@ def main():
                 if (a.get("kind") == "crop" and not a.get("ref_part")
                         and not a["id"].endswith("_stem") and not a.get("_owner")):
                     a["_owner"] = p["part_number"]
+
+    # ---- v0.14.0 (wave-20): question-stem figure pass -----------------------
+    # The wave-19 exporter restored all 427 question stems to the hub (F53);
+    # the FIGURES those stems introduce are this pass: STEM-RESTORE.json's
+    # keep-verdict entries may carry stemFigures [{id, page, rect, mention,
+    # target}] — the eyeballed crop tranche. Each spec emits a crop-required
+    # stub on the target part (the question's first part unless target names
+    # one), and the EXISTING F45 manual_crop branch renders it at verdict time
+    # (the box is the human decision; the render is deterministic at CROP_DPI).
+    # Fail-closed: a malformed spec (page out of range, rect not 4 finite
+    # numbers >= 0, colliding asset id) aborts the run.
+    _stem_ledger_path = RES_DIR / "Official-ExamQuestion" / "STEM-RESTORE.json"
+    _stem_entries = {}
+    if _stem_ledger_path.exists():
+        _stem_entries = json.loads(_stem_ledger_path.read_text()).get("verdicts", {})
+    n_stemfig_stubs = 0
+    for q in doc_questions:
+        _skey = f"{series}/4CH1-{paper}:Q{q['question_number']}"
+        _sentry = _stem_entries.get(_skey) or {}
+        for _sf in _sentry.get("stemFigures") or []:
+            _aid = _sf.get("id")
+            _pg = _sf.get("page")
+            _rect = _sf.get("rect")
+            if (not isinstance(_aid, str) or not _aid
+                    or not isinstance(_pg, int) or not (1 <= _pg <= len(pdf))
+                    or not isinstance(_rect, list) or len(_rect) != 4
+                    or not all(isinstance(x, (int, float)) and x >= 0 for x in _rect)):
+                raise SystemExit(
+                    f"wave-20 stemFigure malformed for {_skey}: {_sf!r}")
+            _tgt = _sf.get("target")
+            _tp = (next((pp for pp in q["parts"] if pp["part_number"] == _tgt),
+                        q["parts"][0] if q["parts"] else None))
+            if _tp is None:
+                continue
+            if any(a["id"] == _aid for pp in q["parts"] for a in (pp.get("assets") or [])):
+                raise SystemExit(
+                    f"wave-20 stemFigure id collision: {_aid} already exists in {_skey}")
+            _tp.setdefault("assets", []).append({
+                "id": _aid, "kind": "crop-required", "mention": _sf.get("mention") or "figure",
+                "source": "qp.pdf", "page": _pg, "review": True, "stem_figure": True,
+                "_src_text": [],
+            })
+            crop_stats["pending"] += 1
+            n_stemfig_stubs += 1
+    if n_stemfig_stubs:
+        report.setdefault("wave20", {})["stem_figure_stubs"] = n_stemfig_stubs
 
     # ---- v0.7 (F29) / v0.7.1 (F32): crop-review verdicts, applied LAST -----
     # The eyeball ledger overrides every confidence flag — resolution paths

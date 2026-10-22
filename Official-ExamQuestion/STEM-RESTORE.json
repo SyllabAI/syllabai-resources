@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-stem-restore/1.0",
- "doctrine": "wave-15 UX doctrine (best experience, non-verbatim sanctioned for presentation; values never invented — every rebuilt table/box/flow carries exactly the values printed in the flattened extraction)",
+ "doctrine": "wave-15 UX doctrine (best experience, non-verbatim sanctioned for presentation; values never invented). wave-20: stemFigures carry the eyeballed crop boxes for the stem-figure tranche (crop-required stub -> F45 manual_crop render); dropTail/dropSpan remove flattened figure-label soup that the crop now serves visually; stemFigureRef inlines an already-cropped figure. Anchors verbatim, fail-closed.",
  "verdicts": {
   "2019-06/4CH1-1C:Q1": {
    "verdict": "drop-tail",
@@ -58,8 +58,11 @@
   },
   "2022-01/4CH1-2CR:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "titration setup cropped on 3(a); '240 mol/dm3' concentration kept in bullets"
+   "why": "titration setup cropped on 3(a); '240 mol/dm3' concentration kept in bullets",
+   "stemFigureRef": {
+    "asset": "asset_3_a_apparatus_stem",
+    "why": "figure already cropped by the automatic pass; served with the stem via reference"
+   }
   },
   "2019-06/4CH1-2C:Q2": {
    "verdict": "drop-tail",
@@ -252,243 +255,921 @@
   },
   "2019-06/4CH1-1C:Q4": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram A B C D printed in stem is NOT cropped; labels kept as data"
+   "why": "chromatogram A B C D printed in stem is NOT cropped; labels kept as data",
+   "stemFigures": [
+    {
+     "id": "asset_4_stem_chromatogram",
+     "page": 8,
+     "rect": [
+      86.3,
+      102.3,
+      585.0,
+      314.3
+     ],
+     "mention": "chromatography apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "chromatography paper baseline drawn in ink water A B C D"
   },
   "2019-06/4CH1-1C:Q6": {
    "verdict": "keep",
-   "tranche": "table",
-   "why": "Metal/W/X/Y reaction table flattened with interleaved columns; eyeball + crop tranche"
+   "why": "Metal/W/X/Y reaction table flattened with interleaved columns; eyeball + crop tranche",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_reactivity-table",
+     "page": 11,
+     "rect": [
+      118.0,
+      168.0,
+      506.0,
+      281.0
+     ],
+     "mention": "metals reactivity table",
+     "target": null
+    }
+   ],
+   "dropTail": "Reaction with Metal Reaction with water dilute sulfuric acid W no reaction no reaction X very slow reaction reacts quickly Y no reaction reacts slowly Z reacts quickly reacts violently"
   },
   "2019-06/4CH1-1C:Q7": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "structure diagrams (diamond/graphite/silicon dioxide) not cropped; key labels kept"
+   "why": "structure diagrams (diamond/graphite/silicon dioxide) not cropped; key labels kept",
+   "stemFigures": [
+    {
+     "id": "asset_7_stem_structures",
+     "page": 12,
+     "rect": [
+      86.2,
+      111.2,
+      585.0,
+      287.7
+     ],
+     "mention": "giant covalent structures diagram",
+     "target": null
+    }
+   ],
+   "dropTail": "key silicon oxygen diamond graphite silicon dioxide"
   },
   "2019-06/4CH1-2C:Q5": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "bond-energy tables referenced by 5(a)(i) not found as crops; displayed-formulae run cropped on 5(c) only"
+   "why": "bond-energy tables referenced by 5(a)(i) not found as crops; displayed-formulae run cropped on 5(c) only",
+   "stemFigures": [
+    {
+     "id": "asset_5_stem_aircraft",
+     "page": 10,
+     "rect": [
+      58.0,
+      112.0,
+      585.0,
+      346.0
+     ],
+     "mention": "rocket aircraft apparatus",
+     "target": null
+    },
+    {
+     "id": "asset_5_stem_displayed-formulae",
+     "page": 10,
+     "rect": [
+      90.0,
+      560.0,
+      585.0,
+      690.0
+     ],
+     "mention": "displayed formulae of the reactants and products",
+     "target": "stem-formulae"
+    },
+    {
+     "id": "asset_5_stem_bond-tables",
+     "page": 11,
+     "rect": [
+      58.0,
+      54.3,
+      585.0,
+      288.9
+     ],
+     "mention": "bond energy tables",
+     "target": "5(a)(i)"
+    }
+   ],
+   "dropSpan": [
+    "combustion chamber hydrogen peroxide tank hydrazine tank",
+    "The aircraft carried"
+   ],
+   "dropTail": "The displayed formulae for the reactants and products are H H H O H H H H H H O H N N H O O H H O H H H O O N=N O"
   },
   "2020-01/4CH1-1C:Q5": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "six displayed formulae PQRSTU flattened as letter runs; not cropped — crop tranche"
+   "why": "six displayed formulae PQRSTU flattened as letter runs; not cropped — crop tranche",
+   "stemFigures": [
+    {
+     "id": "asset_5_stem_displayed-formulae",
+     "page": 10,
+     "rect": [
+      100.0,
+      84.0,
+      512.0,
+      366.0
+     ],
+     "mention": "six displayed formulae PQRSTU",
+     "target": null
+    }
+   ],
+   "dropTail": "H H H H H H H C H H C C H H C C C H H H H H H H P Q R H H H H H H C Br C C C C H H H H C H H H S T U"
   },
   "2020-01/4CH1-1CR:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "atom diagram with key (particle Y/Z) not cropped"
+   "why": "atom diagram with key (particle Y/Z) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_atom",
+     "page": 4,
+     "rect": [
+      210.9,
+      98.0,
+      494.6,
+      262.0
+     ],
+     "mention": "atom diagram with particle key",
+     "target": null
+    }
+   ],
+   "dropTail": "Key particle Y particle Z"
   },
   "2020-01/4CH1-1CR:Q6": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "calorimetry apparatus not cropped; labels kept"
+   "why": "calorimetry apparatus not cropped; labels kept",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_calorimetry",
+     "page": 16,
+     "rect": [
+      55.9,
+      110.0,
+      470.0,
+      316.0
+     ],
+     "mention": "calorimetry apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "magnesium powder thermometer 100 cm3 copper(II) sulfate solution"
   },
   "2020-11/4CH1-1CR:Q2": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "mini periodic table (H He F Na Cl K Br) not cropped; letters kept as data"
+   "why": "mini periodic table (H He F Na Cl K Br) not cropped; letters kept as data",
+   "stemFigures": [
+    {
+     "id": "asset_2_stem_periodic-table",
+     "page": 4,
+     "rect": [
+      59.1,
+      86.0,
+      536.1,
+      218.0
+     ],
+     "mention": "mini periodic table extract",
+     "target": null
+    }
+   ],
+   "dropTail": "1 2 3 4 5 6 7 0 H He F Na Cl K Br"
   },
   "2020-11/4CH1-2C:Q2": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram (solvent front, B R Y S T U V) not cropped"
+   "why": "chromatogram (solvent front, B R Y S T U V) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_2_stem_chromatogram",
+     "page": 6,
+     "rect": [
+      159.0,
+      167.0,
+      530.0,
+      516.0
+     ],
+     "mention": "chromatogram of dyes and unknowns",
+     "target": null
+    }
+   ],
+   "dropTail": "solvent front at end pencil line B R Y S T U V solvent level at start"
   },
   "2020-11/4CH1-2C:Q5": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "butadiene displayed formula flattened as letter run; not cropped"
+   "why": "butadiene displayed formula flattened as letter run; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_5_stem_butadiene",
+     "page": 14,
+     "rect": [
+      55.9,
+      115.0,
+      370.0,
+      207.0
+     ],
+     "mention": "displayed formula of butadiene",
+     "target": null
+    }
+   ],
+   "dropTail": "H H C C H H C C H H"
   },
   "2020-11/4CH1-2CR:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "four apparatus pieces A-D not cropped (1(a) crop is the answer table)"
+   "why": "four apparatus pieces A-D not cropped (1(a) crop is the answer table)",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_apparatus",
+     "page": 3,
+     "rect": [
+      73.3,
+      98.3,
+      521.6,
+      259.5
+     ],
+     "mention": "four pieces of apparatus A-D",
+     "target": null
+    }
+   ],
+   "dropTail": "A B C D"
   },
   "2021-01/4CH1-1C:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "diffusion tube diagram (start/after several minutes) not cropped"
+   "why": "diffusion tube diagram (start/after several minutes) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_diffusion",
+     "page": 6,
+     "rect": [
+      55.900001525878906,
+      162.0,
+      530.0,
+      281.0
+     ],
+     "mention": "diffusion tubes at start and after several minutes",
+     "target": null
+    }
+   ],
+   "dropTail": "crystals of crystals of potassium iodide lead nitrate lead iodide At the start After several minutes"
   },
   "2021-01/4CH1-1CR:Q2": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram (ink/dye labels 1 2 A B C) not cropped"
+   "why": "chromatogram (ink/dye labels 1 2 A B C) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_2_stem_chromatogram",
+     "page": 4,
+     "rect": [
+      55.9,
+      116.0,
+      470.0,
+      434.0
+     ],
+     "mention": "chromatogram of inks and dyes",
+     "target": null
+    }
+   ],
+   "dropTail": "solvent front pencil line ink ink dye dye dye 1 2 A B C"
   },
   "2021-01/4CH1-2C:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "ionic/electronic diagram (Y ++ +) not cropped"
+   "why": "ionic/electronic diagram (Y ++ +) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_atom",
+     "page": 4,
+     "rect": [
+      213.8,
+      102.5,
+      395.3,
+      266.6
+     ],
+     "mention": "atom diagram with Y label",
+     "target": null
+    }
+   ],
+   "dropTail": "Y ++ +"
   },
   "2021-06/4CH1-1C:Q4": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram before/after (E F G H) not cropped"
+   "why": "chromatogram before/after (E F G H) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_4_stem_chromatogram",
+     "page": 8,
+     "rect": [
+      55.900001525878906,
+      118.0,
+      520.0,
+      372.0
+     ],
+     "mention": "chromatogram before and after",
+     "target": null
+    }
+   ],
+   "dropTail": "level reached by solvent E F G H E F G H before after"
   },
   "2021-06/4CH1-2C:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "fractionating column diagram with A/F labels not cropped"
+   "why": "fractionating column diagram with A/F labels not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_column",
+     "page": 6,
+     "rect": [
+      145.0,
+      80.0,
+      455.0,
+      325.0
+     ],
+     "mention": "fractionating column diagram",
+     "target": null
+    }
+   ],
+   "dropTail": "A gasoline kerosene diesel fuel oil crude oil vapour F"
   },
   "2021-06/4CH1-2C:Q6": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "electrolysis cell diagram not cropped; labels kept"
+   "why": "electrolysis cell diagram not cropped; labels kept",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_cell",
+     "page": 14,
+     "rect": [
+      105.0,
+      94.0,
+      510.0,
+      392.0
+     ],
+     "mention": "electrolysis cell diagram",
+     "target": null
+    }
+   ],
+   "dropTail": "hydrogen chlorine concentrated solution of sodium chloride negative electrode positive electrode – + power supply"
   },
   "2021-11/4CH1-1C:Q10": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "heating/HEAT diagram labels (B A HEAT) not cropped"
+   "why": "heating/HEAT diagram labels (B A HEAT) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_10_stem_distillation",
+     "page": 30,
+     "rect": [
+      153.1999969482422,
+      75.9000015258789,
+      417.70001220703125,
+      400.0
+     ],
+     "mention": "distillation apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "B A HEAT"
   },
   "2022-01/4CH1-1C:Q8": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "six displayed structures A-F flattened as letter runs; not cropped"
+   "why": "six displayed structures A-F flattened as letter runs; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_8_stem_structures",
+     "page": 20,
+     "rect": [
+      79.1,
+      76.3,
+      516.1,
+      295.0
+     ],
+     "mention": "six displayed structures A-F",
+     "target": null
+    }
+   ],
+   "dropTail": "A B C H H H H H H H C H H H H C C H C C C H C C C C H H H H H H H CH3 H C C H H D E F H H H H H H H H H C C C C H C C C H H C H H H H H H H H"
   },
   "2022-01/4CH1-2C:Q1": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "ethene displayed formula flattened as letter run; not cropped"
+   "why": "ethene displayed formula flattened as letter run; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_ethene",
+     "page": 4,
+     "rect": [
+      240.0,
+      168.0,
+      350.0,
+      239.0
+     ],
+     "mention": "displayed formula of ethene",
+     "target": null
+    }
+   ],
+   "dropTail": "H H C C H H"
   },
   "2022-01/4CH1-2C:Q2": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "atmosphere bar chart with gas Z not cropped"
+   "why": "atmosphere bar chart with gas Z not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_2_stem_pie-chart",
+     "page": 6,
+     "rect": [
+      214.2,
+      122.0,
+      455.0,
+      290.0
+     ],
+     "mention": "pie chart of gases in air",
+     "target": null
+    }
+   ],
+   "dropTail": "trace gases gas Z"
   },
   "2022-06/4CH1-1C:Q4": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "rust-experiment tubes with cm scale not cropped; labels kept"
+   "why": "rust-experiment tubes with cm scale not cropped; labels kept",
+   "stemFigureRef": {
+    "asset": "asset_4_b_diagram_stem",
+    "why": "figure already cropped by the automatic pass; served with the stem via reference"
+   }
   },
   "2022-06/4CH1-1C:Q6": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "gas-syringe apparatus not cropped; labels kept"
+   "why": "gas-syringe apparatus not cropped; labels kept",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_syringe",
+     "page": 13,
+     "rect": [
+      55.9,
+      100.0,
+      490.0,
+      265.0
+     ],
+     "mention": "gas syringe apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "gas syringe magnesium dilute ribbon hydrochloric acid"
   },
   "2022-06/4CH1-2CR:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "electrostatics diagram (P Q R S + charges) not cropped"
+   "why": "electrostatics diagram (P Q R S + charges) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_particles",
+     "page": 3,
+     "rect": [
+      165.0,
+      145.0,
+      440.0,
+      379.0
+     ],
+     "mention": "sub-atomic particle diagram PQRS",
+     "target": null
+    }
+   ],
+   "dropTail": "Q – + ++ – – + – – + R P S"
   },
   "2023-01/4CH1-1C:Q12": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "tube A/B apparatus not cropped; labels kept as honest context"
+   "why": "tube A/B apparatus not cropped; labels kept as honest context",
+   "stemFigures": [
+    {
+     "id": "asset_12_stem_apparatus",
+     "page": 26,
+     "rect": [
+      55.9,
+      134.0,
+      490.0,
+      353.0
+     ],
+     "mention": "heating tube apparatus",
+     "target": null
+    }
+   ],
+   "dropSpan": [
+    "barium chloride tube A crystals",
+    "This is the student’s method"
+   ]
   },
   "2023-01/4CH1-2C:Q2": {
    "verdict": "keep",
-   "tranche": "table",
-   "why": "substance property table flattened with interleaved columns; eyeball tranche"
+   "why": "substance property table flattened with interleaved columns; eyeball tranche",
+   "stemFigures": [
+    {
+     "id": "asset_2_stem_properties-table",
+     "page": 6,
+     "rect": [
+      58.0,
+      82.0,
+      545.0,
+      250.0
+     ],
+     "mention": "substance properties table",
+     "target": null
+    }
+   ],
+   "dropTail": "Melting point Boiling point Conducts electricity Conducts electricity Substance in °C in °C when solid when molten A 800 1465 no yes B 327 1749 yes yes C 232 573 no no D 3550 4830 no no"
   },
   "2023-01/4CH1-2C:Q6": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "ester displayed-equation letter run; not cropped"
+   "why": "ester displayed-equation letter run; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_ester-equation",
+     "page": 20,
+     "rect": [
+      55.9,
+      112.0,
+      480.0,
+      224.0
+     ],
+     "mention": "ester equation displayed formulae",
+     "target": null
+    }
+   ],
+   "dropTail": "H O H H H C C + H O C C H ⇌ ester A + O H O H H H H H ethanoic acid ethanol water"
   },
   "2023-06/4CH1-1CR:Q7": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "pump/U-tube/burner/limewater apparatus not cropped"
+   "why": "pump/U-tube/burner/limewater apparatus not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_7_stem_apparatus",
+     "page": 18,
+     "rect": [
+      55.9,
+      95.0,
+      535.0,
+      286.0
+     ],
+     "mention": "combustion products apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "to pump U-tube burner ice and water limewater"
   },
   "2023-06/4CH1-1CR:Q8": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "diamond/graphite/C60 diagrams not cropped"
+   "why": "diamond/graphite/C60 diagrams not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_8_stem_structures",
+     "page": 20,
+     "rect": [
+      55.9,
+      103.0,
+      505.0,
+      221.0
+     ],
+     "mention": "diamond graphite C60 structures",
+     "target": null
+    }
+   ],
+   "dropTail": "diamond graphite C60 fullerene"
   },
   "2023-06/4CH1-2C:Q5": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "electrolysis apparatus (power supply, lamp, electrodes) not cropped"
+   "why": "electrolysis apparatus (power supply, lamp, electrodes) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_5_stem_electrolysis",
+     "page": 14,
+     "rect": [
+      55.9,
+      122.0,
+      500.0,
+      318.0
+     ],
+     "mention": "electrolysis apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "power supply + – lamp positive electrode negative electrode copper(II) sulfate solution"
   },
   "2023-06/4CH1-2C:Q6": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "ester displayed-equation letter run; not cropped"
+   "why": "ester displayed-equation letter run; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_ester-equation",
+     "page": 16,
+     "rect": [
+      92.8,
+      117.4,
+      500.9,
+      183.4
+     ],
+     "mention": "ester equation displayed formulae",
+     "target": null
+    }
+   ],
+   "dropTail": "H O H H O H H C C O H + H C O H → H C C O C H + H O H H H H H"
   },
   "2023-11/4CH1-1C:Q7": {
    "verdict": "keep",
    "tranche": "formulae",
-   "why": "six displayed formulae V W X Y Z flattened; not cropped"
+   "why": "six displayed formulae V W X Y Z flattened; not cropped | wave-20: tranche flag RETIRED — no displayed formulae exist in this question (QP pp.18-19 eyeballed: 7(a) is the compounds bullet list, 7(b) carries only the inline equation 2Fe + 3Cl2 -> 2FeCl3 as proper text; no V-Z letter run in any served string)."
   },
   "2024-06/4CH1-1C:Q5": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram before/after (E F G H) not cropped"
+   "why": "chromatogram before/after (E F G H) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_5_stem_chromatogram",
+     "page": 10,
+     "rect": [
+      55.9,
+      118.0,
+      500.0,
+      392.0
+     ],
+     "mention": "chromatogram before and after",
+     "target": null
+    }
+   ],
+   "dropTail": "level reached by solvent baseline E F G H E F G H before after"
   },
   "2024-06/4CH1-1CR:Q6": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "combustion apparatus (metal can, burner) not cropped"
+   "why": "combustion apparatus (metal can, burner) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_6_stem_combustion",
+     "page": 14,
+     "rect": [
+      55.9,
+      95.0,
+      400.0,
+      322.0
+     ],
+     "mention": "combustion calorimetry apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "metal can water burner liquid fuel"
   },
   "2024-06/4CH1-1CR:Q11": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "diamond/graphite structures not cropped"
+   "why": "diamond/graphite structures not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_11_stem_structures",
+     "page": 28,
+     "rect": [
+      105.3,
+      124.0,
+      530.0,
+      272.0
+     ],
+     "mention": "diamond and graphite structures",
+     "target": null
+    }
+   ],
+   "dropTail": "diamond graphite"
   },
   "2024-06/4CH1-2C:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "fractionating column with A/F labels not cropped"
+   "why": "fractionating column with A/F labels not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_column",
+     "page": 6,
+     "rect": [
+      180.0,
+      82.0,
+      420.0,
+      292.0
+     ],
+     "mention": "fractionating column diagram",
+     "target": null
+    }
+   ],
+   "dropTail": "A gasoline kerosene diesel fuel oil crude oil F"
   },
   "2025-06/4CH1-1C:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram (V W X Y Z) not cropped"
+   "why": "chromatogram (V W X Y Z) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_chromatogram",
+     "page": 6,
+     "rect": [
+      55.9,
+      118.0,
+      465.0,
+      395.0
+     ],
+     "mention": "chromatogram of five inks",
+     "target": null
+    }
+   ],
+   "dropTail": "solvent front start line V W X Y Z"
   },
   "2025-06/4CH1-1C:Q8": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "diamond/graphite structures not cropped"
+   "why": "diamond/graphite structures not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_8_stem_structures",
+     "page": 18,
+     "rect": [
+      55.9,
+      100.0,
+      422.0,
+      212.0
+     ],
+     "mention": "diamond and graphite structures",
+     "target": null
+    }
+   ],
+   "dropTail": "diamond graphite"
   },
   "2025-06/4CH1-1C:Q10": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "calorimetry apparatus not cropped; labels kept"
+   "why": "calorimetry apparatus not cropped; labels kept",
+   "stemFigures": [
+    {
+     "id": "asset_10_stem_calorimetry",
+     "page": 24,
+     "rect": [
+      165.0,
+      82.0,
+      440.0,
+      255.0
+     ],
+     "mention": "fuel calorimetry apparatus",
+     "target": null
+    }
+   ],
+   "dropTail": "thermometer copper can water spirit burner liquid fuel"
   },
   "2025-06/4CH1-1CR:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "diffusion tube diagram not cropped"
+   "why": "diffusion tube diagram not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_diffusion",
+     "page": 5,
+     "rect": [
+      60.0,
+      162.0,
+      530.0,
+      330.0
+     ],
+     "mention": "diffusion tubes at start and after several minutes",
+     "target": null
+    }
+   ],
+   "dropTail": "crystals of copper(II) sulfate crystals of sodium hydroxide At the start copper(II) hydroxide After several minutes"
   },
   "2025-11/4CH1-1C:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "state-change diagram (X Y Z) not cropped"
+   "why": "state-change diagram (X Y Z) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_states",
+     "page": 3,
+     "rect": [
+      45.6,
+      167.0,
+      538.1,
+      315.2
+     ],
+     "mention": "three states of matter diagram",
+     "target": null
+    }
+   ],
+   "dropTail": "Z X Y solid liquid gas"
   },
   "2025-11/4CH1-2C:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "six gas syringes (P Q R S T U) not cropped"
+   "why": "six gas syringes (P Q R S T U) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_apparatus",
+     "page": 4,
+     "rect": [
+      55.9,
+      122.0,
+      496.0,
+      303.0
+     ],
+     "mention": "six pieces of apparatus P-U",
+     "target": null
+    }
+   ],
+   "dropTail": "cm3 cm3 P Q R S T U"
   },
   "2026-06/4CH1-1C:Q4": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "isoprene Diagram 1 displayed formula flattened; not cropped"
+   "why": "isoprene Diagram 1 displayed formula flattened; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_4_stem_isoprene",
+     "page": 12,
+     "rect": [
+      236.3,
+      81.6,
+      358.7,
+      218.6
+     ],
+     "mention": "displayed formula of isoprene (Diagram 1)",
+     "target": null
+    }
+   ],
+   "dropTail": "H H C H H H C C C C H H H Diagram 1"
   },
   "2026-06/4CH1-1C:Q9": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "two-beaker cell (Zn/Fe electrodes) not cropped; labels kept"
+   "why": "two-beaker cell (Zn/Fe electrodes) not cropped; labels kept",
+   "stemFigures": [
+    {
+     "id": "asset_9_stem_cell",
+     "page": 24,
+     "rect": [
+      115.0,
+      106.0,
+      485.0,
+      272.0
+     ],
+     "mention": "two-beaker electrochemical cell",
+     "target": null
+    }
+   ],
+   "dropTail": "Zn(s) Fe(s) FeSO4(aq) ZnSO4(aq) beaker 1 beaker 2"
   },
   "2026-06/4CH1-1CR:Q1": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "atom diagram with particle Y/Z key not cropped"
+   "why": "atom diagram with particle Y/Z key not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_1_stem_atom",
+     "page": 4,
+     "rect": [
+      120.5,
+      139.0,
+      474.7,
+      368.0
+     ],
+     "mention": "atom diagram with particle key",
+     "target": null
+    }
+   ],
+   "dropTail": "particle Y particle Z"
   },
   "2026-06/4CH1-1CR:Q3": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "chromatogram (A B C D at start/at end) not cropped"
+   "why": "chromatogram (A B C D at start/at end) not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_chromatogram",
+     "page": 8,
+     "rect": [
+      55.9,
+      132.0,
+      520.0,
+      416.0
+     ],
+     "mention": "chromatogram at start and at end",
+     "target": null
+    }
+   ],
+   "dropTail": "level reached by the solvent A B C D A B C D at start at end"
   },
   "2026-06/4CH1-1CR:Q8": {
    "verdict": "keep",
-   "tranche": "formulae",
-   "why": "six displayed formulae A-F flattened; not cropped"
+   "why": "six displayed formulae A-F flattened; not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_8_stem_structures",
+     "page": 18,
+     "rect": [
+      77.6,
+      76.0,
+      510.0,
+      330.0
+     ],
+     "mention": "six displayed formulae A-F",
+     "target": null
+    }
+   ],
+   "dropTail": "A B C H H H H H H H H H H C C C H H C C C C H H C C C H H H H H H H H H H C H H D E F H H H H H H C H H C C H H C C H H H C C H Br Br H H"
   },
   "2026-06/4CH1-1CR:Q11": {
    "verdict": "keep",
-   "tranche": "qp-fig",
-   "why": "three carbon structures table not cropped"
+   "why": "three carbon structures table not cropped",
+   "stemFigures": [
+    {
+     "id": "asset_11_stem_structures-table",
+     "page": 26,
+     "rect": [
+      89.6,
+      100.0,
+      500.0,
+      252.0
+     ],
+     "mention": "carbon structures table",
+     "target": null
+    }
+   ],
+   "dropTail": "Diamond C60 fullerene Graphite"
   }
  }
 }

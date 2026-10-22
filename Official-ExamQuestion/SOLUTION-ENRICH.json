@@ -1,0 +1,627 @@
+{
+ "schema": "syllabai.official-solution-enrichment/0.1",
+ "doctrine": "wave-15 UX doctrine: authored worked answers toward the SME-style experience. Values are never invented — every number and chemical fact is traceable to the printed question, the MS answer cell or the mark points of record. The MS-derived solution_md and mark_points stay untouched in the corpus; this ledger only supplies solutionMd at export. Every entry carries the eyeball review state of its author.",
+ "review": "eyeball-authored; numeric-token census + MS-cross-check enforced at build time",
+ "entries": {
+  "2019-06-1C:1-a": {
+   "solutionMd": "**Answer: B — the crystal dissolves in the water.**\n\nThe purple colour spreads because the potassium permanganate crystal dissolves in the water at the bottom of the beaker, putting coloured particles into solution that then move around. The other options describe changes that are not happening here: condensation (A) is a gas turning into a liquid, evaporation (C) is a liquid turning into a gas, and freezing (D) is a liquid turning into a solid — none of these explains a crystal getting smaller in water.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:1-b-i": {
+   "solutionMd": "**Answer: A — all of the liquid is purple.**\n\nGiven enough time, the dissolved particles diffuse throughout the whole beaker, so the final appearance is a uniformly purple solution. B is wrong because the crystal has completely dissolved, so it cannot remain as a solid; C is wrong because the particles have spread out (diffused), not stayed at the bottom.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:1-b-ii": {
+   "solutionMd": "**Answer: C — diffusion.**\n\nDiffusion is the net movement of particles from a region of higher concentration to a region of lower concentration, which is exactly how the dissolved permanganate particles spread from the bottom of the beaker until the liquid is evenly purple. Condensation (A) and crystallisation (B) are changes of state, not spreading of particles, and sublimation (D) is a solid turning directly into a gas.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:1-c": {
+   "solutionMd": "**Answer: A — 3 different elements.**\n\nKMnO₄ contains potassium (K), manganese (Mn) and oxygen (O) — three different elements. The other options miscount by treating the number of atoms as the number of elements: there are 4 atoms of oxygen, but only 3 *types* of atom in total.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:10-a-i": {
+   "solutionMd": "**Answer: isomers are compounds with the same molecular formula but different structural (displayed) formulae.**\n\nBoth marks are needed: *M1* — the same molecular formula (same number and type of atoms), *and* *M2* — a different arrangement of those atoms, i.e. different structural or displayed formulae. \"Elements\" instead of compounds is rejected.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:10-a-ii": {
+   "solutionMd": "**Answer: any straight-chain or branched C₅H₁₂ that differs from the one shown.**\n\nC₅H₁₂ has three isomers: pentane, 2-methylbutane and 2,2-dimethylpropane. Draw the displayed formula showing **every** atom and bond for one you have not been shown — *M1* is a correct carbon skeleton with the right branching, *M2* is all the hydrogens and all the bonds shown (M2 depends on M1).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:10-b-i": {
+   "solutionMd": "**Answer: C₅H₁₂ + Br₂ → C₅H₁₁Br + HBr.**\n\nIn a substitution reaction one H of the pentane is swapped for a Br, so the organic product is **C₅H₁₁Br** (M1 — the correct formula of the organic product), and the displaced hydrogen joins the second bromine atom as **HBr** (M2). Check the balance: C 5 = 5, H 12 = 11 + 1, Br 2 = 1 + 1. Deduct a mark for incorrect cases or subscripts.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:10-b-ii": {
+   "solutionMd": "**Answer: substitution.**\n\nA bromine atom has replaced (substituted for) a hydrogen atom of the alkane — that is the defining feature of a substitution reaction.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:11-a": {
+   "solutionMd": "**Answer: 128 g of oxygen.**\n\n*Step 1 — moles of methane:* n(CH₄) = 32 ÷ 16 = 2 mol.\n\n*Step 2 — moles of oxygen:* from CH₄ + 2O₂ → CO₂ + 2H₂O, each mole of methane needs 2 moles of oxygen, so n(O₂) = 2 × 2 = 4 mol.\n\n*Step 3 — mass of oxygen:* mass = moles × Mr = 4 × 32 = 128 g.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:11-b-i": {
+   "solutionMd": "**Answer: the steam cools and condenses in the U-tube.**\n\n*M1:* the water vapour (steam) produced in the reaction condenses — it turns from gas to liquid.\n\n*M2:* because the U-tube is cooled by the surrounding mixture of ice and water, which is at 0 °C. Hot vapour entering the cold tube loses energy, so it condenses and collects as liquid water.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:11-b-ii": {
+   "solutionMd": "**Answer: add the anhydrous copper(II) sulfate to the sample — white turns blue if water is present.**\n\n*M1:* anhydrous copper(II) sulfate is a white powder.\n\n*M2:* if water is present it turns **blue** (forming hydrated copper(II) sulfate). So you add it to the liquid/gas being tested and look for the white → blue colour change; that confirms water.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:11-b-iii": {
+   "solutionMd": "**Answer: the limewater turns milky because CO₂ makes insoluble calcium carbonate.**\n\n*M1:* the limewater turns milky (cloudy — a white precipitate forms).\n\n*M2:* because carbon dioxide (CO₂) from the combustion products is present — CO₂ is the gas that reacts with limewater.\n\n*M3:* and the cloudiness is calcium carbonate, CaCO₃ — an insoluble substance formed in the reaction: CO₂ + Ca(OH)₂ → CaCO₃ + H₂O.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:12-a": {
+   "solutionMd": "**Answer: the reaction is endothermic — it takes in energy, because the temperature fell.**\n\n*M1:* the reaction is **endothermic** (the mark is lost if you write exothermic).\n\n*M2:* evidence from the results: the temperature of the solution **decreased** when the ammonium nitrate dissolved (20.0 °C → 14.2 °C). A fall in temperature means the mixture took in heat energy from its surroundings — the defining sign of an endothermic change.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:12-b": {
+   "solutionMd": "**Answer: Q ≈ 2400 J (calculation gives −2420 J).**\n\n*Step 1 — temperature change:* ΔT = 14.2 − 20.0 = −5.8 °C.\n\n*Step 2 — substitute into Q = mcΔT:* the solution's mass is 100 cm³ × 1.00 g/cm³ = 100 g, so\nQ = 100 × 4.18 × (−5.8) = −2420 J.\n\n*Step 3:* −2420 J is \"about 2400 J\", as the question asks. The negative sign shows the energy came *out of* the surroundings — consistent with the endothermic dissolution.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:12-c": {
+   "solutionMd": "**Answer: ΔH = +24.2 kJ/mol.**\n\n*Step 1 — moles of ammonium nitrate:* n = 8.00 ÷ 80.0 = 0.100 mol.\n\n*Step 2 — energy per mole:* 2420 J ÷ 0.100 mol = 24200 J/mol = 24.2 kJ/mol (any number of significant figures accepted).\n\n*Step 3 — sign:* the mixture cooled, so the dissolving is endothermic and ΔH is **positive: ΔH = +24.2 kJ/mol**. (A correct answer with no working and no/incorrect sign scores 3 of the 4 marks.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-a-i": {
+   "solutionMd": "**Answer: plot each point exactly on its values — within half a small square.**\n\nEvery (time, volume) pair from the table must be plotted correctly to within ± half a square on the grid. A slip of more than half a square on either axis loses the mark, so count squares carefully from the origin.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-a-ii": {
+   "solutionMd": "**Answer: draw a smooth curve of best fit through the plotted points.**\n\nThe curve should pass as close as possible to all the points (points evenly split above/below), start at the origin, rise steeply at first and then level off. It must be a single smooth curve — not dot-to-dot straight segments.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-b-i": {
+   "solutionMd": "**Answer: curve Y starts at the origin below the original curve and levels off at 42 cm³.**\n\nThe magnesium is halved (0.086 g → 0.043 g), so only half as much hydrogen can form: the original curve levels off at 84 cm³, so curve Y must level off at **42 cm³** (± half a square). The acid is still in excess, so curve Y has the same initial gradient shape — starting at the origin — but sits below the original curve.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-b-ii": {
+   "solutionMd": "**Answer: curve Z starts at the origin above the original curve and still levels off at 84 cm³.**\n\nThe magnesium is back at 0.086 g — double part (b)(i)'s 0.043 g — but the acid was already in excess for the original 84 cm³, so the **same final volume — 84 cm³ (± half a square)**. The slightly higher temperature makes collisions more energetic and successful, so curve Z rises more steeply than the original (above it), starting at the origin, then flattens at the same plateau.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-c": {
+   "solutionMd": "**Answer: any one — gas escapes before the bung is replaced; or the magnesium is impure.**\n\n*M1:* some hydrogen escapes before the bung is replaced (before the syringe is connected) — the first moments of bubbling are lost.\n\n*M2:* or the magnesium is impure — part of the 0.086 g is not magnesium, so less hydrogen forms than the theoretical 86 cm³.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-d": {
+   "solutionMd": "**Answer: the acid is in excess, so its exact volume doesn't affect the result.**\n\n*M1:* the hydrochloric acid is in excess — there is more than enough to react with all the magnesium (the magnesium is the limiting reactant).\n\n*M2:* therefore the volume of gas produced depends only on the magnesium, and a precise/accurate measurement of the acid volume is not required — a rough measure from the graduated beaker cannot change the 86 cm³ the reaction produces.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:13-e": {
+   "solutionMd": "**Answer: as the reaction proceeds the acid's H⁺ concentration falls, so collisions become less frequent per second.**\n\n*M1:* the concentration of the acid — the hydrogen ions, H⁺(aq) — decreases as the reaction uses them up.\n\n*M2:* the particle collision theory links concentration to collision frequency: fewer H⁺ ions in solution means the frequency of collisions between H⁺ ions and magnesium atoms decreases (fewer collisions between H⁺ and Mg).\n\n*M3:* per second (per unit time), so the rate of reaction falls — which is why the graph's gradient decreases and the curve flattens as the reaction finishes.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-a": {
+   "solutionMd": "**Answer: to increase the rate of reaction (make it faster).**\n\nWarming the acid gives the particles more energy, so collisions between the acid and the copper(II) oxide are more frequent and more successful — the oxide dissolves/reacts faster. (Do not say it increases solubility of copper — the marks are for rate.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-b": {
+   "solutionMd": "**Answer: some black solid remains and will not dissolve any more — the copper(II) oxide stops disappearing.**\n\nWhen all the acid has reacted, adding more copper(II) oxide changes nothing: the excess black solid sits in the mixture. You know the oxide is in excess when the added black powder **stops disappearing** (the mixture stops clearing) — some solid stays visible. An alternative accepted sign is a black solid settling out / the mixture staying cloudy black.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-c": {
+   "solutionMd": "**Answer: to remove the excess (unreacted) copper(II) oxide from the mixture.**\n\nThe copper(II) sulfate product is dissolved in the filtrate; the black copper(II) oxide is an insoluble solid. Filtration separates the two: the solid stays on the filter paper and the copper(II) sulfate solution (the filtrate) runs through.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-d": {
+   "solutionMd": "**Answer: blue.**\n\nThe filtrate is a solution of copper(II) sulfate, and hydrated Cu²⁺ ions are blue in solution.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-e": {
+   "solutionMd": "**Answer: heat to crystallisation point, cool, filter and dry — never heat to dryness.**\n\n*Step 1:* heat/boil the filtrate to evaporate some of the water — but only until crystals form in a cooled sample (test a drop on a cool glass rod). If you heat to dryness the water of crystallisation is lost and only M1 can be awarded.\n\n*Step 2:* leave the solution to cool and crystallise slowly — the hydrated crystals form as the solubility falls.\n\n*Step 3:* filter the mixture to remove (separate) the crystals from the remaining liquid (decanting also accepted).\n\n*Step 4:* dry the crystals by dabbing them on filter paper — never in a hot oven (that would drive off the water of crystallisation).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-f-i": {
+   "solutionMd": "**Answer: about 30 g — 9.54 g CuO gives 0.120 mol, so 0.120 × 249.5 = 29.9 g (3 s.f.).**\n\n*Step 1 — moles of CuO:* n = 9.54 ÷ 79.5 = 0.120 mol.\n\n*Step 2 — moles of CuSO₄·5H₂O:* the copper ratio is 1 : 1 (CuO → CuSO₄·5H₂O), so n = 0.120 mol.\n\n*Step 3 — mass:* mass = 0.120 × 249.5 = 29.94 g, quoted as **29.9 g** — the final answer must be to 3 significant figures, which is the \"about 30 g\" the question asks for.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:14-f-ii": {
+   "solutionMd": "**Answer: (23.92 ÷ 29.9) × 100 = 80%.**\n\nPercentage yield = actual yield ÷ theoretical yield × 100 = 23.92 ÷ 29.9 × 100 = 80% (using the more precise 29.94 gives 79.89%, which rounds to 80% — any number of significant figures accepted).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:15-a": {
+   "solutionMd": "**Answer: white precipitate, brown (foxy-brown) precipitate, and the gas turns universal indicator blue.**\n\n- Acidified **barium chloride** solution → a **white precipitate** (barium sulfate — the sulfate ions present).\n- **Sodium hydroxide** solution → a **brown precipitate** (red-brown/foxy-brown also credited — iron(III) hydroxide, showing Fe³⁺ ions).\n- The gas given off with **sodium hydroxide**, tested with **universal indicator (paper)** → turns **blue/indigo/purple** — an alkaline gas (ammonia, from the ammonium ions).\n\nOne mark for each correct observation (effervescence is only penalised once across tests 1 and 2).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:15-b-i": {
+   "solutionMd": "**Answer: 6.65 g.**\n\nThe crystals left after heating are the compound minus its water of crystallisation:\n\n- mass of hydrated compound = 34.09 − 22.04 = 12.05 g\n- mass of crystals = (tube + crystals) − empty tube = 28.69 − 22.04 = 6.65 g.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:15-b-ii": {
+   "solutionMd": "**Answer: 5.40 g.**\n\nThe mass lost on heating is the water driven off: mass of water = 34.09 − 28.69 = 5.40 g.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:15-b-iii": {
+   "solutionMd": "**Answer: x = 24.**\n\n*Step 1 — moles of crystals:* divide the mass of crystals by the Mr:\nn((NH₄)₂SO₄·Fe₂(SO₄)₃) = 6.65 ÷ 532 = 0.0125 mol.\n\n*Step 2 — moles of water:* divide the mass of water by the Mr of water:\nn(H₂O) = 5.40 ÷ 18 = 0.300 mol.\n\n*Step 3 — divide moles of water by moles of crystals* (the 1 : x ratio of the formula (NH₄)₂SO₄·Fe₂(SO₄)₃·xH₂O):\n0.300 ÷ 0.0125 = 24 → **x = 24** (to the nearest whole number).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:2-a": {
+   "solutionMd": "**Answer: T.**\n\nNoble gases are the Group 0 elements — the far right column of the Periodic Table. From the diagram, T sits in that Group 0 position, so T is the noble gas.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:2-b": {
+   "solutionMd": "**Answer: they have the same number of electrons in their outer shell.**\n\nElements in the same group of the Periodic Table have the same number of electrons in their outermost shell (the same number of valence electrons). It is these outer electrons that take part in chemical reactions, so atoms with the same outer-shell arrangement react in similar ways.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:2-c": {
+   "solutionMd": "**Answer: R has 33 protons — two more than Q.**\n\nQ and R are in the same period, with R immediately after Q. Moving one place to the right across a period adds exactly one proton to the nucleus (the atomic number increases by 1). So R's atomic number is 31 + 2 = 33, because the atomic number of R is two more (than Q). The number of protons identifies the element, and R's is determined by its position, not by its electrons or mass number.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:3-a": {
+   "solutionMd": "**Answer: Li⁺ (a lithium ion).**\n\nA crimson-red flame is the characteristic flame test colour for lithium ions. (Sr²⁺ also gives a red flame, so it is accepted as well.) The flame colour arises because the ion's electrons are excited and emit light of a characteristic colour as they fall back.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:3-b": {
+   "solutionMd": "**Answer: silver bromide, AgBr.**\n\nA cream precipitate with silver nitrate is the positive test for bromide ions: Ag⁺(aq) + Br⁻(aq) → AgBr(s). The cream colour distinguishes it from silver chloride (white) and silver iodide (yellow).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:3-c": {
+   "solutionMd": "**Answer: lithium bromide, LiBr.**\n\nThe tests identify both ions: the red flame shows Li⁺ ions and the cream precipitate shows Br⁻ ions. Putting the two together, the white solid is lithium bromide. (Both the name and the formula must be right if you give both.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:3-d-i": {
+   "solutionMd": "**Answer: impurities (other ions) could alter the flame colour and interfere with the results.**\n\nIf the wire carries leftover ions from a previous sample or from dirt, those ions give their own flame colours. The colour you see would then be a mixture, so you could not tell which metal ion you are testing — the results of the test would be unreliable.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:3-d-ii": {
+   "solutionMd": "**Answer: tick \"high melting point\" and \"unreactive\".**\n\nA metal wire in a flame test must survive the hot flame without melting — hence a **high melting point** — and it must not give its own flame colour or react, which would mask the sample — hence **unreactive**. Good conductor and high density are useful properties of metals generally, but they are not needed for this test (this is exactly the printed MS table with ticks on those two properties).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:4-a": {
+   "solutionMd": "**Answer: the two mistakes are (1) the baseline was drawn in ink, and (2) the water level was above the ink spots.**\n\n*Mistake 1:* the baseline has been drawn in **ink** rather than pencil. Ink is a mixture of dyes that dissolves in the solvent and moves up the paper, so the dye spots would mix with the baseline and contaminate the results. Pencil is insoluble, so a pencil baseline stays put.\n\n*Mistake 2:* the water level is **above** the ink spots (baseline). The dyes would simply dissolve into the water at the bottom instead of travelling up the paper, so the inks mix with the water rather than separating — no chromatogram results.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:4-b-i": {
+   "solutionMd": "**Answer: 3 colours.**\n\nOn the finished chromatogram, ink D has produced three separate spots above its baseline position — three spots means three different dyes, each with a different solubility in the solvent.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:4-b-ii": {
+   "solutionMd": "**Answer: A AND B.**\n\nInk D's chromatogram shows three separate spots. Comparing the heights of those spots with the single spots produced by the pure inks, the dyes in **A and B together** reproduce all three of D's spots — so mixing inks A and B makes ink D.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:4-b-iii": {
+   "solutionMd": "**Answer: C — because its spot did not move up the paper.**\n\nAn insoluble dye has nothing to carry it: it does not dissolve in the moving solvent, so its spot stays on the baseline. On the chromatogram, C's dye has not travelled up from the pencil line, which is exactly the signature of an ink insoluble in water.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:5-a": {
+   "solutionMd": "**Answer: C — it has a low density.**\n\nAn airship floats because the gas inside is less dense than air, giving lift. Colour (A) and solubility (B) are irrelevant, and hydrogen does not conduct electricity (D). The key usable property of hydrogen for an airship is its very low density.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:5-b": {
+   "solutionMd": "**Answer: helium is inert (unreactive), hydrogen is flammable/explosive.**\n\n*M1:* helium is a noble gas — it is inert and does not react with the air/oxygen around the airship, so it cannot catch fire (it is not flammable or explosive).\n\n*M2:* hydrogen, by contrast, is flammable — it reacts explosively with oxygen in the air. That is why hydrogen airships were abandoned for helium, even though both gases are less dense than air.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:5-c-i": {
+   "solutionMd": "**Answer: N₂ + 3H₂ → 2NH₃.**\n\nBalance the equation one element at a time: nitrogen appears as N₂ on the left and in NH₃ on the right; put a 2 in front of NH₃ to balance N (2 N each side), then a 3 in front of H₂ to supply the 6 H atoms that 2NH₃ needs. Check: 2 N and 6 H on each side. A reversible arrow is also accepted, and a catalyst symbol over the arrow is ignored.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:5-c-ii": {
+   "solutionMd": "**Answer: to increase the rate of reaction (speed the reaction up).**\n\nThe catalyst provides an alternative reaction pathway with a lower activation energy, so more collisions succeed per second and the ammonia is made faster. Note the marks are for the rate — a catalyst never changes the position of equilibrium or the yield; it only makes equilibrium be reached more quickly.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:6-a": {
+   "solutionMd": "**Answer: B (most reactive → least reactive: Z, X, Y, W).**\n\nReading the table: Z reacts violently with acid and quickly with water — the most vigorous reactions — so Z is most reactive. X reacts slowly with water but quickly with acid, Y reacts with acid but not water, and W shows no reaction with either. That puts the order Z > X > Y > W, which is option B. The other orders place Z (or X) wrongly because they ignore that water is the harder reaction to achieve — reactivity is judged by how vigorously the metals react with *both* reagents.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:6-b-i": {
+   "solutionMd": "**Answer: W.**\n\nCopper does not react with dilute sulfuric acid or with water — in the table, W is the only metal with no reaction in either. So W could be copper (a metal below hydrogen in the reactivity series).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:6-b-ii": {
+   "solutionMd": "**Answer: X.**\n\nMagnesium reacts slowly with cold water and vigorously with dilute acids. In the table, X reacts very slowly with water and reacts quickly with dilute sulfuric acid — matching magnesium's known behaviour (it sits high in the reactivity series but below the metals that react violently with cold water).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:6-c": {
+   "solutionMd": "**Answer: a brown solid forms and the solution turns colourless.**\n\nMagnesium is more reactive than copper, so it displaces copper from copper(II) sulfate: Mg + CuSO₄ → MgSO₄ + Cu.\n\n*Observation 1:* a brown/pink-brown solid forms — this is the copper metal displaced from the solution (a precipitate).\n\n*Observation 2:* the blue solution turns colourless — the blue Cu²⁺ ions are removed from solution as copper metal, leaving colourless magnesium sulfate.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:7-a": {
+   "solutionMd": "**Answer: silicon dioxide has many strong covalent bonds, so a large amount of energy is needed to break them.**\n\n*M1:* silicon dioxide is a giant covalent structure — every silicon atom is joined to oxygen atoms by strong covalent bonds throughout the whole lattice (a network of many strong bonds).\n\n*M2:* melting requires breaking (overcoming) these bonds, and because there are so many of them and they are strong, a large amount of heat energy is required — hence the very high melting point.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:7-b": {
+   "solutionMd": "**Answer: graphite has delocalised electrons that can flow.**\n\n*M1:* each carbon atom in graphite is bonded to only three others, so one outer electron per atom is delocalised — free to move along the layers (a \"sea\" of delocalised electrons).\n\n*M2:* these charged, mobile electrons can flow through the structure when a voltage is applied, carrying the current — that is why graphite conducts electricity (unlike diamond, where all four outer electrons are locked in bonds).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:7-c": {
+   "solutionMd": "**Answer: diamond has a rigid 3D tetrahedral lattice; graphite's layers can slide.**\n\n*Diamond is hard:* every carbon atom is covalently bonded to four others in a giant 3D tetrahedral lattice — a rigid network of strong bonds in all directions that resists scratching.\n\n*Graphite is soft:* each atom bonds to only three others, forming layers. The layers are held together by weak forces, so they can slide over each other easily (which is why graphite marks paper).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:8-a": {
+   "solutionMd": "**Answer: 2C₂H₄ + 4HCl + O₂ → 2C₂H₄Cl₂ + 2H₂O (multiples and fractions accepted).**\n\nBalance one element at a time on the skeleton C₂H₄ + HCl + O₂ → C₂H₄Cl₂ + H₂O:\n\n- *Chlorine:* C₂H₄Cl₂ carries 2 Cl, so HCl needs a 2.\n- *Hydrogen:* left = 4 (from C₂H₄) + 2 (from 2HCl) = 6; right = 4 (in C₂H₄Cl₂) + 2c, so c = 1 H₂O.\n- *Oxygen:* 1 O on the right needs half an O₂, so ½ O₂.\n\nThat gives C₂H₄ + 2HCl + ½O₂ → C₂H₄Cl₂ + H₂O; doubling every coefficient clears the fraction: **2C₂H₄ + 4HCl + O₂ → 2C₂H₄Cl₂ + 2H₂O**.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:8-b": {
+   "solutionMd": "**Answer: breaking down (decomposing) by heating.**\n\n\"Thermal\" tells you the energy source is heat and \"decomposition\" tells you one substance breaks into simpler ones. So thermal decomposition is breaking a compound down into simpler substances by heating it — here C₂H₄Cl₂ splits into C₂H₃Cl and HCl when heated.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:8-c-i": {
+   "solutionMd": "**Answer: it contains a carbon-to-carbon double bond.**\n\n\"Unsaturated\" means the molecule has at least one C=C double bond. Chloroethene, CH₂=CHCl, has exactly that — its two carbons are joined by a double bond.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:8-c-ii": {
+   "solutionMd": "**Answer: add bromine water — it is decolourised.**\n\n*M1:* add bromine water (Br₂(aq)) to the chloroethene.\n\n*M2:* the orange bromine water is **decolourised** (turns colourless). The C=C double bond opens up and reacts with the bromine in an addition reaction, consuming the bromine that gives bromine water its colour. A saturated compound would leave the colour unchanged.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:8-d": {
+   "solutionMd": "**Answer: poly(chloroethene) — PVC (polyvinyl chloride / polychloroethene).**\n\nThe chloroethene monomers add onto each other in an addition-polymerisation reaction; the polymer is named by prefixing \"poly\" to the monomer's name in brackets: poly(chloroethene), commonly known as PVC.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:9-a": {
+   "solutionMd": "**Answer: worked through the moles — the ratio comes out 1 : 1 : 3, i.e. CBrF₃.**\n\nDivide each percentage by the relative atomic mass:\n\n- C: 8.05 ÷ 12 = 0.671\n- Br: 53.69 ÷ 80 = 0.671\n- F: 38.26 ÷ 19 = 2.01\n\nDivide all three by the smallest (0.671): C 1, Br 1, F 3 → the empirical formula is **CBrF₃**, as required.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:9-b": {
+   "solutionMd": "**Answer: carbon bonds to Br and 3 F atoms — four bonding pairs, full outer shells.**\n\nDraw the carbon atom in the centre with four bonding pairs (one to each of the Br and the three F atoms) — each pair is one dot from carbon and one cross from the other atom. Then complete the outer shells: Br needs three more lone pairs, and each F needs three lone pairs. Carbon shares all four of its outer electrons; the inner shells are not needed (and are ignored in the marking).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2019-06-1C:9-c": {
+   "solutionMd": "**Answer: its intermolecular forces are weak, so little energy is needed to separate the molecules.**\n\n*M1:* although the C–Br and C–F covalent bonds inside the molecule are strong, the forces *between* one Halon-1301 molecule and the next are weak intermolecular forces (of attraction).\n\n*M2:* boiling only separates molecules — it does not break covalent bonds — so only a little energy is needed to overcome these weak forces. That is why the substance boils at just −58 °C.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:1-a-i": {
+   "solutionMd": "**Answer: argon (or helium) — Ar or He accepted.**\n\nNoble gases make up about 1% of dry air, mostly argon. Any Group 0 gas is credited.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:1-a-ii": {
+   "solutionMd": "**Answer: nitrogen, N₂.**\n\nNitrogen makes up about 78% of the atmosphere — the largest single component of dry air.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:1-a-iii": {
+   "solutionMd": "**Answer: carbon dioxide, CO₂.**\n\nCO₂ absorbs infrared radiation re-emitted from the Earth's surface, which is why it is the classic greenhouse gas (methane and water vapour also qualify in general, but CO₂ is the keyed answer here).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:1-a-iv": {
+   "solutionMd": "**Answer: carbon dioxide, CO₂.**\n\nThermal decomposition of calcium carbonate is CaCO₃ → CaO + CO₂ — the limestone breaks down on heating and releases CO₂.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:1-b-i": {
+   "solutionMd": "**Answer: S + O₂ → SO₂.**\n\nSulfur burns in oxygen to form sulfur dioxide. The formula is balanced as written: 1 S and 2 O on each side.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:1-b-ii": {
+   "solutionMd": "**Answer: acid rain (any adverse effect of acid rain credited).**\n\nDissolved sulfur dioxide forms acidic solutions in the atmosphere that fall as **acid rain**. An adverse effect is credited — for example killing fish in lakes, damaging plants, or corroding limestone/marble buildings and statues. (Toxicity/pollution alone is ignored — the mark is the acidity.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-a-i": {
+   "solutionMd": "**Answer: 4NH₃ + 5O₂ ⇌ 4NO + 6H₂O (multiples and fractions accepted).**\n\nBalance over the skeleton NH₃ + O₂ ⇌ NO + H₂O: put 4 in front of NH₃ to match 4 NO (4 N), which needs 12 H → 6 H₂O; that requires 5 O₂ (10 O atoms = 4 from NO + 6 from H₂O). Check: N 4 = 4, H 12 = 12, O 10 = 10.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-a-ii": {
+   "solutionMd": "**Answer: the reaction is reversible — it goes in both directions.**\n\nThe ⇌ symbol means a reversible reaction: as the forward reaction makes products, the reverse reaction simultaneously converts products back to reactants. (References to equilibrium are ignored — the mark is the reversibility.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-a-iii": {
+   "solutionMd": "**Answer: to increase the rate of the reaction (speed it up).**\n\nThe platinum catalyst provides a surface for the reaction and a lower-energy pathway, so the rate increases. (Statements about lowering the activation energy are ignored if given alone — the mark is the rate.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-b": {
+   "solutionMd": "**Answer: 2NO + O₂ → 2NO₂ (multiples and fractions accepted).**\n\nNitrogen monoxide plus oxygen gives nitrogen dioxide: balance N first (2 NO → 2 NO₂), which then needs 1 O₂ to supply the two extra O atoms. Check: N 2 = 2, O 4 = 4.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-c-i": {
+   "solutionMd": "**Answer: about 10.5 tonnes of HNO₃.**\n\n*Step 1 — Mr values:* Mr(NO₂) = 46, Mr(HNO₃) = 63.\n\n*Step 2 — moles of NO₂:* n = 11.5 tonnes ÷ 46 g/mol = 250 000 mol (working in megamoles also fine).\n\n*Step 3 — moles of HNO₃:* from 3NO₂ + H₂O → 2HNO₃ + NO, the ratio is 3 : 2, so n(HNO₃) = 250 000 × 2⁄3 ≈ 167 000 mol.\n\n*Step 4 — mass:* 167 000 × 63 g ≈ 10.5 tonnes (the calculator value rounds to 10.5 tonnes).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-c-ii": {
+   "solutionMd": "**Answer: the nitrogen monoxide can be recycled — reused in stage 2 to make more nitrogen dioxide (and so more nitric acid).**\n\nNO is an intermediate of the process, not waste: feeding it back into stage 2 (2NO + O₂ → 2NO₂) converts it into more NO₂ for stage 3, increasing the overall yield of nitric acid.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:10-d": {
+   "solutionMd": "**Answer: 81.6% (82% accepted).**\n\n*Step 1 — moles of copper(II) nitrate actually formed:* n = mass ÷ Mr = 15.3 ÷ 187.5 = 0.0816 mol.\n\n*Step 2 — theoretical moles:* from CuO + 2HNO₃ → Cu(NO₃)₂ + H₂O, the acid : nitrate ratio is 2 : 1, so the 0.200 mol of acid could make at most 0.200 ÷ 2 = 0.100 mol.\n\n*Step 3 — percentage yield:* (0.0816 ÷ 0.100) × 100 = 81.6% (82% accepted; M3 is marked on your own M1 and M2 — 40.8 signals the 2 : 1 ratio was forgotten).\n\n*Alternative route:* theoretical mass = 0.100 × 187.5 = 18.75 g, then 15.3 ÷ 18.75 × 100 = 81.6% — the same answer.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:2-a": {
+   "solutionMd": "**Answer: nucleus; 12 protons; group 2; period 3; 2+ ion charge.**\n\n- The part labelled Z (the central cluster) is the **nucleus**.\n- The atom has **12 protons** (from the atom's identity — 12 p in the nucleus).\n- 12 protons means the element is magnesium: its electron arrangement 2,8,2 puts it in **group 2** (2 outer electrons) of **period 3** (3 shells).\n- Losing those 2 outer electrons leaves a **2+ ion** (Mg²⁺).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:2-b": {
+   "solutionMd": "**Answer: 24.3 (one decimal place).**\n\n*Step 1 — weighted sum:* multiply each mass number by its percentage abundance:\n24 × 79.2 = 1900.8, 25 × 10.0 = 250.0, 26 × 10.8 = 280.8.\nAdd the three products — 1900.8 + 250.0 + 280.8 — to get 2431.6.\n\n*Step 2 — divide by 100:* 2431.6 ÷ 100 = 24.316\n\n*Step 3 — round:* **24.3** to one decimal place.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:3-a": {
+   "solutionMd": "**Answer: galvanising.**\n\nCoating iron with a layer of zinc is called galvanising — the zinc acts as a barrier and, because zinc is more reactive than iron, it also sacrificially protects the iron if the coating is scratched.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:3-b-i": {
+   "solutionMd": "**Answer: rust.**\n\nThe brown solid formed when iron is left in damp air is rust — hydrated iron(III) oxide.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:3-b-ii": {
+   "solutionMd": "**Answer: oxygen (from the air) and water.**\n\nRusting needs **both** reactants: oxygen (or air) and water (moisture) — either order. Remove either one and the iron does not rust, which is exactly how sacrificial coatings and oiling work.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:3-c-i": {
+   "solutionMd": "**Answer: a reaction that gives out (releases) heat energy (thermal energy) to the surroundings.**\n\nThe temperature of the surroundings rises in an exothermic change. (Mentioning heat/thermal energy is required — \"energy\" alone without the heat reference is not enough.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:3-c-ii": {
+   "solutionMd": "**Answer: aluminium is more reactive than iron — it displaces iron from its oxide.**\n\n*M1:* the reaction shows **aluminium is more reactive than iron** (aluminium is higher in the reactivity series).\n\n*M2:* the evidence: aluminium **displaces** iron from iron(III) oxide — the more reactive metal takes the oxygen and pushes the less reactive metal out of its compound (2Al + Fe₂O₃ → 2Fe + Al₂O₃).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:3-c-iii": {
+   "solutionMd": "**Answer: aluminium is oxidised and iron oxide is reduced — both happen, so it is redox.**\n\n*M1:* aluminium is oxidised **and** iron(III) oxide is reduced — oxidation and reduction occur together.\n\n*M2:* aluminium **gains oxygen** (Al → Al₂O₃) — that is oxidation.\n\n*M3:* iron oxide **loses oxygen** (Fe₂O₃ → Fe) — that is reduction. Since one substance's oxidation is always coupled to another's reduction, the reaction is a redox reaction.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:4-a-i": {
+   "solutionMd": "**Answer: the three missing formulae are MgS, Al(NO₃)₃ and NH₄NO₃.**\n\nBalance the charges in each ionic formula:\n\n- Mg²⁺ with S²⁻: charges 2+ and 2− cancel one-to-one → **MgS**.\n- Al³⁺ with NO₃⁻: three 1− ions are needed to balance 3+ → **Al(NO₃)₃** (brackets around the nitrate because there are three of them).\n- NH₄⁺ with NO₃⁻: one of each, 1+ and 1− → **NH₄NO₃**.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:4-a-ii": {
+   "solutionMd": "**Answer: ammonium nitrate.**\n\nNH₄⁺ is the ammonium ion and NO₃⁻ is the nitrate ion, so NH₄NO₃ is ammonium nitrate — the familiar fertiliser/explosive compound.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:4-b-i": {
+   "solutionMd": "**Answer: the electrostatic attraction between oppositely charged ions.**\n\n*M1:* an ionic bond is an **electrostatic (force of) attraction**.\n\n*M2:* it acts **between oppositely charged ions** (positive and negative) — the positive ion attracts the negative ion, holding them in the lattice.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:4-b-ii": {
+   "solutionMd": "**Answer: Na⁺ 2,8 twice; O²⁻ 2,8 with charges shown.**\n\nEach sodium atom (2,8,1) loses its one outer electron → both Na⁺ ions have the electron arrangement **2,8** and are drawn with a **[ ]⁺** charge.\n\nThe oxygen atom (2,6) gains those two electrons → the oxide ion has **2,8** (a full outer shell) and is drawn with a **[ ]²⁻** charge.\n\n*M1* is the two sodium ions' arrangements, *M2* the oxide ion's, and *M3* the correct charges on all three ions (with or without square brackets).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-a-i": {
+   "solutionMd": "**Answer: S.**\n\nA hydrocarbon contains carbon and hydrogen only. Compound S's displayed formula contains a **bromine** atom (it is bromoethane, C₂H₅Br), so S is the compound that is **not** a hydrocarbon.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-a-ii": {
+   "solutionMd": "**Answer: T and U.**\n\nThe empirical formula is the simplest whole-number ratio of atoms. T (ethene, C₂H₄) and U (propene, C₃H₆) both simplify to the same ratio **CH₂** — one carbon for every two hydrogens — so those two compounds share an empirical formula.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-a-iii": {
+   "solutionMd": "**Answer: U.**\n\nPoly(propene) is made by addition polymerisation of **propene** — and U's displayed formula is propene (CH₂=CH–CH₃).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-b": {
+   "solutionMd": "**Answer: add bromine water — Q leaves it orange, T decolourises it.**\n\n*M1:* add **bromine water** (Br₂(aq)) to samples of both compounds.\n\n*M2:* with **Q** (propane, saturated) there is **no change — the bromine water stays orange** (no reaction).\n\n*M3:* with **T** (an alkene, C=C) the bromine water is **decolourised** — it changes from orange to colourless as the double bond opens up in an addition reaction.\n\nThe contrast in results distinguishes the saturated from the unsaturated compound. (Acidified potassium manganate(VII) — purple → colourless vs stays purple — is equally accepted.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-c": {
+   "solutionMd": "**Answer: any two of: general formula; successive members differ by CH₂; similar chemical properties; same functional group.**\n\nA homologous series:\n\n1. can be represented by a **general formula** (e.g. CnH2n for the alkenes);\n2. has successive members that **differ by a CH₂ group**;\n3. members show **similar chemical properties** (they react in the same way);\n4. share the **same functional group**.\n\nAny two of these score the two marks.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-d-i": {
+   "solutionMd": "**Answer: but-1-ene (1-butene accepted).**\n\nAlkene V's displayed formula shows four carbons with the double bond starting at the first carbon: CH₂=CH–CH₂–CH₃ — that is but-1-ene.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-d-ii": {
+   "solutionMd": "**Answer: draw but-2-ene (CH₃–CH=CH–CH₃) — the same formula, double bond moved.**\n\nAny alkene isomer of C₄H₈ is credited: the cis or trans form of **but-2-ene** (the double bond between the middle two carbons) is the standard answer. Displayed formulae of *cyclic* alkanes are rejected — the question asks for an alkene isomer.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-e-i": {
+   "solutionMd": "**Answer: CH₂F — divide each percentage by its Ar, then divide by the smallest.**\n\n*Step 1 — divide by relative atomic masses:*\n\n- C: 36.36 ÷ 12 = 3.03\n- H: 6.06 ÷ 1 = 6.06\n- F: 57.58 ÷ 19 = 3.03\n\n*Step 2 — divide by the smallest (3.03):* C 1, H 2, F 1 → the empirical formula is **CH₂F**. (Dividing by atomic *numbers*, or upside down, scores zero.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:5-e-ii": {
+   "solutionMd": "**Answer: C₂H₄F₂.**\n\n*Step 1 — empirical formula mass:* 12 + 2 + 19 = 33, so Mr ÷ empirical mass = 66 ÷ 33 = 2.\n\n*Step 2 — multiply the empirical formula by 2:* (CH₂F)₂ = **C₂H₄F₂**.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-a": {
+   "solutionMd": "**Answer: zinc + hydrochloric acid → zinc chloride + hydrogen.**\n\nA metal plus an acid gives a salt plus hydrogen: the zinc displaces hydrogen from the acid, forming the salt zinc chloride (plus the fully correct chemical equation Zn + 2HCl → ZnCl₂ + H₂ is equally accepted).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-b": {
+   "solutionMd": "**Answer: after = 22.4 °C, before = 17.7 °C, change = +4.7 °C.**\n\nRead each thermometer to the nearest 0.1 °C using the 1 °C subdivisions: the \"after\" reading is **22.4 °C** and the \"before\" reading is **17.7 °C**. The temperature change is 22.4 − 17.7 = +4.7 °C (M3).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-c-i": {
+   "solutionMd": "**Answer: polystyrene insulates, so less heat escapes and the reading is closer to the true value.**\n\nAny two of:\n\n- *M1:* polystyrene is an **insulator** — a poor conductor of heat.\n- *M2:* so it **reduces heat loss** from the reaction mixture to the surroundings (keeps the heat in).\n- *M3:* therefore the measured **temperature rise is closer to the true value** — the result is more accurate/valid.\n\nA glass beaker conducts heat away, understating the temperature change.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-c-ii": {
+   "solutionMd": "**Answer: any three of: mass/amount of metal; concentration of acid; volume of acid; temperature; stirring.**\n\nControl variables (any three): the **amount/mass of metal** (and its surface area), the **concentration of the acid**, the **volume of acid**, the starting **temperature**, and the stirring rate. Keeping these constant makes the temperature change depend only on the metal being tested — a fair test.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-d-i": {
+   "solutionMd": "**Answer: no reaction occurred between copper and the dilute hydrochloric acid.**\n\nCopper is **below hydrogen in the reactivity series** — it cannot displace hydrogen from the acid, so no reaction happens, no heat is released, and the temperature stays the same.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-d-ii": {
+   "solutionMd": "**Answer: any value between 1.5 and 5.0 °C.**\n\nThe trend from the data (zinc 4.7 °C, tin lower) places iron between zinc and tin. Any prediction in the **1.5–5.0 °C** window is credited — the mark is for a sensible interpolation of the trend, not an exact value.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:6-d-iii": {
+   "solutionMd": "**Answer: magnesium > zinc > iron > tin > copper (most → least reactive).**\n\nThe bigger the temperature rise, the more reactive the metal (more heat released per given mass). Magnesium gave the largest rise and copper none, giving the order: **magnesium (most reactive), zinc, iron, tin, copper (least reactive)** — the standard reactivity-series order for these five metals.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-a-i": {
+   "solutionMd": "**Answer: B — bromine.**\n\nAt room temperature: chlorine is a gas, bromine is the only **liquid**, and astatine and iodine are solids. So the liquid halogen is bromine.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-a-ii": {
+   "solutionMd": "**Answer: C — chlorine (it is pale green).**\n\nGoing down Group 7 the halogens darken: chlorine is pale green, bromine brown, iodine dark grey, astatine black. The **palest** is chlorine.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-a-iii": {
+   "solutionMd": "**Answer: A — astatine.**\n\nReactivity **decreases** down Group 7 (the outer shell is further from the nucleus, so gaining an electron is harder). Astatine is the lowest halogen shown, so it is the **least reactive**; bromine and chlorine are both more reactive than it.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-b-i": {
+   "solutionMd": "**Answer: chlorine + potassium bromide → brown; chlorine + potassium iodide → brown.**\n\nA more reactive halogen displaces a less reactive one, and bromine/iodine solutions are brown:\n\n- chlorine + potassium bromide: the colourless solution **turns brown** (bromine displaced).\n- chlorine + potassium iodide: the colourless solution **turns brown** (iodine displaced) — the solution stays brown / no further change for the second row, as printed.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-b-ii": {
+   "solutionMd": "**Answer: bromine cannot displace itself — it would not react with sodium bromide.**\n\nA displacement reaction needs a *more* reactive halogen taking the halide's place. Bromine and sodium bromide both already contain bromide (Br⁻), so **bromine cannot displace itself** — there would be no reaction and no colour change to observe.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-b-iii": {
+   "solutionMd": "**Answer: Br₂ + 2NaI → 2NaBr + I₂ (ionic form Br₂ + 2I⁻ → 2Br⁻ + I₂ also accepted; multiples/fractions allowed).**\n\nBalance the sodium and iodine: 2 NaI supplies 2 Na and 2 I, so the products need 2NaBr and I₂. Check: Na 2 = 2, Br 2 = 2, I 2 = 2.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:7-c": {
+   "solutionMd": "**Answer: two test-tube tests — NaOH for the cation, AgNO₃ for the anion.**\n\n**Test for the cation (Cu²⁺ or Fe²⁺):**\n\n- *M1:* add **sodium hydroxide solution** (ammonia solution also accepted) to a sample.\n- *M2:* a **blue precipitate** forms → the solution contains **copper(II) ions** (copper(II) chloride or bromide).\n- *M3:* a **green precipitate** forms → the solution contains **iron(II) ions** (iron(II) chloride or bromide).\n\n**Test for the anion (Cl⁻ or Br⁻):**\n\n- *M4:* add **silver nitrate solution** to a fresh sample (acidified with nitric acid).\n- *M5:* a **white precipitate** forms → the solution contains **chloride ions** (the \"chloride\" compound).\n- *M6:* a **cream precipitate** forms → the solution contains **bromide ions** (the \"bromide\" compound).\n\nCombining the results identifies the compound: e.g. blue precipitate + cream precipitate = copper(II) bromide.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:8-a-i": {
+   "solutionMd": "**Answer: sublimation (subliming).**\n\nSublimation is the change of state straight from **solid to gas** without melting in between (dry ice does exactly this).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:8-a-ii": {
+   "solutionMd": "**Answer: bubble it through limewater — the limewater turns cloudy/milky.**\n\n*M1:* add the gas to (bubble it into) **limewater**.\n\n*M2:* carbon dioxide turns limewater **cloudy or milky** (a white precipitate of calcium carbonate forms). M2 depends on M1 — the reagent must be named first.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:8-b": {
+   "solutionMd": "**Answer: the intermolecular forces between CO₂ molecules are weak, so little energy overcomes them.**\n\n*M1:* carbon dioxide is simple molecular — between the molecules there are only **weak forces of attraction** (weak intermolecular forces). (The covalent bonds inside each CO₂ molecule are strong, but they are not what breaks when it sublimes.)\n\n*M2:* therefore only a **little energy** is needed to overcome those weak forces and separate the molecules — which is why CO₂ goes straight from solid to gas at a very low temperature.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:8-c": {
+   "solutionMd": "**Answer: diamond — 4 bonds, rigid tetrahedral lattice, strong bonds → hard; graphite — 3 bonds, layers with weak forces → layers slide off onto paper.**\n\n**Diamond (any three):**\n\n- *M1:* each carbon atom is covalently bonded to **four** other carbon atoms.\n- *M2:* in a giant, rigid **tetrahedral lattice** (3D network).\n- *M3:* the covalent bonds are **very strong** (lots of them, lots of energy to break).\n- *M4:* therefore diamond is **very hard** — which is why it suits cutting tools.\n\n(Any mention of intermolecular forces in diamond caps it at 2 of the 3 marks.)\n\n**Graphite (any three):**\n\n- *M5:* each carbon atom is covalently bonded to **three** other carbon atoms.\n- *M6:* the structure forms **layers** (sheets).\n- *M7:* there are only **weak forces between the layers**.\n- *M8:* the **layers can slide over each other** — so graphite rubs off onto paper and makes marks — which is why it suits pencils.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-a": {
+   "solutionMd": "**Answer: to minimise the evaporation of fuel (mass loss) after heating.**\n\nThe burner is still hot when heating stops; if weighing is delayed, fuel evaporates and the measured mass loss is too big. Weighing **immediately** keeps the measured mass of fuel burned accurate.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-b-i": {
+   "solutionMd": "**Answer: soot (carbon).**\n\nThe black solid deposited on the can is soot — elemental carbon from the flame. (Copper oxide is rejected.)",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-b-ii": {
+   "solutionMd": "**Answer: incomplete combustion — the oxygen supply is limited.**\n\n*M1:* **incomplete combustion** occurs in the flame.\n\n*M2:* because the **air/oxygen supply is limited** — without enough oxygen the fuel cannot burn completely to CO₂ and H₂O, and carbon (soot) is released instead.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-c-i": {
+   "solutionMd": "**Answer: Q = 100 × 4.2 × 30 = 12 600 J ≈ 13 kJ.**\n\n*Step 1:* substitute into Q = mcΔT with m = 100 g (100 cm³ × 1.0 g/cm³), c = 4.2 J/g/°C, ΔT = 30 °C:\nQ = 100 × 4.2 × 30 = 12600 J.\n\n*Step 2:* convert: 12600 J = 12.6 kJ, which is approximately 13 kJ as the question asks.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-c-ii": {
+   "solutionMd": "**Answer: ΔH = −420 kJ/mol.**\n\n*Step 1 — moles of methanol:* n = 0.96 ÷ 32 = 0.030 mol.\n\n*Step 2 — energy per mole:* 12.6 kJ ÷ 0.030 mol = 420 kJ/mol.\n\n*Step 3 — sign:* combustion releases energy (exothermic), so **ΔH = −420 kJ/mol**.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-d-i": {
+   "solutionMd": "**Answer: plot the points correctly and draw a ruled straight line of best fit.**\n\n*M1:* all six (carbon atoms, ΔH) points plotted correctly.\n\n*M2:* a single **straight line of best fit drawn with a ruler**, passing as close as possible to the points (evenly distributed either side). It does not need to pass through (0,0).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-d-ii": {
+   "solutionMd": "**Answer: extend the line to 6 carbon atoms and read ΔH (negative).**\n\n*M1:* extrapolate the straight line up to **6 carbon atoms** (marking an extra point on the line there is allowed).\n\n*M2:* read the ΔH value off the graph at that point — the answer must carry the **negative sign** (combustion enthalpies are negative, and the graph's axis runs to about −4500 kJ/mol).",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  },
+  "2020-01-1C:9-d-iii": {
+   "solutionMd": "**Answer: the more carbon atoms per molecule, the greater (more negative) ΔH.**\n\nΔH is directly proportional to the number of carbon atoms per molecule: each extra CH₂ added to the chain releases more energy on combustion, so the magnitude of the (negative) enthalpy change grows steadily along the line.",
+   "review": "authored-r0",
+   "source": "authored from the printed QP + MS of record (topic.json solution_md + mark_points)"
+  }
+ }
+}

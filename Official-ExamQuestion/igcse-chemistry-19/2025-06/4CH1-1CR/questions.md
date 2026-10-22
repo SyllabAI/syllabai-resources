@@ -153,6 +153,8 @@ Copper(II) sulfate and sodium hydroxide react to form the insoluble solid copper
 
 Name the two processes that must occur before the copper(II) hydroxide forms. 1 2
 
+![diffusion tubes at start and after several minutes — official paper figure (qp.pdf p.5)](assets/asset_3_stem_diffusion.png)
+
 
 **Mark scheme answer**
 

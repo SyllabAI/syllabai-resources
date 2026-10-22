@@ -393,6 +393,8 @@ A student uses this apparatus to find the heat energy released by the combustion
 
 Explain what is meant by the term fuel.
 
+![combustion calorimetry apparatus — official paper figure (qp.pdf p.14)](assets/asset_6_stem_combustion.png)
+
 
 **Mark scheme answer**
 
@@ -823,6 +825,8 @@ Diamond and graphite are both forms of the element carbon. Diamond and graphite 
 ### 11(a) [1]
 
 Give a reason why diamond is an element.
+
+![diamond and graphite structures — official paper figure (qp.pdf p.28)](assets/asset_11_stem_structures.png)
 
 
 **Mark scheme answer**

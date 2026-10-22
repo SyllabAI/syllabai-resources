@@ -1025,6 +1025,8 @@ This question is about hydrated compounds. Crystals of hydrated barium chloride 
 
 Give a reason why the student repeats steps 3 and 4 until the mass is constant.
 
+![heating tube apparatus — official paper figure (qp.pdf p.26)](assets/asset_12_stem_apparatus.png)
+
 
 **Mark scheme answer**
 

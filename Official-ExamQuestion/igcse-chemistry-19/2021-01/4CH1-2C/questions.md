@@ -15,6 +15,8 @@ What is the name of the particle labelled Y?
 - **(C)** neutron
 - **(D)** proton  ✔
 
+![atom diagram with Y label — official paper figure (qp.pdf p.4)](assets/asset_1_stem_atom.png)
+
 
 **Mark scheme answer**
 

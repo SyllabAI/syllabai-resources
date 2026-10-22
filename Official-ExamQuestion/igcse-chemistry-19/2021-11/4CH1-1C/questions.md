@@ -930,6 +930,8 @@ A teacher uses this apparatus to separate a mixture of ethanol and water. B A HE
 
 Name this method of separation.
 
+![distillation apparatus — official paper figure (qp.pdf p.30)](assets/asset_10_stem_distillation.png)
+
 
 **Mark scheme answer**
 

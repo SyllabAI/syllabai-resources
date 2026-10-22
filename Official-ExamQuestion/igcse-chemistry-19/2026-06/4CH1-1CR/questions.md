@@ -10,6 +10,8 @@ The diagram shows the structure of an atom of an element. particle Y particle Z
 
 Give the name of particle Z.
 
+![atom diagram with particle key — official paper figure (qp.pdf p.4)](assets/asset_1_stem_atom.png)
+
 
 **Mark scheme answer**
 
@@ -156,6 +158,8 @@ A student uses paper chromatography in an experiment to separate the dyes in fou
 ### 3(a)(i) [3]
 
 Describe a method the student should use after putting a spot of each food colouring on the paper.
+
+![chromatogram at start and at end — official paper figure (qp.pdf p.8)](assets/asset_3_stem_chromatogram.png)
 
 
 **Mark scheme answer**
@@ -635,6 +639,8 @@ The table shows the displayed formulae of six organic compounds. A B C H H H H H
 
 Give the letter of the compound that is not a hydrocarbon.
 
+![six displayed formulae A-F — official paper figure (qp.pdf p.18)](assets/asset_8_stem_structures.png)
+
 
 **Mark scheme answer**
 
@@ -986,6 +992,8 @@ This question is about carbon. The table shows the structures of three different
 ### 11(a) [1]
 
 Give the reason why these forms of carbon are elements.
+
+![carbon structures table — official paper figure (qp.pdf p.26)](assets/asset_11_stem_structures-table.png)
 
 
 **Mark scheme answer**

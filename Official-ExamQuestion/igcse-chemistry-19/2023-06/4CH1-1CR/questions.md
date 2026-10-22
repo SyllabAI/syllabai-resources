@@ -562,6 +562,8 @@ A teacher uses this apparatus to test the products of the combustion of liquid h
 
 Explain the change in appearance that occurs in the limewater.
 
+![combustion products apparatus — official paper figure (qp.pdf p.18)](assets/asset_7_stem_apparatus.png)
+
 
 **Mark scheme answer**
 
@@ -653,6 +655,8 @@ Diamond, graphite and C60 fullerene are all forms of the element carbon. The dia
 ### 8(a) [2]
 
 Explain why graphite conducts electricity.
+
+![diamond graphite C60 structures — official paper figure (qp.pdf p.20)](assets/asset_8_stem_structures.png)
 
 
 **Mark scheme answer**
