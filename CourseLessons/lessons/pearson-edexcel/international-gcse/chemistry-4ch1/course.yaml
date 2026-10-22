@@ -1,0 +1,103 @@
+# CourseLessons/lessons/pearson-edexcel/international-gcse/chemistry-4ch1/course.yaml
+# Machine config of record for the 4CH1 Lesson course (mirrors syllabai-v2 books/4ch1/meta/book.yaml — keep in sync by finding, not by drift).
+qual: "4ch1"
+board: pearson-edexcel
+qualification: international-gcse
+course_slug: igcse-chemistry-19
+subject_code: "4CH1"
+
+spec_of_record:
+  code: "4CH1"
+  issue: "Issue 3"
+  issue_date: "2024-09"
+  spec_points: 182
+  sub_sections: 29
+  paper_route:
+    paper1: {code: "1C", marks: 110, weight: 0.611, coverage: "core only"}
+    paper2: {code: "2C", marks: 70, weight: 0.389, coverage: "all content incl. bold-C"}
+
+book_of_record:
+  repo: syllabai-resources
+  path: edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf
+  sha256: "TBD-at-first-lesson-receipt"
+  pages: 383
+parse_of_record:
+  repo: syllabai-resources
+  path: parsed/edexcel_igcse_chemistry_chunks_v3.jsonl
+  sha256: "TBD-at-first-lesson-receipt"
+  engine: ibm-docling
+  chunks: 1234
+past_papers_of_record:
+  repo: syllabai-pastpapers
+  index: "apps/hub/src/data/pastpapers-index.json (syllabai-v2)"
+  sessions: 17
+  papers: 56          # every paper carries QP and MS
+  variants: ["1C", "1CR", "2C", "2CR"]
+
+features:             # course-level feature flags (FEATURE-SPEC)
+  prior_knowledge_box: true
+  cross_curricular_box: true
+  misconception_box: true
+  maths_skills_box: true
+  ms_vocab_layer: true        # ms_accepts / ms_avoids everywhere
+  past_paper_anchor_cards: true
+  glossary_chips: true
+  quick_checks: true
+  highlighting_notes: platform   # renderer-owned; lessons keep box/anchor grammar clean
+  spaced_lookback: platform
+  tts: platform-post-pilot
+
+box_allowlist: [key-point, exam-hint, misconception, safety, did-you-know,
+                maths-skills, prior-knowledge, cross-curricular, worked-example,
+                summary, can-you]
+
+section_grammar: "u<unit>:c<NN>:s<NN>"
+lint_pack: chem@0.1.0
+doctrine_refs:
+  start_here: ../../../../START-HERE.md
+  feature_spec: ../../../../FEATURE-SPEC.md
+  playbook: ../../../../BUILD-PLAYBOOK.md
+  validation: ../../../../VALIDATION.md
+  self_improvement: ../../../../SELF-IMPROVEMENT.md
+  platform_contracts: "syllabai-v2 packages/contracts/src/books-lesson.ts"
+  platform_plan: "syllabai-v2 docs/books/LESSON-PLAN-4CH1-v1.md"
+
+# Spine of record (29 chapters ≈ spec sub-sections 1:1).
+# pages: PINNED at S0 from the parse of record / book registry — never guessed
+# (provenance law). join_set = spec codes taught (filled from
+# book_chapters.specCodes at first platform sync; lint V3 uses these when
+# present, else warns).
+spine:
+  u1:
+    - {key: "u1:c01", slug: states-of-matter, title: States of matter, chem_only: false, pages: TBD}
+    - {key: "u1:c02", slug: elements-compounds-mixtures, title: Elements, compounds and mixtures, chem_only: false, pages: TBD}
+    - {key: "u1:c03", slug: atomic-structure, title: Atomic structure, chem_only: false, pages: TBD}
+    - {key: "u1:c04", slug: periodic-table, title: The periodic table, chem_only: false, pages: TBD}
+    - {key: "u1:c05", slug: formulae-calculations-1, title: Formulae and calculations (part 1), chem_only: false, pages: TBD, widget_density: high}
+    - {key: "u1:c06", slug: formulae-calculations-2, title: Formulae and calculations (part 2), chem_only: false, pages: TBD, widget_density: high}
+    - {key: "u1:c07", slug: ionic-bonding, title: Ionic bonding, chem_only: false, pages: TBD}
+    - {key: "u1:c08", slug: covalent-bonding, title: Covalent bonding, chem_only: false, pages: TBD}
+    - {key: "u1:c09", slug: metallic-bonding, title: Metallic bonding, chem_only: true, pages: TBD}
+    - {key: "u1:c10", slug: electrolysis, title: Electrolysis, chem_only: true, pages: TBD, widget_density: high}
+  u2:
+    - {key: "u2:c11", slug: alkali-metals, title: Alkali metals, chem_only: false, pages: TBD}
+    - {key: "u2:c12", slug: halogens, title: Halogens, chem_only: false, pages: TBD}
+    - {key: "u2:c13", slug: gases-atmosphere, title: Gases in the atmosphere, chem_only: false, pages: TBD}
+    - {key: "u2:c14", slug: reactivity-series, title: Reactivity series, chem_only: false, pages: TBD}
+    - {key: "u2:c15", slug: extraction-metals, title: Extraction and uses of metals, chem_only: true, pages: TBD}
+    - {key: "u2:c16", slug: acids-alkalis-titrations, title: Acids, alkalis and titrations, chem_only: false, pages: TBD, widget_density: high}
+    - {key: "u2:c17", slug: salt-preparations, title: Salt preparations, chem_only: false, pages: TBD}
+    - {key: "u2:c18", slug: chemical-tests, title: Chemical tests, chem_only: false, pages: TBD}
+  u3:
+    - {key: "u3:c19", slug: energetics, title: Energetics, chem_only: false, pages: TBD}
+    - {key: "u3:c20", slug: rates-reaction, title: Rates of reaction, chem_only: false, pages: TBD}
+    - {key: "u3:c21", slug: equilibria, title: Reversible reactions and equilibria, chem_only: true, pages: TBD}
+  u4:
+    - {key: "u4:c22", slug: organic-intro, title: Introduction to organic chemistry, chem_only: false, pages: TBD}
+    - {key: "u4:c23", slug: crude-oil, title: Crude oil, chem_only: false, pages: TBD}
+    - {key: "u4:c24", slug: alkanes, title: Alkanes, chem_only: false, pages: TBD}
+    - {key: "u4:c25", slug: alkenes, title: Alkenes, chem_only: false, pages: TBD}
+    - {key: "u4:c26", slug: alcohols, title: Alcohols, chem_only: true, pages: TBD}
+    - {key: "u4:c27", slug: carboxylic-acids, title: Carboxylic acids, chem_only: true, pages: TBD}
+    - {key: "u4:c28", slug: esters, title: Esters, chem_only: true, pages: TBD}
+    - {key: "u4:c29", slug: synthetic-polymers, title: Synthetic polymers, chem_only: false, pages: TBD}

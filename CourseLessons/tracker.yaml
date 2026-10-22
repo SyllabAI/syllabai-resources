@@ -1,0 +1,73 @@
+version: 1
+generated_at: '2026-10-22'
+courses:
+  chemistry-4ch1:
+    board: pearson-edexcel
+    qualification: international-gcse
+    subject_code: 4CH1
+    path: lessons/pearson-edexcel/international-gcse/chemistry-4ch1
+    course_slug: igcse-chemistry-19
+    planned_lessons: 29
+    status: scaffold
+    phases:
+      pilot-gate:
+        lessons:
+        - u1:c01
+        - u1:c02
+        - u1:c03
+        - u1:c04
+        - u1:c05
+        status: not-started
+      unit-1-rest:
+        lessons:
+        - u1:c06
+        - u1:c07
+        - u1:c08
+        - u1:c09
+        - u1:c10
+        status: not-started
+      unit-2:
+        lessons:
+        - u2:c11
+        - u2:c12
+        - u2:c13
+        - u2:c14
+        - u2:c15
+        - u2:c16
+        - u2:c17
+        - u2:c18
+        status: not-started
+      unit-3:
+        lessons:
+        - u3:c19
+        - u3:c20
+        - u3:c21
+        status: not-started
+      unit-4:
+        lessons:
+        - u4:c22
+        - u4:c23
+        - u4:c24
+        - u4:c25
+        - u4:c26
+        - u4:c27
+        - u4:c28
+        - u4:c29
+        status: not-started
+    lessons:
+      u1-c01-states-of-matter:
+        chapter_key: u1:c01
+        title: States of matter
+        stage: S1
+        sections_done: 1
+        sections_total: 17
+        last_receipt: qa/receipt.yaml
+        last_agent: T-BOOK-031 r0 (seed)
+        updated_at: '2026-10-22'
+decisions:
+- date: '2026-10-22'
+  what: Lesson = primary year-round surface; rail stays; PDF untouched
+  source: operator 'both' trace 1a1611a346d9725d
+- date: '2026-10-22'
+  what: CourseLessons in syllabai-resources; board-organized; self-improving; any-agent
+  source: operator trace 1a16138fde2c155d
