@@ -61,15 +61,15 @@ jobs:
             n=$((n+1))
           done
           echo "topics staged: $n"
-          test "$n" -eq 32
-      - name: run the exporter of record (v0.10.0/F44 interface; disclosed wave census when one is filed)
+          test "$n" -eq 43
+      - name: run the exporter of record (v0.12.0/F50 interface; disclosed wave census when one is filed)
         run: |
           mkdir -p /tmp/export-stage
           LATEST=$(ls scripts/exporter-disclosures/*.json 2>/dev/null | sort -V | tail -1 || true)
           if [ -n "$LATEST" ]; then
             echo "exporter mode: disclosed wave census ($LATEST)"
             python3 scripts/official_examq_export_hub.py /tmp/export-stage /tmp/current-questions.json \
-              --topics-dir topics --expected-deltas "$LATEST"
+              --topics-dir topics --expected-deltas "$LATEST" --allow-new-official
           else
             echo "exporter mode: reproducibility no-op (no disclosure of record)"
             python3 scripts/official_examq_export_hub.py /tmp/export-stage /tmp/current-questions.json \
@@ -83,7 +83,7 @@ jobs:
               --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
               --current /tmp/current-questions.json \
               --report Official-ExamQuestion/igcse-chemistry-19/MULTI-SERIES-REPORT.json \
-              --disclosure "$LATEST"
+              --disclosure "$LATEST" --allow-new-official
           else
             python3 scripts/official_examq_verify_export.py verify \
               --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
@@ -94,4 +94,4 @@ jobs:
         run: |
           python3 scripts/official_examq_verify_export.py self-test \
             --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
-            --current /tmp/current-questions.json
+            --current /tmp/current-questions.json --allow-new-official

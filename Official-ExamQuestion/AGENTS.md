@@ -23,7 +23,8 @@ Official-ExamQuestion/
   spec-labels/<series>.json LLM spec-tagging wave labels (parts -> 4CH1 codes)
   MULTI-SERIES-REPORT.{md,json}   per-series gate matrix + findings + cross-diff summary
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
-  igcse-chemistry-19/<series>/4CH1-<paper>/   (1C since the prototype; 2C since v0.8/F34)
+  igcse-chemistry-19/<series>/4CH1-<paper>/   (1C since the prototype; 2C since v0.8/F34;
+                                                1CR since v0.12 — R-VARIANT tranche 1)
     topic.json              syllabai.official-paper-questions/0.1 (the product)
     questions.md            human-readable render
     validation-report.json  G0–G7 receipts + negative controls + review queue
@@ -271,10 +272,13 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   (b) DONE v0.9.0 — the 2C spec-label waves are authored
   (`spec-labels/<series>-2C.json`, labels only, G6 judges; 607/607 resolved,
   C33 pins the terminal state); (c) the repo parsed/ layer is 1C-only — a 2C
-  parsed layer would unlock the independent-parse cross-diff for 2C; (d) the
-  remaining GO'd variants (1CR ×11, 2CR ×11) run on the same kit via
-  `--paper 1CR/2CR` once their totals/counts are footer-verified into
-  `PAPER_TOTALS`/`EXPECT_QUESTIONS` and any layout findings go through the loop.
+  parsed layer would unlock the independent-parse cross-diff for 2C; (d) DONE
+  v0.12.0 for 1CR — the 11 1CR sets converted on the same kit via `--paper 1CR`
+  (registry entries filed with the outputs per the outputs-and-pipeline law;
+  F49/F50 layout repairs through the loop; wave-15 disclosure; spec-label waves
+  are the tranche's next step). 2CR remains: runs via `--paper 2CR` when its
+  tranche lands (its totals/counts are already footer-verified into the
+  registry).
 - Serving semantics (v0.6): `assets[]` entries are `kind: "crop"` (real PNG under
   `path`), or `kind: "crop"` with `shared: true` + `ref_part` (a reference to the
   part/stem figure that already owns the PNG — render the referenced `path`, do

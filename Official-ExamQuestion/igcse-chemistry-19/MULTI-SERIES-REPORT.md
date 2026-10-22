@@ -1,46 +1,58 @@
 # ADR-037 corpus run — 4CH1 1C+2C complete (all series in syllabai-pastpapers; F34)
 
-> generated 2026-10-22T03:14:09Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
-> 32 slices (['1C', '2C']) · 280 questions · 1548 parts · 2880 marks extracted · 32 slices fully PASS
+> generated 2026-10-22T10:31:11Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
+> 43 slices (['1C', '1CR', '2C']) · 398 questions · 2184 parts · 4090 marks extracted · 43 slices fully PASS
 
 | series | paper | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2019-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 15 | 64 | 110/110 | 6/6 | 0 |
+| 2019-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 55 | 110/None | 2/2 | 1 |
 | 2019-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 8 | 39 | 70/70 | 1/1 | 0 |
 | 2020-01 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 60 | 110/110 | 3/3 | 0 |
+| 2020-01 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 59 | 110/None | 5/5 | 0 |
 | 2020-01 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 39 | 70/70 | 2/2 | 0 |
 | 2020-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 64 | 110/110 | 6/6 | 0 |
+| 2020-11 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 63 | 110/None | 3/3 | 1 |
 | 2020-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 35 | 70/70 | 3/3 | 0 |
 | 2021-01 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 53 | 110/110 | 3/3 | 0 |
+| 2021-01 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 58 | 110/None | 1/1 | 1 |
 | 2021-01 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 39 | 70/70 | 1/1 | 0 |
 | 2021-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 54 | 110/110 | 2/2 | 1 |
 | 2021-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 43 | 70/70 | 1/1 | 0 |
 | 2021-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 67 | 110/110 | 1/1 | 0 |
 | 2021-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 41 | 70/70 | 3/3 | 1 |
 | 2022-01 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 65 | 110/110 | 2/2 | 0 |
+| 2022-01 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 59 | 110/None | 6/6 | 0 |
 | 2022-01 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 41 | 70/70 | 3/3 | 0 |
 | 2022-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 57 | 110/110 | 3/3 | 0 |
+| 2022-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 57 | 110/None | 1/1 | 0 |
 | 2022-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 39 | 70/70 | 2/2 | 0 |
 | 2023-01 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 12 | 60 | 110/110 | 7/7 | 0 |
+| 2023-01 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 57 | 110/None | 3/3 | 1 |
 | 2023-01 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 37 | 70/70 | 1/1 | 0 |
 | 2023-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 55 | 110/110 | 3/3 | 0 |
+| 2023-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 59 | 110/None | 3/3 | 0 |
 | 2023-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 41 | 70/70 | 3/3 | 0 |
 | 2023-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 66 | 110/110 | 2/2 | 0 |
 | 2023-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 37 | 70/70 | 4/4 | 0 |
 | 2024-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 56 | 110/110 | 4/4 | 0 |
+| 2024-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 12 | 57 | 110/None | 1/1 | 0 |
 | 2024-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 37 | 70/70 | 1/1 | 0 |
 | 2024-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 56 | 110/110 | 2/2 | 0 |
 | 2024-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 34 | 70/70 | 1/1 | 0 |
 | 2025-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 49 | 110/110 | 6/6 | 1 |
+| 2025-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 55 | 110/None | 1/1 | 0 |
 | 2025-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 6 | 38 | 70/70 | 1/1 | 0 |
 | 2025-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 59 | 110/110 | 6/6 | 0 |
 | 2025-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 6 | 31 | 70/70 | 0/0 | 0 |
 | 2026-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 9 | 56 | 110/110 | 5/5 | 1 |
+| 2026-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 57 | 110/None | 1/1 | 0 |
 | 2026-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 6 | 36 | 70/70 | 0/0 | 0 |
 
 ## Terminal states
 
 - **1C: 16/16 slices all-gates PASS** (2019-06, 2020-01, 2020-11, 2021-01, 2021-06, 2021-11, 2022-01, 2022-06, 2023-01, 2023-06, 2023-11, 2024-06, 2024-11, 2025-06, 2025-11, 2026-06)
+- **1CR: 11/11 slices all-gates PASS** (2019-06, 2020-01, 2020-11, 2021-01, 2022-01, 2022-06, 2023-01, 2023-06, 2024-06, 2025-06, 2026-06)
 - **2C: 16/16 slices all-gates PASS** (2019-06, 2020-01, 2020-11, 2021-01, 2021-06, 2021-11, 2022-01, 2022-06, 2023-01, 2023-06, 2023-11, 2024-06, 2024-11, 2025-06, 2025-11, 2026-06)
 - **1C 2020-01: G3 FAIL is honest** — the printed MS interleaves Q7(a)(ii)/(iii) marker rows; a wrong auto-key was refused (it would have keyed C where the notes prove A). Two MCQ keys need a human. Canary: `7(a)(iii)` must stay unkeyed.
 - **1C 2019-06: G1/G5 REVIEW reflect real archive damage** — 5 rasterized content pages; Q7 wholly lost (6 marks), Q1/Q11/Q12/Q15 partial. Content needs OCR/manual re-ingest; nothing was invented to fill the gaps.
