@@ -23,12 +23,12 @@ spec_of_record:
 book_of_record:
   repo: syllabai-resources
   path: edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf
-  sha256: TBD-at-first-lesson-receipt
+  sha256: d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04  # fetched+hashed one-shot 2026-10-22 (T-BOOK-032 r0, 54,298,792 bytes)
   pages: 383
 parse_of_record:
   repo: syllabai-resources
   path: parsed/edexcel_igcse_chemistry_chunks_v3.jsonl
-  sha256: TBD-at-first-lesson-receipt
+  sha256: b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33  # fetched+hashed one-shot 2026-10-22 (T-BOOK-032 r0)
   engine: ibm-docling
   chunks: 1234
   sha256_note: sha pinned at first lesson receipt (S4); parse calibrated 2026-10-22,
@@ -56,17 +56,18 @@ features:
   spaced_lookback: platform
   tts: platform-post-pilot
 box_allowlist:
-- key-point
-- exam-hint
-- misconception
-- safety
-- did-you-know
-- maths-skills
-- prior-knowledge
-- cross-curricular
-- worked-example
-- summary
-- can-you
+  - key-point
+  - exam-hint
+  - misconception
+  - safety
+  - did-you-know
+  - maths-skills
+  - prior-knowledge
+  - cross-curricular
+  - worked-example
+  - summary
+  - can-you
+  - quick-check
 section_grammar: u<unit>:c<NN>:s<NN>
 lint_pack: chem@0.1.0
 doctrine_refs:
@@ -83,6 +84,13 @@ spine:
     slug: states-of-matter
     title: States of matter
     chem_only: false
+    # join_set DERIVED (never authored): children of spine node
+    # igcse-chemistry-T1:SUBa in apps/hub/spines/igcse-chemistry-19.json
+    # (resourcesSha 888bca4a). Other chapters pin join_set at their S1.
+    # learning_objective: VERBATIM from the book's own LEARNING OBJECTIVES
+    # chunk chem_v3_u1_c1_pdf012_0023 (bullet glyphs joined with ';'; no paraphrase)
+    learning_objective: "Understand the three states of matter in terms of the arrangement, movement and energy of the particles; Understand the interconversions between the three states of matter in terms of: the names of the interconversions; how they are achieved; the changes in arrangement, movement and energy of the particles; Know what is meant by the terms: solvent; solute; solution; saturated solution; CHEMISTRY ONLY — Know what is meant by the term solubility in the units g per 100 g of solvent; Understand how the results of experiments involving the dilution of coloured solutions and diffusion of gases can be explained"
+    join_set: ["1.1", "1.2", "1.3", "1.4", "1.5C", "1.6C", "1.7C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     pages:
     - 3
     - 11

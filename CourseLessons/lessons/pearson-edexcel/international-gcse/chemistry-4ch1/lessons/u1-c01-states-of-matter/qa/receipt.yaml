@@ -1,7 +1,16 @@
-stage: S0
+stage: S1-S4
 date: "2026-10-22"
-agent: "T-BOOK-031 r0 (demo seed, session web-c414c074 trace 1a16138fde2c155d)"
-prompt_version: "n/a (hand-seeded demo)"
-lint: "SKELETON — expected: V-errors for empty sections are NOT raised until sections exist; provenance fields intentionally empty (honest-absent)"
-trace_id: "1a16138fde2c155d"
-summary: "Scaffold + s01 format demo. Next agent: section_map.py to pin the real spine, then resume from S1."
+agent: "T-BOOK-032 r0 (u1:c01 full authoring, session web-c414c074 trace 1a16150be5190d31)"
+prompt_version: "lesson-prose@1.0.0 / lesson-boxes@1.0.0 / lesson-glossary@1.0.0 (registry seeds, hand-applied this run)"
+lint: "PASS 0 errors / 0 warnings (V1-V9 at stage S4; transcript qa/lint.txt)"
+trace_id: "1a16150be5190d31"
+stages:
+  S1: "prose grounded in the chapter's 41 chunks_v3 chunks (pp. 3-11), 13/13 sections"
+  S2: "boxes per course.yaml box_allowlist: key-point, exam-hint, misconception (x13, all grounded), safety (s09, s11), did-you-know (s03, s06, s10), maths-skills (s08, s10, s11, s12, s13), worked-example (s08, s13), prior-knowledge (s01), cross-curricular (s01, s10), summary + can-you (s13), quick-check (x13)"
+  S3: "practice wired by specRefs via the derived-links law — question text never authored; book end-of-chapter questions (pp. 12-13) stay page-jump-only (licensing law)"
+  S4: "lessonPackV1.json emitted (status=draft — SUGGESTED law; operator flip is a separate command)"
+spec_join: "join_set DERIVED (never authored) from spine node igcse-chemistry-T1:SUBa in apps/hub/spines/igcse-chemistry-19.json (resourcesSha 888bca4a): 1.1, 1.2, 1.3, 1.4, 1.5C, 1.6C, 1.7C; pinned per-section and subset-checked by V3; C-points only in s11-s13 (Paper 2 band marked in prose)"
+title_refinements: "printed headings retained as provenance; learner-facing titles refined: s03 'Think about these facts:' -> 'States of matter — facts around you'; s07 printed 'DIFFUSION IN GASES' but chunk body is the dry-ice/sublimation story; s10 printed 'MEASURING SOLUBILITY' but chunk body is liquid diffusion + the particle-size estimate; s13 'EXAMPLE' -> 'Worked example — reading a solubility curve'"
+blocks: "blockIds honest-absent: the 177 VALIDATED blocks live in Neon (L3), not in-repo; renderer joins blocks by the per-section bookPage anchors (pinned from chunks_v3)"
+findings_filed: [f-0004, f-0005, f-0006]
+summary: "u1:c01 authored end-to-end for real: 13 sections S1-S4, lint GREEN 0/0, lessonPackV1.json emitted draft; 3 pipeline findings fixed at root (resume NEXT heuristic; quick-check missing from box_allowlist; phantom CLI instructions). Cross-checked against lessonPackV1 zod contract before handoff."

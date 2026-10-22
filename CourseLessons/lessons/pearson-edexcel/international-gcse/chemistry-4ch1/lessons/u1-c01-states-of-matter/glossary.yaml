@@ -1,8 +1,142 @@
 # glossary — u1:c01 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
 - term: particle model
   slug: particle-model
-  definition: "A model treating matter as moving particles; explains states via arrangement, separation and motion."
-  ms_accepts: ["particles arranged/moving differently in the three states"]
-  ms_avoids: ["particles expand when heated"]
+  definition: "A model treating all matter as made of tiny moving particles; it explains the states of matter and their changes via particle arrangement, separation and motion."
+  ms_accepts: ["matter made of tiny particles", "arrangement/movement of particles differs between states"]
+  ms_avoids: ["particles expand when heated", "particles melt"]
   aliases: ["kinetic theory (informal)"]
-  source: "seed:demo-u1c01"   # replace with chunks_v3 provenance at S1
+  source: "chem_v3_u1_c1_pdf012_0022 + chem_v3_u1_c1_pdf013_0029"
+- term: kinetic energy
+  slug: kinetic-energy
+  definition: "Movement energy. Gas particles have more kinetic energy than liquid particles, which have more than solid particles."
+  ms_accepts: ["particles in a gas have the most kinetic energy", "solid particles have least kinetic energy"]
+  ms_avoids: ["heat is a substance inside particles"]
+  aliases: ["movement energy"]
+  source: "chem_v3_u1_c1_pdf013_0029"
+- term: melting
+  slug: melting
+  definition: "The change of state from solid to liquid when a solid is heated; particles vibrate faster until attractions can no longer hold them in fixed positions."
+  ms_accepts: ["solid to liquid", "particles vibrate faster and overcome forces of attraction"]
+  ms_avoids: ["particles expand", "solid dissolves"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf013_0030"
+- term: freezing
+  slug: freezing
+  definition: "The change of state from liquid to solid on cooling; particles slow until attractions hold them in fixed, closely packed positions."
+  ms_accepts: ["liquid to solid", "particles slow down and are held in fixed positions"]
+  ms_avoids: ["liquid becomes cold solid ice instantly"]
+  aliases: ["solidifying"]
+  source: "chem_v3_u1_c1_pdf013_0030"
+- term: melting point
+  slug: melting-point
+  definition: "The temperature at which a solid melts. It is exactly the same temperature as the freezing point of the substance."
+  ms_accepts: ["temperature at which solid melts", "equal to freezing point"]
+  ms_avoids: ["temperature when a liquid evaporates"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf013_0030"
+- term: boiling
+  slug: boiling
+  definition: "Fast change from liquid to gas occurring at one temperature, the boiling point, when particles move fast enough to overcome all the forces of attraction between them."
+  ms_accepts: ["occurs only at the boiling point", "bubbles form throughout the liquid"]
+  ms_avoids: ["boiling happens at any temperature", "air bubbles rise"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf014_0032"
+- term: boiling point
+  slug: boiling-point
+  definition: "The temperature at which a liquid boils. The stronger the forces of attraction between particles, the higher the boiling point."
+  ms_accepts: ["temperature at which liquid becomes gas", "higher forces give higher boiling point"]
+  ms_avoids: ["temperature a liquid starts to evaporate"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf014_0032"
+- term: condensation
+  slug: condensation
+  definition: "The change of state from gas to liquid on cooling; particles slow down until forces of attraction hold them together."
+  ms_accepts: ["gas to liquid", "particles slow and attractions hold them together"]
+  ms_avoids: ["gas cools and shrinks into a liquid", "cold squeezes particles together"]
+  aliases: ["condensing"]
+  source: "chem_v3_u1_c1_pdf014_0032"
+- term: evaporation
+  slug: evaporation
+  definition: "Slow change from liquid to gas at any temperature; the fastest particles at the liquid surface have enough energy to overcome the attractions and break away."
+  ms_accepts: ["occurs at any temperature", "fast particles at the surface overcome forces of attraction and escape"]
+  ms_avoids: ["the liquid boils gently", "heat makes particles expand and leave"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf014_0033"
+- term: sublimation
+  slug: sublimation
+  definition: "The direct change of state from solid to gas without forming a liquid, at normal pressure. Dry ice (solid carbon dioxide) sublimes at -78.5 °C."
+  ms_accepts: ["solid changes directly to gas", "no liquid formed"]
+  ms_avoids: ["solid evaporates", "solid melts very fast"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf014_0033"
+- term: deposition
+  slug: deposition
+  definition: "The direct change of state from gas to solid without forming a liquid; the reverse of sublimation. Some sources also call this de-sublimation."
+  ms_accepts: ["gas changes directly to solid"]
+  ms_avoids: ["gas condenses into a solid liquid", "solid evaporates backwards"]
+  aliases: ["de-sublimation"]
+  source: "chem_v3_u1_c1_pdf014_0033"
+- term: room temperature
+  slug: room-temperature
+  definition: "In science, usually taken to mean a temperature between 20 and 25 °C. Because there is not one fixed value, always make clear which value you are using."
+  ms_accepts: ["approximately 20-25 °C"]
+  ms_avoids: ["whatever temperature the room feels like"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf015_0034"
+- term: diffusion
+  slug: diffusion
+  definition: "The spreading out of particles from where they are at a high concentration to where they are at a low concentration, ending in an even mixture."
+  ms_accepts: ["movement from high to low concentration", "random movement of particles causes spreading"]
+  ms_avoids: ["particles want to spread out", "particles are attracted to empty areas", "particles expand to fill"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf016_0041"
+- term: concentration
+  slug: concentration
+  definition: "How many particles there are in a certain volume: lots of particles in a volume is a high concentration; fewer in the same volume is a low concentration."
+  ms_accepts: ["number of particles per volume"]
+  ms_avoids: ["how strong a solution tastes"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf016_0041"
+- term: solute
+  slug: solute
+  definition: "The substance that dissolves in a liquid to make a solution, e.g. sodium chloride when salt dissolves in water."
+  ms_accepts: ["the substance that dissolves"]
+  ms_avoids: ["the liquid the solid dissolves in"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf017_0045"
+- term: solvent
+  slug: solvent
+  definition: "The liquid that a solute dissolves in, e.g. water in a salt solution."
+  ms_accepts: ["the liquid that the solute dissolves in"]
+  ms_avoids: ["the solid that dissolves"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf017_0045"
+- term: solution
+  slug: solution
+  definition: "The liquid formed when a solute dissolves in a solvent."
+  ms_accepts: ["mixture of solute dissolved in solvent"]
+  ms_avoids: ["any two liquids poured together"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf017_0045"
+- term: saturated solution
+  slug: saturated-solution
+  definition: "A solution containing as much dissolved solid as possible at a particular temperature; some undissolved solute must be present."
+  ms_accepts: ["maximum dissolved solute at that temperature", "undissolved solid remains"]
+  ms_avoids: ["a very concentrated solution (at any temperature)"]
+  aliases: ["saturation"]
+  source: "chem_v3_u1_c1_pdf017_0045"
+- term: solubility
+  slug: solubility
+  definition: "The mass of solute that must dissolve in 100 g of solvent at a stated temperature to form a saturated solution, in g per 100 g of solvent. Always quote the temperature."
+  ms_accepts: ["g per 100 g of solvent at a stated temperature"]
+  ms_avoids: ["how much dissolves (no temperature quoted)"]
+  aliases: []
+  source: "chem_v3_u1_c1_pdf017_0046 + chem_v3_u1_c1_pdf019_0050"
+- term: crystallisation
+  slug: crystallisation
+  definition: "The formation of solid crystals from a saturated solution as it cools and the solubility falls; also called precipitating out."
+  ms_accepts: ["crystals form as a saturated solution cools", "solubility decreases so excess solute comes out"]
+  ms_avoids: ["the water turns into crystals", "cooling makes more solute dissolve"]
+  aliases: ["precipitating out"]
+  source: "chem_v3_u1_c1_pdf019_0053"

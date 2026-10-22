@@ -6,7 +6,7 @@
 > allowed for narrative notes only — status truth lives in `tracker.yaml`
 > via `lessonctl.py tracker` transactions (receipt-anchored).
 
-**Last regenerated:** 2026-10-22 (seed) · **Agent convention:** every status
+**Last regenerated:** 2026-10-22 (T-BOOK-032 r0) · **Agent convention:** every status
 change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 
 ---
@@ -23,7 +23,7 @@ change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 
 | # | Lesson (chapter_key) | Folder | Stage | Sections done | Boxes | Lint | Last receipt | Owner (last agent) |
 |---|---|---|---|---|---|---|---|---|
-| 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S1 | 1/13 (real spine pinned r1) | — | PASS (0/0) | qa/receipt.yaml (S0-L0 calibration) | T-BOOK-031 r1 |
+| 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S4 (authored) | 13/13 | full allowlist coverage (key-point/exam-hint/misconception ×13; quick-check ×13; worked-example ×2; safety ×2; closing set) | PASS (0/0, stage S4) | qa/receipt.yaml (S1-S4) | T-BOOK-032 r0 |
 
 (Sections column = `sections[].status: done` count vs spine length.
 Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+.)
@@ -32,7 +32,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 
 | Phase | Lessons | Status |
 |---|---|---|
-| Pilot gate | u1:c01–c05 | S0 scaffolded (c01 demo seed only) |
+| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4, draft pack emitted); c02–c05 next** |
 | Unit 1 rest | u1:c06–c10 | not started |
 | Unit 2 | u2:c11–c18 | not started |
 | Unit 3 | u3:c19–c21 | not started |
@@ -47,6 +47,9 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 | f-0001 | process | u1-c01 | warn | **closed (f-0003)** | section_map key-mapping UNCALIBRATED → calibrated 2026-10-22; full 29-chapter sweep GREEN (341 sections, pages pinned) |
 | f-0002 | lint-false-positive | u1-c01 s01 | error | closed | V4 flagged misconception box quoting the wrong idea → lessonctl r0.2 strips :::misconception blocks before scan |
 | f-0003 | process | u1-c01 | warn | closed | f-0001 closure receipt: schema of record documented in section_map.py r1; 29 section-maps pre-stored |
+| f-0004 | tool-bug | u1-c01 | warn | closed | resume printed 'NEXT: S2 boxes' with 12/13 files missing → lessonctl r0.3 derives NEXT from per-section file reality |
+| f-0005 | spec-gap | u1-c01 | warn | closed | box_allowlist omitted quick-check → appended (course.yaml r0.1) |
+| f-0006 | tool-bug | u1-c01 | info | closed | tracker printed phantom 'report --write-md' instruction → message corrected; CLI output-instruction audit (lessonctl r0.3) |
 
 ## Decisions log (operator-level, newest first)
 
@@ -54,3 +57,4 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 |---|---|---|
 | 2026-10-22 | Lesson = primary year-round surface; rail stays as PDF companion; PDF untouched | operator "both" (trace 1a1611a346d9725d) |
 | 2026-10-22 | CourseLessons lives in syllabai-resources, organized by board/qual/subject; self-improving; any-agent | operator (trace 1a16138fde2c155d) |
+| 2026-10-22 | Both scaffold PRs merged (syllabai-v2#291, syllabai-resources#39); operator ordered real authoring of u1:c01 + T-BOOK-033 renderer | operator (trace 1a16150be5190d31) |
