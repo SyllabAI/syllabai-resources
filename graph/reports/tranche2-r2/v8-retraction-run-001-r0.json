@@ -1,0 +1,85 @@
+{
+ "lane": "T-RULE-T2-V8-RETRACT-1",
+ "bank": "cie-a-level-chemistry-25",
+ "generatedUtc": "2026-10-23T06:20:00Z",
+ "directive": "7-sid V8 retraction batch (operator trace 1a16541e55a06bd1)",
+ "sources": {
+  "resolutionReceipt": "download/tranche2_conditional_resolution_r0.json (SyllabAI/syllabai-v2 of record) — sha256 384c27fb58d6093a",
+  "relationSurface": "anchors.operatorSidAnchors @ 3838a264 (relationToV8 per record)",
+  "v2OfRecord": "T-RULE-T2-APPLY-2 run-002 (PR #300 @ 17e2c89e) disclosures block",
+  "substrateSidecar": "spec-links/cie-a-level-chemistry-25.json @ 3838a264 — sha256 7d23b94793974852f8e74c73db6a3b48bff82036109d2e1ac6e4c06c52b16188"
+ },
+ "counts": {
+  "sids": 7,
+  "entriesRemoved": 42,
+  "entriesAdded": 12,
+  "verifyOnlyGroups": 1,
+  "partsUncoded": 1,
+  "partsChanged": 37
+ },
+ "perSid": {
+  "6kfK": {
+   "relation": "CORRECTS",
+   "removed": 14,
+   "added": 6,
+   "verifyOnly": 3,
+   "note": "24.2.3/24.2.4 retracted; 24.2.5 on X5hr/ZbJV/nzqD, 24.2.7 on hGxz/nqFf/Wh3s; 24.2.7 verify-only on qWgy/N3SD/Yqdn (J4)"
+  },
+  "HmMg": {
+   "relation": "CORRECTS",
+   "removed": 22,
+   "added": 4,
+   "verifyOnly": 0,
+   "note": "6.1.2 rejected of record; 6.1.3 on x5mV/xNvK/P2R5/JMZJ; 6.1.1 kept"
+  },
+  "Zt25": {
+   "relation": "CORRECTS",
+   "removed": 1,
+   "added": 0,
+   "verifyOnly": 0,
+   "note": "28.1.3 rejected; 28.1.2 kept; 1.3.8 stays sid-anchor-plane (cards absent from the sidecar item plane)"
+  },
+  "YpKq": {
+   "relation": "EXTENDS",
+   "removed": 0,
+   "added": 1,
+   "verifyOnly": 0,
+   "note": "24.2.1 added on tGPZ; 24.2.3/24.2.4 kept (no retraction needed)"
+  },
+  "Ytmx": {
+   "relation": "EXTENDS",
+   "removed": 0,
+   "added": 1,
+   "verifyOnly": 0,
+   "note": "19.2.3 added on fHBn; 19.2.2 kept; 19.2.1 was never a V8 entry"
+  },
+  "WXp9": {
+   "relation": "NARROWS",
+   "removed": 4,
+   "added": 0,
+   "verifyOnly": 0,
+   "note": "12.1.4 demoted to secondary (removed from codes); 12.1.3 kept"
+  },
+  "jptn": {
+   "relation": "NARROWS",
+   "removed": 1,
+   "added": 0,
+   "verifyOnly": 0,
+   "note": "13.1.2 demoted to secondary (removed); 13.1.1 kept"
+  }
+ },
+ "disclosures": [
+  "qstnprt_8W7sTFyZCChbbB8q goes to zero codes (mis-tag residual owns the 26.1.4 re-point)",
+  "qstnprt_zm7pJv9p2Hgg8kd4 keeps 6.1.1, loses 6.1.2 (its 24.2.x re-point is the mis-tag residual)",
+  "anchors.operatorSidAnchors byte-frozen (additive-only law); this record opens its gate",
+  "manifest courses row untouched (pre-existing stale census owned by the regen lane)"
+ ],
+ "sidecar": {
+  "file": "spec-links/cie-a-level-chemistry-25.json",
+  "sha256Before": "7d23b94793974852f8e74c73db6a3b48bff82036109d2e1ac6e4c06c52b16188",
+  "sha256After": "ddf8173503b7926b6d4dbac3cab8d13a2b0e3448b9b1513a87d07166bf7cef74",
+  "bytesBefore": 702895,
+  "bytesAfter": 702871
+ },
+ "next": "v2 consume re-run at this tip advances the pin of record (T-RULE-T2-APPLY-2 run-003 posture; roster/validator pins advance with disclosure)"
+}
