@@ -287,3 +287,31 @@ served bundle PR carries a full disclosure census.
   `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-2. Rights
   © Cambridge/UCLES/MAT/NRICH per file; takedown law unchanged. Base commit
   d89c2e6b.
+
+- **T-UGM-MODE1-3 — UGM mode-1 lane enrichment, Coordinate geometry lane (this run)**: fourth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Enrichment/` lane family to CIE 9709 P1
+  subtopic 1.3 Coordinate geometry under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md`
+  Amendment 2026-10-23). New file `cie-a-level-maths-20-pure-1-coordinate-geometry.json`: the first **two-station
+  lane** (geometry-of-equations 34/38 + circles 27/47 = 61/85 aligned, 77 alignment rows), hub-spine parse
+  fragments 1.3.1a/1.3.2a folded into parent codes 1.3.1/1.3.2 of record (spine export keeps all four rows
+  verbatim); 24 honest non-overlaps with recorded reasons (the circles station's radian-mensuration/circle-theorem
+  strands serve CIE 1.4 / IAL lanes, never forced); primary picks straight-line-pairs (1.3.1) and teddy-bear
+  (1.3.2); provenance strings preserved (44/61 aligned rows with UCLES/MAT/UKMT/O&C tuples). FACTS ONLY:
+  slugs/titles/types/levels/relations/provenance — no UGM text bodies; rights © Cambridge/UCLES/MAT/UKMT/O&C
+  unchanged (licensing block in-file + dir README). Mode-2 deep-link rendering remains dropped (operator
+  directive 2026-10-22, recorded in `mode2Note`); the text route is the 2026-10-23 operator attestation.
+  Base commit cb947595 (syllabai-experimental).
+
+- **T-UGM-IMPORT-3 — UGM text corpus import, Coordinate geometry lane (this run)**: fourth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Resources/` corpus family to its third
+  lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23). New
+  `UGM-Resources/pure-1-coordinate-geometry/`: the **text bodies** of the 85 geometry-of-equations + circles
+  resources as YAML-front-matter markdown. Text-only import law: math preserved byte-true in UGM's native
+  `\( \)` / `\[ \]` delimiters (build audit 85/85 files balanced, rendered delimiter census exactly equals the
+  ugm-clean section census per file; questionWell verified 0/85 additive — a pre-normalised duplicate of the
+  Question panel, excluded from the census); UGM section structure/panel titles/provider spellings preserved;
+  figures and GeoGebra components recorded as front-matter/inline markers, NOT fetched. `MANIFEST.json` bumps to
+  **v3**: lane-3 block fresh (85 rows, sha256 each), lane-1/2 rows untouched from v2. Spec-point mappings are the
+  P3c lane-3 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — 24 honest
+  non-overlaps) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-3. Rights ©
+  Cambridge/UCLES/MAT/UKMT/O&C per file; takedown law unchanged. Base commit cb947595 (syllabai-experimental).
