@@ -157,6 +157,23 @@ spine:
     pages:
     - 38
     - 59
+    # join_set DERIVED (never authored): spec points whose statements appear in
+    # the chapter's LEARNING OBJECTIVES chunk chem_v3_u1_c5_pdf047_0145, each
+    # matched to the spine node igcse-chemistry-T1:SUBe (12 children 1.25-1.36C
+    # in apps/hub/spines/igcse-chemistry-19.json). Pinned at S1 (T-BOOK-037 r0,
+    # 2026-10-23). The objectives list carries exactly TEN of the twelve —
+    # 1.34C (concentration) and 1.35C (gas volumes) are ABSENT from the
+    # chapter's objectives and its 38-59 page span; they belong to part 2
+    # (u1:c06, pp. 64-71). All ten are non-suffixed (papers 1C+2C,
+    # double_award_shared). This supersedes any preview guess that part 1
+    # carries the C-suffixed points.
+    # learning_objective: VERBATIM from chunk chem_v3_u1_c5_pdf047_0145
+    # (margin items in printed order; bullet glyphs joined with ';'; the two
+    # sub-bullets of the 1.25 objective joined inline after its ':' lead;
+    # OCR-repairs per house style, disclosed in the receipt: '(M)'->Mᵣ,
+    # '(A)'->Aᵣ, 'copper(Il)'->copper(II); no paraphrase)
+    learning_objective: "Write word equations and balanced chemical equations (including state symbols): for reactions studied in this course; for unfamiliar reactions where suitable information is provided; Calculate relative formula masses (including relative molecular masses) (Mᵣ) from relative atomic masses (Aᵣ); Calculate percentage yield; Understand how the formulae of simple compounds can be obtained experimentally, including metal oxides, water and salts containing water of crystallisation; Know what is meant by the terms empirical formula and molecular formula; Know that the mole (mol) is the unit for the amount of a substance; Calculate empirical and molecular formulae from experimental data; Understand how to carry out calculations involving amount of substance, relative atomic mass (Aᵣ) and relative formula mass (Mᵣ); Practical: Know how to determine the formula of a metal oxide by combustion (e.g. magnesium oxide) or by reduction (e.g. copper(II) oxide); Calculate reacting masses using experimental data and chemical equations"
+    join_set: ["1.25", "1.26", "1.27", "1.28", "1.29", "1.30", "1.31", "1.32", "1.33", "1.36"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     widget_density: high
     section_count: 36
   - key: u1:c06

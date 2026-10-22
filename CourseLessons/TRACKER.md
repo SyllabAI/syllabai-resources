@@ -6,7 +6,7 @@
 > allowed for narrative notes only — status truth lives in `tracker.yaml`
 > via `lessonctl.py tracker` transactions (receipt-anchored).
 
-**Last regenerated:** 2026-10-23 (T-BOOK-036/flip r0 — u1:c04 pack flipped DRAFT → PUBLISHED, operator command trace 1a164f4cfb54fb65) · **Agent convention:** every status
+**Last regenerated:** 2026-10-23 (T-BOOK-037 r0 — u1:c05 authored end-to-end S1–S4, 36/36, pack emitted draft) · **Agent convention:** every status
 change carries `receipt:` pointing at the lesson's `qa/receipt.yaml` (published flips: `qa/flip-published.yaml`).
 
 ---
@@ -27,6 +27,7 @@ change carries `receipt:` pointing at the lesson's `qa/receipt.yaml` (published 
 | 2 | u1:c02 Elements, compounds and mixtures | `lessons/u1-c02-elements-compounds-mixtures/` | S4 (authored; **pack PUBLISHED**) | 10/10 | full allowlist coverage (key-point/exam-hint/misconception/quick-check ×10; worked-example ×2; maths-skills ×2; safety ×1; prior-knowledge ×1; cross-curricular ×2; closing set; did-you-know honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-034 r0 (author) / T-BOOK-034/flip r0 (publish) |
 | 3 | u1:c03 Atomic structure | `lessons/u1-c03-atomic-structure/` | S4 (authored; **pack PUBLISHED**) | 11/11 | full allowlist coverage (key-point ×10; exam-hint/misconception/quick-check ×11; worked-example ×2; maths-skills ×1; prior-knowledge ×1; cross-curricular ×2; closing set; did-you-know + safety honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-035 r0 (author) / T-BOOK-035/flip r0 (publish) |
 | 4 | u1:c04 The periodic table | `lessons/u1-c04-periodic-table/` | S4 (authored; **pack PUBLISHED**) | 12/12 | full allowlist coverage (key-point ×10; exam-hint/misconception/quick-check ×12; worked-example ×2; maths-skills ×1; prior-knowledge ×1; cross-curricular ×2; did-you-know ×2 (census-true); closing set; safety honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-036 r0 (author) / T-BOOK-036/flip r0 (publish) |
+| 5 | u1:c05 Formulae and calculations (part 1) | `lessons/u1-c05-formulae-calculations-1/` | S4 (authored; **pack DRAFT — awaiting operator flip**) | 36/36 | full allowlist coverage (exam-hint/misconception/quick-check ×36; key-point ×9; worked-example framing on the book's 8 EXAMPLE sections (in prose — EXAMPLEs are section titles here); safety ×4 (census-true — first multi-safety chapter); prior-knowledge s01; cross-curricular s31; closing set; maths-skills folded into exam-hints (the chapter IS the maths chapter); did-you-know honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/receipt.yaml (S1-S4) | T-BOOK-037 r0 |
 
 (Sections column = `sections[].status: done` count vs spine length.
 Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+.)
@@ -35,7 +36,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 
 | Phase | Lessons | Status |
 |---|---|---|
-| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a162e924c017891; hub re-bake same day); c02 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a163f5c9173aa49); c03 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a164915672f5ba5); c04 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a164f4cfb54fb65) — c05 next (Formulae and calculations part 1, pp. 38–59, the big one)** |
+| Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a162e924c017891; hub re-bake same day); c02 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a163f5c9173aa49); c03 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a164915672f5ba5); c04 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a164f4cfb54fb65, live-verified at the production origin); c05 authored end-to-end (S4, 36/36 — the big one) + pack DRAFT awaiting flip (T-BOOK-037 r0, trace 1a16517d60dbb92d) — the pilot gate's last lesson** |
 | Unit 1 rest | u1:c06–c10 | not started |
 | Unit 2 | u2:c11–c18 | not started |
 | Unit 3 | u3:c19–c21 | not started |
