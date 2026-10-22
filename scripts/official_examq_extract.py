@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.10.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.11.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -147,9 +147,50 @@ FURNITURE_LINE = [
 ]
 
 
+# ------------------------------------------------- v0.11 (F46): PUA→Unicode
+# The pdftotext -layout text layer renders symbol-font glyphs as Private Use
+# Area codepoints (Word maps symbol bytes to U+F0xx; MathType/SymbolMT also
+# uses U+F8Ex). AGENTS.md forbade ad-hoc fixes and mandated a converter-level
+# mapping table with its own parity run — this is that table. Every entry is
+# evidence-checked (font traces via get_texttrace + region renders, wave 14):
+PUA_MAP = {
+    "\uf0a2": "",        # Wingdings2 g132: dotted answer-space separator segments —
+                         #   layout furniture (QP renders: 4 segments = 1 rule); strip
+    "\uf022": "\u2192",  # → (2019-06/2020-11-era producer; 'N2 + 3H2 → 2NH3'; also
+                         #   Wingdings3 g5 '2C4H6 + 7O2→ 2C ...')
+    "\uf02d": "\u2212",  # − ionic/superscript minus ('2Cl⁻', '2e(−)', '(−)910 kJ/mol')
+    "\uf044": "\u0394",  # Δ (Symbol byte 0x44; '(ΔH =) − 3600 kJ/mol')
+    "\uf072": "\u0394",  # Δ (Wingdings3 g85, 2020-11 producer; 'M4 △H correctly shown')
+    "\uf083": "\u21cc",  # ⇌ equilibrium ('N2O4(g) ⇌ 2NO2(g)', 'meaning of the symbol ⇌')
+    "\uf097": "\u2022",  # • list bullet (2021-06 producer, QP option/method lists)
+    "\uf09f": "\u2022",  # • list bullet (Wingdings2, method steps/table cells)
+    "\uf0ad": "\u2191",  # ↑ Energy-axis arrowhead (CIDFont+F7 g110, 2022-06 profile)
+    "\uf0ae": "\u2192",  # → (2022-06-era producer; '2Li + Cl2 → 2LiCl')
+    "\uf0b0": "\u00b0",  # ° ('600 and 700 (°C)', 'approximately 68 °C')
+    "\uf0b4": "\u00d7",  # × ('0.266 × 6.0e23', '100 × 4.2 × 49.5')
+    "\uf0b7": "\u2022",  # • (Symbol bullet, 2019-06 MS method lists)
+    "\uf0b8": "\u00f7",  # ÷ ('0.0129 ÷ 2', '0.92 ÷ 46')
+    "\uf0e0": "\u2192",  # → (SymbolMT, 2020-01 era; 'S + O2 → SO2')
+    "\uf0e5": "\u03a3",  # Σ ('Σ bonds broken', 'Σ bond energies on LHS')
+    "\uf0fc": "\u2713",  # ✓ tick ('Add ticks (✓)', MS concordant/answer tick tables)
+    "\uf8e7": "\u2500",  # ─ horizontal bond stroke (SymbolMT g127 displayed formulas,
+                         #   H─C─C─C─C─H; vertical strokes extract as 'I' pre-existing)
+}
+_PUA_RE = re.compile("[" + "".join(PUA_MAP) + "]")
+
+
+def de_pua(s: str) -> str:
+    """F46: map source-layer PUA glyphs to real Unicode (PUA_MAP above).
+    Applied at the single text-ingestion choke point so every derived field
+    (problem_md, source_norm, solution_md, mark_points, stems) stays
+    internally consistent for G2's verbatim comparison."""
+    return _PUA_RE.sub(lambda m: PUA_MAP[m.group(0)], s)
+
+
 def clean_lines(raw: str):
     out = []
     for ln in raw.splitlines():
+        ln = de_pua(ln)
         for rx, rep in FURNITURE_SUBS:
             ln = rx.sub(rep, ln)
         if any(rx.match(ln) for rx in FURNITURE_LINE):
@@ -298,8 +339,16 @@ def finalize_part(lines):
 
 
 # ---------------------------------------------------------------- stage 3: MS linkage
+# v0.11 (F47): indent cap 20 → 30 — the 2023-11 6(c)/(d) tables print inline
+# '(ii) <answer>' marker rows at indent 22 (the two-column answer layout puts
+# the roman at the marker column of a WIDER table), so the rows fell through
+# to the previous entry's content: 6(c)(ii)/6(d)(ii) stayed unlinkable while
+# 6(c)(i)/6(d)(i) carried the (ii) blocks as verbatim pollution. Marker-ONLY
+# rows stay gated at ≤12 (F42's hijack guard is untouched); this cap only
+# admits rows that CARRY CONTENT (\S required), and the wave-14 full-corpus
+# parity diff pins the blast radius to exactly the 2023-11 Q6 parts.
 MS_ROW_RE = re.compile(
-    r"^ {0,20}(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\)\s*)?(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\)\s*)?(\S.*)$")
+    r"^ {0,30}(?:(\d{1,2})\s+)?(?:\(([a-h])\s*\)\s*)?(?:\(([Ii]{1,3}|[Ii][Vv]|[Vv]|[Vv][Ii]{1,3})\s*\)\s*)?(\S.*)$")
 # F42 marker-column gate: marker rows sit in the MS table's marker column
 # (indent <= 12 in every observed layout); the answer column starts deeper.
 # Without the gate, answer-cell fragments like the unit '(g)' hijack the
@@ -1298,16 +1347,91 @@ def main():
             # awardable points; unlinked parts emit nothing (fields stay None)
             p["solution_md"], p["mark_points"], p["_ms_marks"] = build_solution(p, lines, series)
 
+    # ---- v0.11 (F48): ANSWER-LINKS.json — human-adjudicated linkages -------
+    # The honest-refusal residue: parts whose MS answer exists only as a
+    # printed IMAGE (no extractable text layer), so positional linkage can
+    # never attach text (C52's 2019-06 3(d)(ii) terminal state). The ledger
+    # carries the eyeballed transcription + the exact MS-image rect (rendered
+    # MS page as evidence); the converter renders the crop deterministically
+    # at CROP_DPI and links the part. Fail-closed on every precondition —
+    # a stale or wrong ledger entry ABORTS the run instead of guessing.
+    # Keys are (series, paper, part) so homes never collide across papers
+    # (F39 convention).
+    _ANSWER_LINKS_PATH = RES_DIR / "Official-ExamQuestion" / "ANSWER-LINKS.json"
+    answer_links = {}
+    if _ANSWER_LINKS_PATH.exists():
+        for _e in json.loads(_ANSWER_LINKS_PATH.read_text()).get("entries", []):
+            answer_links[(_e["series"], _e.get("paper", "1C"), _e["part"])] = _e
+    answer_links_applied = []
+    if answer_links:
+        (OUT / "assets").mkdir(parents=True, exist_ok=True)
+        _ms_doc = fitz.open(MS_PDF)
+        for q in doc_questions:
+            for p in q["parts"]:
+                e = answer_links.get((series, paper, p["part_number"]))
+                if e is None:
+                    continue
+                _wl = f"F48 answer-link {series}/{paper}/{p['part_number']}"
+                if p["answer_status"] == "linked":
+                    raise SystemExit(f"{_wl}: part now auto-links — ledger entry is stale, remove it")
+                _mp = e.get("mark_points") or []
+                if not (e.get("solution_md") or "").strip() or not _mp:
+                    raise SystemExit(f"{_wl}: entry lacks solution_md/mark_points")
+                if sum(x["marks"] for x in _mp) != p["marks"]:
+                    raise SystemExit(f"{_wl}: mark_points sum != part marks {p['marks']}")
+                _rc = e.get("answer_crop") or {}
+                _pg, _rect = _rc.get("page"), _rc.get("rect")
+                if (not isinstance(_pg, int) or not (1 <= _pg <= len(_ms_doc))
+                        or not isinstance(_rect, list) or len(_rect) != 4
+                        or not all(isinstance(x, (int, float)) and x >= 0 for x in _rect)):
+                    raise SystemExit(f"{_wl}: malformed answer_crop {_rc!r}")
+                _mspg = _ms_doc[_pg - 1]
+                _clip = fitz.Rect(*[float(x) for x in _rect]) & _mspg.rect
+                if _clip.is_empty or _clip.width < 20 or _clip.height < 20:
+                    raise SystemExit(f"{_wl}: degenerate answer_crop rect {_rect}")
+                _aid = ("asset_" + p["part_number"].replace("(", "_").replace(")", "")
+                        + "_ms_answer")
+                _rel = f"assets/{_aid}.png"
+                _mspg.get_pixmap(clip=_clip, dpi=CROP_DPI).save(str(OUT / _rel))
+                p["solution_md"] = e["solution_md"]
+                p["mark_points"] = [
+                    {"id": f"{series}-{p['part_number'].replace('(', '-').replace(')', '')}-MP{i + 1}",
+                     "marks": x["marks"], "text_md": x["text_md"]}
+                    for i, x in enumerate(_mp)]
+                p["answer_status"] = "linked"
+                p["answer_key_source"] = "answer-links-ledger"
+                p["manual_linkage"] = True
+                p["solution_source"] = (
+                    "transcribed-from-ms-image (ANSWER-LINKS.json); rendered answer image at "
+                    + _rel)
+                # asset attach is DEFERRED (private key, attached after the
+                # crop machinery) — the page-anchoring phase rebuilds
+                # p["assets"] from figure mentions, so an asset appended here
+                # would be silently discarded.
+                p["_ms_answer_asset"] = {
+                    "id": _aid, "kind": "crop", "mention": "MS answer image",
+                    "source": "ms.pdf", "page": _pg, "review": False,
+                    "path": _rel, "render": "raster",
+                    "text_coverage": text_coverage(_mspg, _clip),
+                    "manual_answer_crop": True}
+                answer_links_applied.append(f"{series}:{paper}:{p['part_number']}")
+
     # ---- page anchoring + assets -------------------------------------------
     pdf = fitz.open(QP_PDF)
-    page_norm = [norm(pg.get_text()) for pg in pdf]
+    # v0.11 (F49): page_norm passes through the SAME PUA map as the emitted
+    # text — the F46 mapping turned probes like 'Give the meaning of the
+    # symbol ⇌' into real-Unicode needles, but PyMuPDF's page layer still
+    # carries \uf083, so the probe could no longer match and parts lost their
+    # page anchor (2020-01 1C 10(a)(ii), 2023-01 1C 12(c)(i)). One canonical
+    # form on both sides of the probe match.
+    page_norm = [norm(de_pua(pg.get_text())) for pg in pdf]
     # v0.10 (F41): OCR-covered pages contribute their prepared text to the
     # page-normalized index, so mentions on recovered pages anchor with real
     # page attribution.
     for e in ocr_pages:
         t = (P["ocr_index"].parent / f"qp-p{e['page']:02d}.txt").read_text()
         if e["page"] - 1 < len(page_norm):
-            page_norm[e["page"] - 1] = norm(t)
+            page_norm[e["page"] - 1] = norm(de_pua(t))
     # source-defect census: rasterized pages carry no text layer (seen in 2019-06:
     # 8 image-only pages; Q7 lost entirely, Q1/Q11/Q12/Q13/Q15 partly)
     IMG_ONLY_CHARS = 40
@@ -2055,6 +2179,15 @@ def main():
                     a["review"] = False
                     a["review_verdict"] = "stub-accepted"
 
+    # v0.11 (F48): attach the deferred MS answer-image crops now — every asset
+    # machinery pass (mention rebuild, crop resolution, verdict application)
+    # has run, so the ledger crop survives to the emitted topic.
+    for q in doc_questions:
+        for p in q["parts"]:
+            _ma = p.pop("_ms_answer_asset", None)
+            if _ma:
+                p.setdefault("assets", []).append(_ma)
+
     # ---- spec tags: v0.5 demo seeds + v0.7 llm spec-tagging waves -----------
     # Labels only (AGENTS.md review taxonomy: 'pending-llm' -> seed via LLM as
     # labels, re-validated by G6). Wave files live in spec-labels/<series>.json
@@ -2228,10 +2361,15 @@ def main():
     cov = linked / len(parts_all)
     status = "PASS" if cov >= 0.8 else ("REVIEW" if cov >= 0.5 else "FAIL")
     unmatched = [p["part_number"] for p in parts_all if p["answer_status"] != "linked"]
+    _g5_sum = f"MS linkage {linked}/{len(parts_all)} ({cov:.0%})"
+    if answer_links_applied:
+        _g5_sum += f"; {len(answer_links_applied)} ledger-adjudicated ({', '.join(answer_links_applied)})"
     report["gates"].append({"gate": "G5-answer-linkage", "status": status,
-                            "summary": f"MS linkage {linked}/{len(parts_all)} ({cov:.0%})",
+                            "summary": _g5_sum,
                             "details": {"unmatched": unmatched}})
     report["review_queue"].extend([{"part": pn, "reason": "answer not auto-linked to MS"} for pn in unmatched])
+    if answer_links_applied:
+        report["manual_linkages"] = answer_links_applied
 
     # G6 registry codes — documented registry gaps go to REVIEW; unknown codes FAIL
     ALLOWED_GAPS = {"4CH1-3.15C"}   # chemistry-only rates practical; SME notes corpus lacks it

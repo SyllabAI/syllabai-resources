@@ -20,6 +20,8 @@ Official-ExamQuestion/
   CHANGELOG.md              converter version history
   CROP-REVIEW.json          durable human eyeball verdicts for figure crops (F29)
   MCQ-KEYS.json             durable human-adjudicated MCQ keys + corrected MS rows (F37)
+  ANSWER-LINKS.json         durable human-adjudicated answer linkages for MS-image
+                            answers (transcription + rendered crop) (F48)
   spec-labels/<series>.json LLM spec-tagging wave labels (parts -> 4CH1 codes)
   MULTI-SERIES-REPORT.{md,json}   per-series gate matrix + findings + cross-diff summary
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
@@ -116,9 +118,13 @@ session and MUST be DETECTED 3/3 — otherwise the run is void.
   "crop-required"` entries stay in the review queue (blank-to-complete diagrams,
   rasterized source pages) until a `review_verdict: "stub-accepted"` records the
   eyeballed no-croppable-figure decision (v0.7.1 verdict vocabulary, F32).
-- Known verbatim limitation: PUA glyphs in the source text layer (e.g. `\uf0b4` for
-  ×) pass through un-mapped; a PUA→Unicode pass is future work and must not be done
-  ad hoc inside the converter.
+- Symbol-font source glyphs are PUA-mapped to real Unicode by the converter-level
+  `PUA_MAP` table at the single text-ingestion choke point (v0.11.0, F46 — the
+  previously documented pass-through limitation is RESOLVED): ×, ÷, −, →, ⇌, °, Σ, Δ,
+  •, ✓, ─, ↑ all serve as real characters; the Wingdings answer-space separator is
+  furniture and is stripped. Every entry is evidence-checked (font traces + region
+  renders); a NEW source glyph must join `PUA_MAP` (with evidence) — it must never
+  reach the corpus raw (C60 scans every topic.json).
 
 ## Spec tagging (v0.7 spec-point waves)
 
@@ -159,6 +165,24 @@ MS page. Known printed typo: (ii)'s fourth rebuttal reads 'C is incorrect as
 iodine is dark grey' — corrected to D in the corpus (iodine is option D; C is
 the keyed answer), verbatim text preserved in the ledger entry.
 
+## Answer-linkage adjudication ledger (v0.11.0)
+
+`ANSWER-LINKS.json` is the durable record for answer linkages the converter must
+NEVER synthesize: parts whose mark-scheme answer exists only as a PRINTED IMAGE
+(no extractable text layer — positional linkage honestly refuses, F42's 3(d)(ii)).
+Each entry carries the rendered-MS-page evidence, the exact answer-image rect
+(ms.pdf points), a verbatim transcription, and the deciding trail. The converter
+applies entries fail-closed AFTER auto-linkage: the part must still be unmatched,
+mark_points must sum to the part's marks, the rect must be well-formed (≥20pt per
+side), and a part that starts auto-linking makes the entry stale = run ABORTS. The
+rendered answer image ships as an asset (`manual_answer_crop: true` — deliberately
+outside CROP-REVIEW's verdict vocabulary, C22 untouched); the part carries
+`answer_key_source: "answer-links-ledger"`, `manual_linkage: true` and a
+`solution_source` disclosure. C61 keeps ledger↔corpus consistent in both
+directions; C52 pins the 3(d)(ii) state. Adjudications are HUMAN decisions
+(rendered-page evidence in each entry); agents must not append entries without
+rendering and viewing the MS page.
+
 ## Crop-review verdict ledger (v0.7.1)
 
 `CROP-REVIEW.json` is the durable eyeball record; verdicts are applied AFTER all
@@ -197,6 +221,7 @@ required` entries.
 | `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | since v0.10.1 (F45): eyeball the page; if a printed region exists, record a `manual_crop` box in CROP-REVIEW.json (accepted verdict) — otherwise keep the stub with evidence |
 | `figure crop emitted — human verify` | crop rendered but low-confidence (no text anchor, text-heavy region) | re-render/adjust; never delete silently |
 | `spec code ... not in registry` | registry gap or invalid code        | propose, human accepts |
+| `answer not auto-linked to MS` | positional linkage found no MS text (EMPTY corpus as of v0.11.0/F46-F49) | since v0.11.0 (F48): if the MS answer is a printed image, adjudicate it into ANSWER-LINKS.json (rendered-page evidence + transcription + crop rect); if it is text, fix the parser through the loop — never key by guessing |
 | `Q<N> ... image-only`    | rasterized source pages, content lost      | build the F41 OCR source layer (`scripts/prep_ocr_layer_2019.py` pattern), re-run gates; 2019-06 is done |
 | (tagging states)         | `no-spec-point` = terminal decision; `pending-llm` = undecided, must not persist on the labelled tranche | decide with spec-PDF evidence, or tag |
 
@@ -244,7 +269,8 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Human review queues (v0.10.1 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
+- Human review queues (v0.11.0 state): EMPTY corpus-wide. MCQ keys for 2020-01 Q7(a)
+  are RESOLVED —
   the printed MS itself misplaces the answer rows (a source-document defect), so
   the two refused keys were human-adjudicated against the rendered MS page into
   MCQ-KEYS.json (7(a)(ii)=C chlorine, 7(a)(iii)=A astatine; the 7(a)(i) block
@@ -254,17 +280,24 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   for hydrogen density (airship), NO-recycling in the nitric acid process, or
   safety precautions (verified against the published spec PDF); entries live in
   the series spec-labels files and C32 pins them (F38; 2C's 607 parts were resolved by their first wave (v0.9.0): 584 tagged + 23 terminal no-spec-point; C33 pins it). Crop review is EMPTY and TERMINAL (v0.10.1, F45): all 8 crop-required stubs are dispositioned — 4 manual-cropped from their printed scaffolds/table (2020-11 5(b)(iv), 2023-11 6(b), 2024-06 7(b), 2019-06 15(a) off the rasterized scan) and 4 re-verified genuinely blank with stub-accepted notes (2021-06 8(b)(iii), 2025-06 9(a)(i), 2026-06 6(b), 2021-11:2C 5(c)); zero `figure crop required` entries remain corpus-wide, so new converter flags after any future crop change still need eyeballs before a ledger verdict.
-- PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
-  added as a converter-level mapping table with its own parity run, not ad hoc.
+- PUA→Unicode mapping pass: DONE (v0.11.0, F46) — converter-level `PUA_MAP` with a
+  full parity run (410 string deltas, all byte-exact `de_pua(old)` modulo
+  whitespace); C60 pins the no-PUA terminal state. New glyph classes join PUA_MAP
+  with evidence.
 - 2019-06 archive damage: DONE (v0.10.0) — the six rasterized content pages were
-  re-captured through the F41 OCR source layer and G1 is PASS 110/110. The one
-  residual honest item is 2019-06 3(d)(ii): its MS answer cell is a printed image
-  (no extractable text), so the part stays unmatched (C52); serving that answer
-  would need an MS-figure crop capability. Stem-level figures on the recovered
+  re-captured through the F41 OCR source layer and G1 is PASS 110/110. The last
+  residual honest item 2019-06 3(d)(ii) is RESOLVED (v0.11.0, F48): its MS answer
+  cell is a printed image, human-adjudicated into ANSWER-LINKS.json with the
+  rendered answer image served as the verbatim artifact (C52/C61). Stem-level
+  figures on the recovered
   pages (Q1 beakers, Q7 structures, Q11/Q13 apparatus, Q12/Q13/Q15 results tables)
   are not asset-backed — no part-level mention triggers the crop machinery on
   text-anchor-less pages; a stem-scan stub pass is future work.
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
+- The three honest answer-linkage refusals of v0.10.1 (2019-06 3(d)(ii),
+  2023-11 6(c)(ii)/6(d)(ii)) are RESOLVED (v0.11.0): F48 ledger for the MS-image
+  answer, F47 wide-marker parsing for the 2023-11 pair — the review queue is empty
+  corpus-wide.
 - 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
   were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under
   `<series>:2C` keys (F40 documents the 9 defect mechanisms behind them);

@@ -347,10 +347,10 @@ Complete the chemical equation for the complete combustion of the alkane C2H6 C2
 
 **Mark scheme answer**
 
-> 2C2H6 + 7O2  4CO2 + 6H2O ACCEPT multiples and
+> 2C2H6 + 7O2 → 4CO2 + 6H2O ACCEPT multiples and
 > fractions
 
-- **(1)** 2C2H6 + 7O2  4CO2 + 6H2O ACCEPT multiples and
+- **(1)** 2C2H6 + 7O2 → 4CO2 + 6H2O ACCEPT multiples and
 
 ### 5(a)(iii) [2]
 
@@ -435,7 +435,7 @@ Complete the equation for this polymerisation reaction. H CH3 nC C → H H
 
 ### 5(c)(ii) [3]
 
-Two ways of disposing of polymers such as poly(propene) are  burying them in landfill sites  burning them to release heat energy Discuss the environmental problems caused by these two methods of disposal.
+Two ways of disposing of polymers such as poly(propene) are • burying them in landfill sites • burning them to release heat energy Discuss the environmental problems caused by these two methods of disposal.
 
 
 **Mark scheme answer**
@@ -508,7 +508,7 @@ Write a chemical equation for the reaction of lithium with water. .
 
 **Mark scheme answer**
 
-> 2Li + 2H2O  2LiOH + H2 ALLOW multiples and
+> 2Li + 2H2O → 2LiOH + H2 ALLOW multiples and
 > fractions
 > M1 all formulae correct
 > M2 balancing of correct formulae M2 dep on M1
@@ -603,9 +603,9 @@ Complete the word equation for the reaction. magnesium + hydrochloric acid → +
 
 **Mark scheme answer**
 
->  magnesium chloride + hydrogen ACCEPT in either order
+> → magnesium chloride + hydrogen ACCEPT in either order
 
-- **(1)**  magnesium chloride + hydrogen ACCEPT in either order
+- **(1)** → magnesium chloride + hydrogen ACCEPT in either order
 
 ### 7(b)(i) [2]
 
@@ -742,9 +742,9 @@ Write a chemical equation for the reaction of ammonia with sulfuric acid.
 
 **Mark scheme answer**
 
-> 2NH3 + H2SO4  (NH4)2SO4 ALLOW multiples
+> 2NH3 + H2SO4 → (NH4)2SO4 ALLOW multiples
 
-- **(1)** 2NH3 + H2SO4  (NH4)2SO4 ALLOW multiples
+- **(1)** 2NH3 + H2SO4 → (NH4)2SO4 ALLOW multiples
 
 ### 8(b)(iii) [2]
 
@@ -984,7 +984,7 @@ Complete the equation for the reaction by adding the state symbols. Pb(NO3)2( ) 
 **Mark scheme answer**
 
 > ALLOW any
-> Pb(NO3)2 (aq) + 2HCl (aq)  PbCl2 (s) + 2HNO3 (aq) combination of
+> Pb(NO3)2 (aq) + 2HCl (aq) → PbCl2 (s) + 2HNO3 (aq) combination of
 > uppercase and
 > lowercase letters
 

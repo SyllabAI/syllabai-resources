@@ -49,7 +49,7 @@ What is the charge on a bromide ion?
 
 ### 1(c) [1]
 
-Which of these describes the element iodine at room temperature? 
+Which of these describes the element iodine at room temperature?
 
 - **(A)** brown liquid
 - **(B)** brown solid
@@ -135,7 +135,7 @@ Give a chemical equation for the reaction of magnesium with oxygen.
 
 ### 2(a)(iii) [2]
 
-Explain why the water in the bell jar rises. 
+Explain why the water in the bell jar rises.
 
 
 **Mark scheme answer**
@@ -213,7 +213,7 @@ State why aluminium cannot be extracted by heating aluminium oxide with carbon.
 
 ### 3(b) [4]
 
-Aluminium is a metal with many uses. Aluminium is malleable, a good conductor of heat and electricity, and has a low density compared to most other metals. Explain two uses of aluminium that are related to its properties. 1 2 
+Aluminium is a metal with many uses. Aluminium is malleable, a good conductor of heat and electricity, and has a low density compared to most other metals. Explain two uses of aluminium that are related to its properties. 1 2
 
 
 **Mark scheme answer**
@@ -311,7 +311,7 @@ State two factors that the student must keep constant to make this a valid inves
 
 ### 4(b) [2]
 
-Explain how using a polystyrene cup, instead of a glass beaker, would increase the accuracy of the results. 
+Explain how using a polystyrene cup, instead of a glass beaker, would increase the accuracy of the results.
 
 
 **Mark scheme answer**
@@ -342,7 +342,7 @@ Use the graph to determine the maximum temperature change in °C. maximum temper
 
 ### 4(c)(ii) [3]
 
-Explain the shape of the graph. 
+Explain the shape of the graph.
 
 ![graph — official paper figure (qp.pdf p.11) — shared with asset_4_c_graph_stem](assets/asset_4_c_graph_stem.png)
 
@@ -460,7 +460,7 @@ Give the name of a suitable catalyst for this reaction.
 
 ### 5(b)(ii) [1]
 
-What is the structural formula of the ester that forms? 
+What is the structural formula of the ester that forms?
 
 - **(A)** HCOOCH2CH2CH3
 - **(B)** CH3COOCH2CH2CH3
@@ -558,7 +558,7 @@ The diagram shows two pieces of apparatus used in a titration. cm3 cm3 Not to sc
 
 ### 6(b) [1]
 
-Give the name of a suitable indicator that can be used in an acid-alkali titration. 
+Give the name of a suitable indicator that can be used in an acid-alkali titration.
 
 
 **Mark scheme answer**
@@ -599,7 +599,7 @@ Calculate the volume of dilute nitric acid that the student would need to neutra
 
 ### 6(c)(ii) [2]
 
-Calculate the volume, in cm3, of carbon dioxide gas at rtp that would be produced from the 25.0 cm3 of the sodium carbonate solution. [at rtp, molar volume = 24 000 cm3] volume of carbon dioxide = cm3 
+Calculate the volume, in cm3, of carbon dioxide gas at rtp that would be produced from the 25.0 cm3 of the sodium carbonate solution. [at rtp, molar volume = 24 000 cm3] volume of carbon dioxide = cm3
 
 
 **Mark scheme answer**
@@ -640,7 +640,7 @@ Describe a test to show that sodium carbonate solution contains carbonate ions.
 
 
 ## Question 7 (14 marks)
-**(b)** A solution of sodium chloride can be electrolysed using this apparatus. P Q sodium chloride solution + – power supply 
+**(b)** A solution of sodium chloride can be electrolysed using this apparatus. P Q sodium chloride solution + – power supply
 
 **(c)** The gas that collects at Q is hydrogen.
 
@@ -705,7 +705,7 @@ Give a test for hydrogen.
 
 ### 7(c)(ii) [3]
 
-Explain how hydrogen gas forms at the negative electrode. 
+Explain how hydrogen gas forms at the negative electrode.
 
 
 **Mark scheme answer**
@@ -731,9 +731,9 @@ Use the equation and the values in the table to calculate the enthalpy change, �
 
 **Mark scheme answer**
 
-> M1  bond energies on LHS = 2 × 436 + 498 OR 1370 (kJ) Correct answer without
+> M1 Σ bond energies on LHS = 2 × 436 + 498 OR 1370 (kJ) Correct answer without
 > working scores 3
-> M2  bond energies on RHS = 4 × 463 OR 1852 (kJ)
+> M2 Σ bond energies on RHS = 4 × 463 OR 1852 (kJ)
 > M3 (1370 − 1852) = −482 (kJ) ALLOW ecf on M1 and
 > M2
 > ALLOW −241 (kJ) (for 1
@@ -742,8 +742,8 @@ Use the equation and the values in the table to calculate the enthalpy change, �
 > sign required to score
 > M3
 
-- **(1)**  bond energies on LHS = 2 × 436 + 498 OR 1370 (kJ) Correct answer without
-- **(1)**  bond energies on RHS = 4 × 463 OR 1852 (kJ)
+- **(1)** Σ bond energies on LHS = 2 × 436 + 498 OR 1370 (kJ) Correct answer without
+- **(1)** Σ bond energies on RHS = 4 × 463 OR 1852 (kJ)
 - **(1)** (1370 − 1852) = −482 (kJ) ALLOW ecf on M1 and
 
 ### 7(d)(ii) [3]

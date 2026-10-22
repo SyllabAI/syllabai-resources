@@ -4,6 +4,53 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.11.0 — 2026-10-22 · PUA→Unicode mapping pass (F46) + wide-marker linkage (F47) + ANSWER-LINKS ledger (F48) + canonical probe matching (F49)
+
+The two remaining human-decision items are closed: the source text layer is PUA-free
+and the last 3 honest answer-linkage refusals are resolved.
+
+- **PUA→Unicode mapping pass (F46)** — the converter-level mapping table AGENTS.md
+  mandated (never ad hoc): 18 observed PUA codepoints map at the single text-ingestion
+  choke point (`clean_lines`, covering QP + MS layers so problem_md, source_norm,
+  solution_md, mark_points and stems stay consistent for G2). Every mapping is
+  evidence-checked (get_texttrace font+glyph traces and region renders, wave 14):
+  \uf0b4→×, \uf0b8→÷, \uf02d→− (ionic/superscript minus), \uf0e0/\uf0ae/\uf022→→,
+  \uf083→⇌, \uf0b0→°, \uf0e5→Σ, \uf044/\uf072→Δ, \uf0b7/\uf09f/\uf097→•, \uf0fc→✓,
+  \uf8e7→─ (horizontal bond stroke, SymbolMT displayed formulas), \uf0ad→↑ (Energy-axis
+  arrowhead), \uf0a2→"" (Wingdings2 dotted answer-space separator — layout furniture,
+  stripped). Parity run: 410 string diffs corpus-wide, EVERY one byte-exactly
+  `de_pua(old)` modulo whitespace (scripts/parity_wave14_v2.py); zero unexplained chars.
+- **Wide-marker MS rows (F47)** — MS_ROW_RE indent cap 20→30: the 2023-11 6(c)/(d)
+  tables print inline `(ii) <answer>` rows at indent 22, so both parts fell to the
+  previous entry's content (6(c)(ii)/6(d)(ii) unlinkable; 6(c)(i)/6(d)(i) carrying the
+  (ii) blocks as verbatim pollution). Marker-ONLY rows stay gated at ≤12 (F42's hijack
+  guard untouched); the wave parity pins the blast radius to exactly the 2023-11 Q6
+  parts. G5 for 2023-11 1C: 64/66 → 66/66 (100%).
+- **ANSWER-LINKS.json ledger (F48)** — human-adjudicated answer linkages for parts
+  whose MS answer exists only as a printed IMAGE (the honest-refusal residue; C52's
+  2019-06 3(d)(ii) terminal state). The ledger carries the rendered-MS-page evidence,
+  the exact answer-image rect, and the transcription; the converter renders the crop
+  deterministically at 150 dpi (`assets/asset_3_d_ii_ms_answer.png`, eyeballed: ticks
+  on 'high melting point' and 'unreactive'), links the part fail-closed (must still be
+  unmatched, mark_points must sum to part marks, rect well-formed, else abort), and
+  marks it `answer_key_source: "answer-links-ledger"` + `manual_linkage: true` +
+  `solution_source` disclosure. G5 for 2019-06 1C: 63/64 → 64/64 (100%, 1
+  ledger-adjudicated). The corpus review queue now holds ZERO answer-linkage items.
+- **Canonical probe matching (F49)** — F46 turned probes into real-Unicode needles
+  ('Give the meaning of the symbol ⇌') while PyMuPDF's page layer still carried
+  \uf083, silently un-anchoring 2020-01 1C 10(a)(ii) and 2023-01 1C 12(c)(i);
+  page_norm now passes through the same PUA map (one canonical form on both sides).
+  The fix also GAINED anchors for 4 parts whose glyph-carrying probes could never
+  match the PUA-bearing page layer (2021-06 2C 7(c)(i), 2022-06 2C 5(c)(ii),
+  2025-06 2C 6(a)(ii), 2026-06 1C 7(a)(ii)) — a pre-existing silent failure surfaced
+  by the parity discipline.
+- **Canaries** — floor 0.11.0; 53 → 62: C52 rewritten (3(d)(ii) ledger-linked, was the
+  honest-unmatched pin); C56/C57 (2023-11 Q6 solutions), C58/C59 (✓/÷ mappings),
+  C60 (no PUA anywhere, corpus-wide scan), C61 (ANSWER-LINKS ↔ corpus bidirectional),
+  C62/C63 (restored anchors), C64 (gained anchors). All 62 hold.
+- **Corpus effect** — 32 slices regenerated at v0.11.0, all gates PASS, 32/32
+  full-pass, cross-diff 161/161 unchanged, review queue EMPTY corpus-wide.
+
 ## 0.10.1 — 2026-10-22 · optional crop pass: ledger-driven manual crops (F45)
 
 The 8 crop-required stubs are dispositioned: 4 become real crops, 4 are re-verified

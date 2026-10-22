@@ -87,7 +87,7 @@ Explain why hot water evaporates more quickly than cold water.
 
 This question is about elements, mixtures and compounds.
 
-**(d)** A student adds a crystal of substance X to some water in a beaker and leaves the beaker for one day. The diagram shows the beaker immediately after adding the crystal, and after one day. immediately after after one day adding crystal 
+**(d)** A student adds a crystal of substance X to some water in a beaker and leaves the beaker for one day. The diagram shows the beaker immediately after adding the crystal, and after one day. immediately after after one day adding crystal
 
 ### 2(a) [1]
 
@@ -212,7 +212,7 @@ After one day the student does two tests on the liquid in the beaker. The table 
 
 This question is about gases.
 
-**(b)** A student uses this apparatus to find the percentage by volume of oxygen in a mixture of oxygen and neon. wet iron wool mixture of oxygen and neon water This is the student's method. • measure the initial length of the column of gas in the inverted test tube • leave the test tube in the beaker for a week • measure the final length of the column of gas in the test tube 
+**(b)** A student uses this apparatus to find the percentage by volume of oxygen in a mixture of oxygen and neon. wet iron wool mixture of oxygen and neon water This is the student's method. • measure the initial length of the column of gas in the inverted test tube • leave the test tube in the beaker for a week • measure the final length of the column of gas in the test tube
 
 ### 3(a)(i) [1]
 
@@ -287,7 +287,7 @@ The table shows the student’s results. initial length of column of gas 75 mm f
 
 **Mark scheme answer**
 
-> M1 75  30 OR 45 (mm)
+> M1 75 − 30 OR 45 (mm)
 > M2 (45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1
 > correct answer of 60%
 > without working scores 2
@@ -295,7 +295,7 @@ The table shows the student’s results. initial length of column of gas 75 mm f
 > working scores 1
 > Total for question = 6
 
-- **(1)** 75  30 OR 45 (mm)
+- **(1)** 75 − 30 OR 45 (mm)
 - **(1)** (45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1
 
 
@@ -307,7 +307,7 @@ A student uses this apparatus to investigate the dyes in a food colouring A. chr
 
 ### 4(a) [4]
 
-Explain two mistakes that the student makes when setting up the apparatus. 1 2 
+Explain two mistakes that the student makes when setting up the apparatus. 1 2
 
 ![apparatus — official paper figure (qp.pdf p.8) — shared with asset_4_a_apparatus_stem](assets/asset_4_a_apparatus_stem.png)
 
@@ -390,7 +390,7 @@ Name the substance that causes the brown coating on the magnesium.
 
 ### 5(a)(ii) [1]
 
-State why there is no change with magnesium sulfate solution. 
+State why there is no change with magnesium sulfate solution.
 
 
 **Mark scheme answer**
@@ -497,7 +497,7 @@ Complete the equation to show the repeat unit of the polymer that forms from thi
 
 ### 6(c) [2]
 
-A typical molecule of the polymer has a relative molecular mass (Mr ) of 2 490 000 Show that the number of monomer molecules needed to make this typical molecule is about 40 000 [for C, Ar = 12 for Cl, Ar = 35.5] 
+A typical molecule of the polymer has a relative molecular mass (Mr ) of 2 490 000 Show that the number of monomer molecules needed to make this typical molecule is about 40 000 [for C, Ar = 12 for Cl, Ar = 35.5]
 
 
 **Mark scheme answer**
@@ -597,7 +597,7 @@ Give the letter of the compound that produces nine moles of water when one mole 
 
 ### 7(d) [1]
 
-Give the structural formula of compound Y. 
+Give the structural formula of compound Y.
 
 
 **Mark scheme answer**
@@ -722,7 +722,7 @@ Give the name of the compound with the formula MgO
 
 ### 8(a)(iii) [1]
 
-Calculate the relative formula mass (Mr ) of Na3N [for Na, Ar = 23 for N, Ar = 14] Mr = 
+Calculate the relative formula mass (Mr ) of Na3N [for Na, Ar = 23 for N, Ar = 14] Mr =
 
 
 **Mark scheme answer**
@@ -796,7 +796,7 @@ The diagram represents a molecule of oxygen. + + Describe the forces of attracti
 
 ### 9(b) [3]
 
-The table shows the boiling points of three Group 7 elements. Boiling point in °C fluorine –188 chlorine –34 bromine 59 Explain the trend in the boiling points. 
+The table shows the boiling points of three Group 7 elements. Boiling point in °C fluorine –188 chlorine –34 bromine 59 Explain the trend in the boiling points.
 
 ![table — official paper figure (qp.pdf p.18)](assets/asset_9_b_table.png)
 
@@ -846,7 +846,7 @@ A student uses this apparatus to record the maximum temperature in the reaction 
 
 ### 10(a) [1]
 
-Name a suitable piece of apparatus to add 25 cm3 of solution to the beaker. 
+Name a suitable piece of apparatus to add 25 cm3 of solution to the beaker.
 
 
 **Mark scheme answer**
@@ -940,7 +940,7 @@ Explain why it is important that magnesium is in excess.
 
 ### 11(a)(ii) [3]
 
-The student adds 0.75 g of magnesium to 0.025 mol of nitric acid. Calculate the mass of magnesium, in grams, that remains at the end of the reaction. [for magnesium, Ar = 24] mass of magnesium = g 
+The student adds 0.75 g of magnesium to 0.025 mol of nitric acid. Calculate the mass of magnesium, in grams, that remains at the end of the reaction. [for magnesium, Ar = 24] mass of magnesium = g
 
 
 **Mark scheme answer**
@@ -950,8 +950,8 @@ The student adds 0.75 g of magnesium to 0.025 mol of nitric acid. Calculate the 
 > M3 mass of Mg remaining = 0.45 (g) ALLOW 0.75 - M2
 > OR
 > M1 moles of Mg = 0.0250 ÷ 2 OR 0.0125
-> M2 moles of Mg remaining = 0.75 ÷ 24  0.0125 OR ALLOW 0.03125  M1
-> 0.03125  0.0125 OR 0.01875
+> M2 moles of Mg remaining = 0.75 ÷ 24 − 0.0125 OR ALLOW 0.03125 − M1
+> 0.03125 − 0.0125 OR 0.01875
 > M3 mass of Mg remaining (= 0.01875 x 24) = 0.45 (g) ALLOW M2 x 24
 > Correct answer without
 > working scores 3
@@ -961,7 +961,7 @@ The student adds 0.75 g of magnesium to 0.025 mol of nitric acid. Calculate the 
 
 ### 11(a)(iii) [5]
 
-Describe how the student can obtain dry crystals of hydrated magnesium nitrate from the mixture at the end of the reaction. 
+Describe how the student can obtain dry crystals of hydrated magnesium nitrate from the mixture at the end of the reaction.
 
 
 **Mark scheme answer**
@@ -1019,11 +1019,11 @@ The student repeats the experiment and records the volume of hydrogen gas collec
 
 This question is about hydrated compounds. Crystals of hydrated barium chloride (BaCl2 . xH2O) contain water of crystallisation. A student uses this apparatus to remove and collect the water from some crystals. barium chloride tube A crystals tube B heat water ice and salt mixture at –10 °C This is the student’s method. Step 1	record mass of tube A when empty Step 2	place a sample of hydrated barium chloride crystals in tube A and record new mass Step 3	heat tube A Step 4	allow tube A to cool and record mass Repeat steps 3 and 4 until the mass recorded in step 4 is constant. These are the student’s results. mass of tube A = 10.55 g mass of tube A and BaCl2 . xH2O = 16.65 g final mass of tube A and BaCl2 = 15.75 g
 
-**(c)** A sample containing 0.02 mol of hydrated copper(II) sulfate is heated using the same apparatus. The products of the reaction are anhydrous copper(II) sulfate and water. This is the equation for the reaction. CuSO4 . 5H2O(s)  CuSO4(s) + 5H2O(l)
+**(c)** A sample containing 0.02 mol of hydrated copper(II) sulfate is heated using the same apparatus. The products of the reaction are anhydrous copper(II) sulfate and water. This is the equation for the reaction. CuSO4 . 5H2O(s) ⇌ CuSO4(s) + 5H2O(l)
 
 ### 12(a)(i) [1]
 
-Give a reason why the student repeats steps 3 and 4 until the mass is constant. 
+Give a reason why the student repeats steps 3 and 4 until the mass is constant.
 
 
 **Mark scheme answer**
@@ -1077,7 +1077,7 @@ Determine the value of x in BaCl2 . xH2O Show your working. [for BaCl2 , Mr = 20
 
 ### 12(b) [2]
 
-Describe a physical test to show that the water in tube B is pure. QUESTION 12 CONTINUES ON NEXT PAGE 
+Describe a physical test to show that the water in tube B is pure. QUESTION 12 CONTINUES ON NEXT PAGE
 
 
 **Mark scheme answer**
@@ -1091,7 +1091,7 @@ Describe a physical test to show that the water in tube B is pure. QUESTION 12 C
 
 ### 12(c)(i) [1]
 
-Give the meaning of the symbol 
+Give the meaning of the symbol ⇌
 
 
 **Mark scheme answer**

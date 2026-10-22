@@ -1,7 +1,7 @@
 {
   "schema": "syllabai.official-paper-questions.canaries/0.1",
   "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping.",
-  "converter_version_floor": "0.10.1",
+  "converter_version_floor": "0.11.0",
   "canaries": [
     {
       "id": "C3-baseline-unchanged",
@@ -453,10 +453,10 @@
       "id": "C52-ms-image-answer-honest",
       "series": "2019-06",
       "paper": "1C",
-      "assertion": "3(d)(ii) stays unmatched: its MS answer cell is a printed image (Property table with ticks), not text — the honest terminal state, never a fabricated solution",
+      "assertion": "3(d)(ii) is LINKED via the F48 ANSWER-LINKS.json ledger: its MS answer cell is a printed image (Property table with ticks), so the transcription is a human-adjudicated ledger decision with the rendered answer image served as the verbatim artifact (supersedes the honest-unmatched terminal state C52 pinned in v0.10; the ledger path is fail-closed)",
       "check": "part_answer_status",
       "part": "3(d)(ii)",
-      "expected": "unmatched"
+      "expected": "linked"
     },
     {
       "id": "C53-ms-bare-marker-linkage",
@@ -490,6 +490,117 @@
       "kind": "crop",
       "page": 26,
       "path_contains": "asset_15_a_table"
+    },
+    {
+      "id": "C56-best-fit-curve-linked",
+      "series": "2023-11",
+      "paper": "1C",
+      "assertion": "6(c)(ii) linked with its real MS answer ('best fit curve starting at 0 and levelling off at 94 cm3') after the F47 indent-cap widening; the (ii) marker row at indent 22 must never fall back into 6(c)(i)'s block",
+      "check": "part_solution_contains",
+      "part": "6(c)(ii)",
+      "contains_all": [
+        "best fit curve starting at 0 and levelling off at 94"
+      ]
+    },
+    {
+      "id": "C57-expected-curve-two-points",
+      "series": "2023-11",
+      "paper": "1C",
+      "assertion": "6(d)(ii) linked with BOTH M-points (curve less steep than original; levelling off at 46-48 cm3) and 6(d)(i) no longer carries the (ii) rows as pollution (F47)",
+      "check": "part_solution_contains",
+      "part": "6(d)(ii)",
+      "contains_all": [
+        "less steep than original",
+        "46-48"
+      ]
+    },
+    {
+      "id": "C58-tick-mapped",
+      "series": "2019-06",
+      "paper": "1C",
+      "assertion": "the Wingdings tick glyph renders as the real Unicode check mark in question text ('Add ticks (✓) to the table') - F46 mapping, never a raw \\\\uf0fc escape",
+      "check": "part_problem_md_contains",
+      "part": "3(d)(ii)",
+      "substring": "Add ticks (✓) to the table"
+    },
+    {
+      "id": "C59-division-mapped",
+      "series": "2022-06",
+      "paper": "2C",
+      "assertion": "the Symbol division glyph renders as the real Unicode ÷ in served solutions ('0.0129 ÷ 2') - F46 mapping, never a raw \\\\uf0b8 escape",
+      "check": "part_solution_contains",
+      "part": "2(c)",
+      "substring": "0.0129 ÷ 2"
+    },
+    {
+      "id": "C60-no-pua-anywhere",
+      "series": "*",
+      "assertion": "the F46 PUA pass is terminal: no emitted string in ANY topic.json carries a Private Use Area codepoint (U+E000-U+F8FF); a new source glyph must join PUA_MAP in the converter, not leak into the corpus",
+      "check": "no_pua_chars"
+    },
+    {
+      "id": "C61-answer-links-ledger",
+      "series": "*",
+      "assertion": "ANSWER-LINKS.json and the emitted corpus agree in both directions: every entry is applied (linked, manual_linkage marker, MS answer crop asset, report receipt) and no part claims ledger adjudication the ledger does not carry (F48)",
+      "check": "answer_links_ledger"
+    },
+    {
+      "id": "C62-pua-anchor-2020-01",
+      "series": "2020-01",
+      "paper": "1C",
+      "assertion": "10(a)(ii) (Give the meaning of the symbol) keeps its p26 anchor: F46 maps the equilibrium glyph in the probe, and F49 canonicalizes page_norm through the same map so the match survives",
+      "check": "part_source_page",
+      "parts": [
+        {
+          "part": "10(a)(ii)",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "C63-pua-anchor-2023-01",
+      "series": "2023-01",
+      "paper": "1C",
+      "assertion": "12(c)(i) (Give the meaning of the symbol) keeps its p28 anchor under the F49 canonical-form probe matching",
+      "check": "part_source_page",
+      "parts": [
+        {
+          "part": "12(c)(i)",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "C64-pua-anchor-gains",
+      "series": "*",
+      "assertion": "four parts whose glyph-carrying probes could never match the PUA-bearing page layer GAINED their anchors under F49 canonical matching (pre-existing silent failure, surfaced and fixed by the F46/F49 pair)",
+      "check": "part_source_page",
+      "parts": [
+        {
+          "part": "7(c)(i)",
+          "paper": "2C",
+          "page": 18,
+          "series": "2021-06"
+        },
+        {
+          "part": "5(c)(ii)",
+          "paper": "2C",
+          "page": 11,
+          "series": "2022-06"
+        },
+        {
+          "part": "6(a)(ii)",
+          "paper": "2C",
+          "page": 18,
+          "series": "2025-06"
+        },
+        {
+          "part": "7(a)(ii)",
+          "paper": "1C",
+          "page": 20,
+          "series": "2026-06"
+        }
+      ]
     }
   ]
 }
