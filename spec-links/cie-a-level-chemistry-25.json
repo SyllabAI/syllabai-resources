@@ -64,6 +64,86 @@
    "items": 2,
    "entries": 2,
    "note": "tranche-2 round-1 of the anchor-gap completion program: the residual T2_near census promoted to the V* authoritative class (the census receipt's tranche-2 scope, fleet-wide); no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors untouched"
+  },
+  "tranche2_batches": {
+   "chem25-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "chem25-b01",
+    "bank": "cie-a-level-chemistry-25",
+    "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_HmMgqHYYJMyF6nVN (Oxidation Numbers) | spcpt_3G5VshJ2mzwT8ssc (Enthalpy Changes) | spcpt_3gMJXKdXVpBfkmWS (Interpreting & Explaining Carbon-13 NMR Spectra)",
+    "ruled_utc": "2026-10-22T00:00:00Z",
+    "ruled_by": "operator",
+    "source_sheet": "scripts/cie_tranche2_sheets/cie-a-level-chemistry-25.yaml",
+    "source_sheet_sha256": "7600659e807abcf0cab888405daf96408a4966aa068d9a18f45a0c1868c159f7",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "tier_semantics": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)",
+    "rulings": 3,
+    "anchored_sids": 1,
+    "quarantined_sids": 0,
+    "deferred_sids": 2,
+    "parts_touched": 22,
+    "entries_added": 44,
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "rulings_detail": [
+     {
+      "sid": "spcpt_HmMgqHYYJMyF6nVN",
+      "verdict": "anchor",
+      "codes": [
+       [
+        "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+        "6.1.1"
+       ],
+       [
+        "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+        "6.1.2"
+       ]
+      ],
+      "parts": [
+       "qstnprt_5VtW359pc6Tq4nx5",
+       "qstnprt_5bRrCDVDZFFt96fk",
+       "qstnprt_6HHFRm952SpVH3Jm",
+       "qstnprt_84kcVsTbfJxVtwpr",
+       "qstnprt_CB63rZJKWKnx5TQJ",
+       "qstnprt_DWRr8nhnYTJ8WmWf",
+       "qstnprt_F25YrPMZJJq6Z9wW",
+       "qstnprt_G4CYSGCmGzMtYK8b",
+       "qstnprt_HdjNQgmhmPhPdtN6",
+       "qstnprt_JMZJxGSGSVMgjHcY",
+       "qstnprt_N4ZTdrzK84G9RdZ5",
+       "qstnprt_P2R5658srQKmhFpg",
+       "qstnprt_PWrPggVhFNr2KBHC",
+       "qstnprt_TsRN2wv7ByzhmxSp",
+       "qstnprt_VWCsW3r5KjQtRsd6",
+       "qstnprt_ks8xsv8VB75cqRjr",
+       "qstnprt_nMTk8bPjzjymDfWm",
+       "qstnprt_x5mVBgNvNS3rfFYH",
+       "qstnprt_xNvKDV3wbJWzBjn9",
+       "qstnprt_xdT6FKPmVx7hVknj",
+       "qstnprt_zcXxpzRsjCc9t7Dg",
+       "qstnprt_zm7pJv9p2Hgg8kd4"
+      ],
+      "reason": "",
+      "note": "Operator verbatim: \"Anchor: 6.1.1, 6.1.2. Keep 2.3.1 as a candidate only if the underlying parts support that additional scope.\" — 2.3.1 NOT encoded (conditional candidate; the open 2.3.1 question returns to the operator after part-level evidence staging)."
+     },
+     {
+      "sid": "spcpt_3G5VshJ2mzwT8ssc",
+      "verdict": "defer",
+      "codes": [],
+      "parts": [],
+      "reason": "Hold: the supplied candidate scope is broad and the existing mappings do not establish which individual points the linked part supports.",
+      "note": ""
+     },
+     {
+      "sid": "spcpt_3gMJXKdXVpBfkmWS",
+      "verdict": "defer",
+      "codes": [],
+      "parts": [],
+      "reason": "Hold for evidence: the supplied candidate excerpt does not establish the correct official anchor.",
+      "note": ""
+     }
+    ]
+   }
   }
  },
  "registry": {
@@ -73,7 +153,7 @@
  },
  "totals": {
   "items": 1915,
-  "items_with_codes": 386,
+  "items_with_codes": 408,
   "by_kind": {
    "notes": 239,
    "question_parts": 1676,
@@ -81,7 +161,7 @@
   },
   "coded_by_kind": {
    "notes": 46,
-   "question_parts": 340,
+   "question_parts": 362,
    "flashcards": 0
   }
  },
@@ -120,6 +200,21 @@
    "promoted_entries": 2,
    "promoted_items": 2,
    "scope": "the residual T2_near census fleet-wide (this lane's share); pending anchors untouched; the T2_near class retires fleet-wide with this round"
+  },
+  "tranche2_batches": {
+   "chem25-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "chem25-b01",
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "anchored_sids": 1,
+    "quarantined_sids": 0,
+    "deferred_sids": 2,
+    "parts_touched": 22,
+    "entries_added": 44,
+    "scope": "the map-universe review sheet's ruled sids; pending refs preserved (the declared trail); codes additive; no join re-derived (ADR-030)"
+   }
   }
  },
  "items": {
@@ -11572,7 +11667,26 @@
    "label": "qstn_vb7qQm5dkZXpYCgf / part 2",
    "section": "27-group-2",
    "topic": "27-1-similarities-and-trends-in-the-properties-of-the-group-2-metals-magnesium-to-barium-and-their-compounds",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_MVCJDYhVYYXfBBhr",
     "spcpt_HmMgqHYYJMyF6nVN",
@@ -11824,7 +11938,26 @@
    "label": "qstn_qZJjswW7vRkCXXXt / part 0",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-1-general-physical-and-chemical-properties-of-the-first-row-of-transition-elements-titanium-to-copper",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN",
     "spcpt_w3P5KDR2PgWJNHqC"
@@ -12128,7 +12261,26 @@
    "label": "qstn_rsRxkXzb4KGBR9tv / part 2",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-2-general-characteristic-chemical-properties-of-the-first-set-of-transition-elements-titanium-to-copper",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN",
     "spcpt_wngZw4bd3nkw2NXP"
@@ -12425,7 +12577,26 @@
    "label": "qstn_zjySKy8sPqmVvv6d / part 2",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-3-colour-of-complexes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN",
     "spcpt_vqfc7FTmcsSw75Fx"
@@ -20468,7 +20639,26 @@
    "label": "qstn_x3Hn2bWBGtvphs79 / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20478,7 +20668,26 @@
    "label": "qstn_zXnWgXDcwqqcjbJS / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN",
     "spcpt_xNhdSSTW5sNGvVHn"
@@ -20489,7 +20698,26 @@
    "label": "qstn_yfhgrCHZCzbMft8J / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20499,7 +20727,26 @@
    "label": "qstn_XwTcCGnWWyr25zZJ / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20509,7 +20756,26 @@
    "label": "qstn_XkxyDk52TxYxtKWd / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20549,7 +20815,26 @@
    "label": "qstn_VDxzRf3pwZnZhwCS / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20569,7 +20854,26 @@
    "label": "qstn_V3y5sgt5qygv8TVF / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20579,7 +20883,26 @@
    "label": "qstn_T2FhsXNqHBn7kK6x / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20589,7 +20912,26 @@
    "label": "qstn_rrSj2dd2x3wntBHw / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN",
     "spcpt_xNhdSSTW5sNGvVHn"
@@ -20600,7 +20942,26 @@
    "label": "qstn_rf9qFVtVXTmKdWtS / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20620,7 +20981,26 @@
    "label": "qstn_pvxfRwByCfGH2NNg / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20640,7 +21020,26 @@
    "label": "qstn_mKNFpdBXVYR8qsX3 / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20650,7 +21049,26 @@
    "label": "qstn_MBJMpD4jwHshshWr / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20670,7 +21088,26 @@
    "label": "qstn_gzR6pCJYJf87W9hQ / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20711,7 +21148,26 @@
    "label": "qstn_C3rWjHrKFsNyHCgF / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20731,7 +21187,26 @@
    "label": "qstn_8F5z2yZqtpNYq4sD / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20761,7 +21236,26 @@
    "label": "qstn_6S8GVfpKTqy6ZnX4 / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]
@@ -20771,7 +21265,26 @@
    "label": "qstn_5Y3P2vmNJY4NR6m5 / part 0",
    "section": "6-electrochemistry",
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+    }
+   ],
    "pending": [
     "spcpt_HmMgqHYYJMyF6nVN"
    ]

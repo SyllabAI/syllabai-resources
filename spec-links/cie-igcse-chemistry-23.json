@@ -52,6 +52,57 @@
    "items": 6,
    "entries": 6,
    "note": "tranche-2 round-1 of the anchor-gap completion program: the residual T2_near census promoted to the V* authoritative class (the census receipt's tranche-2 scope, fleet-wide); no code invented (ADR-030), no join re-derived, the gate's ACCEPTED state and provenance preserved; pending anchors untouched"
+  },
+  "tranche2_batches": {
+   "igcsechem23-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "igcsechem23-b01",
+    "bank": "cie-igcse-chemistry-23",
+    "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_jxPK72xT9PSVKKw6 (Transition elements) | spcpt_tYWjkWkWSpM2vWZH (Photosynthesis)",
+    "ruled_utc": "2026-10-22T00:00:00Z",
+    "ruled_by": "operator",
+    "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-chemistry-23.yaml",
+    "source_sheet_sha256": "a5b7a240311f3aaba09a57fa14869a6222cb726875bf069ba413834089778b92",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "tier_semantics": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)",
+    "rulings": 2,
+    "anchored_sids": 1,
+    "quarantined_sids": 0,
+    "deferred_sids": 1,
+    "parts_touched": 1,
+    "entries_added": 2,
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "rulings_detail": [
+     {
+      "sid": "spcpt_jxPK72xT9PSVKKw6",
+      "verdict": "anchor",
+      "codes": [
+       [
+        "CIE_IGCSE_CHEMISTRY_2023_2025:8.4.1",
+        "8.4.1"
+       ],
+       [
+        "CIE_IGCSE_CHEMISTRY_2023_2025:8.4.2",
+        "8.4.2"
+       ]
+      ],
+      "parts": [
+       "qstnprt_hX3YMpyMcsHw7YTn"
+      ],
+      "reason": "",
+      "note": "Operator verbatim: \"Anchor: 8.4.1, 8.4.2.\""
+     },
+     {
+      "sid": "spcpt_tYWjkWkWSpM2vWZH",
+      "verdict": "defer",
+      "codes": [],
+      "parts": [],
+      "reason": "Hold: the supplied candidate list appears section-mismatched; do not use it to assign syllabus points.",
+      "note": ""
+     }
+    ]
+   }
   }
  },
  "registry": {
@@ -61,7 +112,7 @@
  },
  "totals": {
   "items": 634,
-  "items_with_codes": 317,
+  "items_with_codes": 318,
   "by_kind": {
    "notes": 107,
    "question_parts": 527,
@@ -69,7 +120,7 @@
   },
   "coded_by_kind": {
    "notes": 61,
-   "question_parts": 256,
+   "question_parts": 257,
    "flashcards": 0
   }
  },
@@ -101,6 +152,21 @@
    "promoted_entries": 6,
    "promoted_items": 6,
    "scope": "the residual T2_near census fleet-wide (this lane's share); pending anchors untouched; the T2_near class retires fleet-wide with this round"
+  },
+  "tranche2_batches": {
+   "igcsechem23-b01": {
+    "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+    "batch_id": "igcsechem23-b01",
+    "applied_utc": "2026-10-22T00:00:00Z",
+    "tier": "V8_name_phrase_verdict",
+    "method": "operator_verdict",
+    "anchored_sids": 1,
+    "quarantined_sids": 0,
+    "deferred_sids": 1,
+    "parts_touched": 1,
+    "entries_added": 2,
+    "scope": "the map-universe review sheet's ruled sids; pending refs preserved (the declared trail); codes additive; no join re-derived (ADR-030)"
+   }
   }
  },
  "items": {
@@ -7747,7 +7813,26 @@
    "label": "qstn_RJQGKBXm8NJj5Jgy / part 0",
    "section": "8-the-periodic-table",
    "topic": "8-2-group-properties-and-trends",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:8.4.1",
+     "official_code": "8.4.1",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_jxPK72xT9PSVKKw6"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:8.4.2",
+     "official_code": "8.4.2",
+     "tier": "V8_name_phrase_verdict",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": "spcpt_jxPK72xT9PSVKKw6"
+    }
+   ],
    "pending": [
     "spcpt_jxPK72xT9PSVKKw6"
    ]

@@ -767,6 +767,16 @@
     "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
     "promoted_items": 6,
     "promoted_entries": 6
+   },
+   "tranche2_batches": {
+    "igcsechem23-b01": {
+     "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+     "anchored_sids": 1,
+     "quarantined_sids": 0,
+     "deferred_sids": 1,
+     "parts_touched": 1,
+     "entries_added": 2
+    }
    }
   },
   "cie-igcse-maths-25-core": {
@@ -981,6 +991,16 @@
     "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
     "promoted_items": 2,
     "promoted_entries": 2
+   },
+   "tranche2_batches": {
+    "chem25-b01": {
+     "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+     "anchored_sids": 1,
+     "quarantined_sids": 0,
+     "deferred_sids": 2,
+     "parts_touched": 22,
+     "entries_added": 44
+    }
    }
   },
   "cie-a-level-computer-science-19": {
@@ -1433,6 +1453,16 @@
     "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
     "promoted_items": 3,
     "promoted_entries": 3
+   },
+   "tranche2_batches": {
+    "igcsebio23-b01": {
+     "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+     "anchored_sids": 0,
+     "quarantined_sids": 0,
+     "deferred_sids": 1,
+     "parts_touched": 0,
+     "entries_added": 0
+    }
    }
   },
   "cie-igcse-business-23": {
@@ -2182,6 +2212,16 @@
     "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
     "promoted_items": 8,
     "promoted_entries": 8
+   },
+   "tranche2_batches": {
+    "combsci23-bio-b01": {
+     "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+     "anchored_sids": 0,
+     "quarantined_sids": 0,
+     "deferred_sids": 1,
+     "parts_touched": 0,
+     "entries_added": 0
+    }
    }
   },
   "cie-igcse-science-combined-science-23-chemistry": {
@@ -2251,6 +2291,16 @@
     "lane": "T-SPECS-CIE-TRANCHE2-T2ENRICH-1",
     "promoted_items": 1,
     "promoted_entries": 2
+   },
+   "tranche2_batches": {
+    "combsci23-phys-b01": {
+     "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+     "anchored_sids": 1,
+     "quarantined_sids": 0,
+     "deferred_sids": 0,
+     "parts_touched": 1,
+     "entries_added": 2
+    }
    }
   }
  },
@@ -2505,5 +2555,72 @@
    "V6_near_text_verdict": "authoritative (operator ratifies the GATE-1-audited accepted-near text join for this item; prior method recorded verbatim in the verdict sheet)"
   },
   "note": "tranche-2 round-1 operator verdicts: the residual T2_near census fleet-wide promoted to the V* authoritative class; the T2_near class retires fleet-wide; the VERDICT-1 acceptance states and gate provenance are preserved"
+ },
+ "cie_tranche2_r2_batches": {
+  "chem25-b01": {
+   "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+   "bank": "cie-a-level-chemistry-25",
+   "applied_utc": "2026-10-22T00:00:00Z",
+   "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_HmMgqHYYJMyF6nVN (Oxidation Numbers) | spcpt_3G5VshJ2mzwT8ssc (Enthalpy Changes) | spcpt_3gMJXKdXVpBfkmWS (Interpreting & Explaining Carbon-13 NMR Spectra)",
+   "source_sheet": "scripts/cie_tranche2_sheets/cie-a-level-chemistry-25.yaml",
+   "rulings": 3,
+   "parts_touched": 22,
+   "entries_added": 44,
+   "tier_policy": {
+    "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
+   }
+  },
+  "igcsechem23-b01": {
+   "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+   "bank": "cie-igcse-chemistry-23",
+   "applied_utc": "2026-10-22T00:00:00Z",
+   "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_jxPK72xT9PSVKKw6 (Transition elements) | spcpt_tYWjkWkWSpM2vWZH (Photosynthesis)",
+   "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-chemistry-23.yaml",
+   "rulings": 2,
+   "parts_touched": 1,
+   "entries_added": 2,
+   "tier_policy": {
+    "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
+   }
+  },
+  "combsci23-phys-b01": {
+   "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+   "bank": "cie-igcse-science-combined-science-23-physics",
+   "applied_utc": "2026-10-22T00:00:00Z",
+   "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_7Rykpm3QJVXFkrjp (Calculating power)",
+   "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-science-combined-science-23-physics.yaml",
+   "rulings": 1,
+   "parts_touched": 1,
+   "entries_added": 2,
+   "tier_policy": {
+    "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
+   }
+  },
+  "igcsebio23-b01": {
+   "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+   "bank": "cie-igcse-biology-23",
+   "applied_utc": "2026-10-22T00:00:00Z",
+   "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_wnsYq9ZtzYsVC62X (Transpiration)",
+   "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-biology-23.yaml",
+   "rulings": 1,
+   "parts_touched": 0,
+   "entries_added": 0,
+   "tier_policy": {
+    "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
+   }
+  },
+  "combsci23-bio-b01": {
+   "lane": "T-SPECS-CIE-TRANCHE2-R2-BATCH-1",
+   "bank": "cie-igcse-science-combined-science-23-biology",
+   "applied_utc": "2026-10-22T00:00:00Z",
+   "directive": "operator order (gateway trace 1a160f6c106c8fa1, 2026-10-22, zai-web) — the operator's first tranche-2 ruling batch, verbatim instrument: \"I've inspected the workbook. I'll use your ruling convention: anchor, split across points, quarantine, or hold for evidence. I'll avoid forcing a match when the candidate list is weak or misleading.\" — rows below are the operator's table verbatim, mapped per the disclosed law (anchor-candidates/hold -> defer, reason verbatim; the lane never upgrades a candidate to an anchor). Batch rows: spcpt_ks6c2kQjgZkHqRzj (Pollination & fertilisation)",
+   "source_sheet": "scripts/cie_tranche2_sheets/cie-igcse-science-combined-science-23-biology.yaml",
+   "rulings": 1,
+   "parts_touched": 0,
+   "entries_added": 0,
+   "tier_policy": {
+    "V8_name_phrase_verdict": "authoritative (the operator anchors the sid from the regenerated map-universe review sheet's verbatim evidence + scoped candidates; no semantic-similarity manufacturing — ADR-030, AGENT.md rule 3)"
+   }
+  }
  }
 }
