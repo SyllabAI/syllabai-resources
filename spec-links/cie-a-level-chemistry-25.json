@@ -570,14 +570,14 @@
  },
  "totals": {
   "items": 1915,
-  "items_with_codes": 474,
+  "items_with_codes": 478,
   "by_kind": {
    "notes": 239,
    "question_parts": 1676
   },
   "coded_by_kind": {
    "notes": 46,
-   "question_parts": 428
+   "question_parts": 432
   }
  },
  "anchors": {
@@ -1292,6 +1292,194 @@
     "qstnprt_zm7pJv9p2Hgg8kd4 (HmMg universe, mis-tag to 24.2.x) loses 6.1.2 and keeps 6.1.1 — its re-point is the mis-tag residual's business, not this batch",
     "anchors.operatorSidAnchors stays BYTE-FROZEN (additive-only law): its relationToV8 texts describing the gate stay as captured; this block is the gate-open record",
     "manifest courses row left untouched (pre-existing stale census owned by the sidecar-regen lane; capture-commit precedent) — additive operatorV8Retraction row only"
+   ]
+  },
+  "misTagRepoints": {
+   "schema": "syllabai.operator-mis-tag-repoint/1.0",
+   "lane": "T-RULE-T2-MISTAG-1",
+   "appliedUtc": "2026-10-23T10:00:00Z",
+   "ruledBy": "operator (zai-web session web-df0238cc-641e-4e8e-ae60-bc44c2aeec2e, gateway trace 1a1658227c0c0365 \"10-mis-tag re-point batch\")",
+   "gateDisclosure": "the 10-mis-tag residual disclosed of record at T-RULE-T2-COND-1 (download/tranche2_conditional_resolution_r0.json misTags[10]) and at the v8Retraction disclosures (8W7s + zm7p operator-gated re-points) — opened by this directive",
+   "counts": {
+    "parts": 10,
+    "partsChanged": 8,
+    "entriesRemoved": 3,
+    "entriesAdded": 11,
+    "keepAsContext": 2,
+    "keepNoOp": 1,
+    "itemsWithCodesAfter": 478
+   },
+   "tier": "tranche2_mis_tag_repoint",
+   "provenance": {
+    "flagReceipt": "download/tranche2_conditional_resolution_r0.json (T-RULE-T2-COND-1 of record) — sha256 384c27fb58d6093a",
+    "spineOfRecord": "apps/hub/spines/cie-a-level-chemistry-25.json @ SyllabAI/syllabai-v2 origin/main 41fb011 (485 spine codes)",
+    "v2OfRecord": "T-RULE-T2-V8-RETRACT-1 run-003 (v2 PR #318 @ 41fb011)",
+    "substrateSidecar": "spec-links/cie-a-level-chemistry-25.json @ resources origin/main e7c7a68 — sha256 ddf8173503b7926b6d4dbac3cab8d13a2b0e3448b9b1513a87d07166bf7cef74"
+   },
+   "parts": {
+    "h3SZ": {
+     "part": "qstnprt_h3SZSqQsTHghWbsY",
+     "taggedSid": "spcpt_26qcCY45Rx3S5Q75",
+     "flag": "Cu²⁺ ligand-substitution equations (8m, construct)",
+     "flagTrueHome": "28.3.x (complex ions / ligand exchange)",
+     "action": "repoint-add",
+     "added": [
+      {
+       "item": "qstnprt_h3SZSqQsTHghWbsY",
+       "code": "28.2.1"
+      },
+      {
+       "item": "qstnprt_h3SZSqQsTHghWbsY",
+       "code": "28.2.7"
+      }
+     ],
+     "adjudication": "flag trueHome '28.3.x (complex ions / ligand exchange)' resolves spine-faithfully to 28.2.1 ('reactions of transition elements with ligands to form complexes, including the complexes of copper(II) and cobalt(II) ions with water and ammonia molecules and hydroxide and chloride ions') + 28.2.7 ('explain qualitatively that ligand exchange can occur, including the complexes of copper(II) ions...') — the part CONSTRUCTS ligand-substitution equations for Cu2+ with H2O/NH3/Cl-/C2O4(2-)/EDTA(4-) across 4 sub-limbs; the spine's 28.3.x is the COLOUR subtopic (d orbitals/splitting/coloured compounds) and is not asked; 28.3.5 considered and declined (colour limb absent from the part); 23.3.2 declined (limb iv 'greatest increase in entropy' is 2 of 8 marks and instrumental)"
+    },
+    "NzSv": {
+     "part": "qstnprt_NzSvYtNwzZCrRZnj",
+     "taggedSid": "spcpt_6kfKxfq3Q9w2RBGz",
+     "flag": "Electrolytic purification of copper (7m)",
+     "flagTrueHome": "24.1.x (electrolysis)",
+     "action": "repoint-add",
+     "added": [
+      {
+       "item": "qstnprt_NzSvYtNwzZCrRZnj",
+       "code": "24.1.1"
+      },
+      {
+       "item": "qstnprt_NzSvYtNwzZCrRZnj",
+       "code": "24.2.6"
+      }
+     ],
+     "adjudication": "flag trueHome '24.1.x (electrolysis)' resolves spine-faithfully to 24.1.1 ('predict the identities of substances liberated during electrolysis from the state of electrolyte, position in the redox series (electrode potential) and concentration' — sub-limbs ii/iii/v are exactly deposit/dissolve prediction from E-theta positions in the purification cell) + 24.2.6 ('deduce from E values the relative reactivity of elements, compounds and ions as oxidising agents or as reducing agents' — the dominant E-value skill across ii/iii/v); the part's EXISTING 24.2.7 (J4_name_phrase_identity) is KEPT — sub-limbs i/iv construct half-equations verbatim; a pure re-point is declined because the 6kfK sweep never attached item-plane codes to this part and 24.2.7 is genuinely tested; 24.2.5 considered and declined (no polarity/electron-flow limb; 'why zinc is not deposited' is preferential reduction = 24.2.6/24.1.1); 24.1.2/24.1.3/24.1.4 declined (no quantitative electrolysis)"
+    },
+    "8W7s": {
+     "part": "qstnprt_8W7sTFyZCChbbB8q",
+     "taggedSid": "spcpt_6kfKxfq3Q9w2RBGz",
+     "flag": "I⁻/S₂O₈²⁻ catalysis rate explanation",
+     "flagTrueHome": "26.1.4 (catalysis)",
+     "action": "repoint-add",
+     "added": [
+      {
+       "item": "qstnprt_8W7sTFyZCChbbB8q",
+       "code": "26.2.3"
+      }
+     ],
+     "adjudication": "the resolution receipt's shorthand '26.1.4 (catalysis)' is REJECTED on spine evidence — 26.1.4 is 'calculate the numerical value of a rate constant' (zero overlap with the part); the spine-faithful home is 26.2.3 ('describe the mode of action of a homogeneous catalyst by being used in one step and reformed in a later step, for example: ... (b) Fe3+ or Fe2+ in the I-/S2O8(2-) reaction') — the part asks exactly 'Explain, using the E-theta values provided, why Fe2+ ions are an effective catalyst for this reaction' (the NAMED example verbatim); 24.2.4/24.2.5 considered and declined (the E-cell computations are instrumental to the catalysis explanation; re-attaching 24.2.x would re-tread the retraction's clean-slate intent for this part); 8.3.1 declined (no mechanism/Boltzmann limb)"
+    },
+    "kTXY": {
+     "part": "qstnprt_kTXYM7f9SxYYn8G4",
+     "taggedSid": "spcpt_YpKqb5HsZsxDZymV",
+     "flag": "Zinc electroplating cell",
+     "flagTrueHome": "24.1.x (electrolysis)",
+     "action": "repoint-swap",
+     "removed": [
+      {
+       "item": "qstnprt_kTXYM7f9SxYYn8G4",
+       "code": "24.2.3"
+      },
+      {
+       "item": "qstnprt_kTXYM7f9SxYYn8G4",
+       "code": "24.2.4"
+      }
+     ],
+     "added": [
+      {
+       "item": "qstnprt_kTXYM7f9SxYYn8G4",
+       "code": "24.1.1"
+      }
+     ],
+     "adjudication": "flag trueHome '24.1.x (electrolysis)' resolves spine-faithfully to 24.1.1 — the part asks for a suitable electrolyte (zinc sulfate/chloride/nitrate) and the power-source polarity of an electroplating cell (which electrode deposits Zn); the V8 mirror 24.2.3 (methods to MEASURE standard electrode potentials) and 24.2.4 (calculate a standard cell potential) are REJECTED — no E-theta measurement or cell-potential content exists in the part"
+    },
+    "zm7p": {
+     "part": "qstnprt_zm7pJv9p2Hgg8kd4",
+     "taggedSid": "spcpt_HmMgqHYYJMyF6nVN",
+     "flag": "Standard electrode potentials half-equation table",
+     "flagTrueHome": "24.2.x",
+     "action": "repoint-swap",
+     "removed": [
+      {
+       "item": "qstnprt_zm7pJv9p2Hgg8kd4",
+       "code": "6.1.1"
+      }
+     ],
+     "added": [
+      {
+       "item": "qstnprt_zm7pJv9p2Hgg8kd4",
+       "code": "24.2.6"
+      },
+      {
+       "item": "qstnprt_zm7pJv9p2Hgg8kd4",
+       "code": "24.2.4"
+      }
+     ],
+     "adjudication": "flag trueHome '24.2.x' resolves spine-faithfully to 24.2.6 ('deduce from E values the relative reactivity of elements, compounds and ions as oxidising agents or as reducing agents' — thiosulfate as the reducing agent, V(V) as the oxidant) + 24.2.4 ('calculate a standard cell potential by combining two standard electrode potentials' — the solution computes E-cell for each candidate reduction); the V8 mirror 6.1.1 ('calculate oxidation numbers of elements in compounds and ions') is REJECTED as the primary home — the MCQ reads vanadium oxidation states but tests E-theta feasibility; 24.2.5 considered and declined (feasibility here is exercised through the computed 24.2.4 combinations; a 3-code 1-mark part over-tags)"
+    },
+    "WW34": {
+     "part": "qstnprt_WW343kKrVwdWdp23",
+     "taggedSid": "spcpt_WXp9yV6RjmGqJnn3",
+     "flag": "Balancing NH₃ oxidation (nitric acid manufacture)",
+     "flagTrueHome": "12.1.2 / stoichiometry",
+     "action": "keep-as-context",
+     "adjudication": "KEEP as context — the current 12.1.3 ('state and explain the natural and man-made occurrences of oxides of nitrogen...') is genuine: the stem teaches that ammonia oxidation is the first step of nitric acid manufacture, a man-made occurrence of NO; the flag's suggested 12.1.2 is REJECTED ('basicity of ammonia... ammonium ion' — no basicity content); no dedicated equation-balancing point exists in the spine (verified by search); zero sidecar change"
+    },
+    "TR8Y": {
+     "part": "qstnprt_TR8YGRrrZVfYTZbF",
+     "taggedSid": "spcpt_WXp9yV6RjmGqJnn3",
+     "flag": "M_r of NOₓ from gas volumes",
+     "flagTrueHome": "2.4 / 4.1 stoichiometry",
+     "action": "repoint-add-keep-context",
+     "added": [
+      {
+       "item": "qstnprt_TR8YGRrrZVfYTZbF",
+       "code": "2.4.1"
+      }
+     ],
+     "adjudication": "flag trueHome '2.4 / 4.1 stoichiometry' resolves spine-faithfully to 2.4.1 limb (b) ('volumes of gases') — the solution routes through the room-conditions molar volume (120/24000 -> 5.00e-3 mol -> M_r = 46 -> NO2), NOT pV=nRT, so 4.1.3 is considered and declined; the existing 12.1.3 is KEPT as context ('car exhausts release pollutant gases including oxides of nitrogen' = man-made occurrences verbatim)"
+    },
+    "xZch": {
+     "part": "qstnprt_xZchcnpv7g3b8ZhZ",
+     "taggedSid": "spcpt_c7vFrg8fTnmm4kcp",
+     "flag": "Forward/reverse rates on temperature increase",
+     "flagTrueHome": "8.2.3 (temperature effect on rate)",
+     "action": "repoint-add",
+     "added": [
+      {
+       "item": "qstnprt_xZchcnpv7g3b8ZhZ",
+       "code": "8.2.3"
+      }
+     ],
+     "adjudication": "flag trueHome '8.2.3 (temperature effect on rate)' CONFIRMED verbatim — the solution reasons 'increasing temperature gives all molecules more kinetic energy, increasing the frequency of effective collisions; both the forward and reverse rates therefore increase'; 7.1.3 considered and declined (the question asks what happens to the RATES, not the equilibrium position); 8.1.1 declined (8.2.3 is the temperature-specific limb)"
+    },
+    "PPqr": {
+     "part": "qstnprt_PPqrtZVrBZtwTCwh",
+     "taggedSid": "spcpt_kYX8rJ8Ff8TSC2TK",
+     "flag": "Halogen oxidising power down Group 17",
+     "flagTrueHome": "11.2.x (halogen properties)",
+     "action": "repoint-add",
+     "added": [
+      {
+       "item": "qstnprt_PPqrtZVrBZtwTCwh",
+       "code": "11.2.1"
+      }
+     ],
+     "adjudication": "flag trueHome '11.2.x (halogen properties)' resolves spine-faithfully to 11.2.1 ('describe the relative reactivity of the elements as oxidising agents') — the part asks exactly why oxidising power decreases down Group 17 (shielding/radius explanation); 11.2.2/11.2.3 declined (no hydrogen reactions or thermal-stability content); 11.3.1/11.3.2 declined (no halide-ion reducing-agent or silver-nitrate content)"
+    },
+    "tKhp": {
+     "part": "qstnprt_tKhpwPcYMBmf8KtB",
+     "taggedSid": "spcpt_26qcCY45Rx3S5Q75",
+     "flag": "Entropy state-and-explain (Specimen Paper 4 Q2a) — sits in the Partition Coefficients set",
+     "flagTrueHome": "23.3.2 (genuine) — set misplacement only",
+     "action": "keep-no-op",
+     "adjudication": "KEEP no-op — the tag 23.3.2 ('predict and explain the sign of the entropy changes that occur: (a) during a change in state... (c) during a reaction in which there is a change in the number of gaseous molecules') is genuine verbatim (Specimen Paper 4 Q2a: Mg+HCl gas evolution, KCl dissolving, steam condensing); set-misplacement note only (the part sits in the Partition Coefficients set) — zero sidecar change"
+    }
+   },
+   "disclosures": [
+    "source_sid stays None on all 10 additions: the re-pointed codes are part-level operator adjudications, NOT sid mirrors — the tagged sid is recorded per part in this block; associating the true-home codes with the mis-tagged sid would poison future sid-plane surveys",
+    "anchors.operatorSidAnchors + anchors.v8Retraction stay BYTE-FROZEN (additive-only law): the 23 of-record sid rulings and the retraction record are untouched; the sidAnchors 0/23/0 fixed point must survive the v2 consume",
+    "the receipt shorthand 26.1.4 (8W7s) is corrected to 26.1.4-rejected/26.2.3-attached on spine evidence (26.1.4 = rate-constant calculation; 26.2.3 names the Fe3+/Fe2+ I-/S2O8(2-) homogeneous-catalysis example verbatim) — the resolution receipt of record stays untouched; this block is the spine-faithful correction",
+    "WW34 keep-as-context: no sidecar change (12.1.3 retained); tKhp keep-no-op: no sidecar change (23.3.2 genuine; set-placement note only)",
+    "manifest courses row untouched (pre-existing stale census owned by the regen lane; capture-commit precedent) — additive operatorMisTagRepoint row only"
    ]
   }
  },
@@ -5191,7 +5379,17 @@
    "label": "qstn_XyrhNn2qM9ZPCQmq / part 0",
    "section": "11-group-17",
    "topic": "11-3-some-reactions-of-the-halide-ions",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:11.2.1",
+     "official_code": "11.2.1",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
+    }
+   ],
    "pending": [
     "spcpt_kYX8rJ8Ff8TSC2TK"
    ]
@@ -5603,6 +5801,15 @@
      "unit": null,
      "score": null,
      "source_sid": "spcpt_WXp9yV6RjmGqJnn3"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:2.4.1",
+     "official_code": "2.4.1",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
     }
    ],
    "pending": [
@@ -11051,6 +11258,24 @@
      "official_code": "24.2.7",
      "tier": "J4_name_phrase_identity",
      "method": "cie_index_rejoin"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.1.1",
+     "official_code": "24.1.1",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.6",
+     "official_code": "24.2.6",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
     }
    ],
    "pending": [
@@ -11702,22 +11927,13 @@
    "topic": "24-2-standard-electrode-potentials-e-standard-cell-potentials-ecell-and-the-nernst-equation",
    "codes": [
     {
-     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.3",
-     "official_code": "24.2.3",
-     "tier": "V8_name_phrase_verdict",
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.1.1",
+     "official_code": "24.1.1",
+     "tier": "tranche2_mis_tag_repoint",
      "method": "operator_verdict",
      "unit": null,
      "score": null,
-     "source_sid": "spcpt_YpKqb5HsZsxDZymV"
-    },
-    {
-     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.4",
-     "official_code": "24.2.4",
-     "tier": "V8_name_phrase_verdict",
-     "method": "operator_verdict",
-     "unit": null,
-     "score": null,
-     "source_sid": "spcpt_YpKqb5HsZsxDZymV"
+     "source_sid": null
     }
    ],
    "pending": [
@@ -12722,7 +12938,17 @@
    "label": "qstn_KXNCvV6fFcrQqPmj / part 3",
    "section": "26-reaction-kinetics",
    "topic": "26-1-simple-rate-equations-orders-of-reaction-and-rate-constants",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:26.2.3",
+     "official_code": "26.2.3",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
+    }
+   ],
    "pending": [
     "spcpt_6Zvgx6fxdFknSVcP",
     "spcpt_6kfKxfq3Q9w2RBGz"
@@ -13916,7 +14142,26 @@
    "label": "qstn_XcVwt8QpbjqP2Mvw / part 2",
    "section": "28-chemistry-of-transition-elements",
    "topic": "28-2-general-characteristic-chemical-properties-of-the-first-set-of-transition-elements-titanium-to-copper",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:28.2.1",
+     "official_code": "28.2.1",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:28.2.7",
+     "official_code": "28.2.7",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
+    }
+   ],
    "pending": [
     "spcpt_shV2fZB7wCbyWhsJ",
     "spcpt_9tcRdS2xNXpgQ5XY",
@@ -23332,13 +23577,22 @@
    "topic": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
    "codes": [
     {
-     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:6.1.1",
-     "official_code": "6.1.1",
-     "tier": "V8_name_phrase_verdict",
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.6",
+     "official_code": "24.2.6",
+     "tier": "tranche2_mis_tag_repoint",
      "method": "operator_verdict",
      "unit": null,
      "score": null,
-     "source_sid": "spcpt_HmMgqHYYJMyF6nVN"
+     "source_sid": null
+    },
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:24.2.4",
+     "official_code": "24.2.4",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
     }
    ],
    "pending": [
@@ -23708,7 +23962,17 @@
    "label": "qstn_9XHnk4p9N5mzJ6sd / part 0",
    "section": "7-equilibria",
    "topic": "7-1-chemical-equilibria-reversible-reactions-and-dynamic-equilibrium",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_CHEMISTRY_2025_2027:8.2.3",
+     "official_code": "8.2.3",
+     "tier": "tranche2_mis_tag_repoint",
+     "method": "operator_verdict",
+     "unit": null,
+     "score": null,
+     "source_sid": null
+    }
+   ],
    "pending": [
     "spcpt_c7vFrg8fTnmm4kcp"
    ]
