@@ -403,17 +403,19 @@ def main():
         manifest = json.load(open(args.manifest))
         official_n = sum(1 for t in out if is_official(t))
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.10.1 corpus (merged main): v0.10.0 rasterization re-capture "
-            "(F41 OCR source layer G1 110/110; F42 early-MS bare-marker linkage G5 63/64) + the "
-            "F45 crop-pass wave: all 8 honest stubs dispositioned (4 manual crops served - "
-            "2020-11 5(b)(iv) CH3Cl, 2023-11 6(b) H2O2, 2024-06 7(b) N2, 2019-06 15(a) tests "
-            "table off the rasterized scan; 4 re-verified blank with stub-accepted evidence). "
+            "ADR-037 converter v0.11.0 corpus (merged main): the F46 PUA->Unicode mapping pass "
+            "(18 evidence-checked mappings, corpus text layer PUA-free, C60 pins it) + the wave-14 "
+            "answer-linkage closures: F47 wide-marker MS rows (2023-11 1C 6(c)(ii)/6(d)(ii) linked, "
+            "(i)-block pollution removed) and F48 ANSWER-LINKS.json ledger (2019-06 1C 3(d)(ii) "
+            "MS-image answer human-adjudicated + rendered image asset served; the last 3 honest "
+            "G5 refusals resolved - review queue empty corpus-wide) + F49 canonical probe matching "
+            "(2 anchors restored, 4 silently-missing anchors gained). "
             f"{official_n} official sets (16x1C + 16x2C), {n_q} questions, {n_p} parts, all "
             "spec-tagged (1C wave 2 + 2C wave 1).")
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
-        print(f"manifest staged (importSource.ref stays; note bumped to the v0.10.1 wave description)")
+        print(f"manifest staged (importSource.ref stays; note bumped to the v0.11.0 wave description)")
     print(f"written: {dest}/questions.json")
 
 
