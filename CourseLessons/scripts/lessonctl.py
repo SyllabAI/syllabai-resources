@@ -154,10 +154,23 @@ def cmd_resume(args):
         print(f"    … +{len(missing)-12} more")
     feats = ly.get("features", {})
     print(f"  features checklist: " + ", ".join(f"{k}={'Y' if v else 'n'}" for k, v in feats.items()))
-    nxt = "S1 prose" if ly["stage"] == "S0" else \
-          "S2 boxes" if ly["stage"] == "S1" else \
-          "S3 practice" if ly["stage"] == "S2" else \
-          "S4 emit+handoff" if ly["stage"] == "S3" else "already handed off — check tracker/receipts"
+    # f-0004 fix (root cause: stage label was the sole NEXT signal, so a
+    # lesson mid-stage reported the NEXT stage while section files were
+    # still missing). NEXT now respects per-section file reality: missing
+    # files always make "finish them at the current stage" the smallest
+    # useful unit; only a complete stage advances the pointer.
+    stage_order = ["S0", "S1", "S2", "S3", "S4"]
+    cur = ly["stage"]
+    cur_label = {"S0": "S1 prose", "S1": "S1 prose", "S2": "S2 boxes",
+                 "S3": "S3 practice", "S4": "S4 emit+handoff"}.get(cur, "current-stage work")
+    if missing:
+        nxt = f"{cur_label} — {len(missing)} section file(s) still missing; finish these before advancing"
+    elif cur in stage_order[:-1]:
+        nxt_stage = stage_order[stage_order.index(cur) + 1]
+        nxt = {"S1": "S1 prose", "S2": "S2 boxes", "S3": "S3 practice",
+               "S4": "S4 emit+handoff"}.get(nxt_stage, "S4 emit+handoff")
+    else:
+        nxt = "already handed off — check tracker/receipts"
     print(f"  NEXT (smallest useful unit): {nxt}")
     print("  run: lint → receipt → tracker transaction → report (BUILD-PLAYBOOK §5)")
     return 0
@@ -306,7 +319,8 @@ def cmd_tracker(args):
     # mirror into lesson.yaml receipts
     ly.setdefault("receipts", []).append({"date": now(), **{kv.split("=",1)[0]: kv.split("=",1)[1] for kv in (args.set or [])}})
     (lesson / "lesson.yaml").write_text(yaml.safe_dump(ly, sort_keys=False, allow_unicode=True), encoding="utf-8")
-    print(f"tracker updated: {lid} {args.set} (receipt: {args.receipt or 'n/a'}) — regenerate TRACKER.md via report --write-md")
+    # f-0006 fix: never print instructions for flags this CLI does not have.
+    print(f"tracker updated: {lid} {args.set} (receipt: {args.receipt or 'n/a'}) — sync TRACKER.md (human doc of record) in the same commit")
     return 0
 
 
@@ -346,12 +360,22 @@ def cmd_emit(args):
             "markdown": body.strip(),
         })
     cfg = load_yaml(lesson.parent.parent / "course.yaml")
+    row = next((r for rows in cfg["spine"].values()
+                for r in rows if r["key"] == ly["chapter_key"]), {})
+    bor, por = cfg["book_of_record"], cfg["parse_of_record"]
     pack = {
         "packId": ly["lesson_id"], "chapterKey": ly["chapter_key"],
         "courseId": cfg["course_slug"], "title": ly["title"],
+        # verbatim from the chapter's learning_objective (course.yaml, chunk-derived)
+        "learningObjective": row.get("learning_objective"),
         "paperRoute": "chemistry-only" if ly.get("chem_only") else "core",
         "sections": sections, "status": "draft", "version": 1,
-        "sources": {"bookOfRecord": cfg["book_of_record"]["path"], "parseOfRecord": cfg["parse_of_record"]["path"], "blockPackReceipt": None},
+        "sources": {
+            # L1 provenance of record: path + sha256 (pinned at S0/first receipt)
+            "bookOfRecord": f"{bor['path']} (sha256 {bor.get('sha256', 'unpinned')})",
+            "parseOfRecord": f"{por['path']} (sha256 {por.get('sha256', 'unpinned')})",
+            "blockPackReceipt": None,
+        },
         "lintPack": cfg["lint_pack"],
     }
     out = lesson / "qa" / "lessonPackV1.json"
