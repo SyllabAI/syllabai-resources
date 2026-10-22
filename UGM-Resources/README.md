@@ -6,11 +6,23 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** first lane — `pure-1-quadratics/` (59 resources). Built 2026-10-23 as task
-**`T-UGM-IMPORT-1`**. Sibling domain: `UGM-Enrichment/` (facts-only spec enrichment,
-task `T-UGM-MODE1-1`, [syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55))
-— that domain carries slugs/titles/types/levels/relations; this corpus adds the text
-bodies.
+**Status:** two lanes of record.
+
+- **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
+  landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
+  Sibling facts file: `UGM-Enrichment/cie-a-level-maths-20-pure-1-quadratics.json`
+  (task `T-UGM-MODE1-1`, [syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55)).
+- **Lane 2 — `pure-1-functions/`** (38 resources of the UGM *Combining Functions*
+  station, task **`T-UGM-IMPORT-2`**). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-functions.json` (task
+  **`T-UGM-MODE1-2`**). Cross-map of record: `cross-map-functions.json` in
+  `SyllabAI/syllabai-experimental` (27/38 aligned to CIE 9709 P1 1.2.1–1.2.5;
+  11 honest non-overlaps incl. 2 interactive-only pages whose bodies of record
+  are honest empty states).
+
+`UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
+the text bodies. `MANIFEST.json` is **v2 (multi-lane)** — one block per lane,
+lane-1 rows re-verified byte-identical at the v2 build.
 
 ## Rights and licensing authority
 
@@ -46,6 +58,10 @@ UGM-Resources/
   pure-1-quadratics/         — UGM station "quadratics" ↔ CIE 9709 Pure Mathematics 1
     r6638-can-we-find-both-roots-if-one-is-double-the-other.md
     name-that-graph-name-that-graph.md
+    ...
+  pure-1-functions/          — UGM station "combining-functions" ↔ CIE 9709 Pure Mathematics 1, subtopic 1.2
+    r9527-can-we-compose-two-simple-functions.md
+    invertibles-invertibles.md
     ...
 ```
 
