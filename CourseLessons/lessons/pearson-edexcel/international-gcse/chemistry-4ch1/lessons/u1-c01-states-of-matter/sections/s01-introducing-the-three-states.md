@@ -1,8 +1,8 @@
 ---
 id: u1:c01:s01
 title: Introducing the three states
-bookPage: null            # PIN at S1 from the parse of record (provenance law) — never guessed
-chunkRefs: []             # chunk ids in parsed/edexcel_igcse_chemistry_chunks_v3.jsonl — PIN at S1
+bookPage: 3            # pinned from chunks_v3 (section-maps/u1-c01.json)
+chunkRefs: [chem_v3_u1_c1_pdf012_0022, chem_v3_u1_c1_pdf012_0023]  # pinned from chunks_v3
 specRefs: []              # ⊆ chapter join set (book_chapters.specCodes) — PIN at S1
 blocks: []                # VALIDATED block ids interleaved here (renderer joins them by page)
 glossary: []              # glossary slugs shown as chips in this section

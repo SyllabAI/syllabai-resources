@@ -23,7 +23,7 @@ change carries `receipt:` pointing at the lesson's `qa/receipt.yaml`.
 
 | # | Lesson (chapter_key) | Folder | Stage | Sections done | Boxes | Lint | Last receipt | Owner (last agent) |
 |---|---|---|---|---|---|---|---|---|
-| 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S1 | 1/17 (s01 demo, format of record) | — | PASS (2 provenance warns, expected at S1) | qa/receipt.yaml (S0 seed + tracker txn) | T-BOOK-031 r0 |
+| 1 | u1:c01 States of matter | `lessons/u1-c01-states-of-matter/` | S1 | 1/13 (real spine pinned r1) | — | PASS (0/0) | qa/receipt.yaml (S0-L0 calibration) | T-BOOK-031 r1 |
 
 (Sections column = `sections[].status: done` count vs spine length.
 Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+.)
@@ -44,8 +44,9 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 
 | id | type | lesson | severity | status | one-line |
 |---|---|---|---|---|---|
-| f-0001 | process | u1-c01 | warn | open | section_map.py key-mapping UNCALIBRATED — calibrate on first fetch-first run |
+| f-0001 | process | u1-c01 | warn | **closed (f-0003)** | section_map key-mapping UNCALIBRATED → calibrated 2026-10-22; full 29-chapter sweep GREEN (341 sections, pages pinned) |
 | f-0002 | lint-false-positive | u1-c01 s01 | error | closed | V4 flagged misconception box quoting the wrong idea → lessonctl r0.2 strips :::misconception blocks before scan |
+| f-0003 | process | u1-c01 | warn | closed | f-0001 closure receipt: schema of record documented in section_map.py r1; 29 section-maps pre-stored |
 
 ## Decisions log (operator-level, newest first)
 
