@@ -55,6 +55,7 @@ books/
 | Edexcel IGCSE Physics (4PH1), 308 pp | `phys_v1_…` | v1 **736** chunks | Final; polish rounds 1–2 (299/300); validation green (2026-10-20) |
 | Edexcel IGCSE Biology (4BI1), 357 pp | `bio_v1_…` | v1 **871** chunks | Parsed 2026-10-21 (T-PARSE-4BI1-1): **first text-layer lane** (PyMuPDF, no OCR); validation green; polish round 1 (see parsed report) |
 | Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
+| Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
 
 ## 2. Read order (do not skip)
 
@@ -535,6 +536,22 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   Action: at phase 2, count EMPTY formula regions; if a scan loses display
   equations, budget the manual-transcription pass BEFORE chunking, and
   never trust an auto-decoder without a per-crop visual verification.
+- **L-021** (2026-10-22, T-PARSE-YPH11-1 SB2 delta lane, Super Z): a
+  derived/re-encoded archive copy must be re-verified PAGE-COUNT-wise against
+  the book's own contents promises before parsing — the landed SB2 derivative
+  (sha256-pinned at intake) was silently truncated at 225pp (book 215) while
+  its TOC promised index at book 224; the intake had verified the ORIGINAL's
+  237pp but only OCR-parity (not page count) on the derivative. Evidence:
+  `yph11/pipeline/METHOD_AND_FINDINGS_SB2.md` §4. Action: at phase 1, check
+  the file's page count against the book's own TOC back-matter page numbers
+  (index/glossary), not just against external listings.
+- **L-022** (2026-10-22, T-PARSE-YPH11-1 SB2 delta lane, Super Z): ghostscript
+  pdfwrite passes source JPEGs through UNCHANGED unless
+  `-dPassThroughJPEGImages=false` is set — a "145dpi derivative" command
+  without it can emit a file barely smaller than the original (and /ebook is
+  equally a no-op on JPEG pass-through). Evidence: 120.8MB → 120.8MB (/ebook)
+  vs 48.3MB with the flag. Action: always set the flag + verify output size
+  when re-deriving oversized scan copies for the 100MiB GitHub limit.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -555,6 +572,20 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   corpus. Disposition: NOT FIXED HERE (physics files are another lane's
   deliverable — flagging for the physics lane owner; fix is a ~10-line
   rewrite of the accessor). PROPOSED FOR OPERATOR GATE / lane-owner fix.
+
+- **E-004** (2026-10-22, T-PARSE-YPH11-1 SB2 delta lane): the YPH11 SB2
+  archive copy landed at wave-2 intake (41,870,983 B, sha256 `449dc3f3…73d0c`)
+  is TRUNCATED — 225pp ending mid-sample-answers (book 215) while the book's
+  own contents page promises COMMAND WORDS 218 / GLOSSARY 220 / INDEX 224
+  (≈ books 216–227 missing; Topics 5–11 complete). The lane README's
+  "Pages: 237 (full copy)" described the ORIGINAL scan; the derivative was
+  verified only for OCR parity at intake, not page count (see L-021).
+  Disposition: FIXED IN THE SB2 DELTA COMMIT — original re-downloaded
+  (byte-identical to the original-of-record sha256 `28eabe40…8f`, 237pp),
+  fresh complete 145dpi derivative landed (48,278,974 B, sha256
+  `f8f3fc62…ce82d`, OCR parity 1.0000), lane `source/student-book-2.pdf`
+  replaced + README derivation note updated in the same commit.
+
 
 *(template for future entries; superseding entries must reference the
 E-ID they correct)*
@@ -640,6 +671,22 @@ E-ID they correct)*
   filed: E-003 (4ph1 committed scripts corrupted env var — not fixed here,
   flagged to lane owner).
 
+- **R-005** (2026-10-22, T-PARSE-YPH11-1, YPH11 SB2 delta lane): pages parsed
+  237/237 (SB2, after re-source); chunks **826** (`yph2_v1_`, per the SB1
+  lane's published two-book ID law); content types 18; offset −10 (3-way
+  confirmed; same no-printed-page-1 law as SB1); validation ALL CHECKS
+  PASSED (unique IDs, 13/13 chapters, 7/7 topics, 0 order breaks, strict
+  offset law, 13/13 EXAM PRACTICE pairs anchored, 0 LaTeX remnants); LLM
+  polish round 1: selected 794/826 (67 forced question chunks), applied 0
+  (same account-level 429 wall; resumable, pristine shipped). Deviations
+  from playbook: (1) v1 shipped with polish R1 pending (R-002 and R-004
+  precedent); (2) SB2 archive copy REPLACED after truncation discovery
+  (E-004 + L-021/L-022; re-source via the documented method of record,
+  byte-verified against the original-of-record); (3) corpus rebuilt under
+  the SB1 lane's `yph2_v1_` convention after the L-008 discovery (original
+  yph11b_v1_ build discarded, kept only as local evidence). Lessons
+  appended: L-021, L-022. Errata filed: E-004.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -657,6 +704,22 @@ E-ID they correct)*
   at 4× the 4PH1 scale; corpus v1 881 chunks validated ALL CHECKS PASSED;
   polish R1 partial (1/404, quota-walled, resumable); ledgers L-018…L-020 +
   E-003 + R-004 recorded.
+
+- **R-005** (2026-10-22, T-PARSE-YPH11-1, YPH11 SB2 delta lane): pages parsed
+  237/237 (SB2, after re-source); chunks **826** (`yph2_v1_`, per the SB1
+  lane's published two-book ID law); content types 18; offset −10 (3-way
+  confirmed; same no-printed-page-1 law as SB1); validation ALL CHECKS
+  PASSED (unique IDs, 13/13 chapters, 7/7 topics, 0 order breaks, strict
+  offset law, 13/13 EXAM PRACTICE pairs anchored, 0 LaTeX remnants); LLM
+  polish round 1: selected 794/826 (67 forced question chunks), applied 0
+  (same account-level 429 wall; resumable, pristine shipped). Deviations
+  from playbook: (1) v1 shipped with polish R1 pending (4BI1/ R-002 and SB1
+  R-004 precedent); (2) SB2 archive copy REPLACED after truncation discovery
+  (E-004 + L-021/L-022; re-source via the documented method of record,
+  byte-verified against the original-of-record); (3) corpus rebuilt under
+  the SB1 lane's `yph2_v1_` convention after the L-008 discovery (original
+  yph11b_v1_ build discarded, kept only as local evidence). Lessons
+  appended: L-021, L-022. Errata filed: E-004.
 - **2026-10-21 — v1.3 (T-PARSE-4BI1-1-R1):** 4BI1 polish round 1 COMPLETED
   across a >16h 429 wall that broke into intermittent windows (probe-loop
   harvest, ~28 chunks/window); final corpus 863 chunks (8 junk-only sliver

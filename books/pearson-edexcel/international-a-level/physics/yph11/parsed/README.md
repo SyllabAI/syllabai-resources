@@ -75,3 +75,31 @@ hallucination risk). Every page-JSON formula item patched this way is flagged
 `../pipeline/evidence/manual_formulas.jsonl`. 5 items carried parse-native
 text; 5 empty regions were adjudicated decorative/region-split slivers (no
 content loss — checked against rendered pages).
+
+---
+
+## SB2 deliverable (delta lane, 2026-10-22)
+
+| File | Book | Chunks | ID prefix |
+|---|---|---|---|
+| `edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl` | SB2 (IA2, Units 4–5, Topics 5–11) | 826 | `yph2_v1_` |
+
+Plus `full_book_sb2_docling.md` + `parse_report_sb2_v1.json`. Schema identical
+to SB1 (15-key flat grammar; additive IAL types). Offset law `book = pdf − 10`
+(no printed page 1; arabic starts at book 2 = PDF 12). 18 content types; 13/13
+EXAM PRACTICE pairs typed `chapter_questions` and page-anchored. Validator:
+`../pipeline/scripts/validate_ial_physics_sb2.py` — ALL CHECKS PASSED.
+
+**SB2 formula provenance:** docling 2.33 blank-formula bug applies (278 empty
+regions — `../pipeline/evidence/formula_orphans_sb2.json`); display equations
+survive as plain OCR text (e.g. `E_k = p²/2m` renders as plain-run text);
+verbatim manual transcription rescue is PENDING for SB2 (SB1's
+manual_formula_ws_yph11.py is the precedent of record). SB2 formula items that
+did decode: 9 converted to Unicode, 1 failed (dropped, body text carries it).
+
+**SB2 polish status:** selected 794/826 (all 67 chapter_questions forced +
+glue-scored), 0 applied — the same account-level 429 wall as SB1 R1; resume
+identical (`pipeline/scripts/llm_repair_ial_physics_sb2.js` →
+`merge_llm_ial_physics_sb2.py` → `audit_polish_ial_physics_sb2.py` →
+re-validate; pristine snapshot shipped at
+`edexcel_ial_physics_yph11_sb2_chunks_v1.pristine`).
