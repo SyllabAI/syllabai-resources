@@ -578,7 +578,7 @@ Explain why it is better to use a polystyrene cup rather than a glass beaker in 
 
 ### 6(c)(i) [3]
 
-A mass of 0.500 g of zinc is reacted with an excess of copper(II) sulfate solution. The heat energy change is 1.67 kJ. Calculate the molar enthalpy change, ǻH, in kJ/mol. Include a sign in your answer. Give your answer to three significant figures. ǻH = kJ/mol
+A mass of 0.500 g of zinc is reacted with an excess of copper(II) sulfate solution. The heat energy change is 1.67 kJ. Calculate the molar enthalpy change, ΔH, in kJ/mol. Include a sign in your answer. Give your answer to three significant figures. ΔH = kJ/mol
 
 
 **Mark scheme answer**

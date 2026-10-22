@@ -4,6 +4,28 @@ Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so a
 topic.json traces to exactly this behaviour. Every version bump must follow the
 AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
 
+## 0.13.1 — 2026-10-22 · F52: the corpus-wide ǻH → ΔH normalization (operator dispatch, trace 1a163a753e3bd999)
+
+The 0.13.0 known-artifact carry note is superseded: the artifact is FIXED corpus-wide. MyriadPro-It's
+custom encoding renders the printed italic Delta as **U+01FB** (bytes C7 BB; visually confusable with
+U+01DF — the first codepoint guess was wrong and the no-op parity run caught it: a wrong-char mapping
+produces zero content deltas across all 54 slices, a deterministic disproof). `normalize_pua` gains the
+evidenced non-PUA mapping U+01FB → U+0394 **before the PUA gate** (and on both G2 sides — the line scan
+and the page-level norm — so verbatim overlap is unaffected).
+
+- **Census of record**: 5 raw-layer hits (2020-01 1CR ×2, 2020-01 2CR ×3), all immediately before 'H';
+  the 32-set 1C/2C corpus and every other R slice is clean (C7 BB absent corpus-wide outside these 5).
+- **Evidence**: 2020-01 1CR p18 renders 'Calculate the molar enthalpy change, ΔH, in kJ/mol.' and
+  'ΔH = ...... kJ/mol'; 2020-01 2CR pp19-20 render '...the enthalpy change, ΔH.' and 'ΔH = ...'
+  (font trace MPEIOE+MyriadPro-It, Type 1C Custom encoding; renders eyeballed).
+- **Whole-corpus re-run parity**: 158 files normalized-identical (generator/timestamp-normalized);
+  exactly 4 content-diff files — the two 2020-01 R slices' topic.json + questions.md (ǻ→Δ ×5). The
+  surgical-change proof; no census count moves (79Q/423P/770M tranche unchanged; part ids unchanged, so
+  the wave-16 disclosure remains exact).
+- **Canary**: C65 pins the law — corpus-wide U+01FB absence (the `no_pua_served` checker gains the
+  optional `extra_chars` [[bad, good], ...] field, v0.13.1) + the three fixed parts' exact ΔH strings.
+  CANARIES floor 0.13.1; 63 canaries hold.
+
 ## 0.13.0 — 2026-10-22 · the 2CR tranche: the second R-variant corpus + evidenced PUA extensions (trace 1a16373bc7d373fd)
 
 The R-VARIANT SCHEDULE's second tranche converts: 11 × 4CH1/2CR papers (2019-06 → 2026-06,

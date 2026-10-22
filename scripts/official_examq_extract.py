@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.13.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.13.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -206,7 +206,20 @@ PUA_MAP = {
 def normalize_pua(s: str) -> str:
     """F48: map every known PUA char to its real Unicode form; REFUSE unknown
     PUA (fail-closed — a new symbol font must earn an evidenced mapping entry
-    above, it must not silently leak into served content)."""
+    above, it must not silently leak into served content).
+    F52 (v0.13.1): evidenced non-PUA source-char normalization applied before the
+    PUA gate — MyriadPro-It's custom encoding renders the printed italic Delta as
+    U+01FB (LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE — bytes C7 BB in the
+    UTF-8 source layers; identified by hex census after a visual codepoint guess
+    U+01DF proved WRONG and the no-op parity run caught it), so every 'ǻ' in a
+    source layer is Δ: 2020-01 1CR p18 renders 'Calculate the molar enthalpy
+    change, ΔH, in kJ/mol.' and 2020-01 2CR pp19-20 '...the enthalpy change,
+    ΔH.' / 'ΔH = ...' (font trace MPEIOE+MyriadPro-It, Type 1C Custom; renders
+    eyeballed). Corpus census: 5 raw-layer hits (C7 BB), ALL immediately before
+    'H' (Delta-H semantics), both 2020-01 R slices fixed in this run; the
+    mapping runs on both G2 sides (the line-scan + the page-level norm) so
+    verbatim overlap is unaffected."""
+    s = s.replace("\u01fb", "\u0394")   # F52: italic-Delta artifact -> Δ
     if not any(0xE000 <= ord(c) <= 0xF8FF for c in s):
         return s
     out = []
