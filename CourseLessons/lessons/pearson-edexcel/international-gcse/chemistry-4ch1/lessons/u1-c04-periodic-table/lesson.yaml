@@ -1,0 +1,205 @@
+lesson_id: u1-c04-periodic-table
+chapter_key: u1:c04
+course_id: chemistry-4ch1
+title: The periodic table
+chem_only: false
+stage: S4
+book_page_range:
+- 30
+- 36
+sections:
+- id: u1:c04:s01
+  title: The periodic table — the chapter map
+  bookPage: 30
+  chunkRefs:
+  - chem_v3_u1_c4_pdf039_0113
+  specRefs:
+  - '1.18'
+  glossary:
+  - periodic-table
+  status: done
+- id: u1:c04:s02
+  title: The Periodic Table — atomic number order, groups and periods
+  bookPage: 30
+  chunkRefs:
+  - chem_v3_u1_c4_pdf039_0114
+  - chem_v3_u1_c4_pdf040_0116
+  - chem_v3_u1_c4_pdf040_0117
+  - chem_v3_u1_c4_pdf040_0118
+  - chem_v3_u1_c4_pdf040_0119
+  specRefs:
+  - '1.18'
+  glossary:
+  - group
+  - period
+  - alkali-metal
+  - halogen
+  - noble-gas
+  - transition-metal
+  - lanthanoid
+  - actinoid
+  status: done
+- id: u1:c04:s03
+  title: The Periodic Table — counting protons, neutrons and electrons
+  bookPage: 31
+  chunkRefs:
+  - chem_v3_u1_c4_pdf040_0120
+  specRefs:
+  - '1.18'
+  glossary:
+  - atomic-number
+  - mass-number
+  - relative-atomic-mass
+  status: done
+- id: u1:c04:s04
+  title: Arranging the electrons — shells and electronic configuration
+  bookPage: 31
+  chunkRefs:
+  - chem_v3_u1_c4_pdf040_0121
+  - chem_v3_u1_c4_pdf041_0124
+  - chem_v3_u1_c4_pdf041_0125
+  specRefs:
+  - '1.19'
+  glossary:
+  - shell
+  - electronic-configuration
+  status: done
+- id: u1:c04:s05
+  title: Electronic configurations of the first 20 elements
+  bookPage: 33
+  chunkRefs:
+  - chem_v3_u1_c4_pdf042_0126
+  specRefs:
+  - '1.19'
+  glossary: []
+  status: done
+- id: u1:c04:s06
+  title: Two important facts — groups and outer-shell electrons
+  bookPage: 33
+  chunkRefs:
+  - chem_v3_u1_c4_pdf042_0127
+  specRefs:
+  - '1.22'
+  glossary:
+  - outer-shell
+  status: done
+- id: u1:c04:s07
+  title: Period numbers, and why groups share chemical properties
+  bookPage: 33
+  chunkRefs:
+  - chem_v3_u1_c4_pdf042_0128
+  - chem_v3_u1_c4_pdf043_0130
+  - chem_v3_u1_c4_pdf043_0131
+  specRefs:
+  - '1.22'
+  - '1.23'
+  glossary:
+  - valency
+  status: done
+- id: u1:c04:s08
+  title: The noble gases — full shells, no reactions
+  bookPage: 34
+  chunkRefs:
+  - chem_v3_u1_c4_pdf043_0132
+  specRefs:
+  - '1.24'
+  glossary: []
+  status: done
+- id: u1:c04:s09
+  title: Metals and non-metals in the Periodic Table
+  bookPage: 34
+  chunkRefs:
+  - chem_v3_u1_c4_pdf043_0134
+  - chem_v3_u1_c4_pdf044_0135
+  - chem_v3_u1_c4_pdf044_0136
+  - chem_v3_u1_c4_pdf044_0139
+  specRefs:
+  - '1.21'
+  glossary: []
+  status: done
+- id: u1:c04:s10
+  title: Metals vs non-metals — conductivity and oxide character
+  bookPage: 35
+  chunkRefs:
+  - chem_v3_u1_c4_pdf044_0137
+  - chem_v3_u1_c4_pdf044_0138
+  - chem_v3_u1_c4_pdf044_0140
+  - chem_v3_u1_c4_pdf044_0141
+  specRefs:
+  - '1.20'
+  glossary:
+  - basic-oxide
+  - acidic-oxide
+  - amphoteric-oxide
+  - delocalised-electron
+  - graphite
+  status: done
+- id: u1:c04:s11
+  title: Metals — the property list
+  bookPage: 36
+  chunkRefs:
+  - chem_v3_u1_c4_pdf045_0142
+  specRefs:
+  - '1.20'
+  - '1.21'
+  glossary:
+  - malleable
+  - ductile
+  - metallic-lustre
+  status: done
+- id: u1:c04:s12
+  title: Non-metals — the property list, and the chapter close
+  bookPage: 36
+  chunkRefs:
+  - chem_v3_u1_c4_pdf045_0143
+  specRefs:
+  - '1.20'
+  - '1.21'
+  glossary: []
+  status: done
+features:
+  prior_knowledge: true
+  cross_curricular: true
+  misconceptions: true
+  ms_vocab: true
+  glossary_chips: true
+  quick_checks: true
+  summary: true
+  can_you: true
+receipts:
+- date: '2026-10-23'
+  stage: S0
+  agent: T-BOOK-036 r0
+  note: scaffold via lessonctl (12 placeholders); section count/pages pinned at S0
+    by section_map.py — section-maps/u1-c04.json re-verified byte-identical against
+    a live regeneration this session (sha a3a76cd20cb1e8eb, 12 sections, pages [30,36],
+    26 chunks)
+- date: '2026-10-23'
+  stage: S0-L0
+  agent: T-BOOK-036 r0
+  note: course.yaml u1:c04 spine node pinned at S1 — join_set DERIVED from igcse-chemistry-T1:SUBd
+    (resourcesSha 888bca4a) = 1.18-1.24, seven points, supersedes the T-BOOK-035 r0
+    preview note (1.18-1.21); learning_objective VERBATIM from chunk chem_v3_u1_c4_pdf039_0113
+    (margin items joined with ';'; opener paragraph excluded as prose; no paraphrase)
+- date: '2026-10-23'
+  stage: S1-S4
+  agent: T-BOOK-036 r0 (u1:c04 full authoring, session web-c414c074 trace 1a164d0d8e9b7021)
+  note: 'receipt of record: qa/receipt.yaml — 12/12 sections, lint PASS 0/0 (V5/V6
+    ON), lessonPackV1.json emitted draft.'
+- date: '2026-10-22'
+  stage: S4
+  sections_done: '12'
+  pack_status: draft
+  last_agent: T-BOOK-036 r0 (session web-c414c074 trace 1a164d0d8e9b7021)
+- date: '2026-10-22'
+  sections_total: '12'
+notes: 'T-BOOK-036 r0: authored end-to-end against the chapter''s 26 chunks_v3 chunks
+  (pp. 30-36 + objectives chunk 0113 on p. 30 of the PDF-scan pair; book_page_range
+  30-36 per course.yaml — end-of-chapter questions ride chunk 0143, pp. 36-37). specRefs
+  DERIVED from SUBd join_set and pinned per-section (1.18 s01-s03; 1.19 s04-s05; 1.20
+  s10-s12; 1.21 s09, s11-s12; 1.22 s06-s07; 1.23 s07; 1.24 s08); V3 subset-checked
+  (all core, both papers, DA-shared, no C-suffix). Learner-facing titles refined;
+  printed headings retained as provenance (receipt title_refinements). blockIds honest-absent
+  (blocks live in Neon L3; renderer joins by bookPage). Chapter questions (chunk 0143
+  tail) stay page-jump-only (licensing law). lesson.yaml stage set to S4 at close
+  (c03 convention carried).'
