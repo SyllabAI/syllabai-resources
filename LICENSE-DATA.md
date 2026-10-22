@@ -120,3 +120,49 @@ Consequences of this amendment:
   `LICENSE-DATA.md` carries a Student-Book amendment").
 - Operator follow-ups (not blockers): retain the underlying permission
   documentation on file.
+
+## Amendment 2026-10-23 — Underground Mathematics text import (operator attestation; the T-UGM-IMPORT-1 amendment of record)
+
+The operator attests that permission to ship the downloaded Underground
+Mathematics text into SyllabAI is granted. Recorded verbatim in-session,
+2026-10-23 (zai-web session, gateway traces `1a16492971f299a1` /
+`1a164932141f882d`): **"Continue and downloaded text can ship into SyllabAI.
+We have permission."** The preceding directive of the same session ("don't
+need links to UGM. You already downloaded the resources, create them in
+syllabai") established the direct-import intent; this amendment supplies the
+licence position.
+
+Subject of the attestation — the **text** of Underground Mathematics
+resources captured 2026-10-22 by the research track's full-site crawl and
+imported as this repository's `UGM-Resources/` corpus family (first lane
+`UGM-Resources/pure-1-quadratics/`, 59 resources, task `T-UGM-IMPORT-1`;
+per-file provenance in front-matter + `UGM-Resources/MANIFEST.json` SHA-256
+identity). Underground Mathematics content is © University of Cambridge
+(Cambridge Mathematics); sourced exam questions are © UCLES — rights and
+attribution are unchanged and stated per file.
+
+Consequences of this amendment:
+
+- Serving/importing the captured UGM **text** inside SyllabAI surfaces
+  (including this repository and the authenticated product) is covered by
+  the operator's attestation above. This supersedes the prior position
+  ("UGM text bodies stay research-repo-only") recorded in ADR-UGM-0001 and
+  in the `UGM-Enrichment/` README (syllabai-resources#55), which anticipated
+  precisely this landing path: text of record arrives as its own
+  LICENSE-DATA.md amendment first.
+- **Scope is the downloaded text.** Images, PDFs (e.g. GeoGebra
+  constructions, component PDFs) and interactive embeds are NOT part of the
+  import and are NOT covered by this paragraph; they are recorded as
+  reference paths in front-matter (`assets:` / `interactive:`) and remain
+  unfetched pending a separate decision.
+- The non-commercial educational pilot posture, provenance law (source
+  URLs, capture dates, SHA-256 manifest) and takedown / correction handling
+  remain in force unchanged: takedown / correction requests → open an issue
+  on this repository or contact the repository owner via GitHub; affected
+  material will be removed promptly.
+- Spec-point mappings carried by the corpus (`spec_map`) are agent-generated
+  alignment candidates (`SUGGESTED`, AGENT.md rule 2); they are separate from
+  the rights position and ride the normal review/promotion gate.
+- Operator follow-ups (not blockers): retain the underlying permission
+  documentation on file; decide the product-side attribution presentation
+  (UGM's own acknowledgement strings are preserved in the corpus metadata).

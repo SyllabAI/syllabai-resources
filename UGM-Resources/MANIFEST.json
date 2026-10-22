@@ -1,0 +1,732 @@
+{
+  "manifest_version": 1,
+  "corpus": "UGM-Resources",
+  "task": "T-UGM-IMPORT-1",
+  "lane_dir": "pure-1-quadratics",
+  "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment, syllabai-resources#55) — this corpus adds the text bodies under the 2026-10-23 operator attestation",
+  "source": {
+    "site": "undergroundmathematics.org",
+    "rights_holder": "University of Cambridge (Underground Mathematics)",
+    "license_authority": "operator attestation 2026-10-23 — LICENSE-DATA.md (Amendment 2026-10-23)",
+    "capture_date": "2026-10-22",
+    "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 915bfa8c (P2 crawl + ugm-clean)",
+    "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
+  },
+  "cross_map_of_record": {
+    "file": "undergroundmathematics/resources/derived/cross-map-quadratics.json @ 915bfa8c",
+    "pilot": "P3c quadratics cross-map",
+    "aligned": 56,
+    "resources": 59
+  },
+  "built": "2026-10-22T17:22:58+06:00",
+  "file_count": 59,
+  "files": [
+    {
+      "path": "pure-1-quadratics/r6638-can-we-find-both-roots-if-one-is-double-the-other.md",
+      "sha256": "28a2c262e079bf1d80dacba4707bd0e36ce61073db7342c3ac741f11158a873c",
+      "ugm_id": "r6638",
+      "title": "Can we find both roots if one is double the other?",
+      "url": "https://undergroundmathematics.org/quadratics/r6638",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8045-can-we-find-the-midpoint-of-a-chord-of-this-parabola.md",
+      "sha256": "3fc6f5c720c75dc98fc3f5300c3d951aff2dfc3141f85f22a66b3f87dc4d5a73",
+      "ugm_id": "r8045",
+      "title": "Can we find the midpoint of a chord of this parabola?",
+      "url": "https://undergroundmathematics.org/quadratics/r8045",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6804-can-we-find-the-tangents-to-a-circle-from-a-point.md",
+      "sha256": "2b40920025fcc4f81636beb60c0b8ee727a6e89a4b300a14cc45d15a5217db3c",
+      "ugm_id": "r6804",
+      "title": "Can we find the tangents to a circle from a point?",
+      "url": "https://undergroundmathematics.org/quadratics/r6804",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8775-can-we-fit-a-quadratic-to-this-given-data.md",
+      "sha256": "f0224c15685def3e5602f951a8c63e87d3b111914f28127fc1f2a70277da4ed0",
+      "ugm_id": "r8775",
+      "title": "Can we fit a quadratic to this given data?",
+      "url": "https://undergroundmathematics.org/quadratics/r8775",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7533-can-we-prove-this-inequality-involving-two-square-roots.md",
+      "sha256": "0e9cf360fdea326ecc08f93189df4e0f095bb7734e43e95215535773d790492e",
+      "ugm_id": "r7533",
+      "title": "Can we prove this inequality involving two square roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r7533",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8812-can-we-show-b-2-2ac-x-2-4-a-c-x-8-always-has-real-roots.md",
+      "sha256": "acff7aefdd62c5eaea8f78a47562ac04ac6dbacef50590cde0569ca47c8981a0",
+      "ugm_id": "r8812",
+      "title": "Can we show $(b^2 - 2ac)x^2 + 4(a + c)x = 8$ always has real roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r8812",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7035-can-we-solve-12-x-3-x-1.md",
+      "sha256": "488ac979110ba30ffd435ab7e712869d065fa0a0d8f043f0a320c8ab0d96b049",
+      "ugm_id": "r7035",
+      "title": "Can we solve $12/(x-3) < x+1$?",
+      "url": "https://undergroundmathematics.org/quadratics/r7035",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6246-can-we-solve-nx-2-2x-sqrt-pn-2-q-rn-s-0.md",
+      "sha256": "81a0876b8619d02d126633adcad0175a652cb6b60ef977e323c35701f46e5316",
+      "ugm_id": "r6246",
+      "title": "Can we solve $nx^2+2x\\sqrt{pn^2+q}+rn+s=0$?",
+      "url": "https://undergroundmathematics.org/quadratics/r6246",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7485-can-we-solve-sqrt-3-3x-sqrt-2-x-1.md",
+      "sha256": "5f8dc081461244facea0d8cff9a8a1c8883a1d792dbb7f55dbd1341c2d6d9892",
+      "ugm_id": "r7485",
+      "title": "Can we solve $\\sqrt{3-3x} - \\sqrt{2-x} = 1$?",
+      "url": "https://undergroundmathematics.org/quadratics/r7485",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r5682-can-we-solve-the-simultaneous-equations-x-y-sqrt-xy-39-and-x-2-y.md",
+      "sha256": "fb079e90c10b7d146c407592a70f07420c87d1e68650b003068705d6f54b5f8f",
+      "ugm_id": "r5682",
+      "title": "Can we solve the simultaneous equations $x + y + \\sqrt{xy} = 39$ and $x^2 + y^2 + xy = 741$?",
+      "url": "https://undergroundmathematics.org/quadratics/r5682",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8128-can-we-solve-these-simultaneous-equations-that-involve-reciproca.md",
+      "sha256": "a4099650ff1ab6cdadcca3555f98c1957cf1ec0dc03a951bd730019c0411c3bf",
+      "ugm_id": "r8128",
+      "title": "Can we solve these simultaneous equations that involve reciprocals?",
+      "url": "https://undergroundmathematics.org/quadratics/r8128",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7520-can-we-solve-these-simultaneous-equations-both-of-degree-two.md",
+      "sha256": "2e7acc64617071adf60a775745dd0e9c18dbcab483faf69ea93a4eb07c75453d",
+      "ugm_id": "r7520",
+      "title": "Can we solve these simultaneous equations, both of degree two?",
+      "url": "https://undergroundmathematics.org/quadratics/r7520",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6429-can-we-solve-these-simultaneous-equations-one-linear-one-quadrat.md",
+      "sha256": "46b59991a21ee4baa3a82bb4607b9ed51d6dca05b756fa0f160e69b62ce49a8f",
+      "ugm_id": "r6429",
+      "title": "Can we solve these simultaneous equations, one linear, one quadratic?",
+      "url": "https://undergroundmathematics.org/quadratics/r6429",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6387-can-we-solve-this-inequality-with-three-square-roots.md",
+      "sha256": "27961aa26cb117f31392ab4439e6ca6c5f34c2782132f9f694b1c22fff8a79d1",
+      "ugm_id": "r6387",
+      "title": "Can we solve this inequality with three square roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r6387",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/discriminating-discriminating.md",
+      "sha256": "2aa65c694916d6f82acdc22d5f1e76952f05f0ed4e0084e8d7ca1dcc7279895b",
+      "ugm_id": "discriminating",
+      "title": "Discriminating",
+      "url": "https://undergroundmathematics.org/quadratics/discriminating",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/discriminating-teacher-support-discriminating-teacher-support.md",
+      "sha256": "3f98cee93b139407c3510c73a624febde0b52b85d081e855a762412472df081b",
+      "ugm_id": "discriminating-teacher-support",
+      "title": "Discriminating - teacher support",
+      "url": "https://undergroundmathematics.org/quadratics/discriminating-teacher-support",
+      "resource_type_label": "Resource in action",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/factorisable-quads-factorisable-quadratics.md",
+      "sha256": "84656106128fe64936bfde6c076891f35253babb09c04edf4336a5d4fd552215",
+      "ugm_id": "factorisable-quads",
+      "title": "Factorisable quadratics",
+      "url": "https://undergroundmathematics.org/quadratics/factorisable-quads",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6526-for-what-values-of-k-is-x-2-6kx-144-always-positive.md",
+      "sha256": "06c48eba1fecf591ab92cbc22e0563ed124a417c4c76d0f49ff548f09c8ba2fe",
+      "ugm_id": "r6526",
+      "title": "For what values of $k$ is $x^2 + 6kx +144$ always positive?",
+      "url": "https://undergroundmathematics.org/quadratics/r6526",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2",
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/geogebra-constructions-quadratic-geogebra-constructions-quadratic-edition.md",
+      "sha256": "9b97827f05a7910afb3b936e978e10dd40d3c423ad12f68fd996cd965b3f2c2d",
+      "ugm_id": "geogebra-constructions-quadratic",
+      "title": "GeoGebra constructions... quadratic edition",
+      "url": "https://undergroundmathematics.org/quadratics/geogebra-constructions-quadratic",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6756-given-the-minimum-point-what-s-this-parabola-s-equation.md",
+      "sha256": "21f7a4df7249c54ba4b631bb432dad6e7de71a8d44e47f4bdc9a3f6cb6d4097c",
+      "ugm_id": "r6756",
+      "title": "Given the minimum point, what's this parabola's equation?",
+      "url": "https://undergroundmathematics.org/quadratics/r6756",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7588-given-two-simultaneous-equations-of-degree-two-can-we-solve-them.md",
+      "sha256": "11ec378da8cb670929a23876a045aa18085b43a6c05c8a827608294f6c449889",
+      "ugm_id": "r7588",
+      "title": "Given two simultaneous equations of degree two, can we solve them?",
+      "url": "https://undergroundmathematics.org/quadratics/r7588",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6215-how-do-we-solve-x-3-sqrt-x-1-2-0.md",
+      "sha256": "c621acc0dd6372377838700c8cb03f75244bac0d1251a88ae808a6f1cb8ce217",
+      "ugm_id": "r6215",
+      "title": "How do we  solve $x + 3\\sqrt{x} − 1/2 = 0$?",
+      "url": "https://undergroundmathematics.org/quadratics/r6215",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6712-how-do-we-increase-the-roots-of-a-quadratic-equation-by-1.md",
+      "sha256": "87bba55d8e3bbe9a42e3920cbd311a3780a688533fe864e12395b92b9bbc437f",
+      "ugm_id": "r6712",
+      "title": "How do we increase the roots of a quadratic equation by $1$?",
+      "url": "https://undergroundmathematics.org/quadratics/r6712",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r5847-how-do-we-solve-an-equation-containing-three-square-roots.md",
+      "sha256": "324512182c19e23b4b660a6c54ce41c9a30bcd5b5e80c2e95e002df397e6b6a9",
+      "ugm_id": "r5847",
+      "title": "How do we solve an equation containing three square roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r5847",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6864-how-fast-are-these-particles-sliding-when-they-pass.md",
+      "sha256": "63514c2a3fb1c8c162446acc0e83adc9b786d1c5b4a1ea7bcd3086a039837d59",
+      "ugm_id": "r6864",
+      "title": "How fast are these particles sliding when they pass?",
+      "url": "https://undergroundmathematics.org/quadratics/r6864",
+      "resource_type_label": "Review question",
+      "spec_points": [],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6816-if-2y-a-x-a-x-can-we-find-a-x.md",
+      "sha256": "aeadb9d1e3316d57d5e2a48c96e1885c6575985e1c2cf6a9487c067fa47dfbb6",
+      "ugm_id": "r6816",
+      "title": "If $2y = a^x + a^{-x}$, can we find $a^x$?",
+      "url": "https://undergroundmathematics.org/quadratics/r6816",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9724-if-7-px-x-2-16-q-x-2-what-are-p-and-q.md",
+      "sha256": "9e3e6a317b347b9294845e0f066074e16b399216e7db3c7e5239253bfb6c4411",
+      "ugm_id": "r9724",
+      "title": "If $7 - px - x^2 = 16 - (q + x)^2$, what are $p$ and $q$?",
+      "url": "https://undergroundmathematics.org/quadratics/r9724",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7972-if-we-know-two-values-satisfying-a-quadratic-can-we-find-the-qua.md",
+      "sha256": "eb6ac37fc2919337285d9375732743fa40eaba845746f36f6564f691006e9795",
+      "ugm_id": "r7972",
+      "title": "If we know two values satisfying a quadratic, can we find the quadratic?",
+      "url": "https://undergroundmathematics.org/quadratics/r7972",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/inequalities-for-some-occasions-inequalities-for-some-occasions.md",
+      "sha256": "9aa8a9ad8a2d7340f2a9914185355e9aa8feee6c1a7649ac01f1bf6a6a407c47",
+      "ugm_id": "inequalities-for-some-occasions",
+      "title": "Inequalities for some occasions",
+      "url": "https://undergroundmathematics.org/quadratics/inequalities-for-some-occasions",
+      "resource_type_label": "Fluency exercise",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8781-into-how-many-regions-do-these-parabolas-divide-the-plane.md",
+      "sha256": "322da133af62b750b424757e5c2cfa43fd10acfb41d613cdf36e8a533d9e5157",
+      "ugm_id": "r8781",
+      "title": "Into how many regions do these parabolas divide the plane?",
+      "url": "https://undergroundmathematics.org/quadratics/r8781",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4",
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/irrational-roots-irrational-roots.md",
+      "sha256": "b5cbd9cc522d3e4f592c9ddf6e99c399b6137d6a246549651e7f20f392905c05",
+      "ugm_id": "irrational-roots",
+      "title": "Irrational roots",
+      "url": "https://undergroundmathematics.org/quadratics/irrational-roots",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/name-that-graph-name-that-graph.md",
+      "sha256": "111fd5103b3607323aa7376f6efe7d9c7b32577a1bf572c2c738f1c39dfa0737",
+      "ugm_id": "name-that-graph",
+      "title": "Name that graph",
+      "url": "https://undergroundmathematics.org/quadratics/name-that-graph",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/paired-parabolas-paired-parabolas.md",
+      "sha256": "3af771aa7064187116f881b41f04c988d805690b46e90c18283c146f80c1b71d",
+      "ugm_id": "paired-parabolas",
+      "title": "Paired parabolas",
+      "url": "https://undergroundmathematics.org/quadratics/paired-parabolas",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/parabella-parabella.md",
+      "sha256": "e59ddf117a14732de2dc6315056c118bb40a9168e372fa201bc1740bb377dc20",
+      "ugm_id": "parabella",
+      "title": "Parabella",
+      "url": "https://undergroundmathematics.org/quadratics/parabella",
+      "resource_type_label": "Food for thought",
+      "spec_points": [],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/parabolic-mirrors-parabolic-mirrors.md",
+      "sha256": "35289a7ff3d6c7fb31fd9dca645b3c4783d07fd5105ce4ee5e4897da29ff5486",
+      "ugm_id": "parabolic-mirrors",
+      "title": "Parabolic mirrors",
+      "url": "https://undergroundmathematics.org/quadratics/parabolic-mirrors",
+      "resource_type_label": "Bigger picture",
+      "spec_points": [],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/pick-a-card-pick-a-card.md",
+      "sha256": "d66d6435ca6b2cb567d1bd7c0994d4c6025239448de58f4226ce89465986f98c",
+      "ugm_id": "pick-a-card",
+      "title": "Pick a card...",
+      "url": "https://undergroundmathematics.org/quadratics/pick-a-card",
+      "resource_type_label": "Fluency exercise",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/powerful-quads-powerful-quadratics.md",
+      "sha256": "73094a652afef492f974848c0a7f8ef899390bbb50160f78c78ff01a14546eff",
+      "ugm_id": "powerful-quads",
+      "title": "Powerful quadratics",
+      "url": "https://undergroundmathematics.org/quadratics/powerful-quads",
+      "resource_type_label": "Food for thought",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/proving-quad-formula-proving-the-quadratic-formula.md",
+      "sha256": "3328d5f07dc9ccbd53054d78da4cdc765f9252f320648b8576a4db8b941a203c",
+      "ugm_id": "proving-quad-formula",
+      "title": "Proving the quadratic formula",
+      "url": "https://undergroundmathematics.org/quadratics/proving-quad-formula",
+      "resource_type_label": "Scaffolded task",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/quadratic-grids-quadratic-grids.md",
+      "sha256": "23ffce3c18e3aea7c439a11238d67e6b55478dc0c114ffc9ae58a9cbbfd96e2a",
+      "ugm_id": "quadratic-grids",
+      "title": "Quadratic grids",
+      "url": "https://undergroundmathematics.org/quadratics/quadratic-grids",
+      "resource_type_label": "Rich example",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/quad-solving-sorter-quadratic-solving-sorter.md",
+      "sha256": "d4552d12d2bfc48f5694d29db92a0bbc0c264cb2e69b249e4ad84d5c629ed626",
+      "ugm_id": "quad-solving-sorter",
+      "title": "Quadratic solving sorter",
+      "url": "https://undergroundmathematics.org/quadratics/quad-solving-sorter",
+      "resource_type_label": "Fluency exercise",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/quad-symmetry-quadratic-symmetry.md",
+      "sha256": "626cf564983b1d6bdfbb1db3a8daac1de3636c4a227bbc0c24d4880bebc5e5c0",
+      "ugm_id": "quad-symmetry",
+      "title": "Quadratic symmetry",
+      "url": "https://undergroundmathematics.org/quadratics/quad-symmetry",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8855-what-does-the-curve-x-4-y-2-y-1-look-like.md",
+      "sha256": "f245a852f33b17cc7ef00f9a1cada4aaf7d36b3063b66e3e4c8a62db33951f63",
+      "ugm_id": "r8855",
+      "title": "What does the curve $x^4-y^2=y+1$ look like?",
+      "url": "https://undergroundmathematics.org/quadratics/r8855",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7350-when-are-the-coefficients-of-a-quadratic-equal-to-its-roots.md",
+      "sha256": "29cd0e227e92305da212e20242ad6bfb8a9b8f30f5f3329e919baa9d2e5c131c",
+      "ugm_id": "r7350",
+      "title": "When are the coefficients of a quadratic equal to its roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r7350",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r5138-when-are-the-roots-for-x-2-bx-c-0-real-and-positive.md",
+      "sha256": "69ce75cda9b254307715fb731c051eaba37b8de9b342b9969bb2f51c213b85ef",
+      "ugm_id": "r5138",
+      "title": "When are the roots for $x^2-bx+c=0$ real and positive?",
+      "url": "https://undergroundmathematics.org/quadratics/r5138",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9989-when-are-these-quadratic-inequalities-true-together.md",
+      "sha256": "66d8b9aad11e01bddd7b2ff1cee5f31d435661d2f1fdfe720d01828a88c72787",
+      "ugm_id": "r9989",
+      "title": "When are these quadratic inequalities true together?",
+      "url": "https://undergroundmathematics.org/quadratics/r9989",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r8407-when-can-this-equation-involving-algebraic-fractions-hold.md",
+      "sha256": "3f20ac783b6c7daa667704d4754561f1e6b2a1f7b0a03a43bfa0449b9bb97301",
+      "ugm_id": "r8407",
+      "title": "When can this equation involving algebraic fractions hold?",
+      "url": "https://undergroundmathematics.org/quadratics/r8407",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9658-when-do-these-simultaneous-equations-have-no-real-solutions.md",
+      "sha256": "3370563dc238c74025abdd00be9eee79e8c18eda34183cea664708efe7651430",
+      "ugm_id": "r9658",
+      "title": "When do these simultaneous equations have no real solutions?",
+      "url": "https://undergroundmathematics.org/quadratics/r9658",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4",
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7455-when-does-p-1-x-2-4px-9-0-have-a-repeated-root.md",
+      "sha256": "46ed6e52ff6f98ca98880c70189c1a8ee0dd183ca6757c6814326a57598b082d",
+      "ugm_id": "r7455",
+      "title": "When does $(p+1)x^2+4px+9=0$ have a repeated root?",
+      "url": "https://undergroundmathematics.org/quadratics/r7455",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9659-when-does-x-2-ax-a-1-have-distinct-real-roots.md",
+      "sha256": "42aa0afb452638218c54aa053cc6a29fb6c9e68cb727a7173f89e062dc454436",
+      "ugm_id": "r9659",
+      "title": "When does $x^2 + ax + a = 1$ have distinct real roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r9659",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r6828-when-does-x-2-3k-7-x-2k-6-0-have-real-roots.md",
+      "sha256": "0c3a57183082dba214eb9dc68590241b5931eef7552d679e880f1d45247fd782",
+      "ugm_id": "r6828",
+      "title": "When does $x^2+(3k-7)x+(2k+6)=0$ have real roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r6828",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r5316-when-does-x-2-4x-1-2k-x-5-have-equal-roots.md",
+      "sha256": "145de8fced04f034de3d4cd1a5bfa5a64ffe34169287b3d5d665193f57f9b55d",
+      "ugm_id": "r5316",
+      "title": "When does $x^2-4x-1=2k(x-5)$ have equal roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r5316",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9546-when-does-x-4-x-c-2-have-four-real-roots.md",
+      "sha256": "2c905c2506d3cfc56cd9adc3f5835abc1ac9a38aa6ef2fbf3e5622dcd5884083",
+      "ugm_id": "r9546",
+      "title": "When does $x^4=(x-c)^2$ have four real roots?",
+      "url": "https://undergroundmathematics.org/quadratics/r9546",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.5"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9614-when-does-y-kx-intersect-the-parabola-y-x-1-2.md",
+      "sha256": "e3a849825c7fa35d6b77fd37b65906855ec878c22c003872c542a8b7d5e6e705",
+      "ugm_id": "r9614",
+      "title": "When does $y=kx$ intersect the parabola $y=(x-1)^2$?",
+      "url": "https://undergroundmathematics.org/quadratics/r9614",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r5287-when-does-y-mx-5-intersect-y-x-2-1-twice.md",
+      "sha256": "c34977ea9992b49b18ba1a69d8750b2100e4704999a27f4cd8550e4719c0ad40",
+      "ugm_id": "r5287",
+      "title": "When does $y=mx-5$ intersect $y=x^2-1$  twice?",
+      "url": "https://undergroundmathematics.org/quadratics/r5287",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r5059-when-is-12x-2-7x-10-negative.md",
+      "sha256": "58abbf5d17099815bae21952f3303567ce91855ade08c9053de4bd7dfdc230c2",
+      "ugm_id": "r5059",
+      "title": "When is $12x^2+7x-10$ negative?",
+      "url": "https://undergroundmathematics.org/quadratics/r5059",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r7328-when-is-this-line-a-tangent-to-this-parabola.md",
+      "sha256": "7791b118e9764926e92d9969fc06cb90da3f9b82af0001f0b2ec8eb6f7336833",
+      "ugm_id": "r7328",
+      "title": "When is this line a tangent to this parabola?",
+      "url": "https://undergroundmathematics.org/quadratics/r7328",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.4"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/r9742-where-does-y-px-2-8x-p-6-cross-the-x-axis.md",
+      "sha256": "bd3cce313116ebb63eaef84568ff2da82c8d0a6d8edb76cece3f336c30a46cdb",
+      "ugm_id": "r9742",
+      "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+      "url": "https://undergroundmathematics.org/quadratics/r9742",
+      "resource_type_label": "Review question",
+      "spec_points": [
+        "1.1.2",
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/which-parabola-which-parabola.md",
+      "sha256": "14fa597acd72db247f689227a936173b9104d25d0b4323cde91b39f0421ed3d7",
+      "ugm_id": "which-parabola",
+      "title": "Which parabola?",
+      "url": "https://undergroundmathematics.org/quadratics/which-parabola",
+      "resource_type_label": "Package of problems",
+      "spec_points": [
+        "1.1.1"
+      ],
+      "captured": "2026-10-22"
+    },
+    {
+      "path": "pure-1-quadratics/which-quadratic-which-quadratic.md",
+      "sha256": "72b0b1dfcff8f6acffbee8e62af8b458340416ccbc564eec6e2222fa3b302c87",
+      "ugm_id": "which-quadratic",
+      "title": "Which quadratic?",
+      "url": "https://undergroundmathematics.org/quadratics/which-quadratic",
+      "resource_type_label": "Building blocks",
+      "spec_points": [
+        "1.1.1",
+        "1.1.3"
+      ],
+      "captured": "2026-10-22"
+    }
+  ]
+}
