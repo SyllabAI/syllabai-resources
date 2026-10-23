@@ -9,10 +9,10 @@ glossary: [combustion, reduction, displacement-reaction, redox-reaction]
 ---
 
 Spec 1.36 is a practical: **know how to determine the formula of a metal
-oxide by combustion or by reduction**. The book gives both experiments,
-each ending in the same empirical-formula table.
+oxide by combustion or by reduction**. Both experiments are here, each
+ending in the same empirical-formula table.
 
-## By combustion — magnesium oxide (Figure 5.12)
+## By combustion — magnesium oxide
 
 Burn magnesium in oxygen and watch how the mass changes. Procedure:
 weigh a crucible **with its lid**; add a ~10 cm piece of magnesium ribbon
@@ -44,7 +44,7 @@ Wear eye protection and take care not to get burned when raising the
 crucible lid with tongs. The crucible will stay very hot for some time.
 :::
 
-## By reduction — copper oxide (Figure 5.13)
+## By reduction — copper oxide
 
 Alternatively, **remove the oxygen** and watch the mass fall. Pass
 hydrogen gas over copper oxide in a ceramic dish inside a tube; ignite
@@ -81,14 +81,14 @@ stream (or the Bunsen burner).
 :::key-point
 How do you know the reaction has finished? Nothing more happens in the
 crucible — and you check by **heating to constant mass**: weigh, heat,
-weigh again, repeating until the mass stays constant. (The book's HINT:
+weigh again, repeating until the mass stays constant. (Precision note:
 the original masses here are 2 significant figures, so quote the moles
 as 0.010 — the extra figure shows the precision honestly.)
 :::
 
 :::exam-hint
-In practice the ratio "is not very often" exactly 1:1 — the book lists
-the experimental culprits: some magnesium oxide powder may escape when
+In practice the ratio "is not very often" exactly 1:1 — the experimental
+culprits: some magnesium oxide powder may escape when
 the lid is lifted; not all the magnesium may react; and magnesium can
 also react with **nitrogen** in the air. Expect a question to hand you a
 slightly-off ratio and ask which of these explains it — that question is
@@ -104,7 +104,7 @@ means *oxygen removed*, i.e. reduction — not loss of matter.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.31/1.36 items — the two
-metal-oxide practicals and their mass-change logic. Book p. 62
-questions → page jump only (licensing law).
+
+Question-bank join: spec 1.31/1.36 items — the two metal-oxide practicals
+and their mass-change logic.
 :::

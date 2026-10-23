@@ -8,8 +8,8 @@ blocks: []
 glossary: []
 ---
 
-The reacting-mass problems are now in view, and the book describes the
-exam's format precisely. Typical calculations give you a **mass of
+The reacting-mass problems are now in view, and the exam's format is
+precise. Typical calculations give you a **mass of
 starting material** and ask how much **product** you are likely to
 obtain; you will also find them done **in reverse** — told the mass of
 product, asked how much starting material you would need. And in almost
@@ -20,7 +20,7 @@ That last sentence is worth reading twice. The exam does not test
 whether you can recall an equation mid-problem; it tests whether you can
 *use* the one supplied — read it in moles (section 25), convert the given
 mass to moles (section 16), walk the mole ratio, and convert back to
-mass. The book's next sections run that pipeline through three complete
+mass. The next sections run that pipeline through three complete
 problems: heating calcium carbonate, extracting iron, and extracting
 lead — each with the method spelled out and the alternative route shown.
 
@@ -34,7 +34,7 @@ The three-step skeleton those problems share:
 :::exam-hint
 "When you have finished a chemistry calculation, the impression should
 nearly always be that there are a lot of words with a few numbers between
-them, not vice versa" — the book's own description of a full-mark answer.
+them, not vice versa" — that is the description of a full-mark answer.
 Show the equation-reading and the unit changes as words and lines, not as
 a bare arithmetic stream: the words are where the method marks are parked.
 :::
@@ -49,7 +49,6 @@ for its balancing numbers.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.29 items — the three-step
-reacting-mass skeleton. Book p. 62–63 questions → page jump only
-(licensing law).
+
+Question-bank join: spec 1.29 items — the three-step reacting-mass skeleton.
 :::

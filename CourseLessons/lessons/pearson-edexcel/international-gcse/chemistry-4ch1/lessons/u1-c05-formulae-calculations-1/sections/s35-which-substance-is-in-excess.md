@@ -15,8 +15,8 @@ excess afterwards (by filtering, for example). A **[[reagent]]** is just
 something that reacts; the substance left over is the
 **[[excess-reagent]]**.
 
-The trap the book sets up: until now, every problem gave you enough
-information to calculate moles of **one** thing. What if you are given
+The trap: until now, every problem gave you enough information to
+calculate moles of **one** thing. What if you are given
 moles of **both**?
 
 > Magnesium reacts with hydrochloric acid:
@@ -41,15 +41,15 @@ mass of H₂ = 0.1 × 2 = **0.2 g** — the correct answer.
 
 :::key-point
 You **always have to use the chemical equation** to determine which
-substance is in excess — "more of it" is not the test. The book's own
-variant: 0.2 mol Mg with 0.3 mol HCl *looks* like HCl is in excess
+substance is in excess — "more of it" is not the test. Variant: 0.2 mol
+Mg with 0.3 mol HCl *looks* like HCl is in excess
 (there is more of it), but 0.3 mol HCl only reacts with 0.15 mol Mg —
 still not enough HCl to use up all the Mg, so the Mg is **still** in
 excess.
 :::
 
 :::exam-hint
-The book closes the method in one line: **to deduce which substance is
+The method closes in one line: **to deduce which substance is
 in excess, try both numbers of moles in the chemical equation and
 compare**. Run each reagent's moles through the ratio and see which one
 runs out first — the one that runs out (HCl here) is the limiting
@@ -66,7 +66,7 @@ equation's ratio before naming the excess.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.29 items — limiting and
-excess reagent identification. Book p. 63 questions → page jump only
-(licensing law).
+
+Question-bank join: spec 1.29 items — limiting and excess reagent
+identification.
 :::

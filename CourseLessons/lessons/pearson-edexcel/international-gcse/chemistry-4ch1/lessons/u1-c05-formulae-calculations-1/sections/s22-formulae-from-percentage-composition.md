@@ -10,7 +10,7 @@ glossary: []
 
 The worked examples and practicals so far determined empirical formulae
 **from masses**. In the exam you are often given **percentages by mass**
-instead. The book's Example 5 shows the one extra step — and it is a
+instead. The next worked example shows the one extra step — and it is a
 pleasant one.
 
 **Example 5.** Find the empirical formula of a compound containing
@@ -18,7 +18,7 @@ pleasant one.
 
 The percentage figures apply to **any amount you choose — so choose
 100 g**. Then the percentages simply *become* masses: 82.7% of 100 g is
-82.7 g. Table 5.1 does the rest:
+82.7 g. The table does the rest:
 
 |                                 | C         | H         |
 |---------------------------------|-----------|-----------|
@@ -29,8 +29,7 @@ The percentage figures apply to **any amount you choose — so choose
 | ÷ smallest to get ratio         | 6.89/6.89 | 17.3/6.89 |
 | ratio of moles                  | 1         | 2.5       |
 
-The ratio comes out **1 : 2.5** — and here the book's HINT does the
-exam-thinking for you. The empirical formula is the *whole-number* ratio,
+The ratio comes out **1 : 2.5** — and here is the exam-thinking: The empirical formula is the *whole-number* ratio,
 so a fraction is not an error, it is a instruction to scale up: **multiply
 both numbers by 2** to get **C₂H₅**, the empirical formula.
 
@@ -42,8 +41,7 @@ whole numbers (2 : 5).
 :::
 
 :::exam-hint
-The book's HINT draws the exact line between legitimate rounding and
-corruption: calculating 17.3/6.89 gives **2.51** — rounding that to 2.5
+The exact line between legitimate rounding and corruption: calculating 17.3/6.89 gives **2.51** — rounding that to 2.5
 (or 1.01 to 1) is fine; rounding 2.51 **to 3** is not. And a ratio like
 1 : 1.33 is not rounded down to 1 : 1 — you multiply by 3 to obtain the
 whole-number ratio. Halves ×2, thirds ×3, quarters ×4: recognise the
@@ -60,7 +58,7 @@ percentages.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.33 items — empirical
-formulae from percentage composition. Book p. 62 questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.33 items — empirical formulae from percentage
+composition.
 :::

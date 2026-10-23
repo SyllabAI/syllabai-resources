@@ -9,8 +9,8 @@ glossary: [percentage-composition]
 ---
 
 Once you have an Mᵣ, one division tells you what fraction of a compound's
-mass any part of it contributes — the **[[percentage-composition]]**. The
-book's first worked case, magnesium carbonate:
+mass any part of it contributes — the **[[percentage-composition]]**.
+First worked case, magnesium carbonate:
 
 **To find the Mᵣ of MgCO₃** (Aᵣ values: C = 12, O = 16, Mg = 24):
 
@@ -32,10 +32,10 @@ element follows: that element's total contribution divided by the whole,
 examples.
 
 :::exam-hint
-Two habits from the book's presentation are worth copying in the exam.
-First, **write the Aᵣ values down before starting** — the book always
-lists them ("Relative atomic masses: C = 12, O = 16, Mg = 24") even
-though they are given, because it makes the working checkable. Second,
+Two habits are worth copying in the exam. First, **write the Aᵣ values
+down before starting** — list them ("Relative atomic masses: C = 12,
+O = 16, Mg = 24") even though they are given, because it makes the
+working checkable. Second,
 multiply first, add second: 3 × 16 = 48 as its own step stops the
 "C + O₃" addition errors.
 :::
@@ -48,7 +48,6 @@ the bracket-rule failure wearing a calculation costume.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.26 items — Mᵣ with
-bracketed groups. Book p. 60–61 questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.26 items — Mᵣ with bracketed groups.
 :::

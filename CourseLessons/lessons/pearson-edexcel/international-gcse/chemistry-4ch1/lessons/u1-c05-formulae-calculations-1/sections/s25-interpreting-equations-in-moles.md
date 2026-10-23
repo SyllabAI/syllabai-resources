@@ -19,13 +19,13 @@ that, because the same ratios hold for moles:
 
 **1 mol CH₄ reacts with 2 mol O₂ to form 1 mol CO₂ and 2 mol H₂O**
 
-Nothing about the equation's meaning has changed — "the ratios are still
-the same", as the book puts it. The equation's big numbers do double
+Nothing about the equation's meaning has changed — the ratios are still
+the same. The equation's big numbers do double
 duty: they balance the atoms *and* they announce the proportions in
 moles.
 
-The book's KEY POINT pins the arithmetic: the big numbers in front of
-the formulae tell us **the number of moles** of each substance that
+The arithmetic, pinned: the big numbers in front of the formulae tell
+us **the number of moles** of each substance that
 react. And although there does not appear to be a big number in front of
 the CH₄ and CO₂, there is — a '1' that we simply do not write.
 
@@ -53,7 +53,6 @@ the masses.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.28 items — equations read
-as mole recipes. Book p. 62–63 questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.28 items — equations read as mole recipes.
 :::

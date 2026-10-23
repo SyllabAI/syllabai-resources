@@ -29,13 +29,13 @@ mass = number of moles × mass of 1 mole = 0.25 × 56 = **14 g**
 
 The reaction will produce **14 g of calcium oxide**.
 
-**The alternative route (ratios).** The book's HINT shows the same answer
-without the explicit moles: 1 mol CaCO₃ produces 1 mol CaO, so
+**The alternative route (ratios).** The same answer without the explicit
+moles: 1 mol CaCO₃ produces 1 mol CaO, so
 100 g produces 56 g; therefore 1 g produces 56/100 = 0.56 g; therefore
 25 g produces 25 × 0.56 = **14 g**. "You do not have to learn both
 methods, just learn whichever method you are happier with."
 
-Two more HINTs from the book complete the section. On precision: the
+Two more hints complete the section. On precision: the
 impression of a full-mark answer is "a lot of words with a few numbers
 between them" — and even if your mental arithmetic is fast enough to
 skip steps, **you must still show all your calculations**. On a
@@ -55,8 +55,8 @@ The ratio method shines when the equation's coefficients are awkward or
 the arithmetic is round-numbered (100 → 56 here). The three-step method
 scales to *every* problem in the rest of the chapter, including the
 two-equation lead problem where the ratio method gets messier. Learn one
-primary method, keep the other as a checking tool — and remember the
-book's warning to show the working either way.
+primary method, keep the other as a checking tool — and remember to
+show the working either way.
 :::
 
 :::misconception
@@ -68,7 +68,7 @@ balancing numbers state directly.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.29 items — the three-step
-method on thermal decomposition. Book p. 63 questions (including the
-CaCO₃ family) → page jump only (licensing law).
+
+Question-bank join: spec 1.29 items — the three-step method on thermal
+decomposition.
 :::

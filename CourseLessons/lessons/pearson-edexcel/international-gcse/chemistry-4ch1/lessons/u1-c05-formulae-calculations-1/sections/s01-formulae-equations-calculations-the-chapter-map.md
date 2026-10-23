@@ -9,9 +9,8 @@ glossary: [mole]
 authored: true
 ---
 
-The book opens this chapter with one of the biggest numbers you will meet
-in chemistry: a single gold bar the size of the one in Figure 5.1 contains
-almost **4 × 10²⁵ gold atoms** — that is 4 followed by 25 noughts. Counting
+This chapter opens with one of the biggest numbers you will meet in
+chemistry: a single gold bar contains almost **4 × 10²⁵ gold atoms** — that is 4 followed by 25 noughts. Counting
 atoms one by one is obviously hopeless, so chemistry needs a way of
 counting particles *by weighing*. That is what this chapter builds: the
 **[[mole]]**, the unit chemists use for amount of substance, and the
@@ -43,8 +42,8 @@ By the end of this lesson you will be able to:
 
 :::exam-hint
 The chapter's own objectives list is your revision checklist: every one of
-its bullets is an examinable skill. Notice what the book chooses to
-emphasise in its first objective — you must be able to write balanced
+its bullets is an examinable skill. Notice what the first objective
+goes out of its way to emphasise — you must be able to write balanced
 equations **including state symbols** both for reactions you have studied
 *and* for unfamiliar reactions where you are given suitable information.
 The unfamiliar-reaction half is where marks are commonly lost.
@@ -60,8 +59,7 @@ a working tool.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.25/1.27 items — writing and
-balancing equations, and the mole as the unit of amount of substance. Book
-chapter questions (pp. 60–63: balancing equations, mole calculations,
-reacting-mass and yield problems) → page jump only (licensing law).
+
+Question-bank join: spec 1.25/1.27 items — writing and balancing equations,
+and the mole as the unit of amount of substance.
 :::

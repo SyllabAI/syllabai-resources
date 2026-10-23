@@ -8,8 +8,8 @@ blocks: []
 glossary: []
 ---
 
-Modify the reduction apparatus of Figure 5.13 slightly — Figure 5.14 —
-and the same experiment determines **the formula of water**: this time
+Modify the reduction apparatus slightly and the same experiment
+determines **the formula of water**: this time
 the **water vapour** produced by the reaction between copper(II) oxide
 and hydrogen is **condensed** in a U-tube and collected. The dish is
 weighed before and after as before, **and** the mass of water collected
@@ -24,7 +24,7 @@ The results table adds one row to the reduction experiment's:
 | mass of dish + contents at end         | 26.32  |
 | mass of water collected                | **0.72** |
 
-The reasoning, in the book's steps: the mass of oxygen lost from the
+The reasoning, step by step: the mass of oxygen lost from the
 copper(II) oxide is **0.64 g** (26.96 − 26.32). **All** that oxygen
 combines with hydrogen to form water — so the water contains 0.64 g of
 oxygen. Since 0.72 g of water was collected, the mass of hydrogen in it
@@ -61,7 +61,7 @@ confirmation.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.31 items — determining
-the formula of water experimentally. Book p. 62 questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.31 items — determining the formula of water
+experimentally.
 :::

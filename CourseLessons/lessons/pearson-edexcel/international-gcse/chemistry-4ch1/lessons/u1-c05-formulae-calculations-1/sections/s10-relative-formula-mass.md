@@ -11,19 +11,18 @@ glossary: [relative-formula-mass, relative-molecular-mass]
 Compounds get weighed on the same carbon-12 scale as atoms. A water
 molecule, H₂O, has a mass of **18** on this scale — 18 times the mass of
 one-twelfth of a ¹²C atom. For compounds the term is
-**[[relative-formula-mass]]**, given the symbol **Mᵣ** (the book notes it
-is sometimes called [[relative-molecular-mass]] — the previous section's
-HINT explains why *formula* mass is the safer phrase: it covers ionic
-substances too).
+**[[relative-formula-mass]]**, given the symbol **Mᵣ** (it is sometimes
+called [[relative-molecular-mass]] — the previous section explains why
+*formula* mass is the safer phrase: it covers ionic substances too).
 
 Calculating an Mᵣ is bookkeeping: **add up the relative atomic masses of
-every atom in the formula**, using the Periodic Table. The book's
-copper(II) sulfate crystals example, CuSO₄·5H₂O, shows the one twist you
+every atom in the formula**, using the Periodic Table. The copper(II)
+sulfate crystals example, CuSO₄·5H₂O, shows the one twist you
 must be ready for. When some substances crystallise from solution, water
 becomes **chemically bound** to the salt — [[water-of-crystallisation]] —
 and the bound water is *part of the formula*: there are always 5 water
 molecules per CuSO₄ unit, and salts carrying it are **hydrated**. (Other
-examples the book lists: Na₂CO₃·10H₂O and MgCl₂·6H₂O.)
+examples: Na₂CO₃·10H₂O and MgCl₂·6H₂O.)
 
 :::key-point
 Relative atomic masses are **always given** in the exam — in the question
@@ -33,13 +32,12 @@ atomic mass, not the atomic number).
 :::
 
 :::exam-hint
-The book's HINT on hydrated formulae flags the classic miscount: work out
+The classic miscount on hydrated formulae: work out
 the hydrogens and oxygens of the water **as complete H₂O units**, not
 separately. The common mistake is to get 10 hydrogens right (2 × 5) but
 then count only **1** oxygen instead of **5**. Five waters = 10 H **and**
-5 O. (The book's Figure 5.8 shows the structure: five water molecules
-bonded to each copper(II) sulfate unit — and it writes copper(II)
-properly: capital I twice, not Il.)
+5 O. (The structure: five water molecules bonded to each copper(II)
+sulfate unit — and write copper(II) properly: capital I twice, not Il.)
 :::
 
 :::misconception
@@ -52,7 +50,7 @@ answer.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.26 items — Mᵣ from Aᵣ
-values, hydrated formulae included. Book p. 60–61 questions on Mᵣ →
-page jump only (licensing law).
+
+Question-bank join: spec 1.26 items — Mᵣ from Aᵣ values, hydrated formulae
+included.
 :::

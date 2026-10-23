@@ -11,20 +11,20 @@ glossary: [mole, molar-mass]
 In chemistry, the **[[mole]]** is a unit of the **amount of substance**.
 You can express an amount in grams *or* in moles — and the difference
 between the two expressions is that **1 mole of any substance has its own
-particular mass**. The book's examples: 1 mole of water has a mass of
-18 g, 1 mole of sulfur 32 g, 1 mole of magnesium oxide 40 g. The
+particular mass**. Examples: 1 mole of water has a mass of 18 g, 1 mole
+of sulfur 32 g, 1 mole of magnesium oxide 40 g. The
 abbreviation for mole is **mol**.
 
 So the same sample can be described both ways: 36 g of water **is** 2 mol
 (because 1 mol of water is 18 g); but 36 g of sulfur is only 1.125 mol
 (1 mol of sulfur is 32 g), and 36 g of magnesium is 1.5 mol (1 mol of
 magnesium is 24 g). Same 36 grams — different amounts of substance,
-because the particles weigh different amounts. The book also settles the
-phrasing: "amount in moles" and "number of moles" mean the same thing,
+because the particles weigh different amounts. On phrasing: "amount in
+moles" and "number of moles" mean the same thing,
 just as "amount in grams" and "number of grams" do.
 
 **Where the mass of 1 mole comes from**: calculate the relative formula
-mass (Mᵣ) and **attach the units, grams**. The book works three:
+mass (Mᵣ) and **attach the units, grams**. Three worked out:
 
 - **1 mole of oxygen gas, O₂** (Aᵣ: O = 16): Mᵣ = 32, so 1 mol has a mass
   of **32 g**.
@@ -37,8 +37,7 @@ mass (Mᵣ) and **attach the units, grams**. The book works three:
 
 :::key-point
 Mass of 1 mole = Mᵣ expressed in grams. This is the [[molar-mass]] idea —
-the book's next section adds the terminology and its one fine-print
-distinction.
+the next section adds the terminology and its one fine-print distinction.
 :::
 
 :::exam-hint
@@ -57,7 +56,7 @@ are differently heavy.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.27/1.28 items — mass of 1
-mole from Mᵣ, hydrated crystals included. Book p. 60–61 mole questions →
-page jump only (licensing law).
+
+Question-bank join: spec 1.27/1.28 items — mass of 1 mole from Mᵣ, hydrated
+crystals included.
 :::

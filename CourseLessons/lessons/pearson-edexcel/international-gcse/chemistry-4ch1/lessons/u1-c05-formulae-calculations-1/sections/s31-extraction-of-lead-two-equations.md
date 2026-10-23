@@ -35,8 +35,7 @@ second: 1 mol PbO produces 1 mol Pb, so 4184 mol PbO → **4184 mol Pb**.
 **Step 3 — back to mass, then to tonnes.** Mass of Pb = 4184 × 207 =
 866 000 g. Divide by 1 000 000: **0.866 tonne** of lead.
 
-The book's KEY POINT explains the doubling trick a second route uses:
-double the second equation (2PbO + 2C → 2Pb + 2CO) so you can trace what
+The doubling trick explains a second route: double the second equation (2PbO + 2C → 2Pb + 2CO) so you can trace what
 happens to **all** the 2PbO from the first — and then notes the
 simplification: this could be reduced to *1 mol PbS produces 1 mol Pb*,
 saving arithmetic, though it makes no difference to the answer. Its HINT
@@ -66,12 +65,12 @@ problem (once in, once out), never in the middle of the mole arithmetic.
 "The two equations both start with 2, so 2 mol PbS gives 1 mol Pb."
 Trace it: 2 mol PbS → 2 mol PbO (first equation), then 2 mol PbO → 2 mol
 Pb (second). The lead count never halves — 2 mol PbS yields **2 mol Pb**.
-The book's doubling of the second equation exists precisely to make this
-chain visible; simplifying to 1 : 1 is a convenience, not a change.
+The doubling of the second equation exists precisely to make this chain
+visible; simplifying to 1 : 1 is a convenience, not a change.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.29 items — multi-step
-extraction problems with unit conversions. Book p. 63 questions → page
-jump only (licensing law).
+
+Question-bank join: spec 1.29 items — multi-step extraction problems with
+unit conversions.
 :::

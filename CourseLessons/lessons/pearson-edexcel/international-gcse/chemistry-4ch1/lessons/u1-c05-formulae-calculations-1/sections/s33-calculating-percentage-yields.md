@@ -9,8 +9,8 @@ glossary: [percentage-yield, theoretical-yield, actual-yield]
 ---
 
 Suppose a calculation says you should get **12.5 g of copper sulfate
-crystals**, but the experiment delivers only **11.2 g**. The book names
-both numbers:
+crystals**, but the experiment delivers only **11.2 g**. Name both
+numbers:
 
 - **12.5 g is the [[theoretical-yield]]** — obtained by carrying out a
   moles calculation from the equation;
@@ -23,7 +23,7 @@ $$\text{percentage yield} = \frac{\text{actual yield}}{\text{theoretical yield}}
 
 Here: (11.2 / 12.5) × 100 = **89.6%**.
 
-The book's HINT sets the sanity bound every marker looks for: **the
+The sanity bound every marker looks for: **the
 percentage yield should always come out as less than 100%**. If it comes
 out above 100%, either you have made a mistake in the calculation, or the
 question is deliberately continuing by asking what went wrong
@@ -57,7 +57,6 @@ not whether atoms were destroyed.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.30 items — percentage
-yield calculations. Book p. 63 questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.30 items — percentage yield calculations.
 :::

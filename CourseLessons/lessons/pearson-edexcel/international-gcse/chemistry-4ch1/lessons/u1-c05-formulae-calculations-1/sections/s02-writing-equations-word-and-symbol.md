@@ -8,13 +8,12 @@ blocks: []
 glossary: [word-equation, chemical-equation]
 ---
 
-The book draws a sharp line between the two types of chemical equation you
+There is a sharp line between the two types of chemical equation you
 could be asked to write. A **[[word-equation]]** names the substances: for
 example, *magnesium + oxygen → magnesium oxide*. A **[[chemical-equation]]**
 (usually called a **symbol equation**) uses formulae instead:
-2Mg + O₂ → 2MgO. Symbol equations are what chemists normally use — the
-book's instruction is that you should only write a word equation **if you
-are specifically asked to**.
+2Mg + O₂ → 2MgO. Symbol equations are what chemists normally use — you
+should only write a word equation **if you are specifically asked to**.
 
 One rule sits above everything else in this section, and it applies to
 both types: **all chemical equations must be balanced**. An unbalanced
@@ -24,8 +23,8 @@ build the balancing skill step by step, and the exam-hint below flags the
 single most common way candidates throw marks away.
 
 :::exam-hint
-Read the book's instruction precisely: *you should only write a word
-equation if you are specifically asked to*. If a question says "write an
+Read the instruction precisely: *you should only write a word equation
+if you are specifically asked to*. If a question says "write an
 equation", the examiner wants the **symbol** equation — a word equation
 where a formula equation was expected scores little or nothing, even if
 the chemistry is right.
@@ -40,7 +39,7 @@ which is why it can (and must) be balanced.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.25 items — choosing word vs
-symbol equations and the must-be-balanced rule. Book p. 60 question 1
-(balance five given equations) → page jump only (licensing law).
+
+Question-bank join: spec 1.25 items — choosing word vs symbol equations and
+the must-be-balanced rule.
 :::

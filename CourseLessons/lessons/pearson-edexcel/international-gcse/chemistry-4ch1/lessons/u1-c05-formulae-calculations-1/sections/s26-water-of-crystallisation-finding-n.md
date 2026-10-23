@@ -14,8 +14,8 @@ a **[[hydrated-salt]]** — is the commonly used example, because the
 barium chloride itself does not decompose even on quite strong heating —
 only the water leaves.
 
-**The experiment** (heating the crystals in a crucible, Figure 5.15)
-hands you three masses:
+**The experiment** (heating the crystals in a crucible) hands you three
+masses:
 
 - mass of crucible = **30.00 g**
 - mass of crucible + barium chloride crystals, BaCl₂·nH₂O = **32.44 g**
@@ -29,7 +29,7 @@ calculation" (Aᵣ: H = 1, O = 16, Cl = 35.5, Ba = 137; Mᵣ of BaCl₂ = 137 +
 - mass of BaCl₂ = 32.08 − 30.00 = **2.08 g**
 - mass of water = 32.44 − 32.08 = **0.36 g**
 
-Table 5.2:
+The mole table:
 
 |                       | BaCl₂       | H₂O       |
 |-----------------------|-------------|-----------|
@@ -62,7 +62,6 @@ after both conversions.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.31/1.33 items — finding n
-in hydrated salts. Book p. 62 questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.31/1.33 items — finding n in hydrated salts.
 :::

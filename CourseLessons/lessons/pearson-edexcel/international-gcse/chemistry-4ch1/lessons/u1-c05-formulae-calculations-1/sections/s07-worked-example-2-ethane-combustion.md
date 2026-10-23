@@ -12,10 +12,10 @@ Balance the equation for the combustion of ethane:
 
 C₂H₆ + O₂ → CO₂ + H₂O
 
-The book's systematic method, left to right. **Carbons**: 2 on the left,
+The systematic method, left to right. **Carbons**: 2 on the left,
 so 2CO₂ on the right. **Hydrogens**: 6 on the left, so 3H₂O on the right.
 **Oxygens**: now there are 7 on the right ((2 × 2) + 3) but only 2 on the
-left — and here comes the problem the book wants you to recognise: oxygen
+left — and here comes the problem to recognise: oxygen
 atoms have to travel **in pairs** (O₂ molecules), so you cannot put an
 odd number like 7 of them on the left directly.
 
@@ -36,7 +36,7 @@ objection; the final equation has only whole numbers.
 :::
 
 :::exam-hint
-The book's KEY POINT in this section adds the full context: halves are
+The full context: halves are
 *acceptable* in balanced equations, but you will rarely meet them at
 International GCSE — and if you do produce one, **double everything**
 rather than leaving it. An examiner will accept either the halved or the
@@ -53,7 +53,7 @@ your final answer.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.25 items — combustion
-balancing with the half-then-double trick. Book p. 60 question 1c–e →
-page jump only (licensing law).
+
+Question-bank join: spec 1.25 items — combustion balancing with the
+half-then-double trick.
 :::

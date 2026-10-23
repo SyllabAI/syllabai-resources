@@ -11,12 +11,12 @@ glossary: []
 If you calculate how much product a reaction *might* produce, in real
 life you rarely obtain as much as you expected. Expect 100 g, collect
 80 g — your percentage yield is **80%**. The rest is lost somehow, and
-the book gives the standard loss mechanisms: **spillages**; losses when
+the standard loss mechanisms are: **spillages**; losses when
 transferring a liquid from one container to another; and — a big one —
 **side reactions**, which divert some of your starting materials into
-unwanted products. That, the book notes, "happens a lot during reactions
-in organic chemistry" (its Figure 5.19 shows student experiments making
-and purifying organic compounds, which rarely give high yields).
+unwanted products — that "happens a lot during reactions in organic
+chemistry", where experiments making and purifying organic compounds
+rarely give high yields.
 
 Percentage yield is also where the previous problem's arithmetic gets its
 second life. Revisiting the lead calculation with the *ratios* route:
@@ -55,6 +55,6 @@ does the division.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.30 items — why yields fall
-short of theory. Book p. 63 questions → page jump only (licensing law).
+
+Question-bank join: spec 1.30 items — why yields fall short of theory.
 :::
