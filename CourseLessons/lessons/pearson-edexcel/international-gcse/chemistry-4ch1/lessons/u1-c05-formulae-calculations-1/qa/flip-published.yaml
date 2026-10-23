@@ -1,57 +1,10 @@
-event: pack-status-flip
-pack_id: u1-c05-formulae-calculations-1
-chapter_key: u1:c05
-course: chemistry-4ch1
-from_status: draft
-to_status: published
-date: "2026-10-23"
-operator_command: "merge + the operator flip command"
-trace_id: "1a1658a2da08e5bd"
-agent: "T-BOOK-037/flip r0 (zai-web session web-c414c074, chat 08b3170a)"
-law: >-
-  START-HERE law 7 (SUGGESTED): the flip to review/published is an explicit
-  operator command, recorded in the tracker with a receipt. This file is that
-  receipt; the paired tracker transaction is lessonctl.py tracker --set
-  pack_status=published --receipt qa/flip-published.yaml.
-authority:
-  authoring_of_record: >-
-    qa/receipt.yaml — u1:c05 authored end-to-end S0-S4 (36/36 sections, the
-    biggest pilot chapter), lint PASS 0 errors / 0 warnings (V1-V9 at stage
-    S4, V5/V6 gates ON), lessonPackV1.json emitted draft per the SUGGESTED
-    law with the note "operator flip is a separate command". Authoring lane
-    trace 1a16517d60dbb92d (operator order "go c05"); authoring merge of
-    record bf5b1acd (PR #65, parents ea21a721 + 2b0fb19e).
-  operator_note_of_record: >-
-    qa/receipt.yaml S4: "lessonPackV1.json emitted (status=draft — SUGGESTED
-    law; operator flip is a separate command). lesson.yaml stage S4 at close
-    (c03/c04 convention). Receipt anchored; tracker transaction follows."
-    The operator command above answers that note (PR #45/#52/#59/#62/#65
-    pattern); target status published is the serving state of the T-C20 gate
-    (published-only shelf + reader toggle).
-post_flip:
-  source_of_record: >-
-    qa/lessonPackV1.json status: published (single top-level field edit,
-    byte-precise — 1 line changed, +4 bytes = "published" vs "draft"; pack
-    107972 -> 107976 bytes, sha256 2499fbf4078570bb -> e824b0c0c3d47c58
-    [first 16]; no other key touched; re-linted GREEN 0 errors / 0 warnings
-    post-flip; byte-level wikilink scan 32 chips / 36 sections, 0 unresolved;
-    authoring receipt unchanged)
-  tracker: >-
-    tracker.yaml lessons.u1-c05-formulae-calculations-1 gains pack_status:
-    published via the lessonctl.py tracker transaction (receipt-anchored;
-    lesson.yaml receipts mirror append); TRACKER.md synced in the same
-    commit per the transaction output law. Additionally this flip commit
-    completes the pilot gate (see scope_notes).
-  hub_rebake: >-
-    syllabai-v2 lane re-runs apps/hub/scripts/import_lesson_packs.py
-    (fetch-first, SYLLABAI_PAT env-only) so the baked content-plane copy
-    carries status: published (c05 FIRST bake, 36 sections; c01/c02/c03/c04
-    expected byte-identical); merge to main = the git-connected hub
-    auto-bake (~90s): the u1:c05 Lesson toggle + shelf entry go live next to
-    Rail at the production origin of record syllabai-hub-v2.vercel.app
-    (T-C20 published-only serving; no state leak).
-scope_notes:
-  - "lesson.yaml stage is S4 (set at authoring close per the c03/c04 convention); not named by the operator order and not a serving input (stage truth is qa/receipt.yaml S0-S4)"
-  - "pilot-gate completion: the c04 flip receipt flagged for this lane that tracker.yaml courses.chemistry-4ch1.phases.pilot-gate.status predates the flips and is c01-c05 collective — with c05 PUBLISHED all five pilot lessons are PUBLISHED, so this flip commit sets phases.pilot-gate.status: not-started -> complete (hand-edit receipt-anchored to this file) and syncs the TRACKER.md phase row + findings digest (f-0008/f-0009/f-0010 rows brought current)"
-  - "continuity disclosure: the c05 authoring branch was authored under 'go c05' (trace 1a16517d60dbb92d) with PR #65 opened in-lane; the session under the present trace re-anchored the lane of record — independent re-verification (lint 0/0 re-run, pack shape, f-0010 closed in-lane), update-branch onto origin/main twice (042ca8a -> 2b0fb19e = ea21a72, absorbing PRs #66-#69 with zero CourseLessons contact), authoring merge bf5b1acd (PR #65 merged under the operator command), then this flip — no content rewritten; the flip applies to the authoring of record as merged"
-  - "credential note: the session token was used env-only via one-shot inline push/API URLs (trace 1a1658a2da08e5bd) and never persisted in files, remotes, or logs; PAT rotation remains a standing residual from its earlier chat exposure"
+# law-7 flip receipt (r1) — u1-c05-formulae-calculations-1 Formulae and calculations (part 1) standalone-voice retrofit
+command: 'operator style directive "100% book replacement — no book-attribution voice" (trace 1a168b88e0391dfd) — r1 flip of the retrofitted pack under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-23T14:53:42Z'
+head_at_flip: 626f5f5
+agent: "T-BOOK-039/voice-retrofit r1 (session web-c414c074 chat 08b3170a, trace 1a1691b51de3f355)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 102623 -> 102627 bytes, +4; sha256 e8da7f9c... -> e35eddc6...)'
+pack_identity: '36 sections; sources sha-pinned (bookOfRecord edexcel-..., parseOfRecord parsed/e...); paperRoute=core (join_set 1.25-1.36); r1 = voice-only retrofit, substance identical, finding f-0014 + lesson-prose@2.0.0'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + residual standalone-voice scan 0 hits across all 36 section bodies (census classes: attribution voice, figure/table/page citations, QA leakage, PDF-deflection)'
+tracker_transaction: 'law-10 tx rides with the wave tracker commit (six-pack retrofit tx: board rows -> PUBLISHED r1 + notes mirror)'
+next: 'v2 bake lane fires after the wave merge (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c01-c06 r1 + c07 r1 re-bake together, lessons-index additive) — merge = the git-connected hub auto-bake at the production origin of record syllabai-hub-v2.vercel.app (T-C20 battery --expect-packs 7 re-run at the bake gate)'

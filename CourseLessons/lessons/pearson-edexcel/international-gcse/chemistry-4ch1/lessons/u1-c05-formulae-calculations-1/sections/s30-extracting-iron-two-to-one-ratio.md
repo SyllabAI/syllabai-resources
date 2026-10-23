@@ -38,7 +38,7 @@ Fe₂O₃ produces 112/160 g; therefore 1000 g produces
 :::exam-hint
 Arm yourself for industrial-scale variants: **you should be
 told how many grams there are in a tonne** if the question needs it
-(the conversion, Figure 5.18: 1 tonne = 1 000 000 g), and note that
+(the conversion: 1 tonne = 1 000 000 g), and note that
 1 000 000 might be written as 10⁶ or 1 × 10⁶ — "these are both the
 same". The next section uses exactly this conversion.
 :::

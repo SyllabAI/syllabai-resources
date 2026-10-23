@@ -18,7 +18,7 @@ a blast furnace:
 
 PbO(s) + C(s) → Pb(l) + CO(g)
 
-The molten lead is tapped from the bottom of the furnace (Figure 5.17).
+The molten lead is tapped from the bottom of the furnace.
 **Calculate the mass of lead that would be produced from 1 tonne of
 galena.**
 
