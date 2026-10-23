@@ -1,0 +1,34 @@
+{
+ "family": "CIE-INTEGRATION",
+ "lane": "T-RULE-T2-HOLDSPLIT-DURABILITY-1",
+ "run": "run-001",
+ "appliedUtc": "2026-10-23T11:23:28Z",
+ "baseSidecarSha256": "4802af4e170b6a594057fe34aaf4535b7cdbd06b8da07d7f62754d28333be98a",
+ "resultSidecarSha256": "d3b659268706d053fca8148b97dfcd9a55afd58e092b366981c3192926bac2ed",
+ "baseManifestSha256": "e41878e3d78f7741e46875ecaf57e8930708998bf6dc828ec8b0e149bbabb4de",
+ "resultManifestSha256": "f30a74fa2f664af332a825b3a734c7872e37286497680dfc77be2d1f0276f796",
+ "rowsAdded": [
+  "spcpt_9Dxx4xs6KDbb85cJ",
+  "spcpt_CdtkSssKHMzw5ZTn",
+  "spcpt_pYmRWxPrtMDKj5ym"
+ ],
+ "countsDelta": {
+  "sids": "23 -> 26",
+  "distinctCodes": "46 -> 52",
+  "addedTierCounts": {
+   "holdResolved": 1,
+   "splitResolved": 1,
+   "quarantineResolved": 1
+  }
+ },
+ "registryCrossCheck": "3/3 rows byte-equal to spcptToOfficial rows of record @ v2 8b4172be (apply 5edff0a8)",
+ "spineVerification": "6/6 codes are SPEC_POINT nodes of apps/hub/spines/cie-a-level-chemistry-25.json (v2 8b4172be)",
+ "gates": {
+  "G0": "substrate sidecar 4802af4e… + manifest round-trip byte-exact pre-mutation",
+  "G2": "3/3 rows field-equal to the registry of record (codes order, officialId, tier, method, lineage, via)",
+  "G3": "deep-diff changed-set exact: sidecar 11 paths all inside anchors.operatorSidAnchors; manifest 11 paths inside the 2 disclosed rows",
+  "G4": "6/6 codes spine-verified",
+  "G5": "serialization idempotent",
+  "G6": "cross-foot sids=26 distinctCodes=52"
+ }
+}
