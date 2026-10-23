@@ -16,8 +16,8 @@ proportion**: you can put in as much or as little of each component as you
 like, and it is still the same mixture. Nothing locks the ratio in, because
 nothing has reacted.
 
-The book's Figure 2.5 gives the three possible recipes, and they are worth
-memorising as a classification toolkit:
+Three possible recipes cover every mixture, and they are worth memorising
+as a classification toolkit:
 
 - a **mixture of elements** — nitrogen and oxygen (this is essentially the
   air);
@@ -36,7 +36,7 @@ elements, of compounds, and of an element with a compound are all possible.
 :::misconception
 "A mixture has to be made of either all elements or all compounds." No —
 the third combination is just as legal: an element mixed with a compound
-(carbon dioxide and nitrogen, Figure 2.5). Classification asks *what is in
+(carbon dioxide and nitrogen). Classification asks *what is in
 it and has it reacted*, not which single category the contents belong to.
 :::
 
@@ -48,8 +48,8 @@ usually banks 1 mark; both halves bank both.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.8 × 3 items — classify the
-three Figure 2.5 recipes; mixture vs compound from proportion statements;
-spot the mixture from a diagram of different atoms not bonded. Book
-Figure 2.5 → page jump to book p. 15.
+
+Question-bank join: spec 1.8 × 3 items — classify the three mixture
+recipes; mixture vs compound from proportion statements; spot the mixture
+from a diagram of different atoms not bonded.
 :::

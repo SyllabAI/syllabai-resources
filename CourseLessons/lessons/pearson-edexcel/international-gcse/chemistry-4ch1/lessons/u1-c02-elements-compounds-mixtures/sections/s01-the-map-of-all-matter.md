@@ -43,8 +43,8 @@ From Lesson u1:c01 (States of matter) you already know the terms **melting
 point**, **boiling point**, **solute** and **solvent** — we use all of them
 here, especially in the purity test (§s07) and the separation methods (§s09).
 From Key Stage 3 you should remember that everything is made of atoms; if
-the word *atom* is hazy for you, the book flags Chapter 3 as the place it is
-properly defined.
+the word *atom* is hazy for you, Chapter 3 (u1:c03) is where it is properly
+defined.
 :::
 
 :::cross-curricular
@@ -69,9 +69,8 @@ in no fixed proportion". Reasons score; vibes do not.
 :::
 
 :::quick-check
-Question-bank join (derived-links law — the renderer wires real items from
-the bank by specRefs; question text is never authored here):
-- spec 1.8 × 2 items (classify everyday substances; justify a classification);
-- spec 1.8 × 1 item on spotting mixtures from particle diagrams.
-Book opener figures 2.1–2.2 → page jump to book p. 14.
+
+Question-bank join: - spec 1.8 × 2 items (classify everyday substances;
+justify a classification); - spec 1.8 × 1 item on spotting mixtures from
+particle diagrams.
 :::

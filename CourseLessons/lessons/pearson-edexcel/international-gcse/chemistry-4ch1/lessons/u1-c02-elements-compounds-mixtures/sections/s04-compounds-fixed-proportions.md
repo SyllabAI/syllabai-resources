@@ -20,7 +20,7 @@ a "stronger" or "weaker" carbon dioxide by using more carbon or more oxygen
 — chemistry does not negotiate on ratios.
 
 In diagrams, a compound shows **more than one type of atom bonded
-together** (Figure 2.4). That picture is worth pausing on: the atoms are
+together**. That picture is worth pausing on: the atoms are
 not just mixed side by side as in a mixture — they are *bonded*, which is
 precisely why undoing a compound needs a chemical reaction (§s06).
 
@@ -49,8 +49,8 @@ just as well — the "chemically combined" phrase is what scores.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.8 × 3 items — identify the
-compound from particle diagrams; explain fixed proportions; distinguish
-compound vs mixture from a description. Book Figure 2.4 → page jump to
-book p. 15.
+
+Question-bank join: spec 1.8 × 3 items — identify the compound from particle
+diagrams; explain fixed proportions; distinguish compound vs mixture from a
+description.
 :::

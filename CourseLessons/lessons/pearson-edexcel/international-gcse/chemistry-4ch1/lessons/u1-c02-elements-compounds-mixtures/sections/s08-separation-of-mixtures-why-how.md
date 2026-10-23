@@ -22,7 +22,7 @@ sample tells you almost nothing.
 The common thread: because mixtures were made by mixing (no reaction),
 they can be undone by **physical means**. Which physical method you choose
 depends on what is mixed with what — an insoluble solid in a liquid needs
-**filtration** (Figure 2.6: sand from water), a dissolved solid needs
+**filtration** (sand from water), a dissolved solid needs
 **crystallisation** or **simple distillation**, two miscible liquids need
 **fractional distillation**, and dissolved dyes yield to **paper
 chromatography**. Spec point 1.10 asks you to *describe* each of the first
@@ -54,7 +54,7 @@ name; "distillation" alone is ambiguous when fractional is intended.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.10 × 2 items — match
-separation to mixture type; why forensics separates before analysis. Book
-Figure 2.6 → page jump to book p. 16.
+
+Question-bank join: spec 1.10 × 2 items — match separation to mixture type;
+why forensics separates before analysis.
 :::

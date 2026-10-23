@@ -11,7 +11,7 @@ authored: true
 
 **Filtration** separates a solid from a liquid. Pour the mixture through
 filter paper: the solid left behind on the paper is the **[[residue]]**, the
-liquid that comes through is the **[[filtrate]]** (Figure 2.6 — sand from
+liquid that comes through is the **[[filtrate]]** (sand from
 water). Filtration also separates **two solids**, provided only one of them
 is soluble in water — which is exactly the trick used for rock salt below.
 
@@ -20,8 +20,7 @@ solution. Heat the solution in an evaporating basin to boil off some water
 until an almost **[[saturated-solution]]** solution forms — you
 can test this by dipping a glass rod in and seeing if small crystals form
 on its surface. Then turn the Bunsen burner off and let the crystals grow
-as more water evaporates and the solution cools; filter them off at the end
-(Figure 2.7).
+as more water evaporates and the solution cools; then filter them off.
 
 **Rock salt** is salt contaminated with earthy, rocky impurities that are
 *not* soluble in water. Crush it and mix with hot water: the salt
@@ -47,8 +46,7 @@ condenses inside the column and trickles back to the flask while only
 ethanol vapour reaches the top and passes into the condenser. (The column
 is often packed with glass beads to help the separation; the ethanol that
 comes out is about 96% pure, and the last 4% of water cannot be removed by
-distillation — the book files both details under "beyond International
-GCSE".)
+distillation — both details belong to the world beyond International GCSE.)
 
 **Paper chromatography** — the technique that finishes this lesson —
 separates mixtures of dyes. Most inks and food colourings are not single
@@ -111,9 +109,9 @@ residue and filtrate.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.10 × 3 items — rock salt
-method order; residue vs filtrate identification; simple vs fractional
-distillation choice. spec 1.13 × 2 items — why pencil not pen; why the
-solvent must sit below the pencil line. Book Figures 2.6–2.10 → page jump
-to book pp. 16–18.
+
+Question-bank join: spec 1.10 × 3 items — rock salt method order; residue vs
+filtrate identification; simple vs fractional distillation choice. spec 1.13
+× 2 items — why pencil not pen; why the solvent must sit below the pencil
+line.
 :::

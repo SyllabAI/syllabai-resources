@@ -65,7 +65,7 @@ fixed-vs-range rule.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.9 × 3 items — fixed vs range
-verdict from melting data; effect of impurity on mp/bp; salt-water boiling
-point. Book p. 16 → page jump.
+
+Question-bank join: spec 1.9 × 3 items — fixed vs range verdict from melting
+data; effect of impurity on mp/bp; salt-water boiling point.
 :::

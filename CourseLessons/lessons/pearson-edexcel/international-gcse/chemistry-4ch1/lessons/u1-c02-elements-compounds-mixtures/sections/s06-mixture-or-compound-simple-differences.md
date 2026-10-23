@@ -9,7 +9,7 @@ glossary: [pure-substance, impurity]
 authored: true
 ---
 
-Water is the book's cleanest contrast. In **water** (a compound), every
+Water is the cleanest contrast of all. In **water** (a compound), every
 single water molecule has two hydrogen atoms combined with one oxygen atom
 — it never varies. In a **mixture of hydrogen and oxygen gases**, the two
 can be present in any proportion you fancy. The same story with iron and
@@ -67,8 +67,8 @@ vs fixed), properties (kept vs new — use the acid test), separation
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.8 × 4 items — water vs
-hydrogen/oxygen mixture; predict what a magnet separates; which needs
-electrolysis; iron sulfide vs iron in dilute acid. Book pp. 15–16 → page
-jump.
+
+Question-bank join: spec 1.8 × 4 items — water vs hydrogen/oxygen mixture;
+predict what a magnet separates; which needs electrolysis; iron sulfide vs
+iron in dilute acid.
 :::
