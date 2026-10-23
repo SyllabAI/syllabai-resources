@@ -8,24 +8,21 @@ blocks: []
 glossary: null
 ---
 
-The book closes the formulae block by running the crossover method back
-onto calcium chloride — and by showing where the shortcut must NOT be
-trusted.
+The formulae block closes by running the crossover method back onto calcium
+chloride — and by showing where the shortcut must NOT be trusted.
 
-**CaCl₂ by crossover (Figure 7.14).** Ca²⁺ and Cl⁻: cross the 2 to the
-chlorine and… nothing to the calcium, because *there is no extra number in
-front of the charge on Cl⁻ — we do not tend to write in a 1*. The charge
-"1−" carries an unwritten 1, so the crossover gives Ca₁Cl₂, written simply
-**CaCl₂**.
+**CaCl₂ by crossover.** Ca²⁺ and Cl⁻: cross the 2 to the chlorine and…
+nothing to the calcium, because *there is no extra number in front of the
+charge on Cl⁻ — we do not tend to write in a 1*. The charge "1−" carries an
+unwritten 1, so the crossover gives Ca₁Cl₂, written simply **CaCl₂**.
 
-**The trap: same charges (Figure 7.15).** Try the crossover on calcium
-oxide and it hands you Ca₂O₂ — 2+ crossed to oxygen, 2− crossed to calcium.
-The book's correction: *the formula of calcium oxide is CaO and not Ca₂O₂*.
-When the charges on the two ions are the same, there is already 1 of each
-in the neutral ratio — nothing needs swapping, and the formula is the plain
-pair: **CaO**, MgO, NaCl, LiF. (Ca₂O₂ isn't *wrong* as an arithmetic fact —
-2+ per 2− — it is simply never written: formulae use the lowest whole-number
-ratio.)
+**The trap: same charges.** Try the crossover on calcium oxide and it hands
+you Ca₂O₂ — 2+ crossed to oxygen, 2− crossed to calcium. The correction:
+*the formula of calcium oxide is CaO and not Ca₂O₂*. When the charges on
+the two ions are the same, there is already 1 of each in the neutral ratio
+— nothing needs swapping, and the formula is the plain pair: **CaO**, MgO,
+NaCl, LiF. (Ca₂O₂ isn't *wrong* as an arithmetic fact — 2+ per 2− — it is
+simply never written: formulae use the lowest whole-number ratio.)
 
 :::exam-hint
 Crossover protocol for exams: (1) write both charges; (2) if the two charge
@@ -47,8 +44,8 @@ inside the compound's formula.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.39 items — formulae
-from ion pairs where charges are equal vs unequal: CaO vs CaCl₂; MgO vs
-MgCl₂; BaO vs Ba(NO₃)₂). Self-test: write the six formulae for the pairs
-{Mg²⁺, Ba²⁺} × {O²⁻, Cl⁻, OH⁻} — three need brackets, three don't.
+Question-bank join: spec 1.39 items — formulae from ion pairs where charges
+are equal vs unequal (CaO vs CaCl₂; MgO vs MgCl₂; BaO vs Ba(NO₃)₂).
+Self-test: write the six formulae for the pairs {Mg²⁺, Ba²⁺} × {O²⁻, Cl⁻,
+OH⁻} — three need brackets, three don't.
 :::

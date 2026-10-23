@@ -8,12 +8,12 @@ blocks: []
 glossary: [giant-ionic-lattice, electrostatic-attraction]
 ---
 
-The book takes one crystal and dissects it. In diagrams the ions of sodium
-chloride are usually drawn in an **"exploded" view** (Figure 7.18): each
-sodium ion is surrounded by **6 chloride ions**, and each chloride ion is
-surrounded by **6 sodium ions** — and that 6-around-6 pattern repeats
-throughout the structure over vast numbers of ions. The lines in the
-exploded diagram are not bonds; they only show which ions touch.
+Take one crystal and dissect it. In diagrams the ions of sodium chloride are
+usually drawn in an **"exploded" view**: each sodium ion is surrounded by
+**6 chloride ions**, and each chloride ion is surrounded by **6 sodium
+ions** — and that 6-around-6 pattern repeats throughout the structure over
+vast numbers of ions. The lines in the exploded diagram are not bonds; they
+only show which ions touch.
 
 This is the **[[giant-ionic-lattice]]** in its full sense: *giant* is not
 "big" — it means a structure with **no individual molecules**. All the
@@ -27,9 +27,9 @@ O²⁻ in place of Cl⁻, the same 6-around-6 lattice. The difference is force:
 the magnesium oxide lattice is held together by **stronger
 [[electrostatic-attraction]]**, because 2+ ions are attracting 2− ions,
 where sodium chloride's attractions run only between 1+ and 1− ions.
-(Extension work from the book: Mg²⁺ is also smaller than Na⁺ and O²⁻
-smaller than Cl⁻, which raises the attraction further — but the charge
-effect is the more important one.)
+(Going further: Mg²⁺ is also smaller than Na⁺ and O²⁻ smaller than Cl⁻,
+which raises the attraction further — but the charge effect is the more
+important one.)
 
 :::key-point
 The 6-around-6 number and the "no molecules" law are the two facts examiners
@@ -55,18 +55,17 @@ no molecules.
 
 :::misconception
 "The lines in the exploded lattice diagram are the ionic bonds — six bonds
-per sodium ion." The book pre-empts this: the lines are *not* bonds, they
-show touching/arrangement. Each ion's attraction is not six private links
-but an electrostatic pull on all nearby oppositely charged ions, extending
-throughout the giant lattice. Drawing conventions ≠ physical bonds — the
-same discipline as dot-and-cross dots (section 2): notation is bookkeeping,
-the physics is the attraction.
+per sodium ion." The lines are *not* bonds, they show touching/arrangement.
+Each ion's attraction is not six private links but an electrostatic pull on
+all nearby oppositely charged ions, extending throughout the giant lattice.
+Drawing conventions ≠ physical bonds — the same discipline as dot-and-cross
+dots (section 2): notation is bookkeeping, the physics is the attraction.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.41 items — naming the force
-holding the lattice (electrostatic attraction between oppositely charged
-ions); spec 1.42 items — explaining MgO's higher melting point against
-NaCl via the 2+/2− versus 1+/1− charge comparison. Sketch the exploded
-NaCl/MgO lattice from memory with the 6-around-6 counts labelled.
+Question-bank join: spec 1.41 items — naming the force holding the lattice
+(electrostatic attraction between oppositely charged ions); spec 1.42 items
+— explaining MgO's higher melting point against NaCl via the 2+/2− versus
+1+/1− charge comparison. Sketch the exploded NaCl/MgO lattice from memory
+with the 6-around-6 counts labelled.
 :::

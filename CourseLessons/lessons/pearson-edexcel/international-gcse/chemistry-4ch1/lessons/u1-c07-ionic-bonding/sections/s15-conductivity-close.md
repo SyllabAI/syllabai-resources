@@ -1,6 +1,6 @@
 ---
 id: u1:c07:s15
-title: "The electrical conductivity of ionic substances — and the chapter close"
+title: "The electrical conductivity of ionic substances — and the lesson close"
 bookPage: 83
 chunkRefs: [chem_v3_u1_c7_pdf092_0347]
 specRefs: ["1.43"]
@@ -16,11 +16,10 @@ The last spec point is a two-state rule with one forbidden word.
 they **do conduct** — because the ions then become **free to move** and can
 carry the charge through the liquid.
 
-The book underlines the language with its own warning: *it is really
-important that you use the correct words when explaining this. Do not use
-the word "electrons". You must talk about the ions being free to move.* The
-charge carriers in an ionic conductor are **ions** — that single substitution
-is the whole answer.
+One language rule carries the whole answer: the charge carriers are
+**ions**. Do not say "electrons" — the examiners require the exact words:
+*the ions are free to move*. That single substitution is the difference
+between the mark and no mark.
 
 :::summary
 In one page: **formation** — metals lose electrons, non-metals gain them;
@@ -49,13 +48,12 @@ or aqueous because only then are the ions free to move.
 :::
 
 :::exam-hint
-The chapter's question bank (p. 83) is two multi-part items — electronic
-configurations of the ions in three named reactions, then dot-and-cross
-diagrams for K/F, Ca/Br and Mg/I (three Group-1/2 × Group-7 combinations
-you have now met as families). Those stay page-jump-only (licensing law) —
-but note how every part maps onto a section of this Lesson, which is the
-shape of nearly every ionic-bonding question in past papers: configurations
-→ diagram → formula, in that order.
+The exam shape for this topic is stable and worth knowing in advance:
+electronic configurations of the ions in named reactions, then dot-and-cross
+diagrams for Group-1/2 × Group-7 combinations you have met here as families
+(K/F, Ca/Br, Mg/I are the classics). Nearly every ionic-bonding question is
+the same three moves in the same order: configurations → diagram → formula.
+Drill the moves, not the examples.
 :::
 
 :::misconception
@@ -69,9 +67,9 @@ learner has confused this with metallic conduction (Chapter 9).
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.43 items — the three-state
-conductivity rule and its explanation in the mark scheme's own words;
-cross-links to the electrolysis material of u1:c10 where the mobile ions
-finally get put to work. Book p. 83 questions 1–2 → page jump only
-(licensing law).
+Question-bank join: spec 1.43 items — the three-state conductivity rule and
+its explanation in the mark scheme's own words; cross-links to the
+electrolysis material of u1:c10 where the mobile ions finally get put to
+work. Final self-audit: can you answer all seven can-you prompts from the
+summary alone, without reopening a single section?
 :::
