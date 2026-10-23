@@ -191,17 +191,26 @@ def main() -> int:
                 "(shape/stamps/counts/key order/no-trailing-NL)")
 
     def x2() -> str:
+        # run-005 (② round) semantics: the block key ALREADY exists at HEAD
+        # (① record / run-003b placeholders) — the ② round REPLACES it in
+        # place. Stability for this run = every NON-block key deep-equal
+        # (data byte-stability; canonical serialization proven by X7's
+        # byte-idempotent re-run) + the block stamped with this run's
+        # FIXED_STAMP.
         for lane in LANES:
             hd, nd = head_docs[lane], docs[lane]
-            require(list(nd.keys()) == list(hd.keys()) + [engine.BLOCK_KEY],
-                    f"{lane} key append-only")
-            stripped = {k: v for k, v in nd.items()
-                        if k != engine.BLOCK_KEY}
-            require(json.dumps(stripped, ensure_ascii=False,
-                               indent=1).encode("utf-8") == heads[lane],
-                    f"{lane} pre-existing bytes drifted")
-        return ("byte-additivity 44/44: staged file == HEAD bytes + exactly "
-                "the appended block; coverage/spec_points byte-stable")
+            require(list(nd.keys()) == list(hd.keys()),
+                    f"{lane} key set/order stable (block replaced in place)")
+            hd_data = {k: v for k, v in hd.items() if k != engine.BLOCK_KEY}
+            nd_data = {k: v for k, v in nd.items() if k != engine.BLOCK_KEY}
+            require(nd_data == hd_data,
+                    f"{lane} pre-existing data drifted")
+            require(nd[engine.BLOCK_KEY]["generated_utc"]
+                    == engine.FIXED_STAMP,
+                    f"{lane} block not the ② record")
+        return ("data byte-stability 44/44: staged non-block payload "
+                "deep-equal to HEAD with the cross_lane_join block replaced "
+                "in place by the ② record; coverage/spec_points stable")
 
     def x3() -> str:
         derive_fresh()
@@ -231,19 +240,19 @@ def main() -> int:
                 require(sid not in HOLDERS, f"{lane} {sid} unresolved but held")
             tu += len(uniq); tc += len(uniq) - len(mis)
             tm += len(mis); tr += len(eq_refs)
-        require((tu, tc, tm) == (5540, 5218, 322),
-                f"sums {(tu, tc, tm)} != (5540, 5218, 322)")
+        require((tu, tc, tm) == (5540, 5479, 61),
+                f"sums {(tu, tc, tm)} != (5540, 5479, 61) (run-005 pins)")
         res_sum = sum(docs[l][engine.BLOCK_KEY]["resolved_count"]
                       for l in LANES)
         amb_sum = sum(docs[l][engine.BLOCK_KEY]["ambiguous_count"]
                       for l in LANES)
         unr_sum = sum(docs[l][engine.BLOCK_KEY]["unresolved_count"]
                       for l in LANES)
-        require((res_sum + amb_sum, unr_sum, tm) == (54, 268, 322),
-                f"global split {(res_sum + amb_sum, unr_sum, tm)} != (54, 268, 322)")
+        require((res_sum + amb_sum, unr_sum, tm) == (54, 7, 61),
+                f"global split {(res_sum + amb_sum, unr_sum, tm)} != (54, 7, 61) (run-005 pins)")
         return (f"fresh corpus re-derivation 44/44; refs {tr}, unique {tu} = "
                 f"covered {tc} + missing {tm}; split {res_sum}+{amb_sum}+"
-                f"{unr_sum} == 322 == (54 present-in-sibling) + (268 recordless)")
+                f"{unr_sum} == 61 == (54 present-in-sibling) + (7 recordless)")
 
     def x4() -> str:
         derive_fresh()
@@ -423,16 +432,16 @@ def main() -> int:
         require((s["dangling_total"], s["resolved_count"],
                  s["resolved_definition_grade"],
                  s["resolved_name_only_grade"], s["ambiguous_count"],
-                 s["unresolved_count"]) == (322, 54, 9, 45, 0, 268),
-                f"stats global pins {[(s[k]) for k in ('dangling_total', 'resolved_count', 'resolved_definition_grade', 'resolved_name_only_grade', 'ambiguous_count', 'unresolved_count')]}")
+                 s["unresolved_count"]) == (61, 54, 9, 45, 0, 7),
+                f"stats global pins {[(s[k]) for k in ('dangling_total', 'resolved_count', 'resolved_definition_grade', 'resolved_name_only_grade', 'ambiguous_count', 'unresolved_count')]} (run-005 pins)")
         require(s["present_in_sibling_pairs"] == 54, "stats present pairs")
-        require(s["recordless_pairs"] == 268, "stats recordless")
+        require(s["recordless_pairs"] == 7, "stats recordless")
         require(s["directive"] == engine.DIRECTIVE
                 and s["gateway_trace"] == engine.TRACE
                 and s["generated_utc"] == engine.FIXED_STAMP,
                 "stats provenance")
-        return ("stats coherent with staged blocks; record pins (322, 54, "
-                "9, 45, 0, 268) ALL reproduced")
+        return ("stats coherent with staged blocks; record pins (61, 54, "
+                "9, 45, 0, 7) ALL reproduced")
 
     check("1", x1)
     check("2", x2)

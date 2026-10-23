@@ -67,12 +67,12 @@ from cie_spcpt_index_harvest import (  # noqa: E402
 )
 
 STATS_OUT = REPO / "graph" / "reports" / "T_SPECS_CIE_XJOIN_1_STATS.json"
-FIXED_STAMP = "2026-10-19T10:00:00Z"
+FIXED_STAMP = "2026-10-23T20:00:00Z"
 BLOCK_SCHEMA = "syllabai.sme-cross-lane-join/1.0"
 BLOCK_KEY = "cross_lane_join"
-DIRECTIVE = "① cross-lane join round"
-TRACE = "1a1535a69f8502d1"
-FIRES = "T-SPECS-CIE-INDEX-1 record NEXT lane #1"
+DIRECTIVE = "② cross-lane join round (tranche-3 re-harvest vintage; supersedes the ① 2026-10-19 record and the run-003b placeholder re-records)"
+TRACE = "1a16a02c49cfc7d9"
+FIRES = "T-RULE-T3-SME-COVERAGE-1 run-005 (operator dispatch: class-A/residual-61 disposition processing)"
 
 
 def norm(s: str) -> str:
