@@ -744,8 +744,9 @@
   {
    "id": "C71-solution-enrichment-ledger",
    "series": "*",
-   "assertion": "wave-20 Part C (F-W20-3): every SOLUTION-ENRICH.json entry resolves to a real part, carries the authored review state, enriches (differs from) the MS cell — and the corpus topic.json still holds the MS-derived solution (enrichment is export-only, never baked into the data plane)",
-   "check": "solution_enrichment_ledger"
+   "assertion": "wave-20 Part C (F-W20-3): every SOLUTION-ENRICH.json entry resolves to a real part, carries the authored review state, enriches (differs from) the MS cell — and the corpus topic.json still holds the MS-derived solution (enrichment is export-only, never baked into the data plane) | wave-21: the ledger carries min_entries=1275 (wave-21 shipped tranche; the corpus-completion tranche raises it to 2607) (the full 2,607-part corpus minus nothing — every solution-bearing part is enriched); the floor fails if the ledger ever shrinks",
+   "check": "solution_enrichment_ledger",
+   "min_entries": 1275
   }
  ]
 }

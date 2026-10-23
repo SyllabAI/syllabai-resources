@@ -558,6 +558,20 @@ The kit was run from a clean checkout of `main` as shipped:
   an empty staging dir (cold start: bootstrap → fetch 32 PDFs → gates → canaries).
 - No extraction behaviour changed: identical question/part/mark/key output.
 
+## 0.14.1 — 2026-10-23 · wave-21 solution enrichment tranche 1 (no converter change)
+
+- CONVERTER UNCHANGED (0.14.0): the wave is ledger + serving only — every topic.json is
+  byte-identical; extraction parity trivially preserved.
+- SOLUTION-ENRICH.json grew from 124 to 1275 authored-r0 entries: every shipped part
+  carries an SME-style worked answer (wave-15 UX doctrine; values never invented).
+- NEW script scripts/official_examq_enrich_verify.py — the F60 value-fidelity review
+  pass, committed and reproducible: numeric-token census with a chemistry-calibrated
+  equation scanner, PUA/process-language exclusion, MCQ key/why-wrong guards,
+  marking-point coverage. --base-ledger scopes it to new entries; exit 1 on any problem.
+- CANARIES: C71 grew min_entries: 1275 (tranche 2 raises it to 2607). Floor stays 0.14.
+- Queued for tranche 2: 1332 parts (resumable driver checkpoints in the wave's
+  working tree; REDO+HINTS repair mode ready).
+
 ## 0.3 — 2026-10 · full-corpus batch wave (16/16 series of 4CH1/1C)
 
 New findings fixed (LEDGER.md F11–F14):
