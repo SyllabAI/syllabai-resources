@@ -1,11 +1,14 @@
 # AGENTS.md — operating the Official-ExamQuestion pipeline
 
 > Read this before touching anything in `Official-ExamQuestion/`.
-> Doctrine (ADR-037, `syllabai` repo): **the converter extracts; it never authors.**
-> Every character of question text is copied from the official source layer; the only
-> generated fields are labels and links, and labels are registry-validated or flagged.
-> Gates fail closed: a paper ships only when every gate passes, and anything the
-> pipeline cannot prove becomes a human review item — never a guess.
+> Doctrine (ADR-039, `syllabai` repo, 2026-10-24 — supersedes ADR-037's verbatim/no-LLM
+> clauses): **the pipeline improves; provenance discloses.** The deterministic extraction
+> pass remains the baseline every document is measured against; on top of it, any tool —
+> script or LLM — may correct, clarify or enrich any serving field, provided every
+> departure is disclosed (`edit_status`, `edits[]`, `value_trace`), graded values
+> (marks, mark_points, MCQ keys) corroborate the MS of record or carry explicit
+> correction evidence, and labels remain registry-validated (G6). Gates fail disclosed:
+> an edit that cannot be disclosed is not an edit — it is a defect.
 
 ## What lives here
 
@@ -30,7 +33,8 @@ Official-ExamQuestion/
     validation-report.json  G0–G7 receipts + negative controls + review queue
     assets/*.png            figure crops rendered from the QP PDF (v0.5)
 ../scripts/
-  official_examq_extract.py the converter (deterministic; no LLM in the extraction loop)
+  official_examq_extract.py the extraction baseline (deterministic); improving passes run
+                             on top under the disclosure contract (ADR-039 §4)
   make_multiseries_report.py report aggregator (auto-discovers series dirs)
   cross_diff_parsed.py      independent-parse marks agreement checker
 ```
@@ -68,15 +72,20 @@ Run the whole corpus and verify nothing regressed:
 
 ## The iron rules
 
-1. **Verbatim-first.** No paraphrase, no cleanup beyond whitespace, no "obvious" typo
-   fixes. If the source says it, the output says it. G2 enforces this with 5-gram
-   overlap against each part's own extracted source lines.
-2. **Fail closed.** A gate that cannot prove success is a failure. Ambiguous MCQ keys
-   are refused (see 2020-01: the pipeline refused to key 7(a)(iii) where a naive read
-   of drifted marker rows would have emitted a wrong answer).
-3. **Never fill gaps by invention.** Damaged/rasterized sources produce REVIEW states
-   with page attribution (see 2019-06 Q7: lost to rasterization, marks honestly
-   reported as 104/110), never synthetic content.
+1. **Correct-first, disclose-always.** Any serving field may be corrected, clarified or
+   enriched by any tool; every departure from the extracted source layer carries a
+   complete `edits[]` entry with a non-empty `evidence_ref`. An undisclosed edit fails
+   G2-D exactly as an undisclosed mutation always has.
+2. **Fail disclosed.** A gate that cannot prove disclosure is a failure. Ambiguous MCQ
+   keys are still refused (see 2020-01 7(a)(iii)); the difference is what happens next —
+   a provable defect is now *fixed with disclosure* (any tool, evidence recorded), not
+   frozen behind a ledger ceremony.
+3. **Values are never invented.** Every number, key and mark traces to the printed QP/MS
+   evidence or verifies as correct arithmetic on printed values (the corpus-wide
+   verifier, exit 1 on any problem). Graded-value corrections require printed-MS or
+   rendered-page evidence in `evidence_ref` — LLM may propose, evidence applies.
+   Damaged/rasterized sources produce disclosed REVIEW states with page attribution
+   (2019-06 Q7 precedent), never silent synthetic content.
 4. **Identity comes from the manifest, not the filename.** The canonical example: a
    paper labelled "June 2020" (a series that never ran — COVID) fingerprinted byte-for-
    byte as November 2020. G0 checks sha256 against `manifest.yaml`.
@@ -117,15 +126,17 @@ session and MUST be DETECTED 3/3 — otherwise the run is void.
   "crop-required"` entries stay in the review queue (blank-to-complete diagrams,
   rasterized source pages) until a `review_verdict: "stub-accepted"` records the
   eyeballed no-croppable-figure decision (v0.7.1 verdict vocabulary, F32).
-- Known verbatim limitation: PUA glyphs in the source text layer (e.g. `\uf0b4` for
-  ×) pass through un-mapped; a PUA→Unicode pass is future work and must not be done
-  ad hoc inside the converter.
+- PUA residue is ordinary disclosed-correction work under ADR-039: an evidenced
+  mapping (font-trace + page render) ships as a `notation` edit on the affected parts.
+  (F48/F52 already landed the corpus-wide table; residual PUA is a defect, not a
+  doctrine violation.)
 
 ## Spec tagging (v0.7 spec-point waves)
 
 Parts carry `spec_point_codes` + a `tagging` state: `seed-demo` (v0.5 registry-
 validated demo seeds), `llm-spec-wave` (codes from `spec-labels/<series>.json`,
-LLM-authored as LABELS ONLY — AGENTS.md review taxonomy), `no-spec-point`
+LLM-authored; G6 re-validates every code against the registry on every run — ADR-039 lifts
+the labels-only scope for *text* fields, codes stay registry-gated), `no-spec-point`
 (v0.8.1 terminal: the official 4CH1 specification gives NO numbered point for
 the part — decided against the published spec PDF, documented per part in the
 spec-labels file's `no_spec_point` map, verified bidirectionally by C32),
@@ -154,9 +165,11 @@ the eyeballed key (from the rendered MS page + QP stem + chemistry) and the
 corrected verbatim MS rows. The converter applies the override BEFORE solution
 emission — so `solution_md`, `mark_points[]` and `choices[].is_correct` all
 derive from the adjudicated block — and C31 keeps ledger↔corpus consistent in
-both directions. Adjudications are HUMAN decisions (rendered-page evidence in
-each entry); agents must not append entries without rendering and viewing the
-MS page. Known printed typo: (ii)'s fourth rebuttal reads 'C is incorrect as
+both directions. Keys are graded values: any proposer (human, agent, LLM) must work from the rendered
+MS page + QP stem, and an entry applies only with that evidence recorded. Under
+ADR-039 an equivalent in-place `corrected` edit with the same evidence bar is lawful;
+the ledger remains the record for printed-MS-defect cases and keeps canary binding
+(C28–C31). Known printed typo: (ii)'s fourth rebuttal reads 'C is incorrect as
 iodine is dark grey' — corrected to D in the corpus (iodine is option D; C is
 the keyed answer), verbatim text preserved in the ledger entry.
 
@@ -194,7 +207,7 @@ required` entries.
 
 | reason prefix            | meaning                                    | agent may? |
 |--------------------------|--------------------------------------------|------------|
-| `MCQ key unresolved`     | MS layout ambiguous and not ledger-adjudicated | never auto-key; adjudicate via MCQ-KEYS.json with rendered-page evidence |
+| `MCQ key unresolved`     | MS layout ambiguous and not adjudicated | never silently auto-key; resolve via MCQ-KEYS.json or an in-place `corrected` edit — both require rendered-page evidence (ADR-039 §7.1) |
 | `figure crop required`   | no croppable figure region (blank-to-complete diagram, rasterized page) | since v0.10.1 (F45): eyeball the page; if a printed region exists, record a `manual_crop` box in CROP-REVIEW.json (accepted verdict) — otherwise keep the stub with evidence |
 | `figure crop emitted — human verify` | crop rendered but low-confidence (no text anchor, text-heavy region) | re-render/adjust; never delete silently |
 | `spec code ... not in registry` | registry gap or invalid code        | propose, human accepts |
@@ -215,6 +228,10 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
    (see LEDGER F11–F14: indent tolerance, positive-statement keying, manifest schema
    drift, elimination keying). Reject your own fix if it would key the 2020-01 canary
    or any other canary differently.
+3b. **Disclose the fix.** If the fix changes served text/values, the affected parts
+   carry `edit_status: "corrected"` + `edits[]` with the finding id in `evidence_ref`
+   (e.g. `LEDGER F62`). The 5-gram baseline is measured against the *pre-fix* extraction,
+   so the disclosure is machine-checkable.
 4. **Record the finding** in `LEDGER.md` (next `F<max+1>`): series, finding, fix.
    One finding per distinct pattern. This is the ledger that makes the pipeline
    self-improving — new agents inherit every scar.
@@ -275,8 +292,8 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   for hydrogen density (airship), NO-recycling in the nitric acid process, or
   safety precautions (verified against the published spec PDF); entries live in
   the series spec-labels files and C32 pins them (F38; 2C's 607 parts were resolved by their first wave (v0.9.0): 584 tagged + 23 terminal no-spec-point; C33 pins it). Crop review is EMPTY and TERMINAL (v0.10.1, F45): all 8 crop-required stubs are dispositioned — 4 manual-cropped from their printed scaffolds/table (2020-11 5(b)(iv), 2023-11 6(b), 2024-06 7(b), 2019-06 15(a) off the rasterized scan) and 4 re-verified genuinely blank with stub-accepted notes (2021-06 8(b)(iii), 2025-06 9(a)(i), 2026-06 6(b), 2021-11:2C 5(c)); zero `figure crop required` entries remain corpus-wide, so new converter flags after any future crop change still need eyeballs before a ledger verdict.
-- PUA→Unicode mapping pass for the source text layer (\uf0b4 → × etc.) — must be
-  added as a converter-level mapping table with its own parity run, not ad hoc.
+- Residual PUA mapping (post F48/F52): converter-level table + parity run; lands as
+  disclosed `notation` edits under ADR-039 — no ledger ceremony required.
 - 2019-06 archive damage: DONE (v0.10.0) — the six rasterized content pages were
   re-captured through the F41 OCR source layer and G1 is PASS 110/110. The one
   residual honest item is 2019-06 3(d)(ii): its MS answer cell is a printed image
