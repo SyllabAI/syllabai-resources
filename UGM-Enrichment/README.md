@@ -74,6 +74,15 @@ there. Nothing in this directory renders or embeds UGM content.
   research repo, then re-emit this artifact with a new `generated_utc`
   stamp (files are byte-idempotent per stamp). Do not hand-edit rows.
 
+
+- **Lane 6 (CIE 9709 P1 1.6 Series)** — `cie-a-level-maths-20-pure-1-series.json`: the **second
+  two-station lane**: 49 aligned resources (43 Sequences/Counting-and-Binomials substrate + 6 cross-station
+  strays whose tested skill is 1.6.x; 56 alignment rows; primary picks r7078 / sort-it-out / r8907 /
+  square-spirals), 50 recorded non-overlaps (combinatorics/logic dominance in Counting and Binomials;
+  general-index binomial questions carry P3 Series bearings — recorded, never forced — text of record
+  imported UNMAPPED in the same lane directory, per the station-lane corpus law), plus 2 cross-lane fact
+  joins to lane-2 bodies (r7553, r9527 → 1.6.3, `textOfRecordUnder` pointers).
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.

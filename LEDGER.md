@@ -380,3 +380,39 @@ served bundle PR carries a full disclosure census.
   lane-5 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — non-overlaps +
   routings recorded) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-5. Rights ©
   Cambridge/UCLES/MAT/O&C per file; takedown law unchanged. Base commit f3ef5745 (syllabai-experimental).
+
+- **T-UGM-MODE1-6 — UGM mode-1 lane enrichment, Series lane (this run)**: seventh landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Enrichment/` family to its sixth
+  lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23; operator
+  instruction "lane 6 (CIE 9709 P1 1.6 Series)"). New file `cie-a-level-maths-20-pure-1-series.json`: the
+  **second two-station lane** (UGM's dedicated Sequences + Counting and Binomials stations) — spine rows
+  1.6.1–1.6.4 verbatim (no fold fragments); corpus-wide sweep of all 25 stations (855 resources → 137
+  candidates) resolved as 49 aligned (43 substrate — 31 Sequences + 12 Counting-and-Binomials — plus 6
+  cross-station strays r5640/r9404/r9916/r8260/r6592/r9312; 56 alignment rows; primary picks r7078 /
+  sort-it-out / r8907 / square-spirals) + 50 explicit non-overlaps + 2 cross-lane fact joins (r7553, r9527
+  → 1.6.3 against lane-2 bodies, `textOfRecordUnder` pointers) + 36 routed to recorded homes with reasons —
+  never forced (AGENT.md rule 3). FINDINGS OF RECORD: the Sequences station maps 31/42 onto 1.6.2–1.6.4
+  while Counting and Binomials is dominated by combinatorics/logic work (39 non-overlaps) around a tight
+  binomial-expansion core (12/51); the general-index binomial questions (r6295/r6340/r7477 substrate
+  non-overlaps + power-series r7436/r6601 routed) carry P3 Series bearings — the natural substrate preview
+  for a future P3 lane, mirroring lane 5's P3 2.3 finding. FACTS ONLY: slugs/titles/types/levels/
+  confidence/provenance — no UGM text bodies; rights © Cambridge/UCLES/MAT/O&C and other boards per row
+  unchanged (licensing block in-file + dir README). Mode-2 rendering remains dropped (operator directive
+  2026-10-22, recorded in `mode2Note`). Base commit 82964ce4 (syllabai-experimental).
+
+- **T-UGM-IMPORT-6 — UGM text corpus import, Series lane (this run)**: seventh landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Resources/` corpus family to its
+  sixth lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23).
+  New `UGM-Resources/pure-1-series/`: **text bodies of the WHOLE two-station substrate — 99 files** (49
+  mapped: 43 substrate + 6 strays; 50 recorded non-overlaps imported UNMAPPED with the coverage note, per
+  the station-lane corpus law; 3 excerpt/title-only captures per the of-record bigger-picture/teacher-support
+  law) as YAML-front-matter markdown. Text-only import law: math preserved byte-true in UGM's native
+  `\( \)` / `\[ \]` delimiters (converter verified **byte-identical against all 77 of-record lane-5
+  files** before generation — full-corpus verification, extending the four-file lane-5 check; per-file
+  delimiter parity audited 99/99); UGM section structure/panel titles/provider spellings preserved; figures
+  and GeoGebra embeds recorded as front-matter/inline markers, NOT fetched. `MANIFEST.json` bumps to **v6**:
+  lane-6 block fresh (99 rows, sha256 each), lane-1/2/3/4/5 rows untouched from v5 (363 files corpus-wide).
+  Spec-point mappings are the P3c lane-6 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no
+  coverage manufactured — non-overlaps + routings recorded) with `primaryPick` cross-referenced to
+  `UGM-Enrichment/` T-UGM-MODE1-6. Rights © Cambridge/UCLES/MAT/O&C per file; takedown law unchanged.
+  Base commit 82964ce4 (syllabai-experimental).
