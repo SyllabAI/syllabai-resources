@@ -1,43 +1,10 @@
-event: pack-status-flip
-pack_id: u1-c01-states-of-matter
-chapter_key: u1:c01
-course: chemistry-4ch1
-from_status: draft
-to_status: published
-date: "2026-10-22"
-operator_command: "translate the pack status and re-bake it"
-trace_id: "1a162e924c017891"
-agent: "T-BOOK-033 status-flip r0 (zai-web session web-c414c074, chat 08b3170a)"
-law: >-
-  START-HERE law 7 (SUGGESTED): the flip to review/published is an explicit
-  operator command, recorded in the tracker with a receipt. This file is that
-  receipt; the paired tracker transaction is lessonctl.py tracker --set
-  pack_status=published --receipt qa/flip-published.yaml.
-authority:
-  authoring_of_record: >-
-    qa/receipt.yaml — u1:c01 authored end-to-end S1-S4 (13/13 sections),
-    lint PASS 0 errors / 0 warnings (V1-V9 at stage S4), lessonPackV1.json
-    emitted draft per the SUGGESTED law with the note "operator flip is a
-    separate command".
-  operator_note_of_record: >-
-    T-BOOK-033 r0 (merged main 372a2b76): "the u1:c01 pack ships status=draft
-    — it appears on the shelf/toggle ONLY after the status flip to published
-    (SUGGESTED law); ?preview=1 shows the draft with a badge today." The
-    operator command above answers that note; target status published is the
-    serving state of the T-C20 gate (published-only shelf + reader toggle).
-post_flip:
-  source_of_record: >-
-    qa/lessonPackV1.json status: published (single top-level field edit,
-    byte-precise, no other key touched)
-  tracker: >-
-    tracker.yaml lessons.u1-c01-states-of-matter gains pack_status: published
-    via the lessonctl.py tracker transaction (receipt-anchored); TRACKER.md
-    synced in the same commit per the transaction output law.
-  hub_rebake: >-
-    syllabai-v2 lane re-runs apps/hub/scripts/import_lesson_packs.py (fetch-first,
-    SYLLABAI_PAT env-only) so the baked content-plane copy carries
-    status: published; merge to main = the git-connected hub auto-bake
-    (~90s) — the "re-bake it" half of the operator command.
-scope_notes:
-  - "lesson.yaml stage field left at its on-origin value; not named by the operator order and not a serving input (stage truth is qa/receipt.yaml S1-S4)"
-  - "tracker.yaml phases.pilot-gate.status ('not-started') predates this flip and is c01-c05 collective; left untouched — flagged for the next authoring lane, not a defect of this flip"
+# law-7 flip receipt (r1) — u1-c01-states-of-matter States of matter standalone-voice retrofit
+command: 'operator style directive "100% book replacement — no book-attribution voice" (trace 1a168b88e0391dfd) — r1 flip of the retrofitted pack under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-23T14:37:27Z'
+head_at_flip: 49cac48
+agent: "T-BOOK-039/voice-retrofit r1 (session web-c414c074 chat 08b3170a, trace 1a1691b51de3f355)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 42095 -> 42099 bytes, +4; sha256 e273cb21... -> 47321b77...)'
+pack_identity: '13 sections; sources sha-pinned (bookOfRecord edexcel-..., parseOfRecord parsed/e...); paperRoute=core (join_set 1.1-1.7C); r1 = voice-only retrofit, substance identical, finding f-0014 + lesson-prose@2.0.0'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + residual standalone-voice scan 0 hits across all 13 section bodies (census classes: attribution voice, figure/table/page citations, QA leakage, PDF-deflection)'
+tracker_transaction: 'law-10 tx rides with the wave tracker commit (six-pack retrofit tx: board rows -> PUBLISHED r1 + notes mirror)'
+next: 'v2 bake lane fires after the wave merge (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c01-c06 r1 + c07 r1 re-bake together, lessons-index additive) — merge = the git-connected hub auto-bake at the production origin of record syllabai-hub-v2.vercel.app (T-C20 battery --expect-packs 7 re-run at the bake gate)'
