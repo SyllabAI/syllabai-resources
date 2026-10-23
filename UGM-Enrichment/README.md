@@ -13,6 +13,14 @@ accepts it, and **no third-party content text ships** — see licensing below.
   Pure 1 Quadratics spec points (1.1.1–1.1.5) enriched with UGM candidate
   resources from the quadratics station (56 aligned of 59 considered;
   3 explicit non-overlaps recorded, never collapsed — AGENT.md rule 3).
+- `cie-a-level-maths-20-pure-1-circular-measure.json` — schema
+  `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-MODE1-4`: the CIE 9709 Pure 1 Circular measure
+  spec point (1.4.1, hub parse fragment 1.4.1a folded of record) enriched with UGM candidates —
+  the **first strand lane**: 3 new-text aligned resources (text of record under
+  `UGM-Resources/pure-1-circular-measure/`), 2 boundary non-overlaps, plus 14 cross-lane
+  circles-strand alignments and 2 cross-lane non-overlaps recorded as facts with
+  `textOfRecordUnder` pointers (62 corpus-sweep candidates: 41 routed to recorded homes —
+  never forced, AGENT.md rule 3).
 
 ## What is and is not here
 
@@ -42,6 +50,10 @@ there. Nothing in this directory renders or embeds UGM content.
   licensing ask scoped in ADR-UGM-0001 §Decision item 4 (provenance-
   matched, non-exclusive, attribution in UI) — it would land as its own
   LICENSE-DATA.md amendment first.
+- **2026-10-23 addendum:** UGM text of record now ships under the operator attestation of
+  2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23) via `UGM-Resources/` (per-lane text corpora,
+  task ids `T-UGM-IMPORT-*`). This directory remains **facts-only** (mode 1); the "Is not"
+  paragraph above describes this directory, not the corpus family.
 
 ## Provenance
 

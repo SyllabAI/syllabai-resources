@@ -6,7 +6,7 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** three lanes of record.
+**Status:** four lanes of record.
 
 - **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
   landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
@@ -25,10 +25,20 @@ preservation-grade snapshot of a stable source.
   Cross-map of record: `cross-map-coordinate-geometry.json` in `SyllabAI/syllabai-experimental`
   (61/85 aligned to CIE 9709 P1 1.3.1–1.3.2 with spine fragments 1.3.1a/1.3.2a folded of record;
   24 honest non-overlaps — the circles station's radian-mensuration/theorem strands serve other lanes).
+- **Lane 4 — `pure-1-circular-measure/`** (5 resources — the **first strand lane**, task
+  **`T-UGM-IMPORT-4`**). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-circular-measure.json` (task **`T-UGM-MODE1-4`**).
+  Cross-map of record: `cross-map-circular-measure.json` in `SyllabAI/syllabai-experimental`
+  (CIE 9709 P1 1.4 Circular measure — hub parse fragment 1.4.1a folded into 1.4.1 of record; 62
+  corpus-sweep candidates resolved as 17 aligned (3 new-text here + 14 cross-lane circles-strand
+  facts) + 4 non-overlaps + 41 routed to recorded homes. The corpus importer's cross-lane `ugmId`
+  uniqueness law keeps one text body per resource, so the circles strand's 14 alignments + 2
+  non-overlaps are recorded as facts pointing at `pure-1-coordinate-geometry/` rather than
+  duplicating bodies).
 
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
-the text bodies. `MANIFEST.json` is **v3 (multi-lane)** — one block per lane;
-lane-1/2 rows carried forward untouched from v2.
+the text bodies. `MANIFEST.json` is **v4 (multi-lane)** — one block per lane;
+lane-1/2/3 rows carried forward untouched from v3.
 
 ## Rights and licensing authority
 
@@ -137,3 +147,9 @@ Later lanes (other UGM stations ↔ other spine exports) follow the same layout:
 directory per station, one file per resource, `spec_map` pointing at the lane's
 cross-map of record. The station → lane binding used here is recorded in
 `MANIFEST.json → cross_map_of_record`.
+A **strand lane** (lane 4, CIE 1.4 Circular measure) relaxes the station↔directory binding: its
+directory carries only resources whose text is not already of record in another lane, while the
+strand's cross-lane mappings live as facts in the sibling `UGM-Enrichment/` file with
+`textOfRecordUnder` pointers. Station provenance stays first-class: every file's front-matter
+records its UGM station regardless of which lane directory holds it.
+
