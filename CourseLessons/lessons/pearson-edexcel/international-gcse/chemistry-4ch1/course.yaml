@@ -266,6 +266,10 @@ spine:
     - 98
     - 99
     section_count: 4
+    # learning_objective VERBATIM from LEARNING OBJECTIVES chunk chem_v3_u1_c9_pdf107_0395
+    # (3 bullets joined with ';'; no paraphrase — c08 0349 precedent)
+    learning_objective: "Know how to represent a metallic lattice by a 2D diagram; Understand metallic bonding in terms of electrostatic attractions; Explain typical physical properties of metals, including electrical conductivity and malleability"
+    join_set: ["1.52C", "1.53C", "1.54C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()). DERIVED at S0-L0 from objectives chunk 0395 x spine node igcse-chemistry-T1:SUBh = EXACTLY THREE points, one-to-one: 2D-diagram objective -> 1.52C; electrostatic-attractions objective -> 1.53C; physical-properties objective -> 1.54C. ALL THREE C-suffixed (papers [2C], double_award_shared false per spine applicability) — chem_only: true CONFIRMED (course row default upheld by derived evidence)
   - key: u1:c10
     slug: electrolysis
     title: Electrolysis
