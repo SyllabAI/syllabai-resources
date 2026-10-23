@@ -9,9 +9,9 @@ glossary: [isotope]
 authored: true
 ---
 
-The number of neutrons in an atom can vary slightly. Carbon is the book's
+The number of neutrons in an atom can vary slightly. Carbon is the classic
 example: there are three kinds of carbon atom, called **carbon-12**,
-**carbon-13** and **carbon-14** (Figure 3.5 shows the nuclei of the three).
+**carbon-13** and **carbon-14**.
 All of them have 6 protons — every carbon atom does, because 6 is carbon's
 atomic number — but their neutron counts differ, so their mass numbers
 differ too. These different atoms of the same element are called
@@ -54,8 +54,7 @@ reactive".
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.16 × 2 items — define
-isotopes; why ¹²C, ¹³C and ¹⁴C react identically. Book p. 28–29 chapter
-questions (including the chlorine-isotopes item) → page jump only
-(licensing law).
+
+Question-bank join: spec 1.16 × 2 items — define isotopes; why ¹²C, ¹³C and
+¹⁴C react identically.
 :::

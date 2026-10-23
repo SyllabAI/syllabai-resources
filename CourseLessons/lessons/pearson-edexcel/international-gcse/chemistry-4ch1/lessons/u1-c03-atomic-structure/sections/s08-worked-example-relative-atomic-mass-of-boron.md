@@ -9,11 +9,10 @@ glossary: []
 authored: true
 ---
 
-Here is the book's worked example (Example 1), which turns §s07's
-definition into a routine. A naturally occurring sample of boron contains
+This worked example turns §s07's definition into a routine. A naturally occurring sample of boron contains
 **20% ¹⁰B and 80% ¹¹B**. Calculate the relative atomic mass.
 
-The book's method — **imagine there are exactly 100 atoms** — makes the
+The method — **imagine there are exactly 100 atoms** — makes the
 percentages do the work:
 
 - 20% of 100 atoms = 20 atoms, each of mass 10 → total mass 20 × 10
@@ -28,9 +27,9 @@ Therefore the relative atomic mass of boron is **10.8**. Notice what the
 number tells you before you check it: 10.8 sits much closer to 11 than to
 10, exactly as §s07 predicts for a sample that is 80% ¹¹B.
 
-The book adds that the same method works even if there are **three or
-four different isotopes**: multiply each isotope's mass by its abundance,
-add all the products, divide by 100 (when abundances are percentages). The
+The same method works even if there are **three or four different
+isotopes**: multiply each isotope's mass by its abundance, add all the
+products, divide by 100 (when abundances are percentages). The
 imagine-100-atoms framing survives every exam version of this question.
 
 :::worked-example
@@ -65,8 +64,7 @@ value **without units**.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.17 × 3 items — reproduce
-the boron calculation; a two-isotope Aᵣ with different abundances; the
-three-isotope generalisation. Book p. 28–29 chapter questions (lithium
-Q5, magnesium Q6, lead Q7, iridium Q8) → page jump only (licensing law).
+
+Question-bank join: spec 1.17 × 3 items — reproduce the boron calculation; a
+two-isotope Aᵣ with different abundances; the three-isotope generalisation.
 :::

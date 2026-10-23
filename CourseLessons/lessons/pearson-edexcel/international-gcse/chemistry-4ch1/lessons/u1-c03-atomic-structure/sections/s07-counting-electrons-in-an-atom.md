@@ -9,12 +9,11 @@ glossary: [isotopic-abundance]
 authored: true
 ---
 
-The book heads this section with the question you can now almost answer
-for yourself: given an element, how do you count the electrons in its
-atom? The full charge-balance argument arrives in §s09 — what the book
-gives you *here*, in its hint box, is the anchor that everything else
-hangs from: **the number of protons is the same as the atomic number of
-the element**. Count protons by looking up the atomic number; electrons
+Here is the question you can now almost answer for yourself: given an
+element, how do you count the electrons in its atom? The full
+charge-balance argument arrives in §s09 — the anchor that everything else
+hangs from comes *here*: **the number of protons is the same as the atomic
+number of the element**. Count protons by looking up the atomic number; electrons
 then follow (§s09); neutrons come from mass number − atomic number
 (§s04). One look-up, three particle counts.
 
@@ -22,7 +21,7 @@ The hint box also closes the chlorine story from §s06, and it is worth
 reading slowly because it is examiner-true reasoning. **Relative atomic
 mass** is defined as the *average mass of an atom, taking into account the
 amount of each isotope present in a naturally occurring sample of an
-element* (the book explains it further in Chapter 5). Apply that to
+element* (Chapter 5 builds on this further). Apply that to
 chlorine: the Aᵣ of 35.5 is **closer to 35 than to 37**, so a naturally
 occurring sample of chlorine must contain **more ³⁵Cl than ³⁷Cl** — the
 average sits nearer the isotope that contributes more.
@@ -30,8 +29,8 @@ average sits nearer the isotope that contributes more.
 That "amount of each isotope" is the **[[isotopic-abundance]]** — the
 percentage of each isotope in the sample. Knowing the abundances, you can
 stop *reasoning about* the average and *calculate* it, in exactly the way
-you would calculate a weighted average in maths. The book does it with a
-worked example, next section.
+you would calculate a weighted average in maths — which is exactly what
+the next section's worked example does.
 
 :::key-point
 Protons = atomic number (one Periodic-Table look-up powers all three
@@ -49,13 +48,12 @@ average tells you which isotope dominates; bigger isotope ≠ bigger share.
 
 :::exam-hint
 "Explain why a sample of chlorine contains more ³⁵Cl than ³⁷Cl" scores by
-the book's own line: *the relative atomic mass (35.5) is closer to 35 than
-to 37*. Quote the closeness argument — it is the whole mark.
+one line: *the relative atomic mass (35.5) is closer to 35 than to 37*. Quote the closeness argument — it is the whole mark.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.17 × 2 items — define
-isotopic abundance; which chlorine isotope dominates and why. spec 1.16 ×
-1 item — the Aᵣ definition (average, abundances taken into account). Book
-p. 28–29 chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.17 × 2 items — define isotopic abundance; which
+chlorine isotope dominates and why. spec 1.16 × 1 item — the Aᵣ definition
+(average, abundances taken into account).
 :::

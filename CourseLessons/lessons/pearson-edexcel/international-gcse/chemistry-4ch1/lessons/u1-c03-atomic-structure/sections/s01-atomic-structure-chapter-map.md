@@ -10,21 +10,21 @@ authored: true
 ---
 
 Take a piece of copper and imagine cutting it in half, then in half again,
-on and on. The book's thought experiment ends at a definite stopping point:
+on and on. The thought experiment ends at a definite stopping point:
 eventually you reach the smallest piece of copper that can exist — and at
 that stage you are holding a single copper **[[atom]]**. You *could* split
 that atom further, into protons, neutrons and electrons, but the moment you
 do, you no longer have copper: the pieces are not copper, they are
-sub-atomic particles. That is the book's definition of the atom — *the
+sub-atomic particles. That is the definition of the atom — *the
 smallest piece of an element that can still be recognised as that element*.
 
 The 118 elements are the building blocks from which everything is made,
 from a simple substance such as carbon to something as complex as DNA, and
 every one of those elements is built from atoms. What makes one element
 different from another is what this chapter is about: the numbers of
-protons, neutrons and electrons inside the atom. The book also notes where
-atoms come from — new atoms are produced in stars (Figure 3.1) — which is
-why the story of the atom is also, quietly, the story of the universe.
+protons, neutrons and electrons inside the atom. And the story reaches
+further than Earth: new atoms are produced in stars, which is why the story
+of the atom is also, quietly, the story of the universe.
 
 By the end of this lesson you will be able to:
 
@@ -34,7 +34,7 @@ By the end of this lesson you will be able to:
 - define **atomic number**, **mass number**, **isotopes** and **relative
   atomic mass (Aᵣ)**;
 - calculate a **relative atomic mass** from isotopic abundances, exactly as
-  the book's worked example does for boron.
+  the worked example does for boron (§s08).
 
 :::key-point
 An atom is the smallest piece of an element that can still be recognised as
@@ -69,7 +69,7 @@ different question (spec 1.15) and earns nothing here.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.14 × 2 items — the smallest
-piece that is still the element; whether atoms can be split by chemical
-means. Book p. 28–29 chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.14 × 2 items — the smallest piece that is still
+the element; whether atoms can be split by chemical means.
 :::

@@ -13,25 +13,25 @@ Everything in this chapter runs on one reference chart. Atoms are arranged
 in the **[[periodic-table]]** in order of **increasing atomic number** —
 that ordering *is* the chapter's payoff: the chart is a particle-counting
 device. (Chapter 4 deals in detail with everything else the Periodic
-Table tells you; you will find a full version in the book's Appendix A,
-page 320.)
+Table tells you; the Periodic Table printed in your exam paper carries
+the full version.)
 
 Most Periodic Tables show **two numbers** against each symbol, and the
-book's warning is blunt: be careful to choose the right one. The atomic
+warning is blunt: be careful to choose the right one. The atomic
 number will **always be the smaller number**. The other number is either
 the **mass number of the most common isotope** of the element or the
 **relative atomic mass** of the element (§s06 showed you why those are not
 the same thing — chlorine's 35.5). The Periodic Table you are using will
 clarify which; exam papers always state their convention.
 
-The book's complete counting recipe for any atom:
+The complete counting recipe for any atom:
 
 - the number of **protons** = the atomic number (the smaller number);
 - the number of **electrons** = the number of protons;
 - the number of **neutrons** = mass number − atomic number.
 
-Three lines, one chart, every atom on the syllabus. Example 2 (§s11)
-works the recipe end-to-end on uranium.
+Three lines, one chart, every atom on the syllabus. §s11 works the recipe
+end-to-end on uranium.
 
 :::key-point
 Periodic Table recipe: protons = atomic number (always the smaller
@@ -56,7 +56,7 @@ atomic number explicitly protects the whole chain of marks.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.16 × 3 items — which number
-is which in a cell; the three-line recipe; apply it to a named element.
-Book p. 28–29 chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.16 × 3 items — which number is which in a cell;
+the three-line recipe; apply it to a named element.
 :::

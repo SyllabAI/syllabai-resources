@@ -23,8 +23,8 @@ isotopes, ³⁵Cl and ³⁷Cl, and a naturally occurring sample contains a
 not the mass of any single atom.
 
 A plain average would not do, because the isotopes are not present in
-equal amounts. What the book calls for here is the same tool you use in
-maths when some values count for more than others: the
+equal amounts. The tool for this is the same one you use in maths when
+some values count for more than others: the
 **[[weighted-average]]** (or **weighted mean**). The relative atomic mass
 is a weighted average of the isotope masses, weighted by how much of each
 isotope is present in a naturally occurring sample. That single sentence
@@ -60,8 +60,7 @@ in itself on questions of this type.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.16 × 3 items — why 35.5
-cannot be a mass number; what Aᵣ is an average *of*; why a plain average
-would not do. Book p. 28–29 chapter questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.16 × 3 items — why 35.5 cannot be a mass number;
+what Aᵣ is an average *of*; why a plain average would not do.
 :::
