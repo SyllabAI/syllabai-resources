@@ -347,3 +347,36 @@ served bundle PR carries a full disclosure census.
   non-overlaps + routings recorded) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-4.
   Rights © Cambridge/UCLES/MAT/Cambridge Colleges/O&C per file; takedown law unchanged. Base commit
   b52cf1bf (syllabai-experimental).
+
+- **T-UGM-MODE1-5 — UGM mode-1 lane enrichment, Trigonometry lane (this run)**: sixth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Enrichment/` lane family to CIE 9709 P1
+  subtopic 1.5 Trigonometry under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment
+  2026-10-23; operator instruction "lane 5"). New file `cie-a-level-maths-20-pure-1-trigonometry.json`: the
+  **two-station lane** (UGM's dedicated Trigonometry: Triangles to Functions + Trigonometry: Compound Angles
+  stations) — spine rows 1.5.1–1.5.5 verbatim (no fold fragments, unlike lanes 3–4); corpus-wide sweep of all
+  25 stations (855 resources → 299 candidates) resolved as 41 aligned (36 TTF + 3 TCA substrate + 2
+  cross-station strays r7912/r7184; 55 alignment rows; primary picks going-round-in-circles / trig-tables /
+  inverse-or-not / r5269 / r6138) + 36 explicit non-overlaps + 2 cross-lane fact joins (r9924, r8411 → 1.5.4
+  against lane-2 bodies, `textOfRecordUnder` pointers) + 220 routed to recorded homes with reasons — never
+  forced (AGENT.md rule 3). FINDING OF RECORD: the compound-angles station maps almost entirely to P3 2.3
+  (24 non-overlaps) — the 2019 CIE revision moved compound/double-angle work out of Pure 1; five of lane 4's
+  routed-1.5 preview pool are refined here to non-overlaps (preview was a substrate pointer, never a verdict).
+  FACTS ONLY: slugs/titles/types/levels/confidence/provenance — no UGM text bodies; rights © Cambridge/UCLES/
+  MAT/O&C and other boards per row unchanged (licensing block in-file + dir README). Mode-2 rendering remains
+  dropped (operator directive 2026-10-22, recorded in `mode2Note`). Base commit f3ef5745 (syllabai-experimental).
+
+- **T-UGM-IMPORT-5 — UGM text corpus import, Trigonometry lane (this run)**: sixth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Resources/` corpus family to its
+  fifth lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23). New
+  `UGM-Resources/pure-1-trigonometry/`: **text bodies of the WHOLE two-station substrate — 77 files** (41
+  mapped: 36 TTF + 3 TCA + 2 strays; 36 recorded non-overlaps imported UNMAPPED with the coverage note, per
+  the station-lane corpus law; 8 excerpt/title-only captures per the of-record bigger-picture/teacher-support
+  law) as YAML-front-matter markdown. Text-only import law: math preserved byte-true in UGM's native
+  `\( \)` / `\[ \]` delimiters (converter verified byte-identical against four of-record lane-1/3 files
+  before generation: belt, r6164, sector-spirals, r6638; per-file delimiter parity audited 77/77); UGM section
+  structure/panel titles/provider spellings preserved; figures and GeoGebra embeds recorded as
+  front-matter/inline markers, NOT fetched. `MANIFEST.json` bumps to **v5**: lane-5 block fresh (77 rows,
+  sha256 each), lane-1/2/3/4 rows untouched from v4 (264 files corpus-wide). Spec-point mappings are the P3c
+  lane-5 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — non-overlaps +
+  routings recorded) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-5. Rights ©
+  Cambridge/UCLES/MAT/O&C per file; takedown law unchanged. Base commit f3ef5745 (syllabai-experimental).
