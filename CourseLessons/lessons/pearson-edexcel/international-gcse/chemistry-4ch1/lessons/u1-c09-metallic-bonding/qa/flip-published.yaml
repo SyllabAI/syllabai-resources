@@ -1,0 +1,10 @@
+# law-7 flip receipt (r0) — u1:c09 Metallic bonding
+command: 'operator lane order "Proceed: c09 Metallic bonding (4 sections)" (trace 1a16ac0ff45e3969) — flip of the freshly authored pack under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-23T22:12:53Z'
+head_at_flip: 0d4b26f0
+agent: "T-BOOK-041/flip r0 (session web-c414c074 chat 08b3170a)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 21823 -> 21827 bytes, +4; sha256 dfe64716... -> d9d48add...)'
+pack_identity: '4 sections; sources sha-pinned (bookOfRecord d48020e0..., parseOfRecord b2c67eaf...); paperRoute=chemistry-only (join_set 1.52C/1.53C/1.54C, ALL THREE C-suffixed, papers [2C], double_award_shared false — the course's FIRST chemistry-only pack); r0 = authored under lesson-prose@2.0.0 standalone voice from first draft, no retrofit debt'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + chip audit 7 chips / 4 sections / 0 unresolved + voice audit 0 hits'
+tracker_transaction: 'law-10 via lessonctl tracker: pack_status=published, last_receipt=qa/flip-published.yaml; TRACKER.md board row 9 + Unit-1-rest phase row updated in the tx commit'
+next: 'v2 bake lane fires next in syllabai-v2 (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c09 bake; c01-c08 byte-identical expected, lessons-index 8->9 additive) — merge = the git-connected hub auto-bake: the u1:c09 Lesson toggle + shelf entry go live at the production origin of record syllabai-hub-v2.vercel.app (battery scripts/tc20-battery.mjs --expect-packs 9 in the bake lane gates)'
