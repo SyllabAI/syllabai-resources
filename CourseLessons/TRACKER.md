@@ -6,7 +6,7 @@
 > allowed for narrative notes only — status truth lives in `tracker.yaml`
 > via `lessonctl.py tracker` transactions (receipt-anchored).
 
-**Last regenerated:** 2026-10-23 (T-BOOK-037/flip r0 — u1:c05 pack flipped DRAFT → PUBLISHED, operator command trace 1a1658a2da08e5bd) · **Agent convention:** every status
+**Last regenerated:** 2026-10-23 (T-BOOK-038 r0 — u1:c06 authored end-to-end S4 15/15, pack DRAFT, join_set 1.34C+1.35C pinned, Unit-1-rest opened, trace 1a167b943eeacae5) · **Agent convention:** every status
 change carries `receipt:` pointing at the lesson's `qa/receipt.yaml` (published flips: `qa/flip-published.yaml`).
 
 ---
@@ -28,6 +28,7 @@ change carries `receipt:` pointing at the lesson's `qa/receipt.yaml` (published 
 | 3 | u1:c03 Atomic structure | `lessons/u1-c03-atomic-structure/` | S4 (authored; **pack PUBLISHED**) | 11/11 | full allowlist coverage (key-point ×10; exam-hint/misconception/quick-check ×11; worked-example ×2; maths-skills ×1; prior-knowledge ×1; cross-curricular ×2; closing set; did-you-know + safety honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-035 r0 (author) / T-BOOK-035/flip r0 (publish) |
 | 4 | u1:c04 The periodic table | `lessons/u1-c04-periodic-table/` | S4 (authored; **pack PUBLISHED**) | 12/12 | full allowlist coverage (key-point ×10; exam-hint/misconception/quick-check ×12; worked-example ×2; maths-skills ×1; prior-knowledge ×1; cross-curricular ×2; did-you-know ×2 (census-true); closing set; safety honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-036 r0 (author) / T-BOOK-036/flip r0 (publish) |
 | 5 | u1:c05 Formulae and calculations (part 1) | `lessons/u1-c05-formulae-calculations-1/` | S4 (authored; **pack PUBLISHED**) | 36/36 | full allowlist coverage (exam-hint/misconception/quick-check ×36; key-point ×9; worked-example framing on the book's 8 EXAMPLE sections (in prose — EXAMPLEs are section titles here); safety ×4 (census-true — first multi-safety chapter); prior-knowledge s01; cross-curricular s31; closing set; maths-skills folded into exam-hints (the chapter IS the maths chapter); did-you-know honestly absent — 0 census chunks in chapter) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/flip-published.yaml (published flip; authoring receipt: qa/receipt.yaml S1-S4) | T-BOOK-037 r0 (author) / T-BOOK-037/flip r0 (publish) |
+| 6 | u1:c06 Formulae and calculations (part 2) | `lessons/u1-c06-formulae-calculations-2/` | S4 (authored; pack DRAFT) | 15/15 | full allowlist coverage (exam-hint/misconception/quick-check ×15; key-point ×4; prior-knowledge s01; cross-curricular s06; maths-skills s04+s07; summary+can-you s15 close; did-you-know + safety honestly absent — 0 census chunks in chapter); join_set 1.34C + 1.35C (BOTH C-suffixed — whole lesson is Paper-2-only, chem_only: true, paperRoute=chemistry-only) | PASS (0/0, stage S4, V5/V6 gates ON) | qa/receipt.yaml (authoring; flip receipt follows the operator flip) | T-BOOK-038 r0 (author; trace 1a167b943eeacae5) |
 
 (Sections column = `sections[].status: done` count vs spine length.
 Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+.)
@@ -37,7 +38,7 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 | Phase | Lessons | Status |
 |---|---|---|
 | Pilot gate | u1:c01–c05 | **c01 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a162e924c017891; hub re-bake same day); c02 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a163f5c9173aa49); c03 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a164915672f5ba5); c04 authored end-to-end (S4) + pack PUBLISHED (operator flip trace 1a164f4cfb54fb65, live-verified at the production origin); c05 authored end-to-end (S4, 36/36 — the big one) + pack PUBLISHED (operator flip trace 1a1658a2da08e5bd) — PILOT GATE COMPLETE: all five pilot lessons PUBLISHED** |
-| Unit 1 rest | u1:c06–c10 | not started |
+| Unit 1 rest | u1:c06–c10 | **open — c06 authored end-to-end (S4, 15/15, pack DRAFT, trace 1a167b943eeacae5; the SUBe split completes: part 1 = ten non-suffixed points, part 2 = 1.34C + 1.35C); c07–c10 not started** |
 | Unit 2 | u2:c11–c18 | not started |
 | Unit 3 | u3:c19–c21 | not started |
 | Unit 4 | u4:c22–c29 | not started |
