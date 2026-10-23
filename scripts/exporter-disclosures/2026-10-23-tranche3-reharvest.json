@@ -1,0 +1,62 @@
+{
+ "schema": "syllabai.exporter-disclosure/1.0",
+ "lane": "T-RULE-T3-SME-COVERAGE-1 run-003",
+ "operatorOrder": "tranche-3 re-harvest (trace 1a169db74ca578c9, 2026-10-23, zai-web)",
+ "vintage": "2026-10-23T18:00:00Z",
+ "acquisition": "Save My Exams public revision-notes surfaces only (LICENSE-DATA.md Amendment 2026-09-17 operator attestation + Cambridge extension 2026-10-17); discovery = notes index pages UNION live sitemap (sitemap demonstrably lags new leaves; disclosed in run-002)",
+ "growth_observed": {
+  "cie-igcse-business-25": 65,
+  "cie-igcse-economics-25": 84,
+  "cie-igcse-economics-20": 17,
+  "cie-a-level-computer-science-19": 9,
+  "cie-igcse-english-literature-21": 6
+ },
+ "corpus": {
+  "reharvested_lanes": 5,
+  "leaves_added": 181,
+  "pages_removed": 0,
+  "fetch_failures": 0,
+  "drift_disclosed": {
+   "lane": "cie-igcse-english-literature-21",
+   "files_changed": 254,
+   "cause": "SME live-edited 127 note pages on 2026-10-21 (updated_at bumps + heading-level edits); spec_point_ids unchanged; corpus mirrors its vintage per the vintage law",
+   "other_lanes_changed_files": 0
+  }
+ },
+ "index_rederivation": {
+  "universe_growth": {
+   "cie-a-level-computer-science-19": "244 -> 282",
+   "cie-igcse-business-25": "51 -> 276",
+   "cie-igcse-economics-20": "126 -> 163",
+   "cie-igcse-economics-25": "16 -> 212",
+   "cie-igcse-english-literature-21": "686 -> 714"
+  },
+  "class_b_dangling": {
+   "before": 322,
+   "after": 61,
+   "closed": 261,
+   "closed_detail": {
+    "cie-igcse-business-25": "198 -> 0",
+    "cie-igcse-economics-25": "43 -> 0",
+    "cie-igcse-economics-20": "20 -> 0"
+   },
+   "residual_61": "all on lanes whose notes did not grow (identical to the before-state rows); cs-19 grew +9 pages but its 1 dangling id is not among the new definitions — honest residual, no guess",
+   "class_a_no_declaration_parts": "1203 -> 1203 UNCHANGED (source-declaration gap, run-001 disposition stands)"
+  }
+ },
+ "sidecar_rekey": {
+  "method": "ADDITIVE only — the join law of record (resolve_spcpt T1_verbatim/T2_near) applied to NEW universe sids exclusively; existing items/codes byte-stable except pending->codes moves (existing codes win by official_id); all later-lane blocks preserved field-exact (review_state incl verdict/complete, anchors.rejoin/.verdict/.tranche2, registry)",
+  "new_sids_joined": 156,
+  "pending_refs_moved_to_codes": 232,
+  "new_sids_still_pending": 368,
+  "per_lane": {
+   "cie-a-level-computer-science-19": {"new_sids": 38, "joined": 0, "note_items_added": 9, "parts_touched": 0},
+   "cie-igcse-business-25": {"new_sids": 225, "joined": 50, "note_items_added": 65, "parts_touched": 158},
+   "cie-igcse-economics-20": {"new_sids": 37, "joined": 3, "note_items_added": 17, "parts_touched": 16},
+   "cie-igcse-economics-25": {"new_sids": 196, "joined": 103, "note_items_added": 84, "parts_touched": 26},
+   "cie-igcse-english-literature-21": {"new_sids": 28, "joined": 0, "note_items_added": 5, "parts_touched": 0}
+  }
+ },
+ "battery": "44-lane fail-closed reconciliation at the re-derived state: sidecar anchors.universe_ids == fresh index universe for every lane; zero removals; census cross-foot class-A 1203 exact",
+ "not_in_scope": "Edexcel lanes untouched; SME-ExamQuestion question plane untouched (topic.json zero delta); SME-Flashcards untouched; v2 consume is the next half of the lane (PIN/STAMP law)"
+}
