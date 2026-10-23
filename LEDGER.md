@@ -458,3 +458,14 @@ served bundle PR carries a full disclosure census.
   non-overlaps + routings recorded) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-7.
   Rights © Cambridge/UCLES/MAT/O&C per file; takedown law unchanged. Base commit 764ae1f9
   (syllabai-experimental).
+
+- **T-UGM-MODE1-7 amendment (this run)**: station-scope census correction — `coverage.stationBreakdown`
+  introducing-calculus `nonOverlap` 18 → **15**, aligning the per-station breakdown with the census of
+  record (32 recorded non-overlaps = 15 Introducing-Calculus + 17 Calculus-of-Powers per `nonOverlapRows`,
+  `stationScope.stations`, the PR #91 body and this LEDGER's T-UGM-MODE1-7 entry above). The 3
+  already-of-record Introducing-Calculus resources (r6592, r7912, problem-areas) had been bucketed as
+  station non-overlaps in the breakdown only; no row, body, mapping, or census of record changes —
+  74 aligned / 107 rows / 32 non-overlaps / 3 cross-lane joins / 106 files unchanged. Caught by the hub
+  importer's fail-closed stationScope↔stationBreakdown equality audit (T-UGM-HUB-CONSUME-7 pre-flight);
+  the corpus-side build audit checked the census aggregates but not the per-station sc↔bk equality the
+  importer enforces.
