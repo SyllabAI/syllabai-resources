@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.ms-link-overrides/0.1",
- "note": "Human-adjudicated MS answer linkage for STRUCTURED parts where the printed mark scheme's answer is not machine-linkable text. Every entry carries the eyeballed verbatim transcription of the printed answer block and the evidence it was decided from; the converter applies it BEFORE solution emission (fail-closed: only when positional linkage found nothing for the part, and never for MCQ parts — MCQ adjudication lives in MCQ-KEYS.json). Answers are decided from the printed MS page (rendered + viewed) — never from model guessing.",
+ "note": "Human-adjudicated MS answer linkage for STRUCTURED parts where the printed mark scheme's answer is not machine-linkable text. Every entry carries the eyeballed verbatim transcription of the printed answer block and the evidence it was decided from; the converter applies it BEFORE solution emission (fail-closed: only when positional linkage found nothing for the part, and never for MCQ parts — MCQ adjudication lives in MCQ-KEYS.json). Answers apply only with rendered-MS-page evidence recorded in the entry; under ADR-039 the equivalent in-place disclosed edit is lawful, the ledger stays the record for printed-MS-defect cases.",
  "adjudicated_utc": "2026-10-22",
  "evidence_dir": "wave-14 probe renders (EXAMQ_UPLOAD_DIR official-4CH1-1C-2019-06-ms.pdf page 6, answer cell + full page)",
  "entries": [
