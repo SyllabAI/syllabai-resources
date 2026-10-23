@@ -179,10 +179,29 @@ spine:
   - key: u1:c06
     slug: formulae-calculations-2
     title: Formulae and calculations (part 2)
-    chem_only: false
+    chem_only: true
     pages:
     - 64
     - 71
+    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
+    # chunk chem_v3_u1_c6_pdf073_0263 lists exactly TWO objectives, matched to
+    # the spine node igcse-chemistry-T1:SUBe (12 children 1.25-1.36C in
+    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law): 'amount of
+    # substance, volume and concentration (in mol/dm3) of solution' = 1.34C;
+    # 'gas volumes and the molar volume of a gas (24 dm3 and 24 000 cm3 at
+    # rtp)' = 1.35C. Pinned at S1 (T-BOOK-038 r0, 2026-10-23). This completes
+    # the SUBe split the c05 receipt pinned: part 1 = the ten non-suffixed
+    # points, part 2 = the two C-suffixed points. BOTH are C-suffixed
+    # (papers [2C] only, double_award_shared false per spine applicability)
+    # — hence chem_only: true for this chapter (the L0 census default false
+    # is superseded by the derived join-set evidence, disclosed in the
+    # receipt).
+    # learning_objective: VERBATIM from chunk chem_v3_u1_c6_pdf073_0263
+    # (two bullet items; bullet glyphs joined with ';'; the book's own
+    # mol/dm3 and 24 dm3 render with unicode superscripts per house style;
+    # no paraphrase)
+    learning_objective: "Understand how to carry out calculations involving amount of substance, volume and concentration (in mol/dm³) of solution; Understand how to carry out calculations involving gas volumes and the molar volume of a gas (24 dm³ and 24 000 cm³ at room temperature and pressure (rtp))"
+    join_set: ["1.34C", "1.35C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     widget_density: high
     section_count: 15
   - key: u1:c07

@@ -1,0 +1,79 @@
+# glossary — u1:c06 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: Avogadro's law
+  slug: avogadros-law
+  definition: "Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules, irrespective of the size of the molecules."
+  ms_accepts: ["equal volumes of gases at the same temperature and pressure contain equal numbers of molecules"]
+  ms_avoids: ["equal volumes contain equal masses", "equal volumes contain equal numbers of atoms (for molecular gases)"]
+  aliases: []
+  source: "chem_v3_u1_c6_pdf073_0265"
+- term: room temperature and pressure
+  slug: rtp
+  definition: "The conditions at which gas-volume calculations are quoted in this course: about 20-25 °C and 1 atmosphere pressure, abbreviated rtp."
+  ms_accepts: ["rtp", "room temperature and pressure (about 20-25 °C and 1 atm)"]
+  ms_avoids: ["0 °C (that is standard temperature, s.t.p.)", "any temperature and pressure"]
+  aliases: ["rtp"]
+  source: "chem_v3_u1_c6_pdf074_0271"
+- term: cubic decimetre
+  slug: cubic-decimetre
+  definition: "The volume unit 1 dm³ = 1000 cm³ = 1 litre. Gas molar volumes and solution concentrations are both quoted per dm³; convert cm³ to dm³ by dividing by 1000."
+  ms_accepts: ["1 dm³ = 1000 cm³", "1 dm³ is the same as 1 litre"]
+  ms_avoids: ["dm³ = m³", "1 dm³ = 100 cm³"]
+  aliases: ["dm3", "litre"]
+  source: "chem_v3_u1_c6_pdf074_0270"
+- term: molar volume
+  slug: molar-volume
+  definition: "The volume occupied by 1 mole of any gas: 24 dm³ (24 000 cm³) at rtp. The same for every gas, because equal moles hold equal numbers of molecules."
+  ms_accepts: ["24 dm³ (or 24 000 cm³) per mole at rtp", "volume of 1 mole of any gas at rtp"]
+  ms_avoids: ["a volume that depends on which gas it is", "24 dm³ at any temperature and pressure"]
+  aliases: ["volume of 1 mole of gas"]
+  source: "chem_v3_u1_c6_pdf074_0271"
+- term: excess
+  slug: excess
+  definition: "More than enough of a reactant to react with all of the other reactant; some is left over. 'Added to excess' means the other substance reacts completely."
+  ms_accepts: ["more than enough to react with all of the other reactant", "some left over after the reaction is complete"]
+  ms_avoids: ["extra catalyst", "the reactant that runs out first"]
+  aliases: ["in excess"]
+  source: "chem_v3_u1_c6_pdf075_0277"
+- term: concentration
+  slug: concentration
+  definition: "The amount of substance dissolved per dm³ of solution, in mol/dm³; or the mass per dm³, in g/dm³. Convert between them with Mᵣ: divide g/dm³ by Mᵣ, multiply mol/dm³ by Mᵣ."
+  ms_accepts: ["amount of solute per dm³ of solution", "moles per cubic decimetre"]
+  ms_avoids: ["per litre of solvent", "grams per 100 g of water"]
+  aliases: ["mol/dm³", "g/dm³"]
+  source: "chem_v3_u1_c6_pdf076_0283"
+- term: molarity
+  slug: molarity
+  definition: "The symbol M for concentration in mol/dm³: '2 M' hydrochloric acid means 2 mol/dm³, read as '2 molar'."
+  ms_accepts: ["M means mol/dm³", "2 M = 2 mol/dm³"]
+  ms_avoids: ["M means moles", "M means grams per litre"]
+  aliases: ["M", "molar"]
+  source: "chem_v3_u1_c6_pdf076_0281"
+- term: titration
+  slug: titration
+  definition: "A technique that measures exactly what volume of one solution reacts with a volume of another of known concentration, so an unknown concentration can be calculated."
+  ms_accepts: ["finding the reacting volumes of two solutions", "using a burette and pipette to find an unknown concentration"]
+  ms_avoids: ["heating to constant mass", "measuring gas volume"]
+  aliases: ["acid-alkali titration"]
+  source: "chem_v3_u1_c6_pdf079_0292"
+- term: burette
+  slug: burette
+  definition: "The long graduated tube with a tap that runs one titration solution into the other, delivering a variable measured volume (read to 0.05 cm³)."
+  ms_accepts: ["delivers variable measured volumes of solution", "run from it until the indicator changes colour"]
+  ms_avoids: ["measures a single fixed volume", "the flask the reaction happens in"]
+  aliases: []
+  source: "chem_v3_u1_c6_pdf079_0292"
+- term: pipette
+  slug: pipette
+  definition: "The calibrated tube that measures one accurate fixed volume of solution (e.g. 25.0 cm³ of alkali) into the conical flask before titrating."
+  ms_accepts: ["measures a fixed volume accurately", "transfers the alkali into the conical flask"]
+  ms_avoids: ["delivers a variable volume", "an instrument for heating"]
+  aliases: []
+  source: "chem_v3_u1_c6_pdf079_0292"
+- term: endpoint
+  slug: endpoint
+  definition: "The point in a titration at which the indicator just changes colour — the reaction is just complete. Approached by running the burette solution in drop by drop."
+  ms_accepts: ["when the indicator just changes colour", "the reaction is just complete"]
+  ms_avoids: ["when the volumes are equal", "when the colour changes permanently to pink for every indicator"]
+  aliases: ["end point"]
+  source: "chem_v3_u1_c6_pdf079_0292"
