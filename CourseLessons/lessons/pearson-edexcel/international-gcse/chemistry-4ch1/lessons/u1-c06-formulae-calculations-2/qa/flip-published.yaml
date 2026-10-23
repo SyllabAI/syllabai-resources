@@ -1,10 +1,10 @@
-# law-7 flip receipt — u1:c06 Formulae and calculations (part 2)
-command: 'go c06 (Formulae and calculations part 2, pp. 64–71 — 15 sections) to open Unit-1-rest (trace 1a167b943eeacae5; standing merge+flip authorization trace 1a1658a2da08e5bd)'
-executed_at: '2026-10-23T09:17:06Z'
-head_at_flip: 6079b0c0
-agent: "T-BOOK-038/flip r0 (session web-c414c074 chat 08b3170a)"
-edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 48065 -> 48069 bytes, +4; sha256 89c58e462e9204ef -> ab62a9a2464679b6)'
-pack_identity: '15 sections; sources sha-pinned (bookOfRecord d48020e0..., parseOfRecord b2c67eaf...); paperRoute=chemistry-only (join_set 1.34C + 1.35C, both C-suffixed)'
-post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + byte-level wikilink scan 12 chips / 15 sections / 0 unresolved'
-tracker_transaction: 'law-10 via lessonctl tracker: pack_status=published, last_receipt=qa/flip-published.yaml, lesson.yaml receipts mirror append; TRACKER.md board row 6 -> PUBLISHED + Unit-1-rest row updated in the same commit'
-next: 'v2 bake lane fires next in syllabai-v2 (import_lesson_packs.py fetch-first, SYLLABAI_PAT env-only; c06 FIRST bake, c01-c05 byte-identical expected, lessons-index 5->6 additive) — merge = the git-connected hub auto-bake: the u1:c06 Lesson toggle + shelf entry go live at the production origin of record syllabai-hub-v2.vercel.app (T-C20 published-only serving; battery scripts/tc20-battery.mjs --expect-packs 6)'
+# law-7 flip receipt (r1) — u1-c06-formulae-calculations-2 Formulae and calculations (part 2) standalone-voice retrofit
+command: 'operator style directive "100% book replacement — no book-attribution voice" (trace 1a168b88e0391dfd) — r1 flip of the retrofitted pack under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-23T14:56:28Z'
+head_at_flip: b1b68b7
+agent: "T-BOOK-039/voice-retrofit r1 (session web-c414c074 chat 08b3170a, trace 1a1691b51de3f355)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 45560 -> 45564 bytes, +4; sha256 67a8eafe... -> 873bff35...)'
+pack_identity: '15 sections; sources sha-pinned (bookOfRecord edexcel-..., parseOfRecord parsed/e...); paperRoute=chemistry-only (join_set 1.34C,1.35C); r1 = voice-only retrofit, substance identical, finding f-0014 + lesson-prose@2.0.0'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + residual standalone-voice scan 0 hits across all 15 section bodies (census classes: attribution voice, figure/table/page citations, QA leakage, PDF-deflection)'
+tracker_transaction: 'law-10 tx rides with the wave tracker commit (six-pack retrofit tx: board rows -> PUBLISHED r1 + notes mirror)'
+next: 'v2 bake lane fires after the wave merge (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c01-c06 r1 + c07 r1 re-bake together, lessons-index additive) — merge = the git-connected hub auto-bake at the production origin of record syllabai-hub-v2.vercel.app (T-C20 battery --expect-packs 7 re-run at the bake gate)'
