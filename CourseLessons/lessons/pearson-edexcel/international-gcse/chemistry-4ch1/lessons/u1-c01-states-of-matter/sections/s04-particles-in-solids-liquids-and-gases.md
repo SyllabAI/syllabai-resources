@@ -9,8 +9,8 @@ glossary: [kinetic-energy]
 authored: true
 ---
 
-Figure 1.4 of the book draws the particle pictures for all three states,
-and the text around it gives you the exact descriptions to memorise. In a
+Here are the particle pictures for all three states, with the exact
+descriptions to memorise. In a
 **solid**, the particles are usually arranged regularly and packed closely
 together. They can only vibrate about fixed positions — they cannot move
 around — because strong forces of attraction hold them together.
@@ -36,8 +36,8 @@ solid < liquid < gas.
 :::
 
 :::misconception
-"There are no forces at all between gas particles." Almost — the book says
-*(almost)* no forces. Very weak attractions do exist; they are what let a
+"There are no forces at all between gas particles." Almost — *almost* no
+forces. Very weak attractions do exist; they are what let a
 gas condense to a liquid when it is cooled enough.
 :::
 
@@ -50,7 +50,7 @@ vague to score.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.1 × 2 items — draw/describe
+Question-bank join: spec 1.1 × 2 items — draw/describe
 the three particle arrangements; compare kinetic energies. spec 1.2 × 1
 item linking gaps to density on melting.
 :::

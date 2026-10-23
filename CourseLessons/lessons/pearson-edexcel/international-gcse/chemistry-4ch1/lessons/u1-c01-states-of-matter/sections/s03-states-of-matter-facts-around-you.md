@@ -9,8 +9,8 @@ glossary: [particle-model]
 authored: true
 ---
 
-Try these three facts on for size (the book's own "think about these
-facts" opener):
+Try these three facts on for size — three everyday observations that the
+particle model has to explain:
 
 - You can't walk through a brick wall, but you *can* move — with some
   resistance, it pushes back against you — through water in a swimming
@@ -58,7 +58,7 @@ are **mostly touching** their neighbours (the packing need not be regular
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.1 × 2 items — one on
+Question-bank join: spec 1.1 × 2 items — one on
 explaining "why can you walk through air but not a wall" in particle terms,
 one on particle diagrams for the three states.
 :::

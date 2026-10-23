@@ -12,14 +12,14 @@ authored: true
 Carbon dioxide is the poster child for [[sublimation]]. At ordinary
 pressures there is **no such thing as liquid carbon dioxide** — the solid
 turns directly into a gas at **−78.5 °C**, well below [[room-temperature]].
-Solid carbon dioxide is known as **dry ice**, and Figure 1.11 of the book
-uses it as a source of gas particles: an ammonia particle shown bouncing
-off air particles — a hint of what diffusion is all about, which is where
-we go next (§s09).
+Solid carbon dioxide is known as **dry ice**, and it doubles as a handy
+source of gas particles: let an ammonia particle bounce off air particles
+and you have a hint of what diffusion is all about, which is where we go
+next (§s09).
 
-This section is short by design: the printed heading in the book is
-"Diffusion in gases", but the text itself is the dry-ice story that closes
-out the changes of state. Master it, then follow us into diffusion.
+This section is short by design: a dry-ice story that closes out the
+changes of state before the move into diffusion. Master it, then follow us
+into diffusion.
 
 :::key-point
 At ordinary pressures carbon dioxide sublimes at −78.5 °C — solid dry ice
@@ -40,6 +40,6 @@ using melting/sublimation temperatures in a second part.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.2 × 2 items — sublimation
+Question-bank join: spec 1.2 × 2 items — sublimation
 temperature of CO₂; state of CO₂ at a given temperature.
 :::

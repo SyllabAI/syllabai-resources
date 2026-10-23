@@ -9,8 +9,8 @@ glossary: [particle-model]
 authored: true
 ---
 
-**CHEMISTRY ONLY.** The book's worked example uses potassium chloride,
-with solubilities measured at five temperatures:
+**CHEMISTRY ONLY.** This worked example uses potassium chloride, with
+solubilities measured at five temperatures:
 
 | Temperature/°C | 10 | 30 | 40 | 70 | 90 |
 | --- | --- | --- | --- | --- | --- |
@@ -39,9 +39,7 @@ saturated and crystals form. (In different circumstances you might need to
 read the 10 °C value from the graph as well — for example, cooling to
 10 °C leaves 31.2 g dissolved, so 51.0 − 31.2 = 19.8 g of crystals form.)
 
-The chapter questions for this book section are on pp. 12–13 (including
-the sodium chlorate plotting question) — they stay in the book; this
-lesson's practice is wired to the question bank below.
+This lesson's practice is wired to the question bank below.
 
 :::worked-example
 The three readings above — 42.5 g per 100 g at 50 °C; 20 g in 50 g of
@@ -71,10 +69,9 @@ of water") loses marks.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.6C × 3 items — read
-solubility at a temperature; scale to a non-100 g solvent mass; find the
-crystallisation temperature. Book pp. 12–13 chapter questions → page
-jump only (licensing law).
+
+Question-bank join: spec 1.6C × 3 items — read solubility at a temperature;
+scale to a non-100 g solvent mass; find the crystallisation temperature.
 :::
 
 :::summary

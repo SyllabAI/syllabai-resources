@@ -27,8 +27,8 @@ time.
 Some substances skip the liquid stage entirely. A small number can change
 directly from solid to gas — or gas to solid — at normal pressure. Solid
 to gas is **[[sublimation]]**; gas to solid is usually called
-**[[deposition]]**. The book's photo shows dry ice — solid carbon dioxide
-— subliming in a beaker: the white cloud is *not* carbon dioxide (which is
+**[[deposition]]**. Dry ice — solid carbon dioxide — subliming in a
+beaker makes the point vividly: the white cloud is *not* carbon dioxide (which is
 an invisible gas); it forms because the CO₂ gas is so cold that it makes
 water vapour in the air condense.
 
@@ -61,7 +61,7 @@ escape from the liquid*. Avoid answers that claim the puddle boils.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.2 × 3 items — evaporation
+Question-bank join: spec 1.2 × 3 items — evaporation
 vs boiling; closed-container evaporation + condensation; naming
 sublimation/deposition.
 :::

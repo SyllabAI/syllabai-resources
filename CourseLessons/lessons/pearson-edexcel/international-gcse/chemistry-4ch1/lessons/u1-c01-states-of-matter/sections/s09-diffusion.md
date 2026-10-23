@@ -24,9 +24,9 @@ where they are at a **high [[concentration]]** (lots of them in a certain
 volume) to where they are at a **low concentration** (fewer in that
 volume), ending with particles spread out evenly.
 
-The book demonstrates diffusion twice:
+Two classic experiments demonstrate diffusion:
 
-1. **Bromine and air** (Figure 1.13): a lower gas jar holds brown bromine
+1. **Bromine and air**: a lower gas jar holds brown bromine
    gas; the upper jar holds air. Remove the lids and the brown colour
    diffuses upwards until *both* jars are uniformly brown — air particles
    diffuse downwards at the same time. Random movement gives an even
@@ -78,7 +78,7 @@ teleology like "ammonia wants to travel further".
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.3 × 4 items — define
+Question-bank join: spec 1.3 × 4 items — define
 diffusion; explain the bromine jar result; the NH₃/HCl ring position;
 predict the ring position with HBr.
 :::

@@ -58,7 +58,7 @@ gas→liquid = condensing. Mark schemes accept both spellings/gerunds
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.2 × 3 items — name the four
+Question-bank join: spec 1.2 × 3 items — name the four
 interconversions; explain why melting point and freezing point coincide;
 contrast evaporation and boiling in particle terms.
 :::

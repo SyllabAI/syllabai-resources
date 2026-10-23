@@ -17,9 +17,9 @@ the colour to spread through all the water. Two reasons, straight from the
 in a gas, and they are much closer together — so there is less space to
 move into without colliding with another particle.
 
-The book then uses this coloured solution for one of the most beautiful
-estimates in the whole course — estimating an upper limit on the mass of a
-single particle:
+This coloured solution then powers one of the most beautiful estimates in
+the whole course — estimating an upper limit on the mass of a single
+particle:
 
 1. Dissolve **0.01 g** of potassium manganate(VII) in **1 cm³** of water —
    a deep purple [[solution]].
@@ -83,7 +83,7 @@ in Fermi-estimate reasoning (upper bounds from visible evidence).
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.3 × 3 items — why liquid
+Question-bank join: spec 1.3 × 3 items — why liquid
 diffusion is slow; the dilution-estimate logic; what the estimate proves
 about particle size.
 :::
