@@ -12,8 +12,7 @@ authored: true
 Atoms are made of **[[proton]]s**, **[[neutron]]s** and **[[electron]]s** — particles
 smaller than an atom — hence the name **sub-atomic
 particles**. The protons and neutrons sit together in the **[[nucleus]]**
-at the centre of the atom (Figure 3.4 shows a helium atom, nucleus
-magnified); the electrons occupy the space around it.
+at the centre of the atom; the electrons occupy the space around it.
 
 How small is the nucleus really? Scale a helium
 atom up to the size of a sports hall and the nucleus would be no more than
