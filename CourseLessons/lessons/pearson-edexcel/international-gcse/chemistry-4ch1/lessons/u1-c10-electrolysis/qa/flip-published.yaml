@@ -1,0 +1,11 @@
+# law-7 flip receipt (r0) — u1:c10 Electrolysis
+command: 'operator lane order "Proceed c10 Electrolysis (pages 101-109)" (trace 1a16ae3f1ebf42a5) — flip of the freshly authored pack under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-23T22:59:37Z'
+head_at_flip: f1786a7e
+agent: "T-BOOK-042/flip r0 (session web-c414c074 chat 08b3170a)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 63256 -> 63260 bytes, +4; sha256 817548a3... -> 97b9f337...)'
+pack_identity: '10 sections; sources sha-pinned in course.yaml (bookOfRecord + parseOfRecord, course-level pins of record); paperRoute=chemistry-only (join_set 1.55C/1.56C/1.57C/1.58C/1.59C/1.60C, ALL SIX C-suffixed, papers [2C], double_award_shared false — the course's THIRD chemistry-only pack: c06 join_set 1.34C+1.35C first, c09 join_set 1.52C-1.54C second, sibling-audited at S0-L0 per f-0015 law); r0 = authored under lesson-prose@2.0.0 standalone voice from first draft, no retrofit debt'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + chip audit 40 chips / 10 sections / 0 unresolved + voice audit 0 hits'
+parse_artifact: 'f-0016 (content, warn, CLOSED in-lane): objectives chunk 0405 carries 7 raw bullet fragments for 6 logical objectives — 1.58C split by column interleave + OCR-garbled middle segment; reassembly law = spine titles authoritative (5/7 verbatim, split pair covered by spine 1.58C text); course.yaml learning_objective pins 5 verbatim + spine-canonical 1.58C; verifier scripts/verify_c10_s0.py encodes the 7->6 cover check'
+tracker_transaction: 'law-10 via lessonctl tracker: pack_status=published, last_receipt=qa/flip-published.yaml; TRACKER.md header line + board row 10 + Unit-1-rest phase row updated in the tx commit (c10 PUBLISHED closes Unit-1-rest)'
+next: 'v2 bake lane fires next in syllabai-v2 (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c10 bake; c01-c09 byte-identical expected, lessons-index 9->10 additive) — merge = the git-connected hub auto-bake: the u1:c10 Lesson toggle + shelf entry go live at the production origin of record syllabai-hub-v2.vercel.app (battery scripts/tc20-battery.mjs --expect-packs 10 in the bake lane gates)'
