@@ -22,8 +22,8 @@ when the position is borderline (spec 1.20).
 Two footnotes, both worth knowing. First,
 the **lanthanoids and actinoids** — the two detached rows at the bottom
 of the table — belong to the metal side; most of the actinoids are
-unstable and undergo radioactive decay, as §s02 noted. Second, the book
-flags the great misfit: **hydrogen**. It has 1 electron in its outer
+unstable and undergo radioactive decay, as §s02 noted. Second, the great
+misfit: **hydrogen**. It has 1 electron in its outer
 shell, and it sits at the top of Group 1's column on almost every chart
 — but it is **not** a Group 1 element in behaviour, because it "does not
 have similar properties to the other elements in Group 1: it is not a
