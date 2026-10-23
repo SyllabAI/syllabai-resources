@@ -211,6 +211,23 @@ spine:
     pages:
     - 75
     - 83
+    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
+    # chunks chem_v3_u1_c7_pdf084_0302 + chem_v3_u1_c7_pdf084_0304 list exactly
+    # SEVEN objectives, matched to the spine node igcse-chemistry-T1:SUBf (7
+    # children 1.37-1.43 in apps/hub/spines/igcse-chemistry-19.json,
+    # resourcesSha law). The chunker swept the last four objective bullets
+    # into the HINT chunk 0304 after the ammonium-exception hint — the union
+    # of 0302 + 0304's objective bullets maps one-to-one onto the seven
+    # children and no others (c02 multi-chunk objectives precedent). Pinned
+    # at S1 (T-BOOK-039 r0, 2026-10-23). ALL SEVEN are non-suffixed
+    # (papers [1C, 2C], double_award_shared true per spine applicability)
+    # — chem_only: false confirmed (L0 census default upheld by evidence).
+    # learning_objective: VERBATIM union of 0302 + 0304's objective bullets
+    # in printed order (margin items; bullet glyphs joined with ';'; the
+    # charges bullet's sub-bullets joined inline after its ':' lead; unicode
+    # ion charges per house style; no paraphrase)
+    learning_objective: "Understand how ions are formed by electron loss or gain; Know the charges of these ions: metals in Groups 1, 2 and 3; non-metals in Groups 5, 6 and 7; Ag⁺, Cu²⁺, Fe²⁺, Fe³⁺, Pb²⁺, Zn²⁺; hydrogen (H⁺), hydroxide (OH⁻), ammonium (NH₄⁺), carbonate (CO₃²⁻), nitrate (NO₃⁻), sulfate (SO₄²⁻); Write formulae for compounds formed between the ions listed above; Draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer, limited to combinations of elements from Groups 1, 2, 3, 5, 6 and 7 (only outer electrons need be shown); Understand ionic bonding in terms of electrostatic attractions; Understand why compounds with giant ionic lattices have high melting and boiling points; Know that ionic compounds do not conduct electricity when solid, but do conduct electricity when molten and in aqueous solution"
+    join_set: ["1.37", "1.38", "1.39", "1.40", "1.41", "1.42", "1.43"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 15
   - key: u1:c08
     slug: covalent-bonding
