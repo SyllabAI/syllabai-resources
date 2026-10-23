@@ -3,7 +3,7 @@ note_id: "rn_8g4ystBwKpRtkgQs"
 title: "The War of the Worlds: Writer's Methods & Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-writers-methods-and-techniques
 path: 1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-writers-methods-and-techniques
-updated_at: "2026-10-11T10:18:58.509Z"
+updated_at: "2026-10-21T12:41:00.301Z"
 spec_point_ids: ["spcpt_MqYs9xxKwqpD5RZH", "spcpt_KNd7FDDk8VM92Zvh", "spcpt_XwDDXk95ryKsCBy2", "spcpt_YH8QCVSmcpXqSGCV"]
 spec_point_codes: []
 guided_study: false
@@ -93,6 +93,6 @@ Examiners expect you to comment on the language, structure and form of the text.
 > **Exam Hint**
 > When writing about the novel, it is important to remember aspects of its structure and form as well as language. You could write about the order of key events, or the decision Wells made to use a first-person narrator. This type of analysis will show the examiner that you are considering – and analysing – different aspects of the story and how it has been constructed.
 
-#### Sources
+### Sources
 
 Wells, H. G. (2005). *The War of the Worlds*. Penguin Classics.

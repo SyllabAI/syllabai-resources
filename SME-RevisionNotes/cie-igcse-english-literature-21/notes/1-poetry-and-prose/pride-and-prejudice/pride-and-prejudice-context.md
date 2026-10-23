@@ -3,7 +3,7 @@ note_id: "rn_yXkHtmCBvm3XdxsJ"
 title: "Pride and Prejudice: Context"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-context
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-context
-updated_at: "2026-09-07T09:06:35.006Z"
+updated_at: "2026-10-21T12:41:02.438Z"
 spec_point_ids: ["spcpt_5ttdDwQCT7rJSWcD", "spcpt_ncDVgMq48JVjC8cX", "spcpt_sNp9q6Hr7qmqHWKy"]
 spec_point_codes: []
 guided_study: false
@@ -117,6 +117,6 @@ The novel was published in 1813 and is set during the Regency period, a period m
 |---|---|
 | **Realism** | Characters’ discussions about dowries, inheritance and financial stability reflect the economic limits of Austen’s era and the issues related to marriage and future security. The novel explores a range of moral dilemmas and choices faced by characters. Their struggles with pride, prejudice and personal growth contribute to a realistic portrayal of human nature and the complexities of relationships. Through the characters and their interactions, Austen explores the complexities of human behaviour. |
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

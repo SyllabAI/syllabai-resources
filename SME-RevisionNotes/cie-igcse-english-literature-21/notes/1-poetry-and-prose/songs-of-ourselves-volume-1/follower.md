@@ -3,7 +3,7 @@ note_id: "rn_FysV9sW2QWVqDMMM"
 title: "Follower"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/follower
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/follower
-updated_at: "2026-10-11T10:19:20.694Z"
+updated_at: "2026-10-21T12:40:45.633Z"
 spec_point_ids: ["spcpt_4tT2fvYYVhZXsSWY", "spcpt_vvzwW8dbGSYzqMJS", "spcpt_W4xk4hHNX48cqTff"]
 spec_point_codes: []
 guided_study: false
@@ -242,7 +242,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 [https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf](https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf).
 “From defeat to resilience: The human cockroach in world literature after Kafka.” SAV, [https://www.sav.sk/journals/uploads/07041131Arnds_separat.pdf](https://www.sav.sk/journals/uploads/07041131Arnds_separat.pdf). Accessed 21 August 2025.

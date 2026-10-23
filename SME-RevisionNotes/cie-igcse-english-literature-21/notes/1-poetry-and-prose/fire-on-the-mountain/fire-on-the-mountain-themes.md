@@ -3,7 +3,7 @@ note_id: "rn_VKD5kGkyYpw3MKnd"
 title: "Fire on the Mountain: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-themes
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-themes
-updated_at: "2026-10-11T11:20:46.190Z"
+updated_at: "2026-10-21T12:40:36.995Z"
 spec_point_ids: ["spcpt_ShSRH4qT54GCjc8v", "spcpt_V5fwV9jXxDGjNBWp", "spcpt_C2RcWrTPZxzMCngb", "spcpt_RR6ngrFmVSB3MMF3"]
 spec_point_codes: []
 guided_study: false
@@ -39,7 +39,7 @@ Throughout the novel, Desai shows how her characters deal with and feel about be
 
 However, it could be argued that Ila, Raka and Nanda have found themselves alone, by choice or not, due to the trauma in their lives.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The narrative starts with Nanda angry that her peace and quiet may be broken by the approaching postman:
 
@@ -113,7 +113,7 @@ Many of the characters in the novel have trauma that is still affecting their da
 
 The novel is not one of major events and dramatic twists and turns, but a character examination that slowly reveals the people we are following as we read. Gradually, Desai explores and shows how trauma changes people, and how different people approach it.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The trauma of Nanda, Ila and Raka is teased out in the narrative:
 
@@ -179,7 +179,7 @@ The novel is not one of major events and dramatic twists and turns, but a charac
 
 The three principal characters of Fire on the Mountain are all — in different ways — insulated from hardship because of their privilege. However, Desai also shows how the upper classes’ ignorance of poverty, and attachment to old *colonial* customs, can be psychologically harmful, even fatal.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - Of the four named and notable characters in Fire on the Mountain, three have had lives of privilege, while Ram Lal still holds the principles of serving the higher classes:
 
@@ -249,7 +249,7 @@ Ram Lal’s continued use of language expected under the *British Raj* is used b
 
 Nanda, Ila and Raka are changed people due to the impact of traditional, patriarchal systems and views. Desai shows us how all have been affected by showing us how traditional gender roles, and the power given to men over women at the time, impact their lives profoundly.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - Nanda’s whole life was defined by her marriage and the expectations of a woman to be a wife and mother:
 
@@ -304,6 +304,6 @@ Nanda, Ila and Raka are changed people due to the impact of traditional, patriar
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

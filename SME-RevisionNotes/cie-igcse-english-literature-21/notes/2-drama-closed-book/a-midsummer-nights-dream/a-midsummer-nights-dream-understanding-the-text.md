@@ -3,7 +3,7 @@ note_id: "rn_gFzWQ6JMrSnY4h6N"
 title: "A Midsummer Night's Dream: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-understanding-the-text
 path: 2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-understanding-the-text
-updated_at: "2026-10-11T11:21:00.071Z"
+updated_at: "2026-10-21T12:40:35.634Z"
 spec_point_ids: ["spcpt_kFv9P4KJfZvf2Bz8", "spcpt_cvbfycPtsB2N2586", "spcpt_pyfyJkvKKSjH3yB8", "spcpt_M3wH39xB4vXH97nm", "spcpt_hhsbW5xM8QfZF5k7"]
 spec_point_codes: []
 guided_study: false
@@ -149,6 +149,6 @@ For I must now to Oberon”
 
   - The audience anticipates the consequences of this magical intervention, heightening the element of surprise and amusement
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

@@ -3,7 +3,7 @@ note_id: "rn_Ff5RzzNdrrVFtt3n"
 title: "Pride and Prejudice: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-plot-summary
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-plot-summary
-updated_at: "2026-09-25T09:46:34.172Z"
+updated_at: "2026-10-21T12:40:40.000Z"
 spec_point_ids: ["spcpt_8BMyZp9qHqYy4Mkb", "spcpt_xR46qrK7qcwQZyjr", "spcpt_jDZBq6qcqsPcqvFC", "spcpt_NdBMzwKgcV4vgXfT"]
 spec_point_codes: []
 guided_study: false
@@ -208,6 +208,6 @@ Mr Wickham and Lydia leave Longbourn and Mr Bingley makes a surprise return to N
 - Kitty matures as she spends more time with her older two sisters
 - Lydia and Wickham’s marriage is unsuccessful and they ask her family for money regularly
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

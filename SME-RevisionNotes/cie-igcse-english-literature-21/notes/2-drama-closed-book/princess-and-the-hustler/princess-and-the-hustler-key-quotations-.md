@@ -3,7 +3,7 @@ note_id: "rn_Cd9wrqXbKyqvVYB2"
 title: "Princess and the Hustler: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-key-quotations-
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-key-quotations-
-updated_at: "2026-09-22T08:15:10.317Z"
+updated_at: "2026-10-21T12:40:30.256Z"
 spec_point_ids: ["spcpt_x6GWxTb3Xgtr9gpq", "spcpt_GzzKCzdcSHRg5wXP", "spcpt_p2sXnpG6Ff7dWswy", "spcpt_vX65BsFpXyqJZqcT", "spcpt_7jhNpMTQV2HHVp6r"]
 spec_point_codes: []
 guided_study: false
@@ -134,7 +134,7 @@ Having an extensive knowledge and understanding of the play will mean that you a
 
   - The act of taking the picture could represent a desire to make permanent this version of his family
 
-#### Paired quotations:
+#### Paired quotations
 
 > **blockquote**
 > **“[Mavis] holds [Princess] tighter than she’s ever held her before” **— Stage direction, Act 2, Scene 3
@@ -160,7 +160,7 @@ Having an extensive knowledge and understanding of the play will mean that you a
 
 ![Symbol for hope and ambition: a silhouetted figure climbing a dark peak towards a gold star, against a bright blue sky.](../../../assets/31a6543c803a-24895-hope-and-ambition.png)
 
-### Paired quotations:
+### Paired quotations
 
 > **blockquote**
 > *‘***“My crown invisible but it there…”** — Mavis, Act 3, Scene 5
@@ -246,6 +246,6 @@ Having an extensive knowledge and understanding of the play will mean that you a
   - The [juxtaposition](https://www.savemyexams.com/glossary/gcse/english-language/juxtaposition-definition/)** **of “battle” and “victory” *vindicates*** **the family’s efforts in struggling for justice for black workers
 - The call-and-response nature of this quotation, with Mavis saying the line first, and her family repeating it back, illustrates how the protest has unified them
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

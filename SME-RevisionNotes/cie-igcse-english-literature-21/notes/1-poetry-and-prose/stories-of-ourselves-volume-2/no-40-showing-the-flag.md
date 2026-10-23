@@ -3,7 +3,7 @@ note_id: "rn_BzxHs7yzkJntWVXC"
 title: "No.40 Showing the Flag"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-40-showing-the-flag
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-40-showing-the-flag
-updated_at: "2026-10-11T10:19:09.696Z"
+updated_at: "2026-10-21T12:40:41.652Z"
 spec_point_ids: ["spcpt_f5JtCHcThpW5rwhN", "spcpt_p4QbcpswrpYBdSgV", "spcpt_qvmnxqs9GRJJR4hh", "spcpt_Vx3fs49hF7NtKMHQ", "spcpt_WgP8CCWwvJ7rgwQh"]
 spec_point_codes: []
 guided_study: false
@@ -189,6 +189,6 @@ The best way to revise quotations is in connection to a theme. Below you will fi
 - Gardam’s sympathetic portrayal of Philip reveals the complexities of growing up and finding independence
 - **Ironically**, Philip looks to children’s adventure stories as inspiration for how to manage as an adult in his new life alone
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

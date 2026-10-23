@@ -3,7 +3,7 @@ note_id: "rn_7BZFdfJGbvp35Jmr"
 title: "He Never Expected Much"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/he-never-expected-much
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/he-never-expected-much
-updated_at: "2026-10-11T10:47:20.334Z"
+updated_at: "2026-10-21T12:41:41.903Z"
 spec_point_ids: ["spcpt_2btp9YsH3PhBZ7t6", "spcpt_8DNRRQP5N4GzzjC4", "spcpt_bQdPhTvDmv9CD7Xx", "spcpt_pjPzRYvBKHN7TJxQ"]
 spec_point_codes: []
 guided_study: false
@@ -265,6 +265,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
 
   - The speaker in the poem has accepted this and has therefore lived a life with stoic optimism
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

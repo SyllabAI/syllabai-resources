@@ -3,7 +3,7 @@ note_id: "rn_4PY6VPwnpcDt7cVf"
 title: "No.30 The Gold Watch"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-30-the-gold-watch
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-30-the-gold-watch
-updated_at: "2026-10-11T10:18:42.163Z"
+updated_at: "2026-10-21T12:40:42.405Z"
 spec_point_ids: ["spcpt_dpHMKKchj7bGtTKS", "spcpt_ymSWwcQDkRwVt6Fx", "spcpt_f3Svx2tXtYt2JqFB", "spcpt_2CcW2bJB9nhxV9nF", "spcpt_xzbb66drpkMsJt2g"]
 spec_point_codes: []
 guided_study: false
@@ -190,7 +190,7 @@ Anand highlights the impact of *exploitative* attitudes on a *marginalised* Indi
 - The sad ending suggests an obscure and meaningless future for Sharma
 - The [irony](https://www.savemyexams.com/glossary/gcse/english-language/irony-definition/) of the redundant retirement gift illustrates the lack of care and interest offered to the company’s employees
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.
 

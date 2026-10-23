@@ -3,7 +3,7 @@ note_id: "rn_pX2W8h8sY5Pc4z7j"
 title: "The Chimney-Sweeper"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/the-chimney-sweeper
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/the-chimney-sweeper
-updated_at: "2026-10-11T10:21:00.311Z"
+updated_at: "2026-10-21T12:40:46.556Z"
 spec_point_ids: ["spcpt_4RSbxpJZy4rNR5SP", "spcpt_BGYf8wN2BYZ5rM9g", "spcpt_57k26BhgZYDjnD9q"]
 spec_point_codes: []
 guided_study: false
@@ -237,7 +237,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 “Cambridge IGCSE (9–1) 0992 Literature in English syllabus for examination in 2026.” Cambridge International Education, [https://www.cambridgeinternational.org/Images/697264-2026-syllabus.pdf](https://www.cambridgeinternational.org/Images/697264-2026-syllabus.pdf). Accessed 6 August 2025.
 

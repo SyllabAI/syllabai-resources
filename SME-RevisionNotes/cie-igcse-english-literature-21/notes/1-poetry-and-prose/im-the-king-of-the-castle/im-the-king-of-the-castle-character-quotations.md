@@ -3,7 +3,7 @@ note_id: "rn_YskY9YQ77CxXysJH"
 title: "I'm the King of the Castle: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-character-quotations
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-character-quotations
-updated_at: "2026-10-11T10:48:04.013Z"
+updated_at: "2026-10-21T12:40:37.229Z"
 spec_point_ids: ["spcpt_pfcptbv5SYBr42mf", "spcpt_pjZQzdDP8nS7D9d8", "spcpt_TyPq8hVQ9JYcWh6h", "spcpt_N2Q7Gz4Bj5TVfpzC", "spcpt_BbDW9BpXKvPNv93X"]
 spec_point_codes: []
 guided_study: false
@@ -185,6 +185,6 @@ Here we will examine some important quotations from the following key characters
 | “not frightened” | This is Fielding talking to Edmund when he is invited over to tea by Mrs Kingshaw, and Edmund threatens to show him something that will frighten him. It reveals Edmund’s inexperience as a bully in thinking every other boy will be as easy to torment as Charles | Childhood cruelty and fear |
 | - Edmund is just as startled by Fielding’s personality as Charles is:<br><br>  - “He had not yet got the measure of Fielding, had not met anyone so honest about himself and able to say and do anything at all”<br>- It shows the “bubble” Edmund and Charles are living in at Warings, in which Edmund could see endless opportunities for bullying and Charles could see endless opportunities for being bullied<br>- Although Charles can admire Fielding’s personality, it is perhaps his understanding that he can never be like that himself that contributes to the fatalistic attitude that leads to his suicide |   |   |
 
-#### Sources
+### Sources
 
 Hill, S. (1970) I’m the King of the Castle. 1989 edn. Penguin.

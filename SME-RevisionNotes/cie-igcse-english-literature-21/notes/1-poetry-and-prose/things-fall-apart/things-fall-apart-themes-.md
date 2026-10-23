@@ -3,7 +3,7 @@ note_id: "rn_JQMRGwDgXwHzk6Mq"
 title: "Things Fall Apart: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/things-fall-apart/things-fall-apart-themes-
 path: 1-poetry-and-prose/things-fall-apart/things-fall-apart-themes-
-updated_at: "2026-10-11T10:19:28.529Z"
+updated_at: "2026-10-21T12:40:43.839Z"
 spec_point_ids: ["spcpt_M7DtjTzDD9hZKnhR", "spcpt_StsdfHcnf9QPtt5K", "spcpt_QP2FBg3bBcpyPK6Q", "spcpt_7VzGMWz6NJsFkpPS"]
 spec_point_codes: []
 guided_study: false
@@ -32,7 +32,7 @@ Here you will find sections on:
 
 Set in *pre-colonial* Nigeria, Things Fall Apart examines *Igbo* culture, as well as the pressure placed upon it by the influence of British culture. Achebe portrays the challenges encountered by villagers who attempt to maintain their identity amid cultural change.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The story describes **Igbo** marital customs, funeral ceremonies, and festivals, such as the Week of Peace, by relating events in a community called Umuofia:
 
@@ -65,7 +65,7 @@ Set in *pre-colonial* Nigeria, Things Fall Apart examines *Igbo* culture, as wel
 
 Chinua Achebe’s novel presents the danger of traditional viewpoints that become rigid and intolerant. In particular, the novel illustrates how extreme *patriarchal* viewpoints can create conflict and barriers in a community.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The novel highlights *patriarchal* **Igbo** traditions at the time:
 
@@ -100,7 +100,7 @@ Chinua Achebe’s novel presents the danger of traditional viewpoints that becom
 
 Chinua Achebe’s tragedy considers the universal struggle of exerting one’s *autonomy* against external pressures. The novel illustrates **Igbo** beliefs regarding personal destiny, but the tragic ending portrays a [protagonist](https://www.savemyexams.com/glossary/gcse/english-literature/protagonist-definition/)<u>** **</u>whose lack of personal accountability, accompanied by forces beyond his control, leads to his downfall.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The novel highlights **Igbo** spiritual beliefs, such as the idea of the *chi*, which relates to the destiny into which a child is born
 - However, the **Igbo** people believe in free will: blaming fate is discouraged, as it’s believed to invite misfortune:
@@ -129,7 +129,7 @@ Chinua Achebe’s tragedy considers the universal struggle of exerting one’s *
 
 Achebe’s Things Fall Apart highlights the importance of family, while also showing the difficulties that arise from clashing identities and belief systems. The novel explores how intolerance can create division and lead to isolation.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The novel illustrates the bond between the **Igbo** people and their ancestors:
 
@@ -154,6 +154,6 @@ Achebe’s Things Fall Apart highlights the importance of family, while also sho
 - Achebe highlights the damage caused by intolerant attitudes towards the younger generation
 - The novel portrays the significant role of community and extended family on the fate of its characters
 
-#### Sources
+### Sources
 
 [*“Destiny Unraveled: The Conflict of Fate and Free Will in ‘Things Fall Apart’, Spoorthy S. Fernandes, International Journal of Humanities and Social Science Invention, Volume 12 Issue 7, July 2023*](https://www.ijhssi.org/papers/vol12(7)/I12075355.pdf)

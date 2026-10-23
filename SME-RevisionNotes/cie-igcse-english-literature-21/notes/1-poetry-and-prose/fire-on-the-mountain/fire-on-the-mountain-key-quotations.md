@@ -3,7 +3,7 @@ note_id: "rn_KtxRrC9spxJM75yM"
 title: "Fire on the Mountain: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-key-quotations
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-key-quotations
-updated_at: "2026-10-11T11:20:33.281Z"
+updated_at: "2026-10-21T12:40:36.232Z"
 spec_point_ids: ["spcpt_hwmxRzXN7TWKC6dp", "spcpt_ZBxRSQgYWjgCK5tT", "spcpt_M5x9qfswZ6hqW9mR", "spcpt_GjRt5Frt8yDpVbR8"]
 spec_point_codes: []
 guided_study: false
@@ -463,6 +463,6 @@ Here, we will analyse key quotes grouped according to the following themes:
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

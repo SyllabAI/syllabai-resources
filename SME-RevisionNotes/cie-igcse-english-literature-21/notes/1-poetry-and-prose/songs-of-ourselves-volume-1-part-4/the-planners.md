@@ -3,7 +3,7 @@ note_id: "rn_k6QNH8PSJJtQcFbg"
 title: "The Planners"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-planners
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-planners
-updated_at: "2026-10-11T10:48:21.122Z"
+updated_at: "2026-10-21T12:41:43.846Z"
 spec_point_ids: ["spcpt_4fsZTrWjgPPNGtHJ", "spcpt_bdBbG92JYFcFhDKK", "spcpt_RfGV8XYgRhXgTzB2", "spcpt_KNYHRy8JmRZtTDCT"]
 spec_point_codes: []
 guided_study: false
@@ -369,6 +369,6 @@ All questions in the IGCSE encourage an informed, personal response, which means
 > **Exam Hint**
 > For further advice and guidance on how to answer the poetry question, please see our detailed revision guides on Paper 1 Section A, which include “What the Question is Asking”, “How to Get Full Marks” and a full, annotated model answer. It is important to remember that no marks are given for any comments you might make in your answer to any of the other poems studied in the anthology. Your response should concentrate only on the poem and the focus of the question
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

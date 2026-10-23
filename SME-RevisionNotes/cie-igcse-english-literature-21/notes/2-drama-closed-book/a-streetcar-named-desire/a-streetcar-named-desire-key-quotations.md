@@ -3,7 +3,7 @@ note_id: "rn_nQJy8cDGMs3Y85Hm"
 title: "A Streetcar Named Desire: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-key-quotations
 path: 2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-key-quotations
-updated_at: "2026-10-11T10:48:30.457Z"
+updated_at: "2026-10-21T12:41:44.539Z"
 spec_point_ids: ["spcpt_nCwBR2SMFKDbxnJN", "spcpt_TjnnvZz592brgZvW", "spcpt_kQnGNyPV6dqz6qtm", "spcpt_NpgFy3xXZyNt27JS"]
 spec_point_codes: []
 guided_study: false
@@ -36,12 +36,12 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 > **blockquote**
 > **“They told me to take a streetcar named Desire, and then transfer to one called Cemeteries and ride six blocks and get off at – Elysian Fields!”** – Blanche, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - This quote is the first line Blanche speaks to Eunice upon arriving at the Kowalski’s apartment
 - She has just arrived in New Orleans and describes the instructions she was given with “*faintly hysterical humour*”
 
-**Analysis**
+### Analysis
 
 - Elysian Fields is named after the land of the dead in Greek mythology
 - Therefore, the journey that Blanche makes from the train station to the apartment is an [allegorical](https://www.savemyexams.com/glossary/gcse/english-language/allegory-definition/)** **version of her life up to that point
@@ -50,18 +50,18 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 > **blockquote**
 > **“There are thousands of papers, stretching back over hundreds of years, affecting Belle Reve as, piece by piece, our ***improvident*** grandfathers and father and uncles and brothers exchanged the land for their epic ***fornications***”** – Blanche, Scene 2
 
-**Meaning and context**
+### Meaning and context
 
 - Blanche gives this speech to Stanley in Scene 2, after he has accused her of swindling Stella (and him) out of her inheritance
 - She shows Stanley paperwork that proves she lost Belle Reve due to *foreclosure* on its mortgage
 
-**Analysis**
+### Analysis
 
 - Here, Blanche links her family’s decline into poverty with the behaviour of its male members, specifically their “epic fornications”, over the generations
 - Like Blanche, the DuBois ancestors have maintained an outward appearance of refinement, while secretly pursuing their sexual desires
 - She is the last in a long line of ancestors who cannot express their sexual desire in a healthy manner
 
-**Paired quotation:**
+### Paired quotations
 
 > **blockquote**
 > **“Since earliest manhood the centre of his life has been pleasure with women, the giving and taking of it, not with weak indulgence, dependently, but with the power and pride of a richly feathered male bird among hens”** – Stage directions, Scene 1
@@ -69,12 +69,12 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 > **blockquote**
 > **“He sizes women up at a glance, with sexual classifications, crude images flashing into his mind and determining the way he smiles at them”** – Stage directions, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - These stage directions describe Stanley before he first meets Blanche in Scene 1
 - He enters loudly, throwing open the screen door of the kitchen, and his description is summed up as one of a “gaudy seed-bearer”
 
-**Analysis**
+### Analysis
 
 - These stage directions place Stanley firmly as both masculine and dominant:
 
@@ -94,12 +94,12 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 > 
 > **“It brought me here. – Where I’m not wanted and where I’m ashamed to be…”** – Blanche, Scene 4
 
-**Meaning and context**
+### Meaning and context
 
 - Stella is trying to explain how she feels about Stanley and why she stays with him even though he hits her
 - Blanche does not understand how that kind of physical passion can be true love
 
-**Analysis**
+### Analysis
 
 - Here, the sisters are talking in metaphors
 - For Stella, love and physical attraction are inseparable:
@@ -110,7 +110,7 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
   - She speaks of it with *disdain*
 - She links desire with shame, as it was her desire that brought her to her current predicament
 
-**Paired quotation:**
+### Paired quotations
 
 > **blockquote**
 > **“You’re not clean enough to bring in the house with my mother”** – Mitch, Scene 9
@@ -118,7 +118,7 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 > **blockquote**
 > **“Tiger – tiger! Drop the bottle-top! Drop it! We’ve had this date with each other from the beginning!”** – Stanley, Scene 10
 
-**Meaning and context**
+### Meaning and context
 
 - The first quote is spoken by Mitch when he visits Blanche after learning the truth about her past
 - Mitch attempts to have sex with Blanche, but Blanche tells him that he must marry her first – this is his response
@@ -126,7 +126,7 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 - Blanche has broken a bottle and waves it at Stanley in a feeble act of self-defence
 - Following this, the stage directions tell us that he carries her to the bed
 
-**Analysis**
+### Analysis
 
 - When Mitch arrives, Blanche is clinging on to the illusion that he might still want to marry her, and that she is a *Southern Belle*
 - Mitch, however, believes that he has been lied to:
@@ -152,7 +152,7 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 
 One of the basic tensions in this play is the one between the romantic and the realistic, or between fantasy and reality. This is most obviously [symbolised](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/) through Blanche as the romantic fantasist and Stanley as the realist, and Blanche’s dependence on fantasy and illusion is contrasted with Stanley’s down-to-earth view of the world, which eventually “wins”.
 
-**Paired quotation:**
+### Paired quotations
 
 > **blockquote**
 > **“I can’t stand a naked light bulb, any more than I can a rude remark or a vulgar action” **– Blanche, Scene 3
@@ -160,14 +160,14 @@ One of the basic tensions in this play is the one between the romantic and the r
 > **blockquote**
 > **“And so the soft people have got to – shimmer and glow – put a – paper lantern over the light”** – Blanche, Scene 5
 
-**Meaning and context**
+### Meaning and context
 
 - The first line is spoken during Blanche’s first interaction and flirtation with Mitch
 - She has bought a paper lantern at a Chinese shop and she asks Mitch to put it over the light bulb for her
 - The second is spoken by Blanche to Stella when she realises that Stanley has started digging into her past
 - She is beginning to construct a defence of her actions
 
-**Analysis**
+### Analysis
 
 - The paper lantern is used as a symbol in the play, as it is torn down later by both Mitch and Stanley, representing the tearing away of the illusion Blanche has created around herself
 - It symbolises the reality that Blanche has created for herself – that of a *genteel*, *virtuous* woman of manners and breeding
@@ -175,7 +175,7 @@ One of the basic tensions in this play is the one between the romantic and the r
 
   - She seems unable to face the ugly reality of her life
 
-**Paired quotation:**
+### Paired quotations
 
 > **blockquote**
 > **“I don’t want realism”** – Blanche, Scene 9
@@ -183,12 +183,12 @@ One of the basic tensions in this play is the one between the romantic and the r
 > **blockquote**
 > **“I’ll tell you what I want. Magic! Yes, yes, magic! I try to give that to people. I misrepresent things to them. I don’t tell truth, I tell what *****ought***** to be truth” **– Blanche, Scene 9
 
-**Meaning and context**
+### Meaning and context
 
 - Blanche is arguing with Mitch when he visits her after learning the truth about her past
 - He insists on turning on the light so that he can see her properly, as she is normally in shadow or muted light
 
-**Analysis**
+### Analysis
 
 - For Blanche, it doesn’t matter if the magic is real or if even she believes it
 - She wants fantasy and illusion over the harsh brutality of the real world:
@@ -202,12 +202,12 @@ One of the basic tensions in this play is the one between the romantic and the r
 > **blockquote**
 > **“I couldn’t believe her story and go on living with Stanley” **– Stella, Scene 11
 
-**Meaning and context**
+### Meaning and context
 
 - This line is spoken by Stella to Eunice after revealing that she has arranged for her sister to be taken to a mental hospital
 - She explains that she had no choice but to believe that the story of the rape was the invention of a mentally unstable woman
 
-**Analysis**
+### Analysis
 
 - This line reveals that Stella has more in common with Blanche than it first appears
 - She has chosen to believe a version of the truth that will allow her to survive, especially as she now has a new baby to care for and she is financially dependent on her husband
@@ -228,12 +228,12 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 > **blockquote**
 > **“In the state of Louisiana we have the Napoleonic code according to which what belongs to the wife belongs to the husband and vice versa”** – Stanley, Scene 2
 
-**Meaning and context**
+### Meaning and context
 
 - Stanley attempts to explain the Napoleonic code to Stella when he learns that Belle Reve has been lost
 - He believes that Stella has been cheated out of her inheritance and, therefore, he has been cheated as well
 
-**Analysis**
+### Analysis
 
 - Here, Stanley betrays his ignorance, as well as his fundamental belief in his own superiority:
 
@@ -244,13 +244,13 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 > **blockquote**
 > **“Poker shouldn’t be played in a house with women”** – Mitch, Scene 3
 
-**Meaning and context**
+### Meaning and context
 
 - This line is repeated twice by Mitch in the poker game scene
 - He says it before and after Stanley has exploded in a violent rage and hit Stella
 - It suggests he thinks that women, poker and gambling are a bad mix
 
-**Analysis**
+### Analysis
 
 - This line shows Mitch as someone who fundamentally believes women are soft, gentle and should be protected from anything unpleasant or rough
 - It also underscores his inherent patriarchal values:
@@ -260,12 +260,12 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 > **blockquote**
 > **“Thousands and thousands of years have passed him right by, and there he is – Stanley Kowalski – survivor of the stone age! Bearing the raw meat home from the kill in the jungle! And you – *****you***** here – *****waiting***** for him! Maybe he’ll strike you or maybe grunt and kiss you!”** – Blanche, Scene 4
 
-**Meaning and context**
+### Meaning and context
 
 - Blanche is berating Stella for staying with Stanley even though he is physically abusive to her
 - Blanche is trying to explain the kind of man she thinks Stanley is
 
-**Analysis**
+### Analysis
 
 - This is part of a longer speech in which Blanche throws a lot of names at Stanley
 - She is trying to remind Stella of her upbringing and higher social status
@@ -275,12 +275,12 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 > **blockquote**
 > **“I want to kiss you – just once – softly and sweetly on your mouth…It would be nice to keep you, but I’ve got to be good and keep my hands off children”** – Blanche, Scene 6
 
-**Meaning and context**
+### Meaning and context
 
 - A Young Collector has arrived at the Kowalski apartment – Blanche is alone and drinking, waiting for her date with Mitch
 - Blanche flirts with him and kisses him
 
-**Analysis**
+### Analysis
 
 - This quote is an example of Williams subverting normal gender stereotypes
 - Instead of an innocent girl being corrupted by a more experienced man, Blanche is the one doing the corrupting
@@ -294,11 +294,11 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 > **blockquote**
 > **“Whoever you are – I have always depended on the kindness of strangers”** – Blanche, Scene 11
 
-**Meaning and context**
+### Meaning and context
 
 - This quote is Blanche’s last line in the play, as she is led out by the doctor
 
-**Analysis**
+### Analysis
 
 - Her line suggests that Blanche sees the doctor as the gentleman rescuer she has longed for
 - Despite her masculine trait of overt sexuality, Blanche still longs to be saved by a man
@@ -306,6 +306,6 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 
   - In reality, strangers have only been kind in exchange for sex
 
-#### Sources
+### Sources
 
 Williams, Tennessee. A Streetcar Named Desire. Edited by Elliott Martin Browne, Penguin, 2009. Accessed 11 April 2026.

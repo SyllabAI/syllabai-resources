@@ -3,7 +3,7 @@ note_id: "rn_CMy2pzjcXhv8cgDZ"
 title: "Fire on the Mountain: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-plot-summary
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-plot-summary
-updated_at: "2026-10-11T11:20:19.256Z"
+updated_at: "2026-10-21T12:40:37.077Z"
 spec_point_ids: ["spcpt_zQhCxFmqkNjZfDNx", "spcpt_6jDDckvjz6XPq4HG", "spcpt_tVm57Vyj7mfdD7zh"]
 spec_point_codes: []
 guided_study: false
@@ -539,6 +539,6 @@ Fire on the Mountain is split into three parts, with chapters within each of the
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

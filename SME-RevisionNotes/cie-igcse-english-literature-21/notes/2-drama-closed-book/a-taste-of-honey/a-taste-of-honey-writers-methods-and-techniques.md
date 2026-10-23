@@ -3,7 +3,7 @@ note_id: "rn_HMtRQFXSjJkPpnZF"
 title: "A Taste of Honey: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-writers-methods-and-techniques
 path: 2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-writers-methods-and-techniques
-updated_at: "2026-09-22T07:51:49.680Z"
+updated_at: "2026-10-21T12:40:31.410Z"
 spec_point_ids: ["spcpt_mJZT8jW4qGHqCPc2", "spcpt_rRVqj4c3nvBxP5PT", "spcpt_j4TzjB2WjZ6vGDCn", "spcpt_HzBTZnR4vbp6Drdn", "spcpt_GyD9MmtRGT8KzXJp"]
 spec_point_codes: []
 guided_study: false
@@ -149,7 +149,7 @@ It is useful to consider the [genre](https://www.savemyexams.com/glossary/gcse/e
   - Peter’s proposal is accompanied by a bouquet of flowers
   - When Jo plants flower bulbs, she says “I hope they bloom. Always before when I've tried to fix up a window box nothin's ever grown in it”
 
-#### Sources
+### Sources
 
 Delaney, Shelagh (2008), *A Taste Of Honey* (Edited by Glenda Leeming and Elaine Aston), Bloomsbury Academic.
 

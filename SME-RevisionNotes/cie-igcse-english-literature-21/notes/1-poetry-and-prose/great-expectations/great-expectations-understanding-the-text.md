@@ -3,7 +3,7 @@ note_id: "rn_gvZyBGx7HJ339jZS"
 title: "Great Expectations: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/great-expectations/great-expectations-understanding-the-text
 path: 1-poetry-and-prose/great-expectations/great-expectations-understanding-the-text
-updated_at: "2026-10-11T10:48:15.457Z"
+updated_at: "2026-10-21T12:41:41.601Z"
 spec_point_ids: ["spcpt_yqR7wtzXCH9XvPWb", "spcpt_ZdVFhmqHcqM7zHmN", "spcpt_tgz9QPSJTfBK4k2b", "spcpt_dkCjQN55sbtwfzqx"]
 spec_point_codes: []
 guided_study: false
@@ -190,6 +190,6 @@ It is not enough just to analyse a passage or chapter in isolation; you must als
   - He begins to understand that greatness is not derived solely from social status or material wealth but is intertwined with personal integrity and moral principles
   - It also transforms his understanding of what it is to be a “gentleman”
 
-#### Sources
+### Sources
 
 Dickens, Charles. (2008). Great Expectations. Oxford.

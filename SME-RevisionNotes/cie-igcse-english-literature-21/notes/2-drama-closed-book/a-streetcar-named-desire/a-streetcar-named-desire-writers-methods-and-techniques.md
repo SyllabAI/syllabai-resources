@@ -3,7 +3,7 @@ note_id: "rn_HHJ6wvW42ZZSmJtV"
 title: "A Streetcar Named Desire: Writer's Methods & Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-writers-methods-and-techniques
 path: 2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-writers-methods-and-techniques
-updated_at: "2026-10-11T11:20:28.144Z"
+updated_at: "2026-10-21T12:41:44.634Z"
 spec_point_ids: ["spcpt_kQ7fYrN793kX5Qgd", "spcpt_4dY8Y24JB3hP9M28", "spcpt_zqXFvm3SVgKDWsJC", "spcpt_669Gkd4CgpbTbyQ3", "spcpt_q39ZF5rrj4V8Bwqb"]
 spec_point_codes: []
 guided_study: false
@@ -177,6 +177,6 @@ Imagery and [symbolism](https://www.savemyexams.com/glossary/gcse/english-langua
 
 [Next topic](https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-key-quotations/)
 
-#### Sources
+### Sources
 
 Williams, Tennessee. A Streetcar Named Desire. Edited by Elliott Martin Browne, Penguin, 2009. Accessed 11 April 2026.

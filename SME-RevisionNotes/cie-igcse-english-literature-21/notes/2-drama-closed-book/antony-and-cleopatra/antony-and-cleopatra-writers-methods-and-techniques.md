@@ -3,7 +3,7 @@ note_id: "rn_YgBGwtBQ7V8kcGXX"
 title: "Antony and Cleopatra: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-writers-methods-and-techniques
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-writers-methods-and-techniques
-updated_at: "2026-10-11T11:20:51.542Z"
+updated_at: "2026-10-21T12:40:33.878Z"
 spec_point_ids: ["spcpt_RHVRDGsRKTcQgsbv", "spcpt_HRg4Vbx6hXn5svFz", "spcpt_GVgMTYBKhtb8Q8ZR", "spcpt_jwbbFjJsYbG8By6H"]
 spec_point_codes: []
 guided_study: false
@@ -190,6 +190,6 @@ How Antony and Cleopatra deviates from the usual form of Shakespeare’s tragedi
 
   - She dies in a very Egyptian way, a last protest against the Roman death Octavius would have given her
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

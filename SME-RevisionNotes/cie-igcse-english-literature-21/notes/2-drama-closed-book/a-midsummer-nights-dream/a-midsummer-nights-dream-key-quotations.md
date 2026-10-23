@@ -3,7 +3,7 @@ note_id: "rn_znvKtGPTxYbB7kxq"
 title: "A Midsummer Night's Dream: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-key-quotations
 path: 2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-key-quotations
-updated_at: "2026-10-11T11:21:28.406Z"
+updated_at: "2026-10-21T12:40:08.449Z"
 spec_point_ids: ["spcpt_rstVBvDXG396rBZw", "spcpt_tyQPNPvgfRCCGWpJ", "spcpt_tGkwVhZFN9P2Y4wx", "spcpt_9sf89mBfHFFcHYD6"]
 spec_point_codes: []
 guided_study: false
@@ -47,14 +47,14 @@ Love is a significant theme in A Midsummer Night’s Dream and drives the action
 
 – Lysander, Act 1, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - Lysander and Hermia have been informed by the Duke of Athens that they cannot marry:
 
   - Hermia’s father, Egeus, *objects* to the marriage and wants his daughter to marry Demetrius
 - The Duke tells Hermia that either she must marry Demetrius or she must face the consequences of her disobedience
 
-**Analysis**
+### Analysis
 
 - Lysander’s statement, now a famous proverb, is a reflection of the *inherent* challenges of love:
 
@@ -74,14 +74,14 @@ Love is a significant theme in A Midsummer Night’s Dream and drives the action
 
 **“And yet, to say the truth, reason and love keep little company together nowadays” **– Bottom, Act 3, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - Bottom’s head has been transformed into a donkey’s and Queen Titania has fallen in love with him, falling under the spell of Oberon’s potion
 - Queen Titania declares her love for him and Bottom does not understand:
 
   - By stating that reason and love have little to do with each other, he implies that love can be illogical
 
-**Analysis**
+### Analysis
 
 - By using [personification](https://www.savemyexams.com/glossary/gcse/english-language/personification-definition/), Bottom’s statement highlights a disconnect between reason and love in the play:
 
@@ -102,12 +102,12 @@ Love is a significant theme in A Midsummer Night’s Dream and drives the action
 
 – Puck, Act 3, Scene 2
 
-**Meaning and context**
+### Meaning and context
 
 - Puck says this after he places the potion on Lysander’s eyelids to lift the enchantment
 - The four Athenian lovers have fallen asleep and Puck has been ordered to undo the enchantment so that Lysander is in love with Hermia again and Demetrius is in love with Helena
 
-**Analysis**
+### Analysis
 
 - The use of rhyme contributes to a soothing and optimistic tone, which reinforces the idea of resolution and order being restored
 - “Jack” and “Jill” [alludes](https://www.savemyexams.com/glossary/gcse/english-language/allusion-definition/) to the traditional nursery rhyme, which suggests a harmonious pairing, implying that love will find its way back to order:
@@ -133,12 +133,12 @@ The idea of dreams is prominent throughout the play and its importance as a them
 
 – Oberon, Act 4, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - Oberon speaks to Puck and tells him to restore Bottom’s head so that all the Athenians can wake up in the morning and return to the city
 - He states that they will wake and believe the previous night’s incidents were just a dream
 
-**Analysis**
+### Analysis
 
 - The call for a return to the city represents a desire to restore order and *normality*** **after the chaotic events in the forest:
 
@@ -157,12 +157,12 @@ The idea of dreams is prominent throughout the play and its importance as a them
 
 **“I have had a dream - past the wit of man to say what dream it was. Man is but an ass, if he go about to expound this dream” **– Bottom, Act 4, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - This quote is spoken by Bottom after waking up the morning after his magical transformation
 - Puck has restored his head and Bottom believes that everything he experienced the night before was a dream
 
-**Analysis**
+### Analysis
 
 - Bottom has acknowledged that he has had a “most rare vision” or dream that is beyond human comprehension:
 
@@ -194,12 +194,12 @@ Order and disorder is an important theme and is evident through the [juxtapositi
 
 – Puck, Act 2, Scene 1
 
-**Meaning and context**
+### Meaning and context
 
 - Puck introduces himself to a fairy
 - He lists all of the mischievous things he does, including neighing like a young female horse to charm another, and reveals his role as a jester for Oberon
 
-**Analysis**
+### Analysis
 
 - Puck introduces himself as the “merry wanderer of the night”, which establishes the character as a mischievous figure, who playfully “jests” with the king of the fairies
 - This description of Puck’s antics is infused with humour but also gives the audience an insight into his character and his role in the play:
@@ -208,13 +208,13 @@ Order and disorder is an important theme and is evident through the [juxtapositi
 
 **“Lord, what fools these mortals be!” – Puck, Act 3, Scene 2**
 
-**Meaning and context**
+### Meaning and context
 
 - Puck is speaking to Oberon while watching the four confused Athenian lovers in the forest
 - He is watching Lysander pursue Helena while Demetrius is sleeping
 - Demetrius, enchanted by Oberon, wakes and also declares his love for Helena
 
-**Analysis**
+### Analysis
 
 - Puck makes this remark after observing the confused and *irrational* behaviour of the human characters in the play:
 
@@ -226,6 +226,6 @@ Order and disorder is an important theme and is evident through the [juxtapositi
 - The quote has an ironic undertone, as Puck himself has played a significant role in creating the confusion among the four lovers through his magical intervention
 - This quote suggests that human behaviour in matters of the heart can appear foolish from an outsider’s perspective
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

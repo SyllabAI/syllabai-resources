@@ -3,7 +3,7 @@ note_id: "rn_JrjpBxXD8dsKGpW6"
 title: "Lament"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/lament
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/lament
-updated_at: "2026-10-11T10:22:55.977Z"
+updated_at: "2026-10-21T12:40:46.079Z"
 spec_point_ids: ["spcpt_wRy9yZQkcpcZFc6T", "spcpt_gVjKyVsmvbs8t5pZ", "spcpt_Xw7zJDvHMsfxywGY"]
 spec_point_codes: []
 guided_study: false
@@ -267,7 +267,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 [*https://www.theatlantic.com/international/archive/2014/08/the-war-photo-no-one-would-publish/375762*](https://www.theatlantic.com/international/archive/2014/08/the-war-photo-no-one-would-publish/375762)
 [*https://www.gillianclarke.co.uk/gc2017/lament*](https://www.gillianclarke.co.uk/gc2017/lament)

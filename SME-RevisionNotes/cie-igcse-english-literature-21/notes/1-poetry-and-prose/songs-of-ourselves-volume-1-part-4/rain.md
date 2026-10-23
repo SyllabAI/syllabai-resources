@@ -3,7 +3,7 @@ note_id: "rn_h9b6CcS8DZ4hq3wW"
 title: "Rain"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/rain
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/rain
-updated_at: "2026-10-11T10:48:16.606Z"
+updated_at: "2026-10-21T12:41:43.181Z"
 spec_point_ids: ["spcpt_NGNByKdx2PF4sm8C", "spcpt_HTftgvMsFzHNqvR6", "spcpt_xsXzJSW4XGFFVBPZ", "spcpt_fYfr5SB4NqD963bG"]
 spec_point_codes: []
 guided_study: false
@@ -256,6 +256,6 @@ All questions in the IGCSE encourage an informed, personal response, which means
 
   - The poet’s only hope is dying as his loneliness and isolation have made him aware of his own mortality
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

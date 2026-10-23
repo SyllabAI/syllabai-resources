@@ -3,7 +3,7 @@ note_id: "rn_2vfNXCV6qtddGvgw"
 title: "Blues for an Alabama Sky: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-plot-summary
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-plot-summary
-updated_at: "2026-10-11T10:17:18.185Z"
+updated_at: "2026-10-21T12:40:33.518Z"
 spec_point_ids: ["spcpt_cd63X4srt3hJ3346", "spcpt_7XGCvzwhjsqC49RC", "spcpt_QMPYBcCSZYcr8kxD"]
 spec_point_codes: []
 guided_study: false
@@ -305,6 +305,6 @@ However, when Guy’s dream of becoming a fashion designer becomes reality, Ange
   - Delia sees her, they share a quiet moment and then say goodbye to each other
 - Angel raises a glass of champagne and drinks as the play ends
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

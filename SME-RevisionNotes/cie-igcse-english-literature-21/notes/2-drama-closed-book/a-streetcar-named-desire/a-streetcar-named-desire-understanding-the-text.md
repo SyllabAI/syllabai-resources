@@ -3,7 +3,7 @@ note_id: "rn_twzJ8ytQFz3XpmVx"
 title: "A Streetcar Named Desire: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-understanding-the-text
 path: 2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-understanding-the-text
-updated_at: "2026-10-11T11:21:20.257Z"
+updated_at: "2026-10-21T12:41:45.223Z"
 spec_point_ids: ["spcpt_KxYsw9bKR3DPbMWb", "spcpt_Bms94V2jBPCs74fW", "spcpt_WtNPKPxv3GHtwczr", "spcpt_gqwmZhTX9dDMkWSP"]
 spec_point_codes: []
 guided_study: false
@@ -242,6 +242,6 @@ It is not enough to just analyse a passage or scene in isolation; you must also 
 
   - The rape itself is not explicitly shown, but is implied to be primitive and animalistic through the stage directions
 
-#### Sources
+### Sources
 
 Williams, Tennessee. A Streetcar Named Desire. Edited by Elliott Martin Browne, Penguin, 2009. Accessed 11 April 2026.

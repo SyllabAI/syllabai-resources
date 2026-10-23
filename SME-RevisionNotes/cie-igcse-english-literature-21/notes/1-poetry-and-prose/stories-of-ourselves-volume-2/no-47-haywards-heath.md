@@ -3,7 +3,7 @@ note_id: "rn_DQmfS5JksG47Kq6T"
 title: "No.47 Haywards Heath"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-47-haywards-heath
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-47-haywards-heath
-updated_at: "2026-10-11T10:19:16.311Z"
+updated_at: "2026-10-21T12:40:41.474Z"
 spec_point_ids: ["spcpt_cd4jGbVpzMtmgDCX", "spcpt_2zzdkkMqbNDrjQzV", "spcpt_bgzr6Qvc5p6tw3Z3", "spcpt_5bjshptTRvKqbfW8", "spcpt_bSXNM3shWQ34BSGR"]
 spec_point_codes: []
 guided_study: false
@@ -189,6 +189,6 @@ The best way to revise quotations is in connection to a theme. Below you will fi
   - Despite their age, he is “youthful” when he is with her, and this, Forna implies, he has not felt for a long time
 - Forna implies Rosie would have brought fun to his life as she used to say he was “too serious”
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

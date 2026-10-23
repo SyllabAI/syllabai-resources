@@ -3,7 +3,7 @@ note_id: "rn_QDyXs3qPrrfq9br2"
 title: "Princess and the Hustler: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-writers-methods-and-techniques-
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-writers-methods-and-techniques-
-updated_at: "2026-09-25T09:47:27.829Z"
+updated_at: "2026-10-21T12:40:30.300Z"
 spec_point_ids: ["spcpt_pn3m9vtSRkvpVKNd", "spcpt_Sy6wTh5KqTSBjpd2", "spcpt_fVm7PZDKrDwDHGQr", "spcpt_2bWR5Q59sX4wstMV", "spcpt_yvcBqRjMMdhKvjSV"]
 spec_point_codes: []
 guided_study: false
@@ -128,6 +128,6 @@ A number of [motifs](https://www.savemyexams.com/glossary/gcse/english-literatur
     - The flash, as an object that emits light, could be viewed as a [symbol](https://www.savemyexams.com/glossary/gcse/english-language/symbol/) of hope
   - At the end of the play, Junior’s family picture includes Wendell and Lorna, which is symbolic of the family’s unity
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

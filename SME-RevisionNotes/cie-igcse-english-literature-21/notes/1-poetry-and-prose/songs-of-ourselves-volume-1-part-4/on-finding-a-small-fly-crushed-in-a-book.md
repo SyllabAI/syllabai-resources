@@ -3,7 +3,7 @@ note_id: "rn_42B4MNnpsybgcgjf"
 title: "On Finding a Small Fly Crushed in a Book"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/on-finding-a-small-fly-crushed-in-a-book
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/on-finding-a-small-fly-crushed-in-a-book
-updated_at: "2026-10-11T10:47:08.616Z"
+updated_at: "2026-10-21T12:41:40.866Z"
 spec_point_ids: ["spcpt_5f2pTmsTsB6rSw2G", "spcpt_7wd2rnQ8VBCMGFDw", "spcpt_768YXZj95SmwnTDH", "spcpt_sftMq5VHZDtmrBWh"]
 spec_point_codes: []
 guided_study: false
@@ -248,6 +248,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
 
   - The poet may have written this poem as a warning and a reminder for the reader to make their mark on the world so their “lustre” remains after they die
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

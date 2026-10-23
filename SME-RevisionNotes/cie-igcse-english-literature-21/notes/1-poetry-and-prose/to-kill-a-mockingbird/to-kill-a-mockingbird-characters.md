@@ -3,7 +3,7 @@ note_id: "rn_GzNjdhhY4DvhWGgV"
 title: "To Kill a Mockingbird: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-characters
 path: 1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-characters
-updated_at: "2026-10-11T10:19:23.466Z"
+updated_at: "2026-10-21T12:40:40.879Z"
 spec_point_ids: ["spcpt_Mn9MM5CZs2ZRfwy2", "spcpt_thWfM6bfkm5Dn4Yd", "spcpt_cNsr95rX4N9nGyMt", "spcpt_bsZ4D94Xfr7vHQkM", "spcpt_Pw5dqgydZCVrvMX4", "spcpt_yVptdH6KnQ69WwdM"]
 spec_point_codes: []
 guided_study: false
@@ -296,6 +296,6 @@ Authors of fiction construct characters to embody concepts, represent ideas and 
 - She is depicted as a kind and compassionate character and provides a source of comfort and understanding for the children
 - She has progressive views that stand in contrast to the rest of Maycomb society
 
-#### Sources
+### Sources
 
 **Lee, H. (2010). To Kill a Mockingbird. Arrow Books.**

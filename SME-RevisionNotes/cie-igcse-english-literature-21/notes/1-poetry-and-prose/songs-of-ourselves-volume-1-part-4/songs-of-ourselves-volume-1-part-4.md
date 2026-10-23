@@ -3,7 +3,7 @@ note_id: "rn_QB9xNxdYQYkWVCxM"
 title: "Songs of Ourselves Volume 1, Part 4"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/songs-of-ourselves-volume-1-part-4
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/songs-of-ourselves-volume-1-part-4
-updated_at: "2026-10-11T10:47:48.224Z"
+updated_at: "2026-10-21T12:41:44.172Z"
 spec_point_ids: ["spcpt_bj5rGYNdyNjch82N", "spcpt_V6tYWpFQd7ZKvJ58", "spcpt_488zHwJ99sJnQsqR", "spcpt_CB77xZqJJM34CkKm"]
 spec_point_codes: []
 guided_study: false
@@ -138,6 +138,6 @@ The idea of human power is explored in some of the poems in the anthology. Some 
 - Using the poet’s name can help you think about the text as a conscious construct, and will keep reminding you that the poet deliberately put the poem together
 - Use connectives to link your ideas and analysis and to make sure your analysis is structured
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

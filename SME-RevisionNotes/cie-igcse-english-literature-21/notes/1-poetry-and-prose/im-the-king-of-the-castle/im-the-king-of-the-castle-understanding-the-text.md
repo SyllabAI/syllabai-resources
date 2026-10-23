@@ -3,7 +3,7 @@ note_id: "rn_4zW5jkZqnpYd348m"
 title: "I'm the King of the Castle: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-understanding-the-text
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-understanding-the-text
-updated_at: "2026-10-11T10:18:44.331Z"
+updated_at: "2026-10-21T12:40:38.320Z"
 spec_point_ids: ["spcpt_2BrDGFRXd7J4bd7J", "spcpt_rGVx4HmZd22MBNBM"]
 spec_point_codes: []
 guided_study: false
@@ -119,6 +119,6 @@ Each of the sub-topics below will help you to develop a better understanding of 
 |---|---|
 | **Relationships across the class divide** | The relationship between Mr Hooper and Mrs Kingshaw bridges a clear class divide between employer and employee. The novel portrays it as driven more by mutual need and loneliness than romantic love. In Chapter 16, Mr Hooper overhears Mrs Kingshaw talking on the telephone to a friend, claiming that she had not quite “made up my mind about the future”. This prompts Mr Hooper to act, thinking of her as a woman rather than just a housekeeper. He admits to himself that he is an “intensely sexual man” who has suffered a gap between his public behaviour and his desires, and he realises that a marriage to Mrs Kingshaw would “bridge the gap between fantasy and life.” Ultimately, the marriage is arranged, securing Mrs Kingshaw’s financial future and ending Mr Hooper’s loneliness, despite the tragic consequences this union creates for their sons. |
 
-#### Sources
+### Sources
 
 Hill, S. (1970) *I’m the King of the Castle*. 1989 edn. Penguin.

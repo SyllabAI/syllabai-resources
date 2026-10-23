@@ -3,7 +3,7 @@ note_id: "rn_xQRZ8MTg4n6WtfsR"
 title: "A Taste of Honey: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-understanding-the-text
 path: 2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-understanding-the-text
-updated_at: "2026-10-11T10:21:22.108Z"
+updated_at: "2026-10-21T12:41:20.101Z"
 spec_point_ids: ["spcpt_9hSGJMtxvckzvT5p", "spcpt_McGwcyzhRjKsMJw6", "spcpt_yWsNpp7fFgWtyHp7"]
 spec_point_codes: []
 guided_study: false
@@ -99,7 +99,7 @@ Before World War II, British theatre and film was mostly limited to optimistic c
 |---|---|
 | **Kitchen sink drama** | Delaney’s play is set in an industrial area in the North of England: Helen and Jo live in a flat that is “falling apart”, and they speak in *regional dialect*, expressing harsh and angry sentiments. Delaney portrays a young, *working-class* girl who is neglected by her neglectful and unstable single mother. Helen drinks too much and conducts casual affairs. The play depicts a disillusioned, poverty-stricken and underfed family who struggle with resentful feelings about their lot in life. |
 
-#### Sources
+### Sources
 
 Delaney, Shelagh (2008), *A Taste Of Honey* (Edited by Glenda Leeming and Elaine Aston), Bloomsbury Academic.
 

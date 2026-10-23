@@ -3,7 +3,7 @@ note_id: "rn_ybqQSByDXFK4W98b"
 title: "Rebecca: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/rebecca/rebecca-themes
 path: 1-poetry-and-prose/rebecca/rebecca-themes
-updated_at: "2026-09-22T12:50:23.343Z"
+updated_at: "2026-10-21T12:33:31.477Z"
 spec_point_ids: ["spcpt_dH99YRpYrQ7QHMzm", "spcpt_gh36ZmdndJwYzDMw", "spcpt_SF9bMbJpvn2HZdg9", "spcpt_fFwMc4KfcWff7mTN", "spcpt_JJTMvrgjmBzp9pKQ"]
 spec_point_codes: []
 guided_study: false
@@ -34,7 +34,7 @@ Below are some ideas that could be explored in Rebecca. This list is not exhaust
 
 Through this theme, du Maurier explores self-perception, societal expectations and the influence of the past on one’s sense of identity. Societal expectations, particularly those within the aristocratic ideals depicted in the novel, mean that characters are subjected to rigid norms that present a challenge to their identity and autonomy.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The deliberate choice to keep the novel's narrator nameless serves as a narrative device that is used to illustrate the theme of identity
 - Early in the novel, the narrator expresses a longing to assume a different identity:
@@ -78,7 +78,7 @@ Through this theme, du Maurier explores self-perception, societal expectations a
 
   - The rigid class distinctions and the scrutiny of her peers intensify the pressure to conform
 
-**What is du Maurier’s intention?**
+### What is du Maurier’s intention?
 
 - Du Maurier raises questions about the tension between conforming to societal norms and asserting one's individuality:
 
@@ -93,7 +93,7 @@ Through this theme, du Maurier explores self-perception, societal expectations a
 
 Rebecca explores how characters maintain power over others through manipulation, intimidation and other psychological tools. The narrator’s weakness exposes her to those who are more powerful than her and characters like Mrs Danvers use her weakness to frighten, intimidate and manipulate her.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Mrs Danvers's loyalty to Rebecca becomes a source of control within Manderley:
 
@@ -123,7 +123,7 @@ Rebecca explores how characters maintain power over others through manipulation,
   - The household staff, as well as the narrator, respond and adapt to his moods
 - Furthermore, the significant age gap between Maxim and his wife and the circumstances surrounding their union contribute to a power imbalance
 
-**What is du Maurier’s intention?**
+### What is du Maurier’s intention?
 
 - The novel explores how love can coexist with, or be challenged by, the inherent power structures within a relationship
 - The novel invites readers to consider the consequences of authority, the manipulation that can arise from power and the ways in which individuals address and resist these power structures
@@ -136,7 +136,7 @@ Rebecca explores how characters maintain power over others through manipulation,
 
 The tension between appearance and reality contributes to the mysterious tone of the novel. The text explores the consequences of hidden truths and the impact of deception and secrets on characters and their relationships.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Truth remains elusive throughout much of the narrative and many characters are linked to deception and secrets
 
@@ -161,7 +161,7 @@ The tension between appearance and reality contributes to the mysterious tone of
 
 - She deliberately deceives Maxim into making him think she is pregnant
 
-**What is du Maurier’s intention?**
+### What is du Maurier’s intention?
 
 - Du Maurier suggests that deception can have destructive consequences:
 
@@ -177,7 +177,7 @@ The tension between appearance and reality contributes to the mysterious tone of
 
 Rebecca explores the power imbalances associated with class distinctions. The narrator’s lower class and interactions between the aristocratic de Winter family and the estate's staff convey the control mechanisms present in hierarchical social structures.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The narrator serves as a lens through which the theme of class is explored
 - As an initial paid companion to Mrs Van Hopper, her role highlights the disparities in their social standing:
@@ -211,7 +211,7 @@ Rebecca explores the power imbalances associated with class distinctions. The na
 
   - However, she does eventually assert her individuality within the constraints of class expectations
 
-**What is du Maurier’s intention?**
+### What is du Maurier’s intention?
 
 - The novel suggests that class divisions not only shape individual experiences but also influence the power dynamics within relationships:
 

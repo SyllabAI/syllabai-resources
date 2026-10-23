@@ -3,7 +3,7 @@ note_id: "rn_ZzqPcN9jZ9VJgcdg"
 title: "The Spirit is too Blunt an Instrument"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-spirit-is-too-blunt-an-instrument
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-spirit-is-too-blunt-an-instrument
-updated_at: "2026-10-11T10:48:07.475Z"
+updated_at: "2026-10-21T12:41:43.075Z"
 spec_point_ids: ["spcpt_5Gk9JYg6vVkQbv3Y", "spcpt_YpPkPjTvdVPCTzmb", "spcpt_qj67y7yZbV7KjVnJ", "spcpt_RDcf6Rt87sV9pDG9"]
 spec_point_codes: []
 guided_study: false
@@ -275,6 +275,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
   - The poet then uses abstract words to describe the characteristics of the mind and this creates the effect that the spirit is intangible and imperceptible to the touch
 - However, at the end of the poem, the speaker acknowledges that it is the spirit and the “vagaries of the mind” that add life and emotions to the perfect and intricate body
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

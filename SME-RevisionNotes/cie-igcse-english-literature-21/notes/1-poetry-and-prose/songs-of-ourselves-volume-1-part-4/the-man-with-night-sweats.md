@@ -3,7 +3,7 @@ note_id: "rn_cqV4hbgZRHNSM4W9"
 title: "The Man with Night Sweats"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-man-with-night-sweats
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-man-with-night-sweats
-updated_at: "2026-10-11T10:48:10.449Z"
+updated_at: "2026-10-21T12:41:43.799Z"
 spec_point_ids: ["spcpt_vHzRZBn9WqRBvZmT", "spcpt_xTpgTPz3yf99YB4N", "spcpt_FWGdHDJP6sSspKKt"]
 spec_point_codes: []
 guided_study: false
@@ -271,6 +271,6 @@ Gunn uses a number of literary devices in the poem to highlight how the disease 
 | The writer changes tenses throughout the poem. He speaks in past tense when he is healthy and uses words with positive [connotations](https://www.savemyexams.com/glossary/gcse/english-language/connotation-definition/) such as “prospered”, “adored” and “wonders” | The changes in tenses and language highlight the speaker’s vulnerability and change in the speaker’s health. He is aware of his mortality and how he has now become weak |   |
 | However, the language changes when he talks of the present tense and he uses words with negative connotations such as “cold”, “sweat”, “sorry”, “reduced” and “wrecked” |   |   |
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

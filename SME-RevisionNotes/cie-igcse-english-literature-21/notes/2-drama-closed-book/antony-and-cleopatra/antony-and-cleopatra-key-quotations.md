@@ -3,7 +3,7 @@ note_id: "rn_4PYwyHBj7Cgm73y7"
 title: "Antony and Cleopatra: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-key-quotations
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-key-quotations
-updated_at: "2026-10-11T11:20:02.310Z"
+updated_at: "2026-10-21T12:40:34.060Z"
 spec_point_ids: ["spcpt_hxMZzXG7H2FxBJQ3", "spcpt_9SzVFyxV8bVdyQcX", "spcpt_XBXKZnhVxM9SRxw5"]
 spec_point_codes: []
 guided_study: false
@@ -367,6 +367,6 @@ Here, we will analyse key quotes grouped according to the following themes:
   - The grandeur of the phrasing aligns suicide with Roman honour codes
   - It also reflects Roman heroic values, where a self-inflicted death can be interpreted as honourable resistance to shame or defeat
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

@@ -3,7 +3,7 @@ note_id: "rn_7DHt2sGvXJSXCxmv"
 title: "From Long Distance (a.k.a Long Distance II)"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/from-long-distance-a-k-a-long-distance-ii
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/from-long-distance-a-k-a-long-distance-ii
-updated_at: "2026-10-11T10:47:21.002Z"
+updated_at: "2026-10-21T12:41:43.023Z"
 spec_point_ids: ["spcpt_GhXzCpDn6sPN5DpR", "spcpt_vGFJvGC3Zv3b44vK", "spcpt_RcwqSh3hKn7tbHGY", "spcpt_wN7SNfSk6pV2kMXf"]
 spec_point_codes: []
 guided_study: false
@@ -251,6 +251,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
 
   - Again, while this shows the depth of the speaker’s grief, it also conveys his deep sense of love and longing as he feels the need to speak to the ones he has lost
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

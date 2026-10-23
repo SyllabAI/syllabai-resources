@@ -3,7 +3,7 @@ note_id: "rn_v66NSywwXg78YKwt"
 title: "Pride and Prejudice: Key Text Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-key-text-quotations
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-key-text-quotations
-updated_at: "2026-09-15T09:59:46.835Z"
+updated_at: "2026-10-21T12:41:02.287Z"
 spec_point_ids: ["spcpt_kzzQymhYRhjQjyhj", "spcpt_MdR3qDCPGXHkyS2d", "spcpt_NCZCSKKQ7PSN8rsz", "spcpt_H6bTNppM2THP2rSJ"]
 spec_point_codes: []
 guided_study: false
@@ -213,6 +213,6 @@ In 19th-century England, there were strict gender roles that both males and fema
 - Elizabeth’s failure to meet Lady Catherine’s expectations challenges traditional gender roles and expectations
 - Lady Catherine stating that she will never “*recede*” implies her refusal to back down, which reinforces the idea that she expects Elizabeth to listen to her
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

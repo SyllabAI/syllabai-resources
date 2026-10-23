@@ -3,7 +3,7 @@ note_id: "rn_v5bk55qsRjX3N35Z"
 title: "A Streetcar Named Desire: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-themes
 path: 2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-themes
-updated_at: "2026-10-11T10:48:51.992Z"
+updated_at: "2026-10-21T12:41:45.055Z"
 spec_point_ids: ["spcpt_XB7xNxfXMvJB4ZWc", "spcpt_rCd2rcF5ZHyNnn8B", "spcpt_ZNP84cThw3bsycJ6", "spcpt_VWNskVX9Rz5hXRgw"]
 spec_point_codes: []
 guided_study: false
@@ -35,7 +35,7 @@ Below are some of the key themes that could be explored in A Streetcar Named Des
 
 Desire is a central theme of the play, as demonstrated with the [metaphor](https://www.savemyexams.com/glossary/gcse/english-language/metaphor-definition/) of the streetcar bearing the same name being the one that carries Blanche to Elysium Fields, representing one of her driving emotions, and the means of her undoing. Physical desire is also at the heart of Stella and Stanley’s relationship.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - All of the characters are driven by “that rattle-trap street-car” in various ways:
 
@@ -68,7 +68,7 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
     - It could be argued that Blanche is also attracted to Stanley on some level because she sees something of herself in him
 - Throughout the play, sexual desire is therefore linked to violence and destruction
 
-**What is Williams's intention? **
+### What is Williams's intention?
 
 - For Williams, desire symbolised a particularly destructive force:
 
@@ -91,7 +91,7 @@ Desire is a central theme of the play, as demonstrated with the [metaphor](https
 
 One of the basic tensions in this play is the one between the romantic and the realistic, or between fantasy and reality. This is most obviously [symbolised](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/) through Blanche as the romantic fantasist and Stanley as the realist, and Blanche’s dependence on fantasy and illusion is contrasted with Stanley’s down-to-earth view of the world, which eventually “wins”.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Blanche lives in a fantasy of her own making:
 
@@ -112,7 +112,7 @@ One of the basic tensions in this play is the one between the romantic and the r
   - He tells Stella and Mitch what he has discovered about Blanche’s past
   - He *disdains*** **Blanche’s lies and does everything he can to expose them
 
-**What is Williams's intention? **
+### What is Williams's intention?
 
 - The characters of Blanche and Stanley represent the struggle between appearance and reality, in which reality ultimately wins:
 
@@ -140,7 +140,7 @@ One of the basic tensions in this play is the one between the romantic and the r
 
 One of the other key themes Williams addresses in the play is gender stereotyping, following the emerging post-war American ideals that championed masculinity and *patriarchal*** **values. Williams also uses Blanche and Stella’s dependence on men to critique the treatment of women and their position in society.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Stella and Stanley represent traditional, *patriarchal* gender roles
 - Stanley’s masculinity is emphasised by his strength, aggression and lust:
@@ -161,7 +161,7 @@ One of the other key themes Williams addresses in the play is gender stereotypin
   - She cannot see beyond her dependence on men, so she has no idea how to rescue herself
   - However, by relying on men, Blanche puts her fate in the hands of others
 
-**What is Williams's intention? **
+### What is Williams's intention?
 
 - In the aftermath of World War II, there was increased emphasis placed on the idea of American heroism, as the nation embraced traditional, *patriarchal* family values:
 
@@ -181,6 +181,6 @@ One of the other key themes Williams addresses in the play is gender stereotypin
 > **Exam Hint**
 > There are other themes evident in the play, such as death, madness and class prejudice. Whatever  your focus, you are encouraged to arrive at your own interpretations of the play in order to develop a personal response. This involves considering all of the themes and how they appear in the play, as well as reading a wide range of different opinions and interpretations, in order to be able to form your own.
 
-#### Sources
+### Sources
 
 Williams, Tennessee. A Streetcar Named Desire. Edited by Elliott Martin Browne, Penguin, 2009. Accessed 11 April 2026.

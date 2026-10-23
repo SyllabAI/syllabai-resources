@@ -3,7 +3,7 @@ note_id: "rn_cnmh5BxVhGzqVngj"
 title: "The War of the Worlds: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-plot-summary
 path: 1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-plot-summary
-updated_at: "2026-10-11T10:20:36.345Z"
+updated_at: "2026-10-21T12:41:00.979Z"
 spec_point_ids: ["spcpt_xmMsv5kkYhF2dZd6", "spcpt_6GKKxhqqP9g9swgw", "spcpt_54tXdz7jdJMR6mRX", "spcpt_ncBcz7n5QRdb4M5Z"]
 spec_point_codes: []
 guided_study: false
@@ -214,6 +214,6 @@ The novel concludes with the narrator realising that the Martians have not survi
 - He considers what might happen in the future – that Earth could be attacked again and that people should be prepared
 - The novel ends with the narrator holding his wife’s hand, signalling the restoration of humankind
 
-#### Sources
+### Sources
 
 Wells, H. G. (2005). *The War of the Worlds*. Penguin Classics.

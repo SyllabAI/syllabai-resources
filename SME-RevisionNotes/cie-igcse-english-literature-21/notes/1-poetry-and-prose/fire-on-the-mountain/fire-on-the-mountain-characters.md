@@ -3,7 +3,7 @@ note_id: "rn_w7TBBQzZygt5pBHQ"
 title: "Fire on the Mountain: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-characters
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-characters
-updated_at: "2026-10-11T11:21:22.690Z"
+updated_at: "2026-10-21T12:40:36.457Z"
 spec_point_ids: ["spcpt_3RWnN6qc4P96t7J5", "spcpt_BDDJjGtztDDKGVBM", "spcpt_Mc3XjWMbKwRYpSwx", "spcpt_Y5dyXCK3Q9wBkwG7"]
 spec_point_codes: []
 guided_study: false
@@ -159,6 +159,6 @@ He talks of the ravine, the locals at the Pasteur Institute, wild animals and ev
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

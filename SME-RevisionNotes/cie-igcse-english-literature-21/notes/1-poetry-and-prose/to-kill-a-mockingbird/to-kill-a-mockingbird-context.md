@@ -3,7 +3,7 @@ note_id: "rn_SkDWqdgQ72bB55Ck"
 title: "To Kill a Mockingbird: Context"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-context
 path: 1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-context
-updated_at: "2026-10-11T10:19:53.797Z"
+updated_at: "2026-10-21T12:41:32.067Z"
 spec_point_ids: ["spcpt_KpgYCYC5JQ6ZdNnn", "spcpt_7Mspb26XYJGXWv8q", "spcpt_4hyxzxgMpwKWRFpJ", "spcpt_TXQ5FxRWVMmPQC4P", "spcpt_6RSJxhX2d95bbvM2", "spcpt_f385pQHXKfJ9RJwb"]
 spec_point_codes: []
 guided_study: false
@@ -194,6 +194,6 @@ This section will explore these contexts, which will help inform your reading of
     - Her depiction of Scout as the [protagonist](https://www.savemyexams.com/glossary/gcse/english-literature/protagonist-definition/) defies gender stereotypes
     - It promotes the idea that girls possess the same adventurous spirit and capabilities as boys
 
-#### Sources
+### Sources
 
 **Lee, H. (2010). To Kill a Mockingbird. Arrow Books.**

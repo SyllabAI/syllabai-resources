@@ -3,7 +3,7 @@ note_id: "rn_FrpGnwSpSZCXTPV3"
 title: "Great Expectations: Context"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/great-expectations/great-expectations-context
 path: 1-poetry-and-prose/great-expectations/great-expectations-context
-updated_at: "2026-09-07T09:06:27.440Z"
+updated_at: "2026-10-21T12:41:03.037Z"
 spec_point_ids: ["spcpt_bsStfmz9FrmWcZmB", "spcpt_q9MQG3yQcPdTbCrt"]
 spec_point_codes: []
 guided_study: false
@@ -114,6 +114,6 @@ guided_study: false
 |---|---|
 | **Bildungsroman and Gothic genres** | Great Expectations is written in the form of a Bildungsroman, depicting the development and maturity of Pip as a character.<br><br>The novel also employs *gothic* features and in many ways, Magwitch could be viewed as an [archetypal](https://www.savemyexams.com/glossary/gcse/english-language/archetype-definition/) *gothic* character. He is presented initially as a monster and as grotesque. Miss Havisham is also depicted through *Gothic* conventions — isolated, decaying, and psychologically frozen in time — reflecting her emotional trauma and obsession with revenge. |
 
-#### Sources
+### Sources
 
 Dickens, Charles. (2008). Great Expectations. Oxford.

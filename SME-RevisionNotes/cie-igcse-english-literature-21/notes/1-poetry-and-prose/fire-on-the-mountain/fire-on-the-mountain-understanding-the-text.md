@@ -3,7 +3,7 @@ note_id: "rn_KvRGn5WjjsHZRdRG"
 title: "Fire on the Mountain: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-understanding-the-text
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-understanding-the-text
-updated_at: "2026-10-11T11:20:33.792Z"
+updated_at: "2026-10-21T12:40:36.957Z"
 spec_point_ids: ["spcpt_svyDtm9RSwRRvRwb", "spcpt_JyMhjt8mJS2Jsg24", "spcpt_MxC9hNnb9rHD22zx"]
 spec_point_codes: []
 guided_study: false
@@ -160,6 +160,6 @@ To gain a fuller picture of the text, and to produce stronger, more contextually
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

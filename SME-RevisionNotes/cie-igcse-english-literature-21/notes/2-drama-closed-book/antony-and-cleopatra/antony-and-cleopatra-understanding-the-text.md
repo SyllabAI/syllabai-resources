@@ -3,7 +3,7 @@ note_id: "rn_XY9HQqYh6YDcTdSQ"
 title: "Antony and Cleopatra: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-understanding-the-text
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-understanding-the-text
-updated_at: "2026-10-11T10:20:09.442Z"
+updated_at: "2026-10-21T12:40:34.620Z"
 spec_point_ids: ["spcpt_SV85YjQjRy7zDRry", "spcpt_xQhyBNySRqhz39df", "spcpt_8cBNrRkTSD26mkYx"]
 spec_point_codes: []
 guided_study: false
@@ -172,6 +172,6 @@ Succession of power was a big topic in Elizabethan England, and that continued i
 | **Complexity and experimentation** | Rather than presenting a straightforward tragedy, Shakespeare blends history, drama and romance to create a spectacle. The play’s rapid shifts between Rome and Egypt mirror Renaissance audiences' expectations for varied settings, changing tones, and contrasting perspectives. Cleopatra’s theatricality and Antony’s *charismatic* presence exemplify the era’s interest in powerful, captivating figures on stage, and contrast with the discipline of Octavius. Shakespeare uses the play to transform well-known figures into relatable characters, satisfying an audience that valued entertainment over historical accuracy. |
 | **Stoicism** | Roman culture valued restraint and emotional discipline, ideals that Antony increasingly struggles to meet. His failure to embody Stoic steadiness, particularly during military and political crises, highlights the tension between Roman expectations and his desire-driven choices. Cleopatra’s suicide can also be viewed within a Stoic framework: it becomes an act of autonomy and dignity, allowing her to control the manner of her death rather than submit to humiliation. The play reflects Renaissance interests in classical philosophy by exploring how individuals respond when fortune turns against them. |
 
-#### Sources
+### Sources
 
 Shakespeare, W., Munday, A., Fletcher, J., Middleton, T., Heywood, T., Peele, G., Dekker, T., Wilkins, G., & Chettle, H. (2005). The Oxford Shakespeare: The Complete Works (Second Edition). In Oxford University Press eBooks. [https://doi.org/10.1093/actrade/9780199267170.book.1](https://doi.org/10.1093/actrade/9780199267170.book.1)

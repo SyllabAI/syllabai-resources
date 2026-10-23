@@ -3,7 +3,7 @@ note_id: "rn_bq7VHrt69WfnT6dH"
 title: "Princess and the Hustler: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-characters-
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-characters-
-updated_at: "2026-09-22T08:15:21.054Z"
+updated_at: "2026-10-21T12:40:30.260Z"
 spec_point_ids: ["spcpt_rBDJfQzn7wWTNHKB", "spcpt_WYYq3QGc4kFqh4sq", "spcpt_Y2Nrx5YbtNqsqJ4g", "spcpt_tgxHSnz4dWBjKRCD", "spcpt_ppyVJHPgPgmj2k38", "spcpt_WHhPGQDNDr5TJCM9", "spcpt_N9tm89K7KtNvW36V"]
 spec_point_codes: []
 guided_study: false
@@ -239,6 +239,6 @@ Here you will find characters profiles for:
   - He encourages Junior to be more respectful towards his father (Act 1, Scene 7)
   - He looks after Princess and/or Lorna on more than one occasion when events arise unexpectedly for the James family
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

@@ -3,7 +3,7 @@ note_id: "rn_3b74SpBZ6PWGbfTy"
 title: "I'm the King of the Castle: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-writers-methods-and-techniques
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-writers-methods-and-techniques
-updated_at: "2026-10-11T10:18:38.029Z"
+updated_at: "2026-10-21T12:40:37.836Z"
 spec_point_ids: ["spcpt_GmgZsP2wR6Yw5Kyc", "spcpt_5v46sJrZQh68pRF2", "spcpt_yBksB27BqWByPfSp", "spcpt_BT42Kng535sVMvNx", "spcpt_GRV4nMNccxSH6VcY", "spcpt_qcT4f9hHmfPJvGmF"]
 spec_point_codes: []
 guided_study: false
@@ -211,6 +211,6 @@ There is a sense of foreboding in the novel that things are heading towards a tr
   - “All he could do was bait and bait, seeing how far he could go, trying to think of new things”
   - “He was running away because he wanted to get away from Hooper”
 
-#### Sources
+### Sources
 
 Hill, S. (1970) *I’m the King of the Castle*. 1989 edn. Penguin.

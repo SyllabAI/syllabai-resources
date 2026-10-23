@@ -3,7 +3,7 @@ note_id: "rn_D6VG2yvf9zYknS9C"
 title: "Storyteller"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/storyteller
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/storyteller
-updated_at: "2026-10-11T10:19:14.319Z"
+updated_at: "2026-10-21T12:40:45.474Z"
 spec_point_ids: ["spcpt_Gcfzt9NNbzS3ydhz", "spcpt_MxTkGKHqxqDm9gTB", "spcpt_9GvkNVF7rmk3djkz"]
 spec_point_codes: []
 guided_study: false
@@ -271,7 +271,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 Ballantyne, James. “Liz Lochhead and the Fairies: Context and Influence in Grimm Sisters and Dreaming Frankenstein.” Scholar Commons, 13 June 2023, [https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=2326&context=ssl](https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=2326&context=ssl). Accessed 23 August 2025.
 Donaldson, William (2022) "Liz Lochhead and the Fairies: Context and Influence in Grimm Sisters and Dreaming Frankenstein," Studies in Scottish Literature: Vol. 48: Iss. 2, 168–192.

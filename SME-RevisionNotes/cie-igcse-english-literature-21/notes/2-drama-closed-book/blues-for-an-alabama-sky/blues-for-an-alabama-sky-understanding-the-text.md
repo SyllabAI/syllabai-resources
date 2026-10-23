@@ -3,7 +3,7 @@ note_id: "rn_SWG6QhqsX2gCrgVr"
 title: "Blues for an Alabama Sky: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-understanding-the-text
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-understanding-the-text
-updated_at: "2026-10-11T10:19:52.439Z"
+updated_at: "2026-10-21T12:40:33.180Z"
 spec_point_ids: ["spcpt_xtfCgvncjF3pwKWf", "spcpt_3TVHK2gpGgNJ39vR", "spcpt_9FWMDnww5zqtbmQg"]
 spec_point_codes: []
 guided_study: false
@@ -152,6 +152,6 @@ To gain a fuller picture of the text, and to produce stronger, more contextually
 | The play uses the characters to tell the story, with the narrative emerging through friendship, work, money, and the ordinary rigours of life. The key themes and plot points come through characters and normality. Reproductive rights emerge through Delia’s clinic planning, homophobia is explored via Guy’s assault, and conservatism is expressed through Leland’s reactions to daily life in the apartment. |   |
 | Cleage continues the realist tradition of centering the play around complex characters. Angel, Guy, Delia, Sam, and Leland are given complex motivations, private fears, layered identities, and conflicting values. |   |
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

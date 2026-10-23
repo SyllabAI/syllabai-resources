@@ -3,7 +3,7 @@ note_id: "rn_VHycxG2dmRFrH4Mq"
 title: "Pride and Prejudice: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-character-quotations
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-character-quotations
-updated_at: "2026-09-22T16:05:57.709Z"
+updated_at: "2026-10-21T12:40:38.635Z"
 spec_point_ids: ["spcpt_sb4DpCxZS6WPZ5dq", "spcpt_zZztVWjHHQhZhd48", "spcpt_J6WXhjPsz8Cmh9G5", "spcpt_HnbhjCGrk6zqQQbM"]
 spec_point_codes: []
 guided_study: false
@@ -140,6 +140,6 @@ We’ve included the best Pride and Prejudice quotes — with detailed analysis 
 |---|---|---|---|
 | - Darcy’s suggestion that he assumed an identity in order to flirt is strongly rejected<br>- Austen illustrates Bingley’s distaste for falseness with the word “merely”:<br><br>  - He is adamant that his intention was not simply to win over the “ladies”<br>- Austen illustrates conflicts resulting from her society’s preoccupation with marriage |   |   |   |
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

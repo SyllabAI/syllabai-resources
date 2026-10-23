@@ -3,7 +3,7 @@ note_id: "rn_xsTKD9g2fBsbD7Bx"
 title: "I'm the King of the Castle: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-themes
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-themes
-updated_at: "2026-10-11T10:21:25.347Z"
+updated_at: "2026-10-21T12:40:38.008Z"
 spec_point_ids: ["spcpt_gWDDJTG53JBqy85y", "spcpt_mSnVwzzmsjPqn42H", "spcpt_TsNvrMwNqY29YDWZ", "spcpt_T43KrhdrkF8pMGZ9", "spcpt_6R92pDsRQgDbT6wc"]
 spec_point_codes: []
 guided_study: false
@@ -258,6 +258,6 @@ Death is a key theme of the book. It starts and ends the novel, with Edmund’s 
 > 
 > One way to show this is by using sentence starters such as: “Hill appears to use Fielding as a device to highlight the lack of love and emotional intelligence among the novel’s other characters.”
 
-#### Sources
+### Sources
 
 Hill, S. (1970) *I’m the King of the Castle*. 1989 edn. Penguin.

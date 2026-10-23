@@ -1,0 +1,207 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_DG3KJVJR3bzNHrNw",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/key-exam-skills/trace-tables",
+ "title": "Trace Tables",
+ "page_title": "How to Complete a Trace Table: CIE A Level Computer Science",
+ "path": {
+  "segs": [
+   "21-exam-skills",
+   "key-exam-skills",
+   "trace-tables"
+  ],
+  "section": "21-exam-skills",
+  "topic": "key-exam-skills",
+  "leaf": "trace-tables"
+ },
+ "titles": {
+  "section": "21. Exam skills",
+  "topic": "Key Exam Skills",
+  "subtopic": "Trace Tables"
+ },
+ "updated_at": "2026-10-16T12:08:52.916Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_5MFgHfjqYnvtT4gx",
+   "name": "Bridgette Barrett",
+   "role": "Development Editor"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_g79hZzF2G9RPjDkW",
+  "spcpt_yqFvS9p2V6VGgdkb",
+  "spcpt_P9kBrfg8bk36kw9Y",
+  "spcpt_4M8K3phHgPzQrwtX"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 30,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_g79hZzF2G9RPjDkW",
+   "name": "What a trace table question tests",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What a trace table question tests"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a trace table question in 9618?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **trace table** records the value of each variable, and any output, as an algorithm is **dry run** one statement at a time\n- In 9618, trace tables for pseudocode appear in **Paper 2**, usually worth **5 or 6 marks**\n\n  - **Paper 1** also asks you to trace an assembly language program, and **Paper 3** has asked for a trace of a recursive function\n- The question gives the pseudocode, the starting data and a table with the column headings already filled in\n- The command word is almost always **Complete**, for example:\n\n  - \"Complete the trace table by dry running the procedure when it is called as follows: `CALL Process(\"X3Y2W4\")`\"\n  - \"Complete the trace table below by dry running the procedure `Encode()` when the following values are input: 12, 24, 57, 43, 56, 22, 31, 32, 47, 99, 0\"\n- The question tests whether you can follow the **exact** logic of the code, including loops, selection, array indexes and string functions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How are trace tables marked?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Mark schemes split the table into **zones** or **groups of rows** and award one mark per zone\n\n  - For example, one 6-mark trace table was marked as: one mark for the initialisation row, one mark for each of the first four iterations and one mark for the final iteration\n- A mistake in one zone does not lose every mark, but an error that is **carried forward** into later rows can make those zones wrong too\n- Marks are only given when every value in the zone is correct, so accuracy matters more than speed"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_yqFvS9p2V6VGgdkb",
+   "name": "Step-by-step method",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Step-by-step method"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you complete a trace table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Follow these steps for every trace table question:\n\n  1. **Read the whole algorithm first** and find the loop, what ends it and which variables change inside it\n  2. **Fill in the initial values** on the first row, exactly as the code assigns them, before the loop starts\n  3. **Work through one statement at a time**, in the order the code runs, not the order of the columns\n  4. **Only write a value when it changes**; leave a cell empty if the variable keeps its value\n  5. **Start a new row** when a variable that already has a value on the current row changes again\n  6. **Check the loop condition every time** the loop is about to repeat, using the current values\n  7. **Record output exactly as it would be displayed**\n- Leave the left-over blank rows empty; the number of rows printed is not a clue to the number of iterations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Example: a simple FOR loop"
+  },
+  {
+   "type": "bullets",
+   "md": "- The pseudocode below adds the numbers 1 to 3"
+  },
+  {
+   "type": "table",
+   "md": "| Count | Total | OUTPUT |\n|---|---|---|\n|   | 0 |   |\n| 1 | 1 |   |\n| 2 | 3 |   |\n| 3 | 6 |   |\n|   |   | 6 |"
+  },
+  {
+   "type": "bullets",
+   "md": "- The first row holds the initial value of `Total`; `Count` has no value yet\n- **Never add a row for a FOR loop counter going past its end value**: the loop stops after `Count` reaches 3, so `Count` is never shown as 4"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Before you write anything in the table, find the statement that ends the loop and predict how many times it will run, then check your table matches"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_P9kBrfg8bk36kw9Y",
+   "name": "Tracing loops, arrays and functions",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Tracing loops, arrays and functions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What changes when the loop is a WHILE or REPEAT loop?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **WHILE** loop checks its condition **before** each iteration, so the loop body may never run at all\n- A **REPEAT ... UNTIL** loop checks its condition **after** each iteration, so the body always runs at least once\n- When the condition ends the loop, nothing changes, so **no new row is needed** just for the check\n- With **input values** (for example \"12, 24, 57, ... 0\"), use each value once, in order, and stop when the loop ends, even if values are left over"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tracing nested loops"
+  },
+  {
+   "type": "bullets",
+   "md": "- The inner loop runs **completely** for every single iteration of the outer loop\n- Write both counters as columns and update the inner counter on every row\n- The outer counter only changes when the inner loop has finished"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tracing arrays"
+  },
+  {
+   "type": "bullets",
+   "md": "- Each array element in the table gets **its own column**, such as `Mix[1]` to `Mix[4]`\n- When the index is a variable, work out the index **first**, then find the element\n\n  - If `Index` is 3, `Mix[Index] ← Mix[Index] - 1` changes `Mix[3]` only\n- An element keeps its value until the code changes it, so look back up the column for its latest value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tracing functions and string handling"
+  },
+  {
+   "type": "bullets",
+   "md": "- Use the **Insert** to check exactly what each built-in function returns; the [Paper 2 guide](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/paper-guides/paper-2-problem-solving-and-programming/) explains how to use it\n\n  - `MID(\"X3Y2W4\", 3, 1)` returns `\"Y\"`, the 1 character starting at position 3\n  - `LEFT(Result, 3)` returns the first 3 characters of `Result`\n  - `STR_TO_NUM(\"3\")` returns the number 3, not the string \"3\"\n- Keep data types consistent with the question: strings in quotation marks, characters in single quotes, numbers without quotes\n\n  - The **OUTPUT** column is different: write output exactly as it is displayed, without quotation marks\n- When a function is called, trace its parameters as the values passed in, and write the **returned value** in the column of the variable that receives it"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_4M8K3phHgPzQrwtX",
+   "name": "Common mistakes in trace tables",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Common mistakes in trace tables"
+  },
+  {
+   "type": "bullets",
+   "md": "- Examiner reports for 9618 identify these mistakes:\n\n  - **Missing the initial values**: one series' report noted that otherwise good answers \"missed the initial values\", which is a full mark lost\n  - **Merging iterations**: the same report stressed that students must \"keep the values of variables distinct for each iteration of the loop\"\n  - **Quotation marks around output**: in assembly language traces in Paper 1, otherwise correct tables lost marks for putting quotation marks around the output\n  - **Missing the final value**: examiners noted answers that left out the final value of a loop counter (`Index` = 11) after a conditional loop ended\n- Other mistakes that cost marks:\n\n  - Running a loop one time too many or one time too few (an **off-by-one error**), often by checking the loop condition with old values\n  - Using `/` and `DIV` interchangeably: `DIV` gives the whole-number part only, so `583 DIV 10` is 58"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The procedure `Process()` is written in pseudocode:\n\nComplete the trace table by dry running the procedure when it is called as follows:\n\n`CALL Process(5837)`\n\n**[5]**\n\n**Answer**:\n\n| Num | Digit | Total | Count | OUTPUT |\n|---|---|---|---|---|\n| 5837 |   | 0 | 0 |   |\n| 583 | 7 |   | 1 |   |\n| 58 | 3 |   | 2 |   |\n| 5 | 8 | 8 |   |   |\n| 0 | 5 |   | 3 |   |\n|   |   |   |   | Even total: 8, odd digits: 3 |\n\nOne mark for each of:\n\n- the initialisation row **[1 mark]**\n- the first two iterations **[1 mark]**\n- the third iteration **[1 mark]**\n- the fourth iteration, with `Num` reaching 0 **[1 mark]**\n- the output **[1 mark]**\n\n`MOD 10` takes the last digit and `DIV 10` removes it, so the digits are processed from right to left: 7, 3, 8, 5. The loop ends when `Num` is 0, so there is no fifth iteration. See [Writing Pseudocode in the Exam](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/key-exam-skills/writing-pseudocode-in-the-exam/) for how `MOD` and `DIV` work."
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- When you finish, run your eye down each column: a variable should only change on rows where the code actually assigns it a new value"
+  }
+ ]
+}

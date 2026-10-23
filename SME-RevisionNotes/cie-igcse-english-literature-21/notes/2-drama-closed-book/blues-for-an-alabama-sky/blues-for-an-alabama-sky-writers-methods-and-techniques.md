@@ -3,7 +3,7 @@ note_id: "rn_TJsVFY4PZPRNh9Kw"
 title: "Blues for an Alabama Sky: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-writers-methods-and-techniques
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-writers-methods-and-techniques
-updated_at: "2026-10-11T10:19:57.419Z"
+updated_at: "2026-10-21T12:40:32.713Z"
 spec_point_ids: ["spcpt_C2nGP3b7Y2Wysm8D", "spcpt_99GTwJMXbDxCnsqT", "spcpt_3Vg9xxg2c2Z2kFRm", "spcpt_VwpWmVTFRkpvTnR2"]
 spec_point_codes: []
 guided_study: false
@@ -201,6 +201,6 @@ There is plenty of subtle and more explicit [symbolism](https://www.savemyexams.
   - The play’s characters all have aspects of these icons, whether it’s the fashion of Guy (Baker), performance of Angel (Hughes) or the activism of Sanger (Delia/Sam)
   - More than just establishing the setting, this could be Cleage showing us the mundane, normal lives, and the struggles that came with them, that these icons may have faced
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

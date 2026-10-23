@@ -3,7 +3,7 @@ note_id: "rn_BGm7PYdvDB7xvCxH"
 title: "No.14 The Woman's Rose"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-14-the-womans-rose
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-14-the-womans-rose
-updated_at: "2026-10-11T10:19:06.161Z"
+updated_at: "2026-10-21T12:40:43.027Z"
 spec_point_ids: ["spcpt_6cjXpq7nzMV6tNdf", "spcpt_VzG6M9pMG7X6Y2pW", "spcpt_RtFCx4fYg7ZnY6zt", "spcpt_hRmXWv66pwrmrJBT", "spcpt_ybz3H5fj4qWqqWYq"]
 spec_point_codes: []
 guided_study: false
@@ -197,6 +197,6 @@ Schreiner’s story criticises *fickle* and *superficial* attitudes to female be
 
   - Schreiner draws connections between the reliability of the changing seasons and the ever-lasting power of the rose to represent the female bond
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

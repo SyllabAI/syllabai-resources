@@ -3,7 +3,7 @@ note_id: "rn_TnJJ3YsT2gNZNVZ7"
 title: "The War of the Worlds: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-characters
 path: 1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-characters
-updated_at: "2026-10-11T10:47:56.403Z"
+updated_at: "2026-10-21T12:41:00.473Z"
 spec_point_ids: ["spcpt_Nv6ChqXpjfDtnVy3", "spcpt_MJqNnWyZy5r4vvGp", "spcpt_Dh73z2sv24TmD8t7", "spcpt_3QGYkjDgRH3VTDYZ", "spcpt_WZKYhQ8zH5mZJqzs", "spcpt_SfwFnJZhQm4fP9z7", "spcpt_vxbhxNSQMh78Jrb4", "spcpt_vYskZC9DD6VX3x6V"]
 spec_point_codes: []
 guided_study: false
@@ -197,6 +197,6 @@ The narrator is integral to the plot because he tells the story of the Martiansâ
 > 
 > Take time to revise all the characters.
 
-#### Sources
+### Sources
 
 Wells, H. G. (2005). The War of the Worlds. Penguin Classics.

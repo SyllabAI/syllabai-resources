@@ -3,7 +3,7 @@ note_id: "rn_ySr5Tr9Dmcfh9sH4"
 title: "Fire on the Mountain: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-writers-methods-and-techniques
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-writers-methods-and-techniques
-updated_at: "2026-10-11T11:21:25.703Z"
+updated_at: "2026-10-21T12:40:36.343Z"
 spec_point_ids: ["spcpt_dzJH2DbCnzwzTwkj", "spcpt_SwWJyPCtHzjyCgKp", "spcpt_C3cJy3Zj8YZJgj3s"]
 spec_point_codes: []
 guided_study: false
@@ -145,6 +145,6 @@ There are moments in the novel that could be seen as [foreshadowing](https://www
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

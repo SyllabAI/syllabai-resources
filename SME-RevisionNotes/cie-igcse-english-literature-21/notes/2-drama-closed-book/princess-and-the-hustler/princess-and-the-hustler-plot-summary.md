@@ -3,7 +3,7 @@ note_id: "rn_K2Hrc2zwRz5Xm8WD"
 title: "Princess and the Hustler: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-plot-summary
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-plot-summary
-updated_at: "2026-08-05T07:26:08.848Z"
+updated_at: "2026-10-21T12:40:31.095Z"
 spec_point_ids: ["spcpt_MY2TSGV2SGRY9zqR", "spcpt_mYrnx83znw73Vy4D", "spcpt_wrcPjNrCtdJSk7YF", "spcpt_6vj549Kd8D8M73BW"]
 spec_point_codes: []
 guided_study: false
@@ -234,6 +234,6 @@ Scene one
 - Princess tells Wendell that he needs to crown her the winner of the pageant
 - Once crowned, the “room explodes into a world of pageantry” and “black women of all sizes and nations” surround Princess, who stands in the centre and bows
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

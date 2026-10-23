@@ -3,7 +3,7 @@ note_id: "rn_fkMDDJy32rwMsNfK"
 title: "Princess and the Hustler: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-themes-
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-themes-
-updated_at: "2026-09-15T09:45:40.920Z"
+updated_at: "2026-10-21T12:40:30.606Z"
 spec_point_ids: ["spcpt_SKJyFVbZZPPk55NH", "spcpt_K528V9QhKN6qvJYd", "spcpt_x7V95TVcWttpX6Zy", "spcpt_DR9PPT4CqpjjyRs5", "spcpt_KG8zjBMdFFvyQPYQ"]
 spec_point_codes: []
 guided_study: false
@@ -181,6 +181,6 @@ Princess & The Hustler *unequivocally*** **celebrates the Bristol Bus Boycott of
 - Odimba uses the play to foreground the experiences of oppression faced by  “historically excluded communities”
 - Odimba celebrates the civil rights activism and protest that led to the defeat of the *colour bar* in Bristol in the 1960s
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

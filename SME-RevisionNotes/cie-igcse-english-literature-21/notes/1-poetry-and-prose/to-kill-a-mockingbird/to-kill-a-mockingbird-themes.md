@@ -3,7 +3,7 @@ note_id: "rn_g9WRgyPTKCVYfQMt"
 title: "To Kill a Mockingbird: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-themes
 path: 1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-themes
-updated_at: "2026-10-11T10:20:43.014Z"
+updated_at: "2026-10-21T12:40:40.796Z"
 spec_point_ids: ["spcpt_rfrqyVkxky5XHfHJ", "spcpt_DHwqx23VYHgR2Jj3", "spcpt_rChDPCYPjmKtXFgn", "spcpt_CPJwYpnsgKjzWHNk", "spcpt_5XGXhkDBK2YZ9zZj", "spcpt_mW6TsdVYRMsCcHNC"]
 spec_point_codes: []
 guided_study: false
@@ -35,7 +35,7 @@ Here are some of the key themes in To Kill a Mockingbird to think about:
 
 In Harper Lee’s coming-of-age story, To Kill a Mockingbird, the author explores the varied attitudes people hold toward those whom they perceive to be different. While racism and racial prejudice stand out as a central theme through the story of Tom Robinson's unjust trial, the novel also addresses difference in its handling of social norms, class and gender.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The way in which Scout, Jem and Dill *ostracise* Boo Radley without ever having met him *epitomises* the prejudice that *permeates*** **the town of Maycomb and its community:
 
@@ -97,7 +97,7 @@ In Harper Lee’s coming-of-age story, To Kill a Mockingbird, the author explore
   - It is ironic that the class grasps the injustice of persecuting Jewish people yet fails to apply the same logic to the treatment of individuals in Maycomb
   - Lee suggests hypocrisy is often prevalent where discrimination is rife
 
-**What is Lee’s intention?**
+### What is Lee’s intention?
 
 - In To Kill a Mockingbird, Harper Lee depicts a society rife with prejudice, showcasing the detrimental effects of discrimination in its various forms such as racism, sexism and classism
 - The novel also illuminates the inequality present in 1930s America and explores how *adversity* affects the community
@@ -115,7 +115,7 @@ In Harper Lee’s coming-of-age story, To Kill a Mockingbird, the author explore
 
 The [motif](https://www.savemyexams.com/glossary/gcse/english-literature/motif-definition/) of inside versus outside recurs throughout To Kill a Mockingbird, serving as a [symbolic](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/) representation of the rigid boundaries within Maycomb society, [characterised](https://www.savemyexams.com/glossary/gcse/english-literature/characterisation-definition/) by *dichotomies* such as black and white, male and female, rich and poor.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Atticus explains to his children that it is impossible to understand a person until “you climb inside his skin and walk around in it”
 - However, inside and outside are shown to be separate in Maycomb:
@@ -142,7 +142,7 @@ The [motif](https://www.savemyexams.com/glossary/gcse/english-literature/motif-d
   
     - “They said he just broke into a blind raving charge at the fence and started climbing over”.  (Chapter 24)
 
-**What is Lee’s intention?**
+### What is Lee’s intention?
 
 - Lee uses the themes of inside and outside to show how Maycomb society is divided and to illustrate the drawbacks of thinking in simple terms
 - The novel implies that genuine understanding of others involves moving beyond existing categories by exploring the areas in between them
@@ -162,7 +162,7 @@ The [motif](https://www.savemyexams.com/glossary/gcse/english-literature/motif-d
 
 The novel deals with complex and adult issues such as discrimination and rape, but is narrated by Scout who is almost six years old when the novel begins and almost nine years old at the end of the novel.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The literary device of employing a child narrator enables Lee to depict Maycomb and its inhabitants through the lens of a child's perspective:
 
@@ -190,7 +190,7 @@ The novel deals with complex and adult issues such as discrimination and rape, b
   
     - However, later on she recalls “I did not understand the subtlety of Tom’s predicament” (Chapter 19)
 
-**What is Lee’s intention?**
+### What is Lee’s intention?
 
 - Through the perspective of a child narrator, Lee offers an honest portrayal of Maycomb with all its complexities and problems
 - The children’s approach to Boo mirrors the rumours and ignorance that fuel prejudice in the adult world, simultaneously revealing the *absurdity* of discrimination
@@ -208,7 +208,7 @@ The novel deals with complex and adult issues such as discrimination and rape, b
 
 The themes of justice and injustice run throughout To Kill a Mockingbird, anchored by the injustice of Tom Robinson’s conviction for rape.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Maycomb is sustained by a social hierarchy that breeds injustice and discrimination in several ways:
 
@@ -235,7 +235,7 @@ The themes of justice and injustice run throughout To Kill a Mockingbird, anchor
   
     - In these instances, Lee illustrates the idea that there is no good in retaliation
 
-** What is Lee’s intention?**
+### What is Lee’s intention?
 
 - Lee highlights injustice in various forms to shed light on the unfairness of social inequality
 - Lee showcases the danger of being led by biases and highlights the importance of behaving with empathy and kindness
@@ -252,7 +252,7 @@ The themes of justice and injustice run throughout To Kill a Mockingbird, anchor
 
 Education is a significant theme both in terms of formal teaching delivered at school and the learnings that take place in the outside world.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Scout is dismayed that her teacher, Miss Caroline, is critical of the fact she has already been taught to read, instead wanting her to learn according to the *Dewey Decimal System*:
 
@@ -267,11 +267,11 @@ Education is a significant theme both in terms of formal teaching delivered at s
 
   - Scout and Jem learn the importance of morality, open-mindedness and fairness from their father in direct contrast to what Scout experiences in the classroom
 
-**What is Lee’s intention?**
+### What is Lee’s intention?
 
 - The portrayal of education in the novel shows the importance of thinking critically and individually in order to change the world for the better
 - Harper Lee offers a critique of formal school-based education, implying that it is important for people to question things and to learn from life experience beyond the classroom
 
-#### Sources
+### Sources
 
 **Lee, H. (2010). To Kill a Mockingbird. Arrow Books.**

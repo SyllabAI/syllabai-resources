@@ -3,7 +3,7 @@ note_id: "rn_HGCnTgkgGTMnYMZV"
 title: "Great Expectations: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/great-expectations/great-expectations-character-quotations
 path: 1-poetry-and-prose/great-expectations/great-expectations-character-quotations
-updated_at: "2026-09-23T08:32:36.881Z"
+updated_at: "2026-10-21T12:41:02.623Z"
 spec_point_ids: ["spcpt_RKxkkGkbZvhkXDvC", "spcpt_ddDhfDRCMRQkX28k", "spcpt_ydTySs7tYY5PXbDD", "spcpt_gC243ppVJwptTfXJ"]
 spec_point_codes: []
 guided_study: false
@@ -135,6 +135,6 @@ We’ve included the best Great Expectations quotes — with detailed analysis �
 |---|---|---|---|
 | - Ironically, Magwitch himself does not develop much as a character:<br><br>  - His perspective on wealth and status stays the same and his ambition, to see Pip as a gentleman, satisfies him<br>  - He cannot see that Pip’s status has not brought him happiness or character<br>  - Perhaps Dickens implies that his victimisation makes him accept the status quo |   |   |   |
 
-#### Sources
+### Sources
 
 Dickens, Charles. (2008). *Great Expectations*. Oxford.

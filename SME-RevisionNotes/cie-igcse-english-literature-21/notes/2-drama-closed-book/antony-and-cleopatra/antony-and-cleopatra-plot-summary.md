@@ -3,7 +3,7 @@ note_id: "rn_vDCRpNjrTzF8S5KV"
 title: "Antony and Cleopatra: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-plot-summary
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-plot-summary
-updated_at: "2026-10-11T11:21:21.016Z"
+updated_at: "2026-10-21T12:40:34.955Z"
 spec_point_ids: ["spcpt_scpC2vHTpRgHJY88", "spcpt_6bx75SypKfPx7bBr", "spcpt_nyTDs3KDH543WtRG"]
 spec_point_codes: []
 guided_study: false
@@ -439,6 +439,6 @@ Knowing Caesar plans to parade her as a trophy in Rome, Cleopatra chooses to die
 - Octavius arrives and acknowledges Cleopatra’s royal determination in choosing death
 - He concludes the play by ordering her to be buried by Antony, uniting the “pair so famous”
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

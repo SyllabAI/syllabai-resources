@@ -3,7 +3,7 @@ note_id: "rn_zK5CDRNKGGJrRz69"
 title: "A Streetcar Named Desire: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-characters
 path: 2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-characters
-updated_at: "2026-10-11T10:49:06.903Z"
+updated_at: "2026-10-21T12:41:44.735Z"
 spec_point_ids: ["spcpt_xxVbsJypbTYrvVH6", "spcpt_s9RNSpCVkHNGFvSj", "spcpt_xSfsnNq2Vd5h3Q7j", "spcpt_NcxqdCVvzpHHPNgs", "spcpt_WpWkpxCPpSRSCqfm", "spcpt_pkPCkSzqXMSb5kJt"]
 spec_point_codes: []
 guided_study: false
@@ -250,6 +250,6 @@ Below you will find character profiles of:
 - Like Stanley, he is a vulgar, hot-headed, physically fit man and an abusive husband
 - He and Stanley’s other poker friend, Pablo, seem to disagree with the decision to call the doctor on Blanche, but do not challenge Stanley directly
 
-#### Sources
+### Sources
 
 Williams, Tennessee. A Streetcar Named Desire. Edited by Elliott Martin Browne, Penguin, 2009. Accessed 11 April 2026.

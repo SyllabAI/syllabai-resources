@@ -3,7 +3,7 @@ note_id: "rn_ZDn2vQ9K7SDBbKn6"
 title: "Antony and Cleopatra: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-themes
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-themes
-updated_at: "2026-10-11T10:20:24.174Z"
+updated_at: "2026-10-21T12:40:34.729Z"
 spec_point_ids: ["spcpt_pr6NHvrJX6TXYwJ8", "spcpt_cZPywqKYmsngVxwV", "spcpt_cDKXdBFb9m3Z2r5k"]
 spec_point_codes: []
 guided_study: false
@@ -190,6 +190,6 @@ The play is filled with messages and warnings that appear to point the audience 
   - Shakespeare may have used this to critique societies that rely on superstition rather than accountability, reflecting Jacobean anxieties about leadership and uncertainty
   - The play suggests a warning to his audience that whilst fatalism may feel reassuring, it can weaken decision-making and contribute to downfall
 
-#### Sources
+### Sources
 
 Shakespeare, W., Munday, A., Fletcher, J., Middleton, T., Heywood, T., Peele, G., Dekker, T., Wilkins, G., & Chettle, H. (2005). The Oxford Shakespeare: The Complete Works (Second Edition). In Oxford University Press eBooks. [https://doi.org/10.1093/actrade/9780199267170.book.1](https://doi.org/10.1093/actrade/9780199267170.book.1)

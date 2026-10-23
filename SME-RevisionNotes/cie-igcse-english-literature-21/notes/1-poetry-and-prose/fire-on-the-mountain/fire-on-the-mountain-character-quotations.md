@@ -3,7 +3,7 @@ note_id: "rn_4v3c76ktpcZDrNwp"
 title: "Fire on the Mountain: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-character-quotations
 path: 1-poetry-and-prose/fire-on-the-mountain/fire-on-the-mountain-character-quotations
-updated_at: "2026-10-11T11:20:05.659Z"
+updated_at: "2026-10-21T12:40:36.181Z"
 spec_point_ids: ["spcpt_dx4XNTCCxssfs5ZC", "spcpt_RJNSTKwf9jq9YxGs", "spcpt_qJ896gDgfDntrBgw", "spcpt_8zF2wPrxG4GzN4Wj"]
 spec_point_codes: []
 guided_study: false
@@ -134,6 +134,6 @@ Here we will examine some important quotations from the following key characters
 
 Desai, A. (1999) *Fire on the Mountain *(Vintage)
 
-#### Sources
+### Sources
 
 Desai, Anita. (1999). Fire on the Mountain. Vintage.

@@ -3,7 +3,7 @@ note_id: "rn_7jb8m87tFq5tPw7d"
 title: "A Midsummer Night's Dream: Writer's Methods & Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-writers-methods-and-techniques
 path: 2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-writers-methods-and-techniques
-updated_at: "2026-10-11T11:20:09.769Z"
+updated_at: "2026-10-21T12:40:34.929Z"
 spec_point_ids: ["spcpt_KgBcgyWVb4Z97pgx", "spcpt_JXZtM434bV4dzFkj", "spcpt_WCkv42VQhzKJdp5T"]
 spec_point_codes: []
 guided_study: false
@@ -102,6 +102,6 @@ A motif is a recurring or repeated pattern that is a common literary device that
 
   - The magical flower’s juice, the use of flowers in the spell and the weaving of flowers into Bottom’s hair are symbolic of love’s influence
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

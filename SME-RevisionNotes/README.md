@@ -1,6 +1,6 @@
 # SME Revision Notes (Edexcel IGCSE + IAL; Cambridge IGCSE + A Level/AS)
 
-Scraped from Save My Exams revision-notes trees (93 courses incl. the Cambridge/CAIE lanes, T-SME-CAMBRIDGE 2026-10-17); mirrors `../SME-ExamQuestion/` course-for-course. 8203/8203 leaf pages, 17611 assets, 14639 spec-point links.
+Scraped from Save My Exams revision-notes trees (93 courses incl. the Cambridge/CAIE lanes, T-SME-CAMBRIDGE 2026-10-17); mirrors `../SME-ExamQuestion/` course-for-course. 8384/8384 leaf pages, 17913 assets, 15163 spec-point links.
 
 Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim) + `<leaf>.md` (render). Callout variants map to typed blocks (`exam-tip` -> Exam Hint, `worked-example` -> Worked Example, `case-study` -> Case Study).
 
@@ -15,7 +15,7 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 | cie-a-level-biology-25 | 239/239 | 458 | 273 |
 | cie-a-level-business-23 | 139/139 | 295 | 482 |
 | cie-a-level-chemistry-25 | 239/239 | 756 | 330 |
-| cie-a-level-computer-science-19 | 135/135 | 203 | 244 |
+| cie-a-level-computer-science-19 | 144/144 | 203 | 282 |
 | cie-a-level-economics-23 | 159/159 | 286 | 507 |
 | cie-a-level-maths-20-mechanics | 31/31 | 111 | 36 |
 | cie-a-level-maths-20-probability-and-statistics-1 | 31/31 | 104 | 46 |
@@ -29,14 +29,14 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 | cie-igcse-accounting-25 | 105/105 | 74 | 166 |
 | cie-igcse-biology-23 | 148/148 | 245 | 239 |
 | cie-igcse-business-23 | 99/99 | 134 | 216 |
-| cie-igcse-business-25 | 20/20 | 41 | 51 |
+| cie-igcse-business-25 | 85/85 | 186 | 276 |
 | cie-igcse-chemistry-23 | 107/107 | 236 | 175 |
 | cie-igcse-computer-science-23 | 97/97 | 88 | 176 |
-| cie-igcse-economics-20 | 62/62 | 62 | 126 |
-| cie-igcse-economics-25 | 8/8 | 5 | 16 |
+| cie-igcse-economics-20 | 79/79 | 76 | 163 |
+| cie-igcse-economics-25 | 92/92 | 127 | 212 |
 | cie-igcse-english-language-20 | 45/45 | 105 | 208 |
 | cie-igcse-english-language-25 | 53/53 | 55 | 183 |
-| cie-igcse-english-literature-21 | 167/167 | 224 | 686 |
+| cie-igcse-english-literature-21 | 173/173 | 245 | 714 |
 | cie-igcse-environmental-management-25 | 82/82 | 107 | 203 |
 | cie-igcse-further-maths-additional-maths-25 | 67/67 | 230 | 120 |
 | cie-igcse-geography-20 | 69/69 | 212 | 115 |

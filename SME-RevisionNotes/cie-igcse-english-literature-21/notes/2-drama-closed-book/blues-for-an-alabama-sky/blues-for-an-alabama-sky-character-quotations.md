@@ -3,7 +3,7 @@ note_id: "rn_znfkGhmsdGNm9XWM"
 title: "Blues for an Alabama Sky: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-character-quotations
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-character-quotations
-updated_at: "2026-10-11T10:21:34.437Z"
+updated_at: "2026-10-21T12:40:32.482Z"
 spec_point_ids: ["spcpt_Bj5F9cbht6zh8K9G", "spcpt_hP63H8QqDrqhjp6q", "spcpt_XnnP6Zbb7cKm4GSd", "spcpt_VnkgS9j7z2BJTVdg", "spcpt_xKXf2zB7JQ2YgcgN"]
 spec_point_codes: []
 guided_study: false
@@ -121,6 +121,6 @@ If you can recall quotes connected to the play’s themes, it becomes easier to 
 |---|---|---|---|
 | - The fury inside Leland starts to come out:<br><br>  - Angel thinks he is a mild Christian man, but his righteousness, and his hurt, mean he can justify his anger<br><br>- He sees both Angel and Sam as wrong, and they have taken something from him:<br><br>  - He believes that the child wasn’t theirs, it was his<br>  - He shows little concern for Angel<br><br>- Leland wants his old life back, and his son died with his wife:<br><br>  - Here, he sees a chance to get some of that back, but then finds he has lost another child<br>- Leland also thinks abortion is a sin, and Sam is a sinner for performing the abortion<br>- This is also another sign of his traditional views:<br><br>  - Sam is the one who takes the blame because, to him, women have little control or *autonomy* |   |   |   |
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

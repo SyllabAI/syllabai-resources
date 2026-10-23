@@ -3,7 +3,7 @@ note_id: "rn_x8sR9RFdDqNKFRHc"
 title: "Death & the King's Horseman: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/death-and-the-kings-horseman/death-and-the-kings-horseman-themes
 path: 2-drama-closed-book/death-and-the-kings-horseman/death-and-the-kings-horseman-themes
-updated_at: "2026-09-23T12:59:34.414Z"
+updated_at: "2026-10-21T12:33:32.831Z"
 spec_point_ids: ["spcpt_xR3wjS3VvTrfmSds", "spcpt_MZx7V7pwrWpJHDHN", "spcpt_GVGmcTRQDyRj5jYR", "spcpt_3HsZ8qbTTpnWsTDJ", "spcpt_6RkYvSPPKfqnHtTs"]
 spec_point_codes: []
 guided_study: false
@@ -41,7 +41,7 @@ Below are some of the key themes that could be explored in Death and the King’
 
 Death is a central theme of the play, as demonstrated in the title of the play, which refers to a *Yoruba*** **custom, a *ritual*** **sacrifice that must happen one month after the king’s death, wherein the king’s horseman becomes honour-bound to commit suicide and follow the king to the afterlife. Soyinka’s play explores how the protagonist’s lust for life hinders an honourable death.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The play opens as Elesin, the king’s horseman and [protagonist](https://www.savemyexams.com/glossary/gcse/english-literature/protagonist-definition/) of the play, prepares for a *ritual* suicide in order to follow the king into the afterlife
 - Soyinka creates a vibrant and noisy mood in the marketplace:
@@ -86,7 +86,7 @@ Death is a central theme of the play, as demonstrated in the title of the play, 
   - She admonishes Simon for his refusal to accept death, saying that just by being alive does not mean “the stain of death will not cling”
   - She exits with Elesin’s pregnant bride and turns her attention to the “unborn”, those who are not living or dead
 
-**What is Soyinka's intention? **
+### What is Soyinka's intention?
 
 - Soyinka challenges attitudes to death by making a Yoruba custom the focus of the play’s action
 - By setting the play at the time of British rule and the Second World War, he is able to highlight hypocritical reactions to cultural beliefs about death
@@ -105,7 +105,7 @@ Death is a central theme of the play, as demonstrated in the title of the play, 
 
 Soyinka explores themes of power by illustrating dynamics between those who have power and those who do not. The play particularly depicts imbalances of power between men and women, native peoples and foreign rulers, and leaders and *subordinates*. Soyinka draws attention to the way power imbalances can influence events with disastrous consequences.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Soyinka frequently highlights the power of the women in the community
 - The female characters can foresee events and are able to warn other characters of potential problems before they occur, particularly on a cultural level:
@@ -140,7 +140,7 @@ Soyinka explores themes of power by illustrating dynamics between those who have
   - His dismissive attitude to the customs of his community (which he calls “mumbo-jumbo”) leads to disorder
   - When Simon is frustrated that some local customs he has failed to stamp out remain, Soyinka illustrates *oppressive* control
 
-**What is Soyinka's intention? **
+### What is Soyinka's intention?
 
 - Soyinka’s tragedy points to the damaging effects of imbalanced power structures
 - The play highlights how abusive and *oppressive* authorities can *disenfranchise* those under their control and influence
@@ -159,7 +159,7 @@ Soyinka explores themes of power by illustrating dynamics between those who have
 
 One of the key ideas examined in Death and the King’s Horseman is the way ignorance leads to misunderstandings, which in turn lead to conflict. Soyinka sets his play in a village with diverse religious beliefs and traditions to explore intolerance and *prejudice* specifically related to religious and cultural beliefs.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The play is set in Nigeria during the Second World War at a time when the country was under British rule
 - Soyinka demonstrates how this creates conflict in the village:
@@ -195,7 +195,7 @@ One of the key ideas examined in Death and the King’s Horseman is the way igno
     - She believes her culture to be superior and civilised
   - Simon maintains he has saved Olunde by sending him to England, although it is made clear this was done against his father’s will
 
-**What is Soyinka's intention? **
+### What is Soyinka's intention?
 
 - The play presents a native culture and religion as a threat to *colonists*
 - Soyinka raises the profile of oppressed cultures through the play’s focus on the Yoruba tribe and their religious beliefs
@@ -216,7 +216,7 @@ One of the key ideas examined in Death and the King’s Horseman is the way igno
 
 Death and the King's Horseman closely examines the idea of an individual’s personal duty and responsibility to community. Soyinka’s main characters, from two different cultures, both deny their duties, and this raises questions about the human instinct for self-preservation.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - In Death and the King’s Horseman, the [protagonist](https://www.savemyexams.com/glossary/gcse/english-literature/protagonist-definition/) and the [antagonist](https://www.savemyexams.com/glossary/gcse/english-language/antagonist-definition/) both fail to carry out their duties to their community
 - Soyinka’s tragedy presents these failures as a consequence of [hubris](https://www.savemyexams.com/glossary/gcse/english-literature/hubris-definition/) and an irresponsible attitude towards duty
@@ -244,7 +244,7 @@ Death and the King's Horseman closely examines the idea of an individual’s per
     - He refers to a British naval captain who sacrificed himself to save lives
   - His personal sacrifice to fulfil his father’s duty is presented as heroic
 
-**What is Soyinka's intention? **
+### What is Soyinka's intention?
 
 - The play is an examination of shared responsibility
 - Soyinka highlights the dangers of self-interest

@@ -3,7 +3,7 @@ note_id: "rn_C6W6zp7WxhN5DwDZ"
 title: "Death & the King's Horseman: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/death-and-the-kings-horseman/death-and-the-kings-horseman-key-quotations
 path: 2-drama-closed-book/death-and-the-kings-horseman/death-and-the-kings-horseman-key-quotations
-updated_at: "2026-10-11T09:41:22.326Z"
+updated_at: "2026-10-21T12:33:32.125Z"
 spec_point_ids: ["spcpt_YRYRrzjSHZrXt5H4", "spcpt_kzvv9yFZYSwq4WfW", "spcpt_2frB3S6b8QpbdHkk", "spcpt_24jhSC7M49tHnJGg", "spcpt_7ncxmNmHzcBNcPXf"]
 spec_point_codes: []
 guided_study: false
@@ -47,7 +47,7 @@ Death is a central theme of the play, as demonstrated in the title of the play, 
 
 **“When the moment comes, don’t turn the food to rodents’ droppings in their mouth. Don’t let them taste the ashes of the world” **– Iyaloja, Act 1
 
-**Meaning and context**
+### Meaning and context
 
 - At the beginning of the first act, Elesin suggests that the purpose of life is to be honourable and that an individual is essentially dead if they are dishonourable
 - Towards the end of the act, Iyaloja reminds Elesin of the significance of his self-sacrifice:
@@ -55,7 +55,7 @@ Death is a central theme of the play, as demonstrated in the title of the play, 
   - She says that if he fails at his moment of death, their world will burn
   - She uses a *proverb* that implies Elesin will go to the afterlife tasting rat droppings instead of praise
 
-**Analysis**
+### Analysis
 
 - At the beginning, Elesin reassures the village that he is ready to die in his position as king’s horseman and establishes himself as honourable and respected in his community:
 
@@ -73,7 +73,7 @@ Death is a central theme of the play, as demonstrated in the title of the play, 
 
 **“You who play with strangers’ lives, who even usurp the vestments of our dead, yet believe that the stain of death will not cling to you”** – Iyaloja, Act 5
 
-**Meaning and context**
+### Meaning and context
 
 - In Act 2, when Simon Pilkings is told of events in the village he tells Jane and Joseph, the servant, that he does not care what happens to the natives:
 
@@ -82,7 +82,7 @@ Death is a central theme of the play, as demonstrated in the title of the play, 
 
   - She implies he will be “stained” by the deaths for which he is responsible
 
-**Analysis**
+### Analysis
 
 - Soyinka introduces the British authority figure as dismissive of the villagers’ lives and their beliefs about death:
 
@@ -107,7 +107,7 @@ Soyinka explores themes of power by illustrating dynamics between those who have
 
 **“Then tell him to leave this market. This is the home of our mothers. We don't want the eater of white left-overs at the feast their hands have prepared”** – Girl, Act 3
 
-**Meaning and context**
+### Meaning and context
 
 - In Act 2 Simon Pilkings sarcastically tells his wife she knows nothing about local culture:
 
@@ -118,7 +118,7 @@ Soyinka explores themes of power by illustrating dynamics between those who have
   - She orders him to leave and says he intrudes in a “home” of “mothers”
 - The village girl (and the other women) mocks Amusa and says he is a “pet” or a “slave” as he eats the “left-overs” of the British, meaning he works for them
 
-**Analysis**
+### Analysis
 
 - Soyinka’s presentation of power allows him to convey cultural themes, too
 - Simon Pilkings’s disrespect for his wife is mocked in this [ironic](https://www.savemyexams.com/glossary/gcse/english-language/irony-definition/) line:
@@ -135,12 +135,12 @@ Soyinka explores themes of power by illustrating dynamics between those who have
 
 **“I know it was this thought that killed me, sapped my powers and turned me into an infant in the hands of unnamable strangers” – Elesin, Act 5**
 
-**Meaning and context**
+### Meaning and context
 
 - Elesin’s inaction has led to his failure to carry out his duty, the ritual suicide
 - Here, he blames the British influence in the colony for his weakness
 
-**Analysis**
+### Analysis
 
 - Soyinka shows Elesin’s sense of powerless under British rule with** **[imagery](https://www.savemyexams.com/glossary/gcse/english-language/imagery-definition/) connoting to his vulnerability:
 
@@ -162,7 +162,7 @@ Soyinka sets his play in a village with diverse religious beliefs and traditions
 
 **“The gods demanded only the old expired plantain but you cut down the sap-laden shoot to feed your pride” **– Iyaloja, Act 5
 
-**Meaning and context**
+### Meaning and context
 
 - At first, Elesin’s commitment to his tribe is strong:
 
@@ -171,7 +171,7 @@ Soyinka sets his play in a village with diverse religious beliefs and traditions
 - In Act 5, Iyaloja refers to this same proverb (in fact, she mentions it repeatedly throughout the play), suggesting how significant this idea is to the tribe
 - Here, she tells Simon Pilkings his interference has disappointed the gods because, instead of Elesin’s death, Olunde, his son, died instead
 
-**Analysis**
+### Analysis
 
 - Elesin is introduced as an important and committed member of the community:
 
@@ -189,13 +189,13 @@ Soyinka sets his play in a village with diverse religious beliefs and traditions
 
 **“Nonsense, he's a Moslem. Come on, Amusa, you don't believe in all this nonsense do you? I thought you were a good Moslem”** – Simon Pilkings, Act 2
 
-**Meaning and context**
+### Meaning and context
 
 - When Simon and Jane Pilkings wear *egungun* costumes to a party, the native sergeant, Amusa, expresses his disgust
 - Here, Simon responds, calling the native customs “nonsense”
 - He refers to Amusa’s religion, suggesting that as he is Muslim, he should not be concerned with offensive behaviour towards other faiths
 
-**Analysis**
+### Analysis
 
 - Soyinka presents Simon Pilkings as ignorant about the district’s culture
 - Worse, though, is his *emphatic* dismissal of other religions or cultures, belittling the Yoruba customs as “nonsense” and, later, “mumbo-jumbo”
@@ -219,7 +219,7 @@ Death and the King's Horseman closely examines the idea of personal duty and res
 
 **“And not merely my life but the lives of many” **– Elesin, Act 5
 
-**Meaning and context**
+### Meaning and context
 
 - In Act 2 Olunde tries to explain to Jane that the Yoruba sense of shared responsibility and self-sacrifice is similar to the patriotism shown in the Second World War:
 
@@ -229,7 +229,7 @@ Death and the King's Horseman closely examines the idea of personal duty and res
 
   - He tells Simon Pilkings that his interference has consequences for many people
 
-**Analysis**
+### Analysis
 
 - Olunde’s [rhetoric](https://www.savemyexams.com/glossary/gcse/english-language/rhetoric/) presents him as an intelligent critical thinker:
 
@@ -243,7 +243,7 @@ Death and the King's Horseman closely examines the idea of personal duty and res
 
 **“Well, I did my duty as I saw it. I have no regrets” **– Simon Pilkings, Act 5
 
-**Meaning and context**
+### Meaning and context
 
 - In Act 3, Amusa, a police sergeant, tells a crowd of angry women to allow him through to arrest Elesin
 - Here, he places full responsibility for his unpopular actions on “duty”:
@@ -252,7 +252,7 @@ Death and the King's Horseman closely examines the idea of personal duty and res
 - In Act 5, Simon responds to Elesin’s blame by saying he was doing his duty in a way that he believes was right
 - His lack of accountability is emphasised in his *emphatic* sentence: “I have no regrets”
 
-**Analysis**
+### Analysis
 
 - Soyinka’s play presents Amusa and Simon Pilkings as authority figures in the community with positions of responsibility
 - However, they are shown as weak and unable to manage their duties responsibly

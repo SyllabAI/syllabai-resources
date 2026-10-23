@@ -3,7 +3,7 @@ note_id: "rn_XKW5q6PNbtyXNzXg"
 title: "No.35 When It Happens"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-35-when-it-happens
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-35-when-it-happens
-updated_at: "2026-10-11T10:20:07.784Z"
+updated_at: "2026-10-21T12:40:42.159Z"
 spec_point_ids: ["spcpt_TtQ5y9hzWj6gmS8z", "spcpt_2RZPr6HvC7Z4P9nK", "spcpt_9CW85TxDS2cz2jBX", "spcpt_pTcNM7w4Mhs4rwD4", "spcpt_yWG8tsxxv7QWwrmm"]
 spec_point_codes: []
 guided_study: false
@@ -190,6 +190,6 @@ Margaret Atwood’s chilling short story When It Happens depicts a middle-aged w
 - Atwood *poignantly* depicts the growing barrier between Mrs Burridge and her husband because of her silent concern for the future
 - Through Mrs Burridge’s *morbid* thoughts and certainty that her husband will not survive, Atwood shows how thoughts about the future impact the present
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

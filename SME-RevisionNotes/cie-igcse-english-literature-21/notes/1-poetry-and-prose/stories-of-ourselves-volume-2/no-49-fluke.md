@@ -3,7 +3,7 @@ note_id: "rn_fFhZpczJVCR7SJxQ"
 title: "No.49 Fluke"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-49-fluke
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-49-fluke
-updated_at: "2026-10-11T10:20:40.310Z"
+updated_at: "2026-10-21T12:40:41.424Z"
 spec_point_ids: ["spcpt_Gg2wjH8Grmrzh6Sb", "spcpt_jGTcQ2v7dhGpRcDv", "spcpt_yxfr38TJmSN75PYx", "spcpt_y3gwzgYnFd4RG86j", "spcpt_285TsZM3449MjGDh"]
 spec_point_codes: []
 guided_study: false
@@ -194,6 +194,6 @@ The best way to revise quotations is in connection to a theme. Below you will fi
 - Gunesekera’s short sentence presents a resigned and disappointed narrator** **
 - He implies that the modern world is made up of illusions, and that something genuine is hard to find
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

@@ -3,7 +3,7 @@ note_id: "rn_vMsjvhXrqhdSWvRN"
 title: "Pride and Prejudice: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-themes
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-themes
-updated_at: "2026-09-25T10:35:45.487Z"
+updated_at: "2026-10-21T12:40:39.883Z"
 spec_point_ids: ["spcpt_gv9W4jYjwYxcbtBZ", "spcpt_VycNqmgFxTgr25MG", "spcpt_zTWG5Y7v6DB8jgC6", "spcpt_9bbzJ8xY7w9t9TQ6"]
 spec_point_codes: []
 guided_study: false
@@ -157,6 +157,6 @@ Gender inequality is a significant theme in the novel. During 19th-century Engla
   - Charlotte Lucas’ marriage of convenience is loveless and Mr Collins is presented as an absurd [caricature](https://www.savemyexams.com/glossary/gcse/english-language/caricature-definition/) whose insincere attempts at romance and *flattery* are ridiculed
 - The writer tries to highlight how rigid gender roles are and how they could ultimately be a barrier to true happiness and mutual respect
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

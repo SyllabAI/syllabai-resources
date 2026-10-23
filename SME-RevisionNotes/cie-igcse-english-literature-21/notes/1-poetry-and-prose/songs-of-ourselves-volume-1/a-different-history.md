@@ -3,7 +3,7 @@ note_id: "rn_ch7BD2VRFrb8DxHz"
 title: "A Different History"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/a-different-history
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/a-different-history
-updated_at: "2026-10-11T10:20:34.161Z"
+updated_at: "2026-10-21T12:40:46.682Z"
 spec_point_ids: ["spcpt_25HvpgKCcHsgysgN", "spcpt_skvTvySssMRz7khK", "spcpt_hPwZ6Br3xR5hG7QV"]
 spec_point_codes: []
 guided_study: false
@@ -260,7 +260,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 “Cambridge IGCSE (9–1) 0992 Literature in English syllabus for examination in 2026.” Cambridge International Education, [https://www.cambridgeinternational.org/Images/697264-2026-syllabus.pdf](https://www.cambridgeinternational.org/Images/697264-2026-syllabus.pdf). Accessed 6 August 2025.
 

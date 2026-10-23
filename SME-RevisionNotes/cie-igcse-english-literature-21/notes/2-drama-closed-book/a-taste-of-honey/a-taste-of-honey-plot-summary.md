@@ -3,7 +3,7 @@ note_id: "rn_B7jwhKvRfJSb82XQ"
 title: "A Taste of Honey: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-plot-summary
 path: 2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-plot-summary
-updated_at: "2026-09-15T09:40:18.778Z"
+updated_at: "2026-10-21T12:40:32.271Z"
 spec_point_ids: ["spcpt_yMnMkqJCRWg7shn5", "spcpt_zYhtYFX4B2vj4wJv", "spcpt_cfhtn42JGhy6dDCP", "spcpt_DkJW4Td25pbwKW9G"]
 spec_point_codes: []
 guided_study: false
@@ -133,6 +133,6 @@ The women’s desire for independence and *autonomy* is hindered by romantic rel
 
   - She sings a song to her unborn baby, a song Geof taught her
 
-#### Sources
+### Sources
 
 Delaney, Shelagh (2008), *A Taste Of Honey* (Edited by Glenda Leeming and Elaine Aston), Bloomsbury Academic.

@@ -3,7 +3,7 @@ note_id: "rn_hHty9cYhrp4k96Hq"
 title: "No.3 Nick"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-3-nick
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-3-nick
-updated_at: "2026-10-11T10:20:45.793Z"
+updated_at: "2026-10-21T12:40:42.938Z"
 spec_point_ids: ["spcpt_QhxjFytqxhNyQBDY", "spcpt_s6h6KSnKbQqJzwXk", "spcpt_QXChscNSrvsJnKFR", "spcpt_7f3xrBDt5TkvhJTQ", "spcpt_H9wCBKBbh3RxbWD3"]
 spec_point_codes: []
 guided_study: false
@@ -196,6 +196,6 @@ In Christina Rossetti’s story Nick, the [protagonist](https://www.savemyexams.
 - By the end of the story, Rossetti implies that Nick’s sins, his ungratefulness and his spiteful jealousy, are redeemed through humility
 - That Nick wishes to be “himself again” culminates his cyclical journey of self-development
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

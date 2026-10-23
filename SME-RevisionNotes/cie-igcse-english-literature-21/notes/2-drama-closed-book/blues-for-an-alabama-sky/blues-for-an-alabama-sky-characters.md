@@ -3,7 +3,7 @@ note_id: "rn_7s9t9HHM7kHjRQxj"
 title: "Blues for an Alabama Sky: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-characters
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-characters
-updated_at: "2026-10-11T10:18:55.757Z"
+updated_at: "2026-10-21T12:40:33.059Z"
 spec_point_ids: ["spcpt_RNPDDT2qSVJNJd3v", "spcpt_QVJW9y5wWBFcyfsP", "spcpt_rBQ6mgPVqVF8XC3h", "spcpt_26CPN8tdmwDSb3RK", "spcpt_RhCng8QrC5nrTdfX"]
 spec_point_codes: []
 guided_study: false
@@ -178,6 +178,6 @@ Below you will find profiles of:
   - He forces others to live within his views
   - It is possible he would support the attack on Delia’s clinic, and gives a face and name to represent that movement within the play
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

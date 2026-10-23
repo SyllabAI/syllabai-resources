@@ -3,7 +3,7 @@ note_id: "rn_tYZzpRWsq4NJZnmX"
 title: "Princess and the Hustler: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-character-quotations
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-character-quotations
-updated_at: "2026-09-23T08:33:36.432Z"
+updated_at: "2026-10-21T12:40:29.838Z"
 spec_point_ids: ["spcpt_x7ZTXGsTskTBK8QD", "spcpt_2QkTyqxT7tCbVqTS", "spcpt_RkDp7764vyWS2xGg", "spcpt_f3CxYz3VqXv98dGR", "spcpt_5kYrtZzmcHmz4cKv", "spcpt_BxnNk7jfMtVtX5my"]
 spec_point_codes: []
 guided_study: false
@@ -141,7 +141,7 @@ Examiners will be looking for evidence of your ability to interpret pivotal mome
 |---|---|---|---|
 | - Margot is presented here as empathetic and as being close to Mavis’ family:<br><br>  - “Babbers” is Bristolian *dialect*, literally meaning ‘baby’, which is used as a term of affection here by Margot<br>  <br>    - It shows a maternal care for and familiarity with, Mavis’ children<br>  - Margot recognises the tension between Wendell and Mavis and sees an opportunity to give them a moment to talk alone, protecting the children from the tension |   |   |   |
 
-### Paired quotations:
+### Paired quotations
 
 > **blockquote**
 > **“She’s a good sort and not one to rock the boat that brought her here”**  — Margot, Act 2, Scene 2
@@ -173,7 +173,7 @@ Examiners will be looking for evidence of your ability to interpret pivotal mome
 |---|---|---|---|
 | - Wendell Junior is very protective of his sisters: his instinct to keep them safe overrides his desire to go to a protest meeting with Leon:<br><br>  - The pronoun “my” emphasises his protectiveness; it is particularly significant that he refers this way to Lorna, who is his half-sister and whom he has only met very recently<br>  - The use of [ellipses](https://www.savemyexams.com/glossary/gcse/english-language/ellipsis/) shows that he is conflicted: he also feels that he should be involved in the protests against the *colour bar* |   |   |   |
 
-### Paired quotations:
+### Paired quotations
 
 > **blockquote**
 > **“I don’t hate you. I just love them more”** — Wendell Junior, Act 2, Scene 5
@@ -185,6 +185,6 @@ Examiners will be looking for evidence of your ability to interpret pivotal mome
 |---|---|---|---|
 | - Wendell is bitter about his father’s return, and resents the fact that he has been absent so long:<br><br>  - Odimba uses the [juxtaposition](https://www.savemyexams.com/glossary/gcse/english-language/juxtaposition-definition/) of the words “hate” and “love” to show that Wendell Junior is protective of his family and prioritises them above his own financial interests<br>  - Towards the end of the play, Wendell Junior (wrongly) assumes that Wendell has stolen the money he previously offered:<br>  <br>    - He uses the *superlative*** **“worst” to show that his feelings against his father have become even more passionate<br>  - Both of these scenes contrast with the *penultimate* scene, in which Wendell Junior includes Wendell in his family photograph, signalling acceptance |   |   |   |
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

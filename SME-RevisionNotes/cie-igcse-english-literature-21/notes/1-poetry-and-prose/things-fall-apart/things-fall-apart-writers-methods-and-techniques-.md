@@ -3,7 +3,7 @@ note_id: "rn_nGd9yP4qVgWMWCQ5"
 title: "Things Fall Apart: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/things-fall-apart/things-fall-apart-writers-methods-and-techniques-
 path: 1-poetry-and-prose/things-fall-apart/things-fall-apart-writers-methods-and-techniques-
-updated_at: "2026-10-11T11:21:08.930Z"
+updated_at: "2026-10-21T12:40:43.533Z"
 spec_point_ids: ["spcpt_TKvSH4cWrjW38Xvv", "spcpt_nmczJrMK7cd7gB4F", "spcpt_qWbGGsw2yShr55D2", "spcpt_Dmg8Q5QDgXwkBfMJ"]
 spec_point_codes: []
 guided_study: false
@@ -135,6 +135,6 @@ There is no assessment on language analysis as such. Examiners are looking for a
 > **Exam Hint**
 > Remember, in the exam question on Things Fall Apart, instead of just focusing on [characterisation](https://www.savemyexams.com/glossary/gcse/english-literature/characterisation-definition/), it is a good idea to consider Achebe’s choices. For example, you could write about how the **third-person **narrative voice works alongside Achebe’s presentation of cultural differences, as it offers a balanced perspective.
 
-#### Sources
+### Sources
 
 Achebe, Chinua. (1994). Things Fall Apart. Anchor Books.

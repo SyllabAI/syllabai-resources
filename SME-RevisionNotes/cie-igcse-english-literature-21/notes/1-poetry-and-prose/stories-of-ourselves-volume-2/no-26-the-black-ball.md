@@ -3,7 +3,7 @@ note_id: "rn_WzKms3dFK7jJHSBs"
 title: "No.26 The Black Ball"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-26-the-black-ball
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-26-the-black-ball
-updated_at: "2026-10-11T10:20:03.983Z"
+updated_at: "2026-10-21T12:40:42.676Z"
 spec_point_ids: ["spcpt_Q9DBMVGfcZdnT3D7", "spcpt_bqwzSHHT8dY5FyWb", "spcpt_wB3Wy3NHXM5ph99v", "spcpt_ZNmr5HhZmtsGB75F", "spcpt_Hg9xqVP4np3ZzxTw"]
 spec_point_codes: []
 guided_study: false
@@ -193,6 +193,6 @@ Ellison’s story highlights the entrenched racism existing in America in the ea
 
   - John’s hope for a better future for his son encourages him to change
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

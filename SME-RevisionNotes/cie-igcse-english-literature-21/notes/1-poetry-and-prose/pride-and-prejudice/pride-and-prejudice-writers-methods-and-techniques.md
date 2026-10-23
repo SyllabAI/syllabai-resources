@@ -3,7 +3,7 @@ note_id: "rn_GgCkfDbmFP8QTfCQ"
 title: "Pride and Prejudice: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-writers-methods-and-techniques
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-writers-methods-and-techniques
-updated_at: "2026-09-24T18:21:53.455Z"
+updated_at: "2026-10-21T12:40:39.241Z"
 spec_point_ids: ["spcpt_Kgq8zjjybjsVyxWz", "spcpt_pzcSbs4F32gQqHVt", "spcpt_tJWgjXWRGmBk22YS", "spcpt_hgBgtB3Tpm739BBH"]
 spec_point_codes: []
 guided_study: false
@@ -126,6 +126,6 @@ The style of Pride and Prejudice is significant to the novel’s success. Drawin
   - Lady Catherine assumes she can control the course of others’ lives but her attempts to influence Elizabeth’s decisions are ultimately unsuccessful
 - Austen’s ironic style adds to the comic elements in the novel
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

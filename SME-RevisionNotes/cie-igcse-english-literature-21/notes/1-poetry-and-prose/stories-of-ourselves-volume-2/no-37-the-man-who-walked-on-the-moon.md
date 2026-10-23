@@ -3,7 +3,7 @@ note_id: "rn_x8WX9fYVyPf7FYrP"
 title: "No.37 The Man Who Walked on the Moon"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-37-the-man-who-walked-on-the-moon
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-37-the-man-who-walked-on-the-moon
-updated_at: "2026-10-11T10:21:20.598Z"
+updated_at: "2026-10-21T12:40:42.231Z"
 spec_point_ids: ["spcpt_BM3bcF2qfDpGsfRQ", "spcpt_5nHqQ3ZMr3H8H5b4", "spcpt_Q39sFpHyvptHFtzR", "spcpt_VgGs8NhtVnnndy8B", "spcpt_mCn562TNnB7tVxYH"]
 spec_point_codes: []
 guided_study: false
@@ -199,6 +199,6 @@ The best way to revise quotations is in connection to a theme. Below you will fi
 
   - This, he thinks, is better than feeling invisible in the real world
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

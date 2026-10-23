@@ -1,19 +1,24 @@
 {
  "schema": "syllabai.sme-revision-notes-course/1.0",
- "generated_utc": "2026-10-17T01:15:29Z",
+ "generated_utc": "2026-10-23T17:52:51Z",
  "course_slug": "cie-a-level-computer-science-19",
  "notes_base": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/",
  "counts": {
-  "pages_expected": 135,
-  "pages_scraped": 135,
+  "pages_expected": 144,
+  "pages_scraped": 144,
   "fetch_failures": 0,
   "assets": 203,
   "asset_failures": 0,
-  "spec_point_links": 244,
+  "spec_point_links": 282,
   "guided_study_pages": 0,
-  "markdown_chars": 578335
+  "markdown_chars": 665876
  },
  "authors": [
+  {
+   "id": "athr_5MFgHfjqYnvtT4gx",
+   "name": "Bridgette Barrett",
+   "role": "Development Editor"
+  },
   {
    "id": "athr_9wf4J4rc3cM3SCxQ",
    "name": "James Woodhouse",
@@ -27,11 +32,6 @@
  ],
  "tree": {
   "1. Information representation": {
-   "Multimedia": [
-    "Bitmap Images",
-    "Sound Representation",
-    "Vector Graphics"
-   ],
    "Data Representation": [
     "Binary Arithmetic",
     "Binary Prefixes",
@@ -42,6 +42,11 @@
    "Compression": [
     "Compression",
     "Compression Techniques"
+   ],
+   "Multimedia": [
+    "Bitmap Images",
+    "Sound Representation",
+    "Vector Graphics"
    ]
   },
   "10. Data Types & Structures": {
@@ -61,12 +66,12 @@
    ]
   },
   "11. Programming": {
-   "Programming Basics": [
-    "Pseudocode Basics"
-   ],
    "Constructs": [
     "Iteration",
     "Selection"
+   ],
+   "Programming Basics": [
+    "Pseudocode Basics"
    ],
    "Structured Programming": [
     "Procedures & Functions"
@@ -77,14 +82,14 @@
     "State-Transition Diagrams",
     "Structure Charts"
    ],
-   "Program Development Life cycle": [
-    "Development Models",
-    "Lifecycle Stages"
-   ],
    "Program Testing & Maintenance": [
     "Faults & Errors",
     "Maintenance",
     "Testing Methods"
+   ],
+   "Program Development Life cycle": [
+    "Development Models",
+    "Lifecycle Stages"
    ]
   },
   "13. Data Representation": {
@@ -102,6 +107,15 @@
     "User-Defined Types"
    ]
   },
+  "14. Communication & internet technologies": {
+   "Circuit Switching, Packet Switching": [
+    "Switching Methods"
+   ],
+   "Protocols": [
+    "Protocol Examples",
+    "Protocol Fundamentals"
+   ]
+  },
   "15. Hardware & Virtual Machines": {
    "Boolean Algebra & Logic Circuits": [
     "Adders & Circuits",
@@ -117,15 +131,6 @@
     "Virtual Machines"
    ]
   },
-  "14. Communication & internet technologies": {
-   "Protocols": [
-    "Protocol Examples",
-    "Protocol Fundamentals"
-   ],
-   "Circuit Switching, Packet Switching": [
-    "Switching Methods"
-   ]
-  },
   "16. System Software": {
    "Purposes of an Operating System (OS)": [
     "Memory Management",
@@ -138,19 +143,19 @@
     "Translation Process"
    ]
   },
+  "17. Security": {
+   "Encryption, Encryption Protocols & Digital Certificates": [
+    "Digital Certificates",
+    "Encryption",
+    "Protocols"
+   ]
+  },
   "18. Artificial Intelligence (AI)": {
    "Artificial Intelligence (AI)": [
     "A* Algorithm",
     "AI & Graphs",
     "Dijkstra's Shortest Path Algorithm",
     "Machine Learning"
-   ]
-  },
-  "17. Security": {
-   "Encryption, Encryption Protocols & Digital Certificates": [
-    "Digital Certificates",
-    "Encryption",
-    "Protocols"
    ]
   },
   "19. Computational thinking & Problem-solving": {
@@ -186,6 +191,10 @@
    ]
   },
   "20. Further Programming": {
+   "File Processing & Exception Handling": [
+    "Exception Handling",
+    "File Handling"
+   ],
    "Object-Oriented Programming": [
     "Attributes (OOP)",
     "Classes (OOP)",
@@ -195,15 +204,28 @@
     "Objects (OOP)",
     "Polymorphism (OOP)"
    ],
-   "File Processing & Exception Handling": [
-    "Exception Handling",
-    "File Handling"
-   ],
    "Programming Paradigms": [
     "Declarative Programming",
     "Imperative Programming",
     "Low-Level Programming",
     "Paradigms"
+   ]
+  },
+  "21. Exam skills": {
+   "Exam Technique": [
+    "Command Words",
+    "Exam Tips"
+   ],
+   "Key Exam Skills": [
+    "Test Data & Finding Errors",
+    "Trace Tables",
+    "Writing Pseudocode in the Exam"
+   ],
+   "Paper Guides": [
+    "Paper 1: Theory Fundamentals",
+    "Paper 2: Problem-solving and Programming",
+    "Paper 3: Advanced Theory",
+    "Paper 4: Practical"
    ]
   },
   "3. Hardware": {
@@ -227,9 +249,6 @@
     "Assembly Process",
     "Instruction Groups"
    ],
-   "Bit Manipulation": [
-    "Bitwise Operations"
-   ],
    "Central Processing Unit (CPU) Architecture": [
     "Components of the CPU",
     "Fetch-Execute Cycle",
@@ -237,6 +256,9 @@
     "Ports & Interfaces",
     "System Architecture",
     "System Performance"
+   ],
+   "Bit Manipulation": [
+    "Bitwise Operations"
    ]
   },
   "5. System Software": {
@@ -251,13 +273,13 @@
    ]
   },
   "6. Security, privacy & data integrity": {
+   "Data Integrity": [
+    "Integrity Methods"
+   ],
    "Data Security": [
     "Data Protection",
     "Security Measures",
     "Threats"
-   ],
-   "Data Integrity": [
-    "Integrity Methods"
    ]
   },
   "7. Ethics & Ownership": {
@@ -273,11 +295,11 @@
     "Database Models",
     "Database Normalisation"
    ],
-   "Database Management Systems (DBMS)": [
-    "DBMS Features"
-   ],
    "Data Definition Language (DDL) & Data Manipulation Language (DML)": [
     "SQL"
+   ],
+   "Database Management Systems (DBMS)": [
+    "DBMS Features"
    ]
   },
   "9. Algorithm Design & Problem-solving": {
@@ -1607,6 +1629,132 @@
     "figures": 0,
     "worked_examples": 0,
     "exam_hints": 0,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/exam-technique/command-words.json",
+   "rn_id": "rn_4GhpD4WYxvh3MPBH",
+   "title": "Command Words",
+   "spec_point_ids": 5,
+   "stats": {
+    "blocks": 35,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/exam-technique/exam-tips.json",
+   "rn_id": "rn_hqGV8kcwvBr8hr45",
+   "title": "Exam Tips",
+   "spec_point_ids": 5,
+   "stats": {
+    "blocks": 40,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/key-exam-skills/test-data-and-finding-errors.json",
+   "rn_id": "rn_VRrwVG8K53bNNK3S",
+   "title": "Test Data & Finding Errors",
+   "spec_point_ids": 5,
+   "stats": {
+    "blocks": 31,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/key-exam-skills/trace-tables.json",
+   "rn_id": "rn_DG3KJVJR3bzNHrNw",
+   "title": "Trace Tables",
+   "spec_point_ids": 4,
+   "stats": {
+    "blocks": 30,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 2,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/key-exam-skills/writing-pseudocode-in-the-exam.json",
+   "rn_id": "rn_TzSKxcSCgPsmBFc9",
+   "title": "Writing Pseudocode in the Exam",
+   "spec_point_ids": 3,
+   "stats": {
+    "blocks": 35,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/paper-guides/paper-1-theory-fundamentals.json",
+   "rn_id": "rn_vFRgrhD3XT32GPhV",
+   "title": "Paper 1: Theory Fundamentals",
+   "spec_point_ids": 3,
+   "stats": {
+    "blocks": 29,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/paper-guides/paper-2-problem-solving-and-programming.json",
+   "rn_id": "rn_TTfQbtKsQ6zy7NGT",
+   "title": "Paper 2: Problem-solving and Programming",
+   "spec_point_ids": 4,
+   "stats": {
+    "blocks": 42,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/paper-guides/paper-3-advanced-theory.json",
+   "rn_id": "rn_3ShZ5GNbHFWwBgzK",
+   "title": "Paper 3: Advanced Theory",
+   "spec_point_ids": 4,
+   "stats": {
+    "blocks": 35,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
+    "case_studies": 0,
+    "equations": 0
+   }
+  },
+  {
+   "path": "notes/21-exam-skills/paper-guides/paper-4-practical.json",
+   "rn_id": "rn_PqVfqcDcBzskBKyY",
+   "title": "Paper 4: Practical",
+   "spec_point_ids": 5,
+   "stats": {
+    "blocks": 35,
+    "figures": 0,
+    "worked_examples": 1,
+    "exam_hints": 1,
     "case_studies": 0,
     "equations": 0
    }

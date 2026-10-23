@@ -3,7 +3,7 @@ note_id: "rn_VjFvrCP7wHnMcbWS"
 title: "Rebecca: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/rebecca/rebecca-key-quotations
 path: 1-poetry-and-prose/rebecca/rebecca-key-quotations
-updated_at: "2026-09-22T15:05:52.793Z"
+updated_at: "2026-10-21T12:33:29.549Z"
 spec_point_ids: ["spcpt_b9qpBR8WTw9kSz3B", "spcpt_bJzzXHVWd57nyXNK", "spcpt_zrwkyn79GNXCNVrq", "spcpt_S96DGs8nJvtQpx8B", "spcpt_Ks84RyDry4GqxbQd"]
 spec_point_codes: []
 guided_study: false
@@ -38,12 +38,12 @@ Through this theme, du Maurier explores self-perception, societal expectations a
 
 “I realise, every day, that things I lack, confidence, grace, beauty, intelligence, wit – Oh, all the qualities that mean most in a woman – she possessed” – Narrator, Chapter 11
 
-**Meaning and context**
+### Meaning and context
 
 - In this quote, the narrator goes back to Manderley and finds Frank there
 - She speaks to him and explains how she compares everything about herself to Rebecca and reflects on her own perceived inadequacies
 
-**Analysis**
+### Analysis
 
 - This quote reflects the narrator’s deep sense of inadequacy and insecurity as she compares herself to Rebecca
 - The narrator’s acknowledgement of lacking qualities such as confidence, grace, beauty, intelligence and wit reveals her feelings of inferiority:
@@ -59,11 +59,11 @@ Through this theme, du Maurier explores self-perception, societal expectations a
 
 “She’s the real Mrs de Winter, not you. Why don’t you leave Manderley to her?” – Mrs Danvers, Chapter 18
 
-**Meaning and context**
+### Meaning and context
 
 - This quote occurs the morning after the Manderley ball when the narrator goes to confront Mrs Danvers
 
-**Analysis**
+### Analysis
 
 - Mrs Danvers's declaration illustrates the [symbolic](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/) weight of Rebecca's spirit and memory at Manderley:
 
@@ -82,12 +82,12 @@ Rebecca explores how characters maintain power over others through manipulation,
 
 “I knew then that I was no longer afraid of Rebecca…She could not hurt me…Rebecca’s power had dissolved into the air, like the mist had done. She would never haunt me again” – Narrator, Chapter 21
 
-**Meaning and context**
+### Meaning and context
 
 - This quote occurs when the full truth about Rebecca’s death and the events leading up to it have been fully revealed
 - In this chapter, the narrator reflects on the aftermath of this revelation
 
-**Analysis**
+### Analysis
 
 - This quote demonstrates the change in perspective of the narrator:
 
@@ -100,12 +100,12 @@ Rebecca explores how characters maintain power over others through manipulation,
 
 “I can’t forget what it has done to you… It’s gone forever, that funny, young, lost look that I loved. It won’t come back again. I killed that too when I told you about Rebecca…You are so much older…” – Maxim, Chapter 21
 
-**Meaning and context**
+### Meaning and context
 
 - In this chapter, Maxim reveals the truth about the circumstances of Rebecca’s death
 - He expresses his regret about telling the narrator the truth
 
-**Analysis**
+### Analysis
 
 - In this quote, Maxim conveys a deep sense of regret and sorrow
 - The phrase “it’s gone forever, that funny, young, lost look that I loved” suggests that the narrator’s innocence and youthfulness has been *irrevocably*** **altered:
@@ -118,11 +118,11 @@ Rebecca explores how characters maintain power over others through manipulation,
 
 “She’s still mistress here, even if she is dead” – Mrs Danvers, Chapter 18
 
-**Meaning and context**
+### Meaning and context
 
 - In this chapter, the narrator is exploring the west wing (Rebecca’s domain) and encounters Mrs Danvers
 
-**Analysis**
+### Analysis
 
 - In this quote, Mrs Danvers’s devotion and loyalty to Rebecca is portrayed:
 
@@ -134,12 +134,12 @@ Rebecca explores how characters maintain power over others through manipulation,
 
 “The letter R was the last to go, it twisted in the flame, it curled outwards for a moment, becoming larger than ever. Then it crumpled too; the flame destroyed it” –  Narrator, Chapter 6
 
-**Meaning and context**
+### Meaning and context
 
 - In this chapter, the narrator looks at the poetry book Maxim had given to her, while Maxim speaks with Mrs Van Hopper
 - The narrator tears out the inscription from Rebecca and throws it into the fire
 
-**Analysis**
+### Analysis
 
 - The [motif](https://www.savemyexams.com/glossary/gcse/english-literature/motif-definition/) of fire recurs twice in the novel: in this chapter and again when Manderely is ablaze at the end of the novel:
 
@@ -158,11 +158,11 @@ The tension between appearance and reality contributes to the mysterious tone of
 
 “I never go near the bloody place, or that God-damned cottage. And if you had my memories you would not want to go there either, or talk about it, or even think about it” Maxim, Chapter 10
 
-**Meaning and context**
+### Meaning and context
 
 - This quote occurs after the narrator has gone against Maxim’s wishes and visited the cottage
 
-**Analysis**
+### Analysis
 
 - In this quote, Maxim uses strong language such as “bloody place” and “God-damned cottage” to indicate his aversion to Manderley and the cottage
 - It reveals his painful memories and trauma associated with these places and underscores how he is haunted by them
@@ -171,12 +171,12 @@ The tension between appearance and reality contributes to the mysterious tone of
 
 “You despise me, don’t you? … You can’t understand my shame, and loathing and disgust?” – Maxim, Chapter 20
 
-**Meaning and context**
+### Meaning and context
 
 - In this chapter, the narrator is standing with Maxim in the library, having just learned that he killed Rebecca
 - Maxim reveals the full truth about his marriage to Rebecca
 
-**Analysis**
+### Analysis
 
 - While Maxim is generally portrayed as *stoic*** **and reserved, this quote reveals a more vulnerable side to his character
 - The phrase “you can’t understand my shame” indicates the disconnect between Maxim and the narrator
@@ -192,12 +192,12 @@ Rebecca explores the power imbalances associated with class distinctions. The na
 
 “I could see she despised me, marking with all the snobbery of her class that I was no great lady, that I was humble, shy, and diffident” – Narrator, Chapter 7
 
-**Meaning and context**
+### Meaning and context
 
 - In this chapter, the narrator has just arrived at Manderley and has been shown to her new bedroom by Mrs Danvers
 - Mrs Danvers explains that she has been at Manderley since the first Mrs de Winter married
 
-**Analysis**
+### Analysis
 
 - This quote highlights the theme of class distinctions:
 

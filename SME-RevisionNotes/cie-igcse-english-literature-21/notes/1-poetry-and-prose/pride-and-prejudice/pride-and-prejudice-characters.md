@@ -3,7 +3,7 @@ note_id: "rn_9JKbMt96JmSRNx5c"
 title: "Pride and Prejudice: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-characters
 path: 1-poetry-and-prose/pride-and-prejudice/pride-and-prejudice-characters
-updated_at: "2026-09-23T13:27:16.415Z"
+updated_at: "2026-10-21T12:40:39.429Z"
 spec_point_ids: ["spcpt_SRpFXXV86MSkHQ7c", "spcpt_ZC8qYhv2svbw42ky", "spcpt_tGHWhDgVdd3NWPgN", "spcpt_DCjPv9TsVJBXHpCj", "spcpt_Q5766zFRdNzxFchF", "spcpt_F7ZQ6vFRGdsxxXDg"]
 spec_point_codes: []
 guided_study: false
@@ -325,6 +325,6 @@ Below you will find detailed character profiles for the major characters in Prid
   - This emphasises the superficial and materialistic nature of her character
 - Mrs Bennet serves as a caricature of maternal concern and portrays the extremes of a mother’s anxiety
 
-#### Sources
+### Sources
 
 Austen, Jane. Pride and Prejudice. Penguin Classics.

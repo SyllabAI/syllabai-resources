@@ -3,7 +3,7 @@ note_id: "rn_q8npQ9h6xrwWdr64"
 title: "A Taste of Honey: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-themes
 path: 2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-themes
-updated_at: "2026-08-05T08:17:18.752Z"
+updated_at: "2026-10-21T12:40:31.758Z"
 spec_point_ids: ["spcpt_J5k7zd2CGSbfHRqq", "spcpt_fSZpv2FKrTV2V2rR", "spcpt_yMx5w847xzrd89jQ", "spcpt_qtKPMz5mmJtBhSy6"]
 spec_point_codes: []
 guided_study: false
@@ -166,7 +166,7 @@ Delaney criticises a society where women are dependent on men to provide financi
 - The play illustrates the destructive emotional and physical effects of limited female *autonomy*
 - The controversial 1950s play critiques *patriarchal* structures that mean both marriage or a refusal to marry leaves women vulnerable
 
-#### Sources
+### Sources
 
 Delaney, Shelagh (2008), *A Taste Of Honey* (Edited by Glenda Leeming and Elaine Aston), Bloomsbury Academic.
 

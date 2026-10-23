@@ -3,7 +3,7 @@ note_id: "rn_HxfJyWmjJWYk377s"
 title: "The War of the Worlds: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-themes
 path: 1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-themes
-updated_at: "2026-10-11T10:19:26.624Z"
+updated_at: "2026-10-21T12:41:00.695Z"
 spec_point_ids: ["spcpt_46jFNnBrcYBn3CFQ", "spcpt_26NcggncmVGvhxth", "spcpt_W9Q8tkmwyTwCymdB", "spcpt_Dmbj6ytKPnsmqQfM"]
 spec_point_codes: []
 guided_study: false
@@ -39,7 +39,7 @@ Here are some of the central themes of the novel:
 
 In The War of the Worlds, H.G. Wells explores the theme of nature and evolution. The Martians, or “Invaders”, are presented as superior to humans in *evolutionary* terms and in their advanced use of technology. However, ultimately they are defeated by nature: simple earthly bacteria.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - Wells** **depicts** **some *evolutionary* similarities between humans and Martians:
 
@@ -81,7 +81,7 @@ As with many stories in the science-fiction genre, The War of the Worlds* *is pr
 
 The novel fits into a category known as** **invasion literature (made famous in Colonel George Chesney’s novella, The Battle of Dorking, written in 1871). The Martians are representative of the *xenophobic*** **feelings that were dominant in society in the latter part of the 19th century.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - The narrator is very fearful of the Martians in the story and his own familiar** **surroundings** **offer little comfort:
 
@@ -120,7 +120,7 @@ In the story, as its title reminds us, there is a battle between the Martians an
 
 As a social commentator, H.G. Wells was critical of British *imperialism*** **and his novel clearly focuses on the negative impact of war and how its destructiveness can affect people both physically and psychologically. Through his characters, he also focuses on how a lack of self-awareness and being *reactionary* can be damaging, resulting in internal battles and being closed off to new ways of thinking.
 
-## Knowledge and evidence:
+## Knowledge and evidence
 
 - The narrator struggles at times to describe the horrors he witnesses:
 
@@ -151,7 +151,7 @@ As a social commentator, H.G. Wells was critical of British *imperialism*** **an
   - Wells shows how people from different social classes would not usually have mixed in the 19th century
 - Ultimately, Wells' novel is perhaps a lesson in how to re-build a society and how we can face adversity and respond to unexpected or terrifying situations
 
-#### Sources
+### Sources
 
 H. G. Wells | Making Britain. (n.d.). <u>[https://www5.open.ac.uk/research-projects/making-britain/content/h-g-wells](https://www5.open.ac.uk/research-projects/making-britain/content/h-g-wells)</u>
 

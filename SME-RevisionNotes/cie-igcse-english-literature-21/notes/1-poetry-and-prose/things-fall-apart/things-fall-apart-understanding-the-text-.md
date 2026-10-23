@@ -3,7 +3,7 @@ note_id: "rn_SwZk77F3Knzx5tdf"
 title: "Things Fall Apart: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/things-fall-apart/things-fall-apart-understanding-the-text-
 path: 1-poetry-and-prose/things-fall-apart/things-fall-apart-understanding-the-text-
-updated_at: "2026-10-11T11:20:44.417Z"
+updated_at: "2026-10-21T12:41:20.862Z"
 spec_point_ids: ["spcpt_GR8SdGy6pMR8B3sm", "spcpt_rzrDMvr7T7VcvQdY", "spcpt_BhW3Hbw38GYbgs6S"]
 spec_point_codes: []
 guided_study: false
@@ -108,6 +108,6 @@ Each of the sub-topics below will help you to develop a better understanding of 
 | Tragic hero | Achebe’s tragedy portrays the fatal flaws that lead to Okonkwo’s downfall. Okonkwo’s inability to reflect on, or manage, his fixation with a version of masculinity that appeals to nobody in his village, least of all his son, leads to violence. |
 | Resolution | As typical for a classic tragedy, the novel ends with the tragic hero’s death, a result of his fateful circumstances and his submission to his violent aggression. |
 
-#### Sources
+### Sources
 
 Achebe, Chinua. (1994). Things Fall Apart. Anchor Books.

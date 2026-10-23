@@ -3,7 +3,7 @@ note_id: "rn_44TNmR3w8K96R7bc"
 title: "I'm the King of the Castle: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-plot-summary
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-plot-summary
-updated_at: "2026-10-11T10:18:40.133Z"
+updated_at: "2026-10-21T12:40:38.752Z"
 spec_point_ids: ["spcpt_WYBN8s5N6CPDyDXP", "spcpt_tw2sD6f5TJsd26p2", "spcpt_Y3RW8Y2Dx28mhQ2v"]
 spec_point_codes: []
 guided_study: false
@@ -319,6 +319,6 @@ When Mr Hooper and Mrs Kingshaw reveal that they are to be married and that Char
 - Edmund finds the body and feels triumphant that he has made Charles do it
 - Mrs Kingshaw tells Edmund not to look at the scene and tells him that everything is all right
 
-#### Sources
+### Sources
 
 Hill, S. (1970) *I’m the King of the Castle*. 1989 edn. Penguin.

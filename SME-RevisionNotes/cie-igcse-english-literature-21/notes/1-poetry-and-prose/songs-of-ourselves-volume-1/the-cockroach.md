@@ -3,7 +3,7 @@ note_id: "rn_gfzQGdJGrrwGrwfx"
 title: "The Cockroach"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/the-cockroach
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/the-cockroach
-updated_at: "2026-10-11T10:20:44.352Z"
+updated_at: "2026-10-21T12:40:45.959Z"
 spec_point_ids: ["spcpt_XHnxYMKWWTdhVHPQ", "spcpt_RT8b8rTGmKZNNFFw", "spcpt_xBxCYsGJxxrqWKCH"]
 spec_point_codes: []
 guided_study: false
@@ -223,7 +223,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 [https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf](https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf).
 

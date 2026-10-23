@@ -3,7 +3,7 @@ note_id: "rn_qMyBJMw6cg7FGCCy"
 title: "Carpet-weavers, Morocco"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/carpet-weavers-morocco
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/carpet-weavers-morocco
-updated_at: "2026-10-11T10:21:04.684Z"
+updated_at: "2026-10-21T12:40:44.715Z"
 spec_point_ids: ["spcpt_nMh5ycghZxrvPmhp", "spcpt_QfBTYdsFBxHkXvtf", "spcpt_XXpMjCfws559VfQH"]
 spec_point_codes: []
 guided_study: false
@@ -214,7 +214,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 [https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf](https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf).
 Songs of Ourselves: Volume 1: Cambridge Assessment International Education Anthology of Poetry in English. Cambridge University Press & Assessment, 2018.

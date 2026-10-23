@@ -3,7 +3,7 @@ note_id: "rn_yYSZgjFtfFmGWCSj"
 title: "To Kill a Mockingbird: Writer's Methods and Techniques"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-writers-methods-and-techniques
 path: 1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-writers-methods-and-techniques
-updated_at: "2026-10-11T10:21:26.631Z"
+updated_at: "2026-10-21T12:40:40.207Z"
 spec_point_ids: ["spcpt_nkV6Sf4VDTMXsSSQ", "spcpt_kF9Wz2PrNYjY2QWd", "spcpt_ZzJ9VYRg5v6k9Zt8", "spcpt_ZDFcr4Y8KCHx3Tdw", "spcpt_VXxCjr4B5cCGmdBt"]
 spec_point_codes: []
 guided_study: false
@@ -177,6 +177,6 @@ To Kill a Mockingbird is set in the 1930s during the *Great Depression* in a fic
 > **Exam Hint**
 > While it is important to include evidence from the text to support your analysis of Lee’s methods and techniques, it is much better to use short, impactful quotes than to include long quotations. Additionally, you should always make sure that they are fully integrated into your sentences.
 
-#### Sources
+### Sources
 
 **Lee, H. (2010). To Kill a Mockingbird. Arrow Books.  **

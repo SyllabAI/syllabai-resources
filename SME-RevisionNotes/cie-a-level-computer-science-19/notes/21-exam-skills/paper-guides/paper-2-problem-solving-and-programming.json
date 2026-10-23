@@ -1,0 +1,260 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_TTfQbtKsQ6zy7NGT",
+ "course_slug": "cie-a-level-computer-science-19",
+ "url": "https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/paper-guides/paper-2-problem-solving-and-programming",
+ "title": "Paper 2: Problem-solving and Programming",
+ "page_title": "CIE A Level Computer Science Paper 2 Tips (9618)",
+ "path": {
+  "segs": [
+   "21-exam-skills",
+   "paper-guides",
+   "paper-2-problem-solving-and-programming"
+  ],
+  "section": "21-exam-skills",
+  "topic": "paper-guides",
+  "leaf": "paper-2-problem-solving-and-programming"
+ },
+ "titles": {
+  "section": "21. Exam skills",
+  "topic": "Paper Guides",
+  "subtopic": "Paper 2: Problem-solving and Programming"
+ },
+ "updated_at": "2026-10-16T12:00:36.926Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_5MFgHfjqYnvtT4gx",
+   "name": "Bridgette Barrett",
+   "role": "Development Editor"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_zZrvwv5Vp3nHcGtj",
+  "spcpt_zjk5YF9GZFd27Nkb",
+  "spcpt_Pgp6GZDW95KywxNb",
+  "spcpt_6NZzQgKB3GQvVM82"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 42,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_zZrvwv5Vp3nHcGtj",
+   "name": "Paper 2 overview",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Paper 2 overview"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is in Paper 2?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Paper 2 is **Fundamental Problem-solving and Programming Skills**\n- It is a **2-hour written paper worth 75 marks**: 50% of the AS Level and 25% of the A Level\n- It assesses syllabus sections 9 to 12: algorithm design, data types and structures, programming, and software development\n- Most marks (60%) are for **designing and writing solutions** (assessment objective 3, AO3), with the rest (40%, AO2) for applying knowledge to a scenario; there are no marks for straight recall\n- Answers that involve code must be written in **Cambridge pseudocode**, not in a programming language\n- An **Insert** is provided with the paper, listing the built-in functions and operators you may use\n- Calculators are not allowed"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How is Paper 2 different from Paper 4?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Both papers test programming, but in different ways"
+  },
+  {
+   "type": "table",
+   "md": "| Feature | Paper 2 | Paper 4 |\n|---|---|---|\n| Where | On paper | On a computer, with no internet |\n| Language | Cambridge pseudocode only | Java, Visual Basic or Python (console mode) |\n| Level | AS Level (and part of the A Level) | A Level only |\n| Code checked by | An examiner reading your pseudocode | An examiner reading your copied code and test evidence |\n| Built-in functions | Only those listed in the Insert | Those of your chosen language |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Examiners warn that students who practise in a programming language for Paper 4 often carry its syntax into Paper 2, which loses marks; see [Writing Pseudocode in the Exam](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/key-exam-skills/writing-pseudocode-in-the-exam/)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_zjk5YF9GZFd27Nkb",
+   "name": "Using the Insert",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Using the Insert"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is in the Insert?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Insert is a separate booklet that lists every built-in pseudocode function and operator you can use in your answers, with an example of each\n\n  - **String functions**: `LEFT`, `RIGHT`, `MID`, `LENGTH`, `TO_UPPER`, `TO_LOWER`, `NUM_TO_STR`, `STR_TO_NUM`, `IS_NUM`, `ASC`, `CHR`\n  - **Numeric functions**: `INT`, `RAND`\n  - **Date functions**: `DAY`, `MONTH`, `YEAR`, `DAYINDEX`, `SETDATE`, `TODAY`\n  - **Text file function**: `EOF`\n  - **Operators**: `&` (concatenation), `AND`, `OR`, `NOT`, `MOD`, `DIV` and the comparison operators\n- Some questions tell you to use a function from the Insert, for example \"Date functions from the insert should be used in your solution\""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How should you use the Insert?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Only use functions that are in the Insert**: examiners state that language-specific functions or methods that are not in it will not gain credit\n- If the Insert and the Pseudocode Guide use different names for the same function, use the Insert's name; for example, use `TO_UPPER` from the Insert rather than `UCASE` from the Guide\n- Check the **parameter order and return type** before you use a function; for example, `MID(ThisString, x, y)` returns `y` characters starting at position `x`\n- Use the date functions when a question involves dates; in one recent series many students lost marks for not using the correct date function from the Insert to assign a date\n- You may annotate the Insert and plan on it, but answers written on the Insert are not marked"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Pgp6GZDW95KywxNb",
+   "name": "Question types in Paper 2",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Question types in Paper 2"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What kinds of question come up?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Every Paper 2 has questions that ask you to **write pseudocode**; most also include several of the types below"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Short questions on the Insert and data types"
+  },
+  {
+   "type": "bullets",
+   "md": "- Most Paper 2s open with short tables: give the data type of a variable or an example value, or evaluate an expression that uses Insert functions, such as `MID(CharList, MONTH(FlagDay), 1)`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Writing a module"
+  },
+  {
+   "type": "bullets",
+   "md": "- The most valuable questions ask you to write a whole **procedure or function** from a description, often worth 6 to 8 marks\n- The description is usually a table with a bullet point for each thing the module must do; these bullets are the basis of the mark scheme (see \"How to plan a 6 to 8 mark algorithm question\")"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Describing an algorithm in steps"
+  },
+  {
+   "type": "bullets",
+   "md": "- Some questions ask you to describe the steps of an algorithm without writing the code, for example \"Describe the steps that the algorithm should perform. Do not include pseudocode statements in your answer.\"\n- Write numbered steps that each do **one thing** (initialise a total, start a loop, input a value, test it, update the total, output the result)\n- Examiners report vague steps that deal with all the values at once (such as \"find all marks less than 20\"); describe what happens to one value at a time inside a loop"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Completing or correcting code"
+  },
+  {
+   "type": "bullets",
+   "md": "- You may be given pseudocode with **gaps to fill** or **errors to find and correct**\n- When correcting errors, write the original line and the corrected line, both clearly labelled; examiners describe this as the clearest way to answer, and adding the line number makes it clearer still\n- See [Test Data and Finding Errors](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/key-exam-skills/test-data-and-finding-errors/) for how to spot each type of error"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Trace tables and dry runs"
+  },
+  {
+   "type": "bullets",
+   "md": "- You may be asked to *dry run* an algorithm and complete a trace table\n- See [Trace Tables](https://www.savemyexams.com/a-level/computer-science/cie/19/revision-notes/21-exam-skills/key-exam-skills/trace-tables/) for the step-by-step method"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Design diagrams"
+  },
+  {
+   "type": "bullets",
+   "md": "- Structure charts appear in more than half of the Paper 2s set from 2021 to 2024 (12 of 21); you may be asked to draw one or to complete one with modules, parameters and the direction they are passed\n- Examiners report marks lost for missing parameter labels, for not shading the arrow of a Boolean parameter, and for leaving out the selection diamond when one module calls either one module or another\n- **Program flowcharts** come up often, either to draw from pseudocode or to convert into pseudocode\n- **State-transition diagrams** appear less often (6 of the 21 papers); you are usually asked to complete a table of inputs, outputs and next states from a diagram, or to complete the diagram from a table"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Data structures and files"
+  },
+  {
+   "type": "bullets",
+   "md": "- Questions on **stacks, queues and linked lists** usually ask how they are **implemented using arrays and pointers**, not just how they behave\n\n  - Examiners noted that many students missed the word \"implemented\" in one question and described a linked list in general terms, scoring few marks\n- Most Paper 2s include **text file handling**, such as reading every line of a file or writing results to a new file"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_6NZzQgKB3GQvVM82",
+   "name": "How to plan a 6 to 8 mark algorithm question",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "How to plan a 6 to 8 mark algorithm question"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How are algorithm questions marked?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Algorithm questions are marked **per feature**, not as all-or-nothing\n- The mark scheme lists **mark points**, and each one is awarded if your pseudocode does that thing, even if other parts are wrong\n- For example, in a recent 8-mark question to write a procedure that checks candidates' marks and writes some IDs to a file, the mark points included:\n\n  - the procedure heading, parameter and ending\n  - opening the file in **write** mode and closing it\n  - a loop through all the candidates\n  - calling the given function with the candidate's mark as the parameter\n  - incrementing a count when the function returns `TRUE`\n  - writing the ID to the file after converting it to a string\n  - outputting the count **after** the loop"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Step-by-step method"
+  },
+  {
+   "type": "ordered",
+   "md": "1. **Underline each requirement** in the question or the module description table; each bullet usually maps to one or more mark points\n2. **Write the header first**: `PROCEDURE` or `FUNCTION`, the identifier, the parameters with data types and, for a function, `RETURNS` and the data type\n3. **Declare and initialise** the variables you need, such as a count set to 0\n4. **Choose the loop**: `FOR` when you know how many times (for example, the size of an array), `WHILE NOT EOF(...)` for reading a file of unknown length\n5. **Write the body** one requirement at a time, ticking each underlined bullet as you cover it\n6. **Finish** by closing any file, then add the output or `RETURN` and the end statement (`ENDPROCEDURE` or `ENDFUNCTION`); nothing after `RETURN` is executed\n7. **Check** that you have used the identifier names given in the question, not your own versions; examiners report marks lost for not using the array or variable names stated in the question"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How can you still pick up marks if your code isn't perfect?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Examiners say in report after report that even the hardest pseudocode questions **contain accessible marks**\n- If you cannot see the whole solution, still write:\n\n  - the header and end statement\n  - the variable declarations and initialisation\n  - the loop structure\n  - the file open and close\n  - the final `RETURN` or `OUTPUT`\n- Do not add things the question did not ask for, such as storing every input in an array; they gain nothing and take time"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A text file `Scores.txt` stores one test score per line as a string. The number of lines in the file is not known.\n\nA function `CountAbove()` will:\n\n- take an integer parameter `Threshold`\n- read each score from the file\n- count how many scores are greater than `Threshold`\n- return the count\n\nWrite pseudocode for the function `CountAbove()`.\n\n**[6]**\n\n**Answer**:\n\n- Function header with the parameter, `RETURNS INTEGER` and `ENDFUNCTION` **[1 mark]**\n- Open the file in `READ` mode and close it after the loop **[1 mark]**\n- Conditional loop that ends when `EOF` is reached **[1 mark]**\n- Read a line from the file inside the loop **[1 mark]**\n- Convert the line to a number and compare it with `Threshold`, incrementing `Count` if it is greater **[1 mark]**\n- Initialise `Count` to 0 before the loop and return it after the loop **[1 mark]**\n\nEach bullet in the description maps to at least one mark point, so a student who could not work out the comparison would still score 5 out of 6."
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If a question asks for a function, end with `RETURN`, not `OUTPUT`; examiners regularly see `OUTPUT` used where the value should be returned\n- If your answer runs out of space, continue on an additional page and write the question number clearly, rather than squeezing pseudocode into the margins where the examiner may not be able to read it"
+  }
+ ]
+}

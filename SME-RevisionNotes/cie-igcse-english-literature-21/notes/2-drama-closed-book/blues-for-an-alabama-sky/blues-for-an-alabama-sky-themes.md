@@ -3,7 +3,7 @@ note_id: "rn_sCSzJJ3z7fMcQfCz"
 title: "Blues for an Alabama Sky: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-themes
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-themes
-updated_at: "2026-10-11T10:21:11.289Z"
+updated_at: "2026-10-21T12:40:33.262Z"
 spec_point_ids: ["spcpt_M6WqWfbQYX2TnQp7", "spcpt_DbMsPqwGFPSnj3Dd", "spcpt_xtZzNMM5JZX6VNft"]
 spec_point_codes: []
 guided_study: false
@@ -29,7 +29,7 @@ Below are some of the themes that could be explored in Blues for an Alabama Sky.
 
 Pearl Cleage shows the characters in Blues for an Alabama Sky using their dreams and hopes to escape the harsh reality they live in. This is a constant throughout the play, with many characters looking to transform their lives with ideas, hopes and plans. In the end, dreams are a saviour to some, but condemn others.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - From the very start, and throughout the play, Cleage presents the idea of moving to Paris as the dream that keeps Guy, and to a lesser extent Angel, going through hard times:
 
@@ -95,7 +95,7 @@ Pearl Cleage shows the characters in Blues for an Alabama Sky using their dreams
 
 Cleage frames Harlem as a community whose golden age is beginning to slip away, with the characters feeling the constraints around them. Delia and Sam fight growing conservatism, while the economic struggles bite at Angel and Guy as much as the retreating artistic freedom.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - Guy and Angel both lose their jobs and start to struggle for money:
 
@@ -162,7 +162,7 @@ Cleage frames Harlem as a community whose golden age is beginning to slip away, 
 
 From the start, the play shows that each character’s identity is shaped, challenged, or limited by the social expectations and pressures surrounding them, especially conservative values, religious influence, reproductive politics, and attitudes towards sexuality.
 
-### Knowledge and evidence:
+### Knowledge and evidence
 
 - Angel’s identity is always unstable, with a lot of her sense of self based around her relationships with men:
 
@@ -223,6 +223,6 @@ From the start, the play shows that each character’s identity is shaped, chall
 
   - Cleage demonstrates that when identity is restricted by social and moral forces, individuals may feel isolated, insecure, or forced to compromise their true selves
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

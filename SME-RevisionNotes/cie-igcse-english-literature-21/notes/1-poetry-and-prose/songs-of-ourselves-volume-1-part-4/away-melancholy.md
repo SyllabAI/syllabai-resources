@@ -3,7 +3,7 @@ note_id: "rn_CHvfnPhVGhV7zC7J"
 title: "Away, Melancholy"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/away-melancholy
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/away-melancholy
-updated_at: "2026-10-11T10:47:30.947Z"
+updated_at: "2026-10-21T12:41:44.496Z"
 spec_point_ids: ["spcpt_qh39PPYgkZSSPfCb", "spcpt_5BNbJ5FSSDHgMSpq", "spcpt_Pqw7NTqTr4dW7bZS", "spcpt_V6qFrCg6BPbD8wjD"]
 spec_point_codes: []
 guided_study: false
@@ -351,6 +351,6 @@ To help you do this, the section below has been divided into two main themes tha
 
   - However, the main message of the poem is that human beings have more strength than they may initially realise
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

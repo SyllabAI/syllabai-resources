@@ -3,7 +3,7 @@ note_id: "rn_pYgkD2ryPcGRzJtj"
 title: "I'm the King of the Castle: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-key-quotations
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-key-quotations
-updated_at: "2026-10-11T10:21:00.911Z"
+updated_at: "2026-10-21T12:40:37.650Z"
 spec_point_ids: ["spcpt_SNbXdFnNh2Y8TYg5", "spcpt_cxrCx89Hs2ZR4Q5M", "spcpt_dRTVPhKQDdv3WFCM", "spcpt_hM2PQ5XYt9XdyBDM", "spcpt_W7vSJfBsB4kWqQJS"]
 spec_point_codes: []
 guided_study: false
@@ -327,6 +327,6 @@ Below you will find definitions and analysis of the best quotations arranged by 
 - The book ends at this point, so it is possible that Mrs Kingshaw is in shock or believes Charles has died in an accident
 - But it is also possible to conclude that she will not even let the death of her son scupper her chances of happiness and security, along with an improvement in her social standing through her new family unit
 
-#### Sources
+### Sources
 
 Hill, S. (1970) *I’m the King of the Castle*. 1989 edn. Penguin.

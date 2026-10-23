@@ -3,7 +3,7 @@ note_id: "rn_yg9sTvvQs4CjyBcJ"
 title: "Princess and the Hustler: Understanding the Text"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-understanding-the-text-
 path: 2-drama-closed-book/princess-and-the-hustler/princess-and-the-hustler-understanding-the-text-
-updated_at: "2026-10-11T10:21:27.327Z"
+updated_at: "2026-10-21T12:41:20.769Z"
 spec_point_ids: ["spcpt_tXYX8SZ6Hy8Pxm5N", "spcpt_PKhCJ5x2zpYMf3Rr", "spcpt_Yt85MTzChbMdcHw9"]
 spec_point_codes: []
 guided_study: false
@@ -85,6 +85,6 @@ It adheres to the following conventions of *social realist* theatre:
 | **Uses real historical events as the backdrop for its narrative** | - The Bristol Bus Boycott is mentioned a number of times in the play and forms a backdrop for much of its important action |
 | **Uses real settings ** | - The vast majority of the play’s action takes place in Princess’ family home<br>- Aside from Princess’ imagined “cupboard world”, the only other setting used in the play is the Bristol Docks (Act 1, Scene 6) |
 
-#### Sources
+### Sources
 
 Odimba, Chinonyerem. (2019)  *Princess & The Hustler*. Nick Hern Books

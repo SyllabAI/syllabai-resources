@@ -3,7 +3,7 @@ note_id: "rn_2PRbCNPy94ZJM6xj"
 title: "Antony and Cleopatra: Character Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-character-quotations
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-character-quotations
-updated_at: "2026-10-11T11:19:49.181Z"
+updated_at: "2026-10-21T12:40:33.801Z"
 spec_point_ids: ["spcpt_JWX7yTK3mts7cSc7", "spcpt_ZrcCz6xSMFSwZ5vJ", "spcpt_7h3BZB4WSRvjRDd6", "spcpt_zRYzktqVFFnsHzDK"]
 spec_point_codes: []
 guided_study: false
@@ -171,6 +171,6 @@ If you can remember quotes related to themes of the text, it is easier for you t
 | “things outward do draw the inward” | Things outside of your control can shape who you are and what you do | Fate and circumstance |
 | - Enobarbus talks about how people’s decisions are shaped by their circumstances, not just by their character<br>- This comes after Cleopatra has abandoned the battle, yet Antony forgives her:<br><br>  - He is trying to rationalise why Antony would forgive her, something he disagrees with<br>  - He sees this as not a personal failing, but a man who has been corrupted by his circumstances<br>- Shakespeare has Enobarbus deliver this line as he is the play’s most rational observer:<br><br>  - He judges that Antony is not a weak man, but has been weakened by the pressures he is under<br>  - This has distorted his usual qualities as a leader<br>- Here, Enobarbus is saying that people are not fixed to act one way or another, but that they can change and be shaped by the circumstances they find themselves in<br>- He believes Antony’s downfall has come not because he is a bad or weak man, but that fortune has turned against him, and this is dragging his judgement and identity down with it. |   |   |
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

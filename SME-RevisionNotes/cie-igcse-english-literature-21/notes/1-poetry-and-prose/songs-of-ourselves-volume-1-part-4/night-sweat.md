@@ -3,7 +3,7 @@ note_id: "rn_JqtXwy3jjwk27M2Y"
 title: "Night Sweat"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/night-sweat
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/night-sweat
-updated_at: "2026-10-11T10:47:41.466Z"
+updated_at: "2026-10-21T12:41:43.553Z"
 spec_point_ids: ["spcpt_Yd7GTPCyDXnv5km8", "spcpt_q3299W4HMcM39P8m", "spcpt_sX99cPWbMbTcB5ss", "spcpt_P5gZGkSxYRKgfP75"]
 spec_point_codes: []
 guided_study: false
@@ -325,6 +325,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
 
   - It is evident, however, that he does regret how much she has to “bear”
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

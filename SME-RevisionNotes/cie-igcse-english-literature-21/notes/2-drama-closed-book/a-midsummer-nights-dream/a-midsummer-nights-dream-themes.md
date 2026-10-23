@@ -3,7 +3,7 @@ note_id: "rn_snWfccQX3wpJdmvv"
 title: "A Midsummer Night's Dream: Themes"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-themes
 path: 2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-themes
-updated_at: "2026-10-11T11:21:18.160Z"
+updated_at: "2026-10-21T12:40:35.429Z"
 spec_point_ids: ["spcpt_7DnWT7mZjjkbzchJ", "spcpt_GzJ2cth98qpsXFcT", "spcpt_cwNkdYYgvFzT6yNx", "spcpt_btZzzynPTjrHQbqw"]
 spec_point_codes: []
 guided_study: false
@@ -38,7 +38,7 @@ Below are some of the key themes that could be explored in A Midsummer Night’s
 
 Love is one of the main themes in A Midsummer Night’s Dream and Shakespeare explores it through a range of characters. As the play is a Shakespearean comedy, love is presented as *whimsical* and humorous rather than serious and passionate.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - Shakespeare explores the *multifaceted* nature of love:
 
@@ -65,7 +65,7 @@ Love is one of the main themes in A Midsummer Night’s Dream and Shakespeare ex
 
   - The chaotic events have been fixed and the characters find happiness through love and marriage
 
-**What is Shakespeare’s intention? **
+### What is Shakespeare’s intention?
 
 - Shakespeare uses the fairy world and Puck’s mischief to portray love as unpredictable and chaotic:
 
@@ -94,7 +94,7 @@ Love is one of the main themes in A Midsummer Night’s Dream and Shakespeare ex
 
 Dreams are a key theme in A Midsummer Night’s Dream and the idea of dreams is *prevalent*** **throughout the whole play, with many characters referencing dreams throughout the different acts.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The very title of the play suggests a dreamlike quality associated with the events that unfold:
 
@@ -110,7 +110,7 @@ Dreams are a key theme in A Midsummer Night’s Dream and the idea of dreams is 
 
   - For example, Hermia dreams of a serpent eating her heart, reflecting her fear of Lysander leaving her
 
-**What is Shakespeare’s intention?**
+### What is Shakespeare’s intention?
 
 - Shakespeare uses dreamlike imagery and poetic language throughout the play:
 
@@ -131,7 +131,7 @@ Dreams are a key theme in A Midsummer Night’s Dream and the idea of dreams is 
 
 Shakespeare explores the theme of order and disorder in the play through various dramatic elements, characters and the *interplay* between the human and fairy worlds. Order and disorder can also be linked to the rational and irrational and the need for balance.
 
-**Knowledge and evidence:**
+### Knowledge and evidence
 
 - The play begins in the ordered, civilised, structured city of Athens:
 
@@ -156,7 +156,7 @@ Shakespeare explores the theme of order and disorder in the play through various
 
   - This [symbolises](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/) the return to reality and the restoration of order after the events of the night
 
-**What is Shakespeare’s intention?**
+### What is Shakespeare’s intention?
 
 - The play explores the disruptive nature of love, as the romantic incidents challenge societal expectations and disrupt established norms:
 
@@ -165,6 +165,6 @@ Shakespeare explores the theme of order and disorder in the play through various
 
   - While the scenes in the forest are filled with confusion and disorder, it is ultimately a transformative setting, helping the characters to reach a happy resolution
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

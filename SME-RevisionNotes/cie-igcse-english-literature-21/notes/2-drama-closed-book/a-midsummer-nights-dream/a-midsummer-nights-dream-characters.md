@@ -3,7 +3,7 @@ note_id: "rn_4hVB3S7WR3p5GNDV"
 title: "A Midsummer Night's Dream: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-characters
 path: 2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-characters
-updated_at: "2026-10-11T11:20:04.394Z"
+updated_at: "2026-10-21T12:40:35.428Z"
 spec_point_ids: ["spcpt_HFZjhS3Q2C5Jpv8V", "spcpt_QGnTCgZHJF5Z47zX", "spcpt_gds9cMbFRkVFTrT3", "spcpt_nwk6m6PNX53bcX7v", "spcpt_4fcqcd9S9sbntFwg", "spcpt_BjhCKRH8x275vTMc", "spcpt_DgdPgK4Pdrh8GFKQ"]
 spec_point_codes: []
 guided_study: false
@@ -220,6 +220,6 @@ Lysander’s *persistence* in pursuing Hermia against objections and barriers [s
   - His transformation [symbolises](https://www.savemyexams.com/glossary/gcse/english-language/symbolism-definition/) his absurdity and comic foolishness
 - His interactions with Titania, who falls in love with him due to magical interference, also contribute to the play’s comedy
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

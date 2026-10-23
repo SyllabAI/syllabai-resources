@@ -3,7 +3,7 @@ note_id: "rn_Fx6Pt6mQdsBfFmQg"
 title: "No.38 A Walk to the Jetty"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/no-38-a-walk-to-the-jetty
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/no-38-a-walk-to-the-jetty
-updated_at: "2026-10-11T10:19:20.111Z"
+updated_at: "2026-10-21T12:40:41.960Z"
 spec_point_ids: ["spcpt_GhTkmbw9jY9JcCMY", "spcpt_mPK8MzsmjRb5VQTw", "spcpt_9Jh3W5ThSR9knD8p", "spcpt_NRjRVbPkgRvPCvFX", "spcpt_nYWzRtywmcwDqDmz"]
 spec_point_codes: []
 guided_study: false
@@ -189,6 +189,6 @@ The best way to revise quotations is in connection to a theme. Below you will fi
   - She is happy that she is able to use the fancy talcum powder from England rather than the “baby-smelling” powder she usually uses
 - Kincaid shows how England represents Annie’s future, one she believes will be sophisticated and very different to her childhood home
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.

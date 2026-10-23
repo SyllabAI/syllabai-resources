@@ -3,7 +3,7 @@ note_id: "rn_93yT5cy8fdFvQjsz"
 title: "Blues for an Alabama Sky: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-key-quotations
 path: 2-drama-closed-book/blues-for-an-alabama-sky/blues-for-an-alabama-sky-key-quotations
-updated_at: "2026-10-11T10:19:02.965Z"
+updated_at: "2026-10-21T12:40:32.498Z"
 spec_point_ids: ["spcpt_fj2PKvXB7Q8FWDjX", "spcpt_WQG6WFZ63Z4qJhPt", "spcpt_wGT89pCPqtMSFRF2"]
 spec_point_codes: []
 guided_study: false
@@ -435,6 +435,6 @@ Below you will find definitions and analysis of the best quotations arranged by 
 
   - This contrasts with Angel’s desire for independence
 
-#### Sources
+### Sources
 
 Cleage, P. (1999), *Blues for an Alabama Sky* (Dramatists Play Service Inc.)

@@ -3,7 +3,7 @@ note_id: "rn_5fFvXz3TSJryxxJY"
 title: "To Kill a Mockingbird: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-plot-summary
 path: 1-poetry-and-prose/to-kill-a-mockingbird/to-kill-a-mockingbird-plot-summary
-updated_at: "2026-10-11T10:18:46.797Z"
+updated_at: "2026-10-21T12:40:41.226Z"
 spec_point_ids: ["spcpt_88vKbGqGddjCg36r", "spcpt_cWRNQKnHTcfVbVC8", "spcpt_mVs8hcZ2BSJxrhjx", "spcpt_GkqZSTczP8q3mBsW"]
 spec_point_codes: []
 guided_study: false
@@ -157,6 +157,6 @@ After the trial, Scout and Jem are walking back from a school Halloween pageant 
 - Atticus suggests that they should allow the law to run its course, but the sheriff insists it was an accident
 - The novel ends with Atticus reading one of Jem’s books to Scout and she declares: “Atticus was right. One time he said you never really know a man until you stand in his shoes and walk around in them. Just standing on the Radley porch was enough.”
 
-#### Sources
+### Sources
 
 **Lee, H. (2010). To Kill a Mockingbird. Arrow Books.**

@@ -3,7 +3,7 @@ note_id: "rn_qdfM74yphwhfHb9w"
 title: "The Telephone Call"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-telephone-call
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/the-telephone-call
-updated_at: "2026-10-11T10:48:37.219Z"
+updated_at: "2026-10-21T12:41:41.581Z"
 spec_point_ids: ["spcpt_s3734CC56Y63x54G", "spcpt_WZb6VVQzD7pGb2wk", "spcpt_KVp9RmfcRbbbVYdh", "spcpt_cn9WvNThF6zpy9rP"]
 spec_point_codes: []
 guided_study: false
@@ -382,6 +382,6 @@ While context is not explicitly assessed, having an awareness of background info
   - The speaker is effectively being asked by the caller what things mean most to her in life
   - It is suggested that it is experiences that matter most and that those are what will be remembered
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

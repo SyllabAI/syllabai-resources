@@ -3,7 +3,7 @@ note_id: "rn_rHMpJcKvw2q68Dhc"
 title: "Funeral Blues"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/funeral-blues
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/funeral-blues
-updated_at: "2026-10-11T10:48:41.766Z"
+updated_at: "2026-10-21T12:41:42.919Z"
 spec_point_ids: ["spcpt_Jd48wGCB8C9jNq8M", "spcpt_TNbkC2zHY4zSJPyF", "spcpt_tjvvBnrWV7kmGcJB", "spcpt_bxjwZqRg2KZjncQm"]
 spec_point_codes: []
 guided_study: false
@@ -246,6 +246,6 @@ The questions in the IGCSE exams encourage you to write an informed, personal re
     - The statement “cut off the telephone” could reflect this
 - The poem also conveys how grief is so painful, and that life cannot continue for the one who is mourning
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

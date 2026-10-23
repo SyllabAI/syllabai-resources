@@ -3,7 +3,7 @@ note_id: "rn_DQtxFqv5bTMbb36F"
 title: "A Married State"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/a-married-state
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/a-married-state
-updated_at: "2026-10-11T10:19:16.894Z"
+updated_at: "2026-10-21T12:40:45.167Z"
 spec_point_ids: ["spcpt_Sy4GBTxcMyWRRm9R", "spcpt_nJgD3rDxRCjPngcC", "spcpt_JDTSPC43cjMK4ghn"]
 spec_point_codes: []
 guided_study: false
@@ -242,7 +242,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 [https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf](https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf).
 Songs of Ourselves: Volume 1: Cambridge Assessment International Education Anthology of Poetry in English. Cambridge University Press & Assessment, 2018.

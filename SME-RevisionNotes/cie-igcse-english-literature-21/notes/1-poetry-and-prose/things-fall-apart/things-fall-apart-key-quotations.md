@@ -3,7 +3,7 @@ note_id: "rn_nCpN4TWrQq7rThMx"
 title: "Things Fall Apart: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/things-fall-apart/things-fall-apart-key-quotations
 path: 1-poetry-and-prose/things-fall-apart/things-fall-apart-key-quotations
-updated_at: "2026-10-11T11:21:08.245Z"
+updated_at: "2026-10-21T12:40:43.333Z"
 spec_point_ids: ["spcpt_QXtrdzG3jC4qNchY", "spcpt_NHVkfmHkChZZsd6V", "spcpt_NKkG9N8wSnWnQPyx", "spcpt_wCVhBZhpmn7D4Zdb"]
 spec_point_codes: []
 guided_study: false
@@ -33,7 +33,7 @@ Chinua Achebe examines the effects of Western culture clashing with *Igbo* cultu
 > **blockquote**
 > **“The band of *****egwugwu***** moved like a furious whirlwind to Enoch's compound"** – The narrator, Chapter 22
 
-### Meaning and context:
+### Meaning and context
 
 - The narrator describes how the masked men who represent **Igbo** spirits take revenge upon a radical Christian convert, Enoch, who has disrespected them
 - The narrator explains how unmasking an *egwugwu* is “One of the greatest crimes a man could commit”:
@@ -47,7 +47,7 @@ Chinua Achebe examines the effects of Western culture clashing with *Igbo* cultu
 
   - This, coupled with the word “band”, portrays the spiritual men as one powerful and united force
 
-#### Paired quotation
+#### Paired quotations
 
 > **blockquote**
 > **“The elders consulted their Oracle and it told them that the strange man would break their clan and spread destruction among them”** – Obierika, Chapter 15
@@ -93,7 +93,7 @@ Chinua Achebe illustrates the danger of intolerant attitudes and discriminatory 
 - The introduction of Okonkwo presents the **Igbo** version of success at the time
 - The triple, listing his achievements, highlights the **Igbo** culture as a rural farming community with *patriarchal* values
 
-#### Paired quotation
+#### Paired quotations
 
 > **blockquote**
 > **“Nwoye knew that it was right to be masculine and to be violent, but somehow he still preferred the stories that his mother used to tell”** – The narrator, Chapter 7
@@ -140,7 +140,7 @@ Chinua Achebe’s tragedy considers the universal struggle of exerting one’s *
 
   - This portrays Unoka as accountable for his own failures
 
-#### Paired quotation
+#### Paired quotations
 
 > **blockquote**
 > **“And not only his chi but his clan too, because it judged a man by the work of his hands” **– The narrator, Chapter 4
@@ -172,7 +172,7 @@ Chinua Achebe’s tragedy considers the universal struggle of exerting one’s *
 
 While Things Fall Apart highlights the significance of heritage and family, Achebe also explores the traditions and customs that alienate and cause division in family units.
 
-#### Paired quotation
+### Paired quotations
 
 > **blockquote**
 > **“It was the fear of himself, lest he should be found to resemble his father”** – The narrator, Chapter 2
@@ -204,6 +204,6 @@ While Things Fall Apart highlights the significance of heritage and family, Ache
 - Achebe highlights how the clash of cultures when the *colonists* come to the villages extends to family values as well as religious values
 - Achebe uses [colloquial language](https://www.savemyexams.com/glossary/gcse/english-language/colloquialism-definition/) as Okonkwo expresses his surprise about some British “tribes” which highlights the alternative, indigenous [perspective](https://www.savemyexams.com/glossary/gcse/english-language/perspective/)
 
-#### Sources
+### Sources
 
 Achebe, Chinua. (1994). Things Fall Apart. Anchor Books.

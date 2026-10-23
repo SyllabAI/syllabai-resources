@@ -3,7 +3,7 @@ note_id: "rn_psbrNRbp95BvTN6n"
 title: "Request To A Year"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/request-to-a-year
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/request-to-a-year
-updated_at: "2026-10-11T10:48:34.859Z"
+updated_at: "2026-10-21T12:41:40.882Z"
 spec_point_ids: ["spcpt_RZNp6JVGf57yz4BN", "spcpt_dKShfqj6bzk2kSf8", "spcpt_pmxk66SXDCyrmPQK", "spcpt_fwvW8r5M948w8jFf"]
 spec_point_codes: []
 guided_study: false
@@ -280,6 +280,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
   - However, it is this quality that the speaker admires, which is why she asks for the “firmness of her hand”.
 - The poem underscores the importance of art as a form of expression and as an important resource in the *preservation* of memories
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

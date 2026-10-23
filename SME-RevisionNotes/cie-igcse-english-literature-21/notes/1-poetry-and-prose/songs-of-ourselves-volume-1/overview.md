@@ -3,7 +3,7 @@ note_id: "rn_XkP9DvFMbzfhGw2N"
 title: "Overview"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/overview
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/overview
-updated_at: "2026-10-11T10:20:10.762Z"
+updated_at: "2026-10-21T12:41:20.819Z"
 spec_point_ids: ["spcpt_SYrf6qgP6szbjdgD", "spcpt_2XXY9c2MmTQBtJ38", "spcpt_qKmSZYYVGfQHZcHp", "spcpt_dQXpmB8Mtv4kDMvp"]
 spec_point_codes: []
 guided_study: false
@@ -140,6 +140,6 @@ Some of the poems criticise exploitation by showing powerless individuals in the
 
   - Use connectives to link your ideas to present a coherent argument
 
-#### Sources
+### Sources
 
 Songs of Ourselves: Volume 1: Cambridge Assessment International Education Anthology of Poetry in English. Cambridge University Press & Assessment, 2018.

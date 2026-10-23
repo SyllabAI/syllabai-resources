@@ -3,7 +3,7 @@ note_id: "rn_hjXR9vncQwH6SyVk"
 title: "Things Fall Apart: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/things-fall-apart/things-fall-apart-plot-summary
 path: 1-poetry-and-prose/things-fall-apart/things-fall-apart-plot-summary
-updated_at: "2026-10-11T11:21:03.237Z"
+updated_at: "2026-10-21T12:40:44.072Z"
 spec_point_ids: ["spcpt_gp7gRSzrhbHWyVNd", "spcpt_wF7PxmMtjVc73gKn", "spcpt_RpygzZMSqfz5hQ3H"]
 spec_point_codes: []
 guided_study: false
@@ -195,6 +195,6 @@ Despite his comfortable settlement in Mbanta, he is dissatisfied with his new li
 - Obierika tells the commissioner to deal with Okonkwo’s body as Igbo beliefs disavow suicide
 - The **District Commissioner** describes the event as British “pacification”
 
-#### Sources
+### Sources
 
 Achebe, Chinua. (1994). Things Fall Apart. Anchor Books.

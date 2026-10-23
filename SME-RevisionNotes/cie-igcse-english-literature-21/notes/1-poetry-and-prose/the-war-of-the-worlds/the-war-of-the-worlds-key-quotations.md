@@ -3,7 +3,7 @@ note_id: "rn_PrD7sbvhpddkyGBR"
 title: "The War of the Worlds: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-key-quotations
 path: 1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-key-quotations
-updated_at: "2026-10-11T10:47:46.973Z"
+updated_at: "2026-10-21T12:40:59.727Z"
 spec_point_ids: ["spcpt_55F2Zz75HPpXTvXn", "spcpt_Vs7T5nW93Zk9RP8J", "spcpt_6dkXffmK5wg2QyCs", "spcpt_W2D7RVtb7T3CZjBj"]
 spec_point_codes: []
 guided_study: false
@@ -125,6 +125,6 @@ The theme of war and destruction dominates throughout the novel from the arrival
   - His behaviour is “wild” and he is “trembling” as Wells deliberately selects words with [connotations](https://www.savemyexams.com/glossary/gcse/english-language/connotation-definition/) of distress or illness
   - This rational character now feels “exultation”, reflecting the transformation of his character as a consequence of his terrifying experiences in the war
 
-#### Sources
+### Sources
 
 Wells, H. G. (2005). The War of the Worlds. Penguin Classics.

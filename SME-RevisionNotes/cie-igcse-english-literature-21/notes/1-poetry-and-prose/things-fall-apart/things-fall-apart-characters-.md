@@ -3,7 +3,7 @@ note_id: "rn_sfWrvB8TMpzrSX8Q"
 title: "Things Fall Apart: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/things-fall-apart/things-fall-apart-characters-
 path: 1-poetry-and-prose/things-fall-apart/things-fall-apart-characters-
-updated_at: "2026-10-11T10:21:11.993Z"
+updated_at: "2026-10-21T12:40:43.699Z"
 spec_point_ids: ["spcpt_b2DWkwfQbHrqFXvM", "spcpt_28pkWdTbg7mmtvjg", "spcpt_FKvgZMvMNRYh2yxw", "spcpt_pdNGqqgBmNfQjfcn", "spcpt_GVnJsM46tRZtTV9m"]
 spec_point_codes: []
 guided_study: false
@@ -179,6 +179,6 @@ Below you will find character profiles of:
 
   - In the final chapter, Obierika mourns Okonkwo’s death and expresses anger at how colonial rule has robbed his friend of dignity
 
-#### Sources
+### Sources
 
 [*“Reading Chinua Achebe’s Things Fall Apart from the Postcolonial Perspective”, Md. Mahbubul Alam, Research on Humanities and Social Sciences, Vol.4, No.12, 2014*](https://www.iiste.org/Journals/index.php/RHSS/article/view/13617)

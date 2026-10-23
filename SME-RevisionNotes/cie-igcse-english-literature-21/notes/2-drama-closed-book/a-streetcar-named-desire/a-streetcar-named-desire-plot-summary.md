@@ -3,7 +3,7 @@ note_id: "rn_pRKqxtzKKPyrWGh7"
 title: "A Streetcar Named Desire: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-plot-summary
 path: 2-drama-closed-book/a-streetcar-named-desire/a-streetcar-named-desire-plot-summary
-updated_at: "2026-10-11T10:48:31.611Z"
+updated_at: "2026-10-21T12:41:45.305Z"
 spec_point_ids: ["spcpt_4QbMkw6q8b6MStP2", "spcpt_QBpBbfPwXnDg3wdr", "spcpt_JWFtvxg394tqJ5fg", "spcpt_5N2fyVypbsY8dZQv"]
 spec_point_codes: []
 guided_study: false
@@ -208,6 +208,6 @@ The final scene takes place a few weeks later, after the baby is born. Stella an
 
   - She joins Stanley on the porch, who holds her in his arms
 
-#### Sources
+### Sources
 
 Williams, Tennessee. A Streetcar Named Desire. Edited by Elliott Martin Browne, Penguin, 2009. Accessed 11 April 2026.

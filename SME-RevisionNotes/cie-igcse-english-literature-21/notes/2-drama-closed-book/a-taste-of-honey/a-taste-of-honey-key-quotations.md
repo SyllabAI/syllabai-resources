@@ -3,7 +3,7 @@ note_id: "rn_pkbfRtzyBdq23FWj"
 title: "A Taste of Honey: Key Quotations"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-key-quotations
 path: 2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-key-quotations
-updated_at: "2026-08-05T08:17:19.204Z"
+updated_at: "2026-10-21T12:40:31.165Z"
 spec_point_ids: ["spcpt_qbgNPWNhrfNRKdbc", "spcpt_cF86RFx4mpXBmP2K", "spcpt_Zjf5Py49SySX3St2", "spcpt_6Tw7yZ2fqKZ9CkzX"]
 spec_point_codes: []
 guided_study: false
@@ -207,6 +207,6 @@ Shelagh Delaney’s play depicts the struggles of a young woman, Jo. Her challen
 - Her independence, although she struggles financially and has little support, empowers her
 - The [metaphor](https://www.savemyexams.com/glossary/gcse/english-language/metaphor-definition/) “whole world” highlights Jo’s increased capacity for caring once she is on her own
 
-#### Sources
+### Sources
 
 Delaney, Shelagh (2008), *A Taste Of Honey* (Edited by Glenda Leeming and Elaine Aston), Bloomsbury Academic.

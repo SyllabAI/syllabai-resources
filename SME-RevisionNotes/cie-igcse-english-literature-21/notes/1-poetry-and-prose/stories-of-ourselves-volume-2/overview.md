@@ -3,7 +3,7 @@ note_id: "rn_wcKZ5bB5bmmskKFZ"
 title: "Overview"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/stories-of-ourselves-volume-2/overview
 path: 1-poetry-and-prose/stories-of-ourselves-volume-2/overview
-updated_at: "2026-10-11T10:48:57.650Z"
+updated_at: "2026-10-21T12:41:20.110Z"
 spec_point_ids: ["spcpt_QQNwqjK3qwNmJRcH", "spcpt_gy9xKpsHPMjFpT5m", "spcpt_GrNx3WbRMzf2qq2X"]
 spec_point_codes: []
 guided_study: false
@@ -115,6 +115,6 @@ You’ll need to revise **all** the selected short stories because examiners can
 - Avoid just retelling the story — always link back to the question
 - Write a short plan, keep responses structured, and end with a **personal response** to the text
 
-#### Sources
+### Sources
 
 Wilmer, M (ed.), 2018, Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, Cambridge University Press.

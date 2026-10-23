@@ -3,7 +3,7 @@ note_id: "rn_ng5Pr4JjSw4b2Kgr"
 title: "The War of the Worlds: Context"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-context
 path: 1-poetry-and-prose/the-war-of-the-worlds/the-war-of-the-worlds-context
-updated_at: "2026-10-11T10:20:57.626Z"
+updated_at: "2026-10-21T12:41:00.265Z"
 spec_point_ids: ["spcpt_ND2WMNnZbnSFTx24", "spcpt_NP3N7kcJ2FvNw8VT", "spcpt_6dSVXZxKqbV9KKvp", "spcpt_5Qv2RTCYtvP98xNP", "spcpt_yxnCZPN6HSgWNtcS"]
 spec_point_codes: []
 guided_study: false
@@ -126,7 +126,7 @@ For your GCSE English Literature, you are assessed on AO3 (context), so you must
 
   - The Martians’ arrival and subsequent destruction is also indicative of society’s fears at the time
 
-#### Sources
+### Sources
 
 Paudyal, B. (2009, March 22). [Trauma, sublime, and the ambivalence of imperialist imagination in H. G. Wells’ The War of the Worlds](https://go.gale.com/ps/anonymous?id=GALE%7CA204868855&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=00145483&p=AONE&sw=w).
 

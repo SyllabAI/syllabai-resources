@@ -3,7 +3,7 @@ note_id: "rn_MWb47rG86rC3HD7C"
 title: "A Taste of Honey: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-characters
 path: 2-drama-closed-book/a-taste-of-honey/a-taste-of-honey-characters
-updated_at: "2026-09-22T08:15:14.337Z"
+updated_at: "2026-10-21T12:40:31.742Z"
 spec_point_ids: ["spcpt_myTpkFtqQFNPVfvN", "spcpt_T8xgYCYRqPNJmh4x", "spcpt_vsN8fgPsNmDRfJrZ", "spcpt_yZJtQn7wpTtpkHFc", "spcpt_JXf4847p8Q2bRxnf"]
 spec_point_codes: []
 guided_study: false
@@ -192,6 +192,6 @@ Below you will find character profiles of:
   - He tells Helen: “She can't cope with the two of us”, and leaves
   - However, the final scene shows Jo smiling and thinking of him
 
-#### Sources
+### Sources
 
 Delaney, Shelagh (2008), *A Taste Of Honey* (Edited by Glenda Leeming and Elaine Aston), Bloomsbury Academic.

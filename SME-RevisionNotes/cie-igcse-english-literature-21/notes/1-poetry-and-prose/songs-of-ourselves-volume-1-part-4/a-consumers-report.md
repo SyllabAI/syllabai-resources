@@ -3,7 +3,7 @@ note_id: "rn_xpfYKHmbfpWBYVXf"
 title: "A Consumer’s Report"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/a-consumers-report
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1-part-4/a-consumers-report
-updated_at: "2026-10-11T10:49:00.879Z"
+updated_at: "2026-10-21T12:41:41.061Z"
 spec_point_ids: ["spcpt_TDRMh4MwrCp2DH6y", "spcpt_yYM53SwQQbpsgt2X", "spcpt_Q53Nty9z67d8dVGn", "spcpt_XfHgGkpwcJ2m7g9g"]
 spec_point_codes: []
 guided_study: false
@@ -357,6 +357,6 @@ It is not enough to just know the poem really well as all questions in the IGCSE
 
   - Porter could have also done this in order to reflect the *impersonal* nature of consumer culture
 
-#### Sources
+### Sources
 
 Songs of Ourselves Volume 1: Cambridge Assessment International Education Anthology of Poetry in English, Cambridge University Press

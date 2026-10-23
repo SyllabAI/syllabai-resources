@@ -3,7 +3,7 @@ note_id: "rn_Ndhq7FqMwwkrVC4p"
 title: "Hunting Snake"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/songs-of-ourselves-volume-1/hunting-snake
 path: 1-poetry-and-prose/songs-of-ourselves-volume-1/hunting-snake
-updated_at: "2026-10-11T10:19:38.351Z"
+updated_at: "2026-10-21T12:40:44.353Z"
 spec_point_ids: ["spcpt_BNpVTb7rCkkfyBK8", "spcpt_Yg8n3gz96DCw3kjg", "spcpt_pwt5C7WX4Ytyxw6R"]
 spec_point_codes: []
 guided_study: false
@@ -245,7 +245,7 @@ For further advice and guidance on how to answer the poetry question, please see
 
 It is important to remember that no marks are given for comments on any of the other poems studied in the anthology. Your response should concentrate only on the poem given.
 
-#### Sources
+### Sources
 
 [*https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf*](https://www.cambridgeinternational.org/Images/414779-2020-specimen-mark-scheme-1.pdf)
 Songs of Ourselves: Volume 1: Cambridge Assessment International Education Anthology of Poetry in English. Cambridge University Press & Assessment, 2018.

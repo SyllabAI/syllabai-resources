@@ -3,7 +3,7 @@ note_id: "rn_45pdRHbYFVWBwrx8"
 title: "I'm the King of the Castle: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-characters
 path: 1-poetry-and-prose/im-the-king-of-the-castle/im-the-king-of-the-castle-characters
-updated_at: "2026-10-11T10:47:10.196Z"
+updated_at: "2026-10-21T12:40:38.095Z"
 spec_point_ids: ["spcpt_dzkgdmBymR3mZW4W", "spcpt_m7G9pK4ZwYdQm8JF"]
 spec_point_codes: []
 guided_study: false
@@ -247,6 +247,6 @@ Below you will find character profiles of:
   - The text states he “had not dared to rebel”, suggesting his father was a strict disciplinarian
 - Edmund suspects he has not been brought to look at the moth collection before because his father had quarrelled with his grandfather
 
-#### Sources
+### Sources
 
 Hill, S. (1970) I’m the King of the Castle. 1989 edn. Penguin.

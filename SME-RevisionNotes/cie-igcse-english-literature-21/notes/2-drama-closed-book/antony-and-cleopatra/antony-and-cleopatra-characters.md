@@ -3,7 +3,7 @@ note_id: "rn_6JZKGwJXWk2ZTSW3"
 title: "Antony and Cleopatra: Characters"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-characters
 path: 2-drama-closed-book/antony-and-cleopatra/antony-and-cleopatra-characters
-updated_at: "2026-10-11T10:18:49.461Z"
+updated_at: "2026-10-21T12:40:34.120Z"
 spec_point_ids: ["spcpt_dgsXkTkRzfhZycsC", "spcpt_zZTvrrphB4YSJHnh"]
 spec_point_codes: []
 guided_study: false
@@ -232,6 +232,6 @@ Below you will find character profiles of:
   - Devoted enough that she chooses suicide alongside Cleopatra
   - Her last words are direct from Plutarch, the source for much of Shakespeare’s historical writing
 
-#### Sources
+### Sources
 
 Shakespeare, W., Munday, A., Fletcher, J., Middleton, T., Heywood, T., Peele, G., Dekker, T., Wilkins, G., & Chettle, H. (2005). The Oxford Shakespeare: The Complete Works (Second Edition). In Oxford University Press eBooks. [https://doi.org/10.1093/actrade/9780199267170.book.1](https://doi.org/10.1093/actrade/9780199267170.book.1)

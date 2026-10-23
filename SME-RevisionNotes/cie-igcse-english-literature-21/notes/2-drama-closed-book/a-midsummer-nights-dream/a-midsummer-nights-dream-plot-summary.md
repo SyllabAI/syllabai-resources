@@ -3,7 +3,7 @@ note_id: "rn_ZR4VcR3xHcWwRhSC"
 title: "A Midsummer Night's Dream: Plot Summary"
 source: https://www.savemyexams.com/igcse/english-literature/cie/21/revision-notes/2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-plot-summary
 path: 2-drama-closed-book/a-midsummer-nights-dream/a-midsummer-nights-dream-plot-summary
-updated_at: "2026-10-11T11:20:52.570Z"
+updated_at: "2026-10-21T12:40:35.714Z"
 spec_point_ids: ["spcpt_848fnKmDfgdRywVT", "spcpt_vNjWbG8kkN3xqRbd", "spcpt_33kQ4ggKvcn99JF5"]
 spec_point_codes: []
 guided_study: false
@@ -110,6 +110,6 @@ The fairies visit the couples as they sleep and bless their unions. The play the
 
 Puck addresses the audience and asks them to remember the play as a dream. He wishes the audience a good night and asks them to applaud.
 
-#### Sources
+### Sources
 
 Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press
