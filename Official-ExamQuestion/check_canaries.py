@@ -266,9 +266,30 @@ for c in cans:
                     for q in t["questions"]:
                         for p in q["parts"]:
                             if p.get("answer_key_source") == "mcq-keys-ledger":
-                                corpus[(s, p["part_number"])] = (p, f"{s}/{p['part_number']}" in applied)
+                                # wave-22: the converter emits PAPER-SCOPED
+                                # application markers for every adjudication
+                                # (series:paper/part), including applications of
+                                # legacy series-scoped ledger entries. Accept
+                                # that form, the bare-series form the pre-0.14.1
+                                # converter emitted, and the legacy fallback for
+                                # paper dirs — monotone-lenient (only ever
+                                # accepts more marker spellings).
+                                paper_code = pd.name.split("-")[1]
+                                in_rep = (f"{s}/{p['part_number']}" in applied
+                                          or f"{d.name}:{paper_code}/{p['part_number']}" in applied
+                                          or s.split(":")[0] + "/" + p["part_number"] in applied)
+                                corpus[(s, p["part_number"])] = (p, in_rep)
+            def _ledger_keys(e):
+                # wave-22: paper-scoped entries ("paper": "2CR") address the
+                # corpus part (series:paper, part); the 1C-era entries carry no
+                # paper and keep the bare-series key (those parts exist only in
+                # 4CH1-1C).
+                if e.get("paper"):
+                    return (f'{e["series"]}:{e["paper"]}', e["part"])
+                return (e["series"], e["part"])
+
             for e in ledger:
-                s, part = e["series"], e["part"]
+                s, part = _ledger_keys(e)
                 if (s, part) not in corpus:
                     ok = False
                     print(f"  ! ledger {s} {part}: no corpus part carries the adjudication")
@@ -286,7 +307,7 @@ for c in cans:
                     ok = False
                     print(f"  ! ledger {s} {part}: solution_md not rebuilt from adjudicated block")
             for (s, part) in corpus:
-                if not any(e["series"] == s and e["part"] == part for e in ledger):
+                if not any(_ledger_keys(e) == (s, part) for e in ledger):
                     ok = False
                     print(f"  ! {s} {part}: answer_key_source marker without a ledger entry")
             print(f"  (ledger entries: {len(ledger)}, applied: {n_applied})")
