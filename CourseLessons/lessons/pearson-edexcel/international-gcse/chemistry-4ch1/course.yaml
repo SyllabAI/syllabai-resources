@@ -236,6 +236,27 @@ spine:
     pages:
     - 85
     - 94
+    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
+    # chunk chem_v3_u1_c8_pdf094_0349 lists exactly EIGHT objectives, matched
+    # to the spine node igcse-chemistry-T1:SUBg (8 children 1.44-1.51 in
+    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law). One-to-one:
+    # sharing-of-a-pair -> 1.44; electrostatic attractions -> 1.45; the
+    # dot-and-cross objective (three sub-bullets joined inline after its ':'
+    # lead, c03/c07 precedent) -> 1.46; the two printed bullets 'simple
+    # molecular structure ... low melting and boiling points' + 'intermolecular
+    # forces of attraction ... all forces between molecules' map onto the ONE
+    # spine child 1.47 whose own statement carries both sentences (spine-title
+    # concatenation, not a miss); Mr trend -> 1.48; giant covalent -> 1.49;
+    # diamond/graphite/C60 -> 1.50; do-not-usually-conduct -> 1.51. Pinned at
+    # S1 (T-BOOK-040 r0, 2026-10-24). ALL EIGHT are non-suffixed (papers
+    # [1C, 2C], double_award_shared true per spine applicability) —
+    # chem_only: false confirmed (L0 census default upheld by evidence).
+    # learning_objective: VERBATIM from chunk 0349 (margin items in printed
+    # order; bullet glyphs joined with ';'; the 1.46 objective's three
+    # sub-bullets joined inline after its ':' lead; 'C6o' OCR repaired to C₆₀
+    # per house style; no paraphrase)
+    learning_objective: "Know that a covalent bond is formed between atoms by the sharing of a pair of electrons; Understand covalent bonds in terms of electrostatic attractions; Understand how to use dot-and-cross diagrams to represent covalent bonds in: diatomic molecules, including hydrogen, oxygen, nitrogen, halogens and hydrogen halides; inorganic molecules, including water, ammonia and carbon dioxide; organic molecules containing up to two carbon atoms, including methane, ethane, ethene and those containing halogen atoms; Explain why substances with a simple molecular structure are gases or liquids, or solids with low melting and boiling points; Understand that the term intermolecular forces of attraction can be used to represent all forces between molecules; Explain why the melting and boiling points of substances with simple molecular structures increase, in general, with increasing relative molecular mass; Explain why substances with giant covalent structures are solids with high melting and boiling points; Explain how the structures of diamond, graphite and C₆₀ fullerene influence their physical properties, including electrical conductivity and hardness; Know that covalent compounds do not usually conduct electricity"
+    join_set: ["1.44", "1.45", "1.46", "1.47", "1.48", "1.49", "1.50", "1.51"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 19
   - key: u1:c09
     slug: metallic-bonding
