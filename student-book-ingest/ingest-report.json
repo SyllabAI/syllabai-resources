@@ -1,0 +1,7190 @@
+{
+ "schema": "c06-book-ingest-report/1.0",
+ "generated_at": "2026-10-24T00:00:00Z",
+ "src": "student-book-textlayer/pages",
+ "fallback": null,
+ "totals": {
+  "pages_processed": 378,
+  "chapters_written": 30,
+  "missing_slots": 0,
+  "blank_slots": 0,
+  "inline_math_converted": 0,
+  "display_math_converted": 0,
+  "unicode_scripts_converted": 0,
+  "figure_placeholders": 0,
+  "stripped_lines": 173,
+  "lint_findings": 222
+ },
+ "lint_by_type": {
+  "ar_symbol_suspect": 40,
+  "digit_letter_noise": 146,
+  "garbled_line": 9,
+  "unhandled_latex": 27
+ },
+ "chapters": [
+  {
+   "file": "chapters/front-matter.md",
+   "chapter": 0,
+   "title": "Front matter",
+   "pages": 10
+  },
+  {
+   "file": "chapters/ch-01-states-of-matter.md",
+   "chapter": 1,
+   "title": "States of Matter",
+   "pages": 9
+  },
+  {
+   "file": "chapters/ch-02-elements-compounds-and-mixtures.md",
+   "chapter": 2,
+   "title": "Elements, Compounds and Mixtures",
+   "pages": 10
+  },
+  {
+   "file": "chapters/ch-03-atomic-structure.md",
+   "chapter": 3,
+   "title": "Atomic Structure",
+   "pages": 6
+  },
+  {
+   "file": "chapters/ch-04-the-periodic-table.md",
+   "chapter": 4,
+   "title": "The Periodic Table",
+   "pages": 8
+  },
+  {
+   "file": "chapters/ch-05-chemical-formulae-equations-and-calculations-par.md",
+   "chapter": 5,
+   "title": "Chemical Formulae, Equations and Calculations Part 1",
+   "pages": 26
+  },
+  {
+   "file": "chapters/ch-06-chemical-formulae-equations-and-calculations-par.md",
+   "chapter": 6,
+   "title": "Chemical Formulae, Equations and Calculations Part 2",
+   "pages": 11
+  },
+  {
+   "file": "chapters/ch-07-ionic-bonding.md",
+   "chapter": 7,
+   "title": "Ionic Bonding",
+   "pages": 10
+  },
+  {
+   "file": "chapters/ch-08-covalent-bonding.md",
+   "chapter": 8,
+   "title": "Covalent Bonding",
+   "pages": 13
+  },
+  {
+   "file": "chapters/ch-09-metallic-bonding.md",
+   "chapter": 9,
+   "title": "Metallic Bonding",
+   "pages": 3
+  },
+  {
+   "file": "chapters/ch-10-electrolysis.md",
+   "chapter": 10,
+   "title": "Electrolysis",
+   "pages": 22
+  },
+  {
+   "file": "chapters/ch-11-the-alkali-metals.md",
+   "chapter": 11,
+   "title": "The Alkali Metals",
+   "pages": 7
+  },
+  {
+   "file": "chapters/ch-12-the-halogens.md",
+   "chapter": 12,
+   "title": "The Halogens",
+   "pages": 7
+  },
+  {
+   "file": "chapters/ch-13-gases-in-the-atmosphere.md",
+   "chapter": 13,
+   "title": "Gases in the Atmosphere",
+   "pages": 8
+  },
+  {
+   "file": "chapters/ch-14-reactivity-series.md",
+   "chapter": 14,
+   "title": "Reactivity Series",
+   "pages": 13
+  },
+  {
+   "file": "chapters/ch-15-extraction-and-uses-of-metals.md",
+   "chapter": 15,
+   "title": "Extraction and Uses of Metals",
+   "pages": 7
+  },
+  {
+   "file": "chapters/ch-16-acids-alkalis-and-titrations.md",
+   "chapter": 16,
+   "title": "Acids, Alkalis and Titrations",
+   "pages": 6
+  },
+  {
+   "file": "chapters/ch-17-acids-bases-and-salt-preparations.md",
+   "chapter": 17,
+   "title": "Acids, Bases and Salt Preparations",
+   "pages": 17
+  },
+  {
+   "file": "chapters/ch-18-chemical-tests.md",
+   "chapter": 18,
+   "title": "Chemical Tests",
+   "pages": 17
+  },
+  {
+   "file": "chapters/ch-19-energetics.md",
+   "chapter": 19,
+   "title": "Energetics",
+   "pages": 20
+  },
+  {
+   "file": "chapters/ch-20-rates-of-reaction.md",
+   "chapter": 20,
+   "title": "Rates of Reaction",
+   "pages": 13
+  },
+  {
+   "file": "chapters/ch-21-reversible-reactions-and-equilibria.md",
+   "chapter": 21,
+   "title": "Reversible Reactions and Equilibria",
+   "pages": 15
+  },
+  {
+   "file": "chapters/ch-22-introduction-to-organic-chemistry.md",
+   "chapter": 22,
+   "title": "Introduction to Organic Chemistry",
+   "pages": 13
+  },
+  {
+   "file": "chapters/ch-23-crude-oil.md",
+   "chapter": 23,
+   "title": "Crude Oil",
+   "pages": 9
+  },
+  {
+   "file": "chapters/ch-24-alkanes.md",
+   "chapter": 24,
+   "title": "Alkanes",
+   "pages": 5
+  },
+  {
+   "file": "chapters/ch-25-alkenes.md",
+   "chapter": 25,
+   "title": "Alkenes",
+   "pages": 5
+  },
+  {
+   "file": "chapters/ch-26-alcohols.md",
+   "chapter": 26,
+   "title": "Alcohols",
+   "pages": 4
+  },
+  {
+   "file": "chapters/ch-27-carboxylic-acids.md",
+   "chapter": 27,
+   "title": "Carboxylic Acids",
+   "pages": 4
+  },
+  {
+   "file": "chapters/ch-28-esters.md",
+   "chapter": 28,
+   "title": "Esters",
+   "pages": 7
+  },
+  {
+   "file": "chapters/ch-29-synthetic-polymers.md",
+   "chapter": 29,
+   "title": "Synthetic Polymers",
+   "pages": 73
+  }
+ ],
+ "missing_slots": [],
+ "blank_slots": [],
+ "pages": [
+  {
+   "page": "page-002",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "ac3aaa5646465779",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-003",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "3e1619ae6c7c6128",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "WC2R"
+    }
+   ]
+  },
+  {
+   "page": "page-004",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "d5aa04e0a8a9a83a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A:"
+    }
+   ]
+  },
+  {
+   "page": "page-005",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "e68a613849afbcff",
+   "stripped_lines": [
+    {
+     "line_no": 4,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-006",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "d6d6c6495dc5d58d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-007",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "3d90b57acec88070",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-008",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "0a7cbe7fb6766aa7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "OHa1a"
+    }
+   ]
+  },
+  {
+   "page": "page-009",
+   "book_page": null,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "9837018bb6506e4d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-010",
+   "book_page": 1,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "cc0da150f4f0defe",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-011",
+   "book_page": 2,
+   "chapter": 0,
+   "status": "text_layer",
+   "sha256": "93f1dc1819a61154",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-012",
+   "book_page": 3,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "97c2db29afeb1e73",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-015",
+   "book_page": 6,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "ccc33bc1c0202f1c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "6"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-016",
+   "book_page": 7,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "97c30a4ec7abd44d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-017",
+   "book_page": 8,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "632af640b80fdfdb",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "8"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "jYf1ij"
+    }
+   ]
+  },
+  {
+   "page": "page-018",
+   "book_page": 9,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "d52e692e73f8a167",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "garbled_line",
+     "line_no": 66,
+     "sample": ":=-\\f~··~"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\f"
+    }
+   ]
+  },
+  {
+   "page": "page-019",
+   "book_page": 10,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "d4ccbcec345bd993",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "10"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-020",
+   "book_page": 11,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "b7856bda28219a96",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Solub1htyl"
+    }
+   ]
+  },
+  {
+   "page": "page-021",
+   "book_page": 12,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "e735a1ef64bfb372",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "12"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1111dl1Mltiii"
+    }
+   ]
+  },
+  {
+   "page": "page-022",
+   "book_page": 13,
+   "chapter": 1,
+   "status": "text_layer",
+   "sha256": "a6c6f563e303ed21",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-023",
+   "book_page": 14,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "0787293ec617b049",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "14"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-024",
+   "book_page": 15,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "8ad145c6da34df36",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-025",
+   "book_page": 16,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "a1da6344b98c0214",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "16"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "mix1ure"
+    }
+   ]
+  },
+  {
+   "page": "page-026",
+   "book_page": 17,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "e59a585c5ee9183b",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-027",
+   "book_page": 18,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "a0f982460fd57c6e",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "18"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-028",
+   "book_page": 19,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "33f2780ebf320966",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-029",
+   "book_page": 20,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "ff5276f28c9a1b45",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "20"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-030",
+   "book_page": 21,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "f337837bf830f7b4",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-031",
+   "book_page": 22,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "65eb3b92930dc59a",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "22"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "iniM4ii"
+    }
+   ]
+  },
+  {
+   "page": "page-032",
+   "book_page": 23,
+   "chapter": 2,
+   "status": "text_layer",
+   "sha256": "17351e0c10817541",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-033",
+   "book_page": 24,
+   "chapter": 3,
+   "status": "text_layer",
+   "sha256": "adb6f0d2458c0b01",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "24"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-034",
+   "book_page": 25,
+   "chapter": 3,
+   "status": "text_layer",
+   "sha256": "495ce86d5af1d90b",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-035",
+   "book_page": 26,
+   "chapter": 3,
+   "status": "text_layer",
+   "sha256": "724078a8035e405e",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "26"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-036",
+   "book_page": 27,
+   "chapter": 3,
+   "status": "text_layer",
+   "sha256": "91e8dc9ac84894b9",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-037",
+   "book_page": 28,
+   "chapter": 3,
+   "status": "text_layer",
+   "sha256": "1a84399b36128e02",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "28"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-038",
+   "book_page": 29,
+   "chapter": 3,
+   "status": "text_layer",
+   "sha256": "3e3644acaef51506",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-039",
+   "book_page": 30,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "2659fb30f6a499ca",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "30"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-040",
+   "book_page": 31,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "fceb749254a2b796",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A."
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "every1h"
+    }
+   ]
+  },
+  {
+   "page": "page-041",
+   "book_page": 32,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "4a23329babbb9576",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "32"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-042",
+   "book_page": 33,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "1a11a55faa98154c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-043",
+   "book_page": 34,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "e5df4cdd95eb518c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "34"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-044",
+   "book_page": 35,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "aee90333a1d70cc5",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-045",
+   "book_page": 36,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "7ef61d67737cca7c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "36"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\llM"
+    }
+   ]
+  },
+  {
+   "page": "page-046",
+   "book_page": 37,
+   "chapter": 4,
+   "status": "text_layer",
+   "sha256": "b9dab659a185519c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-047",
+   "book_page": 38,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "65e86bfdf0941038",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "38"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-048",
+   "book_page": 39,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "9c6ea120822dd873",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-049",
+   "book_page": 40,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "6b841d2d870adb2f",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "40"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2CI"
+    }
+   ]
+  },
+  {
+   "page": "page-050",
+   "book_page": 41,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "fb1265c21d033ddb",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C2Hs"
+    }
+   ]
+  },
+  {
+   "page": "page-051",
+   "book_page": 42,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "3ac23c2f8685d735",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "42"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    }
+   ]
+  },
+  {
+   "page": "page-052",
+   "book_page": 43,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "74023c35fdb98265",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Na2C03"
+    }
+   ]
+  },
+  {
+   "page": "page-053",
+   "book_page": 44,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "2cd2cc18be83c05e",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "44"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-054",
+   "book_page": 45,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "e18cfce28db922e2",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-055",
+   "book_page": 46,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "533e80c71549bfcb",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "46"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "any1hing"
+    }
+   ]
+  },
+  {
+   "page": "page-056",
+   "book_page": 47,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "fc055b2d475f57c0",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    }
+   ]
+  },
+  {
+   "page": "page-057",
+   "book_page": 48,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "7f83a5cbe2c56348",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "48"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-058",
+   "book_page": 49,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "8919ab48a28d94cf",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-059",
+   "book_page": 50,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "d6bdee90b194b662",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "50"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-060",
+   "book_page": 51,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "c161274c9b673131",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    }
+   ]
+  },
+  {
+   "page": "page-061",
+   "book_page": 52,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "13c9a41d673c502b",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "52"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "C2Hs"
+    }
+   ]
+  },
+  {
+   "page": "page-062",
+   "book_page": 53,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "03eacc8f5773f4a1",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "pipec1ay"
+    }
+   ]
+  },
+  {
+   "page": "page-063",
+   "book_page": 54,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "d11f0e24dea23ebd",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "54"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    }
+   ]
+  },
+  {
+   "page": "page-064",
+   "book_page": 55,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "eb0597190aa9cf07",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    }
+   ]
+  },
+  {
+   "page": "page-065",
+   "book_page": 56,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "17b58ef6486d5064",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "56"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    }
+   ]
+  },
+  {
+   "page": "page-066",
+   "book_page": 57,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "06da167d230f8b3c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-067",
+   "book_page": 58,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "7e1ae5edb765c280",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "58"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "eoret1ca1y1e"
+    }
+   ]
+  },
+  {
+   "page": "page-068",
+   "book_page": 59,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "b497d1359cf199ce",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-069",
+   "book_page": 60,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "83236f54aac01ef1",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "60"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "inih4ii"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\ilfiiMWIIIIIIIIIIIIIJ"
+    }
+   ]
+  },
+  {
+   "page": "page-070",
+   "book_page": 61,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "77a64a11601e8c38",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "Na2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-071",
+   "book_page": 62,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "b12c908c47bb0bcc",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "62"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "Sb2S3"
+    }
+   ]
+  },
+  {
+   "page": "page-072",
+   "book_page": 63,
+   "chapter": 5,
+   "status": "text_layer",
+   "sha256": "b3c08989d09d8a8a",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-073",
+   "book_page": 64,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "451086f31eefaeb9",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "64"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1HMViihi1iWEI"
+    }
+   ]
+  },
+  {
+   "page": "page-074",
+   "book_page": 65,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "b3e80ae417a5f70f",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-075",
+   "book_page": 66,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "da2751a954abd4c5",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "66"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "any1hing"
+    }
+   ]
+  },
+  {
+   "page": "page-076",
+   "book_page": 67,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "dd1d443ffe0e2eab",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    }
+   ]
+  },
+  {
+   "page": "page-077",
+   "book_page": 68,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "f4d8245228ef7018",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "68"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "Na2C03"
+    }
+   ]
+  },
+  {
+   "page": "page-078",
+   "book_page": 69,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "c74270d8c533434a",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "2CH3COOH"
+    }
+   ]
+  },
+  {
+   "page": "page-079",
+   "book_page": 70,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "8aec30a17ab94c47",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "70"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-080",
+   "book_page": 71,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "a9aec3bab382732d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2Na0H"
+    }
+   ]
+  },
+  {
+   "page": "page-081",
+   "book_page": 72,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "1770c4428c37bba6",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "72"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "10mo1S02"
+    }
+   ]
+  },
+  {
+   "page": "page-082",
+   "book_page": 73,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "70cec09fce19ff25",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A.:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-083",
+   "book_page": 74,
+   "chapter": 6,
+   "status": "text_layer",
+   "sha256": "f7a41e8b41a1e268",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "74"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "2CH3COOH"
+    }
+   ]
+  },
+  {
+   "page": "page-084",
+   "book_page": 75,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "29747e6f56d32477",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "NH4CI"
+    }
+   ]
+  },
+  {
+   "page": "page-085",
+   "book_page": 76,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "8504b8edb0d6e68d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "76"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "d1agra"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\harge"
+    }
+   ]
+  },
+  {
+   "page": "page-086",
+   "book_page": 77,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "8810bc37764f38c0",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "garbled_line",
+     "line_no": 40,
+     "sample": "\"'-'\"\"'~-·~@· @"
+    },
+    {
+     "type": "garbled_line",
+     "line_no": 109,
+     "sample": "~~;;~=~~~"
+    },
+    {
+     "type": "garbled_line",
+     "line_no": 111,
+     "sample": "~!~; ~~~:=~"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "oi1c"
+    }
+   ]
+  },
+  {
+   "page": "page-087",
+   "book_page": 78,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "ff62c4b20bf68d2e",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "78"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-088",
+   "book_page": 79,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "905e5b9e4ee4b71a",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-089",
+   "book_page": 80,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "c44b819f77dd9f5d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "80"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-090",
+   "book_page": 81,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "b543247bad50ed4b",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-091",
+   "book_page": 82,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "bc2ccd18dcec52f7",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "82"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-092",
+   "book_page": 83,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "0667c1e6318655a5",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-093",
+   "book_page": 84,
+   "chapter": 7,
+   "status": "text_layer",
+   "sha256": "c96893f6a17e27eb",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "84"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-094",
+   "book_page": 85,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "18e7e8ca69eeb28a",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-095",
+   "book_page": 86,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "4922b9dc03c1de23",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "86"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-096",
+   "book_page": 87,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "4e5baf23b9efd405",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-097",
+   "book_page": 88,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "505129b56eff792c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "88"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-098",
+   "book_page": 89,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "ab6831dfec91e5ed",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-099",
+   "book_page": 90,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "e6085c47e61fd0bd",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "90"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-100",
+   "book_page": 91,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "3aac5009e243c499",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3Br"
+    }
+   ]
+  },
+  {
+   "page": "page-101",
+   "book_page": 92,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "c89e2bcb0d071d48",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "92"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-102",
+   "book_page": 93,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "bf82429341f7551e",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-103",
+   "book_page": 94,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "f0dbac1b1cb49400",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "94"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-104",
+   "book_page": 95,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "33051d883d88afc3",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-105",
+   "book_page": 96,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "26a0bcdd81e6daab",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "96"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\iifiiMW"
+    }
+   ]
+  },
+  {
+   "page": "page-106",
+   "book_page": 97,
+   "chapter": 8,
+   "status": "text_layer",
+   "sha256": "0e1591c75b46b728",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    }
+   ]
+  },
+  {
+   "page": "page-107",
+   "book_page": 98,
+   "chapter": 9,
+   "status": "text_layer",
+   "sha256": "3b182ef82533b56d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "98"
+    },
+    {
+     "line_no": 3,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1HMViihi1iWEI"
+    }
+   ]
+  },
+  {
+   "page": "page-108",
+   "book_page": 99,
+   "chapter": 9,
+   "status": "text_layer",
+   "sha256": "eacb710311864661",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-109",
+   "book_page": 100,
+   "chapter": 9,
+   "status": "text_layer",
+   "sha256": "46736b8990be0ac7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-110",
+   "book_page": 101,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "c1fd597a9079129c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-111",
+   "book_page": 102,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "db3a6ffbd87c65c3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-112",
+   "book_page": 103,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "273cd26fb6f54af4",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-113",
+   "book_page": 104,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "34aca2f1dc419af7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-114",
+   "book_page": 105,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "077148b585b64001",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-115",
+   "book_page": 106,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "19e12cec2763bf3d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-116",
+   "book_page": 107,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "6b70e32f122017e1",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-117",
+   "book_page": 108,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "95375f7249b394bb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-118",
+   "book_page": 109,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "5bc7a8f772e30df4",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-119",
+   "book_page": 110,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "d9eaf7308fe6fa9c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-120",
+   "book_page": 111,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "6aa9a03b21423138",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-121",
+   "book_page": 112,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "fceb2f7a89f47f40",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "inih4ii"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\ilfiiMWIIIIIIIIIIIIIJ"
+    }
+   ]
+  },
+  {
+   "page": "page-122",
+   "book_page": 113,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "444556707d674b4c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-123",
+   "book_page": 114,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "f548759982a715a3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-124",
+   "book_page": 115,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "e942c543b1037e00",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-125",
+   "book_page": 116,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "f20c30db5b11dc84",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Sr3N2"
+    }
+   ]
+  },
+  {
+   "page": "page-126",
+   "book_page": 117,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "e24d42badf1f1f5c",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    }
+   ]
+  },
+  {
+   "page": "page-127",
+   "book_page": 118,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "2fed3956a6b101bb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    }
+   ]
+  },
+  {
+   "page": "page-128",
+   "book_page": 119,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "d040a33332ad0cfb",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "50cm3of"
+    }
+   ]
+  },
+  {
+   "page": "page-129",
+   "book_page": 120,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "c30e34fcaa9a68d0",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\o"
+    }
+   ]
+  },
+  {
+   "page": "page-130",
+   "book_page": 121,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "ecd2971be7255bab",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-131",
+   "book_page": 122,
+   "chapter": 10,
+   "status": "text_layer",
+   "sha256": "4aeef6591fe1383d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-132",
+   "book_page": 123,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "61e177f6f95d0b1b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-133",
+   "book_page": 124,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "e3f13d28d63b2d98",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-134",
+   "book_page": 125,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "84407c2e2f46146d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-135",
+   "book_page": 126,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "7604134f095d95ab",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A\n\n,"
+    }
+   ]
+  },
+  {
+   "page": "page-136",
+   "book_page": 127,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "1fecf51244828253",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-137",
+   "book_page": 128,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "cb6d66de150007a5",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-138",
+   "book_page": 129,
+   "chapter": 11,
+   "status": "text_layer",
+   "sha256": "6094ebe461dc28bc",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-139",
+   "book_page": 130,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "ca1462909bd79d2e",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-140",
+   "book_page": 131,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "60972f191038c25b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-141",
+   "book_page": 132,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "a07af30ede6d9db7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-142",
+   "book_page": 133,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "227593356ec60262",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-143",
+   "book_page": 134,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "783ac53c17deb8ee",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-144",
+   "book_page": 135,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "1f47926051d420c8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-145",
+   "book_page": 136,
+   "chapter": 12,
+   "status": "text_layer",
+   "sha256": "f47845aa64eca899",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-146",
+   "book_page": 137,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "f67bf3e313928989",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-147",
+   "book_page": 138,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "1577d61886984280",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\lY"
+    }
+   ]
+  },
+  {
+   "page": "page-148",
+   "book_page": 139,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "3e162fb3b7a15947",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-149",
+   "book_page": 140,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "4ddea6bf771de0a9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-150",
+   "book_page": 141,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "23074d8a91884d2c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-151",
+   "book_page": 142,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "4b1293df1f0203f8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-152",
+   "book_page": 143,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "6077090b6ef66a8b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-153",
+   "book_page": 144,
+   "chapter": 13,
+   "status": "text_layer",
+   "sha256": "6dcf9ce0352a7806",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-154",
+   "book_page": 145,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "c5ce2c66aef45bda",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-155",
+   "book_page": 146,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "74ef39755f0d91d1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-156",
+   "book_page": 147,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "6e7c885744ba3b02",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-157",
+   "book_page": 148,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "261ee6138b80bb4b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\EYPOIIH"
+    }
+   ]
+  },
+  {
+   "page": "page-158",
+   "book_page": 149,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "5200f8d090d9cb26",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-159",
+   "book_page": 150,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "af37da36c10dc200",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\Jii"
+    }
+   ]
+  },
+  {
+   "page": "page-160",
+   "book_page": 151,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "96f5ad620a13bae7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-161",
+   "book_page": 152,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "8561840fff5d9141",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-162",
+   "book_page": 153,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "d1e841a1f0f72844",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "lmt1al"
+    }
+   ]
+  },
+  {
+   "page": "page-165",
+   "book_page": 156,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "eceb368e198c9cdc",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "potM8lum"
+    }
+   ]
+  },
+  {
+   "page": "page-166",
+   "book_page": 157,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "8caa1f8489b2291b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\ilfiiMWlllllllt"
+    }
+   ]
+  },
+  {
+   "page": "page-167",
+   "book_page": 158,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "a2a9d4fd40f787e4",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-168",
+   "book_page": 159,
+   "chapter": 14,
+   "status": "text_layer",
+   "sha256": "64271bc49b8d7e01",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "t1lt"
+    }
+   ]
+  },
+  {
+   "page": "page-169",
+   "book_page": 160,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "41fe3dc98d1c0abb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1HMViihi1iWEI"
+    }
+   ]
+  },
+  {
+   "page": "page-170",
+   "book_page": 161,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "875078f236293dde",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-171",
+   "book_page": 162,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "50283ce191f5e068",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-172",
+   "book_page": 163,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "9492c7238de529d8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-173",
+   "book_page": 164,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "db5fbb62049307bb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-174",
+   "book_page": 165,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "7fdc0840d6290483",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-175",
+   "book_page": 166,
+   "chapter": 15,
+   "status": "text_layer",
+   "sha256": "ff587db53025a7cb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-176",
+   "book_page": 167,
+   "chapter": 16,
+   "status": "text_layer",
+   "sha256": "f38855889006e1b2",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-177",
+   "book_page": 168,
+   "chapter": 16,
+   "status": "text_layer",
+   "sha256": "60aac21d39aa80eb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-178",
+   "book_page": 169,
+   "chapter": 16,
+   "status": "text_layer",
+   "sha256": "415571424aa344e1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H3P04"
+    }
+   ]
+  },
+  {
+   "page": "page-179",
+   "book_page": 170,
+   "chapter": 16,
+   "status": "text_layer",
+   "sha256": "88e2ccbc879d414d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-180",
+   "book_page": 171,
+   "chapter": 16,
+   "status": "text_layer",
+   "sha256": "1c175cd64b77c5b9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1n1t1al"
+    }
+   ]
+  },
+  {
+   "page": "page-181",
+   "book_page": 172,
+   "chapter": 16,
+   "status": "text_layer",
+   "sha256": "4394ae53a801cdb9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "mBIIE1l"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\llM"
+    }
+   ]
+  },
+  {
+   "page": "page-182",
+   "book_page": 173,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "69978b316c45bb3f",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-183",
+   "book_page": 174,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "2c5ef5e305c9d5c8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3C00Na"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\aliliiMl"
+    }
+   ]
+  },
+  {
+   "page": "page-184",
+   "book_page": 175,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "c6cd3e27516c4841",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "11MH1q"
+    }
+   ]
+  },
+  {
+   "page": "page-185",
+   "book_page": 176,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "aa10a417dacd7dd8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-186",
+   "book_page": 177,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "6f0a7687a091959d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-187",
+   "book_page": 178,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "2f35d3ca7b61ee38",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-188",
+   "book_page": 179,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "2757962e273266a8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-189",
+   "book_page": 180,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "a9edd70ecfa3afe6",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-190",
+   "book_page": 181,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "4705e254e60ed1b3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1HIW4ilii1iWD"
+    }
+   ]
+  },
+  {
+   "page": "page-191",
+   "book_page": 182,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "f879fa023f0e8f50",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-192",
+   "book_page": 183,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "69060f611d3146e7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-193",
+   "book_page": 184,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "6ba65d60bccb98ce",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "K2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-194",
+   "book_page": 185,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "f6f7f247dd35160d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-195",
+   "book_page": 186,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "03bdd78e040cd29d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Br0nsted"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\JEEJ"
+    }
+   ]
+  },
+  {
+   "page": "page-196",
+   "book_page": 187,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "3536ed10d9d6af18",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "NH3laq"
+    }
+   ]
+  },
+  {
+   "page": "page-197",
+   "book_page": 188,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "87f3d75b21564788",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    }
+   ]
+  },
+  {
+   "page": "page-198",
+   "book_page": 189,
+   "chapter": 17,
+   "status": "text_layer",
+   "sha256": "915bd8e39aefc53b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-199",
+   "book_page": 190,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "96dd2fa3acfe17eb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1dent1fy"
+    }
+   ]
+  },
+  {
+   "page": "page-200",
+   "book_page": 191,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "63ff095f3d3a5ced",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-201",
+   "book_page": 192,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "f5ad4da4af6ccccc",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "anY1hing"
+    }
+   ]
+  },
+  {
+   "page": "page-202",
+   "book_page": 193,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "09791efaf4357c27",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Na2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-203",
+   "book_page": 194,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "91612af965cb6256",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "prec1p1tate"
+    }
+   ]
+  },
+  {
+   "page": "page-204",
+   "book_page": 195,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "f3a96d446cb088e1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-205",
+   "book_page": 196,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "574008bb0a582e87",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "Pos1t1ve"
+    }
+   ]
+  },
+  {
+   "page": "page-206",
+   "book_page": 197,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "40b053877ef98a19",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-207",
+   "book_page": 198,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "7693e31589912344",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-208",
+   "book_page": 199,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "02e738f97e9917e1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-209",
+   "book_page": 200,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "8b48bc76b542fe5a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-210",
+   "book_page": 201,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "ef06f9d9ee15adfb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-211",
+   "book_page": 202,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "b0e369019c4b1392",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "WiMhi1iHIO"
+    }
+   ]
+  },
+  {
+   "page": "page-212",
+   "book_page": 203,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "f40609a8c588bae1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1J1a11"
+    }
+   ]
+  },
+  {
+   "page": "page-213",
+   "book_page": 204,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "4e1a79ae39e0ee62",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "E3ID"
+    }
+   ]
+  },
+  {
+   "page": "page-214",
+   "book_page": 205,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "53eaaaaf09cfbfe7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-215",
+   "book_page": 206,
+   "chapter": 18,
+   "status": "text_layer",
+   "sha256": "962e6b35191acec1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-216",
+   "book_page": 207,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "3045528227517af3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-217",
+   "book_page": 208,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "aac4f7cc546e81a5",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-218",
+   "book_page": 209,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "f9143d1b9f676628",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-219",
+   "book_page": 210,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "320e29adeb509ae1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "irllW4ihA"
+    }
+   ]
+  },
+  {
+   "page": "page-220",
+   "book_page": 211,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "7d9aa6e8385e0b6b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "mxcx6T"
+    }
+   ]
+  },
+  {
+   "page": "page-221",
+   "book_page": 212,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "858b45e0d320b68e",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-222",
+   "book_page": 213,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "b203c65d3e8498fa",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH20H"
+    }
+   ]
+  },
+  {
+   "page": "page-223",
+   "book_page": 214,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "30a968b47d67bb61",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-224",
+   "book_page": 215,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "0cfc291e8506c62c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-225",
+   "book_page": 216,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "a261a8e7ad9fc12d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-226",
+   "book_page": 217,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "215e828d204aabe0",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-227",
+   "book_page": 218,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "831f29e26e6e3da9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "garbled_line",
+     "line_no": 47,
+     "sample": "~ O+-~~~~~~-~~~-..."
+    }
+   ]
+  },
+  {
+   "page": "page-228",
+   "book_page": 219,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "66e2c386385b6ada",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "o5oo"
+    }
+   ]
+  },
+  {
+   "page": "page-229",
+   "book_page": 220,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "ade3cbd1120c953b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-230",
+   "book_page": 221,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "582ecec9c9ac0e72",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-231",
+   "book_page": 222,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "1ddb2d34607d3551",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-232",
+   "book_page": 223,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "fe29bd72c45cb6f2",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-233",
+   "book_page": 224,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "b31d7588c831b0b8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "ih4ii"
+    }
+   ]
+  },
+  {
+   "page": "page-234",
+   "book_page": 225,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "50c3cbbea3b68ef2",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3Br"
+    }
+   ]
+  },
+  {
+   "page": "page-235",
+   "book_page": 226,
+   "chapter": 19,
+   "status": "text_layer",
+   "sha256": "70f09f9f2394c3ad",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "2Na0H"
+    }
+   ]
+  },
+  {
+   "page": "page-236",
+   "book_page": 227,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "90807d844bf0169d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-237",
+   "book_page": 228,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "943690d335887783",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "every1hing"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\TE"
+    }
+   ]
+  },
+  {
+   "page": "page-238",
+   "book_page": 229,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "b82898cd26698f83",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-239",
+   "book_page": 230,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "b4db2b81ea867d1d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-240",
+   "book_page": 231,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "e4d8e95a63b656c5",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-241",
+   "book_page": 232,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "cbae69cbf56dface",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Every1hing"
+    }
+   ]
+  },
+  {
+   "page": "page-242",
+   "book_page": 233,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "5660fc7ae94408f4",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-243",
+   "book_page": 234,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "6096ec4a5b7fb73b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\TE"
+    }
+   ]
+  },
+  {
+   "page": "page-244",
+   "book_page": 235,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "55a5ff2c6b308f73",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-245",
+   "book_page": 236,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "c4b737a910530b99",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\TE"
+    }
+   ]
+  },
+  {
+   "page": "page-246",
+   "book_page": 237,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "78575f78538d0e30",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-247",
+   "book_page": 238,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "ae587a41de03438f",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "ih4ii"
+    }
+   ]
+  },
+  {
+   "page": "page-248",
+   "book_page": 239,
+   "chapter": 20,
+   "status": "text_layer",
+   "sha256": "0616a66191f9263d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-249",
+   "book_page": 240,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "4dbe9de55ed41138",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "revers1b1hty"
+    }
+   ]
+  },
+  {
+   "page": "page-250",
+   "book_page": 241,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "b82249b9c2ded443",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-251",
+   "book_page": 242,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "cd803198dd4548f4",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-252",
+   "book_page": 243,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "7621a91823fffc0a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A .:"
+    }
+   ]
+  },
+  {
+   "page": "page-253",
+   "book_page": 244,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "815abb6db1ff9eb5",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\c"
+    }
+   ]
+  },
+  {
+   "page": "page-254",
+   "book_page": 245,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "fde718ad1811c69e",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-255",
+   "book_page": 246,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "b1c98ba584e38e51",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    }
+   ]
+  },
+  {
+   "page": "page-256",
+   "book_page": 247,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "c63cd95c30551cbd",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-257",
+   "book_page": 248,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "66183425d99711e7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-258",
+   "book_page": 249,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "8b5cd6f8953966f5",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-259",
+   "book_page": 250,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "1b8d6e533bd0429b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-260",
+   "book_page": 251,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "afde976d87a98403",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-261",
+   "book_page": 252,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "db51ab741b67dda9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "d1ox1de"
+    }
+   ]
+  },
+  {
+   "page": "page-262",
+   "book_page": 253,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "deed9edd89770c37",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "HIW1MM"
+    }
+   ]
+  },
+  {
+   "page": "page-263",
+   "book_page": 254,
+   "chapter": 21,
+   "status": "text_layer",
+   "sha256": "a9df19d56a75c0e8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-264",
+   "book_page": 255,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "bc5873379dc93981",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH2CH"
+    }
+   ]
+  },
+  {
+   "page": "page-265",
+   "book_page": 256,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "9496c2d81ca56910",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-266",
+   "book_page": 257,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "008895b1025900db",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C4H100"
+    }
+   ]
+  },
+  {
+   "page": "page-267",
+   "book_page": 258,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "2bb98dfc8ef3505e",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH2C"
+    }
+   ]
+  },
+  {
+   "page": "page-268",
+   "book_page": 259,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "a03887586fa79e36",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CHCH2CH3"
+    }
+   ]
+  },
+  {
+   "page": "page-269",
+   "book_page": 260,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "3340d23b803985f6",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH2"
+    }
+   ]
+  },
+  {
+   "page": "page-270",
+   "book_page": 261,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "6b2a86e9dc27baa0",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C5H12"
+    }
+   ]
+  },
+  {
+   "page": "page-271",
+   "book_page": 262,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "8b5f33fb72edf200",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-272",
+   "book_page": 263,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "263a5a5d3427c58d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C4H8"
+    }
+   ]
+  },
+  {
+   "page": "page-273",
+   "book_page": 264,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "3a7d11d7731ff02d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-274",
+   "book_page": 265,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "88a5d1c736e228dd",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH2Br"
+    }
+   ]
+  },
+  {
+   "page": "page-275",
+   "book_page": 266,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "094de44aadaf4a30",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2C8H18"
+    }
+   ]
+  },
+  {
+   "page": "page-276",
+   "book_page": 267,
+   "chapter": 22,
+   "status": "text_layer",
+   "sha256": "b47c6480c9a67c27",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A."
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH"
+    }
+   ]
+  },
+  {
+   "page": "page-277",
+   "book_page": 268,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "5c35c260b27d7beb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-278",
+   "book_page": 269,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "a8b50fb5e776b919",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-279",
+   "book_page": 270,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "a2df374f2ffc7085",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-280",
+   "book_page": 271,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "099c1a7ae34950c7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-281",
+   "book_page": 272,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "15fff5b4444d79d7",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-282",
+   "book_page": 273,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "87674ec4af2f3f97",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2S0ig"
+    }
+   ]
+  },
+  {
+   "page": "page-283",
+   "book_page": 274,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "cb2dbbf9a327ee2c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C3H6"
+    }
+   ]
+  },
+  {
+   "page": "page-284",
+   "book_page": 275,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "277b50cfca5a5285",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "3H2a"
+    }
+   ]
+  },
+  {
+   "page": "page-285",
+   "book_page": 276,
+   "chapter": 23,
+   "status": "text_layer",
+   "sha256": "beaafd4b360f3d64",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C2H"
+    }
+   ]
+  },
+  {
+   "page": "page-286",
+   "book_page": 277,
+   "chapter": 24,
+   "status": "text_layer",
+   "sha256": "e3687c8c0e6ce799",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "d1st1llahon"
+    }
+   ]
+  },
+  {
+   "page": "page-287",
+   "book_page": 278,
+   "chapter": 24,
+   "status": "text_layer",
+   "sha256": "abc5b8e5cab74079",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2n"
+    }
+   ]
+  },
+  {
+   "page": "page-288",
+   "book_page": 279,
+   "chapter": 24,
+   "status": "text_layer",
+   "sha256": "9cf4f34fb49bccd6",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2C2Hs"
+    }
+   ]
+  },
+  {
+   "page": "page-289",
+   "book_page": 280,
+   "chapter": 24,
+   "status": "text_layer",
+   "sha256": "fb79cb52a24cb595",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH3"
+    }
+   ]
+  },
+  {
+   "page": "page-290",
+   "book_page": 281,
+   "chapter": 24,
+   "status": "text_layer",
+   "sha256": "96986c23b13508df",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\ilfiiMW"
+    }
+   ]
+  },
+  {
+   "page": "page-291",
+   "book_page": 282,
+   "chapter": 25,
+   "status": "text_layer",
+   "sha256": "fc9727508d539bf9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "m1a1"
+    }
+   ]
+  },
+  {
+   "page": "page-292",
+   "book_page": 283,
+   "chapter": 25,
+   "status": "text_layer",
+   "sha256": "208801f0bcddbd49",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CnH2n"
+    }
+   ]
+  },
+  {
+   "page": "page-293",
+   "book_page": 284,
+   "chapter": 25,
+   "status": "text_layer",
+   "sha256": "3d532fcdb615ac85",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH2BrCHBrCH3"
+    }
+   ]
+  },
+  {
+   "page": "page-294",
+   "book_page": 285,
+   "chapter": 25,
+   "status": "text_layer",
+   "sha256": "08ae9a411f5f376a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH20H"
+    }
+   ]
+  },
+  {
+   "page": "page-295",
+   "book_page": 286,
+   "chapter": 25,
+   "status": "text_layer",
+   "sha256": "2e4dc17e7074b6fe",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C4H8"
+    }
+   ]
+  },
+  {
+   "page": "page-296",
+   "book_page": 287,
+   "chapter": 26,
+   "status": "text_layer",
+   "sha256": "3ae37fa560b7a412",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH20"
+    }
+   ]
+  },
+  {
+   "page": "page-297",
+   "book_page": 288,
+   "chapter": 26,
+   "status": "text_layer",
+   "sha256": "2bbc495184af0e70",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Nl1ii"
+    }
+   ]
+  },
+  {
+   "page": "page-298",
+   "book_page": 289,
+   "chapter": 26,
+   "status": "text_layer",
+   "sha256": "6287dfa18a037fc2",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Cr2o"
+    }
+   ]
+  },
+  {
+   "page": "page-299",
+   "book_page": 290,
+   "chapter": 26,
+   "status": "text_layer",
+   "sha256": "30c333652b33fa6e",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2C2HsOH"
+    }
+   ]
+  },
+  {
+   "page": "page-300",
+   "book_page": 291,
+   "chapter": 27,
+   "status": "text_layer",
+   "sha256": "69425b1b506c40e3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH20H"
+    }
+   ]
+  },
+  {
+   "page": "page-301",
+   "book_page": 292,
+   "chapter": 27,
+   "status": "text_layer",
+   "sha256": "dfc29cf94abeb51c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH"
+    }
+   ]
+  },
+  {
+   "page": "page-302",
+   "book_page": 293,
+   "chapter": 27,
+   "status": "text_layer",
+   "sha256": "4768624953e84341",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "ox1d1sed"
+    }
+   ]
+  },
+  {
+   "page": "page-303",
+   "book_page": 294,
+   "chapter": 27,
+   "status": "text_layer",
+   "sha256": "8c5a748adf846df3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "3CH2COOH"
+    }
+   ]
+  },
+  {
+   "page": "page-304",
+   "book_page": 295,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "432def992b712d7a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3COO"
+    }
+   ]
+  },
+  {
+   "page": "page-305",
+   "book_page": 296,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "f0153c06adfcee36",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-306",
+   "book_page": 297,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "8e44ee2e0b026288",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "ca1boxyl1c"
+    }
+   ]
+  },
+  {
+   "page": "page-307",
+   "book_page": 298,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "c19ef3e2319538d9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH"
+    }
+   ]
+  },
+  {
+   "page": "page-308",
+   "book_page": 299,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "39f7ae225a81dd05",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3COOCH2CH3"
+    }
+   ]
+  },
+  {
+   "page": "page-309",
+   "book_page": 300,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "fa5ff97d88ba8165",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-310",
+   "book_page": 301,
+   "chapter": 28,
+   "status": "text_layer",
+   "sha256": "83d279963d19ae3d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH2COOCH3"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\ilfiiMW"
+    }
+   ]
+  },
+  {
+   "page": "page-311",
+   "book_page": 302,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "4b647e73fae046bc",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-312",
+   "book_page": 303,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "2113910cd3d353a2",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-313",
+   "book_page": 304,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "e624b4b6c21f04d6",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "1nd1cates"
+    }
+   ]
+  },
+  {
+   "page": "page-314",
+   "book_page": 305,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "dc69f13cb26f7045",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-315",
+   "book_page": 306,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "160c1a0c703b5218",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-316",
+   "book_page": 307,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "7b5c1f3386c096cd",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C6H5"
+    }
+   ]
+  },
+  {
+   "page": "page-317",
+   "book_page": 308,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "6800543da0c5634f",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "garbled_line",
+     "line_no": 83,
+     "sample": "-···--···--·"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "d1carboxyhc"
+    }
+   ]
+  },
+  {
+   "page": "page-318",
+   "book_page": 309,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "89b099b0f38abc9c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "HOOCCH2CH"
+    }
+   ]
+  },
+  {
+   "page": "page-319",
+   "book_page": 310,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "6627dbb3a19812f9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CHOHCOOH"
+    }
+   ]
+  },
+  {
+   "page": "page-320",
+   "book_page": 311,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "a82984b93cf9185a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "C3H6"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\ilfiiMW"
+    }
+   ]
+  },
+  {
+   "page": "page-321",
+   "book_page": 312,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "c161191a6cc96aac",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH2CH"
+    }
+   ]
+  },
+  {
+   "page": "page-322",
+   "book_page": 313,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "fb26797e125dc9b8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-323",
+   "book_page": 314,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "d08329e20d83b020",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A."
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "C4H8"
+    }
+   ]
+  },
+  {
+   "page": "page-324",
+   "book_page": 315,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "bf5c77ee9ca26959",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A ."
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\H"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\I"
+    }
+   ]
+  },
+  {
+   "page": "page-325",
+   "book_page": 316,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "327a87181a937e97",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-326",
+   "book_page": 317,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "96ba09af31be8bef",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-327",
+   "book_page": 318,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "44fa0e129aeefaca",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-328",
+   "book_page": 319,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "5024224d0b0874f8",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-329",
+   "book_page": 320,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "6ffa6f4f50bc9d8f",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A:"
+    },
+    {
+     "type": "garbled_line",
+     "line_no": 147,
+     "sample": "~BJ~ ~~~g"
+    },
+    {
+     "type": "garbled_line",
+     "line_no": 229,
+     "sample": "{\" ~:!: ~~"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "i1n"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\e"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\i"
+    }
+   ]
+  },
+  {
+   "page": "page-330",
+   "book_page": 321,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "640f0c8fe282f8e3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-331",
+   "book_page": 322,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "a6e368061d3edb31",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "unhandled_latex",
+     "sample": "\\J"
+    }
+   ]
+  },
+  {
+   "page": "page-332",
+   "book_page": 323,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "ffad737e40d18360",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-333",
+   "book_page": 324,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "b12c0be7468c4e5a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-334",
+   "book_page": 325,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "efc8e229c7cd74d9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-335",
+   "book_page": 326,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "5471772958ad49d9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-336",
+   "book_page": 327,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "d555d7e96d446639",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-337",
+   "book_page": 328,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "2b0bc08a767c1f88",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Br0nsted"
+    }
+   ]
+  },
+  {
+   "page": "page-338",
+   "book_page": 329,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "1cc3faab40f87b7d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-339",
+   "book_page": 330,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "79054af05638c9eb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-340",
+   "book_page": 331,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "decea3e209de6187",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CnH2n"
+    }
+   ]
+  },
+  {
+   "page": "page-341",
+   "book_page": 332,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "31f4b7f8024335e1",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "any1hing"
+    }
+   ]
+  },
+  {
+   "page": "page-342",
+   "book_page": 333,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "f91b039ac35545de",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-343",
+   "book_page": 334,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "20a0cf7279c6513f",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-344",
+   "book_page": 335,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "7b0e490c5bc240be",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-345",
+   "book_page": 336,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "2c372953a1c44f07",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-346",
+   "book_page": 337,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "55806baf32d9611e",
+   "stripped_lines": [
+    {
+     "line_no": 155,
+     "rule": "page_number_line",
+     "line": "337"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-347",
+   "book_page": 338,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "1d0cd2f4603a1d0c",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-348",
+   "book_page": 339,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "14f7c0dba47b2416",
+   "stripped_lines": [
+    {
+     "line_no": 154,
+     "rule": "page_number_line",
+     "line": "339"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-349",
+   "book_page": 340,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "d5d8f1300f1b019d",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-350",
+   "book_page": 341,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "eb7c5814f4afc65d",
+   "stripped_lines": [
+    {
+     "line_no": 155,
+     "rule": "page_number_line",
+     "line": "341"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-351",
+   "book_page": 342,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "c6dd3f642657832b",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-352",
+   "book_page": 343,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "9b1fe2503d56436f",
+   "stripped_lines": [
+    {
+     "line_no": 103,
+     "rule": "page_number_line",
+     "line": "343"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-353",
+   "book_page": 344,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "673247ee95a6a8ba",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-354",
+   "book_page": 345,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "2218315d1aafff6c",
+   "stripped_lines": [
+    {
+     "line_no": 3,
+     "rule": "page_number_line",
+     "line": "345"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    }
+   ]
+  },
+  {
+   "page": "page-355",
+   "book_page": 346,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "82cb2f496c317881",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A,"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "2D6x24"
+    }
+   ]
+  },
+  {
+   "page": "page-356",
+   "book_page": 347,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "a912ebed9ce7590b",
+   "stripped_lines": [
+    {
+     "line_no": 298,
+     "rule": "page_number_line",
+     "line": "347"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "Na2S203"
+    }
+   ]
+  },
+  {
+   "page": "page-357",
+   "book_page": 348,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "79aa1047dd1b5e5a",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "massof1mo1Cr20"
+    }
+   ]
+  },
+  {
+   "page": "page-358",
+   "book_page": 349,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "550d789f2087de55",
+   "stripped_lines": [
+    {
+     "line_no": 185,
+     "rule": "page_number_line",
+     "line": "349"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "massof1molof02"
+    }
+   ]
+  },
+  {
+   "page": "page-359",
+   "book_page": 350,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "c1a7550275f80e61",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "massof1molCaC03"
+    }
+   ]
+  },
+  {
+   "page": "page-360",
+   "book_page": 351,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "d4f148458ef9238a",
+   "stripped_lines": [
+    {
+     "line_no": 213,
+     "rule": "page_number_line",
+     "line": "351"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "Na2C03"
+    }
+   ]
+  },
+  {
+   "page": "page-361",
+   "book_page": 352,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "522ba7b8adce10f5",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-362",
+   "book_page": 353,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "b58b29094e461e4b",
+   "stripped_lines": [
+    {
+     "line_no": 154,
+     "rule": "page_number_line",
+     "line": "353"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "4e2H20"
+    }
+   ]
+  },
+  {
+   "page": "page-363",
+   "book_page": 354,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "7a89b93e38b26256",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-364",
+   "book_page": 355,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "03e23312a843a500",
+   "stripped_lines": [
+    {
+     "line_no": 175,
+     "rule": "page_number_line",
+     "line": "355"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "garbled_line",
+     "line_no": 176,
+     "sample": "~~:~~; 0~:~~~~f"
+    }
+   ]
+  },
+  {
+   "page": "page-365",
+   "book_page": 356,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "6da23f8b7ee731eb",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A;"
+    }
+   ]
+  },
+  {
+   "page": "page-366",
+   "book_page": 357,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "714bde73a08d0894",
+   "stripped_lines": [
+    {
+     "line_no": 134,
+     "rule": "page_number_line",
+     "line": "357"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2Ed0H"
+    }
+   ]
+  },
+  {
+   "page": "page-367",
+   "book_page": 358,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "16c4323d7b61c501",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-368",
+   "book_page": 359,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "08ede9d83adc66ff",
+   "stripped_lines": [
+    {
+     "line_no": 183,
+     "rule": "page_number_line",
+     "line": "359"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-369",
+   "book_page": 360,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "90d5ae3d9728bfe9",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "A:"
+    },
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2S04"
+    }
+   ]
+  },
+  {
+   "page": "page-370",
+   "book_page": 361,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "655cb5427e46d4a3",
+   "stripped_lines": [
+    {
+     "line_no": 181,
+     "rule": "page_number_line",
+     "line": "361"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2SO"
+    }
+   ]
+  },
+  {
+   "page": "page-371",
+   "book_page": 362,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "4fa5bfc246352313",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-372",
+   "book_page": 363,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "09857375928d6e5e",
+   "stripped_lines": [
+    {
+     "line_no": 121,
+     "rule": "page_number_line",
+     "line": "363"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-373",
+   "book_page": 364,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "17b49538b372e0fe",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-374",
+   "book_page": 365,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "8220d05c631bc8be",
+   "stripped_lines": [
+    {
+     "line_no": 67,
+     "rule": "page_number_line",
+     "line": "365"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "2Na0H"
+    },
+    {
+     "type": "unhandled_latex",
+     "sample": "\\l"
+    }
+   ]
+  },
+  {
+   "page": "page-375",
+   "book_page": 366,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "aa8ec81ae3239b9e",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-376",
+   "book_page": 367,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "0845dfd71dd304cc",
+   "stripped_lines": [
+    {
+     "line_no": 217,
+     "rule": "page_number_line",
+     "line": "367"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": []
+  },
+  {
+   "page": "page-377",
+   "book_page": 368,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "51bcb5c27efacbd3",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "methy1pentane"
+    }
+   ]
+  },
+  {
+   "page": "page-378",
+   "book_page": 369,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "0d49deb41824f5bc",
+   "stripped_lines": [
+    {
+     "line_no": 207,
+     "rule": "page_number_line",
+     "line": "369"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CnH2n"
+    }
+   ]
+  },
+  {
+   "page": "page-379",
+   "book_page": 370,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "89519c2c22804f51",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H9CI"
+    }
+   ]
+  },
+  {
+   "page": "page-380",
+   "book_page": 371,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "8201cafbd7d9498d",
+   "stripped_lines": [
+    {
+     "line_no": 220,
+     "rule": "page_number_line",
+     "line": "371"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3C00"
+    }
+   ]
+  },
+  {
+   "page": "page-381",
+   "book_page": 372,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "6a75bccdafc6f972",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH2CH"
+    }
+   ]
+  },
+  {
+   "page": "page-382",
+   "book_page": 373,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "e15234856e4f517c",
+   "stripped_lines": [
+    {
+     "line_no": 336,
+     "rule": "page_number_line",
+     "line": "373"
+    }
+   ],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "H2n"
+    }
+   ]
+  },
+  {
+   "page": "page-383",
+   "book_page": 374,
+   "chapter": 29,
+   "status": "text_layer",
+   "sha256": "6d4c0b2d3706d690",
+   "stripped_lines": [],
+   "inline_math": 0,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 0,
+   "lint": [
+    {
+     "type": "digit_letter_noise",
+     "sample": "CH3CH"
+    }
+   ]
+  }
+ ]
+}

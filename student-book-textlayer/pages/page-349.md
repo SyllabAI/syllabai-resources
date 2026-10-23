@@ -1,0 +1,180 @@
+---
+source_type: textbook
+book_title: "Edexcel International GCSE (9-1) Chemistry Student Book"
+authors: "Jim Clark, Steve Owen, Rachel Yu"
+publisher: "Pearson Education Limited"
+edition_year: 2017
+source_file: edexcel-chemistry-igcse-book.pdf
+pdf_page: 349
+book_page: 340
+unit: u4
+chapter: 29
+chapter_title: "Synthetic Polymers"
+ocr:
+  tool: pdftotext (poppler) over the publisher-embedded text layer
+  mode: 2-up spread split (left/right crop boxes)
+  backend: 2-up pdf page 175 (left half)
+  date: 2026-10-23
+status: text_layer
+notes: >
+  Publisher-embedded OCR layer, NOT reviewed or validated. Noisier than the
+  Unlimited-OCR substrate: figure-caption ghosting, glyph garbage in image
+  regions, no LaTeX (unicode sub/superscripts only), no figure placeholders.
+  Tables arrive as plain text lines. This page is a STOPGAP substrate for
+  retrieval/joining; the Unlimited-OCR run (c05_book_ocr.py, GPU host)
+  supersedes it per page when it lands. No hand-fixing — the ingestion lint
+  owns damage flagging with page provenance intact.
+---
+
+340 INDEX
+
+displacement reactions 132-4
+melting point 92-3, 131
+organic molecules containing 90-1
+Periodic Table 31
+physical state at room
+temperature 130
+reactions 131
+reactivity 134
+safety 131
+hard water 69
+heating to constant mass 9
+heating under reflux 290
+helium 25, 32, 34
+Hess's law 221
+hex 259
+hexane 83,102,256
+high-carbon steel 164, 165
+high-density poly(ethene) 303, 304
+homologous series 257, 278-9
+hydrated salts 43, 53
+hydration
+alkenes 285
+ethene 291
+hydrocarbons 142, 256, 269
+saturated 256, 277
+unsaturated 256, 283-4
+hydrochloric acid
+formula 169
+from hydrogen chloride and water
+102, 131
+reaction with ammonia 186
+reaction with calcium carbonate
+228-33
+reaction with magnesium 175
+reaction with metals 152-5
+reaction with sodium hydroxide
+170,177
+hydrogen
+calculation involving 67
+covalent bonding 86
+electronic configuration 32
+molecules 87
+Periodic Table 35
+reaction with halogens 131
+test for 141 , 191
+hydrogen bonds 92
+hydrogen chloride
+covalent bonding 87
+reaction with ammonia 7
+reaction with water 102, 131
+
+hydrogen halides 131
+hydrogen peroxide
+catalytic decomposition 235-6
+formulae 46
+hydrogenation 285
+hydroxonium ion 186
+
+'ide' endings 80
+impurities 16
+incineration of plastics 307-8
+incomplete combustion 213, 271,
+279
+indicators 168
+industry
+catalyst use 238
+catalytic cracking 275
+ethanol production 290-1
+inert electrodes 102, 108-10
+infrared radiation 143
+initiator 303
+insoluble salts 183-4
+intermolecular forces 92
+iodides, test for 195-6
+iodine
+boiling point 92
+colour 130
+displacement reactions 132-4
+ionic bonding 77
+melting point 92
+physical state at room
+temperature 130
+ionic bonding 75-83
+ionic compounds
+boiling point 82
+crystals 82-3
+electrical conductivity 83, 102
+formulae 78-81
+giant structures 81-2
+melting point 82
+solubility in water 83, 178
+ionic equation 133, 148, 170, 183
+ionic half-equations 104, 149
+ions 76, 104
+discharged 104
+spectator 133, 148
+testing for 192-6
+iron
+extraction 55, 161- 2
+galvanised 156-7
+
+reaction with acids 152-4, 155
+reaction with steam 151
+rusting 139, 156-7
+uses 164-5
+iron(II) ions 194
+iron(II) sulfate 44
+iron(III) ions 193
+iron(III) sulfate 81
+isoelectronic 77
+isomers 261-3, 275, 278, 283
+isotopes 14, 26, 42
+
+K
+kerosene 271
+krypton 34
+
+L
+lactic acid 310
+landfill 307, 308
+lanthanoids 31
+lattice 81, 82
+layer structure 94
+lead extraction 56- 7
+lead(II) bromide 103-4
+lead(II) sulfate 184-5
+limescale 69
+limestone see calcium carbonate
+limewater 191
+limiting reagent (reactant) 59
+linear relationship 325
+liquefied petroleum gas (LPG) 271
+liquids
+arrangement of particles 4
+change of state 4, 5
+diffusion in 8
+entropy 223
+state symbol 41
+volume measurement 322
+lithium
+electrons 126
+flame test 193
+heating 127
+physical properties 6, 123-4
+reaction with acids 154
+reaction with air 127
+reaction with water 126, 150
+storage and handling 124
+lithium fluoride 78
+litmus 168

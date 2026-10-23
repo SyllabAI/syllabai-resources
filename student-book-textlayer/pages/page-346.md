@@ -1,0 +1,183 @@
+---
+source_type: textbook
+book_title: "Edexcel International GCSE (9-1) Chemistry Student Book"
+authors: "Jim Clark, Steve Owen, Rachel Yu"
+publisher: "Pearson Education Limited"
+edition_year: 2017
+source_file: edexcel-chemistry-igcse-book.pdf
+pdf_page: 346
+book_page: 337
+unit: u4
+chapter: 29
+chapter_title: "Synthetic Polymers"
+ocr:
+  tool: pdftotext (poppler) over the publisher-embedded text layer
+  mode: 2-up spread split (left/right crop boxes)
+  backend: 2-up pdf page 173 (right half)
+  date: 2026-10-23
+status: text_layer
+notes: >
+  Publisher-embedded OCR layer, NOT reviewed or validated. Noisier than the
+  Unlimited-OCR substrate: figure-caption ghosting, glyph garbage in image
+  regions, no LaTeX (unicode sub/superscripts only), no figure placeholders.
+  Tables arrive as plain text lines. This page is a STOPGAP substrate for
+  retrieval/joining; the Unlimited-OCR run (c05_book_ocr.py, GPU host)
+  supersedes it per page when it lands. No hand-fixing — the ingestion lint
+  owns damage flagging with page provenance intact.
+---
+
+INDEX
+
+barium sulfate 184
+barrier method 156
+bases 169
+alkalis and 176
+reaction with acids 170, 176
+theories 185-7
+basic oxides 35
+best-fit line 324, 325
+biodegradable polyesters 310
+biofuel 288
+biopolyesters 310
+bitumen 270, 272
+blast furnace 161-2
+boiling 5
+boiling point
+alkali metals 123, 124
+halogens 92-3, 131
+ionic compounds 82
+mixtures 16
+bomadier beetle 235
+bomb calorimeter 214
+bond energies 220-2
+bonding
+covalent 85- 96, 186
+hydrogen 92
+ionic 75-83
+metallic 98-100
+boron 91
+branched chains 260, 261
+brass 163
+bromides, test for 195-6
+bromine
+addition to alkenes 284
+boiling point 92
+colour 130
+diffusion 7
+displacement reactions 132-4
+melting point 92
+physical state at room
+temperature 130
+reaction with ethane 265
+react ion with ethene 265, 284
+reaction with methane 280
+reaction with propane 280
+reaction with propene 284
+reactivity 134
+safety 131
+temperature-dependent state 6
+bromomethane 90- 1
+Bronsted- Lowry theory 186
+
+bronze 163
+burettes 171, 322
+but 259
+but-1-ene 282
+butan-1-ol 288
+butane 255,257,258,271 , 277
+butanoic acid 294
+butene 264
+
+C
+caesium
+physical properties 123-4
+reaction with water 126
+storage and handling 124
+calcium
+electronic configuration 33
+flame test 193
+reaction with acids 154
+reaction with cold water 150
+calcium carbonate
+heating 54-5, 142
+molar calculation 45
+reaction with ethanoic acid 295
+reaction with hydrochloric acid
+228-33
+reaction with sulfuric acid 273
+calcium chloride
+formula for 81
+ionic bonding 78
+mole 44
+calcium ethanoate 295
+calcium hydroxide 43, 150, 176, 207
+calcium oxide
+formulae 46
+heating calcium carbonate 54-5,
+142
+reaction with water 176, 207
+calculations
+equations involving solutions 69
+gas volumes 64
+masses 54
+molar volume 65-7
+moles 45, 53-4
+percentage yields 57-8
+results 326
+solution concentrations 67-9
+substances in excess 58-9
+titrations 70-2
+water of crystallisation 53
+
+calorimetry 211-19
+car bodies 164
+carbon
+allotropes 93-5
+electrodes 102
+extracting metals 147, 161-2
+isotopes 26
+reaction with copper(II) oxide 146,
+147
+soot 271 , 279
+steel 164
+carbon-12 scale 42
+carbon-carbon double bond 259,
+263, 284
+carbon-carbon single bond 259
+carbon dioxide
+in air 137
+double bond 90
+electrical conductivity 102
+global warming 142-3
+making in the lab 142
+solid (dry ice) 6
+test for 191
+thermal decomposition 142
+carbon monoxide 271, 279
+carbonates
+metal 142, 169-70
+reaction with acids 177, 295
+test for 194-5
+carboxylic acids 293-5
+carvone 263
+catalysts 235-8
+cracking 274-5
+position of equilibrium 245
+catalytic converters 232
+cathode 102, 105
+cations 76, 105
+testing for 193-4
+chain length 259
+c hange of state 4- 6
+c hemical equations 38-9
+c hemical tests 190-6
+chiral centre 262
+chlorides 174
+test for 195-6
+chlorine
+boiling point 92
+colour 130
+covalent bonding 87
+displacement reactions 132-4
+
+337

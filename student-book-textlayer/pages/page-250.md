@@ -1,0 +1,117 @@
+---
+source_type: textbook
+book_title: "Edexcel International GCSE (9-1) Chemistry Student Book"
+authors: "Jim Clark, Steve Owen, Rachel Yu"
+publisher: "Pearson Education Limited"
+edition_year: 2017
+source_file: edexcel-chemistry-igcse-book.pdf
+pdf_page: 250
+book_page: 241
+unit: u3
+chapter: 21
+chapter_title: "Reversible Reactions and Equilibria"
+ocr:
+  tool: pdftotext (poppler) over the publisher-embedded text layer
+  mode: 2-up spread split (left/right crop boxes)
+  backend: 2-up pdf page 125 (right half)
+  date: 2026-10-23
+status: text_layer
+notes: >
+  Publisher-embedded OCR layer, NOT reviewed or validated. Noisier than the
+  Unlimited-OCR substrate: figure-caption ghosting, glyph garbage in image
+  regions, no LaTeX (unicode sub/superscripts only), no figure placeholders.
+  Tables arrive as plain text lines. This page is a STOPGAP substrate for
+  retrieval/joining; the Unlimited-OCR run (c05_book_ocr.py, GPU host)
+  supersedes it per page when it lands. No hand-fixing — the ingestion lint
+  owns damage flagging with page provenance intact.
+---
+
+PHYSICAL CHEMISTRY
+
+KEY POltH
+This reaction is an example of thermal
+
+decomposition.
+KfY POINT
+
+This is a reaction between an acid
+(HCI) and a base (NH:,) (see Chapter
+17, page 186).
+
+NH4Cl(s) .... NH3(g) + HCl(g)
+white solid colourless gases
+
+Heat is needed for this reaction to occur
+
+These gases recombine further up the tube, where it is cooler, to form a white
+solid:
+NH3(g) + HCl(g) .... NH4Cl(s)
+colourless gases white solid
+
+Heat is released from this reaction
+
+The reaction reverses when the conditions are changed from hot to cool.
+
+HINT
+If you add water to the white solid , it
+turns blue again; it also becomes very
+warm. See Figure 11.11 (page 93).
+
+<II Figure 21.2 Heating
+ammonium chloride
+
+This can, again, be shown with the reversible arrow:
+NH3(g) + HCl(g) .: NH4Cl(s)
+
+1M%%ih£l@EI
+REVERSIBLE REACTIONS IN A SEALED CONTAINER
+A sealed container means that no substances are added to the reaction
+mixture and no substances escape from it. On the other hand, heat may be
+either given off or absorbed.
+
+KEY POINT
+Imagine you started with 64 blue
+squares, and in any second there was
+a one in four chance of each of them
+changing colour. In the first second, 16
+would change colour, leaving 48 blue
+squares. In the next second, a quarter
+of these change colour, but that's
+only 12; this leaves 36 blue ones. In
+the third second, nine would change
+colour, and so on. The rate of c hange
+falls as the number (concentration) of
+blue squares falls.
+
+Imagine a substance that can exist in two forms, one of which we'll represent
+by a blue square and the other by a yellow square. Suppose you start off with
+a sample which is entirely blue.
+
+~
+
+o -
+
+after a short time
+
+blue squares in a
+closed system
+
+rm
+
+~
+
+some of the blue squares
+have turned yellow
+
+A Figure 21.3 Blue squares converting to yellow ones
+
+Because you are starting with a high concentration of blue squares, at the
+beginning of the reaction the rate at which they turn yellow will be relatively
+high in terms of the number of squares changing colour per second. The
+number of blue squares changing colour per second (the rate of change) will
+fall as the blue gradually gets used up.
+But the yellow squares can also change back to blue ones again. This is
+because it is a reversible reaction, in which the products can react with each
+other and go back to form reactants . At the start, there aren't any yellow
+squares, so the rate of change from yellow into blue is zero. As their number
+increases, the rate at which yellow change to blue also increases.

@@ -1,0 +1,170 @@
+{
+ "schema": "c06-book-ingest-report/1.0",
+ "generated_at": "2026-10-24T00:00:00Z",
+ "src": "student-book-pilot/pages",
+ "fallback": null,
+ "totals": {
+  "pages_processed": 5,
+  "chapters_written": 0,
+  "missing_slots": 0,
+  "blank_slots": 0,
+  "inline_math_converted": 53,
+  "display_math_converted": 8,
+  "unicode_scripts_converted": 14,
+  "figure_placeholders": 9,
+  "stripped_lines": 11,
+  "lint_findings": 4
+ },
+ "lint_by_type": {
+  "ar_symbol_suspect": 2,
+  "state_symbol_suspect": 2
+ },
+ "chapters": [],
+ "missing_slots": [],
+ "blank_slots": [],
+ "pages": [
+  {
+   "page": "page-060",
+   "book_page": 51,
+   "chapter": 5,
+   "status": "raw_ocr",
+   "sha256": "3e1de0c3635bd07d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    },
+    {
+     "line_no": 3,
+     "rule": "page_number_line",
+     "line": "51"
+    }
+   ],
+   "inline_math": 1,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 2,
+   "lint": [
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A,"
+    }
+   ]
+  },
+  {
+   "page": "page-083",
+   "book_page": 74,
+   "chapter": 6,
+   "status": "raw_ocr",
+   "sha256": "8614887d1c151dbd",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "74"
+    },
+    {
+     "line_no": 2,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 24,
+   "display_math": 8,
+   "unicode_scripts": 14,
+   "figures": 1,
+   "lint": [
+    {
+     "type": "state_symbol_suspect",
+     "sample": "()"
+    },
+    {
+     "type": "state_symbol_suspect",
+     "sample": "(1)"
+    },
+    {
+     "type": "ar_symbol_suspect",
+     "sample": "(A.;"
+    }
+   ]
+  },
+  {
+   "page": "page-084",
+   "book_page": 75,
+   "chapter": 7,
+   "status": "raw_ocr",
+   "sha256": "9734fe97700977dd",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    },
+    {
+     "line_no": 3,
+     "rule": "page_number_line",
+     "line": "75"
+    }
+   ],
+   "inline_math": 14,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 1,
+   "lint": []
+  },
+  {
+   "page": "page-085",
+   "book_page": 76,
+   "chapter": 7,
+   "status": "raw_ocr",
+   "sha256": "76e1faafa3a9c1fa",
+   "stripped_lines": [
+    {
+     "line_no": 27,
+     "rule": "page_number_line",
+     "line": "76"
+    },
+    {
+     "line_no": 28,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    }
+   ],
+   "inline_math": 10,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 3,
+   "lint": []
+  },
+  {
+   "page": "page-087",
+   "book_page": 78,
+   "chapter": 7,
+   "status": "raw_ocr",
+   "sha256": "72b2003d221ba52d",
+   "stripped_lines": [
+    {
+     "line_no": 1,
+     "rule": "page_number_line",
+     "line": "78"
+    },
+    {
+     "line_no": 2,
+     "rule": "running_head",
+     "line": "PRINCIPLES OF CHEMISTRY"
+    },
+    {
+     "line_no": 3,
+     "rule": "chapter_banner_repeat",
+     "line": "IONIC BONDING"
+    }
+   ],
+   "inline_math": 4,
+   "display_math": 0,
+   "unicode_scripts": 0,
+   "figures": 2,
+   "lint": []
+  }
+ ]
+}
