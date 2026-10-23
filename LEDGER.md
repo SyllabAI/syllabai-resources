@@ -315,3 +315,35 @@ served bundle PR carries a full disclosure census.
   P3c lane-3 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — 24 honest
   non-overlaps) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-3. Rights ©
   Cambridge/UCLES/MAT/UKMT/O&C per file; takedown law unchanged. Base commit cb947595 (syllabai-experimental).
+
+- **T-UGM-MODE1-4 — UGM mode-1 lane enrichment, Circular measure lane (this run)**: fifth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Enrichment/` lane family to CIE 9709 P1
+  subtopic 1.4 Circular measure under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md`
+  Amendment 2026-10-23; operator instruction "extend channel 4"). New file
+  `cie-a-level-maths-20-pure-1-circular-measure.json`: the **first strand lane** (no dedicated UGM station) —
+  hub-spine parse fragment 1.4.1a folded into parent code 1.4.1 of record (spine export keeps both rows
+  verbatim); corpus-wide sweep of all 25 stations (855 resources → 62 candidates) resolved as 17 aligned
+  (3 new-text + 14 cross-lane circles-strand facts re-verdicted from lane 3's parked "1.4 territory"
+  non-overlaps, incl. 2 one-to-many extensions of lane-3 1.3.2 rows) + 4 explicit non-overlaps + 41 routed to
+  recorded homes with reasons — never forced (AGENT.md rule 3); clause-a (radian definition/conversion) corpus
+  gap recorded, not filled; primary pick r5534 (Cambridge Colleges 1952 Q7). Cross-lane rows carry
+  `textOfRecordUnder` pointers (corpus importer forbids duplicate `ugmId`s across lanes). FACTS ONLY: slugs/
+  titles/types/levels/confidence/provenance — no UGM text bodies; rights © Cambridge/UCLES/MAT/Cambridge
+  Colleges/O&C/NRICH unchanged (licensing block in-file + dir README). Mode-2 rendering remains dropped
+  (operator directive 2026-10-22, recorded in `mode2Note`). Base commit b52cf1bf (syllabai-experimental).
+
+- **T-UGM-IMPORT-4 — UGM text corpus import, Circular measure lane (this run)**: fifth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Resources/` corpus family to its
+  fourth lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23). New
+  `UGM-Resources/pure-1-circular-measure/`: **text bodies of the 5 new-text strand resources**
+  (r5534, problem-areas, r8936 aligned to 1.4.1; circular-slice, r7115 as recorded boundary non-overlaps) as
+  YAML-front-matter markdown. Text-only import law: math preserved byte-true in UGM's native `\( \)` /
+  `\[ \]` delimiters (converter verified byte-identical against four of-record lane-1/3 files before
+  generation: belt, r6164, sector-spirals, r6638; per-file delimiter parity audited 5/5); UGM section
+  structure/panel titles/provider spellings preserved; figures and the GeoGebra embed recorded as
+  front-matter/inline markers, NOT fetched. `MANIFEST.json` bumps to **v4**: lane-4 block fresh (5 rows,
+  sha256 each), lane-1/2/3 rows untouched from v3 (187 files corpus-wide). Spec-point mappings are the P3c
+  lane-4 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured — clause-a gap +
+  non-overlaps + routings recorded) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-4.
+  Rights © Cambridge/UCLES/MAT/Cambridge Colleges/O&C per file; takedown law unchanged. Base commit
+  b52cf1bf (syllabai-experimental).

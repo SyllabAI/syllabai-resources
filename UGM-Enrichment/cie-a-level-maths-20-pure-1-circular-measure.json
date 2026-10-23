@@ -1,0 +1,484 @@
+{
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "generated_utc": "2026-10-23T14:51:32Z",
+ "task": "T-UGM-MODE1-4",
+ "course": "cie-a-level-maths-20-pure-1",
+ "qual": "cie-a-level-maths-2023-2025",
+ "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+ "board": "Cambridge CIE",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. No coverage is manufactured: the clause-a (radian definition/conversion) corpus gap is recorded, not filled; the 4 explicit non-overlaps and the 41 sweep routings are recorded as such (rule 3).",
+  "provenance_tier": "T2_near-equivalent: LLM-assisted alignment with recorded per-row confidence; not a verbatim join — treat as candidates, not authoritative mappings"
+ },
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-circular-measure.json",
+  "commit": "b52cf1bf (cross-map lane 4 + spine export 1.4 rows, one commit)",
+  "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped (operator directive 2026-10-22); text of record ships under the 2026-10-23 operator attestation via UGM-Resources/",
+  "operatorInstruction": "extend channel 4 (2026-10-23) — lane 4 of the P3c generalisation"
+ },
+ "licensing": {
+  "law": "FACTS-ONLY: this file carries UGM metadata (slugs, titles, resource types, levels, confidence, provenance strings) — NO Underground Mathematics text bodies, question content, suggestions, solutions, or teacher-support content. Text of record lives in UGM-Resources/pure-1-circular-measure/ under the 2026-10-23 operator attestation (LICENSE-DATA.md Amendment 2026-10-23).",
+  "rights": "UGM content (c) University of Cambridge; sourced exam questions (c) UCLES / Oxford MAT / Cambridge Colleges / O&C / NRICH per row; rights unchanged; takedown/correction law unchanged (LICENSE-DATA.md)."
+ },
+ "mode2Note": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar. Mode-2 (deep-link rendering on lane pages) was dropped by operator directive 2026-10-22 before any implementation — these rows land as data/facts only (mode 1). The text route is the 2026-10-23 operator attestation.",
+ "strandNote": "First strand lane (no dedicated UGM station): substrate = the circles station's radian-mensuration strand parked as '1.4 territory' by lane 3, plus a corpus-wide sweep of all 25 stations for radians/arc/sector/segment content. Resources whose home is another lane (1.2/1.5/1.7/1.8/P3/IGCSE) are routed, never forced.",
+ "foldNote": "Hub-spine rows 1.4.1 and 1.4.1a are one CIE syllabus bullet split by the curriculum parser (dupCodePolicy synthetic suffix). Per the lane-3 fold law the cross-map aligns against the parent code 1.4.1 and folds the fragment in; the spine export keeps both rows verbatim. Within the folded code, clause (a) is the radian definition/degrees relationship and clause (b) is the s = rθ / A = ½r²θ arc-and-sector mensuration.",
+ "coverage": {
+  "ugmResourcesConsidered": 39,
+  "aligned": 3,
+  "nonOverlap": 2,
+  "alignedShare": 0.077,
+  "coverageNote": "Strand-lane semantics (first non-station lane): this coverage block counts the hub-facing NEW-TEXT subset only — the 39 corpus-sweep candidates whose text is not already of record under another lane. The lane's mass is the circles station's radian-mensuration strand, re-verdicted from lane 3's parked '1.4 territory' non-overlaps and recorded below as cross-lane facts (their text of record stays under pure-1-coordinate-geometry — the corpus importer forbids duplicate ugmIds across lanes). Full-fidelity picture: 62 sweep candidates = 17 aligned (3 new + 14 cross-lane) + 4 non-overlaps (2 new + 2 cross-lane) + 41 routed to recorded homes.",
+  "crossLaneCoverage": {
+   "considered": 23,
+   "aligned": 14,
+   "nonOverlap": 2
+  },
+  "sweepRouting": {
+   "total": 41,
+   "detail": "see cross-map-circular-measure.json sweepRouting"
+  },
+  "stationBreakdown": {
+   "thinking-about-geometry": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0
+   },
+   "introducing-calculus": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0
+   },
+   "product-rule": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0
+   },
+   "chain-rule": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 2
+   }
+  }
+ },
+ "stationScope": {
+  "note": "Strand lane (new shape from lane 4): perSpecPoint resources come from four stations' strand sweeps (new text of record in this lane); the circles station's strand is recorded cross-lane. Each resource's station is recoverable from its url slug and front-matter.",
+  "scope": "strand-sweep",
+  "stations": [
+   {
+    "slug": "thinking-about-geometry",
+    "title": "Thinking about Geometry",
+    "url": "https://undergroundmathematics.org/thinking-about-geometry",
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "newTextSlugs": [
+     "r5534"
+    ]
+   },
+   {
+    "slug": "introducing-calculus",
+    "title": "Introducing Calculus",
+    "url": "https://undergroundmathematics.org/introducing-calculus",
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "newTextSlugs": [
+     "problem-areas"
+    ]
+   },
+   {
+    "slug": "product-rule",
+    "title": "Product Rule & Integration by Parts",
+    "url": "https://undergroundmathematics.org/product-rule",
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "newTextSlugs": [
+     "r8936"
+    ]
+   },
+   {
+    "slug": "chain-rule",
+    "title": "Chain Rule & Integration by Substitution",
+    "url": "https://undergroundmathematics.org/chain-rule",
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 2,
+    "newTextSlugs": [
+     "circular-slice",
+     "r7115"
+    ]
+   }
+  ]
+ },
+ "perSpecPoint": {
+  "1.4.1": {
+   "officialCode": "1.4",
+   "officialText": "understand the definition of a radian, and use the relationship between radians and degrees",
+   "ugmStation": "strand lane: thinking-about-geometry + introducing-calculus + product-rule + chain-rule (new text); circles strand cross-lane",
+   "ugmStationUrl": "https://undergroundmathematics.org/thinking-about-geometry",
+   "resourceCount": 3,
+   "primaryPick": "r5534",
+   "clauseAGapNote": "No UGM resource teaches radian definition/conversion as its tested skill — the clause-a statement is a GCSE-bridge skill the A-level corpus assumes. Closest touchpoint: sector-spirals' 45° = π/4 conversion. Recorded, never manufactured (AGENT.md rule 3).",
+   "foldedFragment": "1.4.1a (clause b: s = rθ, A = ½r²θ arc/sector mensuration)",
+   "resources": [
+    {
+     "ugmSlug": "r5534",
+     "title": "Can we find a formula for an island's territorial waters?",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/r5534",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Territorial waters around a convex polygon: rectangle strips (pr) plus vertex sectors whose angles sum to a full turn (πr²) — sector-area mensuration is the proof core (clause b).",
+     "provenance": "{\"board\": \"Cambridge Colleges\", \"paper\": \"Examination for Entrance Scholarships Pure Mathematics (Group 2)\", \"paperCode\": null, \"year\": 1952, \"questions\": [\"Q7\"], \"permission\": \"Colleges of the University of Cambridge\", \"parseStatus\": \"parsed\"}",
+     "hasTeacherSupport": false,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "problem-areas",
+     "title": "Problem areas",
+     "url": "https://undergroundmathematics.org/introducing-calculus/problem-areas",
+     "resourceType": "food-for-thought",
+     "level": "Developing",
+     "confidence": "medium",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "note": "Card (a): the area under (4−x²)^½ between 1 and 2 is a circular segment (sector − triangle) found by circle geometry before any calculus (clause b); the paired calculus card makes this a methods-contrast exemplar (Mode-4: compare-before-compute).",
+     "provenance": null,
+     "hasTeacherSupport": false
+    },
+    {
+     "ugmSlug": "r8936",
+     "title": "When will the arclength $QR$ take a maximum value?",
+     "url": "https://undergroundmathematics.org/product-rule/r8936",
+     "resourceType": "review-question",
+     "level": null,
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "note": "Arc QR of a circle centred at P with radius PQ (itself a chord length of circle X): arc length s = rθ is the modelled object; the maximisation rides 1.7 (clause b; calculus extension recorded).",
+     "provenance": "{\"board\": \"UCLES\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"471/2\", \"year\": 1970, \"questions\": [\"Q6(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+     "hasTeacherSupport": false
+    }
+   ]
+  }
+ },
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "circular-slice",
+   "title": "Circular slice",
+   "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+   "resourceType": "rich-example",
+   "station": "chain-rule",
+   "reason": "Tested skill is integration by the substitution x = cos θ (a P3 technique): the integral of √(1−x²) evaluates exactly the clause-b sector/segment area, but no radian-mensuration skill is asked — recorded as this lane's calculus boundary."
+  },
+  {
+   "ugmSlug": "r7115",
+   "title": "When does this cone have a maximum volume?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7115",
+   "resourceType": "review-question",
+   "station": "chain-rule",
+   "reason": "Tested skill is constrained optimisation of a cone's volume (1.7): the sheet-metal development is a circle sector whose arc length becomes the base circumference (clause-b vocabulary), but the ask is the maximum — recorded, never forced."
+  }
+ ],
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "belt",
+   "station": "circles",
+   "title": "Belt",
+   "url": "https://undergroundmathematics.org/circles/belt",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Common tangents plus the wrapped arc pieces around two cylinders: arc lengths via s = rθ with wrapped angles π/2 ± α (clause b); the tangent-length part rides lane 3.",
+   "provenance": "{\"board\": \"NRICH\", \"paper\": null, \"paperCode\": null, \"year\": null, \"questions\": [], \"permission\": \"NRICH\", \"parseStatus\": \"non-exam-provenance\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r6164",
+   "station": "circles",
+   "title": "What's the area of this square if it sits in this sector?",
+   "url": "https://undergroundmathematics.org/circles/r6164",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Square inscribed symmetrically in a 60° sector: sector/arc geometry constrains the square (clause b); chord-end reasoning rides trigonometry.",
+   "provenance": "{\"board\": \"O&C (Oxford & Cambridge SEG)\", \"paper\": \"General Mathematics 1\", \"paperCode\": null, \"year\": 1967, \"questions\": [\"Q6\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r6838",
+   "station": "circles",
+   "title": "What's the shared area for these two circles?",
+   "url": "https://undergroundmathematics.org/circles/r6838",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Shared area of two circles: segment areas via ½r²(θ − sin θ) in radians — canonical clause-b mensuration.",
+   "provenance": "{\"board\": \"UCLES\", \"paper\": \"Mathematics A 1 and Pure Mathematics 1\", \"paperCode\": \"9200/1 and 9208/1\", \"year\": 1982, \"questions\": [\"Q6\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r7385",
+   "station": "circles",
+   "title": "How much of this log is below the surface?",
+   "url": "https://undergroundmathematics.org/circles/r7385",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Floating log: submerged cross-section area and arc pieces by sector/segment mensuration in radians (clause b).",
+   "provenance": "{\"board\": \"UCLES\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"8175/1\", \"year\": 1986, \"questions\": [\"Q15\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r7495",
+   "station": "circles",
+   "title": "What's the area inside both the circle $C$ and the triangle $T$?",
+   "url": "https://undergroundmathematics.org/circles/r7495",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Area inside circle C and triangle T (MAT): the circle part is sector/segment mensuration in radians (clause b) at MAT depth.",
+   "provenance": "{\"board\": \"Oxford (MAT)\", \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q4\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r7816",
+   "station": "circles",
+   "title": "Can we find the ratio of the areas of these two sectors?",
+   "url": "https://undergroundmathematics.org/circles/r7816",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Ratio of areas of two sectors with π/4 and π/3 angles: A = ½r²θ applied twice (clause b).",
+   "provenance": "{\"board\": \"UCLES\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"471/1\", \"year\": 1976, \"questions\": [\"Q8\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r7937",
+   "station": "circles",
+   "title": "What area do these intersecting circles share?",
+   "url": "https://undergroundmathematics.org/circles/r7937",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Intersecting circles' shared area: the common angle is found, then sector/segment areas in radians (clause b).",
+   "provenance": "{\"board\": \"UCLES\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"471/1\", \"year\": 1970, \"questions\": [\"Q2\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r7979",
+   "station": "circles",
+   "title": "When does a circle touch a parabola twice?",
+   "url": "https://undergroundmathematics.org/circles/r7979",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Circle resting on a parabola (MAT): tangency plus sector area with inverse-trig angles (clause b) — extension depth recorded.",
+   "provenance": "{\"board\": \"Oxford (MAT)\", \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2012, \"questions\": [\"Q4\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r8225",
+   "station": "circles",
+   "title": "Can we find the area between three touching circles?",
+   "url": "https://undergroundmathematics.org/circles/r8225",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Area between three touching circles: equilateral triangle plus three 60° sectors (clause b).",
+   "provenance": "{\"board\": \"UCLES\", \"paper\": \"Mathematics C\", \"paperCode\": \"187\", \"year\": 1954, \"questions\": [\"Q7\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r9028",
+   "station": "circles",
+   "title": "When does this area within a circle have a maximum value?",
+   "url": "https://undergroundmathematics.org/circles/r9028",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Chords meeting at angle θ: maximal shaded region as sector/segment area in radians (clause b, MAT MCQ).",
+   "provenance": "{\"board\": \"Oxford (MAT)\", \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2012, \"questions\": [\"Q1J\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r9423",
+   "station": "circles",
+   "title": "If we know the difference in their areas, how big are these sectors?",
+   "url": "https://undergroundmathematics.org/circles/r9423",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Concentric sectors with ¾ radian given: s = rθ and A = ½r²θ used together (clause b, canonical).",
+   "provenance": "{\"board\": \"UCLES\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"986/1\", \"year\": 1979, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "sector-spirals",
+   "station": "circles",
+   "title": "Sector spirals",
+   "url": "https://undergroundmathematics.org/circles/sector-spirals",
+   "resourceType": "fluency-exercise",
+   "level": "Introducing",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Arc length and sector area fluency across similar sectors; carries the 45° = π/4 conversion (clause a) plus canonical clause-b fluency — the lane's purest drill.",
+   "provenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r8946",
+   "station": "circles",
+   "title": "Can we find the areas enclosed between a circle and its tangent?",
+   "url": "https://undergroundmathematics.org/circles/r8946",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Areas enclosed between a circle and its tangent: segment areas needing the tangent's angle (clause b) — extension recorded here; the lane-3 alignment (1.3.2) is not collapsed.",
+   "provenance": "{\"board\": \"Oxford (MAT)\", \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2007, \"questions\": [\"Q4\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry",
+   "crossLaneNote": "aligned 1.3.2 in lane 3"
+  },
+  {
+   "ugmSlug": "r9386",
+   "station": "circles",
+   "title": "Can we find the area bounded by these two graphs?",
+   "url": "https://undergroundmathematics.org/circles/r9386",
+   "resourceType": "review-question",
+   "level": null,
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "Area bounded by an arc of x²+y²=2 and a line = sector − triangle = π/4 − 1/√2 (clause b); the lane-3 alignment (1.3.2) is not collapsed.",
+   "provenance": "{\"board\": \"Oxford (MAT)\", \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2013, \"questions\": [\"Q1H\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+   "hasTeacherSupport": false,
+   "codes": [
+    "1.4.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry",
+   "crossLaneNote": "aligned 1.3.2 in lane 3"
+  }
+ ],
+ "crossLaneNonOverlap": [
+  {
+   "ugmSlug": "cones",
+   "station": "circles",
+   "title": "Cones",
+   "url": "https://undergroundmathematics.org/circles/cones",
+   "resourceType": "building-blocks",
+   "reason": "Frustum volume — 3D mensuration beyond P1 1.4, which is circle arc/sector only.",
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "cutting-spheres",
+   "station": "circles",
+   "title": "Cutting spheres",
+   "url": "https://undergroundmathematics.org/circles/cutting-spheres",
+   "resourceType": "food-for-thought",
+   "reason": "Sphere-zone surface area — 3D mensuration beyond P1 1.4.",
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  }
+ ]
+}
