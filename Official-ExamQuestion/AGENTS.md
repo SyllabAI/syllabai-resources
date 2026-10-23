@@ -251,17 +251,19 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   figure pass; exporter v6 inlines them into the stem block; flattened label soup cut
   from the served stems — F-W20-1/F-W20-2). The tranche census reconciled: 2 figures
   were already served (inlined by reference), 1 flag retired with evidence (2023-11 1C
-  Q7 has no displayed formulae). NEXT: the LLM-authored solution-enrichment wave —
-  official solutionMd is mark-scheme-terse (median 149 chars) vs SME's 732-char median;
-  the doctrine permits authored worked answers; needs its own authored ledger + review
-  pass. Part C (F60) authored the first enrichment tranche: 124 worked answers (all of
-  2019-06 1C + 2020-01 1C) via SOLUTION-ENRICH.json with the build-time value-fidelity
-  review pass (numeric census + arithmetic verifier). NEXT authoring waves: the
-  remaining ~2483 official parts (prioritise calculation-heavy parts corpus-wide; the
-  ledger + review pass are the production line). Also open: group-stem restore (the
-  exporter restores QUESTION stems only — e.g. 2019-06 2C 5(a)'s "The tables give the
-  bond energies..." intro is carried by the crop's context, but group stems remain
-  unrestored corpus-wide).
+  Q7 has no displayed formulae).
+- Wave-21 (F61) ran the enrichment production line at corpus scale: 1275/2607
+  solution-bearing parts now carry authored worked answers (SOLUTION-ENRICH.json, all
+  authored-r0), and the F60 review pass is the committed harness
+  scripts/official_examq_enrich_verify.py (numeric census + chemistry-calibrated
+  arithmetic scanner + coverage + MCQ guards; exit 1 on any problem) — run it against
+  any ledger edit BEFORE merging. C71 pins min_entries=1275. TRANCHE 2 QUEUED HONESTLY:
+  1332 parts (1115 unauthored + 217 repair-flagged drafts withheld until
+  the hinted re-authoring verifies clean); the driver is resumable (per-slice
+  checkpoints, REDO+HINTS mode). Also open: group-stem restore (the exporter restores
+  QUESTION stems only — e.g. 2019-06 2C 5(a)'s "The tables give the bond energies..."
+  intro is carried by the crop's context, but group stems remain unrestored
+  corpus-wide).
 
 - Human review queues (v0.10.1 state): MCQ keys for 2020-01 Q7(a) are RESOLVED —
   the printed MS itself misplaces the answer rows (a source-document defect), so

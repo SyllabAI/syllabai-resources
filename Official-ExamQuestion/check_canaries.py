@@ -565,6 +565,10 @@ for c in cans:
                 if e.get("solutionMd", "").strip() == ms_sol:
                     ok = False
                     print(f"  ! enrichment {key}: authored text identical to MS cell (not enriching)")
+            floor = c.get("min_entries")
+            if floor and n < floor:
+                ok = False
+                print(f"  ! enrichment entries {n} < floor {floor} (ledger shrank)")
             print(f"  (enrichment entries resolved: {n})")
         elif chk == "ms_link_overrides_ledger":
             # C57 (v0.11/F47): MS-LINK-OVERRIDES.json and the corpus must agree
