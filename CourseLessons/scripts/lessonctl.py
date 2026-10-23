@@ -355,8 +355,13 @@ def cmd_emit(args):
         fm, body, _ = parse_section(f)
         sections.append({
             "id": fm.get("id"), "title": fm.get("title"), "bookPage": fm.get("bookPage"),
-            "chunkRefs": fm.get("chunkRefs", []), "blockIds": fm.get("blocks", []),
-            "glossarySlugs": fm.get("glossary", []), "specRefs": fm.get("specRefs", []),
+            "chunkRefs": fm.get("chunkRefs", []), "blockIds": (fm.get("blocks") or []),
+            # T-BOOK-038 fix (system-change law, finding f-0012): `fm.get("glossary", [])`
+            # returns None — not [] — when front-matter carries `glossary: null`,
+            # emitting contract-ILLEGAL nulls (books-lesson.ts glossarySlugs is
+            # z.array). The `or` coercion is the null-safe law for every
+            # default-to-array field.
+            "glossarySlugs": (fm.get("glossary") or []), "specRefs": (fm.get("specRefs") or []),
             "markdown": body.strip(),
         })
     cfg = load_yaml(lesson.parent.parent / "course.yaml")
