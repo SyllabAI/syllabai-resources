@@ -67,11 +67,44 @@ def ascii_digits(s):
 # ---------------------------------------------------------------- V3 classes
 PUA_RE = re.compile(r"[\uE000-\uF8FF]")
 CTRL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
-PROCESS_RE = re.compile(r"\b(mark\s+scheme|mark\s+point|marking\s+point|examiner|ECF|error\s+carried|\bORA\b|\bALLOW\b|\bIGNORE\b|\bACCEPT\b|M[12]\s+for\b)", re.I)
+# F-W22-4: the marker-jargon shorthands (ECF/ORA/ALLOW/IGNORE/ACCEPT) are
+# always printed UPPERCASE in mark schemes — match them case-sensitively so
+# ordinary learner prose ("they ignore that water is the harder reaction") is
+# not flagged. Sentence-level jargon (mark scheme, examiner, M1 for) stays
+# case-insensitive.
+PROCESS_RE = re.compile(
+    r"\b(mark\s+scheme|mark\s+point|marking\s+point|examiner|error\s+carried|M[12]\s+for\b)"
+    r"|\b(ECF|ORA|ALLOW|IGNORE|ACCEPT)\b")
 
 
 # ------------------------------------------------------- numeric tokenising
-NUM_RE = re.compile(r"\d+(?:[.,\u00a0 ]\d{3})*(?:\.\d+)?")
+# F-W22-3: the decimal alternative must compete PER REPETITION with the
+# thousands-group. The old order ([thousands]* then optional decimal) parsed
+# "1.7255" as "1.725"+"5" — the thousands group ate ".725" and the decimal
+# alternative never saw a dot. Any fractional part of 4+ digits split, on BOTH
+# the entry and the evidence side. Alternating (.decimal | thousands) keeps
+# "1.7255", "0.00846", "10 000" and "1,234,567.89" all intact.
+NUM_RE = re.compile(r"\d+(?:\.\d+|[.,\u00a0 ]\d{3})*")
+
+# F-W22-2: mark-scheme label digits bridge the thousands-group: "M2 1275÷102"
+# tokenises as "2 127"+"5", so a printed value following an M-label is unreadable
+# as evidence. The census therefore ALSO draws evidence numbers from a copy of
+# the evidence with M-labels removed (additive: only ever ADDS backed numbers —
+# M-labels are always followed by printed values of record, never invented ones).
+MP_LABEL_RE = re.compile(r"(?<![A-Za-z])[Mm]\d{1,2}(?![\dA-Za-z])")
+
+
+def evidence_numbers(evidence):
+    ev_nums = set()
+    # third copy: shell notation "2.8.8" loses "2.8" under the F-W22-3 grammar
+    # (the whole run parses as one malformed token) — split shell dots additively
+    shell = re.sub(r"(\d+)\.(\d+)\.(\d+)", r"\1.\2 \3", ascii_digits(evidence))
+    for src in (evidence, MP_LABEL_RE.sub(" ", ascii_digits(evidence)), shell):
+        for tok in NUM_RE.findall(src):
+            v = norm_num(tok)
+            if v is not None:
+                ev_nums.add(str(int(v)) if v == int(v) else str(v))
+    return ev_nums
 
 def norm_num(tok):
     t = tok.replace(",", "").replace("\u00a0", "").replace(" ", "")
@@ -249,11 +282,7 @@ def scan_equations(text):
 # ------------------------------------------------------------------- V4/V6/V7
 def numeric_census(text, evidence, verified, graph_read=False):
     text_a = ascii_digits(text)
-    ev_nums = set()
-    for tok in NUM_RE.findall(ascii_digits(evidence)):
-        v = norm_num(tok)
-        if v is not None:
-            ev_nums.add(str(int(v)) if v == int(v) else str(v))
+    ev_nums = evidence_numbers(evidence)
     verified = {ascii_digits(x) for x in verified}
     problems = []
     for m in NUM_RE.finditer(text_a):
@@ -325,6 +354,36 @@ def keywords(s):
 
 JARGON = {"figs", "answer", "correctly", "balanced", "award", "mark", "notes"}
 
+# F-W22-1 (wave-22): mark-point furniture + artifact handling before coverage.
+#  a) MS-table furniture (mirrors the exporter's F-W15-2 strip): "Total for
+#     Question N = M" totals, "Notes Marks Answer(s)" header fragments.
+#  b) the invisible PDF-layer fragment "cler": the 2020-11 MS prints it after
+#     every answer row; it renders as blank pixels (verified on the rendered
+#     page) — extraction furniture, not content.
+#  c) the symbol/label coverage routes search the ORIGINAL-CASE text: they were
+#     dead on arrival (case-sensitive patterns against the lowercased text),
+#     so pure-symbol/label mark points ("U", "Br", "H H / H C C H") could never
+#     be covered. Restores the documented routes; monotone-lenient (only
+#     unblocks, never invalidates a previously-passing entry).
+MP_FURNITURE_RE = re.compile(
+    r"^\s*(?:Total\s+(?:marks\s+)?for\s+Q(?:uestion)?\s*\d+\s*=\s*\d+"
+    r"|Notes(?:\s+Marks)?(?:\s+Answers?)?|Marks|Answers?"
+    r"|only\s+M\d+\s+is\s+dependent\s+on\b.*"
+    r"|M\d+\s+DEP\b.*)\s*$", re.M | re.I)
+MP_TOTAL_INLINE_RE = re.compile(r"\s*Total\s+(?:marks\s+)?for\s+Q(?:uestion)?\s*\d+\s*=\s*\d+\s*", re.I)
+MP_ARTIFACT_RE = re.compile(r"(?m)^\s*cler\s*$|\s+\bcler\b\s*")
+# "Any two from" / "Any one from:" enumeration headers open a mark point whose
+# substantive content follows the ALLOW/accept clause; when nothing real
+# remains before the guidance, fall through to the post-guidance segments.
+MP_ENUM_HEADER_RE = re.compile(r"^\s*Any\s+(?:one|two|three|four|\d+)\s+from[:.\s]*$", re.I)
+
+
+def mp_coverage_text(t):
+    t = MP_ARTIFACT_RE.sub(" ", t)
+    t = MP_TOTAL_INLINE_RE.sub(" ", t)
+    t = MP_FURNITURE_RE.sub("", t)
+    return re.sub(r"\s+", " ", t).strip()
+
 
 GUIDANCE_SPLIT = re.compile(r"\b(?:ALLOW|allow|IGNORE|ignore|ECF|ORA|accept|Accept|reject|Reject|both orders|either order|Do not accept|do not accept|correctly balanced|Calculator answer|answer is|Award|award)\b")
 
@@ -361,10 +420,19 @@ def close_num_in_text(v, text_a):
 def coverage_problems(mark_points, text):
     problems = []
     tl = ascii_digits(clean(text).lower())
+    raw = ascii_digits(clean(text))   # F-W22-1c: original case for symbol/label routes
     for mp in mark_points:
         t = ascii_digits(mp.get("text") or "")
+        t = mp_coverage_text(t)       # F-W22-1a/1b: furniture + artifact strip
         t = GUIDANCE_SPLIT.split(t)[0]
         t = clean(t)
+        if MP_ENUM_HEADER_RE.match(t):
+            # F-W22-1d: an enumeration header alone carries nothing substantive;
+            # the credited content follows the guidance clause — judge coverage
+            # on the first post-guidance segment instead (never a regression:
+            # this route only activates where the old rule auto-passed).
+            segs = [clean(x) for x in GUIDANCE_SPLIT.split(mp_coverage_text(ascii_digits(mp.get("text") or "")))[1:]]
+            t = next((s for s in segs if keywords(s) or mp_formula_tokens(s)), "")
         if not t:
             continue
         kws = keywords(t)
@@ -376,10 +444,16 @@ def coverage_problems(mark_points, text):
                 covered = True
         if not covered:
             # formula-symbol / number route: a mark point like "Q = 1310 (J)"
-            # is covered when its symbol or its value (3sf-equivalent) appears
+            # is covered when its symbol or its value (3sf-equivalent) appears.
+            # F-W22-5: the entry side of the symbol search is matched against
+            # superscript-normalised text (Li⁺ -> Li+), since authored copy
+            # writes charges with Unicode superscripts the MS extraction
+            # prints as ascii. Additive: only widens what counts as covered.
             toks = mp_formula_tokens(t)
             if toks:
-                sym_hit = any(re.search(rf"(?<![A-Za-z]){re.escape(ascii_digits(x))}(?![A-Za-z])", tl)
+                raw_norm = (raw.replace("\u207a", "+").replace("\u207b", "-")
+                               .replace("\u00b2", "2").replace("\u00b3", "3"))
+                sym_hit = any(re.search(rf"(?<![A-Za-z]){re.escape(ascii_digits(x))}(?![A-Za-z])", raw_norm)
                               for x in toks if not x.isdigit())
                 num_hit = any(close_num_in_text(float(x), tl) for x in toks if x.isdigit())
                 if sym_hit or num_hit:
@@ -387,7 +461,7 @@ def coverage_problems(mark_points, text):
         if not covered:
             # single-letter diagram labels ("X and Z", "V and W")
             labels = [x for x in re.findall(r"(?<![A-Za-z])([A-Z])(?![A-Za-z])", t) if x not in ("A", "I")]
-            if labels and all(re.search(rf"(?<![A-Za-z]){x}(?![A-Za-z])", tl) for x in labels):
+            if labels and all(re.search(rf"(?<![A-Za-z]){x}(?![A-Za-z])", raw) for x in labels):
                 covered = True
         if not covered and (keywords(t) or labels or mp_formula_tokens(t)):
             problems.append(f"coverage: marking point '{t[:70]}' under-covered")

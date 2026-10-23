@@ -852,19 +852,20 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.14.0 corpus (wave-21, F61): solution enrichment tranche 1 - "
-            "1,151 authored SME-style worked answers added to SOLUTION-ENRICH.json (ledger "
-            "124 -> 1,275 of the 2,607 solution-bearing parts; 1,332 honestly queued for "
-            "tranche 2 behind the API rate-limit wall: 1,115 unauthored + 217 repair-flagged "
-            "drafts withheld until the hinted re-authoring verifies clean). The F60 "
+            "ADR-037 converter v0.14.1 corpus (wave-22, F62): solution enrichment tranche 2 - "
+            "the corpus is COMPLETE: 1,332 authored SME-style worked answers added "
+            "(SOLUTION-ENRICH.json 1,275 -> 2,607; every solution-bearing part of the 54 "
+            "official sets now carries an authored, verifier-clean worked answer; the 217 "
+            "repair-flagged tranche-1 drafts were re-authored from evidence). The F60/F62 "
             "value-fidelity review pass is the committed harness "
-            "scripts/official_examq_enrich_verify.py (numeric-token census with a "
-            "chemistry-calibrated equation scanner, marking-point coverage, MCQ key/why-wrong "
-            "guards; 0 problems in scope at ship); C71 pins min_entries 1275. The serving delta "
-            "is exactly the solutionMd class (1,151 parts / 29 slugs, G-E1-matched against the "
-            "filed disclosure); corpus topic.json byte-identical (converter 0.14.0 untouched) "
-            "and the MS cells and mark points stay verbatim - marking is never authored. "
-            "Wave-15 UX doctrine governs: best learner experience, values never invented. "
+            "scripts/official_examq_enrich_verify.py (F-W22-1..5: mark-point furniture/artifact "
+            "strips, case-corrected symbol/label coverage routes, decimal-safe numeric "
+            "tokeniser, M-label evidence reads, uppercase-only marker jargon; full 2,607-entry "
+            "ledger re-verified 0 problems), C71 pins min_entries 2607. Serving delta: "
+            "solutionMd on 1,332 parts + the F62 MCQ re-key of 2020-01 2CR 1(b)(i) to C "
+            "(MCQ-KEYS.json paper-scoped adjudication, converter v0.14.1); MS cells and mark "
+            "points stay verbatim - marking is never authored. Wave-15 UX doctrine governs: "
+            "best learner experience, values never invented. "
             f"{official_n} official sets (16x1C + 16x2C + R-variants), {n_q} questions, {n_p} parts, all "
             "spec-tagged.")
         os.makedirs(args.out_stage, exist_ok=True)

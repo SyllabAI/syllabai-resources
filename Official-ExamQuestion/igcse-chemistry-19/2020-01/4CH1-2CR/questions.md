@@ -79,25 +79,20 @@ Explain why Box 5 represents a compound.
 How are the elements arranged in the Periodic Table?
 
 - **(A)** increasing mass number
-- **(B)** increasing number of neutrons  ✔
-- **(C)** increasing number of protons
+- **(B)** increasing number of neutrons
+- **(C)** increasing number of protons  ✔
 - **(D)** increasing reactivity
 
 
 **Mark scheme answer**
 
 > C number of protons
-> The only correct answer is B because the elements
-> in the periodic table are arranged in order of
-> proton number
-> A is not correct because elements are not arranged
-> in order of mass number
-> B is not correct because elements are not arranged
-> in order of the number of neutrons
-> D is not correct because elements are not arranged
-> in order of reactivity
+> The only correct answer is C because the elements in the periodic table are arranged in order of proton number
+> A is not correct because elements are not arranged in order of mass number
+> B is not correct because elements are not arranged in order of the number of neutrons
+> D is not correct because elements are not arranged in order of reactivity
 
-- **(1)** Answer B: increasing number of neutrons
+- **(1)** Answer C: increasing number of protons
 
 ### 1(b)(ii) [1]
 

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.mcq-keys/0.1",
  "note": "Human-adjudicated MCQ answer keys where the printed mark scheme's own layout defeats positional linkage (answer rows printed in the wrong slots). Every entry carries the eyeballed key and the corrected verbatim MS rows; the converter applies both BEFORE solution emission, so solution_md / mark_points / choices[].is_correct all derive from the adjudicated block. Keys are decided from the printed MS page (rendered + viewed) and the question paper — never from model guessing.",
- "adjudicated_utc": "2026-10-21",
+ "adjudicated_utc": "2026-10-23",
  "evidence_dir": "uploads staged at EXAMQ_UPLOAD_DIR (official-4CH1-1C-2020-01-ms.pdf page 12 render; QP page 16)",
  "entries": [
   {
@@ -40,6 +40,20 @@
     "C is incorrect as chlorine is more reactive than astatine",
     "D is incorrect as iodine is more reactive than astatine"
    ]
+  },
+  {
+   "series": "2020-01",
+   "part": "1(b)(i)",
+   "key": "C",
+   "evidence": "printed MS p3 answer row reads 'C number of protons' while its own narrative says 'The only correct answer is B because ... proton number' AND 'B is not correct because elements are not arranged in order of the number of neutrons' - the narrative contradicts itself (B is both the answer and incorrect) and gives C's content as its reason; QP p4 options: A increasing mass number, B increasing number of neutrons, C increasing number of protons, D increasing reactivity. Chemistry of record: the Periodic Table arranges elements by proton (atomic) number -> C. The corpus linkage keyed B from the narrative's typo; this override re-keys to the printed answer row. Adjudicated from the rendered MS page + QP page, per the F37 doctrine.",
+   "ms_lines": [
+    "C number of protons",
+    "The only correct answer is C because the elements in the periodic table are arranged in order of proton number",
+    "A is not correct because elements are not arranged in order of mass number",
+    "B is not correct because elements are not arranged in order of the number of neutrons",
+    "D is not correct because elements are not arranged in order of reactivity"
+   ],
+   "paper": "2CR"
   }
  ]
 }
