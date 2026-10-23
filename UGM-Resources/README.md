@@ -6,7 +6,7 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** five lanes of record.
+**Status:** six lanes of record.
 
 - **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
   landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
@@ -47,10 +47,24 @@ preservation-grade snapshot of a stable source.
   `textOfRecordUnder` pointers) + 220 routed to recorded homes. Finding of record: UGM's
   Trigonometry: Compound Angles station maps almost entirely to P3 2.3 (24 recorded
   non-overlaps) — the 2019 CIE revision moved compound/double-angle work out of Pure 1).
+- **Lane 6 — `pure-1-series/`** (99 resources — the **second two-station lane**, task
+  **`T-UGM-IMPORT-6`**: the WHOLE substrate ships as text of record — 49 mapped (43
+  Sequences/Counting-and-Binomials substrate + 6 cross-station strays r5640/r9404/r9916/r8260/r6592/r9312)
+  + 50 recorded non-overlaps imported unmapped). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-series.json` (task **`T-UGM-MODE1-6`**).
+  Cross-map of record: `cross-map-series.json` in `SyllabAI/syllabai-experimental`
+  (CIE 9709 P1 1.6 Series — four spine rows 1.6.1–1.6.4, no fold fragments; 137
+  corpus-sweep candidates resolved as 49 aligned (56 alignment rows) + 50 non-overlaps + 2
+  cross-lane fact joins (r7553/r9527 → 1.6.3 against lane-2 bodies, recorded with
+  `textOfRecordUnder` pointers) + 36 routed to recorded homes. Findings of record: the
+  Sequences station maps 31/42 onto 1.6.2–1.6.4 while Counting and Binomials is dominated
+  by combinatorics/logic (39 recorded non-overlaps) around a tight binomial-expansion core
+  (12/51); the general-index binomial questions carry P3 Series bearings — the natural
+  substrate preview for a future P3 lane, mirroring lane 5's P3 2.3 finding).
 
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
-the text bodies. `MANIFEST.json` is **v5 (multi-lane)** — one block per lane;
-lane-1/2/3/4 rows carried forward untouched from v4.
+the text bodies. `MANIFEST.json` is **v6 (multi-lane)** — one block per lane;
+lane-1/2/3/4/5 rows carried forward untouched from v5.
 
 ## Rights and licensing authority
 
