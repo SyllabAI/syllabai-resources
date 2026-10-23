@@ -21,6 +21,15 @@ accepts it, and **no third-party content text ships** — see licensing below.
   circles-strand alignments and 2 cross-lane non-overlaps recorded as facts with
   `textOfRecordUnder` pointers (62 corpus-sweep candidates: 41 routed to recorded homes —
   never forced, AGENT.md rule 3).
+- `cie-a-level-maths-20-pure-1-trigonometry.json` — schema
+  `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-MODE1-5`: the CIE 9709 Pure 1 Trigonometry
+  spec points (1.5.1–1.5.5, no fold fragments) enriched with UGM candidates — the **two-station
+  lane**: 41 aligned resources (36 Triangles-to-Functions + 3 Compound-Angles + 2 cross-station
+  strays; 55 alignment rows), 36 non-overlaps (the compound-angles station's honest P3 2.3
+  mapping — text of record imported UNMAPPED in the same lane directory, per the station-lane
+  corpus law), plus 2 cross-lane fact joins to lane-2 bodies (r9924, r8411 → 1.5.4,
+  `textOfRecordUnder` pointers) — 299 corpus-sweep candidates: 220 routed to recorded homes,
+  never forced (AGENT.md rule 3).
 
 ## What is and is not here
 

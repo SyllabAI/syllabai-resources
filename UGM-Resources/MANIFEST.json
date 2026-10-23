@@ -1,6 +1,6 @@
 {
  "manifest_version": 2,
- "version_note": "v4 (T-UGM-IMPORT-4, 2026-10-23): lane-4 block appended (pure-1-circular-measure, 5 files, FIRST STRAND lane — new-text subset only; the circles strand's mappings are cross-lane facts in the sibling enrichment, keeping cross-lane ugmId uniqueness). v3 (T-UGM-IMPORT-3, 2026-10-23): lane-3 block appended (pure-1-coordinate-geometry, 85 files, two-station lane geometry-of-equations + circles); lane-1/2 rows untouched from v2. v2 (T-UGM-IMPORT-2, 2026-10-23): multi-lane corpus — per-lane blocks; lane-1 rows re-verified byte-identical against #58 (main@91eed732). v1 top-level shape preserved inside each lane block; consumers flatten lanes[].files.",
+ "version_note": "v5 (T-UGM-IMPORT-5, 2026-10-23): lane-5 block appended (pure-1-trigonometry, 77 files — the WHOLE two-station substrate as text of record: 41 mapped (36 TTF + 3 TCA + 2 cross-station strays) + 36 recorded non-overlaps imported unmapped; the compound-angles station maps mostly to P3 2.3; 2 cross-lane fact joins to lane-2 bodies live in the sibling enrichment). v4 (T-UGM-IMPORT-4, 2026-10-23): lane-4 block appended (pure-1-circular-measure, 5 files, FIRST STRAND lane — new-text subset only; the circles strand's mappings are cross-lane facts in the sibling enrichment, keeping cross-lane ugmId uniqueness). v3 (T-UGM-IMPORT-3, 2026-10-23): lane-3 block appended (pure-1-coordinate-geometry, 85 files, two-station lane geometry-of-equations + circles); lane-1/2 rows untouched from v2. v2 (T-UGM-IMPORT-2, 2026-10-23): multi-lane corpus — per-lane blocks; lane-1 rows re-verified byte-identical against #58 (main@91eed732). v1 top-level shape preserved inside each lane block; consumers flatten lanes[].files.",
  "corpus": "UGM-Resources",
  "source": {
   "site": "undergroundmathematics.org",
@@ -10,8 +10,8 @@
   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 915bfa8c (P2 crawl + ugm-clean)",
   "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
  },
- "built": "2026-10-23T14:51:32+06:00",
- "file_count": 187,
+ "built": "2026-10-23T16:39:11+06:00",
+ "file_count": 264,
  "lanes": [
   {
    "task": "T-UGM-IMPORT-1",
@@ -2281,6 +2281,889 @@
      "resource_type_label": "Review question",
      "spec_points": [
       "1.4.1"
+     ],
+     "captured": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "task": "T-UGM-IMPORT-5",
+   "lane_dir": "pure-1-trigonometry",
+   "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-5 file cie-a-level-maths-20-pure-1-trigonometry.json, task T-UGM-MODE1-5) — this corpus adds the text bodies under the 2026-10-23 operator attestation; TWO-STATION LANE (lanes 1-3 shape): Trigonometry: Triangles to Functions + Trigonometry: Compound Angles, plus r7912 (Introducing Calculus) and r7184 (Exponentials & Logarithms) whose tested skill is 1.5.x",
+   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ f3ef5745 (P2 crawl + ugm-clean; spine export 1.5 rows; cross-map lane 5 in the same commit)",
+   "cross_map_of_record": {
+    "file": "undergroundmathematics/resources/derived/cross-map-trigonometry.json @ f3ef5745",
+    "pilot": "P3c trigonometry cross-map (generalisation lane 5, two-station lane)",
+    "aligned": 41,
+    "resources": 299,
+    "consideredNote": "299 corpus-sweep candidates; 41 aligned (39 substrate + 2 cross-station strays; 55 alignment rows) + 36 non-overlaps (text of record imported unmapped) + 2 cross-lane fact joins (r9924/r8411 → 1.5.4 against lane-2 bodies) + 220 routed"
+   },
+   "built": "2026-10-23T16:39:11+06:00",
+   "file_count": 77,
+   "files": [
+    {
+     "path": "pure-1-trigonometry/big-trig-big-trig.md",
+     "sha256": "c19487474dd2a79ad3d798f9ca6be600ce0cebfc8e397b226198f649ac4cfd8d",
+     "ugm_id": "big-trig",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/big-trig",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/calculating-latitude-calculating-latitude.md",
+     "sha256": "1f2d5580fc2f38d6f80b91fe39d6a554a9e62426be6450c14aa5f9079681b773",
+     "ugm_id": "calculating-latitude",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/calculating-latitude",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/can-you-find-trigonometry-edition-can-you-find-trigonometry-edition.md",
+     "sha256": "586222cd36d856098bfe0aa36397c64631da414da4f60b8a339bb1fbfea50760",
+     "ugm_id": "can-you-find-trigonometry-edition",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition",
+     "resource_type_label": "Many ways problem",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/can-you-find-trigonometry-edition-teacher-support-can-you-find-trigonometry-edition-teacher-support.md",
+     "sha256": "4d85e097c079250a4ff0d8e16451a7428112eb406c498da95af5fb6fa5523693",
+     "ugm_id": "can-you-find-trigonometry-edition-teacher-support",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition-teacher-support",
+     "resource_type_label": "Resource in action",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/catching-waves-catching-waves.md",
+     "sha256": "78c0f089d10bee5fe4d8ce9ec387616b17a576d7e80929b83325be2e83dd51af",
+     "ugm_id": "catching-waves",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/catching-waves",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/equation-or-identity-i-equation-or-identity-i.md",
+     "sha256": "835cf6d0f9b467bc96e7aab980b0cd8f7bfc830bce37a9967682047a61913b00",
+     "ugm_id": "equation-or-identity-i",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/equation-or-identity-i",
+     "resource_type_label": "Package of problems",
+     "spec_points": [
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/equation-or-identity-ii-equation-or-identity-ii.md",
+     "sha256": "cdeae72853b3a49e1690c48c4d2b86fa1c65b6d3fc51e1bead0894893627bc3f",
+     "ugm_id": "equation-or-identity-ii",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/equation-or-identity-ii",
+     "resource_type_label": "Package of problems",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/from-stars-to-waves-from-stars-to-waves.md",
+     "sha256": "ecfaff9f1baf0c6b9406e6be71c531810245eb1f38bb67ae1d96e1d3e0f5ac11",
+     "ugm_id": "from-stars-to-waves",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/from-stars-to-waves",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/general-solutions-general-solutions.md",
+     "sha256": "0d165f63693b4ce930be1a87a0dd5cb0cb1c1cf78e779d5fa9935afde0799cfe",
+     "ugm_id": "general-solutions",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/general-solutions",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/going-round-in-circles-going-round-in-circles.md",
+     "sha256": "cf2de87e4c60eaad91e3603614749871cd2ac59c3b7d5221f1174dfc1e1c2eb5",
+     "ugm_id": "going-round-in-circles",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/have-a-sine-have-a-sine.md",
+     "sha256": "b2371a87ba64a1dbd830eaaae03ba8cde0fd20a1be9760756644221d2665d86f",
+     "ugm_id": "have-a-sine",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/have-a-sine",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/how-high-am-i-how-high-am-i.md",
+     "sha256": "3adbebb7f7b6ad5f35c1cbfbb77465cf606f9d36882e657614587343e195e484",
+     "ugm_id": "how-high-am-i",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/how-high-am-i",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/inspecting-identities-inspecting-identities.md",
+     "sha256": "5cb3f06060ac09b8854de4cd536576c483ae8cec0e666ff00b4ccb62034282be",
+     "ugm_id": "inspecting-identities",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities",
+     "resource_type_label": "Many ways problem",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/inverse-or-not-inverse-or-not.md",
+     "sha256": "3abef212d9d239746085542d32210ad241e34bd39351360c3e4298482cf6eaf1",
+     "ugm_id": "inverse-or-not",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-or-not",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "1.5.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/inverse-trig-functions-inverse-trigonometric-functions.md",
+     "sha256": "866e35cb75b7fa137fd4b1e02ec21072c9cf9c384c453403315835498cbf2dd7",
+     "ugm_id": "inverse-trig-functions",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-trig-functions",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [
+      "1.5.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/lost-but-lovely-the-haversine-lost-but-lovely-the-haversine.md",
+     "sha256": "62fc8a45976c3e0bffbaeb15da19a2aebb571ad52921a1e50b6ed0607f0064e8",
+     "ugm_id": "lost-but-lovely-the-haversine",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/muddled-trig-muddled-trig.md",
+     "sha256": "8f70220e171dde898d6096c14324be77b9da9c422bb6c1d2ccd42cd5a959a859",
+     "ugm_id": "muddled-trig",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "1.5.1",
+      "1.5.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/proving-half-angle-formulae-proving-half-angle-formulae.md",
+     "sha256": "31b32fc8fdce58fd41fb28a5310fc3c1036c714af191ccba8bddaaf99b2f323c",
+     "ugm_id": "proving-half-angle-formulae",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/proving-half-angle-formulae",
+     "resource_type_label": "Scaffolded task",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5113-can-we-solve-the-equation-3-cos-x-1-2-sin-x.md",
+     "sha256": "b6b76d2b0c43cf9dd14675262e1f7654a241777d5e5e4f3c80cb8ec5763b9bfc",
+     "ugm_id": "r5113",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5113",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5129-if-bc-a-2-1-what-is-arctan-a-b-1-arctan-a-c-1.md",
+     "sha256": "516524aa96785612118d64e0dd4d92384e55ad99311de40d55b598bd5d8d8082",
+     "ugm_id": "r5129",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5129",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5199-when-is-sin-x-or-sin-2x-larger-than-a-half.md",
+     "sha256": "edb137c46aeb1c03e9666f0731a4166708875c1548c145ade2136139017fd06b",
+     "ugm_id": "r5199",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5199",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5269-can-we-prove-this-trig-identity-to-solve-this-equation.md",
+     "sha256": "f1403255833695dcc01087e25e6404fff3f058aca9ab881afbecb637dfddea00",
+     "ugm_id": "r5269",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5269",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5497-how-are-these-three-angles-connected.md",
+     "sha256": "b2b5411e3f55472b4d926e435d1640acfb859d6671f05728a6cce8de7e01ed3c",
+     "ugm_id": "r5497",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5497",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5533-given-a-picture-hanging-from-a-wall-can-we-find-these-angles.md",
+     "sha256": "008d2c13fe317ac7c7e696d922b4a93aea6312b9bcc3163f35b9f20af930288a",
+     "ugm_id": "r5533",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5533",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5723-can-we-solve-these-trig-equations-for-x-y-and-z.md",
+     "sha256": "5c8ef54b39fbc1c879fd2c1cee1fe63e6388a187d373acbab58e4fc9b576c05a",
+     "ugm_id": "r5723",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5723",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r5988-if-r-is-the-circumradius-of-triangle-abc-can-we-show-a-sin-a-2r.md",
+     "sha256": "85122341b29153ddfb372f0d514a9ded85075ac23e06d211912786f55082e6fd",
+     "ugm_id": "r5988",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5988",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6018-can-we-find-the-value-of-sin-18-circ-as-a-surd.md",
+     "sha256": "954bf01ffcbb027fa78b0976b3309abfe269c302a2fff6b9a8b3d93529fbf8b3",
+     "ugm_id": "r6018",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6039-can-we-solve-tan-theta-tan-theta-pi-3-2.md",
+     "sha256": "0d6de54e31ccc0c284d8996e242747c668e7453bbae7db59c094b5315bd910da",
+     "ugm_id": "r6039",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6039",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6049-how-far-are-these-two-ships-from-the-shore.md",
+     "sha256": "d43826a438cac3b8104360099ab8f11abecfbde4012e7885a41a8d358e08e3d6",
+     "ugm_id": "r6049",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6049",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6120-can-we-write-cos-theta-2-cos-3-theta-cos-5-theta-using-sin.md",
+     "sha256": "11c890ce198d062cb6cc97aa5eacbc1c9dd034954c805d4176bc088b9cbf729b",
+     "ugm_id": "r6120",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6120",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6138-how-many-solutions-does-sin-2x-3-sin-x-cos-x-2-cos-2-x-0-have.md",
+     "sha256": "2af35118252924b73d485bdb32c78988e0898f82fffec81f4faed033341f2d2f",
+     "ugm_id": "r6138",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6138",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6144-can-we-find-the-lengths-and-angles-in-this-diagram-of-a-roof.md",
+     "sha256": "75466b6dfdf6435634f38bae531cdd6949de11271edd2813a1f7f84d9029b4b6",
+     "ugm_id": "r6144",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6144",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6589-can-we-find-the-lengths-and-angles-in-this-pyramid.md",
+     "sha256": "65293465e1939b01056d441946278e62dc2333d7820d54815dfb452192181ef6",
+     "ugm_id": "r6589",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6589",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6696-can-we-write-sin-theta-and-cos-theta-in-terms-of-tan-theta-2.md",
+     "sha256": "27057667d4bb4aae1634091f72d029daa373be163c4785e7c7b2e18a05462133",
+     "ugm_id": "r6696",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6696",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r6807-can-we-simplify-cos-3-theta-sin-2-theta-cos-4-theta-sin-theta.md",
+     "sha256": "e2e9175227c45de8c2933b7684c1e4cb59eb82062808986b255c1aad081fa2c8",
+     "ugm_id": "r6807",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6807",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7000-if-sin-x-and-cos-y-are-both-negative-what-can-we-say-about-x-y.md",
+     "sha256": "0b8d9e07ecac359e207638c87e1f11ae926652a52211606713ab7de34c7f6342",
+     "ugm_id": "r7000",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7000",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7021-using-angles-in-a-pentagon.md",
+     "sha256": "757ba86427f76ce5f89d4c66c9b851021a3eebc06dbe51ccf6dabf6536ec080f",
+     "ugm_id": "r7021",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7050-an-exact-value-for-sin-15-circ.md",
+     "sha256": "99bc020a8a8fd1fd2e1798acd9fded4838cc94b25bbe74518edb2845ee40c433",
+     "ugm_id": "r7050",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7050",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7184-which-of-these-log-and-trig-expressions-is-the-largest.md",
+     "sha256": "af765f391cc5f052d83f63427443febcc44971eba832f7ca68b5ee60a8cdb63d",
+     "ugm_id": "r7184",
+     "title": "",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7184",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7370-how-many-solutions-do-these-simultaneous-trig-equations-have.md",
+     "sha256": "2d44b5b08338f1a863b572a5b5bdac3e76f5c718977c1436019b877d73904787",
+     "ugm_id": "r7370",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7370",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7374-which-points-in-the-x-y-plane-satisfy-sin-y-sin-x.md",
+     "sha256": "70cedab030b9120c256bfb7cae9f83fb145a3857b4d7239b93658d9ed1ac1a53",
+     "ugm_id": "r7374",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7374",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7378-when-does-this-equation-in-x-y-and-theta-represent-a-circle.md",
+     "sha256": "4d2f495c675875079e5d813ffb15243166cfd82d273502099fd4212f8d56371d",
+     "ugm_id": "r7378",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7378",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7577-what-s-the-result-when-we-reflect-y-sin-x-twice.md",
+     "sha256": "064c1c6d764d2cf99cb79bdf8a90d526339864387bbfdc980a968be81fc74bb7",
+     "ugm_id": "r7577",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7577",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7581-can-we-sketch-the-curve-y-cos-x-sin-x-2.md",
+     "sha256": "b381b05434aacd6f23d61fbafc1711744bafeb171af127e31abf3d0084643ae7",
+     "ugm_id": "r7581",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7581",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7596-two-swimmers-cross-a-river-can-we-calculate-its-width.md",
+     "sha256": "7eac55a089f4c9ad752d6a45f7e417c6fd14d0bf73d7a368538eaef1d8c05893",
+     "ugm_id": "r7596",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7596",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7604-can-we-solve-these-simultaneous-trigonometric-equations.md",
+     "sha256": "4daf7679613f93c41804dc13476047b417d4f2a7c978b7f0ec95318b74134408",
+     "ugm_id": "r7604",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7604",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7756-what-s-this-angle-of-elevation-given-two-others.md",
+     "sha256": "eeba5eed9bca002e428f3c314d72b88aa8bd40941a90feefe691a0ad47ccb9d9",
+     "ugm_id": "r7756",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7756",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7912-can-we-approximate-the-area-under-this-sine-curve.md",
+     "sha256": "6e857ed3c91b3a13b426cfc08d36d5865bc5a18ae785724b9d479d9d92ceba4f",
+     "ugm_id": "r7912",
+     "title": "",
+     "url": "https://undergroundmathematics.org/introducing-calculus/r7912",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1",
+      "1.5.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r7973-are-any-of-these-four-trig-expressions-equal-to-each-other.md",
+     "sha256": "b610273422d565568af5d600013c9d28d6af4f2a02564588a95c44b58c8965c1",
+     "ugm_id": "r7973",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7973",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8136-how-many-solutions-does-this-equation-involving-sin-8x-have.md",
+     "sha256": "e5c41298e0c314ec941aa34cd51248ecc782432fc600f641037a2a5561f23e10",
+     "ugm_id": "r8136",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8136",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8330-which-of-these-area-and-perimeter-statements-is-true.md",
+     "sha256": "5f0e116bb21bdca7f9aed8aa1a8569bfe9fea7dd929213945ae8ee6b9fe15258",
+     "ugm_id": "r8330",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8330",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8386-how-many-solutions-does-cos-sin-x-frac-1-2-have.md",
+     "sha256": "89d31c55ac6e6e9b8e909a52906815f8767c2430eb0b0c8e6ccd7193c95297cb",
+     "ugm_id": "r8386",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8386",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8525-can-we-prove-sin-a-sin-b-leq-sin-2-frac-1-2-a-b.md",
+     "sha256": "84f72daa960787e91e00fa498b8ab65332030c72fea2be78dc68a40ada10c1ea",
+     "ugm_id": "r8525",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8525",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8557-can-we-find-the-height-of-a-tower-using-its-reflection.md",
+     "sha256": "457b890754878413132cbfcf931f832faaa937ceb93e4068d1b8cd699480d41d",
+     "ugm_id": "r8557",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8557",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8648-can-we-solve-cos-theta-sin-2-theta-cos-3-theta-sin-4-theta-0.md",
+     "sha256": "e0e35258884c8c75ccca16b453c197cfd8d3153b8029205b0e587aac4cb8c95d",
+     "ugm_id": "r8648",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8648",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8658-can-we-find-the-area-of-a-pedal-triangle.md",
+     "sha256": "c47654bbb3b5cdb329b51a51353922e7f55b60492e27e6eb968e9f03a948f0c8",
+     "ugm_id": "r8658",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8658",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8709-for-which-0-circ-theta-500-circ-is-3-cos-theta-4-sin-theta-2.md",
+     "sha256": "3905f3c33013e1f0ca3f5fd521b59c3576d66d3d692fd9a0e9cd324737ff922c",
+     "ugm_id": "r8709",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8709",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8713-when-is-sin-theta-sin-3-theta.md",
+     "sha256": "37d5981e40fc8c24524793aae8efc81e3c4e7ccde2770e69d0d6b045ad51cc47",
+     "ugm_id": "r8713",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8713",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.1",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r8923-can-we-show-this-polynomial-has-roots-1-cos-theta-and-sin-theta.md",
+     "sha256": "cca89f69bffce9809371d776d2aedd90cbc947a3941da32c6a7ed4fe51eb2658",
+     "ugm_id": "r8923",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8923",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9200-can-we-find-the-distance-of-the-tree-from-the-road.md",
+     "sha256": "d6968dd2e89a2d79a3324eba6b012fd1c075398ff61ec397215ddabe9946a9d4",
+     "ugm_id": "r9200",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9200",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9491-how-many-solutions-does-2-cos-2x-5-sin-x-4-have.md",
+     "sha256": "a28bdd443204357f5038391b991d077a695d2b6150c7c11700c5152ca8013069",
+     "ugm_id": "r9491",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9491",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9702-what-s-the-distance-from-a-point-to-a-line-in-the-x-text-y-plane.md",
+     "sha256": "dd4947fcf5d9af55d510015908ed769f4dda8de9fb625e474923140e74376bee",
+     "ugm_id": "r9702",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9702",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9740-if-sin-alpha-3-5-cos-beta-12-13-what-s-cos-alpha-beta.md",
+     "sha256": "fadbb3b3db21106a843ee388a156e5093713b9fddc90fe8cb6dc30e6fc3d4e76",
+     "ugm_id": "r9740",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9740",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9770-as-theta-varies-what-s-the-largest-this-ratio-of-areas-can-be.md",
+     "sha256": "a646e961a3e2bdbf42df81347da6dd96bf44bdea68a7ca5173a9718b2e3a5095",
+     "ugm_id": "r9770",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9770",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9782-why-is-cos-theta-cos-theta-2-pi-3-cos-theta-4-pi-3-0.md",
+     "sha256": "85f0f4374e13d95fd7621802d842450de8db89dfd580c20676fca41b7cc465bf",
+     "ugm_id": "r9782",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9782",
+     "resource_type_label": "Review question",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9817-when-is-sin-8-x-cos-6-x-equal-to-1.md",
+     "sha256": "70e5195a4ec5af9da286078ca75478993fb91a8df9cdccd3d2fddcbbf63823be",
+     "ugm_id": "r9817",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9817",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/r9837-how-many-solutions-does-7-sin-x-2-cos-2-x-5-have.md",
+     "sha256": "7b3f66f6edd88577fcb333df710d1613e33b486dce9dae081c5164b604f2ed73",
+     "ugm_id": "r9837",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9837",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "1.5.4",
+      "1.5.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/sine-ing-the-way-sine-ing-the-way.md",
+     "sha256": "bfbfc29fb7ae50776bfb6f699ffc16763f0c8ec9ca9acc467dc65bf4c20afd9a",
+     "ugm_id": "sine-ing-the-way",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/sine-ing-the-way",
+     "resource_type_label": "Scaffolded task",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/slices-of-pi-slices-of-pi.md",
+     "sha256": "1839fda8bfccdb44c87b86614e325bd639255780446894a9079c3263c92608da",
+     "ugm_id": "slices-of-pi",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi",
+     "resource_type_label": "Many ways problem",
+     "spec_points": [
+      "1.5.1",
+      "1.5.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/slices-of-pi-teacher-support-slices-of-pi-teacher-support.md",
+     "sha256": "159c474e557c0df7adc7408f143284c45b4d90448f4d01ddacde0fda88371591",
+     "ugm_id": "slices-of-pi-teacher-support",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi-teacher-support",
+     "resource_type_label": "Resource in action",
+     "spec_points": [
+      "1.5.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/t-for-tan-t-for-tan.md",
+     "sha256": "19fa9f7fa9e209db41a423711feabc48817097f28c0cf5d1a87a7e16c16f5c46",
+     "ugm_id": "t-for-tan",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan",
+     "resource_type_label": "Building blocks",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/the-great-circle-distance-the-great-circle-distance.md",
+     "sha256": "e9947242ace875ce22cfcb478032363265038fbf5b01bf7db630b29b1da7c02e",
+     "ugm_id": "the-great-circle-distance",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/the-great-circle-distance",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/the-longitude-problem-the-longitude-problem.md",
+     "sha256": "a8f9fcc0246200a742027f5732cf3568d74a6b7ce4aee9dc922b6cb8249fb88d",
+     "ugm_id": "the-longitude-problem",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/the-longitude-problem",
+     "resource_type_label": "Bigger picture",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/transformation-or-not-transformation-or-not.md",
+     "sha256": "f34763bf7c4b4ac7a8bc7b65e235bbdd9b135f01a41dda9aff4c722536946a96",
+     "ugm_id": "transformation-or-not",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/transformation-or-not",
+     "resource_type_label": "Investigation",
+     "spec_points": [],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/trig-countdown-trig-countdown.md",
+     "sha256": "9dd4b586c45bc336632a76ca988dca3360341bd17213d8d3ab52b8c054b39972",
+     "ugm_id": "trig-countdown",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/trig-countdown",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "1.5.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/trig-tables-teacher-support-trig-tables-teacher-support.md",
+     "sha256": "e42d755e7a711558266b78bd1a553eceeca9b4fb271cfe375500b6aec7ff5b72",
+     "ugm_id": "trig-tables-teacher-support",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables-teacher-support",
+     "resource_type_label": "Resource in action",
+     "spec_points": [
+      "1.5.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-1-trigonometry/trig-tables-trig-tables.md",
+     "sha256": "022cf10b76f9cf591f7b8869eac78e7053195f72d63fd91f3bc720d4cc4f5368",
+     "ugm_id": "trig-tables",
+     "title": "",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "1.5.2",
+      "1.5.1"
      ],
      "captured": "2026-10-22"
     }

@@ -6,7 +6,7 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** four lanes of record.
+**Status:** five lanes of record.
 
 - **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
   landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
@@ -35,10 +35,22 @@ preservation-grade snapshot of a stable source.
   uniqueness law keeps one text body per resource, so the circles strand's 14 alignments + 2
   non-overlaps are recorded as facts pointing at `pure-1-coordinate-geometry/` rather than
   duplicating bodies).
+- **Lane 5 — `pure-1-trigonometry/`** (77 resources — the **two-station lane**, task
+  **`T-UGM-IMPORT-5`**: the WHOLE substrate ships as text of record — 41 mapped (36
+  Triangles-to-Functions + 3 Compound-Angles + 2 cross-station strays r7912/r7184) + 36 recorded
+  non-overlaps imported unmapped). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-trigonometry.json` (task **`T-UGM-MODE1-5`**).
+  Cross-map of record: `cross-map-trigonometry.json` in `SyllabAI/syllabai-experimental`
+  (CIE 9709 P1 1.5 Trigonometry — five spine rows 1.5.1–1.5.5, no fold fragments; 299
+  corpus-sweep candidates resolved as 41 aligned (55 alignment rows) + 36 non-overlaps + 2
+  cross-lane fact joins (r9924/r8411 → 1.5.4 against lane-2 bodies, recorded with
+  `textOfRecordUnder` pointers) + 220 routed to recorded homes. Finding of record: UGM's
+  Trigonometry: Compound Angles station maps almost entirely to P3 2.3 (24 recorded
+  non-overlaps) — the 2019 CIE revision moved compound/double-angle work out of Pure 1).
 
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
-the text bodies. `MANIFEST.json` is **v4 (multi-lane)** — one block per lane;
-lane-1/2/3 rows carried forward untouched from v3.
+the text bodies. `MANIFEST.json` is **v5 (multi-lane)** — one block per lane;
+lane-1/2/3/4 rows carried forward untouched from v4.
 
 ## Rights and licensing authority
 
@@ -152,4 +164,12 @@ directory carries only resources whose text is not already of record in another 
 strand's cross-lane mappings live as facts in the sibling `UGM-Enrichment/` file with
 `textOfRecordUnder` pointers. Station provenance stays first-class: every file's front-matter
 records its UGM station regardless of which lane directory holds it.
+
+A **two-station lane** (lane 5, CIE 1.5 Trigonometry) binds one lane to TWO UGM stations
+(Trigonometry: Triangles to Functions + Trigonometry: Compound Angles, lanes 1–3 shape), plus
+cross-station strays whose tested skill is the lane's spec points (r7912 from Introducing
+Calculus, r7184 from Exponentials & Logarithms — station provenance stays first-class in
+front-matter). A station may also map mostly OUTSIDE its lane's spine subtopic: the
+compound-angles station's 24 non-overlaps are recorded with their P3 2.3 homes rather than
+forced into 1.5.x.
 
