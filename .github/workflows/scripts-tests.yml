@@ -36,6 +36,8 @@ jobs:
         run: python3 scripts/c12_promote.py check
       - name: c12 demo decisions still pass the check gate (positive control)
         run: python3 scripts/c12_spec_tagger.py check scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+      - name: sme speech transpile battery (T-RULE-T3-SUBSTRATE-1 pinned port-equivalence vs the of-record v2 ladder)
+        run: python3 scripts/sme_speech_transpile_test.py
 
   official-export-gates:
     runs-on: ubuntu-latest

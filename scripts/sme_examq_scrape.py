@@ -36,6 +36,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from sme_speech_transpile import transpile_alt  # T-RULE-T3-SUBSTRATE-1
+
 BASE = "https://www.savemyexams.com"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
@@ -286,8 +288,20 @@ def render_inline(nodes, ctx) -> str:
                 ctx.setdefault("equations", []).append({"latex": latex, "mathml": mathml,
                                                         "alt": attrs.get("alt")})
             else:
+                # alt-ONLY Wiris node — transpile the speech alt through the
+                # of-record ladder (T-RULE-T3-SUBSTRATE-1; run-001 residual
+                # "substrate-side harvest fix = render_inline transpile at
+                # resources"). Fail-closed: no confident conversion -> the
+                # legacy backticked speech verbatim (never garbage math).
                 alt = attrs.get("alt") or "equation"
-                out.append(f"`{alt}`")
+                tex = transpile_alt(alt)
+                if tex:
+                    out.append(tex)
+                    ctx.setdefault("equations", []).append(
+                        {"latex": None, "mathml": None, "alt": alt,
+                         "render": tex, "via": "alt-transpile"})
+                else:
+                    out.append(f"`{alt}`")
         elif t == "image":  # inline image variant (defensive)
             src, name = ctx.get("asset_fn", lambda *_: (None, None))(n.get("attrs") or {})
             if name:
