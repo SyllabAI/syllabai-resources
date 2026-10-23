@@ -43,7 +43,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.14.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.14.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -1403,7 +1403,12 @@ def main():
     mcq_key_overrides = {}
     if mcq_keys_path.exists():
         for e in json.loads(mcq_keys_path.read_text()).get("entries", []):
-            mcq_key_overrides[(e["series"], e["part"])] = e
+            # wave-22: paper-scoped keys. The F37 entries predate the 2C/2CR
+            # papers and carry no paper field — they stay series-scoped (paper
+            # None matches any paper, and 7(a)(i)-(iii) exist only in 1C). New
+            # entries SHOULD carry "paper" so same-part MCQs across 1C/2C/1CR/2CR
+            # cannot cross-contaminate.
+            mcq_key_overrides[(e["series"], e.get("paper"), e["part"])] = e
     mcq_keys_applied = []
     # v0.11 (F47): manual MS-linkage ledger — the same human-adjudication
     # doctrine as MCQ-KEYS.json, for STRUCTURED parts whose printed MS answer
@@ -1453,11 +1458,14 @@ def main():
                                    for m in [re.search(r"\s(\d{1,2})\s*$", ln)] if m}
                     if p["marks"] in trail_marks:
                         lines = cand
-            mk = mcq_key_overrides.get((series, p["part_number"]))
+            mk = (mcq_key_overrides.get((series, paper, p["part_number"]))
+                  or mcq_key_overrides.get((series, None, p["part_number"])))
             if mk and p["question_type"] == "multiple_choice":
                 lines = list(mk["ms_lines"])
                 p["answer_key_source"] = "mcq-keys-ledger"
-                mcq_keys_applied.append(f"{series}/{p['part_number']}")
+                # wave-22: paper-scoped application marker (the 1C-era reports
+                # carry the legacy series-only form; the C31 checker accepts both)
+                mcq_keys_applied.append(f"{series}:{paper}/{p['part_number']}")
             mlo = ms_link_overrides.get((series, paper, p["part_number"]))
             if mlo and p["question_type"] != "multiple_choice" and not lines:
                 lines = list(mlo["ms_lines"])

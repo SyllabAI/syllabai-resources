@@ -558,6 +558,58 @@ The kit was run from a clean checkout of `main` as shipped:
   an empty staging dir (cold start: bootstrap → fetch 32 PDFs → gates → canaries).
 - No extraction behaviour changed: identical question/part/mark/key output.
 
+## 0.14.1 — 2026-10-24 · wave-22: enrichment tranche 2 — the corpus completes
+
+The solution-enrichment corpus is COMPLETE: every solution-bearing part of the 54
+official sets (1C+2C x16 series, 1CR+2CR x11 R-series) carries an authored,
+verifier-clean SME-style worked answer. SOLUTION-ENRICH.json 1,275 -> 2,607 entries;
+C71 floor raised to 2607.
+
+- **Tranche 2 authoring (F62)**: 1,332 parts authored (the 1,115 unauthored + the 217
+  repair-flagged tranche-1 drafts, re-authored from evidence — the withheld drafts'
+  ephemeral staging did not survive the wave-21 session, and the committed harness is
+  the stronger gate). Authoring ran in 32 question-grouped slices under the F60
+  harness as the per-slice gate; corpus-wide re-verification over the FULL 2,607-entry
+  ledger: 0 problems.
+- **Tranche-1 repairs (30 latent defects)**: re-running the amended harness over the
+  whole ledger surfaced 30 tranche-1 problems that predate the committed verifier's
+  current rules (wave-20's 124 entries predate V6/V3 in their committed form; the
+  wave-21 run never re-verified its base). Fixed in this wave: 6 MCQ entries gained
+  the V6 why-wrong coverage for every non-keyed option (2019-06 1C 1-b-i/1-c/6-a,
+  2020-01 1C 7-a-i/ii/iii), 1 process-language leak cleared, 2 mark-point coverage
+  gaps closed (3-a/4-a), 2 entries' unshown intermediates re-chained (2020-01 1C 2-b,
+  2021-01 2CR 6-c-iii).
+- **Harness of record (F-W22-1..5)**: mark-point furniture/artifact strips before
+  coverage (MS-table totals, Notes/Marks/Answer headers, the invisible "cler"
+  PDF-layer fragment — verified blank on the rendered page); the symbol/label
+  coverage routes now search original-cased text (they were dead on arrival —
+  case-sensitive patterns against lowercased text, which is why pure-label mark
+  points like "U"/"Br"/displayed grids could never pass and concentrated in the
+  217 withheld drafts); "Any N from" enumeration headers fall through to the
+  post-guidance content; the numeric tokeniser keeps 4+-digit decimals whole
+  ("1.7255" no longer splits to "1.725"+"5" — the thousands-group ate ".725" on
+  BOTH sides) and reads evidence numbers from an M-label-stripped evidence copy
+  ("M2 1275" bridged to "2 127"+"5"); marker jargon ECF/ORA/ALLOW/IGNORE/ACCEPT
+  matches uppercase-only (ordinary prose "ignore" is not a leak).
+- **MCQ re-key (F37 doctrine, paper-scoped)**: 2020-01 2CR 1(b)(i) — the printed MS
+  answer row reads "C number of protons" while the narrative says "The only correct
+  answer is B ... proton number" AND "B is not correct ... neutrons" (self-
+  contradictory; B's reason is C's content). QP options + chemistry of record: C.
+  MCQ-KEYS.json gains the adjudication with a NEW "paper" field; the converter's
+  override lookup is paper-scoped (legacy entries stay series-scoped — 7(a)(i)-(iii)
+  exist only in 1C) and validation reports record paper-scoped application markers;
+  C31 checks both forms. The export verify harness learns the new delta class —
+  "choices" joins DISCLOSED_DELTA_CLASSES (the re-key is the first wave ever to
+  change a keyed choice; anything outside the disclosed set still refuses).
+  2020-01 2CR outputs regenerated through the converter of
+  record (all gates PASS, review queue 0; parity: exactly 1(b)(i) changed).
+- **Corpus effect**: serving delta = solutionMd on 1,341 parts (1,332 tranche-2 +
+  9 tranche-1 repairs) + the 1(b)(i) choices/markPoints re-key, G-E1-matched against
+  the filed disclosure (scripts/exporter-disclosures/2026-10-24-wave22-solution-
+  enrichment.json); extraction fields byte-identical everywhere else.
+- **Canaries**: all 69 hold (C71 min_entries 2607 with the completed-corpus
+  assertion; C31 paper-aware both directions).
+
 ## 0.14.1 — 2026-10-23 · wave-21 solution enrichment tranche 1 (no converter change)
 
 - CONVERTER UNCHANGED (0.14.0): the wave is ledger + serving only — every topic.json is
