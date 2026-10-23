@@ -12,13 +12,13 @@ authored: true
 Lesson u1:c03 built the counting recipe from the definitions of atomic
 number and mass number; this section connects it to the chart itself,
 because **most Periodic Tables have two numbers against each symbol**.
-The book gives you the reading rule: **the atomic number will always be
-the smaller number**. The other number will either be the **mass number
+The reading rule: **the atomic number will always be the smaller
+number**. The other number will either be the **mass number
 of the most common isotope** of the element or the **relative atomic
 mass** of the element — and the table you are using tells you which.
 
-From there the recipe is the one you already know, restated by the book
-in its table-reading form:
+From there the recipe is the one you already know, restated in its
+table-reading form:
 
 - the number of **protons** in an atom is equal to the **atomic number**;
 - the number of **electrons** in an atom is equal to the number of
@@ -50,14 +50,14 @@ most common isotope when the table supplies Aᵣ instead.
 
 :::exam-hint
 If a Periodic Table offers you two numbers, never guess which is which:
-**the atomic number is always the smaller one**. The book makes the same
-point when it walks through chlorine in §s04 — pick the wrong number and
+**the atomic number is always the smaller one** — the same point
+§s04's chlorine walk-through makes. Pick the wrong number and
 every count that follows (protons, electrons, neutrons) is wrong.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.18 × 2 items — reading the
-two numbers off a Periodic Table cell; the three-line counting recipe
-from the smaller/larger numbers. Book p. 36 chapter questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.18 × 2 items — reading the two numbers off a
+Periodic Table cell; the three-line counting recipe from the smaller/larger
+numbers.
 :::

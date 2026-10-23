@@ -9,8 +9,8 @@ glossary: []
 authored: true
 ---
 
-The book's Figure 4.7 lays out the **electronic configurations of the
-first 20 elements** in the Periodic Table — hydrogen and helium filling
+The **electronic configurations of the first 20 elements** in the
+Periodic Table lay out a pattern — hydrogen and helium filling
 the first shell, lithium to neon filling the second (2,1 up to 2,8), and
 sodium to argon filling the third in exactly the same pattern (2,8,1 up
 to 2,8,8). The figure's caption ends with the phrase "10 more elements":
@@ -23,11 +23,11 @@ in the Periodic Table — atomic number from the table, then fill shells
 2, 8, 8, then the fourth. The figure is worth internalising rather than
 memorising: the pattern *is* the table, one electron at a time.
 
-Two honest boundaries, both stated by the book. First, the simple
+Two honest boundaries. First, the simple
 filling pattern works only up to calcium: "working out what is in their
 inner shells is much more difficult — the simple patterns we have
 described don't work beyond calcium" (that is why this spec stops at 20).
-Second, the book's extension note reveals the real machinery — the third
+Second, the real machinery (an extension insight): the third
 shell can actually hold up to 18 electrons, and 2 electrons go into the
 fourth shell *before* the third is complete because the 4s subshell sits
 lower in energy than the 3d. You do not need subshells at this level;
@@ -58,8 +58,8 @@ commas exactly; a string like "281" is ambiguous and can lose the mark.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.19 × 3 items — deduce
-configurations across the first 20 (H→He, Li→Ne, Na→Ar, K, Ca); the
-"pattern stops at calcium" boundary. Book p. 36 chapter questions → page
-jump only (licensing law).
+
+Question-bank join: spec 1.19 × 3 items — deduce configurations across the
+first 20 (H→He, Li→Ne, Na→Ar, K, Ca); the "pattern stops at calcium"
+boundary.
 :::

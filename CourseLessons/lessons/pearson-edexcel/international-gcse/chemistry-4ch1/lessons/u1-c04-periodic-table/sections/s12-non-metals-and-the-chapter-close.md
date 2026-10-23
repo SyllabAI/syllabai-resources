@@ -9,14 +9,13 @@ glossary: []
 authored: true
 ---
 
-The mirror list, again with the book's hedges intact. Non-metals:
+The mirror list, again with the hedges intact. Non-metals:
 
 - **tend to have low melting and boiling points** (there are some
   exceptions — e.g. **carbon and silicon**);
 - **tend to be brittle when they are solids**;
-- **don't have the same type of shine as metals** (the book's Figure 4.12
-  shows shiny sulfur crystals that you still would not mistake for a
-  metal);
+- **don't have the same type of shine as metals** (shiny sulfur crystals
+  are still not a metal);
 - **don't usually conduct electricity** — carbon in the form of
   **graphite** and silicon are again the exceptions;
 - **are poor conductors of heat** — with a spectacular exception:
@@ -26,11 +25,10 @@ The mirror list, again with the book's hedges intact. Non-metals:
 
 That closes the chapter's classification story: position gives the
 default (§s09), conductivity and oxide character give the test (§s10),
-and the property lists give the texture (§s11–s12). The book signs off
-with its end-of-chapter question set (pp. 36–37: naming elements from a
-list by group, period and class, and drawing electron diagrams for
-sodium, silicon and sulfur) — those stay in the book, page-jump only;
-this lesson's practice is wired to the question bank below.
+and the property lists give the texture (§s11–s12). The closing skills
+to self-check: naming elements from a list by group, period and class,
+and drawing electron diagrams for sodium, silicon and sulfur. This
+lesson's practice is wired to the question bank below.
 
 :::summary
 - The Periodic Table arranges all the elements **in order of atomic
@@ -76,25 +74,21 @@ this lesson's practice is wired to the question bank below.
 
 :::misconception
 "Shiny means metal — sulfur crystals are shiny, so sulfur is a metal."
-The book shows the counterexample on purpose: lustre alone is not the
-classifier. Sulfur is brittle, does not conduct, and forms an acidic
+The counterexample is on purpose: lustre alone is not the classifier. Sulfur is brittle, does not conduct, and forms an acidic
 oxide — three non-metal verdicts against one borrowed shine. Use the two
 spec tests (conductivity, oxide character) over any single property.
 :::
 
 :::exam-hint
-The end-of-chapter questions send you to the Periodic Table in
-**Appendix A, page 320** — in the exam, the supplied Periodic Table is
-your Appendix A. And for "state the property" questions, quote the
-book's hedges: *tend to*, *generally*, *usually* — the exceptions
+In the exam, the supplied Periodic Table is your reference card. And
+for "state the property" questions, quote the hedges: *tend to*,
+*generally*, *usually* — the exceptions
 (mercury, graphite, diamond's heat conduction) are exactly what separates
 a list from a law.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.20/1.21 × 2 items — the
-non-metals property list with named exceptions; negative-ion tendency as
-the Chapter 7 preview. Book pp. 36–37 chapter questions (Q1–Q2: element
-list by group/period/class; electron diagrams for sodium, silicon,
-sulfur) → page jump only (licensing law).
+
+Question-bank join: spec 1.20/1.21 × 2 items — the non-metals property list
+with named exceptions; negative-ion tendency as the Chapter 7 preview.
 :::

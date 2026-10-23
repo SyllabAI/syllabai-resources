@@ -11,15 +11,15 @@ authored: true
 
 Split the Periodic Table roughly down the middle and you have the oldest
 classification in chemistry: **the metals are on the left-hand side and
-the non-metals are on the right-hand side**. The book's Figure 4.9 draws
-the division clearly — but the very next sentence is the honest one: *in
-practice there is a lot of uncertainty on the dividing line*, and
-**arsenic (As)** is the book's example of an element with properties of
-both metals and non-metals. Position gives you the default answer
+the non-metals are on the right-hand side** — but the honest sentence
+comes straight after: *in practice there is a lot of uncertainty on the
+dividing line*, and
+**arsenic (As)** is the classic example of an element with properties
+of both metals and non-metals. Position gives you the default answer
 (spec 1.21); the two property tests of §s10 give you the deciding answer
 when the position is borderline (spec 1.20).
 
-Two footnotes from the margins of Figure 4.9, both worth knowing. First,
+Two footnotes, both worth knowing. First,
 the **lanthanoids and actinoids** — the two detached rows at the bottom
 of the table — belong to the metal side; most of the actinoids are
 unstable and undergo radioactive decay, as §s02 noted. Second, the book
@@ -29,9 +29,8 @@ shell, and it sits at the top of Group 1's column on almost every chart
 have similar properties to the other elements in Group 1: it is not a
 metal and does not have similar chemical properties to the alkali
 metals". Hydrogen is a non-metal that happens to be drawn on the wrong
-side of the line for convenience. (The book's extension note invites the
-curious to search "metallic hydrogen" — planetary-core territory, and
-not exam material.)
+side of the line for convenience. (The curious can search "metallic
+hydrogen" — planetary-core territory, and not exam material.)
 
 :::key-point
 Metals: left-hand side. Non-metals: right-hand side. The dividing line
@@ -60,7 +59,7 @@ routes and when each is trustworthy.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.21 × 3 items — left/right
-split; hydrogen's misfit; arsenic as the borderline case. Book p. 36
-chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.21 × 3 items — left/right split; hydrogen's
+misfit; arsenic as the borderline case.
 :::

@@ -10,29 +10,28 @@ authored: true
 ---
 
 The search for patterns in chemistry during the 19th century resulted in
-the modern Periodic Table, and the book states the ordering rule in one
-line: the elements are arranged **in order of atomic number** — the
+the modern Periodic Table, and the ordering rule fits in one line: the
+elements are arranged **in order of atomic number** — the
 number of protons in the nuclei of the atoms. That single rule is what
 makes the table's patterns work, and it is the first half of spec 1.18.
 
 The **vertical columns** are called **[[group]]s**. The first seven
 groups are numbered from **1 to 7** and the final group is numbered
-**0**. The elements shown in orange in the book's Figure 4.1 are the
-**[[transition-metal]]s** (transition elements), and at this level they
+**0**. The **[[transition-metal]]s** (transition elements) form the middle
+block, and at this level they
 are *not* usually included in the numbering of the groups. Some groups
 have names you must know: **Group 1 is the [[alkali-metal]]s**, **Group 7
 is the [[halogen]]s**, and **Group 0 is the [[noble-gas]]es**.
 
-The **horizontal rows** are called **[[period]]s**, and the book flags
-one detail that catches people out: **hydrogen and helium make up Period
+The **horizontal rows** are called **[[period]]s**, and one detail
+catches people out: **hydrogen and helium make up Period
 1** — Period 1 has only two elements. The lanthanoids and actinoids are
 usually dropped out of their proper places and written separately at the
 bottom of the table. There is a good reason: if you put them where they
-belong (the book's Figure 4.2, "the real shape of the Periodic Table"),
-everything has to be drawn slightly smaller to fit on the page, which
-makes the table harder to read. The book's REMINDER points at **Appendix
-A** for a larger version of the table with atomic numbers — you will need
-it throughout the course.
+belong, everything has to be drawn slightly smaller to fit on the page,
+which makes the table harder to read. For a larger version of the table
+with atomic numbers, use the Periodic Table printed in your exam paper —
+you will need it throughout the course.
 
 :::did-you-know
 You will sometimes see Group 0 labelled as Group 8. In more advanced
@@ -68,10 +67,9 @@ is ordered by atomic number.
 :::misconception
 "Group 8 is the last group because it is the eighth column." At this
 level the last group is **Group 0**, not Group 8 — the numbering runs
-1–7 then 0, skipping the transition metals in the middle. (The book's
-extension note explains that full tables number the groups 1–18 once the
-transition block is counted; that numbering is *not* the International
-GCSE convention.)
+1–7 then 0, skipping the transition metals in the middle. (Full tables
+number the groups 1–18 once the transition block is counted; that
+numbering is *not* the International GCSE convention.)
 :::
 
 :::exam-hint
@@ -82,8 +80,8 @@ but do not call Group 0 "Group 8"; the mark scheme at this level says 0.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.18 × 3 items — atomic
-number as the ordering rule; groups as columns / periods as rows; the
-named groups (1, 7, 0) and the two-element Period 1. Book p. 36 chapter
-questions → page jump only (licensing law).
+
+Question-bank join: spec 1.18 × 3 items — atomic number as the ordering
+rule; groups as columns / periods as rows; the named groups (1, 7, 0) and
+the two-element Period 1.
 :::

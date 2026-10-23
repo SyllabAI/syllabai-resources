@@ -16,8 +16,7 @@ electron-counting picture explains the group at a glance: the elements of
 Group 0 have **8 electrons in their outer shell** (apart from helium,
 which has **2**) — and either way, the outer shell is **full**.
 
-That fullness is the whole explanation, and the book states it as the
-exam answer: the lack of reactivity of the noble gases is associated with
+That fullness is the whole explanation, stated as the exam answer: the lack of reactivity of the noble gases is associated with
 their electronic configurations — **the outer shell is full, and so there
 is no tendency to lose, gain or share electrons in a chemical reaction**.
 Every reaction you will meet in Chapters 7 and 8 happens because an atom
@@ -25,7 +24,7 @@ is chasing a full outer shell (losing, gaining or sharing electrons to
 get there). The noble gases start with the prize; they have nothing to
 chase.
 
-The book's extension note adds a delightful honesty box for the curious:
+An extension honesty box for the curious:
 in reality the outer shells of argon, krypton, xenon and radon are *not*
 full — only helium and neon have truly full outer shells, because the
 third shell can hold up to 18 electrons and the fourth up to 32. That is
@@ -59,8 +58,7 @@ first shell.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.24 × 2 items — the
-full-outer-shell explanation; helium's 2 as the exception that still
-satisfies the rule. Book p. 36 chapter questions → page jump only
-(licensing law).
+
+Question-bank join: spec 1.24 × 2 items — the full-outer-shell explanation;
+helium's 2 as the exception that still satisfies the rule.
 :::

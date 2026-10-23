@@ -9,23 +9,22 @@ glossary: [outer-shell]
 authored: true
 ---
 
-The book now states the two facts that turn the Periodic Table into a
-shortcut for electronic configurations, and they are worth quoting
-exactly:
+Two facts turn the Periodic Table into a shortcut for electronic
+configurations, and they are worth quoting exactly:
 
 - **Elements in the same group in the Periodic Table have the same
   number of electrons in their [[outer-shell]].**
 - **The number of electrons in the outer shell is the same as the group
   number, for Groups 1 to 7.**
 
-The book then shows the shortcut in action with three elements you will
-never need a diagram for again: barium sits in **Group 2**, so it has
+The shortcut in action, with three elements you will never need a diagram
+for again: barium sits in **Group 2**, so it has
 **2 electrons in its outer shell** — the same as every other Group 2
 element; **iodine** (Group 7) has **7** outer-shell electrons;
 **lead** (Group 4) has **4**. One look at the column, one answer — no
-shell-filling required. (The book adds the boundary honestly: working
-out what is in the *inner* shells is much more difficult, because the
-simple patterns do not work beyond calcium.)
+shell-filling required. (The boundary, honestly: working out what is in
+the *inner* shells is much more difficult, because the simple patterns do
+not work beyond calcium.)
 
 Notice what the first fact really says: a group is a column of atoms
 whose outer shells match. That is why group membership — not mass, not
@@ -62,8 +61,7 @@ iodine wastes time and invites arithmetic slips.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.22 × 3 items — outer
-electrons = group number (Groups 1–7) for barium, iodine, lead; same
-group ⇒ same outer count. Book p. 36 chapter questions → page jump only
-(licensing law).
+
+Question-bank join: spec 1.22 × 3 items — outer electrons = group number
+(Groups 1–7) for barium, iodine, lead; same group ⇒ same outer count.
 :::
