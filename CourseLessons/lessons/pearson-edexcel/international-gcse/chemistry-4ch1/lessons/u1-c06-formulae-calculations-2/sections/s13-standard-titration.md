@@ -8,7 +8,7 @@ blocks: []
 glossary: [titration, concentration]
 ---
 
-Here is the shape the book calls *a standard titration problem* — learn this
+Here is the shape of *a standard titration problem* — learn this
 layout and nearly every titration question in the paper is a re-skin:
 
 *25.00 cm³ of 0.100 mol/dm³ sodium hydroxide solution required 23.50 cm³ of
@@ -29,8 +29,8 @@ was in the 23.50 cm³ the titration measured out — so the acid's
 concentration = moles ÷ volume in dm³ = 0.00250 ÷ (23.50 ÷ 1000) =
 **0.106 mol/dm³**.
 
-The book's own closing line for this example is the checkpoint: *we have the
-volume and number of moles of HCl and can work out the concentration*. Stage
+The closing line for this example is the checkpoint: *we have the volume
+and number of moles of HCl and can work out the concentration*. Stage
 3 in a titration is always the concentration rearrangement — moles ÷ (volume
 ÷ 1000) — rather than a mass conversion, which is the only structural
 difference from s11's limescale problem.
@@ -56,7 +56,7 @@ volume.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C items — the standard
-1 : 1 titration concentration calculation with cm³ → dm³ conversions. Book
-p. 74 question 16 → page jump only (licensing law).
+
+Question-bank join: spec 1.34C items — the standard 1 : 1 titration
+concentration calculation with cm³ → dm³ conversions.
 :::

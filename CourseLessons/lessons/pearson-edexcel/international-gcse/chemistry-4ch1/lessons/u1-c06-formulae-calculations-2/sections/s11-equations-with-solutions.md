@@ -9,8 +9,8 @@ glossary: [concentration]
 ---
 
 Now the two halves of the chapter merge: solution arithmetic feeding the
-three-stage method through a balanced equation. The book's context is
-domestic chemistry — limescale (calcium carbonate) removed from kettles by a
+three-stage method through a balanced equation. The context is domestic
+chemistry — limescale (calcium carbonate) removed from kettles by a
 dilute acid, such as the ethanoic acid in vinegar:
 
 CaCO₃(s) + 2CH₃COOH(aq) → (CH₃COO)₂Ca(aq) + CO₂(g) + H₂O(l)
@@ -33,7 +33,7 @@ mass = 0.05 × 100 = **5 g** of calcium carbonate removed.
 
 This is the same skeleton as the hydrogen problem (s06) and the CaCO₃
 problem (s05) — only the stage-1 conversion changes, from molar volume to
-volume × concentration. The book's "again, we will use our three stages" is
+volume × concentration. "Again, we will use our three stages" is
 deliberate: by now the method, not the chemistry, is the transferable skill.
 
 :::exam-hint
@@ -55,7 +55,7 @@ concentration; keep stage 1 (how many moles of *this* solution) and stage 2
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C items — three-stage
-problems where a solution's volume × concentration opens the chain. Book
-p. 74 questions 11–13 → page jump only (licensing law).
+
+Question-bank join: spec 1.34C items — three-stage problems where a
+solution's volume × concentration opens the chain.
 :::

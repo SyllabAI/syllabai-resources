@@ -8,23 +8,23 @@ blocks: []
 glossary: [molar-volume, rtp, excess, molarity]
 ---
 
-Avogadro's law has one consequence the book calls the most important in the
-whole chapter: since 1 mole of any gas contains the same number of molecules
+Avogadro's law has one consequence that is the most important in the whole
+chapter: since 1 mole of any gas contains the same number of molecules
 as 1 mole of any other gas, it must occupy **the same volume**. At room
 temperature and pressure ([[rtp]] — usually 20–25 °C and 1 atmosphere) that
 volume is approximately **24 dm³, or 24 000 cm³**. This is the
 **[[molar-volume]]**. It belongs to the conditions, not to the gas: 1 mole of
 hydrogen, 1 mole of chlorine, 1 mole of carbon dioxide — 24 dm³ each at rtp.
-(Extension work from the book: strictly the molar volume has units of
-dm³/mol — a unit you are unlikely to meet at International GCSE.)
+(Extension: strictly the molar volume has units of dm³/mol — a unit you
+are unlikely to meet at International GCSE.)
 
-The book's triangles (Figures 6.4 and 6.5) convert between volume and moles
-the same way the Chapter-5 mass triangle does:
+Two triangles convert between volume and moles the same way the Chapter-5
+mass triangle does:
 
 - **volume = number of moles × molar volume**
 - **number of moles = volume of gas ÷ molar volume**
 
-Worked straight from the book: the volume of 0.20 mol of CO₂ at rtp is
+Worked straight through: the volume of 0.20 mol of CO₂ at rtp is
 0.20 × 24 = **4.8 dm³** (using 24 because the answer is wanted in dm³). Going
 the other way, 0.01 g of hydrogen (Aᵣ: H = 1) is 0.01 ÷ 2 = 0.005 mol, which
 occupies 0.005 × 24 000 = **120 cm³** — using 24 000 because the question
@@ -32,7 +32,7 @@ asks for cm³. And 120 cm³ of carbon dioxide is 120 ÷ 24 000 = **0.005 mol**.
 Same triangle every time; the only decision is which size of the molar
 volume to substitute.
 
-The book then runs the full three-stage method — *calculate the moles of
+Now run the full three-stage method — *calculate the moles of
 what you can, use the equation to deduce the moles of what you want, convert
 to the quantity asked* — on a gas-volume version of the Chapter-5 reacting-mass
 problem: **what volume of CO₂ forms when excess dilute hydrochloric acid is
@@ -43,19 +43,19 @@ CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + CO₂(g) + H₂O(l). The acid is in
 so the CaCO₃ sets the yield. Mᵣ of CaCO₃ = 40 + 12 + (3 × 16) = 100, so
 1.00 g is 1.00 ÷ 100 = 0.0100 mol. The equation says 1 mol CaCO₃ produces
 1 mol CO₂, so 0.0100 mol of CO₂ forms; converting with the molar volume in
-dm³ gives 0.0100 × 24 = **0.24 dm³**. The book's closing warning is the
+dm³ gives 0.0100 × 24 = **0.24 dm³**. The closing warning is the
 exam-hint below.
 
 :::key-point
 1 mole of any gas occupies 24 dm³ (24 000 cm³) at rtp — the same for every
-gas (chunks 0266, 0271). The unit law from chunk 0277: volume given in cm³ →
-use 24 000 cm³; volume given in dm³ → use 24 dm³.
+gas. The unit law: volume given in cm³ → use 24 000 cm³; volume given in
+dm³ → use 24 dm³.
 :::
 
 :::exam-hint
 "It is really important to include the units here because the examiner will
-not know whether you mean cm³ or dm³ unless you write it down" — the book's
-own sentence about the 0.0100 × 24 = 0.24 dm³ answer. Quote the unit with
+not know whether you mean cm³ or dm³ unless you write it down" — the
+whole point for the 0.0100 × 24 = 0.24 dm³ answer. Quote the unit with
 every intermediate and final volume, and match the constant to the unit
 before you multiply, not after.
 :::
@@ -71,7 +71,7 @@ use the value the question pins (every 4CH1 question at rtp gives or implies
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.35C items — moles ↔ volume
-conversions via 24 dm³ / 24 000 cm³, and three-stage gas-volume problems with
-an excess reagent. Book p. 72 questions 1–5 → page jump only (licensing law).
+
+Question-bank join: spec 1.35C items — moles ↔ volume conversions via 24 dm³
+/ 24 000 cm³, and three-stage gas-volume problems with an excess reagent.
 :::

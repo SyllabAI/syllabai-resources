@@ -16,8 +16,8 @@ neutralise 20.0 cm³ of 0.125 mol/dm³ hydrochloric acid (HCl).*
 NaHCO₃(aq) + HCl(aq) → NaCl(aq) + CO₂(g) + H₂O(l)
 
 **Stage 1.** Only the acid is fully known: moles of HCl = (20.0 ÷ 1000) ×
-0.125 = **0.00250 mol** (the book: *we do not have enough information to
-calculate the number of moles of anything else, so must start here*).
+0.125 = **0.00250 mol** — *we do not have enough information to calculate the
+number of moles of anything else, so must start here*.
 
 **Stage 2.** The equation is 1 : 1, so the same **0.00250 mol** of NaHCO₃ is
 needed.
@@ -28,11 +28,10 @@ concentration equation: volume = moles ÷ concentration = 0.00250 ÷ 0.100 =
 mol/dm³), then × 1000 for the answer the question wants: **25.0 cm³** of
 sodium hydrogencarbonate solution.
 
-The chapter closes on the book's end-of-chapter question bank (pp. 72–74):
-sixteen questions spanning every skill this Lesson built — gas volumes at
-rtp (including the potassium nitrate and chlorine preparation problems),
+The chapter closes with a self-check of everything it built — gas volumes
+at rtp (including potassium nitrate and chlorine preparation problems),
 g/dm³ ↔ mol/dm³ conversions, mass-from-concentration problems, and a full
-titration set. Those questions live in the student book, not here.
+titration set. This lesson's practice is wired to the question bank below.
 
 :::summary
 In one page: **gases** — Avogadro's law says equal volumes (same temperature
@@ -74,9 +73,8 @@ three-stage method you brought from part 1.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C and 1.35C items across the
-whole chapter — the mixed set the book's question bank (pp. 72–74) also
-spans; those stay page-jump-only (licensing law). Past-paper anchor: the
+Question-bank join: spec 1.34C and 1.35C items across the
+whole chapter. Past-paper anchor: the
 standard titration calculation and the rtp molar-volume calculation are the
 two recurring Paper-2 question archetypes of this chapter.
 :::

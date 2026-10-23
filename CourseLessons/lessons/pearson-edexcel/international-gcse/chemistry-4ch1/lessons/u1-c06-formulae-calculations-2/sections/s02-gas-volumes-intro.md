@@ -8,9 +8,9 @@ blocks: []
 glossary: null
 ---
 
-The gas-volume half of the chapter opens with one of the most striking ideas
-in the course: Figure 6.2 shows three identical flasks holding **different
-gases** at the same temperature and pressure — and all three contain **equal
+The gas-volume half of the chapter opens with one of the most striking
+ideas in the course: picture three identical flasks holding **different
+gases** at the same temperature and pressure — all three contain **equal
 numbers of molecules**. Not similar numbers: equal. The identity of the gas
 and the size of its molecules simply do not matter.
 
@@ -25,8 +25,7 @@ equations.
 :::exam-hint
 When a question gives you volumes of gases and a balanced equation, the
 volumes are already "in moles" at the same ratio — do **not** convert them to
-masses first. The book's methane example on the next section walks the full
-reasoning: 100 cm³ of methane needs exactly 200 cm³ of oxygen and yields
+masses first. The next section's methane example walks the full reasoning: 100 cm³ of methane needs exactly 200 cm³ of oxygen and yields
 exactly 100 cm³ of carbon dioxide, because the big numbers say 1 : 2 : 1.
 :::
 
@@ -40,8 +39,8 @@ molecules identically. Equal volumes → equal molecule counts, every time.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.35C items — equal volumes at
-the same temperature and pressure containing equal numbers of molecules, and
-reading reacting volumes straight from a balanced equation. Book p. 72
-questions 1–5 → page jump only (licensing law).
+
+Question-bank join: spec 1.35C items — equal volumes at the same temperature
+and pressure containing equal numbers of molecules, and reading reacting
+volumes straight from a balanced equation.
 :::

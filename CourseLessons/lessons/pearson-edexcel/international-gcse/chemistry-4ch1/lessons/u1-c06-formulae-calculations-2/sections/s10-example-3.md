@@ -8,8 +8,8 @@ blocks: []
 glossary: [concentration]
 ---
 
-Example 3 is the HINT's equation in action — the single most reusable line of
-the solutions half. *Calculate the number of moles of NaOH in 50 cm³ of
+Example 3 is that most-used equation in action — the single most reusable
+line of the solutions half. *Calculate the number of moles of NaOH in 50 cm³ of
 0.10 mol/dm³ solution.*
 
 1. Convert the volume: 50 ÷ 1000 = **0.050 dm³**.
@@ -21,15 +21,15 @@ That three-line shape — ÷1000, then × concentration — is the standard open
 of every solution calculation from here to the end of the course: titrations
 (s12–s14), the limescale problem (s11), and later units' acid-base work all
 start by converting "V cm³ of c mol/dm³" into a mole count this way. Note
-the book keeps the trailing zeros (0.050, 0.0050): they are significant
-figures, and preserving them keeps the working honest about precision.
+the trailing zeros (0.050, 0.0050): they are significant figures, and
+preserving them keeps the working honest about precision.
 
 :::exam-hint
 The two-step dance appears in every mark scheme as two separate marks:
 **M1** for converting the volume (÷1000) or for the correct substitution into
 moles = V × c, and **A1** for the evaluated mole count. Writing 50/1000 ×
 0.10 in one visible line earns the first mark even if the arithmetic later
-slips — that is why the book's layout converts first, then multiplies, as
+slips — which is why the layout converts first, then multiplies, as
 separate displayed steps.
 :::
 
@@ -42,7 +42,7 @@ twentieth of that, 0.0050 mol.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C items — moles from
-volume × concentration with a cm³ → dm³ conversion. Book p. 74 questions
-11–13 → page jump only (licensing law).
+
+Question-bank join: spec 1.34C items — moles from volume × concentration
+with a cm³ → dm³ conversion.
 :::

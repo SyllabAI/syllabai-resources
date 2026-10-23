@@ -8,12 +8,12 @@ blocks: []
 glossary: [avogadros-law, rtp]
 ---
 
-The book states it in one line, and the line is worth memorising verbatim:
+The law fits in one line, and the line is worth memorising verbatim:
 **[[avogadros-law]]** — equal volumes of gases at the same temperature and
 pressure contain equal numbers of molecules. So 100 cm³ of hydrogen holds
 exactly as many molecules as 100 cm³ of Cl₂ or any other gas under the same
-conditions, irrespective of the size of the molecules. One refinement from
-the book's Key Point: for helium and the other noble gases, say "atoms"
+conditions, irrespective of the size of the molecules. One refinement: for
+helium and the other noble gases, say "atoms"
 rather than "molecules", because they exist as single atoms.
 
 The law becomes a calculating tool the moment you apply it to a balanced
@@ -29,15 +29,14 @@ of methane and you need exactly 200 cm³ of oxygen, and exactly 100 cm³ of
 carbon dioxide gas forms. No moles arithmetic needed at this stage — the
 volume ratio *is* the mole ratio.
 
-The book's Key Points flag the vocabulary and the single most important
-consequence. The cubic decimetre is the preferred unit (not the litre) when
+Two flags: the vocabulary and the single most important consequence. The cubic decimetre is the preferred unit (not the litre) when
 you mean 1000 cm³. And from the law it follows that **1 mole of any gas
 occupies 24 dm³ (24 000 cm³) at rtp** — [[rtp]] meaning room temperature and
 pressure, usually taken as 20–25 °C and 1 atmosphere. That consequence is the
 molar volume, and the next-but-one section turns it into a calculating tool.
 
 :::key-point
-The book's Key Points (chunk 0266), compressed: for helium and the other
+Compressed: for helium and the other
 noble gases we say **atoms** instead of molecules; the **cubic decimetre**
 (dm³) is the preferred unit for 1000 cm³ — not the litre; and the most
 important consequence of Avogadro's law is that **1 mole of any gas occupies
@@ -46,8 +45,7 @@ important consequence of Avogadro's law is that **1 mole of any gas occupies
 
 :::exam-hint
 "State the ratio in which the gases react" — read it straight off the big
-numbers and quote the volumes in the same ratio, exactly as the book does for
-methane: 100 cm³ of CH₄ needs 200 cm³ of O₂ and forms 100 cm³ of CO₂. Always
+numbers and quote the volumes in the same ratio, as in the methane example: 100 cm³ of CH₄ needs 200 cm³ of O₂ and forms 100 cm³ of CO₂. Always
 name the condition — the ratio holds *at the same temperature and pressure* —
 and count only the substances that are actually gases in that equation (the
 state symbols tell you which: here H₂O is (l), so it contributes no gas
@@ -64,8 +62,8 @@ equation; never add volumes like masses.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.35C items — stating
-Avogadro's law, predicting reacting/formed gas volumes from big numbers at
-the same temperature and pressure, and the 24 dm³ per mole consequence. Book
-p. 72 questions 1–5 → page jump only (licensing law).
+
+Question-bank join: spec 1.35C items — stating Avogadro's law, predicting
+reacting/formed gas volumes from big numbers at the same temperature and
+pressure, and the 24 dm³ per mole consequence.
 :::

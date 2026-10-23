@@ -9,8 +9,8 @@ glossary: null
 ---
 
 Part 2 of the formulae-and-calculations chapter extends the mole toolkit you
-built in Chapter 5 from **masses** to **gases and solutions**. The book is
-explicit that this material stands on part 1: everything here is the same
+built in Chapter 5 from **masses** to **gases and solutions**. This
+material stands squarely on part 1: everything here is the same
 "calculate the moles, use the equation, convert to what's asked" three-stage
 method, applied to two new ways of quoting an amount. By the end you will
 learn to calculate what volume of gas a reaction produces, and how to work
@@ -25,15 +25,13 @@ shared with Science Double Award:
 - calculations involving **gas volumes and the molar volume of a gas**
   (24 dm³ and 24 000 cm³ at room temperature and pressure, rtp) (spec 1.35C).
 
-The chapter runs pp. 64–71 and falls into two clean halves: gas volumes first
-(Avogadro's law, the molar volume, and the worked problems on pp. 64–67),
-then solutions (concentration units, the four worked examples, and titration
-calculations on pp. 67–71). The book's own end-of-chapter question bank
-(pp. 72–74) stays outside this Lesson — open the student book PDF for those.
+The chapter falls into two clean halves: gas volumes first (Avogadro's law
+and the molar volume), then solutions (concentration units, the four worked
+examples, and titration calculations). Master both halves and every
+gas-and-solution calculation on the course becomes routine.
 
 :::prior-knowledge
-You need the part-1 toolkit before starting — the book says so in its opening
-line. Concretely, from Chapter 5 (u1:c05): the mole as the unit for amount of
+You need the part-1 toolkit before starting — the chapter is built on it. Concretely, from Chapter 5 (u1:c05): the mole as the unit for amount of
 substance (spec 1.27); moles from mass via mass ÷ mass of 1 mol (spec 1.28);
 calculating Mᵣ from Aᵣ values (spec 1.26); the big-numbers-in-front-of-formulae
 mole ratios from a balanced equation; and the three-stage method for reacting-mass
@@ -59,8 +57,8 @@ memorise twice; learners who see them as conversions solve unfamiliar problems.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C and 1.35C items — the
-two-objective map, the Paper-2-only route badge, and the three-stage method
-carried over from part 1. Book pp. 72–74 questions 1–16 → page jump only
-(licensing law).
+
+Question-bank join: spec 1.34C and 1.35C items — the two-objective map, the
+Paper-2-only route badge, and the three-stage method carried over from part
+1.
 :::
