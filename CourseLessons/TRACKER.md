@@ -6,7 +6,7 @@
 > allowed for narrative notes only — status truth lives in `tracker.yaml`
 > via `lessonctl.py tracker` transactions (receipt-anchored).
 
-**Last regenerated:** 2026-10-23 (T-BOOK-039 r0 — u1:c07 authored end-to-end S4 15/15 + law-7 flipped PUBLISHED + law-10 tx this commit; join_set 1.37–1.43 pinned; also lands the regeneration debt: c06 phases-row DRAFT→PUBLISHED (the PR #76/77 flip of record) and the missing f-0012 digest row; trace 1a168863290424f1) · **Agent convention:** every status
+**Last regenerated:** 2026-10-23 (T-BOOK-039 r0 close chain — f-0011 CLOSED on its defined evidence (census 39951454372 six tables present + battery ALL GREEN 18/18 exit 0 N=7) + f-0013 filed+landed (B5 re-aim, v2 PR #333); prior: u1:c07 authored end-to-end S4 15/15 + law-7 flipped PUBLISHED + law-10 tx; join_set 1.37–1.43 pinned; also lands the regeneration debt: c06 phases-row DRAFT→PUBLISHED (the PR #76/77 flip of record) and the missing f-0012 digest row; trace 1a168863290424f1) · **Agent convention:** every status
 change carries `receipt:` pointing at the lesson's `qa/receipt.yaml` (published flips: `qa/flip-published.yaml`).
 
 ---
@@ -60,8 +60,9 @@ Boxes = V5 coverage %; Lint = last `lessonctl.py lint` verdict; both fill at S2+
 | f-0008 | process | u1-c03 | warn | **closed (premise invalid)** | hub serving URL of record misidentified — Render core retired by operator decision, serving migrated to syllabai-v2; 503 = retirement steady state, never a publish target (PR #63) |
 | f-0009 | process | — | warn | closed | stale retired-origin citations in v2 docs (hub README + t097 workflow) stripped of record in v2 PR #314 with the production origin named: syllabai-hub-v2.vercel.app |
 | f-0010 | lint-false-positive | u1-c05 s04/s06/s08/s31/s36 | warn | closed | V4 `\(l\)` regex fired on the legitimate liquid state symbol — chem.yaml r0.1 refines to `\([Ii]l+\)` (the copper(Il)/(Ill) OCR-misread class), in PR #65 |
-| f-0011 | platform-regression | u1-c05 (course-wide serving) | **error** | **open (ops lane shipped; DB leg paused on operator)** | T-C20 reader leg down at production for ALL chapters — the api→Neon DB leg is broken; census of record (run 39930694184) = ALL SIX censused tables ABSENT at the endpoint of record → DB-plane schema-void class; superseded by the operator disclosure (DB under work, endpoint may change — trace 1a168658cbbe49d1); resumption checklist turnkey in the finding; close = battery exit 0 (N at all-clear) |
+| f-0011 | platform-regression | u1-c05 (course-wide serving) | **error** | **closed (2026-10-23)** | RESOLVED by the operator's DB work, close on its defined evidence: census re-dispatch run 39951454372 = ALL SIX tables PRESENT at the UNCHANGED endpoint (schema-void healed; 29 chapters ingested, textbook VALIDATED) + battery ALL GREEN 18/18 exit 0 --expect-packs 7 (7 packs published incl. c07); en-route blocker was the B5 probe defect → f-0013 (v2 PR #333 re-aim); blocks leg 0 rows = honest-empty rail-plane residual, not Lesson-blocking |
 | f-0012 | tooling-defect | u1-c06 | warn | closed | lessonctl emit emitted contract-ILLEGAL glossarySlugs: null for `glossary: null` front-matter (books-lesson.ts zod = array) — null-safe coercion `fm.get('glossary') or []` (also blockIds/specRefs) fixed in the same PR; c06 pack re-emitted G4 GREEN |
+| f-0013 | tooling-defect | — (v2 battery) | error | closed | T-C20 battery B5 probe overreach — probed chapters?chapter= on a route that reads no chapter param (per-chapter honest-absent lives on blocks/checks); B5 could never pass and blocked the f-0011 close; system change: v2 PR #333 re-aims B5 to blocks?chapter=u9:c99 → 200 [] (the route's own law); battery then ALL GREEN exit 0 |
 
 ## Decisions log (operator-level, newest first)
 
