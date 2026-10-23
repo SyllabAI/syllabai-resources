@@ -6,7 +6,7 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** seven lanes of record.
+**Status:** eight lanes of record.
 
 - **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
   landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
@@ -79,6 +79,16 @@ preservation-grade snapshot of a stable source.
   calculus-trig-log stations are P3-bearing (general chain rule, product/quotient rule, trig/exp/log
   derivatives, parametric and implicit differentiation) and are routed with bearings named — the
   natural substrate preview for future P3 lanes, mirroring lanes 5–6's P3 findings).
+- **Lane 8 — `pure-1-integration/`** (10 resources — the **first strand lane on a spec section**, task
+  **`T-UGM-IMPORT-8`**). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-integration.json` (task **`T-UGM-MODE1-8`**).
+  Cross-map of record: `cross-map-integration.json` in `SyllabAI/syllabai-experimental`
+  (CIE 9709 P1 1.8 Integration — the lane that closes the Pure 1 spine; 91 corpus-sweep candidates
+  resolved as 28 aligned (10 new-text here + 18 cross-lane joins — 13 of them flipping the lane-7
+  Calculus-of-Powers non-overlaps of record, the integration-dressed honesty deferred from lane 7)
+  + 32 routed + 31 rejected with reasons. UGM has no dedicated integration station: the two dedicated
+  calculus stations were already fully of record via lanes 5–7, so this lane imports new text only and
+  records its cross-lane 1.8 mappings as facts pointing at `pure-1-differentiation/`).
 
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
 the text bodies. `MANIFEST.json` is **v7 (multi-lane)** — one block per lane;
@@ -205,3 +215,9 @@ front-matter). A station may also map mostly OUTSIDE its lane's spine subtopic: 
 compound-angles station's 24 non-overlaps are recorded with their P3 2.3 homes rather than
 forced into 1.5.x.
 
+
+A **strand lane on a spec section** (lane 8, CIE 1.8 Integration) applies the lane-4 relaxion to a
+subtopic with no dedicated UGM station: the seven-station calculus family was already fully of record
+via lanes 5–7, so the directory carries only the 10 new-text resources whose tested skill is 1.8.x,
+while the 18 cross-lane alignments live as facts in the sibling enrichment with `textOfRecordUnder`
+pointers at `pure-1-differentiation/`. Station provenance stays first-class in front-matter.

@@ -91,6 +91,17 @@ there. Nothing in this directory renders or embeds UGM content.
   cross-lane fact joins to already-of-record bodies (r5640 vs lane 6; r7115 and r8936 vs lane 4,
   `textOfRecordUnder` pointers — the lane-4 non-overlap row for r7115 explicitly names 1.7 as the tested skill).
 
+- **Lane 8 (CIE 9709 P1 1.8 Integration)** — `cie-a-level-maths-20-pure-1-integration.json`: the **first
+  strand lane on a spec section** (UGM has no dedicated integration station; the two dedicated calculus
+  stations are fully of record via lanes 5–7): 28 aligned resources / 28 alignment rows (10 new-text
+  strand resources whose tested skill is 1.8.x — calculus-meets-functions 7, chain-rule 2, product-rule 1 —
+  plus 18 cross-lane fact joins to already-of-record bodies under `pure-1-differentiation/`; 13 joins flip
+  the lane-7 Calculus-of-Powers non-overlaps of record, the integration-dressed honesty lane 7 deferred to
+  this lane, with the lane-7 reasons retained; 5 add one-to-many rows beside standing 1.7 alignments),
+  0 new non-overlaps, primary picks r8716 / r7734 / r6067 / r9357, plus 32 routed (P3-technique pools,
+  P3/Mechanics, trapezium-rule resources with no spine home) and 31 rejected with reasons — recorded,
+  never forced.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.

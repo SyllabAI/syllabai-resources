@@ -469,3 +469,34 @@ served bundle PR carries a full disclosure census.
   importer's fail-closed stationScope↔stationBreakdown equality audit (T-UGM-HUB-CONSUME-7 pre-flight);
   the corpus-side build audit checked the census aggregates but not the per-station sc↔bk equality the
   importer enforces.
+
+- **T-UGM-MODE1-8 — UGM mode-1 lane enrichment, Integration lane (this run)**: ninth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Enrichment/` family to its eighth
+  lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23; operator
+  instruction: next lane per `INTEGRATION-PLAN.md` — 1.8 Integration). New file
+  `cie-a-level-maths-20-pure-1-integration.json`: the **first strand lane on a spec section** (lane-4
+  shape applied to 1.8, which has no dedicated UGM station — the substrate is the seven-station calculus
+  family whose dedicated stations are fully of record via lanes 5–7) — spine rows 1.8.1–1.8.4 verbatim
+  (no fold fragments); corpus-wide integration sweep of all 25 stations (855 resources → 91 candidates)
+  resolved as 28 aligned (10 new-text strand — 7 calculus-meets-functions + 2 chain-rule + 1 product-rule —
+  plus 18 cross-lane fact joins to `pure-1-differentiation/` bodies: 13 flipping the lane-7
+  Calculus-of-Powers non-overlaps of record with reasons retained, 5 one-to-many beside standing 1.7
+  alignments; 28 alignment rows; primary picks r8716 / r7734 / r6067 / r9357) + 0 new non-overlaps +
+  32 routed (P3-technique honesty: trig/log/exp antiderivatives, substitution, parts, partial fractions
+  are P3, not P1 1.8) + 31 rejected with reasons (trapezium-rule family not in the 9709 P1 spine; marker
+  false positives; teacher-supports) — never forced (AGENT.md rule 3). FINDINGS OF RECORD: lane 7's
+  "integration-dressed honesty" deferral is realised — 13 of 17 Calculus-of-Powers non-overlaps flip to
+  1.8.x alignments (area-definite-integral and volume-of-revolution cores) while the 15
+  Introducing-Calculus trapezium-rule/kinematics non-overlaps stay unmapped of record; the 9709 P1 1.8
+  coverage is area/volume-dominated (12 of 28 rows are 1.8.4) and reverse-process/constant-of-integration
+  coverage is thin (2 + 4 rows) — the honest shape of a station family built for differentiation-first
+  teaching. Text of record: 10 new files under `UGM-Resources/pure-1-integration/` (T-UGM-IMPORT-8,
+  below) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-8.
+
+- **T-UGM-IMPORT-8 — UGM text corpus import, Integration lane (this run)**: ninth landing; the
+  `UGM-Resources/` corpus grows by the `pure-1-integration/` directory — **10 files, all mapped**
+  (strand-lane corpus law: new text only, no unmapped imports; the cross-lane 1.8 mappings live as facts
+  in the enrichment with `textOfRecordUnder` pointers at `pure-1-differentiation/`). MANIFEST advances
+  **v7 → v8** (file_count 469 → 479; lanes 1–7 rows carried forward untouched). Capture provenance:
+  syllabai-experimental @ c04abfbd (cross-map lane 8 in the same commit). Rights © Cambridge/UCLES/MAT/O&C
+  per file; takedown law unchanged. Base commit dc5ff598 (syllabai-experimental).
