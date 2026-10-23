@@ -6,7 +6,7 @@ University of Cambridge (Cambridge Mathematics / DfE-funded) A-level mathematics
 project; the site has been frozen since ~2016 and is no longer updated, so this is a
 preservation-grade snapshot of a stable source.
 
-**Status:** six lanes of record.
+**Status:** seven lanes of record.
 
 - **Lane 1 — `pure-1-quadratics/`** (59 resources, task **`T-UGM-IMPORT-1`**,
   landed via [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)).
@@ -61,10 +61,28 @@ preservation-grade snapshot of a stable source.
   by combinatorics/logic (39 recorded non-overlaps) around a tight binomial-expansion core
   (12/51); the general-index binomial questions carry P3 Series bearings — the natural
   substrate preview for a future P3 lane, mirroring lane 5's P3 2.3 finding).
+- **Lane 7 — `pure-1-differentiation/`** (106 resources — the **third two-station lane**, task
+  **`T-UGM-IMPORT-7`**: the WHOLE substrate ships as text of record — 72 new-text resources
+  (24 Introducing-Calculus + 48 Calculus-of-Powers; 3 already of record via lanes 5–6 excluded) —
+  40 mapped + 32 recorded non-overlaps imported unmapped, plus 34 mapped cross-station strays whose
+  tested skill is 1.7.x). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-1-differentiation.json` (task **`T-UGM-MODE1-7`**).
+  Cross-map of record: `cross-map-differentiation.json` in `SyllabAI/syllabai-experimental`
+  (CIE 9709 P1 1.7 Differentiation — four spine rows 1.7.1–1.7.4, no fold fragments; 195
+  corpus-sweep candidates resolved as 74 aligned (107 alignment rows) + 32 non-overlaps + 3
+  cross-lane fact joins (r5640 vs lane 6; r7115, r8936 vs lane 4 — recorded with
+  `textOfRecordUnder` pointers, the lane-4 non-overlap row for r7115 explicitly names 1.7 as the
+  tested skill) + 86 routed to recorded homes. Findings of record: Calculus of Powers is the P1
+  workhorse (31/48 aligned — power rule, tangents/normals, stationary points, canonical
+  optimisations) while Introducing Calculus splits between gradient-concept building blocks and
+  the honest trapezium-rule/kinematics non-overlap cluster (15); the chain-rule, product-rule and
+  calculus-trig-log stations are P3-bearing (general chain rule, product/quotient rule, trig/exp/log
+  derivatives, parametric and implicit differentiation) and are routed with bearings named — the
+  natural substrate preview for future P3 lanes, mirroring lanes 5–6's P3 findings).
 
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
-the text bodies. `MANIFEST.json` is **v6 (multi-lane)** — one block per lane;
-lane-1/2/3/4/5 rows carried forward untouched from v5.
+the text bodies. `MANIFEST.json` is **v7 (multi-lane)** — one block per lane;
+lane-1/2/3/4/5/6 rows carried forward untouched from v6.
 
 ## Rights and licensing authority
 

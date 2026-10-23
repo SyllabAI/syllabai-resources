@@ -416,3 +416,45 @@ served bundle PR carries a full disclosure census.
   coverage manufactured — non-overlaps + routings recorded) with `primaryPick` cross-referenced to
   `UGM-Enrichment/` T-UGM-MODE1-6. Rights © Cambridge/UCLES/MAT/O&C per file; takedown law unchanged.
   Base commit 82964ce4 (syllabai-experimental).
+
+- **T-UGM-MODE1-7 — UGM mode-1 lane enrichment, Differentiation lane (this run)**: eighth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Enrichment/` family to its seventh
+  lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23; operator
+  instruction "Proceed Lane 7"). New file `cie-a-level-maths-20-pure-1-differentiation.json`: the **third
+  two-station lane** (UGM's dedicated Introducing Calculus + Calculus of Powers stations) — spine rows
+  1.7.1–1.7.4 verbatim (no fold fragments); corpus-wide sweep of all 25 stations (855 resources → 195
+  candidates) resolved as 74 aligned (40 substrate — 9 Introducing-Calculus + 31 Calculus-of-Powers — plus 34
+  cross-station strays; 107 alignment rows; primary picks r7692 / r9942 / r8065 / r9260) + 32 explicit
+  non-overlaps + 3 cross-lane fact joins (r5640 vs lane 6; r7115, r8936 vs lane 4 — `textOfRecordUnder`
+  pointers; the lane-4 non-overlap row for r7115 explicitly names 1.7 as the tested skill) + 86 routed to
+  recorded homes with reasons — never forced (AGENT.md rule 3). FINDINGS OF RECORD: Calculus of Powers is the
+  P1 workhorse (31/48 aligned — power rule with rational indices, tangents/normals, stationary points,
+  canonical optimisations) while Introducing Calculus splits between gradient-concept building blocks (the
+  zoom-in chord-limit construct) and the honest trapezium-rule/kinematics non-overlap cluster (15) — the
+  trapezium rule is not in the 2023–2025 P1 spec; the chain-rule, product-rule and calculus-trig-log stations
+  are P3-bearing (general chain rule with non-linear inner functions, product/quotient rule, trig/exp/log
+  derivatives, parametric and implicit differentiation) — the natural substrate preview for future P3 lanes,
+  mirroring lanes 5–6's P3 findings; lane 6's four 1.7 routing pointers are all resolved (r7692/r6509/r6920
+  aligned, r5348/r9484 routed with P3 bearings). FACTS ONLY: slugs/titles/types/levels/confidence/
+  provenance — no UGM text bodies; rights © Cambridge/UCLES/MAT/O&C and other boards per row unchanged
+  (licensing block in-file + dir README). Mode-2 rendering remains dropped (operator directive 2026-10-22,
+  recorded in `mode2Note`). Base commit 764ae1f9 (syllabai-experimental).
+
+- **T-UGM-IMPORT-7 — UGM text corpus import, Differentiation lane (this run)**: eighth landing from the
+  Underground Mathematics reverse-engineering track, extending the `UGM-Resources/` corpus family to its
+  seventh lane under the same operator attestation of 2026-10-23 (`LICENSE-DATA.md` Amendment 2026-10-23).
+  New `UGM-Resources/pure-1-differentiation/`: **text bodies of the WHOLE two-station substrate — 106 files**
+  (72 new-text substrate resources — 24 Introducing-Calculus + 48 Calculus-of-Powers, the 3 already-of-record
+  Introducing-Calculus resources excluded — 40 mapped + 32 recorded non-overlaps imported UNMAPPED with the
+  coverage note, per the station-lane corpus law; plus 34 mapped cross-station strays; 4 excerpt/title-only
+  captures per the of-record bigger-picture/teacher-support law) as YAML-front-matter markdown. Text-only
+  import law: math preserved byte-true in UGM's native `\( \)` / `\[ \]` delimiters (converter verified
+  **byte-identical against all 99 of-record lane-6 files** before generation — full-corpus verification,
+  extending the 77-file lane-5 and lane-6 checks; per-file delimiter parity audited 106/106); UGM section
+  structure/panel titles/provider spellings preserved; figures and GeoGebra embeds recorded as
+  front-matter/inline markers, NOT fetched. `MANIFEST.json` bumps to **v7**: lane-7 block fresh (106 rows,
+  sha256 each), lane-1/2/3/4/5/6 rows untouched from v6 (469 files corpus-wide). Spec-point mappings are the
+  P3c lane-7 cross-map of record, landed `SUGGESTED` (AGENT.md rule 2; no coverage manufactured —
+  non-overlaps + routings recorded) with `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-7.
+  Rights © Cambridge/UCLES/MAT/O&C per file; takedown law unchanged. Base commit 764ae1f9
+  (syllabai-experimental).

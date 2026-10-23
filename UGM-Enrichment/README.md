@@ -82,6 +82,14 @@ there. Nothing in this directory renders or embeds UGM content.
   general-index binomial questions carry P3 Series bearings — recorded, never forced — text of record
   imported UNMAPPED in the same lane directory, per the station-lane corpus law), plus 2 cross-lane fact
   joins to lane-2 bodies (r7553, r9527 → 1.6.3, `textOfRecordUnder` pointers).
+- **Lane 7 (CIE 9709 P1 1.7 Differentiation)** — `cie-a-level-maths-20-pure-1-differentiation.json`: the **third
+  two-station lane** (Introducing Calculus + Calculus of Powers): 74 aligned resources (40 substrate — 9
+  Introducing-Calculus + 31 Calculus-of-Powers — plus 34 cross-station strays whose tested skill is 1.7.x; 107
+  alignment rows; primary picks r7692 / r9942 / r8065 / r9260), 32 recorded non-overlaps (the trapezium-rule and
+  kinematics cluster in Introducing Calculus — the trapezium rule is not in the 2023–2025 P1 spec — recorded, never
+  forced — text of record imported UNMAPPED in the same lane directory, per the station-lane corpus law), plus 3
+  cross-lane fact joins to already-of-record bodies (r5640 vs lane 6; r7115 and r8936 vs lane 4,
+  `textOfRecordUnder` pointers — the lane-4 non-overlap row for r7115 explicitly names 1.7 as the tested skill).
 
 ## Rights
 

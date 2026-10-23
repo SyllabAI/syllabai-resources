@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version_note": "v6 (T-UGM-IMPORT-6, 2026-10-23): lane-6 block appended (pure-1-series, 99 files — the whole two-station substrate as text of record: 49 mapped (43 substrate + 6 cross-station strays r5640/r9404/r9916/r8260/r6592/r9312) + 50 recorded non-overlaps imported unmapped per the station-lane corpus law) — lane-1/2/3/4/5 rows carried forward untouched from v5 (363 files corpus-wide).",
+  "version_note": "v7 (T-UGM-IMPORT-7, 2026-10-24): lane-7 block appended (pure-1-differentiation, 106 files — the whole two-station calculus substrate as text of record — 72 new-text resources: 40 mapped + 32 recorded non-overlaps imported unmapped per the station-lane corpus law; 3 Introducing-Calculus resources already of record via lanes 5-6 excluded — plus 34 mapped cross-station strays whose tested skill is 1.7.x) — lane-1/2/3/4/5/6 rows carried forward untouched from v6 (469 files corpus-wide).",
   "corpus": "UGM-Resources",
   "source": {
     "site": "undergroundmathematics.org",
@@ -10,8 +10,8 @@
     "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 915bfa8c (P2 crawl + ugm-clean)",
     "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
   },
-  "built": "2026-10-23T21:23:05+06:00",
-  "file_count": 363,
+  "built": "2026-10-24T01:49:53+06:00",
+  "file_count": 469,
   "lanes": [
     {
       "task": "T-UGM-IMPORT-1",
@@ -4280,6 +4280,1267 @@
           "url": "https://undergroundmathematics.org/sequences/sum-estimating",
           "resource_type_label": "Scaffolded task",
           "spec_points": [],
+          "captured": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "task": "T-UGM-IMPORT-7",
+      "lane_dir": "pure-1-differentiation",
+      "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-7 file cie-a-level-maths-20-pure-1-differentiation.json, task T-UGM-MODE1-7) — this corpus adds the text bodies under the same 2026-10-23 operator attestation (LICENSE-DATA.md Amendment).",
+      "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 93575e69 (P2 crawl + ugm-clean; cross-map lane 7 of record in the same commit chain)",
+      "cross_map_of_record": {
+        "file": "undergroundmathematics/resources/derived/cross-map-differentiation.json @ 93575e69",
+        "pilot": "P3c differentiation cross-map (generalisation lane 7, two-station lane)",
+        "aligned": 74,
+        "resources": 72,
+        "alignmentRows": 107,
+        "nonOverlap": 32,
+        "crossLaneAligned": 3,
+        "routed": 86
+      },
+      "built": "2026-10-24T01:49:53+06:00",
+      "file_count": 106,
+      "files": [
+        {
+          "path": "pure-1-differentiation/a-tangent-is-a-tangent-is.md",
+          "sha256": "a0ef5103296099c4b00602433d5e09881acb306eaf19ed4534fad0480cbdce43",
+          "ugm_id": "a-tangent-is",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/a-tangent-is",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/approximating-areas-approximating-areas.md",
+          "sha256": "5875906cfcebd7785033f5583a1064c7f803235d37bd2c0d469a1998cc1c3601",
+          "ugm_id": "approximating-areas",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/approximating-areas",
+          "resource_type_label": "Problem requiring decisions",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/average-speed-average-speed.md",
+          "sha256": "c29db9e460b15b31279d8b4905102b47c0c15432c93a955cfbbf47ccaef66bbd",
+          "ugm_id": "average-speed",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/average-speed",
+          "resource_type_label": "Food for thought",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/average-turning-points-average-turning-points.md",
+          "sha256": "d873531714812158ac6609402c1fb36e669ebba35e6264dbf1894db2e39c8e99",
+          "ugm_id": "average-turning-points",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/average-turning-points",
+          "resource_type_label": "Go and think about it...",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/binomials-are-the-answer-binomials-are-the-answer.md",
+          "sha256": "f4723906926c6c8e56f9fd67a56868f12815217791580a6b2bcf84651260b22a",
+          "ugm_id": "binomials-are-the-answer",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer",
+          "resource_type_label": "Investigation",
+          "spec_points": [
+            "1.7.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/calculus-of-variations-calculus-of-variationsfinding-the-best-possible-way.md",
+          "sha256": "dfd20f91e60147e3618538971f4624235c503f77f0ba67b6e1b651684cb77e70",
+          "ugm_id": "calculus-of-variations",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/calculus-of-variations",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/can-you-find-curvy-cubics-can-you-find-curvy-cubics-edition.md",
+          "sha256": "61ce3f9d508be1fb22493292a8ead115b78e2303e697930586e1882fc943b728",
+          "ugm_id": "can-you-find-curvy-cubics",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics",
+          "resource_type_label": "Many ways problem",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/chain-mapping-chain-mapping.md",
+          "sha256": "82aeafe8cddf593147cbc0d0fe5aa8f80c58eaf18812622666f3d8fcb91b541f",
+          "ugm_id": "chain-mapping",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/chain-mapping",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/curvy-cubics-curvy-cubics.md",
+          "sha256": "82d148d106b44b3b30fcf3c2d70557601c1a1c30efcbb41f2dff8b6a2515eb64",
+          "ugm_id": "curvy-cubics",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics",
+          "resource_type_label": "Investigation",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/designing-a-polynomial-designing-a-polynomial.md",
+          "sha256": "81ee641e4a02bf7ef6914da6bbe653af2861f23391cd15d48951eb9def05017e",
+          "ugm_id": "designing-a-polynomial",
+          "title": "",
+          "url": "https://undergroundmathematics.org/power-series/designing-a-polynomial",
+          "resource_type_label": "Investigation",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/discussing-distance-discussing-distance.md",
+          "sha256": "8233efd88448140152169f75c99f6edb52dfe56802728794316f9637b022ec07",
+          "ugm_id": "discussing-distance",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/discussing-distance",
+          "resource_type_label": "Problem requiring decisions",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/estimating-gradients-estimating-gradients.md",
+          "sha256": "bae53883f4b41c1f374b98b59705684e4ce1e97f12ba6a12eb3c69e2f9d5032f",
+          "ugm_id": "estimating-gradients",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-trig-log/estimating-gradients",
+          "resource_type_label": "Problem requiring decisions",
+          "spec_points": [
+            "1.7.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/floppy-hair-floppy-hair.md",
+          "sha256": "ea04511734fc3719a88e9f8c8789793a1a0f40230b49b698f421cf4d8789c3f6",
+          "ugm_id": "floppy-hair",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/floppy-hair",
+          "resource_type_label": "Fluency exercise",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/gradient-match-gradient-match.md",
+          "sha256": "4d64d2eaa0148ff0a465c99c9aa6a8ba4306067dc42b03123d15407b8099fee2",
+          "ugm_id": "gradient-match",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/gradient-spotting-gradient-spotting.md",
+          "sha256": "af50a4178498dc9ac07e031533ad3d939b0d6cede8a67ae5e0d310c11481f89a",
+          "ugm_id": "gradient-spotting",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/gradient-spotting",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/gradients-important-real-world-why-are-gradients-important-in-the-real-world.md",
+          "sha256": "6707c7283ab31fa2c2b335051afff60591030c04a3ed59efd39d91d8b2772168",
+          "ugm_id": "gradients-important-real-world",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/gradients-important-real-world",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/gradients-of-gradients-gradients-of-gradients.md",
+          "sha256": "2828da4abef2b10c41016e60b58087ea6b9fc7fc4399e161980752406298f4bd",
+          "ugm_id": "gradients-of-gradients",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/gradients-of-gradients",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/i-can-see-u-i-can-see-u.md",
+          "sha256": "510e5ba70d14f83f16e282f686947c615f22ade4781fcabc01b9808b823031e0",
+          "ugm_id": "i-can-see-u",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/i-can-see-u",
+          "resource_type_label": "Fluency exercise",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/integral-chasing-integral-chasing.md",
+          "sha256": "5846c4ac69bdfeca079a0e35cfbea5384b5d74e423661062fe9a0f26f7c1cc84",
+          "ugm_id": "integral-chasing",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/integral-chasing",
+          "resource_type_label": "Fluency exercise",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/mapping-a-derivative-mapping-a-derivative.md",
+          "sha256": "98f99afb7d8512c791407e3c531e69a8838c21edbfe4a1fd3fa891d08449d3d1",
+          "ugm_id": "mapping-a-derivative",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.1"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/meaningful-areas-meaningful-areas.md",
+          "sha256": "173bdc729b84f758d748151a35c584e0a15580dde1ba2feaebce75244c16d0b5",
+          "ugm_id": "meaningful-areas",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/meaningful-areas",
+          "resource_type_label": "Investigation",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/newton-and-leibniz-newton-and-leibniz.md",
+          "sha256": "af9a784f2e5b77964b548bc7930f3a9c0fd58880744c8aa1b5032950714df2e6",
+          "ugm_id": "newton-and-leibniz",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/newton-and-leibniz",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/producing-a-rule-producing-a-rule.md",
+          "sha256": "7219494247ae08f338390f2b06c6c8177d6009ea21fdd385e46570c3dd702868",
+          "ugm_id": "producing-a-rule",
+          "title": "",
+          "url": "https://undergroundmathematics.org/product-rule/producing-a-rule",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/queen-dido-queen-didos-problem.md",
+          "sha256": "ef69c48647072ca2aba08b4031bf36b514d5443e909e27bfbdea7825cc15cc67",
+          "ugm_id": "queen-dido",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/queen-dido",
+          "resource_type_label": "Bigger picture",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5007-what-volume-is-generated-when-y-ax-x2-is-rotated-about-the-x-axis.md",
+          "sha256": "be2868e712d3bf5e889672109465c2754ca353e913a5dc7a0d0019daf6155e1d",
+          "ugm_id": "r5007",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5007",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5584-can-we-find-the-centre-of-mass-of-a-solid-hemisphere.md",
+          "sha256": "d67b53534f6bf0ac61611655a2df3eac6524505eeee725ff6c1ce02a9d827099",
+          "ugm_id": "r5584",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5584",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5642-when-does-the-trapezium-rule-give-the-exact-answer-here.md",
+          "sha256": "caca2dd20b2742db629575391b061a5e87945fc4a93e701373813a965848827a",
+          "ugm_id": "r5642",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r5642",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5703-where-do-two-tangents-cross-and-where-do-two-normals-cross.md",
+          "sha256": "ce24e84131ded58a9c3fbf162359c0a8c24e31337f69d3b45f838a9e2b925e27",
+          "ugm_id": "r5703",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5703",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5732-where-does-fx-x2-2px-3-have-its-minimum.md",
+          "sha256": "19ea9bc9395df79fe6aebfbd5ef62825ceb334418c974e1dfade2d381ee0a51c",
+          "ugm_id": "r5732",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5732",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5768-can-we-find-a-curve-from-its-gradient-function.md",
+          "sha256": "a2e8aaa237d1d7062d789c90ee6a6fb837575f97fc2e683b2789bbf0184bb2aa",
+          "ugm_id": "r5768",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5768",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r5782-at-what-time-would-these-two-trains-meet.md",
+          "sha256": "b5464f817a6fddb27280b3efcb75dc4e71542121386824a672eca2e671c6d2a0",
+          "ugm_id": "r5782",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r5782",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6067-can-we-find-the-area-under-a-parabola.md",
+          "sha256": "b87a2acbcc91e2a56e42d18bcbdba6a611b360048f97368d83a093d24ad5b867",
+          "ugm_id": "r6067",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6067",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6180-can-we-maximise-the-volume-of-this-metal-tin.md",
+          "sha256": "a9d577f1bb536d59860f0892de94fa8d0e63c62471e9df9565ad66e10e18e980",
+          "ugm_id": "r6180",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6180",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6345-can-we-find-a-percentage-increase-using-the-gradient.md",
+          "sha256": "e063ad2e20b383b0b988dc0edc7614802a380ed998c91525fe3fb5dd0ce8cb12",
+          "ugm_id": "r6345",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6345",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6352-when-does-the-normal-to-a-parabola-pass-through-this-point.md",
+          "sha256": "f679340b6b850417b9e0f590a17420a1da6a0ec0914db4ca193f7ce20f07deba",
+          "ugm_id": "r6352",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6352",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6372-can-we-sketch-the-graph-of-y2-x3.md",
+          "sha256": "c155a6314b00c5f4e0951c06b87ad2ceb37119b38c9bc749afdb42d204679f3b",
+          "ugm_id": "r6372",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6372",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6537-when-does-3x4-16x318x2k-have-exactly-two-real-roots.md",
+          "sha256": "2df04ba54ea2034d3e021980e8da5261afa8843209c92042377cd6157b1b79e4",
+          "ugm_id": "r6537",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6584-can-we-find-the-area-inside-a-parabola-a-tangent-and-the-x-axis.md",
+          "sha256": "842c2ae2d73d4cbdac254b997f753f0b5843ed0b85666a3eb78dd16b11d8fd43",
+          "ugm_id": "r6584",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6584",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6703-when-does-this-cubic-equation-have-three-distinct-real-roots.md",
+          "sha256": "7cbf882a786c96a60e1581ae4fc7f57788788a13fb38034eb22f818833b794df",
+          "ugm_id": "r6703",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6703",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6820-when-is-the-area-of-a-face-of-this-pyramid-a-minimum.md",
+          "sha256": "6415749390bc95aeed417d680db7c605fe224423b5367c5fa25ec73687d89ddf",
+          "ugm_id": "r6820",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6820",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6841-what-is-the-stopping-distance-for-this-car.md",
+          "sha256": "e7bc01f785864b58deb3834ad7719e79ec2b3713792734fc7f96c018fec06a7e",
+          "ugm_id": "r6841",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r6841",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6867-when-is-the-cost-of-producing-this-chemical-a-minimum.md",
+          "sha256": "b988a5b31f6c7796f000771afbd1b020023d2218d3f2a3b28df87c721fb099b8",
+          "ugm_id": "r6867",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6867",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6868-when-is-fx-2x3-9x2-12x-3-smallest-over-this-range.md",
+          "sha256": "8f4ff6f035d26449e01f3853bb87a68bd0f5cfb8c0abcdf1493bc1c10ee6fa71",
+          "ugm_id": "r6868",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6868",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6877-can-we-find-the-area-of-the-triangle-created-by-a-common-tangent.md",
+          "sha256": "b0e8b1e52f7fe2f8cd60409bd6c3fe50f12393c1ea99963eb962d487fe918940",
+          "ugm_id": "r6877",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6877",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r6959-can-we-track-this-constantly-growing-patch-of-fluid.md",
+          "sha256": "e9b7e5b04ae5b96712239254fa9b94ff1c81a4d1f901f47d914f053a2a6cf84a",
+          "ugm_id": "r6959",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7140-whats-the-average-speed-of-the-second-car.md",
+          "sha256": "93fa51c235891ea266e190c502c7df954bf3e962d0fdeca6e3bbe73c8231bfd6",
+          "ugm_id": "r7140",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r7140",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7196-can-we-sketch-the-graph-of-this-piecewise-function.md",
+          "sha256": "23f122d0c4d3b6477eeddc7fc9f5ca0356a370322517181767cdd37a5d1120c2",
+          "ugm_id": "r7196",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7196",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7212-whats-the-minimum-area-of-this-variable-triangle.md",
+          "sha256": "1aa8415027a5405c309db1aa330cce3c049877c72ac9fb336ae131ccf71d2a56",
+          "ugm_id": "r7212",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7212",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7236-when-does-this-definite-integral-have-a-minimum.md",
+          "sha256": "5d48d7eaadf2bd703e6e48b344d48d8f90ea31c80f9236d623997bc94af019eb",
+          "ugm_id": "r7236",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7236",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7250-can-we-calculate-the-total-time-taken-for-this-car-journey.md",
+          "sha256": "1eaffe5e9d5a57d92b692eed32fa563550d675361bb0d683d6a549f9583ef825",
+          "ugm_id": "r7250",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r7250",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7280-whats-the-most-economical-speed-for-this-ships-journey.md",
+          "sha256": "399748f27843b039e144bf4f49f28d75e192a12029c2cd2904b0b5dd2e5a6bcb",
+          "ugm_id": "r7280",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7280",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7386-whats-the-area-enclosed-by-yxx-32-and-a-tangent.md",
+          "sha256": "977a947107fffe9e8c8fb18edd3a8bacc5007e801ca5806db3d1659c3ee72280",
+          "ugm_id": "r7386",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7391-what-is-the-gradient-of-this-curve-at-its-x-intercepts.md",
+          "sha256": "195fe2fe1cc23202d2b82eb0b53d01a006c6f20665426bbbc7083b83911333bf",
+          "ugm_id": "r7391",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7391",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7433-is-the-gradient-function-increasing-or-decreasing-on-this-curve.md",
+          "sha256": "b40580c23fef5117b7890871cf8f2d1213a82f55eee7a15755d562cf652e220c",
+          "ugm_id": "r7433",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7433",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7444-can-we-find-the-area-inside-a-straight-line-a-parabola-and-the-x-axis.md",
+          "sha256": "6647f02608f98b16ab50d1b27eb55549b891be1e8d83206b0d0355d0cd5a4a8f",
+          "ugm_id": "r7444",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7444",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7586-given-the-line-prq-when-is-op-oq-a-minimum.md",
+          "sha256": "d34cb158e490ae7907e9008a8666527b328dab61aea76449242764cbdc119a3c",
+          "ugm_id": "r7586",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7586",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7628-if-we-take-a-slice-from-this-sphere-where-is-its-centre-of-gravity.md",
+          "sha256": "b61d9663b4e6eb49ea19771b5d0714fb5f41dc9e7c5cd93e940ce9479ab631e8",
+          "ugm_id": "r7628",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7628",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7720-how-small-can-this-triangle-be.md",
+          "sha256": "86fd27428a93e348c0f947b3a5107c590ac38e7ee12b24d176b1650670bc5ac9",
+          "ugm_id": "r7720",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7720",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7724-can-we-explain-why-this-integral-is-zero.md",
+          "sha256": "2d45de85dbb7900b70e7dac71f97ae9edb2b46df7b61cbf8473b812385bc9001",
+          "ugm_id": "r7724",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7724",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7734-given-three-clues-can-we-find-the-equation-of-the-curve.md",
+          "sha256": "092cc1dea5217365650448dfc6aafe54bba3e96fef2e0691fd5a646a070753f6",
+          "ugm_id": "r7734",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7734",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7750-how-many-common-tangents-can-two-parabolas-have.md",
+          "sha256": "b07f4dcda3a361dddfda8908be6a7732659328f3c06f17cfc1ebbf436ada6f63",
+          "ugm_id": "r7750",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7750",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7785-when-is-the-volume-of-this-cylinder-inside-a-cone-a-maximum.md",
+          "sha256": "37984859f48cc386ec3ef1eca2c23629a5577298d6013c1450ca855e364fa5bb",
+          "ugm_id": "r7785",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7785",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7839-can-we-sketch-y-x22-x-and-from-this-y2-x22-x.md",
+          "sha256": "b6ac130eb39f8f1959691ce2fdb780394806fe3a836721c07d3dcd0f4b20795d",
+          "ugm_id": "r7839",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/r7839",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7861-when-does-a-cubic-curve-have-two-turning-points.md",
+          "sha256": "e31a365806c0adf1914a24d175c8bc89dbc5396f70d791329afe1acc55f6a1cf",
+          "ugm_id": "r7861",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7861",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7903-can-the-trapezium-rule-help-us-find-the-area-under-y-xln-x.md",
+          "sha256": "70ceea757c5fdf65f27ffffa9ab00e2fa2004ba84f099b14f1cfbc41460c7579",
+          "ugm_id": "r7903",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r7903",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r7998-if-yfx-has-a-turning-point-when-xfrac14-can-we-find-lambda.md",
+          "sha256": "e02b52644c268db3e81b0c3bc08badde4f08d33a7293613dc8ed529afb49c8f5",
+          "ugm_id": "r7998",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7998",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8065-what-approximately-is-the-square-root-of-26.md",
+          "sha256": "10ffe52b4105043329a3f1d4ba15ece1c508f7b26f3f36fa989b4e427824424a",
+          "ugm_id": "r8065",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8065",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8140-can-we-apply-the-trapezium-rule-to-fx-x2-lfloor-x2-rfloor.md",
+          "sha256": "ffdea674963c47ef1f52322bbd3575e86423bdb1832933881e16632b55ea49b3",
+          "ugm_id": "r8140",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r8140",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8231-a-cubic-has-one-real-rootcan-we-find-an-approximation-to-it.md",
+          "sha256": "5173d3c5fd046956ca136bb3e917ea42f4c41989e8de5e5d98431f4c4a181793",
+          "ugm_id": "r8231",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8286-can-we-find-the-triangle-areas-given-by-a-tangent.md",
+          "sha256": "1198f97e2f754f9681cf83efc1683349ddba75538ce8ab58943c584ced3ecf87",
+          "ugm_id": "r8286",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8286",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8287-what-can-we-say-if-y-mx-a-is-tangent-to-y-x3-x.md",
+          "sha256": "60604708719eb7c757f1284c98adba2dc4c7b59cd9113efb7efd59329282eb4c",
+          "ugm_id": "r8287",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r8287",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8350-when-is-the-area-of-this-region-bigger-than-the-area-of-this-one.md",
+          "sha256": "7bd80c7791f3eec01bb64879caecebfde41464a2e2fcce7078b4538093da06cb",
+          "ugm_id": "r8350",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8350",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8399-can-we-find-the-locus-of-a-midpoint-created-by-a-parabola.md",
+          "sha256": "98dc344dd157005f54359a1b0e4ed870fa24d8b391d62c81e953231b02957843",
+          "ugm_id": "r8399",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8399",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8441-when-does-ykx3-k1x22-kx-k-have-a-minimum-at-x-1.md",
+          "sha256": "907687b07cebf0df69f881082d355b8b5d71c09f19d3a1a100d2adef1969e34b",
+          "ugm_id": "r8441",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8441",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8543-can-we-show-these-two-cubic-curves-touch.md",
+          "sha256": "29b6ac83aa815778a4724b3765ae10104a1509077049fad76e80c0138714bc34",
+          "ugm_id": "r8543",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8543",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8548-whats-the-least-surface-area-of-this-rocket-shaped-solid.md",
+          "sha256": "7c763c69a145bda7b54febef63cb234a7082b9a3bdcc290621643a9328fcb048",
+          "ugm_id": "r8548",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8548",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8588-given-fx-and-gx-what-is-f2x.md",
+          "sha256": "0779fb379cefab6bfd7ed91d81c1ac8b699a04f5f1cfc7c39c5f804e7cea9414",
+          "ugm_id": "r8588",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r8588",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8625-if-we-know-the-objects-speed-can-we-find-the-speed-of-the-image.md",
+          "sha256": "7008ef55222d78b5bcb192fc26ad559f5efcb277bb1f537ba518c73be70f4d4c",
+          "ugm_id": "r8625",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/r8625",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8716-what-happens-if-we-integrate-then-differentiate.md",
+          "sha256": "1310dc0c77c052530e826bd05f87a0a21041979d0352efcde0db601db6e74b34",
+          "ugm_id": "r8716",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8716",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8931-what-happens-if-we-expand-then-differentiate.md",
+          "sha256": "4f7888bde51894ddd318536ec599dbc42d9ff89ccb2f0ae4a20380422afe929f",
+          "ugm_id": "r8931",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8931",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r8959-when-does-3x4-16x3-18x2-k-0-have-four-real-solutions.md",
+          "sha256": "e74428d19fbd2e7c05bcb1c2a8bdfac37278e4683fc3f1f1620b58ead10fd1ba",
+          "ugm_id": "r8959",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r8959",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9082-can-we-find-the-repeated-root-for-4x4x23x10.md",
+          "sha256": "b6e0f7915e7ec1acb1add22c4806ab7f004c1dac06b3733f3ada91e13c228f62",
+          "ugm_id": "r9082",
+          "title": "",
+          "url": "https://undergroundmathematics.org/product-rule/r9082",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9138-can-we-find-the-area-enclosed-by-this-quadratic-and-the-x-axis.md",
+          "sha256": "272127e0aaf55deff3944b0fca826d3358993f785f6998f0bffc154f9b245bca",
+          "ugm_id": "r9138",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9138",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9260-when-is-the-volume-of-this-cuboid-a-maximum.md",
+          "sha256": "ae3bd914ed8ae3c233c291494dfccc5552fed08fc7ade8b1a9354348af08a3df",
+          "ugm_id": "r9260",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9357-can-we-find-the-area-between-a-parabola-and-a-line.md",
+          "sha256": "adb9b329f8558c5adf4e071d306d81f41dd6bab972d62cfb393b0d47373767a5",
+          "ugm_id": "r9357",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9357",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9506-when-is-this-parabolas-turning-point-nearest-to-the-origin.md",
+          "sha256": "5104f5e7eda9985e594e9cb6f6aba3a31a9294b7eb3b0145dc98923bfaba20d6",
+          "ugm_id": "r9506",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r9506",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9582-how-many-stationary-points-does-y-2x3-6x2-5x-7-have.md",
+          "sha256": "d327cda1c217f30cac2a834dda752a24a20bec4050b3045ee4c5951b232e70f3",
+          "ugm_id": "r9582",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9582",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9586-what-is-the-acceleration-of-this-particle.md",
+          "sha256": "ff87f869893916b542a348eebe8b6ad307b9f12097a648624b84d5c463e1e21d",
+          "ugm_id": "r9586",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r9586",
+          "resource_type_label": "Review question",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9599-what-can-we-say-about-the-combined-area-of-these-two-shapes.md",
+          "sha256": "978767769abe73ddd5a1ac7a2d430bf9001f61358b1b72e89534cb7f8e059c4d",
+          "ugm_id": "r9599",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9671-when-does-this-function-of-two-variables-have-a-minimum.md",
+          "sha256": "29bedb6fac6354512d81c4fed6b1217b803e60d1a496c2ec9cab04355dffa242",
+          "ugm_id": "r9671",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9671",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9781-when-does-this-cubic-equation-have-distinct-real-positive-solutions.md",
+          "sha256": "e3e30d5d1a5c9c2dceefab0e6a32728597b032d43312173ad9e52666e347cfe7",
+          "ugm_id": "r9781",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9781",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9815-can-we-find-this-area-by-integrating-with-respect-to-y.md",
+          "sha256": "457278fb2b50e5622f5f5f4578de58d09c06ed3fad52ec0a8bf123036cbd0325",
+          "ugm_id": "r9815",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/r9815",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9905-when-is-the-volume-of-this-pyramid-a-maximum.md",
+          "sha256": "7a384d8fa1ab2476ba2595b0d04d73da6e665cc2f11b11c1164476f08c34c186",
+          "ugm_id": "r9905",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/r9905",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/r9942-if-we-increase-x-by-a-small-amount-what-happens-to-y.md",
+          "sha256": "58fa0c2d4b7b63227f7c81d65dcd1094fc51243e680c46c761e5b01e6d2468fd",
+          "ugm_id": "r9942",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+          "resource_type_label": "Review question",
+          "spec_points": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/rectangles-in-triangles-rectangles-in-triangles.md",
+          "sha256": "7966fab858f61703ec450a40eb05fe4f159b1e7d1018da4a1cbf0518bc320659",
+          "ugm_id": "rectangles-in-triangles",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/rectangles-in-triangles",
+          "resource_type_label": "Many ways problem",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/serpentine-lake-is-the-serpentine-lake-really-40-acres.md",
+          "sha256": "ece9164c2bbadfa0f2da5f9be3089fff07a17a2bb82b89b866633a2f5df1b012",
+          "ugm_id": "serpentine-lake",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/serpentine-lake",
+          "resource_type_label": "Building blocks",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/slippery-slopes-another-derivative-slippery-slopes-another-derivative.md",
+          "sha256": "4af14e38c7f044dfbebb417d6acecdf603bef0169eafdd9d48a3113ba226ebbe",
+          "ugm_id": "slippery-slopes-another-derivative",
+          "title": "",
+          "url": "https://undergroundmathematics.org/chain-rule/slippery-slopes-another-derivative",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.2"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/slippery-slopes-slippery-slopes.md",
+          "sha256": "a0fccf1c0a6f399be2a863cd040ea590e40547bdb542657a3201a30674477b83",
+          "ugm_id": "slippery-slopes",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/slippery-slopes",
+          "resource_type_label": "Food for thought",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/speed-vs-velocity-speed-vs-velocity.md",
+          "sha256": "990a921ecbf9be2e19cdfcbbae52f7b8c988610424624acaaed0130cd5f17581",
+          "ugm_id": "speed-vs-velocity",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/stretch-the-function-stretch-the-function.md",
+          "sha256": "f033cad8208c6d3d665f83891921ae69fb544f900107af553be8644e9a9033ab",
+          "ugm_id": "stretch-the-function",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/stretch-the-function",
+          "resource_type_label": "Food for thought",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/talking-about-curves-talking-about-curves.md",
+          "sha256": "e5b8ee005850f6a4c435c75d49efe65a804bff9409b0a66f91c4a154ce67f140",
+          "ugm_id": "talking-about-curves",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/talking-about-curves",
+          "resource_type_label": "Investigation",
+          "spec_points": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/tangent-or-normal-tangent-or-normal.md",
+          "sha256": "8c28ef7ef3f7c04d15b43b8d997cc3077f42baefce290a610b3946879a0b78e1",
+          "ugm_id": "tangent-or-normal",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/tangent-or-normal",
+          "resource_type_label": "Package of problems",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/two-way-calculus-two-way-calculus.md",
+          "sha256": "65a77c615741df543dbbf3239b3de5031251341ce2ca8c5bd94cc72576f5105e",
+          "ugm_id": "two-way-calculus",
+          "title": "",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus",
+          "resource_type_label": "Many ways problem",
+          "spec_points": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/underneath-the-arches-underneath-the-arches.md",
+          "sha256": "eece1516e4ddeebd6d8e1a44de9414bb3403c95ce6a76f559eb5335fba219ba3",
+          "ugm_id": "underneath-the-arches",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/underneath-the-arches",
+          "resource_type_label": "Investigation",
+          "spec_points": [],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/walk-sorting-walk-sorting.md",
+          "sha256": "7c93e0ec554dcfc329342e6a7f1057dcfbf9f484030cc9e25eee9a9f9de01cbf",
+          "ugm_id": "walk-sorting",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting",
+          "resource_type_label": "Building blocks",
+          "spec_points": [
+            "1.7.3"
+          ],
+          "captured": "2026-10-22"
+        },
+        {
+          "path": "pure-1-differentiation/zooming-in-zooming-in.md",
+          "sha256": "6025f3a21619757833ca44bd7fc3f3c4951377eea3f12e7f1d441c6faf9411b4",
+          "ugm_id": "zooming-in",
+          "title": "",
+          "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in",
+          "resource_type_label": "Scaffolded task",
+          "spec_points": [
+            "1.7.1"
+          ],
           "captured": "2026-10-22"
         }
       ]
