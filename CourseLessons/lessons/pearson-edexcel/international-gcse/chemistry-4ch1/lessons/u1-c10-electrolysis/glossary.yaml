@@ -1,0 +1,128 @@
+# glossary — u1:c10 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: electrolysis
+  slug: electrolysis
+  definition: "A chemical change caused by passing an electric current through a compound which is either molten or in solution."
+  ms_accepts: ["chemical change/decomposition caused by passing electricity through a molten or dissolved compound", "splitting a substance by electricity"]
+  ms_avoids: ["any heating effect of a current (metals warm but no chemical change)", "conduction through a solid metal", "a physical change such as melting"]
+  aliases: ["electrolysing", "electrolyse"]
+  source: "chem_v3_u1_c10_pdf111_0409"
+- term: electrolyte
+  slug: electrolyte
+  definition: "A liquid or solution that undergoes electrolysis. Electrolytes contain ions, whose movement carries the current and causes the chemical changes."
+  ms_accepts: ["a liquid/solution containing ions that conducts and is decomposed by electricity"]
+  ms_avoids: ["any conducting solid (metals conduct by electrons)", "a substance that conducts without undergoing chemical change"]
+  aliases: ["ionic solution", "molten ionic compound"]
+  source: "chem_v3_u1_c10_pdf111_0409"
+- term: electrode
+  slug: electrode
+  definition: "A conductor, usually carbon (graphite) or platinum, that carries the electric current into and out of the electrolyte."
+  ms_accepts: ["carbon/graphite or platinum rods dipping into the electrolyte", "conductors through which current enters/leaves the electrolyte"]
+  ms_avoids: ["the wires themselves", "the power pack", "the ions"]
+  aliases: ["electrodes"]
+  source: "chem_v3_u1_c10_pdf111_0409"
+- term: inert electrode
+  slug: inert-electrode
+  definition: "An electrode that does not react chemically during the electrolysis, such as carbon (graphite) or platinum."
+  ms_accepts: ["an electrode that does not react/take part in the reaction", "unreactive electrode (carbon, platinum)"]
+  ms_avoids: ["an electrode that cannot conduct", "any metal electrode (reactive metals like copper do take part)"]
+  aliases: ["inert electrodes"]
+  source: "chem_v3_u1_c10_pdf111_0409"
+- term: anode
+  slug: anode
+  definition: "The positive electrode in electrolysis. Anions are attracted to it, and oxidation (loss of electrons) happens there."
+  ms_accepts: ["positive electrode", "electrode where anions go / oxidation occurs"]
+  ms_avoids: ["the negative electrode (that is the cathode)", "confusing the sign with the electron flow direction"]
+  aliases: ["positive electrode"]
+  source: "chem_v3_u1_c10_pdf111_0409"
+- term: cathode
+  slug: cathode
+  definition: "The negative electrode in electrolysis. Cations are attracted to it, and reduction (gain of electrons) happens there."
+  ms_accepts: ["negative electrode", "electrode where cations go / reduction occurs"]
+  ms_avoids: ["the positive electrode (that is the anode)"]
+  aliases: ["negative electrode"]
+  source: "chem_v3_u1_c10_pdf111_0409"
+- term: anion
+  slug: anion
+  definition: "A negatively charged ion, named because it is attracted to the anode (the positive electrode)."
+  ms_accepts: ["negative ion", "ion attracted to the anode/positive electrode"]
+  ms_avoids: ["a positive ion (that is a cation)", "any negative particle such as an electron"]
+  aliases: ["anions", "negative ion"]
+  source: "chem_v3_u1_c10_pdf111_0408"
+- term: cation
+  slug: cation
+  definition: "A positively charged ion, named because it is attracted to the cathode (the negative electrode)."
+  ms_accepts: ["positive ion", "ion attracted to the cathode/negative electrode"]
+  ms_avoids: ["a negative ion (that is an anion)"]
+  aliases: ["cations", "positive ion"]
+  source: "chem_v3_u1_c10_pdf114_0424"
+- term: half-equation
+  slug: half-equation
+  definition: "An ionic equation showing the reaction at one electrode only — either oxidation or reduction — with electrons written as e⁻ on one side."
+  ms_accepts: ["equation for one electrode showing electron gain or loss", "ionic equation with electrons on one side"]
+  ms_avoids: ["a full molecular equation with electrons on both sides", "an equation without balanced charges"]
+  aliases: ["ionic half-equation", "half equations"]
+  source: "chem_v3_u1_c10_pdf112_0413"
+- term: discharge
+  slug: discharge
+  definition: "The removal of an ion from the electrolyte at an electrode, by giving up or taking electrons, so that it becomes a neutral atom."
+  ms_accepts: ["ion loses/gains electrons at an electrode and becomes an atom/molecule", "ion converted to a neutral species at an electrode"]
+  ms_avoids: ["the ion simply 'touching' the electrode", "evaporation of the ion", "the battery removing the ion"]
+  aliases: ["discharged", "discharging"]
+  source: "chem_v3_u1_c10_pdf113_0419"
+- term: oxidation
+  slug: oxidation
+  definition: "The loss of electrons. Oxidation always happens at the anode during electrolysis. Memory aid: OILRIG."
+  ms_accepts: ["loss of electrons", "gain of oxygen (historical use)"]
+  ms_avoids: ["gain of electrons (that is reduction)", "burning only", "anything to do with oxygen exclusively"]
+  aliases: ["oxidised", "oxidised"]
+  source: "chem_v3_u1_c10_pdf113_0420"
+- term: reduction
+  slug: reduction
+  definition: "The gain of electrons. Reduction always happens at the cathode during electrolysis. Memory aid: OILRIG."
+  ms_accepts: ["gain of electrons", "loss of oxygen (historical use)"]
+  ms_avoids: ["loss of electrons (that is oxidation)", "a decrease in size"]
+  aliases: ["reduced", "reduction"]
+  source: "chem_v3_u1_c10_pdf113_0420"
+- term: redox
+  slug: redox
+  definition: "A reaction in which oxidation and reduction happen at the same time — one species loses electrons as another gains them."
+  ms_accepts: ["oxidation and reduction occurring together", "electron transfer between two species"]
+  ms_avoids: ["oxidation only", "reduction only"]
+  aliases: ["redox reaction", "redox reactions"]
+  source: "chem_v3_u1_c10_pdf113_0420"
+- term: weak electrolyte
+  slug: weak-electrolyte
+  definition: "Water, which ionises only very slightly into hydrogen ions and hydroxide ions, which constantly recombine (a reversible process)."
+  ms_accepts: ["water ionises slightly/reversibly to H⁺ and OH⁻", "only a small fraction of water molecules are ionised"]
+  ms_avoids: ["water is a strong electrolyte", "water contains no ions at all", "water fully ionises"]
+  aliases: ["weak electrolytes"]
+  source: "chem_v3_u1_c10_pdf116_0428"
+- term: reactivity series
+  slug: reactivity-series
+  definition: "The list of metals (with carbon and hydrogen) ordered by reactivity. It decides which ions are discharged in solution electrolysis."
+  ms_accepts: ["a ranked list of reactivity used to predict displacement/discharge", "order of metals from most to least reactive"]
+  ms_avoids: ["a list with no predictive use", "an alphabetical list of metals"]
+  aliases: ["reactivity series of metals"]
+  source: "chem_v3_u1_c10_pdf116_0429"
+- term: non-electrolyte
+  slug: non-electrolyte
+  definition: "A substance, such as sugar, that contains no ions when molten or in solution, so it neither conducts electricity nor undergoes electrolysis."
+  ms_accepts: ["a substance that does not conduct or decompose because it has no ions"]
+  ms_avoids: ["a substance that conducts but does not change", "a substance with no electrons"]
+  aliases: ["non-electrolytes"]
+  source: "chem_v3_u1_c10_pdf119_0445"
+- term: delocalised electron
+  slug: delocalised-electron
+  definition: "An outer-shell electron no longer attached to any particular atom or bond, free to move throughout the metallic structure and carry the current."
+  ms_accepts: ["electrons free to move through the whole metal", "not attached to any particular atom"]
+  ms_avoids: ["electrons shared between two atoms", "free electrons (as a definition — name them delocalised)"]
+  aliases: ["delocalised electrons", "sea of delocalised electrons"]
+  source: "chem_v3_u1_c10_pdf110_0406"
+- term: lattice
+  slug: lattice
+  definition: "A regular arrangement of particles repeated in three dimensions. In an ionic lattice the ions are held in fixed positions and cannot move."
+  ms_accepts: ["regular/repeating arrangement of ions", "giant three-dimensional structure of particles"]
+  ms_avoids: ["a random arrangement", "a lattice made of electrons"]
+  aliases: ["ionic lattice", "giant lattice"]
+  source: "chem_v3_u1_c10_pdf112_0414"

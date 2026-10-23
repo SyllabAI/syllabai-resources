@@ -279,6 +279,12 @@ spine:
     - 109
     widget_density: high
     section_count: 10
+    # learning_objective: 5 bullets VERBATIM from LEARNING OBJECTIVES chunk chem_v3_u1_c10_pdf110_0405;
+    # the 1.58C bullet uses the spine-canonical text because the chunk fragment is OCR-garbled
+    # ("(including lead sns s a ( (ading") and split by column interleave into 2 raw fragments —
+    # disclosed in findings f-0016 (c09 0395 precedent; joined with ';'; no paraphrase)
+    learning_objective: "Understand why covalent compounds do not conduct electricity; Understand why ionic compounds conduct electricity only when molten or in aqueous solution; Know that anion and cation are terms used to refer to negative and positive ions, respectively; Describe experiments to investigate electrolysis, using inert electrodes, of molten compounds (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric acid and copper(II) sulfate) and to predict the products; Write ionic half-equations representing the reactions at the electrodes during electrolysis and understand why these reactions are classified as oxidation or reduction; Practical: Investigate the electrolysis of aqueous solutions"
+    join_set: ["1.55C", "1.56C", "1.57C", "1.58C", "1.59C", "1.60C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()). DERIVED at S0-L0 from objectives chunk 0405 x spine node igcse-chemistry-T1:SUBi = EXACTLY SIX points, one-to-one (chunk carries 7 RAW fragments — parse artifact: 1.58C split into 2 fragments by column interleave + OCR garble of the "(including lead(II) bromide) and aqueous solutions (including" segment; 5 fragments match spine titles verbatim, split pair COVERED by spine 1.58C text; reassembly law + disclosure in f-0016): covalent-non-conduction -> 1.55C; molten/aqueous-conduction -> 1.56C; anion/cation terms -> 1.57C; describe-experiments -> 1.58C; half-equations/redox -> 1.59C; practical -> 1.60C. ALL SIX C-suffixed (papers [2C], double_award_shared false per spine applicability) — chem_only: true CONFIRMED (course row default upheld by derived evidence)
   u2:
   - key: u2:c11
     slug: alkali-metals
