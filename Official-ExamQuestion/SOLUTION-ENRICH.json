@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-solution-enrichment/0.1",
- "doctrine": "wave-15 UX doctrine: authored worked answers toward the SME-style experience. Values are never invented — every number and chemical fact is traceable to the printed question, the MS answer cell or the mark points of record. The MS-derived solution_md and mark_points stay untouched in the corpus; this ledger only supplies solutionMd at export. Every entry carries the eyeball review state of its author.",
+ "doctrine": "ADR-039 fix-and-disclose: authored worked answers are ordinary disclosed enrichment (edit_status \"enriched\"). Values are never invented — every number and chemical fact is traceable to the printed question, the MS answer cell or the mark points of record, or verifies as correct arithmetic at build time (verifier promoted corpus-wide). The MS-derived solution_md and mark_points stay untouched in the corpus; this ledger only supplies solutionMd at export. Supersedes the wave-15 exception framing.",
  "review": "eyeball-authored; numeric-token census + MS-cross-check enforced at build time",
  "entries": {
   "2019-06-1C:1-a": {
