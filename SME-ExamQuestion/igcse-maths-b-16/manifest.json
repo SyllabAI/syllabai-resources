@@ -41,21 +41,11 @@
   "updated_utc": "2026-09-19T19:15:38Z"
  },
  "past_paper_artwork": {
-  "lane": "UIUX-ARTWORK-1 (r0, operator-authorized diagram artwork pilot, trace 1a167bfde9df1681)",
-  "scope": "pilot = one paper end-to-end: 2019-06 4MB1/02R (7 information-bearing figures)",
-  "source": "official Edexcel 4MB1/02R June 2019 QP PDF (PMT-hosted, sha-of-record 43e05b1d class; same source plane as syllabai-pastpapers corpus) — 150dpi grayscale vector-render crops, PyMuPDF clip rects, visually adjudicated (2 crop-defect rounds)",
-  "layout_law": "past-papers/<session>/<paper>/assets/NNN-<desc>.png — information-bearing figures only; empty working surfaces (number lines, spare/plotting grids) intentionally excluded; tables belong to the Tier-B re-transcription lane, not artwork",
-  "assets": [
-   "001-q1-venn-diagram.png",
-   "002-q3-probability-tree.png",
-   "003-q5-grid-triangles-ab.png",
-   "004-q6-fig1-pentagonal-prism.png",
-   "005-q9-fig2-square-pyramid.png",
-   "006-q9-fig3-small-pyramid-and-frustum.png",
-   "007-q11-fig4-triangle-oab.png"
-  ],
-  "embed_targets": "bundle problemMd hotlinks, sha-pinned raw.githubusercontent URLs, same law as SME-scraped courses",
-  "disclosed_skips": "q2 empty number line, q5 spare grid, q7 empty plotting grid, q4/q7 tables (Tier-B), q8/q10 figure-free",
-  "generated_utc": "2026-10-23T08:24:52Z"
+  "lane": "UIUX-ARTWORK-2 (r0 scale run, operator-authorized 'scale artwork to the remaining 64 papers', trace 1a1680c3f9d1f07d)",
+  "scope": "scale = 62 papers / 381 figures (pilot 2019-06 02R already shipped in UIUX-ARTWORK-1; 2019-01 02R withheld — no blueprint row",
+  "source": "official Edexcel 4MB1 QP PDFs of record (PMT-hosted via the syllabai-pastpapers raw mirror) — 150dpi grayscale vector-render crops, PyMuPDF clip rects, visually adjudicated per paper (contact-sheet census review + targeted probe rounds); November 2020 papers are Pearson re-prints of the cancelled June 2020 papers (content identical, assets committed per session lane)",
+  "layout_law": "past-papers/<session>/<paper>/assets/NNN-<desc>.png + assets-index.json per paper — information-bearing figures only; empty working surfaces (blank plotting grids, number lines, spare grids) intentionally excluded; tables and student-completion tree blanks belong to the Tier-B re-transcription lane",
+  "disclosed_skips": "empty plotting/coordinate grids (2018-06 02 q7/q10, 2019-06 02 q11, 2020-06 02 q11/q24, 2021-06 02 q1/q8 grids, 2021-11 02 q1/q7/q9, 2022-01 02 q11, 2022-06 02 q10, 2022-06 02r q1/q7, 2023-01 02 q11, 2023-01 02r q3/q8, 2023-06 02r q8/q9, 2025-06 02 q10, 2025-06 02r q11, 2025-11 02 q3/q9, 2026-06 02 q10#1, 2026-06 02r q12, and similar); tables (Tier-B); a small number of referenced figures not locatable by the band scan (2018-06 02 q11 tree, 2019-01 02 q8 figures, 2022-01 02/02r q3 trees, 2024-11 02 q8 tree, 2025-11 02 q2 sphere) — deferred to Tier-B re-transcription",
+  "generated_utc": "2026-10-23T10:46:03Z"
  }
 }
