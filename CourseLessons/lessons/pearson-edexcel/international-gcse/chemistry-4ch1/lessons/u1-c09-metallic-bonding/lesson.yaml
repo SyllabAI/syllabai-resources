@@ -7,9 +7,9 @@ stage: S4
 book_page_range:
 - 98
 - 99
-learning_objective: 'Know how to represent a metallic lattice by a 2D diagram; Understand
+learning_objective: Know how to represent a metallic lattice by a 2D diagram; Understand
   metallic bonding in terms of electrostatic attractions; Explain typical physical
-  properties of metals, including electrical conductivity and malleability'
+  properties of metals, including electrical conductivity and malleability
 sections:
 - id: u1:c09:s01
   title: Metallic bonding — the chapter map
@@ -79,6 +79,11 @@ receipts:
   pack_status: draft
   last_agent: T-BOOK-041 r0 (author; session web-c414c074 chat 08b3170a trace 1a16ac0ff45e3969;
     standing merge+flip authorization trace 1a1658a2da08e5bd)
+- date: '2026-10-23'
+  pack_status: published
+  last_receipt: qa/flip-published.yaml
+  last_agent: T-BOOK-041 r0 (author+flip; session web-c414c074 trace 1a16ac0ff45e3969;
+    standing merge+flip authorization trace 1a1658a2da08e5bd)
 notes: 'T-BOOK-041 r0: authored end-to-end against the chapter 10 chunks_v3 chunks
   (content pp. 98-99; book_page_range 98-99 per course.yaml — the chapter-questions
   chunks 0402-0403 (book p. 100) stay page-jump-only (licensing law); their swept-in
@@ -88,12 +93,14 @@ notes: 'T-BOOK-041 r0: authored end-to-end against the chapter 10 chunks_v3 chun
   x spine node igcse-chemistry-T1:SUBh: exactly THREE points 1.52C/1.53C/1.54C, one-to-one
   (2D-diagram -> 1.52C; electrostatic-attractions -> 1.53C; physical-properties ->
   1.54C), ALL C-suffixed (papers [2C], double_award_shared false) — chem_only: true
-  CONFIRMED (first chemistry-only pack in the course; paperRoute=chemistry-only).
+  CONFIRMED (paperRoute=chemistry-only; the course's second chemistry-only pack after
+  c06 join_set 1.34C+1.35C — correction of record at the tracker tx: the authoring/flip
+  commit messages mis-stated 'FIRST chemistry-only pack', caught and repaired here).
   learning_objective VERBATIM from 0395 (3 bullets joined with '':''; no paraphrase).
   blockIds honest-absent (blocks live in Neon L3; renderer joins by bookPage). lesson.yaml
   stage set to S4 at close (c03-c08 convention). r0 authored 2026-10-24 under lesson-prose@2.0.0
   standalone voice from first draft — no retrofit debt.'
 safety_note: no safety chunks in the c09 census (10 chunks, 0 safety) — honest-absent;
-  the chapter is bonding theory + property explanations and carries no practical
-  hazard content; did-you-know census-true x0 — honest-absent (the 10-chunk census
-  carries none)
+  the chapter is bonding theory + property explanations and carries no practical hazard
+  content; did-you-know census-true x0 — honest-absent (the 10-chunk census carries
+  none)
