@@ -572,6 +572,15 @@ The kit was run from a clean checkout of `main` as shipped:
 - Queued for tranche 2: 1332 parts (resumable driver checkpoints in the wave's
   working tree; REDO+HINTS repair mode ready).
 
+## 0.15.0 — 2026-10-24 · ADR-039 doctrine amendment: verbatim-first → fix-and-disclose (docs wave; converter follows)
+
+**Doctrine of record changes** (ADR-039, `syllabai` repo; operator directive trace `1a16ad28dae2ab99`): the verbatim-first and no-LLM constraints of ADR-037 are superseded. The pipeline improves; provenance discloses. Any tool may correct, clarify or enrich any serving field; every departure from the extracted source layer is machine-disclosed (`edit_status` + `edits[]` + `value_trace`, schema `/0.2`); graded values (marks, mark_points, MCQ keys) corroborate the MS of record or carry explicit correction evidence; G0/G1/G4/G5/G6 and the archive freeze are unchanged.
+
+- **Docs (this commit):** README banner + G2-D/G3 gate rows + negative-control paragraph; AGENTS.md doctrine quote, iron rules 1–3, converter descriptions, PUA note, MCQ-ledger evidence bar, spec-tagging scope, review-queue taxonomy, improvement-loop disclosure step; ledger doctrine strings (MCQ-KEYS, MS-LINK-OVERRIDES, SOLUTION-ENRICH, STEM-RESTORE); CANARIES purpose + C9 re-worded to undisclosed-mutation targets. LEDGER.md history untouched.
+- **No converter behaviour change yet** — outputs embed `generator: … v0.14.1` until the code wave lands: G2 → G2-D disclosure checks, N1/N2 re-specified (§5 of the ADR), `edits[]/value_trace` emission, schema bump to `syllabai.official-paper-questions/0.2`, verifier `official_examq_enrich_verify.py` promoted corpus-wide at build time, canary floor raised to 0.15.
+- **Transition receipt (pending):** full-corpus re-run re-issues all 54 slices with explicit `/0.2` provenance fields (content byte-identical, provenance blocks added); validation reports regenerate with G2-D receipts; MULTI-SERIES-REPORT refreshes; all canaries hold.
+- Two operator adjudication points gate the code wave, not the doctrine: the marking-integrity carve-out (marks/keys: propose freely, apply only with printed-MS or rendered-page evidence) and the regeneration timing (dedicated receipt run vs folded into the next content wave).
+
 ## 0.3 — 2026-10 · full-corpus batch wave (16/16 series of 4CH1/1C)
 
 New findings fixed (LEDGER.md F11–F14):

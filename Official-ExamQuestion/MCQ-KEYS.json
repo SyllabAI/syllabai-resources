@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.mcq-keys/0.1",
- "note": "Human-adjudicated MCQ answer keys where the printed mark scheme's own layout defeats positional linkage (answer rows printed in the wrong slots). Every entry carries the eyeballed key and the corrected verbatim MS rows; the converter applies both BEFORE solution emission, so solution_md / mark_points / choices[].is_correct all derive from the adjudicated block. Keys are decided from the printed MS page (rendered + viewed) and the question paper — never from model guessing.",
+ "note": "Human-adjudicated MCQ answer keys where the printed mark scheme's own layout defeats positional linkage (answer rows printed in the wrong slots). Every entry carries the eyeballed key and the corrected verbatim MS rows; the converter applies both BEFORE solution emission, so solution_md / mark_points / choices[].is_correct all derive from the adjudicated block. Keys are graded values: proposals from any source (human, agent, LLM) apply only with rendered-MS-page + QP evidence recorded in the entry (ADR-039 §7.1).",
  "adjudicated_utc": "2026-10-21",
  "evidence_dir": "uploads staged at EXAMQ_UPLOAD_DIR (official-4CH1-1C-2020-01-ms.pdf page 12 render; QP page 16)",
  "entries": [

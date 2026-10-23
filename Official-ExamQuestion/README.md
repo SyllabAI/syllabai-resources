@@ -1,9 +1,14 @@
 # Official-ExamQuestion — extracted official past-paper questions
 
-> Defined by **ADR-037** (`syllabai` repo): *official-paper questions are EXTRACTED, never
-> regenerated* — verbatim-first conversion with fail-closed gates. This directory is the
-> derived, serving-side counterpart of the byte-frozen `SyllabAI/syllabai-pastpapers`
-> archive, mirroring the layout of `../SME-ExamQuestion/`.
+> Defined by **ADR-039** (`syllabai` repo, 2026-10-24 — supersedes ADR-037's verbatim-first
+> and no-LLM clauses): *the pipeline improves; provenance discloses* — any tool may correct,
+> clarify or enrich any serving field, every departure from the extracted source layer is
+> machine-disclosed (`edit_status` + `edits[]` + `value_trace`), and graded values (marks,
+> mark_points, MCQ keys) must corroborate the mark scheme of record. ADR-037's extraction
+> layer remains the deterministic baseline disclosure is measured against; identity (G0),
+> structure (G1), figure resolution (G4), answer linkage (G5) and registry (G6) are
+> unchanged. This directory remains the derived, serving-side counterpart of the
+> byte-frozen `SyllabAI/syllabai-pastpapers` archive, mirroring `../SME-ExamQuestion/`.
 
 ## Why this lives here and NOT in syllabai-pastpapers
 
@@ -31,17 +36,24 @@
 |------|----------|
 | G0 identity | sha256(QP/MS) match `manifest.yaml`; registry paper_id wins over printed text (the "June 2020" ↔ Nov-2020 mislabel is the canonical example) |
 | G1 structure | Σ part marks = printed question total; Σ question totals = paper total |
-| G2 verbatim | every `problem_md` 5-gram-overlaps ≥0.95 with its own extracted source lines — any post-hoc edit fails loudly |
-| G3 MCQ integrity | options exactly as printed (Edexcel A–D), exactly one MS-keyed answer; unresolved → review, never auto-keyed |
+| G2-D disclosure | `edit_status` matches reality: `extracted` parts 5-gram-overlap ≥0.95 with their own source lines; `corrected`/`enriched` parts carry a complete `edits[]` (field, kind, tool, evidence_ref) and a consistent `value_trace` — undisclosed edits fail loudly; disclosed edits are lawful |
+| G3 MCQ integrity | options match the printed set (Edexcel A–D) or carry a disclosed, evidenced correction; exactly one MS-keyed answer; unresolved → review, never silently auto-keyed |
 | G4 figures | every mention resolves to a page-anchored asset record; the crop pass renders croppable figures to assets/*.png (126/158 at v0.5) |
 | G7 solutions | every MS-linked part carries solution_md + mark_points summing to the part marks |
 | G5 answers | positional linkage into the official MS; coverage reported; unmatched → review |
 | G6 registry | spec codes must exist in the SME spec-point resolution registry or be documented gaps → review; nothing fabricated |
 
-Negative controls run every session: a bumped mark, a one-word paraphrase, and a fake
-spec code MUST be DETECTED by G1/G2/G6 respectively, else the run is void.
+Negative controls run every session and target **undisclosed** mutation (ADR-039 §5): a
+bumped mark must surface as a value_trace violation, a one-word paraphrase must surface
+as a missing `edits[]` entry, and a fake spec code is still refused by G6 — all three
+MUST be DETECTED, else the run is void.
 
 ## Status (full-corpus run, converter v0.3)
+
+> **Doctrine note (ADR-039, 2026-10-24):** figures below are historical receipts of the
+> ADR-037 era and stand as recorded. "Verbatim" gate references read as G2-D disclosure
+> from converter v0.15.0 onward; the 54 slices re-issue with explicit `/0.2` provenance
+> fields on the next full-corpus run.
 
 - **All 16 series of 4CH1/1C present in syllabai-pastpapers are converted**: 169
   questions, 930 parts, 1754/1760 marks extracted, every MCQ keyed except two
