@@ -10,7 +10,7 @@ glossary: [coefficient]
 
 Before you can balance anything, you must be able to *count atoms through
 a formula* — and that means understanding the two very different kinds of
-number that appear in equations. The book uses the balanced equation
+number that appear in equations. Take the balanced equation
 
 CaCO₃ + 2HCl → CaCl₂ + CO₂ + H₂O
 
@@ -19,18 +19,18 @@ to make the point. A **big number written in front of a formula** (the
 *everything* in the formula. A **small subscript number** (the 3 in
 CaCO₃) applies **only to the atom immediately before it**.
 
-The book's second example, 2Cl → Cl₂, shows why the distinction matters
+A second example, 2Cl → Cl₂, shows why the distinction matters
 chemically, not just arithmetically: **2Cl** means two *separate* chlorine
 atoms, while **Cl₂** means two chlorine atoms *joined in a molecule*. Same
 atoms, completely different substances.
 
-Work through the book's counting example: in **2H₂SO₄** the big 2 gives
+Work through the counting example: in **2H₂SO₄** the big 2 gives
 you 2 molecules of sulfuric acid; each molecule has 2 hydrogens, 1 sulfur
 and 4 oxygens. Count the atoms in the whole expression and you find
 **4 hydrogens, 2 sulfurs and 8 oxygens**. Brackets extend the subscript's
 reach: in **Ca(OH)₂** the 2 applies to *everything inside the bracket* —
-1 calcium, 2 oxygens, 2 hydrogens. (The book points you to Chapter 7 for
-how formulae like this are worked out.)
+1 calcium, 2 oxygens, 2 hydrogens. (Chapter 7 (u1:c07) shows how
+formulae like this are worked out.)
 
 :::key-point
 A small subscript number applies only to the atom immediately before it
@@ -54,7 +54,7 @@ Confusing the two scales of "two" is the root of most miscounts.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.25 items — counting atoms
-through coefficients, subscripts and brackets. Book p. 60 question 1a–e
-(balance the given equations) → page jump only (licensing law).
+
+Question-bank join: spec 1.25 items — counting atoms through coefficients,
+subscripts and brackets.
 :::

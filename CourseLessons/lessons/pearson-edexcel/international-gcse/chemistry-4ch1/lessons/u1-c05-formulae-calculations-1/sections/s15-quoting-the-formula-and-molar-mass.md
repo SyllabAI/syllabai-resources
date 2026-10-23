@@ -9,22 +9,21 @@ glossary: []
 ---
 
 Whenever you talk about a mole of something, **you must quote its
-formula** — otherwise there is a real risk of confusion. The book's
-example is the classic: "1 mole of oxygen" could mean
+formula** — otherwise there is a real risk of confusion. The classic
+example: "1 mole of oxygen" could mean
 
 - 1 mole of oxygen **atoms**, O, with a mass of **16 g**, or
 - 1 mole of oxygen **molecules**, O₂, with a mass of **32 g**.
 
 Twice the mass, same words. The formula is what disambiguates, which is
-why exam answers (and the book itself) never say "oxygen" without the
-formula when a mole calculation is in play.
+why exam answers never say "oxygen" without the formula when a mole
+calculation is in play.
 
-The book's HINTS in this section assemble the vocabulary and the number
-sense you need:
+This section assembles the vocabulary and the number sense you need:
 
 - **'Molar mass' is often used instead of 'mass of 1 mole'** — same
   practical meaning at this level.
-- Fine print (book's EXTENSION WORK, for completeness): strictly, molar
+- Fine print (extension, for completeness): strictly, molar
   mass has units of **g/mol** while mass of 1 mole has units of **g**.
   You are unlikely to need the distinction at International GCSE.
 - **Don't over-rely on learned formulae**: if 1 mole weighs 100 g, it
@@ -47,11 +46,11 @@ plainly be nonsense here.
 "'Moles of oxygen' is a complete answer." It is not — the examiner cannot
 mark what they cannot interpret. "1 mol oxygen" is ambiguous between
 16 g (atoms) and 32 g (molecules); always write **1 mol O₂** or
-**1 mol O**. The book's rule: quote the formula, every time.
+**1 mol O**. The rule: quote the formula, every time.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.27/1.28 items — formula
-quoting and mole-mass sense checks. Book p. 60–61 questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.27/1.28 items — formula quoting and mole-mass
+sense checks.
 :::

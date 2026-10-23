@@ -15,16 +15,16 @@ relative formula mass is **56**, work out the molecular formula.
 - 56 / 14 = **4**
 - The molecule contains 4 lots of CH₂: the molecular formula is **C₄H₈**
 
-The book adds the closing check: the ratio of elements in the molecular
-formula must be the same as in the empirical formula — and indeed
-C₄H₈ cancels down to CH₂.
+The closing check: the ratio of elements in the molecular formula must
+be the same as in the empirical formula — and indeed C₄H₈ cancels down
+to CH₂.
 
-The section then turns the page to the crucible work that the next
-sections calculate. Two REMINDERs from the book set the vocabulary: when
+The section then turns to the crucible work that the next sections
+calculate. Two reminders set the vocabulary: when
 some substances crystallise from solution, water becomes chemically bound
 to the salt — **water of crystallisation** — and the salt is said to be
-**hydrated**; **[[anhydrous]]** means *without* water. Figure 5.15 shows
-barium chloride crystals being heated in a crucible: the experiment that
+**hydrated**; **[[anhydrous]]** means *without* water. Picture barium
+chloride crystals being heated in a crucible: the experiment that
 will hand you the mass data for finding **n** in BaCl₂·nH₂O.
 
 :::safety
@@ -33,8 +33,7 @@ it into the atmosphere.
 :::
 
 :::exam-hint
-The book's HINT asks the practical question you should be ready to
-answer: **how can you be sure all the water has been driven off?** Heat
+The practical question to be ready for: **how can you be sure all the water has been driven off?** Heat
 to **constant mass** — heat the crucible, weigh it, and repeat until the
 mass remains constant. If the mass is still falling, water remains; when
 it is constant, all the water has gone. The same constant-mass discipline
@@ -52,7 +51,7 @@ hope".
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.32/1.33 items — molecular
-formula from empirical formula + Mᵣ. Book p. 62 questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.32/1.33 items — molecular formula from empirical
+formula + Mᵣ.
 :::

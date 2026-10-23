@@ -9,8 +9,8 @@ glossary: [valency]
 authored: true
 ---
 
-The period axis gets its own rule from the book: **the period number
-gives the number of occupied shells, or the highest occupied shell**.
+The period axis gets its own rule: **the period number gives the number
+of occupied shells, or the highest occupied shell**.
 So calcium (electronic configuration 2, 8, 8, 2) is in **Period 4** and
 has four shells occupied, with its outermost electron in the fourth
 shell. Iodine is in **Period 5** — five occupied shells — and because it
@@ -18,8 +18,8 @@ is *also* in **Group 7**, you can deduce it has **7 electrons in the
 fifth shell**. Group gives the outer count, period gives the shell
 count: together they locate an element's chemistry exactly.
 
-The book then answers the deeper question — why do the columns behave
-like families? Its heading says it: **elements in the same group in the
+Now the deeper question — why do the columns behave like families? The
+answer is the section's own heading: **elements in the same group in the
 Periodic Table have similar chemical properties**. The evidence is a
 trio of reaction families: *all* Group 1 elements react vigorously with
 water to form hydrogen and hydroxides with similar formulae — LiOH,
@@ -33,7 +33,7 @@ in §s04: **the reactions of atoms depend on how many electrons there are
 in their outer shell** — those are the electrons that get involved when
 elements bond. Elements in the same group (apart from helium in Group 0)
 have the same number of outer-shell electrons, **therefore they react in
-similar ways**. The book's KEY POINT adds the historical wrinkle: the
+similar ways**. A historical wrinkle: the
 noble-gas group is called Group 0 (not Group 8) because when those gases
 were first discovered they were believed to combine with nothing —
 **zero combining power ([[valency]])**. It is the only group whose
@@ -70,8 +70,8 @@ outer electrons are the ones involved in reactions → similar reactions.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.22 × 2 items (period =
-occupied shells; iodine via group + period); spec 1.23 × 2 items (the
-three formula-family examples; the outer-electron causal chain). Book
-p. 36 chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.22 × 2 items (period = occupied shells; iodine
+via group + period); spec 1.23 × 2 items (the three formula-family examples;
+the outer-electron causal chain).
 :::

@@ -10,12 +10,11 @@ authored: true
 ---
 
 Atoms are made of **[[proton]]s**, **[[neutron]]s** and **[[electron]]s** — particles
-smaller than an atom, which is why the book calls them **sub-atomic
+smaller than an atom — hence the name **sub-atomic
 particles**. The protons and neutrons sit together in the **[[nucleus]]**
-at the centre of the atom (Figure 3.4 shows a helium atom, nucleus
-magnified); the electrons occupy the space around it.
+at the centre of the atom; the electrons occupy the space around it.
 
-How small is the nucleus really? The book's scale model: scale a helium
+How small is the nucleus really? Scale a helium
 atom up to the size of a sports hall and the nucleus would be no more than
 the size of a **grain of sand**. Almost all of the atom is empty space —
 yet almost all of its **mass** is in that grain of sand, because electrons
@@ -24,7 +23,7 @@ have a far smaller mass than protons and neutrons.
 The numbers you must know are **relative** values — measured against each
 other, because the real values are incredibly small (it would take about
 600 000 000 000 000 000 000 000, that is 6 × 10²³, protons to weigh 1 g).
-Table 3.1 is the book's table of record:
+One small table carries the whole story:
 
 | Particle | Relative mass | Relative charge |
 |----------|---------------|-----------------|
@@ -38,7 +37,7 @@ atom's mass. Charges: the proton is +1, the neutron is 0 (neutral), the
 electron is −1.
 
 :::key-point
-Table 3.1 — relative masses and charges: proton mass 1, charge +1;
+Relative masses and charges: proton mass 1, charge +1;
 neutron mass 1, charge 0; electron mass 1/1836, charge −1. Protons and
 neutrons are in the nucleus; electrons are outside it. Virtually all the
 atom's mass is in the nucleus.
@@ -53,13 +52,13 @@ apart and the table reads cleanly.
 
 :::exam-hint
 "State the relative masses and relative charges of the proton, neutron and
-electron" is a stock 3-mark question (spec 1.15 verbatim). Learn Table 3.1
+electron" is a stock 3-mark question (spec 1.15 verbatim). Learn the table
 as a 2 × 3 grid and write the charge **with its sign**: +1, 0, −1. A
 missing − sign loses the mark even when the number is right.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.15 × 3 items — where each
-particle sits; the relative masses; the relative charges (signs included).
-Book p. 28–29 chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.15 × 3 items — where each particle sits; the
+relative masses; the relative charges (signs included).
 :::

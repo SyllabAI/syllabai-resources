@@ -17,8 +17,8 @@ machine. A substance is:
 - a **gas** **above its boiling point**.
 
 To decide the state at room temperature, use [[room-temperature]] (20–25
-°C) and place the two fixed points on a temperature line — the book's
-Figure 1.10 technique. Oxygen's boiling point sits *below* room
+°C) and place the two fixed points on a temperature line. Oxygen's
+boiling point sits *below* room
 temperature, so oxygen is a gas at room temperature. Lithium's melting
 point sits *above* room temperature, so lithium is a solid. Bromine, as
 the worked example below shows, is a liquid.
@@ -65,6 +65,6 @@ using for room temperature.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.2 × 2 items — predict state
+Question-bank join: spec 1.2 × 2 items — predict state
 at a stated temperature; explain state at room temperature from mp/bp.
 :::

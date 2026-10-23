@@ -14,13 +14,13 @@ amount in moles** for a given substance. There is one formula to learn:
 $$\text{number of moles} = \frac{\text{mass (g)}}{\text{mass of 1 mole (g)}}$$
 
 You can rearrange it to find whatever you want. If rearranging causes
-problems, the book offers a **triangular arrangement** (Figure 5.10):
-mass on top, number of moles and mass of 1 mole on the bottom — cover the
-quantity you want and the triangle shows the operation (top ÷ bottom, or
-bottom × bottom, or top ÷ bottom). Look at it carefully, the book says,
-and make sure you can deduce all three equations from it.
+problems, use a **formula triangle**: mass on top, number of moles and
+mass of 1 mole on the bottom — cover the quantity you want and the
+triangle shows the operation (top ÷ bottom, or bottom × bottom, or top ÷
+bottom). Look at it carefully and make sure you can deduce all three
+equations from it.
 
-The book's two worked cases, both with the Mᵣ found first:
+Two worked cases, both with the Mᵣ found first:
 
 **Finding the mass of 0.2 mol of calcium carbonate, CaCO₃**
 (Aᵣ: C = 12, O = 16, Ca = 40):
@@ -41,7 +41,7 @@ is this line plus a chemical equation.
 :::
 
 :::exam-hint
-Always find (and *show*) the Mᵣ first, exactly as the book does. The two
+Always find (and *show*) the Mᵣ first. The two
 workings above each carry three visible stages — Mᵣ, then the mole-mass
 link, then the answer. That structure earns method marks even when an
 arithmetic slip lands late, and it makes your answer checkable by the
@@ -57,7 +57,6 @@ most common mole-arithmetic slip.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.28 items — mass ↔ moles
-interconversion. Book p. 61 questions (0.1 mol has mass 4 g — find the
-mass of 1 mole, and friends) → page jump only (licensing law).
+
+Question-bank join: spec 1.28 items — mass ↔ moles interconversion.
 :::

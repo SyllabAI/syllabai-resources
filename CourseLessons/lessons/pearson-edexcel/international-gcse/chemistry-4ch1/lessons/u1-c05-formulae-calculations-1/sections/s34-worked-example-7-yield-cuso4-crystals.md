@@ -14,9 +14,7 @@ hot sulfuric acid. She made **5.21 g of copper(II) sulfate crystals
 reacts with the sulfuric acid to form copper(II) sulfate in solution, and
 the copper(II) sulfate then crystallises from that solution with five
 waters of crystallisation attached — CuSO₄ → CuSO₄·5H₂O, one formula unit
-giving one formula unit of crystals. (In the printed book these two
-equations appear as images; the stoichiometry is stated word-for-word in
-the working that follows, and nothing here is invented.)
+giving one formula unit of crystals.
 
 **Deriving the theoretical yield.** First, the moles of copper(II)
 oxide — we have enough information to calculate them. Mᵣ(CuO) = 63.5 + 16
@@ -52,8 +50,8 @@ included).
 Two details make this example exam-hard. First, the product's Mᵣ must
 include the **water of crystallisation** (249.5, not 159.5 for CuSO₄) —
 use the wrong one and the whole calculation dies at the last step
-(despite correct moles). Second, note the book's own number discipline:
-0.0302 mol carries three significant figures because the mass data does.
+(despite correct moles). Second, number discipline: 0.0302 mol carries
+three significant figures because the mass data does.
 The 69.2% then lands below 100% as it should (section 33's bound).
 :::
 
@@ -67,7 +65,7 @@ mass of 1 mole; only the mole count is conserved.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.30 items — theoretical
-yield derivation plus percentage yield. Book p. 63 questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.30 items — theoretical yield derivation plus
+percentage yield.
 :::

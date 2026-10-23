@@ -13,11 +13,11 @@ An **[[element]]** is a substance that cannot be split into anything simpler
 by chemical means. Every element contains only one kind of atom — heat it,
 react it, electrocute it, and you will never chemically prize an element
 apart into different substances. In models and diagrams, elements are drawn
-as atoms of a single colour or size. The book's examples are a pure metal
+as atoms of a single colour or size. The classic examples are a pure metal
 such as magnesium, oxygen gas, and diamond (a form of carbon) — three very
-different materials, but each contains just one type of atom (Figure 2.3).
+different materials, but each contains just one type of atom.
 
-One subtlety, which the book flags in its margin: it is not *completely*
+One subtlety to catch early: it is not *completely*
 true to say an element contains only one type of atom. Most elements are
 natural mixtures of **[[isotope]]s** — atoms with the same atomic number but
 different mass numbers, because they carry different numbers of neutrons.
@@ -48,8 +48,8 @@ elements".
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.8 × 3 items — define
-element; pick the element from a list of substances; explain why a diagram
-of one-colour atoms represents an element. Book Figure 2.3 → page jump to
-book p. 14.
+
+Question-bank join: spec 1.8 × 3 items — define element; pick the element
+from a list of substances; explain why a diagram of one-colour atoms
+represents an element.
 :::

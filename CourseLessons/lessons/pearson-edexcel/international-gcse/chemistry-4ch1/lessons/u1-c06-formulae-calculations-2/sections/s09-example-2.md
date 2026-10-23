@@ -20,11 +20,11 @@ H = 1, C = 12, O = 16, Na = 23.)*
    **0.10 mol** in 1 dm³.
 4. The concentration is **0.10 mol/dm³**.
 
-The book offers the Figure 6.8 triangle as the shortcut for step 3 and 4 —
-the same solution triangle that the next section's HINT turns into the single
-most-used equation of the topic.
+The solution triangle is the shortcut for steps 3 and 4 — the same
+triangle the next section turns into the single most-used equation of the
+topic.
 
-That HINT (chunk 0287) is aimed at the questions you will actually meet:
+That hint is aimed at the questions you will actually meet:
 *"when doing calculations involving solutions you will most often be asked to
 calculate a number of moles given the volume of the solution and its
 concentration"*, via:
@@ -56,7 +56,7 @@ dm³ before quoting the unit.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C items — grams → mol/dm³
-with a non-dm³ solution volume, and the moles = volume × concentration law.
-Book p. 74 questions 11–13 → page jump only (licensing law).
+
+Question-bank join: spec 1.34C items — grams → mol/dm³ with a non-dm³
+solution volume, and the moles = volume × concentration law.
 :::

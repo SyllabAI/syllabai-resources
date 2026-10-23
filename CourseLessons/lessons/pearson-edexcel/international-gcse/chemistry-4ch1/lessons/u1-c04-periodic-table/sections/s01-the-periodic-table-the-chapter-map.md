@@ -9,11 +9,11 @@ glossary: [periodic-table]
 authored: true
 ---
 
-The book opens the chapter with a claim worth pausing on: the
+Open with a claim worth pausing on: the
 **[[periodic-table]]** shows *all the elements in the universe* and is one
 of the most important tools a chemist has. Not one of the most important
 tools in chemistry — one of the most important tools, full stop. The
-reason is the word the book underlines twice: **arrangement**. Because the
+reason is one word, worth emphasising twice: **arrangement**. Because the
 elements are laid out in a fixed, meaningful order, the table lets you
 understand **trends in properties** and **make predictions** — including
 predictions about elements nobody had ever seen.
@@ -74,7 +74,7 @@ development of the Periodic Table" style questions if they ever appear.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.18 × 2 items — the two
-arrangement facts (atomic-number order; groups and periods). Book p. 36
-chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.18 × 2 items — the two arrangement facts
+(atomic-number order; groups and periods).
 :::

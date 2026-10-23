@@ -19,8 +19,8 @@ sodium hydroxide solution in mol/dm³.*
 **Stage 1 — moles of what we can.** This time everything is known about the
 sulfuric acid: moles of H₂SO₄ = (20.0 ÷ 1000) × 0.050 = **0.0010 mol**.
 
-**Stage 2 — the ratio is the whole difficulty.** As the book puts it, *the
-equation proportions aren't 1 : 1 this time — that's what makes the
+**Stage 2 — the ratio is the whole difficulty.** *The equation proportions
+aren't 1 : 1 this time — that's what makes the
 calculation slightly different from the last one.* The equation shows 1 mol
 of sulfuric acid reacts with **2 mol** of sodium hydroxide, so moles of NaOH
 = 2 × 0.0010 = **0.0020 mol**.
@@ -29,10 +29,10 @@ of sulfuric acid reacts with **2 mol** of sodium hydroxide, so moles of NaOH
 (25.0 ÷ 1000 = 0.025 dm³) of sodium hydroxide: concentration =
 0.0020 ÷ 0.025 = **0.080 mol/dm³**.
 
-The book also flags the reverse family — *instead of calculating a
-concentration from titration results, you may be asked to calculate what
-volume of a solution is needed to neutralise something else* — and hands the
-shape to Example 4 in the next section.
+The reverse family exists too — *instead of calculating a concentration
+from titration results, you may be asked to calculate what volume of a
+solution is needed to neutralise something else* — and Example 4 in the
+next section runs that shape.
 
 :::exam-hint
 When the ratio is 2 : 1, say which way it doubles *in words* before
@@ -54,7 +54,7 @@ ratio fabricates a different experiment. Apply the ratio; don't remove it.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C items — titration
-calculations with a 2 : 1 (or 1 : 2) equation ratio in either direction.
-Book p. 74 question 16 → page jump only (licensing law).
+
+Question-bank join: spec 1.34C items — titration calculations with a 2 : 1
+(or 1 : 2) equation ratio in either direction.
 :::

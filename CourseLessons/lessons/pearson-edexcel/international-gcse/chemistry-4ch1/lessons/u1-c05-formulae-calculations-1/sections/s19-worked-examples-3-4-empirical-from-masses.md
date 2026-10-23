@@ -27,8 +27,8 @@ It is easiest in columns, using a table:
 | empirical formula                           | **Cu₂O**  |           |
 
 There are twice as many moles of Cu as O — so twice as many Cu atoms as O
-atoms in the compound. One warning from the book that examiners love:
-we are counting **atoms**, so we divide by the mass of 1 mole of oxygen
+atoms in the compound. One warning that examiners love: we are counting
+**atoms**, so we divide by the mass of 1 mole of oxygen
 **atoms** (16), **not** by 32 (the mass of 1 mole of oxygen *molecules*).
 
 **Example 4** — a sample contains **0.78 g of K, 1.10 g of Mn and
@@ -44,8 +44,8 @@ we are counting **atoms**, so we divide by the mass of 1 mole of oxygen
 | empirical formula                           | **KMnO₄** |         |          |
 
 :::exam-hint
-The book's HINT on this page: the original masses were measured to
-2 significant figures, so the numbers of moles should also be given to
+On this page: the original masses were measured to 2 significant
+figures, so the numbers of moles should also be given to
 2 significant figures (0.010). If you write 0.01 in the exam that is fine
 and still gives the correct answer — but match your figure count to your
 data, deliberately rather than accidentally.
@@ -55,12 +55,12 @@ data, deliberately rather than accidentally.
 "0.16 g of O is 0.16/32 = 0.005 mol, so the formula would be Cu₄O." The
 compound's formula counts **atoms**, and the oxygen in it arrived as
 individual atoms — divide by 16 (1 mol of O atoms), not 32 (1 mol of O₂
-molecules). The book stops mid-chapter to say exactly this; it is the
-single most common empirical-formula slip.
+molecules). Worth stopping for: this is the single most common
+empirical-formula slip.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.33 items — empirical
-formulae from mass data in table form. Book p. 62 questions → page jump
-only (licensing law).
+
+Question-bank join: spec 1.33 items — empirical formulae from mass data in
+table form.
 :::

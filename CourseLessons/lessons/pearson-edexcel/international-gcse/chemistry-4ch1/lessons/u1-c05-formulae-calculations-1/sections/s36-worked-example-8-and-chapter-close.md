@@ -28,19 +28,18 @@ reacts with **4 mol HNO₃**, so:
 We have **more** than 0.20 mol HNO₃ (we have 0.40 mol) — therefore
 **HNO₃ is in excess** (and the copper is the limiting reagent).
 
-The book's follow-through: if the question went further and asked for the
+The follow-through: if the question went further and asked for the
 amount of NO₂ produced *using these quantities*, you would have to use
 the **copper's** moles — not all the HNO₃ is used up. From the equation,
 2 mol Cu produce 2 mol NO₂, so 0.050 mol Cu gives 2 × 0.050 =
 **0.10 mol NO₂**. This is exactly the section 35 law: the limiting
 reagent feeds the product calculation.
 
-The chapter's question set (pp. 60–63) then drills everything: balancing
-equations, mole and molar-mass conversions, empirical formulae from
-percentages, reacting masses through CaCO₃ and the extraction reactions,
-and yield problems — **page jump only** (licensing law: the questions
-stay in the book; this lesson's practice is wired to the question bank
-through the derived-links quick-checks above).
+The closing skills to self-check: balancing equations, mole and
+molar-mass conversions, empirical formulae from percentages, reacting
+masses through CaCO₃ and the extraction reactions, and yield problems —
+this lesson's practice is wired to the question bank through the
+quick-checks above.
 
 :::summary
 - Equations must **balance** — same atoms out as in. Balance with big
@@ -90,8 +89,8 @@ One chapter, one spine: **the mole converts between what you can weigh
 this chapter is that conversion wearing a different coat — equation
 reading, Mᵣ assembly, empirical formulae, practicals, yields, excess.
 When a question looks unfamiliar, find which link of the chain it is
-testing and run that link; the book's question set (pp. 60–63) maps the
-coats one-to-one.
+testing and run that link; the quick-checks above map the coats
+one-to-one.
 :::
 
 :::misconception
@@ -104,7 +103,7 @@ will save the answer.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.29 items — excess-reagent
-problems with mixed mass/mole data (Example 8 pattern). Book pp. 60–63
-chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.29 items — excess-reagent problems with mixed
+mass/mole data (Example 8 pattern).
 :::

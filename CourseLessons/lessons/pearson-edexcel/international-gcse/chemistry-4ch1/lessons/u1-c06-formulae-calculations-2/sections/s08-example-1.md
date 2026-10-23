@@ -8,12 +8,12 @@ blocks: []
 glossary: [concentration]
 ---
 
-The book's Example 1 runs the × Mᵣ direction of the bridge. *What is the
+Example 1 runs the × Mᵣ direction of the bridge. *What is the
 concentration of a 0.050 mol/dm³ solution of sodium carbonate, Na₂CO₃, in
 g/dm³? (Aᵣ: C = 12, O = 16, Na = 23.)*
 
-The book reasons per dm³ of solution, which is the cleanest way to see the
-units do the work:
+Reason per dm³ of solution — the cleanest way to see the units do the
+work:
 
 1. 1 dm³ of solution contains **0.050 mol** of Na₂CO₃.
 2. Mᵣ of Na₂CO₃ = (2 × 23) + 12 + (3 × 16) = **106**, so 1 mol weighs 106 g.
@@ -42,7 +42,7 @@ two numbers.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.34C items — mol/dm³ → g/dm³
-conversions with an explicit Mᵣ step. Book p. 74 questions 11–13 → page jump
-only (licensing law).
+
+Question-bank join: spec 1.34C items — mol/dm³ → g/dm³ conversions with an
+explicit Mᵣ step.
 :::

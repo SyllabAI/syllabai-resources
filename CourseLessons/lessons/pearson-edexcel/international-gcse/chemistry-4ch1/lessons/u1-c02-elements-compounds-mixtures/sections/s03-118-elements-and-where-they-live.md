@@ -42,6 +42,7 @@ element named from the periodic table. Keep it short — command word
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.8 × 2 items — how many
-elements exist; natural vs artificial elements. Book p. 15 → page jump.
+
+Question-bank join: spec 1.8 × 2 items — how many elements exist; natural vs
+artificial elements.
 :::

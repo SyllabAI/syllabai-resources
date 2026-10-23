@@ -13,12 +13,12 @@ Chromatography does more than split a mixture — it tells you **what is in
 it**. Suppose your unknown mixture (m) might contain dyes d1, d2, d3 and
 d4. Draw a pencil line on a larger sheet, spot the mixture at one mark and
 small spots of the four *known* dyes at the others, then develop the
-[[chromatogram]] as in §s09 (Figure 2.13). Then compare — and measure
+[[chromatogram]] as in §s09. Then compare — and measure
 carefully: always measure to the **centre of the spot**.
 
 The comparison rule: if a spot in the mixture has the **same colour** and
-travelled the **same distance** as a known dye, they match. In the book's
-experiment, mixture m produced spots corresponding to d1, d3 and d4. Dye
+travelled the **same distance** as a known dye, they match. Here, mixture
+m produces spots corresponding to d1, d3 and d4. Dye
 d2 is the trap: its colour matches a spot in the mixture, but it travelled
 a *different* distance — so it must be a different compound.
 
@@ -29,7 +29,8 @@ distance up the paper. So we report a ratio instead — the
 > Rf = distance moved by the spot (from the pencil line) ÷ distance moved
 > by the solvent front (from the pencil line)
 
-In Figure 2.13 the solvent front moved 3.6 cm, so for dye d3: Rf =
+In the chromatogram just described, the solvent front moved 3.6 cm, so for
+dye d3: Rf =
 2.9 ÷ 3.6 = **0.81**. The mixture's three spots give blue 0.9 ÷ 3.6 =
 0.25, orange 2.0 ÷ 3.6 = 0.56, green 2.9 ÷ 3.6 = 0.81 — and the known dyes
 give d1 = 0.56, d2 = 0.36, d3 = 0.81, d4 = 0.25. Matching values identify
@@ -41,9 +42,7 @@ units**. And Rf values only compare fairly on the **same paper and same
 solvent** — here every spot shared one sheet, so the comparison was safe;
 separate sheets are fine too, as long as paper type and solvent match.
 
-The book's chapter questions for this section (pp. 22–23 — including the
-anonymous-letter ink problem) stay in the book; this lesson's practice is
-wired to the question bank below.
+This lesson's practice is wired to the question bank below.
 
 :::key-point
 Rf value = distance moved by spot ÷ distance moved by solvent front,
@@ -53,7 +52,7 @@ solvent.
 :::
 
 :::worked-example
-Mixture m vs dyes d1–d4 (Figure 2.13, solvent front 3.6 cm): m's spots —
+Mixture m vs dyes d1–d4 (solvent front 3.6 cm): m's spots —
 blue 0.25, orange 0.56, green 0.81. Known dyes — d1 0.56, d2 0.36,
 d3 0.81, d4 0.25. Match: 0.25 = d4, 0.56 = d1, 0.81 = d3 → **m contains
 d1, d3 and d4**. d2's colour matches but its Rf (0.36) appears nowhere in
@@ -64,16 +63,16 @@ m, so d2 is absent — colour alone never decides; distance (Rf) does.
 Rf is a ratio of two lengths, so the skill is division with sense-checking:
 spot distance (smaller) on top, solvent-front distance (larger) below.
 Sanity-check the answer — if Rf > 1 you inverted the fraction. Quote Rf to
-2 decimal places, exactly as the book does (0.25, 0.56, 0.81).
+2 decimal places (0.25, 0.56, 0.81 in the example above).
 :::
 
 :::cross-curricular
 **Maths:** an Rf value is a scale-invariant ratio — the same idea as a
 scale factor on a map, which is exactly why it works when raw distances
 change between runs.
-**Forensics:** the book's anonymous-letter problem is real forensic
-practice — comparing an unknown ink against a library of known inks by
-matching Rf values on the same chromatogram.
+**Forensics:** the anonymous-letter problem is real forensic science —
+comparing an unknown ink against a library of known inks by matching Rf
+values on the same chromatogram.
 :::
 
 :::misconception
@@ -93,12 +92,12 @@ spot**. And keep Rf unitless — writing "0.81 cm" throws the mark away.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.11 × 2 items — what a
-chromatogram tells you about composition; why a matching colour is not
-enough. spec 1.12 × 3 items — calculate an Rf from distances; spot the
-inverted-ratio error; explain why Rf beats raw distance. spec 1.13 × 1
-item — the minimum-number-of-dyes argument. Book pp. 22–23 chapter
-questions → page jump only (licensing law).
+
+Question-bank join: spec 1.11 × 2 items — what a chromatogram tells you
+about composition; why a matching colour is not enough. spec 1.12 × 3 items
+— calculate an Rf from distances; spot the inverted-ratio error; explain why
+Rf beats raw distance. spec 1.13 × 1 item — the minimum-number-of-dyes
+argument.
 :::
 
 :::summary

@@ -9,7 +9,7 @@ glossary: []
 authored: true
 ---
 
-The book's Example 2 runs the §s10 recipe on a heavy atom. The symbol for
+This worked example runs the §s10 recipe on a heavy atom. The symbol for
 uranium is given in a Periodic Table as **²³⁸U (uranium, atomic number
 92)**. Calculate the number of protons, neutrons and electrons in an atom
 of uranium.
@@ -20,17 +20,16 @@ of uranium.
 - Neutrons = mass number − atomic number = 238 − 92 = **146**.
 
 Same three lines as always — the atom just gets heavier. (For this you
-will need the Periodic Table in Appendix A, page 320.)
+will need the Periodic Table printed in your exam paper.)
 
-The book closes the chapter with its own question set on pp. 28–29:
-particle locations and charges (Q1), fluorine's counts (Q2), counting from
-nuclide-style symbols like ⁵⁶Fe and ⁹³₄₁Nb (Q3), chlorine's two isotopes
-(Q4), and a run of relative-atomic-mass calculations — lithium (Q5),
-magnesium with three isotopes (Q6), lead with four (Q7, with the
-abundance table printed on p. 29) and iridium (Q8). Those questions stay
-in the book; this lesson's practice is wired to the question bank below.
+The chapter-closing skill list is worth self-checking: particle locations
+and charges; counting the particles in a fluorine atom; reading
+nuclide-style symbols like ⁵⁶Fe and ⁹³₄₁Nb; chlorine's two isotopes; and a
+run of relative-atomic-mass calculations — lithium, magnesium with three
+isotopes, and lead with four. This lesson's practice is wired to the
+question bank below.
 
-One last fact from the book, for the road: considering only the most
+One last fact for the road: considering only the most
 common isotope of each element, there is **only one element that has more
 protons than neutrons**. Work it out with the recipe — the answer is
 hydrogen, whose most common atom (¹H) has 1 proton and **0** neutrons;
@@ -47,7 +46,7 @@ neutrons.
 
 :::key-point
 The counting recipe is atom-independent: ²³⁸U → 92 protons, 92 electrons,
-146 neutrons. And a chapter-closing curiosity from the book — hydrogen-1
+146 neutrons. And a chapter-closing curiosity — hydrogen-1
 is the only most-common-isotope atom with more protons than neutrons
 (1 proton, 0 neutrons).
 :::
@@ -68,10 +67,10 @@ the method mark; the three numbers are the answer marks.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.16 × 2 items — reproduce
-the uranium counts; the hydrogen-1 exception. spec 1.17 × 1 item — the
-lead four-isotope weighted mean. Book pp. 28–29 chapter questions → page
-jump only (licensing law).
+
+Question-bank join: spec 1.16 × 2 items — reproduce the uranium counts; the
+hydrogen-1 exception. spec 1.17 × 1 item — the lead four-isotope weighted
+mean.
 :::
 
 :::summary

@@ -15,8 +15,8 @@ atom is neutral — so the two charges must cancel exactly:
 
 > number of electrons = number of protons
 
-The book's two checks: an oxygen atom (atomic number 8) has 8 protons, so
-it must also have 8 electrons; a chlorine atom (atomic number 17) has 17
+Two checks: an oxygen atom (atomic number 8) has 8 protons, so it must
+also have 8 electrons; a chlorine atom (atomic number 17) has 17
 protons and therefore 17 electrons. The key feature throughout is knowing
 the **atomic number** — one look-up on the Periodic Table (§s10) and all
 three counts follow: protons from the atomic number, electrons from the
@@ -24,7 +24,7 @@ protons, neutrons from mass number − atomic number.
 
 Why, then, is the atomic number *defined* in terms of protons rather than
 electrons, when either count starts from the other in a neutral atom? The
-book's answer matters for the whole course: the number of electrons can
+answer matters for the whole course: the number of electrons can
 **change in chemical reactions**, for example when atoms form
 **[[ion]]**s (Chapter 7) — but the number of protons in the nucleus never
 changes chemically. Protons are the stable identity; electrons are the
@@ -47,14 +47,14 @@ electrons. A neutral oxygen atom: 8 protons, 8 electrons, and (for ¹⁶O)
 
 :::exam-hint
 "Explain why the number of protons in an atom must always equal the number
-of electrons" is the book's own end-of-chapter part (d) — and the marks
+of electrons" is a stock end-of-chapter part (d) — and the marks
 are: *charges equal and opposite* (+1/−1) *and atoms are neutral, so the
 charges must cancel*. Both halves, in that order.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.15 × 2 items — the
-charge-cancellation argument; count all three particles for oxygen.
-spec 1.16 × 1 item — why the atomic number is defined via protons. Book
-p. 28–29 chapter questions (fluorine Q2) → page jump only (licensing law).
+
+Question-bank join: spec 1.15 × 2 items — the charge-cancellation argument;
+count all three particles for oxygen. spec 1.16 × 1 item — why the atomic
+number is defined via protons.
 :::

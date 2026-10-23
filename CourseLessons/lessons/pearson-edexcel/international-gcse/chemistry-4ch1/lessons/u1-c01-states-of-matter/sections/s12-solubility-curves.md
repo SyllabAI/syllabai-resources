@@ -11,8 +11,8 @@ authored: true
 
 **CHEMISTRY ONLY.** Solubility changes with temperature, so plot
 [[solubility]] against temperature and you get a **solubility curve**.
-Most solids have curves like the ones the book shows for potassium nitrate
-and potassium chloride (Figure 1.18): solubility **increases** with
+Most solids have curves like those for potassium nitrate and potassium
+chloride: solubility **increases** with
 temperature — either dramatically (KNO₃) or only a little (KCl).
 
 Solubility curves earn their keep by predicting **crystals**. Take
@@ -23,7 +23,7 @@ nitrate in 100 g of water, cooled from 90 °C to 30 °C, must release
 **[[crystallisation]]s out** of the solution — or precipitates out — as
 crystals.
 
-One graph-drawing note from the book: the solubility curve here is
+One graph-drawing note: the solubility curve here is
 virtually a straight line, but that will not always be the case — if you
 are asked to draw a line of best fit, it can be either a straight line or
 a curve.
@@ -53,6 +53,6 @@ lines to read values; mark schemes allow small read-off tolerances.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.6C × 2 items — read a
+Question-bank join: spec 1.6C × 2 items — read a
 value off a solubility curve; calculate mass of crystals on cooling.
 :::

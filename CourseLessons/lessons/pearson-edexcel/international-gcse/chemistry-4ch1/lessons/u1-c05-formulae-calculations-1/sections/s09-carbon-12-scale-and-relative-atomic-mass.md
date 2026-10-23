@@ -8,8 +8,7 @@ blocks: []
 glossary: [relative-atomic-mass, carbon-12-scale]
 ---
 
-The book sets up the whole second half of the chapter with a practical
-question: make iron(II) sulfide by heating iron with sulfur —
+A practical question sets up the whole second half of the chapter: make iron(II) sulfide by heating iron with sulfur —
 
 Fe + S → FeS
 
@@ -33,7 +32,7 @@ relative mass of **24**.
 
 **From isotopes to Aᵣ.** Real samples contain a *mixture* of isotopes, so
 we need the average mass of an atom taking them all into account — the
-relative atomic mass. The book's definition, verbatim:
+relative atomic mass. The definition, verbatim:
 
 > The relative atomic mass of an element is the **weighted average mass**
 > of the isotopes of the element. It is measured on **the carbon-12
@@ -41,8 +40,8 @@ relative atomic mass. The book's definition, verbatim:
 
 Because these are *relative* masses, they have **no units**. Chlorine's
 Aᵣ is 35.45 (quoted 35.5), lithium's is 6.94 (quoted 7), sodium's is
-22.99 (quoted 23) — averages over their isotope mixtures. The book's
-convention for International GCSE: use the Periodic Table values, with
+22.99 (quoted 23) — averages over their isotope mixtures. The
+International GCSE convention: use the Periodic Table values, with
 decimals where given (Cl 35.5, Cu 63.5).
 
 :::key-point
@@ -52,7 +51,7 @@ is present** in the sample — the weighted-average method from Chapter 3
 :::
 
 :::exam-hint
-The book's HINT draws a vocabulary line the examiner enforces: avoid
+One vocabulary line the examiner enforces: avoid
 **'relative molecular mass'** for ionic substances — it can only properly
 describe actual molecules (covalent substances). You should not use it
 for magnesium oxide or sodium chloride. **Relative formula mass covers
@@ -69,7 +68,7 @@ each isotope is present) reappearing as the foundation for Mᵣ.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.26 items — the carbon-12
-scale and Aᵣ as weighted average. Book p. 60–61 mole questions → page
-jump only (licensing law).
+
+Question-bank join: spec 1.26 items — the carbon-12 scale and Aᵣ as weighted
+average.
 :::

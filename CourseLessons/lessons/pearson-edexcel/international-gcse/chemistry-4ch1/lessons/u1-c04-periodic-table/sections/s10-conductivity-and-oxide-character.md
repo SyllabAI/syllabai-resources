@@ -9,8 +9,8 @@ glossary: [basic-oxide, acidic-oxide, amphoteric-oxide, delocalised-electron, gr
 authored: true
 ---
 
-There are many differences between metals and non-metals, but the book
-designates **two main ones to classify them**: **electrical
+There are many differences between metals and non-metals, but **two
+main ones classify them**: **electrical
 conductivity** and **the acid-base character of their oxides**. These two
 tests are spec 1.20, and they work where position alone wobbles (that
 arsenic problem from §s09).
@@ -19,7 +19,7 @@ arsenic problem from §s09).
 not generally conduct. The *reason* waits for Chapter 9 — metals conduct
 because they contain **[[delocalised-electron]]s that are free to move**
 — but the observation itself is the classifier: it is why metals such as
-copper are used in electrical wires (the book's Figure 4.10).
+copper are used in electrical wires.
 Non-metals do not conduct because they have no free-to-move electrons or
 mobile ions — **with a few exceptions, such as [[graphite]] (a form of
 carbon) and silicon**.
@@ -29,13 +29,12 @@ forms copper(II) oxide (CuO), which reacts with sulfuric acid to form
 the salt copper(II) sulfate. Non-metals generally form **[[acidic-oxide]]s**: sulfur(IV) oxide (SO₂) — familiar as one of the gases
 responsible for acid rain — reacts with **bases/alkalis to form salts**;
 carbon dioxide, an acidic oxide, reacts with sodium hydroxide, an alkali.
-The book's KEY POINT completes the water-solubility picture: a *soluble*
+The water-solubility picture completes here: a *soluble*
 basic oxide dissolves to form an **alkali** (sodium oxide + water →
 sodium hydroxide solution); a *soluble* acidic oxide dissolves to form an
 **acidic solution** (sulfur(IV) oxide + water → sulfurous acid).
 
-And the exceptions box, exactly as the book draws it: **some metals form
-amphoteric oxides** — e.g. **Al₂O₃**, an **[[amphoteric-oxide]]** that
+And the exceptions box: **some metals form amphoteric oxides** — e.g. **Al₂O₃**, an **[[amphoteric-oxide]]** that
 reacts with acids *and* bases — and **some non-metal oxides (e.g. CO)
 are neutral**. The figures close the section with two caution photographs:
 mercury, a metal that is liquid at room temperature, and shiny sulfur
@@ -60,7 +59,7 @@ but the voltmeter-and-ammeter test is pure physics.
 
 :::misconception
 "Non-metals never conduct electricity." The rule is *do not generally
-conduct* — the book names its exceptions twice because they matter:
+conduct* — the named exceptions matter and they are worth memorising:
 **graphite** and **silicon**. Classify by the default AND know the named
 exceptions; a classification question built on graphite is testing
 exactly this.
@@ -75,8 +74,8 @@ silicon, aluminium (amphoteric oxide) or carbon monoxide (neutral oxide).
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.20 × 3 items — the two
-classifier tests; soluble oxide + water outcomes (alkali vs acidic
-solution); the Al₂O₃ / CO exceptions. Book p. 36 chapter questions →
-page jump only (licensing law).
+
+Question-bank join: spec 1.20 × 3 items — the two classifier tests; soluble
+oxide + water outcomes (alkali vs acidic solution); the Al₂O₃ / CO
+exceptions.
 :::

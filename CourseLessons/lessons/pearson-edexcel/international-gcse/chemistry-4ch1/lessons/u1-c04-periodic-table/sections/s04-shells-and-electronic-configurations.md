@@ -10,16 +10,15 @@ authored: true
 ---
 
 The electrons move around the nucleus in a series of levels called
-**energy levels** or **[[shell]]s** — the book uses the two terms
-interchangeably, and so will this lesson. Each energy level can only hold
+**energy levels** or **[[shell]]s** — the two terms are
+interchangeable, and this lesson uses both. Each energy level can only hold
 a certain number of electrons; **lower energy levels are always filled
 before higher ones**, and the lowest energy level is the one closest to
-the nucleus (the book's Figure 4.3 shows the maximum each level holds).
-The arrangement of electrons in an atom is called its
-**[[electronic-configuration]]** — that phrase is the book's KEY POINT
-definition, and it is exam vocabulary.
+the nucleus — and each level has a **maximum** it can hold. The
+arrangement of electrons in an atom is called its
+**[[electronic-configuration]]** — and it is exam vocabulary.
 
-The book's worked method, using **chlorine** as its example, is the
+The worked method, using **chlorine** as its example, is the
 one to memorise. Look up the atomic number in the Periodic Table —
 making sure you take the **smaller** of the two numbers if you have a
 choice. Chlorine's atomic number is **17**, so a neutral chlorine atom
@@ -32,11 +31,11 @@ that the electrons add up to the right number** — here, 17.
 
 To draw the arrangement, draw circles to represent the shells and put
 dots or crosses on the circles for the electrons — you may choose either.
-Hydrogen has 1 electron and helium has 2 in the first shell (the book's
-Figure 4.4). The eight Period 2 elements then fill the second shell the
-same way (Figure 4.5); the atoms from sodium to argon fill the third
-shell in exactly the same way; and **potassium and calcium start to fill
-the fourth shell** (Figure 4.6): 2,8,8,1 and 2,8,8,2. It does not matter
+Hydrogen has 1 electron and helium has 2 in the first shell. The eight
+Period 2 elements then fill the second shell the same way; the atoms from
+sodium to argon fill the third shell in exactly the same way; and
+**potassium and calcium start to fill the fourth shell**: 2,8,8,1 and
+2,8,8,2. It does not matter
 at this level whether you draw the electrons singly or in pairs.
 
 :::worked-example
@@ -65,7 +64,7 @@ took the extra electron before you write anything else.
 
 :::misconception
 "The circles in the diagram are the paths the electrons travel along."
-No — the book is explicit: drawing circles does **not** imply the
+No — drawing circles does **not** imply the
 electrons are orbiting the nucleus along the circles. The circles
 represent **energy levels**; the further a level is from the nucleus,
 the higher its energy, and it is impossible to work out exactly how an
@@ -73,16 +72,16 @@ electron moves within its level.
 :::
 
 :::exam-hint
-"Shell" and "energy level" are used interchangeably, and the book says
-plainly that **both terms are accepted in the examination** — use
+"Shell" and "energy level" are used interchangeably, and **both terms
+are accepted in the examination** — use
 whichever you prefer, consistently. Two drawing conventions are also
 both acceptable: helium's two electrons as a pair or on opposite sides
 of the circle, and electrons drawn singly or in pairs throughout.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.19 × 3 items — the shell
-capacities (2, 8, 8) and inner-before-outer filling; the chlorine 2, 8, 7
-walk-through; potassium and calcium as the fourth-shell starters. Book
-p. 36 chapter questions → page jump only (licensing law).
+
+Question-bank join: spec 1.19 × 3 items — the shell capacities (2, 8, 8) and
+inner-before-outer filling; the chlorine 2, 8, 7 walk-through; potassium and
+calcium as the fourth-shell starters.
 :::

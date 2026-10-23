@@ -67,9 +67,8 @@ melting. Answers claiming particles "expand" score nothing.
 :::
 
 :::quick-check
-Question-bank join (derived-links law — the renderer wires real items from
-the bank by specRefs; question text is never authored here):
-- spec 1.1 × 2 items (one "state", one "describe the arrangement…");
-- spec 1.1 × 1 item on comparing energies of the three states.
-Book opener figures 1.2–1.3 → page jump to book p. 3.
+
+Question-bank join: - spec 1.1 × 2 items (one "state", one "describe the
+arrangement…"); - spec 1.1 × 1 item on comparing energies of the three
+states.
 :::

@@ -16,8 +16,8 @@ Fe₂O₃ + 3C → 2Fe + 3CO
 **Calculate the mass of iron which can be formed from 1000 g of iron
 oxide.**
 
-**Step 1.** Mᵣ(Fe₂O₃) = (2 × 56) + (3 × 16) = **160** (the book's KEY
-POINT builds it exactly so). So:
+**Step 1.** Mᵣ(Fe₂O₃) = (2 × 56) + (3 × 16) = **160**, built exactly
+so. So:
 
 number of moles = 1000 / 160 = **6.25 mol Fe₂O₃**
 
@@ -36,9 +36,9 @@ Fe₂O₃ produces 112/160 g; therefore 1000 g produces
 1000 × 112/160 = **700 g**.
 
 :::exam-hint
-The book's HINTs arm you for industrial-scale variants: **you should be
+Arm yourself for industrial-scale variants: **you should be
 told how many grams there are in a tonne** if the question needs it
-(the conversion, Figure 5.18: 1 tonne = 1 000 000 g), and note that
+(the conversion: 1 tonne = 1 000 000 g), and note that
 1 000 000 might be written as 10⁶ or 1 × 10⁶ — "these are both the
 same". The next section uses exactly this conversion.
 :::
@@ -52,7 +52,7 @@ ignoring the 2 halves your answer (350 g instead of 700 g).
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.29 items — reacting-mass
-problems with non-1:1 ratios. Book p. 63 questions → page jump only
-(licensing law).
+
+Question-bank join: spec 1.29 items — reacting-mass problems with non-1:1
+ratios.
 :::

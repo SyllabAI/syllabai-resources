@@ -14,8 +14,7 @@ that in for **masses**. Take the methane equation again:
 CH₄ + 2O₂ → CO₂ + 2H₂O
 
 Interpreted in moles: **1 mol CH₄ reacts with 2 mol O₂** to form 1 mol
-CO₂ and 2 mol H₂O. The book's KEY POINT adds the molecular bookkeeping
-beneath it: 2 mol of O₂ contains twice as many molecules as 1 mol of
+CO₂ and 2 mol H₂O. The molecular bookkeeping beneath it: 2 mol of O₂ contains twice as many molecules as 1 mol of
 CH₄ — the proportions you weigh out are the proportions that the
 molecules react in.
 
@@ -27,9 +26,8 @@ H₂O = 18):
 
 Check the bookkeeping with the conservation instinct from section 4:
 16 + 64 = 80 g on the left; 44 + 36 = 80 g on the right. Mass conserved,
-moles proportioned — the equation is now a quantitative recipe, and the
-book's Figure 5.16 (glowing limestone) previews the first full problem
-in the next section: limestone, impure calcium carbonate, decomposes on
+moles proportioned — the equation is now a quantitative recipe. The
+first full problem, previewed here, arrives in the next section: limestone, impure calcium carbonate, decomposes on
 heating to calcium oxide (quicklime) and carbon dioxide — a **thermal
 decomposition** with Mᵣ(CaCO₃) = 100 and Mᵣ(CaO) = 56, the two numbers
 you will need.
@@ -58,7 +56,6 @@ broken.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.28/1.29 items — mole-recipe
-to mass conversions. Book p. 62–63 questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.28/1.29 items — mole-recipe to mass conversions.
 :::

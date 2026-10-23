@@ -40,8 +40,9 @@ solid left over); allow the solution to cool to exactly 40 °C; pour off
 some solution into the basin — **solution only, no solid**; weigh basin +
 contents; heat gently to evaporate off the water; re-weigh, then heat and
 re-weigh again — **heating to constant mass** — to be sure all the water
-has gone. With the book's results (basin 25.72 g; basin + solution 58.00
-g; basin + dry crystals 38.00 g): mass of solid = 12.28 g, mass of water
+has gone. With a recorded set of results (basin 25.72 g; basin +
+solution 58.00 g; basin + dry crystals 38.00 g): mass of solid = 12.28 g,
+mass of water
 = 20.00 g. Twelve point two eight grams dissolves in 20.00 g of water, so
 five times as much dissolves in 100 g — the solubility of potassium
 nitrate at 40 °C is **61.4 g per 100 g of water**. In general:
@@ -80,7 +81,7 @@ evaporating basin and cause burns.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.4 × 2 (solute/solvent/
+Question-bank join: spec 1.4 × 2 (solute/solvent/
 solution/saturated definitions); spec 1.5C × 1 (define solubility, quote
 temperature); spec 1.7C × 2 (practical method + constant-mass reasoning).
 :::

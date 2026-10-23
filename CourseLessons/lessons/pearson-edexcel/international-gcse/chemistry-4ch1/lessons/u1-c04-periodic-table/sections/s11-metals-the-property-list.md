@@ -9,17 +9,16 @@ glossary: [malleable, ductile, metallic-lustre]
 authored: true
 ---
 
-Beyond the two classifier tests, the book gives the fuller character
-reference for metals — a property list where almost every line carries
+Beyond the two classifier tests, here is the fuller character reference
+for metals — a property list where almost every line carries
 its own exception, which is exactly why the list teaches careful
 science. Metals:
 
 - **tend to be solids** with **high melting and boiling points**, and
   with **relatively high densities** — but as with several properties in
   this list there are exceptions: **mercury is a liquid** at room
-  temperature (the book's Figure 4.11 gives it a full portrait: high
-  density, shiny, conducts electricity, forms positive ions — liquid
-  anyway);
+  temperature — a full portrait of an exception: high density, shiny,
+  conducts electricity, forms positive ions — liquid anyway);
 - **are shiny** — they have a **[[metallic-lustre]]** — when polished or
   freshly cut;
 - **are [[malleable]]** (can be hammered into shape);
@@ -30,8 +29,8 @@ science. Metals:
 
 Notice the two forward references: the *ionic compounds* and *positive
 ions* lines both point at Chapter 7 — the bonding chapter will explain
-*why* metals lose electrons. And notice which two properties the book
-chose as the *classifiers* back in §s10 (conductivity, oxide character):
+*why* metals lose electrons. And notice which two properties were
+chosen as the *classifiers* back in §s10 (conductivity, oxide character):
 they are the two the list cannot hedge about, which is what made them
 worth promoting to spec-level tests.
 
@@ -45,7 +44,7 @@ AND heat; form ionic compounds and positive ions (both Chapter 7).
 :::misconception
 "All metals are solid with high melting points." The word doing the work
 is **tend** — mercury is a metal that is liquid at room temperature,
-and the book's figure caption makes it the official exception. Property
+the official named exception. Property
 lists describe the *tendency* of a class; a single named exception is
 enough to break an absolute claim.
 :::
@@ -60,8 +59,7 @@ paired to their verbs.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.20/1.21 × 2 items — the
-metals property list with the mercury exception; malleable vs ductile
-vocabulary. Book p. 36 chapter questions → page jump only (licensing
-law).
+
+Question-bank join: spec 1.20/1.21 × 2 items — the metals property list with
+the mercury exception; malleable vs ductile vocabulary.
 :::

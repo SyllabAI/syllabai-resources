@@ -14,9 +14,9 @@ you will recognise once you meet organic chemistry in Unit 4. The
 molecule) has to be a **multiple** of the empirical formula, like C₄H₁₀.
 
 The conversion needs exactly one extra piece of information: **the
-relative formula mass of the compound** — or the mass of 1 mole, which is
-just the Mᵣ in grams. The book continues the previous example: suppose
-you are told the relative formula mass is **58**.
+relative formula mass of the compound** — or the mass of 1 mole, which
+is just the Mᵣ in grams. Continuing the previous example: suppose you
+are told the relative formula mass is **58**.
 
 - Mᵣ of C₂H₅ = (2 × 12) + (5 × 1) = **29** (Aᵣ: H = 1, C = 12)
 - How many times does 29 go into 58? **58 / 29 = 2**
@@ -38,7 +38,7 @@ whole number, the data is consistent; if it does not, something upstream
 :::exam-hint
 Show the division as its own line (58 / 29 = 2) and *then* the scaled
 formula — method marks live in the n step, not just the final C₄H₁₀.
-And note what the book flags: knowing "a bit more organic chemistry"
+And note: knowing "a bit more organic chemistry"
 (Unit 4) is how you'd *spot* that C₂H₅ is impossible — but you do not
 need that knowledge in the exam; the Mᵣ does the deciding for you.
 :::
@@ -52,7 +52,7 @@ the scaling factor with the formula itself.
 :::
 
 :::quick-check
-Question-bank join (derived-links law): spec 1.32/1.33 items —
-empirical-to-molecular conversion via Mᵣ. Book p. 62 questions → page
-jump only (licensing law).
+
+Question-bank join: spec 1.32/1.33 items — empirical-to-molecular conversion
+via Mᵣ.
 :::
