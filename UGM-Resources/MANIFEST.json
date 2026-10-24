@@ -1,6 +1,6 @@
 {
  "manifest_version": 2,
- "version_note": "v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).",
+ "version_note": "v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
  "corpus": "UGM-Resources",
  "source": {
   "site": "undergroundmathematics.org",
@@ -10,7 +10,7 @@
   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 915bfa8c (P2 crawl + ugm-clean)",
   "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
  },
- "built": "2026-10-24T04:45:46+06:00",
+ "built": "2026-10-24T12:48:49+06:00",
  "file_count": 479,
  "lanes": [
   {
@@ -5685,5 +5685,18 @@
     }
    ]
   }
- ]
+ ],
+ "assets": {
+  "task": "T-UGM-ASSETS-1",
+  "dir": "UGM-Assets",
+  "manifest": "UGM-Assets/MANIFEST.json",
+  "figure_map": "UGM-Resources/figures-map.json",
+  "files": 976,
+  "bytes": 37725663,
+  "figure_refs": 1233,
+  "figure_resources": 275,
+  "serving_ref_prefix": "/ugm-assets/",
+  "scope_note": "static images only (PNG/SVG) referenced by the served corpus sections; GeoGebra embeds and PDFs remain excluded per LICENSE-DATA.md; bodies byte-untouched",
+  "rights_authority": "operator attestation 2026-10-24 — LICENSE-DATA.md (Amendment 2026-10-24)"
+ }
 }

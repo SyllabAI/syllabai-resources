@@ -513,3 +513,22 @@ served bundle PR carries a full disclosure census.
   Amendment: the four `crossLaneAligned` rows gain `"primaryPick": true` — nothing else moves
   (perSpecPoint rows, censuses, sweep routing, texts and MANIFEST v8 untouched; 18 joins still 18, 28
   rows still 28). Unblocks T-UGM-HUB-CONSUME-8 at the amendment merge.
+
+- **T-UGM-ASSETS-1 — UGM static-figure asset import (this run)**: tenth landing; the UGM corpus
+  family gains its **image plane**. 976 static figures (37.7 MB, PNG/SVG) under `UGM-Assets/`,
+  paths mirroring the live site (`<station>/<resource>/images/<file>`), per-file SHA-256 identity in
+  `UGM-Assets/MANIFEST.json`; the figure map of record `UGM-Resources/figures-map.json` carries
+  **1,233 figure occurrences across 275 resources**, each anchored to a body section name (cross-check:
+  0 unmatched against body `##` headings) with a per-section ordinal (0 collisions). **Text bodies are
+  byte-untouched** — the corpus conversion laws of record stay exact; images travel as first-class data
+  (map + binaries), not as body re-conversions (the lanes 1–4 converter-era drift made body rewrites
+  the wrong instrument; the map keeps `T-UGM-ASSETS-1` surgical). The hub consumer
+  (`T-UGM-HUB-CONSUME-8a`) copies referenced files to `apps/hub/public/ugm-assets/` and injects figure
+  references into the served bundle at deterministic section positions — the same index→row class of
+  transform the T-UGM-MODE1-8 amendment established for pick flags. Scope of record: static images
+  only — GeoGebra interactive embeds and printable/component PDFs stay excluded (Amendment 2026-10-23
+  scope note carried forward); assets referenced only by solution/teacher-support variant pages outside
+  the corpus sections are likewise excluded. Rights: operator attestation of 2026-10-24 — see
+  `LICENSE-DATA.md` (Amendment 2026-10-24); © Cambridge/UCLES unchanged; takedown law unchanged.
+  MANIFEST advances **v8 → v9** (lanes 1–8 rows and file_count 479 untouched; `assets` block + version
+  note appended).
