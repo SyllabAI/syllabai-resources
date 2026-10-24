@@ -2,6 +2,13 @@
 
 > Course folder of the multi-course `SME-ExamQuestion/igcse-chemistry-19/` corpus — see `../README.md` for the registry.
 
+> **CORRECTIONS LIVE IN THIS FOLDER — a re-scrape reverts them (T-SME-13, 2026-10-25).**
+> This corpus carries 12 operator-adjudicated corrections — 3 marks overstatements +
+> 9 label drifts, all repointed/corrected to the official mark scheme of record — disclosed
+> in [`CORRECTIONS.md`](CORRECTIONS.md) (PR #111). Upstream Save My Exams still publishes the
+> original values, so any re-scrape reintroduces them (course totals revert 3705 -> 3708).
+> After any re-scrape, re-apply per that ledger before treating the corpus as current.
+
 Scraped corpus of **Save My Exams** exam questions (topic questions) for
 Edexcel IGCSE Chemistry, syllabus 2017 (4CH1). Every question carries its
 mark scheme / model answer, per-part marks, command word, original paper

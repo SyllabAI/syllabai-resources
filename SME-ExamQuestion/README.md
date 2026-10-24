@@ -4,7 +4,9 @@ Atomized Save My Exams exam questions (questions + mark schemes +
 images + KaTeX equations) for **Edexcel** courses, one folder per
 SME course variant. Every question part keeps its SME spec-point
 ids; official 4CH1 codes are resolved for `igcse-chemistry-19`
-(see that course's `VALIDATION.md`).
+(see that course's `VALIDATION.md`). Corrections to that
+course are recorded in its `CORRECTIONS.md` (T-SME-13) — an upstream re-scrape
+reverts them; re-apply per that ledger first.
 
 **Provenance & authorization:** scraped from savemyexams.com under
 the operator's documented SME authorization — see `../LICENSE-DATA.md`
