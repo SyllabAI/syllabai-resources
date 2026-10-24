@@ -1,6 +1,6 @@
 # 4CH1/2CR — 2022-01 (official extraction)
 
-> schema `syllabai.official-paper-questions/0.1` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/2CR` · qp sha256 `3909b340a2ac15a8…` · extracted verbatim, never regenerated (ADR-037)
+> schema `syllabai.official-paper-questions/0.2` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/2CR` · qp sha256 `3909b340a2ac15a8…` · extraction is the disclosed baseline (ADR-039)
 
 ## Question 1 (5 marks)
 **(b)** The box gives the names of some substances. calcium copper gold iodine methane zinc Use words from the box to answer these questions.
