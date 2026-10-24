@@ -78,6 +78,43 @@ legacy assessment material (complete 4CH0 QP/MS archive + 34 examiner reports) l
 `SyllabAI/syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/`
 (wave report: that repo's `docs/ER-ACQUISITION-2026-10-25.md`).
 
+## Teaching & learning materials — 4CH1 (SIB BL-005, 2026-10-25, trace 1a16fa5034655795)
+
+`igcse-chemistry/teaching-and-learning-materials/` + two root files — official Pearson
+teaching, practical and assessment-support documents for the **live International GCSE
+Chemistry (4CH1)** specification, acquired for the Subject Intelligence build's six-group
+corpus (teaching/sequencing + practical-guidance + command-word + exemplar classes).
+30 unmodified Pearson-CDN downloads; per-file provenance (source URL, sha256, bytes,
+pages, identity evidence, tier, SI classification) in `igcse-chemistry/teaching-materials.json`.
+
+Tier-1 gap-closers (verified by printed-text / OOXML-structure identity):
+
+| file | what |
+| --- | --- |
+| `international-gcse-chemistry-scheme-of-work.docx` | official **scheme of work** (topic sequencing evidence) |
+| `gstt-int-gcse-chemistry.pdf` | Getting Started teaching guide |
+| `Chemical-bonding-FINAL.pdf` / `Chemical-equilibrium-FINAL.pdf` | topic teaching guides |
+| `biology-chemistry-physics-core-practical-guide.pdf` | **core practicals guide** (practical-guidance group) |
+| `practical-terminology-in-int-gcse-science.pdf` | practical terminology guidance |
+| `int-gcse-command-words.docx` | **command word definitions** |
+| 2 exemplar-with-commentary PDFs | examiner-commented exemplar responses |
+| `international-gcse-Chemistry-2017-SAM.pdf` | official sample assessment materials (root) |
+| `notice-of-changes-january-and-november-series.pdf` | series-structure change notice (root; assessment identity) |
+| `international-gcse-chemistry-linear-course-planner.pptx` | linear course planner |
+
+Tier-2 supplementary (19 files): maths-skills guides (9), transferable-skills mappings (2),
+cross-board/level mappings (3), lab setup guides (2), core-practical video playlist (1),
+training recording transcript (1), sciences-suite mapping guide (1).
+
+**Scope note:** deliberately **outside `manifest.json`** (same law as the legacy 4CH0 dir) —
+these documents back the SIB library, not the 39-SME-course spec manifest. Discovery: the
+coursematerials page's own Algolia index (catalog snapshot 239 rows); 30 rows placed, 209
+rows disclosed-not-taken in `teaching-materials.json` (35 teacher-training packs available
+ungated as a bulk class awaiting operator order, 25 silver-gated 401 rows = operator queue,
+143 exam-material rows already held of record in `syllabai-pastpapers`, plus admin/page/
+already-held rows). SI registry: `SubjectIntelligence/CHEMISTRY_4CH1/source_manifest.yaml`
+v1.2 (`SRC-TL-4CH1`, `SRC-SAMS-4CH1`).
+
 ## CIE qualifications (T-SPECS-CIE-1, 2026-10-18)
 
 Official Cambridge International Education syllabus PDFs for every qualification behind the 44 `cie-*` SME courses in `../SME-ExamQuestion/` and `../SME-RevisionNotes/`. 33 qualifications — one per unique syllabus edition — 44/44 courses covered. Each `<qualification>/spec.json` carries the source URL, edition window, SHA-1, byte size, page count, cover code and the SME courses it covers; `manifest.json` totals now span both boards.

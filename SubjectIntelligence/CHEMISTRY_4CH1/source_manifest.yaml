@@ -1,4 +1,4 @@
-# CHEMISTRY_4CH1 — SIB v1 source manifest (v1.1)
+# CHEMISTRY_4CH1 — SIB v1 source manifest (v1.2)
 # Built 2026-10-25 from a full read-only inventory of the SyllabAI repos.
 # v1.1 (2026-10-25, same day): BL-001/BL-002 acquisitions landed — official examiner reports
 # (4CH1 + 4CH0) and the legacy 4CH0 specification corpus acquired from Pearson's own public
@@ -18,8 +18,19 @@
 # `git cat-file`); of-record sha256/sha1 values are quoted from the repo's own
 # ledgers (books/CATALOG.md, Official-Specifications/igcse-chemistry/spec.json).
 
-manifest_version: "1.1"
+manifest_version: "1.2"
 manifest_history:
+  - version: "1.2"
+    date: "2026-10-25"
+    change: BL-005 executed — official Pearson teaching-and-learning corpus acquired from the
+      issuing body's own public catalog (239-row coursematerials index; 30 files placed with
+      per-file provenance in Official-Specifications/igcse-chemistry/teaching-materials.json;
+      SRC-TL-4CH1 (scheme of work, getting-started + topic guides, core practicals guide,
+      command words, exemplars with commentary, course planner + 19 supplementary) and
+      SRC-SAMS-4CH1 (official SAMs + series-structure change notice). GAP-SRC-004 RESOLVED;
+      GAP-SRC-003 residual narrowed to the optional standalone data sheet. 209 catalog rows
+      disclosed-not-taken (143 exam-materials already held in pastpapers, 35 training packs
+      bulk class, 25 silver-gated 401, admin/page/already-held).
   - version: "1.0"
     date: "2026-10-25"
     change: initial inventory of record (SIB-LIBRARY-001)
@@ -339,6 +350,61 @@ sources:
       (manifest.json covers live-course qualifications); never ground CUR-family artifacts on it
     feeds_families: [HIS, CUR]
 
+  # ------------------------------------------------------------- teaching & learning (BL-005)
+  - id: SRC-TL-4CH1
+    title: Official Pearson teaching-and-learning corpus for International GCSE Chemistry (2017)
+    classification: CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)
+    type: teaching guides + scheme of work + practical guidance + command words + exemplars + mappings
+      (29 files — 21 PDF / 3 DOCX / 3 XLSX / 1 PPTX / 1 DOCX-transcript; unmodified downloads)
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH1 (suite-wide docs tagged igcse17-chemistry included)
+    version: fetched 2026-10-25 from the issuing body's own coursematerials catalog (239-row
+      Algolia index snapshot of record)
+    paths:
+      - syllabai-resources@Official-Specifications/igcse-chemistry/teaching-and-learning-materials/
+      - provenance: syllabai-resources@Official-Specifications/igcse-chemistry/teaching-materials.json
+    identifiers:
+      sha256_scheme_of_work: d2a849ac8d05f7dd772a549f3946cf47ac4b0e37af19f7e0f9f6be9fe5f13b1a
+      sha256_getting_started: cfc42ce0bc763515241ce28897f9e1a3520e77d9ffef74e7b06b96bdaf65b961
+      sha256_topic_bonding: 321204a76a659b8c467b4dc30e12e69278beef4c6e88e42c4596dcbe1b2ecca0
+      sha256_topic_equilibrium: d2dba72da4a824e6069a2d5e3c9d41b41ec9398a9e27b9a4971a2b4cf7dbdcd0
+      sha256_core_practicals_guide: 9dd6228da0e915ea90fc9e45bea48e8f4b9b0a30d570e2e1e538e7d1a6cbdf13
+      sha256_command_words: 3563c05e364143ebb968c9ae0e4a4f2b56b25e0431b90e5e262ee29a90e23ec4
+      sha256_exemplars_p1p2_commentary: 5d1851993be460f10261c4b68b74b2a2e3df5b28b9b0f0d7c907ea763b0f4d0c
+      full_table: teaching-materials.json (30 files, per-file sha256/bytes/pages/identity)
+    coverage: topic sequencing (scheme of work, course planner, getting-started, 2 topic guides);
+      practical guidance (211pp core practicals guide, terminology guidance, lab setup);
+      command word definitions; examiner-commented exemplars (89pp + 26pp); maths-skills +
+      transferable-skills + cross-board mappings (tier-2 SUPPLEMENTARY)
+    provenance: official Pearson qualifications CDN, catalog rows of record (no third-party mirror);
+      identity verified per file (PDF magic + printed-text tokens / ZIP CRC + OOXML structure)
+    limitations: tier-2 suite-wide docs (maths-in-science series lives under Biology/2024 CDN paths)
+      apply across igcse17 sciences; 209 catalog rows disclosed-not-taken (see provenance json);
+      silver-gated rows (25) remain operator-side
+    feeds_families: [CUR, EXP, PED, PRA, PRO, EXM, MIS, TUT]
+
+  - id: SRC-SAMS-4CH1
+    title: Official 4CH1 sample assessment materials + series-structure change notice
+    classification: CURRENT — ASSESSMENT EVIDENCE
+    type: SAMs PDF (88 pp) + January→November series change notice PDF (unmodified downloads)
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH1
+    version: fetched 2026-10-25 (issue current at the issuing body's catalog row of record)
+    paths:
+      - syllabai-resources@Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf
+      - syllabai-resources@Official-Specifications/igcse-chemistry/notice-of-changes-january-and-november-series.pdf
+      - provenance: syllabai-resources@Official-Specifications/igcse-chemistry/teaching-materials.json
+    identifiers:
+      sha256_sams: beb9dc1d1efa108b8545c2f6fe3a2bd0d5b71b6de776d1ac2b7ce6f96d3bd0d1
+      sha256_notice: af9971c569847934257f4b6e7dc9e7064b28a08e2ac1c95cf3a11acdbb0a40e2
+      pages_sams: 88
+    coverage: specimen papers + mark schemes at first-award standard; assessment-model change
+      metadata (January series removal / November series introduction — session identity law input)
+    provenance: official Pearson qualifications CDN, catalog rows of record; PDF magic + printed-text
+      identity (sample assessment + chemistry / november + january series)
+    limitations: SAMs are specimen (not live-session) material — never cite as session evidence
+    feeds_families: [ASM, EXM, CUR]
+
 # ------------------------------------------------------------------ gaps
 source_gaps:
   - id: GAP-SRC-001
@@ -361,21 +427,27 @@ source_gaps:
     severity: RESOLVED
   - id: GAP-SRC-003
     title: Standalone periodic table / data sheet
-    detail: no standalone official reference artifact; evidence embedded in spec PDF + SB1 back matter
-      + per-question exam assets. Optional standalone intake (requirements §2D); not blocking.
+    detail: "NARROWED 2026-10-25 (BL-005, manifest v1.2): the practical-guidance class is now
+      covered by SRC-TL-4CH1 (211pp core practicals guide, terminology guidance, lab setup guides,
+      playlist). Residual: no standalone official periodic-table/data-sheet artifact — evidence
+      remains embedded in spec PDF + SB1 back matter + per-question exam assets. Optional intake
+      (requirements §2D); not blocking."
     severity: LOW
   - id: GAP-SRC-004
     title: Official teaching guide / scheme of work
-    detail: absent (requirements §3). Sequencing evidence limited to SB1 chapter order + validated
-      lesson spine (SRC-LESSONS-4CH1). Not blocking.
-    severity: LOW
+    detail: "RESOLVED 2026-10-25 (BL-005, manifest v1.2): official scheme of work, Getting Started
+      guide, two topic teaching guides (bonding, equilibrium), linear course planner + training
+      transcript landed as SRC-TL-4CH1. Residuals disclosed: 35 teacher-training packs available
+      ungated as a bulk class (operator order), silver-gated rows stay operator-side (GAP-SRC-001)."
+    severity: RESOLVED
 
 # ------------------------------------------------------------------ minimum-corpus check
 minimum_corpus_check:   # requirements §5 — the six groups, inventoried 2026-10-25
   - group: 1. Official 4CH1 specification + validated SpecificationPoint registry
     status: PRESENT   # SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 (182 points)
   - group: 2. Current student book + official teaching/support material
-    status: PARTIAL   # SRC-BOOK-4CH1-SB1 validated v3; teaching guide ABSENT (GAP-SRC-004)
+    status: PRESENT   # SRC-BOOK-4CH1-SB1 validated v3 + SRC-TL-4CH1 (scheme of work, teaching
+    detail: guides, course planner — GAP-SRC-004 RESOLVED 2026-10-25, BL-005)
   - group: 3. Complete available QP/MS corpus with paper/session identities
     status: PRESENT   # SRC-QPMS-4CH1 — 54 papers / 16 sessions / 4 variants, identities preserved
   - group: 4. Official examiner reports
@@ -385,8 +457,9 @@ minimum_corpus_check:   # requirements §5 — the six groups, inventoried 2026-
   - group: 5. Validated SME revision notes + question-to-spec mappings
     status: PRESENT   # SRC-SME-NOTES-4CH1 + SRC-SPECLINKS-4CH1 (+ SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1)
   - group: 6. Practical guidance, data sheets, reference material
-    status: PARTIAL   # 12 Core Practicals registry (graph/igcse-chemistry/practicals.yaml) + spec practical
-    detail: statements; standalone data sheet absent (GAP-SRC-003)
+    status: PRESENT   # 12 Core Practicals registry + SRC-TL-4CH1 practical class (211pp core
+    detail: practicals guide, terminology guidance, lab setup, playlist); residual —
+      standalone periodic-table/data sheet optional intake open (GAP-SRC-003 LOW, evidence embedded)
 legacy_inventory:      # requirements §5, final line — 4CH0 as separate legacy group
   group: 4CH0 legacy
   status: PRESENT      # RESOLVED-2026-10-25 (v1.1) — see SRC-ER-4CH0-LEGACY + SRC-LEGACY-SPEC-4CH0

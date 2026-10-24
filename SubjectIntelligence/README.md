@@ -54,7 +54,7 @@ SubjectIntelligence/
 │   └── templates/course/         manifest / source_manifest / curriculum_registry templates
 └── CHEMISTRY_4CH1/               first onboarded course library (validated worked example)
     ├── manifest.yaml             95-artifact applicability map (88 REQUIRED / 7 OPTIONAL)
-    ├── source_manifest.yaml      12 inventoried sources, classified + identified (v1.1)
+    ├── source_manifest.yaml      17 inventoried sources, classified + identified (v1.2)
     ├── curriculum_registry.yaml  182 pinned spec-point codes for anchor resolution
     ├── SOURCE_REQUIREMENTS.md    operator requirements of record for this course
     ├── INVENTORY_2026-10-25.md   (+ ADDENDUM) course inventory findings
@@ -88,13 +88,17 @@ SubjectIntelligence/
   CHEMISTRY_4CH1 shape exactly: 95 rows / 88 REQUIRED / 7 OPTIONAL / 0 shape issues),
   generalized requirements + onboarding + pipeline docs; 4CH1-specific docs moved into
   the course library.
-- Corpus verdict (2026-10-25, BL-001/BL-002 executed): assessment + explanation evidence
+- Corpus verdict (2026-10-25, BL-001/002/**005** executed): assessment + explanation evidence
   strong for the onboarded course (54 official papers / 16 sessions, validated book
   parse, validated graph + mappings); **examiner reports ACQUIRED** (24 official 4CH1 ERs
   over 8 sessions + 34 legacy 4CH0 ERs over 13 sessions — Pearson's own CDN,
-  `SRC-ER-4CH1` / `SRC-ER-4CH0-LEGACY`); **4CH0 legacy corpus PRESENT** (complete QP/MS +
-  official spec docs, `SRC-LEGACY-SPEC-4CH0`) — EXM family evidence real, HIS family
-  unlocked; residual sessions without a public ER are disclosed, never fabricated (wave
-  report: `syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md`).
+  `SRC-ER-4CH1` / `SRC-ER-4CH0-LEGACY`); **teaching-and-learning corpus ACQUIRED** (30
+  official docs incl. scheme of work, teaching guides, 211pp core practicals guide,
+  command words, exemplars, SAMs — `SRC-TL-4CH1` / `SRC-SAMS-4CH1`); **4CH0 legacy corpus
+  PRESENT** (complete QP/MS + official spec docs, `SRC-LEGACY-SPEC-4CH0`) — EXM evidence
+  real, HIS family unlocked, **six-groups scoreboard 5 PRESENT + 1 PARTIAL** (ER group:
+  residual sessions without a public ER are publishing gaps, disclosed, never fabricated —
+  wave report: `syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md`; T&L addendum:
+  `CHEMISTRY_4CH1/INVENTORY_ADDENDUM_2026-10-25-TL.md`).
 - Next runs (operator-ordered): BL-003 notebook provisioning → CUR-01..CUR-08 first wave
   for CHEMISTRY_4CH1; subsequent course onboarding via `docs/COURSE_ONBOARDING.md`.
