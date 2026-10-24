@@ -57,7 +57,6 @@ books/
 | Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
 | Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
 | Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1 partial (48/800, quota-walled, resumable) |
-| Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1 partial (48/800, quota-walled, resumable) |
 
 ## 2. Read order (do not skip)
 
@@ -554,16 +553,6 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   equally a no-op on JPEG pass-through). Evidence: 120.8MB → 120.8MB (/ebook)
   vs 48.3MB with the flag. Action: always set the flag + verify output size
   when re-deriving oversized scan copies for the 100MiB GitHub limit.
-- **L-023** (2026-10-24, T-PARSE-YCH11-1, zai-web): image-only end-matter pages
-  (full-page periodic-table graphic, blank graph-paper end leaf) produce NO
-  text chunks and will fail any text-coverage check — the honest treatment is
-  a by-design-gaps register in the parse report (page + kind + reason), which
-  the validator then asserts, instead of either fabricating a placeholder
-  chunk or widening the coverage check. Evidence:
-  `chemistry/ych11/parsed/parse_report_v1.json → by_design_gaps` +
-  `validate_ych11.py`. Action: at phase 6, classify zero-text pages first
-  (blank / image-only-but-content-bearing / decorative); register the latter
-  two, never chunk them silently.
 - **L-023** (2026-10-24, T-PARSE-YCH11-1, zai-web): image-only end-matter pages
   (full-page periodic-table graphic, blank graph-paper end leaf) produce NO
   text chunks and will fail any text-coverage check — the honest treatment is
