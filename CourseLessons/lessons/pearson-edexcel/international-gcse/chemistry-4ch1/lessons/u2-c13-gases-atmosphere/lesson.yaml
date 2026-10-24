@@ -94,7 +94,7 @@ sections:
   - hydrocarbon
   status: done
 - id: u2:c13:s06
-  title: "Carbon Dioxide and Global Warming: the Greenhouse Effect"
+  title: 'Carbon Dioxide and Global Warming: the Greenhouse Effect'
   bookPage: 142
   chunkRefs:
   - chem_v3_u2_c13_pdf151_0550
@@ -133,7 +133,14 @@ features:
   quick_checks: true
   summary: true
   can_you: true
-receipts: []
+receipts:
+- date: '2026-10-24'
+  stage: S4
+  sections_done: '7'
+  sections_total: '7'
+  pack_status: published
+  last_agent: T-BOOK-046 r0 (author+flip; trace 1a16db3f408f9381; standing merge+flip
+    trace 1a1658a2da08e5bd)
 notes: 'T-BOOK-046 r0: section spine pinned from section-maps/u2-c13.json (scope of
   record; re-derived independently from parse of record at S0 — 7/7 sections chunkRefs
   byte-equal + titles equal, scripts/verify_c13_s0.py ALL GREEN). join_set DERIVED
@@ -152,10 +159,18 @@ notes: 'T-BOOK-046 r0: section spine pinned from section-maps/u2-c13.json (scope
   the sections'' own prose + quick-checks. Chunk ids 0542/0544/0547 absent from parse
   of record (figure-only fragments dropped by v3 pipeline) — figure content (apparatus
   sketches) taught in words per voice law, disclosed in receipt. widget_density: standard.'
-learning_objective: "Know the approximate percentages by volume of the four most abundant gases in dry air; Understand how to determine the percentage by volume of oxygen in air using experiments involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air; Describe the combustion of elements in oxygen, including magnesium, hydrogen and sulfur; Describe the formation of carbon dioxide from the thermal decomposition of metal carbonates, including copper(II) carbonate; Know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change; Practical: Determine the approximate percentage by volume of oxygen in air using a metal or a non-metal"
+learning_objective: 'Know the approximate percentages by volume of the four most abundant
+  gases in dry air; Understand how to determine the percentage by volume of oxygen
+  in air using experiments involving the reactions of metals (e.g. iron) and non-metals
+  (e.g. phosphorus) with air; Describe the combustion of elements in oxygen, including
+  magnesium, hydrogen and sulfur; Describe the formation of carbon dioxide from the
+  thermal decomposition of metal carbonates, including copper(II) carbonate; Know
+  that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere
+  may contribute to climate change; Practical: Determine the approximate percentage
+  by volume of oxygen in air using a metal or a non-metal'
 safety_note: '3 safety chunks in the c13 census (0528 — eye protection + careful heating
   to avoid cracking the glass syringe, plunger discipline -> s02; 0535 — iron filings
   irritate skin and eyes -> s03; 0540 — phosphorus demo protocol: goggles/face shield,
   ventilation, hold the bell jar down as pressure rises, sink the basin so unreacted
-  phosphorus cannot re-ignite -> s03) carried as 3 :::safety boxes — one hazard,
-  one placement each'
+  phosphorus cannot re-ignite -> s03) carried as 3 :::safety boxes — one hazard, one
+  placement each'
