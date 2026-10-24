@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the ADR-037 official-paper corpus into the syllabai-hub question-set
+"""Export the ADR-037/ADR-039 official-paper corpus into the syllabai-hub question-set
 format (syllabai.sme-exam-questions/1.1 compatible, contract-additive).
 
 Reads  : <repo>/Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-<paper>/topic.json
@@ -865,7 +865,12 @@ def main():
             "solutionMd on 1,341 parts (1,332 tranche-2 + 9 tranche-1 repairs) + the F62 "
             "MCQ re-key of 2020-01 2CR 1(b)(i) to C "
             "(MCQ-KEYS.json paper-scoped adjudication, converter v0.14.1); MS cells and mark "
-            "points stay verbatim - marking is never authored. Wave-15 UX doctrine governs: "
+            "points stay corroborated to the MS of record - the C71 authored-vs-marking "
+            "separation is KEPT under the ADR-039 fix-and-disclose doctrine (§7.1 "
+            "adjudication of record, trace 1a16cdc9eda1a645): marking is never "
+            "free-authored, and any graded-value correction arrives only with "
+            "printed-MS or rendered-page evidence, disclosed in the /0.2 provenance "
+            "(edit_status/edits[]/value_trace). Wave-15 UX doctrine governs: "
             "best learner experience, values never invented. "
             f"{official_n} official sets (16x1C + 16x2C + R-variants), {n_q} questions, {n_p} parts, all "
             "spec-tagged.")
