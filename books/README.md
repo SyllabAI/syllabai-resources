@@ -56,6 +56,7 @@ books/
 | Edexcel IGCSE Biology (4BI1), 357 pp | `bio_v1_…` | v1 **871** chunks | Parsed 2026-10-21 (T-PARSE-4BI1-1): **first text-layer lane** (PyMuPDF, no OCR); validation green; polish round 1 (see parsed report) |
 | Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
 | Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
+| CIE A-Level Chemistry **9701** Coursebook 3rd ed (Ryan & Norris), 889 pp | `c9701_v1_…` | v1 **1083** chunks | Parsed 2026-10-24 (T-PARSE-9701-1, FIRST CIE lane): text-layer, NO OCR — regenerated/accessibility re-layout (DejaVu/STIX, single column); NO printed page numbers anywhere → pdf-anchored, book_pages=None (L-023); Unicode sub/sup rebuilt from span geometry incl. stacked isotopes ⁵²₂₄Cr²⁺ (L-024); watermark pdf31+66 stripped, validator-gated; 30/30 chapters + P1/P2 + appendices; validator ALL CHECKS PASSED; polish census pending (quota-walled) |
 
 ## 2. Read order (do not skip)
 
@@ -552,6 +553,24 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   equally a no-op on JPEG pass-through). Evidence: 120.8MB → 120.8MB (/ebook)
   vs 48.3MB with the flag. Action: always set the flag + verify output size
   when re-deriving oversized scan copies for the 100MiB GitHub limit.
+- **L-023** (2026-10-24, T-PARSE-9701-1, Super Z): accessibility/regenerated
+  re-layouts may carry NO printed page numbers at all — no TOC page numbers,
+  no running heads, no edge digits, zero "page N" self-references — which
+  kills the offset-law probe (no anchor to converge on). Action: detect the
+  class at phase 1 (census pure-digit tails + edge spans + "page \d+" refs;
+  all-zero ⇒ re-layout); ship pdf-anchored (book_pages=None) with the
+  absence PROVEN in the parse report (D-decision), not guessed; validator
+  substitutes chapter-range coherence for the offset law.
+- **L-024** (2026-10-24, T-PARSE-9701-1, Super Z): clean text-layer PDFs can
+  yield docling-class Unicode chemistry WITHOUT OCR via span-geometry
+  assembly — sub/sup glyphs are separate small-font spans (size<8 vs 9.2pt
+  body) offset ±4.4pt from the body baseline; pool them page-wide, attach to
+  the nearest body line whose x-window brackets them, order same-x ties
+  sup-before-sub. This restores stacked isotope notation (⁵²₂₄Cr²⁺) that
+  per-dict-line assembly garbles (sup/sub split into separate dict lines).
+  Action: for any text-layer lane, extract in dict mode and rebuild
+  sub/superscripts geometrically BEFORE chunking; verify on an isotope + a
+  kJ mol⁻¹ page, not just prose pages.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -686,6 +705,18 @@ E-ID they correct)*
   the SB1 lane's `yph2_v1_` convention after the L-008 discovery (original
   yph11b_v1_ build discarded, kept only as local evidence). Lessons
   appended: L-021, L-022. Errata filed: E-004.
+
+- **R-006** (2026-10-24, T-PARSE-9701-1, CIE 9701 lane): pages extracted
+  889/889 (PyMuPDF native, no OCR); chunks **1083** (`c9701_v1_`), 10
+  content types; validator ALL CHECKS PASSED (unique IDs, 13-key grammar,
+  30/30 chapters + P1/P2 + appendices + front matter, 0 order breaks,
+  chapter-range coherence vs the 35-range map, exam-style banks anchored,
+  0 watermark/CJK, 0 'images' junk, size bounds). Deviations from playbook:
+  (1) pdf-anchored corpus — no offset law exists (L-023); (2) span-pool
+  extractor supersedes per-line assembly for text-layer lanes (L-024);
+  (3) v1 shipped with polish census pending (R-002/R-004/R-005 precedent,
+  quota-walled period); (4) margin features absent from the source render
+  (parse_report D-2) — not a parser miss. Lessons appended: L-023, L-024.
 
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
