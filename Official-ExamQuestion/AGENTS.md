@@ -19,10 +19,19 @@ Official-ExamQuestion/
   LEDGER.md                 append-only improvement ledger (findings F# -> fix -> canary)
   CANARIES.json             machine-checkable regression assertions
   check_canaries.py         canary checker (exit 1 on violation)
-  run_all.sh                one-command full-corpus run + canary verification
+  run_all.sh                one-command full-corpus battery + canary verification;
+                            emits a leg-structured receipt per run (F63)
+  RECEIPTS-AND-BATTERIES.md the operating-culture import: receipts, batteries,
+                            honest verdicts, and what we deliberately did NOT import (F63)
+  receipts/                 LOCAL battery receipts from run_all.sh — gitignored; cite
+                            them from PRs/LEDGER entries, never commit routine runs (F63)
   CHANGELOG.md              converter version history
   CROP-REVIEW.json          durable human eyeball verdicts for figure crops (F29)
   MCQ-KEYS.json             durable human-adjudicated MCQ keys + corrected MS rows (F37)
+  STEM-RESTORE.json         wave-19 stem-restore ledger + stemFigure crop specs (F53/F57)
+  SOLUTION-ENRICH.json      authored SME-style worked answers keyed to parts (F60,
+                            schema syllabai.official-solution-enrichment/0.1)
+  MS-LINK-OVERRIDES.json    transcription overrides for degraded MS rows (F50)
   spec-labels/<series>.json LLM spec-tagging wave labels (parts -> 4CH1 codes)
   MULTI-SERIES-REPORT.{md,json}   per-series gate matrix + findings + cross-diff summary
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
@@ -92,6 +101,29 @@ Run the whole corpus and verify nothing regressed:
 5. **Registry or review.** Spec-point codes must exist in the SME spec-point resolution
    registry (`spec_point_resolution.json`) or be documented gaps. Unresolved codes go
    to the review queue tagged `pending-llm` / `registry-gap-review`.
+
+## Operating culture — receipts & batteries (F63)
+
+Imported from the maths-B lane cross-review (the full statement of the laws, their
+failure-class evidence, and the two deliberate non-imports live in
+`RECEIPTS-AND-BATTERIES.md`; the one-line forms):
+
+1. **Receipts** — every run leaves a machine-readable artifact (`run_all.sh` →
+   `receipts/battery-*.json`); evidence or it didn't happen. Local + gitignored;
+   cite, don't commit.
+2. **Batteries** — one command, numbered legs, honest `N/M PASS` summary; a run
+   that dies at leg 3 does not claim legs 4-5.
+3. **Re-execution, not receipt-trust** — reviews and landings re-run gates fresh.
+4. **Pre-registration & honest verdicts** — BLOCKED is a verdict; human queues
+   stay human; incidents are disclosed verbatim.
+5. **Census before ship** — defect classes are measured corpus-wide (disclosure
+   census + G-E1 exact match), never fixed from eyeball lists.
+6. **Claims exist once pushed** — PR-first; ephemeral staging is assumed to die
+   with the session (wave-21's withheld drafts did).
+7. **Rollback anchors** — every serving change names the state it replaces (G-E5
+   source-cut pins; the battery receipt records `git_head`).
+8. **Gates measure the learner surface** — parse correctness is not UX
+   correctness; new surfaces get their gate class on day one.
 
 ## Gate catalog
 
@@ -259,6 +291,10 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   papers are known next candidates).
 - Commit outputs and pipeline changes together; a converter change without regenerated
   outputs (or vice versa) is an inconsistent state.
+- Cite battery receipts: every full `run_all.sh` run writes
+  `receipts/battery-<UTCSTAMP>-<pid>.json` (gitignored, local evidence). PR and
+  LEDGER entries cite the receipt path + its `N/M PASS` summary; a dirty-tree
+  battery pass is advisory and never citable as the state of main (F63).
 
 ## Known open work (pick up from here)
 
