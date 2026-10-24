@@ -1,0 +1,41 @@
+# authoring receipt — u2:c12 Halogens (T-BOOK-045 r0)
+lane: 'operator lane order (trace 1a16d3fca6f73295): "c12 Halogens" — the Unit-2 lane continues after u2:c11 opened the unit (T-BOOK-044 r0); retrofit sweep c01–c06 + c07 spot-check already landed by T-BOOK-039/043 lanes'
+stage: S4
+agent: 'T-BOOK-045 r0 (author; session web-c414c074 chat 08b3170a trace 1a16d3fca6f73295)'
+standing_authorization: 'merge+flip trace 1a1658a2da08e5bd'
+
+S0_scope:
+  section_map: 'section-maps/u2-c12.json (scope of record) — 8/8 sections chunkRefs byte-equal + titles equal (scripts/verify_c12_s0.py S0.3/S0.4)'
+  verifier: 'scripts/verify_c12_s0.py — ALL GREEN 21/21 (checks below)'
+  chunk_refs_byte_verify: '24 section chunkRefs all exist in parse of record (parsed/edexcel_igcse_chemistry_chunks_v3.jsonl, sha256 b2c67eaf… pinned in course.yaml) and all belong to u2_c12; byte-equal to the of-record map in order; bookPage monotonic + equal to map'
+  page_range: '[130, 135] — of record'
+  map_folds: 'the of-record map folds the two chapter-questions chunks into neighbouring sections as provenance: 0519 (CHAPTER QUESTIONS header/SKILLS rows) -> s07, 0521 (question part c) -> s08 — page-jump-only per licensing law, never re-served interactively'
+
+S0_L0_join_set:
+  derivation: 'LEARNING OBJECTIVES chunk 0495 (2 core fragments) + the objectives continuation swept into body chunk 0498 (1 core fragment: displacement-evidence) + CHEMISTRY ONLY chunk 0499 (1 fragment) x spine node igcse-chemistry-T2:SUBb ("Group 7 (halogens) – chlorine, bromine and iodine") = EXACTLY FOUR points one-to-one: colours-states-trends -> 2.5; predict-properties -> 2.6; displacement-evidence -> 2.7; explain-trend-electronic-configurations -> 2.8C'
+  variant_disclosure: 'chunk 0495 fragment says "of the halogens" where the spine 2.5 statement ends "of these elements" — same statement (case-insensitive match otherwise verbatim); disclosed here and in lesson.yaml notes; no f-0016-class pathology (no raw-fragment split/garble — 4 clean fragments for 4 logical objectives)'
+  route: 'SECOND MIXED paper-route pack of the course: 3 core shared points (2.5/2.6/2.7, papers [1C,2C], double_award_shared true) + 1 C-suffixed point (2.8C, papers [2C], double_award_shared false) -> chem_only false CONFIRMED (spine applicability + course.yaml row + f-0015 sibling audit agree)'
+  sibling_audit: 'f-0015 law audit PASS — u1 rows: c06/c09/c10 chem_only true (all-C join sets), c01-c05/c07/c08 chem_only false (all-core); no u1 pack mixes routes; u2:c11 = first mixed pack (3 core + 1 C), u2:c12 = second, same shape (verifier S0.15/S0.16)'
+
+S1_authoring:
+  voice: 'lesson-prose@2.0.0 standalone from first draft — zero book-attribution, zero print-page refs, zero PDF-deflection; "Chapter N (uN:cNN)" internal navigation house style (u1:c03/u1:c04/u1:c08/u1:c09 prior-knowledge anchors, u2:c11 mirror-trend cross-ref, u2:c14 redox pointer); book-derived substance fully carried (objectives, colours/states table, mp/bp + intermolecular-forces explanation, conductivity, astatine radioactivity, HCl-gas-vs-hydrochloric-acid key point, hydrogen-halide + salt reaction families with state-symbol equations, sodium-in-chlorine demo, displacement demos x3 with equations, no-reaction triples, full-ionic -> net-ionic worked surgery, spectator-ion doctrine, OIL-RIG redox view, oxidising-strength ladder, metals-vs-non-metals reducing-agent flip, fluorine weak-F-F-bond footnote, 7+ shielding extension, four-link reactivity explanation chain, summary card, astatine eight-property prediction)'
+  licensing: 'chapter-questions chunks 0519/0521 (book p.135) page-jump-only per licensing law — never re-served interactively; their swept teaching content (electron-arrangement recall, Group-7 justification, dot-and-cross HF, mp comparison vs chlorine, displacement observation when chlorine meets potassium fluoride) carried by s01/s02/s04/s05 prose + quick-checks'
+  boxes: '8/8 sections carry exam-hint + misconception + quick-check; safety x1 (s03 — the single census safety chunk 0502: fluorine never in school lab, poisonous vapours, fume cupboard, corrosive liquid bromine); key-point x3 (s02 HCl-gas-vs-acid census 0501; s04 trend-continues census 0504; s05 bromine-colour-discipline census 0506); prior-knowledge s01; cross-curricular s08 (water treatment, fluoride toothpaste, AgBr photography, iodised salt); summary s08; can-you s08'
+  glossary: '13 entries, full ms layer (ms_accepts + ms_avoids + aliases), all chunk-sourced; every section glossary slug resolves (verifier S0.17)'
+
+S2_self_check:
+  lint_r0: '1 error / 0 warnings -> fixed in-lane: V9 receipt file (this one) — V1-V6, V8 all clean at first pass (voice-first authoring r0: zero V4 hits, zero V5 gaps, zero V6 unresolved chips)'
+  lint_r1: 'GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) — target state before emit'
+
+S3_gates:
+  lint: 'lessonctl lint GREEN 0/0 (r1)'
+  emit: 'lessonctl emit -> qa/lessonPackV1.json (status=draft per law; operator flip separate)'
+  voice_audit: 'fleet voice patterns (the book / book''s / textbook / student book / figure N / table N.N / page N / pp. N / PDF / OCR / parse / mark-scheme narration) = 0 true hits across 8 sections'
+
+chunk_provenance:
+  census: '24 chunks carry u2_c12 ids in the parse of record; all 24 swept — 22 as section teaching/content refs, 2 as page-jump-only provenance folds (0519/0521). Chunk ids 0509-0511 and 0514 do not exist in the parse of record (v3 pipeline dropped figure-only fragments around the ionic-equations/figures area); the equations those figures carried (net-ionic set + full-ionic surgery) are restored from chemistry in s06 prose and disclosed here'
+  objectives_chunk: '0495 (+ 0498 continuation + 0499 CHEMISTRY ONLY) — 4 logical objectives, verbatim-pinned in lesson.yaml learning_objective'
+  safety_chunks: '1 (0502) — :::safety in s03, one hazard, one placement'
+  key_point_chunks: '0501 (HCl gas vs hydrochloric acid -> s02 key-point), 0504 (three commonly used halogens / trend continues -> s04 key-point), 0506 (bromine colour discipline -> s05 key-point)'
+  hint_chunks: '0507 (displaces-bromine-not-bromide wording -> s05 exam-hint); 0500 intermolecular-forces reminder -> s02 prose; 0512 OIL RIG + spectator/ionic-equation reminder -> s06 prose; 0513 metals-vs-non-metals reducing-agent flip -> s06 prose; 0515 fluorine footnote -> s06 prose; 0516 oxidising-strength ladder -> s06 prose; 0518 7+ shielding extension -> s07 misconception'
+  ocr_notes: '0494 tail garble ("eles b b slar ways") taught standalone as the family-recognition opening; 0497 "l2" = I₂ (identity-I artifact); 0501 tail garble ("thacs sc ss s nd") restated as astatine isotope instability (no half-life numbers fabricated); 0503 "formhydrogen" join + "cov y y yuce" garble restated as covalent molecular gases giving acidic solutions; 0508 dropped equations (Cl₂/KBr, Cl₂/KI) restored: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq); Cl₂(aq) + 2KI(aq) → 2KCl(aq) + I₂(aq); 0512 OCR "2K | (aq)" = 2KI(aq); "2Br (aq) + CI₂(aq) → 2CI(aq) + Br₂(aq)" = 2Br⁻(aq) + Cl₂(aq) → 2Cl⁻(aq) + Br₂(aq); 0517 tail garble ("bir f r the nucleus") restated as the further-shell/weaker-attraction link; 0503 sodium-chloride equation (dropped by parse) restored: 2Na(s) + Cl₂(g) → 2NaCl(s)'
