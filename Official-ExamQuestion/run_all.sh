@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# ADR-037 full-corpus runner + canary verification.
+# ADR-037 full-corpus runner + canary verification, as a leg-structured battery
+# (LEDGER F63; culture: Official-ExamQuestion/RECEIPTS-AND-BATTERIES.md).
 # Usage:   bash Official-ExamQuestion/run_all.sh
 # Env:     SKIP_FETCH=1     skip staging inputs (assume already downloaded/extracted)
 #          EXAMQ_PAPERS     paper variants to run (default "1C 2C"; F34)
+#          EXAMQ_RECEIPT_DIR  where battery receipts land (default <kit>/receipts, gitignored)
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"                 # .../syllabai-resources/Official-ExamQuestion
 RES="$(cd "$ROOT/.." && pwd)"                          # .../syllabai-resources
@@ -12,9 +14,61 @@ GHTOKEN="${GHTOKEN:-}"
 PAPERS="${EXAMQ_PAPERS:-1C 2C}"                        # F34: paper variants (1C=110 marks, 2C=70)
 BASEURL="https://raw.githubusercontent.com/SyllabAI/syllabai-pastpapers/main/past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers"
 
+# --- battery receipt infrastructure (F63): evidence or it didn't happen ------
+RECEIPT_DIR="${EXAMQ_RECEIPT_DIR:-$ROOT/receipts}"
+mkdir -p "$RECEIPT_DIR" || exit 1
+RECEIPT_LEGS="$RECEIPT_DIR/.battery-legs-$$"
+RECEIPT_OUT="$RECEIPT_DIR/battery-$(date -u +%Y%m%dT%H%M%SZ)-$$.json"
+BATTERY_STARTED=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+: > "$RECEIPT_LEGS"
+trap 'rm -f "$RECEIPT_LEGS"' EXIT
+BATTERY_NAME=""; BATTERY_T0=0
+battery_begin() { BATTERY_NAME="$1"; BATTERY_T0=$(date +%s); echo "=== leg: $BATTERY_NAME"; }
+battery_end() {  # records name|exit|seconds; passes the leg's exit through
+  local rc="$1"
+  printf '%s|%s|%s\n' "$BATTERY_NAME" "$rc" "$(( $(date +%s) - BATTERY_T0 ))" >> "$RECEIPT_LEGS"
+  return "$rc"
+}
+finish_receipt() {  # legs must already be recorded; the pass bit is computed from them
+  python3 - "$RECEIPT_LEGS" "$RECEIPT_OUT" "$BATTERY_STARTED" "$RES" "$PAPERS" "$SERIES" <<'PY'
+import datetime, json, os, subprocess, sys
+legs_path, out, started, res, papers, series = sys.argv[1:7]
+legs = []
+for line in open(legs_path):
+    name, rc, secs = line.rstrip("\n").split("|")
+    legs.append({"name": name, "exit": int(rc), "seconds": int(secs)})
+def git(*a):
+    try:
+        return subprocess.run(["git", "-C", res, *a], capture_output=True, text=True, timeout=15).stdout.strip()
+    except Exception:
+        return ""
+head = git("rev-parse", "--short", "HEAD") or None
+dirty = bool(git("status", "--porcelain", "--", "Official-ExamQuestion").strip()) if head else None
+n_pass = sum(1 for l in legs if l["exit"] == 0)
+receipt = {
+    "battery": "Official-ExamQuestion run_all battery (ADR-037 corpus)",
+    "receipt_schema": "syllabai.examq-battery-receipt/0.1",
+    "started_utc": started,
+    "finished_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "git_head": head,
+    "git_dirty": dirty,
+    "papers": papers,
+    "series_count": len(series.split()),
+    "env": {"SKIP_FETCH": os.environ.get("SKIP_FETCH", "0"),
+            "EXAMQ_UPLOAD_DIR": os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload")},
+    "legs": legs,
+    "summary": f"{n_pass}/{len(legs)} PASS",
+    "pass": bool(legs) and all(l["exit"] == 0 for l in legs),
+}
+json.dump(receipt, open(out, "w"), indent=2)
+print(f"battery receipt: {out}  [{receipt['summary']}]")
+PY
+}
+
 # Bootstrap the series index when absent (LEDGER F16): one contents-API call on
 # the 4CH1 series directory. The recursive git/trees API TRUNCATES on large
 # repos (~39k entries observed) and can silently omit subtrees — never rely on it.
+battery_begin "bootstrap-series-index"
 if [ ! -s "$UP/pp-tree.json" ]; then
   echo "bootstrapping pp-tree.json (series enumeration via contents API)"
   GHTOKEN="$GHTOKEN" python3 - "$UP/pp-tree.json" <<'PY'
@@ -50,10 +104,13 @@ pat = re.compile(r"4ch1/past-papers/([^/]+)/4CH1-[0-9][A-Z]R?/qp\.pdf$")
 print(" ".join(sorted({m.group(1) for e in t["tree"] if (m := pat.search(e.get("path", "")))})))
 PY
 )
-[ -n "$SERIES" ] || { echo "cannot enumerate series (pp-tree.json missing)"; exit 1; }
+[ -n "$SERIES" ] || { echo "cannot enumerate series (pp-tree.json missing)"; battery_end 1; finish_receipt; exit 1; }
 echo "series: $SERIES"
 echo "papers: $PAPERS"
+battery_end 0
 
+battery_begin "convert-corpus"
+convert_corpus() {
 for S in $SERIES; do
   for PAPER in $PAPERS; do
     # F-178: the R papers exist for exactly 11 of the 16 series (2021-06/2021-11/
@@ -76,26 +133,37 @@ sys.exit(0 if EXPECT_QUESTIONS['$PAPER'].get('$S') else 1)"; then
         esac
         if [ ! -s "$out" ]; then
           code=$(curl -s -L -w '%{http_code}' ${GHTOKEN:+-H "Authorization: token $GHTOKEN"} "$D/$f" -o "$out")
-          [ "$code" = "200" ] || { echo "FETCH-FAIL $S/4CH1-$PAPER/$f HTTP $code"; exit 1; }
+          [ "$code" = "200" ] || { echo "FETCH-FAIL $S/4CH1-$PAPER/$f HTTP $code"; return 1; }
         fi
       done
       [ -s "$UP/official-$S-$PAPER-qp.txt" ] || pdftotext -layout "$UP/official-4CH1-$PAPER-$S-qp.pdf" "$UP/official-$S-$PAPER-qp.txt" 2>/dev/null
       [ -s "$UP/official-$S-$PAPER-ms.txt" ] || pdftotext -layout "$UP/official-4CH1-$PAPER-$S-ms.pdf" "$UP/official-$S-$PAPER-ms.txt" 2>/dev/null
     fi
     echo "--- run $S / 4CH1-$PAPER"
-    python3 "$RES/scripts/official_examq_extract.py" --series "$S" --paper "$PAPER" >/dev/null || { echo "RUN-FAIL $S/$PAPER"; exit 1; }
+    python3 "$RES/scripts/official_examq_extract.py" --series "$S" --paper "$PAPER" >/dev/null || { echo "RUN-FAIL $S/$PAPER"; return 1; }
   done
 done
+}
+convert_corpus; rc=$?
+battery_end "$rc" || { finish_receipt; exit 1; }
 
-# cross-diff where the repo has a parsed layer (1C dirs only today; F34), then the aggregate report
+battery_begin "cross-diff"
+# cross-diff where the repo has a parsed layer (1C dirs only today; F34)
 for S in 2024-06 2025-06 2026-06; do
   [ -s "$UP/parsed-$S-questions.json" ] || \
     curl -s -L ${GHTOKEN:+-H "Authorization: token $GHTOKEN"} \
       "$BASEURL/$S/4CH1-1C/parsed/questions.json" -o "$UP/parsed-$S-questions.json"
 done
-python3 "$RES/scripts/cross_diff_parsed.py" --paper 1C || exit 1
-python3 "$RES/scripts/make_multiseries_report.py" || exit 1
+python3 "$RES/scripts/cross_diff_parsed.py" --paper 1C
+battery_end $? || { finish_receipt; exit 1; }
+
+battery_begin "aggregate-report"
+python3 "$RES/scripts/make_multiseries_report.py"
+battery_end $? || { finish_receipt; exit 1; }
 
 # gate: every canary must hold before this corpus is shippable
-python3 "$ROOT/check_canaries.py" || { echo "CANARIES FAILED — corpus NOT shippable"; exit 1; }
+battery_begin "canaries"
+python3 "$ROOT/check_canaries.py" || { echo "CANARIES FAILED — corpus NOT shippable"; battery_end 1; finish_receipt; exit 1; }
+battery_end 0
+finish_receipt
 echo "run_all complete: corpus regenerated, report refreshed, canaries hold."
