@@ -532,3 +532,35 @@ served bundle PR carries a full disclosure census.
   `LICENSE-DATA.md` (Amendment 2026-10-24); © Cambridge/UCLES unchanged; takedown law unchanged.
   MANIFEST advances **v8 → v9** (lanes 1–8 rows and file_count 479 untouched; `assets` block + version
   note appended).
+
+- **T-UGM-MODE1-9 — UGM mode-1 lane enrichment, Pure 3 Algebra lane (this run)**: tenth landing from the
+  UGM corpus, and the **first lane on the pure-3 course plane** (`course: cie-a-level-maths-20-pure-3`).
+  Target of record: CIE 9709 Pure 3 subtopic 3.1 Algebra, spec points 3.1.1–3.1.6, verbatim from the
+  repaired hub spine parse (the parse warning documents `T-SPECS-CIE-PARSE-REPAIR-1`: official 2.1.1 split
+  into the 3.1.1 meaning/graph limb + 3.1.2 relations limb; official bullets 2–5 recovered as 3.1.3–3.1.6) —
+  no fold fragments. Facts file of record:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-3-algebra.json` (task `T-UGM-MODE1-9`, review_state SUGGESTED).
+  Corpus sweep 855 → 97 raw hits → 90 candidates (deduped) → **47 aligned rows** (38 fresh rows over 35
+  substrate resources + 9 cross-lane rows: 5 flips — r8427 from the lane-2 non-overlaps, r5245/r6295/r6340/r7477
+  from the lane-6 non-overlaps whose P3 bearings were recorded at lane 6 — and 4 one-to-many joins r5362/r9523
+  (lane-2), r9082 (lane-7), r9701 (lane-8), all riding bodies of record, join law unchanged) **+ 16 fresh
+  non-overlaps recorded by reference only** (`bodyImported: false`, the lane-8 candidate-model law: no text
+  import for resources whose tested skill sits outside the lane) **+ 30 of-record candidates rejected with
+  reasons** (the integer-index binomial pool stays 1.6.1 of record — 3.1.6 is the rational-index `|x| < 1`
+  expansion, realising the lane-6 P3 preview; the surd/distance squaring pool stays 1.1.x/1.3.2; vector norms
+  are not scalar modulus). Primary picks of record: absolutely (3.1.1) / inequalities (3.1.2) / whats-left
+  (3.1.3) / r6577 (3.1.4) / r7792 (3.1.5) / r7436 (3.1.6). Cross-map of record:
+  `undergroundmathematics/resources/derived/cross-map-algebra.json` + narrative
+  `undergroundmathematics/docs/cross-map-algebra.md` @ syllabai-experimental 3098d8eb.
+  Text of record: 35 new files under `UGM-Resources/pure-3-algebra/` (T-UGM-IMPORT-9, below) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-9.
+- **T-UGM-IMPORT-9 — UGM text corpus import, Pure 3 Algebra lane (this run)**: tenth landing; the
+  candidate-model law continues (lane-8 shape): 35 fresh 3.1-bearing resources corpus-wide, converted from
+  `ugm-clean` through the byte-proven converter (pre-flight: 10/10 byte-identity against the lane-8 of-record
+  bodies), fm planes `curriculum_code: CIE-9709-P3-2023`, `lane: cie-a-level-maths-20-pure-3`, `task:
+  T-UGM-IMPORT-9`, `examProvenance` = acknowledgement first line verbatim (42/35... 24 of 35 carry
+  acknowledgements). Filenames `{ugm_id}-{title-slug}.md` under the majority slug law (fitted 360/479
+  against the fleet; of-record filename space is non-uniform across the lost lane builds — `ugm_id` remains
+  the only join key). MANIFEST v10 (lane-9 block appended; lane-1..8 rows + v9 assets untouched;
+  file_count 479 → 514). Fleet audits: sha256 35/35, delimiter parity 35/35, fm↔enrichment membership
+  38/38 fresh rows, primaryPick 6/6 unique, 0 `ugm_id` collisions against lanes 1–8.
