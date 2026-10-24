@@ -48,6 +48,19 @@ bumped mark must surface as a value_trace violation, a one-word paraphrase must 
 as a missing `edits[]` entry, and a fake spec code is still refused by G6 — all three
 MUST be DETECTED, else the run is void.
 
+## Per-course handover (SME EQ → Official EQ on Past Papers)
+
+On the hub, a course's Past Papers "Interactive" buttons are served by the SME
+Exam-Questions sets (their parsed `sourcePaper` provenance) until this pipeline
+completes for that course. The handover to the Official sets is then a mandatory
+three-receipt stage: **H1** baseline census of what SME currently connects to Past
+Papers, **H2** per-paper comparison whose rule is "any SME coverage the Official
+output would serve worse is a blocker", **H3** cutover — official sets ship on the
+dedicated hub plane (`official-papers.json`, never the Exam Questions tree) and the
+SME sets retire from past-paper matching for the course, recorded in `LEDGER.md`.
+Full protocol in `AGENTS.md` ("The handover rule"); chemistry (igcse-chemistry-19)
+is the executed precedent.
+
 ## Status (full-corpus run, converter v0.3)
 
 > **Doctrine note (ADR-039, 2026-10-24):** figures below are historical receipts of the

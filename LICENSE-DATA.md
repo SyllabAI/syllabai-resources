@@ -166,3 +166,32 @@ Consequences of this amendment:
 - Operator follow-ups (not blockers): retain the underlying permission
   documentation on file; decide the product-side attribution presentation
   (UGM's own acknowledgement strings are preserved in the corpus metadata).
+
+## Amendment 2026-10-24 — Underground Mathematics static figures (operator attestation; the T-UGM-ASSETS-1 amendment of record)
+
+The operator attests that the Underground Mathematics **static figures** (diagrams and images) may be
+downloaded and shipped into SyllabAI alongside the text corpus. Recorded verbatim in-session,
+2026-10-24 (zai-web session, gateway trace `1a16dc6786415249`): **"Did you download all the
+figures/diagrams from UGM and saved it in github? I want the syllabai frontend to use those images
+then. Currently not showing any images, just links to ugm"**. This is the "separate decision" that
+Amendment 2026-10-23 anticipated for the image plane; that amendment's text-scope terms are otherwise
+carried forward unchanged.
+
+Subject of the attestation — the **static figure binaries** (PNG/SVG) referenced by the served corpus
+sections, captured 2026-10-22 by the research track's full-site crawl and imported by
+`T-UGM-ASSETS-1` as this repository's `UGM-Assets/` tree (976 files, 37.7 MB; per-file
+SHA-256 identity + source URL in `UGM-Assets/MANIFEST.json`; figure→resource→section mapping in
+`UGM-Resources/figures-map.json`). Underground Mathematics content is © University of Cambridge
+(Cambridge Mathematics); sourced exam questions are © UCLES — rights and attribution are unchanged.
+
+Consequences of this amendment:
+
+- Committing and serving the captured UGM **static figures** inside SyllabAI surfaces (including this
+  repository and the authenticated product) is covered by the operator's attestation above.
+- **Scope remains static images only.** GeoGebra interactive embeds, printable/component PDFs, site
+  chrome (logos/CSS/JS/fonts) and assets referenced only by variant pages outside the corpus sections
+  are NOT part of this import and remain excluded.
+- The non-commercial educational pilot posture, provenance law (source URLs, capture dates, SHA-256
+  manifests) and takedown / correction handling remain in force unchanged: takedown / correction
+  requests → open an issue on this repository or contact the repository owner via GitHub; affected
+  material will be removed promptly.
