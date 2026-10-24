@@ -1,33 +1,39 @@
 {
   "programme": "SME-GuidedLessons",
   "schema": "guided-lesson.0.1",
-  "manifest_version": 2,
-  "generated_utc": "2026-10-24T21:00:38.939Z",
+  "manifest_version": 3,
+  "generated_utc": "2026-10-24T21:59:04.196Z",
   "saved": {
     "lane": "w0a",
     "session": "web-e79a3bd8-5bc9-4aae-abe2-eb5f5d3964dd",
     "trace_ids": {
       "initial_landing": "1a16f959b77972c1",
-      "wave3_closeout_append": "1a16fa91188c8f3d"
+      "wave3_closeout_append": "1a16fa91188c8f3d",
+      "wave4_append": "1a16fbc3d4b5b749"
     },
     "task_ids": [
       "ROUND-SAVE-WAVEARTEFACTS-20261025",
-      "ROUND-WAVE3-CLOSEOUT-20261025"
+      "ROUND-WAVE3-CLOSEOUT-20261025",
+      "ROUND-WAVE4-20261025"
     ],
     "method": "git-data-api single additive commits on main",
-    "parent_commit": "7dbdf2ba29fb15f0f5c2733c0eb8a977319fbc91",
+    "parent_commit": "b27d4a3c5d93dc44a3fd24831f53aacbbea0b6fc",
     "reason": "repo ~5.6 GB; clone impractical in sandbox"
   },
   "status": {
-    "notes_authored": 34,
+    "notes_authored": 45,
     "notes_register_total": 112,
     "waves_complete": [
       "wave-1",
       "wave-2",
-      "wave-3"
+      "wave-3",
+      "wave-4"
     ],
-    "wave3_closeout": "wave3-receipt.json (wave3-receipt/0.1, recalibration reaffirmed) + Wave-3-Authoring-Wave-Report-20261025.docx",
-    "next_operator_gated": "wave-4 open: 11 notes (Ionic Bonding tail -> Covalent -> Metallic -> Electrolysis); artefacts append to this folder"
+    "topic1_complete": true,
+    "subtopics_closed": 9,
+    "subtopics_total": 28,
+    "wave4_closeout": "wave4-receipt.json (wave4-receipt/0.1, recalibration reaffirmed, topic census T1 40/40) + Wave-4-Authoring-Wave-Report-20261025.docx",
+    "next_operator_gated": "wave-5 open: 12 notes (30,208 chars, 18 spec points) opening Topic 2 Inorganic Chemistry (Group 1 tail -> Group 7 -> Gases in the Atmosphere); artefacts append to this folder"
   },
   "snapshot_pin": {
     "file": "corpus-snapshot.json",
@@ -77,7 +83,7 @@
       "bytes": 20556
     },
     "SME-GuidedLessons/wave-1/snapshot-pin-reverify-20261024.json": {
-      "sha256": "7d68e4220a43d350d631eaeea317965b1ef585eed5787fd0588f80a8de2da223",
+      "sha256": "189df1f7c925b1a78030559592cbbc2689731b8470f99328387db1982440f51a",
       "bytes": 3312
     },
     "SME-GuidedLessons/wave-1/timing-receipt-rn_2d6Yb8GwGfRRd6pZ.json": {
@@ -324,6 +330,98 @@
       "sha256": "0a33f516c5ae6740bebf214ba767081092342c7d67b52b95c7e442c51869f679",
       "bytes": 29429
     },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_3YZNCXSQQqXTT6HR.json": {
+      "sha256": "c948f2c80310f9bb0d03b94c23646630b924f746b9589bc7be0cdc85505db16a",
+      "bytes": 21276
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_FCnWFz9MhgsqnZGM.json": {
+      "sha256": "ee6038060f98c01303dcff9e31adb889f8ab10f3e21475ec9dd3a9817eb18559",
+      "bytes": 20668
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_GkJG52NCN98ShGRm.json": {
+      "sha256": "abeb1aac86bde0bf418ca510b538beddd76d62920efbfedf3bda9596cbf0a69a",
+      "bytes": 20935
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_Hp2nK8XpN2SmjdQc.json": {
+      "sha256": "7eb7d6cd83e3c5e30908cdbdb73d1126e3205e23e22489e7c3cd4aa8b9575186",
+      "bytes": 21349
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_J7ZcTWyRxRgWQ45R.json": {
+      "sha256": "b91db0192d4628baf3afd9993c5b6f32e0324a6ab0ac6469630f03c5dfa96e5e",
+      "bytes": 22087
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_KpvF2TWr5fYHk2Jz.json": {
+      "sha256": "5c530727a009f4d8c27932c9445efd0675e10265d3b39d360bcb0707ec5bcf6b",
+      "bytes": 22014
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_MVnFKDMVkswzpmpw.json": {
+      "sha256": "63b6cfb545bbe59acd58b6e025e739beb72e515e59b0ee572665c1de28225eda",
+      "bytes": 19523
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_jVwPmjqHbqQkXcjG.json": {
+      "sha256": "a8fd590884218fdf9a6a0f56687b51a4088276d368e25c78561f51f8631ebe9a",
+      "bytes": 21309
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_kdRjZHjHcpVZsD3h.json": {
+      "sha256": "17ba1dbb6e548a8266fd37f5a315ada901690114045aea1e6c0ba8d3fa192f9d",
+      "bytes": 19782
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_rHKCkt3PTXDBpmJG.json": {
+      "sha256": "0a9b38309c967f733acc56c81cef630bd5f56fef29da3cce370f335edc00f9c7",
+      "bytes": 20321
+    },
+    "SME-GuidedLessons/wave-4/guided-lesson-rn_vfmJxw4VQgXKzXF3.json": {
+      "sha256": "f6f44979448db7632883612b330ba64a907a3cfedbb03e94e268d93727f40030",
+      "bytes": 20666
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_3YZNCXSQQqXTT6HR.json": {
+      "sha256": "0f6c0f88724c172c228250feedd61ea580508a76c4f06487527b83d81579fd81",
+      "bytes": 1544
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_FCnWFz9MhgsqnZGM.json": {
+      "sha256": "43b5a1dda00567aca00b540fb4fbbcea5adf503f1bbe090f6d49268ee6cecf77",
+      "bytes": 1558
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_GkJG52NCN98ShGRm.json": {
+      "sha256": "f0d310fcf694db2cba3a33efbda3680c1f17371a7bf260303c6a75b7cf697c64",
+      "bytes": 1553
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_Hp2nK8XpN2SmjdQc.json": {
+      "sha256": "dccdf9962f7ff1bf92f6a8937d2e193cc051256ad3a62feb77a738d4d3d0356b",
+      "bytes": 1562
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_J7ZcTWyRxRgWQ45R.json": {
+      "sha256": "092e5f43b74303e2fe027da95a6b32bf5c7592c07ced8e7c77f3929ab1fb6e3f",
+      "bytes": 1532
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_KpvF2TWr5fYHk2Jz.json": {
+      "sha256": "ae48d32816a5b44b16120353c13bf77d7a59924b952c77d98c584616934fc003",
+      "bytes": 1585
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_MVnFKDMVkswzpmpw.json": {
+      "sha256": "8d7cbedb141b252348a94fb27acaeac2180bba2055bea900779d5abc1ecfb73d",
+      "bytes": 1549
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_jVwPmjqHbqQkXcjG.json": {
+      "sha256": "123157be643e56b3c9b6bb0445b26bc844f077fdc652c0b429b765d1b4fa7c9d",
+      "bytes": 1586
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_kdRjZHjHcpVZsD3h.json": {
+      "sha256": "3f3d5603ab30bcfc1a1b253ed5ff7918fa374c7b1fa8958d62bc942f9784a268",
+      "bytes": 1586
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_rHKCkt3PTXDBpmJG.json": {
+      "sha256": "33c3afb82b176054b2b51a6953f32631d05a36c0c53808f8b9bd07baed530620",
+      "bytes": 1565
+    },
+    "SME-GuidedLessons/wave-4/timing-receipt-rn_vfmJxw4VQgXKzXF3.json": {
+      "sha256": "571d14d943c8e2ef3568a352fdd97ce0a5199ef179e1614e2619aa31818389e1",
+      "bytes": 1555
+    },
+    "SME-GuidedLessons/wave-4/wave4-receipt.json": {
+      "sha256": "49e43829b243129441a0bcdc8dc9ac7d1d4d58696703f0ef9b0b45f6b92aa042",
+      "bytes": 27844
+    },
     "SME-GuidedLessons/event-logs/wave-1/rn_2d6Yb8GwGfRRd6pZ.events.json": {
       "sha256": "556ad4d6d07ae5fdb37a42c76e45b61f45918713a6d85fc97797742c163865ec",
       "bytes": 1469
@@ -500,6 +598,50 @@
       "sha256": "2bb534db7eac26ab49e5a65eea425f8809a179c120347054bd8414d77214d2d4",
       "bytes": 1646
     },
+    "SME-GuidedLessons/event-logs/wave-4/rn_3YZNCXSQQqXTT6HR.events.json": {
+      "sha256": "4cc913a8ab48f3fdbbeb47d3d39964e9617d285c0e46ae9d2c0633fe99ed0204",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_FCnWFz9MhgsqnZGM.events.json": {
+      "sha256": "ad15254fcd75901112f0a761037fffdacb17ce57778e127bf07128551ad2a843",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_GkJG52NCN98ShGRm.events.json": {
+      "sha256": "f73abf6f568b7d166165f792703b2f7a5f9bf60d74a5363c1c36d1a3eb1adc5b",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_Hp2nK8XpN2SmjdQc.events.json": {
+      "sha256": "44591fbe4857b1ed7a4a1e2b250d9082de62a88500219fef450879b2e3ddc43f",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_J7ZcTWyRxRgWQ45R.events.json": {
+      "sha256": "da0d75c9fe5a70d52625853bb061cd8352490ee722a6b69165c0eaca7e9527e2",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_KpvF2TWr5fYHk2Jz.events.json": {
+      "sha256": "ad7caeae7880e64ecee9cfdef2a93a50419ae4bcbb9e0aa92f842b33cb7041f2",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_MVnFKDMVkswzpmpw.events.json": {
+      "sha256": "b67f236891077f1a128fa3e1de5e2e73ebfe1f1004075f3e2c85b8af9c2ff996",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_jVwPmjqHbqQkXcjG.events.json": {
+      "sha256": "84a3b544c49f3e99af6b2d6a2ed1b7956ae40312077c3be230de12ea0f01073c",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_kdRjZHjHcpVZsD3h.events.json": {
+      "sha256": "03f37f7653b29f60ef1d61e41e6aa0c610430cffd5281511f7263a2a2914fc8e",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_rHKCkt3PTXDBpmJG.events.json": {
+      "sha256": "2eb9f0934be90f09932d8681dc4a225529a32ee6402082f04447cc4ea1e23c89",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-4/rn_vfmJxw4VQgXKzXF3.events.json": {
+      "sha256": "da781630f5ec26bc89e4d2cb84ea3759ba1770607cc004b23e35cbd533c9a1f5",
+      "bytes": 1646
+    },
     "SME-GuidedLessons/corpus-snapshot.json": {
       "sha256": "e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d",
       "bytes": 444822
@@ -628,6 +770,30 @@
       "sha256": "a38a4619e95d58c51d642d4aafbbb6768dee17038a68741d54aeb885807fe22b",
       "bytes": 13786
     },
+    "SME-GuidedLessons/tooling/wave4-round-verify.js": {
+      "sha256": "80bb3479e81cce3df468182b6d1cb6cc67b8f95924c6d01887c85fcdef82dabf",
+      "bytes": 8451
+    },
+    "SME-GuidedLessons/tooling/wave4-wave-receipt.js": {
+      "sha256": "00cbb2e77a3aeacf3f3c3cd26d69a915205d13554535412917f493fb80ec68d2",
+      "bytes": 22707
+    },
+    "SME-GuidedLessons/tooling/wave4-report.js": {
+      "sha256": "a2df13ddc39297d4318f1d21b5f1e69ad43a884ff99e3c4086d3810a68c5887c",
+      "bytes": 16023
+    },
+    "SME-GuidedLessons/tooling/wave4-report-content-1.js": {
+      "sha256": "35ed5c243a6dd944ccb159f0bc6dd74b9c3f5e88fc1ad268268e89bc473373ee",
+      "bytes": 15158
+    },
+    "SME-GuidedLessons/tooling/wave4-report-content-2.js": {
+      "sha256": "33a1358bcbcb76539067e0fbb943ac71e8ef72e17ef7f16710c7d2f1eee4a7e4",
+      "bytes": 10752
+    },
+    "SME-GuidedLessons/tooling/wave4-report-postcheck.js": {
+      "sha256": "6eacc01b049276f8093af549f1fad289e09a66a73a984c01fe17533aba304bdb",
+      "bytes": 2570
+    },
     "SME-GuidedLessons/reports/Wave-1-Instrumented-Authoring-Wave-Report-20261024.docx": {
       "sha256": "6547a29d110cf0cb13a4ddb43bb88e1d03e2b65acbaaaefa23e48eff6f81b1b6",
       "bytes": 24350
@@ -640,9 +806,13 @@
       "sha256": "b3c2fff43412e137c49b7cb0637b491e5ac2c8359d9116c2e8805106ea4b76ce",
       "bytes": 26165
     },
+    "SME-GuidedLessons/reports/Wave-4-Authoring-Wave-Report-20261025.docx": {
+      "sha256": "c3109562eb857442d82c93a05442cb83edce36eaa6d05d750b36a3c5a2439f5c",
+      "bytes": 26948
+    },
     "SME-GuidedLessons/README.md": {
-      "sha256": "2ca92a885493901c0ee59178101501c39e50714c0f7716b8e401051c9fc08511",
-      "bytes": 7347
+      "sha256": "10f096458d70287eab8f4f8a631232793291270367446a003d6378876729bded",
+      "bytes": 8215
     }
   }
 }

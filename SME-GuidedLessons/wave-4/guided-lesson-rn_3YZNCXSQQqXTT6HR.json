@@ -1,0 +1,471 @@
+{
+ "format": "guided-lesson/0.1",
+ "noteRef": {
+  "noteId": "rn_3YZNCXSQQqXTT6HR",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "1. Principles of Chemistry",
+  "subtopicTitle": "Electrolysis",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-9-electrolysis/1-9-2-electrolysis-experiments"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-1.56C",
+   "text": "understand why ionic compounds conduct electricity only when molten or in aqueous solution"
+  },
+  {
+   "code": "4CH1-1.58C",
+   "text": "describe experiments to investigate electrolysis, using inert electrodes, of molten compounds (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric acid and copper(II) sulfate) and to predict the products"
+  }
+ ],
+ "primer": {
+  "text": "From Explaining Conductivity you know that ionic compounds conduct only when molten or dissolved, and that their ions then migrate to the electrodes. This note turns that knowledge into laboratory experiments: electrolysis of molten compounds such as lead(II) bromide, electrolysis of aqueous solutions, and the rules that predict which product appears at each electrode.",
+  "prerequisiteSubtopic": "Electrolysis"
+ },
+ "lessons": [
+  {
+   "title": "Electrolysis of molten compounds",
+   "sourceHeadings": ["Electrolysis of molten compounds"],
+   "specRefs": ["4CH1-1.56C", "4CH1-1.58C"],
+   "opening": "A binary ionic compound contains just two elements joined by ionic bonding, lead(II) bromide being the classic example. Heated past its melting point it becomes molten, its ions can move freely, and it conducts, which allows electrolysis to split it into its two elements. The positive ion always travels to the cathode and the negative ion to the anode, so the cathode product is the metal and the anode product the non-metal.",
+   "keyPoints": [
+    "A binary ionic compound consists of just two elements joined by ionic bonding, such as lead(II) bromide.",
+    "Heated beyond its melting point, the compound becomes molten and can conduct because its ions move freely.",
+    "The positive ion migrates to the cathode and the negative ion to the anode.",
+    "The cathode product is always the metal, and the anode product is always the non-metal.",
+    "In molten lead(II) bromide, brown bromine gas bubbles at the anode and grey lead deposits at the cathode."
+   ],
+   "confidenceGate": {
+    "ratings": ["low", "medium", "high"],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Melt the compound and its two ions become mobile, so a current can pass. Opposite charges steer them: the metal ion reaches the cathode and turns into metal, the non-metal ion reaches the anode and turns into the non-metal, as lead(II) bromide shows with grey lead and brown bromine.",
+     "analogy": "Think of a sorting gate at a recycling plant: metal pieces roll one way, non-metal pieces the other, and the two collection bins fill with pure, separate products.",
+     "examPointer": "Describe the method with its equipment words: crucible, heat until molten, two graphite rod electrodes, and a power pack; the observation words are bubbling brown gas and grey deposit."
+    },
+    "medium": {
+     "restatement": "The experiment works because the molten state removes the lattice constraint: freed ions carry the current, so the melt undergoes electrolysis and decomposes into its elements. Charge decides where each ion ends up, with positive ions gaining electrons at the cathode to form the metal and negative ions losing electrons at the anode to form the non-metal.",
+     "analogy": "Picture two exits from a crowded hall, one marked plus and one marked minus: everyone walks to the exit opposite to their ticket, and each exit turns its crowd into a single pure product.",
+     "examPointer": "Product questions reduce to one move: identify the two ions, send the positive one to the cathode and the negative one to the anode, then name the element each becomes."
+    }
+   },
+   "check": [
+    {
+     "stem": "What is a binary ionic compound?",
+     "misconceptionClass": "term definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "A compound consisting of just two elements joined by ionic bonding",
+       "correct": true,
+       "explanation": "Binary means two elements, and lead(II) bromide is the named example.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Any compound containing a metal and a non-metal",
+       "correct": false,
+       "explanation": "Metal-plus-non-metal compounds are ionic, but binary specifically limits the count to two elements.",
+       "misconception": "binary confused with ionic"
+      },
+      {
+       "key": "C",
+       "text": "A compound of two ions of the same charge",
+       "correct": false,
+       "explanation": "Ionic bonding requires opposite charges; a compound of like charges cannot hold together.",
+       "misconception": "charge balance ignored"
+      },
+      {
+       "key": "D",
+       "text": "A covalent molecule with two atoms",
+       "correct": false,
+       "explanation": "Binary ionic compounds are ionic; diatomic covalent molecules are a different idea entirely.",
+       "misconception": "covalent term borrowed"
+      }
+     ]
+    },
+    {
+     "stem": "Why must lead(II) bromide be molten before it can be electrolysed?",
+     "misconceptionClass": "molten requirement",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because molten lead(II) bromide has freely moving ions that can conduct and carry the charge",
+       "correct": true,
+       "explanation": "The solid lattice fixes the ions; melting frees them, and mobile ions are what electrolysis needs.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because heating gives the ions their charge",
+       "correct": false,
+       "explanation": "The ions carry their charges in the solid too; only their movement is missing.",
+       "misconception": "charge acquired on melting"
+      },
+      {
+       "key": "C",
+       "text": "Because the electrodes only work when hot",
+       "correct": false,
+       "explanation": "The graphite electrodes work at any temperature; the melt is what matters.",
+       "misconception": "equipment blamed"
+      },
+      {
+       "key": "D",
+       "text": "Because solid lead(II) bromide is not ionic",
+       "correct": false,
+       "explanation": "It is ionic in every state; the solid simply cannot conduct.",
+       "misconception": "bonding type misread"
+      }
+     ]
+    },
+    {
+     "stem": "During electrolysis of any molten binary ionic compound, what forms at the cathode?",
+     "misconceptionClass": "product rule",
+     "options": [
+      {
+       "key": "A",
+       "text": "The metal, because the positive metal ion migrates to the negative cathode and gains electrons",
+       "correct": true,
+       "explanation": "Charge steering sends the positive ion to the cathode, where it becomes the metal element.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The non-metal, because negative ions are attracted to negative electrodes",
+       "correct": false,
+       "explanation": "Like charges repel; negative ions travel to the positive anode instead.",
+       "misconception": "attraction rule inverted"
+      },
+      {
+       "key": "C",
+       "text": "A mixture of both elements",
+       "correct": false,
+       "explanation": "Each ion has its own electrode, so the products separate cleanly.",
+       "misconception": "products mixed"
+      },
+      {
+       "key": "D",
+       "text": "Nothing, molten compounds cannot be split",
+       "correct": false,
+       "explanation": "Splitting into elements is exactly what molten-compound electrolysis does.",
+       "misconception": "possibility denied"
+      }
+     ]
+    },
+    {
+     "stem": "What is observed at the anode during the electrolysis of molten lead(II) bromide?",
+     "misconceptionClass": "observation recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Bubbling, as brown bromine gas is given off",
+       "correct": true,
+       "explanation": "Bromide ions reach the anode, lose electrons and pair up into brown bromine gas.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A grey deposit of lead on the electrode",
+       "correct": false,
+       "explanation": "The grey lead deposit appears at the cathode, not the anode.",
+       "misconception": "observations swapped"
+      },
+      {
+       "key": "C",
+       "text": "A colourless gas that relights a glowing splint",
+       "correct": false,
+       "explanation": "Oxygen's relighting test belongs to aqueous electrolysis; molten lead(II) bromide gives brown bromine.",
+       "misconception": "aqueous observation transferred"
+      },
+      {
+       "key": "D",
+       "text": "No change at the anode",
+       "correct": false,
+       "explanation": "The anode is where bromine forms, so bubbling and brown fumes appear.",
+       "misconception": "anode change denied"
+      }
+     ]
+    },
+    {
+     "stem": "In the same experiment, what is observed at the cathode?",
+     "misconceptionClass": "observation recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Grey lead metal deposits on the electrode",
+       "correct": true,
+       "explanation": "Lead ions reach the cathode, gain electrons and coat it with grey metallic lead.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Brown bromine bubbles rise",
+       "correct": false,
+       "explanation": "Bromine forms at the anode; the cathode collects the metal.",
+       "misconception": "observations swapped"
+      },
+      {
+       "key": "C",
+       "text": "A pop is heard with a lighted splint",
+       "correct": false,
+       "explanation": "The pop test identifies hydrogen, which belongs to aqueous electrolysis, not to this melt.",
+       "misconception": "aqueous test transferred"
+      },
+      {
+       "key": "D",
+       "text": "The electrode dissolves away",
+       "correct": false,
+       "explanation": "The graphite electrodes are inert; the cathode instead gains a metal coating.",
+       "misconception": "electrode consumption imagined"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Electrolysis of aqueous solutions",
+   "sourceHeadings": ["Electrolysis of aqueous solutions"],
+   "specRefs": ["4CH1-1.58C"],
+   "opening": "Aqueous solutions bring extra players to electrolysis, because water molecules split into H+ and OH- ions alongside the ions of the dissolved compound. Which ions are discharged depends on their relative reactivity. At the anode a halide ion, if present, is discharged to give a halogen; otherwise OH- is discharged to give oxygen. At the cathode hydrogen emerges unless the metal ion is less reactive than hydrogen itself, in which case the metal deposits instead.",
+   "keyPoints": [
+    "Water molecules in the solution split into H+ and OH- ions, which join the ions from the dissolved compound.",
+    "Which ions are discharged is decided by how reactive the elements involved are.",
+    "At the anode, a halide ion is discharged to form a halogen; with no halide present, OH- forms oxygen.",
+    "At the cathode, hydrogen forms if the metal is more reactive than hydrogen; otherwise the metal deposits.",
+    "The electrodes are inert graphite rods, and inverted test tubes over them can collect the gases."
+   ],
+   "confidenceGate": {
+    "ratings": ["low", "medium", "high"],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The water itself donates H+ and OH- ions, so the electrolyte holds two rival sets of ions. Reactivity picks the winners: at the anode the halide wins if there is one, otherwise oxygen forms, and at the cathode hydrogen wins unless the metal is less reactive than hydrogen.",
+     "analogy": "Think of two queues for one ride: the queue that gets priority is decided by a fixed rule, and the losing queue simply waits in the solution for another turn.",
+     "examPointer": "Write down every ion present before predicting anything; the exam hint says listing the ions first is the reliable route to the products."
+    },
+    "medium": {
+     "restatement": "The aqueous electrolyte is a mixture of compound ions and the ions from water's own split into H+ and OH-. Discharge follows relative reactivity: halide ions outrank hydroxide at the anode, producing the halogen, while at the cathode the less reactive candidate is discharged, so hydrogen emerges unless a metal less reactive than hydrogen is present.",
+     "analogy": "Picture a dispatch office sending the least stubborn claimant first: reactivity is stubbornness, and the particle that gives up most easily is the one released at the electrode.",
+     "examPointer": "Practise the three named solutions to the point of instant recall: sodium chloride, dilute sulfuric acid and copper(II) sulfate, each with its own cathode and anode products."
+    }
+   },
+   "check": [
+    {
+     "stem": "What extra ions does water itself contribute in the electrolysis of an aqueous solution?",
+     "misconceptionClass": "water role",
+     "options": [
+      {
+       "key": "A",
+       "text": "H+ and OH- ions, from water molecules splitting apart",
+       "correct": true,
+       "explanation": "Water dissociates into hydrogen and hydroxide ions, which then compete with the compound's own ions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "O2- ions only",
+       "correct": false,
+       "explanation": "Water contributes both H+ and OH-; the oxide ion is not what water supplies.",
+       "misconception": "hydroxide misnamed oxide"
+      },
+      {
+       "key": "C",
+       "text": "Water contributes no ions",
+       "correct": false,
+       "explanation": "Water's ions are central to the prediction rules; ignoring them breaks the method.",
+       "misconception": "water role denied"
+      },
+      {
+       "key": "D",
+       "text": "Electrons, which carry the current",
+       "correct": false,
+       "explanation": "Water supplies ions, not free electrons; the current in solution travels by ion movement.",
+       "misconception": "electron supply imagined"
+      }
+     ]
+    },
+    {
+     "stem": "A solution contains chloride ions. What forms at the anode?",
+     "misconceptionClass": "halide rule",
+     "options": [
+      {
+       "key": "A",
+       "text": "Chlorine, because the halide ion is discharged at the anode",
+       "correct": true,
+       "explanation": "When halide ions and OH- compete, the halide wins and a halogen forms at the anode.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Oxygen, from the OH- ions",
+       "correct": false,
+       "explanation": "Oxygen forms only when no halide is present; the halide outranks OH- here.",
+       "misconception": "priority order inverted"
+      },
+      {
+       "key": "C",
+       "text": "Hydrogen",
+       "correct": false,
+       "explanation": "Hydrogen is a cathode product, not an anode product.",
+       "misconception": "electrode products swapped"
+      },
+      {
+       "key": "D",
+       "text": "The chloride stays in solution untouched",
+       "correct": false,
+       "explanation": "The halide is exactly the ion that gets discharged when present.",
+       "misconception": "discharge denied"
+      }
+     ]
+    },
+    {
+     "stem": "A solution contains no halide ions. What forms at the anode?",
+     "misconceptionClass": "no-halide rule",
+     "options": [
+      {
+       "key": "A",
+       "text": "Oxygen, from the discharged OH- ions",
+       "correct": true,
+       "explanation": "With no halide present, OH- is the anode product and oxygen gas is released.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The metal of the dissolved compound",
+       "correct": false,
+       "explanation": "Metals appear at the cathode; the anode gives oxygen in a halide-free solution.",
+       "misconception": "electrode products swapped"
+      },
+      {
+       "key": "C",
+       "text": "Bromine",
+       "correct": false,
+       "explanation": "Bromine requires bromide ions, and the solution contains no halide.",
+       "misconception": "halogen invented"
+      },
+      {
+       "key": "D",
+       "text": "Nothing, the anode stays idle",
+       "correct": false,
+       "explanation": "OH- ions are always available from water, so the anode produces oxygen.",
+       "misconception": "anode activity denied"
+      }
+     ]
+    },
+    {
+     "stem": "An aqueous solution contains ions of a metal that sits above hydrogen in the reactivity series. What forms at the cathode?",
+     "misconceptionClass": "cathode reactivity rule",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrogen gas, seen as bubbling",
+       "correct": true,
+       "explanation": "The more reactive metal ions stay in solution, so the least reactive candidate, hydrogen, is discharged.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The metal, deposited on the electrode",
+       "correct": false,
+       "explanation": "Metal deposition needs a metal less reactive than hydrogen; the more reactive ions remain dissolved.",
+       "misconception": "reactivity rule inverted"
+      },
+      {
+       "key": "C",
+       "text": "Oxygen",
+       "correct": false,
+       "explanation": "Oxygen is an anode product; the cathode's contest is between hydrogen and the metal.",
+       "misconception": "electrode products swapped"
+      },
+      {
+       "key": "D",
+       "text": "Both hydrogen and the metal together",
+       "correct": false,
+       "explanation": "Only one candidate is discharged at the cathode; the other remains in solution.",
+       "misconception": "double discharge imagined"
+      }
+     ]
+    },
+    {
+     "stem": "Why are graphite electrodes chosen for these experiments?",
+     "misconceptionClass": "electrode choice",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because graphite is inert and does not interfere with the electrolysis reactions",
+       "correct": true,
+       "explanation": "The electrodes must carry the current without reacting, and inert graphite does exactly that.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because graphite supplies extra ions to the solution",
+       "correct": false,
+       "explanation": "An inert electrode supplies nothing; supplying ions would disturb the products.",
+       "misconception": "electrode participation assumed"
+      },
+      {
+       "key": "C",
+       "text": "Because graphite is the only conductor available",
+       "correct": false,
+       "explanation": "Metals conduct too; graphite is chosen for its inertness, not for uniqueness.",
+       "misconception": "uniqueness claimed"
+      },
+      {
+       "key": "D",
+       "text": "Because graphite melts the compound faster",
+       "correct": false,
+       "explanation": "Heating is a separate step; the electrodes carry current rather than supply heat.",
+       "misconception": "roles confused"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "electrolysis",
+    "definition": "The splitting of a molten or dissolved compound by an electric current, with ions moving to the electrodes.",
+    "firstLesson": 1
+   },
+   {
+    "term": "binary",
+    "definition": "Describing a compound made of just two elements joined together.",
+    "firstLesson": 1
+   },
+   {
+    "term": "electrolyte",
+    "definition": "The molten compound or solution that carries the current through its moving ions.",
+    "firstLesson": 1
+   },
+   {
+    "term": "inert",
+    "definition": "Describing an electrode material that conducts but does not react during the electrolysis.",
+    "firstLesson": 1
+   },
+   {
+    "term": "discharged",
+    "definition": "Describing an ion that has reached an electrode and turned into an element by gaining or losing electrons.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "Identify the product formed during electrolysis at the anode and cathode for the following binary ionic compounds: 1. Molten copper chloride. 2. Molten magnesium oxide.",
+   "steps": [
+    "Molten copper chloride: copper ions have a positive charge so are attracted to the cathode and form copper metal.",
+    "Chloride ions have a negative charge so are attracted to the anode and form chlorine.",
+    "Molten magnesium oxide: magnesium ions have a positive charge so are attracted to the cathode and form magnesium metal.",
+    "Oxide ions have a negative charge so are attracted to the anode and form oxygen."
+   ],
+   "finalAnswer": "Molten copper chloride gives copper at the cathode and chlorine at the anode; molten magnesium oxide gives magnesium at the cathode and oxygen at the anode."
+  }
+ }
+}

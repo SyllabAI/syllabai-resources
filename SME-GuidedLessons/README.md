@@ -30,25 +30,26 @@ The operator asked for this work to be saved either in a new folder or inside
 
 | Path | Purpose |
 |---|---|
-| `wave-1/`, `wave-2/`, `wave-3/` | The exports of record per wave: `guided-lesson-rn_<id>.json` (the lesson layer) + `timing-receipt-rn_<id>.json` (export-gate telemetry). Waves 1–3 additionally carry their aggregate `wave<N>-receipt.json` (wave receipt of record, minted at each close-out with the recalibration block and event-log ground truth); wave-1 carries the `snapshot-pin-reverify-20261024.json`. |
+| `wave-1/`, `wave-2/`, `wave-3/`, `wave-4/` | The exports of record per wave: `guided-lesson-rn_<id>.json` (the lesson layer) + `timing-receipt-rn_<id>.json` (export-gate telemetry). All four waves carry their aggregate `wave<N>-receipt.json` (wave receipt of record, minted at each close-out with the recalibration block and event-log ground truth); wave-1 carries the `snapshot-pin-reverify-20261024.json`. |
 | `event-logs/wave-<N>/` | The P0–P8 chain logs (`rn_<id>.events.json`) — one per note. Wave-1 also carries the per-note `note-body.md` extracts used during the instrumented first run. |
 | `corpus-snapshot.json` | The **pinned authoring substrate**: all 112 note bodies, sha256 `e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d`. Every round re-verifies this pin; body text is read from here, never from a live DB. |
 | `pacing/wave-pacing-open-20261024.json` | The **register of record**: all 112 notes with wave plan, subtopics, body char counts, spec point codes. |
 | `tooling/` | The gate + harness + verifier scripts: `a1-lint.js` (the lint gate), `wave1-run.js` (the authoring harness, incl. the save() patch lineage), `wave<N>-round-verify.js` (per-round verifiers, wave-3's carrying the close-out guards), `wave3-row-dump.js`, `wave3-schema-check.js`, `wave3-p0flag-repair.js` (the disclosed P0-flag repair tool), the wave receipt builders (`wave<N>-wave-receipt.js`) and report generators (`wave<N>-report*.js`). Paths inside are sandbox-absolute (`/home/z/my-project/...`) — they are records of how gates were run. |
-| `reports/` | Wave report deliverables (docx): Wave-1 instrumented-authoring report, Wave-2 report, Wave-3 report. |
+| `reports/` | Wave report deliverables (docx): Wave-1 instrumented-authoring report, Wave-2 report, Wave-3 report, Wave-4 report. |
 | `MANIFEST.json` | Machine twin: per-file sha256 + byte counts for every file in this folder. Verify with `sha256sum -c`-style tooling of your choice. |
 
-## Status — 34 / 112 notes authored
+## Status — 45 / 112 notes authored — TOPIC 1 COMPLETE
 
 | Wave | Notes | Register rows | Subtopic band | Files |
 |---|---|---|---|---|
 | wave-1 | 10 | register[0..9] | States & Solutions → Separation techniques (instrumented calibration run) | 22 |
 | wave-2 | 12 | register[10..21] | Atoms, formulas, electrolysis band | 25 |
 | wave-3 | 12 | register[22..33] | Chemical Formulae, Equations, Calculations → Ionic Bonding | 25 |
+| wave-4 | 11 | register[34..44] | Ionic Bonding tail → Covalent → Metallic → Electrolysis (topic-closing) | 23 |
 
-Waves 1–3 are **CLOSED of record** (wave receipts `wave1/wave2/wave3-receipt.json`, wave reports in `reports/`, recalibration checkpoints discharged — the wave-3 checkpoint reaffirmed the wave-2 decision: estimator basis frozen at the wave-1 instrumented 283 s/note; receipts are export-gate telemetry). Subtopics closed outright through wave-3: States of Matter, Elements Compounds & Mixtures, Atomic Structure, The Periodic Table, Chemical Formulae Equations & Calculations. Ionic Bonding is open (2/5).
+Waves 1–4 are **CLOSED of record** (wave receipts `wave1/wave2/wave3/wave4-receipt.json`, wave reports in `reports/`, recalibration checkpoints discharged — every checkpoint since wave-2 reaffirms the same decision: estimator basis frozen at the wave-1 instrumented 283 s/note; receipts are export-gate telemetry). **Topic 1, Principles of Chemistry, is COMPLETE of record: 40/40 notes across all nine subtopics** (States of Matter, Elements Compounds & Mixtures, Atomic Structure, The Periodic Table, Chemical Formulae Equations & Calculations, Ionic Bonding, Covalent Bonding, Metallic Bonding, Electrolysis). Programme position: 45/112 notes (40.2 percent), 9 of 28 subtopics closed outright, cumulative 94 lessons / 470 checks / 487 key points / 290 glossary entries. Wave-4 ran the corrected invocation pattern natively on its first full wave (zero repairs, zero re-exports, zero pauses) and carried 11 designed declarations (9 workedExample-null + 2 non-numeric ported examples).
 
-**NEXT (operator-gated):** wave-4 open — 11 notes (39,034 chars, 25 spec points): Ionic Bonding tail (formulae, dot-and-cross, bonds & properties) → Covalent Bonding (all four notes) → Metallic Bonding → Electrolysis opening (3 notes incl. the aqueous-solutions practical). All wave-4 artefacts append to this folder on the standing convention.
+**NEXT (operator-gated):** wave-5 open — 12 notes (30,208 chars, 18 spec points) opening Topic 2, Inorganic Chemistry: Group 1 tail → Group 7 (Halogens) → Gases in the Atmosphere. All wave-5 artefacts append to this folder on the standing convention.
 
 ## The hard laws of this programme (as run)
 
@@ -66,7 +67,9 @@ Waves 1–3 are **CLOSED of record** (wave receipts `wave1/wave2/wave3-receipt.j
    pauses per note. (W3 notes 5–6 carry a disclosed repair: an erroneous
    `--assist` on the first P1 command was repaired via
    `tooling/wave3-p0flag-repair.js`; the logs carry `reExport: true` transparency
-   events and the layers were untouched.)
+   events and the layers were untouched. W4 ran the corrected pattern natively
+   on its first full wave: zero repairs, zero re-exports, zero pauses, and the
+   P0 assist===false guard clean on all eleven logs.)
 5. **Receipts are export-gate telemetry** (standing disclosure: batch-flow phase
    clocks read 0 s); the planning estimator basis remains wave-1's 283 s/note.
 6. **Lane hygiene:** zero DB writes, zero production-surface contact, zero
@@ -86,4 +89,6 @@ Waves 1–3 are **CLOSED of record** (wave receipts `wave1/wave2/wave3-receipt.j
   GB — clone-impractical in the sandbox; see LEDGER F16 for why verification here uses
   the contents API, never the recursive `git/trees` endpoint). Wave-3 close-out append
   (wave receipt + wave report + tooling + manifest refresh): operator trace
-  `1a16fa91188c8f3d`, same single-commit method. Waves 4+ append on this convention.
+  `1a16fa91188c8f3d`, same single-commit method. Wave-4 append (wave-4 deliverables +
+  event logs + report + tooling + manifest v3 refresh): operator trace
+  `1a16fbc3d4b5b749`, same single-commit method. Waves 5+ append on this convention.
