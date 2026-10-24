@@ -96,6 +96,68 @@ done
 python3 "$RES/scripts/cross_diff_parsed.py" --paper 1C || exit 1
 python3 "$RES/scripts/make_multiseries_report.py" || exit 1
 
+# ADR-039 §8 step 3 — verifier promoted corpus-wide at build time (was:
+# enrichment-slice scope in wave-21 staging). Every SOLUTION-ENRICH entry is
+# in scope (base-ledger = the empty ledger written below). Evidence packs are
+# re-staged deterministically from the committed corpus + the archive QP text
+# layer (same field contract as the wave-21 packs: stem/groupStems/problem/
+# ms/choices/markPoints + qpPages from pdftotext -layout, form-feed split) so
+# the promoted census is reproducible from the checkout alone.
+EMPTY_LEDGER="$UP/.empty-base-ledger.json"
+[ -s "$EMPTY_LEDGER" ] || printf '{"entries": {}}' > "$EMPTY_LEDGER"
+echo "--- staging corpus evidence packs (wave-21 field contract)"
+python3 - "$UP/evidence" "$ROOT" <<'PY' || exit 1
+import json, sys
+from pathlib import Path
+evdir = Path(sys.argv[1]); evdir.mkdir(parents=True, exist_ok=True)
+out = evdir / "official-examq-packs.jsonl"
+root = Path(sys.argv[2])
+UP = Path(__import__("os").environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
+ledger = json.loads((root / "SOLUTION-ENRICH.json").read_text())["entries"]
+corpus = {}
+for d in sorted((root / "igcse-chemistry-19").iterdir()):
+    if not d.is_dir():
+        continue
+    for pd in sorted(d.iterdir()):
+        if not pd.name.startswith("4CH1-"):
+            continue
+        paper = pd.name.split("-")[1]
+        t = json.loads((pd / "topic.json").read_text())
+        for q in t["questions"]:
+            for p in q["parts"]:
+                slug = p["part_number"].replace("(", "-").replace(")", "")
+                corpus[f"offp_{d.name}_{paper.lower()}_{slug}"] = (d.name, paper, q, p)
+n = 0
+with out.open("w") as fh:
+    for key in ledger:
+        series_paper, slug = key.split(":")
+        series, paper = series_paper.rsplit("-", 1)
+        part = corpus.get(f"offp_{series}_{paper.lower()}_{slug}")
+        if not part:
+            continue
+        _, _, q, p = part
+        qp_txt = UP / f"official-{series}-{paper}-qp.txt"
+        pages = qp_txt.read_text(errors="replace").split("\f") if qp_txt.exists() else []
+        fh.write(json.dumps({
+            "key": key,
+            "stem": q.get("stem_md") or "",
+            "groupStems": "\n".join((v.get("group_stem_md") or "") for v in (q.get("groups") or {}).values()),
+            "problem": p.get("problem_md") or "",
+            "ms": p.get("solution_md") or "",
+            "choices": p.get("choices") or [],
+            "markPoints": [{"text": m.get("text_md") or ""} for m in (p.get("mark_points") or [])],
+            "qpPages": pages,
+        }, ensure_ascii=False) + "\n")
+        n += 1
+print(f"  packs staged: {n}/{len(ledger)} -> {out}")
+PY
+echo "--- corpus-wide enrich verifier (all SOLUTION-ENRICH entries in scope)"
+python3 "$RES/scripts/official_examq_enrich_verify.py" \
+  --corpus "$ROOT" --ledger "$ROOT/SOLUTION-ENRICH.json" \
+  --base-ledger "$EMPTY_LEDGER" --evidence "$UP/evidence" \
+  --report "$UP/enrich-verify-report.json" --quiet \
+  || { echo "ENRICH-VERIFY FAILED — corpus NOT shippable"; exit 1; }
+
 # gate: every canary must hold before this corpus is shippable
 python3 "$ROOT/check_canaries.py" || { echo "CANARIES FAILED — corpus NOT shippable"; exit 1; }
-echo "run_all complete: corpus regenerated, report refreshed, canaries hold."
+echo "run_all complete: corpus regenerated, report refreshed, enrich-verify clean, canaries hold."
