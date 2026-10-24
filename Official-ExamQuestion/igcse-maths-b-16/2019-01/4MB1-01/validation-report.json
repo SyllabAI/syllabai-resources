@@ -1,0 +1,191 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-24T19:54:58Z",
+ "series": "2019-01",
+ "paper": "01",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/01; series=2019-01; printed='January 2019; January 2019'; sha256 qp/ms match manifest: True; manifest variant '01' == requested '01': True",
+   "details": {
+    "qp_sha256": "79ecd1c184eda0d8187701ff6712269fef667c34ae2a97a24ae96904cf974a1f",
+    "ms_sha256": "6fca5ba52c686bc1e0f049cb2204505769463225ca14d203c238a475145c9045",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/01"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "REVIEW",
+   "summary": "25 questions extracted; Σ known totals=94/100; source defects: missing Q[8, 9, 21] (image-only pages [5, 16] in archive PDF) — lost content needs human/OCR re-ingest",
+   "details": {
+    "mismatches": [
+     {
+      "question": 21,
+      "parts_sum": 3,
+      "printed": 5,
+      "attributed_to_image_only_pages": [
+       16
+      ]
+     }
+    ],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [
+     {
+      "question": 8,
+      "reason": "footer absent in source PDF; question not extractable — image-only page(s) [5] in archive PDF (content lost at scan)",
+      "attributed": true
+     },
+     {
+      "question": 9,
+      "reason": "footer absent in source PDF; question not extractable — image-only page(s) [5] in archive PDF (content lost at scan)",
+      "attributed": true
+     }
+    ],
+    "image_only_pages": [
+     5,
+     16
+    ],
+    "count_expected": null
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 31 parts (0 disclosed, 31 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 6 remain crop-required; 14 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 14,
+    "crop_stats": {
+     "crops": 1,
+     "pending": 6,
+     "shared": 1
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 32/32 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 32 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 32/32 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 3 parts, agrees with QP marks on 1",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 3,
+    "ms_marks_agree": 1,
+    "ms_marks_disagree": [
+     "11 (ms=8 qp=3)",
+     "25(b) (ms=1 qp=6)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "19"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "Q8",
+   "reason": "footer absent in source PDF; question not extractable — image-only page(s) [5] in archive PDF (content lost at scan)"
+  },
+  {
+   "part": "Q9",
+   "reason": "footer absent in source PDF; question not extractable — image-only page(s) [5] in archive PDF (content lost at scan)"
+  },
+  {
+   "part": "7",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "7",
+   "reason": "figure crop required (grid, page None)"
+  },
+  {
+   "part": "12",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "14",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "17",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "20",
+   "reason": "figure crop required (diagram, page None)"
+  }
+ ],
+ "ocr_pages": [],
+ "source_defects": {
+  "image_only_pages": [
+   5,
+   16
+  ],
+  "affected_questions": [
+   8,
+   9,
+   21
+  ]
+ },
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 32,
+  "pending_llm": 32,
+  "no_spec_point": 0
+ }
+}

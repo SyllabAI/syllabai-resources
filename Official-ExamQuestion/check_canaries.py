@@ -30,8 +30,14 @@ def _solution_check(series_name, paper_name, p):
 cans = json.loads((HERE / "CANARIES.json").read_text())["canaries"]
 fails = []
 
-def load(series, paper="1C"):
-    d = BASE / series / f"4CH1-{paper}"
+def load(series, paper="1C", course=None):
+    # F64: course-aware loading — course=None keeps the chemistry BASE (default,
+    # byte-identical behavior); a course name loads that course's output dir.
+    if course is None:
+        d = BASE / series / f"4CH1-{paper}"
+    else:
+        prefix = {"igcse-chemistry-19": "4CH1", "igcse-maths-b-16": "4MB1"}[course]
+        d = BASE.parent / course / series / f"{prefix}-{paper}"
     return (json.loads((d / "validation-report.json").read_text()),
             json.loads((d / "topic.json").read_text()))
 
@@ -75,11 +81,60 @@ for c in cans:
                 ok = (c["affected_questions_include"] in
                       (rep.get("source_defects", {}).get("affected_questions") or []))
         elif chk == "all_gates_pass_and_mcq_keyed":
-            rep, t = load(series, c.get("paper", "1C"))
+            rep, t = load(series, c.get("paper", "1C"), c.get("course"))
             ok = all(g["status"] == "PASS" for g in rep["gates"])
             keyed = sum(1 for q in t["questions"] for p in q["parts"]
                         if p.get("choices") and any(ch.get("is_correct") for ch in p["choices"]))
             ok = ok and keyed == c["mcq_keyed"]
+        elif chk == "maths_tranche1_gates":
+            # C72 (F65): the first maths-B slice of record — all gates PASS, all
+            # negative controls DETECTED, the §3.4 control-char fallback present
+            # and disclosed, and every part carries a linked solution.
+            rep, t = load(series, c["paper"], "igcse-maths-b-16")
+            ok = all(g["status"] == "PASS" for g in rep["gates"])
+            ok = ok and all(nc.get("detected") for nc in rep.get("negative_controls", []))
+            ok = ok and "control_char_fallback" in rep
+            n_parts = sum(len(q["parts"]) for q in t["questions"])
+            ok = ok and n_parts == c["expected_parts"]
+            ok = ok and all(
+                p.get("solution_md") for q in t["questions"] for p in q["parts"])
+        elif chk == "maths_drain_state":
+            # C74 (F66-F72): the tranche-2 drain state of record - 66 slices
+            # exist, expected_pass all-gates-PASS, expected_failing honestly
+            # disclosed (the 2018-2021 layout tail). Either count moving
+            # without a ledger entry fails.
+            base = HERE / "igcse-maths-b-16"
+            n_pass = n_fail = 0
+            import json as _json
+            for d in sorted(base.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in sorted(d.iterdir()):
+                    if not (pd / "topic.json").exists():
+                        continue
+                    rep = _json.loads((pd / "validation-report.json").read_text())
+                    if all(g["status"] == "PASS" for g in rep["gates"]):
+                        n_pass += 1
+                    else:
+                        n_fail += 1
+            conv = (HERE.parent / "scripts" / "official_examq_extract.py").read_text()
+            ok = (n_pass == c["expected_pass"] and n_fail == c["expected_failing"]
+                  and '"expect_questions"' in conv)
+        elif chk == "course_registry_chemistry_default":
+            # C73 (F64): drift guard — the COURSES chemistry entry must stay
+            # identical to the module-level chemistry defaults (footer regex,
+            # totals); a divergence means someone changed one and not the other.
+            import importlib.util, re as _re
+            spec = importlib.util.spec_from_file_location(
+                "oeq_converter", str(HERE.parent / "scripts" / "official_examq_extract.py"))
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            cfg = mod.COURSES["igcse-chemistry-19"]
+            ok = (cfg["paper_prefix"] == "4CH1"
+                  and cfg["paper_totals"] == mod.PAPER_TOTALS
+                  and _re.fullmatch(cfg["footer_re"], "(Total for Question 12 = 8 marks)") is not None
+                  and mod.COURSE_PREFIX == "4CH1"
+                  and mod.OUTROOT.name == "igcse-chemistry-19")
         elif chk == "negative_controls_all_detected":
             ok = True
             for d in sorted(BASE.iterdir()):

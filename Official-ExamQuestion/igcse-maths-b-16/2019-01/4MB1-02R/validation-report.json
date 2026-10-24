@@ -1,0 +1,159 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-24T19:53:26Z",
+ "series": "2019-01",
+ "paper": "02R",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/02R; series=2019-01; printed='January 2019; January 2019'; sha256 qp/ms match manifest: True; manifest variant '02R' == requested '02R': True",
+   "details": {
+    "qp_sha256": "848256f9a89fa6d78fad1665a8ff9b8bb78c097dc457ef1c2fca721d2f7c9043",
+    "ms_sha256": "eef42bba79e5d2c0d07d35ad8b8348f27d9b1fe258ff945654ef02e919dfb116",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/02R"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "11 questions extracted; Σ known totals=100/100; source defects: missing Q[] (image-only pages [17, 19] in archive PDF) — lost content needs human/OCR re-ingest",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {
+     "5": 11
+    },
+    "footer_gaps": [],
+    "image_only_pages": [
+     17,
+     19
+    ],
+    "count_expected": null
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 35 parts (0 disclosed, 35 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "12 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 2 remain crop-required; 3 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 3,
+    "crop_stats": {
+     "crops": 3,
+     "pending": 2,
+     "shared": 7
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 38/39 (97%)",
+   "details": {
+    "unmatched": [
+     "9"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 39 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 38/38 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 2 parts, agrees with QP marks on 0",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 2,
+    "ms_marks_agree": 0,
+    "ms_marks_disagree": [
+     "3(c) (ms=9 qp=3)",
+     "8 (ms=2 qp=6)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "2(e)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "2(b)",
+   "reason": "figure crop emitted — human verify (assets/asset_2_b_grid.png)"
+  },
+  {
+   "part": "5(b)",
+   "reason": "figure crop required (grid, page 16)"
+  },
+  {
+   "part": "5(c)",
+   "reason": "figure crop required (grid, page 16)"
+  },
+  {
+   "part": "6(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_6_a_diagram.png)"
+  },
+  {
+   "part": "9",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "ocr_pages": [],
+ "source_defects": {
+  "image_only_pages": [
+   17,
+   19
+  ],
+  "affected_questions": []
+ },
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 39,
+  "pending_llm": 39,
+  "no_spec_point": 0
+ }
+}

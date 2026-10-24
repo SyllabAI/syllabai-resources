@@ -1,0 +1,185 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-24T19:45:25Z",
+ "series": "2023-06",
+ "paper": "01",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2023-06:4MB1/01; series=2023-06; printed='June 2023'; sha256 qp/ms match manifest: True; manifest variant '01' == requested '01': True",
+   "details": {
+    "qp_sha256": "a9b33cd495d77136f3990fdd4619900995e96024af16b2b4ffb0c527daad54e7",
+    "ms_sha256": "83ce5eae5162f90274ded51290ddc220fea7204ad5c0f885418456b3254a5a89",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2023-06:4MB1/01"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "28 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": null
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 30 parts (0 disclosed, 30 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "9 asset records cover every table/diagram/grid/apparatus mention: 2 cropped to assets/*.png (150 dpi), 7 remain crop-required; 16 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 16,
+    "crop_stats": {
+     "crops": 2,
+     "pending": 7,
+     "shared": 0
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 33/33 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 33 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 33/33 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 14 parts, agrees with QP marks on 3",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 14,
+    "ms_marks_agree": 3,
+    "ms_marks_disagree": [
+     "10 (ms=46 qp=3)",
+     "11 (ms=4 qp=3)",
+     "17 (ms=5 qp=3)",
+     "19(a) (ms=21 qp=1)",
+     "21 (ms=27 qp=4)",
+     "22 (ms=3 qp=5)",
+     "23 (ms=2 qp=5)",
+     "24 (ms=2 qp=6)",
+     "25(c) (ms=1 qp=2)",
+     "26 (ms=2 qp=6)",
+     "28 (ms=1 qp=6)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "28"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "5",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "8",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "14",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "17",
+   "reason": "figure crop emitted — human verify (assets/asset_17_grid.png)"
+  },
+  {
+   "part": "22",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "24",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "27",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "28",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "(corpus)",
+   "reason": "C0 control chars in the QP text layer (195 instances / 10 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 33,
+  "pending_llm": 33,
+  "no_spec_point": 0
+ },
+ "control_char_fallback": {
+  "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
+  "instances": {
+   "0x17": 2,
+   "0x18": 4,
+   "0x19": 6,
+   "0x1a": 30,
+   "0x1b": 12,
+   "0x1c": 6,
+   "0x1d": 19,
+   "0x1e": 13,
+   "0x1f": 37,
+   "0x8": 66
+  }
+ }
+}
