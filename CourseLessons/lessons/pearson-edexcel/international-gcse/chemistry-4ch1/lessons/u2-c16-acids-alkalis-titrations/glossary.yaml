@@ -1,0 +1,163 @@
+# glossary — u2:c16 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: indicator
+  slug: indicator
+  definition: "A substance whose colour depends on the pH of the solution it is in, used to distinguish acidic from alkaline solutions. Litmus, methyl orange, phenolphthalein and universal indicator are the four to know."
+  ms_accepts: ["a dye whose colour changes with pH, used to identify acids/alkalis", "any substance with different colours at different pH values"]
+  ms_avoids: ["saying an indicator neutralises the solution", "claiming all indicators give a pH value — only universal indicator approximates one"]
+  aliases: ["indicators"]
+  source: "chem_v3_u2_c16_pdf177_0663"
+- term: litmus
+  slug: litmus
+  definition: "Single-colour-change indicator used as a solution or as paper: red in acidic solutions, blue in alkaline ones, purple in neutral (an equal mixture of the red and blue forms)."
+  ms_accepts: ["red in acid, blue in alkali", "usable as solution or paper; purple when neutral"]
+  ms_avoids: ["inverting the colours (acids turn litmus red is the same fact — but the colours must not be swapped)", "giving litmus a pH value — it only sorts acidic from alkaline"]
+  aliases: ["litmus paper", "litmus solution"]
+  source: "chem_v3_u2_c16_pdf177_0660"
+- term: phenolphthalein
+  slug: phenolphthalein
+  definition: "Indicator that is colourless in acidic solutions and pink in alkaline ones. Its sharp colourless-to-pink flip makes it the classic titration indicator."
+  ms_accepts: ["colourless in acid, pink in alkali", "chosen for titrations because a colour appearing is easy to see"]
+  ms_avoids: ["swapping the colours", "saying it measures pH — it only distinguishes acid from alkali"]
+  aliases: []
+  source: "chem_v3_u2_c16_pdf177_0664"
+- term: methyl orange
+  slug: methyl-orange
+  definition: "Indicator that is red in acidic solutions and yellow in alkaline ones; a single-colour-change indicator usable for titrations but unable to estimate a pH value."
+  ms_accepts: ["red in acid, yellow in alkali", "usable in titration, unlike universal indicator"]
+  ms_avoids: ["swapping the colours", "confusing it with universal indicator's gradual colour range"]
+  aliases: ["methyl orange indicator"]
+  source: "chem_v3_u2_c16_pdf177_0664"
+- term: universal indicator
+  slug: universal-indicator
+  definition: "A mixture of indicators giving a gradual colour change across the whole pH range (about 1 to 14); the colour is checked against a chart to estimate the approximate pH. Solution or paper."
+  ms_accepts: ["mixture of indicators giving colours across the pH range", "used with a colour chart to estimate approximate pH"]
+  ms_avoids: ["calling it accurate — it is approximate, less accurate than a pH meter", "using it for titration endpoints — the gradual change hides the sharp endpoint"]
+  aliases: ["full-range universal indicator", "UI"]
+  source: "chem_v3_u2_c16_pdf177_0663"
+- term: pH scale
+  slug: ph-scale
+  definition: "The scale, from about 0 to about 14, that tells you how acidic or how alkaline a solution is: below 7 acidic, 7 neutral, above 7 alkaline."
+  ms_accepts: ["runs 0–14; measures acidity/alkalinity of a solution", "7 neutral, below 7 acidic, above 7 alkaline"]
+  ms_avoids: ["writing pH as PH or ph — small p, capital H", "treating 0 and 14 as absolute limits rather than approximate ends"]
+  aliases: ["pH"]
+  source: "chem_v3_u2_c16_pdf176_0657"
+- term: strongly acidic
+  slug: strongly-acidic
+  definition: "Describes a solution with pH in the 0–3 band, such as hydrochloric acid. A classification band of the pH scale, not a statement about concentration."
+  ms_accepts: ["pH 0–3", "e.g. hydrochloric acid is strongly acidic"]
+  ms_avoids: ["equating strongly acidic with high concentration", "rounding weakly acidic solutions into the band"]
+  aliases: []
+  source: "chem_v3_u2_c16_pdf177_0661"
+- term: weakly acidic
+  slug: weakly-acidic
+  definition: "Describes a solution with pH in the 4–6 band, such as ethanoic acid (vinegar)."
+  ms_accepts: ["pH 4–6", "e.g. vinegar/ethanoic acid is weakly acidic"]
+  ms_avoids: ["calling pH 7 weakly acidic — 7 is exactly neutral", "saying weakly acidic means harmless"]
+  aliases: []
+  source: "chem_v3_u2_c16_pdf177_0661"
+- term: weakly alkaline
+  slug: weakly-alkaline
+  definition: "Describes a solution with pH in the 8–10 band, such as ammonia solution or the soluble carbonate alkalis (sodium and potassium carbonate)."
+  ms_accepts: ["pH 8–10", "e.g. ammonia or sodium carbonate solution is weakly alkaline"]
+  ms_avoids: ["saying weakly alkaline solutions contain no hydroxide ions — they contain a low concentration", "placing sodium hydroxide in this band"]
+  aliases: []
+  source: "chem_v3_u2_c16_pdf177_0661"
+- term: strongly alkaline
+  slug: strongly-alkaline
+  definition: "Describes a solution with pH in the 11–14 band, such as sodium hydroxide solution, which dissociates completely in water."
+  ms_accepts: ["pH 11–14", "e.g. sodium hydroxide solution is strongly alkaline"]
+  ms_avoids: ["equating strongly alkaline with high concentration rather than pH band", "saying the solution is 'alkali' instead of alkaline when classifying"]
+  aliases: []
+  source: "chem_v3_u2_c16_pdf177_0661"
+- term: acid
+  slug: acid
+  definition: "A substance that acts as a source of hydrogen ions (H⁺) in aqueous solution. All acids contain hydrogen, and in water they dissociate to release H⁺ ions."
+  ms_accepts: ["source of hydrogen ions in solution", "acid dissociates in water releasing H⁺(aq)"]
+  ms_avoids: ["defining only as 'contains hydrogen' — the mark is for the ions released in water", "saying acids release hydroxide ions"]
+  aliases: ["acids"]
+  source: "chem_v3_u2_c16_pdf178_0670"
+- term: base
+  slug: base
+  definition: "A substance that neutralises an acid by combining with its hydrogen ions. At this level: a metal oxide, a metal hydroxide, or ammonia (NH₃)."
+  ms_accepts: ["neutralises acids by combining with H⁺ ions", "metal oxide / metal hydroxide / ammonia as bases"]
+  ms_avoids: ["using base and alkali as identical — alkalis are the soluble subset", "saying a base must be soluble"]
+  aliases: ["bases"]
+  source: "chem_v3_u2_c16_pdf178_0671"
+- term: alkali
+  slug: alkali
+  definition: "A base that dissolves in water to form a solution containing hydroxide ions — a source of OH⁻(aq) in solution, with pH greater than 7. Examples: sodium hydroxide, potassium hydroxide, ammonia solution."
+  ms_accepts: ["soluble base; source of hydroxide ions in solution", "pH above 7; Group 1 hydroxides and ammonia solution"]
+  ms_avoids: ["calling every base an alkali — copper(II) oxide is a base, not an alkali", "omitting the solubility condition"]
+  aliases: ["alkalis"]
+  source: "chem_v3_u2_c16_pdf178_0671"
+- term: hydrogen ion
+  slug: hydrogen-ion
+  definition: "H⁺(aq), the ion released when an acid dissociates in water. Measuring pH is measuring the concentration of hydrogen ions."
+  ms_accepts: ["H⁺(aq); what acids supply in solution", "pH measures hydrogen ion concentration"]
+  ms_avoids: ["writing it as H⁻ or H₂⁺", "saying hydrogen ions exist without water — aqueous solution is the context"]
+  aliases: ["H+", "H⁺ ions"]
+  source: "chem_v3_u2_c16_pdf178_0670"
+- term: hydroxide ion
+  slug: hydroxide-ion
+  definition: "OH⁻(aq), the ion that alkalis supply in solution and that combines with hydrogen ions to make water in every acid–alkali neutralisation."
+  ms_accepts: ["OH⁻(aq); what alkalis supply", "OH⁻ + H⁺ → H₂O is the neutralisation event"]
+  ms_avoids: ["writing it as OH⁺", "attributing carbonate-solution alkalinity to hydroxide in the formula rather than hydrolysis"]
+  aliases: ["OH-", "OH⁻ ions"]
+  source: "chem_v3_u2_c16_pdf178_0671"
+- term: dissociate
+  slug: dissociate
+  definition: "To break apart into ions when dissolved in water. Acids dissociate to H⁺(aq) plus their negative ion; sodium hydroxide dissociates to Na⁺(aq) + OH⁻(aq)."
+  ms_accepts: ["breaks apart into ions in water", "e.g. HCl → H⁺ + Cl⁻, NaOH → Na⁺ + OH⁻"]
+  ms_avoids: ["using dissociate for the ammonia reaction — ammonia reacts with water rather than dissociating", "saying the molecule melts or evaporates"]
+  aliases: ["dissociates", "dissociation"]
+  source: "chem_v3_u2_c16_pdf178_0670"
+- term: replaceable hydrogen
+  slug: replaceable-hydrogen
+  definition: "The hydrogen atoms in an acid's formula that actually take part in its reactions and can be replaced — e.g. one in HCl, two in H₂SO₄, and in ethanoic acid only the O-attached hydrogen."
+  ms_accepts: ["the acid hydrogens that react / can be replaced by a metal", "ethanoic acid: only the H on the oxygen is replaceable"]
+  ms_avoids: ["counting every hydrogen in the formula — the C-attached hydrogens never react", "saying all acids have the same number of replaceable hydrogens"]
+  aliases: ["replaceable H"]
+  source: "chem_v3_u2_c16_pdf178_0670"
+- term: neutralisation
+  slug: neutralisation
+  definition: "The reaction between an acid and a base or alkali. At ion level: H⁺(aq) + OH⁻(aq) → H₂O(l) — the same ionic equation for every acid–alkali neutralisation."
+  ms_accepts: ["acid + base/alkali reaction; H⁺ + OH⁻ → H₂O", "forms salt and water; ionic equation identical for all acid–alkali cases"]
+  ms_avoids: ["saying neutralisation only happens with alkalis — metal oxide bases neutralise too", "equating the indicator endpoint with exact neutrality"]
+  aliases: ["neutralisation reaction", "neutralize"]
+  source: "chem_v3_u2_c16_pdf179_0676"
+- term: ionic equation
+  slug: ionic-equation
+  definition: "An equation showing only the species that actually change in the reaction, with spectator ions left out. For acid–alkali neutralisation: H⁺(aq) + OH⁻(aq) → H₂O(l)."
+  ms_accepts: ["equation with spectator ions omitted", "state symbols included; only reacting ions shown"]
+  ms_avoids: ["cancelling ions that are not identical on both sides", "omitting state symbols or charges"]
+  aliases: ["net ionic equation"]
+  source: "chem_v3_u2_c16_pdf179_0676"
+- term: spectator ion
+  slug: spectator-ion
+  definition: "An ion present and identical on both sides of an equation, unchanged by the reaction — e.g. Na⁺(aq) and Cl⁻(aq) when sodium hydroxide neutralises hydrochloric acid."
+  ms_accepts: ["ion unchanged on both sides, cancelled to reach the ionic equation", "Na⁺/Cl⁻ in the NaOH + HCl example"]
+  ms_avoids: ["saying spectators take part in the reaction", "removing a species that changes state or composition"]
+  aliases: ["spectator ions"]
+  source: "chem_v3_u2_c16_pdf179_0676"
+- term: titration
+  slug: titration
+  definition: "The technique for following a neutralisation to the exact reacting volume: one solution measured into a flask with indicator, the other run in from a burette until the colour just changes."
+  ms_accepts: ["acids/alkalis added from a burette to find the reacting volume", "indicator signals the endpoint; volumes recorded to 2 decimal places"]
+  ms_avoids: ["describing it as a way to measure pH", "omitting the indicator or the swirling"]
+  aliases: ["acid-alkali titration"]
+  source: "chem_v3_u2_c16_pdf179_0677"
+- term: burette
+  slug: burette
+  definition: "The graduated tube that delivers solution in a titration. Its scale runs 0 at the top to 50 at the bottom; readings are recorded to two decimal places (nearest 0.05 cm³)."
+  ms_accepts: ["delivers variable volumes; read to 0.05 cm³ (2 d.p.)", "scale increases downwards — 0 at top, 50 at bottom"]
+  ms_avoids: ["recording to one decimal place", "reading the scale upside down"]
+  aliases: []
+  source: "chem_v3_u2_c16_pdf179_0678"
+- term: endpoint
+  slug: endpoint
+  definition: "The point in a titration at which the indicator changes colour. It does not necessarily coincide with the exact neutral point, because the pH changes very rapidly near it."
+  ms_accepts: ["when the indicator changes colour", "close to but not necessarily identical with neutralisation of all the acid/alkali"]
+  ms_avoids: ["defining it as the moment the solution becomes neutral", "saying one more drop after the endpoint is harmless precision"]
+  aliases: ["end point"]
+  source: "chem_v3_u2_c16_pdf179_0678"
