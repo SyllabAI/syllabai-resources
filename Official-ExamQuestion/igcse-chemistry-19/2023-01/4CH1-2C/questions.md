@@ -1,6 +1,6 @@
 # 4CH1/2C — 2023-01 (official extraction)
 
-> schema `syllabai.official-paper-questions/0.1` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/2C` · qp sha256 `bdaefe6fde2fa7ca…` · extracted verbatim, never regenerated (ADR-037)
+> schema `syllabai.official-paper-questions/0.2` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/2C` · qp sha256 `bdaefe6fde2fa7ca…` · extraction is the disclosed baseline (ADR-039)
 
 ## Question 1 (7 marks)
 **(b)** The table gives information about four different species, W, X, Y and Z. Species Number of protons Number of neutrons Number of electrons W 2 2 2 X 13 14 10 Y 17 18 17 Z 17 20 17

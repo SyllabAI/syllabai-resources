@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions.canaries/0.1",
  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping. Under ADR-039 the controls target undisclosed mutation: N1 surfaces as a value_trace violation, N2 as a missing edits[] entry, N3 still refused by G6.",
- "converter_version_floor": 0.14,
+ "converter_version_floor": 0.15,
  "canaries": [
   {
    "id": "C3-baseline-unchanged",

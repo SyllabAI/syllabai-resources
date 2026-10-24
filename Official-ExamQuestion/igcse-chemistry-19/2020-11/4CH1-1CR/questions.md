@@ -1,6 +1,6 @@
 # 4CH1/1CR — 2020-11 (official extraction)
 
-> schema `syllabai.official-paper-questions/0.1` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2020-11:4CH1/1CR` · qp sha256 `9f2ab398e5de3d19…` · extracted verbatim, never regenerated (ADR-037)
+> schema `syllabai.official-paper-questions/0.2` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2020-11:4CH1/1CR` · qp sha256 `9f2ab398e5de3d19…` · extraction is the disclosed baseline (ADR-039)
 
 ## Question 1 (6 marks)
 **(a)** The box gives some methods used in the separation of mixtures. chromatography crystallisation evaporation filtration fractional distillation simple distillation Use words from the box to answer these questions.

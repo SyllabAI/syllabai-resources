@@ -1,6 +1,6 @@
 # 4CH1/1C — 2021-11 (official extraction)
 
-> schema `syllabai.official-paper-questions/0.1` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C` · qp sha256 `fa4c64a38fa6438c…` · extracted verbatim, never regenerated (ADR-037)
+> schema `syllabai.official-paper-questions/0.2` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2021-11:4CH1/1C` · qp sha256 `fa4c64a38fa6438c…` · extraction is the disclosed baseline (ADR-039)
 
 ## Question 1 (5 marks)
 **(a)** The diagram shows the particles in four substances, A, B, C and D. A B C D

@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-official_examq_extract.py — ADR-037 prototype converter
-========================================================
+official_examq_extract.py — official-paper converter (ADR-039)
+==============================================================
 Converts ONE official past paper (QP+MS) into the serving schema
-`syllabai.official-paper-questions/0.1` using VERBATIM extraction
-(no generation), then runs fail-closed gates G0–G6 plus negative controls.
+`syllabai.official-paper-questions/0.2` via the deterministic extraction
+baseline, then runs fail-disclosed gates G0–G7 incl. G2-D plus negative
+controls re-targeted at undisclosed mutation.
 
-The one-sentence rule (ADR-037 §2): the converter extracts; it never authors.
-Every character of problem_md / solution_md / choices[].text_md is copied
-from the source layer; the only generated fields are labels (command_word,
-spec seeds) and links (answer linkage, asset stubs) — and labels are
-registry-validated or flagged for human review.
+The one-sentence rule (ADR-039 §2): the pipeline improves; provenance
+discloses. Extraction is the baseline every document is measured against;
+any tool may correct, clarify or enrich any serving field provided every
+departure from the extraction baseline is machine-disclosed (edit_status,
+edits[], value_trace) and graded values corroborate the MS of record or
+carry explicit correction evidence. Labels stay registry-validated (G6).
 
 Run:  python3 official_examq_extract.py --series 2020-11                (baseline series, paper 1C)
       python3 official_examq_extract.py --series 2022-06 --paper 2C    (paper variants: 1C default, 2C since v0.8/F34)
@@ -42,8 +44,8 @@ elif _SPEC_REPO.exists():
 else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
-SCHEMA = "syllabai.official-paper-questions/0.1"
-CONVERTER_VERSION = "0.14.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+SCHEMA = "syllabai.official-paper-questions/0.2"
+CONVERTER_VERSION = "0.15.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -1253,7 +1255,7 @@ def main():
     PAPER_TOTAL = PAPER_TOTALS[paper]
     expect_q = EXPECT_QUESTIONS[paper].get(series)
 
-    report = {"schema": "syllabai.official-paper-questions.validation/0.1",
+    report = {"schema": "syllabai.official-paper-questions.validation/0.2",
               "generated_utc": now_iso(), "series": series, "paper": paper, "gates": [],
               "negative_controls": [], "review_queue": []}
 
@@ -2386,6 +2388,28 @@ def main():
                     p["tagging"] = "no-spec-point"
                 else:
                     p["tagging"] = "pending-llm"
+    # ---- provenance (ADR-039 §4 disclosure contract, schema /0.2) ------------
+    # Every part carries explicit provenance. The deterministic extraction is
+    # the baseline of record: parts are "extracted" until a disclosed improving
+    # pass touches them. edits[] is ABSENT for extracted parts (0.1 corpora
+    # load as extracted — the field appears only when there is something to
+    # disclose). value_trace records where each graded value came from.
+    _ledger_keys = set(mcq_keys_applied)
+    for _q in doc_questions:
+        for _p in _q["parts"]:
+            if _p["question_type"] == "multiple_choice":
+                if any(c.get("is_correct") for c in _p["choices"] or []):
+                    _kt = ("ledger:MCQ-KEYS"
+                           if f"{series}:{paper}/{_p['part_number']}" in _ledger_keys
+                           else "ms-positional")
+                else:
+                    _kt = "unresolved:review-queue"   # honest refusal, still in review
+            else:
+                _kt = "n/a"
+            _p["edit_status"] = "extracted"
+            _p["value_trace"] = {"keys": _kt, "marks": "ms-printed",
+                                 "numbers": "source-printed"}
+
     # ---- gates ---------------------------------------------------------------
     def gate(name, ok, summary, details=None):
         report["gates"].append({"gate": name, "status": "PASS" if ok else "FAIL",
@@ -2457,21 +2481,56 @@ def main():
         report["source_defects"] = {"image_only_pages": content_img_pages,
                                     "affected_questions": sorted(defective)}
 
-    # G2 verbatim — emitted text vs the source lines it claims to be copied from
-    g2_bad, g2_ratios = [], {}
+    # G2-D disclosure (ADR-039 §4) — provenance must match reality. Parts
+    # claiming "extracted" must 5-gram-match their source region (the old G2
+    # check, demoted from law to a provenance-correctness assertion — it now
+    # catches a mislabeled edit_status, not an edit); parts claiming
+    # "corrected"/"enriched" must carry a complete edits[] entry per touched
+    # field; value_trace must be consistent with the actual emission.
+    EDIT_KINDS = {"typo-fix", "clarification", "notation", "enrichment",
+                  "structural-repair"}
+    g2d_bad, g2_ratios, g2d_disclosed = [], {}, 0
     for q in doc_questions:
         for p in q["parts"]:
-            grams = ngrams(p["problem_md"])
-            if not grams:
-                continue
-            src_grams = ngrams(p["source_norm"])
-            ratio = sum(1 for g in grams if g in src_grams) / len(grams)
-            g2_ratios[p["part_number"]] = round(ratio, 4)
-            if ratio < 0.95:
-                g2_bad.append({"part": p["part_number"], "ratio": round(ratio, 4)})
-    gate("G2-verbatim", not g2_bad,
-         f"5-gram overlap vs source region ≥0.95 for all {len(g2_ratios)} parts: {not g2_bad}",
-         {"violations": g2_bad, "min_ratio": min(g2_ratios.values()) if g2_ratios else None})
+            status = p.get("edit_status", "extracted")
+            edits = p.get("edits") or []
+            if status in ("corrected", "enriched"):
+                g2d_disclosed += 1
+                if not edits:
+                    g2d_bad.append({"part": p["part_number"],
+                                    "issue": f"edit_status {status} without edits[]"})
+                for e in edits:
+                    if not (e.get("field") and e.get("kind") in EDIT_KINDS
+                            and e.get("tool") and e.get("evidence_ref")):
+                        g2d_bad.append({"part": p["part_number"],
+                                        "issue": f"incomplete edits[] entry: {e}"})
+            else:
+                grams = ngrams(p["problem_md"])
+                if not grams:
+                    continue
+                src_grams = ngrams(p["source_norm"])
+                ratio = sum(1 for g in grams if g in src_grams) / len(grams)
+                g2_ratios[p["part_number"]] = round(ratio, 4)
+                if ratio < 0.95:
+                    g2d_bad.append({"part": p["part_number"],
+                                    "issue": "claims extracted but 5-gram overlap <0.95 vs source",
+                                    "ratio": round(ratio, 4)})
+    # value_trace ↔ edits[] coherence: a marks edit must be claimed and a claim
+    # must have its edit (ADR-039 §4 G2-D condition 4)
+    for q in doc_questions:
+        for p in q["parts"]:
+            vt = p.get("value_trace") or {}
+            touched = {e.get("field") for e in (p.get("edits") or [])}
+            if "marks" in touched and not str(vt.get("marks", "")).startswith("corrected:"):
+                g2d_bad.append({"part": p["part_number"],
+                                "issue": "edits[] touches marks but value_trace.marks does not claim the correction"})
+            if str(vt.get("marks", "")).startswith("corrected:") and "marks" not in touched:
+                g2d_bad.append({"part": p["part_number"],
+                                "issue": "value_trace.marks claims a correction with no edits[] entry"})
+    gate("G2-D-disclosure", not g2d_bad,
+         f"provenance matches reality for all {len(g2_ratios) + g2d_disclosed} parts "
+         f"({g2d_disclosed} disclosed, {len(g2_ratios)} extracted at ≥0.95 5-gram): {not g2d_bad}",
+         {"violations": g2d_bad, "min_ratio": min(g2_ratios.values()) if g2_ratios else None})
 
     # G3 MCQ integrity
     mcq = [p for q in doc_questions for p in q["parts"] if p["question_type"] == "multiple_choice"]
@@ -2568,7 +2627,7 @@ def main():
     # ---- assemble document (before popping internal fields) ------------------
     topic = {
         "schema": SCHEMA, "generated_utc": now_iso(),
-        "generator": f"official_examq_extract.py v{CONVERTER_VERSION} (ADR-037) series={series} paper={paper}",
+        "generator": f"official_examq_extract.py v{CONVERTER_VERSION} (ADR-039) series={series} paper={paper}",
         "paper_id": paper_id,
         "source": {"qp_sha256": qp_sha, "ms_sha256": ms_sha,
                    "series": manifest["series"]["normalized"],
@@ -2611,18 +2670,23 @@ def main():
         for p in q["parts"]:
             p.pop("group", None); p.pop("roman", None); p.pop("answer_raw", None)
 
-    # ---- negative controls ---------------------------------------------------
+    # ---- negative controls (ADR-039 §5: target UNDISCLOSED mutation) --------
     nc_results = []
     flat_parts = [p for q in topic["questions"] for p in q["parts"]]
-    # N1: bump one mark on the last part of the question with the most parts
+    # N1: bump one mark on the last part of the question with the most parts.
+    # Must surface as a value_trace violation: a graded value that moved
+    # without an evidenced edits[] entry while still claiming ms-printed.
     if flat_parts:
         nc = copy.deepcopy(topic)
         tgt = max(nc["questions"], key=lambda q: len(q["parts"]))["parts"][-1]
         tgt["marks"] = (tgt["marks"] or 0) + 1
-        g1_nc = _g1_recheck(nc, PAPER_TOTAL)
-        nc_results.append({"id": "N1-mark-bump", "expected_gate": "G1", "detected": g1_nc})
+        orig_by_part = {p["part_number"]: p for q in topic["questions"] for p in q["parts"]}
+        nc_results.append({"id": "N1-mark-bump", "expected_gate": "G2-D/value-trace",
+                           "detected": _value_trace_recheck(nc, orig_by_part)})
 
-    # N2: one-word substitution in a mid-length part (mimics paraphrase drift)
+    # N2: one-word substitution in a mid-length part (mimics paraphrase drift).
+    # Must surface as a missing edits[] entry: text that departed from the
+    # extraction baseline without a disclosure.
     nc2 = copy.deepcopy(topic)
     cands = [(qn, p) for qn, q in enumerate(nc2["questions"]) for p in q["parts"]
              if p.get("problem_md") and 15 <= len(p["problem_md"].split()) <= 90]
@@ -2642,8 +2706,12 @@ def main():
         mod = next(p for q in nc2["questions"] for p in q["parts"] if p["part_number"] == nc2_target)
         grams = ngrams(mod["problem_md"])
         r = sum(1 for g in grams if g in ngrams(src["problem_md"])) / len(grams) if grams else 1.0
-        g2_nc = r < 0.95
-    nc_results.append({"id": "N2-paraphrase", "expected_gate": "G2", "detected": g2_nc,
+        departed = r < 0.95
+        disclosed = (mod.get("edit_status") in ("corrected", "enriched")
+                     and any(e.get("field") == "problem_md" and e.get("evidence_ref")
+                             for e in (mod.get("edits") or [])))
+        g2_nc = departed and not disclosed
+    nc_results.append({"id": "N2-paraphrase", "expected_gate": "G2-D/edits[]", "detected": g2_nc,
                        "target": nc2_target})
 
     # N3: fake spec code injected into the first part (skipped if no parts extracted)
@@ -2678,16 +2746,28 @@ def main():
     return 0
 
 
-def _g1_recheck(doc, paper_total):
-    """Negative-control recheck: any per-question parts/total mismatch or paper-total drift."""
-    per_q = any(sum(p["marks"] or 0 for p in q["parts"]) != q["total_marks"] for q in doc["questions"])
-    return per_q or sum(q["total_marks"] for q in doc["questions"]) != paper_total
+def _value_trace_recheck(doc, orig_by_part):
+    """ADR-039 §5 N1 detector: every graded value must either match the
+    extraction-of-record or be disclosed (evidenced edits[] entry AND a
+    value_trace claim). Returns True on the first undisclosed movement."""
+    for q in doc["questions"]:
+        for p in q["parts"]:
+            o = orig_by_part.get(p["part_number"])
+            if o is None:
+                continue
+            if p.get("marks") != o.get("marks"):
+                edits = p.get("edits") or []
+                if not any(e.get("field") == "marks" and e.get("evidence_ref") for e in edits):
+                    return True
+                if not str((p.get("value_trace") or {}).get("marks", "")).startswith("corrected:"):
+                    return True
+    return False
 
 
 def write_questions_md(topic, path):
     out = [f"# {topic['paper_info']['code']} — {topic['source']['series']} (official extraction)",
            "", f"> schema `{topic['schema']}` · paper_id `{topic['paper_id']}` · "
-               f"qp sha256 `{topic['source']['qp_sha256'][:16]}…` · extracted verbatim, never regenerated (ADR-037)", ""]
+               f"qp sha256 `{topic['source']['qp_sha256'][:16]}…` · extraction is the disclosed baseline (ADR-039)", ""]
     for q in topic["questions"]:
         out.append(f"## Question {q['question_number']} ({q['total_marks']} marks)")
         if q["stem_md"]:

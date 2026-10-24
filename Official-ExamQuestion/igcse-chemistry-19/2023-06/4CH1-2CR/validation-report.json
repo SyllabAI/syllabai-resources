@@ -1,6 +1,6 @@
 {
- "schema": "syllabai.official-paper-questions.validation/0.1",
- "generated_utc": "2026-10-22T13:39:39Z",
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-24T08:43:27Z",
  "series": "2023-06",
  "paper": "2CR",
  "gates": [
@@ -28,9 +28,9 @@
    }
   },
   {
-   "gate": "G2-verbatim",
+   "gate": "G2-D-disclosure",
    "status": "PASS",
-   "summary": "5-gram overlap vs source region ≥0.95 for all 38 parts: True",
+   "summary": "provenance matches reality for all 38 parts (0 disclosed, 38 extracted at ≥0.95 5-gram): True",
    "details": {
     "violations": [],
     "min_ratio": 1.0
@@ -95,12 +95,12 @@
  "negative_controls": [
   {
    "id": "N1-mark-bump",
-   "expected_gate": "G1",
+   "expected_gate": "G2-D/value-trace",
    "detected": true
   },
   {
    "id": "N2-paraphrase",
-   "expected_gate": "G2",
+   "expected_gate": "G2-D/edits[]",
    "detected": true,
    "target": "6(d)"
   },

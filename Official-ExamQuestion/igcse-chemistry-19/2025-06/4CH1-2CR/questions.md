@@ -1,6 +1,6 @@
 # 4CH1/2CR — 2025-06 (official extraction)
 
-> schema `syllabai.official-paper-questions/0.1` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2025-06:4CH1/2CR` · qp sha256 `f0094e30d88274dc…` · extracted verbatim, never regenerated (ADR-037)
+> schema `syllabai.official-paper-questions/0.2` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2025-06:4CH1/2CR` · qp sha256 `f0094e30d88274dc…` · extraction is the disclosed baseline (ADR-039)
 
 ## Question 1 (6 marks)
 

@@ -11,7 +11,7 @@ from pathlib import Path
 # the checkout, never to a hardcoded machine-specific mirror.
 ROOT = Path(__file__).resolve().parent.parent / "Official-ExamQuestion"
 BASE = ROOT / "igcse-chemistry-19"
-GATES = ["G0-identity", "G1-structure", "G2-verbatim", "G3-mcq-integrity",
+GATES = ["G0-identity", "G1-structure", "G2-D-disclosure", "G3-mcq-integrity",
          "G4-figure-resolution", "G5-answer-linkage", "G6-registry-codes"]
 PAPER_TOTALS = {"1C": 110, "2C": 70}   # mirror of the converter registry (F34)
 
@@ -115,7 +115,7 @@ for s in out["series"]:
     g = s["gates"]
     nc = "3/3" if all(v == "DETECTED" for v in s["negative_controls"].values()) and len(s["negative_controls"]) == 3 else "-".join(str(x) for x in s["negative_controls"].values())
     exp = s["marks_expected"]
-    md.append(f"| {s['series']} | {s['paper']} | {g['G0-identity']} | {g['G1-structure']} | {g['G2-verbatim']} | {g['G3-mcq-integrity']} | "
+    md.append(f"| {s['series']} | {s['paper']} | {g['G0-identity']} | {g['G1-structure']} | {g['G2-D-disclosure']} | {g['G3-mcq-integrity']} | "
               f"{g['G4-figure-resolution']} | {g['G5-answer-linkage']} | {g['G6-registry-codes']} | {nc} | {s['questions']} | {s['parts']} | "
               f"{s['marks_total']}/{exp} | {s['mcq_keyed']}/{s['mcq_parts']} | {s['review_queue_items']} |")
 md += ["", "## Terminal states", ""]

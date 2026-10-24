@@ -1,6 +1,6 @@
 # ADR-037 corpus run — 4CH1 complete: 1C + 2C + both F-178 R-variant tranches (1CR, 2CR) — 54 slices, all series in syllabai-pastpapers; F34 + F-178
 
-> generated 2026-10-22T13:41:13Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
+> generated 2026-10-24T08:44:01Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
 > 54 slices (['1C', '1CR', '2C', '2CR']) · 477 questions · 2607 parts · 4860 marks extracted · 54 slices fully PASS
 
 | series | paper | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |

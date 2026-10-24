@@ -1,6 +1,6 @@
 # 4CH1/1C — 2022-01 (official extraction)
 
-> schema `syllabai.official-paper-questions/0.1` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/1C` · qp sha256 `06c4f1f72748869e…` · extracted verbatim, never regenerated (ADR-037)
+> schema `syllabai.official-paper-questions/0.2` · paper_id `pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/1C` · qp sha256 `06c4f1f72748869e…` · extraction is the disclosed baseline (ADR-039)
 
 ## Question 1 (7 marks)
 
